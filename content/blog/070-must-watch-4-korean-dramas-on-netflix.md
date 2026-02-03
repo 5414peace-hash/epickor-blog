@@ -27,6 +27,18 @@ If you love horror or zombie shows, **Kingdom** is a must-watch. Set in the Jose
 
 ---
 > From the fantasy world of "Goblin" to the zombie battles in "Kingdom," these Korean dramas offer a rich variety of genres and emotions. Each series provides unique storytelling, excellent acting, and unforgettable moments that will keep you hooked.
-> **🍿 K-Drama Night:** No drama marathon is complete without snacks! Grab this [Korean Snack Box]({{https://amzn.to/4rkmdsC}}) to enjoy while you watch your favorite series.
+> **🍿 K-Drama Night:** No drama marathon is complete without snacks! Grab this [Korean Snack Box](
+
+---
+
+<div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 2rem; border-radius: 1rem; margin: 3rem 0; box-shadow: 0 10px 30px rgba(0,0,0,0.2);">
+  <p style="color: white; font-size: 1.25rem; font-weight: 700; margin-bottom: 1rem;">🛍️ SHOP ON AMAZON</p>
+  <p style="color: rgba(255,255,255,0.9); margin-bottom: 1.5rem;">Check out this product on Amazon!</p>
+  <a href="https://amzn.to/4rkmdsC" style="display: inline-block; background: white; color: #667eea; padding: 0.75rem 2rem; border-radius: 0.5rem; font-weight: 700; text-decoration: none;">Shop on Amazon →</a>
+</div>
+
+---
+
+) to enjoy while you watch your favorite series.
 ### Keywords
 **Keywords**: Korean dramas, Netflix, Goblin, Reply Series, Kingdom, My Love from the Star, fantasy drama, romance, historical drama, zombie series, cinematography, Kim Go-eun, Gong Yoo, Kim Soo-hyun, Jeon Ji-hyun, Korean entertainment, must-watch series, Korean culture, popular Korean dramas.

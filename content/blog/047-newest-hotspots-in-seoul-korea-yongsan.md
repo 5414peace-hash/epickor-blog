@@ -17,11 +17,35 @@ This time, let's uncover the latest trending spots in Korea for 2024.
 
 ## **YONGSAN.**
 Nestled near Shinyongsan Station, you'll find a bustling restaurant street known as ‘`Yongridan-gil`.’ And yes, this is the hottest spot in Korea right now.
-> **💡 Pro Tip:** Exploring Seoul's hotspots can be tiring! Keep your energy up with this [Authentic Korean Snack Box]({{https://amzn.to/4rkmdsC}})—the perfect companion for your city adventures.
+> **💡 Pro Tip:** Exploring Seoul's hotspots can be tiring! Keep your energy up with this [Authentic Korean Snack Box](
+
+---
+
+<div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 2rem; border-radius: 1rem; margin: 3rem 0; box-shadow: 0 10px 30px rgba(0,0,0,0.2);">
+  <p style="color: white; font-size: 1.25rem; font-weight: 700; margin-bottom: 1rem;">🛍️ SHOP ON AMAZON</p>
+  <p style="color: rgba(255,255,255,0.9); margin-bottom: 1.5rem;">Check out this product on Amazon!</p>
+  <a href="https://amzn.to/4rkmdsC" style="display: inline-block; background: white; color: #667eea; padding: 0.75rem 2rem; border-radius: 0.5rem; font-weight: 700; text-decoration: none;">Shop on Amazon →</a>
+</div>
+
+---
+
+)—the perfect companion for your city adventures.
 Moreover, nearby is The `War Memorial of Korea`, offering a comprehensive glimpse into the history of the Korean War. Entrance is free, and there's a plethora of exhibits, including fighter planes, tanks, and cannons, providing an immersive experience of the war's history.
 
 Adjacent to this is `Yongsan Park`, once home to the U.S. military, as well as the National Museum of Korea and Yongsan Family Park. Yongsan Station is also close by, offering access to KTX trains connecting you to destinations all over Korea.
-> **🍜 Quick Meal:** After a long day of sightseeing, enjoy a quick and delicious meal with these [Korean Ramen Variety Packs]({{https://amzn.to/4qXfXaD}})—a favorite among locals and travelers alike!
+> **🍜 Quick Meal:** After a long day of sightseeing, enjoy a quick and delicious meal with these [Korean Ramen Variety Packs](
+
+---
+
+<div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 2rem; border-radius: 1rem; margin: 3rem 0; box-shadow: 0 10px 30px rgba(0,0,0,0.2);">
+  <p style="color: white; font-size: 1.25rem; font-weight: 700; margin-bottom: 1rem;">🛍️ SHOP ON AMAZON</p>
+  <p style="color: rgba(255,255,255,0.9); margin-bottom: 1.5rem;">Check out this product on Amazon!</p>
+  <a href="https://amzn.to/4qXfXaD" style="display: inline-block; background: white; color: #667eea; padding: 0.75rem 2rem; border-radius: 0.5rem; font-weight: 700; text-decoration: none;">Shop on Amazon →</a>
+</div>
+
+---
+
+)—a favorite among locals and travelers alike!
 Impressive, isn't it? 
 It's hard to resist a visit to Yongsan with all these attractions, isn't it?
 ---

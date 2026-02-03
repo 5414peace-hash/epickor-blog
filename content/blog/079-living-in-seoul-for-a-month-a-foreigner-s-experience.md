@@ -18,7 +18,19 @@ Tim from the UK found the subway system incredibly `convenient`, allowing him to
 ### **2. Diverse Food Scene**
 The food in Seoul is a dream for foodies. 
 Jane from the US raved about the endless options—from street vendors in `Myeongdong` to fine dining in `Gangnam`. Her favorites? Smoky Korean BBQ and the spicy, comforting tteokbokki. The accessibility of both traditional and modern fusion cuisines adds to the city's culinary appeal.
-> **💡 Pro Tip:** Planning your own Seoul adventure? Stay fueled with this [Authentic Korean Snack Box]({{https://amzn.to/4rkmdsC}})—perfect for long flights or late-night study sessions!
+> **💡 Pro Tip:** Planning your own Seoul adventure? Stay fueled with this [Authentic Korean Snack Box](
+
+---
+
+<div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 2rem; border-radius: 1rem; margin: 3rem 0; box-shadow: 0 10px 30px rgba(0,0,0,0.2);">
+  <p style="color: white; font-size: 1.25rem; font-weight: 700; margin-bottom: 1rem;">🛍️ SHOP ON AMAZON</p>
+  <p style="color: rgba(255,255,255,0.9); margin-bottom: 1.5rem;">Check out this product on Amazon!</p>
+  <a href="https://amzn.to/4rkmdsC" style="display: inline-block; background: white; color: #667eea; padding: 0.75rem 2rem; border-radius: 0.5rem; font-weight: 700; text-decoration: none;">Shop on Amazon →</a>
+</div>
+
+---
+
+)—perfect for long flights or late-night study sessions!
 
 ### **3. Exceptional Safety**
 Chris from Australia felt safe at any hour while exploring Seoul. The low crime rates and visible community-focused atmosphere provided peace of mind. Whether walking through lively markets or quiet alleys, he never felt uneasy, which he described as a `“rare luxury”` compared to other major cities worldwide.
@@ -27,7 +39,19 @@ Chris from Australia felt safe at any hour while exploring Seoul. The low crime 
 ### **Cons of Living in Seoul**
 ### **1. Language Barriers**
 While Seoul is modern and welcoming, the language barrier can be daunting for those who don’t speak Korean. Everyday tasks like ordering food or navigating administrative systems can become challenging without basic Korean phrases or apps to assist.
-> **📚 Study Aid:** Don't let the language barrier stop you! Check out these [Top-Rated Korean Language Learning Books]({{https://amzn.to/4rkmdsC}}) to start your journey today.
+> **📚 Study Aid:** Don't let the language barrier stop you! Check out these [Top-Rated Korean Language Learning Books](
+
+---
+
+<div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 2rem; border-radius: 1rem; margin: 3rem 0; box-shadow: 0 10px 30px rgba(0,0,0,0.2);">
+  <p style="color: white; font-size: 1.25rem; font-weight: 700; margin-bottom: 1rem;">🛍️ SHOP ON AMAZON</p>
+  <p style="color: rgba(255,255,255,0.9); margin-bottom: 1.5rem;">Check out this product on Amazon!</p>
+  <a href="https://amzn.to/4rkmdsC" style="display: inline-block; background: white; color: #667eea; padding: 0.75rem 2rem; border-radius: 0.5rem; font-weight: 700; text-decoration: none;">Shop on Amazon →</a>
+</div>
+
+---
+
+) to start your journey today.
 ### **2. Cultural Adjustments**
 Adapting to Korean culture may come with surprises. Social norms such as respecting elders, using honorifics, and specific dining etiquette can feel overwhelming initially. However, many foreigners find these differences enriching once they adjust.
 ### **3. Cost of Living**

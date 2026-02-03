@@ -17,7 +17,19 @@ Korea’s iconic ski resorts are a must-visit during winter! Start with the worl
 🎿 **Ski/Snowboard Rentals**: Add \$25–\$40 (₩30,000–₩50,000).
 **Insider Tip**: Arrive early in the morning to enjoy quieter slopes and the best panoramic views. Plus, morning light makes for perfect Instagram-worthy shots!
 *(Visuals: Skiers and snowboarders racing down the slopes, the golden sunrise over the mountains, and cozy lodge cafés)*
-> **🧤 Winter Essentials:** Staying warm is key to enjoying Korea's winter! Check out these [Korean Winter Snacks]({{https://amzn.to/4rkmdsC}}) to keep you energized on the slopes.
+> **🧤 Winter Essentials:** Staying warm is key to enjoying Korea's winter! Check out these [Korean Winter Snacks](
+
+---
+
+<div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 2rem; border-radius: 1rem; margin: 3rem 0; box-shadow: 0 10px 30px rgba(0,0,0,0.2);">
+  <p style="color: white; font-size: 1.25rem; font-weight: 700; margin-bottom: 1rem;">🛍️ SHOP ON AMAZON</p>
+  <p style="color: rgba(255,255,255,0.9); margin-bottom: 1.5rem;">Check out this product on Amazon!</p>
+  <a href="https://amzn.to/4rkmdsC" style="display: inline-block; background: white; color: #667eea; padding: 0.75rem 2rem; border-radius: 0.5rem; font-weight: 700; text-decoration: none;">Shop on Amazon →</a>
+</div>
+
+---
+
+) to keep you energized on the slopes.
 ---
 ### Seoul’s Outdoor Skating Rink – Where Magic Happens
 **Icy Rinks**

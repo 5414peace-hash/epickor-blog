@@ -16,7 +16,19 @@ In Korea, elevators are smarter than you think! Accidentally pressed the wrong f
 ---
 ### Restaurant Buzzers: Service at Your Fingertips
 Dining out in Korea is an experience in itself. Forget waving at waiters or calling out loudly to get their attention. At most restaurants, you’ll find service buzzers at your table. Just press the button, and a staff member will appear promptly to assist you. This system makes dining out efficient, seamless, and surprisingly stress-free.
-> **🎁 Bring Korea Home:** Love these unique Korean vibes? You can find [Authentic Korean Lifestyle Items and Snacks]({{https://amzn.to/4rkmdsC}}) on Amazon to experience a piece of Korea wherever you are!
+> **🎁 Bring Korea Home:** Love these unique Korean vibes? You can find [Authentic Korean Lifestyle Items and Snacks](
+
+---
+
+<div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 2rem; border-radius: 1rem; margin: 3rem 0; box-shadow: 0 10px 30px rgba(0,0,0,0.2);">
+  <p style="color: white; font-size: 1.25rem; font-weight: 700; margin-bottom: 1rem;">🛍️ SHOP ON AMAZON</p>
+  <p style="color: rgba(255,255,255,0.9); margin-bottom: 1.5rem;">Check out this product on Amazon!</p>
+  <a href="https://amzn.to/4rkmdsC" style="display: inline-block; background: white; color: #667eea; padding: 0.75rem 2rem; border-radius: 0.5rem; font-weight: 700; text-decoration: none;">Shop on Amazon →</a>
+</div>
+
+---
+
+) on Amazon to experience a piece of Korea wherever you are!
 ---
 ### High-Tech Subway System
 Korea’s subway system is one of the best in the world. Imagine riding a train that offers free WiFi, powerful air conditioning during scorching summers, and heated seats in the freezing winters. Yes, Korea's subway isn’t just a mode of transportation; it’s a haven of comfort for commuters. The stations are also incredibly clean and user-friendly, with clear signs in multiple languages.

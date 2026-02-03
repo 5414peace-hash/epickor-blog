@@ -11,7 +11,19 @@ author: "EpicKor"
 
 # Discover Seoul's Centuries-Old Culinary Gems Recognized by the Michelin Guide
 In Korea, old, well-established restaurants are called *`nopo`*. 
-> **🍲 Taste of Tradition:** Can't travel to Seoul right now? Experience the authentic flavors of Korea with these [Premium Korean Food Kits and Ingredients]({{https://amzn.to/4rpEzZl}}) available on Amazon!
+> **🍲 Taste of Tradition:** Can't travel to Seoul right now? Experience the authentic flavors of Korea with these [Premium Korean Food Kits and Ingredients](
+
+---
+
+<div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 2rem; border-radius: 1rem; margin: 3rem 0; box-shadow: 0 10px 30px rgba(0,0,0,0.2);">
+  <p style="color: white; font-size: 1.25rem; font-weight: 700; margin-bottom: 1rem;">🛍️ SHOP ON AMAZON</p>
+  <p style="color: rgba(255,255,255,0.9); margin-bottom: 1.5rem;">Check out this product on Amazon!</p>
+  <a href="https://amzn.to/4rpEzZl" style="display: inline-block; background: white; color: #667eea; padding: 0.75rem 2rem; border-radius: 0.5rem; font-weight: 700; text-decoration: none;">Shop on Amazon →</a>
+</div>
+
+---
+
+) available on Amazon!
 These spots have been serving up the same iconic dishes for 50 to 100 years, staying true to tradition. Let’s explore four *nopo* in Seoul, all recognized by the `Michelin Guide`.
 
 ---

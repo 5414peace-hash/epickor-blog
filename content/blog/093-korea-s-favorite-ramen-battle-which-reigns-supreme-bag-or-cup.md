@@ -16,7 +16,19 @@ Bag ramen and cup ramen may share the same roots, but the experience of eating t
 ---
 ### 🇰🇷 Ramen Nation: 80 Packs a Year?!
 Did you know that Koreans eat **an average of 80 packs of ramen per year**? That’s the **highest ramen consumption rate in the world**! It’s no surprise—ramen is fast, tasty, affordable, and comforting.
-> **🍜 Ramen Lovers:** Want to join the 80-packs-a-year club? Grab this [Korean Ramen Variety Pack]({{https://amzn.to/4qXfXaD}}) and find your favorite flavor!
+> **🍜 Ramen Lovers:** Want to join the 80-packs-a-year club? Grab this [Korean Ramen Variety Pack](
+
+---
+
+<div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 2rem; border-radius: 1rem; margin: 3rem 0; box-shadow: 0 10px 30px rgba(0,0,0,0.2);">
+  <p style="color: white; font-size: 1.25rem; font-weight: 700; margin-bottom: 1rem;">🛍️ SHOP ON AMAZON</p>
+  <p style="color: rgba(255,255,255,0.9); margin-bottom: 1.5rem;">Check out this product on Amazon!</p>
+  <a href="https://amzn.to/4qXfXaD" style="display: inline-block; background: white; color: #667eea; padding: 0.75rem 2rem; border-radius: 0.5rem; font-weight: 700; text-decoration: none;">Shop on Amazon →</a>
+</div>
+
+---
+
+) and find your favorite flavor!
 But when it comes to choosing between **bag ramen** and **cup ramen**, the preferences get interesting:
 - **75% of Koreans** prefer **bag ramen** when cooking at home 🏠.
 - **Cup ramen** dominates when it comes to **travel, hiking, office meals, or midnight snacks** 🌙.
@@ -33,7 +45,19 @@ On the flip side, **cup ramen** is the king of convenience. Just peel back the l
 **Cup ramen is the go-to choice for students during exam season, hikers at mountain peaks, office workers during breaks, and night owls craving a midnight bite.**
 Modern cup ramen comes in so many variations too — from seafood to cheese buldak, and even udon-style noodles. It’s light, portable, and perfect for spontaneous cravings.
 If instant satisfaction is what you’re after, **cup ramen never disappoints**.
-> **🎁 Gift Idea:** This [Korean Snack & Ramen Box]({{https://amzn.to/4rkmdsC}}) makes the perfect care package for students or office workers!
+> **🎁 Gift Idea:** This [Korean Snack & Ramen Box](
+
+---
+
+<div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 2rem; border-radius: 1rem; margin: 3rem 0; box-shadow: 0 10px 30px rgba(0,0,0,0.2);">
+  <p style="color: white; font-size: 1.25rem; font-weight: 700; margin-bottom: 1rem;">🛍️ SHOP ON AMAZON</p>
+  <p style="color: rgba(255,255,255,0.9); margin-bottom: 1.5rem;">Check out this product on Amazon!</p>
+  <a href="https://amzn.to/4rkmdsC" style="display: inline-block; background: white; color: #667eea; padding: 0.75rem 2rem; border-radius: 0.5rem; font-weight: 700; text-decoration: none;">Shop on Amazon →</a>
+</div>
+
+---
+
+) makes the perfect care package for students or office workers!
 ---
 ### 🤔 So… Which Ramen Are You?
 Bag ramen or cup ramen — the debate never ends! Are you someone who enjoys the process of cooking and customizing your meal? Or do you value quick, no-fuss convenience?

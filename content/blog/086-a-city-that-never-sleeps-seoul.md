@@ -24,7 +24,19 @@ In 2025, floating cafés have become all the rage. These trendy spots offer an i
 
 ### Seoul Night Market Renaissance
 Seoul’s night markets have reached new heights, blending traditional flavors with modern twists. From Michelin-level street food to artisanal crafts, the vibrant markets like Dongdaemun Night Market are must-visit destinations.
-> **🛍️ Seoul Shopping at Home:** Can't make it to the night markets? You can still enjoy [Popular Korean Snacks and Street Food Kits]({{https://amzn.to/4rkmdsC}}) delivered straight to your door!
+> **🛍️ Seoul Shopping at Home:** Can't make it to the night markets? You can still enjoy [Popular Korean Snacks and Street Food Kits](
+
+---
+
+<div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 2rem; border-radius: 1rem; margin: 3rem 0; box-shadow: 0 10px 30px rgba(0,0,0,0.2);">
+  <p style="color: white; font-size: 1.25rem; font-weight: 700; margin-bottom: 1rem;">🛍️ SHOP ON AMAZON</p>
+  <p style="color: rgba(255,255,255,0.9); margin-bottom: 1.5rem;">Check out this product on Amazon!</p>
+  <a href="https://amzn.to/4rkmdsC" style="display: inline-block; background: white; color: #667eea; padding: 0.75rem 2rem; border-radius: 0.5rem; font-weight: 700; text-decoration: none;">Shop on Amazon →</a>
+</div>
+
+---
+
+) delivered straight to your door!
 ### K-Culture Boom in Digital Art Spaces
 Seoul is setting trends with interactive digital art exhibits that showcase K-pop, K-drama, and traditional Korean culture in futuristic formats. Venues like the AR Museum in Gangnam provide immersive storytelling that attracts visitors from all over the world.
 ### Seoul Winter Festa

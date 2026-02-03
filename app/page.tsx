@@ -7,13 +7,13 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-gray-50">
       {/* Hero Section */}
-      <section className="bg-gradient-to-br from-blue-600 via-purple-600 to-pink-500 py-20 text-white">
+      <section className="bg-white border-b border-gray-200 py-20">
         <div className="container mx-auto px-4">
           <div className="max-w-3xl">
-            <h1 className="mb-4 text-5xl font-bold">
+            <h1 className="mb-4 text-6xl font-black text-gray-900" style={{ fontFamily: 'Inter, sans-serif' }}>
               EpicKor
             </h1>
-            <p className="text-xl opacity-90">
+            <p className="text-xl text-gray-600" style={{ fontFamily: 'Inter, sans-serif' }}>
               Discover Hidden Travel Gems, Unique Attractions, and Must-Visit Destinations in Korea
             </p>
           </div>
