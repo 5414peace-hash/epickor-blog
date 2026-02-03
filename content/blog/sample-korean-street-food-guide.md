@@ -177,7 +177,7 @@ While red bean is traditional, modern versions include:
 
 ## Gyeranppang (계란빵): Egg Bread
 
-![Korean Gyeranppang Egg Bread](https://images.unsplash.com/photo-1509440159596-0249088772ff?w=800&q=80)
+![Korean Gyeranppang Egg Bread](https://files.manuscdn.com/user_upload_by_module/session_file/310519663329800135/SiniSXCsrJuKdwXl.jpg)
 
 **Gyeranppang** is a savory bread with a whole egg baked inside. It's simple, satisfying, and perfect for breakfast or a quick snack.
 
