@@ -22,8 +22,8 @@ Did you know that Koreans eat **an average of 80 packs of ramen per year**? That
 
 <div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 2rem; border-radius: 1rem; margin: 3rem 0; box-shadow: 0 10px 30px rgba(0,0,0,0.2);">
   <p style="color: white; font-size: 1.25rem; font-weight: 700; margin-bottom: 1rem;">🛍️ SHOP ON AMAZON</p>
-  <p style="color: rgba(255,255,255,0.9); margin-bottom: 1.5rem;">Check out this product on Amazon!</p>
-  <a href="https://amzn.to/4qXfXaD" style="display: inline-block; background: white; color: #667eea; padding: 0.75rem 2rem; border-radius: 0.5rem; font-weight: 700; text-decoration: none;">Shop on Amazon →</a>
+  <p style="color: rgba(255,255,255,0.9); margin-bottom: 1.5rem;">EpicKor가 소개한 아이템, 지금 구매하러 가볼까요?</p>
+  <a href="https://amzn.to/4qXfXaD" target="_blank" style="display: inline-block; background: white; color: #667eea; padding: 0.75rem 2rem; border-radius: 0.5rem; font-weight: 700; text-decoration: none;">Shop on Amazon →</a>
 </div>
 
 ---
@@ -51,13 +51,13 @@ If instant satisfaction is what you’re after, **cup ramen never disappoints**.
 
 <div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 2rem; border-radius: 1rem; margin: 3rem 0; box-shadow: 0 10px 30px rgba(0,0,0,0.2);">
   <p style="color: white; font-size: 1.25rem; font-weight: 700; margin-bottom: 1rem;">🛍️ SHOP ON AMAZON</p>
-  <p style="color: rgba(255,255,255,0.9); margin-bottom: 1.5rem;">Check out this product on Amazon!</p>
-  <a href="https://amzn.to/4rkmdsC" style="display: inline-block; background: white; color: #667eea; padding: 0.75rem 2rem; border-radius: 0.5rem; font-weight: 700; text-decoration: none;">Shop on Amazon →</a>
+  <p style="color: rgba(255,255,255,0.9); margin-bottom: 1.5rem;">지금 바로 아마존에서 만나보세요!</p>
+  <a href="https://amzn.to/4rkmdsC" target="_blank" style="display: inline-block; background: white; color: #667eea; padding: 0.75rem 2rem; border-radius: 0.5rem; font-weight: 700; text-decoration: none;">Shop on Amazon →</a>
 </div>
 
 ---
 
-) makes the perfect care package for students or office workers!
+makes the perfect care package for students or office workers!
 ---
 ### 🤔 So… Which Ramen Are You?
 Bag ramen or cup ramen — the debate never ends! Are you someone who enjoys the process of cooking and customizing your meal? Or do you value quick, no-fuss convenience?
