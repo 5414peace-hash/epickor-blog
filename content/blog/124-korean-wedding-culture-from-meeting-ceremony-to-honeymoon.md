@@ -77,7 +77,7 @@ Pyebaek is deeply rooted in Confucian values of filial piety and respect for eld
   <p style="color: white; font-size: 14px; font-weight: 600; text-transform: uppercase; letter-spacing: 1px; margin: 0 0 12px 0;">💝 RECOMMENDED PRODUCT</p>
   <h4 style="color: white; font-size: 20px; font-weight: bold; margin: 0 0 12px 0;">Handmade Korean Hanbok Wine Bottle Cover</h4>
   <p style="color: rgba(255,255,255,0.9); font-size: 16px; line-height: 1.6; margin: 0 0 20px 0;">Want to bring Korean wedding traditions into your own celebration? This beautiful decorative piece captures the elegance of traditional Korean wedding attire!</p>
-  <a href="https://www.amazon.com/dp/B0CQWFPFWQ?tag=epickor2026-20" target="_blank" rel="noopener noreferrer" style="display: inline-block; background: white; color: #667eea; padding: 14px 32px; border-radius: 8px; font-weight: bold; text-decoration: none; font-size: 16px; transition: transform 0.2s;">Shop on Amazon →</a>
+  <a href="https://www.amazon.com/dp/B0CMLKWM3H?tag=epickor2026-20" target="_blank" rel="noopener noreferrer" style="display: inline-block; background: white; color: #667eea; padding: 14px 32px; border-radius: 8px; font-weight: bold; text-decoration: none; font-size: 16px; transition: transform 0.2s;">Shop on Amazon →</a>
 </div>
 
 ---
@@ -102,7 +102,7 @@ The tradition comes from the observation that mandarin ducks stay together throu
   <p style="color: white; font-size: 14px; font-weight: 600; text-transform: uppercase; letter-spacing: 1px; margin: 0 0 12px 0;">🦆 PERFECT WEDDING GIFT</p>
   <h4 style="color: white; font-size: 20px; font-weight: bold; margin: 0 0 12px 0;">Wooden Mandarin Duck Wedding Gift Set</h4>
   <p style="color: rgba(255,255,255,0.9); font-size: 16px; line-height: 1.6; margin: 0 0 20px 0;">Looking for a meaningful Korean wedding gift? This beautiful set represents the Korean ideal of lifelong partnership and makes a thoughtful present for any couple.</p>
-  <a href="https://www.amazon.com/dp/B0BXWH8KWH?tag=epickor2026-20" target="_blank" rel="noopener noreferrer" style="display: inline-block; background: white; color: #f5576c; padding: 14px 32px; border-radius: 8px; font-weight: bold; text-decoration: none; font-size: 16px; transition: transform 0.2s;">Shop on Amazon →</a>
+  <a href="https://www.amazon.com/dp/B0CMLKWM3H?tag=epickor2026-20" target="_blank" rel="noopener noreferrer" style="display: inline-block; background: white; color: #f5576c; padding: 14px 32px; border-radius: 8px; font-weight: bold; text-decoration: none; font-size: 16px; transition: transform 0.2s;">Shop on Amazon →</a>
 </div>
 
 ---
@@ -130,7 +130,7 @@ Korean weddings often have large guest lists (sometimes 200-300 people or more),
   <p style="color: white; font-size: 14px; font-weight: 600; text-transform: uppercase; letter-spacing: 1px; margin: 0 0 12px 0;">🎁 TRADITIONAL TOUCH</p>
   <h4 style="color: white; font-size: 20px; font-weight: bold; margin: 0 0 12px 0;">Korean Traditional Money Gift Envelopes</h4>
   <p style="color: rgba(255,255,255,0.9); font-size: 16px; line-height: 1.6; margin: 0 0 20px 0;">Want to present your monetary gift in a more traditional style? These elegant envelopes add an authentic Korean aesthetic to your wedding present!</p>
-  <a href="https://www.amazon.com/dp/B0CQQ4J7V2?tag=epickor2026-20" target="_blank" rel="noopener noreferrer" style="display: inline-block; background: white; color: #4facfe; padding: 14px 32px; border-radius: 8px; font-weight: bold; text-decoration: none; font-size: 16px; transition: transform 0.2s;">Shop on Amazon →</a>
+  <a href="https://www.amazon.com/s?k=korean+money+envelopes+wedding&tag=epickor2026-20" target="_blank" rel="noopener noreferrer" style="display: inline-block; background: white; color: #4facfe; padding: 14px 32px; border-radius: 8px; font-weight: bold; text-decoration: none; font-size: 16px; transition: transform 0.2s;">Shop on Amazon →</a>
 </div>
 
 ---
@@ -171,7 +171,7 @@ Many Korean couples save up for elaborate honeymoons, viewing it as a once-in-a-
   <p style="color: white; font-size: 14px; font-weight: 600; text-transform: uppercase; letter-spacing: 1px; margin: 0 0 12px 0;">✈️ TRAVEL IN STYLE</p>
   <h4 style="color: white; font-size: 20px; font-weight: bold; margin: 0 0 12px 0;">Korean Traditional Travel Organizer Set</h4>
   <p style="color: rgba(255,255,255,0.9); font-size: 16px; line-height: 1.6; margin: 0 0 20px 0;">Planning your Korean honeymoon? This beautiful organizer keeps your documents and essentials organized with authentic Korean design elements!</p>
-  <a href="https://www.amazon.com/dp/B0D3MQXZ9H?tag=epickor2026-20" target="_blank" rel="noopener noreferrer" style="display: inline-block; background: white; color: #fa709a; padding: 14px 32px; border-radius: 8px; font-weight: bold; text-decoration: none; font-size: 16px; transition: transform 0.2s;">Shop on Amazon →</a>
+  <a href="https://www.amazon.com/s?k=travel+organizer+set&tag=epickor2026-20" target="_blank" rel="noopener noreferrer" style="display: inline-block; background: white; color: #fa709a; padding: 14px 32px; border-radius: 8px; font-weight: bold; text-decoration: none; font-size: 16px; transition: transform 0.2s;">Shop on Amazon →</a>
 </div>
 
 ---

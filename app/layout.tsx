@@ -1,5 +1,8 @@
 import type { Metadata } from "next";
+import { Inter } from 'next/font/google';
 import "./globals.css";
+
+const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
   title: "EpicKor | No.1 Korean Dispatch Channel",
@@ -21,7 +24,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className="antialiased">
+      <body className={`${inter.className} antialiased`}>
         {/* Header */}
         <header className="border-b border-gray-200 bg-white">
           <div className="container mx-auto flex items-center justify-between px-4 py-4">
