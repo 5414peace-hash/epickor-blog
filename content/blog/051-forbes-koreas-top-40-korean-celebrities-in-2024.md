@@ -1,12 +1,24 @@
 ---
-title: "Forbes Korea's Top 40 Korean Celebrities in 2024"
-slug: "051"
-description: "Forbes Korea has revealed its list of the top 40 Korean power celebrities for 2024, with Blackpink taking the top spot."
-ogImage: "https://images.unsplash.com/photo-1517154421773-0529f29ea451?w=1200"
-date: "2026-02-03"
+title: Forbes Korea's Top 40 Korean Celebrities in 2024
+slug: '051'
+description: Explore Forbes Korea's Top 40 Korean Celebrities in 2024
+ogImage: ''
+date: '2026-02-03'
 ---
 
-![Korean culture](https://images.unsplash.com/photo-1524850011238-e3d235c7d4c9?w=600)
+# Forbes Korea's Top 40 Korean Celebrities in 2024
+
+태그: Celeb, Kpop
+날짜: 2024년 7월 24일
+Content: Forbes Korea has revealed its list of the top 40 Korean power celebrities for 2024, with Blackpink taking the top spot.
+
+```yaml
+cleanUrl: "/blog/051"
+description: "Forbes Korea has revealed its list of the top 40 Korean power celebrities for 2024, with Blackpink taking the top spot."
+ogImage: "https://oopy.lazyrockets.com/api/v2/notion/image?src=https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2Fe8ae5f9b-947d-4cc7-968c-38997cab4f69%2F07d6e22a-cd7b-4806-b01f-a2503ced2a02%2Fb360cf72-c959-44f2-98a3-9cc0fb487b2b.png&blockId=fe01868d-d745-4121-ae3c-39b31a8b24fc"
+```
+
+![062_epickor_민호.mp4_20240724_221354.590.jpg](Forbes%20Korea's%20Top%2040%20Korean%20Celebrities%20in%202024/b360cf72-c959-44f2-98a3-9cc0fb487b2b.png)
 
 # Discover the Top Korean Celebrities Dominating Forbes Korea's 2024 List
 
@@ -48,17 +60,9 @@ Minjae Kim, an actor, has risen to fame with his remarkable acting in popular dr
 **3rd New Jeans**:
 The girl group New Jeans has quickly become a favorite with their fresh style and energetic performances.
 
-![Korean culture](https://images.unsplash.com/photo-1517154421773-0529f29ea451?w=600)
+![062_epickor_민호.mp4_20240724_221440.024.jpg](Forbes%20Korea's%20Top%2040%20Korean%20Celebrities%20in%202024/062_epickor_%25EB%25AF%25BC%25ED%2598%25B8.mp4_20240724_221440.024.jpg)
 
-
-<div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 2rem; border-radius: 1rem; margin: 3rem 0; box-shadow: 0 10px 30px rgba(0,0,0,0.2);">
-  <p style="color: white; font-size: 1.25rem; font-weight: 700; margin-bottom: 1rem;">🛍️ SHOP ON AMAZON</p>
-  <p style="color: rgba(255,255,255,0.9); margin-bottom: 1.5rem;">Check out this product on Amazon!</p>
-  <a href="https://amzn.to/4rkmdsC" target="_blank" style="display: inline-block; background: white; color: #667eea; padding: 0.75rem 2rem; border-radius: 0.5rem; font-weight: 700; text-decoration: none;">Shop on Amazon →</a>
-</div>
-
-
-![Korean culture](https://images.unsplash.com/photo-1524850011238-e3d235c7d4c9?w=600)
+![062_epickor_민호.mp4_20240724_221443.056.jpg](Forbes%20Korea's%20Top%2040%20Korean%20Celebrities%20in%202024/062_epickor_%25EB%25AF%25BC%25ED%2598%25B8.mp4_20240724_221443.056.jpg)
 
 **2nd Son Heung-min**:
 Son Heung-min, a renowned footballer, continues to impress fans worldwide with his skills and sportsmanship.
@@ -66,9 +70,9 @@ Son Heung-min, a renowned footballer, continues to impress fans worldwide with h
 **1st Blackpink**:
 The long-awaited first place is taken by Blackpink, who have set new records and continue to lead in global popularity.
 
-![Korean culture](https://images.unsplash.com/photo-1517154421773-0529f29ea451?w=600)
+![062_epickor_민호.mp4_20240724_221444.959.jpg](Forbes%20Korea's%20Top%2040%20Korean%20Celebrities%20in%202024/062_epickor_%25EB%25AF%25BC%25ED%2598%25B8.mp4_20240724_221444.959.jpg)
 
-![Korean culture](https://images.unsplash.com/photo-1524850011238-e3d235c7d4c9?w=600)
+![062_epickor_민호.mp4_20240724_221455.156.jpg](Forbes%20Korea's%20Top%2040%20Korean%20Celebrities%20in%202024/062_epickor_%25EB%25AF%25BC%25ED%2598%25B8.mp4_20240724_221455.156.jpg)
 
 ### Celebrity Dynamics
 

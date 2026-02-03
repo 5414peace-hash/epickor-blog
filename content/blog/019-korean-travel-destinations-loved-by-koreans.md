@@ -1,12 +1,24 @@
 ---
-title: "Korean Travel Destinations Loved by Koreans"
-slug: "019"
-description: "Explore the top travel destinations in Korea loved by locals, including Jeju Island, Gyeongju, Busan, and Gangneung and Sokcho, for a unique and enriching travel experience."
-ogImage: "https://images.unsplash.com/photo-1517154421773-0529f29ea451?w=1200"
-date: "2026-02-03"
+title: Korean Travel Destinations Loved by Koreans
+slug: 019
+description: Explore Korean Travel Destinations Loved by Koreans
+ogImage: ''
+date: '2026-02-03'
 ---
 
-![Korean culture](https://images.unsplash.com/photo-1524850011238-e3d235c7d4c9?w=600)
+# Korean Travel Destinations Loved by Koreans
+
+태그: Culture, Travel
+날짜: 2024년 3월 31일
+Content: Explore the top travel destinations in Korea loved by locals, including Jeju Island, Gyeongju, Busan, and Gangneung and Sokcho, for a unique and enriching travel experience.
+
+```yaml
+cleanUrl: "/blog/019"
+description: "Explore the top travel destinations in Korea loved by locals, including Jeju Island, Gyeongju, Busan, and Gangneung and Sokcho, for a unique and enriching travel experience."
+ogImage: "https://oopy.lazyrockets.com/api/v2/notion/image?src=https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2Fe8ae5f9b-947d-4cc7-968c-38997cab4f69%2Fa27cb8e4-a7b6-464b-827b-34233ca933c3%2Fab189815-5584-44a7-b130-a6dfd10b076c.png&blockId=cfad417b-ce5b-460b-a7ac-ee9d034ebae6"
+```
+
+![019_epickor_휘수.mp4_20240711_105642.837.jpg](Korean%20Travel%20Destinations%20Loved%20by%20Koreans/ab189815-5584-44a7-b130-a6dfd10b076c.png)
 
 # Korean Travel Destinations Loved by Koreans
 
@@ -20,23 +32,15 @@ However, since more than 20% of the Korean population is concentrated in one cit
 
 So, where do many Koreans go to travel? According to actual tourism statistics in Korea, many people go to Jeju Island, an island with a unique and beautiful natural scenery.
 
-![Korean culture](https://images.unsplash.com/photo-1517154421773-0529f29ea451?w=600)
+![019_epickor_휘수.mp4_20240711_105712.234.jpg](Korean%20Travel%20Destinations%20Loved%20by%20Koreans/48564206-7b41-4a5e-be85-4bcbec54fcdf.png)
 
-![Korean culture](https://images.unsplash.com/photo-1524850011238-e3d235c7d4c9?w=600)
+![019_epickor_휘수.mp4_20240711_105724.922.jpg](Korean%20Travel%20Destinations%20Loved%20by%20Koreans/5856d517-a161-4341-9475-4f601c59145d.png)
 
 ### Gyeongju
 
 Second place is said to be Gyeongju, where you can see, feel, and learn about Korean history.
 
 ### Busan
-
-
-<div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 2rem; border-radius: 1rem; margin: 3rem 0; box-shadow: 0 10px 30px rgba(0,0,0,0.2);">
-  <p style="color: white; font-size: 1.25rem; font-weight: 700; margin-bottom: 1rem;">🛍️ SHOP ON AMAZON</p>
-  <p style="color: rgba(255,255,255,0.9); margin-bottom: 1.5rem;">Check out this product on Amazon!</p>
-  <a href="https://amzn.to/4rkmdsC" target="_blank" style="display: inline-block; background: white; color: #667eea; padding: 0.75rem 2rem; border-radius: 0.5rem; font-weight: 700; text-decoration: none;">Shop on Amazon →</a>
-</div>
-
 
 It is said that Busan, the second capital of Korea with a beautiful sea, was ranked 3rd.
 

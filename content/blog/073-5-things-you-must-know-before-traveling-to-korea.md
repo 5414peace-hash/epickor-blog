@@ -1,12 +1,24 @@
 ---
-title: "5 Things You Must Know Before Traveling to Korea"
-slug: "073"
-description: "Discover five crucial things to know before your trip to Korea, from cultural etiquette to the importance of CCTV, ensuring a smooth and enjoyable journey."
-ogImage: "https://images.unsplash.com/photo-1517154421773-0529f29ea451?w=1200"
-date: "2026-02-03"
+title: 5 Things You Must Know Before Traveling to Korea
+slug: '073'
+description: Explore 5 Things You Must Know Before Traveling to Korea
+ogImage: ''
+date: '2026-02-03'
 ---
 
-![Korean culture](https://images.unsplash.com/photo-1524850011238-e3d235c7d4c9?w=600)
+# 5 Things You Must Know Before Traveling to Korea
+
+태그: Culture, Shopping, Travel
+날짜: 2024년 9월 19일
+Content: Discover five crucial things to know before your trip to Korea, from cultural etiquette to the importance of CCTV, ensuring a smooth and enjoyable journey.
+
+```yaml
+cleanUrl: "/blog/073"
+description: "Discover five crucial things to know before your trip to Korea, from cultural etiquette to the importance of CCTV, ensuring a smooth and enjoyable journey."
+ogImage: "https://oopy.lazyrockets.com/api/v2/notion/image?src=https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2Fe8ae5f9b-947d-4cc7-968c-38997cab4f69%2Fc1f877bf-3254-4a51-bb0b-eac194dcca4e%2F1490862d-301e-4fff-8a6f-c641ae18c247.png&blockId=10673cc3-0454-8063-bd20-e5b9707f6dec"
+```
+
+![105_epickor_휘수.mp4_20240919_111416.456.jpg](5%20Things%20You%20Must%20Know%20Before%20Traveling%20to%20Korea/1490862d-301e-4fff-8a6f-c641ae18c247.png)
 
 # Essential Tips for a Safe and Comfortable Trip to South Korea
 
@@ -18,9 +30,9 @@ First, you will be stared at wherever you go. Korea is a country comprised of a 
 
 Second, Korea is incredibly safe, even 24/7. There are almost no thieves because they are sure to get caught. `CCTV cameras` are everywhere, covering all areas, so there are no blind spots. Feel secure no matter where you go.
 
-![Korean culture](https://images.unsplash.com/photo-1517154421773-0529f29ea451?w=600)
+![105_epickor_휘수.mp4_20240919_111436.961.jpg](5%20Things%20You%20Must%20Know%20Before%20Traveling%20to%20Korea/105_epickor_%25ED%259C%2598%25EC%2588%2598.mp4_20240919_111436.961.jpg)
 
-![Korean culture](https://images.unsplash.com/photo-1524850011238-e3d235c7d4c9?w=600)
+![105_epickor_휘수.mp4_20240919_111504.075.jpg](5%20Things%20You%20Must%20Know%20Before%20Traveling%20to%20Korea/105_epickor_%25ED%259C%2598%25EC%2588%2598.mp4_20240919_111504.075.jpg)
 
 ### 3. Be Polite
 
@@ -30,17 +42,9 @@ Third, politeness is crucial. Koreans highly value manners and etiquette. Most K
 
 Fourth, don't assume Koreans are cold. They may appear blunt at first, but it’s likely because you haven’t asked. Once you ask, they’ll gladly help and answer your questions sincerely. This is especially true for information desks and police stations, where people are `exceptionally friendly`.
 
-![Korean culture](https://images.unsplash.com/photo-1517154421773-0529f29ea451?w=600)
+![105_epickor_휘수.mp4_20240919_111530.055.jpg](5%20Things%20You%20Must%20Know%20Before%20Traveling%20to%20Korea/105_epickor_%25ED%259C%2598%25EC%2588%2598.mp4_20240919_111530.055.jpg)
 
-![Korean culture](https://images.unsplash.com/photo-1524850011238-e3d235c7d4c9?w=600)
-
-
-<div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 2rem; border-radius: 1rem; margin: 3rem 0; box-shadow: 0 10px 30px rgba(0,0,0,0.2);">
-  <p style="color: white; font-size: 1.25rem; font-weight: 700; margin-bottom: 1rem;">🛍️ SHOP ON AMAZON</p>
-  <p style="color: rgba(255,255,255,0.9); margin-bottom: 1.5rem;">Check out this product on Amazon!</p>
-  <a href="https://amzn.to/4rkmdsC" target="_blank" style="display: inline-block; background: white; color: #667eea; padding: 0.75rem 2rem; border-radius: 0.5rem; font-weight: 700; text-decoration: none;">Shop on Amazon →</a>
-</div>
-
+![105_epickor_휘수.mp4_20240919_111526.113.jpg](5%20Things%20You%20Must%20Know%20Before%20Traveling%20to%20Korea/105_epickor_%25ED%259C%2598%25EC%2588%2598.mp4_20240919_111526.113.jpg)
 
 ### 5. What's the Last One?
 

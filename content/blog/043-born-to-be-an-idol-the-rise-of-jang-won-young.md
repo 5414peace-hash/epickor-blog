@@ -1,12 +1,24 @@
 ---
-title: "Born to Be an Idol: The Rise of Jang Won-young"
-slug: "043"
-description: "Jang Won-young's journey from a survival audition show to a record-breaking K-pop idol showcases her undeniable talent and charm, making her a true icon in the industry."
-ogImage: "https://images.unsplash.com/photo-1517154421773-0529f29ea451?w=1200"
-date: "2026-02-03"
+title: 'Born to Be an Idol: The Rise of Jang Won-young'
+slug: '043'
+description: 'Explore Born to Be an Idol: The Rise of Jang Won-young'
+ogImage: ''
+date: '2026-02-03'
 ---
 
-![Korean culture](https://images.unsplash.com/photo-1524850011238-e3d235c7d4c9?w=600)
+# Born to Be an Idol: The Rise of Jang Won-young
+
+태그: Celeb, Kpop, Woman
+날짜: 2024년 7월 20일
+Content: Jang Won-young's journey from a survival audition show to a record-breaking K-pop idol showcases her undeniable talent and charm, making her a true icon in the industry.
+
+```yaml
+cleanUrl: "/blog/043"
+description: "Jang Won-young's journey from a survival audition show to a record-breaking K-pop idol showcases her undeniable talent and charm, making her a true icon in the industry."
+ogImage: "https://oopy.lazyrockets.com/api/v2/notion/image?src=https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2Fe8ae5f9b-947d-4cc7-968c-38997cab4f69%2F804ebb36-42d4-4ed3-8450-bb81d5c2e990%2F81f1043c-e856-4958-9fb9-3a89ffb9afaf.png&blockId=b4e102fa-ced0-4d42-a561-6e9dd4f5521a"
+```
+
+![045_epickor_건순.mp4_20240720_221111.104.jpg](Born%20to%20Be%20an%20Idol%20The%20Rise%20of%20Jang%20Won-young/81f1043c-e856-4958-9fb9-3a89ffb9afaf.png)
 
 # Discover How Jang Won-young Became a Sensation in the K-pop World
 
@@ -14,9 +26,9 @@ date: "2026-02-03"
 
 Have you ever seen this video?
 
-![Korean culture](https://images.unsplash.com/photo-1517154421773-0529f29ea451?w=600)
+![045_epickor_건순.mp4_20240720_221116.268.jpg](Born%20to%20Be%20an%20Idol%20The%20Rise%20of%20Jang%20Won-young/045_epickor_%25EA%25B1%25B4%25EC%2588%259C.mp4_20240720_221116.268.jpg)
 
-![Korean culture](https://images.unsplash.com/photo-1524850011238-e3d235c7d4c9?w=600)
+![045_epickor_건순.mp4_20240720_221120.896.jpg](Born%20to%20Be%20an%20Idol%20The%20Rise%20of%20Jang%20Won-young/045_epickor_%25EA%25B1%25B4%25EC%2588%259C.mp4_20240720_221120.896.jpg)
 
 Korean idol Jang Won-young's video became an issue by reaching `4.3 billion views` on TikTok.
 
@@ -24,21 +36,13 @@ Korean idol Jang Won-young's video became an issue by reaching `4.3 billion view
 
 The group that Jang Won-young belongs to, Ive's account, seemed to be aware of this and uploaded a new version of the video with the same song and dance, making it an issue `once again`.
 
-![Korean culture](https://images.unsplash.com/photo-1517154421773-0529f29ea451?w=600)
+![045_epickor_건순.mp4_20240720_221130.515.jpg](Born%20to%20Be%20an%20Idol%20The%20Rise%20of%20Jang%20Won-young/045_epickor_%25EA%25B1%25B4%25EC%2588%259C.mp4_20240720_221130.515.jpg)
 
-![Korean culture](https://images.unsplash.com/photo-1524850011238-e3d235c7d4c9?w=600)
+![045_epickor_건순.mp4_20240720_221127.922.jpg](Born%20to%20Be%20an%20Idol%20The%20Rise%20of%20Jang%20Won-young/045_epickor_%25EA%25B1%25B4%25EC%2588%259C.mp4_20240720_221127.922.jpg)
 
 ### Early Life and Debut
 
 Before her debut, Jang Won-young made her presence known to people by participating in a Korean survival audition program.
-
-
-<div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 2rem; border-radius: 1rem; margin: 3rem 0; box-shadow: 0 10px 30px rgba(0,0,0,0.2);">
-  <p style="color: white; font-size: 1.25rem; font-weight: 700; margin-bottom: 1rem;">🛍️ SHOP ON AMAZON</p>
-  <p style="color: rgba(255,255,255,0.9); margin-bottom: 1.5rem;">Check out this product on Amazon!</p>
-  <a href="https://amzn.to/4rkmdsC" target="_blank" style="display: inline-block; background: white; color: #667eea; padding: 0.75rem 2rem; border-radius: 0.5rem; font-weight: 700; text-decoration: none;">Shop on Amazon →</a>
-</div>
-
 
 She beat many audition competitors, took first place, and debuted as the center of a group called IZ*ONE.
 

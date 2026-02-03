@@ -1,12 +1,24 @@
 ---
-title: "The Most "Work Hard, Play Hard" Country in the World"
-slug: "024"
-description: "Korea is known for its unparalleled work ethic and equally passionate leisure activities, making it the ultimate 'work hard, play hard' nation."
-ogImage: "https://images.unsplash.com/photo-1517154421773-0529f29ea451?w=1200"
-date: "2026-02-03"
+title: The Most "Work Hard, Play Hard" Country in the World
+slug: '024'
+description: Explore The Most "Work Hard, Play Hard" Country in the World
+ogImage: ''
+date: '2026-02-03'
 ---
 
-![Korean culture](https://images.unsplash.com/photo-1524850011238-e3d235c7d4c9?w=600)
+# The Most "Work Hard, Play Hard" Country in the World
+
+태그: Culture
+날짜: 2024년 7월 13일
+Content: Korea is known for its unparalleled work ethic and equally passionate leisure activities, making it the ultimate "work hard, play hard" nation.
+
+```yaml
+cleanUrl: "/blog/024"
+description: "Korea is known for its unparalleled work ethic and equally passionate leisure activities, making it the ultimate 'work hard, play hard' nation."
+ogImage: "https://oopy.lazyrockets.com/api/v2/notion/image?src=https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2Fe8ae5f9b-947d-4cc7-968c-38997cab4f69%2F5f59c69e-f29c-4f16-baad-a6c5b02e5d90%2F2504384c-01ed-47c6-8e4a-c86e278fdd77.png&blockId=eac3ab52-e282-4201-9e43-626db7f573be"
+```
+
+![024_EpicKor_진호 (1).mp4_20240713_221601.682.jpg](The%20Most%20Work%20Hard,%20Play%20Hard%20Country%20in%20the%20World/2504384c-01ed-47c6-8e4a-c86e278fdd77.png)
 
 # Discover Why Korea is Renowned for Its Unique Balance of Intense Work and Play
 
@@ -30,19 +42,11 @@ As of 2024, Korea `ranks 13th` in the world economy. Why are they still working 
 
 In Korea, there is a term called ‘`work-life balance`.’ It is a new term that originated with the purpose of improving the quality of life by balancing working hours and leisure time.
 
-![Korean culture](https://images.unsplash.com/photo-1517154421773-0529f29ea451?w=600)
+![024_EpicKor_진호 (1).mp4_20240713_221630.248.jpg](The%20Most%20Work%20Hard,%20Play%20Hard%20Country%20in%20the%20World/3eadfa26-dd94-4f53-8fc1-0b767be20720.png)
 
-![Korean culture](https://images.unsplash.com/photo-1524850011238-e3d235c7d4c9?w=600)
+![024_EpicKor_진호 (1).mp4_20240713_221646.823.jpg](The%20Most%20Work%20Hard,%20Play%20Hard%20Country%20in%20the%20World/42b0ac46-b86f-4339-b761-6d0795401f87.png)
 
 ### The Overlooked Balance
-
-
-<div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 2rem; border-radius: 1rem; margin: 3rem 0; box-shadow: 0 10px 30px rgba(0,0,0,0.2);">
-  <p style="color: white; font-size: 1.25rem; font-weight: 700; margin-bottom: 1rem;">🛍️ SHOP ON AMAZON</p>
-  <p style="color: rgba(255,255,255,0.9); margin-bottom: 1.5rem;">Check out this product on Amazon!</p>
-  <a href="https://amzn.to/4rkmdsC" target="_blank" style="display: inline-block; background: white; color: #667eea; padding: 0.75rem 2rem; border-radius: 0.5rem; font-weight: 700; text-decoration: none;">Shop on Amazon →</a>
-</div>
-
 
 However, there is a fact that Koreans are overlooking. It's balance. 
 

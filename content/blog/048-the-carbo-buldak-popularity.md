@@ -1,12 +1,23 @@
 ---
-title: "The Carbo Buldak Popularity"
-slug: "048"
-description: "The popularity of Carbo Buldak has exploded on social media, with millions of views and mentions by celebrities like Cardi B, highlighting its widespread appeal and unique flavor."
-ogImage: "https://images.unsplash.com/photo-1517154421773-0529f29ea451?w=1200"
-date: "2026-02-03"
+title: The Carbo Buldak Popularity
+slug: 048
+description: Explore The Carbo Buldak Popularity
+ogImage: ''
+date: '2026-02-03'
 ---
 
-![Korean culture](https://images.unsplash.com/photo-1524850011238-e3d235c7d4c9?w=600)
+# The Carbo Buldak Popularity
+
+태그: Food, Shopping
+Content: The popularity of Carbo Buldak has exploded on social media, with millions of views and mentions by celebrities like Cardi B, highlighting its widespread appeal and unique flavor.
+
+```yaml
+cleanUrl: "/blog/048"
+description: "The popularity of Carbo Buldak has exploded on social media, with millions of views and mentions by celebrities like Cardi B, highlighting its widespread appeal and unique flavor."
+ogImage: "https://oopy.lazyrockets.com/api/v2/notion/image?src=https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2Fe8ae5f9b-947d-4cc7-968c-38997cab4f69%2F7b782990-f2fa-4732-afbb-a2dcf4e89f5f%2Fefd079cc-5d55-40e8-921b-2785c9caab20.png&blockId=c6235941-0452-4017-b489-e5b4ff3b39e3"
+```
+
+![057_EpicKor_진호.mp4_20240722_222004.262.jpg](The%20Carbo%20Buldak%20Popularity/efd079cc-5d55-40e8-921b-2785c9caab20.png)
 
 # How a Spicy Korean Ramen Took Over Social Media and Captivated International Fans
 
@@ -18,9 +29,9 @@ The identity of the gift was “`Carbo Buldak`.”
 
 This video garnered 59 million views on TikTok and attracted attention from the New York Times.
 
-![Korean culture](https://images.unsplash.com/photo-1517154421773-0529f29ea451?w=600)
+![057_EpicKor_진호.mp4_20240722_222016.271.jpg](The%20Carbo%20Buldak%20Popularity/057_EpicKor_%25EC%25A7%2584%25ED%2598%25B8.mp4_20240722_222016.271.jpg)
 
-![Korean culture](https://images.unsplash.com/photo-1524850011238-e3d235c7d4c9?w=600)
+![057_EpicKor_진호.mp4_20240722_222900.316.jpg](The%20Carbo%20Buldak%20Popularity/057_EpicKor_%25EC%25A7%2584%25ED%2598%25B8.mp4_20240722_222900.316.jpg)
 
 ### Media Coverage
 
@@ -34,17 +45,9 @@ Famous rapper `Cardi B` posted a video saying that she drove 30 minutes to get K
 
 A TikToker from Washington state even posted a video showing that she was taken to the `emergency room` after eating one Buldak every week for six months, garnering nearly 20 million views.
 
-![Korean culture](https://images.unsplash.com/photo-1517154421773-0529f29ea451?w=600)
+![057_EpicKor_진호.mp4_20240722_222042.734.jpg](The%20Carbo%20Buldak%20Popularity/057_EpicKor_%25EC%25A7%2584%25ED%2598%25B8.mp4_20240722_222042.734.jpg)
 
-
-<div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 2rem; border-radius: 1rem; margin: 3rem 0; box-shadow: 0 10px 30px rgba(0,0,0,0.2);">
-  <p style="color: white; font-size: 1.25rem; font-weight: 700; margin-bottom: 1rem;">🛍️ SHOP ON AMAZON</p>
-  <p style="color: rgba(255,255,255,0.9); margin-bottom: 1.5rem;">Check out this product on Amazon!</p>
-  <a href="https://amzn.to/4rkmdsC" target="_blank" style="display: inline-block; background: white; color: #667eea; padding: 0.75rem 2rem; border-radius: 0.5rem; font-weight: 700; text-decoration: none;">Shop on Amazon →</a>
-</div>
-
-
-![Korean culture](https://images.unsplash.com/photo-1524850011238-e3d235c7d4c9?w=600)
+![057_EpicKor_진호.mp4_20240722_222054.185.jpg](The%20Carbo%20Buldak%20Popularity/057_EpicKor_%25EC%25A7%2584%25ED%2598%25B8.mp4_20240722_222054.185.jpg)
 
 ### Surprising Demand
 

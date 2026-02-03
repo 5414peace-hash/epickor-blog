@@ -1,12 +1,24 @@
 ---
-title: "2030 Koreans' Summer K-POP Hits"
-slug: "058"
-description: "Explore the top summer K-POP songs that have remained favorites among Koreans, featuring hits from F(x), SISTAR, San E & Raina, and Red Velvet."
-ogImage: "https://images.unsplash.com/photo-1517154421773-0529f29ea451?w=1200"
-date: "2026-02-03"
+title: 2030 Koreans' Summer K-POP Hits
+slug: 058
+description: Explore 2030 Koreans' Summer K-POP Hits
+ogImage: ''
+date: '2026-02-03'
 ---
 
-![Korean culture](https://images.unsplash.com/photo-1524850011238-e3d235c7d4c9?w=600)
+# 2030 Koreans' Summer K-POP Hits
+
+태그: Celeb, Culture, Kpop, Travel
+날짜: 2024년 8월 1일
+Content: Explore the top summer K-POP songs that have remained favorites among Koreans, featuring hits from F(x), SISTAR, San E & Raina, and Red Velvet.
+
+```yaml
+cleanUrl: "/blog/058"
+description: "Explore the top summer K-POP songs that have remained favorites among Koreans, featuring hits from F(x), SISTAR, San E & Raina, and Red Velvet."
+ogImage: "https://oopy.lazyrockets.com/api/v2/notion/image?src=https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2Fe8ae5f9b-947d-4cc7-968c-38997cab4f69%2F702e14d5-03a7-4e80-a46f-bec59778a928%2F5657b73d-ef31-42d9-ae35-ac463b1d3ddd.png&blockId=ac8c6ff7-39ea-4fa1-9bf5-87e14bcdd907"
+```
+
+![076_epickor_휘수.mp4_20240801_220930.438.jpg](2030%20Koreans'%20Summer%20K-POP%20Hits/5657b73d-ef31-42d9-ae35-ac463b1d3ddd.png)
 
 # Discover the Timeless Summer K-POP Hits Koreans Love
 
@@ -28,17 +40,9 @@ There's probably no Korean who doesn't know this song by SISTAR, the ultimate su
 
 This summer hit from the hip-hop genre puts many Koreans in a romantic mood when they listen to it on a midsummer night.
 
-![Korean culture](https://images.unsplash.com/photo-1517154421773-0529f29ea451?w=600)
+![076_epickor_휘수.mp4_20240801_220950.731.jpg](2030%20Koreans'%20Summer%20K-POP%20Hits/076_epickor_%25ED%259C%2598%25EC%2588%2598.mp4_20240801_220950.731.jpg)
 
-
-<div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 2rem; border-radius: 1rem; margin: 3rem 0; box-shadow: 0 10px 30px rgba(0,0,0,0.2);">
-  <p style="color: white; font-size: 1.25rem; font-weight: 700; margin-bottom: 1rem;">🛍️ SHOP ON AMAZON</p>
-  <p style="color: rgba(255,255,255,0.9); margin-bottom: 1.5rem;">Check out this product on Amazon!</p>
-  <a href="https://amzn.to/4rkmdsC" target="_blank" style="display: inline-block; background: white; color: #667eea; padding: 0.75rem 2rem; border-radius: 0.5rem; font-weight: 700; text-decoration: none;">Shop on Amazon →</a>
-</div>
-
-
-![Korean culture](https://images.unsplash.com/photo-1524850011238-e3d235c7d4c9?w=600)
+![076_epickor_휘수.mp4_20240801_221003.054.jpg](2030%20Koreans'%20Summer%20K-POP%20Hits/076_epickor_%25ED%259C%2598%25EC%2588%2598.mp4_20240801_221003.054.jpg)
 
 ### Red Velvet – Red Flavor
 

@@ -1,12 +1,24 @@
 ---
-title: "Welcome, First Time in Korea?"
-slug: "026"
-description: "Explore the real reactions of foreigners to Korean culture and cuisine in the entertaining show 'Welcome, First Time in Korea?'"
-ogImage: "https://images.unsplash.com/photo-1517154421773-0529f29ea451?w=1200"
-date: "2026-02-03"
+title: Welcome, First Time in Korea?
+slug: '026'
+description: Explore Welcome, First Time in Korea?
+ogImage: ''
+date: '2026-02-03'
 ---
 
-![Korean culture](https://images.unsplash.com/photo-1524850011238-e3d235c7d4c9?w=600)
+# Welcome, First Time in Korea?
+
+태그: Culture, Travel
+날짜: 2024년 7월 14일
+Content: Explore the real reactions of foreigners to Korean culture and cuisine in the entertaining show "Welcome, First Time in Korea?”
+
+```yaml
+cleanUrl: "/blog/026"
+description: "Explore the real reactions of foreigners to Korean culture and cuisine in the entertaining show 'Welcome, First Time in Korea?'"
+ogImage: "https://oopy.lazyrockets.com/api/v2/notion/image?src=https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2Fe8ae5f9b-947d-4cc7-968c-38997cab4f69%2F64934d6f-88a9-4beb-98b1-3044a3485f1b%2F9fb1c822-081e-4581-93e7-751318117ab5.png&blockId=0609d7c5-f043-4091-a189-6d95964bbe5e"
+```
+
+![026_EpicKor_요순.mp4_20240714_153421.186.jpg](Welcome,%20First%20Time%20in%20Korea/9fb1c822-081e-4581-93e7-751318117ab5.png)
 
 # Discover the Authentic Travel Experiences of Foreigners in Korea
 
@@ -30,17 +42,9 @@ And when foreigners watch the show, they have a moment of surprise and say,
 
 `“Wow, Korea is like that?”`
 
+![026_EpicKor_요순.mp4_20240714_153459.666.jpg](Welcome,%20First%20Time%20in%20Korea/026_EpicKor_%25EC%259A%2594%25EC%2588%259C.mp4_20240714_153459.666.jpg)
 
-<div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 2rem; border-radius: 1rem; margin: 3rem 0; box-shadow: 0 10px 30px rgba(0,0,0,0.2);">
-  <p style="color: white; font-size: 1.25rem; font-weight: 700; margin-bottom: 1rem;">🛍️ SHOP ON AMAZON</p>
-  <p style="color: rgba(255,255,255,0.9); margin-bottom: 1.5rem;">Check out this product on Amazon!</p>
-  <a href="https://amzn.to/4rkmdsC" target="_blank" style="display: inline-block; background: white; color: #667eea; padding: 0.75rem 2rem; border-radius: 0.5rem; font-weight: 700; text-decoration: none;">Shop on Amazon →</a>
-</div>
-
-
-![Korean culture](https://images.unsplash.com/photo-1517154421773-0529f29ea451?w=600)
-
-![Korean culture](https://images.unsplash.com/photo-1524850011238-e3d235c7d4c9?w=600)
+![026_EpicKor_요순.mp4_20240714_153520.737.jpg](Welcome,%20First%20Time%20in%20Korea/026_EpicKor_%25EC%259A%2594%25EC%2588%259C.mp4_20240714_153520.737.jpg)
 
 ### Eyeglasses Story
 

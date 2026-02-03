@@ -1,0 +1,71 @@
+---
+title: Must-Watch 4 Korean Dramas on Netflix
+slug: 008
+description: ''
+ogImage: ''
+date: '2026-02-03'
+---
+
+<properties>
+{"Content":"Dive into these four must-watch Korean dramas on Netflix, featuring stunning cinematography, intense action, and heartwarming stories.","date:날짜:is_datetime":0,"date:날짜:start":"2024-08-27","url":"{{https://www.notion.so/396d51910e044fa2bad0932bdaf2efe7}}","이름":"Must-Watch 4 Korean Dramas on Netflix","태그":["Culture","Celeb"]}
+</properties>
+<content>
+```yaml
+cleanUrl: "/blog/070"
+description: "Dive into these four must-watch Korean dramas on Netflix, featuring stunning cinematography, intense action, and heartwarming stories."
+ogImage: "https://oopy.lazyrockets.com/api/v2/notion/image?src=https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2Fe8ae5f9b-947d-4cc7-968c-38997cab4f69%2F6f53d29a-be3d-4e97-a1b2-53fcb91545f9%2Fe1cccaf2-ffd4-4e4a-8fc7-5d9a2eaedd51.png&blockId=52449eeb-b9fe-49eb-a977-fac3ecc057ce"
+```
+![Image](/assets/images/posts/008/20260203100800_a655baa8.png)></image>
+# Discover the Best Korean Dramas on Netflix: From Fantasy to Romance
+### Goblin
+**Translated Content**:
+"**Goblin**" is a hugely popular fantasy drama about an immortal goblin and his bride. 
+The cinematography is stunning, and the soundtrack is perfect. 
+The acting by the leads, `Kim Go-eun` and `Gong Yoo`, is fantastic, and the supporting roles played by `Yoo In-na` and `Lee Dong-wook` are just as great.
+
+	
+		</image>
+	
+	
+		</image>
+	
+
+### Reply Series
+The **Reply Series** is set in the years 1988, 1994, and 1997, portraying the lives of young people and their families. 
+It’s full of relatable, charming characters and heartwarming stories about relationships and the warmth between people.
+
+	
+		</image>
+	
+	
+		</image>
+	
+
+### Kingdom
+If you love horror or zombie shows, **Kingdom** is a must-watch. Set in the Joseon Dynasty, it’s a historical drama featuring battles with zombies. Get ready for heart-pounding thrills and intense action!
+### My Love from the Star
+**My Love from the Star** features Kim Soo-hyun as a handsome alien who has been on Earth for 400 years, and Jeon Ji-hyun as a top actress. This fantasy romance has it all—hilarious moments that will make you laugh out loud and touching, romantic scenes that will melt your heart.
+
+	
+		</image>
+	
+	
+		</image>
+	
+
+<empty-block/>
+---
+> From the fantasy world of "Goblin" to the zombie battles in "Kingdom," these Korean dramas offer a rich variety of genres and emotions. Each series provides unique storytelling, excellent acting, and unforgettable moments that will keep you hooked.
+> **🍿 K-Drama Night:** No drama marathon is complete without snacks! Grab this [Korean Snack Box]({{https://amzn.to/4rkmdsC}}) to enjoy while you watch your favorite series.
+### Keywords
+**Keywords**: Korean dramas, Netflix, Goblin, Reply Series, Kingdom, My Love from the Star, fantasy drama, romance, historical drama, zombie series, cinematography, Kim Go-eun, Gong Yoo, Kim Soo-hyun, Jeon Ji-hyun, Korean entertainment, must-watch series, Korean culture, popular Korean dramas.
+<video source="{{https://youtube.com/shorts/8riVXruw2jg?si=4nVIXJ3_XpWAaIiu}}"></video>
+<unknown url="{{https://www.notion.so/396d51910e044fa2bad0932bdaf2efe7#17873cc3045480d689fad67b484fc54b}}" alt="bookmark"/>
+<unknown url="{{https://www.notion.so/396d51910e044fa2bad0932bdaf2efe7#17873cc30454804a9cf7e76e16e1a63b}}" alt="bookmark"/>
+<unknown url="{{https://www.notion.so/396d51910e044fa2bad0932bdaf2efe7#fb2ffc0b30194a5eb868175a426c467b}}" alt="bookmark"/>
+<unknown url="{{https://www.notion.so/396d51910e044fa2bad0932bdaf2efe7#993318d3e05b4ad2880785b89c9656d0}}" alt="bookmark"/>
+<unknown url="{{https://www.notion.so/396d51910e044fa2bad0932bdaf2efe7#0f03753adae24538bb68070dad2cf95f}}" alt="bookmark"/>
+<unknown url="{{https://www.notion.so/396d51910e044fa2bad0932bdaf2efe7#89a65ffebb7644cfb3ee270cfc555ca4}}" alt="bookmark"/>
+<unknown url="{{https://www.notion.so/396d51910e044fa2bad0932bdaf2efe7#32774f9d3c1c4f1c88948d249da38015}}" alt="bookmark"/>
+<unknown url="{{https://www.notion.so/396d51910e044fa2bad0932bdaf2efe7#7ca7d8598d264c3eadc260f1be632a6d}}" alt="bookmark"/>
+</content>

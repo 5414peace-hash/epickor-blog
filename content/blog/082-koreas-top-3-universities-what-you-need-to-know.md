@@ -1,12 +1,24 @@
 ---
-title: "Korea’s Top 3 Universities: What You Need to Know!"
-slug: "082"
-description: "Explore the rich history, academic prowess, and vibrant student life of Seoul National University, Korea University, and Yonsei University—collectively known as Korea's esteemed SKY universities."
-ogImage: "https://images.unsplash.com/photo-1517154421773-0529f29ea451?w=1200"
-date: "2026-02-03"
+title: 'Korea’s Top 3 Universities: What You Need to Know!'
+slug: 082
+description: 'Explore Korea’s Top 3 Universities: What You Need to Know!'
+ogImage: ''
+date: '2026-02-03'
 ---
 
-![Korean culture](https://images.unsplash.com/photo-1524850011238-e3d235c7d4c9?w=600)
+# Korea’s Top 3 Universities: What You Need to Know!
+
+태그: Culture, Social
+날짜: 2025년 1월 9일
+Content: Explore the rich history, academic prowess, and vibrant student life of Seoul National University, Korea University, and Yonsei University—collectively known as Korea's esteemed SKY universities.
+
+```yaml
+cleanUrl: "/blog/082"
+description: "Explore the rich history, academic prowess, and vibrant student life of Seoul National University, Korea University, and Yonsei University—collectively known as Korea's esteemed SKY universities."
+ogImage: "https://oopy.lazyrockets.com/api/v2/notion/image?src=https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2Fe8ae5f9b-947d-4cc7-968c-38997cab4f69%2F1e66af41-5336-49e1-804f-da5da85212b7%2Faf24b8c3-5c79-4465-9da3-2065385ad011.png&blockId=17673cc3-0454-8037-b406-cf6dc28cab8d"
+```
+
+![109_EpicKor_요순.mp4_20250109_215106.877.jpg](Korea%E2%80%99s%20Top%203%20Universities%20What%20You%20Need%20to%20Know!/af24b8c3-5c79-4465-9da3-2065385ad011.png)
 
 # Discover the Legacy and Excellence of Korea's Prestigious SKY Universities
 
@@ -16,9 +28,9 @@ date: "2026-02-03"
 
 Established in 1946, Seoul National University (SNU) stands as South Korea's first national university, integrating various educational institutions to form a comprehensive academic hub. Its roots trace back to the late 19th century, with several of its colleges originating from institutions established by King Gojong of the Joseon dynasty.
 
-![Korean culture](https://images.unsplash.com/photo-1517154421773-0529f29ea451?w=600)
+![109_EpicKor_요순.mp4_20250109_215120.233.jpg](Korea%E2%80%99s%20Top%203%20Universities%20What%20You%20Need%20to%20Know!/109_EpicKor_%25EC%259A%2594%25EC%2588%259C.mp4_20250109_215120.233.jpg)
 
-![Korean culture](https://images.unsplash.com/photo-1524850011238-e3d235c7d4c9?w=600)
+![109_EpicKor_요순.mp4_20250109_215126.866.jpg](Korea%E2%80%99s%20Top%203%20Universities%20What%20You%20Need%20to%20Know!/109_EpicKor_%25EC%259A%2594%25EC%2588%259C.mp4_20250109_215126.866.jpg)
 
 **Academic Excellence**
 
@@ -40,9 +52,9 @@ The Gwanak campus, nestled at the foot of the Gwanak Mountains, provides a pictu
 
 Founded in 1905 as Bosung College, Korea University (KU) has evolved into a leading private institution, celebrated for its commitment to academic freedom and excellence. The university played a pivotal role in Korea's independence movement, reflecting its deep-seated patriotism and dedication to national development.
 
-![Korean culture](https://images.unsplash.com/photo-1517154421773-0529f29ea451?w=600)
+![109_EpicKor_요순.mp4_20250109_215131.512.jpg](Korea%E2%80%99s%20Top%203%20Universities%20What%20You%20Need%20to%20Know!/109_EpicKor_%25EC%259A%2594%25EC%2588%259C.mp4_20250109_215131.512.jpg)
 
-![Korean culture](https://images.unsplash.com/photo-1524850011238-e3d235c7d4c9?w=600)
+![109_EpicKor_요순.mp4_20250109_215140.329.jpg](Korea%E2%80%99s%20Top%203%20Universities%20What%20You%20Need%20to%20Know!/109_EpicKor_%25EC%259A%2594%25EC%2588%259C.mp4_20250109_215140.329.jpg)
 
 **Academic Excellence**
 
@@ -62,23 +74,15 @@ KU's Anam campus, located in Seoul, blends traditional Korean architecture with 
 
 **Founding and History**
 
-
-<div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 2rem; border-radius: 1rem; margin: 3rem 0; box-shadow: 0 10px 30px rgba(0,0,0,0.2);">
-  <p style="color: white; font-size: 1.25rem; font-weight: 700; margin-bottom: 1rem;">🛍️ SHOP ON AMAZON</p>
-  <p style="color: rgba(255,255,255,0.9); margin-bottom: 1.5rem;">Check out this product on Amazon!</p>
-  <a href="https://amzn.to/4rkmdsC" target="_blank" style="display: inline-block; background: white; color: #667eea; padding: 0.75rem 2rem; border-radius: 0.5rem; font-weight: 700; text-decoration: none;">Shop on Amazon →</a>
-</div>
-
-
 Established in 1885, Yonsei University is one of Korea's oldest and most prestigious private institutions. It originated from the merger of Yonhi College and Severance Medical School, embodying a rich heritage of educational and medical advancements.
 
 **Academic Excellence**
 
 Yonsei is renowned for its medical school and international programs, fostering a global perspective among its students. The university emphasizes interdisciplinary studies, encouraging innovation and critical thinking.
 
-![Korean culture](https://images.unsplash.com/photo-1517154421773-0529f29ea451?w=600)
+![109_EpicKor_요순.mp4_20250109_215149.774.jpg](Korea%E2%80%99s%20Top%203%20Universities%20What%20You%20Need%20to%20Know!/109_EpicKor_%25EC%259A%2594%25EC%2588%259C.mp4_20250109_215149.774.jpg)
 
-![Korean culture](https://images.unsplash.com/photo-1524850011238-e3d235c7d4c9?w=600)
+![109_EpicKor_요순.mp4_20250109_215202.715.jpg](Korea%E2%80%99s%20Top%203%20Universities%20What%20You%20Need%20to%20Know!/109_EpicKor_%25EC%259A%2594%25EC%2588%259C.mp4_20250109_215202.715.jpg)
 
 **Notable Alumni**
 
@@ -100,9 +104,9 @@ The term 'SKY' refers to the collective prestige of Seoul National University, K
 
 While the 'SKY' universities hold significant prestige, South Korea is home to other esteemed institutions like KAIST (Korea Advanced Institute of Science and Technology), POSTECH (Pohang University of Science and Technology), and Ewha Womans University. These universities contribute to the diverse and dynamic landscape of higher education in Korea, offering specialized programs and fostering innovation across various fields.
 
-![Korean culture](https://images.unsplash.com/photo-1517154421773-0529f29ea451?w=600)
+![109_EpicKor_요순.mp4_20250109_215117.412.jpg](Korea%E2%80%99s%20Top%203%20Universities%20What%20You%20Need%20to%20Know!/109_EpicKor_%25EC%259A%2594%25EC%2588%259C.mp4_20250109_215117.412.jpg)
 
-![Korean culture](https://images.unsplash.com/photo-1524850011238-e3d235c7d4c9?w=600)
+![109_EpicKor_요순.mp4_20250109_215220.541.jpg](Korea%E2%80%99s%20Top%203%20Universities%20What%20You%20Need%20to%20Know!/109_EpicKor_%25EC%259A%2594%25EC%2588%259C.mp4_20250109_215220.541.jpg)
 
 ---
 

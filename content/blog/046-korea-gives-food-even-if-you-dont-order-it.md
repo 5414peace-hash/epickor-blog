@@ -1,12 +1,24 @@
 ---
-title: "Korea Gives Food Even If You Don’t Order It"
-slug: "046"
-description: "Discover how Korean restaurants surprise diners with complimentary side dishes and free services, enhancing your dining experience."
-ogImage: "https://images.unsplash.com/photo-1517154421773-0529f29ea451?w=1200"
-date: "2026-02-03"
+title: Korea Gives Food Even If You Don’t Order It
+slug: '046'
+description: Explore Korea Gives Food Even If You Don’t Order It
+ogImage: ''
+date: '2026-02-03'
 ---
 
-![Korean culture](https://images.unsplash.com/photo-1524850011238-e3d235c7d4c9?w=600)
+# Korea Gives Food Even If You Don’t Order It
+
+태그: Culture, Food, Travel
+날짜: 2024년 7월 21일
+Content: Discover how Korean restaurants surprise diners with complimentary side dishes and free services, enhancing your dining experience.
+
+```yaml
+cleanUrl: "/blog/046"
+description: "Discover how Korean restaurants surprise diners with complimentary side dishes and free services, enhancing your dining experience."
+ogImage: "https://oopy.lazyrockets.com/api/v2/notion/image?src=https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2Fe8ae5f9b-947d-4cc7-968c-38997cab4f69%2Ff1ce5fd9-053a-4555-a65d-80dd2c09c615%2Fb5bd702e-e6b7-4afa-97bb-51d471267746.png&blockId=fe1ac333-1591-4451-aa50-1417a842bc04"
+```
+
+![049_epickor_민호.mp4_20240721_214306.893.jpg](Korea%20Gives%20Food%20Even%20If%20You%20Don%E2%80%99t%20Order%20It/b5bd702e-e6b7-4afa-97bb-51d471267746.png)
 
 # Unveiling the Generous Dining Culture of Korean Restaurants
 
@@ -20,23 +32,15 @@ They just laugh as if they don't know what's going on.
 
 Actually, it wasn't that they ordered wrong, it was that they didn't know much about Korean food culture. Koreans usually eat rice, soup, and `several side dishes` together for one meal. The same goes for restaurants.
 
-![Korean culture](https://images.unsplash.com/photo-1517154421773-0529f29ea451?w=600)
+![049_epickor_민호.mp4_20240721_214319.336.jpg](Korea%20Gives%20Food%20Even%20If%20You%20Don%E2%80%99t%20Order%20It/049_epickor_%25EB%25AF%25BC%25ED%2598%25B8.mp4_20240721_214319.336.jpg)
 
-![Korean culture](https://images.unsplash.com/photo-1524850011238-e3d235c7d4c9?w=600)
+![049_epickor_민호.mp4_20240721_214333.833.jpg](Korea%20Gives%20Food%20Even%20If%20You%20Don%E2%80%99t%20Order%20It/049_epickor_%25EB%25AF%25BC%25ED%2598%25B8.mp4_20240721_214333.833.jpg)
 
 ### Side Dishes
 
 If you order a main menu, basic side dishes are also provided. 
 
 You can think of it as a set. 
-
-
-<div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 2rem; border-radius: 1rem; margin: 3rem 0; box-shadow: 0 10px 30px rgba(0,0,0,0.2);">
-  <p style="color: white; font-size: 1.25rem; font-weight: 700; margin-bottom: 1rem;">🛍️ SHOP ON AMAZON</p>
-  <p style="color: rgba(255,255,255,0.9); margin-bottom: 1.5rem;">Check out this product on Amazon!</p>
-  <a href="https://amzn.to/4rkmdsC" target="_blank" style="display: inline-block; background: white; color: #667eea; padding: 0.75rem 2rem; border-radius: 0.5rem; font-weight: 700; text-decoration: none;">Shop on Amazon →</a>
-</div>
-
 
 Even basic side dishes can be added indefinitely.
 
