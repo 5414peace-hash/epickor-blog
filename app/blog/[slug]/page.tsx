@@ -93,10 +93,77 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
 
         {/* Content */}
         <div
-          className="prose prose-lg max-w-none font-sans prose-headings:font-black prose-headings:text-gray-900 prose-headings:mb-10 prose-headings:mt-20 prose-h1:text-6xl prose-h1:leading-tight prose-h1:mb-12 prose-h2:text-6xl prose-h2:leading-tight prose-h2:mt-24 prose-h2:mb-8 prose-h2:border-b prose-h2:border-gray-300 prose-h2:pb-4 prose-h3:text-5xl prose-h3:leading-snug prose-h3:mt-16 prose-h3:mb-6 prose-h3:text-gray-800 prose-p:mb-10 prose-p:text-gray-700 prose-p:text-lg prose-a:text-blue-600 prose-a:font-semibold prose-a:no-underline hover:prose-a:underline prose-strong:text-gray-900 prose-strong:font-bold prose-img:my-12 prose-img:mx-auto prose-img:max-w-[600px] prose-img:w-full prose-img:h-auto prose-img:rounded-lg prose-img:shadow-lg prose-ul:my-10 prose-ul:space-y-4 prose-ol:my-10 prose-ol:space-y-4 prose-li:text-lg prose-hr:my-20 prose-hr:border-gray-300"
-          style={{ lineHeight: '1.8' }}
+          className="blog-content max-w-none font-sans"
           dangerouslySetInnerHTML={{ __html: post.content }}
         />
+        <style jsx>{`
+          .blog-content :global(h1) {
+            font-size: 64px;
+            font-weight: 900;
+            color: #111827;
+            margin-top: 3rem;
+            margin-bottom: 3rem;
+            line-height: 1.2;
+          }
+          .blog-content :global(h2) {
+            font-size: 64px;
+            font-weight: 900;
+            color: #111827;
+            margin-top: 6rem;
+            margin-bottom: 2rem;
+            padding-bottom: 1rem;
+            border-bottom: 2px solid #d1d5db;
+            line-height: 1.2;
+          }
+          .blog-content :global(h3) {
+            font-size: 56px;
+            font-weight: 900;
+            color: #1f2937;
+            margin-top: 4rem;
+            margin-bottom: 1.5rem;
+            line-height: 1.3;
+          }
+          .blog-content :global(p) {
+            font-size: 18px;
+            color: #374151;
+            margin-bottom: 2.5rem;
+            line-height: 1.8;
+          }
+          .blog-content :global(a) {
+            color: #2563eb;
+            font-weight: 600;
+            text-decoration: none;
+          }
+          .blog-content :global(a:hover) {
+            text-decoration: underline;
+          }
+          .blog-content :global(strong) {
+            font-weight: 700;
+            color: #111827;
+          }
+          .blog-content :global(img) {
+            max-width: 600px;
+            width: 100%;
+            height: auto;
+            margin: 3rem auto;
+            border-radius: 0.5rem;
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+          }
+          .blog-content :global(ul),
+          .blog-content :global(ol) {
+            margin: 2.5rem 0;
+            padding-left: 1.5rem;
+          }
+          .blog-content :global(li) {
+            font-size: 18px;
+            margin-bottom: 1rem;
+            line-height: 1.8;
+          }
+          .blog-content :global(hr) {
+            margin: 5rem 0;
+            border-color: #d1d5db;
+          }
+        `}</style>
       </article>
 
       {/* Back to Home */}
