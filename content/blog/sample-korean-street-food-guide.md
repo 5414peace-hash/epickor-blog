@@ -16,7 +16,7 @@ Whether you're planning a trip to Korea or simply curious about Korean cuisine, 
 
 ## Tteokbokki (떡볶이): The Spicy Rice Cake King
 
-![Korean Tteokbokki Street Food](https://images.unsplash.com/photo-1590301157890-4810ed352733?w=800&q=80)
+![Korean Tteokbokki Street Food](https://files.manuscdn.com/user_upload_by_module/session_file/310519663329800135/CUUioHLuuXcgzhMn.jpg)
 
 **Tteokbokki** is arguably the most iconic Korean street food. These chewy rice cakes are cooked in a sweet and spicy gochujang (red chili paste) sauce, creating an addictive combination that keeps people coming back for more.
 
@@ -53,7 +53,7 @@ If you can't handle spice, ask for "안 맵게 해주세요" (an maepge haejusey
 
 ## Hotteok (호떡): Sweet Korean Pancakes
 
-![Korean Hotteok Sweet Pancake](https://images.unsplash.com/photo-1626200419199-391ae4be7a41?w=800&q=80)
+![Korean Hotteok Sweet Pancake](https://files.manuscdn.com/user_upload_by_module/session_file/310519663329800135/zhtucOklGYwouHuh.jpg)
 
 **Hotteok** is a sweet, doughy pancake filled with a mixture of brown sugar, cinnamon, and crushed peanuts. It's especially popular during winter, when vendors serve them piping hot from griddles.
 
