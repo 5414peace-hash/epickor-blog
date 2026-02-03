@@ -31,6 +31,60 @@ export interface BlogPostMetadata {
 }
 
 /**
+ * 파일명에서 YAML frontmatter의 slug를 추출하는 헬퍼 함수
+ */
+function getSlugFromFile(fileName: string): string {
+  try {
+    const fullPath = path.join(contentDirectory, fileName);
+    const fileContents = fs.readFileSync(fullPath, 'utf8');
+    const { data } = matter(fileContents);
+    
+    // YAML frontmatter에 slug 필드가 있으면 우선 사용
+    if (data.slug) {
+      return data.slug;
+    }
+    
+    // fallback: 파일명에서 slug 추출
+    return fileName.replace(/\.md$/, '');
+  } catch (error) {
+    console.error(`Error reading slug from ${fileName}:`, error);
+    return fileName.replace(/\.md$/, '');
+  }
+}
+
+/**
+ * slug로 파일명 찾기 (YAML slug 또는 파일명 매칭)
+ */
+function findFileBySlug(slug: string): string | null {
+  try {
+    const fileNames = fs.readdirSync(contentDirectory);
+    
+    for (const fileName of fileNames) {
+      if (!fileName.endsWith('.md')) continue;
+      
+      const fullPath = path.join(contentDirectory, fileName);
+      const fileContents = fs.readFileSync(fullPath, 'utf8');
+      const { data } = matter(fileContents);
+      
+      // YAML slug가 일치하는 경우
+      if (data.slug === slug) {
+        return fileName;
+      }
+      
+      // fallback: 파일명이 일치하는 경우
+      if (fileName.replace(/\.md$/, '') === slug) {
+        return fileName;
+      }
+    }
+    
+    return null;
+  } catch (error) {
+    console.error(`Error finding file for slug ${slug}:`, error);
+    return null;
+  }
+}
+
+/**
  * 모든 블로그 포스트 메타데이터 가져오기 (날짜 내림차순)
  */
 export function getAllBlogPosts(): BlogPostMetadata[] {
@@ -39,10 +93,12 @@ export function getAllBlogPosts(): BlogPostMetadata[] {
     const allPostsData = fileNames
       .filter((fileName) => fileName.endsWith('.md'))
       .map((fileName) => {
-        const slug = fileName.replace(/\.md$/, '');
         const fullPath = path.join(contentDirectory, fileName);
         const fileContents = fs.readFileSync(fullPath, 'utf8');
         const { data } = matter(fileContents);
+        
+        // YAML slug 우선, fallback은 파일명
+        const slug = data.slug || fileName.replace(/\.md$/, '');
 
         return {
           slug,
@@ -74,12 +130,14 @@ export function getAllBlogPosts(): BlogPostMetadata[] {
  */
 export async function getBlogPost(slug: string): Promise<BlogPost | null> {
   try {
-    const fullPath = path.join(contentDirectory, `${slug}.md`);
+    // slug로 파일 찾기 (YAML slug 또는 파일명 매칭)
+    const fileName = findFileBySlug(slug);
     
-    if (!fs.existsSync(fullPath)) {
+    if (!fileName) {
       return null;
     }
-
+    
+    const fullPath = path.join(contentDirectory, fileName);
     const fileContents = fs.readFileSync(fullPath, 'utf8');
     const { data, content } = matter(fileContents);
 
@@ -90,9 +148,12 @@ export async function getBlogPost(slug: string): Promise<BlogPost | null> {
       .process(content);
     
     const contentHtml = processedContent.toString();
+    
+    // YAML slug 우선, fallback은 파일명
+    const postSlug = data.slug || fileName.replace(/\.md$/, '');
 
     return {
-      slug,
+      slug: postSlug,
       title: data.title || '',
       date: data.date || '',
       description: data.description || '',
@@ -115,7 +176,7 @@ export function getAllBlogSlugs(): string[] {
     const fileNames = fs.readdirSync(contentDirectory);
     return fileNames
       .filter((fileName) => fileName.endsWith('.md'))
-      .map((fileName) => fileName.replace(/\.md$/, ''));
+      .map((fileName) => getSlugFromFile(fileName));
   } catch (error) {
     console.error('Error reading blog slugs:', error);
     return [];
