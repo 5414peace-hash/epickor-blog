@@ -6,6 +6,7 @@ ogImage: "https://images.unsplash.com/photo-1517154421773-0529f29ea451?w=1200"
 date: "2026-02-03"
 ---
 
+
 ![Korean culture](https://images.unsplash.com/photo-1524850011238-e3d235c7d4c9?w=600)
 
 # **How to Fail 100% at Flirting in Korea**
