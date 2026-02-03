@@ -3,6 +3,7 @@ title: "Korean Wedding Culture: From Meeting Ceremony to Honeymoon"
 slug: "124"
 date: "2026-02-02"
 description: "Discover the beautiful traditions of Korean weddings, from the formal family meeting to the sacred Pyebaek ceremony and symbolic mandarin ducks."
+ogImage: "https://images.unsplash.com/photo-1591604129939-f1efa4d9f7fa?w=1200&q=80"
 image: "https://images.unsplash.com/photo-1606800052052-a08af7148866?w=1200&q=80"
 tags: ["Culture", "Travel", "Korea"]
 author: "EpicKor"

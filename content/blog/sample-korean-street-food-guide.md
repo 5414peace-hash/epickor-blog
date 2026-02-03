@@ -3,6 +3,7 @@ title: "The Ultimate Guide to Korean Street Food: From Tteokbokki to Hotteok"
 slug: "sample-korean-street-food-guide"
 date: "2026-02-03"
 description: "Discover the most delicious Korean street foods you must try, from spicy tteokbokki to sweet hotteok, with tips on where to find them and how to eat them like a local."
+ogImage: "https://images.unsplash.com/photo-1590301157890-4810ed352733?w=1200&q=80"
 image: "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=1200&q=80"
 tags: ["Food", "Travel", "Korea"]
 author: "EpicKor"
