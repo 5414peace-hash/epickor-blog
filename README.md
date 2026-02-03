@@ -1,36 +1,110 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# EpicKor Blog
 
-## Getting Started
+> **자체 블로그 엔진**: 노션 + 우피 대신 Next.js 기반 자체 블로그 시스템
 
-First, run the development server:
+[![Next.js](https://img.shields.io/badge/Next.js-14-black)](https://nextjs.org/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.9-blue)](https://www.typescriptlang.org/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind-4.1-38bdf8)](https://tailwindcss.com/)
+
+---
+
+## 🎯 프로젝트 개요
+
+EpicKor 블로그는 기존 노션 + 우피(Oopy) 시스템을 대체하는 **완전 자동화된 자체 블로그 엔진**입니다.
+
+### 주요 특징
+
+- ✅ **완전 자동화**: 마크다운 파일만 추가하면 자동으로 블로그 생성
+- ✅ **SEO 최적화**: Sitemap, Robots.txt, 메타 태그 자동 생성
+- ✅ **301 리다이렉트**: 기존 UUID URL → 새 `/blog/{번호}` URL
+- ✅ **세련된 디자인**: 매거진 스타일 반응형 레이아웃
+- ✅ **빠른 성능**: Next.js 14 App Router + Vercel Edge Network
+- ✅ **무료 호스팅**: Vercel 무료 플랜 (무제한 대역폭)
+
+---
+
+## 🚀 시작하기
+
+### 1. 의존성 설치
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+pnpm install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 2. 개발 서버 실행
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+pnpm dev
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+브라우저에서 http://localhost:3000 열기
 
-## Learn More
+### 3. 빌드
 
-To learn more about Next.js, take a look at the following resources:
+```bash
+pnpm build
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 📝 블로그 추가 방법
 
-## Deploy on Vercel
+### 1. 마크다운 파일 생성
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+`content/blog/` 디렉토리에 새 파일 생성:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+```markdown
+---
+title: "블로그 제목"
+slug: "125"
+date: "2026-02-03"
+description: "블로그 설명"
+ogImage: "/images/blog/125/hero.jpg"
+tags: ["Culture", "Travel", "Korea"]
+author: "EpicKor"
+---
+
+# 블로그 제목
+
+블로그 내용...
+```
+
+### 2. 이미지 추가 (선택사항)
+
+`public/images/blog/125/` 디렉토리에 이미지 추가
+
+### 3. 자동 빌드
+
+파일을 추가하면 Next.js가 자동으로 페이지 생성
+
+---
+
+## 🌐 배포
+
+### Vercel 배포 (추천)
+
+```bash
+# Vercel CLI 설치
+npm i -g vercel
+
+# 배포
+vercel --prod
+```
+
+자세한 배포 가이드: [DEPLOYMENT.md](./DEPLOYMENT.md)
+
+---
+
+## 📊 현재 상태
+
+- ✅ Next.js 14 프로젝트 초기화
+- ✅ 마크다운 렌더링 시스템 구축
+- ✅ 10개 블로그 마이그레이션
+- ✅ 세련된 매거진 스타일 UI
+- ✅ SEO 최적화 (Sitemap, Robots.txt)
+- ✅ 301 리다이렉트 설정
+- ✅ 반응형 디자인
+
+---
+
+**Made with ❤️ by EpicKor Team**
