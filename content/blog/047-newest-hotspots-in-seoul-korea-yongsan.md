@@ -29,7 +29,7 @@ Nestled near Shinyongsan Station, you'll find a bustling restaurant street known
 
 ---
 
-)—the perfect companion for your city adventures.
+—the perfect companion for your city adventures.
 Moreover, nearby is The `War Memorial of Korea`, offering a comprehensive glimpse into the history of the Korean War. Entrance is free, and there's a plethora of exhibits, including fighter planes, tanks, and cannons, providing an immersive experience of the war's history.
 
 Adjacent to this is `Yongsan Park`, once home to the U.S. military, as well as the National Museum of Korea and Yongsan Family Park. Yongsan Station is also close by, offering access to KTX trains connecting you to destinations all over Korea.
@@ -45,7 +45,7 @@ Adjacent to this is `Yongsan Park`, once home to the U.S. military, as well as t
 
 ---
 
-)—a favorite among locals and travelers alike!
+—a favorite among locals and travelers alike!
 Impressive, isn't it? 
 It's hard to resist a visit to Yongsan with all these attractions, isn't it?
 ---

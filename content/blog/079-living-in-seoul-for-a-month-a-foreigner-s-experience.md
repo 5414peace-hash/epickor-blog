@@ -30,7 +30,7 @@ Jane from the US raved about the endless options—from street vendors in `Myeon
 
 ---
 
-)—perfect for long flights or late-night study sessions!
+—perfect for long flights or late-night study sessions!
 
 ### **3. Exceptional Safety**
 Chris from Australia felt safe at any hour while exploring Seoul. The low crime rates and visible community-focused atmosphere provided peace of mind. Whether walking through lively markets or quiet alleys, he never felt uneasy, which he described as a `“rare luxury”` compared to other major cities worldwide.

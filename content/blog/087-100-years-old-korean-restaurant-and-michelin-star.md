@@ -23,7 +23,7 @@ In Korea, old, well-established restaurants are called *`nopo`*.
 
 ---
 
-) available on Amazon!
+ available on Amazon!
 These spots have been serving up the same iconic dishes for 50 to 100 years, staying true to tradition. Let’s explore four *nopo* in Seoul, all recognized by the `Michelin Guide`.
 
 ---
