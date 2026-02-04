@@ -31,6 +31,14 @@ From $3.7 billion in 2021, the webtoon market is expected to skyrocket to $56.1 
 
 ### Editor's Pick
 
+<h3>Editor's Pick</h3>
+
+<h3>Editor's Picks for You</h3>
+
+<h3>Editor's Pick</h3>
+
+<h3>Editor's Picks for You</h3>
+
 <div class="amazon-product-card">
   <div class="product-content">
     <h4 class="product-title"><a href="https://amzn.to/3O5pcqu" rel="nofollow sponsored" target="_blank">Yakgwa (Honey Cookie)</a></h4>

@@ -28,6 +28,14 @@ Koreans are surprised that foreigners often don't use umbrellas when it rains.
 
 ### Editor's Pick
 
+<h3>Editor's Pick</h3>
+
+<h3>Editor's Picks for You</h3>
+
+<h3>Editor's Pick</h3>
+
+<h3>Editor's Picks for You</h3>
+
 <div class="amazon-product-card">
   <div class="product-content">
     <h4 class="product-title"><a href="https://amzn.to/3Zgx6Qq" rel="nofollow sponsored" target="_blank">Hangeul Workbook</a></h4>

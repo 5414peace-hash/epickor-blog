@@ -40,6 +40,14 @@ they wondered, as this method is a common part of their daily lives.
 
 ### Editor's Pick
 
+<h3>Editor's Pick</h3>
+
+<h3>Editor's Picks for You</h3>
+
+<h3>Editor's Pick</h3>
+
+<h3>Editor's Picks for You</h3>
+
 <div class="amazon-product-card">
   <div class="product-content">
     <h4 class="product-title"><a href="https://amzn.to/3MaZWi6" rel="nofollow sponsored" target="_blank">Buldak Spicy Ramen</a></h4>

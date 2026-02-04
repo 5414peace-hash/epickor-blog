@@ -39,6 +39,14 @@ Interestingly, this whole debate on what to call an unfamiliar adult male gained
 
 ### Editor's Pick
 
+<h3>Editor's Pick</h3>
+
+<h3>Editor's Picks for You</h3>
+
+<h3>Editor's Pick</h3>
+
+<h3>Editor's Picks for You</h3>
+
 <div class="amazon-product-card">
   <div class="product-content">
     <h4 class="product-title"><a href="https://amzn.to/467PaA7" rel="nofollow sponsored" target="_blank">Ssamjang (Soybean Paste)</a></h4>

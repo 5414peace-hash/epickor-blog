@@ -30,6 +30,14 @@ Inwang Mountain is located in the heart of Seoul and is famous for its short and
 
 ### Editor's Pick
 
+<h3>Editor's Pick</h3>
+
+<h3>Editor's Picks for You</h3>
+
+<h3>Editor's Pick</h3>
+
+<h3>Editor's Picks for You</h3>
+
 <div class="amazon-product-card">
   <div class="product-content">
     <h4 class="product-title"><a href="https://amzn.to/495n6oT" rel="nofollow sponsored" target="_blank">Yellow Ramen Pot</a></h4>
