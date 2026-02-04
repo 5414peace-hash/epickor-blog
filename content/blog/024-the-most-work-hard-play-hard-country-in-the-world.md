@@ -35,8 +35,6 @@ As of 2024, Korea `ranks 13th` in the world economy. Why are they still working 
 
 In Korea, there is a term called ‘`work-life balance`.’ It is a new term that originated with the purpose of improving the quality of life by balancing working hours and leisure time.
 
-<div class="image-grid-2">
-
 ![EpicKor_진호 (1).mp4_20240713_221630.248.jpg](/assets/images/posts/024/3eadfa26-dd94-4f53-8fc1-0b767be20720.png)
 
 ![EpicKor_진호 (1).mp4_20240713_221646.823.jpg](/assets/images/posts/024/42b0ac46-b86f-4339-b761-6d0795401f87.png)

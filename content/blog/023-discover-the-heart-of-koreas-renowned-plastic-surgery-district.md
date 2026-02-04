@@ -21,8 +21,6 @@ There are as many as `9 plastic surgery hospitals` in the `10-story building`.
 
 The remaining one is also a dental clinic.
 
-<div class="image-grid-2">
-
 ![epickor_휘수_.mp4_20240712_222232.922.jpg](/assets/images/posts/023/023_epickor_%ED%9C%98%EC%88%98_.mp4_20240712_222232.922.jpg)
 
 ![epickor_휘수_.mp4_20240712_222223.999.jpg](/assets/images/posts/023/023_epickor_%ED%9C%98%EC%88%98_.mp4_20240712_222223.999.jpg)
@@ -34,8 +32,6 @@ A place where you can find these buildings very easily.
 The Sinsa Station intersection is located in Gangnam-gu, Seoul, South Korea. 
 
 There are `1,106 plastic surgery clinics` in Korea, more than half of which are concentrated in Seoul, and 74% of them are located in Gangnam-gu.
-
-<div class="image-grid-2">
 
 ![epickor_휘수_.mp4_20240712_222249.303.jpg](/assets/images/posts/023/023_epickor_%ED%9C%98%EC%88%98_.mp4_20240712_222249.303.jpg)
 

@@ -45,8 +45,6 @@ But if you really think about it, why should they?
 
 For what? For the country and its people? Or for their own happiness?
 
-<div class="image-grid-2">
-
 ![epickor_휘수.mp4_20240723_223654.000.jpg](/assets/images/posts/049/058_epickor_%ED%9C%98%EC%88%98.mp4_20240723_223654.000.jpg)
 
 ![epickor_휘수.mp4_20240723_223658.834.jpg](/assets/images/posts/049/058_epickor_%ED%9C%98%EC%88%98.mp4_20240723_223658.834.jpg)

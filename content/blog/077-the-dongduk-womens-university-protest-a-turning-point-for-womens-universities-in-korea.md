@@ -33,8 +33,6 @@ The scale and intensity of the protests caught the attention of national and int
 
 ---
 
-<div class="image-grid-2">
-
 ![epickor_건순.mp4_20250103_224704.934.jpg](/assets/images/posts/077/118_epickor_%EA%B1%B4%EC%88%9C.mp4_20250103_224704.934.jpg)
 
 ![epickor_건순.mp4_20250103_224711.273.jpg](/assets/images/posts/077/118_epickor_%EA%B1%B4%EC%88%9C.mp4_20250103_224711.273.jpg)
@@ -60,8 +58,6 @@ However, these assurances did little to quell the protests, as students felt the
 As of 2024, only `14 women’s universities remain in Korea`. 
 
 This number has been steadily decreasing due to demographic shifts and societal changes. The Dongduk incident underscores the existential challenges faced by these institutions and the cultural and educational implications of potential coeducational transitions.
-
-<div class="image-grid-2">
 
 ![epickor_건순.mp4_20250103_224809.721.jpg](/assets/images/posts/077/118_epickor_%EA%B1%B4%EC%88%9C.mp4_20250103_224809.721.jpg)
 

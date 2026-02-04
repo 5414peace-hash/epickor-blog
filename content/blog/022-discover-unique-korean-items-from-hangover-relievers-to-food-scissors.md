@@ -22,8 +22,6 @@ This is a toy that allows you to create a duck shape with snow.
 
 Koreans use this toy to create an army of hundreds of ducks in the winter.
 
-<div class="image-grid-2">
-
 ![EpicKor_진호.mp4_20240712_221031.610.jpg](/assets/images/posts/022/022_EpicKor_%EC%A7%84%ED%98%B8.mp4_20240712_221031.610.jpg)
 
 ![EpicKor_진호.mp4_20240712_221049.060.jpg](/assets/images/posts/022/022_EpicKor_%EC%A7%84%ED%98%B8.mp4_20240712_221049.060.jpg)
@@ -45,8 +43,6 @@ Rolled colored pencils that don't stain your hands are the basics, and there are
 They look no different from regular scissors, but in Korea, scissors are often used when cooking, so there are food scissors. 
 
 Of course, they never use office scissors and food scissors interchangeably.
-
-<div class="image-grid-2">
 
 ![EpicKor_진호.mp4_20240712_221058.848.jpg](/assets/images/posts/022/022_EpicKor_%EC%A7%84%ED%98%B8.mp4_20240712_221058.848.jpg)
 

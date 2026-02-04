@@ -18,8 +18,6 @@ In Korea, old, well-established restaurants are called `*nopo*`.
 
 These spots have been serving up the same iconic dishes for 50 to 100 years, staying true to tradition. Let’s explore four *nopo* in Seoul, all recognized by the `Michelin Guide`.
 
-<div class="image-grid-2">
-
 ![epickor_민호.mp4_20250113_222414.147.jpg](/assets/images/posts/087/475854de-010b-4838-aa97-9e7cf5684fbb.png)
 
 ![epickor_민호.mp4_20250113_222417.608.jpg](/assets/images/posts/087/bc6252f8-729d-4cd1-a233-44cbd803008c.png)
@@ -50,8 +48,6 @@ Since 1946, **Woo Rae Ok** has been synonymous with *naengmyeon* (cold buckwheat
 
 Founded in 1932, **Yonggeumok** specializes in *chueotang*, a distinctive soup made by grinding loaches, giving it a thick, earthy flavor. This unique dish is a favorite among locals seeking a nutritious and hearty meal, showcasing the diversity of Korean cuisine.
 
-<div class="image-grid-2">
-
 ![epickor_민호.mp4_20250113_222429.124.jpg](/assets/images/posts/087/114_epickor_%EB%AF%BC%ED%98%B8.mp4_20250113_222429.124.jpg)
 
 ![epickor_민호.mp4_20250113_222449.890.jpg](/assets/images/posts/087/114_epickor_%EB%AF%BC%ED%98%B8.mp4_20250113_222449.890.jpg)
@@ -61,8 +57,6 @@ Founded in 1932, **Yonggeumok** specializes in *chueotang*, a distinctive soup m
 ### Mijin: Simplicity at Its Finest with Buckwheat Noodles
 
 Since 1952, **Mijin** has delighted patrons with its *memil guksu* (buckwheat noodles). This simple yet flavorful dish, often paired with a spicy dipping sauce, is a testament to the beauty of minimalist Korean cooking. The restaurant's dedication to preserving traditional flavors has made it a beloved spot for both locals and visitors.
-
-<div class="image-grid-2">
 
 ![epickor_민호.mp4_20250113_222501.936.jpg](/assets/images/posts/087/114_epickor_%EB%AF%BC%ED%98%B8.mp4_20250113_222501.936.jpg)
 

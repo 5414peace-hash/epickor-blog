@@ -17,8 +17,6 @@ Today I would like to talk about Korean food, which surprises people all over th
 
 Recently, Korean chicken was featured on *Taste of Home*, a famous American cooking media. Published in 1993, *Taste of Home* is a credible magazine with an average of 20 million website visitors per month.
 
-<div class="image-grid-2">
-
 ![EpicKor_진호.mp4_20240711_105628.649.jpg](/assets/images/posts/018/833e943a-2661-4794-ad11-214e305cae57.png)
 
 ![EpicKor_진호.mp4_20240711_105626.058.jpg](/assets/images/posts/018/d35e200f-7d11-47e8-a4e6-b94e1158918a.png)

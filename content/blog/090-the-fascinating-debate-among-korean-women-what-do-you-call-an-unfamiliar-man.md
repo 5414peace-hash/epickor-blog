@@ -23,8 +23,6 @@ Interestingly, this whole debate on what to call an unfamiliar adult male gained
 
 ---
 
-<div class="image-grid-2">
-
 ![epickor_민호.mp4_20250116_211751.070.jpg](/assets/images/posts/090/117_epickor_%EB%AF%BC%ED%98%B8.mp4_20250116_211751.070.jpg)
 
 ![epickor_민호.mp4_20250116_211755.631.jpg](/assets/images/posts/090/117_epickor_%EB%AF%BC%ED%98%B8.mp4_20250116_211755.631.jpg)
@@ -59,9 +57,7 @@ To understand this better, let's look at some fun examples. Despite being born i
 2. **Hyun Bong-sik (1984-born)** exudes “Ahjusshi” energy, whereas **Lee Je-hoon (1984-born)** easily fits the “Oppa” mold.
 3. **Heo Sung-tae (1977-born)** has the aura of a distinguished "Ahjusshi," but **Won Bin (1977-born)**? Forever "Oppa."
     
-    <div class="image-grid-2">
-
-![epickor_민호.mp4_20250116_211848.710.jpg](/assets/images/posts/090/117_epickor_%EB%AF%BC%ED%98%B8.mp4_20250116_211848.710.jpg)
+    ![epickor_민호.mp4_20250116_211848.710.jpg](/assets/images/posts/090/117_epickor_%EB%AF%BC%ED%98%B8.mp4_20250116_211848.710.jpg)
 
 ![epickor_민호.mp4_20250116_211845.423.jpg](/assets/images/posts/090/117_epickor_%EB%AF%BC%ED%98%B8.mp4_20250116_211845.423.jpg)
 

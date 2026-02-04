@@ -23,8 +23,6 @@ He is nicknamed the facial genius.
 
 Who can find a flaw in his appearance?
 
-<div class="image-grid-2">
-
 ![epickor_건순.mp4_20240717_145706.015.jpg](/assets/images/posts/037/bf8775ce-a893-4145-8f16-65a215208372.png)
 
 ![epickor_건순.mp4_20240717_145719.046.jpg](/assets/images/posts/037/fb833498-53ea-4c56-9fe4-f523dd32ebd9.png)
@@ -42,8 +40,6 @@ Yeah… I’m speechless.
 Nah, we’re speechless.
 
 Don’t say anything, just watch.
-
-<div class="image-grid-2">
 
 ![epickor_건순.mp4_20240717_145726.791.jpg](/assets/images/posts/037/3f78a519-f176-42af-9390-00cd3aa9bae6.png)
 

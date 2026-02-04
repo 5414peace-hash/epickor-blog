@@ -23,8 +23,6 @@ First, you will be stared at wherever you go. Korea is a country comprised of a 
 
 Second, Korea is incredibly safe, even 24/7. There are almost no thieves because they are sure to get caught. `CCTV cameras` are everywhere, covering all areas, so there are no blind spots. Feel secure no matter where you go.
 
-<div class="image-grid-2">
-
 ![epickor_휘수.mp4_20240919_111436.961.jpg](/assets/images/posts/073/105_epickor_%ED%9C%98%EC%88%98.mp4_20240919_111436.961.jpg)
 
 ![epickor_휘수.mp4_20240919_111504.075.jpg](/assets/images/posts/073/105_epickor_%ED%9C%98%EC%88%98.mp4_20240919_111504.075.jpg)
@@ -36,8 +34,6 @@ Third, politeness is crucial. Koreans highly value manners and etiquette. Most K
 ### 4. Don't Hesitate to Ask for Help
 
 Fourth, don't assume Koreans are cold. They may appear blunt at first, but it’s likely because you haven’t asked. Once you ask, they’ll gladly help and answer your questions sincerely. This is especially true for information desks and police stations, where people are `exceptionally friendly`.
-
-<div class="image-grid-2">
 
 ![epickor_휘수.mp4_20240919_111530.055.jpg](/assets/images/posts/073/105_epickor_%ED%9C%98%EC%88%98.mp4_20240919_111530.055.jpg)
 

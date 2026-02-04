@@ -23,8 +23,6 @@ Red ginseng is a healthy food that is effective in improving immunity. It can be
 
 In Korea, when you prove yourself, you not only sign, but you also stamp. You can quickly create stamps with `various designs`. Engrave your name or favorite letters and use them in various ways.
 
-<div class="image-grid-2">
-
 ![EpicKor_요순_bgm제거.mp4_20240719_221522.893.jpg](/assets/images/posts/041/044_EpicKor_%EC%9A%94%EC%88%9C_bgm%EC%A0%9C%EA%B1%B0.mp4_20240719_221522.893.jpg)
 
 ![EpicKor_요순_bgm제거.mp4_20240719_221529.272.jpg](/assets/images/posts/041/044_EpicKor_%EC%9A%94%EC%88%9C_bgm%EC%A0%9C%EA%B1%B0.mp4_20240719_221529.272.jpg)

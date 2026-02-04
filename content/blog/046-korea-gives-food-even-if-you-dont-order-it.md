@@ -21,8 +21,6 @@ They just laugh as if they don't know what's going on.
 
 Actually, it wasn't that they ordered wrong, it was that they didn't know much about Korean food culture. Koreans usually eat rice, soup, and `several side dishes` together for one meal. The same goes for restaurants.
 
-<div class="image-grid-2">
-
 ![epickor_민호.mp4_20240721_214319.336.jpg](/assets/images/posts/046/049_epickor_%EB%AF%BC%ED%98%B8.mp4_20240721_214319.336.jpg)
 
 ![epickor_민호.mp4_20240721_214333.833.jpg](/assets/images/posts/046/049_epickor_%EB%AF%BC%ED%98%B8.mp4_20240721_214333.833.jpg)

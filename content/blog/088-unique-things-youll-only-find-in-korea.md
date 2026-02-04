@@ -15,8 +15,6 @@ tags: ['Culture', 'Social', 'Travel']
 
 In Korea, elevators are smarter than you think! Accidentally pressed the wrong floor button? No problem. Simply press the same button again, and voilà—it’s canceled. You won’t have to stop at unnecessary floors. This ingenious little feature saves time and frustration, making daily life in Korea incredibly convenient.
 
-<div class="image-grid-2">
-
 ![epickor_%EA%B1%B4%EC%88%9C.mp4_20250114_231046.938.jpg](/assets/images/posts/088/115_epickor_%EA%B1%B4%EC%88%9C.mp4_20250114_231046.938.jpg)
 
 ![epickor_%EA%B1%B4%EC%88%9C.mp4_20250114_231042.443.jpg](/assets/images/posts/088/115_epickor_%EA%B1%B4%EC%88%9C.mp4_20250114_231042.443.jpg)
@@ -43,8 +41,6 @@ Korea's subway system is one of the best in the world. Imagine riding a train th
 ### The “Culture of Trust”
 
 What truly sets Korea apart, though, is its profound "culture of trust." Outside convenience stores, you might see stacks of products sitting unattended, yet no one takes anything that doesn’t belong to them. On public transportation, people regularly give up their seats to the elderly. Strangers will even stop to help others carry heavy bags. This unique social fabric is woven with mutual respect, integrity, and an unwavering sense of community.
-
-<div class="image-grid-2">
 
 ![epickor_%EA%B1%B4%EC%88%9C.mp4_20250114_231110.277.jpg](/assets/images/posts/088/115_epickor_%EA%B1%B4%EC%88%9C.mp4_20250114_231110.277.jpg)
 

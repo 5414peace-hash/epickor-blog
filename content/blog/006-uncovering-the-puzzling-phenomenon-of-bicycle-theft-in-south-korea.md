@@ -30,8 +30,6 @@ If you drop your wallet while walking and come back to retrieve it later, it’s
 
 But strangely enough, Koreans have never been able to keep this one thing from a young age. Something that someone unknown keeps stealing. Something that every Korean has lost at least once. Yes, it’s “a `bicycle`”.
 
-<div class="image-grid-2">
-
 ![EpicKor_진호.mp4_20240705_105743.365.jpg](/assets/images/posts/006/92c8b4dd-d0a3-4506-afcf-cd479850eef9.png)
 
 ![EpicKor_진호.mp4_20240705_105740.026.jpg](/assets/images/posts/006/bd6f682c-8e2b-4f75-ab17-b0873dcdf46e.png)
@@ -41,8 +39,6 @@ But strangely enough, Koreans have never been able to keep this one thing from a
 Is it because bicycles sell well as second-hand vehicles and have the advantage of being easy to cash out?
 
 According to actual statistics, bicycle theft in Korea is 43 times higher than pickpocketing and 3 times higher than store theft.
-
-<div class="image-grid-2">
 
 ![EpicKor_진호.mp4_20240705_105748.954.jpg](/assets/images/posts/006/006_EpicKor_%EC%A7%84%ED%98%B8.mp4_20240705_105748.954.jpg)
 

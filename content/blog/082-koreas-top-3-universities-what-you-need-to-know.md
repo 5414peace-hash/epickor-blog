@@ -17,8 +17,6 @@ tags: ['Culture', 'Social']
 
 Established in 1946, Seoul National University (SNU) stands as South Korea's first national university, integrating various educational institutions to form a comprehensive academic hub. Its roots trace back to the late 19th century, with several of its colleges originating from institutions established by King Gojong of the Joseon dynasty.
 
-<div class="image-grid-2">
-
 ![EpicKor_요순.mp4_20250109_215120.233.jpg](/assets/images/posts/082/109_EpicKor_%EC%9A%94%EC%88%9C.mp4_20250109_215120.233.jpg)
 
 ![EpicKor_요순.mp4_20250109_215126.866.jpg](/assets/images/posts/082/109_EpicKor_%EC%9A%94%EC%88%9C.mp4_20250109_215126.866.jpg)
@@ -46,8 +44,6 @@ The Gwanak campus, nestled at the foot of the Gwanak Mountains, provides a pictu
 **Founding and History**
 
 Founded in 1905 as Bosung College, Korea University (KU) has evolved into a leading private institution, celebrated for its commitment to academic freedom and excellence. The university played a pivotal role in Korea's independence movement, reflecting its deep-seated patriotism and dedication to national development.
-
-<div class="image-grid-2">
 
 ![EpicKor_요순.mp4_20250109_215131.512.jpg](/assets/images/posts/082/109_EpicKor_%EC%9A%94%EC%88%9C.mp4_20250109_215131.512.jpg)
 
@@ -77,8 +73,6 @@ Established in 1885, Yonsei University is one of Korea's oldest and most prestig
 
 Yonsei is renowned for its medical school and international programs, fostering a global perspective among its students. The university emphasizes interdisciplinary studies, encouraging innovation and critical thinking.
 
-<div class="image-grid-2">
-
 ![EpicKor_요순.mp4_20250109_215149.774.jpg](/assets/images/posts/082/109_EpicKor_%EC%9A%94%EC%88%9C.mp4_20250109_215149.774.jpg)
 
 ![EpicKor_요순.mp4_20250109_215202.715.jpg](/assets/images/posts/082/109_EpicKor_%EC%9A%94%EC%88%9C.mp4_20250109_215202.715.jpg)
@@ -102,8 +96,6 @@ The term 'SKY' refers to the collective prestige of Seoul National University, K
 ### Beyond 'SKY': Other Notable Institutions
 
 While the 'SKY' universities hold significant prestige, South Korea is home to other esteemed institutions like KAIST (Korea Advanced Institute of Science and Technology), POSTECH (Pohang University of Science and Technology), and Ewha Womans University. These universities contribute to the diverse and dynamic landscape of higher education in Korea, offering specialized programs and fostering innovation across various fields.
-
-<div class="image-grid-2">
 
 ![EpicKor_요순.mp4_20250109_215117.412.jpg](/assets/images/posts/082/109_EpicKor_%EC%9A%94%EC%88%9C.mp4_20250109_215117.412.jpg)
 

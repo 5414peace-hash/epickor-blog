@@ -53,8 +53,6 @@ Minjae Kim, an actor, has risen to fame with his remarkable acting in popular dr
 **3rd New Jeans**:
 The girl group New Jeans has quickly become a favorite with their fresh style and energetic performances.
 
-<div class="image-grid-2">
-
 ![epickor_민호.mp4_20240724_221440.024.jpg](/assets/images/posts/051/062_epickor_%EB%AF%BC%ED%98%B8.mp4_20240724_221440.024.jpg)
 
 ![epickor_민호.mp4_20240724_221443.056.jpg](/assets/images/posts/051/062_epickor_%EB%AF%BC%ED%98%B8.mp4_20240724_221443.056.jpg)
@@ -64,8 +62,6 @@ Son Heung-min, a renowned footballer, continues to impress fans worldwide with h
 
 **1st Blackpink**:
 The long-awaited first place is taken by Blackpink, who have set new records and continue to lead in global popularity.
-
-<div class="image-grid-2">
 
 ![epickor_민호.mp4_20240724_221444.959.jpg](/assets/images/posts/051/062_epickor_%EB%AF%BC%ED%98%B8.mp4_20240724_221444.959.jpg)
 

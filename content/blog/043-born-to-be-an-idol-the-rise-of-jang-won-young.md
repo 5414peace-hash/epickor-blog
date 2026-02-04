@@ -15,8 +15,6 @@ tags: ['Celeb', 'Kpop', 'Woman']
 
 Have you ever seen this video?
 
-<div class="image-grid-2">
-
 ![epickor_건순.mp4_20240720_221116.268.jpg](/assets/images/posts/043/045_epickor_%EA%B1%B4%EC%88%9C.mp4_20240720_221116.268.jpg)
 
 ![epickor_건순.mp4_20240720_221120.896.jpg](/assets/images/posts/043/045_epickor_%EA%B1%B4%EC%88%9C.mp4_20240720_221120.896.jpg)
@@ -30,8 +28,6 @@ Korean idol Jang Won-young's video became an issue by reaching `4.3 billion view
 ---
 
 The group that Jang Won-young belongs to, Ive's account, seemed to be aware of this and uploaded a new version of the video with the same song and dance, making it an issue `once again`.
-
-<div class="image-grid-2">
 
 ![epickor_건순.mp4_20240720_221130.515.jpg](/assets/images/posts/043/045_epickor_%EA%B1%B4%EC%88%9C.mp4_20240720_221130.515.jpg)
 

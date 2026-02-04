@@ -19,8 +19,6 @@ They're crazy about extremely hot soup, not just warm. Boiling soup in a ceramic
 
 On the other hand, they are equally passionate about cold dishes. One popular example is `*naengmyeon*`, served in a large stainless steel bowl with frozen broth that’s so cold it feels like your head might burst. This love for extremes is deeply rooted in Korean food culture.
 
-<div class="image-grid-2">
-
 ![epickor_휘수.mp4_20240906_134754.450.jpg](/assets/images/posts/072/104_epickor_%ED%9C%98%EC%88%98.mp4_20240906_134754.450.jpg)
 
 ![epickor_휘수.mp4_20240906_134814.570.jpg](/assets/images/posts/072/104_epickor_%ED%9C%98%EC%88%98.mp4_20240906_134814.570.jpg)
@@ -36,8 +34,6 @@ You may know that dishes like `*kimchi*` and `*tteokbokki*` are spicy, but in Ko
 ### Archery: Where Precision Meets Extremes
 
 Korea’s love for extremes extends beyond food into sports. `Archery`, an Olympic event, is one of the most precision-demanding sports, and in Korea, the competition is fierce. There's a saying that the Korean national team trials are as intense as an Olympic final. The athletes undergo intense training, which includes practicing against noise at baseball stadiums and even competing with archery robots to sharpen their skills. Koreans, it seems, don’t know how to do anything halfway!
-
-<div class="image-grid-2">
 
 ![epickor_휘수.mp4_20240906_134853.602.jpg](/assets/images/posts/072/104_epickor_%ED%9C%98%EC%88%98.mp4_20240906_134853.602.jpg)
 

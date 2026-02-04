@@ -40,8 +40,6 @@ This practice is deeply rooted in their traditional lifestyle and cultural value
 **Why `clap or hit` others when laughing?**
 It’s common in Korea for people to clap or lightly hit someone nearby when they laugh. This behavior is a natural expression of joy and excitement, creating a shared moment of happiness.
 
-<div class="image-grid-2">
-
 ![EpicKor_건순.mp4_20240710_110507.298.jpg](/assets/images/posts/013/8d9141df-b36e-484d-bc70-242395052fff.png)
 
 ![EpicKor_건순.mp4_20240710_110539.194.jpg](/assets/images/posts/013/4b5197c4-419f-4cbc-bd0b-cc0509d20194.png)

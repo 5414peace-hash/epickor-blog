@@ -19,8 +19,6 @@ tags: ['Culture', 'Man']
 
 In 1953, the Korean War didn't conclude with a peace treaty but rather a temporary halt. Interestingly, Korea was excluded from the armistice agreement back then.
 
-<div class="image-grid-2">
-
 ![Epickor_건순.mp4_20240715_221556.253.jpg](/assets/images/posts/033/95d31a4f-2956-4daa-a230-52af08e10f76.png)
 
 ![Epickor_건순.mp4_20240715_221559.722.jpg](/assets/images/posts/033/521f1ff4-a98f-4508-8cd7-587cfdff2017.png)
@@ -48,8 +46,6 @@ Even after discharge, many undergo periodic military training, leading to a nati
 When North Korea is mentioned, it signals the approaching election season. 
 
 Ordinarily, Koreans aren't overly bothered by North Korea's actions. Yet, as National Assembly or Presidential elections near, politicians often bring up 'North Korea.'
-
-<div class="image-grid-2">
 
 ![Epickor_건순.mp4_20240715_221629.820.jpg](/assets/images/posts/033/bbb6da52-a12c-4d14-ab0d-4448edd12c31.png)
 

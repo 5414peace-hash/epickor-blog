@@ -16,8 +16,6 @@ tags: ['Celeb', 'Culture', 'Kpop']
 
 Did you know that there is a hip-hop TV program that ran for 11 years in Korea?
 
-<div class="image-grid-2">
-
 ![EpicKor_진호.mp4_20240704_181257.593.jpg](/assets/images/posts/005/8a280ef8-98b0-4c3f-ae38-fb1d2c2ed83f.png)
 
 ![EpicKor_진호.mp4_20240704_181252.161.jpg](/assets/images/posts/005/834d1781-b34f-4522-9414-b5a778dc3fc9.png)
@@ -44,13 +42,9 @@ It was a shortcut to becoming a superstar, with such influence that not only M.n
 
 The rapper who became a superstar through ‘SHOW ME THE MONEY’ includes:
 
-<div class="image-grid-2">
-
 ![EpicKor_진호.mp4_20240704_181348.841.jpg](/assets/images/posts/005/224b5237-f362-4cf4-9163-868e71be282f.png)
 
 ![EpicKor_진호.mp4_20240704_181351.402.jpg](/assets/images/posts/005/490179a6-e9fd-4a56-aeeb-f3e47f5ad635.png)
-
-<div class="image-grid-2">
 
 ![EpicKor_진호.mp4_20240704_181356.169.jpg](/assets/images/posts/005/bb09cda5-e139-4378-850f-2cd2cc76cda2.png)
 

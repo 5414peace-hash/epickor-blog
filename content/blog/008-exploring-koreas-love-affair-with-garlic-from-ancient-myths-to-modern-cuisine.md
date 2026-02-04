@@ -18,8 +18,6 @@ BBC MasterChef's main host, `John Torode`, once remarked that he ate more `garli
 
 He even showed a handful of garlic, explaining that what Koreans consider "a little" is actually quite a lot.
 
-<div class="image-grid-2">
-
 ![EpicKor_진호.mp4_20240705_112657.941.jpg](/assets/images/posts/008/39ef62bd-d1cd-43ab-a8e0-fde064191d0e.png)
 
 ![EpicKor_진호.mp4_20240705_112714.744.jpg](/assets/images/posts/008/108dd9e8-271e-46d0-9a72-0a593831b690.png)
@@ -31,8 +29,6 @@ He even showed a handful of garlic, explaining that what Koreans consider "a lit
 ---
 
 In fact, Korean per capita annual garlic consumption ranks first in the world. This country even cultivates “elephant garlic,” which is 10 times larger than regular garlic.
-
-<div class="image-grid-2">
 
 ![EpicKor_진호.mp4_20240705_112727.407.jpg](/assets/images/posts/008/90f79c40-b16e-4497-9277-53bcfbdb24bc.png)
 

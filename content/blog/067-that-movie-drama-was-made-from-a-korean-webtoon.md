@@ -31,8 +31,6 @@ From $3.7 billion in 2021, the webtoon market is expected to skyrocket to $56.1 
 
 **Naver Webtoon** boasts 82 million users, and Kakao's Piccoma recorded $673 million in transactions last year. The success of webtoons is opening doors for Korean comic artists on a global scale.
 
-<div class="image-grid-2">
-
 ![epickor_휘수.mp4_20240809_184545.845.jpg](/assets/images/posts/067/093_epickor_%ED%9C%98%EC%88%98.mp4_20240809_184545.845.jpg)
 
 ![epickor_휘수.mp4_20240809_184548.869.jpg](/assets/images/posts/067/093_epickor_%ED%9C%98%EC%88%98.mp4_20240809_184548.869.jpg)

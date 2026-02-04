@@ -30,8 +30,6 @@ Viyott cannot be exported due to its expiration date, making it exclusive to Kor
 
 This exclusivity adds to its appeal among Japanese visitors.
 
-<div class="image-grid-2">
-
 ![Epickor_민호.mp4_20240715_221508.456.jpg](/assets/images/posts/032/8fe17d65-0b35-414b-bc62-2f236aa6c500.png)
 
 ![Epickor_민호.mp4_20240715_221519.515.jpg](/assets/images/posts/032/032_Epickor_%EB%AF%BC%ED%98%B8.mp4_20240715_221519.515.jpg)

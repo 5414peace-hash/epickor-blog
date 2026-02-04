@@ -29,8 +29,6 @@ You can also use a massage chair.
 
 Each highway rest area has a representative food. In Korea, there is a map of restaurants for each highway rest area.
 
-<div class="image-grid-2">
-
 ![epickor_휘수.mp4_20240709_114339.478.jpg](/assets/images/posts/012/9ad58e14-8aa2-4f95-ae39-9cef7ba40dde.png)
 
 ![epickor_휘수.mp4_20240709_114342.503.jpg](/assets/images/posts/012/d6f0e08e-cc06-4948-90d2-2138792e26af.png)
@@ -50,8 +48,6 @@ Even the bathroom is crazy. There is a status board that lets you know if there 
 ### Arcades and Dog Parks
 
 There is also an arcade and a small dog park. Restroom, arcade, dog park. It's all free.
-
-<div class="image-grid-2">
 
 ![epickor_휘수.mp4_20240709_114429.543.jpg](/assets/images/posts/012/b94741cc-eaf4-4a1b-b32c-ac342093b940.png)
 

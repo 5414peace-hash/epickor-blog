@@ -21,8 +21,6 @@ BTS's V, who is serving in the `military`, was pictured wearing an `anti-terrori
 
 With his intense gaze and handsome appearance, even as a soldier, people responded as if they were filming a movie.
 
-<div class="image-grid-2">
-
 ![진호.mp4_20240720_221206.474.jpg](/assets/images/posts/044/047_epickor_%EC%A7%84%ED%98%B8.mp4_20240720_221206.474.jpg)
 
 ![진호.mp4_20240720_221209.388.jpg](/assets/images/posts/044/047_epickor_%EC%A7%84%ED%98%B8.mp4_20240720_221209.388.jpg)
@@ -34,8 +32,6 @@ Since young men in Korea are required to serve in the military, members of BTS a
 ### Military Police
 
 V applied to the military police and was accepted, and currently belongs to the SDT organization, which performs missions such as initial response to counter-terrorism operations and special operations.
-
-<div class="image-grid-2">
 
 ![진호.mp4_20240720_221226.279.jpg](/assets/images/posts/044/047_epickor_%EC%A7%84%ED%98%B8.mp4_20240720_221226.279.jpg)
 

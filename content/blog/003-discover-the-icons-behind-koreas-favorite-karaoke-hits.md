@@ -7,13 +7,9 @@ date: '2026-02-03'
 tags: ['Celeb', 'Culture', 'Kpop']
 ---
 
-<div class="image-grid-2">
-
 ![EpicKor Snippets_휘수.mp4_20240703_143115.476.jpg](/assets/images/posts/003/d1adafad-ab6e-4a7e-8bb1-d10d6d036429.png)
 
 ![EpicKor Snippets_휘수.mp4_20240703_143118.403.jpg](/assets/images/posts/003/002_EpicKor_Snippets_%ED%9C%98%EC%88%98.mp4_20240703_143118.403.jpg)
-
-<div class="image-grid-2">
 
 ![EpicKor Snippets_휘수.mp4_20240703_143126.700.jpg](/assets/images/posts/003/002_EpicKor_Snippets_%ED%9C%98%EC%88%98.mp4_20240703_143126.700.jpg)
 

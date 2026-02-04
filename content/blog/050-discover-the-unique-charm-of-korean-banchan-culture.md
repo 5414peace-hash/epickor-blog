@@ -25,8 +25,6 @@ tags: ['Culture', 'Food', 'Travel']
 
 The basic foods eaten with the main menu and rice are called "banchan" or side dishes. Usually, Korean food is eaten with several side dishes centered around one main menu, or the side dishes often become the main menu themselves.
 
-<div class="image-grid-2">
-
 ![epickor_민호.mp4_20240723_224612.169.jpg](/assets/images/posts/050/050_epickor_%EB%AF%BC%ED%98%B8.mp4_20240723_224612.169.jpg)
 
 ![epickor_민호.mp4_20240723_224650.257.jpg](/assets/images/posts/050/050_epickor_%EB%AF%BC%ED%98%B8.mp4_20240723_224650.257.jpg)

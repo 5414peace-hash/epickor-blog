@@ -21,8 +21,6 @@ Eminem, Maroon 5, Anne Marie, Charlie Puth, Sam Smith, FUN, DJ Marshmallow, Pent
 
 They are all moved by the `Koreans' singing along`.
 
-<div class="image-grid-2">
-
 ![epickor_휘수.mp4_20240802_223522.013.jpg](/assets/images/posts/061/082_epickor_%ED%9C%98%EC%88%98.mp4_20240802_223522.013.jpg)
 
 ![epickor_휘수.mp4_20240802_223525.753.jpg](/assets/images/posts/061/082_epickor_%ED%9C%98%EC%88%98.mp4_20240802_223525.753.jpg)
@@ -42,8 +40,6 @@ It's not just at the level of humming a song.
 The entire concert hall becomes one like the waves of a rippling sea. 
 
 It leaves a lasting impression on both musicians and audiences.
-
-<div class="image-grid-2">
 
 ![epickor_휘수.mp4_20240802_223529.127.jpg](/assets/images/posts/061/082_epickor_%ED%9C%98%EC%88%98.mp4_20240802_223529.127.jpg)
 

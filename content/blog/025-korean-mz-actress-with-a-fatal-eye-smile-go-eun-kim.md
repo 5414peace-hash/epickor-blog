@@ -19,11 +19,8 @@ She played the cute and innocent female main character in the very famous drama 
 
 Yes, she is Go-eun Kim.
 
-<div class="image-grid-2">
-
 ![Epickor_건순 (1).mp4_20240713_221722.890.jpg](/assets/images/epickor-placeholder.png).mp4![025_Epickor_건순 (1).mp4_20240713_221729.779.jpg](/assets/images/epickor-placeholder.png).mp4![025_Epickor_건순 (1).mp4_20240713_221745.998.jpg](/assets/images/epickor-placeholder.png).mp4![025_Epickor_건순 (1).mp4_20240713_221753.758.jpg](/assets/images/epickor-placeholder.png).mp4_20240713_221722.890.jpg).mp4_20240713_221722.890.jpg).mp4_20240713_221722.890.jpg).mp4_20240713_221722.890.jpg)
-
-</div>.mp4_20240713_221753.758.jpg)
+.mp4_20240713_221753.758.jpg)
 
 ### Flirty Smile
 

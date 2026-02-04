@@ -28,8 +28,6 @@ On `December 3, 2024`, at precisely 10:28 PM, President Yoon shocked the nation 
 
 In an unprecedented turn of events, the National Assembly acted swiftly, voting at 1:01 AM on `December 4` to demand the lifting of martial law. By 4:28 AM, just hours after it began, President Yoon officially revoked the order.
 
-<div class="image-grid-2">
-
 ![epickor_민호.mp4_20250103_222722.591.jpg](/assets/images/posts/076/121_epickor_%EB%AF%BC%ED%98%B8.mp4_20250103_222722.591.jpg)
 
 ![epickor_민호.mp4_20250103_222730.244.jpg](/assets/images/posts/076/121_epickor_%EB%AF%BC%ED%98%B8.mp4_20250103_222730.244.jpg)
@@ -75,8 +73,6 @@ South Korea’s streets became the stage for a powerful display of democratic ac
 ### A History of Presidential Impeachments
 
 This marks the `third time` in South Korea’s history that a sitting president has faced impeachment. Out of the previous two cases, one was upheld, leading to the removal of the president, while the other was dismissed. 
-
-<div class="image-grid-2">
 
 ![epickor_민호.mp4_20250103_222818.092.jpg](/assets/images/posts/076/121_epickor_%EB%AF%BC%ED%98%B8.mp4_20250103_222818.092.jpg)
 

@@ -31,8 +31,6 @@ At night, "`Donggung Palace and Wolji Pond`" shines even brighter, while "`Cheom
 
 Don't forget to spend some time on `Hwangridan-gil`, where you'll find popular restaurants, cafes, and shops that MZers love.
 
-<div class="image-grid-2">
-
 ![eickor_진호.mp4_20240814_172437.768.jpg](/assets/images/posts/069/098_eickor_%EC%A7%84%ED%98%B8.mp4_20240814_172437.768.jpg)
 
 ![eickor_진호.mp4_20240814_172457.464.jpg](/assets/images/posts/069/098_eickor_%EC%A7%84%ED%98%B8.mp4_20240814_172457.464.jpg)
@@ -44,8 +42,6 @@ Traveling from Seoul to Gyeongju takes about 2.5 to 3 hours by KTX, 3.5 to 4 hou
 ### Unique Experience
 
 Although it's a bit far from the Seoul metropolitan area, including Incheon International Airport, staying in a traditional Korean hanok can make for a unique experience, whether it's for a night or a few days.
-
-<div class="image-grid-2">
 
 ![eickor_진호.mp4_20240814_172511.595.jpg](/assets/images/posts/069/098_eickor_%EC%A7%84%ED%98%B8.mp4_20240814_172511.595.jpg)
 

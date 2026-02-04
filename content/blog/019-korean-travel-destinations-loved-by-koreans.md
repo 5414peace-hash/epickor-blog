@@ -21,8 +21,6 @@ However, since more than 20% of the Korean population is concentrated in one cit
 
 So, where do many Koreans go to travel? According to actual tourism statistics in Korea, many people go to Jeju Island, an island with a unique and beautiful natural scenery.
 
-<div class="image-grid-2">
-
 ![epickor_휘수.mp4_20240711_105712.234.jpg](/assets/images/posts/019/48564206-7b41-4a5e-be85-4bcbec54fcdf.png)
 
 ![epickor_휘수.mp4_20240711_105724.922.jpg](/assets/images/posts/019/5856d517-a161-4341-9475-4f601c59145d.png)

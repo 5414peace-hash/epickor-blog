@@ -21,8 +21,6 @@ The cinematography is stunning, and the soundtrack is perfect.
 
 The acting by the leads, `Kim Go-eun` and `Gong Yoo`, is fantastic, and the supporting roles played by `Yoo In-na` and `Lee Dong-wook` are just as great.
 
-<div class="image-grid-2">
-
 ![eickor_진호_bgm제거.mp4_20240827_102456.770.jpg](/assets/images/posts/070/099_eickor_%EC%A7%84%ED%98%B8_bgm%EC%A0%9C%EA%B1%B0.mp4_20240827_102456.770.jpg)
 
 ![eickor_진호_bgm제거.mp4_20240827_102509.066.jpg](/assets/images/posts/070/099_eickor_%EC%A7%84%ED%98%B8_bgm%EC%A0%9C%EA%B1%B0.mp4_20240827_102509.066.jpg)
@@ -37,8 +35,6 @@ The **Reply Series** is set in the years 1988, 1994, and 1997, portraying the li
 
 It’s full of relatable, charming characters and heartwarming stories about relationships and the warmth between people.
 
-<div class="image-grid-2">
-
 ![eickor_진호_bgm제거.mp4_20240827_102519.306.jpg](/assets/images/posts/070/099_eickor_%EC%A7%84%ED%98%B8_bgm%EC%A0%9C%EA%B1%B0.mp4_20240827_102519.306.jpg)
 
 ![eickor_진호_bgm제거.mp4_20240827_102521.307.jpg](/assets/images/posts/070/099_eickor_%EC%A7%84%ED%98%B8_bgm%EC%A0%9C%EA%B1%B0.mp4_20240827_102521.307.jpg)
@@ -50,8 +46,6 @@ If you love horror or zombie shows, **Kingdom** is a must-watch. Set in the Jose
 ### My Love from the Star
 
 **My Love from the Star** features Kim Soo-hyun as a handsome alien who has been on Earth for 400 years, and Jeon Ji-hyun as a top actress. This fantasy romance has it all—hilarious moments that will make you laugh out loud and touching, romantic scenes that will melt your heart.
-
-<div class="image-grid-2">
 
 ![eickor_진호_bgm제거.mp4_20240827_102529.813.jpg](/assets/images/posts/070/099_eickor_%EC%A7%84%ED%98%B8_bgm%EC%A0%9C%EA%B1%B0.mp4_20240827_102529.813.jpg)
 

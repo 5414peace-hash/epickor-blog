@@ -27,8 +27,6 @@ This city has a cool old fortress called `Hwaseong`, and an area called `Haenggu
 
 Walking along the fortress wall in the evening is especially nice because you get to enjoy the `night view` of downtown Suwon.
 
-<div class="image-grid-2">
-
 ![Epickor_건순.mp4_20240807_151845.615.jpg](/assets/images/posts/064/075_Epickor_%EA%B1%B4%EC%88%9C.mp4_20240807_151845.615.jpg)
 
 ![Epickor_건순.mp4_20240807_151856.030.jpg](/assets/images/posts/064/075_Epickor_%EA%B1%B4%EC%88%9C.mp4_20240807_151856.030.jpg)
@@ -42,8 +40,6 @@ Suwon is famous for its 'Wang Galbi', which are these amazingly marinated ribs. 
 On top of that, a huge shopping mall called `Starfield` just opened in Suwon. 
 
 It's a great spot for shopping and having fun indoors.
-
-<div class="image-grid-2">
 
 ![Epickor_건순.mp4_20240807_151901.790.jpg](/assets/images/posts/064/075_Epickor_%EA%B1%B4%EC%88%9C.mp4_20240807_151901.790.jpg)
 

@@ -13,8 +13,6 @@ tags: ['Celeb', 'Culture', 'Woman']
 
 People who have seen Koreans or Asians say that it is difficult to guess their `age`.
 
-<div class="image-grid-2">
-
 ![epickor_휘수.mp4_20240705_110449.732.jpg](/assets/images/posts/007/713b5396-bdb2-4969-bebc-01899c5dc5ad.png)
 
 ![epickor_휘수.mp4_20240705_110447.257.jpg](/assets/images/posts/007/881ccf14-07e0-4eac-8715-f08a41453f5c.png)
@@ -41,13 +39,9 @@ In addition, her appearance has consistently become a hot topic every time her p
 
 So what do you think? This is a collection of photos of her facial changes.
 
-<div class="image-grid-2">
-
 ![epickor_휘수.mp4_20240705_110540.572.jpg](/assets/images/posts/007/da7141c5-58af-457d-9f8f-bf7f6b5a1b1e.png)
 
 ![epickor_휘수.mp4_20240705_110542.274.jpg](/assets/images/posts/007/0f25dc7d-3f17-4fb1-a830-cd0b6a7b5422.png)
-
-<div class="image-grid-2">
 
 ![epickor_휘수.mp4_20240705_110543.971.jpg](/assets/images/posts/007/d575082e-bb4a-4bc7-b227-46363ec835e8.png)
 

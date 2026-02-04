@@ -34,8 +34,6 @@ PDs also abandoned the elements of hip-hop, which were no longer stimulating and
 
 As a result, the 11-year-long program concluded, and the popularity of hip-hop music weakened compared to the past.
 
-<div class="image-grid-2">
-
 ![EpicKor_진호_.mp4_20240708_145454.130.jpg](/assets/images/posts/009/a2d07641-da76-4e03-8e42-5953cc264c7b.png)
 
 ![EpicKor_진호_.mp4_20240708_145507.969.jpg](/assets/images/posts/009/38df27b6-34e9-40fe-ac78-3cf754fdf86c.png)
@@ -51,13 +49,9 @@ And if you are curious about Korean hip-hop and want to listen to the music, you
 - Beenzino - Rapper
 - Swings - Rapper
 
-<div class="image-grid-2">
-
 ![EpicKor_진호_.mp4_20240708_145516.387.jpg](/assets/images/posts/009/009_EpicKor_%EC%A7%84%ED%98%B8_.mp4_20240708_145516.387.jpg)
 
 ![EpicKor_진호_.mp4_20240708_145529.993.jpg](/assets/images/posts/009/009_EpicKor_%EC%A7%84%ED%98%B8_.mp4_20240708_145529.993.jpg)
-
-<div class="image-grid-2">
 
 ![EpicKor_진호_.mp4_20240708_145520.810.jpg](/assets/images/posts/009/009_EpicKor_%EC%A7%84%ED%98%B8_.mp4_20240708_145520.810.jpg)
 

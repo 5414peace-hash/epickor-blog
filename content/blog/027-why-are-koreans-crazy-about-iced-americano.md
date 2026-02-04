@@ -37,11 +37,8 @@ This is because coffee is not considered a beverage to be consumed like tea.
 
 Coffee is a quick and simple drink for Koreans.
 
-<div class="image-grid-2">
-
 ![epickor_민호 (1).mp4_20240714_153621.937.jpg](/assets/images/epickor-placeholder.png).mp4![027_epickor_민호 (1).mp4_20240714_153626.826.jpg](/assets/images/epickor-placeholder.png).mp4![027_epickor_민호 (1).mp4_20240714_153640.538.jpg](/assets/images/epickor-placeholder.png).mp4![027_epickor_민호 (1).mp4_20240714_153650.507.jpg](/assets/images/epickor-placeholder.png).mp4_20240714_153621.937.jpg).mp4_20240714_153621.937.jpg).mp4_20240714_153621.937.jpg).mp4_20240714_153621.937.jpg)
-
-</div>.mp4_20240714_153650.507.jpg)
+.mp4_20240714_153650.507.jpg)
 
 ### Do you guys also like drinking cold drinks even in cold weather?
 

@@ -27,8 +27,6 @@ The atmosphere in Korean baseball stadiums is `legendary`. Imagine thousands of 
 
 Baseball games in Korea are more than sports—they’re full-blown celebrations. Whether you’re a die-hard fan or a first-time attendee, the electric vibe will draw you in.
 
-<div class="image-grid-2">
-
 ![epickor_휘수.mp4_20250108_221737.337.jpg](/assets/images/posts/081/108_epickor_%ED%9C%98%EC%88%98.mp4_20250108_221737.337.jpg)
 
 ![epickor_휘수.mp4_20250108_221755.102.jpg](/assets/images/posts/081/108_epickor_%ED%9C%98%EC%88%98.mp4_20250108_221755.102.jpg)
@@ -39,8 +37,6 @@ A huge part of the experience is the `food`. Forget boring concession snacks—K
 
 The best part? You can enjoy these culinary delights right from your seat while cheering for your favorite team. It’s not just a game; it’s dinner and a show!
 
-<div class="image-grid-2">
-
 ![epickor_휘수.mp4_20250108_221808.159.jpg](/assets/images/posts/081/108_epickor_%ED%9C%98%EC%88%98.mp4_20250108_221808.159.jpg)
 
 ![epickor_휘수.mp4_20250108_221804.553.jpg](/assets/images/posts/081/108_epickor_%ED%9C%98%EC%88%98.mp4_20250108_221804.553.jpg)
@@ -50,8 +46,6 @@ The best part? You can enjoy these culinary delights right from your seat while 
 In Korean baseball, the fun doesn’t stop when the players leave the field. The seventh-inning stretch transforms into a `mini-festival`. Cheerleaders take the stage with choreographed performances that get the crowd moving, and on special occasions, K-pop idols make surprise appearances.
 
 It’s like getting a concert and a game in one ticket. No wonder fans eagerly wait for these mid-game spectacles as much as the action on the field!
-
-<div class="image-grid-2">
 
 ![epickor_휘수.mp4_20250108_221815.209.jpg](/assets/images/posts/081/108_epickor_%ED%9C%98%EC%88%98.mp4_20250108_221815.209.jpg)
 

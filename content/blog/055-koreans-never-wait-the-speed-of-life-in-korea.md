@@ -21,8 +21,6 @@ When calling a waiter at a restaurant, don’t wait for them to notice you. Ther
 
 Koreans don’t wait to order. When you sit down at a restaurant, there’s an `electronic menu` at each seat. As soon as you sit, you order through this menu, completing your order without needing to call a waiter. Sometimes, `payment` is even made all at once.
 
-<div class="image-grid-2">
-
 ![epickor__휘수.mp4_20240728_221837.341.jpg](/assets/images/posts/055/069_epickor__%ED%9C%98%EC%88%98.mp4_20240728_221837.341.jpg)
 
 ![epickor__휘수.mp4_20240728_221853.989.jpg](/assets/images/posts/055/069_epickor__%ED%9C%98%EC%88%98.mp4_20240728_221853.989.jpg)
@@ -38,8 +36,6 @@ So what do you do when you need things like spoons, chopsticks, or napkins? Kore
 ### Fast Delivery
 
 What’s even more surprising is if you purchase something from `Coupang`, a company like `Amazon` in Korea, as long as you order before 11 PM, it will arrive at your doorstep the next morning before work. Isn’t that unbelievable? But it’s true.
-
-<div class="image-grid-2">
 
 ![epickor__휘수.mp4_20240728_221905.821.jpg](/assets/images/posts/055/069_epickor__%ED%9C%98%EC%88%98.mp4_20240728_221905.821.jpg)
 

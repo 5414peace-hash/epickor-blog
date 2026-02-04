@@ -27,8 +27,6 @@ Of course, not many Koreans claim that Korean beer is really delicious.
 
 But… Somaek is delicious.
 
-<div class="image-grid-2">
-
 ![epickor_진호.mp4_20240802_223412.682.jpg](/assets/images/posts/060/081_epickor_%EC%A7%84%ED%98%B8.mp4_20240802_223412.682.jpg)
 
 ![epickor_진호.mp4_20240802_223437.725.jpg](/assets/images/posts/060/081_epickor_%EC%A7%84%ED%98%B8.mp4_20240802_223437.725.jpg)
@@ -46,8 +44,6 @@ Somaek is a type of bomb liquor that is drunk by mixing soju and beer in an `exq
 First, let's take a look at the somaek technique of the female owner of a raw fish restaurant. 
 
 A YouTuber who is crazy about somaek also makes an appearance. Now, shall we drink our first shot?
-
-<div class="image-grid-2">
 
 ![epickor_진호.mp4_20240802_223448.743.jpg](/assets/images/posts/060/081_epickor_%EC%A7%84%ED%98%B8.mp4_20240802_223448.743.jpg)
 

@@ -24,8 +24,6 @@ Any park along the Han River, whether in Gangnam or Gangbuk, will do because the
 
 This ramen-making machine simply opens a regular bag of ramen, adds the soup, and `automatically` does everything from adjusting the amount of water to boiling and stopping. All you have to do is stir it gently with chopsticks in between.
 
-<div class="image-grid-2">
-
 ![epickor_민호.mp4_20240728_221757.122.jpg](/assets/images/posts/054/068_epickor_%EB%AF%BC%ED%98%B8.mp4_20240728_221757.122.jpg)
 
 ![epickor_민호.mp4_20240728_221808.729.jpg](/assets/images/posts/054/068_epickor_%EB%AF%BC%ED%98%B8.mp4_20240728_221808.729.jpg)
@@ -41,8 +39,6 @@ And that's not all.
 If you ever go to a gas station in Korea, be sure to check out the automatic `car wash machine`. 
 
 Just put your car in neutral, sit back, and watch as it moves on its own along the rails, automatically doing everything from a soap bubble massage to high-pressure water `washing and final drying`.
-
-<div class="image-grid-2">
 
 ![epickor_민호.mp4_20240728_221818.004.jpg](/assets/images/posts/054/068_epickor_%EB%AF%BC%ED%98%B8.mp4_20240728_221818.004.jpg)
 

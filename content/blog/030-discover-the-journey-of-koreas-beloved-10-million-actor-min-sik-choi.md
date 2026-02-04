@@ -30,8 +30,6 @@ So, actors who appear in movies with 10 million viewers get the special title of
 
 Previously, in 2014, he appeared in the movie "The Admiral," which tells the story of Korean history, and already became the 10 million actor.
 
-<div class="image-grid-2">
-
 ![epickor_진호.mp4_20240715_105949.316.jpg](/assets/images/posts/030/030_epickor_%EC%A7%84%ED%98%B8.mp4_20240715_105949.316.jpg)
 
 ![epickor_진호.mp4_20240715_105938.085.jpg](/assets/images/posts/030/030_epickor_%EC%A7%84%ED%98%B8.mp4_20240715_105938.085.jpg)

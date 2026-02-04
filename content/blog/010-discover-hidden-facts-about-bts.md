@@ -47,8 +47,6 @@ Before BTS's debut, Producer Bang Si-hyuk owed billions of won. Despite concerns
 
 During their trainee days, Suga mentioned that up to 11 people slept in one room in the dorm.
 
-<div class="image-grid-2">
-
 ![EpicKor_진호.mp4_20240708_150517.458.jpg](/assets/images/posts/010/33d96f74-0796-4b85-9861-85542fc9cc75.png)
 
 ![EpicKor_진호.mp4_20240708_150521.649.jpg](/assets/images/posts/010/07e35738-eb14-41f5-b5f8-0c23ed09183a.png)

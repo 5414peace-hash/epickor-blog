@@ -24,8 +24,6 @@ Koreans were surprised by the enthusiastic response from around the world.
 
 they wondered, as this method is a common part of their daily lives.
 
-<div class="image-grid-2">
-
 ![EpicKor_요순.mp4_20240712_111816.559.jpg](/assets/images/posts/020/2695a870-400f-4eb0-9dcc-fd4d5223655b.png)
 
 ![EpicKor_요순.mp4_20240712_111808.407.jpg](/assets/images/posts/020/761ec9c3-6a3d-4072-90d0-1e56e5dce10a.png)

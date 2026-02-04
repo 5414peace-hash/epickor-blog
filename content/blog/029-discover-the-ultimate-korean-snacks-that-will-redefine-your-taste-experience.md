@@ -32,8 +32,6 @@ It's not made in France, but it tastes better than French snacks. There are appl
 
 These are snacks in the shape of sea creatures that whales would eat, and they have a mysterious yet addictive scent and taste of seafood that cannot be explained in text. But once you taste it, you'll be nodding your head as to why this snack is called Whale Rice. A similar type of snack is `Crab Chips`.
 
-<div class="image-grid-2">
-
 ![epickor_휘수.mp4_20240715_105619.044.jpg](/assets/images/posts/029/8084b0a7-7012-417a-8313-26f4c73c6f9b.png)
 
 ![epickor_휘수.mp4_20240715_105624.197.jpg](/assets/images/posts/029/fa3bfa45-9beb-4dc9-9f5f-ae81e67f1bfe.png)

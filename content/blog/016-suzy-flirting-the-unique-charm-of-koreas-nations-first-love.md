@@ -32,8 +32,6 @@ Meanwhile, one day in 2023, Suzy appeared on the YouTube channel of her close fr
 
 The unique thing about Suzy's flirting is that she smiles slightly to show her teeth. Viewers who saw Suzy flirting reacted like this: “What is that..?” Some even said that the flirting method of sticking out one's teeth was only possible because she was the one doing it.
 
-<div class="image-grid-2">
-
 ![EpicKor_민호.mp4_20240711_105307.097.jpg](/assets/images/posts/016/bf501e9d-40d0-436a-9b3b-8afabb353ad6.png)
 
 ![EpicKor_민호.mp4_20240711_105303.194.jpg](/assets/images/posts/016/d1d7eec0-02d5-46ab-bf85-52f12ab32648.png)

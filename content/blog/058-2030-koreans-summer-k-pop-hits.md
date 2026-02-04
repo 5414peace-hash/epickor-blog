@@ -33,8 +33,6 @@ There's probably no Korean who doesn't know this song by SISTAR, the ultimate su
 
 This summer hit from the hip-hop genre puts many Koreans in a romantic mood when they listen to it on a midsummer night.
 
-<div class="image-grid-2">
-
 ![epickor_휘수.mp4_20240801_220950.731.jpg](/assets/images/posts/058/076_epickor_%ED%9C%98%EC%88%98.mp4_20240801_220950.731.jpg)
 
 ![epickor_휘수.mp4_20240801_221003.054.jpg](/assets/images/posts/058/076_epickor_%ED%9C%98%EC%88%98.mp4_20240801_221003.054.jpg)

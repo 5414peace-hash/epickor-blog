@@ -20,8 +20,6 @@ You’ve heard of buldak, chicken, kimbap, and gim (seaweed), but another iconic
 
 At a museum in Insadong, Seoul, you can experience making and tasting kimchi yourself. You can also try kimchi jeon, a Korean-style pancake made with kimchi.
 
-<div class="image-grid-2">
-
 ![epickor_진호.mp4_20240807_143344.588.jpg](/assets/images/posts/062/086_epickor_%EC%A7%84%ED%98%B8.mp4_20240807_143344.588.jpg)
 
 ![epickor_진호.mp4_20240807_143349.147.jpg](/assets/images/posts/062/086_epickor_%EC%A7%84%ED%98%B8.mp4_20240807_143349.147.jpg)

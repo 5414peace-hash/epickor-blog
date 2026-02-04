@@ -35,13 +35,9 @@ For a 100% flirting failure, we especially recommend dramas like "The Heirs" and
 1. "Do I like you?"
 2. "Nevertheless, go straight."
 
-<div class="image-grid-2">
-
 ![EpicKor Snippets_민호.mp4_20240703_141821.966.jpg](/assets/images/posts/001/001_EpicKor_Snippets_%EB%AF%BC%ED%98%B8.mp4_20240703_141821.966.jpg)
 
 ![EpicKor Snippets_민호.mp4_20240703_141811.950.jpg](/assets/images/posts/001/001_EpicKor_Snippets_%EB%AF%BC%ED%98%B8.mp4_20240703_141811.950.jpg)
-
-<div class="image-grid-2">
 
 ![EpicKor Snippets_민호.mp4_20240703_141817.582.jpg](/assets/images/posts/001/001_EpicKor_Snippets_%EB%AF%BC%ED%98%B8.mp4_20240703_141817.582.jpg)
 

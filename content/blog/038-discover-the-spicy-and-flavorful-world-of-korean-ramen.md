@@ -17,8 +17,6 @@ tags: ['Culture', 'Food', 'Shopping', 'Travel']
 
 Shin Ramyun has been ranked #1 in sales in the Korean ramen market since 1991. It is the standard for Korean spiciness and is Korea’s representative ramen that is deliciously spicy.
 
-<div class="image-grid-2">
-
 ![epickor_민호.mp4_20240717_145758.463.jpg](/assets/images/posts/038/038_epickor_%EB%AF%BC%ED%98%B8.mp4_20240717_145758.463.jpg)
 
 ![epickor_민호.mp4_20240717_145821.200.jpg](/assets/images/posts/038/038_epickor_%EB%AF%BC%ED%98%B8.mp4_20240717_145821.200.jpg)
@@ -33,8 +31,6 @@ Shin Ramyun has been ranked #1 in sales in the Korean ramen market since 1991. I
 
 If Shin Ramyun is the standard for deliciously spicy food, Buldak is the number one spicy food in Korea. You can experience the ultimate spicy taste. It is sold in various flavors, so take your pick.
 
-<div class="image-grid-2">
-
 ![epickor_민호.mp4_20240717_145802.879.jpg](/assets/images/posts/038/038_epickor_%EB%AF%BC%ED%98%B8.mp4_20240717_145802.879.jpg)
 
 ![epickor_민호.mp4_20240717_145809.679.jpg](/assets/images/posts/038/038_epickor_%EB%AF%BC%ED%98%B8.mp4_20240717_145809.679.jpg)
@@ -44,8 +40,6 @@ If Shin Ramyun is the standard for deliciously spicy food, Buldak is the number 
 **Beloved Black Bean Noodles**:
 
 This is a Korean black spaghetti with roasted black bean sauce that is loved by both adults and children. Try eating it with kimchi while you’re in Korea. The combination is very good.
-
-<div class="image-grid-2">
 
 ![epickor_민호.mp4_20240717_145812.095.jpg](/assets/images/posts/038/038_epickor_%EB%AF%BC%ED%98%B8.mp4_20240717_145812.095.jpg)
 

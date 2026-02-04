@@ -39,8 +39,6 @@ It’s also `sad`, `depressing`, and `heartbreaking`.
 
 With a history of 5,000 years as one nation, Korea, which was in ruins after the Korean War in the 1950s, developed at a tremendous pace and rose to the ranks of economic powers. Korea's music and film content industry has achieved remarkable success since the 2000s.
 
-<div class="image-grid-2">
-
 ![epickor_민호.mp4_20240731_221101.118.jpg](/assets/images/posts/056/070_epickor_%EB%AF%BC%ED%98%B8.mp4_20240731_221101.118.jpg)
 
 ![epickor_민호.mp4_20240731_221104.975.jpg](/assets/images/posts/056/070_epickor_%EB%AF%BC%ED%98%B8.mp4_20240731_221104.975.jpg)
@@ -60,8 +58,6 @@ In 2003, the Daegu subway fire disaster occurred.
 In 2014, the Sewol Ferry disaster happened. 
 
 And the Itaewon disaster in 2022.
-
-<div class="image-grid-2">
 
 ![epickor_민호.mp4_20240731_221142.802.jpg](/assets/images/posts/056/070_epickor_%EB%AF%BC%ED%98%B8.mp4_20240731_221142.802.jpg)
 

@@ -35,8 +35,6 @@ And when foreigners watch the show, they have a moment of surprise and say,
 
 `“Wow, Korea is like that?”`
 
-<div class="image-grid-2">
-
 ![EpicKor_요순.mp4_20240714_153459.666.jpg](/assets/images/posts/026/026_EpicKor_%EC%9A%94%EC%88%9C.mp4_20240714_153459.666.jpg)
 
 ![EpicKor_요순.mp4_20240714_153520.737.jpg](/assets/images/posts/026/026_EpicKor_%EC%9A%94%EC%88%9C.mp4_20240714_153520.737.jpg)

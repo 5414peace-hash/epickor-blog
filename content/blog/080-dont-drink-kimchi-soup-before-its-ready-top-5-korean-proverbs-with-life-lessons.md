@@ -21,8 +21,6 @@ This Korean saying, `"김치국부터 마시지 마라,"` is a reminder not to g
 
 ---
 
-<div class="image-grid-2">
-
 ![epickor_민호.mp4_20250107_222418.593.jpg](/assets/images/posts/080/107_epickor_%EB%AF%BC%ED%98%B8.mp4_20250107_222418.593.jpg)
 
 ![epickor_민호.mp4_20250107_222427.228.jpg](/assets/images/posts/080/107_epickor_%EB%AF%BC%ED%98%B8.mp4_20250107_222427.228.jpg)
@@ -47,8 +45,6 @@ The Korean proverb `"호랑이도 제 말 하면 온다"` is similar to the Engl
 
 ---
 
-<div class="image-grid-2">
-
 ![epickor_민호.mp4_20250107_222438.134.jpg](/assets/images/posts/080/107_epickor_%EB%AF%BC%ED%98%B8.mp4_20250107_222438.134.jpg)
 
 ![epickor_민호.mp4_20250107_222442.320.jpg](/assets/images/posts/080/107_epickor_%EB%AF%BC%ED%98%B8.mp4_20250107_222442.320.jpg)
@@ -68,8 +64,6 @@ This Korean proverb, `"낮말은 새가 듣고 밤말은 쥐가 듣는다,"` war
 The saying `"바늘 도둑이 소 도둑 된다"` cautions against ignoring small bad habits because they can escalate into larger problems. It’s a Korean way of expressing the slippery slope of unethical behavior, echoing the English phrase, "Give an inch, and they’ll take a mile."
 
 ---
-
-<div class="image-grid-2">
 
 ![epickor_민호.mp4_20250107_222448.447.jpg](/assets/images/posts/080/107_epickor_%EB%AF%BC%ED%98%B8.mp4_20250107_222448.447.jpg)
 

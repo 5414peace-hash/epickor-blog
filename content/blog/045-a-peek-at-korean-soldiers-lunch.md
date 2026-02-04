@@ -25,8 +25,6 @@ After they are discharged from the military, they become a reserve force. They a
 
 The reserve force period is a total of `8 years`. For the first four years, they train for 3 days and 2 nights every year. For the next two years, training is held twice a year. For the last two years, training is conducted exclusively over the phone.
 
-<div class="image-grid-2">
-
 ![epickor_휘수.mp4_20240721_214217.240.jpg](/assets/images/posts/045/048_epickor_%ED%9C%98%EC%88%98.mp4_20240721_214217.240.jpg)
 
 ![epickor_휘수.mp4_20240721_214220.265.jpg](/assets/images/posts/045/048_epickor_%ED%9C%98%EC%88%98.mp4_20240721_214220.265.jpg)
@@ -54,8 +52,6 @@ Finish with apple juice.
 Once they've finished eating, start training even if the weather is bad! 
 
 After training, they take the bus back home.
-
-<div class="image-grid-2">
 
 ![epickor_휘수.mp4_20240721_214234.265.jpg](/assets/images/posts/045/048_epickor_%ED%9C%98%EC%88%98.mp4_20240721_214234.265.jpg)
 

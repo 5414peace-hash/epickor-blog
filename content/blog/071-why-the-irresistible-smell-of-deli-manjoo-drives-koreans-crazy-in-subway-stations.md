@@ -30,8 +30,6 @@ The moment you catch a whiff, it’s as if the scent is pulling you closer.
 
 Deli Manjoo is a popular snack in Korea, easily found at highway rest stops, bustling streets, and especially at subway stations. But for some mysterious reason, when you come across them in the subway, the smell is even more irresistible, making them taste even better. Maybe it's the mix of the underground air and the comforting warmth of the pastry, or maybe it's just the magic of the moment.
 
-<div class="image-grid-2">
-
 ![eickor_진호.mp4_20240906_134711.507.jpg](/assets/images/posts/071/100_eickor_%EC%A7%84%ED%98%B8.mp4_20240906_134711.507.jpg)
 
 ![eickor_진호.mp4_20240906_134707.106.jpg](/assets/images/posts/071/100_eickor_%EC%A7%84%ED%98%B8.mp4_20240906_134707.106.jpg)
@@ -43,8 +41,6 @@ Koreans live in a fast-paced world, and they often find themselves rushing throu
 ### Have You Seen Deli Manjoo in Korean Subways?
 
 If you've ever visited Korea, there’s a good chance you’ve spotted a Deli Manjoo stall at a subway station. And if you have, you probably remember how tempting that smell was. It’s hard to pass by without thinking, "Maybe I should grab a bag."
-
-<div class="image-grid-2">
 
 ![eickor_진호.mp4_20240906_134734.155.jpg](/assets/images/posts/071/100_eickor_%EC%A7%84%ED%98%B8.mp4_20240906_134734.155.jpg)
 

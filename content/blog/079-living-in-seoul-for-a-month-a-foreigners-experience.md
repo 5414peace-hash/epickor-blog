@@ -23,8 +23,6 @@ Seoul's public transportation is a standout feature for expats.
 
 Tim from the UK found the subway system incredibly `convenient`, allowing him to explore the city with ease, even without a car. While Tokyo also boasts a great network, he highlighted Seoul’s as more user-friendly, especially for non-native speakers. The signage in English and intuitive navigation made commuting stress-free.
 
-<div class="image-grid-2">
-
 ![epickor_휘수.mp4_20250105_214241.095.jpg](/assets/images/posts/079/106_epickor_%ED%9C%98%EC%88%98.mp4_20250105_214241.095.jpg)
 
 ![epickor_휘수.mp4_20250105_214257.797.jpg](/assets/images/posts/079/106_epickor_%ED%9C%98%EC%88%98.mp4_20250105_214257.797.jpg)
@@ -38,8 +36,6 @@ Jane from the US raved about the endless options—from street vendors in `Myeon
 > **💡 Pro Tip:** Planning your own Seoul adventure? Stay fueled with this [Authentic Korean Snack Box](https://amzn.to/4rkmdsC)—perfect for long flights or late-night study sessions!
 > 
 
-<div class="image-grid-2">
-
 ![epickor_휘수.mp4_20250105_214308.775.jpg](/assets/images/posts/079/106_epickor_%ED%9C%98%EC%88%98.mp4_20250105_214308.775.jpg)
 
 ![epickor_휘수.mp4_20250105_214314.285.jpg](/assets/images/posts/079/106_epickor_%ED%9C%98%EC%88%98.mp4_20250105_214314.285.jpg)
@@ -47,8 +43,6 @@ Jane from the US raved about the endless options—from street vendors in `Myeon
 ### **3. Exceptional Safety**
 
 Chris from Australia felt safe at any hour while exploring Seoul. The low crime rates and visible community-focused atmosphere provided peace of mind. Whether walking through lively markets or quiet alleys, he never felt uneasy, which he described as a `“rare luxury”` compared to other major cities worldwide.
-
-<div class="image-grid-2">
 
 ![epickor_휘수.mp4_20250105_214317.582.jpg](/assets/images/posts/079/106_epickor_%ED%9C%98%EC%88%98.mp4_20250105_214317.582.jpg)
 

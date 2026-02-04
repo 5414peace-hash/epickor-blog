@@ -12,8 +12,6 @@ tags: ['Celeb', 'Man']
 
 # The Most Talked-About Figure on Korean Social Media Right Now: Yongjin Jeong
 
-<div class="image-grid-2">
-
 ![정용진_건순.mp4_20240704_180051.872.jpg](/assets/images/posts/004/5dfa9df2-7699-4479-8811-10f8210dfd5e.png)
 
 ![정용진_건순.mp4_20240704_180059.298.jpg](/assets/images/posts/004/eef00638-949c-4476-b227-dc55602ea880.png)
@@ -37,8 +35,6 @@ Second and third-generation chaebols usually refrain from making political state
 ### Myeolgong Controversy
 
 Yongjin Jeong became widely known for his ‘`myeolgong멸공`’ statement, an abbreviation for ‘Destroy the Communists,’ which refers to the perceived main enemy of South Korea’s liberal democracy. By posting #myeolgong멸공 on his social media, he publicly showcased his right-wing political views, stirring considerable public interest and debate.
-
-<div class="image-grid-2">
 
 ![정용진_건순.mp4_20240704_180159.281.jpg](/assets/images/posts/004/004_%EC%A0%95%EC%9A%A9%EC%A7%84_%EA%B1%B4%EC%88%9C.mp4_20240704_180159.281.jpg)
 

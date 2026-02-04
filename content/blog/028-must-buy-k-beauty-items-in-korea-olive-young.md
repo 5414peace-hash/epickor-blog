@@ -23,8 +23,6 @@ Keep in mind that there are regular sales around the end of each month, so you c
 
 Of course, it's not an advertisement.
 
-<div class="image-grid-2">
-
 ![epickor_휘수 (1).mp4_20240714_153743.394.jpg](/assets/images/epickor-placeholder.png).mp4![028_epickor_휘수 (1).mp4_20240714_153741.497.jpg](/assets/images/epickor-placeholder.png).mp4![028_epickor_휘수 (1).mp4_20240714_153759.242.jpg](/assets/images/epickor-placeholder.png).mp4![028_epickor_휘수 (1).mp4_20240714_153804.554.jpg](/assets/images/epickor-placeholder.png).mp4![028_epickor_휘수 (1).mp4_20240714_153814.289.jpg](/assets/images/epickor-placeholder.png).mp4![028_epickor_휘수 (1).mp4_20240714_153808.178.jpg](/assets/images/epickor-placeholder.png).mp4![028_epickor_휘수 (1).mp4_20240714_153812.825.jpg](/assets/images/posts/028/def6f2b6-07d1-4fe0-b0ac-0e1a2c82b2b8.png)
 
 ![epickor_휘수 (1).mp4_20240714_153817.465.jpg](/assets/images/posts/028/1f69e72e-b204-4aff-9fd8-87223e732890.png)

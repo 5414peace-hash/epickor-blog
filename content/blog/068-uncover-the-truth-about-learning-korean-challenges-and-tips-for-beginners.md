@@ -29,8 +29,6 @@ For example, in English, you say “I eat pizza,” but in Korean, it’s “I p
 
 Additionally, there are honorifics—different ways of speaking depending on who you're talking to, adding another layer of complexity.
 
-<div class="image-grid-2">
-
 ![epickor_민호.mp4_20240809_184624.147.jpg](/assets/images/posts/068/094_epickor_%EB%AF%BC%ED%98%B8.mp4_20240809_184624.147.jpg)
 
 ![epickor_민호.mp4_20240809_184629.563.jpg](/assets/images/posts/068/094_epickor_%EB%AF%BC%ED%98%B8.mp4_20240809_184629.563.jpg)
@@ -46,8 +44,6 @@ Additionally, there are honorifics—different ways of speaking depending on who
 ### Comparing Languages
 
 **Learning Korean** is a whole new adventure for many Americans, who often find languages like Spanish or French easier due to similar vocabulary and sentence structure. With Korean, you need to familiarize yourself with new characters and grammar rules.
-
-<div class="image-grid-2">
 
 ![epickor_민호.mp4_20240809_184637.443.jpg](/assets/images/posts/068/094_epickor_%EB%AF%BC%ED%98%B8.mp4_20240809_184637.443.jpg)
 

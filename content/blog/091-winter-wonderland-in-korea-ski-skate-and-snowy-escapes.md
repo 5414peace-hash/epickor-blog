@@ -44,8 +44,6 @@ It’s a perfect spot for couples on a romantic date or for families and friends
 
 *(Visuals: Couples skating hand-in-hand under sparkling lights, families enjoying laughs on the ice, and cozy stalls offering warm snacks like hot chocolate)*
 
-<div class="image-grid-2">
-
 ![epickor_민호_bgm제거.mp4_20250121_222658.194.jpg](/assets/images/posts/091/119_epickor_%EB%AF%BC%ED%98%B8_bgm%EC%A0%9C%EA%B1%B0.mp4_20250121_222658.194.jpg)
 
 ![epickor_민호_bgm제거.mp4_20250121_222715.324.jpg](/assets/images/posts/091/119_epickor_%EB%AF%BC%ED%98%B8_bgm%EC%A0%9C%EA%B1%B0.mp4_20250121_222715.324.jpg)
@@ -72,8 +70,6 @@ Winter in Korea isn’t just about skiing and skating. The country offers stunni
     
 
 *(Visuals: Couples taking snowy selfies at Nami Island, families admiring the illuminated light tunnels at the Garden of Morning Calm, and the first light of dawn painting the skies at Jeongdongjin)*
-
-<div class="image-grid-2">
 
 ![epickor_민호_bgm제거.mp4_20250121_222732.752.jpg](/assets/images/posts/091/119_epickor_%EB%AF%BC%ED%98%B8_bgm%EC%A0%9C%EA%B1%B0.mp4_20250121_222732.752.jpg)
 

@@ -29,11 +29,8 @@ As "Queen of Tears" gained popularity, so did the buzz around Kim Soo-hyun's app
 
 However, a correction article later stated that Kim Soo-hyun adjusted his fee, taking into account the production costs, and agreed to receive $220,000 per episode.
 
-<div class="image-grid-2">
-
 ![epickor(김수현)_건순.mp4_20240719_221616.463.jpg](/assets/images/epickor-placeholder.png)![045_epickor(김수현)_건순.mp4_20240719_221647.577.jpg](/assets/images/epickor-placeholder.png)
-
-</div>_%25EA%25B1%25B4%25EC%2588%259C.mp4_20240719_221647.577.jpg)
+_%25EA%25B1%25B4%25EC%2588%259C.mp4_20240719_221647.577.jpg)
 
 ### Future Earnings
 

@@ -26,8 +26,6 @@ Every line in the movie is also used in Koreans' real lives.
 - "Stop moving. Are you bottom dealing?"
 - "Look at Yerim’s hand. Is it 10?"
 
-<div class="image-grid-2">
-
 ![epickor_건순.mp4_20240718_165927.481.jpg](/assets/images/posts/040/2331eb60-6bab-49be-bf7b-ea754c2ad50f.png)
 
 ![epickor_건순.mp4_20240718_165934.071.jpg](/assets/images/posts/040/8ae7024d-2a2a-4b68-b4cd-018848c51091.png)
@@ -54,8 +52,6 @@ A line commonly heard in Korean conversations. Another iconic line from actor Hw
 ### The Unjust (2010)
 
 - “If the favor continues, they think it's their right.”
-
-<div class="image-grid-2">
 
 ![epickor_건순.mp4_20240718_165953.024.jpg](/assets/images/posts/040/113d8212-b33c-4f9b-af8c-d940fae498fc.png)
 

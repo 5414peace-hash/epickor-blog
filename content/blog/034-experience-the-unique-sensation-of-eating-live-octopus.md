@@ -25,8 +25,6 @@ Here is some `food` that is still alive even if you chew it with your teeth two 
 
 However, many countries around the world are not familiar with eating live octopus. This cultural delicacy has been featured several times on Korean entertainment shows, showcasing foreigners trying it for the first time. Each time, their reactions were a mix of enjoyment and surprise.
 
-<div class="image-grid-2">
-
 ![epickor_휘수.mp4_20240716_220341.020.jpg](/assets/images/posts/034/034_epickor_%ED%9C%98%EC%88%98.mp4_20240716_220341.020.jpg)
 
 ![epickor_휘수.mp4_20240716_220449.884.jpg](/assets/images/posts/034/034_epickor_%ED%9C%98%EC%88%98.mp4_20240716_220449.884.jpg)

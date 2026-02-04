@@ -16,8 +16,6 @@ tags: ['Culture', 'Travel']
 
 `European tourists` are drawn to Korea’s rich history and stunning landscapes. Their itineraries often start with a deep dive into the nation’s divided history at the **DMZ (Demilitarized Zone)**, one of the most significant historical sites in Korea. Walking through traditional **Hanok Villages** allows them to embrace the serenity and charm of traditional Korean architecture.
 
-<div class="image-grid-2">
-
 ![epickor_민호.mp4_20250111_214658.280.jpg](/assets/images/posts/084/111_epickor_%EB%AF%BC%ED%98%B8.mp4_20250111_214658.280.jpg)
 
 ![epickor_민호.mp4_20250111_214703.285.jpg](/assets/images/posts/084/111_epickor_%EB%AF%BC%ED%98%B8.mp4_20250111_214703.285.jpg)
@@ -34,8 +32,6 @@ Next, they head to **Dongdaemun Design Plaza (DDP)** for a perfect Instagram-wor
 
 For `Chinese visitors`, Korea is a fashion and entertainment paradise. Their travel routines highlight the vibrant and fast-paced energy of **Dongdaemun**, a shopping haven where trendsetters can find the latest in Korean style. They then move on to **Seongsu-dong**, known for its trendy cafes, art galleries, and hipster vibes.
 
-<div class="image-grid-2">
-
 ![epickor_민호.mp4_20250111_214720.043.jpg](/assets/images/posts/084/111_epickor_%EB%AF%BC%ED%98%B8.mp4_20250111_214720.043.jpg)
 
 ![epickor_민호.mp4_20250111_214725.475.jpg](/assets/images/posts/084/111_epickor_%EB%AF%BC%ED%98%B8.mp4_20250111_214725.475.jpg)
@@ -47,8 +43,6 @@ Next stop? The **Kakao Friends store**, where they collect adorable character go
 ### Japanese Visitors: The Local and Authentic Experience
 
 `Japanese tourists` seek out the quiet, authentic corners of Korea. They often start their day by exploring boutiques for **bijoux jewelry**, unique handmade accessories that reflect local craftsmanship. A quick break includes savoring a bottle of iconic **banana milk**, a simple yet nostalgic Korean treat.
-
-<div class="image-grid-2">
 
 ![epickor_민호.mp4_20250111_214735.971.jpg](/assets/images/posts/084/111_epickor_%EB%AF%BC%ED%98%B8.mp4_20250111_214735.971.jpg)
 
@@ -65,8 +59,6 @@ For Japanese tourists, it’s all about savoring Korea’s authentic, local flav
 `American tourists` bring a zest for life and exploration to their Korean adventures. Their journey begins in the multicultural hub of **Itaewon**, soaking up the global atmosphere and diverse food options. Next, it’s off to **Namsan Tower** to capture breathtaking panoramic views of Seoul, perfect for a memorable selfie.
 
 Interestingly, a visit to **E-Mart**—a Korean megastore—is often on their list, possibly out of curiosity for the everyday lifestyle of Koreans. They also explore **Gangnam**, enjoying the chic and boujee vibes that make the area so famous. Of course, no trip would be complete without visiting **Hongdae**, known for its vibrant nightlife and artistic energy, or experiencing the grandeur of a **royal palace tour** to connect with Korea’s regal past.
-
-<div class="image-grid-2">
 
 ![epickor_민호.mp4_20250111_214753.917.jpg](/assets/images/posts/084/111_epickor_%EB%AF%BC%ED%98%B8.mp4_20250111_214753.917.jpg)
 

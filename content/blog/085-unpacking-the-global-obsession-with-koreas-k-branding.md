@@ -17,8 +17,6 @@ We’ve all seen it—`K-Pop`, `K-Food,` `K-Culture`. The ‘K’ seems to be ev
 
 Koreans actually call their country “Hangook,” yet internationally, it’s known as “Korea” or the “`Republic of Korea (ROK)`.” Ever wondered why? One theory ties it to the ancient kingdom of Goryeo, whose name eventually morphed into “Korea.” This historical tidbit adds an extra layer of depth to the ‘K’ phenomenon that now dominates global pop culture.
 
-<div class="image-grid-2">
-
 ![EpicKor_요순.mp4_20250112_221620.445.jpg](/assets/images/posts/085/112_EpicKor_%EC%9A%94%EC%88%9C.mp4_20250112_221620.445.jpg)
 
 ![EpicKor_요순.mp4_20250112_221625.772.jpg](/assets/images/posts/085/112_EpicKor_%EC%9A%94%EC%88%9C.mp4_20250112_221625.772.jpg)
@@ -42,8 +40,6 @@ The success of K-Pop and K-Dramas is undeniable. They’ve captivated audiences 
 What fans see is only the surface: sparkling stages, talented idols, and cinematic dramas. Behind the scenes, however, it’s a grueling world. K-Pop idols undergo years of `rigorous training`, often starting in their teens. Their schedules are packed, their personal lives heavily restricted, and the pressure to succeed is relentless.
 
 And it’s not just the stars we know who face this intensity. Many aspiring idols and actors never make it to fame. For these individuals, the reality can be stark—dealing with financial `struggles`, mental health challenges, and a constant fight to stay relevant.
-
-<div class="image-grid-2">
 
 ![EpicKor_요순.mp4_20250112_221638.099.jpg](/assets/images/posts/085/112_EpicKor_%EC%9A%94%EC%88%9C.mp4_20250112_221638.099.jpg)
 

@@ -27,8 +27,6 @@ It's often paired with `makgeolli`, a traditional Korean rice wine that's milky 
 
 Sure, there are other rainy-day favorites like spicy ramen, kalguksu, and sujebi, but nothing beats `pajeon and makgeolli`.
 
-<div class="image-grid-2">
-
 ![epickor_진호.mp4_20240808_221507.041.jpg](/assets/images/posts/065/092_epickor_%EC%A7%84%ED%98%B8.mp4_20240808_221507.041.jpg)
 
 ![epickor_진호.mp4_20240808_221521.693.jpg](/assets/images/posts/065/092_epickor_%EC%A7%84%ED%98%B8.mp4_20240808_221521.693.jpg)

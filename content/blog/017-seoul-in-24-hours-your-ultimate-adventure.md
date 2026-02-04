@@ -21,8 +21,6 @@ There are many mountains in Seoul, and in the mountains, there are `streams`.
 
 Near these streams, you can find restaurants where you can eat `samgyetang` (chicken soup) while dipping your feet in the cool water. 
 
-<div class="image-grid-2">
-
 ![EpicKor_요순.mp4_20240711_105445.994.jpg](/assets/images/posts/017/017_EpicKor_%EC%9A%94%EC%88%9C.mp4_20240711_105445.994.jpg)
 
 ![EpicKor_요순.mp4_20240711_105458.633.jpg](/assets/images/posts/017/017_EpicKor_%EC%9A%94%EC%88%9C.mp4_20240711_105458.633.jpg)

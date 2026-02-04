@@ -19,8 +19,6 @@ The identity of the gift was “`Carbo Buldak`.”
 
 This video garnered 59 million views on TikTok and attracted attention from the New York Times.
 
-<div class="image-grid-2">
-
 ![EpicKor_진호.mp4_20240722_222016.271.jpg](/assets/images/posts/048/057_EpicKor_%EC%A7%84%ED%98%B8.mp4_20240722_222016.271.jpg)
 
 ![EpicKor_진호.mp4_20240722_222900.316.jpg](/assets/images/posts/048/057_EpicKor_%EC%A7%84%ED%98%B8.mp4_20240722_222900.316.jpg)
@@ -40,8 +38,6 @@ Famous rapper `Cardi B` posted a video saying that she drove 30 minutes to get K
 ### Health Impacts
 
 A TikToker from Washington state even posted a video showing that she was taken to the `emergency room` after eating one Buldak every week for six months, garnering nearly 20 million views.
-
-<div class="image-grid-2">
 
 ![EpicKor_진호.mp4_20240722_222042.734.jpg](/assets/images/posts/048/057_EpicKor_%EC%A7%84%ED%98%B8.mp4_20240722_222042.734.jpg)
 

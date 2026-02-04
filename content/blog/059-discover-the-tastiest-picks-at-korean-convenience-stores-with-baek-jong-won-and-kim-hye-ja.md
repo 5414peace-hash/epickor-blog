@@ -23,8 +23,6 @@ If you see these `two faces`, the food is guaranteed to taste above average.
 
 So who are these two people? 
 
-<div class="image-grid-2">
-
 ![epickor_진호.mp4_20240801_221032.964.jpg](/assets/images/posts/059/080_epickor_%EC%A7%84%ED%98%B8.mp4_20240801_221032.964.jpg)
 
 ![epickor_진호.mp4_20240801_221040.044.jpg](/assets/images/posts/059/080_epickor_%EC%A7%84%ED%98%B8.mp4_20240801_221040.044.jpg)
@@ -44,8 +42,6 @@ He is a famous Korean chef and restaurant businessman who appears on various sho
 Next, the woman’s name is Hyeja Kim. 
 
 She's a famous Korean actress, loved for her memorable performances in dramas and movies. Interestingly, her name is also used in the phrase 'Hyeja-like,' which means something is generous and plentiful. This came about because of her association with a food brand known for its large portions and high quality.
-
-<div class="image-grid-2">
 
 ![epickor_진호.mp4_20240801_221111.167.jpg](/assets/images/posts/059/080_epickor_%EC%A7%84%ED%98%B8.mp4_20240801_221111.167.jpg)
 

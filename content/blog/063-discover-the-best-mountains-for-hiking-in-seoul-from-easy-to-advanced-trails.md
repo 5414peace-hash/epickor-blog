@@ -34,8 +34,6 @@ Inwang Mountain is located in the heart of Seoul and is famous for its short and
 
 Acha and Yongma mountains are located in the eastern part of Seoul. There's a well-prepared course that lets you hike both mountains. Just get off at Achasan Station or Yongmasan Station on the subway.
 
-<div class="image-grid-2">
-
 ![epickor_휘수.mp4_20240807_143414.978.jpg](/assets/images/posts/063/087_epickor_%ED%9C%98%EC%88%98.mp4_20240807_143414.978.jpg)
 
 ![epickor_휘수.mp4_20240807_143433.796.jpg](/assets/images/posts/063/087_epickor_%ED%9C%98%EC%88%98.mp4_20240807_143433.796.jpg)
@@ -55,8 +53,6 @@ Cheonggye Mountain is accessible from Cheonggyesan Entrance Station on the Shinb
 **Time**: 3-5 hours
 
 Gwanak Mountain, near Seoul National University Station on Line 2, is located in the southwest part of Seoul. It's known for its rocky trails that provide an exciting hiking experience. Of course, there are easy courses as well.
-
-<div class="image-grid-2">
 
 ![epickor_휘수.mp4_20240807_143454.156.jpg](/assets/images/posts/063/087_epickor_%ED%9C%98%EC%88%98.mp4_20240807_143454.156.jpg)
 

@@ -34,8 +34,6 @@ Some people say this is because Koreans tend to react sensitively to other peopl
 
 But actually, it's just the body reacting without thinking. Others say that you act out loud to elicit a reaction from the other person and make the other laugh too.
 
-<div class="image-grid-2">
-
 ![epickor_휘수.mp4_20240710_110604.282.jpg](/assets/images/posts/014/c64fef49-6d7c-4545-b5de-edd9d636af0f.png)
 
 ![epickor_휘수.mp4_20240710_110601.066.jpg](/assets/images/posts/014/fc714292-81b1-4b40-b6b0-16cac2c15b7d.png)

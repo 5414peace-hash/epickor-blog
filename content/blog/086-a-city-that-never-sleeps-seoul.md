@@ -38,8 +38,6 @@ Han River Park remains one of Seoul’s most cherished outdoor spaces. Known for
 
 In 2025, floating cafés have become all the rage. These trendy spots offer an immersive experience, letting you sip your coffee or enjoy a meal while drifting on the water. It’s a serene escape in the middle of the bustling city.
 
-<div class="image-grid-2">
-
 ![EpicKor_요순.mp4_20250113_221836.547.jpg](/assets/images/posts/086/113_EpicKor_%EC%9A%94%EC%88%9C.mp4_20250113_221836.547.jpg)
 
 ![EpicKor_요순.mp4_20250113_221829.030.jpg](/assets/images/posts/086/113_EpicKor_%EC%9A%94%EC%88%9C.mp4_20250113_221829.030.jpg)

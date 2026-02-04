@@ -35,8 +35,6 @@ tags: ['Culture', 'Man', 'Woman']
 
 1st place: `Doctor`
 
-<div class="image-grid-2">
-
 ![epickor_휘수.mp4_20240718_165836.977.jpg](/assets/images/posts/039/039_epickor_%ED%9C%98%EC%88%98.mp4_20240718_165836.977.jpg)
 
 ![epickor_휘수.mp4_20240718_165839.909.jpg](/assets/images/posts/039/039_epickor_%ED%9C%98%EC%88%98.mp4_20240718_165839.909.jpg)
@@ -72,8 +70,6 @@ Being a doctor is a job that many people envy because you make a lot of money an
 2nd place: Plastic Surgery Doctor
 
 1st place: Corporate Senior Executive
-
-<div class="image-grid-2">
 
 ![epickor_휘수.mp4_20240718_165902.138.jpg](/assets/images/posts/039/039_epickor_%ED%9C%98%EC%88%98.mp4_20240718_165902.138.jpg)
 

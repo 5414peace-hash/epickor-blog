@@ -19,8 +19,6 @@ And also offered tips on enjoying delivered `chicken and beer` while basking in 
 
 This time, let's uncover the latest trending spots in Korea for 2024.
 
-<div class="image-grid-2">
-
 ![EpicKor_요순.mp4_20240722_221925.105.jpg](/assets/images/posts/047/056_EpicKor_%EC%9A%94%EC%88%9C.mp4_20240722_221925.105.jpg)
 
 ![EpicKor_요순.mp4_20240722_221922.991.jpg](/assets/images/posts/047/056_EpicKor_%EC%9A%94%EC%88%9C.mp4_20240722_221922.991.jpg)
@@ -33,8 +31,6 @@ Nestled near Shinyongsan Station, you'll find a bustling restaurant street known
 > 
 
 Moreover, nearby is The `War Memorial of Korea`, offering a comprehensive glimpse into the history of the Korean War. Entrance is free, and there's a plethora of exhibits, including fighter planes, tanks, and cannons, providing an immersive experience of the war's history.
-
-<div class="image-grid-2">
 
 ![EpicKor_요순.mp4_20240722_221939.316.jpg](/assets/images/posts/047/056_EpicKor_%EC%9A%94%EC%88%9C.mp4_20240722_221939.316.jpg)
 

@@ -26,8 +26,6 @@ It's like when people tired of city life head to the countryside for some peace 
 
 Imagine grilling pork belly on a pot lid in a traditional Korean mud house or an old countryside house. It’s a whole different taste experience compared to eating at a restaurant.
 
-<div class="image-grid-2">
-
 ![EpicKor_요순.mp4_20240731_221204.526.jpg](/assets/images/posts/057/074_EpicKor_%EC%9A%94%EC%88%9C.mp4_20240731_221204.526.jpg)
 
 ![EpicKor_요순.mp4_20240731_221210.094.jpg](/assets/images/posts/057/074_EpicKor_%EC%9A%94%EC%88%9C.mp4_20240731_221210.094.jpg)
@@ -43,8 +41,6 @@ These country-style lodgings are usually great for relaxing because they’re su
 ### Healing Break
 
 Since you’re in Korea, why not take a break from the city and try a countryside vacation for some healing?
-
-<div class="image-grid-2">
 
 ![EpicKor_요순.mp4_20240731_221225.408.jpg](/assets/images/posts/057/074_EpicKor_%EC%9A%94%EC%88%9C.mp4_20240731_221225.408.jpg)
 

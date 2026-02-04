@@ -26,8 +26,6 @@ Everland is Korea’s largest and most popular theme park, packed with adrenalin
 
 As the sun sets, Everland transforms into a magical wonderland. The **Moonlight Parade**, a dazzling new addition, lights up the night with twinkling floats, sparkling costumes, and enchanting music. It’s an unmissable treat that captures the park's whimsical charm.
 
-<div class="image-grid-2">
-
 ![EpicKor_요순.mp4_20250104_221818.664.jpg](/assets/images/posts/078/105_EpicKor_%EC%9A%94%EC%88%9C.mp4_20250104_221818.664.jpg)
 
 ![EpicKor_요순.mp4_20250104_221815.965.jpg](/assets/images/posts/078/105_EpicKor_%EC%9A%94%EC%88%9C.mp4_20250104_221815.965.jpg)
@@ -43,8 +41,6 @@ Lotte World seamlessly combines indoor and outdoor attractions, making it perfec
 ### **The Must-Try Gyro Trio**
 
 No visit to Lotte World is complete without conquering the **Gyro Drop**, **Gyro Swing**, and **Gyro Spin**—a trio of gravity-defying rides that will leave your heart racing. These iconic attractions are a rite of passage for thrill-seekers, so don’t miss out!
-
-<div class="image-grid-2">
 
 ![EpicKor_요순.mp4_20250104_221833.965.jpg](/assets/images/posts/078/105_EpicKor_%EC%9A%94%EC%88%9C.mp4_20250104_221833.965.jpg)
 
@@ -65,8 +61,6 @@ Unlike static museums, the Folk Village offers dynamic performances such as trad
 ### **Yes, There Are Rides Too!**
 
 Surprisingly, the Korean Folk Village also features a few amusement park rides, blending cultural learning with lighthearted fun. It’s an unexpected but delightful twist that sets it apart from typical theme parks.
-
-<div class="image-grid-2">
 
 ![EpicKor_요순.mp4_20250104_221905.283.jpg](/assets/images/posts/078/105_EpicKor_%EC%9A%94%EC%88%9C.mp4_20250104_221905.283.jpg)
 

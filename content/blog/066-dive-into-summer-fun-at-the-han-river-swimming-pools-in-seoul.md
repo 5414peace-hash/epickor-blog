@@ -31,8 +31,6 @@ The admission fees are quite affordable: about `$2.30 for children`, $3.10 for t
 
 There are six parks along the Han River that have swimming pools: Ttukseom, Yeouido, Jamwon, Jamsil, Yanghwa, and Nanji. You can use sunbeds there, but swimming caps and swimsuits are a must.
 
-<div class="image-grid-2">
-
 ![EpicKor_요순.mp4_20240808_221604.077.jpg](/assets/images/posts/066/088_EpicKor_%EC%9A%94%EC%88%9C.mp4_20240808_221604.077.jpg)
 
 ![EpicKor_요순.mp4_20240808_221621.731.jpg](/assets/images/posts/066/088_EpicKor_%EC%9A%94%EC%88%9C.mp4_20240808_221621.731.jpg)

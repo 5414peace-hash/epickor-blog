@@ -35,8 +35,6 @@ No matter how many years you've been friends with that Korean, you might find a 
 
 But, the `exception` is if a fight has already occurred. There are so many different mom swear words in Korea that you can't even imagine.
 
-<div class="image-grid-2">
-
 ![epickor_휘수.mp4_20240716_220559.740.jpg](/assets/images/posts/035/035_epickor_%ED%9C%98%EC%88%98.mp4_20240716_220559.740.jpg)
 
 ![epickor_휘수.mp4_20240716_220554.209.jpg](/assets/images/posts/035/035_epickor_%ED%9C%98%EC%88%98.mp4_20240716_220554.209.jpg)

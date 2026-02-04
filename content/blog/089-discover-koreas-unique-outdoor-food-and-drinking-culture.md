@@ -15,8 +15,6 @@ Korea has a nighttime drinking culture that is as vibrant and enchanting as its 
 
 Pojangmacha offers a unique way to immerse yourself in Korea’s bustling `nightlife` while indulging in authentic flavors. Whether you’re a local or a traveler, these colorful, tent-covered spots are sure to leave a lasting impression.
 
-<div class="image-grid-2">
-
 ![epickor_건순.mp4_20250115_222924.553.jpg](/assets/images/posts/089/116_epickor_%EA%B1%B4%EC%88%9C.mp4_20250115_222924.553.jpg)
 
 ![epickor_건순.mp4_20250115_222927.231.jpg](/assets/images/posts/089/116_epickor_%EA%B1%B4%EC%88%9C.mp4_20250115_222927.231.jpg)
@@ -66,8 +64,6 @@ Whether you’re enjoying the warmth of a steaming bowl of kimchi stew in winter
 **Great for Socializing**
 
 Pojangmacha culture is deeply rooted in community and connection. Friends, colleagues, and even strangers gather to share stories, food, and drinks, making it the perfect setting for socializing and bonding.
-
-<div class="image-grid-2">
 
 ![epickor_건순.mp4_20250115_223008.773.jpg](/assets/images/posts/089/116_epickor_%EA%B1%B4%EC%88%9C.mp4_20250115_223008.773.jpg)
 

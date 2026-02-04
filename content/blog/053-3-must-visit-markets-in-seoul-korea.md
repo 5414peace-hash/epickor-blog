@@ -25,8 +25,6 @@ You can buy ‘Hanwoo’, a Korean cattle breed with strict quality control, who
 
 You can buy all kinds of meat, including rare parts that only cost a small amount per animal.
 
-<div class="image-grid-2">
-
 ![진호.mp4_20240725_221539.031.jpg](/assets/images/posts/053/064_epickor_%EC%A7%84%ED%98%B8.mp4_20240725_221539.031.jpg)
 
 ![진호.mp4_20240725_221556.621.jpg](/assets/images/posts/053/064_epickor_%EC%A7%84%ED%98%B8.mp4_20240725_221556.621.jpg)
@@ -53,8 +51,6 @@ Gwangjang Market is especially famous for its `food alley`, where you can enjoy 
 
 It is a famous spot visited by many Hollywood stars, including `Sam Smith`, `Jessica Alba`, and `Brie Larson`.
 
-<div class="image-grid-2">
-
 ![진호.mp4_20240725_221605.931.jpg](/assets/images/posts/053/064_epickor_%EC%A7%84%ED%98%B8.mp4_20240725_221605.931.jpg)
 
 ![진호.mp4_20240725_221622.418.jpg](/assets/images/posts/053/064_epickor_%EC%A7%84%ED%98%B8.mp4_20240725_221622.418.jpg)
@@ -68,8 +64,6 @@ Dongmyo Market is a place where all kinds of rare items gather. Here, items are 
 **Clothing and Stationery**:
 
 The most famous item here is clothing, and I also recommend checking out Stationery Street, which sells a variety of cute character items.
-
-<div class="image-grid-2">
 
 ![진호.mp4_20240725_221659.715.jpg](/assets/images/posts/053/064_epickor_%EC%A7%84%ED%98%B8.mp4_20240725_221659.715.jpg)
 

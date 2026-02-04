@@ -23,13 +23,9 @@ When Koreans need to get to know somebody, they often ask about their `blood typ
 
 This is because, in Korea, there are very famous characteristics for each blood type:
 
-<div class="image-grid-2">
-
 ![EpicKor_요순.mp4_20240709_114237.902.jpg](/assets/images/posts/011/9b7bae75-3f66-4268-a6d8-aab2bb77e8db.png)
 
 ![EpicKor_요순.mp4_20240709_114240.534.jpg](/assets/images/posts/011/116afdc8-c43d-4992-9f30-aa5a82786688.png)
-
-<div class="image-grid-2">
 
 ![EpicKor_요순.mp4_20240709_114244.158.jpg](/assets/images/posts/011/2ae76513-efe7-45b6-9675-a25cbf854a09.png)
 

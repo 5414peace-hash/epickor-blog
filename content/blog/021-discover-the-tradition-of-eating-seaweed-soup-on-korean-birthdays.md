@@ -27,8 +27,6 @@ It's literally a soup made with seaweed. It would be difficult to find a person 
 
 Because seaweed is good for replenishing iron, mothers in Korea usually ate seaweed soup as a recovery meal after giving birth to a baby.
 
-<div class="image-grid-2">
-
 ![EpicKor_요순.mp4_20240712_111912.739.jpg](/assets/images/posts/021/f5e8ca45-a2d8-42db-b31d-4973b64cb0ec.png)
 
 ![EpicKor_요순.mp4_20240712_111929.995.jpg](/assets/images/posts/021/85f623c4-8cf4-4eeb-936c-9fa7f4e71205.png)

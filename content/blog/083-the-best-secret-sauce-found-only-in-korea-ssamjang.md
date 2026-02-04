@@ -21,8 +21,6 @@ For many, ssamjang is more than just a condiment—it’s a cultural icon. Its d
 
 ---
 
-<div class="image-grid-2">
-
 ![epickor_건순.mp4_20250110_222501.651.jpg](/assets/images/posts/083/110_epickor_%EA%B1%B4%EC%88%9C.mp4_20250110_222501.651.jpg)
 
 ![epickor_건순.mp4_20250110_222510.625.jpg](/assets/images/posts/083/110_epickor_%EA%B1%B4%EC%88%9C.mp4_20250110_222510.625.jpg)

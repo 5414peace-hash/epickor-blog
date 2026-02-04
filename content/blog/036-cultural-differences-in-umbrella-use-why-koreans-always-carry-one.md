@@ -32,8 +32,6 @@ In fact, in the past, a newspaper asked American citizens whether they took an u
 
 However, in fact, it seems that this difference appears due to the characteristics of the climatic environment. When it rains in Korea, it often comes down in `heavy rain` all at once.
 
-<div class="image-grid-2">
-
 ![EpicKor_요순.mp4_20240716_220700.153.jpg](/assets/images/posts/036/036_EpicKor_%EC%9A%94%EC%88%9C.mp4_20240716_220700.153.jpg)
 
 ![EpicKor_요순.mp4_20240716_220653.869.jpg](/assets/images/posts/036/036_EpicKor_%EC%9A%94%EC%88%9C.mp4_20240716_220653.869.jpg)

@@ -31,8 +31,6 @@ These birthday cafes have evolved from idol culture and have spread to birthday 
 
 Sometimes, birthday `idols appear` in birthday cafes or communicate with fans through birthday cafes. This rare occurrence adds an extra layer of excitement and connection between idols and their fans.
 
-<div class="image-grid-2">
-
 ![EpicKor_진호.mp4_20240725_221512.172.jpg](/assets/images/posts/052/063_EpicKor_%EC%A7%84%ED%98%B8.mp4_20240725_221512.172.jpg)
 
 ![EpicKor_진호.mp4_20240725_221525.174.jpg](/assets/images/posts/052/063_EpicKor_%EC%A7%84%ED%98%B8.mp4_20240725_221525.174.jpg)

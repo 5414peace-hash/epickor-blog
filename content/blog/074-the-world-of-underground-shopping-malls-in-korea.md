@@ -27,8 +27,6 @@ With everything from movie theaters to restaurants, clothing stores, and accesso
 
 Gangnam Station on `Subway Line 2` is not only known for its bustling streets but also for its underground shopping mall. It's perfect for those looking to do some light shopping, with a wide range of clothing stores and accessory shops available.
 
-<div class="image-grid-2">
-
 ![epickor_건순.mp4_20240919_111617.641.jpg](/assets/images/posts/074/106_epickor_%EA%B1%B4%EC%88%9C.mp4_20240919_111617.641.jpg)
 
 ![epickor_건순.mp4_20240919_111556.496.jpg](/assets/images/posts/074/106_epickor_%EA%B1%B4%EC%88%9C.mp4_20240919_111556.496.jpg)

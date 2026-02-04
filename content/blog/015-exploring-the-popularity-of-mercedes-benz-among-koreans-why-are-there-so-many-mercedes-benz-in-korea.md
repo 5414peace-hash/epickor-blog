@@ -21,8 +21,6 @@ Yes, Koreans love `Mercedes Benz`.
 
 In the case of the Mercedes `E-Class`, Korea has had the highest sales volume in the world since 2018. In Korea alone, the number exceeded 100,000 units in 2019 and 200,000 units in 2022.
 
-<div class="image-grid-2">
-
 ![epickor_휘수.mp4_20240710_112346.978.jpg](/assets/images/posts/015/015_epickor_%ED%9C%98%EC%88%98.mp4_20240710_112346.978.jpg)
 
 ![epickor_휘수.mp4_20240710_112355.634.jpg](/assets/images/posts/015/015_epickor_%ED%9C%98%EC%88%98.mp4_20240710_112355.634.jpg)
