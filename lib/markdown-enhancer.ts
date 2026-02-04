@@ -150,7 +150,7 @@ function generateProductCard(product: AmazonProduct): string {
 }
 
 /**
- * Insert middle Amazon card (after 3rd-4th paragraph or first H3)
+ * Insert middle Amazon card (after first H2/H3, excluding Keywords section)
  */
 export function insertMiddleAmazonCard(html: string, product: AmazonProduct): string {
   // Check if card already exists
@@ -158,23 +158,39 @@ export function insertMiddleAmazonCard(html: string, product: AmazonProduct): st
     return html; // Already has card, skip
   }
   
-  // Strategy 1: Insert after first H3
-  const h3Match = html.match(/(<h3[^>]*>.*?<\/h3>)/);
-  if (h3Match) {
-    const h3Index = html.indexOf(h3Match[0]) + h3Match[0].length;
+  // Strategy 1: Insert after first H2 (main section heading)
+  const h2Match = html.match(/(<h2[^>]*>.*?<\/h2>)/);
+  if (h2Match) {
+    const h2Index = html.indexOf(h2Match[0]) + h2Match[0].length;
     const cardHtml = `
 <h3>Editor's Pick</h3>
 ${generateProductCard(product)}
 <p class="amazon-disclaimer"><em>As an Amazon Associate, we earn from qualifying purchases.</em></p>
 `;
-    return html.slice(0, h3Index) + cardHtml + html.slice(h3Index);
+    return html.slice(0, h2Index) + cardHtml + html.slice(h2Index);
   }
   
-  // Strategy 2: Insert after 3rd paragraph
+  // Strategy 2: Insert after first H3 that's NOT "Keywords"
+  const h3Matches = html.match(/<h3[^>]*>.*?<\/h3>/g);
+  if (h3Matches) {
+    for (const h3 of h3Matches) {
+      if (!h3.toLowerCase().includes('keyword')) {
+        const h3Index = html.indexOf(h3) + h3.length;
+        const cardHtml = `
+<h3>Editor's Pick</h3>
+${generateProductCard(product)}
+<p class="amazon-disclaimer"><em>As an Amazon Associate, we earn from qualifying purchases.</em></p>
+`;
+        return html.slice(0, h3Index) + cardHtml + html.slice(h3Index);
+      }
+    }
+  }
+  
+  // Strategy 3: Insert after 4th paragraph (middle of content)
   const paragraphs = html.match(/<p[^>]*>.*?<\/p>/g);
-  if (paragraphs && paragraphs.length >= 3) {
-    const thirdParagraph = paragraphs[2];
-    const insertIndex = html.indexOf(thirdParagraph) + thirdParagraph.length;
+  if (paragraphs && paragraphs.length >= 4) {
+    const fourthParagraph = paragraphs[3];
+    const insertIndex = html.indexOf(fourthParagraph) + fourthParagraph.length;
     const cardHtml = `
 <h3>Editor's Pick</h3>
 ${generateProductCard(product)}
