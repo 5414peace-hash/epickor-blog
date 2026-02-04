@@ -4,21 +4,10 @@ slug: 019
 description: Explore Korean Travel Destinations Loved by Koreans
 ogImage: ''
 date: '2026-02-03'
+tags: ['Culture', 'Travel']
 ---
 
-# Korean Travel Destinations Loved by Koreans
-
-태그: Culture, Travel
-날짜: 2024년 3월 31일
-Content: Explore the top travel destinations in Korea loved by locals, including Jeju Island, Gyeongju, Busan, and Gangneung and Sokcho, for a unique and enriching travel experience.
-
-```yaml
-cleanUrl: "/blog/019"
-description: "Explore the top travel destinations in Korea loved by locals, including Jeju Island, Gyeongju, Busan, and Gangneung and Sokcho, for a unique and enriching travel experience."
-ogImage: "https://oopy.lazyrockets.com/api/v2/notion/image?src=https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2Fe8ae5f9b-947d-4cc7-968c-38997cab4f69%2Fa27cb8e4-a7b6-464b-827b-34233ca933c3%2Fab189815-5584-44a7-b130-a6dfd10b076c.png&blockId=cfad417b-ce5b-460b-a7ac-ee9d034ebae6"
-```
-
-![019_epickor_휘수.mp4_20240711_105642.837.jpg](Korean%20Travel%20Destinations%20Loved%20by%20Koreans/ab189815-5584-44a7-b130-a6dfd10b076c.png)
+![019_epickor_휘수.mp4_20240711_105642.837.jpg](/assets/images/posts/019/ab189815-5584-44a7-b130-a6dfd10b076c.png)
 
 # Korean Travel Destinations Loved by Koreans
 
@@ -32,9 +21,9 @@ However, since more than 20% of the Korean population is concentrated in one cit
 
 So, where do many Koreans go to travel? According to actual tourism statistics in Korea, many people go to Jeju Island, an island with a unique and beautiful natural scenery.
 
-![019_epickor_휘수.mp4_20240711_105712.234.jpg](Korean%20Travel%20Destinations%20Loved%20by%20Koreans/48564206-7b41-4a5e-be85-4bcbec54fcdf.png)
+![019_epickor_휘수.mp4_20240711_105712.234.jpg](/assets/images/posts/019/48564206-7b41-4a5e-be85-4bcbec54fcdf.png)
 
-![019_epickor_휘수.mp4_20240711_105724.922.jpg](Korean%20Travel%20Destinations%20Loved%20by%20Koreans/5856d517-a161-4341-9475-4f601c59145d.png)
+![019_epickor_휘수.mp4_20240711_105724.922.jpg](/assets/images/posts/019/5856d517-a161-4341-9475-4f601c59145d.png)
 
 ### Gyeongju
 

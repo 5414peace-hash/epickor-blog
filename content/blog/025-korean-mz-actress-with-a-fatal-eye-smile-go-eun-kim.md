@@ -4,21 +4,10 @@ slug: '025'
 description: 'Explore Korean MZ Actress with a Fatal Eye Smile: Go-eun Kim'
 ogImage: ''
 date: '2026-02-03'
+tags: ['Celeb', 'Woman']
 ---
 
-# Korean MZ Actress with a Fatal Eye Smile: Go-eun Kim
-
-태그: Celeb, Woman
-날짜: 2024년 7월 13일
-Content: Go-eun Kim, known for her iconic role in 'Goblin', captivates fans with her natural beauty and irresistible eye smile, making her a top representative of the Korean MZ generation.
-
-```yaml
-cleanUrl: "/blog/025"
-description: "Go-eun Kim, known for her iconic role in 'Goblin', captivates fans with her natural beauty and irresistible eye smile, making her a top representative of the Korean MZ generation."
-ogImage: "https://oopy.lazyrockets.com/api/v2/notion/image?src=https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2Fe8ae5f9b-947d-4cc7-968c-38997cab4f69%2F828bbd20-793c-4f12-88d0-54424fcc255c%2F75e894aa-f472-470e-a9c5-0fafebc05ccf.png&blockId=5854c651-1d34-4e15-8824-99684ce46461"
-```
-
-![025_Epickor_건순 (1).mp4_20240713_221704.878.jpg](Korean%20MZ%20Actress%20with%20a%20Fatal%20Eye%20Smile%20Go-eun%20Ki/75e894aa-f472-470e-a9c5-0fafebc05ccf.png)
+![025_Epickor_건순 (1).mp4_20240713_221704.878.jpg](/assets/images/posts/025/75e894aa-f472-470e-a9c5-0fafebc05ccf.png)
 
 # Discover the Charming Go-eun Kim: The Face of Korean MZ Generation
 
@@ -30,9 +19,9 @@ She played the cute and innocent female main character in the very famous drama 
 
 Yes, she is Go-eun Kim.
 
-![025_Epickor_건순 (1).mp4_20240713_221722.890.jpg](Korean%20MZ%20Actress%20with%20a%20Fatal%20Eye%20Smile%20Go-eun%20Ki/025_Epickor_%25EA%25B1%25B4%25EC%2588%259C_(1).mp4_20240713_221722.890.jpg)
+![025_Epickor_건순 (1).mp4_20240713_221722.890.jpg](/assets/images/posts/025/025_Epickor_%EA%B1%B4%EC%88%9C_(1).mp4_20240713_221722.890.jpg)
 
-![025_Epickor_건순 (1).mp4_20240713_221729.779.jpg](Korean%20MZ%20Actress%20with%20a%20Fatal%20Eye%20Smile%20Go-eun%20Ki/025_Epickor_%25EA%25B1%25B4%25EC%2588%259C_(1).mp4_20240713_221729.779.jpg)
+![025_Epickor_건순 (1).mp4_20240713_221729.779.jpg](/assets/images/posts/025/025_Epickor_%EA%B1%B4%EC%88%9C_(1).mp4_20240713_221729.779.jpg)
 
 ### MZ Actress
 
@@ -44,9 +33,9 @@ Although she does not have the thick double eyelids and large eyes that Koreans 
 
 Many of her past photos have also been released. Her pure and clear face, no different from her current appearance, became a hot topic.
 
-![025_Epickor_건순 (1).mp4_20240713_221745.998.jpg](Korean%20MZ%20Actress%20with%20a%20Fatal%20Eye%20Smile%20Go-eun%20Ki/025_Epickor_%25EA%25B1%25B4%25EC%2588%259C_(1).mp4_20240713_221745.998.jpg)
+![025_Epickor_건순 (1).mp4_20240713_221745.998.jpg](/assets/images/posts/025/025_Epickor_%EA%B1%B4%EC%88%9C_(1).mp4_20240713_221745.998.jpg)
 
-![025_Epickor_건순 (1).mp4_20240713_221753.758.jpg](Korean%20MZ%20Actress%20with%20a%20Fatal%20Eye%20Smile%20Go-eun%20Ki/025_Epickor_%25EA%25B1%25B4%25EC%2588%259C_(1).mp4_20240713_221753.758.jpg)
+![025_Epickor_건순 (1).mp4_20240713_221753.758.jpg](/assets/images/posts/025/025_Epickor_%EA%B1%B4%EC%88%9C_(1).mp4_20240713_221753.758.jpg)
 
 ### Flirty Smile
 

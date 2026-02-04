@@ -5,21 +5,10 @@ description: Explore Discover Unique Korean Items from Hangover Relievers to Foo
   Scissors
 ogImage: ''
 date: '2026-02-03'
+tags: ['Culture', 'Food', 'Shopping', 'Travel']
 ---
 
-# Discover Unique Korean Items from Hangover Relievers to Food Scissors
-
-태그: Culture, Food, Shopping, Travel
-날짜: 2024년 7월 12일
-Content: Explore fascinating Korean items like hangover relievers, snow duck toys, rolled colored pencils, and food scissors, which showcase Korea's innovative and fun approach to everyday products.
-
-```yaml
-cleanUrl: "/blog/022"
-description: "Explore fascinating Korean items like hangover relievers, snow duck toys, rolled colored pencils, and food scissors, which showcase Korea's innovative and fun approach to everyday products."
-ogImage: "https://oopy.lazyrockets.com/api/v2/notion/image?src=https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2Fe8ae5f9b-947d-4cc7-968c-38997cab4f69%2Fd18f2078-d69e-4f8d-b755-788bec0883f1%2F5378f074-e2f8-4fbe-bb3e-6ed589e2cd48.png&blockId=46de8f85-d0d0-49f6-a984-2b18227f1109"
-```
-
-![022_EpicKor_진호.mp4_20240712_221026.313.jpg](Discover%20Unique%20Korean%20Items%20from%20Hangover%20Relieve/5378f074-e2f8-4fbe-bb3e-6ed589e2cd48.png)
+![022_EpicKor_진호.mp4_20240712_221026.313.jpg](/assets/images/posts/022/5378f074-e2f8-4fbe-bb3e-6ed589e2cd48.png)
 
 # Korean Things You Might Find Fascinating
 
@@ -33,9 +22,9 @@ This is a toy that allows you to create a duck shape with snow.
 
 Koreans use this toy to create an army of hundreds of ducks in the winter.
 
-![022_EpicKor_진호.mp4_20240712_221031.610.jpg](Discover%20Unique%20Korean%20Items%20from%20Hangover%20Relieve/022_EpicKor_%25EC%25A7%2584%25ED%2598%25B8.mp4_20240712_221031.610.jpg)
+![022_EpicKor_진호.mp4_20240712_221031.610.jpg](/assets/images/posts/022/022_EpicKor_%EC%A7%84%ED%98%B8.mp4_20240712_221031.610.jpg)
 
-![022_EpicKor_진호.mp4_20240712_221049.060.jpg](Discover%20Unique%20Korean%20Items%20from%20Hangover%20Relieve/022_EpicKor_%25EC%25A7%2584%25ED%2598%25B8.mp4_20240712_221049.060.jpg)
+![022_EpicKor_진호.mp4_20240712_221049.060.jpg](/assets/images/posts/022/022_EpicKor_%EC%A7%84%ED%98%B8.mp4_20240712_221049.060.jpg)
 
 ### Rolled Colored Pencils
 
@@ -51,9 +40,9 @@ They look no different from regular scissors, but in Korea, scissors are often u
 
 Of course, they never use office scissors and food scissors interchangeably.
 
-![022_EpicKor_진호.mp4_20240712_221058.848.jpg](Discover%20Unique%20Korean%20Items%20from%20Hangover%20Relieve/022_EpicKor_%25EC%25A7%2584%25ED%2598%25B8.mp4_20240712_221058.848.jpg)
+![022_EpicKor_진호.mp4_20240712_221058.848.jpg](/assets/images/posts/022/022_EpicKor_%EC%A7%84%ED%98%B8.mp4_20240712_221058.848.jpg)
 
-![022_EpicKor_진호.mp4_20240712_221116.402.jpg](Discover%20Unique%20Korean%20Items%20from%20Hangover%20Relieve/022_EpicKor_%25EC%25A7%2584%25ED%2598%25B8.mp4_20240712_221116.402.jpg)
+![022_EpicKor_진호.mp4_20240712_221116.402.jpg](/assets/images/posts/022/022_EpicKor_%EC%A7%84%ED%98%B8.mp4_20240712_221116.402.jpg)
 
 ---
 

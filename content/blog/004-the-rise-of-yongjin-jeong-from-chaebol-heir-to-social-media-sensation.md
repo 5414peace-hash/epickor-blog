@@ -5,27 +5,16 @@ description: 'Explore The Rise of Yongjin Jeong: From Chaebol Heir to Social Med
   Sensation'
 ogImage: ''
 date: '2026-02-03'
+tags: ['Celeb', 'Man']
 ---
 
-# The Rise of Yongjin Jeong: From Chaebol Heir to Social Media Sensation
-
-태그: Celeb, Man
-날짜: 2024년 3월 6일
-Content: Yongjin Jeong, Vice Chairman of Shinsegae Group and cousin to Samsung’s Lee Jae-yong, has become a prominent figure on Korean social media, known for his bold political statements and high-profile lifestyle.
-
-```yaml
-cleanUrl: "/blog/004"
-description: "Yongjin Jeong, Vice Chairman of Shinsegae Group and cousin to Samsung’s Lee Jae-yong, has become a prominent figure on Korean social media, known for his bold political statements and high-profile lifestyle."
-ogImage: "https://oopy.lazyrockets.com/api/v2/notion/image?src=https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2Fe8ae5f9b-947d-4cc7-968c-38997cab4f69%2F8d10b639-7ad3-41cb-8a79-7cc07c0d2231%2F99e4515a-8f18-4e2d-965c-fe239592a73c.png&blockId=2e5b0d51-2920-45aa-9e7b-2ee543487a5a"
-```
-
-![004_정용진_건순.mp4_20240704_180040.426.jpg](The%20Rise%20of%20Yongjin%20Jeong%20From%20Chaebol%20Heir%20to%20Soc/99e4515a-8f18-4e2d-965c-fe239592a73c.png)
+![004_정용진_건순.mp4_20240704_180040.426.jpg](/assets/images/posts/004/99e4515a-8f18-4e2d-965c-fe239592a73c.png)
 
 # The Most Talked-About Figure on Korean Social Media Right Now: Yongjin Jeong
 
-![004_정용진_건순.mp4_20240704_180051.872.jpg](The%20Rise%20of%20Yongjin%20Jeong%20From%20Chaebol%20Heir%20to%20Soc/5dfa9df2-7699-4479-8811-10f8210dfd5e.png)
+![004_정용진_건순.mp4_20240704_180051.872.jpg](/assets/images/posts/004/5dfa9df2-7699-4479-8811-10f8210dfd5e.png)
 
-![004_정용진_건순.mp4_20240704_180059.298.jpg](The%20Rise%20of%20Yongjin%20Jeong%20From%20Chaebol%20Heir%20to%20Soc/eef00638-949c-4476-b227-dc55602ea880.png)
+![004_정용진_건순.mp4_20240704_180059.298.jpg](/assets/images/posts/004/eef00638-949c-4476-b227-dc55602ea880.png)
 
 ### Chaebol Heir
 
@@ -43,9 +32,9 @@ Second and third-generation chaebols usually refrain from making political state
 
 Yongjin Jeong became widely known for his ‘`myeolgong멸공`’ statement, an abbreviation for ‘Destroy the Communists,’ which refers to the perceived main enemy of South Korea’s liberal democracy. By posting #myeolgong멸공 on his social media, he publicly showcased his right-wing political views, stirring considerable public interest and debate.
 
-![004_정용진_건순.mp4_20240704_180159.281.jpg](The%20Rise%20of%20Yongjin%20Jeong%20From%20Chaebol%20Heir%20to%20Soc/004_%25EC%25A0%2595%25EC%259A%25A9%25EC%25A7%2584_%25EA%25B1%25B4%25EC%2588%259C.mp4_20240704_180159.281.jpg)
+![004_정용진_건순.mp4_20240704_180159.281.jpg](/assets/images/posts/004/004_%EC%A0%95%EC%9A%A9%EC%A7%84_%EA%B1%B4%EC%88%9C.mp4_20240704_180159.281.jpg)
 
-![004_정용진_건순.mp4_20240704_180155.385.jpg](The%20Rise%20of%20Yongjin%20Jeong%20From%20Chaebol%20Heir%20to%20Soc/004_%25EC%25A0%2595%25EC%259A%25A9%25EC%25A7%2584_%25EA%25B1%25B4%25EC%2588%259C.mp4_20240704_180155.385.jpg)
+![004_정용진_건순.mp4_20240704_180155.385.jpg](/assets/images/posts/004/004_%EC%A0%95%EC%9A%A9%EC%A7%84_%EA%B1%B4%EC%88%9C.mp4_20240704_180155.385.jpg)
 
 ### Celebrity Chef
 

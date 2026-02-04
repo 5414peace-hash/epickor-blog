@@ -4,21 +4,10 @@ slug: '075'
 description: Explore Decoding the Secrets Behind Korea’s Archery Dominance Since 1988
 ogImage: ''
 date: '2026-02-03'
+tags: ['Man', 'Sports', 'Woman']
 ---
 
-# Decoding the Secrets Behind Korea’s Archery Dominance Since 1988
-
-태그: Man, Sports, Woman
-날짜: 2025년 1월 2일
-Content: Discover how Korea’s rigorous selection process, relentless training, and unique dedication to archery have led to unmatched Olympic success in the sport.
-
-```yaml
-cleanUrl: "/blog/075"
-description: "Discover how Korea’s rigorous selection process, relentless training, and unique dedication to archery have led to unmatched Olympic success in the sport."
-ogImage: "https://oopy.lazyrockets.com/api/v2/notion/image?src=https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2Fe8ae5f9b-947d-4cc7-968c-38997cab4f69%2Ff17bab89-f35a-47d8-9488-80d1466b433d%2F97292f30-57d2-4042-be8b-2c05f0655690.png&blockId=16f73cc3-0454-8073-b89f-c8ee0da0310f"
-```
-
-![104_EpicKor_요순.mp4_20250102_222418.404.jpg](Decoding%20the%20Secrets%20Behind%20Korea%E2%80%99s%20Archery%20Domina/97292f30-57d2-4042-be8b-2c05f0655690.png)
+![104_EpicKor_요순.mp4_20250102_222418.404.jpg](/assets/images/posts/075/97292f30-57d2-4042-be8b-2c05f0655690.png)
 
 # Why Is Korean Archery So Unstoppable?
 
@@ -30,9 +19,9 @@ Their dominance has turned heads worldwide, cementing their legacy as the best i
 
 While other countries often struggle to maintain consistency, Korea has become synonymous with excellence in archery.
 
-![104_EpicKor_요순.mp4_20250102_222447.861.jpg](Decoding%20the%20Secrets%20Behind%20Korea%E2%80%99s%20Archery%20Domina/104_EpicKor_%25EC%259A%2594%25EC%2588%259C.mp4_20250102_222447.861.jpg)
+![104_EpicKor_요순.mp4_20250102_222447.861.jpg](/assets/images/posts/075/104_EpicKor_%EC%9A%94%EC%88%9C.mp4_20250102_222447.861.jpg)
 
-![104_EpicKor_요순.mp4_20250102_222443.476.jpg](Decoding%20the%20Secrets%20Behind%20Korea%E2%80%99s%20Archery%20Domina/104_EpicKor_%25EC%259A%2594%25EC%2588%259C.mp4_20250102_222443.476.jpg)
+![104_EpicKor_요순.mp4_20250102_222443.476.jpg](/assets/images/posts/075/104_EpicKor_%EC%9A%94%EC%88%9C.mp4_20250102_222443.476.jpg)
 
 ### Kim Woo-jin’s Historic Achievement
 
@@ -48,9 +37,9 @@ At the heart of their dominance lies an intensely competitive selection process.
 
 Becoming a member of the Korean national team is often described as harder than winning an `Olympic gold medal`. Past accolades, such as previous Olympic golds or world championship victories, hold no weight. Selection is based solely on current performance, ensuring that only the best archer at that moment represents the nation.
 
-![104_EpicKor_요순.mp4_20250102_222457.766.jpg](Decoding%20the%20Secrets%20Behind%20Korea%E2%80%99s%20Archery%20Domina/104_EpicKor_%25EC%259A%2594%25EC%2588%259C.mp4_20250102_222457.766.jpg)
+![104_EpicKor_요순.mp4_20250102_222457.766.jpg](/assets/images/posts/075/104_EpicKor_%EC%9A%94%EC%88%9C.mp4_20250102_222457.766.jpg)
 
-![104_EpicKor_요순.mp4_20250102_222514.197.jpg](Decoding%20the%20Secrets%20Behind%20Korea%E2%80%99s%20Archery%20Domina/104_EpicKor_%25EC%259A%2594%25EC%2588%259C.mp4_20250102_222514.197.jpg)
+![104_EpicKor_요순.mp4_20250102_222514.197.jpg](/assets/images/posts/075/104_EpicKor_%EC%9A%94%EC%88%9C.mp4_20250102_222514.197.jpg)
 
 ### Archery: A Singular Focus in Korea
 

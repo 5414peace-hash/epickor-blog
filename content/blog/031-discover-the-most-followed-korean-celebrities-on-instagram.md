@@ -4,21 +4,10 @@ slug: '031'
 description: Explore Discover the Most Followed Korean Celebrities on Instagram
 ogImage: ''
 date: '2026-02-03'
+tags: ['Celeb', 'Kpop']
 ---
 
-# Discover the Most Followed Korean Celebrities on Instagram
-
-태그: Celeb, Kpop
-날짜: 2024년 4월 18일
-Content: Unveiling the top 10 Korean celebrities on Instagram as of April 1, 2024, featuring BTS and Blackpink members.
-
-```yaml
-cleanUrl: "/blog/031"
-description: "Unveiling the top 10 Korean celebrities on Instagram as of April 1, 2024, featuring BTS and Blackpink members."
-ogImage: "https://oopy.lazyrockets.com/api/v2/notion/image?src=https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2Fe8ae5f9b-947d-4cc7-968c-38997cab4f69%2F3df61f1f-3b08-404d-b2ce-d758f73dea30%2F66eeda38-c281-4a91-93d1-3fc9feb3edb1.png&blockId=c22583d1-0135-4ba6-ba2a-02ca78ac9770"
-```
-
-![031_EpicKor_요순.mp4_20240715_221408.937.jpg](Discover%20the%20Most%20Followed%20Korean%20Celebrities%20on%20I/66eeda38-c281-4a91-93d1-3fc9feb3edb1.png)
+![031_EpicKor_요순.mp4_20240715_221408.937.jpg](/assets/images/posts/031/66eeda38-c281-4a91-93d1-3fc9feb3edb1.png)
 
 # Korean Instagram Follower Ranking
 
@@ -84,11 +73,11 @@ As of `April 1, 2024`, here are the rankings from 10th to 1st:
 
 77.73 million followers
 
-![031_EpicKor_요순.mp4_20240715_221437.789.jpg](Discover%20the%20Most%20Followed%20Korean%20Celebrities%20on%20I/031_EpicKor_%25EC%259A%2594%25EC%2588%259C.mp4_20240715_221437.789.jpg)
+![031_EpicKor_요순.mp4_20240715_221437.789.jpg](/assets/images/posts/031/031_EpicKor_%EC%9A%94%EC%88%9C.mp4_20240715_221437.789.jpg)
 
-![031_EpicKor_요순.mp4_20240715_221442.629.jpg](Discover%20the%20Most%20Followed%20Korean%20Celebrities%20on%20I/031_EpicKor_%25EC%259A%2594%25EC%2588%259C.mp4_20240715_221442.629.jpg)
+![031_EpicKor_요순.mp4_20240715_221442.629.jpg](/assets/images/posts/031/031_EpicKor_%EC%9A%94%EC%88%9C.mp4_20240715_221442.629.jpg)
 
-![031_EpicKor_요순.mp4_20240715_221447.669.jpg](Discover%20the%20Most%20Followed%20Korean%20Celebrities%20on%20I/031_EpicKor_%25EC%259A%2594%25EC%2588%259C.mp4_20240715_221447.669.jpg)
+![031_EpicKor_요순.mp4_20240715_221447.669.jpg](/assets/images/posts/031/031_EpicKor_%EC%9A%94%EC%88%9C.mp4_20240715_221447.669.jpg)
 
 ## Blackpink Jennie
 

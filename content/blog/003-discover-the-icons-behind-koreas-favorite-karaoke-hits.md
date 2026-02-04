@@ -4,29 +4,18 @@ slug: '003'
 description: Explore Discover the Icons Behind Korea's Favorite Karaoke Hits
 ogImage: ''
 date: '2026-02-03'
+tags: ['Celeb', 'Culture', 'Kpop']
 ---
 
-# Discover the Icons Behind Korea's Favorite Karaoke Hits
+![002_EpicKor Snippets_휘수.mp4_20240703_143115.476.jpg](/assets/images/posts/003/d1adafad-ab6e-4a7e-8bb1-d10d6d036429.png)
 
-태그: Celeb, Culture, Kpop
-날짜: 2024년 3월 6일
-Content: The legends of Korean singing, known as 'Kim Na Park Lee,' inspire a vibrant karaoke culture across the nation.
+![002_EpicKor Snippets_휘수.mp4_20240703_143118.403.jpg](/assets/images/posts/003/002_EpicKor_Snippets_%ED%9C%98%EC%88%98.mp4_20240703_143118.403.jpg)
 
-```yaml
-cleanUrl: "/blog/003"
-description: "The legends of Korean singing, known as 'Kim Na Park Lee,' inspire a vibrant karaoke culture across the nation."
-ogImage: "https://oopy.lazyrockets.com/api/v2/notion/image?src=https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2Fe8ae5f9b-947d-4cc7-968c-38997cab4f69%2F302eec62-6090-4a2b-a725-55b8ba195760%2Fd1adafad-ab6e-4a7e-8bb1-d10d6d036429.png&blockId=d47bb27a-b953-4bc3-a9b5-854961280fcc"
-```
+![002_EpicKor Snippets_휘수.mp4_20240703_143126.700.jpg](/assets/images/posts/003/002_EpicKor_Snippets_%ED%9C%98%EC%88%98.mp4_20240703_143126.700.jpg)
 
-![002_EpicKor Snippets_휘수.mp4_20240703_143115.476.jpg](Discover%20the%20Icons%20Behind%20Korea's%20Favorite%20Karaoke/d1adafad-ab6e-4a7e-8bb1-d10d6d036429.png)
+![002_EpicKor Snippets_휘수.mp4_20240703_143128.868.jpg](/assets/images/posts/003/002_EpicKor_Snippets_%ED%9C%98%EC%88%98.mp4_20240703_143128.868.jpg)
 
-![002_EpicKor Snippets_휘수.mp4_20240703_143118.403.jpg](Discover%20the%20Icons%20Behind%20Korea's%20Favorite%20Karaoke/002_EpicKor_Snippets_%25ED%259C%2598%25EC%2588%2598.mp4_20240703_143118.403.jpg)
-
-![002_EpicKor Snippets_휘수.mp4_20240703_143126.700.jpg](Discover%20the%20Icons%20Behind%20Korea's%20Favorite%20Karaoke/002_EpicKor_Snippets_%25ED%259C%2598%25EC%2588%2598.mp4_20240703_143126.700.jpg)
-
-![002_EpicKor Snippets_휘수.mp4_20240703_143128.868.jpg](Discover%20the%20Icons%20Behind%20Korea's%20Favorite%20Karaoke/002_EpicKor_Snippets_%25ED%259C%2598%25EC%2588%2598.mp4_20240703_143128.868.jpg)
-
-![002_EpicKor Snippets_휘수.mp4_20240703_143130.860.jpg](Discover%20the%20Icons%20Behind%20Korea's%20Favorite%20Karaoke/002_EpicKor_Snippets_%25ED%259C%2598%25EC%2588%2598.mp4_20240703_143130.860.jpg)
+![002_EpicKor Snippets_휘수.mp4_20240703_143130.860.jpg](/assets/images/posts/003/002_EpicKor_Snippets_%ED%9C%98%EC%88%98.mp4_20240703_143130.860.jpg)
 
 ## Do You Know the Korean Singing Legends 'Kim Na Park Lee'?
 

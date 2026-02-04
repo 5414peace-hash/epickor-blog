@@ -6,21 +6,10 @@ description: 'Explore Discover the Unique Korean Concert Experience that Moves G
   Superstars : Seoul Korea'
 ogImage: ''
 date: '2026-02-03'
+tags: ['Celeb', 'Culture', 'Kpop']
 ---
 
-# Discover the Unique Korean Concert Experience that Moves Global Superstars : Seoul Korea
-
-태그: Celeb, Culture, Kpop
-날짜: 2024년 8월 2일
-Content: Pharrell and other superstars are moved by the passionate sing-alongs of Korean concertgoers, creating a unique and memorable experience.
-
-```yaml
-cleanUrl: "/blog/061"
-description: "Pharrell and other superstars are moved by the passionate sing-alongs of Korean concertgoers, creating a unique and memorable experience."
-ogImage: "https://oopy.lazyrockets.com/api/v2/notion/image?src=https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2Fe8ae5f9b-947d-4cc7-968c-38997cab4f69%2F4089d2b3-2b7e-4691-9d5e-bcff0b6f2e8b%2F49bf7251-2659-4502-8a0b-e261e14e68d8.png&blockId=09c8c961-ae22-4d78-8233-1a8db75a69f6"
-```
-
-![082_epickor_휘수.mp4_20240802_223515.451.jpg](Discover%20the%20Unique%20Korean%20Concert%20Experience%20that/49bf7251-2659-4502-8a0b-e261e14e68d8.png)
+![082_epickor_휘수.mp4_20240802_223515.451.jpg](/assets/images/posts/061/49bf7251-2659-4502-8a0b-e261e14e68d8.png)
 
 # Why Does Pharrell Take Out His In-Ears? In Korea
 
@@ -32,9 +21,9 @@ Eminem, Maroon 5, Anne Marie, Charlie Puth, Sam Smith, FUN, DJ Marshmallow, Pent
 
 They are all moved by the `Koreans' singing along`.
 
-![082_epickor_휘수.mp4_20240802_223522.013.jpg](Discover%20the%20Unique%20Korean%20Concert%20Experience%20that/082_epickor_%25ED%259C%2598%25EC%2588%2598.mp4_20240802_223522.013.jpg)
+![082_epickor_휘수.mp4_20240802_223522.013.jpg](/assets/images/posts/061/082_epickor_%ED%9C%98%EC%88%98.mp4_20240802_223522.013.jpg)
 
-![082_epickor_휘수.mp4_20240802_223525.753.jpg](Discover%20the%20Unique%20Korean%20Concert%20Experience%20that/082_epickor_%25ED%259C%2598%25EC%2588%2598.mp4_20240802_223525.753.jpg)
+![082_epickor_휘수.mp4_20240802_223525.753.jpg](/assets/images/posts/061/082_epickor_%ED%9C%98%EC%88%98.mp4_20240802_223525.753.jpg)
 
 ### Korean Audience Engagement
 
@@ -48,9 +37,9 @@ The entire concert hall becomes one like the waves of a rippling sea.
 
 It leaves a lasting impression on both musicians and audiences.
 
-![082_epickor_휘수.mp4_20240802_223529.127.jpg](Discover%20the%20Unique%20Korean%20Concert%20Experience%20that/082_epickor_%25ED%259C%2598%25EC%2588%2598.mp4_20240802_223529.127.jpg)
+![082_epickor_휘수.mp4_20240802_223529.127.jpg](/assets/images/posts/061/082_epickor_%ED%9C%98%EC%88%98.mp4_20240802_223529.127.jpg)
 
-![082_epickor_휘수.mp4_20240802_223532.349.jpg](Discover%20the%20Unique%20Korean%20Concert%20Experience%20that/082_epickor_%25ED%259C%2598%25EC%2588%2598.mp4_20240802_223532.349.jpg)
+![082_epickor_휘수.mp4_20240802_223532.349.jpg](/assets/images/posts/061/082_epickor_%ED%9C%98%EC%88%98.mp4_20240802_223532.349.jpg)
 
 ### Love for Singing
 

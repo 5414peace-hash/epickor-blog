@@ -4,21 +4,10 @@ slug: '012'
 description: Explore Discover the Unbelievable Amenities at Korean Highway Rest Areas
 ogImage: ''
 date: '2026-02-03'
+tags: ['Culture', 'Food', 'Shopping', 'Travel']
 ---
 
-# Discover the Unbelievable Amenities at Korean Highway Rest Areas
-
-태그: Culture, Food, Shopping, Travel
-날짜: 2024년 3월 18일
-Content: Korean highway rest areas offer free water, massage chairs, unique local foods, shopping outlets, and even arcades, making them must-visit spots during road trips.
-
-```yaml
-cleanUrl: "/blog/012"
-description: "Korean highway rest areas offer free water, massage chairs, unique local foods, shopping outlets, and even arcades, making them must-visit spots during road trips."
-ogImage: "https://oopy.lazyrockets.com/api/v2/notion/image?src=https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2Fe8ae5f9b-947d-4cc7-968c-38997cab4f69%2F8f48caaa-b551-408b-9242-86ca5e1baa7e%2F4fbc32d6-d2a3-49dd-9bbe-161778983a09.png&blockId=40ac2608-86b4-4849-b96a-14f23c87006a"
-```
-
-![012_epickor_휘수.mp4_20240709_114327.566.jpg](Discover%20the%20Unbelievable%20Amenities%20at%20Korean%20High/4fbc32d6-d2a3-49dd-9bbe-161778983a09.png)
+![012_epickor_휘수.mp4_20240709_114327.566.jpg](/assets/images/posts/012/4fbc32d6-d2a3-49dd-9bbe-161778983a09.png)
 
 # Korean Highway Rest Areas: A Hidden Gem of Convenience and Comfort
 
@@ -36,9 +25,9 @@ You can also use a massage chair.
 
 Each highway rest area has a representative food. In Korea, there is a map of restaurants for each highway rest area.
 
-![012_epickor_휘수.mp4_20240709_114339.478.jpg](Discover%20the%20Unbelievable%20Amenities%20at%20Korean%20High/9ad58e14-8aa2-4f95-ae39-9cef7ba40dde.png)
+![012_epickor_휘수.mp4_20240709_114339.478.jpg](/assets/images/posts/012/9ad58e14-8aa2-4f95-ae39-9cef7ba40dde.png)
 
-![012_epickor_휘수.mp4_20240709_114342.503.jpg](Discover%20the%20Unbelievable%20Amenities%20at%20Korean%20High/d6f0e08e-cc06-4948-90d2-2138792e26af.png)
+![012_epickor_휘수.mp4_20240709_114342.503.jpg](/assets/images/posts/012/d6f0e08e-cc06-4948-90d2-2138792e26af.png)
 
 ### Shopping
 
@@ -56,9 +45,9 @@ Even the bathroom is crazy. There is a status board that lets you know if there 
 
 There is also an arcade and a small dog park. Restroom, arcade, dog park. It's all free.
 
-![012_epickor_휘수.mp4_20240709_114429.543.jpg](Discover%20the%20Unbelievable%20Amenities%20at%20Korean%20High/b94741cc-eaf4-4a1b-b32c-ac342093b940.png)
+![012_epickor_휘수.mp4_20240709_114429.543.jpg](/assets/images/posts/012/b94741cc-eaf4-4a1b-b32c-ac342093b940.png)
 
-![012_epickor_휘수.mp4_20240709_114432.134.jpg](Discover%20the%20Unbelievable%20Amenities%20at%20Korean%20High/98a58f75-b38e-4be0-a9df-3af6cfd186e4.png)
+![012_epickor_휘수.mp4_20240709_114432.134.jpg](/assets/images/posts/012/98a58f75-b38e-4be0-a9df-3af6cfd186e4.png)
 
 ---
 

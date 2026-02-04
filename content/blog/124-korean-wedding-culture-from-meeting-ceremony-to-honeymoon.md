@@ -4,19 +4,8 @@ slug: '124'
 description: 'Explore Korean Wedding Culture: From Meeting Ceremony to Honeymoon'
 ogImage: ''
 date: '2026-02-03'
+tags: ['Culture']
 ---
-
-# Korean Wedding Culture: From Meeting Ceremony to Honeymoon
-
-태그: Culture
-날짜: 2026년 2월 2일
-Content: Discover the fascinating traditions, customs, and modern realities of Korean weddings—from the formal meeting ceremony to the famous Sudme package and the role of congratulatory money.
-
-```yaml
-cleanUrl: "/blog/124"
-description: "Discover the unique traditions of Korean weddings, from the meeting ceremony to the honeymoon, including the special Pyebaek ritual and symbolic mandarin ducks."
-ogImage: "https://images.unsplash.com/photo-1606800052052-a08af7148866"
-```
 
 <image source="[https://images.unsplash.com/photo-1606800052052-a08af7148866?w=1200&h=630&fit=crop](https://images.unsplash.com/photo-1606800052052-a08af7148866?w=1200&h=630&fit=crop)">
 

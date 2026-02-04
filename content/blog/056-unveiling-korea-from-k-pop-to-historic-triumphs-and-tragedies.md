@@ -4,21 +4,10 @@ slug: '056'
 description: 'Explore Unveiling Korea: From K-pop to Historic Triumphs and Tragedies'
 ogImage: ''
 date: '2026-02-03'
+tags: ['Culture']
 ---
 
-# Unveiling Korea: From K-pop to Historic Triumphs and Tragedies
-
-태그: Culture
-날짜: 2024년 7월 31일
-Content: Explore Korea's vibrant culture and history, from K-pop sensations to significant historical events.
-
-```yaml
-cleanUrl: "/blog/056"
-description: "Explore Korea's vibrant culture and history, from K-pop sensations to significant historical events."
-ogImage: "https://oopy.lazyrockets.com/api/v2/notion/image?src=https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2Fe8ae5f9b-947d-4cc7-968c-38997cab4f69%2Ff42daa1f-e3ba-486f-803f-e6f8b2b4e8af%2Feff2139f-f901-42a4-9822-c41e2d991444.png&blockId=c262d20f-d441-488f-82f6-85dcb7ec84f6"
-```
-
-![070_epickor_민호.mp4_20240731_221043.739.jpg](Unveiling%20Korea%20From%20K-pop%20to%20Historic%20Triumphs%20an/eff2139f-f901-42a4-9822-c41e2d991444.png)
+![070_epickor_민호.mp4_20240731_221043.739.jpg](/assets/images/posts/056/eff2139f-f901-42a4-9822-c41e2d991444.png)
 
 # Beyond The Kimchi Journey
 
@@ -46,9 +35,9 @@ It’s also `sad`, `depressing`, and `heartbreaking`.
 
 With a history of 5,000 years as one nation, Korea, which was in ruins after the Korean War in the 1950s, developed at a tremendous pace and rose to the ranks of economic powers. Korea's music and film content industry has achieved remarkable success since the 2000s.
 
-![070_epickor_민호.mp4_20240731_221101.118.jpg](Unveiling%20Korea%20From%20K-pop%20to%20Historic%20Triumphs%20an/070_epickor_%25EB%25AF%25BC%25ED%2598%25B8.mp4_20240731_221101.118.jpg)
+![070_epickor_민호.mp4_20240731_221101.118.jpg](/assets/images/posts/056/070_epickor_%EB%AF%BC%ED%98%B8.mp4_20240731_221101.118.jpg)
 
-![070_epickor_민호.mp4_20240731_221104.975.jpg](Unveiling%20Korea%20From%20K-pop%20to%20Historic%20Triumphs%20an/070_epickor_%25EB%25AF%25BC%25ED%2598%25B8.mp4_20240731_221104.975.jpg)
+![070_epickor_민호.mp4_20240731_221104.975.jpg](/assets/images/posts/056/070_epickor_%EB%AF%BC%ED%98%B8.mp4_20240731_221104.975.jpg)
 
 ### Korean People
 
@@ -66,9 +55,9 @@ In 2014, the Sewol Ferry disaster happened.
 
 And the Itaewon disaster in 2022.
 
-![070_epickor_민호.mp4_20240731_221142.802.jpg](Unveiling%20Korea%20From%20K-pop%20to%20Historic%20Triumphs%20an/070_epickor_%25EB%25AF%25BC%25ED%2598%25B8.mp4_20240731_221142.802.jpg)
+![070_epickor_민호.mp4_20240731_221142.802.jpg](/assets/images/posts/056/070_epickor_%EB%AF%BC%ED%98%B8.mp4_20240731_221142.802.jpg)
 
-![070_epickor_민호.mp4_20240731_221137.356.jpg](Unveiling%20Korea%20From%20K-pop%20to%20Historic%20Triumphs%20an/070_epickor_%25EB%25AF%25BC%25ED%2598%25B8.mp4_20240731_221137.356.jpg)
+![070_epickor_민호.mp4_20240731_221137.356.jpg](/assets/images/posts/056/070_epickor_%EB%AF%BC%ED%98%B8.mp4_20240731_221137.356.jpg)
 
 ### Korean Spirit
 

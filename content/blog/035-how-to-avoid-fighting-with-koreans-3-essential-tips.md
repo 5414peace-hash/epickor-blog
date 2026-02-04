@@ -4,21 +4,10 @@ slug: '035'
 description: 'Explore How to Avoid Fighting with Koreans: 3 Essential Tips'
 ogImage: ''
 date: '2026-02-03'
+tags: ['Culture', 'Man', 'Travel']
 ---
 
-# How to Avoid Fighting with Koreans: 3 Essential Tips
-
-태그: Culture, Man, Travel
-날짜: 2024년 7월 16일
-Content: Learn three crucial tips to avoid conflicts with Koreans, including proper driving behavior, sensitive joke boundaries, and understanding the Dokdo issue.
-
-```yaml
-cleanUrl: "/blog/035"
-description: "Learn three crucial tips to avoid conflicts with Koreans, including proper driving behavior, sensitive joke boundaries, and understanding the Dokdo issue."
-ogImage: "https://oopy.lazyrockets.com/api/v2/notion/image?src=https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2Fe8ae5f9b-947d-4cc7-968c-38997cab4f69%2F7cd55f07-19fd-4424-98a9-0cf816cddd76%2F33843114-c60b-45e6-94ce-783d02559b44.png&blockId=fb3a55df-405e-4c42-b136-4cdf30bb6d8b"
-```
-
-![035_epickor_휘수.mp4_20240716_220455.664.jpg](How%20to%20Avoid%20Fighting%20with%20Koreans%203%20Essential%20Tip/33843114-c60b-45e6-94ce-783d02559b44.png)
+![035_epickor_휘수.mp4_20240716_220455.664.jpg](/assets/images/posts/035/33843114-c60b-45e6-94ce-783d02559b44.png)
 
 # Mastering Korean Etiquette
 
@@ -42,9 +31,9 @@ No matter how many years you've been friends with that Korean, you might find a 
 
 But, the `exception` is if a fight has already occurred. There are so many different mom swear words in Korea that you can't even imagine.
 
-![035_epickor_휘수.mp4_20240716_220559.740.jpg](How%20to%20Avoid%20Fighting%20with%20Koreans%203%20Essential%20Tip/035_epickor_%25ED%259C%2598%25EC%2588%2598.mp4_20240716_220559.740.jpg)
+![035_epickor_휘수.mp4_20240716_220559.740.jpg](/assets/images/posts/035/035_epickor_%ED%9C%98%EC%88%98.mp4_20240716_220559.740.jpg)
 
-![035_epickor_휘수.mp4_20240716_220554.209.jpg](How%20to%20Avoid%20Fighting%20with%20Koreans%203%20Essential%20Tip/035_epickor_%25ED%259C%2598%25EC%2588%2598.mp4_20240716_220554.209.jpg)
+![035_epickor_휘수.mp4_20240716_220554.209.jpg](/assets/images/posts/035/035_epickor_%ED%9C%98%EC%88%98.mp4_20240716_220554.209.jpg)
 
 ### Dokdo Issue
 

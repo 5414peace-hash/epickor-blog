@@ -5,21 +5,10 @@ description: 'Explore Unraveling the Unique Korean Habit of Laughing and Clappin
   : Seoul, Korea'
 ogImage: ''
 date: '2026-02-03'
+tags: ['Culture', 'Man', 'Woman']
 ---
 
-# Unraveling the Unique Korean Habit of Laughing and Clapping : Seoul, Korea
-
-태그: Culture, Man, Woman
-날짜: 2024년 3월 20일
-Content: Discover why Koreans often clap while laughing, a unique cultural reflex that may enhance memory and produce natural painkillers.
-
-```yaml
-cleanUrl: "/blog/014"
-description: "Discover why Koreans often clap while laughing, a unique cultural reflex that may enhance memory and produce natural painkillers."
-ogImage: "https://oopy.lazyrockets.com/api/v2/notion/image?src=https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2Fe8ae5f9b-947d-4cc7-968c-38997cab4f69%2Fb2386bde-dea6-45a9-856f-e357f159caa3%2F70cc0930-3703-427f-8faa-a5a3ac2d8407.png&blockId=6a9e8c71-3005-4a25-b212-e63fbefc850a"
-```
-
-![014_epickor_휘수.mp4_20240710_110555.914.jpg](Unraveling%20the%20Unique%20Korean%20Habit%20of%20Laughing%20and/70cc0930-3703-427f-8faa-a5a3ac2d8407.png)
+![014_epickor_휘수.mp4_20240710_110555.914.jpg](/assets/images/posts/014/70cc0930-3703-427f-8faa-a5a3ac2d8407.png)
 
 # It's a Korean DNA Thing
 
@@ -41,9 +30,9 @@ Some people say this is because Koreans tend to react sensitively to other peopl
 
 But actually, it's just the body reacting without thinking. Others say that you act out loud to elicit a reaction from the other person and make the other laugh too.
 
-![014_epickor_휘수.mp4_20240710_110604.282.jpg](Unraveling%20the%20Unique%20Korean%20Habit%20of%20Laughing%20and/c64fef49-6d7c-4545-b5de-edd9d636af0f.png)
+![014_epickor_휘수.mp4_20240710_110604.282.jpg](/assets/images/posts/014/c64fef49-6d7c-4545-b5de-edd9d636af0f.png)
 
-![014_epickor_휘수.mp4_20240710_110601.066.jpg](Unraveling%20the%20Unique%20Korean%20Habit%20of%20Laughing%20and/fc714292-81b1-4b40-b6b0-16cac2c15b7d.png)
+![014_epickor_휘수.mp4_20240710_110601.066.jpg](/assets/images/posts/014/fc714292-81b1-4b40-b6b0-16cac2c15b7d.png)
 
 ### Laugh Together
 

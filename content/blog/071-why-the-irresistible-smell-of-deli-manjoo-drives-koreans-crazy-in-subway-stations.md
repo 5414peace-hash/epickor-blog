@@ -5,21 +5,10 @@ description: Explore Why the Irresistible Smell of Deli Manjoo Drives Koreans Cr
   in Subway Stations
 ogImage: ''
 date: '2026-02-03'
+tags: ['Food', 'Shopping', 'Travel']
 ---
 
-# Why the Irresistible Smell of Deli Manjoo Drives Koreans Crazy in Subway Stations
-
-태그: Food, Shopping, Travel
-날짜: 2024년 9월 6일
-Content: The sweet, tempting aroma of Deli Manjoo in Korean subway stations is impossible to resist, making it a unique experience for locals and travelers alike.
-
-```yaml
-cleanUrl: "/blog/071"
-description: "The sweet, tempting aroma of Deli Manjoo in Korean subway stations is impossible to resist, making it a unique experience for locals and travelers alike."
-ogImage: "https://oopy.lazyrockets.com/api/v2/notion/image?src=https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2Fe8ae5f9b-947d-4cc7-968c-38997cab4f69%2F23240693-862b-4fec-8df8-5ecb9a5f54b5%2F64a29764-bfc3-47d6-a963-4ed11f271548.png&blockId=b5b5c155-c511-4329-9af4-198b994cc5bc"
-```
-
-![100_eickor_진호.mp4_20240906_134657.371.jpg](Why%20the%20Irresistible%20Smell%20of%20Deli%20Manjoo%20Drives%20K/64a29764-bfc3-47d6-a963-4ed11f271548.png)
+![100_eickor_진호.mp4_20240906_134657.371.jpg](/assets/images/posts/071/64a29764-bfc3-47d6-a963-4ed11f271548.png)
 
 # What Koreans Can’t Stand at Subway Stations
 
@@ -37,9 +26,9 @@ The moment you catch a whiff, it’s as if the scent is pulling you closer.
 
 Deli Manjoo is a popular snack in Korea, easily found at highway rest stops, bustling streets, and especially at subway stations. But for some mysterious reason, when you come across them in the subway, the smell is even more irresistible, making them taste even better. Maybe it's the mix of the underground air and the comforting warmth of the pastry, or maybe it's just the magic of the moment.
 
-![100_eickor_진호.mp4_20240906_134711.507.jpg](Why%20the%20Irresistible%20Smell%20of%20Deli%20Manjoo%20Drives%20K/100_eickor_%25EC%25A7%2584%25ED%2598%25B8.mp4_20240906_134711.507.jpg)
+![100_eickor_진호.mp4_20240906_134711.507.jpg](/assets/images/posts/071/100_eickor_%EC%A7%84%ED%98%B8.mp4_20240906_134711.507.jpg)
 
-![100_eickor_진호.mp4_20240906_134707.106.jpg](Why%20the%20Irresistible%20Smell%20of%20Deli%20Manjoo%20Drives%20K/100_eickor_%25EC%25A7%2584%25ED%2598%25B8.mp4_20240906_134707.106.jpg)
+![100_eickor_진호.mp4_20240906_134707.106.jpg](/assets/images/posts/071/100_eickor_%EC%A7%84%ED%98%B8.mp4_20240906_134707.106.jpg)
 
 ### The Ultimate Test of Patience
 
@@ -49,9 +38,9 @@ Koreans live in a fast-paced world, and they often find themselves rushing throu
 
 If you've ever visited Korea, there’s a good chance you’ve spotted a Deli Manjoo stall at a subway station. And if you have, you probably remember how tempting that smell was. It’s hard to pass by without thinking, "Maybe I should grab a bag."
 
-![100_eickor_진호.mp4_20240906_134734.155.jpg](Why%20the%20Irresistible%20Smell%20of%20Deli%20Manjoo%20Drives%20K/100_eickor_%25EC%25A7%2584%25ED%2598%25B8.mp4_20240906_134734.155.jpg)
+![100_eickor_진호.mp4_20240906_134734.155.jpg](/assets/images/posts/071/100_eickor_%EC%A7%84%ED%98%B8.mp4_20240906_134734.155.jpg)
 
-![100_eickor_진호.mp4_20240906_134736.587.jpg](Why%20the%20Irresistible%20Smell%20of%20Deli%20Manjoo%20Drives%20K/100_eickor_%25EC%25A7%2584%25ED%2598%25B8.mp4_20240906_134736.587.jpg)
+![100_eickor_진호.mp4_20240906_134736.587.jpg](/assets/images/posts/071/100_eickor_%EC%A7%84%ED%98%B8.mp4_20240906_134736.587.jpg)
 
 ---
 

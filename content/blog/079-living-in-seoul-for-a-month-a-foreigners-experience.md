@@ -4,21 +4,10 @@ slug: 079
 description: 'Explore Living in Seoul for a Month: A Foreigner’s Experience!'
 ogImage: ''
 date: '2026-02-03'
+tags: ['Culture', 'Travel']
 ---
 
-# Living in Seoul for a Month: A Foreigner’s Experience!
-
-태그: Culture, Travel
-날짜: 2025년 1월 5일
-Content: Explore the vibrant city of Seoul through the lens of a foreigner—its efficient public transport, delectable cuisine, and safe streets, alongside challenges like language barriers and cultural differences.
-
-```yaml
-cleanUrl: "/blog/079"
-description: "Explore the vibrant city of Seoul through the lens of a foreigner—its efficient public transport, delectable cuisine, and safe streets, alongside challenges like language barriers and cultural differences."
-ogImage: "https://oopy.lazyrockets.com/api/v2/notion/image?src=https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2Fe8ae5f9b-947d-4cc7-968c-38997cab4f69%2Fb2b1ab05-143f-4b65-a2e5-5651738b57d5%2Fea4ad2af-da69-4c58-a18b-def72ecc09f5.png&blockId=17273cc3-0454-805e-9707-e42844426058"
-```
-
-![106_epickor_휘수.mp4_20250105_214220.151.jpg](Living%20in%20Seoul%20for%20a%20Month%20A%20Foreigner%E2%80%99s%20Experien/ea4ad2af-da69-4c58-a18b-def72ecc09f5.png)
+![106_epickor_휘수.mp4_20250105_214220.151.jpg](/assets/images/posts/079/ea4ad2af-da69-4c58-a18b-def72ecc09f5.png)
 
 # Discover the ups and downs of living in Seoul for a month, featuring real-life stories from 2024's expats and comparisons with other countries.
 
@@ -30,9 +19,9 @@ Seoul's public transportation is a standout feature for expats.
 
 Tim from the UK found the subway system incredibly `convenient`, allowing him to explore the city with ease, even without a car. While Tokyo also boasts a great network, he highlighted Seoul’s as more user-friendly, especially for non-native speakers. The signage in English and intuitive navigation made commuting stress-free.
 
-![106_epickor_휘수.mp4_20250105_214241.095.jpg](Living%20in%20Seoul%20for%20a%20Month%20A%20Foreigner%E2%80%99s%20Experien/106_epickor_%25ED%259C%2598%25EC%2588%2598.mp4_20250105_214241.095.jpg)
+![106_epickor_휘수.mp4_20250105_214241.095.jpg](/assets/images/posts/079/106_epickor_%ED%9C%98%EC%88%98.mp4_20250105_214241.095.jpg)
 
-![106_epickor_휘수.mp4_20250105_214257.797.jpg](Living%20in%20Seoul%20for%20a%20Month%20A%20Foreigner%E2%80%99s%20Experien/106_epickor_%25ED%259C%2598%25EC%2588%2598.mp4_20250105_214257.797.jpg)
+![106_epickor_휘수.mp4_20250105_214257.797.jpg](/assets/images/posts/079/106_epickor_%ED%9C%98%EC%88%98.mp4_20250105_214257.797.jpg)
 
 ### **2. Diverse Food Scene**
 
@@ -43,17 +32,17 @@ Jane from the US raved about the endless options—from street vendors in `Myeon
 > **💡 Pro Tip:** Planning your own Seoul adventure? Stay fueled with this [Authentic Korean Snack Box](https://amzn.to/4rkmdsC)—perfect for long flights or late-night study sessions!
 > 
 
-![106_epickor_휘수.mp4_20250105_214308.775.jpg](Living%20in%20Seoul%20for%20a%20Month%20A%20Foreigner%E2%80%99s%20Experien/106_epickor_%25ED%259C%2598%25EC%2588%2598.mp4_20250105_214308.775.jpg)
+![106_epickor_휘수.mp4_20250105_214308.775.jpg](/assets/images/posts/079/106_epickor_%ED%9C%98%EC%88%98.mp4_20250105_214308.775.jpg)
 
-![106_epickor_휘수.mp4_20250105_214314.285.jpg](Living%20in%20Seoul%20for%20a%20Month%20A%20Foreigner%E2%80%99s%20Experien/106_epickor_%25ED%259C%2598%25EC%2588%2598.mp4_20250105_214314.285.jpg)
+![106_epickor_휘수.mp4_20250105_214314.285.jpg](/assets/images/posts/079/106_epickor_%ED%9C%98%EC%88%98.mp4_20250105_214314.285.jpg)
 
 ### **3. Exceptional Safety**
 
 Chris from Australia felt safe at any hour while exploring Seoul. The low crime rates and visible community-focused atmosphere provided peace of mind. Whether walking through lively markets or quiet alleys, he never felt uneasy, which he described as a `“rare luxury”` compared to other major cities worldwide.
 
-![106_epickor_휘수.mp4_20250105_214317.582.jpg](Living%20in%20Seoul%20for%20a%20Month%20A%20Foreigner%E2%80%99s%20Experien/106_epickor_%25ED%259C%2598%25EC%2588%2598.mp4_20250105_214317.582.jpg)
+![106_epickor_휘수.mp4_20250105_214317.582.jpg](/assets/images/posts/079/106_epickor_%ED%9C%98%EC%88%98.mp4_20250105_214317.582.jpg)
 
-![106_epickor_휘수.mp4_20250105_214332.628.jpg](Living%20in%20Seoul%20for%20a%20Month%20A%20Foreigner%E2%80%99s%20Experien/106_epickor_%25ED%259C%2598%25EC%2588%2598.mp4_20250105_214332.628.jpg)
+![106_epickor_휘수.mp4_20250105_214332.628.jpg](/assets/images/posts/079/106_epickor_%ED%9C%98%EC%88%98.mp4_20250105_214332.628.jpg)
 
 ---
 

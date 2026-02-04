@@ -5,21 +5,10 @@ description: Explore Discover the Unique Korean Moving Method That Captivated th
   World
 ogImage: ''
 date: '2026-02-03'
+tags: ['Culture']
 ---
 
-# Discover the Unique Korean Moving Method That Captivated the World
-
-태그: Culture
-날짜: 2024년 7월 12일
-Content: Explore how Korea's efficient moving method using ladder trucks became a global phenomenon, surprising even Koreans themselves.
-
-```yaml
-cleanUrl: "/blog/020"
-description: "Explore how Korea's efficient moving method using ladder trucks became a global phenomenon, surprising even Koreans themselves."
-ogImage: "https://oopy.lazyrockets.com/api/v2/notion/image?src=https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2Fe8ae5f9b-947d-4cc7-968c-38997cab4f69%2Faf2a74d6-b5c9-488e-9af6-905ad02371fa%2F379243b2-fce4-4cbf-865d-23a097060703.png&blockId=04f9df46-ac0a-4f67-906f-f4497b35b6e4"
-```
-
-![020_EpicKor_요순.mp4_20240712_111804.742.jpg](Discover%20the%20Unique%20Korean%20Moving%20Method%20That%20Capt/379243b2-fce4-4cbf-865d-23a097060703.png)
+![020_EpicKor_요순.mp4_20240712_111804.742.jpg](/assets/images/posts/020/379243b2-fce4-4cbf-865d-23a097060703.png)
 
 # Korean Moving Ladder Trucks: The Story Behind a Global Sensation
 
@@ -35,9 +24,9 @@ Koreans were surprised by the enthusiastic response from around the world.
 
 they wondered, as this method is a common part of their daily lives.
 
-![020_EpicKor_요순.mp4_20240712_111816.559.jpg](Discover%20the%20Unique%20Korean%20Moving%20Method%20That%20Capt/2695a870-400f-4eb0-9dcc-fd4d5223655b.png)
+![020_EpicKor_요순.mp4_20240712_111816.559.jpg](/assets/images/posts/020/2695a870-400f-4eb0-9dcc-fd4d5223655b.png)
 
-![020_EpicKor_요순.mp4_20240712_111808.407.jpg](Discover%20the%20Unique%20Korean%20Moving%20Method%20That%20Capt/761ec9c3-6a3d-4072-90d0-1e56e5dce10a.png)
+![020_EpicKor_요순.mp4_20240712_111808.407.jpg](/assets/images/posts/020/761ec9c3-6a3d-4072-90d0-1e56e5dce10a.png)
 
 ### Efficiency in Moving
 

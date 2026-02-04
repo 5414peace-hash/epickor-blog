@@ -7,14 +7,8 @@ date: '2026-02-03'
 ---
 
 <properties>
-{"Content":"Explore Korea’s ramen obsession and find out whether bag ramen or cup ramen wins in taste, convenience, and popularity across the nation.","date:날짜:is_datetime":0,"date:날짜:start":"2025-04-11","url":"{{https://www.notion.so/1d273cc304548060b55dd85bb45daa03}}","이름":"Korea’s Favorite Ramen Battle: Which Reigns Supreme, Bag or Cup?","태그":["Travel","Food","Culture"]}
-</properties>
+{"Content":"Explore Korea’s ramen obsession and find out whether bag ramen or cup ramen wins in taste, convenience, and popularity across the nation.","date:</properties>
 <content>
-```yaml
-cleanUrl: "/blog/093"
-description: "Explore Korea’s ramen obsession and find out whether bag ramen or cup ramen wins in taste, convenience, and popularity across the nation."
-ogImage: "https://oopy.lazyrockets.com/api/v2/notion/image?src=attachment%3A97ef47cd-d0d2-45fd-abec-451063ff308c%3A0eee505d-81b1-4281-aa69-e4ba3b32fc50.png&blockId=1d273cc3-0454-809e-be67-e056ac78a088"
-```
 ![Image](/assets/images/posts/004/20260203100718_12b18448.png)></image>
 # The Great Korean Ramen Showdown — Bag vs. Cup! 🍜🔥
 ### 🍜 The Ultimate Korean Ramen Showdown Begins

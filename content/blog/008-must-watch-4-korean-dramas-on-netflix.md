@@ -7,14 +7,8 @@ date: '2026-02-03'
 ---
 
 <properties>
-{"Content":"Dive into these four must-watch Korean dramas on Netflix, featuring stunning cinematography, intense action, and heartwarming stories.","date:날짜:is_datetime":0,"date:날짜:start":"2024-08-27","url":"{{https://www.notion.so/396d51910e044fa2bad0932bdaf2efe7}}","이름":"Must-Watch 4 Korean Dramas on Netflix","태그":["Culture","Celeb"]}
-</properties>
+{"Content":"Dive into these four must-watch Korean dramas on Netflix, featuring stunning cinematography, intense action, and heartwarming stories.","date:</properties>
 <content>
-```yaml
-cleanUrl: "/blog/070"
-description: "Dive into these four must-watch Korean dramas on Netflix, featuring stunning cinematography, intense action, and heartwarming stories."
-ogImage: "https://oopy.lazyrockets.com/api/v2/notion/image?src=https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2Fe8ae5f9b-947d-4cc7-968c-38997cab4f69%2F6f53d29a-be3d-4e97-a1b2-53fcb91545f9%2Fe1cccaf2-ffd4-4e4a-8fc7-5d9a2eaedd51.png&blockId=52449eeb-b9fe-49eb-a977-fac3ecc057ce"
-```
 ![Image](/assets/images/posts/008/20260203100800_a655baa8.png)></image>
 # Discover the Best Korean Dramas on Netflix: From Fantasy to Romance
 ### Goblin

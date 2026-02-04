@@ -4,21 +4,10 @@ slug: '017'
 description: 'Explore Seoul in 24 Hours: Your Ultimate Adventure!'
 ogImage: ''
 date: '2026-02-03'
+tags: ['Culture', 'Food', 'Travel']
 ---
 
-# Seoul in 24 Hours: Your Ultimate Adventure!
-
-태그: Culture, Food, Travel
-날짜: 2024년 3월 25일
-Content: Explore Seoul's unique and undiscovered spots, savoring the best local foods and enjoying memorable experiences in just 24 hours.
-
-```yaml
-cleanUrl: "/blog/017"
-description: "Explore Seoul's unique and undiscovered spots, savoring the best local foods and enjoying memorable experiences in just 24 hours."
-ogImage: "https://oopy.lazyrockets.com/api/v2/notion/image?src=https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2Fe8ae5f9b-947d-4cc7-968c-38997cab4f69%2Fce11bee8-fb40-41aa-93bf-b12526622fcd%2F0e0bfe56-2ce2-41d9-8e3a-1ec685a3799b.png&blockId=eed0a960-dcd3-4555-b70c-35ee20c052bd"
-```
-
-![017_EpicKor_요순.mp4_20240711_105425.030.jpg](Seoul%20in%2024%20Hours%20Your%20Ultimate%20Adventure!/0e0bfe56-2ce2-41d9-8e3a-1ec685a3799b.png)
+![017_EpicKor_요순.mp4_20240711_105425.030.jpg](/assets/images/posts/017/0e0bfe56-2ce2-41d9-8e3a-1ec685a3799b.png)
 
 # Discover the Hidden Gems and Culinary Delights of Seoul in Just One Day
 
@@ -32,9 +21,9 @@ There are many mountains in Seoul, and in the mountains, there are `streams`.
 
 Near these streams, you can find restaurants where you can eat `samgyetang` (chicken soup) while dipping your feet in the cool water. 
 
-![017_EpicKor_요순.mp4_20240711_105445.994.jpg](Seoul%20in%2024%20Hours%20Your%20Ultimate%20Adventure!/017_EpicKor_%25EC%259A%2594%25EC%2588%259C.mp4_20240711_105445.994.jpg)
+![017_EpicKor_요순.mp4_20240711_105445.994.jpg](/assets/images/posts/017/017_EpicKor_%EC%9A%94%EC%88%9C.mp4_20240711_105445.994.jpg)
 
-![017_EpicKor_요순.mp4_20240711_105458.633.jpg](Seoul%20in%2024%20Hours%20Your%20Ultimate%20Adventure!/017_EpicKor_%25EC%259A%2594%25EC%2588%259C.mp4_20240711_105458.633.jpg)
+![017_EpicKor_요순.mp4_20240711_105458.633.jpg](/assets/images/posts/017/017_EpicKor_%EC%9A%94%EC%88%9C.mp4_20240711_105458.633.jpg)
 
 Actually, the address is not Seoul, but still very close. Namhansanseong Fortress, located in southeastern Seoul, is home to numerous samgyetang restaurants along the streams. 
 

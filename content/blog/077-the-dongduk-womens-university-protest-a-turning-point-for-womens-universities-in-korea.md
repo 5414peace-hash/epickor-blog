@@ -6,21 +6,10 @@ description: 'Explore The Dongduk Women’s University Protest: A Turning Point 
   Women’s Universities in Korea'
 ogImage: ''
 date: '2026-02-03'
+tags: ['Social', 'Woman']
 ---
 
-# The Dongduk Women’s University Protest: A Turning Point for Women’s Universities in Korea
-
-태그: Social, Woman
-날짜: 2025년 1월 3일
-Content: Dongduk Women’s University in Seoul became the epicenter of a bold protest highlighting the challenges faced by women’s universities in Korea. Although the protests have ended, the issue of damages and compensation remains unresolved as of January 3, 2025.
-
-```yaml
-cleanUrl: "/blog/077"
-description: "Dongduk Women’s University in Seoul became the epicenter of a bold protest highlighting the challenges faced by women’s universities in Korea. Although the protests have ended, the issue of damages and compensation remains unresolved as of January 3, 2025."
-ogImage: "https://oopy.lazyrockets.com/api/v2/notion/image?src=https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2Fe8ae5f9b-947d-4cc7-968c-38997cab4f69%2F320c3dd9-e27c-4ca3-aa58-3c9f37242bfe%2Fbad6c7b9-090a-486c-bc77-a9a9d8e30618.png&blockId=17073cc3-0454-80df-b9b1-e69ac7e324a0"
-```
-
-![118_epickor_건순.mp4_20250103_224646.810.jpg](The%20Dongduk%20Women%E2%80%99s%20University%20Protest%20A%20Turning%20P/bad6c7b9-090a-486c-bc77-a9a9d8e30618.png)
+![118_epickor_건순.mp4_20250103_224646.810.jpg](/assets/images/posts/077/bad6c7b9-090a-486c-bc77-a9a9d8e30618.png)
 
 # Examining the Unprecedented Student Movement and Its Implications for Education in South Korea
 
@@ -40,9 +29,9 @@ The scale and intensity of the protests caught the attention of national and int
 
 ---
 
-![118_epickor_건순.mp4_20250103_224704.934.jpg](The%20Dongduk%20Women%E2%80%99s%20University%20Protest%20A%20Turning%20P/118_epickor_%25EA%25B1%25B4%25EC%2588%259C.mp4_20250103_224704.934.jpg)
+![118_epickor_건순.mp4_20250103_224704.934.jpg](/assets/images/posts/077/118_epickor_%EA%B1%B4%EC%88%9C.mp4_20250103_224704.934.jpg)
 
-![118_epickor_건순.mp4_20250103_224711.273.jpg](The%20Dongduk%20Women%E2%80%99s%20University%20Protest%20A%20Turning%20P/118_epickor_%25EA%25B1%25B4%25EC%2588%259C.mp4_20250103_224711.273.jpg)
+![118_epickor_건순.mp4_20250103_224711.273.jpg](/assets/images/posts/077/118_epickor_%EA%B1%B4%EC%88%9C.mp4_20250103_224711.273.jpg)
 
 ### The Catalyst: Why Did the Protests Begin?
 
@@ -66,9 +55,9 @@ As of 2024, only `14 women’s universities remain in Korea`.
 
 This number has been steadily decreasing due to demographic shifts and societal changes. The Dongduk incident underscores the existential challenges faced by these institutions and the cultural and educational implications of potential coeducational transitions.
 
-![118_epickor_건순.mp4_20250103_224809.721.jpg](The%20Dongduk%20Women%E2%80%99s%20University%20Protest%20A%20Turning%20P/118_epickor_%25EA%25B1%25B4%25EC%2588%259C.mp4_20250103_224809.721.jpg)
+![118_epickor_건순.mp4_20250103_224809.721.jpg](/assets/images/posts/077/118_epickor_%EA%B1%B4%EC%88%9C.mp4_20250103_224809.721.jpg)
 
-![118_epickor_건순.mp4_20250103_224750.510.jpg](The%20Dongduk%20Women%E2%80%99s%20University%20Protest%20A%20Turning%20P/118_epickor_%25EA%25B1%25B4%25EC%2588%259C.mp4_20250103_224750.510.jpg)
+![118_epickor_건순.mp4_20250103_224750.510.jpg](/assets/images/posts/077/118_epickor_%EA%B1%B4%EC%88%9C.mp4_20250103_224750.510.jpg)
 
 ---
 

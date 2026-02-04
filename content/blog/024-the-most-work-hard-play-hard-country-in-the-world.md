@@ -4,21 +4,10 @@ slug: '024'
 description: Explore The Most "Work Hard, Play Hard" Country in the World
 ogImage: ''
 date: '2026-02-03'
+tags: ['Culture']
 ---
 
-# The Most "Work Hard, Play Hard" Country in the World
-
-태그: Culture
-날짜: 2024년 7월 13일
-Content: Korea is known for its unparalleled work ethic and equally passionate leisure activities, making it the ultimate "work hard, play hard" nation.
-
-```yaml
-cleanUrl: "/blog/024"
-description: "Korea is known for its unparalleled work ethic and equally passionate leisure activities, making it the ultimate 'work hard, play hard' nation."
-ogImage: "https://oopy.lazyrockets.com/api/v2/notion/image?src=https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2Fe8ae5f9b-947d-4cc7-968c-38997cab4f69%2F5f59c69e-f29c-4f16-baad-a6c5b02e5d90%2F2504384c-01ed-47c6-8e4a-c86e278fdd77.png&blockId=eac3ab52-e282-4201-9e43-626db7f573be"
-```
-
-![024_EpicKor_진호 (1).mp4_20240713_221601.682.jpg](The%20Most%20Work%20Hard,%20Play%20Hard%20Country%20in%20the%20World/2504384c-01ed-47c6-8e4a-c86e278fdd77.png)
+![024_EpicKor_진호 (1).mp4_20240713_221601.682.jpg](/assets/images/posts/024/2504384c-01ed-47c6-8e4a-c86e278fdd77.png)
 
 # Discover Why Korea is Renowned for Its Unique Balance of Intense Work and Play
 
@@ -42,9 +31,9 @@ As of 2024, Korea `ranks 13th` in the world economy. Why are they still working 
 
 In Korea, there is a term called ‘`work-life balance`.’ It is a new term that originated with the purpose of improving the quality of life by balancing working hours and leisure time.
 
-![024_EpicKor_진호 (1).mp4_20240713_221630.248.jpg](The%20Most%20Work%20Hard,%20Play%20Hard%20Country%20in%20the%20World/3eadfa26-dd94-4f53-8fc1-0b767be20720.png)
+![024_EpicKor_진호 (1).mp4_20240713_221630.248.jpg](/assets/images/posts/024/3eadfa26-dd94-4f53-8fc1-0b767be20720.png)
 
-![024_EpicKor_진호 (1).mp4_20240713_221646.823.jpg](The%20Most%20Work%20Hard,%20Play%20Hard%20Country%20in%20the%20World/42b0ac46-b86f-4339-b761-6d0795401f87.png)
+![024_EpicKor_진호 (1).mp4_20240713_221646.823.jpg](/assets/images/posts/024/42b0ac46-b86f-4339-b761-6d0795401f87.png)
 
 ### The Overlooked Balance
 

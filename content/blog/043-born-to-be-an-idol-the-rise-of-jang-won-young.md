@@ -4,21 +4,10 @@ slug: '043'
 description: 'Explore Born to Be an Idol: The Rise of Jang Won-young'
 ogImage: ''
 date: '2026-02-03'
+tags: ['Celeb', 'Kpop', 'Woman']
 ---
 
-# Born to Be an Idol: The Rise of Jang Won-young
-
-태그: Celeb, Kpop, Woman
-날짜: 2024년 7월 20일
-Content: Jang Won-young's journey from a survival audition show to a record-breaking K-pop idol showcases her undeniable talent and charm, making her a true icon in the industry.
-
-```yaml
-cleanUrl: "/blog/043"
-description: "Jang Won-young's journey from a survival audition show to a record-breaking K-pop idol showcases her undeniable talent and charm, making her a true icon in the industry."
-ogImage: "https://oopy.lazyrockets.com/api/v2/notion/image?src=https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2Fe8ae5f9b-947d-4cc7-968c-38997cab4f69%2F804ebb36-42d4-4ed3-8450-bb81d5c2e990%2F81f1043c-e856-4958-9fb9-3a89ffb9afaf.png&blockId=b4e102fa-ced0-4d42-a561-6e9dd4f5521a"
-```
-
-![045_epickor_건순.mp4_20240720_221111.104.jpg](Born%20to%20Be%20an%20Idol%20The%20Rise%20of%20Jang%20Won-young/81f1043c-e856-4958-9fb9-3a89ffb9afaf.png)
+![045_epickor_건순.mp4_20240720_221111.104.jpg](/assets/images/posts/043/81f1043c-e856-4958-9fb9-3a89ffb9afaf.png)
 
 # Discover How Jang Won-young Became a Sensation in the K-pop World
 
@@ -26,9 +15,9 @@ ogImage: "https://oopy.lazyrockets.com/api/v2/notion/image?src=https%3A%2F%2Fpro
 
 Have you ever seen this video?
 
-![045_epickor_건순.mp4_20240720_221116.268.jpg](Born%20to%20Be%20an%20Idol%20The%20Rise%20of%20Jang%20Won-young/045_epickor_%25EA%25B1%25B4%25EC%2588%259C.mp4_20240720_221116.268.jpg)
+![045_epickor_건순.mp4_20240720_221116.268.jpg](/assets/images/posts/043/045_epickor_%EA%B1%B4%EC%88%9C.mp4_20240720_221116.268.jpg)
 
-![045_epickor_건순.mp4_20240720_221120.896.jpg](Born%20to%20Be%20an%20Idol%20The%20Rise%20of%20Jang%20Won-young/045_epickor_%25EA%25B1%25B4%25EC%2588%259C.mp4_20240720_221120.896.jpg)
+![045_epickor_건순.mp4_20240720_221120.896.jpg](/assets/images/posts/043/045_epickor_%EA%B1%B4%EC%88%9C.mp4_20240720_221120.896.jpg)
 
 Korean idol Jang Won-young's video became an issue by reaching `4.3 billion views` on TikTok.
 
@@ -36,9 +25,9 @@ Korean idol Jang Won-young's video became an issue by reaching `4.3 billion view
 
 The group that Jang Won-young belongs to, Ive's account, seemed to be aware of this and uploaded a new version of the video with the same song and dance, making it an issue `once again`.
 
-![045_epickor_건순.mp4_20240720_221130.515.jpg](Born%20to%20Be%20an%20Idol%20The%20Rise%20of%20Jang%20Won-young/045_epickor_%25EA%25B1%25B4%25EC%2588%259C.mp4_20240720_221130.515.jpg)
+![045_epickor_건순.mp4_20240720_221130.515.jpg](/assets/images/posts/043/045_epickor_%EA%B1%B4%EC%88%9C.mp4_20240720_221130.515.jpg)
 
-![045_epickor_건순.mp4_20240720_221127.922.jpg](Born%20to%20Be%20an%20Idol%20The%20Rise%20of%20Jang%20Won-young/045_epickor_%25EA%25B1%25B4%25EC%2588%259C.mp4_20240720_221127.922.jpg)
+![045_epickor_건순.mp4_20240720_221127.922.jpg](/assets/images/posts/043/045_epickor_%EA%B1%B4%EC%88%9C.mp4_20240720_221127.922.jpg)
 
 ### Early Life and Debut
 

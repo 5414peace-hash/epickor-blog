@@ -4,21 +4,10 @@ slug: 058
 description: Explore 2030 Koreans' Summer K-POP Hits
 ogImage: ''
 date: '2026-02-03'
+tags: ['Celeb', 'Culture', 'Kpop', 'Travel']
 ---
 
-# 2030 Koreans' Summer K-POP Hits
-
-태그: Celeb, Culture, Kpop, Travel
-날짜: 2024년 8월 1일
-Content: Explore the top summer K-POP songs that have remained favorites among Koreans, featuring hits from F(x), SISTAR, San E & Raina, and Red Velvet.
-
-```yaml
-cleanUrl: "/blog/058"
-description: "Explore the top summer K-POP songs that have remained favorites among Koreans, featuring hits from F(x), SISTAR, San E & Raina, and Red Velvet."
-ogImage: "https://oopy.lazyrockets.com/api/v2/notion/image?src=https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2Fe8ae5f9b-947d-4cc7-968c-38997cab4f69%2F702e14d5-03a7-4e80-a46f-bec59778a928%2F5657b73d-ef31-42d9-ae35-ac463b1d3ddd.png&blockId=ac8c6ff7-39ea-4fa1-9bf5-87e14bcdd907"
-```
-
-![076_epickor_휘수.mp4_20240801_220930.438.jpg](2030%20Koreans'%20Summer%20K-POP%20Hits/5657b73d-ef31-42d9-ae35-ac463b1d3ddd.png)
+![076_epickor_휘수.mp4_20240801_220930.438.jpg](/assets/images/posts/058/5657b73d-ef31-42d9-ae35-ac463b1d3ddd.png)
 
 # Discover the Timeless Summer K-POP Hits Koreans Love
 
@@ -40,9 +29,9 @@ There's probably no Korean who doesn't know this song by SISTAR, the ultimate su
 
 This summer hit from the hip-hop genre puts many Koreans in a romantic mood when they listen to it on a midsummer night.
 
-![076_epickor_휘수.mp4_20240801_220950.731.jpg](2030%20Koreans'%20Summer%20K-POP%20Hits/076_epickor_%25ED%259C%2598%25EC%2588%2598.mp4_20240801_220950.731.jpg)
+![076_epickor_휘수.mp4_20240801_220950.731.jpg](/assets/images/posts/058/076_epickor_%ED%9C%98%EC%88%98.mp4_20240801_220950.731.jpg)
 
-![076_epickor_휘수.mp4_20240801_221003.054.jpg](2030%20Koreans'%20Summer%20K-POP%20Hits/076_epickor_%25ED%259C%2598%25EC%2588%2598.mp4_20240801_221003.054.jpg)
+![076_epickor_휘수.mp4_20240801_221003.054.jpg](/assets/images/posts/058/076_epickor_%ED%9C%98%EC%88%98.mp4_20240801_221003.054.jpg)
 
 ### Red Velvet – Red Flavor
 

@@ -4,21 +4,10 @@ slug: 091
 description: 'Explore Winter Wonderland in Korea: Ski, Skate, and Snowy Escapes'
 ogImage: ''
 date: '2026-02-03'
+tags: ['Culture', 'Travel']
 ---
 
-# Winter Wonderland in Korea: Ski, Skate, and Snowy Escapes
-
-태그: Culture, Travel
-날짜: 2025년 1월 21일
-Content: Discover the best of Korea's winter—from world-class ski resorts to ice skating in Seoul and breathtaking winter destinations like Nami Island.
-
-```yaml
-cleanUrl: "/blog/091"
-description: "Discover the best of Korea's winter—from world-class ski resorts to ice skating in Seoul and breathtaking winter destinations like Nami Island."
-ogImage: "https://oopy.lazyrockets.com/api/v2/notion/image?src=https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2Fe8ae5f9b-947d-4cc7-968c-38997cab4f69%2Fdd7eb159-a189-4e1f-9ebb-a78eeb02abf9%2Fd68c2d60-f2e4-4a52-8941-0522bb16ea1b.png&blockId=18273cc3-0454-80c1-856b-c916057e0b6e"
-```
-
-![119_epickor_민호_bgm제거.mp4_20250121_222639.196.jpg](Winter%20Wonderland%20in%20Korea%20Ski,%20Skate,%20and%20Snowy%20E/d68c2d60-f2e4-4a52-8941-0522bb16ea1b.png)
+![119_epickor_민호_bgm제거.mp4_20250121_222639.196.jpg](/assets/images/posts/091/d68c2d60-f2e4-4a52-8941-0522bb16ea1b.png)
 
 # Explore Korea’s Winter Magic: From Snowy Peaks to Dazzling Light Festivals
 
@@ -51,9 +40,9 @@ It’s a perfect spot for couples on a romantic date or for families and friends
 
 *(Visuals: Couples skating hand-in-hand under sparkling lights, families enjoying laughs on the ice, and cozy stalls offering warm snacks like hot chocolate)*
 
-![119_epickor_민호_bgm제거.mp4_20250121_222658.194.jpg](Winter%20Wonderland%20in%20Korea%20Ski,%20Skate,%20and%20Snowy%20E/119_epickor_%25EB%25AF%25BC%25ED%2598%25B8_bgm%25EC%25A0%259C%25EA%25B1%25B0.mp4_20250121_222658.194.jpg)
+![119_epickor_민호_bgm제거.mp4_20250121_222658.194.jpg](/assets/images/posts/091/119_epickor_%EB%AF%BC%ED%98%B8_bgm%EC%A0%9C%EA%B1%B0.mp4_20250121_222658.194.jpg)
 
-![119_epickor_민호_bgm제거.mp4_20250121_222715.324.jpg](Winter%20Wonderland%20in%20Korea%20Ski,%20Skate,%20and%20Snowy%20E/119_epickor_%25EB%25AF%25BC%25ED%2598%25B8_bgm%25EC%25A0%259C%25EA%25B1%25B0.mp4_20250121_222715.324.jpg)
+![119_epickor_민호_bgm제거.mp4_20250121_222715.324.jpg](/assets/images/posts/091/119_epickor_%EB%AF%BC%ED%98%B8_bgm%EC%A0%9C%EA%B1%B0.mp4_20250121_222715.324.jpg)
 
 ---
 
@@ -78,11 +67,11 @@ Winter in Korea isn’t just about skiing and skating. The country offers stunni
 
 *(Visuals: Couples taking snowy selfies at Nami Island, families admiring the illuminated light tunnels at the Garden of Morning Calm, and the first light of dawn painting the skies at Jeongdongjin)*
 
-![119_epickor_민호_bgm제거.mp4_20250121_222732.752.jpg](Winter%20Wonderland%20in%20Korea%20Ski,%20Skate,%20and%20Snowy%20E/119_epickor_%25EB%25AF%25BC%25ED%2598%25B8_bgm%25EC%25A0%259C%25EA%25B1%25B0.mp4_20250121_222732.752.jpg)
+![119_epickor_민호_bgm제거.mp4_20250121_222732.752.jpg](/assets/images/posts/091/119_epickor_%EB%AF%BC%ED%98%B8_bgm%EC%A0%9C%EA%B1%B0.mp4_20250121_222732.752.jpg)
 
-![119_epickor_민호_bgm제거.mp4_20250121_222738.251.jpg](Winter%20Wonderland%20in%20Korea%20Ski,%20Skate,%20and%20Snowy%20E/119_epickor_%25EB%25AF%25BC%25ED%2598%25B8_bgm%25EC%25A0%259C%25EA%25B1%25B0.mp4_20250121_222738.251.jpg)
+![119_epickor_민호_bgm제거.mp4_20250121_222738.251.jpg](/assets/images/posts/091/119_epickor_%EB%AF%BC%ED%98%B8_bgm%EC%A0%9C%EA%B1%B0.mp4_20250121_222738.251.jpg)
 
-![119_epickor_민호_bgm제거.mp4_20250121_222741.424.jpg](Winter%20Wonderland%20in%20Korea%20Ski,%20Skate,%20and%20Snowy%20E/119_epickor_%25EB%25AF%25BC%25ED%2598%25B8_bgm%25EC%25A0%259C%25EA%25B1%25B0.mp4_20250121_222741.424.jpg)
+![119_epickor_민호_bgm제거.mp4_20250121_222741.424.jpg](/assets/images/posts/091/119_epickor_%EB%AF%BC%ED%98%B8_bgm%EC%A0%9C%EA%B1%B0.mp4_20250121_222741.424.jpg)
 
 ---
 

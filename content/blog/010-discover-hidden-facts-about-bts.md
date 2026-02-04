@@ -4,21 +4,10 @@ slug: '010'
 description: Explore Discover Hidden Facts About BTS
 ogImage: ''
 date: '2026-02-03'
+tags: ['Celeb', 'Kpop']
 ---
 
-# Discover Hidden Facts About BTS
-
-태그: Celeb, Kpop
-날짜: 2024년 3월 20일
-Content: BTS has taken the world by storm, but here are nine lesser-known facts about the global superstars that might surprise you.
-
-```yaml
-cleanUrl: "/blog/010"
-description: "BTS has taken the world by storm, but here are nine lesser-known facts about the global superstars that might surprise you."
-ogImage: "https://oopy.lazyrockets.com/api/v2/notion/image?src=https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2Fe8ae5f9b-947d-4cc7-968c-38997cab4f69%2F54fc0ffc-fd12-47fc-abc9-2caaa6e3a6c7%2F2cb2f6b7-a608-4b20-b52f-71363b9ceae1.png&blockId=5a1343fa-4e2c-470e-9d22-9557778c2d6f"
-```
-
-![010_EpicKor_진호.mp4_20240708_150419.699.jpg](Discover%20Hidden%20Facts%20About%20BTS/2cb2f6b7-a608-4b20-b52f-71363b9ceae1.png)
+![010_EpicKor_진호.mp4_20240708_150419.699.jpg](/assets/images/posts/010/2cb2f6b7-a608-4b20-b52f-71363b9ceae1.png)
 
 # 9 Things About BTS You Didn't Know
 
@@ -30,7 +19,7 @@ None of the 7 members have blood type B.
 
 Korean underground rapper B-FREE, who insulted BTS before, was recently booked on charges of interfering with the Korean election campaign.
 
-![010_EpicKor_진호.mp4_20240708_150433.097.jpg](Discover%20Hidden%20Facts%20About%20BTS/9fdac220-fc50-4255-b002-edc517aeccab.png)
+![010_EpicKor_진호.mp4_20240708_150433.097.jpg](/assets/images/posts/010/9fdac220-fc50-4255-b002-edc517aeccab.png)
 
 ### Early Debut
 
@@ -40,7 +29,7 @@ The official debut date is June 13, 2013. Unofficially, on September 30, 2010, R
 
 RM and Korean rap superstar Changmo shared a stage during their high school days, and there is a video of them rapping on the same stage.
 
-![010_EpicKor_진호.mp4_20240708_150457.377.jpg](Discover%20Hidden%20Facts%20About%20BTS/771f4f48-682b-4188-a695-4a4e926d33af.png)
+![010_EpicKor_진호.mp4_20240708_150457.377.jpg](/assets/images/posts/010/771f4f48-682b-4188-a695-4a4e926d33af.png)
 
 ### Jungkook's Donation
 
@@ -54,9 +43,9 @@ Before BTS's debut, Producer Bang Si-hyuk owed billions of won. Despite concerns
 
 During their trainee days, Suga mentioned that up to 11 people slept in one room in the dorm.
 
-![010_EpicKor_진호.mp4_20240708_150517.458.jpg](Discover%20Hidden%20Facts%20About%20BTS/33d96f74-0796-4b85-9861-85542fc9cc75.png)
+![010_EpicKor_진호.mp4_20240708_150517.458.jpg](/assets/images/posts/010/33d96f74-0796-4b85-9861-85542fc9cc75.png)
 
-![010_EpicKor_진호.mp4_20240708_150521.649.jpg](Discover%20Hidden%20Facts%20About%20BTS/07e35738-eb14-41f5-b5f8-0c23ed09183a.png)
+![010_EpicKor_진호.mp4_20240708_150521.649.jpg](/assets/images/posts/010/07e35738-eb14-41f5-b5f8-0c23ed09183a.png)
 
 ### Jin's Military Service
 

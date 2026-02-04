@@ -7,14 +7,8 @@ date: '2026-02-03'
 ---
 
 <properties>
-{"Content":"Explore the fascinating features of Korean life, from innovative conveniences like cancelable elevator buttons and restaurant service buzzers to the heartwarming \"culture of trust\" that defines Korean society.","date:날짜:is_datetime":0,"date:날짜:start":"2025-01-14","url":"{{https://www.notion.so/17b73cc3045480fcabcfc2c0026f937d}}","이름":"Unique Things You'll Only Find in Korea","태그":["Social","Culture","Travel"]}
-</properties>
+{"Content":"Explore the fascinating features of Korean life, from innovative conveniences like cancelable elevator buttons and restaurant service buzzers to the heartwarming \"culture of trust\" that defines Korean society.","date:</properties>
 <content>
-```yaml
-cleanUrl: "/blog/088"
-description: "Explore the fascinating features of Korean life, from innovative conveniences like cancelable elevator buttons and restaurant service buzzers to the heartwarming culture of trust that defines Korean society."
-ogImage: "https://oopy.lazyrockets.com/api/v2/notion/image?src=https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2Fe8ae5f9b-947d-4cc7-968c-38997cab4f69%2F796804e4-a36e-4347-abc1-c2d176ddc0a9%2F4fda1b66-ba26-4e46-953b-d09ed6eb9d3d.png&blockId=17b73cc3-0454-8041-978d-c05ad441f7b0"
-```
 ![Image](/assets/images/posts/003/20260203100705_18ad7776.png)></image>
 # Discover Korea’s Ingenious Inventions and Its Unique Culture of Trust
 ### Canceling Elevator Mistakes

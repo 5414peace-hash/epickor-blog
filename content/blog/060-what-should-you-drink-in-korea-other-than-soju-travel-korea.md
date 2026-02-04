@@ -4,21 +4,10 @@ slug: '060'
 description: 'Explore What Should You Drink in Korea Other Than ‘Soju’? : Travel Korea'
 ogImage: ''
 date: '2026-02-03'
+tags: ['Culture', 'Food', 'Shopping', 'Travel']
 ---
 
-# What Should You Drink in Korea Other Than ‘Soju’? : Travel Korea
-
-태그: Culture, Food, Shopping, Travel
-날짜: 2024년 8월 2일
-Content: While soju is a popular drink in Korea, there are other unique beverages like somaek that offer a delightful experience.
-
-```yaml
-cleanUrl: "/blog/060"
-description: "While soju is a popular drink in Korea, there are other unique beverages like somaek that offer a delightful experience."
-ogImage: "https://oopy.lazyrockets.com/api/v2/notion/image?src=https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2Fe8ae5f9b-947d-4cc7-968c-38997cab4f69%2F9f7ab1da-0be1-4011-9534-6bddf8869a5a%2Fecf8dfd7-dd2e-47f7-839c-69016976ceec.png&blockId=60e1b5e1-c964-44dc-8c3b-717bb7c52d7d"
-```
-
-![081_epickor_진호.mp4_20240802_223357.696.jpg](What%20Should%20You%20Drink%20in%20Korea%20Other%20Than%20%E2%80%98Soju%E2%80%99%20T/ecf8dfd7-dd2e-47f7-839c-69016976ceec.png)
+![081_epickor_진호.mp4_20240802_223357.696.jpg](/assets/images/posts/060/ecf8dfd7-dd2e-47f7-839c-69016976ceec.png)
 
 # Discover Korea's Diverse Beverage Culture Beyond Soju
 
@@ -38,9 +27,9 @@ Of course, not many Koreans claim that Korean beer is really delicious.
 
 But… Somaek is delicious.
 
-![081_epickor_진호.mp4_20240802_223412.682.jpg](What%20Should%20You%20Drink%20in%20Korea%20Other%20Than%20%E2%80%98Soju%E2%80%99%20T/081_epickor_%25EC%25A7%2584%25ED%2598%25B8.mp4_20240802_223412.682.jpg)
+![081_epickor_진호.mp4_20240802_223412.682.jpg](/assets/images/posts/060/081_epickor_%EC%A7%84%ED%98%B8.mp4_20240802_223412.682.jpg)
 
-![081_epickor_진호.mp4_20240802_223437.725.jpg](What%20Should%20You%20Drink%20in%20Korea%20Other%20Than%20%E2%80%98Soju%E2%80%99%20T/081_epickor_%25EC%25A7%2584%25ED%2598%25B8.mp4_20240802_223437.725.jpg)
+![081_epickor_진호.mp4_20240802_223437.725.jpg](/assets/images/posts/060/081_epickor_%EC%A7%84%ED%98%B8.mp4_20240802_223437.725.jpg)
 
 ### Somaek
 
@@ -52,9 +41,9 @@ First, let's take a look at the somaek technique of the female owner of a raw fi
 
 A YouTuber who is crazy about somaek also makes an appearance. Now, shall we drink our first shot?
 
-![081_epickor_진호.mp4_20240802_223448.743.jpg](What%20Should%20You%20Drink%20in%20Korea%20Other%20Than%20%E2%80%98Soju%E2%80%99%20T/081_epickor_%25EC%25A7%2584%25ED%2598%25B8.mp4_20240802_223448.743.jpg)
+![081_epickor_진호.mp4_20240802_223448.743.jpg](/assets/images/posts/060/081_epickor_%EC%A7%84%ED%98%B8.mp4_20240802_223448.743.jpg)
 
-![081_epickor_진호.mp4_20240802_223506.790.jpg](What%20Should%20You%20Drink%20in%20Korea%20Other%20Than%20%E2%80%98Soju%E2%80%99%20T/081_epickor_%25EC%25A7%2584%25ED%2598%25B8.mp4_20240802_223506.790.jpg)
+![081_epickor_진호.mp4_20240802_223506.790.jpg](/assets/images/posts/060/081_epickor_%EC%A7%84%ED%98%B8.mp4_20240802_223506.790.jpg)
 
 ---
 

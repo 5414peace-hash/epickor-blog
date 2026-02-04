@@ -4,21 +4,10 @@ slug: '050'
 description: Explore Discover the Unique Charm of Korean "Banchan" Culture
 ogImage: ''
 date: '2026-02-03'
+tags: ['Culture', 'Food', 'Travel']
 ---
 
-# Discover the Unique Charm of Korean "Banchan" Culture
-
-태그: Culture, Food, Travel
-날짜: 2024년 7월 17일
-Content: Learn about Korea's "banchan" culture, where a variety of side dishes accompany your main meal, enhancing the dining experience.
-
-```yaml
-cleanUrl: "/blog/050"
-description: "Learn about Korea's BANCHAN culture, where a variety of side dishes accompany your main meal, enhancing the dining experience."
-ogImage: "https://oopy.lazyrockets.com/api/v2/notion/image?src=https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2Fe8ae5f9b-947d-4cc7-968c-38997cab4f69%2Fba66753e-4a1b-41ef-9811-1bf8c984b385%2F6d305414-0269-4117-815f-735d0ed98dce.png&blockId=aa45a9a9-8207-443d-9bd4-0cb5ef78bcaa"
-```
-
-![050_epickor_민호.mp4_20240723_224603.215.jpg](Discover%20the%20Unique%20Charm%20of%20Korean%20Banchan%20Cultur/6d305414-0269-4117-815f-735d0ed98dce.png)
+![050_epickor_민호.mp4_20240723_224603.215.jpg](/assets/images/posts/050/6d305414-0269-4117-815f-735d0ed98dce.png)
 
 # Korea "Banchan" Food Culture 🇰🇷
 
@@ -32,9 +21,9 @@ ogImage: "https://oopy.lazyrockets.com/api/v2/notion/image?src=https%3A%2F%2Fpro
 
 The basic foods eaten with the main menu and rice are called "banchan" or side dishes. Usually, Korean food is eaten with several side dishes centered around one main menu, or the side dishes often become the main menu themselves.
 
-![050_epickor_민호.mp4_20240723_224612.169.jpg](Discover%20the%20Unique%20Charm%20of%20Korean%20Banchan%20Cultur/050_epickor_%25EB%25AF%25BC%25ED%2598%25B8.mp4_20240723_224612.169.jpg)
+![050_epickor_민호.mp4_20240723_224612.169.jpg](/assets/images/posts/050/050_epickor_%EB%AF%BC%ED%98%B8.mp4_20240723_224612.169.jpg)
 
-![050_epickor_민호.mp4_20240723_224650.257.jpg](Discover%20the%20Unique%20Charm%20of%20Korean%20Banchan%20Cultur/050_epickor_%25EB%25AF%25BC%25ED%2598%25B8.mp4_20240723_224650.257.jpg)
+![050_epickor_민호.mp4_20240723_224650.257.jpg](/assets/images/posts/050/050_epickor_%EB%AF%BC%ED%98%B8.mp4_20240723_224650.257.jpg)
 
 ### Kimchi as Banchan
 

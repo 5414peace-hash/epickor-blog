@@ -4,21 +4,10 @@ slug: '045'
 description: Explore A Peek at Korean Soldiers’ Lunch
 ogImage: ''
 date: '2026-02-03'
+tags: ['Culture', 'Food', 'Man']
 ---
 
-# A Peek at Korean Soldiers’ Lunch
-
-태그: Culture, Food, Man
-날짜: 2024년 7월 21일
-Content: Korean reservists undergo rigorous training and eat hearty meals to keep up their energy. Here's a look at their typical lunch.
-
-```yaml
-cleanUrl: "/blog/045"
-description: "Korean reservists undergo rigorous training and eat hearty meals to keep up their energy. Here's a look at their typical lunch."
-ogImage: "https://oopy.lazyrockets.com/api/v2/notion/image?src=https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2Fe8ae5f9b-947d-4cc7-968c-38997cab4f69%2Ff79350f0-701e-40be-bc02-ca6ae933e0bf%2F501cc362-d7c6-4b95-8efa-6dbfe8b08f93.png&blockId=6c04ed6e-f62c-4aea-9090-d336f6f6550b"
-```
-
-![048_epickor_휘수.mp4_20240721_214203.768.jpg](A%20Peek%20at%20Korean%20Soldiers%E2%80%99%20Lunch/501cc362-d7c6-4b95-8efa-6dbfe8b08f93.png)
+![048_epickor_휘수.mp4_20240721_214203.768.jpg](/assets/images/posts/045/501cc362-d7c6-4b95-8efa-6dbfe8b08f93.png)
 
 # Discover What Korean Reservists Eat During Training
 
@@ -32,9 +21,9 @@ After they are discharged from the military, they become a reserve force. They a
 
 The reserve force period is a total of `8 years`. For the first four years, they train for 3 days and 2 nights every year. For the next two years, training is held twice a year. For the last two years, training is conducted exclusively over the phone.
 
-![048_epickor_휘수.mp4_20240721_214217.240.jpg](A%20Peek%20at%20Korean%20Soldiers%E2%80%99%20Lunch/048_epickor_%25ED%259C%2598%25EC%2588%2598.mp4_20240721_214217.240.jpg)
+![048_epickor_휘수.mp4_20240721_214217.240.jpg](/assets/images/posts/045/048_epickor_%ED%9C%98%EC%88%98.mp4_20240721_214217.240.jpg)
 
-![048_epickor_휘수.mp4_20240721_214220.265.jpg](A%20Peek%20at%20Korean%20Soldiers%E2%80%99%20Lunch/048_epickor_%25ED%259C%2598%25EC%2588%2598.mp4_20240721_214220.265.jpg)
+![048_epickor_휘수.mp4_20240721_214220.265.jpg](/assets/images/posts/045/048_epickor_%ED%9C%98%EC%88%98.mp4_20240721_214220.265.jpg)
 
 ### Lunch During Training
 
@@ -60,9 +49,9 @@ Once they've finished eating, start training even if the weather is bad!
 
 After training, they take the bus back home.
 
-![048_epickor_휘수.mp4_20240721_214234.265.jpg](A%20Peek%20at%20Korean%20Soldiers%E2%80%99%20Lunch/048_epickor_%25ED%259C%2598%25EC%2588%2598.mp4_20240721_214234.265.jpg)
+![048_epickor_휘수.mp4_20240721_214234.265.jpg](/assets/images/posts/045/048_epickor_%ED%9C%98%EC%88%98.mp4_20240721_214234.265.jpg)
 
-![048_epickor_휘수.mp4_20240721_214238.026.jpg](A%20Peek%20at%20Korean%20Soldiers%E2%80%99%20Lunch/048_epickor_%25ED%259C%2598%25EC%2588%2598.mp4_20240721_214238.026.jpg)
+![048_epickor_휘수.mp4_20240721_214238.026.jpg](/assets/images/posts/045/048_epickor_%ED%9C%98%EC%88%98.mp4_20240721_214238.026.jpg)
 
 ### Secret
 

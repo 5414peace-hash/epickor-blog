@@ -4,21 +4,10 @@ slug: '023'
 description: Explore Discover the Heart of Korea's Renowned Plastic Surgery District
 ogImage: ''
 date: '2026-02-03'
+tags: ['Celeb', 'Culture', 'Travel', 'Woman']
 ---
 
-# Discover the Heart of Korea's Renowned Plastic Surgery District
-
-태그: Celeb, Culture, Travel, Woman
-날짜: 2024년 7월 12일
-Content: Explore the famous Sinsa Station intersection in Gangnam, Seoul, known for its numerous plastic surgery clinics, a hub of the K-Beauty industry fueled by global K-Drama popularity.
-
-```yaml
-cleanUrl: "/blog/023"
-description: "Explore the famous Sinsa Station intersection in Gangnam, Seoul, known for its numerous plastic surgery clinics, a hub of the K-Beauty industry fueled by global K-Drama popularity."
-ogImage: "https://oopy.lazyrockets.com/api/v2/notion/image?src=https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2Fe8ae5f9b-947d-4cc7-968c-38997cab4f69%2F9d549821-8210-4cde-8dae-f254db80cae4%2Fdb665fc9-1d2c-4edb-9304-16385135a468.png&blockId=c0f11e98-fd83-47fe-ac23-4af115e7bb4d"
-```
-
-![023_epickor_휘수_.mp4_20240712_222216.118.jpg](Discover%20the%20Heart%20of%20Korea's%20Renowned%20Plastic%20Sur/db665fc9-1d2c-4edb-9304-16385135a468.png)
+![023_epickor_휘수_.mp4_20240712_222216.118.jpg](/assets/images/posts/023/db665fc9-1d2c-4edb-9304-16385135a468.png)
 
 # Plastic Surgery Paradise?
 
@@ -32,9 +21,9 @@ There are as many as `9 plastic surgery hospitals` in the `10-story building`.
 
 The remaining one is also a dental clinic.
 
-![023_epickor_휘수_.mp4_20240712_222232.922.jpg](Discover%20the%20Heart%20of%20Korea's%20Renowned%20Plastic%20Sur/023_epickor_%25ED%259C%2598%25EC%2588%2598_.mp4_20240712_222232.922.jpg)
+![023_epickor_휘수_.mp4_20240712_222232.922.jpg](/assets/images/posts/023/023_epickor_%ED%9C%98%EC%88%98_.mp4_20240712_222232.922.jpg)
 
-![023_epickor_휘수_.mp4_20240712_222223.999.jpg](Discover%20the%20Heart%20of%20Korea's%20Renowned%20Plastic%20Sur/023_epickor_%25ED%259C%2598%25EC%2588%2598_.mp4_20240712_222223.999.jpg)
+![023_epickor_휘수_.mp4_20240712_222223.999.jpg](/assets/images/posts/023/023_epickor_%ED%9C%98%EC%88%98_.mp4_20240712_222223.999.jpg)
 
 ### Gangnam's Medical Center
 
@@ -44,9 +33,9 @@ The Sinsa Station intersection is located in Gangnam-gu, Seoul, South Korea.
 
 There are `1,106 plastic surgery clinics` in Korea, more than half of which are concentrated in Seoul, and 74% of them are located in Gangnam-gu.
 
-![023_epickor_휘수_.mp4_20240712_222249.303.jpg](Discover%20the%20Heart%20of%20Korea's%20Renowned%20Plastic%20Sur/023_epickor_%25ED%259C%2598%25EC%2588%2598_.mp4_20240712_222249.303.jpg)
+![023_epickor_휘수_.mp4_20240712_222249.303.jpg](/assets/images/posts/023/023_epickor_%ED%9C%98%EC%88%98_.mp4_20240712_222249.303.jpg)
 
-![023_epickor_휘수_.mp4_20240712_222241.316.jpg](Discover%20the%20Heart%20of%20Korea's%20Renowned%20Plastic%20Sur/023_epickor_%25ED%259C%2598%25EC%2588%2598_.mp4_20240712_222241.316.jpg)
+![023_epickor_휘수_.mp4_20240712_222241.316.jpg](/assets/images/posts/023/023_epickor_%ED%9C%98%EC%88%98_.mp4_20240712_222241.316.jpg)
 
 ### Plastic Surgery Paradise
 

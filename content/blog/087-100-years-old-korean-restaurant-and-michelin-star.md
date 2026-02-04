@@ -4,21 +4,10 @@ slug: 087
 description: Explore 100-Years-Old Korean Restaurant and Michelin Star
 ogImage: ''
 date: '2026-02-03'
+tags: ['Food', 'Travel']
 ---
 
-# 100-Years-Old Korean Restaurant and Michelin Star
-
-태그: Food, Travel
-날짜: 2025년 1월 13일
-Content: Explore Seoul's historic 'nopo' restaurants, each with over a century of tradition, now honored by the Michelin Guide for their authentic Korean cuisine.
-
-```yaml
-cleanUrl: "/blog/087"
-description: "Explore Seoul's historic 'nopo' restaurants, each with over a century of tradition, now honored by the Michelin Guide for their authentic Korean cuisine."
-ogImage: "https://oopy.lazyrockets.com/api/v2/notion/image?src=https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2Fe8ae5f9b-947d-4cc7-968c-38997cab4f69%2Ffde7f2b4-0115-4ca7-817a-0fbfde45329b%2Fc4000f20-6848-4fb8-afac-6e913b662f1d.png&blockId=17a73cc3-0454-8050-9360-f248abd0b220"
-```
-
-![114_epickor_민호.mp4_20250113_222356.328.jpg](100-Years-Old%20Korean%20Restaurant%20and%20Michelin%20Star/c4000f20-6848-4fb8-afac-6e913b662f1d.png)
+![114_epickor_민호.mp4_20250113_222356.328.jpg](/assets/images/posts/087/c4000f20-6848-4fb8-afac-6e913b662f1d.png)
 
 # Discover Seoul's Centuries-Old Culinary Gems Recognized by the Michelin Guide
 
@@ -29,9 +18,9 @@ In Korea, old, well-established restaurants are called `*nopo*`.
 
 These spots have been serving up the same iconic dishes for 50 to 100 years, staying true to tradition. Let’s explore four *nopo* in Seoul, all recognized by the `Michelin Guide`.
 
-![114_epickor_민호.mp4_20250113_222414.147.jpg](100-Years-Old%20Korean%20Restaurant%20and%20Michelin%20Star/475854de-010b-4838-aa97-9e7cf5684fbb.png)
+![114_epickor_민호.mp4_20250113_222414.147.jpg](/assets/images/posts/087/475854de-010b-4838-aa97-9e7cf5684fbb.png)
 
-![114_epickor_민호.mp4_20250113_222417.608.jpg](100-Years-Old%20Korean%20Restaurant%20and%20Michelin%20Star/bc6252f8-729d-4cd1-a233-44cbd803008c.png)
+![114_epickor_민호.mp4_20250113_222417.608.jpg](/assets/images/posts/087/bc6252f8-729d-4cd1-a233-44cbd803008c.png)
 
 ---
 
@@ -41,9 +30,9 @@ Established in 1904, **Imun Seolnongtang** holds the title of Seoul's oldest *se
 
 [MICHELIN Guide](https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/imun-seolnongtang?utm_source=chatgpt.com)
 
-![114_epickor_민호.mp4_20250113_222420.074.jpg](100-Years-Old%20Korean%20Restaurant%20and%20Michelin%20Star/114_epickor_%25EB%25AF%25BC%25ED%2598%25B8.mp4_20250113_222420.074.jpg)
+![114_epickor_민호.mp4_20250113_222420.074.jpg](/assets/images/posts/087/114_epickor_%EB%AF%BC%ED%98%B8.mp4_20250113_222420.074.jpg)
 
-![114_epickor_민호.mp4_20250113_222426.299.jpg](100-Years-Old%20Korean%20Restaurant%20and%20Michelin%20Star/114_epickor_%25EB%25AF%25BC%25ED%2598%25B8.mp4_20250113_222426.299.jpg)
+![114_epickor_민호.mp4_20250113_222426.299.jpg](/assets/images/posts/087/114_epickor_%EB%AF%BC%ED%98%B8.mp4_20250113_222426.299.jpg)
 
 ---
 
@@ -57,9 +46,9 @@ Since 1946, **Woo Rae Ok** has been synonymous with *naengmyeon* (cold buckwheat
 
 Founded in 1932, **Yonggeumok** specializes in *chueotang*, a distinctive soup made by grinding loaches, giving it a thick, earthy flavor. This unique dish is a favorite among locals seeking a nutritious and hearty meal, showcasing the diversity of Korean cuisine.
 
-![114_epickor_민호.mp4_20250113_222429.124.jpg](100-Years-Old%20Korean%20Restaurant%20and%20Michelin%20Star/114_epickor_%25EB%25AF%25BC%25ED%2598%25B8.mp4_20250113_222429.124.jpg)
+![114_epickor_민호.mp4_20250113_222429.124.jpg](/assets/images/posts/087/114_epickor_%EB%AF%BC%ED%98%B8.mp4_20250113_222429.124.jpg)
 
-![114_epickor_민호.mp4_20250113_222449.890.jpg](100-Years-Old%20Korean%20Restaurant%20and%20Michelin%20Star/114_epickor_%25EB%25AF%25BC%25ED%2598%25B8.mp4_20250113_222449.890.jpg)
+![114_epickor_민호.mp4_20250113_222449.890.jpg](/assets/images/posts/087/114_epickor_%EB%AF%BC%ED%98%B8.mp4_20250113_222449.890.jpg)
 
 ---
 
@@ -67,9 +56,9 @@ Founded in 1932, **Yonggeumok** specializes in *chueotang*, a distinctive soup m
 
 Since 1952, **Mijin** has delighted patrons with its *memil guksu* (buckwheat noodles). This simple yet flavorful dish, often paired with a spicy dipping sauce, is a testament to the beauty of minimalist Korean cooking. The restaurant's dedication to preserving traditional flavors has made it a beloved spot for both locals and visitors.
 
-![114_epickor_민호.mp4_20250113_222501.936.jpg](100-Years-Old%20Korean%20Restaurant%20and%20Michelin%20Star/114_epickor_%25EB%25AF%25BC%25ED%2598%25B8.mp4_20250113_222501.936.jpg)
+![114_epickor_민호.mp4_20250113_222501.936.jpg](/assets/images/posts/087/114_epickor_%EB%AF%BC%ED%98%B8.mp4_20250113_222501.936.jpg)
 
-![114_epickor_민호.mp4_20250113_223203.480.jpg](100-Years-Old%20Korean%20Restaurant%20and%20Michelin%20Star/114_epickor_%25EB%25AF%25BC%25ED%2598%25B8.mp4_20250113_223203.480.jpg)
+![114_epickor_민호.mp4_20250113_223203.480.jpg](/assets/images/posts/087/114_epickor_%EB%AF%BC%ED%98%B8.mp4_20250113_223203.480.jpg)
 
 ---
 

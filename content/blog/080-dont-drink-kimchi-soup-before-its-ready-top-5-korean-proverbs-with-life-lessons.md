@@ -6,23 +6,12 @@ description: 'Explore “Don’t Drink Kimchi Soup Before It’s Ready”: Top 5
   with Life Lessons'
 ogImage: ''
 date: '2026-02-03'
+tags: ['Culture']
 ---
-
-# “Don’t Drink Kimchi Soup Before It’s Ready”: Top 5 Korean Proverbs with Life Lessons
-
-태그: Culture
-날짜: 2025년 1월 7일
-Content: Discover the top 5 Korean proverbs, their cultural significance, and their English equivalents that teach valuable life lessons.
-
-```yaml
-cleanUrl: "/blog/080"
-description: "Discover the top 5 Korean proverbs, their cultural significance, and their English equivalents that teach valuable life lessons."
-ogImage: "https://terrific-agreement-234.notion.site/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2Fe8ae5f9b-947d-4cc7-968c-38997cab4f69%2F38dd5854-c322-4150-b1da-dd83919bc39b%2F4fc3feaa-2061-49d7-9bde-7a91d6aeb0e1.png?table=block&id=17473cc3-0454-802c-ab89-fc1db09dc0b1&spaceId=e8ae5f9b-947d-4cc7-968c-38997cab4f69&width=1420&userId=&cache=v2"
-```
 
 # Explore the meaning behind 5 insightful Korean proverbs and how they reflect universal truths.
 
-![107_epickor_민호.mp4_20250107_221730.430.jpg](%E2%80%9CDon%E2%80%99t%20Drink%20Kimchi%20Soup%20Before%20It%E2%80%99s%20Ready%E2%80%9D%20Top%205%20/4fc3feaa-2061-49d7-9bde-7a91d6aeb0e1.png)
+![107_epickor_민호.mp4_20250107_221730.430.jpg](/assets/images/posts/080/4fc3feaa-2061-49d7-9bde-7a91d6aeb0e1.png)
 
 ### 1. **Don’t Drink Kimchi Soup Before It’s Ready**
 
@@ -32,9 +21,9 @@ This Korean saying, `"김치국부터 마시지 마라,"` is a reminder not to g
 
 ---
 
-![107_epickor_민호.mp4_20250107_222418.593.jpg](%E2%80%9CDon%E2%80%99t%20Drink%20Kimchi%20Soup%20Before%20It%E2%80%99s%20Ready%E2%80%9D%20Top%205%20/107_epickor_%25EB%25AF%25BC%25ED%2598%25B8.mp4_20250107_222418.593.jpg)
+![107_epickor_민호.mp4_20250107_222418.593.jpg](/assets/images/posts/080/107_epickor_%EB%AF%BC%ED%98%B8.mp4_20250107_222418.593.jpg)
 
-![107_epickor_민호.mp4_20250107_222427.228.jpg](%E2%80%9CDon%E2%80%99t%20Drink%20Kimchi%20Soup%20Before%20It%E2%80%99s%20Ready%E2%80%9D%20Top%205%20/107_epickor_%25EB%25AF%25BC%25ED%2598%25B8.mp4_20250107_222427.228.jpg)
+![107_epickor_민호.mp4_20250107_222427.228.jpg](/assets/images/posts/080/107_epickor_%EB%AF%BC%ED%98%B8.mp4_20250107_222427.228.jpg)
 
 ### 2. **Even a Tiger Appears When Spoken Of**
 
@@ -52,9 +41,9 @@ The Korean proverb `"호랑이도 제 말 하면 온다"` is similar to the Engl
 
 ---
 
-![107_epickor_민호.mp4_20250107_222438.134.jpg](%E2%80%9CDon%E2%80%99t%20Drink%20Kimchi%20Soup%20Before%20It%E2%80%99s%20Ready%E2%80%9D%20Top%205%20/107_epickor_%25EB%25AF%25BC%25ED%2598%25B8.mp4_20250107_222438.134.jpg)
+![107_epickor_민호.mp4_20250107_222438.134.jpg](/assets/images/posts/080/107_epickor_%EB%AF%BC%ED%98%B8.mp4_20250107_222438.134.jpg)
 
-![107_epickor_민호.mp4_20250107_222442.320.jpg](%E2%80%9CDon%E2%80%99t%20Drink%20Kimchi%20Soup%20Before%20It%E2%80%99s%20Ready%E2%80%9D%20Top%205%20/107_epickor_%25EB%25AF%25BC%25ED%2598%25B8.mp4_20250107_222442.320.jpg)
+![107_epickor_민호.mp4_20250107_222442.320.jpg](/assets/images/posts/080/107_epickor_%EB%AF%BC%ED%98%B8.mp4_20250107_222442.320.jpg)
 
 ### 4. **Birds Hear the Words by Day, and Rats Hear the Words by Night**
 
@@ -72,9 +61,9 @@ The saying `"바늘 도둑이 소 도둑 된다"` cautions against ignoring smal
 
 ---
 
-![107_epickor_민호.mp4_20250107_222448.447.jpg](%E2%80%9CDon%E2%80%99t%20Drink%20Kimchi%20Soup%20Before%20It%E2%80%99s%20Ready%E2%80%9D%20Top%205%20/107_epickor_%25EB%25AF%25BC%25ED%2598%25B8.mp4_20250107_222448.447.jpg)
+![107_epickor_민호.mp4_20250107_222448.447.jpg](/assets/images/posts/080/107_epickor_%EB%AF%BC%ED%98%B8.mp4_20250107_222448.447.jpg)
 
-![107_epickor_민호.mp4_20250107_222455.054.jpg](%E2%80%9CDon%E2%80%99t%20Drink%20Kimchi%20Soup%20Before%20It%E2%80%99s%20Ready%E2%80%9D%20Top%205%20/107_epickor_%25EB%25AF%25BC%25ED%2598%25B8.mp4_20250107_222455.054.jpg)
+![107_epickor_민호.mp4_20250107_222455.054.jpg](/assets/images/posts/080/107_epickor_%EB%AF%BC%ED%98%B8.mp4_20250107_222455.054.jpg)
 
 ### 6. **The Day You Go Is Market Day**
 

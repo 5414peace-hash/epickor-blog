@@ -7,8 +7,7 @@ date: '2026-02-03'
 ---
 
 <properties>
-{"Content":"Dive into Korea’s winter food culture with iconic street snacks, savory stews, and traditional treats that keep locals warm through the cold months.","date:날짜:is_datetime":0,"date:날짜:start":"2025-04-11","url":"{{https://www.notion.so/1d273cc3045480cca352d01cceec0e22}}","이름":"Must-Try Korean Winter Foods That Will Warm You from Head to Toe","태그":["Food","Travel"]}
-</properties>
+{"Content":"Dive into Korea’s winter food culture with iconic street snacks, savory stews, and traditional treats that keep locals warm through the cold months.","date:</properties>
 <content>
 # **Warm Up with Korea’s Winter Foods!**
 ### 🥞 Street Food: Hotteok & Bungeoppang

@@ -6,21 +6,10 @@ description: 'Explore The Fascinating Debate Among Korean Women: What Do You Cal
   an Unfamiliar Man?'
 ogImage: ''
 date: '2026-02-03'
+tags: ['Culture', 'Social', 'Woman']
 ---
 
-# The Fascinating Debate Among Korean Women: What Do You Call an Unfamiliar Man?
-
-태그: Culture, Social, Woman
-날짜: 2025년 1월 16일
-Content: In Korea, deciding whether a man is called "Oppa," "Samchon," or "Ahjusshi" is more than just about age—it's a playful yet thoughtful cultural classification system. Here's what makes it so interesting!
-
-```yaml
-cleanUrl: "/blog/090"
-description: "In Korea, deciding whether a man is called Oppa, Samchon, or Ahjusshi is more than just about age—it's a playful yet thoughtful cultural classification system. Here's what makes it so interesting!"
-ogImage: "https://oopy.lazyrockets.com/api/v2/notion/image?src=https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2Fe8ae5f9b-947d-4cc7-968c-38997cab4f69%2Ff6b4f247-cf64-44ba-b5d9-b02a09ab2099%2F9aba325a-8a83-4721-9780-c2760839d14b.png&blockId=17d73cc3-0454-8012-82c8-c57dcdf05cf9"
-```
-
-![117_epickor_민호.mp4_20250116_211742.982.jpg](The%20Fascinating%20Debate%20Among%20Korean%20Women%20What%20Do%20/9aba325a-8a83-4721-9780-c2760839d14b.png)
+![117_epickor_민호.mp4_20250116_211742.982.jpg](/assets/images/posts/090/9aba325a-8a83-4721-9780-c2760839d14b.png)
 
 # Oppa, Samchon, or Ahjusshi?
 
@@ -34,9 +23,9 @@ Interestingly, this whole debate on what to call an unfamiliar adult male gained
 
 ---
 
-![117_epickor_민호.mp4_20250116_211751.070.jpg](The%20Fascinating%20Debate%20Among%20Korean%20Women%20What%20Do%20/117_epickor_%25EB%25AF%25BC%25ED%2598%25B8.mp4_20250116_211751.070.jpg)
+![117_epickor_민호.mp4_20250116_211751.070.jpg](/assets/images/posts/090/117_epickor_%EB%AF%BC%ED%98%B8.mp4_20250116_211751.070.jpg)
 
-![117_epickor_민호.mp4_20250116_211755.631.jpg](The%20Fascinating%20Debate%20Among%20Korean%20Women%20What%20Do%20/117_epickor_%25EB%25AF%25BC%25ED%2598%25B8.mp4_20250116_211755.631.jpg)
+![117_epickor_민호.mp4_20250116_211755.631.jpg](/assets/images/posts/090/117_epickor_%EB%AF%BC%ED%98%B8.mp4_20250116_211755.631.jpg)
 
 ### The Complexity Behind the Labels
 
@@ -64,11 +53,11 @@ To understand this better, let's look at some fun examples. Despite being born i
 2. **Hyun Bong-sik (1984-born)** exudes “Ahjusshi” energy, whereas **Lee Je-hoon (1984-born)** easily fits the “Oppa” mold.
 3. **Heo Sung-tae (1977-born)** has the aura of a distinguished "Ahjusshi," but **Won Bin (1977-born)**? Forever "Oppa."
     
-    ![117_epickor_민호.mp4_20250116_211848.710.jpg](The%20Fascinating%20Debate%20Among%20Korean%20Women%20What%20Do%20/117_epickor_%25EB%25AF%25BC%25ED%2598%25B8.mp4_20250116_211848.710.jpg)
+    ![117_epickor_민호.mp4_20250116_211848.710.jpg](/assets/images/posts/090/117_epickor_%EB%AF%BC%ED%98%B8.mp4_20250116_211848.710.jpg)
     
-    ![117_epickor_민호.mp4_20250116_211845.423.jpg](The%20Fascinating%20Debate%20Among%20Korean%20Women%20What%20Do%20/117_epickor_%25EB%25AF%25BC%25ED%2598%25B8.mp4_20250116_211845.423.jpg)
+    ![117_epickor_민호.mp4_20250116_211845.423.jpg](/assets/images/posts/090/117_epickor_%EB%AF%BC%ED%98%B8.mp4_20250116_211845.423.jpg)
     
-    ![117_epickor_민호.mp4_20250116_211841.630.jpg](The%20Fascinating%20Debate%20Among%20Korean%20Women%20What%20Do%20/117_epickor_%25EB%25AF%25BC%25ED%2598%25B8.mp4_20250116_211841.630.jpg)
+    ![117_epickor_민호.mp4_20250116_211841.630.jpg](/assets/images/posts/090/117_epickor_%EB%AF%BC%ED%98%B8.mp4_20250116_211841.630.jpg)
     
 
 ---

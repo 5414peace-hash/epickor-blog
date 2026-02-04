@@ -5,21 +5,10 @@ description: Explore Discover the Journey of Korea's Beloved 10 Million Actor, M
   Choi
 ogImage: ''
 date: '2026-02-03'
+tags: ['Celeb', 'Culture', 'Man']
 ---
 
-# Discover the Journey of Korea's Beloved 10 Million Actor, Min-sik Choi
-
-태그: Celeb, Culture, Man
-날짜: 2024년 7월 15일
-Content: Min-sik Choi, a celebrated Korean actor, has achieved the rare feat of starring in two films that have each attracted over 10 million viewers in Korea.
-
-```yaml
-cleanUrl: "/blog/030"
-description: "Min-sik Choi, a celebrated Korean actor, has achieved the rare feat of starring in two films that have each attracted over 10 million viewers in Korea."
-ogImage: "https://oopy.lazyrockets.com/api/v2/notion/image?src=https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2Fe8ae5f9b-947d-4cc7-968c-38997cab4f69%2Fd1d0d34b-ce2f-4636-8ab8-7edb15bf9eda%2Fcee879ed-05fe-4fcf-bac6-4f4322ca18fb.png&blockId=8a29f49a-eba9-430d-9ad2-53e5a50b615b"
-```
-
-![030_epickor_진호.mp4_20240715_105900.469.jpg](Discover%20the%20Journey%20of%20Korea's%20Beloved%2010%20Million/cee879ed-05fe-4fcf-bac6-4f4322ca18fb.png)
+![030_epickor_진호.mp4_20240715_105900.469.jpg](/assets/images/posts/030/cee879ed-05fe-4fcf-bac6-4f4322ca18fb.png)
 
 # Korea's No.1 Actor: Min-sik Choi
 
@@ -37,9 +26,9 @@ So, actors who appear in movies with 10 million viewers get the special title of
 
 Previously, in 2014, he appeared in the movie "The Admiral," which tells the story of Korean history, and already became the 10 million actor.
 
-![030_epickor_진호.mp4_20240715_105949.316.jpg](Discover%20the%20Journey%20of%20Korea's%20Beloved%2010%20Million/030_epickor_%25EC%25A7%2584%25ED%2598%25B8.mp4_20240715_105949.316.jpg)
+![030_epickor_진호.mp4_20240715_105949.316.jpg](/assets/images/posts/030/030_epickor_%EC%A7%84%ED%98%B8.mp4_20240715_105949.316.jpg)
 
-![030_epickor_진호.mp4_20240715_105938.085.jpg](Discover%20the%20Journey%20of%20Korea's%20Beloved%2010%20Million/030_epickor_%25EC%25A7%2584%25ED%2598%25B8.mp4_20240715_105938.085.jpg)
+![030_epickor_진호.mp4_20240715_105938.085.jpg](/assets/images/posts/030/030_epickor_%EC%A7%84%ED%98%B8.mp4_20240715_105938.085.jpg)
 
 ### Long Career
 

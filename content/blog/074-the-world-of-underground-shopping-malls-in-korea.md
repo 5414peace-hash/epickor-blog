@@ -4,21 +4,10 @@ slug: '074'
 description: Explore The World of Underground Shopping Malls in Korea
 ogImage: ''
 date: '2026-02-03'
+tags: ['Shopping', 'Travel', 'Woman']
 ---
 
-# The World of Underground Shopping Malls in Korea
-
-태그: Shopping, Travel, Woman
-날짜: 2024년 9월 19일
-Content: Discover the fascinating world of underground shopping malls in Korea, from COEX Mall to Gangnam Station and the Express Bus Terminal, where you can shop, dine, and explore without stepping outside.
-
-```yaml
-cleanUrl: "/blog/074"
-description: "Discover the fascinating world of underground shopping malls in Korea, from COEX Mall to Gangnam Station and the Express Bus Terminal, where you can shop, dine, and explore without stepping outside."
-ogImage: "https://oopy.lazyrockets.com/api/v2/notion/image?src=https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2Fe8ae5f9b-947d-4cc7-968c-38997cab4f69%2F44bb90d4-1de7-43ac-aeb9-1c32f59a4666%2F1f65ae5b-0c36-456c-9134-f3e0059f5b0e.png&blockId=352338a4-6cd4-490e-a6c2-d4fd8ded397f"
-```
-
-![106_epickor_건순.mp4_20240919_111538.967.jpg](The%20World%20of%20Underground%20Shopping%20Malls%20in%20Korea/1f65ae5b-0c36-456c-9134-f3e0059f5b0e.png)
+![106_epickor_건순.mp4_20240919_111538.967.jpg](/assets/images/posts/074/1f65ae5b-0c36-456c-9134-f3e0059f5b0e.png)
 
 # Explore Korea's Hidden Underground Shopping Gems
 
@@ -34,9 +23,9 @@ With everything from movie theaters to restaurants, clothing stores, and accesso
 
 Gangnam Station on `Subway Line 2` is not only known for its bustling streets but also for its underground shopping mall. It's perfect for those looking to do some light shopping, with a wide range of clothing stores and accessory shops available.
 
-![106_epickor_건순.mp4_20240919_111617.641.jpg](The%20World%20of%20Underground%20Shopping%20Malls%20in%20Korea/106_epickor_%25EA%25B1%25B4%25EC%2588%259C.mp4_20240919_111617.641.jpg)
+![106_epickor_건순.mp4_20240919_111617.641.jpg](/assets/images/posts/074/106_epickor_%EA%B1%B4%EC%88%9C.mp4_20240919_111617.641.jpg)
 
-![106_epickor_건순.mp4_20240919_111556.496.jpg](The%20World%20of%20Underground%20Shopping%20Malls%20in%20Korea/106_epickor_%25EA%25B1%25B4%25EC%2588%259C.mp4_20240919_111556.496.jpg)
+![106_epickor_건순.mp4_20240919_111556.496.jpg](/assets/images/posts/074/106_epickor_%EA%B1%B4%EC%88%9C.mp4_20240919_111556.496.jpg)
 
 ### 3. Express Bus Terminal Underground Shopping Mall
 

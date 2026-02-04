@@ -4,21 +4,10 @@ slug: 089
 description: Explore Discover Korea's Unique Outdoor Food and Drinking Culture
 ogImage: ''
 date: '2026-02-03'
+tags: ['Culture', 'Food', 'Travel']
 ---
 
-# Discover Korea's Unique Outdoor Food and Drinking Culture
-
-태그: Culture, Food, Travel
-날짜: 2025년 1월 15일
-Content: Experience Korea's romantic nighttime food stalls, "Pojangmacha," where traditional flavors meet vibrant urban nightlife.
-
-```yaml
-cleanUrl: "/blog/089"
-description: "Experience Korea's romantic nighttime food stalls, Pojangmacha, where traditional flavors meet vibrant urban nightlife."
-ogImage: "https://oopy.lazyrockets.com/api/v2/notion/image?src=https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2Fe8ae5f9b-947d-4cc7-968c-38997cab4f69%2F0c50a30f-e340-4a5a-a120-74966e8f14de%2Fd6f1969d-a973-4746-b6fa-8573eb1a2410.png&blockId=17c73cc3-0454-805a-8297-f3de630f26ec"
-```
-
-![116_epickor_건순.mp4_20250115_222913.308.jpg](Discover%20Korea's%20Unique%20Outdoor%20Food%20and%20Drinking%20/d6f1969d-a973-4746-b6fa-8573eb1a2410.png)
+![116_epickor_건순.mp4_20250115_222913.308.jpg](/assets/images/posts/089/d6f1969d-a973-4746-b6fa-8573eb1a2410.png)
 
 # Korean Street Food Bar - Pojangmacha
 
@@ -26,9 +15,9 @@ Korea has a nighttime drinking culture that is as vibrant and enchanting as its 
 
 Pojangmacha offers a unique way to immerse yourself in Korea’s bustling `nightlife` while indulging in authentic flavors. Whether you’re a local or a traveler, these colorful, tent-covered spots are sure to leave a lasting impression.
 
-![116_epickor_건순.mp4_20250115_222924.553.jpg](Discover%20Korea's%20Unique%20Outdoor%20Food%20and%20Drinking%20/116_epickor_%25EA%25B1%25B4%25EC%2588%259C.mp4_20250115_222924.553.jpg)
+![116_epickor_건순.mp4_20250115_222924.553.jpg](/assets/images/posts/089/116_epickor_%EA%B1%B4%EC%88%9C.mp4_20250115_222924.553.jpg)
 
-![116_epickor_건순.mp4_20250115_222927.231.jpg](Discover%20Korea's%20Unique%20Outdoor%20Food%20and%20Drinking%20/116_epickor_%25EA%25B1%25B4%25EC%2588%259C.mp4_20250115_222927.231.jpg)
+![116_epickor_건순.mp4_20250115_222927.231.jpg](/assets/images/posts/089/116_epickor_%EA%B1%B4%EC%88%9C.mp4_20250115_222927.231.jpg)
 
 ---
 
@@ -72,9 +61,9 @@ Whether you’re enjoying the warmth of a steaming bowl of kimchi stew in winter
 
 Pojangmacha culture is deeply rooted in community and connection. Friends, colleagues, and even strangers gather to share stories, food, and drinks, making it the perfect setting for socializing and bonding.
 
-![116_epickor_건순.mp4_20250115_223008.773.jpg](Discover%20Korea's%20Unique%20Outdoor%20Food%20and%20Drinking%20/116_epickor_%25EA%25B1%25B4%25EC%2588%259C.mp4_20250115_223008.773.jpg)
+![116_epickor_건순.mp4_20250115_223008.773.jpg](/assets/images/posts/089/116_epickor_%EA%B1%B4%EC%88%9C.mp4_20250115_223008.773.jpg)
 
-![116_epickor_건순.mp4_20250115_223003.860.jpg](Discover%20Korea's%20Unique%20Outdoor%20Food%20and%20Drinking%20/116_epickor_%25EA%25B1%25B4%25EC%2588%259C.mp4_20250115_223003.860.jpg)
+![116_epickor_건순.mp4_20250115_223003.860.jpg](/assets/images/posts/089/116_epickor_%EA%B1%B4%EC%88%9C.mp4_20250115_223003.860.jpg)
 
 ---
 

@@ -5,21 +5,10 @@ description: Explore Discover Why Viyott Yogurt is a Must-Try for Japanese Touri
   in Korea
 ogImage: ''
 date: '2026-02-03'
+tags: ['Food', 'Shopping', 'Travel', 'Woman']
 ---
 
-# Discover Why Viyott Yogurt is a Must-Try for Japanese Tourists in Korea
-
-태그: Food, Shopping, Travel, Woman
-날짜: 2024년 6월 12일
-Content: Viyott yogurt, a beloved Korean snack, captivates Japanese tourists with its unique taste and convenience store popularity.
-
-```yaml
-cleanUrl: "/blog/032"
-description: "Viyott yogurt, a beloved Korean snack, captivates Japanese tourists with its unique taste and convenience store popularity."
-ogImage: "https://oopy.lazyrockets.com/api/v2/notion/image?src=https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2Fe8ae5f9b-947d-4cc7-968c-38997cab4f69%2F22aed0fc-a4dd-45bf-9ac6-a8994a8ab9ae%2F1eb77d14-d926-4fce-b7ed-c3b14f60484d.png&blockId=4eab39db-9593-4c7a-b185-560f21a65fb8"
-```
-
-![032_Epickor_민호.mp4_20240715_221500.128.jpg](Discover%20Why%20Viyott%20Yogurt%20is%20a%20Must-Try%20for%20Japan/1eb77d14-d926-4fce-b7ed-c3b14f60484d.png)
+![032_Epickor_민호.mp4_20240715_221500.128.jpg](/assets/images/posts/032/1eb77d14-d926-4fce-b7ed-c3b14f60484d.png)
 
 # A Korean Snack Loved by Japanese
 
@@ -37,9 +26,9 @@ Viyott cannot be exported due to its expiration date, making it exclusive to Kor
 
 This exclusivity adds to its appeal among Japanese visitors.
 
-![032_Epickor_민호.mp4_20240715_221508.456.jpg](Discover%20Why%20Viyott%20Yogurt%20is%20a%20Must-Try%20for%20Japan/8fe17d65-0b35-414b-bc62-2f236aa6c500.png)
+![032_Epickor_민호.mp4_20240715_221508.456.jpg](/assets/images/posts/032/8fe17d65-0b35-414b-bc62-2f236aa6c500.png)
 
-![032_Epickor_민호.mp4_20240715_221519.515.jpg](Discover%20Why%20Viyott%20Yogurt%20is%20a%20Must-Try%20for%20Japan/032_Epickor_%25EB%25AF%25BC%25ED%2598%25B8.mp4_20240715_221519.515.jpg)
+![032_Epickor_민호.mp4_20240715_221519.515.jpg](/assets/images/posts/032/032_Epickor_%EB%AF%BC%ED%98%B8.mp4_20240715_221519.515.jpg)
 
 ### Quality Ingredients
 

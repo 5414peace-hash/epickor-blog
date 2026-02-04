@@ -4,21 +4,10 @@ slug: '041'
 description: Explore Essential Souvenirs to Pick Up When Traveling in Korea
 ogImage: ''
 date: '2026-02-03'
+tags: ['Culture', 'Food', 'Shopping', 'Travel']
 ---
 
-# Essential Souvenirs to Pick Up When Traveling in Korea
-
-태그: Culture, Food, Shopping, Travel
-날짜: 2024년 7월 19일
-Content: Discover the must-buy items when traveling to Korea, including red ginseng, stamps, soju, and mask packs, to enhance your travel experience and bring home the best Korean products.
-
-```yaml
-cleanUrl: "/blog/041"
-description: "Discover the must-buy items when traveling to Korea, including red ginseng, stamps, soju, and mask packs, to enhance your travel experience and bring home the best Korean products."
-ogImage: "https://oopy.lazyrockets.com/api/v2/notion/image?src=https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2Fe8ae5f9b-947d-4cc7-968c-38997cab4f69%2F5c3280db-0f98-4226-90fe-4cb3a473330b%2Fbec1c78f-da60-4744-a1fc-614a21834522.png&blockId=df18fb6c-32d5-4b2a-a19c-8f869f4b6f4b"
-```
-
-![044_EpicKor_요순_bgm제거.mp4_20240719_221427.036.jpg](Essential%20Souvenirs%20to%20Pick%20Up%20When%20Traveling%20in%20K/bec1c78f-da60-4744-a1fc-614a21834522.png)
+![044_EpicKor_요순_bgm제거.mp4_20240719_221427.036.jpg](/assets/images/posts/041/bec1c78f-da60-4744-a1fc-614a21834522.png)
 
 # Korea Travel Must-Buy Items
 
@@ -30,9 +19,9 @@ Red ginseng is a healthy food that is effective in improving immunity. It can be
 
 In Korea, when you prove yourself, you not only sign, but you also stamp. You can quickly create stamps with `various designs`. Engrave your name or favorite letters and use them in various ways.
 
-![044_EpicKor_요순_bgm제거.mp4_20240719_221522.893.jpg](Essential%20Souvenirs%20to%20Pick%20Up%20When%20Traveling%20in%20K/044_EpicKor_%25EC%259A%2594%25EC%2588%259C_bgm%25EC%25A0%259C%25EA%25B1%25B0.mp4_20240719_221522.893.jpg)
+![044_EpicKor_요순_bgm제거.mp4_20240719_221522.893.jpg](/assets/images/posts/041/044_EpicKor_%EC%9A%94%EC%88%9C_bgm%EC%A0%9C%EA%B1%B0.mp4_20240719_221522.893.jpg)
 
-![044_EpicKor_요순_bgm제거.mp4_20240719_221529.272.jpg](Essential%20Souvenirs%20to%20Pick%20Up%20When%20Traveling%20in%20K/044_EpicKor_%25EC%259A%2594%25EC%2588%259C_bgm%25EC%25A0%259C%25EA%25B1%25B0.mp4_20240719_221529.272.jpg)
+![044_EpicKor_요순_bgm제거.mp4_20240719_221529.272.jpg](/assets/images/posts/041/044_EpicKor_%EC%9A%94%EC%88%9C_bgm%EC%A0%9C%EA%B1%B0.mp4_20240719_221529.272.jpg)
 
 ### Soju
 

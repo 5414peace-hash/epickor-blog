@@ -5,21 +5,10 @@ description: 'Explore From Underground Battles to Mainstream Fame: The Journey o
   Korean Hip-Hop'
 ogImage: ''
 date: '2026-02-03'
+tags: ['Celeb', 'Culture', 'Kpop']
 ---
 
-# From Underground Battles to Mainstream Fame: The Journey of Korean Hip-Hop
-
-태그: Celeb, Culture, Kpop
-날짜: 2024년 3월 15일
-Content: Discover the rise and transformation of Korean hip-hop, fueled by debates and popular TV shows, and its eventual shift in popularity.
-
-```yaml
-cleanUrl: "/blog/009"
-description: "Discover the rise and transformation of Korean hip-hop, fueled by debates and popular TV shows, and its eventual shift in popularity."
-ogImage: "https://oopy.lazyrockets.com/api/v2/notion/image?src=https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2Fe8ae5f9b-947d-4cc7-968c-38997cab4f69%2F91bc7e19-47a2-4752-894c-e52aaa0a3734%2F925ac31d-c39d-4c4c-8cc6-4956d7a0f76f.png&blockId=44beb9bf-a6ac-4648-b4ba-463dd00c9c4d"
-```
-
-![009_EpicKor_진호_.mp4_20240708_145359.379.jpg](From%20Underground%20Battles%20to%20Mainstream%20Fame%20The%20Jo/925ac31d-c39d-4c4c-8cc6-4956d7a0f76f.png)
+![009_EpicKor_진호_.mp4_20240708_145359.379.jpg](/assets/images/posts/009/925ac31d-c39d-4c4c-8cc6-4956d7a0f76f.png)
 
 # The Evolution of Korean Hip-Hop: Part 2
 
@@ -41,9 +30,9 @@ PDs also abandoned the elements of hip-hop, which were no longer stimulating and
 
 As a result, the 11-year-long program concluded, and the popularity of hip-hop music weakened compared to the past.
 
-![009_EpicKor_진호_.mp4_20240708_145454.130.jpg](From%20Underground%20Battles%20to%20Mainstream%20Fame%20The%20Jo/a2d07641-da76-4e03-8e42-5953cc264c7b.png)
+![009_EpicKor_진호_.mp4_20240708_145454.130.jpg](/assets/images/posts/009/a2d07641-da76-4e03-8e42-5953cc264c7b.png)
 
-![009_EpicKor_진호_.mp4_20240708_145507.969.jpg](From%20Underground%20Battles%20to%20Mainstream%20Fame%20The%20Jo/38df27b6-34e9-40fe-ac78-3cf754fdf86c.png)
+![009_EpicKor_진호_.mp4_20240708_145507.969.jpg](/assets/images/posts/009/38df27b6-34e9-40fe-ac78-3cf754fdf86c.png)
 
 ### Recommendations for Korean Hip-Hop
 
@@ -56,15 +45,15 @@ And if you are curious about Korean hip-hop and want to listen to the music, you
 - Beenzino - Rapper
 - Swings - Rapper
 
-![009_EpicKor_진호_.mp4_20240708_145516.387.jpg](From%20Underground%20Battles%20to%20Mainstream%20Fame%20The%20Jo/009_EpicKor_%25EC%25A7%2584%25ED%2598%25B8_.mp4_20240708_145516.387.jpg)
+![009_EpicKor_진호_.mp4_20240708_145516.387.jpg](/assets/images/posts/009/009_EpicKor_%EC%A7%84%ED%98%B8_.mp4_20240708_145516.387.jpg)
 
-![009_EpicKor_진호_.mp4_20240708_145529.993.jpg](From%20Underground%20Battles%20to%20Mainstream%20Fame%20The%20Jo/009_EpicKor_%25EC%25A7%2584%25ED%2598%25B8_.mp4_20240708_145529.993.jpg)
+![009_EpicKor_진호_.mp4_20240708_145529.993.jpg](/assets/images/posts/009/009_EpicKor_%EC%A7%84%ED%98%B8_.mp4_20240708_145529.993.jpg)
 
-![009_EpicKor_진호_.mp4_20240708_145520.810.jpg](From%20Underground%20Battles%20to%20Mainstream%20Fame%20The%20Jo/009_EpicKor_%25EC%25A7%2584%25ED%2598%25B8_.mp4_20240708_145520.810.jpg)
+![009_EpicKor_진호_.mp4_20240708_145520.810.jpg](/assets/images/posts/009/009_EpicKor_%EC%A7%84%ED%98%B8_.mp4_20240708_145520.810.jpg)
 
-![009_EpicKor_진호_.mp4_20240708_145522.587.jpg](From%20Underground%20Battles%20to%20Mainstream%20Fame%20The%20Jo/009_EpicKor_%25EC%25A7%2584%25ED%2598%25B8_.mp4_20240708_145522.587.jpg)
+![009_EpicKor_진호_.mp4_20240708_145522.587.jpg](/assets/images/posts/009/009_EpicKor_%EC%A7%84%ED%98%B8_.mp4_20240708_145522.587.jpg)
 
-![009_EpicKor_진호_.mp4_20240708_145518.721.jpg](From%20Underground%20Battles%20to%20Mainstream%20Fame%20The%20Jo/009_EpicKor_%25EC%25A7%2584%25ED%2598%25B8_.mp4_20240708_145518.721.jpg)
+![009_EpicKor_진호_.mp4_20240708_145518.721.jpg](/assets/images/posts/009/009_EpicKor_%EC%A7%84%ED%98%B8_.mp4_20240708_145518.721.jpg)
 
 > Korean hip-hop has undergone significant changes over the years, moving from fierce underground battles to mainstream success with TV shows like ‘SHOW ME THE MONEY’. This journey highlights the dynamic and evolving nature of the genre. Although its popularity has waned, the impact and legacy of Korean hip-hop remain strong, influencing new generations of artists.
 > 

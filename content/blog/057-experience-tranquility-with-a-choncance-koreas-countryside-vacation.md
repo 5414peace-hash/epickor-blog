@@ -5,21 +5,10 @@ description: Explore Experience Tranquility with a 'Choncance' - Korea's Country
   Vacation
 ogImage: ''
 date: '2026-02-03'
+tags: ['Culture', 'Food', 'Travel']
 ---
 
-# Experience Tranquility with a 'Choncance' - Korea's Countryside Vacation
-
-태그: Culture, Food, Travel
-날짜: 2024년 7월 31일
-Content: Discover the unique charm of a Korean countryside vacation, known as 'choncance,' offering a peaceful retreat from bustling city life.
-
-```yaml
-cleanUrl: "/blog/057"
-description: "Discover the unique charm of a Korean countryside vacation, known as 'choncance,' offering a peaceful retreat from bustling city life."
-ogImage: "https://oopy.lazyrockets.com/api/v2/notion/image?src=https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2Fe8ae5f9b-947d-4cc7-968c-38997cab4f69%2F0aa883ac-2ac1-4b18-b2e1-de89baa5a84d%2Fe9146773-6fdc-4126-b1ef-7b425ba870cf.png&blockId=41d22faa-5e41-411e-9595-b1caac41e478"
-```
-
-![074_EpicKor_요순.mp4_20240731_221151.210.jpg](Experience%20Tranquility%20with%20a%20'Choncance'%20-%20Korea'/e9146773-6fdc-4126-b1ef-7b425ba870cf.png)
+![074_EpicKor_요순.mp4_20240731_221151.210.jpg](/assets/images/posts/057/e9146773-6fdc-4126-b1ef-7b425ba870cf.png)
 
 # Discover Rural Korea - Choncance
 
@@ -33,9 +22,9 @@ It's like when people tired of city life head to the countryside for some peace 
 
 Imagine grilling pork belly on a pot lid in a traditional Korean mud house or an old countryside house. It’s a whole different taste experience compared to eating at a restaurant.
 
-![074_EpicKor_요순.mp4_20240731_221204.526.jpg](Experience%20Tranquility%20with%20a%20'Choncance'%20-%20Korea'/074_EpicKor_%25EC%259A%2594%25EC%2588%259C.mp4_20240731_221204.526.jpg)
+![074_EpicKor_요순.mp4_20240731_221204.526.jpg](/assets/images/posts/057/074_EpicKor_%EC%9A%94%EC%88%9C.mp4_20240731_221204.526.jpg)
 
-![074_EpicKor_요순.mp4_20240731_221210.094.jpg](Experience%20Tranquility%20with%20a%20'Choncance'%20-%20Korea'/074_EpicKor_%25EC%259A%2594%25EC%2588%259C.mp4_20240731_221210.094.jpg)
+![074_EpicKor_요순.mp4_20240731_221210.094.jpg](/assets/images/posts/057/074_EpicKor_%EC%9A%94%EC%88%9C.mp4_20240731_221210.094.jpg)
 
 ### Authentic Vibe
 
@@ -49,9 +38,9 @@ These country-style lodgings are usually great for relaxing because they’re su
 
 Since you’re in Korea, why not take a break from the city and try a countryside vacation for some healing?
 
-![074_EpicKor_요순.mp4_20240731_221225.408.jpg](Experience%20Tranquility%20with%20a%20'Choncance'%20-%20Korea'/074_EpicKor_%25EC%259A%2594%25EC%2588%259C.mp4_20240731_221225.408.jpg)
+![074_EpicKor_요순.mp4_20240731_221225.408.jpg](/assets/images/posts/057/074_EpicKor_%EC%9A%94%EC%88%9C.mp4_20240731_221225.408.jpg)
 
-![074_EpicKor_요순.mp4_20240731_221240.483.jpg](Experience%20Tranquility%20with%20a%20'Choncance'%20-%20Korea'/074_EpicKor_%25EC%259A%2594%25EC%2588%259C.mp4_20240731_221240.483.jpg)
+![074_EpicKor_요순.mp4_20240731_221240.483.jpg](/assets/images/posts/057/074_EpicKor_%EC%9A%94%EC%88%9C.mp4_20240731_221240.483.jpg)
 
 ### Nearby Spots
 

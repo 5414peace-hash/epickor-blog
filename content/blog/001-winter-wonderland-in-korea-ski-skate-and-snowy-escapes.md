@@ -7,14 +7,8 @@ date: '2026-02-03'
 ---
 
 <properties>
-{"Content":"Discover the best of Korea's winter—from world-class ski resorts to ice skating in Seoul and breathtaking winter destinations like Nami Island.","date:날짜:is_datetime":0,"date:날짜:start":"2025-01-21","url":"{{https://www.notion.so/18273cc30454808e9c6bc082d6cdd68c}}","이름":"Winter Wonderland in Korea: Ski, Skate, and Snowy Escapes","태그":["Travel","Culture"]}
-</properties>
+{"Content":"Discover the best of Korea's winter—from world-class ski resorts to ice skating in Seoul and breathtaking winter destinations like Nami Island.","date:</properties>
 <content>
-```yaml
-cleanUrl: "/blog/091"
-description: "Discover the best of Korea's winter—from world-class ski resorts to ice skating in Seoul and breathtaking winter destinations like Nami Island."
-ogImage: "https://oopy.lazyrockets.com/api/v2/notion/image?src=https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2Fe8ae5f9b-947d-4cc7-968c-38997cab4f69%2Fdd7eb159-a189-4e1f-9ebb-a78eeb02abf9%2Fd68c2d60-f2e4-4a52-8941-0522bb16ea1b.png&blockId=18273cc3-0454-80c1-856b-c916057e0b6e"
-```
 ![Image](/assets/images/posts/001/20260203100645_1f52cf5b.png)></image>
 # Explore Korea’s Winter Magic: From Snowy Peaks to Dazzling Light Festivals
 ### Ski Resorts – The Heart of Winter Fun

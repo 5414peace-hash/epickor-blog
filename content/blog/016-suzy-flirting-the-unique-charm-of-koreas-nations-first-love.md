@@ -5,21 +5,10 @@ description: 'Explore Suzy-Flirting: The Unique Charm of Korea''s "Nation’s Fi
   Love”'
 ogImage: ''
 date: '2026-02-03'
+tags: ['Celeb', 'Kpop', 'Woman']
 ---
 
-# Suzy-Flirting: The Unique Charm of Korea's "Nation’s First Love”
-
-태그: Celeb, Kpop, Woman
-날짜: 2024년 3월 28일
-Content: Suzy's unique flirting technique, showcasing a slight smile to reveal her teeth, has taken Korea by storm, becoming a popular topic of conversation and imitation.
-
-```yaml
-cleanUrl: "/blog/016"
-description: "Suzy's unique flirting technique, showcasing a slight smile to reveal her teeth, has taken Korea by storm, becoming a popular topic of conversation and imitation."
-ogImage: "https://oopy.lazyrockets.com/api/v2/notion/image?src=https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2Fe8ae5f9b-947d-4cc7-968c-38997cab4f69%2Fe7e3b863-9d71-4e84-a870-62d1b7d939f6%2F9c72713e-4090-4915-991a-121d98249dea.png&blockId=a3a00d88-3697-4e3f-a1b6-0e154e653bb8"
-```
-
-![016_EpicKor_민호.mp4_20240711_105226.707.jpg](Suzy-Flirting%20The%20Unique%20Charm%20of%20Korea's%20Nation%E2%80%99s/9c72713e-4090-4915-991a-121d98249dea.png)
+![016_EpicKor_민호.mp4_20240711_105226.707.jpg](/assets/images/posts/016/9c72713e-4090-4915-991a-121d98249dea.png)
 
 # Discover the Trend of Suzy-Flirting and Its Impact on Korean Pop Culture
 
@@ -39,9 +28,9 @@ Meanwhile, one day in 2023, Suzy appeared on the YouTube channel of her close fr
 
 The unique thing about Suzy's flirting is that she smiles slightly to show her teeth. Viewers who saw Suzy flirting reacted like this: “What is that..?” Some even said that the flirting method of sticking out one's teeth was only possible because she was the one doing it.
 
-![016_EpicKor_민호.mp4_20240711_105307.097.jpg](Suzy-Flirting%20The%20Unique%20Charm%20of%20Korea's%20Nation%E2%80%99s/bf501e9d-40d0-436a-9b3b-8afabb353ad6.png)
+![016_EpicKor_민호.mp4_20240711_105307.097.jpg](/assets/images/posts/016/bf501e9d-40d0-436a-9b3b-8afabb353ad6.png)
 
-![016_EpicKor_민호.mp4_20240711_105303.194.jpg](Suzy-Flirting%20The%20Unique%20Charm%20of%20Korea's%20Nation%E2%80%99s/d1d7eec0-02d5-46ab-bf85-52f12ab32648.png)
+![016_EpicKor_민호.mp4_20240711_105303.194.jpg](/assets/images/posts/016/d1d7eec0-02d5-46ab-bf85-52f12ab32648.png)
 
 ### A New Trend
 

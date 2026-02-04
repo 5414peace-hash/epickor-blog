@@ -7,14 +7,8 @@ date: '2026-02-03'
 ---
 
 <properties>
-{"Content":"Discover the fascinating world of underground shopping malls in Korea, from COEX Mall to Gangnam Station and the Express Bus Terminal, where you can shop, dine, and explore without stepping outside.","date:날짜:is_datetime":0,"date:날짜:start":"2024-09-19","url":"{{https://www.notion.so/10673cc304548029b932d5a924af62dd}}","이름":"The World of Underground Shopping Malls in Korea","태그":["Shopping","Travel","Woman"]}
-</properties>
+{"Content":"Discover the fascinating world of underground shopping malls in Korea, from COEX Mall to Gangnam Station and the Express Bus Terminal, where you can shop, dine, and explore without stepping outside.","date:</properties>
 <content>
-```yaml
-cleanUrl: "/blog/074"
-description: "Discover the fascinating world of underground shopping malls in Korea, from COEX Mall to Gangnam Station and the Express Bus Terminal, where you can shop, dine, and explore without stepping outside."
-ogImage: "https://oopy.lazyrockets.com/api/v2/notion/image?src=https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2Fe8ae5f9b-947d-4cc7-968c-38997cab4f69%2F44bb90d4-1de7-43ac-aeb9-1c32f59a4666%2F1f65ae5b-0c36-456c-9134-f3e0059f5b0e.png&blockId=352338a4-6cd4-490e-a6c2-d4fd8ded397f"
-```
 ![Image](/assets/images/posts/002/20260203100657_6ba613c8.png)></image>
 # Explore Korea's Hidden Underground Shopping Gems
 ### 1. COEX Mall at Samseong Station

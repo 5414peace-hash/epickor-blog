@@ -4,21 +4,10 @@ slug: '065'
 description: Explore Korean Soul Food on a Rainy Day
 ogImage: ''
 date: '2026-02-03'
+tags: ['Culture', 'Food', 'Travel']
 ---
 
-# Korean Soul Food on a Rainy Day
-
-태그: Culture, Food, Travel
-날짜: 2024년 8월 8일
-Content: Explore why pajeon and makgeolli are the ultimate comfort foods for Koreans on rainy days.
-
-```yaml
-cleanUrl: "/blog/065"
-description: "Explore why pajeon and makgeolli are the ultimate comfort foods for Koreans on rainy days."
-ogImage: "https://oopy.lazyrockets.com/api/v2/notion/image?src=https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2Fe8ae5f9b-947d-4cc7-968c-38997cab4f69%2Fd359e90f-8f3a-4051-98a5-85322cf78dea%2F080ba621-2d5d-4a00-b55b-b65d0ed718e1.png&blockId=4d9bfdaf-6b72-4315-8d54-09b46e8f2a1a"
-```
-
-![092_epickor_진호.mp4_20240808_221501.217.jpg](Korean%20Soul%20Food%20on%20a%20Rainy%20Day/080ba621-2d5d-4a00-b55b-b65d0ed718e1.png)
+![092_epickor_진호.mp4_20240808_221501.217.jpg](/assets/images/posts/065/080ba621-2d5d-4a00-b55b-b65d0ed718e1.png)
 
 # Explore why pajeon and makgeolli are the ultimate comfort foods for Koreans on rainy days.
 
@@ -34,9 +23,9 @@ It's often paired with `makgeolli`, a traditional Korean rice wine that's milky 
 
 Sure, there are other rainy-day favorites like spicy ramen, kalguksu, and sujebi, but nothing beats `pajeon and makgeolli`.
 
-![092_epickor_진호.mp4_20240808_221507.041.jpg](Korean%20Soul%20Food%20on%20a%20Rainy%20Day/092_epickor_%25EC%25A7%2584%25ED%2598%25B8.mp4_20240808_221507.041.jpg)
+![092_epickor_진호.mp4_20240808_221507.041.jpg](/assets/images/posts/065/092_epickor_%EC%A7%84%ED%98%B8.mp4_20240808_221507.041.jpg)
 
-![092_epickor_진호.mp4_20240808_221521.693.jpg](Korean%20Soul%20Food%20on%20a%20Rainy%20Day/092_epickor_%25EC%25A7%2584%25ED%2598%25B8.mp4_20240808_221521.693.jpg)
+![092_epickor_진호.mp4_20240808_221521.693.jpg](/assets/images/posts/065/092_epickor_%EC%A7%84%ED%98%B8.mp4_20240808_221521.693.jpg)
 
 ### Unique Reasons
 

@@ -4,21 +4,10 @@ slug: '070'
 description: Explore Must-Watch 4 Korean Dramas on Netflix
 ogImage: ''
 date: '2026-02-03'
+tags: ['Celeb', 'Culture']
 ---
 
-# Must-Watch 4 Korean Dramas on Netflix
-
-태그: Celeb, Culture
-날짜: 2024년 8월 27일
-Content: Dive into these four must-watch Korean dramas on Netflix, featuring stunning cinematography, intense action, and heartwarming stories.
-
-```yaml
-cleanUrl: "/blog/070"
-description: "Dive into these four must-watch Korean dramas on Netflix, featuring stunning cinematography, intense action, and heartwarming stories."
-ogImage: "https://oopy.lazyrockets.com/api/v2/notion/image?src=https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2Fe8ae5f9b-947d-4cc7-968c-38997cab4f69%2F6f53d29a-be3d-4e97-a1b2-53fcb91545f9%2Fe1cccaf2-ffd4-4e4a-8fc7-5d9a2eaedd51.png&blockId=52449eeb-b9fe-49eb-a977-fac3ecc057ce"
-```
-
-![099_eickor_진호_bgm제거.mp4_20240827_102445.963.jpg](Must-Watch%204%20Korean%20Dramas%20on%20Netflix/e1cccaf2-ffd4-4e4a-8fc7-5d9a2eaedd51.png)
+![099_eickor_진호_bgm제거.mp4_20240827_102445.963.jpg](/assets/images/posts/070/e1cccaf2-ffd4-4e4a-8fc7-5d9a2eaedd51.png)
 
 # Discover the Best Korean Dramas on Netflix: From Fantasy to Romance
 
@@ -32,9 +21,9 @@ The cinematography is stunning, and the soundtrack is perfect.
 
 The acting by the leads, `Kim Go-eun` and `Gong Yoo`, is fantastic, and the supporting roles played by `Yoo In-na` and `Lee Dong-wook` are just as great.
 
-![099_eickor_진호_bgm제거.mp4_20240827_102456.770.jpg](Must-Watch%204%20Korean%20Dramas%20on%20Netflix/099_eickor_%25EC%25A7%2584%25ED%2598%25B8_bgm%25EC%25A0%259C%25EA%25B1%25B0.mp4_20240827_102456.770.jpg)
+![099_eickor_진호_bgm제거.mp4_20240827_102456.770.jpg](/assets/images/posts/070/099_eickor_%EC%A7%84%ED%98%B8_bgm%EC%A0%9C%EA%B1%B0.mp4_20240827_102456.770.jpg)
 
-![099_eickor_진호_bgm제거.mp4_20240827_102509.066.jpg](Must-Watch%204%20Korean%20Dramas%20on%20Netflix/099_eickor_%25EC%25A7%2584%25ED%2598%25B8_bgm%25EC%25A0%259C%25EA%25B1%25B0.mp4_20240827_102509.066.jpg)
+![099_eickor_진호_bgm제거.mp4_20240827_102509.066.jpg](/assets/images/posts/070/099_eickor_%EC%A7%84%ED%98%B8_bgm%EC%A0%9C%EA%B1%B0.mp4_20240827_102509.066.jpg)
 
 ### Reply Series
 
@@ -42,9 +31,9 @@ The **Reply Series** is set in the years 1988, 1994, and 1997, portraying the li
 
 It’s full of relatable, charming characters and heartwarming stories about relationships and the warmth between people.
 
-![099_eickor_진호_bgm제거.mp4_20240827_102519.306.jpg](Must-Watch%204%20Korean%20Dramas%20on%20Netflix/099_eickor_%25EC%25A7%2584%25ED%2598%25B8_bgm%25EC%25A0%259C%25EA%25B1%25B0.mp4_20240827_102519.306.jpg)
+![099_eickor_진호_bgm제거.mp4_20240827_102519.306.jpg](/assets/images/posts/070/099_eickor_%EC%A7%84%ED%98%B8_bgm%EC%A0%9C%EA%B1%B0.mp4_20240827_102519.306.jpg)
 
-![099_eickor_진호_bgm제거.mp4_20240827_102521.307.jpg](Must-Watch%204%20Korean%20Dramas%20on%20Netflix/099_eickor_%25EC%25A7%2584%25ED%2598%25B8_bgm%25EC%25A0%259C%25EA%25B1%25B0.mp4_20240827_102521.307.jpg)
+![099_eickor_진호_bgm제거.mp4_20240827_102521.307.jpg](/assets/images/posts/070/099_eickor_%EC%A7%84%ED%98%B8_bgm%EC%A0%9C%EA%B1%B0.mp4_20240827_102521.307.jpg)
 
 ### Kingdom
 
@@ -54,9 +43,9 @@ If you love horror or zombie shows, **Kingdom** is a must-watch. Set in the Jose
 
 **My Love from the Star** features Kim Soo-hyun as a handsome alien who has been on Earth for 400 years, and Jeon Ji-hyun as a top actress. This fantasy romance has it all—hilarious moments that will make you laugh out loud and touching, romantic scenes that will melt your heart.
 
-![099_eickor_진호_bgm제거.mp4_20240827_102529.813.jpg](Must-Watch%204%20Korean%20Dramas%20on%20Netflix/099_eickor_%25EC%25A7%2584%25ED%2598%25B8_bgm%25EC%25A0%259C%25EA%25B1%25B0.mp4_20240827_102529.813.jpg)
+![099_eickor_진호_bgm제거.mp4_20240827_102529.813.jpg](/assets/images/posts/070/099_eickor_%EC%A7%84%ED%98%B8_bgm%EC%A0%9C%EA%B1%B0.mp4_20240827_102529.813.jpg)
 
-![099_eickor_진호_bgm제거.mp4_20240827_102533.882.jpg](Must-Watch%204%20Korean%20Dramas%20on%20Netflix/099_eickor_%25EC%25A7%2584%25ED%2598%25B8_bgm%25EC%25A0%259C%25EA%25B1%25B0.mp4_20240827_102533.882.jpg)
+![099_eickor_진호_bgm제거.mp4_20240827_102533.882.jpg](/assets/images/posts/070/099_eickor_%EC%A7%84%ED%98%B8_bgm%EC%A0%9C%EA%B1%B0.mp4_20240827_102533.882.jpg)
 
 ---
 

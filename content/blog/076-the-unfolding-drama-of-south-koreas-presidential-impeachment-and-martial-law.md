@@ -5,21 +5,10 @@ description: Explore The Unfolding Drama of South Korea's Presidential Impeachme
   and Martial Law
 ogImage: ''
 date: '2026-02-03'
+tags: ['Culture', 'Social']
 ---
 
-# The Unfolding Drama of South Korea's Presidential Impeachment and Martial Law
-
-태그: Culture, Social
-날짜: 2025년 1월 3일
-Content: South Korea faces political upheaval as President Yoon declares martial law, sparking impeachment proceedings and massive public protests.
-
-```yaml
-cleanUrl: "/blog/076"
-description: "South Korea faces political upheaval as President Yoon declares martial law, sparking impeachment proceedings and massive public protests."
-ogImage: "https://oopy.lazyrockets.com/api/v2/notion/image?src=https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2Fe8ae5f9b-947d-4cc7-968c-38997cab4f69%2F5a3b0b47-5354-44f5-88cf-c3933364c078%2Ffd5b878f-2a73-443d-a794-2d45c5cb85e9.png&blockId=17073cc3-0454-8033-b727-d40f024ebef6"
-```
-
-![121_epickor_민호.mp4_20250103_222702.483.jpg](The%20Unfolding%20Drama%20of%20South%20Korea's%20Presidential%20/fd5b878f-2a73-443d-a794-2d45c5cb85e9.png)
+![121_epickor_민호.mp4_20250103_222702.483.jpg](/assets/images/posts/076/fd5b878f-2a73-443d-a794-2d45c5cb85e9.png)
 
 # A One-Minute Summary of Martial Law and Impeachment in Korea
 
@@ -39,11 +28,11 @@ On `December 3, 2024`, at precisely 10:28 PM, President Yoon shocked the nation 
 
 In an unprecedented turn of events, the National Assembly acted swiftly, voting at 1:01 AM on `December 4` to demand the lifting of martial law. By 4:28 AM, just hours after it began, President Yoon officially revoked the order.
 
-![121_epickor_민호.mp4_20250103_222722.591.jpg](The%20Unfolding%20Drama%20of%20South%20Korea's%20Presidential%20/121_epickor_%25EB%25AF%25BC%25ED%2598%25B8.mp4_20250103_222722.591.jpg)
+![121_epickor_민호.mp4_20250103_222722.591.jpg](/assets/images/posts/076/121_epickor_%EB%AF%BC%ED%98%B8.mp4_20250103_222722.591.jpg)
 
-![121_epickor_민호.mp4_20250103_222730.244.jpg](The%20Unfolding%20Drama%20of%20South%20Korea's%20Presidential%20/121_epickor_%25EB%25AF%25BC%25ED%2598%25B8.mp4_20250103_222730.244.jpg)
+![121_epickor_민호.mp4_20250103_222730.244.jpg](/assets/images/posts/076/121_epickor_%EB%AF%BC%ED%98%B8.mp4_20250103_222730.244.jpg)
 
-![121_epickor_민호.mp4_20250103_222735.093.jpg](The%20Unfolding%20Drama%20of%20South%20Korea's%20Presidential%20/121_epickor_%25EB%25AF%25BC%25ED%2598%25B8.mp4_20250103_222735.093.jpg)
+![121_epickor_민호.mp4_20250103_222735.093.jpg](/assets/images/posts/076/121_epickor_%EB%AF%BC%ED%98%B8.mp4_20250103_222735.093.jpg)
 
 **The Fallout**:
 
@@ -81,9 +70,9 @@ South Korea’s streets became the stage for a powerful display of democratic ac
 
 This marks the `third time` in South Korea’s history that a sitting president has faced impeachment. Out of the previous two cases, one was upheld, leading to the removal of the president, while the other was dismissed. 
 
-![121_epickor_민호.mp4_20250103_222818.092.jpg](The%20Unfolding%20Drama%20of%20South%20Korea's%20Presidential%20/121_epickor_%25EB%25AF%25BC%25ED%2598%25B8.mp4_20250103_222818.092.jpg)
+![121_epickor_민호.mp4_20250103_222818.092.jpg](/assets/images/posts/076/121_epickor_%EB%AF%BC%ED%98%B8.mp4_20250103_222818.092.jpg)
 
-![121_epickor_민호.mp4_20250103_222815.679.jpg](The%20Unfolding%20Drama%20of%20South%20Korea's%20Presidential%20/121_epickor_%25EB%25AF%25BC%25ED%2598%25B8.mp4_20250103_222815.679.jpg)
+![121_epickor_민호.mp4_20250103_222815.679.jpg](/assets/images/posts/076/121_epickor_%EB%AF%BC%ED%98%B8.mp4_20250103_222815.679.jpg)
 
 President Yoon’s case is a stark reminder of South Korea’s vibrant democratic spirit, where leaders are held accountable by both the institutions and the people.
 

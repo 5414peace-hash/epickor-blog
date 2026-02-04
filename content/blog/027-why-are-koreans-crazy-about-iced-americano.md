@@ -4,21 +4,10 @@ slug: '027'
 description: Explore Why Are Koreans Crazy About Iced Americano?
 ogImage: ''
 date: '2026-02-03'
+tags: ['Culture', 'Food', 'Shopping', 'Travel']
 ---
 
-# Why Are Koreans Crazy About Iced Americano?
-
-태그: Culture, Food, Shopping, Travel
-날짜: 2024년 7월 14일
-Content: Discover why Koreans are obsessed with Iced Americano, a drink that's popular year-round, even in winter.
-
-```yaml
-cleanUrl: "/blog/027"
-description: "Discover why Koreans are obsessed with Iced Americano, a drink that's popular year-round, even in winter."
-ogImage: "https://oopy.lazyrockets.com/api/v2/notion/image?src=https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2Fe8ae5f9b-947d-4cc7-968c-38997cab4f69%2F2a977f00-ea04-465d-9370-7bbcbb6154eb%2Ffa4ffba6-b779-4911-ab69-8179e299eb38.png&blockId=9ac60fcd-e20a-4693-8f73-48605b106880"
-```
-
-![027_epickor_민호 (1).mp4_20240714_153549.945.jpg](Why%20Are%20Koreans%20Crazy%20About%20Iced%20Americano/fa4ffba6-b779-4911-ab69-8179e299eb38.png)
+![027_epickor_민호 (1).mp4_20240714_153549.945.jpg](/assets/images/posts/027/fa4ffba6-b779-4911-ab69-8179e299eb38.png)
 
 # Unveiling Korea's Love Affair with Iced Americano
 
@@ -44,9 +33,9 @@ This is because coffee is not considered a beverage to be consumed like tea.
 
 Coffee is a quick and simple drink for Koreans.
 
-![027_epickor_민호 (1).mp4_20240714_153621.937.jpg](Why%20Are%20Koreans%20Crazy%20About%20Iced%20Americano/027_epickor_%25EB%25AF%25BC%25ED%2598%25B8_(1).mp4_20240714_153621.937.jpg)
+![027_epickor_민호 (1).mp4_20240714_153621.937.jpg](/assets/images/posts/027/027_epickor_%EB%AF%BC%ED%98%B8_(1).mp4_20240714_153621.937.jpg)
 
-![027_epickor_민호 (1).mp4_20240714_153626.826.jpg](Why%20Are%20Koreans%20Crazy%20About%20Iced%20Americano/027_epickor_%25EB%25AF%25BC%25ED%2598%25B8_(1).mp4_20240714_153626.826.jpg)
+![027_epickor_민호 (1).mp4_20240714_153626.826.jpg](/assets/images/posts/027/027_epickor_%EB%AF%BC%ED%98%B8_(1).mp4_20240714_153626.826.jpg)
 
 ### Spicy Food
 
@@ -62,9 +51,9 @@ It's great for a quick drink during lunch or a short break.
 
 There are too many other guesses, but in fact, many Koreans agree with all of this, so it seems that all factors have combined to make Korea a country that is crazy about Iced Americano.
 
-![027_epickor_민호 (1).mp4_20240714_153640.538.jpg](Why%20Are%20Koreans%20Crazy%20About%20Iced%20Americano/027_epickor_%25EB%25AF%25BC%25ED%2598%25B8_(1).mp4_20240714_153640.538.jpg)
+![027_epickor_민호 (1).mp4_20240714_153640.538.jpg](/assets/images/posts/027/027_epickor_%EB%AF%BC%ED%98%B8_(1).mp4_20240714_153640.538.jpg)
 
-![027_epickor_민호 (1).mp4_20240714_153650.507.jpg](Why%20Are%20Koreans%20Crazy%20About%20Iced%20Americano/027_epickor_%25EB%25AF%25BC%25ED%2598%25B8_(1).mp4_20240714_153650.507.jpg)
+![027_epickor_민호 (1).mp4_20240714_153650.507.jpg](/assets/images/posts/027/027_epickor_%EB%AF%BC%ED%98%B8_(1).mp4_20240714_153650.507.jpg)
 
 ### Do you guys also like drinking cold drinks even in cold weather?
 

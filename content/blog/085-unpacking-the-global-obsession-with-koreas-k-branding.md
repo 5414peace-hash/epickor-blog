@@ -4,21 +4,10 @@ slug: 085
 description: Explore Unpacking the Global Obsession with Korea’s ‘K’ Branding
 ogImage: ''
 date: '2026-02-03'
+tags: ['Culture', 'Social']
 ---
 
-# Unpacking the Global Obsession with Korea’s ‘K’ Branding
-
-태그: Culture, Social
-날짜: 2025년 1월 12일
-Content: Dive into the fascinating rise of Korea’s ‘K’ branding—from K-Pop and K-Food to K-Culture—and the challenges behind its global success.
-
-```yaml
-cleanUrl: "/blog/085"
-description: "Dive into the fascinating rise of Korea’s ‘K’ branding—from K-Pop and K-Food to K-Culture—and the challenges behind its global success."
-ogImage: "https://oopy.lazyrockets.com/api/v2/notion/image?src=https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2Fe8ae5f9b-947d-4cc7-968c-38997cab4f69%2Fdc580be9-075f-4680-b9d5-2921059d492c%2F8dfdaf59-5ec6-414f-a5fe-2bb2a221d038.png&blockId=17973cc3-0454-8008-bebd-cf3069593656"
-```
-
-![112_EpicKor_요순.mp4_20250112_221603.555.jpg](Unpacking%20the%20Global%20Obsession%20with%20Korea%E2%80%99s%20%E2%80%98K%E2%80%99%20Br/8dfdaf59-5ec6-414f-a5fe-2bb2a221d038.png)
+![112_EpicKor_요순.mp4_20250112_221603.555.jpg](/assets/images/posts/085/8dfdaf59-5ec6-414f-a5fe-2bb2a221d038.png)
 
 # The ‘K’ Trap: What’s Behind K-Pop, K-Food, and K-Culture?
 
@@ -28,9 +17,9 @@ We’ve all seen it—`K-Pop`, `K-Food,` `K-Culture`. The ‘K’ seems to be ev
 
 Koreans actually call their country “Hangook,” yet internationally, it’s known as “Korea” or the “`Republic of Korea (ROK)`.” Ever wondered why? One theory ties it to the ancient kingdom of Goryeo, whose name eventually morphed into “Korea.” This historical tidbit adds an extra layer of depth to the ‘K’ phenomenon that now dominates global pop culture.
 
-![112_EpicKor_요순.mp4_20250112_221620.445.jpg](Unpacking%20the%20Global%20Obsession%20with%20Korea%E2%80%99s%20%E2%80%98K%E2%80%99%20Br/112_EpicKor_%25EC%259A%2594%25EC%2588%259C.mp4_20250112_221620.445.jpg)
+![112_EpicKor_요순.mp4_20250112_221620.445.jpg](/assets/images/posts/085/112_EpicKor_%EC%9A%94%EC%88%9C.mp4_20250112_221620.445.jpg)
 
-![112_EpicKor_요순.mp4_20250112_221625.772.jpg](Unpacking%20the%20Global%20Obsession%20with%20Korea%E2%80%99s%20%E2%80%98K%E2%80%99%20Br/112_EpicKor_%25EC%259A%2594%25EC%2588%259C.mp4_20250112_221625.772.jpg)
+![112_EpicKor_요순.mp4_20250112_221625.772.jpg](/assets/images/posts/085/112_EpicKor_%EC%9A%94%EC%88%9C.mp4_20250112_221625.772.jpg)
 
 ---
 
@@ -48,9 +37,9 @@ What fans see is only the surface: sparkling stages, talented idols, and cinemat
 
 And it’s not just the stars we know who face this intensity. Many aspiring idols and actors never make it to fame. For these individuals, the reality can be stark—dealing with financial `struggles`, mental health challenges, and a constant fight to stay relevant.
 
-![112_EpicKor_요순.mp4_20250112_221638.099.jpg](Unpacking%20the%20Global%20Obsession%20with%20Korea%E2%80%99s%20%E2%80%98K%E2%80%99%20Br/112_EpicKor_%25EC%259A%2594%25EC%2588%259C.mp4_20250112_221638.099.jpg)
+![112_EpicKor_요순.mp4_20250112_221638.099.jpg](/assets/images/posts/085/112_EpicKor_%EC%9A%94%EC%88%9C.mp4_20250112_221638.099.jpg)
 
-![112_EpicKor_요순.mp4_20250112_221655.256.jpg](Unpacking%20the%20Global%20Obsession%20with%20Korea%E2%80%99s%20%E2%80%98K%E2%80%99%20Br/112_EpicKor_%25EC%259A%2594%25EC%2588%259C.mp4_20250112_221655.256.jpg)
+![112_EpicKor_요순.mp4_20250112_221655.256.jpg](/assets/images/posts/085/112_EpicKor_%EC%9A%94%EC%88%9C.mp4_20250112_221655.256.jpg)
 
 ---
 

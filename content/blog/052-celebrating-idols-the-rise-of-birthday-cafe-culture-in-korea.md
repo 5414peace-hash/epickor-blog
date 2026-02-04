@@ -4,21 +4,10 @@ slug: '052'
 description: 'Explore Celebrating Idols: The Rise of Birthday Cafe Culture in Korea'
 ogImage: ''
 date: '2026-02-03'
+tags: ['Celeb', 'Culture', 'Kpop']
 ---
 
-# Celebrating Idols: The Rise of Birthday Cafe Culture in Korea
-
-태그: Celeb, Culture, Kpop
-날짜: 2024년 7월 25일
-Content: Korean idol birthday cafe culture is a unique phenomenon where fans rent cafes to celebrate their favorite idols' birthdays, creating a space filled with shared fan-made goods and heartfelt celebrations.
-
-```yaml
-cleanUrl: "/blog/052"
-description: "Korean idol birthday cafe culture is a unique phenomenon where fans rent cafes to celebrate their favorite idols' birthdays, creating a space filled with shared fan-made goods and heartfelt celebrations."
-ogImage: "https://oopy.lazyrockets.com/api/v2/notion/image?src=https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2Fe8ae5f9b-947d-4cc7-968c-38997cab4f69%2F748d3a8c-f1b8-4ba8-a84a-0e5dc0007b4d%2F7b32c4a9-5a4b-409d-8c4c-5e15e479d5e6.png&blockId=7b0896bc-0e45-47cb-8972-d0b8ec5eb2a6"
-```
-
-![063_EpicKor_진호.mp4_20240725_221434.254.jpg](Celebrating%20Idols%20The%20Rise%20of%20Birthday%20Cafe%20Cultur/7b32c4a9-5a4b-409d-8c4c-5e15e479d5e6.png)
+![063_EpicKor_진호.mp4_20240725_221434.254.jpg](/assets/images/posts/052/7b32c4a9-5a4b-409d-8c4c-5e15e479d5e6.png)
 
 # Korean Idol Birthday Cafe Culture
 
@@ -38,9 +27,9 @@ These birthday cafes have evolved from idol culture and have spread to birthday 
 
 Sometimes, birthday `idols appear` in birthday cafes or communicate with fans through birthday cafes. This rare occurrence adds an extra layer of excitement and connection between idols and their fans.
 
-![063_EpicKor_진호.mp4_20240725_221512.172.jpg](Celebrating%20Idols%20The%20Rise%20of%20Birthday%20Cafe%20Cultur/063_EpicKor_%25EC%25A7%2584%25ED%2598%25B8.mp4_20240725_221512.172.jpg)
+![063_EpicKor_진호.mp4_20240725_221512.172.jpg](/assets/images/posts/052/063_EpicKor_%EC%A7%84%ED%98%B8.mp4_20240725_221512.172.jpg)
 
-![063_EpicKor_진호.mp4_20240725_221525.174.jpg](Celebrating%20Idols%20The%20Rise%20of%20Birthday%20Cafe%20Cultur/063_EpicKor_%25EC%25A7%2584%25ED%2598%25B8.mp4_20240725_221525.174.jpg)
+![063_EpicKor_진호.mp4_20240725_221525.174.jpg](/assets/images/posts/052/063_EpicKor_%EC%A7%84%ED%98%B8.mp4_20240725_221525.174.jpg)
 
 ### IU's Remarkable Gesture
 

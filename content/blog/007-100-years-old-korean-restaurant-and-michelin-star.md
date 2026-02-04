@@ -7,14 +7,8 @@ date: '2026-02-03'
 ---
 
 <properties>
-{"Content":"Explore Seoul's historic 'nopo' restaurants, each with over a century of tradition, now honored by the Michelin Guide for their authentic Korean cuisine.","date:날짜:is_datetime":0,"date:날짜:start":"2025-01-13","url":"{{https://www.notion.so/17a73cc30454804ebbf8c5c3d8710de4}}","이름":"100-Years-Old Korean Restaurant and Michelin Star","태그":["Food","Travel"]}
-</properties>
+{"Content":"Explore Seoul's historic 'nopo' restaurants, each with over a century of tradition, now honored by the Michelin Guide for their authentic Korean cuisine.","date:</properties>
 <content>
-```yaml
-cleanUrl: "/blog/087"
-description: "Explore Seoul's historic 'nopo' restaurants, each with over a century of tradition, now honored by the Michelin Guide for their authentic Korean cuisine."
-ogImage: "https://oopy.lazyrockets.com/api/v2/notion/image?src=https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2Fe8ae5f9b-947d-4cc7-968c-38997cab4f69%2Ffde7f2b4-0115-4ca7-817a-0fbfde45329b%2Fc4000f20-6848-4fb8-afac-6e913b662f1d.png&blockId=17a73cc3-0454-8050-9360-f248abd0b220"
-```
 ![Image](/assets/images/posts/007/20260203100743_c2c9a18e.png)></image>
 # Discover Seoul's Centuries-Old Culinary Gems Recognized by the Michelin Guide
 In Korea, old, well-established restaurants are called *`nopo`*. 

@@ -6,21 +6,10 @@ description: Explore Discover the Unique Blend of History and Modernity in Suwon
   Just a Short Ride from Seoul
 ogImage: ''
 date: '2026-02-03'
+tags: ['Culture', 'Travel']
 ---
 
-# Discover the Unique Blend of History and Modernity in Suwon, Just a Short Ride from Seoul
-
-태그: Culture, Travel
-날짜: 2024년 8월 7일
-Content: Explore Suwon, a city just an hour from Seoul, featuring the historic Hwaseong Fortress, trendy Haenggung-dong, and the famous Wang Galbi ribs.
-
-```yaml
-cleanUrl: "/blog/064"
-description: "Explore Suwon, a city just an hour from Seoul, featuring the historic Hwaseong Fortress, trendy Haenggung-dong, and the famous Wang Galbi ribs."
-ogImage: "https://oopy.lazyrockets.com/api/v2/notion/image?src=https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2Fe8ae5f9b-947d-4cc7-968c-38997cab4f69%2Fd0fb4ae2-7e47-40f3-93b7-b382b2fa4cad%2F165c1dbd-7419-488a-a26f-3907fbfac515.png&blockId=93ce9df8-a397-4d7d-bdbd-7962bd76de0b"
-```
-
-![075_Epickor_건순.mp4_20240807_151838.071.jpg](Discover%20the%20Unique%20Blend%20of%20History%20and%20Modernity/165c1dbd-7419-488a-a26f-3907fbfac515.png)
+![075_Epickor_건순.mp4_20240807_151838.071.jpg](/assets/images/posts/064/165c1dbd-7419-488a-a26f-3907fbfac515.png)
 
 # Not Seoul, but Suwon
 
@@ -34,9 +23,9 @@ This city has a cool old fortress called `Hwaseong`, and an area called `Haenggu
 
 Walking along the fortress wall in the evening is especially nice because you get to enjoy the `night view` of downtown Suwon.
 
-![075_Epickor_건순.mp4_20240807_151845.615.jpg](Discover%20the%20Unique%20Blend%20of%20History%20and%20Modernity/075_Epickor_%25EA%25B1%25B4%25EC%2588%259C.mp4_20240807_151845.615.jpg)
+![075_Epickor_건순.mp4_20240807_151845.615.jpg](/assets/images/posts/064/075_Epickor_%EA%B1%B4%EC%88%9C.mp4_20240807_151845.615.jpg)
 
-![075_Epickor_건순.mp4_20240807_151856.030.jpg](Discover%20the%20Unique%20Blend%20of%20History%20and%20Modernity/075_Epickor_%25EA%25B1%25B4%25EC%2588%259C.mp4_20240807_151856.030.jpg)
+![075_Epickor_건순.mp4_20240807_151856.030.jpg](/assets/images/posts/064/075_Epickor_%EA%B1%B4%EC%88%9C.mp4_20240807_151856.030.jpg)
 
 ### Famous Wang Galbi
 
@@ -48,9 +37,9 @@ On top of that, a huge shopping mall called `Starfield` just opened in Suwon.
 
 It's a great spot for shopping and having fun indoors.
 
-![075_Epickor_건순.mp4_20240807_151901.790.jpg](Discover%20the%20Unique%20Blend%20of%20History%20and%20Modernity/075_Epickor_%25EA%25B1%25B4%25EC%2588%259C.mp4_20240807_151901.790.jpg)
+![075_Epickor_건순.mp4_20240807_151901.790.jpg](/assets/images/posts/064/075_Epickor_%EA%B1%B4%EC%88%9C.mp4_20240807_151901.790.jpg)
 
-![075_Epickor_건순.mp4_20240807_151918.806.jpg](Discover%20the%20Unique%20Blend%20of%20History%20and%20Modernity/075_Epickor_%25EA%25B1%25B4%25EC%2588%259C.mp4_20240807_151918.806.jpg)
+![075_Epickor_건순.mp4_20240807_151918.806.jpg](/assets/images/posts/064/075_Epickor_%EA%B1%B4%EC%88%9C.mp4_20240807_151918.806.jpg)
 
 ### A Blend of Past and Present
 

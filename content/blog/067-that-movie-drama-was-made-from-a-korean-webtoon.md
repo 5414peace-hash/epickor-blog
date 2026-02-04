@@ -4,21 +4,10 @@ slug: '067'
 description: Explore That Movie & Drama Was Made from a Korean Webtoon
 ogImage: ''
 date: '2026-02-03'
+tags: ['Celeb', 'Culture']
 ---
 
-# That Movie & Drama Was Made from a Korean Webtoon
-
-태그: Celeb, Culture
-날짜: 2024년 8월 9일
-Content: Explore how Korean webtoons are transforming the global entertainment landscape, inspiring blockbuster movies and dramas, and driving a rapidly growing industry.
-
-```yaml
-cleanUrl: "/blog/067"
-description: "Explore how Korean webtoons are transforming the global entertainment landscape, inspiring blockbuster movies and dramas, and driving a rapidly growing industry."
-ogImage: "https://oopy.lazyrockets.com/api/v2/notion/image?src=https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2Fe8ae5f9b-947d-4cc7-968c-38997cab4f69%2F760c2b44-2a98-4289-8764-de0f77d5a7c6%2Fbfab7368-4346-469f-9c8c-1fcfeeba44eb.png&blockId=f2f83df0-267d-4aad-8c19-5e0586e5a523"
-```
-
-![093_epickor_휘수.mp4_20240809_184510.108.jpg](That%20Movie%20&%20Drama%20Was%20Made%20from%20a%20Korean%20Webtoon/bfab7368-4346-469f-9c8c-1fcfeeba44eb.png)
+![093_epickor_휘수.mp4_20240809_184510.108.jpg](/assets/images/posts/067/bfab7368-4346-469f-9c8c-1fcfeeba44eb.png)
 
 # Discover the Global Impact of Korean Webtoons on Movies and Dramas
 
@@ -32,15 +21,15 @@ From $3.7 billion in 2021, the webtoon market is expected to skyrocket to $56.1 
 
 —these are just a few examples of movies and dramas adapted from popular Korean webtoons.
 
-![093_epickor_휘수.mp4_20240809_184534.700.jpg](That%20Movie%20&%20Drama%20Was%20Made%20from%20a%20Korean%20Webtoon/28e0fa47-a2d1-4193-b638-7fcb1cf5660b.png)
+![093_epickor_휘수.mp4_20240809_184534.700.jpg](/assets/images/posts/067/28e0fa47-a2d1-4193-b638-7fcb1cf5660b.png)
 
 ### Market Growth
 
 **Naver Webtoon** boasts 82 million users, and Kakao's Piccoma recorded $673 million in transactions last year. The success of webtoons is opening doors for Korean comic artists on a global scale.
 
-![093_epickor_휘수.mp4_20240809_184545.845.jpg](That%20Movie%20&%20Drama%20Was%20Made%20from%20a%20Korean%20Webtoon/093_epickor_%25ED%259C%2598%25EC%2588%2598.mp4_20240809_184545.845.jpg)
+![093_epickor_휘수.mp4_20240809_184545.845.jpg](/assets/images/posts/067/093_epickor_%ED%9C%98%EC%88%98.mp4_20240809_184545.845.jpg)
 
-![093_epickor_휘수.mp4_20240809_184548.869.jpg](That%20Movie%20&%20Drama%20Was%20Made%20from%20a%20Korean%20Webtoon/093_epickor_%25ED%259C%2598%25EC%2588%2598.mp4_20240809_184548.869.jpg)
+![093_epickor_휘수.mp4_20240809_184548.869.jpg](/assets/images/posts/067/093_epickor_%ED%9C%98%EC%88%98.mp4_20240809_184548.869.jpg)
 
 ### Unprecedented Success
 

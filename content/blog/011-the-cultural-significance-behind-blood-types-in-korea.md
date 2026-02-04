@@ -4,21 +4,10 @@ slug: '011'
 description: Explore The Cultural Significance Behind Blood Types in Korea
 ogImage: ''
 date: '2026-02-03'
+tags: ['Culture', 'Man', 'Woman']
 ---
 
-# The Cultural Significance Behind Blood Types in Korea
-
-태그: Culture, Man, Woman
-날짜: 2024년 3월 20일
-Content: Understanding why Koreans ask about blood type reveals fascinating cultural insights, reflecting traditional beliefs about personality traits linked to blood types.
-
-```yaml
-cleanUrl: "/blog/011"
-description: "Understanding why Koreans ask about blood type reveals fascinating cultural insights, reflecting traditional beliefs about personality traits linked to blood types."
-ogImage: "https://oopy.lazyrockets.com/api/v2/notion/image?src=https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2Fe8ae5f9b-947d-4cc7-968c-38997cab4f69%2Fc4f3394e-2f92-47c1-b5f3-11da539be9a1%2F545ab633-a411-459c-9619-34d52b83ea1d.png&blockId=5a49a400-0378-42c7-bf1d-4d1e414fc7fa"
-```
-
-![011_EpicKor_요순.mp4_20240709_114222.438.jpg](The%20Cultural%20Significance%20Behind%20Blood%20Types%20in%20Ko/545ab633-a411-459c-9619-34d52b83ea1d.png)
+![011_EpicKor_요순.mp4_20240709_114222.438.jpg](/assets/images/posts/011/545ab633-a411-459c-9619-34d52b83ea1d.png)
 
 # Why Do Koreans Ask Your Blood Type?
 
@@ -30,13 +19,13 @@ When Koreans need to get to know somebody, they often ask about their `blood typ
 
 This is because, in Korea, there are very famous characteristics for each blood type:
 
-![011_EpicKor_요순.mp4_20240709_114237.902.jpg](The%20Cultural%20Significance%20Behind%20Blood%20Types%20in%20Ko/9b7bae75-3f66-4268-a6d8-aab2bb77e8db.png)
+![011_EpicKor_요순.mp4_20240709_114237.902.jpg](/assets/images/posts/011/9b7bae75-3f66-4268-a6d8-aab2bb77e8db.png)
 
-![011_EpicKor_요순.mp4_20240709_114240.534.jpg](The%20Cultural%20Significance%20Behind%20Blood%20Types%20in%20Ko/116afdc8-c43d-4992-9f30-aa5a82786688.png)
+![011_EpicKor_요순.mp4_20240709_114240.534.jpg](/assets/images/posts/011/116afdc8-c43d-4992-9f30-aa5a82786688.png)
 
-![011_EpicKor_요순.mp4_20240709_114244.158.jpg](The%20Cultural%20Significance%20Behind%20Blood%20Types%20in%20Ko/2ae76513-efe7-45b6-9675-a25cbf854a09.png)
+![011_EpicKor_요순.mp4_20240709_114244.158.jpg](/assets/images/posts/011/2ae76513-efe7-45b6-9675-a25cbf854a09.png)
 
-![011_EpicKor_요순.mp4_20240709_114247.727.jpg](The%20Cultural%20Significance%20Behind%20Blood%20Types%20in%20Ko/1b507c5d-4bbd-48ca-b878-1a59dd3afe6a.png)
+![011_EpicKor_요순.mp4_20240709_114247.727.jpg](/assets/images/posts/011/1b507c5d-4bbd-48ca-b878-1a59dd3afe6a.png)
 
 - **Type A**: Timid
 - **Type B**: A playboy or hot-tempered person
@@ -53,7 +42,7 @@ These days, `MBTI` is taking the place of blood type as a tool for understanding
 
 However, it is still a frequently asked question. If you meet a Korean who is interested, you’d better practice asking, "`Hyeol aek Hyeong I muo ya`?" which means "What is your blood type?"
 
-![011_EpicKor_요순.mp4_20240709_114313.679.jpg](The%20Cultural%20Significance%20Behind%20Blood%20Types%20in%20Ko/d13b6626-7d59-4670-9f68-f46d58983b12.png)
+![011_EpicKor_요순.mp4_20240709_114313.679.jpg](/assets/images/posts/011/d13b6626-7d59-4670-9f68-f46d58983b12.png)
 
 ### Practice Makes Perfect
 

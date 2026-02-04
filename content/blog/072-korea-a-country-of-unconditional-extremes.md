@@ -4,21 +4,10 @@ slug: '072'
 description: Explore Korea, a Country of Unconditional Extremes
 ogImage: ''
 date: '2026-02-03'
+tags: ['Culture', 'Food', 'Social']
 ---
 
-# Korea, a Country of Unconditional Extremes
-
-태그: Culture, Food, Social
-날짜: 2024년 9월 6일
-Content: From boiling hot soups to icy cold noodles, extreme spiciness, and unmatched precision in archery, Koreans take everything to the next level.
-
-```yaml
-cleanUrl: "/blog/072"
-description: "From boiling hot soups to icy cold noodles, extreme spiciness, and unmatched precision in archery, Koreans take everything to the next level."
-ogImage: "https://oopy.lazyrockets.com/api/v2/notion/image?src=https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2Fe8ae5f9b-947d-4cc7-968c-38997cab4f69%2F4eee9836-53f6-49b3-aa5d-c8aeca294b67%2F1339caf6-85ca-4f34-a9c1-18f80339aabd.png&blockId=d241871b-5e57-420e-900b-163085c69808"
-```
-
-![104_epickor_휘수.mp4_20240906_134744.132.jpg](Korea,%20a%20Country%20of%20Unconditional%20Extremes/1339caf6-85ca-4f34-a9c1-18f80339aabd.png)
+![104_epickor_휘수.mp4_20240906_134744.132.jpg](/assets/images/posts/072/1339caf6-85ca-4f34-a9c1-18f80339aabd.png)
 
 # Discover Korea’s Love for Extremes in Food, Spice, and Sports
 
@@ -30,9 +19,9 @@ They're crazy about extremely hot soup, not just warm. Boiling soup in a ceramic
 
 On the other hand, they are equally passionate about cold dishes. One popular example is `*naengmyeon*`, served in a large stainless steel bowl with frozen broth that’s so cold it feels like your head might burst. This love for extremes is deeply rooted in Korean food culture.
 
-![104_epickor_휘수.mp4_20240906_134754.450.jpg](Korea,%20a%20Country%20of%20Unconditional%20Extremes/104_epickor_%25ED%259C%2598%25EC%2588%2598.mp4_20240906_134754.450.jpg)
+![104_epickor_휘수.mp4_20240906_134754.450.jpg](/assets/images/posts/072/104_epickor_%ED%9C%98%EC%88%98.mp4_20240906_134754.450.jpg)
 
-![104_epickor_휘수.mp4_20240906_134814.570.jpg](Korea,%20a%20Country%20of%20Unconditional%20Extremes/104_epickor_%25ED%259C%2598%25EC%2588%2598.mp4_20240906_134814.570.jpg)
+![104_epickor_휘수.mp4_20240906_134814.570.jpg](/assets/images/posts/072/104_epickor_%ED%9C%98%EC%88%98.mp4_20240906_134814.570.jpg)
 
 ### The Ultimate Spicy Challenge
 
@@ -42,9 +31,9 @@ You may know that dishes like `*kimchi*` and `*tteokbokki*` are spicy, but in Ko
 
 Korea’s love for extremes extends beyond food into sports. `Archery`, an Olympic event, is one of the most precision-demanding sports, and in Korea, the competition is fierce. There's a saying that the Korean national team trials are as intense as an Olympic final. The athletes undergo intense training, which includes practicing against noise at baseball stadiums and even competing with archery robots to sharpen their skills. Koreans, it seems, don’t know how to do anything halfway!
 
-![104_epickor_휘수.mp4_20240906_134853.602.jpg](Korea,%20a%20Country%20of%20Unconditional%20Extremes/104_epickor_%25ED%259C%2598%25EC%2588%2598.mp4_20240906_134853.602.jpg)
+![104_epickor_휘수.mp4_20240906_134853.602.jpg](/assets/images/posts/072/104_epickor_%ED%9C%98%EC%88%98.mp4_20240906_134853.602.jpg)
 
-![104_epickor_휘수.mp4_20240906_134900.050.jpg](Korea,%20a%20Country%20of%20Unconditional%20Extremes/104_epickor_%25ED%259C%2598%25EC%2588%2598.mp4_20240906_134900.050.jpg)
+![104_epickor_휘수.mp4_20240906_134900.050.jpg](/assets/images/posts/072/104_epickor_%ED%9C%98%EC%88%98.mp4_20240906_134900.050.jpg)
 
 ### People Who Push Beyond Limits
 

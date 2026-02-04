@@ -7,14 +7,8 @@ date: '2026-02-03'
 ---
 
 <properties>
-{"Content":"Uncover the hottest places to visit in Yongsan, Seoul, including must-visit restaurants, historical landmarks, and accessible transport options.","date:날짜:is_datetime":0,"date:날짜:start":"2024-07-22","url":"{{https://www.notion.so/30ef93933804408280b1852e8ac390b7}}","이름":"Newest Hotspots in Seoul, Korea - Yongsan","태그":["Shopping","Culture","Food","Travel"]}
-</properties>
+{"Content":"Uncover the hottest places to visit in Yongsan, Seoul, including must-visit restaurants, historical landmarks, and accessible transport options.","date:</properties>
 <content>
-```yaml
-cleanUrl: "/blog/047"
-description: "Uncover the hottest places to visit in Yongsan, Seoul, including must-visit restaurants, historical landmarks, and accessible transport options."
-ogImage: "https://oopy.lazyrockets.com/api/v2/notion/image?src=https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2Fe8ae5f9b-947d-4cc7-968c-38997cab4f69%2F63ec891e-eb14-4023-a41a-fa5ad1fb173e%2F8171d3b9-5fe0-46d5-bb33-ff2c36e658c9.png&blockId=993086a9-1839-4e60-95f3-d9b7b70b175e"
-```
 ![Image](/assets/images/posts/005/20260203100728_54836f8d.png)></image>
 # Discover Yongsan's Trendiest Spots and Hidden Gems for 2024
 **Let me tell you why you've gotta visit Korea this summer.**

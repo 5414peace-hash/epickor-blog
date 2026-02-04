@@ -7,14 +7,8 @@ date: '2026-02-03'
 ---
 
 <properties>
-{"Content":"Discover whether Korean is difficult to learn by exploring its alphabet, grammar, and pronunciation, with tips to make your learning journey smoother.","date:날짜:is_datetime":0,"date:날짜:start":"2024-08-09","url":"{{https://www.notion.so/b6cebe01a90e472dba3bed38eaa3c502}}","이름":"Uncover the Truth About Learning Korean: Challenges and Tips for Beginners","태그":["Culture","Travel"]}
-</properties>
+{"Content":"Discover whether Korean is difficult to learn by exploring its alphabet, grammar, and pronunciation, with tips to make your learning journey smoother.","date:</properties>
 <content>
-```yaml
-cleanUrl: "/blog/068"
-description: "Discover whether Korean is difficult to learn by exploring its alphabet, grammar, and pronunciation, with tips to make your learning journey smoother."
-ogImage: "https://oopy.lazyrockets.com/api/v2/notion/image?src=https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2Fe8ae5f9b-947d-4cc7-968c-38997cab4f69%2F598c358f-43bf-4f2d-8373-ded23e33b6ac%2Fe8e945a9-107a-46a3-a5bd-12333f411419.png&blockId=39a78d35-ea9c-4014-87b8-a5c889f190f3"
-```
 ![Image](/assets/images/posts/009/20260203100815_0a51f43c.png)></image>
 # Is Korean Difficult to Learn?
 **Hangul**, the Korean alphabet, was invented in 1443 by `King Sejong` the Great. 

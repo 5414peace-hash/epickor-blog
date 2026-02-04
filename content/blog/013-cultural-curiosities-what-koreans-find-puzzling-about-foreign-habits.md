@@ -5,21 +5,10 @@ description: 'Explore Cultural Curiosities: What Koreans Find Puzzling About For
   Habits'
 ogImage: ''
 date: '2026-02-03'
+tags: ['Culture', 'Man', 'Woman']
 ---
 
-# Cultural Curiosities: What Koreans Find Puzzling About Foreign Habits
-
-태그: Culture, Man, Woman
-날짜: 2024년 3월 21일
-Content: Explore the cultural differences that surprise Koreans, from floor seating preferences to tipping customs, and discover how these contrasts shape their worldview.
-
-```yaml
-cleanUrl: "/blog/013"
-description: "Explore the cultural differences that surprise Koreans, from floor seating preferences to tipping customs, and discover how these contrasts shape their worldview."
-ogImage: "https://oopy.lazyrockets.com/api/v2/notion/image?src=https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2Fe8ae5f9b-947d-4cc7-968c-38997cab4f69%2F165a99ab-7677-4c25-88b7-c0316ae00636%2F44545854-cde8-4bcd-9791-9b422ddce717.png&blockId=832c682f-c963-4502-8803-3e3797036743"
-```
-
-![013_EpicKor_건순.mp4_20240710_110419.201.jpg](Cultural%20Curiosities%20What%20Koreans%20Find%20Puzzling%20Ab/44545854-cde8-4bcd-9791-9b422ddce717.png)
+![013_EpicKor_건순.mp4_20240710_110419.201.jpg](/assets/images/posts/013/44545854-cde8-4bcd-9791-9b422ddce717.png)
 
 # Things Koreans DON’T Understand
 
@@ -47,9 +36,9 @@ This practice is deeply rooted in their traditional lifestyle and cultural value
 **Why `clap or hit` others when laughing?**
 It’s common in Korea for people to clap or lightly hit someone nearby when they laugh. This behavior is a natural expression of joy and excitement, creating a shared moment of happiness.
 
-![013_EpicKor_건순.mp4_20240710_110507.298.jpg](Cultural%20Curiosities%20What%20Koreans%20Find%20Puzzling%20Ab/8d9141df-b36e-484d-bc70-242395052fff.png)
+![013_EpicKor_건순.mp4_20240710_110507.298.jpg](/assets/images/posts/013/8d9141df-b36e-484d-bc70-242395052fff.png)
 
-![013_EpicKor_건순.mp4_20240710_110539.194.jpg](Cultural%20Curiosities%20What%20Koreans%20Find%20Puzzling%20Ab/4b5197c4-419f-4cbc-bd0b-cc0509d20194.png)
+![013_EpicKor_건순.mp4_20240710_110539.194.jpg](/assets/images/posts/013/4b5197c4-419f-4cbc-bd0b-cc0509d20194.png)
 
 ### Trust in Community
 

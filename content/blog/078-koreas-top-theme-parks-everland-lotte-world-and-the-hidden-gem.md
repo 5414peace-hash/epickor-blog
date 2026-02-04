@@ -5,21 +5,10 @@ description: 'Explore Korea''s Top Theme Parks: Everland, Lotte World, and the H
   Gem! 🎢✨🇰🇷'
 ogImage: ''
 date: '2026-02-03'
+tags: ['Culture', 'Man', 'Travel', 'Woman']
 ---
 
-# Korea's Top Theme Parks: Everland, Lotte World, and the Hidden Gem! 🎢✨🇰🇷
-
-태그: Culture, Man, Travel, Woman
-날짜: 2025년 1월 5일
-Content: Ready for an unforgettable adventure? Dive into Korea’s three most iconic theme parks for 2024: Everland, Lotte World, and the uniquely themed Korean Folk Village.
-
-```yaml
-cleanUrl: "/blog/078"
-description: "Ready for an unforgettable adventure? Dive into Korea’s three most iconic theme parks for 2024: Everland, Lotte World, and the uniquely themed Korean Folk Village."
-ogImage: "https://oopy.lazyrockets.com/api/v2/notion/image?src=https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2Fe8ae5f9b-947d-4cc7-968c-38997cab4f69%2F6e210275-fe2a-414b-9350-aa1b9fec0249%2F3612c820-2760-448d-85e5-ae0b43c83328.png&blockId=17773cc3-0454-80c6-8e81-cfc7c35023bd"
-```
-
-![105_EpicKor_요순.mp4_20250103_223736.423.jpg](Korea's%20Top%20Theme%20Parks%20Everland,%20Lotte%20World,%20and/3612c820-2760-448d-85e5-ae0b43c83328.png)
+![105_EpicKor_요순.mp4_20250103_223736.423.jpg](/assets/images/posts/078/3612c820-2760-448d-85e5-ae0b43c83328.png)
 
 # From Record-Breaking Rides to Cultural Adventures, Explore Korea’s Top Theme Parks in 2025
 
@@ -33,9 +22,9 @@ Everland is Korea’s largest and most popular theme park, packed with adrenalin
 
 As the sun sets, Everland transforms into a magical wonderland. The **Moonlight Parade**, a dazzling new addition, lights up the night with twinkling floats, sparkling costumes, and enchanting music. It’s an unmissable treat that captures the park's whimsical charm.
 
-![105_EpicKor_요순.mp4_20250104_221818.664.jpg](Korea's%20Top%20Theme%20Parks%20Everland,%20Lotte%20World,%20and/105_EpicKor_%25EC%259A%2594%25EC%2588%259C.mp4_20250104_221818.664.jpg)
+![105_EpicKor_요순.mp4_20250104_221818.664.jpg](/assets/images/posts/078/105_EpicKor_%EC%9A%94%EC%88%9C.mp4_20250104_221818.664.jpg)
 
-![105_EpicKor_요순.mp4_20250104_221815.965.jpg](Korea's%20Top%20Theme%20Parks%20Everland,%20Lotte%20World,%20and/105_EpicKor_%25EC%259A%2594%25EC%2588%259C.mp4_20250104_221815.965.jpg)
+![105_EpicKor_요순.mp4_20250104_221815.965.jpg](/assets/images/posts/078/105_EpicKor_%EC%9A%94%EC%88%9C.mp4_20250104_221815.965.jpg)
 
 ---
 
@@ -49,9 +38,9 @@ Lotte World seamlessly combines indoor and outdoor attractions, making it perfec
 
 No visit to Lotte World is complete without conquering the **Gyro Drop**, **Gyro Swing**, and **Gyro Spin**—a trio of gravity-defying rides that will leave your heart racing. These iconic attractions are a rite of passage for thrill-seekers, so don’t miss out!
 
-![105_EpicKor_요순.mp4_20250104_221833.965.jpg](Korea's%20Top%20Theme%20Parks%20Everland,%20Lotte%20World,%20and/105_EpicKor_%25EC%259A%2594%25EC%2588%259C.mp4_20250104_221833.965.jpg)
+![105_EpicKor_요순.mp4_20250104_221833.965.jpg](/assets/images/posts/078/105_EpicKor_%EC%9A%94%EC%88%9C.mp4_20250104_221833.965.jpg)
 
-![105_EpicKor_요순.mp4_20250104_221844.309.jpg](Korea's%20Top%20Theme%20Parks%20Everland,%20Lotte%20World,%20and/105_EpicKor_%25EC%259A%2594%25EC%2588%259C.mp4_20250104_221844.309.jpg)
+![105_EpicKor_요순.mp4_20250104_221844.309.jpg](/assets/images/posts/078/105_EpicKor_%EC%9A%94%EC%88%9C.mp4_20250104_221844.309.jpg)
 
 ---
 
@@ -69,9 +58,9 @@ Unlike static museums, the Folk Village offers dynamic performances such as trad
 
 Surprisingly, the Korean Folk Village also features a few amusement park rides, blending cultural learning with lighthearted fun. It’s an unexpected but delightful twist that sets it apart from typical theme parks.
 
-![105_EpicKor_요순.mp4_20250104_221905.283.jpg](Korea's%20Top%20Theme%20Parks%20Everland,%20Lotte%20World,%20and/105_EpicKor_%25EC%259A%2594%25EC%2588%259C.mp4_20250104_221905.283.jpg)
+![105_EpicKor_요순.mp4_20250104_221905.283.jpg](/assets/images/posts/078/105_EpicKor_%EC%9A%94%EC%88%9C.mp4_20250104_221905.283.jpg)
 
-![105_EpicKor_요순.mp4_20250104_221856.949.jpg](Korea's%20Top%20Theme%20Parks%20Everland,%20Lotte%20World,%20and/105_EpicKor_%25EC%259A%2594%25EC%2588%259C.mp4_20250104_221856.949.jpg)
+![105_EpicKor_요순.mp4_20250104_221856.949.jpg](/assets/images/posts/078/105_EpicKor_%EC%9A%94%EC%88%9C.mp4_20250104_221856.949.jpg)
 
 ---
 
