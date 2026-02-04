@@ -6,6 +6,7 @@ import html from 'remark-html';
 import gfm from 'remark-gfm';
 import rehypeHighlight from 'rehype-highlight';
 import rehypeRaw from 'rehype-raw';
+import { enhanceMarkdownHTML } from './markdown-enhancer';
 
 const contentDirectory = path.join(process.cwd(), 'content/blog');
 
@@ -35,12 +36,21 @@ export interface BlogPostMetadata {
  */
 function getSlugFromFile(fileName: string): string {
   try {
+    if (!fileName || !fileName.endsWith('.md')) {
+      return fileName.replace(/\.md$/, '');
+    }
+    
     const fullPath = path.join(contentDirectory, fileName);
+    
+    if (!fs.existsSync(fullPath)) {
+      return fileName.replace(/\.md$/, '');
+    }
+    
     const fileContents = fs.readFileSync(fullPath, 'utf8');
     const { data } = matter(fileContents);
     
     // YAML frontmatter에 slug 필드가 있으면 우선 사용
-    if (data.slug) {
+    if (data && data.slug && typeof data.slug === 'string') {
       return data.slug;
     }
     
@@ -57,23 +67,33 @@ function getSlugFromFile(fileName: string): string {
  */
 function findFileBySlug(slug: string): string | null {
   try {
+    if (!slug) return null;
+    
     const fileNames = fs.readdirSync(contentDirectory);
     
     for (const fileName of fileNames) {
-      if (!fileName.endsWith('.md')) continue;
+      if (!fileName || !fileName.endsWith('.md')) continue;
       
-      const fullPath = path.join(contentDirectory, fileName);
-      const fileContents = fs.readFileSync(fullPath, 'utf8');
-      const { data } = matter(fileContents);
-      
-      // YAML slug가 일치하는 경우
-      if (data.slug === slug) {
-        return fileName;
-      }
-      
-      // fallback: 파일명이 일치하는 경우
-      if (fileName.replace(/\.md$/, '') === slug) {
-        return fileName;
+      try {
+        const fullPath = path.join(contentDirectory, fileName);
+        
+        if (!fs.existsSync(fullPath)) continue;
+        
+        const fileContents = fs.readFileSync(fullPath, 'utf8');
+        const { data } = matter(fileContents);
+        
+        // YAML slug가 일치하는 경우
+        if (data && data.slug && data.slug === slug) {
+          return fileName;
+        }
+        
+        // fallback: 파일명이 일치하는 경우
+        if (fileName.replace(/\.md$/, '') === slug) {
+          return fileName;
+        }
+      } catch (fileError) {
+        console.error(`Error reading file ${fileName}:`, fileError);
+        continue;
       }
     }
     
@@ -95,17 +115,26 @@ export function getAllBlogPosts(): BlogPostMetadata[] {
       .map((fileName) => {
         const fullPath = path.join(contentDirectory, fileName);
         const fileContents = fs.readFileSync(fullPath, 'utf8');
-        const { data } = matter(fileContents);
+        const { data, content } = matter(fileContents);
         
         // YAML slug 우선, fallback은 파일명
         const slug = data.slug || fileName.replace(/\.md$/, '');
+        
+        // ogImage fallback: 본문의 첫 번째 이미지 추출
+        let ogImage = data.ogImage || '';
+        if (!ogImage) {
+          const imgMatch = content.match(/!\[.*?\]\((.+?)\)/);
+          if (imgMatch && imgMatch[1]) {
+            ogImage = imgMatch[1];
+          }
+        }
 
         return {
           slug,
           title: data.title || '',
           date: data.date || '',
           description: data.description || '',
-          ogImage: data.ogImage || '',
+          ogImage,
           tags: data.tags || [],
           author: data.author || 'EpicKor',
         };
@@ -147,7 +176,11 @@ export async function getBlogPost(slug: string): Promise<BlogPost | null> {
       .use(html, { sanitize: false })
       .process(content);
     
-    const contentHtml = processedContent.toString();
+    let contentHtml = processedContent.toString();
+    
+    // Apply advanced enhancements
+    const allPosts = getAllBlogPosts();
+    contentHtml = enhanceMarkdownHTML(contentHtml, allPosts);
     
     // YAML slug 우선, fallback은 파일명
     const postSlug = data.slug || fileName.replace(/\.md$/, '');
