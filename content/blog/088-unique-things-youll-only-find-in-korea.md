@@ -2,12 +2,12 @@
 title: Unique Things You'll Only Find in Korea
 slug: 088
 description: Explore Unique Things You'll Only Find in Korea
-ogImage: ''
+ogImage: '/assets/images/posts/088/4fda1b66-ba26-4e46-953b-d09ed6eb9d3d.png'
 date: '2026-02-03'
 tags: ['Culture', 'Social', 'Travel']
 ---
 
-![115_epickor_건순.mp4_20250114_231026.470.jpg](/assets/images/posts/088/4fda1b66-ba26-4e46-953b-d09ed6eb9d3d.png)
+![115_epickor_%EA%B1%B4%EC%88%9C.mp4_20250114_231026.470.jpg](/assets/images/posts/088/4fda1b66-ba26-4e46-953b-d09ed6eb9d3d.png)
 
 # Discover Korea’s Ingenious Inventions and Its Unique Culture of Trust
 
@@ -15,9 +15,9 @@ tags: ['Culture', 'Social', 'Travel']
 
 In Korea, elevators are smarter than you think! Accidentally pressed the wrong floor button? No problem. Simply press the same button again, and voilà—it’s canceled. You won’t have to stop at unnecessary floors. This ingenious little feature saves time and frustration, making daily life in Korea incredibly convenient.
 
-![115_epickor_건순.mp4_20250114_231046.938.jpg](/assets/images/posts/088/115_epickor_건순.mp4_20250114_231046.938.jpg)
+![115_epickor_%EA%B1%B4%EC%88%9C.mp4_20250114_231046.938.jpg](/assets/images/posts/088/115_epickor_%EA%B1%B4%EC%88%9C.mp4_20250114_231046.938.jpg)
 
-![115_epickor_건순.mp4_20250114_231042.443.jpg](/assets/images/posts/088/115_epickor_건순.mp4_20250114_231042.443.jpg)
+![115_epickor_%EA%B1%B4%EC%88%9C.mp4_20250114_231042.443.jpg](/assets/images/posts/088/115_epickor_%EA%B1%B4%EC%88%9C.mp4_20250114_231042.443.jpg)
 
 ---
 
@@ -40,9 +40,9 @@ Korea’s subway system is one of the best in the world. Imagine riding a train 
 
 What truly sets Korea apart, though, is its profound "culture of trust." Outside convenience stores, you might see stacks of products sitting unattended, yet no one takes anything that doesn’t belong to them. On public transportation, people regularly give up their seats to the elderly. Strangers will even stop to help others carry heavy bags. This unique social fabric is woven with mutual respect, integrity, and an unwavering sense of community.
 
-![115_epickor_건순.mp4_20250114_231110.277.jpg](/assets/images/posts/088/115_epickor_건순.mp4_20250114_231110.277.jpg)
+![115_epickor_%EA%B1%B4%EC%88%9C.mp4_20250114_231110.277.jpg](/assets/images/posts/088/115_epickor_%EA%B1%B4%EC%88%9C.mp4_20250114_231110.277.jpg)
 
-![115_epickor_건순.mp4_20250114_231116.236.jpg](/assets/images/posts/088/115_epickor_건순.mp4_20250114_231116.236.jpg)
+![115_epickor_%EA%B1%B4%EC%88%9C.mp4_20250114_231116.236.jpg](/assets/images/posts/088/115_epickor_%EA%B1%B4%EC%88%9C.mp4_20250114_231116.236.jpg)
 
 ---
 
