@@ -17,8 +17,6 @@ Red ginseng is a healthy food that is effective in improving immunity. It can be
 
 ### Stamp
 
-
-
 ---
 
 ### Editor's Pick
@@ -71,13 +69,6 @@ Korea, a beauty powerhouse. You’ve probably heard of K-beauty. Among the many 
 **Keywords**: Korea travel, must-buy items, red ginseng, Korean stamp, soju, mask pack, K-beauty, Korean souvenirs, travel shopping, Korean products.
 
 [https://youtube.com/shorts/bSVQN9bfjn0?si=Gy0D0rrSlNdoAPWo](https://youtube.com/shorts/bSVQN9bfjn0?si=Gy0D0rrSlNdoAPWo)
-
-[Koreans Never Wait: The Speed of Life in Korea](https://www.epickor.com/blog/055)
-
-[Unveiling Korea: From K-pop to Historic Triumphs and Tragedies](https://www.epickor.com/blog/056)
-
-[Experience Tranquility with a 'Choncance' - Korea's Countryside Vacation](https://www.epickor.com/blog/057)
-
 
 ---
 

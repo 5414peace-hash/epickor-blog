@@ -45,8 +45,6 @@ The food is typically cooked on the spot, adding to the lively and authentic atm
 
 ### The Evolution of Pojangmacha
 
-
-
 ---
 
 ### Editor's Pick
@@ -122,21 +120,6 @@ If you ever find yourself wandering the streets of Korea, don’t miss the chanc
 **Keywords**: Pojangmacha, Korean street food, outdoor food stalls, Korean nightlife, soju, Korean culture, kimchi stew, odeng, live octopus, bindaetteok, Korean pub experience, Jongno 3-ga Station, Changdong Station, Seoul food stalls, Korean snacks, romantic street food, Korean food culture, nighttime food stalls, Korean drinks, food and drinking culture.
 
 [https://youtube.com/shorts/Xqfb9VtlYnY?si=6RTLuRTnxsyCKcy0](https://youtube.com/shorts/Xqfb9VtlYnY?si=6RTLuRTnxsyCKcy0)
-
-[“Don’t Drink Kimchi Soup Before It’s Ready”: Top 5 Korean Proverbs with Life Lessons](https://www.epickor.com/blog/080)
-
-[Living in Seoul for a Month: A Foreigner’s Experience!](https://www.epickor.com/blog/079)
-
-[Why Koreans Are Crazy About Baseball! ⚾](https://www.epickor.com/blog/081)
-
-[Unpacking the Global Obsession with Korea’s ‘K’ Branding](https://www.epickor.com/blog/085)
-
-[Unique Things You'll Only Find in Korea](https://www.epickor.com/blog/088)
-
-[A City That Never Sleeps: Seoul](https://www.epickor.com/blog/086)
-
-[100-Years-Old Korean Restaurant and Michelin Star](https://www.epickor.com/blog/087)
-
 
 ---
 

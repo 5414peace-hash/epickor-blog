@@ -21,8 +21,6 @@ It's often paired with `makgeolli`, a traditional Korean rice wine that's milky 
 
 ### Other Favorites
 
-
-
 ---
 
 ### Editor's Pick
@@ -79,13 +77,6 @@ And most importantly, it's just so delicious. What do you guys like to eat when 
 **Keywords**: pajeon, makgeolli, Korean comfort food, rainy day foods, Korean pancakes, traditional Korean drinks, Korean cuisine, telepathy food, green onion pancake, Korean soul food, rainy day comfort, sizzling pajeon, rural traditions, Korean rainy day traditions, spicy ramen, kalguksu, sujebi, fried pancakes, Korean food culture, nostalgic flavors.
 
 [https://youtube.com/shorts/NNLajaStpjQ?si=GrYeedwj36hHWWm-](https://youtube.com/shorts/NNLajaStpjQ?si=GrYeedwj36hHWWm-)
-
-[Korea Gives Food Even If You Don’t Order It](https://www.epickor.com/blog/046)
-
-[Discover the Spicy and Flavorful World of Korean Ramen](https://www.epickor.com/blog/038)
-
-[How to Avoid Fighting with Koreans: 3 Essential Tips](https://www.epickor.com/blog/035)
-
 
 ---
 

@@ -66,7 +66,7 @@ Moreover, nearby is The `War Memorial of Korea`, offering a comprehensive glimps
 
 ---
 
-_요순.mp4_20240722_221948.551.jpg](/assets/images/posts/047/056_EpicKor_%EC%9A%94%EC%88%9C.mp4_20240722_221948.551.jpg)
+_요순.mp4_20240722_221948.551.jpg](/assets/images/epickor-placeholder.png)
 
 </div>
 
@@ -89,13 +89,6 @@ It's hard to resist a visit to Yongsan with all these attractions, isn't it?
 **Keywords**: Yongsan, Yongridan-gil, War Memorial of Korea, Shinyongsan Station, Yongsan Park, National Museum of Korea, Yongsan Family Park, KTX trains, Seoul hotspots, Korean War history, Seoul travel, summer in Korea, trendy spots in Korea, must-visit places in Seoul, Korean culinary experiences, historical landmarks in Korea.
 
 [https://youtube.com/shorts/mP_VeiyWZXc?si=SeE-Eoa2e9F2bm34](https://youtube.com/shorts/mP_VeiyWZXc?si=SeE-Eoa2e9F2bm34)
-
-[Suzy-Flirting: The Unique Charm of Korea's "Nation’s First Love”](https://www.epickor.com/blog/016)
-
-[Seoul in 24 Hours: Your Ultimate Adventure!](https://www.epickor.com/blog/017)
-
-[Discover the Global Craze for Korean Chicken](https://www.epickor.com/blog/018)
-
 
 ---
 

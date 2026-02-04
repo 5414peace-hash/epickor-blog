@@ -17,8 +17,6 @@ None of the 7 members have blood type B.
 
 ### B-FREE Controversy
 
-
-
 ---
 
 ### Editor's Pick
@@ -95,19 +93,6 @@ When Suga is discharged from the military on June 21, 2025, all 7 members will h
 Keywords: BTS, blood type, B-FREE, RM, Jungkook, Bang Si-hyuk, Suga, Jin, military service, K-pop facts
 
 [https://youtube.com/shorts/jVBj-gXy1Js?si=CA-g8SHtt-msQ0Hc](https://youtube.com/shorts/jVBj-gXy1Js?si=CA-g8SHtt-msQ0Hc)
-
-[Guess Kim Soo-hyun’s Drama Fees](https://www.epickor.com/blog/042)
-
-[Born to Be an Idol: The Rise of Jang Won-young](https://www.epickor.com/blog/043)
-
-[From Idol to Soldier: BTS's V Stuns in Military Uniform](https://www.epickor.com/blog/044)
-
-[Discover the Tastiest Picks at Korean Convenience Stores with Baek Jong-won and Kim Hye-ja](https://www.epickor.com/blog/059)
-
-[What Should You Drink in Korea Other Than ‘Soju’? : Travel Korea](https://www.epickor.com/blog/060)
-
-[Discover the Unique Korean Concert Experience that Moves Global Superstars : Seoul Korea](https://www.epickor.com/blog/061)
-
 
 ---
 

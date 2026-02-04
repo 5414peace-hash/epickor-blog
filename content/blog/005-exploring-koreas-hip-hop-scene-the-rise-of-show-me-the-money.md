@@ -26,8 +26,6 @@ Did you know that there is a hip-hop TV program that ran for 11 years in Korea?
 
 ### The Birth of 'SHOW ME THE MONEY'
 
-
-
 ---
 
 ### Editor's Pick
@@ -105,13 +103,6 @@ In fact, the beginnings of Korean hip-hop can be traced back to the CBBS (Comput
 Keywords: Korean hip-hop, SHOW ME THE MONEY, M.net, underground rappers, popular rappers, hip-hop competition, LOCO, BOBBY, Bewhy, nafla.
 
 [https://youtube.com/shorts/yHiU_4gj-PA?si=axLOBfcS6Vebteya](https://youtube.com/shorts/yHiU_4gj-PA?si=axLOBfcS6Vebteya)
-
-[Why Are Koreans Crazy About Iced Americano?](https://www.epickor.com/blog/027)
-
-[MUST BUY K-BEAUTY Items in Korea Olive Young](https://www.epickor.com/blog/028)
-
-[Discover the Ultimate Korean Snacks That Will Redefine Your Taste Experience](https://www.epickor.com/blog/029)
-
 
 ---
 

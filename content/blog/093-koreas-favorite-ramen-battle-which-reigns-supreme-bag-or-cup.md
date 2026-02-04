@@ -22,8 +22,6 @@ Bag ramen and cup ramen may share the same roots, but the experience of eating t
 
 ### 🇰🇷 Ramen Nation: 80 Packs a Year?!
 
-
-
 ---
 
 ### Editor's Pick
@@ -62,9 +60,9 @@ That means both have their place depending on where you are and what you’re do
 
 <div class="image-grid-2">
 
-![122_EpicKor_요순 (1).mp4_20250411_215654.063.jpg](/assets/images/posts/093/122_EpicKor_요순_(1).mp4_20250411_215654.063.jpg).mp4_20250411_215654.063.jpg).mp4_20250411_215654.063.jpg).mp4_20250411_215654.063.jpg).mp4_20250411_215654.063.jpg)
+![122_EpicKor_요순 (1).mp4_20250411_215654.063.jpg](/assets/images/epickor-placeholder.png).mp4_20250411_215654.063.jpg).mp4_20250411_215654.063.jpg).mp4_20250411_215654.063.jpg).mp4_20250411_215654.063.jpg).mp4_20250411_215654.063.jpg)
 
-![122_EpicKor_요순 (1).mp4_20250411_215700.181.jpg](/assets/images/posts/093/122_EpicKor_요순_(1).mp4_20250411_215654.063.jpg).mp4_20250411_215654.063.jpg).mp4_20250411_215654.063.jpg).mp4_20250411_215654.063.jpg)
+![122_EpicKor_요순 (1).mp4_20250411_215700.181.jpg](/assets/images/epickor-placeholder.png).mp4_20250411_215654.063.jpg).mp4_20250411_215654.063.jpg).mp4_20250411_215654.063.jpg).mp4_20250411_215654.063.jpg)
 
 </div>.mp4_20250411_215700.181.jpg)
 
@@ -105,9 +103,9 @@ This friendly food rivalry isn’t about which one is *better* — it’s about 
 
 <div class="image-grid-2">
 
-![122_EpicKor_요순 (1).mp4_20250411_215735.353.jpg](/assets/images/posts/093/122_EpicKor_요순_(1).mp4_20250411_215654.063.jpg).mp4_20250411_215654.063.jpg).mp4_20250411_215654.063.jpg).mp4_20250411_215654.063.jpg).mp4_20250411_215735.353.jpg)
+![122_EpicKor_요순 (1).mp4_20250411_215735.353.jpg](/assets/images/epickor-placeholder.png).mp4_20250411_215654.063.jpg).mp4_20250411_215654.063.jpg).mp4_20250411_215654.063.jpg).mp4_20250411_215654.063.jpg).mp4_20250411_215735.353.jpg)
 
-![122_EpicKor_요순 (1).mp4_20250411_215745.536.jpg](/assets/images/posts/093/122_EpicKor_요순_(1).mp4_20250411_215654.063.jpg).mp4_20250411_215654.063.jpg).mp4_20250411_215654.063.jpg).mp4_20250411_215654.063.jpg)
+![122_EpicKor_요순 (1).mp4_20250411_215745.536.jpg](/assets/images/epickor-placeholder.png).mp4_20250411_215654.063.jpg).mp4_20250411_215654.063.jpg).mp4_20250411_215654.063.jpg).mp4_20250411_215654.063.jpg)
 
 </div>.mp4_20250411_215745.536.jpg)
 
@@ -131,27 +129,6 @@ No matter what team you’re on, one thing’s for sure — in Korea, **every ra
 **Keywords**: Korean ramen, bag ramen, cup ramen, Korean instant noodles, ramen showdown, Korean food culture, Korea ramen trends, best ramen Korea, Korean cup noodles, Korean noodle soup, ramen in Korea, Korean ramen statistics, home ramen Korea, travel snacks Korea, Korean hiking food, late-night snacks Korea, ramen toppings Korea, spicy Korean noodles, Korean food lifestyle, Korea ramen habits
 
 [https://youtube.com/shorts/VZnO1tX1ZCc?si=wlnEAG5t101NsWbQ](https://youtube.com/shorts/VZnO1tX1ZCc?si=wlnEAG5t101NsWbQ)
-
-[100-Years-Old Korean Restaurant and Michelin Star](https://www.epickor.com/blog/087)
-
-[Discover Korea's Unique Outdoor Food and Drinking Culture](https://www.epickor.com/blog/089)
-
-[The Fascinating Debate Among Korean Women: What Do You Call an Unfamiliar Man?](https://www.epickor.com/blog/090)
-
-[Winter Wonderland in Korea: Ski, Skate, and Snowy Escapes](https://www.epickor.com/blog/091)
-
-[Must-Try Korean Winter Foods That Will Warm You from Head to Toe](https://www.epickor.com/blog/092)
-
-[Discover Korea's Automated Innovations: From Ramen Machines to Car Washes](https://www.epickor.com/blog/054)
-
-[Koreans Never Wait: The Speed of Life in Korea](https://www.epickor.com/blog/055)
-
-[Unveiling Korea: From K-pop to Historic Triumphs and Tragedies](https://www.epickor.com/blog/056)
-
-[Experience Tranquility with a 'Choncance' - Korea's Countryside Vacation](https://www.epickor.com/blog/057)
-
-[2030 Koreans' Summer K-POP Hits](https://www.epickor.com/blog/058)
-
 
 ---
 

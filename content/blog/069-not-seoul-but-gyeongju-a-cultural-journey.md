@@ -25,8 +25,6 @@ At night, "`Donggung Palace and Wolji Pond`" shines even brighter, while "`Cheom
 
 ### Modern Delights
 
-
-
 ---
 
 ### Editor's Pick
@@ -87,13 +85,6 @@ Although it's a bit far from the Seoul metropolitan area, including Incheon Inte
 **Keywords**: Gyeongju travel, cultural heritage, Korean architecture, Donggung Palace, Wolji Pond, Cheomseongdae, Bulguksa Temple, Seokguram Grotto, Hwangridan-gil, traditional hanok stay, KTX travel, Korean culture, museum without walls, Gyeongju restaurants, MZ generation, Korean sightseeing, Gyeongju itinerary, Seoul to Gyeongju, Korean history, unique travel experience.
 
 [https://youtube.com/shorts/z8Clv0Pv_5o?si=ktjyLp9M9Am8NU3g](https://youtube.com/shorts/z8Clv0Pv_5o?si=ktjyLp9M9Am8NU3g)
-
-[Discover the Unique Blend of History and Modernity in Suwon, Just a Short Ride from Seoul](https://www.epickor.com/blog/064)
-
-[Experience Tranquility with a 'Choncance' - Korea's Countryside Vacation](https://www.epickor.com/blog/057)
-
-[Newest Hotspots in Seoul, Korea - Yongsan](https://www.epickor.com/blog/047)
-
 
 ---
 

@@ -15,8 +15,6 @@ BTS's V, who is serving in the `military`, was pictured wearing an `anti-terrori
 
 ### Impressive Look
 
-
-
 ---
 
 ### Editor's Pick
@@ -81,13 +79,6 @@ Doesn’t this image fit very well with his idol group’s name ‘Bangtan,’ w
 BTS V, military police, anti-terrorist uniform, intense gaze, handsome appearance, movie filming, Korean military service, SDT organization, counter-terrorism operations, special operations, Bangtan, blocking flying bullets, dedication, versatility, pop star, military service, young men in Korea, serving the country, responsible individuals, resilient individuals.
 
 [https://youtube.com/shorts/O6L94u5eWOc?si=00uC7Oy9Q9-uSkB9](https://youtube.com/shorts/O6L94u5eWOc?si=00uC7Oy9Q9-uSkB9)
-
-[Discover Hidden Facts About BTS](https://www.epickor.com/blog/010)
-
-[The Cultural Significance Behind Blood Types in Korea](https://www.epickor.com/blog/011)
-
-[Discover the Unbelievable Amenities at Korean Highway Rest Areas](https://www.epickor.com/blog/012)
-
 
 ---
 

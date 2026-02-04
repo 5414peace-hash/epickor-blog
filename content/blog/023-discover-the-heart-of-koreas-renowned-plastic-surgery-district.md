@@ -47,8 +47,6 @@ There are `1,106 plastic surgery clinics` in Korea, more than half of which are 
 
 ### Plastic Surgery Paradise
 
-
-
 ---
 
 ### Editor's Pick
@@ -93,13 +91,6 @@ Then come to Sinsa Station. And subscribe to epickor snippets.
 **Keywords**: plastic surgery, Gangnam, Sinsa Station, K-Beauty, K-Drama, beauty industry, Korean cosmetics, medical tourism, Seoul, Apgujeong Station.
 
 [https://youtube.com/shorts/0Mbv9CpjkRY?si=arnPFIU5y4E9oBHr](https://youtube.com/shorts/0Mbv9CpjkRY?si=arnPFIU5y4E9oBHr)
-
-[Koreans Never Wait: The Speed of Life in Korea](https://www.epickor.com/blog/055)
-
-[Unveiling Korea: From K-pop to Historic Triumphs and Tragedies](https://www.epickor.com/blog/056)
-
-[Experience Tranquility with a 'Choncance' - Korea's Countryside Vacation](https://www.epickor.com/blog/057)
-
 
 ---
 

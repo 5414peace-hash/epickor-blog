@@ -27,8 +27,6 @@ Korean idol Jang Won-young's video became an issue by reaching `4.3 billion view
 
 ### Ive's Response to the Viral Video
 
-
-
 ---
 
 ### Editor's Pick
@@ -89,13 +87,6 @@ Jang Won-young can truly be said to be a Korean born to be an idol.
 **Keywords**: Jang Won-young, K-pop, TikTok, IZ*ONE, Ive, Korean idol, survival audition, viral video, K-pop sensation, fan love.
 
 [https://youtube.com/shorts/R76raRMeMeg?si=y-qK7MO0UNrSPstJ](https://youtube.com/shorts/R76raRMeMeg?si=y-qK7MO0UNrSPstJ)
-
-[The Most Handsome Man in Asia - Cha Eunwoo](https://www.epickor.com/blog/037)
-
-[Discover the Spicy and Flavorful World of Korean Ramen](https://www.epickor.com/blog/038)
-
-[Top 10 Jobs in Korea](https://www.epickor.com/blog/039)
-
 
 ---
 

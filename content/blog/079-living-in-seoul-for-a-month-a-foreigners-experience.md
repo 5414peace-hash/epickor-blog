@@ -15,8 +15,6 @@ tags: ['Culture', 'Travel']
 
 ### **1. Seamless Public Transportation**
 
-
-
 ---
 
 ### Editor's Pick
@@ -125,19 +123,6 @@ Embracing its unique blend of modernity and tradition makes the journey all the 
 Seoul living, expat life, public transportation Seoul, Korean BBQ, tteokbokki, food in Seoul, safety in Seoul, cultural differences, Gangnam rent, cost of living Seoul, language barrier, exploring Seoul, Han River, Korean street food, expats in Korea, modern Korea, traditional Korea, month-long stay Seoul, Seoul neighborhoods, 2024 Seoul travel.
 
 [https://youtube.com/shorts/cGjoBChnBhM?si=hZ2oHKpX9Gw5_S-0](https://youtube.com/shorts/cGjoBChnBhM?si=hZ2oHKpX9Gw5_S-0)
-
-[5 Things You Must Know Before Traveling to Korea](https://www.epickor.com/blog/073)
-
-[The Unfolding Drama of South Korea's Presidential Impeachment and Martial Law](https://www.epickor.com/blog/076)
-
-[The Dongduk Women’s University Protest: A Turning Point for Women’s Universities in Korea](https://www.epickor.com/blog/077)
-
-[Newest Hotspots in Seoul, Korea - Yongsan](https://www.epickor.com/blog/047)
-
-[The Carbo Buldak Popularity](https://www.epickor.com/blog/048)
-
-[The Challenges Facing South Korea's Younger Generation](https://www.epickor.com/blog/049)
-
 
 ---
 

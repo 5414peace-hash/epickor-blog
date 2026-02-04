@@ -21,8 +21,6 @@ As of January 3, 2025, the protests at Dongduk Women’s University have `offici
 
 ### The Incident: What Happened at Dongduk Women’s University?
 
-
-
 ---
 
 ### Editor's Pick
@@ -111,19 +109,6 @@ While the protests themselves have concluded, the aftermath remains contentious.
 **Keywords**: Dongduk Women’s University, South Korea protests, women’s universities, coeducation debate, school-age population decline, student activism, campus demonstrations, Korean education system, red spray paint messages, sit-in protests, university administration response, educational transition, women’s education challenges, South Korea demographics, student council actions, damages compensation, cultural shifts in education, academic reforms, Korean higher education, unresolved legal disputes.
 
 [https://youtube.com/shorts/E0bE_YT6dOg?si=YfA9HxJivZ5sSJFl](https://youtube.com/shorts/E0bE_YT6dOg?si=YfA9HxJivZ5sSJFl)
-
-[The Unfolding Drama of South Korea's Presidential Impeachment and Martial Law](https://www.epickor.com/blog/076)
-
-[Uncover the Truth About Learning Korean: Challenges and Tips for Beginners](https://www.epickor.com/blog/068)
-
-[Not Seoul, but Gyeongju: A Cultural Journey](https://www.epickor.com/blog/069)
-
-[Must-Watch 4 Korean Dramas on Netflix](https://www.epickor.com/blog/070)
-
-[Discover Korea's Automated Innovations: From Ramen Machines to Car Washes](https://www.epickor.com/blog/054)
-
-[Koreans Never Wait: The Speed of Life in Korea](https://www.epickor.com/blog/055)
-
 
 ---
 

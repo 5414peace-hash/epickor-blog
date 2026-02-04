@@ -19,8 +19,6 @@ After they are discharged from the military, they become a reserve force. They a
 
 ### Training Duration
 
-
-
 ---
 
 ### Editor's Pick
@@ -101,13 +99,6 @@ Actually, it's a secret, but they say the lunch they eat during training is not 
 **Keywords**: Korean military, reservists, military training, lunch box, rice, side dishes, pork cutlet, apple juice, national defense, training routine, military meals, soldier's lunch, mandatory service, reserve force, military preparedness, Korean men, military discharge, secret lunch, training schedule, military commitment.
 
 [https://youtube.com/shorts/HMCHn3hxGxY?si=M3mX-HysmsB7vDBs](https://youtube.com/shorts/HMCHn3hxGxY?si=M3mX-HysmsB7vDBs)
-
-[Newest Hotspots in Seoul, Korea - Yongsan](https://www.epickor.com/blog/047)
-
-[The Carbo Buldak Popularity](https://www.epickor.com/blog/048)
-
-[The Challenges Facing South Korea's Younger Generation](https://www.epickor.com/blog/049)
-
 
 ---
 

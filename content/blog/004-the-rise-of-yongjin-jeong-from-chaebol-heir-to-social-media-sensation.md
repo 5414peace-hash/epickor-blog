@@ -26,8 +26,6 @@ Born as the son of the youngest daughter of Samsung's founder and chairman, Lee 
 
 ### Chaebol Definition
 
-
-
 ---
 
 ### Editor's Pick
@@ -84,13 +82,6 @@ Jeong's penchant for the spotlight extends beyond politics. He installed a state
 Keywords: Yongjin Jeong, Shinsegae Group, chaebol, South Korea, Samsung, Lee Byung-cheol, Lee Jae-yong, myeolgong, political statements, celebrity chef.
 
 [https://youtube.com/shorts/J16LouEjHe8?si=DtJ0PUijZ6XGRBYK](https://youtube.com/shorts/J16LouEjHe8?si=DtJ0PUijZ6XGRBYK)
-
-[Discover the Spicy and Flavorful World of Korean Ramen](https://www.epickor.com/blog/038)
-
-[Top 10 Jobs in Korea](https://www.epickor.com/blog/039)
-
-[Masterpieces of Korean Cinema with Iconic Lines](https://www.epickor.com/blog/040)
-
 
 ---
 

@@ -54,8 +54,6 @@ But there are 30,000 karaoke rooms.
 
 ### Social Culture
 
-
-
 ---
 
 ### Editor's Pick
@@ -104,13 +102,6 @@ If the response is good, in the next episode, I'll let you know good songs to si
 Kim Na Park Lee, Korean singers, karaoke culture, Beomsu Kim, Naul, Hyo Shin Park, Leesu, social culture, Nation Singing Contest, Superstar K.
 
 [https://youtube.com/shorts/OTgoUXU19pg?si=bSPASr-z3t52cQQw](https://youtube.com/shorts/OTgoUXU19pg?si=bSPASr-z3t52cQQw)
-
-[The Cultural Significance Behind Blood Types in Korea](https://www.epickor.com/blog/011)
-
-[Cultural Curiosities: What Koreans Find Puzzling About Foreign Habits](https://www.epickor.com/blog/013)
-
-[Unraveling the Unique Korean Habit of Laughing and Clapping](https://www.epickor.com/blog/014)
-
 
 ---
 

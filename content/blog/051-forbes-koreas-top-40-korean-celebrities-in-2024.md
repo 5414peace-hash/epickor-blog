@@ -22,8 +22,6 @@ The evaluation is based on 50% of the year's income and 50% on the influence of 
 
 ### Top 11 Korean Celebrities
 
-
-
 ---
 
 ### Editor's Pick
@@ -119,13 +117,6 @@ For the past five years, BTS has consistently ranked first as a group. However, 
 **Keywords**: Forbes Korea, top celebrities, Blackpink, Son Heung-min, New Jeans, Minjae Kim, Lim Young-woong, Lee Jeong-hoo, Jimin, Lee Kang-in, Jungkook, Ive, Cha Eun-woo, BTS, Korean entertainment, celebrity influence, media impact, social media, broadcasting, 2024 rankings.
 
 [https://youtube.com/shorts/EZs5SSFQcIU?si=keYNXzEKZGPvnZY1](https://youtube.com/shorts/EZs5SSFQcIU?si=keYNXzEKZGPvnZY1)
-
-[Discover Hidden Facts About BTS](https://www.epickor.com/blog/010)
-
-[The Cultural Significance Behind Blood Types in Korea](https://www.epickor.com/blog/011)
-
-[Discover the Unbelievable Amenities at Korean Highway Rest Areas](https://www.epickor.com/blog/012)
-
 
 ---
 

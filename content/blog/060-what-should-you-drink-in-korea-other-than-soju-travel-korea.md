@@ -37,8 +37,6 @@ But… Somaek is delicious.
 
 ### Somaek
 
-
-
 ---
 
 ### Editor's Pick
@@ -89,13 +87,6 @@ A YouTuber who is crazy about somaek also makes an appearance. Now, shall we dri
 **Keywords**: Korean beverages, soju, somaek, Korean beer, Jinro, Chamisul, Hallasan, Daeseon, bomb liquor, drinking culture, regional soju, Korean traditions, YouTube, fish restaurant, purified water, Korea travel.
 
 [https://youtube.com/shorts/oUBQGz4a5Ps?si=VUejwhxzb_xfk6VA](https://youtube.com/shorts/oUBQGz4a5Ps?si=VUejwhxzb_xfk6VA)
-
-[3 Must-Visit Markets in Seoul, Korea](https://www.epickor.com/blog/053)
-
-[Discover Korea's Automated Innovations: From Ramen Machines to Car Washes](https://www.epickor.com/blog/054)
-
-[Koreans Never Wait: The Speed of Life in Korea](https://www.epickor.com/blog/055)
-
 
 ---
 

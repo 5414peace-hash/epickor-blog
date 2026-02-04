@@ -32,8 +32,6 @@ Koreans use this toy to create an army of hundreds of ducks in the winter.
 
 ### Rolled Colored Pencils
 
-
-
 ---
 
 ### Editor's Pick
@@ -88,13 +86,6 @@ Of course, they never use office scissors and food scissors interchangeably.
 **Keywords**: Korean products, hangover relievers, snow duck toy, rolled colored pencils, food scissors, Korean culture, innovative items, unique Korean items, Korean stationery, Korean cooking tools.
 
 [https://youtube.com/shorts/GYqNdr56VWg?si=eLE9nnn3Uk6aJ0fu](https://youtube.com/shorts/GYqNdr56VWg?si=eLE9nnn3Uk6aJ0fu)
-
-[What Should You Drink in Korea Other Than ‘Soju’? : Travel Korea](https://www.epickor.com/blog/060)
-
-[Discover the Unique Korean Concert Experience that Moves Global Superstars : Seoul Korea](https://www.epickor.com/blog/061)
-
-[Experience Traditional Korean Kimchi Making at Museum Kimchikan in Insadong](https://www.epickor.com/blog/062)
-
 
 ---
 

@@ -35,8 +35,6 @@ A glass of makgeolli, a traditional Korean drink, and chicken soup, then enjoy a
 
 ### Did you know that Seoul is a delivery paradise?
 
-
-
 ---
 
 ### Editor's Pick
@@ -79,13 +77,6 @@ If you're savoring chicken and beer as the sun sets over the river, accompanied 
 Keywords: Seoul travel, hidden gems, Namhansanseong Fortress, samgyetang, mountain streams, Hangang Park, delivery paradise, chicken and beer, Korean food, one-day adventure.
 
 [https://youtube.com/shorts/ZSDaurIc-5w?si=MUwzu92DbsJBr6Eo](https://youtube.com/shorts/ZSDaurIc-5w?si=MUwzu92DbsJBr6Eo)
-
-[Newest Hotspots in Seoul, Korea - Yongsan](https://www.epickor.com/blog/047)
-
-[The Carbo Buldak Popularity](https://www.epickor.com/blog/048)
-
-[The Challenges Facing South Korea's Younger Generation](https://www.epickor.com/blog/049)
-
 
 ---
 

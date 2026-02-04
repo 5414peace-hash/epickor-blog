@@ -20,8 +20,6 @@ Eventually, with the advent of the ‘`SHOW ME THE MONEY`’ TV program, everyon
 
 ### The Popularity Surge
 
-
-
 ---
 
 ### Editor's Pick
@@ -101,13 +99,6 @@ And if you are curious about Korean hip-hop and want to listen to the music, you
 Keywords: Korean hip-hop, underground rappers, overground singers, SHOW ME THE MONEY, Lee Young-ji, hip-hop popularity, Korean music, TV program, hip-hop debate, music evolution.
 
 [https://youtube.com/shorts/b4mahT04j6Q?si=r_kSBkko3CmTJRoi](https://youtube.com/shorts/b4mahT04j6Q?si=r_kSBkko3CmTJRoi)
-
-[3 Must-Visit Markets in Seoul, Korea](https://www.epickor.com/blog/053)
-
-[Discover Korea's Automated Innovations: From Ramen Machines to Car Washes](https://www.epickor.com/blog/054)
-
-[Koreans Never Wait: The Speed of Life in Korea](https://www.epickor.com/blog/055)
-
 
 ---
 

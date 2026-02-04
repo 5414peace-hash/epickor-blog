@@ -35,8 +35,6 @@ You can buy all kinds of meat, including rare parts that only cost a small amoun
 
 ### Gwangjang Market
 
-
-
 ---
 
 ### Editor's Pick
@@ -113,13 +111,6 @@ The most famous item here is clothing, and I also recommend checking out Station
 **Keywords**: Majang Market, Gwangjang Market, Dongmyo Market, Seoul markets, Korean shopping, Hanwoo beef, traditional market, Cheonggyecheon, food alley, rare items, Korean cuisine, livestock products, meat restaurants, Hollywood stars, stationery street, cheap shopping, used items, travel destination, Seoul tourism, Korean culture.
 
 [https://youtube.com/shorts/RzreSClvt8g?si=WkPyTJ6DuYc54p2k](https://youtube.com/shorts/RzreSClvt8g?si=WkPyTJ6DuYc54p2k)
-
-[Seoul in 24 Hours: Your Ultimate Adventure!](https://www.epickor.com/blog/017)
-
-[Discover the Global Craze for Korean Chicken](https://www.epickor.com/blog/018)
-
-[Korean Travel Destinations Loved by Koreans](https://www.epickor.com/blog/019)
-
 
 ---
 

@@ -104,24 +104,6 @@ From cancelable elevator buttons to heated subway seats, Korea offers convenienc
   ></iframe>
 </div>
 
-[Unraveling the Unique Korean Habit of Laughing and Clapping](https://www.epickor.com/blog/014)
-
-[Exploring the Popularity of Mercedes Benz Among Koreans](https://www.epickor.com/blog/015)
-
-[Suzy-Flirting: The Unique Charm of Korea's "Nation’s First Love”](https://www.epickor.com/blog/016)
-
-[Discover Korea's Automated Innovations: From Ramen Machines to Car Washes](https://www.epickor.com/blog/054)
-
-[Koreans Never Wait: The Speed of Life in Korea](https://www.epickor.com/blog/055)
-
-[Unveiling Korea: From K-pop to Historic Triumphs and Tragedies](https://www.epickor.com/blog/056)
-
-[Discover Why Viyott Yogurt is a Must-Try for Japanese Tourists in Korea](https://www.epickor.com/blog/032)
-
-[The Unending Ceasefire: Understanding South Korea's Ongoing Tensions with North Korea](https://www.epickor.com/blog/033)
-
-[Experience the Unique Sensation of Eating Live Octopus](https://www.epickor.com/blog/034)
-
 ---
 
 <div class="amazon-affiliate-section">

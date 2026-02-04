@@ -17,8 +17,6 @@ When Koreans need to get to know somebody, they often ask about their `blood typ
 
 ### Cultural Characteristics
 
-
-
 ---
 
 ### Editor's Pick
@@ -92,13 +90,6 @@ So, how about you? "Hyeol aek Hyeong I muo ya?" And what is your characteristic?
 Keywords: blood type, personality traits, Korean culture, Type A, Type B, Type AB, Type O, MBTI, cultural practices, personality assessment
 
 [https://youtube.com/shorts/YJAj3lHHHQU?si=_KX_S-iCdHqcOukP](https://youtube.com/shorts/YJAj3lHHHQU?si=_KX_S-iCdHqcOukP)
-
-[Discover the Tastiest Picks at Korean Convenience Stores with Baek Jong-won and Kim Hye-ja](https://www.epickor.com/blog/059)
-
-[What Should You Drink in Korea Other Than ‘Soju’? : Travel Korea](https://www.epickor.com/blog/060)
-
-[Discover the Unique Korean Concert Experience that Moves Global Superstars : Seoul Korea](https://www.epickor.com/blog/061)
-
 
 ---
 

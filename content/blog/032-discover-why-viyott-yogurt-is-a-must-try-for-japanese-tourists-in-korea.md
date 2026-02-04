@@ -22,8 +22,6 @@ Many Japanese tourists feature Viyott in their vlogs, showing its widespread pop
 
 ### Unique to Korea
 
-
-
 ---
 
 ### Editor's Pick
@@ -89,18 +87,11 @@ Interestingly, many Koreans are unaware of Viyott's immense popularity among Jap
 
 [https://youtube.com/shorts/KbcPHvmtDZg?si=HCUYqZIAD01G3dlw](https://youtube.com/shorts/KbcPHvmtDZg?si=HCUYqZIAD01G3dlw)
 
-[The Carbo Buldak Popularity](https://www.epickor.com/blog/048)
-
-[The Challenges Facing South Korea's Younger Generation](https://www.epickor.com/blog/049)
-
-[Korean Soul Food on a Rainy Day](https://www.epickor.com/blog/065)
-
 [Experience Korean Culture at Byeolmadang Library: A Trendy Spot for Relaxation and Learning](https://www.epickor.com/travel/001)
 
 [Explore Seoul's Premier Downtown Resting Place Along Cheonggyecheon Stream](https://www.epickor.com/travel/002)
 
 [Discover Sinsa Station: The Heart of Seoul's Trendy Garosu-gil](https://www.epickor.com/travel/003)
-
 
 ---
 

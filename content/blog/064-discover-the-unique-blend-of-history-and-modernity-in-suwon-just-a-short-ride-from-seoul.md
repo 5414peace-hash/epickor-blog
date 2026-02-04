@@ -21,8 +21,6 @@ This city has a cool old fortress called `Hwaseong`, and an area called `Haenggu
 
 ### Evening Walks
 
-
-
 ---
 
 ### Editor's Pick
@@ -89,13 +87,6 @@ I totally recommend Suwon as a travel destination in Korea. It's got this awesom
 **Keywords**: Suwon, Korea travel, Hwaseong Fortress, Haenggung-dong, Wang Galbi, Starfield Mall, Suwon attractions, Korean culture, historical sites, modern vibes, Suwon night view, Suwon cafes, Suwon restaurants, Korean ribs, travel destination, Seoul to Suwon, Suwon tourism, indoor activities, Suwon history.
 
 [https://youtube.com/shorts/k1wkZHl9EJk?si=GYI-mW9mCSUH7Vr2](https://youtube.com/shorts/k1wkZHl9EJk?si=GYI-mW9mCSUH7Vr2)
-
-[Discover Korea's Automated Innovations: From Ramen Machines to Car Washes](https://www.epickor.com/blog/054)
-
-[Koreans Never Wait: The Speed of Life in Korea](https://www.epickor.com/blog/055)
-
-[Unveiling Korea: From K-pop to Historic Triumphs and Tragedies](https://www.epickor.com/blog/056)
-
 
 ---
 

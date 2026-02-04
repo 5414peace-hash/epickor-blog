@@ -19,8 +19,6 @@ Some of you might learn about romance through Korean dramas. Remember the romant
 
 ### STEP 2: Mimic Lines from Korean Dramas Starring “Lee Min-ho”
 
-
-
 ---
 
 ### Editor's Pick
@@ -87,13 +85,6 @@ Just sharing some information about Korean dramas with you. Hit that subscribe b
 Keywords: flirting in Korea, Korean dramas, Lee Min-ho, The Heirs, Boys Over Flowers, romance, cultural tips, dating advice, Korean culture, EpicKor Snippets.
 
 [https://youtube.com/shorts/WKhx_icKMoU?si=yPXNZpJWSBzXKv2K](https://youtube.com/shorts/WKhx_icKMoU?si=yPXNZpJWSBzXKv2K)
-
-[Cultural Curiosities: What Koreans Find Puzzling About Foreign Habits](https://www.epickor.com/blog/013)
-
-[The Cultural Significance Behind Blood Types in Korea](https://www.epickor.com/blog/011)
-
-[Unraveling the Unique Korean Habit of Laughing and Clapping](https://www.epickor.com/blog/014)
-
 
 ---
 

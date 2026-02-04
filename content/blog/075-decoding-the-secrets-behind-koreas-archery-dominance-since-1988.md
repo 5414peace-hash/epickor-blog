@@ -29,8 +29,6 @@ While other countries often struggle to maintain consistency, Korea has become s
 
 ### Kim Woo-jin’s Historic Achievement
 
-
-
 ---
 
 ### Editor's Pick
@@ -93,13 +91,6 @@ Despite their extraordinary success, even Koreans often express bewilderment at 
 **Keywords**: Korean archery, Olympic gold, Kim Woo-jin, Seoul Olympics, Paris Olympics, Korean women's archery, archery dominance, archery training, competitive selection, Korean athletes, archery streak, national team, sports excellence, Olympic history, athlete dedication, training methods, archery techniques, individual events, sports legacy, archery focus.
 
 [https://youtube.com/shorts/k_iA0ertyP0?si=N9vPL9QtIA8LyQY8](https://youtube.com/shorts/k_iA0ertyP0?si=N9vPL9QtIA8LyQY8)
-
-[That Movie & Drama Was Made from a Korean Webtoon](https://www.epickor.com/blog/067)
-
-[Uncover the Truth About Learning Korean: Challenges and Tips for Beginners](https://www.epickor.com/blog/068)
-
-[Not Seoul, but Gyeongju: A Cultural Journey](https://www.epickor.com/blog/069)
-
 
 ---
 

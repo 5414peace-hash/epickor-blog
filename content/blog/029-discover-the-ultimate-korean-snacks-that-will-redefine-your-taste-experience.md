@@ -26,8 +26,6 @@ It's not made in France, but it tastes better than French snacks. There are appl
 
 ### Whale Rice (Goraebab)
 
-
-
 ---
 
 ### Editor's Pick
@@ -84,13 +82,6 @@ The high-quality wafers are filled with `hazelnuts and chocolate cream`. If you 
 **Keywords**: Korean snacks, French Pie, Whale Rice, Homerun Ball, Mother Hand Pie, Choco Heim, Korean treats, savory cookies, chocolate wafers, seafood snacks, snack gifts.
 
 [https://youtube.com/shorts/LqMjaXyncJM?si=77GswTDMyTgwFPHL](https://youtube.com/shorts/LqMjaXyncJM?si=77GswTDMyTgwFPHL)
-
-[Dive into Summer Fun at the Han River Swimming Pools in Seoul](https://www.epickor.com/blog/066)
-
-[That Movie & Drama Was Made from a Korean Webtoon](https://www.epickor.com/blog/067)
-
-[Uncover the Truth About Learning Korean: Challenges and Tips for Beginners](https://www.epickor.com/blog/068)
-
 
 ---
 

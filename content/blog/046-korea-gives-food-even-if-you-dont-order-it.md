@@ -31,8 +31,6 @@ Actually, it wasn't that they ordered wrong, it was that they didn't know much a
 
 ### Side Dishes
 
-
-
 ---
 
 ### Editor's Pick
@@ -79,13 +77,6 @@ Of course, no need to tip the server. At Korean restaurants, just enjoy the food
 **Keywords**: Korean food culture, complimentary side dishes, Korean restaurants, free water, no tipping, Korean dining, rice and soup, dining experience, Korean hospitality, unlimited side dishes, Epickor snippets.
 
 [https://youtube.com/shorts/NYdCksniQhM?si=Qsw7rAiIbxPiIa5R](https://youtube.com/shorts/NYdCksniQhM?si=Qsw7rAiIbxPiIa5R)
-
-[3 Must-Visit Markets in Seoul, Korea](https://www.epickor.com/blog/053)
-
-[Discover Korea's Automated Innovations: From Ramen Machines to Car Washes](https://www.epickor.com/blog/054)
-
-[Koreans Never Wait: The Speed of Life in Korea](https://www.epickor.com/blog/055)
-
 
 ---
 

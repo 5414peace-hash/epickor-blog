@@ -22,7 +22,7 @@ First, let's look at **Paris Baguette**, a legendary bakery chain easily found a
 
 Next up is the **London Bagel Museum**, a hot spot that has taken Korea by storm in recent years. Opened in 2021, this trendy bagel cafe has rapidly expanded to six locations, gaining immense popularity. Its most notable feature is the incredibly long wait times. On weekends, people queue for hours just to get a taste. Beyond being a mere bagel shop, London Bagel Museum has become a cultural phenomenon among the MZ generation, thanks to its unique interior design and emotional branding.
 
-![London Bagel Museum Exterior](/assets/images/posts/094/e9Uc0KhYSv6qhwOX2rHA9M-images_1770009374385_na1fn_L2hvbWUvdWJ1bnR1L2xvbmRvbl9iYWdlbF9leHRlcmlvcg.jpg)
+![London Bagel Museum Exterior](/assets/images/epickor-placeholder.png)
 
 ## 🌍 Koreans' Affection for Foreign City Names: A Unique Cultural Quirk
 
@@ -58,7 +58,7 @@ similar interesting phenomena in your country? Let us know in the comments! 😂
 
 The success of London Bagel Museum stems not only from the delicious taste of its bagels but also from a blend of **branding, experience, and Korean reinterpretation**. Its chewy yet soft bagels, combined with a variety of cream cheeses and toppings, have captivated Korean palates. The cafe's interior design, which evokes the feeling of a quaint London alleyway cafe, offers a special experience. This perfectly illustrates how adept Koreans are at creating and enjoying aesthetically pleasing brands.
 
-![London Bagel Museum Bagels](/assets/images/posts/094/e9Uc0KhYSv6qhwOX2rHA9M-images_1770009374385_na1fn_L2hvbWUvdWJ1bnR1L2xvbmRvbl9iYWdlbF9mb29k.jpg)
+![London Bagel Museum Bagels](/assets/images/epickor-placeholder.png)
 
 ## 🛒 Discover Korean Flavors and Aesthetics on Amazon
 

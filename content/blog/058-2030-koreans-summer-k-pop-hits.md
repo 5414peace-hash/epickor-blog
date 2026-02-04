@@ -19,8 +19,6 @@ Although the song is 13 years old, it is still a highly addictive song that rank
 
 ### SISTAR – Touch My Body
 
-
-
 ---
 
 ### Editor's Pick
@@ -79,13 +77,6 @@ This title track from their summer album is packed with summer vibes and is alwa
 **Keywords**: summer K-POP, F(x) Hot Summer, SISTAR Touch My Body, San E & Raina, Red Velvet Red Flavor, Korean summer playlists, timeless K-POP hits, summer vibes, K-POP nostalgia, 2030 Koreans, ultimate summer idols, romantic hip-hop, summer music video, iconic tracks, seasonal soundtrack, K-POP favorites.
 
 [https://youtube.com/shorts/bSPeQjZjL7g?si=M4v2oMcKaWnJTktr](https://youtube.com/shorts/bSPeQjZjL7g?si=M4v2oMcKaWnJTktr)
-
-[Suzy-Flirting: The Unique Charm of Korea's "Nation’s First Love”](https://www.epickor.com/blog/016)
-
-[Seoul in 24 Hours: Your Ultimate Adventure!](https://www.epickor.com/blog/017)
-
-[Discover the Global Craze for Korean Chicken](https://www.epickor.com/blog/018)
-
 
 ---
 

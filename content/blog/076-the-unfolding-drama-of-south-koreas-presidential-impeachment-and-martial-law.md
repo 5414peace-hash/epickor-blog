@@ -46,8 +46,6 @@ The declaration and abrupt reversal of martial law only fueled public and politi
 
 ### The Reasons Behind Martial Law
 
-
-
 ---
 
 ### Editor's Pick
@@ -122,17 +120,6 @@ President Yoon’s case is a stark reminder of South Korea’s vibrant democrati
 **Keywords**: Martial law, South Korea impeachment, President Yoon, democratic crisis, peaceful protests, Supreme Court verdict, political turmoil, government paralysis, election fraud, budget cuts, National Assembly vote, public demonstrations, impeachment proceedings, Korea’s democracy, presidential accountability, rule of law, democratic activism, political stability, Korean politics, civic engagement.
 
 [https://youtube.com/shorts/mgwJhMVbudw?si=dEWZwrBIUYxn_Zxo](https://youtube.com/shorts/mgwJhMVbudw?si=dEWZwrBIUYxn_Zxo)
-
-[2030 Koreans' Summer K-POP Hits](https://www.epickor.com/blog/058)
-
-[Discover the Tastiest Picks at Korean Convenience Stores with Baek Jong-won and Kim Hye-ja](https://www.epickor.com/blog/059)
-
-[What Should You Drink in Korea Other Than ‘Soju’? : Travel Korea](https://www.epickor.com/blog/060)
-
-[Discover the Unique Korean Concert Experience that Moves Global Superstars : Seoul Korea](https://www.epickor.com/blog/061)
-
-[Experience Traditional Korean Kimchi Making at Museum Kimchikan in Insadong](https://www.epickor.com/blog/062)
-
 
 ---
 

@@ -31,8 +31,6 @@ So, where do many Koreans go to travel? According to actual tourism statistics i
 
 ### Gyeongju
 
-
-
 ---
 
 ### Editor's Pick
@@ -78,14 +76,9 @@ Fourth place is Gangneung and Sokcho, where you can enjoy Korea’s blue East Se
 
 [https://youtube.com/shorts/btBFFTNJzIU?si=qMLXTq8JnGhK8NkX](https://youtube.com/shorts/btBFFTNJzIU?si=qMLXTq8JnGhK8NkX)
 
-[Experience Tranquility with a 'Choncance' - Korea's Countryside Vacation](https://www.epickor.com/blog/057)
-
-[Newest Hotspots in Seoul, Korea - Yongsan](https://www.epickor.com/blog/047)
-
 [Experience Korean Culture at Byeolmadang Library: A Trendy Spot for Relaxation and Learning](https://www.epickor.com/travel/001)
 
 [Explore Seoul's Premier Downtown Resting Place Along Cheonggyecheon Stream](https://www.epickor.com/travel/002)
-
 
 ---
 

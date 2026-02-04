@@ -29,8 +29,6 @@ In 1953, the Korean War didn't conclude with a peace treaty but rather a tempora
 
 ### Decades of Tension
 
-
-
 ---
 
 ### Editor's Pick
@@ -100,18 +98,11 @@ At midnight, a woman can walk to the convenience store alone and buy milk.
 
 [https://youtube.com/shorts/jiYHTPhpvQk?si=fJl2EE0M-V9KYXr1](https://youtube.com/shorts/jiYHTPhpvQk?si=fJl2EE0M-V9KYXr1)
 
-[Discover Korea's Automated Innovations: From Ramen Machines to Car Washes](https://www.epickor.com/blog/054)
-
-[Koreans Never Wait: The Speed of Life in Korea](https://www.epickor.com/blog/055)
-
-[Unveiling Korea: From K-pop to Historic Triumphs and Tragedies](https://www.epickor.com/blog/056)
-
 [Explore Seoul's Premier Downtown Resting Place Along Cheonggyecheon Stream](https://www.epickor.com/travel/002)
 
 [Discover Sinsa Station: The Heart of Seoul's Trendy Garosu-gil](https://www.epickor.com/travel/003)
 
 [Experience the Magic of Sokcho-Eye Before It's Gone](https://www.epickor.com/travel/004)
-
 
 ---
 

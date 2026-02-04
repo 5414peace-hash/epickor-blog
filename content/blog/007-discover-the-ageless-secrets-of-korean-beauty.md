@@ -33,8 +33,6 @@ Na-ra Jang, who started her career as an entertainer in Korea from a young age, 
 
 ### Public Interest
 
-
-
 ---
 
 ### Editor's Pick
@@ -109,13 +107,6 @@ Even after 10 years, will she look the same?
 Keywords: youthful appearance, Na-ra Jang, Korean celebrities, age-defying, skincare routine, Korean culture, healthy lifestyle, ageless beauty, diet, lifestyle factors.
 
 [https://youtube.com/shorts/H_TU8f8cnGE?si=O9LGQw9io4fl_znT](https://youtube.com/shorts/H_TU8f8cnGE?si=O9LGQw9io4fl_znT)
-
-[Forbes Korea's Top 40 Korean Celebrities in 2024](https://www.epickor.com/blog/051)
-
-[Celebrating Idols: The Rise of Birthday Cafe Culture in Korea](https://www.epickor.com/blog/052)
-
-[3 Must-Visit Markets in Seoul, Korea](https://www.epickor.com/blog/053)
-
 
 ---
 

@@ -17,8 +17,6 @@ First, you will be stared at wherever you go. Korea is a country comprised of a 
 
 ### 2. Korea Is Extremely Safe
 
-
-
 ---
 
 ### Editor's Pick
@@ -85,19 +83,6 @@ Well, stay curious and open-minded throughout your trip, and you'll find out!
 **Keywords**: travel tips, South Korea, safety in Korea, Korean culture, public transportation, Korean etiquette, CCTV, manners in Korea, friendly locals, single ethnic group, staring in Korea, military service, politeness, asking for help, Korean police, Korean information desks, no blind spots, North Korea, cultural norms, traveling to Korea, visiting Korea.
 
 [https://youtube.com/shorts/oiRnLZadCmk?si=o5Wh9MyoQNV9o0h3](https://youtube.com/shorts/oiRnLZadCmk?si=o5Wh9MyoQNV9o0h3)
-
-[Experience Traditional Korean Kimchi Making at Museum Kimchikan in Insadong](https://www.epickor.com/blog/062)
-
-[Discover the Best Mountains for Hiking in Seoul from Easy to Advanced Trails](https://www.epickor.com/blog/063)
-
-[Discover the Unique Blend of History and Modernity in Suwon, Just a Short Ride from Seoul](https://www.epickor.com/blog/064)
-
-[Newest Hotspots in Seoul, Korea - Yongsan](https://www.epickor.com/blog/047)
-
-[The Carbo Buldak Popularity](https://www.epickor.com/blog/048)
-
-[The Challenges Facing South Korea's Younger Generation](https://www.epickor.com/blog/049)
-
 
 ---
 

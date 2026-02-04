@@ -24,8 +24,6 @@ So, actors who appear in movies with 10 million viewers get the special title of
 
 ### Previous Success
 
-
-
 ---
 
 ### Editor's Pick
@@ -83,18 +81,11 @@ Whether it's a movie or a drama, when people in Korea say `Min-sik Choi` is in i
 
 [https://youtube.com/shorts/HgrCA4VjInM?si=_zFIikSRSLLbh6Xt](https://youtube.com/shorts/HgrCA4VjInM?si=_zFIikSRSLLbh6Xt)
 
-[Discover the Tastiest Picks at Korean Convenience Stores with Baek Jong-won and Kim Hye-ja](https://www.epickor.com/blog/059)
-
-[What Should You Drink in Korea Other Than ‘Soju’? : Travel Korea](https://www.epickor.com/blog/060)
-
-[Discover the Unique Korean Concert Experience that Moves Global Superstars : Seoul Korea](https://www.epickor.com/blog/061)
-
 [Discover Sinsa Station: The Heart of Seoul's Trendy Garosu-gil](https://www.epickor.com/travel/003)
 
 [Experience the Magic of Sokcho-Eye Before It's Gone](https://www.epickor.com/travel/004)
 
 [Explore the Scenic Beauty of Cheongok Mountain](https://www.epickor.com/travel/005)
-
 
 ---
 

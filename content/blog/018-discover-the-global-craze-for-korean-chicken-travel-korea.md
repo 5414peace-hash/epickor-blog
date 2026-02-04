@@ -27,8 +27,6 @@ Recently, Korean chicken was featured on *Taste of Home*, a famous American cook
 
 ### Top-Ranked Fried Chicken
 
-
-
 ---
 
 ### Editor's Pick
@@ -69,13 +67,6 @@ Anyone who has tried Korean chicken will probably be unable to refute this. As t
 Korean chicken, global food trends, Taste of Home, best fried chicken, Korean BBQ, food rankings, international cuisine, popular food brands, unique flavors, culinary phenomenon.
 
 [https://youtube.com/shorts/VWFVivtgR_4?si=WCPIRldwgC6dZuUk](https://youtube.com/shorts/VWFVivtgR_4?si=WCPIRldwgC6dZuUk)
-
-[The Carbo Buldak Popularity](https://www.epickor.com/blog/048)
-
-[Discover the Tastiest Picks at Korean Convenience Stores with Baek Jong-won and Kim Hye-ja](https://www.epickor.com/blog/059)
-
-[What Should You Drink in Korea Other Than ‘Soju’? : Travel Korea](https://www.epickor.com/blog/060)
-
 
 ---
 

@@ -19,8 +19,6 @@ Here is some `food` that is still alive even if you chew it with your teeth two 
 
 ### Foreigners' Fascination
 
-
-
 ---
 
 ### Editor's Pick
@@ -82,18 +80,11 @@ This unique culinary experience highlights the diversity in food cultures around
 
 [https://youtube.com/shorts/kLb_mjR9KRY?si=WmOj17uv60_hErH6](https://youtube.com/shorts/kLb_mjR9KRY?si=WmOj17uv60_hErH6)
 
-[Koreans Never Wait: The Speed of Life in Korea](https://www.epickor.com/blog/055)
-
-[Unveiling Korea: From K-pop to Historic Triumphs and Tragedies](https://www.epickor.com/blog/056)
-
-[Experience Tranquility with a 'Choncance' - Korea's Countryside Vacation](https://www.epickor.com/blog/057)
-
 [Experience Korean Culture at Byeolmadang Library: A Trendy Spot for Relaxation and Learning](https://www.epickor.com/travel/001)
 
 [Explore Seoul's Premier Downtown Resting Place Along Cheonggyecheon Stream](https://www.epickor.com/travel/002)
 
 [Discover Sinsa Station: The Heart of Seoul's Trendy Garosu-gil](https://www.epickor.com/travel/003)
-
 
 ---
 

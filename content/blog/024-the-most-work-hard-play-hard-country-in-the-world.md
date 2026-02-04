@@ -21,8 +21,6 @@ Also, in Korea, during that time, some people may be drunk and having fun, while
 
 ### Top Working Hours
 
-
-
 ---
 
 ### Editor's Pick
@@ -91,13 +89,6 @@ Is your country number 1 in work hard play hard or not?
 **Keywords**: work hard play hard, Korean culture, work ethic, leisure activities, 24/7 lifestyle, annual working hours, economic ranking, work-life balance, Korean friends, epicKor snippets
 
 [https://youtube.com/shorts/TLOeCJu0xdk?si=sClhdv6xgc3DwSRg](https://youtube.com/shorts/TLOeCJu0xdk?si=sClhdv6xgc3DwSRg)
-
-[Experience Traditional Korean Kimchi Making at Museum Kimchikan in Insadong](https://www.epickor.com/blog/062)
-
-[Discover the Best Mountains for Hiking in Seoul from Easy to Advanced Trails](https://www.epickor.com/blog/063)
-
-[Discover the Unique Blend of History and Modernity in Suwon, Just a Short Ride from Seoul](https://www.epickor.com/blog/064)
-
 
 ---
 

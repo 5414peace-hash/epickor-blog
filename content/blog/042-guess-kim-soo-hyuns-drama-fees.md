@@ -15,8 +15,6 @@ Kim Soo-hyun, a well-established actor known for his remarkable performances, ha
 
 ### Recent Success
 
-
-
 ---
 
 ### Editor's Pick
@@ -53,9 +51,9 @@ However, a correction article later stated that Kim Soo-hyun adjusted his fee, t
 
 <div class="image-grid-2">
 
-![045_epickor(김수현)_건순.mp4_20240719_221616.463.jpg](/assets/images/posts/042/045_epickor(%EA%B9%80%EC%88%98%ED%98%84)_%25EA%25B1%25B4%25EC%2588%259C.mp4_20240719_221616.463.jpg)
+![045_epickor(김수현)_건순.mp4_20240719_221616.463.jpg](/assets/images/epickor-placeholder.png)_%25EA%25B1%25B4%25EC%2588%259C.mp4_20240719_221616.463.jpg)
 
-![045_epickor(김수현)_건순.mp4_20240719_221647.577.jpg](/assets/images/posts/042/045_epickor(%EA%B9%80%EC%88%98%ED%98%84)
+![045_epickor(김수현)_건순.mp4_20240719_221647.577.jpg](/assets/images/epickor-placeholder.png)
 
 </div>_%25EA%25B1%25B4%25EC%2588%259C.mp4_20240719_221647.577.jpg)
 
@@ -79,13 +77,6 @@ How much did you expect Kim Soo-hyun to receive?
 **Keywords**: Kim Soo-hyun, drama fees, Queen of Tears, Dream High, The Moon Embracing the Sun, My Love from the Star, Korean actor, appearance fee, box office success, entertainment industry.
 
 [https://youtube.com/shorts/HBEB_0n4Css?si=DhPl8dYp7uJrHij3](https://youtube.com/shorts/HBEB_0n4Css?si=DhPl8dYp7uJrHij3)
-
-[The Challenges Facing South Korea's Younger Generation](https://www.epickor.com/blog/049)
-
-[Discover the Unique Charm of Korean "Banchan" Culture](https://www.epickor.com/blog/050)
-
-[Forbes Korea's Top 40 Korean Celebrities in 2024](https://www.epickor.com/blog/051)
-
 
 ---
 

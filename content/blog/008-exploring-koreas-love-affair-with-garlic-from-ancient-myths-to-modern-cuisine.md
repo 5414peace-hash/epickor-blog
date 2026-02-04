@@ -28,8 +28,6 @@ He even showed a handful of garlic, explaining that what Koreans consider "a lit
 
 ### Garlic Consumption
 
-
-
 ---
 
 ### Editor's Pick
@@ -88,13 +86,6 @@ So, if Korea is a nation of garlic, what about your country?
 **Keywords**: Korean garlic consumption, John Torode, BBC MasterChef, elephant garlic, Korean myth, Dangun, garlic in Korean cuisine, per capita garlic consumption, Korean culinary traditions, cultural significance of garlic.
 
 [https://youtube.com/shorts/sRQPazLF-2k?si=3bgD13_A24SSM2u1](https://youtube.com/shorts/sRQPazLF-2k?si=3bgD13_A24SSM2u1)
-
-[Discover the Spicy and Flavorful World of Korean Ramen](https://www.epickor.com/blog/038)
-
-[Top 10 Jobs in Korea](https://www.epickor.com/blog/039)
-
-[Masterpieces of Korean Cinema with Iconic Lines](https://www.epickor.com/blog/040)
-
 
 ---
 

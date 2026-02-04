@@ -23,11 +23,7 @@ If you are interested in Korea,
 
 You must absolutely know the following six people:
 
-
-
 ### 1. BTS
-
-
 
 ---
 
@@ -55,31 +51,21 @@ You must absolutely know the following six people:
 
 First, BTS. Idols from Korea and artists loved worldwide.
 
-
-
 ### 2. Son Heung-min
 
 Second, Son Heung-min. A football player whose stage is the world.
-
-
 
 ### 3. Bong Joon-ho
 
 Third, Bong Joon-ho. A film director representing South Korea.
 
-
-
 ### 4. Yoo Jae-suk
 
 Fourth, Yoo Jae-suk. A representative MC and comedian.
 
-
-
 ### 5. Kim Yuna
 
 Fifth, Kim Yuna. An athlete who made history in figure skating.
-
-
 
 ### 6. IU
 
@@ -96,13 +82,6 @@ Knowing these six icons is essential for anyone who loves Korea, wants to make K
 BTS, Son Heung-min, Bong Joon-ho, Yoo Jae-suk, Kim Yun-a, IU, Korean culture, Korean idols, Korean celebrities, South Korea.
 
 [https://youtube.com/shorts/haUbvOxssQo?si=tonLs8X0OIWapTSq](https://youtube.com/shorts/haUbvOxssQo?si=tonLs8X0OIWapTSq)
-
-[Unraveling the Unique Korean Habit of Laughing and Clapping](https://www.epickor.com/blog/014)
-
-[The Cultural Significance Behind Blood Types in Korea](https://www.epickor.com/blog/011)
-
-[Suzy-Flirting: The Unique Charm of Korea's "Nation’s First Love”](https://www.epickor.com/blog/016)
-
 
 ---
 

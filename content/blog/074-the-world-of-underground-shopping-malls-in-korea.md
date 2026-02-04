@@ -21,8 +21,6 @@ With everything from movie theaters to restaurants, clothing stores, and accesso
 
 ### 2. Gangnam Station Underground Shopping Mall
 
-
-
 ---
 
 ### Editor's Pick
@@ -74,29 +72,6 @@ The underground shopping mall at the Express Bus Terminal, where `Subway Lines 3
 **Keywords**: Korea underground shopping, COEX Mall, Samseong Station, Gangnam Station shopping, Express Bus Terminal, Seoul shopping malls, Korean underground streets, shopping in Korea, Korean fashion, Seoul bargains, COEX renovation, subway shopping, Line 2 shopping, Korean accessories, Seoul movie theaters, Korean food courts, Korean clothing stores, affordable shopping, underground markets, hidden gems in Korea.
 
 [https://youtube.com/shorts/oWCE0OiuT30?si=fmm59SPf1Phxgf-6](https://youtube.com/shorts/oWCE0OiuT30?si=fmm59SPf1Phxgf-6)
-
-[100-Years-Old Korean Restaurant and Michelin Star](https://www.epickor.com/blog/087)
-
-[Discover Korea's Unique Outdoor Food and Drinking Culture](https://www.epickor.com/blog/089)
-
-[The Best Secret Sauce Found Only in Korea – SSAMJANG](https://www.epickor.com/blog/083)
-
-[The Fascinating Debate Among Korean Women: What Do You Call an Unfamiliar Man?](https://www.epickor.com/blog/090)
-
-[Korea's Tourist Cheat Codes: Discover How Visitors Explore Korea Differently](https://www.epickor.com/blog/084)
-
-[Discover the Heart of Korea's Renowned Plastic Surgery District](https://www.epickor.com/blog/023)
-
-[The Most "Work Hard, Play Hard" Country in the World](https://www.epickor.com/blog/024)
-
-[Korean MZ Actress with a Fatal Eye Smile: Go-eun Kim](https://www.epickor.com/blog/025)
-
-[That Movie & Drama Was Made from a Korean Webtoon](https://www.epickor.com/blog/067)
-
-[Uncover the Truth About Learning Korean: Challenges and Tips for Beginners](https://www.epickor.com/blog/068)
-
-[Not Seoul, but Gyeongju: A Cultural Journey](https://www.epickor.com/blog/069)
-
 
 ---
 

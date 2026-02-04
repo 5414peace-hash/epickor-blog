@@ -41,8 +41,6 @@ The Gwanak campus, nestled at the foot of the Gwanak Mountains, provides a pictu
 
 ### Korea University (KU)
 
-
-
 ---
 
 ### Editor's Pick
@@ -149,19 +147,6 @@ While the 'SKY' universities hold significant prestige, South Korea is home to o
 **Keywords:** Seoul National University, Korea University, Yonsei University, SKY universities, South Korea education, Korean universities, SNU history, KU alumni, Yonsei programs, Korean higher education, prestigious universities Korea, SNU campus life, KU business school, Yonsei medical school, Korea-Yonsei rivalry, Korean university admissions, top universities in Korea, KAIST, POSTECH, Ewha Womans University.
 
 [https://youtube.com/shorts/lhVYUoki5XM?si=4072FtfhuMILSs93](https://youtube.com/shorts/lhVYUoki5XM?si=4072FtfhuMILSs93)
-
-[The Dongduk Women’s University Protest: A Turning Point for Women’s Universities in Korea](https://www.epickor.com/blog/077)
-
-[“Don’t Drink Kimchi Soup Before It’s Ready”: Top 5 Korean Proverbs with Life Lessons](https://www.epickor.com/blog/080)
-
-[Living in Seoul for a Month: A Foreigner’s Experience!](https://www.epickor.com/blog/079)
-
-[Discover Why Viyott Yogurt is a Must-Try for Japanese Tourists in Korea](https://www.epickor.com/blog/032)
-
-[The Unending Ceasefire: Understanding South Korea's Ongoing Tensions with North Korea](https://www.epickor.com/blog/033)
-
-[Experience the Unique Sensation of Eating Live Octopus](https://www.epickor.com/blog/034)
-
 
 ---
 

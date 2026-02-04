@@ -21,9 +21,9 @@ Yes, she is Go-eun Kim.
 
 <div class="image-grid-2">
 
-![025_Epickor_건순 (1).mp4_20240713_221722.890.jpg](/assets/images/posts/025/025_Epickor_%EA%B1%B4%EC%88%9C_(1).mp4_20240713_221722.890.jpg).mp4_20240713_221722.890.jpg).mp4_20240713_221722.890.jpg).mp4_20240713_221722.890.jpg).mp4_20240713_221722.890.jpg)
+![025_Epickor_건순 (1).mp4_20240713_221722.890.jpg](/assets/images/epickor-placeholder.png).mp4_20240713_221722.890.jpg).mp4_20240713_221722.890.jpg).mp4_20240713_221722.890.jpg).mp4_20240713_221722.890.jpg).mp4_20240713_221722.890.jpg)
 
-![025_Epickor_건순 (1).mp4_20240713_221729.779.jpg](/assets/images/posts/025/025_Epickor_%EA%B1%B4%EC%88%9C_(1).mp4_20240713_221722.890.jpg).mp4_20240713_221722.890.jpg).mp4_20240713_221722.890.jpg).mp4_20240713_221722.890.jpg)
+![025_Epickor_건순 (1).mp4_20240713_221729.779.jpg](/assets/images/epickor-placeholder.png).mp4_20240713_221722.890.jpg).mp4_20240713_221722.890.jpg).mp4_20240713_221722.890.jpg).mp4_20240713_221722.890.jpg)
 
 </div>.mp4_20240713_221729.779.jpg)
 
@@ -34,8 +34,6 @@ Go-eun Kim is an MZ actress born in 1991 who represents Korea.
 Although she does not have the thick double eyelids and large eyes that Koreans typically think of as a beauty, she is an actress who nevertheless has a naturally and plainly pretty face.
 
 ### Natural Beauty
-
-
 
 ---
 
@@ -65,9 +63,9 @@ Many of her past photos have also been released. Her pure and clear face, no dif
 
 <div class="image-grid-2">
 
-![025_Epickor_건순 (1).mp4_20240713_221745.998.jpg](/assets/images/posts/025/025_Epickor_%EA%B1%B4%EC%88%9C_(1).mp4_20240713_221722.890.jpg).mp4_20240713_221722.890.jpg).mp4_20240713_221722.890.jpg).mp4_20240713_221722.890.jpg).mp4_20240713_221745.998.jpg)
+![025_Epickor_건순 (1).mp4_20240713_221745.998.jpg](/assets/images/epickor-placeholder.png).mp4_20240713_221722.890.jpg).mp4_20240713_221722.890.jpg).mp4_20240713_221722.890.jpg).mp4_20240713_221722.890.jpg).mp4_20240713_221745.998.jpg)
 
-![025_Epickor_건순 (1).mp4_20240713_221753.758.jpg](/assets/images/posts/025/025_Epickor_%EA%B1%B4%EC%88%9C_(1).mp4_20240713_221722.890.jpg).mp4_20240713_221722.890.jpg).mp4_20240713_221722.890.jpg).mp4_20240713_221722.890.jpg)
+![025_Epickor_건순 (1).mp4_20240713_221753.758.jpg](/assets/images/epickor-placeholder.png).mp4_20240713_221722.890.jpg).mp4_20240713_221722.890.jpg).mp4_20240713_221722.890.jpg).mp4_20240713_221722.890.jpg)
 
 </div>.mp4_20240713_221753.758.jpg)
 
@@ -97,13 +95,6 @@ Who is your favorite Korean actor?
 **Keywords**: Go-eun Kim, Korean actress, MZ generation, Goblin, eye smile, natural beauty, acting skills, Korean drama, celebrity, entertainment industry.
 
 [https://youtube.com/shorts/kZbA0irPLw8?si=_hxzfSZqZh25oPcE](https://youtube.com/shorts/kZbA0irPLw8?si=_hxzfSZqZh25oPcE)
-
-[Celebrating Idols: The Rise of Birthday Cafe Culture in Korea](https://www.epickor.com/blog/052)
-
-[3 Must-Visit Markets in Seoul, Korea](https://www.epickor.com/blog/053)
-
-[Discover Korea's Automated Innovations: From Ramen Machines to Car Washes](https://www.epickor.com/blog/054)
-
 
 ---
 

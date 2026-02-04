@@ -21,8 +21,6 @@ It's literally a soup made with seaweed. It would be difficult to find a person 
 
 ### Iron and Recovery
 
-
-
 ---
 
 ### Editor's Pick
@@ -83,13 +81,6 @@ Do you have any special food you eat on your `birthday`?
 **Keywords**: seaweed soup, Korean tradition, birthday food, parental respect, iron replenishment, recovery meal, health benefits, coastal cuisine, cultural significance, Korean taste.
 
 [https://youtube.com/shorts/vB9lIC8n4m0?si=cyh72_IXaJ_L7D4H](https://youtube.com/shorts/vB9lIC8n4m0?si=cyh72_IXaJ_L7D4H)
-
-[A Peek at Korean Soldiers’ Lunch](https://www.epickor.com/blog/045)
-
-[Korea Gives Food Even If You Don’t Order It](https://www.epickor.com/blog/046)
-
-[Discover the Unique Charm of Korean "Banchan" Culture](https://www.epickor.com/blog/050)
-
 
 ---
 

@@ -31,8 +31,6 @@ The acting by the leads, `Kim Go-eun` and `Gong Yoo`, is fantastic, and the supp
 
 ### Reply Series
 
-
-
 ---
 
 ### Editor's Pick
@@ -99,22 +97,11 @@ If you love horror or zombie shows, **Kingdom** is a must-watch. Set in the Jose
 
 [https://youtube.com/shorts/8riVXruw2jg?si=4nVIXJ3_XpWAaIiu](https://youtube.com/shorts/8riVXruw2jg?si=4nVIXJ3_XpWAaIiu)
 
-[The Best Secret Sauce Found Only in Korea – SSAMJANG](https://www.epickor.com/blog/083)
-
-[Korea's Tourist Cheat Codes: Discover How Visitors Explore Korea Differently](https://www.epickor.com/blog/084)
-
-[Dive into Summer Fun at the Han River Swimming Pools in Seoul](https://www.epickor.com/blog/066)
-
-[That Movie & Drama Was Made from a Korean Webtoon](https://www.epickor.com/blog/067)
-
-[Uncover the Truth About Learning Korean: Challenges and Tips for Beginners](https://www.epickor.com/blog/068)
-
 [Experience the Magic of Sokcho-Eye Before It's Gone](https://www.epickor.com/travel/004)
 
 [Explore the Scenic Beauty of Cheongok Mountain](https://www.epickor.com/travel/005)
 
 [Discover Jadegarden: A Hidden Botanical Gem in Chuncheon, South Korea](https://www.epickor.com/travel/006)
-
 
 ---
 

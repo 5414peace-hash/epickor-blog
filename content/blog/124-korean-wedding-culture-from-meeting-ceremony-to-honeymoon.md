@@ -55,8 +55,6 @@ However, what makes Korean weddings truly unique is what comes after the main ce
 
 ### What Happens During Pyebaek?
 
-
-
 ---
 
 ### Editor's Pick
@@ -205,16 +203,15 @@ The next time you're invited to a Korean wedding, you'll be well-prepared to app
 
 ## Related Articles
 
-<bookmark url="[https://www.epickor.com/blog/001"/](https://www.epickor.com/blog/001"/)>
+<bookmark url=">
 
-<bookmark url="[https://www.epickor.com/blog/002"/](https://www.epickor.com/blog/002"/)>
+<bookmark url=">
 
-<bookmark url="[https://www.epickor.com/blog/003"/](https://www.epickor.com/blog/003"/)>
+<bookmark url=">
 
-<bookmark url="[https://www.epickor.com/blog/004"/](https://www.epickor.com/blog/004"/)>
+<bookmark url=">
 
-<bookmark url="[https://www.epickor.com/blog/005"/](https://www.epickor.com/blog/005"/)>
-
+<bookmark url=">
 
 ---
 

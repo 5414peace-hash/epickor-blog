@@ -26,8 +26,6 @@ Meanwhile, one day in 2023, Suzy appeared on the YouTube channel of her close fr
 
 ### The Technique
 
-
-
 ---
 
 ### Editor's Pick
@@ -78,15 +76,6 @@ How would you feel if the person you're interested in makes that kind of facial 
 Keywords: Suzy-flirting, Korean celebrity, nation’s first love, unique smile, flirting technique, Suzy, Hyun-ah Jo, YouTube, Korean pop culture, new trend.
 
 [https://youtube.com/shorts/-HBnHu-1kVQ?si=XBJZhIRdmOFe6Zow](https://youtube.com/shorts/-HBnHu-1kVQ?si=XBJZhIRdmOFe6Zow)
-
-[Celebrating Idols: The Rise of Birthday Cafe Culture in Korea](https://www.epickor.com/blog/052)
-
-[2030 Koreans' Summer K-POP Hits](https://www.epickor.com/blog/058)
-
-[Guess Kim Soo-hyun’s Drama Fees](https://www.epickor.com/blog/042)
-
-[Born to Be an Idol: The Rise of Jang Won-young](https://www.epickor.com/blog/043)
-
 
 ---
 

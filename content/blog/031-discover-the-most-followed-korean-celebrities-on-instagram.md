@@ -21,8 +21,6 @@ As of `April 1, 2024`, here are the rankings from 10th to 1st:
 
 ### BTS Jin
 
-
-
 ---
 
 ### Editor's Pick
@@ -134,18 +132,11 @@ Despite being excluded from the rankings due to her nationality, Blackpink's `Li
 
 [https://youtube.com/shorts/6rhKJMh6ghc?si=cWC03T3HhFVPG4cF](https://youtube.com/shorts/6rhKJMh6ghc?si=cWC03T3HhFVPG4cF)
 
-[Discover the Unique Blend of History and Modernity in Suwon, Just a Short Ride from Seoul](https://www.epickor.com/blog/064)
-
-[Korean Soul Food on a Rainy Day](https://www.epickor.com/blog/065)
-
-[Dive into Summer Fun at the Han River Swimming Pools in Seoul](https://www.epickor.com/blog/066)
-
 [Experience the Magic of Sokcho-Eye Before It's Gone](https://www.epickor.com/travel/004)
 
 [Explore the Scenic Beauty of Cheongok Mountain](https://www.epickor.com/travel/005)
 
 [Discover Jadegarden: A Hidden Botanical Gem in Chuncheon, South Korea](https://www.epickor.com/travel/006)
-
 
 ---
 

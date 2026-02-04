@@ -33,8 +33,6 @@ It’s also `sad`, `depressing`, and `heartbreaking`.
 
 ### Rich History
 
-
-
 ---
 
 ### Editor's Pick
@@ -111,13 +109,6 @@ Then check out EpicKor Snippets.
 **Keywords**: Korea, K-pop, BTS, PSY, Gangnam Style, Son Heung-min, Kimchi, Korean War, Seongsu Bridge collapse, Sampoong Department Store collapse, Daegu subway fire, Sewol Ferry disaster, Itaewon disaster, Korean history, Korean culture, economic development, music industry, film industry, national resilience, EpicKor Snippets.
 
 [https://youtube.com/shorts/-kfvdnIunyE?si=ThVYLxhp5Dub-X7s](https://youtube.com/shorts/-kfvdnIunyE?si=ThVYLxhp5Dub-X7s)
-
-[Unraveling the Unique Korean Habit of Laughing and Clapping](https://www.epickor.com/blog/014)
-
-[Exploring the Popularity of Mercedes Benz Among Koreans](https://www.epickor.com/blog/015)
-
-[Suzy-Flirting: The Unique Charm of Korea's "Nation’s First Love”](https://www.epickor.com/blog/016)
-
 
 ---
 

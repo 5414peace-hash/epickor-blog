@@ -21,8 +21,6 @@ Unlike the streets of Southeast Asia, in Korea, `honking` is generally avoided w
 
 ### Sensitive Jokes
 
-
-
 ---
 
 ### Editor's Pick
@@ -84,18 +82,11 @@ By following these three guidelines, you can avoid fights with Koreans.
 
 [https://youtube.com/shorts/o3aLMkFaaVg?si=5eeXN0JXqZnnHZ_r](https://youtube.com/shorts/o3aLMkFaaVg?si=5eeXN0JXqZnnHZ_r)
 
-[Uncover the Truth About Learning Korean: Challenges and Tips for Beginners](https://www.epickor.com/blog/068)
-
-[Koreans Never Wait: The Speed of Life in Korea](https://www.epickor.com/blog/055)
-
-[Unveiling Korea: From K-pop to Historic Triumphs and Tragedies](https://www.epickor.com/blog/056)
-
 [Discover Sinsa Station: The Heart of Seoul's Trendy Garosu-gil](https://www.epickor.com/travel/003)
 
 [Experience the Magic of Sokcho-Eye Before It's Gone](https://www.epickor.com/travel/004)
 
 [Explore the Scenic Beauty of Cheongok Mountain](https://www.epickor.com/travel/005)
-
 
 ---
 
