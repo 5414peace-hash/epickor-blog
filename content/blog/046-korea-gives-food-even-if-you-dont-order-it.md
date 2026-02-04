@@ -7,7 +7,7 @@ date: '2026-02-03'
 tags: ['Culture', 'Food', 'Travel']
 ---
 
-![049_epickor_민호.mp4_20240721_214306.893.jpg](/assets/images/posts/046/b5bd702e-e6b7-4afa-97bb-51d471267746.png)
+![epickor_민호.mp4_20240721_214306.893.jpg](/assets/images/posts/046/b5bd702e-e6b7-4afa-97bb-51d471267746.png)
 
 # Unveiling the Generous Dining Culture of Korean Restaurants
 
@@ -23,35 +23,13 @@ Actually, it wasn't that they ordered wrong, it was that they didn't know much a
 
 <div class="image-grid-2">
 
-![049_epickor_민호.mp4_20240721_214319.336.jpg](/assets/images/posts/046/049_epickor_%EB%AF%BC%ED%98%B8.mp4_20240721_214319.336.jpg)
+![epickor_민호.mp4_20240721_214319.336.jpg](/assets/images/posts/046/049_epickor_%EB%AF%BC%ED%98%B8.mp4_20240721_214319.336.jpg)
 
-![049_epickor_민호.mp4_20240721_214333.833.jpg](/assets/images/posts/046/049_epickor_%EB%AF%BC%ED%98%B8.mp4_20240721_214333.833.jpg)
-
-</div>
+![epickor_민호.mp4_20240721_214333.833.jpg](/assets/images/posts/046/049_epickor_%EB%AF%BC%ED%98%B8.mp4_20240721_214333.833.jpg)
 
 ### Side Dishes
 
 ---
-
-### Editor's Pick
-
-<h3>Editor's Pick</h3>
-
-<h3>Editor's Picks for You</h3>
-
-<h3>Editor's Pick</h3>
-
-<h3>Editor's Picks for You</h3>
-
-<div class="amazon-product-card">
-  <div class="product-content">
-    <h4 class="product-title"><a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank">Korean Snack Box</a></h4>
-    <p class="product-description">Bring the taste of Korea to your home with this authentic snack collection</p>
-  </div>
-  <a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
-</div>
-
-*As an Amazon Associate, we earn from qualifying purchases.*
 
 ---
 
@@ -80,22 +58,3 @@ Of course, no need to tip the server. At Korean restaurants, just enjoy the food
 
 ---
 
-### Editor's Picks for You
-
-<div class="amazon-product-card">
-  <div class="product-content">
-    <h4 class="product-title"><a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank">Korean Snack Box</a></h4>
-    <p class="product-description">Bring the taste of Korea to your home with this authentic snack collection</p>
-  </div>
-  <a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
-</div>
-
-<div class="amazon-product-card">
-  <div class="product-content">
-    <h4 class="product-title"><a href="https://amzn.to/3MaZWi6" rel="nofollow sponsored" target="_blank">Buldak Spicy Ramen</a></h4>
-    <p class="product-description">Experience the legendary spicy Korean ramen</p>
-  </div>
-  <a href="https://amzn.to/3MaZWi6" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
-</div>
-
-*As an Amazon Associate, we earn from qualifying purchases.*

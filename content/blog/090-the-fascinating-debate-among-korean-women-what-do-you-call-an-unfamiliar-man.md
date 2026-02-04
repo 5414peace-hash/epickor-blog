@@ -9,7 +9,7 @@ date: '2026-02-03'
 tags: ['Culture', 'Social', 'Woman']
 ---
 
-![117_epickor_민호.mp4_20250116_211742.982.jpg](/assets/images/posts/090/9aba325a-8a83-4721-9780-c2760839d14b.png)
+![epickor_민호.mp4_20250116_211742.982.jpg](/assets/images/posts/090/9aba325a-8a83-4721-9780-c2760839d14b.png)
 
 # Oppa, Samchon, or Ahjusshi?
 
@@ -25,35 +25,13 @@ Interestingly, this whole debate on what to call an unfamiliar adult male gained
 
 <div class="image-grid-2">
 
-![117_epickor_민호.mp4_20250116_211751.070.jpg](/assets/images/posts/090/117_epickor_%EB%AF%BC%ED%98%B8.mp4_20250116_211751.070.jpg)
+![epickor_민호.mp4_20250116_211751.070.jpg](/assets/images/posts/090/117_epickor_%EB%AF%BC%ED%98%B8.mp4_20250116_211751.070.jpg)
 
-![117_epickor_민호.mp4_20250116_211755.631.jpg](/assets/images/posts/090/117_epickor_%EB%AF%BC%ED%98%B8.mp4_20250116_211755.631.jpg)
-
-</div>
+![epickor_민호.mp4_20250116_211755.631.jpg](/assets/images/posts/090/117_epickor_%EB%AF%BC%ED%98%B8.mp4_20250116_211755.631.jpg)
 
 ### The Complexity Behind the Labels
 
 ---
-
-### Editor's Pick
-
-<h3>Editor's Pick</h3>
-
-<h3>Editor's Picks for You</h3>
-
-<h3>Editor's Pick</h3>
-
-<h3>Editor's Picks for You</h3>
-
-<div class="amazon-product-card">
-  <div class="product-content">
-    <h4 class="product-title"><a href="https://amzn.to/467PaA7" rel="nofollow sponsored" target="_blank">Ssamjang (Soybean Paste)</a></h4>
-    <p class="product-description">Essential Korean dipping sauce for authentic flavors</p>
-  </div>
-  <a href="https://amzn.to/467PaA7" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
-</div>
-
-*As an Amazon Associate, we earn from qualifying purchases.*
 
 ---
 
@@ -83,13 +61,11 @@ To understand this better, let's look at some fun examples. Despite being born i
     
     <div class="image-grid-2">
 
-![117_epickor_민호.mp4_20250116_211848.710.jpg](/assets/images/posts/090/117_epickor_%EB%AF%BC%ED%98%B8.mp4_20250116_211848.710.jpg)
+![epickor_민호.mp4_20250116_211848.710.jpg](/assets/images/posts/090/117_epickor_%EB%AF%BC%ED%98%B8.mp4_20250116_211848.710.jpg)
 
-![117_epickor_민호.mp4_20250116_211845.423.jpg](/assets/images/posts/090/117_epickor_%EB%AF%BC%ED%98%B8.mp4_20250116_211845.423.jpg)
+![epickor_민호.mp4_20250116_211845.423.jpg](/assets/images/posts/090/117_epickor_%EB%AF%BC%ED%98%B8.mp4_20250116_211845.423.jpg)
 
-</div>
-    
-    ![117_epickor_민호.mp4_20250116_211841.630.jpg](/assets/images/posts/090/117_epickor_%EB%AF%BC%ED%98%B8.mp4_20250116_211841.630.jpg)
+    ![epickor_민호.mp4_20250116_211841.630.jpg](/assets/images/posts/090/117_epickor_%EB%AF%BC%ED%98%B8.mp4_20250116_211841.630.jpg)
     
 
 ---
@@ -127,22 +103,3 @@ So, the next time you find yourself in Korea, try observing these terms in actio
 
 ---
 
-### Editor's Picks for You
-
-<div class="amazon-product-card">
-  <div class="product-content">
-    <h4 class="product-title"><a href="https://amzn.to/467PaA7" rel="nofollow sponsored" target="_blank">Ssamjang (Soybean Paste)</a></h4>
-    <p class="product-description">Essential Korean dipping sauce for authentic flavors</p>
-  </div>
-  <a href="https://amzn.to/467PaA7" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
-</div>
-
-<div class="amazon-product-card">
-  <div class="product-content">
-    <h4 class="product-title"><a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank">Korean Snack Box</a></h4>
-    <p class="product-description">Bring the taste of Korea to your home with this authentic snack collection</p>
-  </div>
-  <a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
-</div>
-
-*As an Amazon Associate, we earn from qualifying purchases.*

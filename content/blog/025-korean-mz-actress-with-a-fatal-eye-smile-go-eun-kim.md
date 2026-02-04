@@ -7,7 +7,7 @@ date: '2026-02-03'
 tags: ['Celeb', 'Woman']
 ---
 
-![025_Epickor_건순 (1).mp4_20240713_221704.878.jpg](/assets/images/posts/025/75e894aa-f472-470e-a9c5-0fafebc05ccf.png)
+![Epickor_건순 (1).mp4_20240713_221704.878.jpg](/assets/images/posts/025/75e894aa-f472-470e-a9c5-0fafebc05ccf.png)
 
 # Discover the Charming Go-eun Kim: The Face of Korean MZ Generation
 
@@ -21,51 +21,7 @@ Yes, she is Go-eun Kim.
 
 <div class="image-grid-2">
 
-![025_Epickor_건순 (1).mp4_20240713_221722.890.jpg](/assets/images/epickor-placeholder.png).mp4_20240713_221722.890.jpg).mp4_20240713_221722.890.jpg).mp4_20240713_221722.890.jpg).mp4_20240713_221722.890.jpg).mp4_20240713_221722.890.jpg)
-
-![025_Epickor_건순 (1).mp4_20240713_221729.779.jpg](/assets/images/epickor-placeholder.png).mp4_20240713_221722.890.jpg).mp4_20240713_221722.890.jpg).mp4_20240713_221722.890.jpg).mp4_20240713_221722.890.jpg)
-
-</div>.mp4_20240713_221729.779.jpg)
-
-### MZ Actress
-
-Go-eun Kim is an MZ actress born in 1991 who represents Korea. 
-
-Although she does not have the thick double eyelids and large eyes that Koreans typically think of as a beauty, she is an actress who nevertheless has a naturally and plainly pretty face.
-
-### Natural Beauty
-
----
-
-### Editor's Pick
-
-<h3>Editor's Pick</h3>
-
-<h3>Editor's Picks for You</h3>
-
-<h3>Editor's Pick</h3>
-
-<h3>Editor's Picks for You</h3>
-
-<div class="amazon-product-card">
-  <div class="product-content">
-    <h4 class="product-title"><a href="https://amzn.to/3MaZWi6" rel="nofollow sponsored" target="_blank">Buldak Spicy Ramen</a></h4>
-    <p class="product-description">Experience the legendary spicy Korean ramen</p>
-  </div>
-  <a href="https://amzn.to/3MaZWi6" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
-</div>
-
-*As an Amazon Associate, we earn from qualifying purchases.*
-
----
-
-Many of her past photos have also been released. Her pure and clear face, no different from her current appearance, became a hot topic.
-
-<div class="image-grid-2">
-
-![025_Epickor_건순 (1).mp4_20240713_221745.998.jpg](/assets/images/epickor-placeholder.png).mp4_20240713_221722.890.jpg).mp4_20240713_221722.890.jpg).mp4_20240713_221722.890.jpg).mp4_20240713_221722.890.jpg).mp4_20240713_221745.998.jpg)
-
-![025_Epickor_건순 (1).mp4_20240713_221753.758.jpg](/assets/images/epickor-placeholder.png).mp4_20240713_221722.890.jpg).mp4_20240713_221722.890.jpg).mp4_20240713_221722.890.jpg).mp4_20240713_221722.890.jpg)
+![Epickor_건순 (1).mp4_20240713_221722.890.jpg](/assets/images/epickor-placeholder.png).mp4![025_Epickor_건순 (1).mp4_20240713_221729.779.jpg](/assets/images/epickor-placeholder.png).mp4![025_Epickor_건순 (1).mp4_20240713_221745.998.jpg](/assets/images/epickor-placeholder.png).mp4![025_Epickor_건순 (1).mp4_20240713_221753.758.jpg](/assets/images/epickor-placeholder.png).mp4_20240713_221722.890.jpg).mp4_20240713_221722.890.jpg).mp4_20240713_221722.890.jpg).mp4_20240713_221722.890.jpg)
 
 </div>.mp4_20240713_221753.758.jpg)
 
@@ -98,22 +54,3 @@ Who is your favorite Korean actor?
 
 ---
 
-### Editor's Picks for You
-
-<div class="amazon-product-card">
-  <div class="product-content">
-    <h4 class="product-title"><a href="https://amzn.to/3MaZWi6" rel="nofollow sponsored" target="_blank">Buldak Spicy Ramen</a></h4>
-    <p class="product-description">Experience the legendary spicy Korean ramen</p>
-  </div>
-  <a href="https://amzn.to/3MaZWi6" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
-</div>
-
-<div class="amazon-product-card">
-  <div class="product-content">
-    <h4 class="product-title"><a href="https://amzn.to/4twhKFk" rel="nofollow sponsored" target="_blank">Round Lab Dokdo Toner</a></h4>
-    <p class="product-description">Hydrating K-beauty toner for radiant skin</p>
-  </div>
-  <a href="https://amzn.to/4twhKFk" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
-</div>
-
-*As an Amazon Associate, we earn from qualifying purchases.*

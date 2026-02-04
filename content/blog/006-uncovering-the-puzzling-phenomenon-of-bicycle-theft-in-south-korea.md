@@ -8,7 +8,7 @@ date: '2026-02-03'
 tags: ['Culture', 'Travel']
 ---
 
-![006_EpicKor_진호.mp4_20240705_105700.936.jpg](/assets/images/posts/006/d104aafe-bde3-48b0-a16a-56ecb8e65edb.png)
+![EpicKor_진호.mp4_20240705_105700.936.jpg](/assets/images/posts/006/d104aafe-bde3-48b0-a16a-56ecb8e65edb.png)
 
 # Koreans Only Steal This
 
@@ -22,26 +22,6 @@ Leaving a laptop on a café table, it remains there even if you go to the restro
 
 ---
 
-### Editor's Pick
-
-<h3>Editor's Pick</h3>
-
-<h3>Editor's Picks for You</h3>
-
-<h3>Editor's Pick</h3>
-
-<h3>Editor's Picks for You</h3>
-
-<div class="amazon-product-card">
-  <div class="product-content">
-    <h4 class="product-title"><a href="https://amzn.to/3MaZWi6" rel="nofollow sponsored" target="_blank">Buldak Spicy Ramen</a></h4>
-    <p class="product-description">Experience the legendary spicy Korean ramen</p>
-  </div>
-  <a href="https://amzn.to/3MaZWi6" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
-</div>
-
-*As an Amazon Associate, we earn from qualifying purchases.*
-
 ---
 
 If you drop your wallet while walking and come back to retrieve it later, it’s still there.
@@ -52,11 +32,9 @@ But strangely enough, Koreans have never been able to keep this one thing from a
 
 <div class="image-grid-2">
 
-![006_EpicKor_진호.mp4_20240705_105743.365.jpg](/assets/images/posts/006/92c8b4dd-d0a3-4506-afcf-cd479850eef9.png)
+![EpicKor_진호.mp4_20240705_105743.365.jpg](/assets/images/posts/006/92c8b4dd-d0a3-4506-afcf-cd479850eef9.png)
 
-![006_EpicKor_진호.mp4_20240705_105740.026.jpg](/assets/images/posts/006/bd6f682c-8e2b-4f75-ab17-b0873dcdf46e.png)
-
-</div>
+![EpicKor_진호.mp4_20240705_105740.026.jpg](/assets/images/posts/006/bd6f682c-8e2b-4f75-ab17-b0873dcdf46e.png)
 
 ### Bicycle Theft
 
@@ -66,11 +44,9 @@ According to actual statistics, bicycle theft in Korea is 43 times higher than p
 
 <div class="image-grid-2">
 
-![006_EpicKor_진호.mp4_20240705_105748.954.jpg](/assets/images/posts/006/006_EpicKor_%EC%A7%84%ED%98%B8.mp4_20240705_105748.954.jpg)
+![EpicKor_진호.mp4_20240705_105748.954.jpg](/assets/images/posts/006/006_EpicKor_%EC%A7%84%ED%98%B8.mp4_20240705_105748.954.jpg)
 
-![006_EpicKor_진호.mp4_20240705_105751.960.jpg](/assets/images/posts/006/006_EpicKor_%EC%A7%84%ED%98%B8.mp4_20240705_105751.960.jpg)
-
-</div>
+![EpicKor_진호.mp4_20240705_105751.960.jpg](/assets/images/posts/006/006_EpicKor_%EC%A7%84%ED%98%B8.mp4_20240705_105751.960.jpg)
 
 ### Cultural Reference
 
@@ -97,22 +73,3 @@ Keywords: bicycle theft, South Korea, public safety, Eom Bok-dong, crime statist
 
 ---
 
-### Editor's Picks for You
-
-<div class="amazon-product-card">
-  <div class="product-content">
-    <h4 class="product-title"><a href="https://amzn.to/3MaZWi6" rel="nofollow sponsored" target="_blank">Buldak Spicy Ramen</a></h4>
-    <p class="product-description">Experience the legendary spicy Korean ramen</p>
-  </div>
-  <a href="https://amzn.to/3MaZWi6" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
-</div>
-
-<div class="amazon-product-card">
-  <div class="product-content">
-    <h4 class="product-title"><a href="https://amzn.to/4ae69Sg" rel="nofollow sponsored" target="_blank">Buldak Tteokbokki</a></h4>
-    <p class="product-description">Spicy Korean rice cakes in convenient instant form</p>
-  </div>
-  <a href="https://amzn.to/4ae69Sg" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
-</div>
-
-*As an Amazon Associate, we earn from qualifying purchases.*

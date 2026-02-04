@@ -7,7 +7,7 @@ date: '2026-02-03'
 tags: ['Celeb', 'Kpop', 'Woman']
 ---
 
-![045_epickor_건순.mp4_20240720_221111.104.jpg](/assets/images/posts/043/81f1043c-e856-4958-9fb9-3a89ffb9afaf.png)
+![epickor_건순.mp4_20240720_221111.104.jpg](/assets/images/posts/043/81f1043c-e856-4958-9fb9-3a89ffb9afaf.png)
 
 # Discover How Jang Won-young Became a Sensation in the K-pop World
 
@@ -17,11 +17,9 @@ Have you ever seen this video?
 
 <div class="image-grid-2">
 
-![045_epickor_건순.mp4_20240720_221116.268.jpg](/assets/images/posts/043/045_epickor_%EA%B1%B4%EC%88%9C.mp4_20240720_221116.268.jpg)
+![epickor_건순.mp4_20240720_221116.268.jpg](/assets/images/posts/043/045_epickor_%EA%B1%B4%EC%88%9C.mp4_20240720_221116.268.jpg)
 
-![045_epickor_건순.mp4_20240720_221120.896.jpg](/assets/images/posts/043/045_epickor_%EA%B1%B4%EC%88%9C.mp4_20240720_221120.896.jpg)
-
-</div>
+![epickor_건순.mp4_20240720_221120.896.jpg](/assets/images/posts/043/045_epickor_%EA%B1%B4%EC%88%9C.mp4_20240720_221120.896.jpg)
 
 Korean idol Jang Won-young's video became an issue by reaching `4.3 billion views` on TikTok.
 
@@ -29,37 +27,15 @@ Korean idol Jang Won-young's video became an issue by reaching `4.3 billion view
 
 ---
 
-### Editor's Pick
-
-<h3>Editor's Pick</h3>
-
-<h3>Editor's Picks for You</h3>
-
-<h3>Editor's Pick</h3>
-
-<h3>Editor's Picks for You</h3>
-
-<div class="amazon-product-card">
-  <div class="product-content">
-    <h4 class="product-title"><a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank">Korean Snack Box</a></h4>
-    <p class="product-description">Bring the taste of Korea to your home with this authentic snack collection</p>
-  </div>
-  <a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
-</div>
-
-*As an Amazon Associate, we earn from qualifying purchases.*
-
 ---
 
 The group that Jang Won-young belongs to, Ive's account, seemed to be aware of this and uploaded a new version of the video with the same song and dance, making it an issue `once again`.
 
 <div class="image-grid-2">
 
-![045_epickor_건순.mp4_20240720_221130.515.jpg](/assets/images/posts/043/045_epickor_%EA%B1%B4%EC%88%9C.mp4_20240720_221130.515.jpg)
+![epickor_건순.mp4_20240720_221130.515.jpg](/assets/images/posts/043/045_epickor_%EA%B1%B4%EC%88%9C.mp4_20240720_221130.515.jpg)
 
-![045_epickor_건순.mp4_20240720_221127.922.jpg](/assets/images/posts/043/045_epickor_%EA%B1%B4%EC%88%9C.mp4_20240720_221127.922.jpg)
-
-</div>
+![epickor_건순.mp4_20240720_221127.922.jpg](/assets/images/posts/043/045_epickor_%EA%B1%B4%EC%88%9C.mp4_20240720_221127.922.jpg)
 
 ### Early Life and Debut
 
@@ -90,22 +66,3 @@ Jang Won-young can truly be said to be a Korean born to be an idol.
 
 ---
 
-### Editor's Picks for You
-
-<div class="amazon-product-card">
-  <div class="product-content">
-    <h4 class="product-title"><a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank">Korean Snack Box</a></h4>
-    <p class="product-description">Bring the taste of Korea to your home with this authentic snack collection</p>
-  </div>
-  <a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
-</div>
-
-<div class="amazon-product-card">
-  <div class="product-content">
-    <h4 class="product-title"><a href="https://amzn.to/3MaZWi6" rel="nofollow sponsored" target="_blank">Buldak Spicy Ramen</a></h4>
-    <p class="product-description">Experience the legendary spicy Korean ramen</p>
-  </div>
-  <a href="https://amzn.to/3MaZWi6" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
-</div>
-
-*As an Amazon Associate, we earn from qualifying purchases.*

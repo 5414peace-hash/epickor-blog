@@ -7,7 +7,7 @@ date: '2026-02-03'
 tags: ['Culture', 'Food', 'Social']
 ---
 
-![104_epickor_휘수.mp4_20240906_134744.132.jpg](/assets/images/posts/072/1339caf6-85ca-4f34-a9c1-18f80339aabd.png)
+![epickor_휘수.mp4_20240906_134744.132.jpg](/assets/images/posts/072/1339caf6-85ca-4f34-a9c1-18f80339aabd.png)
 
 # Discover Korea’s Love for Extremes in Food, Spice, and Sports
 
@@ -21,35 +21,13 @@ On the other hand, they are equally passionate about cold dishes. One popular ex
 
 <div class="image-grid-2">
 
-![104_epickor_휘수.mp4_20240906_134754.450.jpg](/assets/images/posts/072/104_epickor_%ED%9C%98%EC%88%98.mp4_20240906_134754.450.jpg)
+![epickor_휘수.mp4_20240906_134754.450.jpg](/assets/images/posts/072/104_epickor_%ED%9C%98%EC%88%98.mp4_20240906_134754.450.jpg)
 
-![104_epickor_휘수.mp4_20240906_134814.570.jpg](/assets/images/posts/072/104_epickor_%ED%9C%98%EC%88%98.mp4_20240906_134814.570.jpg)
-
-</div>
+![epickor_휘수.mp4_20240906_134814.570.jpg](/assets/images/posts/072/104_epickor_%ED%9C%98%EC%88%98.mp4_20240906_134814.570.jpg)
 
 ### The Ultimate Spicy Challenge
 
 ---
-
-### Editor's Pick
-
-<h3>Editor's Pick</h3>
-
-<h3>Editor's Picks for You</h3>
-
-<h3>Editor's Pick</h3>
-
-<h3>Editor's Picks for You</h3>
-
-<div class="amazon-product-card">
-  <div class="product-content">
-    <h4 class="product-title"><a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank">Korean Snack Box</a></h4>
-    <p class="product-description">Bring the taste of Korea to your home with this authentic snack collection</p>
-  </div>
-  <a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
-</div>
-
-*As an Amazon Associate, we earn from qualifying purchases.*
 
 ---
 
@@ -61,11 +39,9 @@ Korea’s love for extremes extends beyond food into sports. `Archery`, an Olymp
 
 <div class="image-grid-2">
 
-![104_epickor_휘수.mp4_20240906_134853.602.jpg](/assets/images/posts/072/104_epickor_%ED%9C%98%EC%88%98.mp4_20240906_134853.602.jpg)
+![epickor_휘수.mp4_20240906_134853.602.jpg](/assets/images/posts/072/104_epickor_%ED%9C%98%EC%88%98.mp4_20240906_134853.602.jpg)
 
-![104_epickor_휘수.mp4_20240906_134900.050.jpg](/assets/images/posts/072/104_epickor_%ED%9C%98%EC%88%98.mp4_20240906_134900.050.jpg)
-
-</div>
+![epickor_휘수.mp4_20240906_134900.050.jpg](/assets/images/posts/072/104_epickor_%ED%9C%98%EC%88%98.mp4_20240906_134900.050.jpg)
 
 ### People Who Push Beyond Limits
 
@@ -84,22 +60,3 @@ Whether it's food, spice, or sports, Koreans take everything to the extreme. The
 
 ---
 
-### Editor's Picks for You
-
-<div class="amazon-product-card">
-  <div class="product-content">
-    <h4 class="product-title"><a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank">Korean Snack Box</a></h4>
-    <p class="product-description">Bring the taste of Korea to your home with this authentic snack collection</p>
-  </div>
-  <a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
-</div>
-
-<div class="amazon-product-card">
-  <div class="product-content">
-    <h4 class="product-title"><a href="https://amzn.to/3MaZWi6" rel="nofollow sponsored" target="_blank">Buldak Spicy Ramen</a></h4>
-    <p class="product-description">Experience the legendary spicy Korean ramen</p>
-  </div>
-  <a href="https://amzn.to/3MaZWi6" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
-</div>
-
-*As an Amazon Associate, we earn from qualifying purchases.*

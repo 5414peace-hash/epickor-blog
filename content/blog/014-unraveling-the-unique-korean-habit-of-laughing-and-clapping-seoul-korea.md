@@ -8,7 +8,7 @@ date: '2026-02-03'
 tags: ['Culture', 'Man', 'Woman']
 ---
 
-![014_epickor_휘수.mp4_20240710_110555.914.jpg](/assets/images/posts/014/70cc0930-3703-427f-8faa-a5a3ac2d8407.png)
+![epickor_휘수.mp4_20240710_110555.914.jpg](/assets/images/posts/014/70cc0930-3703-427f-8faa-a5a3ac2d8407.png)
 
 # It's a Korean DNA Thing
 
@@ -26,26 +26,6 @@ In fact, even Koreans don’t know the reason. And of course, me either. I don�
 
 ---
 
-### Editor's Pick
-
-<h3>Editor's Pick</h3>
-
-<h3>Editor's Picks for You</h3>
-
-<h3>Editor's Pick</h3>
-
-<h3>Editor's Picks for You</h3>
-
-<div class="amazon-product-card">
-  <div class="product-content">
-    <h4 class="product-title"><a href="https://amzn.to/3MaZWi6" rel="nofollow sponsored" target="_blank">Buldak Spicy Ramen</a></h4>
-    <p class="product-description">Experience the legendary spicy Korean ramen</p>
-  </div>
-  <a href="https://amzn.to/3MaZWi6" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
-</div>
-
-*As an Amazon Associate, we earn from qualifying purchases.*
-
 ---
 
 Some people say this is because Koreans tend to react sensitively to other people’s reactions. That's why applause shows "I'm well integrated into this conversation."
@@ -56,11 +36,9 @@ But actually, it's just the body reacting without thinking. Others say that you 
 
 <div class="image-grid-2">
 
-![014_epickor_휘수.mp4_20240710_110604.282.jpg](/assets/images/posts/014/c64fef49-6d7c-4545-b5de-edd9d636af0f.png)
+![epickor_휘수.mp4_20240710_110604.282.jpg](/assets/images/posts/014/c64fef49-6d7c-4545-b5de-edd9d636af0f.png)
 
-![014_epickor_휘수.mp4_20240710_110601.066.jpg](/assets/images/posts/014/fc714292-81b1-4b40-b6b0-16cac2c15b7d.png)
-
-</div>
+![epickor_휘수.mp4_20240710_110601.066.jpg](/assets/images/posts/014/fc714292-81b1-4b40-b6b0-16cac2c15b7d.png)
 
 ### Laugh Together
 
@@ -83,22 +61,3 @@ Korean culture, laughing, clapping, automatic reflex, social reactions, memory i
 
 ---
 
-### Editor's Picks for You
-
-<div class="amazon-product-card">
-  <div class="product-content">
-    <h4 class="product-title"><a href="https://amzn.to/3MaZWi6" rel="nofollow sponsored" target="_blank">Buldak Spicy Ramen</a></h4>
-    <p class="product-description">Experience the legendary spicy Korean ramen</p>
-  </div>
-  <a href="https://amzn.to/3MaZWi6" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
-</div>
-
-<div class="amazon-product-card">
-  <div class="product-content">
-    <h4 class="product-title"><a href="https://amzn.to/3Zgx6Qq" rel="nofollow sponsored" target="_blank">Hangeul Workbook</a></h4>
-    <p class="product-description">Master the Korean alphabet with this beginner-friendly guide</p>
-  </div>
-  <a href="https://amzn.to/3Zgx6Qq" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
-</div>
-
-*As an Amazon Associate, we earn from qualifying purchases.*

@@ -7,7 +7,7 @@ date: '2026-02-03'
 tags: ['Culture', 'Food', 'Travel']
 ---
 
-![092_epickor_진호.mp4_20240808_221501.217.jpg](/assets/images/posts/065/080ba621-2d5d-4a00-b55b-b65d0ed718e1.png)
+![epickor_진호.mp4_20240808_221501.217.jpg](/assets/images/posts/065/080ba621-2d5d-4a00-b55b-b65d0ed718e1.png)
 
 # Explore why pajeon and makgeolli are the ultimate comfort foods for Koreans on rainy days.
 
@@ -23,37 +23,15 @@ It's often paired with `makgeolli`, a traditional Korean rice wine that's milky 
 
 ---
 
-### Editor's Pick
-
-<h3>Editor's Pick</h3>
-
-<h3>Editor's Picks for You</h3>
-
-<h3>Editor's Pick</h3>
-
-<h3>Editor's Picks for You</h3>
-
-<div class="amazon-product-card">
-  <div class="product-content">
-    <h4 class="product-title"><a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank">Korean Snack Box</a></h4>
-    <p class="product-description">Bring the taste of Korea to your home with this authentic snack collection</p>
-  </div>
-  <a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
-</div>
-
-*As an Amazon Associate, we earn from qualifying purchases.*
-
 ---
 
 Sure, there are other rainy-day favorites like spicy ramen, kalguksu, and sujebi, but nothing beats `pajeon and makgeolli`.
 
 <div class="image-grid-2">
 
-![092_epickor_진호.mp4_20240808_221507.041.jpg](/assets/images/posts/065/092_epickor_%EC%A7%84%ED%98%B8.mp4_20240808_221507.041.jpg)
+![epickor_진호.mp4_20240808_221507.041.jpg](/assets/images/posts/065/092_epickor_%EC%A7%84%ED%98%B8.mp4_20240808_221507.041.jpg)
 
-![092_epickor_진호.mp4_20240808_221521.693.jpg](/assets/images/posts/065/092_epickor_%EC%A7%84%ED%98%B8.mp4_20240808_221521.693.jpg)
-
-</div>
+![epickor_진호.mp4_20240808_221521.693.jpg](/assets/images/posts/065/092_epickor_%EC%A7%84%ED%98%B8.mp4_20240808_221521.693.jpg)
 
 ### Unique Reasons
 
@@ -80,22 +58,3 @@ And most importantly, it's just so delicious. What do you guys like to eat when 
 
 ---
 
-### Editor's Picks for You
-
-<div class="amazon-product-card">
-  <div class="product-content">
-    <h4 class="product-title"><a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank">Korean Snack Box</a></h4>
-    <p class="product-description">Bring the taste of Korea to your home with this authentic snack collection</p>
-  </div>
-  <a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
-</div>
-
-<div class="amazon-product-card">
-  <div class="product-content">
-    <h4 class="product-title"><a href="https://amzn.to/3MaZWi6" rel="nofollow sponsored" target="_blank">Buldak Spicy Ramen</a></h4>
-    <p class="product-description">Experience the legendary spicy Korean ramen</p>
-  </div>
-  <a href="https://amzn.to/3MaZWi6" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
-</div>
-
-*As an Amazon Associate, we earn from qualifying purchases.*

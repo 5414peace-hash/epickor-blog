@@ -8,17 +8,15 @@ date: '2026-02-03'
 tags: ['Celeb', 'Man']
 ---
 
-![004_정용진_건순.mp4_20240704_180040.426.jpg](/assets/images/posts/004/99e4515a-8f18-4e2d-965c-fe239592a73c.png)
+![정용진_건순.mp4_20240704_180040.426.jpg](/assets/images/posts/004/99e4515a-8f18-4e2d-965c-fe239592a73c.png)
 
 # The Most Talked-About Figure on Korean Social Media Right Now: Yongjin Jeong
 
 <div class="image-grid-2">
 
-![004_정용진_건순.mp4_20240704_180051.872.jpg](/assets/images/posts/004/5dfa9df2-7699-4479-8811-10f8210dfd5e.png)
+![정용진_건순.mp4_20240704_180051.872.jpg](/assets/images/posts/004/5dfa9df2-7699-4479-8811-10f8210dfd5e.png)
 
-![004_정용진_건순.mp4_20240704_180059.298.jpg](/assets/images/posts/004/eef00638-949c-4476-b227-dc55602ea880.png)
-
-</div>
+![정용진_건순.mp4_20240704_180059.298.jpg](/assets/images/posts/004/eef00638-949c-4476-b227-dc55602ea880.png)
 
 ### Chaebol Heir
 
@@ -27,26 +25,6 @@ Born as the son of the youngest daughter of Samsung's founder and chairman, Lee 
 ### Chaebol Definition
 
 ---
-
-### Editor's Pick
-
-<h3>Editor's Pick</h3>
-
-<h3>Editor's Picks for You</h3>
-
-<h3>Editor's Pick</h3>
-
-<h3>Editor's Picks for You</h3>
-
-<div class="amazon-product-card">
-  <div class="product-content">
-    <h4 class="product-title"><a href="https://amzn.to/495n6oT" rel="nofollow sponsored" target="_blank">Yellow Ramen Pot</a></h4>
-    <p class="product-description">Authentic Korean ramen pot for perfect noodles</p>
-  </div>
-  <a href="https://amzn.to/495n6oT" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
-</div>
-
-*As an Amazon Associate, we earn from qualifying purchases.*
 
 ---
 
@@ -62,11 +40,9 @@ Yongjin Jeong became widely known for his ‘`myeolgong멸공`’ statement, an 
 
 <div class="image-grid-2">
 
-![004_정용진_건순.mp4_20240704_180159.281.jpg](/assets/images/posts/004/004_%EC%A0%95%EC%9A%A9%EC%A7%84_%EA%B1%B4%EC%88%9C.mp4_20240704_180159.281.jpg)
+![정용진_건순.mp4_20240704_180159.281.jpg](/assets/images/posts/004/004_%EC%A0%95%EC%9A%A9%EC%A7%84_%EA%B1%B4%EC%88%9C.mp4_20240704_180159.281.jpg)
 
-![004_정용진_건순.mp4_20240704_180155.385.jpg](/assets/images/posts/004/004_%EC%A0%95%EC%9A%A9%EC%A7%84_%EA%B1%B4%EC%88%9C.mp4_20240704_180155.385.jpg)
-
-</div>
+![정용진_건순.mp4_20240704_180155.385.jpg](/assets/images/posts/004/004_%EC%A0%95%EC%9A%A9%EC%A7%84_%EA%B1%B4%EC%88%9C.mp4_20240704_180155.385.jpg)
 
 ### Celebrity Chef
 
@@ -85,22 +61,3 @@ Keywords: Yongjin Jeong, Shinsegae Group, chaebol, South Korea, Samsung, Lee Byu
 
 ---
 
-### Editor's Picks for You
-
-<div class="amazon-product-card">
-  <div class="product-content">
-    <h4 class="product-title"><a href="https://amzn.to/495n6oT" rel="nofollow sponsored" target="_blank">Yellow Ramen Pot</a></h4>
-    <p class="product-description">Authentic Korean ramen pot for perfect noodles</p>
-  </div>
-  <a href="https://amzn.to/495n6oT" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
-</div>
-
-<div class="amazon-product-card">
-  <div class="product-content">
-    <h4 class="product-title"><a href="https://amzn.to/3MaZWi6" rel="nofollow sponsored" target="_blank">Buldak Spicy Ramen</a></h4>
-    <p class="product-description">Experience the legendary spicy Korean ramen</p>
-  </div>
-  <a href="https://amzn.to/3MaZWi6" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
-</div>
-
-*As an Amazon Associate, we earn from qualifying purchases.*

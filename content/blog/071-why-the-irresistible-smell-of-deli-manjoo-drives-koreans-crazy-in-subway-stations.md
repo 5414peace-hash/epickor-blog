@@ -8,7 +8,7 @@ date: '2026-02-03'
 tags: ['Food', 'Shopping', 'Travel']
 ---
 
-![100_eickor_진호.mp4_20240906_134657.371.jpg](/assets/images/posts/071/64a29764-bfc3-47d6-a963-4ed11f271548.png)
+![eickor_진호.mp4_20240906_134657.371.jpg](/assets/images/posts/071/64a29764-bfc3-47d6-a963-4ed11f271548.png)
 
 # What Koreans Can’t Stand at Subway Stations
 
@@ -26,37 +26,15 @@ The moment you catch a whiff, it’s as if the scent is pulling you closer.
 
 ---
 
-### Editor's Pick
-
-<h3>Editor's Pick</h3>
-
-<h3>Editor's Picks for You</h3>
-
-<h3>Editor's Pick</h3>
-
-<h3>Editor's Picks for You</h3>
-
-<div class="amazon-product-card">
-  <div class="product-content">
-    <h4 class="product-title"><a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank">Korean Snack Box</a></h4>
-    <p class="product-description">Bring the taste of Korea to your home with this authentic snack collection</p>
-  </div>
-  <a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
-</div>
-
-*As an Amazon Associate, we earn from qualifying purchases.*
-
 ---
 
 Deli Manjoo is a popular snack in Korea, easily found at highway rest stops, bustling streets, and especially at subway stations. But for some mysterious reason, when you come across them in the subway, the smell is even more irresistible, making them taste even better. Maybe it's the mix of the underground air and the comforting warmth of the pastry, or maybe it's just the magic of the moment.
 
 <div class="image-grid-2">
 
-![100_eickor_진호.mp4_20240906_134711.507.jpg](/assets/images/posts/071/100_eickor_%EC%A7%84%ED%98%B8.mp4_20240906_134711.507.jpg)
+![eickor_진호.mp4_20240906_134711.507.jpg](/assets/images/posts/071/100_eickor_%EC%A7%84%ED%98%B8.mp4_20240906_134711.507.jpg)
 
-![100_eickor_진호.mp4_20240906_134707.106.jpg](/assets/images/posts/071/100_eickor_%EC%A7%84%ED%98%B8.mp4_20240906_134707.106.jpg)
-
-</div>
+![eickor_진호.mp4_20240906_134707.106.jpg](/assets/images/posts/071/100_eickor_%EC%A7%84%ED%98%B8.mp4_20240906_134707.106.jpg)
 
 ### The Ultimate Test of Patience
 
@@ -68,11 +46,9 @@ If you've ever visited Korea, there’s a good chance you’ve spotted a Deli Ma
 
 <div class="image-grid-2">
 
-![100_eickor_진호.mp4_20240906_134734.155.jpg](/assets/images/posts/071/100_eickor_%EC%A7%84%ED%98%B8.mp4_20240906_134734.155.jpg)
+![eickor_진호.mp4_20240906_134734.155.jpg](/assets/images/posts/071/100_eickor_%EC%A7%84%ED%98%B8.mp4_20240906_134734.155.jpg)
 
-![100_eickor_진호.mp4_20240906_134736.587.jpg](/assets/images/posts/071/100_eickor_%EC%A7%84%ED%98%B8.mp4_20240906_134736.587.jpg)
-
-</div>
+![eickor_진호.mp4_20240906_134736.587.jpg](/assets/images/posts/071/100_eickor_%EC%A7%84%ED%98%B8.mp4_20240906_134736.587.jpg)
 
 ---
 
@@ -87,22 +63,3 @@ If you've ever visited Korea, there’s a good chance you’ve spotted a Deli Ma
 
 ---
 
-### Editor's Picks for You
-
-<div class="amazon-product-card">
-  <div class="product-content">
-    <h4 class="product-title"><a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank">Korean Snack Box</a></h4>
-    <p class="product-description">Bring the taste of Korea to your home with this authentic snack collection</p>
-  </div>
-  <a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
-</div>
-
-<div class="amazon-product-card">
-  <div class="product-content">
-    <h4 class="product-title"><a href="https://amzn.to/4qhhWVZ" rel="nofollow sponsored" target="_blank">Bibigo Seaweed Snack</a></h4>
-    <p class="product-description">Crispy and healthy Korean seaweed snacks</p>
-  </div>
-  <a href="https://amzn.to/4qhhWVZ" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
-</div>
-
-*As an Amazon Associate, we earn from qualifying purchases.*

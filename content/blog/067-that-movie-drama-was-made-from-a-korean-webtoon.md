@@ -7,7 +7,7 @@ date: '2026-02-03'
 tags: ['Celeb', 'Culture']
 ---
 
-![093_epickor_휘수.mp4_20240809_184510.108.jpg](/assets/images/posts/067/bfab7368-4346-469f-9c8c-1fcfeeba44eb.png)
+![epickor_휘수.mp4_20240809_184510.108.jpg](/assets/images/posts/067/bfab7368-4346-469f-9c8c-1fcfeeba44eb.png)
 
 # Discover the Global Impact of Korean Webtoons on Movies and Dramas
 
@@ -21,31 +21,11 @@ From $3.7 billion in 2021, the webtoon market is expected to skyrocket to $56.1 
 
 —these are just a few examples of movies and dramas adapted from popular Korean webtoons.
 
-![093_epickor_휘수.mp4_20240809_184534.700.jpg](/assets/images/posts/067/28e0fa47-a2d1-4193-b638-7fcb1cf5660b.png)
+![epickor_휘수.mp4_20240809_184534.700.jpg](/assets/images/posts/067/28e0fa47-a2d1-4193-b638-7fcb1cf5660b.png)
 
 ### Market Growth
 
 ---
-
-### Editor's Pick
-
-<h3>Editor's Pick</h3>
-
-<h3>Editor's Picks for You</h3>
-
-<h3>Editor's Pick</h3>
-
-<h3>Editor's Picks for You</h3>
-
-<div class="amazon-product-card">
-  <div class="product-content">
-    <h4 class="product-title"><a href="https://amzn.to/3O5pcqu" rel="nofollow sponsored" target="_blank">Yakgwa (Honey Cookie)</a></h4>
-    <p class="product-description">Traditional Korean honey cookies for a sweet treat</p>
-  </div>
-  <a href="https://amzn.to/3O5pcqu" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
-</div>
-
-*As an Amazon Associate, we earn from qualifying purchases.*
 
 ---
 
@@ -53,11 +33,9 @@ From $3.7 billion in 2021, the webtoon market is expected to skyrocket to $56.1 
 
 <div class="image-grid-2">
 
-![093_epickor_휘수.mp4_20240809_184545.845.jpg](/assets/images/posts/067/093_epickor_%ED%9C%98%EC%88%98.mp4_20240809_184545.845.jpg)
+![epickor_휘수.mp4_20240809_184545.845.jpg](/assets/images/posts/067/093_epickor_%ED%9C%98%EC%88%98.mp4_20240809_184545.845.jpg)
 
-![093_epickor_휘수.mp4_20240809_184548.869.jpg](/assets/images/posts/067/093_epickor_%ED%9C%98%EC%88%98.mp4_20240809_184548.869.jpg)
-
-</div>
+![epickor_휘수.mp4_20240809_184548.869.jpg](/assets/images/posts/067/093_epickor_%ED%9C%98%EC%88%98.mp4_20240809_184548.869.jpg)
 
 ### Unprecedented Success
 
@@ -80,22 +58,3 @@ In 2024, **Netflix** will release many movies and dramas based on Korean webtoon
 
 ---
 
-### Editor's Picks for You
-
-<div class="amazon-product-card">
-  <div class="product-content">
-    <h4 class="product-title"><a href="https://amzn.to/3O5pcqu" rel="nofollow sponsored" target="_blank">Yakgwa (Honey Cookie)</a></h4>
-    <p class="product-description">Traditional Korean honey cookies for a sweet treat</p>
-  </div>
-  <a href="https://amzn.to/3O5pcqu" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
-</div>
-
-<div class="amazon-product-card">
-  <div class="product-content">
-    <h4 class="product-title"><a href="https://amzn.to/3MaZWi6" rel="nofollow sponsored" target="_blank">Buldak Spicy Ramen</a></h4>
-    <p class="product-description">Experience the legendary spicy Korean ramen</p>
-  </div>
-  <a href="https://amzn.to/3MaZWi6" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
-</div>
-
-*As an Amazon Associate, we earn from qualifying purchases.*

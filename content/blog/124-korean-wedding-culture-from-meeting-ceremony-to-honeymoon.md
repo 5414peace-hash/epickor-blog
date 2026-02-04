@@ -30,9 +30,9 @@ The meeting ceremony is more than just an introduction—it's a way for both fam
 
 This tradition reflects the Korean belief that marriage is not just between two individuals, but between two families. The meeting helps ensure that both families are comfortable with the union and can support the couple moving forward.
 
-<image source="[https://files.manuscdn.com/user_upload_by_module/session_file/310519663329800135/TyRwtNgvDfPiWijL.jpg](https://files.manuscdn.com/user_upload_by_module/session_file/310519663329800135/TyRwtNgvDfPiWijL.jpg)">
+<image source="[https://files.manuscdn.com/user![upload_by_module/session_file/310519663329800135/TyRwtNgvDfPiWijL.jpg](https://files.manuscdn.com/user_upload_by_module/session_file/310519663329800135/TyRwtNgvDfPiWijL.jpg)">
 
-<image source="[https://files.manuscdn.com/user_upload_by_module/session_file/310519663329800135/CoIiwuoFksjUdYZC.jpg](https://files.manuscdn.com/user_upload_by_module/session_file/310519663329800135/CoIiwuoFksjUdYZC.jpg)">
+<image source="[https://files.manuscdn.com/user![upload_by_module/session_file/310519663329800135/CoIiwuoFksjUdYZC.jpg](https://files.manuscdn.com/user_upload_by_module/session_file/310519663329800135/CoIiwuoFksjUdYZC.jpg)">
 
 ---
 
@@ -57,26 +57,6 @@ However, what makes Korean weddings truly unique is what comes after the main ce
 
 ---
 
-### Editor's Pick
-
-<h3>Editor's Pick</h3>
-
-<h3>Editor's Picks for You</h3>
-
-<h3>Editor's Pick</h3>
-
-<h3>Editor's Picks for You</h3>
-
-<div class="amazon-product-card">
-  <div class="product-content">
-    <h4 class="product-title"><a href="https://amzn.to/3O5pcqu" rel="nofollow sponsored" target="_blank">Yakgwa (Honey Cookie)</a></h4>
-    <p class="product-description">Traditional Korean honey cookies for a sweet treat</p>
-  </div>
-  <a href="https://amzn.to/3O5pcqu" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
-</div>
-
-*As an Amazon Associate, we earn from qualifying purchases.*
-
 ---
 
 During the Pyebaek ceremony:
@@ -86,7 +66,7 @@ During the Pyebaek ceremony:
 3. **Receiving Blessings**: The elders offer words of wisdom, blessings, and advice for the couple's future life together.
 4. **Jujube and Chestnut Toss**: In a playful tradition, the groom's parents toss jujubes (대추, daechu) and chestnuts (밤, bam) at the bride, who tries to catch them in her skirt. The number caught is said to predict how many children the couple will have!
 
-<image source="[https://files.manuscdn.com/user_upload_by_module/session_file/310519663329800135/HMHTLkwvutnGhpdS.jpg](https://files.manuscdn.com/user_upload_by_module/session_file/310519663329800135/HMHTLkwvutnGhpdS.jpg)">
+<image source="[https://files.manuscdn.com/user![upload_by_module/session_file/310519663329800135/HMHTLkwvutnGhpdS.jpg](https://files.manuscdn.com/user_upload_by_module/session_file/310519663329800135/HMHTLkwvutnGhpdS.jpg)">
 
 ### Why Pyebaek Matters
 
@@ -116,7 +96,7 @@ You'll often see mandarin duck imagery or figurines at Korean weddings:
 
 The tradition comes from the observation that mandarin ducks stay together throughout their lives, swimming side by side and caring for each other—qualities that are highly valued in Korean marriages.
 
-<image source="[https://files.manuscdn.com/user_upload_by_module/session_file/310519663329800135/xrhzxCeIRorvMBkg.jpg](https://files.manuscdn.com/user_upload_by_module/session_file/310519663329800135/xrhzxCeIRorvMBkg.jpg)">
+<image source="[https://files.manuscdn.com/user![upload_by_module/session_file/310519663329800135/xrhzxCeIRorvMBkg.jpg](https://files.manuscdn.com/user_upload_by_module/session_file/310519663329800135/xrhzxCeIRorvMBkg.jpg)">
 
 > 🦆 **Perfect Wedding Gift**: Looking for a meaningful Korean wedding gift? This [Wooden Mandarin Duck Wedding Gift Set](https://www.amazon.com/dp/B0BXWH8KWH?tag=epickor2026-20&linkCode=ogi&th=1&psc=1) beautifully represents the Korean ideal of lifelong partnership and makes a thoughtful present for any couple.
 > 
@@ -215,22 +195,3 @@ The next time you're invited to a Korean wedding, you'll be well-prepared to app
 
 ---
 
-### Editor's Picks for You
-
-<div class="amazon-product-card">
-  <div class="product-content">
-    <h4 class="product-title"><a href="https://amzn.to/3O5pcqu" rel="nofollow sponsored" target="_blank">Yakgwa (Honey Cookie)</a></h4>
-    <p class="product-description">Traditional Korean honey cookies for a sweet treat</p>
-  </div>
-  <a href="https://amzn.to/3O5pcqu" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
-</div>
-
-<div class="amazon-product-card">
-  <div class="product-content">
-    <h4 class="product-title"><a href="https://amzn.to/3Zgx6Qq" rel="nofollow sponsored" target="_blank">Hangeul Workbook</a></h4>
-    <p class="product-description">Master the Korean alphabet with this beginner-friendly guide</p>
-  </div>
-  <a href="https://amzn.to/3Zgx6Qq" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
-</div>
-
-*As an Amazon Associate, we earn from qualifying purchases.*

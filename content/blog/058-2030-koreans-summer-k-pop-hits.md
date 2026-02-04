@@ -7,7 +7,7 @@ date: '2026-02-03'
 tags: ['Celeb', 'Culture', 'Kpop', 'Travel']
 ---
 
-![076_epickor_휘수.mp4_20240801_220930.438.jpg](/assets/images/posts/058/5657b73d-ef31-42d9-ae35-ac463b1d3ddd.png)
+![epickor_휘수.mp4_20240801_220930.438.jpg](/assets/images/posts/058/5657b73d-ef31-42d9-ae35-ac463b1d3ddd.png)
 
 # Discover the Timeless Summer K-POP Hits Koreans Love
 
@@ -20,26 +20,6 @@ Although the song is 13 years old, it is still a highly addictive song that rank
 ### SISTAR – Touch My Body
 
 ---
-
-### Editor's Pick
-
-<h3>Editor's Pick</h3>
-
-<h3>Editor's Picks for You</h3>
-
-<h3>Editor's Pick</h3>
-
-<h3>Editor's Picks for You</h3>
-
-<div class="amazon-product-card">
-  <div class="product-content">
-    <h4 class="product-title"><a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank">Korean Snack Box</a></h4>
-    <p class="product-description">Bring the taste of Korea to your home with this authentic snack collection</p>
-  </div>
-  <a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
-</div>
-
-*As an Amazon Associate, we earn from qualifying purchases.*
 
 ---
 
@@ -55,11 +35,9 @@ This summer hit from the hip-hop genre puts many Koreans in a romantic mood when
 
 <div class="image-grid-2">
 
-![076_epickor_휘수.mp4_20240801_220950.731.jpg](/assets/images/posts/058/076_epickor_%ED%9C%98%EC%88%98.mp4_20240801_220950.731.jpg)
+![epickor_휘수.mp4_20240801_220950.731.jpg](/assets/images/posts/058/076_epickor_%ED%9C%98%EC%88%98.mp4_20240801_220950.731.jpg)
 
-![076_epickor_휘수.mp4_20240801_221003.054.jpg](/assets/images/posts/058/076_epickor_%ED%9C%98%EC%88%98.mp4_20240801_221003.054.jpg)
-
-</div>
+![epickor_휘수.mp4_20240801_221003.054.jpg](/assets/images/posts/058/076_epickor_%ED%9C%98%EC%88%98.mp4_20240801_221003.054.jpg)
 
 ### Red Velvet – Red Flavor
 
@@ -80,22 +58,3 @@ This title track from their summer album is packed with summer vibes and is alwa
 
 ---
 
-### Editor's Picks for You
-
-<div class="amazon-product-card">
-  <div class="product-content">
-    <h4 class="product-title"><a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank">Korean Snack Box</a></h4>
-    <p class="product-description">Bring the taste of Korea to your home with this authentic snack collection</p>
-  </div>
-  <a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
-</div>
-
-<div class="amazon-product-card">
-  <div class="product-content">
-    <h4 class="product-title"><a href="https://amzn.to/3O5pcqu" rel="nofollow sponsored" target="_blank">Yakgwa (Honey Cookie)</a></h4>
-    <p class="product-description">Traditional Korean honey cookies for a sweet treat</p>
-  </div>
-  <a href="https://amzn.to/3O5pcqu" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
-</div>
-
-*As an Amazon Associate, we earn from qualifying purchases.*

@@ -8,7 +8,7 @@ date: '2026-02-03'
 tags: ['Culture', 'Travel']
 ---
 
-![036_EpicKor_요순.mp4_20240716_220616.440.jpg](/assets/images/posts/036/bf6b2da9-9cd5-4a9f-aa47-60e4bc505281.png)
+![EpicKor_요순.mp4_20240716_220616.440.jpg](/assets/images/posts/036/bf6b2da9-9cd5-4a9f-aa47-60e4bc505281.png)
 
 # An Umbrella on a Rainy Day
 
@@ -22,29 +22,7 @@ Koreans are surprised that foreigners often don't use umbrellas when it rains.
 
 ### Survey Results
 
-
-
 ---
-
-### Editor's Pick
-
-<h3>Editor's Pick</h3>
-
-<h3>Editor's Picks for You</h3>
-
-<h3>Editor's Pick</h3>
-
-<h3>Editor's Picks for You</h3>
-
-<div class="amazon-product-card">
-  <div class="product-content">
-    <h4 class="product-title"><a href="https://amzn.to/3Zgx6Qq" rel="nofollow sponsored" target="_blank">Hangeul Workbook</a></h4>
-    <p class="product-description">Master the Korean alphabet with this beginner-friendly guide</p>
-  </div>
-  <a href="https://amzn.to/3Zgx6Qq" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
-</div>
-
-*As an Amazon Associate, we earn from qualifying purchases.*
 
 ---
 
@@ -56,11 +34,9 @@ However, in fact, it seems that this difference appears due to the characteristi
 
 <div class="image-grid-2">
 
-![036_EpicKor_요순.mp4_20240716_220700.153.jpg](/assets/images/posts/036/036_EpicKor_%EC%9A%94%EC%88%9C.mp4_20240716_220700.153.jpg)
+![EpicKor_요순.mp4_20240716_220700.153.jpg](/assets/images/posts/036/036_EpicKor_%EC%9A%94%EC%88%9C.mp4_20240716_220700.153.jpg)
 
-![036_EpicKor_요순.mp4_20240716_220653.869.jpg](/assets/images/posts/036/036_EpicKor_%EC%9A%94%EC%88%9C.mp4_20240716_220653.869.jpg)
-
-</div>
+![EpicKor_요순.mp4_20240716_220653.869.jpg](/assets/images/posts/036/036_EpicKor_%EC%9A%94%EC%88%9C.mp4_20240716_220653.869.jpg)
 
 ### Other Countries
 
@@ -87,25 +63,5 @@ If it's going to rain, do you always take an `umbrella`?
 
 [https://youtube.com/shorts/gQKjuGRv3PE?si=IxqmUONeQ8oVjh-Z](https://youtube.com/shorts/gQKjuGRv3PE?si=IxqmUONeQ8oVjh-Z)
 
-
 ---
 
-### Editor's Picks for You
-
-<div class="amazon-product-card">
-  <div class="product-content">
-    <h4 class="product-title"><a href="https://amzn.to/3Zgx6Qq" rel="nofollow sponsored" target="_blank">Hangeul Workbook</a></h4>
-    <p class="product-description">Master the Korean alphabet with this beginner-friendly guide</p>
-  </div>
-  <a href="https://amzn.to/3Zgx6Qq" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
-</div>
-
-<div class="amazon-product-card">
-  <div class="product-content">
-    <h4 class="product-title"><a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank">Korean Snack Box</a></h4>
-    <p class="product-description">Bring the taste of Korea to your home with this authentic snack collection</p>
-  </div>
-  <a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
-</div>
-
-*As an Amazon Associate, we earn from qualifying purchases.*

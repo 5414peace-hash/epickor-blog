@@ -32,29 +32,7 @@ Korea’s subway system is one of the best in the world. Imagine riding a train 
 ### The “Culture of Trust”
 What truly sets Korea apart, though, is its profound "culture of trust." Outside convenience stores, you might see stacks of products sitting unattended, yet no one takes anything that doesn’t belong to them. On public transportation, people regularly give up their seats to the elderly. Strangers will even stop to help others carry heavy bags. This unique social fabric is woven with mutual respect, integrity, and an unwavering sense of community.
 
-
-
 ---
-
-### Editor's Pick
-
-<h3>Editor's Pick</h3>
-
-<h3>Editor's Picks for You</h3>
-
-<h3>Editor's Pick</h3>
-
-<h3>Editor's Picks for You</h3>
-
-<div class="amazon-product-card">
-  <div class="product-content">
-    <h4 class="product-title"><a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank">Korean Snack Box</a></h4>
-    <p class="product-description">Bring the taste of Korea to your home with this authentic snack collection</p>
-  </div>
-  <a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
-</div>
-
-*As an Amazon Associate, we earn from qualifying purchases.*
 
 ---
 
@@ -85,25 +63,5 @@ From cancelable elevator buttons to heated subway seats, Korea offers convenienc
 <unknown url="{{https://www.notion.so/17b73cc3045480fcabcfc2c0026f937d#17b73cc3045480efac1cf47382b52e74}}" alt="bookmark"/>
 </content>
 
-
 ---
 
-### Editor's Picks for You
-
-<div class="amazon-product-card">
-  <div class="product-content">
-    <h4 class="product-title"><a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank">Korean Snack Box</a></h4>
-    <p class="product-description">Bring the taste of Korea to your home with this authentic snack collection</p>
-  </div>
-  <a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
-</div>
-
-<div class="amazon-product-card">
-  <div class="product-content">
-    <h4 class="product-title"><a href="https://amzn.to/4qhhWVZ" rel="nofollow sponsored" target="_blank">Bibigo Seaweed Snack</a></h4>
-    <p class="product-description">Crispy and healthy Korean seaweed snacks</p>
-  </div>
-  <a href="https://amzn.to/4qhhWVZ" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
-</div>
-
-*As an Amazon Associate, we earn from qualifying purchases.*

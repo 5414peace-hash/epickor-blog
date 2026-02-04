@@ -7,7 +7,7 @@ date: '2026-02-03'
 tags: ['Culture', 'Social']
 ---
 
-![109_EpicKor_요순.mp4_20250109_215106.877.jpg](/assets/images/posts/082/af24b8c3-5c79-4465-9da3-2065385ad011.png)
+![EpicKor_요순.mp4_20250109_215106.877.jpg](/assets/images/posts/082/af24b8c3-5c79-4465-9da3-2065385ad011.png)
 
 # Discover the Legacy and Excellence of Korea's Prestigious SKY Universities
 
@@ -19,11 +19,9 @@ Established in 1946, Seoul National University (SNU) stands as South Korea's fir
 
 <div class="image-grid-2">
 
-![109_EpicKor_요순.mp4_20250109_215120.233.jpg](/assets/images/posts/082/109_EpicKor_%EC%9A%94%EC%88%9C.mp4_20250109_215120.233.jpg)
+![EpicKor_요순.mp4_20250109_215120.233.jpg](/assets/images/posts/082/109_EpicKor_%EC%9A%94%EC%88%9C.mp4_20250109_215120.233.jpg)
 
-![109_EpicKor_요순.mp4_20250109_215126.866.jpg](/assets/images/posts/082/109_EpicKor_%EC%9A%94%EC%88%9C.mp4_20250109_215126.866.jpg)
-
-</div>
+![EpicKor_요순.mp4_20250109_215126.866.jpg](/assets/images/posts/082/109_EpicKor_%EC%9A%94%EC%88%9C.mp4_20250109_215126.866.jpg)
 
 **Academic Excellence**
 
@@ -43,26 +41,6 @@ The Gwanak campus, nestled at the foot of the Gwanak Mountains, provides a pictu
 
 ---
 
-### Editor's Pick
-
-<h3>Editor's Pick</h3>
-
-<h3>Editor's Picks for You</h3>
-
-<h3>Editor's Pick</h3>
-
-<h3>Editor's Picks for You</h3>
-
-<div class="amazon-product-card">
-  <div class="product-content">
-    <h4 class="product-title"><a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank">Korean Snack Box</a></h4>
-    <p class="product-description">Bring the taste of Korea to your home with this authentic snack collection</p>
-  </div>
-  <a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
-</div>
-
-*As an Amazon Associate, we earn from qualifying purchases.*
-
 ---
 
 **Founding and History**
@@ -71,11 +49,9 @@ Founded in 1905 as Bosung College, Korea University (KU) has evolved into a lead
 
 <div class="image-grid-2">
 
-![109_EpicKor_요순.mp4_20250109_215131.512.jpg](/assets/images/posts/082/109_EpicKor_%EC%9A%94%EC%88%9C.mp4_20250109_215131.512.jpg)
+![EpicKor_요순.mp4_20250109_215131.512.jpg](/assets/images/posts/082/109_EpicKor_%EC%9A%94%EC%88%9C.mp4_20250109_215131.512.jpg)
 
-![109_EpicKor_요순.mp4_20250109_215140.329.jpg](/assets/images/posts/082/109_EpicKor_%EC%9A%94%EC%88%9C.mp4_20250109_215140.329.jpg)
-
-</div>
+![EpicKor_요순.mp4_20250109_215140.329.jpg](/assets/images/posts/082/109_EpicKor_%EC%9A%94%EC%88%9C.mp4_20250109_215140.329.jpg)
 
 **Academic Excellence**
 
@@ -103,11 +79,9 @@ Yonsei is renowned for its medical school and international programs, fostering 
 
 <div class="image-grid-2">
 
-![109_EpicKor_요순.mp4_20250109_215149.774.jpg](/assets/images/posts/082/109_EpicKor_%EC%9A%94%EC%88%9C.mp4_20250109_215149.774.jpg)
+![EpicKor_요순.mp4_20250109_215149.774.jpg](/assets/images/posts/082/109_EpicKor_%EC%9A%94%EC%88%9C.mp4_20250109_215149.774.jpg)
 
-![109_EpicKor_요순.mp4_20250109_215202.715.jpg](/assets/images/posts/082/109_EpicKor_%EC%9A%94%EC%88%9C.mp4_20250109_215202.715.jpg)
-
-</div>
+![EpicKor_요순.mp4_20250109_215202.715.jpg](/assets/images/posts/082/109_EpicKor_%EC%9A%94%EC%88%9C.mp4_20250109_215202.715.jpg)
 
 **Notable Alumni**
 
@@ -131,11 +105,9 @@ While the 'SKY' universities hold significant prestige, South Korea is home to o
 
 <div class="image-grid-2">
 
-![109_EpicKor_요순.mp4_20250109_215117.412.jpg](/assets/images/posts/082/109_EpicKor_%EC%9A%94%EC%88%9C.mp4_20250109_215117.412.jpg)
+![EpicKor_요순.mp4_20250109_215117.412.jpg](/assets/images/posts/082/109_EpicKor_%EC%9A%94%EC%88%9C.mp4_20250109_215117.412.jpg)
 
-![109_EpicKor_요순.mp4_20250109_215220.541.jpg](/assets/images/posts/082/109_EpicKor_%EC%9A%94%EC%88%9C.mp4_20250109_215220.541.jpg)
-
-</div>
+![EpicKor_요순.mp4_20250109_215220.541.jpg](/assets/images/posts/082/109_EpicKor_%EC%9A%94%EC%88%9C.mp4_20250109_215220.541.jpg)
 
 ---
 
@@ -150,22 +122,3 @@ While the 'SKY' universities hold significant prestige, South Korea is home to o
 
 ---
 
-### Editor's Picks for You
-
-<div class="amazon-product-card">
-  <div class="product-content">
-    <h4 class="product-title"><a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank">Korean Snack Box</a></h4>
-    <p class="product-description">Bring the taste of Korea to your home with this authentic snack collection</p>
-  </div>
-  <a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
-</div>
-
-<div class="amazon-product-card">
-  <div class="product-content">
-    <h4 class="product-title"><a href="https://amzn.to/4qhhWVZ" rel="nofollow sponsored" target="_blank">Bibigo Seaweed Snack</a></h4>
-    <p class="product-description">Crispy and healthy Korean seaweed snacks</p>
-  </div>
-  <a href="https://amzn.to/4qhhWVZ" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
-</div>
-
-*As an Amazon Associate, we earn from qualifying purchases.*

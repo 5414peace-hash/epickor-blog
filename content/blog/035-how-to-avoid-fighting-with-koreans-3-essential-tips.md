@@ -7,7 +7,7 @@ date: '2026-02-03'
 tags: ['Culture', 'Man', 'Travel']
 ---
 
-![035_epickor_휘수.mp4_20240716_220455.664.jpg](/assets/images/posts/035/33843114-c60b-45e6-94ce-783d02559b44.png)
+![epickor_휘수.mp4_20240716_220455.664.jpg](/assets/images/posts/035/33843114-c60b-45e6-94ce-783d02559b44.png)
 
 # Mastering Korean Etiquette
 
@@ -23,26 +23,6 @@ Unlike the streets of Southeast Asia, in Korea, `honking` is generally avoided w
 
 ---
 
-### Editor's Pick
-
-<h3>Editor's Pick</h3>
-
-<h3>Editor's Picks for You</h3>
-
-<h3>Editor's Pick</h3>
-
-<h3>Editor's Picks for You</h3>
-
-<div class="amazon-product-card">
-  <div class="product-content">
-    <h4 class="product-title"><a href="https://amzn.to/4twhKFk" rel="nofollow sponsored" target="_blank">Round Lab Dokdo Toner</a></h4>
-    <p class="product-description">Hydrating K-beauty toner for radiant skin</p>
-  </div>
-  <a href="https://amzn.to/4twhKFk" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
-</div>
-
-*As an Amazon Associate, we earn from qualifying purchases.*
-
 ---
 
 **Second, mom jokes should only be made between siblings.**
@@ -57,11 +37,9 @@ But, the `exception` is if a fight has already occurred. There are so many diffe
 
 <div class="image-grid-2">
 
-![035_epickor_휘수.mp4_20240716_220559.740.jpg](/assets/images/posts/035/035_epickor_%ED%9C%98%EC%88%98.mp4_20240716_220559.740.jpg)
+![epickor_휘수.mp4_20240716_220559.740.jpg](/assets/images/posts/035/035_epickor_%ED%9C%98%EC%88%98.mp4_20240716_220559.740.jpg)
 
-![035_epickor_휘수.mp4_20240716_220554.209.jpg](/assets/images/posts/035/035_epickor_%ED%9C%98%EC%88%98.mp4_20240716_220554.209.jpg)
-
-</div>
+![epickor_휘수.mp4_20240716_220554.209.jpg](/assets/images/posts/035/035_epickor_%ED%9C%98%EC%88%98.mp4_20240716_220554.209.jpg)
 
 ### Dokdo Issue
 
@@ -90,22 +68,3 @@ By following these three guidelines, you can avoid fights with Koreans.
 
 ---
 
-### Editor's Picks for You
-
-<div class="amazon-product-card">
-  <div class="product-content">
-    <h4 class="product-title"><a href="https://amzn.to/4twhKFk" rel="nofollow sponsored" target="_blank">Round Lab Dokdo Toner</a></h4>
-    <p class="product-description">Hydrating K-beauty toner for radiant skin</p>
-  </div>
-  <a href="https://amzn.to/4twhKFk" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
-</div>
-
-<div class="amazon-product-card">
-  <div class="product-content">
-    <h4 class="product-title"><a href="https://amzn.to/3Zgx6Qq" rel="nofollow sponsored" target="_blank">Hangeul Workbook</a></h4>
-    <p class="product-description">Master the Korean alphabet with this beginner-friendly guide</p>
-  </div>
-  <a href="https://amzn.to/3Zgx6Qq" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
-</div>
-
-*As an Amazon Associate, we earn from qualifying purchases.*

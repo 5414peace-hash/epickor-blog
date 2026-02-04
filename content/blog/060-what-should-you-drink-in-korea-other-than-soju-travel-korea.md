@@ -7,7 +7,7 @@ date: '2026-02-03'
 tags: ['Culture', 'Food', 'Shopping', 'Travel']
 ---
 
-![081_epickor_진호.mp4_20240802_223357.696.jpg](/assets/images/posts/060/ecf8dfd7-dd2e-47f7-839c-69016976ceec.png)
+![epickor_진호.mp4_20240802_223357.696.jpg](/assets/images/posts/060/ecf8dfd7-dd2e-47f7-839c-69016976ceec.png)
 
 # Discover Korea's Diverse Beverage Culture Beyond Soju
 
@@ -29,35 +29,13 @@ But… Somaek is delicious.
 
 <div class="image-grid-2">
 
-![081_epickor_진호.mp4_20240802_223412.682.jpg](/assets/images/posts/060/081_epickor_%EC%A7%84%ED%98%B8.mp4_20240802_223412.682.jpg)
+![epickor_진호.mp4_20240802_223412.682.jpg](/assets/images/posts/060/081_epickor_%EC%A7%84%ED%98%B8.mp4_20240802_223412.682.jpg)
 
-![081_epickor_진호.mp4_20240802_223437.725.jpg](/assets/images/posts/060/081_epickor_%EC%A7%84%ED%98%B8.mp4_20240802_223437.725.jpg)
-
-</div>
+![epickor_진호.mp4_20240802_223437.725.jpg](/assets/images/posts/060/081_epickor_%EC%A7%84%ED%98%B8.mp4_20240802_223437.725.jpg)
 
 ### Somaek
 
 ---
-
-### Editor's Pick
-
-<h3>Editor's Pick</h3>
-
-<h3>Editor's Picks for You</h3>
-
-<h3>Editor's Pick</h3>
-
-<h3>Editor's Picks for You</h3>
-
-<div class="amazon-product-card">
-  <div class="product-content">
-    <h4 class="product-title"><a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank">Korean Snack Box</a></h4>
-    <p class="product-description">Bring the taste of Korea to your home with this authentic snack collection</p>
-  </div>
-  <a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
-</div>
-
-*As an Amazon Associate, we earn from qualifying purchases.*
 
 ---
 
@@ -71,11 +49,9 @@ A YouTuber who is crazy about somaek also makes an appearance. Now, shall we dri
 
 <div class="image-grid-2">
 
-![081_epickor_진호.mp4_20240802_223448.743.jpg](/assets/images/posts/060/081_epickor_%EC%A7%84%ED%98%B8.mp4_20240802_223448.743.jpg)
+![epickor_진호.mp4_20240802_223448.743.jpg](/assets/images/posts/060/081_epickor_%EC%A7%84%ED%98%B8.mp4_20240802_223448.743.jpg)
 
-![081_epickor_진호.mp4_20240802_223506.790.jpg](/assets/images/posts/060/081_epickor_%EC%A7%84%ED%98%B8.mp4_20240802_223506.790.jpg)
-
-</div>
+![epickor_진호.mp4_20240802_223506.790.jpg](/assets/images/posts/060/081_epickor_%EC%A7%84%ED%98%B8.mp4_20240802_223506.790.jpg)
 
 ---
 
@@ -90,22 +66,3 @@ A YouTuber who is crazy about somaek also makes an appearance. Now, shall we dri
 
 ---
 
-### Editor's Picks for You
-
-<div class="amazon-product-card">
-  <div class="product-content">
-    <h4 class="product-title"><a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank">Korean Snack Box</a></h4>
-    <p class="product-description">Bring the taste of Korea to your home with this authentic snack collection</p>
-  </div>
-  <a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
-</div>
-
-<div class="amazon-product-card">
-  <div class="product-content">
-    <h4 class="product-title"><a href="https://amzn.to/3MaZWi6" rel="nofollow sponsored" target="_blank">Buldak Spicy Ramen</a></h4>
-    <p class="product-description">Experience the legendary spicy Korean ramen</p>
-  </div>
-  <a href="https://amzn.to/3MaZWi6" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
-</div>
-
-*As an Amazon Associate, we earn from qualifying purchases.*

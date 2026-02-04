@@ -8,7 +8,7 @@ date: '2026-02-03'
 tags: ['Culture', 'Travel']
 ---
 
-![087_epickor_휘수.mp4_20240807_143408.091.jpg](/assets/images/posts/063/af4b8805-d6ac-4c9b-bb6d-f6bf3d5631c6.png)
+![epickor_휘수.mp4_20240807_143408.091.jpg](/assets/images/posts/063/af4b8805-d6ac-4c9b-bb6d-f6bf3d5631c6.png)
 
 # Explore Seoul’s Hiking Spots
 
@@ -26,26 +26,6 @@ Inwang Mountain is located in the heart of Seoul and is famous for its short and
 
 ---
 
-### Editor's Pick
-
-<h3>Editor's Pick</h3>
-
-<h3>Editor's Picks for You</h3>
-
-<h3>Editor's Pick</h3>
-
-<h3>Editor's Picks for You</h3>
-
-<div class="amazon-product-card">
-  <div class="product-content">
-    <h4 class="product-title"><a href="https://amzn.to/495n6oT" rel="nofollow sponsored" target="_blank">Yellow Ramen Pot</a></h4>
-    <p class="product-description">Authentic Korean ramen pot for perfect noodles</p>
-  </div>
-  <a href="https://amzn.to/495n6oT" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
-</div>
-
-*As an Amazon Associate, we earn from qualifying purchases.*
-
 ---
 
 **Difficulty**: Easy to Intermediate
@@ -56,11 +36,9 @@ Acha and Yongma mountains are located in the eastern part of Seoul. There's a we
 
 <div class="image-grid-2">
 
-![087_epickor_휘수.mp4_20240807_143414.978.jpg](/assets/images/posts/063/087_epickor_%ED%9C%98%EC%88%98.mp4_20240807_143414.978.jpg)
+![epickor_휘수.mp4_20240807_143414.978.jpg](/assets/images/posts/063/087_epickor_%ED%9C%98%EC%88%98.mp4_20240807_143414.978.jpg)
 
-![087_epickor_휘수.mp4_20240807_143433.796.jpg](/assets/images/posts/063/087_epickor_%ED%9C%98%EC%88%98.mp4_20240807_143433.796.jpg)
-
-</div>
+![epickor_휘수.mp4_20240807_143433.796.jpg](/assets/images/posts/063/087_epickor_%ED%9C%98%EC%88%98.mp4_20240807_143433.796.jpg)
 
 ### Cheonggye Mountain
 
@@ -80,11 +58,9 @@ Gwanak Mountain, near Seoul National University Station on Line 2, is located in
 
 <div class="image-grid-2">
 
-![087_epickor_휘수.mp4_20240807_143454.156.jpg](/assets/images/posts/063/087_epickor_%ED%9C%98%EC%88%98.mp4_20240807_143454.156.jpg)
+![epickor_휘수.mp4_20240807_143454.156.jpg](/assets/images/posts/063/087_epickor_%ED%9C%98%EC%88%98.mp4_20240807_143454.156.jpg)
 
-![087_epickor_휘수.mp4_20240807_143503.924.jpg](/assets/images/posts/063/087_epickor_%ED%9C%98%EC%88%98.mp4_20240807_143503.924.jpg)
-
-</div>
+![epickor_휘수.mp4_20240807_143503.924.jpg](/assets/images/posts/063/087_epickor_%ED%9C%98%EC%88%98.mp4_20240807_143503.924.jpg)
 
 ---
 
@@ -99,22 +75,3 @@ Gwanak Mountain, near Seoul National University Station on Line 2, is located in
 
 ---
 
-### Editor's Picks for You
-
-<div class="amazon-product-card">
-  <div class="product-content">
-    <h4 class="product-title"><a href="https://amzn.to/495n6oT" rel="nofollow sponsored" target="_blank">Yellow Ramen Pot</a></h4>
-    <p class="product-description">Authentic Korean ramen pot for perfect noodles</p>
-  </div>
-  <a href="https://amzn.to/495n6oT" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
-</div>
-
-<div class="amazon-product-card">
-  <div class="product-content">
-    <h4 class="product-title"><a href="https://amzn.to/3MaZWi6" rel="nofollow sponsored" target="_blank">Buldak Spicy Ramen</a></h4>
-    <p class="product-description">Experience the legendary spicy Korean ramen</p>
-  </div>
-  <a href="https://amzn.to/3MaZWi6" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
-</div>
-
-*As an Amazon Associate, we earn from qualifying purchases.*

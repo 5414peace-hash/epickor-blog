@@ -7,7 +7,7 @@ date: '2026-02-03'
 tags: ['Celeb', 'Culture', 'Travel', 'Woman']
 ---
 
-![023_epickor_휘수_.mp4_20240712_222216.118.jpg](/assets/images/posts/023/db665fc9-1d2c-4edb-9304-16385135a468.png)
+![epickor_휘수_.mp4_20240712_222216.118.jpg](/assets/images/posts/023/db665fc9-1d2c-4edb-9304-16385135a468.png)
 
 # Plastic Surgery Paradise?
 
@@ -23,11 +23,9 @@ The remaining one is also a dental clinic.
 
 <div class="image-grid-2">
 
-![023_epickor_휘수_.mp4_20240712_222232.922.jpg](/assets/images/posts/023/023_epickor_%ED%9C%98%EC%88%98_.mp4_20240712_222232.922.jpg)
+![epickor_휘수_.mp4_20240712_222232.922.jpg](/assets/images/posts/023/023_epickor_%ED%9C%98%EC%88%98_.mp4_20240712_222232.922.jpg)
 
-![023_epickor_휘수_.mp4_20240712_222223.999.jpg](/assets/images/posts/023/023_epickor_%ED%9C%98%EC%88%98_.mp4_20240712_222223.999.jpg)
-
-</div>
+![epickor_휘수_.mp4_20240712_222223.999.jpg](/assets/images/posts/023/023_epickor_%ED%9C%98%EC%88%98_.mp4_20240712_222223.999.jpg)
 
 ### Gangnam's Medical Center
 
@@ -39,35 +37,13 @@ There are `1,106 plastic surgery clinics` in Korea, more than half of which are 
 
 <div class="image-grid-2">
 
-![023_epickor_휘수_.mp4_20240712_222249.303.jpg](/assets/images/posts/023/023_epickor_%ED%9C%98%EC%88%98_.mp4_20240712_222249.303.jpg)
+![epickor_휘수_.mp4_20240712_222249.303.jpg](/assets/images/posts/023/023_epickor_%ED%9C%98%EC%88%98_.mp4_20240712_222249.303.jpg)
 
-![023_epickor_휘수_.mp4_20240712_222241.316.jpg](/assets/images/posts/023/023_epickor_%ED%9C%98%EC%88%98_.mp4_20240712_222241.316.jpg)
-
-</div>
+![epickor_휘수_.mp4_20240712_222241.316.jpg](/assets/images/posts/023/023_epickor_%ED%9C%98%EC%88%98_.mp4_20240712_222241.316.jpg)
 
 ### Plastic Surgery Paradise
 
 ---
-
-### Editor's Pick
-
-<h3>Editor's Pick</h3>
-
-<h3>Editor's Picks for You</h3>
-
-<h3>Editor's Pick</h3>
-
-<h3>Editor's Picks for You</h3>
-
-<div class="amazon-product-card">
-  <div class="product-content">
-    <h4 class="product-title"><a href="https://amzn.to/4twhKFk" rel="nofollow sponsored" target="_blank">Round Lab Dokdo Toner</a></h4>
-    <p class="product-description">Hydrating K-beauty toner for radiant skin</p>
-  </div>
-  <a href="https://amzn.to/4twhKFk" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
-</div>
-
-*As an Amazon Associate, we earn from qualifying purchases.*
 
 ---
 
@@ -94,22 +70,3 @@ Then come to Sinsa Station. And subscribe to epickor snippets.
 
 ---
 
-### Editor's Picks for You
-
-<div class="amazon-product-card">
-  <div class="product-content">
-    <h4 class="product-title"><a href="https://amzn.to/4twhKFk" rel="nofollow sponsored" target="_blank">Round Lab Dokdo Toner</a></h4>
-    <p class="product-description">Hydrating K-beauty toner for radiant skin</p>
-  </div>
-  <a href="https://amzn.to/4twhKFk" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
-</div>
-
-<div class="amazon-product-card">
-  <div class="product-content">
-    <h4 class="product-title"><a href="https://amzn.to/3M4Q09W" rel="nofollow sponsored" target="_blank">Round Lab Dokdo Cleanser</a></h4>
-    <p class="product-description">Gentle K-beauty cleanser for daily skincare</p>
-  </div>
-  <a href="https://amzn.to/3M4Q09W" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
-</div>
-
-*As an Amazon Associate, we earn from qualifying purchases.*

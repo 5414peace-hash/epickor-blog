@@ -26,29 +26,7 @@ Prefer ice skating over skiing? The **Seoul Plaza Ice Rink** is the ultimate win
 It’s a perfect spot for couples on a romantic date or for families and friends seeking fun-filled winter vibes. With the festive holiday décor in full swing, you’ll feel like you’re skating straight into a winter fairytale.
 *(Visuals: Couples skating hand-in-hand under sparkling lights, families enjoying laughs on the ice, and cozy stalls offering warm snacks like hot chocolate)*
 
-
-
 ---
-
-### Editor's Pick
-
-<h3>Editor's Pick</h3>
-
-<h3>Editor's Picks for You</h3>
-
-<h3>Editor's Pick</h3>
-
-<h3>Editor's Picks for You</h3>
-
-<div class="amazon-product-card">
-  <div class="product-content">
-    <h4 class="product-title"><a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank">Korean Snack Box</a></h4>
-    <p class="product-description">Bring the taste of Korea to your home with this authentic snack collection</p>
-  </div>
-  <a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
-</div>
-
-*As an Amazon Associate, we earn from qualifying purchases.*
 
 ---
 
@@ -96,25 +74,5 @@ This winter, let Korea’s snowy peaks, icy rinks, and magical destinations take
 <unknown url="{{https://www.notion.so/18273cc30454808e9c6bc082d6cdd68c#18273cc30454802e9e5ddf399e2bce1f}}" alt="bookmark"/>
 </content>
 
-
 ---
 
-### Editor's Picks for You
-
-<div class="amazon-product-card">
-  <div class="product-content">
-    <h4 class="product-title"><a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank">Korean Snack Box</a></h4>
-    <p class="product-description">Bring the taste of Korea to your home with this authentic snack collection</p>
-  </div>
-  <a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
-</div>
-
-<div class="amazon-product-card">
-  <div class="product-content">
-    <h4 class="product-title"><a href="https://amzn.to/4qhhWVZ" rel="nofollow sponsored" target="_blank">Bibigo Seaweed Snack</a></h4>
-    <p class="product-description">Crispy and healthy Korean seaweed snacks</p>
-  </div>
-  <a href="https://amzn.to/4qhhWVZ" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
-</div>
-
-*As an Amazon Associate, we earn from qualifying purchases.*

@@ -7,7 +7,7 @@ date: '2026-02-03'
 tags: ['Celeb', 'Culture']
 ---
 
-![099_eickor_진호_bgm제거.mp4_20240827_102445.963.jpg](/assets/images/posts/070/e1cccaf2-ffd4-4e4a-8fc7-5d9a2eaedd51.png)
+![eickor_진호_bgm제거.mp4_20240827_102445.963.jpg](/assets/images/posts/070/e1cccaf2-ffd4-4e4a-8fc7-5d9a2eaedd51.png)
 
 # Discover the Best Korean Dramas on Netflix: From Fantasy to Romance
 
@@ -23,35 +23,13 @@ The acting by the leads, `Kim Go-eun` and `Gong Yoo`, is fantastic, and the supp
 
 <div class="image-grid-2">
 
-![099_eickor_진호_bgm제거.mp4_20240827_102456.770.jpg](/assets/images/posts/070/099_eickor_%EC%A7%84%ED%98%B8_bgm%EC%A0%9C%EA%B1%B0.mp4_20240827_102456.770.jpg)
+![eickor_진호_bgm제거.mp4_20240827_102456.770.jpg](/assets/images/posts/070/099_eickor_%EC%A7%84%ED%98%B8_bgm%EC%A0%9C%EA%B1%B0.mp4_20240827_102456.770.jpg)
 
-![099_eickor_진호_bgm제거.mp4_20240827_102509.066.jpg](/assets/images/posts/070/099_eickor_%EC%A7%84%ED%98%B8_bgm%EC%A0%9C%EA%B1%B0.mp4_20240827_102509.066.jpg)
-
-</div>
+![eickor_진호_bgm제거.mp4_20240827_102509.066.jpg](/assets/images/posts/070/099_eickor_%EC%A7%84%ED%98%B8_bgm%EC%A0%9C%EA%B1%B0.mp4_20240827_102509.066.jpg)
 
 ### Reply Series
 
 ---
-
-### Editor's Pick
-
-<h3>Editor's Pick</h3>
-
-<h3>Editor's Picks for You</h3>
-
-<h3>Editor's Pick</h3>
-
-<h3>Editor's Picks for You</h3>
-
-<div class="amazon-product-card">
-  <div class="product-content">
-    <h4 class="product-title"><a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank">Korean Snack Box</a></h4>
-    <p class="product-description">Bring the taste of Korea to your home with this authentic snack collection</p>
-  </div>
-  <a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
-</div>
-
-*As an Amazon Associate, we earn from qualifying purchases.*
 
 ---
 
@@ -61,11 +39,9 @@ It’s full of relatable, charming characters and heartwarming stories about rel
 
 <div class="image-grid-2">
 
-![099_eickor_진호_bgm제거.mp4_20240827_102519.306.jpg](/assets/images/posts/070/099_eickor_%EC%A7%84%ED%98%B8_bgm%EC%A0%9C%EA%B1%B0.mp4_20240827_102519.306.jpg)
+![eickor_진호_bgm제거.mp4_20240827_102519.306.jpg](/assets/images/posts/070/099_eickor_%EC%A7%84%ED%98%B8_bgm%EC%A0%9C%EA%B1%B0.mp4_20240827_102519.306.jpg)
 
-![099_eickor_진호_bgm제거.mp4_20240827_102521.307.jpg](/assets/images/posts/070/099_eickor_%EC%A7%84%ED%98%B8_bgm%EC%A0%9C%EA%B1%B0.mp4_20240827_102521.307.jpg)
-
-</div>
+![eickor_진호_bgm제거.mp4_20240827_102521.307.jpg](/assets/images/posts/070/099_eickor_%EC%A7%84%ED%98%B8_bgm%EC%A0%9C%EA%B1%B0.mp4_20240827_102521.307.jpg)
 
 ### Kingdom
 
@@ -77,11 +53,9 @@ If you love horror or zombie shows, **Kingdom** is a must-watch. Set in the Jose
 
 <div class="image-grid-2">
 
-![099_eickor_진호_bgm제거.mp4_20240827_102529.813.jpg](/assets/images/posts/070/099_eickor_%EC%A7%84%ED%98%B8_bgm%EC%A0%9C%EA%B1%B0.mp4_20240827_102529.813.jpg)
+![eickor_진호_bgm제거.mp4_20240827_102529.813.jpg](/assets/images/posts/070/099_eickor_%EC%A7%84%ED%98%B8_bgm%EC%A0%9C%EA%B1%B0.mp4_20240827_102529.813.jpg)
 
-![099_eickor_진호_bgm제거.mp4_20240827_102533.882.jpg](/assets/images/posts/070/099_eickor_%EC%A7%84%ED%98%B8_bgm%EC%A0%9C%EA%B1%B0.mp4_20240827_102533.882.jpg)
-
-</div>
+![eickor_진호_bgm제거.mp4_20240827_102533.882.jpg](/assets/images/posts/070/099_eickor_%EC%A7%84%ED%98%B8_bgm%EC%A0%9C%EA%B1%B0.mp4_20240827_102533.882.jpg)
 
 ---
 
@@ -105,22 +79,3 @@ If you love horror or zombie shows, **Kingdom** is a must-watch. Set in the Jose
 
 ---
 
-### Editor's Picks for You
-
-<div class="amazon-product-card">
-  <div class="product-content">
-    <h4 class="product-title"><a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank">Korean Snack Box</a></h4>
-    <p class="product-description">Bring the taste of Korea to your home with this authentic snack collection</p>
-  </div>
-  <a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
-</div>
-
-<div class="amazon-product-card">
-  <div class="product-content">
-    <h4 class="product-title"><a href="https://amzn.to/4qhhWVZ" rel="nofollow sponsored" target="_blank">Bibigo Seaweed Snack</a></h4>
-    <p class="product-description">Crispy and healthy Korean seaweed snacks</p>
-  </div>
-  <a href="https://amzn.to/4qhhWVZ" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
-</div>
-
-*As an Amazon Associate, we earn from qualifying purchases.*

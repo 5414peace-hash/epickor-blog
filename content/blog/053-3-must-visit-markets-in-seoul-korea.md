@@ -7,7 +7,7 @@ date: '2026-02-03'
 tags: ['Culture', 'Food', 'Shopping', 'Travel']
 ---
 
-![064 epickor_진호.mp4_20240725_221535.410.jpg](/assets/images/posts/053/faf5a462-de76-4a2f-8549-0af59433c219.png)
+![진호.mp4_20240725_221535.410.jpg](/assets/images/posts/053/faf5a462-de76-4a2f-8549-0af59433c219.png)
 
 # Discover the Vibrant Market Culture in Seoul
 
@@ -27,35 +27,13 @@ You can buy all kinds of meat, including rare parts that only cost a small amoun
 
 <div class="image-grid-2">
 
-![064 epickor_진호.mp4_20240725_221539.031.jpg](/assets/images/posts/053/064_epickor_%EC%A7%84%ED%98%B8.mp4_20240725_221539.031.jpg)
+![진호.mp4_20240725_221539.031.jpg](/assets/images/posts/053/064_epickor_%EC%A7%84%ED%98%B8.mp4_20240725_221539.031.jpg)
 
-![064 epickor_진호.mp4_20240725_221556.621.jpg](/assets/images/posts/053/064_epickor_%EC%A7%84%ED%98%B8.mp4_20240725_221556.621.jpg)
-
-</div>
+![진호.mp4_20240725_221556.621.jpg](/assets/images/posts/053/064_epickor_%EC%A7%84%ED%98%B8.mp4_20240725_221556.621.jpg)
 
 ### Gwangjang Market
 
 ---
-
-### Editor's Pick
-
-<h3>Editor's Pick</h3>
-
-<h3>Editor's Picks for You</h3>
-
-<h3>Editor's Pick</h3>
-
-<h3>Editor's Picks for You</h3>
-
-<div class="amazon-product-card">
-  <div class="product-content">
-    <h4 class="product-title"><a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank">Korean Snack Box</a></h4>
-    <p class="product-description">Bring the taste of Korea to your home with this authentic snack collection</p>
-  </div>
-  <a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
-</div>
-
-*As an Amazon Associate, we earn from qualifying purchases.*
 
 ---
 
@@ -77,11 +55,9 @@ It is a famous spot visited by many Hollywood stars, including `Sam Smith`, `Jes
 
 <div class="image-grid-2">
 
-![064 epickor_진호.mp4_20240725_221605.931.jpg](/assets/images/posts/053/064_epickor_%EC%A7%84%ED%98%B8.mp4_20240725_221605.931.jpg)
+![진호.mp4_20240725_221605.931.jpg](/assets/images/posts/053/064_epickor_%EC%A7%84%ED%98%B8.mp4_20240725_221605.931.jpg)
 
-![064 epickor_진호.mp4_20240725_221622.418.jpg](/assets/images/posts/053/064_epickor_%EC%A7%84%ED%98%B8.mp4_20240725_221622.418.jpg)
-
-</div>
+![진호.mp4_20240725_221622.418.jpg](/assets/images/posts/053/064_epickor_%EC%A7%84%ED%98%B8.mp4_20240725_221622.418.jpg)
 
 ### Dongmyo Market
 
@@ -95,11 +71,9 @@ The most famous item here is clothing, and I also recommend checking out Station
 
 <div class="image-grid-2">
 
-![064 epickor_진호.mp4_20240725_221659.715.jpg](/assets/images/posts/053/064_epickor_%EC%A7%84%ED%98%B8.mp4_20240725_221659.715.jpg)
+![진호.mp4_20240725_221659.715.jpg](/assets/images/posts/053/064_epickor_%EC%A7%84%ED%98%B8.mp4_20240725_221659.715.jpg)
 
-![064 epickor_진호.mp4_20240725_221651.724.jpg](/assets/images/posts/053/064_epickor_%EC%A7%84%ED%98%B8.mp4_20240725_221651.724.jpg)
-
-</div>
+![진호.mp4_20240725_221651.724.jpg](/assets/images/posts/053/064_epickor_%EC%A7%84%ED%98%B8.mp4_20240725_221651.724.jpg)
 
 ---
 
@@ -114,22 +88,3 @@ The most famous item here is clothing, and I also recommend checking out Station
 
 ---
 
-### Editor's Picks for You
-
-<div class="amazon-product-card">
-  <div class="product-content">
-    <h4 class="product-title"><a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank">Korean Snack Box</a></h4>
-    <p class="product-description">Bring the taste of Korea to your home with this authentic snack collection</p>
-  </div>
-  <a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
-</div>
-
-<div class="amazon-product-card">
-  <div class="product-content">
-    <h4 class="product-title"><a href="https://amzn.to/3O5pcqu" rel="nofollow sponsored" target="_blank">Yakgwa (Honey Cookie)</a></h4>
-    <p class="product-description">Traditional Korean honey cookies for a sweet treat</p>
-  </div>
-  <a href="https://amzn.to/3O5pcqu" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
-</div>
-
-*As an Amazon Associate, we earn from qualifying purchases.*

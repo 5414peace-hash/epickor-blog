@@ -8,7 +8,7 @@ date: '2026-02-03'
 tags: ['Culture', 'Food', 'Travel']
 ---
 
-![086_epickor_진호.mp4_20240807_143330.747.jpg](/assets/images/posts/062/4ede73ef-726e-48bf-b436-11ff614ea6d8.png)
+![epickor_진호.mp4_20240807_143330.747.jpg](/assets/images/posts/062/4ede73ef-726e-48bf-b436-11ff614ea6d8.png)
 
 # Dive into Kimchi Culture in Seoul
 
@@ -22,35 +22,13 @@ At a museum in Insadong, Seoul, you can experience making and tasting kimchi you
 
 <div class="image-grid-2">
 
-![086_epickor_진호.mp4_20240807_143344.588.jpg](/assets/images/posts/062/086_epickor_%EC%A7%84%ED%98%B8.mp4_20240807_143344.588.jpg)
+![epickor_진호.mp4_20240807_143344.588.jpg](/assets/images/posts/062/086_epickor_%EC%A7%84%ED%98%B8.mp4_20240807_143344.588.jpg)
 
-![086_epickor_진호.mp4_20240807_143349.147.jpg](/assets/images/posts/062/086_epickor_%EC%A7%84%ED%98%B8.mp4_20240807_143349.147.jpg)
-
-</div>
+![epickor_진호.mp4_20240807_143349.147.jpg](/assets/images/posts/062/086_epickor_%EC%A7%84%ED%98%B8.mp4_20240807_143349.147.jpg)
 
 ### Cultural Insights
 
 ---
-
-### Editor's Pick
-
-<h3>Editor's Pick</h3>
-
-<h3>Editor's Picks for You</h3>
-
-<h3>Editor's Pick</h3>
-
-<h3>Editor's Picks for You</h3>
-
-<div class="amazon-product-card">
-  <div class="product-content">
-    <h4 class="product-title"><a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank">Korean Snack Box</a></h4>
-    <p class="product-description">Bring the taste of Korea to your home with this authentic snack collection</p>
-  </div>
-  <a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
-</div>
-
-*As an Amazon Associate, we earn from qualifying purchases.*
 
 ---
 
@@ -77,22 +55,3 @@ This popular spot among tourists is called "`Museum Kimchikan`." Be sure to book
 
 ---
 
-### Editor's Picks for You
-
-<div class="amazon-product-card">
-  <div class="product-content">
-    <h4 class="product-title"><a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank">Korean Snack Box</a></h4>
-    <p class="product-description">Bring the taste of Korea to your home with this authentic snack collection</p>
-  </div>
-  <a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
-</div>
-
-<div class="amazon-product-card">
-  <div class="product-content">
-    <h4 class="product-title"><a href="https://amzn.to/3Zgx6Qq" rel="nofollow sponsored" target="_blank">Hangeul Workbook</a></h4>
-    <p class="product-description">Master the Korean alphabet with this beginner-friendly guide</p>
-  </div>
-  <a href="https://amzn.to/3Zgx6Qq" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
-</div>
-
-*As an Amazon Associate, we earn from qualifying purchases.*

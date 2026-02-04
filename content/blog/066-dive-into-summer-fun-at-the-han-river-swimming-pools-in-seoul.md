@@ -7,7 +7,7 @@ date: '2026-02-03'
 tags: ['Culture', 'Man', 'Sports', 'Travel', 'Woman']
 ---
 
-![088_EpicKor_요순.mp4_20240808_221542.918.jpg](/assets/images/posts/066/b2720fc1-c0b2-4625-92d6-47fbc137e1b4.png)
+![EpicKor_요순.mp4_20240808_221542.918.jpg](/assets/images/posts/066/b2720fc1-c0b2-4625-92d6-47fbc137e1b4.png)
 
 # Special Swimming Pool in Korea
 
@@ -23,26 +23,6 @@ In the summer, the `outdoor swimming pools` at the Han River in Seoul open up fo
 
 ---
 
-### Editor's Pick
-
-<h3>Editor's Pick</h3>
-
-<h3>Editor's Picks for You</h3>
-
-<h3>Editor's Pick</h3>
-
-<h3>Editor's Picks for You</h3>
-
-<div class="amazon-product-card">
-  <div class="product-content">
-    <h4 class="product-title"><a href="https://amzn.to/4twhKFk" rel="nofollow sponsored" target="_blank">Round Lab Dokdo Toner</a></h4>
-    <p class="product-description">Hydrating K-beauty toner for radiant skin</p>
-  </div>
-  <a href="https://amzn.to/4twhKFk" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
-</div>
-
-*As an Amazon Associate, we earn from qualifying purchases.*
-
 ---
 
 The admission fees are quite affordable: about `$2.30 for children`, $3.10 for teens, and $3.80 for adults.
@@ -53,11 +33,9 @@ There are six parks along the Han River that have swimming pools: Ttukseom, Yeou
 
 <div class="image-grid-2">
 
-![088_EpicKor_요순.mp4_20240808_221604.077.jpg](/assets/images/posts/066/088_EpicKor_%EC%9A%94%EC%88%9C.mp4_20240808_221604.077.jpg)
+![EpicKor_요순.mp4_20240808_221604.077.jpg](/assets/images/posts/066/088_EpicKor_%EC%9A%94%EC%88%9C.mp4_20240808_221604.077.jpg)
 
-![088_EpicKor_요순.mp4_20240808_221621.731.jpg](/assets/images/posts/066/088_EpicKor_%EC%9A%94%EC%88%9C.mp4_20240808_221621.731.jpg)
-
-</div>
+![EpicKor_요순.mp4_20240808_221621.731.jpg](/assets/images/posts/066/088_EpicKor_%EC%9A%94%EC%88%9C.mp4_20240808_221621.731.jpg)
 
 ### Plan Your Visit
 
@@ -76,22 +54,3 @@ If you're traveling to Seoul this summer, why not enjoy both the Han River and t
 
 ---
 
-### Editor's Picks for You
-
-<div class="amazon-product-card">
-  <div class="product-content">
-    <h4 class="product-title"><a href="https://amzn.to/4twhKFk" rel="nofollow sponsored" target="_blank">Round Lab Dokdo Toner</a></h4>
-    <p class="product-description">Hydrating K-beauty toner for radiant skin</p>
-  </div>
-  <a href="https://amzn.to/4twhKFk" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
-</div>
-
-<div class="amazon-product-card">
-  <div class="product-content">
-    <h4 class="product-title"><a href="https://amzn.to/3M4Q09W" rel="nofollow sponsored" target="_blank">Round Lab Dokdo Cleanser</a></h4>
-    <p class="product-description">Gentle K-beauty cleanser for daily skincare</p>
-  </div>
-  <a href="https://amzn.to/3M4Q09W" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
-</div>
-
-*As an Amazon Associate, we earn from qualifying purchases.*

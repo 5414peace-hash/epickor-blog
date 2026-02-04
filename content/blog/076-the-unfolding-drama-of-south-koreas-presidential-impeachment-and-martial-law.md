@@ -8,7 +8,7 @@ date: '2026-02-03'
 tags: ['Culture', 'Social']
 ---
 
-![121_epickor_민호.mp4_20250103_222702.483.jpg](/assets/images/posts/076/fd5b878f-2a73-443d-a794-2d45c5cb85e9.png)
+![epickor_민호.mp4_20250103_222702.483.jpg](/assets/images/posts/076/fd5b878f-2a73-443d-a794-2d45c5cb85e9.png)
 
 # A One-Minute Summary of Martial Law and Impeachment in Korea
 
@@ -30,13 +30,11 @@ In an unprecedented turn of events, the National Assembly acted swiftly, voting 
 
 <div class="image-grid-2">
 
-![121_epickor_민호.mp4_20250103_222722.591.jpg](/assets/images/posts/076/121_epickor_%EB%AF%BC%ED%98%B8.mp4_20250103_222722.591.jpg)
+![epickor_민호.mp4_20250103_222722.591.jpg](/assets/images/posts/076/121_epickor_%EB%AF%BC%ED%98%B8.mp4_20250103_222722.591.jpg)
 
-![121_epickor_민호.mp4_20250103_222730.244.jpg](/assets/images/posts/076/121_epickor_%EB%AF%BC%ED%98%B8.mp4_20250103_222730.244.jpg)
+![epickor_민호.mp4_20250103_222730.244.jpg](/assets/images/posts/076/121_epickor_%EB%AF%BC%ED%98%B8.mp4_20250103_222730.244.jpg)
 
-</div>
-
-![121_epickor_민호.mp4_20250103_222735.093.jpg](/assets/images/posts/076/121_epickor_%EB%AF%BC%ED%98%B8.mp4_20250103_222735.093.jpg)
+![epickor_민호.mp4_20250103_222735.093.jpg](/assets/images/posts/076/121_epickor_%EB%AF%BC%ED%98%B8.mp4_20250103_222735.093.jpg)
 
 **The Fallout**:
 
@@ -47,26 +45,6 @@ The declaration and abrupt reversal of martial law only fueled public and politi
 ### The Reasons Behind Martial Law
 
 ---
-
-### Editor's Pick
-
-<h3>Editor's Pick</h3>
-
-<h3>Editor's Picks for You</h3>
-
-<h3>Editor's Pick</h3>
-
-<h3>Editor's Picks for You</h3>
-
-<div class="amazon-product-card">
-  <div class="product-content">
-    <h4 class="product-title"><a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank">Korean Snack Box</a></h4>
-    <p class="product-description">Bring the taste of Korea to your home with this authentic snack collection</p>
-  </div>
-  <a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
-</div>
-
-*As an Amazon Associate, we earn from qualifying purchases.*
 
 ---
 
@@ -100,11 +78,9 @@ This marks the `third time` in South Korea’s history that a sitting president 
 
 <div class="image-grid-2">
 
-![121_epickor_민호.mp4_20250103_222818.092.jpg](/assets/images/posts/076/121_epickor_%EB%AF%BC%ED%98%B8.mp4_20250103_222818.092.jpg)
+![epickor_민호.mp4_20250103_222818.092.jpg](/assets/images/posts/076/121_epickor_%EB%AF%BC%ED%98%B8.mp4_20250103_222818.092.jpg)
 
-![121_epickor_민호.mp4_20250103_222815.679.jpg](/assets/images/posts/076/121_epickor_%EB%AF%BC%ED%98%B8.mp4_20250103_222815.679.jpg)
-
-</div>
+![epickor_민호.mp4_20250103_222815.679.jpg](/assets/images/posts/076/121_epickor_%EB%AF%BC%ED%98%B8.mp4_20250103_222815.679.jpg)
 
 President Yoon’s case is a stark reminder of South Korea’s vibrant democratic spirit, where leaders are held accountable by both the institutions and the people.
 
@@ -123,22 +99,3 @@ President Yoon’s case is a stark reminder of South Korea’s vibrant democrati
 
 ---
 
-### Editor's Picks for You
-
-<div class="amazon-product-card">
-  <div class="product-content">
-    <h4 class="product-title"><a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank">Korean Snack Box</a></h4>
-    <p class="product-description">Bring the taste of Korea to your home with this authentic snack collection</p>
-  </div>
-  <a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
-</div>
-
-<div class="amazon-product-card">
-  <div class="product-content">
-    <h4 class="product-title"><a href="https://amzn.to/4qhhWVZ" rel="nofollow sponsored" target="_blank">Bibigo Seaweed Snack</a></h4>
-    <p class="product-description">Crispy and healthy Korean seaweed snacks</p>
-  </div>
-  <a href="https://amzn.to/4qhhWVZ" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
-</div>
-
-*As an Amazon Associate, we earn from qualifying purchases.*

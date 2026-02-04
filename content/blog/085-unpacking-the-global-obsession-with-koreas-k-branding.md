@@ -7,7 +7,7 @@ date: '2026-02-03'
 tags: ['Culture', 'Social']
 ---
 
-![112_EpicKor_요순.mp4_20250112_221603.555.jpg](/assets/images/posts/085/8dfdaf59-5ec6-414f-a5fe-2bb2a221d038.png)
+![EpicKor_요순.mp4_20250112_221603.555.jpg](/assets/images/posts/085/8dfdaf59-5ec6-414f-a5fe-2bb2a221d038.png)
 
 # The ‘K’ Trap: What’s Behind K-Pop, K-Food, and K-Culture?
 
@@ -19,37 +19,15 @@ Koreans actually call their country “Hangook,” yet internationally, it’s k
 
 <div class="image-grid-2">
 
-![112_EpicKor_요순.mp4_20250112_221620.445.jpg](/assets/images/posts/085/112_EpicKor_%EC%9A%94%EC%88%9C.mp4_20250112_221620.445.jpg)
+![EpicKor_요순.mp4_20250112_221620.445.jpg](/assets/images/posts/085/112_EpicKor_%EC%9A%94%EC%88%9C.mp4_20250112_221620.445.jpg)
 
-![112_EpicKor_요순.mp4_20250112_221625.772.jpg](/assets/images/posts/085/112_EpicKor_%EC%9A%94%EC%88%9C.mp4_20250112_221625.772.jpg)
-
-</div>
+![EpicKor_요순.mp4_20250112_221625.772.jpg](/assets/images/posts/085/112_EpicKor_%EC%9A%94%EC%88%9C.mp4_20250112_221625.772.jpg)
 
 ---
 
 ### Branding or Something More?
 
 ---
-
-### Editor's Pick
-
-<h3>Editor's Pick</h3>
-
-<h3>Editor's Picks for You</h3>
-
-<h3>Editor's Pick</h3>
-
-<h3>Editor's Picks for You</h3>
-
-<div class="amazon-product-card">
-  <div class="product-content">
-    <h4 class="product-title"><a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank">Korean Snack Box</a></h4>
-    <p class="product-description">Bring the taste of Korea to your home with this authentic snack collection</p>
-  </div>
-  <a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
-</div>
-
-*As an Amazon Associate, we earn from qualifying purchases.*
 
 ---
 
@@ -67,11 +45,9 @@ And it’s not just the stars we know who face this intensity. Many aspiring ido
 
 <div class="image-grid-2">
 
-![112_EpicKor_요순.mp4_20250112_221638.099.jpg](/assets/images/posts/085/112_EpicKor_%EC%9A%94%EC%88%9C.mp4_20250112_221638.099.jpg)
+![EpicKor_요순.mp4_20250112_221638.099.jpg](/assets/images/posts/085/112_EpicKor_%EC%9A%94%EC%88%9C.mp4_20250112_221638.099.jpg)
 
-![112_EpicKor_요순.mp4_20250112_221655.256.jpg](/assets/images/posts/085/112_EpicKor_%EC%9A%94%EC%88%9C.mp4_20250112_221655.256.jpg)
-
-</div>
+![EpicKor_요순.mp4_20250112_221655.256.jpg](/assets/images/posts/085/112_EpicKor_%EC%9A%94%EC%88%9C.mp4_20250112_221655.256.jpg)
 
 ---
 
@@ -96,22 +72,3 @@ Whether it’s ensuring better conditions for artists or finding a balance betwe
 
 ---
 
-### Editor's Picks for You
-
-<div class="amazon-product-card">
-  <div class="product-content">
-    <h4 class="product-title"><a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank">Korean Snack Box</a></h4>
-    <p class="product-description">Bring the taste of Korea to your home with this authentic snack collection</p>
-  </div>
-  <a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
-</div>
-
-<div class="amazon-product-card">
-  <div class="product-content">
-    <h4 class="product-title"><a href="https://amzn.to/4qhhWVZ" rel="nofollow sponsored" target="_blank">Bibigo Seaweed Snack</a></h4>
-    <p class="product-description">Crispy and healthy Korean seaweed snacks</p>
-  </div>
-  <a href="https://amzn.to/4qhhWVZ" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
-</div>
-
-*As an Amazon Associate, we earn from qualifying purchases.*

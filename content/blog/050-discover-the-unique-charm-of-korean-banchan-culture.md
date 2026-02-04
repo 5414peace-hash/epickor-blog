@@ -7,7 +7,7 @@ date: '2026-02-03'
 tags: ['Culture', 'Food', 'Travel']
 ---
 
-![050_epickor_민호.mp4_20240723_224603.215.jpg](/assets/images/posts/050/6d305414-0269-4117-815f-735d0ed98dce.png)
+![epickor_민호.mp4_20240723_224603.215.jpg](/assets/images/posts/050/6d305414-0269-4117-815f-735d0ed98dce.png)
 
 # Korea "Banchan" Food Culture 🇰🇷
 
@@ -19,26 +19,6 @@ tags: ['Culture', 'Food', 'Travel']
 
 ---
 
-### Editor's Pick
-
-<h3>Editor's Pick</h3>
-
-<h3>Editor's Picks for You</h3>
-
-<h3>Editor's Pick</h3>
-
-<h3>Editor's Picks for You</h3>
-
-<div class="amazon-product-card">
-  <div class="product-content">
-    <h4 class="product-title"><a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank">Korean Snack Box</a></h4>
-    <p class="product-description">Bring the taste of Korea to your home with this authentic snack collection</p>
-  </div>
-  <a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
-</div>
-
-*As an Amazon Associate, we earn from qualifying purchases.*
-
 ---
 
 ⭐️ Korea has a “`banchan`” culture in its food culture. ⭐️
@@ -47,11 +27,9 @@ The basic foods eaten with the main menu and rice are called "banchan" or side d
 
 <div class="image-grid-2">
 
-![050_epickor_민호.mp4_20240723_224612.169.jpg](/assets/images/posts/050/050_epickor_%EB%AF%BC%ED%98%B8.mp4_20240723_224612.169.jpg)
+![epickor_민호.mp4_20240723_224612.169.jpg](/assets/images/posts/050/050_epickor_%EB%AF%BC%ED%98%B8.mp4_20240723_224612.169.jpg)
 
-![050_epickor_민호.mp4_20240723_224650.257.jpg](/assets/images/posts/050/050_epickor_%EB%AF%BC%ED%98%B8.mp4_20240723_224650.257.jpg)
-
-</div>
+![epickor_민호.mp4_20240723_224650.257.jpg](/assets/images/posts/050/050_epickor_%EB%AF%BC%ED%98%B8.mp4_20240723_224650.257.jpg)
 
 ### Kimchi as Banchan
 
@@ -77,22 +55,3 @@ Exploring Korean cuisine reveals the fascinating "banchan" culture, where each m
 
 ---
 
-### Editor's Picks for You
-
-<div class="amazon-product-card">
-  <div class="product-content">
-    <h4 class="product-title"><a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank">Korean Snack Box</a></h4>
-    <p class="product-description">Bring the taste of Korea to your home with this authentic snack collection</p>
-  </div>
-  <a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
-</div>
-
-<div class="amazon-product-card">
-  <div class="product-content">
-    <h4 class="product-title"><a href="https://amzn.to/4qhhWVZ" rel="nofollow sponsored" target="_blank">Bibigo Seaweed Snack</a></h4>
-    <p class="product-description">Crispy and healthy Korean seaweed snacks</p>
-  </div>
-  <a href="https://amzn.to/4qhhWVZ" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
-</div>
-
-*As an Amazon Associate, we earn from qualifying purchases.*

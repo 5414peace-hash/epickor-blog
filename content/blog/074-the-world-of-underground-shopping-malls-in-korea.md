@@ -7,7 +7,7 @@ date: '2026-02-03'
 tags: ['Shopping', 'Travel', 'Woman']
 ---
 
-![106_epickor_건순.mp4_20240919_111538.967.jpg](/assets/images/posts/074/1f65ae5b-0c36-456c-9134-f3e0059f5b0e.png)
+![epickor_건순.mp4_20240919_111538.967.jpg](/assets/images/posts/074/1f65ae5b-0c36-456c-9134-f3e0059f5b0e.png)
 
 # Explore Korea's Hidden Underground Shopping Gems
 
@@ -23,37 +23,15 @@ With everything from movie theaters to restaurants, clothing stores, and accesso
 
 ---
 
-### Editor's Pick
-
-<h3>Editor's Pick</h3>
-
-<h3>Editor's Picks for You</h3>
-
-<h3>Editor's Pick</h3>
-
-<h3>Editor's Picks for You</h3>
-
-<div class="amazon-product-card">
-  <div class="product-content">
-    <h4 class="product-title"><a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank">Korean Snack Box</a></h4>
-    <p class="product-description">Bring the taste of Korea to your home with this authentic snack collection</p>
-  </div>
-  <a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
-</div>
-
-*As an Amazon Associate, we earn from qualifying purchases.*
-
 ---
 
 Gangnam Station on `Subway Line 2` is not only known for its bustling streets but also for its underground shopping mall. It's perfect for those looking to do some light shopping, with a wide range of clothing stores and accessory shops available.
 
 <div class="image-grid-2">
 
-![106_epickor_건순.mp4_20240919_111617.641.jpg](/assets/images/posts/074/106_epickor_%EA%B1%B4%EC%88%9C.mp4_20240919_111617.641.jpg)
+![epickor_건순.mp4_20240919_111617.641.jpg](/assets/images/posts/074/106_epickor_%EA%B1%B4%EC%88%9C.mp4_20240919_111617.641.jpg)
 
-![106_epickor_건순.mp4_20240919_111556.496.jpg](/assets/images/posts/074/106_epickor_%EA%B1%B4%EC%88%9C.mp4_20240919_111556.496.jpg)
-
-</div>
+![epickor_건순.mp4_20240919_111556.496.jpg](/assets/images/posts/074/106_epickor_%EA%B1%B4%EC%88%9C.mp4_20240919_111556.496.jpg)
 
 ### 3. Express Bus Terminal Underground Shopping Mall
 
@@ -75,22 +53,3 @@ The underground shopping mall at the Express Bus Terminal, where `Subway Lines 3
 
 ---
 
-### Editor's Picks for You
-
-<div class="amazon-product-card">
-  <div class="product-content">
-    <h4 class="product-title"><a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank">Korean Snack Box</a></h4>
-    <p class="product-description">Bring the taste of Korea to your home with this authentic snack collection</p>
-  </div>
-  <a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
-</div>
-
-<div class="amazon-product-card">
-  <div class="product-content">
-    <h4 class="product-title"><a href="https://amzn.to/467PaA7" rel="nofollow sponsored" target="_blank">Ssamjang (Soybean Paste)</a></h4>
-    <p class="product-description">Essential Korean dipping sauce for authentic flavors</p>
-  </div>
-  <a href="https://amzn.to/467PaA7" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
-</div>
-
-*As an Amazon Associate, we earn from qualifying purchases.*

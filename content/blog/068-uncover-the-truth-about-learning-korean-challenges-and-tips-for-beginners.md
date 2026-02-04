@@ -8,7 +8,7 @@ date: '2026-02-03'
 tags: ['Culture', 'Travel']
 ---
 
-![094_epickor_민호.mp4_20240809_184606.227.jpg](/assets/images/posts/068/e8e945a9-107a-46a3-a5bd-12333f411419.png)
+![epickor_민호.mp4_20240809_184606.227.jpg](/assets/images/posts/068/e8e945a9-107a-46a3-a5bd-12333f411419.png)
 
 # Is Korean Difficult to Learn?
 
@@ -31,35 +31,13 @@ Additionally, there are honorifics—different ways of speaking depending on who
 
 <div class="image-grid-2">
 
-![094_epickor_민호.mp4_20240809_184624.147.jpg](/assets/images/posts/068/094_epickor_%EB%AF%BC%ED%98%B8.mp4_20240809_184624.147.jpg)
+![epickor_민호.mp4_20240809_184624.147.jpg](/assets/images/posts/068/094_epickor_%EB%AF%BC%ED%98%B8.mp4_20240809_184624.147.jpg)
 
-![094_epickor_민호.mp4_20240809_184629.563.jpg](/assets/images/posts/068/094_epickor_%EB%AF%BC%ED%98%B8.mp4_20240809_184629.563.jpg)
-
-</div>
+![epickor_민호.mp4_20240809_184629.563.jpg](/assets/images/posts/068/094_epickor_%EB%AF%BC%ED%98%B8.mp4_20240809_184629.563.jpg)
 
 ### Pronunciation Challenges
 
 ---
-
-### Editor's Pick
-
-<h3>Editor's Pick</h3>
-
-<h3>Editor's Picks for You</h3>
-
-<h3>Editor's Pick</h3>
-
-<h3>Editor's Picks for You</h3>
-
-<div class="amazon-product-card">
-  <div class="product-content">
-    <h4 class="product-title"><a href="https://amzn.to/3Zgx6Qq" rel="nofollow sponsored" target="_blank">Hangeul Workbook</a></h4>
-    <p class="product-description">Master the Korean alphabet with this beginner-friendly guide</p>
-  </div>
-  <a href="https://amzn.to/3Zgx6Qq" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
-</div>
-
-*As an Amazon Associate, we earn from qualifying purchases.*
 
 ---
 
@@ -71,11 +49,9 @@ Additionally, there are honorifics—different ways of speaking depending on who
 
 <div class="image-grid-2">
 
-![094_epickor_민호.mp4_20240809_184637.443.jpg](/assets/images/posts/068/094_epickor_%EB%AF%BC%ED%98%B8.mp4_20240809_184637.443.jpg)
+![epickor_민호.mp4_20240809_184637.443.jpg](/assets/images/posts/068/094_epickor_%EB%AF%BC%ED%98%B8.mp4_20240809_184637.443.jpg)
 
-![094_epickor_민호.mp4_20240809_184650.748.jpg](/assets/images/posts/068/094_epickor_%EB%AF%BC%ED%98%B8.mp4_20240809_184650.748.jpg)
-
-</div>
+![epickor_민호.mp4_20240809_184650.748.jpg](/assets/images/posts/068/094_epickor_%EB%AF%BC%ED%98%B8.mp4_20240809_184650.748.jpg)
 
 ### Tips for Learning Korean
 
@@ -100,22 +76,3 @@ The best tip is to meet good **Korean friends** and talk to them. Next time, sha
 
 ---
 
-### Editor's Picks for You
-
-<div class="amazon-product-card">
-  <div class="product-content">
-    <h4 class="product-title"><a href="https://amzn.to/3Zgx6Qq" rel="nofollow sponsored" target="_blank">Hangeul Workbook</a></h4>
-    <p class="product-description">Master the Korean alphabet with this beginner-friendly guide</p>
-  </div>
-  <a href="https://amzn.to/3Zgx6Qq" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
-</div>
-
-<div class="amazon-product-card">
-  <div class="product-content">
-    <h4 class="product-title"><a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank">Korean Snack Box</a></h4>
-    <p class="product-description">Bring the taste of Korea to your home with this authentic snack collection</p>
-  </div>
-  <a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
-</div>
-
-*As an Amazon Associate, we earn from qualifying purchases.*

@@ -7,7 +7,7 @@ date: '2026-02-03'
 tags: ['Man', 'Travel', 'Woman']
 ---
 
-![113_EpicKor_요순.mp4_20250113_221734.344.jpg](/assets/images/posts/086/c5be1d0a-0bfb-45a5-9d97-d1738b29582b.png)
+![EpicKor_요순.mp4_20250113_221734.344.jpg](/assets/images/posts/086/c5be1d0a-0bfb-45a5-9d97-d1738b29582b.png)
 
 # Discover Seoul’s Unstoppable Energy from 2024 to 2025
 
@@ -18,40 +18,13 @@ Seoul in 2024—and moving into 2025—is bursting with life, ensuring there’s
 👉 [Check out the moving landmark here!](https://youtube.com/shorts/tfzX-oCMpmY?si=1Cw1CL_TZRbdGxD3)
 
 👉 [Watch it in action here!](<div class="youtube-embed">
-<iframe src="https://www.youtube.com/embed/_FT73wiMU8U" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>?si=G6lb6P6Hscqh5AOr)
+<iframe src="https://www.youtube.com/embed/![113_EpicKor_요순.mp4_20250113_221742.210.jpg](/assets/images/posts/086/113_EpicKor_%EC%9A%94%EC%88%9C.mp4_20250113_221742.210.jpg)
 
-<div class="image-grid-2">
-
-![113_EpicKor_요순.mp4_20250113_221742.210.jpg](/assets/images/posts/086/113_EpicKor_%EC%9A%94%EC%88%9C.mp4_20250113_221742.210.jpg)
-
-![113_EpicKor_요순.mp4_20250113_221749.095.jpg](/assets/images/posts/086/113_EpicKor_%EC%9A%94%EC%88%9C.mp4_20250113_221749.095.jpg)
-
-</div>
+![EpicKor_요순.mp4_20250113_221749.095.jpg](/assets/images/posts/086/113_EpicKor_%EC%9A%94%EC%88%9C.mp4_20250113_221749.095.jpg)
 
 ### Seoul Drone Light Show
 
 ---
-
-### Editor's Pick
-
-<h3>Editor's Pick</h3>
-
-<h3>Editor's Picks for You</h3>
-
-<h3>Editor's Pick</h3>
-
-<h3>Editor's Picks for You</h3>
-
-<div class="amazon-product-card">
-  <div class="product-content">
-    <h4 class="product-title"><a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank">Korean Snack Box</a></h4>
-    <p class="product-description">Bring the taste of Korea to your home with this authentic snack collection</p>
-  </div>
-  <a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
-</div>
-
-*As an Amazon Associate, we earn from qualifying purchases.*
 
 ---
 
@@ -67,11 +40,9 @@ In 2025, floating cafés have become all the rage. These trendy spots offer an i
 
 <div class="image-grid-2">
 
-![113_EpicKor_요순.mp4_20250113_221836.547.jpg](/assets/images/posts/086/113_EpicKor_%EC%9A%94%EC%88%9C.mp4_20250113_221836.547.jpg)
+![EpicKor_요순.mp4_20250113_221836.547.jpg](/assets/images/posts/086/113_EpicKor_%EC%9A%94%EC%88%9C.mp4_20250113_221836.547.jpg)
 
-![113_EpicKor_요순.mp4_20250113_221829.030.jpg](/assets/images/posts/086/113_EpicKor_%EC%9A%94%EC%88%9C.mp4_20250113_221829.030.jpg)
-
-</div>
+![EpicKor_요순.mp4_20250113_221829.030.jpg](/assets/images/posts/086/113_EpicKor_%EC%9A%94%EC%88%9C.mp4_20250113_221829.030.jpg)
 
 ### Seoul Night Market Renaissance
 
@@ -118,22 +89,3 @@ So, have you been to Seoul? Or maybe it’s time for another visit? The city of 
 
 ---
 
-### Editor's Picks for You
-
-<div class="amazon-product-card">
-  <div class="product-content">
-    <h4 class="product-title"><a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank">Korean Snack Box</a></h4>
-    <p class="product-description">Bring the taste of Korea to your home with this authentic snack collection</p>
-  </div>
-  <a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
-</div>
-
-<div class="amazon-product-card">
-  <div class="product-content">
-    <h4 class="product-title"><a href="https://amzn.to/3Zgx6Qq" rel="nofollow sponsored" target="_blank">Hangeul Workbook</a></h4>
-    <p class="product-description">Master the Korean alphabet with this beginner-friendly guide</p>
-  </div>
-  <a href="https://amzn.to/3Zgx6Qq" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
-</div>
-
-*As an Amazon Associate, we earn from qualifying purchases.*

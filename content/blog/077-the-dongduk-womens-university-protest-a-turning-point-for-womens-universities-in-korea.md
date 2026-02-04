@@ -9,7 +9,7 @@ date: '2026-02-03'
 tags: ['Social', 'Woman']
 ---
 
-![118_epickor_건순.mp4_20250103_224646.810.jpg](/assets/images/posts/077/bad6c7b9-090a-486c-bc77-a9a9d8e30618.png)
+![epickor_건순.mp4_20250103_224646.810.jpg](/assets/images/posts/077/bad6c7b9-090a-486c-bc77-a9a9d8e30618.png)
 
 # Examining the Unprecedented Student Movement and Its Implications for Education in South Korea
 
@@ -23,26 +23,6 @@ As of January 3, 2025, the protests at Dongduk Women’s University have `offici
 
 ---
 
-### Editor's Pick
-
-<h3>Editor's Pick</h3>
-
-<h3>Editor's Picks for You</h3>
-
-<h3>Editor's Pick</h3>
-
-<h3>Editor's Picks for You</h3>
-
-<div class="amazon-product-card">
-  <div class="product-content">
-    <h4 class="product-title"><a href="https://amzn.to/3Zgx6Qq" rel="nofollow sponsored" target="_blank">Hangeul Workbook</a></h4>
-    <p class="product-description">Master the Korean alphabet with this beginner-friendly guide</p>
-  </div>
-  <a href="https://amzn.to/3Zgx6Qq" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
-</div>
-
-*As an Amazon Associate, we earn from qualifying purchases.*
-
 ---
 
 In `November 2024`, Dongduk Women’s University in Seoul witnessed an unprecedented protest. 
@@ -55,11 +35,9 @@ The scale and intensity of the protests caught the attention of national and int
 
 <div class="image-grid-2">
 
-![118_epickor_건순.mp4_20250103_224704.934.jpg](/assets/images/posts/077/118_epickor_%EA%B1%B4%EC%88%9C.mp4_20250103_224704.934.jpg)
+![epickor_건순.mp4_20250103_224704.934.jpg](/assets/images/posts/077/118_epickor_%EA%B1%B4%EC%88%9C.mp4_20250103_224704.934.jpg)
 
-![118_epickor_건순.mp4_20250103_224711.273.jpg](/assets/images/posts/077/118_epickor_%EA%B1%B4%EC%88%9C.mp4_20250103_224711.273.jpg)
-
-</div>
+![epickor_건순.mp4_20250103_224711.273.jpg](/assets/images/posts/077/118_epickor_%EA%B1%B4%EC%88%9C.mp4_20250103_224711.273.jpg)
 
 ### The Catalyst: Why Did the Protests Begin?
 
@@ -85,11 +63,9 @@ This number has been steadily decreasing due to demographic shifts and societal 
 
 <div class="image-grid-2">
 
-![118_epickor_건순.mp4_20250103_224809.721.jpg](/assets/images/posts/077/118_epickor_%EA%B1%B4%EC%88%9C.mp4_20250103_224809.721.jpg)
+![epickor_건순.mp4_20250103_224809.721.jpg](/assets/images/posts/077/118_epickor_%EA%B1%B4%EC%88%9C.mp4_20250103_224809.721.jpg)
 
-![118_epickor_건순.mp4_20250103_224750.510.jpg](/assets/images/posts/077/118_epickor_%EA%B1%B4%EC%88%9C.mp4_20250103_224750.510.jpg)
-
-</div>
+![epickor_건순.mp4_20250103_224750.510.jpg](/assets/images/posts/077/118_epickor_%EA%B1%B4%EC%88%9C.mp4_20250103_224750.510.jpg)
 
 ---
 
@@ -112,22 +88,3 @@ While the protests themselves have concluded, the aftermath remains contentious.
 
 ---
 
-### Editor's Picks for You
-
-<div class="amazon-product-card">
-  <div class="product-content">
-    <h4 class="product-title"><a href="https://amzn.to/3Zgx6Qq" rel="nofollow sponsored" target="_blank">Hangeul Workbook</a></h4>
-    <p class="product-description">Master the Korean alphabet with this beginner-friendly guide</p>
-  </div>
-  <a href="https://amzn.to/3Zgx6Qq" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
-</div>
-
-<div class="amazon-product-card">
-  <div class="product-content">
-    <h4 class="product-title"><a href="https://amzn.to/495n6oT" rel="nofollow sponsored" target="_blank">Yellow Ramen Pot</a></h4>
-    <p class="product-description">Authentic Korean ramen pot for perfect noodles</p>
-  </div>
-  <a href="https://amzn.to/495n6oT" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
-</div>
-
-*As an Amazon Associate, we earn from qualifying purchases.*

@@ -8,7 +8,7 @@ date: '2026-02-03'
 tags: ['Culture', 'Travel']
 ---
 
-![068_epickor_민호.mp4_20240728_221749.433.jpg](/assets/images/posts/054/13031ce3-164e-4758-8082-f1e023470333.png)
+![epickor_민호.mp4_20240728_221749.433.jpg](/assets/images/posts/054/13031ce3-164e-4758-8082-f1e023470333.png)
 
 # How advanced is automation in Korea?
 
@@ -26,35 +26,13 @@ This ramen-making machine simply opens a regular bag of ramen, adds the soup, an
 
 <div class="image-grid-2">
 
-![068_epickor_민호.mp4_20240728_221757.122.jpg](/assets/images/posts/054/068_epickor_%EB%AF%BC%ED%98%B8.mp4_20240728_221757.122.jpg)
+![epickor_민호.mp4_20240728_221757.122.jpg](/assets/images/posts/054/068_epickor_%EB%AF%BC%ED%98%B8.mp4_20240728_221757.122.jpg)
 
-![068_epickor_민호.mp4_20240728_221808.729.jpg](/assets/images/posts/054/068_epickor_%EB%AF%BC%ED%98%B8.mp4_20240728_221808.729.jpg)
-
-</div>
+![epickor_민호.mp4_20240728_221808.729.jpg](/assets/images/posts/054/068_epickor_%EB%AF%BC%ED%98%B8.mp4_20240728_221808.729.jpg)
 
 ### Car Wash Machines
 
 ---
-
-### Editor's Pick
-
-<h3>Editor's Pick</h3>
-
-<h3>Editor's Picks for You</h3>
-
-<h3>Editor's Pick</h3>
-
-<h3>Editor's Picks for You</h3>
-
-<div class="amazon-product-card">
-  <div class="product-content">
-    <h4 class="product-title"><a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank">Korean Snack Box</a></h4>
-    <p class="product-description">Bring the taste of Korea to your home with this authentic snack collection</p>
-  </div>
-  <a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
-</div>
-
-*As an Amazon Associate, we earn from qualifying purchases.*
 
 ---
 
@@ -66,11 +44,9 @@ Just put your car in neutral, sit back, and watch as it moves on its own along t
 
 <div class="image-grid-2">
 
-![068_epickor_민호.mp4_20240728_221818.004.jpg](/assets/images/posts/054/068_epickor_%EB%AF%BC%ED%98%B8.mp4_20240728_221818.004.jpg)
+![epickor_민호.mp4_20240728_221818.004.jpg](/assets/images/posts/054/068_epickor_%EB%AF%BC%ED%98%B8.mp4_20240728_221818.004.jpg)
 
-![068_epickor_민호.mp4_20240728_221815.824.jpg](/assets/images/posts/054/068_epickor_%EB%AF%BC%ED%98%B8.mp4_20240728_221815.824.jpg)
-
-</div>
+![epickor_민호.mp4_20240728_221815.824.jpg](/assets/images/posts/054/068_epickor_%EB%AF%BC%ED%98%B8.mp4_20240728_221815.824.jpg)
 
 ---
 
@@ -85,22 +61,3 @@ Just put your car in neutral, sit back, and watch as it moves on its own along t
 
 ---
 
-### Editor's Picks for You
-
-<div class="amazon-product-card">
-  <div class="product-content">
-    <h4 class="product-title"><a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank">Korean Snack Box</a></h4>
-    <p class="product-description">Bring the taste of Korea to your home with this authentic snack collection</p>
-  </div>
-  <a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
-</div>
-
-<div class="amazon-product-card">
-  <div class="product-content">
-    <h4 class="product-title"><a href="https://amzn.to/3MaZWi6" rel="nofollow sponsored" target="_blank">Buldak Spicy Ramen</a></h4>
-    <p class="product-description">Experience the legendary spicy Korean ramen</p>
-  </div>
-  <a href="https://amzn.to/3MaZWi6" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
-</div>
-
-*As an Amazon Associate, we earn from qualifying purchases.*

@@ -7,7 +7,7 @@ date: '2026-02-03'
 tags: ['Culture', 'Food', 'Man']
 ---
 
-![048_epickor_휘수.mp4_20240721_214203.768.jpg](/assets/images/posts/045/501cc362-d7c6-4b95-8efa-6dbfe8b08f93.png)
+![epickor_휘수.mp4_20240721_214203.768.jpg](/assets/images/posts/045/501cc362-d7c6-4b95-8efa-6dbfe8b08f93.png)
 
 # Discover What Korean Reservists Eat During Training
 
@@ -21,37 +21,15 @@ After they are discharged from the military, they become a reserve force. They a
 
 ---
 
-### Editor's Pick
-
-<h3>Editor's Pick</h3>
-
-<h3>Editor's Picks for You</h3>
-
-<h3>Editor's Pick</h3>
-
-<h3>Editor's Picks for You</h3>
-
-<div class="amazon-product-card">
-  <div class="product-content">
-    <h4 class="product-title"><a href="https://amzn.to/3MaZWi6" rel="nofollow sponsored" target="_blank">Buldak Spicy Ramen</a></h4>
-    <p class="product-description">Experience the legendary spicy Korean ramen</p>
-  </div>
-  <a href="https://amzn.to/3MaZWi6" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
-</div>
-
-*As an Amazon Associate, we earn from qualifying purchases.*
-
 ---
 
 The reserve force period is a total of `8 years`. For the first four years, they train for 3 days and 2 nights every year. For the next two years, training is held twice a year. For the last two years, training is conducted exclusively over the phone.
 
 <div class="image-grid-2">
 
-![048_epickor_휘수.mp4_20240721_214217.240.jpg](/assets/images/posts/045/048_epickor_%ED%9C%98%EC%88%98.mp4_20240721_214217.240.jpg)
+![epickor_휘수.mp4_20240721_214217.240.jpg](/assets/images/posts/045/048_epickor_%ED%9C%98%EC%88%98.mp4_20240721_214217.240.jpg)
 
-![048_epickor_휘수.mp4_20240721_214220.265.jpg](/assets/images/posts/045/048_epickor_%ED%9C%98%EC%88%98.mp4_20240721_214220.265.jpg)
-
-</div>
+![epickor_휘수.mp4_20240721_214220.265.jpg](/assets/images/posts/045/048_epickor_%ED%9C%98%EC%88%98.mp4_20240721_214220.265.jpg)
 
 ### Lunch During Training
 
@@ -79,11 +57,9 @@ After training, they take the bus back home.
 
 <div class="image-grid-2">
 
-![048_epickor_휘수.mp4_20240721_214234.265.jpg](/assets/images/posts/045/048_epickor_%ED%9C%98%EC%88%98.mp4_20240721_214234.265.jpg)
+![epickor_휘수.mp4_20240721_214234.265.jpg](/assets/images/posts/045/048_epickor_%ED%9C%98%EC%88%98.mp4_20240721_214234.265.jpg)
 
-![048_epickor_휘수.mp4_20240721_214238.026.jpg](/assets/images/posts/045/048_epickor_%ED%9C%98%EC%88%98.mp4_20240721_214238.026.jpg)
-
-</div>
+![epickor_휘수.mp4_20240721_214238.026.jpg](/assets/images/posts/045/048_epickor_%ED%9C%98%EC%88%98.mp4_20240721_214238.026.jpg)
 
 ### Secret
 
@@ -102,22 +78,3 @@ Actually, it's a secret, but they say the lunch they eat during training is not 
 
 ---
 
-### Editor's Picks for You
-
-<div class="amazon-product-card">
-  <div class="product-content">
-    <h4 class="product-title"><a href="https://amzn.to/3MaZWi6" rel="nofollow sponsored" target="_blank">Buldak Spicy Ramen</a></h4>
-    <p class="product-description">Experience the legendary spicy Korean ramen</p>
-  </div>
-  <a href="https://amzn.to/3MaZWi6" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
-</div>
-
-<div class="amazon-product-card">
-  <div class="product-content">
-    <h4 class="product-title"><a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank">Korean Snack Box</a></h4>
-    <p class="product-description">Bring the taste of Korea to your home with this authentic snack collection</p>
-  </div>
-  <a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
-</div>
-
-*As an Amazon Associate, we earn from qualifying purchases.*

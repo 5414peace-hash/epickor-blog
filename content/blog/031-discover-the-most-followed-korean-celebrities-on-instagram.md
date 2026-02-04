@@ -7,7 +7,7 @@ date: '2026-02-03'
 tags: ['Celeb', 'Kpop']
 ---
 
-![031_EpicKor_요순.mp4_20240715_221408.937.jpg](/assets/images/posts/031/66eeda38-c281-4a91-93d1-3fc9feb3edb1.png)
+![EpicKor_요순.mp4_20240715_221408.937.jpg](/assets/images/posts/031/66eeda38-c281-4a91-93d1-3fc9feb3edb1.png)
 
 # Korean Instagram Follower Ranking
 
@@ -22,26 +22,6 @@ As of `April 1, 2024`, here are the rankings from 10th to 1st:
 ### BTS Jin
 
 ---
-
-### Editor's Pick
-
-<h3>Editor's Pick</h3>
-
-<h3>Editor's Picks for You</h3>
-
-<h3>Editor's Pick</h3>
-
-<h3>Editor's Picks for You</h3>
-
-<div class="amazon-product-card">
-  <div class="product-content">
-    <h4 class="product-title"><a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank">Korean Snack Box</a></h4>
-    <p class="product-description">Bring the taste of Korea to your home with this authentic snack collection</p>
-  </div>
-  <a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
-</div>
-
-*As an Amazon Associate, we earn from qualifying purchases.*
 
 ---
 
@@ -87,25 +67,11 @@ As of `April 1, 2024`, here are the rankings from 10th to 1st:
 
 ### Blackpink Rosé
 
-**3rd place, Blackpink Rosé (@roses_are_rosie)**
+**3rd place, Blackpink Rosé (@roses![031_EpicKor_요순.mp4_20240715_221437.789.jpg](/assets/images/posts/031/031_EpicKor_%EC%9A%94%EC%88%9C.mp4_20240715_221437.789.jpg)
 
-77.12 million followers
+![EpicKor_요순.mp4_20240715_221442.629.jpg](/assets/images/posts/031/031_EpicKor_%EC%9A%94%EC%88%9C.mp4_20240715_221442.629.jpg)
 
-### Blackpink Jisoo
-
-**2nd place, Blackpink Jisoo (@sooyaaa__)**
-
-77.73 million followers
-
-<div class="image-grid-2">
-
-![031_EpicKor_요순.mp4_20240715_221437.789.jpg](/assets/images/posts/031/031_EpicKor_%EC%9A%94%EC%88%9C.mp4_20240715_221437.789.jpg)
-
-![031_EpicKor_요순.mp4_20240715_221442.629.jpg](/assets/images/posts/031/031_EpicKor_%EC%9A%94%EC%88%9C.mp4_20240715_221442.629.jpg)
-
-</div>
-
-![031_EpicKor_요순.mp4_20240715_221447.669.jpg](/assets/images/posts/031/031_EpicKor_%EC%9A%94%EC%88%9C.mp4_20240715_221447.669.jpg)
+![EpicKor_요순.mp4_20240715_221447.669.jpg](/assets/images/posts/031/031_EpicKor_%EC%9A%94%EC%88%9C.mp4_20240715_221447.669.jpg)
 
 ## Blackpink Jennie
 
@@ -140,22 +106,3 @@ Despite being excluded from the rankings due to her nationality, Blackpink's `Li
 
 ---
 
-### Editor's Picks for You
-
-<div class="amazon-product-card">
-  <div class="product-content">
-    <h4 class="product-title"><a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank">Korean Snack Box</a></h4>
-    <p class="product-description">Bring the taste of Korea to your home with this authentic snack collection</p>
-  </div>
-  <a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
-</div>
-
-<div class="amazon-product-card">
-  <div class="product-content">
-    <h4 class="product-title"><a href="https://amzn.to/4twhKFk" rel="nofollow sponsored" target="_blank">Round Lab Dokdo Toner</a></h4>
-    <p class="product-description">Hydrating K-beauty toner for radiant skin</p>
-  </div>
-  <a href="https://amzn.to/4twhKFk" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
-</div>
-
-*As an Amazon Associate, we earn from qualifying purchases.*

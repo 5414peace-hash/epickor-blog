@@ -7,7 +7,7 @@ date: '2026-02-03'
 tags: ['Culture', 'Food', 'Travel']
 ---
 
-![017_EpicKor_요순.mp4_20240711_105425.030.jpg](/assets/images/posts/017/0e0bfe56-2ce2-41d9-8e3a-1ec685a3799b.png)
+![EpicKor_요순.mp4_20240711_105425.030.jpg](/assets/images/posts/017/0e0bfe56-2ce2-41d9-8e3a-1ec685a3799b.png)
 
 # Discover the Hidden Gems and Culinary Delights of Seoul in Just One Day
 
@@ -23,11 +23,9 @@ Near these streams, you can find restaurants where you can eat `samgyetang` (chi
 
 <div class="image-grid-2">
 
-![017_EpicKor_요순.mp4_20240711_105445.994.jpg](/assets/images/posts/017/017_EpicKor_%EC%9A%94%EC%88%9C.mp4_20240711_105445.994.jpg)
+![EpicKor_요순.mp4_20240711_105445.994.jpg](/assets/images/posts/017/017_EpicKor_%EC%9A%94%EC%88%9C.mp4_20240711_105445.994.jpg)
 
-![017_EpicKor_요순.mp4_20240711_105458.633.jpg](/assets/images/posts/017/017_EpicKor_%EC%9A%94%EC%88%9C.mp4_20240711_105458.633.jpg)
-
-</div>
+![EpicKor_요순.mp4_20240711_105458.633.jpg](/assets/images/posts/017/017_EpicKor_%EC%9A%94%EC%88%9C.mp4_20240711_105458.633.jpg)
 
 Actually, the address is not Seoul, but still very close. Namhansanseong Fortress, located in southeastern Seoul, is home to numerous samgyetang restaurants along the streams. 
 
@@ -36,26 +34,6 @@ A glass of makgeolli, a traditional Korean drink, and chicken soup, then enjoy a
 ### Did you know that Seoul is a delivery paradise?
 
 ---
-
-### Editor's Pick
-
-<h3>Editor's Pick</h3>
-
-<h3>Editor's Picks for You</h3>
-
-<h3>Editor's Pick</h3>
-
-<h3>Editor's Picks for You</h3>
-
-<div class="amazon-product-card">
-  <div class="product-content">
-    <h4 class="product-title"><a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank">Korean Snack Box</a></h4>
-    <p class="product-description">Bring the taste of Korea to your home with this authentic snack collection</p>
-  </div>
-  <a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
-</div>
-
-*As an Amazon Associate, we earn from qualifying purchases.*
 
 ---
 
@@ -80,22 +58,3 @@ Keywords: Seoul travel, hidden gems, Namhansanseong Fortress, samgyetang, mounta
 
 ---
 
-### Editor's Picks for You
-
-<div class="amazon-product-card">
-  <div class="product-content">
-    <h4 class="product-title"><a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank">Korean Snack Box</a></h4>
-    <p class="product-description">Bring the taste of Korea to your home with this authentic snack collection</p>
-  </div>
-  <a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
-</div>
-
-<div class="amazon-product-card">
-  <div class="product-content">
-    <h4 class="product-title"><a href="https://amzn.to/3MaZWi6" rel="nofollow sponsored" target="_blank">Buldak Spicy Ramen</a></h4>
-    <p class="product-description">Experience the legendary spicy Korean ramen</p>
-  </div>
-  <a href="https://amzn.to/3MaZWi6" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
-</div>
-
-*As an Amazon Associate, we earn from qualifying purchases.*

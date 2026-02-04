@@ -7,7 +7,7 @@ date: '2026-02-03'
 tags: ['Culture', 'Food', 'Travel']
 ---
 
-![034_epickor_휘수.mp4_20240716_220333.663.jpg](/assets/images/posts/034/d44f600b-7850-4214-ad60-c3dbad5e06be.png)
+![epickor_휘수.mp4_20240716_220333.663.jpg](/assets/images/posts/034/d44f600b-7850-4214-ad60-c3dbad5e06be.png)
 
 # Live Octopus Moving in Your Mouth
 
@@ -21,37 +21,15 @@ Here is some `food` that is still alive even if you chew it with your teeth two 
 
 ---
 
-### Editor's Pick
-
-<h3>Editor's Pick</h3>
-
-<h3>Editor's Picks for You</h3>
-
-<h3>Editor's Pick</h3>
-
-<h3>Editor's Picks for You</h3>
-
-<div class="amazon-product-card">
-  <div class="product-content">
-    <h4 class="product-title"><a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank">Korean Snack Box</a></h4>
-    <p class="product-description">Bring the taste of Korea to your home with this authentic snack collection</p>
-  </div>
-  <a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
-</div>
-
-*As an Amazon Associate, we earn from qualifying purchases.*
-
 ---
 
 However, many countries around the world are not familiar with eating live octopus. This cultural delicacy has been featured several times on Korean entertainment shows, showcasing foreigners trying it for the first time. Each time, their reactions were a mix of enjoyment and surprise.
 
 <div class="image-grid-2">
 
-![034_epickor_휘수.mp4_20240716_220341.020.jpg](/assets/images/posts/034/034_epickor_%ED%9C%98%EC%88%98.mp4_20240716_220341.020.jpg)
+![epickor_휘수.mp4_20240716_220341.020.jpg](/assets/images/posts/034/034_epickor_%ED%9C%98%EC%88%98.mp4_20240716_220341.020.jpg)
 
-![034_epickor_휘수.mp4_20240716_220449.884.jpg](/assets/images/posts/034/034_epickor_%ED%9C%98%EC%88%98.mp4_20240716_220449.884.jpg)
-
-</div>
+![epickor_휘수.mp4_20240716_220449.884.jpg](/assets/images/posts/034/034_epickor_%ED%9C%98%EC%88%98.mp4_20240716_220449.884.jpg)
 
 ### Common Reactions
 
@@ -61,7 +39,7 @@ Foreigners often exhibit astonishment at the sight of the moving tentacles, even
 
 These reactions can be quite entertaining to Koreans, who are used to this dish. Foreigners often end their experience by acknowledging their desire to try something new and unusual, describing it as both enjoyable and strange.
 
-![034_epickor_휘수.mp4_20240716_220413.843.jpg](/assets/images/posts/034/1cbf83f0-7479-4e50-ab5e-d414dc6f034e.png)
+![epickor_휘수.mp4_20240716_220413.843.jpg](/assets/images/posts/034/1cbf83f0-7479-4e50-ab5e-d414dc6f034e.png)
 
 ### What do you think of live octopus?
 
@@ -88,22 +66,3 @@ This unique culinary experience highlights the diversity in food cultures around
 
 ---
 
-### Editor's Picks for You
-
-<div class="amazon-product-card">
-  <div class="product-content">
-    <h4 class="product-title"><a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank">Korean Snack Box</a></h4>
-    <p class="product-description">Bring the taste of Korea to your home with this authentic snack collection</p>
-  </div>
-  <a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
-</div>
-
-<div class="amazon-product-card">
-  <div class="product-content">
-    <h4 class="product-title"><a href="https://amzn.to/3Zgx6Qq" rel="nofollow sponsored" target="_blank">Hangeul Workbook</a></h4>
-    <p class="product-description">Master the Korean alphabet with this beginner-friendly guide</p>
-  </div>
-  <a href="https://amzn.to/3Zgx6Qq" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
-</div>
-
-*As an Amazon Associate, we earn from qualifying purchases.*

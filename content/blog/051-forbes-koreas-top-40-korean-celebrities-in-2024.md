@@ -7,7 +7,7 @@ date: '2026-02-03'
 tags: ['Celeb', 'Kpop']
 ---
 
-![062_epickor_민호.mp4_20240724_221354.590.jpg](/assets/images/posts/051/b360cf72-c959-44f2-98a3-9cc0fb487b2b.png)
+![epickor_민호.mp4_20240724_221354.590.jpg](/assets/images/posts/051/b360cf72-c959-44f2-98a3-9cc0fb487b2b.png)
 
 # Discover the Top Korean Celebrities Dominating Forbes Korea's 2024 List
 
@@ -23,26 +23,6 @@ The evaluation is based on 50% of the year's income and 50% on the influence of 
 ### Top 11 Korean Celebrities
 
 ---
-
-### Editor's Pick
-
-<h3>Editor's Pick</h3>
-
-<h3>Editor's Picks for You</h3>
-
-<h3>Editor's Pick</h3>
-
-<h3>Editor's Picks for You</h3>
-
-<div class="amazon-product-card">
-  <div class="product-content">
-    <h4 class="product-title"><a href="https://amzn.to/4qhhWVZ" rel="nofollow sponsored" target="_blank">Bibigo Seaweed Snack</a></h4>
-    <p class="product-description">Crispy and healthy Korean seaweed snacks</p>
-  </div>
-  <a href="https://amzn.to/4qhhWVZ" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
-</div>
-
-*As an Amazon Associate, we earn from qualifying purchases.*
 
 ---
 
@@ -75,11 +55,9 @@ The girl group New Jeans has quickly become a favorite with their fresh style an
 
 <div class="image-grid-2">
 
-![062_epickor_민호.mp4_20240724_221440.024.jpg](/assets/images/posts/051/062_epickor_%EB%AF%BC%ED%98%B8.mp4_20240724_221440.024.jpg)
+![epickor_민호.mp4_20240724_221440.024.jpg](/assets/images/posts/051/062_epickor_%EB%AF%BC%ED%98%B8.mp4_20240724_221440.024.jpg)
 
-![062_epickor_민호.mp4_20240724_221443.056.jpg](/assets/images/posts/051/062_epickor_%EB%AF%BC%ED%98%B8.mp4_20240724_221443.056.jpg)
-
-</div>
+![epickor_민호.mp4_20240724_221443.056.jpg](/assets/images/posts/051/062_epickor_%EB%AF%BC%ED%98%B8.mp4_20240724_221443.056.jpg)
 
 **2nd Son Heung-min**:
 Son Heung-min, a renowned footballer, continues to impress fans worldwide with his skills and sportsmanship.
@@ -89,11 +67,9 @@ The long-awaited first place is taken by Blackpink, who have set new records and
 
 <div class="image-grid-2">
 
-![062_epickor_민호.mp4_20240724_221444.959.jpg](/assets/images/posts/051/062_epickor_%EB%AF%BC%ED%98%B8.mp4_20240724_221444.959.jpg)
+![epickor_민호.mp4_20240724_221444.959.jpg](/assets/images/posts/051/062_epickor_%EB%AF%BC%ED%98%B8.mp4_20240724_221444.959.jpg)
 
-![062_epickor_민호.mp4_20240724_221455.156.jpg](/assets/images/posts/051/062_epickor_%EB%AF%BC%ED%98%B8.mp4_20240724_221455.156.jpg)
-
-</div>
+![epickor_민호.mp4_20240724_221455.156.jpg](/assets/images/posts/051/062_epickor_%EB%AF%BC%ED%98%B8.mp4_20240724_221455.156.jpg)
 
 ### Celebrity Dynamics
 
@@ -120,22 +96,3 @@ For the past five years, BTS has consistently ranked first as a group. However, 
 
 ---
 
-### Editor's Picks for You
-
-<div class="amazon-product-card">
-  <div class="product-content">
-    <h4 class="product-title"><a href="https://amzn.to/4qhhWVZ" rel="nofollow sponsored" target="_blank">Bibigo Seaweed Snack</a></h4>
-    <p class="product-description">Crispy and healthy Korean seaweed snacks</p>
-  </div>
-  <a href="https://amzn.to/4qhhWVZ" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
-</div>
-
-<div class="amazon-product-card">
-  <div class="product-content">
-    <h4 class="product-title"><a href="https://amzn.to/3Zgx6Qq" rel="nofollow sponsored" target="_blank">Hangeul Workbook</a></h4>
-    <p class="product-description">Master the Korean alphabet with this beginner-friendly guide</p>
-  </div>
-  <a href="https://amzn.to/3Zgx6Qq" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
-</div>
-
-*As an Amazon Associate, we earn from qualifying purchases.*

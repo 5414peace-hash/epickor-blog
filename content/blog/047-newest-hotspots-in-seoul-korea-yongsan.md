@@ -7,7 +7,7 @@ date: '2026-02-03'
 tags: ['Culture', 'Food', 'Shopping', 'Travel']
 ---
 
-![056_EpicKor_요순.mp4_20240722_221916.898.jpg](/assets/images/posts/047/8171d3b9-5fe0-46d5-bb33-ff2c36e658c9.png)
+![EpicKor_요순.mp4_20240722_221916.898.jpg](/assets/images/posts/047/8171d3b9-5fe0-46d5-bb33-ff2c36e658c9.png)
 
 # Discover Yongsan's Trendiest Spots and Hidden Gems for 2024
 
@@ -21,11 +21,9 @@ This time, let's uncover the latest trending spots in Korea for 2024.
 
 <div class="image-grid-2">
 
-![056_EpicKor_요순.mp4_20240722_221925.105.jpg](/assets/images/posts/047/056_EpicKor_%EC%9A%94%EC%88%9C.mp4_20240722_221925.105.jpg)
+![EpicKor_요순.mp4_20240722_221925.105.jpg](/assets/images/posts/047/056_EpicKor_%EC%9A%94%EC%88%9C.mp4_20240722_221925.105.jpg)
 
-![056_EpicKor_요순.mp4_20240722_221922.991.jpg](/assets/images/posts/047/056_EpicKor_%EC%9A%94%EC%88%9C.mp4_20240722_221922.991.jpg)
-
-</div>
+![EpicKor_요순.mp4_20240722_221922.991.jpg](/assets/images/posts/047/056_EpicKor_%EC%9A%94%EC%88%9C.mp4_20240722_221922.991.jpg)
 
 ## **YONGSAN.**
 
@@ -38,37 +36,13 @@ Moreover, nearby is The `War Memorial of Korea`, offering a comprehensive glimps
 
 <div class="image-grid-2">
 
-![056_EpicKor_요순.mp4_20240722_221939.316.jpg](/assets/images/posts/047/056_EpicKor_%EC%9A%94%EC%88%9C.mp4_20240722_221939.316.jpg)
-
-![056_EpicKor
+![EpicKor_요순.mp4_20240722_221939.316.jpg](/assets/images/posts/047/056_EpicKor_%EC%9A%94%EC%88%9C.mp4_20240722_221939.316.jpg)
 
 ---
 
-### Editor's Pick
-
-<h3>Editor's Pick</h3>
-
-<h3>Editor's Picks for You</h3>
-
-<h3>Editor's Pick</h3>
-
-<h3>Editor's Picks for You</h3>
-
-<div class="amazon-product-card">
-  <div class="product-content">
-    <h4 class="product-title"><a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank">Korean Snack Box</a></h4>
-    <p class="product-description">Bring the taste of Korea to your home with this authentic snack collection</p>
-  </div>
-  <a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
-</div>
-
-*As an Amazon Associate, we earn from qualifying purchases.*
-
 ---
 
-_요순.mp4_20240722_221948.551.jpg](/assets/images/epickor-placeholder.png)
-
-</div>
+![요순.mp4_20240722_221948.551.jpg](/assets/images/epickor-placeholder.png)
 
 Adjacent to this is `Yongsan Park`, once home to the U.S. military, as well as the National Museum of Korea and Yongsan Family Park. Yongsan Station is also close by, offering access to KTX trains connecting you to destinations all over Korea.
 
@@ -92,22 +66,3 @@ It's hard to resist a visit to Yongsan with all these attractions, isn't it?
 
 ---
 
-### Editor's Picks for You
-
-<div class="amazon-product-card">
-  <div class="product-content">
-    <h4 class="product-title"><a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank">Korean Snack Box</a></h4>
-    <p class="product-description">Bring the taste of Korea to your home with this authentic snack collection</p>
-  </div>
-  <a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
-</div>
-
-<div class="amazon-product-card">
-  <div class="product-content">
-    <h4 class="product-title"><a href="https://amzn.to/3MaZWi6" rel="nofollow sponsored" target="_blank">Buldak Spicy Ramen</a></h4>
-    <p class="product-description">Experience the legendary spicy Korean ramen</p>
-  </div>
-  <a href="https://amzn.to/3MaZWi6" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
-</div>
-
-*As an Amazon Associate, we earn from qualifying purchases.*

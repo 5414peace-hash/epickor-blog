@@ -7,7 +7,7 @@ date: '2026-02-03'
 tags: ['Culture', 'Man', 'Woman']
 ---
 
-![001_EpicKor Snippets_민호.mp4_20240703_141734.357.jpg](/assets/images/posts/001/91660015-611b-4604-bb04-ca7bd47f1657.png)
+![EpicKor Snippets_민호.mp4_20240703_141734.357.jpg](/assets/images/posts/001/91660015-611b-4604-bb04-ca7bd47f1657.png)
 
 # **How to Fail 100% at Flirting in Korea**
 
@@ -20,26 +20,6 @@ Some of you might learn about romance through Korean dramas. Remember the romant
 ### STEP 2: Mimic Lines from Korean Dramas Starring “Lee Min-ho”
 
 ---
-
-### Editor's Pick
-
-<h3>Editor's Pick</h3>
-
-<h3>Editor's Picks for You</h3>
-
-<h3>Editor's Pick</h3>
-
-<h3>Editor's Picks for You</h3>
-
-<div class="amazon-product-card">
-  <div class="product-content">
-    <h4 class="product-title"><a href="https://amzn.to/3Zgx6Qq" rel="nofollow sponsored" target="_blank">Hangeul Workbook</a></h4>
-    <p class="product-description">Master the Korean alphabet with this beginner-friendly guide</p>
-  </div>
-  <a href="https://amzn.to/3Zgx6Qq" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
-</div>
-
-*As an Amazon Associate, we earn from qualifying purchases.*
 
 ---
 
@@ -57,19 +37,15 @@ For a 100% flirting failure, we especially recommend dramas like "The Heirs" and
 
 <div class="image-grid-2">
 
-![001_EpicKor Snippets_민호.mp4_20240703_141821.966.jpg](/assets/images/posts/001/001_EpicKor_Snippets_%EB%AF%BC%ED%98%B8.mp4_20240703_141821.966.jpg)
+![EpicKor Snippets_민호.mp4_20240703_141821.966.jpg](/assets/images/posts/001/001_EpicKor_Snippets_%EB%AF%BC%ED%98%B8.mp4_20240703_141821.966.jpg)
 
-![001_EpicKor Snippets_민호.mp4_20240703_141811.950.jpg](/assets/images/posts/001/001_EpicKor_Snippets_%EB%AF%BC%ED%98%B8.mp4_20240703_141811.950.jpg)
-
-</div>
+![EpicKor Snippets_민호.mp4_20240703_141811.950.jpg](/assets/images/posts/001/001_EpicKor_Snippets_%EB%AF%BC%ED%98%B8.mp4_20240703_141811.950.jpg)
 
 <div class="image-grid-2">
 
-![001_EpicKor Snippets_민호.mp4_20240703_141817.582.jpg](/assets/images/posts/001/001_EpicKor_Snippets_%EB%AF%BC%ED%98%B8.mp4_20240703_141817.582.jpg)
+![EpicKor Snippets_민호.mp4_20240703_141817.582.jpg](/assets/images/posts/001/001_EpicKor_Snippets_%EB%AF%BC%ED%98%B8.mp4_20240703_141817.582.jpg)
 
-![001_EpicKor Snippets_민호.mp4_20240703_141829.924.jpg](/assets/images/posts/001/001_EpicKor_Snippets_%EB%AF%BC%ED%98%B8.mp4_20240703_141829.924.jpg)
-
-</div>
+![EpicKor Snippets_민호.mp4_20240703_141829.924.jpg](/assets/images/posts/001/001_EpicKor_Snippets_%EB%AF%BC%ED%98%B8.mp4_20240703_141829.924.jpg)
 
 If you diligently practice and mimic only these lines, you too can fail at flirting.
 
@@ -88,22 +64,3 @@ Keywords: flirting in Korea, Korean dramas, Lee Min-ho, The Heirs, Boys Over Flo
 
 ---
 
-### Editor's Picks for You
-
-<div class="amazon-product-card">
-  <div class="product-content">
-    <h4 class="product-title"><a href="https://amzn.to/3Zgx6Qq" rel="nofollow sponsored" target="_blank">Hangeul Workbook</a></h4>
-    <p class="product-description">Master the Korean alphabet with this beginner-friendly guide</p>
-  </div>
-  <a href="https://amzn.to/3Zgx6Qq" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
-</div>
-
-<div class="amazon-product-card">
-  <div class="product-content">
-    <h4 class="product-title"><a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank">Korean Snack Box</a></h4>
-    <p class="product-description">Bring the taste of Korea to your home with this authentic snack collection</p>
-  </div>
-  <a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
-</div>
-
-*As an Amazon Associate, we earn from qualifying purchases.*

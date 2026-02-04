@@ -7,7 +7,7 @@ date: '2026-02-03'
 tags: ['Culture', 'Travel']
 ---
 
-![119_epickor_민호_bgm제거.mp4_20250121_222639.196.jpg](/assets/images/posts/091/d68c2d60-f2e4-4a52-8941-0522bb16ea1b.png)
+![epickor_민호_bgm제거.mp4_20250121_222639.196.jpg](/assets/images/posts/091/d68c2d60-f2e4-4a52-8941-0522bb16ea1b.png)
 
 # Explore Korea’s Winter Magic: From Snowy Peaks to Dazzling Light Festivals
 
@@ -34,26 +34,6 @@ Korea’s iconic ski resorts are a must-visit during winter! Start with the worl
 
 ---
 
-### Editor's Pick
-
-<h3>Editor's Pick</h3>
-
-<h3>Editor's Picks for You</h3>
-
-<h3>Editor's Pick</h3>
-
-<h3>Editor's Picks for You</h3>
-
-<div class="amazon-product-card">
-  <div class="product-content">
-    <h4 class="product-title"><a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank">Korean Snack Box</a></h4>
-    <p class="product-description">Bring the taste of Korea to your home with this authentic snack collection</p>
-  </div>
-  <a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
-</div>
-
-*As an Amazon Associate, we earn from qualifying purchases.*
-
 ---
 
 **Icy Rinks**
@@ -66,11 +46,9 @@ It’s a perfect spot for couples on a romantic date or for families and friends
 
 <div class="image-grid-2">
 
-![119_epickor_민호_bgm제거.mp4_20250121_222658.194.jpg](/assets/images/posts/091/119_epickor_%EB%AF%BC%ED%98%B8_bgm%EC%A0%9C%EA%B1%B0.mp4_20250121_222658.194.jpg)
+![epickor_민호_bgm제거.mp4_20250121_222658.194.jpg](/assets/images/posts/091/119_epickor_%EB%AF%BC%ED%98%B8_bgm%EC%A0%9C%EA%B1%B0.mp4_20250121_222658.194.jpg)
 
-![119_epickor_민호_bgm제거.mp4_20250121_222715.324.jpg](/assets/images/posts/091/119_epickor_%EB%AF%BC%ED%98%B8_bgm%EC%A0%9C%EA%B1%B0.mp4_20250121_222715.324.jpg)
-
-</div>
+![epickor_민호_bgm제거.mp4_20250121_222715.324.jpg](/assets/images/posts/091/119_epickor_%EB%AF%BC%ED%98%B8_bgm%EC%A0%9C%EA%B1%B0.mp4_20250121_222715.324.jpg)
 
 ---
 
@@ -97,13 +75,11 @@ Winter in Korea isn’t just about skiing and skating. The country offers stunni
 
 <div class="image-grid-2">
 
-![119_epickor_민호_bgm제거.mp4_20250121_222732.752.jpg](/assets/images/posts/091/119_epickor_%EB%AF%BC%ED%98%B8_bgm%EC%A0%9C%EA%B1%B0.mp4_20250121_222732.752.jpg)
+![epickor_민호_bgm제거.mp4_20250121_222732.752.jpg](/assets/images/posts/091/119_epickor_%EB%AF%BC%ED%98%B8_bgm%EC%A0%9C%EA%B1%B0.mp4_20250121_222732.752.jpg)
 
-![119_epickor_민호_bgm제거.mp4_20250121_222738.251.jpg](/assets/images/posts/091/119_epickor_%EB%AF%BC%ED%98%B8_bgm%EC%A0%9C%EA%B1%B0.mp4_20250121_222738.251.jpg)
+![epickor_민호_bgm제거.mp4_20250121_222738.251.jpg](/assets/images/posts/091/119_epickor_%EB%AF%BC%ED%98%B8_bgm%EC%A0%9C%EA%B1%B0.mp4_20250121_222738.251.jpg)
 
-</div>
-
-![119_epickor_민호_bgm제거.mp4_20250121_222741.424.jpg](/assets/images/posts/091/119_epickor_%EB%AF%BC%ED%98%B8_bgm%EC%A0%9C%EA%B1%B0.mp4_20250121_222741.424.jpg)
+![epickor_민호_bgm제거.mp4_20250121_222741.424.jpg](/assets/images/posts/091/119_epickor_%EB%AF%BC%ED%98%B8_bgm%EC%A0%9C%EA%B1%B0.mp4_20250121_222741.424.jpg)
 
 ---
 
@@ -124,22 +100,3 @@ This winter, let Korea’s snowy peaks, icy rinks, and magical destinations take
 
 ---
 
-### Editor's Picks for You
-
-<div class="amazon-product-card">
-  <div class="product-content">
-    <h4 class="product-title"><a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank">Korean Snack Box</a></h4>
-    <p class="product-description">Bring the taste of Korea to your home with this authentic snack collection</p>
-  </div>
-  <a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
-</div>
-
-<div class="amazon-product-card">
-  <div class="product-content">
-    <h4 class="product-title"><a href="https://amzn.to/467PaA7" rel="nofollow sponsored" target="_blank">Ssamjang (Soybean Paste)</a></h4>
-    <p class="product-description">Essential Korean dipping sauce for authentic flavors</p>
-  </div>
-  <a href="https://amzn.to/467PaA7" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
-</div>
-
-*As an Amazon Associate, we earn from qualifying purchases.*

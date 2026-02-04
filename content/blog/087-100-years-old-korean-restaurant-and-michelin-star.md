@@ -7,7 +7,7 @@ date: '2026-02-03'
 tags: ['Food', 'Travel']
 ---
 
-![114_epickor_민호.mp4_20250113_222356.328.jpg](/assets/images/posts/087/c4000f20-6848-4fb8-afac-6e913b662f1d.png)
+![epickor_민호.mp4_20250113_222356.328.jpg](/assets/images/posts/087/c4000f20-6848-4fb8-afac-6e913b662f1d.png)
 
 # Discover Seoul's Centuries-Old Culinary Gems Recognized by the Michelin Guide
 
@@ -20,11 +20,9 @@ These spots have been serving up the same iconic dishes for 50 to 100 years, sta
 
 <div class="image-grid-2">
 
-![114_epickor_민호.mp4_20250113_222414.147.jpg](/assets/images/posts/087/475854de-010b-4838-aa97-9e7cf5684fbb.png)
+![epickor_민호.mp4_20250113_222414.147.jpg](/assets/images/posts/087/475854de-010b-4838-aa97-9e7cf5684fbb.png)
 
-![114_epickor_민호.mp4_20250113_222417.608.jpg](/assets/images/posts/087/bc6252f8-729d-4cd1-a233-44cbd803008c.png)
-
-</div>
+![epickor_민호.mp4_20250113_222417.608.jpg](/assets/images/posts/087/bc6252f8-729d-4cd1-a233-44cbd803008c.png)
 
 ---
 
@@ -32,41 +30,15 @@ These spots have been serving up the same iconic dishes for 50 to 100 years, sta
 
 Established in 1904, **Imun Seolnongtang** holds the title of Seoul's oldest *seolleongtang* (ox bone soup) restaurant. The rich, milky broth is achieved by simmering ox bones for hours, resulting in a comforting and hearty meal that has stood the test of time. This establishment is a testament to the enduring appeal of traditional Korean comfort food.
 
-[MICHELIN Guide](https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/imun-seolnongtang?utm_source=chatgpt.com)
+[MICHELIN Guide](https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/imun-seolnongtang?utm![114_epickor_민호.mp4_20250113_222420.074.jpg](/assets/images/posts/087/114_epickor_%EB%AF%BC%ED%98%B8.mp4_20250113_222420.074.jpg)
 
-<div class="image-grid-2">
-
-![114_epickor_민호.mp4_20250113_222420.074.jpg](/assets/images/posts/087/114_epickor_%EB%AF%BC%ED%98%B8.mp4_20250113_222420.074.jpg)
-
-![114_epickor_민호.mp4_20250113_222426.299.jpg](/assets/images/posts/087/114_epickor_%EB%AF%BC%ED%98%B8.mp4_20250113_222426.299.jpg)
-
-</div>
+![epickor_민호.mp4_20250113_222426.299.jpg](/assets/images/posts/087/114_epickor_%EB%AF%BC%ED%98%B8.mp4_20250113_222426.299.jpg)
 
 ---
 
 ### Woo Rae Ok: The Pinnacle of Cold Noodles
 
 ---
-
-### Editor's Pick
-
-<h3>Editor's Pick</h3>
-
-<h3>Editor's Picks for You</h3>
-
-<h3>Editor's Pick</h3>
-
-<h3>Editor's Picks for You</h3>
-
-<div class="amazon-product-card">
-  <div class="product-content">
-    <h4 class="product-title"><a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank">Korean Snack Box</a></h4>
-    <p class="product-description">Bring the taste of Korea to your home with this authentic snack collection</p>
-  </div>
-  <a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
-</div>
-
-*As an Amazon Associate, we earn from qualifying purchases.*
 
 ---
 
@@ -80,11 +52,9 @@ Founded in 1932, **Yonggeumok** specializes in *chueotang*, a distinctive soup m
 
 <div class="image-grid-2">
 
-![114_epickor_민호.mp4_20250113_222429.124.jpg](/assets/images/posts/087/114_epickor_%EB%AF%BC%ED%98%B8.mp4_20250113_222429.124.jpg)
+![epickor_민호.mp4_20250113_222429.124.jpg](/assets/images/posts/087/114_epickor_%EB%AF%BC%ED%98%B8.mp4_20250113_222429.124.jpg)
 
-![114_epickor_민호.mp4_20250113_222449.890.jpg](/assets/images/posts/087/114_epickor_%EB%AF%BC%ED%98%B8.mp4_20250113_222449.890.jpg)
-
-</div>
+![epickor_민호.mp4_20250113_222449.890.jpg](/assets/images/posts/087/114_epickor_%EB%AF%BC%ED%98%B8.mp4_20250113_222449.890.jpg)
 
 ---
 
@@ -94,11 +64,9 @@ Since 1952, **Mijin** has delighted patrons with its *memil guksu* (buckwheat no
 
 <div class="image-grid-2">
 
-![114_epickor_민호.mp4_20250113_222501.936.jpg](/assets/images/posts/087/114_epickor_%EB%AF%BC%ED%98%B8.mp4_20250113_222501.936.jpg)
+![epickor_민호.mp4_20250113_222501.936.jpg](/assets/images/posts/087/114_epickor_%EB%AF%BC%ED%98%B8.mp4_20250113_222501.936.jpg)
 
-![114_epickor_민호.mp4_20250113_223203.480.jpg](/assets/images/posts/087/114_epickor_%EB%AF%BC%ED%98%B8.mp4_20250113_223203.480.jpg)
-
-</div>
+![epickor_민호.mp4_20250113_223203.480.jpg](/assets/images/posts/087/114_epickor_%EB%AF%BC%ED%98%B8.mp4_20250113_223203.480.jpg)
 
 ---
 
@@ -137,22 +105,3 @@ The Michelin Guide has acknowledged the cultural and historical significance of 
 
 ---
 
-### Editor's Picks for You
-
-<div class="amazon-product-card">
-  <div class="product-content">
-    <h4 class="product-title"><a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank">Korean Snack Box</a></h4>
-    <p class="product-description">Bring the taste of Korea to your home with this authentic snack collection</p>
-  </div>
-  <a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
-</div>
-
-<div class="amazon-product-card">
-  <div class="product-content">
-    <h4 class="product-title"><a href="https://amzn.to/3UuA6fM" rel="nofollow sponsored" target="_blank">Gochujang (Chili Paste)</a></h4>
-    <p class="product-description">Spicy Korean chili paste for bold flavors</p>
-  </div>
-  <a href="https://amzn.to/3UuA6fM" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
-</div>
-
-*As an Amazon Associate, we earn from qualifying purchases.*

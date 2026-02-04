@@ -188,8 +188,8 @@ export async function getBlogPost(slug: string): Promise<BlogPost | null> {
     // 1. Process images (resolve paths, center align, auto grid)
     contentHtml = processImages(contentHtml, postSlug);
     
-    // 2. Apply other enhancements
-    contentHtml = enhanceMarkdownHTML(contentHtml, allPosts);
+    // 2. Apply other enhancements (with auto-injected Amazon cards)
+    contentHtml = enhanceMarkdownHTML(contentHtml, allPosts, data.tags || []);
 
     return {
       slug: postSlug,

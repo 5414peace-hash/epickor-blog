@@ -7,7 +7,7 @@ date: '2026-02-03'
 tags: ['Culture', 'Social', 'Travel']
 ---
 
-![115_epickor_%EA%B1%B4%EC%88%9C.mp4_20250114_231026.470.jpg](/assets/images/posts/088/4fda1b66-ba26-4e46-953b-d09ed6eb9d3d.png)
+![epickor_%EA%B1%B4%EC%88%9C.mp4_20250114_231026.470.jpg](/assets/images/posts/088/4fda1b66-ba26-4e46-953b-d09ed6eb9d3d.png)
 
 # Discover Korea’s Ingenious Inventions and Its Unique Culture of Trust
 
@@ -17,11 +17,9 @@ In Korea, elevators are smarter than you think! Accidentally pressed the wrong f
 
 <div class="image-grid-2">
 
-![115_epickor_%EA%B1%B4%EC%88%9C.mp4_20250114_231046.938.jpg](/assets/images/posts/088/115_epickor_%EA%B1%B4%EC%88%9C.mp4_20250114_231046.938.jpg)
+![epickor_%EA%B1%B4%EC%88%9C.mp4_20250114_231046.938.jpg](/assets/images/posts/088/115_epickor_%EA%B1%B4%EC%88%9C.mp4_20250114_231046.938.jpg)
 
-![115_epickor_%EA%B1%B4%EC%88%9C.mp4_20250114_231042.443.jpg](/assets/images/posts/088/115_epickor_%EA%B1%B4%EC%88%9C.mp4_20250114_231042.443.jpg)
-
-</div>
+![epickor_%EA%B1%B4%EC%88%9C.mp4_20250114_231042.443.jpg](/assets/images/posts/088/115_epickor_%EA%B1%B4%EC%88%9C.mp4_20250114_231042.443.jpg)
 
 ---
 
@@ -40,26 +38,6 @@ Korea's subway system is one of the best in the world. Imagine riding a train th
 
 ---
 
-### Editor's Pick
-
-<h3>Editor's Pick</h3>
-
-<h3>Editor's Picks for You</h3>
-
-<h3>Editor's Pick</h3>
-
-<h3>Editor's Picks for You</h3>
-
-<div class="amazon-product-card">
-  <div class="product-content">
-    <h4 class="product-title"><a href="https://amzn.to/3Zgx6Qq" rel="nofollow sponsored" target="_blank">Hangeul Workbook</a></h4>
-    <p class="product-description">Master the Korean alphabet with this beginner-friendly guide</p>
-  </div>
-  <a href="https://amzn.to/3Zgx6Qq" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
-</div>
-
-*As an Amazon Associate, we earn from qualifying purchases.*
-
 ---
 
 ### The “Culture of Trust”
@@ -68,11 +46,9 @@ What truly sets Korea apart, though, is its profound "culture of trust." Outside
 
 <div class="image-grid-2">
 
-![115_epickor_%EA%B1%B4%EC%88%9C.mp4_20250114_231110.277.jpg](/assets/images/posts/088/115_epickor_%EA%B1%B4%EC%88%9C.mp4_20250114_231110.277.jpg)
+![epickor_%EA%B1%B4%EC%88%9C.mp4_20250114_231110.277.jpg](/assets/images/posts/088/115_epickor_%EA%B1%B4%EC%88%9C.mp4_20250114_231110.277.jpg)
 
-![115_epickor_%EA%B1%B4%EC%88%9C.mp4_20250114_231116.236.jpg](/assets/images/posts/088/115_epickor_%EA%B1%B4%EC%88%9C.mp4_20250114_231116.236.jpg)
-
-</div>
+![epickor_%EA%B1%B4%EC%88%9C.mp4_20250114_231116.236.jpg](/assets/images/posts/088/115_epickor_%EA%B1%B4%EC%88%9C.mp4_20250114_231116.236.jpg)
 
 ---
 
@@ -102,42 +78,6 @@ From cancelable elevator buttons to heated subway seats, Korea offers convenienc
     allowfullscreen
     loading="lazy"
   ></iframe>
-</div>
 
 ---
 
-<div class="amazon-affiliate-section">
-  <h3 class="amazon-section-title">Editor's Picks for You</h3>
-  <div class="amazon-products-grid">
-    <div class="amazon-product-card">
-      <div class="amazon-product-card-content">
-        <h4 class="amazon-product-name">Hangeul Workbook</h4>
-        <p class="amazon-product-description">Master the Korean alphabet with this beginner-friendly guide</p>
-        <a 
-          href="https://amzn.to/3Zgx6Qq" 
-          rel="nofollow sponsored" 
-          target="_blank"
-          class="amazon-product-button"
-        >
-          Shop on Amazon →
-        </a>
-      </div>
-    </div>
-    <div class="amazon-product-card">
-      <div class="amazon-product-card-content">
-        <h4 class="amazon-product-name">Korean Snack Box</h4>
-        <p class="amazon-product-description">Bring the taste of Korea to your home with this authentic snack collection</p>
-        <a 
-          href="https://amzn.to/4bubOGe" 
-          rel="nofollow sponsored" 
-          target="_blank"
-          class="amazon-product-button"
-        >
-          Shop on Amazon →
-        </a>
-      </div>
-    </div>
-  </div>
-</div>
-
-*As an Amazon Associate, we earn from qualifying purchases.*

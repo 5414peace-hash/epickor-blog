@@ -11,7 +11,7 @@ tags: ['Culture']
 
 # Explore the meaning behind 5 insightful Korean proverbs and how they reflect universal truths.
 
-![107_epickor_민호.mp4_20250107_221730.430.jpg](/assets/images/posts/080/4fc3feaa-2061-49d7-9bde-7a91d6aeb0e1.png)
+![epickor_민호.mp4_20250107_221730.430.jpg](/assets/images/posts/080/4fc3feaa-2061-49d7-9bde-7a91d6aeb0e1.png)
 
 ### 1. **Don’t Drink Kimchi Soup Before It’s Ready**
 
@@ -23,35 +23,13 @@ This Korean saying, `"김치국부터 마시지 마라,"` is a reminder not to g
 
 <div class="image-grid-2">
 
-![107_epickor_민호.mp4_20250107_222418.593.jpg](/assets/images/posts/080/107_epickor_%EB%AF%BC%ED%98%B8.mp4_20250107_222418.593.jpg)
+![epickor_민호.mp4_20250107_222418.593.jpg](/assets/images/posts/080/107_epickor_%EB%AF%BC%ED%98%B8.mp4_20250107_222418.593.jpg)
 
-![107_epickor_민호.mp4_20250107_222427.228.jpg](/assets/images/posts/080/107_epickor_%EB%AF%BC%ED%98%B8.mp4_20250107_222427.228.jpg)
-
-</div>
+![epickor_민호.mp4_20250107_222427.228.jpg](/assets/images/posts/080/107_epickor_%EB%AF%BC%ED%98%B8.mp4_20250107_222427.228.jpg)
 
 ### 2. **Even a Tiger Appears When Spoken Of**
 
 ---
-
-### Editor's Pick
-
-<h3>Editor's Pick</h3>
-
-<h3>Editor's Picks for You</h3>
-
-<h3>Editor's Pick</h3>
-
-<h3>Editor's Picks for You</h3>
-
-<div class="amazon-product-card">
-  <div class="product-content">
-    <h4 class="product-title"><a href="https://amzn.to/4qhhWVZ" rel="nofollow sponsored" target="_blank">Bibigo Seaweed Snack</a></h4>
-    <p class="product-description">Crispy and healthy Korean seaweed snacks</p>
-  </div>
-  <a href="https://amzn.to/4qhhWVZ" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
-</div>
-
-*As an Amazon Associate, we earn from qualifying purchases.*
 
 ---
 
@@ -71,11 +49,9 @@ The Korean proverb `"호랑이도 제 말 하면 온다"` is similar to the Engl
 
 <div class="image-grid-2">
 
-![107_epickor_민호.mp4_20250107_222438.134.jpg](/assets/images/posts/080/107_epickor_%EB%AF%BC%ED%98%B8.mp4_20250107_222438.134.jpg)
+![epickor_민호.mp4_20250107_222438.134.jpg](/assets/images/posts/080/107_epickor_%EB%AF%BC%ED%98%B8.mp4_20250107_222438.134.jpg)
 
-![107_epickor_민호.mp4_20250107_222442.320.jpg](/assets/images/posts/080/107_epickor_%EB%AF%BC%ED%98%B8.mp4_20250107_222442.320.jpg)
-
-</div>
+![epickor_민호.mp4_20250107_222442.320.jpg](/assets/images/posts/080/107_epickor_%EB%AF%BC%ED%98%B8.mp4_20250107_222442.320.jpg)
 
 ### 4. **Birds Hear the Words by Day, and Rats Hear the Words by Night**
 
@@ -95,11 +71,9 @@ The saying `"바늘 도둑이 소 도둑 된다"` cautions against ignoring smal
 
 <div class="image-grid-2">
 
-![107_epickor_민호.mp4_20250107_222448.447.jpg](/assets/images/posts/080/107_epickor_%EB%AF%BC%ED%98%B8.mp4_20250107_222448.447.jpg)
+![epickor_민호.mp4_20250107_222448.447.jpg](/assets/images/posts/080/107_epickor_%EB%AF%BC%ED%98%B8.mp4_20250107_222448.447.jpg)
 
-![107_epickor_민호.mp4_20250107_222455.054.jpg](/assets/images/posts/080/107_epickor_%EB%AF%BC%ED%98%B8.mp4_20250107_222455.054.jpg)
-
-</div>
+![epickor_민호.mp4_20250107_222455.054.jpg](/assets/images/posts/080/107_epickor_%EB%AF%BC%ED%98%B8.mp4_20250107_222455.054.jpg)
 
 ### 6. **The Day You Go Is Market Day**
 
@@ -122,22 +96,3 @@ The saying `"바늘 도둑이 소 도둑 된다"` cautions against ignoring smal
 
 ---
 
-### Editor's Picks for You
-
-<div class="amazon-product-card">
-  <div class="product-content">
-    <h4 class="product-title"><a href="https://amzn.to/4qhhWVZ" rel="nofollow sponsored" target="_blank">Bibigo Seaweed Snack</a></h4>
-    <p class="product-description">Crispy and healthy Korean seaweed snacks</p>
-  </div>
-  <a href="https://amzn.to/4qhhWVZ" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
-</div>
-
-<div class="amazon-product-card">
-  <div class="product-content">
-    <h4 class="product-title"><a href="https://amzn.to/3Zgx6Qq" rel="nofollow sponsored" target="_blank">Hangeul Workbook</a></h4>
-    <p class="product-description">Master the Korean alphabet with this beginner-friendly guide</p>
-  </div>
-  <a href="https://amzn.to/3Zgx6Qq" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
-</div>
-
-*As an Amazon Associate, we earn from qualifying purchases.*

@@ -7,7 +7,7 @@ date: '2026-02-03'
 tags: ['Culture', 'Travel']
 ---
 
-![019_epickor_휘수.mp4_20240711_105642.837.jpg](/assets/images/posts/019/ab189815-5584-44a7-b130-a6dfd10b076c.png)
+![epickor_휘수.mp4_20240711_105642.837.jpg](/assets/images/posts/019/ab189815-5584-44a7-b130-a6dfd10b076c.png)
 
 # Korean Travel Destinations Loved by Koreans
 
@@ -23,35 +23,13 @@ So, where do many Koreans go to travel? According to actual tourism statistics i
 
 <div class="image-grid-2">
 
-![019_epickor_휘수.mp4_20240711_105712.234.jpg](/assets/images/posts/019/48564206-7b41-4a5e-be85-4bcbec54fcdf.png)
+![epickor_휘수.mp4_20240711_105712.234.jpg](/assets/images/posts/019/48564206-7b41-4a5e-be85-4bcbec54fcdf.png)
 
-![019_epickor_휘수.mp4_20240711_105724.922.jpg](/assets/images/posts/019/5856d517-a161-4341-9475-4f601c59145d.png)
-
-</div>
+![epickor_휘수.mp4_20240711_105724.922.jpg](/assets/images/posts/019/5856d517-a161-4341-9475-4f601c59145d.png)
 
 ### Gyeongju
 
 ---
-
-### Editor's Pick
-
-<h3>Editor's Pick</h3>
-
-<h3>Editor's Picks for You</h3>
-
-<h3>Editor's Pick</h3>
-
-<h3>Editor's Picks for You</h3>
-
-<div class="amazon-product-card">
-  <div class="product-content">
-    <h4 class="product-title"><a href="https://amzn.to/3Zgx6Qq" rel="nofollow sponsored" target="_blank">Hangeul Workbook</a></h4>
-    <p class="product-description">Master the Korean alphabet with this beginner-friendly guide</p>
-  </div>
-  <a href="https://amzn.to/3Zgx6Qq" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
-</div>
-
-*As an Amazon Associate, we earn from qualifying purchases.*
 
 ---
 
@@ -82,22 +60,3 @@ Fourth place is Gangneung and Sokcho, where you can enjoy Korea’s blue East Se
 
 ---
 
-### Editor's Picks for You
-
-<div class="amazon-product-card">
-  <div class="product-content">
-    <h4 class="product-title"><a href="https://amzn.to/3Zgx6Qq" rel="nofollow sponsored" target="_blank">Hangeul Workbook</a></h4>
-    <p class="product-description">Master the Korean alphabet with this beginner-friendly guide</p>
-  </div>
-  <a href="https://amzn.to/3Zgx6Qq" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
-</div>
-
-<div class="amazon-product-card">
-  <div class="product-content">
-    <h4 class="product-title"><a href="https://amzn.to/3MaZWi6" rel="nofollow sponsored" target="_blank">Buldak Spicy Ramen</a></h4>
-    <p class="product-description">Experience the legendary spicy Korean ramen</p>
-  </div>
-  <a href="https://amzn.to/3MaZWi6" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
-</div>
-
-*As an Amazon Associate, we earn from qualifying purchases.*

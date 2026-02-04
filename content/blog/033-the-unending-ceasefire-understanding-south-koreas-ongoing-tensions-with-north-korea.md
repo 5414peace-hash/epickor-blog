@@ -9,7 +9,7 @@ date: '2026-02-03'
 tags: ['Culture', 'Man']
 ---
 
-![033_Epickor_건순.mp4_20240715_221550.896.jpg](/assets/images/posts/033/b4e7bcc1-7922-403e-a696-dd2ecba15a34.png)
+![Epickor_건순.mp4_20240715_221550.896.jpg](/assets/images/posts/033/b4e7bcc1-7922-403e-a696-dd2ecba15a34.png)
 
 # Country at War Without End - South Korea
 
@@ -21,35 +21,13 @@ In 1953, the Korean War didn't conclude with a peace treaty but rather a tempora
 
 <div class="image-grid-2">
 
-![033_Epickor_건순.mp4_20240715_221556.253.jpg](/assets/images/posts/033/95d31a4f-2956-4daa-a230-52af08e10f76.png)
+![Epickor_건순.mp4_20240715_221556.253.jpg](/assets/images/posts/033/95d31a4f-2956-4daa-a230-52af08e10f76.png)
 
-![033_Epickor_건순.mp4_20240715_221559.722.jpg](/assets/images/posts/033/521f1ff4-a98f-4508-8cd7-587cfdff2017.png)
-
-</div>
+![Epickor_건순.mp4_20240715_221559.722.jpg](/assets/images/posts/033/521f1ff4-a98f-4508-8cd7-587cfdff2017.png)
 
 ### Decades of Tension
 
 ---
-
-### Editor's Pick
-
-<h3>Editor's Pick</h3>
-
-<h3>Editor's Picks for You</h3>
-
-<h3>Editor's Pick</h3>
-
-<h3>Editor's Picks for You</h3>
-
-<div class="amazon-product-card">
-  <div class="product-content">
-    <h4 class="product-title"><a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank">Korean Snack Box</a></h4>
-    <p class="product-description">Bring the taste of Korea to your home with this authentic snack collection</p>
-  </div>
-  <a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
-</div>
-
-*As an Amazon Associate, we earn from qualifying purchases.*
 
 ---
 
@@ -73,11 +51,9 @@ Ordinarily, Koreans aren't overly bothered by North Korea's actions. Yet, as Nat
 
 <div class="image-grid-2">
 
-![033_Epickor_건순.mp4_20240715_221629.820.jpg](/assets/images/posts/033/bbb6da52-a12c-4d14-ab0d-4448edd12c31.png)
+![Epickor_건순.mp4_20240715_221629.820.jpg](/assets/images/posts/033/bbb6da52-a12c-4d14-ab0d-4448edd12c31.png)
 
-![033_Epickor_건순.mp4_20240715_221642.052.jpg](/assets/images/posts/033/7988e11a-5e90-417d-90a6-92d9c483e37a.png)
-
-</div>
+![Epickor_건순.mp4_20240715_221642.052.jpg](/assets/images/posts/033/7988e11a-5e90-417d-90a6-92d9c483e37a.png)
 
 ### Everyday Safety
 
@@ -106,22 +82,3 @@ At midnight, a woman can walk to the convenience store alone and buy milk.
 
 ---
 
-### Editor's Picks for You
-
-<div class="amazon-product-card">
-  <div class="product-content">
-    <h4 class="product-title"><a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank">Korean Snack Box</a></h4>
-    <p class="product-description">Bring the taste of Korea to your home with this authentic snack collection</p>
-  </div>
-  <a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
-</div>
-
-<div class="amazon-product-card">
-  <div class="product-content">
-    <h4 class="product-title"><a href="https://amzn.to/3MaZWi6" rel="nofollow sponsored" target="_blank">Buldak Spicy Ramen</a></h4>
-    <p class="product-description">Experience the legendary spicy Korean ramen</p>
-  </div>
-  <a href="https://amzn.to/3MaZWi6" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
-</div>
-
-*As an Amazon Associate, we earn from qualifying purchases.*

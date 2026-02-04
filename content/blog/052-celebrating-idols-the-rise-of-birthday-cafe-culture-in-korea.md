@@ -7,7 +7,7 @@ date: '2026-02-03'
 tags: ['Celeb', 'Culture', 'Kpop']
 ---
 
-![063_EpicKor_진호.mp4_20240725_221434.254.jpg](/assets/images/posts/052/7b32c4a9-5a4b-409d-8c4c-5e15e479d5e6.png)
+![EpicKor_진호.mp4_20240725_221434.254.jpg](/assets/images/posts/052/7b32c4a9-5a4b-409d-8c4c-5e15e479d5e6.png)
 
 # Korean Idol Birthday Cafe Culture
 
@@ -23,26 +23,6 @@ Although it is difficult for idols with birthdays to come to birthday cafes beca
 
 ---
 
-### Editor's Pick
-
-<h3>Editor's Pick</h3>
-
-<h3>Editor's Picks for You</h3>
-
-<h3>Editor's Pick</h3>
-
-<h3>Editor's Picks for You</h3>
-
-<div class="amazon-product-card">
-  <div class="product-content">
-    <h4 class="product-title"><a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank">Korean Snack Box</a></h4>
-    <p class="product-description">Bring the taste of Korea to your home with this authentic snack collection</p>
-  </div>
-  <a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
-</div>
-
-*As an Amazon Associate, we earn from qualifying purchases.*
-
 ---
 
 These birthday cafes have evolved from idol culture and have spread to birthday cafes in various fields such as games, animation, and actors. This expansion shows the broad appeal and adaptability of the concept, attracting diverse fan communities.
@@ -53,11 +33,9 @@ Sometimes, birthday `idols appear` in birthday cafes or communicate with fans th
 
 <div class="image-grid-2">
 
-![063_EpicKor_진호.mp4_20240725_221512.172.jpg](/assets/images/posts/052/063_EpicKor_%EC%A7%84%ED%98%B8.mp4_20240725_221512.172.jpg)
+![EpicKor_진호.mp4_20240725_221512.172.jpg](/assets/images/posts/052/063_EpicKor_%EC%A7%84%ED%98%B8.mp4_20240725_221512.172.jpg)
 
-![063_EpicKor_진호.mp4_20240725_221525.174.jpg](/assets/images/posts/052/063_EpicKor_%EC%A7%84%ED%98%B8.mp4_20240725_221525.174.jpg)
-
-</div>
+![EpicKor_진호.mp4_20240725_221525.174.jpg](/assets/images/posts/052/063_EpicKor_%EC%A7%84%ED%98%B8.mp4_20240725_221525.174.jpg)
 
 ### IU's Remarkable Gesture
 
@@ -80,22 +58,3 @@ Idols who know and appreciate the hearts of their fans are cool, and aren't the 
 
 ---
 
-### Editor's Picks for You
-
-<div class="amazon-product-card">
-  <div class="product-content">
-    <h4 class="product-title"><a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank">Korean Snack Box</a></h4>
-    <p class="product-description">Bring the taste of Korea to your home with this authentic snack collection</p>
-  </div>
-  <a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
-</div>
-
-<div class="amazon-product-card">
-  <div class="product-content">
-    <h4 class="product-title"><a href="https://amzn.to/3MaZWi6" rel="nofollow sponsored" target="_blank">Buldak Spicy Ramen</a></h4>
-    <p class="product-description">Experience the legendary spicy Korean ramen</p>
-  </div>
-  <a href="https://amzn.to/3MaZWi6" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
-</div>
-
-*As an Amazon Associate, we earn from qualifying purchases.*

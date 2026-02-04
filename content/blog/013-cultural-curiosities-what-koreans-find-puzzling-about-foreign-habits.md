@@ -8,7 +8,7 @@ date: '2026-02-03'
 tags: ['Culture', 'Man', 'Woman']
 ---
 
-![013_EpicKor_건순.mp4_20240710_110419.201.jpg](/assets/images/posts/013/44545854-cde8-4bcd-9791-9b422ddce717.png)
+![EpicKor_건순.mp4_20240710_110419.201.jpg](/assets/images/posts/013/44545854-cde8-4bcd-9791-9b422ddce717.png)
 
 # Things Koreans DON’T Understand
 
@@ -35,26 +35,6 @@ This practice is deeply rooted in their traditional lifestyle and cultural value
 
 ---
 
-### Editor's Pick
-
-<h3>Editor's Pick</h3>
-
-<h3>Editor's Picks for You</h3>
-
-<h3>Editor's Pick</h3>
-
-<h3>Editor's Picks for You</h3>
-
-<div class="amazon-product-card">
-  <div class="product-content">
-    <h4 class="product-title"><a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank">Korean Snack Box</a></h4>
-    <p class="product-description">Bring the taste of Korea to your home with this authentic snack collection</p>
-  </div>
-  <a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
-</div>
-
-*As an Amazon Associate, we earn from qualifying purchases.*
-
 ---
 
 **Why `clap or hit` others when laughing?**
@@ -62,11 +42,9 @@ It’s common in Korea for people to clap or lightly hit someone nearby when the
 
 <div class="image-grid-2">
 
-![013_EpicKor_건순.mp4_20240710_110507.298.jpg](/assets/images/posts/013/8d9141df-b36e-484d-bc70-242395052fff.png)
+![EpicKor_건순.mp4_20240710_110507.298.jpg](/assets/images/posts/013/8d9141df-b36e-484d-bc70-242395052fff.png)
 
-![013_EpicKor_건순.mp4_20240710_110539.194.jpg](/assets/images/posts/013/4b5197c4-419f-4cbc-bd0b-cc0509d20194.png)
-
-</div>
+![EpicKor_건순.mp4_20240710_110539.194.jpg](/assets/images/posts/013/4b5197c4-419f-4cbc-bd0b-cc0509d20194.png)
 
 ### Trust in Community
 
@@ -104,22 +82,3 @@ Cultural differences, Korean customs, floor seating, expressive reactions, commu
 
 ---
 
-### Editor's Picks for You
-
-<div class="amazon-product-card">
-  <div class="product-content">
-    <h4 class="product-title"><a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank">Korean Snack Box</a></h4>
-    <p class="product-description">Bring the taste of Korea to your home with this authentic snack collection</p>
-  </div>
-  <a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
-</div>
-
-<div class="amazon-product-card">
-  <div class="product-content">
-    <h4 class="product-title"><a href="https://amzn.to/3MaZWi6" rel="nofollow sponsored" target="_blank">Buldak Spicy Ramen</a></h4>
-    <p class="product-description">Experience the legendary spicy Korean ramen</p>
-  </div>
-  <a href="https://amzn.to/3MaZWi6" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
-</div>
-
-*As an Amazon Associate, we earn from qualifying purchases.*

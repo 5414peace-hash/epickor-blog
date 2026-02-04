@@ -8,7 +8,7 @@ date: '2026-02-03'
 tags: ['Culture', 'Food']
 ---
 
-![008_EpicKor_진호.mp4_20240705_112649.919.jpg](/assets/images/posts/008/e6183b70-1d05-4d16-b31b-88e2842e746a.png)
+![EpicKor_진호.mp4_20240705_112649.919.jpg](/assets/images/posts/008/e6183b70-1d05-4d16-b31b-88e2842e746a.png)
 
 # Why Are Koreans Crazy About Garlic
 
@@ -20,35 +20,13 @@ He even showed a handful of garlic, explaining that what Koreans consider "a lit
 
 <div class="image-grid-2">
 
-![008_EpicKor_진호.mp4_20240705_112657.941.jpg](/assets/images/posts/008/39ef62bd-d1cd-43ab-a8e0-fde064191d0e.png)
+![EpicKor_진호.mp4_20240705_112657.941.jpg](/assets/images/posts/008/39ef62bd-d1cd-43ab-a8e0-fde064191d0e.png)
 
-![008_EpicKor_진호.mp4_20240705_112714.744.jpg](/assets/images/posts/008/108dd9e8-271e-46d0-9a72-0a593831b690.png)
-
-</div>
+![EpicKor_진호.mp4_20240705_112714.744.jpg](/assets/images/posts/008/108dd9e8-271e-46d0-9a72-0a593831b690.png)
 
 ### Garlic Consumption
 
 ---
-
-### Editor's Pick
-
-<h3>Editor's Pick</h3>
-
-<h3>Editor's Picks for You</h3>
-
-<h3>Editor's Pick</h3>
-
-<h3>Editor's Picks for You</h3>
-
-<div class="amazon-product-card">
-  <div class="product-content">
-    <h4 class="product-title"><a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank">Korean Snack Box</a></h4>
-    <p class="product-description">Bring the taste of Korea to your home with this authentic snack collection</p>
-  </div>
-  <a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
-</div>
-
-*As an Amazon Associate, we earn from qualifying purchases.*
 
 ---
 
@@ -56,11 +34,9 @@ In fact, Korean per capita annual garlic consumption ranks first in the world. T
 
 <div class="image-grid-2">
 
-![008_EpicKor_진호.mp4_20240705_112727.407.jpg](/assets/images/posts/008/90f79c40-b16e-4497-9277-53bcfbdb24bc.png)
+![EpicKor_진호.mp4_20240705_112727.407.jpg](/assets/images/posts/008/90f79c40-b16e-4497-9277-53bcfbdb24bc.png)
 
-![008_EpicKor_진호.mp4_20240705_112734.681.jpg](/assets/images/posts/008/9dedebbd-5c3f-4611-afc5-c9af27c140d6.png)
-
-</div>
+![EpicKor_진호.mp4_20240705_112734.681.jpg](/assets/images/posts/008/9dedebbd-5c3f-4611-afc5-c9af27c140d6.png)
 
 ### The Mythical Origins
 
@@ -72,7 +48,7 @@ According to a famous Korean myth, a long time ago, a god from the sky descended
 
 The bear-turned-human married the god and had a son, `Dangun`, who is considered the ancestor of Koreans. Thus, the joke is that Koreans started as a people of garlic from the very beginning with Dangun.
 
-![008_EpicKor_진호.mp4_20240705_112814.237.jpg](/assets/images/posts/008/425f79d7-a047-41ec-9721-ca81ba55d8bc.png)
+![EpicKor_진호.mp4_20240705_112814.237.jpg](/assets/images/posts/008/425f79d7-a047-41ec-9721-ca81ba55d8bc.png)
 
 ### A Nation of Garlic
 
@@ -89,22 +65,3 @@ So, if Korea is a nation of garlic, what about your country?
 
 ---
 
-### Editor's Picks for You
-
-<div class="amazon-product-card">
-  <div class="product-content">
-    <h4 class="product-title"><a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank">Korean Snack Box</a></h4>
-    <p class="product-description">Bring the taste of Korea to your home with this authentic snack collection</p>
-  </div>
-  <a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
-</div>
-
-<div class="amazon-product-card">
-  <div class="product-content">
-    <h4 class="product-title"><a href="https://amzn.to/3MaZWi6" rel="nofollow sponsored" target="_blank">Buldak Spicy Ramen</a></h4>
-    <p class="product-description">Experience the legendary spicy Korean ramen</p>
-  </div>
-  <a href="https://amzn.to/3MaZWi6" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
-</div>
-
-*As an Amazon Associate, we earn from qualifying purchases.*

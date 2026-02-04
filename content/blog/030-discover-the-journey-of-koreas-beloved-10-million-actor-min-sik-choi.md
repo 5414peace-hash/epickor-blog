@@ -8,7 +8,7 @@ date: '2026-02-03'
 tags: ['Celeb', 'Culture', 'Man']
 ---
 
-![030_epickor_진호.mp4_20240715_105900.469.jpg](/assets/images/posts/030/cee879ed-05fe-4fcf-bac6-4f4322ca18fb.png)
+![epickor_진호.mp4_20240715_105900.469.jpg](/assets/images/posts/030/cee879ed-05fe-4fcf-bac6-4f4322ca18fb.png)
 
 # Korea's No.1 Actor: Min-sik Choi
 
@@ -26,37 +26,15 @@ So, actors who appear in movies with 10 million viewers get the special title of
 
 ---
 
-### Editor's Pick
-
-<h3>Editor's Pick</h3>
-
-<h3>Editor's Picks for You</h3>
-
-<h3>Editor's Pick</h3>
-
-<h3>Editor's Picks for You</h3>
-
-<div class="amazon-product-card">
-  <div class="product-content">
-    <h4 class="product-title"><a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank">Korean Snack Box</a></h4>
-    <p class="product-description">Bring the taste of Korea to your home with this authentic snack collection</p>
-  </div>
-  <a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
-</div>
-
-*As an Amazon Associate, we earn from qualifying purchases.*
-
 ---
 
 Previously, in 2014, he appeared in the movie "The Admiral," which tells the story of Korean history, and already became the 10 million actor.
 
 <div class="image-grid-2">
 
-![030_epickor_진호.mp4_20240715_105949.316.jpg](/assets/images/posts/030/030_epickor_%EC%A7%84%ED%98%B8.mp4_20240715_105949.316.jpg)
+![epickor_진호.mp4_20240715_105949.316.jpg](/assets/images/posts/030/030_epickor_%EC%A7%84%ED%98%B8.mp4_20240715_105949.316.jpg)
 
-![030_epickor_진호.mp4_20240715_105938.085.jpg](/assets/images/posts/030/030_epickor_%EC%A7%84%ED%98%B8.mp4_20240715_105938.085.jpg)
-
-</div>
+![epickor_진호.mp4_20240715_105938.085.jpg](/assets/images/posts/030/030_epickor_%EC%A7%84%ED%98%B8.mp4_20240715_105938.085.jpg)
 
 ### Long Career
 
@@ -89,22 +67,3 @@ Whether it's a movie or a drama, when people in Korea say `Min-sik Choi` is in i
 
 ---
 
-### Editor's Picks for You
-
-<div class="amazon-product-card">
-  <div class="product-content">
-    <h4 class="product-title"><a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank">Korean Snack Box</a></h4>
-    <p class="product-description">Bring the taste of Korea to your home with this authentic snack collection</p>
-  </div>
-  <a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
-</div>
-
-<div class="amazon-product-card">
-  <div class="product-content">
-    <h4 class="product-title"><a href="https://amzn.to/4qhhWVZ" rel="nofollow sponsored" target="_blank">Bibigo Seaweed Snack</a></h4>
-    <p class="product-description">Crispy and healthy Korean seaweed snacks</p>
-  </div>
-  <a href="https://amzn.to/4qhhWVZ" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
-</div>
-
-*As an Amazon Associate, we earn from qualifying purchases.*

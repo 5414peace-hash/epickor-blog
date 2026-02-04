@@ -9,7 +9,7 @@ date: '2026-02-03'
 tags: ['Culture', 'Travel']
 ---
 
-![075_Epickor_건순.mp4_20240807_151838.071.jpg](/assets/images/posts/064/165c1dbd-7419-488a-a26f-3907fbfac515.png)
+![Epickor_건순.mp4_20240807_151838.071.jpg](/assets/images/posts/064/165c1dbd-7419-488a-a26f-3907fbfac515.png)
 
 # Not Seoul, but Suwon
 
@@ -23,37 +23,15 @@ This city has a cool old fortress called `Hwaseong`, and an area called `Haenggu
 
 ---
 
-### Editor's Pick
-
-<h3>Editor's Pick</h3>
-
-<h3>Editor's Picks for You</h3>
-
-<h3>Editor's Pick</h3>
-
-<h3>Editor's Picks for You</h3>
-
-<div class="amazon-product-card">
-  <div class="product-content">
-    <h4 class="product-title"><a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank">Korean Snack Box</a></h4>
-    <p class="product-description">Bring the taste of Korea to your home with this authentic snack collection</p>
-  </div>
-  <a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
-</div>
-
-*As an Amazon Associate, we earn from qualifying purchases.*
-
 ---
 
 Walking along the fortress wall in the evening is especially nice because you get to enjoy the `night view` of downtown Suwon.
 
 <div class="image-grid-2">
 
-![075_Epickor_건순.mp4_20240807_151845.615.jpg](/assets/images/posts/064/075_Epickor_%EA%B1%B4%EC%88%9C.mp4_20240807_151845.615.jpg)
+![Epickor_건순.mp4_20240807_151845.615.jpg](/assets/images/posts/064/075_Epickor_%EA%B1%B4%EC%88%9C.mp4_20240807_151845.615.jpg)
 
-![075_Epickor_건순.mp4_20240807_151856.030.jpg](/assets/images/posts/064/075_Epickor_%EA%B1%B4%EC%88%9C.mp4_20240807_151856.030.jpg)
-
-</div>
+![Epickor_건순.mp4_20240807_151856.030.jpg](/assets/images/posts/064/075_Epickor_%EA%B1%B4%EC%88%9C.mp4_20240807_151856.030.jpg)
 
 ### Famous Wang Galbi
 
@@ -67,11 +45,9 @@ It's a great spot for shopping and having fun indoors.
 
 <div class="image-grid-2">
 
-![075_Epickor_건순.mp4_20240807_151901.790.jpg](/assets/images/posts/064/075_Epickor_%EA%B1%B4%EC%88%9C.mp4_20240807_151901.790.jpg)
+![Epickor_건순.mp4_20240807_151901.790.jpg](/assets/images/posts/064/075_Epickor_%EA%B1%B4%EC%88%9C.mp4_20240807_151901.790.jpg)
 
-![075_Epickor_건순.mp4_20240807_151918.806.jpg](/assets/images/posts/064/075_Epickor_%EA%B1%B4%EC%88%9C.mp4_20240807_151918.806.jpg)
-
-</div>
+![Epickor_건순.mp4_20240807_151918.806.jpg](/assets/images/posts/064/075_Epickor_%EA%B1%B4%EC%88%9C.mp4_20240807_151918.806.jpg)
 
 ### A Blend of Past and Present
 
@@ -90,22 +66,3 @@ I totally recommend Suwon as a travel destination in Korea. It's got this awesom
 
 ---
 
-### Editor's Picks for You
-
-<div class="amazon-product-card">
-  <div class="product-content">
-    <h4 class="product-title"><a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank">Korean Snack Box</a></h4>
-    <p class="product-description">Bring the taste of Korea to your home with this authentic snack collection</p>
-  </div>
-  <a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
-</div>
-
-<div class="amazon-product-card">
-  <div class="product-content">
-    <h4 class="product-title"><a href="https://amzn.to/495n6oT" rel="nofollow sponsored" target="_blank">Yellow Ramen Pot</a></h4>
-    <p class="product-description">Authentic Korean ramen pot for perfect noodles</p>
-  </div>
-  <a href="https://amzn.to/495n6oT" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
-</div>
-
-*As an Amazon Associate, we earn from qualifying purchases.*

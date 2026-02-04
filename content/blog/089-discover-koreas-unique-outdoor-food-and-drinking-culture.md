@@ -7,7 +7,7 @@ date: '2026-02-03'
 tags: ['Culture', 'Food', 'Travel']
 ---
 
-![116_epickor_건순.mp4_20250115_222913.308.jpg](/assets/images/posts/089/d6f1969d-a973-4746-b6fa-8573eb1a2410.png)
+![epickor_건순.mp4_20250115_222913.308.jpg](/assets/images/posts/089/d6f1969d-a973-4746-b6fa-8573eb1a2410.png)
 
 # Korean Street Food Bar - Pojangmacha
 
@@ -17,11 +17,9 @@ Pojangmacha offers a unique way to immerse yourself in Korea’s bustling `night
 
 <div class="image-grid-2">
 
-![116_epickor_건순.mp4_20250115_222924.553.jpg](/assets/images/posts/089/116_epickor_%EA%B1%B4%EC%88%9C.mp4_20250115_222924.553.jpg)
+![epickor_건순.mp4_20250115_222924.553.jpg](/assets/images/posts/089/116_epickor_%EA%B1%B4%EC%88%9C.mp4_20250115_222924.553.jpg)
 
-![116_epickor_건순.mp4_20250115_222927.231.jpg](/assets/images/posts/089/116_epickor_%EA%B1%B4%EC%88%9C.mp4_20250115_222927.231.jpg)
-
-</div>
+![epickor_건순.mp4_20250115_222927.231.jpg](/assets/images/posts/089/116_epickor_%EA%B1%B4%EC%88%9C.mp4_20250115_222927.231.jpg)
 
 ---
 
@@ -47,26 +45,6 @@ The food is typically cooked on the spot, adding to the lively and authentic atm
 
 ---
 
-### Editor's Pick
-
-<h3>Editor's Pick</h3>
-
-<h3>Editor's Picks for You</h3>
-
-<h3>Editor's Pick</h3>
-
-<h3>Editor's Picks for You</h3>
-
-<div class="amazon-product-card">
-  <div class="product-content">
-    <h4 class="product-title"><a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank">Korean Snack Box</a></h4>
-    <p class="product-description">Bring the taste of Korea to your home with this authentic snack collection</p>
-  </div>
-  <a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
-</div>
-
-*As an Amazon Associate, we earn from qualifying purchases.*
-
 ---
 
 In the past, Pojangmacha stalls were everywhere. As the sun set, the streets would come alive with colorful tents and the smell of sizzling food. However, regulations have changed, and these stalls are now limited to legally designated areas.
@@ -91,11 +69,9 @@ Pojangmacha culture is deeply rooted in community and connection. Friends, colle
 
 <div class="image-grid-2">
 
-![116_epickor_건순.mp4_20250115_223008.773.jpg](/assets/images/posts/089/116_epickor_%EA%B1%B4%EC%88%9C.mp4_20250115_223008.773.jpg)
+![epickor_건순.mp4_20250115_223008.773.jpg](/assets/images/posts/089/116_epickor_%EA%B1%B4%EC%88%9C.mp4_20250115_223008.773.jpg)
 
-![116_epickor_건순.mp4_20250115_223003.860.jpg](/assets/images/posts/089/116_epickor_%EA%B1%B4%EC%88%9C.mp4_20250115_223003.860.jpg)
-
-</div>
+![epickor_건순.mp4_20250115_223003.860.jpg](/assets/images/posts/089/116_epickor_%EA%B1%B4%EC%88%9C.mp4_20250115_223003.860.jpg)
 
 ---
 
@@ -123,22 +99,3 @@ If you ever find yourself wandering the streets of Korea, don’t miss the chanc
 
 ---
 
-### Editor's Picks for You
-
-<div class="amazon-product-card">
-  <div class="product-content">
-    <h4 class="product-title"><a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank">Korean Snack Box</a></h4>
-    <p class="product-description">Bring the taste of Korea to your home with this authentic snack collection</p>
-  </div>
-  <a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
-</div>
-
-<div class="amazon-product-card">
-  <div class="product-content">
-    <h4 class="product-title"><a href="https://amzn.to/4qhhWVZ" rel="nofollow sponsored" target="_blank">Bibigo Seaweed Snack</a></h4>
-    <p class="product-description">Crispy and healthy Korean seaweed snacks</p>
-  </div>
-  <a href="https://amzn.to/4qhhWVZ" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
-</div>
-
-*As an Amazon Associate, we earn from qualifying purchases.*

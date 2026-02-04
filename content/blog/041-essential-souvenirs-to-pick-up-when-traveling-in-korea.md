@@ -7,7 +7,7 @@ date: '2026-02-03'
 tags: ['Culture', 'Food', 'Shopping', 'Travel']
 ---
 
-![044_EpicKor_요순_bgm제거.mp4_20240719_221427.036.jpg](/assets/images/posts/041/bec1c78f-da60-4744-a1fc-614a21834522.png)
+![EpicKor_요순_bgm제거.mp4_20240719_221427.036.jpg](/assets/images/posts/041/bec1c78f-da60-4744-a1fc-614a21834522.png)
 
 # Korea Travel Must-Buy Items
 
@@ -19,37 +19,15 @@ Red ginseng is a healthy food that is effective in improving immunity. It can be
 
 ---
 
-### Editor's Pick
-
-<h3>Editor's Pick</h3>
-
-<h3>Editor's Picks for You</h3>
-
-<h3>Editor's Pick</h3>
-
-<h3>Editor's Picks for You</h3>
-
-<div class="amazon-product-card">
-  <div class="product-content">
-    <h4 class="product-title"><a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank">Korean Snack Box</a></h4>
-    <p class="product-description">Bring the taste of Korea to your home with this authentic snack collection</p>
-  </div>
-  <a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
-</div>
-
-*As an Amazon Associate, we earn from qualifying purchases.*
-
 ---
 
 In Korea, when you prove yourself, you not only sign, but you also stamp. You can quickly create stamps with `various designs`. Engrave your name or favorite letters and use them in various ways.
 
 <div class="image-grid-2">
 
-![044_EpicKor_요순_bgm제거.mp4_20240719_221522.893.jpg](/assets/images/posts/041/044_EpicKor_%EC%9A%94%EC%88%9C_bgm%EC%A0%9C%EA%B1%B0.mp4_20240719_221522.893.jpg)
+![EpicKor_요순_bgm제거.mp4_20240719_221522.893.jpg](/assets/images/posts/041/044_EpicKor_%EC%9A%94%EC%88%9C_bgm%EC%A0%9C%EA%B1%B0.mp4_20240719_221522.893.jpg)
 
-![044_EpicKor_요순_bgm제거.mp4_20240719_221529.272.jpg](/assets/images/posts/041/044_EpicKor_%EC%9A%94%EC%88%9C_bgm%EC%A0%9C%EA%B1%B0.mp4_20240719_221529.272.jpg)
-
-</div>
+![EpicKor_요순_bgm제거.mp4_20240719_221529.272.jpg](/assets/images/posts/041/044_EpicKor_%EC%9A%94%EC%88%9C_bgm%EC%A0%9C%EA%B1%B0.mp4_20240719_221529.272.jpg)
 
 ### Soju
 
@@ -72,22 +50,3 @@ Korea, a beauty powerhouse. You’ve probably heard of K-beauty. Among the many 
 
 ---
 
-### Editor's Picks for You
-
-<div class="amazon-product-card">
-  <div class="product-content">
-    <h4 class="product-title"><a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank">Korean Snack Box</a></h4>
-    <p class="product-description">Bring the taste of Korea to your home with this authentic snack collection</p>
-  </div>
-  <a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
-</div>
-
-<div class="amazon-product-card">
-  <div class="product-content">
-    <h4 class="product-title"><a href="https://amzn.to/4twhKFk" rel="nofollow sponsored" target="_blank">Round Lab Dokdo Toner</a></h4>
-    <p class="product-description">Hydrating K-beauty toner for radiant skin</p>
-  </div>
-  <a href="https://amzn.to/4twhKFk" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
-</div>
-
-*As an Amazon Associate, we earn from qualifying purchases.*

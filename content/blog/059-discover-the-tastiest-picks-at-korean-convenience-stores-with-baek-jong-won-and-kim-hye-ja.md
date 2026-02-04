@@ -9,7 +9,7 @@ date: '2026-02-03'
 tags: ['Food', 'Shopping', 'Travel']
 ---
 
-![080_epickor_진호.mp4_20240801_221026.739.jpg](/assets/images/posts/059/9f4217c9-a783-4538-9de8-0ba4ece9a096.png)
+![epickor_진호.mp4_20240801_221026.739.jpg](/assets/images/posts/059/9f4217c9-a783-4538-9de8-0ba4ece9a096.png)
 
 # Korea’s Flavor Gurus: Baek and Kim
 
@@ -25,11 +25,9 @@ So who are these two people?
 
 <div class="image-grid-2">
 
-![080_epickor_진호.mp4_20240801_221032.964.jpg](/assets/images/posts/059/080_epickor_%EC%A7%84%ED%98%B8.mp4_20240801_221032.964.jpg)
+![epickor_진호.mp4_20240801_221032.964.jpg](/assets/images/posts/059/080_epickor_%EC%A7%84%ED%98%B8.mp4_20240801_221032.964.jpg)
 
-![080_epickor_진호.mp4_20240801_221040.044.jpg](/assets/images/posts/059/080_epickor_%EC%A7%84%ED%98%B8.mp4_20240801_221040.044.jpg)
-
-</div>
+![epickor_진호.mp4_20240801_221040.044.jpg](/assets/images/posts/059/080_epickor_%EC%A7%84%ED%98%B8.mp4_20240801_221040.044.jpg)
 
 ### Baek Jong-won
 
@@ -41,26 +39,6 @@ He is a famous Korean chef and restaurant businessman who appears on various sho
 
 ---
 
-### Editor's Pick
-
-<h3>Editor's Pick</h3>
-
-<h3>Editor's Picks for You</h3>
-
-<h3>Editor's Pick</h3>
-
-<h3>Editor's Picks for You</h3>
-
-<div class="amazon-product-card">
-  <div class="product-content">
-    <h4 class="product-title"><a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank">Korean Snack Box</a></h4>
-    <p class="product-description">Bring the taste of Korea to your home with this authentic snack collection</p>
-  </div>
-  <a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
-</div>
-
-*As an Amazon Associate, we earn from qualifying purchases.*
-
 ---
 
 Next, the woman’s name is Hyeja Kim. 
@@ -69,11 +47,9 @@ She's a famous Korean actress, loved for her memorable performances in dramas an
 
 <div class="image-grid-2">
 
-![080_epickor_진호.mp4_20240801_221111.167.jpg](/assets/images/posts/059/080_epickor_%EC%A7%84%ED%98%B8.mp4_20240801_221111.167.jpg)
+![epickor_진호.mp4_20240801_221111.167.jpg](/assets/images/posts/059/080_epickor_%EC%A7%84%ED%98%B8.mp4_20240801_221111.167.jpg)
 
-![080_epickor_진호.mp4_20240801_221054.465.jpg](/assets/images/posts/059/080_epickor_%EC%A7%84%ED%98%B8.mp4_20240801_221054.465.jpg)
-
-</div>
+![epickor_진호.mp4_20240801_221054.465.jpg](/assets/images/posts/059/080_epickor_%EC%A7%84%ED%98%B8.mp4_20240801_221054.465.jpg)
 
 Now that you know about these two people, there's only one thing you need to do.
 
@@ -92,22 +68,3 @@ Memorize these two people's faces again and look for them at the convenience sto
 
 ---
 
-### Editor's Picks for You
-
-<div class="amazon-product-card">
-  <div class="product-content">
-    <h4 class="product-title"><a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank">Korean Snack Box</a></h4>
-    <p class="product-description">Bring the taste of Korea to your home with this authentic snack collection</p>
-  </div>
-  <a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
-</div>
-
-<div class="amazon-product-card">
-  <div class="product-content">
-    <h4 class="product-title"><a href="https://amzn.to/4twhKFk" rel="nofollow sponsored" target="_blank">Round Lab Dokdo Toner</a></h4>
-    <p class="product-description">Hydrating K-beauty toner for radiant skin</p>
-  </div>
-  <a href="https://amzn.to/4twhKFk" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
-</div>
-
-*As an Amazon Associate, we earn from qualifying purchases.*

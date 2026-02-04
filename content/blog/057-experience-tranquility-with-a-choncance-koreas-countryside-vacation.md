@@ -8,7 +8,7 @@ date: '2026-02-03'
 tags: ['Culture', 'Food', 'Travel']
 ---
 
-![074_EpicKor_요순.mp4_20240731_221151.210.jpg](/assets/images/posts/057/e9146773-6fdc-4126-b1ef-7b425ba870cf.png)
+![EpicKor_요순.mp4_20240731_221151.210.jpg](/assets/images/posts/057/e9146773-6fdc-4126-b1ef-7b425ba870cf.png)
 
 # Discover Rural Korea - Choncance
 
@@ -22,37 +22,15 @@ It's like when people tired of city life head to the countryside for some peace 
 
 ---
 
-### Editor's Pick
-
-<h3>Editor's Pick</h3>
-
-<h3>Editor's Picks for You</h3>
-
-<h3>Editor's Pick</h3>
-
-<h3>Editor's Picks for You</h3>
-
-<div class="amazon-product-card">
-  <div class="product-content">
-    <h4 class="product-title"><a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank">Korean Snack Box</a></h4>
-    <p class="product-description">Bring the taste of Korea to your home with this authentic snack collection</p>
-  </div>
-  <a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
-</div>
-
-*As an Amazon Associate, we earn from qualifying purchases.*
-
 ---
 
 Imagine grilling pork belly on a pot lid in a traditional Korean mud house or an old countryside house. It’s a whole different taste experience compared to eating at a restaurant.
 
 <div class="image-grid-2">
 
-![074_EpicKor_요순.mp4_20240731_221204.526.jpg](/assets/images/posts/057/074_EpicKor_%EC%9A%94%EC%88%9C.mp4_20240731_221204.526.jpg)
+![EpicKor_요순.mp4_20240731_221204.526.jpg](/assets/images/posts/057/074_EpicKor_%EC%9A%94%EC%88%9C.mp4_20240731_221204.526.jpg)
 
-![074_EpicKor_요순.mp4_20240731_221210.094.jpg](/assets/images/posts/057/074_EpicKor_%EC%9A%94%EC%88%9C.mp4_20240731_221210.094.jpg)
-
-</div>
+![EpicKor_요순.mp4_20240731_221210.094.jpg](/assets/images/posts/057/074_EpicKor_%EC%9A%94%EC%88%9C.mp4_20240731_221210.094.jpg)
 
 ### Authentic Vibe
 
@@ -68,11 +46,9 @@ Since you’re in Korea, why not take a break from the city and try a countrysid
 
 <div class="image-grid-2">
 
-![074_EpicKor_요순.mp4_20240731_221225.408.jpg](/assets/images/posts/057/074_EpicKor_%EC%9A%94%EC%88%9C.mp4_20240731_221225.408.jpg)
+![EpicKor_요순.mp4_20240731_221225.408.jpg](/assets/images/posts/057/074_EpicKor_%EC%9A%94%EC%88%9C.mp4_20240731_221225.408.jpg)
 
-![074_EpicKor_요순.mp4_20240731_221240.483.jpg](/assets/images/posts/057/074_EpicKor_%EC%9A%94%EC%88%9C.mp4_20240731_221240.483.jpg)
-
-</div>
+![EpicKor_요순.mp4_20240731_221240.483.jpg](/assets/images/posts/057/074_EpicKor_%EC%9A%94%EC%88%9C.mp4_20240731_221240.483.jpg)
 
 ### Nearby Spots
 
@@ -95,22 +71,3 @@ Definitely worth a try!
 
 ---
 
-### Editor's Picks for You
-
-<div class="amazon-product-card">
-  <div class="product-content">
-    <h4 class="product-title"><a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank">Korean Snack Box</a></h4>
-    <p class="product-description">Bring the taste of Korea to your home with this authentic snack collection</p>
-  </div>
-  <a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
-</div>
-
-<div class="amazon-product-card">
-  <div class="product-content">
-    <h4 class="product-title"><a href="https://amzn.to/3O5pcqu" rel="nofollow sponsored" target="_blank">Yakgwa (Honey Cookie)</a></h4>
-    <p class="product-description">Traditional Korean honey cookies for a sweet treat</p>
-  </div>
-  <a href="https://amzn.to/3O5pcqu" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
-</div>
-
-*As an Amazon Associate, we earn from qualifying purchases.*

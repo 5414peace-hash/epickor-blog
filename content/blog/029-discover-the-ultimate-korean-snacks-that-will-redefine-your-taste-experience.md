@@ -8,7 +8,7 @@ date: '2026-02-03'
 tags: ['Food', 'Shopping', 'Travel']
 ---
 
-![029_epickor_휘수.mp4_20240715_105611.797.jpg](/assets/images/posts/029/fdd29860-8135-412c-a2b4-8551e90675d0.png)
+![epickor_휘수.mp4_20240715_105611.797.jpg](/assets/images/posts/029/fdd29860-8135-412c-a2b4-8551e90675d0.png)
 
 # 5 Korean Snacks You MUST Try
 
@@ -28,37 +28,15 @@ It's not made in France, but it tastes better than French snacks. There are appl
 
 ---
 
-### Editor's Pick
-
-<h3>Editor's Pick</h3>
-
-<h3>Editor's Picks for You</h3>
-
-<h3>Editor's Pick</h3>
-
-<h3>Editor's Picks for You</h3>
-
-<div class="amazon-product-card">
-  <div class="product-content">
-    <h4 class="product-title"><a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank">Korean Snack Box</a></h4>
-    <p class="product-description">Bring the taste of Korea to your home with this authentic snack collection</p>
-  </div>
-  <a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
-</div>
-
-*As an Amazon Associate, we earn from qualifying purchases.*
-
 ---
 
 These are snacks in the shape of sea creatures that whales would eat, and they have a mysterious yet addictive scent and taste of seafood that cannot be explained in text. But once you taste it, you'll be nodding your head as to why this snack is called Whale Rice. A similar type of snack is `Crab Chips`.
 
 <div class="image-grid-2">
 
-![029_epickor_휘수.mp4_20240715_105619.044.jpg](/assets/images/posts/029/8084b0a7-7012-417a-8313-26f4c73c6f9b.png)
+![epickor_휘수.mp4_20240715_105619.044.jpg](/assets/images/posts/029/8084b0a7-7012-417a-8313-26f4c73c6f9b.png)
 
-![029_epickor_휘수.mp4_20240715_105624.197.jpg](/assets/images/posts/029/fa3bfa45-9beb-4dc9-9f5f-ae81e67f1bfe.png)
-
-</div>
+![epickor_휘수.mp4_20240715_105624.197.jpg](/assets/images/posts/029/fa3bfa45-9beb-4dc9-9f5f-ae81e67f1bfe.png)
 
 ### Homerun Ball
 
@@ -85,22 +63,3 @@ The high-quality wafers are filled with `hazelnuts and chocolate cream`. If you 
 
 ---
 
-### Editor's Picks for You
-
-<div class="amazon-product-card">
-  <div class="product-content">
-    <h4 class="product-title"><a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank">Korean Snack Box</a></h4>
-    <p class="product-description">Bring the taste of Korea to your home with this authentic snack collection</p>
-  </div>
-  <a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
-</div>
-
-<div class="amazon-product-card">
-  <div class="product-content">
-    <h4 class="product-title"><a href="https://amzn.to/4qhhWVZ" rel="nofollow sponsored" target="_blank">Bibigo Seaweed Snack</a></h4>
-    <p class="product-description">Crispy and healthy Korean seaweed snacks</p>
-  </div>
-  <a href="https://amzn.to/4qhhWVZ" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
-</div>
-
-*As an Amazon Associate, we earn from qualifying purchases.*
