@@ -16,11 +16,33 @@ tags: ['Celeb', 'Culture', 'Kpop']
 
 Did you know that there is a hip-hop TV program that ran for 11 years in Korea?
 
+<div class="image-grid-2">
+
 ![005_EpicKor_진호.mp4_20240704_181257.593.jpg](/assets/images/posts/005/8a280ef8-98b0-4c3f-ae38-fb1d2c2ed83f.png)
 
 ![005_EpicKor_진호.mp4_20240704_181252.161.jpg](/assets/images/posts/005/834d1781-b34f-4522-9414-b5a778dc3fc9.png)
 
+</div>
+
 ### The Birth of 'SHOW ME THE MONEY'
+
+
+
+---
+
+### Editor's Pick
+
+<div class="amazon-product-card">
+  <div class="product-content">
+    <h4 class="product-title"><a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank">Korean Snack Box</a></h4>
+    <p class="product-description">Bring the taste of Korea to your home with this authentic snack collection</p>
+  </div>
+  <a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
+</div>
+
+*As an Amazon Associate, we earn from qualifying purchases.*
+
+---
 
 It’s called `‘SHOW ME THE MONEY’`. This program was first aired on M.net in 2012. 
 
@@ -38,13 +60,21 @@ It was a shortcut to becoming a superstar, with such influence that not only M.n
 
 The rapper who became a superstar through ‘SHOW ME THE MONEY’ includes:
 
+<div class="image-grid-2">
+
 ![005_EpicKor_진호.mp4_20240704_181348.841.jpg](/assets/images/posts/005/224b5237-f362-4cf4-9163-868e71be282f.png)
 
 ![005_EpicKor_진호.mp4_20240704_181351.402.jpg](/assets/images/posts/005/490179a6-e9fd-4a56-aeeb-f3e47f5ad635.png)
 
+</div>
+
+<div class="image-grid-2">
+
 ![005_EpicKor_진호.mp4_20240704_181356.169.jpg](/assets/images/posts/005/bb09cda5-e139-4378-850f-2cd2cc76cda2.png)
 
 ![005_EpicKor_진호.mp4_20240704_181358.073.jpg](/assets/images/posts/005/2655b904-6843-4be7-916d-94d10fede691.png)
+
+</div>
 
 - Season 1’s **LOCO**
 - Season 3’s **BOBBY**
@@ -73,3 +103,26 @@ Keywords: Korean hip-hop, SHOW ME THE MONEY, M.net, underground rappers, popular
 [MUST BUY K-BEAUTY Items in Korea Olive Young](https://www.epickor.com/blog/028)
 
 [Discover the Ultimate Korean Snacks That Will Redefine Your Taste Experience](https://www.epickor.com/blog/029)
+
+
+---
+
+### Editor's Picks for You
+
+<div class="amazon-product-card">
+  <div class="product-content">
+    <h4 class="product-title"><a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank">Korean Snack Box</a></h4>
+    <p class="product-description">Bring the taste of Korea to your home with this authentic snack collection</p>
+  </div>
+  <a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
+</div>
+
+<div class="amazon-product-card">
+  <div class="product-content">
+    <h4 class="product-title"><a href="https://amzn.to/4twhKFk" rel="nofollow sponsored" target="_blank">Round Lab Dokdo Toner</a></h4>
+    <p class="product-description">Hydrating K-beauty toner for radiant skin</p>
+  </div>
+  <a href="https://amzn.to/4twhKFk" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
+</div>
+
+*As an Amazon Associate, we earn from qualifying purchases.*

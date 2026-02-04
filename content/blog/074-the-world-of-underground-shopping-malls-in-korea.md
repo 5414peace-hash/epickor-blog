@@ -21,11 +21,33 @@ With everything from movie theaters to restaurants, clothing stores, and accesso
 
 ### 2. Gangnam Station Underground Shopping Mall
 
+
+
+---
+
+### Editor's Pick
+
+<div class="amazon-product-card">
+  <div class="product-content">
+    <h4 class="product-title"><a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank">Korean Snack Box</a></h4>
+    <p class="product-description">Bring the taste of Korea to your home with this authentic snack collection</p>
+  </div>
+  <a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
+</div>
+
+*As an Amazon Associate, we earn from qualifying purchases.*
+
+---
+
 Gangnam Station on `Subway Line 2` is not only known for its bustling streets but also for its underground shopping mall. It's perfect for those looking to do some light shopping, with a wide range of clothing stores and accessory shops available.
+
+<div class="image-grid-2">
 
 ![106_epickor_건순.mp4_20240919_111617.641.jpg](/assets/images/posts/074/106_epickor_%EA%B1%B4%EC%88%9C.mp4_20240919_111617.641.jpg)
 
 ![106_epickor_건순.mp4_20240919_111556.496.jpg](/assets/images/posts/074/106_epickor_%EA%B1%B4%EC%88%9C.mp4_20240919_111556.496.jpg)
+
+</div>
 
 ### 3. Express Bus Terminal Underground Shopping Mall
 
@@ -66,3 +88,26 @@ The underground shopping mall at the Express Bus Terminal, where `Subway Lines 3
 [Uncover the Truth About Learning Korean: Challenges and Tips for Beginners](https://www.epickor.com/blog/068)
 
 [Not Seoul, but Gyeongju: A Cultural Journey](https://www.epickor.com/blog/069)
+
+
+---
+
+### Editor's Picks for You
+
+<div class="amazon-product-card">
+  <div class="product-content">
+    <h4 class="product-title"><a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank">Korean Snack Box</a></h4>
+    <p class="product-description">Bring the taste of Korea to your home with this authentic snack collection</p>
+  </div>
+  <a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
+</div>
+
+<div class="amazon-product-card">
+  <div class="product-content">
+    <h4 class="product-title"><a href="https://amzn.to/467PaA7" rel="nofollow sponsored" target="_blank">Ssamjang (Soybean Paste)</a></h4>
+    <p class="product-description">Essential Korean dipping sauce for authentic flavors</p>
+  </div>
+  <a href="https://amzn.to/467PaA7" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
+</div>
+
+*As an Amazon Associate, we earn from qualifying purchases.*

@@ -29,11 +29,33 @@ For example, in English, you say “I eat pizza,” but in Korean, it’s “I p
 
 Additionally, there are honorifics—different ways of speaking depending on who you're talking to, adding another layer of complexity.
 
+<div class="image-grid-2">
+
 ![094_epickor_민호.mp4_20240809_184624.147.jpg](/assets/images/posts/068/094_epickor_%EB%AF%BC%ED%98%B8.mp4_20240809_184624.147.jpg)
 
 ![094_epickor_민호.mp4_20240809_184629.563.jpg](/assets/images/posts/068/094_epickor_%EB%AF%BC%ED%98%B8.mp4_20240809_184629.563.jpg)
 
+</div>
+
 ### Pronunciation Challenges
+
+
+
+---
+
+### Editor's Pick
+
+<div class="amazon-product-card">
+  <div class="product-content">
+    <h4 class="product-title"><a href="https://amzn.to/3Zgx6Qq" rel="nofollow sponsored" target="_blank">Hangeul Workbook</a></h4>
+    <p class="product-description">Master the Korean alphabet with this beginner-friendly guide</p>
+  </div>
+  <a href="https://amzn.to/3Zgx6Qq" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
+</div>
+
+*As an Amazon Associate, we earn from qualifying purchases.*
+
+---
 
 **Pronunciation** can also be tricky. Korean includes sounds that don’t exist in English, such as the double consonants `“ㅃ” or “ㄸ.”` These unique sounds can take time to master.
 
@@ -41,9 +63,13 @@ Additionally, there are honorifics—different ways of speaking depending on who
 
 **Learning Korean** is a whole new adventure for many Americans, who often find languages like Spanish or French easier due to similar vocabulary and sentence structure. With Korean, you need to familiarize yourself with new characters and grammar rules.
 
+<div class="image-grid-2">
+
 ![094_epickor_민호.mp4_20240809_184637.443.jpg](/assets/images/posts/068/094_epickor_%EB%AF%BC%ED%98%B8.mp4_20240809_184637.443.jpg)
 
 ![094_epickor_민호.mp4_20240809_184650.748.jpg](/assets/images/posts/068/094_epickor_%EB%AF%BC%ED%98%B8.mp4_20240809_184650.748.jpg)
+
+</div>
 
 ### Tips for Learning Korean
 
@@ -83,3 +109,26 @@ The best tip is to meet good **Korean friends** and talk to them. Next time, sha
 [Unpacking the Global Obsession with Korea’s ‘K’ Branding](https://www.epickor.com/blog/085)
 
 [Dive into Summer Fun at the Han River Swimming Pools in Seoul](https://www.epickor.com/blog/066)
+
+
+---
+
+### Editor's Picks for You
+
+<div class="amazon-product-card">
+  <div class="product-content">
+    <h4 class="product-title"><a href="https://amzn.to/3Zgx6Qq" rel="nofollow sponsored" target="_blank">Hangeul Workbook</a></h4>
+    <p class="product-description">Master the Korean alphabet with this beginner-friendly guide</p>
+  </div>
+  <a href="https://amzn.to/3Zgx6Qq" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
+</div>
+
+<div class="amazon-product-card">
+  <div class="product-content">
+    <h4 class="product-title"><a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank">Korean Snack Box</a></h4>
+    <p class="product-description">Bring the taste of Korea to your home with this authentic snack collection</p>
+  </div>
+  <a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
+</div>
+
+*As an Amazon Associate, we earn from qualifying purchases.*

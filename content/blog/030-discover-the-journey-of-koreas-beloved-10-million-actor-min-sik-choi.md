@@ -24,11 +24,33 @@ So, actors who appear in movies with 10 million viewers get the special title of
 
 ### Previous Success
 
+
+
+---
+
+### Editor's Pick
+
+<div class="amazon-product-card">
+  <div class="product-content">
+    <h4 class="product-title"><a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank">Korean Snack Box</a></h4>
+    <p class="product-description">Bring the taste of Korea to your home with this authentic snack collection</p>
+  </div>
+  <a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
+</div>
+
+*As an Amazon Associate, we earn from qualifying purchases.*
+
+---
+
 Previously, in 2014, he appeared in the movie "The Admiral," which tells the story of Korean history, and already became the 10 million actor.
+
+<div class="image-grid-2">
 
 ![030_epickor_진호.mp4_20240715_105949.316.jpg](/assets/images/posts/030/030_epickor_%EC%A7%84%ED%98%B8.mp4_20240715_105949.316.jpg)
 
 ![030_epickor_진호.mp4_20240715_105938.085.jpg](/assets/images/posts/030/030_epickor_%EC%A7%84%ED%98%B8.mp4_20240715_105938.085.jpg)
+
+</div>
 
 ### Long Career
 
@@ -64,3 +86,26 @@ Whether it's a movie or a drama, when people in Korea say `Min-sik Choi` is in i
 [Experience the Magic of Sokcho-Eye Before It's Gone](https://www.epickor.com/travel/004)
 
 [Explore the Scenic Beauty of Cheongok Mountain](https://www.epickor.com/travel/005)
+
+
+---
+
+### Editor's Picks for You
+
+<div class="amazon-product-card">
+  <div class="product-content">
+    <h4 class="product-title"><a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank">Korean Snack Box</a></h4>
+    <p class="product-description">Bring the taste of Korea to your home with this authentic snack collection</p>
+  </div>
+  <a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
+</div>
+
+<div class="amazon-product-card">
+  <div class="product-content">
+    <h4 class="product-title"><a href="https://amzn.to/4qhhWVZ" rel="nofollow sponsored" target="_blank">Bibigo Seaweed Snack</a></h4>
+    <p class="product-description">Crispy and healthy Korean seaweed snacks</p>
+  </div>
+  <a href="https://amzn.to/4qhhWVZ" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
+</div>
+
+*As an Amazon Associate, we earn from qualifying purchases.*

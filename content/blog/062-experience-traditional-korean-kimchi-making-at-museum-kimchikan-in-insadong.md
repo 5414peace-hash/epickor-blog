@@ -20,11 +20,33 @@ You’ve heard of buldak, chicken, kimbap, and gim (seaweed), but another iconic
 
 At a museum in Insadong, Seoul, you can experience making and tasting kimchi yourself. You can also try kimchi jeon, a Korean-style pancake made with kimchi.
 
+<div class="image-grid-2">
+
 ![086_epickor_진호.mp4_20240807_143344.588.jpg](/assets/images/posts/062/086_epickor_%EC%A7%84%ED%98%B8.mp4_20240807_143344.588.jpg)
 
 ![086_epickor_진호.mp4_20240807_143349.147.jpg](/assets/images/posts/062/086_epickor_%EC%A7%84%ED%98%B8.mp4_20240807_143349.147.jpg)
 
+</div>
+
 ### Cultural Insights
+
+
+
+---
+
+### Editor's Pick
+
+<div class="amazon-product-card">
+  <div class="product-content">
+    <h4 class="product-title"><a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank">Korean Snack Box</a></h4>
+    <p class="product-description">Bring the taste of Korea to your home with this authentic snack collection</p>
+  </div>
+  <a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
+</div>
+
+*As an Amazon Associate, we earn from qualifying purchases.*
+
+---
 
 Learn everything about kimchi, from its history and culture to regional variations. 
 
@@ -52,3 +74,26 @@ This popular spot among tourists is called "`Museum Kimchikan`." Be sure to book
 [Experience Tranquility with a 'Choncance' - Korea's Countryside Vacation](https://www.epickor.com/blog/057)
 
 [Newest Hotspots in Seoul, Korea - Yongsan](https://www.epickor.com/blog/047)
+
+
+---
+
+### Editor's Picks for You
+
+<div class="amazon-product-card">
+  <div class="product-content">
+    <h4 class="product-title"><a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank">Korean Snack Box</a></h4>
+    <p class="product-description">Bring the taste of Korea to your home with this authentic snack collection</p>
+  </div>
+  <a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
+</div>
+
+<div class="amazon-product-card">
+  <div class="product-content">
+    <h4 class="product-title"><a href="https://amzn.to/3Zgx6Qq" rel="nofollow sponsored" target="_blank">Hangeul Workbook</a></h4>
+    <p class="product-description">Master the Korean alphabet with this beginner-friendly guide</p>
+  </div>
+  <a href="https://amzn.to/3Zgx6Qq" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
+</div>
+
+*As an Amazon Associate, we earn from qualifying purchases.*

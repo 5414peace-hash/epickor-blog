@@ -17,11 +17,33 @@ Today I would like to talk about Korean food, which surprises people all over th
 
 Recently, Korean chicken was featured on *Taste of Home*, a famous American cooking media. Published in 1993, *Taste of Home* is a credible magazine with an average of 20 million website visitors per month.
 
+<div class="image-grid-2">
+
 ![018_EpicKor_진호.mp4_20240711_105628.649.jpg](/assets/images/posts/018/833e943a-2661-4794-ad11-214e305cae57.png)
 
 ![018_EpicKor_진호.mp4_20240711_105626.058.jpg](/assets/images/posts/018/d35e200f-7d11-47e8-a4e6-b94e1158918a.png)
 
+</div>
+
 ### Top-Ranked Fried Chicken
+
+
+
+---
+
+### Editor's Pick
+
+<div class="amazon-product-card">
+  <div class="product-content">
+    <h4 class="product-title"><a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank">Korean Snack Box</a></h4>
+    <p class="product-description">Bring the taste of Korea to your home with this authentic snack collection</p>
+  </div>
+  <a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
+</div>
+
+*As an Amazon Associate, we earn from qualifying purchases.*
+
+---
 
 This magazine, published in the United States, the home of chicken, selected the most delicious fried chicken, and Korean chicken took first place, beating all global brands such as KFC and Popeyes. Chicken from a `Korean BBQ brand` won best chicken and best wings.
 
@@ -45,3 +67,26 @@ Korean chicken, global food trends, Taste of Home, best fried chicken, Korean BB
 [Discover the Tastiest Picks at Korean Convenience Stores with Baek Jong-won and Kim Hye-ja](https://www.epickor.com/blog/059)
 
 [What Should You Drink in Korea Other Than ‘Soju’? : Travel Korea](https://www.epickor.com/blog/060)
+
+
+---
+
+### Editor's Picks for You
+
+<div class="amazon-product-card">
+  <div class="product-content">
+    <h4 class="product-title"><a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank">Korean Snack Box</a></h4>
+    <p class="product-description">Bring the taste of Korea to your home with this authentic snack collection</p>
+  </div>
+  <a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
+</div>
+
+<div class="amazon-product-card">
+  <div class="product-content">
+    <h4 class="product-title"><a href="https://amzn.to/467PaA7" rel="nofollow sponsored" target="_blank">Ssamjang (Soybean Paste)</a></h4>
+    <p class="product-description">Essential Korean dipping sauce for authentic flavors</p>
+  </div>
+  <a href="https://amzn.to/467PaA7" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
+</div>
+
+*As an Amazon Associate, we earn from qualifying purchases.*

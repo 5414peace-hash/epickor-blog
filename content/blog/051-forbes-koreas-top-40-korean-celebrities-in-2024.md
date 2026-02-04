@@ -22,6 +22,24 @@ The evaluation is based on 50% of the year's income and 50% on the influence of 
 
 ### Top 11 Korean Celebrities
 
+
+
+---
+
+### Editor's Pick
+
+<div class="amazon-product-card">
+  <div class="product-content">
+    <h4 class="product-title"><a href="https://amzn.to/4qhhWVZ" rel="nofollow sponsored" target="_blank">Bibigo Seaweed Snack</a></h4>
+    <p class="product-description">Crispy and healthy Korean seaweed snacks</p>
+  </div>
+  <a href="https://amzn.to/4qhhWVZ" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
+</div>
+
+*As an Amazon Associate, we earn from qualifying purchases.*
+
+---
+
 **11th Cha Eun-woo**:
 Cha Eun-woo is known for his stunning visuals and acting skills, earning him a spot in the top 11.
 
@@ -49,9 +67,13 @@ Minjae Kim, an actor, has risen to fame with his remarkable acting in popular dr
 **3rd New Jeans**:
 The girl group New Jeans has quickly become a favorite with their fresh style and energetic performances.
 
+<div class="image-grid-2">
+
 ![062_epickor_민호.mp4_20240724_221440.024.jpg](/assets/images/posts/051/062_epickor_%EB%AF%BC%ED%98%B8.mp4_20240724_221440.024.jpg)
 
 ![062_epickor_민호.mp4_20240724_221443.056.jpg](/assets/images/posts/051/062_epickor_%EB%AF%BC%ED%98%B8.mp4_20240724_221443.056.jpg)
+
+</div>
 
 **2nd Son Heung-min**:
 Son Heung-min, a renowned footballer, continues to impress fans worldwide with his skills and sportsmanship.
@@ -59,9 +81,13 @@ Son Heung-min, a renowned footballer, continues to impress fans worldwide with h
 **1st Blackpink**:
 The long-awaited first place is taken by Blackpink, who have set new records and continue to lead in global popularity.
 
+<div class="image-grid-2">
+
 ![062_epickor_민호.mp4_20240724_221444.959.jpg](/assets/images/posts/051/062_epickor_%EB%AF%BC%ED%98%B8.mp4_20240724_221444.959.jpg)
 
 ![062_epickor_민호.mp4_20240724_221455.156.jpg](/assets/images/posts/051/062_epickor_%EB%AF%BC%ED%98%B8.mp4_20240724_221455.156.jpg)
+
+</div>
 
 ### Celebrity Dynamics
 
@@ -91,3 +117,26 @@ For the past five years, BTS has consistently ranked first as a group. However, 
 [The Cultural Significance Behind Blood Types in Korea](https://www.epickor.com/blog/011)
 
 [Discover the Unbelievable Amenities at Korean Highway Rest Areas](https://www.epickor.com/blog/012)
+
+
+---
+
+### Editor's Picks for You
+
+<div class="amazon-product-card">
+  <div class="product-content">
+    <h4 class="product-title"><a href="https://amzn.to/4qhhWVZ" rel="nofollow sponsored" target="_blank">Bibigo Seaweed Snack</a></h4>
+    <p class="product-description">Crispy and healthy Korean seaweed snacks</p>
+  </div>
+  <a href="https://amzn.to/4qhhWVZ" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
+</div>
+
+<div class="amazon-product-card">
+  <div class="product-content">
+    <h4 class="product-title"><a href="https://amzn.to/3Zgx6Qq" rel="nofollow sponsored" target="_blank">Hangeul Workbook</a></h4>
+    <p class="product-description">Master the Korean alphabet with this beginner-friendly guide</p>
+  </div>
+  <a href="https://amzn.to/3Zgx6Qq" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
+</div>
+
+*As an Amazon Associate, we earn from qualifying purchases.*

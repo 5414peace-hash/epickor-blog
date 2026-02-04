@@ -21,11 +21,33 @@ This Korean saying, `"김치국부터 마시지 마라,"` is a reminder not to g
 
 ---
 
+<div class="image-grid-2">
+
 ![107_epickor_민호.mp4_20250107_222418.593.jpg](/assets/images/posts/080/107_epickor_%EB%AF%BC%ED%98%B8.mp4_20250107_222418.593.jpg)
 
 ![107_epickor_민호.mp4_20250107_222427.228.jpg](/assets/images/posts/080/107_epickor_%EB%AF%BC%ED%98%B8.mp4_20250107_222427.228.jpg)
 
+</div>
+
 ### 2. **Even a Tiger Appears When Spoken Of**
+
+
+
+---
+
+### Editor's Pick
+
+<div class="amazon-product-card">
+  <div class="product-content">
+    <h4 class="product-title"><a href="https://amzn.to/4qhhWVZ" rel="nofollow sponsored" target="_blank">Bibigo Seaweed Snack</a></h4>
+    <p class="product-description">Crispy and healthy Korean seaweed snacks</p>
+  </div>
+  <a href="https://amzn.to/4qhhWVZ" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
+</div>
+
+*As an Amazon Associate, we earn from qualifying purchases.*
+
+---
 
 **Translated Content**:
 
@@ -41,9 +63,13 @@ The Korean proverb `"호랑이도 제 말 하면 온다"` is similar to the Engl
 
 ---
 
+<div class="image-grid-2">
+
 ![107_epickor_민호.mp4_20250107_222438.134.jpg](/assets/images/posts/080/107_epickor_%EB%AF%BC%ED%98%B8.mp4_20250107_222438.134.jpg)
 
 ![107_epickor_민호.mp4_20250107_222442.320.jpg](/assets/images/posts/080/107_epickor_%EB%AF%BC%ED%98%B8.mp4_20250107_222442.320.jpg)
+
+</div>
 
 ### 4. **Birds Hear the Words by Day, and Rats Hear the Words by Night**
 
@@ -61,9 +87,13 @@ The saying `"바늘 도둑이 소 도둑 된다"` cautions against ignoring smal
 
 ---
 
+<div class="image-grid-2">
+
 ![107_epickor_민호.mp4_20250107_222448.447.jpg](/assets/images/posts/080/107_epickor_%EB%AF%BC%ED%98%B8.mp4_20250107_222448.447.jpg)
 
 ![107_epickor_민호.mp4_20250107_222455.054.jpg](/assets/images/posts/080/107_epickor_%EB%AF%BC%ED%98%B8.mp4_20250107_222455.054.jpg)
+
+</div>
 
 ### 6. **The Day You Go Is Market Day**
 
@@ -99,3 +129,26 @@ The saying `"바늘 도둑이 소 도둑 된다"` cautions against ignoring smal
 [2030 Koreans' Summer K-POP Hits](https://www.epickor.com/blog/058)
 
 [Discover the Tastiest Picks at Korean Convenience Stores with Baek Jong-won and Kim Hye-ja](https://www.epickor.com/blog/059)
+
+
+---
+
+### Editor's Picks for You
+
+<div class="amazon-product-card">
+  <div class="product-content">
+    <h4 class="product-title"><a href="https://amzn.to/4qhhWVZ" rel="nofollow sponsored" target="_blank">Bibigo Seaweed Snack</a></h4>
+    <p class="product-description">Crispy and healthy Korean seaweed snacks</p>
+  </div>
+  <a href="https://amzn.to/4qhhWVZ" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
+</div>
+
+<div class="amazon-product-card">
+  <div class="product-content">
+    <h4 class="product-title"><a href="https://amzn.to/3Zgx6Qq" rel="nofollow sponsored" target="_blank">Hangeul Workbook</a></h4>
+    <p class="product-description">Master the Korean alphabet with this beginner-friendly guide</p>
+  </div>
+  <a href="https://amzn.to/3Zgx6Qq" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
+</div>
+
+*As an Amazon Associate, we earn from qualifying purchases.*

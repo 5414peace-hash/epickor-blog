@@ -21,11 +21,33 @@ This city has a cool old fortress called `Hwaseong`, and an area called `Haenggu
 
 ### Evening Walks
 
+
+
+---
+
+### Editor's Pick
+
+<div class="amazon-product-card">
+  <div class="product-content">
+    <h4 class="product-title"><a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank">Korean Snack Box</a></h4>
+    <p class="product-description">Bring the taste of Korea to your home with this authentic snack collection</p>
+  </div>
+  <a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
+</div>
+
+*As an Amazon Associate, we earn from qualifying purchases.*
+
+---
+
 Walking along the fortress wall in the evening is especially nice because you get to enjoy the `night view` of downtown Suwon.
+
+<div class="image-grid-2">
 
 ![075_Epickor_건순.mp4_20240807_151845.615.jpg](/assets/images/posts/064/075_Epickor_%EA%B1%B4%EC%88%9C.mp4_20240807_151845.615.jpg)
 
 ![075_Epickor_건순.mp4_20240807_151856.030.jpg](/assets/images/posts/064/075_Epickor_%EA%B1%B4%EC%88%9C.mp4_20240807_151856.030.jpg)
+
+</div>
 
 ### Famous Wang Galbi
 
@@ -37,9 +59,13 @@ On top of that, a huge shopping mall called `Starfield` just opened in Suwon.
 
 It's a great spot for shopping and having fun indoors.
 
+<div class="image-grid-2">
+
 ![075_Epickor_건순.mp4_20240807_151901.790.jpg](/assets/images/posts/064/075_Epickor_%EA%B1%B4%EC%88%9C.mp4_20240807_151901.790.jpg)
 
 ![075_Epickor_건순.mp4_20240807_151918.806.jpg](/assets/images/posts/064/075_Epickor_%EA%B1%B4%EC%88%9C.mp4_20240807_151918.806.jpg)
+
+</div>
 
 ### A Blend of Past and Present
 
@@ -61,3 +87,26 @@ I totally recommend Suwon as a travel destination in Korea. It's got this awesom
 [Koreans Never Wait: The Speed of Life in Korea](https://www.epickor.com/blog/055)
 
 [Unveiling Korea: From K-pop to Historic Triumphs and Tragedies](https://www.epickor.com/blog/056)
+
+
+---
+
+### Editor's Picks for You
+
+<div class="amazon-product-card">
+  <div class="product-content">
+    <h4 class="product-title"><a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank">Korean Snack Box</a></h4>
+    <p class="product-description">Bring the taste of Korea to your home with this authentic snack collection</p>
+  </div>
+  <a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
+</div>
+
+<div class="amazon-product-card">
+  <div class="product-content">
+    <h4 class="product-title"><a href="https://amzn.to/495n6oT" rel="nofollow sponsored" target="_blank">Yellow Ramen Pot</a></h4>
+    <p class="product-description">Authentic Korean ramen pot for perfect noodles</p>
+  </div>
+  <a href="https://amzn.to/495n6oT" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
+</div>
+
+*As an Amazon Associate, we earn from qualifying purchases.*

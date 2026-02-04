@@ -22,13 +22,35 @@ Many Japanese tourists feature Viyott in their vlogs, showing its widespread pop
 
 ### Unique to Korea
 
+
+
+---
+
+### Editor's Pick
+
+<div class="amazon-product-card">
+  <div class="product-content">
+    <h4 class="product-title"><a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank">Korean Snack Box</a></h4>
+    <p class="product-description">Bring the taste of Korea to your home with this authentic snack collection</p>
+  </div>
+  <a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
+</div>
+
+*As an Amazon Associate, we earn from qualifying purchases.*
+
+---
+
 Viyott cannot be exported due to its expiration date, making it exclusive to Korea. 
 
 This exclusivity adds to its appeal among Japanese visitors.
 
+<div class="image-grid-2">
+
 ![032_Epickor_민호.mp4_20240715_221508.456.jpg](/assets/images/posts/032/8fe17d65-0b35-414b-bc62-2f236aa6c500.png)
 
 ![032_Epickor_민호.mp4_20240715_221519.515.jpg](/assets/images/posts/032/032_Epickor_%EB%AF%BC%ED%98%B8.mp4_20240715_221519.515.jpg)
+
+</div>
 
 ### Quality Ingredients
 
@@ -70,3 +92,26 @@ Interestingly, many Koreans are unaware of Viyott's immense popularity among Jap
 [Explore Seoul's Premier Downtown Resting Place Along Cheonggyecheon Stream](https://www.epickor.com/travel/002)
 
 [Discover Sinsa Station: The Heart of Seoul's Trendy Garosu-gil](https://www.epickor.com/travel/003)
+
+
+---
+
+### Editor's Picks for You
+
+<div class="amazon-product-card">
+  <div class="product-content">
+    <h4 class="product-title"><a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank">Korean Snack Box</a></h4>
+    <p class="product-description">Bring the taste of Korea to your home with this authentic snack collection</p>
+  </div>
+  <a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
+</div>
+
+<div class="amazon-product-card">
+  <div class="product-content">
+    <h4 class="product-title"><a href="https://amzn.to/3Zgx6Qq" rel="nofollow sponsored" target="_blank">Hangeul Workbook</a></h4>
+    <p class="product-description">Master the Korean alphabet with this beginner-friendly guide</p>
+  </div>
+  <a href="https://amzn.to/3Zgx6Qq" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
+</div>
+
+*As an Amazon Associate, we earn from qualifying purchases.*

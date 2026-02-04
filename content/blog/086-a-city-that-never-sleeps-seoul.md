@@ -17,13 +17,37 @@ Seoul in 2024—and moving into 2025—is bursting with life, ensuring there’s
 
 👉 [Check out the moving landmark here!](https://youtube.com/shorts/tfzX-oCMpmY?si=1Cw1CL_TZRbdGxD3)
 
-👉 [Watch it in action here!](https://youtu.be/_FT73wiMU8U?si=G6lb6P6Hscqh5AOr)
+👉 [Watch it in action here!](<div class="youtube-embed">
+<iframe src="https://www.youtube.com/embed/_FT73wiMU8U" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>?si=G6lb6P6Hscqh5AOr)
+
+<div class="image-grid-2">
 
 ![113_EpicKor_요순.mp4_20250113_221742.210.jpg](/assets/images/posts/086/113_EpicKor_%EC%9A%94%EC%88%9C.mp4_20250113_221742.210.jpg)
 
 ![113_EpicKor_요순.mp4_20250113_221749.095.jpg](/assets/images/posts/086/113_EpicKor_%EC%9A%94%EC%88%9C.mp4_20250113_221749.095.jpg)
 
+</div>
+
 ### Seoul Drone Light Show
+
+
+
+---
+
+### Editor's Pick
+
+<div class="amazon-product-card">
+  <div class="product-content">
+    <h4 class="product-title"><a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank">Korean Snack Box</a></h4>
+    <p class="product-description">Bring the taste of Korea to your home with this authentic snack collection</p>
+  </div>
+  <a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
+</div>
+
+*As an Amazon Associate, we earn from qualifying purchases.*
+
+---
 
 As the sun sets, Seoul transforms into a city of lights. The Seoul Drone Light Show paints breathtaking visuals across the night sky, creating a spectacle that blends technology and art. The show is a magnet for visitors looking to experience the cutting-edge creativity Seoul is renowned for. Whether you're strolling through the city or viewing from a rooftop café, the dazzling display will leave you in awe.
 
@@ -35,9 +59,13 @@ Han River Park remains one of Seoul’s most cherished outdoor spaces. Known for
 
 In 2025, floating cafés have become all the rage. These trendy spots offer an immersive experience, letting you sip your coffee or enjoy a meal while drifting on the water. It’s a serene escape in the middle of the bustling city.
 
+<div class="image-grid-2">
+
 ![113_EpicKor_요순.mp4_20250113_221836.547.jpg](/assets/images/posts/086/113_EpicKor_%EC%9A%94%EC%88%9C.mp4_20250113_221836.547.jpg)
 
 ![113_EpicKor_요순.mp4_20250113_221829.030.jpg](/assets/images/posts/086/113_EpicKor_%EC%9A%94%EC%88%9C.mp4_20250113_221829.030.jpg)
+
+</div>
 
 ### Seoul Night Market Renaissance
 
@@ -95,3 +123,26 @@ So, have you been to Seoul? Or maybe it’s time for another visit? The city of 
 [Uncover the Truth About Learning Korean: Challenges and Tips for Beginners](https://www.epickor.com/blog/068)
 
 [Not Seoul, but Gyeongju: A Cultural Journey](https://www.epickor.com/blog/069)
+
+
+---
+
+### Editor's Picks for You
+
+<div class="amazon-product-card">
+  <div class="product-content">
+    <h4 class="product-title"><a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank">Korean Snack Box</a></h4>
+    <p class="product-description">Bring the taste of Korea to your home with this authentic snack collection</p>
+  </div>
+  <a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
+</div>
+
+<div class="amazon-product-card">
+  <div class="product-content">
+    <h4 class="product-title"><a href="https://amzn.to/3Zgx6Qq" rel="nofollow sponsored" target="_blank">Hangeul Workbook</a></h4>
+    <p class="product-description">Master the Korean alphabet with this beginner-friendly guide</p>
+  </div>
+  <a href="https://amzn.to/3Zgx6Qq" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
+</div>
+
+*As an Amazon Associate, we earn from qualifying purchases.*

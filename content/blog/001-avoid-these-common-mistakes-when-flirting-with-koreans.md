@@ -19,6 +19,24 @@ Some of you might learn about romance through Korean dramas. Remember the romant
 
 ### STEP 2: Mimic Lines from Korean Dramas Starring “Lee Min-ho”
 
+
+
+---
+
+### Editor's Pick
+
+<div class="amazon-product-card">
+  <div class="product-content">
+    <h4 class="product-title"><a href="https://amzn.to/3Zgx6Qq" rel="nofollow sponsored" target="_blank">Hangeul Workbook</a></h4>
+    <p class="product-description">Master the Korean alphabet with this beginner-friendly guide</p>
+  </div>
+  <a href="https://amzn.to/3Zgx6Qq" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
+</div>
+
+*As an Amazon Associate, we earn from qualifying purchases.*
+
+---
+
 For a 100% flirting failure, we especially recommend dramas like "The Heirs" and "Boys Over Flowers." These are the lines for you to mimic:
 
 **Boys Over Flowers:**
@@ -31,13 +49,21 @@ For a 100% flirting failure, we especially recommend dramas like "The Heirs" and
 1. "Do I like you?"
 2. "Nevertheless, go straight."
 
+<div class="image-grid-2">
+
 ![001_EpicKor Snippets_민호.mp4_20240703_141821.966.jpg](/assets/images/posts/001/001_EpicKor_Snippets_%EB%AF%BC%ED%98%B8.mp4_20240703_141821.966.jpg)
 
 ![001_EpicKor Snippets_민호.mp4_20240703_141811.950.jpg](/assets/images/posts/001/001_EpicKor_Snippets_%EB%AF%BC%ED%98%B8.mp4_20240703_141811.950.jpg)
 
+</div>
+
+<div class="image-grid-2">
+
 ![001_EpicKor Snippets_민호.mp4_20240703_141817.582.jpg](/assets/images/posts/001/001_EpicKor_Snippets_%EB%AF%BC%ED%98%B8.mp4_20240703_141817.582.jpg)
 
 ![001_EpicKor Snippets_민호.mp4_20240703_141829.924.jpg](/assets/images/posts/001/001_EpicKor_Snippets_%EB%AF%BC%ED%98%B8.mp4_20240703_141829.924.jpg)
+
+</div>
 
 If you diligently practice and mimic only these lines, you too can fail at flirting.
 
@@ -59,3 +85,26 @@ Keywords: flirting in Korea, Korean dramas, Lee Min-ho, The Heirs, Boys Over Flo
 [The Cultural Significance Behind Blood Types in Korea](https://www.epickor.com/blog/011)
 
 [Unraveling the Unique Korean Habit of Laughing and Clapping](https://www.epickor.com/blog/014)
+
+
+---
+
+### Editor's Picks for You
+
+<div class="amazon-product-card">
+  <div class="product-content">
+    <h4 class="product-title"><a href="https://amzn.to/3Zgx6Qq" rel="nofollow sponsored" target="_blank">Hangeul Workbook</a></h4>
+    <p class="product-description">Master the Korean alphabet with this beginner-friendly guide</p>
+  </div>
+  <a href="https://amzn.to/3Zgx6Qq" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
+</div>
+
+<div class="amazon-product-card">
+  <div class="product-content">
+    <h4 class="product-title"><a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank">Korean Snack Box</a></h4>
+    <p class="product-description">Bring the taste of Korea to your home with this authentic snack collection</p>
+  </div>
+  <a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
+</div>
+
+*As an Amazon Associate, we earn from qualifying purchases.*

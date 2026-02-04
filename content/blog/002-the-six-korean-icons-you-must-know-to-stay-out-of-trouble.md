@@ -27,6 +27,24 @@ You must absolutely know the following six people:
 
 ### 1. BTS
 
+
+
+---
+
+### Editor's Pick
+
+<div class="amazon-product-card">
+  <div class="product-content">
+    <h4 class="product-title"><a href="https://amzn.to/3Zgx6Qq" rel="nofollow sponsored" target="_blank">Hangeul Workbook</a></h4>
+    <p class="product-description">Master the Korean alphabet with this beginner-friendly guide</p>
+  </div>
+  <a href="https://amzn.to/3Zgx6Qq" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
+</div>
+
+*As an Amazon Associate, we earn from qualifying purchases.*
+
+---
+
 First, BTS. Idols from Korea and artists loved worldwide.
 
 ![](/assets/images/posts/002/giphy.gif?cid=7941fdc60am1q57psxadtguzcoasinq5y006jchxg3a4ejct&ep=v1_gifs_search&rid=giphy.gif&ct=g)
@@ -76,3 +94,26 @@ BTS, Son Heung-min, Bong Joon-ho, Yoo Jae-suk, Kim Yun-a, IU, Korean culture, Ko
 [The Cultural Significance Behind Blood Types in Korea](https://www.epickor.com/blog/011)
 
 [Suzy-Flirting: The Unique Charm of Korea's "Nation’s First Love”](https://www.epickor.com/blog/016)
+
+
+---
+
+### Editor's Picks for You
+
+<div class="amazon-product-card">
+  <div class="product-content">
+    <h4 class="product-title"><a href="https://amzn.to/3Zgx6Qq" rel="nofollow sponsored" target="_blank">Hangeul Workbook</a></h4>
+    <p class="product-description">Master the Korean alphabet with this beginner-friendly guide</p>
+  </div>
+  <a href="https://amzn.to/3Zgx6Qq" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
+</div>
+
+<div class="amazon-product-card">
+  <div class="product-content">
+    <h4 class="product-title"><a href="https://amzn.to/4qhhWVZ" rel="nofollow sponsored" target="_blank">Bibigo Seaweed Snack</a></h4>
+    <p class="product-description">Crispy and healthy Korean seaweed snacks</p>
+  </div>
+  <a href="https://amzn.to/4qhhWVZ" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
+</div>
+
+*As an Amazon Associate, we earn from qualifying purchases.*

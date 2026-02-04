@@ -25,11 +25,33 @@ You can buy ‘Hanwoo’, a Korean cattle breed with strict quality control, who
 
 You can buy all kinds of meat, including rare parts that only cost a small amount per animal.
 
+<div class="image-grid-2">
+
 ![064 epickor_진호.mp4_20240725_221539.031.jpg](/assets/images/posts/053/064_epickor_%EC%A7%84%ED%98%B8.mp4_20240725_221539.031.jpg)
 
 ![064 epickor_진호.mp4_20240725_221556.621.jpg](/assets/images/posts/053/064_epickor_%EC%A7%84%ED%98%B8.mp4_20240725_221556.621.jpg)
 
+</div>
+
 ### Gwangjang Market
+
+
+
+---
+
+### Editor's Pick
+
+<div class="amazon-product-card">
+  <div class="product-content">
+    <h4 class="product-title"><a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank">Korean Snack Box</a></h4>
+    <p class="product-description">Bring the taste of Korea to your home with this authentic snack collection</p>
+  </div>
+  <a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
+</div>
+
+*As an Amazon Associate, we earn from qualifying purchases.*
+
+---
 
 **Largest Market**:
 
@@ -47,9 +69,13 @@ Gwangjang Market is especially famous for its `food alley`, where you can enjoy 
 
 It is a famous spot visited by many Hollywood stars, including `Sam Smith`, `Jessica Alba`, and `Brie Larson`.
 
+<div class="image-grid-2">
+
 ![064 epickor_진호.mp4_20240725_221605.931.jpg](/assets/images/posts/053/064_epickor_%EC%A7%84%ED%98%B8.mp4_20240725_221605.931.jpg)
 
 ![064 epickor_진호.mp4_20240725_221622.418.jpg](/assets/images/posts/053/064_epickor_%EC%A7%84%ED%98%B8.mp4_20240725_221622.418.jpg)
+
+</div>
 
 ### Dongmyo Market
 
@@ -61,9 +87,13 @@ Dongmyo Market is a place where all kinds of rare items gather. Here, items are 
 
 The most famous item here is clothing, and I also recommend checking out Stationery Street, which sells a variety of cute character items.
 
+<div class="image-grid-2">
+
 ![064 epickor_진호.mp4_20240725_221659.715.jpg](/assets/images/posts/053/064_epickor_%EC%A7%84%ED%98%B8.mp4_20240725_221659.715.jpg)
 
 ![064 epickor_진호.mp4_20240725_221651.724.jpg](/assets/images/posts/053/064_epickor_%EC%A7%84%ED%98%B8.mp4_20240725_221651.724.jpg)
+
+</div>
 
 ---
 
@@ -81,3 +111,26 @@ The most famous item here is clothing, and I also recommend checking out Station
 [Discover the Global Craze for Korean Chicken](https://www.epickor.com/blog/018)
 
 [Korean Travel Destinations Loved by Koreans](https://www.epickor.com/blog/019)
+
+
+---
+
+### Editor's Picks for You
+
+<div class="amazon-product-card">
+  <div class="product-content">
+    <h4 class="product-title"><a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank">Korean Snack Box</a></h4>
+    <p class="product-description">Bring the taste of Korea to your home with this authentic snack collection</p>
+  </div>
+  <a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
+</div>
+
+<div class="amazon-product-card">
+  <div class="product-content">
+    <h4 class="product-title"><a href="https://amzn.to/3O5pcqu" rel="nofollow sponsored" target="_blank">Yakgwa (Honey Cookie)</a></h4>
+    <p class="product-description">Traditional Korean honey cookies for a sweet treat</p>
+  </div>
+  <a href="https://amzn.to/3O5pcqu" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
+</div>
+
+*As an Amazon Associate, we earn from qualifying purchases.*

@@ -20,6 +20,24 @@ Eventually, with the advent of the ‘`SHOW ME THE MONEY`’ TV program, everyon
 
 ### The Popularity Surge
 
+
+
+---
+
+### Editor's Pick
+
+<div class="amazon-product-card">
+  <div class="product-content">
+    <h4 class="product-title"><a href="https://amzn.to/3MaZWi6" rel="nofollow sponsored" target="_blank">Buldak Spicy Ramen</a></h4>
+    <p class="product-description">Experience the legendary spicy Korean ramen</p>
+  </div>
+  <a href="https://amzn.to/3MaZWi6" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
+</div>
+
+*As an Amazon Associate, we earn from qualifying purchases.*
+
+---
+
 At that time, the popularity of hip-hop music in Korea was so high that there was even a saying, “There were about a million hip-hop fans, but there were a million rappers.”
 
 ### The Decline
@@ -30,9 +48,13 @@ PDs also abandoned the elements of hip-hop, which were no longer stimulating and
 
 As a result, the 11-year-long program concluded, and the popularity of hip-hop music weakened compared to the past.
 
+<div class="image-grid-2">
+
 ![009_EpicKor_진호_.mp4_20240708_145454.130.jpg](/assets/images/posts/009/a2d07641-da76-4e03-8e42-5953cc264c7b.png)
 
 ![009_EpicKor_진호_.mp4_20240708_145507.969.jpg](/assets/images/posts/009/38df27b6-34e9-40fe-ac78-3cf754fdf86c.png)
+
+</div>
 
 ### Recommendations for Korean Hip-Hop
 
@@ -45,13 +67,21 @@ And if you are curious about Korean hip-hop and want to listen to the music, you
 - Beenzino - Rapper
 - Swings - Rapper
 
+<div class="image-grid-2">
+
 ![009_EpicKor_진호_.mp4_20240708_145516.387.jpg](/assets/images/posts/009/009_EpicKor_%EC%A7%84%ED%98%B8_.mp4_20240708_145516.387.jpg)
 
 ![009_EpicKor_진호_.mp4_20240708_145529.993.jpg](/assets/images/posts/009/009_EpicKor_%EC%A7%84%ED%98%B8_.mp4_20240708_145529.993.jpg)
 
+</div>
+
+<div class="image-grid-2">
+
 ![009_EpicKor_진호_.mp4_20240708_145520.810.jpg](/assets/images/posts/009/009_EpicKor_%EC%A7%84%ED%98%B8_.mp4_20240708_145520.810.jpg)
 
 ![009_EpicKor_진호_.mp4_20240708_145522.587.jpg](/assets/images/posts/009/009_EpicKor_%EC%A7%84%ED%98%B8_.mp4_20240708_145522.587.jpg)
+
+</div>
 
 ![009_EpicKor_진호_.mp4_20240708_145518.721.jpg](/assets/images/posts/009/009_EpicKor_%EC%A7%84%ED%98%B8_.mp4_20240708_145518.721.jpg)
 
@@ -69,3 +99,26 @@ Keywords: Korean hip-hop, underground rappers, overground singers, SHOW ME THE M
 [Discover Korea's Automated Innovations: From Ramen Machines to Car Washes](https://www.epickor.com/blog/054)
 
 [Koreans Never Wait: The Speed of Life in Korea](https://www.epickor.com/blog/055)
+
+
+---
+
+### Editor's Picks for You
+
+<div class="amazon-product-card">
+  <div class="product-content">
+    <h4 class="product-title"><a href="https://amzn.to/3MaZWi6" rel="nofollow sponsored" target="_blank">Buldak Spicy Ramen</a></h4>
+    <p class="product-description">Experience the legendary spicy Korean ramen</p>
+  </div>
+  <a href="https://amzn.to/3MaZWi6" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
+</div>
+
+<div class="amazon-product-card">
+  <div class="product-content">
+    <h4 class="product-title"><a href="https://amzn.to/495n6oT" rel="nofollow sponsored" target="_blank">Yellow Ramen Pot</a></h4>
+    <p class="product-description">Authentic Korean ramen pot for perfect noodles</p>
+  </div>
+  <a href="https://amzn.to/495n6oT" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
+</div>
+
+*As an Amazon Associate, we earn from qualifying purchases.*

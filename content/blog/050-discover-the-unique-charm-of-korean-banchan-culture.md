@@ -17,13 +17,35 @@ tags: ['Culture', 'Food', 'Travel']
 
 ### Banchan Culture
 
+
+
+---
+
+### Editor's Pick
+
+<div class="amazon-product-card">
+  <div class="product-content">
+    <h4 class="product-title"><a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank">Korean Snack Box</a></h4>
+    <p class="product-description">Bring the taste of Korea to your home with this authentic snack collection</p>
+  </div>
+  <a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
+</div>
+
+*As an Amazon Associate, we earn from qualifying purchases.*
+
+---
+
 ⭐️ Korea has a “`banchan`” culture in its food culture. ⭐️
 
 The basic foods eaten with the main menu and rice are called "banchan" or side dishes. Usually, Korean food is eaten with several side dishes centered around one main menu, or the side dishes often become the main menu themselves.
 
+<div class="image-grid-2">
+
 ![050_epickor_민호.mp4_20240723_224612.169.jpg](/assets/images/posts/050/050_epickor_%EB%AF%BC%ED%98%B8.mp4_20240723_224612.169.jpg)
 
 ![050_epickor_민호.mp4_20240723_224650.257.jpg](/assets/images/posts/050/050_epickor_%EB%AF%BC%ED%98%B8.mp4_20240723_224650.257.jpg)
+
+</div>
 
 ### Kimchi as Banchan
 
@@ -52,3 +74,26 @@ Exploring Korean cuisine reveals the fascinating "banchan" culture, where each m
 [MUST BUY K-BEAUTY Items in Korea Olive Young](https://www.epickor.com/blog/028)
 
 [Discover the Ultimate Korean Snacks That Will Redefine Your Taste Experience](https://www.epickor.com/blog/029)
+
+
+---
+
+### Editor's Picks for You
+
+<div class="amazon-product-card">
+  <div class="product-content">
+    <h4 class="product-title"><a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank">Korean Snack Box</a></h4>
+    <p class="product-description">Bring the taste of Korea to your home with this authentic snack collection</p>
+  </div>
+  <a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
+</div>
+
+<div class="amazon-product-card">
+  <div class="product-content">
+    <h4 class="product-title"><a href="https://amzn.to/4qhhWVZ" rel="nofollow sponsored" target="_blank">Bibigo Seaweed Snack</a></h4>
+    <p class="product-description">Crispy and healthy Korean seaweed snacks</p>
+  </div>
+  <a href="https://amzn.to/4qhhWVZ" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
+</div>
+
+*As an Amazon Associate, we earn from qualifying purchases.*

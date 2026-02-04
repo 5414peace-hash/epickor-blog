@@ -18,17 +18,43 @@ BBC MasterChef's main host, `John Torode`, once remarked that he ate more `garli
 
 He even showed a handful of garlic, explaining that what Koreans consider "a little" is actually quite a lot.
 
+<div class="image-grid-2">
+
 ![008_EpicKor_진호.mp4_20240705_112657.941.jpg](/assets/images/posts/008/39ef62bd-d1cd-43ab-a8e0-fde064191d0e.png)
 
 ![008_EpicKor_진호.mp4_20240705_112714.744.jpg](/assets/images/posts/008/108dd9e8-271e-46d0-9a72-0a593831b690.png)
 
+</div>
+
 ### Garlic Consumption
 
+
+
+---
+
+### Editor's Pick
+
+<div class="amazon-product-card">
+  <div class="product-content">
+    <h4 class="product-title"><a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank">Korean Snack Box</a></h4>
+    <p class="product-description">Bring the taste of Korea to your home with this authentic snack collection</p>
+  </div>
+  <a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
+</div>
+
+*As an Amazon Associate, we earn from qualifying purchases.*
+
+---
+
 In fact, Korean per capita annual garlic consumption ranks first in the world. This country even cultivates “elephant garlic,” which is 10 times larger than regular garlic.
+
+<div class="image-grid-2">
 
 ![008_EpicKor_진호.mp4_20240705_112727.407.jpg](/assets/images/posts/008/90f79c40-b16e-4497-9277-53bcfbdb24bc.png)
 
 ![008_EpicKor_진호.mp4_20240705_112734.681.jpg](/assets/images/posts/008/9dedebbd-5c3f-4611-afc5-c9af27c140d6.png)
+
+</div>
 
 ### The Mythical Origins
 
@@ -60,3 +86,26 @@ So, if Korea is a nation of garlic, what about your country?
 [Top 10 Jobs in Korea](https://www.epickor.com/blog/039)
 
 [Masterpieces of Korean Cinema with Iconic Lines](https://www.epickor.com/blog/040)
+
+
+---
+
+### Editor's Picks for You
+
+<div class="amazon-product-card">
+  <div class="product-content">
+    <h4 class="product-title"><a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank">Korean Snack Box</a></h4>
+    <p class="product-description">Bring the taste of Korea to your home with this authentic snack collection</p>
+  </div>
+  <a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
+</div>
+
+<div class="amazon-product-card">
+  <div class="product-content">
+    <h4 class="product-title"><a href="https://amzn.to/3MaZWi6" rel="nofollow sponsored" target="_blank">Buldak Spicy Ramen</a></h4>
+    <p class="product-description">Experience the legendary spicy Korean ramen</p>
+  </div>
+  <a href="https://amzn.to/3MaZWi6" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
+</div>
+
+*As an Amazon Associate, we earn from qualifying purchases.*

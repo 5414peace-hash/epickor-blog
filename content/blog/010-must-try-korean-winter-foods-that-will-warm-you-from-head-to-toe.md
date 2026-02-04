@@ -25,7 +25,25 @@ The pairing of spicy and soothing makes these two snacks the ultimate winter com
 ### 🍲 Soul Food: Samgyetang & Kimchi Jjigae
 Korean winter food isn’t just about snacking—there are also hearty meals made to nourish and warm you from within.
 **Samgyetang**, or `ginseng chicken soup`, is a traditional dish made with a whole young chicken stuffed with sticky rice, garlic, jujube, and ginseng. It’s believed to strengthen the body and boost immunity during the cold months.
-Another favorite is **kimchi jjigae**, a spicy stew made with aged kimchi, tofu, pork belly, and scallions. It’s deeply flavorful and often served still bubbling in a hot stone pot. Locals love eating it with a bowl of rice on the side, perfect for chilly days.
+Another favorite is **kimchi jjigae**, a spicy stew made with aged kimchi, tofu, pork belly, and scallions. It’s deeply flavorful and often served still bubbling in 
+
+---
+
+### Editor's Pick
+
+<div class="amazon-product-card">
+  <div class="product-content">
+    <h4 class="product-title"><a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank">Korean Snack Box</a></h4>
+    <p class="product-description">Bring the taste of Korea to your home with this authentic snack collection</p>
+  </div>
+  <a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
+</div>
+
+*As an Amazon Associate, we earn from qualifying purchases.*
+
+---
+
+a hot stone pot. Locals love eating it with a bowl of rice on the side, perfect for chilly days.
 > **🍜 More K-Food:** If you love spicy stews, you'll love these [Korean Ramen Variety Packs]({{https://amzn.to/4qXfXaD}}) for a quick winter meal!
 Both dishes are winter staples in Korean households, offering a heartwarming balance of spice and nutrition.
 ### 🍠 Market Snacks: Chestnuts & Sweet Potatoes
@@ -42,3 +60,26 @@ Korean winter food, Korean street food, hotteok, bungeoppang, tteokbokki, eomuk,
 <video source="{{https://youtube.com/shorts/pL2OO_4X17A?si=mQMkjFXHG2Kxnfjt}}"></video>
 [Check out the original post]({{https://www.notion.so/1d273cc3045480cca352d01cceec0e22#1d273cc30454803eb98ec1e85b5e59af}})
 </content>
+
+
+---
+
+### Editor's Picks for You
+
+<div class="amazon-product-card">
+  <div class="product-content">
+    <h4 class="product-title"><a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank">Korean Snack Box</a></h4>
+    <p class="product-description">Bring the taste of Korea to your home with this authentic snack collection</p>
+  </div>
+  <a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
+</div>
+
+<div class="amazon-product-card">
+  <div class="product-content">
+    <h4 class="product-title"><a href="https://amzn.to/3MaZWi6" rel="nofollow sponsored" target="_blank">Buldak Spicy Ramen</a></h4>
+    <p class="product-description">Experience the legendary spicy Korean ramen</p>
+  </div>
+  <a href="https://amzn.to/3MaZWi6" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
+</div>
+
+*As an Amazon Associate, we earn from qualifying purchases.*

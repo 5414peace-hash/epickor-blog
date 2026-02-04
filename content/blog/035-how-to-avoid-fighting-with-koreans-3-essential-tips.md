@@ -21,6 +21,24 @@ Unlike the streets of Southeast Asia, in Korea, `honking` is generally avoided w
 
 ### Sensitive Jokes
 
+
+
+---
+
+### Editor's Pick
+
+<div class="amazon-product-card">
+  <div class="product-content">
+    <h4 class="product-title"><a href="https://amzn.to/4twhKFk" rel="nofollow sponsored" target="_blank">Round Lab Dokdo Toner</a></h4>
+    <p class="product-description">Hydrating K-beauty toner for radiant skin</p>
+  </div>
+  <a href="https://amzn.to/4twhKFk" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
+</div>
+
+*As an Amazon Associate, we earn from qualifying purchases.*
+
+---
+
 **Second, mom jokes should only be made between siblings.**
 
 Korea values courtesy highly, and Koreans hold their parents in high regard. 
@@ -31,9 +49,13 @@ No matter how many years you've been friends with that Korean, you might find a 
 
 But, the `exception` is if a fight has already occurred. There are so many different mom swear words in Korea that you can't even imagine.
 
+<div class="image-grid-2">
+
 ![035_epickor_휘수.mp4_20240716_220559.740.jpg](/assets/images/posts/035/035_epickor_%ED%9C%98%EC%88%98.mp4_20240716_220559.740.jpg)
 
 ![035_epickor_휘수.mp4_20240716_220554.209.jpg](/assets/images/posts/035/035_epickor_%ED%9C%98%EC%88%98.mp4_20240716_220554.209.jpg)
+
+</div>
 
 ### Dokdo Issue
 
@@ -65,3 +87,26 @@ By following these three guidelines, you can avoid fights with Koreans.
 [Experience the Magic of Sokcho-Eye Before It's Gone](https://www.epickor.com/travel/004)
 
 [Explore the Scenic Beauty of Cheongok Mountain](https://www.epickor.com/travel/005)
+
+
+---
+
+### Editor's Picks for You
+
+<div class="amazon-product-card">
+  <div class="product-content">
+    <h4 class="product-title"><a href="https://amzn.to/4twhKFk" rel="nofollow sponsored" target="_blank">Round Lab Dokdo Toner</a></h4>
+    <p class="product-description">Hydrating K-beauty toner for radiant skin</p>
+  </div>
+  <a href="https://amzn.to/4twhKFk" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
+</div>
+
+<div class="amazon-product-card">
+  <div class="product-content">
+    <h4 class="product-title"><a href="https://amzn.to/3Zgx6Qq" rel="nofollow sponsored" target="_blank">Hangeul Workbook</a></h4>
+    <p class="product-description">Master the Korean alphabet with this beginner-friendly guide</p>
+  </div>
+  <a href="https://amzn.to/3Zgx6Qq" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
+</div>
+
+*As an Amazon Associate, we earn from qualifying purchases.*

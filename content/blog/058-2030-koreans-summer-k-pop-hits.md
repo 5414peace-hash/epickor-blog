@@ -19,6 +19,24 @@ Although the song is 13 years old, it is still a highly addictive song that rank
 
 ### SISTAR – Touch My Body
 
+
+
+---
+
+### Editor's Pick
+
+<div class="amazon-product-card">
+  <div class="product-content">
+    <h4 class="product-title"><a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank">Korean Snack Box</a></h4>
+    <p class="product-description">Bring the taste of Korea to your home with this authentic snack collection</p>
+  </div>
+  <a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
+</div>
+
+*As an Amazon Associate, we earn from qualifying purchases.*
+
+---
+
 `Released in 2014.` 
 
 There's probably no Korean who doesn't know this song by SISTAR, the ultimate summer idol group. Even if it came out today, it would still be a chart-topper.
@@ -29,9 +47,13 @@ There's probably no Korean who doesn't know this song by SISTAR, the ultimate su
 
 This summer hit from the hip-hop genre puts many Koreans in a romantic mood when they listen to it on a midsummer night.
 
+<div class="image-grid-2">
+
 ![076_epickor_휘수.mp4_20240801_220950.731.jpg](/assets/images/posts/058/076_epickor_%ED%9C%98%EC%88%98.mp4_20240801_220950.731.jpg)
 
 ![076_epickor_휘수.mp4_20240801_221003.054.jpg](/assets/images/posts/058/076_epickor_%ED%9C%98%EC%88%98.mp4_20240801_221003.054.jpg)
+
+</div>
 
 ### Red Velvet – Red Flavor
 
@@ -55,3 +77,26 @@ This title track from their summer album is packed with summer vibes and is alwa
 [Seoul in 24 Hours: Your Ultimate Adventure!](https://www.epickor.com/blog/017)
 
 [Discover the Global Craze for Korean Chicken](https://www.epickor.com/blog/018)
+
+
+---
+
+### Editor's Picks for You
+
+<div class="amazon-product-card">
+  <div class="product-content">
+    <h4 class="product-title"><a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank">Korean Snack Box</a></h4>
+    <p class="product-description">Bring the taste of Korea to your home with this authentic snack collection</p>
+  </div>
+  <a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
+</div>
+
+<div class="amazon-product-card">
+  <div class="product-content">
+    <h4 class="product-title"><a href="https://amzn.to/3O5pcqu" rel="nofollow sponsored" target="_blank">Yakgwa (Honey Cookie)</a></h4>
+    <p class="product-description">Traditional Korean honey cookies for a sweet treat</p>
+  </div>
+  <a href="https://amzn.to/3O5pcqu" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
+</div>
+
+*As an Amazon Associate, we earn from qualifying purchases.*

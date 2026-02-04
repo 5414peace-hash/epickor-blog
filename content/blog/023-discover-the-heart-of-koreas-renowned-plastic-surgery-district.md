@@ -21,9 +21,13 @@ There are as many as `9 plastic surgery hospitals` in the `10-story building`.
 
 The remaining one is also a dental clinic.
 
+<div class="image-grid-2">
+
 ![023_epickor_휘수_.mp4_20240712_222232.922.jpg](/assets/images/posts/023/023_epickor_%ED%9C%98%EC%88%98_.mp4_20240712_222232.922.jpg)
 
 ![023_epickor_휘수_.mp4_20240712_222223.999.jpg](/assets/images/posts/023/023_epickor_%ED%9C%98%EC%88%98_.mp4_20240712_222223.999.jpg)
+
+</div>
 
 ### Gangnam's Medical Center
 
@@ -33,11 +37,33 @@ The Sinsa Station intersection is located in Gangnam-gu, Seoul, South Korea.
 
 There are `1,106 plastic surgery clinics` in Korea, more than half of which are concentrated in Seoul, and 74% of them are located in Gangnam-gu.
 
+<div class="image-grid-2">
+
 ![023_epickor_휘수_.mp4_20240712_222249.303.jpg](/assets/images/posts/023/023_epickor_%ED%9C%98%EC%88%98_.mp4_20240712_222249.303.jpg)
 
 ![023_epickor_휘수_.mp4_20240712_222241.316.jpg](/assets/images/posts/023/023_epickor_%ED%9C%98%EC%88%98_.mp4_20240712_222241.316.jpg)
 
+</div>
+
 ### Plastic Surgery Paradise
+
+
+
+---
+
+### Editor's Pick
+
+<div class="amazon-product-card">
+  <div class="product-content">
+    <h4 class="product-title"><a href="https://amzn.to/4twhKFk" rel="nofollow sponsored" target="_blank">Round Lab Dokdo Toner</a></h4>
+    <p class="product-description">Hydrating K-beauty toner for radiant skin</p>
+  </div>
+  <a href="https://amzn.to/4twhKFk" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
+</div>
+
+*As an Amazon Associate, we earn from qualifying purchases.*
+
+---
 
 And right here, near the Sinsa Station intersection and Apgujeong Station, the center of Gangnam, countless plastic surgery hospitals create a plastic surgery paradise.
 
@@ -65,3 +91,26 @@ Then come to Sinsa Station. And subscribe to epickor snippets.
 [Unveiling Korea: From K-pop to Historic Triumphs and Tragedies](https://www.epickor.com/blog/056)
 
 [Experience Tranquility with a 'Choncance' - Korea's Countryside Vacation](https://www.epickor.com/blog/057)
+
+
+---
+
+### Editor's Picks for You
+
+<div class="amazon-product-card">
+  <div class="product-content">
+    <h4 class="product-title"><a href="https://amzn.to/4twhKFk" rel="nofollow sponsored" target="_blank">Round Lab Dokdo Toner</a></h4>
+    <p class="product-description">Hydrating K-beauty toner for radiant skin</p>
+  </div>
+  <a href="https://amzn.to/4twhKFk" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
+</div>
+
+<div class="amazon-product-card">
+  <div class="product-content">
+    <h4 class="product-title"><a href="https://amzn.to/3M4Q09W" rel="nofollow sponsored" target="_blank">Round Lab Dokdo Cleanser</a></h4>
+    <p class="product-description">Gentle K-beauty cleanser for daily skincare</p>
+  </div>
+  <a href="https://amzn.to/3M4Q09W" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
+</div>
+
+*As an Amazon Associate, we earn from qualifying purchases.*

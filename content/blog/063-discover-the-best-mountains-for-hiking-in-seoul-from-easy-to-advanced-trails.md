@@ -24,15 +24,37 @@ Inwang Mountain is located in the heart of Seoul and is famous for its short and
 
 ### Acha & Yongma Mountains
 
+
+
+---
+
+### Editor's Pick
+
+<div class="amazon-product-card">
+  <div class="product-content">
+    <h4 class="product-title"><a href="https://amzn.to/495n6oT" rel="nofollow sponsored" target="_blank">Yellow Ramen Pot</a></h4>
+    <p class="product-description">Authentic Korean ramen pot for perfect noodles</p>
+  </div>
+  <a href="https://amzn.to/495n6oT" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
+</div>
+
+*As an Amazon Associate, we earn from qualifying purchases.*
+
+---
+
 **Difficulty**: Easy to Intermediate
 
 **Time**: 2-3 hours
 
 Acha and Yongma mountains are located in the eastern part of Seoul. There's a well-prepared course that lets you hike both mountains. Just get off at Achasan Station or Yongmasan Station on the subway.
 
+<div class="image-grid-2">
+
 ![087_epickor_휘수.mp4_20240807_143414.978.jpg](/assets/images/posts/063/087_epickor_%ED%9C%98%EC%88%98.mp4_20240807_143414.978.jpg)
 
 ![087_epickor_휘수.mp4_20240807_143433.796.jpg](/assets/images/posts/063/087_epickor_%ED%9C%98%EC%88%98.mp4_20240807_143433.796.jpg)
+
+</div>
 
 ### Cheonggye Mountain
 
@@ -50,9 +72,13 @@ Cheonggye Mountain is accessible from Cheonggyesan Entrance Station on the Shinb
 
 Gwanak Mountain, near Seoul National University Station on Line 2, is located in the southwest part of Seoul. It's known for its rocky trails that provide an exciting hiking experience. Of course, there are easy courses as well.
 
+<div class="image-grid-2">
+
 ![087_epickor_휘수.mp4_20240807_143454.156.jpg](/assets/images/posts/063/087_epickor_%ED%9C%98%EC%88%98.mp4_20240807_143454.156.jpg)
 
 ![087_epickor_휘수.mp4_20240807_143503.924.jpg](/assets/images/posts/063/087_epickor_%ED%9C%98%EC%88%98.mp4_20240807_143503.924.jpg)
+
+</div>
 
 ---
 
@@ -70,3 +96,26 @@ Gwanak Mountain, near Seoul National University Station on Line 2, is located in
 [Discover Korea's Automated Innovations: From Ramen Machines to Car Washes](https://www.epickor.com/blog/054)
 
 [Koreans Never Wait: The Speed of Life in Korea](https://www.epickor.com/blog/055)
+
+
+---
+
+### Editor's Picks for You
+
+<div class="amazon-product-card">
+  <div class="product-content">
+    <h4 class="product-title"><a href="https://amzn.to/495n6oT" rel="nofollow sponsored" target="_blank">Yellow Ramen Pot</a></h4>
+    <p class="product-description">Authentic Korean ramen pot for perfect noodles</p>
+  </div>
+  <a href="https://amzn.to/495n6oT" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
+</div>
+
+<div class="amazon-product-card">
+  <div class="product-content">
+    <h4 class="product-title"><a href="https://amzn.to/3MaZWi6" rel="nofollow sponsored" target="_blank">Buldak Spicy Ramen</a></h4>
+    <p class="product-description">Experience the legendary spicy Korean ramen</p>
+  </div>
+  <a href="https://amzn.to/3MaZWi6" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
+</div>
+
+*As an Amazon Associate, we earn from qualifying purchases.*

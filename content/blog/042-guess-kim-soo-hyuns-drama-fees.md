@@ -15,6 +15,24 @@ Kim Soo-hyun, a well-established actor known for his remarkable performances, ha
 
 ### Recent Success
 
+
+
+---
+
+### Editor's Pick
+
+<div class="amazon-product-card">
+  <div class="product-content">
+    <h4 class="product-title"><a href="https://amzn.to/4qhhWVZ" rel="nofollow sponsored" target="_blank">Bibigo Seaweed Snack</a></h4>
+    <p class="product-description">Crispy and healthy Korean seaweed snacks</p>
+  </div>
+  <a href="https://amzn.to/4qhhWVZ" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
+</div>
+
+*As an Amazon Associate, we earn from qualifying purchases.*
+
+---
+
 Kim Soo-hyun has once again achieved box office success with his latest drama "`Queen of Tears`."
 
 ### Appearance Fee Revelation
@@ -25,9 +43,13 @@ As "Queen of Tears" gained popularity, so did the buzz around Kim Soo-hyun's app
 
 However, a correction article later stated that Kim Soo-hyun adjusted his fee, taking into account the production costs, and agreed to receive $220,000 per episode.
 
+<div class="image-grid-2">
+
 ![045_epickor(김수현)_건순.mp4_20240719_221616.463.jpg](/assets/images/posts/042/045_epickor(%EA%B9%80%EC%88%98%ED%98%84)_%25EA%25B1%25B4%25EC%2588%259C.mp4_20240719_221616.463.jpg)
 
-![045_epickor(김수현)_건순.mp4_20240719_221647.577.jpg](/assets/images/posts/042/045_epickor(%EA%B9%80%EC%88%98%ED%98%84)_%25EA%25B1%25B4%25EC%2588%259C.mp4_20240719_221647.577.jpg)
+![045_epickor(김수현)_건순.mp4_20240719_221647.577.jpg](/assets/images/posts/042/045_epickor(%EA%B9%80%EC%88%98%ED%98%84)
+
+</div>_%25EA%25B1%25B4%25EC%2588%259C.mp4_20240719_221647.577.jpg)
 
 ### Future Earnings
 
@@ -55,3 +77,26 @@ How much did you expect Kim Soo-hyun to receive?
 [Discover the Unique Charm of Korean "Banchan" Culture](https://www.epickor.com/blog/050)
 
 [Forbes Korea's Top 40 Korean Celebrities in 2024](https://www.epickor.com/blog/051)
+
+
+---
+
+### Editor's Picks for You
+
+<div class="amazon-product-card">
+  <div class="product-content">
+    <h4 class="product-title"><a href="https://amzn.to/4qhhWVZ" rel="nofollow sponsored" target="_blank">Bibigo Seaweed Snack</a></h4>
+    <p class="product-description">Crispy and healthy Korean seaweed snacks</p>
+  </div>
+  <a href="https://amzn.to/4qhhWVZ" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
+</div>
+
+<div class="amazon-product-card">
+  <div class="product-content">
+    <h4 class="product-title"><a href="https://amzn.to/3O5pcqu" rel="nofollow sponsored" target="_blank">Yakgwa (Honey Cookie)</a></h4>
+    <p class="product-description">Traditional Korean honey cookies for a sweet treat</p>
+  </div>
+  <a href="https://amzn.to/3O5pcqu" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
+</div>
+
+*As an Amazon Associate, we earn from qualifying purchases.*

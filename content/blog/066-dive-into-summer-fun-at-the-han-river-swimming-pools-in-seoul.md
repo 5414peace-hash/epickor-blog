@@ -21,15 +21,37 @@ In the summer, the `outdoor swimming pools` at the Han River in Seoul open up fo
 
 ### Affordable Admission
 
+
+
+---
+
+### Editor's Pick
+
+<div class="amazon-product-card">
+  <div class="product-content">
+    <h4 class="product-title"><a href="https://amzn.to/4twhKFk" rel="nofollow sponsored" target="_blank">Round Lab Dokdo Toner</a></h4>
+    <p class="product-description">Hydrating K-beauty toner for radiant skin</p>
+  </div>
+  <a href="https://amzn.to/4twhKFk" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
+</div>
+
+*As an Amazon Associate, we earn from qualifying purchases.*
+
+---
+
 The admission fees are quite affordable: about `$2.30 for children`, $3.10 for teens, and $3.80 for adults.
 
 ### Pool Locations
 
 There are six parks along the Han River that have swimming pools: Ttukseom, Yeouido, Jamwon, Jamsil, Yanghwa, and Nanji. You can use sunbeds there, but swimming caps and swimsuits are a must.
 
+<div class="image-grid-2">
+
 ![088_EpicKor_요순.mp4_20240808_221604.077.jpg](/assets/images/posts/066/088_EpicKor_%EC%9A%94%EC%88%9C.mp4_20240808_221604.077.jpg)
 
 ![088_EpicKor_요순.mp4_20240808_221621.731.jpg](/assets/images/posts/066/088_EpicKor_%EC%9A%94%EC%88%9C.mp4_20240808_221621.731.jpg)
+
+</div>
 
 ### Plan Your Visit
 
@@ -55,3 +77,26 @@ If you're traveling to Seoul this summer, why not enjoy both the Han River and t
 [Essential Souvenirs to Pick Up When Traveling in Korea](https://www.epickor.com/blog/041)
 
 [MUST BUY K-BEAUTY Items in Korea Olive Young](https://www.epickor.com/blog/028)
+
+
+---
+
+### Editor's Picks for You
+
+<div class="amazon-product-card">
+  <div class="product-content">
+    <h4 class="product-title"><a href="https://amzn.to/4twhKFk" rel="nofollow sponsored" target="_blank">Round Lab Dokdo Toner</a></h4>
+    <p class="product-description">Hydrating K-beauty toner for radiant skin</p>
+  </div>
+  <a href="https://amzn.to/4twhKFk" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
+</div>
+
+<div class="amazon-product-card">
+  <div class="product-content">
+    <h4 class="product-title"><a href="https://amzn.to/3M4Q09W" rel="nofollow sponsored" target="_blank">Round Lab Dokdo Cleanser</a></h4>
+    <p class="product-description">Gentle K-beauty cleanser for daily skincare</p>
+  </div>
+  <a href="https://amzn.to/3M4Q09W" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
+</div>
+
+*As an Amazon Associate, we earn from qualifying purchases.*

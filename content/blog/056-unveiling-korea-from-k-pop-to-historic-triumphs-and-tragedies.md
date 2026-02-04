@@ -33,11 +33,33 @@ It’s also `sad`, `depressing`, and `heartbreaking`.
 
 ### Rich History
 
+
+
+---
+
+### Editor's Pick
+
+<div class="amazon-product-card">
+  <div class="product-content">
+    <h4 class="product-title"><a href="https://amzn.to/3Zgx6Qq" rel="nofollow sponsored" target="_blank">Hangeul Workbook</a></h4>
+    <p class="product-description">Master the Korean alphabet with this beginner-friendly guide</p>
+  </div>
+  <a href="https://amzn.to/3Zgx6Qq" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
+</div>
+
+*As an Amazon Associate, we earn from qualifying purchases.*
+
+---
+
 With a history of 5,000 years as one nation, Korea, which was in ruins after the Korean War in the 1950s, developed at a tremendous pace and rose to the ranks of economic powers. Korea's music and film content industry has achieved remarkable success since the 2000s.
+
+<div class="image-grid-2">
 
 ![070_epickor_민호.mp4_20240731_221101.118.jpg](/assets/images/posts/056/070_epickor_%EB%AF%BC%ED%98%B8.mp4_20240731_221101.118.jpg)
 
 ![070_epickor_민호.mp4_20240731_221104.975.jpg](/assets/images/posts/056/070_epickor_%EB%AF%BC%ED%98%B8.mp4_20240731_221104.975.jpg)
+
+</div>
 
 ### Korean People
 
@@ -55,9 +77,13 @@ In 2014, the Sewol Ferry disaster happened.
 
 And the Itaewon disaster in 2022.
 
+<div class="image-grid-2">
+
 ![070_epickor_민호.mp4_20240731_221142.802.jpg](/assets/images/posts/056/070_epickor_%EB%AF%BC%ED%98%B8.mp4_20240731_221142.802.jpg)
 
 ![070_epickor_민호.mp4_20240731_221137.356.jpg](/assets/images/posts/056/070_epickor_%EB%AF%BC%ED%98%B8.mp4_20240731_221137.356.jpg)
+
+</div>
 
 ### Korean Spirit
 
@@ -83,3 +109,26 @@ Then check out EpicKor Snippets.
 [Exploring the Popularity of Mercedes Benz Among Koreans](https://www.epickor.com/blog/015)
 
 [Suzy-Flirting: The Unique Charm of Korea's "Nation’s First Love”](https://www.epickor.com/blog/016)
+
+
+---
+
+### Editor's Picks for You
+
+<div class="amazon-product-card">
+  <div class="product-content">
+    <h4 class="product-title"><a href="https://amzn.to/3Zgx6Qq" rel="nofollow sponsored" target="_blank">Hangeul Workbook</a></h4>
+    <p class="product-description">Master the Korean alphabet with this beginner-friendly guide</p>
+  </div>
+  <a href="https://amzn.to/3Zgx6Qq" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
+</div>
+
+<div class="amazon-product-card">
+  <div class="product-content">
+    <h4 class="product-title"><a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank">Korean Snack Box</a></h4>
+    <p class="product-description">Bring the taste of Korea to your home with this authentic snack collection</p>
+  </div>
+  <a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
+</div>
+
+*As an Amazon Associate, we earn from qualifying purchases.*

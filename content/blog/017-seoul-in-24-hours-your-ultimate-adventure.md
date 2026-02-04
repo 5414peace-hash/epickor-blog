@@ -21,15 +21,37 @@ There are many mountains in Seoul, and in the mountains, there are `streams`.
 
 Near these streams, you can find restaurants where you can eat `samgyetang` (chicken soup) while dipping your feet in the cool water. 
 
+<div class="image-grid-2">
+
 ![017_EpicKor_요순.mp4_20240711_105445.994.jpg](/assets/images/posts/017/017_EpicKor_%EC%9A%94%EC%88%9C.mp4_20240711_105445.994.jpg)
 
 ![017_EpicKor_요순.mp4_20240711_105458.633.jpg](/assets/images/posts/017/017_EpicKor_%EC%9A%94%EC%88%9C.mp4_20240711_105458.633.jpg)
+
+</div>
 
 Actually, the address is not Seoul, but still very close. Namhansanseong Fortress, located in southeastern Seoul, is home to numerous samgyetang restaurants along the streams. 
 
 A glass of makgeolli, a traditional Korean drink, and chicken soup, then enjoy an unforgettable vacation by dipping your feet in cool streams and forests.
 
 ### Did you know that Seoul is a delivery paradise?
+
+
+
+---
+
+### Editor's Pick
+
+<div class="amazon-product-card">
+  <div class="product-content">
+    <h4 class="product-title"><a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank">Korean Snack Box</a></h4>
+    <p class="product-description">Bring the taste of Korea to your home with this authentic snack collection</p>
+  </div>
+  <a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
+</div>
+
+*As an Amazon Associate, we earn from qualifying purchases.*
+
+---
 
 No matter where you are, food delivery comes to you via GPS. 
 
@@ -55,3 +77,26 @@ Keywords: Seoul travel, hidden gems, Namhansanseong Fortress, samgyetang, mounta
 [The Carbo Buldak Popularity](https://www.epickor.com/blog/048)
 
 [The Challenges Facing South Korea's Younger Generation](https://www.epickor.com/blog/049)
+
+
+---
+
+### Editor's Picks for You
+
+<div class="amazon-product-card">
+  <div class="product-content">
+    <h4 class="product-title"><a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank">Korean Snack Box</a></h4>
+    <p class="product-description">Bring the taste of Korea to your home with this authentic snack collection</p>
+  </div>
+  <a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
+</div>
+
+<div class="amazon-product-card">
+  <div class="product-content">
+    <h4 class="product-title"><a href="https://amzn.to/3MaZWi6" rel="nofollow sponsored" target="_blank">Buldak Spicy Ramen</a></h4>
+    <p class="product-description">Experience the legendary spicy Korean ramen</p>
+  </div>
+  <a href="https://amzn.to/3MaZWi6" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
+</div>
+
+*As an Amazon Associate, we earn from qualifying purchases.*

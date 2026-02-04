@@ -32,6 +32,24 @@ Additionally, there are honorifics—different ways of speaking depending on who
 ### Comparing Languages
 **Learning Korean** is a whole new adventure for many Americans, who often find languages like Spanish or French easier due to similar vocabulary and sentence structure. With Korean, you need to familiarize yourself with new characters and grammar rules.
 
+
+
+---
+
+### Editor's Pick
+
+<div class="amazon-product-card">
+  <div class="product-content">
+    <h4 class="product-title"><a href="https://amzn.to/3Zgx6Qq" rel="nofollow sponsored" target="_blank">Hangeul Workbook</a></h4>
+    <p class="product-description">Master the Korean alphabet with this beginner-friendly guide</p>
+  </div>
+  <a href="https://amzn.to/3Zgx6Qq" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
+</div>
+
+*As an Amazon Associate, we earn from qualifying purchases.*
+
+---
+
 	
 		</image>
 	
@@ -59,3 +77,26 @@ The best tip is to meet good **Korean friends** and talk to them. Next time, sha
 <unknown url="{{https://www.notion.so/b6cebe01a90e472dba3bed38eaa3c502#17d73cc3045480cfb545f0e6dae5c8b8}}" alt="bookmark"/>
 <unknown url="{{https://www.notion.so/b6cebe01a90e472dba3bed38eaa3c502#e0fedf0f79844cb7b81eb2672ff66966}}" alt="bookmark"/>
 </content>
+
+
+---
+
+### Editor's Picks for You
+
+<div class="amazon-product-card">
+  <div class="product-content">
+    <h4 class="product-title"><a href="https://amzn.to/3Zgx6Qq" rel="nofollow sponsored" target="_blank">Hangeul Workbook</a></h4>
+    <p class="product-description">Master the Korean alphabet with this beginner-friendly guide</p>
+  </div>
+  <a href="https://amzn.to/3Zgx6Qq" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
+</div>
+
+<div class="amazon-product-card">
+  <div class="product-content">
+    <h4 class="product-title"><a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank">Korean Snack Box</a></h4>
+    <p class="product-description">Bring the taste of Korea to your home with this authentic snack collection</p>
+  </div>
+  <a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
+</div>
+
+*As an Amazon Associate, we earn from qualifying purchases.*

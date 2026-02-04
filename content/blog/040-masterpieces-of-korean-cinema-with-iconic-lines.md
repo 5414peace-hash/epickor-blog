@@ -26,11 +26,33 @@ Every line in the movie is also used in Koreans' real lives.
 - "Stop moving. Are you bottom dealing?"
 - "Look at Yerim’s hand. Is it 10?"
 
+<div class="image-grid-2">
+
 ![040_epickor_건순.mp4_20240718_165927.481.jpg](/assets/images/posts/040/2331eb60-6bab-49be-bf7b-ea754c2ad50f.png)
 
 ![040_epickor_건순.mp4_20240718_165934.071.jpg](/assets/images/posts/040/8ae7024d-2a2a-4b68-b4cd-018848c51091.png)
 
+</div>
+
 ### A Bittersweet Life (2005)
+
+
+
+---
+
+### Editor's Pick
+
+<div class="amazon-product-card">
+  <div class="product-content">
+    <h4 class="product-title"><a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank">Korean Snack Box</a></h4>
+    <p class="product-description">Bring the taste of Korea to your home with this authentic snack collection</p>
+  </div>
+  <a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
+</div>
+
+*As an Amazon Associate, we earn from qualifying purchases.*
+
+---
 
 This is Korea's representative noir film, revolving around Lee Byung-hun's character, who falls for the lover of a crime boss. From actor Kim Young-cheol:
 
@@ -49,9 +71,13 @@ A line commonly heard in Korean conversations. Another iconic line from actor Hw
 
 - “If the favor continues, they think it's their right.”
 
+<div class="image-grid-2">
+
 ![040_epickor_건순.mp4_20240718_165953.024.jpg](/assets/images/posts/040/113d8212-b33c-4f9b-af8c-d940fae498fc.png)
 
 ![040_epickor_건순.mp4_20240718_165948.407.jpg](/assets/images/posts/040/4a71bc68-26cd-4b35-afcc-90daa203e113.png)
+
+</div>
 
 ### Veteran (2015)
 
@@ -67,3 +93,26 @@ A line commonly heard in Korean conversations. Another iconic line from actor Hw
 **Keywords**: Korean cinema, iconic lines, Tazza, A Bittersweet Life, Insiders, The Unjust, Veteran, Korean culture, famous movie quotes, must-watch films
 
 [https://youtube.com/shorts/8bVsgqtt0m0?si=Rl-cvB0nsdy8neyu](https://youtube.com/shorts/8bVsgqtt0m0?si=Rl-cvB0nsdy8neyu)
+
+
+---
+
+### Editor's Picks for You
+
+<div class="amazon-product-card">
+  <div class="product-content">
+    <h4 class="product-title"><a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank">Korean Snack Box</a></h4>
+    <p class="product-description">Bring the taste of Korea to your home with this authentic snack collection</p>
+  </div>
+  <a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
+</div>
+
+<div class="amazon-product-card">
+  <div class="product-content">
+    <h4 class="product-title"><a href="https://amzn.to/4qhhWVZ" rel="nofollow sponsored" target="_blank">Bibigo Seaweed Snack</a></h4>
+    <p class="product-description">Crispy and healthy Korean seaweed snacks</p>
+  </div>
+  <a href="https://amzn.to/4qhhWVZ" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
+</div>
+
+*As an Amazon Associate, we earn from qualifying purchases.*

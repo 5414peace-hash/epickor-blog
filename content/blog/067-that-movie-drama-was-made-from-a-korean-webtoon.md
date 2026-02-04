@@ -25,11 +25,33 @@ From $3.7 billion in 2021, the webtoon market is expected to skyrocket to $56.1 
 
 ### Market Growth
 
+
+
+---
+
+### Editor's Pick
+
+<div class="amazon-product-card">
+  <div class="product-content">
+    <h4 class="product-title"><a href="https://amzn.to/3O5pcqu" rel="nofollow sponsored" target="_blank">Yakgwa (Honey Cookie)</a></h4>
+    <p class="product-description">Traditional Korean honey cookies for a sweet treat</p>
+  </div>
+  <a href="https://amzn.to/3O5pcqu" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
+</div>
+
+*As an Amazon Associate, we earn from qualifying purchases.*
+
+---
+
 **Naver Webtoon** boasts 82 million users, and Kakao's Piccoma recorded $673 million in transactions last year. The success of webtoons is opening doors for Korean comic artists on a global scale.
+
+<div class="image-grid-2">
 
 ![093_epickor_휘수.mp4_20240809_184545.845.jpg](/assets/images/posts/067/093_epickor_%ED%9C%98%EC%88%98.mp4_20240809_184545.845.jpg)
 
 ![093_epickor_휘수.mp4_20240809_184548.869.jpg](/assets/images/posts/067/093_epickor_%ED%9C%98%EC%88%98.mp4_20240809_184548.869.jpg)
+
+</div>
 
 ### Unprecedented Success
 
@@ -55,3 +77,26 @@ In 2024, **Netflix** will release many movies and dramas based on Korean webtoon
 [Discover Korea's Automated Innovations: From Ramen Machines to Car Washes](https://www.epickor.com/blog/054)
 
 [Koreans Never Wait: The Speed of Life in Korea](https://www.epickor.com/blog/055)
+
+
+---
+
+### Editor's Picks for You
+
+<div class="amazon-product-card">
+  <div class="product-content">
+    <h4 class="product-title"><a href="https://amzn.to/3O5pcqu" rel="nofollow sponsored" target="_blank">Yakgwa (Honey Cookie)</a></h4>
+    <p class="product-description">Traditional Korean honey cookies for a sweet treat</p>
+  </div>
+  <a href="https://amzn.to/3O5pcqu" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
+</div>
+
+<div class="amazon-product-card">
+  <div class="product-content">
+    <h4 class="product-title"><a href="https://amzn.to/3MaZWi6" rel="nofollow sponsored" target="_blank">Buldak Spicy Ramen</a></h4>
+    <p class="product-description">Experience the legendary spicy Korean ramen</p>
+  </div>
+  <a href="https://amzn.to/3MaZWi6" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
+</div>
+
+*As an Amazon Associate, we earn from qualifying purchases.*

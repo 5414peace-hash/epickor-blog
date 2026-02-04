@@ -28,9 +28,13 @@ On `December 3, 2024`, at precisely 10:28 PM, President Yoon shocked the nation 
 
 In an unprecedented turn of events, the National Assembly acted swiftly, voting at 1:01 AM on `December 4` to demand the lifting of martial law. By 4:28 AM, just hours after it began, President Yoon officially revoked the order.
 
+<div class="image-grid-2">
+
 ![121_epickor_민호.mp4_20250103_222722.591.jpg](/assets/images/posts/076/121_epickor_%EB%AF%BC%ED%98%B8.mp4_20250103_222722.591.jpg)
 
 ![121_epickor_민호.mp4_20250103_222730.244.jpg](/assets/images/posts/076/121_epickor_%EB%AF%BC%ED%98%B8.mp4_20250103_222730.244.jpg)
+
+</div>
 
 ![121_epickor_민호.mp4_20250103_222735.093.jpg](/assets/images/posts/076/121_epickor_%EB%AF%BC%ED%98%B8.mp4_20250103_222735.093.jpg)
 
@@ -41,6 +45,24 @@ The declaration and abrupt reversal of martial law only fueled public and politi
 ---
 
 ### The Reasons Behind Martial Law
+
+
+
+---
+
+### Editor's Pick
+
+<div class="amazon-product-card">
+  <div class="product-content">
+    <h4 class="product-title"><a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank">Korean Snack Box</a></h4>
+    <p class="product-description">Bring the taste of Korea to your home with this authentic snack collection</p>
+  </div>
+  <a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
+</div>
+
+*As an Amazon Associate, we earn from qualifying purchases.*
+
+---
 
 President Yoon justified his controversial decision by pointing to a government deadlock allegedly orchestrated by the opposition party. He accused them of slashing critical budgets and propagating baseless claims of election fraud. The declaration of martial law, according to Yoon, was a last-resort measure to stabilize the nation.
 
@@ -70,9 +92,13 @@ South Korea’s streets became the stage for a powerful display of democratic ac
 
 This marks the `third time` in South Korea’s history that a sitting president has faced impeachment. Out of the previous two cases, one was upheld, leading to the removal of the president, while the other was dismissed. 
 
+<div class="image-grid-2">
+
 ![121_epickor_민호.mp4_20250103_222818.092.jpg](/assets/images/posts/076/121_epickor_%EB%AF%BC%ED%98%B8.mp4_20250103_222818.092.jpg)
 
 ![121_epickor_민호.mp4_20250103_222815.679.jpg](/assets/images/posts/076/121_epickor_%EB%AF%BC%ED%98%B8.mp4_20250103_222815.679.jpg)
+
+</div>
 
 President Yoon’s case is a stark reminder of South Korea’s vibrant democratic spirit, where leaders are held accountable by both the institutions and the people.
 
@@ -98,3 +124,26 @@ President Yoon’s case is a stark reminder of South Korea’s vibrant democrati
 [Discover the Unique Korean Concert Experience that Moves Global Superstars : Seoul Korea](https://www.epickor.com/blog/061)
 
 [Experience Traditional Korean Kimchi Making at Museum Kimchikan in Insadong](https://www.epickor.com/blog/062)
+
+
+---
+
+### Editor's Picks for You
+
+<div class="amazon-product-card">
+  <div class="product-content">
+    <h4 class="product-title"><a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank">Korean Snack Box</a></h4>
+    <p class="product-description">Bring the taste of Korea to your home with this authentic snack collection</p>
+  </div>
+  <a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
+</div>
+
+<div class="amazon-product-card">
+  <div class="product-content">
+    <h4 class="product-title"><a href="https://amzn.to/4qhhWVZ" rel="nofollow sponsored" target="_blank">Bibigo Seaweed Snack</a></h4>
+    <p class="product-description">Crispy and healthy Korean seaweed snacks</p>
+  </div>
+  <a href="https://amzn.to/4qhhWVZ" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
+</div>
+
+*As an Amazon Associate, we earn from qualifying purchases.*

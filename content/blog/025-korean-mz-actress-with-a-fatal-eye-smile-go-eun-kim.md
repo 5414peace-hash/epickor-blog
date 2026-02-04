@@ -19,9 +19,13 @@ She played the cute and innocent female main character in the very famous drama 
 
 Yes, she is Go-eun Kim.
 
+<div class="image-grid-2">
+
 ![025_Epickor_건순 (1).mp4_20240713_221722.890.jpg](/assets/images/posts/025/025_Epickor_%EA%B1%B4%EC%88%9C_(1).mp4_20240713_221722.890.jpg)
 
-![025_Epickor_건순 (1).mp4_20240713_221729.779.jpg](/assets/images/posts/025/025_Epickor_%EA%B1%B4%EC%88%9C_(1).mp4_20240713_221729.779.jpg)
+![025_Epickor_건순 (1).mp4_20240713_221729.779.jpg](/assets/images/posts/025/025_Epickor_%EA%B1%B4%EC%88%9C_(1)
+
+</div>.mp4_20240713_221729.779.jpg)
 
 ### MZ Actress
 
@@ -31,11 +35,33 @@ Although she does not have the thick double eyelids and large eyes that Koreans 
 
 ### Natural Beauty
 
+
+
+---
+
+### Editor's Pick
+
+<div class="amazon-product-card">
+  <div class="product-content">
+    <h4 class="product-title"><a href="https://amzn.to/3MaZWi6" rel="nofollow sponsored" target="_blank">Buldak Spicy Ramen</a></h4>
+    <p class="product-description">Experience the legendary spicy Korean ramen</p>
+  </div>
+  <a href="https://amzn.to/3MaZWi6" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
+</div>
+
+*As an Amazon Associate, we earn from qualifying purchases.*
+
+---
+
 Many of her past photos have also been released. Her pure and clear face, no different from her current appearance, became a hot topic.
+
+<div class="image-grid-2">
 
 ![025_Epickor_건순 (1).mp4_20240713_221745.998.jpg](/assets/images/posts/025/025_Epickor_%EA%B1%B4%EC%88%9C_(1).mp4_20240713_221745.998.jpg)
 
-![025_Epickor_건순 (1).mp4_20240713_221753.758.jpg](/assets/images/posts/025/025_Epickor_%EA%B1%B4%EC%88%9C_(1).mp4_20240713_221753.758.jpg)
+![025_Epickor_건순 (1).mp4_20240713_221753.758.jpg](/assets/images/posts/025/025_Epickor_%EA%B1%B4%EC%88%9C_(1)
+
+</div>.mp4_20240713_221753.758.jpg)
 
 ### Flirty Smile
 
@@ -69,3 +95,26 @@ Who is your favorite Korean actor?
 [3 Must-Visit Markets in Seoul, Korea](https://www.epickor.com/blog/053)
 
 [Discover Korea's Automated Innovations: From Ramen Machines to Car Washes](https://www.epickor.com/blog/054)
+
+
+---
+
+### Editor's Picks for You
+
+<div class="amazon-product-card">
+  <div class="product-content">
+    <h4 class="product-title"><a href="https://amzn.to/3MaZWi6" rel="nofollow sponsored" target="_blank">Buldak Spicy Ramen</a></h4>
+    <p class="product-description">Experience the legendary spicy Korean ramen</p>
+  </div>
+  <a href="https://amzn.to/3MaZWi6" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
+</div>
+
+<div class="amazon-product-card">
+  <div class="product-content">
+    <h4 class="product-title"><a href="https://amzn.to/4twhKFk" rel="nofollow sponsored" target="_blank">Round Lab Dokdo Toner</a></h4>
+    <p class="product-description">Hydrating K-beauty toner for radiant skin</p>
+  </div>
+  <a href="https://amzn.to/4twhKFk" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
+</div>
+
+*As an Amazon Associate, we earn from qualifying purchases.*

@@ -23,6 +23,24 @@ The title, “Welcome, First Time in Korea?” shows the realistic travel storie
 
 ### Surprising Moments
 
+
+
+---
+
+### Editor's Pick
+
+<div class="amazon-product-card">
+  <div class="product-content">
+    <h4 class="product-title"><a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank">Korean Snack Box</a></h4>
+    <p class="product-description">Bring the taste of Korea to your home with this authentic snack collection</p>
+  </div>
+  <a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
+</div>
+
+*As an Amazon Associate, we earn from qualifying purchases.*
+
+---
+
 When Koreans see foreigners being amazed about Korea, Koreans think, 
 
 `“Is that amazing?”` 
@@ -31,9 +49,13 @@ And when foreigners watch the show, they have a moment of surprise and say,
 
 `“Wow, Korea is like that?”`
 
+<div class="image-grid-2">
+
 ![026_EpicKor_요순.mp4_20240714_153459.666.jpg](/assets/images/posts/026/026_EpicKor_%EC%9A%94%EC%88%9C.mp4_20240714_153459.666.jpg)
 
 ![026_EpicKor_요순.mp4_20240714_153520.737.jpg](/assets/images/posts/026/026_EpicKor_%EC%9A%94%EC%88%9C.mp4_20240714_153520.737.jpg)
+
+</div>
 
 ### Eyeglasses Story
 
@@ -57,3 +79,26 @@ So I recommend it because you can get advance information about things that migh
 **Keywords**: Korean travel show, cultural differences, first-time visitors, Korean cuisine, eyeglass production, Korean optical stores, travel experiences, Korean culture, surprising moments, Korean TV programs.
 
 [https://youtube.com/shorts/iRebp67HLlc?si=4DzzEnnCS1vtdJnX](https://youtube.com/shorts/iRebp67HLlc?si=4DzzEnnCS1vtdJnX)
+
+
+---
+
+### Editor's Picks for You
+
+<div class="amazon-product-card">
+  <div class="product-content">
+    <h4 class="product-title"><a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank">Korean Snack Box</a></h4>
+    <p class="product-description">Bring the taste of Korea to your home with this authentic snack collection</p>
+  </div>
+  <a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
+</div>
+
+<div class="amazon-product-card">
+  <div class="product-content">
+    <h4 class="product-title"><a href="https://amzn.to/4twhKFk" rel="nofollow sponsored" target="_blank">Round Lab Dokdo Toner</a></h4>
+    <p class="product-description">Hydrating K-beauty toner for radiant skin</p>
+  </div>
+  <a href="https://amzn.to/4twhKFk" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
+</div>
+
+*As an Amazon Associate, we earn from qualifying purchases.*

@@ -23,6 +23,24 @@ It was estimated that there would be over 100,000 cafes in total as of 2023.
 
 ### Best Seller
 
+
+
+---
+
+### Editor's Pick
+
+<div class="amazon-product-card">
+  <div class="product-content">
+    <h4 class="product-title"><a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank">Korean Snack Box</a></h4>
+    <p class="product-description">Bring the taste of Korea to your home with this authentic snack collection</p>
+  </div>
+  <a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
+</div>
+
+*As an Amazon Associate, we earn from qualifying purchases.*
+
+---
+
 And the undisputed number one best-selling drink in many cafes is Iced Americano. 
 
 Why on earth are Koreans so crazy about “iced” Americano?
@@ -33,9 +51,13 @@ This is because coffee is not considered a beverage to be consumed like tea.
 
 Coffee is a quick and simple drink for Koreans.
 
+<div class="image-grid-2">
+
 ![027_epickor_민호 (1).mp4_20240714_153621.937.jpg](/assets/images/posts/027/027_epickor_%EB%AF%BC%ED%98%B8_(1).mp4_20240714_153621.937.jpg)
 
-![027_epickor_민호 (1).mp4_20240714_153626.826.jpg](/assets/images/posts/027/027_epickor_%EB%AF%BC%ED%98%B8_(1).mp4_20240714_153626.826.jpg)
+![027_epickor_민호 (1).mp4_20240714_153626.826.jpg](/assets/images/posts/027/027_epickor_%EB%AF%BC%ED%98%B8_(1)
+
+</div>.mp4_20240714_153626.826.jpg)
 
 ### Spicy Food
 
@@ -51,9 +73,13 @@ It's great for a quick drink during lunch or a short break.
 
 There are too many other guesses, but in fact, many Koreans agree with all of this, so it seems that all factors have combined to make Korea a country that is crazy about Iced Americano.
 
+<div class="image-grid-2">
+
 ![027_epickor_민호 (1).mp4_20240714_153640.538.jpg](/assets/images/posts/027/027_epickor_%EB%AF%BC%ED%98%B8_(1).mp4_20240714_153640.538.jpg)
 
-![027_epickor_민호 (1).mp4_20240714_153650.507.jpg](/assets/images/posts/027/027_epickor_%EB%AF%BC%ED%98%B8_(1).mp4_20240714_153650.507.jpg)
+![027_epickor_민호 (1).mp4_20240714_153650.507.jpg](/assets/images/posts/027/027_epickor_%EB%AF%BC%ED%98%B8_(1)
+
+</div>.mp4_20240714_153650.507.jpg)
 
 ### Do you guys also like drinking cold drinks even in cold weather?
 
@@ -67,3 +93,26 @@ There are too many other guesses, but in fact, many Koreans agree with all of th
 **Keywords**: Iced Americano, Korean coffee culture, popular drink, winter beverages, caffeine fix, spicy food, quick drink, affordable coffee, coffee trends, cultural habits.
 
 [https://youtube.com/shorts/J2IvG5o7klI?si=6Jtv3avRDaY_CvK3](https://youtube.com/shorts/J2IvG5o7klI?si=6Jtv3avRDaY_CvK3)
+
+
+---
+
+### Editor's Picks for You
+
+<div class="amazon-product-card">
+  <div class="product-content">
+    <h4 class="product-title"><a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank">Korean Snack Box</a></h4>
+    <p class="product-description">Bring the taste of Korea to your home with this authentic snack collection</p>
+  </div>
+  <a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
+</div>
+
+<div class="amazon-product-card">
+  <div class="product-content">
+    <h4 class="product-title"><a href="https://amzn.to/3MaZWi6" rel="nofollow sponsored" target="_blank">Buldak Spicy Ramen</a></h4>
+    <p class="product-description">Experience the legendary spicy Korean ramen</p>
+  </div>
+  <a href="https://amzn.to/3MaZWi6" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
+</div>
+
+*As an Amazon Associate, we earn from qualifying purchases.*

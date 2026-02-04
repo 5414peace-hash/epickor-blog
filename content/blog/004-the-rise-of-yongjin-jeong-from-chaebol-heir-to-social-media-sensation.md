@@ -12,15 +12,37 @@ tags: ['Celeb', 'Man']
 
 # The Most Talked-About Figure on Korean Social Media Right Now: Yongjin Jeong
 
+<div class="image-grid-2">
+
 ![004_정용진_건순.mp4_20240704_180051.872.jpg](/assets/images/posts/004/5dfa9df2-7699-4479-8811-10f8210dfd5e.png)
 
 ![004_정용진_건순.mp4_20240704_180059.298.jpg](/assets/images/posts/004/eef00638-949c-4476-b227-dc55602ea880.png)
+
+</div>
 
 ### Chaebol Heir
 
 Born as the son of the youngest daughter of Samsung's founder and chairman, Lee Byung-cheol, `Yongjin Jeong` is a notable figure in Korea's business landscape. He is the cousin of Samsung Group Vice Chairman Lee Jae-yong and the ex-husband of actress Go Hyun-jung. Currently, he serves as the Chairman of Shinsegae Group and owns the SSG Renders Baseball team.
 
 ### Chaebol Definition
+
+
+
+---
+
+### Editor's Pick
+
+<div class="amazon-product-card">
+  <div class="product-content">
+    <h4 class="product-title"><a href="https://amzn.to/495n6oT" rel="nofollow sponsored" target="_blank">Yellow Ramen Pot</a></h4>
+    <p class="product-description">Authentic Korean ramen pot for perfect noodles</p>
+  </div>
+  <a href="https://amzn.to/495n6oT" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
+</div>
+
+*As an Amazon Associate, we earn from qualifying purchases.*
+
+---
 
 In Korea, there is a term called `‘Chaebol’` that refers to family-run conglomerates with massive wealth, often passed down through generations. These companies typically have assets exceeding 10 trillion won and are led by 'silver spoon' heirs who inherit both wealth and management rights.
 
@@ -32,9 +54,13 @@ Second and third-generation chaebols usually refrain from making political state
 
 Yongjin Jeong became widely known for his ‘`myeolgong멸공`’ statement, an abbreviation for ‘Destroy the Communists,’ which refers to the perceived main enemy of South Korea’s liberal democracy. By posting #myeolgong멸공 on his social media, he publicly showcased his right-wing political views, stirring considerable public interest and debate.
 
+<div class="image-grid-2">
+
 ![004_정용진_건순.mp4_20240704_180159.281.jpg](/assets/images/posts/004/004_%EC%A0%95%EC%9A%A9%EC%A7%84_%EA%B1%B4%EC%88%9C.mp4_20240704_180159.281.jpg)
 
 ![004_정용진_건순.mp4_20240704_180155.385.jpg](/assets/images/posts/004/004_%EC%A0%95%EC%9A%A9%EC%A7%84_%EA%B1%B4%EC%88%9C.mp4_20240704_180155.385.jpg)
+
+</div>
 
 ### Celebrity Chef
 
@@ -56,3 +82,26 @@ Keywords: Yongjin Jeong, Shinsegae Group, chaebol, South Korea, Samsung, Lee Byu
 [Top 10 Jobs in Korea](https://www.epickor.com/blog/039)
 
 [Masterpieces of Korean Cinema with Iconic Lines](https://www.epickor.com/blog/040)
+
+
+---
+
+### Editor's Picks for You
+
+<div class="amazon-product-card">
+  <div class="product-content">
+    <h4 class="product-title"><a href="https://amzn.to/495n6oT" rel="nofollow sponsored" target="_blank">Yellow Ramen Pot</a></h4>
+    <p class="product-description">Authentic Korean ramen pot for perfect noodles</p>
+  </div>
+  <a href="https://amzn.to/495n6oT" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
+</div>
+
+<div class="amazon-product-card">
+  <div class="product-content">
+    <h4 class="product-title"><a href="https://amzn.to/3MaZWi6" rel="nofollow sponsored" target="_blank">Buldak Spicy Ramen</a></h4>
+    <p class="product-description">Experience the legendary spicy Korean ramen</p>
+  </div>
+  <a href="https://amzn.to/3MaZWi6" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
+</div>
+
+*As an Amazon Associate, we earn from qualifying purchases.*

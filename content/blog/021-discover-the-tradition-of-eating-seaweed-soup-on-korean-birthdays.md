@@ -21,11 +21,33 @@ It's literally a soup made with seaweed. It would be difficult to find a person 
 
 ### Iron and Recovery
 
+
+
+---
+
+### Editor's Pick
+
+<div class="amazon-product-card">
+  <div class="product-content">
+    <h4 class="product-title"><a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank">Korean Snack Box</a></h4>
+    <p class="product-description">Bring the taste of Korea to your home with this authentic snack collection</p>
+  </div>
+  <a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
+</div>
+
+*As an Amazon Associate, we earn from qualifying purchases.*
+
+---
+
 Because seaweed is good for replenishing iron, mothers in Korea usually ate seaweed soup as a recovery meal after giving birth to a baby.
+
+<div class="image-grid-2">
 
 ![021_EpicKor_요순.mp4_20240712_111912.739.jpg](/assets/images/posts/021/f5e8ca45-a2d8-42db-b31d-4973b64cb0ec.png)
 
 ![021_EpicKor_요순.mp4_20240712_111929.995.jpg](/assets/images/posts/021/85f623c4-8cf4-4eeb-936c-9fa7f4e71205.png)
+
+</div>
 
 ### Parental Respect
 
@@ -59,3 +81,26 @@ Do you have any special food you eat on your `birthday`?
 [Korea Gives Food Even If You Don’t Order It](https://www.epickor.com/blog/046)
 
 [Discover the Unique Charm of Korean "Banchan" Culture](https://www.epickor.com/blog/050)
+
+
+---
+
+### Editor's Picks for You
+
+<div class="amazon-product-card">
+  <div class="product-content">
+    <h4 class="product-title"><a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank">Korean Snack Box</a></h4>
+    <p class="product-description">Bring the taste of Korea to your home with this authentic snack collection</p>
+  </div>
+  <a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
+</div>
+
+<div class="amazon-product-card">
+  <div class="product-content">
+    <h4 class="product-title"><a href="https://amzn.to/4qhhWVZ" rel="nofollow sponsored" target="_blank">Bibigo Seaweed Snack</a></h4>
+    <p class="product-description">Crispy and healthy Korean seaweed snacks</p>
+  </div>
+  <a href="https://amzn.to/4qhhWVZ" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
+</div>
+
+*As an Amazon Associate, we earn from qualifying purchases.*

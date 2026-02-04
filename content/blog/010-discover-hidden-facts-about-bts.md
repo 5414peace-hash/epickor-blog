@@ -17,6 +17,24 @@ None of the 7 members have blood type B.
 
 ### B-FREE Controversy
 
+
+
+---
+
+### Editor's Pick
+
+<div class="amazon-product-card">
+  <div class="product-content">
+    <h4 class="product-title"><a href="https://amzn.to/4qhhWVZ" rel="nofollow sponsored" target="_blank">Bibigo Seaweed Snack</a></h4>
+    <p class="product-description">Crispy and healthy Korean seaweed snacks</p>
+  </div>
+  <a href="https://amzn.to/4qhhWVZ" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
+</div>
+
+*As an Amazon Associate, we earn from qualifying purchases.*
+
+---
+
 Korean underground rapper B-FREE, who insulted BTS before, was recently booked on charges of interfering with the Korean election campaign.
 
 ![010_EpicKor_진호.mp4_20240708_150433.097.jpg](/assets/images/posts/010/9fdac220-fc50-4255-b002-edc517aeccab.png)
@@ -43,9 +61,13 @@ Before BTS's debut, Producer Bang Si-hyuk owed billions of won. Despite concerns
 
 During their trainee days, Suga mentioned that up to 11 people slept in one room in the dorm.
 
+<div class="image-grid-2">
+
 ![010_EpicKor_진호.mp4_20240708_150517.458.jpg](/assets/images/posts/010/33d96f74-0796-4b85-9861-85542fc9cc75.png)
 
 ![010_EpicKor_진호.mp4_20240708_150521.649.jpg](/assets/images/posts/010/07e35738-eb14-41f5-b5f8-0c23ed09183a.png)
+
+</div>
 
 ### Jin's Military Service
 
@@ -77,3 +99,26 @@ Keywords: BTS, blood type, B-FREE, RM, Jungkook, Bang Si-hyuk, Suga, Jin, milita
 [What Should You Drink in Korea Other Than ‘Soju’? : Travel Korea](https://www.epickor.com/blog/060)
 
 [Discover the Unique Korean Concert Experience that Moves Global Superstars : Seoul Korea](https://www.epickor.com/blog/061)
+
+
+---
+
+### Editor's Picks for You
+
+<div class="amazon-product-card">
+  <div class="product-content">
+    <h4 class="product-title"><a href="https://amzn.to/4qhhWVZ" rel="nofollow sponsored" target="_blank">Bibigo Seaweed Snack</a></h4>
+    <p class="product-description">Crispy and healthy Korean seaweed snacks</p>
+  </div>
+  <a href="https://amzn.to/4qhhWVZ" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
+</div>
+
+<div class="amazon-product-card">
+  <div class="product-content">
+    <h4 class="product-title"><a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank">Korean Snack Box</a></h4>
+    <p class="product-description">Bring the taste of Korea to your home with this authentic snack collection</p>
+  </div>
+  <a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
+</div>
+
+*As an Amazon Associate, we earn from qualifying purchases.*

@@ -32,6 +32,24 @@ Korea’s iconic ski resorts are a must-visit during winter! Start with the worl
 
 ### Seoul’s Outdoor Skating Rink – Where Magic Happens
 
+
+
+---
+
+### Editor's Pick
+
+<div class="amazon-product-card">
+  <div class="product-content">
+    <h4 class="product-title"><a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank">Korean Snack Box</a></h4>
+    <p class="product-description">Bring the taste of Korea to your home with this authentic snack collection</p>
+  </div>
+  <a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
+</div>
+
+*As an Amazon Associate, we earn from qualifying purchases.*
+
+---
+
 **Icy Rinks**
 
 Prefer ice skating over skiing? The **Seoul Plaza Ice Rink** is the ultimate winter activity for a magical evening. Imagine gliding on ice under Seoul’s twinkling city lights for just $2 (₩2,000). Skate rentals cost only $1 (₩1,000), making it an incredibly affordable yet memorable experience.
@@ -40,9 +58,13 @@ It’s a perfect spot for couples on a romantic date or for families and friends
 
 *(Visuals: Couples skating hand-in-hand under sparkling lights, families enjoying laughs on the ice, and cozy stalls offering warm snacks like hot chocolate)*
 
+<div class="image-grid-2">
+
 ![119_epickor_민호_bgm제거.mp4_20250121_222658.194.jpg](/assets/images/posts/091/119_epickor_%EB%AF%BC%ED%98%B8_bgm%EC%A0%9C%EA%B1%B0.mp4_20250121_222658.194.jpg)
 
 ![119_epickor_민호_bgm제거.mp4_20250121_222715.324.jpg](/assets/images/posts/091/119_epickor_%EB%AF%BC%ED%98%B8_bgm%EC%A0%9C%EA%B1%B0.mp4_20250121_222715.324.jpg)
+
+</div>
 
 ---
 
@@ -67,9 +89,13 @@ Winter in Korea isn’t just about skiing and skating. The country offers stunni
 
 *(Visuals: Couples taking snowy selfies at Nami Island, families admiring the illuminated light tunnels at the Garden of Morning Calm, and the first light of dawn painting the skies at Jeongdongjin)*
 
+<div class="image-grid-2">
+
 ![119_epickor_민호_bgm제거.mp4_20250121_222732.752.jpg](/assets/images/posts/091/119_epickor_%EB%AF%BC%ED%98%B8_bgm%EC%A0%9C%EA%B1%B0.mp4_20250121_222732.752.jpg)
 
 ![119_epickor_민호_bgm제거.mp4_20250121_222738.251.jpg](/assets/images/posts/091/119_epickor_%EB%AF%BC%ED%98%B8_bgm%EC%A0%9C%EA%B1%B0.mp4_20250121_222738.251.jpg)
+
+</div>
 
 ![119_epickor_민호_bgm제거.mp4_20250121_222741.424.jpg](/assets/images/posts/091/119_epickor_%EB%AF%BC%ED%98%B8_bgm%EC%A0%9C%EA%B1%B0.mp4_20250121_222741.424.jpg)
 
@@ -103,3 +129,26 @@ This winter, let Korea’s snowy peaks, icy rinks, and magical destinations take
 [That Movie & Drama Was Made from a Korean Webtoon](https://www.epickor.com/blog/067)
 
 [Uncover the Truth About Learning Korean: Challenges and Tips for Beginners](https://www.epickor.com/blog/068)
+
+
+---
+
+### Editor's Picks for You
+
+<div class="amazon-product-card">
+  <div class="product-content">
+    <h4 class="product-title"><a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank">Korean Snack Box</a></h4>
+    <p class="product-description">Bring the taste of Korea to your home with this authentic snack collection</p>
+  </div>
+  <a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
+</div>
+
+<div class="amazon-product-card">
+  <div class="product-content">
+    <h4 class="product-title"><a href="https://amzn.to/467PaA7" rel="nofollow sponsored" target="_blank">Ssamjang (Soybean Paste)</a></h4>
+    <p class="product-description">Essential Korean dipping sauce for authentic flavors</p>
+  </div>
+  <a href="https://amzn.to/467PaA7" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
+</div>
+
+*As an Amazon Associate, we earn from qualifying purchases.*

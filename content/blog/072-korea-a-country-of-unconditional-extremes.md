@@ -19,11 +19,33 @@ They're crazy about extremely hot soup, not just warm. Boiling soup in a ceramic
 
 On the other hand, they are equally passionate about cold dishes. One popular example is `*naengmyeon*`, served in a large stainless steel bowl with frozen broth that’s so cold it feels like your head might burst. This love for extremes is deeply rooted in Korean food culture.
 
+<div class="image-grid-2">
+
 ![104_epickor_휘수.mp4_20240906_134754.450.jpg](/assets/images/posts/072/104_epickor_%ED%9C%98%EC%88%98.mp4_20240906_134754.450.jpg)
 
 ![104_epickor_휘수.mp4_20240906_134814.570.jpg](/assets/images/posts/072/104_epickor_%ED%9C%98%EC%88%98.mp4_20240906_134814.570.jpg)
 
+</div>
+
 ### The Ultimate Spicy Challenge
+
+
+
+---
+
+### Editor's Pick
+
+<div class="amazon-product-card">
+  <div class="product-content">
+    <h4 class="product-title"><a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank">Korean Snack Box</a></h4>
+    <p class="product-description">Bring the taste of Korea to your home with this authentic snack collection</p>
+  </div>
+  <a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
+</div>
+
+*As an Amazon Associate, we earn from qualifying purchases.*
+
+---
 
 You may know that dishes like `*kimchi*` and `*tteokbokki*` are spicy, but in Korea, there’s a level of spiciness that goes beyond what most people can handle. Take `*Buldak Bokkeum Myeon*` (fire chicken noodles), for example—it’s so spicy, it has even sent people to the hospital! Various tteokbokki brands also offer sauces with spice levels that are truly extreme, pushing your taste buds to the limit. If you’re thinking of trying them for fun, be careful—one bite could ruin your entire trip!
 
@@ -31,9 +53,13 @@ You may know that dishes like `*kimchi*` and `*tteokbokki*` are spicy, but in Ko
 
 Korea’s love for extremes extends beyond food into sports. `Archery`, an Olympic event, is one of the most precision-demanding sports, and in Korea, the competition is fierce. There's a saying that the Korean national team trials are as intense as an Olympic final. The athletes undergo intense training, which includes practicing against noise at baseball stadiums and even competing with archery robots to sharpen their skills. Koreans, it seems, don’t know how to do anything halfway!
 
+<div class="image-grid-2">
+
 ![104_epickor_휘수.mp4_20240906_134853.602.jpg](/assets/images/posts/072/104_epickor_%ED%9C%98%EC%88%98.mp4_20240906_134853.602.jpg)
 
 ![104_epickor_휘수.mp4_20240906_134900.050.jpg](/assets/images/posts/072/104_epickor_%ED%9C%98%EC%88%98.mp4_20240906_134900.050.jpg)
+
+</div>
 
 ### People Who Push Beyond Limits
 
@@ -61,3 +87,26 @@ Whether it's food, spice, or sports, Koreans take everything to the extreme. The
 [Not Seoul, but Gyeongju: A Cultural Journey](https://www.epickor.com/blog/069)
 
 [Must-Watch 4 Korean Dramas on Netflix](https://www.epickor.com/blog/070)
+
+
+---
+
+### Editor's Picks for You
+
+<div class="amazon-product-card">
+  <div class="product-content">
+    <h4 class="product-title"><a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank">Korean Snack Box</a></h4>
+    <p class="product-description">Bring the taste of Korea to your home with this authentic snack collection</p>
+  </div>
+  <a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
+</div>
+
+<div class="amazon-product-card">
+  <div class="product-content">
+    <h4 class="product-title"><a href="https://amzn.to/3MaZWi6" rel="nofollow sponsored" target="_blank">Buldak Spicy Ramen</a></h4>
+    <p class="product-description">Experience the legendary spicy Korean ramen</p>
+  </div>
+  <a href="https://amzn.to/3MaZWi6" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
+</div>
+
+*As an Amazon Associate, we earn from qualifying purchases.*

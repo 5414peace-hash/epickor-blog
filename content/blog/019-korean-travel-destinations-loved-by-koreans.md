@@ -21,11 +21,33 @@ However, since more than 20% of the Korean population is concentrated in one cit
 
 So, where do many Koreans go to travel? According to actual tourism statistics in Korea, many people go to Jeju Island, an island with a unique and beautiful natural scenery.
 
+<div class="image-grid-2">
+
 ![019_epickor_휘수.mp4_20240711_105712.234.jpg](/assets/images/posts/019/48564206-7b41-4a5e-be85-4bcbec54fcdf.png)
 
 ![019_epickor_휘수.mp4_20240711_105724.922.jpg](/assets/images/posts/019/5856d517-a161-4341-9475-4f601c59145d.png)
 
+</div>
+
 ### Gyeongju
+
+
+
+---
+
+### Editor's Pick
+
+<div class="amazon-product-card">
+  <div class="product-content">
+    <h4 class="product-title"><a href="https://amzn.to/3Zgx6Qq" rel="nofollow sponsored" target="_blank">Hangeul Workbook</a></h4>
+    <p class="product-description">Master the Korean alphabet with this beginner-friendly guide</p>
+  </div>
+  <a href="https://amzn.to/3Zgx6Qq" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
+</div>
+
+*As an Amazon Associate, we earn from qualifying purchases.*
+
+---
 
 Second place is said to be Gyeongju, where you can see, feel, and learn about Korean history.
 
@@ -55,3 +77,26 @@ Fourth place is Gangneung and Sokcho, where you can enjoy Korea’s blue East Se
 [Experience Korean Culture at Byeolmadang Library: A Trendy Spot for Relaxation and Learning](https://www.epickor.com/travel/001)
 
 [Explore Seoul's Premier Downtown Resting Place Along Cheonggyecheon Stream](https://www.epickor.com/travel/002)
+
+
+---
+
+### Editor's Picks for You
+
+<div class="amazon-product-card">
+  <div class="product-content">
+    <h4 class="product-title"><a href="https://amzn.to/3Zgx6Qq" rel="nofollow sponsored" target="_blank">Hangeul Workbook</a></h4>
+    <p class="product-description">Master the Korean alphabet with this beginner-friendly guide</p>
+  </div>
+  <a href="https://amzn.to/3Zgx6Qq" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
+</div>
+
+<div class="amazon-product-card">
+  <div class="product-content">
+    <h4 class="product-title"><a href="https://amzn.to/3MaZWi6" rel="nofollow sponsored" target="_blank">Buldak Spicy Ramen</a></h4>
+    <p class="product-description">Experience the legendary spicy Korean ramen</p>
+  </div>
+  <a href="https://amzn.to/3MaZWi6" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
+</div>
+
+*As an Amazon Associate, we earn from qualifying purchases.*

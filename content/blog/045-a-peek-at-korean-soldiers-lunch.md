@@ -19,11 +19,33 @@ After they are discharged from the military, they become a reserve force. They a
 
 ### Training Duration
 
+
+
+---
+
+### Editor's Pick
+
+<div class="amazon-product-card">
+  <div class="product-content">
+    <h4 class="product-title"><a href="https://amzn.to/3MaZWi6" rel="nofollow sponsored" target="_blank">Buldak Spicy Ramen</a></h4>
+    <p class="product-description">Experience the legendary spicy Korean ramen</p>
+  </div>
+  <a href="https://amzn.to/3MaZWi6" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
+</div>
+
+*As an Amazon Associate, we earn from qualifying purchases.*
+
+---
+
 The reserve force period is a total of `8 years`. For the first four years, they train for 3 days and 2 nights every year. For the next two years, training is held twice a year. For the last two years, training is conducted exclusively over the phone.
+
+<div class="image-grid-2">
 
 ![048_epickor_휘수.mp4_20240721_214217.240.jpg](/assets/images/posts/045/048_epickor_%ED%9C%98%EC%88%98.mp4_20240721_214217.240.jpg)
 
 ![048_epickor_휘수.mp4_20240721_214220.265.jpg](/assets/images/posts/045/048_epickor_%ED%9C%98%EC%88%98.mp4_20240721_214220.265.jpg)
+
+</div>
 
 ### Lunch During Training
 
@@ -49,9 +71,13 @@ Once they've finished eating, start training even if the weather is bad!
 
 After training, they take the bus back home.
 
+<div class="image-grid-2">
+
 ![048_epickor_휘수.mp4_20240721_214234.265.jpg](/assets/images/posts/045/048_epickor_%ED%9C%98%EC%88%98.mp4_20240721_214234.265.jpg)
 
 ![048_epickor_휘수.mp4_20240721_214238.026.jpg](/assets/images/posts/045/048_epickor_%ED%9C%98%EC%88%98.mp4_20240721_214238.026.jpg)
+
+</div>
 
 ### Secret
 
@@ -73,3 +99,26 @@ Actually, it's a secret, but they say the lunch they eat during training is not 
 [The Carbo Buldak Popularity](https://www.epickor.com/blog/048)
 
 [The Challenges Facing South Korea's Younger Generation](https://www.epickor.com/blog/049)
+
+
+---
+
+### Editor's Picks for You
+
+<div class="amazon-product-card">
+  <div class="product-content">
+    <h4 class="product-title"><a href="https://amzn.to/3MaZWi6" rel="nofollow sponsored" target="_blank">Buldak Spicy Ramen</a></h4>
+    <p class="product-description">Experience the legendary spicy Korean ramen</p>
+  </div>
+  <a href="https://amzn.to/3MaZWi6" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
+</div>
+
+<div class="amazon-product-card">
+  <div class="product-content">
+    <h4 class="product-title"><a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank">Korean Snack Box</a></h4>
+    <p class="product-description">Bring the taste of Korea to your home with this authentic snack collection</p>
+  </div>
+  <a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
+</div>
+
+*As an Amazon Associate, we earn from qualifying purchases.*

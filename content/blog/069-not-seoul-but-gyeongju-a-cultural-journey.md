@@ -25,11 +25,33 @@ At night, "`Donggung Palace and Wolji Pond`" shines even brighter, while "`Cheom
 
 ### Modern Delights
 
+
+
+---
+
+### Editor's Pick
+
+<div class="amazon-product-card">
+  <div class="product-content">
+    <h4 class="product-title"><a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank">Korean Snack Box</a></h4>
+    <p class="product-description">Bring the taste of Korea to your home with this authentic snack collection</p>
+  </div>
+  <a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
+</div>
+
+*As an Amazon Associate, we earn from qualifying purchases.*
+
+---
+
 Don't forget to spend some time on `Hwangridan-gil`, where you'll find popular restaurants, cafes, and shops that MZers love.
+
+<div class="image-grid-2">
 
 ![098_eickor_진호.mp4_20240814_172437.768.jpg](/assets/images/posts/069/098_eickor_%EC%A7%84%ED%98%B8.mp4_20240814_172437.768.jpg)
 
 ![098_eickor_진호.mp4_20240814_172457.464.jpg](/assets/images/posts/069/098_eickor_%EC%A7%84%ED%98%B8.mp4_20240814_172457.464.jpg)
+
+</div>
 
 ### Travel Tips
 
@@ -39,9 +61,13 @@ Traveling from Seoul to Gyeongju takes about 2.5 to 3 hours by KTX, 3.5 to 4 hou
 
 Although it's a bit far from the Seoul metropolitan area, including Incheon International Airport, staying in a traditional Korean hanok can make for a unique experience, whether it's for a night or a few days.
 
+<div class="image-grid-2">
+
 ![098_eickor_진호.mp4_20240814_172511.595.jpg](/assets/images/posts/069/098_eickor_%EC%A7%84%ED%98%B8.mp4_20240814_172511.595.jpg)
 
 ![098_eickor_진호.mp4_20240814_172517.192.jpg](/assets/images/posts/069/098_eickor_%EC%A7%84%ED%98%B8.mp4_20240814_172517.192.jpg)
+
+</div>
 
 ---
 
@@ -59,3 +85,26 @@ Although it's a bit far from the Seoul metropolitan area, including Incheon Inte
 [Experience Tranquility with a 'Choncance' - Korea's Countryside Vacation](https://www.epickor.com/blog/057)
 
 [Newest Hotspots in Seoul, Korea - Yongsan](https://www.epickor.com/blog/047)
+
+
+---
+
+### Editor's Picks for You
+
+<div class="amazon-product-card">
+  <div class="product-content">
+    <h4 class="product-title"><a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank">Korean Snack Box</a></h4>
+    <p class="product-description">Bring the taste of Korea to your home with this authentic snack collection</p>
+  </div>
+  <a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
+</div>
+
+<div class="amazon-product-card">
+  <div class="product-content">
+    <h4 class="product-title"><a href="https://amzn.to/3O5pcqu" rel="nofollow sponsored" target="_blank">Yakgwa (Honey Cookie)</a></h4>
+    <p class="product-description">Traditional Korean honey cookies for a sweet treat</p>
+  </div>
+  <a href="https://amzn.to/3O5pcqu" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
+</div>
+
+*As an Amazon Associate, we earn from qualifying purchases.*

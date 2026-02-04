@@ -27,11 +27,33 @@ Of course, not many Koreans claim that Korean beer is really delicious.
 
 But… Somaek is delicious.
 
+<div class="image-grid-2">
+
 ![081_epickor_진호.mp4_20240802_223412.682.jpg](/assets/images/posts/060/081_epickor_%EC%A7%84%ED%98%B8.mp4_20240802_223412.682.jpg)
 
 ![081_epickor_진호.mp4_20240802_223437.725.jpg](/assets/images/posts/060/081_epickor_%EC%A7%84%ED%98%B8.mp4_20240802_223437.725.jpg)
 
+</div>
+
 ### Somaek
+
+
+
+---
+
+### Editor's Pick
+
+<div class="amazon-product-card">
+  <div class="product-content">
+    <h4 class="product-title"><a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank">Korean Snack Box</a></h4>
+    <p class="product-description">Bring the taste of Korea to your home with this authentic snack collection</p>
+  </div>
+  <a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
+</div>
+
+*As an Amazon Associate, we earn from qualifying purchases.*
+
+---
 
 **The Art of Somaek**:
 
@@ -41,9 +63,13 @@ First, let's take a look at the somaek technique of the female owner of a raw fi
 
 A YouTuber who is crazy about somaek also makes an appearance. Now, shall we drink our first shot?
 
+<div class="image-grid-2">
+
 ![081_epickor_진호.mp4_20240802_223448.743.jpg](/assets/images/posts/060/081_epickor_%EC%A7%84%ED%98%B8.mp4_20240802_223448.743.jpg)
 
 ![081_epickor_진호.mp4_20240802_223506.790.jpg](/assets/images/posts/060/081_epickor_%EC%A7%84%ED%98%B8.mp4_20240802_223506.790.jpg)
+
+</div>
 
 ---
 
@@ -61,3 +87,26 @@ A YouTuber who is crazy about somaek also makes an appearance. Now, shall we dri
 [Discover Korea's Automated Innovations: From Ramen Machines to Car Washes](https://www.epickor.com/blog/054)
 
 [Koreans Never Wait: The Speed of Life in Korea](https://www.epickor.com/blog/055)
+
+
+---
+
+### Editor's Picks for You
+
+<div class="amazon-product-card">
+  <div class="product-content">
+    <h4 class="product-title"><a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank">Korean Snack Box</a></h4>
+    <p class="product-description">Bring the taste of Korea to your home with this authentic snack collection</p>
+  </div>
+  <a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
+</div>
+
+<div class="amazon-product-card">
+  <div class="product-content">
+    <h4 class="product-title"><a href="https://amzn.to/3MaZWi6" rel="nofollow sponsored" target="_blank">Buldak Spicy Ramen</a></h4>
+    <p class="product-description">Experience the legendary spicy Korean ramen</p>
+  </div>
+  <a href="https://amzn.to/3MaZWi6" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
+</div>
+
+*As an Amazon Associate, we earn from qualifying purchases.*

@@ -21,11 +21,33 @@ It's often paired with `makgeolli`, a traditional Korean rice wine that's milky 
 
 ### Other Favorites
 
+
+
+---
+
+### Editor's Pick
+
+<div class="amazon-product-card">
+  <div class="product-content">
+    <h4 class="product-title"><a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank">Korean Snack Box</a></h4>
+    <p class="product-description">Bring the taste of Korea to your home with this authentic snack collection</p>
+  </div>
+  <a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
+</div>
+
+*As an Amazon Associate, we earn from qualifying purchases.*
+
+---
+
 Sure, there are other rainy-day favorites like spicy ramen, kalguksu, and sujebi, but nothing beats `pajeon and makgeolli`.
+
+<div class="image-grid-2">
 
 ![092_epickor_진호.mp4_20240808_221507.041.jpg](/assets/images/posts/065/092_epickor_%EC%A7%84%ED%98%B8.mp4_20240808_221507.041.jpg)
 
 ![092_epickor_진호.mp4_20240808_221521.693.jpg](/assets/images/posts/065/092_epickor_%EC%A7%84%ED%98%B8.mp4_20240808_221521.693.jpg)
+
+</div>
 
 ### Unique Reasons
 
@@ -55,3 +77,26 @@ And most importantly, it's just so delicious. What do you guys like to eat when 
 [Discover the Spicy and Flavorful World of Korean Ramen](https://www.epickor.com/blog/038)
 
 [How to Avoid Fighting with Koreans: 3 Essential Tips](https://www.epickor.com/blog/035)
+
+
+---
+
+### Editor's Picks for You
+
+<div class="amazon-product-card">
+  <div class="product-content">
+    <h4 class="product-title"><a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank">Korean Snack Box</a></h4>
+    <p class="product-description">Bring the taste of Korea to your home with this authentic snack collection</p>
+  </div>
+  <a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
+</div>
+
+<div class="amazon-product-card">
+  <div class="product-content">
+    <h4 class="product-title"><a href="https://amzn.to/3MaZWi6" rel="nofollow sponsored" target="_blank">Buldak Spicy Ramen</a></h4>
+    <p class="product-description">Experience the legendary spicy Korean ramen</p>
+  </div>
+  <a href="https://amzn.to/3MaZWi6" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
+</div>
+
+*As an Amazon Associate, we earn from qualifying purchases.*

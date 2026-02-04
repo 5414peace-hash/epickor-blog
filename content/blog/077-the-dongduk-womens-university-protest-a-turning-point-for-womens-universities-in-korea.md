@@ -21,6 +21,24 @@ As of January 3, 2025, the protests at Dongduk Women’s University have `offici
 
 ### The Incident: What Happened at Dongduk Women’s University?
 
+
+
+---
+
+### Editor's Pick
+
+<div class="amazon-product-card">
+  <div class="product-content">
+    <h4 class="product-title"><a href="https://amzn.to/3Zgx6Qq" rel="nofollow sponsored" target="_blank">Hangeul Workbook</a></h4>
+    <p class="product-description">Master the Korean alphabet with this beginner-friendly guide</p>
+  </div>
+  <a href="https://amzn.to/3Zgx6Qq" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
+</div>
+
+*As an Amazon Associate, we earn from qualifying purchases.*
+
+---
+
 In `November 2024`, Dongduk Women’s University in Seoul witnessed an unprecedented protest. 
 
 Students occupied campus buildings, turning the institution into a battleground for their grievances. They used `red spray paint` to inscribe messages on walls and floors and even defaced a bust of the university’s founder with eggs and paint.
@@ -29,9 +47,13 @@ The scale and intensity of the protests caught the attention of national and int
 
 ---
 
+<div class="image-grid-2">
+
 ![118_epickor_건순.mp4_20250103_224704.934.jpg](/assets/images/posts/077/118_epickor_%EA%B1%B4%EC%88%9C.mp4_20250103_224704.934.jpg)
 
 ![118_epickor_건순.mp4_20250103_224711.273.jpg](/assets/images/posts/077/118_epickor_%EA%B1%B4%EC%88%9C.mp4_20250103_224711.273.jpg)
+
+</div>
 
 ### The Catalyst: Why Did the Protests Begin?
 
@@ -55,9 +77,13 @@ As of 2024, only `14 women’s universities remain in Korea`.
 
 This number has been steadily decreasing due to demographic shifts and societal changes. The Dongduk incident underscores the existential challenges faced by these institutions and the cultural and educational implications of potential coeducational transitions.
 
+<div class="image-grid-2">
+
 ![118_epickor_건순.mp4_20250103_224809.721.jpg](/assets/images/posts/077/118_epickor_%EA%B1%B4%EC%88%9C.mp4_20250103_224809.721.jpg)
 
 ![118_epickor_건순.mp4_20250103_224750.510.jpg](/assets/images/posts/077/118_epickor_%EA%B1%B4%EC%88%9C.mp4_20250103_224750.510.jpg)
+
+</div>
 
 ---
 
@@ -89,3 +115,26 @@ While the protests themselves have concluded, the aftermath remains contentious.
 [Discover Korea's Automated Innovations: From Ramen Machines to Car Washes](https://www.epickor.com/blog/054)
 
 [Koreans Never Wait: The Speed of Life in Korea](https://www.epickor.com/blog/055)
+
+
+---
+
+### Editor's Picks for You
+
+<div class="amazon-product-card">
+  <div class="product-content">
+    <h4 class="product-title"><a href="https://amzn.to/3Zgx6Qq" rel="nofollow sponsored" target="_blank">Hangeul Workbook</a></h4>
+    <p class="product-description">Master the Korean alphabet with this beginner-friendly guide</p>
+  </div>
+  <a href="https://amzn.to/3Zgx6Qq" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
+</div>
+
+<div class="amazon-product-card">
+  <div class="product-content">
+    <h4 class="product-title"><a href="https://amzn.to/495n6oT" rel="nofollow sponsored" target="_blank">Yellow Ramen Pot</a></h4>
+    <p class="product-description">Authentic Korean ramen pot for perfect noodles</p>
+  </div>
+  <a href="https://amzn.to/495n6oT" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
+</div>
+
+*As an Amazon Associate, we earn from qualifying purchases.*

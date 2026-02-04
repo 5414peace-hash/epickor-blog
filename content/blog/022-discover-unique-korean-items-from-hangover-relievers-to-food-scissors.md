@@ -22,11 +22,33 @@ This is a toy that allows you to create a duck shape with snow.
 
 Koreans use this toy to create an army of hundreds of ducks in the winter.
 
+<div class="image-grid-2">
+
 ![022_EpicKor_진호.mp4_20240712_221031.610.jpg](/assets/images/posts/022/022_EpicKor_%EC%A7%84%ED%98%B8.mp4_20240712_221031.610.jpg)
 
 ![022_EpicKor_진호.mp4_20240712_221049.060.jpg](/assets/images/posts/022/022_EpicKor_%EC%A7%84%ED%98%B8.mp4_20240712_221049.060.jpg)
 
+</div>
+
 ### Rolled Colored Pencils
+
+
+
+---
+
+### Editor's Pick
+
+<div class="amazon-product-card">
+  <div class="product-content">
+    <h4 class="product-title"><a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank">Korean Snack Box</a></h4>
+    <p class="product-description">Bring the taste of Korea to your home with this authentic snack collection</p>
+  </div>
+  <a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
+</div>
+
+*As an Amazon Associate, we earn from qualifying purchases.*
+
+---
 
 Did you know that Korea is famous for its cute characters and various stationery products? 
 
@@ -40,9 +62,13 @@ They look no different from regular scissors, but in Korea, scissors are often u
 
 Of course, they never use office scissors and food scissors interchangeably.
 
+<div class="image-grid-2">
+
 ![022_EpicKor_진호.mp4_20240712_221058.848.jpg](/assets/images/posts/022/022_EpicKor_%EC%A7%84%ED%98%B8.mp4_20240712_221058.848.jpg)
 
 ![022_EpicKor_진호.mp4_20240712_221116.402.jpg](/assets/images/posts/022/022_EpicKor_%EC%A7%84%ED%98%B8.mp4_20240712_221116.402.jpg)
+
+</div>
 
 ---
 
@@ -60,3 +86,26 @@ Of course, they never use office scissors and food scissors interchangeably.
 [Discover the Unique Korean Concert Experience that Moves Global Superstars : Seoul Korea](https://www.epickor.com/blog/061)
 
 [Experience Traditional Korean Kimchi Making at Museum Kimchikan in Insadong](https://www.epickor.com/blog/062)
+
+
+---
+
+### Editor's Picks for You
+
+<div class="amazon-product-card">
+  <div class="product-content">
+    <h4 class="product-title"><a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank">Korean Snack Box</a></h4>
+    <p class="product-description">Bring the taste of Korea to your home with this authentic snack collection</p>
+  </div>
+  <a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
+</div>
+
+<div class="amazon-product-card">
+  <div class="product-content">
+    <h4 class="product-title"><a href="https://amzn.to/4qhhWVZ" rel="nofollow sponsored" target="_blank">Bibigo Seaweed Snack</a></h4>
+    <p class="product-description">Crispy and healthy Korean seaweed snacks</p>
+  </div>
+  <a href="https://amzn.to/4qhhWVZ" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
+</div>
+
+*As an Amazon Associate, we earn from qualifying purchases.*

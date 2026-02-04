@@ -23,9 +23,13 @@ If you see these `two faces`, the food is guaranteed to taste above average.
 
 So who are these two people? 
 
+<div class="image-grid-2">
+
 ![080_epickor_진호.mp4_20240801_221032.964.jpg](/assets/images/posts/059/080_epickor_%EC%A7%84%ED%98%B8.mp4_20240801_221032.964.jpg)
 
 ![080_epickor_진호.mp4_20240801_221040.044.jpg](/assets/images/posts/059/080_epickor_%EC%A7%84%ED%98%B8.mp4_20240801_221040.044.jpg)
+
+</div>
 
 ### Baek Jong-won
 
@@ -35,13 +39,35 @@ He is a famous Korean chef and restaurant businessman who appears on various sho
 
 ### Kim Hye-ja
 
+
+
+---
+
+### Editor's Pick
+
+<div class="amazon-product-card">
+  <div class="product-content">
+    <h4 class="product-title"><a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank">Korean Snack Box</a></h4>
+    <p class="product-description">Bring the taste of Korea to your home with this authentic snack collection</p>
+  </div>
+  <a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
+</div>
+
+*As an Amazon Associate, we earn from qualifying purchases.*
+
+---
+
 Next, the woman’s name is Hyeja Kim. 
 
 She's a famous Korean actress, loved for her memorable performances in dramas and movies. Interestingly, her name is also used in the phrase 'Hyeja-like,' which means something is generous and plentiful. This came about because of her association with a food brand known for its large portions and high quality.
 
+<div class="image-grid-2">
+
 ![080_epickor_진호.mp4_20240801_221111.167.jpg](/assets/images/posts/059/080_epickor_%EC%A7%84%ED%98%B8.mp4_20240801_221111.167.jpg)
 
 ![080_epickor_진호.mp4_20240801_221054.465.jpg](/assets/images/posts/059/080_epickor_%EC%A7%84%ED%98%B8.mp4_20240801_221054.465.jpg)
+
+</div>
 
 Now that you know about these two people, there's only one thing you need to do.
 
@@ -63,3 +89,26 @@ Memorize these two people's faces again and look for them at the convenience sto
 [Discover the Ultimate Korean Snacks That Will Redefine Your Taste Experience](https://www.epickor.com/blog/029)
 
 [Discover the Journey of Korea's Beloved 10 Million Actor, Min-sik Choi](https://www.epickor.com/blog/030)
+
+
+---
+
+### Editor's Picks for You
+
+<div class="amazon-product-card">
+  <div class="product-content">
+    <h4 class="product-title"><a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank">Korean Snack Box</a></h4>
+    <p class="product-description">Bring the taste of Korea to your home with this authentic snack collection</p>
+  </div>
+  <a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
+</div>
+
+<div class="amazon-product-card">
+  <div class="product-content">
+    <h4 class="product-title"><a href="https://amzn.to/4twhKFk" rel="nofollow sponsored" target="_blank">Round Lab Dokdo Toner</a></h4>
+    <p class="product-description">Hydrating K-beauty toner for radiant skin</p>
+  </div>
+  <a href="https://amzn.to/4twhKFk" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
+</div>
+
+*As an Amazon Associate, we earn from qualifying purchases.*

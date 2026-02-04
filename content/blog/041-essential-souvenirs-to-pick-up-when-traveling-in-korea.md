@@ -17,11 +17,33 @@ Red ginseng is a healthy food that is effective in improving immunity. It can be
 
 ### Stamp
 
+
+
+---
+
+### Editor's Pick
+
+<div class="amazon-product-card">
+  <div class="product-content">
+    <h4 class="product-title"><a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank">Korean Snack Box</a></h4>
+    <p class="product-description">Bring the taste of Korea to your home with this authentic snack collection</p>
+  </div>
+  <a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
+</div>
+
+*As an Amazon Associate, we earn from qualifying purchases.*
+
+---
+
 In Korea, when you prove yourself, you not only sign, but you also stamp. You can quickly create stamps with `various designs`. Engrave your name or favorite letters and use them in various ways.
+
+<div class="image-grid-2">
 
 ![044_EpicKor_요순_bgm제거.mp4_20240719_221522.893.jpg](/assets/images/posts/041/044_EpicKor_%EC%9A%94%EC%88%9C_bgm%EC%A0%9C%EA%B1%B0.mp4_20240719_221522.893.jpg)
 
 ![044_EpicKor_요순_bgm제거.mp4_20240719_221529.272.jpg](/assets/images/posts/041/044_EpicKor_%EC%9A%94%EC%88%9C_bgm%EC%A0%9C%EA%B1%B0.mp4_20240719_221529.272.jpg)
+
+</div>
 
 ### Soju
 
@@ -47,3 +69,26 @@ Korea, a beauty powerhouse. You’ve probably heard of K-beauty. Among the many 
 [Unveiling Korea: From K-pop to Historic Triumphs and Tragedies](https://www.epickor.com/blog/056)
 
 [Experience Tranquility with a 'Choncance' - Korea's Countryside Vacation](https://www.epickor.com/blog/057)
+
+
+---
+
+### Editor's Picks for You
+
+<div class="amazon-product-card">
+  <div class="product-content">
+    <h4 class="product-title"><a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank">Korean Snack Box</a></h4>
+    <p class="product-description">Bring the taste of Korea to your home with this authentic snack collection</p>
+  </div>
+  <a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
+</div>
+
+<div class="amazon-product-card">
+  <div class="product-content">
+    <h4 class="product-title"><a href="https://amzn.to/4twhKFk" rel="nofollow sponsored" target="_blank">Round Lab Dokdo Toner</a></h4>
+    <p class="product-description">Hydrating K-beauty toner for radiant skin</p>
+  </div>
+  <a href="https://amzn.to/4twhKFk" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
+</div>
+
+*As an Amazon Associate, we earn from qualifying purchases.*

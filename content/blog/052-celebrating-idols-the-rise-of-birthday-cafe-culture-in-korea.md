@@ -21,15 +21,37 @@ Although it is difficult for idols with birthdays to come to birthday cafes beca
 
 ### Evolution to Other Fields
 
+
+
+---
+
+### Editor's Pick
+
+<div class="amazon-product-card">
+  <div class="product-content">
+    <h4 class="product-title"><a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank">Korean Snack Box</a></h4>
+    <p class="product-description">Bring the taste of Korea to your home with this authentic snack collection</p>
+  </div>
+  <a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
+</div>
+
+*As an Amazon Associate, we earn from qualifying purchases.*
+
+---
+
 These birthday cafes have evolved from idol culture and have spread to birthday cafes in various fields such as games, animation, and actors. This expansion shows the broad appeal and adaptability of the concept, attracting diverse fan communities.
 
 ### Special Appearances
 
 Sometimes, birthday `idols appear` in birthday cafes or communicate with fans through birthday cafes. This rare occurrence adds an extra layer of excitement and connection between idols and their fans.
 
+<div class="image-grid-2">
+
 ![063_EpicKor_진호.mp4_20240725_221512.172.jpg](/assets/images/posts/052/063_EpicKor_%EC%A7%84%ED%98%B8.mp4_20240725_221512.172.jpg)
 
 ![063_EpicKor_진호.mp4_20240725_221525.174.jpg](/assets/images/posts/052/063_EpicKor_%EC%A7%84%ED%98%B8.mp4_20240725_221525.174.jpg)
+
+</div>
 
 ### IU's Remarkable Gesture
 
@@ -55,3 +77,26 @@ Idols who know and appreciate the hearts of their fans are cool, and aren't the 
 [Cultural Differences in Umbrella Use: Why Koreans Always Carry One](https://www.epickor.com/blog/036)
 
 [The Most Handsome Man in Asia - Cha Eunwoo](https://www.epickor.com/blog/037)
+
+
+---
+
+### Editor's Picks for You
+
+<div class="amazon-product-card">
+  <div class="product-content">
+    <h4 class="product-title"><a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank">Korean Snack Box</a></h4>
+    <p class="product-description">Bring the taste of Korea to your home with this authentic snack collection</p>
+  </div>
+  <a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
+</div>
+
+<div class="amazon-product-card">
+  <div class="product-content">
+    <h4 class="product-title"><a href="https://amzn.to/3MaZWi6" rel="nofollow sponsored" target="_blank">Buldak Spicy Ramen</a></h4>
+    <p class="product-description">Experience the legendary spicy Korean ramen</p>
+  </div>
+  <a href="https://amzn.to/3MaZWi6" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
+</div>
+
+*As an Amazon Associate, we earn from qualifying purchases.*

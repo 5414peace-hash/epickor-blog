@@ -21,6 +21,24 @@ As of `April 1, 2024`, here are the rankings from 10th to 1st:
 
 ### BTS Jin
 
+
+
+---
+
+### Editor's Pick
+
+<div class="amazon-product-card">
+  <div class="product-content">
+    <h4 class="product-title"><a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank">Korean Snack Box</a></h4>
+    <p class="product-description">Bring the taste of Korea to your home with this authentic snack collection</p>
+  </div>
+  <a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
+</div>
+
+*As an Amazon Associate, we earn from qualifying purchases.*
+
+---
+
 **10th place, BTS Jin (@jin)**
 
 48.11 million followers
@@ -73,9 +91,13 @@ As of `April 1, 2024`, here are the rankings from 10th to 1st:
 
 77.73 million followers
 
+<div class="image-grid-2">
+
 ![031_EpicKor_요순.mp4_20240715_221437.789.jpg](/assets/images/posts/031/031_EpicKor_%EC%9A%94%EC%88%9C.mp4_20240715_221437.789.jpg)
 
 ![031_EpicKor_요순.mp4_20240715_221442.629.jpg](/assets/images/posts/031/031_EpicKor_%EC%9A%94%EC%88%9C.mp4_20240715_221442.629.jpg)
+
+</div>
 
 ![031_EpicKor_요순.mp4_20240715_221447.669.jpg](/assets/images/posts/031/031_EpicKor_%EC%9A%94%EC%88%9C.mp4_20240715_221447.669.jpg)
 
@@ -115,3 +137,26 @@ Despite being excluded from the rankings due to her nationality, Blackpink's `Li
 [Explore the Scenic Beauty of Cheongok Mountain](https://www.epickor.com/travel/005)
 
 [Discover Jadegarden: A Hidden Botanical Gem in Chuncheon, South Korea](https://www.epickor.com/travel/006)
+
+
+---
+
+### Editor's Picks for You
+
+<div class="amazon-product-card">
+  <div class="product-content">
+    <h4 class="product-title"><a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank">Korean Snack Box</a></h4>
+    <p class="product-description">Bring the taste of Korea to your home with this authentic snack collection</p>
+  </div>
+  <a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
+</div>
+
+<div class="amazon-product-card">
+  <div class="product-content">
+    <h4 class="product-title"><a href="https://amzn.to/4twhKFk" rel="nofollow sponsored" target="_blank">Round Lab Dokdo Toner</a></h4>
+    <p class="product-description">Hydrating K-beauty toner for radiant skin</p>
+  </div>
+  <a href="https://amzn.to/4twhKFk" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
+</div>
+
+*As an Amazon Associate, we earn from qualifying purchases.*
