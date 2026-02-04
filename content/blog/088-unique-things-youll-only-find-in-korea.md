@@ -15,9 +15,13 @@ tags: ['Culture', 'Social', 'Travel']
 
 In Korea, elevators are smarter than you think! Accidentally pressed the wrong floor button? No problem. Simply press the same button again, and voilà—it’s canceled. You won’t have to stop at unnecessary floors. This ingenious little feature saves time and frustration, making daily life in Korea incredibly convenient.
 
+<div class="image-grid-2">
+
 ![115_epickor_%EA%B1%B4%EC%88%9C.mp4_20250114_231046.938.jpg](/assets/images/posts/088/115_epickor_%EA%B1%B4%EC%88%9C.mp4_20250114_231046.938.jpg)
 
 ![115_epickor_%EA%B1%B4%EC%88%9C.mp4_20250114_231042.443.jpg](/assets/images/posts/088/115_epickor_%EA%B1%B4%EC%88%9C.mp4_20250114_231042.443.jpg)
+
+</div>
 
 ---
 
@@ -40,9 +44,13 @@ Korea’s subway system is one of the best in the world. Imagine riding a train 
 
 What truly sets Korea apart, though, is its profound "culture of trust." Outside convenience stores, you might see stacks of products sitting unattended, yet no one takes anything that doesn’t belong to them. On public transportation, people regularly give up their seats to the elderly. Strangers will even stop to help others carry heavy bags. This unique social fabric is woven with mutual respect, integrity, and an unwavering sense of community.
 
+<div class="image-grid-2">
+
 ![115_epickor_%EA%B1%B4%EC%88%9C.mp4_20250114_231110.277.jpg](/assets/images/posts/088/115_epickor_%EA%B1%B4%EC%88%9C.mp4_20250114_231110.277.jpg)
 
 ![115_epickor_%EA%B1%B4%EC%88%9C.mp4_20250114_231116.236.jpg](/assets/images/posts/088/115_epickor_%EA%B1%B4%EC%88%9C.mp4_20250114_231116.236.jpg)
+
+</div>
 
 ---
 
@@ -61,7 +69,18 @@ From cancelable elevator buttons to heated subway seats, Korea offers convenienc
 
 **Keywords**: Korea travel, Korean culture, elevator button hack, restaurant buzzers, Korean subway system, culture of trust, mutual respect, heated subway seats, free WiFi Korea, convenience in Korea, Korean lifestyle, innovative technology, Korean dining experience, public transportation, modern Korea, unique experiences Korea, trust in Korea, service buzzers, advanced subway systems, Korea tourism.
 
-[https://youtube.com/shorts/MACuVaj66WM?si=JQP9lohBphqxkqrd](https://youtube.com/shorts/MACuVaj66WM?si=JQP9lohBphqxkqrd)
+<div class="youtube-embed-container">
+  <iframe
+    width="100%"
+    height="400"
+    src="https://www.youtube.com/embed/MACuVaj66WM"
+    title="YouTube video player"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen
+    loading="lazy"
+  ></iframe>
+</div>
 
 [Unraveling the Unique Korean Habit of Laughing and Clapping](https://www.epickor.com/blog/014)
 
@@ -83,12 +102,38 @@ From cancelable elevator buttons to heated subway seats, Korea offers convenienc
 
 ---
 
-### Editor's Picks for You
-
-**<a href="https://amzn.to/3Zgx6Qq" rel="nofollow sponsored" target="_blank">Hangeul Workbook</a>**  
-Master the Korean alphabet with this beginner-friendly guide
-
-**<a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank">Korean Snack Box</a>**  
-Bring the taste of Korea to your home with this authentic snack collection
+<div class="amazon-affiliate-section">
+  <h3 class="amazon-section-title">Editor's Picks for You</h3>
+  <div class="amazon-products-grid">
+    <div class="amazon-product-card">
+      <div class="amazon-product-card-content">
+        <h4 class="amazon-product-name">Hangeul Workbook</h4>
+        <p class="amazon-product-description">Master the Korean alphabet with this beginner-friendly guide</p>
+        <a 
+          href="https://amzn.to/3Zgx6Qq" 
+          rel="nofollow sponsored" 
+          target="_blank"
+          class="amazon-product-button"
+        >
+          Shop on Amazon →
+        </a>
+      </div>
+    </div>
+    <div class="amazon-product-card">
+      <div class="amazon-product-card-content">
+        <h4 class="amazon-product-name">Korean Snack Box</h4>
+        <p class="amazon-product-description">Bring the taste of Korea to your home with this authentic snack collection</p>
+        <a 
+          href="https://amzn.to/4bubOGe" 
+          rel="nofollow sponsored" 
+          target="_blank"
+          class="amazon-product-button"
+        >
+          Shop on Amazon →
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
 
 *As an Amazon Associate, we earn from qualifying purchases.*
