@@ -113,7 +113,9 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 1.5rem;
-  margin: 3rem 0 !important;
+  margin: 3rem auto !important;
+  max-width: 900px;
+  justify-items: center;
 }
 
 .blog-content .image-grid-2 p {

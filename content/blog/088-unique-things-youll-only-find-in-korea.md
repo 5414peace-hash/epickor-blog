@@ -36,7 +36,21 @@ Dining out in Korea is an experience in itself. Forget waving at waiters or call
 
 ### High-Tech Subway System
 
-Korea’s subway system is one of the best in the world. Imagine riding a train that offers free WiFi, powerful air conditioning during scorching summers, and heated seats in the freezing winters. Yes, Korea's subway isn’t just a mode of transportation; it’s a haven of comfort for commuters. The stations are also incredibly clean and user-friendly, with clear signs in multiple languages.
+Korea's subway system is one of the best in the world. Imagine riding a train that offers free WiFi, powerful air conditioning during scorching summers, and heated seats in the freezing winters. Yes, Korea's subway isn't just a mode of transportation; it's a haven of comfort for commuters. The stations are also incredibly clean and user-friendly, with clear signs in multiple languages.
+
+---
+
+### Editor's Pick
+
+<div class="amazon-product-card">
+  <div class="product-content">
+    <h4 class="product-title"><a href="https://amzn.to/3Zgx6Qq" rel="nofollow sponsored" target="_blank">Hangeul Workbook</a></h4>
+    <p class="product-description">Master the Korean alphabet with this beginner-friendly guide</p>
+  </div>
+  <a href="https://amzn.to/3Zgx6Qq" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
+</div>
+
+*As an Amazon Associate, we earn from qualifying purchases.*
 
 ---
 
