@@ -7,6 +7,7 @@ import gfm from 'remark-gfm';
 import rehypeHighlight from 'rehype-highlight';
 import rehypeRaw from 'rehype-raw';
 import { enhanceMarkdownHTML } from './markdown-enhancer';
+import { processImages } from './image-resolver';
 
 const contentDirectory = path.join(process.cwd(), 'content/blog');
 
@@ -178,12 +179,17 @@ export async function getBlogPost(slug: string): Promise<BlogPost | null> {
     
     let contentHtml = processedContent.toString();
     
-    // Apply advanced enhancements
-    const allPosts = getAllBlogPosts();
-    contentHtml = enhanceMarkdownHTML(contentHtml, allPosts);
-    
     // YAML slug 우선, fallback은 파일명
     const postSlug = data.slug || fileName.replace(/\.md$/, '');
+    
+    // Apply advanced enhancements
+    const allPosts = getAllBlogPosts();
+    
+    // 1. Process images (resolve paths, center align, auto grid)
+    contentHtml = processImages(contentHtml, postSlug);
+    
+    // 2. Apply other enhancements
+    contentHtml = enhanceMarkdownHTML(contentHtml, allPosts);
 
     return {
       slug: postSlug,

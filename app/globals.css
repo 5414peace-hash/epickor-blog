@@ -77,6 +77,19 @@ body {
   color: #111827 !important;
 }
 
+/* Image center alignment */
+.blog-content .image-center {
+  display: flex !important;
+  justify-content: center !important;
+  margin: 2rem auto !important;
+}
+
+.blog-content .image-center img {
+  max-width: 100% !important;
+  height: auto !important;
+  display: block !important;
+}
+
 .blog-content img {
   max-width: 100% !important;
   width: auto !important;
