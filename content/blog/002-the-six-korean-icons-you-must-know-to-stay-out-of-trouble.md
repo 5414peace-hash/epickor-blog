@@ -23,7 +23,7 @@ If you are interested in Korea,
 
 You must absolutely know the following six people:
 
-![](/assets/images/posts/002/giphy.gif?cid=7941fdc6qflcpgnt5esqsdnkuvrud2gnshuu2t14o7yfigrr&ep=v1_gifs_search&rid=giphy.gif&ct=g)
+
 
 ### 1. BTS
 
@@ -55,31 +55,31 @@ You must absolutely know the following six people:
 
 First, BTS. Idols from Korea and artists loved worldwide.
 
-![](/assets/images/posts/002/giphy.gif?cid=7941fdc60am1q57psxadtguzcoasinq5y006jchxg3a4ejct&ep=v1_gifs_search&rid=giphy.gif&ct=g)
+
 
 ### 2. Son Heung-min
 
 Second, Son Heung-min. A football player whose stage is the world.
 
-![](/assets/images/posts/002/giphy.gif?cid=7941fdc6wiqcsrtr22pdzid4fb5q6hik6ioslhhu2q4mnp9n&ep=v1_gifs_search&rid=giphy.gif&ct=g)
+
 
 ### 3. Bong Joon-ho
 
 Third, Bong Joon-ho. A film director representing South Korea.
 
-![](/assets/images/posts/002/giphy.gif?cid=7941fdc6s08lsut9r5i8pd6omrym0oaqvb5uctse0xnym9ir&ep=v1_gifs_search&rid=giphy.gif&ct=g)
+
 
 ### 4. Yoo Jae-suk
 
 Fourth, Yoo Jae-suk. A representative MC and comedian.
 
-![](/assets/images/posts/002/giphy.gif?cid=7941fdc6ssdo4tf4ey3f2ylp53kbzysmmi45rdgk2nq6j2og&ep=v1_gifs_search&rid=giphy.gif&ct=g)
+
 
 ### 5. Kim Yuna
 
 Fifth, Kim Yuna. An athlete who made history in figure skating.
 
-![](/assets/images/posts/002/giphy.gif?cid=7941fdc6gra2u9cvq03alka30jyj5vyjto1uxe5oiq2aefa3&ep=v1_gifs_search&rid=giphy.gif&ct=g)
+
 
 ### 6. IU
 
