@@ -85,10 +85,10 @@ From cancelable elevator buttons to heated subway seats, Korea offers convenienc
 
 ### Editor's Picks for You
 
-**[Hangeul Workbook](https://amzn.to/3Zgx6Qq){:rel="nofollow sponsored"}**  
+**<a href="https://amzn.to/3Zgx6Qq" rel="nofollow sponsored" target="_blank">Hangeul Workbook</a>**  
 Master the Korean alphabet with this beginner-friendly guide
 
-**[Korean Snack Box](https://amzn.to/4bubOGe){:rel="nofollow sponsored"}**  
+**<a href="https://amzn.to/4bubOGe" rel="nofollow sponsored" target="_blank">Korean Snack Box</a>**  
 Bring the taste of Korea to your home with this authentic snack collection
 
 *As an Amazon Associate, we earn from qualifying purchases.*
