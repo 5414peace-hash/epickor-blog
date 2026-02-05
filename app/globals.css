@@ -124,10 +124,10 @@ body {
 /* Parallel Image Grid (2 images side by side) */
 .blog-content .image-grid-2 {
   display: grid !important;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr !important;
   gap: 2rem !important;
   margin: 3rem auto !important;
-  max-width: 900px;
+  max-width: 900px !important;
   justify-items: center !important;
   align-items: start !important;
   width: 100% !important;
