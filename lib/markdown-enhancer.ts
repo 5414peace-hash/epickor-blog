@@ -272,7 +272,8 @@ export function addLazyLoadingToImages(html: string): string {
  */
 export function convertToParallelImageGrid(html: string): string {
   // Match two consecutive <p><img></p> patterns (flexible whitespace: space, tab, newline)
-  const pattern = /(<p><img[^>]*><\/p>)[\s\n\r]*(<p><img[^>]*><\/p>)/g;
+  // Supports <p> with any attributes (e.g., class="image-center")
+  const pattern = /(<p[^>]*><img[^>]*><\/p>)[\s\n\r]*(<p[^>]*><img[^>]*><\/p>)/g;
   
   return html.replace(pattern, (match, img1, img2) => {
     return `<div class="image-grid-2">${img1}${img2}</div>`;
