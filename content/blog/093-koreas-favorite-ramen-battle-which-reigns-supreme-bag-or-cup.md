@@ -1,8 +1,7 @@
 ---
-title: 'Korea's Favorite Ramen Battle: Which Reigns Supreme, Bag or Cup?'
+title: "Korea's Favorite Ramen Battle: Which Reigns Supreme, Bag or Cup?"
 slug: 093
-description: 'Explore Korea's Favorite Ramen Battle: Which Reigns Supreme, Bag or
-  Cup?'
+description: "Explore Korea's Favorite Ramen Battle: Which Reigns Supreme, Bag or Cup?"
 ogImage: '/assets/images/posts/093/0eee505d-81b1-4281-aa69-e4ba3b32fc50.png'
 date: '2026-02-03'
 tags: ['Culture', 'Food', 'Travel']
