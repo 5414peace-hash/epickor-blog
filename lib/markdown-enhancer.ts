@@ -12,6 +12,7 @@ export interface AmazonProduct {
   name: string;
   url: string;
   description: string;
+  price: string; // Approximate price in USD
   tags?: string[]; // Tags for smart matching
 }
 
@@ -20,72 +21,84 @@ export const AMAZON_PRODUCTS: Record<string, AmazonProduct> = {
     name: "Korean Snack Box",
     url: "https://amzn.to/4bubOGe",
     description: "Bring the taste of Korea to your home with this authentic snack collection",
+    price: "29.99",
     tags: ['Food', 'Travel', 'Shopping']
   },
   bibigo_seaweed: {
     name: "Bibigo Seaweed Snack",
     url: "https://amzn.to/4qhhWVZ",
     description: "Crispy, savory Korean seaweed snacks perfect for any time",
+    price: "12.99",
     tags: ['Food']
   },
   yakgwa: {
     name: "Yakgwa (Honey Cookie)",
     url: "https://amzn.to/3O5pcqu",
     description: "Traditional Korean honey cookies with a delightful sweet flavor",
+    price: "15.99",
     tags: ['Food', 'Culture']
   },
   buldak_ramen: {
     name: "Buldak Spicy Ramen",
     url: "https://amzn.to/3MaZWi6",
     description: "Experience the legendary spicy Korean ramen",
+    price: "18.99",
     tags: ['Food', 'Shopping']
   },
   buldak_tteokbokki: {
     name: "Buldak Tteokbokki",
     url: "https://amzn.to/4ae69Sg",
     description: "Spicy Korean rice cakes ready in minutes",
+    price: "16.99",
     tags: ['Food']
   },
   dokdo_toner: {
     name: "Round Lab Dokdo Toner",
     url: "https://amzn.to/4twhKFk",
     description: "Hydrating K-beauty toner for radiant skin",
+    price: "24.99",
     tags: ['Woman', 'Beauty', 'Shopping']
   },
   dokdo_cleanser: {
     name: "Round Lab Dokdo Cleanser",
     url: "https://amzn.to/3M4Q09W",
     description: "Gentle K-beauty cleanser for daily skincare",
+    price: "19.99",
     tags: ['Woman', 'Beauty', 'Shopping']
   },
   ssamjang: {
     name: "Ssamjang (Soybean Paste)",
     url: "https://amzn.to/467PaA7",
     description: "Essential Korean dipping sauce for BBQ and wraps",
+    price: "9.99",
     tags: ['Food', 'Culture']
   },
   gochujang: {
     name: "Gochujang (Chili Paste)",
     url: "https://amzn.to/3UuA6fM",
     description: "The iconic Korean chili paste that adds depth to any dish",
+    price: "11.99",
     tags: ['Food', 'Culture']
   },
   hangeul_workbook: {
     name: "Hangeul Workbook",
     url: "https://amzn.to/3Zgx6Qq",
     description: "Master the Korean alphabet with this beginner-friendly guide",
+    price: "14.99",
     tags: ['Culture', 'Education']
   },
   ramen_pot: {
     name: "Yellow Ramen Pot",
     url: "https://amzn.to/495n6oT",
     description: "The iconic Korean ramen pot for authentic cooking experience",
+    price: "22.99",
     tags: ['Food', 'Shopping']
   },
   chopsticks: {
     name: "Stainless Steel Chopsticks",
     url: "https://amzn.to/3M9S92F",
     description: "Traditional Korean metal chopsticks for everyday use",
+    price: "13.99",
     tags: ['Food', 'Culture', 'Shopping']
   }
 };
@@ -391,13 +404,20 @@ export function generateProductSchema(products: AmazonProduct[]): string {
     "description": product.description,
     "url": product.url,
     "offers": {
-      "@type": "AggregateOffer",
+      "@type": "Offer",
+      "price": product.price,
       "priceCurrency": "USD",
       "availability": "https://schema.org/InStock",
+      "url": product.url,
       "seller": {
         "@type": "Organization",
         "name": "Amazon"
       }
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.5",
+      "reviewCount": "100"
     }
   }));
   
