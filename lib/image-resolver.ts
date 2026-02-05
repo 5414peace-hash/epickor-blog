@@ -43,8 +43,20 @@ export function resolveImagePaths(html: string, postSlug: string): string {
  * Force center alignment for all images
  */
 export function centerAlignImages(html: string): string {
-  // Add center alignment class to all <p> tags containing images
-  return html.replace(/<p>(<img[^>]*>)<\/p>/g, '<p class="image-center">$1</p>');
+  // 1. First, wrap standalone <img> tags with <p class="image-center">
+  // Match: <img> NOT already inside <p> tags
+  html = html.replace(/(<img[^>]*>)/g, (match) => {
+    // Check if already wrapped in <p>
+    return `<p class="image-center">${match}</p>`;
+  });
+  
+  // 2. Clean up double-wrapped <p><p class="image-center"><img></p></p>
+  html = html.replace(/<p>(<p class="image-center"><img[^>]*><\/p>)<\/p>/g, '$1');
+  
+  // 3. Add class to existing <p><img></p> patterns
+  html = html.replace(/<p>(<img[^>]*>)<\/p>/g, '<p class="image-center">$1</p>');
+  
+  return html;
 }
 
 /**
