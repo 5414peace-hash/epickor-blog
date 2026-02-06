@@ -606,6 +606,36 @@
         const fileData = await fileResponse.json();
         const sha = fileData.sha;
         
+        // Extract existing images from old content
+        const oldContent = decodeURIComponent(escape(atob(fileData.content)));
+        log('Extracting existing images from old content...', 'info');
+        
+        // Find all image markdown syntax: ![alt](path)
+        const imageRegex = /!\[([^\]]*)\]\(([^\)]+)\)/g;
+        const existingImages = [];
+        let match;
+        while ((match = imageRegex.exec(oldContent)) !== null) {
+          existingImages.push(match[0]); // Full markdown syntax
+          log(`Found existing image: ${match[2]}`, 'info');
+        }
+        
+        // Merge: prepend existing images to new content body
+        let mergedContent = content;
+        if (existingImages.length > 0) {
+          // Split content into frontmatter and body
+          const frontmatterMatch = mergedContent.match(/^---\n([\s\S]*?)\n---\n([\s\S]*)$/);
+          if (frontmatterMatch) {
+            const frontmatter = frontmatterMatch[1];
+            const body = frontmatterMatch[2];
+            
+            // Prepend images to body
+            const imagesSection = existingImages.join('\n') + '\n\n';
+            mergedContent = `---\n${frontmatter}\n---\n${imagesSection}${body}`;
+            
+            log(`Preserved ${existingImages.length} existing images`, 'success');
+          }
+        }
+        
         // Update file
         log(`Updating file with SHA: ${sha.substring(0, 7)}...`, 'info');
         const updateResponse = await fetch(
@@ -619,7 +649,7 @@
             },
             body: JSON.stringify({
               message: `Update ${existingFile.name} via Bulk Manager`,
-              content: btoa(unescape(encodeURIComponent(content))),
+              content: btoa(unescape(encodeURIComponent(mergedContent))),
               sha: sha,
               branch: branch
             })
