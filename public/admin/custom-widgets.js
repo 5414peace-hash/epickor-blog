@@ -400,4 +400,5 @@ CMS.registerAdditionalLink({
   }
 });
 
-console.log('EpicKor Blog Admin - Custom widgets loaded (with MD Upload)');
+// Version: 2.0.0 - Full Automation System
+console.log('EpicKor Blog Admin - Custom widgets loaded (with MD Upload + Bulk Manager + Amazon Parser)');
