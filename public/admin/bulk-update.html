@@ -223,6 +223,46 @@
       background-color: #FFF3CD;
       color: #856404;
     }
+
+    .log-area {
+      margin-top: 1rem;
+      padding: 1rem;
+      background-color: #f9f9f9;
+      border-radius: 4px;
+      max-height: 300px;
+      overflow-y: auto;
+      font-family: 'Courier New', monospace;
+      font-size: 0.85rem;
+    }
+
+    .log-entry {
+      margin-bottom: 0.5rem;
+      padding: 0.25rem;
+    }
+
+    .log-info {
+      color: #0066cc;
+    }
+
+    .log-success {
+      color: #155724;
+      font-weight: 500;
+    }
+
+    .log-error {
+      color: #721C24;
+      font-weight: 500;
+    }
+
+    .deployment-notice {
+      margin-top: 1rem;
+      padding: 1rem;
+      background-color: #D1ECF1;
+      border-left: 4px solid #0C5460;
+      border-radius: 4px;
+      color: #0C5460;
+      display: none;
+    }
   </style>
 </head>
 <body>
@@ -230,13 +270,13 @@
     <h1>📦 Bulk Manager</h1>
     <p class="description">
       Upload multiple markdown files to update existing blog posts. 
-      The system will intelligently merge new content while preserving existing images and metadata.
+      File names like "001-title.md" or "001.md" will be matched by the 3-digit number.
     </p>
     
     <div class="upload-area" id="uploadArea">
       <div class="upload-icon">📁</div>
       <div class="upload-text">Click to select files or drag & drop here</div>
-      <div class="upload-hint">Supports multiple .md files</div>
+      <div class="upload-hint">Supports multiple .md files (e.g., 001.md, 001-title.md)</div>
     </div>
     
     <input type="file" id="fileInput" multiple accept=".md,.markdown" />
@@ -256,6 +296,10 @@
         <div class="progress-fill" id="progressFill">0%</div>
       </div>
     </div>
+
+    <div class="deployment-notice" id="deploymentNotice">
+      ✅ <strong>GitHub에 반영되었습니다!</strong> Vercel 배포 완료까지 약 2분 정도 기다려주세요.
+    </div>
     
     <div class="results" id="results">
       <h2>Results</h2>
@@ -273,6 +317,7 @@
           <p>Skipped</p>
         </div>
       </div>
+      <div class="log-area" id="logArea"></div>
     </div>
   </div>
   
@@ -287,7 +332,19 @@
     const progress = document.getElementById('progress');
     const progressFill = document.getElementById('progressFill');
     const results = document.getElementById('results');
+    const logArea = document.getElementById('logArea');
+    const deploymentNotice = document.getElementById('deploymentNotice');
     
+    // Logging function
+    function log(message, type = 'info') {
+      const entry = document.createElement('div');
+      entry.className = `log-entry log-${type}`;
+      entry.textContent = `[${new Date().toLocaleTimeString()}] ${message}`;
+      logArea.appendChild(entry);
+      logArea.scrollTop = logArea.scrollHeight;
+      console.log(`[Bulk Manager] ${message}`);
+    }
+
     // Click to select files
     uploadArea.addEventListener('click', () => {
       fileInput.click();
@@ -348,16 +405,21 @@
       processBtn.disabled = true;
       progress.style.display = 'none';
       results.style.display = 'none';
+      deploymentNotice.style.display = 'none';
     });
     
     processBtn.addEventListener('click', async () => {
       processBtn.disabled = true;
       progress.style.display = 'block';
-      results.style.display = 'none';
+      results.style.display = 'block';
+      logArea.innerHTML = '';
+      deploymentNotice.style.display = 'none';
       
       let successCount = 0;
       let errorCount = 0;
       let skippedCount = 0;
+      
+      log('Starting bulk update process...', 'info');
       
       for (let i = 0; i < selectedFiles.length; i++) {
         const file = selectedFiles[i];
@@ -365,6 +427,7 @@
         const currentItem = fileItems[i];
         
         try {
+          log(`Processing: ${file.name}`, 'info');
           const content = await file.text();
           const result = await processFile(content, file.name);
           
@@ -372,19 +435,23 @@
             successCount++;
             currentItem.querySelector('.file-status').className = 'file-status status-success';
             currentItem.querySelector('.file-status').textContent = 'Success';
+            log(`✓ ${file.name} - Success (Slug: ${result.slug})`, 'success');
           } else if (result.skipped) {
             skippedCount++;
             currentItem.querySelector('.file-status').className = 'file-status status-pending';
             currentItem.querySelector('.file-status').textContent = 'Skipped';
+            log(`⊘ ${file.name} - Skipped: ${result.reason}`, 'info');
           } else {
             errorCount++;
             currentItem.querySelector('.file-status').className = 'file-status status-error';
             currentItem.querySelector('.file-status').textContent = 'Error';
+            log(`✗ ${file.name} - Error: ${result.reason}`, 'error');
           }
         } catch (error) {
           errorCount++;
           currentItem.querySelector('.file-status').className = 'file-status status-error';
           currentItem.querySelector('.file-status').textContent = 'Error';
+          log(`✗ ${file.name} - Exception: ${error.message}`, 'error');
         }
         
         const percent = Math.round(((i + 1) / selectedFiles.length) * 100);
@@ -393,40 +460,183 @@
       }
       
       // Show results
-      results.style.display = 'block';
       document.getElementById('successCount').textContent = successCount;
       document.getElementById('errorCount').textContent = errorCount;
       document.getElementById('skippedCount').textContent = skippedCount;
       
+      if (successCount > 0) {
+        deploymentNotice.style.display = 'block';
+        log(`Bulk update completed: ${successCount} success, ${errorCount} failed, ${skippedCount} skipped`, 'success');
+      } else {
+        log(`Bulk update completed with no successful commits`, 'info');
+      }
+      
       processBtn.disabled = false;
     });
     
+    // Extract 3-digit number from filename
+    function extractSlugFromFilename(filename) {
+      // Match patterns like: 001.md, 001-title.md, 001-some-long-title.md
+      const match = filename.match(/^(\d{3})/);
+      if (match) {
+        return match[1];
+      }
+      return null;
+    }
+
     async function processFile(content, filename) {
       // Extract frontmatter and body
       const match = content.match(/^---\n([\s\S]*?)\n---\n([\s\S]*)$/);
       if (!match) {
-        return { success: false, reason: 'Invalid markdown format' };
+        return { success: false, reason: 'Invalid markdown format (no frontmatter)' };
       }
       
       const frontmatter = match[1];
       const newBody = match[2];
       
-      // Parse slug
-      const slugMatch = frontmatter.match(/slug:\s*['"]?(\d{3})['"]?/);
-      if (!slugMatch) {
-        return { success: false, reason: 'No slug found' };
+      // Extract slug from filename (001-title.md → 001)
+      const slugFromFilename = extractSlugFromFilename(filename);
+      if (!slugFromFilename) {
+        return { 
+          success: false, 
+          reason: '파일명 매칭 실패: 001.md 또는 001-title.md 형식을 확인하세요' 
+        };
       }
       
-      const slug = slugMatch[1];
+      log(`Extracted slug from filename: ${slugFromFilename}`, 'info');
       
-      // This is a simplified version - in production, this would call
-      // the GitHub API via Decap CMS to update the file
-      console.log(`Processing file ${filename} with slug ${slug}`);
+      // Try to get GitHub token from Decap CMS
+      const token = localStorage.getItem('netlify-cms-user');
+      if (!token) {
+        return { 
+          success: false, 
+          reason: 'GitHub token not found. Please login to Decap CMS first.' 
+        };
+      }
+
+      let parsedToken;
+      try {
+        parsedToken = JSON.parse(token);
+      } catch (e) {
+        return { 
+          success: false, 
+          reason: 'Invalid token format' 
+        };
+      }
+
+      const githubToken = parsedToken.token;
+      if (!githubToken) {
+        return { 
+          success: false, 
+          reason: 'GitHub token missing in stored credentials' 
+        };
+      }
       
-      // Simulate processing
-      await new Promise(resolve => setTimeout(resolve, 500));
+      // Find existing file in GitHub
+      const owner = 'epickor';
+      const repo = 'epickor-blog';
+      const branch = 'main';
       
-      return { success: true };
+      try {
+        // List files in content/blog/
+        log(`Searching for existing file with slug ${slugFromFilename}...`, 'info');
+        const listResponse = await fetch(
+          `https://api.github.com/repos/${owner}/${repo}/contents/content/blog?ref=${branch}`,
+          {
+            headers: {
+              'Authorization': `token ${githubToken}`,
+              'Accept': 'application/vnd.github.v3+json'
+            }
+          }
+        );
+
+        if (!listResponse.ok) {
+          log(`GitHub API Error: ${listResponse.status} ${listResponse.statusText}`, 'error');
+          return { 
+            success: false, 
+            reason: `GitHub API error: ${listResponse.status}` 
+          };
+        }
+
+        const files = await listResponse.json();
+        log(`Found ${files.length} files in content/blog/`, 'info');
+        
+        // Find file that starts with slug
+        const existingFile = files.find(f => f.name.startsWith(slugFromFilename));
+        
+        if (!existingFile) {
+          return { 
+            success: false, 
+            reason: `No existing file found with slug ${slugFromFilename}` 
+          };
+        }
+
+        log(`Found existing file: ${existingFile.name}`, 'info');
+        
+        // Get file content to get SHA
+        const fileResponse = await fetch(existingFile.url, {
+          headers: {
+            'Authorization': `token ${githubToken}`,
+            'Accept': 'application/vnd.github.v3+json'
+          }
+        });
+
+        if (!fileResponse.ok) {
+          log(`Failed to fetch file details: ${fileResponse.status}`, 'error');
+          return { 
+            success: false, 
+            reason: `Failed to fetch file: ${fileResponse.status}` 
+          };
+        }
+
+        const fileData = await fileResponse.json();
+        const sha = fileData.sha;
+        
+        // Update file
+        log(`Updating file with SHA: ${sha.substring(0, 7)}...`, 'info');
+        const updateResponse = await fetch(
+          `https://api.github.com/repos/${owner}/${repo}/contents/${existingFile.path}`,
+          {
+            method: 'PUT',
+            headers: {
+              'Authorization': `token ${githubToken}`,
+              'Accept': 'application/vnd.github.v3+json',
+              'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({
+              message: `Update ${existingFile.name} via Bulk Manager`,
+              content: btoa(unescape(encodeURIComponent(content))),
+              sha: sha,
+              branch: branch
+            })
+          }
+        );
+
+        const updateData = await updateResponse.json();
+        
+        if (updateResponse.ok && (updateResponse.status === 200 || updateResponse.status === 201)) {
+          log(`GitHub API Response: ${updateResponse.status} ${updateResponse.statusText}`, 'success');
+          log(`Commit SHA: ${updateData.commit.sha.substring(0, 7)}`, 'success');
+          return { 
+            success: true, 
+            slug: slugFromFilename,
+            commitSha: updateData.commit.sha
+          };
+        } else {
+          log(`GitHub API Error: ${updateResponse.status} - ${JSON.stringify(updateData)}`, 'error');
+          return { 
+            success: false, 
+            reason: `GitHub update failed: ${updateResponse.status}` 
+          };
+        }
+        
+      } catch (error) {
+        log(`Exception during GitHub API call: ${error.message}`, 'error');
+        return { 
+          success: false, 
+          reason: `Network error: ${error.message}` 
+        };
+      }
     }
   </script>
 </body>
