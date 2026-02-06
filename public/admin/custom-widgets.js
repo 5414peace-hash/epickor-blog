@@ -2,13 +2,150 @@
  * EpicKor Blog Admin - Custom Widgets & Enhancements
  * 
  * Features:
- * 1. Image Grid Auto-formatting (remove blank lines)
- * 2. Amazon Links Auto-injection
- * 3. Bulk Update Engine
+ * 1. MD File Upload Widget (auto-parse frontmatter and body)
+ * 2. Image Grid Auto-formatting (remove blank lines)
+ * 3. Amazon Links Auto-injection
+ * 4. Bulk Update Engine
  */
 
 // ============================================
-// 1. Image Grid Auto-formatting
+// 1. MD File Upload Widget
+// ============================================
+CMS.registerEventListener({
+  name: 'postPublish',
+  handler: ({ entry }) => {
+    console.log('Post published:', entry.get('data').toJS());
+  }
+});
+
+// Add MD Upload button to editor toolbar
+window.addEventListener('load', function() {
+  // Wait for CMS to fully initialize
+  setTimeout(() => {
+    const editorToolbar = document.querySelector('.nc-entryEditor-controlPane');
+    if (editorToolbar && !document.getElementById('md-upload-btn')) {
+      const uploadBtn = document.createElement('button');
+      uploadBtn.id = 'md-upload-btn';
+      uploadBtn.className = 'nc-button nc-button-primary';
+      uploadBtn.textContent = '📄 Upload MD File';
+      uploadBtn.style.marginLeft = '10px';
+      uploadBtn.style.padding = '8px 16px';
+      uploadBtn.style.backgroundColor = '#2C2416';
+      uploadBtn.style.color = '#FAF6F0';
+      uploadBtn.style.border = 'none';
+      uploadBtn.style.borderRadius = '4px';
+      uploadBtn.style.cursor = 'pointer';
+      uploadBtn.style.fontSize = '14px';
+      
+      uploadBtn.onclick = function() {
+        const input = document.createElement('input');
+        input.type = 'file';
+        input.accept = '.md,.markdown';
+        input.onchange = handleMDUpload;
+        input.click();
+      };
+      
+      editorToolbar.appendChild(uploadBtn);
+      console.log('MD Upload button added to toolbar');
+    }
+  }, 2000);
+});
+
+function handleMDUpload(event) {
+  const file = event.target.files[0];
+  if (!file) return;
+  
+  const reader = new FileReader();
+  reader.onload = function(e) {
+    const content = e.target.result;
+    parseMDAndFillForm(content, file.name);
+  };
+  reader.readAsText(file);
+}
+
+function parseMDAndFillForm(content, filename) {
+  try {
+    // Extract frontmatter and body
+    const match = content.match(/^---\n([\s\S]*?)\n---\n([\s\S]*)$/);
+    if (!match) {
+      alert('Invalid markdown format. Please ensure the file has YAML frontmatter.');
+      return;
+    }
+    
+    const frontmatter = match[1];
+    const body = match[2].trim();
+    
+    // Parse frontmatter
+    const title = frontmatter.match(/title:\s*['"]?(.*?)['"]?\n/)?.[1] || '';
+    const date = frontmatter.match(/date:\s*['"]?(.*?)['"]?\n/)?.[1] || '';
+    const description = frontmatter.match(/description:\s*['"]?(.*?)['"]?\n/)?.[1] || '';
+    const tagsMatch = frontmatter.match(/tags:\s*\[(.*?)\]/);
+    const tags = tagsMatch ? tagsMatch[1].split(',').map(t => t.trim().replace(/['"]/g, '')) : [];
+    
+    // Extract slug from filename (e.g., "162.md" -> "162")
+    const slug = filename.replace(/\.md$/, '').replace(/\.markdown$/, '');
+    
+    // Fill form fields
+    fillFormField('title', title);
+    fillFormField('slug', slug);
+    fillFormField('date', date);
+    fillFormField('description', description);
+    fillFormField('body', body);
+    
+    // Fill tags (list field)
+    if (tags.length > 0) {
+      fillTagsField(tags);
+    }
+    
+    alert(`MD file parsed successfully!\n\nTitle: ${title}\nSlug: ${slug}\nTags: ${tags.join(', ')}`);
+    
+  } catch (error) {
+    console.error('Failed to parse MD file:', error);
+    alert('Failed to parse MD file. Please check the file format.');
+  }
+}
+
+function fillFormField(fieldName, value) {
+  // Try different selectors for Decap CMS form fields
+  const selectors = [
+    `input[name="${fieldName}"]`,
+    `textarea[name="${fieldName}"]`,
+    `[data-field-name="${fieldName}"] input`,
+    `[data-field-name="${fieldName}"] textarea`,
+    `.nc-controlPane-widget[data-field-name="${fieldName}"] input`,
+    `.nc-controlPane-widget[data-field-name="${fieldName}"] textarea`
+  ];
+  
+  for (const selector of selectors) {
+    const field = document.querySelector(selector);
+    if (field) {
+      field.value = value;
+      // Trigger change event
+      field.dispatchEvent(new Event('input', { bubbles: true }));
+      field.dispatchEvent(new Event('change', { bubbles: true }));
+      console.log(`Filled field: ${fieldName} = ${value}`);
+      return;
+    }
+  }
+  
+  console.warn(`Field not found: ${fieldName}`);
+}
+
+function fillTagsField(tags) {
+  // Tags are typically in a list widget
+  // This is a simplified approach - may need adjustment based on actual CMS structure
+  const tagsInput = document.querySelector('[data-field-name="tags"] input');
+  if (tagsInput) {
+    tags.forEach(tag => {
+      tagsInput.value = tag;
+      tagsInput.dispatchEvent(new Event('input', { bubbles: true }));
+      tagsInput.dispatchEvent(new KeyboardEvent('keydown', { key: 'Enter', bubbles: true }));
+    });
+  }
+}
+
+// ============================================
+// 2. Image Grid Auto-formatting
 // ============================================
 CMS.registerEventListener({
   name: 'preSave',
@@ -29,7 +166,7 @@ CMS.registerEventListener({
 });
 
 // ============================================
-// 2. Amazon Links Auto-injection
+// 3. Amazon Links Auto-injection
 // ============================================
 CMS.registerEventListener({
   name: 'preSave',
@@ -95,7 +232,7 @@ CMS.registerEventListener({
 });
 
 // ============================================
-// 3. Custom Image Widget (Ctrl+V support)
+// 4. Custom Image Widget (Ctrl+V support)
 // ============================================
 const ImageControl = window.createClass({
   handlePaste: function(e) {
@@ -135,7 +272,7 @@ const ImageControl = window.createClass({
 CMS.registerWidget('image-paste', ImageControl);
 
 // ============================================
-// 4. Bulk Update Engine
+// 5. Bulk Update Engine
 // ============================================
 window.bulkUpdatePosts = async function(files) {
   const results = {
@@ -243,14 +380,24 @@ window.bulkUpdatePosts = async function(files) {
   return results;
 };
 
-// Add bulk update UI
+// Add Bulk Manager to main menu
 CMS.registerAdditionalLink({
-  id: 'bulk-update',
-  title: 'Bulk Update Posts',
-  data: {},
+  id: 'bulk-manager',
+  title: '📦 Bulk Manager',
+  data: '/admin/bulk-update.html',
   options: {
     icon: 'upload'
   }
 });
 
-console.log('EpicKor Blog Admin - Custom widgets loaded');
+// Add Amazon Parser to main menu
+CMS.registerAdditionalLink({
+  id: 'amazon-parser',
+  title: '🔗 Amazon Parser',
+  data: '/admin/amazon-parser.html',
+  options: {
+    icon: 'link'
+  }
+});
+
+console.log('EpicKor Blog Admin - Custom widgets loaded (with MD Upload)');

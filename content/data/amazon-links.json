@@ -2,451 +2,109 @@
   "products": [
     {
       "id": "001",
-      "name": "Korean Instant Ramen Variety Pack (20 packs)",
-      "description": "Experience authentic Korean flavors with this variety pack featuring Shin Ramyun, Buldak, and more popular brands.",
-      "price": "$29.99",
-      "url": "https://www.amazon.com/dp/B08EXAMPLE1",
+      "name": "Korean Snack",
+      "description": "Authentic Korean snacks to enjoy at home",
+      "price": "$19.99",
+      "url": "https://amzn.to/4bubOGe",
       "category": "Food",
       "image": ""
     },
     {
       "id": "002",
-      "name": "Gochujang Korean Red Chili Paste",
-      "description": "Essential Korean condiment for authentic bibimbap, tteokbokki, and marinades.",
+      "name": "Bibigo Korean BBQ Flavor Seaweed Snack",
+      "description": "Delicious Korean BBQ flavored seaweed snacks",
       "price": "$12.99",
-      "url": "https://www.amazon.com/dp/B08EXAMPLE2",
+      "url": "https://amzn.to/4qhhWVZ",
       "category": "Food",
       "image": ""
     },
     {
       "id": "003",
-      "name": "Korean Beauty Skincare Set (10-Step)",
-      "description": "Complete K-beauty routine with cleanser, toner, essence, serum, and moisturizer.",
-      "price": "$89.99",
-      "url": "https://www.amazon.com/dp/B08EXAMPLE3",
-      "category": "Beauty",
-      "image": ""
-    },
-    {
-      "id": "004",
-      "name": "Hanbok Traditional Korean Dress",
-      "description": "Elegant traditional Korean outfit perfect for special occasions and cultural events.",
-      "price": "$149.99",
-      "url": "https://www.amazon.com/dp/B08EXAMPLE4",
-      "category": "Fashion",
-      "image": ""
-    },
-    {
-      "id": "005",
-      "name": "Korean Language Learning Book Set",
-      "description": "Comprehensive textbook series for beginners to advanced Korean learners.",
-      "price": "$45.99",
-      "url": "https://www.amazon.com/dp/B08EXAMPLE5",
-      "category": "Culture",
-      "image": ""
-    },
-    {
-      "id": "006",
-      "name": "Kimchi Refrigerator (Mini)",
-      "description": "Specialized refrigerator for optimal kimchi fermentation and storage.",
-      "price": "$299.99",
-      "url": "https://www.amazon.com/dp/B08EXAMPLE6",
+      "name": "Yakgwa Korean Sweet Tea Food Mini Honey",
+      "description": "Traditional Korean honey cookies perfect for tea time",
+      "price": "$15.99",
+      "url": "https://amzn.to/3O5pcqu",
       "category": "Food",
       "image": ""
     },
     {
+      "id": "004",
+      "name": "Samyang Buldak Spicy Ramen Carbonara",
+      "description": "Hot chicken ramen with carbonara flavor, Korean stir-fried instant noodle",
+      "price": "$24.99",
+      "url": "https://amzn.to/3MaZWi6",
+      "category": "Food",
+      "image": ""
+    },
+    {
+      "id": "005",
+      "name": "Buldak Tteokbokki 2Pack Korean Rice Cake (Cheese)",
+      "description": "Instant Korean rice cake snack with cheese flavor",
+      "price": "$18.99",
+      "url": "https://amzn.to/4ae69Sg",
+      "category": "Food",
+      "image": ""
+    },
+    {
+      "id": "006",
+      "name": "ROUND LAB 1025 Dokdo Toner",
+      "description": "Oil control facial toner with deep sea water for moisturization, Korean skin care",
+      "price": "$22.99",
+      "url": "https://amzn.to/4twhKFk",
+      "category": "Beauty",
+      "image": ""
+    },
+    {
       "id": "007",
-      "name": "K-Pop Album Collection (BTS, Blackpink)",
-      "description": "Official albums with photobooks and exclusive merchandise.",
-      "price": "$34.99",
-      "url": "https://www.amazon.com/dp/B08EXAMPLE7",
-      "category": "Shopping",
+      "name": "ROUND LAB 1025 Dokdo Cleanser",
+      "description": "Low pH facial cleanser for sensitive skin with deep sea water, Korean skin care",
+      "price": "$18.99",
+      "url": "https://amzn.to/3M4Q09W",
+      "category": "Beauty",
       "image": ""
     },
     {
       "id": "008",
-      "name": "Korean BBQ Grill Set (Portable)",
-      "description": "Electric tabletop grill for authentic Korean BBQ experience at home.",
-      "price": "$79.99",
-      "url": "https://www.amazon.com/dp/B08EXAMPLE8",
+      "name": "Ssamjang Korean Soybean Paste Sauce (Mild)",
+      "description": "Korean flavor sauce for BBQ, lettuce wraps, rice, vegetables, and meat - O'food",
+      "price": "$8.99",
+      "url": "https://amzn.to/467PaA7",
       "category": "Food",
       "image": ""
     },
     {
       "id": "009",
-      "name": "Sheet Mask Variety Pack (50 sheets)",
-      "description": "Assorted Korean sheet masks for hydration, brightening, and anti-aging.",
-      "price": "$24.99",
-      "url": "https://www.amazon.com/dp/B08EXAMPLE9",
-      "category": "Beauty",
+      "name": "Korean Alphabet with Writing Workbook",
+      "description": "Introductory guide to Hangeul series - Vol.1 Consonant and Vowel",
+      "price": "$14.99",
+      "url": "https://amzn.to/3Zgx6Qq",
+      "category": "Culture",
       "image": ""
     },
     {
       "id": "010",
-      "name": "Korean Fashion Streetwear Hoodie",
-      "description": "Trendy oversized hoodie inspired by Korean street fashion.",
-      "price": "$39.99",
-      "url": "https://www.amazon.com/dp/B08EXAMPLE10",
-      "category": "Fashion",
+      "name": "Gochujang Korean Red Chili Paste (Mild)",
+      "description": "Gluten-free spicy & sweet savory fermented sauce for bibimbap, marinades, stews & BBQ - O'food",
+      "price": "$9.99",
+      "url": "https://amzn.to/4r2Pkkw",
+      "category": "Food",
       "image": ""
     },
     {
       "id": "011",
-      "name": "Soju Glass Set (Traditional)",
-      "description": "Authentic Korean soju glasses for traditional drinking culture.",
-      "price": "$18.99",
-      "url": "https://www.amazon.com/dp/B08EXAMPLE11",
+      "name": "Korean Ramen Cooking Pot",
+      "description": "AHIER Korean ramen noodle pot with lid, spoon and chopsticks, fast heating cookware",
+      "price": "$29.99",
+      "url": "https://amzn.to/4qrpQMM",
       "category": "Shopping",
       "image": ""
     },
     {
       "id": "012",
-      "name": "Korean Snack Box (Monthly Subscription)",
-      "description": "Curated selection of popular Korean snacks delivered monthly.",
-      "price": "$35.00/month",
-      "url": "https://www.amazon.com/dp/B08EXAMPLE12",
-      "category": "Food",
-      "image": ""
-    },
-    {
-      "id": "013",
-      "name": "Cushion Foundation (K-Beauty)",
-      "description": "Lightweight cushion foundation with SPF 50+ for flawless skin.",
-      "price": "$28.99",
-      "url": "https://www.amazon.com/dp/B08EXAMPLE13",
-      "category": "Beauty",
-      "image": ""
-    },
-    {
-      "id": "014",
-      "name": "Korean Drama OST Collection (Vinyl)",
-      "description": "Vinyl records of popular K-drama soundtracks.",
-      "price": "$54.99",
-      "url": "https://www.amazon.com/dp/B08EXAMPLE14",
-      "category": "Shopping",
-      "image": ""
-    },
-    {
-      "id": "015",
-      "name": "Tteokbokki Rice Cake Kit",
-      "description": "Complete kit with rice cakes, sauce, and recipe for authentic tteokbokki.",
+      "name": "Polished Stainless Steel Spoons and Chopsticks Set",
+      "description": "Korean chopsticks and spoons tableware with long-hand, reusable, set of 3-silver",
       "price": "$16.99",
-      "url": "https://www.amazon.com/dp/B08EXAMPLE15",
-      "category": "Food",
-      "image": ""
-    },
-    {
-      "id": "016",
-      "name": "Korean Skincare Essence (Snail Mucin)",
-      "description": "Bestselling snail mucin essence for hydration and skin repair.",
-      "price": "$19.99",
-      "url": "https://www.amazon.com/dp/B08EXAMPLE16",
-      "category": "Beauty",
-      "image": ""
-    },
-    {
-      "id": "017",
-      "name": "Hanbok-Inspired Modern Dress",
-      "description": "Contemporary fashion piece with traditional hanbok elements.",
-      "price": "$89.99",
-      "url": "https://www.amazon.com/dp/B08EXAMPLE17",
-      "category": "Fashion",
-      "image": ""
-    },
-    {
-      "id": "018",
-      "name": "Korean Tea Set (Green Tea)",
-      "description": "Traditional tea set with premium Korean green tea leaves.",
-      "price": "$42.99",
-      "url": "https://www.amazon.com/dp/B08EXAMPLE18",
-      "category": "Shopping",
-      "image": ""
-    },
-    {
-      "id": "019",
-      "name": "Bibimbap Bowl Set (Stone)",
-      "description": "Authentic stone bowls for serving hot bibimbap.",
-      "price": "$34.99",
-      "url": "https://www.amazon.com/dp/B08EXAMPLE19",
-      "category": "Food",
-      "image": ""
-    },
-    {
-      "id": "020",
-      "name": "Korean Sunscreen SPF 50+ (3-Pack)",
-      "description": "Lightweight, non-greasy sunscreen with high UV protection.",
-      "price": "$32.99",
-      "url": "https://www.amazon.com/dp/B08EXAMPLE20",
-      "category": "Beauty",
-      "image": ""
-    },
-    {
-      "id": "021",
-      "name": "K-Fashion Bucket Hat",
-      "description": "Trendy bucket hat popular in Korean street fashion.",
-      "price": "$24.99",
-      "url": "https://www.amazon.com/dp/B08EXAMPLE21",
-      "category": "Fashion",
-      "image": ""
-    },
-    {
-      "id": "022",
-      "name": "Korean Chopsticks Set (Stainless Steel)",
-      "description": "Traditional flat metal chopsticks used in Korean dining.",
-      "price": "$14.99",
-      "url": "https://www.amazon.com/dp/B08EXAMPLE22",
-      "category": "Shopping",
-      "image": ""
-    },
-    {
-      "id": "023",
-      "name": "Samgyeopsal Pork Belly Slicer",
-      "description": "Professional meat slicer for perfect Korean BBQ cuts.",
-      "price": "$129.99",
-      "url": "https://www.amazon.com/dp/B08EXAMPLE23",
-      "category": "Food",
-      "image": ""
-    },
-    {
-      "id": "024",
-      "name": "Korean Lip Tint Set (5 Colors)",
-      "description": "Long-lasting lip tints in popular Korean makeup shades.",
-      "price": "$26.99",
-      "url": "https://www.amazon.com/dp/B08EXAMPLE24",
-      "category": "Beauty",
-      "image": ""
-    },
-    {
-      "id": "025",
-      "name": "Oversized Korean T-Shirt",
-      "description": "Comfortable oversized tee with Korean graphic design.",
-      "price": "$22.99",
-      "url": "https://www.amazon.com/dp/B08EXAMPLE25",
-      "category": "Fashion",
-      "image": ""
-    },
-    {
-      "id": "026",
-      "name": "Korean Calligraphy Set",
-      "description": "Traditional brush and ink set for Korean calligraphy practice.",
-      "price": "$38.99",
-      "url": "https://www.amazon.com/dp/B08EXAMPLE26",
-      "category": "Culture",
-      "image": ""
-    },
-    {
-      "id": "027",
-      "name": "Jajangmyeon Black Bean Sauce",
-      "description": "Authentic Korean-Chinese black bean sauce for noodles.",
-      "price": "$9.99",
-      "url": "https://www.amazon.com/dp/B08EXAMPLE27",
-      "category": "Food",
-      "image": ""
-    },
-    {
-      "id": "028",
-      "name": "Korean Sleeping Mask (Overnight)",
-      "description": "Intensive overnight mask for deep hydration and skin renewal.",
-      "price": "$21.99",
-      "url": "https://www.amazon.com/dp/B08EXAMPLE28",
-      "category": "Beauty",
-      "image": ""
-    },
-    {
-      "id": "029",
-      "name": "Korean Denim Jacket (Vintage)",
-      "description": "Stylish vintage-inspired denim jacket popular in Korea.",
-      "price": "$59.99",
-      "url": "https://www.amazon.com/dp/B08EXAMPLE29",
-      "category": "Fashion",
-      "image": ""
-    },
-    {
-      "id": "030",
-      "name": "Korean Pottery Tea Cups (Set of 4)",
-      "description": "Handcrafted ceramic tea cups in traditional Korean style.",
-      "price": "$44.99",
-      "url": "https://www.amazon.com/dp/B08EXAMPLE30",
-      "category": "Shopping",
-      "image": ""
-    },
-    {
-      "id": "031",
-      "name": "Korean Fried Chicken Seasoning Mix",
-      "description": "Authentic seasoning for crispy Korean fried chicken at home.",
-      "price": "$11.99",
-      "url": "https://www.amazon.com/dp/B08EXAMPLE31",
-      "category": "Food",
-      "image": ""
-    },
-    {
-      "id": "032",
-      "name": "Korean Pore Cleansing Foam",
-      "description": "Deep cleansing foam for removing impurities and tightening pores.",
-      "price": "$15.99",
-      "url": "https://www.amazon.com/dp/B08EXAMPLE32",
-      "category": "Beauty",
-      "image": ""
-    },
-    {
-      "id": "033",
-      "name": "Korean Cargo Pants (Streetwear)",
-      "description": "Trendy cargo pants inspired by Korean street fashion.",
-      "price": "$49.99",
-      "url": "https://www.amazon.com/dp/B08EXAMPLE33",
-      "category": "Fashion",
-      "image": ""
-    },
-    {
-      "id": "034",
-      "name": "Korean Board Game (Yut Nori)",
-      "description": "Traditional Korean board game for family entertainment.",
-      "price": "$27.99",
-      "url": "https://www.amazon.com/dp/B08EXAMPLE34",
-      "category": "Culture",
-      "image": ""
-    },
-    {
-      "id": "035",
-      "name": "Korean Seaweed Snack Pack (24 packs)",
-      "description": "Crispy roasted seaweed snacks in individual portions.",
-      "price": "$18.99",
-      "url": "https://www.amazon.com/dp/B08EXAMPLE35",
-      "category": "Food",
-      "image": ""
-    },
-    {
-      "id": "036",
-      "name": "Korean Vitamin C Serum",
-      "description": "Brightening serum with pure vitamin C for radiant skin.",
-      "price": "$24.99",
-      "url": "https://www.amazon.com/dp/B08EXAMPLE36",
-      "category": "Beauty",
-      "image": ""
-    },
-    {
-      "id": "037",
-      "name": "Korean Knit Cardigan",
-      "description": "Cozy oversized cardigan popular in Korean fashion.",
-      "price": "$54.99",
-      "url": "https://www.amazon.com/dp/B08EXAMPLE37",
-      "category": "Fashion",
-      "image": ""
-    },
-    {
-      "id": "038",
-      "name": "Korean Incense Set (Traditional)",
-      "description": "Natural incense sticks with traditional Korean fragrances.",
-      "price": "$19.99",
-      "url": "https://www.amazon.com/dp/B08EXAMPLE38",
-      "category": "Shopping",
-      "image": ""
-    },
-    {
-      "id": "039",
-      "name": "Korean Hot Pot Set (Budae Jjigae)",
-      "description": "Complete ingredient kit for authentic Korean army stew.",
-      "price": "$22.99",
-      "url": "https://www.amazon.com/dp/B08EXAMPLE39",
-      "category": "Food",
-      "image": ""
-    },
-    {
-      "id": "040",
-      "name": "Korean Eye Cream (Anti-Aging)",
-      "description": "Intensive eye cream for reducing wrinkles and dark circles.",
-      "price": "$29.99",
-      "url": "https://www.amazon.com/dp/B08EXAMPLE40",
-      "category": "Beauty",
-      "image": ""
-    },
-    {
-      "id": "041",
-      "name": "Korean Baseball Cap (Embroidered)",
-      "description": "Stylish cap with Korean lettering embroidery.",
-      "price": "$19.99",
-      "url": "https://www.amazon.com/dp/B08EXAMPLE41",
-      "category": "Fashion",
-      "image": ""
-    },
-    {
-      "id": "042",
-      "name": "Korean Wooden Spoon Set",
-      "description": "Traditional wooden spoons and chopsticks for Korean dining.",
-      "price": "$16.99",
-      "url": "https://www.amazon.com/dp/B08EXAMPLE42",
-      "category": "Shopping",
-      "image": ""
-    },
-    {
-      "id": "043",
-      "name": "Korean Honey Citron Tea",
-      "description": "Soothing citron tea with honey for cold relief.",
-      "price": "$13.99",
-      "url": "https://www.amazon.com/dp/B08EXAMPLE43",
-      "category": "Food",
-      "image": ""
-    },
-    {
-      "id": "044",
-      "name": "Korean Facial Mist Spray",
-      "description": "Refreshing facial mist for instant hydration throughout the day.",
-      "price": "$14.99",
-      "url": "https://www.amazon.com/dp/B08EXAMPLE44",
-      "category": "Beauty",
-      "image": ""
-    },
-    {
-      "id": "045",
-      "name": "Korean Plaid Skirt (School Style)",
-      "description": "Trendy plaid skirt inspired by Korean school uniforms.",
-      "price": "$32.99",
-      "url": "https://www.amazon.com/dp/B08EXAMPLE45",
-      "category": "Fashion",
-      "image": ""
-    },
-    {
-      "id": "046",
-      "name": "Korean Paper Lantern Set",
-      "description": "Decorative paper lanterns for traditional Korean ambiance.",
-      "price": "$24.99",
-      "url": "https://www.amazon.com/dp/B08EXAMPLE46",
-      "category": "Culture",
-      "image": ""
-    },
-    {
-      "id": "047",
-      "name": "Korean Rice Cooker (Smart)",
-      "description": "Advanced rice cooker with settings for perfect Korean rice.",
-      "price": "$199.99",
-      "url": "https://www.amazon.com/dp/B08EXAMPLE47",
-      "category": "Food",
-      "image": ""
-    },
-    {
-      "id": "048",
-      "name": "Korean Acne Patch (Invisible)",
-      "description": "Hydrocolloid patches for treating acne overnight.",
-      "price": "$9.99",
-      "url": "https://www.amazon.com/dp/B08EXAMPLE48",
-      "category": "Beauty",
-      "image": ""
-    },
-    {
-      "id": "049",
-      "name": "Korean Ankle Socks (10-Pack)",
-      "description": "Comfortable ankle socks in trendy Korean designs.",
-      "price": "$17.99",
-      "url": "https://www.amazon.com/dp/B08EXAMPLE49",
-      "category": "Fashion",
-      "image": ""
-    },
-    {
-      "id": "050",
-      "name": "Korean Bookmark Set (Traditional Art)",
-      "description": "Beautiful bookmarks featuring traditional Korean artwork.",
-      "price": "$12.99",
-      "url": "https://www.amazon.com/dp/B08EXAMPLE50",
+      "url": "https://amzn.to/4qlWBLd",
       "category": "Shopping",
       "image": ""
     }
