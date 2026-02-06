@@ -506,8 +506,15 @@
       log(`Extracted slug from filename: ${slugFromFilename}`, 'info');
       
       // Try to get GitHub token from Decap CMS
-      const token = localStorage.getItem('netlify-cms-user');
+      // Decap CMS v3.0.0 uses 'decap-cms-user', older versions use 'netlify-cms-user'
+      let token = localStorage.getItem('decap-cms-user');
       if (!token) {
+        token = localStorage.getItem('netlify-cms-user'); // Fallback to old key
+      }
+      
+      if (!token) {
+        log('GitHub token not found in localStorage', 'error');
+        log('Available keys: ' + Object.keys(localStorage).join(', '), 'info');
         return { 
           success: false, 
           reason: 'GitHub token not found. Please login to Decap CMS first.' 
@@ -517,20 +524,27 @@
       let parsedToken;
       try {
         parsedToken = JSON.parse(token);
+        log('Token parsed successfully', 'info');
+        log('Token structure: ' + JSON.stringify(Object.keys(parsedToken)), 'info');
       } catch (e) {
+        log('Failed to parse token: ' + e.message, 'error');
         return { 
           success: false, 
           reason: 'Invalid token format' 
         };
       }
 
-      const githubToken = parsedToken.token;
+      // Decap CMS stores token in backend.token path
+      const githubToken = parsedToken.backend?.token || parsedToken.token;
       if (!githubToken) {
+        log('GitHub token missing. Token structure: ' + JSON.stringify(parsedToken, null, 2), 'error');
         return { 
           success: false, 
           reason: 'GitHub token missing in stored credentials' 
         };
       }
+      
+      log('GitHub token found: ' + githubToken.substring(0, 10) + '...', 'success');
       
       // Find existing file in GitHub
       const owner = 'epickor';
