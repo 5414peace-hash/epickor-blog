@@ -55,25 +55,6 @@ collections:
           - {label: "Category", name: "category", widget: "select", options: ["Food", "Shopping", "Fashion", "Beauty", "Travel", "Culture"], required: true}
           - {label: "Image URL", name: "image", widget: "string", required: false}
 
-  # Bulk Manager (External Tool)
-  - name: "bulk_manager"
-    label: "📦 Bulk Manager"
-    files:
-      - label: "Open Bulk Manager"
-        name: "bulk_manager_link"
-        file: "public/admin/bulk-update.html"
-        fields:
-          - {label: "Info", name: "info", widget: "hidden", default: "Click to open Bulk Manager"}
-
-  # Amazon Parser (External Tool)
-  - name: "amazon_parser"
-    label: "🔗 Amazon Parser"
-    files:
-      - label: "Open Amazon Parser"
-        name: "amazon_parser_link"
-        file: "public/admin/amazon-parser.html"
-        fields:
-          - {label: "Info", name: "info", widget: "hidden", default: "Click to open Amazon Parser"}
 
 # Site settings (optional)
 site_url: https://www.epickor.com

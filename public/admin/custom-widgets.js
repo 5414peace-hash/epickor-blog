@@ -287,26 +287,83 @@ CMS.registerEventListener({
 });
 
 // ============================================
-// 4. BULK MANAGER & AMAZON PARSER LINKS
+// 4. BULK MANAGER & AMAZON PARSER LINKS (NEW TAB)
 // ============================================
 
-CMS.registerAdditionalLink({
-  id: 'bulk-manager',
-  title: '📦 Bulk Manager',
-  data: '/admin/bulk-update.html',
-  options: {
-    icon: 'page'
+// Add buttons to sidebar that open in new tabs
+function addSidebarLinks() {
+  const sidebar = document.querySelector('[class*="sidebar"], nav, aside');
+  if (!sidebar || document.getElementById('custom-sidebar-links')) return;
+
+  const linksContainer = document.createElement('div');
+  linksContainer.id = 'custom-sidebar-links';
+  linksContainer.style.cssText = `
+    padding: 20px 10px;
+    border-top: 1px solid #ddd;
+    margin-top: 20px;
+  `;
+
+  const bulkLink = document.createElement('a');
+  bulkLink.href = '/admin/bulk-update.html';
+  bulkLink.target = '_blank';
+  bulkLink.textContent = '📦 Bulk Manager';
+  bulkLink.style.cssText = `
+    display: block;
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    background-color: #2C2416;
+    color: #FAF6F0;
+    text-decoration: none;
+    border-radius: 6px;
+    transition: all 0.2s;
+  `;
+  bulkLink.onmouseover = () => {
+    bulkLink.style.backgroundColor = '#D4A574';
+    bulkLink.style.color = '#2C2416';
+  };
+  bulkLink.onmouseout = () => {
+    bulkLink.style.backgroundColor = '#2C2416';
+    bulkLink.style.color = '#FAF6F0';
+  };
+
+  const parserLink = document.createElement('a');
+  parserLink.href = '/admin/amazon-parser.html';
+  parserLink.target = '_blank';
+  parserLink.textContent = '🔗 Amazon Parser';
+  parserLink.style.cssText = bulkLink.style.cssText;
+  parserLink.onmouseover = bulkLink.onmouseover;
+  parserLink.onmouseout = bulkLink.onmouseout;
+
+  linksContainer.appendChild(bulkLink);
+  linksContainer.appendChild(parserLink);
+  sidebar.appendChild(linksContainer);
+
+  console.log('!!! SIDEBAR LINKS ADDED !!!');
+}
+
+// Try to add sidebar links with retries
+let sidebarAttempts = 0;
+const sidebarInterval = setInterval(() => {
+  if (addSidebarLinks()) {
+    clearInterval(sidebarInterval);
+  } else if (sidebarAttempts >= 20) {
+    clearInterval(sidebarInterval);
+    console.error('!!! SIDEBAR LINKS INJECTION FAILED !!!');
   }
+  sidebarAttempts++;
+}, 500);
+
+// Also observe for sidebar changes
+const sidebarObserver = new MutationObserver(() => {
+  addSidebarLinks();
 });
 
-CMS.registerAdditionalLink({
-  id: 'amazon-parser',
-  title: '🔗 Amazon Parser',
-  data: '/admin/amazon-parser.html',
-  options: {
-    icon: 'link'
-  }
-});
+if (document.body) {
+  sidebarObserver.observe(document.body, {
+    childList: true,
+    subtree: true
+  });
+}
 
 console.log('!!! CUSTOM WIDGETS FULLY LOADED !!!');
 console.log('!!! Version: 3.0.0 - Brute Force Edition !!!');
