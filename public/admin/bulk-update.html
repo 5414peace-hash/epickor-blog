@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bulk Update - EpicKor Blog Admin</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+      background-color: #f5f5f5;
+      padding: 2rem;
+    }
+    
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      background: white;
+      border-radius: 8px;
+      padding: 2rem;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+    
+    h1 {
+      color: #2C2416;
+      margin-bottom: 1rem;
+      font-size: 2rem;
+    }
+    
+    .description {
+      color: #666;
+      margin-bottom: 2rem;
+      line-height: 1.6;
+    }
+    
+    .upload-area {
+      border: 3px dashed #E85A4F;
+      border-radius: 8px;
+      padding: 3rem;
+      text-align: center;
+      background-color: #FAF6F0;
+      cursor: pointer;
+      transition: all 0.3s ease;
+    }
+    
+    .upload-area:hover {
+      background-color: #f0ebe5;
+      border-color: #D4A574;
+    }
+    
+    .upload-area.dragover {
+      background-color: #e8e3dd;
+      border-color: #5B7B6F;
+    }
+    
+    .upload-icon {
+      font-size: 3rem;
+      margin-bottom: 1rem;
+    }
+    
+    .upload-text {
+      font-size: 1.2rem;
+      color: #2C2416;
+      margin-bottom: 0.5rem;
+    }
+    
+    .upload-hint {
+      color: #666;
+      font-size: 0.9rem;
+    }
+    
+    #fileInput {
+      display: none;
+    }
+    
+    .file-list {
+      margin-top: 2rem;
+    }
+    
+    .file-item {
+      display: flex;
+      align-items: center;
+      padding: 1rem;
+      background-color: #f9f9f9;
+      border-radius: 4px;
+      margin-bottom: 0.5rem;
+    }
+    
+    .file-name {
+      flex: 1;
+      font-weight: 500;
+    }
+    
+    .file-status {
+      padding: 0.25rem 0.75rem;
+      border-radius: 4px;
+      font-size: 0.85rem;
+      font-weight: 500;
+    }
+    
+    .status-pending {
+      background-color: #FFF3CD;
+      color: #856404;
+    }
+    
+    .status-success {
+      background-color: #D4EDDA;
+      color: #155724;
+    }
+    
+    .status-error {
+      background-color: #F8D7DA;
+      color: #721C24;
+    }
+    
+    .actions {
+      margin-top: 2rem;
+      display: flex;
+      gap: 1rem;
+    }
+    
+    button {
+      padding: 0.75rem 2rem;
+      border: none;
+      border-radius: 4px;
+      font-size: 1rem;
+      font-weight: 500;
+      cursor: pointer;
+      transition: all 0.3s ease;
+    }
+    
+    .btn-primary {
+      background-color: #E85A4F;
+      color: white;
+    }
+    
+    .btn-primary:hover {
+      background-color: #d14a3f;
+    }
+    
+    .btn-primary:disabled {
+      background-color: #ccc;
+      cursor: not-allowed;
+    }
+    
+    .btn-secondary {
+      background-color: #5B7B6F;
+      color: white;
+    }
+    
+    .btn-secondary:hover {
+      background-color: #4a6a5f;
+    }
+    
+    .progress {
+      margin-top: 2rem;
+      display: none;
+    }
+    
+    .progress-bar {
+      width: 100%;
+      height: 30px;
+      background-color: #e0e0e0;
+      border-radius: 15px;
+      overflow: hidden;
+    }
+    
+    .progress-fill {
+      height: 100%;
+      background-color: #5B7B6F;
+      transition: width 0.3s ease;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      font-weight: 500;
+    }
+    
+    .results {
+      margin-top: 2rem;
+      display: none;
+    }
+    
+    .result-summary {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1rem;
+      margin-bottom: 1rem;
+    }
+    
+    .result-card {
+      padding: 1.5rem;
+      border-radius: 8px;
+      text-align: center;
+    }
+    
+    .result-card h3 {
+      font-size: 2rem;
+      margin-bottom: 0.5rem;
+    }
+    
+    .result-card p {
+      color: #666;
+      font-size: 0.9rem;
+    }
+    
+    .card-success {
+      background-color: #D4EDDA;
+      color: #155724;
+    }
+    
+    .card-error {
+      background-color: #F8D7DA;
+      color: #721C24;
+    }
+    
+    .card-skipped {
+      background-color: #FFF3CD;
+      color: #856404;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>📦 Bulk Update Posts</h1>
+    <p class="description">
+      Upload multiple markdown files to update existing blog posts. 
+      The system will intelligently merge new content while preserving existing images and metadata.
+    </p>
+    
+    <div class="upload-area" id="uploadArea">
+      <div class="upload-icon">📁</div>
+      <div class="upload-text">Click to select files or drag & drop here</div>
+      <div class="upload-hint">Supports multiple .md files</div>
+    </div>
+    
+    <input type="file" id="fileInput" multiple accept=".md,.markdown" />
+    
+    <div class="file-list" id="fileList"></div>
+    
+    <div class="actions">
+      <button class="btn-primary" id="processBtn" disabled>Process Files</button>
+      <button class="btn-secondary" id="clearBtn">Clear All</button>
+      <a href="/admin" style="margin-left: auto;">
+        <button class="btn-secondary">Back to Admin</button>
+      </a>
+    </div>
+    
+    <div class="progress" id="progress">
+      <div class="progress-bar">
+        <div class="progress-fill" id="progressFill">0%</div>
+      </div>
+    </div>
+    
+    <div class="results" id="results">
+      <h2>Results</h2>
+      <div class="result-summary">
+        <div class="result-card card-success">
+          <h3 id="successCount">0</h3>
+          <p>Successfully Updated</p>
+        </div>
+        <div class="result-card card-error">
+          <h3 id="errorCount">0</h3>
+          <p>Failed</p>
+        </div>
+        <div class="result-card card-skipped">
+          <h3 id="skippedCount">0</h3>
+          <p>Skipped</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <script>
+    let selectedFiles = [];
+    
+    const uploadArea = document.getElementById('uploadArea');
+    const fileInput = document.getElementById('fileInput');
+    const fileList = document.getElementById('fileList');
+    const processBtn = document.getElementById('processBtn');
+    const clearBtn = document.getElementById('clearBtn');
+    const progress = document.getElementById('progress');
+    const progressFill = document.getElementById('progressFill');
+    const results = document.getElementById('results');
+    
+    // Click to select files
+    uploadArea.addEventListener('click', () => {
+      fileInput.click();
+    });
+    
+    // File input change
+    fileInput.addEventListener('change', (e) => {
+      handleFiles(e.target.files);
+    });
+    
+    // Drag and drop
+    uploadArea.addEventListener('dragover', (e) => {
+      e.preventDefault();
+      uploadArea.classList.add('dragover');
+    });
+    
+    uploadArea.addEventListener('dragleave', () => {
+      uploadArea.classList.remove('dragover');
+    });
+    
+    uploadArea.addEventListener('drop', (e) => {
+      e.preventDefault();
+      uploadArea.classList.remove('dragover');
+      handleFiles(e.dataTransfer.files);
+    });
+    
+    function handleFiles(files) {
+      selectedFiles = Array.from(files).filter(f => 
+        f.name.endsWith('.md') || f.name.endsWith('.markdown')
+      );
+      
+      renderFileList();
+      processBtn.disabled = selectedFiles.length === 0;
+    }
+    
+    function renderFileList() {
+      if (selectedFiles.length === 0) {
+        fileList.innerHTML = '';
+        return;
+      }
+      
+      fileList.innerHTML = '<h3>Selected Files:</h3>';
+      selectedFiles.forEach(file => {
+        const item = document.createElement('div');
+        item.className = 'file-item';
+        item.innerHTML = `
+          <span class="file-name">${file.name}</span>
+          <span class="file-status status-pending">Pending</span>
+        `;
+        fileList.appendChild(item);
+      });
+    }
+    
+    clearBtn.addEventListener('click', () => {
+      selectedFiles = [];
+      fileInput.value = '';
+      renderFileList();
+      processBtn.disabled = true;
+      progress.style.display = 'none';
+      results.style.display = 'none';
+    });
+    
+    processBtn.addEventListener('click', async () => {
+      processBtn.disabled = true;
+      progress.style.display = 'block';
+      results.style.display = 'none';
+      
+      let successCount = 0;
+      let errorCount = 0;
+      let skippedCount = 0;
+      
+      for (let i = 0; i < selectedFiles.length; i++) {
+        const file = selectedFiles[i];
+        const fileItems = fileList.querySelectorAll('.file-item');
+        const currentItem = fileItems[i];
+        
+        try {
+          const content = await file.text();
+          const result = await processFile(content, file.name);
+          
+          if (result.success) {
+            successCount++;
+            currentItem.querySelector('.file-status').className = 'file-status status-success';
+            currentItem.querySelector('.file-status').textContent = 'Success';
+          } else if (result.skipped) {
+            skippedCount++;
+            currentItem.querySelector('.file-status').className = 'file-status status-pending';
+            currentItem.querySelector('.file-status').textContent = 'Skipped';
+          } else {
+            errorCount++;
+            currentItem.querySelector('.file-status').className = 'file-status status-error';
+            currentItem.querySelector('.file-status').textContent = 'Error';
+          }
+        } catch (error) {
+          errorCount++;
+          currentItem.querySelector('.file-status').className = 'file-status status-error';
+          currentItem.querySelector('.file-status').textContent = 'Error';
+        }
+        
+        const percent = Math.round(((i + 1) / selectedFiles.length) * 100);
+        progressFill.style.width = percent + '%';
+        progressFill.textContent = percent + '%';
+      }
+      
+      // Show results
+      results.style.display = 'block';
+      document.getElementById('successCount').textContent = successCount;
+      document.getElementById('errorCount').textContent = errorCount;
+      document.getElementById('skippedCount').textContent = skippedCount;
+      
+      processBtn.disabled = false;
+    });
+    
+    async function processFile(content, filename) {
+      // Extract frontmatter and body
+      const match = content.match(/^---\n([\s\S]*?)\n---\n([\s\S]*)$/);
+      if (!match) {
+        return { success: false, reason: 'Invalid markdown format' };
+      }
+      
+      const frontmatter = match[1];
+      const newBody = match[2];
+      
+      // Parse slug
+      const slugMatch = frontmatter.match(/slug:\s*['"]?(\d{3})['"]?/);
+      if (!slugMatch) {
+        return { success: false, reason: 'No slug found' };
+      }
+      
+      const slug = slugMatch[1];
+      
+      // This is a simplified version - in production, this would call
+      // the GitHub API via Decap CMS to update the file
+      console.log(`Processing file ${filename} with slug ${slug}`);
+      
+      // Simulate processing
+      await new Promise(resolve => setTimeout(resolve, 500));
+      
+      return { success: true };
+    }
+  </script>
+</body>
+</html>

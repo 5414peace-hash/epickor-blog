@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="robots" content="noindex" />
+  <title>EpicKor Blog Admin</title>
+  <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+  
+  <!-- Decap CMS -->
+  <script src="https://unpkg.com/decap-cms@^3.0.0/dist/decap-cms.js"></script>
+  
+  <!-- Custom Widgets & Enhancements -->
+  <script src="/admin/custom-widgets.js"></script>
+  
+  <!-- Custom Styles -->
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+    }
+    
+    /* Custom branding */
+    .nc-app-header {
+      background-color: #2C2416 !important;
+    }
+    
+    .nc-app-header-button {
+      color: #FAF6F0 !important;
+    }
+  </style>
+</head>
+<body>
+  <!-- Decap CMS will mount here -->
+  
+  <script>
+    // Custom preview styles
+    CMS.registerPreviewStyle("/admin/preview.css");
+    
+    // Add bulk update link
+    CMS.registerAdditionalLink({
+      id: 'bulk-update',
+      title: 'Bulk Update Posts',
+      data: '/admin/bulk-update.html',
+      options: {
+        icon: 'upload'
+      }
+    });
+    
+    // Custom widgets (if needed)
+    // CMS.registerWidget('customWidget', CustomWidgetControl, CustomWidgetPreview);
+    
+    console.log('EpicKor Blog Admin loaded');
+  </script>
+</body>
+</html>

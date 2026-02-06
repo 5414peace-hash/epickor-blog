@@ -1,0 +1,122 @@
+/* Decap CMS Preview Styles */
+/* Match the blog's actual styling */
+
+body {
+  font-family: 'Noto Serif KR', serif;
+  line-height: 1.8;
+  color: #2C2416;
+  background-color: #FAF6F0;
+  padding: 2rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Noto Sans KR', sans-serif;
+  font-weight: 700;
+  color: #2C2416;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+h1 {
+  font-size: 2.5rem;
+  border-bottom: 3px solid #E85A4F;
+  padding-bottom: 0.5rem;
+}
+
+h2 {
+  font-size: 2rem;
+  color: #5B7B6F;
+}
+
+h3 {
+  font-size: 1.5rem;
+  color: #D4A574;
+}
+
+p {
+  margin-bottom: 1.5rem;
+  font-size: 1.1rem;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin: 2rem auto;
+  display: block;
+}
+
+/* Image Grid (2 columns) */
+.image-grid-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  margin: 3rem auto;
+  max-width: 900px;
+}
+
+.image-grid-2 img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+/* Links */
+a {
+  color: #E85A4F;
+  text-decoration: none;
+  border-bottom: 1px solid #E85A4F;
+  transition: all 0.3s ease;
+}
+
+a:hover {
+  color: #D4A574;
+  border-bottom-color: #D4A574;
+}
+
+/* Blockquotes */
+blockquote {
+  border-left: 4px solid #5B7B6F;
+  padding-left: 1.5rem;
+  margin: 2rem 0;
+  font-style: italic;
+  color: #5B7B6F;
+  background-color: rgba(91, 123, 111, 0.05);
+  padding: 1rem 1.5rem;
+  border-radius: 4px;
+}
+
+/* Lists */
+ul, ol {
+  margin-bottom: 1.5rem;
+  padding-left: 2rem;
+}
+
+li {
+  margin-bottom: 0.5rem;
+}
+
+/* Code */
+code {
+  background-color: rgba(44, 36, 22, 0.05);
+  padding: 0.2rem 0.4rem;
+  border-radius: 4px;
+  font-family: 'Courier New', monospace;
+  font-size: 0.9rem;
+}
+
+pre {
+  background-color: #2C2416;
+  color: #FAF6F0;
+  padding: 1.5rem;
+  border-radius: 8px;
+  overflow-x: auto;
+  margin: 2rem 0;
+}
+
+pre code {
+  background-color: transparent;
+  padding: 0;
+  color: #FAF6F0;
+}
