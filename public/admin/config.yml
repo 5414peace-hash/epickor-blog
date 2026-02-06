@@ -46,6 +46,7 @@ collections:
       - label: "Products"
         name: "products"
         widget: "list"
+        summary: "[{{fields.id}}] {{fields.name}}"
         fields:
           - {label: "ID", name: "id", widget: "string", required: true}
           - {label: "Product Name", name: "name", widget: "string", required: true}

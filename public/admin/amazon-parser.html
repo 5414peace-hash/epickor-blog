@@ -262,6 +262,23 @@
         return;
       }
       
+      // Check for affiliate tag
+      const affiliateTag = 'epickor-20';
+      const hasAffiliateTag = url.includes(affiliateTag) || url.includes('tag=' + affiliateTag);
+      
+      if (!hasAffiliateTag) {
+        const proceed = confirm(
+          '⚠️ WARNING: Affiliate Tag Missing!\n\n' +
+          'This URL does not contain the affiliate tag "' + affiliateTag + '".\n' +
+          'Without the tag, you will not earn commissions from this link.\n\n' +
+          'Do you want to continue anyway?'
+        );
+        
+        if (!proceed) {
+          return;
+        }
+      }
+      
       // Hide previous results
       resultCard.classList.remove('show');
       errorCard.classList.remove('show');
@@ -316,6 +333,19 @@
     });
     
     copyJsonBtn.addEventListener('click', () => {
+      const url = amazonUrl.value.trim();
+      const affiliateTag = 'epickor-20';
+      const hasAffiliateTag = url.includes(affiliateTag) || url.includes('tag=' + affiliateTag);
+      
+      if (!hasAffiliateTag) {
+        alert(
+          '⚠️ WARNING: Affiliate Tag Missing!\n\n' +
+          'This URL does not contain the affiliate tag "' + affiliateTag + '".\n' +
+          'Please add the tag to the URL before copying.'
+        );
+        return;
+      }
+      
       const productData = {
         id: String(Math.floor(Math.random() * 900) + 100).padStart(3, '0'),
         name: document.getElementById('productName').value,
