@@ -67,7 +67,7 @@ export async function POST(request: NextRequest) {
 
 function parseAmazonHTML(html: string) {
   // Extract product title
-  const titleMatch = html.match(/<span id="productTitle"[^>]*>(.*?)<\/span>/s);
+  const titleMatch = html.match(/<span id="productTitle"[^>]*>([\s\S]*?)<\/span>/);
   const name = titleMatch ? titleMatch[1].trim().replace(/<[^>]*>/g, '').trim() : '';
   
   // Extract price
@@ -85,12 +85,11 @@ function parseAmazonHTML(html: string) {
       price = `$${altPriceMatch[1]}`;
     }
   }
-  
-  // Extract description (feature bullets)
-  const descMatch = html.match(/<div id="feature-bullets"[^>]*>(.*?)<\/div>/s);
+    // Extract description (feature bullets)
+  const descMatch = html.match(/<div id="feature-bullets"[^>]*>([\s\S]*?)<\/div>/);
   let description = '';
   if (descMatch) {
-    const bullets = descMatch[1].match(/<span class="a-list-item"[^>]*>(.*?)<\/span>/gs);
+    const bullets = descMatch[1].match(/<span class="a-list-item"[^>]*>([\s\S]*?)<\/span>/g);
     if (bullets) {
       description = bullets
         .map(b => b.replace(/<[^>]*>/g, '').trim())
