@@ -64,21 +64,13 @@
       // Register custom preview styles
       CMS.registerPreviewStyle("/admin/preview.css");
       
-      // Add bulk update link
-      CMS.registerAdditionalLink({
-        id: 'bulk-update',
-        title: 'Bulk Update Posts',
-        data: '/admin/bulk-update.html',
-        options: {
-          icon: 'upload'
-        }
-      });
+      // Note: Custom widgets (MD Upload, Bulk Manager, Amazon Parser) are loaded from custom-widgets.v2.js
       
       console.log('EpicKor Blog Admin loaded successfully');
       
       // Load custom widgets after CMS initializes
       const customScript = document.createElement('script');
-      customScript.src = '/admin/custom-widgets.js';
+      customScript.src = '/admin/custom-widgets.v2.js?v=2.0.0';
       customScript.onload = function() {
         console.log('Custom widgets loaded');
       };
