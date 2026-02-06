@@ -7,16 +7,15 @@
   <title>EpicKor Blog Admin</title>
   <link rel="icon" type="image/x-icon" href="/favicon.ico" />
   
-  <!-- Decap CMS -->
-  <script src="https://unpkg.com/decap-cms@^3.0.0/dist/decap-cms.js"></script>
-  
-  <!-- Custom Widgets & Enhancements -->
-  <script src="/admin/custom-widgets.js"></script>
+  <!-- Point to the Decap CMS config file -->
+  <link href="config.yml" type="text/yaml" rel="cms-config-url" />
   
   <!-- Custom Styles -->
   <style>
     body {
       font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+      margin: 0;
+      padding: 0;
     }
     
     /* Custom branding */
@@ -27,29 +26,67 @@
     .nc-app-header-button {
       color: #FAF6F0 !important;
     }
+    
+    /* Loading indicator */
+    #loading {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      font-size: 1.5rem;
+      color: #2C2416;
+    }
   </style>
 </head>
 <body>
-  <!-- Decap CMS will mount here -->
+  <!-- Loading indicator -->
+  <div id="loading">Loading EpicKor Blog Admin...</div>
   
+  <!-- Include the script that builds the page and powers Decap CMS -->
+  <script src="https://unpkg.com/decap-cms@^3.0.0/dist/decap-cms.js"></script>
+  
+  <!-- Custom initialization after CMS loads -->
   <script>
-    // Custom preview styles
-    CMS.registerPreviewStyle("/admin/preview.css");
-    
-    // Add bulk update link
-    CMS.registerAdditionalLink({
-      id: 'bulk-update',
-      title: 'Bulk Update Posts',
-      data: '/admin/bulk-update.html',
-      options: {
-        icon: 'upload'
+    window.addEventListener('load', function() {
+      // Hide loading indicator
+      const loadingEl = document.getElementById('loading');
+      if (loadingEl) {
+        loadingEl.style.display = 'none';
       }
+      
+      // Check if CMS is available
+      if (typeof CMS === 'undefined') {
+        console.error('Decap CMS failed to load');
+        document.body.innerHTML = '<div style="padding: 2rem; text-align: center;"><h1>Error</h1><p>Failed to load Decap CMS. Please refresh the page.</p></div>';
+        return;
+      }
+      
+      // Register custom preview styles
+      CMS.registerPreviewStyle("/admin/preview.css");
+      
+      // Add bulk update link
+      CMS.registerAdditionalLink({
+        id: 'bulk-update',
+        title: 'Bulk Update Posts',
+        data: '/admin/bulk-update.html',
+        options: {
+          icon: 'upload'
+        }
+      });
+      
+      console.log('EpicKor Blog Admin loaded successfully');
+      
+      // Load custom widgets after CMS initializes
+      const customScript = document.createElement('script');
+      customScript.src = '/admin/custom-widgets.js';
+      customScript.onload = function() {
+        console.log('Custom widgets loaded');
+      };
+      customScript.onerror = function() {
+        console.error('Failed to load custom widgets');
+      };
+      document.body.appendChild(customScript);
     });
-    
-    // Custom widgets (if needed)
-    // CMS.registerWidget('customWidget', CustomWidgetControl, CustomWidgetPreview);
-    
-    console.log('EpicKor Blog Admin loaded');
   </script>
 </body>
 </html>
