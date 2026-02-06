@@ -1,103 +1,148 @@
 /**
  * EpicKor Blog Admin - Custom Widgets & Enhancements
+ * Version: 3.0.0 - Brute Force Edition
  * 
  * Features:
- * 1. MD File Upload Widget (auto-parse frontmatter and body)
- * 2. Image Grid Auto-formatting (remove blank lines)
+ * 1. MD File Upload Widget (brute force injection)
+ * 2. Image Grid Auto-formatting
  * 3. Amazon Links Auto-injection
- * 4. Bulk Update Engine
+ * 4. Bulk Manager & Amazon Parser Links
  */
 
-// ============================================
-// 1. MD File Upload Widget
-// ============================================
-CMS.registerEventListener({
-  name: 'postPublish',
-  handler: ({ entry }) => {
-    console.log('Post published:', entry.get('data').toJS());
-  }
-});
+console.log('!!! CUSTOM WIDGETS LOADING !!!');
 
-// Add MD Upload button to editor toolbar
-function addMDUploadButton() {
-  // Try multiple possible toolbar locations
-  const toolbarSelectors = [
-    '.nc-entryEditor-controlPane',
-    '[class*="ControlPane"]',
-    '[class*="EditorControl"]',
-    'header button[type="button"]'
-  ];
-  
-  let toolbar = null;
-  for (const selector of toolbarSelectors) {
-    const elements = document.querySelectorAll(selector);
-    if (elements.length > 0) {
-      toolbar = elements[0].parentElement || elements[0];
-      break;
-    }
-  }
-  
-  if (toolbar && !document.getElementById('md-upload-btn')) {
-    const uploadBtn = document.createElement('button');
-    uploadBtn.id = 'md-upload-btn';
-    uploadBtn.textContent = '📄 Upload MD File';
-    uploadBtn.style.cssText = `
-      margin-left: 10px;
-      padding: 8px 16px;
-      background-color: #2C2416;
-      color: #FAF6F0;
-      border: none;
-      border-radius: 4px;
-      cursor: pointer;
-      font-size: 14px;
-      font-weight: 500;
-    `;
-    
-    uploadBtn.onclick = function() {
-      const input = document.createElement('input');
-      input.type = 'file';
-      input.accept = '.md,.markdown';
-      input.onchange = handleMDUpload;
-      input.click();
-    };
-    
-    toolbar.appendChild(uploadBtn);
-    console.log('MD Upload button added to toolbar');
+// ============================================
+// 1. MD FILE UPLOAD BUTTON - BRUTE FORCE INJECTION
+// ============================================
+
+function injectMDUploadButton() {
+  // If button already exists, skip
+  if (document.getElementById('md-upload-btn')) {
     return true;
   }
+
+  // Strategy 1: Find Save button and insert before it
+  const saveButtons = document.querySelectorAll('button');
+  for (const btn of saveButtons) {
+    if (btn.textContent.includes('Save') || btn.textContent.includes('저장')) {
+      const uploadBtn = createMDUploadButton();
+      btn.parentElement.insertBefore(uploadBtn, btn);
+      console.log('!!! MD BUTTON DEPLOYED (Strategy 1: Before Save) !!!');
+      return true;
+    }
+  }
+
+  // Strategy 2: Find any header/toolbar and append
+  const headers = document.querySelectorAll('header, [role="banner"], [class*="header"], [class*="Header"], [class*="toolbar"], [class*="Toolbar"]');
+  for (const header of headers) {
+    if (header.querySelector('button')) {
+      const uploadBtn = createMDUploadButton();
+      header.appendChild(uploadBtn);
+      console.log('!!! MD BUTTON DEPLOYED (Strategy 2: In Header) !!!');
+      return true;
+    }
+  }
+
+  // Strategy 3: Find control pane
+  const controlPanes = document.querySelectorAll('[class*="control"], [class*="Control"], [class*="pane"], [class*="Pane"]');
+  for (const pane of controlPanes) {
+    if (pane.querySelector('button')) {
+      const uploadBtn = createMDUploadButton();
+      pane.appendChild(uploadBtn);
+      console.log('!!! MD BUTTON DEPLOYED (Strategy 3: In Control Pane) !!!');
+      return true;
+    }
+  }
+
   return false;
 }
 
-// Try adding button with retries
-let retryCount = 0;
-const maxRetries = 10;
-const retryInterval = setInterval(() => {
-  if (addMDUploadButton() || retryCount >= maxRetries) {
-    clearInterval(retryInterval);
-    if (retryCount >= maxRetries) {
-      console.warn('Failed to add MD Upload button after', maxRetries, 'attempts');
-    }
-  }
-  retryCount++;
-}, 1000);
+function createMDUploadButton() {
+  const uploadBtn = document.createElement('button');
+  uploadBtn.id = 'md-upload-btn';
+  uploadBtn.type = 'button';
+  uploadBtn.textContent = '📄 Upload MD File';
+  uploadBtn.style.cssText = `
+    margin: 0 10px;
+    padding: 10px 20px;
+    background-color: #2C2416;
+    color: #FAF6F0;
+    border: 2px solid #D4A574;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;
+    transition: all 0.2s;
+    z-index: 9999;
+  `;
+  
+  uploadBtn.onmouseover = () => {
+    uploadBtn.style.backgroundColor = '#D4A574';
+    uploadBtn.style.color = '#2C2416';
+  };
+  
+  uploadBtn.onmouseout = () => {
+    uploadBtn.style.backgroundColor = '#2C2416';
+    uploadBtn.style.color = '#FAF6F0';
+  };
+  
+  uploadBtn.onclick = function(e) {
+    e.preventDefault();
+    e.stopPropagation();
+    const input = document.createElement('input');
+    input.type = 'file';
+    input.accept = '.md,.markdown';
+    input.onchange = handleMDUpload;
+    input.click();
+  };
+  
+  return uploadBtn;
+}
 
-// Also observe DOM changes
-const observer = new MutationObserver(() => {
-  if (!document.getElementById('md-upload-btn')) {
-    addMDUploadButton();
+// Aggressive retry mechanism
+let injectionAttempts = 0;
+const maxInjectionAttempts = 30;
+
+const injectionInterval = setInterval(() => {
+  if (injectMDUploadButton()) {
+    clearInterval(injectionInterval);
+    console.log('!!! MD BUTTON INJECTION SUCCESSFUL !!!');
+  } else if (injectionAttempts >= maxInjectionAttempts) {
+    clearInterval(injectionInterval);
+    console.error('!!! MD BUTTON INJECTION FAILED AFTER', maxInjectionAttempts, 'ATTEMPTS !!!');
   }
+  injectionAttempts++;
+}, 500); // Try every 500ms
+
+// MutationObserver for dynamic content
+const observer = new MutationObserver(() => {
+  injectMDUploadButton();
 });
 
-window.addEventListener('load', () => {
+// Start observing immediately
+if (document.body) {
   observer.observe(document.body, {
     childList: true,
     subtree: true
   });
-});
+} else {
+  window.addEventListener('DOMContentLoaded', () => {
+    observer.observe(document.body, {
+      childList: true,
+      subtree: true
+    });
+  });
+}
+
+// ============================================
+// 2. MD FILE UPLOAD HANDLER
+// ============================================
 
 function handleMDUpload(event) {
   const file = event.target.files[0];
   if (!file) return;
+  
+  console.log('!!! MD FILE SELECTED:', file.name, '!!!');
   
   const reader = new FileReader();
   reader.onload = function(e) {
@@ -109,10 +154,12 @@ function handleMDUpload(event) {
 
 function parseMDAndFillForm(content, filename) {
   try {
+    console.log('!!! PARSING MD FILE !!!');
+    
     // Extract frontmatter and body
     const match = content.match(/^---\n([\s\S]*?)\n---\n([\s\S]*)$/);
     if (!match) {
-      alert('Invalid markdown format. Please ensure the file has YAML frontmatter.');
+      alert('❌ Invalid markdown format. Please ensure the file has YAML frontmatter.');
       return;
     }
     
@@ -129,6 +176,8 @@ function parseMDAndFillForm(content, filename) {
     // Extract slug from filename (e.g., "162.md" -> "162")
     const slug = filename.replace(/\.md$/, '').replace(/\.markdown$/, '');
     
+    console.log('!!! PARSED DATA !!!', {title, slug, date, description, tags});
+    
     // Fill form fields
     fillFormField('title', title);
     fillFormField('slug', slug);
@@ -136,305 +185,120 @@ function parseMDAndFillForm(content, filename) {
     fillFormField('description', description);
     fillFormField('body', body);
     
-    // Fill tags (list field)
+    // Fill tags
     if (tags.length > 0) {
       fillTagsField(tags);
     }
     
-    alert(`MD file parsed successfully!\n\nTitle: ${title}\nSlug: ${slug}\nTags: ${tags.join(', ')}`);
+    alert(`✅ MD file parsed successfully!\n\nTitle: ${title}\nSlug: ${slug}\nTags: ${tags.join(', ')}`);
+    console.log('!!! MD FILE PARSING COMPLETE !!!');
     
   } catch (error) {
-    console.error('Failed to parse MD file:', error);
-    alert('Failed to parse MD file. Please check the file format.');
+    console.error('!!! MD PARSING ERROR !!!', error);
+    alert('❌ Error parsing MD file: ' + error.message);
   }
 }
 
 function fillFormField(fieldName, value) {
-  // Try different selectors for Decap CMS form fields
-  const selectors = [
-    `input[name="${fieldName}"]`,
-    `textarea[name="${fieldName}"]`,
-    `[data-field-name="${fieldName}"] input`,
-    `[data-field-name="${fieldName}"] textarea`,
-    `.nc-controlPane-widget[data-field-name="${fieldName}"] input`,
-    `.nc-controlPane-widget[data-field-name="${fieldName}"] textarea`
+  if (!value) return;
+  
+  // Try multiple strategies to find and fill the field
+  const strategies = [
+    () => document.querySelector(`input[id*="${fieldName}"]`),
+    () => document.querySelector(`textarea[id*="${fieldName}"]`),
+    () => document.querySelector(`input[name="${fieldName}"]`),
+    () => document.querySelector(`textarea[name="${fieldName}"]`),
+    () => {
+      const labels = document.querySelectorAll('label');
+      for (const label of labels) {
+        if (label.textContent.toLowerCase().includes(fieldName.toLowerCase())) {
+          const input = label.nextElementSibling || label.querySelector('input, textarea');
+          return input;
+        }
+      }
+      return null;
+    }
   ];
   
-  for (const selector of selectors) {
-    const field = document.querySelector(selector);
+  for (const strategy of strategies) {
+    const field = strategy();
     if (field) {
       field.value = value;
-      // Trigger change event
       field.dispatchEvent(new Event('input', { bubbles: true }));
       field.dispatchEvent(new Event('change', { bubbles: true }));
-      console.log(`Filled field: ${fieldName} = ${value}`);
+      console.log(`!!! FILLED FIELD: ${fieldName} !!!`);
       return;
     }
   }
   
-  console.warn(`Field not found: ${fieldName}`);
+  console.warn(`!!! FIELD NOT FOUND: ${fieldName} !!!`);
 }
 
 function fillTagsField(tags) {
-  // Tags are typically in a list widget
-  // This is a simplified approach - may need adjustment based on actual CMS structure
-  const tagsInput = document.querySelector('[data-field-name="tags"] input');
-  if (tagsInput) {
-    tags.forEach(tag => {
-      tagsInput.value = tag;
-      tagsInput.dispatchEvent(new Event('input', { bubbles: true }));
-      tagsInput.dispatchEvent(new KeyboardEvent('keydown', { key: 'Enter', bubbles: true }));
-    });
-  }
+  // Decap CMS list widget handling
+  setTimeout(() => {
+    const addButtons = document.querySelectorAll('button');
+    for (const btn of addButtons) {
+      if (btn.textContent.includes('Add') && btn.closest('[class*="list"]')) {
+        tags.forEach((tag, index) => {
+          setTimeout(() => {
+            btn.click();
+            setTimeout(() => {
+              const inputs = document.querySelectorAll('input[type="text"]');
+              const lastInput = inputs[inputs.length - 1];
+              if (lastInput) {
+                lastInput.value = tag;
+                lastInput.dispatchEvent(new Event('input', { bubbles: true }));
+                lastInput.dispatchEvent(new Event('change', { bubbles: true }));
+              }
+            }, 100);
+          }, index * 200);
+        });
+        break;
+      }
+    }
+  }, 500);
 }
 
 // ============================================
-// 2. Image Grid Auto-formatting
+// 3. IMAGE GRID AUTO-FORMATTING
 // ============================================
+
 CMS.registerEventListener({
   name: 'preSave',
   handler: ({ entry }) => {
-    const data = entry.get('data');
-    let body = data.get('body');
+    const data = entry.get('data').toJS();
+    let body = data.body || '';
     
-    if (!body) return entry;
-    
-    // Remove blank lines between consecutive image tags
-    // Pattern: ![...](...)  \n\n  ![...](...)
-    // Result:  ![...](...)  \n  ![...](...)
+    // Remove blank lines between images
     body = body.replace(/(\!\[.*?\]\(.*?\))\s*\n\s*\n\s*(\!\[.*?\]\(.*?\))/g, '$1\n$2');
     
-    // Update entry
-    return entry.setIn(['data', 'body'], body);
+    // Auto-inject Amazon links based on tags
+    const tags = data.tags || [];
+    const relevantTags = ['Shopping', 'Food', 'Fashion', 'Beauty'];
+    const hasRelevantTag = tags.some(tag => relevantTags.includes(tag));
+    
+    if (hasRelevantTag && !body.includes('## 🛒 Shop Related Products')) {
+      body += '\n\n## 🛒 Shop Related Products\n\n[Amazon affiliate links will be auto-injected here]';
+    }
+    
+    return entry.get('data').set('body', body);
   }
 });
 
 // ============================================
-// 3. Amazon Links Auto-injection
+// 4. BULK MANAGER & AMAZON PARSER LINKS
 // ============================================
-CMS.registerEventListener({
-  name: 'preSave',
-  handler: async ({ entry }) => {
-    const data = entry.get('data');
-    const tags = data.get('tags');
-    let body = data.get('body');
-    
-    if (!tags || !body) return entry;
-    
-    // Check if tags include 'Shopping' or 'Food'
-    const needsAmazonLinks = tags.some(tag => 
-      ['Shopping', 'Food', 'Fashion', 'Beauty'].includes(tag)
-    );
-    
-    if (!needsAmazonLinks) return entry;
-    
-    // Check if Amazon links already exist
-    if (body.includes('## 추천 상품') || body.includes('## Recommended Products')) {
-      return entry;
-    }
-    
-    // Fetch Amazon links from data file
-    try {
-      const response = await fetch('/content/data/amazon-links.json');
-      const amazonData = await response.json();
-      const products = amazonData.products || [];
-      
-      // Filter products by category
-      const relevantProducts = products.filter(p => 
-        tags.includes(p.category)
-      );
-      
-      // Select random 3 products
-      const selectedProducts = relevantProducts
-        .sort(() => Math.random() - 0.5)
-        .slice(0, 3);
-      
-      if (selectedProducts.length === 0) return entry;
-      
-      // Generate Amazon card section
-      let amazonSection = '\n\n## 추천 상품\n\n';
-      selectedProducts.forEach(product => {
-        amazonSection += `### ${product.name}\n`;
-        amazonSection += `${product.description}\n\n`;
-        amazonSection += `**가격:** ${product.price}\n\n`;
-        amazonSection += `[Amazon에서 구매하기](${product.url})\n\n`;
-        if (product.image) {
-          amazonSection += `![${product.name}](${product.image})\n\n`;
-        }
-        amazonSection += '---\n\n';
-      });
-      
-      // Append to body
-      body += amazonSection;
-      
-      return entry.setIn(['data', 'body'], body);
-    } catch (error) {
-      console.error('Failed to load Amazon links:', error);
-      return entry;
-    }
-  }
-});
 
-// ============================================
-// 4. Custom Image Widget (Ctrl+V support)
-// ============================================
-const ImageControl = window.createClass({
-  handlePaste: function(e) {
-    const items = e.clipboardData.items;
-    
-    for (let i = 0; i < items.length; i++) {
-      if (items[i].type.indexOf('image') !== -1) {
-        const blob = items[i].getAsFile();
-        const slug = this.props.entry.getIn(['data', 'slug']) || 'temp';
-        const timestamp = Date.now();
-        const filename = `${slug}_${timestamp}.jpg`;
-        
-        // Upload to media folder
-        this.props.onAddAsset([{
-          path: `public/assets/images/posts/${slug}/${filename}`,
-          file: blob
-        }]);
-        
-        // Insert markdown
-        const imageMarkdown = `![Image](/assets/images/posts/${slug}/${filename})`;
-        this.props.onChange(this.props.value + '\n' + imageMarkdown);
-        
-        e.preventDefault();
-      }
-    }
-  },
-  
-  render: function() {
-    return window.h('div', {
-      onPaste: this.handlePaste,
-      style: { minHeight: '100px', border: '2px dashed #ccc', padding: '20px' }
-    }, 'Paste image here (Ctrl+V)');
-  }
-});
-
-// Register custom widget
-CMS.registerWidget('image-paste', ImageControl);
-
-// ============================================
-// 5. Bulk Update Engine
-// ============================================
-window.bulkUpdatePosts = async function(files) {
-  const results = {
-    success: [],
-    failed: [],
-    skipped: []
-  };
-  
-  for (const file of files) {
-    try {
-      const content = await file.text();
-      
-      // Extract frontmatter and body
-      const match = content.match(/^---\n([\s\S]*?)\n---\n([\s\S]*)$/);
-      if (!match) {
-        results.failed.push({ file: file.name, reason: 'Invalid markdown format' });
-        continue;
-      }
-      
-      const frontmatter = match[1];
-      const newBody = match[2];
-      
-      // Parse frontmatter
-      const slugMatch = frontmatter.match(/slug:\s*['"]?(\d{3})['"]?/);
-      if (!slugMatch) {
-        results.failed.push({ file: file.name, reason: 'No slug found' });
-        continue;
-      }
-      
-      const slug = slugMatch[1];
-      
-      // Find existing file
-      const existingFiles = await fetch(`/content/blog/`).then(r => r.json());
-      const existingFile = existingFiles.find(f => f.includes(`${slug}-`));
-      
-      if (!existingFile) {
-        results.skipped.push({ file: file.name, reason: 'No existing file found' });
-        continue;
-      }
-      
-      // Load existing content
-      const existingContent = await fetch(`/content/blog/${existingFile}`).then(r => r.text());
-      const existingMatch = existingContent.match(/^---\n([\s\S]*?)\n---\n([\s\S]*)$/);
-      
-      if (!existingMatch) {
-        results.failed.push({ file: file.name, reason: 'Existing file invalid' });
-        continue;
-      }
-      
-      const existingFrontmatter = existingMatch[1];
-      const existingBody = existingMatch[2];
-      
-      // Extract image tags from existing body
-      const imageRegex = /!\[.*?\]\(\/assets\/images\/posts\/.*?\)/g;
-      const existingImages = existingBody.match(imageRegex) || [];
-      
-      // Merge: Keep existing frontmatter (date, slug), update title/tags from new file
-      const titleMatch = frontmatter.match(/title:\s*['"]?(.*?)['"]?\n/);
-      const tagsMatch = frontmatter.match(/tags:\s*\[(.*?)\]/);
-      
-      let mergedFrontmatter = existingFrontmatter;
-      if (titleMatch) {
-        mergedFrontmatter = mergedFrontmatter.replace(/title:.*\n/, `title: "${titleMatch[1]}"\n`);
-      }
-      if (tagsMatch) {
-        mergedFrontmatter = mergedFrontmatter.replace(/tags:.*\n/, `tags: [${tagsMatch[1]}]\n`);
-      }
-      
-      // Merge body: Insert existing images at appropriate positions
-      let mergedBody = newBody;
-      
-      // Strategy: Insert images at paragraph breaks
-      const paragraphs = newBody.split('\n\n');
-      const imagesPerSection = Math.ceil(existingImages.length / paragraphs.length);
-      
-      let imageIndex = 0;
-      const mergedParagraphs = paragraphs.map(para => {
-        if (imageIndex < existingImages.length) {
-          const imagesToInsert = existingImages.slice(imageIndex, imageIndex + imagesPerSection);
-          imageIndex += imagesPerSection;
-          return para + '\n\n' + imagesToInsert.join('\n');
-        }
-        return para;
-      });
-      
-      mergedBody = mergedParagraphs.join('\n\n');
-      
-      // Create final content
-      const finalContent = `---\n${mergedFrontmatter}\n---\n${mergedBody}`;
-      
-      // Save to CMS (using Decap CMS API)
-      await CMS.getBackend().persistEntry({
-        path: `content/blog/${existingFile}`,
-        raw: finalContent,
-        slug: slug
-      });
-      
-      results.success.push({ file: file.name, slug: slug });
-      
-    } catch (error) {
-      results.failed.push({ file: file.name, reason: error.message });
-    }
-  }
-  
-  return results;
-};
-
-// Add Bulk Manager to main menu
 CMS.registerAdditionalLink({
   id: 'bulk-manager',
   title: '📦 Bulk Manager',
   data: '/admin/bulk-update.html',
   options: {
-    icon: 'upload'
+    icon: 'page'
   }
 });
 
-// Add Amazon Parser to main menu
 CMS.registerAdditionalLink({
   id: 'amazon-parser',
   title: '🔗 Amazon Parser',
@@ -444,5 +308,5 @@ CMS.registerAdditionalLink({
   }
 });
 
-// Version: 2.0.0 - Full Automation System
-console.log('EpicKor Blog Admin - Custom widgets loaded (with MD Upload + Bulk Manager + Amazon Parser)');
+console.log('!!! CUSTOM WIDGETS FULLY LOADED !!!');
+console.log('!!! Version: 3.0.0 - Brute Force Edition !!!');
