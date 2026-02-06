@@ -19,36 +19,80 @@ CMS.registerEventListener({
 });
 
 // Add MD Upload button to editor toolbar
-window.addEventListener('load', function() {
-  // Wait for CMS to fully initialize
-  setTimeout(() => {
-    const editorToolbar = document.querySelector('.nc-entryEditor-controlPane');
-    if (editorToolbar && !document.getElementById('md-upload-btn')) {
-      const uploadBtn = document.createElement('button');
-      uploadBtn.id = 'md-upload-btn';
-      uploadBtn.className = 'nc-button nc-button-primary';
-      uploadBtn.textContent = '📄 Upload MD File';
-      uploadBtn.style.marginLeft = '10px';
-      uploadBtn.style.padding = '8px 16px';
-      uploadBtn.style.backgroundColor = '#2C2416';
-      uploadBtn.style.color = '#FAF6F0';
-      uploadBtn.style.border = 'none';
-      uploadBtn.style.borderRadius = '4px';
-      uploadBtn.style.cursor = 'pointer';
-      uploadBtn.style.fontSize = '14px';
-      
-      uploadBtn.onclick = function() {
-        const input = document.createElement('input');
-        input.type = 'file';
-        input.accept = '.md,.markdown';
-        input.onchange = handleMDUpload;
-        input.click();
-      };
-      
-      editorToolbar.appendChild(uploadBtn);
-      console.log('MD Upload button added to toolbar');
+function addMDUploadButton() {
+  // Try multiple possible toolbar locations
+  const toolbarSelectors = [
+    '.nc-entryEditor-controlPane',
+    '[class*="ControlPane"]',
+    '[class*="EditorControl"]',
+    'header button[type="button"]'
+  ];
+  
+  let toolbar = null;
+  for (const selector of toolbarSelectors) {
+    const elements = document.querySelectorAll(selector);
+    if (elements.length > 0) {
+      toolbar = elements[0].parentElement || elements[0];
+      break;
     }
-  }, 2000);
+  }
+  
+  if (toolbar && !document.getElementById('md-upload-btn')) {
+    const uploadBtn = document.createElement('button');
+    uploadBtn.id = 'md-upload-btn';
+    uploadBtn.textContent = '📄 Upload MD File';
+    uploadBtn.style.cssText = `
+      margin-left: 10px;
+      padding: 8px 16px;
+      background-color: #2C2416;
+      color: #FAF6F0;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 14px;
+      font-weight: 500;
+    `;
+    
+    uploadBtn.onclick = function() {
+      const input = document.createElement('input');
+      input.type = 'file';
+      input.accept = '.md,.markdown';
+      input.onchange = handleMDUpload;
+      input.click();
+    };
+    
+    toolbar.appendChild(uploadBtn);
+    console.log('MD Upload button added to toolbar');
+    return true;
+  }
+  return false;
+}
+
+// Try adding button with retries
+let retryCount = 0;
+const maxRetries = 10;
+const retryInterval = setInterval(() => {
+  if (addMDUploadButton() || retryCount >= maxRetries) {
+    clearInterval(retryInterval);
+    if (retryCount >= maxRetries) {
+      console.warn('Failed to add MD Upload button after', maxRetries, 'attempts');
+    }
+  }
+  retryCount++;
+}, 1000);
+
+// Also observe DOM changes
+const observer = new MutationObserver(() => {
+  if (!document.getElementById('md-upload-btn')) {
+    addMDUploadButton();
+  }
+});
+
+window.addEventListener('load', () => {
+  observer.observe(document.body, {
+    childList: true,
+    subtree: true
+  });
 });
 
 function handleMDUpload(event) {
