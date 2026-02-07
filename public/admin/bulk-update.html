@@ -263,6 +263,19 @@
       color: #0C5460;
       display: none;
     }
+    
+    /* Smart Image Layout */
+    .image-grid-2up {
+      display: flex;
+      gap: 0.5rem;
+      margin: 1.5rem 0;
+    }
+    
+    .image-grid-2up img {
+      max-width: 48%;
+      height: auto;
+      object-fit: cover;
+    }
   </style>
 </head>
 <body>
@@ -615,26 +628,140 @@
         const existingImages = [];
         let match;
         while ((match = imageRegex.exec(oldContent)) !== null) {
-          existingImages.push(match[0]); // Full markdown syntax
+          existingImages.push({
+            markdown: match[0],
+            alt: match[1],
+            url: match[2]
+          });
           log(`Found existing image: ${match[2]}`, 'info');
         }
         
-        // Merge: prepend existing images to new content body
-        let mergedContent = content;
-        if (existingImages.length > 0) {
-          // Split content into frontmatter and body
-          const frontmatterMatch = mergedContent.match(/^---\n([\s\S]*?)\n---\n([\s\S]*)$/);
-          if (frontmatterMatch) {
-            const frontmatter = frontmatterMatch[1];
-            const body = frontmatterMatch[2];
-            
-            // Prepend images to body
-            const imagesSection = existingImages.join('\n') + '\n\n';
-            mergedContent = `---\n${frontmatter}\n---\n${imagesSection}${body}`;
-            
-            log(`Preserved ${existingImages.length} existing images`, 'success');
-          }
+        // Helper: Detect image aspect ratio
+        async function detectImageRatio(url) {
+          return new Promise((resolve) => {
+            const img = new Image();
+            img.onload = () => {
+              const ratio = img.naturalWidth / img.naturalHeight;
+              const isVertical = ratio < 0.8;
+              log(`Image ratio detected: ${ratio.toFixed(2)} (${isVertical ? 'vertical' : 'horizontal'})`, 'info');
+              resolve({ ratio, isVertical, width: img.naturalWidth, height: img.naturalHeight });
+            };
+            img.onerror = () => {
+              log(`Failed to load image: ${url}`, 'warning');
+              resolve({ ratio: 1, isVertical: false, width: 0, height: 0 });
+            };
+            img.src = url;
+          });
         }
+        
+        // Helper: Apply smart layout based on image ratios
+        async function applySmartLayout(images) {
+          const imageData = [];
+          
+          // Detect ratios for all images
+          for (const img of images) {
+            const ratio = await detectImageRatio(img.url);
+            imageData.push({ ...img, ...ratio });
+          }
+          
+          // Apply layout logic
+          const layoutedImages = [];
+          let i = 0;
+          
+          while (i < imageData.length) {
+            const current = imageData[i];
+            const next = imageData[i + 1];
+            
+            if (current.isVertical && next && next.isVertical) {
+              // Two consecutive vertical images: pair them
+              const pairedHtml = `<div class="image-grid-2up">\n\n${current.markdown}\n\n${next.markdown}\n\n</div>`;
+              layoutedImages.push(pairedHtml);
+              log(`Paired vertical images ${i + 1} and ${i + 2}`, 'success');
+              i += 2;
+            } else {
+              // Single image (horizontal or unpaired vertical)
+              layoutedImages.push(current.markdown);
+              i += 1;
+            }
+          }
+          
+          return layoutedImages;
+        }
+        
+        // Smart Image Injector
+        let mergedContent = content;
+        const frontmatterMatch = mergedContent.match(/^---\n([\s\S]*?)\n---\n([\s\S]*)$/);
+        if (!frontmatterMatch) {
+          log('Invalid markdown format: frontmatter not found', 'error');
+          return { success: false, reason: 'Invalid markdown format' };
+        }
+        
+        const frontmatter = frontmatterMatch[1];
+        let body = frontmatterMatch[2];
+        
+        // Replace {{IMAGE_N}} tags with existing images
+        const imageTags = body.match(/\{\{IMAGE_(\d+)\}\}/g) || [];
+        log(`Found ${imageTags.length} image tags in new content`, 'info');
+        
+        if (existingImages.length > 0) {
+          log('Applying smart layout to images...', 'info');
+          
+          // Apply smart layout to all images
+          const layoutedImages = await applySmartLayout(existingImages);
+          
+          // Replace {{IMAGE_N}} with layouted images
+          for (let i = 0; i < imageTags.length; i++) {
+            const tag = imageTags[i];
+            const imageNum = parseInt(tag.match(/\d+/)[0]);
+            const imageIndex = imageNum - 1;
+            
+            if (imageIndex < layoutedImages.length) {
+              const layoutedImage = layoutedImages[imageIndex];
+              body = body.replace(tag, `\n\n${layoutedImage}\n\n`);
+              log(`Replaced ${tag} with layouted image`, 'success');
+            } else {
+              // Image not found, replace with placeholder comment
+              body = body.replace(tag, `\n\n<!-- IMAGE_${imageNum}: Placeholder for future image -->\n\n`);
+              log(`${tag} not found, inserted placeholder comment`, 'info');
+            }
+          }
+          
+          // Distribute remaining untagged images
+          const usedImages = imageTags.length;
+          const remainingImages = layoutedImages.slice(usedImages);
+          
+          if (remainingImages.length > 0) {
+            log(`Distributing ${remainingImages.length} untagged images...`, 'info');
+            
+            // Split body into paragraphs
+            const paragraphs = body.split('\n\n');
+            const insertInterval = Math.max(2, Math.floor(paragraphs.length / (remainingImages.length + 1)));
+            
+            remainingImages.forEach((image, index) => {
+              const insertPos = (index + 1) * insertInterval;
+              if (insertPos < paragraphs.length) {
+                paragraphs.splice(insertPos, 0, image);
+                log(`Distributed image ${usedImages + index + 1} at paragraph ${insertPos}`, 'info');
+              } else {
+                paragraphs.push(image);
+                log(`Appended image ${usedImages + index + 1} at end`, 'info');
+              }
+            });
+            
+            body = paragraphs.join('\n\n');
+          }
+          
+          log(`Preserved ${existingImages.length} existing images with smart layout`, 'success');
+        } else if (imageTags.length > 0) {
+          // New post with image tags but no existing images
+          log('New post detected: replacing image tags with placeholders', 'info');
+          imageTags.forEach(tag => {
+            const imageNum = tag.match(/\d+/)[0];
+            body = body.replace(tag, `\n\n<!-- IMAGE_${imageNum}: Placeholder for future image -->\n\n`);
+          });
+        }
+        
+        mergedContent = `---\n${frontmatter}\n---\n${body}`;
         
         // Update file
         log(`Updating file with SHA: ${sha.substring(0, 7)}...`, 'info');
