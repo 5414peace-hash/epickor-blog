@@ -22,13 +22,13 @@ In an industry that for decades prioritized the symmetrical, 'double-eyelid' sta
 
 
 
-![Epickor_건순 (1).mp4_20240713_221722.890.jpg](/assets/images/epickor-placeholder.png)
+![Epickor_건순 (1).mp4_20240713_221722.890.jpg](/assets/images/posts/025/0627ac1d-1573-4d0d-b89c-3c22508e18c8.jpg)
 
 
 
 
 
-![025_Epickor_건순 (1).mp4_20240713_221729.779.jpg](/assets/images/epickor-placeholder.png)
+![025_Epickor_건순 (1).mp4_20240713_221729.779.jpg](/assets/images/posts/025/f065e982-6cf7-410a-a5a4-13aef362200d.jpg)
 
 
 
@@ -42,13 +42,13 @@ Kim Go-eun’s childhood in China provided her with a unique sociological vantag
 
 
 
-![025_Epickor_건순 (1).mp4_20240713_221745.998.jpg](/assets/images/epickor-placeholder.png)
+![025_Epickor_건순 (1).mp4_20240713_221745.998.jpg](/assets/images/posts/025/4be7aeab-9d7a-4880-aaaa-9148b7e12ee0.jpg)
 
 
 
 
 
-![025_Epickor_건순 (1).mp4_20240713_221753.758.jpg](/assets/images/epickor-placeholder.png)
+![025_Epickor_건순 (1).mp4_20240713_221753.758.jpg](/assets/images/posts/025/5fd21434-07cc-4785-9ee1-4d4d3c3653d7.jpg)
 
 
 
