@@ -48,7 +48,7 @@ Beyond the cafes, Yongsan holds the nation's collective memory.
 
 
 
-![요순.mp4_20240722_221948.551.jpg](/assets/images/epickor-placeholder.png)
+![요순.mp4_20240722_221948.551.jpg](/assets/images/posts/047/9c5627ab-cc6b-4735-9239-7d3b9fd0363d.jpg)
 
 
 
