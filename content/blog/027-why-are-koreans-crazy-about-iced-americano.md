@@ -22,13 +22,13 @@ In South Korea, there is a legendary four-character phrase: **Eol-A-Juk-Ah (얼�
 
 
 
-![epickor_민호 (1).mp4_20240714_153621.937.jpg](/assets/images/epickor-placeholder.png)
+![epickor_민호 (1).mp4_20240714_153621.937.jpg](/assets/images/posts/027/027_epickor_%EB%AF%BC%ED%98%B8_(1).mp4_20240714_153621.937.jpg)
 
 
 
 
 
-![027_epickor_민호 (1).mp4_20240714_153626.826.jpg](/assets/images/epickor-placeholder.png)
+![027_epickor_민호 (1).mp4_20240714_153626.826.jpg](/assets/images/posts/027/fd25a8ab-69b3-40b1-9aae-c6c6ee6fb81a.jpg)
 
 
 
@@ -40,13 +40,13 @@ Why the Americano? And why iced?
 
 
 
-![027_epickor_민호 (1).mp4_20240714_153640.538.jpg](/assets/images/epickor-placeholder.png)
+![027_epickor_민호 (1).mp4_20240714_153640.538.jpg](/assets/images/posts/027/cef4122a-fe80-4ab6-aec5-fe2d86f8add7.jpg)
 
 
 
 
 
-![027_epickor_민호 (1).mp4_20240714_153650.507.jpg](/assets/images/epickor-placeholder.png)
+![027_epickor_민호 (1).mp4_20240714_153650.507.jpg](/assets/images/posts/027/dc65086e-b547-47c1-96ec-4bdf0a454d2b.jpg)
 
 
 
