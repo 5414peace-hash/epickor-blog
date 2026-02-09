@@ -24,19 +24,19 @@ If Seoul is the heart of global beauty, **Olive Young** is its cathedral. To the
 
 
 
-![028_epickor_휘수 (1).mp4_20240714_153814.289.jpg](/assets/images/epickor-placeholder.png)
+![028_epickor_휘수 (1).mp4_20240714_153814.289.jpg](/assets/images/posts/028/5054534c-ab73-41c8-accd-c38659189503.jpg)
 
-![028_epickor_휘수 (1).mp4_20240714_153759.242.jpg](/assets/images/epickor-placeholder.png)
-
-
+![028_epickor_휘수 (1).mp4_20240714_153759.242.jpg](/assets/images/posts/028/b0e1e09a-3cc6-4fec-97f6-535752338b38.jpg)
 
 
 
-![epickor_휘수 (1).mp4_20240714_153743.394.jpg](/assets/images/epickor-placeholder.png)
+
+
+![epickor_휘수 (1).mp4_20240714_153743.394.jpg](/assets/images/posts/028/3c9cde09-e555-41a5-9e0f-d9b12593b61b.jpg)
 
 
 
-![028_epickor_휘수 (1).mp4_20240714_153804.554.jpg](/assets/images/epickor-placeholder.png)
+![028_epickor_휘수 (1).mp4_20240714_153804.554.jpg](/assets/images/posts/028/0fd26c13-c4a1-4e03-8692-dbab75b1d4d7.jpg)
 
 What makes Olive Young unbeatable is its **Ranking System**.
 * **Data-Driven Shelving:** Products are placed according to real-time sales data. If a sheet mask is on the 'Best Seller' shelf, it has been vetted by millions of demanding Korean consumers.
@@ -46,7 +46,7 @@ What makes Olive Young unbeatable is its **Ranking System**.
 
 
 
-![028_epickor_휘수 (1).mp4_20240714_153808.178.jpg](/assets/images/epickor-placeholder.png)
+![028_epickor_휘수 (1).mp4_20240714_153808.178.jpg](/assets/images/posts/028/79ccf277-4304-4773-8c94-ccfdc540db1c.jpg)
 
 ![epickor_휘수 (1).mp4_20240714_153817.465.jpg](/assets/images/posts/028/1f69e72e-b204-4aff-9fd8-87223e732890.png)
 
@@ -54,7 +54,7 @@ What makes Olive Young unbeatable is its **Ranking System**.
 
 
 
-![028_epickor_휘수 (1).mp4_20240714_153741.497.jpg](/assets/images/epickor-placeholder.png)
+![028_epickor_휘수 (1).mp4_20240714_153741.497.jpg](/assets/images/posts/028/35fce615-3cb0-4ee7-a39f-9aa38fc96a0d.jpg)
 
 
 
