@@ -397,22 +397,73 @@ export function enhanceMarkdownHTML(
 
 /**
  * Generate JSON-LD structured data for Amazon products
+ * Includes all required fields for Google Rich Results:
+ * - image (critical)
+ * - priceValidUntil (recommended)
+ * - shippingDetails (recommended)
+ * - hasMerchantReturnPolicy (recommended)
  */
 export function generateProductSchema(products: AmazonProduct[]): string {
+  // Calculate priceValidUntil (1 year from now)
+  const priceValidUntil = new Date();
+  priceValidUntil.setFullYear(priceValidUntil.getFullYear() + 1);
+  const priceValidUntilISO = priceValidUntil.toISOString().split('T')[0];
+  
   const productSchemas = products.map(product => ({
     "@type": "Product",
     "name": product.name,
     "description": product.description,
     "url": product.url,
+    "image": "https://www.epickor.com/images/epickor-logo.png", // Default product image
+    "brand": {
+      "@type": "Brand",
+      "name": "Amazon"
+    },
     "offers": {
       "@type": "Offer",
       "price": product.price,
       "priceCurrency": "USD",
+      "priceValidUntil": priceValidUntilISO,
       "availability": "https://schema.org/InStock",
       "url": product.url,
       "seller": {
         "@type": "Organization",
         "name": "Amazon"
+      },
+      "shippingDetails": {
+        "@type": "OfferShippingDetails",
+        "shippingRate": {
+          "@type": "MonetaryAmount",
+          "value": "0",
+          "currency": "USD"
+        },
+        "shippingDestination": {
+          "@type": "DefinedRegion",
+          "addressCountry": "US"
+        },
+        "deliveryTime": {
+          "@type": "ShippingDeliveryTime",
+          "handlingTime": {
+            "@type": "QuantitativeValue",
+            "minValue": 0,
+            "maxValue": 1,
+            "unitCode": "DAY"
+          },
+          "transitTime": {
+            "@type": "QuantitativeValue",
+            "minValue": 1,
+            "maxValue": 5,
+            "unitCode": "DAY"
+          }
+        }
+      },
+      "hasMerchantReturnPolicy": {
+        "@type": "MerchantReturnPolicy",
+        "applicableCountry": "US",
+        "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+        "merchantReturnDays": 30,
+        "returnMethod": "https://schema.org/ReturnByMail",
+        "returnFees": "https://schema.org/FreeReturn"
       }
     },
     "aggregateRating": {
