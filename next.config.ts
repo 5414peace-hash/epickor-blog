@@ -1,10 +1,12 @@
 import type { NextConfig } from "next";
 import urlMappings from "./url_mappings.json";
 
+type UrlMapping = { source: string; destination: string; };
+
 const nextConfig: NextConfig = {
   async redirects() {
     // URL 매핑 파일에서 리다이렉트 생성
-    return urlMappings.map((mapping: any) => ({
+    return (urlMappings as UrlMapping[]).map((mapping) => ({
       source: mapping.source,
       destination: mapping.destination,
       permanent: true, // 301 리다이렉트

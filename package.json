@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "audit:seo-aeo": "node scripts/seo-aeo-audit.mjs"
   },
   "dependencies": {
     "date-fns": "^4.1.0",
