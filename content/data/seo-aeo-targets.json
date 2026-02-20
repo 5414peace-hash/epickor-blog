@@ -1,0 +1,10 @@
+{
+  "titleMin": 45,
+  "titleMax": 65,
+  "descriptionMin": 110,
+  "descriptionMax": 160,
+  "minWords": 700,
+  "minTags": 3,
+  "minH2": 3,
+  "staleDays": 180
+}

@@ -406,3 +406,75 @@ body {
     grid-template-columns: 1fr;
   }
 }
+
+/* ========================================
+   Epickor Scalable Commerce Table Standard
+   ======================================== */
+.blog-content .ek-comparison-shell {
+  margin: 2.5rem 0 !important;
+  border: 1px solid #e5e7eb;
+  border-radius: 0.875rem;
+  overflow: hidden;
+  background: #ffffff;
+}
+
+.blog-content .ek-comparison-scroll {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.blog-content .ek-comparison-table {
+  width: 100%;
+  min-width: 760px;
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+
+.blog-content .ek-comparison-table th,
+.blog-content .ek-comparison-table td {
+  padding: 0.875rem;
+  border-bottom: 1px solid #f1f5f9;
+  vertical-align: top;
+  overflow-wrap: anywhere;
+  word-break: break-word;
+  white-space: normal;
+  font-size: 0.95rem;
+}
+
+.blog-content .ek-comparison-table th {
+  background: #f8fafc;
+  font-weight: 700;
+  color: #0f172a;
+}
+
+.blog-content .ek-card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1rem;
+  margin: 1.5rem 0 2rem !important;
+}
+
+.blog-content .ek-mini-card {
+  border: 1px solid #e5e7eb;
+  border-radius: 0.75rem;
+  padding: 1rem;
+  background: #fff;
+}
+
+.blog-content .ek-mini-card h4 {
+  margin: 0 0 0.5rem 0 !important;
+  font-size: 1rem !important;
+  line-height: 1.4 !important;
+}
+
+.blog-content .ek-mini-card p {
+  margin: 0 !important;
+  font-size: 0.875rem !important;
+  line-height: 1.5 !important;
+}
+
+@media (max-width: 768px) {
+  .blog-content .ek-comparison-table {
+    min-width: 620px;
+  }
+}
