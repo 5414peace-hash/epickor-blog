@@ -8,6 +8,14 @@
  * - AUTO-INJECTION: Amazon cards inserted at runtime (middle + bottom)
  */
 
+
+interface InternalPostReference {
+  slug: string;
+  title: string;
+  description?: string;
+  ogImage?: string;
+}
+
 export interface AmazonProduct {
   name: string;
   url: string;
@@ -328,13 +336,13 @@ export function convertYouTubeLinksToEmbeds(html: string): string {
 /**
  * Convert internal blog links to rich cards
  */
-export function convertInternalLinksToCards(html: string, allPosts: any[]): string {
+export function convertInternalLinksToCards(html: string, allPosts: InternalPostReference[]): string {
   // Match epickor.com/blog/XXX links
   const internalLinkPattern = /<a[^>]*href="https?:\/\/(?:www\.)?epickor\.com\/blog\/([^"]+)"[^>]*>([^<]+)<\/a>/g;
   
-  return html.replace(internalLinkPattern, (match, slug, linkText) => {
+  return html.replace(internalLinkPattern, (match, slug) => {
     // Find the post by slug
-    const post = allPosts.find(p => p.slug === slug);
+    const post = allPosts.find((p) => p.slug === slug);
     
     if (!post) {
       return match; // Keep original link if post not found
@@ -360,7 +368,7 @@ export function convertInternalLinksToCards(html: string, allPosts: any[]): stri
  */
 export function enhanceMarkdownHTML(
   html: string, 
-  allPosts: any[] = [],
+  allPosts: InternalPostReference[] = [],
   postTags: string[] = []
 ): string {
   let enhanced = html;

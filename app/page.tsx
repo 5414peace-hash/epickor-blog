@@ -49,7 +49,7 @@ export default function Home() {
         <div className="container mx-auto px-4 text-center">
           <h2 className="mb-4 text-3xl font-bold">Planning a visit to Korea?</h2>
           <p className="mb-8 text-lg opacity-90">
-            Make sure to follow EpicKor! We provide exclusive tips and advanced info you won't get from anyone else.
+            Make sure to follow EpicKor! We provide exclusive tips and advanced info you won&apos;t get from anyone else.
           </p>
           <button className="rounded-full bg-white px-8 py-3 font-semibold text-gray-900 transition-all hover:bg-gray-100">
             Follow Us
