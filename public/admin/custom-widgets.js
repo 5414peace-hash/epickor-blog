@@ -1,6 +1,5 @@
-// Version: 4.0.0 - Native Sidebar Integration
+﻿// Version: 5.0.0 - Stable MD Import + Clipboard Images
 // EpicKor Blog Admin - Custom Widgets
-// Features: Image Grid Auto-formatting, Amazon Links Auto-injection, MD Upload, Bulk Manager, Amazon Parser
 
 // ============================================
 // 1. IMAGE GRID AUTO-FORMATTING (preSave)
@@ -11,14 +10,14 @@ CMS.registerEventListener({
   handler: ({ entry }) => {
     const data = entry.get('data');
     let body = data.get('body');
-    
+
     if (!body || typeof body !== 'string') {
       return entry;
     }
 
-    // Remove empty lines between images
+    // Remove empty lines between two adjacent markdown images.
     body = body.replace(/(\!\[.*?\]\(.*?\))\s*\n\s*\n\s*(\!\[.*?\]\(.*?\))/g, '$1\n$2');
-    
+
     return entry.get('data').set('body', body);
   }
 });
@@ -33,50 +32,44 @@ CMS.registerEventListener({
     const data = entry.get('data');
     const tags = data.get('tags');
     let body = data.get('body');
-    
+
     if (!tags || !body || typeof body !== 'string') {
       return entry;
     }
 
-    // Check if tags include Shopping, Food, Fashion, or Beauty
     const relevantTags = ['Shopping', 'Food', 'Fashion', 'Beauty'];
-    const hasRelevantTag = tags.some(tag => relevantTags.includes(tag));
-    
+    const hasRelevantTag = tags.some((tag) => relevantTags.includes(tag));
+
     if (!hasRelevantTag) {
       return entry;
     }
 
-    // Check if Amazon links section already exists
-    if (body.includes('## 🛒 Related Amazon Products')) {
+    if (body.includes('## Related Amazon Products')) {
       return entry;
     }
 
-    // Fetch Amazon links from JSON
     try {
       const response = await fetch('/content/data/amazon-links.json');
       const amazonLinks = await response.json();
-      
-      // Filter links by category
-      const matchingLinks = amazonLinks.filter(link => 
-        tags.includes(link.category)
-      ).slice(0, 3); // Limit to 3 links
-      
+
+      const matchingLinks = amazonLinks
+        .filter((link) => tags.includes(link.category))
+        .slice(0, 3);
+
       if (matchingLinks.length === 0) {
         return entry;
       }
 
-      // Generate Amazon links section
-      let amazonSection = '\n\n---\n\n## 🛒 Related Amazon Products\n\n';
-      matchingLinks.forEach(link => {
+      let amazonSection = '\n\n---\n\n## Related Amazon Products\n\n';
+      matchingLinks.forEach((link) => {
         amazonSection += `### [${link.name}](${link.url})\n`;
         amazonSection += `**${link.price}** - ${link.description}\n\n`;
         if (link.image) {
           amazonSection += `![${link.name}](${link.image})\n\n`;
         }
       });
-      
+
       body += amazonSection;
-      
       return entry.get('data').set('body', body);
     } catch (error) {
       console.error('Failed to fetch Amazon links:', error);
@@ -86,16 +79,155 @@ CMS.registerEventListener({
 });
 
 // ============================================
-// 3. MD FILE UPLOAD WIDGET
+// 3. SHARED DOM HELPERS
+// ============================================
+
+function setReactLikeValue(field, value) {
+  if (!field) return false;
+
+  const proto = Object.getPrototypeOf(field);
+  const descriptor = Object.getOwnPropertyDescriptor(proto, 'value');
+
+  if (descriptor && descriptor.set) {
+    descriptor.set.call(field, value);
+  } else {
+    field.value = value;
+  }
+
+  field.dispatchEvent(new Event('input', { bubbles: true }));
+  field.dispatchEvent(new Event('change', { bubbles: true }));
+  return true;
+}
+
+function findFieldByName(name) {
+  const selectors = [
+    `input[name="${name}"]`,
+    `textarea[name="${name}"]`,
+    `select[name="${name}"]`,
+    `input[id*="${name}"]`,
+    `textarea[id*="${name}"]`,
+    `select[id*="${name}"]`,
+    `[data-testid*="${name}"] input`,
+    `[data-testid*="${name}"] textarea`,
+    `[data-testid*="${name}"] select`
+  ];
+
+  for (const selector of selectors) {
+    const node = document.querySelector(selector);
+    if (node) return node;
+  }
+
+  return null;
+}
+
+function parseSimpleFrontmatter(frontmatterText) {
+  const result = {};
+  const lines = frontmatterText.split('\n');
+  let activeListKey = null;
+
+  const stripQuotes = (v) => (typeof v === 'string' ? v.replace(/^['"]|['"]$/g, '').trim() : '');
+
+  for (const rawLine of lines) {
+    const line = rawLine.trim();
+    if (!line) continue;
+
+    const listMatch = line.match(/^-\s*(.+)$/);
+    if (listMatch && activeListKey) {
+      if (!Array.isArray(result[activeListKey])) result[activeListKey] = [];
+      result[activeListKey].push(stripQuotes(listMatch[1]));
+      continue;
+    }
+
+    activeListKey = null;
+
+    const kvMatch = line.match(/^([A-Za-z0-9_-]+):\s*(.*)$/);
+    if (!kvMatch) continue;
+
+    const key = kvMatch[1];
+    const rawValue = kvMatch[2];
+
+    const inlineListMatch = rawValue.match(/^\[(.*)\]$/);
+    if (inlineListMatch) {
+      const listRaw = inlineListMatch[1].trim();
+      result[key] = listRaw ? listRaw.split(',').map((v) => stripQuotes(v)) : [];
+      continue;
+    }
+
+    if (rawValue === '') {
+      result[key] = [];
+      activeListKey = key;
+      continue;
+    }
+
+    result[key] = stripQuotes(rawValue);
+  }
+
+  return result;
+}
+
+function ensureMarkdownMode() {
+  const toggle = document.querySelector('input[type="checkbox"]');
+  const markdownText = Array.from(document.querySelectorAll('span,label')).find(
+    (el) => (el.textContent || '').trim() === 'Markdown'
+  );
+
+  // Best-effort toggle to markdown if Rich Text mode is active.
+  if (toggle && markdownText && toggle.checked) {
+    toggle.click();
+  }
+}
+
+function applyMdPayloadToForm(payload, attempt = 0) {
+  const maxAttempts = 12;
+  let applied = 0;
+
+  const titleField = findFieldByName('title');
+  if (titleField && payload.title) applied += setReactLikeValue(titleField, payload.title) ? 1 : 0;
+
+  const slugField = findFieldByName('slug');
+  if (slugField && payload.slug) applied += setReactLikeValue(slugField, payload.slug) ? 1 : 0;
+
+  const dateField = findFieldByName('date');
+  if (dateField && payload.date) applied += setReactLikeValue(dateField, payload.date) ? 1 : 0;
+
+  const descField = findFieldByName('description');
+  if (descField && payload.description) applied += setReactLikeValue(descField, payload.description) ? 1 : 0;
+
+  const visibilityField = findFieldByName('visibility');
+  if (visibilityField && payload.visibility) applied += setReactLikeValue(visibilityField, payload.visibility) ? 1 : 0;
+
+  const publishAtField = findFieldByName('publishAt');
+  if (publishAtField && payload.publishAt) applied += setReactLikeValue(publishAtField, payload.publishAt) ? 1 : 0;
+
+  // List widget can vary, so this is best-effort.
+  const tagsField = findFieldByName('tags');
+  if (tagsField && Array.isArray(payload.tags) && payload.tags.length > 0) {
+    applied += setReactLikeValue(tagsField, payload.tags.join(', ')) ? 1 : 0;
+  }
+
+  ensureMarkdownMode();
+
+  const bodyField = findFieldByName('body') || document.querySelector('textarea');
+  if (bodyField && payload.body) {
+    applied += setReactLikeValue(bodyField, payload.body) ? 1 : 0;
+  }
+
+  if (applied === 0 && attempt < maxAttempts) {
+    setTimeout(() => applyMdPayloadToForm(payload, attempt + 1), 250);
+  }
+
+  return applied > 0;
+}
+
+// ============================================
+// 4. MD FILE UPLOAD WIDGET
 // ============================================
 
 function injectMDUploadButton() {
-  // Check if button already exists
   if (document.getElementById('md-upload-btn')) {
     return true;
   }
 
-  // Try multiple selectors for editor toolbar
   const toolbarSelectors = [
     '[class*="ControlPane"]',
     '[class*="toolbar"]',
@@ -114,11 +246,10 @@ function injectMDUploadButton() {
     return false;
   }
 
-  // Create MD upload button
   const uploadBtn = document.createElement('button');
   uploadBtn.id = 'md-upload-btn';
   uploadBtn.type = 'button';
-  uploadBtn.textContent = '📄 Upload MD File';
+  uploadBtn.textContent = 'Upload MD File';
   uploadBtn.style.cssText = `
     margin-left: 10px;
     padding: 8px 16px;
@@ -130,90 +261,60 @@ function injectMDUploadButton() {
     font-size: 14px;
     transition: all 0.2s;
   `;
-  
+
   uploadBtn.onmouseover = () => {
     uploadBtn.style.backgroundColor = '#D4A574';
     uploadBtn.style.color = '#2C2416';
   };
-  
+
   uploadBtn.onmouseout = () => {
     uploadBtn.style.backgroundColor = '#2C2416';
     uploadBtn.style.color = '#FAF6F0';
   };
 
-  // Create hidden file input
   const fileInput = document.createElement('input');
   fileInput.type = 'file';
   fileInput.accept = '.md,.markdown';
   fileInput.style.display = 'none';
 
-  // Handle file selection
   fileInput.onchange = async (e) => {
-    const file = e.target.files[0];
+    const file = e.target.files && e.target.files[0];
     if (!file) return;
 
     try {
       const text = await file.text();
-      
-      // Parse frontmatter
       const frontmatterMatch = text.match(/^---\s*\n([\s\S]*?)\n---\s*\n([\s\S]*)$/);
-      
+
       if (!frontmatterMatch) {
-        alert('No frontmatter found in MD file');
+        alert('No frontmatter found in MD file.');
         return;
       }
 
       const frontmatter = frontmatterMatch[1];
       const body = frontmatterMatch[2].trim();
+      const parsed = parseSimpleFrontmatter(frontmatter);
+      const filenameSlug = file.name.replace(/\.(md|markdown)$/i, '');
 
-      // Extract fields from frontmatter
-      const titleMatch = frontmatter.match(/title:\s*["']?(.+?)["']?\s*$/m);
-      const dateMatch = frontmatter.match(/date:\s*["']?(.+?)["']?\s*$/m);
-      const tagsMatch = frontmatter.match(/tags:\s*\[(.+?)\]/);
-      const descMatch = frontmatter.match(/description:\s*["']?(.+?)["']?\s*$/m);
-
-      // Extract slug from filename (e.g., "162.md" -> "162")
-      const slug = file.name.replace(/\.md$/, '');
-
-      // Fill form fields
-      const setFieldValue = (selector, value) => {
-        const field = document.querySelector(selector);
-        if (field) {
-          field.value = value;
-          field.dispatchEvent(new Event('input', { bubbles: true }));
-          field.dispatchEvent(new Event('change', { bubbles: true }));
-        }
+      const payload = {
+        title: parsed.title || '',
+        slug: parsed.slug || filenameSlug,
+        date: parsed.date || '',
+        description: parsed.description || '',
+        visibility: parsed.visibility || 'private',
+        publishAt: parsed.publishAt || '',
+        tags: Array.isArray(parsed.tags) ? parsed.tags : [],
+        body
       };
 
-      if (titleMatch) setFieldValue('input[name="title"]', titleMatch[1]);
-      if (dateMatch) setFieldValue('input[name="date"]', dateMatch[1]);
-      if (descMatch) setFieldValue('textarea[name="description"]', descMatch[1]);
-      setFieldValue('input[name="slug"]', slug);
-
-      // Set tags (if field exists)
-      if (tagsMatch) {
-        const tags = tagsMatch[1].split(',').map(t => t.trim().replace(/["']/g, ''));
-        // Try to set tags field (implementation depends on Decap CMS widget)
-        const tagsField = document.querySelector('[name="tags"]');
-        if (tagsField) {
-          tagsField.value = tags.join(', ');
-          tagsField.dispatchEvent(new Event('input', { bubbles: true }));
-        }
+      const ok = applyMdPayloadToForm(payload);
+      if (!ok) {
+        alert('MD parsed, but editor fields are not ready yet. Please wait 1-2 seconds and try again.');
+      } else {
+        alert(`MD loaded. Slug: ${payload.slug}`);
       }
-
-      // Set body
-      const bodyField = document.querySelector('textarea[name="body"]');
-      if (bodyField) {
-        bodyField.value = body;
-        bodyField.dispatchEvent(new Event('input', { bubbles: true }));
-        bodyField.dispatchEvent(new Event('change', { bubbles: true }));
-      }
-
-      alert(`✅ MD file parsed successfully!\nSlug: ${slug}\nTitle: ${titleMatch ? titleMatch[1] : 'N/A'}`);
-      
     } catch (error) {
       console.error('MD parsing error:', error);
-      alert('❌ Failed to parse MD file: ' + error.message);
+      alert(`Failed to parse MD file: ${error.message}`);
     }
   };
 
@@ -222,50 +323,44 @@ function injectMDUploadButton() {
   toolbar.appendChild(fileInput);
   toolbar.appendChild(uploadBtn);
 
-  console.log('!!! MD UPLOAD BUTTON INJECTED !!!');
+  console.log('MD upload button injected');
   return true;
 }
 
-// Try to inject MD upload button with retries
 let mdButtonAttempts = 0;
 const mdButtonInterval = setInterval(() => {
   if (injectMDUploadButton()) {
     clearInterval(mdButtonInterval);
   } else if (mdButtonAttempts >= 30) {
     clearInterval(mdButtonInterval);
-    console.error('!!! MD UPLOAD BUTTON INJECTION FAILED !!!');
+    console.error('MD upload button injection failed');
   }
   mdButtonAttempts++;
 }, 1000);
 
 // ============================================
-// 4. SIDEBAR MENU INTEGRATION (NATIVE STYLE)
+// 5. SIDEBAR MENU INTEGRATION
 // ============================================
 
 function addSidebarMenuItems() {
-  // Check if already added
   if (document.getElementById('custom-bulk-manager-link')) {
     return true;
   }
 
-  // Find sidebar nav list
   const navList = document.querySelector('nav ul, aside ul, [class*="sidebar"] ul, [class*="SidebarContainer"] ul');
-  
   if (!navList) {
     return false;
   }
 
-  // Create Bulk Manager menu item
   const bulkLi = document.createElement('li');
   bulkLi.id = 'custom-bulk-manager-li';
-  
+
   const bulkLink = document.createElement('a');
   bulkLink.id = 'custom-bulk-manager-link';
   bulkLink.href = '/admin/bulk-update.html';
   bulkLink.target = '_blank';
-  bulkLink.textContent = '📦 Bulk Manager';
-  
-  // Copy styles from existing menu items
+  bulkLink.textContent = 'Bulk Manager';
+
   const existingLink = navList.querySelector('a');
   if (existingLink) {
     const computedStyle = window.getComputedStyle(existingLink);
@@ -279,60 +374,41 @@ function addSidebarMenuItems() {
       transition: all 0.2s;
     `;
   }
-  
+
   bulkLi.appendChild(bulkLink);
 
-  // Create Amazon Parser menu item
   const parserLi = document.createElement('li');
   parserLi.id = 'custom-amazon-parser-li';
-  
+
   const parserLink = document.createElement('a');
   parserLink.id = 'custom-amazon-parser-link';
   parserLink.href = '/admin/amazon-parser.html';
   parserLink.target = '_blank';
-  parserLink.textContent = '🔗 Amazon Parser';
+  parserLink.textContent = 'Amazon Parser';
   parserLink.style.cssText = bulkLink.style.cssText;
-  
+
   parserLi.appendChild(parserLink);
 
-  // Append to nav list
   navList.appendChild(bulkLi);
   navList.appendChild(parserLi);
 
-  console.log('!!! SIDEBAR MENU ITEMS ADDED !!!');
+  console.log('Sidebar custom menu injected');
   return true;
 }
 
-// Try to add sidebar menu items with retries
 let sidebarAttempts = 0;
 const sidebarInterval = setInterval(() => {
   if (addSidebarMenuItems()) {
     clearInterval(sidebarInterval);
   } else if (sidebarAttempts >= 30) {
     clearInterval(sidebarInterval);
-    console.error('!!! SIDEBAR MENU INJECTION FAILED !!!');
+    console.error('Sidebar menu injection failed');
   }
   sidebarAttempts++;
 }, 1000);
 
-// Observe DOM changes to re-inject if needed
-const observer = new MutationObserver(() => {
-  addSidebarMenuItems();
-  injectMDUploadButton();
-});
-
-if (document.body) {
-  observer.observe(document.body, {
-    childList: true,
-    subtree: true
-  });
-}
-
-console.log('!!! CUSTOM WIDGETS FULLY LOADED !!!');
-console.log('!!! Version: 4.0.0 - Native Sidebar Integration !!!');
-
 // ============================================
-// 5. CLIPBOARD IMAGE PASTE + IN-BODY RESIZE
+// 6. CLIPBOARD IMAGE PASTE + IN-BODY RESIZE
 // ============================================
 
 function getGithubTokenFromLocalStorage() {
@@ -341,7 +417,7 @@ function getGithubTokenFromLocalStorage() {
 
   try {
     const parsed = JSON.parse(raw);
-    return parsed?.backend?.token || parsed?.token || null;
+    return parsed && (parsed.backend && parsed.backend.token ? parsed.backend.token : parsed.token);
   } catch (error) {
     console.error('Failed to parse CMS auth token:', error);
     return null;
@@ -454,14 +530,14 @@ async function uploadClipboardImageToGithub(file, slug) {
 
   if (!response.ok) {
     const errorData = await response.json().catch(() => ({}));
-    throw new Error(errorData?.message || `GitHub upload failed (${response.status})`);
+    throw new Error((errorData && errorData.message) || `GitHub upload failed (${response.status})`);
   }
 
   return publicPath;
 }
 
 function injectClipboardImageTools() {
-  const bodyField = document.querySelector('textarea[name="body"]');
+  const bodyField = findFieldByName('body') || document.querySelector('textarea');
   if (!bodyField) return false;
 
   if (bodyField.dataset.clipboardImageEnabled === 'true') {
@@ -510,15 +586,15 @@ function injectClipboardImageTools() {
   bodyField.parentNode.insertBefore(toolbar, bodyField);
 
   bodyField.addEventListener('paste', async (event) => {
-    const clipboardItems = Array.from(event.clipboardData?.items || []);
+    const clipboardItems = Array.from((event.clipboardData && event.clipboardData.items) || []);
     const imageItem = clipboardItems.find((item) => item.type.startsWith('image/'));
 
     if (!imageItem) {
       return;
     }
 
-    const slugField = document.querySelector('input[name="slug"]');
-    const slug = slugField?.value?.trim();
+    const slugField = findFieldByName('slug');
+    const slug = slugField && slugField.value ? slugField.value.trim() : '';
 
     if (!slug) {
       event.preventDefault();
@@ -546,7 +622,7 @@ function injectClipboardImageTools() {
     }
   });
 
-  console.log('!!! CLIPBOARD IMAGE TOOLS INJECTED !!!');
+  console.log('Clipboard image tools injected');
   return true;
 }
 
@@ -556,19 +632,27 @@ const clipboardToolsInterval = setInterval(() => {
     clearInterval(clipboardToolsInterval);
   } else if (clipboardToolsAttempts >= 30) {
     clearInterval(clipboardToolsInterval);
-    console.error('!!! CLIPBOARD IMAGE TOOL INJECTION FAILED !!!');
+    console.error('Clipboard image tool injection failed');
   }
 
   clipboardToolsAttempts++;
 }, 1000);
 
-const clipboardObserver = new MutationObserver(() => {
+// ============================================
+// 7. DOM OBSERVER
+// ============================================
+
+const observer = new MutationObserver(() => {
+  addSidebarMenuItems();
+  injectMDUploadButton();
   injectClipboardImageTools();
 });
 
 if (document.body) {
-  clipboardObserver.observe(document.body, {
+  observer.observe(document.body, {
     childList: true,
     subtree: true
   });
 }
+
+console.log('Custom widgets loaded (v5.0.0)');
