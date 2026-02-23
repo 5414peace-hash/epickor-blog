@@ -181,19 +181,80 @@ function generateDescriptionFromBody(body) {
 }
 
 function ensureMarkdownMode() {
-  const toggle = document.querySelector('input[type="checkbox"]');
-  const markdownText = Array.from(document.querySelectorAll('span,label')).find(
-    (el) => (el.textContent || '').trim() === 'Markdown'
-  );
+  const markdownLabel = Array.from(document.querySelectorAll('span,label,button'))
+    .find((el) => (el.textContent || '').trim() === 'Markdown');
+  if (!markdownLabel) return;
 
-  // Best-effort toggle to markdown if Rich Text mode is active.
-  if (toggle && markdownText && toggle.checked) {
+  // Prefer the nearest switch/toggle in the same control group.
+  const container = markdownLabel.closest('div');
+  const toggle = container
+    ? container.querySelector('input[type="checkbox"],button[role="switch"],[role="switch"]')
+    : document.querySelector('input[type="checkbox"],button[role="switch"],[role="switch"]');
+
+  if (!toggle) return;
+
+  const ariaChecked = toggle.getAttribute('aria-checked');
+  const checked = Object.prototype.hasOwnProperty.call(toggle, 'checked') ? !!toggle.checked : null;
+
+  // In this editor, checked/true means Rich Text mode is active.
+  if (checked === true || ariaChecked === 'true') {
     toggle.click();
   }
 }
 
+function findBodyField() {
+  const direct = [
+    'textarea[name="body"]',
+    'textarea[id*="body"]',
+    '[data-testid*="body"] textarea',
+    'textarea[aria-label*="Body"]',
+    'textarea[placeholder*="Body"]'
+  ];
+
+  for (const selector of direct) {
+    const node = document.querySelector(selector);
+    if (node) return node;
+  }
+
+  // Fallback: find section by visible BODY label.
+  const bodyLabel = Array.from(document.querySelectorAll('label,span,div'))
+    .find((el) => (el.textContent || '').trim() === 'BODY');
+
+  if (bodyLabel) {
+    let scope = bodyLabel.closest('section,fieldset,form,div');
+    let depth = 0;
+    while (scope && depth < 4) {
+      const textarea = scope.querySelector('textarea');
+      if (textarea) return textarea;
+      scope = scope.parentElement;
+      depth += 1;
+    }
+  }
+
+  return null;
+}
+
+function setBodyValue(bodyText) {
+  const textarea = findBodyField();
+  if (textarea) {
+    return setReactLikeValue(textarea, bodyText);
+  }
+
+  // Rich text fallback (if markdown textarea has not mounted yet).
+  const editor = document.querySelector('[contenteditable="true"][role="textbox"], [data-slate-editor="true"]');
+  if (editor) {
+    editor.focus();
+    document.execCommand('selectAll', false, null);
+    document.execCommand('insertText', false, bodyText);
+    editor.dispatchEvent(new Event('input', { bubbles: true }));
+    return true;
+  }
+
+  return false;
+}
+
 function applyMdPayloadToForm(payload, attempt = 0) {
-  const maxAttempts = 12;
+  const maxAttempts = 20;
   let applied = 0;
 
   const titleField = findFieldByName('title');
@@ -222,16 +283,17 @@ function applyMdPayloadToForm(payload, attempt = 0) {
 
   ensureMarkdownMode();
 
-  const bodyField = findFieldByName('body');
-  if (bodyField && payload.body) {
-    applied += setReactLikeValue(bodyField, payload.body) ? 1 : 0;
+  let bodyApplied = false;
+  if (payload.body) {
+    bodyApplied = setBodyValue(payload.body);
+    applied += bodyApplied ? 1 : 0;
   }
 
-  if (applied === 0 && attempt < maxAttempts) {
+  if ((!bodyApplied || applied === 0) && attempt < maxAttempts) {
     setTimeout(() => applyMdPayloadToForm(payload, attempt + 1), 250);
   }
 
-  return applied > 0;
+  return applied > 0 && bodyApplied;
 }
 
 // ============================================
