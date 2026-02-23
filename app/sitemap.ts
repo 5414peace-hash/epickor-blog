@@ -1,6 +1,8 @@
 import { MetadataRoute } from 'next';
 import { getAllBlogPosts } from '@/lib/blog';
 
+export const revalidate = 60;
+
 export default function sitemap(): MetadataRoute.Sitemap {
   const posts = getAllBlogPosts();
   
@@ -21,3 +23,4 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...blogUrls,
   ];
 }
+

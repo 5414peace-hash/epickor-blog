@@ -6,8 +6,10 @@ import { getRelatedPosts } from '@/lib/related-posts';
 import { AMAZON_PRODUCTS, generateProductSchema } from '@/lib/markdown-enhancer';
 import { format } from 'date-fns';
 
+export const revalidate = 60;
+
 export async function generateStaticParams() {
-  const slugs = getAllBlogSlugs();
+  const slugs = getAllBlogSlugs({ includeScheduled: true });
   return slugs.map((slug) => ({ slug }));
 }
 
@@ -96,7 +98,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
 
           <div className="flex items-center gap-4 text-gray-600">
             <span className="font-medium">{post.author}</span>
-            <span>•</span>
+            <span>|</span>
             <time dateTime={post.date}>{formattedDate}</time>
           </div>
         </header>
@@ -172,10 +174,12 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
             href="/"
             className="inline-flex items-center gap-2 rounded-full bg-blue-600 px-6 py-3 font-semibold text-white transition-all hover:bg-blue-700"
           >
-            ← Back to All Stories
+            Back to All Stories
           </Link>
         </div>
       </div>
     </div>
   );
 }
+
+

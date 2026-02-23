@@ -1,4 +1,4 @@
-import fs from 'fs';
+﻿import fs from 'fs';
 import path from 'path';
 import matter from 'gray-matter';
 import { remark } from 'remark';
@@ -32,6 +32,58 @@ export interface BlogPostMetadata {
   author: string;
 }
 
+function normalizeVisibility(value: unknown): 'public' | 'private' {
+  if (typeof value !== 'string') {
+    return 'public';
+  }
+
+  return value.toLowerCase() === 'private' ? 'private' : 'public';
+}
+
+function parsePublishAt(value: unknown): Date | null {
+  if (typeof value !== 'string' || !value.trim()) {
+    return null;
+  }
+
+  const parsed = new Date(value);
+  if (Number.isNaN(parsed.getTime())) {
+    return null;
+  }
+
+  return parsed;
+}
+
+function isPostVisibleNow(data: Record<string, unknown>, now: Date = new Date()): boolean {
+  const visibility = normalizeVisibility(data.visibility);
+  if (visibility === 'private') {
+    return false;
+  }
+
+  const publishAt = parsePublishAt(data.publishAt);
+  if (publishAt && publishAt.getTime() > now.getTime()) {
+    return false;
+  }
+
+  return true;
+}
+
+function isPostEligibleForStaticParams(
+  data: Record<string, unknown>,
+  now: Date,
+  includeScheduled: boolean,
+  includePrivate: boolean
+): boolean {
+  if (!includePrivate && normalizeVisibility(data.visibility) === 'private') {
+    return false;
+  }
+
+  if (!includeScheduled) {
+    return isPostVisibleNow(data, now);
+  }
+
+  return true;
+}
+
 /**
  * 파일명에서 YAML frontmatter의 slug를 추출하는 헬퍼 함수
  */
@@ -40,22 +92,20 @@ function getSlugFromFile(fileName: string): string {
     if (!fileName || !fileName.endsWith('.md')) {
       return fileName.replace(/\.md$/, '');
     }
-    
+
     const fullPath = path.join(contentDirectory, fileName);
-    
+
     if (!fs.existsSync(fullPath)) {
       return fileName.replace(/\.md$/, '');
     }
-    
+
     const fileContents = fs.readFileSync(fullPath, 'utf8');
     const { data } = matter(fileContents);
-    
-    // YAML frontmatter에 slug 필드가 있으면 우선 사용
+
     if (data && data.slug && typeof data.slug === 'string') {
       return data.slug;
     }
-    
-    // fallback: 파일명에서 slug 추출
+
     return fileName.replace(/\.md$/, '');
   } catch (error) {
     console.error(`Error reading slug from ${fileName}:`, error);
@@ -69,26 +119,24 @@ function getSlugFromFile(fileName: string): string {
 function findFileBySlug(slug: string): string | null {
   try {
     if (!slug) return null;
-    
+
     const fileNames = fs.readdirSync(contentDirectory);
-    
+
     for (const fileName of fileNames) {
       if (!fileName || !fileName.endsWith('.md')) continue;
-      
+
       try {
         const fullPath = path.join(contentDirectory, fileName);
-        
+
         if (!fs.existsSync(fullPath)) continue;
-        
+
         const fileContents = fs.readFileSync(fullPath, 'utf8');
         const { data } = matter(fileContents);
-        
-        // YAML slug가 일치하는 경우
+
         if (data && data.slug && data.slug === slug) {
           return fileName;
         }
-        
-        // fallback: 파일명이 일치하는 경우
+
         if (fileName.replace(/\.md$/, '') === slug) {
           return fileName;
         }
@@ -97,7 +145,7 @@ function findFileBySlug(slug: string): string | null {
         continue;
       }
     }
-    
+
     return null;
   } catch (error) {
     console.error(`Error finding file for slug ${slug}:`, error);
@@ -106,9 +154,9 @@ function findFileBySlug(slug: string): string | null {
 }
 
 /**
- * 모든 블로그 포스트 메타데이터 가져오기 (날짜 내림차순)
+ * 모든 블로그 포스트 메타데이터 가져오기 (공개 가능한 글만)
  */
-export function getAllBlogPosts(): BlogPostMetadata[] {
+export function getAllBlogPosts(now: Date = new Date()): BlogPostMetadata[] {
   try {
     const fileNames = fs.readdirSync(contentDirectory);
     const allPostsData = fileNames
@@ -117,12 +165,15 @@ export function getAllBlogPosts(): BlogPostMetadata[] {
         const fullPath = path.join(contentDirectory, fileName);
         const fileContents = fs.readFileSync(fullPath, 'utf8');
         const { data, content } = matter(fileContents);
-        
-        // YAML slug 우선, fallback은 파일명
-        const slug = data.slug || fileName.replace(/\.md$/, '');
-        
-        // ogImage fallback: 본문의 첫 번째 이미지 추출
-        let ogImage = data.ogImage || '';
+
+        const frontmatter = data as Record<string, unknown>;
+        const slug = (frontmatter.slug as string) || fileName.replace(/\.md$/, '');
+
+        if (!isPostVisibleNow(frontmatter, now)) {
+          return null;
+        }
+
+        let ogImage = (frontmatter.ogImage as string) || '';
         if (!ogImage) {
           const imgMatch = content.match(/!\[.*?\]\((.+?)\)/);
           if (imgMatch && imgMatch[1]) {
@@ -132,22 +183,25 @@ export function getAllBlogPosts(): BlogPostMetadata[] {
 
         return {
           slug,
-          title: data.title || '',
-          date: data.date || '',
-          description: data.description || '',
+          title: (frontmatter.title as string) || '',
+          date: (frontmatter.date as string) || '',
+          description: (frontmatter.description as string) || '',
           ogImage,
-          tags: data.tags || [],
-          author: data.author || 'EpicKor',
+          tags: (frontmatter.tags as string[]) || [],
+          author: (frontmatter.author as string) || 'EpicKor',
         };
-      });
+      })
+      .filter((post): post is BlogPostMetadata => post !== null);
 
-    // 날짜 내림차순 정렬 (최신 블로그가 먼저)
     return allPostsData.sort((a, b) => {
-      if (a.date < b.date) {
-        return 1;
-      } else {
-        return -1;
+      const aDate = new Date(a.date).getTime();
+      const bDate = new Date(b.date).getTime();
+
+      if (Number.isNaN(aDate) || Number.isNaN(bDate)) {
+        return a.date < b.date ? 1 : -1;
       }
+
+      return bDate - aDate;
     });
   } catch (error) {
     console.error('Error reading blog posts:', error);
@@ -158,47 +212,45 @@ export function getAllBlogPosts(): BlogPostMetadata[] {
 /**
  * 특정 슬러그의 블로그 포스트 가져오기
  */
-export async function getBlogPost(slug: string): Promise<BlogPost | null> {
+export async function getBlogPost(slug: string, now: Date = new Date()): Promise<BlogPost | null> {
   try {
-    // slug로 파일 찾기 (YAML slug 또는 파일명 매칭)
     const fileName = findFileBySlug(slug);
-    
+
     if (!fileName) {
       return null;
     }
-    
+
     const fullPath = path.join(contentDirectory, fileName);
     const fileContents = fs.readFileSync(fullPath, 'utf8');
     const { data, content } = matter(fileContents);
 
-    // 마크다운을 HTML로 변환
+    const frontmatter = data as Record<string, unknown>;
+    if (!isPostVisibleNow(frontmatter, now)) {
+      return null;
+    }
+
     const processedContent = await remark()
       .use(gfm)
       .use(html, { sanitize: false })
       .process(content);
-    
+
     let contentHtml = processedContent.toString();
-    
-    // YAML slug 우선, fallback은 파일명
-    const postSlug = data.slug || fileName.replace(/\.md$/, '');
-    
-    // Apply advanced enhancements
-    const allPosts = getAllBlogPosts();
-    
-    // 1. Process images (resolve paths, center align, auto grid)
+
+    const postSlug = (frontmatter.slug as string) || fileName.replace(/\.md$/, '');
+
+    const allPosts = getAllBlogPosts(now);
+
     contentHtml = processImages(contentHtml, postSlug);
-    
-    // 2. Apply other enhancements (with auto-injected Amazon cards)
-    contentHtml = enhanceMarkdownHTML(contentHtml, allPosts, data.tags || []);
+    contentHtml = enhanceMarkdownHTML(contentHtml, allPosts, (frontmatter.tags as string[]) || []);
 
     return {
       slug: postSlug,
-      title: data.title || '',
-      date: data.date || '',
-      description: data.description || '',
-      ogImage: data.ogImage || '',
-      tags: data.tags || [],
-      author: data.author || 'EpicKor',
+      title: (frontmatter.title as string) || '',
+      date: (frontmatter.date as string) || '',
+      description: (frontmatter.description as string) || '',
+      ogImage: (frontmatter.ogImage as string) || '',
+      tags: (frontmatter.tags as string[]) || [],
+      author: (frontmatter.author as string) || 'EpicKor',
       content: contentHtml,
     };
   } catch (error) {
@@ -208,14 +260,33 @@ export async function getBlogPost(slug: string): Promise<BlogPost | null> {
 }
 
 /**
- * 모든 블로그 슬러그 가져오기 (정적 경로 생성용)
+ * 모든 블로그 슬러그 가져오기
+ * - 기본: 현재 시점에 공개 가능한 글만 반환
+ * - includeScheduled=true: 미래 예약글도 포함
+ * - includePrivate=true: 비공개글도 포함
  */
-export function getAllBlogSlugs(): string[] {
+export function getAllBlogSlugs(options: { includeScheduled?: boolean; includePrivate?: boolean } = {}): string[] {
+  const { includeScheduled = false, includePrivate = false } = options;
+
   try {
+    const now = new Date();
     const fileNames = fs.readdirSync(contentDirectory);
+
     return fileNames
       .filter((fileName) => fileName.endsWith('.md'))
-      .map((fileName) => getSlugFromFile(fileName));
+      .map((fileName) => {
+        const fullPath = path.join(contentDirectory, fileName);
+        const fileContents = fs.readFileSync(fullPath, 'utf8');
+        const { data } = matter(fileContents);
+        const frontmatter = data as Record<string, unknown>;
+
+        if (!isPostEligibleForStaticParams(frontmatter, now, includeScheduled, includePrivate)) {
+          return null;
+        }
+
+        return getSlugFromFile(fileName);
+      })
+      .filter((slug): slug is string => slug !== null);
   } catch (error) {
     console.error('Error reading blog slugs:', error);
     return [];
@@ -236,10 +307,11 @@ export function getBlogPostsByTag(tag: string): BlogPostMetadata[] {
 export function getAllTags(): string[] {
   const allPosts = getAllBlogPosts();
   const tags = new Set<string>();
-  
+
   allPosts.forEach((post) => {
     post.tags.forEach((tag) => tags.add(tag));
   });
-  
+
   return Array.from(tags).sort();
 }
+

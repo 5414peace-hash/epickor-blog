@@ -330,3 +330,245 @@ if (document.body) {
 
 console.log('!!! CUSTOM WIDGETS FULLY LOADED !!!');
 console.log('!!! Version: 4.0.0 - Native Sidebar Integration !!!');
+
+// ============================================
+// 5. CLIPBOARD IMAGE PASTE + IN-BODY RESIZE
+// ============================================
+
+function getGithubTokenFromLocalStorage() {
+  const raw = localStorage.getItem('decap-cms-user') || localStorage.getItem('netlify-cms-user');
+  if (!raw) return null;
+
+  try {
+    const parsed = JSON.parse(raw);
+    return parsed?.backend?.token || parsed?.token || null;
+  } catch (error) {
+    console.error('Failed to parse CMS auth token:', error);
+    return null;
+  }
+}
+
+function arrayBufferToBase64(buffer) {
+  const bytes = new Uint8Array(buffer);
+  const chunkSize = 0x8000;
+  let binary = '';
+
+  for (let i = 0; i < bytes.length; i += chunkSize) {
+    const chunk = bytes.subarray(i, i + chunkSize);
+    binary += String.fromCharCode.apply(null, chunk);
+  }
+
+  return btoa(binary);
+}
+
+function insertTextAtCursor(textarea, text) {
+  const start = textarea.selectionStart;
+  const end = textarea.selectionEnd;
+  const original = textarea.value;
+
+  textarea.value = original.slice(0, start) + text + original.slice(end);
+  const nextCursor = start + text.length;
+  textarea.selectionStart = nextCursor;
+  textarea.selectionEnd = nextCursor;
+
+  textarea.dispatchEvent(new Event('input', { bubbles: true }));
+  textarea.dispatchEvent(new Event('change', { bubbles: true }));
+}
+
+function mergeImageStyleWithWidth(style, widthPercent) {
+  const sanitized = (style || '')
+    .replace(/width\s*:[^;]+;?/gi, '')
+    .replace(/max-width\s*:[^;]+;?/gi, '')
+    .replace(/height\s*:[^;]+;?/gi, '')
+    .trim();
+
+  const base = `width: ${widthPercent}%; max-width: 900px; height: auto;`;
+  return sanitized ? `${sanitized}; ${base}` : base;
+}
+
+function updateNearestImageWidth(textarea, widthPercent) {
+  const text = textarea.value;
+  const cursor = textarea.selectionStart;
+
+  const tagStart = text.lastIndexOf('<img', cursor);
+  const tagEnd = tagStart >= 0 ? text.indexOf('>', tagStart) : -1;
+
+  if (tagStart < 0 || tagEnd < 0 || cursor > tagEnd + 1) {
+    alert('Place the cursor inside an <img ...> tag in the body first.');
+    return;
+  }
+
+  const oldTag = text.slice(tagStart, tagEnd + 1);
+  let newTag = oldTag;
+
+  if (/style="[^"]*"/i.test(oldTag)) {
+    newTag = oldTag.replace(/style="([^"]*)"/i, (_, styleText) => {
+      return `style="${mergeImageStyleWithWidth(styleText, widthPercent)}"`;
+    });
+  } else {
+    newTag = oldTag.replace('<img', `<img style="${mergeImageStyleWithWidth('', widthPercent)}"`);
+  }
+
+  textarea.value = text.slice(0, tagStart) + newTag + text.slice(tagEnd + 1);
+  textarea.selectionStart = tagStart;
+  textarea.selectionEnd = tagStart + newTag.length;
+  textarea.dispatchEvent(new Event('input', { bubbles: true }));
+  textarea.dispatchEvent(new Event('change', { bubbles: true }));
+}
+
+async function uploadClipboardImageToGithub(file, slug) {
+  const token = getGithubTokenFromLocalStorage();
+  if (!token) {
+    throw new Error('GitHub token not found. Please login to CMS first.');
+  }
+
+  const owner = '5414peace-hash';
+  const repo = 'epickor-blog';
+  const branch = 'master';
+
+  const detectedExt = (file.type && file.type.split('/')[1]) || 'png';
+  const ext = ['png', 'jpg', 'jpeg', 'webp', 'gif'].includes(detectedExt.toLowerCase())
+    ? detectedExt.toLowerCase()
+    : 'png';
+
+  const filename = `${slug}_${Date.now()}.${ext}`;
+  const repoPath = `public/assets/images/posts/${slug}/${filename}`;
+  const publicPath = `/assets/images/posts/${slug}/${filename}`;
+
+  const fileBuffer = await file.arrayBuffer();
+  const encoded = arrayBufferToBase64(fileBuffer);
+
+  const response = await fetch(`https://api.github.com/repos/${owner}/${repo}/contents/${repoPath}`, {
+    method: 'PUT',
+    headers: {
+      'Authorization': `token ${token}`,
+      'Accept': 'application/vnd.github.v3+json',
+      'Content-Type': 'application/json'
+    },
+    body: JSON.stringify({
+      message: `Add pasted image for post ${slug}`,
+      content: encoded,
+      branch
+    })
+  });
+
+  if (!response.ok) {
+    const errorData = await response.json().catch(() => ({}));
+    throw new Error(errorData?.message || `GitHub upload failed (${response.status})`);
+  }
+
+  return publicPath;
+}
+
+function injectClipboardImageTools() {
+  const bodyField = document.querySelector('textarea[name="body"]');
+  if (!bodyField) return false;
+
+  if (bodyField.dataset.clipboardImageEnabled === 'true') {
+    return true;
+  }
+
+  bodyField.dataset.clipboardImageEnabled = 'true';
+
+  const toolbar = document.createElement('div');
+  toolbar.id = 'image-resize-toolbar';
+  toolbar.style.cssText = `
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin: 8px 0 12px;
+    flex-wrap: wrap;
+  `;
+
+  const label = document.createElement('span');
+  label.textContent = 'Image size:';
+  label.style.cssText = 'font-size: 12px; color: #4b5563; font-weight: 600;';
+  toolbar.appendChild(label);
+
+  [50, 70, 100].forEach((size) => {
+    const btn = document.createElement('button');
+    btn.type = 'button';
+    btn.textContent = `${size}%`;
+    btn.style.cssText = `
+      padding: 4px 10px;
+      border: 1px solid #d1d5db;
+      border-radius: 6px;
+      background: white;
+      cursor: pointer;
+      font-size: 12px;
+    `;
+
+    btn.addEventListener('click', () => updateNearestImageWidth(bodyField, size));
+    toolbar.appendChild(btn);
+  });
+
+  const helper = document.createElement('span');
+  helper.textContent = 'Paste image from web: auto-upload + insert at 70% width';
+  helper.style.cssText = 'font-size: 12px; color: #6b7280;';
+  toolbar.appendChild(helper);
+
+  bodyField.parentNode.insertBefore(toolbar, bodyField);
+
+  bodyField.addEventListener('paste', async (event) => {
+    const clipboardItems = Array.from(event.clipboardData?.items || []);
+    const imageItem = clipboardItems.find((item) => item.type.startsWith('image/'));
+
+    if (!imageItem) {
+      return;
+    }
+
+    const slugField = document.querySelector('input[name="slug"]');
+    const slug = slugField?.value?.trim();
+
+    if (!slug) {
+      event.preventDefault();
+      alert('Please set Slug first, then paste images.');
+      return;
+    }
+
+    const file = imageItem.getAsFile();
+    if (!file) {
+      event.preventDefault();
+      alert('Clipboard image data is empty.');
+      return;
+    }
+
+    event.preventDefault();
+
+    try {
+      const uploadedPath = await uploadClipboardImageToGithub(file, slug);
+      const imgTag = `\n\n<img src="${uploadedPath}" alt="${slug} image" style="width: 70%; max-width: 900px; height: auto;" />\n\n`;
+      insertTextAtCursor(bodyField, imgTag);
+      console.log('Clipboard image uploaded:', uploadedPath);
+    } catch (error) {
+      console.error('Clipboard image upload failed:', error);
+      alert(`Image upload failed: ${error.message}`);
+    }
+  });
+
+  console.log('!!! CLIPBOARD IMAGE TOOLS INJECTED !!!');
+  return true;
+}
+
+let clipboardToolsAttempts = 0;
+const clipboardToolsInterval = setInterval(() => {
+  if (injectClipboardImageTools()) {
+    clearInterval(clipboardToolsInterval);
+  } else if (clipboardToolsAttempts >= 30) {
+    clearInterval(clipboardToolsInterval);
+    console.error('!!! CLIPBOARD IMAGE TOOL INJECTION FAILED !!!');
+  }
+
+  clipboardToolsAttempts++;
+}, 1000);
+
+const clipboardObserver = new MutationObserver(() => {
+  injectClipboardImageTools();
+});
+
+if (document.body) {
+  clipboardObserver.observe(document.body, {
+    childList: true,
+    subtree: true
+  });
+}
