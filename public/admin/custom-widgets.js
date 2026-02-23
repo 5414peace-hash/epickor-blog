@@ -165,6 +165,21 @@ function parseSimpleFrontmatter(frontmatterText) {
   return result;
 }
 
+function generateDescriptionFromBody(body) {
+  if (!body || typeof body !== 'string') return '';
+
+  const plain = body
+    .replace(/```[\s\S]*?```/g, ' ')
+    .replace(/!\[[^\]]*\]\([^)]+\)/g, ' ')
+    .replace(/\{\{IMAGE_\d+\}\}/g, ' ')
+    .replace(/[#>*`_~[\]\(\)-]/g, ' ')
+    .replace(/\s+/g, ' ')
+    .trim();
+
+  if (!plain) return '';
+  return plain.slice(0, 220);
+}
+
 function ensureMarkdownMode() {
   const toggle = document.querySelector('input[type="checkbox"]');
   const markdownText = Array.from(document.querySelectorAll('span,label')).find(
@@ -207,7 +222,7 @@ function applyMdPayloadToForm(payload, attempt = 0) {
 
   ensureMarkdownMode();
 
-  const bodyField = findFieldByName('body') || document.querySelector('textarea');
+  const bodyField = findFieldByName('body');
   if (bodyField && payload.body) {
     applied += setReactLikeValue(bodyField, payload.body) ? 1 : 0;
   }
@@ -299,7 +314,7 @@ function injectMDUploadButton() {
         title: parsed.title || '',
         slug: parsed.slug || filenameSlug,
         date: parsed.date || '',
-        description: parsed.description || '',
+        description: parsed.description || generateDescriptionFromBody(body),
         visibility: parsed.visibility || 'private',
         publishAt: parsed.publishAt || '',
         tags: Array.isArray(parsed.tags) ? parsed.tags : [],
@@ -537,7 +552,7 @@ async function uploadClipboardImageToGithub(file, slug) {
 }
 
 function injectClipboardImageTools() {
-  const bodyField = findFieldByName('body') || document.querySelector('textarea');
+  const bodyField = findFieldByName('body');
   if (!bodyField) return false;
 
   if (bodyField.dataset.clipboardImageEnabled === 'true') {
