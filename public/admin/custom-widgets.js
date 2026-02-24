@@ -285,6 +285,7 @@ function applyMdPayloadToForm(payload, attempt = 0) {
 
   let bodyApplied = false;
   if (payload.body) {
+    window.__EPICKOR_LAST_MD_BODY = payload.body;
     bodyApplied = setBodyValue(payload.body);
     applied += bodyApplied ? 1 : 0;
   }
@@ -382,6 +383,8 @@ function injectMDUploadButton() {
         tags: Array.isArray(parsed.tags) ? parsed.tags : [],
         body
       };
+
+      window.__EPICKOR_LAST_MD_BODY = body;
 
       const ok = applyMdPayloadToForm(payload);
       if (!ok) {
