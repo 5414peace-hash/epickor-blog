@@ -78,15 +78,15 @@
             const entry = this.props && this.props.entry ? this.props.entry : null;
             const data = entry && entry.get ? entry.get('data') : null;
             const title = data && data.get ? data.get('title') : '';
-            const bodyNode = this.props && this.props.widgetFor ? this.props.widgetFor('body') : null;
             const rawBody = entry && entry.getIn ? (entry.getIn(['data', 'body']) || '') : '';
+            const bodyLen = rawBody ? rawBody.length : 0;
 
             return hFn(
               'article',
               { className: 'epickor-admin-preview' },
-              hFn('div', { style: { fontSize: '11px', opacity: 0.65, marginBottom: '8px' } }, 'Preview template active (v20260224d)'),
+              hFn('div', { style: { fontSize: '11px', opacity: 0.65, marginBottom: '8px' } }, `Preview template active (v20260224f, body=${bodyLen})`),
               hFn('h1', null, title || 'Untitled'),
-              bodyNode || hFn('pre', { style: { whiteSpace: 'pre-wrap' } }, rawBody)
+              hFn('pre', { style: { whiteSpace: 'pre-wrap', fontSize: '14px', lineHeight: '1.6', background: 'transparent', color: '#2C2416' } }, rawBody || '(body is empty)')
             );
           }
         });
@@ -96,13 +96,10 @@
         });
       } else {
         const fallbackTemplate = function(props) {
-          if (props && typeof props.widgetFor === 'function') {
-            const bodyNode = props.widgetFor('body');
-            if (bodyNode) return bodyNode;
-          }
-          return (props && props.entry && typeof props.entry.getIn === 'function')
+          const rawBody = (props && props.entry && typeof props.entry.getIn === 'function')
             ? (props.entry.getIn(['data', 'body']) || '')
             : '';
+          return rawBody || '(body is empty)';
         };
 
         ['blog', 'Blog Posts', 'blog_posts', 'blog-posts'].forEach((key) => {
@@ -122,7 +119,7 @@
       };
 
       const customScript = document.createElement('script');
-      customScript.src = '/admin/custom-widgets.js?v=20260224e';
+      customScript.src = '/admin/custom-widgets.js?v=20260224f';
       customScript.onload = function() {
         console.log('Custom widgets loaded');
         initCmsOnce();
