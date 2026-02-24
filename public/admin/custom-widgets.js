@@ -184,6 +184,8 @@ function scoreBodyTextarea(el) {
   const rows = parseInt(el.getAttribute('rows') || '0', 10);
 
   let score = 0;
+  if (name.includes('description') || id.includes('description') || testId.includes('description')) score -= 260;
+  if (placeholder.includes('description') || aria.includes('description')) score -= 120;
   if (name === 'body') score += 320;
   if (name.includes('body')) score += 120;
   if (id.includes('body')) score += 120;
@@ -203,6 +205,13 @@ function scoreBodyTextarea(el) {
   }
 
   return score;
+}
+
+function findBodyLabelScope() {
+  const labels = Array.from(document.querySelectorAll('label,span,div'));
+  const bodyLabel = labels.find((el) => /^body\s*:?\s*$/i.test((el.textContent || '').trim()));
+  if (!bodyLabel) return null;
+  return bodyLabel.closest('section,fieldset,form,div');
 }
 
 function parseSimpleFrontmatter(frontmatterText) {
@@ -287,7 +296,7 @@ function ensureMarkdownMode() {
   }
 
   // If body textarea is not mounted but rich editor is visible, click markdown label directly.
-  if (!findBodyField()) {
+  if (!findBodyField({ strict: true })) {
     const mdControl = markdownLabel.closest('button,[role="button"],label,div') || markdownLabel;
     if (mdControl && typeof mdControl.click === 'function') {
       mdControl.click();
@@ -295,7 +304,34 @@ function ensureMarkdownMode() {
   }
 }
 
-function findBodyField() {
+function findBodyField(options = {}) {
+  const strict = !!options.strict;
+
+  const directSelectors = [
+    'textarea[name="body"]',
+    'textarea[id*="body"]',
+    '[data-testid*="body"] textarea',
+    'textarea[aria-label*="Body"]',
+    'textarea[placeholder*="Body"]'
+  ];
+
+  for (const selector of directSelectors) {
+    const node = document.querySelector(selector);
+    if (node) return node;
+  }
+
+  const scope = findBodyLabelScope();
+  if (scope) {
+    const scopedTextarea = scope.querySelector('textarea');
+    if (scopedTextarea) return scopedTextarea;
+
+    // In rich mode, body can be contenteditable.
+    const scopedEditor = scope.querySelector('[contenteditable="true"][role="textbox"], [data-slate-editor="true"]');
+    if (scopedEditor) return scopedEditor;
+  }
+
+  if (strict) return null;
+
   const textareas = Array.from(document.querySelectorAll('textarea'));
   if (textareas.length === 0) return null;
 
@@ -306,42 +342,25 @@ function findBodyField() {
       return b.len - a.len;
     });
 
-  if (ranked[0] && ranked[0].score > 0) {
+  if (ranked[0] && ranked[0].score >= 40) {
     return ranked[0].el;
-  }
-
-  // Final fallback: visible longest textarea.
-  const visible = ranked.filter((x) => isVisibleElement(x.el));
-  if (visible.length > 0) return visible[0].el;
-  if (ranked[0]) return ranked[0].el;
-
-  // Fallback: find section by visible BODY label.
-  const bodyLabel = Array.from(document.querySelectorAll('label,span,div'))
-    .find((el) => (el.textContent || '').trim() === 'BODY');
-
-  if (bodyLabel) {
-    let scope = bodyLabel.closest('section,fieldset,form,div');
-    let depth = 0;
-    while (scope && depth < 4) {
-      const textarea = scope.querySelector('textarea');
-      if (textarea) return textarea;
-      scope = scope.parentElement;
-      depth += 1;
-    }
   }
 
   return null;
 }
 
 function setBodyValue(bodyText) {
-  const textarea = findBodyField();
+  const textarea = findBodyField({ strict: true });
   if (textarea) {
     setBufferedBody(bodyText || '');
     return setReactLikeValue(textarea, bodyText);
   }
 
   // Rich text fallback (if markdown textarea has not mounted yet).
-  const editor = document.querySelector('[contenteditable="true"][role="textbox"], [data-slate-editor="true"]');
+  const scope = findBodyLabelScope();
+  const editor = scope
+    ? scope.querySelector('[contenteditable="true"][role="textbox"], [data-slate-editor="true"]')
+    : document.querySelector('[contenteditable="true"][role="textbox"], [data-slate-editor="true"]');
   if (editor) {
     editor.focus();
     document.execCommand('selectAll', false, null);
@@ -437,7 +456,7 @@ function schedulePreviewRender(delayMs = 60) {
 }
 
 function ensureBodyFieldHydrated() {
-  const bodyField = findBodyField();
+  const bodyField = findBodyField({ strict: true });
   if (!bodyField) return false;
 
   if (typeof bodyField.value === 'string' && bodyField.value.trim()) {
@@ -455,7 +474,7 @@ function ensureBodyFieldHydrated() {
 }
 
 function bindBodyFieldGuard() {
-  const bodyField = findBodyField();
+  const bodyField = findBodyField({ strict: true });
   if (!bodyField) return false;
 
   if (bodyField.dataset.epickorBodyGuardBound === 'true') {
@@ -851,7 +870,7 @@ async function uploadClipboardImageToGithub(file, slug) {
 }
 
 function injectClipboardImageTools() {
-  const bodyField = findBodyField();
+  const bodyField = findBodyField({ strict: true });
   if (!bodyField) return false;
 
   if (bodyField.dataset.clipboardImageEnabled === 'true') {
@@ -1030,7 +1049,7 @@ function renderForcedPreview() {
   const iframe = findPreviewIframe();
   if (!iframe) return false;
 
-  const bodyField = findBodyField();
+  const bodyField = findBodyField({ strict: true }) || findBodyField();
   const titleField = findFieldByName('title');
   const title = titleField && titleField.value ? titleField.value.trim() : 'Untitled';
   const bodyFromField = bodyField && typeof bodyField.value === 'string' ? bodyField.value : '';
@@ -1088,7 +1107,7 @@ function renderForcedPreview() {
 }
 
 function injectForcedPreviewSync() {
-  const bodyField = findBodyField();
+  const bodyField = findBodyField({ strict: true });
   if (!bodyField) return false;
 
   if (bodyField.dataset.forcedPreviewSyncEnabled === 'true') {
