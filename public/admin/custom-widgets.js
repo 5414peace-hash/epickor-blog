@@ -1,4 +1,4 @@
-﻿// Version: 5.0.0 - Stable MD Import + Clipboard Images
+// Version: 5.4.1 - Stable MD Import + Clipboard Images
 // EpicKor Blog Admin - Custom Widgets
 
 // ============================================
@@ -16,14 +16,14 @@ CMS.registerEventListener({
     }
 
     if (!body || typeof body !== 'string' || !body.trim()) {
-      return entry;
+      return data;
     }
 
     // Remove empty lines between two adjacent markdown images.
     body = body.replace(/(\!\[.*?\]\(.*?\))\s*\n\s*\n\s*(\!\[.*?\]\(.*?\))/g, '$1\n$2');
     setBufferedBody(body);
 
-    return entry.get('data').set('body', body);
+    return data.set('body', body);
   }
 });
 
@@ -44,7 +44,7 @@ CMS.registerEventListener({
       }
 
       if (!body || typeof body !== 'string' || !body.trim()) {
-        return entry;
+        return data;
       }
 
       let tagValues = [];
@@ -57,18 +57,18 @@ CMS.registerEventListener({
       }
 
       if (!tagValues.length) {
-        return entry;
+        return data;
       }
 
       const relevantTags = ['Shopping', 'Food', 'Fashion', 'Beauty'];
       const hasRelevantTag = tagValues.some((tag) => relevantTags.includes(tag));
 
       if (!hasRelevantTag) {
-        return entry;
+        return data;
       }
 
       if (body.includes('## Related Amazon Products')) {
-        return entry;
+        return data;
       }
 
       const controller = new AbortController();
@@ -77,7 +77,7 @@ CMS.registerEventListener({
       clearTimeout(timeoutId);
 
       if (!response.ok) {
-        return entry;
+        return data;
       }
 
       const amazonLinks = await response.json();
@@ -87,7 +87,7 @@ CMS.registerEventListener({
         .slice(0, 3);
 
       if (matchingLinks.length === 0) {
-        return entry;
+        return data;
       }
 
       let amazonSection = '\n\n---\n\n## Related Amazon Products\n\n';
@@ -100,10 +100,10 @@ CMS.registerEventListener({
       });
 
       body += amazonSection;
-      return entry.get('data').set('body', body);
+      return data.set('body', body);
     } catch (error) {
       console.error('Failed to fetch Amazon links:', error);
-      return entry;
+      return entry.get('data');
     }
   }
 });
@@ -117,15 +117,15 @@ CMS.registerEventListener({
 
     if (fallback && typeof fallback === 'string' && fallback.trim()) {
       if (!body || typeof body !== 'string' || body.trim() !== fallback.trim()) {
-        return entry.get('data').set('body', fallback);
+        return data.set('body', fallback);
       }
     }
 
     if ((!body || typeof body !== 'string' || !body.trim()) && fallback) {
-      return entry.get('data').set('body', fallback);
+      return data.set('body', fallback);
     }
 
-    return entry;
+    return data;
   }
 });
 
@@ -1014,6 +1014,76 @@ function injectClipboardImageTools() {
   return true;
 }
 
+function getBodyTextForInsert() {
+  const bodyField = findBodyField({ strict: true });
+  if (bodyField && isTextareaField(bodyField)) {
+    return bodyField.value || '';
+  }
+  return getBufferedBody();
+}
+
+function appendImageTagToBody(imgTag) {
+  const latestBodyField = findBodyField({ strict: true });
+  if (latestBodyField && isTextareaField(latestBodyField)) {
+    const inserted = insertTextAtCursor(latestBodyField, imgTag);
+    if (!inserted) return false;
+    setBufferedBody(latestBodyField.value || '');
+    schedulePreviewRender(40);
+    return true;
+  }
+
+  const nextBody = `${getBodyTextForInsert()}${imgTag}`;
+  setBufferedBody(nextBody);
+  return setBodyValue(nextBody);
+}
+
+function injectGlobalClipboardImageFallback() {
+  if (document.body && document.body.dataset.epickorGlobalPasteBound === 'true') {
+    return true;
+  }
+
+  if (!document.body) return false;
+  document.body.dataset.epickorGlobalPasteBound = 'true';
+
+  document.addEventListener('paste', async (event) => {
+    if (event.defaultPrevented) return;
+    if (!window.location.hash.includes('/collections/blog/')) return;
+    if (window.__EPICKOR_IMG_PASTE_BUSY === true) return;
+
+    const clipboardItems = Array.from((event.clipboardData && event.clipboardData.items) || []);
+    const imageItem = clipboardItems.find((item) => item.type.startsWith('image/'));
+    if (!imageItem) return;
+
+    const slugField = findFieldByName('slug');
+    const slug = slugField && slugField.value ? slugField.value.trim() : '';
+    if (!slug) return;
+
+    const file = imageItem.getAsFile();
+    if (!file) return;
+
+    event.preventDefault();
+    window.__EPICKOR_IMG_PASTE_BUSY = true;
+
+    try {
+      const uploadedPath = await uploadClipboardImageToGithub(file, slug);
+      const imgTag = `\n\n<img src="${uploadedPath}" alt="${slug} image" style="width: 70%; max-width: 900px; height: auto;" />\n\n`;
+      const ok = appendImageTagToBody(imgTag);
+      if (!ok) {
+        throw new Error('Could not append image tag to BODY.');
+      }
+      console.log('Global clipboard fallback image uploaded:', uploadedPath);
+    } catch (error) {
+      console.error('Global clipboard fallback failed:', error);
+      alert(`Image upload failed: ${error.message}`);
+    } finally {
+      window.__EPICKOR_IMG_PASTE_BUSY = false;
+    }
+  });
+
+  console.log('Global clipboard image fallback injected');
+  return true;
+}
+
 let clipboardToolsAttempts = 0;
 const clipboardToolsInterval = setInterval(() => {
   if (injectClipboardImageTools()) {
@@ -1024,6 +1094,17 @@ const clipboardToolsInterval = setInterval(() => {
   }
 
   clipboardToolsAttempts++;
+}, 1000);
+
+let globalClipboardFallbackAttempts = 0;
+const globalClipboardFallbackInterval = setInterval(() => {
+  if (injectGlobalClipboardImageFallback()) {
+    clearInterval(globalClipboardFallbackInterval);
+  } else if (globalClipboardFallbackAttempts >= 30) {
+    clearInterval(globalClipboardFallbackInterval);
+    console.error('Global clipboard fallback injection failed');
+  }
+  globalClipboardFallbackAttempts++;
 }, 1000);
 
 // ============================================
@@ -1144,7 +1225,7 @@ function renderForcedPreview() {
   </style>
 </head>
 <body>
-  <div class="preview-badge">Forced preview sync active (v20260224l)</div>
+  <div class="preview-badge">Forced preview sync active (v20260224n)</div>
   <h1>${escapeHtml(title)}</h1>
   ${rendered}
 </body>
@@ -1223,6 +1304,7 @@ const observer = new MutationObserver(() => {
 clearCmsDraftBackups();
 bindBodyFieldGuard();
 lockRichTextMode();
+injectGlobalClipboardImageFallback();
 startBodyGuardLoop();
 startForcedPreviewTicker();
 schedulePreviewRender(40);
@@ -1234,4 +1316,4 @@ if (document.body) {
   });
 }
 
-console.log('Custom widgets loaded (v5.3.0)');
+console.log('Custom widgets loaded (v5.4.1)');

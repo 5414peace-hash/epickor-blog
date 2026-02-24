@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="ko">
 <head>
   <meta charset="utf-8" />
@@ -8,7 +8,7 @@
   <link rel="icon" type="image/x-icon" href="/favicon.ico" />
   
   <!-- Point to the Decap CMS config file -->
-  <link href="/admin/config.yml?v=20260224l" type="text/yaml" rel="cms-config-url" />
+  <link href="/admin/config.yml?v=20260224n" type="text/yaml" rel="cms-config-url" />
   
   <!-- Custom Styles -->
   <style>
@@ -115,48 +115,54 @@
           return window.__EPICKOR_LAST_MD_BODY;
         }
 
-        return '';
+        return ''; 
+      };
+      const ReactLib = window.React || null;
+      const previewKeys = ['blog', 'Blog Posts', 'blog_posts', 'blog-posts'];
+
+      const renderPreviewNode = (props) => {
+        const entryBody = (props && props.entry && typeof props.entry.getIn === 'function')
+          ? (props.entry.getIn(['data', 'body']) || '')
+          : '';
+        const entryTitle = (props && props.entry && props.entry.getIn)
+          ? (props.entry.getIn(['data', 'title']) || '')
+          : '';
+        const rawBody = entryBody || getFallbackBodyText();
+        const bodyLen = rawBody ? rawBody.length : 0;
+        const bodyHtml = renderSimpleMarkdownToHtml(rawBody);
+
+        if (ReactLib && typeof ReactLib.createElement === 'function') {
+          return ReactLib.createElement(
+            'article',
+            { className: 'epickor-admin-preview' },
+            ReactLib.createElement(
+              'div',
+              { style: { fontSize: '11px', opacity: 0.65, marginBottom: '8px' } },
+              `Preview template active (v20260224n, body=${bodyLen})`
+            ),
+            ReactLib.createElement('h1', null, entryTitle || 'Untitled'),
+            ReactLib.createElement('div', {
+              style: { fontSize: '14px', lineHeight: '1.7', color: '#2C2416', marginTop: '12px' },
+              dangerouslySetInnerHTML: { __html: bodyHtml }
+            })
+          );
+        }
+
+        return `${entryTitle || 'Untitled'}\n\n${rawBody || '(body is empty)'}`;
       };
 
       if (createClassFn && hFn) {
         const BlogPreviewTemplate = createClassFn({
           render: function() {
-            const entry = this.props && this.props.entry ? this.props.entry : null;
-            const data = entry && entry.get ? entry.get('data') : null;
-            const title = data && data.get ? data.get('title') : '';
-            const entryBody = entry && entry.getIn ? (entry.getIn(['data', 'body']) || '') : '';
-            const rawBody = entryBody || getFallbackBodyText();
-            const bodyLen = rawBody ? rawBody.length : 0;
-            const bodyHtml = renderSimpleMarkdownToHtml(rawBody);
-            const bodyNode = hFn('div', {
-              style: { fontSize: '14px', lineHeight: '1.7', color: '#2C2416', marginTop: '12px' },
-              dangerouslySetInnerHTML: { __html: bodyHtml }
-            });
-
-            return hFn(
-              'article',
-              { className: 'epickor-admin-preview' },
-              hFn('div', { style: { fontSize: '11px', opacity: 0.65, marginBottom: '8px' } }, `Preview template active (v20260224l, body=${bodyLen})`),
-              hFn('h1', null, title || 'Untitled'),
-              bodyNode
-            );
+            return renderPreviewNode(this.props || {});
           }
         });
-
-        ['blog', 'Blog Posts', 'blog_posts', 'blog-posts'].forEach((key) => {
+        previewKeys.forEach((key) => {
           CMS.registerPreviewTemplate(key, BlogPreviewTemplate);
         });
       } else {
-        const fallbackTemplate = function(props) {
-          const entryBody = (props && props.entry && typeof props.entry.getIn === 'function')
-            ? (props.entry.getIn(['data', 'body']) || '')
-            : '';
-          const rawBody = entryBody || getFallbackBodyText();
-          return rawBody || '(body is empty)';
-        };
-
-        ['blog', 'Blog Posts', 'blog_posts', 'blog-posts'].forEach((key) => {
-          CMS.registerPreviewTemplate(key, fallbackTemplate);
+        previewKeys.forEach((key) => {
+          CMS.registerPreviewTemplate(key, renderPreviewNode);
         });
       }
 
@@ -172,7 +178,7 @@
       };
 
       const customScript = document.createElement('script');
-      customScript.src = '/admin/custom-widgets.js?v=20260224l';
+      customScript.src = '/admin/custom-widgets.js?v=20260224n';
       customScript.onload = function() {
         console.log('Custom widgets loaded');
         initCmsOnce();
