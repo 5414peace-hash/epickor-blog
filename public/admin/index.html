@@ -41,6 +41,11 @@
 <body>
   <!-- Loading indicator -->
   <div id="loading">Loading EpicKor Blog Admin...</div>
+
+  <!-- Force manual init so preview templates/styles are registered before CMS boots -->
+  <script>
+    window.CMS_MANUAL_INIT = true;
+  </script>
   
   <!-- Include the script that builds the page and powers Decap CMS -->
   <script src="https://unpkg.com/decap-cms@^3.0.0/dist/decap-cms.js"></script>
@@ -61,21 +66,70 @@
         return;
       }
       
-      // Register custom preview styles
+      // Register preview style/template before CMS.init()
       CMS.registerPreviewStyle("/admin/preview.css");
-      
-      // Note: Custom widgets (MD Upload, Bulk Manager, Amazon Parser) are loaded from custom-widgets.v2.js
-      
-      console.log('EpicKor Blog Admin loaded successfully');
-      
-      // Load custom widgets after CMS initializes
+
+      const createClassFn = window.createClass || null;
+      const hFn = window.h || null;
+
+      if (createClassFn && hFn) {
+        const BlogPreviewTemplate = createClassFn({
+          render: function() {
+            const entry = this.props && this.props.entry ? this.props.entry : null;
+            const data = entry && entry.get ? entry.get('data') : null;
+            const title = data && data.get ? data.get('title') : '';
+            const bodyNode = this.props && this.props.widgetFor ? this.props.widgetFor('body') : null;
+            const rawBody = entry && entry.getIn ? (entry.getIn(['data', 'body']) || '') : '';
+
+            return hFn(
+              'article',
+              { className: 'epickor-admin-preview' },
+              hFn('div', { style: { fontSize: '11px', opacity: 0.65, marginBottom: '8px' } }, 'Preview template active (v20260224d)'),
+              hFn('h1', null, title || 'Untitled'),
+              bodyNode || hFn('pre', { style: { whiteSpace: 'pre-wrap' } }, rawBody)
+            );
+          }
+        });
+
+        ['blog', 'Blog Posts', 'blog_posts', 'blog-posts'].forEach((key) => {
+          CMS.registerPreviewTemplate(key, BlogPreviewTemplate);
+        });
+      } else {
+        const fallbackTemplate = function(props) {
+          if (props && typeof props.widgetFor === 'function') {
+            const bodyNode = props.widgetFor('body');
+            if (bodyNode) return bodyNode;
+          }
+          return (props && props.entry && typeof props.entry.getIn === 'function')
+            ? (props.entry.getIn(['data', 'body']) || '')
+            : '';
+        };
+
+        ['blog', 'Blog Posts', 'blog_posts', 'blog-posts'].forEach((key) => {
+          CMS.registerPreviewTemplate(key, fallbackTemplate);
+        });
+      }
+
+      console.log('Blog preview template registered');
+
+      // Load custom widgets first, then initialize CMS once.
+      let cmsInitialized = false;
+      const initCmsOnce = () => {
+        if (cmsInitialized) return;
+        cmsInitialized = true;
+        CMS.init();
+        console.log('Decap CMS initialized (manual init)');
+      };
+
       const customScript = document.createElement('script');
-      customScript.src = '/admin/custom-widgets.js?v=20260223d';
+      customScript.src = '/admin/custom-widgets.js?v=20260224d';
       customScript.onload = function() {
         console.log('Custom widgets loaded');
+        initCmsOnce();
       };
       customScript.onerror = function() {
         console.error('Failed to load custom widgets');
+        initCmsOnce();
       };
       document.body.appendChild(customScript);
     });

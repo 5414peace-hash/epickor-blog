@@ -359,8 +359,8 @@ function injectMDUploadButton() {
     if (!file) return;
 
     try {
-      const text = await file.text();
-      const frontmatterMatch = text.match(/^---\s*\n([\s\S]*?)\n---\s*\n([\s\S]*)$/);
+      const text = (await file.text()).replace(/^\uFEFF/, '');
+      const frontmatterMatch = text.match(/^---\s*\r?\n([\s\S]*?)\r?\n---\s*\r?\n([\s\S]*)$/);
 
       if (!frontmatterMatch) {
         alert('No frontmatter found in MD file.');
@@ -732,4 +732,4 @@ if (document.body) {
   });
 }
 
-console.log('Custom widgets loaded (v5.0.0)');
+console.log('Custom widgets loaded (v5.1.0)');

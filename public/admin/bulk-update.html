@@ -448,7 +448,7 @@
             successCount++;
             currentItem.querySelector('.file-status').className = 'file-status status-success';
             currentItem.querySelector('.file-status').textContent = 'Success';
-            log(`✓ ${file.name} - Success (Slug: ${result.slug})`, 'success');
+            log(`[OK] ${file.name} - ${result.action || 'Success'} (Slug: ${result.slug})`, 'success');
           } else if (result.skipped) {
             skippedCount++;
             currentItem.querySelector('.file-status').className = 'file-status status-pending';
@@ -806,6 +806,279 @@
         return { 
           success: false, 
           reason: `Network error: ${error.message}` 
+        };
+      }
+    }
+    // ---- Bulk v2 override: draft-safe create + visibility/publishAt preservation ----
+    function getFrontmatterBlock(markdown) {
+      const fmMatch = (markdown || '').match(/^---\r?\n([\s\S]*?)\r?\n---\r?\n?/);
+      return fmMatch ? fmMatch[1] : '';
+    }
+
+    function hasFrontmatterField(frontmatterText, key) {
+      return new RegExp(`^${key}\\s*:`, 'm').test(frontmatterText || '');
+    }
+
+    function getFrontmatterFieldLine(frontmatterText, key) {
+      const lineMatch = (frontmatterText || '').match(new RegExp(`^${key}\\s*:\\s*(.*)$`, 'm'));
+      return lineMatch ? `${key}: ${lineMatch[1].trim()}` : '';
+    }
+
+    function ensureFrontmatterField(frontmatterText, key, rawValue) {
+      const normalized = (frontmatterText || '').trimEnd();
+      if (!rawValue || hasFrontmatterField(normalized, key)) {
+        return normalized;
+      }
+      return `${normalized}\n${key}: ${rawValue}`;
+    }
+
+    function setFrontmatterField(frontmatterText, key, rawValue) {
+      const cleaned = (frontmatterText || '')
+        .replace(new RegExp(`^${key}\\s*:\\s*.*\\r?\\n?`, 'gm'), '')
+        .trimEnd();
+      if (!rawValue) {
+        return cleaned;
+      }
+      return `${cleaned}\n${key}: ${rawValue}`;
+    }
+
+    async function processFile(content, filename) {
+      const normalizedContent = (content || '').replace(/^\uFEFF/, '');
+      const parsed = normalizedContent.match(/^---\r?\n([\s\S]*?)\r?\n---\r?\n([\s\S]*)$/);
+      if (!parsed) {
+        return { success: false, reason: 'Invalid markdown format (no frontmatter)' };
+      }
+
+      const incomingFrontmatter = parsed[1];
+      let body = parsed[2];
+
+      const slugFromFilename = extractSlugFromFilename(filename);
+      if (!slugFromFilename) {
+        return {
+          success: false,
+          reason: 'Filename must start with 3-digit slug (e.g. 001.md or 001-title.md)'
+        };
+      }
+
+      log(`Extracted slug from filename: ${slugFromFilename}`, 'info');
+
+      let token = localStorage.getItem('decap-cms-user');
+      if (!token) {
+        token = localStorage.getItem('netlify-cms-user');
+      }
+      if (!token) {
+        log('GitHub token not found in localStorage', 'error');
+        return {
+          success: false,
+          reason: 'GitHub token not found. Please login to Decap CMS first.'
+        };
+      }
+
+      let parsedToken;
+      try {
+        parsedToken = JSON.parse(token);
+      } catch (e) {
+        log('Failed to parse token: ' + e.message, 'error');
+        return { success: false, reason: 'Invalid token format' };
+      }
+
+      const githubToken = parsedToken.backend?.token || parsedToken.token;
+      if (!githubToken) {
+        return { success: false, reason: 'GitHub token missing in stored credentials' };
+      }
+
+      const owner = '5414peace-hash';
+      const repo = 'epickor-blog';
+      const branch = 'master';
+
+      try {
+        const listResponse = await fetch(
+          `https://api.github.com/repos/${owner}/${repo}/contents/content/blog?ref=${branch}`,
+          {
+            headers: {
+              'Authorization': `token ${githubToken}`,
+              'Accept': 'application/vnd.github.v3+json'
+            }
+          }
+        );
+
+        if (!listResponse.ok) {
+          return { success: false, reason: `GitHub API error: ${listResponse.status}` };
+        }
+
+        const files = await listResponse.json();
+        const existingFile = files.find((f) => f.name.startsWith(slugFromFilename)) || null;
+        const isCreate = !existingFile;
+
+        let sha = null;
+        let oldContent = '';
+        let existingFrontmatter = '';
+        const existingImages = [];
+
+        if (existingFile) {
+          const fileResponse = await fetch(existingFile.url, {
+            headers: {
+              'Authorization': `token ${githubToken}`,
+              'Accept': 'application/vnd.github.v3+json'
+            }
+          });
+
+          if (!fileResponse.ok) {
+            return { success: false, reason: `Failed to fetch file: ${fileResponse.status}` };
+          }
+
+          const fileData = await fileResponse.json();
+          sha = fileData.sha;
+          oldContent = decodeURIComponent(escape(atob(fileData.content)));
+          existingFrontmatter = getFrontmatterBlock(oldContent);
+
+          const imageRegex = /!\[([^\]]*)\]\(([^\)]+)\)/g;
+          let imageMatch;
+          while ((imageMatch = imageRegex.exec(oldContent)) !== null) {
+            existingImages.push({
+              markdown: imageMatch[0],
+              alt: imageMatch[1],
+              url: imageMatch[2]
+            });
+          }
+        } else {
+          log(`No existing file for ${slugFromFilename}. Creating private draft.`, 'info');
+        }
+
+        let mergedFrontmatter = ensureFrontmatterField(incomingFrontmatter, 'slug', `"${slugFromFilename}"`);
+        if (existingFile) {
+          const existingVisibility = getFrontmatterFieldLine(existingFrontmatter, 'visibility');
+          if (existingVisibility) {
+            mergedFrontmatter = setFrontmatterField(
+              mergedFrontmatter,
+              'visibility',
+              existingVisibility.replace(/^visibility:\s*/, '')
+            );
+          }
+          const existingPublishAt = getFrontmatterFieldLine(existingFrontmatter, 'publishAt');
+          if (existingPublishAt && !hasFrontmatterField(mergedFrontmatter, 'publishAt')) {
+            mergedFrontmatter = `${mergedFrontmatter}\n${existingPublishAt}`;
+          }
+        } else {
+          mergedFrontmatter = setFrontmatterField(mergedFrontmatter, 'visibility', '"private"');
+        }
+
+        async function detectImageRatio(url) {
+          return new Promise((resolve) => {
+            const img = new Image();
+            img.onload = () => {
+              const ratio = img.naturalWidth / img.naturalHeight;
+              resolve({ ratio, isVertical: ratio < 0.8 });
+            };
+            img.onerror = () => resolve({ ratio: 1, isVertical: false });
+            img.src = url;
+          });
+        }
+
+        async function applySmartLayout(images) {
+          const imageData = [];
+          for (const img of images) {
+            const ratio = await detectImageRatio(img.url);
+            imageData.push({ ...img, ...ratio });
+          }
+
+          const layoutedImages = [];
+          let i = 0;
+          while (i < imageData.length) {
+            const current = imageData[i];
+            const next = imageData[i + 1];
+            if (current.isVertical && next && next.isVertical) {
+              layoutedImages.push(`<div class="image-grid-2up">\n\n${current.markdown}\n\n${next.markdown}\n\n</div>`);
+              i += 2;
+            } else {
+              layoutedImages.push(current.markdown);
+              i += 1;
+            }
+          }
+          return layoutedImages;
+        }
+
+        const imageTags = body.match(/\{\{IMAGE_(\d+)\}\}/g) || [];
+        if (existingImages.length > 0) {
+          const layoutedImages = await applySmartLayout(existingImages);
+          for (let i = 0; i < imageTags.length; i++) {
+            const tag = imageTags[i];
+            const imageNum = parseInt(tag.match(/\d+/)[0]);
+            const imageIndex = imageNum - 1;
+            if (imageIndex < layoutedImages.length) {
+              body = body.replace(tag, `\n\n${layoutedImages[imageIndex]}\n\n`);
+            } else {
+              body = body.replace(tag, `\n\n<!-- IMAGE_${imageNum}: Placeholder for future image -->\n\n`);
+            }
+          }
+
+          const usedImages = imageTags.length;
+          const remainingImages = layoutedImages.slice(usedImages);
+          if (remainingImages.length > 0) {
+            const paragraphs = body.split('\n\n');
+            const insertInterval = Math.max(2, Math.floor(paragraphs.length / (remainingImages.length + 1)));
+            remainingImages.forEach((image, index) => {
+              const insertPos = (index + 1) * insertInterval;
+              if (insertPos < paragraphs.length) {
+                paragraphs.splice(insertPos, 0, image);
+              } else {
+                paragraphs.push(image);
+              }
+            });
+            body = paragraphs.join('\n\n');
+          }
+        } else if (imageTags.length > 0) {
+          imageTags.forEach((tag) => {
+            const imageNum = tag.match(/\d+/)[0];
+            body = body.replace(tag, `\n\n<!-- IMAGE_${imageNum}: Placeholder for future image -->\n\n`);
+          });
+        }
+
+        const mergedContent = `---\n${mergedFrontmatter}\n---\n${body}`;
+        const targetPath = existingFile ? existingFile.path : `content/blog/${slugFromFilename}.md`;
+
+        const requestBody = {
+          message: existingFile
+            ? `Update ${existingFile.name} via Bulk Manager`
+            : `Create ${slugFromFilename}.md via Bulk Manager (private draft)`,
+          content: btoa(unescape(encodeURIComponent(mergedContent))),
+          branch
+        };
+        if (sha) {
+          requestBody.sha = sha;
+        }
+
+        const updateResponse = await fetch(
+          `https://api.github.com/repos/${owner}/${repo}/contents/${targetPath}`,
+          {
+            method: 'PUT',
+            headers: {
+              'Authorization': `token ${githubToken}`,
+              'Accept': 'application/vnd.github.v3+json',
+              'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(requestBody)
+          }
+        );
+
+        const updateData = await updateResponse.json();
+        if (updateResponse.ok && (updateResponse.status === 200 || updateResponse.status === 201)) {
+          return {
+            success: true,
+            slug: slugFromFilename,
+            action: isCreate ? 'Created (private draft)' : 'Updated',
+            commitSha: updateData.commit.sha
+          };
+        }
+
+        return {
+          success: false,
+          reason: `GitHub update failed: ${updateResponse.status}`
+        };
+      } catch (error) {
+        return {
+          success: false,
+          reason: `Network error: ${error.message}`
         };
       }
     }
