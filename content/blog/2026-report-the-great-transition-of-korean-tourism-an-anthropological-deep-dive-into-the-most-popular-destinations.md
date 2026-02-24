@@ -3,7 +3,7 @@ title: "[2026 Report] The Great Transition of Korean Tourism: An Anthropological
   Deep Dive into the Most Popular Destinations"
 slug: "150"
 date: 2026-02-24
-visibility: private
+visibility: public
 publishAt: 2026-02-24T15:49:00+09:00
 description: "The 2026 Korean Tourism Map: From 'Observation' to 'Integration'
   In 2026, South Korea's tourism industry has transcended the era of mere
