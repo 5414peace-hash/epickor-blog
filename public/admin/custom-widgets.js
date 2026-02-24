@@ -34,35 +34,56 @@ CMS.registerEventListener({
 CMS.registerEventListener({
   name: 'preSave',
   handler: async ({ entry }) => {
-    const data = entry.get('data');
-    const tags = data.get('tags');
-    let body = data.get('body');
-
-    if (!body || typeof body !== 'string' || !body.trim()) {
-      body = getBufferedBody();
-    }
-
-    if (!tags || !body || typeof body !== 'string' || !body.trim()) {
-      return entry;
-    }
-
-    const relevantTags = ['Shopping', 'Food', 'Fashion', 'Beauty'];
-    const hasRelevantTag = tags.some((tag) => relevantTags.includes(tag));
-
-    if (!hasRelevantTag) {
-      return entry;
-    }
-
-    if (body.includes('## Related Amazon Products')) {
-      return entry;
-    }
-
     try {
-      const response = await fetch('/content/data/amazon-links.json');
+      const data = entry.get('data');
+      const tags = data.get('tags');
+      let body = data.get('body');
+
+      if (!body || typeof body !== 'string' || !body.trim()) {
+        body = getBufferedBody();
+      }
+
+      if (!body || typeof body !== 'string' || !body.trim()) {
+        return entry;
+      }
+
+      let tagValues = [];
+      if (Array.isArray(tags)) {
+        tagValues = tags.filter(Boolean);
+      } else if (tags && typeof tags.toArray === 'function') {
+        tagValues = tags.toArray().filter(Boolean);
+      } else if (typeof tags === 'string') {
+        tagValues = tags.split(',').map((v) => v.trim()).filter(Boolean);
+      }
+
+      if (!tagValues.length) {
+        return entry;
+      }
+
+      const relevantTags = ['Shopping', 'Food', 'Fashion', 'Beauty'];
+      const hasRelevantTag = tagValues.some((tag) => relevantTags.includes(tag));
+
+      if (!hasRelevantTag) {
+        return entry;
+      }
+
+      if (body.includes('## Related Amazon Products')) {
+        return entry;
+      }
+
+      const controller = new AbortController();
+      const timeoutId = setTimeout(() => controller.abort(), 1500);
+      const response = await fetch('/content/data/amazon-links.json', { signal: controller.signal });
+      clearTimeout(timeoutId);
+
+      if (!response.ok) {
+        return entry;
+      }
+
       const amazonLinks = await response.json();
 
       const matchingLinks = amazonLinks
-        .filter((link) => tags.includes(link.category))
+        .filter((link) => tagValues.includes(link.category))
         .slice(0, 3);
 
       if (matchingLinks.length === 0) {
@@ -1123,7 +1144,7 @@ function renderForcedPreview() {
   </style>
 </head>
 <body>
-  <div class="preview-badge">Forced preview sync active (v20260224k)</div>
+  <div class="preview-badge">Forced preview sync active (v20260224l)</div>
   <h1>${escapeHtml(title)}</h1>
   ${rendered}
 </body>

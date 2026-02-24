@@ -8,7 +8,7 @@
   <link rel="icon" type="image/x-icon" href="/favicon.ico" />
   
   <!-- Point to the Decap CMS config file -->
-  <link href="/admin/config.yml?v=20260224k" type="text/yaml" rel="cms-config-url" />
+  <link href="/admin/config.yml?v=20260224l" type="text/yaml" rel="cms-config-url" />
   
   <!-- Custom Styles -->
   <style>
@@ -71,6 +71,36 @@
 
       const createClassFn = window.createClass || null;
       const hFn = window.h || null;
+      const escapeHtml = (text) => String(text || '')
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;')
+        .replace(/"/g, '&quot;')
+        .replace(/'/g, '&#39;');
+      const renderSimpleMarkdownToHtml = (markdown) => {
+        if (!markdown || typeof markdown !== 'string') return '<p>(body is empty)</p>';
+        const normalized = markdown.replace(/\r\n/g, '\n');
+        const blocks = normalized.split(/\n{2,}/).map((b) => b.trim()).filter(Boolean);
+        const html = blocks.map((block) => {
+          if (/^<[^>]+>[\s\S]*<\/[^>]+>$/.test(block) || /^<img[\s\S]*\/?>$/i.test(block)) {
+            return block;
+          }
+
+          const headingMatch = block.match(/^(#{1,6})\s+(.+)$/);
+          if (headingMatch) {
+            const level = headingMatch[1].length;
+            return `<h${level}>${escapeHtml(headingMatch[2])}</h${level}>`;
+          }
+
+          let parsed = escapeHtml(block);
+          parsed = parsed.replace(/!\[([^\]]*)\]\(([^)]+)\)/g, '<img src="$2" alt="$1" />');
+          parsed = parsed.replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>');
+          parsed = parsed.replace(/\*([^*]+)\*/g, '<em>$1</em>');
+          parsed = parsed.replace(/\n/g, '<br />');
+          return `<p>${parsed}</p>`;
+        });
+        return html.length ? html.join('\n') : '<p>(body is empty)</p>';
+      };
       const getFallbackBodyText = () => {
         try {
           const domBodyField = document.querySelector(
@@ -97,20 +127,16 @@
             const entryBody = entry && entry.getIn ? (entry.getIn(['data', 'body']) || '') : '';
             const rawBody = entryBody || getFallbackBodyText();
             const bodyLen = rawBody ? rawBody.length : 0;
-            const bodyWidget = (this.props && typeof this.props.widgetFor === 'function')
-              ? this.props.widgetFor('body')
-              : null;
-            const bodyNode = bodyWidget
-              || hFn(
-                'div',
-                { style: { whiteSpace: 'pre-wrap', fontSize: '14px', lineHeight: '1.7', color: '#2C2416', marginTop: '12px' } },
-                rawBody || '(body is empty)'
-              );
+            const bodyHtml = renderSimpleMarkdownToHtml(rawBody);
+            const bodyNode = hFn('div', {
+              style: { fontSize: '14px', lineHeight: '1.7', color: '#2C2416', marginTop: '12px' },
+              dangerouslySetInnerHTML: { __html: bodyHtml }
+            });
 
             return hFn(
               'article',
               { className: 'epickor-admin-preview' },
-              hFn('div', { style: { fontSize: '11px', opacity: 0.65, marginBottom: '8px' } }, `Preview template active (v20260224k, body=${bodyLen})`),
+              hFn('div', { style: { fontSize: '11px', opacity: 0.65, marginBottom: '8px' } }, `Preview template active (v20260224l, body=${bodyLen})`),
               hFn('h1', null, title || 'Untitled'),
               bodyNode
             );
@@ -146,7 +172,7 @@
       };
 
       const customScript = document.createElement('script');
-      customScript.src = '/admin/custom-widgets.js?v=20260224k';
+      customScript.src = '/admin/custom-widgets.js?v=20260224l';
       customScript.onload = function() {
         console.log('Custom widgets loaded');
         initCmsOnce();
