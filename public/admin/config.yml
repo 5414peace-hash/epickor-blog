@@ -6,7 +6,8 @@ backend:
   auth_endpoint: /api/auth
 
 # Publish mode
-publish_mode: editorial_workflow
+# Use simple mode to avoid Draft/Publish workflow confusion in Decap UI.
+publish_mode: simple
 
 # Media files
 media_folder: "public/assets/images/posts"

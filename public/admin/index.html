@@ -8,7 +8,7 @@
   <link rel="icon" type="image/x-icon" href="/favicon.ico" />
   
   <!-- Point to the Decap CMS config file -->
-  <link href="/admin/config.yml" type="text/yaml" rel="cms-config-url" />
+  <link href="/admin/config.yml?v=20260224k" type="text/yaml" rel="cms-config-url" />
   
   <!-- Custom Styles -->
   <style>
@@ -110,7 +110,7 @@
             return hFn(
               'article',
               { className: 'epickor-admin-preview' },
-              hFn('div', { style: { fontSize: '11px', opacity: 0.65, marginBottom: '8px' } }, `Preview template active (v20260224i, body=${bodyLen})`),
+              hFn('div', { style: { fontSize: '11px', opacity: 0.65, marginBottom: '8px' } }, `Preview template active (v20260224k, body=${bodyLen})`),
               hFn('h1', null, title || 'Untitled'),
               bodyNode
             );
@@ -146,7 +146,7 @@
       };
 
       const customScript = document.createElement('script');
-      customScript.src = '/admin/custom-widgets.js?v=20260224j';
+      customScript.src = '/admin/custom-widgets.js?v=20260224k';
       customScript.onload = function() {
         console.log('Custom widgets loaded');
         initCmsOnce();

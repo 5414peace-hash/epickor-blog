@@ -94,6 +94,12 @@ CMS.registerEventListener({
     const body = data.get('body');
     const fallback = getBufferedBody();
 
+    if (fallback && typeof fallback === 'string' && fallback.trim()) {
+      if (!body || typeof body !== 'string' || body.trim() !== fallback.trim()) {
+        return entry.get('data').set('body', fallback);
+      }
+    }
+
     if ((!body || typeof body !== 'string' || !body.trim()) && fallback) {
       return entry.get('data').set('body', fallback);
     }
@@ -768,18 +774,25 @@ function arrayBufferToBase64(buffer) {
   return btoa(binary);
 }
 
+function isTextareaField(el) {
+  return !!(el && el.tagName && String(el.tagName).toLowerCase() === 'textarea');
+}
+
 function insertTextAtCursor(textarea, text) {
+  if (!isTextareaField(textarea)) return false;
+
   const start = textarea.selectionStart;
   const end = textarea.selectionEnd;
-  const original = textarea.value;
+  const original = textarea.value || '';
+  const startPos = typeof start === 'number' ? start : original.length;
+  const endPos = typeof end === 'number' ? end : original.length;
+  const nextValue = original.slice(0, startPos) + text + original.slice(endPos);
+  const nextCursor = startPos + text.length;
 
-  textarea.value = original.slice(0, start) + text + original.slice(end);
-  const nextCursor = start + text.length;
+  setReactLikeValue(textarea, nextValue);
   textarea.selectionStart = nextCursor;
   textarea.selectionEnd = nextCursor;
-
-  textarea.dispatchEvent(new Event('input', { bubbles: true }));
-  textarea.dispatchEvent(new Event('change', { bubbles: true }));
+  return true;
 }
 
 function mergeImageStyleWithWidth(style, widthPercent) {
@@ -794,6 +807,11 @@ function mergeImageStyleWithWidth(style, widthPercent) {
 }
 
 function updateNearestImageWidth(textarea, widthPercent) {
+  if (!isTextareaField(textarea)) {
+    alert('Switch BODY to Markdown mode first.');
+    return;
+  }
+
   const text = textarea.value;
   const cursor = textarea.selectionStart;
 
@@ -816,12 +834,11 @@ function updateNearestImageWidth(textarea, widthPercent) {
     newTag = oldTag.replace('<img', `<img style="${mergeImageStyleWithWidth('', widthPercent)}"`);
   }
 
-  textarea.value = text.slice(0, tagStart) + newTag + text.slice(tagEnd + 1);
+  const nextValue = text.slice(0, tagStart) + newTag + text.slice(tagEnd + 1);
+  setReactLikeValue(textarea, nextValue);
   textarea.selectionStart = tagStart;
   textarea.selectionEnd = tagStart + newTag.length;
-  textarea.dispatchEvent(new Event('input', { bubbles: true }));
-  textarea.dispatchEvent(new Event('change', { bubbles: true }));
-  setBufferedBody(textarea.value || '');
+  setBufferedBody(nextValue);
   schedulePreviewRender(40);
 }
 
@@ -870,8 +887,10 @@ async function uploadClipboardImageToGithub(file, slug) {
 }
 
 function injectClipboardImageTools() {
+  ensureMarkdownMode();
   const bodyField = findBodyField({ strict: true });
   if (!bodyField) return false;
+  if (!isTextareaField(bodyField)) return false;
 
   if (bodyField.dataset.clipboardImageEnabled === 'true') {
     return true;
@@ -907,7 +926,11 @@ function injectClipboardImageTools() {
       font-size: 12px;
     `;
 
-    btn.addEventListener('click', () => updateNearestImageWidth(bodyField, size));
+    btn.addEventListener('click', () => {
+      const latestBodyField = findBodyField({ strict: true });
+      if (!latestBodyField) return;
+      updateNearestImageWidth(latestBodyField, size);
+    });
     toolbar.appendChild(btn);
   });
 
@@ -947,8 +970,17 @@ function injectClipboardImageTools() {
     try {
       const uploadedPath = await uploadClipboardImageToGithub(file, slug);
       const imgTag = `\n\n<img src="${uploadedPath}" alt="${slug} image" style="width: 70%; max-width: 900px; height: auto;" />\n\n`;
-      insertTextAtCursor(bodyField, imgTag);
-      setBufferedBody(bodyField.value || '');
+      const latestBodyField = findBodyField({ strict: true });
+      if (!latestBodyField || !isTextareaField(latestBodyField)) {
+        throw new Error('BODY markdown field not found. Keep BODY in Markdown mode.');
+      }
+
+      const inserted = insertTextAtCursor(latestBodyField, imgTag);
+      if (!inserted) {
+        throw new Error('Failed to insert image into BODY. Try switching BODY to Markdown mode.');
+      }
+
+      setBufferedBody(latestBodyField.value || '');
       console.log('Clipboard image uploaded:', uploadedPath);
       schedulePreviewRender(40);
     } catch (error) {
@@ -1091,7 +1123,7 @@ function renderForcedPreview() {
   </style>
 </head>
 <body>
-  <div class="preview-badge">Forced preview sync active (v20260224i)</div>
+  <div class="preview-badge">Forced preview sync active (v20260224k)</div>
   <h1>${escapeHtml(title)}</h1>
   ${rendered}
 </body>
