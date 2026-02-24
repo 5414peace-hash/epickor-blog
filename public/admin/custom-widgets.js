@@ -11,12 +11,17 @@ CMS.registerEventListener({
     const data = entry.get('data');
     let body = data.get('body');
 
-    if (!body || typeof body !== 'string') {
+    if (!body || typeof body !== 'string' || !body.trim()) {
+      body = getBufferedBody();
+    }
+
+    if (!body || typeof body !== 'string' || !body.trim()) {
       return entry;
     }
 
     // Remove empty lines between two adjacent markdown images.
     body = body.replace(/(\!\[.*?\]\(.*?\))\s*\n\s*\n\s*(\!\[.*?\]\(.*?\))/g, '$1\n$2');
+    setBufferedBody(body);
 
     return entry.get('data').set('body', body);
   }
@@ -33,7 +38,11 @@ CMS.registerEventListener({
     const tags = data.get('tags');
     let body = data.get('body');
 
-    if (!tags || !body || typeof body !== 'string') {
+    if (!body || typeof body !== 'string' || !body.trim()) {
+      body = getBufferedBody();
+    }
+
+    if (!tags || !body || typeof body !== 'string' || !body.trim()) {
       return entry;
     }
 
@@ -78,6 +87,21 @@ CMS.registerEventListener({
   }
 });
 
+CMS.registerEventListener({
+  name: 'preSave',
+  handler: ({ entry }) => {
+    const data = entry.get('data');
+    const body = data.get('body');
+    const fallback = getBufferedBody();
+
+    if ((!body || typeof body !== 'string' || !body.trim()) && fallback) {
+      return entry.get('data').set('body', fallback);
+    }
+
+    return entry;
+  }
+});
+
 // ============================================
 // 3. SHARED DOM HELPERS
 // ============================================
@@ -118,6 +142,67 @@ function findFieldByName(name) {
   }
 
   return null;
+}
+
+function getBufferedBody() {
+  if (typeof window.__EPICKOR_BODY_BUFFER === 'string' && window.__EPICKOR_BODY_BUFFER.trim()) {
+    return window.__EPICKOR_BODY_BUFFER;
+  }
+
+  if (typeof window.__EPICKOR_LAST_MD_BODY === 'string' && window.__EPICKOR_LAST_MD_BODY.trim()) {
+    return window.__EPICKOR_LAST_MD_BODY;
+  }
+
+  return '';
+}
+
+function setBufferedBody(text) {
+  const next = typeof text === 'string' ? text : '';
+  window.__EPICKOR_BODY_BUFFER = next;
+  if (next.trim()) {
+    window.__EPICKOR_LAST_MD_BODY = next;
+  }
+}
+
+function isVisibleElement(el) {
+  if (!el || typeof el.getBoundingClientRect !== 'function') return false;
+  const style = window.getComputedStyle(el);
+  if (style.display === 'none' || style.visibility === 'hidden') return false;
+  const rect = el.getBoundingClientRect();
+  return rect.width > 0 && rect.height > 0;
+}
+
+function scoreBodyTextarea(el) {
+  if (!el) return -1;
+
+  const name = (el.getAttribute('name') || '').toLowerCase();
+  const id = (el.getAttribute('id') || '').toLowerCase();
+  const testId = (el.getAttribute('data-testid') || '').toLowerCase();
+  const placeholder = (el.getAttribute('placeholder') || '').toLowerCase();
+  const aria = (el.getAttribute('aria-label') || '').toLowerCase();
+  const valueLen = (el.value || '').length;
+  const rows = parseInt(el.getAttribute('rows') || '0', 10);
+
+  let score = 0;
+  if (name === 'body') score += 320;
+  if (name.includes('body')) score += 120;
+  if (id.includes('body')) score += 120;
+  if (testId.includes('body')) score += 100;
+  if (placeholder.includes('body')) score += 50;
+  if (aria.includes('body')) score += 50;
+  if (rows >= 10) score += 40;
+  score += Math.min(80, Math.floor(valueLen / 40));
+  if (isVisibleElement(el)) score += 30;
+
+  const wrapper = el.closest('section,fieldset,form,div');
+  if (wrapper) {
+    const labels = Array.from(wrapper.querySelectorAll('label,span,div'));
+    if (labels.some((node) => /\bbody\b/i.test((node.textContent || '').trim()))) {
+      score += 100;
+    }
+  }
+
+  return score;
 }
 
 function parseSimpleFrontmatter(frontmatterText) {
@@ -200,21 +285,35 @@ function ensureMarkdownMode() {
   if (checked === true || ariaChecked === 'true') {
     toggle.click();
   }
+
+  // If body textarea is not mounted but rich editor is visible, click markdown label directly.
+  if (!findBodyField()) {
+    const mdControl = markdownLabel.closest('button,[role="button"],label,div') || markdownLabel;
+    if (mdControl && typeof mdControl.click === 'function') {
+      mdControl.click();
+    }
+  }
 }
 
 function findBodyField() {
-  const direct = [
-    'textarea[name="body"]',
-    'textarea[id*="body"]',
-    '[data-testid*="body"] textarea',
-    'textarea[aria-label*="Body"]',
-    'textarea[placeholder*="Body"]'
-  ];
+  const textareas = Array.from(document.querySelectorAll('textarea'));
+  if (textareas.length === 0) return null;
 
-  for (const selector of direct) {
-    const node = document.querySelector(selector);
-    if (node) return node;
+  const ranked = textareas
+    .map((el) => ({ el, score: scoreBodyTextarea(el), len: (el.value || '').length }))
+    .sort((a, b) => {
+      if (b.score !== a.score) return b.score - a.score;
+      return b.len - a.len;
+    });
+
+  if (ranked[0] && ranked[0].score > 0) {
+    return ranked[0].el;
   }
+
+  // Final fallback: visible longest textarea.
+  const visible = ranked.filter((x) => isVisibleElement(x.el));
+  if (visible.length > 0) return visible[0].el;
+  if (ranked[0]) return ranked[0].el;
 
   // Fallback: find section by visible BODY label.
   const bodyLabel = Array.from(document.querySelectorAll('label,span,div'))
@@ -237,6 +336,7 @@ function findBodyField() {
 function setBodyValue(bodyText) {
   const textarea = findBodyField();
   if (textarea) {
+    setBufferedBody(bodyText || '');
     return setReactLikeValue(textarea, bodyText);
   }
 
@@ -247,6 +347,7 @@ function setBodyValue(bodyText) {
     document.execCommand('selectAll', false, null);
     document.execCommand('insertText', false, bodyText);
     editor.dispatchEvent(new Event('input', { bubbles: true }));
+    setBufferedBody(bodyText || '');
     return true;
   }
 
@@ -285,7 +386,7 @@ function applyMdPayloadToForm(payload, attempt = 0) {
 
   let bodyApplied = false;
   if (payload.body) {
-    window.__EPICKOR_LAST_MD_BODY = payload.body;
+    setBufferedBody(payload.body);
     bodyApplied = setBodyValue(payload.body);
     applied += bodyApplied ? 1 : 0;
   }
@@ -296,6 +397,136 @@ function applyMdPayloadToForm(payload, attempt = 0) {
 
   return applied > 0 && bodyApplied;
 }
+
+function lockRichTextMode() {
+  const nodes = Array.from(document.querySelectorAll('button,span,div,a,label'));
+  const richNode = nodes.find((el) => (el.textContent || '').trim() === 'Rich Text');
+  const markdownNode = nodes.find((el) => (el.textContent || '').trim() === 'Markdown');
+
+  if (richNode) {
+    const richControl = richNode.closest('button,[role="button"],label,div') || richNode;
+    if (richControl && richControl.dataset.epickorRichLock !== 'true') {
+      richControl.dataset.epickorRichLock = 'true';
+      richControl.style.pointerEvents = 'none';
+      richControl.style.opacity = '0.45';
+      richControl.style.cursor = 'not-allowed';
+      richControl.title = 'Rich Text is disabled to prevent body content loss.';
+    }
+  }
+
+  if (markdownNode) {
+    const markdownControl = markdownNode.closest('button,[role="button"],label,div') || markdownNode;
+    if (markdownControl && markdownControl.dataset.epickorMdMarked !== 'true') {
+      markdownControl.dataset.epickorMdMarked = 'true';
+      markdownControl.style.fontWeight = '700';
+    }
+  }
+
+  ensureMarkdownMode();
+}
+
+let previewRenderTimer = null;
+function schedulePreviewRender(delayMs = 60) {
+  if (previewRenderTimer) {
+    clearTimeout(previewRenderTimer);
+  }
+  previewRenderTimer = setTimeout(() => {
+    previewRenderTimer = null;
+    renderForcedPreview();
+  }, delayMs);
+}
+
+function ensureBodyFieldHydrated() {
+  const bodyField = findBodyField();
+  if (!bodyField) return false;
+
+  if (typeof bodyField.value === 'string' && bodyField.value.trim()) {
+    setBufferedBody(bodyField.value);
+    return true;
+  }
+
+  const fallback = getBufferedBody();
+  if (fallback) {
+    setReactLikeValue(bodyField, fallback);
+    return true;
+  }
+
+  return false;
+}
+
+function bindBodyFieldGuard() {
+  const bodyField = findBodyField();
+  if (!bodyField) return false;
+
+  if (bodyField.dataset.epickorBodyGuardBound === 'true') {
+    return true;
+  }
+
+  bodyField.dataset.epickorBodyGuardBound = 'true';
+  if (bodyField.value && bodyField.value.trim()) {
+    setBufferedBody(bodyField.value);
+  }
+
+  const updateBuffer = () => {
+    if (typeof bodyField.value === 'string' && bodyField.value.trim()) {
+      setBufferedBody(bodyField.value);
+    }
+  };
+
+  bodyField.addEventListener('input', () => {
+    updateBuffer();
+    schedulePreviewRender(40);
+  });
+  bodyField.addEventListener('change', () => {
+    updateBuffer();
+    schedulePreviewRender(40);
+  });
+  bodyField.addEventListener('paste', () => {
+    setTimeout(() => {
+      updateBuffer();
+      schedulePreviewRender(80);
+    }, 40);
+  });
+
+  return true;
+}
+
+let bodyGuardLoopStarted = false;
+function startBodyGuardLoop() {
+  if (bodyGuardLoopStarted) return;
+  bodyGuardLoopStarted = true;
+
+  setInterval(() => {
+    ensureMarkdownMode();
+    bindBodyFieldGuard();
+    ensureBodyFieldHydrated();
+  }, 700);
+}
+
+function clearCmsDraftBackups() {
+  try {
+    const keys = Object.keys(window.localStorage || {});
+    keys.forEach((key) => {
+      const k = key.toLowerCase();
+      const cmsKey = k.includes('decap-cms') || k.includes('netlify-cms');
+      const authKey = k.includes('cms-user') || k.endsWith('-user') || k.includes('token');
+      const volatileKey = k.includes('backup') || k.includes('draft');
+
+      if (cmsKey && volatileKey && !authKey) {
+        window.localStorage.removeItem(key);
+      }
+    });
+  } catch (error) {
+    console.warn('Failed to clear CMS draft backup cache:', error);
+  }
+}
+
+window.addEventListener('hashchange', () => {
+  if (!window.location.hash.includes('/collections/blog/')) {
+    setBufferedBody('');
+    clearCmsDraftBackups();
+  }
+});
 
 // ============================================
 // 4. MD FILE UPLOAD WIDGET
@@ -384,12 +615,13 @@ function injectMDUploadButton() {
         body
       };
 
-      window.__EPICKOR_LAST_MD_BODY = body;
+      setBufferedBody(body);
 
       const ok = applyMdPayloadToForm(payload);
       if (!ok) {
         alert('MD parsed, but editor fields are not ready yet. Please wait 1-2 seconds and try again.');
       } else {
+        schedulePreviewRender(80);
         alert(`MD loaded. Slug: ${payload.slug}`);
       }
     } catch (error) {
@@ -570,6 +802,8 @@ function updateNearestImageWidth(textarea, widthPercent) {
   textarea.selectionEnd = tagStart + newTag.length;
   textarea.dispatchEvent(new Event('input', { bubbles: true }));
   textarea.dispatchEvent(new Event('change', { bubbles: true }));
+  setBufferedBody(textarea.value || '');
+  schedulePreviewRender(40);
 }
 
 async function uploadClipboardImageToGithub(file, slug) {
@@ -617,7 +851,7 @@ async function uploadClipboardImageToGithub(file, slug) {
 }
 
 function injectClipboardImageTools() {
-  const bodyField = findFieldByName('body');
+  const bodyField = findBodyField();
   if (!bodyField) return false;
 
   if (bodyField.dataset.clipboardImageEnabled === 'true') {
@@ -695,7 +929,9 @@ function injectClipboardImageTools() {
       const uploadedPath = await uploadClipboardImageToGithub(file, slug);
       const imgTag = `\n\n<img src="${uploadedPath}" alt="${slug} image" style="width: 70%; max-width: 900px; height: auto;" />\n\n`;
       insertTextAtCursor(bodyField, imgTag);
+      setBufferedBody(bodyField.value || '');
       console.log('Clipboard image uploaded:', uploadedPath);
+      schedulePreviewRender(40);
     } catch (error) {
       console.error('Clipboard image upload failed:', error);
       alert(`Image upload failed: ${error.message}`);
@@ -736,7 +972,8 @@ function renderSimpleMarkdownToHtml(markdown) {
     return '';
   }
 
-  const blocks = markdown.split(/\n{2,}/).map((b) => b.trim()).filter(Boolean);
+  const normalized = markdown.replace(/\r\n/g, '\n');
+  const blocks = normalized.split(/\n{2,}/).map((b) => b.trim()).filter(Boolean);
   const html = blocks.map((block) => {
     // Keep trusted raw HTML blocks as-is (used for image layout wrappers).
     if (/^<[^>]+>[\s\S]*<\/[^>]+>$/.test(block) || /^<img[\s\S]*\/?>$/i.test(block)) {
@@ -752,6 +989,7 @@ function renderSimpleMarkdownToHtml(markdown) {
 
     let parsed = escapeHtml(block);
     parsed = parsed.replace(/!\[([^\]]*)\]\(([^)]+)\)/g, '<img src="$2" alt="$1" />');
+    parsed = parsed.replace(/\{\{IMAGE_(\d+)\}\}/g, '<span class="img-placeholder">[IMAGE_$1]</span>');
     parsed = parsed.replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>');
     parsed = parsed.replace(/\*([^*]+)\*/g, '<em>$1</em>');
     parsed = parsed.replace(/\n/g, '<br />');
@@ -789,16 +1027,22 @@ function findPreviewIframe() {
 }
 
 function renderForcedPreview() {
-  const bodyField = findFieldByName('body');
-  if (!bodyField) return false;
-
   const iframe = findPreviewIframe();
   if (!iframe) return false;
 
+  const bodyField = findBodyField();
   const titleField = findFieldByName('title');
   const title = titleField && titleField.value ? titleField.value.trim() : 'Untitled';
-  const body = bodyField.value || '';
+  const bodyFromField = bodyField && typeof bodyField.value === 'string' ? bodyField.value : '';
+  if (bodyFromField && bodyFromField.trim()) {
+    setBufferedBody(bodyFromField);
+  }
+  const body = bodyFromField && bodyFromField.trim() ? bodyFromField : getBufferedBody();
   const contentHtml = renderSimpleMarkdownToHtml(body);
+  const fallbackHtml = body
+    ? `<div class="raw-fallback">${escapeHtml(body).replace(/\n/g, '<br />')}</div>`
+    : '<p>(body is empty)</p>';
+  const rendered = contentHtml || fallbackHtml;
   const hash = `${title}::${body.length}::${body.slice(0, 80)}`;
 
   if (iframe.dataset.forcedPreviewHash === hash) {
@@ -823,12 +1067,14 @@ function renderForcedPreview() {
     .image-grid-2up { display: flex; gap: 0.6rem; margin: 1.2rem 0; }
     .image-grid-2up img { width: 48%; margin: 0; }
     .preview-badge { font-size: 11px; opacity: 0.65; margin-bottom: 8px; }
+    .raw-fallback { white-space: pre-wrap; font-size: 14px; }
+    .img-placeholder { opacity: 0.7; font-size: 12px; padding: 2px 6px; border: 1px dashed #9CA3AF; border-radius: 4px; }
   </style>
 </head>
 <body>
-  <div class="preview-badge">Forced preview sync active (v20260224e)</div>
+  <div class="preview-badge">Forced preview sync active (v20260224i)</div>
   <h1>${escapeHtml(title)}</h1>
-  ${contentHtml}
+  ${rendered}
 </body>
 </html>`);
     doc.close();
@@ -842,7 +1088,7 @@ function renderForcedPreview() {
 }
 
 function injectForcedPreviewSync() {
-  const bodyField = findFieldByName('body');
+  const bodyField = findBodyField();
   if (!bodyField) return false;
 
   if (bodyField.dataset.forcedPreviewSyncEnabled === 'true') {
@@ -852,23 +1098,29 @@ function injectForcedPreviewSync() {
   bodyField.dataset.forcedPreviewSyncEnabled = 'true';
   const titleField = findFieldByName('title');
 
-  const scheduleRender = () => {
-    setTimeout(renderForcedPreview, 60);
-  };
+  const scheduleRender = () => schedulePreviewRender(60);
 
   bodyField.addEventListener('input', scheduleRender);
   bodyField.addEventListener('change', scheduleRender);
+  bodyField.addEventListener('paste', () => schedulePreviewRender(80));
   if (titleField) {
     titleField.addEventListener('input', scheduleRender);
     titleField.addEventListener('change', scheduleRender);
   }
 
-  // Initial and periodic refresh to follow CMS re-renders.
   scheduleRender();
-  setInterval(renderForcedPreview, 1200);
 
   console.log('Forced preview sync injected');
   return true;
+}
+
+let forcedPreviewTickerStarted = false;
+function startForcedPreviewTicker() {
+  if (forcedPreviewTickerStarted) return;
+  forcedPreviewTickerStarted = true;
+  setInterval(() => {
+    schedulePreviewRender(10);
+  }, 1200);
 }
 
 let forcedPreviewAttempts = 0;
@@ -890,9 +1142,18 @@ const observer = new MutationObserver(() => {
   addSidebarMenuItems();
   injectMDUploadButton();
   injectClipboardImageTools();
+  bindBodyFieldGuard();
+  lockRichTextMode();
   injectForcedPreviewSync();
-  renderForcedPreview();
+  schedulePreviewRender(40);
 });
+
+clearCmsDraftBackups();
+bindBodyFieldGuard();
+lockRichTextMode();
+startBodyGuardLoop();
+startForcedPreviewTicker();
+schedulePreviewRender(40);
 
 if (document.body) {
   observer.observe(document.body, {
@@ -901,4 +1162,4 @@ if (document.body) {
   });
 }
 
-console.log('Custom widgets loaded (v5.1.0)');
+console.log('Custom widgets loaded (v5.3.0)');

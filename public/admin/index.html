@@ -97,13 +97,22 @@
             const entryBody = entry && entry.getIn ? (entry.getIn(['data', 'body']) || '') : '';
             const rawBody = entryBody || getFallbackBodyText();
             const bodyLen = rawBody ? rawBody.length : 0;
+            const bodyWidget = (this.props && typeof this.props.widgetFor === 'function')
+              ? this.props.widgetFor('body')
+              : null;
+            const bodyNode = bodyWidget
+              || hFn(
+                'div',
+                { style: { whiteSpace: 'pre-wrap', fontSize: '14px', lineHeight: '1.7', color: '#2C2416', marginTop: '12px' } },
+                rawBody || '(body is empty)'
+              );
 
             return hFn(
               'article',
               { className: 'epickor-admin-preview' },
-              hFn('div', { style: { fontSize: '11px', opacity: 0.65, marginBottom: '8px' } }, `Preview template active (v20260224h, body=${bodyLen})`),
+              hFn('div', { style: { fontSize: '11px', opacity: 0.65, marginBottom: '8px' } }, `Preview template active (v20260224i, body=${bodyLen})`),
               hFn('h1', null, title || 'Untitled'),
-              hFn('div', { style: { whiteSpace: 'pre-wrap', fontSize: '14px', lineHeight: '1.7', color: '#2C2416', marginTop: '12px' } }, rawBody || '(body is empty)')
+              bodyNode
             );
           }
         });
@@ -137,7 +146,7 @@
       };
 
       const customScript = document.createElement('script');
-      customScript.src = '/admin/custom-widgets.js?v=20260224h';
+      customScript.src = '/admin/custom-widgets.js?v=20260224i';
       customScript.onload = function() {
         console.log('Custom widgets loaded');
         initCmsOnce();
