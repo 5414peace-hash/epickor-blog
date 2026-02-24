@@ -716,13 +716,179 @@ const clipboardToolsInterval = setInterval(() => {
 }, 1000);
 
 // ============================================
-// 7. DOM OBSERVER
+// 7. FORCED RIGHT-PREVIEW SYNC (iframe fallback)
+// ============================================
+
+function escapeHtml(text) {
+  return String(text || '')
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;')
+    .replace(/'/g, '&#39;');
+}
+
+function renderSimpleMarkdownToHtml(markdown) {
+  if (!markdown || typeof markdown !== 'string') {
+    return '';
+  }
+
+  const blocks = markdown.split(/\n{2,}/).map((b) => b.trim()).filter(Boolean);
+  const html = blocks.map((block) => {
+    // Keep trusted raw HTML blocks as-is (used for image layout wrappers).
+    if (/^<[^>]+>[\s\S]*<\/[^>]+>$/.test(block) || /^<img[\s\S]*\/?>$/i.test(block)) {
+      return block;
+    }
+
+    const headingMatch = block.match(/^(#{1,6})\s+(.+)$/);
+    if (headingMatch) {
+      const level = headingMatch[1].length;
+      const text = escapeHtml(headingMatch[2]);
+      return `<h${level}>${text}</h${level}>`;
+    }
+
+    let parsed = escapeHtml(block);
+    parsed = parsed.replace(/!\[([^\]]*)\]\(([^)]+)\)/g, '<img src="$2" alt="$1" />');
+    parsed = parsed.replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>');
+    parsed = parsed.replace(/\*([^*]+)\*/g, '<em>$1</em>');
+    parsed = parsed.replace(/\n/g, '<br />');
+    return `<p>${parsed}</p>`;
+  });
+
+  return html.join('\n');
+}
+
+function findPreviewIframe() {
+  const iframes = Array.from(document.querySelectorAll('iframe'));
+  if (!iframes.length) return null;
+
+  const candidates = iframes
+    .map((iframe) => {
+      const rect = iframe.getBoundingClientRect();
+      return {
+        iframe,
+        area: Math.max(0, rect.width) * Math.max(0, rect.height),
+      };
+    })
+    .sort((a, b) => b.area - a.area);
+
+  for (const candidate of candidates) {
+    try {
+      if (candidate.iframe && candidate.iframe.contentDocument) {
+        return candidate.iframe;
+      }
+    } catch (_error) {
+      // Cross-origin iframe, skip.
+    }
+  }
+
+  return null;
+}
+
+function renderForcedPreview() {
+  const bodyField = findFieldByName('body');
+  if (!bodyField) return false;
+
+  const iframe = findPreviewIframe();
+  if (!iframe) return false;
+
+  const titleField = findFieldByName('title');
+  const title = titleField && titleField.value ? titleField.value.trim() : 'Untitled';
+  const body = bodyField.value || '';
+  const contentHtml = renderSimpleMarkdownToHtml(body);
+  const hash = `${title}::${body.length}::${body.slice(0, 80)}`;
+
+  if (iframe.dataset.forcedPreviewHash === hash) {
+    return true;
+  }
+
+  try {
+    const doc = iframe.contentDocument;
+    if (!doc) return false;
+
+    doc.open();
+    doc.write(`<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <style>
+    body { font-family: 'Noto Serif KR', serif; line-height: 1.8; color: #2C2416; background: #FAF6F0; padding: 1.5rem; margin: 0; }
+    h1,h2,h3,h4,h5,h6 { font-family: 'Noto Sans KR', sans-serif; color: #2C2416; margin-top: 1.4rem; margin-bottom: 0.8rem; }
+    h1 { font-size: 2.2rem; border-bottom: 3px solid #E85A4F; padding-bottom: 0.4rem; margin-top: 0; }
+    p { margin-bottom: 1rem; }
+    img { max-width: 100%; height: auto; border-radius: 8px; margin: 1rem auto; display: block; }
+    .image-grid-2up { display: flex; gap: 0.6rem; margin: 1.2rem 0; }
+    .image-grid-2up img { width: 48%; margin: 0; }
+    .preview-badge { font-size: 11px; opacity: 0.65; margin-bottom: 8px; }
+  </style>
+</head>
+<body>
+  <div class="preview-badge">Forced preview sync active (v20260224e)</div>
+  <h1>${escapeHtml(title)}</h1>
+  ${contentHtml}
+</body>
+</html>`);
+    doc.close();
+
+    iframe.dataset.forcedPreviewHash = hash;
+    return true;
+  } catch (error) {
+    console.error('Forced preview render failed:', error);
+    return false;
+  }
+}
+
+function injectForcedPreviewSync() {
+  const bodyField = findFieldByName('body');
+  if (!bodyField) return false;
+
+  if (bodyField.dataset.forcedPreviewSyncEnabled === 'true') {
+    return true;
+  }
+
+  bodyField.dataset.forcedPreviewSyncEnabled = 'true';
+  const titleField = findFieldByName('title');
+
+  const scheduleRender = () => {
+    setTimeout(renderForcedPreview, 60);
+  };
+
+  bodyField.addEventListener('input', scheduleRender);
+  bodyField.addEventListener('change', scheduleRender);
+  if (titleField) {
+    titleField.addEventListener('input', scheduleRender);
+    titleField.addEventListener('change', scheduleRender);
+  }
+
+  // Initial and periodic refresh to follow CMS re-renders.
+  scheduleRender();
+  setInterval(renderForcedPreview, 1200);
+
+  console.log('Forced preview sync injected');
+  return true;
+}
+
+let forcedPreviewAttempts = 0;
+const forcedPreviewInterval = setInterval(() => {
+  if (injectForcedPreviewSync()) {
+    clearInterval(forcedPreviewInterval);
+  } else if (forcedPreviewAttempts >= 30) {
+    clearInterval(forcedPreviewInterval);
+    console.error('Forced preview sync injection failed');
+  }
+  forcedPreviewAttempts++;
+}, 1000);
+
+// ============================================
+// 8. DOM OBSERVER
 // ============================================
 
 const observer = new MutationObserver(() => {
   addSidebarMenuItems();
   injectMDUploadButton();
   injectClipboardImageTools();
+  injectForcedPreviewSync();
+  renderForcedPreview();
 });
 
 if (document.body) {
