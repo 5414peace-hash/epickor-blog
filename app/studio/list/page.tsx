@@ -35,6 +35,14 @@ interface DashboardPayload {
   rows: DashboardRow[];
 }
 
+interface DeletePostResponse {
+  ok?: boolean;
+  error?: string;
+  path?: string;
+  slug?: string;
+  warning?: string;
+}
+
 function extractGithubTokenFromStorage(): string {
   const tryKeys = ['decap-cms-user', 'netlify-cms-user'];
   for (const key of tryKeys) {
@@ -84,13 +92,24 @@ function formatLocal(value: string): string {
   return d.toLocaleString();
 }
 
+async function parseJsonResponse<T>(response: Response, context: string): Promise<T> {
+  const text = await response.text();
+  try {
+    return (text ? JSON.parse(text) : {}) as T;
+  } catch (_error) {
+    throw new Error(`${context} returned non-JSON (${response.status}).`);
+  }
+}
+
 export default function StudioListPage() {
   const [rangeMode, setRangeMode] = useState<RangeMode>('30d');
   const [customStart, setCustomStart] = useState<string>(getDefaultCustomStart());
   const [customEnd, setCustomEnd] = useState<string>(getTodayUtc());
   const [loading, setLoading] = useState<boolean>(true);
+  const [status, setStatus] = useState<string>('');
   const [error, setError] = useState<string>('');
   const [warning, setWarning] = useState<string>('');
+  const [deletingFileName, setDeletingFileName] = useState<string>('');
   const [data, setData] = useState<DashboardPayload | null>(null);
 
   const queryString = useMemo(() => {
@@ -108,6 +127,7 @@ export default function StudioListPage() {
     let canceled = false;
     async function load() {
       setLoading(true);
+      setStatus('');
       setError('');
       setWarning('');
       try {
@@ -116,7 +136,10 @@ export default function StudioListPage() {
           cache: 'no-store',
           headers: token ? { 'x-github-token': token } : undefined,
         });
-        const json = (await response.json()) as DashboardPayload & { error?: string };
+        const json = await parseJsonResponse<DashboardPayload & { error?: string }>(
+          response,
+          'List API'
+        );
         if (!response.ok) {
           throw new Error(json.error || `List API failed (${response.status})`);
         }
@@ -135,6 +158,65 @@ export default function StudioListPage() {
       canceled = true;
     };
   }, [queryString]);
+
+  const handleDelete = async (row: DashboardRow) => {
+    setStatus('');
+    setError('');
+    setWarning('');
+
+    const ok = window.confirm(
+      `Delete post ${row.slug}?\n\nTitle: ${row.title}\n\nThis will permanently remove content/blog/${row.fileName}`
+    );
+    if (!ok) return;
+
+    try {
+      setDeletingFileName(row.fileName);
+      const token = extractGithubTokenFromStorage();
+      const response = await fetch('/api/studio/delete', {
+        method: 'POST',
+        headers: token
+          ? {
+              'Content-Type': 'application/json',
+              'x-github-token': token,
+            }
+          : {
+              'Content-Type': 'application/json',
+            },
+        body: JSON.stringify({
+          fileName: row.fileName,
+          slug: row.slug,
+        }),
+      });
+
+      const json = await parseJsonResponse<DeletePostResponse>(response, 'Delete API');
+      if (!response.ok || !json.ok) {
+        throw new Error(json.error || `Delete failed (${response.status})`);
+      }
+
+      setData((prev) => {
+        if (!prev) return prev;
+        const nextRows = prev.rows.filter((item) => item.fileName !== row.fileName);
+        const nextTotalViews = Math.max(0, prev.summary.totalViews - row.views);
+        return {
+          ...prev,
+          rows: nextRows,
+          summary: {
+            postCount: nextRows.length,
+            totalViews: nextTotalViews,
+          },
+        };
+      });
+
+      if (json.warning) {
+        setWarning(json.warning);
+      }
+      setStatus(`Deleted: ${row.fileName}`);
+    } catch (err) {
+      setError(err instanceof Error ? err.message : 'Delete failed');
+    } finally {
+      setDeletingFileName('');
+    }
+  };
 
   return (
     <div className="mx-auto max-w-7xl px-4 py-8">
@@ -183,6 +265,7 @@ export default function StudioListPage() {
         </div>
       </div>
 
+      {status ? <div className="mb-4 rounded border border-emerald-300 bg-emerald-50 px-4 py-3 text-sm text-emerald-800">{status}</div> : null}
       {warning ? <div className="mb-4 rounded border border-amber-300 bg-amber-50 px-4 py-3 text-sm text-amber-900">{warning}</div> : null}
       {error ? <div className="mb-4 rounded border border-red-300 bg-red-50 px-4 py-3 text-sm text-red-700">{error}</div> : null}
 
@@ -198,12 +281,13 @@ export default function StudioListPage() {
               <th className="px-3 py-2 text-right font-semibold text-gray-700">Views</th>
               <th className="px-3 py-2 text-right font-semibold text-gray-700">Total</th>
               <th className="px-3 py-2 text-left font-semibold text-gray-700">Modified</th>
+              <th className="px-3 py-2 text-left font-semibold text-gray-700">Actions</th>
             </tr>
           </thead>
           <tbody className="divide-y divide-gray-100">
             {loading ? (
               <tr>
-                <td colSpan={8} className="px-3 py-8 text-center text-gray-500">
+                <td colSpan={9} className="px-3 py-8 text-center text-gray-500">
                   Loading list...
                 </td>
               </tr>
@@ -230,11 +314,33 @@ export default function StudioListPage() {
                   <td className="px-3 py-2 text-right font-semibold text-gray-900">{row.views.toLocaleString()}</td>
                   <td className="px-3 py-2 text-right font-semibold text-gray-900">{row.totalViews.toLocaleString()}</td>
                   <td className="px-3 py-2 text-xs text-gray-600">{formatLocal(row.lastModified)}</td>
+                  <td className="px-3 py-2">
+                    <div className="flex items-center gap-2">
+                      <a
+                        href={row.path}
+                        target="_blank"
+                        rel="noreferrer"
+                        className="rounded border border-gray-300 px-2 py-1 text-xs text-gray-700 hover:bg-gray-50"
+                      >
+                        Open
+                      </a>
+                      <button
+                        type="button"
+                        className="rounded border border-red-300 bg-red-50 px-2 py-1 text-xs text-red-700 hover:bg-red-100 disabled:cursor-not-allowed disabled:opacity-60"
+                        onClick={() => {
+                          void handleDelete(row);
+                        }}
+                        disabled={Boolean(deletingFileName)}
+                      >
+                        {deletingFileName === row.fileName ? 'Deleting...' : 'Delete'}
+                      </button>
+                    </div>
+                  </td>
                 </tr>
               ))
             ) : (
               <tr>
-                <td colSpan={8} className="px-3 py-8 text-center text-gray-500">
+                <td colSpan={9} className="px-3 py-8 text-center text-gray-500">
                   No posts found.
                 </td>
               </tr>

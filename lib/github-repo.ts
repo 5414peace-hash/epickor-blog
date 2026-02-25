@@ -130,3 +130,36 @@ export async function putFileToGithub(
   }
 }
 
+export async function deleteFileFromGithub(
+  filePath: string,
+  message: string,
+  options?: { sha?: string; overrideToken?: string }
+): Promise<boolean> {
+  const config = getRepoConfig(options?.overrideToken);
+  const sha = options?.sha || (await getFileFromGithub(filePath, options?.overrideToken))?.sha;
+
+  if (!sha) {
+    return false;
+  }
+
+  const response = await githubFetch(config, `contents/${filePath}`, {
+    method: 'DELETE',
+    body: JSON.stringify({
+      message,
+      sha,
+      branch: config.branch,
+    }),
+  });
+
+  if (response.status === 404) {
+    return false;
+  }
+
+  if (!response.ok) {
+    const text = await response.text();
+    throw new Error(`GitHub delete file failed (${response.status}): ${text.slice(0, 260)}`);
+  }
+
+  return true;
+}
+
