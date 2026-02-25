@@ -43,6 +43,10 @@ interface DeletePostResponse {
   warning?: string;
 }
 
+const GITHUB_OWNER = '5414peace-hash';
+const GITHUB_REPO = 'epickor-blog';
+const GITHUB_BRANCH = 'master';
+
 function extractGithubTokenFromStorage(): string {
   const tryKeys = ['decap-cms-user', 'netlify-cms-user'];
   for (const key of tryKeys) {
@@ -98,6 +102,51 @@ async function parseJsonResponse<T>(response: Response, context: string): Promis
     return (text ? JSON.parse(text) : {}) as T;
   } catch (_error) {
     throw new Error(`${context} returned non-JSON (${response.status}).`);
+  }
+}
+
+function githubHeaders(token: string): HeadersInit {
+  return {
+    Authorization: `token ${token}`,
+    Accept: 'application/vnd.github+json',
+    'Content-Type': 'application/json',
+  };
+}
+
+async function getGithubFileSha(path: string, token: string): Promise<string | undefined> {
+  const url = `https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/contents/${path}?ref=${encodeURIComponent(GITHUB_BRANCH)}`;
+  const response = await fetch(url, { headers: githubHeaders(token) });
+  if (response.status === 404) return undefined;
+
+  const json = await parseJsonResponse<{ sha?: string; message?: string }>(response, 'GitHub file lookup');
+  if (!response.ok) {
+    throw new Error(json.message || `GitHub file lookup failed (${response.status}).`);
+  }
+
+  return json.sha;
+}
+
+async function deleteViaGithubDirect(fileName: string, slug: string, token: string): Promise<void> {
+  const repoPath = `content/blog/${fileName}`;
+  const sha = await getGithubFileSha(repoPath, token);
+  if (!sha) {
+    throw new Error(`Target file not found in GitHub: ${repoPath}`);
+  }
+
+  const url = `https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/contents/${repoPath}`;
+  const response = await fetch(url, {
+    method: 'DELETE',
+    headers: githubHeaders(token),
+    body: JSON.stringify({
+      message: `[studio] delete post ${slug}`,
+      sha,
+      branch: GITHUB_BRANCH,
+    }),
+  });
+
+  const json = await parseJsonResponse<{ message?: string }>(response, 'GitHub file delete');
+  if (!response.ok) {
+    throw new Error(json.message || `GitHub delete failed (${response.status}).`);
   }
 }
 
@@ -172,25 +221,50 @@ export default function StudioListPage() {
     try {
       setDeletingFileName(row.fileName);
       const token = extractGithubTokenFromStorage();
-      const response = await fetch('/api/studio/delete', {
-        method: 'POST',
-        headers: token
-          ? {
-              'Content-Type': 'application/json',
-              'x-github-token': token,
-            }
-          : {
-              'Content-Type': 'application/json',
-            },
-        body: JSON.stringify({
-          fileName: row.fileName,
-          slug: row.slug,
-        }),
-      });
+      let deleted = false;
+      let apiError = '';
+      let apiWarning = '';
 
-      const json = await parseJsonResponse<DeletePostResponse>(response, 'Delete API');
-      if (!response.ok || !json.ok) {
-        throw new Error(json.error || `Delete failed (${response.status})`);
+      try {
+        const response = await fetch('/api/studio/delete', {
+          method: 'POST',
+          headers: token
+            ? {
+                'Content-Type': 'application/json',
+                'x-github-token': token,
+              }
+            : {
+                'Content-Type': 'application/json',
+              },
+          body: JSON.stringify({
+            fileName: row.fileName,
+            slug: row.slug,
+          }),
+        });
+
+        const json = await parseJsonResponse<DeletePostResponse>(response, 'Delete API');
+        if (!response.ok || !json.ok) {
+          throw new Error(json.error || `Delete failed (${response.status})`);
+        }
+        deleted = true;
+        apiWarning = json.warning || '';
+      } catch (apiErr) {
+        apiError = apiErr instanceof Error ? apiErr.message : 'Delete API failed.';
+      }
+
+      if (!deleted) {
+        if (!token) {
+          throw new Error(
+            `${apiError} Fallback delete requires GitHub token. Login once in /admin first.`
+          );
+        }
+        await deleteViaGithubDirect(row.fileName, row.slug, token);
+        deleted = true;
+        setStatus(`Deleted via direct fallback: ${row.fileName}`);
+      }
+
+      if (!deleted) {
+        throw new Error('Delete failed.');
       }
 
       setData((prev) => {
@@ -207,10 +281,12 @@ export default function StudioListPage() {
         };
       });
 
-      if (json.warning) {
-        setWarning(json.warning);
+      if (apiWarning) {
+        setWarning(apiWarning);
       }
-      setStatus(`Deleted: ${row.fileName}`);
+      if (!apiError) {
+        setStatus(`Deleted: ${row.fileName}`);
+      }
     } catch (err) {
       setError(err instanceof Error ? err.message : 'Delete failed');
     } finally {
