@@ -11,6 +11,18 @@ import { processImages } from './image-resolver';
 
 const contentDirectory = path.join(process.cwd(), 'content/blog');
 
+interface GithubRepoConfig {
+  owner: string;
+  repo: string;
+  branch: string;
+  token: string;
+}
+
+interface RemoteMarkdownFile {
+  fileName: string;
+  content: string;
+}
+
 export interface BlogPost {
   slug: string;
   title: string;
@@ -82,6 +94,60 @@ function isPostEligibleForStaticParams(
   }
 
   return true;
+}
+
+function getGithubRepoConfig(): GithubRepoConfig {
+  const repoFullName = process.env.STUDIO_REPO || '5414peace-hash/epickor-blog';
+  const branch = process.env.STUDIO_BRANCH || 'master';
+  const [owner, repo] = repoFullName.split('/');
+
+  if (!owner || !repo) {
+    throw new Error(`Invalid STUDIO_REPO format: ${repoFullName}`);
+  }
+
+  return {
+    owner,
+    repo,
+    branch,
+    token:
+      process.env.STUDIO_GITHUB_TOKEN ||
+      process.env.GITHUB_TOKEN ||
+      process.env.GITHUB_PAT ||
+      '',
+  };
+}
+
+async function fetchRemoteMarkdownBySlug(slug: string): Promise<RemoteMarkdownFile | null> {
+  if (!slug) return null;
+
+  try {
+    const config = getGithubRepoConfig();
+    const remotePath = `content/blog/${slug}.md`;
+    const headers: Record<string, string> = {
+      Accept: 'text/plain',
+    };
+
+    if (config.token) {
+      headers.Authorization = `token ${config.token}`;
+    }
+
+    const url = `https://raw.githubusercontent.com/${config.owner}/${config.repo}/${config.branch}/${remotePath}`;
+    const response = await fetch(url, {
+      headers,
+      cache: 'no-store',
+    });
+
+    if (!response.ok) {
+      return null;
+    }
+
+    return {
+      fileName: `${slug}.md`,
+      content: await response.text(),
+    };
+  } catch (_error) {
+    return null;
+  }
 }
 
 /**
@@ -215,13 +281,21 @@ export function getAllBlogPosts(now: Date = new Date()): BlogPostMetadata[] {
 export async function getBlogPost(slug: string, now: Date = new Date()): Promise<BlogPost | null> {
   try {
     const fileName = findFileBySlug(slug);
+    let resolvedFileName = fileName || '';
+    let fileContents = '';
 
-    if (!fileName) {
-      return null;
+    if (fileName) {
+      const fullPath = path.join(contentDirectory, fileName);
+      fileContents = fs.readFileSync(fullPath, 'utf8');
+    } else {
+      const remote = await fetchRemoteMarkdownBySlug(slug);
+      if (!remote) {
+        return null;
+      }
+      resolvedFileName = remote.fileName;
+      fileContents = remote.content;
     }
 
-    const fullPath = path.join(contentDirectory, fileName);
-    const fileContents = fs.readFileSync(fullPath, 'utf8');
     const { data, content } = matter(fileContents);
 
     const frontmatter = data as Record<string, unknown>;
@@ -235,8 +309,12 @@ export async function getBlogPost(slug: string, now: Date = new Date()): Promise
       .process(content);
 
     let contentHtml = processedContent.toString();
+    contentHtml = contentHtml.replace(
+      /<p>\s*\{\{\s*IMAGE[_-]?\d+\s*\}\}\s*<\/p>/gim,
+      ''
+    );
 
-    const postSlug = (frontmatter.slug as string) || fileName.replace(/\.md$/, '');
+    const postSlug = (frontmatter.slug as string) || resolvedFileName.replace(/\.md$/, '');
 
     const allPosts = getAllBlogPosts(now);
 

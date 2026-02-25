@@ -5,6 +5,7 @@ import { getBlogPost, getAllBlogSlugs, getAllBlogPosts } from '@/lib/blog';
 import { getRelatedPosts } from '@/lib/related-posts';
 import { AMAZON_PRODUCTS, generateProductSchema } from '@/lib/markdown-enhancer';
 import { format } from 'date-fns';
+import ViewTracker from './view-tracker';
 
 export const revalidate = 60;
 
@@ -55,6 +56,8 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
 
   return (
     <div className="min-h-screen bg-white">
+      <ViewTracker slug={slug} />
+
       {/* Hero Image */}
       {post.ogImage && (
         <div className="relative h-96 w-full bg-gray-100">

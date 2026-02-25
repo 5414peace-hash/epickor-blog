@@ -24,13 +24,30 @@ export function resolveImagePaths(html: string, postSlug: string): string {
   const imgPattern = /<img([^>]*)src="([^"]+)"([^>]*)>/g;
   
   return html.replace(imgPattern, (match, before, src, after) => {
+    const rawSrc = String(src || '').trim();
+    if (!rawSrc) {
+      return '';
+    }
+
+    let decodedSrc = rawSrc;
+    try {
+      decodedSrc = decodeURIComponent(rawSrc);
+    } catch (_e) {
+      // Keep original value.
+    }
+
+    // Ignore unresolved template placeholders such as {{IMAGE_1}}.
+    if (/\{\{[^}]+\}\}/.test(decodedSrc)) {
+      return '';
+    }
+
     // Skip if already an absolute URL or external image
-    if (src.startsWith('http://') || src.startsWith('https://') || src.startsWith('//')) {
+    if (rawSrc.startsWith('http://') || rawSrc.startsWith('https://') || rawSrc.startsWith('//')) {
       return match;
     }
     
     // Extract filename from path
-    const filename = src.split('/').pop() || src;
+    const filename = rawSrc.split('/').pop() || rawSrc;
     
     // Construct new path
     const newSrc = `/assets/images/posts/${postId}/${filename}`;
