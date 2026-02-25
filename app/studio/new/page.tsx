@@ -363,6 +363,15 @@ async function publishViaGithubDirect(
   return targetPath;
 }
 
+async function verifyPostReachable(path: string): Promise<string> {
+  try {
+    const response = await fetch(`${path}?v=${Date.now()}`, { cache: 'no-store' });
+    return response.ok ? 'Live check: 200' : `Live check: ${response.status}`;
+  } catch (_error) {
+    return 'Live check: failed';
+  }
+}
+
 export default function StudioNewPostPage() {
   const [form, setForm] = useState<ParsedMdPayload>(INITIAL_FORM);
   const [tagsInput, setTagsInput] = useState<string>('');
@@ -373,6 +382,7 @@ export default function StudioNewPostPage() {
   const [uploadedFileName, setUploadedFileName] = useState<string>('');
   const [amazonProducts, setAmazonProducts] = useState<AmazonProduct[]>([]);
   const [amazonWarning, setAmazonWarning] = useState<string>('');
+  const [publishedUrl, setPublishedUrl] = useState<string>('');
 
   const fileInputRef = useRef<HTMLInputElement>(null);
   const bodyInputRef = useRef<HTMLTextAreaElement>(null);
@@ -537,6 +547,7 @@ export default function StudioNewPostPage() {
   const handlePublish = async () => {
     setError('');
     setStatus('');
+    setPublishedUrl('');
 
     const token = extractGithubTokenFromStorage();
     const payload: ParsedMdPayload = {
@@ -567,7 +578,14 @@ export default function StudioNewPostPage() {
           }),
         });
 
-        const json = await parseJsonResponse<{ ok?: boolean; error?: string; path?: string }>(
+        const json = await parseJsonResponse<{
+          ok?: boolean;
+          error?: string;
+          path?: string;
+          postUrl?: string;
+          changed?: boolean;
+          message?: string;
+        }>(
           response,
           'Publish API'
         );
@@ -575,6 +593,14 @@ export default function StudioNewPostPage() {
           throw new Error(json.error || `Publish failed (${response.status})`);
         }
         publishedPath = json.path;
+        const postUrl = json.postUrl || `/blog/${payload.slug}`;
+        setPublishedUrl(postUrl);
+        const liveResult = await verifyPostReachable(postUrl);
+        if (json.changed === false) {
+          setStatus(`${json.message || 'No content changes detected; publish skipped.'} ${liveResult}`);
+        } else {
+          setStatus(`Published: ${json.path} (${liveResult})`);
+        }
       } catch (apiErr) {
         apiError = apiErr instanceof Error ? apiErr.message : 'Publish API failed.';
       }
@@ -586,9 +612,10 @@ export default function StudioNewPostPage() {
           );
         }
         publishedPath = await publishViaGithubDirect(payload, mode, token);
-        setStatus(`Published via direct fallback: ${publishedPath}`);
-      } else {
-        setStatus(`Published: ${publishedPath}`);
+        const postUrl = `/blog/${payload.slug}`;
+        setPublishedUrl(postUrl);
+        const liveResult = await verifyPostReachable(postUrl);
+        setStatus(`Published via direct fallback: ${publishedPath} (${liveResult})`);
       }
     } catch (err) {
       const message = err instanceof Error ? err.message : 'Publish failed.';
@@ -639,6 +666,14 @@ export default function StudioNewPostPage() {
       {status ? (
         <div className="mb-4 rounded border border-emerald-300 bg-emerald-50 px-4 py-3 text-sm text-emerald-800">
           {status}
+        </div>
+      ) : null}
+      {publishedUrl ? (
+        <div className="mb-4 rounded border border-blue-300 bg-blue-50 px-4 py-3 text-sm text-blue-800">
+          Open post:{' '}
+          <a className="underline" href={publishedUrl} target="_blank" rel="noreferrer">
+            {publishedUrl}
+          </a>
         </div>
       ) : null}
       {error ? (

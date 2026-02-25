@@ -92,6 +92,21 @@ export async function POST(request: NextRequest) {
     const targetPath = `content/blog/${sanitizedPayload.slug}.md`;
     const existing = await getFileFromGithub(targetPath, token);
     const markdown = buildMarkdownContent(sanitizedPayload);
+    const normalizedExisting = (existing?.content || '').replace(/\r\n/g, '\n').trim();
+    const normalizedNext = markdown.replace(/\r\n/g, '\n').trim();
+
+    if (existing && normalizedExisting === normalizedNext) {
+      return NextResponse.json({
+        ok: true,
+        path: targetPath,
+        mode,
+        created: false,
+        changed: false,
+        postUrl: `/blog/${sanitizedPayload.slug}`,
+        message: 'No content changes detected; publish skipped.',
+      });
+    }
+
     const commitMessage = existing
       ? `[studio] update post ${sanitizedPayload.slug}`
       : `[studio] create post ${sanitizedPayload.slug}`;
@@ -106,6 +121,8 @@ export async function POST(request: NextRequest) {
       path: targetPath,
       mode,
       created: !existing,
+      changed: true,
+      postUrl: `/blog/${sanitizedPayload.slug}`,
     });
   } catch (error) {
     const message = error instanceof Error ? error.message : 'publish failed';
