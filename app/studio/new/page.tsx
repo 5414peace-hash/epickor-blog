@@ -845,7 +845,7 @@ export default function StudioNewPostPage() {
 
         <section className="rounded-lg border border-gray-200 bg-white p-4">
           <h2 className="mb-3 text-lg font-semibold text-gray-900">Live Preview</h2>
-          <article className="prose max-w-none leading-7">
+          <article className="max-w-none leading-7 text-[15px] text-gray-900 [&_h1]:mb-4 [&_h1]:text-3xl [&_h2]:mb-3 [&_h2]:mt-6 [&_h2]:text-2xl [&_h3]:mb-2 [&_h3]:mt-5 [&_h3]:text-xl [&_hr]:my-5 [&_ol]:my-4 [&_ol]:list-decimal [&_ol]:pl-6 [&_p]:my-4 [&_ul]:my-4 [&_ul]:list-disc [&_ul]:pl-6 [&_li]:my-1 [&_img]:my-4 [&_img]:h-auto [&_img]:max-w-full [&_img]:rounded">
             <h1>{form.title || 'Untitled'}</h1>
             <div dangerouslySetInnerHTML={{ __html: previewHtml }} />
           </article>

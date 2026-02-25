@@ -1,4 +1,5 @@
 import { NextRequest, NextResponse } from 'next/server';
+import { revalidatePath } from 'next/cache';
 import { buildMarkdownContent, type ParsedMdPayload } from '@/lib/studio-markdown';
 import { getFileFromGithub, putFileToGithub } from '@/lib/github-repo';
 
@@ -115,6 +116,12 @@ export async function POST(request: NextRequest) {
       sha: existing?.sha,
       overrideToken: token,
     });
+
+    // Ensure list/post caches are invalidated immediately after publish.
+    revalidatePath('/');
+    revalidatePath('/studio');
+    revalidatePath('/studio/list');
+    revalidatePath(`/blog/${sanitizedPayload.slug}`);
 
     return NextResponse.json({
       ok: true,

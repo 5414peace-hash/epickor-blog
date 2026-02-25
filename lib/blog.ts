@@ -117,12 +117,12 @@ function getGithubRepoConfig(): GithubRepoConfig {
   };
 }
 
-async function fetchRemoteMarkdownBySlug(slug: string): Promise<RemoteMarkdownFile | null> {
-  if (!slug) return null;
-
+async function fetchRemoteMarkdownByPath(
+  remotePath: string,
+  fileName: string
+): Promise<RemoteMarkdownFile | null> {
   try {
     const config = getGithubRepoConfig();
-    const remotePath = `content/blog/${slug}.md`;
     const headers: Record<string, string> = {
       Accept: 'text/plain',
     };
@@ -142,12 +142,23 @@ async function fetchRemoteMarkdownBySlug(slug: string): Promise<RemoteMarkdownFi
     }
 
     return {
-      fileName: `${slug}.md`,
+      fileName,
       content: await response.text(),
     };
   } catch (_error) {
     return null;
   }
+}
+
+async function fetchRemoteMarkdownBySlug(slug: string): Promise<RemoteMarkdownFile | null> {
+  if (!slug) return null;
+
+  return fetchRemoteMarkdownByPath(`content/blog/${slug}.md`, `${slug}.md`);
+}
+
+async function fetchRemoteMarkdownByFileName(fileName: string): Promise<RemoteMarkdownFile | null> {
+  if (!fileName || !fileName.endsWith('.md')) return null;
+  return fetchRemoteMarkdownByPath(`content/blog/${fileName}`, fileName);
 }
 
 /**
@@ -281,19 +292,22 @@ export function getAllBlogPosts(now: Date = new Date()): BlogPostMetadata[] {
 export async function getBlogPost(slug: string, now: Date = new Date()): Promise<BlogPost | null> {
   try {
     const fileName = findFileBySlug(slug);
+    const remoteBySlug = await fetchRemoteMarkdownBySlug(slug);
+    const remoteByFileName =
+      !remoteBySlug && fileName ? await fetchRemoteMarkdownByFileName(fileName) : null;
+    const remote = remoteBySlug || remoteByFileName;
+
     let resolvedFileName = fileName || '';
     let fileContents = '';
 
-    if (fileName) {
+    if (remote) {
+      resolvedFileName = remote.fileName;
+      fileContents = remote.content;
+    } else if (fileName) {
       const fullPath = path.join(contentDirectory, fileName);
       fileContents = fs.readFileSync(fullPath, 'utf8');
     } else {
-      const remote = await fetchRemoteMarkdownBySlug(slug);
-      if (!remote) {
-        return null;
-      }
-      resolvedFileName = remote.fileName;
-      fileContents = remote.content;
+      return null;
     }
 
     const { data, content } = matter(fileContents);
