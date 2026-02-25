@@ -30,7 +30,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
     openGraph: {
       title: post.title,
       description: post.description,
-      images: [post.ogImage],
+      ...(post.ogImage ? { images: [post.ogImage] } : {}),
       url: `https://www.epickor.com/blog/${slug}`,
     },
   };

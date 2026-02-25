@@ -8,6 +8,7 @@ import rehypeHighlight from 'rehype-highlight';
 import rehypeRaw from 'rehype-raw';
 import { enhanceMarkdownHTML } from './markdown-enhancer';
 import { processImages } from './image-resolver';
+import { extractFirstImageUrl } from './markdown-images';
 
 const contentDirectory = path.join(process.cwd(), 'content/blog');
 
@@ -94,6 +95,12 @@ function isPostEligibleForStaticParams(
   }
 
   return true;
+}
+
+function resolveOgImage(frontmatterOgImage: unknown, markdownBody: string): string {
+  const explicit = typeof frontmatterOgImage === 'string' ? frontmatterOgImage.trim() : '';
+  if (explicit) return explicit;
+  return extractFirstImageUrl(markdownBody);
 }
 
 function getGithubRepoConfig(): GithubRepoConfig {
@@ -250,13 +257,7 @@ export function getAllBlogPosts(now: Date = new Date()): BlogPostMetadata[] {
           return null;
         }
 
-        let ogImage = (frontmatter.ogImage as string) || '';
-        if (!ogImage) {
-          const imgMatch = content.match(/!\[.*?\]\((.+?)\)/);
-          if (imgMatch && imgMatch[1]) {
-            ogImage = imgMatch[1];
-          }
-        }
+        const ogImage = resolveOgImage(frontmatter.ogImage, content);
 
         return {
           slug,
@@ -340,7 +341,7 @@ export async function getBlogPost(slug: string, now: Date = new Date()): Promise
       title: (frontmatter.title as string) || '',
       date: (frontmatter.date as string) || '',
       description: (frontmatter.description as string) || '',
-      ogImage: (frontmatter.ogImage as string) || '',
+      ogImage: resolveOgImage(frontmatter.ogImage, content),
       tags: (frontmatter.tags as string[]) || [],
       author: (frontmatter.author as string) || 'EpicKor',
       content: contentHtml,

@@ -2,6 +2,7 @@ import { NextRequest, NextResponse } from 'next/server';
 import { revalidatePath } from 'next/cache';
 import { buildMarkdownContent, type ParsedMdPayload } from '@/lib/studio-markdown';
 import { getFileFromGithub, putFileToGithub } from '@/lib/github-repo';
+import { extractFirstImageUrl } from '@/lib/markdown-images';
 
 export const runtime = 'nodejs';
 export const dynamic = 'force-dynamic';
@@ -81,9 +82,12 @@ export async function POST(request: NextRequest) {
 
     const mode = normalizeMode(body.mode);
     const payload = applyMode(body.payload, mode);
+    const sanitizedBody = sanitizeBodyBeforePublish(payload.body || '');
+    const normalizedOgImage = (payload.ogImage || '').trim() || extractFirstImageUrl(sanitizedBody);
     const sanitizedPayload: ParsedMdPayload = {
       ...payload,
-      body: sanitizeBodyBeforePublish(payload.body || ''),
+      body: sanitizedBody,
+      ogImage: normalizedOgImage,
     };
 
     if (!sanitizedPayload.slug || !sanitizedPayload.title || !sanitizedPayload.date) {
