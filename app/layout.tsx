@@ -8,6 +8,9 @@ const inter = Inter({ subsets: ['latin'] });
 export const metadata: Metadata = {
   title: "EpicKor | No.1 Korean Dispatch Channel",
   description: "Discover Hidden Travel Gems, Unique Attractions, and Must-Visit Destinations in Korea",
+  verification: {
+    google: "lkmJl1SXKSHSfz7_W2pK3VG-_VrxvN820yQ_xmydpUg",
+  },
   openGraph: {
     title: "EpicKor | No.1 Korean Dispatch Channel",
     description: "Discover Hidden Travel Gems, Unique Attractions, and Must-Visit Destinations in Korea",
