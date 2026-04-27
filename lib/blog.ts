@@ -293,10 +293,8 @@ export function getAllBlogPosts(now: Date = new Date()): BlogPostMetadata[] {
 export async function getBlogPost(slug: string, now: Date = new Date()): Promise<BlogPost | null> {
   try {
     const fileName = findFileBySlug(slug);
-    const preferLocal = process.env.NODE_ENV !== 'production';
-    const remoteBySlug = preferLocal ? null : await fetchRemoteMarkdownBySlug(slug);
-    const remoteByFileName =
-      !preferLocal && !remoteBySlug && fileName ? await fetchRemoteMarkdownByFileName(fileName) : null;
+    const remoteBySlug = fileName ? null : await fetchRemoteMarkdownBySlug(slug);
+    const remoteByFileName = !remoteBySlug && !fileName ? await fetchRemoteMarkdownByFileName(`${slug}.md`) : null;
     const remote = remoteBySlug || remoteByFileName;
 
     let resolvedFileName = fileName || '';
