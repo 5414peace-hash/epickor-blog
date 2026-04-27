@@ -293,9 +293,10 @@ export function getAllBlogPosts(now: Date = new Date()): BlogPostMetadata[] {
 export async function getBlogPost(slug: string, now: Date = new Date()): Promise<BlogPost | null> {
   try {
     const fileName = findFileBySlug(slug);
-    const remoteBySlug = await fetchRemoteMarkdownBySlug(slug);
+    const preferLocal = process.env.NODE_ENV !== 'production';
+    const remoteBySlug = preferLocal ? null : await fetchRemoteMarkdownBySlug(slug);
     const remoteByFileName =
-      !remoteBySlug && fileName ? await fetchRemoteMarkdownByFileName(fileName) : null;
+      !preferLocal && !remoteBySlug && fileName ? await fetchRemoteMarkdownByFileName(fileName) : null;
     const remote = remoteBySlug || remoteByFileName;
 
     let resolvedFileName = fileName || '';
@@ -392,9 +393,10 @@ export function getAllBlogSlugs(options: { includeScheduled?: boolean; includePr
 export async function getBlogPostForPreview(slug: string): Promise<BlogPost | null> {
   try {
     const fileName = findFileBySlug(slug);
-    const remoteBySlug = await fetchRemoteMarkdownBySlug(slug);
+    const preferLocal = process.env.NODE_ENV !== 'production';
+    const remoteBySlug = preferLocal ? null : await fetchRemoteMarkdownBySlug(slug);
     const remoteByFileName =
-      !remoteBySlug && fileName ? await fetchRemoteMarkdownByFileName(fileName) : null;
+      !preferLocal && !remoteBySlug && fileName ? await fetchRemoteMarkdownByFileName(fileName) : null;
     const remote = remoteBySlug || remoteByFileName;
 
     let resolvedFileName = fileName || '';
