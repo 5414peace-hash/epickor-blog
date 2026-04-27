@@ -42,6 +42,10 @@ const nextConfig: NextConfig = {
       },
       {
         protocol: 'https',
+        hostname: 'images.pexels.com',
+      },
+      {
+        protocol: 'https',
         hostname: 'private-us-east-1.manuscdn.com',
       },
       {
