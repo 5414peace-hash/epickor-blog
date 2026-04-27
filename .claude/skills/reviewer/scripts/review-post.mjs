@@ -167,8 +167,21 @@ function checkImageIssues(markdown) {
   const issues = [];
   const imgMatches = [...markdown.matchAll(/!\[([^\]]*)\]\(([^)]+)\)/g)];
   for (const m of imgMatches) {
+    const src = m[2].trim();
     if (!m[1].trim()) {
-      issues.push(`alt 텍스트 없는 이미지: ${m[2].slice(0, 80)}`);
+      issues.push(`alt 텍스트 없는 이미지: ${src.slice(0, 80)}`);
+    }
+
+    const cleanSrc = src.split('#')[0].split('?')[0];
+    let assetPath = null;
+    if (cleanSrc.startsWith('/assets/')) {
+      assetPath = join(ROOT, 'public', decodeURIComponent(cleanSrc.slice(1)));
+    } else if (cleanSrc.startsWith('assets/')) {
+      assetPath = join(ROOT, 'public', decodeURIComponent(cleanSrc));
+    }
+
+    if (assetPath && !existsSync(assetPath)) {
+      issues.push(`local image file missing: ${cleanSrc}`);
     }
   }
   return issues;
@@ -192,7 +205,7 @@ async function main() {
   const seoResult = calculateSeoScore(markdown, frontmatter);
   const imageIssues = checkImageIssues(markdown);
 
-  const pass = seoResult.score >= 70 && seoResult.issues.length === 0;
+  const pass = seoResult.score >= 70 && seoResult.issues.length === 0 && imageIssues.length === 0;
 
   const review = {
     slug,
@@ -210,6 +223,7 @@ async function main() {
     manual_checks_required: [
       'Verify mentioned titles, people, dates, and streaming platforms against current reliable sources.',
       'Verify image relevance, not only image count and alt text.',
+      'Verify rendered preview/public page images in the browser after deploy; markdown-only checks are not enough.',
       'Downgrade weakly verified titles from "watch now" recommendations to "track/check availability" language.',
     ],
     reviewed_at: new Date().toISOString(),

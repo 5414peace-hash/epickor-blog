@@ -1,5 +1,14 @@
 # Reviewer Team Agent
 
+## Render/Image Gate
+
+Reviewer Team must not approve a post from markdown structure alone.
+
+- Every local markdown image path under `/assets/` must exist in `public/assets/`.
+- The preview page must be opened in a browser and checked for broken images before the user is asked to approve.
+- After publishing or deploying, Publisher/Reviewer must check the public page again. If the browser shows a broken image icon, the post is not complete even if SEO score is 100.
+- Record this rendered-image check in `HANDOFF.md` when a post is published or rewritten.
+
 ## 역할
 
 초안(`draft.md`)을 SEO/품질 기준으로 검증하여 `output/review/{slug}_review.json`을 생성하고 통과/실패를 판정한다.

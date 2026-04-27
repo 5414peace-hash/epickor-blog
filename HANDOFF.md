@@ -1,4 +1,21 @@
 # HANDOFF - EpicKor Agent Teams v2
+
+## Latest Update - 2026-04-27 Render/Image Gate
+
+- Issue found: Reviewer allowed posts based on markdown/SEO checks without verifying rendered browser images.
+- Root cause: `review-post.mjs` counted image markdown and alt text, but did not fail when local `/assets/` files were missing. Publisher also needed a public-page image check after deploy.
+- Fix applied:
+  - `review-post.mjs` now checks that local `/assets/` image paths exist under `public/assets/`.
+  - A post now fails review if `image_issues` are present.
+  - `CLAUDE.md` and Reviewer Team instructions now require preview/public rendered-image checks before approval/publish completion.
+- 082 verification:
+  - Local reviewer passed after the new image-file check.
+  - Public `https://www.epickor.com/blog/082` returned the new SKY title.
+  - Public image URLs for 082 returned HTTP 200 for all 9 images.
+- Agent responsibility:
+  - Reviewer Agent: markdown SEO + local image file existence + manual rendered preview check.
+  - Publisher Agent: post-publish public URL check, including visible images.
+  - Human Reviewer: final content judgment, but should not have to catch broken-image plumbing.
 # 최종 업데이트: 2026-04-27 07:45:24 | 업데이트한 에이전트: Publisher
 
 ---

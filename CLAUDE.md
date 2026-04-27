@@ -28,6 +28,17 @@ PEXELS_API_KEY=           # Pexels 이미지 API
 PREVIEW_SECRET_TOKEN=     # 프로덕션 /preview/[slug]?token=XXX 접근 토큰
 ```
 
+---
+
+## Render/Image Gate
+
+Reviewer and Publisher agents must verify rendered images, not just markdown syntax.
+
+- Local `/assets/` image paths must exist under `public/assets/`.
+- Before asking the user to approve a preview, open the preview page and check that no broken image icons are visible.
+- After publish/deploy, check the public URL again. If images are broken, the task is not complete.
+- Record which agent performed this rendered-image check in `HANDOFF.md`.
+
 Gemini API는 더 이상 사용하지 않는다.
 
 ---
