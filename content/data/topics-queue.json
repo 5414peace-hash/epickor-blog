@@ -166,8 +166,9 @@
         "2026"
       ],
       "amazon_category": "Shopping",
-      "status": "in_progress",
-      "generated_slug": "167"
+      "status": "done",
+      "generated_slug": "167",
+      "generated_date": "2026-04-27"
     },
     {
       "id": 9,

@@ -1,5 +1,5 @@
 # HANDOFF - EpicKor Agent Teams v2
-# 최종 업데이트: 2026-04-27 06:49:58 | 업데이트한 에이전트: Reviewer -> 사람 검토 대기
+# 최종 업데이트: 2026-04-27 07:45:24 | 업데이트한 에이전트: Publisher
 
 ---
 
@@ -13,7 +13,7 @@
 - 안전 보관 stash가 2개 남아 있음:
   - `stash@{0}`: 원격과 겹치던 로컬 160-165 글 파일
   - `stash@{1}`: 동기화 전 tracked 로컬 수정분
-- 다음 글은 167번으로 시작했고, 비공개 preview 준비 완료.
+- 167번 글은 preview 승인 후 공개 발행 완료.
 - 167번 주제는 topics queue의 ID 8:
   `The Best Korean Dramas of 2026 That You're Missing Right Now`
 - 167번 생성 결과:
@@ -27,15 +27,18 @@
     - Netflix 공식/Tudum에서 확인되는 `Sold Out on You`로 대체
     - Pexels 이미지는 서울 풍경 이미지에서 TV/스트리밍/시청 분위기 이미지로 교체
   - GitHub private preview commit 완료: `content/blog/167.md`
+  - GitHub public publish commit 완료: `content/blog/167.md`
   - 로컬 preview URL: `http://localhost:4000/preview/167`
   - production preview URL: `https://epickor.com/preview/167?token=[PREVIEW_SECRET_TOKEN]`
+  - public URL: `https://www.epickor.com/blog/167`
+  - approval 후처리 완료: Amazon 링크는 관련도 낮아 생략, topics queue ID 8은 `done`
 - 167번 작업 agent별 최종 역할:
   - Research Agent: DuckDuckGo/Pexels로 초기 소스와 이미지 후보 수집
   - Writer Agent: `167_writer-brief.md` 기준으로 초안 작성 후 Bloodhounds 제거, Sold Out on You 대체, 이미지 교체
   - Reviewer Agent: SEO/형식 자동 리뷰 실행, 사용자 지적 후 사실 검증/이미지 적합성 수동 재검토 규칙 보강
   - Publisher Agent: 수정된 167번 글을 GitHub private preview로 재반영
   - Human Reviewer: Bloodhounds와 이미지 부적합 문제 발견
-- 다음 액션: 사용자가 preview 확인 후 승인하면 `node scripts/run-pipeline.mjs --approve 167` 실행.
+- 다음 액션: 168번 신규 글 시작.
 
 ---
 
@@ -152,12 +155,7 @@ Gemini API 의존성을 제거하는 방향으로 전환했다. 앞으로 글 �
 
 ## 사람 검토 대기
 
-- 슬러그: **167**
-- draft 파일: `D:\dev\epickor-blog\output\drafts\167_draft.md`
-- 로컬 미리보기 URL: http://localhost:4000/preview/167
-- 프로덕션 미리보기 URL: https://epickor.com/preview/167?token=[PREVIEW_SECRET_TOKEN]
-- 승인/거절: 위 URL에서 버튼 클릭
-- 대기 시작: 2026-04-27 06:49:58
+- 현재 없음
 
 ---
 
