@@ -1,5 +1,31 @@
 # HANDOFF - EpicKor Agent Teams v2
-# 최종 업데이트: 2026-04-27 | 업데이트한 에이전트: Codex (166 발행 완료)
+# 최종 업데이트: 2026-04-27 06:25:46 | 업데이트한 에이전트: Reviewer -> 사람 검토 대기
+
+---
+
+## 최신 상태 - 2026-04-27
+
+- 166번 글은 공개 발행 완료.
+- Pexels 썸네일 표시 문제는 `next.config.ts`의 이미지 도메인 허용으로 해결됨.
+- 로컬 `master`는 `origin/master`와 동기화했고, 자동화 개선 커밋 `4bd94d5`를 GitHub에 push 완료.
+- `npm.cmd run build` 통과. 남은 경고는 `metadataBase` 미설정 경고뿐.
+- 로컬 실행 산출물은 `.gitignore`에 추가함: `output/`, `.codex-deploy/`, `package-lock.json`, `.claude/settings.local.json` 등.
+- 안전 보관 stash가 2개 남아 있음:
+  - `stash@{0}`: 원격과 겹치던 로컬 160-165 글 파일
+  - `stash@{1}`: 동기화 전 tracked 로컬 수정분
+- 다음 글은 167번으로 시작했고, 비공개 preview 준비 완료.
+- 167번 주제는 topics queue의 ID 8:
+  `The Best Korean Dramas of 2026 That You're Missing Right Now`
+- 167번 생성 결과:
+  - research: `output/research/167_research.json`
+  - writer brief: `output/drafts/167_writer-brief.md`
+  - draft: `output/drafts/167_draft.md`
+  - review: `output/review/167_review.json`
+  - review 통과: SEO 100/100, 단어 수 1,887, 이미지 3장, FAQ 4개
+  - GitHub private preview commit 완료: `content/blog/167.md`
+  - 로컬 preview URL: `http://localhost:4000/preview/167`
+  - production preview URL: `https://epickor.com/preview/167?token=[PREVIEW_SECRET_TOKEN]`
+- 다음 액션: 사용자가 preview 확인 후 승인하면 `node scripts/run-pipeline.mjs --approve 167` 실행.
 
 ---
 
@@ -116,7 +142,12 @@ Gemini API 의존성을 제거하는 방향으로 전환했다. 앞으로 글 �
 
 ## 사람 검토 대기
 
-- 현재 없음
+- 슬러그: **167**
+- draft 파일: `D:\dev\epickor-blog\output\drafts\167_draft.md`
+- 로컬 미리보기 URL: http://localhost:4000/preview/167
+- 프로덕션 미리보기 URL: https://epickor.com/preview/167?token=[PREVIEW_SECRET_TOKEN]
+- 승인/거절: 위 URL에서 버튼 클릭
+- 대기 시작: 2026-04-27 06:25:46
 
 ---
 
