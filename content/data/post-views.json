@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-04-27T12:40:48.494Z",
+  "updatedAt": "2026-04-27T12:41:43.122Z",
   "totals": {
     "132": 1,
     "133": 1,
@@ -30,7 +30,8 @@
     "043": 1,
     "049": 1,
     "088": 1,
-    "086-a-city-that-never-sleeps-seoul": 1
+    "086-a-city-that-never-sleeps-seoul": 1,
+    "047": 1
   },
   "daily": {
     "2026-04-27": {
@@ -63,7 +64,8 @@
       "043": 1,
       "049": 1,
       "088": 1,
-      "086-a-city-that-never-sleeps-seoul": 1
+      "086-a-city-that-never-sleeps-seoul": 1,
+      "047": 1
     }
   }
 }
