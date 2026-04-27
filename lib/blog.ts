@@ -387,6 +387,62 @@ export function getAllBlogSlugs(options: { includeScheduled?: boolean; includePr
 }
 
 /**
+ * 미리보기용: visibility/publishAt 무시하고 포스트 가져오기
+ */
+export async function getBlogPostForPreview(slug: string): Promise<BlogPost | null> {
+  try {
+    const fileName = findFileBySlug(slug);
+    const remoteBySlug = await fetchRemoteMarkdownBySlug(slug);
+    const remoteByFileName =
+      !remoteBySlug && fileName ? await fetchRemoteMarkdownByFileName(fileName) : null;
+    const remote = remoteBySlug || remoteByFileName;
+
+    let resolvedFileName = fileName || '';
+    let fileContents = '';
+
+    if (remote) {
+      resolvedFileName = remote.fileName;
+      fileContents = remote.content;
+    } else if (fileName) {
+      const fullPath = path.join(contentDirectory, fileName);
+      fileContents = fs.readFileSync(fullPath, 'utf8');
+    } else {
+      return null;
+    }
+
+    const { data, content } = matter(fileContents);
+    const frontmatter = data as Record<string, unknown>;
+
+    const processedContent = await remark()
+      .use(gfm)
+      .use(html, { sanitize: false })
+      .process(content);
+
+    let contentHtml = processedContent.toString();
+    contentHtml = contentHtml.replace(
+      /<p>\s*\{\{\s*IMAGE[_-]?\d+\s*\}\}\s*<\/p>/gim,
+      ''
+    );
+
+    const postSlug = (frontmatter.slug as string) || resolvedFileName.replace(/\.md$/, '');
+
+    return {
+      slug: postSlug,
+      title: (frontmatter.title as string) || '',
+      date: (frontmatter.date as string) || '',
+      description: (frontmatter.description as string) || '',
+      ogImage: resolveOgImage(frontmatter.ogImage, content),
+      tags: (frontmatter.tags as string[]) || [],
+      author: (frontmatter.author as string) || 'EpicKor',
+      content: contentHtml,
+    };
+  } catch (error) {
+    console.error(`Error reading blog post for preview ${slug}:`, error);
+    return null;
+  }
+}
+
+/**
  * 태그별 블로그 포스트 가져오기
  */
 export function getBlogPostsByTag(tag: string): BlogPostMetadata[] {

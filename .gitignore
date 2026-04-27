@@ -33,6 +33,15 @@ yarn-error.log*
 # env files (can opt-in for committing if needed)
 .env*
 
+# local automation/runtime artifacts
+/output/
+/.history/
+/history/
+/.codex-deploy/
+/.claude/settings.local.json
+/epickor-agent-design-v2.md
+/package-lock.json
+
 # vercel
 .vercel
 
