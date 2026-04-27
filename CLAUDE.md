@@ -82,6 +82,13 @@ node scripts/run-pipeline.mjs --step review --slug 166
 - `pass: true`
 - `seo_score >= 70`
 
+중요: 이 자동 리뷰는 형식/SEO 검사다. 다음 항목은 Claude/Codex가 사람 검토 전에 반드시 별도로 확인한다.
+
+- 본문에 나온 작품명, 인물, 공개일, 플랫폼은 공식 사이트나 신뢰 가능한 최신 출처로 확인한다.
+- 확인이 약한 작품은 "지금 볼 추천작"처럼 단정하지 않고, "추적할 작품" 또는 "공개 여부 확인 필요"로 낮춰 쓴다.
+- 이미지가 글 주제와 직접 맞는지 확인한다. 예: K-drama 추천 글에는 일반 서울 풍경보다 TV/스트리밍/시청 분위기 이미지가 낫다.
+- 사용자 지적으로 수정한 경우, `HANDOFF.md`와 최종 답변에 어떤 agent가 어떤 일을 했는지 요약한다.
+
 ### Step 4 - 사람 검토
 
 리뷰 통과 후 미리보기 URL을 사람에게 전달한다.
@@ -173,6 +180,7 @@ output/cardnews/{slug}/       script.md 및 card PNG
 - 프로덕션 preview에는 토큰을 붙인다.
 - GitHub API로 글을 올리면 원격 master가 로컬보다 앞서갈 수 있다. 다음 코드 push 전에는 반드시 원격 상태를 확인한다.
 - Amazon 링크는 관련도가 분명한 글에만 넣고, 일반 문화 글에는 생략할 수 있다.
+- 최종 보고에는 이번 작업에 관여한 agent와 역할을 적는다. 예: Research Agent=소스/이미지 수집, Writer Agent=초안 작성/수정, Reviewer Agent=형식 검사+수동 사실/이미지 검토, Publisher Agent=private preview 반영.
 
 ---
 

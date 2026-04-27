@@ -207,6 +207,11 @@ async function main() {
     image_issues: imageIssues,
     suggestions: seoResult.suggestions,
     quality_issues: seoResult.issues,
+    manual_checks_required: [
+      'Verify mentioned titles, people, dates, and streaming platforms against current reliable sources.',
+      'Verify image relevance, not only image count and alt text.',
+      'Downgrade weakly verified titles from "watch now" recommendations to "track/check availability" language.',
+    ],
     reviewed_at: new Date().toISOString(),
     auto_retry_eligible: seoResult.score >= 50 && seoResult.score < 70,
   };
@@ -219,6 +224,8 @@ async function main() {
   console.log(`H2 섹션: ${seoResult.h2Count}개`);
   console.log(`이미지: ${seoResult.imgCount}장`);
   console.log(`FAQ Q&A: ${seoResult.faqQACount}개`);
+  console.log('\n주의: 이 자동 리뷰는 형식/SEO 검사입니다.');
+  console.log('      사실 검증과 이미지 주제 적합성은 사람 검토 전에 별도로 확인해야 합니다.');
 
   if (seoResult.issues.length > 0) {
     console.log('\n⚠️  필수 수정 사항:');
