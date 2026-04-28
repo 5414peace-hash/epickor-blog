@@ -40,6 +40,10 @@
   - Local `/blog/074?codex_check=20260428` returned 200.
   - Local alias URL returned 308 to `/blog/074`.
   - `npm.cmd run build`: passed.
+  - Public `/blog/074?codex_public_check=20260428b` returned 200 after deploy.
+  - Public page contained the new title and rendered tables.
+  - Public page no longer contained known mojibake or placeholder strings.
+  - Public `/blog/074-the-world-of-underground-shopping-malls-in-korea?codex_redirect_check=20260428` returned 308 to `/blog/074`.
 - Note:
   - No separate subagent process was spawned in Codex. Codex performed the Strategy, SEO/canonical, Writer, Image, and Reviewer roles directly and recorded the responsibility split here.
 
