@@ -1,5 +1,23 @@
 # HANDOFF - EpicKor Agent Teams v2
 
+## Latest Update - 2026-04-28 GSC Rewrite 043
+
+- Task: Improve `/blog/043` from GSC data for better CTR.
+- Target metrics from GSC export: 16 clicks / 3,494 impressions / 0.46% CTR / average position 10.55.
+- Search intent found in query export: `jang won-young`, `why is jang wonyoung so popular`, `wonyoungism`, `Lucky Vicky`.
+- Changes:
+  - Rewrote title to `Why Is Jang Wonyoung So Popular? Wonyoungism Explained`.
+  - Removed unsupported large-number claim and broken encoded characters.
+  - Rebuilt body around Jang Wonyoung, IVE, IZ*ONE, Lucky Vicky, Wonyoungism, fashion, criticism, and K-pop idol image.
+  - Added FAQ and internal link to `/blog/010`.
+  - Preserved existing image assets and added stable ASCII copies `043_frame_1.jpg` through `043_frame_4.jpg`.
+- Verification:
+  - Reviewer Agent: 100/100, 1,910 words, 10 H2 sections, 5 images, 5 FAQ entries.
+  - `npm.cmd run build`: passed.
+  - Local rendered page: `http://localhost:4000/blog/043?codex_check=20260428` returned 200.
+  - Local image URLs for all 5 043 assets returned 200.
+- Next step: Commit/push/deploy, then verify public `/blog/043` and public image URLs.
+
 ## Latest Update - 2026-04-28 GSC Rewrite 160
 
 - Task: Improve `/blog/160` from GSC data for better CTR.
