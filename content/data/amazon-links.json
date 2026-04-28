@@ -159,6 +159,46 @@
       "category": "Food",
       "image": "",
       "tags": ["Isaac Toast Sauce", "Korean Breakfast", "Korean Toast", "Sweet Savory"]
+    },
+    {
+      "id": "017",
+      "name": "Loop Station",
+      "description": "Useful gear reference for beatbox, vocal layering, and loop-station performance fans.",
+      "price": "",
+      "url": "https://amzn.to/3ZMKSub",
+      "category": "Music",
+      "image": "",
+      "tags": ["Loop Station", "Beatbox", "Beatpella House", "Music Gear"]
+    },
+    {
+      "id": "018",
+      "name": "Vocal Microphone",
+      "description": "A practical microphone reference for vocal performance, beatbox recording, and music content creation.",
+      "price": "",
+      "url": "https://amzn.to/4b0pyrm",
+      "category": "Music",
+      "image": "",
+      "tags": ["Vocal Microphone", "Beatbox", "Beatpella House", "Music Gear"]
+    },
+    {
+      "id": "019",
+      "name": "Men's Luxury Blazer",
+      "description": "A style reference for readers comparing tailored menswear and Korean luxury fashion silhouettes.",
+      "price": "",
+      "url": "https://amzn.to/4rYfeWu",
+      "category": "Fashion",
+      "image": "",
+      "tags": ["Mens Luxury Blazer", "Korean Luxury Brands", "Wooyoungmi", "Fashion", "Luxury"]
+    },
+    {
+      "id": "020",
+      "name": "Fashion Sunglasses",
+      "description": "A style reference for Korean luxury eyewear, statement sunglasses, and Gentle Monster-inspired looks.",
+      "price": "",
+      "url": "https://amzn.to/4kTVIZe",
+      "category": "Fashion",
+      "image": "",
+      "tags": ["Fashion Sunglasses", "Gentle Monster", "Korean Luxury Brands", "Eyewear", "Fashion"]
     }
   ]
 }

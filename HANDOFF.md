@@ -358,3 +358,30 @@ GEMINI_MODEL=
 Next recommended step:
 
 - Commit, push, deploy, then verify production `/blog/160` and `/blog/153` include the affiliate section and other pages do not.
+
+---
+
+## Latest Update - 2026-04-28 Amazon Link Inventory Follow-Up
+
+- Clarified Amazon state:
+  - Auto-rendered Amazon cards are gated by `amazon: true`.
+  - Current auto-card posts: `153`, `160`.
+  - Some posts can still contain inline Amazon links directly in markdown.
+- Added new representative-provided links to `content/data/amazon-links.json`:
+  - Loop Station: `https://amzn.to/3ZMKSub`
+  - Vocal Microphone: `https://amzn.to/4b0pyrm`
+  - Men's Luxury Blazer: `https://amzn.to/4rYfeWu`
+  - Fashion Sunglasses: `https://amzn.to/4kTVIZe`
+- Replaced generic Amazon search links with affiliate links:
+  - `content/blog/156.md`: loop station and vocal microphone links
+  - `content/blog/136.md`: men's luxury blazer and fashion sunglasses links
+- Left unlabeled URLs pending because the product names/categories were not provided:
+  - `https://amzn.to/4kHI4YW`
+  - `https://amzn.to/3OSRe8Y`
+- Verification:
+  - `amazon-links.json` parses successfully.
+  - `npm.cmd run build` passed.
+
+Recommended future process:
+
+- When an article needs monetization and no matching Amazon product exists, ask the representative for the exact affiliate link instead of inserting generic search links.
