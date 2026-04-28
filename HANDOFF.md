@@ -1,5 +1,30 @@
 # HANDOFF - EpicKor Agent Teams v2
 
+## Latest Update - 2026-04-28 GSC Rewrite 055 and 153
+
+- Task: Improve `/blog/055` and `/blog/153` from GSC data for better CTR.
+- `/blog/055` target metrics: 8 clicks / 1,105 impressions / 0.72% CTR / average position 5.13.
+- `/blog/055` search intent: `pali pali korean`, `pali pali in korean`, `pali pali culture`, `what is pali pali in korean`.
+- `/blog/055` changes:
+  - Rewrote title to `What Does Pali Pali Mean? Korea's Fast Culture`.
+  - Rebuilt body around meaning, history, restaurants, delivery/apps, traveler guidance, cost of speed, and FAQ.
+  - Added structured HTML table and internal link to `/blog/165`.
+  - Preserved existing image assets and added stable ASCII copies `055_frame_1.jpg` through `055_frame_4.jpg`.
+- `/blog/153` target metrics: 9 clicks / 1,420 impressions / 0.63% CTR / average position 3.95.
+- `/blog/153` search intent: `isaac toast sauce`, `isaac toast`, `isaac toast kiwi sauce`, `what is isaac toast`.
+- `/blog/153` changes:
+  - Rewrote title to `Isaac Toast Sauce: Korea's Famous Sweet Breakfast`.
+  - Added missing slug/description/visibility frontmatter.
+  - Rebuilt body around Isaac Toast sauce, first-time menu picks, Myeongdong, ordering, home sauce imitation, and FAQ.
+  - Added structured HTML table and internal link to `/blog/071`.
+- Verification:
+  - `/blog/055` Reviewer Agent: 100/100, 1,912 words, 10 H2 sections, 5 images, 5 FAQ entries.
+  - `/blog/153` Reviewer Agent: 100/100, 1,973 words, 10 H2 sections, 4 images, 5 FAQ entries.
+  - `npm.cmd run build`: passed.
+  - Local rendered pages `/blog/055` and `/blog/153` returned 200.
+  - Local image URLs for all used 055 and 153 assets returned 200.
+- Next step: Commit/push/deploy, then verify public `/blog/055`, `/blog/153`, and public image URLs.
+
 ## Latest Update - 2026-04-28 GSC Rewrite 071
 
 - Task: Improve `/blog/071` from GSC data for better CTR.
