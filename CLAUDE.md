@@ -30,6 +30,14 @@ PREVIEW_SECRET_TOKEN=     # 프로덕션 /preview/[slug]?token=XXX 접근 토큰
 
 ---
 
+## Communication Rule
+
+- Address the user respectfully as "대표님" in Korean conversation.
+- Do not use casual Korean speech (`반말`). Use polite, professional Korean (`존댓말`) by default.
+- Keep explanations easy to understand, but maintain a respectful executive-facing tone.
+
+---
+
 ## Render/Image Gate
 
 Reviewer and Publisher agents must verify rendered images, not just markdown syntax.

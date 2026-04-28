@@ -1,5 +1,24 @@
 # HANDOFF - EpicKor Agent Teams v2
 
+## Latest Update - 2026-04-28 GSC Rewrite 160
+
+- Task: Improve `/blog/160` from GSC data for better CTR.
+- Target metrics from GSC export: 23 clicks / 2,877 impressions / 0.8% CTR / average position 5.83.
+- Changes:
+  - Rewrote title to `Best Korean Sunscreens 2026: 7 K-Beauty SPF Picks`.
+  - Fixed broken/truncated meta description.
+  - Replaced GitHub raw image URLs with local `/assets/images/posts/160/...` paths.
+  - Reworked body around search intent: best Korean sunscreens, skin-type picks, usage guidance, FAQ.
+  - Cleaned quick-pick section into a structured HTML table.
+  - Preserved existing image assets.
+  - Added communication rule in `CLAUDE.md`: address the user as `대표님`, no casual Korean speech.
+- Verification:
+  - Reviewer Agent: 100/100, 2,333 words, 7 H2 sections, 2 images, 5 FAQ entries.
+  - `npm.cmd run build`: passed.
+  - Local rendered page: `http://localhost:4000/blog/160?codex_table=20260428` returned 200.
+  - Local image URLs for both 160 assets returned 200.
+- Next step: Commit/push/deploy, then verify public `/blog/160` and public image URLs.
+
 ## Latest Update - 2026-04-27 Render/Image Gate
 
 - Issue found: Reviewer allowed posts based on markdown/SEO checks without verifying rendered browser images.
