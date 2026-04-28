@@ -1,5 +1,23 @@
 # HANDOFF - EpicKor Agent Teams v2
 
+## Latest Update - 2026-04-28 GSC Rewrite 071
+
+- Task: Improve `/blog/071` from GSC data for better CTR.
+- Target metrics from GSC export: 7 clicks / 2,298 impressions / 0.3% CTR / average position 5.58.
+- Search intent found in query export: `deli manjoo`, `delimanjoo`, `what is manjoo`, `manjoo korean snack`.
+- Changes:
+  - Rewrote title to `What Is Deli Manjoo? Korea's Subway Custard Snack`.
+  - Rebuilt body around what Deli Manjoo is, taste, name meaning, subway smell, Myeongdong Station, how to eat/order, and traveler guidance.
+  - Added structured HTML table and FAQ.
+  - Added internal link to `/blog/029`.
+  - Preserved existing image assets and added stable ASCII copies `071_frame_1.jpg` through `071_frame_4.jpg`.
+- Verification:
+  - Reviewer Agent: 100/100, 1,926 words, 11 H2 sections, 5 images, 5 FAQ entries.
+  - `npm.cmd run build`: passed.
+  - Local rendered page: `http://localhost:4000/blog/071?codex_check=20260428` returned 200.
+  - Local image URLs for all 5 071 assets returned 200.
+- Next step: Commit/push/deploy, then verify public `/blog/071` and public image URLs.
+
 ## Latest Update - 2026-04-28 GSC Rewrite 008
 
 - Task: Improve `/blog/008` from GSC data for better CTR.
