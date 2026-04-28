@@ -199,6 +199,16 @@
       "category": "Fashion",
       "image": "",
       "tags": ["Fashion Sunglasses", "Gentle Monster", "Korean Luxury Brands", "Eyewear", "Fashion"]
+    },
+    {
+      "id": "021",
+      "name": "Beatbox Training Gear",
+      "description": "A beatbox practice and rhythm-training gear reference for readers learning basic beatbox drills.",
+      "price": "",
+      "url": "https://amzn.to/3OSRe8Y",
+      "category": "Music",
+      "image": "",
+      "tags": ["Beatbox Training", "Beatbox", "Beatpella House", "Music Gear", "Rhythm Training"]
     }
   ]
 }
