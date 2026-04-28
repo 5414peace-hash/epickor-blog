@@ -1,5 +1,28 @@
 # EpicKor Blog - Claude/Codex 운영 가이드
 
+## Card News Brand Rules
+
+- Card news is a social carousel, not a blog excerpt. Each card needs one clear message and a reason to swipe.
+- Every card must have a relevant image or visual treatment. Prefer post-owned images first, then Pexels when needed.
+- Every card should carry a Korea/EpicKor angle through `kicker:` text, such as `KOREA SPF GUIDE`, `SEOUL TRAVEL TIP`, or `K-BEAUTY TEXTURE MAP`.
+- Every rendered card must show `EPICKOR.COM` as the watermark text. Do not use only `EpicKor` as the watermark label.
+- Reviewer must inspect rendered PNGs card by card for image relevance, mobile readability, watermark presence, and swipe logic.
+- Record card news agent roles and rendered-image review in `HANDOFF.md`.
+
+## Handoff And Strategy Check Rules
+
+- Before deciding what EpicKor should do next, read `HANDOFF.md`, the latest `output/strategy/week_*.md`, and relevant git history if the handoff may be incomplete.
+- Do not recommend a page as the next target only from GSC impressions or CTR. First check whether that page was already rewritten, published, or verified recently.
+- When choosing the next EpicKor task, explicitly apply the Strategy Team perspective: GSC opportunity, recency of prior edits, monetization potential, visual/card-news potential, and operational risk.
+- If Strategy Team guidance conflicts with recent `HANDOFF.md` or git history, prefer the newer concrete work record and explain the conflict to the user.
+- If a completed task is missing from `HANDOFF.md`, add a correction entry before using that area for future prioritization.
+
+## Blog Table Rules
+
+- Any comparison, shortcut, recommendation matrix, product match, itinerary, checklist-by-category, or summary grid in a blog post must be inserted as a real table, not as loose aligned text.
+- Prefer an HTML `<table>` wrapped in `<div class="table-scroll">` for important reader-facing tables so the rendered article looks clean on desktop and mobile.
+- Reviewer must inspect rendered table sections in the browser. If a table looks like unstyled text, cramped columns, or broken mobile layout, the post is not ready.
+
 > epickor.com | 한국 문화·여행·라이프스타일 영어 블로그  
 > 이 파일과 `HANDOFF.md`를 읽으면 현재 파이프라인을 바로 이어받을 수 있다.
 

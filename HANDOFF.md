@@ -1,5 +1,131 @@
 # HANDOFF - EpicKor Agent Teams v2
 
+## Latest Update - 2026-04-28 GSC Rewrite 159
+
+- Task: Improve `/blog/159` from GSC data and repair public-quality issues.
+- Target metrics from GSC export:
+  - `/blog/159`: 3 clicks / 1,244 impressions / 0.24% CTR / average position 6.11.
+- Reason for priority:
+  - `/blog/090` and `/blog/082` were already recently changed or verified, so they should not be judged again until GSC has time to update.
+  - `/blog/159` had no recent rewrite record and had clear quality risks.
+- Research/Strategy role:
+  - Checked `HANDOFF.md`, latest `output/strategy/week_2026W18.md`, and recent git history before choosing the target.
+  - Used Pexels image sourcing for relevant Korea travel visuals.
+- Writer role:
+  - Replaced the overlong report-style title with `Best Places to Visit in Korea: 2026 Travel Guide`.
+  - Rebuilt the article around first-time Korea travel intent: Seoul, Busan, Gyeongju, Jeju, Gangneung, Jeonju, route planning, and FAQ.
+  - Removed speculative/fake future claims such as 6G tourism infrastructure and removed internal operator notes from the public body.
+  - Added practical tables for destination choice and itinerary length.
+  - Added internal links to `/blog/165` and `/blog/154`.
+- Image/metadata role:
+  - Fixed empty `ogImage`.
+  - Removed the unrelated raw GitHub `/posts/150/` image.
+  - Added 4 relevant Pexels images:
+    - Seoul palace image.
+    - Busan coastline image.
+    - Gyeongju pavilion image.
+    - Jeju village image.
+- Reviewer role:
+  - Confirmed title length: 48 characters.
+  - Confirmed description length: 134 characters.
+  - Confirmed 10 H2 sections and 4 body images.
+  - Confirmed no remaining `Representative`, `Technical Guide`, `File ID`, `Please proceed`, empty `ogImage`, raw GitHub image, or known mojibake strings in `content/blog/159.md`.
+  - Confirmed all 4 Pexels image URLs returned HTTP 200.
+  - `npm.cmd run build`: passed.
+  - Local rendered page `http://localhost:4000/blog/159?codex_check=20260428` returned 200 and contained the new title/image references.
+- Note:
+  - No separate subagent process was spawned in Codex. Codex performed the Strategy, Research, Writer, Image, and Reviewer roles directly and recorded the responsibility split here.
+
+### Follow-up - Table Rendering and Agent Memory
+
+- User feedback:
+  - Shortcut/comparison sections must render as clean tables, not loose aligned text.
+  - Current system changes should be saved if not already committed.
+- Changes:
+  - Converted the two `/blog/159` comparison sections to HTML tables wrapped in `<div class="table-scroll">`.
+  - Added global blog table styling in `app/globals.css` for desktop/mobile readability.
+  - Added `Blog Table Rules` to `CLAUDE.md`.
+  - Added table rules to:
+    - Strategy Team: identify table-worthy sections during rewrite recommendations.
+    - Writer Team: write comparison/shortcut/recommendation/itinerary sections as real tables.
+    - Reviewer Team: inspect rendered tables in browser and reject loose aligned text.
+- Verification:
+  - Local `/blog/159?codex_table_check=20260428` returned 200.
+  - Rendered HTML contained 2 `<table>` elements and `table-scroll` wrappers.
+
+## Latest Update - 2026-04-28 Card News 160 Revision
+
+- Task: Rebuild `/blog/160` card news after user feedback that the first version had small text, weak information structure, and a weak first-card hook.
+- Output:
+  - `output/cardnews/160/script.md`
+  - `output/cardnews/160/card_01.png` through `output/cardnews/160/card_07.png`
+- Card News Team role:
+  - Reframed the carousel around one clear narrative: do not buy Korean sunscreen by viral hype; choose by skin texture and use case.
+  - Rewrote the hook card to `The SPF mistake K-beauty fans make`.
+  - Rebuilt the flow as: hook -> problem -> rule -> quick skin-type match -> product direction -> reapply rule -> full guide CTA.
+- Renderer/Template role:
+  - Updated `.claude/skills/cardnews/scripts/html-to-png.py`.
+  - Added stable `image:` support for local `/assets/images/...` paths in `script.md`.
+  - Removed Google Font dependency and used local system font fallbacks.
+  - Increased card typography substantially for mobile readability.
+- Reviewer role:
+  - Manually opened rendered PNGs for cards 01-07.
+  - Confirmed no visible text overflow in the reviewed rendered cards.
+  - Confirmed the first card now has stronger curiosity and the second/third cards continue the story.
+- Note:
+  - No separate subagent process was spawned in Codex. Codex performed the Card News Team, Renderer, and Reviewer roles directly and recorded the responsibility split here.
+
+### Follow-up - Visual Brand Revision
+
+- User feedback:
+  - Each card should have a relevant image.
+  - `epickor.com` watermark should feel more polished on every card.
+  - Because EpicKor targets people interested in Korea, each card should carry a Korea/K-beauty hook or point keyword.
+- Changes:
+  - Downloaded additional Pexels card-news images into `output/cardnews/160/images/`.
+  - Added `kicker:` support to the card script parser.
+  - Added per-card point keywords such as `KOREA SPF GUIDE`, `SEOUL SKINCARE RULE`, and `K-BEAUTY TEXTURE MAP`.
+  - Upgraded watermark treatment with a subtle top-left `EK EPICKOR.COM` brand mark and bottom-right `EPICKOR.COM` badge.
+  - Re-rendered all 7 PNGs.
+- Reviewer notes:
+  - Replaced weaker non-K-beauty/NIVEA card visuals on cards 02 and 04 with existing `/blog/160` K-beauty product/store images.
+  - Checked rendered cards 01-07 visually after re-render.
+
+### Follow-up - Watermark and Agent Rule Update
+
+- User feedback:
+  - Watermark should use `EPICKOR.COM`.
+  - The process and rules from this card-news revision should be updated across the agent teams.
+- Changes:
+  - Updated `.claude/skills/cardnews/scripts/html-to-png.py` so the top-left brand text and bottom-right badge both show `EPICKOR.COM`.
+  - Re-rendered all 7 cards for `/blog/160`.
+  - Updated `CLAUDE.md` with global Card News Brand Rules.
+  - Updated all agent instructions:
+    - Research Team: source image candidates with card-news usage in mind.
+    - Writer Team: surface 5-8 carousel-friendly takeaways and Korea/EpicKor context.
+    - Card News Team: require relevant visuals, `kicker:`, `EPICKOR.COM` watermark, mobile typography, and rendered PNG review.
+    - Reviewer Team: review rendered cards for image relevance, watermark, readability, and swipe logic.
+    - Marketing Team: keep social CTAs aligned with `EPICKOR.COM` and avoid ad-first carousel framing.
+    - Strategy Team: recommend carousel angles and note visual readiness.
+- Verification:
+  - Python syntax check passed.
+  - `python .claude/skills/cardnews/scripts/html-to-png.py --slug 160` generated 7/7 PNGs.
+  - Manually opened representative cards 01, 03, and 07 and confirmed `EPICKOR.COM` appears in the watermark.
+
+### Follow-up - Handoff and Strategy Priority Rule Correction
+
+- User asked whether `CLAUDE.md` already required checking `HANDOFF.md` and using the Strategy Agent perspective before deciding what to do next.
+- Finding:
+  - `CLAUDE.md` mentioned `HANDOFF.md`, but did not explicitly require a handoff + latest strategy + git-history check before next-task recommendations.
+  - Strategy Team rules described GSC analysis, but did not clearly block recommending recently rewritten pages.
+- Changes:
+  - Added global `Handoff And Strategy Check Rules` to `CLAUDE.md`.
+  - Added `Next-Task Priority Rules` to `.claude/agents/strategy-team/AGENT.md`.
+  - Future next-task recommendations must check `HANDOFF.md`, latest `output/strategy/week_*.md`, and git history when the handoff may be incomplete.
+- Correction:
+  - `/blog/090` was already rewritten in git commit `9d2abca` on 2026-04-27 17:32 KST (`Rewrite ahjussi meaning post for GSC CTR`), but this was missing from `HANDOFF.md`.
+  - Do not recommend `/blog/090` again as a fresh GSC rewrite target until enough post-change GSC data has accumulated, unless the user explicitly asks to revisit it.
+
 ## Latest Update - 2026-04-28 Technical SEO and Strategy Agent
 
 - Task: Resume the original EpicKor operating plan beyond GSC rewrites.

@@ -1,5 +1,15 @@
 # Card News Team Agent
 
+## Card News Visual Brand Rules
+
+- Every card must have a relevant visual. Use the post's own images first; use Pexels only when the post lacks enough relevant images.
+- Avoid generic or misleading visuals. For EpicKor, prefer Korea, Seoul, Korean culture, Korean food, K-beauty, K-pop, or Korean daily-life context where relevant.
+- Every card must include a concise `kicker:` line that gives the Korea/EpicKor angle, such as `KOREA SPF GUIDE`, `SEOUL SKINCARE RULE`, or `K-BEAUTY TEXTURE MAP`.
+- Every rendered card must show `EPICKOR.COM` as the watermark text. Do not use only `EpicKor` as the watermark label.
+- The first card must create curiosity strong enough to make the user swipe to card 2.
+- Use large mobile-readable typography. A card is not done if it only looks readable at full desktop size.
+- After rendering, visually inspect all PNGs, not only `script.md`.
+
 ## 역할
 
 승인된 블로그 초안을 바탕으로 Instagram용 카드뉴스(5-8장, 1080x1080 PNG)를 만든다.

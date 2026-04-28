@@ -1,46 +1,30 @@
 #!/usr/bin/env python3
 """
-EpicKor Card News — HTML to PNG Converter
+EpicKor Card News HTML to PNG converter.
 
-script.md를 읽어 카드별 HTML을 생성하고 Playwright로 1080x1080 PNG로 변환한다.
-design_system.md의 레이아웃 규칙을 따른다.
-
-실행: python .claude/skills/cardnews/scripts/html-to-png.py --slug 166
-      python .claude/skills/cardnews/scripts/html-to-png.py --slug 166 --card 01  (특정 카드만)
+Reads output/cardnews/{slug}/script.md, writes card_XX.html files, and renders
+1080x1080 PNG files with Playwright.
 """
 
 import argparse
-import os
 import re
 import sys
-import json
 from pathlib import Path
 
-# ─── 경로 설정 ────────────────────────────────────────────────────
 
 SCRIPT_DIR = Path(__file__).parent
-ROOT = SCRIPT_DIR / '../../../../'
-ROOT = ROOT.resolve()
+ROOT = (SCRIPT_DIR / '../../../../').resolve()
+
 
 def get_output_dir(slug):
     return ROOT / f'output/cardnews/{slug}'
 
-def get_images_dir(slug):
-    d = get_output_dir(slug) / 'images'
-    d.mkdir(parents=True, exist_ok=True)
-    return d
-
-# ─── script.md 파서 ───────────────────────────────────────────────
 
 def parse_script(script_path):
-    """script.md를 파싱하여 카드 목록 반환"""
     content = Path(script_path).read_text(encoding='utf-8')
     cards = []
-
-    # 카드 블록 분리 (## Card XX 기준)
     card_blocks = re.split(r'^## Card \d+', content, flags=re.MULTILINE)
 
-    # 헤더 블록 파싱 (slug, topic)
     header = card_blocks[0] if card_blocks else ''
     slug_match = re.search(r'slug:\s*(\S+)', header)
     topic_match = re.search(r'topic:\s*(.+)', header)
@@ -49,18 +33,15 @@ def parse_script(script_path):
 
     for i, block in enumerate(card_blocks[1:], 1):
         lines = block.strip().split('\n')
-
-        # 역할 추출 (첫 줄: " — Cover" 형태)
-        role_line = lines[0].strip() if lines else ''
-        role_match = re.search(r'—\s*(.+)', role_line)
-        role = role_match.group(1).strip() if role_match else f'Card {i}'
-
+        role = lines[0].replace('-', '').strip() if lines else f'Card {i}'
         card = {
             'number': i,
             'role': role,
             'layout': 'B',
             'point_color': 'Gold',
             'image_keyword': 'korea',
+            'image': '',
+            'kicker': '',
             'main_text': '',
             'sub_text': '',
         }
@@ -73,6 +54,10 @@ def parse_script(script_path):
                 card['point_color'] = line.split(':', 1)[1].strip()
             elif line.startswith('image_keyword:'):
                 card['image_keyword'] = line.split(':', 1)[1].strip()
+            elif line.startswith('image:'):
+                card['image'] = line.split(':', 1)[1].strip()
+            elif line.startswith('kicker:'):
+                card['kicker'] = line.split(':', 1)[1].strip()
             elif line.startswith('**Main:**'):
                 card['main_text'] = line.replace('**Main:**', '').strip()
             elif line.startswith('**Sub:**'):
@@ -83,8 +68,6 @@ def parse_script(script_path):
     return slug, topic, cards
 
 
-# ─── 컬러 매핑 ────────────────────────────────────────────────────
-
 COLORS = {
     'Gold': '#C9A84C',
     'Teal': '#4ECDC4',
@@ -93,27 +76,53 @@ COLORS = {
     'Dark2': '#1A1A1A',
 }
 
+
 def point_color(card):
     return COLORS.get(card['point_color'], COLORS['Gold'])
 
-# ─── 텍스트 처리 ──────────────────────────────────────────────────
 
 def to_html_text(text):
-    """\\n → <br>, **텍스트** → <strong> 변환"""
     text = text.replace('\\n', '<br>')
-    text = re.sub(r'\*\*(.+?)\*\*', r'<strong>\1</strong>', text)
-    return text
+    return re.sub(r'\*\*(.+?)\*\*', r'<strong>\1</strong>', text)
 
-# ─── HTML 생성 ────────────────────────────────────────────────────
+
+def resolve_image_src(card):
+    value = (card.get('image') or '').strip()
+    if not value:
+        return ''
+    if value.startswith('http://') or value.startswith('https://'):
+        return value
+    if value.startswith('/'):
+        image_path = ROOT / 'public' / value.lstrip('/')
+    else:
+        image_path = ROOT / value
+    if image_path.exists():
+        return image_path.resolve().as_uri()
+    return ''
+
 
 WATERMARK_HTML = '''
   <div style="
-    position:absolute; bottom:28px; right:36px;
-    font-size:11px; font-weight:400;
-    letter-spacing:0.15em; color:rgba(255,255,255,0.35);
-    text-transform:uppercase;
+    position:absolute;top:34px;left:42px;z-index:20;
+    display:flex;align-items:center;gap:12px;
+    color:rgba(255,255,255,0.74);
+  ">
+    <div style="width:30px;height:30px;border:1.5px solid rgba(255,255,255,0.55);
+      display:flex;align-items:center;justify-content:center;
+      font-size:12px;font-weight:900;letter-spacing:0.02em;">EK</div>
+    <div style="font-size:12px;font-weight:700;letter-spacing:0.18em;text-transform:uppercase;">
+      EPICKOR.COM
+    </div>
+  </div>
+  <div style="
+    position:absolute;bottom:30px;right:36px;z-index:20;
+    padding:9px 14px;border:1px solid rgba(255,255,255,0.18);
+    background:rgba(17,17,17,0.34);backdrop-filter:blur(8px);
+    font-size:11px;font-weight:700;letter-spacing:0.16em;
+    color:rgba(255,255,255,0.58);text-transform:uppercase;
   ">EPICKOR.COM</div>
 '''
+
 
 CARD_SHELL_START = '''<!DOCTYPE html>
 <html lang="en">
@@ -121,24 +130,24 @@ CARD_SHELL_START = '''<!DOCTYPE html>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=1080">
 <style>
-  @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700;900&display=swap');
-  * {{ margin:0; padding:0; box-sizing:border-box; }}
-  body {{
+  * { margin:0; padding:0; box-sizing:border-box; }
+  body {
     width:1080px; height:1080px; overflow:hidden;
     background:#111111;
-    font-family:'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif;
+    font-family:'Segoe UI',Arial,'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif;
     -webkit-font-smoothing:antialiased;
-  }}
-  .card {{
+  }
+  .card {
     width:1080px; height:1080px;
     position:relative; overflow:hidden;
     background:#111111;
-  }}
+  }
 </style>
 </head>
 <body>
 <div class="card">
 '''
+
 
 CARD_SHELL_END = '''
 </div>
@@ -146,19 +155,48 @@ CARD_SHELL_END = '''
 </html>'''
 
 
+def image_layer_full(img, opacity='0.36'):
+    if not img:
+        return ''
+    return f'''
+  <img src="{img}" style="
+    position:absolute;inset:0;width:100%;height:100%;
+    object-fit:cover;opacity:{opacity};filter:saturate(1.05) contrast(1.08);
+  ">
+  <div style="position:absolute;inset:0;
+    background:linear-gradient(180deg,rgba(17,17,17,0.24) 0%,rgba(17,17,17,0.92) 78%);
+  "></div>
+'''
+
+
+def kicker_html(card, pc):
+    kicker = (card.get('kicker') or '').strip()
+    if not kicker:
+        return ''
+    return f'''
+    <div style="
+      display:inline-flex;align-items:center;width:max-content;
+      padding:9px 13px;margin-bottom:22px;
+      border:1px solid {pc};background:rgba(17,17,17,0.34);
+      color:{pc};font-size:16px;font-weight:800;
+      letter-spacing:0.12em;text-transform:uppercase;
+    ">{kicker}</div>
+    '''
+
+
 def build_type_a(card):
-    """Type A — 커버/마무리 카드"""
     pc = point_color(card)
     main = to_html_text(card['main_text'])
     sub = to_html_text(card['sub_text'])
+    img = resolve_image_src(card)
+    kicker = kicker_html(card, pc)
 
     return f'''
-  <!-- 배경 그라데이션 -->
   <div style="position:absolute;inset:0;
     background:linear-gradient(135deg,#1a1200 0%,#111111 55%,#0d0d0d 100%);
   "></div>
+  {image_layer_full(img, '0.38')}
 
-  <!-- 사선 액센트 -->
   <div style="position:absolute;top:-80px;right:-60px;
     width:400px;height:400px;background:{pc};transform:rotate(35deg);opacity:0.10;
   "></div>
@@ -166,34 +204,28 @@ def build_type_a(card):
     width:5px;height:260px;background:{pc};transform:rotate(35deg);opacity:0.5;
   "></div>
 
-  <!-- 텍스트 블록 -->
   <div style="position:absolute;bottom:100px;left:88px;right:88px;">
-    <div style="width:44px;height:3px;background:{pc};margin-bottom:24px;"></div>
+    {kicker}
+    <div style="width:58px;height:5px;background:{pc};margin-bottom:30px;"></div>
     <div style="
-      font-size:54px;font-weight:900;color:#FFFFFF;
-      line-height:1.2;letter-spacing:-0.03em;margin-bottom:20px;
+      font-size:72px;font-weight:900;color:#FFFFFF;
+      line-height:1.05;margin-bottom:28px;
     ">{main}</div>
     <div style="
-      font-size:17px;font-weight:400;color:rgba(255,255,255,0.65);
-      line-height:1.75;letter-spacing:-0.01em;word-break:keep-all;
+      font-size:30px;font-weight:500;color:rgba(255,255,255,0.78);
+      line-height:1.35;word-break:keep-all;
     ">{sub}</div>
   </div>
   {WATERMARK_HTML}'''
 
 
 def build_type_b(card):
-    """Type B — 상단 그래픽 + 하단 텍스트"""
     pc = point_color(card)
     main = to_html_text(card['main_text'])
     sub = to_html_text(card['sub_text'])
-
-    return f'''
-  <!-- 상단 그래픽 영역 -->
-  <div style="
-    width:1080px;height:486px;position:relative;overflow:hidden;
-    background:linear-gradient(135deg,#1a1200 0%,#2d1f00 50%,#111111 100%);
-  ">
-    <!-- 장식 요소 -->
+    img = resolve_image_src(card)
+    kicker = kicker_html(card, pc)
+    visual = image_layer_full(img, '0.62') if img else f'''
     <div style="
       position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);
       width:200px;height:200px;border-radius:50%;
@@ -204,59 +236,43 @@ def build_type_b(card):
       width:120px;height:120px;border-radius:50%;
       background:{pc};opacity:0.08;
     "></div>
+    '''
+
+    return f'''
+  <div style="
+    width:1080px;height:486px;position:relative;overflow:hidden;
+    background:linear-gradient(135deg,#1a1200 0%,#2d1f00 50%,#111111 100%);
+  ">
+    {visual}
   </div>
 
-  <!-- 하단 텍스트 영역 -->
   <div style="
     width:1080px;height:594px;background:#111111;
-    padding:52px 88px;
+    padding:62px 88px;
     display:flex;flex-direction:column;justify-content:center;
   ">
+    {kicker}
     <div style="
-      font-size:28px;font-weight:700;color:{pc};
-      line-height:1.4;letter-spacing:-0.02em;
-      border-bottom:2px solid {pc};
-      display:inline-block;padding-bottom:4px;margin-bottom:24px;
+      font-size:54px;font-weight:900;color:{pc};
+      line-height:1.14;
+      border-bottom:3px solid {pc};
+      display:inline-block;padding-bottom:12px;margin-bottom:32px;
     ">{main}</div>
     <div style="
-      font-size:17px;font-weight:400;color:#FFFFFF;
-      line-height:1.85;letter-spacing:-0.01em;word-break:keep-all;
+      font-size:30px;font-weight:500;color:#FFFFFF;
+      line-height:1.42;word-break:keep-all;
     ">{sub}</div>
   </div>
   {WATERMARK_HTML}'''
 
 
 def build_type_c(card):
-    """Type C — 좌우 분할"""
     pc = point_color(card)
     main = to_html_text(card['main_text'])
     sub = to_html_text(card['sub_text'])
-
-    return f'''
-  <div style="display:flex;width:1080px;height:1080px;">
-    <!-- 텍스트 영역 (좌 60%) -->
-    <div style="
-      width:648px;height:1080px;background:#111111;
-      padding:96px 72px;
-      display:flex;flex-direction:column;justify-content:center;
-    ">
-      <div style="width:36px;height:3px;background:{pc};margin-bottom:28px;"></div>
-      <div style="
-        font-size:26px;font-weight:700;color:{pc};
-        line-height:1.45;letter-spacing:-0.02em;
-        border-left:4px solid {pc};padding-left:18px;margin-bottom:24px;
-      ">{main}</div>
-      <div style="
-        font-size:16px;font-weight:400;color:#FFFFFF;
-        line-height:1.85;letter-spacing:-0.01em;word-break:keep-all;
-      ">{sub}</div>
-    </div>
-
-    <!-- 그래픽 영역 (우 40%) -->
-    <div style="
-      width:432px;height:1080px;position:relative;overflow:hidden;
-      background:linear-gradient(180deg,#1a1200 0%,#0d0d0d 100%);
-    ">
+    img = resolve_image_src(card)
+    kicker = kicker_html(card, pc)
+    visual = image_layer_full(img, '0.56') if img else f'''
       <div style="
         position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);
         width:180px;height:180px;border-radius:50%;
@@ -266,42 +282,68 @@ def build_type_c(card):
         position:absolute;top:30%;left:20%;
         width:3px;height:200px;background:{pc};opacity:0.3;transform:rotate(20deg);
       "></div>
+    '''
+
+    return f'''
+  <div style="display:flex;width:1080px;height:1080px;">
+    <div style="
+      width:648px;height:1080px;background:#111111;
+      padding:86px 72px;
+      display:flex;flex-direction:column;justify-content:center;
+    ">
+      <div style="width:52px;height:5px;background:{pc};margin-bottom:30px;"></div>
+      {kicker}
+      <div style="
+        font-size:52px;font-weight:900;color:{pc};
+        line-height:1.12;
+        border-left:6px solid {pc};padding-left:22px;margin-bottom:34px;
+      ">{main}</div>
+      <div style="
+        font-size:29px;font-weight:500;color:#FFFFFF;
+        line-height:1.45;word-break:keep-all;
+      ">{sub}</div>
+    </div>
+
+    <div style="
+      width:432px;height:1080px;position:relative;overflow:hidden;
+      background:linear-gradient(180deg,#1a1200 0%,#0d0d0d 100%);
+    ">
+      {visual}
     </div>
   </div>
   {WATERMARK_HTML}'''
 
 
 def build_type_d(card, total):
-    """Type D — 인용/강조 카드"""
     pc = point_color(card)
     main = to_html_text(card['main_text'])
     sub = to_html_text(card['sub_text'])
+    img = resolve_image_src(card)
+    kicker = kicker_html(card, pc)
     num = card['number']
 
     return f'''
-  <div style="padding:88px;position:relative;width:1080px;height:1080px;">
-    <!-- 시리즈 번호 -->
+  <div style="position:absolute;inset:0;background:#111111;"></div>
+  {image_layer_full(img, '0.30')}
+  <div style="padding:88px;position:relative;width:1080px;height:1080px;z-index:5;">
     <div style="
-      font-size:13px;font-weight:400;
+      font-size:16px;font-weight:500;
       color:rgba(255,255,255,0.4);letter-spacing:0.1em;margin-bottom:48px;
     ">{num:02d} / {total:02d}</div>
+    {kicker}
 
-    <!-- 메인 타이틀 -->
     <div style="
-      font-size:48px;font-weight:900;color:{pc};
-      line-height:1.2;letter-spacing:-0.03em;margin-bottom:36px;
+      font-size:72px;font-weight:900;color:{pc};
+      line-height:1.08;margin-bottom:44px;
     ">{main}</div>
 
-    <!-- 구분선 -->
-    <div style="width:100%;height:1px;background:rgba(255,255,255,0.15);margin-bottom:36px;"></div>
+    <div style="width:100%;height:2px;background:rgba(255,255,255,0.15);margin-bottom:44px;"></div>
 
-    <!-- 본문 -->
     <div style="
-      font-size:18px;font-weight:400;color:rgba(255,255,255,0.85);
-      line-height:1.85;letter-spacing:-0.01em;word-break:keep-all;
+      font-size:32px;font-weight:500;color:rgba(255,255,255,0.88);
+      line-height:1.42;word-break:keep-all;
     ">{sub}</div>
 
-    <!-- 우하단 장식 -->
     <div style="
       position:absolute;bottom:-60px;right:-60px;
       width:280px;height:280px;
@@ -313,7 +355,6 @@ def build_type_d(card, total):
 
 def build_card_html(card, total):
     layout = card['layout'].upper().strip()
-
     if layout == 'A':
         body = build_type_a(card)
     elif layout == 'B':
@@ -323,42 +364,36 @@ def build_card_html(card, total):
     elif layout == 'D':
         body = build_type_d(card, total)
     else:
-        body = build_type_b(card)  # fallback
+        body = build_type_b(card)
 
     return CARD_SHELL_START + body + CARD_SHELL_END
 
 
-# ─── PNG 변환 ─────────────────────────────────────────────────────
-
 def convert_to_png(html_path, png_path):
-    """Playwright로 HTML → 1080×1080 PNG 변환"""
     try:
         from playwright.sync_api import sync_playwright
     except ImportError:
-        print('❌ playwright가 설치되지 않았습니다.')
-        print('   pip install playwright && playwright install chromium')
+        print('Playwright is not installed.')
+        print('Run: pip install playwright && playwright install chromium')
         sys.exit(1)
 
     html_url = 'file:///' + str(html_path).replace('\\', '/')
-
     with sync_playwright() as p:
         browser = p.chromium.launch()
         page = browser.new_page(viewport={'width': 1080, 'height': 1080})
         page.goto(html_url)
-        page.wait_for_timeout(1000)  # 웹폰트 로딩 대기
+        page.wait_for_timeout(1000)
         page.screenshot(
             path=str(png_path),
-            clip={'x': 0, 'y': 0, 'width': 1080, 'height': 1080}
+            clip={'x': 0, 'y': 0, 'width': 1080, 'height': 1080},
         )
         browser.close()
 
 
-# ─── 메인 ────────────────────────────────────────────────────────
-
 def main():
-    parser = argparse.ArgumentParser(description='EpicKor Card News HTML→PNG Converter')
-    parser.add_argument('--slug', required=True, help='포스트 슬러그 (예: 166)')
-    parser.add_argument('--card', help='특정 카드 번호만 변환 (예: 01)')
+    parser = argparse.ArgumentParser(description='EpicKor card news HTML to PNG converter')
+    parser.add_argument('--slug', required=True, help='Post slug, e.g. 160')
+    parser.add_argument('--card', help='Render one card number, e.g. 01')
     args = parser.parse_args()
 
     slug = args.slug
@@ -366,23 +401,21 @@ def main():
     script_path = output_dir / 'script.md'
 
     if not script_path.exists():
-        print(f'❌ script.md 없음: {script_path}')
-        print(f'   먼저 generate-slides.mjs를 실행하세요.')
+        print(f'Missing script.md: {script_path}')
         sys.exit(1)
 
-    print(f'🎨 카드뉴스 HTML→PNG 변환 시작: slug={slug}')
-
+    print(f'Starting card news render: slug={slug}')
     _, topic, cards = parse_script(script_path)
     total = len(cards)
-
-    print(f'   슬라이드 수: {total}장')
+    print(f'   Topic: {topic}')
+    print(f'   Cards: {total}')
 
     target_cards = cards
     if args.card:
         target_num = int(args.card)
         target_cards = [c for c in cards if c['number'] == target_num]
         if not target_cards:
-            print(f'❌ Card {args.card} 없음')
+            print(f'Missing Card {args.card}')
             sys.exit(1)
 
     success_count = 0
@@ -391,25 +424,23 @@ def main():
         html_path = output_dir / f'card_{num_str}.html'
         png_path = output_dir / f'card_{num_str}.png'
 
-        # HTML 생성
         html = build_card_html(card, total)
         html_path.write_text(html, encoding='utf-8')
 
-        # PNG 변환
         try:
             convert_to_png(html_path, png_path)
-            print(f'   ✅ card_{num_str}.png — {card["layout"]} / {card["role"]}')
+            print(f'   OK card_{num_str}.png ({card["layout"]} / {card["role"]})')
             success_count += 1
         except Exception as e:
-            print(f'   ❌ card_{num_str}.png 변환 실패: {e}')
-            print(f'      HTML은 저장됨: {html_path}')
+            print(f'   Failed card_{num_str}.png: {e}')
+            print(f'      HTML saved: {html_path}')
 
-    print(f'\n🎉 완료! {success_count}/{len(target_cards)}장 PNG 생성')
-    print(f'   저장 위치: output/cardnews/{slug}/')
+    print(f'\nDone. {success_count}/{len(target_cards)} PNG generated')
+    print(f'   Output: output/cardnews/{slug}/')
 
     if success_count < len(target_cards):
         failed = len(target_cards) - success_count
-        print(f'   ⚠️  {failed}장 실패 — HTML 파일로 저장되었습니다.')
+        print(f'   Warning: {failed} card(s) failed; inspect the saved HTML files.')
 
 
 if __name__ == '__main__':

@@ -1,5 +1,12 @@
 # Marketing Team Agent
 
+## Card News / Social Support Rules
+
+- When a post is likely to become card news, preserve the reader promise: hook, useful tip, and clear CTA back to `EPICKOR.COM`.
+- Affiliate or product mentions should not make card news feel like an ad. Keep the carousel educational first.
+- If product names appear in a carousel, they must fit the original article context and should not replace the Korea/EpicKor story angle.
+- Social CTA should point back to `EPICKOR.COM` or the specific blog URL, matching the watermark.
+
 ## 역할
 승인된 블로그 초안에 Amazon Affiliate 링크를 1~3개 자연스럽게 삽입하여 `output/final/{slug}_final.md`를 생성한다.
 

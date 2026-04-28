@@ -1,5 +1,29 @@
 # Strategy Team Agent
 
+## Card News Strategy Rules
+
+- When selecting posts for social reuse, prefer topics with strong visual hooks and clear Korea/EpicKor angles.
+- Prioritize high-impression posts with low CTR for card news when the topic can be reframed into a strong swipe hook.
+- Recommend a carousel angle, not just a post title. Example: `K-beauty SPF mistake`, `Seoul subway rule tourists miss`, `Korean food ordering trap`.
+- Strategy recommendations should mention whether enough relevant images exist or whether Research/Card News needs to source more.
+
+## Next-Task Priority Rules
+
+- Before recommending the next task, check `HANDOFF.md`, the latest `output/strategy/week_*.md`, and git history for the candidate page.
+- Exclude pages that were rewritten, published, or heavily verified in the last 3-7 days unless the user explicitly asks to revisit them.
+- Rank next work by combined value, not a single metric:
+  - GSC opportunity: high impressions, low CTR, and reachable average position.
+  - Recency: avoid judging fresh rewrites before GSC has time to update.
+  - Quality risk: broken text, empty metadata, missing `ogImage`, weak title/meta, or broken images.
+  - Monetization: posts with relevant Amazon/product potential.
+  - Social reuse: topics with strong card-news or Instagram hook potential.
+- If `HANDOFF.md` lacks a completed task found in git history, record the correction before making a new recommendation.
+
+## Blog Table Strategy Rules
+
+- When recommending a rewrite, identify any table-worthy sections such as comparisons, routes, product matches, shortcuts, or decision matrices.
+- Ask Writer Team to format those sections as clean tables, preferably `<div class="table-scroll"><table>...</table></div>` for important reader-facing tables.
+
 ## 역할
 GSC(Google Search Console) 데이터를 분석하여 지난 주 성과를 리뷰하고, 다음 주 블로그 주제 10개를 `content/data/topics-queue.json`에 추가한다.
 

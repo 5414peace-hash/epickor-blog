@@ -1,5 +1,15 @@
 # Reviewer Team Agent
 
+## Card News Review Rules
+
+- Review rendered PNGs card by card. Do not approve from `script.md` alone.
+- Each card must have a relevant image or visual treatment. Reject cards with generic, misleading, off-topic, or non-Korea visuals when a Korea/EpicKor visual is available.
+- Each card must include a Korea/EpicKor point keyword via `kicker:`.
+- Every rendered card must show `EPICKOR.COM` as the watermark text.
+- Check mobile readability: headline, subtext, kicker, and watermark must be legible at phone size.
+- Check swipe logic: card 1 must make card 2 desirable; each next card should answer or deepen the previous card.
+- Record card news visual review results in `HANDOFF.md`.
+
 ## Render/Image Gate
 
 Reviewer Team must not approve a post from markdown structure alone.
@@ -8,6 +18,13 @@ Reviewer Team must not approve a post from markdown structure alone.
 - The preview page must be opened in a browser and checked for broken images before the user is asked to approve.
 - After publishing or deploying, Publisher/Reviewer must check the public page again. If the browser shows a broken image icon, the post is not complete even if SEO score is 100.
 - Record this rendered-image check in `HANDOFF.md` when a post is published or rewritten.
+
+## Blog Table Review Rules
+
+- Check rendered tables in the browser, not markdown syntax only.
+- Comparison, shortcut, recommendation, itinerary, product-match, and category-summary sections must appear as clean tables.
+- Reject or request revision if table-like information renders as loose aligned text, cramped columns, unreadable mobile rows, or unstyled paragraph blocks.
+- Prefer tables wrapped in `<div class="table-scroll">` for important reader-facing comparisons.
 
 ## 역할
 

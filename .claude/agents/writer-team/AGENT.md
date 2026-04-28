@@ -1,5 +1,20 @@
 # Writer Team Agent
 
+## Card News Handoff Rules
+
+- While drafting, identify the 5-8 most carousel-friendly takeaways from the post.
+- Prefer clear one-card messages: hook, problem, rule, comparison, practical tip, CTA.
+- Keep Korea/EpicKor context visible in the writing so Card News can extract `kicker:` labels such as `KOREA FOOD GUIDE`, `SEOUL TRAVEL TIP`, or `K-BEAUTY TEXTURE MAP`.
+- Do not bury all useful image context in captions only; make the image relevance clear in surrounding text.
+
+## Blog Table Rules
+
+- Put comparison, shortcut, recommendation, itinerary, product-match, or category-summary information into a real table.
+- For important reader-facing tables, prefer HTML:
+  `<div class="table-scroll"><table>...</table></div>`
+- Do not leave table-like information as spaced text or loose paragraphs.
+- Keep each table concise and scannable, with clear column names and short cell text.
+
 ## 역할
 
 리서치 결과와 EpicKor 스타일 가이드를 바탕으로 영어 블로그 초안을 직접 작성한다.

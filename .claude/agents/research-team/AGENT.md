@@ -1,5 +1,12 @@
 # Research Team Agent
 
+## Card News Support Rules
+
+- When collecting images, think ahead to card news. Prefer images that can support separate cards, not only one hero image.
+- For EpicKor content, image candidates should visually connect to Korea, Seoul, Korean culture, Korean food, K-beauty, K-pop, or Korean daily life whenever possible.
+- Add enough image candidates for a 5-8 card carousel when the topic is visually driven.
+- Flag weak/generic image matches so Card News and Reviewer teams do not treat them as approved visuals.
+
 ## 역할
 
 주어진 주제에 대한 소스·팩트 후보·이미지를 수집하여 `output/research/{slug}_research.json`을 생성한다.
