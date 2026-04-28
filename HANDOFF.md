@@ -1,5 +1,23 @@
 # HANDOFF - EpicKor Agent Teams v2
 
+## Latest Update - 2026-04-28 Technical SEO and Strategy Agent
+
+- Task: Resume the original EpicKor operating plan beyond GSC rewrites.
+- Technical SEO:
+  - Added `metadataBase: new URL("https://www.epickor.com")` to `app/layout.tsx`.
+  - `npm.cmd run build` now passes without the previous `metadataBase` warning.
+- Strategy Agent:
+  - Created `.claude/skills/strategy/scripts/analyze-week.mjs`.
+  - CSV mode now reads GSC exports under `output/gsc/`.
+  - Generated weekly report: `output/strategy/week_2026W18.md`.
+  - Current GSC totals from page CSV: 282 clicks / 70,977 impressions / 0.40% average CTR.
+  - Pending topic queue count: 22, so no automatic topic additions were needed.
+  - Script supports `--update-queue`, but only tops up queue when pending topics are below the minimum.
+- Recommended next operating work:
+  - Amazon monetization cleanup for `/blog/160` and `/blog/153`.
+  - Card news generation for one improved post, preferably `/blog/160` or `/blog/071`.
+  - Continue GSC rewrites later after 3-7 days of post-change data.
+
 ## Latest Update - 2026-04-28 GSC Rewrite 055 and 153
 
 - Task: Improve `/blog/055` and `/blog/153` from GSC data for better CTR.

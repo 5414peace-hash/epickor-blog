@@ -6,6 +6,7 @@ import "./globals.css";
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://www.epickor.com"),
   title: "EpicKor | No.1 Korean Dispatch Channel",
   description: "Discover Hidden Travel Gems, Unique Attractions, and Must-Visit Destinations in Korea",
   verification: {
