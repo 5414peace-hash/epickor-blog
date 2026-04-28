@@ -1,4 +1,4 @@
-import { notFound } from 'next/navigation';
+import { notFound, permanentRedirect } from 'next/navigation';
 import Image from 'next/image';
 import Link from 'next/link';
 import { getBlogPost, getAllBlogSlugs, getAllBlogPosts } from '@/lib/blog';
@@ -26,11 +26,14 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   return {
     title: post.title,
     description: post.description,
+    alternates: {
+      canonical: `/blog/${post.slug}`,
+    },
     openGraph: {
       title: post.title,
       description: post.description,
       ...(post.ogImage ? { images: [post.ogImage] } : {}),
-      url: `https://www.epickor.com/blog/${slug}`,
+      url: `https://www.epickor.com/blog/${post.slug}`,
     },
   };
 }
@@ -41,6 +44,10 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
 
   if (!post) {
     notFound();
+  }
+
+  if (post.slug !== slug) {
+    permanentRedirect(`/blog/${post.slug}`);
   }
 
   const formattedDate = format(new Date(post.date), 'MMMM dd, yyyy');

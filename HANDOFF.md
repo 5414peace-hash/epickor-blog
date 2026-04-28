@@ -1,5 +1,48 @@
 # HANDOFF - EpicKor Agent Teams v2
 
+## Latest Update - 2026-04-28 GSC Rewrite 074
+
+- Task: Fix `/blog/074` URL duplication and rewrite the post for GSC CTR/search intent.
+- Target metrics from GSC export:
+  - `/blog/074`: 3 clicks / 1,602 impressions / 0.19% CTR / average position 10.11.
+  - `/blog/074-the-world-of-underground-shopping-malls-in-korea`: 1 click / 1,407 impressions / 0.07% CTR / average position 8.06.
+- URL/canonical diagnosis:
+  - Public checks showed both `/blog/074` and `/blog/074-the-world-of-underground-shopping-malls-in-korea` returned 200.
+  - Cause: file name was `074-the-world-of-underground-shopping-malls-in-korea.md`, while frontmatter slug was `074`; `findFileBySlug` could resolve both.
+- URL/canonical changes:
+  - Updated `app/blog/[slug]/page.tsx`.
+  - Added canonical metadata based on `post.slug`, not the requested URL slug.
+  - Updated Open Graph URL to use `post.slug`.
+  - Added `permanentRedirect('/blog/{post.slug}')` when a non-canonical filename slug resolves to a post with a different frontmatter slug.
+  - Local alias check: `/blog/074-the-world-of-underground-shopping-malls-in-korea` now returns 308 to `/blog/074`.
+- Search intent used:
+  - `seoul subway station underground shopping mall multiple lines`
+  - `gangnam station underground shopping mall`
+  - `hongdae station underground shopping mall`
+  - `underground shopping seoul`
+- Writer role:
+  - Rewrote title to `Seoul Underground Shopping Malls: Best Stations Guide`.
+  - Rebuilt the post around COEX Mall, Gangnam Station Underground Shopping Center, Goto Mall/Express Bus Terminal, and the Hongdae clarification.
+  - Added practical shopping guidance, route/time planning, and FAQ.
+  - Removed broken mojibake, placeholder comments, and thin report-style structure.
+- Table/Image role:
+  - Added 3 clean HTML tables wrapped in `<div class="table-scroll">`.
+  - Preserved existing 074 image assets and set a local `ogImage`.
+  - Kept 3 relevant body images.
+- Reviewer role:
+  - Title length: 53 characters.
+  - Description length: 146 characters.
+  - Word count: 1,987.
+  - H2 sections: 9.
+  - Images: 3.
+  - Tables: 3.
+  - Confirmed no known mojibake strings, placeholder image comments, empty `ogImage`, or internal notes.
+  - Local `/blog/074?codex_check=20260428` returned 200.
+  - Local alias URL returned 308 to `/blog/074`.
+  - `npm.cmd run build`: passed.
+- Note:
+  - No separate subagent process was spawned in Codex. Codex performed the Strategy, SEO/canonical, Writer, Image, and Reviewer roles directly and recorded the responsibility split here.
+
 ## Latest Update - 2026-04-28 GSC Rewrite 159
 
 - Task: Improve `/blog/159` from GSC data and repair public-quality issues.
