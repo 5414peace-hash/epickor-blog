@@ -3,7 +3,6 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { getBlogPost, getAllBlogSlugs, getAllBlogPosts } from '@/lib/blog';
 import { getRelatedPosts } from '@/lib/related-posts';
-import { AMAZON_PRODUCTS, generateProductSchema } from '@/lib/markdown-enhancer';
 import { format } from 'date-fns';
 import ViewTracker from './view-tracker';
 
@@ -50,10 +49,6 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
   const allPosts = getAllBlogPosts();
   const relatedPosts = getRelatedPosts(post, allPosts, 3);
   
-  // Generate JSON-LD for Amazon products (if any)
-  const hasAmazonProducts = post.content.includes('Editor\'s Picks for You');
-  const amazonSchema = hasAmazonProducts ? generateProductSchema(Object.values(AMAZON_PRODUCTS).slice(0, 2)) : null;
-
   return (
     <div className="min-h-screen bg-white">
       <ViewTracker slug={slug} />
@@ -162,14 +157,6 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
         )}
       </article>
       
-      {/* JSON-LD Structured Data for Amazon Products */}
-      {amazonSchema && (
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: amazonSchema }}
-        />
-      )}
-
       {/* Back to Home */}
       <div className="border-t border-gray-200 bg-gray-50 py-12">
         <div className="container mx-auto px-4 text-center">

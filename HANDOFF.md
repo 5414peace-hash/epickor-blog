@@ -333,3 +333,28 @@ GEMINI_MODEL=
 | Phase 4: 카드뉴스 | 브리프 생성 방식으로 수정 완료 |
 | Phase 5: CLAUDE.md | 갱신 완료 |
 | Phase 6: 전체 테스트 | 166번 발행 완료 |
+ 
+---
+
+## Latest Update - 2026-04-28 Amazon Affiliate Guardrail
+
+- Reworked runtime Amazon insertion so it reads from `content/data/amazon-links.json` instead of a separate hardcoded product list in `lib/markdown-enhancer.ts`.
+- Added conservative matching:
+  - products need strong tag/content relevance;
+  - max 2 cards per post;
+  - one affiliate section near FAQ/conclusion instead of mid-article and bottom spam.
+- Added an explicit frontmatter gate:
+  - Amazon cards render only when a post has `amazon: true`.
+  - Currently enabled for:
+    - `content/blog/160.md` Korean sunscreen
+    - `content/blog/153.md` Isaac Toast
+- Added relevant Amazon search links for Korean sunscreen, sun sticks, Korean toast tools, and sweet breakfast ingredients.
+- Updated Studio Amazon Links UI/API type support to preserve product `tags`.
+- Removed automatic product JSON-LD injection from blog pages because the previous schema used generic/fake product details and could create SEO risk.
+- Verification:
+  - `npm.cmd run build` passed.
+  - Static HTML check shows `Helpful Shopping Picks` appears only in `.next/server/app/blog/153.html` and `.next/server/app/blog/160.html`.
+
+Next recommended step:
+
+- Commit, push, deploy, then verify production `/blog/160` and `/blog/153` include the affiliate section and other pages do not.

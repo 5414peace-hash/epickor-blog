@@ -11,6 +11,7 @@ interface AmazonProduct {
   url: string;
   category: string;
   image: string;
+  tags?: string[];
 }
 
 const EMPTY_PRODUCT: AmazonProduct = {
@@ -21,6 +22,7 @@ const EMPTY_PRODUCT: AmazonProduct = {
   url: '',
   category: 'Shopping',
   image: '',
+  tags: [],
 };
 
 function extractGithubTokenFromStorage(): string {
@@ -190,6 +192,7 @@ export default function StudioAmazonLinksPage() {
           <input className="rounded border border-gray-300 px-3 py-2 text-sm" placeholder="Price" value={draft.price} onChange={(e) => setDraft((p) => ({ ...p, price: e.target.value }))} />
           <input className="rounded border border-gray-300 px-3 py-2 text-sm" placeholder="Category" value={draft.category} onChange={(e) => setDraft((p) => ({ ...p, category: e.target.value }))} />
           <input className="rounded border border-gray-300 px-3 py-2 text-sm" placeholder="Image URL (optional)" value={draft.image} onChange={(e) => setDraft((p) => ({ ...p, image: e.target.value }))} />
+          <input className="rounded border border-gray-300 px-3 py-2 text-sm" placeholder="Tags (comma separated)" value={(draft.tags || []).join(', ')} onChange={(e) => setDraft((p) => ({ ...p, tags: e.target.value.split(',').map((tag) => tag.trim()).filter(Boolean) }))} />
           <textarea className="md:col-span-2 rounded border border-gray-300 px-3 py-2 text-sm" placeholder="Description" value={draft.description} onChange={(e) => setDraft((p) => ({ ...p, description: e.target.value }))} />
         </div>
         <button type="button" className="mt-3 rounded bg-blue-600 px-4 py-2 text-white hover:bg-blue-700" onClick={handleAdd}>
@@ -222,6 +225,7 @@ export default function StudioAmazonLinksPage() {
                   <th className="px-3 py-2 text-left">ID</th>
                   <th className="px-3 py-2 text-left">Name</th>
                   <th className="px-3 py-2 text-left">Category</th>
+                  <th className="px-3 py-2 text-left">Tags</th>
                   <th className="px-3 py-2 text-left">Price</th>
                   <th className="px-3 py-2 text-left">URL</th>
                   <th className="px-3 py-2 text-left">Action</th>
@@ -233,6 +237,7 @@ export default function StudioAmazonLinksPage() {
                     <td className="px-3 py-2 font-mono">{item.id}</td>
                     <td className="px-3 py-2">{item.name}</td>
                     <td className="px-3 py-2">{item.category}</td>
+                    <td className="px-3 py-2 max-w-[260px] text-xs text-gray-600">{(item.tags || []).join(', ')}</td>
                     <td className="px-3 py-2">{item.price}</td>
                     <td className="px-3 py-2 max-w-[360px] truncate">{item.url}</td>
                     <td className="px-3 py-2">

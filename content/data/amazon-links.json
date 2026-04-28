@@ -7,7 +7,8 @@
       "price": "$19.99",
       "url": "https://amzn.to/4bubOGe",
       "category": "Food",
-      "image": ""
+      "image": "",
+      "tags": ["Korean Snacks", "Snack Box", "Korean Food"]
     },
     {
       "id": "002",
@@ -16,7 +17,8 @@
       "price": "$12.99",
       "url": "https://amzn.to/4qhhWVZ",
       "category": "Food",
-      "image": ""
+      "image": "",
+      "tags": ["Seaweed Snack", "Bibigo", "Korean Snacks"]
     },
     {
       "id": "003",
@@ -25,7 +27,8 @@
       "price": "$15.99",
       "url": "https://amzn.to/3O5pcqu",
       "category": "Food",
-      "image": ""
+      "image": "",
+      "tags": ["Yakgwa", "Korean Dessert", "Korean Sweets"]
     },
     {
       "id": "004",
@@ -34,7 +37,8 @@
       "price": "$24.99",
       "url": "https://amzn.to/3MaZWi6",
       "category": "Food",
-      "image": ""
+      "image": "",
+      "tags": ["Buldak", "Korean Ramen", "Spicy Ramen", "Carbonara Ramen"]
     },
     {
       "id": "005",
@@ -43,7 +47,8 @@
       "price": "$18.99",
       "url": "https://amzn.to/4ae69Sg",
       "category": "Food",
-      "image": ""
+      "image": "",
+      "tags": ["Tteokbokki", "Rice Cake", "Korean Street Food"]
     },
     {
       "id": "006",
@@ -52,7 +57,8 @@
       "price": "$22.99",
       "url": "https://amzn.to/4twhKFk",
       "category": "Beauty",
-      "image": ""
+      "image": "",
+      "tags": ["Round Lab", "Dokdo Toner", "K-Beauty", "Skincare"]
     },
     {
       "id": "007",
@@ -61,7 +67,8 @@
       "price": "$18.99",
       "url": "https://amzn.to/3M4Q09W",
       "category": "Beauty",
-      "image": ""
+      "image": "",
+      "tags": ["Round Lab", "Dokdo Cleanser", "K-Beauty", "Skincare"]
     },
     {
       "id": "008",
@@ -70,7 +77,8 @@
       "price": "$8.99",
       "url": "https://amzn.to/467PaA7",
       "category": "Food",
-      "image": ""
+      "image": "",
+      "tags": ["Ssamjang", "Korean Sauce", "Korean BBQ"]
     },
     {
       "id": "009",
@@ -79,7 +87,8 @@
       "price": "$14.99",
       "url": "https://amzn.to/3Zgx6Qq",
       "category": "Culture",
-      "image": ""
+      "image": "",
+      "tags": ["Hangeul", "Hangul", "Korean Language", "Korean Workbook"]
     },
     {
       "id": "010",
@@ -88,7 +97,8 @@
       "price": "$9.99",
       "url": "https://amzn.to/4r2Pkkw",
       "category": "Food",
-      "image": ""
+      "image": "",
+      "tags": ["Gochujang", "Korean Chili Paste", "Korean Sauce"]
     },
     {
       "id": "011",
@@ -97,7 +107,8 @@
       "price": "$29.99",
       "url": "https://amzn.to/4qrpQMM",
       "category": "Shopping",
-      "image": ""
+      "image": "",
+      "tags": ["Korean Ramen Pot", "Ramen Pot", "Korean Cookware"]
     },
     {
       "id": "012",
@@ -106,7 +117,48 @@
       "price": "$16.99",
       "url": "https://amzn.to/4qlWBLd",
       "category": "Shopping",
-      "image": ""
+      "image": "",
+      "tags": ["Korean Chopsticks", "Korean Tableware", "Metal Chopsticks"]
+    },
+    {
+      "id": "013",
+      "name": "Browse Korean Sunscreens SPF 50",
+      "description": "Useful for comparing Korean sunscreen options mentioned in the guide, including daily SPF and sensitive-skin formulas.",
+      "price": "",
+      "url": "https://www.amazon.com/s?k=korean+sunscreen+spf+50&tag=epickor2026-20",
+      "category": "Beauty",
+      "image": "",
+      "tags": ["Korean Sunscreen", "SPF", "K-Beauty", "Skincare"]
+    },
+    {
+      "id": "014",
+      "name": "Browse Korean Sun Sticks",
+      "description": "A practical reapplication option for travel days, outdoor plans, and makeup-friendly SPF touch-ups.",
+      "price": "",
+      "url": "https://www.amazon.com/s?k=korean+sun+stick&tag=epickor2026-20",
+      "category": "Beauty",
+      "image": "",
+      "tags": ["Sun Stick", "Korean Sunscreen", "SPF", "K-Beauty"]
+    },
+    {
+      "id": "015",
+      "name": "Browse Korean Toast Sandwich Tools",
+      "description": "Helpful if you want to recreate Korean street toast or Isaac Toast-style sandwiches at home.",
+      "price": "",
+      "url": "https://www.amazon.com/s?k=korean+toast+sandwich+maker&tag=epickor2026-20",
+      "category": "Food",
+      "image": "",
+      "tags": ["Isaac Toast", "Korean Breakfast", "Korean Toast", "Street Food"]
+    },
+    {
+      "id": "016",
+      "name": "Browse Korean Sweet Breakfast Ingredients",
+      "description": "A starting point for building a Korean-style sweet-savory breakfast toast pantry at home.",
+      "price": "",
+      "url": "https://www.amazon.com/s?k=korean+breakfast+toast+sauce&tag=epickor2026-20",
+      "category": "Food",
+      "image": "",
+      "tags": ["Isaac Toast Sauce", "Korean Breakfast", "Korean Toast", "Sweet Savory"]
     }
   ]
 }

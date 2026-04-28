@@ -1,13 +1,14 @@
 /**
  * Advanced Markdown Content Enhancer
- * - Parallel image grid (2 consecutive images → 50:50 layout)
  * - Lazy loading for all images
+ * - Parallel image grid for consecutive images
  * - YouTube embed conversion
  * - Internal link rich cards
- * - Amazon product cards with styled UI
- * - AUTO-INJECTION: Amazon cards inserted at runtime (middle + bottom)
+ * - Conservative Amazon affiliate cards
  */
 
+import fs from 'fs';
+import path from 'path';
 
 interface InternalPostReference {
   slug: string;
@@ -17,285 +18,201 @@ interface InternalPostReference {
 }
 
 export interface AmazonProduct {
+  id?: string;
   name: string;
   url: string;
   description: string;
-  price: string; // Approximate price in USD
-  tags?: string[]; // Tags for smart matching
+  price?: string;
+  category?: string;
+  image?: string;
+  tags?: string[];
 }
 
-export const AMAZON_PRODUCTS: Record<string, AmazonProduct> = {
-  korean_snack: {
-    name: "Korean Snack Box",
-    url: "https://amzn.to/4bubOGe",
-    description: "Bring the taste of Korea to your home with this authentic snack collection",
-    price: "29.99",
-    tags: ['Food', 'Travel', 'Shopping']
-  },
-  bibigo_seaweed: {
-    name: "Bibigo Seaweed Snack",
-    url: "https://amzn.to/4qhhWVZ",
-    description: "Crispy, savory Korean seaweed snacks perfect for any time",
-    price: "12.99",
-    tags: ['Food']
-  },
-  yakgwa: {
-    name: "Yakgwa (Honey Cookie)",
-    url: "https://amzn.to/3O5pcqu",
-    description: "Traditional Korean honey cookies with a delightful sweet flavor",
-    price: "15.99",
-    tags: ['Food', 'Culture']
-  },
-  buldak_ramen: {
-    name: "Buldak Spicy Ramen",
-    url: "https://amzn.to/3MaZWi6",
-    description: "Experience the legendary spicy Korean ramen",
-    price: "18.99",
-    tags: ['Food', 'Shopping']
-  },
-  buldak_tteokbokki: {
-    name: "Buldak Tteokbokki",
-    url: "https://amzn.to/4ae69Sg",
-    description: "Spicy Korean rice cakes ready in minutes",
-    price: "16.99",
-    tags: ['Food']
-  },
-  dokdo_toner: {
-    name: "Round Lab Dokdo Toner",
-    url: "https://amzn.to/4twhKFk",
-    description: "Hydrating K-beauty toner for radiant skin",
-    price: "24.99",
-    tags: ['Woman', 'Beauty', 'Shopping']
-  },
-  dokdo_cleanser: {
-    name: "Round Lab Dokdo Cleanser",
-    url: "https://amzn.to/3M4Q09W",
-    description: "Gentle K-beauty cleanser for daily skincare",
-    price: "19.99",
-    tags: ['Woman', 'Beauty', 'Shopping']
-  },
-  ssamjang: {
-    name: "Ssamjang (Soybean Paste)",
-    url: "https://amzn.to/467PaA7",
-    description: "Essential Korean dipping sauce for BBQ and wraps",
-    price: "9.99",
-    tags: ['Food', 'Culture']
-  },
-  gochujang: {
-    name: "Gochujang (Chili Paste)",
-    url: "https://amzn.to/3UuA6fM",
-    description: "The iconic Korean chili paste that adds depth to any dish",
-    price: "11.99",
-    tags: ['Food', 'Culture']
-  },
-  hangeul_workbook: {
-    name: "Hangeul Workbook",
-    url: "https://amzn.to/3Zgx6Qq",
-    description: "Master the Korean alphabet with this beginner-friendly guide",
-    price: "14.99",
-    tags: ['Culture', 'Education']
-  },
-  ramen_pot: {
-    name: "Yellow Ramen Pot",
-    url: "https://amzn.to/495n6oT",
-    description: "The iconic Korean ramen pot for authentic cooking experience",
-    price: "22.99",
-    tags: ['Food', 'Shopping']
-  },
-  chopsticks: {
-    name: "Stainless Steel Chopsticks",
-    url: "https://amzn.to/3M9S92F",
-    description: "Traditional Korean metal chopsticks for everyday use",
-    price: "13.99",
-    tags: ['Food', 'Culture', 'Shopping']
+const AMAZON_LINKS_PATH = path.join(process.cwd(), 'content/data/amazon-links.json');
+const MIN_PRODUCT_SCORE = 24;
+const MAX_AFFILIATE_PRODUCTS = 2;
+const GENERIC_TOKENS = new Set([
+  'the',
+  'and',
+  'for',
+  'with',
+  'korean',
+  'korea',
+  'style',
+  'pack',
+  'set',
+  'box',
+  'food',
+  'snack',
+  'shopping',
+  'browse',
+  'amazon',
+]);
+
+function normalizeText(text: string): string {
+  return text.toLowerCase().replace(/[^a-z0-9]+/g, ' ').trim();
+}
+
+function tokenize(text: string): string[] {
+  return normalizeText(text)
+    .split(/\s+/)
+    .filter((token) => token.length >= 3 && !GENERIC_TOKENS.has(token));
+}
+
+function sanitizeProduct(input: unknown): AmazonProduct | null {
+  if (!input || typeof input !== 'object') return null;
+  const raw = input as Record<string, unknown>;
+  const name = String(raw.name || '').trim();
+  const url = String(raw.url || '').trim();
+  if (!name || !url) return null;
+
+  return {
+    id: String(raw.id || '').trim() || undefined,
+    name,
+    url,
+    description: String(raw.description || '').trim(),
+    price: String(raw.price || '').trim(),
+    category: String(raw.category || '').trim(),
+    image: String(raw.image || '').trim(),
+    tags: Array.isArray(raw.tags)
+      ? raw.tags.map((tag) => String(tag).trim()).filter(Boolean)
+      : [],
+  };
+}
+
+export function getAmazonProducts(): AmazonProduct[] {
+  try {
+    if (!fs.existsSync(AMAZON_LINKS_PATH)) return [];
+    const parsed = JSON.parse(fs.readFileSync(AMAZON_LINKS_PATH, 'utf8')) as { products?: unknown[] };
+    if (!Array.isArray(parsed.products)) return [];
+    return parsed.products
+      .map((item) => sanitizeProduct(item))
+      .filter((item): item is AmazonProduct => item !== null);
+  } catch (_error) {
+    return [];
   }
-};
-
-/**
- * Smart product matching based on post tags and content
- */
-export function selectProductsForPost(tags: string[], contentHtml: string): AmazonProduct[] {
-  const products = Object.values(AMAZON_PRODUCTS);
-  
-  // Score each product based on tag overlap
-  const scoredProducts = products.map(product => {
-    let score = 0;
-    
-    // Tag matching (highest priority)
-    if (product.tags) {
-      const matchingTags = product.tags.filter(tag => 
-        tags.some(postTag => postTag.toLowerCase() === tag.toLowerCase())
-      );
-      score += matchingTags.length * 10;
-    }
-    
-    // Content matching (secondary)
-    const contentLower = contentHtml.toLowerCase();
-    if (product.tags) {
-      product.tags.forEach(tag => {
-        if (contentLower.includes(tag.toLowerCase())) {
-          score += 2;
-        }
-      });
-    }
-    
-    // Keyword matching
-    if (contentLower.includes('food') || contentLower.includes('eat')) {
-      if (product.tags?.includes('Food')) score += 5;
-    }
-    if (contentLower.includes('beauty') || contentLower.includes('skin')) {
-      if (product.tags?.includes('Beauty') || product.tags?.includes('Woman')) score += 5;
-    }
-    
-    return { product, score };
-  });
-  
-  // Sort by score and return top products
-  scoredProducts.sort((a, b) => b.score - a.score);
-  
-  // Return top 3 products (1 for middle, 2 for bottom)
-  return scoredProducts.slice(0, 3).map(item => item.product);
 }
 
-/**
- * Generate Amazon product card HTML
- */
+export const AMAZON_PRODUCTS: Record<string, AmazonProduct> = Object.fromEntries(
+  getAmazonProducts().map((product, index) => [product.id || String(index + 1), product])
+);
+
+export function selectProductsForPost(tags: string[], contentHtml: string): AmazonProduct[] {
+  const products = getAmazonProducts();
+  const postTags = tags.map((tag) => normalizeText(tag));
+  const contentLower = normalizeText(contentHtml);
+  const combinedSignals = `${postTags.join(' ')} ${contentLower}`;
+
+  const scoredProducts = products.map((product) => {
+    let score = 0;
+    let strongSignal = false;
+
+    for (const productTag of product.tags || []) {
+      const normalizedProductTag = normalizeText(productTag);
+      if (!normalizedProductTag) continue;
+
+      if (postTags.some((postTag) => postTag === normalizedProductTag)) {
+        score += 40;
+        strongSignal = true;
+      } else if (
+        postTags.some((postTag) => postTag.includes(normalizedProductTag)) ||
+        contentLower.includes(normalizedProductTag)
+      ) {
+        score += 24;
+        strongSignal = true;
+      }
+    }
+
+    const matchingNameTokens = tokenize(product.name).filter((token) => combinedSignals.includes(token));
+    if (matchingNameTokens.length > 0) {
+      score += matchingNameTokens.length * 12;
+      strongSignal = true;
+    }
+
+    const category = normalizeText(product.category || '');
+    if (category && postTags.some((postTag) => postTag === category || postTag.includes(category))) {
+      score += 8;
+    }
+
+    return { product, score, strongSignal };
+  });
+
+  return scoredProducts
+    .filter((item) => item.strongSignal && item.score >= MIN_PRODUCT_SCORE)
+    .sort((a, b) => b.score - a.score)
+    .slice(0, MAX_AFFILIATE_PRODUCTS)
+    .map((item) => item.product);
+}
+
 function generateProductCard(product: AmazonProduct): string {
+  const price = product.price ? `<span class="amazon-product-price">${product.price}</span>` : '';
+
   return `
     <div class="amazon-product-card">
-      <h4>${product.name}</h4>
-      <p>${product.description}</p>
-      <a href="${product.url}" rel="nofollow sponsored" target="_blank" class="product-button">Shop on Amazon →</a>
+      <div class="amazon-product-card-content">
+        <h4 class="amazon-product-name">${product.name}</h4>
+        ${product.description ? `<p class="amazon-product-description">${product.description}</p>` : ''}
+        ${price}
+        <a href="${product.url}" rel="nofollow sponsored noopener noreferrer" target="_blank" class="product-button">View on Amazon</a>
+      </div>
     </div>
   `;
 }
 
-/**
- * Insert middle Amazon card (after first H2/H3, excluding Keywords section)
- */
-export function insertMiddleAmazonCard(html: string, product: AmazonProduct): string {
-  // Check if card already exists
-  if (html.includes("Editor's Pick")) {
-    return html; // Already has card, skip
-  }
-  
-  // Strategy 1: Insert after first H2 (main section heading)
-  const h2Match = html.match(/(<h2[^>]*>.*?<\/h2>)/);
-  if (h2Match) {
-    const h2Index = html.indexOf(h2Match[0]) + h2Match[0].length;
-    const cardHtml = `
-<h3>Editor's Pick</h3>
-${generateProductCard(product)}
-<p class="amazon-disclaimer"><em>As an Amazon Associate, we earn from qualifying purchases.</em></p>
+export function insertAmazonAffiliateSection(html: string, products: AmazonProduct[]): string {
+  if (html.includes('amazon-affiliate-section')) return html;
+
+  const selectedProducts = products.slice(0, MAX_AFFILIATE_PRODUCTS);
+  if (selectedProducts.length === 0) return html;
+
+  const cardHtml = `
+<aside class="amazon-affiliate-section" aria-label="Related shopping picks">
+  <h3 class="amazon-section-title">Helpful Shopping Picks</h3>
+  <div class="amazon-products-grid">
+    ${selectedProducts.map((product) => generateProductCard(product)).join('')}
+  </div>
+  <p class="amazon-disclaimer"><em>As an Amazon Associate, we earn from qualifying purchases.</em></p>
+</aside>
 `;
-    return html.slice(0, h2Index) + cardHtml + html.slice(h2Index);
-  }
-  
-  // Strategy 2: Insert after first H3 that's NOT "Keywords"
-  const h3Matches = html.match(/<h3[^>]*>.*?<\/h3>/g);
-  if (h3Matches) {
-    for (const h3 of h3Matches) {
-      if (!h3.toLowerCase().includes('keyword')) {
-        const h3Index = html.indexOf(h3) + h3.length;
-        const cardHtml = `
-<h3>Editor's Pick</h3>
-${generateProductCard(product)}
-<p class="amazon-disclaimer"><em>As an Amazon Associate, we earn from qualifying purchases.</em></p>
-`;
-        return html.slice(0, h3Index) + cardHtml + html.slice(h3Index);
-      }
-    }
-  }
-  
-  // Strategy 3: Insert after 4th paragraph (middle of content)
-  const paragraphs = html.match(/<p[^>]*>.*?<\/p>/g);
-  if (paragraphs && paragraphs.length >= 4) {
-    const fourthParagraph = paragraphs[3];
-    const insertIndex = html.indexOf(fourthParagraph) + fourthParagraph.length;
-    const cardHtml = `
-<h3>Editor's Pick</h3>
-${generateProductCard(product)}
-<p class="amazon-disclaimer"><em>As an Amazon Associate, we earn from qualifying purchases.</em></p>
-`;
+
+  const lateSectionMatch = html.match(
+    /<h2[^>]*>[^<]*(?:FAQ|Frequently Asked|Conclusion|Final|The Easiest Rule|Bottom Line)[^<]*<\/h2>/i
+  );
+  if (lateSectionMatch) {
+    const insertIndex = html.indexOf(lateSectionMatch[0]);
     return html.slice(0, insertIndex) + cardHtml + html.slice(insertIndex);
   }
-  
-  return html; // Fallback: no insertion
-}
 
-/**
- * Insert bottom Amazon cards (before Keywords section or at end)
- */
-export function insertBottomAmazonCards(html: string, products: AmazonProduct[]): string {
-  // Check if cards already exist
-  if (html.includes("Editor's Picks for You")) {
-    return html; // Already has cards, skip
-  }
-  
-  // Take 2 products for bottom section
-  const bottomProducts = products.slice(0, 2);
-  if (bottomProducts.length === 0) {
-    return html;
-  }
-  
-  const cardHtml = `
-<h3>Editor's Picks for You</h3>
-<div class="amazon-product-grid">
-  ${bottomProducts.map(p => generateProductCard(p)).join('')}
-</div>
-<p class="amazon-disclaimer"><em>As an Amazon Associate, we earn from qualifying purchases.</em></p>
-`;
-  
-  // Strategy 1: Insert before Keywords section
-  const keywordsMatch = html.match(/(<h3[^>]*>Keywords<\/h3>)/i);
-  if (keywordsMatch) {
-    const keywordsIndex = html.indexOf(keywordsMatch[0]);
-    return html.slice(0, keywordsIndex) + cardHtml + html.slice(keywordsIndex);
-  }
-  
-  // Strategy 2: Insert before last horizontal rule
   const lastHrMatch = html.lastIndexOf('<hr>');
   if (lastHrMatch !== -1) {
     return html.slice(0, lastHrMatch) + cardHtml + html.slice(lastHrMatch);
   }
-  
-  // Strategy 3: Append at end
+
   return html + cardHtml;
 }
 
-/**
- * Add lazy loading to all images
- */
 export function addLazyLoadingToImages(html: string): string {
   return html.replace(/<img([^>]*)>/g, (match, attributes) => {
     if (attributes.includes('loading=')) {
-      return match; // Already has loading attribute
+      return match;
     }
     return `<img${attributes} loading="lazy">`;
   });
 }
 
-/**
- * Convert consecutive images to parallel grid
- */
 export function convertToParallelImageGrid(html: string): string {
-  // Match two consecutive <p><img></p> patterns (flexible whitespace: space, tab, newline)
-  // Supports <p> with any attributes (e.g., class="image-center")
   const pattern = /(<p[^>]*><img[^>]*><\/p>)[\s\n\r]*(<p[^>]*><img[^>]*><\/p>)/g;
-  
-  return html.replace(pattern, (match, img1, img2) => {
+
+  return html.replace(pattern, (_match, img1, img2) => {
     return `<div class="image-grid-2">${img1}${img2}</div>`;
   });
 }
 
-/**
- * Convert YouTube links to embeds
- */
 export function convertYouTubeLinksToEmbeds(html: string): string {
-  // Match YouTube URLs (various formats)
-  const youtubePattern = /<p><a[^>]*href="(https?:\/\/(?:www\.)?(?:youtube\.com\/(?:watch\?v=|shorts\/)|youtu\.be\/)([a-zA-Z0-9_-]+)[^"]*)"[^>]*>.*?<\/a><\/p>/g;
-  
-  html = html.replace(youtubePattern, (match, fullUrl, videoId) => {
+  const youtubePattern =
+    /<p><a[^>]*href="(https?:\/\/(?:www\.)?(?:youtube\.com\/(?:watch\?v=|shorts\/)|youtu\.be\/)([a-zA-Z0-9_-]+)[^"]*)"[^>]*>.*?<\/a><\/p>/g;
+
+  html = html.replace(youtubePattern, (_match, _fullUrl, videoId) => {
     return `
       <div class="youtube-embed-container">
         <iframe
@@ -311,11 +228,11 @@ export function convertYouTubeLinksToEmbeds(html: string): string {
       </div>
     `;
   });
-  
-  // Also handle plain text YouTube links
-  const plainYoutubePattern = /<p>(https?:\/\/(?:www\.)?(?:youtube\.com\/(?:watch\?v=|shorts\/)|youtu\.be\/)([a-zA-Z0-9_-]+)[^<]*)<\/p>/g;
-  
-  return html.replace(plainYoutubePattern, (match, fullUrl, videoId) => {
+
+  const plainYoutubePattern =
+    /<p>(https?:\/\/(?:www\.)?(?:youtube\.com\/(?:watch\?v=|shorts\/)|youtu\.be\/)([a-zA-Z0-9_-]+)[^<]*)<\/p>/g;
+
+  return html.replace(plainYoutubePattern, (_match, _fullUrl, videoId) => {
     return `
       <div class="youtube-embed-container">
         <iframe
@@ -333,21 +250,16 @@ export function convertYouTubeLinksToEmbeds(html: string): string {
   });
 }
 
-/**
- * Convert internal blog links to rich cards
- */
 export function convertInternalLinksToCards(html: string, allPosts: InternalPostReference[]): string {
-  // Match epickor.com/blog/XXX links
   const internalLinkPattern = /<a[^>]*href="https?:\/\/(?:www\.)?epickor\.com\/blog\/([^"]+)"[^>]*>([^<]+)<\/a>/g;
-  
+
   return html.replace(internalLinkPattern, (match, slug) => {
-    // Find the post by slug
-    const post = allPosts.find((p) => p.slug === slug);
-    
+    const post = allPosts.find((item) => item.slug === slug);
+
     if (!post) {
-      return match; // Keep original link if post not found
+      return match;
     }
-    
+
     return `
       <a href="/blog/${slug}" class="internal-link-card">
         <div class="internal-link-card-content">
@@ -362,129 +274,50 @@ export function convertInternalLinksToCards(html: string, allPosts: InternalPost
   });
 }
 
-/**
- * Apply all enhancements to HTML content
- * NEW: Auto-inject Amazon cards based on post tags
- */
 export function enhanceMarkdownHTML(
-  html: string, 
+  html: string,
   allPosts: InternalPostReference[] = [],
-  postTags: string[] = []
+  postTags: string[] = [],
+  enableAffiliate: boolean = false
 ): string {
   let enhanced = html;
-  
-  // 1. Add lazy loading to images
+
   enhanced = addLazyLoadingToImages(enhanced);
-  
-  // 2. Convert consecutive images to parallel grid
   enhanced = convertToParallelImageGrid(enhanced);
-  
-  // 3. Convert YouTube links to embeds
   enhanced = convertYouTubeLinksToEmbeds(enhanced);
-  
-  // 4. Convert internal links to rich cards
+
   if (allPosts.length > 0) {
     enhanced = convertInternalLinksToCards(enhanced, allPosts);
   }
-  
-  // 5. AUTO-INJECT Amazon cards
-  const selectedProducts = selectProductsForPost(postTags, enhanced);
-  
-  // Insert middle card (1 product)
-  if (selectedProducts.length > 0) {
-    enhanced = insertMiddleAmazonCard(enhanced, selectedProducts[0]);
+
+  if (enableAffiliate) {
+    const selectedProducts = selectProductsForPost(postTags, enhanced);
+    enhanced = insertAmazonAffiliateSection(enhanced, selectedProducts);
   }
-  
-  // Insert bottom cards (2 products)
-  if (selectedProducts.length >= 2) {
-    enhanced = insertBottomAmazonCards(enhanced, selectedProducts.slice(1, 3));
-  }
-  
+
   return enhanced;
 }
 
-/**
- * Generate JSON-LD structured data for Amazon products
- * Includes all required fields for Google Rich Results:
- * - image (critical)
- * - priceValidUntil (recommended)
- * - shippingDetails (recommended)
- * - hasMerchantReturnPolicy (recommended)
- */
 export function generateProductSchema(products: AmazonProduct[]): string {
-  // Calculate priceValidUntil (1 year from now)
-  const priceValidUntil = new Date();
-  priceValidUntil.setFullYear(priceValidUntil.getFullYear() + 1);
-  const priceValidUntilISO = priceValidUntil.toISOString().split('T')[0];
-  
-  const productSchemas = products.map(product => ({
-    "@type": "Product",
-    "name": product.name,
-    "description": product.description,
-    "url": product.url,
-    "image": "https://www.epickor.com/images/epickor-logo.png", // Default product image
-    "brand": {
-      "@type": "Brand",
-      "name": "Amazon"
-    },
-    "offers": {
-      "@type": "Offer",
-      "price": product.price,
-      "priceCurrency": "USD",
-      "priceValidUntil": priceValidUntilISO,
-      "availability": "https://schema.org/InStock",
-      "url": product.url,
-      "seller": {
-        "@type": "Organization",
-        "name": "Amazon"
+  const productSchemas = products
+    .filter((product) => product.price && product.image)
+    .map((product) => ({
+      '@type': 'Product',
+      name: product.name,
+      description: product.description,
+      url: product.url,
+      image: product.image,
+      offers: {
+        '@type': 'Offer',
+        price: product.price,
+        priceCurrency: 'USD',
+        availability: 'https://schema.org/InStock',
+        url: product.url,
       },
-      "shippingDetails": {
-        "@type": "OfferShippingDetails",
-        "shippingRate": {
-          "@type": "MonetaryAmount",
-          "value": "0",
-          "currency": "USD"
-        },
-        "shippingDestination": {
-          "@type": "DefinedRegion",
-          "addressCountry": "US"
-        },
-        "deliveryTime": {
-          "@type": "ShippingDeliveryTime",
-          "handlingTime": {
-            "@type": "QuantitativeValue",
-            "minValue": 0,
-            "maxValue": 1,
-            "unitCode": "DAY"
-          },
-          "transitTime": {
-            "@type": "QuantitativeValue",
-            "minValue": 1,
-            "maxValue": 5,
-            "unitCode": "DAY"
-          }
-        }
-      },
-      "hasMerchantReturnPolicy": {
-        "@type": "MerchantReturnPolicy",
-        "applicableCountry": "US",
-        "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
-        "merchantReturnDays": 30,
-        "returnMethod": "https://schema.org/ReturnByMail",
-        "returnFees": "https://schema.org/FreeReturn"
-      }
-    },
-    "aggregateRating": {
-      "@type": "AggregateRating",
-      "ratingValue": "4.5",
-      "reviewCount": "100"
-    }
-  }));
-  
-  const schema = {
-    "@context": "https://schema.org",
-    "@graph": productSchemas
-  };
-  
-  return JSON.stringify(schema);
+    }));
+
+  return JSON.stringify({
+    '@context': 'https://schema.org',
+    '@graph': productSchemas,
+  });
 }

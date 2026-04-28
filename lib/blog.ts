@@ -333,7 +333,12 @@ export async function getBlogPost(slug: string, now: Date = new Date()): Promise
     const allPosts = getAllBlogPosts(now);
 
     contentHtml = processImages(contentHtml, postSlug);
-    contentHtml = enhanceMarkdownHTML(contentHtml, allPosts, (frontmatter.tags as string[]) || []);
+    contentHtml = enhanceMarkdownHTML(
+      contentHtml,
+      allPosts,
+      (frontmatter.tags as string[]) || [],
+      frontmatter.amazon === true
+    );
 
     return {
       slug: postSlug,

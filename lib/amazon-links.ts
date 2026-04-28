@@ -13,6 +13,7 @@ export interface AmazonProduct {
   url: string;
   category: string;
   image: string;
+  tags?: string[];
 }
 
 interface AmazonLinksFile {
@@ -37,6 +38,9 @@ function sanitizeProduct(input: unknown): AmazonProduct | null {
     url: String(raw.url || '').trim(),
     category: String(raw.category || '').trim(),
     image: String(raw.image || '').trim(),
+    tags: Array.isArray(raw.tags)
+      ? raw.tags.map((tag) => String(tag).trim()).filter(Boolean)
+      : [],
   };
 
   if (!product.id || !product.name || !product.url) {
