@@ -1,5 +1,24 @@
 # HANDOFF - EpicKor Agent Teams v2
 
+## Latest Update - 2026-04-28 GSC Rewrite 008
+
+- Task: Improve `/blog/008` from GSC data for better CTR.
+- Target metrics from GSC export: 16 clicks / 2,400 impressions / 0.67% CTR / average position 5.04.
+- Search intent found in query export: `korean garlic`, `why do koreans eat so much garlic`, `garlic in korea`, `korean pickled garlic`.
+- Changes:
+  - Rewrote title to `Why Koreans Eat So Much Garlic: Culture Explained`.
+  - Removed unsafe unsupported claim that Korea is definitively `#1` in global garlic consumption.
+  - Rebuilt body around Dangun myth, Korean BBQ, kimchi, banchan, fermentation, health beliefs, and common garlic uses.
+  - Added structured HTML table for where garlic appears on a Korean table.
+  - Added FAQ and internal link to `/blog/083`.
+  - Preserved existing image assets.
+- Verification:
+  - Reviewer Agent: 100/100, 1,940 words, 10 H2 sections, 4 images, 5 FAQ entries.
+  - `npm.cmd run build`: passed.
+  - Local rendered page: `http://localhost:4000/blog/008?codex_check=20260428` returned 200.
+  - Local image URLs for all 4 used 008 assets returned 200.
+- Next step: Commit/push/deploy, then verify public `/blog/008` and public image URLs.
+
 ## Latest Update - 2026-04-28 GSC Rewrite 043
 
 - Task: Improve `/blog/043` from GSC data for better CTR.
