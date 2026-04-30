@@ -1,5 +1,30 @@
 # HANDOFF - EpicKor Agent Teams v2
 
+### Follow-up - 2026-04-30 Card News 071 Visual Correction
+
+- User feedback:
+  - The first 071 card-news version used existing video-frame captures with embedded text, which reduced visual appeal.
+  - For food card news, images should be text-free and appetizing; heavy dark opacity should be avoided.
+  - Image selection should stay specific to Deli Manjoo, not generic custard/pastry imagery.
+- Changes:
+  - Removed generic Pexels pastry/street-food candidates from the 071 local card-news image folder.
+  - Sourced Deli Manjoo-specific official site image candidates from `delimanjoo.kr`.
+  - Updated `output/cardnews/071/script.md` to use Deli Manjoo-specific images/crops only.
+  - Updated `.claude/skills/cardnews/scripts/html-to-png.py` with optional per-card controls:
+    - `image_position`
+    - `image_opacity`
+    - `image_zoom`
+    - `image_tone: Food`
+  - Food tone uses a lighter image overlay so food does not render overly black while preserving text readability.
+- Renderer/Reviewer role:
+  - Re-rendered all 7 PNGs with `python .claude/skills/cardnews/scripts/html-to-png.py --slug 071`.
+  - Reviewed rendered cards after correction.
+  - Confirmed the revised cards use Deli Manjoo-specific imagery and avoid the prior embedded video-caption text issue.
+  - Confirmed `EPICKOR.COM` watermark remains present.
+- Note:
+  - Local rendered outputs remain under ignored `output/cardnews/071/`.
+  - The renderer option update is tracked because it improves future food/card-news customization without changing existing defaults.
+
 ## Latest Update - 2026-04-30 Card News 071
 
 - Task: Create card news for the already-improved `/blog/071` Deli Manjoo article.

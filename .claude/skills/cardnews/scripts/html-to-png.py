@@ -41,6 +41,10 @@ def parse_script(script_path):
             'point_color': 'Gold',
             'image_keyword': 'korea',
             'image': '',
+            'image_position': 'center center',
+            'image_opacity': '',
+            'image_zoom': '1',
+            'image_tone': '',
             'kicker': '',
             'main_text': '',
             'sub_text': '',
@@ -56,6 +60,14 @@ def parse_script(script_path):
                 card['image_keyword'] = line.split(':', 1)[1].strip()
             elif line.startswith('image:'):
                 card['image'] = line.split(':', 1)[1].strip()
+            elif line.startswith('image_position:'):
+                card['image_position'] = line.split(':', 1)[1].strip()
+            elif line.startswith('image_opacity:'):
+                card['image_opacity'] = line.split(':', 1)[1].strip()
+            elif line.startswith('image_zoom:'):
+                card['image_zoom'] = line.split(':', 1)[1].strip()
+            elif line.startswith('image_tone:'):
+                card['image_tone'] = line.split(':', 1)[1].strip()
             elif line.startswith('kicker:'):
                 card['kicker'] = line.split(':', 1)[1].strip()
             elif line.startswith('**Main:**'):
@@ -155,17 +167,35 @@ CARD_SHELL_END = '''
 </html>'''
 
 
-def image_layer_full(img, opacity='0.36'):
+def image_layer_full(img, card=None, opacity='0.36'):
     if not img:
         return ''
-    return f'''
-  <img src="{img}" style="
-    position:absolute;inset:0;width:100%;height:100%;
-    object-fit:cover;opacity:{opacity};filter:saturate(1.05) contrast(1.08);
-  ">
+    card = card or {}
+    if card.get('image_opacity'):
+        opacity = card['image_opacity']
+    position = card.get('image_position') or 'center center'
+    zoom = card.get('image_zoom') or '1'
+    tone = (card.get('image_tone') or '').lower()
+    if tone == 'food':
+        overlay = '''
+  <div style="position:absolute;inset:0;
+    background:linear-gradient(180deg,rgba(255,248,235,0.02) 0%,rgba(17,17,17,0.16) 52%,rgba(17,17,17,0.46) 100%);
+  "></div>
+'''
+    else:
+        overlay = '''
   <div style="position:absolute;inset:0;
     background:linear-gradient(180deg,rgba(17,17,17,0.24) 0%,rgba(17,17,17,0.92) 78%);
   "></div>
+'''
+    return f'''
+  <img src="{img}" style="
+    position:absolute;inset:0;width:100%;height:100%;
+    object-fit:cover;object-position:{position};
+    transform:scale({zoom});transform-origin:{position};
+    opacity:{opacity};filter:saturate(1.12) contrast(1.04);
+  ">
+  {overlay}
 '''
 
 
@@ -195,7 +225,7 @@ def build_type_a(card):
   <div style="position:absolute;inset:0;
     background:linear-gradient(135deg,#1a1200 0%,#111111 55%,#0d0d0d 100%);
   "></div>
-  {image_layer_full(img, '0.38')}
+  {image_layer_full(img, card, '0.38')}
 
   <div style="position:absolute;top:-80px;right:-60px;
     width:400px;height:400px;background:{pc};transform:rotate(35deg);opacity:0.10;
@@ -225,7 +255,7 @@ def build_type_b(card):
     sub = to_html_text(card['sub_text'])
     img = resolve_image_src(card)
     kicker = kicker_html(card, pc)
-    visual = image_layer_full(img, '0.62') if img else f'''
+    visual = image_layer_full(img, card, '0.62') if img else f'''
     <div style="
       position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);
       width:200px;height:200px;border-radius:50%;
@@ -272,7 +302,7 @@ def build_type_c(card):
     sub = to_html_text(card['sub_text'])
     img = resolve_image_src(card)
     kicker = kicker_html(card, pc)
-    visual = image_layer_full(img, '0.56') if img else f'''
+    visual = image_layer_full(img, card, '0.56') if img else f'''
       <div style="
         position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);
         width:180px;height:180px;border-radius:50%;
@@ -324,7 +354,7 @@ def build_type_d(card, total):
 
     return f'''
   <div style="position:absolute;inset:0;background:#111111;"></div>
-  {image_layer_full(img, '0.30')}
+  {image_layer_full(img, card, '0.30')}
   <div style="padding:88px;position:relative;width:1080px;height:1080px;z-index:5;">
     <div style="
       font-size:16px;font-weight:500;
