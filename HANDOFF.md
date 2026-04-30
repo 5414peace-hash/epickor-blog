@@ -25,6 +25,14 @@
   - Local rendered outputs remain under ignored `output/cardnews/071/`.
   - The renderer option update is tracked because it improves future food/card-news customization without changing existing defaults.
 
+### Follow-up - 2026-04-30 Card News 071 Final Save
+
+- User approved the revised 071 card-news version.
+- Saved final tracked assets to:
+  - `public/assets/cardnews/071/card_01.png` through `public/assets/cardnews/071/card_07.png`
+  - `public/assets/cardnews/071/script.md`
+- These files preserve the final approved version outside ignored `output/` artifacts.
+
 ## Latest Update - 2026-04-30 Card News 071
 
 - Task: Create card news for the already-improved `/blog/071` Deli Manjoo article.
