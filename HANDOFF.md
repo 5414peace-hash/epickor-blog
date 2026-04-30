@@ -1,5 +1,29 @@
 # HANDOFF - EpicKor Agent Teams v2
 
+## Latest Update - 2026-04-30 Card News 071
+
+- Task: Create card news for the already-improved `/blog/071` Deli Manjoo article.
+- Output:
+  - `output/cardnews/071/script-brief.md`
+  - `output/cardnews/071/script.md`
+  - `output/cardnews/071/card_01.png` through `output/cardnews/071/card_07.png`
+- Card News Team role:
+  - Built a 7-card carousel around one clear story: Deli Manjoo is the warm custard subway snack Koreans recognize by smell.
+  - Flow: hook -> what it is -> taste -> station smell -> commute culture -> Myeongdong tip -> full guide CTA.
+  - Added Korea/EpicKor angle through per-card `kicker:` text such as `SEOUL SUBWAY SNACK`, `KOREAN SNACK GUIDE`, and `MYEONGDONG FOOD TIP`.
+- Visual role:
+  - Used existing post-owned `/assets/images/posts/071/...` images for every card.
+  - No Pexels images were needed.
+- Renderer/Reviewer role:
+  - `python .claude/skills/cardnews/scripts/html-to-png.py --slug 071` generated 7/7 PNGs.
+  - Visually opened rendered cards 01-07.
+  - Confirmed no visible text overflow in reviewed PNGs.
+  - Confirmed `EPICKOR.COM` watermark appears on the cards.
+  - Confirmed each card has a relevant Deli Manjoo/subway snack visual.
+- Note:
+  - `output/` is gitignored, so these rendered card-news files are local workspace artifacts unless intentionally force-added later.
+  - No separate subagent process was spawned in Codex. Codex performed the Card News Team, Visual, Renderer, and Reviewer roles directly and recorded the responsibility split here.
+
 ## Latest Update - 2026-04-30 Production Redeploy and Public Verification
 
 - Task: Resolve mismatch where local/origin `master` contained recent rewrites, but production `www.epickor.com` initially still showed stale content for some pages.
