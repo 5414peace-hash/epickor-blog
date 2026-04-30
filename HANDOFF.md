@@ -1,5 +1,39 @@
 # HANDOFF - EpicKor Agent Teams v2
 
+## Latest Update - 2026-04-30 Production Redeploy and Public Verification
+
+- Task: Resolve mismatch where local/origin `master` contained recent rewrites, but production `www.epickor.com` initially still showed stale content for some pages.
+- Build/deploy:
+  - Local `npm.cmd run build`: passed.
+  - `npx.cmd vercel --prod --yes`: completed successfully.
+  - Production alias confirmed by Vercel CLI: `https://www.epickor.com`.
+- Public content verification after redeploy:
+  - `/blog/074`: 200 and contains `Seoul Underground Shopping Malls: Best Stations Guide`.
+  - `/blog/153`: 200 and contains `Isaac Toast Sauce: Korea's Famous Sweet Breakfast`.
+  - `/blog/160`: 200 and contains `Best Korean Sunscreens 2026: 7 K-Beauty SPF Picks`.
+  - `/blog/071`: 200 and contains `What Is Deli Manjoo? Korea's Subway Custard Snack`.
+  - `/blog/008`: 200 and contains `Why Koreans Eat So Much Garlic: Culture Explained`.
+  - `/blog/043`: 200 and contains `Why Is Jang Wonyoung So Popular? Wonyoungism Explained`.
+  - `/blog/055`: 200 and contains `What Does Pali Pali Mean? Korea's Fast Culture`.
+- Public image verification:
+  - `/blog/074`: 3/3 local asset URLs returned 200.
+  - `/blog/153`: 4/4 local asset URLs returned 200.
+  - `/blog/160`: 2/2 local asset URLs returned 200.
+  - `/blog/071`: 5/5 local asset URLs returned 200.
+  - `/blog/008`: 4/4 local asset URLs returned 200.
+  - `/blog/043`: 5/5 local asset URLs returned 200.
+  - `/blog/055`: 5/5 local asset URLs returned 200.
+- Amazon affiliate guardrail verification:
+  - `Helpful Shopping Picks` and `View on Amazon` appear on `/blog/153` and `/blog/160`.
+  - They do not appear on checked non-Amazon pages: `/blog/074`, `/blog/071`, `/blog/008`, `/blog/043`, `/blog/055`.
+- Canonical redirect verification:
+  - Public `/blog/074-the-world-of-underground-shopping-malls-in-korea` returns 308 to `/blog/074`.
+- Strategy note:
+  - Do not start another GSC rewrite solely from the 2026 W18 report until recent rewrites have had time to collect fresh GSC data.
+  - Next best operating task remains card news for an already-improved post, preferably `/blog/071`, unless the user asks for a different priority.
+- Note:
+  - No separate subagent process was spawned in Codex. Codex performed the Publisher and Reviewer roles directly and recorded the responsibility split here.
+
 ## Latest Update - 2026-04-28 GSC Rewrite 074
 
 - Task: Fix `/blog/074` URL duplication and rewrite the post for GSC CTR/search intent.
