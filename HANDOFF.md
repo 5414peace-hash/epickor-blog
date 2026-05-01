@@ -1,5 +1,32 @@
 # HANDOFF - EpicKor Agent Teams v2
 
+## Latest Update - 2026-05-01 Card News 153 Draft Render
+
+- Task: Create card news draft for the already-improved `/blog/153` Isaac Toast article.
+- Output:
+  - `output/cardnews/153/script-brief.md`
+  - `output/cardnews/153/script.md`
+  - `output/cardnews/153/card_01.png` through `output/cardnews/153/card_07.png`
+- Card News Team role:
+  - Built a 7-card carousel around one clear story: Isaac Toast is memorable because its sweet sauce creates a Korean sweet-savory breakfast hook.
+  - Flow: sauce hook -> what Isaac Toast is -> why the sauce is famous -> dan-jjan sweet/salty logic -> first order -> Myeongdong travel breakfast -> full guide CTA.
+  - Added Korea/EpicKor angle through per-card `kicker:` text such as `KOREAN BREAKFAST GUIDE`, `KOREA TASTE LOGIC`, `KOREAN DAN-JJAN RULE`, and `SEOUL TRAVEL BREAKFAST`.
+- Visual role:
+  - Avoided existing 153 video-frame captures because they contained embedded text/signage.
+  - Downloaded Isaac Toast official menu image candidates from `isaac-toast.co.kr` under ignored local output assets.
+  - Used official Isaac Toast sandwich images only for rendered cards.
+  - Used `image_tone: Food` and per-card crop/zoom controls to keep the food bright and appetizing.
+- Renderer/Reviewer role:
+  - `python .claude/skills/cardnews/scripts/html-to-png.py --slug 153` generated 7/7 PNGs.
+  - Visually opened rendered cards 01-07.
+  - Adjusted cards 02 and 05 after the first render because text and product imagery overlapped.
+  - Confirmed the corrected cards use text-free Isaac Toast images, preserve readability, and show `EPICKOR.COM` watermark.
+- Pending:
+  - Await user approval before saving final tracked assets to `public/assets/cardnews/153/`.
+- Note:
+  - `output/` is gitignored, so these rendered card-news files are local workspace artifacts unless intentionally copied to a tracked public asset path later.
+  - No separate subagent process was spawned in Codex. Codex performed the Card News Team, Visual, Renderer, and Reviewer roles directly and recorded the responsibility split here.
+
 ### Follow-up - 2026-04-30 Card News 071 Visual Correction
 
 - User feedback:
