@@ -28,8 +28,12 @@
   - Auto review passed after final cleanup: SEO 100/100, 2,288 words, 7 H2 sections, 3 images, 4 FAQ Q&A.
   - GitHub private preview commit succeeded, then public publish commit succeeded.
   - `npm.cmd run build` passed after local sync and cleanup.
-- Pending:
-  - Push local cleanup commit and verify public `/blog/170` plus remote image URLs after Vercel deployment finishes.
+- Public verification:
+  - `https://www.epickor.com/blog/170?codex_public_check=20260502a` returned 200.
+  - Public HTML contained the new title and `table-scroll`.
+  - Public HTML did not contain `PC방`, `피시방`, or known mojibake strings.
+  - Public HTML did not contain `Helpful Shopping Picks`, confirming no weak Amazon section was inserted.
+  - All 3 Pexels image URLs used by the post returned HTTP 200.
 
 ## Latest Update - 2026-05-02 Card News 169 Final Save
 
