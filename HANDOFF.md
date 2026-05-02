@@ -1,5 +1,33 @@
 # HANDOFF - EpicKor Agent Teams v2
 
+## Latest Update - 2026-05-02 Instagram Reels Audit From PDF
+
+- User provided `input/Instagram-05-02-2026_08_09_PM.pdf` and asked Codex to review it and lead the next move.
+- PDF inspection:
+  - The PDF is image-only, not text/OCR data.
+  - It contains two tall embedded Instagram grid screenshots.
+  - Extracted local review images:
+    - `output/strategy/instagram_pdf_image_1.jpg`
+    - `output/strategy/instagram_pdf_image_2.jpg`
+- Audit output:
+  - Created `output/strategy/instagram_reels_audit_2026-05-02.md`.
+  - Counts are approximate manual readings from the screenshot and should be verified later through Meta/Instagram Insights or direct post-level review.
+- Strategic conclusion:
+  - The revival strategy is validated by the historical Reels grid.
+  - Strongest visible themes are Korean cultural mysteries, everyday surprises, Seoul alternatives, food/social rules, and practical travel helpers.
+- Highest readable candidate:
+  - `Why Are There So Many Kims in Korea?` at about `135.3만` views.
+  - Matching article exists: `/blog/135`.
+- Recommended next production task:
+  - Create Card News 135 first.
+  - Then continue with the first cluster: `/blog/064` Suwon, `/blog/168` hiking, `/blog/068` Korean learning, `/blog/069` or `/blog/159` Gyeongju.
+- Agent ownership:
+  - Strategy Team owns the ranking/backlog.
+  - Research Team verifies exact views, titles, URLs, captions, and matching blog posts.
+  - Card News Team produces 3-carousels-at-a-time from the verified backlog.
+  - Reviewer Team checks rendered PNG readability and image relevance.
+  - Marketing Team owns upload calendar and recovery signal tracking.
+
 ## Latest Update - 2026-05-02 Instagram Revival Card News Strategy
 
 - User confirmed the latest card-news quality direction and approved the completed card-news work.
