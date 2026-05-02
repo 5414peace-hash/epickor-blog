@@ -1,5 +1,36 @@
 # HANDOFF - EpicKor Agent Teams v2
 
+## Latest Update - 2026-05-02 New Post 170 Published
+
+- Task: Create and publish the next new topic from the pending queue.
+- Topic queue:
+  - ID 11: `Korean PC Bang Culture: Gaming Cafes That Changed the World`
+  - Generated slug: `170`
+  - Status: `done`
+- Output:
+  - `output/research/170_research.json`
+  - `output/drafts/170_writer-brief.md`
+  - `output/drafts/170_draft.md`
+  - `output/review/170_review.json`
+  - `output/final/170_final.md`
+  - `content/blog/170.md`
+- Published title:
+  - `Korean PC Bang Culture: Why Gaming Cafes Matter`
+- Writer role:
+  - Wrote a 2,288-word guide explaining Korean PC bang culture as gaming space, social hangout, food-ordering system, and esports foundation.
+  - Added a real HTML first-timer table wrapped in `<div class="table-scroll">`.
+  - Added internal link to `/blog/169`.
+  - Kept Amazon links out because marketing guardrails found no strongly relevant product match.
+- Image role:
+  - Replaced weak generic Seoul street images with gaming lounge, internet cafe, and gaming setup Pexels images.
+  - Removed Korean `PC방`/`피시방` strings from the public body after detecting encoding risk in GitHub-published markdown; used ASCII `PC bang` wording instead.
+- Reviewer/Publisher role:
+  - Auto review passed after final cleanup: SEO 100/100, 2,288 words, 7 H2 sections, 3 images, 4 FAQ Q&A.
+  - GitHub private preview commit succeeded, then public publish commit succeeded.
+  - `npm.cmd run build` passed after local sync and cleanup.
+- Pending:
+  - Push local cleanup commit and verify public `/blog/170` plus remote image URLs after Vercel deployment finishes.
+
 ## Latest Update - 2026-05-02 Card News 169 Final Save
 
 - Task: Create and finalize `/blog/169` Seoul neighborhood card news assets.

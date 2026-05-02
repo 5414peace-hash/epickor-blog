@@ -209,7 +209,9 @@
         "KoreaTravel"
       ],
       "amazon_category": "Travel",
-      "status": "pending"
+      "status": "done",
+      "generated_slug": "169",
+      "generated_date": "2026-05-02"
     },
     {
       "id": 11,
@@ -228,7 +230,9 @@
         "Korea"
       ],
       "amazon_category": "Shopping",
-      "status": "pending"
+      "status": "done",
+      "generated_slug": "170",
+      "generated_date": "2026-05-02"
     },
     {
       "id": 12,
