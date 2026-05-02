@@ -1,5 +1,19 @@
 # HANDOFF - EpicKor Agent Teams v2
 
+## Latest Update - 2026-05-02 Card News 153 Final Save
+
+- Task: Finalize the already-approved `/blog/153` Isaac Toast card news assets.
+- Saved final tracked assets to:
+  - `public/assets/cardnews/153/card_01.png` through `public/assets/cardnews/153/card_07.png`
+  - `public/assets/cardnews/153/script.md`
+- Source artifacts:
+  - `output/cardnews/153/card_01.png` through `output/cardnews/153/card_07.png`
+  - `output/cardnews/153/script.md`
+- Reviewer note:
+  - Final saved files preserve the previously reviewed version with Isaac Toast-specific food images, readable text layout, and `EPICKOR.COM` watermark.
+- Next:
+  - Continue with the next new article from the pending topic queue.
+
 ## Latest Update - 2026-05-01 Card News 153 Draft Render
 
 - Task: Create card news draft for the already-improved `/blog/153` Isaac Toast article.
@@ -424,7 +438,7 @@
   - Reviewer Agent: markdown SEO + local image file existence + manual rendered preview check.
   - Publisher Agent: post-publish public URL check, including visible images.
   - Human Reviewer: final content judgment, but should not have to catch broken-image plumbing.
-# 최종 업데이트: 2026-04-27 07:45:24 | 업데이트한 에이전트: Publisher
+# 최종 업데이트: 2026-05-02 03:19:24 | 업데이트한 에이전트: Publisher
 
 ---
 

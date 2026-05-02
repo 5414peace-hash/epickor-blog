@@ -187,7 +187,9 @@
         "Korea"
       ],
       "amazon_category": "Travel",
-      "status": "pending"
+      "status": "done",
+      "generated_slug": "168",
+      "generated_date": "2026-05-02"
     },
     {
       "id": 10,
@@ -594,6 +596,6 @@
       "status": "pending"
     }
   ],
-  "last_updated": "2026-04-27",
+  "last_updated": "2026-05-02",
   "next_slug": 160
 }
