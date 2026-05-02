@@ -1,5 +1,40 @@
 # HANDOFF - EpicKor Agent Teams v2
 
+## Latest Update - 2026-05-02 New Post 169 Published
+
+- Task: Create and publish the next new topic from the pending queue.
+- Topic queue:
+  - ID 10: `Hongdae vs Itaewon vs Gangnam: Seoul's Neighborhoods Decoded`
+  - Generated slug: `169`
+  - Status: `done`
+- Output:
+  - `output/research/169_research.json`
+  - `output/drafts/169_writer-brief.md`
+  - `output/drafts/169_draft.md`
+  - `output/review/169_review.json`
+  - `output/final/169_final.md`
+  - `content/blog/169.md`
+- Published title:
+  - `Hongdae vs Itaewon vs Gangnam: Seoul Guide`
+- Writer role:
+  - Wrote a 2,296-word Seoul neighborhood decision guide for international travelers.
+  - Framed the article around practical neighborhood choice: Hongdae for youth/night energy, Itaewon for global food and social flexibility, Gangnam for polished modern Seoul.
+  - Added 2 real HTML tables wrapped in `<div class="table-scroll">`.
+  - Added internal links to `/blog/160` and `/blog/165`.
+  - Used official VisitKorea, Visit Seoul, and Visit Gangnam facts to stabilize the neighborhood claims.
+  - Kept Amazon links out because marketing guardrails found no strongly relevant product match.
+- Image role:
+  - Used 3 Seoul-relevant Pexels images: lively street/shopping scene, Itaewon night street, and modern Seoul/Gangnam-style street scene.
+- Reviewer/Publisher role:
+  - Auto review passed: SEO 100/100, 2,296 words, 7 H2 sections, 3 images, 4 FAQ Q&A.
+  - GitHub private preview commit succeeded, then public publish commit succeeded.
+  - `npm.cmd run build` passed.
+- Public verification:
+  - `https://www.epickor.com/blog/169?codex_public_check=20260502a` returned 200.
+  - Public HTML contained the new title, `table-scroll`, and expected Hongdae intro text.
+  - Public HTML did not contain `Helpful Shopping Picks`, confirming no weak Amazon section was inserted.
+  - All 3 Pexels image URLs used by the post returned HTTP 200.
+
 ## Latest Update - 2026-05-02 Card News 160 Final Save
 
 - Task: Finalize the already-rendered `/blog/160` Korean sunscreen card news assets.
