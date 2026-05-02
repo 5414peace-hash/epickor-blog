@@ -9,6 +9,23 @@
 - Reviewer must inspect rendered PNGs card by card for image relevance, mobile readability, watermark presence, and swipe logic.
 - Record card news agent roles and rendered-image review in `HANDOFF.md`.
 
+## Instagram Revival Card News Strategy
+
+- EpicKor should build a backlog of 30 high-quality card news carousels before treating card news as a fully new-topic channel.
+- Prioritize card news topics from historically validated demand:
+  - Past EpicKor Instagram Reels that earned high views or strong engagement.
+  - EpicKor GSC pages/queries with proven impressions, clicks, or clear search demand.
+  - Recently improved posts only when they overlap with proven Reels/GSC demand or have strong visual/social potential.
+- Do not default to brand-new, unvalidated card-news topics while the Instagram account is being reactivated after a long posting pause.
+- The near-term Instagram recovery sequence is:
+  1. Produce 10-30 card news assets from proven Reels/GSC topics.
+  2. Gradually improve carousel quality, hooks, visual relevance, and swipe logic.
+  3. Continue publishing new EpicKor.com posts in parallel.
+  4. Build or improve Reels production automation during the card-news ramp.
+  5. Use card news posting to warm the Instagram account back up.
+  6. Resume Reels uploads once the account has regained activity and content rhythm.
+- Strategy Team must consider this Instagram revival plan when recommending the next card-news target.
+
 ## Handoff And Strategy Check Rules
 
 - Before deciding what EpicKor should do next, read `HANDOFF.md`, the latest `output/strategy/week_*.md`, and relevant git history if the handoff may be incomplete.

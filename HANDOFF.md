@@ -1,5 +1,31 @@
 # HANDOFF - EpicKor Agent Teams v2
 
+## Latest Update - 2026-05-02 Instagram Revival Card News Strategy
+
+- User confirmed the latest card-news quality direction and approved the completed card-news work.
+- Strategic decision:
+  - EpicKor should first build roughly 30 card news carousels before relying on brand-new card-news topics.
+  - Priority topics should come from historically validated demand:
+    - Past EpicKor Instagram Reels with the highest views or strongest engagement.
+    - EpicKor GSC topics/pages/queries with proven search demand.
+    - Recently improved blog posts only when they overlap with proven Reels/GSC demand or have unusually strong visual/social potential.
+- Rationale:
+  - EpicKor Instagram Reels uploads have been paused for about a year.
+  - Restarting with completely new card-news topics may feel abrupt.
+  - A better recovery path is to warm the Instagram account with proven topics that already worked as Reels or search content.
+- Operating plan:
+  - Produce 10-30 card news assets from proven Reels/GSC topics.
+  - Keep improving carousel hooks, image relevance, mobile readability, and swipe logic during production.
+  - Continue new EpicKor.com blog publishing in parallel.
+  - Build or improve Reels production automation during this same ramp period.
+  - Once Instagram activity is warmed up through card news, resume Reels uploads with stronger timing and a fuller content backlog.
+- Rule update:
+  - Added `Instagram Revival Card News Strategy` to `CLAUDE.md`.
+  - Future next-task recommendations must consider past high-performing Reels and GSC demand before selecting card-news targets.
+- Pending:
+  - Locate or compile historical EpicKor Instagram Reels performance data.
+  - Build a 30-item card-news priority backlog ranked by Reels performance, GSC demand, visual potential, and production risk.
+
 ## Latest Update - 2026-05-02 New Post 170 Published
 
 - Task: Create and publish the next new topic from the pending queue.
