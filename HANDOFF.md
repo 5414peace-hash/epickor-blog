@@ -1,5 +1,22 @@
 # HANDOFF - EpicKor Agent Teams v2
 
+## Latest Update - 2026-05-02 Card News 160 Final Save
+
+- Task: Finalize the already-rendered `/blog/160` Korean sunscreen card news assets.
+- Saved final tracked assets to:
+  - `public/assets/cardnews/160/card_01.png` through `public/assets/cardnews/160/card_07.png`
+  - `public/assets/cardnews/160/script.md`
+- Source artifacts:
+  - `output/cardnews/160/card_01.png` through `output/cardnews/160/card_07.png`
+  - `output/cardnews/160/script.md`
+- Renderer/Reviewer note:
+  - Re-opened rendered cards 01-07 before final save.
+  - Confirmed no visible text overflow in reviewed PNGs.
+  - Confirmed `EPICKOR.COM` watermark appears on every card.
+  - Confirmed the carousel still follows the K-beauty texture-first story: SPF mistake -> texture problem -> rule -> quick match -> starter picks -> reapply tip -> full guide CTA.
+- Next:
+  - Continue with the next pending topic queue article, slug 169.
+
 ## Latest Update - 2026-05-02 New Post 168 Published
 
 - Task: Create and publish the next new topic from the pending queue.
