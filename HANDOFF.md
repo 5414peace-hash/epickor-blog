@@ -1,5 +1,29 @@
 # HANDOFF - EpicKor Agent Teams v2
 
+## Latest Update - 2026-05-02 Card News 169 Final Save
+
+- Task: Create and finalize `/blog/169` Seoul neighborhood card news assets.
+- Output:
+  - `output/cardnews/169/script-brief.md`
+  - `output/cardnews/169/script.md`
+  - `output/cardnews/169/card_01.png` through `output/cardnews/169/card_07.png`
+- Saved final tracked assets to:
+  - `public/assets/cardnews/169/card_01.png` through `public/assets/cardnews/169/card_07.png`
+  - `public/assets/cardnews/169/script.md`
+- Card News Team role:
+  - Built a 7-card carousel around a clear travel decision: choose Hongdae, Itaewon, or Gangnam by mood, not by ranking.
+  - Flow: cover question -> mood rule -> Hongdae -> Itaewon -> Gangnam -> one-night shortcut -> full guide CTA.
+  - Added Korea/EpicKor angle through per-card `kicker:` text such as `SEOUL NEIGHBORHOOD GUIDE`, `SEOUL TRAVEL RULE`, `HONGDAE ENERGY MAP`, and `EPICKOR SEOUL GUIDE`.
+- Visual role:
+  - Used Seoul-relevant Pexels images from the 169 post and additional image searches for Hongdae/Itaewon/Gangnam street context.
+  - Kept each card visually tied to Seoul streets, nightlife, or modern city atmosphere.
+- Renderer/Reviewer role:
+  - `python .claude/skills/cardnews/scripts/html-to-png.py --slug 169` generated 7/7 PNGs.
+  - Visually opened rendered cards 01-07.
+  - Confirmed no visible text overflow, `EPICKOR.COM` watermark on every card, and a coherent swipe flow.
+- Next:
+  - Continue with the next pending topic queue article, slug 170.
+
 ## Latest Update - 2026-05-02 New Post 169 Published
 
 - Task: Create and publish the next new topic from the pending queue.
