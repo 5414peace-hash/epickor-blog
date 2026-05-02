@@ -1,5 +1,36 @@
 # HANDOFF - EpicKor Agent Teams v2
 
+## Latest Update - 2026-05-02 New Post 168 Published
+
+- Task: Create and publish the next new topic from the pending queue.
+- Topic queue:
+  - ID 9: `Korean Hiking Culture: Why Every Weekend Koreans Hit the Mountains`
+  - Generated slug: `168`
+  - Status: `done`
+- Output:
+  - `output/research/168_research.json`
+  - `output/drafts/168_writer-brief.md`
+  - `output/drafts/168_draft.md`
+  - `output/review/168_review.json`
+  - `output/final/168_final.md`
+  - `content/blog/168.md`
+- Published title:
+  - `Korean Hiking Culture: Why Weekends Mean Mountains`
+- Writer role:
+  - Wrote a 2,149-word guide explaining Korean hiking culture as weekend rhythm, social life, health routine, and seasonal travel habit.
+  - Added a real HTML comparison table wrapped in `<div class="table-scroll">`.
+  - Added internal link to `/blog/165`.
+  - Kept Amazon links out because marketing guardrails found no strongly relevant product match.
+- Image role:
+  - Used 3 Pexels images relevant to Korean mountains, Seoul fortress trails, and skyline viewpoints.
+  - Replaced a non-ASCII Pexels credit with ASCII `Nui MALAMA` to avoid display/encoding risk.
+- Reviewer/Publisher role:
+  - Auto review passed: SEO 100/100, 2,149 words, 6 H2 sections, 3 images, 4 FAQ Q&A.
+  - `npm.cmd run build` passed.
+  - GitHub private preview commit succeeded, then public publish commit succeeded.
+- Pending:
+  - Verify public `/blog/168` and remote image URLs after Vercel deployment finishes.
+
 ## Latest Update - 2026-05-02 Card News 153 Final Save
 
 - Task: Finalize the already-approved `/blog/153` Isaac Toast card news assets.
