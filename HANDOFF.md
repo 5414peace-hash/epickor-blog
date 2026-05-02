@@ -28,8 +28,12 @@
   - Auto review passed: SEO 100/100, 2,149 words, 6 H2 sections, 3 images, 4 FAQ Q&A.
   - `npm.cmd run build` passed.
   - GitHub private preview commit succeeded, then public publish commit succeeded.
-- Pending:
-  - Verify public `/blog/168` and remote image URLs after Vercel deployment finishes.
+- Public verification:
+  - `https://www.epickor.com/blog/168?codex_public_check=20260502a` returned 200.
+  - Public HTML contained the new title, `table-scroll`, and corrected `Nui MALAMA` credit.
+  - Public HTML did not contain the old non-ASCII credit string.
+  - Public HTML did not contain `Helpful Shopping Picks`, confirming no weak Amazon section was inserted.
+  - All 3 Pexels image URLs used by the post returned HTTP 200.
 
 ## Latest Update - 2026-05-02 Card News 153 Final Save
 
