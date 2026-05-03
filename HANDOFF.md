@@ -1,5 +1,29 @@
 # HANDOFF - EpicKor Agent Teams v2
 
+## Latest Update - 2026-05-03 Card News 132 Visual/Name Correction
+
+- Task: Apply user review feedback to Card News 132 after initial save.
+- User feedback:
+  - The carousel became too abstract and removed too many player names from the article/source context.
+  - Card 02 did not show Son Heung-min's face clearly.
+  - Card 01 would be stronger with a natural globe and Taegeukgi design element.
+  - Player photos should have small name-tag labels so viewers can tell who is being shown without overloading the main copy.
+- Corrections:
+  - Added renderer support for `image_label:` and a small tag-style overlay on vertical image panels.
+  - Replaced Card 01 cover with `cardnews-132-global-taegeuk-cover.png`, a dark stadium/tunnel image with subtle globe and Taegeukgi elements.
+  - Replaced Card 02 image with `son-heung-min-commons-2023.jpg` so Son Heung-min's face is clearly visible.
+  - Added player/source-context tags:
+    - Card 02: `Son Heung-min`
+    - Card 03: `Kim Ji-soo`
+    - Card 04: `Lee Jae-sung`
+    - Card 05: `Oh Hyeon-gyu`
+  - Revised Card 03 copy to explicitly mention Kim Min-jae and Lee Kang-in from the article context.
+- Attribution:
+  - Added `public/assets/images/posts/132/ATTRIBUTION.md` for the Wikimedia Commons Son Heung-min image.
+- Renderer/Reviewer role:
+  - `python .claude/skills/cardnews/scripts/html-to-png.py --slug 132` generated 7/7 PNGs.
+  - Copied updated rendered PNGs into `public/assets/cardnews/132/`.
+
 ## Latest Update - 2026-05-03 Card News 132 Final Save
 
 - Task: Continue Instagram revival card-news production with priority 7 from the 30-item backlog.

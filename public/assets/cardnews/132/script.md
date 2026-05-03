@@ -9,8 +9,8 @@ layout: A
 point_color: Gold
 image_keyword: Korean footballers Europe stadium tunnel
 kicker: KOREAN FOOTBALL ABROAD
-image: /assets/images/posts/132/cardnews-132-stadium-tunnel.png
-image_opacity: 0.72
+image: /assets/images/posts/132/cardnews-132-global-taegeuk-cover.png
+image_opacity: 0.76
 image_zoom: 1.00
 image_position: center center
 
@@ -24,12 +24,13 @@ layout: C
 point_color: Gold
 image_keyword: Son Heung-min Korean football Europe
 kicker: THE SONNY EFFECT
-image: /assets/images/posts/132/132_01.jpg
-image_opacity: 0.62
-image_zoom: 1.85
-image_position: left top
+image: /assets/images/posts/132/son-heung-min-commons-2023.jpg
+image_label: Son Heung-min
+image_opacity: 0.78
+image_zoom: 1.00
+image_position: center center
 
-**Main:** Son made the\npath visible.
+**Main:** Son Heung-min\nmade the path\nvisible.
 **Sub:** His Premier League rise\nturned overseas football into\na nightly national event in Korea.
 
 ---
@@ -40,12 +41,13 @@ point_color: Teal
 image_keyword: Korean football prospect Europe
 kicker: NEXT WAVE
 image: /assets/images/posts/132/132_02.jpg
+image_label: Kim Ji-soo
 image_opacity: 0.72
 image_zoom: 1.34
 image_position: center top
 
-**Main:** But this is not\nonly one icon.
-**Sub:** Korean players are showing up\nas defenders, scorers,\nand future building blocks.
+**Main:** The next wave\nneeds names.
+**Sub:** Kim Min-jae and Lee Kang-in\nmade the map wider.\nNow younger players have a route.
 
 ---
 
@@ -55,12 +57,13 @@ point_color: Gold
 image_keyword: Korean footballer European club
 kicker: EUROPEAN CLUB VALUE
 image: /assets/images/posts/132/132_03.jpg
+image_label: Lee Jae-sung
 image_opacity: 0.72
 image_zoom: 1.36
 image_position: center top
 
-**Main:** The value is\nrange.
-**Sub:** Pace matters.\nSo do strength, discipline,\nfinishing, and game intelligence.
+**Main:** Europe values\nmore than hype.
+**Sub:** Work rate, positioning,\nfinishing, and decision-making\nare part of the Korean appeal.
 
 ---
 
@@ -70,11 +73,12 @@ point_color: Teal
 image_keyword: Korean footballer striker Europe
 kicker: BEYOND ONE LEAGUE
 image: /assets/images/posts/132/132_04.jpg
+image_label: Oh Hyeon-gyu
 image_opacity: 0.72
 image_zoom: 1.32
 image_position: center top
 
-**Main:** Europe is bigger\nthan one club.
+**Main:** The story moves\nacross leagues.
 **Sub:** England, Germany,\nFrance, Belgium, and beyond\nall became part of the Korean story.
 
 ---

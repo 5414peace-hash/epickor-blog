@@ -45,6 +45,7 @@ def parse_script(script_path):
             'image_opacity': '',
             'image_zoom': '1',
             'image_tone': '',
+            'image_label': '',
             'kicker': '',
             'main_text': '',
             'sub_text': '',
@@ -68,6 +69,8 @@ def parse_script(script_path):
                 card['image_zoom'] = line.split(':', 1)[1].strip()
             elif line.startswith('image_tone:'):
                 card['image_tone'] = line.split(':', 1)[1].strip()
+            elif line.startswith('image_label:'):
+                card['image_label'] = line.split(':', 1)[1].strip()
             elif line.startswith('kicker:'):
                 card['kicker'] = line.split(':', 1)[1].strip()
             elif line.startswith('**Main:**'):
@@ -214,6 +217,39 @@ def kicker_html(card, pc):
     '''
 
 
+def image_label_html(card, pc, side='left'):
+    label = (card.get('image_label') or '').strip()
+    if not label:
+        return ''
+    anchor = 'left:28px;' if side == 'left' else 'right:28px;'
+    notch_anchor = 'left:-8px;' if side == 'left' else 'right:-8px;'
+    notch_rotate = '45deg'
+    return f'''
+      <div style="
+        position:absolute;bottom:76px;{anchor}z-index:12;
+        display:inline-flex;align-items:center;gap:9px;
+        padding:11px 15px 11px 17px;
+        background:rgba(17,17,17,0.72);
+        border:1px solid {pc};
+        color:#FFFFFF;font-size:18px;font-weight:900;
+        letter-spacing:0.02em;text-transform:none;
+        box-shadow:0 10px 28px rgba(0,0,0,0.34);
+      ">
+        <span style="
+          position:absolute;top:50%;{notch_anchor}
+          width:14px;height:14px;background:rgba(17,17,17,0.72);
+          border-left:1px solid {pc};border-bottom:1px solid {pc};
+          transform:translateY(-50%) rotate({notch_rotate});
+        "></span>
+        <span style="
+          width:8px;height:8px;border-radius:50%;
+          background:{pc};display:inline-block;z-index:2;
+        "></span>
+        <span style="position:relative;z-index:2;">{label}</span>
+      </div>
+    '''
+
+
 def build_type_a(card):
     pc = point_color(card)
     main = to_html_text(card['main_text'])
@@ -339,6 +375,7 @@ def build_type_c(card):
       background:linear-gradient(180deg,#1a1200 0%,#0d0d0d 100%);
     ">
       {visual}
+      {image_label_html(card, pc, 'left')}
     </div>
   </div>
   {WATERMARK_HTML}'''
@@ -369,6 +406,7 @@ def build_type_e(card):
       background:linear-gradient(180deg,#1a1200 0%,#0d0d0d 100%);
     ">
       {visual}
+      {image_label_html(card, pc, 'right')}
     </div>
 
     <div style="
