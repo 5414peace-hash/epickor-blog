@@ -1,5 +1,223 @@
 # HANDOFF - EpicKor Agent Teams v2
 
+## Latest Update - 2026-05-03 Card News 159 Final Save
+
+- Task: Continue Instagram revival card-news production with priority 5 from the 30-item backlog.
+- Target:
+  - `/blog/159` Best Places to Visit in Korea: 2026 Travel Guide.
+  - Reels signal from PDF audit: `Not Seoul but Gyeongju`, approximately 93K views.
+- Strategic choice:
+  - Used `/blog/159` as the CTA article instead of the older `/blog/069` because 159 is the stronger current public Korea-route guide and includes Gyeongju in a first-trip itinerary context.
+  - Framed the carousel around the proven Reel hook `Not Seoul? Pick Gyeongju.`
+- Card News 159 output:
+  - `output/cardnews/159/script.md`
+  - `output/cardnews/159/card_01.png` through `output/cardnews/159/card_07.png`
+- Saved final tracked assets to:
+  - `public/assets/cardnews/159/card_01.png` through `public/assets/cardnews/159/card_07.png`
+  - `public/assets/cardnews/159/script.md`
+- Card News Team role:
+  - Built a 7-card carousel around the travel-alternative hook: Gyeongju as the quieter, older Korea that complements Seoul and Busan.
+  - Flow: cover hook -> why Gyeongju works -> outdoor museum feeling -> slower pace -> first-timer anchors -> Busan pairing rule -> full Korea route guide CTA.
+  - Added Korea/EpicKor angle through per-card `kicker:` text such as `KOREA TRAVEL ALTERNATIVE`, `OLD KOREA SHORTCUT`, `GYEONGJU HISTORY MAP`, and `EPICKOR KOREA GUIDE`.
+- Visual role:
+  - Used fresh Gyeongju/Bulguksa/Pagoda/Pavilion Pexels visuals that do not repeat existing public card-news `image:` values.
+  - Avoided reusing `/blog/159` article images that already overlapped with other card-news scripts.
+- Renderer/Reviewer role:
+  - Ran duplicate-image check across `public/assets/cardnews/*/script.md` before rendering: `NO_DUPLICATE_IMAGES`.
+  - `python .claude/skills/cardnews/scripts/html-to-png.py --slug 159` generated 7/7 PNGs.
+  - Visually opened rendered cards 01-07.
+  - Confirmed no visible text overflow, `EPICKOR.COM` watermark on every card, relevant Gyeongju visuals, and a coherent swipe flow.
+- Next:
+  - Continue the Instagram revival backlog with priority 6 `/blog/003` Korean karaoke songs / noraebang culture after verifying the exact Reel mapping, or first commit the accumulated card-news asset changes so the local worktree does not keep growing.
+
+## Latest Update - 2026-05-03 Card News Duplicate-Image Debt Cleanup
+
+- Task: Clean the duplicate-image debt identified after Card News 068 before continuing Instagram revival production.
+- Scope:
+  - `public/assets/cardnews/071/script.md`
+  - `public/assets/cardnews/135/script.md`
+  - `public/assets/cardnews/169/script.md`
+  - matching source scripts under `output/cardnews/071`, `output/cardnews/135`, and `output/cardnews/169`
+- Corrections:
+  - Card News 071 no longer repeats `output/cardnews/071/images/delimanjoo/delimanjoo_02.jpg` across all cards.
+  - Card News 071 now uses distinct Deli Manjoo / station / brand visual treatments across cards 01-07.
+  - Card News 135 no longer repeats the same Pexels URL internally.
+  - Card News 169 no longer repeats the same Hongdae/Seoul Pexels URL internally.
+  - The previous cross-post duplicate between 135 and 169 was removed.
+- Renderer/Reviewer role:
+  - Ran global duplicate-image check across `public/assets/cardnews/*/script.md`.
+  - Result after cleanup: `NO_DUPLICATE_IMAGES`.
+  - Re-rendered affected carousels:
+    - `python .claude/skills/cardnews/scripts/html-to-png.py --slug 071`
+    - `python .claude/skills/cardnews/scripts/html-to-png.py --slug 135`
+    - `python .claude/skills/cardnews/scripts/html-to-png.py --slug 169`
+  - Render results: 7/7 PNGs generated for 071, 135, and 169.
+  - Visually checked changed cards:
+    - 071 cards 01-07, with special attention to cards 02, 05, and 07 after removing subtitle-overlap frames.
+    - 135 cards 02 and 07.
+    - 169 cards 02 and 03.
+  - Copied updated rendered PNGs to `public/assets/cardnews/071/`, `public/assets/cardnews/135/`, and `public/assets/cardnews/169/`.
+- Current note:
+  - `public/assets/cardnews/064/`, `068/`, `135/`, and `168/` are present as untracked folders in the local worktree, so the next git cleanup/commit should include the intended final public card-news assets before more production accumulates.
+- Next:
+  - Continue Instagram revival production with priority 5: Gyeongju angle.
+  - Recommended target: use `/blog/159` as the CTA article and build the carousel around the proven Reel hook `Not Seoul but Gyeongju`.
+
+## Latest Update - 2026-05-02 Card News 068 Final Save
+
+- Task: Continue Instagram revival card-news production with priority 4 from the 30-item backlog.
+- Target:
+  - `/blog/068` Is Korean Difficult to Learn?
+  - Reels signal from PDF audit: approximately 141K views.
+- Card News 068 output:
+  - `output/cardnews/068/script.md`
+  - `output/cardnews/068/card_01.png` through `output/cardnews/068/card_07.png`
+- Saved final tracked assets to:
+  - `public/assets/cardnews/068/card_01.png` through `public/assets/cardnews/068/card_07.png`
+  - `public/assets/cardnews/068/script.md`
+- Card News Team role:
+  - Built a 7-card carousel around the language-learning hook: Korean feels approachable at the alphabet level, then becomes interesting through sound blocks, grammar, speech levels, and context.
+  - Flow: cover question -> Hangul is the easy part -> syllable-block logic -> grammar/particles -> honorific speech levels -> beginner order -> full guide CTA.
+  - Added Korea/EpicKor angle through per-card `kicker:` text such as `KOREAN LANGUAGE TRUTH`, `HANGUL FIRST`, `KOREAN READING RULE`, `GRAMMAR REALITY CHECK`, and `EPICKOR LANGUAGE GUIDE`.
+- Visual role:
+  - Incorporated selected `/blog/068` owned motion-graphic frames on cards 01-04 because their embedded text/charts are intentional EpicKor visual assets, not random subtitle noise.
+  - Kept cards 05-07 on fresh Pexels study/conversation visuals to avoid making the carousel too text-dense.
+  - Tuned opacity and positioning on the motion-graphic frames so the original visual information supports the new card copy without overpowering it.
+- Renderer/Reviewer role:
+  - Confirmed no duplicate `image:` URLs inside 068 before and after final save.
+  - Confirmed 068 image URLs do not duplicate existing public card-news scripts.
+  - `python .claude/skills/cardnews/scripts/html-to-png.py --slug 068` generated 7/7 PNGs.
+  - Visually opened rendered cards 01-07, then re-opened updated cards 01-04 after incorporating owned motion-graphic frames.
+  - Confirmed no visible text overflow, `EPICKOR.COM` watermark on every card, and a coherent swipe flow.
+- User-requested visual correction after final save:
+  - Card 01: kept the owned motion-graphic cover but adjusted opacity/position/zoom so the background text feels less oversized and no image-edge gap appears.
+  - Card 04: replaced the motion-graphic frame with a text-free study/discussion photo to remove English text overlap behind the headline.
+  - Card 07: replaced the generic photo with a relevant owned Korean-pronunciation motion-graphic frame, tuned low enough to support the CTA.
+  - Re-rendered 7/7 PNGs, visually checked cards 01, 04, and 07, copied the updated assets to `public/assets/cardnews/068/`, and reconfirmed no duplicate 068 image URLs internally or against other public card-news scripts.
+- Existing duplicate-image debt found during global check:
+  - `public/assets/cardnews/071/script.md` repeats `output/cardnews/071/images/delimanjoo/delimanjoo_02.jpg` across multiple cards.
+  - `public/assets/cardnews/135/script.md` repeats one Pexels URL internally.
+  - `public/assets/cardnews/169/script.md` repeats one Pexels URL internally.
+  - `public/assets/cardnews/135/script.md` and `public/assets/cardnews/169/script.md` also share one Pexels URL.
+  - These were pre-existing relative to 068 and should be cleaned before relying on a global "no duplicates" guarantee.
+- Next:
+  - Either clean the existing duplicate-image debt in 071/135/169, or continue backlog production with 069/159 after applying the same duplicate-image check.
+
+## Latest Update - 2026-05-02 Card News Image Reuse Correction
+
+- User feedback:
+  - Card News 064 cards 01, 04, and 07 had weak image choices.
+  - Card News 064 cards 02, 04, and 07 reused the same image, making the carousel visually repetitive.
+  - Card News 168 reused several images already used in Card News 064, which is not acceptable for different post numbers.
+- Corrections:
+  - Updated `output/cardnews/064/script.md` and `public/assets/cardnews/064/script.md`.
+  - Replaced Card News 064:
+    - Card 01 cover image with a cleaner Suwon/Hwaseong fortress visual.
+    - Card 04 image with a different Suwon/Hwaseong street-gate visual.
+    - Card 07 CTA image with a separate Suwon city-view visual.
+  - Updated `output/cardnews/168/script.md` and `public/assets/cardnews/168/script.md`.
+  - Replaced Card News 168 images that overlapped with 064:
+    - Card 02 subway image.
+    - Card 04 hiking/gear image.
+    - Card 05 post-hike food image.
+    - Card 06 first-route image.
+    - Card 07 CTA image.
+- Render/Reviewer role:
+  - Re-rendered both carousels:
+    - `python .claude/skills/cardnews/scripts/html-to-png.py --slug 064`
+    - `python .claude/skills/cardnews/scripts/html-to-png.py --slug 168`
+  - Visually opened corrected key cards.
+  - Confirmed public saved scripts for 064 and 168 have no duplicate `image:` values between them.
+- Rule update:
+  - Added new image uniqueness rules to `CLAUDE.md`.
+  - Future card-news agents must not reuse the same image within a carousel unless the user explicitly approves a repeated brand/product visual.
+  - Future card-news agents must not reuse an image already used by another post's card-news carousel.
+  - Reviewer must compare candidate `image:` values against existing `public/assets/cardnews/*/script.md` before final save.
+- Next:
+  - Continue production with Card News 068 only after applying the duplicate-image check before rendering and before final save.
+
+## Latest Update - 2026-05-02 Card News 168 Final Save
+
+- Task: Continue Instagram revival card-news production with priority 3 from the 30-item backlog.
+- Target:
+  - `/blog/168` Korean Hiking Culture / Seoul hiking spots.
+  - Reels signal from PDF audit: approximately 145K views.
+- Card News 168 output:
+  - `output/cardnews/168/script.md`
+  - `output/cardnews/168/card_01.png` through `output/cardnews/168/card_07.png`
+- Saved final tracked assets to:
+  - `public/assets/cardnews/168/card_01.png` through `public/assets/cardnews/168/card_07.png`
+  - `public/assets/cardnews/168/script.md`
+- Card News Team role:
+  - Built a 7-card carousel around the cultural observation: Korean weekends often mean mountains.
+  - Flow: cover question -> Saturday subway clue -> hiking close to daily life -> gear culture -> post-hike food loop -> first-timer route -> full guide CTA.
+  - Added Korea/EpicKor angle through per-card `kicker:` text such as `KOREAN WEEKEND CULTURE`, `SEOUL MORNING CLUE`, `KOREAN HIKING STYLE`, and `EPICKOR HIKING GUIDE`.
+- Visual role:
+  - Used the recently published `/blog/168` Pexels mountain, fortress trail, skyline, and food-context images.
+  - Kept the carousel visually tied to mountains, subway access, trail culture, and post-hike food.
+- Renderer/Reviewer role:
+  - `python .claude/skills/cardnews/scripts/html-to-png.py --slug 168` generated 7/7 PNGs.
+  - Visually opened rendered cards 01-07.
+  - Confirmed no visible text overflow, `EPICKOR.COM` watermark on every card, and a coherent swipe flow.
+- Next:
+  - Continue Instagram revival production with Card News 068, then 069/159.
+
+## Latest Update - 2026-05-02 Card News 064 Final Save
+
+- Task: Continue Instagram revival card-news production with priority 2 from the 30-item backlog.
+- Target:
+  - `/blog/064` Instead of Seoul, Pick Suwon.
+  - Reels signal from PDF audit: approximately 657K views.
+- Card News 064 output:
+  - `output/cardnews/064/script.md`
+  - `output/cardnews/064/card_01.png` through `output/cardnews/064/card_07.png`
+- Saved final tracked assets to:
+  - `public/assets/cardnews/064/card_01.png` through `public/assets/cardnews/064/card_07.png`
+  - `public/assets/cardnews/064/script.md`
+- Card News Team role:
+  - Built a 7-card carousel around the travel decision hook: choose Suwon as a Seoul alternative.
+  - Flow: cover hook -> why Suwon feels close but different -> fortress walk -> Haenggung-dong newtro street -> Suwon galbi/food stop -> simple one-day route -> full guide CTA.
+  - Added Korea/EpicKor angle through per-card `kicker:` text such as `SEOUL DAY TRIP IDEA`, `KOREA TRAVEL SHORTCUT`, `HWASEONG FORTRESS`, and `EPICKOR SUWON GUIDE`.
+- Visual role:
+  - Used the existing `/blog/064` Reel-style cover image to preserve the proven Instagram hook.
+  - Replaced or darkened old video-frame images where embedded subtitles conflicted with new card text.
+  - Used clean Suwon street, fortress, subway, and Korean BBQ visuals for readability and relevance.
+- Renderer/Reviewer role:
+  - `python .claude/skills/cardnews/scripts/html-to-png.py --slug 064` generated 7/7 PNGs.
+  - Visually opened rendered cards after correction.
+  - Confirmed no visible text overflow, `EPICKOR.COM` watermark on every card, and a coherent swipe flow.
+- Next:
+  - Continue Instagram revival production with Card News 168, then 068 and 069/159.
+
+## Latest Update - 2026-05-02 Card News 135 Final Save and 30-Item Backlog
+
+- Task: Create the first Instagram revival card news from the validated Reels audit and list the next 30 card-news priorities.
+- Strategic output:
+  - Created `output/strategy/cardnews_priority_backlog_2026-05-02.md`.
+  - The backlog numbers 30 card-news targets by historical Reels signal, article readiness, GSC support, visual/card-news potential, monetization potential, and production risk.
+  - Priority 1 remains `/blog/135` Why Are There So Many Kims in Korea?
+  - Next recommended production sequence: `/blog/064`, `/blog/168`, `/blog/068`, then `/blog/069` or `/blog/159`.
+- Card News 135 output:
+  - `output/cardnews/135/script.md`
+  - `output/cardnews/135/card_01.png` through `output/cardnews/135/card_07.png`
+- Saved final tracked assets to:
+  - `public/assets/cardnews/135/card_01.png` through `public/assets/cardnews/135/card_07.png`
+  - `public/assets/cardnews/135/script.md`
+- Card News Team role:
+  - Built a 7-card carousel around the proven Reels hook: why Kim became so common in Korea.
+  - Flow: cover mystery -> 1-in-5 scale -> Silla royal roots -> Joseon status shift -> bon-gwan explanation -> Gimhae/Gyeongju clan distinction -> full guide CTA.
+  - Added Korea/EpicKor angle through per-card `kicker:` text such as `KOREAN NAME MYSTERY`, `KOREA SURNAME FACT`, `SILLA ROYAL ROOTS`, and `EPICKOR KOREA GUIDE`.
+- Visual role:
+  - Used the existing `/blog/135` Reel-style image for the cover to preserve historical Instagram signal.
+  - Used Seoul street, Gyeongju/palace, and existing Kim clan map visuals for context cards.
+  - Replaced a first render of card 04 because an old embedded video caption conflicted with the new text.
+- Renderer/Reviewer role:
+  - `python .claude/skills/cardnews/scripts/html-to-png.py --slug 135` generated 7/7 PNGs.
+  - Visually opened rendered cards 01-07.
+  - Confirmed no visible text overflow, `EPICKOR.COM` watermark on every card, and a coherent swipe flow.
+- Next:
+  - Continue Instagram revival production with Card News 064, then 168, 068, and 069/159.
+
 ## Latest Update - 2026-05-02 Instagram Reels Audit From PDF
 
 - User provided `input/Instagram-05-02-2026_08_09_PM.pdf` and asked Codex to review it and lead the next move.

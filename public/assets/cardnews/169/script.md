@@ -24,7 +24,7 @@ layout: B
 point_color: Teal
 image_keyword: Seoul street
 kicker: SEOUL TRAVEL RULE
-image: https://images.pexels.com/photos/32014957/pexels-photo-32014957.jpeg?auto=compress&cs=tinysrgb&w=1200
+image: https://images.pexels.com/photos/32028723/pexels-photo-32028723.jpeg?auto=compress&cs=tinysrgb&w=1200
 image_opacity: 0.78
 image_zoom: 1.08
 image_position: center center
@@ -39,7 +39,7 @@ layout: C
 point_color: Gold
 image_keyword: Hongdae Seoul nightlife
 kicker: HONGDAE ENERGY MAP
-image: https://images.pexels.com/photos/32196411/pexels-photo-32196411.jpeg?auto=compress&cs=tinysrgb&w=1200
+image: https://images.pexels.com/photos/31680708/pexels-photo-31680708.jpeg?auto=compress&cs=tinysrgb&w=1200
 image_opacity: 0.82
 image_zoom: 1.18
 image_position: center center

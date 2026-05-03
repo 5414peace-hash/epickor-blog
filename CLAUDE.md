@@ -6,6 +6,9 @@
 - Every card must have a relevant image or visual treatment. Prefer post-owned images first, then Pexels when needed.
 - Every card should carry a Korea/EpicKor angle through `kicker:` text, such as `KOREA SPF GUIDE`, `SEOUL TRAVEL TIP`, or `K-BEAUTY TEXTURE MAP`.
 - Every rendered card must show `EPICKOR.COM` as the watermark text. Do not use only `EpicKor` as the watermark label.
+- Card-news images must be fresh and varied. Do not reuse the same image within one carousel unless the user explicitly approves a repeated brand/product visual.
+- Do not reuse an image that already appears in another card-news carousel for a different post. Similar search keywords are not an excuse; select a new visual, new crop, or new source so each post has its own image identity.
+- Before final save, Reviewer must compare the candidate `image:` values against existing `public/assets/cardnews/*/script.md` files and flag any cross-post duplicates.
 - Reviewer must inspect rendered PNGs card by card for image relevance, mobile readability, watermark presence, and swipe logic.
 - Record card news agent roles and rendered-image review in `HANDOFF.md`.
 
