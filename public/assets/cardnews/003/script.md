@@ -9,8 +9,8 @@ layout: A
 point_color: Gold
 image_keyword: Korean karaoke singer legend
 kicker: KOREAN NORAEBANG CULTURE
-image: /assets/images/posts/003/d1adafad-ab6e-4a7e-8bb1-d10d6d036429.png
-image_opacity: 0.42
+image: /assets/images/posts/003/cardnews-003-four-silhouettes.png
+image_opacity: 0.78
 image_zoom: 1.00
 image_position: center center
 

@@ -1,5 +1,19 @@
 # HANDOFF - EpicKor Agent Teams v2
 
+## Latest Update - 2026-05-03 Card News 003 Cover Image Replacement
+
+- Task: Apply follow-up user review feedback to Card News 003 Card 01.
+- User feedback:
+  - Card 01 intro still did not feel changed enough.
+  - Replace the image itself with a simple dark four-person silhouette visual; the existing `/blog/003` cover image no longer needs to be used.
+- Corrections:
+  - Generated a new square dark cinematic four-person silhouette image with no text, no logos, and no recognizable faces.
+  - Saved the project asset to `public/assets/images/posts/003/cardnews-003-four-silhouettes.png`.
+  - Updated Card 01 to use the new silhouette image.
+  - Re-rendered `output/cardnews/003/card_01.png` and copied it to `public/assets/cardnews/003/card_01.png`.
+- Renderer/Reviewer role:
+  - Visually checked Card 01 after render: four dark silhouettes read clearly behind the headline, with no embedded source text.
+
 ## Latest Update - 2026-05-03 Card News 003 Second Visual Correction
 
 - Task: Apply follow-up user review feedback to Card News 003.
