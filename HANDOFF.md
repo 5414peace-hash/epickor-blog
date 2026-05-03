@@ -1,5 +1,36 @@
 # HANDOFF - EpicKor Agent Teams v2
 
+## Latest Update - 2026-05-03 Card News 132 Final Save
+
+- Task: Continue Instagram revival card-news production with priority 7 from the 30-item backlog.
+- Target:
+  - `/blog/132` Global Icons: Why Korean Footballers are Dominating the World Stage.
+  - Reels signal from PDF audit: `Korean Football Stars in Europe`, approximately 116K views.
+- User direction:
+  - If the target article already has good source imagery, use it where it fits.
+  - Apply this as a general card-news production rule going forward, not only for `/blog/038`.
+- Card News 132 output:
+  - `output/cardnews/132/script.md`
+  - `output/cardnews/132/card_01.png` through `output/cardnews/132/card_07.png`
+- Saved final tracked assets to:
+  - `public/assets/cardnews/132/card_01.png` through `public/assets/cardnews/132/card_07.png`
+  - `public/assets/cardnews/132/script.md`
+  - Generated support images under `public/assets/images/posts/132/`:
+    - `cardnews-132-stadium-tunnel.png`
+    - `cardnews-132-youth-training.png`
+    - `cardnews-132-night-fans.png`
+- Card News Team role:
+  - Built a 7-card carousel around the hook: Korean football is now a global signal in Europe.
+  - Flow: global cover hook -> Son effect -> next wave -> player range -> Europe beyond one league -> youth/system explanation -> full guide CTA.
+  - Used the article's existing football/player images where they were contextually strong, with crop/zoom adjustments to reduce embedded source text.
+- Renderer/Reviewer role:
+  - Ran global duplicate-image check across `public/assets/cardnews/*/script.md`: `NO_DUPLICATE_IMAGES`.
+  - `python .claude/skills/cardnews/scripts/html-to-png.py --slug 132` generated 7/7 PNGs.
+  - Visually checked rendered cards and adjusted source-image crops where embedded original captions were too visible.
+- Next:
+  - Continue Instagram revival backlog with priority 8 `/blog/038` Korean ramen you must try.
+  - For `/blog/038`, first inspect article images and use any strong in-post source images before generating or sourcing replacements.
+
 ## Latest Update - 2026-05-03 Card News 003 Cover Image Replacement
 
 - Task: Apply follow-up user review feedback to Card News 003 Card 01.
