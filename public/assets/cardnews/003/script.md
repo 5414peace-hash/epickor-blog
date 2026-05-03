@@ -10,9 +10,9 @@ point_color: Gold
 image_keyword: Korean karaoke singer legend
 kicker: KOREAN NORAEBANG CULTURE
 image: /assets/images/posts/003/d1adafad-ab6e-4a7e-8bb1-d10d6d036429.png
-image_opacity: 0.56
-image_zoom: 1.10
-image_position: center center
+image_opacity: 0.48
+image_zoom: 1.02
+image_position: left center
 
 **Main:** Why Korean men\nsing like this\nat karaoke
 **Sub:** It is not just a song.\nIt is pressure, pride,\nand emotional release.
@@ -24,9 +24,9 @@ layout: B
 point_color: Teal
 image_keyword: karaoke room friends singing
 kicker: KOREA PRIVATE ROOM RULE
-image: https://images.pexels.com/photos/8827051/pexels-photo-8827051.jpeg?auto=compress&cs=tinysrgb&w=1200
-image_opacity: 0.78
-image_zoom: 1.08
+image: https://images.pexels.com/photos/9008808/pexels-photo-9008808.jpeg?auto=compress&cs=tinysrgb&w=1200
+image_opacity: 0.80
+image_zoom: 1.10
 image_position: center center
 
 **Main:** Noraebang is\na private stage.
@@ -34,63 +34,63 @@ image_position: center center
 
 ---
 
-## Card 03 - Ballad Rule
+## Card 03 - Kim Beom-su
 layout: C
 point_color: Gold
-image_keyword: man singing microphone party
-kicker: KOREAN BALLAD ENERGY
-image: https://images.pexels.com/photos/18433817/pexels-photo-18433817.jpeg?auto=compress&cs=tinysrgb&w=1200
-image_opacity: 0.82
-image_zoom: 1.14
+image_keyword: Kim Beom-su Korean ballad singer
+kicker: KIM BEOM-SU STANDARD
+image: /assets/images/posts/003/002_EpicKor_Snippets_%ED%9C%98%EC%88%98.mp4_20240703_143118.403.jpg
+image_opacity: 0.72
+image_zoom: 1.06
 image_position: center center
 
-**Main:** The safest pick?\nA big ballad.
-**Sub:** Korean karaoke is full of\nsongs that start quietly,\nthen demand one impossible note.
+**Main:** Kim Beom-su\nsets the power.
+**Sub:** His songs carry the kind\nof clean, emotional high notes\nKorean karaoke rooms love.
 
 ---
 
-## Card 04 - High Note
+## Card 04 - Naul
 layout: D
 point_color: Teal
-image_keyword: male singer high note microphone
-kicker: HIGH-NOTE OBSESSION
-image: https://images.pexels.com/photos/9010055/pexels-photo-9010055.jpeg?auto=compress&cs=tinysrgb&w=1200
-image_opacity: 0.78
+image_keyword: Naul Korean vocalist
+kicker: NAUL VOCAL COLOR
+image: /assets/images/posts/003/002_EpicKor_Snippets_%ED%9C%98%EC%88%98.mp4_20240703_143126.700.jpg
+image_opacity: 0.72
 image_zoom: 1.08
 image_position: center center
 
-**Main:** The high note\nis the moment.
-**Sub:** If you hit it,\nthe room explodes.\nIf you miss it,\neveryone laughs anyway.
+**Main:** Naul means\nsoul and control.
+**Sub:** The note is not only high.\nIt has to feel effortless,\nsad, and perfectly placed.
 
 ---
 
-## Card 05 - Kim Na Park Lee
+## Card 05 - Park Hyo-shin
 layout: C
 point_color: Gold
-image_keyword: Korean singer legend
-kicker: VOCAL LEGEND CHECK
-image: https://images.pexels.com/photos/9008893/pexels-photo-9008893.jpeg?auto=compress&cs=tinysrgb&w=1200
-image_opacity: 0.78
+image_keyword: Park Hyo-shin Korean vocalist
+kicker: PARK HYO-SHIN DEPTH
+image: /assets/images/posts/003/002_EpicKor_Snippets_%ED%9C%98%EC%88%98.mp4_20240703_143128.868.jpg
+image_opacity: 0.72
 image_zoom: 1.08
 image_position: center center
 
-**Main:** Kim. Na.\nPark. Lee.
-**Sub:** Kim Bum-su, Naul,\nPark Hyo-shin, and Lee-su\nset the vocal fantasy.
+**Main:** Park Hyo-shin\nbrings the weight.
+**Sub:** This is the ballad mood\nwhere one line can feel bigger\nthan the whole room.
 
 ---
 
-## Card 06 - Group Bonding
+## Card 06 - Lee-su
 layout: B
 point_color: Teal
-image_keyword: friends singing together microphone
-kicker: AFTER-DINNER BONDING
-image: https://images.pexels.com/photos/9008808/pexels-photo-9008808.jpeg?auto=compress&cs=tinysrgb&w=1200
-image_opacity: 0.80
-image_zoom: 1.10
+image_keyword: Lee-su Korean vocalist
+kicker: LEE-SU HIGH NOTE
+image: /assets/images/posts/003/002_EpicKor_Snippets_%ED%9C%98%EC%88%98.mp4_20240703_143130.860.jpg
+image_opacity: 0.72
+image_zoom: 1.08
 image_position: center center
 
-**Main:** It is also\nsocial glue.
-**Sub:** Coworkers, friends,\nand couples use one room\nto drop the mask for a while.
+**Main:** Lee-su is\nfor the brave.
+**Sub:** His songs are the moment\nsomeone grabs the mic and tests\nthe ceiling of the room.
 
 ---
 

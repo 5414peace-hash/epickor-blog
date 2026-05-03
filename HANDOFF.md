@@ -1,5 +1,27 @@
 # HANDOFF - EpicKor Agent Teams v2
 
+## Latest Update - 2026-05-03 Card News 003 Visual Correction
+
+- Task: Apply user review feedback to Card News 003 visuals.
+- User feedback:
+  - Cards introducing the individual singers should use the existing matching video captures from `/blog/003`, not unrelated generic photos.
+  - Card 01 should keep the existing cover image but adjust positioning toward the image side.
+  - Card 02 should replace the previous mic/talking scene because it did not read as singing.
+- Corrections:
+  - Card 01 keeps `/assets/images/posts/003/d1adafad-ab6e-4a7e-8bb1-d10d6d036429.png`, with the image positioned on the left image side and opacity reduced so the embedded source text does not fight the new card copy.
+  - Card 02 now uses a group singing/karaoke-style visual instead of the previous speaking-into-a-mic image.
+  - Cards 03-06 now use the existing local video captures for Kim Beom-su, Naul, Park Hyo-shin, and Lee-su:
+    - `/assets/images/posts/003/002_EpicKor_Snippets_%ED%9C%98%EC%88%98.mp4_20240703_143118.403.jpg`
+    - `/assets/images/posts/003/002_EpicKor_Snippets_%ED%9C%98%EC%88%98.mp4_20240703_143126.700.jpg`
+    - `/assets/images/posts/003/002_EpicKor_Snippets_%ED%9C%98%EC%88%98.mp4_20240703_143128.868.jpg`
+    - `/assets/images/posts/003/002_EpicKor_Snippets_%ED%9C%98%EC%88%98.mp4_20240703_143130.860.jpg`
+- Renderer/Reviewer role:
+  - `python .claude/skills/cardnews/scripts/html-to-png.py --slug 003` generated 7/7 PNGs.
+  - Copied updated rendered PNGs into `public/assets/cardnews/003/`.
+  - Ran global duplicate-image check across `public/assets/cardnews/*/script.md`: `NO_DUPLICATE_IMAGES`.
+- Next:
+  - Commit this Card News 003 visual correction before continuing the backlog.
+
 ## Latest Update - 2026-05-03 Card News 003 Final Save
 
 - Task: Continue Instagram revival card-news production with priority 6 from the 30-item backlog.
