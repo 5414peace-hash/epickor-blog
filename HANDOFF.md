@@ -1,5 +1,37 @@
 # HANDOFF - EpicKor Agent Teams v2
 
+## Latest Update - 2026-05-03 Card News 003 Final Save
+
+- Task: Continue Instagram revival card-news production with priority 6 from the 30-item backlog.
+- Target:
+  - `/blog/003` The Sociology of the Bang / Korean noraebang culture.
+  - Reels signal from PDF audit: `Top 5 Songs Korean Men Sing at Karaoke`, approximately 95K views.
+- Mapping:
+  - Verified the audit/backlog mapping points to `content/blog/003-discover-the-icons-behind-koreas-favorite-karaoke-hits.md`.
+  - Because the older blog post is more about noraebang sociology than an exact ranked song list, the carousel uses the Reel hook while avoiding unsupported exact ranking claims.
+- Card News 003 output:
+  - `output/cardnews/003/script.md`
+  - `output/cardnews/003/card_01.png` through `output/cardnews/003/card_07.png`
+- Saved final tracked assets to:
+  - `public/assets/cardnews/003/card_01.png` through `public/assets/cardnews/003/card_07.png`
+  - `public/assets/cardnews/003/script.md`
+- Card News Team role:
+  - Built a 7-card carousel around the social question: why Korean men often choose emotional, high-note ballads in noraebang.
+  - Flow: cover hook -> private-room stage -> ballad rule -> high-note moment -> Kim-Na-Park-Lee vocal fantasy -> group bonding -> full noraebang guide CTA.
+  - Added Korea/EpicKor angle through per-card `kicker:` text such as `KOREAN NORAEBANG CULTURE`, `KOREA PRIVATE ROOM RULE`, `KOREAN BALLAD ENERGY`, and `EPICKOR CULTURE GUIDE`.
+- Visual role:
+  - Used the existing `/blog/003` Reel-style Kim-Na-Park-Lee visual for the cover to preserve historical Instagram signal.
+  - Used fresh Pexels karaoke/microphone/singing visuals for the supporting cards.
+  - Avoided exact reuse of existing public card-news `image:` values.
+- Renderer/Reviewer role:
+  - Ran duplicate-image check across `public/assets/cardnews/*/script.md` before rendering: `NO_DUPLICATE_IMAGES`.
+  - `python .claude/skills/cardnews/scripts/html-to-png.py --slug 003` generated 7/7 PNGs.
+  - Visually opened rendered cards 01-07.
+  - Confirmed no visible text overflow, `EPICKOR.COM` watermark on every card, and a coherent swipe flow.
+- Next:
+  - Continue Instagram revival backlog with priority 7 `/blog/132` Korean football stars in Europe after verifying the exact Reel mapping.
+  - Consider committing Card News 003 assets before producing another carousel.
+
 ## Latest Update - 2026-05-03 Card News 159 Final Save
 
 - Task: Continue Instagram revival card-news production with priority 5 from the 30-item backlog.
