@@ -344,6 +344,54 @@ def build_type_c(card):
   {WATERMARK_HTML}'''
 
 
+def build_type_e(card):
+    pc = point_color(card)
+    main = to_html_text(card['main_text'])
+    sub = to_html_text(card['sub_text'])
+    img = resolve_image_src(card)
+    kicker = kicker_html(card, pc)
+    visual = image_layer_full(img, card, '0.56') if img else f'''
+      <div style="
+        position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);
+        width:180px;height:180px;border-radius:50%;
+        border:1px solid {pc};opacity:0.4;
+      "></div>
+      <div style="
+        position:absolute;top:30%;left:20%;
+        width:3px;height:200px;background:{pc};opacity:0.3;transform:rotate(20deg);
+      "></div>
+    '''
+
+    return f'''
+  <div style="display:flex;width:1080px;height:1080px;">
+    <div style="
+      width:432px;height:1080px;position:relative;overflow:hidden;
+      background:linear-gradient(180deg,#1a1200 0%,#0d0d0d 100%);
+    ">
+      {visual}
+    </div>
+
+    <div style="
+      width:648px;height:1080px;background:#111111;
+      padding:86px 72px;
+      display:flex;flex-direction:column;justify-content:center;
+    ">
+      <div style="width:52px;height:5px;background:{pc};margin-bottom:30px;"></div>
+      {kicker}
+      <div style="
+        font-size:52px;font-weight:900;color:{pc};
+        line-height:1.12;
+        border-left:6px solid {pc};padding-left:22px;margin-bottom:34px;
+      ">{main}</div>
+      <div style="
+        font-size:29px;font-weight:500;color:#FFFFFF;
+        line-height:1.45;word-break:keep-all;
+      ">{sub}</div>
+    </div>
+  </div>
+  {WATERMARK_HTML}'''
+
+
 def build_type_d(card, total):
     pc = point_color(card)
     main = to_html_text(card['main_text'])
@@ -391,6 +439,8 @@ def build_card_html(card, total):
         body = build_type_b(card)
     elif layout == 'C':
         body = build_type_c(card)
+    elif layout == 'E':
+        body = build_type_e(card)
     elif layout == 'D':
         body = build_type_d(card, total)
     else:

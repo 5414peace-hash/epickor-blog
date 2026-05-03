@@ -10,9 +10,9 @@ point_color: Gold
 image_keyword: Korean karaoke singer legend
 kicker: KOREAN NORAEBANG CULTURE
 image: /assets/images/posts/003/d1adafad-ab6e-4a7e-8bb1-d10d6d036429.png
-image_opacity: 0.48
-image_zoom: 1.02
-image_position: left center
+image_opacity: 0.42
+image_zoom: 1.00
+image_position: center center
 
 **Main:** Why Korean men\nsing like this\nat karaoke
 **Sub:** It is not just a song.\nIt is pressure, pride,\nand emotional release.
@@ -50,13 +50,13 @@ image_position: center center
 ---
 
 ## Card 04 - Naul
-layout: D
+layout: E
 point_color: Teal
 image_keyword: Naul Korean vocalist
 kicker: NAUL VOCAL COLOR
 image: /assets/images/posts/003/002_EpicKor_Snippets_%ED%9C%98%EC%88%98.mp4_20240703_143126.700.jpg
 image_opacity: 0.72
-image_zoom: 1.08
+image_zoom: 1.02
 image_position: center center
 
 **Main:** Naul means\nsoul and control.
@@ -71,8 +71,8 @@ image_keyword: Park Hyo-shin Korean vocalist
 kicker: PARK HYO-SHIN DEPTH
 image: /assets/images/posts/003/002_EpicKor_Snippets_%ED%9C%98%EC%88%98.mp4_20240703_143128.868.jpg
 image_opacity: 0.72
-image_zoom: 1.08
-image_position: center center
+image_zoom: 1.02
+image_position: left center
 
 **Main:** Park Hyo-shin\nbrings the weight.
 **Sub:** This is the ballad mood\nwhere one line can feel bigger\nthan the whole room.
@@ -80,13 +80,13 @@ image_position: center center
 ---
 
 ## Card 06 - Lee-su
-layout: B
+layout: E
 point_color: Teal
 image_keyword: Lee-su Korean vocalist
 kicker: LEE-SU HIGH NOTE
 image: /assets/images/posts/003/002_EpicKor_Snippets_%ED%9C%98%EC%88%98.mp4_20240703_143130.860.jpg
 image_opacity: 0.72
-image_zoom: 1.08
+image_zoom: 1.02
 image_position: center center
 
 **Main:** Lee-su is\nfor the brave.

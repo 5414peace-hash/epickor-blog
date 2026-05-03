@@ -1,5 +1,23 @@
 # HANDOFF - EpicKor Agent Teams v2
 
+## Latest Update - 2026-05-03 Card News 003 Second Visual Correction
+
+- Task: Apply follow-up user review feedback to Card News 003.
+- User feedback:
+  - Card 01 should use the existing image as the four black-silhouette group visual.
+  - Card 03 is good and should remain the model.
+  - Cards 04-06 should avoid face-cropping by using the same side-vertical-image treatment as Card 03, with alternating image sides.
+- Corrections:
+  - Card 01 now uses the existing cover image with a centered crop and lower opacity so the four-silhouette composition reads more clearly behind the hook.
+  - Added renderer layout `E`, mirroring layout `C` with the vertical image panel on the left and text on the right.
+  - Cards 03-06 now alternate image side rhythm: right, left, right, left.
+  - Card 04 and Card 06 moved from full/top background treatments into the new left vertical image panel layout.
+  - Card 05 stays in the right vertical image panel layout and has image positioning adjusted toward the face.
+- Renderer/Reviewer role:
+  - `python .claude/skills/cardnews/scripts/html-to-png.py --slug 003` generated 7/7 PNGs.
+  - Copied updated rendered PNGs into `public/assets/cardnews/003/`.
+  - Ran global duplicate-image check across `public/assets/cardnews/*/script.md`: `NO_DUPLICATE_IMAGES`.
+
 ## Latest Update - 2026-05-03 Card News 003 Visual Correction
 
 - Task: Apply user review feedback to Card News 003 visuals.
