@@ -9,11 +9,11 @@ layout: A
 point_color: Gold
 image_keyword: korean ramen guide
 kicker: KOREAN RAMEN GUIDE
-image: /assets/images/posts/038/36628da4-9e56-4710-bde0-a77b9874e472.png
+image: /assets/images/posts/038/038_epickor_%EB%AF%BC%ED%98%B8.mp4_20240717_145809.679.jpg
 image_tone: Food
-image_opacity: 0.66
+image_opacity: 0.72
 image_position: center center
-image_zoom: 1.08
+image_zoom: 1.04
 
 **Main:** 4 Korean ramen\nworth trying first
 **Sub:** From comfort spice\nto fire noodles,\nthis is the starter map.
