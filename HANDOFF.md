@@ -1,5 +1,21 @@
 # HANDOFF - EpicKor Agent Teams v2
 
+## Latest Update - 2026-05-06 Card News 038 Caption Package / Next-Reply Rule Save
+
+- Task: Continue after the representative asked to proceed with the recommended next actions.
+- Saved operating behavior:
+  - Updated `CLAUDE.md` so normal completion replies should naturally include the next recommended move without waiting for the representative to ask.
+- Card News 038 upload support:
+  - Created `output/cardnews/038/instagram-caption.md`.
+  - Includes:
+    - Primary Instagram caption.
+    - Short caption variant.
+    - Hashtag set.
+    - Posting note.
+- Current next operational step:
+  - Push the completed local commits to `origin/master`.
+  - Then use `public/assets/cardnews/038/` plus `output/cardnews/038/instagram-caption.md` for Instagram upload.
+
 ## Latest Update - 2026-05-06 Priority 1/2/3 Execution
 
 - Task: Execute the agreed next-work sequence in priority order after Reels 170 v005 was accepted.
