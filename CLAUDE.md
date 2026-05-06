@@ -29,11 +29,33 @@
   6. Resume Reels uploads once the account has regained activity and content rhythm.
 - Strategy Team must consider this Instagram revival plan when recommending the next card-news target.
 
+## Instagram Reels Production MVP Strategy
+
+- Reels production runs in parallel with the 30-card-news revival backlog. It must not replace the active card-news sequence.
+- Reels should start with newly published EpicKor posts, especially posts with strong social hooks and clear visual scenes.
+- The first Reels goal is not full automation. Build one MVP, note friction, then upgrade the pipeline.
+- Every Reels project should use numbered scene files under `output/reels/{slug}/`.
+- Human visual approval is required before final Remotion rendering.
+- The visual review dashboard should answer one question quickly: does this image fit this numbered scene?
+- Reels narration should be generated in short parts, around three parts for a 35-45 second Reel, rather than one full script file. This reduces slow or uneven voice behavior.
+- Reels subtitles must follow context-aware phrase beats. Do not split tiny fragments such as `is`, `and`, or `to your` onto their own screen unless the fragment is intentionally designed as a typography beat.
+- Reels subtitle timing should feel slightly proactive: the caption should appear just before, or exactly as, the narration lands. A small lead such as 6 frames at 30fps is acceptable when it makes the pacing feel more responsive.
+- Reels render files must be versioned, such as `epickor-reel-{slug}-v005.mp4`; do not overwrite previous candidate renders during review.
+- The first scene should be designed strongly enough to work as a thumbnail when the hook supports it.
+- Final Reels should include a clean `epicKor.com` outro when appropriate.
+- Reels visual sourcing priority:
+  1. Images already used by the source post.
+  2. EpicKor-owned or generated images.
+  3. Pexels or other usable external images.
+  4. Generated images when no relevant source image exists.
+- Record Reels agent roles, dashboard review status, blockers, and next improvements in `HANDOFF.md`.
+
 ## Handoff And Strategy Check Rules
 
 - Before deciding what EpicKor should do next, read `HANDOFF.md`, the latest `output/strategy/week_*.md`, and relevant git history if the handoff may be incomplete.
 - Do not recommend a page as the next target only from GSC impressions or CTR. First check whether that page was already rewritten, published, or verified recently.
 - When choosing the next EpicKor task, explicitly apply the Strategy Team perspective: GSC opportunity, recency of prior edits, monetization potential, visual/card-news potential, and operational risk.
+- After completing a meaningful EpicKor task, recommend the next work as priority 1, 2, and 3. For each priority, include the reason, expected impact, and any dependency or blocker. Priority 1 should be the safest/highest-leverage next move, not simply the newest idea.
 - If Strategy Team guidance conflicts with recent `HANDOFF.md` or git history, prefer the newer concrete work record and explain the conflict to the user.
 - If a completed task is missing from `HANDOFF.md`, add a correction entry before using that area for future prioritization.
 
@@ -214,6 +236,7 @@ output/drafts/                writer brief 및 draft.md
 output/review/                review.json
 output/final/                 final.md
 output/cardnews/{slug}/       script.md 및 card PNG
+output/reels/{slug}/          Reels scene manifest, visual candidates, review notes, and audio
 .claude/skills/               팀별 스크립트
 .claude/agents/               팀별 운영 지침
 ```

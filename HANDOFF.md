@@ -1,5 +1,357 @@
 # HANDOFF - EpicKor Agent Teams v2
 
+## Latest Update - 2026-05-06 Priority 1/2/3 Execution
+
+- Task: Execute the agreed next-work sequence in priority order after Reels 170 v005 was accepted.
+- Priority 1 - Reels 170 final baseline save/stabilization:
+  - Confirmed Reels 170 v005 remains the accepted MVP baseline.
+  - Current final render remains:
+    - `output/reels/170/render/epickor-reel-170-v005.mp4`
+  - Preserved the accepted standard in `CLAUDE.md` and this handoff.
+- Priority 2 - Card News 038:
+  - Created `output/cardnews/038/script.md`.
+  - Rendered 7 PNG cards:
+    - `output/cardnews/038/card_01.png`
+    - `output/cardnews/038/card_02.png`
+    - `output/cardnews/038/card_03.png`
+    - `output/cardnews/038/card_04.png`
+    - `output/cardnews/038/card_05.png`
+    - `output/cardnews/038/card_06.png`
+    - `output/cardnews/038/card_07.png`
+  - Copied publish-ready files to:
+    - `public/assets/cardnews/038/`
+  - Used only source-post images from `public/assets/images/posts/038/`; no Pexels or external images were needed.
+  - Visual QA performed by Codex:
+    - Checked all rendered cards for image relevance, readable text, and `EPICKOR.COM` watermark presence.
+    - Adjusted cards 3 and 6 from split image layouts to top-image layouts to avoid awkward source-caption cropping.
+    - Reduced final CTA background opacity so text remains readable.
+- Priority 3 - Reels pipeline improvement:
+  - Added generic render helper:
+    - `.claude/skills/reels/scripts/render-reel.mjs`
+  - Added `npm run reels:render`.
+  - The helper:
+    - Builds props unless `--skip-props` is passed.
+    - Auto-selects the next non-overwriting render version, such as `v006`.
+    - Refuses to overwrite an existing render.
+    - Creates render-specific props with asset paths rewritten for slug-local Remotion public roots.
+    - Passes `--public-dir public/assets/reels/{slug}` so Remotion does not copy the whole site `public/` directory during regular renders.
+  - Updated `remotion/Root.tsx` with a reusable `EpicKorReel` composition while keeping legacy `EpicKorReel170`.
+  - Updated `remotion/README.md` and `.claude/skills/reels/scripts/remotion-plan.md`.
+- Verification:
+  - `node --check .claude/skills/reels/scripts/render-reel.mjs` passed.
+  - `npm run reels:render -- --slug 170 --audio-version v005 --dry-run` passed and selected `output/reels/170/render/epickor-reel-170-v006.mp4`.
+  - `npx remotion compositions remotion/Root.tsx --props output/reels/170/remotion-props-render-v006.json --public-dir public/assets/reels/170` passed and listed:
+    - `EpicKorReel`
+    - `EpicKorReel170`
+
+## Latest Update - 2026-05-06 Next-Task Priority Recommendation Rule
+
+- Task: Preserve the user's preference for how Codex/Claude should recommend follow-up work after a task is completed.
+- Updated `CLAUDE.md` under `Handoff And Strategy Check Rules`.
+- New rule:
+  - After completing a meaningful EpicKor task, recommend the next work as priority 1, 2, and 3.
+  - Each priority should include the reason, expected impact, and any dependency or blocker.
+  - Priority 1 should be the safest/highest-leverage next move, not simply the newest idea.
+- Current implication:
+  - Future next-task recommendations should combine `HANDOFF.md`, latest weekly strategy, recent git/worktree state, monetization, visual/social potential, and operational risk.
+
+## Latest Update - 2026-05-06 Reels 170 Final Accepted Baseline
+
+- Task: Record the accepted Reels 170 final candidate and preserve the production standard for future Reels.
+- Final accepted render:
+  - `output/reels/170/render/epickor-reel-170-v005.mp4`
+- Accepted baseline for future Reels:
+  - Generate narration in short segments, around three parts for a 35-45 second Reel.
+  - Use context-aware subtitle beats instead of mechanical word chunks.
+  - Avoid isolated fragments such as `is`, `and`, or `to your` unless intentionally used as a typography moment.
+  - Subtitle timing should be slightly proactive; the v005 baseline uses a 6-frame lead at 30fps.
+  - The first scene should be designed strongly enough to work as a thumbnail when the hook supports it.
+  - Keep numbered/versioned render filenames and do not overwrite review candidates.
+  - Add a clean `epicKor.com` outro when appropriate.
+- Updated records:
+  - `CLAUDE.md`
+  - `output/reels/170/review.md`
+  - `HANDOFF.md`
+- Current gate:
+  - Reels 170 can be treated as the current MVP quality baseline.
+  - Next Reels work should start from the v005 timing, caption, voice segmentation, thumbnail, and outro rules.
+
+## Latest Update - 2026-05-06 Reels 170 Caption Lead / Final CTA Update
+
+- Task: Apply user feedback after v004.
+- User feedback:
+  - v004 is better, but subtitles still feel slightly delayed after narration.
+  - Captions should appear a bit earlier so narration lands right after the text appears.
+  - Final/outro sentence line break still felt awkward.
+- Corrections:
+  - Updated `remotion/ReelComposition.tsx` caption timing with a 6-frame lead, about 0.2 seconds at 30fps.
+  - Changed final CTA narration to: `Read the full Korean PC bang guide on EpicKor.com.`
+  - Added v005 text files:
+    - `output/reels/170/voiceover-v005-part-01.txt`
+    - `output/reels/170/voiceover-v005-part-02.txt`
+    - `output/reels/170/voiceover-v005-part-03.txt`
+  - Copied v003 part 1/2 audio to v005 part 1/2 because their text did not change.
+  - Regenerated v005 part 3 audio with ElevenLabs `eleven_turbo_v2`.
+  - Built props with `--audio-version v005`.
+- Render:
+  - `output/reels/170/render/epickor-reel-170-v005.mp4`
+  - Size: about 25.5 MB.
+  - ffprobe: H.264 video, AAC audio, 38.869333 seconds.
+- QA:
+  - `output/reels/170/render/qa-v005-frame-034.png` confirms the revised final CTA line flow.
+  - `output/reels/170/render/qa-v005-frame-037.png` confirms the `epicKor.com` outro remains clean.
+- Current gate:
+  - Human watch-through for whether the 6-frame caption lead feels snappy without feeling too early.
+  - If more exact sync is required, use timestamped TTS/forced alignment.
+
+## Latest Update - 2026-05-06 Reels 170 Three-Part Voice/Thumbnail Render
+
+- Task: Rebuild Reels 170 again after user feedback on remaining narration/subtitle mismatch and render versioning.
+- User feedback:
+  - Narration and subtitles were closer than before, but still mismatched in many places.
+  - Generate narration in about three parts instead of one full text block to reduce slow/uneven voice behavior.
+  - Caption beats should preserve context; avoid fragments like `is` appearing alone.
+  - First sentence should work as a designed thumbnail-style image.
+  - Add final `epicKor.com` outro.
+  - New renders must use numbered filenames instead of overwriting existing mp4s.
+- Audio changes:
+  - Split narration into three text files:
+    - `output/reels/170/voiceover-v003-part-01.txt`
+    - `output/reels/170/voiceover-v003-part-02.txt`
+    - `output/reels/170/voiceover-v003-part-03.txt`
+  - Generated three ElevenLabs `eleven_turbo_v2` audio files:
+    - `output/reels/170/audio/narration-v003-part-01.mp3`
+    - `output/reels/170/audio/narration-v003-part-02.mp3`
+    - `output/reels/170/audio/narration-v003-part-03.mp3`
+    - and matching public copies under `public/assets/reels/170/audio/`.
+- Code changes:
+  - `.claude/skills/reels/scripts/elevenlabs-tts.mjs` now supports `--output` so TTS files can be versioned.
+  - `.claude/skills/reels/scripts/build-remotion-props.mjs` now accepts `--audio-version v003`, detects three part files, creates `audioSegments`, allocates scene durations within each audio part, and uses context-aware caption beat overrides.
+  - `remotion/types.ts` supports `audioSegments` and `outro`.
+  - `remotion/ReelComposition.tsx` supports segmented audio, a designed thumbnail-style first scene, a centered `epicKor.com` outro, and a transition-opacity fix.
+- Render outputs:
+  - `output/reels/170/render/epickor-reel-170-v003.mp4` was generated first.
+  - QA found a dark transition boundary in `v003`.
+  - Fixed the transition opacity and rendered final candidate:
+    - `output/reels/170/render/epickor-reel-170-v004.mp4`
+    - Size: about 26 MB.
+    - ffprobe: H.264 video, AAC audio, 39.594667 seconds.
+- QA frames:
+  - `output/reels/170/render/qa-v004-frame-001.png`
+  - `output/reels/170/render/qa-v004-frame-014.png`
+  - `output/reels/170/render/qa-v004-frame-028.png`
+  - `output/reels/170/render/qa-v004-frame-038.png`
+- Current gate:
+  - Human watch-through of `epickor-reel-170-v004.mp4` for exact subtitle feel and voice pacing.
+  - If more precision is still needed, move to timestamped TTS or forced alignment rather than proportional caption timing.
+
+## Latest Update - 2026-05-06 Reels 170 Turbo Voice/Subtitle Correction
+
+- Task: Rebuild Reels 170 after user feedback on voice quality, subtitle sync, and text placement.
+- User feedback:
+  - The narration generated with `eleven_multilingual_v2` was poor.
+  - Narration and subtitles did not match closely enough.
+  - Narration subtitles should be centered on screen.
+  - ONS typography should move down toward the lower area where captions were previously shown.
+- Corrections:
+  - Changed `.env.local` `ELEVENLABS_MODEL_ID` to `eleven_turbo_v2`.
+  - Regenerated ElevenLabs narration:
+    - `output/reels/170/audio/narration.mp3`
+    - `public/assets/reels/170/audio/narration.mp3`
+  - Updated `.claude/skills/reels/scripts/build-remotion-props.mjs` so props are based on generated audio duration.
+    - It tries `ffprobe` first.
+    - If `ffprobe` cannot be spawned, it estimates duration from the ElevenLabs `mp3_44100_128` output bitrate.
+    - Scene durations are now reallocated by narration text weight instead of fixed 42-second scene timings.
+  - Updated `remotion/ReelComposition.tsx`:
+    - Narration captions are now centered.
+    - ONS typography beats are now positioned in the lower area.
+- Rendered replacement:
+  - `output/reels/170/render/epickor-reel-170.mp4`
+  - Size: about 28.1 MB.
+  - ffprobe check: H.264 video, AAC audio, 40.320 seconds.
+- QA:
+  - JSON parse check passed for `voice-status.json` and `remotion-props.json`.
+  - Extracted QA frames:
+    - `output/reels/170/render/qa-frame-003.png`
+    - `output/reels/170/render/qa-frame-017.png`
+    - `output/reels/170/render/qa-frame-031.png`
+  - Visual spot check: center captions and lowered ONS placement are reflected in rendered frames.
+- Current gate:
+  - Human watch-through is still needed for voice tone and exact subtitle feel.
+  - If voice timing is still not precise enough, next improvement should use ElevenLabs timestamped generation or a separate forced-alignment step instead of proportional scene timing.
+
+## Latest Update - 2026-05-06 Reels 170 Audio Render
+
+- Task: Continue Reels 170 MVP after visual approval by generating ElevenLabs narration and rendering the first audio+video mp4.
+- Environment status:
+  - `.env.local` now has present values for `ELEVENLABS_API_KEY`, `ELEVENLABS_VOICE_ID`, and `ELEVENLABS_MODEL_ID`.
+  - Corrected `ELEVENLABS_MODEL_ID` from `Eleven_Turbo_v2` to `eleven_multilingual_v2` because ElevenLabs returned `model_not_found` for the previous value.
+- Commands run:
+  - `npm run reels:tts -- --slug 170 --text output/reels/170/voiceover.txt`
+  - `npm run reels:props -- --slug 170`
+  - `npm run reels:render:170`
+- Generated audio:
+  - `output/reels/170/audio/narration.mp3`
+  - `public/assets/reels/170/audio/narration.mp3`
+- Generated render:
+  - `output/reels/170/render/epickor-reel-170.mp4`
+  - Size: about 29 MB.
+  - ffprobe check: H.264 video, AAC audio, 42.048 seconds.
+- Updated files:
+  - `.env.local`
+  - `output/reels/170/voice-status.json`
+  - `output/reels/170/remotion-props.json`
+  - `output/reels/170/review.md`
+  - `HANDOFF.md`
+- Current gate:
+  - Human QA should watch the rendered mp4 for voice tone, crop, motion, subtitle readability, and whether any gaming visual feels too generic or non-Korean.
+  - Remotion still copies the full `public/` directory during render, around 700 MB, so asset handling remains the next pipeline optimization.
+- Agent roles performed by Codex:
+  - Reels Voice Agent: generated ElevenLabs narration and fixed model ID configuration.
+  - Reels Remotion Agent: rebuilt props and rendered the first audio+video mp4.
+  - Reels QA Agent: verified output codecs/duration and recorded the next human review gate.
+- Next:
+  - Human watch-through of `output/reels/170/render/epickor-reel-170.mp4`.
+  - If approved, decide whether to package/export for Instagram posting or first optimize Remotion public asset handling.
+
+## Latest Update - 2026-05-04 Reels Production MVP Scaffold
+
+- Task: Start a parallel Reels production pipeline for newly published posts while the 30-card-news Instagram revival backlog continues.
+- Strategic context:
+  - Card News Team should keep producing the historical high-signal carousel backlog.
+  - Reels Team is a separate new-post-to-video track designed to turn recently published EpicKor posts into 9:16 vertical Reels.
+  - The first goal is a reviewable MVP, not full automation.
+- First MVP target:
+  - `/blog/170` Korean PC Bang Culture: Why Gaming Cafes Matter.
+  - Selected because it is the newest published post in the handoff record, not a historical card-news backlog item, and has a clear short-form hook: PC bang is not just an internet cafe.
+- Added operating docs:
+  - `.claude/agents/reels-team/AGENT.md`
+  - `.claude/skills/reels/design_system.md`
+  - Updated `CLAUDE.md` with Reels MVP strategy and `output/reels/{slug}/` path.
+  - Updated Strategy, Research, and Reviewer agent docs with Reels-specific rules.
+- Created Reels 170 project files:
+  - `output/reels/170/strategy.md`
+  - `output/reels/170/script.md`
+  - `output/reels/170/voiceover.txt`
+  - `output/reels/170/scenes.json`
+  - `output/reels/170/visual-candidates.json`
+  - `output/reels/170/approved-visuals.json`
+  - `output/reels/170/review.md`
+- Dashboard MVP:
+  - Added local review route `/reels-review/170`.
+  - Added API route `/api/reels/170/visuals`.
+  - Dashboard shows scene number, narration, caption, visual intent, motion, duration, image candidates, and approve/reject/replace controls.
+  - Approval writes back to `scenes.json`, `visual-candidates.json`, and `approved-visuals.json`.
+- ElevenLabs/Remotion scaffold:
+  - Added `ELEVENLABS_API_KEY`, `ELEVENLABS_VOICE_ID`, and `ELEVENLABS_MODEL_ID` to `.env.local.example`.
+  - Added `npm run reels:voices` and `npm run reels:tts` helpers.
+  - Added `.claude/skills/reels/scripts/remotion-plan.md`; Remotion package installation and final rendering are intentionally deferred until visual approval is working.
+- Current review notes:
+  - Scene 5 needs a better PC bang food image before final rendering.
+  - The current MVP uses three source-post Pexels images heavily; final production should reduce repetition with additional approved candidates or distinct crops.
+  - No ElevenLabs API call was made yet because `.env.local` currently has no ElevenLabs variables.
+- Verification:
+  - JSON parse check passed for Reels manifests.
+  - `npm.cmd run build` passed.
+  - Local dev check returned 200 for `http://localhost:4000/reels-review/170`.
+  - Local API check returned 200 for `http://localhost:4000/api/reels/170/visuals`.
+- Agent roles performed by Codex:
+  - Reels Strategy Agent: selected MVP target.
+  - Reels Script Agent: wrote the first 8-scene narration.
+  - Reels Visual Research Agent: mapped source-post image candidates and flagged missing food visual.
+  - Reels Visual Reviewer Agent: created the dashboard approval gate.
+  - Reels Motion Agent: assigned initial motion presets.
+  - Reels Voice Agent: scaffolded ElevenLabs helpers without exposing secrets.
+  - Reels Remotion Agent: documented the planned composition scaffold.
+  - Reels QA Agent: created initial review notes and verified build/dashboard.
+- Next:
+  - Use `/reels-review/170` to approve/reject the current candidate images.
+  - Source a direct PC bang food image for scene 5.
+  - After visual approval feels comfortable, install Remotion packages and build the first 1080x1920 composition.
+
+### Follow-up - 2026-05-04 Reels 170 Scene 5 Food Candidates
+
+- Task: Continue the Reels 170 MVP by resolving the weakest visual slot: Scene 5, PC bang food.
+- Research action:
+  - Ran Pexels searches for `ramen gaming desk food` and `noodles computer desk`.
+  - No local EpicKor-owned PC bang food image was found under `public/assets/images/posts/170/`.
+- Updated files:
+  - `output/reels/170/scenes.json`
+  - `output/reels/170/visual-candidates.json`
+  - `output/reels/170/review.md`
+- Added Scene 5 candidates:
+  - `170-5-a`: noodles beside a laptop/workstation; strongest desk/seat-function match but not Korea-specific.
+  - `170-5-b`: Korean ramen close-up; strongest ramyeon/Korea food match but lacks computer context.
+  - `170-5-c`: dark instant ramen close-up; mood-compatible backup but least context-specific.
+- Verification:
+  - Reels JSON parse check passed.
+  - Local API `http://localhost:4000/api/reels/170/visuals` returned 200 and included `170-5-a` and `170-5-b`.
+- Current gate:
+  - Human visual approval is still required at `http://localhost:4000/reels-review/170`.
+  - Final Remotion rendering remains blocked until every scene has one approved image.
+
+### Follow-up - 2026-05-04 Reels 170 Visual Review Completion UX
+
+- User feedback:
+  - The dashboard allowed approve/reject/replace, but had no completion button or next-step signal after review.
+- Current human review result:
+  - Scenes 1, 2, 3, and 5 are approved.
+  - Scenes 4, 6, 7, and 8 are marked `replace_needed`.
+- UX correction:
+  - Added `Finalize visual review` button to `/reels-review/{slug}`.
+  - The button stays disabled until every scene has one approved visual.
+  - Finalize API returns a clear 409 with missing scene numbers when review is incomplete.
+- Replacement candidates added:
+  - Scene 4: `170-4-c`, `170-4-d` for fresh social gaming/hangout visuals.
+  - Scene 6: `170-6-b`, `170-6-c` for wider gaming-room/culture-scale visuals.
+  - Scene 7: `170-7-b`, `170-7-c` for quieter visitor/seat visuals.
+  - Scene 8: `170-8-b`, `170-8-c` for CTA background visuals.
+- Verification:
+  - Reels JSON parse check passed.
+  - `npm.cmd run build` passed.
+  - Local API finalize test correctly returned 409 and listed missing scenes `4, 6, 7, 8`.
+  - Local dashboard returned 200 and includes `Finalize visual review` plus new replacement candidate IDs.
+- Next:
+  - User should approve one replacement candidate for scenes 4, 6, 7, and 8.
+  - Then click `Finalize visual review`.
+  - After finalization, proceed to audio setup and Remotion composition scaffold.
+
+### Follow-up - 2026-05-04 Reels 170 Ranking Dashboard Redesign
+
+- User feedback:
+  - One image per scene will make the final Reel feel too static.
+  - The dashboard images were too large and hard to scan.
+  - Captions should not drift away from narration; subtitles should follow the narration wording.
+  - Strong phrases should sometimes become typography moments.
+  - `Finalize visual review` should appear at both the top and bottom.
+  - TravelHippo can be used as a read-only reference for Remotion and ElevenLabs patterns.
+- Reference read-only review:
+  - Read `D:\dev\travelhippo\CLAUDE.md`, `scripts/generate_narration.py`, `scripts/build_props.py`, and Remotion subtitle/type files.
+  - Did not modify anything under `D:\dev\travelhippo`.
+  - Useful lessons copied conceptually: ASCII Remotion asset paths, `selected assets -> composition props`, ElevenLabs voice settings, and synced subtitle style.
+- Dashboard changes:
+  - Replaced one-image approval flow with Rank 1-5 buttons per candidate.
+  - Reduced thumbnail size to a compact scene-scanning layout.
+  - Scene narration now appears horizontally above the candidate image grid.
+  - `Finalize visual review` appears at top and bottom.
+  - Finalization now requires at least two ranked visuals per scene.
+- Manifest changes:
+  - `output/reels/170/scenes.json` now includes `subtitleText`, `subtitleStyle`, `selectedImages`, and `typographyBeats`.
+  - `output/reels/170/visual-candidates.json` now has about five candidates per scene and `rank` fields.
+  - Prior approved choices for scenes 1, 2, 3, and 5 were preserved as Rank 1.
+  - Scenes 4, 6, 7, and 8 have fresh replacement candidates ready for ranking.
+- Voice/env changes:
+  - Added ElevenLabs placeholders to `.env.local` without printing secret values.
+  - Added TravelHippo-style ElevenLabs voice settings: stability, similarity boost, style, and speaker boost.
+- Verification:
+  - Reels JSON parse check passed.
+  - `npm.cmd run build` passed.
+  - Local dashboard returned 200 and includes ranking/finalize UI plus new candidates.
+- Next:
+  - Rank at least two images per scene in `/reels-review/170`.
+  - Click bottom or top `Finalize visual review`.
+  - After finalization, generate ElevenLabs narration and build the first Remotion composition using multiple ranked images per scene.
+
 ## Latest Update - 2026-05-03 Card News 132 Visual/Name Correction
 
 - Task: Apply user review feedback to Card News 132 after initial save.
@@ -1249,3 +1601,71 @@ Next recommended step:
 Recommended future process:
 
 - When an article needs monetization and no matching Amazon product exists, ask the representative for the exact affiliate link instead of inserting generic search links.
+
+---
+
+## Latest Update - 2026-05-04 Reels Review Pass Workflow
+
+- Added a two-step Reels visual approval flow for `/reels-review/170`:
+  - `Submit review pass` saves the current human review state and records scenes that need replacement sourcing.
+  - `Finalize visual review` remains the hard gate before voice/Remotion work and requires at least two ranked visuals per scene.
+- Submitted the current visual review pass for slug `170`.
+- Generated:
+  - `output/reels/170/review-pass.json`
+  - `output/reels/170/replacement-requests.json`
+- Scene 5 was the only blocker after the first pass. It had one ranked ramen visual and four replacement requests.
+- Sourced replacement-ready Scene 5 candidates for fried rice, Korean drinks, snacks/drink at keyboard, and snack/soda cutaway.
+- Current status: `output/reels/170/scenes.json` is `replacement_candidates_ready`.
+- Next human action: open `http://localhost:4000/reels-review/170`, rank at least one more Scene 5 visual, then finalize visual review if the scene feels strong enough.
+
+---
+
+## Latest Update - 2026-05-04 Reels Finalize UX Feedback
+
+- Human finalized slug `170`, but the dashboard feedback was too subtle.
+- Reset `output/reels/170/scenes.json` from `visuals_approved` back to `visuals_ranked` so the representative can press `Finalize visual review` again.
+- Removed the temporary `finalizedAt` field from `output/reels/170/approved-visuals.json`; ranked visual selections were preserved.
+- Improved `/reels-review/[slug]` UX:
+  - Buttons now show `Saving review pass...` or `Finalizing...` while writing.
+  - Success/follow-up messages appear as a large top status panel instead of a small text line.
+  - Finalized state disables further ranking/replacement buttons and shows the next step: ElevenLabs voice, then Remotion preview.
+  - `Submit review pass` clearly records replacement sourcing needs without acting as final approval.
+
+---
+
+## Latest Update - 2026-05-04 Reels Voice/Remotion MVP
+
+- Human finalized slug `170`; API/status now reports `visuals_approved`.
+- ElevenLabs execution is blocked because `.env.local` has placeholders but no values for:
+  - `ELEVENLABS_API_KEY`
+  - `ELEVENLABS_VOICE_ID`
+- Recorded voice blocker in `output/reels/170/voice-status.json`.
+- Added scripts:
+  - `.claude/skills/reels/scripts/prepare-assets.mjs`
+  - `.claude/skills/reels/scripts/build-remotion-props.mjs`
+- Updated ElevenLabs TTS helper so future narration audio is saved both to:
+  - `output/reels/{slug}/audio/narration.mp3`
+  - `public/assets/reels/{slug}/audio/narration.mp3`
+- Downloaded finalized visual assets for slug `170` into `public/assets/reels/170/`.
+- Generated:
+  - `output/reels/170/asset-manifest.json`
+  - `output/reels/170/remotion-props.json`
+- Installed matching Remotion packages:
+  - `remotion@4.0.457`
+  - `@remotion/cli@4.0.457`
+- Added Remotion scaffold:
+  - `remotion/Root.tsx`
+  - `remotion/ReelComposition.tsx`
+  - `remotion/types.ts`
+  - `remotion/README.md`
+- Confirmed composition with `npx remotion compositions ...`:
+  - `EpicKorReel170`
+  - `1080x1920`
+  - `30fps`
+  - `1260 frames / 42 seconds`
+- Started visual-only Remotion Studio at `http://localhost:4001`.
+- Rendered preview frame:
+  - `output/reels/170/preview-frame-010.png`
+- Note: Remotion currently copies the whole existing `public/` directory, around 700MB during bundling. Next improvement should use a dedicated Remotion public directory or otherwise reduce copied assets before regular rendering.
+- `npm.cmd run build` passed after Remotion install and scaffold.
+- `npm install` reported 6 vulnerabilities. Do not run `npm audit fix --force` without a separate risk review.

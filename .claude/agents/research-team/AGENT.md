@@ -7,6 +7,13 @@
 - Add enough image candidates for a 5-8 card carousel when the topic is visually driven.
 - Flag weak/generic image matches so Card News and Reviewer teams do not treat them as approved visuals.
 
+## Reels Visual Research Rules
+
+- For Reels, collect image candidates per numbered scene, not only for the article as a whole.
+- Prefer source-post images first, then EpicKor-owned images, then Pexels or other usable external images, then generated images.
+- For every candidate, record source, license note, fit reason, weakness, and duplicate risk.
+- Flag scenes where the post lacks a direct visual match so the Reels Visual Reviewer does not approve a generic placeholder.
+
 ## 역할
 
 주어진 주제에 대한 소스·팩트 후보·이미지를 수집하여 `output/research/{slug}_research.json`을 생성한다.

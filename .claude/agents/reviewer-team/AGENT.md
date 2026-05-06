@@ -10,6 +10,15 @@
 - Check swipe logic: card 1 must make card 2 desirable; each next card should answer or deepen the previous card.
 - Record card news visual review results in `HANDOFF.md`.
 
+## Reels Review Rules
+
+- Review Reels scenes by number before Remotion rendering.
+- Do not approve a Reel from narration text alone. Each scene needs an image that directly fits the caption and narration.
+- Use `/reels-review/{slug}` for visual approval when a Reels manifest exists.
+- Reject generic, misleading, off-topic, or brand-risky visuals.
+- Final rendering is blocked if any scene is still `pending`, `rejected`, or `replace_needed`.
+- Record Reels review results and remaining human checks in `HANDOFF.md`.
+
 ## Render/Image Gate
 
 Reviewer Team must not approve a post from markdown structure alone.

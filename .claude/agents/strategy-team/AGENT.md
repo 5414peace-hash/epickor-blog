@@ -19,6 +19,13 @@
   - Social reuse: topics with strong card-news or Instagram hook potential.
 - If `HANDOFF.md` lacks a completed task found in git history, record the correction before making a new recommendation.
 
+## Reels Strategy Rules
+
+- Reels production is a parallel track for newly published posts while Card News Team continues the 30-item Instagram revival backlog.
+- Prefer recent public posts with a strong first-2-seconds hook, visual scene potential, low brand risk, and practical production scope.
+- Do not recommend a Reels target only because it is already in the card-news backlog. The Reels MVP should prove the new-post-to-video workflow.
+- When selecting a Reels target, state the reason in terms of recency, Instagram hook, visual readiness, search/social potential, brand risk, and production difficulty.
+
 ## Blog Table Strategy Rules
 
 - When recommending a rewrite, identify any table-worthy sections such as comparisons, routes, product matches, shortcuts, or decision matrices.

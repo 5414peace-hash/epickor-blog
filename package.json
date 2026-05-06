@@ -7,9 +7,17 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
+    "reels:prepare-assets": "node .claude/skills/reels/scripts/prepare-assets.mjs",
+    "reels:props": "node .claude/skills/reels/scripts/build-remotion-props.mjs",
+    "reels:voices": "node .claude/skills/reels/scripts/elevenlabs-voices.mjs",
+    "reels:tts": "node .claude/skills/reels/scripts/elevenlabs-tts.mjs",
+    "reels:render": "node .claude/skills/reels/scripts/render-reel.mjs",
+    "reels:studio:170": "remotion studio remotion/Root.tsx --props output/reels/170/remotion-props.json --port 4001 --no-open",
+    "reels:render:170": "npm run reels:render -- --slug 170",
     "audit:seo-aeo": "node scripts/seo-aeo-audit.mjs"
   },
   "dependencies": {
+    "@remotion/cli": "4.0.457",
     "date-fns": "^4.1.0",
     "gray-matter": "^4.0.3",
     "next": "16.1.6",
@@ -19,7 +27,8 @@
     "rehype-raw": "^7.0.0",
     "remark": "^15.0.1",
     "remark-gfm": "^4.0.1",
-    "remark-html": "^16.0.1"
+    "remark-html": "^16.0.1",
+    "remotion": "4.0.457"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
