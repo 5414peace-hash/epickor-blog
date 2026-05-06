@@ -1,5 +1,62 @@
 # HANDOFF - EpicKor Agent Teams v2
 
+## Latest Update - 2026-05-06 End-of-Day Handoff
+
+- Session status:
+  - Representative decided to pause and continue tomorrow.
+  - Current working tree is clean except for the pre-existing untracked `input/` folder.
+  - `output/cardnews/*/card_*.html` count is `0`.
+- Pushed commits from today's working sequence:
+  - `b5d457e` - Add Reels baseline pipeline and ramen card news
+  - `3ec46f3` - Update ramen card news cover image
+  - `a666f50` - Add ramen card news Instagram caption
+  - `0a126c6` - Add emoji caption text for ramen card news
+  - `1e6501f` - Add Instagram captions for card news backlog
+  - `d4611d5` - Remove temporary card news HTML after render
+- Card News 038 status:
+  - Final publish folder:
+    - `public/assets/cardnews/038/`
+  - Includes:
+    - `card_01.png` through `card_07.png`
+    - `script.md`
+    - `caption.txt`
+    - `instagram-caption.md`
+  - Cover was updated to reuse the Buldak flavor collage image from card 04.
+  - Caption now includes restrained emoji for Instagram use.
+- All completed card news folders now have upload captions:
+  - `public/assets/cardnews/{003,038,064,068,071,132,135,153,159,160,168,169}/caption.txt`
+  - `public/assets/cardnews/{003,038,064,068,071,132,135,153,159,160,168,169}/instagram-caption.md`
+  - Matching working copies were also placed under `output/cardnews/{slug}/`.
+- Card news HTML cleanup:
+  - Existing `output/cardnews/*/card_*.html` files were deleted because they are render intermediates, not edit sources.
+  - `.claude/skills/cardnews/scripts/html-to-png.py` now deletes temporary `card_*.html` after successful PNG render.
+  - If rendering fails, the HTML is intentionally left for debugging.
+  - Verified with `038 --card 01`: PNG rendered, temporary HTML removed.
+- Reels 170 status:
+  - Final accepted render remains:
+    - `output/reels/170/render/epickor-reel-170-v005.mp4`
+  - Future Reels should follow the accepted v005 standard:
+    - 3-part ElevenLabs `eleven_turbo_v2` narration for ~35-45 sec Reels.
+    - Context-aware caption beats.
+    - Slightly proactive caption timing, v005 used a 6-frame lead at 30fps.
+    - Designed thumbnail-style first scene.
+    - Clean `epicKor.com` outro.
+    - Versioned render filenames; do not overwrite candidates.
+  - Generic render helper exists:
+    - `npm run reels:render -- --slug 170 --audio-version v005`
+  - The helper uses slug-local Remotion public dir to avoid copying the whole site `public/` folder.
+- Operating rule updates:
+  - `CLAUDE.md` now says completion replies should naturally include the next recommended move.
+  - Future next-task recommendations should list priority 1/2/3 with reason, impact, and blockers.
+- Next recommended work for tomorrow:
+  1. Write a new blog post: **Korean Convenience Store Breakfast: What Locals Actually Buy**.
+     - Reason: good search potential, strong food/travel utility, easy future card-news/Reels conversion.
+     - Avoid overlap: existing Isaac Toast, Deli Manjoo, and ramen posts are adjacent but not duplicate.
+  2. Alternative new post: **Seoul Subway Etiquette: The Quiet Rules Tourists Miss**.
+     - Reason: evergreen travel utility and good internal links from Deli Manjoo/subway-related posts.
+  3. Optimization fallback: monetize/cleanup `/blog/160` or `/blog/153`.
+     - Reason: both have GSC signal and practical commercial angles, but this is lower priority than restarting the new-post pipeline.
+
 ## Latest Update - 2026-05-06 Card News 038 Caption Package / Next-Reply Rule Save
 
 - Task: Continue after the representative asked to proceed with the recommended next actions.
