@@ -547,6 +547,7 @@ def main():
 
         try:
             convert_to_png(html_path, png_path)
+            html_path.unlink(missing_ok=True)
             print(f'   OK card_{num_str}.png ({card["layout"]} / {card["role"]})')
             success_count += 1
         except Exception as e:
@@ -559,6 +560,8 @@ def main():
     if success_count < len(target_cards):
         failed = len(target_cards) - success_count
         print(f'   Warning: {failed} card(s) failed; inspect the saved HTML files.')
+    else:
+        print('   Temporary card HTML files were removed after successful render.')
 
 
 if __name__ == '__main__':
