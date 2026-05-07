@@ -72,6 +72,19 @@
     - All seven final PNGs are `1080x1080`.
     - Temporary HTML files were removed.
     - Checked old non-Korean Pexels IDs no longer appear in public card-news scripts.
+- Card News 171 cover title tweak:
+  - Feedback:
+    - On card 01, separate `KOREAN` from `CONVENIENCE STORE` and add a color point.
+  - Update:
+    - Card 01 main title now uses `<span style="color:#C9A84C">KOREAN</span>\nCONVENIENCE STORE\nbreakfast is not fancy.`
+    - Re-rendered only `card_01.png`.
+    - Copied the updated `card_01.png` and `script.md` into `public/assets/cardnews/171/`.
+  - Deployment/verification:
+    - Commit: `09c8308 Adjust breakfast card cover title`.
+    - Vercel production deploy reached `Ready`.
+    - Public checks passed:
+      - `https://www.epickor.com/assets/cardnews/171/card_01.png` returned `200`.
+      - `https://www.epickor.com/assets/cardnews/171/script.md` contains the gold `KOREAN` span.
 
 ## Latest Update - 2026-05-07 Reels 170 Motion Card Experiment
 
