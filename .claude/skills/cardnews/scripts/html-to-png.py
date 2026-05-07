@@ -46,6 +46,7 @@ def parse_script(script_path):
             'image_zoom': '1',
             'image_tone': '',
             'image_label': '',
+            'theme': 'dark',
             'kicker': '',
             'main_text': '',
             'sub_text': '',
@@ -71,6 +72,8 @@ def parse_script(script_path):
                 card['image_tone'] = line.split(':', 1)[1].strip()
             elif line.startswith('image_label:'):
                 card['image_label'] = line.split(':', 1)[1].strip()
+            elif line.startswith('theme:'):
+                card['theme'] = line.split(':', 1)[1].strip()
             elif line.startswith('kicker:'):
                 card['kicker'] = line.split(':', 1)[1].strip()
             elif line.startswith('**Main:**'):
@@ -94,6 +97,28 @@ COLORS = {
 
 def point_color(card):
     return COLORS.get(card['point_color'], COLORS['Gold'])
+
+
+def is_bright(card):
+    return (card.get('theme') or '').strip().lower() in ('bright', 'light', 'morning')
+
+
+def text_colors(card):
+    if is_bright(card):
+        return {
+            'bg': '#F6F8F4',
+            'panel': 'rgba(255,255,255,0.88)',
+            'ink': '#161A18',
+            'muted': '#3F4B45',
+            'line': 'rgba(22,26,24,0.16)',
+        }
+    return {
+        'bg': '#111111',
+        'panel': 'rgba(17,17,17,0.34)',
+        'ink': '#FFFFFF',
+        'muted': 'rgba(255,255,255,0.78)',
+        'line': 'rgba(255,255,255,0.15)',
+    }
 
 
 def to_html_text(text):
@@ -139,6 +164,32 @@ WATERMARK_HTML = '''
 '''
 
 
+def watermark_html(card):
+    if not is_bright(card):
+        return WATERMARK_HTML
+    return '''
+  <div style="
+    position:absolute;top:34px;left:42px;z-index:20;
+    display:flex;align-items:center;gap:12px;
+    color:rgba(22,26,24,0.70);
+  ">
+    <div style="width:30px;height:30px;border:1.5px solid rgba(22,26,24,0.44);
+      display:flex;align-items:center;justify-content:center;
+      font-size:12px;font-weight:900;letter-spacing:0.02em;">EK</div>
+    <div style="font-size:12px;font-weight:800;letter-spacing:0.18em;text-transform:uppercase;">
+      EPICKOR.COM
+    </div>
+  </div>
+  <div style="
+    position:absolute;bottom:30px;right:36px;z-index:20;
+    padding:9px 14px;border:1px solid rgba(22,26,24,0.16);
+    background:rgba(255,255,255,0.74);backdrop-filter:blur(8px);
+    font-size:11px;font-weight:800;letter-spacing:0.16em;
+    color:rgba(22,26,24,0.58);text-transform:uppercase;
+  ">EPICKOR.COM</div>
+'''
+
+
 CARD_SHELL_START = '''<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -179,7 +230,13 @@ def image_layer_full(img, card=None, opacity='0.36'):
     position = card.get('image_position') or 'center center'
     zoom = card.get('image_zoom') or '1'
     tone = (card.get('image_tone') or '').lower()
-    if tone == 'food':
+    if is_bright(card):
+        overlay = '''
+  <div style="position:absolute;inset:0;
+    background:linear-gradient(180deg,rgba(255,255,255,0.05) 0%,rgba(246,248,244,0.38) 58%,rgba(246,248,244,0.78) 100%);
+  "></div>
+'''
+    elif tone == 'food':
         overlay = '''
   <div style="position:absolute;inset:0;
     background:linear-gradient(180deg,rgba(255,248,235,0.02) 0%,rgba(17,17,17,0.16) 52%,rgba(17,17,17,0.46) 100%);
@@ -206,6 +263,17 @@ def kicker_html(card, pc):
     kicker = (card.get('kicker') or '').strip()
     if not kicker:
         return ''
+    if is_bright(card):
+        return f'''
+    <div style="
+      display:inline-flex;align-items:center;width:max-content;
+      padding:9px 13px;margin-bottom:22px;
+      border:1px solid {pc};background:rgba(255,255,255,0.82);
+      color:#161A18;font-size:16px;font-weight:900;
+      letter-spacing:0.12em;text-transform:uppercase;
+      box-shadow:0 8px 22px rgba(22,26,24,0.08);
+    ">{kicker}</div>
+    '''
     return f'''
     <div style="
       display:inline-flex;align-items:center;width:max-content;
@@ -224,20 +292,23 @@ def image_label_html(card, pc, side='left'):
     anchor = 'left:28px;' if side == 'left' else 'right:28px;'
     notch_anchor = 'left:-8px;' if side == 'left' else 'right:-8px;'
     notch_rotate = '45deg'
+    bg = 'rgba(255,255,255,0.88)' if is_bright(card) else 'rgba(17,17,17,0.72)'
+    txt = '#161A18' if is_bright(card) else '#FFFFFF'
+    shadow = '0 10px 24px rgba(22,26,24,0.14)' if is_bright(card) else '0 10px 28px rgba(0,0,0,0.34)'
     return f'''
       <div style="
         position:absolute;bottom:76px;{anchor}z-index:12;
         display:inline-flex;align-items:center;gap:9px;
         padding:11px 15px 11px 17px;
-        background:rgba(17,17,17,0.72);
+        background:{bg};
         border:1px solid {pc};
-        color:#FFFFFF;font-size:18px;font-weight:900;
+        color:{txt};font-size:18px;font-weight:900;
         letter-spacing:0.02em;text-transform:none;
-        box-shadow:0 10px 28px rgba(0,0,0,0.34);
+        box-shadow:{shadow};
       ">
         <span style="
           position:absolute;top:50%;{notch_anchor}
-          width:14px;height:14px;background:rgba(17,17,17,0.72);
+          width:14px;height:14px;background:{bg};
           border-left:1px solid {pc};border-bottom:1px solid {pc};
           transform:translateY(-50%) rotate({notch_rotate});
         "></span>
@@ -256,6 +327,38 @@ def build_type_a(card):
     sub = to_html_text(card['sub_text'])
     img = resolve_image_src(card)
     kicker = kicker_html(card, pc)
+    colors = text_colors(card)
+
+    if is_bright(card):
+        return f'''
+  <div style="position:absolute;inset:0;background:{colors['bg']};"></div>
+  {image_layer_full(img, card, '0.50')}
+  <div style="position:absolute;top:-90px;right:-70px;
+    width:430px;height:430px;background:#FFCF33;transform:rotate(35deg);opacity:0.34;
+  "></div>
+  <div style="position:absolute;top:110px;right:88px;
+    width:7px;height:260px;background:{pc};transform:rotate(35deg);opacity:0.80;
+  "></div>
+
+  <div style="
+    position:absolute;bottom:82px;left:74px;right:74px;
+    padding:46px 52px 48px;
+    background:{colors['panel']};
+    border:1px solid rgba(22,26,24,0.10);
+    box-shadow:0 24px 70px rgba(22,26,24,0.14);
+  ">
+    {kicker}
+    <div style="width:58px;height:5px;background:{pc};margin-bottom:30px;"></div>
+    <div style="
+      font-size:68px;font-weight:900;color:{colors['ink']};
+      line-height:1.06;margin-bottom:26px;
+    ">{main}</div>
+    <div style="
+      font-size:30px;font-weight:700;color:{colors['muted']};
+      line-height:1.35;word-break:keep-all;
+    ">{sub}</div>
+  </div>
+  {watermark_html(card)}'''
 
     return f'''
   <div style="position:absolute;inset:0;
@@ -282,7 +385,7 @@ def build_type_a(card):
       line-height:1.35;word-break:keep-all;
     ">{sub}</div>
   </div>
-  {WATERMARK_HTML}'''
+  {watermark_html(card)}'''
 
 
 def build_type_b(card):
@@ -291,6 +394,7 @@ def build_type_b(card):
     sub = to_html_text(card['sub_text'])
     img = resolve_image_src(card)
     kicker = kicker_html(card, pc)
+    colors = text_colors(card)
     visual = image_layer_full(img, card, '0.62') if img else f'''
     <div style="
       position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);
@@ -307,13 +411,13 @@ def build_type_b(card):
     return f'''
   <div style="
     width:1080px;height:486px;position:relative;overflow:hidden;
-    background:linear-gradient(135deg,#1a1200 0%,#2d1f00 50%,#111111 100%);
+    background:{colors['bg'] if is_bright(card) else 'linear-gradient(135deg,#1a1200 0%,#2d1f00 50%,#111111 100%)'};
   ">
     {visual}
   </div>
 
   <div style="
-    width:1080px;height:594px;background:#111111;
+    width:1080px;height:594px;background:{colors['bg']};
     padding:62px 88px;
     display:flex;flex-direction:column;justify-content:center;
   ">
@@ -325,11 +429,11 @@ def build_type_b(card):
       display:inline-block;padding-bottom:12px;margin-bottom:32px;
     ">{main}</div>
     <div style="
-      font-size:30px;font-weight:500;color:#FFFFFF;
+      font-size:30px;font-weight:700;color:{colors['ink']};
       line-height:1.42;word-break:keep-all;
     ">{sub}</div>
   </div>
-  {WATERMARK_HTML}'''
+  {watermark_html(card)}'''
 
 
 def build_type_c(card):
@@ -338,6 +442,7 @@ def build_type_c(card):
     sub = to_html_text(card['sub_text'])
     img = resolve_image_src(card)
     kicker = kicker_html(card, pc)
+    colors = text_colors(card)
     visual = image_layer_full(img, card, '0.56') if img else f'''
       <div style="
         position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);
@@ -353,7 +458,7 @@ def build_type_c(card):
     return f'''
   <div style="display:flex;width:1080px;height:1080px;">
     <div style="
-      width:648px;height:1080px;background:#111111;
+      width:648px;height:1080px;background:{colors['bg']};
       padding:86px 72px;
       display:flex;flex-direction:column;justify-content:center;
     ">
@@ -365,20 +470,20 @@ def build_type_c(card):
         border-left:6px solid {pc};padding-left:22px;margin-bottom:34px;
       ">{main}</div>
       <div style="
-        font-size:29px;font-weight:500;color:#FFFFFF;
+        font-size:29px;font-weight:700;color:{colors['ink']};
         line-height:1.45;word-break:keep-all;
       ">{sub}</div>
     </div>
 
     <div style="
       width:432px;height:1080px;position:relative;overflow:hidden;
-      background:linear-gradient(180deg,#1a1200 0%,#0d0d0d 100%);
+      background:{colors['bg'] if is_bright(card) else 'linear-gradient(180deg,#1a1200 0%,#0d0d0d 100%)'};
     ">
       {visual}
       {image_label_html(card, pc, 'left')}
     </div>
   </div>
-  {WATERMARK_HTML}'''
+  {watermark_html(card)}'''
 
 
 def build_type_e(card):
@@ -387,6 +492,7 @@ def build_type_e(card):
     sub = to_html_text(card['sub_text'])
     img = resolve_image_src(card)
     kicker = kicker_html(card, pc)
+    colors = text_colors(card)
     visual = image_layer_full(img, card, '0.56') if img else f'''
       <div style="
         position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);
@@ -403,14 +509,14 @@ def build_type_e(card):
   <div style="display:flex;width:1080px;height:1080px;">
     <div style="
       width:432px;height:1080px;position:relative;overflow:hidden;
-      background:linear-gradient(180deg,#1a1200 0%,#0d0d0d 100%);
+      background:{colors['bg'] if is_bright(card) else 'linear-gradient(180deg,#1a1200 0%,#0d0d0d 100%)'};
     ">
       {visual}
       {image_label_html(card, pc, 'right')}
     </div>
 
     <div style="
-      width:648px;height:1080px;background:#111111;
+      width:648px;height:1080px;background:{colors['bg']};
       padding:86px 72px;
       display:flex;flex-direction:column;justify-content:center;
     ">
@@ -422,12 +528,12 @@ def build_type_e(card):
         border-left:6px solid {pc};padding-left:22px;margin-bottom:34px;
       ">{main}</div>
       <div style="
-        font-size:29px;font-weight:500;color:#FFFFFF;
+        font-size:29px;font-weight:700;color:{colors['ink']};
         line-height:1.45;word-break:keep-all;
       ">{sub}</div>
     </div>
   </div>
-  {WATERMARK_HTML}'''
+  {watermark_html(card)}'''
 
 
 def build_type_d(card, total):
@@ -437,26 +543,27 @@ def build_type_d(card, total):
     img = resolve_image_src(card)
     kicker = kicker_html(card, pc)
     num = card['number']
+    colors = text_colors(card)
 
     return f'''
-  <div style="position:absolute;inset:0;background:#111111;"></div>
-  {image_layer_full(img, card, '0.30')}
+  <div style="position:absolute;inset:0;background:{colors['bg']};"></div>
+  {image_layer_full(img, card, '0.40')}
   <div style="padding:88px;position:relative;width:1080px;height:1080px;z-index:5;">
     <div style="
       font-size:16px;font-weight:500;
-      color:rgba(255,255,255,0.4);letter-spacing:0.1em;margin-bottom:48px;
+      color:{'rgba(22,26,24,0.44)' if is_bright(card) else 'rgba(255,255,255,0.4)'};letter-spacing:0.1em;margin-bottom:48px;
     ">{num:02d} / {total:02d}</div>
     {kicker}
 
     <div style="
-      font-size:72px;font-weight:900;color:{pc};
+      font-size:72px;font-weight:900;color:{pc if not is_bright(card) else colors['ink']};
       line-height:1.08;margin-bottom:44px;
     ">{main}</div>
 
-    <div style="width:100%;height:2px;background:rgba(255,255,255,0.15);margin-bottom:44px;"></div>
+    <div style="width:100%;height:2px;background:{colors['line']};margin-bottom:44px;"></div>
 
     <div style="
-      font-size:32px;font-weight:500;color:rgba(255,255,255,0.88);
+      font-size:32px;font-weight:700;color:{colors['muted']};
       line-height:1.42;word-break:keep-all;
     ">{sub}</div>
 
@@ -466,7 +573,7 @@ def build_type_d(card, total):
       background:{pc};transform:rotate(45deg);opacity:0.07;
     "></div>
   </div>
-  {WATERMARK_HTML}'''
+  {watermark_html(card)}'''
 
 
 def build_card_html(card, total):

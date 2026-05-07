@@ -34,6 +34,22 @@
   - Next gate:
     - Human review of `public/assets/cardnews/171/card_01.png` through `card_07.png`.
     - If approved, upload the carousel using `public/assets/cardnews/171/instagram-caption.md`.
+- Card News 171 revision after visual feedback:
+  - Feedback:
+    - Only card 02 image felt appropriate.
+    - The overall tone was too black/dark for a convenience-store breakfast topic.
+  - Updates:
+    - Added a reproducible `theme: morning` option to `.claude/skills/cardnews/scripts/html-to-png.py`.
+    - The new theme keeps existing card-news defaults unchanged unless a card explicitly opts in.
+    - Re-rendered 171 with a brighter convenience-store morning style: light panels, dark readable text, teal/gold accents, and softer image overlays.
+    - Replaced all non-card-02 visuals with more relevant convenience-store / packaged-food / gimbap-oriented images.
+    - Card 02 retained the Korean drink-fridge image.
+  - Verification:
+    - `python -m py_compile .claude\skills\cardnews\scripts\html-to-png.py` passed.
+    - `python .claude\skills\cardnews\scripts\html-to-png.py --slug 171` rendered all seven PNGs.
+    - All seven public PNGs are `1080x1080`.
+    - Temporary `card_*.html` files were removed after render.
+    - New image IDs appear only in 171 outputs when checked against existing card-news scripts.
 
 ## Latest Update - 2026-05-07 Reels 170 Motion Card Experiment
 
