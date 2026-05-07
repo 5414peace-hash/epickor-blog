@@ -4,6 +4,8 @@
 
 - Every card must have a relevant visual. Use the post's own images first; use Pexels only when the post lacks enough relevant images.
 - Avoid generic or misleading visuals. For EpicKor, prefer Korea, Seoul, Korean culture, Korean food, K-beauty, K-pop, or Korean daily-life context where relevant.
+- For Korea explainers, image selection is Korea-first. Prefer visibly Korean locations, products, signage, packaging, or source pages that explicitly describe the image as taken in South Korea.
+- Reject images that are clearly from another country when the card is explaining Korea. If no Korean-specific image exists, use a culturally neutral close-up, graphic treatment, or generated/owned visual instead of foreign-looking stock.
 - Every card must include a concise `kicker:` line that gives the Korea/EpicKor angle, such as `KOREA SPF GUIDE`, `SEOUL SKINCARE RULE`, or `K-BEAUTY TEXTURE MAP`.
 - Every rendered card must show `EPICKOR.COM` as the watermark text. Do not use only `EpicKor` as the watermark label.
 - The first card must create curiosity strong enough to make the user swipe to card 2.

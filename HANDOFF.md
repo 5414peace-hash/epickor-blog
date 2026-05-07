@@ -50,6 +50,28 @@
     - All seven public PNGs are `1080x1080`.
     - Temporary `card_*.html` files were removed after render.
     - New image IDs appear only in 171 outputs when checked against existing card-news scripts.
+- Card News 171 second visual correction:
+  - Feedback:
+    - Card 02 and 07 were acceptable, but cards 01/03/04/05/06 used visibly non-Korean imagery.
+    - EpicKor Korea explainers must prioritize Korean visuals, or at minimum culturally neutral visuals.
+  - Guideline update:
+    - `CLAUDE.md` and `.claude/agents/cardnews-team/AGENT.md` now require Korea-first imagery for Korea explainers.
+    - Visibly foreign stock images are disallowed unless the card is explicitly an international comparison.
+    - If no Korean-specific image exists, use a neutral close-up, graphic treatment, or generated/owned visual.
+  - Image replacement:
+    - Card 01: Korean GS25 convenience-store exterior.
+    - Card 03: samgak gimbap / triangle rice ball image.
+    - Card 04: Korean convenience-store sandwich image.
+    - Card 05: Korean triangle gimbap image.
+    - Card 06: CU convenience store in Busan.
+    - Card 02 and Card 07 were kept.
+  - Attribution:
+    - Added `public/assets/cardnews/171/image-sources.md`.
+  - Verification:
+    - Re-rendered all seven cards, then re-rendered card 06 after replacing a weak image.
+    - All seven final PNGs are `1080x1080`.
+    - Temporary HTML files were removed.
+    - Checked old non-Korean Pexels IDs no longer appear in public card-news scripts.
 
 ## Latest Update - 2026-05-07 Reels 170 Motion Card Experiment
 
