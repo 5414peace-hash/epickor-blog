@@ -1,5 +1,40 @@
 # HANDOFF - EpicKor Agent Teams v2
 
+## Latest Update - 2026-05-07 Post 171 Publish and Card News
+
+- Blog post 171 was approved, published, and verified:
+  - Public URL: `https://www.epickor.com/blog/171`
+  - Topic: `Korean Convenience Store Breakfast: What Locals Buy`
+  - Vercel deployment failure was fixed by updating `pnpm-lock.yaml` for the newly added Remotion dependencies.
+  - Final deployment status: Vercel production `Ready`.
+  - Public URL check returned `200`, and sitemap contains `/blog/171`.
+- Card News 171 was produced from the published post:
+  - Working folder: `output/cardnews/171/`
+  - Publish asset folder: `public/assets/cardnews/171/`
+  - Includes:
+    - `card_01.png` through `card_07.png`
+    - `script.md`
+    - `caption.txt`
+    - `instagram-caption.md`
+  - Card flow:
+    - local morning hook
+    - small-choice breakfast logic
+    - triangle gimbap starter
+    - decision map by morning type
+    - triangle gimbap wrapper tip
+    - convenience-store seating manners
+    - simple local order CTA
+  - Render/review checks:
+    - `python .claude\skills\cardnews\scripts\html-to-png.py --slug 171` rendered all seven PNGs.
+    - Card 04 label was adjusted from `Bread + coffee` to `Light breakfast` after visual review.
+    - All PNGs are `1080x1080`.
+    - Temporary `card_*.html` files were removed after render.
+    - Existing card-news scripts were checked for duplicate Pexels IDs `31735910`, `33675546`, and `15957254`; matches only appear in 171 outputs.
+    - Reviewer visually inspected all seven rendered cards for readability, watermark presence, and image relevance.
+  - Next gate:
+    - Human review of `public/assets/cardnews/171/card_01.png` through `card_07.png`.
+    - If approved, upload the carousel using `public/assets/cardnews/171/instagram-caption.md`.
+
 ## Latest Update - 2026-05-07 Reels 170 Motion Card Experiment
 
 - Task: Add a less-static Reels format where about half of the Reel uses moving 9:16 card-news/PPT-style inserts over approved background images.
