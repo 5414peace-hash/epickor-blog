@@ -61,6 +61,49 @@ interface CandidatesFile {
   scenes: CandidateScene[];
 }
 
+interface MotionCard {
+  id: string;
+  sceneNumber: number;
+  templateId?: string;
+  kicker: string;
+  headline: string;
+  headlineLines?: string[];
+  subhead?: string;
+  subheadLines?: string[];
+  bullets: string[];
+  footer?: string;
+  footerLines?: string[];
+  layout: string;
+  motionPreset: string;
+  accentColor: string;
+  overlayOpacity: number;
+  durationSeconds: number;
+  backgroundImage?: string;
+  reviewStatus?: ReviewStatus;
+  reviewerNote?: string;
+}
+
+interface MotionCardsFile {
+  slug: string;
+  status?: string;
+  targetCoverageRatio?: number;
+  cards: MotionCard[];
+}
+
+interface MotionCardTemplate {
+  id: string;
+  name: string;
+  description: string;
+  layout: string;
+  motionPreset: string;
+}
+
+interface MotionCardTemplatesFile {
+  slug: string;
+  version?: string;
+  templates: MotionCardTemplate[];
+}
+
 function isSafeSlug(slug: string): boolean {
   return /^[a-zA-Z0-9_-]+$/.test(slug);
 }
@@ -72,6 +115,9 @@ function getPaths(slug: string) {
     scenesPath: path.join(reelDir, 'scenes.json'),
     candidatesPath: path.join(reelDir, 'visual-candidates.json'),
     approvedPath: path.join(reelDir, 'approved-visuals.json'),
+    motionCardsPath: path.join(reelDir, 'motion-cards.json'),
+    motionCardTemplatesPath: path.join(reelDir, 'motion-card-templates.json'),
+    defaultMotionCardTemplatesPath: path.join(process.cwd(), '.claude', 'skills', 'reels', 'motion-card-templates.json'),
     reviewPassPath: path.join(reelDir, 'review-pass.json'),
     replacementRequestsPath: path.join(reelDir, 'replacement-requests.json'),
   };
@@ -86,7 +132,28 @@ async function writeJson(filePath: string, value: unknown): Promise<void> {
   await fs.writeFile(filePath, `${JSON.stringify(value, null, 2)}\n`, 'utf8');
 }
 
-function buildPayload(slug: string, scenesFile: ScenesFile, candidatesFile: CandidatesFile) {
+async function readOptionalJson<T>(filePath: string, fallback: T): Promise<T> {
+  try {
+    return await readJson<T>(filePath);
+  } catch (_error) {
+    return fallback;
+  }
+}
+
+async function readMotionCardTemplates(paths: ReturnType<typeof getPaths>, slug: string): Promise<MotionCardTemplatesFile> {
+  return readOptionalJson<MotionCardTemplatesFile>(
+    paths.motionCardTemplatesPath,
+    await readOptionalJson<MotionCardTemplatesFile>(paths.defaultMotionCardTemplatesPath, { slug, templates: [] })
+  );
+}
+
+function buildPayload(
+  slug: string,
+  scenesFile: ScenesFile,
+  candidatesFile: CandidatesFile,
+  motionCardsFile?: MotionCardsFile,
+  motionCardTemplatesFile?: MotionCardTemplatesFile
+) {
   const missingScenes = scenesFile.scenes
     .filter((scene) => !Array.isArray(scene.selectedImages) || scene.selectedImages.length < 2)
     .map((scene) => scene.number);
@@ -110,7 +177,22 @@ function buildPayload(slug: string, scenesFile: ScenesFile, candidatesFile: Cand
     nextStep,
     scenes: scenesFile.scenes,
     candidateScenes: candidatesFile.scenes,
+    motionCards: motionCardsFile?.cards || [],
+    motionCardTemplates: motionCardTemplatesFile?.templates || [],
+    motionCardStatus: motionCardsFile?.status,
+    motionCardTargetCoverageRatio: motionCardsFile?.targetCoverageRatio,
   };
+}
+
+async function buildPayloadWithMotionCards(
+  slug: string,
+  scenesFile: ScenesFile,
+  candidatesFile: CandidatesFile,
+  paths: ReturnType<typeof getPaths>
+) {
+  const motionCardsFile = await readOptionalJson<MotionCardsFile>(paths.motionCardsPath, { slug, cards: [] });
+  const motionCardTemplatesFile = await readMotionCardTemplates(paths, slug);
+  return buildPayload(slug, scenesFile, candidatesFile, motionCardsFile, motionCardTemplatesFile);
 }
 
 function getRankedCandidates(candidateScene: CandidateScene): Candidate[] {
@@ -190,7 +272,9 @@ export async function GET(_request: NextRequest, { params }: { params: Promise<{
     const paths = getPaths(slug);
     const scenesFile = await readJson<ScenesFile>(paths.scenesPath);
     const candidatesFile = await readJson<CandidatesFile>(paths.candidatesPath);
-    return NextResponse.json(buildPayload(slug, scenesFile, candidatesFile));
+    const motionCardsFile = await readOptionalJson<MotionCardsFile>(paths.motionCardsPath, { slug, cards: [] });
+    const motionCardTemplatesFile = await readMotionCardTemplates(paths, slug);
+    return NextResponse.json(buildPayload(slug, scenesFile, candidatesFile, motionCardsFile, motionCardTemplatesFile));
   } catch (error) {
     const message = error instanceof Error ? error.message : 'Unknown error';
     return NextResponse.json({ error: message }, { status: 404 });
@@ -198,7 +282,9 @@ export async function GET(_request: NextRequest, { params }: { params: Promise<{
 }
 
 export async function PATCH(request: NextRequest, { params }: { params: Promise<{ slug: string }> }) {
-  if (process.env.NODE_ENV === 'production' && process.env.ALLOW_REELS_REVIEW_WRITE !== 'true') {
+  const requestHost = request.headers.get('host') || '';
+  const isLocalReviewHost = /^(localhost|127\.0\.0\.1|\[::1\])(?::\d+)?$/.test(requestHost);
+  if (process.env.NODE_ENV === 'production' && process.env.ALLOW_REELS_REVIEW_WRITE !== 'true' && !isLocalReviewHost) {
     return NextResponse.json({ error: 'Reels review writes are local-only by default.' }, { status: 403 });
   }
 
@@ -229,7 +315,7 @@ export async function PATCH(request: NextRequest, { params }: { params: Promise<
           {
             error: `Visual review is not complete. Rank at least two visuals for scenes: ${missingScenes.join(', ')}`,
             missingScenes,
-            ...buildPayload(slug, scenesFile, candidatesFile),
+            ...(await buildPayloadWithMotionCards(slug, scenesFile, candidatesFile, paths)),
           },
           { status: 409 }
         );
@@ -247,7 +333,7 @@ export async function PATCH(request: NextRequest, { params }: { params: Promise<
         scenes: approvedScenes,
       });
 
-      return NextResponse.json(buildPayload(slug, scenesFile, candidatesFile));
+      return NextResponse.json(await buildPayloadWithMotionCards(slug, scenesFile, candidatesFile, paths));
     } catch (error) {
       const message = error instanceof Error ? error.message : 'Unknown error';
       return NextResponse.json({ error: message }, { status: 500 });
@@ -289,7 +375,7 @@ export async function PATCH(request: NextRequest, { params }: { params: Promise<
         scenes: reviewPass.replacementScenes,
       });
 
-      return NextResponse.json(buildPayload(slug, scenesFile, candidatesFile));
+      return NextResponse.json(await buildPayloadWithMotionCards(slug, scenesFile, candidatesFile, paths));
     } catch (error) {
       const message = error instanceof Error ? error.message : 'Unknown error';
       return NextResponse.json({ error: message }, { status: 500 });
@@ -298,9 +384,72 @@ export async function PATCH(request: NextRequest, { params }: { params: Promise<
 
   const sceneNumber = Number(body.sceneNumber);
   const candidateId = String(body.candidateId || '');
+  const cardId = String(body.cardId || '');
   const status = String(body.status || '') as ReviewStatus;
   const rank = body.rank === null || body.rank === undefined ? null : Number(body.rank);
   const note = String(body.note || '');
+
+  if (action === 'motion_card_status') {
+    if (!cardId || !['pending', 'approved', 'rejected', 'replace_needed'].includes(status)) {
+      return NextResponse.json({ error: 'Invalid motion card update' }, { status: 400 });
+    }
+
+    try {
+      const scenesFile = await readJson<ScenesFile>(paths.scenesPath);
+      const candidatesFile = await readJson<CandidatesFile>(paths.candidatesPath);
+      const motionCardsFile = await readOptionalJson<MotionCardsFile>(paths.motionCardsPath, { slug, cards: [] });
+      const card = motionCardsFile.cards.find((item) => item.id === cardId);
+
+      if (!card) {
+        return NextResponse.json({ error: 'Motion card not found' }, { status: 404 });
+      }
+
+      card.reviewStatus = status;
+      card.reviewerNote = note;
+      motionCardsFile.status = motionCardsFile.cards.every((item) => item.reviewStatus === 'approved')
+        ? 'motion_cards_approved'
+        : 'motion_cards_review';
+
+      await writeJson(paths.motionCardsPath, motionCardsFile);
+      return NextResponse.json(buildPayload(slug, scenesFile, candidatesFile, motionCardsFile));
+    } catch (error) {
+      const message = error instanceof Error ? error.message : 'Unknown error';
+      return NextResponse.json({ error: message }, { status: 500 });
+    }
+  }
+
+  if (action === 'motion_card_template') {
+    const templateId = String(body.templateId || '');
+    if (!cardId || !templateId) {
+      return NextResponse.json({ error: 'Invalid motion card template update' }, { status: 400 });
+    }
+
+    try {
+      const scenesFile = await readJson<ScenesFile>(paths.scenesPath);
+      const candidatesFile = await readJson<CandidatesFile>(paths.candidatesPath);
+      const motionCardsFile = await readOptionalJson<MotionCardsFile>(paths.motionCardsPath, { slug, cards: [] });
+      const motionCardTemplatesFile = await readMotionCardTemplates(paths, slug);
+      const card = motionCardsFile.cards.find((item) => item.id === cardId);
+      const template = motionCardTemplatesFile.templates.find((item) => item.id === templateId);
+
+      if (!card || !template) {
+        return NextResponse.json({ error: 'Motion card or template not found' }, { status: 404 });
+      }
+
+      card.templateId = template.id;
+      card.layout = template.layout;
+      card.motionPreset = template.motionPreset;
+      card.reviewStatus = 'pending';
+      card.reviewerNote = note;
+      motionCardsFile.status = 'motion_cards_review';
+
+      await writeJson(paths.motionCardsPath, motionCardsFile);
+      return NextResponse.json(buildPayload(slug, scenesFile, candidatesFile, motionCardsFile, motionCardTemplatesFile));
+    } catch (error) {
+      const message = error instanceof Error ? error.message : 'Unknown error';
+      return NextResponse.json({ error: message }, { status: 500 });
+    }
+  }
 
   if (action === 'rank') {
     if (!Number.isInteger(sceneNumber) || !candidateId || rank === null || !Number.isInteger(rank) || rank < 1 || rank > 5) {
@@ -348,7 +497,7 @@ export async function PATCH(request: NextRequest, { params }: { params: Promise<
         scenes: approvedScenes,
       });
 
-      return NextResponse.json(buildPayload(slug, scenesFile, candidatesFile));
+      return NextResponse.json(await buildPayloadWithMotionCards(slug, scenesFile, candidatesFile, paths));
     } catch (error) {
       const message = error instanceof Error ? error.message : 'Unknown error';
       return NextResponse.json({ error: message }, { status: 500 });
@@ -403,7 +552,7 @@ export async function PATCH(request: NextRequest, { params }: { params: Promise<
       scenes: approvedScenes,
     });
 
-    return NextResponse.json(buildPayload(slug, scenesFile, candidatesFile));
+    return NextResponse.json(await buildPayloadWithMotionCards(slug, scenesFile, candidatesFile, paths));
   } catch (error) {
     const message = error instanceof Error ? error.message : 'Unknown error';
     return NextResponse.json({ error: message }, { status: 500 });

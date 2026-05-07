@@ -26,5 +26,22 @@ This folder contains the first vertical Reels MVP composition.
 
 The generic render helper writes `output/reels/{slug}/render/epickor-reel-{slug}-v###.mp4`.
 It also passes `--public-dir public/assets/reels/{slug}` to Remotion so regular renders do not copy the whole project `public/` directory.
+If a render command cannot start a child process such as Remotion or Chrome, the helper prints the spawn error before exiting.
+
+## Motion Cards
+
+- Optional per-Reel manifest: `output/reels/{slug}/motion-cards.json`
+- Optional per-Reel template override: `output/reels/{slug}/motion-card-templates.json`
+- Default template library: `.claude/skills/reels/motion-card-templates.json`
+
+Motion cards are reviewed in `/reels-review/{slug}` before rendering. They replace the normal center subtitle layer for their scene, use the approved background image plus a black overlay, and should be versioned/reviewed like any other render candidate.
+
+Use explicit text-line arrays for English layout control:
+
+- `headlineLines`
+- `subheadLines`
+- `footerLines`
+
+The accepted Reels 170 motion-card standard uses three inserts: one concept/radial shape, one boxed menu board, and one vertical process/checklist structure. Avoid making all cards look like the same dark panel with color changes.
 
 Official Remotion asset rule used here: files live in the project `public/` folder and are referenced through `staticFile()`.

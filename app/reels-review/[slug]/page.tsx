@@ -52,9 +52,57 @@ interface CandidatesFile {
   scenes: CandidateScene[];
 }
 
+interface MotionCard {
+  id: string;
+  sceneNumber: number;
+  templateId?: string;
+  kicker: string;
+  headline: string;
+  headlineLines?: string[];
+  subhead?: string;
+  subheadLines?: string[];
+  bullets: string[];
+  footer?: string;
+  footerLines?: string[];
+  layout: string;
+  motionPreset: string;
+  accentColor: string;
+  overlayOpacity: number;
+  durationSeconds: number;
+  backgroundImage?: string;
+  reviewStatus?: 'pending' | 'approved' | 'rejected' | 'replace_needed';
+  reviewerNote?: string;
+}
+
+interface MotionCardsFile {
+  status?: string;
+  targetCoverageRatio?: number;
+  cards: MotionCard[];
+}
+
+interface MotionCardTemplate {
+  id: string;
+  name: string;
+  description: string;
+  layout: string;
+  motionPreset: string;
+}
+
+interface MotionCardTemplatesFile {
+  templates: MotionCardTemplate[];
+}
+
 async function readJson<T>(filePath: string): Promise<T> {
   const text = await fs.readFile(filePath, 'utf8');
   return JSON.parse(text) as T;
+}
+
+async function readOptionalJson<T>(filePath: string, fallback: T): Promise<T> {
+  try {
+    return await readJson<T>(filePath);
+  } catch (_error) {
+    return fallback;
+  }
 }
 
 function assertSafeSlug(slug: string): boolean {
@@ -71,6 +119,15 @@ export default async function ReelsReviewPage({ params }: { params: Promise<{ sl
   try {
     const scenesFile = await readJson<ScenesFile>(path.join(reelDir, 'scenes.json'));
     const candidatesFile = await readJson<CandidatesFile>(path.join(reelDir, 'visual-candidates.json'));
+    const motionCardsFile = await readOptionalJson<MotionCardsFile>(path.join(reelDir, 'motion-cards.json'), {
+      cards: [],
+    });
+    const motionCardTemplatesFile = await readOptionalJson<MotionCardTemplatesFile>(
+      path.join(reelDir, 'motion-card-templates.json'),
+      await readOptionalJson<MotionCardTemplatesFile>(path.join(root, '.claude', 'skills', 'reels', 'motion-card-templates.json'), {
+        templates: [],
+      })
+    );
 
     return (
       <ReelsReviewClient
@@ -81,6 +138,10 @@ export default async function ReelsReviewPage({ params }: { params: Promise<{ sl
           minRankedVisualsPerScene: 2,
           scenes: scenesFile.scenes,
           candidateScenes: candidatesFile.scenes,
+          motionCards: motionCardsFile.cards,
+          motionCardTemplates: motionCardTemplatesFile.templates,
+          motionCardStatus: motionCardsFile.status,
+          motionCardTargetCoverageRatio: motionCardsFile.targetCoverageRatio,
         }}
       />
     );

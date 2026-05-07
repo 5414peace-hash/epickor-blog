@@ -598,8 +598,31 @@
       ],
       "amazon_category": "Food",
       "status": "pending"
+    },
+    {
+      "id": 31,
+      "title": "Korean Convenience Store Breakfast: What Locals Actually Buy",
+      "keywords": [
+        "Korean convenience store breakfast",
+        "Korean breakfast convenience store",
+        "GS25 breakfast",
+        "CU Korea breakfast",
+        "Korean triangle gimbap breakfast"
+      ],
+      "category": "Food",
+      "tags": [
+        "KoreanFood",
+        "ConvenienceStore",
+        "KoreanBreakfast",
+        "KoreaTravel",
+        "Seoul"
+      ],
+      "amazon_category": "Food",
+      "status": "in_progress",
+      "generated_slug": "171",
+      "generated_date": "2026-05-07"
     }
   ],
-  "last_updated": "2026-05-02",
-  "next_slug": 160
+  "last_updated": "2026-05-07",
+  "next_slug": 172
 }

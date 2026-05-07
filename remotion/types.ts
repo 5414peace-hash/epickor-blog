@@ -23,6 +23,35 @@ export interface ReelScene {
   images: ReelImage[];
 }
 
+export interface ReelMotionCard {
+  id: string;
+  sceneNumber: number;
+  templateId?: string;
+  kicker: string;
+  headline: string;
+  headlineLines?: string[];
+  subhead?: string;
+  subheadLines?: string[];
+  bullets: string[];
+  footer?: string;
+  footerLines?: string[];
+  layout: string;
+  motionPreset: string;
+  accentColor: string;
+  overlayOpacity: number;
+  durationSeconds: number;
+  reviewStatus?: string;
+  reviewerNote?: string;
+}
+
+export interface ReelMotionCardTemplate {
+  id: string;
+  name: string;
+  description: string;
+  layout: string;
+  motionPreset: string;
+}
+
 export interface ReelProps {
   slug: string;
   title: string;
@@ -67,4 +96,6 @@ export interface ReelProps {
     maxWordsPerBeat?: number;
   };
   scenes: ReelScene[];
+  motionCards?: ReelMotionCard[];
+  motionCardTemplates?: ReelMotionCardTemplate[];
 }

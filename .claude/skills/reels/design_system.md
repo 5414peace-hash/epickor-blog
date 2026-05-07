@@ -44,6 +44,20 @@
 - `caption_pop`: subtle caption entrance, no bouncing gimmick.
 - `match_cut`: cut between visually similar compositions.
 
+## Motion-Card Inserts
+
+- Use motion cards sparingly. For a 35-45 second Reel, three inserts is usually enough.
+- Intro scenes should stay clean when they are designed as thumbnail or hook frames.
+- Motion cards should replace the normal subtitle layer for their scene instead of stacking on top of captions.
+- Put a black overlay over the approved scene background, then render the motion card as live Remotion layers.
+- One boxed/card-like insert is fine, but the other inserts should reinterpret the content with a different visual structure:
+  - concept map or radial chips for explaining several meanings
+  - menu/signboard for food or options
+  - vertical process/checklist for etiquette, steps, or warnings
+- Do not make three cards that are only color variants of the same dark panel.
+- Control English line breaks explicitly with `headlineLines`, `subheadLines`, and `footerLines` when the text is shown in a fixed 9:16 card layout.
+- Default reusable templates live at `.claude/skills/reels/motion-card-templates.json`; slug-specific overrides can live at `output/reels/{slug}/motion-card-templates.json`.
+
 ## Voice Rules
 
 - Narration should sound conversational, not like an article readout.

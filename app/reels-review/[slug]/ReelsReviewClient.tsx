@@ -43,6 +43,36 @@ interface CandidateScene {
   candidates: Candidate[];
 }
 
+interface MotionCard {
+  id: string;
+  sceneNumber: number;
+  templateId?: string;
+  kicker: string;
+  headline: string;
+  headlineLines?: string[];
+  subhead?: string;
+  subheadLines?: string[];
+  bullets: string[];
+  footer?: string;
+  footerLines?: string[];
+  layout: string;
+  motionPreset: string;
+  accentColor: string;
+  overlayOpacity: number;
+  durationSeconds: number;
+  backgroundImage?: string;
+  reviewStatus?: ReviewStatus;
+  reviewerNote?: string;
+}
+
+interface MotionCardTemplate {
+  id: string;
+  name: string;
+  description: string;
+  layout: string;
+  motionPreset: string;
+}
+
 interface Payload {
   slug: string;
   title: string;
@@ -52,6 +82,10 @@ interface Payload {
   lastAction?: string;
   scenes: Scene[];
   candidateScenes: CandidateScene[];
+  motionCards?: MotionCard[];
+  motionCardTemplates?: MotionCardTemplate[];
+  motionCardStatus?: string;
+  motionCardTargetCoverageRatio?: number;
 }
 
 interface Props {
@@ -89,8 +123,10 @@ export default function ReelsReviewClient({ initialPayload }: Props) {
     const replaceNeeded = payload.candidateScenes.filter((scene) =>
       scene.candidates.some((candidate) => candidate.reviewStatus === 'replace_needed')
     ).length;
-    return { total, approved, replaceNeeded };
-  }, [payload.candidateScenes, payload.minRankedVisualsPerScene, payload.scenes]);
+    const motionCards = payload.motionCards || [];
+    const approvedMotionCards = motionCards.filter((card) => card.reviewStatus === 'approved').length;
+    return { total, approved, replaceNeeded, motionCards: motionCards.length, approvedMotionCards };
+  }, [payload.candidateScenes, payload.minRankedVisualsPerScene, payload.motionCards, payload.scenes]);
 
   const missingScenes = useMemo(() => {
     return payload.scenes
@@ -121,6 +157,62 @@ export default function ReelsReviewClient({ initialPayload }: Props) {
       setMessage(`Saved ${candidateId} as ${statusLabels[status]}.`);
     } catch (error) {
       setMessage(error instanceof Error ? error.message : 'Save failed.');
+    } finally {
+      setSavingId('');
+    }
+  }
+
+  async function updateMotionCard(cardId: string, status: ReviewStatus) {
+    setSavingId(cardId);
+    setMessage('');
+
+    try {
+      const response = await fetch(`/api/reels/${payload.slug}/visuals`, {
+        method: 'PATCH',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          action: 'motion_card_status',
+          cardId,
+          status,
+          note: notes[cardId] || '',
+        }),
+      });
+      const json = await response.json();
+      if (!response.ok) {
+        throw new Error(json.error || `Motion card save failed (${response.status})`);
+      }
+      setPayload(json);
+      setMessage(`Saved ${cardId} as ${statusLabels[status]}.`);
+    } catch (error) {
+      setMessage(error instanceof Error ? error.message : 'Motion card save failed.');
+    } finally {
+      setSavingId('');
+    }
+  }
+
+  async function updateMotionCardTemplate(cardId: string, templateId: string) {
+    setSavingId(`${cardId}-${templateId}`);
+    setMessage('');
+
+    try {
+      const response = await fetch(`/api/reels/${payload.slug}/visuals`, {
+        method: 'PATCH',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          action: 'motion_card_template',
+          cardId,
+          templateId,
+          note: notes[cardId] || '',
+        }),
+      });
+      const json = await response.json();
+      if (!response.ok) {
+        throw new Error(json.error || `Template save failed (${response.status})`);
+      }
+      setPayload(json);
+      setMessage(`Saved ${cardId} template as ${templateId}.`);
+    } catch (error) {
+      setMessage(error instanceof Error ? error.message : 'Template save failed.');
     } finally {
       setSavingId('');
     }
@@ -218,6 +310,11 @@ export default function ReelsReviewClient({ initialPayload }: Props) {
             <span style={pillStyle('#334155')}>Slug {payload.slug}</span>
             <span style={pillStyle('#57534e')}>{payload.status}</span>
             <span style={pillStyle('#146c43')}>{progress.approved}/{progress.total} approved</span>
+            {progress.motionCards > 0 && (
+              <span style={pillStyle('#7c3aed')}>
+                Motion cards {progress.approvedMotionCards}/{progress.motionCards}
+              </span>
+            )}
             {progress.replaceNeeded > 0 && <span style={pillStyle('#9a3412')}>{progress.replaceNeeded} need replacement</span>}
           </div>
           <ReviewActionsBar
@@ -231,6 +328,17 @@ export default function ReelsReviewClient({ initialPayload }: Props) {
           />
           <StatusPanel payload={payload} message={message} missingScenes={missingScenes} savingId={savingId} />
         </header>
+
+        {payload.motionCards && payload.motionCards.length > 0 && (
+          <MotionCardReviewSection
+            cards={payload.motionCards}
+            templates={payload.motionCardTemplates || []}
+            targetCoverageRatio={payload.motionCardTargetCoverageRatio}
+            savingId={savingId}
+            onUpdate={updateMotionCard}
+            onTemplateUpdate={updateMotionCardTemplate}
+          />
+        )}
 
         <div style={{ display: 'grid', gap: 18 }}>
           {payload.scenes.map((scene) => {
@@ -400,6 +508,293 @@ export default function ReelsReviewClient({ initialPayload }: Props) {
   );
 }
 
+function MotionCardReviewSection({
+  cards,
+  templates,
+  targetCoverageRatio,
+  savingId,
+  onUpdate,
+  onTemplateUpdate,
+}: {
+  cards: MotionCard[];
+  templates: MotionCardTemplate[];
+  targetCoverageRatio?: number;
+  savingId: string;
+  onUpdate: (cardId: string, status: ReviewStatus) => void;
+  onTemplateUpdate: (cardId: string, templateId: string) => void;
+}) {
+  const totalSeconds = cards.reduce((total, card) => total + Number(card.durationSeconds || 0), 0);
+  return (
+    <section
+      style={{
+        display: 'grid',
+        gap: 16,
+        marginBottom: 18,
+        padding: 16,
+        border: '1px solid #ddd6fe',
+        borderRadius: 8,
+        background: '#fbfaff',
+      }}
+    >
+      <div style={{ display: 'flex', justifyContent: 'space-between', gap: 12, alignItems: 'end', flexWrap: 'wrap' }}>
+        <div style={{ display: 'grid', gap: 5 }}>
+          <p style={labelStyle}>Motion Card Review</p>
+          <h2 style={{ margin: 0, fontSize: 24, letterSpacing: 0 }}>9:16 card-motion inserts</h2>
+          <p style={{ ...smallMetaStyle, margin: 0 }}>
+            These cards replace the regular center subtitle layer for selected scenes and hold long enough to read as motion.
+          </p>
+        </div>
+        <div style={{ display: 'flex', gap: 8, flexWrap: 'wrap' }}>
+          <span style={pillStyle('#7c3aed')}>{cards.length} cards</span>
+          <span style={pillStyle('#334155')}>{totalSeconds.toFixed(1)}s planned</span>
+          {targetCoverageRatio ? <span style={pillStyle('#146c43')}>{Math.round(targetCoverageRatio * 100)}% target</span> : null}
+        </div>
+      </div>
+
+      <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(230px, 1fr))', gap: 12 }}>
+        {cards.map((card) => (
+          <article
+            key={card.id}
+            style={{
+              display: 'grid',
+              gap: 10,
+              padding: 10,
+              border: `2px solid ${card.reviewStatus === 'approved' ? '#146c43' : card.reviewStatus === 'replace_needed' ? '#f97316' : '#ddd6fe'}`,
+              borderRadius: 8,
+              background: '#ffffff',
+            }}
+          >
+            <MotionCardPreview card={card} />
+            <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', gap: 8 }}>
+              <strong style={{ fontSize: 13 }}>Scene {card.sceneNumber}</strong>
+              <span style={pillStyle(statusColors[card.reviewStatus || 'pending'])}>
+                {statusLabels[card.reviewStatus || 'pending']}
+              </span>
+            </div>
+            <p style={miniBlockStyle}>
+              {card.templateId || card.layout} / {card.motionPreset} / {card.durationSeconds.toFixed(1)}s
+            </p>
+            {templates.length > 0 && (
+              <div style={{ display: 'grid', gap: 5 }}>
+                <p style={labelStyle}>Template</p>
+                <div style={{ display: 'grid', gridTemplateColumns: '1fr', gap: 5 }}>
+                  {templates.map((template) => {
+                    const active = (card.templateId || card.layout) === template.id || card.layout === template.layout;
+                    return (
+                      <button
+                        key={`${card.id}-${template.id}`}
+                        onClick={() => onTemplateUpdate(card.id, template.id)}
+                        disabled={savingId === `${card.id}-${template.id}`}
+                        title={template.description}
+                        style={{
+                          minHeight: 30,
+                          border: `1px solid ${active ? '#7c3aed' : '#e7e5e4'}`,
+                          borderRadius: 5,
+                          background: active ? '#f3e8ff' : '#ffffff',
+                          color: active ? '#6d28d9' : '#292524',
+                          fontSize: 12,
+                          fontWeight: 850,
+                          cursor: 'pointer',
+                          textAlign: 'left',
+                          padding: '0 8px',
+                        }}
+                      >
+                        {template.name}
+                      </button>
+                    );
+                  })}
+                </div>
+              </div>
+            )}
+            <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 6 }}>
+              <button
+                onClick={() => onUpdate(card.id, 'approved')}
+                disabled={savingId === card.id}
+                style={buttonStyle('#146c43')}
+              >
+                Approve
+              </button>
+              <button
+                onClick={() => onUpdate(card.id, 'replace_needed')}
+                disabled={savingId === card.id}
+                style={buttonStyle('#9a3412')}
+              >
+                Revise
+              </button>
+            </div>
+          </article>
+        ))}
+      </div>
+    </section>
+  );
+}
+
+function textLines(text?: string, explicit?: string[]) {
+  if (explicit?.length) return explicit;
+  if (!text) return [];
+  return text.split(/\s*\|\s*/).filter(Boolean);
+}
+
+function PreviewLineStack({ lines, style }: { lines: string[]; style: CSSProperties }) {
+  return (
+    <div style={style}>
+      {lines.map((line) => (
+        <div key={line}>{line}</div>
+      ))}
+    </div>
+  );
+}
+
+function PreviewShell({ card, compact = false }: { card: MotionCard; compact?: boolean }) {
+  return (
+    <div style={{ display: 'grid', gap: compact ? 6 : 8 }}>
+      <div style={{ color: card.accentColor, fontSize: compact ? 9 : 10, fontWeight: 950, textTransform: 'uppercase' }}>
+        {card.kicker}
+      </div>
+      <PreviewLineStack
+        lines={textLines(card.headline, card.headlineLines)}
+        style={{ fontSize: compact ? 22 : 25, fontWeight: 950, lineHeight: 0.92, textTransform: 'uppercase' }}
+      />
+      <PreviewLineStack
+        lines={textLines(card.subhead, card.subheadLines)}
+        style={{ fontSize: compact ? 11 : 12, fontWeight: 780, lineHeight: 1.16, color: 'rgba(255,255,255,0.84)' }}
+      />
+    </div>
+  );
+}
+
+function MotionCardPreview({ card }: { card: MotionCard }) {
+  const template = card.templateId || card.layout;
+  return (
+    <div
+      style={{
+        position: 'relative',
+        overflow: 'hidden',
+        width: '100%',
+        aspectRatio: '9 / 16',
+        borderRadius: 8,
+        background: '#111827',
+        color: '#fff',
+      }}
+    >
+      {card.backgroundImage ? (
+        <img
+          src={card.backgroundImage}
+          alt={`${card.id} background`}
+          style={{ position: 'absolute', inset: 0, width: '100%', height: '100%', objectFit: 'cover' }}
+        />
+      ) : null}
+      <div style={{ position: 'absolute', inset: 0, background: `rgba(0,0,0,${card.overlayOpacity})` }} />
+      {template === 'radial_burst' ? <PreviewRadial card={card} /> : null}
+      {template === 'menu_board' ? <PreviewMenu card={card} /> : null}
+      {template === 'split_checklist' ? <PreviewChecklist card={card} /> : null}
+      {template !== 'radial_burst' && template !== 'menu_board' && template !== 'split_checklist' ? <PreviewGeneric card={card} /> : null}
+    </div>
+  );
+}
+
+function PreviewRadial({ card }: { card: MotionCard }) {
+  const chipColors = ['#fde047', '#38bdf8', '#fb7185', '#4ade80'];
+  const positions: CSSProperties[] = [
+    { top: '18%', left: '6%', transform: 'rotate(-10deg)' },
+    { top: '27%', right: '4%', transform: 'rotate(8deg)' },
+    { bottom: '25%', left: '8%', transform: 'rotate(7deg)' },
+    { bottom: '16%', right: '6%', transform: 'rotate(-7deg)' },
+  ];
+  return (
+    <div style={{ position: 'absolute', inset: '7% 7%' }}>
+      <div style={{ position: 'absolute', inset: '31% 13%', display: 'grid', placeItems: 'center', textAlign: 'center', borderRadius: 999, background: 'radial-gradient(circle, rgba(15,23,42,0.94), rgba(15,23,42,0.78) 58%, rgba(255,255,255,0.12) 59%, rgba(255,255,255,0.02) 72%, transparent 73%)' }}>
+        <div style={{ display: 'grid', gap: 7, padding: 18 }}>
+          <div style={{ color: card.accentColor, fontSize: 9, fontWeight: 950, textTransform: 'uppercase' }}>{card.kicker}</div>
+          <PreviewLineStack lines={textLines(card.headline, card.headlineLines)} style={{ fontSize: 25, fontWeight: 950, lineHeight: 0.9, textTransform: 'uppercase' }} />
+          <PreviewLineStack lines={textLines(card.subhead, card.subheadLines)} style={{ fontSize: 11, fontWeight: 780, lineHeight: 1.12, color: 'rgba(255,255,255,0.82)' }} />
+        </div>
+      </div>
+      {card.bullets.map((bullet, index) => (
+        <div
+          key={bullet}
+          style={{
+            position: 'absolute',
+            ...positions[index % positions.length],
+            minWidth: 76,
+            minHeight: 34,
+            display: 'grid',
+            placeItems: 'center',
+            borderRadius: index % 2 === 0 ? 999 : 8,
+            padding: '0 10px',
+            background: chipColors[index % chipColors.length],
+            color: '#111',
+            fontSize: 11,
+            fontWeight: 950,
+            textTransform: 'uppercase',
+            boxShadow: '0 8px 20px rgba(0,0,0,0.28)',
+          }}
+        >
+          {bullet}
+        </div>
+      ))}
+      <PreviewLineStack lines={textLines(card.footer, card.footerLines)} style={{ position: 'absolute', left: 18, right: 18, bottom: 8, textAlign: 'center', fontSize: 10, fontWeight: 850, lineHeight: 1.14, color: 'rgba(255,255,255,0.72)', textTransform: 'uppercase' }} />
+    </div>
+  );
+}
+
+function PreviewMenu({ card }: { card: MotionCard }) {
+  return (
+    <div style={{ position: 'absolute', inset: '8% 9%', display: 'flex', flexDirection: 'column', padding: 14, borderRadius: 6, border: `5px solid ${card.accentColor}`, background: 'linear-gradient(180deg, rgba(31,18,18,0.96), rgba(18,18,20,0.93))', transform: 'rotate(-1.5deg)' }}>
+      <PreviewShell card={card} compact />
+      <div style={{ display: 'grid', gap: 7, marginTop: 'auto' }}>
+        {card.bullets.map((bullet, index) => (
+          <div key={bullet} style={{ display: 'grid', gridTemplateColumns: '1fr auto', alignItems: 'center', minHeight: 25, borderBottom: '1px dashed rgba(255,255,255,0.28)' }}>
+            <span style={{ fontSize: 13, fontWeight: 950, textTransform: 'uppercase' }}>{bullet}</span>
+            <span style={{ color: card.accentColor, fontSize: 10, fontWeight: 950 }}>{String(index + 1).padStart(2, '0')}</span>
+          </div>
+        ))}
+      </div>
+      <PreviewLineStack lines={textLines(card.footer, card.footerLines)} style={{ marginTop: 12, color: 'rgba(255,255,255,0.68)', fontSize: 10, fontWeight: 850, lineHeight: 1.12, textTransform: 'uppercase' }} />
+    </div>
+  );
+}
+
+function PreviewChecklist({ card }: { card: MotionCard }) {
+  return (
+    <div style={{ position: 'absolute', inset: '7% 7%' }}>
+      <PreviewShell card={card} />
+      <div style={{ position: 'absolute', left: 13, top: '38%', bottom: '15%', width: 6, borderRadius: 999, background: `linear-gradient(180deg, ${card.accentColor}, rgba(255,255,255,0.16))` }} />
+      <div style={{ position: 'absolute', left: 0, right: 0, top: '39%', display: 'grid', gap: 11 }}>
+        {card.bullets.map((bullet, index) => (
+          <div key={bullet} style={{ display: 'grid', gridTemplateColumns: '28px 1fr', gap: 8, alignItems: 'center', marginLeft: index % 2 === 0 ? 0 : 34 }}>
+            <span style={{ width: 28, height: 28, display: 'grid', placeItems: 'center', borderRadius: 999, background: card.accentColor, color: '#111', fontSize: 11, fontWeight: 950 }}>
+              {index + 1}
+            </span>
+            <span style={{ minHeight: 30, display: 'flex', alignItems: 'center', padding: '0 9px', borderRadius: index % 2 === 0 ? '10px 10px 10px 3px' : '10px 10px 3px 10px', background: 'rgba(255,255,255,0.14)', border: '1px solid rgba(255,255,255,0.18)', fontSize: 12, fontWeight: 950, textTransform: 'uppercase' }}>
+              {bullet}
+            </span>
+          </div>
+        ))}
+      </div>
+      <PreviewLineStack lines={textLines(card.footer, card.footerLines)} style={{ position: 'absolute', left: 18, right: 18, bottom: 6, textAlign: 'center', color: 'rgba(255,255,255,0.72)', fontSize: 10, fontWeight: 850, lineHeight: 1.14, textTransform: 'uppercase' }} />
+    </div>
+  );
+}
+
+function PreviewGeneric({ card }: { card: MotionCard }) {
+  return (
+    <div style={{ position: 'absolute', inset: '7% 8%', display: 'flex', flexDirection: 'column', gap: 10, padding: 14, borderRadius: 14, border: '1px solid rgba(255,255,255,0.22)', background: 'rgba(17,24,39,0.9)' }}>
+      <PreviewShell card={card} />
+      <div style={{ display: 'grid', gap: 6, marginTop: 'auto' }}>
+        {card.bullets.map((bullet, index) => (
+          <div key={bullet} style={{ display: 'flex', alignItems: 'center', gap: 7, minHeight: 28, borderRadius: 7, padding: '5px 7px', background: 'rgba(255,255,255,0.1)', fontSize: 13, fontWeight: 850 }}>
+            <span style={{ display: 'grid', placeItems: 'center', width: 18, height: 18, borderRadius: 999, background: card.accentColor, color: '#111', fontSize: 10, fontWeight: 950 }}>
+              {index + 1}
+            </span>
+            {bullet}
+          </div>
+        ))}
+      </div>
+    </div>
+  );
+}
+
 function ReviewActionsBar({
   finalizeDisabled,
   submitDisabled,
@@ -489,6 +884,24 @@ function StatusPanel({
     );
   }
 
+  if (message) {
+    return (
+      <div style={statusPanelStyle('#44403c', '#fafaf9')}>
+        <strong>Saved</strong>
+        <span>{message}</span>
+      </div>
+    );
+  }
+
+  if (payload.motionCardStatus === 'motion_cards_approved') {
+    return (
+      <div style={statusPanelStyle('#146c43', '#ecfdf5')}>
+        <strong>Motion cards approved</strong>
+        <span>The visual review is already finalized. The approved motion-card pass is ready for the next versioned Remotion render.</span>
+      </div>
+    );
+  }
+
   if (payload.status === 'visuals_approved') {
     return (
       <div style={statusPanelStyle('#146c43', '#ecfdf5')}>
@@ -503,15 +916,6 @@ function StatusPanel({
       <div style={statusPanelStyle('#9a3412', '#fff7ed')}>
         <strong>Review pass submitted</strong>
         <span>{payload.nextStep || 'Replacement requests were saved. Source new candidates, then come back to rank them.'}</span>
-      </div>
-    );
-  }
-
-  if (message) {
-    return (
-      <div style={statusPanelStyle('#44403c', '#fafaf9')}>
-        <strong>Saved</strong>
-        <span>{message}</span>
       </div>
     );
   }

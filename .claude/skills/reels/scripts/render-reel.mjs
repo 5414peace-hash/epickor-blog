@@ -47,6 +47,11 @@ function run(command, args) {
     shell: false,
   });
 
+  if (result.error) {
+    console.error(`Command failed to start: ${command} ${args.join(' ')}`);
+    console.error(`${result.error.name}: ${result.error.message}`);
+  }
+
   if (result.status !== 0) {
     process.exit(result.status || 1);
   }

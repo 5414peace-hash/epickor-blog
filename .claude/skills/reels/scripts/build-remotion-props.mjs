@@ -129,8 +129,9 @@ function narrationWeight(scene) {
   return Math.max(1, words + sentencePauses * 1.8);
 }
 
-const { slug } = parseArgs();
-const audioVersion = parseArgs()['audio-version'] || parseArgs().audioVersion || '';
+const parsedArgs = parseArgs();
+const { slug } = parsedArgs;
+const audioVersion = parsedArgs['audio-version'] || parsedArgs.audioVersion || '';
 
 if (!slug || !/^[a-zA-Z0-9_-]+$/.test(slug)) {
   console.error('Usage: --slug {safe-slug}');
@@ -141,6 +142,9 @@ const reelDir = path.join(ROOT, 'output', 'reels', slug);
 const scenesPath = path.join(reelDir, 'scenes.json');
 const approvedPath = path.join(reelDir, 'approved-visuals.json');
 const assetManifestPath = path.join(reelDir, 'asset-manifest.json');
+const motionCardsPath = path.join(reelDir, 'motion-cards.json');
+const motionCardTemplatesPath = path.join(reelDir, 'motion-card-templates.json');
+const defaultMotionCardTemplatesPath = path.join(ROOT, '.claude', 'skills', 'reels', 'motion-card-templates.json');
 const audioFileName = audioVersion ? `narration-${audioVersion}.mp3` : 'narration.mp3';
 const audioPath = path.join(reelDir, 'audio', audioFileName);
 const publicAudioPath = path.join(ROOT, 'public', 'assets', 'reels', slug, 'audio', audioFileName);
@@ -169,6 +173,12 @@ const hasPartAudio = partAudio.length > 0 && partAudio.every((part) => fs.exists
 const scenesFile = readJson(scenesPath);
 const approvedFile = readJson(approvedPath);
 const assetManifest = fs.existsSync(assetManifestPath) ? readJson(assetManifestPath) : { scenes: [] };
+const motionCardsFile = fs.existsSync(motionCardsPath) ? readJson(motionCardsPath) : { cards: [] };
+const motionCardTemplatesFile = fs.existsSync(motionCardTemplatesPath)
+  ? readJson(motionCardTemplatesPath)
+  : fs.existsSync(defaultMotionCardTemplatesPath)
+    ? readJson(defaultMotionCardTemplatesPath)
+    : { templates: [] };
 
 if (scenesFile.status !== 'visuals_approved' || !approvedFile.finalizedAt) {
   console.error('Visuals are not finalized. Press Finalize visual review before building Remotion props.');
@@ -278,6 +288,8 @@ const props = {
     preset: 'modern_reels_phrase_pop',
   },
   scenes,
+  motionCards: (motionCardsFile.cards || []).filter((card) => card.reviewStatus !== 'rejected'),
+  motionCardTemplates: motionCardTemplatesFile.templates || [],
 };
 
 const outputPath = path.join(reelDir, 'remotion-props.json');

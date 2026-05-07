@@ -1,5 +1,167 @@
 # HANDOFF - EpicKor Agent Teams v2
 
+## Latest Update - 2026-05-07 Reels 170 Motion Card Experiment
+
+- Task: Add a less-static Reels format where about half of the Reel uses moving 9:16 card-news/PPT-style inserts over approved background images.
+- Follow-up content pipeline:
+  - Added new topic queue item ID 31:
+    - `Korean Convenience Store Breakfast: What Locals Actually Buy`
+    - generated slug `171`
+  - Ran research with network access:
+    - `output/research/171_research.json`
+    - 5 sources, 3 image candidates, 5 fact candidates.
+  - Generated writer brief:
+    - `output/drafts/171_writer-brief.md`
+  - Wrote private draft:
+    - `output/drafts/171_draft.md`
+    - copied to `content/blog/171.md` with `visibility: "private"` for local preview.
+  - Automated review passed:
+    - `output/review/171_review.json`
+    - SEO 100/100.
+    - Reviewer word count 2,188.
+    - H2 sections 7, images 2, FAQ Q&A 5.
+  - Build passed after adding the draft:
+    - `npm.cmd run build`
+  - Local preview checks:
+    - `http://localhost:4002/preview/171` returned 200.
+    - Preview HTML contains the title, `triangle gimbap`, and Pexels image URLs.
+    - `http://localhost:4002/blog/171` returns 404 because the post is correctly private.
+  - Current gate:
+    - Human review of private preview `/preview/171`.
+    - If approved, publish slug 171.
+- Follow-up fix:
+  - Representative reported that approve buttons did not work on `http://localhost:4002/reels-review/170`.
+  - Root cause was `next start` serving the page in production mode, where local write APIs were blocked unless `ALLOW_REELS_REVIEW_WRITE=true`.
+  - API now permits write requests from localhost hosts while keeping non-local production writes blocked.
+  - Status messages now show before the finalized-state panel so save failures are visible.
+  - Approval API was tested with `motion-card-02`: approve returned `200`, then the card was reset to `pending`.
+- Motion card design adjustment:
+  - Cards now vary by layout rather than sharing one repeated card shell:
+    - stacked list
+    - three-step quick-start
+    - menu-board
+    - checklist
+  - Internal production notes in card footers were replaced with audience-facing footer text.
+  - Additional still-frame QA rendered:
+    - `output/reels/170/render/qa-v006-motion-card-03.png`
+    - `output/reels/170/render/qa-v006-motion-card-07.png`
+- Baseline preservation:
+  - Accepted Reels 170 v005 remains the current final baseline:
+    - `output/reels/170/render/epickor-reel-170-v005.mp4`
+  - New work is a v006 experiment path, not a replacement until human review approves it.
+- Added motion-card manifest:
+  - `output/reels/170/motion-cards.json`
+  - Cards planned for scenes 2, 3, 5, and 7.
+  - Planned card duration is about 20.4 seconds out of the 38.9 second v005 timing, close to the requested 50% mix.
+  - Each card uses a 50% black overlay over the approved scene background.
+- Review dashboard update:
+  - `/reels-review/170` now includes a Motion Card Review section.
+  - The section shows 9:16 previews, background image, overlay, motion preset, duration, and approve/revise buttons.
+  - API route `/api/reels/170/visuals` now returns and updates motion-card review status.
+- Remotion update:
+  - `build-remotion-props.mjs` reads optional `motion-cards.json`.
+  - `ReelComposition.tsx` renders a live `MotionCardLayer` for matching scenes instead of static card PNGs.
+  - Motion-card scenes replace the regular central caption/typography layer so the screen does not become overcrowded.
+- Verification:
+  - `node --check .claude/skills/reels/scripts/build-remotion-props.mjs`: passed.
+  - `npx tsc --noEmit`: passed.
+  - `npm.cmd run build`: passed.
+  - `npm run reels:props -- --slug 170 --audio-version v005`: passed.
+  - `npm run reels:render -- --slug 170 --audio-version v005 --dry-run`: passed and generated `output/reels/170/remotion-props-render-v006.json`.
+  - Remotion compositions passed with `--public-dir public/assets/reels/170`.
+  - Still-frame QA rendered:
+    - `output/reels/170/render/qa-v006-motion-card-02.png`
+    - `output/reels/170/render/qa-v006-motion-card-05.png`
+  - Local dashboard checked at:
+    - `http://localhost:4002/reels-review/170`
+- Current gate:
+  - Human review should open the dashboard and approve/revise the four motion cards.
+  - If approved, render `epickor-reel-170-v006.mp4` and watch through for pacing, readability, and whether the card inserts feel helpful rather than too dense.
+- Render follow-up:
+  - Human approved all four motion cards.
+  - Rendered:
+    - `output/reels/170/render/epickor-reel-170-v006.mp4`
+  - Render input:
+    - `output/reels/170/remotion-props-render-v006.json`
+  - ffprobe passed:
+    - H.264 video, 1080x1920, 30fps.
+    - AAC audio.
+    - Duration: 38.677333 seconds.
+    - Size: 23,577,650 bytes, about 23.6 MB.
+  - Current gate is human watch-through for whether v006 improves pacing and visual interest over v005 without becoming too dense.
+- v007 revision after human feedback:
+  - Feedback:
+    - Four motion cards are too many; use three.
+    - Reveals should track narration more gradually.
+    - Cards need structurally different styles, not just color changes.
+    - Keep one boxed/menu-like style, but allow other cards to be non-box layouts.
+    - Build about five reusable templates and let template selection happen alongside scene/background review.
+  - Updated motion-card plan:
+    - `output/reels/170/motion-cards.json`
+    - Scene 2: `radial_burst`
+    - Scene 5: `menu_board`
+    - Scene 7: `split_checklist`
+    - Scene 3 motion card removed.
+  - Added template library:
+    - `output/reels/170/motion-card-templates.json`
+    - Templates: `editorial_box`, `kinetic_steps`, `menu_board`, `radial_burst`, `split_checklist`.
+  - Dashboard/API update:
+    - `/api/reels/170/visuals` returns three motion cards and five templates.
+    - Template update action saves the selected template to `motion-cards.json` and resets that card to `pending`.
+    - `/reels-review/170` shows template selection buttons on each motion-card preview.
+  - Remotion update:
+    - `ReelComposition.tsx` now renders structurally different template components.
+    - Item reveals use scene-duration based timing so list/chip/check items enter more gradually with narration.
+  - Verification:
+    - `npx tsc --noEmit`: passed.
+    - `npm.cmd run build`: passed.
+    - `npm run reels:render -- --slug 170 --audio-version v005 --dry-run`: passed and prepared `output/reels/170/remotion-props-render-v007.json`.
+    - Still frames rendered:
+      - `output/reels/170/render/qa-v007-motion-card-02.png`
+      - `output/reels/170/render/qa-v007-motion-card-05.png`
+      - `output/reels/170/render/qa-v007-motion-card-07.png`
+  - Current gate:
+    - Human review of the three v007 motion cards and template choices.
+    - If approved, render `output/reels/170/render/epickor-reel-170-v007.mp4`.
+- v007 shape/line-break correction after screenshot feedback:
+  - Feedback:
+    - The three review previews still felt like one repeated dark-card format with color changes.
+    - Keep one boxed/card format only; the other two should reinterpret the content as logic, shapes, or process.
+    - English line breaks must be intentional and not awkward.
+  - Updates:
+    - `motion-cards.json` now includes explicit `headlineLines`, `subheadLines`, and `footerLines`.
+    - Scene 2 is now a concept-map/radial-chip motion (`PC BANG / MEANS / MORE` with `PLAY`, `EAT`, `WATCH`, `HANG OUT` chips).
+    - Scene 5 remains the single boxed/menu-board style.
+    - Scene 7 is now a vertical etiquette-process rail with staggered action rows.
+    - `/reels-review/170` dashboard previews now render template-specific structures instead of one generic dark card shell.
+    - Remotion uses the same explicit line stacks for the rendered motion cards.
+  - Verification:
+    - `npx.cmd tsc --noEmit`: passed.
+    - `npm.cmd run build`: passed.
+    - `npm.cmd run reels:render -- --slug 170 --audio-version v005 --dry-run`: passed and refreshed `output/reels/170/remotion-props-render-v007.json`.
+    - Remotion still QA passed with slug-local public dir:
+      - `output/reels/170/render/qa-v007-motion-card-02.png`
+      - `output/reels/170/render/qa-v007-motion-card-05.png`
+      - `output/reels/170/render/qa-v007-motion-card-07.png`
+  - Current gate:
+    - Human review the refreshed dashboard/stills, approve the three motion cards, then render `output/reels/170/render/epickor-reel-170-v007.mp4`.
+  - Render follow-up:
+    - Human approved all three v007 motion cards.
+    - Rendered `output/reels/170/render/epickor-reel-170-v007.mp4`.
+    - Render input: `output/reels/170/remotion-props-render-v007.json`.
+    - ffprobe passed: H.264 video, 1080x1920, 30fps; AAC audio; duration 38.677333 seconds; size 26,486,866 bytes.
+    - Dashboard UX clarification: `Finalize visual review` is the image-selection finalization gate and remains disabled after `visuals_approved`; a new `motion_cards_approved` status panel now shows that the motion-card pass is render-ready.
+    - Human confirmed v007.
+    - Treat `output/reels/170/render/epickor-reel-170-v007.mp4` as the accepted motion-card candidate for Reels 170.
+    - Next operational work should preserve the v007 lessons as the reusable motion-card standard before starting the next Reel/card-news task.
+  - Reusable template follow-up:
+    - Added default motion-card template library at `.claude/skills/reels/motion-card-templates.json`.
+    - `build-remotion-props.mjs`, `/api/reels/{slug}/visuals`, and `/reels-review/{slug}` now fall back to that default library when `output/reels/{slug}/motion-card-templates.json` is absent.
+    - Slug-specific template files can still override the defaults.
+    - `render-reel.mjs` now prints child-process spawn errors before exiting so Remotion/Chrome launch failures are visible.
+    - Documented the accepted v007 motion-card standard in `remotion/README.md` and `.claude/skills/reels/design_system.md`.
+    - Verification passed: `node --check` for render/build props helpers, `npx.cmd tsc --noEmit`, `npm.cmd run build`, and `npm.cmd run reels:render -- --slug 170 --audio-version v005 --dry-run`.
+
 ## Latest Update - 2026-05-06 End-of-Day Handoff
 
 - Session status:
@@ -1422,7 +1584,7 @@
   - Reviewer Agent: markdown SEO + local image file existence + manual rendered preview check.
   - Publisher Agent: post-publish public URL check, including visible images.
   - Human Reviewer: final content judgment, but should not have to catch broken-image plumbing.
-# 최종 업데이트: 2026-05-02 03:19:24 | 업데이트한 에이전트: Publisher
+# 최종 업데이트: 2026-05-07 02:56:41 | 업데이트한 에이전트: Writer brief
 
 ---
 
