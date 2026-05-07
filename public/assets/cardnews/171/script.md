@@ -16,7 +16,7 @@ image_zoom: 1.02
 image_position: center center
 image_label: GS25 in Korea
 
-**Main:** Korean convenience store\nbreakfast is not fancy.
+**Main:** <span style="color:#C9A84C">KOREAN</span>\nCONVENIENCE STORE\nbreakfast is not fancy.
 **Sub:** That is why it feels local.
 
 ---
