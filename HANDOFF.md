@@ -1584,7 +1584,7 @@
   - Reviewer Agent: markdown SEO + local image file existence + manual rendered preview check.
   - Publisher Agent: post-publish public URL check, including visible images.
   - Human Reviewer: final content judgment, but should not have to catch broken-image plumbing.
-# 최종 업데이트: 2026-05-07 02:56:41 | 업데이트한 에이전트: Writer brief
+# 최종 업데이트: 2026-05-07 03:43:47 | 업데이트한 에이전트: Publisher
 
 ---
 
