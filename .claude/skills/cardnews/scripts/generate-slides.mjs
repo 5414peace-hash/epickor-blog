@@ -4,7 +4,7 @@
  *
  * No LLM API is called here. This script prepares a compact card-news brief
  * from the approved draft and research data. Claude/Codex then writes
- * output/cardnews/{slug}/script.md directly, and html-to-png.py renders it.
+ * output/cardnews/{YYYY-MM-DD}_{slug}/script.md directly, and html-to-png.py renders it.
  *
  * 실행:
  *   node .claude/skills/cardnews/scripts/generate-slides.mjs \
@@ -49,6 +49,11 @@ function ensureDir(dirPath) {
   const abs = resolve(ROOT, dirPath);
   if (!existsSync(abs)) mkdirSync(abs, { recursive: true });
   return abs;
+}
+
+function cardnewsFolderName(slug) {
+  const date = new Date().toLocaleDateString('en-CA', { timeZone: 'Asia/Seoul' });
+  return `${date}_${slug}`;
 }
 
 function parseFrontmatter(markdown) {
@@ -162,6 +167,7 @@ function buildBrief(draft, research, slug) {
   const sections = extractSections(draft);
   const images = research?.images || [];
   const facts = research?.facts || [];
+  const folderName = cardnewsFolderName(slug);
 
   const sectionList = sections
     .filter(s => !/faq|frequently asked|conclusion|final/i.test(s.heading))
@@ -180,7 +186,7 @@ function buildBrief(draft, research, slug) {
 
 - Topic: ${topic}
 - Source draft: \`${draftPath}\`
-- Script path to create manually: \`output/cardnews/${slug}/script.md\`
+- Script path to create manually: \`output/cardnews/${folderName}/script.md\`
 - Render command after writing:
   \`python .claude/skills/cardnews/scripts/html-to-png.py --slug ${slug}\`
 
@@ -223,8 +229,9 @@ async function main() {
     ? JSON.parse(readFile(researchPath))
     : null;
 
-  const outputDir = ensureDir(`output/cardnews/${slug}`);
-  ensureDir(`output/cardnews/${slug}/images`);
+  const folderName = cardnewsFolderName(slug);
+  const outputDir = ensureDir(`output/cardnews/${folderName}`);
+  ensureDir(`output/cardnews/${folderName}/images`);
   const briefPath = join(outputDir, 'script-brief.md');
   const brief = buildBrief(draft, research, slug);
 
@@ -237,7 +244,7 @@ async function main() {
   writeFileSync(briefPath, brief, 'utf8');
 
   console.log(`\n✅ 카드뉴스 브리프 생성 완료: ${briefPath}`);
-  console.log(`📌 다음 단계: Claude/Codex가 output/cardnews/${slug}/script.md를 직접 작성합니다.`);
+  console.log(`📌 다음 단계: Claude/Codex가 output/cardnews/${folderName}/script.md를 직접 작성합니다.`);
   console.log(`   그 다음: python .claude/skills/cardnews/scripts/html-to-png.py --slug ${slug}`);
 }
 

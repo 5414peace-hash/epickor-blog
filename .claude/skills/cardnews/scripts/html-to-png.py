@@ -2,8 +2,8 @@
 """
 EpicKor Card News HTML to PNG converter.
 
-Reads output/cardnews/{slug}/script.md, writes card_XX.html files, and renders
-1080x1080 PNG files with Playwright.
+Reads output/cardnews/{slug}/script.md or output/cardnews/{YYYY-MM-DD}_{slug}/script.md,
+writes card_XX.html files, and renders 1080x1080 PNG files with Playwright.
 """
 
 import argparse
@@ -17,7 +17,19 @@ ROOT = (SCRIPT_DIR / '../../../../').resolve()
 
 
 def get_output_dir(slug):
-    return ROOT / f'output/cardnews/{slug}'
+    base = ROOT / 'output/cardnews'
+    exact = base / slug
+    if exact.exists():
+        return exact
+
+    prefixed = sorted(
+        p for p in base.glob(f'????-??-??_{slug}')
+        if p.is_dir()
+    )
+    if prefixed:
+        return prefixed[-1]
+
+    return exact
 
 
 def parse_script(script_path):
@@ -661,8 +673,9 @@ def main():
             print(f'   Failed card_{num_str}.png: {e}')
             print(f'      HTML saved: {html_path}')
 
+    rel_output = output_dir.relative_to(ROOT).as_posix()
     print(f'\nDone. {success_count}/{len(target_cards)} PNG generated')
-    print(f'   Output: output/cardnews/{slug}/')
+    print(f'   Output: {rel_output}/')
 
     if success_count < len(target_cards):
         failed = len(target_cards) - success_count

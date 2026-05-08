@@ -1,5 +1,171 @@
 # HANDOFF - EpicKor Agent Teams v2
 
+## Latest Update - 2026-05-08 Card News Folder Date Prefix Cleanup
+
+- Representative requested card-news folder cleanup because numeric-only folders made it hard to track production/upload state over time.
+- New folder naming convention:
+  - `YYYY-MM-DD_slug`
+  - Example: `public/assets/cardnews/2026-05-08_090/`
+- Renamed both working and public card-news folders:
+  - `output/cardnews/{slug}` -> `output/cardnews/YYYY-MM-DD_{slug}`
+  - `public/assets/cardnews/{slug}` -> `public/assets/cardnews/YYYY-MM-DD_{slug}`
+- Current public folders:
+  - `2026-04-30_071`
+  - `2026-05-02_064`
+  - `2026-05-02_068`
+  - `2026-05-02_135`
+  - `2026-05-02_153`
+  - `2026-05-02_160`
+  - `2026-05-02_168`
+  - `2026-05-02_169`
+  - `2026-05-03_003`
+  - `2026-05-03_132`
+  - `2026-05-03_159`
+  - `2026-05-06_038`
+  - `2026-05-07_171`
+  - `2026-05-08_082`
+  - `2026-05-08_090`
+- Added `public/assets/cardnews/CARDNEWS_INDEX.md` for manual tracking:
+  - folder
+  - slug
+  - topic
+  - card count
+  - production status
+  - upload status
+- Updated caption files so `Asset folder:` lines point to the renamed public folders.
+- Updated pipeline compatibility:
+  - `.claude/skills/cardnews/scripts/html-to-png.py` now accepts `--slug 090` and resolves `output/cardnews/2026-05-08_090/`.
+  - `.claude/skills/cardnews/scripts/generate-slides.mjs` now creates new briefs under `output/cardnews/YYYY-MM-DD_{slug}/`.
+  - `CLAUDE.md` and card-news agent instructions now document the date-prefixed convention.
+- Verification:
+  - No numeric-only directories remain under `output/cardnews` or `public/assets/cardnews`.
+  - No `instagram-caption.md` still points to `public/assets/cardnews/{slug}/`.
+  - `node --check .claude\skills\cardnews\scripts\generate-slides.mjs` passed.
+  - `python -m py_compile .claude\skills\cardnews\scripts\html-to-png.py` passed.
+  - Render compatibility check passed:
+    - `python .claude\skills\cardnews\scripts\html-to-png.py --slug 090 --card 06`
+    - Output resolved to `output/cardnews/2026-05-08_090/`.
+- Important:
+  - Public asset URLs now use the date-prefixed folder names.
+  - Instagram upload remains representative-managed; Codex should not present upload as a next task.
+
+## Latest Update - 2026-05-08 Card News 082 Complete
+
+- Task: Produce next GSC-backed card news after representative confirmed Card News 090.
+- Source post:
+  - Public blog: `/blog/082`
+  - Topic: `SKY Universities in Korea: SNU, Korea, Yonsei Explained`
+  - Strategy reason: latest weekly strategy showed `/blog/082` as a high-impression, low-CTR opportunity; it had no existing card-news folder.
+- Produced folders:
+  - Working folder: `output/cardnews/082/`
+  - Publish asset folder: `public/assets/cardnews/082/`
+- Includes:
+  - `card_01.png` through `card_07.png`
+  - `script.md`
+  - `caption.txt`
+  - `instagram-caption.md`
+  - `image-sources.md`
+- Card flow:
+  - SKY is not just a ranking
+  - SNU / Korea / Yonsei acronym
+  - SNU as academic peak
+  - Korea University school spirit
+  - Yonsei global and polished image
+  - SKY as powerful but not destiny
+  - social-pressure CTA to full guide
+- Visual sourcing:
+  - Used only post-owned assets from `public/assets/images/posts/082/`.
+  - No new external Pexels or third-party image IDs were introduced.
+  - Cross-post duplicate check found no prior card-news use of the 082 image paths.
+- Verification:
+  - Render command: `python .claude\skills\cardnews\scripts\html-to-png.py --slug 082`
+  - Rendered all seven PNGs successfully.
+  - Reworked the first render to better preserve school/college logo visibility and avoid awkward vertical-frame crops.
+  - All seven public PNGs are `1080x1080`.
+  - Temporary `card_*.html` count is `0`.
+  - Reviewer visually inspected rendered cards for image relevance, school/logo visibility, text readability, watermark presence, and swipe logic.
+- Upload note:
+  - Representative handles Instagram upload independently. Do not present upload as a Codex next action.
+
+## Latest Update - 2026-05-08 Card News 090 Final Confirmation
+
+- Representative confirmed the revised Card News 090 version.
+- Treat 090 as final complete for production planning.
+- Instagram upload remains representative-managed; do not present upload as a Codex next action.
+- Next operational work moved to the next GSC-backed card-news priority: `/blog/082` SKY Universities.
+
+## Latest Update - 2026-05-08 Card News 090 Visual Rework
+
+- Representative feedback:
+  - Initial 090 card-news images were poorly placed.
+  - Handsome/oppa faces should be visible.
+  - Text should not heavily cover faces.
+  - Black/tone-down treatment made visuals too hard to see.
+- Revision:
+  - Reworked `output/cardnews/090/script.md` from a dark 7-card carousel to a brighter 6-card carousel.
+  - Switched to mostly text-separated layouts (`B`, `C`, `E`) so faces remain visible and text does not sit over key faces.
+  - Removed the extra seventh card to avoid repeating the same 090 image source.
+  - Re-rendered the carousel and replaced public assets under `public/assets/cardnews/090/`.
+- Final revised output:
+  - `card_01.png` through `card_06.png`
+  - `script.md`
+  - `caption.txt`
+  - `instagram-caption.md`
+  - `image-sources.md`
+- Verification:
+  - Rendered successfully with `python .claude\skills\cardnews\scripts\html-to-png.py --slug 090` and one follow-up render for card 05.
+  - All six public PNGs are `1080x1080`.
+  - Temporary `card_*.html` count is `0`.
+  - Public folder now contains six card PNGs; old `card_07.png` was removed.
+  - Reviewer visually rechecked the revised cards for face visibility, reduced black overlay, text separation, watermark presence, and swipe logic.
+
+## Latest Update - 2026-05-08 Card News 090 Complete
+
+- Task: Produce Priority 1 card news for `/blog/090`.
+- Source post:
+  - Public blog: `/blog/090`
+  - Topic: `Ahjussi Meaning in Korean: Samchon vs Oppa Explained`
+  - GSC opportunity used for prioritization: high impressions and very low CTR from the latest weekly strategy report.
+- Produced folders:
+  - Working folder: `output/cardnews/090/`
+  - Publish asset folder: `public/assets/cardnews/090/`
+- Includes:
+  - `card_01.png` through `card_07.png`
+  - `script.md`
+  - `caption.txt`
+  - `instagram-caption.md`
+  - `image-sources.md`
+- Card flow:
+  - ahjussi is not just "mister"
+  - real meaning and emotional temperature
+  - oppa / samchon / ahjussi comparison
+  - why the word can feel sensitive
+  - tourist-safe wording tip
+  - Korean social media/aura logic
+  - full guide CTA
+- Visual sourcing:
+  - Used post-owned assets from `public/assets/images/posts/090/`.
+  - No new external Pexels or third-party image IDs were introduced.
+  - Cross-post duplicate check found no previous card-news use of the 090 image paths.
+- Verification:
+  - Render command: `python .claude\skills\cardnews\scripts\html-to-png.py --slug 090`
+  - Rendered all seven PNGs successfully.
+  - All public PNGs are `1080x1080`.
+  - Temporary `card_*.html` files count is `0`.
+  - Reviewer visually inspected all seven rendered PNGs for readability, watermark presence, image relevance, and swipe logic.
+- Upload note:
+  - Representative handles Instagram upload independently. Do not present upload as the next Codex task.
+
+## Latest Update - 2026-05-08 Card News 171 Final Confirmation
+
+- Representative confirmed Card News 171 is final complete.
+- Instagram upload is intentionally owner-managed by the representative; do not keep presenting upload as a Codex next action.
+- Treat 171 as done for production planning:
+  - Blog post published and verified.
+  - Card news rendered, revised, deployed, and human-confirmed.
+  - Caption files remain available under `public/assets/cardnews/171/` for representative use.
+- Next work should move on to the next content/optimization priority rather than revisiting 171 upload logistics.
+
 ## Latest Update - 2026-05-07 Post 171 Publish and Card News
 
 - Blog post 171 was approved, published, and verified:

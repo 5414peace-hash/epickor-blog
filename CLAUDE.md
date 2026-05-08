@@ -6,6 +6,7 @@
 - Every card must have a relevant image or visual treatment. Prefer post-owned images first, then Pexels when needed.
 - Every card should carry a Korea/EpicKor angle through `kicker:` text, such as `KOREA SPF GUIDE`, `SEOUL TRAVEL TIP`, or `K-BEAUTY TEXTURE MAP`.
 - Every rendered card must show `EPICKOR.COM` as the watermark text. Do not use only `EpicKor` as the watermark label.
+- Card-news output folders use the date-prefixed convention `YYYY-MM-DD_{slug}`, for example `public/assets/cardnews/2026-05-08_090/`. Keep `public/assets/cardnews/CARDNEWS_INDEX.md` updated for manual upload-status tracking.
 - Card-news images must be fresh and varied. Do not reuse the same image within one carousel unless the user explicitly approves a repeated brand/product visual.
 - Do not reuse an image that already appears in another card-news carousel for a different post. Similar search keywords are not an excuse; select a new visual, new crop, or new source so each post has its own image identity.
 - Card-news images for Korea explainers must be Korea-first. Use visibly Korean places, Korean products, Korean signage, Korean packaging, or Korea-shot source metadata whenever the topic is Korean daily life, Korean food, travel, beauty, shopping, or culture.
@@ -201,11 +202,11 @@ node .claude/skills/cardnews/scripts/generate-slides.mjs \
 
 출력:
 
-- `output/cardnews/166/script-brief.md`
+- `output/cardnews/YYYY-MM-DD_166/script-brief.md`
 
 그 다음 Claude/Codex가 직접 작성:
 
-- `output/cardnews/166/script.md`
+- `output/cardnews/YYYY-MM-DD_166/script.md`
 
 PNG 렌더:
 
@@ -239,7 +240,7 @@ output/research/              research.json
 output/drafts/                writer brief 및 draft.md
 output/review/                review.json
 output/final/                 final.md
-output/cardnews/{slug}/       script.md 및 card PNG
+output/cardnews/YYYY-MM-DD_{slug}/ script.md 및 card PNG
 output/reels/{slug}/          Reels scene manifest, visual candidates, review notes, and audio
 .claude/skills/               팀별 스크립트
 .claude/agents/               팀별 운영 지침
