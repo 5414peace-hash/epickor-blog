@@ -154,8 +154,16 @@ function buildPayload(
   motionCardsFile?: MotionCardsFile,
   motionCardTemplatesFile?: MotionCardTemplatesFile
 ) {
+  const motionCards = motionCardsFile?.cards || [];
+  const hasMotionCards = (sceneNumber: number) => motionCards.some((card) => card.sceneNumber === sceneNumber);
+  const hasApprovedMotionCard = (sceneNumber: number) =>
+    motionCards.some((card) => card.sceneNumber === sceneNumber && card.reviewStatus === 'approved');
   const missingScenes = scenesFile.scenes
-    .filter((scene) => !Array.isArray(scene.selectedImages) || scene.selectedImages.length < 2)
+    .filter((scene) =>
+      hasMotionCards(scene.number)
+        ? !hasApprovedMotionCard(scene.number)
+        : !Array.isArray(scene.selectedImages) || scene.selectedImages.length < 2
+    )
     .map((scene) => scene.number);
   const replacementScenes = candidatesFile.scenes
     .filter((scene) => scene.candidates.some((candidate) => candidate.reviewStatus === 'replace_needed'))
@@ -164,10 +172,12 @@ function buildPayload(
     scenesFile.status === 'visuals_approved'
       ? 'Next: generate ElevenLabs narration audio, then prepare the Remotion preview.'
       : scenesFile.status === 'replacement_requested'
-        ? `Next: source replacement candidates for scene${replacementScenes.length === 1 ? '' : 's'} ${replacementScenes.join(', ')}.`
+        ? replacementScenes.length > 0
+          ? `Next: source replacement candidates for scene${replacementScenes.length === 1 ? '' : 's'} ${replacementScenes.join(', ')}.`
+          : `Next: review the refreshed replacement candidates for scene${missingScenes.length === 1 ? '' : 's'} ${missingScenes.join(', ')}.`
         : missingScenes.length === 0
           ? 'Next: press Finalize visual review to lock visuals for voice and Remotion prep.'
-          : `Next: rank at least two visuals for scene${missingScenes.length === 1 ? '' : 's'} ${missingScenes.join(', ')}.`;
+          : `Next: complete visual or motion-card selections for scene${missingScenes.length === 1 ? '' : 's'} ${missingScenes.join(', ')}.`;
 
   return {
     slug,
@@ -177,7 +187,7 @@ function buildPayload(
     nextStep,
     scenes: scenesFile.scenes,
     candidateScenes: candidatesFile.scenes,
-    motionCards: motionCardsFile?.cards || [],
+    motionCards,
     motionCardTemplates: motionCardTemplatesFile?.templates || [],
     motionCardStatus: motionCardsFile?.status,
     motionCardTargetCoverageRatio: motionCardsFile?.targetCoverageRatio,
@@ -222,8 +232,69 @@ function buildApprovedScenes(scenesFile: ScenesFile) {
     .filter((item) => item.selectedImages.length > 0);
 }
 
-function buildReviewPass(slug: string, scenesFile: ScenesFile, candidatesFile: CandidatesFile) {
+function getApprovedMotionCard(motionCardsFile: MotionCardsFile, sceneNumber: number): MotionCard | undefined {
+  return motionCardsFile.cards.find((card) => card.sceneNumber === sceneNumber && card.reviewStatus === 'approved');
+}
+
+function sceneHasMotionCards(motionCardsFile: MotionCardsFile, sceneNumber: number): boolean {
+  return motionCardsFile.cards.some((card) => card.sceneNumber === sceneNumber);
+}
+
+function syncMotionSceneVisuals(scenesFile: ScenesFile, motionCardsFile: MotionCardsFile) {
+  for (const scene of scenesFile.scenes) {
+    const approvedCard = getApprovedMotionCard(motionCardsFile, scene.number);
+    if (!approvedCard?.backgroundImage) continue;
+    scene.selectedImage = approvedCard.backgroundImage;
+    scene.selectedImages = [approvedCard.backgroundImage];
+    scene.reviewStatus = 'approved';
+    scene.reviewerNote = `Motion card approved: ${approvedCard.id}`;
+  }
+}
+
+function getMissingScenes(scenesFile: ScenesFile, motionCardsFile: MotionCardsFile) {
+  return scenesFile.scenes
+    .filter((scene) =>
+      sceneHasMotionCards(motionCardsFile, scene.number)
+        ? !getApprovedMotionCard(motionCardsFile, scene.number)
+        : !Array.isArray(scene.selectedImages) || scene.selectedImages.length < 2
+    )
+    .map((scene) => scene.number);
+}
+
+function motionCardReviewStatus(motionCardsFile: MotionCardsFile) {
+  const sceneNumbers = [...new Set(motionCardsFile.cards.map((card) => card.sceneNumber))];
+  if (sceneNumbers.length === 0) return motionCardsFile.status;
+  if (motionCardsFile.cards.some((card) => card.reviewStatus === 'replace_needed')) return 'motion_cards_review';
+  return sceneNumbers.every((sceneNumber) => getApprovedMotionCard(motionCardsFile, sceneNumber))
+    ? 'motion_cards_approved'
+    : 'motion_cards_review';
+}
+
+function buildReviewPass(slug: string, scenesFile: ScenesFile, candidatesFile: CandidatesFile, motionCardsFile?: MotionCardsFile) {
   const scenes = scenesFile.scenes.map((scene) => {
+    const approvedMotionCard = motionCardsFile ? getApprovedMotionCard(motionCardsFile, scene.number) : undefined;
+    if (motionCardsFile && sceneHasMotionCards(motionCardsFile, scene.number)) {
+      return {
+        number: scene.number,
+        narration: scene.subtitleText || scene.narration,
+        visualIntent: scene.visualIntent,
+        rankedVisuals: approvedMotionCard
+          ? [
+              {
+                id: approvedMotionCard.id,
+                rank: 1,
+                src: approvedMotionCard.backgroundImage || '',
+                source: `Approved motion card: ${approvedMotionCard.templateId || approvedMotionCard.layout}`,
+              },
+            ]
+          : [],
+        replaceCandidateIds: approvedMotionCard ? [] : ['motion_card_selection'],
+        rejectedCandidateIds: [],
+        needsReplacementSourcing: !approvedMotionCard,
+        replacementBrief: approvedMotionCard ? '' : 'Select one motion-card design option for this scene before final approval.',
+      };
+    }
+
     const candidateScene = candidatesFile.scenes.find((item) => item.number === scene.number);
     const candidates = candidateScene?.candidates || [];
     const ranked = getRankedCandidates({ number: scene.number, candidates });
@@ -301,14 +372,15 @@ export async function PATCH(request: NextRequest, { params }: { params: Promise<
     try {
       const scenesFile = await readJson<ScenesFile>(paths.scenesPath);
       const candidatesFile = await readJson<CandidatesFile>(paths.candidatesPath);
+      const motionCardsFile = await readOptionalJson<MotionCardsFile>(paths.motionCardsPath, { slug, cards: [] });
       for (const scene of scenesFile.scenes) {
+        if (sceneHasMotionCards(motionCardsFile, scene.number)) continue;
         const candidateScene = candidatesFile.scenes.find((item) => item.number === scene.number);
         if (candidateScene) syncSceneFromRanks(scene, candidateScene);
       }
+      syncMotionSceneVisuals(scenesFile, motionCardsFile);
 
-      const missingScenes = scenesFile.scenes
-        .filter((scene) => !Array.isArray(scene.selectedImages) || scene.selectedImages.length < 2)
-        .map((scene) => scene.number);
+      const missingScenes = getMissingScenes(scenesFile, motionCardsFile);
 
       if (missingScenes.length > 0) {
         return NextResponse.json(
@@ -344,8 +416,17 @@ export async function PATCH(request: NextRequest, { params }: { params: Promise<
     try {
       const scenesFile = await readJson<ScenesFile>(paths.scenesPath);
       const candidatesFile = await readJson<CandidatesFile>(paths.candidatesPath);
+      const motionCardsFile = await readOptionalJson<MotionCardsFile>(paths.motionCardsPath, { slug, cards: [] });
+      syncMotionSceneVisuals(scenesFile, motionCardsFile);
 
       for (const scene of scenesFile.scenes) {
+        if (sceneHasMotionCards(motionCardsFile, scene.number)) {
+          if (!getApprovedMotionCard(motionCardsFile, scene.number)) {
+            scene.reviewStatus = 'replace_needed';
+            scene.reviewerNote = 'Review pass submitted without an approved motion-card option.';
+          }
+          continue;
+        }
         const candidateScene = candidatesFile.scenes.find((item) => item.number === scene.number);
         if (!candidateScene) continue;
         syncSceneFromRanks(scene, candidateScene);
@@ -358,9 +439,9 @@ export async function PATCH(request: NextRequest, { params }: { params: Promise<
         }
       }
 
-      const reviewPass = buildReviewPass(slug, scenesFile, candidatesFile);
-      scenesFile.status =
-        reviewPass.replacementScenes.length > 0 ? 'replacement_requested' : 'review_pass_submitted';
+      const reviewPass = buildReviewPass(slug, scenesFile, candidatesFile, motionCardsFile);
+      const missingScenes = getMissingScenes(scenesFile, motionCardsFile);
+      scenesFile.status = missingScenes.length > 0 ? 'replacement_requested' : 'review_pass_submitted';
 
       await writeJson(paths.scenesPath, scenesFile);
       await writeJson(paths.approvedPath, {
@@ -404,13 +485,30 @@ export async function PATCH(request: NextRequest, { params }: { params: Promise<
         return NextResponse.json({ error: 'Motion card not found' }, { status: 404 });
       }
 
+      if (status === 'approved') {
+        for (const item of motionCardsFile.cards) {
+          if (item.sceneNumber === card.sceneNumber && item.id !== card.id && item.reviewStatus === 'approved') {
+            item.reviewStatus = 'pending';
+            item.reviewerNote = 'Superseded by another approved option for this scene.';
+          }
+        }
+      }
+
       card.reviewStatus = status;
       card.reviewerNote = note;
-      motionCardsFile.status = motionCardsFile.cards.every((item) => item.reviewStatus === 'approved')
-        ? 'motion_cards_approved'
-        : 'motion_cards_review';
+      if (status === 'approved' && card.backgroundImage) {
+        const scene = scenesFile.scenes.find((item) => item.number === card.sceneNumber);
+        if (scene) {
+          scene.selectedImage = card.backgroundImage;
+          scene.selectedImages = [card.backgroundImage];
+          scene.reviewStatus = 'approved';
+          scene.reviewerNote = `Motion card approved: ${card.id}`;
+        }
+      }
+      motionCardsFile.status = motionCardReviewStatus(motionCardsFile);
 
       await writeJson(paths.motionCardsPath, motionCardsFile);
+      await writeJson(paths.scenesPath, scenesFile);
       return NextResponse.json(buildPayload(slug, scenesFile, candidatesFile, motionCardsFile));
     } catch (error) {
       const message = error instanceof Error ? error.message : 'Unknown error';

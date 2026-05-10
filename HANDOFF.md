@@ -1,5 +1,180 @@
 # HANDOFF - EpicKor Agent Teams v2
 
+## Latest Update - 2026-05-09 Reels 171 Final Render Complete
+
+- Task: Finalize approved Reels 171 after representative completed the dashboard final step.
+- Final visual approval:
+  - `/reels-review/171` status reached `visuals_approved`.
+  - Finalized timestamp in `output/reels/171/approved-visuals.json`: `2026-05-09T12:35:56.933Z`.
+  - Approved motion inserts:
+    - Scene 2: `171-2-motion-a` (`convenience_tray`).
+    - Scene 4: `171-4-motion-c` (`receipt_stack`).
+    - Scene 5: `171-5-motion-b` (`morning_route`).
+- Production completed:
+  - Prepared local and remote assets into `public/assets/reels/171/`.
+  - Generated segmented ElevenLabs narration:
+    - `output/reels/171/audio/narration-v001-part-01.mp3`
+    - `output/reels/171/audio/narration-v001-part-02.mp3`
+    - `output/reels/171/audio/narration-v001-part-03.mp3`
+  - Built Remotion props with slug-specific caption beats and 171-specific audio grouping:
+    - Part 1: Scenes 1-2.
+    - Part 2: Scenes 3-4.
+    - Part 3: Scenes 5-7.
+  - Rendered final MP4:
+    - `output/reels/171/render/epickor-reel-171-v001.mp4`
+- Render verification:
+  - `ffprobe`: H.264 video, AAC audio, `1080x1920`, `30fps`, duration `36.885333s`, size `30,977,886` bytes.
+  - QA contact sheet: `output/reels/171/qa/contact-v001.jpg`.
+  - Visual spot-check confirmed chronological scene flow and approved motion-card inserts in their correct scene positions.
+- Pipeline fixes made during finalization:
+  - `.claude/skills/reels/scripts/prepare-assets.mjs` can now copy local `/assets/...` candidates and uses a browser-like user agent/retry for remote downloads.
+  - `.claude/skills/reels/scripts/build-remotion-props.mjs` now uses slug-specific caption beats and part grouping for 171.
+  - `remotion/ReelComposition.tsx` now renders the 171 thumbnail text dynamically instead of using the old PC-bang hardcoded wording.
+  - `.claude/skills/reels/scripts/render-reel.mjs` now launches Windows `.cmd` tools through `cmd.exe /d /s /c`, fixing `spawnSync npx.cmd EINVAL`.
+- Verification commands:
+  - `node --check .claude\skills\reels\scripts\render-reel.mjs`: passed.
+  - `npm.cmd run reels:prepare-assets -- --slug 171`: passed after remote retry handling.
+  - `npm.cmd run reels:props -- --slug 171 --audio-version v001`: passed.
+  - `npm.cmd run reels:render -- --slug 171 --audio-version v001 --dry-run`: passed.
+  - `npm.cmd run reels:render -- --slug 171 --audio-version v001`: passed.
+- Upload note:
+  - Instagram upload remains representative-managed; Codex should not present upload as an automated next action.
+
+### Correction - Reels 171 v002 Sync and Motion Selection Fix
+
+- Representative found the v001 render unacceptable:
+  - Narration did not align reliably with the visual scene cuts.
+  - Caption text did not exactly match the spoken narration.
+  - The selected motion-card options were not always applied.
+- Root causes:
+  - `remotion/ReelComposition.tsx` selected the first motion card matching `sceneNumber`, so pending option A could render even when option B or C was approved.
+  - `build-remotion-props.mjs` passed all non-rejected motion cards into Remotion instead of approved-only motion cards.
+  - 171 caption beat overrides paraphrased the narration instead of preserving exact spoken text.
+  - Final timing used multi-scene audio files and word-count allocation, which is too approximate for scene/narration sync.
+- Fixes:
+  - Remotion now selects only `reviewStatus: "approved"` motion cards.
+  - `build-remotion-props.mjs` now passes approved-only motion cards.
+  - 171 caption beats now exactly match narration wording.
+  - Final v002 audio was regenerated per scene:
+    - `narration-v002-scene-01.mp3` through `narration-v002-scene-07.mp3`.
+  - Props now use seven scene-level audio segments, so each scene duration is based on its actual audio file.
+  - Motion-card and thumbnail scenes now include compact synced narration captions.
+  - Added `npm run reels:validate` via `.claude/skills/reels/scripts/validate-render-readiness.mjs`.
+  - Updated Reels agent/design-system instructions to require approved-only motion props, exact narration captions, scene-level final audio, and render-readiness validation before final render.
+- Corrected render:
+  - `output/reels/171/render/epickor-reel-171-v002.mp4`
+  - `ffprobe`: H.264 video, AAC audio, `1080x1920`, `30fps`, duration `35.648000s`, size `29,096,450` bytes.
+  - QA contact sheet: `output/reels/171/qa/contact-v002.jpg`.
+  - Validation passed: `npm.cmd run reels:validate -- --slug 171 --require-scene-audio`.
+  - Build passed: `npm.cmd run build`.
+
+## Latest Update - 2026-05-09 Reels 171 Review Project Ready
+
+- Task: Review representative's idea to produce one new Reel and prepare a dashboard-reviewable project.
+- Source post:
+  - `/blog/171` - `Korean Convenience Store Breakfast: What Locals Buy`
+  - Reason: recent public post, strong Instagram hook, low production risk, and already vetted Korea-first visuals from Card News 171.
+- Created Reels project:
+  - `output/reels/171/strategy.md`
+  - `output/reels/171/script.md`
+  - `output/reels/171/scenes.json`
+  - `output/reels/171/visual-candidates.json`
+  - `output/reels/171/motion-cards.json`
+  - `output/reels/171/approved-visuals.json`
+  - `output/reels/171/review.md`
+  - `output/reels/171/voiceover.txt`
+  - `output/reels/171/voiceover-v001-part-01.txt` through `part-03.txt`
+- Editorial direction:
+  - Working title: `Korean Convenience Store Breakfast Is Not Fancy`
+  - Hook: tourists look for a special Korean breakfast, while locals often solve the morning at a convenience store.
+  - Seven-scene flow: local hook, small-choice breakfast logic, triangle gimbap, choose-by-morning map, wrapper tip, seating etiquette, simple local order CTA.
+- Visual/motion setup:
+  - Every scene has at least three visual candidates.
+  - Candidate sources prioritize source-post and Card News 171 vetted Korea-first images.
+  - Initial motion-card pass repeated too much of Reels 170's structure.
+  - Representative asked to avoid treating motion cards as script-independent design shells.
+  - Added `Reels Motion Design Agent` guidance to `.claude/agents/reels-team/AGENT.md`.
+  - Added script-specific motion-card design rules to `.claude/skills/reels/design_system.md`.
+  - Revised 171 with three script-specific motion-card templates:
+    - Scene 2: `convenience_tray` - light morning shelf/tray grid for rice, bread, coffee, milk, eggs.
+    - Scene 4: `morning_route` - route-map decision structure for choosing by morning type.
+    - Scene 5: `wrapper_tabs` - triangle-gimbap wrapper process diagram.
+  - Added `output/reels/171/motion-card-templates.json`.
+  - Updated Remotion and dashboard preview code so these templates render as distinct structures, not renamed old cards.
+  - Follow-up representative feedback:
+    - Motion cards should be reviewed in scene order, not in a separate top section.
+    - A motion-card scene should show multiple motion-design options inside that numbered scene.
+    - Normal image candidates must not repeat across scenes.
+    - Card-news PNGs must not appear as ordinary image candidates.
+  - Corrected dashboard/data flow:
+    - Removed top-level Motion Card Review section.
+    - Motion design choices now appear inside Scene 2, Scene 4, and Scene 5.
+    - Each motion scene has exactly three options, and approving one option supersedes any other approved option for that scene.
+    - Final visual approval now treats a motion-card scene as complete when one motion design is approved.
+    - Added `receipt_stack` template for convenience-store receipt-style design variation.
+    - Rebuilt visual candidates so normal scene image candidates have no cross-scene duplicates.
+    - Removed card-news PNGs from normal visual candidates, keeping only Scene 1's intentional intro-thumbnail candidate.
+  - Status remains `visual_review_pending`; final rendering is intentionally blocked until human dashboard approval.
+- Verification:
+  - JSON parse check passed for `scenes.json`, `visual-candidates.json`, `motion-cards.json`, and `approved-visuals.json`.
+  - JSON parse check passed for `motion-card-templates.json`.
+  - `node --check .claude\skills\reels\scripts\build-remotion-props.mjs`: passed.
+  - `node --check .claude\skills\reels\scripts\render-reel.mjs`: passed.
+  - `npx.cmd tsc --noEmit`: passed.
+  - `npm.cmd run build`: passed.
+  - Normal image candidate duplicate check: `0`.
+  - Card-news PNG violation check: `0` outside the approved Scene 1 intro-thumbnail exception.
+  - Motion options per scene: Scene 2 = 3, Scene 4 = 3, Scene 5 = 3.
+  - Local dashboard check passed:
+    - `http://localhost:4000/reels-review/171` returned `200`.
+    - Page contains the 171 title and Motion Card Review section.
+    - API returns the 171-specific template IDs: `convenience_tray`, `morning_route`, `wrapper_tabs`.
+  - Dev server was started on port `4000` for representative review.
+  - Current gate:
+  - Representative completed a review pass.
+  - Approved so far:
+    - Scene 1 image ranking complete.
+    - Scene 2 motion card: `171-2-motion-a` (`convenience_tray`).
+    - Scene 3 image ranking complete.
+    - Scene 4 motion card: `171-4-motion-c` (`receipt_stack`).
+    - Scene 5 motion card: `171-5-motion-b` (`morning_route`).
+    - Scene 6 image ranking complete.
+  - Fixed review-pass API bug that incorrectly marked approved motion-card scenes as replacement-needed.
+  - Scene 7 remains the only actual blocker.
+  - Scene 7 replacement candidates were refreshed with four Korea/gimbap-oriented options.
+  - Next human action: review and rank Scene 7 candidates in `http://localhost:4000/reels-review/171`, then finalize visual review.
+  - After final visual approval, next steps are segmented ElevenLabs narration, `reels:prepare-assets`, `reels:props`, dry-run render, and versioned MP4 render.
+
+## Latest Update - 2026-05-08 Card News 043 and 008 Complete
+
+- Task: Produce both next recommended card-news priorities after representative approved proceeding with Priority 1 and 2.
+- Source posts:
+  - `/blog/043` - `Why Is Jang Wonyoung So Popular? Wonyoungism Explained`
+  - `/blog/008` - `Why Koreans Eat So Much Garlic: Culture Explained`
+- Produced Card News 043:
+  - Working folder: `output/cardnews/2026-05-08_043/`
+  - Publish asset folder: `public/assets/cardnews/2026-05-08_043/`
+  - Includes `card_01.png` through `card_07.png`, `script.md`, `caption.txt`, `instagram-caption.md`, and `image-sources.md`.
+  - Card flow: Wonyoung as a K-pop language, born-idol precision, Lucky Vicky, Wonyoungism lifestyle, fashion signal, perfection criticism, and full-guide CTA.
+  - Visual sourcing: used post-owned assets from `public/assets/images/posts/043/`; two cards use graphic treatment to avoid reusing duplicate Wonyoung frames within the carousel.
+- Produced Card News 008:
+  - Working folder: `output/cardnews/2026-05-08_008/`
+  - Publish asset folder: `public/assets/cardnews/2026-05-08_008/`
+  - Includes `card_01.png` through `card_07.png`, `script.md`, `caption.txt`, `instagram-caption.md`, and `image-sources.md`.
+  - Card flow: garlic as foundation, Korean kitchen base, Dangun myth, distributed garlic frequency, table map, BBQ wrap logic, and full-guide CTA.
+  - Visual sourcing: used only relevant post-owned garlic/Dangun assets from `public/assets/images/posts/008/`; unrelated K-drama/person images and the foreign-chef comparison frame were intentionally excluded for Korea-first visual quality.
+- Verification:
+  - Rendered both sets successfully:
+    - `python .claude\skills\cardnews\scripts\html-to-png.py --slug 043`
+    - `python .claude\skills\cardnews\scripts\html-to-png.py --slug 008`
+  - All fourteen public PNGs are `1080x1080`.
+  - Temporary `card_*.html` count is `0`.
+  - Cross-post duplicate check found no prior card-news use of `/assets/images/posts/043/` or `/assets/images/posts/008/` before these outputs.
+  - Reviewer visually inspected all rendered cards for readability, watermark presence, image relevance, and swipe logic.
+- Tracking:
+  - Added both folders to `public/assets/cardnews/CARDNEWS_INDEX.md`.
+  - Instagram upload remains representative-managed; do not present upload as a Codex next action.
+
 ## Latest Update - 2026-05-08 Card News Folder Date Prefix Cleanup
 
 - Representative requested card-news folder cleanup because numeric-only folders made it hard to track production/upload state over time.

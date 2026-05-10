@@ -18,6 +18,7 @@ export interface ReelScene {
   durationSeconds: number;
   narration: string;
   captionBeats: string[];
+  captionBeatStartFrames?: number[];
   typographyBeats: ReelTypographyBeat[];
   motion: string;
   images: ReelImage[];

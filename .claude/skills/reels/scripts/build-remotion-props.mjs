@@ -42,60 +42,132 @@ function splitCaption(text) {
   return beats;
 }
 
-const captionBeatOverrides = {
-  1: [
-    'Foreigners hear "PC bang"',
-    'and think internet cafe.',
-    'But in Korea,',
-    'it means something different.',
-  ],
-  2: [
-    'A PC bang is',
-    'a gaming lounge,',
-    'a snack bar,',
-    'and an esports room.',
-  ],
-  3: [
-    'You pay by time,',
-    'sit at a powerful computer,',
-    'log in,',
-    'and start playing instantly.',
-  ],
-  4: [
-    'The social part matters.',
-    'Friends sit in rows,',
-    'play together,',
-    'and turn online games',
-    'into an offline plan.',
-  ],
-  5: [
-    'Then comes the food.',
-    'In many PC bangs,',
-    'ramyeon and fried rice',
-    'come right to your seat.',
-  ],
-  6: [
-    'That frictionless setup',
-    'helped make gaming feel normal',
-    'in Korea,',
-    'not hidden in a bedroom.',
-  ],
-  7: [
-    'So if you visit Seoul,',
-    'try one respectfully.',
-    'Do not film strangers.',
-    'Order something simple.',
-    'Feel how local the room is.',
-  ],
-  8: [
-    'Read the full',
-    'Korean PC bang guide',
-    'on EpicKor.com.',
-  ],
+const captionBeatOverridesBySlug = {
+  170: {
+    1: [
+      'Foreigners hear "PC bang"',
+      'and think internet cafe.',
+      'But in Korea,',
+      'it means something different.',
+    ],
+    2: [
+      'A PC bang is',
+      'a gaming lounge,',
+      'a snack bar,',
+      'and an esports room.',
+    ],
+    3: [
+      'You pay by time,',
+      'sit at a powerful computer,',
+      'log in,',
+      'and start playing instantly.',
+    ],
+    4: [
+      'The social part matters.',
+      'Friends sit in rows,',
+      'play together,',
+      'and turn online games',
+      'into an offline plan.',
+    ],
+    5: [
+      'Then comes the food.',
+      'In many PC bangs,',
+      'ramyeon and fried rice',
+      'come right to your seat.',
+    ],
+    6: [
+      'That frictionless setup',
+      'helped make gaming feel normal',
+      'in Korea,',
+      'not hidden in a bedroom.',
+    ],
+    7: [
+      'So if you visit Seoul,',
+      'try one respectfully.',
+      'Do not film strangers.',
+      'Order something simple.',
+      'Feel how local the room is.',
+    ],
+    8: [
+      'Read the full',
+      'Korean PC bang guide',
+      'on EpicKor.com.',
+    ],
+  },
+  171: {
+    1: [
+      'Tourists look for',
+      'a special Korean breakfast.',
+      'Locals often solve',
+      'the morning at',
+      'a convenience store.',
+    ],
+    2: [
+      'A Korean convenience store breakfast',
+      'is not one menu.',
+      'It is tiny choices:',
+      'rice, bread, coffee,',
+      'milk, eggs.',
+    ],
+    3: [
+      'The safest first pick',
+      'is triangle gimbap.',
+      'Rice, filling, and seaweed',
+      'in one neat',
+      'commute food.',
+    ],
+    4: [
+      'Match the order',
+      'to your day.',
+      'Walking a lot?',
+      'Choose rice.',
+      'Not hungry yet?',
+      'Bread and coffee.',
+    ],
+    5: [
+      'If you try triangle gimbap,',
+      'the wrapper matters.',
+      'Pull tab one first,',
+      'then the side wrappers.',
+    ],
+    6: [
+      'And if the store has seats,',
+      'keep it quick.',
+      'Eat, tidy up,',
+      'and leave space',
+      'for the next person.',
+    ],
+    7: [
+      'Try the simple local order:',
+      'triangle gimbap,',
+      'one drink,',
+      'and one small extra.',
+      'Full guide on EpicKor.com.',
+    ],
+  },
 };
 
-function getCaptionBeats(scene) {
-  return captionBeatOverrides[scene.number] || splitCaption(scene.subtitleText || scene.narration);
+function getCaptionBeats(scene, reelSlug) {
+  return captionBeatOverridesBySlug[reelSlug]?.[scene.number] || splitCaption(scene.subtitleText || scene.narration);
+}
+
+function captionBeatWeight(beat) {
+  const text = String(beat || '');
+  const words = text.trim().split(/\s+/).filter(Boolean).length;
+  const pauses = (text.match(/[,:;.!?]/g) || []).length;
+  return Math.max(1, words + pauses * 0.45);
+}
+
+function getCaptionBeatStartFrames(beats, durationFrames) {
+  if (!beats.length) return [];
+  const weights = beats.map(captionBeatWeight);
+  const total = weights.reduce((sum, weight) => sum + weight, 0);
+  let cursor = 0;
+  return beats.map((_, index) => {
+    const start = index === 0 ? 0 : Math.min(durationFrames - 1, Math.round(cursor));
+    cursor += (weights[index] / total) * durationFrames;
+    return start;
+  });
 }
 
 function getAudioDurationSeconds(filePath) {
@@ -145,10 +217,23 @@ const assetManifestPath = path.join(reelDir, 'asset-manifest.json');
 const motionCardsPath = path.join(reelDir, 'motion-cards.json');
 const motionCardTemplatesPath = path.join(reelDir, 'motion-card-templates.json');
 const defaultMotionCardTemplatesPath = path.join(ROOT, '.claude', 'skills', 'reels', 'motion-card-templates.json');
+const scenesFile = readJson(scenesPath);
 const audioFileName = audioVersion ? `narration-${audioVersion}.mp3` : 'narration.mp3';
 const audioPath = path.join(reelDir, 'audio', audioFileName);
 const publicAudioPath = path.join(ROOT, 'public', 'assets', 'reels', slug, 'audio', audioFileName);
-const partGroups = [
+const partGroupsBySlug = {
+  170: [
+    { part: 1, scenes: [1, 2, 3] },
+    { part: 2, scenes: [4, 5, 6] },
+    { part: 3, scenes: [7, 8] },
+  ],
+  171: [
+    { part: 1, scenes: [1, 2] },
+    { part: 2, scenes: [3, 4] },
+    { part: 3, scenes: [5, 6, 7] },
+  ],
+};
+const partGroups = partGroupsBySlug[slug] || [
   { part: 1, scenes: [1, 2, 3] },
   { part: 2, scenes: [4, 5, 6] },
   { part: 3, scenes: [7, 8] },
@@ -168,9 +253,24 @@ const partAudio = audioVersion
       };
     })
   : [];
-const hasPartAudio = partAudio.length > 0 && partAudio.every((part) => fs.existsSync(part.publicPath) && part.durationSeconds);
+const sceneAudio = audioVersion
+  ? scenesFile.scenes.map((scene) => {
+      const fileName = `narration-${audioVersion}-scene-${String(scene.number).padStart(2, '0')}.mp3`;
+      const outputPath = path.join(reelDir, 'audio', fileName);
+      const publicPath = path.join(ROOT, 'public', 'assets', 'reels', slug, 'audio', fileName);
+      const durationSeconds = getAudioDurationSeconds(publicPath) || getAudioDurationSeconds(outputPath);
+      return {
+        sceneNumber: scene.number,
+        fileName,
+        outputPath,
+        publicPath,
+        durationSeconds,
+      };
+    })
+  : [];
+const hasSceneAudio = sceneAudio.length > 0 && sceneAudio.every((scene) => fs.existsSync(scene.publicPath) && scene.durationSeconds);
+const hasPartAudio = !hasSceneAudio && partAudio.length > 0 && partAudio.every((part) => fs.existsSync(part.publicPath) && part.durationSeconds);
 
-const scenesFile = readJson(scenesPath);
 const approvedFile = readJson(approvedPath);
 const assetManifest = fs.existsSync(assetManifestPath) ? readJson(assetManifestPath) : { scenes: [] };
 const motionCardsFile = fs.existsSync(motionCardsPath) ? readJson(motionCardsPath) : { cards: [] };
@@ -187,6 +287,8 @@ if (scenesFile.status !== 'visuals_approved' || !approvedFile.finalizedAt) {
 
 const audioDurationSeconds = hasPartAudio
   ? partAudio.reduce((total, part) => total + part.durationSeconds, 0)
+  : hasSceneAudio
+    ? sceneAudio.reduce((total, scene) => total + scene.durationSeconds, 0)
   : getAudioDurationSeconds(publicAudioPath) || getAudioDurationSeconds(audioPath);
 const baseDurationSeconds = scenesFile.scenes.reduce((total, scene) => total + Number(scene.expectedDurationSeconds || 5), 0);
 const targetDurationSeconds = audioDurationSeconds || baseDurationSeconds;
@@ -196,7 +298,11 @@ const totalWeight = scenesFile.scenes.reduce((total, scene) => total + narration
 let startFrame = 0;
 const sceneDurations = new Map();
 
-if (hasPartAudio) {
+if (hasSceneAudio) {
+  for (const scene of sceneAudio) {
+    sceneDurations.set(scene.sceneNumber, Math.max(1, Math.ceil(scene.durationSeconds * FPS)));
+  }
+} else if (hasPartAudio) {
   for (const part of partAudio) {
     const partScenes = scenesFile.scenes.filter((scene) => part.scenes.includes(scene.number));
     const partFrames = Math.max(1, Math.ceil(part.durationSeconds * FPS));
@@ -219,13 +325,15 @@ const scenes = scenesFile.scenes.map((scene, index) => {
   const fallbackFrames = Math.round(Number(scene.expectedDurationSeconds || 5) * FPS);
   const durationFrames = sceneDurations.get(scene.number) || (isLastScene ? targetFrames - startFrame : Math.max(60, audioDurationSeconds ? proportionalFrames : fallbackFrames));
   const assets = assetManifest.scenes.find((item) => item.number === scene.number)?.images || [];
+  const captionBeats = getCaptionBeats(scene, slug);
   const remotionScene = {
     number: scene.number,
     startFrame,
     durationFrames,
     durationSeconds: durationFrames / FPS,
     narration: scene.subtitleText || scene.narration,
-    captionBeats: getCaptionBeats(scene),
+    captionBeats,
+    captionBeatStartFrames: getCaptionBeatStartFrames(captionBeats, durationFrames),
     typographyBeats: scene.typographyBeats || [],
     motion: scene.motion,
     images: assets.map((asset) => ({
@@ -253,7 +361,23 @@ const audioSegments = hasPartAudio
         durationSeconds: durationFrames / FPS,
       };
     })
+  : hasSceneAudio
+    ? sceneAudio.map((audio) => {
+        const scene = scenes.find((item) => item.number === audio.sceneNumber);
+        return {
+          part: audio.sceneNumber,
+          sceneNumber: audio.sceneNumber,
+          file: path.relative(ROOT, audio.outputPath).replace(/\\/g, '/'),
+          publicPath: `/assets/reels/${slug}/audio/${audio.fileName}`,
+          staticFilePath: `assets/reels/${slug}/audio/${audio.fileName}`,
+          startFrame: scene?.startFrame || 0,
+          durationFrames: scene?.durationFrames || Math.ceil(audio.durationSeconds * FPS),
+          durationSeconds: (scene?.durationFrames || Math.ceil(audio.durationSeconds * FPS)) / FPS,
+        };
+      })
   : [];
+
+const approvedMotionCards = (motionCardsFile.cards || []).filter((card) => card.reviewStatus === 'approved');
 
 const outroFrames = 60;
 
@@ -288,7 +412,7 @@ const props = {
     preset: 'modern_reels_phrase_pop',
   },
   scenes,
-  motionCards: (motionCardsFile.cards || []).filter((card) => card.reviewStatus !== 'rejected'),
+  motionCards: approvedMotionCards,
   motionCardTemplates: motionCardTemplatesFile.templates || [],
 };
 

@@ -40,7 +40,27 @@ async function downloadImage(url, outputPath) {
     return { skipped: true, bytes: fs.statSync(outputPath).size };
   }
 
-  const response = await fetch(url);
+  if (String(url || '').startsWith('/assets/')) {
+    const localSourcePath = path.join(ROOT, 'public', String(url).replace(/^\/assets\//, 'assets/'));
+    if (!fs.existsSync(localSourcePath)) {
+      throw new Error(`Local asset not found: ${url}`);
+    }
+    fs.copyFileSync(localSourcePath, outputPath);
+    return { skipped: false, bytes: fs.statSync(outputPath).size };
+  }
+
+  let response;
+  for (let attempt = 1; attempt <= 3; attempt += 1) {
+    response = await fetch(url, {
+      headers: {
+        'User-Agent': 'EpicKorReelsAssetPrep/1.0 (https://www.epickor.com; editorial asset preparation)',
+        'Accept': 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+      },
+      redirect: 'follow',
+    });
+    if (response.ok || ![429, 500, 502, 503, 504].includes(response.status) || attempt === 3) break;
+    await new Promise((resolve) => setTimeout(resolve, 1500 * attempt));
+  }
   if (!response.ok) {
     throw new Error(`Image download failed: ${response.status} ${response.statusText} ${url}`);
   }

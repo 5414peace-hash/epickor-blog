@@ -110,6 +110,10 @@ function getCandidates(payload: Payload, sceneNumber: number): Candidate[] {
   return payload.candidateScenes.find((scene) => scene.number === sceneNumber)?.candidates || [];
 }
 
+function getMotionCards(payload: Payload, sceneNumber: number): MotionCard[] {
+  return (payload.motionCards || []).filter((card) => card.sceneNumber === sceneNumber);
+}
+
 export default function ReelsReviewClient({ initialPayload }: Props) {
   const [payload, setPayload] = useState<Payload>(initialPayload);
   const [savingId, setSavingId] = useState<string>('');
@@ -119,20 +123,28 @@ export default function ReelsReviewClient({ initialPayload }: Props) {
 
   const progress = useMemo(() => {
     const total = payload.scenes.length;
-    const approved = payload.scenes.filter((scene) => (scene.selectedImages || []).length >= payload.minRankedVisualsPerScene).length;
+    const approved = payload.scenes.filter((scene) => {
+      const motionCards = getMotionCards(payload, scene.number);
+      if (motionCards.length > 0) return motionCards.some((card) => card.reviewStatus === 'approved');
+      return (scene.selectedImages || []).length >= payload.minRankedVisualsPerScene;
+    }).length;
     const replaceNeeded = payload.candidateScenes.filter((scene) =>
       scene.candidates.some((candidate) => candidate.reviewStatus === 'replace_needed')
     ).length;
     const motionCards = payload.motionCards || [];
     const approvedMotionCards = motionCards.filter((card) => card.reviewStatus === 'approved').length;
     return { total, approved, replaceNeeded, motionCards: motionCards.length, approvedMotionCards };
-  }, [payload.candidateScenes, payload.minRankedVisualsPerScene, payload.motionCards, payload.scenes]);
+  }, [payload, payload.candidateScenes, payload.minRankedVisualsPerScene, payload.motionCards, payload.scenes]);
 
   const missingScenes = useMemo(() => {
     return payload.scenes
-      .filter((scene) => (scene.selectedImages || []).length < payload.minRankedVisualsPerScene)
+      .filter((scene) => {
+        const motionCards = getMotionCards(payload, scene.number);
+        if (motionCards.length > 0) return !motionCards.some((card) => card.reviewStatus === 'approved');
+        return (scene.selectedImages || []).length < payload.minRankedVisualsPerScene;
+      })
       .map((scene) => scene.number);
-  }, [payload.minRankedVisualsPerScene, payload.scenes]);
+  }, [payload, payload.minRankedVisualsPerScene, payload.scenes]);
 
   async function updateCandidate(sceneNumber: number, candidateId: string, status: ReviewStatus) {
     setSavingId(candidateId);
@@ -329,21 +341,14 @@ export default function ReelsReviewClient({ initialPayload }: Props) {
           <StatusPanel payload={payload} message={message} missingScenes={missingScenes} savingId={savingId} />
         </header>
 
-        {payload.motionCards && payload.motionCards.length > 0 && (
-          <MotionCardReviewSection
-            cards={payload.motionCards}
-            templates={payload.motionCardTemplates || []}
-            targetCoverageRatio={payload.motionCardTargetCoverageRatio}
-            savingId={savingId}
-            onUpdate={updateMotionCard}
-            onTemplateUpdate={updateMotionCardTemplate}
-          />
-        )}
-
         <div style={{ display: 'grid', gap: 18 }}>
           {payload.scenes.map((scene) => {
             const candidates = getCandidates(payload, scene.number);
-            const rankedCount = (scene.selectedImages || []).length;
+            const sceneMotionCards = getMotionCards(payload, scene.number);
+            const isMotionScene = sceneMotionCards.length > 0;
+            const rankedCount = isMotionScene
+              ? sceneMotionCards.filter((card) => card.reviewStatus === 'approved').length
+              : (scene.selectedImages || []).length;
             const replaceCount = candidates.filter((candidate) => candidate.reviewStatus === 'replace_needed').length;
             return (
               <section
@@ -363,9 +368,15 @@ export default function ReelsReviewClient({ initialPayload }: Props) {
                     <h2 style={{ margin: 0, fontSize: 22, letterSpacing: 0 }}>Scene {scene.number}</h2>
                     <div style={{ display: 'flex', gap: 8, flexWrap: 'wrap', justifyContent: 'flex-end' }}>
                       <span style={pillStyle(statusColors[scene.reviewStatus])}>{statusLabels[scene.reviewStatus]}</span>
-                      <span style={pillStyle(rankedCount >= payload.minRankedVisualsPerScene ? '#146c43' : '#9a3412')}>
-                        {rankedCount}/{payload.minRankedVisualsPerScene}+ ranked
-                      </span>
+                      {isMotionScene ? (
+                        <span style={pillStyle(rankedCount >= 1 ? '#146c43' : '#9a3412')}>
+                          {rankedCount}/1 motion selected
+                        </span>
+                      ) : (
+                        <span style={pillStyle(rankedCount >= payload.minRankedVisualsPerScene ? '#146c43' : '#9a3412')}>
+                          {rankedCount}/{payload.minRankedVisualsPerScene}+ ranked
+                        </span>
+                      )}
                       {replaceCount > 0 && <span style={pillStyle('#9a3412')}>{replaceCount} replace requests</span>}
                     </div>
                   </div>
@@ -406,8 +417,18 @@ export default function ReelsReviewClient({ initialPayload }: Props) {
                   )}
                 </div>
 
-                <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(165px, 1fr))', gap: 10 }}>
-                  {candidates.map((candidate) => (
+                {isMotionScene ? (
+                  <MotionCardReviewSection
+                    cards={sceneMotionCards}
+                    templates={payload.motionCardTemplates || []}
+                    targetCoverageRatio={payload.motionCardTargetCoverageRatio}
+                    savingId={savingId}
+                    onUpdate={updateMotionCard}
+                    onTemplateUpdate={updateMotionCardTemplate}
+                  />
+                ) : (
+                  <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(165px, 1fr))', gap: 10 }}>
+                    {candidates.map((candidate) => (
                     <article
                       key={candidate.id}
                       style={{
@@ -485,8 +506,9 @@ export default function ReelsReviewClient({ initialPayload }: Props) {
                         </button>
                       </div>
                     </article>
-                  ))}
-                </div>
+                    ))}
+                  </div>
+                )}
               </section>
             );
           })}
@@ -529,7 +551,6 @@ function MotionCardReviewSection({
       style={{
         display: 'grid',
         gap: 16,
-        marginBottom: 18,
         padding: 16,
         border: '1px solid #ddd6fe',
         borderRadius: 8,
@@ -539,9 +560,9 @@ function MotionCardReviewSection({
       <div style={{ display: 'flex', justifyContent: 'space-between', gap: 12, alignItems: 'end', flexWrap: 'wrap' }}>
         <div style={{ display: 'grid', gap: 5 }}>
           <p style={labelStyle}>Motion Card Review</p>
-          <h2 style={{ margin: 0, fontSize: 24, letterSpacing: 0 }}>9:16 card-motion inserts</h2>
+          <h2 style={{ margin: 0, fontSize: 24, letterSpacing: 0 }}>Choose one motion design</h2>
           <p style={{ ...smallMetaStyle, margin: 0 }}>
-            These cards replace the regular center subtitle layer for selected scenes and hold long enough to read as motion.
+            These are alternative designs for this scene. Approving one option replaces the regular image-candidate ranking for this scene.
           </p>
         </div>
         <div style={{ display: 'flex', gap: 8, flexWrap: 'wrap' }}>
@@ -685,10 +706,113 @@ function MotionCardPreview({ card }: { card: MotionCard }) {
         />
       ) : null}
       <div style={{ position: 'absolute', inset: 0, background: `rgba(0,0,0,${card.overlayOpacity})` }} />
+      {template === 'convenience_tray' ? <PreviewConvenienceTray card={card} /> : null}
+      {template === 'morning_route' ? <PreviewMorningRoute card={card} /> : null}
+      {template === 'wrapper_tabs' ? <PreviewWrapperTabs card={card} /> : null}
+      {template === 'receipt_stack' ? <PreviewReceiptStack card={card} /> : null}
       {template === 'radial_burst' ? <PreviewRadial card={card} /> : null}
       {template === 'menu_board' ? <PreviewMenu card={card} /> : null}
       {template === 'split_checklist' ? <PreviewChecklist card={card} /> : null}
-      {template !== 'radial_burst' && template !== 'menu_board' && template !== 'split_checklist' ? <PreviewGeneric card={card} /> : null}
+      {!['convenience_tray', 'morning_route', 'wrapper_tabs', 'receipt_stack', 'radial_burst', 'menu_board', 'split_checklist'].includes(template) ? <PreviewGeneric card={card} /> : null}
+    </div>
+  );
+}
+
+function PreviewConvenienceTray({ card }: { card: MotionCard }) {
+  const colors = ['#fff7d6', '#d8f3ee', '#ffe1d2', '#eef2ff', '#fef3c7'];
+  return (
+    <div style={{ position: 'absolute', inset: '7% 7%', overflow: 'hidden', borderRadius: 16, background: 'linear-gradient(180deg, rgba(255,250,235,0.97), rgba(238,247,244,0.94))', color: '#10231f', boxShadow: '0 12px 30px rgba(0,0,0,0.28)' }}>
+      <div style={{ height: 20, background: `repeating-linear-gradient(90deg, ${card.accentColor} 0 6px, #10231f 6px 10px)` }} />
+      <div style={{ padding: 14, display: 'grid', gap: 7 }}>
+        <div style={{ display: 'flex', justifyContent: 'space-between', gap: 8, color: card.accentColor, fontSize: 9, fontWeight: 950, textTransform: 'uppercase' }}>
+          <span>{card.kicker}</span>
+          <span style={{ color: '#24312d' }}>07:42</span>
+        </div>
+        <PreviewLineStack lines={textLines(card.headline, card.headlineLines)} style={{ fontSize: 25, fontWeight: 950, lineHeight: 0.9, textTransform: 'uppercase' }} />
+        <PreviewLineStack lines={textLines(card.subhead, card.subheadLines)} style={{ color: '#36413d', fontSize: 11, fontWeight: 820, lineHeight: 1.14 }} />
+      </div>
+      <div style={{ position: 'absolute', left: 14, right: 14, bottom: 54, display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 7 }}>
+        {card.bullets.map((bullet, index) => (
+          <div key={bullet} style={{ minHeight: index === 0 ? 56 : 44, gridColumn: index === 0 ? 'span 2' : 'span 1', display: 'flex', alignItems: 'center', justifyContent: 'space-between', gap: 6, borderRadius: 9, padding: '0 9px', background: colors[index % colors.length], border: '1px solid rgba(16,35,31,0.12)' }}>
+            <span style={{ fontSize: index === 0 ? 18 : 13, fontWeight: 950, lineHeight: 1, textTransform: 'uppercase' }}>{bullet}</span>
+            <span style={{ minWidth: 20, height: 20, display: 'grid', placeItems: 'center', borderRadius: 5, color: '#fffaf0', background: '#10231f', fontSize: 8, fontWeight: 950 }}>{String(index + 1).padStart(2, '0')}</span>
+          </div>
+        ))}
+      </div>
+      <PreviewLineStack lines={textLines(card.footer, card.footerLines)} style={{ position: 'absolute', left: 14, right: 14, bottom: 14, color: '#47534e', fontSize: 9, fontWeight: 850, lineHeight: 1.12, textTransform: 'uppercase' }} />
+    </div>
+  );
+}
+
+function PreviewMorningRoute({ card }: { card: MotionCard }) {
+  return (
+    <div style={{ position: 'absolute', inset: '7% 7%' }}>
+      <PreviewShell card={card} />
+      <div style={{ position: 'absolute', left: 27, top: '37%', bottom: '16%', width: 6, borderRadius: 999, background: `linear-gradient(180deg, ${card.accentColor}, #fff, ${card.accentColor})` }} />
+      <div style={{ position: 'absolute', left: 0, right: 0, top: '33%', display: 'grid', gap: 12 }}>
+        {card.bullets.map((bullet, index) => {
+          const parts = bullet.split('->').map((part) => part.trim());
+          return (
+            <div key={bullet} style={{ display: 'grid', gridTemplateColumns: '34px 1fr', gap: 8, alignItems: 'center' }}>
+              <span style={{ width: 34, height: 34, display: 'grid', placeItems: 'center', borderRadius: 999, background: card.accentColor, color: '#111', fontSize: 12, fontWeight: 950, border: '2px solid rgba(255,255,255,0.8)' }}>{index + 1}</span>
+              <span style={{ minHeight: 42, display: 'grid', gridTemplateColumns: '1fr auto 1fr', alignItems: 'center', gap: 5, padding: '0 9px', borderRadius: 10, background: 'rgba(255,255,255,0.16)', border: '1px solid rgba(255,255,255,0.2)' }}>
+                <span style={{ fontSize: 10, fontWeight: 900, textTransform: 'uppercase' }}>{parts[0]}</span>
+                <span style={{ color: card.accentColor, fontSize: 15, fontWeight: 950 }}>→</span>
+                <span style={{ fontSize: 12, fontWeight: 950, textTransform: 'uppercase' }}>{parts[1] || ''}</span>
+              </span>
+            </div>
+          );
+        })}
+      </div>
+      <PreviewLineStack lines={textLines(card.footer, card.footerLines)} style={{ position: 'absolute', left: 18, right: 18, bottom: 8, textAlign: 'center', fontSize: 10, fontWeight: 850, lineHeight: 1.14, color: 'rgba(255,255,255,0.72)', textTransform: 'uppercase' }} />
+    </div>
+  );
+}
+
+function PreviewWrapperTabs({ card }: { card: MotionCard }) {
+  return (
+    <div style={{ position: 'absolute', inset: '7% 7%' }}>
+      <div style={{ position: 'absolute', inset: '4% 4% 11%', overflow: 'hidden', borderRadius: '16px 16px 42px 42px', background: 'linear-gradient(180deg, rgba(255,255,255,0.96), rgba(225,242,232,0.94))', color: '#10231f' }}>
+        <div style={{ height: 58, display: 'grid', placeItems: 'center', background: `linear-gradient(135deg, ${card.accentColor}, #f8d36b)`, color: '#fff' }}>
+          <PreviewShell card={card} compact />
+        </div>
+        <div style={{ position: 'absolute', left: 32, right: 32, top: '34%', height: '28%', clipPath: 'polygon(50% 0, 100% 100%, 0 100%)', background: 'linear-gradient(180deg, #17201c, #2f4a3f)' }} />
+        <div style={{ position: 'absolute', left: 54, right: 54, top: '49%', height: '16%', clipPath: 'polygon(50% 0, 100% 100%, 0 100%)', background: '#f5f0df' }} />
+        {card.bullets.map((bullet, index) => {
+          const top = ['26%', '58%', '73%'][index] || '73%';
+          const left = ['7%', '28%', '7%'][index] || '7%';
+          return (
+            <div key={bullet} style={{ position: 'absolute', left, top, width: index === 1 ? '58%' : '72%', minHeight: 36, display: 'grid', gridTemplateColumns: '25px 1fr', alignItems: 'center', gap: 7, padding: '0 8px', borderRadius: 9, background: index === 0 ? card.accentColor : '#ffffff', color: '#10231f', border: '1px solid rgba(16,35,31,0.14)', boxShadow: '0 6px 18px rgba(16,35,31,0.14)' }}>
+              <span style={{ width: 20, height: 20, display: 'grid', placeItems: 'center', borderRadius: 999, background: index === 0 ? '#10231f' : card.accentColor, color: index === 0 ? '#fff' : '#111', fontSize: 9, fontWeight: 950 }}>{index + 1}</span>
+              <span style={{ fontSize: 10, fontWeight: 950, textTransform: 'uppercase' }}>{bullet}</span>
+            </div>
+          );
+        })}
+      </div>
+      <PreviewLineStack lines={textLines(card.footer, card.footerLines)} style={{ position: 'absolute', left: 18, right: 18, bottom: 4, textAlign: 'center', fontSize: 10, fontWeight: 850, lineHeight: 1.14, color: 'rgba(255,255,255,0.76)', textTransform: 'uppercase' }} />
+    </div>
+  );
+}
+
+function PreviewReceiptStack({ card }: { card: MotionCard }) {
+  return (
+    <div style={{ position: 'absolute', inset: '7% 8%', transform: 'rotate(1deg)', overflow: 'hidden', borderRadius: 7, background: 'linear-gradient(180deg, #fffaf0, #f8efe0)', color: '#1c1917', boxShadow: '0 10px 28px rgba(0,0,0,0.34)' }}>
+      <div style={{ height: 13, background: 'repeating-linear-gradient(90deg, transparent 0 8px, rgba(28,25,23,0.12) 8px 11px)' }} />
+      <div style={{ padding: '20px 16px 0', display: 'grid', gap: 7 }}>
+        <div style={{ color: card.accentColor, fontSize: 9, fontWeight: 950, textTransform: 'uppercase' }}>{card.kicker}</div>
+        <PreviewLineStack lines={textLines(card.headline, card.headlineLines)} style={{ fontSize: 24, fontWeight: 950, lineHeight: 0.9, textTransform: 'uppercase' }} />
+        <PreviewLineStack lines={textLines(card.subhead, card.subheadLines)} style={{ color: '#57534e', fontSize: 10, fontWeight: 820, lineHeight: 1.13 }} />
+      </div>
+      <div style={{ position: 'absolute', left: 16, right: 16, top: '38%', display: 'grid', gap: 5 }}>
+        {card.bullets.map((bullet, index) => (
+          <div key={bullet} style={{ display: 'grid', gridTemplateColumns: '1fr auto', alignItems: 'center', minHeight: 28, borderBottom: '1px dotted rgba(28,25,23,0.25)' }}>
+            <span style={{ fontSize: 11, fontWeight: 950, textTransform: 'uppercase' }}>{bullet}</span>
+            <span style={{ fontSize: 10, fontWeight: 950, color: card.accentColor }}>{String(index + 1).padStart(2, '0')}</span>
+          </div>
+        ))}
+      </div>
+      <div style={{ position: 'absolute', left: 16, right: 16, bottom: 44, height: 22, background: 'repeating-linear-gradient(90deg, #1c1917 0 3px, transparent 3px 6px)' }} />
+      <PreviewLineStack lines={textLines(card.footer, card.footerLines)} style={{ position: 'absolute', left: 16, right: 16, bottom: 13, color: '#57534e', fontSize: 9, fontWeight: 850, lineHeight: 1.12, textTransform: 'uppercase' }} />
     </div>
   );
 }
@@ -853,7 +977,7 @@ function ReviewActionsBar({
         </span>
       ) : missingScenes.length > 0 ? (
         <span style={{ color: '#7c2d12', fontSize: 13, fontWeight: 800 }}>
-          Rank at least two visuals for scenes {missingScenes.join(', ')} before finalizing.
+          Complete visual or motion-card selections for scenes {missingScenes.join(', ')} before finalizing.
         </span>
       ) : (
         <span style={{ color: '#146c43', fontSize: 13, fontWeight: 800 }}>

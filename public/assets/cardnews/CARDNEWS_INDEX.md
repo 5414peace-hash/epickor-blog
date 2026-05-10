@@ -20,5 +20,7 @@ Instagram upload is representative-managed, so upload status is intentionally le
 | `2026-05-03_159` | 159 | Not Seoul But Gyeongju Korea Travel | 7 | final | manual check |
 | `2026-05-06_038` | 038 | 4 Korean Ramen You Must Try | 7 | final | manual check |
 | `2026-05-07_171` | 171 | Korean Convenience Store Breakfast | 7 | final confirmed | representative-managed |
+| `2026-05-08_008` | 008 | Korean Garlic Culture | 7 | final | representative-managed |
+| `2026-05-08_043` | 043 | Jang Wonyoung and Wonyoungism | 7 | final | representative-managed |
 | `2026-05-08_082` | 082 | SKY Universities in Korea | 7 | final confirmed | representative-managed |
 | `2026-05-08_090` | 090 | Ahjussi Meaning in Korean | 6 | final confirmed | representative-managed |

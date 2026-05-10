@@ -41,7 +41,10 @@ function writeJson(filePath, value) {
 }
 
 function run(command, args) {
-  const result = spawnSync(command, args, {
+  const commandArgs = process.platform === 'win32' && command.endsWith('.cmd')
+    ? ['cmd.exe', ['/d', '/s', '/c', command, ...args]]
+    : [command, args];
+  const result = spawnSync(commandArgs[0], commandArgs[1], {
     cwd: ROOT,
     stdio: 'inherit',
     shell: false,

@@ -11,6 +11,7 @@
     "reels:props": "node .claude/skills/reels/scripts/build-remotion-props.mjs",
     "reels:voices": "node .claude/skills/reels/scripts/elevenlabs-voices.mjs",
     "reels:tts": "node .claude/skills/reels/scripts/elevenlabs-tts.mjs",
+    "reels:validate": "node .claude/skills/reels/scripts/validate-render-readiness.mjs",
     "reels:render": "node .claude/skills/reels/scripts/render-reel.mjs",
     "reels:studio:170": "remotion studio remotion/Root.tsx --props output/reels/170/remotion-props.json --port 4001 --no-open",
     "reels:render:170": "npm run reels:render -- --slug 170",
