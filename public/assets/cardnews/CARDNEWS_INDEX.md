@@ -28,3 +28,4 @@ Instagram upload is representative-managed, so upload status is intentionally le
 | `2026-05-10_015` | 015 | Mercedes-Benz Status Culture in Korea | 7 | final | representative-managed |
 | `2026-05-10_055` | 055 | Pali Pali Korean Fast Culture | 7 | final | representative-managed |
 | `2026-05-10_074` | 074 | Seoul Underground Shopping Malls | 7 | final | representative-managed |
+| `2026-05-10_140` | 140 | Korea Public Restroom Travel Tips | 7 | final | representative-managed |

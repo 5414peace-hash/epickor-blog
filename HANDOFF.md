@@ -1,5 +1,47 @@
 # HANDOFF - EpicKor Agent Teams v2
 
+## Latest Update - 2026-05-10 Card News 140 Complete
+
+- Task: Continue the GSC-backed card-news backlog after Card News 055.
+- Source post:
+  - `/blog/140` - `A High-Tech Sanctuary: Why Korea's Public Toilets are the Best in the World`
+  - Reason: next available backlog candidate after `/blog/055`; no prior 140 card-news folder existed.
+- Editorial caution:
+  - The source article contains mojibake in the FAQ line for `Open Toilet`.
+  - Card-news copy avoids that corrupted text and uses plain English visitor guidance instead.
+  - The carousel avoids the source title's broad superlative framing and focuses on practical travel tips.
+- Produced folders:
+  - Working folder: `output/cardnews/2026-05-10_140/`
+  - Publish asset folder: `public/assets/cardnews/2026-05-10_140/`
+- Includes:
+  - `card_01.png` through `card_07.png`
+  - `script.md`
+  - `caption.txt`
+  - `instagram-caption.md`
+  - `image-sources.md`
+- Card flow:
+  - Korean public toilets can surprise visitors
+  - start with subway stations and parks
+  - usually free access
+  - toilet-paper sign rule
+  - subway station emergency tip
+  - carry a small tissue pack
+  - full-guide CTA
+- Visual sourcing:
+  - Final version uses clean graphic-treatment cards only.
+  - Available post-owned 140 images were excluded because they contain embedded short-form captions, large numbers, or cropped text that conflicts with card-news typography.
+  - First render using two images showed cropped embedded text, so the images were removed before final approval.
+  - Cross-post duplicate check found no prior card-news use of `/assets/images/posts/140/`.
+- Verification:
+  - Render command: `python .claude\skills\cardnews\scripts\html-to-png.py --slug 140`
+  - Rendered all seven PNGs successfully after image-removal revision.
+  - All seven public PNGs are `1080x1080`.
+  - Temporary `card_*.html` count is `0`.
+  - Reviewer visually inspected rendered cards for mobile readability, watermark presence, clean typography, practical swipe logic, and absence of cropped embedded image text.
+- Tracking:
+  - Added `2026-05-10_140` to `public/assets/cardnews/CARDNEWS_INDEX.md`.
+  - Instagram upload remains representative-managed; do not present upload as a Codex next action.
+
 ## Latest Update - 2026-05-10 Card News 055 Complete
 
 - Task: Continue the GSC-backed card-news backlog after Card News 015.
