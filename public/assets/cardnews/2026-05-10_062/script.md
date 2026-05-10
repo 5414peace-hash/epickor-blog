@@ -27,9 +27,9 @@ point_color: Gold
 theme: bright
 image_keyword: Museum Kimchikan Insadong
 kicker: WHERE TO LEARN IT
-image: /assets/images/posts/062/4ede73ef-726e-48bf-b436-11ff614ea6d8.png
-image_opacity: 0.70
-image_zoom: 1.18
+image: /assets/images/posts/062/pexels-kimchi-5774156.jpg
+image_opacity: 0.82
+image_zoom: 1.08
 image_position: center center
 image_label: Museum Kimchikan in Insadong
 
@@ -78,10 +78,10 @@ point_color: Red
 theme: bright
 image_keyword: kimjang Korean communal culture
 kicker: KIMJANG CULTURE
-image: /assets/images/posts/062/086_epickor_%EC%A7%84%ED%98%B8.mp4_20240807_143349.147.jpg
-image_opacity: 0.78
-image_zoom: 2.55
-image_position: center bottom
+image: /assets/images/posts/062/pexels-kimchi-wrap-36964141.jpg
+image_opacity: 0.82
+image_zoom: 1.08
+image_position: center center
 image_label: Making kimchi together
 
 **Main:** Kimjang turns food prep\ninto community.
@@ -95,9 +95,9 @@ point_color: Gold
 theme: bright
 image_keyword: why kimchi matters in Korea
 kicker: WHY IT STUCK
-image: /assets/images/posts/062/086_epickor_%EC%A7%84%ED%98%B8.mp4_20240807_143344.588.jpg
-image_opacity: 0.76
-image_zoom: 1.16
+image: /assets/images/posts/062/pexels-korean-sides-32196401.jpg
+image_opacity: 0.82
+image_zoom: 1.08
 image_position: center center
 image_label: Daily food, deep meaning
 
@@ -112,8 +112,8 @@ point_color: Red
 theme: bright
 image_keyword: Korea kimchi culture guide
 kicker: EPICKOR FOOD GUIDE
-image: /assets/images/posts/062/4ede73ef-726e-48bf-b436-11ff614ea6d8.png
-image_opacity: 0.62
+image: /assets/images/posts/062/pexels-kimchi-soup-32196400.jpg
+image_opacity: 0.72
 image_zoom: 1.04
 image_position: center center
 image_label: Read the full kimchi guide

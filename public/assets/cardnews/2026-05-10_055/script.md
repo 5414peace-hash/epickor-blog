@@ -104,15 +104,12 @@ image_label: Convenience creates pressure
 ---
 
 ## Card 07 - Visitor Tip / CTA
-layout: B
+layout: D
 point_color: Gold
 theme: bright
 image_keyword: Korea travel speed culture tip
 kicker: EPICKOR CULTURE GUIDE
-image: /assets/images/posts/055/46a45fa2-5d2f-4d47-933a-340844a60442.png
-image_opacity: 0.72
-image_zoom: 1.05
-image_position: center center
+image:
 image_label: Respect the flow
 
 **Main:** If you need time,\nstep aside first.

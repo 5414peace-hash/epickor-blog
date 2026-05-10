@@ -6,12 +6,13 @@
 - Each card must have a relevant image or visual treatment. Reject cards with generic, misleading, off-topic, or non-Korea visuals when a Korea/EpicKor visual is available.
 - When usable post-owned photos exist, reject photo-free or mostly graphic-only carousels. For a 7-card carousel, require at least 4 image cards unless the representative explicitly approved a lower-image treatment.
 - Reject 3 or more consecutive image-free cards unless the representative explicitly approved the exception and it is recorded in `HANDOFF.md`.
-- High-visual topics such as cars, food, travel places, shopping, beauty, celebrities, products, and venues should normally use photos on 5+ cards in a 7-card carousel. If the carousel repeats crops of the same owned product/brand image, verify the repetition is intentional and documented.
+- High-visual topics such as cars, food, travel places, shopping, beauty, celebrities, products, and venues should normally use photos on 5+ cards in a 7-card carousel. If the same source subject truly must appear more than once, require clearly distinct derivative assets with different paths and documented reason.
+- Reject repeated `image:` paths inside the same carousel. Same-carousel duplicate image paths are failures, not warnings. If the same source must be reused, require a separately saved derivative asset and documented reason.
 - Each card must include a Korea/EpicKor point keyword via `kicker:`.
 - Every rendered card must show `EPICKOR.COM` as the watermark text.
 - Check mobile readability: headline, subtext, kicker, and watermark must be legible at phone size.
 - Check swipe logic: card 1 must make card 2 desirable; each next card should answer or deepen the previous card.
-- Run `node .claude/skills/cardnews/scripts/review-cardnews.mjs --slug {slug}` after rendering and before approval. This catches missing image paths, cross-post image reuse, too many image-free cards, and weak image coverage. Passing this script does not replace manual PNG inspection.
+- Run `node .claude/skills/cardnews/scripts/review-cardnews.mjs --slug {slug}` after rendering and before approval. This catches missing image paths, same-carousel repeated `image:` paths, cross-post image reuse, too many image-free cards, and weak image coverage. Passing this script does not replace manual PNG inspection.
 - Record card news visual review results in `HANDOFF.md`.
 
 ## Reels Review Rules

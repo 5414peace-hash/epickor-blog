@@ -1,6 +1,35 @@
 # HANDOFF - EpicKor Agent Teams v2
 
-## Latest Update - 2026-05-10 Card News Photo Coverage Correction
+## Latest Update - 2026-05-10 Card News Duplicate Image Correction
+
+- Task: Fix representative-flagged duplicate/weak imagery in recently completed card-news sets and harden reviewer rules so the same issue fails automatically next time.
+- Representative finding:
+  - Card News 015 should keep card 01 but replace cards 02-07; the prior owned images did not fit the Mercedes-Benz topic well and card 07 repeated.
+  - Card News 062 card 02 needed a full replacement.
+  - Recently produced sets repeated the same image on cards 01 and 07.
+  - The reviewer pass was not trustworthy because same-carousel duplicate images were not rejected.
+- Root cause:
+  - The card-news reviewer gate was added only after the first weak pass, and its first version still treated same-carousel repeated `image:` paths as warnings.
+  - The parser used `\s*` after `image:`, which can consume newlines in JavaScript and caused blank `image:` fields to be misread from the next metadata line. This inflated image-card counts for image-free cards.
+- Corrective production changes:
+  - `2026-05-10_015`: kept card 01, replaced cards 02-07 with distinct Pexels Mercedes-Benz vehicle/logo photos.
+  - `2026-05-10_062`: replaced card 02 and diversified cards 05-07 with distinct Pexels kimchi/Korean food photos; no `image:` path repeats.
+  - `2026-05-10_055`: changed card 07 from repeated cover image to an image-free CTA; cards 05-06 retain post-owned visuals.
+  - `2026-05-10_140`: changed card 07 from repeated cover image to an image-free CTA; cards 01-06 use distinct post-owned visuals.
+- Review/process fix:
+  - Updated `.claude/skills/cardnews/scripts/review-cardnews.mjs` so repeated same-carousel `image:` paths are failures, not warnings.
+  - Fixed the `image:` parser to use `[ \t]*` so blank image fields remain blank.
+  - Updated `CLAUDE.md` and `.claude/agents/reviewer-team/AGENT.md` to reject same-carousel repeated `image:` paths and require distinct derivative assets if the same source subject must be reused.
+- Verification:
+  - Re-rendered 015, 055, 140, and 062 after the duplicate-image correction.
+  - Ran `node .claude\skills\cardnews\scripts\review-cardnews.mjs --slug 015|055|140|062`.
+  - Results: 015 passed with `7/7` image cards and `0` consecutive image-free cards; 055 passed with `5/7` and `1`; 140 passed with `6/7` and `1`; 062 passed with `7/7` and `0`.
+  - Manually inspected the corrected PNGs, including 015 cards 02-07, 062 cards 02/05/06/07, and the image-free CTA replacements for 055/140 card 07.
+- Tracking:
+  - Updated image-source notes for all four revised folders.
+  - Instagram upload remains representative-managed; do not present upload as a Codex next action.
+
+## Previous Update - 2026-05-10 Card News Photo Coverage Correction
 
 - Task: Fix representative-flagged visual weakness in recently completed card-news sets and prevent recurrence.
 - Representative finding:

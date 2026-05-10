@@ -107,15 +107,12 @@ image_label: Carry tissues just in case
 ---
 
 ## Card 07 - CTA
-layout: B
+layout: D
 point_color: Teal
 theme: bright
 image_keyword: Korea restroom etiquette guide
 kicker: EPICKOR TRAVEL GUIDE
-image: /assets/images/posts/140/140_01.jpg
-image_opacity: 0.58
-image_zoom: 1.20
-image_position: center center
+image:
 image_label: Practical Korea travel detail
 
 **Main:** This is not glamorous,\nbut it saves your trip.

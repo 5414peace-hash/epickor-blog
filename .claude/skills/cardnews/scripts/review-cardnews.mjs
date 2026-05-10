@@ -43,7 +43,7 @@ const script = fs.readFileSync(scriptPath, 'utf8');
 const blocks = script.split(/\n(?=## Card\s+\d+)/g).filter((block) => /^## Card\s+\d+/m.test(block));
 const cards = blocks.map((block) => {
   const number = (block.match(/^## Card\s+(\d+)/m) || [])[1] || '?';
-  const image = (block.match(/^image:\s*(.*)$/m) || [])[1]?.trim() || '';
+  const image = (block.match(/^image:[ \t]*(.*)$/m) || [])[1]?.trim() || '';
   return { number, image };
 });
 
@@ -90,7 +90,7 @@ for (const card of imageCards) {
   }
 
   if (seenWithinCarousel.has(card.image)) {
-    warnings.push(`Repeated image within carousel: ${card.image} on cards ${seenWithinCarousel.get(card.image)} and ${card.number}.`);
+    failures.push(`Repeated image within carousel: ${card.image} on cards ${seenWithinCarousel.get(card.image)} and ${card.number}. Use a different source, crop saved as a separate asset, or an image-free graphic card.`);
   } else {
     seenWithinCarousel.set(card.image, card.number);
   }
