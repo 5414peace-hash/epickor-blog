@@ -26,4 +26,5 @@ Instagram upload is representative-managed, so upload status is intentionally le
 | `2026-05-08_090` | 090 | Ahjussi Meaning in Korean | 6 | final confirmed | representative-managed |
 | `2026-05-10_011` | 011 | Korean Blood Type Personality Myth | 8 | final revised | representative-managed |
 | `2026-05-10_015` | 015 | Mercedes-Benz Status Culture in Korea | 7 | final | representative-managed |
+| `2026-05-10_055` | 055 | Pali Pali Korean Fast Culture | 7 | final | representative-managed |
 | `2026-05-10_074` | 074 | Seoul Underground Shopping Malls | 7 | final | representative-managed |
