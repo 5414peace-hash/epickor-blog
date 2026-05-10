@@ -1,5 +1,46 @@
 # HANDOFF - EpicKor Agent Teams v2
 
+## Latest Update - 2026-05-10 Card News 062 Complete
+
+- Task: Continue the Instagram revival card-news backlog after Card News 140.
+- Source post:
+  - `/blog/062` - `The Fermented Soul: A Deep Dive into Kimchi Culture at Museum Kimchikan`
+  - Reason: priority 9 from `output/strategy/cardnews_priority_backlog_2026-05-02.md` after already completed priorities 1-8; no prior 062 card-news folder existed.
+- Editorial caution:
+  - The source article contains mojibake in several Korean culture explanation lines.
+  - Card-news copy avoids the corrupted text and uses clean English explanations.
+  - The carousel keeps claims broad and cultural, avoiding over-medicalized probiotic/health claims.
+- Produced folders:
+  - Working folder: `output/cardnews/2026-05-10_062/`
+  - Publish asset folder: `public/assets/cardnews/2026-05-10_062/`
+- Includes:
+  - `card_01.png` through `card_07.png`
+  - `script.md`
+  - `caption.txt`
+  - `instagram-caption.md`
+  - `image-sources.md`
+- Card flow:
+  - kimchi is more than a side dish
+  - Museum Kimchikan in Insadong
+  - fermentation as pre-refrigerator food engineering
+  - regional kimchi variation
+  - kimjang as community food prep
+  - why kimchi is useful and emotional
+  - full-guide CTA
+- Visual sourcing:
+  - Final version uses clean graphic-treatment cards only.
+  - Available post-owned 062 images were excluded because they contain large embedded short-form captions or text overlays that would conflict with the card-news layout.
+  - Cross-post duplicate check found no prior card-news use of `/assets/images/posts/062/`.
+- Verification:
+  - Render command: `python .claude\skills\cardnews\scripts\html-to-png.py --slug 062`
+  - Rendered all seven PNGs successfully.
+  - All seven public PNGs are `1080x1080`.
+  - Temporary `card_*.html` count is `0`.
+  - Reviewer visually inspected rendered cards for mobile readability, watermark presence, clean typography, factual caution, and swipe logic.
+- Tracking:
+  - Added `2026-05-10_062` to `public/assets/cardnews/CARDNEWS_INDEX.md`.
+  - Instagram upload remains representative-managed; do not present upload as a Codex next action.
+
 ## Latest Update - 2026-05-10 Card News 140 Complete
 
 - Task: Continue the GSC-backed card-news backlog after Card News 055.
