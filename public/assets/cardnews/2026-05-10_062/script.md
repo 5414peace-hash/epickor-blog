@@ -5,12 +5,15 @@ total_cards: 7
 ---
 
 ## Card 01 - Cover
-layout: D
+layout: B
 point_color: Red
 theme: bright
 image_keyword: kimchi culture Korea
 kicker: KOREAN FOOD CULTURE
-image:
+image: /assets/images/posts/062/4ede73ef-726e-48bf-b436-11ff614ea6d8.png
+image_opacity: 0.64
+image_zoom: 1.04
+image_position: center center
 image_label: More than a side dish
 
 **Main:** Kimchi is not just\na side dish.
@@ -19,12 +22,15 @@ image_label: More than a side dish
 ---
 
 ## Card 02 - Museum Hook
-layout: D
+layout: C
 point_color: Gold
 theme: bright
 image_keyword: Museum Kimchikan Insadong
 kicker: WHERE TO LEARN IT
-image:
+image: /assets/images/posts/062/4ede73ef-726e-48bf-b436-11ff614ea6d8.png
+image_opacity: 0.70
+image_zoom: 1.18
+image_position: center center
 image_label: Museum Kimchikan in Insadong
 
 **Main:** In Insadong,\nthere is a museum for kimchi.
@@ -33,12 +39,15 @@ image_label: Museum Kimchikan in Insadong
 ---
 
 ## Card 03 - Fermentation
-layout: D
+layout: E
 point_color: Red
 theme: bright
 image_keyword: kimchi fermentation science
 kicker: THE SCIENCE
-image:
+image: /assets/images/posts/062/086_epickor_%EC%A7%84%ED%98%B8.mp4_20240807_143344.588.jpg
+image_opacity: 0.78
+image_zoom: 1.18
+image_position: center center
 image_label: Salt, time, and fermentation
 
 **Main:** Kimchi is food engineering\nbefore refrigerators.
@@ -47,12 +56,15 @@ image_label: Salt, time, and fermentation
 ---
 
 ## Card 04 - Regional Variations
-layout: D
+layout: C
 point_color: Gold
 theme: bright
 image_keyword: regional kimchi varieties Korea
 kicker: NOT ONE KIMCHI
-image:
+image: /assets/images/posts/062/086_epickor_%EC%A7%84%ED%98%B8.mp4_20240807_143349.147.jpg
+image_opacity: 0.78
+image_zoom: 2.55
+image_position: center top
 image_label: Every region has a version
 
 **Main:** There is no single\n"Korean kimchi."
@@ -61,12 +73,15 @@ image_label: Every region has a version
 ---
 
 ## Card 05 - Kimjang
-layout: D
+layout: E
 point_color: Red
 theme: bright
 image_keyword: kimjang Korean communal culture
 kicker: KIMJANG CULTURE
-image:
+image: /assets/images/posts/062/086_epickor_%EC%A7%84%ED%98%B8.mp4_20240807_143349.147.jpg
+image_opacity: 0.78
+image_zoom: 2.55
+image_position: center bottom
 image_label: Making kimchi together
 
 **Main:** Kimjang turns food prep\ninto community.
@@ -75,12 +90,15 @@ image_label: Making kimchi together
 ---
 
 ## Card 06 - Why It Matters
-layout: D
+layout: C
 point_color: Gold
 theme: bright
 image_keyword: why kimchi matters in Korea
 kicker: WHY IT STUCK
-image:
+image: /assets/images/posts/062/086_epickor_%EC%A7%84%ED%98%B8.mp4_20240807_143344.588.jpg
+image_opacity: 0.76
+image_zoom: 1.16
+image_position: center center
 image_label: Daily food, deep meaning
 
 **Main:** Kimchi works because\nit is useful and emotional.
@@ -89,12 +107,15 @@ image_label: Daily food, deep meaning
 ---
 
 ## Card 07 - CTA
-layout: D
+layout: B
 point_color: Red
 theme: bright
 image_keyword: Korea kimchi culture guide
 kicker: EPICKOR FOOD GUIDE
-image:
+image: /assets/images/posts/062/4ede73ef-726e-48bf-b436-11ff614ea6d8.png
+image_opacity: 0.62
+image_zoom: 1.04
+image_position: center center
 image_label: Read the full kimchi guide
 
 **Main:** If you understand kimchi,\nyou understand more of Korea.

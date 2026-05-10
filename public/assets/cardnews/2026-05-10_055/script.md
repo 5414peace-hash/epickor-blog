@@ -70,13 +70,16 @@ image_label: Choose fast, pay fast
 ---
 
 ## Card 05 - Why Korea Got Fast
-layout: D
+layout: C
 point_color: Gold
 theme: bright
 image_keyword: Korean rapid modernization speed culture
 kicker: WHY IT GOT FAST
-image:
-image_label: Speed as survival
+image: /assets/images/posts/055/055_frame_3.jpg
+image_opacity: 0.78
+image_zoom: 1.22
+image_position: center center
+image_label: Fast commerce became normal
 
 **Main:** Korea learned speed\nas survival.
 **Sub:** Rebuilding, studying,\nworking, exporting, and catching up\nmade slowness feel dangerous.
@@ -84,12 +87,15 @@ image_label: Speed as survival
 ---
 
 ## Card 06 - The Cost
-layout: D
+layout: E
 point_color: Teal
 theme: bright
 image_keyword: cost of Korean speed culture
 kicker: THE COST
-image:
+image: /assets/images/posts/055/055_frame_4.jpg
+image_opacity: 0.76
+image_zoom: 1.24
+image_position: center center
 image_label: Convenience creates pressure
 
 **Main:** Fast systems feel\namazing to use.
@@ -98,12 +104,15 @@ image_label: Convenience creates pressure
 ---
 
 ## Card 07 - Visitor Tip / CTA
-layout: D
+layout: B
 point_color: Gold
 theme: bright
 image_keyword: Korea travel speed culture tip
 kicker: EPICKOR CULTURE GUIDE
-image:
+image: /assets/images/posts/055/46a45fa2-5d2f-4d47-933a-340844a60442.png
+image_opacity: 0.72
+image_zoom: 1.05
+image_position: center center
 image_label: Respect the flow
 
 **Main:** If you need time,\nstep aside first.

@@ -5,12 +5,15 @@ total_cards: 7
 ---
 
 ## Card 01 - Cover
-layout: D
+layout: B
 point_color: Teal
 theme: bright
 image_keyword: Korean public restroom travel guide
 kicker: KOREA TRAVEL BASICS
-image:
+image: /assets/images/posts/140/140_01.jpg
+image_opacity: 0.62
+image_zoom: 1.16
+image_position: center center
 image_label: Restroom culture can surprise visitors
 
 **Main:** Korean public toilets\ncan surprise first-time visitors.
@@ -19,12 +22,15 @@ image_label: Restroom culture can surprise visitors
 ---
 
 ## Card 02 - Everywhere
-layout: D
+layout: C
 point_color: Gold
 theme: bright
 image_keyword: public restroom in Korea park
 kicker: EASY TO FIND
-image:
+image: /assets/images/posts/140/140_05.jpg
+image_opacity: 0.76
+image_zoom: 1.62
+image_position: center bottom
 image_label: Public restrooms are common
 
 **Main:** Start with subway stations\nand public parks.
@@ -33,12 +39,15 @@ image_label: Public restrooms are common
 ---
 
 ## Card 03 - Free Access
-layout: D
+layout: E
 point_color: Teal
 theme: bright
 image_keyword: free public toilet Korea
 kicker: THE BIG RELIEF
-image:
+image: /assets/images/posts/140/140_02.jpg
+image_opacity: 0.74
+image_zoom: 1.32
+image_position: center bottom
 image_label: Usually no coins needed
 
 **Main:** You usually do not\nneed coins or a code.
@@ -47,12 +56,15 @@ image_label: Usually no coins needed
 ---
 
 ## Card 04 - Toilet Paper
-layout: D
+layout: C
 point_color: Gold
 theme: bright
 image_keyword: Korea toilet paper flush rule
 kicker: PAPER RULE
-image:
+image: /assets/images/posts/140/140_03.jpg
+image_opacity: 0.74
+image_zoom: 1.72
+image_position: center bottom
 image_label: Read the sign first
 
 **Main:** Most places now expect\nyou to flush the paper.
@@ -61,12 +73,15 @@ image_label: Read the sign first
 ---
 
 ## Card 05 - Open Toilet
-layout: D
+layout: E
 point_color: Teal
 theme: bright
 image_keyword: Korean subway restroom entrance
 kicker: EMERGENCY TIP
-image:
+image: /assets/images/posts/140/140_04.jpg
+image_opacity: 0.76
+image_zoom: 1.72
+image_position: center bottom
 image_label: Subway stations are reliable
 
 **Main:** In an emergency,\nlook for a subway station.
@@ -75,12 +90,15 @@ image_label: Subway stations are reliable
 ---
 
 ## Card 06 - Small Prep
-layout: D
+layout: C
 point_color: Gold
 theme: bright
 image_keyword: Korea travel tissue tip
 kicker: SMALL BACKUP
-image:
+image: /assets/images/posts/140/140_06.jpg
+image_opacity: 0.72
+image_zoom: 1.20
+image_position: center center
 image_label: Carry tissues just in case
 
 **Main:** Carry a small tissue pack\nanyway.
@@ -89,12 +107,15 @@ image_label: Carry tissues just in case
 ---
 
 ## Card 07 - CTA
-layout: D
+layout: B
 point_color: Teal
 theme: bright
 image_keyword: Korea restroom etiquette guide
 kicker: EPICKOR TRAVEL GUIDE
-image:
+image: /assets/images/posts/140/140_01.jpg
+image_opacity: 0.58
+image_zoom: 1.20
+image_position: center center
 image_label: Practical Korea travel detail
 
 **Main:** This is not glamorous,\nbut it saves your trip.

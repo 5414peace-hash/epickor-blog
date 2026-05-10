@@ -22,12 +22,15 @@ image_label: Luxury as a signal
 ---
 
 ## Card 02 - Not Just Transport
-layout: D
+layout: C
 point_color: Teal
 theme: bright
 image_keyword: Korean luxury car social status
 kicker: NOT JUST TRANSPORT
-image:
+image: /assets/images/posts/015/015_epickor_%ED%9C%98%EC%88%98.mp4_20240710_112355.634.jpg
+image_opacity: 0.78
+image_zoom: 2.05
+image_position: center bottom
 image_label: Status on the road
 
 **Main:** The logo becomes\na social shortcut.
@@ -36,12 +39,15 @@ image_label: Status on the road
 ---
 
 ## Card 03 - Gangnam Sonata
-layout: D
+layout: E
 point_color: Gold
 theme: bright
 image_keyword: Gangnam Sonata Mercedes E Class
 kicker: GANGNAM SONATA
-image:
+image: /assets/images/posts/015/23e56017-3a5a-4471-921b-aeea0e5cd249.png
+image_opacity: 0.74
+image_zoom: 1.18
+image_position: center center
 image_label: A local nickname
 
 **Main:** The E-Class is\nnicknamed the\n"Gangnam Sonata."
@@ -50,12 +56,15 @@ image_label: A local nickname
 ---
 
 ## Card 04 - Flex Culture
-layout: D
+layout: C
 point_color: Teal
 theme: bright
 image_keyword: Korean flex culture luxury car
 kicker: FLEX CULTURE
-image:
+image: /assets/images/posts/015/015_epickor_%ED%9C%98%EC%88%98.mp4_20240710_112346.978.jpg
+image_opacity: 0.78
+image_zoom: 2.05
+image_position: center bottom
 image_label: Showing success
 
 **Main:** Some Koreans see\nluxury as earned proof.
@@ -64,12 +73,15 @@ image_label: Showing success
 ---
 
 ## Card 05 - Business Logic
-layout: D
+layout: E
 point_color: Gold
 theme: bright
 image_keyword: Korean business luxury car leasing
 kicker: BUSINESS SIGNAL
-image:
+image: /assets/images/posts/015/015_epickor_%ED%9C%98%EC%88%98.mp4_20240710_112355.634.jpg
+image_opacity: 0.76
+image_zoom: 2.05
+image_position: center bottom
 image_label: Work image matters
 
 **Main:** For some owners,\nit is also business image.
@@ -78,12 +90,15 @@ image_label: Work image matters
 ---
 
 ## Card 06 - Brand Psychology
-layout: D
+layout: C
 point_color: Teal
 theme: bright
 image_keyword: Mercedes brand psychology Korea
 kicker: BRAND PSYCHOLOGY
-image:
+image: /assets/images/posts/015/23e56017-3a5a-4471-921b-aeea0e5cd249.png
+image_opacity: 0.76
+image_zoom: 1.22
+image_position: center center
 image_label: German prestige
 
 **Main:** Mercedes carries\na cultural premium.
@@ -92,12 +107,15 @@ image_label: German prestige
 ---
 
 ## Card 07 - CTA
-layout: D
+layout: B
 point_color: Gold
 theme: bright
 image_keyword: Korea Mercedes status culture
 kicker: EPICKOR CULTURE GUIDE
-image:
+image: /assets/images/posts/015/23e56017-3a5a-4471-921b-aeea0e5cd249.png
+image_opacity: 0.72
+image_zoom: 1.06
+image_position: center center
 image_label: Read the signal
 
 **Main:** It is not just\nabout loving foreign cars.

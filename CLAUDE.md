@@ -12,8 +12,12 @@
 - Card-news images for Korea explainers must be Korea-first. Use visibly Korean places, Korean products, Korean signage, Korean packaging, or Korea-shot source metadata whenever the topic is Korean daily life, Korean food, travel, beauty, shopping, or culture.
 - Do not use images that are visibly from another country for Korea explainers. Foreign-language packaging, non-Korean convenience store brands, non-Korean streetscapes, or clearly non-Korean store interiors are disqualifying unless the card is explicitly making an international comparison.
 - If a topic-specific Korean image cannot be found, use a culturally neutral close-up, graphic treatment, or generated/owned visual rather than a visibly foreign stock image.
+- Photo coverage gate: when the source post has usable post-owned photos, the carousel must not become photo-free or mostly graphic-only. For a 7-card carousel, use images on at least 4 cards unless the representative explicitly approves a lower-image treatment.
+- Do not allow 3 or more consecutive image-free cards unless the representative explicitly approves it and the exception is recorded in `HANDOFF.md`.
+- High-visual topics such as cars, food, travel places, shopping, beauty, celebrities, products, and venues should normally use photos on 5+ cards in a 7-card carousel. Repeated crops of the same owned product/brand image are allowed only when the representative asks for stronger visual presence or no other usable owned images exist; document that reason.
 - Before final save, Reviewer must compare the candidate `image:` values against existing `public/assets/cardnews/*/script.md` files and flag any cross-post duplicates.
 - Reviewer must inspect rendered PNGs card by card for image relevance, mobile readability, watermark presence, and swipe logic.
+- Before recording "Reviewer visually inspected" in `HANDOFF.md`, run `node .claude/skills/cardnews/scripts/review-cardnews.mjs --slug {slug}` after rendering. The script passing is not enough by itself; it is the structural gate before manual PNG inspection.
 - Record card news agent roles and rendered-image review in `HANDOFF.md`.
 
 ## Instagram Revival Card News Strategy

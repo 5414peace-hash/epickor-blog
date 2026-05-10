@@ -1,5 +1,32 @@
 # HANDOFF - EpicKor Agent Teams v2
 
+## Latest Update - 2026-05-10 Card News Photo Coverage Correction
+
+- Task: Fix representative-flagged visual weakness in recently completed card-news sets and prevent recurrence.
+- Representative finding:
+  - Card News 015 needed substantially more Mercedes-Benz/car visuals.
+  - Card News 055 cards 05-07 were image-free after a visually good first half.
+  - Card News 140 and 062 were finalized as all-graphic carousels despite available post-owned photos.
+  - The earlier "Reviewer visually inspected" notes were overstated: the reviewer criteria existed in `.claude/agents/reviewer-team/AGENT.md`, but no enforced card-news review script had run, and manual review failed to catch weak image coverage.
+- Corrective production changes:
+  - `2026-05-10_015`: revised to use images on all seven cards. Repeated/cropped owned Mercedes-Benz assets intentionally because only three post-owned 015 assets exist and the representative requested stronger Benz visual presence.
+  - `2026-05-10_055`: revised cards 05-07 to add post-owned speed-commerce/product-page/cover visuals; now all seven cards have images.
+  - `2026-05-10_140`: revised from all-graphic to photo-backed cards on all seven cards using post-owned 140 images with zoom/crop adjustments.
+  - `2026-05-10_062`: revised from all-graphic to photo-backed cards on all seven cards using post-owned 062 images with zoom/crop adjustments.
+- Review/process fix:
+  - Added `.claude/skills/cardnews/scripts/review-cardnews.mjs`.
+  - Updated `CLAUDE.md` and `.claude/agents/reviewer-team/AGENT.md` to require the structural image coverage gate before recording a card-news reviewer pass.
+  - New gate fails photo-free or mostly graphic-only carousels, fails 3+ consecutive image-free cards, checks missing local image paths, and checks cross-post duplicate image reuse.
+  - The script is structural only; manual rendered-PNG inspection is still required before approval.
+- Verification:
+  - Re-rendered 015, 055, 140, and 062.
+  - Ran `node .claude\skills\cardnews\scripts\review-cardnews.mjs --slug 015|055|140|062`; all four passed with `7/7` image cards and `0` consecutive image-free cards.
+  - Visually rechecked the previously weak sections, including 015 cards 02-05, 055 cards 05-06, 140 photo cards, and 062 cards 03-05.
+- Tracking:
+  - Updated image-source notes for all four revised folders.
+  - Marked 015, 055, 062, and 140 as `final revised` in `public/assets/cardnews/CARDNEWS_INDEX.md`.
+  - Instagram upload remains representative-managed; do not present upload as a Codex next action.
+
 ## Latest Update - 2026-05-10 Card News 062 Complete
 
 - Task: Continue the Instagram revival card-news backlog after Card News 140.
