@@ -1,5 +1,42 @@
 # HANDOFF - EpicKor Agent Teams v2
 
+## Latest Update - 2026-05-10 Card News 074 Complete
+
+- Task: Produce the next GSC-backed card news after completing the 171 Reels asset commit/push.
+- Source post:
+  - `/blog/074` - `Seoul Underground Shopping Malls: Best Stations Guide`
+  - Reason: latest weekly strategy still showed `/blog/074` as a high-impression, low-CTR opportunity, and no prior 074 card-news folder existed.
+- Produced folders:
+  - Working folder: `output/cardnews/2026-05-10_074/`
+  - Publish asset folder: `public/assets/cardnews/2026-05-10_074/`
+- Includes:
+  - `card_01.png` through `card_07.png`
+  - `script.md`
+  - `caption.txt`
+  - `instagram-caption.md`
+  - `image-sources.md`
+- Card flow:
+  - Seoul's underground shopping city
+  - choose by mission instead of asking for one best mall
+  - COEX for comfort
+  - Gangnam Station for quick trend shopping
+  - Goto Mall for bargain hunting
+  - Hongdae clarification
+  - final rule and full-guide CTA
+- Visual sourcing:
+  - Used only post-owned assets from `public/assets/images/posts/074/`.
+  - Used each available 074 image once and used graphic-treatment cards for the remaining slides to avoid repeated image reuse.
+  - Cross-post duplicate check found no prior card-news use of `/assets/images/posts/074/`.
+- Verification:
+  - Render command: `python .claude\skills\cardnews\scripts\html-to-png.py --slug 074`
+  - Rendered all seven PNGs successfully.
+  - All seven public PNGs are `1080x1080`.
+  - Temporary `card_*.html` count is `0`.
+  - Reviewer visually inspected rendered cards for readability, watermark presence, image relevance, and swipe logic.
+- Tracking:
+  - Added `2026-05-10_074` to `public/assets/cardnews/CARDNEWS_INDEX.md`.
+  - Instagram upload remains representative-managed; do not present upload as a Codex next action.
+
 ## Latest Update - 2026-05-09 Reels 171 Final Render Complete
 
 - Task: Finalize approved Reels 171 after representative completed the dashboard final step.
