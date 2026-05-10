@@ -1,5 +1,49 @@
 # HANDOFF - EpicKor Agent Teams v2
 
+## Latest Update - 2026-05-10 Card News 015 Complete
+
+- Task: Continue the GSC-backed card-news backlog after QA recheck of Card News 011 and 074.
+- Recent QA recheck:
+  - Card News 011 revised flow now separates Type A, Type B, Type O, and Type AB into individual cards, followed by why-it-stuck and MBTI/CTA cards.
+  - Card News 074 flow was rechecked for swipe logic: mission choice -> COEX -> Gangnam -> Goto -> Hongdae clarification -> CTA. No revision required.
+- Source post:
+  - `/blog/015` - `The Gangnam Sonata: Why Mercedes-Benz is the Ultimate Symbol of Success in Korea`
+  - Reason: latest weekly strategy showed `/blog/015` as a remaining quick-win page with 1,154 impressions, 0.52% CTR, and average position 4.25; no prior 015 card-news folder existed.
+- Editorial caution:
+  - The source post is old and contains strong sales-ranking claims.
+  - Card-news copy intentionally avoids unverified/current-ranking claims such as `#1 market`.
+  - The two chart/stat post-owned images were excluded because their embedded sales-ranking text would require current verification.
+- Produced folders:
+  - Working folder: `output/cardnews/2026-05-10_015/`
+  - Publish asset folder: `public/assets/cardnews/2026-05-10_015/`
+- Includes:
+  - `card_01.png` through `card_07.png`
+  - `script.md`
+  - `caption.txt`
+  - `instagram-caption.md`
+  - `image-sources.md`
+- Card flow:
+  - Mercedes as a Korea status signal
+  - logo as social shortcut
+  - Gangnam Sonata nickname explained carefully
+  - flex culture
+  - business image
+  - brand psychology
+  - culture-guide CTA
+- Visual sourcing:
+  - Used one post-owned 015 cover image from `public/assets/images/posts/015/`.
+  - Used graphic-treatment cards for the remaining slides to avoid unsupported chart/stat visuals.
+  - Cross-post duplicate check found no prior card-news use of `/assets/images/posts/015/`.
+- Verification:
+  - Render command: `python .claude\skills\cardnews\scripts\html-to-png.py --slug 015`
+  - Rendered all seven PNGs successfully.
+  - All seven public PNGs are `1080x1080`.
+  - Temporary `card_*.html` count is `0`.
+  - Reviewer visually inspected rendered cards for mobile readability, watermark presence, image relevance, fact-risk control, and swipe logic.
+- Tracking:
+  - Added `2026-05-10_015` to `public/assets/cardnews/CARDNEWS_INDEX.md`.
+  - Instagram upload remains representative-managed; do not present upload as a Codex next action.
+
 ### Correction - Card News 011 AB-Type Flow Fix
 
 - Representative correctly flagged that the first Card News 011 pass should not have passed review:
