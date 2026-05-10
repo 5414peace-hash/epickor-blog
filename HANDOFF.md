@@ -1,5 +1,23 @@
 # HANDOFF - EpicKor Agent Teams v2
 
+### Correction - Card News 011 AB-Type Flow Fix
+
+- Representative correctly flagged that the first Card News 011 pass should not have passed review:
+  - A and B had individual cards, but O and AB were combined on one card.
+  - The final MBTI/CTA card used the AB image, which made AB feel like a late, unclear afterthought.
+- Fix:
+  - Revised Card News 011 from 7 cards to 8 cards.
+  - Split Type O and Type AB into separate cards.
+  - Set the type-introduction sequence to A -> B -> O -> AB.
+  - Moved MBTI/CTA to an image-free graphic card so it no longer competes with the AB explanation.
+  - Re-rendered all cards with `python .claude\skills\cardnews\scripts\html-to-png.py --slug 011`.
+- Corrected output:
+  - `public/assets/cardnews/2026-05-10_011/card_01.png` through `card_08.png`
+  - All eight cards are `1080x1080`.
+  - Temporary `card_*.html` count is `0`.
+- Reviewer note:
+  - The prior "Reviewer visually inspected" entry was too generous; this sequencing issue should have been caught during swipe-logic review.
+
 ## Latest Update - 2026-05-10 Card News 011 Complete
 
 - Task: Continue the GSC-backed card-news backlog after Card News 074.
@@ -10,7 +28,7 @@
   - Working folder: `output/cardnews/2026-05-10_011/`
   - Publish asset folder: `public/assets/cardnews/2026-05-10_011/`
 - Includes:
-  - `card_01.png` through `card_07.png`
+  - `card_01.png` through `card_08.png`
   - `script.md`
   - `caption.txt`
   - `instagram-caption.md`
@@ -20,19 +38,20 @@
   - what the Korean blood-type question means socially
   - Type A stereotype
   - Type B dating-joke stereotype
-  - Type O and AB stereotypes
+  - Type O stereotype
+  - Type AB stereotype
   - why the label stuck
   - MBTI shift and full-guide CTA
 - Visual sourcing:
   - Used only post-owned assets from `public/assets/images/posts/011/`.
-  - Used five available 011 images plus one graphic-treatment card.
+  - Used six available 011 images plus two graphic-treatment cards.
   - Cross-post duplicate check found no prior card-news use of `/assets/images/posts/011/`.
 - Verification:
   - Render command: `python .claude\skills\cardnews\scripts\html-to-png.py --slug 011`
-  - Rendered all seven PNGs successfully.
-  - All seven public PNGs are `1080x1080`.
+  - Rendered all eight PNGs successfully after correction.
+  - All eight public PNGs are `1080x1080`.
   - Temporary `card_*.html` count is `0`.
-  - Reviewer visually inspected rendered cards for mobile readability, watermark presence, image relevance, and swipe logic.
+  - Reviewer re-inspected revised rendered cards for mobile readability, watermark presence, image relevance, and swipe logic after the AB-flow correction.
 - Tracking:
   - Added `2026-05-10_011` to `public/assets/cardnews/CARDNEWS_INDEX.md`.
   - Instagram upload remains representative-managed; do not present upload as a Codex next action.

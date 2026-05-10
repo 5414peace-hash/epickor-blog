@@ -1,7 +1,7 @@
 ---
 slug: 011
 topic: Korean Blood Type Personality Myth
-total_cards: 7
+total_cards: 8
 ---
 
 ## Card 01 - Cover
@@ -72,24 +72,41 @@ image_label: The dating joke
 
 ---
 
-## Card 05 - O and AB
-layout: E
+## Card 05 - Type O
+layout: C
 point_color: Gold
 theme: bright
-image_keyword: Korean Type O and AB stereotypes
-kicker: O AND AB
+image_keyword: Korean Type O stereotype
+kicker: TYPE O STEREOTYPE
 image: /assets/images/posts/011/1b507c5d-4bbd-48ca-b878-1a59dd3afe6a.png
 image_opacity: 0.96
 image_zoom: 1.00
 image_position: center center
-image_label: Leader or outsider
+image_label: Social and ambitious
 
-**Main:** O becomes the leader.\nAB becomes the mystery.
-**Sub:** O is called social and ambitious.\nAB is called genius, strange,\nor hard to read.
+**Main:** Type O is often\ncast as the leader.
+**Sub:** Social, ambitious,\noutgoing, group-friendly.\nAgain: useful as a joke, not a fact.
 
 ---
 
-## Card 06 - Why It Stuck
+## Card 06 - Type AB
+layout: C
+point_color: Teal
+theme: bright
+image_keyword: Korean Type AB stereotype
+kicker: TYPE AB STEREOTYPE
+image: /assets/images/posts/011/2ae76513-efe7-45b6-9675-a25cbf854a09.png
+image_opacity: 0.96
+image_zoom: 1.00
+image_position: center center
+image_label: Genius or hard to read
+
+**Main:** Type AB gets\nthe mystery role.
+**Sub:** Genius, strange,\nrational, unpredictable,\nor emotionally hard to read.
+
+---
+
+## Card 07 - Why It Stuck
 layout: D
 point_color: Teal
 theme: bright
@@ -103,16 +120,13 @@ image_label: A low-stakes label
 
 ---
 
-## Card 07 - MBTI Shift / CTA
-layout: E
+## Card 08 - MBTI Shift / CTA
+layout: D
 point_color: Gold
 theme: bright
 image_keyword: Korea blood type MBTI shift
 kicker: EPICKOR CULTURE GUIDE
-image: /assets/images/posts/011/2ae76513-efe7-45b6-9675-a25cbf854a09.png
-image_opacity: 0.96
-image_zoom: 1.00
-image_position: center center
+image:
 image_label: From ABO to MBTI
 
 **Main:** Today, MBTI is\nnewer. The habit is older.
