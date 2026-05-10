@@ -1,5 +1,42 @@
 # HANDOFF - EpicKor Agent Teams v2
 
+## Latest Update - 2026-05-10 Card News 011 Complete
+
+- Task: Continue the GSC-backed card-news backlog after Card News 074.
+- Source post:
+  - `/blog/011` - `The ABO Myth: A Deep Dive into South Korea's Blood Type Obsession`
+  - Reason: latest weekly strategy showed `/blog/011` as a remaining low-CTR/high-impression opportunity, and no prior 011 card-news folder existed.
+- Produced folders:
+  - Working folder: `output/cardnews/2026-05-10_011/`
+  - Publish asset folder: `public/assets/cardnews/2026-05-10_011/`
+- Includes:
+  - `card_01.png` through `card_07.png`
+  - `script.md`
+  - `caption.txt`
+  - `instagram-caption.md`
+  - `image-sources.md`
+- Card flow:
+  - blood type as Korean social myth, not science
+  - what the Korean blood-type question means socially
+  - Type A stereotype
+  - Type B dating-joke stereotype
+  - Type O and AB stereotypes
+  - why the label stuck
+  - MBTI shift and full-guide CTA
+- Visual sourcing:
+  - Used only post-owned assets from `public/assets/images/posts/011/`.
+  - Used five available 011 images plus one graphic-treatment card.
+  - Cross-post duplicate check found no prior card-news use of `/assets/images/posts/011/`.
+- Verification:
+  - Render command: `python .claude\skills\cardnews\scripts\html-to-png.py --slug 011`
+  - Rendered all seven PNGs successfully.
+  - All seven public PNGs are `1080x1080`.
+  - Temporary `card_*.html` count is `0`.
+  - Reviewer visually inspected rendered cards for mobile readability, watermark presence, image relevance, and swipe logic.
+- Tracking:
+  - Added `2026-05-10_011` to `public/assets/cardnews/CARDNEWS_INDEX.md`.
+  - Instagram upload remains representative-managed; do not present upload as a Codex next action.
+
 ## Latest Update - 2026-05-10 Card News 074 Complete
 
 - Task: Produce the next GSC-backed card news after completing the 171 Reels asset commit/push.
