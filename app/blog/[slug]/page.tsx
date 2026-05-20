@@ -4,12 +4,12 @@ import Link from 'next/link';
 import { getBlogPost, getAllBlogSlugs, getAllBlogPosts } from '@/lib/blog';
 import { getRelatedPosts } from '@/lib/related-posts';
 import { format } from 'date-fns';
-import ViewTracker from './view-tracker';
 
-export const revalidate = 60;
+export const revalidate = 86400;
+export const dynamicParams = false;
 
 export async function generateStaticParams() {
-  const slugs = getAllBlogSlugs({ includeScheduled: true });
+  const slugs = getAllBlogSlugs();
   return slugs.map((slug) => ({ slug }));
 }
 
@@ -58,8 +58,6 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
   
   return (
     <div className="min-h-screen bg-white">
-      <ViewTracker slug={slug} />
-
       {/* Hero Image */}
       {post.ogImage && (
         <div className="relative h-96 w-full bg-gray-100">

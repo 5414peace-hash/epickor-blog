@@ -1,7 +1,7 @@
 import { getAllBlogPosts } from '@/lib/blog';
 import BlogCard from '@/components/BlogCard';
 
-export const revalidate = 60;
+export const revalidate = 86400;
 
 export default function Home() {
   const posts = getAllBlogPosts();

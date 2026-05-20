@@ -1,13 +1,9 @@
 import fs from 'fs';
 import path from 'path';
-import { getFileFromGithub, putFileToGithub } from './github-repo';
+import { getFileFromGithub } from './github-repo';
 
 const COUNTER_FILE_PATH = 'content/data/post-views.json';
 const LOCAL_COUNTER_FILE_PATH = path.join(process.cwd(), COUNTER_FILE_PATH);
-
-function hasServerWriteToken(): boolean {
-  return Boolean(process.env.STUDIO_GITHUB_TOKEN || process.env.GITHUB_TOKEN || process.env.GITHUB_PAT);
-}
 
 export interface ViewCounterStore {
   updatedAt: string;
@@ -124,33 +120,5 @@ export async function incrementPostView(slug: string): Promise<{ warning?: strin
     return { warning: 'Missing slug for view increment.' };
   }
 
-  if (!hasServerWriteToken()) {
-    return { warning: 'View counter write disabled. Set STUDIO_GITHUB_TOKEN for persistent counting.' };
-  }
-
-  const load = await loadCounterStore();
-  const store = sanitizeStore(load.store);
-  const today = new Date().toISOString().slice(0, 10);
-
-  store.totals[slug] = (store.totals[slug] || 0) + 1;
-  if (!store.daily[today]) {
-    store.daily[today] = {};
-  }
-  store.daily[today][slug] = (store.daily[today][slug] || 0) + 1;
-  store.updatedAt = new Date().toISOString();
-
-  try {
-    await putFileToGithub(
-      COUNTER_FILE_PATH,
-      JSON.stringify(store, null, 2),
-      `[studio] track view ${slug}`,
-      { sha: load.sha }
-    );
-    return load.warning ? { warning: load.warning } : {};
-  } catch (error) {
-    const message = error instanceof Error ? error.message : 'unknown counter save error';
-    return {
-      warning: `View counted in memory but save failed: ${message}`,
-    };
-  }
+  return { warning: 'View counter writes are disabled to prevent deploy and ISR churn.' };
 }
