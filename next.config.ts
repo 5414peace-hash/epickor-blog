@@ -4,6 +4,12 @@ import urlMappings from "./url_mappings.json";
 type UrlMapping = { source: string; destination: string; };
 
 const nextConfig: NextConfig = {
+  outputFileTracingExcludes: {
+    '*': ['./output/**/*'],
+    '/api/reels/*/visuals': ['./public/assets/reels/**/*'],
+    '/reels-review/*': ['./public/assets/reels/**/*'],
+  },
+
   async redirects() {
     // URL 매핑 파일에서 리다이렉트 생성
     return (urlMappings as UrlMapping[]).map((mapping) => ({
