@@ -12,11 +12,18 @@ const nextConfig: NextConfig = {
 
   async redirects() {
     // URL 매핑 파일에서 리다이렉트 생성
-    return (urlMappings as UrlMapping[]).map((mapping) => ({
-      source: mapping.source,
-      destination: mapping.destination,
-      permanent: true, // 301 리다이렉트
-    }));
+    return [
+      {
+        source: '/blog/:id(\\d{3})-:slug',
+        destination: '/blog/:id',
+        permanent: true,
+      },
+      ...(urlMappings as UrlMapping[]).map((mapping) => ({
+        source: mapping.source,
+        destination: mapping.destination,
+        permanent: true, // 301 리다이렉트
+      })),
+    ];
   },
   
   async rewrites() {
