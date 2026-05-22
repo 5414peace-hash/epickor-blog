@@ -14,7 +14,7 @@ const nextConfig: NextConfig = {
     // URL 매핑 파일에서 리다이렉트 생성
     return [
       {
-        source: '/blog/:id(\\d{3})-:slug',
+        source: '/blog/:id(\\d{3})-:slug(.*)',
         destination: '/blog/:id',
         permanent: true,
       },
