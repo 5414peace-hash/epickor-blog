@@ -7,9 +7,7 @@ tags: ["Culture", "Travel", "Sociology"]
 ---
 
 
-
-![EpicKor_건순.mp4_20240710_110419.201.jpg](/assets/images/posts/013/44545854-cde8-4bcd-9791-9b422ddce717.png)
-
+![EpicKor_椰꾨똻??mp4_20240710_110419.201.jpg](/assets/images/posts/013/44545854-cde8-4bcd-9791-9b422ddce717.png)
 
 
 ## Introduction: The High-Context Friction
@@ -18,18 +16,17 @@ Culture is not just what we see (food, clothes, music), but the invisible rules 
 
 ---
 
+<div class="affiliate-inline-cta">
+  <p><strong>Worth comparing:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. A useful starting point for readers who want deeper context on Korean history, society, politics, and modern culture after reading an explainer. Start with <a href="https://www.amazon.com/s?k=korean+culture+history+book&amp;tag=epickor2026-20">Browse Korean Culture and History Books</a>.</p>
+</div>
+
 ## 1. The Sacred Threshold: Shoes and the Floor
 
 
-
-![EpicKor_건순.mp4_20240710_110507.298.jpg](/assets/images/posts/013/8d9141df-b36e-484d-bc70-242395052fff.png)
-
+![EpicKor_椰꾨똻??mp4_20240710_110507.298.jpg](/assets/images/posts/013/8d9141df-b36e-484d-bc70-242395052fff.png)
 
 
-
-
-![EpicKor_건순.mp4_20240710_110539.194.jpg](/assets/images/posts/013/4b5197c4-419f-4cbc-bd0b-cc0509d20194.png)
-
+![EpicKor_椰꾨똻??mp4_20240710_110539.194.jpg](/assets/images/posts/013/4b5197c4-419f-4cbc-bd0b-cc0509d20194.png)
 
 
 To a Korean, the floor is not just a surface for walking; it is a space for living, eating, and sleeping. The Western habit of wearing shoes inside a home is perhaps the single most shocking behavior to a Korean observer. 
@@ -39,15 +36,10 @@ To a Korean, the floor is not just a surface for walking; it is a space for livi
 ## 2. The Directness Dilemma: The Art of Refusal
 
 
-
 <!-- IMAGE_4: Placeholder for future image -->
 
 
-
-
-
 <!-- IMAGE_5: Placeholder for future image -->
-
 
 
 In Western cultures, directness is prized as honesty. In Korea, it can be seen as aggression. 
@@ -56,11 +48,15 @@ In Western cultures, directness is prized as honesty. In Korea, it can be seen a
 
 ---
 
+<div class="affiliate-inline-cta">
+  <p><strong>Worth comparing:</strong> Introductory guide to Hangeul series - Vol.1 Consonant and Vowel. Start with <a href="https://amzn.to/3Zgx6Qq">Korean Alphabet with Writing Workbook</a>.</p>
+</div>
+
 ## 3. Public Silence vs. Private Noise
 
 Foreigners are often puzzled by how quiet a Seoul subway can be, yet how loud a Korean BBQ restaurant is. 
 * **The Public Face:** In shared public transit, Koreans maintain a strict code of silence and spatial awareness to minimize the burden on others. 
-* **The Private Release:** Once inside a 'Bang' or a restaurant, the collective energy is let out. Foreigners who talk loudly on their phones in a quiet cafe are often met with the 'Nunchi' glare—the silent judgment of a high-context society.
+* **The Private Release:** Once inside a 'Bang' or a restaurant, the collective energy is let out. Foreigners who talk loudly on their phones in a quiet cafe are often met with the 'Nunchi' glare?遊쿴e silent judgment of a high-context society.
 
 ## Conclusion: Empathy through Understanding
 

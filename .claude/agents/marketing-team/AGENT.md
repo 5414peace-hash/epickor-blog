@@ -8,7 +8,7 @@
 - Social CTA should point back to `EPICKOR.COM` or the specific blog URL, matching the watermark.
 
 ## 역할
-승인된 블로그 초안에 Amazon Affiliate 링크를 1~3개 자연스럽게 삽입하여 `output/final/{slug}_final.md`를 생성한다.
+승인된 블로그 초안에 Amazon Affiliate 링크를 자연스럽게 삽입하여 `output/final/{slug}_final.md`를 생성한다. 기본값은 얇은 가로형 `.affiliate-inline-cta` 박스 2개이며, 필요하면 조용한 문맥형 텍스트 링크를 추가한다.
 
 ## 트리거 조건
 파이프라인 Step 5B — 사람 승인 완료 후, 카드뉴스팀(Step 5A)과 **동시에** 실행.
@@ -43,6 +43,17 @@ node .claude/skills/marketing/scripts/insert-links.mjs --draft output/drafts/{sl
 - **삽입 금지 구역**: FAQ 섹션, 결론 섹션, 이미지 앞뒤 3줄 이내
 
 ### 삽입 형식
+
+기본 CTA 박스:
+
+```html
+<div class="affiliate-inline-cta">
+  <p><strong>Shopping note:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. Compare <a href="https://amzn.to/XXXXX">Product Name</a> if this part of the guide made you want to try the routine at home.</p>
+</div>
+```
+
+일반 문맥 링크:
+
 ```markdown
 > 🛒 **Recommended**: [Product Name](https://amzn.to/XXXXX) — 한 줄 추천 이유 (15단어 이내)
 ```
@@ -53,13 +64,16 @@ node .claude/skills/marketing/scripts/insert-links.mjs --draft output/drafts/{sl
 ```
 
 ## 성공 기준
-- [ ] 링크 1개 이상, 3개 이하 삽입
+- [ ] Amazon 경로 1개 이상 삽입
+- [ ] 기본적으로 `.affiliate-inline-cta` 박스 2개 삽입
+- [ ] 박스 CTA는 2개 이하 유지
 - [ ] 삽입 위치가 문맥상 자연스러움
+- [ ] 첫 CTA 또는 인접 문구에 Amazon Associate 고지 포함
 - [ ] FAQ/결론 섹션에 링크 없음
 - [ ] `output/final/{slug}_final.md` 파일 생성 확인
 
 ## 실패 처리
-- 관련 상품 없음 → 인기 카테고리 상품으로 대체 후 로그 기록
+- 완벽한 관련 상품 없음 → 가장 가까운 유용한 Amazon 상품 또는 검색 링크로 대체하고 CTA 문구에서 비교/준비/루틴 관점의 이유를 설명
 - 3회 시도 후 삽입 실패 → 링크 없이 final.md 생성 + 로그 기록 (파이프라인 중단 안 함)
 
 ## 완료 후

@@ -48,6 +48,10 @@ Most celebrities seek 'safe' or 'administrative' roles during their service. V d
 * **Special Duty Team (SDT):** This unit is responsible for counter-terrorism, VIP protection, and special operations. It requires extreme physical and mental endurance. 
 * **The 'Bangtan' Identity:** The name BTS stands for *Bangtan Sonyeondan* (Bulletproof Boy Scouts). By serving in an elite unit designed to 'block flying bullets,' V has brought a literal meaning to the group's name, earning immense respect from the Korean public.
 
+<div class="affiliate-inline-cta">
+  <p><strong>K-pop fan-day detail:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. If this military-service chapter has you following Korean pop culture more closely, this <a href="https://amzn.to/4o5YOk8">Korean flag dad hat</a> is a simple fan-event item.</p>
+</div>
+
 ## 2. Conscription as a Social Equalizer
 
 In South Korea, military service is the ultimate equalizer. 
@@ -55,6 +59,10 @@ In South Korea, military service is the ultimate equalizer.
 * **The Movie-Like Reality:** The viral images of V in his anti-terrorist gear have challenged the Western stereotype of the 'soft' K-Pop idol. He has successfully combined global charm with the traditional Korean masculine ideal of the 'Warrior-Scholar.'
 
 ---
+
+<div class="affiliate-inline-cta">
+  <p><strong>Watch-party snack:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. For interviews, comeback clips, or fan edits, <a href="https://amzn.to/3RjAjOp">honey yakgwa</a> is an easy Korean sweet to put on the table.</p>
+</div>
 
 ## Conclusion: The Second Chapter Begins
 

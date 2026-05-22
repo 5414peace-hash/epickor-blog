@@ -7,61 +7,57 @@ tags: ["Culture", "Travel", "Technology", "Economy"]
 ---
 
 
-
-![epickor_민호.mp4_20240728_221749.433.jpg](/assets/images/posts/054/13031ce3-164e-4758-8082-f1e023470333.png)
-
+![epickor_沃섏눛??mp4_20240728_221749.433.jpg](/assets/images/posts/054/13031ce3-164e-4758-8082-f1e023470333.png)
 
 
 ## Introduction: The Rise of the Machine Assistant
 
-In many parts of the world, automation is viewed with skepticism or fear of job loss. In South Korea, it is embraced as the ultimate expression of **'Pali-Pali' (Hurry-Hurry)** efficiency and the **'Untact' (Non-contact)** social trend. From the way Koreans cook their ramen to the way they wash their cars, machines have transitioned from "tools" to "autonomous service providers." This deep dive explores two specific automated marvels—the Hangang Ramen Machine and the High-Pressure Car Wash—revealing a nation that prioritizes precision and speed over human interaction.
+In many parts of the world, automation is viewed with skepticism or fear of job loss. In South Korea, it is embraced as the ultimate expression of **'Pali-Pali' (Hurry-Hurry)** efficiency and the **'Untact' (Non-contact)** social trend. From the way Koreans cook their ramen to the way they wash their cars, machines have transitioned from "tools" to "autonomous service providers." This deep dive explores two specific automated marvels?遊쿴e Hangang Ramen Machine and the High-Pressure Car Wash?遊켩vealing a nation that prioritizes precision and speed over human interaction.
 
 ---
+
+<div class="affiliate-inline-cta">
+  <p><strong>Worth comparing:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. Introductory guide to Hangeul series - Vol.1 Consonant and Vowel. Start with <a href="https://amzn.to/3Zgx6Qq">Korean Alphabet with Writing Workbook</a>.</p>
+</div>
 
 ## 1. The Hangang Ramen Machine: The Engineering of the Perfect Noodle
 
 
-
 <div class="image-grid-2up">
 
-![epickor_민호.mp4_20240728_221757.122.jpg](/assets/images/posts/054/068_epickor_%EB%AF%BC%ED%98%B8.mp4_20240728_221757.122.jpg)
+![epickor_沃섏눛??mp4_20240728_221757.122.jpg](/assets/images/posts/054/068_epickor_%EB%AF%BC%ED%98%B8.mp4_20240728_221757.122.jpg)
 
-![epickor_민호.mp4_20240728_221808.729.jpg](/assets/images/posts/054/068_epickor_%EB%AF%BC%ED%98%B8.mp4_20240728_221808.729.jpg)
+![epickor_沃섏눛??mp4_20240728_221808.729.jpg](/assets/images/posts/054/068_epickor_%EB%AF%BC%ED%98%B8.mp4_20240728_221808.729.jpg)
 
 </div>
 
 
-
-
-
 <div class="image-grid-2up">
 
-![epickor_민호.mp4_20240728_221818.004.jpg](/assets/images/posts/054/068_epickor_%EB%AF%BC%ED%98%B8.mp4_20240728_221818.004.jpg)
+![epickor_沃섏눛??mp4_20240728_221818.004.jpg](/assets/images/posts/054/068_epickor_%EB%AF%BC%ED%98%B8.mp4_20240728_221818.004.jpg)
 
-![epickor_민호.mp4_20240728_221815.824.jpg](/assets/images/posts/054/068_epickor_%EB%AF%BC%ED%98%B8.mp4_20240728_221815.824.jpg)
+![epickor_沃섏눛??mp4_20240728_221815.824.jpg](/assets/images/posts/054/068_epickor_%EB%AF%BC%ED%98%B8.mp4_20240728_221815.824.jpg)
 
 </div>
-
 
 
 Walk into any convenience store along the Han River, and you will see a line of induction machines that have become a national icon.
 * **The Science of Boiling:** These machines don't just "heat" water; they are programmed for the specific thickness of Shin Ramyun or Buldak noodles. They control water volume and temperature to the milliliter and degree.
 * **The Cultural Symbolism:** "Eating ramen at the Han River" (Hangang Ramyun) is a rite of passage for every young Seoulite. The machine ensures that even without a stove, the experience is consistent. It represents the democratization of the "Chef's Touch."
 
+<div class="affiliate-inline-cta">
+  <p><strong>Worth comparing:</strong> A Korean traditional play set for family games, culture explainers, and Squid Game-adjacent interest. Start with <a href="https://amzn.to/4dWw6sx">Gonggi Korean Traditional Game Set</a>.</p>
+</div>
+
 ## 2. Robotic Pampering: The Automatic Car Wash
 
 In Korea, the car is an extension of the self, and its cleanliness is a matter of "Face" (Che-myeon). 
 
 
-
 <!-- IMAGE_4: Placeholder for future image -->
 
 
-
-
-
 <!-- IMAGE_5: Placeholder for future image -->
-
 
 
 * **The Soap Bubble Massage:** Gas station car washes in Korea have evolved into multi-stage robotic theaters. High-pressure jets and specialized foam "massages" are followed by industrial-grade drying fans that leave zero water spots.

@@ -209,6 +209,216 @@
       "category": "Music",
       "image": "",
       "tags": ["Beatbox Training", "Beatbox", "Beatpella House", "Music Gear", "Rhythm Training"]
+    },
+    {
+      "id": "022",
+      "name": "Maxim Mocha Gold Mild Coffee Mix",
+      "description": "A classic Korean instant coffee mix for recreating the sweet cafe-at-home flavor many travelers remember.",
+      "price": "",
+      "url": "https://amzn.to/49fO0E8",
+      "category": "Coffee",
+      "image": "",
+      "tags": ["Maxim Coffee", "Korean Coffee Mix", "Instant Coffee", "Korean Cafe", "Coffee"]
+    },
+    {
+      "id": "023",
+      "name": "Dongsuh Maxim Mocha White Gold Coffee Mix",
+      "description": "A smaller Korean coffee-mix pack that fits cafe culture, office coffee, and Korea-at-home content.",
+      "price": "",
+      "url": "https://amzn.to/4dEQq0e",
+      "category": "Coffee",
+      "image": "",
+      "tags": ["Maxim Coffee", "Dongsuh", "Korean Coffee Mix", "Korean Cafe", "Coffee"]
+    },
+    {
+      "id": "024",
+      "name": "Original Homi Hand Hoe",
+      "description": "A traditional Korean garden tool reference for Korean household, farming, and heritage craft stories.",
+      "price": "",
+      "url": "https://amzn.to/4fAjXuE",
+      "category": "Heritage",
+      "image": "",
+      "tags": ["Homi", "Korean Garden Tool", "Traditional Korean Tool", "Korean Culture"]
+    },
+    {
+      "id": "025",
+      "name": "Korean Sweet Potato Low-Carb Snack Bars",
+      "description": "Individually wrapped Korean sweet potato bars that work as a light travel snack or recovery-day bite.",
+      "price": "",
+      "url": "https://amzn.to/4nI1uhT",
+      "category": "Food",
+      "image": "",
+      "tags": ["Korean Snack", "Sweet Potato", "Travel Snack", "Healthy Snack", "Korea Travel"]
+    },
+    {
+      "id": "026",
+      "name": "Korean Honey Yakgwa Dessert",
+      "description": "Traditional Korean honey cookies that pair naturally with tea, cafe, market, and snack-guide content.",
+      "price": "",
+      "url": "https://amzn.to/3RjAjOp",
+      "category": "Food",
+      "image": "",
+      "tags": ["Yakgwa", "Korean Dessert", "Korean Sweets", "Korean Snack", "Tea Snack"]
+    },
+    {
+      "id": "027",
+      "name": "Korean Flag Dad Hat",
+      "description": "A simple Korea flag hat for travel, event, and Korean national-pride gift angles.",
+      "price": "",
+      "url": "https://amzn.to/3PCxYgL",
+      "category": "Shopping",
+      "image": "",
+      "tags": ["Korean Flag", "Korea Travel", "Korean Gift", "Korea Souvenir"]
+    },
+    {
+      "id": "028",
+      "name": "Gonggi Korean Traditional Game Set",
+      "description": "A Korean traditional play set for family games, culture explainers, and Squid Game-adjacent interest.",
+      "price": "",
+      "url": "https://amzn.to/4dWw6sx",
+      "category": "Culture",
+      "image": "",
+      "tags": ["Gonggi", "Korean Game", "Traditional Korean Game", "Family Game", "Korean Culture"]
+    },
+    {
+      "id": "029",
+      "name": "Korean Bokjumeoni Lucky Pouch",
+      "description": "A traditional Korean color-block lucky pouch for gift, market, hanbok, and souvenir content.",
+      "price": "",
+      "url": "https://amzn.to/42T2B4K",
+      "category": "Shopping",
+      "image": "",
+      "tags": ["Bokjumeoni", "Korean Pouch", "Korean Souvenir", "Hanbok Gift", "Traditional Korean Gift"]
+    },
+    {
+      "id": "030",
+      "name": "Korean Traditional Craft Textile Wallet",
+      "description": "A small Korean-style embroidered wallet that fits souvenir, market-shopping, and traditional craft stories.",
+      "price": "",
+      "url": "https://amzn.to/4fBa7IZ",
+      "category": "Shopping",
+      "image": "",
+      "tags": ["Korean Wallet", "Korean Souvenir", "Traditional Korean Craft", "Korean Gift", "Shopping"]
+    },
+    {
+      "id": "031",
+      "name": "Ssamjang Korean Soybean Paste Sauce",
+      "description": "A Korean BBQ sauce for lettuce wraps, rice, vegetables, and meat, useful for BBQ and ssam guides.",
+      "price": "",
+      "url": "https://amzn.to/4tPG4AY",
+      "category": "Food",
+      "image": "",
+      "tags": ["Ssamjang", "Korean Sauce", "Korean BBQ", "Lettuce Wraps", "Korean Food"]
+    },
+    {
+      "id": "032",
+      "name": "Korean Kimchi Stew with Tofu 2-Pack",
+      "description": "A ready Korean kimchi stew option for home Korean-food guides, rainy-day food, and comfort-food content.",
+      "price": "",
+      "url": "https://amzn.to/4nFcnks",
+      "category": "Food",
+      "image": "",
+      "tags": ["Kimchi Stew", "Kimchi Jjigae", "Korean Soup", "Korean Comfort Food", "Korean Food"]
+    },
+    {
+      "id": "033",
+      "name": "Korean Kimchi Stew with Tofu 3-Pack",
+      "description": "A multi-pack Korean kimchi stew option for readers who want an easy Korean comfort-food pantry item.",
+      "price": "",
+      "url": "https://amzn.to/4v8CX8h",
+      "category": "Food",
+      "image": "",
+      "tags": ["Kimchi Stew", "Kimchi Jjigae", "Korean Soup", "Korean Comfort Food", "Korean Food"]
+    },
+    {
+      "id": "034",
+      "name": "Korean BBQ Scissors and Tongs Set",
+      "description": "A practical Korean BBQ table tool set that makes the grill-and-cut rhythm easier to understand at home.",
+      "price": "",
+      "url": "https://amzn.to/4eX0zI4",
+      "category": "Shopping",
+      "image": "",
+      "tags": ["Korean BBQ", "BBQ Scissors", "BBQ Tongs", "Korean Cookware", "Korean Food"]
+    },
+    {
+      "id": "035",
+      "name": "Electric Hot Pot and Korean BBQ Grill",
+      "description": "A 2-in-1 indoor hot pot and grill for recreating Korean BBQ or hot-pot style meals at home.",
+      "price": "",
+      "url": "https://amzn.to/3RqevR5",
+      "category": "Shopping",
+      "image": "",
+      "tags": ["Korean BBQ Grill", "Hot Pot", "Indoor Grill", "Korean Cookware", "Korean Food"]
+    },
+    {
+      "id": "036",
+      "name": "Korean Style BBQ Grill Pan",
+      "description": "A stovetop Korean-style grill pan for home BBQ, camping, and Korean-table cooking content.",
+      "price": "",
+      "url": "https://amzn.to/4tQ5TAG",
+      "category": "Shopping",
+      "image": "",
+      "tags": ["Korean BBQ Grill", "Grill Pan", "Korean Cookware", "Korean BBQ", "Korean Food"]
+    },
+    {
+      "id": "037",
+      "name": "Browse Korean Phrasebooks",
+      "description": "A practical comparison page for Korean phrasebooks, useful before trips, etiquette-heavy situations, and first conversations in Korea.",
+      "price": "",
+      "url": "https://www.amazon.com/s?k=korean+phrasebook&tag=epickor2026-20",
+      "category": "Culture",
+      "image": "",
+      "tags": ["Korean Phrasebook", "Korean Language", "Korean Travel", "Etiquette", "Conversation"]
+    },
+    {
+      "id": "038",
+      "name": "Browse Korean Culture and History Books",
+      "description": "A useful starting point for readers who want deeper context on Korean history, society, politics, and modern culture after reading an explainer.",
+      "price": "",
+      "url": "https://www.amazon.com/s?k=korean+culture+history+book&tag=epickor2026-20",
+      "category": "Culture",
+      "image": "",
+      "tags": ["Korean Culture", "Korean History", "Korean Society", "Korean Politics", "Korea Book"]
+    },
+    {
+      "id": "039",
+      "name": "Browse Korea Travel Essentials",
+      "description": "A practical comparison page for small Korea-trip essentials such as adapters, pouches, tissues, and compact travel items.",
+      "price": "",
+      "url": "https://www.amazon.com/s?k=korea+travel+essentials&tag=epickor2026-20",
+      "category": "Travel",
+      "image": "",
+      "tags": ["Korea Travel", "Travel Essentials", "Seoul Travel", "Travel Prep", "Tourist"]
+    },
+    {
+      "id": "040",
+      "name": "Browse K-Pop and K-Drama Fan Goods",
+      "description": "A broad fan-goods search that fits Korean celebrity, K-pop, K-drama, concert, and watch-party content without forcing one exact product.",
+      "price": "",
+      "url": "https://www.amazon.com/s?k=kpop+kdrama+fan+goods&tag=epickor2026-20",
+      "category": "Culture",
+      "image": "",
+      "tags": ["Kpop", "K-Drama", "Korean Celebrity", "Fan Goods", "Concert", "Watch Party"]
+    },
+    {
+      "id": "041",
+      "name": "Browse Korean Beauty Starter Products",
+      "description": "A comparison page for Korean skincare basics that fits beauty districts, celebrity visuals, hair salons, and K-beauty shopping stories.",
+      "price": "",
+      "url": "https://www.amazon.com/s?k=korean+beauty+starter+set&tag=epickor2026-20",
+      "category": "Beauty",
+      "image": "",
+      "tags": ["Korean Beauty", "K-Beauty", "Skincare", "Beauty Starter", "Olive Young"]
+    },
+    {
+      "id": "042",
+      "name": "Browse Korean Food Starter Packs",
+      "description": "A broad Korean-food search page for readers who want to try pantry items, snacks, sauces, ramen, or easy Korean meals at home.",
+      "price": "",
+      "url": "https://www.amazon.com/s?k=korean+food+starter+pack&tag=epickor2026-20",
+      "category": "Food",
+      "image": "",
+      "tags": ["Korean Food", "Korean Snacks", "Korean Ramen", "Korean Sauce", "Korean Pantry"]
     }
   ]
 }

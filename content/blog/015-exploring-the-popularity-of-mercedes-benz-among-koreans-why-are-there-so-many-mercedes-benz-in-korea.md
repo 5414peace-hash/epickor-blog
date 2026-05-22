@@ -42,6 +42,10 @@ Historically, even wealthy Koreans drove domestic cars (Hyundai or Kia) to avoid
 * **The Shift:** The current 'MZ Generation' and the new wealthy class have abandoned this modesty. They embrace **'Flex Culture'**—the blatant display of wealth as a reward for their 'Hustle.' 
 * **Social Signaling:** In a society where your 'Face' (Che-myeon) is determined by external markers, the silver star on the hood serves as a universal social passport. It signals that you have "made it" into the elite tier of society.
 
+<div class="affiliate-inline-cta">
+  <p><strong>Style-signal note:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. If the Gangnam status signal is what interests you, compare <a href="https://amzn.to/4rYfeWu">men's luxury blazer options</a> as a smaller way to understand Korean polished-success styling.</p>
+</div>
+
 ## 2. The 'Gangnam Sonata' Phenomenon
 
 
@@ -61,6 +65,10 @@ The Mercedes E-Class is so common in wealthy districts that it earned the nickna
 * **Corporate Leasing:** The popularity is fueled by tax-efficient corporate leasing systems, allowing even small business owners to drive cars that would be considered unreachable in other markets.
 
 ---
+
+<div class="affiliate-inline-cta">
+  <p><strong>Luxury-look shortcut:</strong> For a lighter accessory angle, compare <a href="https://amzn.to/4kTVIZe">fashion sunglasses</a> before trying to read how Korean luxury styling moves from cars to everyday outfits.</p>
+</div>
 
 ## 3. The Psychology of the Brand
 

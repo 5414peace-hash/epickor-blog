@@ -64,6 +64,10 @@ It is not deep philosophy in the academic sense. It is an aesthetic coping strat
 
 That is why it works online. It is short enough for a caption, cute enough for TikTok, and emotionally useful enough for fans to repeat when something annoying happens.
 
+<div class="affiliate-inline-cta">
+  <p><strong>Wonyoungism routine note:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. If the appeal is a softer, more polished daily routine, compare <a href="https://amzn.to/4twhKFk">ROUND LAB 1025 Dokdo Toner</a> as one simple K-beauty step rather than chasing a whole viral shelf.</p>
+</div>
+
 ---
 
 <div class="image-grid-2up">
@@ -109,6 +113,10 @@ For fans, her outfits become reference material. For casual viewers, they make h
 That combination is powerful. A Wonyoung outfit is not just "what she wore." It becomes a mood board: how to stand, how to pose, how to look expensive without looking loud, how to make daily life feel a little more cinematic.
 
 This is where Wonyoungism and fashion meet. The philosophy says, "I will frame my life beautifully." The fashion image shows what that frame might look like.
+
+<div class="affiliate-inline-cta">
+  <p><strong>Style-mood comparison:</strong> For a small fashion signal instead of a full wardrobe reset, compare <a href="https://amzn.to/4kTVIZe">fashion sunglasses</a> with the polished, camera-ready mood fans often associate with Korean celebrity styling.</p>
+</div>
 
 ---
 

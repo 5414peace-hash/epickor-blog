@@ -7,55 +7,51 @@ tags: ["Culture", "Food", "Travel", "Sociology"]
 ---
 
 
-
-![epickor_민호.mp4_20240721_214306.893.jpg](/assets/images/posts/046/b5bd702e-e6b7-4afa-97bb-51d471267746.png)
-
+![epickor_沃섏눛??mp4_20240721_214306.893.jpg](/assets/images/posts/046/b5bd702e-e6b7-4afa-97bb-51d471267746.png)
 
 
 ## Introduction: The Confusion of Generosity
 
-First-time visitors to a Korean restaurant often experience a moment of panic. They order one dish, but the waiter arrives with five, seven, or even ten small plates. "I didn't order this!" is the common cry. This is the **'Banchan' (Side Dish)** system—the bedrock of Korean hospitality. In Korea, food is not just a transaction; it is an expression of **'Jeong'** (social affection and bonding). This deep dive explores the history of the communal table and why the concept of 'free food' is essential to the Korean soul.
+First-time visitors to a Korean restaurant often experience a moment of panic. They order one dish, but the waiter arrives with five, seven, or even ten small plates. "I didn't order this!" is the common cry. This is the **'Banchan' (Side Dish)** system?遊쿴e bedrock of Korean hospitality. In Korea, food is not just a transaction; it is an expression of **'Jeong'** (social affection and bonding). This deep dive explores the history of the communal table and why the concept of 'free food' is essential to the Korean soul.
 
 ---
+
+<div class="affiliate-inline-cta">
+  <p><strong>Worth comparing:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. Authentic Korean snacks to enjoy at home. Start with <a href="https://amzn.to/4bubOGe">Korean Snack</a>.</p>
+</div>
 
 ## 1. The Banchan Philosophy: The Space of the Table
 
 
-
 <div class="image-grid-2up">
 
-![epickor_민호.mp4_20240721_214319.336.jpg](/assets/images/posts/046/049_epickor_%EB%AF%BC%ED%98%B8.mp4_20240721_214319.336.jpg)
+![epickor_沃섏눛??mp4_20240721_214319.336.jpg](/assets/images/posts/046/049_epickor_%EB%AF%BC%ED%98%B8.mp4_20240721_214319.336.jpg)
 
-![epickor_민호.mp4_20240721_214333.833.jpg](/assets/images/posts/046/049_epickor_%EB%AF%BC%ED%98%B8.mp4_20240721_214333.833.jpg)
+![epickor_沃섏눛??mp4_20240721_214333.833.jpg](/assets/images/posts/046/049_epickor_%EB%AF%BC%ED%98%B8.mp4_20240721_214333.833.jpg)
 
 </div>
 
 
-
-
-
 <!-- IMAGE_3: Placeholder for future image -->
-
 
 
 In Western dining, the meal is linear (appetizer, main, dessert). In Korea, the meal is spatial.
 * **The Set (Baek-ban):** The 'Baek-ban' (100-percent rice) meal is a set that includes rice, soup, and an ever-changing variety of side dishes. 
 * **Unlimited Refills:** One of the most shocking rules for foreigners is that these side dishes are typically unlimited. To ask for more Kimchi or seasoned sprouts is not an extra charge; it is expected. This stems from a history of communal farming where sharing food was a matter of survival.
 
-## 2. The 'Service' (서비스) Culture: The Extra Mile
+<div class="affiliate-inline-cta">
+  <p><strong>Worth comparing:</strong> Delicious Korean BBQ flavored seaweed snacks. Start with <a href="https://amzn.to/4qhhWVZ">Bibigo Korean BBQ Flavor Seaweed Snack</a>.</p>
+</div>
+
+## 2. The 'Service' (??뺥돩?? Culture: The Extra Mile
 
 Koreans use the English word 'Service' to describe a free item given by a business. 
-
 
 
 <!-- IMAGE_4: Placeholder for future image -->
 
 
-
-
-
 <!-- IMAGE_5: Placeholder for future image -->
-
 
 
 * **Tactical Generosity:** If you are a regular or if the group is large, the owner might bring out a free steamed egg or a plate of dumplings. This 'Service' is the merchant's way of building a long-term relationship. 
@@ -65,7 +61,7 @@ Koreans use the English word 'Service' to describe a free item given by a busine
 
 ## Conclusion: Eating as a Collective Act
 
-Korean dining is designed to be shared. The abundance of plates ensures that everyone at the table—regardless of what they ordered—is part of the same sensory experience. To eat in Korea is to be welcomed into a family of abundance.
+Korean dining is designed to be shared. The abundance of plates ensures that everyone at the table?遊켩gardless of what they ordered?遊쬼 part of the same sensory experience. To eat in Korea is to be welcomed into a family of abundance.
 
 ---
 

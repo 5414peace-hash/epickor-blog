@@ -7,9 +7,7 @@ tags: ["Travel", "Culture", "Economy"]
 ---
 
 
-
-![EpicKor_요순.mp4_20240711_105425.030.jpg](/assets/images/posts/017/0e0bfe56-2ce2-41d9-8e3a-1ec685a3799b.png)
-
+![EpicKor_?遺용떄.mp4_20240711_105425.030.jpg](/assets/images/posts/017/0e0bfe56-2ce2-41d9-8e3a-1ec685a3799b.png)
 
 
 ## Introduction: The Neon Panopticon
@@ -18,50 +16,48 @@ New York might have the slogan, but Seoul is the true city that never sleeps. In
 
 ---
 
-## 1. The Infrastructure of Safety
+<div class="affiliate-inline-cta">
+  <p><strong>Worth comparing:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. A practical comparison page for small Korea-trip essentials such as adapters, pouches, tissues, and compact travel items. Start with <a href="https://www.amazon.com/s?k=korea+travel+essentials&amp;tag=epickor2026-20">Browse Korea Travel Essentials</a>.</p>
+</div>
 
+## 1. The Infrastructure of Safety
 
 
 <div class="image-grid-2up">
 
-![EpicKor_요순.mp4_20240711_105445.994.jpg](/assets/images/posts/017/017_EpicKor_%EC%9A%94%EC%88%9C.mp4_20240711_105445.994.jpg)
+![EpicKor_?遺용떄.mp4_20240711_105445.994.jpg](/assets/images/posts/017/017_EpicKor_%EC%9A%94%EC%88%9C.mp4_20240711_105445.994.jpg)
 
-![EpicKor_요순.mp4_20240711_105458.633.jpg](/assets/images/posts/017/017_EpicKor_%EC%9A%94%EC%88%9C.mp4_20240711_105458.633.jpg)
+![EpicKor_?遺용떄.mp4_20240711_105458.633.jpg](/assets/images/posts/017/017_EpicKor_%EC%9A%94%EC%88%9C.mp4_20240711_105458.633.jpg)
 
 </div>
-
-
-
 
 
 <!-- IMAGE_3: Placeholder for future image -->
 
 
-
 The reason Seoul can stay awake is its **extreme public safety**. 
-* **The Night Walk:** It is entirely normal for a lone woman to walk through a dark alley at 3 AM in Seoul without fear. This is maintained by one of the highest densities of CCTV cameras in the world and the presence of '24-hour eyes'—the convenience stores and late-night businesses that act as informal security outposts.
+* **The Night Walk:** It is entirely normal for a lone woman to walk through a dark alley at 3 AM in Seoul without fear. This is maintained by one of the highest densities of CCTV cameras in the world and the presence of '24-hour eyes'?遊쿴e convenience stores and late-night businesses that act as informal security outposts.
 * **Public Transit:** The 'Night Bus' (Owl Bus) system ensures that the workforce and revelers can traverse the city at all hours, maintaining the flow of the city's 'bloodstream.'
 
 ## 2. The Three Shifts of Seoul
 
 
-
 <!-- IMAGE_4: Placeholder for future image -->
-
-
-
 
 
 <!-- IMAGE_5: Placeholder for future image -->
 
 
-
 Seoul's 24 hours are divided into three distinct psychological shifts:
 1.  **The Morning Rush (07:00 - 18:00):** The traditional corporate grind. High pressure, high competition.
 2.  **The 'Hoesik' Era (18:00 - midnight):** The mandatory social bonding through BBQ and Soju. This is where the real business is done and hierarchies are reinforced.
-3.  **The 'Deep Night' (midnight - 05:00):** This is for the 'Hustlers'—the students in study rooms, the night-market traders in Dongdaemun, and the creators in Hongdae. 
+3.  **The 'Deep Night' (midnight - 05:00):** This is for the 'Hustlers'?遊쿴e students in study rooms, the night-market traders in Dongdaemun, and the creators in Hongdae. 
 
 ---
+
+<div class="affiliate-inline-cta">
+  <p><strong>Worth comparing:</strong> A smaller Korean coffee-mix pack that fits cafe culture, office coffee, and Korea-at-home content. Start with <a href="https://amzn.to/4dEQq0e">Dongsuh Maxim Mocha White Gold Coffee Mix</a>.</p>
+</div>
 
 ## 3. The Cost of the Light
 

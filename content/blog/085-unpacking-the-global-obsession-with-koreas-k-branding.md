@@ -48,6 +48,10 @@ The word "Korea" is itself a remnant of global trade.
 * **The Goryeo Legacy:** During the Goryeo Dynasty (918-1392), Arab and Persian merchants traded along the Silk Road, bringing back tales of a high-culture kingdom they called "Corea" or "Korie." This was a nation of celadon pottery and advanced movable type. 
 * **The Survival of the Name:** Despite the transition to the Joseon Dynasty, the name "Korea" remained in the international lexicon—a 1,000-year-old brand that predates the modern nation-state.
 
+<div class="affiliate-inline-cta">
+  <p><strong>K-brand souvenir angle:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. If the global "K" label interests you, a simple <a href="https://amzn.to/42T2B4K">Bokjumeoni pouch</a> is a small example of tradition becoming a modern gift object.</p>
+</div>
+
 ## 2. The 'K' Strategy: Government as Venture Capitalist
 
 The explosion of the 'K' prefix was not an accident. 
@@ -68,6 +72,10 @@ The explosion of the 'K' prefix was not an accident.
 * **The Branding Filter:** By attaching the 'K' to everything, the nation created a "Collective Halo Effect." If you love a K-Drama, you are 30% more likely to buy a K-Smartphone or try K-Fried Chicken. It is a masterclass in cross-industry brand leverage.
 
 ---
+
+<div class="affiliate-inline-cta">
+  <p><strong>Wear the Korea signal lightly:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. For travel days or fan events, this <a href="https://amzn.to/4o5YOk8">Korean flag dad hat</a> is a direct, practical K-brand cue.</p>
+</div>
 
 ## Conclusion: The Next Chapter of 'K'
 

@@ -36,6 +36,10 @@ In a city as fast-paced as Seoul, where buildings are torn down and rebuilt in a
 * **The 17-Hour Secret:** Their signature ox-bone soup is simmered for 17 hours until the broth is a milky, pristine white. This is not just soup; it is a pharmaceutical-level extract of health. 
 * **The Living Museum:** Walking through its doors in the heart of Insadong is a form of time travel. It remains a place where the social elite and the common laborer sit side-by-side, united by a flavor that hasn't changed since the Joseon Dynasty.
 
+<div class="affiliate-inline-cta">
+  <p><strong>Nopo-style comfort at home:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. If old Seoul soups are your kind of food history, try browsing <a href="https://amzn.to/4nFcnks">Korean kimchi stew with tofu</a> for an easy pantry version.</p>
+</div>
+
 ## 2. The Masters of Noodle and Soup: Woo Rae Ok and Mijin
 
 
@@ -74,6 +78,10 @@ In a city as fast-paced as Seoul, where buildings are torn down and rebuilt in a
 * **Mijin (Est. 1954):** The champion of Memil Guksu (buckwheat noodles). Its inclusion in the Michelin Bib Gourmand list for consecutive years has proven that "Historic Fast Food" can achieve the highest levels of global culinary respect.
 
 ---
+
+<div class="affiliate-inline-cta">
+  <p><strong>Build the Korean noodle corner:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. A simple <a href="https://amzn.to/4qrpQMM">Korean ramen cooking pot</a> makes the hot, direct, one-pot ritual feel closer to the restaurant table.</p>
+</div>
 
 ## Conclusion: The Soul of the Kettle
 

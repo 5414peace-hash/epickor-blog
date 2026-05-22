@@ -49,6 +49,10 @@ The 2024 rankings highlight the bifurcation of Korean influence into two categor
 * **Son Heung-min (2nd):** Sonny remains the ultimate meritocratic hero. His high ranking is driven by his massive commercial value in Korea and his role as the national brand diplomat in the English Premier League.
 * **New Jeans (3rd):** Perhaps the most significant "Gazelle" on the list, New Jeans represents the rapid shift in K-Pop's visual and sonic language. Their high ranking, despite being active for less than three years, indicates the market's pivot toward high-concept, high-frequency digital engagement.
 
+<div class="affiliate-inline-cta">
+  <p><strong>K-pop ranking watch-night:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. If celebrity rankings make you want to catch up on clips and performances, browse <a href="https://amzn.to/4bubOGe">Korean snack options</a> for an easy fan-night setup.</p>
+</div>
+
 ## 2. The BTS Case Study: The Cost of Duty
 
 The most striking feature of the 2024 list is not who is on it, but who is missing. For five consecutive years, **BTS** held the undisputed #1 spot. 
@@ -75,6 +79,10 @@ The middle of the list (Rankings 4-11) shows the diversity of the Korean palate:
 * **Lim Young-woong (5th):** The "Trot King" represents the massive purchasing power of the older generation, a demographic that dominates domestic streaming charts and physical album sales.
 * **Minjae Kim (4th) and Lee Jeong-hoo (6th):** The high placement of football and baseball stars reflects a nation that increasingly equates athletic success abroad with national soft power.
 * **Cha Eun-woo (11th):** As the definitive "Visual Genius," Eunwoo’s ranking is supported by a relentless schedule of dramas and high-end fashion campaigns, illustrating the "Face-as-Capital" economy.
+
+<div class="affiliate-inline-cta">
+  <p><strong>Fan-event detail:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. For concerts, watch parties, or Korea-themed days, this <a href="https://amzn.to/4o5YOk8">Korean flag dad hat</a> is a small but direct signal.</p>
+</div>
 
 ## Conclusion: The Survival of the Most Visible
 

@@ -7,9 +7,7 @@ tags: ["Culture", "Social", "Politics", "History"]
 ---
 
 
-
-![epickor_민호.mp4_20250103_222702.483.jpg](/assets/images/posts/076/fd5b878f-2a73-443d-a794-2d45c5cb85e9.png)
-
+![epickor_沃섏눛??mp4_20250103_222702.483.jpg](/assets/images/posts/076/fd5b878f-2a73-443d-a794-2d45c5cb85e9.png)
 
 
 ## Introduction: The Night the Clocks Stopped
@@ -18,35 +16,38 @@ On the night of **December 3, 2024**, South Korea faced its greatest constitutio
 
 ---
 
+<div class="affiliate-inline-cta">
+  <p><strong>Worth comparing:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. A useful starting point for readers who want deeper context on Korean history, society, politics, and modern culture after reading an explainer. Start with <a href="https://www.amazon.com/s?k=korean+culture+history+book&amp;tag=epickor2026-20">Browse Korean Culture and History Books</a>.</p>
+</div>
+
 ## 1. The 155-Minute Showdown: Soldiers vs. Lawmakers
 
 
-
 <div class="image-grid-2up">
 
-![epickor_민호.mp4_20250103_222722.591.jpg](/assets/images/posts/076/121_epickor_%EB%AF%BC%ED%98%B8.mp4_20250103_222722.591.jpg)
+![epickor_沃섏눛??mp4_20250103_222722.591.jpg](/assets/images/posts/076/121_epickor_%EB%AF%BC%ED%98%B8.mp4_20250103_222722.591.jpg)
 
-![epickor_민호.mp4_20250103_222730.244.jpg](/assets/images/posts/076/121_epickor_%EB%AF%BC%ED%98%B8.mp4_20250103_222730.244.jpg)
+![epickor_沃섏눛??mp4_20250103_222730.244.jpg](/assets/images/posts/076/121_epickor_%EB%AF%BC%ED%98%B8.mp4_20250103_222730.244.jpg)
 
 </div>
 
 
-
-
-
 <div class="image-grid-2up">
 
-![epickor_민호.mp4_20250103_222735.093.jpg](/assets/images/posts/076/121_epickor_%EB%AF%BC%ED%98%B8.mp4_20250103_222735.093.jpg)
+![epickor_沃섏눛??mp4_20250103_222735.093.jpg](/assets/images/posts/076/121_epickor_%EB%AF%BC%ED%98%B8.mp4_20250103_222735.093.jpg)
 
-![epickor_민호.mp4_20250103_222818.092.jpg](/assets/images/posts/076/121_epickor_%EB%AF%BC%ED%98%B8.mp4_20250103_222818.092.jpg)
+![epickor_沃섏눛??mp4_20250103_222818.092.jpg](/assets/images/posts/076/121_epickor_%EB%AF%BC%ED%98%B8.mp4_20250103_222818.092.jpg)
 
 </div>
-
 
 
 The events of that night were a test of the nation's institutional safeguards.
 * **The Troop Deployment:** Helicopters landed on the roof of the Assembly building, and special forces entered the corridors. This was the first time martial law had been declared in Korea in 44 years.
 * **The Constitutional Shield:** According to the Korean constitution, the President *must* lift martial law if the National Assembly votes for it. Despite the military presence, 190 lawmakers (out of 300) scaled fences and bypassed barriers to cast their vote at 1:01 AM on December 4.
+
+<div class="affiliate-inline-cta">
+  <p><strong>Worth comparing:</strong> Introductory guide to Hangeul series - Vol.1 Consonant and Vowel. Start with <a href="https://amzn.to/3Zgx6Qq">Korean Alphabet with Writing Workbook</a>.</p>
+</div>
 
 ## 2. The Impeachment and the 'Limbo' Presidency
 
@@ -55,22 +56,17 @@ The fallout was immediate and permanent.
 * **The Supreme Court Verdict:** The future of the presidency now lies in the hands of the Constitutional Court. Their decision, expected within months, will determine if the "Rule of Law" outweighs the "Executive Mandate."
 
 
-
-![epickor_민호.mp4_20250103_222815.679.jpg](/assets/images/posts/076/121_epickor_%EB%AF%BC%ED%98%B8.mp4_20250103_222815.679.jpg)
-
-
-
+![epickor_沃섏눛??mp4_20250103_222815.679.jpg](/assets/images/posts/076/121_epickor_%EB%AF%BC%ED%98%B8.mp4_20250103_222815.679.jpg)
 
 
 <!-- IMAGE_5: Placeholder for future image -->
-
 
 
 ---
 
 ## Conclusion: The People's Victory
 
-The December crisis proved that Korea’s democracy is no longer fragile. While the declaration of martial law was a shocking return to the past, the response—peaceful protests by one million citizens and the bravery of the lawmakers—was a triumphant statement of the future. Korea is a nation where the law is higher than the leader.
+The December crisis proved that Korea???democracy is no longer fragile. While the declaration of martial law was a shocking return to the past, the response?遊칎aceful protests by one million citizens and the bravery of the lawmakers?遊턠s a triumphant statement of the future. Korea is a nation where the law is higher than the leader.
 
 ---
 

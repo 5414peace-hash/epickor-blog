@@ -7,9 +7,7 @@ tags: ["Celeb", "Culture", "Man", "Woman"]
 ---
 
 
-
-![EpicKor_민호.mp4_20240711_105226.707.jpg](/assets/images/posts/016/9c72713e-4090-4915-991a-121d98249dea.png)
-
+![EpicKor_沃섏눛??mp4_20240711_105226.707.jpg](/assets/images/posts/016/9c72713e-4090-4915-991a-121d98249dea.png)
 
 
 ## Introduction: The 'Nation's First Love' Archetype
@@ -18,18 +16,17 @@ In the history of Korean entertainment, many stars have been beautiful, but few 
 
 ---
 
+<div class="affiliate-inline-cta">
+  <p><strong>Worth comparing:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. A practical comparison page for Korean phrasebooks, useful before trips, etiquette-heavy situations, and first conversations in Korea. Start with <a href="https://www.amazon.com/s?k=korean+phrasebook&amp;tag=epickor2026-20">Browse Korean Phrasebooks</a>.</p>
+</div>
+
 ## 1. The Purity vs. Charm Paradox
 
 
-
-![EpicKor_민호.mp4_20240711_105307.097.jpg](/assets/images/posts/016/bf501e9d-40d0-436a-9b3b-8afabb353ad6.png)
-
+![EpicKor_沃섏눛??mp4_20240711_105307.097.jpg](/assets/images/posts/016/bf501e9d-40d0-436a-9b3b-8afabb353ad6.png)
 
 
-
-
-![EpicKor_민호.mp4_20240711_105303.194.jpg](/assets/images/posts/016/d1d7eec0-02d5-46ab-bf85-52f12ab32648.png)
-
+![EpicKor_沃섏눛??mp4_20240711_105303.194.jpg](/assets/images/posts/016/d1d7eec0-02d5-46ab-bf85-52f12ab32648.png)
 
 
 The 'First Love' image in Korea is a heavy burden. It requires a celebrity to be perpetually youthful and innocent. 
@@ -42,17 +39,17 @@ On a popular YouTube show, Suzy revealed her "secret" flirting move: **Showing h
 <!-- IMAGE_4: Placeholder for future image -->
 
 
-
-
-
 <!-- IMAGE_5: Placeholder for future image -->
 
 
-
 * **The Psychology:** Usually, showing gums (Gummy Smile) is seen as an 'imperfection' in the highly controlled world of K-Beauty. By intentionally showing it, Suzy signals a high level of **vulnerability and lack of vanity**. 
-* **The Effect:** It makes the other person feel at ease. It is the ultimate 'Nunchi' move—lowering one's own guard to encourage the other person to do the same. This viral moment sparked thousands of parodies and discussions on the 'Art of the Flirt' in modern Korea.
+* **The Effect:** It makes the other person feel at ease. It is the ultimate 'Nunchi' move?遊챣wering one's own guard to encourage the other person to do the same. This viral moment sparked thousands of parodies and discussions on the 'Art of the Flirt' in modern Korea.
 
 ---
+
+<div class="affiliate-inline-cta">
+  <p><strong>Worth comparing:</strong> A broad fan-goods search that fits Korean celebrity, K-pop, K-drama, concert, and watch-party content without forcing one exact product. Start with <a href="https://www.amazon.com/s?k=kpop+kdrama+fan+goods&amp;tag=epickor2026-20">Browse K-Pop and K-Drama Fan Goods</a>.</p>
+</div>
 
 ## 3. The Influence on Modern K-Romance
 

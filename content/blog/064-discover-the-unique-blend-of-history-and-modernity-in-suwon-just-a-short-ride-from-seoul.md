@@ -7,9 +7,7 @@ tags: ["Culture", "Travel", "History", "Food"]
 ---
 
 
-
-![Epickor_건순.mp4_20240807_151838.071.jpg](/assets/images/posts/064/165c1dbd-7419-488a-a26f-3907fbfac515.png)
-
+![Epickor_椰꾨똻??mp4_20240807_151838.071.jpg](/assets/images/posts/064/165c1dbd-7419-488a-a26f-3907fbfac515.png)
 
 
 ## Introduction: The Model City of King Jeongjo
@@ -18,35 +16,38 @@ Just 30 kilometers south of Seoul lies **Suwon**, a city that represents the pin
 
 ---
 
+<div class="affiliate-inline-cta">
+  <p><strong>Worth comparing:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. A useful starting point for readers who want deeper context on Korean history, society, politics, and modern culture after reading an explainer. Start with <a href="https://www.amazon.com/s?k=korean+culture+history+book&amp;tag=epickor2026-20">Browse Korean Culture and History Books</a>.</p>
+</div>
+
 ## 1. Hwaseong Fortress: A Masterpiece of Late Joseon Engineering
 
 
-
 <div class="image-grid-2up">
 
-![Epickor_건순.mp4_20240807_151845.615.jpg](/assets/images/posts/064/075_Epickor_%EA%B1%B4%EC%88%9C.mp4_20240807_151845.615.jpg)
+![Epickor_椰꾨똻??mp4_20240807_151845.615.jpg](/assets/images/posts/064/075_Epickor_%EA%B1%B4%EC%88%9C.mp4_20240807_151845.615.jpg)
 
-![Epickor_건순.mp4_20240807_151856.030.jpg](/assets/images/posts/064/075_Epickor_%EA%B1%B4%EC%88%9C.mp4_20240807_151856.030.jpg)
+![Epickor_椰꾨똻??mp4_20240807_151856.030.jpg](/assets/images/posts/064/075_Epickor_%EA%B1%B4%EC%88%9C.mp4_20240807_151856.030.jpg)
 
 </div>
 
 
-
-
-
 <div class="image-grid-2up">
 
-![Epickor_건순.mp4_20240807_151901.790.jpg](/assets/images/posts/064/075_Epickor_%EA%B1%B4%EC%88%9C.mp4_20240807_151901.790.jpg)
+![Epickor_椰꾨똻??mp4_20240807_151901.790.jpg](/assets/images/posts/064/075_Epickor_%EA%B1%B4%EC%88%9C.mp4_20240807_151901.790.jpg)
 
-![Epickor_건순.mp4_20240807_151918.806.jpg](/assets/images/posts/064/075_Epickor_%EA%B1%B4%EC%88%9C.mp4_20240807_151918.806.jpg)
+![Epickor_椰꾨똻??mp4_20240807_151918.806.jpg](/assets/images/posts/064/075_Epickor_%EA%B1%B4%EC%88%9C.mp4_20240807_151918.806.jpg)
 
 </div>
-
 
 
 Hwaseong is not a traditional wall; it is a military and scientific marvel.
 * **Innovative Design:** Built between 1794 and 1796, it utilized the latest technologies from East and West, including cranes (Geojunggi) designed by the scholar Jeong Yak-yong. 
 * **The Walking Experience:** Strolling along the 5.7km wall at sunset offers a "Night View" that rivals any skyscraper in Seoul. It provides a unique perspective on how a city can grow *around* its history rather than *over* it.
+
+<div class="affiliate-inline-cta">
+  <p><strong>Worth comparing:</strong> Introductory guide to Hangeul series - Vol.1 Consonant and Vowel. Start with <a href="https://amzn.to/3Zgx6Qq">Korean Alphabet with Writing Workbook</a>.</p>
+</div>
 
 ## 2. Haenggung-dong and the 'New-tro' Boom
 
@@ -55,15 +56,10 @@ The area inside the fortress, **Haenggung-dong**, has recently transformed into 
 * **Wang Galbi: The Culinary Icon:** Suwon is the historical capital of Korean beef ribs. The 'Wang Galbi' (King Ribs) are famously marinated for two days, creating a deep, sweet umami that has become a national culinary brand.
 
 
-
 <!-- IMAGE_4: Placeholder for future image -->
 
 
-
-
-
 <!-- IMAGE_5: Placeholder for future image -->
-
 
 
 ---

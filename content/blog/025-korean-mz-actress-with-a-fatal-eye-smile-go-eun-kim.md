@@ -36,6 +36,10 @@ What makes Kim Go-eun a cultural force is her ability to communicate depth with 
 * **The Eye Smile:** Her trademark crescent-moon smile is more than a visual trait; it is a tool of relatability. It breaks the barrier between the star and the audience, making her feel like an old friend.
 * **Atmospheric Acting:** In dramas like *Goblin* and films like *Exhuma*, she doesn't just play a character; she alters the mood of the entire set. Her performance as a modern shaman in *Exhuma* proved that she could carry the weight of a 10-million-viewer blockbuster through sheer presence.
 
+<div class="affiliate-inline-cta">
+  <p><strong>Natural K-beauty angle:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. If Kim Go-eun's understated screen image is what stands out, compare <a href="https://amzn.to/4twhKFk">Round Lab toner</a> for a simple Korean skincare starting point.</p>
+</div>
+
 ## 2. A Third-Culture Perspective
 
 Kim Go-eun’s childhood in China provided her with a unique sociological vantage point. 
@@ -55,6 +59,10 @@ Kim Go-eun’s childhood in China provided her with a unique sociological vantag
 * **The Risk-Taker:** Her international background gave her the confidence to choose projects based on artistic merit rather than commercial safety. This independence resonates deeply with young Koreans who are increasingly seeking authenticity in their role models.
 
 ---
+
+<div class="affiliate-inline-cta">
+  <p><strong>Quiet style detail:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. For the same low-key, expressive styling mood, these <a href="https://amzn.to/4kTVIZe">fashion sunglasses</a> are worth a quick look.</p>
+</div>
 
 ## Conclusion: The New Standard
 

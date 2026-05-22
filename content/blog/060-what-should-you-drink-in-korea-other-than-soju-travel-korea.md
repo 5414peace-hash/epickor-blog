@@ -49,6 +49,10 @@ Soju is not a monolith. Every province has its own champion.
 * **Daeseon (Busan):** The pride of the port city, often associated with directness and seaside grit.
 * **Chamisul and Jinro:** The national giants that define the "Standard" taste of modern Seoul.
 
+<div class="affiliate-inline-cta">
+  <p><strong>Hoesik-table snack:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. Since Korean drinking culture is never just about drinks, add <a href="https://amzn.to/4bubOGe">Korean snack options</a> to understand the table rhythm better.</p>
+</div>
+
 ## 2. The Science of the 'Somaek' Bomb
 
 
@@ -68,6 +72,10 @@ Why is Somaek so popular? It solves the "Tasteless Beer" problem.
 * **The Golden Ratio:** Typically 7 parts beer to 3 parts soju. This creates a drink that goes down like water but has the cumulative power of a cocktail.
 
 ---
+
+<div class="affiliate-inline-cta">
+  <p><strong>Late-night table helper:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. A small <a href="https://amzn.to/4qrpQMM">Korean ramen cooking pot</a> makes the after-drinks noodle habit easier to recreate at home.</p>
+</div>
 
 ## Conclusion: The Liquid Social Glue
 

@@ -7,9 +7,7 @@ tags: ["Culture", "Travel", "Education", "History"]
 ---
 
 
-
-![epickor_민호.mp4_20240809_184606.227.jpg](/assets/images/posts/068/e8e945a9-107a-46a3-a5bd-12333f411419.png)
-
+![epickor_沃섏눛??mp4_20240809_184606.227.jpg](/assets/images/posts/068/e8e945a9-107a-46a3-a5bd-12333f411419.png)
 
 
 ## Introduction: The Democratic Alphabet
@@ -18,52 +16,50 @@ In 1443, **King Sejong the Great** performed a revolutionary act: he invented an
 
 ---
 
+<div class="affiliate-inline-cta">
+  <p><strong>Worth comparing:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. Introductory guide to Hangeul series - Vol.1 Consonant and Vowel. Start with <a href="https://amzn.to/3Zgx6Qq">Korean Alphabet with Writing Workbook</a>.</p>
+</div>
+
 ## 1. The Science of the Sound: Phonetic Design
 
 
-
 <div class="image-grid-2up">
 
-![epickor_민호.mp4_20240809_184624.147.jpg](/assets/images/posts/068/094_epickor_%EB%AF%BC%ED%98%B8.mp4_20240809_184624.147.jpg)
+![epickor_沃섏눛??mp4_20240809_184624.147.jpg](/assets/images/posts/068/094_epickor_%EB%AF%BC%ED%98%B8.mp4_20240809_184624.147.jpg)
 
-![epickor_민호.mp4_20240809_184629.563.jpg](/assets/images/posts/068/094_epickor_%EB%AF%BC%ED%98%B8.mp4_20240809_184629.563.jpg)
+![epickor_沃섏눛??mp4_20240809_184629.563.jpg](/assets/images/posts/068/094_epickor_%EB%AF%BC%ED%98%B8.mp4_20240809_184629.563.jpg)
 
 </div>
 
 
-
-
-
 <div class="image-grid-2up">
 
-![epickor_민호.mp4_20240809_184637.443.jpg](/assets/images/posts/068/094_epickor_%EB%AF%BC%ED%98%B8.mp4_20240809_184637.443.jpg)
+![epickor_沃섏눛??mp4_20240809_184637.443.jpg](/assets/images/posts/068/094_epickor_%EB%AF%BC%ED%98%B8.mp4_20240809_184637.443.jpg)
 
-![epickor_민호.mp4_20240809_184650.748.jpg](/assets/images/posts/068/094_epickor_%EB%AF%BC%ED%98%B8.mp4_20240809_184650.748.jpg)
+![epickor_沃섏눛??mp4_20240809_184650.748.jpg](/assets/images/posts/068/094_epickor_%EB%AF%BC%ED%98%B8.mp4_20240809_184650.748.jpg)
 
 </div>
-
 
 
 Hangul is often cited by linguists as the most "Scientific" writing system ever created. 
-* **Organ-based Shapes:** The consonants are designed to mimic the shape of the vocal organs (tongue, teeth, throat) when pronouncing the sound. For example, 'ㄱ' (G/K) represents the back of the tongue blocking the throat.
+* **Organ-based Shapes:** The consonants are designed to mimic the shape of the vocal organs (tongue, teeth, throat) when pronouncing the sound. For example, '?? (G/K) represents the back of the tongue blocking the throat.
 * **Syllabic Blocks:** Hangul is written in "Blocks," allowing the reader to recognize entire sounds rather than individual letters. This structure makes Korean exceptionally fast to read and perfectly suited for digital typography.
+
+<div class="affiliate-inline-cta">
+  <p><strong>Worth comparing:</strong> A useful starting point for readers who want deeper context on Korean history, society, politics, and modern culture after reading an explainer. Start with <a href="https://www.amazon.com/s?k=korean+culture+history+book&amp;tag=epickor2026-20">Browse Korean Culture and History Books</a>.</p>
+</div>
 
 ## 2. The Cultural Hurdle: Honorifics and Nunchi
 
 While the alphabet is easy, the "Social Software" of the language is complex.
 * **The Honorific Ladder:** Korean grammar changes based on the social distance between the speaker and the listener. Using the wrong level of speech can be a major social faux pas.
-* **High-Context Communication:** As we’ve explored in our dating deep-dives, Korean is a "High-Context" language. Much of the meaning is left unsaid, relying on the listener to use **'Nunchi'** to fill in the blanks. Learning Korean is not just about vocabulary; it is about learning to read the "Air."
-
+* **High-Context Communication:** As we??턤 explored in our dating deep-dives, Korean is a "High-Context" language. Much of the meaning is left unsaid, relying on the listener to use **'Nunchi'** to fill in the blanks. Learning Korean is not just about vocabulary; it is about learning to read the "Air."
 
 
 <!-- IMAGE_4: Placeholder for future image -->
 
 
-
-
-
 <!-- IMAGE_5: Placeholder for future image -->
-
 
 
 ---

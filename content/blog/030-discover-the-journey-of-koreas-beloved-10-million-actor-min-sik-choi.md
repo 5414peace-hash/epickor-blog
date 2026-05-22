@@ -42,6 +42,10 @@ To understand Choi Min-sik, one must understand his commitment to the visceral t
 * **The Famous Scene:** When he ate a live octopus in *Oldboy*, it wasn't a stunt. Choi, a devout Buddhist, performed the scene four times, offering prayers after each take for the souls of the creatures. 
 * **The Weight of 'Han':** His ability to portray raw, agonizing **'Han' (unresolved resentment)** gave *Oldboy* its global resonance. He became the face of a damaged masculinity that was both terrifying and profoundly pitiable.
 
+<div class="affiliate-inline-cta">
+  <p><strong>K-cinema watch-night pick:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. If this Choi Min-sik deep dive makes you want a Korean movie night, browse <a href="https://amzn.to/4bubOGe">Korean snack options</a> before pressing play.</p>
+</div>
+
 ## 2. The Admiral of the Box Office
 
 Choi holds the record for the most-watched movie in Korean history: *The Admiral: Roaring Currents* (17.6 million tickets).
@@ -62,6 +66,10 @@ Choi holds the record for the most-watched movie in Korean history: *The Admiral
 * **The Shamanic Presence:** In his latest hit, *Exhuma*, he plays a veteran geomancer (Feng Shui master). His performance turned a niche genre film into a national event, proving that the 'visceral' style of the 2000s still dominates the 2020s.
 
 ---
+
+<div class="affiliate-inline-cta">
+  <p><strong>After the credits:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. Pair a late-night Korean film with <a href="https://amzn.to/49fO0E8">Maxim coffee mix</a> if you want the easiest Korean pantry-style drink beside the screen.</p>
+</div>
 
 ## Conclusion: The Witness of a Nation
 

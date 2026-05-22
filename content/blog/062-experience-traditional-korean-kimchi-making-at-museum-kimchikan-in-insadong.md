@@ -42,6 +42,10 @@ Kimchi is a masterpiece of food engineering.
 * **The Probiotic Powerhouse:** During the fermentation process, lactic acid bacteria (Lactobacillus) thrive, creating a natural preservative and a health booster. It is the ultimate manifestation of the Korean philosophy **'Yak-sik-dong-won'**—the belief that medicine and food share the same origin.
 * **Regional Variations:** From the salty seafood-heavy versions of the south to the clean, watery types of the north, Kimchi reflects the geography and climate of the specific regions of the peninsula.
 
+<div class="affiliate-inline-cta">
+  <p><strong>Kimchi curiosity at home:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. If Museum Kimchikan made fermentation feel less abstract, try <a href="https://amzn.to/4nFcnks">Korean kimchi stew with tofu</a> as an easy flavor entry point.</p>
+</div>
+
 ## 2. Kimjang: The UNESCO-Listed Communal Bond
 
 In 2013, **Kimjang**—the collective practice of making and sharing large quantities of Kimchi for the winter—was designated as a UNESCO Intangible Cultural Heritage.
@@ -61,6 +65,10 @@ In 2013, **Kimjang**—the collective practice of making and sharing large quant
 
 
 ---
+
+<div class="affiliate-inline-cta">
+  <p><strong>Table companion:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. Kimchi culture is easier to understand beside rice, wraps, and sauce, so compare <a href="https://amzn.to/44pMS9J">Korean ssamjang sauce</a> too.</p>
+</div>
 
 ## Conclusion: The Infinite Flavor
 

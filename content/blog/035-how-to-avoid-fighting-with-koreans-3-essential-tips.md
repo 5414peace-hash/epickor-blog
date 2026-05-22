@@ -7,9 +7,7 @@ tags: ["Culture", "Travel", "Sociology", "Etiquette"]
 ---
 
 
-
-![epickor_휘수.mp4_20240716_220455.664.jpg](/assets/images/posts/035/33843114-c60b-45e6-94ce-783d02559b44.png)
-
+![epickor_??뤿땾.mp4_20240716_220455.664.jpg](/assets/images/posts/035/33843114-c60b-45e6-94ce-783d02559b44.png)
 
 
 ## Introduction: The Society of 'In-hwa'
@@ -18,28 +16,27 @@ South Korea is a society built on **'In-hwa' (Harmony)** and the avoidance of pu
 
 ---
 
-## 1. The Silence of the Road: Why Honking is a Declaration of War
+<div class="affiliate-inline-cta">
+  <p><strong>Worth comparing:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. A practical comparison page for Korean phrasebooks, useful before trips, etiquette-heavy situations, and first conversations in Korea. Start with <a href="https://www.amazon.com/s?k=korean+phrasebook&amp;tag=epickor2026-20">Browse Korean Phrasebooks</a>.</p>
+</div>
 
+## 1. The Silence of the Road: Why Honking is a Declaration of War
 
 
 <div class="image-grid-2up">
 
-![epickor_휘수.mp4_20240716_220559.740.jpg](/assets/images/posts/035/035_epickor_%ED%9C%98%EC%88%98.mp4_20240716_220559.740.jpg)
+![epickor_??뤿땾.mp4_20240716_220559.740.jpg](/assets/images/posts/035/035_epickor_%ED%9C%98%EC%88%98.mp4_20240716_220559.740.jpg)
 
-![epickor_휘수.mp4_20240716_220554.209.jpg](/assets/images/posts/035/035_epickor_%ED%9C%98%EC%88%98.mp4_20240716_220554.209.jpg)
+![epickor_??뤿땾.mp4_20240716_220554.209.jpg](/assets/images/posts/035/035_epickor_%ED%9C%98%EC%88%98.mp4_20240716_220554.209.jpg)
 
 </div>
-
-
-
 
 
 <!-- IMAGE_3: Placeholder for future image -->
 
 
-
 In many global metropolises, the car horn is a conversational tool. In Korea, it is an insult.
-* **The 'Driver's Honor':** Honking in Seoul is perceived as a direct attack on the other driver’s competence. It suggests they are 'driving poorly' (Un-jeon-mot-hae). 
+* **The 'Driver's Honor':** Honking in Seoul is perceived as a direct attack on the other driver???competence. It suggests they are 'driving poorly' (Un-jeon-mot-hae). 
 * **The Busan Exception:** Driving in the port city of Busan is notoriously aggressive. If you honk there, be prepared for an immediate, vocal roadside negotiation. The rule of thumb: Use your horn as an emergency brake, not a greeting.
 
 ## 2. The Sacred Mother: The Danger of 'Mom Jokes'
@@ -47,21 +44,20 @@ In many global metropolises, the car horn is a conversational tool. In Korea, it
 In Western pop culture, 'Your Mom' jokes are a staple of banter. In Korea, they are a fast track to a physical altercation. 
 
 
-
 <!-- IMAGE_4: Placeholder for future image -->
 
 
-
-
-
 <!-- IMAGE_5: Placeholder for future image -->
-
 
 
 * **Confucian Filial Piety:** Respect for parents is the bedrock of the Korean moral code. An insult to one's mother is not seen as a witty jab, but as a fundamental violation of a person's existence and ancestry. 
 * **The Linguistic Depth:** Korean swear words related to parents are among the most vulgar and offensive in the language. Never use them, even in jest.
 
 ---
+
+<div class="affiliate-inline-cta">
+  <p><strong>Worth comparing:</strong> Introductory guide to Hangeul series - Vol.1 Consonant and Vowel. Start with <a href="https://amzn.to/3Zgx6Qq">Korean Alphabet with Writing Workbook</a>.</p>
+</div>
 
 ## 3. The Dokdo Consensus: A National Non-Negotiable
 
@@ -73,7 +69,7 @@ If a Korean asks, "What do you think about Dokdo?", there is only one correct an
 
 ## Conclusion: Respect the 'Vibe'
 
-Avoiding conflict in Korea is about **'Nunchi'**—reading the room and respecting the deep-seated values of the collective. By understanding these three triggers, you show that you aren't just a tourist, but a guest who respects the soul of the nation.
+Avoiding conflict in Korea is about **'Nunchi'**?遊켩ading the room and respecting the deep-seated values of the collective. By understanding these three triggers, you show that you aren't just a tourist, but a guest who respects the soul of the nation.
 
 ---
 

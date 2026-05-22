@@ -7,9 +7,7 @@ tags: ["Culture", "Travel", "Sports", "Social"]
 ---
 
 
-
-![EpicKor_요순.mp4_20240808_221542.918.jpg](/assets/images/posts/066/b2720fc1-c0b2-4625-92d6-47fbc137e1b4.png)
-
+![EpicKor_?遺용떄.mp4_20240808_221542.918.jpg](/assets/images/posts/066/b2720fc1-c0b2-4625-92d6-47fbc137e1b4.png)
 
 
 ## Introduction: The Blue Lungs of Seoul
@@ -18,24 +16,23 @@ The **Han River** is more than just a body of water; it is the geographical and 
 
 ---
 
-## 1. The Six Sanctuary Locations
+<div class="affiliate-inline-cta">
+  <p><strong>Worth comparing:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. Introductory guide to Hangeul series - Vol.1 Consonant and Vowel. Start with <a href="https://amzn.to/3Zgx6Qq">Korean Alphabet with Writing Workbook</a>.</p>
+</div>
 
+## 1. The Six Sanctuary Locations
 
 
 <div class="image-grid-2up">
 
-![EpicKor_요순.mp4_20240808_221604.077.jpg](/assets/images/posts/066/088_EpicKor_%EC%9A%94%EC%88%9C.mp4_20240808_221604.077.jpg)
+![EpicKor_?遺용떄.mp4_20240808_221604.077.jpg](/assets/images/posts/066/088_EpicKor_%EC%9A%94%EC%88%9C.mp4_20240808_221604.077.jpg)
 
-![EpicKor_요순.mp4_20240808_221621.731.jpg](/assets/images/posts/066/088_EpicKor_%EC%9A%94%EC%88%9C.mp4_20240808_221621.731.jpg)
+![EpicKor_?遺용떄.mp4_20240808_221621.731.jpg](/assets/images/posts/066/088_EpicKor_%EC%9A%94%EC%88%9C.mp4_20240808_221621.731.jpg)
 
 </div>
 
 
-
-
-
 <!-- IMAGE_3: Placeholder for future image -->
-
 
 
 Each of the six pools has its own distinct personality and demographic:
@@ -44,6 +41,10 @@ Each of the six pools has its own distinct personality and demographic:
 * **Jamwon:** The trendy spot for sunbathers and influencers, known for a more "adult" and chic atmosphere.
 * **Yanghwa & Nanji:** The quiet retreats. Nanji is an "infinity pool" style that sits level with the river, providing the most aesthetic sunset views.
 
+<div class="affiliate-inline-cta">
+  <p><strong>Worth comparing:</strong> A Korean traditional play set for family games, culture explainers, and Squid Game-adjacent interest. Start with <a href="https://amzn.to/4dWw6sx">Gonggi Korean Traditional Game Set</a>.</p>
+</div>
+
 ## 2. The Philosophy of Affordable Luxury
 
 In a city where a high-end hotel pool pass can cost $100, the Han River pools offer a radical alternative.
@@ -51,22 +52,17 @@ In a city where a high-end hotel pool pass can cost $100, the Han River pools of
 * **The Ritual of the Sunbed:** Renting a sunbed and ordering a cup of iced coffee or a bowl of ramen while staring at the skyline is the quintessential "Seoul Summer" experience. It is the ultimate manifestation of the city's commitment to public welfare through design.
 
 
-
 <!-- IMAGE_4: Placeholder for future image -->
 
 
-
-
-
 <!-- IMAGE_5: Placeholder for future image -->
-
 
 
 ---
 
 ## Conclusion: Diving into the Metropolis
 
-The Han River swimming pools prove that a megacity can still offer a human-scale escape. They are the places where the social hierarchy of the office is traded for a swimsuit and a splash. If you are in Seoul between June and August, don't just walk the river—dive into it.
+The Han River swimming pools prove that a megacity can still offer a human-scale escape. They are the places where the social hierarchy of the office is traded for a swimsuit and a splash. If you are in Seoul between June and August, don't just walk the river?遊죍ve into it.
 
 ---
 

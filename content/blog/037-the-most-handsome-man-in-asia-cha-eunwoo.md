@@ -36,6 +36,10 @@ Cha Eunwoo’s impact is best measured not in albums sold, but in the silence of
 * **The Equalizer:** On variety shows, veteran comedians and world-class idols are often rendered speechless when he enters the room. This 'Awe Response' is a consistent viral trope in Korean media, validating his status as an 'Untouchable Icon.'
 * **The No-Flaw Standard:** In a culture of plastic surgery, Eunwoo is celebrated for his 'Natural Perfection,' making him the ultimate aspiration for the K-Beauty industry.
 
+<div class="affiliate-inline-cta">
+  <p><strong>K-drama style detail:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. If Cha Eunwoo's polished visual language is the hook, compare these <a href="https://amzn.to/4kTVIZe">fashion sunglasses</a> as one simple styling accent.</p>
+</div>
+
 ## 2. Transitioning from Idol to Leading Man
 
 Eunwoo has successfully used his 'Gift' to bridge the gap between K-Pop and K-Drama. 
@@ -56,6 +60,10 @@ Eunwoo has successfully used his 'Gift' to bridge the gap between K-Pop and K-Dr
 * **The Work Ethic:** Behind the face is a relentless schedule. He represents the 'Pali-Pali' productivity of a star who understands that in the fast-paced idol industry, beauty must be backed by constant presence.
 
 ---
+
+<div class="affiliate-inline-cta">
+  <p><strong>Natural K-beauty baseline:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. For a low-drama skincare starting point, <a href="https://amzn.to/4twhKFk">Round Lab toner</a> fits the clean, understated Korean beauty angle.</p>
+</div>
 
 ## Conclusion: The New Aesthetic Era
 

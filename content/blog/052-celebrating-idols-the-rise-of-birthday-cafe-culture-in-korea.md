@@ -43,6 +43,10 @@ A birthday cafe is a microcosm of the **Fandom Economy**.
 * **Collective Labor:** Fans act as curators, decorators, and logistical managers. They rent the space, curate a gallery of "unreleased" photos (often taken by high-end fan sites known as "Master"), and produce limited-edition goods (Lucky Draws). 
 * **Sociological Function:** In an increasingly lonely digital world, the birthday cafe serves as a physical hub for "Offline Community." It is a place where digital bonds are solidified over lattes and shared admiration.
 
+<div class="affiliate-inline-cta">
+  <p><strong>Birthday-cafe mood at home:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. If the cafe ritual is what caught your eye, <a href="https://amzn.to/49fO0E8">Maxim coffee mix</a> is an easy way to recreate a small Korean cafe moment without overthinking it.</p>
+</div>
+
 ## 2. Reciprocity: The Case of IU’s Pre-paid Legacy
 
 
@@ -62,6 +66,10 @@ While most idols simply acknowledge birthday cafes via social media, the culture
 * **The Emotional Contract:** This act of reciprocity deepens the "Jeong" (affectionate bond) between the idol and the fan. It reframes the fandom not as a one-way extraction of money, but as a mutual support system. 
 
 ---
+
+<div class="affiliate-inline-cta">
+  <p><strong>For a tiny fan-event snack table:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. Add something Korean and giftable like <a href="https://amzn.to/3RjAjOp">honey yakgwa</a> if you are building a cafe-style spread for friends.</p>
+</div>
 
 ## 3. Beyond Idols: The Expansion of the 'Bang'
 

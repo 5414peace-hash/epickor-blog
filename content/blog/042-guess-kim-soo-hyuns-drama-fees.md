@@ -7,9 +7,7 @@ tags: ["Celeb", "Culture", "Man", "Economy"]
 ---
 
 
-
-![epickor(김수현)_건순.mp4_20240719_221549.083.jpg](/assets/images/posts/042/c32a97e6-06b4-415c-aaf7-98e59d927cc2.png)
-
+![epickor(繹먃??묒겱)_椰꾨똻??mp4_20240719_221549.083.jpg](/assets/images/posts/042/c32a97e6-06b4-415c-aaf7-98e59d927cc2.png)
 
 
 ## Introduction: The $10 Million Actor
@@ -18,29 +16,32 @@ The world of K-Drama has moved from a regional trend to a global financial power
 
 ---
 
+<div class="affiliate-inline-cta">
+  <p><strong>Worth comparing:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. A broad fan-goods search that fits Korean celebrity, K-pop, K-drama, concert, and watch-party content without forcing one exact product. Start with <a href="https://www.amazon.com/s?k=kpop+kdrama+fan+goods&amp;tag=epickor2026-20">Browse K-Pop and K-Drama Fan Goods</a>.</p>
+</div>
+
 ## 1. The Anatomy of a Hallyu King: Dream High to Queen of Tears
 
 
-
-![epickor(김수현)_건순.mp4_20240719_221616.463.jpg](/assets/images/epickor-placeholder.png)
-
+![epickor(繹먃??묒겱)_椰꾨똻??mp4_20240719_221616.463.jpg](/assets/images/epickor-placeholder.png)
 
 
+![045_epickor(繹먃??묒겱)_椰꾨똻??mp4_20240719_221647.577.jpg](/assets/images/epickor-placeholder.png)
 
 
-![045_epickor(김수현)_건순.mp4_20240719_221647.577.jpg](/assets/images/epickor-placeholder.png)
-
-
-
-Kim Soo-hyun’s career is a blueprint for the modern global star. 
+Kim Soo-hyun???career is a blueprint for the modern global star. 
 * **The Versatility Factor:** From the innocent country boy in *Dream High* to the alien aristocrat in *My Love from the Star*, he has mastered the art of 'High-Concept' romance. 
 * **The 'Soo-hyun' Brand:** His casting virtually guarantees massive pre-sales to Chinese and Southeast Asian streaming platforms. The $600,000 per episode rumor, even if adjusted for production costs to $220,000, reflects a market where the lead actor's face is the primary collateral for multi-million dollar international contracts.
+
+<div class="affiliate-inline-cta">
+  <p><strong>Worth comparing:</strong> Introductory guide to Hangeul series - Vol.1 Consonant and Vowel. Start with <a href="https://amzn.to/3Zgx6Qq">Korean Alphabet with Writing Workbook</a>.</p>
+</div>
 
 ## 2. The Global Syndication Model: Why the Fee Makes Sense
 
 Why are fees rising? Because the market has expanded. 
 * **Direct-to-Global:** In the past, a drama succeeded in Korea first, then sold abroad. Now, dramas are produced with a global audience in mind from day one. 
-* **The PPL Engine:** A star of Kim Soo-hyun’s caliber attracts high-end luxury PPL (Product Placement). From the cars he drives to the watch he wears, the sponsorship revenue alone can often cover a significant portion of his salary.
+* **The PPL Engine:** A star of Kim Soo-hyun???caliber attracts high-end luxury PPL (Product Placement). From the cars he drives to the watch he wears, the sponsorship revenue alone can often cover a significant portion of his salary.
 
 ---
 

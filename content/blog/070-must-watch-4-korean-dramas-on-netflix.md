@@ -7,9 +7,7 @@ tags: ["Celeb", "Culture", "Movie", "Entertainment"]
 ---
 
 
-
-![eickor_진호_bgm제거.mp4_20240827_102445.963.jpg](/assets/images/posts/070/e1cccaf2-ffd4-4e4a-8fc7-5d9a2eaedd51.png)
-
+![eickor_筌욊쑵??bgm??볤탢.mp4_20240827_102445.963.jpg](/assets/images/posts/070/e1cccaf2-ffd4-4e4a-8fc7-5d9a2eaedd51.png)
 
 
 ## Introduction: The Global Streaming Pivot
@@ -18,53 +16,51 @@ In 2021, the world stopped for *Squid Game*. But for seasoned fans of Hallyu, th
 
 ---
 
+<div class="affiliate-inline-cta">
+  <p><strong>Worth comparing:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. A broad fan-goods search that fits Korean celebrity, K-pop, K-drama, concert, and watch-party content without forcing one exact product. Start with <a href="https://www.amazon.com/s?k=kpop+kdrama+fan+goods&amp;tag=epickor2026-20">Browse K-Pop and K-Drama Fan Goods</a>.</p>
+</div>
+
 ## 1. The Classics of Fantasy and Reality
 
 
-
 <div class="image-grid-2up">
 
-![eickor_진호_bgm제거.mp4_20240827_102456.770.jpg](/assets/images/posts/070/099_eickor_%EC%A7%84%ED%98%B8_bgm%EC%A0%9C%EA%B1%B0.mp4_20240827_102456.770.jpg)
+![eickor_筌욊쑵??bgm??볤탢.mp4_20240827_102456.770.jpg](/assets/images/posts/070/099_eickor_%EC%A7%84%ED%98%B8_bgm%EC%A0%9C%EA%B1%B0.mp4_20240827_102456.770.jpg)
 
-![eickor_진호_bgm제거.mp4_20240827_102509.066.jpg](/assets/images/posts/070/099_eickor_%EC%A7%84%ED%98%B8_bgm%EC%A0%9C%EA%B1%B0.mp4_20240827_102509.066.jpg)
+![eickor_筌욊쑵??bgm??볤탢.mp4_20240827_102509.066.jpg](/assets/images/posts/070/099_eickor_%EC%A7%84%ED%98%B8_bgm%EC%A0%9C%EA%B1%B0.mp4_20240827_102509.066.jpg)
 
 </div>
 
 
-
-
-
 <div class="image-grid-2up">
 
-![eickor_진호_bgm제거.mp4_20240827_102519.306.jpg](/assets/images/posts/070/099_eickor_%EC%A7%84%ED%98%B8_bgm%EC%A0%9C%EA%B1%B0.mp4_20240827_102519.306.jpg)
+![eickor_筌욊쑵??bgm??볤탢.mp4_20240827_102519.306.jpg](/assets/images/posts/070/099_eickor_%EC%A7%84%ED%98%B8_bgm%EC%A0%9C%EA%B1%B0.mp4_20240827_102519.306.jpg)
 
-![eickor_진호_bgm제거.mp4_20240827_102521.307.jpg](/assets/images/posts/070/099_eickor_%EC%A7%84%ED%98%B8_bgm%EC%A0%9C%EA%B1%B0.mp4_20240827_102521.307.jpg)
+![eickor_筌욊쑵??bgm??볤탢.mp4_20240827_102521.307.jpg](/assets/images/posts/070/099_eickor_%EC%A7%84%ED%98%B8_bgm%EC%A0%9C%EA%B1%B0.mp4_20240827_102521.307.jpg)
 
 </div>
-
 
 
 * **Goblin (Guardian):** This fantasy masterpiece redefined the visual language of K-Drama. Starring **Kim Go-eun** and **Gong Yoo**, it blended ancient mythology with modern loneliness, creating a soundtrack and aesthetic that is still mimicked today.
 * **The Reply Series (1988, 1994, 1997):** While the world loves the thrills, Koreans love the "Reply" series. These dramas focus on the "Small Joys" of family and neighborhood life. They are the ultimate cure for the isolation of the digital age, proving that "Warmth" is a universal language.
 
-## 2. The Genre Disruptors: Zombies and Aliens
+<div class="affiliate-inline-cta">
+  <p><strong>Worth comparing:</strong> Introductory guide to Hangeul series - Vol.1 Consonant and Vowel. Start with <a href="https://amzn.to/3Zgx6Qq">Korean Alphabet with Writing Workbook</a>.</p>
+</div>
 
+## 2. The Genre Disruptors: Zombies and Aliens
 
 
 <div class="image-grid-2up">
 
-![eickor_진호_bgm제거.mp4_20240827_102529.813.jpg](/assets/images/posts/070/099_eickor_%EC%A7%84%ED%98%B8_bgm%EC%A0%9C%EA%B1%B0.mp4_20240827_102529.813.jpg)
+![eickor_筌욊쑵??bgm??볤탢.mp4_20240827_102529.813.jpg](/assets/images/posts/070/099_eickor_%EC%A7%84%ED%98%B8_bgm%EC%A0%9C%EA%B1%B0.mp4_20240827_102529.813.jpg)
 
-![eickor_진호_bgm제거.mp4_20240827_102533.882.jpg](/assets/images/posts/070/099_eickor_%EC%A7%84%ED%98%B8_bgm%EC%A0%9C%EA%B1%B0.mp4_20240827_102533.882.jpg)
+![eickor_筌욊쑵??bgm??볤탢.mp4_20240827_102533.882.jpg](/assets/images/posts/070/099_eickor_%EC%A7%84%ED%98%B8_bgm%EC%A0%9C%EA%B1%B0.mp4_20240827_102533.882.jpg)
 
 </div>
 
 
-
-
-
 <!-- IMAGE_5: Placeholder for future image -->
-
 
 
 * **Kingdom:** Before *Kingdom*, the zombie genre was starting to feel stagnant. By placing a viral outbreak in the Joseon Dynasty, the creators turned a horror trope into a high-stakes political thriller about class struggle and hunger. It is widely considered the best zombie series ever made.

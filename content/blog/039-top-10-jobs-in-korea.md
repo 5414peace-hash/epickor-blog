@@ -48,6 +48,10 @@ Looking at the top 10 list, positions 2 through 9 are occupied by various medica
 * **Financial Dominance:** In a housing market that is increasingly out of reach, a medical license is the only guaranteed ticket to the upper-middle class. 
 * **Intellectual Validation:** Being a doctor in Korea signals that you were in the top 0.1% of the CSAT (Suneung) exam. It is the ultimate proof of meritocratic victory in a high-stakes education system.
 
+<div class="affiliate-inline-cta">
+  <p><strong>Korean study-culture note:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. If career status made you curious about the language of Korean schools and jobs, compare <a href="https://amzn.to/3Zgx6Qq">Korean Alphabet with Writing Workbook</a> as a first study step.</p>
+</div>
+
 ## 2. The Stability Quest: Civil Servants and Teachers
 
 Despite the lower pay compared to doctors, **Civil Servants** and **Teachers** consistently rank in the top 10 of 'Loved' jobs.
@@ -68,6 +72,10 @@ Despite the lower pay compared to doctors, **Civil Servants** and **Teachers** c
 * **The Social Cost:** This obsession with 'Safety' has led to a brain drain in the creative and startup sectors, as the nation’s brightest minds spend years in 'Gosi-chons' (study villages) trying to pass civil service exams.
 
 ---
+
+<div class="affiliate-inline-cta">
+  <p><strong>For context beyond rankings:</strong> Korean job culture is easier to read when basic phrases and titles make sense; browse <a href="https://www.amazon.com/s?k=korean+language+study+guide&tag=epickor2026-20">Korean language study guides</a> before going deeper into workplace culture.</p>
+</div>
 
 ## Conclusion: The Future of the Hustle
 

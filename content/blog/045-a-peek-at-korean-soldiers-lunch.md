@@ -7,9 +7,7 @@ tags: ["Culture", "Food", "Man", "Society"]
 ---
 
 
-
-![epickor_휘수.mp4_20240721_214203.768.jpg](/assets/images/posts/045/501cc362-d7c6-4b95-8efa-6dbfe8b08f93.png)
-
+![epickor_??뤿땾.mp4_20240721_214203.768.jpg](/assets/images/posts/045/501cc362-d7c6-4b95-8efa-6dbfe8b08f93.png)
 
 
 ## Introduction: The Long Shadow of Duty
@@ -18,48 +16,46 @@ In most countries, discharge from the military means the end of your service. In
 
 ---
 
+<div class="affiliate-inline-cta">
+  <p><strong>Worth comparing:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. A useful starting point for readers who want deeper context on Korean history, society, politics, and modern culture after reading an explainer. Start with <a href="https://www.amazon.com/s?k=korean+culture+history+book&amp;tag=epickor2026-20">Browse Korean Culture and History Books</a>.</p>
+</div>
+
 ## 1. The 8-Year Commitment: The 'Yebigun' Cycle
 
 
-
 <div class="image-grid-2up">
 
-![epickor_휘수.mp4_20240721_214217.240.jpg](/assets/images/posts/045/048_epickor_%ED%9C%98%EC%88%98.mp4_20240721_214217.240.jpg)
+![epickor_??뤿땾.mp4_20240721_214217.240.jpg](/assets/images/posts/045/048_epickor_%ED%9C%98%EC%88%98.mp4_20240721_214217.240.jpg)
 
-![epickor_휘수.mp4_20240721_214220.265.jpg](/assets/images/posts/045/048_epickor_%ED%9C%98%EC%88%98.mp4_20240721_214220.265.jpg)
+![epickor_??뤿땾.mp4_20240721_214220.265.jpg](/assets/images/posts/045/048_epickor_%ED%9C%98%EC%88%98.mp4_20240721_214220.265.jpg)
 
 </div>
 
 
-
-
-
 <div class="image-grid-2up">
 
-![epickor_휘수.mp4_20240721_214234.265.jpg](/assets/images/posts/045/048_epickor_%ED%9C%98%EC%88%98.mp4_20240721_214234.265.jpg)
+![epickor_??뤿땾.mp4_20240721_214234.265.jpg](/assets/images/posts/045/048_epickor_%ED%9C%98%EC%88%98.mp4_20240721_214234.265.jpg)
 
-![epickor_휘수.mp4_20240721_214238.026.jpg](/assets/images/posts/045/048_epickor_%ED%9C%98%EC%88%98.mp4_20240721_214238.026.jpg)
+![epickor_??뤿땾.mp4_20240721_214238.026.jpg](/assets/images/posts/045/048_epickor_%ED%9C%98%EC%88%98.mp4_20240721_214238.026.jpg)
 
 </div>
-
 
 
 The Reserve Force system is designed to keep combat skills sharp in a nation technically still at war.
 * **The Schedule:** For the first four years, it's a rigorous 3-day, 2-night stay at a military base. For years five and six, it's shorter sessions. For years seven and eight, it's a simple 'check-in' via phone.
 * **The Psychological Shift:** Returning to the base is a strange temporal loop. Men who are now CEOs, doctors, or teachers put on their old uniforms and temporarily revert to the hierarchy and language of the military.
 
-## 2. The Lunch Box Controversy: Food as a Moral Indicator
+<div class="affiliate-inline-cta">
+  <p><strong>Worth comparing:</strong> Introductory guide to Hangeul series - Vol.1 Consonant and Vowel. Start with <a href="https://amzn.to/3Zgx6Qq">Korean Alphabet with Writing Workbook</a>.</p>
+</div>
 
+## 2. The Lunch Box Controversy: Food as a Moral Indicator
 
 
 <!-- IMAGE_4: Placeholder for future image -->
 
 
-
-
-
 <!-- IMAGE_5: Placeholder for future image -->
-
 
 
 Nothing generates more online debate in Korea than the quality of the **Yebigun Lunch Box**. 

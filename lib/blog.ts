@@ -430,6 +430,15 @@ export async function getBlogPostForPreview(slug: string): Promise<BlogPost | nu
     );
 
     const postSlug = (frontmatter.slug as string) || resolvedFileName.replace(/\.md$/, '');
+    const allPosts = getAllBlogPosts();
+
+    contentHtml = processImages(contentHtml, postSlug);
+    contentHtml = enhanceMarkdownHTML(
+      contentHtml,
+      allPosts,
+      (frontmatter.tags as string[]) || [],
+      frontmatter.amazon === true
+    );
 
     return {
       slug: postSlug,

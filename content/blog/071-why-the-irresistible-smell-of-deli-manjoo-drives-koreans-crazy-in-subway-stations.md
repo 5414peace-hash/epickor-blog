@@ -42,6 +42,10 @@ It is not a complicated dessert. That is part of its charm. It is the kind of sn
 
 For visitors, Deli Manjoo can feel like a Korean street-food cousin of taiyaki, imagawayaki, or small custard cakes. The difference is the corn shape, the subway setting, and the very specific smell that makes it almost impossible to ignore.
 
+<div class="affiliate-inline-cta">
+  <p><strong>Korean snack note:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. If Deli Manjoo made you want a sweet Korean snack at home, compare <a href="https://amzn.to/3RjAjOp">Korean honey yakgwa</a> for a shelf-stable tea-time option.</p>
+</div>
+
 ---
 
 ## Why Is It Called Deli Manjoo?
@@ -172,6 +176,10 @@ Here is the simple tourist guide:
 Some fans also like it after cooling down or even frozen, but for a first try, warm is the classic version.
 
 For another Korean snack culture guide, see EpicKor's article on [Korean snacks and texture culture](/blog/029).
+
+<div class="affiliate-inline-cta">
+  <p><strong>For a snack drawer:</strong> Deli Manjoo is best fresh, but individually wrapped <a href="https://amzn.to/4nI1uhT">Korean sweet potato snack bars</a> are easier to keep around when you want a small Korean-style sweet bite.</p>
+</div>
 
 ---
 

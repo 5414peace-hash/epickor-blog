@@ -1,9 +1,12 @@
 ---
-title: "The ABO Myth: A Deep Dive into South Korea's Blood Type Obsession"
+title: "Korean Blood Type Personality: Why Koreans Still Ask"
 slug: '011'
 date: "2024-07-08"
-description: "Why Koreans still ask for your blood type on a first date. Exploring the pseudo-scientific history, social archetypes, and the shift toward MBTI."
+description: "Korean blood type personality explained: why people ask, what A/B/O/AB stereotypes mean, and how MBTI replaced blood type culture."
+visibility: "public"
+publishAt: ""
 tags: ["Culture", "Psychology", "Relationships"]
+author: "EpicKor"
 ---
 
 
@@ -38,6 +41,10 @@ The Korean blood type myth divides humanity into four distinct boxes:
 * **Type O (The Warrior):** Seen as outgoing, natural leaders, and deeply ambitious. They are the social butterflies who hold groups together.
 * **Type AB (The Humanist/Alien):** Often described as either a genius or a complete eccentric. They are perceived as hyper-rational but emotionally detached.
 
+<div class="affiliate-inline-cta">
+  <p><strong>Conversation-culture note:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. If blood type, MBTI, and dating questions made Korean small talk feel tricky, browse <a href="https://www.amazon.com/s?k=korean+phrasebook&tag=epickor2026-20">Korean phrasebook options</a> before your next culture deep dive.</p>
+</div>
+
 ## 2. A Dark History: From Eugenics to Pop Culture
 
 The roots of this obsession are not Korean. The theory was popularized in Japan during the 1920s and 30s, often used by the military to categorize soldiers. It reached South Korea in the late 20th century, where it was stripped of its darker connotations and repackaged as harmless pop-psychology. 
@@ -63,6 +70,10 @@ Why does it persist? In a hyper-competitive, high-context society like Korea, pe
 ## 3. The New Rival: MBTI and the Evolution of the Label
 
 While blood types held the throne for decades, the younger generation (MZ Generation) has moved toward the **MBTI** (Myers-Briggs Type Indicator). However, the underlying motivation remains the same: a desire to categorize and simplify the social world. Whether it's being an "INFJ" or an "O-type," the goal is to find a sense of belonging in a society that often feels cold and transactional.
+
+<div class="affiliate-inline-cta">
+  <p><strong>For a Korean culture night:</strong> Pair this kind of personality talk with something light rather than turning it into homework; compare <a href="https://amzn.to/49fO0E8">Maxim Mocha Gold Mild Coffee Mix</a> if you want a simple Korean coffee-table setup.</p>
+</div>
 
 ## Conclusion: Blood is Thicker Than Facts
 

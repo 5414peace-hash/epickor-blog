@@ -42,6 +42,10 @@ The primary reason is pragmatic: when it rains in Korea, it *pours*.
 * **The Monsoon Effect:** During the summer monsoon season (Jangma), rainfall is vertical and violent. A light drizzle in Korea often escalates into a soaking downpour within minutes.
 * **The Survey Gap:** A famous cross-cultural study showed that 66% of Americans prefer to keep their hands free and get a little wet. In contrast, 90% of Koreans viewed an umbrella as a mandatory accessory. 
 
+<div class="affiliate-inline-cta">
+  <p><strong>Rainy Seoul note:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. If this explains why umbrellas appear so fast in Korea, compare <a href="https://www.amazon.com/s?k=compact+travel+umbrella&tag=epickor2026-20">compact travel umbrella options</a> before packing for Seoul.</p>
+</div>
+
 ## 2. The Myth of the 'Acid Rain' and Pollution
 
 There is a deep-seated cultural belief in Korea that rain is inherently 'unclean.' 
@@ -62,6 +66,10 @@ There is a deep-seated cultural belief in Korea that rain is inherently 'unclean
 * **The Hair Loss Fear:** A common urban legend in Korea suggests that getting caught in the rain causes hair loss (탈모). Whether scientifically proven or not, this fear drives millions to reach for their '3-Fold' umbrellas at the first sign of grey clouds.
 
 ---
+
+<div class="affiliate-inline-cta">
+  <p><strong>Small bag backup:</strong> Korea travel days change quickly between subway exits, cafes, and rain; compare <a href="https://www.amazon.com/s?k=travel+tissue+packs&tag=epickor2026-20">travel tissue packs</a> for quick cleanups after wet streets or crowded stations.</p>
+</div>
 
 ## Conclusion: Urban Sophistication
 

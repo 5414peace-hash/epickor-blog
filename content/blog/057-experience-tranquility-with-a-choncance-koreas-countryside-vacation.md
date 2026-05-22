@@ -48,6 +48,10 @@ Choncance is not just a trip; it is a **Role-Playing Experience**.
 * **The Fashion:** Young influencers are trading designer labels for **'Mom-ppe'** (traditional baggy floral pants) and rubber shoes. This "Ugly-Cool" aesthetic is part of the 'New-tro' (New Retro) trend that romanticizes the poverty of the 70s and 80s as a simpler, happier time.
 * **The Culinary Experience:** Grilling thick slabs of pork belly on a giant iron pot lid (Sot-ttuk-keong) over a wood fire provides a sensory satisfaction that a Michelin-star restaurant cannot replicate. It is the "Taste of the Earth."
 
+<div class="affiliate-inline-cta">
+  <p><strong>Countryside-trip pocket item:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. Choncance sounds romantic until the bus stop has no convenience store, so <a href="https://www.amazon.com/s?k=travel+tissue+packs&tag=epickor2026-20">travel tissue packs</a> are a useful low-effort add-on.</p>
+</div>
+
 ## 2. Healing through Isolation: The Mud House Effect
 
 
@@ -67,6 +71,10 @@ Why a mud house? Traditional Korean houses (Hanok) were built with red clay and 
 * **The 'Hae-dal-ri' Vibes:** Inspired by movies like *Little Forest*, young Koreans view the manual labor of the countryside—chopping wood, picking vegetables—as a form of "Meditation through Action."
 
 ---
+
+<div class="affiliate-inline-cta">
+  <p><strong>Slow-trip snack:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. For a quiet train, guesthouse, or village stay, <a href="https://amzn.to/4nI1uhT">Korean sweet potato snack bars</a> fit the countryside-rest mood better than flashy souvenirs.</p>
+</div>
 
 ## Conclusion: The Soul’s Return to the Soil
 

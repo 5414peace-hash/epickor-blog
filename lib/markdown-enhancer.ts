@@ -250,6 +250,61 @@ export function convertYouTubeLinksToEmbeds(html: string): string {
   });
 }
 
+function mergeRel(existingRel: string, required: string[]): string {
+  const values = new Set(
+    existingRel
+      .split(/\s+/)
+      .map((item) => item.trim())
+      .filter(Boolean)
+  );
+
+  for (const item of required) {
+    values.add(item);
+  }
+
+  return Array.from(values).join(' ');
+}
+
+function isExternalHref(href: string): boolean {
+  return /^https?:\/\//i.test(href) && !/^https?:\/\/(?:www\.)?epickor\.com(?:\/|$)/i.test(href);
+}
+
+function isAmazonHref(href: string): boolean {
+  return /^https?:\/\/(?:www\.)?(?:amzn\.to|amazon\.com)\b/i.test(href);
+}
+
+export function addTargetToExternalLinks(html: string): string {
+  return html.replace(/<a\b([^>]*)>/gi, (match, attributes: string) => {
+    const hrefMatch = attributes.match(/\bhref=(["'])(.*?)\1/i);
+    if (!hrefMatch) return match;
+
+    const href = hrefMatch[2];
+    if (!isExternalHref(href)) return match;
+
+    let nextAttributes = attributes;
+
+    if (/\btarget=/i.test(nextAttributes)) {
+      nextAttributes = nextAttributes.replace(/\btarget=(["'])(.*?)\1/i, 'target="_blank"');
+    } else {
+      nextAttributes += ' target="_blank"';
+    }
+
+    const requiredRel = isAmazonHref(href)
+      ? ['nofollow', 'sponsored', 'noopener', 'noreferrer']
+      : ['noopener', 'noreferrer'];
+
+    if (/\brel=/i.test(nextAttributes)) {
+      nextAttributes = nextAttributes.replace(/\brel=(["'])(.*?)\1/i, (_relMatch, _quote, relValue) => {
+        return `rel="${mergeRel(relValue, requiredRel)}"`;
+      });
+    } else {
+      nextAttributes += ` rel="${requiredRel.join(' ')}"`;
+    }
+
+    return `<a${nextAttributes}>`;
+  });
+}
+
 export function convertInternalLinksToCards(html: string, allPosts: InternalPostReference[]): string {
   const internalLinkPattern = /<a[^>]*href="https?:\/\/(?:www\.)?epickor\.com\/blog\/([^"]+)"[^>]*>([^<]+)<\/a>/g;
 
@@ -294,6 +349,8 @@ export function enhanceMarkdownHTML(
     const selectedProducts = selectProductsForPost(postTags, enhanced);
     enhanced = insertAmazonAffiliateSection(enhanced, selectedProducts);
   }
+
+  enhanced = addTargetToExternalLinks(enhanced);
 
   return enhanced;
 }

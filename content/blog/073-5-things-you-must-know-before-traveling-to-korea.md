@@ -7,41 +7,38 @@ tags: ["Culture", "Shopping", "Travel", "Sociology"]
 ---
 
 
-
-![epickor_휘수.mp4_20240919_111416.456.jpg](/assets/images/posts/073/1490862d-301e-4fff-8a6f-c641ae18c247.png)
-
+![epickor_??뤿땾.mp4_20240919_111416.456.jpg](/assets/images/posts/073/1490862d-301e-4fff-8a6f-c641ae18c247.png)
 
 
 ## Introduction: The Invisible Infrastructure
 
-Welcome to South Korea—a land of hyper-modernity and deep-seated Confucian roots. For the first-time visitor, the visual landscape of Seoul is intuitive, but the social landscape is governed by an invisible infrastructure of codes and expectations. To navigate this country with grace, one must look beyond the palaces and shopping malls. This deep dive analyzes five essential tips that define the traveler’s experience, explaining the "Why" behind the "What" of Korean social norms.
+Welcome to South Korea?遊?land of hyper-modernity and deep-seated Confucian roots. For the first-time visitor, the visual landscape of Seoul is intuitive, but the social landscape is governed by an invisible infrastructure of codes and expectations. To navigate this country with grace, one must look beyond the palaces and shopping malls. This deep dive analyzes five essential tips that define the traveler???experience, explaining the "Why" behind the "What" of Korean social norms.
 
 ---
+
+<div class="affiliate-inline-cta">
+  <p><strong>Worth comparing:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. A useful starting point for readers who want deeper context on Korean history, society, politics, and modern culture after reading an explainer. Start with <a href="https://www.amazon.com/s?k=korean+culture+history+book&amp;tag=epickor2026-20">Browse Korean Culture and History Books</a>.</p>
+</div>
 
 ## 1. The 'Nunchi' Gaze: Why You Might Be Stared At
 
 
-
 <div class="image-grid-2up">
 
-![epickor_휘수.mp4_20240919_111436.961.jpg](/assets/images/posts/073/105_epickor_%ED%9C%98%EC%88%98.mp4_20240919_111436.961.jpg)
+![epickor_??뤿땾.mp4_20240919_111436.961.jpg](/assets/images/posts/073/105_epickor_%ED%9C%98%EC%88%98.mp4_20240919_111436.961.jpg)
 
-![epickor_휘수.mp4_20240919_111504.075.jpg](/assets/images/posts/073/105_epickor_%ED%9C%98%EC%88%98.mp4_20240919_111504.075.jpg)
+![epickor_??뤿땾.mp4_20240919_111504.075.jpg](/assets/images/posts/073/105_epickor_%ED%9C%98%EC%88%98.mp4_20240919_111504.075.jpg)
 
 </div>
 
 
-
-
-
 <div class="image-grid-2up">
 
-![epickor_휘수.mp4_20240919_111530.055.jpg](/assets/images/posts/073/105_epickor_%ED%9C%98%EC%88%98.mp4_20240919_111530.055.jpg)
+![epickor_??뤿땾.mp4_20240919_111530.055.jpg](/assets/images/posts/073/105_epickor_%ED%9C%98%EC%88%98.mp4_20240919_111530.055.jpg)
 
-![epickor_휘수.mp4_20240919_111526.113.jpg](/assets/images/posts/073/105_epickor_%ED%9C%98%EC%88%98.mp4_20240919_111526.113.jpg)
+![epickor_??뤿땾.mp4_20240919_111526.113.jpg](/assets/images/posts/073/105_epickor_%ED%9C%98%EC%88%98.mp4_20240919_111526.113.jpg)
 
 </div>
-
 
 
 As a foreigner in Korea, you will experience the "National Gaze."
@@ -55,18 +52,17 @@ Korea is arguably the safest country on Earth for a traveler.
 * **The 3 AM Liberty:** In Seoul, the night belongs to everyone. The presence of a 24-hour convenience store on every corner acts as a network of informal security outposts, ensuring peace of mind at any hour.
 
 
-
 <!-- IMAGE_4: Placeholder for future image -->
-
-
-
 
 
 <!-- IMAGE_5: Placeholder for future image -->
 
 
-
 ---
+
+<div class="affiliate-inline-cta">
+  <p><strong>Worth comparing:</strong> Introductory guide to Hangeul series - Vol.1 Consonant and Vowel. Start with <a href="https://amzn.to/3Zgx6Qq">Korean Alphabet with Writing Workbook</a>.</p>
+</div>
 
 ## 3. The 'Warrior-Scholar' Manners
 

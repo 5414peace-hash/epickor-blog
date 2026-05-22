@@ -7,9 +7,7 @@ tags: ["Culture", "Travel", "Health", "Social"]
 ---
 
 
-
-![epickor_휘수.mp4_20240807_143408.091.jpg](/assets/images/posts/063/af4b8805-d6ac-4c9b-bb6d-f6bf3d5631c6.png)
-
+![epickor_??뤿땾.mp4_20240807_143408.091.jpg](/assets/images/posts/063/af4b8805-d6ac-4c9b-bb6d-f6bf3d5631c6.png)
 
 
 ## Introduction: The Vertical Metropolis
@@ -18,36 +16,39 @@ Seoul is one of the few global megacities where the subway can deliver you to th
 
 ---
 
+<div class="affiliate-inline-cta">
+  <p><strong>Worth comparing:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. Introductory guide to Hangeul series - Vol.1 Consonant and Vowel. Start with <a href="https://amzn.to/3Zgx6Qq">Korean Alphabet with Writing Workbook</a>.</p>
+</div>
+
 ## 1. The Hierarchy of Peaks: From Easy to Advanced
 
 
-
 <div class="image-grid-2up">
 
-![epickor_휘수.mp4_20240807_143414.978.jpg](/assets/images/posts/063/087_epickor_%ED%9C%98%EC%88%98.mp4_20240807_143414.978.jpg)
+![epickor_??뤿땾.mp4_20240807_143414.978.jpg](/assets/images/posts/063/087_epickor_%ED%9C%98%EC%88%98.mp4_20240807_143414.978.jpg)
 
-![epickor_휘수.mp4_20240807_143433.796.jpg](/assets/images/posts/063/087_epickor_%ED%9C%98%EC%88%98.mp4_20240807_143433.796.jpg)
+![epickor_??뤿땾.mp4_20240807_143433.796.jpg](/assets/images/posts/063/087_epickor_%ED%9C%98%EC%88%98.mp4_20240807_143433.796.jpg)
 
 </div>
 
 
-
-
-
 <div class="image-grid-2up">
 
-![epickor_휘수.mp4_20240807_143454.156.jpg](/assets/images/posts/063/087_epickor_%ED%9C%98%EC%88%98.mp4_20240807_143454.156.jpg)
+![epickor_??뤿땾.mp4_20240807_143454.156.jpg](/assets/images/posts/063/087_epickor_%ED%9C%98%EC%88%98.mp4_20240807_143454.156.jpg)
 
-![epickor_휘수.mp4_20240807_143503.924.jpg](/assets/images/posts/063/087_epickor_%ED%9C%98%EC%88%98.mp4_20240807_143503.924.jpg)
+![epickor_??뤿땾.mp4_20240807_143503.924.jpg](/assets/images/posts/063/087_epickor_%ED%9C%98%EC%88%98.mp4_20240807_143503.924.jpg)
 
 </div>
-
 
 
 Seoul's mountains offer a diverse range of difficulty levels, each catering to a different demographic:
 * **Inwangsan (Easy):** Located in the heart of the city near Gyeongbokgung, it offers a quick 1-hour ascent with a stunning night view of the Seoul city wall. It is the favorite of the MZ generation and first-time travelers.
 * **Acha & Yongma (Intermediate):** These eastern peaks are connected by a well-paved ridge, offering a panoramic view of the Han River. They are the go-to for families and weekend groups.
 * **Cheonggyesan & Gwanaksan (Intermediate to Advanced):** Known for their steep, rocky 'stairs of hell' and jagged peaks. Gwanaksan, located near the elite Seoul National University, is a favorite for those seeking a true physical challenge.
+
+<div class="affiliate-inline-cta">
+  <p><strong>Worth comparing:</strong> A Korean traditional play set for family games, culture explainers, and Squid Game-adjacent interest. Start with <a href="https://amzn.to/4dWw6sx">Gonggi Korean Traditional Game Set</a>.</p>
+</div>
 
 ## 2. The Anthropology of the 'Hiking Uniform'
 
@@ -56,15 +57,10 @@ One of the most striking aspects of Korean hiking is the equipment.
 * **The 'After-Party' Ritual:** Hiking is rarely just about the climb. The true highlight is the food at the base: Pajeon (green onion pancake) and Makgeolli (rice wine), where the day's exertion is shared through communal laughter.
 
 
-
 <!-- IMAGE_4: Placeholder for future image -->
 
 
-
-
-
 <!-- IMAGE_5: Placeholder for future image -->
-
 
 
 ---

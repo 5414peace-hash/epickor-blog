@@ -7,63 +7,59 @@ tags: ["Social", "Woman", "Education", "Sociology"]
 ---
 
 
-
-![epickor_건순.mp4_20250103_224646.810.jpg](/assets/images/posts/077/bad6c7b9-090a-486c-bc77-a9a9d8e30618.png)
-
+![epickor_椰꾨똻??mp4_20250103_224646.810.jpg](/assets/images/posts/077/bad6c7b9-090a-486c-bc77-a9a9d8e30618.png)
 
 
 ## Introduction: Red Paint and Radical Stance
 
-In late 2024, the peaceful campus of **Dongduk Women’s University** transformed into a sea of red. Students occupied buildings and defaced the bust of the university's founder, leaving messages of anger in spray paint. This was not a typical protest over tuition; it was an existential battle over the **Coeducation Debate**. As South Korea faces a "Demographic Cliff" (declining school-age population), many women's universities are considering admitting male students to survive financially. This deep dive analyzes why the students saw this as a betrayal and how the incident reflects the deepening gender divide in modern Korea.
+In late 2024, the peaceful campus of **Dongduk Women???University** transformed into a sea of red. Students occupied buildings and defaced the bust of the university's founder, leaving messages of anger in spray paint. This was not a typical protest over tuition; it was an existential battle over the **Coeducation Debate**. As South Korea faces a "Demographic Cliff" (declining school-age population), many women's universities are considering admitting male students to survive financially. This deep dive analyzes why the students saw this as a betrayal and how the incident reflects the deepening gender divide in modern Korea.
 
 ---
+
+<div class="affiliate-inline-cta">
+  <p><strong>Worth comparing:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. Introductory guide to Hangeul series - Vol.1 Consonant and Vowel. Start with <a href="https://amzn.to/3Zgx6Qq">Korean Alphabet with Writing Workbook</a>.</p>
+</div>
 
 ## 1. The Catalyst: The Fear of Erasure
 
 
-
 <div class="image-grid-2up">
 
-![epickor_건순.mp4_20250103_224704.934.jpg](/assets/images/posts/077/118_epickor_%EA%B1%B4%EC%88%9C.mp4_20250103_224704.934.jpg)
+![epickor_椰꾨똻??mp4_20250103_224704.934.jpg](/assets/images/posts/077/118_epickor_%EA%B1%B4%EC%88%9C.mp4_20250103_224704.934.jpg)
 
-![epickor_건순.mp4_20250103_224711.273.jpg](/assets/images/posts/077/118_epickor_%EA%B1%B4%EC%88%9C.mp4_20250103_224711.273.jpg)
+![epickor_椰꾨똻??mp4_20250103_224711.273.jpg](/assets/images/posts/077/118_epickor_%EA%B1%B4%EC%88%9C.mp4_20250103_224711.273.jpg)
 
 </div>
 
 
-
-
-
 <div class="image-grid-2up">
 
-![epickor_건순.mp4_20250103_224809.721.jpg](/assets/images/posts/077/118_epickor_%EA%B1%B4%EC%88%9C.mp4_20250103_224809.721.jpg)
+![epickor_椰꾨똻??mp4_20250103_224809.721.jpg](/assets/images/posts/077/118_epickor_%EA%B1%B4%EC%88%9C.mp4_20250103_224809.721.jpg)
 
-![epickor_건순.mp4_20250103_224750.510.jpg](/assets/images/posts/077/118_epickor_%EA%B1%B4%EC%88%9C.mp4_20250103_224750.510.jpg)
+![epickor_椰꾨똻??mp4_20250103_224750.510.jpg](/assets/images/posts/077/118_epickor_%EA%B1%B4%EC%88%9C.mp4_20250103_224750.510.jpg)
 
 </div>
-
 
 
 The protest began when rumors surfaced that the administration was discussing a transition to coeducation.
 * **The Sanctuary Argument:** For many students, a women's university is more than an academic institution; it is a "Safe Space" from the pervasive gender-based discrimination and digital sex crimes (Deepfakes) that dominate the Korean news cycle.
 * **The Red Message:** The use of red spray paint was a symbolic act of "Sacrificing the Campus" to prevent the "Death of the University's Identity."
 
+<div class="affiliate-inline-cta">
+  <p><strong>Worth comparing:</strong> A Korean traditional play set for family games, culture explainers, and Squid Game-adjacent interest. Start with <a href="https://amzn.to/4dWw6sx">Gonggi Korean Traditional Game Set</a>.</p>
+</div>
+
 ## 2. The Demographic Reality: 14 Schools Remaining
 
-South Korea’s record-low birth rate (0.6) has forced a brutal Darwinian reality onto the higher education sector. 
+South Korea???record-low birth rate (0.6) has forced a brutal Darwinian reality onto the higher education sector. 
 * **The Survival Pivot:** Since 2024, the number of women's universities has dropped to just 14 nationwide. Administrations argue that without admitting men, many of these schools will go bankrupt within a decade.
 * **The Damage Standoff:** While the protests have ended, the university is seeking nearly $4 million in damages for property destruction. This legal battle is the next phase of the conflict, pitting student activism against corporate liability.
-
 
 
 <!-- IMAGE_4: Placeholder for future image -->
 
 
-
-
-
 <!-- IMAGE_5: Placeholder for future image -->
-
 
 
 ---

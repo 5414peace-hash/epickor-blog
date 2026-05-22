@@ -48,6 +48,10 @@ The Pojangmacha serves a unique social function:
 * **The Equalizer:** Inside the tent, the rigid hierarchy of the office is suspended. The owner (often an 'Imo' or Auntie) acts as a neutral therapist, listening to the complaints of the customers.
 * **The 'Soju Romance':** Featured in countless K-Dramas, the Pojangmacha is the designated space for the "Authentic Moment." The lack of high-end decor and the proximity to the street create a sense of raw, unpolished reality that Koreans find deeply therapeutic.
 
+<div class="affiliate-inline-cta">
+  <p><strong>Pojangmacha food note:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. If the outdoor-table mood made you hungry, compare a <a href="https://amzn.to/4qrpQMM">Korean ramen cooking pot</a> for the easiest late-night Korean comfort setup at home.</p>
+</div>
+
 ## 2. The Menu of Survival: Odeng, San-nakji, and Bindaetteok
 
 The food of the Pojangmacha is designed for "Drinking Support." 
@@ -68,6 +72,10 @@ The food of the Pojangmacha is designed for "Drinking Support."
 * **The Resilience of the Stall:** Despite the rise of "Indoor Pocha" (modern bars mimicking the tent style), the original street versions in **Jongno 3-ga** and **Changdong** remain packed. They represent a connection to the "Street Vitality" of 1970s Korea, providing a sense of grit in a city that has become increasingly polished.
 
 ---
+
+<div class="affiliate-inline-cta">
+  <p><strong>For a small street-food pantry:</strong> Add one easy Korean comfort item before trying a full pojangmacha spread; compare <a href="https://amzn.to/4nFcnks">Korean kimchi stew with tofu</a> as a warm, low-effort option.</p>
+</div>
 
 ## Conclusion: The Soul of the Sidewalk
 
