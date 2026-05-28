@@ -28,6 +28,11 @@
   - Refreshed weak research image set:
     - Replaced irrelevant fish-market result with smartphone/comic/library imagery.
     - Updated `output/research/181_research.json` image entries.
+  - Representative rejected the first and second preview images and asked to keep only the third image.
+  - Replaced the first two images again:
+    - Hero/ogImage: digital artist drawing colorful tablet art (`pexels-photo-4238489`, Photo by Ivan S).
+    - Second image: artist sketching on a graphics tablet (`pexels-photo-7147722`, Photo by Michael Burrows).
+    - Third image retained: Starfield Library (`pexels-photo-19714663`, Photo by Line Knipst).
   - Wrote draft:
     - `output/drafts/181_draft.md`
     - Local preview copy: `content/blog/181.md`
@@ -36,6 +41,8 @@
     - `node scripts/run-pipeline.mjs --step review --slug 181`
   - Private preview commit created by publisher script:
     - `e28482f draft: add private preview post 181`
+  - Private preview image refresh commit:
+    - `f446b0b draft: update private preview post 181`
   - Opened local preview:
     - `http://localhost:4000/preview/181`
 - Verification:
@@ -5090,7 +5097,7 @@
   - Reviewer Agent: markdown SEO + local image file existence + manual rendered preview check.
   - Publisher Agent: post-publish public URL check, including visible images.
   - Human Reviewer: final content judgment, but should not have to catch broken-image plumbing.
-# 최종 업데이트: 2026-05-28 07:24:40 | 업데이트한 에이전트: Reviewer -> 사람 검토 대기
+# 최종 업데이트: 2026-05-28 07:31:02 | 업데이트한 에이전트: Reviewer -> 사람 검토 대기
 
 ---
 
@@ -5251,7 +5258,7 @@ Gemini API 의존성을 제거하는 방향으로 전환했다. 앞으로 글 �
 - 로컬 미리보기 URL: http://localhost:4000/preview/181
 - 프로덕션 미리보기: Actual-token production preview must be HTTP-verified before sharing; placeholder-token preview URLs are forbidden.
 - 승인/거절: 위 URL에서 버튼 클릭
-- 대기 시작: 2026-05-28 07:24:40
+- 대기 시작: 2026-05-28 07:31:02
 
 ---
 
