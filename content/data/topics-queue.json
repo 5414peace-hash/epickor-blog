@@ -293,7 +293,9 @@
         "Entertainment"
       ],
       "amazon_category": "Shopping",
-      "status": "pending"
+      "status": "in_progress",
+      "generated_slug": "181",
+      "generated_date": "2026-05-28"
     },
     {
       "id": 15,
@@ -662,5 +664,5 @@
     }
   ],
   "last_updated": "2026-05-28",
-  "next_slug": 181
+  "next_slug": 182
 }
