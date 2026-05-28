@@ -314,7 +314,9 @@
         "Culture"
       ],
       "amazon_category": "Shopping",
-      "status": "pending"
+      "status": "in_progress",
+      "generated_slug": "182",
+      "generated_date": "2026-05-28"
     },
     {
       "id": 16,
@@ -664,5 +666,5 @@
     }
   ],
   "last_updated": "2026-05-28",
-  "next_slug": 182
+  "next_slug": 183
 }

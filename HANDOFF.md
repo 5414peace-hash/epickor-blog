@@ -1,5 +1,57 @@
 # HANDOFF - EpicKor Agent Teams v2
 
+## Latest Update - 2026-05-28 Blog 182 Private Preview Ready
+
+- Trigger:
+  - Representative asked to continue after Blog 181 publication.
+- Selected next topic:
+  - Queue ID 15: `Korean Work Culture Decoded: Overtime, Hierarchy, and Hof Fridays`.
+  - Slug: `182`.
+- Completed:
+  - Updated `content/data/topics-queue.json`:
+    - ID 15 marked `in_progress`.
+    - `generated_slug`: `182`.
+    - `generated_date`: `2026-05-28`.
+    - `next_slug`: `183`.
+  - Ran research:
+    - `node scripts/run-pipeline.mjs --step research --slug 182 --force`
+    - Output: `output/research/182_research.json`.
+  - Strengthened research sources before drafting:
+    - MOEL labor standards page for Labor Standards Act scope and 52-hour system context.
+    - MOEL labor statistics page for 2024 monthly working hours and overtime data.
+    - Yonhap/Statistics Korea reporting for 2024 daily working hours.
+    - OECD hours-worked definition and comparability caution.
+    - 2025 KCI-listed study on Gen Z perceptions of hoesik culture.
+  - Refreshed weak research image set:
+    - Hero/ogImage: Asian colleagues discussing work in an office (`pexels-photo-7845232`, RDNE Stock project).
+    - Second image: office stress/discussion (`pexels-photo-8547226`, Kaboompics.com).
+    - Third image: Seoul Korean restaurant interior for hoesik/hof context (`pexels-photo-31663813`, Theodore Nguyen).
+  - Ran draft prep:
+    - `node scripts/run-pipeline.mjs --step draft --slug 182`
+    - Output: `output/drafts/182_writer-brief.md`.
+  - Wrote draft:
+    - `output/drafts/182_draft.md`.
+    - Local preview copy: `content/blog/182.md`.
+  - Ran review:
+    - `node .claude/skills/reviewer/scripts/review-post.mjs --draft output/drafts/182_draft.md --research output/research/182_research.json`
+    - `node scripts/run-pipeline.mjs --step review --slug 182`
+  - Private preview commit created by publisher script:
+    - `22a73a6 draft: add private preview post 182`
+  - Verified local preview:
+    - `http://localhost:4000/preview/182`
+- Verification:
+  - Auto review passed: `100/100`.
+  - Word count: `2300`.
+  - H2 sections: `5`.
+  - Images: `3`.
+  - FAQ Q&A: `5`.
+  - Local preview HTTP check: `200 OK`.
+- Current stage:
+  - **Blog 182 private preview is ready for representative review.**
+- Next action:
+  - Representative reviews `http://localhost:4000/preview/182`.
+  - If approved, run: `node scripts/run-pipeline.mjs --approve 182`.
+
 ## Latest Update - 2026-05-28 Blog 181 Published and Public Verified
 
 - Trigger:
@@ -5107,7 +5159,7 @@
   - Reviewer Agent: markdown SEO + local image file existence + manual rendered preview check.
   - Publisher Agent: post-publish public URL check, including visible images.
   - Human Reviewer: final content judgment, but should not have to catch broken-image plumbing.
-# 최종 업데이트: 2026-05-28 08:12:20 | 업데이트한 에이전트: Publisher
+# 최종 업데이트: 2026-05-28 08:29:10 | 업데이트한 에이전트: Reviewer -> 사람 검토 대기
 
 ---
 
@@ -5263,7 +5315,12 @@ Gemini API 의존성을 제거하는 방향으로 전환했다. 앞으로 글 �
 
 ## 사람 검토 대기
 
-- 현재 없음
+- 슬러그: **182**
+- draft 파일: `D:\dev\epickor-blog\output\drafts\182_draft.md`
+- 로컬 미리보기 URL: http://localhost:4000/preview/182
+- 프로덕션 미리보기: Actual-token production preview must be HTTP-verified before sharing; placeholder-token preview URLs are forbidden.
+- 승인/거절: 위 URL에서 버튼 클릭
+- 대기 시작: 2026-05-28 08:29:10
 
 ---
 
