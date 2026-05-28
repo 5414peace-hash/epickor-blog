@@ -1,15 +1,15 @@
 # HANDOFF - EpicKor Agent Teams v2
 
-## Latest Update - 2026-05-28 Blog 181 Official Webtoon Image Refresh Ready
+## Latest Update - 2026-05-28 Blog 181 Published and Public Verified
 
 - Trigger:
-  - Representative approved continuing after Blog 180 publication.
+  - Representative approved proceeding from Blog 181 private preview after official WEBTOON image refresh.
 - Selected next topic:
   - Queue ID 14: `The Rise of Korean Webtoons: From Naver to Netflix`.
   - Slug: `181`.
 - Completed:
   - Updated `content/data/topics-queue.json`:
-    - ID 14 marked `in_progress`.
+    - ID 14 marked `done`.
     - `generated_slug`: `181`.
     - `generated_date`: `2026-05-28`.
     - `next_slug`: `182`.
@@ -49,6 +49,10 @@
   - Official WEBTOON media kit image refresh commits:
     - `139e74a draft: update private preview post 181`
     - `da00a1d chore: add post 181 official webtoon images`
+  - Ran approval/publish:
+    - `node scripts/run-pipeline.mjs --approve 181`
+  - Public publish commit:
+    - `7783e0d update: post 181`
   - Opened local preview:
     - `http://localhost:4000/preview/181`
 - Verification:
@@ -58,11 +62,11 @@
   - Images: `3`.
   - FAQ Q&A: `5`.
   - Local preview HTTP check: `200 OK`.
+  - Public URL HTTP check: `https://www.epickor.com/blog/181` returned `200 OK`.
 - Current stage:
-  - **Blog 181 private preview is ready for representative review.**
+  - **Blog 181 is published and public-verified.**
 - Next action:
-  - Representative reviews `http://localhost:4000/preview/181`.
-  - If approved, run: `node scripts/run-pipeline.mjs --approve 181`.
+  - Continue next content production item from the queue.
 
 ## Latest Update - 2026-05-28 Blog 180 Published and Public Verified
 
@@ -5103,7 +5107,7 @@
   - Reviewer Agent: markdown SEO + local image file existence + manual rendered preview check.
   - Publisher Agent: post-publish public URL check, including visible images.
   - Human Reviewer: final content judgment, but should not have to catch broken-image plumbing.
-# 최종 업데이트: 2026-05-28 07:44:03 | 업데이트한 에이전트: Reviewer -> 사람 검토 대기
+# 최종 업데이트: 2026-05-28 08:12:20 | 업데이트한 에이전트: Publisher
 
 ---
 
@@ -5259,12 +5263,7 @@ Gemini API 의존성을 제거하는 방향으로 전환했다. 앞으로 글 �
 
 ## 사람 검토 대기
 
-- 슬러그: **181**
-- draft 파일: `D:\dev\epickor-blog\output\drafts\181_draft.md`
-- 로컬 미리보기 URL: http://localhost:4000/preview/181
-- 프로덕션 미리보기: Actual-token production preview must be HTTP-verified before sharing; placeholder-token preview URLs are forbidden.
-- 승인/거절: 위 URL에서 버튼 클릭
-- 대기 시작: 2026-05-28 07:44:03
+- 현재 없음
 
 ---
 
