@@ -1,5 +1,56 @@
 # HANDOFF - EpicKor Agent Teams v2
 
+## Latest Update - 2026-05-28 Blog 181 Private Preview Ready
+
+- Trigger:
+  - Representative approved continuing after Blog 180 publication.
+- Selected next topic:
+  - Queue ID 14: `The Rise of Korean Webtoons: From Naver to Netflix`.
+  - Slug: `181`.
+- Completed:
+  - Updated `content/data/topics-queue.json`:
+    - ID 14 marked `in_progress`.
+    - `generated_slug`: `181`.
+    - `generated_date`: `2026-05-28`.
+    - `next_slug`: `182`.
+  - Ran research:
+    - `node scripts/run-pipeline.mjs --step research --slug 181 --force`
+    - Output: `output/research/181_research.json`.
+  - Ran draft prep:
+    - `node scripts/run-pipeline.mjs --step draft --slug 181`
+    - Output: `output/drafts/181_writer-brief.md`.
+  - Verified current webtoon business/platform claims against current sources before drafting:
+    - WEBTOON IR: approximately `145M` monthly active users as of quarter ended `2026-03-31`, `27M+` creators, `$1.4B` revenue in 2025.
+    - WEBTOON 2025 annual results: IP adaptations revenue grew to `$131.0M` in 2025.
+    - Yonhap/MCST/KOCCA report: Korean webtoon industry revenue reached `2.189T won` in 2023.
+    - Korea JoongAng Daily: Naver/Netflix collaboration reporting and confirmed caution that deeper Webtoon app integration was not confirmed.
+    - Naver press release: 2025 Disney partnership for vertical-scroll webtoon versions of Disney, Marvel, Star Wars, and 20th Century Studios titles.
+  - Refreshed weak research image set:
+    - Replaced irrelevant fish-market result with smartphone/comic/library imagery.
+    - Updated `output/research/181_research.json` image entries.
+  - Wrote draft:
+    - `output/drafts/181_draft.md`
+    - Local preview copy: `content/blog/181.md`
+  - Ran review:
+    - `node .claude/skills/reviewer/scripts/review-post.mjs --draft output/drafts/181_draft.md --research output/research/181_research.json`
+    - `node scripts/run-pipeline.mjs --step review --slug 181`
+  - Private preview commit created by publisher script:
+    - `e28482f draft: add private preview post 181`
+  - Opened local preview:
+    - `http://localhost:4000/preview/181`
+- Verification:
+  - Auto review passed: `100/100`.
+  - Word count: `2245`.
+  - H2 sections: `5`.
+  - Images: `3`.
+  - FAQ Q&A: `5`.
+  - Local preview HTTP check: `200 OK`.
+- Current stage:
+  - **Blog 181 private preview is ready for representative review.**
+- Next action:
+  - Representative reviews `http://localhost:4000/preview/181`.
+  - If approved, run: `node scripts/run-pipeline.mjs --approve 181`.
+
 ## Latest Update - 2026-05-28 Blog 180 Published and Public Verified
 
 - Trigger:
@@ -5039,7 +5090,7 @@
   - Reviewer Agent: markdown SEO + local image file existence + manual rendered preview check.
   - Publisher Agent: post-publish public URL check, including visible images.
   - Human Reviewer: final content judgment, but should not have to catch broken-image plumbing.
-# 최종 업데이트: 2026-05-28 07:14:02 | 업데이트한 에이전트: Publisher
+# 최종 업데이트: 2026-05-28 07:24:40 | 업데이트한 에이전트: Reviewer -> 사람 검토 대기
 
 ---
 
@@ -5195,7 +5246,12 @@ Gemini API 의존성을 제거하는 방향으로 전환했다. 앞으로 글 �
 
 ## 사람 검토 대기
 
-- 현재 없음
+- 슬러그: **181**
+- draft 파일: `D:\dev\epickor-blog\output\drafts\181_draft.md`
+- 로컬 미리보기 URL: http://localhost:4000/preview/181
+- 프로덕션 미리보기: Actual-token production preview must be HTTP-verified before sharing; placeholder-token preview URLs are forbidden.
+- 승인/거절: 위 URL에서 버튼 클릭
+- 대기 시작: 2026-05-28 07:24:40
 
 ---
 
