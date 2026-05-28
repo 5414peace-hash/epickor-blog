@@ -1,5 +1,214 @@
 # HANDOFF - EpicKor Agent Teams v2
 
+## Latest Update - 2026-05-28 Blog 180 Published and Public Verified
+
+- Trigger:
+  - Representative confirmed Reels 179 `v001` and asked to move to the next task.
+  - Representative then approved continuing from Blog 180 private preview.
+- Selected next topic:
+  - Queue ID 16: `Bukchon Hanok Village: The Most Instagrammed Place in Seoul (And Why)`.
+  - Slug: `180`.
+- Completed:
+  - Updated `content/data/topics-queue.json`:
+    - ID 16 marked `done`.
+    - `generated_slug`: `180`.
+    - `generated_date`: `2026-05-28`.
+    - `next_slug`: `181`.
+  - Ran research:
+    - `node scripts/run-pipeline.mjs --step research --slug 180 --force`
+    - Output: `output/research/180_research.json`.
+  - Ran draft prep:
+    - `node scripts/run-pipeline.mjs --step draft --slug 180`
+    - Output: `output/drafts/180_writer-brief.md`.
+  - Verified current Bukchon Red Zone rules against official/current sources before drafting:
+    - Jongno official special-management page: visitor-hour restriction/fine measure, effective `2025-03-01`.
+    - Yonhap/Korea JoongAng Daily reports: Red Zone tourist visits `10:00-17:00`, outside-hour tourism activity can trigger `100,000 won` fine.
+  - Wrote draft:
+    - `output/drafts/180_draft.md`
+    - Local preview copy: `content/blog/180.md`
+  - Ran review:
+    - `node .claude/skills/reviewer/scripts/review-post.mjs --draft output/drafts/180_draft.md --research output/research/180_research.json`
+    - `node scripts/run-pipeline.mjs --step review --slug 180`
+  - Private preview commit created by publisher script:
+    - `8858d97 draft: add private preview post 180`
+  - Opened local preview:
+    - `http://localhost:4000/preview/180`
+  - Ran approval/publish:
+    - `node scripts/run-pipeline.mjs --approve 180`
+  - Public publish commit:
+    - `de4b340 update: post 180`
+- Verification:
+  - Auto review passed: `100/100`.
+  - Word count: `2128`.
+  - H2 sections: `5`.
+  - Images: `3`.
+  - FAQ Q&A: `5`.
+  - Local preview HTTP check: `200 OK`.
+  - Vercel production deployment reached `Ready`.
+  - Public URL HTTP check: `https://www.epickor.com/blog/180` returned `200 OK`.
+- Current stage:
+  - **Blog 180 is published and public-verified.**
+- Next action:
+  - Continue next content production item from the queue.
+
+## Latest Update - 2026-05-28 Reels 179 Confirmed and Upload Package Ready
+
+- Trigger:
+  - Representative submitted the duplicate-free Reels 179 visual review pass.
+  - Representative then confirmed the rendered `v001` Reel candidate and asked to move to the next task.
+- Completed:
+  - Confirmed `output/reels/179/scenes.json` status is `visuals_approved`.
+  - Confirmed approved motion-card scenes:
+    - Scene 3: `179-3-motion-a`
+    - Scene 5: `179-5-motion-b`
+  - Re-ran duplicate hard checks:
+    - selected image cross-scene duplicates: none.
+    - primary image cross-scene duplicates: none.
+    - approved primary image cross-scene duplicates: none.
+  - Created scene-level TTS text files:
+    - `output/reels/179/voiceover-v001-scene-01.txt` through `voiceover-v001-scene-07.txt`.
+  - Generated ElevenLabs scene-level audio:
+    - `output/reels/179/audio/narration-v001-scene-01.mp3` through `narration-v001-scene-07.mp3`.
+    - Mirrored the same audio under `public/assets/reels/179/audio/`.
+  - Ran asset prep:
+    - `npm.cmd run reels:prepare-assets -- --slug 179`
+    - Saved `output/reels/179/asset-manifest.json`.
+  - Added Reels 179 caption-beat overrides to `.claude/skills/reels/scripts/build-remotion-props.mjs`.
+  - Built Remotion props:
+    - `npm.cmd run reels:props -- --slug 179 --audio-version v001`
+  - Validated render readiness:
+    - `npm.cmd run reels:validate -- --slug 179 --require-scene-audio`
+    - passed.
+  - Rendered:
+    - `output/reels/179/render/epickor-reel-179-v001.mp4`
+  - Generated evaluation packet:
+    - `output/reels/179/evaluation/evaluation-v001.md`
+    - `output/reels/179/evaluation/evaluation-v001.json`
+    - `output/reels/179/evaluation/contact-v001.jpg`
+    - `output/reels/179/evaluation/scene-grid-v001.jpg`
+  - Created upload package files:
+    - `output/reels/179/instagram-caption.txt`
+    - `output/reels/179/upload-package.md`
+- Verification:
+  - Render facts:
+    - duration `35.093333s`
+    - size `26,246,904` bytes
+    - video `1080x1920`, `30fps`, H.264
+    - audio AAC, `48000Hz`, stereo.
+  - Evaluation machine findings: none.
+  - Contact sheet and scene grid were opened for visual spot-check.
+  - Final MP4 opened locally for representative review.
+  - Representative confirmed `v001`.
+- Current stage:
+  - **Reels 179 v001 is representative-confirmed and upload-package-ready.**
+- Next action:
+  - Owner can upload `output/reels/179/render/epickor-reel-179-v001.mp4` with `output/reels/179/instagram-caption.txt`.
+  - Continue next content production item.
+
+## Latest Update - 2026-05-28 Reels 179 Duplicate-Free Visual Refresh
+
+- Trigger:
+  - Representative submitted the first Reels 179 visual review and flagged that many images overlapped across scenes.
+  - Representative asked to preserve the submitted choices while providing a duplicate-free refresh.
+- Cause:
+  - The first machine QA checked JSON validity, caption exactness, rank coverage, and review-page loading.
+  - Cross-scene image duplication was only treated as a note/duplicate-risk field, not a hard validation failure.
+- Submitted review state recognized:
+  - Scene 1: representative ranked `soju-bottle-table-31203777` as rank 1 and `soju-toast-6919669` as rank 2.
+  - Scene 2: representative ranked `fried-chicken-soju-37014613` as rank 1 and `pajeon-table-12913663` as rank 2.
+  - Scene 5: representative approved motion-card option `179-5-motion-b`.
+  - Scene 6: representative requested replacements while keeping `fried-chicken-plate-5773996` as the remaining ranked candidate.
+  - Scene 7: representative requested replacement for all initial CTA options.
+- Completed:
+  - Replaced duplicated cross-scene candidates and motion-card backgrounds.
+  - Preserved the representative-submitted intent:
+    - Scene 1 and Scene 2 rankings retained.
+    - Scene 5 motion-card option B retained as approved, with only its background swapped to a unique image.
+    - Scene 6 received fresh rank 1 and rank 3 replacements.
+    - Scene 7 received three fresh CTA replacements.
+  - Updated:
+    - `output/reels/179/scenes.json`
+    - `output/reels/179/visual-candidates.json`
+    - `output/reels/179/motion-cards.json`
+    - `output/reels/179/approved-visuals.json`
+    - `output/reels/179/review.md`
+    - `output/reels/179/source-notes.md`
+  - Added new local candidates under `public/assets/reels/179/candidates/`, including:
+    - `korean-food-spread-soju-5773968.jpg`
+    - `korean-bbq-grill-18426525.jpg`
+    - `seoul-warm-restaurant-31735909.jpg`
+    - `seoul-neon-stairs-5589596.jpg`
+    - `korean-stew-table-31649644.jpg`
+    - `dakgalbi-pan-33085044.jpg`
+    - `night-market-vendor-flames-36812076.jpg`
+    - `seoul-night-street-scooter-13679460.jpg`
+    - `seoul-night-signs-31768176.jpg`
+- Verification:
+  - JSON parse passed for refreshed Reels 179 files.
+  - Selected cross-scene duplicate check: none.
+  - Candidate/motion-card background cross-scene duplicate check: none.
+  - Local API returned `HTTP 200` for `http://127.0.0.1:4000/api/reels/179/visuals`.
+  - Local review page returned `HTTP 200` for `http://127.0.0.1:4000/reels-review/179`.
+  - Browser reopened `http://localhost:4000/reels-review/179`.
+- Current stage:
+  - **Reels 179 duplicate-free replacement review is ready.**
+- Human review needed:
+  - Review `http://localhost:4000/reels-review/179`.
+  - Scene 3 still needs one motion-card option approved.
+  - Recheck refreshed Scene 6 and Scene 7 candidates.
+  - Do not finalize/render until this duplicate-free pass is submitted and finalized.
+
+## Latest Update - 2026-05-28 Reels 179 Visual Review Ready
+
+- Trigger:
+  - Representative approved Blog 179 image refresh, asked to commit/deploy, and then continue to the next task.
+- Source:
+  - Blog 179 is published and public-verified:
+    - `https://www.epickor.com/blog/179`
+    - Remote commits:
+      - `b9b2749 update: post 179`
+      - `daff21a Record post 179 publish status`
+    - Vercel production deployment after `daff21a`: Ready.
+- Completed:
+  - Created Reels 179 package:
+    - `output/reels/179/strategy.md`
+    - `output/reels/179/script.md`
+    - `output/reels/179/scenes.json`
+    - `output/reels/179/visual-candidates.json`
+    - `output/reels/179/motion-cards.json`
+    - `output/reels/179/source-notes.md`
+    - `output/reels/179/review.md`
+  - Downloaded local review assets under:
+    - `public/assets/reels/179/candidates/`
+  - Script angle:
+    - "Korean drinking culture is not just about soju shots. It is really about the table."
+    - Keeps the Reel visitor-safe: anju, shared food, etiquette, pacing, and the right to say no early.
+  - Structure:
+    - 7 scenes.
+    - Target duration: `37s`.
+    - Exactly 2 motion-card scenes:
+      - Scene 3: drink/table mood decoder.
+      - Scene 5: etiquette plus boundary checklist.
+- Verification:
+  - JSON parse passed for `scenes.json`, `visual-candidates.json`, and `motion-cards.json`.
+  - Caption exactness check: no mismatches between `narration`, `caption`, and `subtitleText`.
+  - Non-motion scene rank coverage: no gaps.
+  - Local API returned `HTTP 200` for:
+    - `http://127.0.0.1:4000/api/reels/179/visuals`
+  - Local review page returned `HTTP 200` for:
+    - `http://127.0.0.1:4000/reels-review/179`
+  - Browser opened:
+    - `http://localhost:4000/reels-review/179`
+- Current stage:
+  - **Reels 179 visual review is ready.**
+- Human review needed:
+  - Review `http://localhost:4000/reels-review/179`.
+  - Approve or replace normal scene image ranks.
+  - Approve exactly one motion-card option each for Scene 3 and Scene 5.
+  - Scene 1 and Scene 7 currently share the soju-toast image as a deliberate bookend; if it feels repetitive, switch Scene 7 to the night-market or pajeon option.
+- Next action:
+  - After visual review is submitted/finalized, generate scene-level ElevenLabs TTS, build props, validate with `npm.cmd run reels:validate -- --slug 179 --require-scene-audio`, render, evaluate, then open the MP4 for representative confirmation.
+
 ## Latest Update - 2026-05-28 Blog 179 Published and Public Verified
 
 - Trigger:
@@ -4830,7 +5039,7 @@
   - Reviewer Agent: markdown SEO + local image file existence + manual rendered preview check.
   - Publisher Agent: post-publish public URL check, including visible images.
   - Human Reviewer: final content judgment, but should not have to catch broken-image plumbing.
-# 최종 업데이트: 2026-05-28 05:42:23 | 업데이트한 에이전트: Publisher
+# 최종 업데이트: 2026-05-28 07:14:02 | 업데이트한 에이전트: Publisher
 
 ---
 
