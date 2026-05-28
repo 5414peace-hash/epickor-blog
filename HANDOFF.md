@@ -1,5 +1,368 @@
 # HANDOFF - EpicKor Agent Teams v2
 
+## Latest Update - 2026-05-28 Blog 179 Published and Public Verified
+
+- Trigger:
+  - Representative asked to proceed after Reels 178 confirmation and the Reels 176-178 batch package was completed.
+  - Representative then flagged the second image as weak and asked to find better images.
+  - Representative approved the refreshed image set and asked to commit/deploy, then continue to the next task.
+- Topic selection:
+  - Slug `179` is assigned to `Korean Drinking Culture: Soju, Makgeolli, and the Art of the Anju`.
+  - Strategy rationale: strong Reels potential, food/pocha/anju visual scenes, natural Korean-food affiliate opportunities, and clear visitor etiquette value.
+  - Note: This was chosen over health/legal-heavy topics to avoid higher risk. The article avoids encouraging heavy drinking and emphasizes pacing, boundaries, ID checks, and safe participation.
+- Completed:
+  - Marked queue topic ID `24` as `in_progress` with `generated_slug: "179"`.
+  - Ran research:
+    - `node scripts/run-pipeline.mjs --step research --slug 179 --force`
+    - Output: `output/research/179_research.json`
+    - Sources: 5
+    - Images: 3
+  - Generated writer brief:
+    - `node scripts/run-pipeline.mjs --step draft --slug 179`
+    - Output: `output/drafts/179_writer-brief.md`
+  - Wrote draft manually:
+    - `output/drafts/179_draft.md`
+  - Draft includes:
+    - 3 Pexels images.
+    - 2 `.affiliate-inline-cta` boxes with Amazon Associate disclosure and sponsored rel attributes.
+    - A real HTML table wrapped in `.table-scroll`.
+    - Safety/etiquette framing for alcohol-related content.
+  - Ran review and private preview staging:
+    - `node scripts/run-pipeline.mjs --step review --slug 179`
+    - Review passed: `100/100`, `2297` words, `5` H2 sections, `3` images, `5` FAQ Q&A.
+    - GitHub API private preview commit succeeded: `draft: add private preview post 179`.
+  - Copied the draft locally to `content/blog/179.md` so local preview works.
+  - Replaced all three Blog 179 images with stronger topic-fit Pexels images:
+    - Hero: friends clinking small soju glasses (`pexels-photo-6919669`).
+    - Anju section: pajeon with dipping sauce (`pexels-photo-12913663`).
+    - Visitor section: fried chicken with soju bottles (`pexels-photo-37014613`).
+  - Removed the weaker generic Seoul market image (`pexels-photo-31680674`) and green soju shelf image (`pexels-photo-37095069`) from the draft.
+  - Updated `output/research/179_research.json`, `output/drafts/179_draft.md`, and local `content/blog/179.md`.
+  - Re-ran private preview publishing after the image refresh:
+    - GitHub API commit succeeded: `draft: update private preview post 179`.
+  - Published Blog 179:
+    - `node scripts/run-pipeline.mjs --approve 179`
+    - GitHub API commit succeeded: `update: post 179`.
+    - `topics-queue.json` updated: ID `24` -> `done`.
+- Verification:
+  - Local preview `http://localhost:4000/preview/179` returned `HTTP 200`, expected title, and `.affiliate-inline-cta`.
+  - Production private preview was verified with the actual `.env.local` `PREVIEW_SECRET_TOKEN` without printing the token:
+    - returned `HTTP 200`
+    - expected title present
+    - `.affiliate-inline-cta` present
+    - preview approval controls present
+    - refreshed Pexels image markers present for `6919669`, `12913663`, and `37014613`.
+    - old image markers absent for `31680674` and `37095069`.
+  - Local preview was opened in the browser for representative review.
+  - `npm.cmd run build`: passed.
+  - After the image refresh:
+    - `node .claude/skills/reviewer/scripts/review-post.mjs --draft output/drafts/179_draft.md --research output/research/179_research.json`: passed, `100/100`, `2299` words, `5` H2, `3` images, `5` FAQ Q&A.
+    - `npm.cmd run build`: passed again.
+  - Public Blog 179 verification:
+    - `https://www.epickor.com/blog/179` returned `HTTP 200` after deployment cache settled.
+    - Expected title present.
+    - `.affiliate-inline-cta` present.
+    - Amazon sponsored marker present.
+    - Refreshed image markers present for `6919669`, `12913663`, and `37014613`.
+    - Old image markers absent for `31680674` and `37095069`.
+    - Preview approval controls absent.
+- Current stage:
+  - **Blog 179 is published and public-verified.**
+- Next action:
+  - Start Reels 179 from the public-verified Blog 179 article.
+  - Use stronger topic-fit source research from the start: soju/makgeolli/anju/pocha visuals should match the exact narration rather than generic nightlife or bottle-shelf stock.
+
+## Latest Update - 2026-05-28 Reels 176-178 Batch Upload Package Ready
+
+- Trigger:
+  - Representative confirmed Reels 178 v001 and asked to proceed with the next task.
+- Strategy decision:
+  - Latest strategy file `output/strategy/week_2026W21.md` still lists GSC/card-news/affiliate opportunities, but current operations showed an immediate Reels inventory gap:
+    - Reels 176 had an upload package.
+    - Reels 178 had an upload package.
+    - Reels 177 was representative-accepted in handoff but missing `instagram-caption.txt` and `upload-package.md`.
+  - Completing Reels 177 packaging was the safest next move because it turns 176-178 into a usable 3-Reel batch for the Friday/Saturday/Sunday rhythm.
+- Completed:
+  - Verified Reels 177 final candidate:
+    - `output/reels/177/render/epickor-reel-177-v003.mp4`
+    - duration `38.613333s`
+    - size `26,441,018` bytes
+    - evaluation machine findings: none.
+  - Reverified Blog 177 public URL:
+    - `https://www.epickor.com/blog/177` returned `HTTP 200`.
+    - Expected title, `.affiliate-inline-cta`, Amazon sponsored rel marker, and no preview approval controls were present.
+  - Created Reels 177 upload files:
+    - `output/reels/177/instagram-caption.txt`
+    - `output/reels/177/upload-package.md`
+  - Created 3-Reel batch package:
+    - `output/reels/batch-package-176-178.md`
+- Current stage:
+  - **Reels 176, 177, and 178 are batch-upload-ready.**
+  - Individual upload packages now exist for all three.
+- Next action:
+  - Owner can upload/schedule the batch using `output/reels/batch-package-176-178.md`.
+  - Next production work after this should choose between:
+    - starting the next new post/Reel candidate for Reels 179, or
+    - continuing the card-news upload/revival track from the existing upload-ready queue.
+
+## Latest Update - 2026-05-28 Reels 178 v001 Render Ready
+
+- Trigger:
+  - Representative submitted the Reels 178 visual review dashboard and then explicitly approved ElevenLabs TTS generation for the still-private Blog/Reels 178 workflow.
+  - Representative later confirmed the rendered `v001` Reel candidate.
+- Completed:
+  - Confirmed `output/reels/178/scenes.json` is now `visuals_approved`.
+  - Confirmed all 7 scenes are approved and `output/reels/178/approved-visuals.json` was finalized at `2026-05-28T02:23:39.810Z`.
+  - Created scene-level TTS text files:
+    - `output/reels/178/voiceover-v001-scene-01.txt` through `voiceover-v001-scene-07.txt`.
+  - Generated ElevenLabs scene-level audio:
+    - `output/reels/178/audio/narration-v001-scene-01.mp3` through `narration-v001-scene-07.mp3`.
+    - Mirrored the same audio under `public/assets/reels/178/audio/`.
+  - Ran asset prep:
+    - `npm.cmd run reels:prepare-assets -- --slug 178`
+    - Saved `output/reels/178/asset-manifest.json`.
+  - Added Reels 178 caption-beat overrides to `.claude/skills/reels/scripts/build-remotion-props.mjs` so strict post-177 caption validation passes.
+  - Built Remotion props with scene audio:
+    - `npm.cmd run reels:props -- --slug 178 --audio-version v001`
+  - Rendered:
+    - `output/reels/178/render/epickor-reel-178-v001.mp4`
+  - Generated evaluation packet:
+    - `output/reels/178/evaluation/evaluation-v001.md`
+    - `output/reels/178/evaluation/evaluation-v001.json`
+    - `output/reels/178/evaluation/contact-v001.jpg`
+    - `output/reels/178/evaluation/scene-grid-v001.jpg`
+  - Published Blog 178 with `node scripts/run-pipeline.mjs --approve 178`.
+  - Synced local `content/blog/178.md` and `output/final/178_final.md` visibility to `public` after the GitHub API publish.
+  - Created upload package files:
+    - `output/reels/178/instagram-caption.txt`
+    - `output/reels/178/upload-package.md`
+- Verification:
+  - `npm.cmd run reels:validate -- --slug 178 --require-scene-audio`: passed.
+  - Render facts from ffprobe:
+    - duration `35.285333s`
+    - size `21,120,869` bytes
+    - video `1080x1920`, `30fps`
+    - audio AAC, `48000Hz`, stereo.
+  - Evaluation machine findings only noted a possible fast caption beat in Scene 4: `"which restaurant"` at 12 frames.
+  - Public Blog 178 verification:
+    - `https://www.epickor.com/blog/178` returned `HTTP 200`, expected title, `.affiliate-inline-cta`, all three Baemin-specific images, Amazon sponsored rel marker, and no preview approval controls.
+    - Public image URLs returned `HTTP 200` for:
+      - `/assets/images/posts/178/baemin-app-interface-hero.jpg`
+      - `/assets/images/posts/178/woowayouths-baemin-topbox-campaign.jpg`
+      - `/assets/images/posts/178/woowayouths-rider-school-hanam-crop.jpg`
+- Current stage:
+  - **Reels 178 v001 is representative-confirmed and upload-package-ready.**
+  - Blog 178 is published and public-verified.
+- Next action:
+  - Owner can upload `output/reels/178/render/epickor-reel-178-v001.mp4` with `output/reels/178/instagram-caption.txt`.
+  - Next production priority should be Reels 179/180 or the next 3-Reel batch candidate, while preserving the Tuesday/Wednesday/Thursday card-news rhythm.
+
+## Latest Update - 2026-05-27 Reels 178 Visual Review Ready
+
+- Trigger:
+  - Representative accepted the Blog 178 image refresh as good enough for now and asked to move into Reels production, with stronger source research and the post-177 conversational script rule.
+  - Representative then rejected the first Scene 1 direction and asked for a cleaner opener with the Baemin logo plus a Baemin-branded motorbike, and better scene-to-script visual matching.
+  - After submitting the review pass, representative flagged Scene 5 and Scene 6 as very weak.
+- Completed:
+  - Created Reels project files under `output/reels/178/`.
+  - Script uses 7 scenes, a first-sentence hook, exact narration/caption matching, and a conversational American-English voice target.
+  - Used exactly two motion-card insert scenes: Scene 2 and Scene 4.
+  - Reworked Scene 1 candidates with clean Baemin/motorbike options; representative selected the raw official riderwear motorbike image `public/assets/reels/178/candidates/riderwear-02.jpg`.
+  - Remapped visuals so each scene better matches its narration:
+    - Scene 3: app food-listing UI for searchable/visual cravings.
+    - Scene 5: app listing UI for menus/photos/ratings/delivery-fee cues.
+    - Scene 7: rider school/topbox/riderwear for daily infrastructure.
+  - After review feedback, replaced Scene 5 and Scene 6 again:
+    - Scene 5 replacement candidates use official easybaemin store/order UI showing menu, food photo, rating, minimum order, delivery time, delivery fee, coupon, and selected menu.
+    - Current Scene 5 rank 1 / selected image is `public/assets/reels/178/easybaemin/store-info-delivery-fee.png`; `public/assets/reels/178/candidates/baemin-restaurant-menu-fee-stack.jpg` remains rank 2.
+    - Scene 6 primary is now `public/assets/reels/178/candidates/baemin-visitor-address-payment-stack.jpg`, built from official easybaemin address/contact/payment UI showing address detail, building note/password, phone number, and payment method.
+  - Prioritized Baemin-specific official sources:
+    - Official Baemin App Store screenshots for app/interface scenes.
+    - Woowa Youths official press images for rider school, riderwear, and safety education scenes.
+  - Generic delivery stock is not rank 1 for any scene.
+- Verification:
+  - `scenes.json`, `visual-candidates.json`, and `motion-cards.json` parse successfully.
+  - Caption exactness check passed: each scene `narration`, `caption`, and `subtitleText` match.
+  - Current `scenes.json` status is `visual_review_pending` after representative review interaction.
+  - Local API returned `HTTP 200` for `http://127.0.0.1:4000/api/reels/178/visuals` and contains the representative-selected Scene 1 image `riderwear-02.jpg`.
+  - Local API rechecked after Scene 5/6 refresh and contains both `store-info-delivery-fee.png` / `baemin-restaurant-menu-fee-stack.jpg` for Scene 5 and `baemin-visitor-address-payment-stack.jpg` for Scene 6; old Scene 5/6 App Store screenshots are no longer selected.
+  - Local review page returned `HTTP 200` for `http://127.0.0.1:4000/reels-review/178`.
+- Stop point:
+  - 2026-05-27 work paused here by representative.
+  - Scene 1 primary is `riderwear-02.jpg` with `baemin-intro-motorbike-detail.jpg` added as same-source backup.
+  - Scene 5 primary is `store-info-delivery-fee.png`, currently `approved`.
+  - Scene 6 primary is `baemin-visitor-address-payment-stack.jpg`, currently `pending`.
+  - No TTS, asset prep, validation, or final render has been run after the Scene 5/6 refresh.
+- Human review needed:
+  - Review `http://localhost:4000/reels-review/178`.
+  - Recheck refreshed Scene 5 and Scene 6 candidates.
+  - Submit review pass again, then finalize visuals before TTS/render.
+  - Do not generate TTS or final render until visual and motion-card approvals are saved.
+
+## Latest Update - 2026-05-27 Blog 178 Baemin Image Refresh
+
+- Trigger:
+  - Representative rejected the original Blog 178 images as too generic for a Baemin-focused article.
+- Completed:
+  - Removed generic Pexels delivery images from `content/blog/178.md`.
+  - Replaced Blog 178 visuals with Baemin-specific assets:
+    - `public/assets/images/posts/178/baemin-app-interface-hero.jpg`
+    - `public/assets/images/posts/178/woowayouths-baemin-topbox-campaign.jpg`
+    - `public/assets/images/posts/178/woowayouths-rider-school-hanam-crop.jpg`
+  - Added source notes: `public/assets/images/posts/178/image-sources.md`.
+  - Updated `output/drafts/178_draft.md` to match the local draft copy.
+  - Committed and pushed: `e834de4 Refresh Baemin visuals for post 178`.
+- Verification:
+  - `npm.cmd run build`: passed.
+  - Local preview returned `HTTP 200` and contained all three new image paths.
+  - Production preview with the actual `.env.local` token returned `HTTP 200`, expected title marker, review/approval marker, all three new image paths, and no old Pexels image paths.
+  - Do not record the full tokenized URL in this handoff; recheck with the actual token before sharing.
+
+## Latest Update - 2026-05-27 Preview URL Correction
+
+- Trigger:
+  - Representative objected to receiving a production preview URL with a placeholder token for Blog 178.
+- Correction:
+  - Do not write or share production preview URLs with placeholder tokens.
+  - Before sharing a production preview URL, load the real `PREVIEW_SECRET_TOKEN` from `.env.local`, request the exact URL, and verify HTTP status plus expected post content.
+  - If production verification fails, say that production preview is not verified and share only a verified local preview path or no URL.
+- Blog 178 verification:
+  - `PREVIEW_SECRET_TOKEN` is present in `.env.local`.
+  - `Invoke-WebRequest` hit this Windows shell's TLS trust issue, so verification was retried with `curl.exe -k` and the actual token without printing the token.
+  - Production preview for Blog 178 returned `HTTP 200`, size `54599`, expected title marker `TITLE_OK=True`, and review/approval marker `APPROVAL_MARKER=True`.
+  - Do not record the full tokenized URL in handoff notes or chat logs; only share after repeating actual-token HTTP/content verification.
+  - Local preview was rechecked after starting dev server and returned `200` with the expected Blog 178 title and `.affiliate-inline-cta`; however the background dev-server process did not remain reliably available, so restart local dev before using it.
+- Updated guardrails:
+  - Updated `CLAUDE.md`, `scripts/run-pipeline.mjs`, `.claude/skills/publisher/scripts/publish-post.mjs`, and `.claude/agents/reviewer-team/AGENT.md` so future guidance does not print placeholder production preview URLs.
+
+## Latest Update - 2026-05-27 Blog 178 Private Preview Ready
+
+- Trigger:
+  - Representative noted there is no Reels upload inventory for this week and asked to start from posting.
+  - Operating rule applied: new Reels should come from newly written posts after representative review, publish/deploy, and public URL verification.
+- Topic selection:
+  - Chose `Korean Food Delivery Culture: How Baemin Changed How Koreans Eat` for slug `178`.
+  - Strategy reason: strong Reels scene potential, clear Korean daily-life hook, food/late-night delivery visuals, and natural Amazon food/pantry CTA fit.
+  - Corrected two accidental queue assignments during setup:
+    - `id 24` Korean drinking culture returned to `pending`.
+    - `id 27` Eating Alone returned to `pending`.
+    - `id 29` Baemin food delivery is now `in_progress` with `generated_slug: "178"`.
+- Completed:
+  - Ran research: `node scripts/run-pipeline.mjs --step research --slug 178 --force`.
+  - Ran writer brief generation: `node scripts/run-pipeline.mjs --step draft --slug 178`.
+  - Wrote draft: `output/drafts/178_draft.md`.
+  - Ran review: `node scripts/run-pipeline.mjs --step review --slug 178`.
+  - Review passed: `100/100`, `2505` words, `7` H2 sections, `2` images, `5` FAQ Q&A.
+  - Private preview was committed by publisher script through GitHub API.
+  - Copied the draft locally to `content/blog/178.md` so local preview works.
+- Verification:
+  - `npm.cmd run build`: passed.
+  - Dev server started successfully on port `4000` during foreground verification.
+  - `http://127.0.0.1:4000/preview/178` returned `200` during verification.
+  - Preview HTML contains the title, `.affiliate-inline-cta`, both Pexels images, and approval controls.
+  - Both Pexels image URLs returned HTTP `200` via `curl.exe -I`.
+- Current stage:
+  - **Blog 178 is private-preview-ready / representative review pending.**
+  - Do not publish or start Reels 178 until representative final review, publish/deploy, and public URL verification are complete.
+- Next action:
+  - If sharing the production preview URL, use the actual `.env.local` token and recheck HTTP `200` plus expected Blog 178 title/review controls immediately beforehand.
+  - For local review, start `npm.cmd run dev -- --port 4000`, then verify `http://localhost:4000/preview/178` returns HTTP `200` before giving it to the representative.
+  - If approved, run `node scripts/run-pipeline.mjs --approve 178`, then verify public URL before starting Reels 178.
+
+## Latest Update - 2026-05-27 Card News Grid Cover Revision
+
+- Trigger:
+  - Representative confirmed the next card-news upload should continue from `2026-05-03_159` and flagged that older Card 01 covers place text too far left/bottom for Instagram profile-grid readability.
+- Upload interpretation:
+  - Card-news uploads are still recorded as scheduled through `2026-05-03_132` by 2026-05-28.
+  - Next upload-ready card-news sequence starts at `2026-05-03_159`.
+- Completed:
+  - Updated Card 01 only for the upload-waiting range from `159` through `124` in `CARDNEWS_INDEX.md` order:
+    - `159`, `038`, `171`, `008`, `043`, `082`, `090`, `011`, `015`, `046`, `055`, `062`, `074`, `140`, `087`, `124`.
+  - Changed each target Card 01 script entry to `layout: F`, a grid-safe centered cover layout.
+  - Re-rendered each target `card_01.png` and mirrored it to the matching `public/assets/cardnews/YYYY-MM-DD_slug/` folder.
+  - Added `node .claude/skills/cardnews/scripts/render-grid-cover.mjs` for stable Sharp-based centered-cover rendering without relying on Edge/Playwright.
+  - Localized Card 01 source images for:
+    - `public/assets/cardnews/2026-05-03_159/source-card-01.jpg`
+    - `public/assets/cardnews/2026-05-07_171/source-card-01.jpg`
+  - Removed the raw HTML `<span>` from Card News `171` Card 01 copy so future renderers do not display markup text.
+  - Added the Instagram grid-cover rule to `CLAUDE.md` and `.claude/skills/cardnews/design_system.md`.
+- Verification:
+  - All 16 revised public `card_01.png` files are `1080x1080`.
+  - Output and public copies have matching SHA-256 hashes for all 16 targets.
+  - Created visual contact sheet: `output/cardnews/grid-cover-contact-159-124.png`.
+  - Manual visual check confirmed the cover hooks are centered and no longer pinned to the left/bottom edge.
+- Notes:
+  - Edge-based rendering showed intermittent timeout/profile-lock behavior; Sharp cover rendering is now the preferred path for Card 01 grid-cover fixes.
+  - Sharp emitted fontconfig cache warnings, but all PNGs rendered successfully.
+
+## Latest Update - 2026-05-24 COO Operations Check
+
+- Trigger:
+  - Representative asked to postpone `tripclip-bid` until Tuesday and check `epickor-blog` after finishing Korea B2B deployment verification.
+- Git/local state:
+  - Current branch: `master`.
+  - Latest commit remains `9f65fcd Allow hyphenated legacy blog redirects`.
+  - Worktree is intentionally dirty with restored cardnews/reels changes and untracked assets.
+  - `stash@{0}: codex-predeploy-unrelated-worktree` still exists. Do not drop it until the restored worktree is reviewed.
+- Production checks:
+  - Checked representative sample posts `001`, `076`, `155`, `171`, `175`, `082`, `176`, `173`.
+  - All returned HTTP `200`.
+  - Amazon links and `rel="nofollow sponsored noopener noreferrer"` were present in the sampled pages.
+  - Legacy URL `https://www.epickor.com/blog/074-the-world-of-underground-shopping-malls-in-korea` returned `308` to `/blog/074`.
+  - `/blog/176`, `/blog/173`, `/blog/171` returned `200`.
+- Current next step:
+  - Preserve the dirty restored worktree.
+  - Treat Reels `173-175` as already scheduled unless the representative says an upload problem occurred.
+  - Do not judge Amazon Associates conversion immediately after the 2026-05-22 full affiliate-link reinsertion/cleanup. Recheck clicks, ordered items, shipped items, and conversion rate after 2026-05-29 to 2026-06-05.
+
+## Latest Update - 2026-05-22 Affiliate Cleanup Deploy And Legacy Redirect Fix
+
+- Representative asked to proceed through deployment, then asked to save the stopping point for the next session.
+- Final pushed commits on `master`:
+  - `82ee6ea` - `Add affiliate CTA coverage across public posts`
+  - `fc5b2d5` - `Use webpack build on Vercel`
+  - `0dae048` - `Exclude generated reels output from Vercel deploys`
+  - `bb30c7f` - `Redirect legacy blog title slugs`
+  - `9f65fcd` - `Allow hyphenated legacy blog redirects`
+- Deployment:
+  - Vercel production deploy succeeded.
+  - Production alias confirmed by CLI: `https://www.epickor.com`.
+  - Final deployment URL shown by Vercel CLI: `https://epickor-blog-a9tg1rsvs-yhs-projects-5de403d3.vercel.app`.
+- Affiliate verification:
+  - Public/default-public markdown count: `140`.
+  - Private markdown count: `5`.
+  - Posts failing exact two `.affiliate-inline-cta` boxes: `0`.
+  - Posts with legacy blockquote Amazon affiliate blocks: `0`.
+  - Built HTML spot checks for `001`, `076`, `155`, `171`, `175`, `082`, `176`, and `173` contain CTA markup plus Amazon links with `target="_blank"` and `rel="nofollow sponsored noopener noreferrer"`.
+- Vercel build fixes made during deployment:
+  - First Vercel attempts failed because Next 16 Turbopack/PostCSS repeatedly timed out on `app/globals.css` in the remote 2-core builder.
+  - Changed `vercel.json` build command to `npm run build -- --webpack`.
+  - Next failure showed `api/reels/[slug]/visuals` serverless function at `893.62mb`, above Vercel's `300mb` limit.
+  - Root cause: Vercel CLI local deploy uploaded ignored local artifacts because there was no `.vercelignore`; `output/reels` MP4/PNG/MP3 artifacts were then traced into the function bundle.
+  - Added `.vercelignore` for `.next/`, `node_modules/`, `output/`, history folders, `.codex-deploy/`, env files, and tsbuildinfo.
+  - Added `outputFileTracingExcludes` in `next.config.ts` to keep generated `output/` and reels assets out of traced serverless bundles.
+- Legacy URL fix:
+  - `https://www.epickor.com/blog/074-the-world-of-underground-shopping-malls-in-korea` initially returned `404` after deploy.
+  - Added a general redirect rule for old `/blog/NNN-title-slug` URLs to `/blog/NNN`.
+  - Final production check returned `308 Permanent Redirect` with `Location: /blog/074`.
+  - Verified `/blog/176`, `/blog/173`, and `/blog/171` returned `200 OK` after final deployment.
+- Stash/local worktree note:
+  - Before rebasing/deploying, unrelated local work was saved as `stash@{0}: codex-predeploy-unrelated-worktree`.
+  - After deployment, `git stash pop stash@{0}` restored most unrelated local worktree changes.
+  - The stash was kept because four untracked image paths already existed locally after rebase:
+    - `public/assets/reels/176/candidates/bathhouse-locker-202238.jpg`
+    - `public/assets/reels/176/candidates/bulgama-room-203931.jpg`
+    - `public/assets/reels/176/candidates/common-locker-lounge-220747.jpg`
+    - `public/assets/reels/176/candidates/jjimjilbang-interior-203842.jpg`
+  - Hash check showed those four current files match the stash blobs exactly, so no content appears lost.
+  - Do not drop `stash@{0}` casually in the next session unless the restored local worktree has been reviewed.
+- Current next-session guidance:
+  - Start by checking `git status --short` and `git stash list`.
+  - Preserve the restored unrelated cardnews/reels worktree changes; they predate this affiliate deploy.
+  - If continuing monetization work, next useful step is production spot-checking rendered CTA behavior in the browser for several high-GSC pages and then monitoring Amazon Associates clicks/conversions.
+  - If continuing content ops, Reels `173-175` are still the next planned Friday/Saturday/Sunday upload batch; owner handles Instagram upload.
+
 ## Latest Update - 2026-05-22 All Public Affiliate Cleanup
 
 - Trigger:
@@ -709,7 +1072,7 @@
   - Started the local Next dev server on port `4000`.
   - Verified `http://localhost:4000/preview/176` returns `HTTP/1.1 200 OK` and renders the post title/body.
 - Preview check limitation:
-  - Tried to verify `https://epickor.com/preview/176?token=[PREVIEW_SECRET_TOKEN]` and the Vercel deployment URL from the shell.
+  - Tried to verify the production preview with the actual `.env.local` token and the Vercel deployment URL from the shell. Do not record or share placeholder-token preview URLs.
   - `Invoke-WebRequest` failed due TLS trust issue.
   - `curl.exe -k` failed to connect to port 443 for both `epickor.com` and the Vercel app URL from this shell.
   - Because of that, rendered preview HTML/image inspection is still pending in a browser or a working network context.
@@ -1100,7 +1463,7 @@
 - Current stage:
   - **Blog 175 private preview-ready / representative review pending**.
 - Next action:
-  - Representative reviews `http://localhost:4000/preview/175` or production preview `https://epickor.com/preview/175?token=[PREVIEW_SECRET_TOKEN]`.
+  - Representative reviews `http://localhost:4000/preview/175` or a production preview only after loading the actual `.env.local` token and verifying HTTP 200. Do not share placeholder-token preview URLs.
   - If approved, run `node scripts/run-pipeline.mjs --approve 175`, verify the public URL, then start Reels 175.
   - Keep Reels 173 and 174 waiting; schedule/upload Reels 173-175 together only after Reels 175 is complete.
 
@@ -2116,7 +2479,7 @@
   - All three Pexels image URLs returned `200 OK`.
 - Preview:
   - Local: `http://localhost:4000/preview/172` if dev server is running.
-  - Production: `https://epickor.com/preview/172?token=[PREVIEW_SECRET_TOKEN]`
+  - Production: use the actual `.env.local` token and verify HTTP 200 before sharing; do not record placeholder-token preview URLs.
 - Next gate:
   - Human review of the private preview.
   - If approved: `node scripts/run-pipeline.mjs --approve 172`
@@ -4467,7 +4830,7 @@
   - Reviewer Agent: markdown SEO + local image file existence + manual rendered preview check.
   - Publisher Agent: post-publish public URL check, including visible images.
   - Human Reviewer: final content judgment, but should not have to catch broken-image plumbing.
-# 최종 업데이트: 2026-05-21 07:38:52 | 업데이트한 에이전트: Publisher
+# 최종 업데이트: 2026-05-28 05:42:23 | 업데이트한 에이전트: Publisher
 
 ---
 
@@ -4497,7 +4860,7 @@
   - GitHub private preview commit 완료: `content/blog/167.md`
   - GitHub public publish commit 완료: `content/blog/167.md`
   - 로컬 preview URL: `http://localhost:4000/preview/167`
-  - production preview URL: `https://epickor.com/preview/167?token=[PREVIEW_SECRET_TOKEN]`
+  - production preview URL: actual `.env.local` token required, HTTP 200 verified before sharing; placeholder-token preview URLs are forbidden.
   - public URL: `https://www.epickor.com/blog/167`
   - approval 후처리 완료: Amazon 링크는 관련도 낮아 생략, topics queue ID 8은 `done`
 - 167번 작업 agent별 최종 역할:

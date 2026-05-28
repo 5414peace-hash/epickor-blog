@@ -488,7 +488,9 @@
         "Culture"
       ],
       "amazon_category": "Food",
-      "status": "pending"
+      "status": "done",
+      "generated_slug": "179",
+      "generated_date": "2026-05-28"
     },
     {
       "id": 25,
@@ -586,7 +588,9 @@
         "KoreanCulture"
       ],
       "amazon_category": "Food",
-      "status": "pending"
+      "status": "done",
+      "generated_slug": "178",
+      "generated_date": "2026-05-28"
     },
     {
       "id": 30,
@@ -655,6 +659,6 @@
       "generated_date": "2026-05-18"
     }
   ],
-  "last_updated": "2026-05-21",
+  "last_updated": "2026-05-28",
   "next_slug": 178
 }
