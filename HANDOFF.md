@@ -1,6 +1,6 @@
 # HANDOFF - EpicKor Agent Teams v2
 
-## Latest Update - 2026-05-28 Blog 181 Private Preview Ready
+## Latest Update - 2026-05-28 Blog 181 Official Webtoon Image Refresh Ready
 
 - Trigger:
   - Representative approved continuing after Blog 180 publication.
@@ -29,10 +29,13 @@
     - Replaced irrelevant fish-market result with smartphone/comic/library imagery.
     - Updated `output/research/181_research.json` image entries.
   - Representative rejected the first and second preview images and asked to keep only the third image.
-  - Replaced the first two images again:
-    - Hero/ogImage: digital artist drawing colorful tablet art (`pexels-photo-4238489`, Photo by Ivan S).
-    - Second image: artist sketching on a graphics tablet (`pexels-photo-7147722`, Photo by Michael Burrows).
+  - Replaced the first two images with better Pexels artist/tablet images, then updated again after representative asked whether famous webtoon captures should be included.
+  - Avoided raw copyrighted captures of famous webtoon panels and used official WEBTOON Entertainment PRODUCT media kit screens instead:
+    - Hero/ogImage: `/assets/images/posts/181/webtoon-platform-home-screens-official-media-kit.webp`.
+    - Second image: `/assets/images/posts/181/webtoon-home-official-media-kit.webp`.
+    - Extra official asset committed for future use: `/assets/images/posts/181/naver-webtoon-home-official-media-kit.webp`.
     - Third image retained: Starfield Library (`pexels-photo-19714663`, Photo by Line Knipst).
+    - Official source checked: `https://about.webtoon.com/media-kit` and `https://about.webtoon.com/media-kit/product`.
   - Wrote draft:
     - `output/drafts/181_draft.md`
     - Local preview copy: `content/blog/181.md`
@@ -43,11 +46,14 @@
     - `e28482f draft: add private preview post 181`
   - Private preview image refresh commit:
     - `f446b0b draft: update private preview post 181`
+  - Official WEBTOON media kit image refresh commits:
+    - `139e74a draft: update private preview post 181`
+    - `da00a1d chore: add post 181 official webtoon images`
   - Opened local preview:
     - `http://localhost:4000/preview/181`
 - Verification:
   - Auto review passed: `100/100`.
-  - Word count: `2245`.
+  - Word count: `2248`.
   - H2 sections: `5`.
   - Images: `3`.
   - FAQ Q&A: `5`.
@@ -5097,7 +5103,7 @@
   - Reviewer Agent: markdown SEO + local image file existence + manual rendered preview check.
   - Publisher Agent: post-publish public URL check, including visible images.
   - Human Reviewer: final content judgment, but should not have to catch broken-image plumbing.
-# 최종 업데이트: 2026-05-28 07:31:02 | 업데이트한 에이전트: Reviewer -> 사람 검토 대기
+# 최종 업데이트: 2026-05-28 07:44:03 | 업데이트한 에이전트: Reviewer -> 사람 검토 대기
 
 ---
 
@@ -5258,7 +5264,7 @@ Gemini API 의존성을 제거하는 방향으로 전환했다. 앞으로 글 �
 - 로컬 미리보기 URL: http://localhost:4000/preview/181
 - 프로덕션 미리보기: Actual-token production preview must be HTTP-verified before sharing; placeholder-token preview URLs are forbidden.
 - 승인/거절: 위 URL에서 버튼 클릭
-- 대기 시작: 2026-05-28 07:31:02
+- 대기 시작: 2026-05-28 07:44:03
 
 ---
 
