@@ -59,6 +59,14 @@ const nextConfig: NextConfig = {
       },
       {
         protocol: 'https',
+        hostname: 'd2wjm0du5kzgu5.cloudfront.net',
+      },
+      {
+        protocol: 'https',
+        hostname: 'static.wixstatic.com',
+      },
+      {
+        protocol: 'https',
         hostname: 'private-us-east-1.manuscdn.com',
       },
       {
