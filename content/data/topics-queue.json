@@ -663,8 +663,71 @@
       "status": "done",
       "generated_slug": "173",
       "generated_date": "2026-05-18"
+    },
+    {
+      "id": 33,
+      "title": "Seoul Heatwave Travel: How to Stay Cool in Korea's Summer",
+      "keywords": [
+        "Seoul heatwave travel",
+        "Korea summer travel",
+        "Seoul heat shelters",
+        "Korea summer packing"
+      ],
+      "category": "Travel",
+      "tags": [
+        "SeoulTravel",
+        "KoreaSummer",
+        "TravelTips",
+        "Heatwave"
+      ],
+      "amazon_category": "Travel",
+      "status": "done",
+      "generated_slug": "183",
+      "generated_date": "2026-05-30"
+    },
+    {
+      "id": 34,
+      "title": "Korean Four-Cut Photo Booths: Why Tiny Photo Strips Became a Travel Ritual",
+      "keywords": [
+        "Korean four cut photo booth",
+        "Life4Cut Korea",
+        "Photoism Seoul",
+        "Korean photo booth trend"
+      ],
+      "category": "Culture",
+      "tags": [
+        "KoreanCulture",
+        "PhotoBooth",
+        "SeoulTravel",
+        "Hallyu"
+      ],
+      "amazon_category": "Shopping",
+      "status": "done",
+      "generated_slug": "184",
+      "generated_date": "2026-05-30"
+    },
+    {
+      "id": 35,
+      "title": "Han River Nap Competition: What Seoul's Sleep Event Says About Korea",
+      "keywords": [
+        "Han River Nap Competition",
+        "Seoul sleep culture",
+        "Hangang nap competition",
+        "Korean rest culture"
+      ],
+      "category": "Culture",
+      "tags": [
+        "Seoul",
+        "KoreanCulture",
+        "Wellness",
+        "HanRiver"
+      ],
+      "amazon_category": "Travel",
+      "status": "done",
+      "generated_slug": "185",
+      "generated_date": "2026-05-30"
     }
   ],
-  "last_updated": "2026-05-28",
-  "next_slug": 183
+  "last_updated": "2026-05-30",
+  "next_slug": 186
 }
