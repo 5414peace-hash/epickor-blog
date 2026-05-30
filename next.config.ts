@@ -67,6 +67,14 @@ const nextConfig: NextConfig = {
       },
       {
         protocol: 'https',
+        hostname: 'images.squarespace-cdn.com',
+      },
+      {
+        protocol: 'https',
+        hostname: 'mediahub.seoul.go.kr',
+      },
+      {
+        protocol: 'https',
         hostname: 'private-us-east-1.manuscdn.com',
       },
       {
