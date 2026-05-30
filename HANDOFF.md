@@ -1,5 +1,37 @@
 # HANDOFF - EpicKor Agent Teams v2
 
+## Latest Update - 2026-05-30 Card News 184 Final Assets Ready
+
+- Trigger:
+  - Representative approved moving forward with the next task after the post 183-185 image corrections.
+- Selected task:
+  - Card news for Blog 184: `Korean Four-Cut Photo Booths`.
+- Completed:
+  - Created 7-card Instagram card-news script:
+    - `public/assets/cardnews/2026-05-30_184/script.md`
+  - Added seven Life4Cuts / 인생네컷 visual sources with no repeated image paths:
+    - `public/assets/cardnews/2026-05-30_184/sources/`
+  - Rendered 1080 x 1080 PNGs:
+    - `card_01.png` through `card_07.png`
+  - Added upload caption:
+    - `public/assets/cardnews/2026-05-30_184/caption.txt`
+  - Added source and visual QA docs:
+    - `image-sources.md`
+    - `visual-review.md`
+  - Updated card-news index:
+    - `public/assets/cardnews/CARDNEWS_INDEX.md`
+- Verification:
+  - Structural review passed:
+    - 7 cards
+    - 7/7 image cards
+    - 0 consecutive image-free cards
+  - Manual PNG inspection passed.
+  - Visual review average score: `92.1`.
+- Current stage:
+  - **Blog 184 card-news assets are final and ready for representative-managed Instagram upload.**
+- Next action:
+  - Commit and push card-news assets to `origin/master`.
+
 ## Latest Update - 2026-05-28 Blog 182 Private Preview Ready
 
 - Trigger:
