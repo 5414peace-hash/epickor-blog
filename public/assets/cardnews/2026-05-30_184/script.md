@@ -11,7 +11,7 @@ theme: bright
 image_keyword: Korean Life4Cuts photo booth brand
 kicker: KOREAN PHOTO BOOTH CULTURE
 image: /assets/cardnews/2026-05-30_184/sources/life4cuts-brand-01.jpg
-image_opacity: 0.68
+image_opacity: 0.82
 image_zoom: 1.08
 image_position: center center
 image_label: Life4Cuts
