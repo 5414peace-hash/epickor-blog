@@ -1,733 +1,740 @@
-{
-  "_comment": "Writer Agent가 읽는 주제 큐. status: pending=대기, in_progress=생성중, done=완료",
-  "topics": [
-    {
-      "id": 1,
-      "title": "Korean Convenience Store Culture: Why CU and GS25 Are More Than Just Shops",
-      "keywords": [
-        "Korean convenience store",
-        "CU store Korea",
-        "GS25 Korea",
-        "Korean 24/7 store"
-      ],
-      "category": "Culture",
-      "tags": [
-        "Korea",
-        "ConvenienceStore",
-        "KoreanCulture",
-        "Seoul",
-        "Travel"
-      ],
-      "amazon_category": "Food",
-      "status": "done",
-      "generated_slug": "160",
-      "generated_date": "2026-03-03"
-    },
-    {
-      "id": 2,
-      "title": "Understanding Jeju Island in 2026: Beyond the Beaches and Tangerines",
-      "keywords": [
-        "Jeju Island 2026",
-        "Jeju travel guide",
-        "Jeju Island attractions"
-      ],
-      "category": "Travel",
-      "tags": [
-        "Jeju",
-        "KoreaTravel",
-        "Island",
-        "2026"
-      ],
-      "amazon_category": "Travel",
-      "status": "done",
-      "generated_slug": "161",
-      "generated_date": "2026-03-03"
-    },
-    {
-      "id": 3,
-      "title": "Why Koreans Are Obsessed with Skin Care: The Truth Behind K-Beauty",
-      "keywords": [
-        "K-beauty routine",
-        "Korean skincare",
-        "Korean skin care steps",
-        "Korean beauty secrets"
-      ],
-      "category": "Beauty",
-      "tags": [
-        "KBeauty",
-        "Skincare",
-        "KoreanBeauty",
-        "Beauty"
-      ],
-      "amazon_category": "Beauty",
-      "status": "done",
-      "generated_slug": "162",
-      "generated_date": "2026-03-03"
-    },
-    {
-      "id": 4,
-      "title": "Korean Street Food You Must Try: From Tteokbokki to Hotteok",
-      "keywords": [
-        "Korean street food",
-        "tteokbokki",
-        "hotteok",
-        "Korean food market"
-      ],
-      "category": "Food",
-      "tags": [
-        "KoreanFood",
-        "StreetFood",
-        "Korea",
-        "Food"
-      ],
-      "amazon_category": "Food",
-      "status": "done",
-      "generated_slug": "163",
-      "generated_date": "2026-03-03"
-    },
-    {
-      "id": 5,
-      "title": "Kakao in Korean Daily Life: The App That Runs South Korea",
-      "keywords": [
-        "KakaoTalk Korea",
-        "Kakao app",
-        "Korean messaging app",
-        "how Koreans communicate"
-      ],
-      "category": "Technology",
-      "tags": [
-        "Kakao",
-        "KoreanTech",
-        "Korea",
-        "Apps"
-      ],
-      "amazon_category": "Shopping",
-      "status": "done",
-      "generated_slug": "164",
-      "generated_date": "2026-03-03"
-    },
-    {
-      "id": 6,
-      "title": "Seoul Subway Guide 2026: Tips No Tourist Brochure Will Tell You",
-      "keywords": [
-        "Seoul subway guide",
-        "Seoul metro tips",
-        "getting around Seoul",
-        "Seoul public transport"
-      ],
-      "category": "Travel",
-      "tags": [
-        "Seoul",
-        "Subway",
-        "KoreaTravel",
-        "TransportTips"
-      ],
-      "amazon_category": "Travel",
-      "status": "done",
-      "generated_slug": "165",
-      "generated_date": "2026-03-03"
-    },
-    {
-      "id": 7,
-      "title": "Korean Age System Explained: Why Koreans Are Always 1-2 Years Older",
-      "keywords": [
-        "Korean age system",
-        "how old am I in Korea",
-        "Korean international age",
-        "Korean traditional age"
-      ],
-      "category": "Culture",
-      "tags": [
-        "KoreanCulture",
-        "KoreanAge",
-        "Korea",
-        "Culture"
-      ],
-      "amazon_category": "Shopping",
-      "status": "done",
-      "generated_slug": "166",
-      "generated_date": "2026-04-27"
-    },
-    {
-      "id": 8,
-      "title": "The Best Korean Dramas of 2026 That You're Missing Right Now",
-      "keywords": [
-        "best Korean dramas 2026",
-        "K-drama 2026",
-        "Netflix Korean drama",
-        "new Korean drama"
-      ],
-      "category": "Entertainment",
-      "tags": [
-        "KDrama",
-        "Korean",
-        "Netflix",
-        "Entertainment",
-        "2026"
-      ],
-      "amazon_category": "Shopping",
-      "status": "done",
-      "generated_slug": "167",
-      "generated_date": "2026-04-27"
-    },
-    {
-      "id": 9,
-      "title": "Korean Hiking Culture: Why Every Weekend Koreans Hit the Mountains",
-      "keywords": [
-        "Korean hiking culture",
-        "hiking in Korea",
-        "Korean mountains",
-        "Korean outdoor culture"
-      ],
-      "category": "Culture",
-      "tags": [
-        "Hiking",
-        "KoreanCulture",
-        "Outdoors",
-        "Korea"
-      ],
-      "amazon_category": "Travel",
-      "status": "done",
-      "generated_slug": "168",
-      "generated_date": "2026-05-02"
-    },
-    {
-      "id": 10,
-      "title": "Hongdae vs Itaewon vs Gangnam: Seoul's Neighborhoods Decoded",
-      "keywords": [
-        "Seoul neighborhoods",
-        "Hongdae Seoul",
-        "Itaewon Seoul",
-        "Gangnam Seoul",
-        "where to go in Seoul"
-      ],
-      "category": "Travel",
-      "tags": [
-        "Seoul",
-        "Neighborhoods",
-        "Travel",
-        "KoreaTravel"
-      ],
-      "amazon_category": "Travel",
-      "status": "done",
-      "generated_slug": "169",
-      "generated_date": "2026-05-02"
-    },
-    {
-      "id": 11,
-      "title": "Korean PC Bang Culture: Gaming Cafes That Changed the World",
-      "keywords": [
-        "Korean PC bang",
-        "PC cafe Korea",
-        "Korean gaming culture",
-        "Starcraft Korea"
-      ],
-      "category": "Culture",
-      "tags": [
-        "PCBang",
-        "Gaming",
-        "KoreanCulture",
-        "Korea"
-      ],
-      "amazon_category": "Shopping",
-      "status": "done",
-      "generated_slug": "170",
-      "generated_date": "2026-05-02"
-    },
-    {
-      "id": 12,
-      "title": "How to Eat Korean BBQ Like a Local: The Unwritten Rules",
-      "keywords": [
-        "Korean BBQ guide",
-        "how to eat Korean BBQ",
-        "samgyeopsal guide",
-        "galbi tips"
-      ],
-      "category": "Food",
-      "tags": [
-        "KoreanBBQ",
-        "KoreanFood",
-        "Food",
-        "Culture"
-      ],
-      "amazon_category": "Food",
-      "status": "done",
-      "generated_slug": "172",
-      "generated_date": "2026-05-10"
-    },
-    {
-      "id": 13,
-      "title": "Korean Traditional Markets: Why Namdaemun and Dongdaemun Still Matter",
-      "keywords": [
-        "Korean traditional market",
-        "Namdaemun market",
-        "Dongdaemun market",
-        "shopping in Seoul"
-      ],
-      "category": "Shopping",
-      "tags": [
-        "KoreanMarket",
-        "Shopping",
-        "Seoul",
-        "Travel"
-      ],
-      "amazon_category": "Shopping",
-      "status": "done",
-      "generated_slug": "175",
-      "generated_date": "2026-05-20"
-    },
-    {
-      "id": 14,
-      "title": "The Rise of Korean Webtoons: From Naver to Netflix",
-      "keywords": [
-        "Korean webtoon",
-        "Naver webtoon",
-        "manhwa",
-        "Korean comics"
-      ],
-      "category": "Entertainment",
-      "tags": [
-        "Webtoon",
-        "Manhwa",
-        "Korea",
-        "Entertainment"
-      ],
-      "amazon_category": "Shopping",
-      "status": "done",
-      "generated_slug": "181",
-      "generated_date": "2026-05-28"
-    },
-    {
-      "id": 15,
-      "title": "Korean Work Culture Decoded: Overtime, Hierarchy, and Hof Fridays",
-      "keywords": [
-        "Korean work culture",
-        "Korean office culture",
-        "working in Korea",
-        "Korean hierarchy"
-      ],
-      "category": "Culture",
-      "tags": [
-        "KoreanWorkCulture",
-        "WorkLife",
-        "Korea",
-        "Culture"
-      ],
-      "amazon_category": "Shopping",
-      "status": "done",
-      "generated_slug": "182",
-      "generated_date": "2026-05-28"
-    },
-    {
-      "id": 16,
-      "title": "Bukchon Hanok Village: The Most Instagrammed Place in Seoul (And Why)",
-      "keywords": [
-        "Bukchon Hanok Village",
-        "Seoul Hanok",
-        "traditional Korean houses",
-        "Seoul photo spots"
-      ],
-      "category": "Travel",
-      "tags": [
-        "Bukchon",
-        "Seoul",
-        "Hanok",
-        "KoreaTravel",
-        "Photography"
-      ],
-      "amazon_category": "Travel",
-      "status": "done",
-      "generated_slug": "180",
-      "generated_date": "2026-05-28"
-    },
-    {
-      "id": 17,
-      "title": "Korean Healthcare for Tourists: What You Need to Know Before You Go",
-      "keywords": [
-        "Korean healthcare tourists",
-        "hospital in Korea",
-        "medical care Korea",
-        "Korean health insurance"
-      ],
-      "category": "Travel",
-      "tags": [
-        "KoreaTravel",
-        "Healthcare",
-        "TravelTips",
-        "Seoul"
-      ],
-      "amazon_category": "Travel",
-      "status": "pending"
-    },
-    {
-      "id": 18,
-      "title": "Korean Cafe Culture: Why Coffee Shops Became Seoul's Third Place",
-      "keywords": [
-        "Korean cafe culture",
-        "Seoul coffee shops",
-        "Korean cafe",
-        "best cafes Seoul"
-      ],
-      "category": "Culture",
-      "tags": [
-        "KoreanCafe",
-        "Coffee",
-        "Seoul",
-        "KoreanCulture"
-      ],
-      "amazon_category": "Food",
-      "status": "done",
-      "generated_slug": "177",
-      "generated_date": "2026-05-21"
-    },
-    {
-      "id": 19,
-      "title": "BTS Effect: How Seven Guys Changed Korean Tourism Forever",
-      "keywords": [
-        "BTS Korea tourism",
-        "BTS ARMY travel Korea",
-        "K-pop tourism",
-        "BTS filming locations"
-      ],
-      "category": "Entertainment",
-      "tags": [
-        "BTS",
-        "Kpop",
-        "KoreaTourism",
-        "Hallyu"
-      ],
-      "amazon_category": "Shopping",
-      "status": "pending"
-    },
-    {
-      "id": 20,
-      "title": "Korean University Life: Study Hard, Play Harder Culture Explained",
-      "keywords": [
-        "Korean university life",
-        "Korean college culture",
-        "studying in Korea",
-        "Korean student life"
-      ],
-      "category": "Education",
-      "tags": [
-        "KoreanUniversity",
-        "StudentLife",
-        "Korea",
-        "Education"
-      ],
-      "amazon_category": "Shopping",
-      "status": "pending"
-    },
-    {
-      "id": 21,
-      "title": "Busan vs Seoul: Which Korean City Should You Visit First?",
-      "keywords": [
-        "Busan vs Seoul",
-        "Busan travel guide",
-        "visiting Korea first time",
-        "best Korean cities"
-      ],
-      "category": "Travel",
-      "tags": [
-        "Busan",
-        "Seoul",
-        "KoreaTravel",
-        "TravelGuide"
-      ],
-      "amazon_category": "Travel",
-      "status": "pending"
-    },
-    {
-      "id": 22,
-      "title": "Korean Superstitions You Should Know Before Visiting Korea",
-      "keywords": [
-        "Korean superstitions",
-        "Korean beliefs",
-        "Korean taboos",
-        "what not to do in Korea"
-      ],
-      "category": "Culture",
-      "tags": [
-        "KoreanCulture",
-        "Superstitions",
-        "Korea",
-        "TravelTips"
-      ],
-      "amazon_category": "Shopping",
-      "status": "pending"
-    },
-    {
-      "id": 23,
-      "title": "Hallyu 2026: How Korean Pop Culture Continues to Dominate the World",
-      "keywords": [
-        "Hallyu 2026",
-        "Korean wave 2026",
-        "K-culture global",
-        "Korean soft power"
-      ],
-      "category": "Entertainment",
-      "tags": [
-        "Hallyu",
-        "KoreanWave",
-        "Kpop",
-        "2026",
-        "GlobalKorea"
-      ],
-      "amazon_category": "Shopping",
-      "status": "pending"
-    },
-    {
-      "id": 24,
-      "title": "Korean Drinking Culture: Soju, Makgeolli, and the Art of the Anju",
-      "keywords": [
-        "Korean drinking culture",
-        "soju guide",
-        "makgeolli",
-        "Korean alcohol",
-        "anju food"
-      ],
-      "category": "Food",
-      "tags": [
-        "Soju",
-        "KoreanDrinking",
-        "KoreanFood",
-        "Culture"
-      ],
-      "amazon_category": "Food",
-      "status": "done",
-      "generated_slug": "179",
-      "generated_date": "2026-05-28"
-    },
-    {
-      "id": 25,
-      "title": "K-Pop Idol Training: The Grueling Path to Becoming a Star",
-      "keywords": [
-        "K-pop trainee",
-        "K-pop idol training",
-        "SM Entertainment training",
-        "how to become K-pop idol"
-      ],
-      "category": "Entertainment",
-      "tags": [
-        "Kpop",
-        "KpopTraining",
-        "Entertainment",
-        "Korea"
-      ],
-      "amazon_category": "Shopping",
-      "status": "pending"
-    },
-    {
-      "id": 26,
-      "title": "Korean Jjimjilbang Experience: The Ultimate Guide to Korean Spas",
-      "keywords": [
-        "Korean jjimjilbang",
-        "Korean spa guide",
-        "jimjilbang Seoul",
-        "Korean bathhouse"
-      ],
-      "category": "Culture",
-      "tags": [
-        "Jjimjilbang",
-        "KoreanSpa",
-        "Korea",
-        "Travel",
-        "Culture"
-      ],
-      "amazon_category": "Beauty",
-      "status": "done",
-      "generated_slug": "176",
-      "generated_date": "2026-05-21"
-    },
-    {
-      "id": 27,
-      "title": "Eating Alone in Korea: The Honsul and Honbap Culture Rising",
-      "keywords": [
-        "eating alone Korea",
-        "Korean solo dining",
-        "honsul",
-        "honbap Korea"
-      ],
-      "category": "Culture",
-      "tags": [
-        "KoreanCulture",
-        "SoloDining",
-        "Korea",
-        "FoodCulture"
-      ],
-      "amazon_category": "Food",
-      "status": "pending"
-    },
-    {
-      "id": 28,
-      "title": "DMZ Tour from Seoul: What You Need to Know Before Visiting",
-      "keywords": [
-        "DMZ tour Seoul",
-        "Korean DMZ visit",
-        "North Korea border tour",
-        "DMZ experience"
-      ],
-      "category": "Travel",
-      "tags": [
-        "DMZ",
-        "Seoul",
-        "KoreaTravel",
-        "History"
-      ],
-      "amazon_category": "Travel",
-      "status": "pending"
-    },
-    {
-      "id": 29,
-      "title": "Korean Food Delivery Culture: How Baemin Changed How Koreans Eat",
-      "keywords": [
-        "Korean food delivery",
-        "Baemin Korea",
-        "Korean delivery app",
-        "food delivery culture Korea"
-      ],
-      "category": "Culture",
-      "tags": [
-        "KoreanFood",
-        "FoodDelivery",
-        "Baemin",
-        "KoreanCulture"
-      ],
-      "amazon_category": "Food",
-      "status": "done",
-      "generated_slug": "178",
-      "generated_date": "2026-05-28"
-    },
-    {
-      "id": 30,
-      "title": "The Secret to Korean Long Life: Diet, Habits, and the Power of Kimchi",
-      "keywords": [
-        "Korean longevity",
-        "Korean healthy diet",
-        "kimchi health benefits",
-        "why Koreans live long"
-      ],
-      "category": "Health",
-      "tags": [
-        "KoreanHealth",
-        "Kimchi",
-        "Longevity",
-        "KoreanDiet"
-      ],
-      "amazon_category": "Food",
-      "status": "pending"
-    },
-    {
-      "id": 31,
-      "title": "Korean Convenience Store Breakfast: What Locals Actually Buy",
-      "keywords": [
-        "Korean convenience store breakfast",
-        "Korean breakfast convenience store",
-        "GS25 breakfast",
-        "CU Korea breakfast",
-        "Korean triangle gimbap breakfast"
-      ],
-      "category": "Food",
-      "tags": [
-        "KoreanFood",
-        "ConvenienceStore",
-        "KoreanBreakfast",
-        "KoreaTravel",
-        "Seoul"
-      ],
-      "amazon_category": "Food",
-      "status": "done",
-      "generated_slug": "171",
-      "generated_date": "2026-05-07"
-    },
-    {
-      "id": 32,
-      "title": "Korea's New Tourist Shopping Route: Olive Young, Daiso, Musinsa, Pharmacies, and Skin Clinics",
-      "keywords": [
-        "Korea shopping route",
-        "Olive Young Korea tourists",
-        "Daiso Korea tourists",
-        "Musinsa Korea tourists",
-        "Korean pharmacies tourists",
-        "Korean skin clinics tourists"
-      ],
-      "category": "Travel",
-      "tags": [
-        "KoreaShopping",
-        "KBeauty",
-        "KoreaTravel",
-        "Seoul",
-        "OliveYoung"
-      ],
-      "amazon_category": "Beauty",
-      "status": "done",
-      "generated_slug": "173",
-      "generated_date": "2026-05-18"
-    },
-    {
-      "id": 33,
-      "title": "Seoul Heatwave Travel: How to Stay Cool in Korea's Summer",
-      "keywords": [
-        "Seoul heatwave travel",
-        "Korea summer travel",
-        "Seoul heat shelters",
-        "Korea summer packing"
-      ],
-      "category": "Travel",
-      "tags": [
-        "SeoulTravel",
-        "KoreaSummer",
-        "TravelTips",
-        "Heatwave"
-      ],
-      "amazon_category": "Travel",
-      "status": "done",
-      "generated_slug": "183",
-      "generated_date": "2026-05-30"
-    },
-    {
-      "id": 34,
-      "title": "Korean Four-Cut Photo Booths: Why Tiny Photo Strips Became a Travel Ritual",
-      "keywords": [
-        "Korean four cut photo booth",
-        "Life4Cut Korea",
-        "Photoism Seoul",
-        "Korean photo booth trend"
-      ],
-      "category": "Culture",
-      "tags": [
-        "KoreanCulture",
-        "PhotoBooth",
-        "SeoulTravel",
-        "Hallyu"
-      ],
-      "amazon_category": "Shopping",
-      "status": "done",
-      "generated_slug": "184",
-      "generated_date": "2026-05-30"
-    },
-    {
-      "id": 35,
-      "title": "Han River Nap Competition: What Seoul's Sleep Event Says About Korea",
-      "keywords": [
-        "Han River Nap Competition",
-        "Seoul sleep culture",
-        "Hangang nap competition",
-        "Korean rest culture"
-      ],
-      "category": "Culture",
-      "tags": [
-        "Seoul",
-        "KoreanCulture",
-        "Wellness",
-        "HanRiver"
-      ],
-      "amazon_category": "Travel",
-      "status": "done",
-      "generated_slug": "185",
-      "generated_date": "2026-05-30"
-    }
-  ],
-  "last_updated": "2026-05-30",
-  "next_slug": 186
+﻿{
+    "_comment":  "Writer Agent媛 ?쎈뒗 二쇱젣 ?? status: pending=?湲? in_progress=?앹꽦以? done=?꾨즺",
+    "topics":  [
+                   {
+                       "id":  1,
+                       "title":  "Korean Convenience Store Culture: Why CU and GS25 Are More Than Just Shops",
+                       "keywords":  [
+                                        "Korean convenience store",
+                                        "CU store Korea",
+                                        "GS25 Korea",
+                                        "Korean 24/7 store"
+                                    ],
+                       "category":  "Culture",
+                       "tags":  [
+                                    "Korea",
+                                    "ConvenienceStore",
+                                    "KoreanCulture",
+                                    "Seoul",
+                                    "Travel"
+                                ],
+                       "amazon_category":  "Food",
+                       "status":  "done",
+                       "generated_slug":  "160",
+                       "generated_date":  "2026-03-03"
+                   },
+                   {
+                       "id":  2,
+                       "title":  "Understanding Jeju Island in 2026: Beyond the Beaches and Tangerines",
+                       "keywords":  [
+                                        "Jeju Island 2026",
+                                        "Jeju travel guide",
+                                        "Jeju Island attractions"
+                                    ],
+                       "category":  "Travel",
+                       "tags":  [
+                                    "Jeju",
+                                    "KoreaTravel",
+                                    "Island",
+                                    "2026"
+                                ],
+                       "amazon_category":  "Travel",
+                       "status":  "done",
+                       "generated_slug":  "161",
+                       "generated_date":  "2026-03-03"
+                   },
+                   {
+                       "id":  3,
+                       "title":  "Why Koreans Are Obsessed with Skin Care: The Truth Behind K-Beauty",
+                       "keywords":  [
+                                        "K-beauty routine",
+                                        "Korean skincare",
+                                        "Korean skin care steps",
+                                        "Korean beauty secrets"
+                                    ],
+                       "category":  "Beauty",
+                       "tags":  [
+                                    "KBeauty",
+                                    "Skincare",
+                                    "KoreanBeauty",
+                                    "Beauty"
+                                ],
+                       "amazon_category":  "Beauty",
+                       "status":  "done",
+                       "generated_slug":  "162",
+                       "generated_date":  "2026-03-03"
+                   },
+                   {
+                       "id":  4,
+                       "title":  "Korean Street Food You Must Try: From Tteokbokki to Hotteok",
+                       "keywords":  [
+                                        "Korean street food",
+                                        "tteokbokki",
+                                        "hotteok",
+                                        "Korean food market"
+                                    ],
+                       "category":  "Food",
+                       "tags":  [
+                                    "KoreanFood",
+                                    "StreetFood",
+                                    "Korea",
+                                    "Food"
+                                ],
+                       "amazon_category":  "Food",
+                       "status":  "done",
+                       "generated_slug":  "163",
+                       "generated_date":  "2026-03-03"
+                   },
+                   {
+                       "id":  5,
+                       "title":  "Kakao in Korean Daily Life: The App That Runs South Korea",
+                       "keywords":  [
+                                        "KakaoTalk Korea",
+                                        "Kakao app",
+                                        "Korean messaging app",
+                                        "how Koreans communicate"
+                                    ],
+                       "category":  "Technology",
+                       "tags":  [
+                                    "Kakao",
+                                    "KoreanTech",
+                                    "Korea",
+                                    "Apps"
+                                ],
+                       "amazon_category":  "Shopping",
+                       "status":  "done",
+                       "generated_slug":  "164",
+                       "generated_date":  "2026-03-03"
+                   },
+                   {
+                       "id":  6,
+                       "title":  "Seoul Subway Guide 2026: Tips No Tourist Brochure Will Tell You",
+                       "keywords":  [
+                                        "Seoul subway guide",
+                                        "Seoul metro tips",
+                                        "getting around Seoul",
+                                        "Seoul public transport"
+                                    ],
+                       "category":  "Travel",
+                       "tags":  [
+                                    "Seoul",
+                                    "Subway",
+                                    "KoreaTravel",
+                                    "TransportTips"
+                                ],
+                       "amazon_category":  "Travel",
+                       "status":  "done",
+                       "generated_slug":  "165",
+                       "generated_date":  "2026-03-03"
+                   },
+                   {
+                       "id":  7,
+                       "title":  "Korean Age System Explained: Why Koreans Are Always 1-2 Years Older",
+                       "keywords":  [
+                                        "Korean age system",
+                                        "how old am I in Korea",
+                                        "Korean international age",
+                                        "Korean traditional age"
+                                    ],
+                       "category":  "Culture",
+                       "tags":  [
+                                    "KoreanCulture",
+                                    "KoreanAge",
+                                    "Korea",
+                                    "Culture"
+                                ],
+                       "amazon_category":  "Shopping",
+                       "status":  "done",
+                       "generated_slug":  "166",
+                       "generated_date":  "2026-04-27"
+                   },
+                   {
+                       "id":  8,
+                       "title":  "The Best Korean Dramas of 2026 That You\u0027re Missing Right Now",
+                       "keywords":  [
+                                        "best Korean dramas 2026",
+                                        "K-drama 2026",
+                                        "Netflix Korean drama",
+                                        "new Korean drama"
+                                    ],
+                       "category":  "Entertainment",
+                       "tags":  [
+                                    "KDrama",
+                                    "Korean",
+                                    "Netflix",
+                                    "Entertainment",
+                                    "2026"
+                                ],
+                       "amazon_category":  "Shopping",
+                       "status":  "done",
+                       "generated_slug":  "167",
+                       "generated_date":  "2026-04-27"
+                   },
+                   {
+                       "id":  9,
+                       "title":  "Korean Hiking Culture: Why Every Weekend Koreans Hit the Mountains",
+                       "keywords":  [
+                                        "Korean hiking culture",
+                                        "hiking in Korea",
+                                        "Korean mountains",
+                                        "Korean outdoor culture"
+                                    ],
+                       "category":  "Culture",
+                       "tags":  [
+                                    "Hiking",
+                                    "KoreanCulture",
+                                    "Outdoors",
+                                    "Korea"
+                                ],
+                       "amazon_category":  "Travel",
+                       "status":  "done",
+                       "generated_slug":  "168",
+                       "generated_date":  "2026-05-02"
+                   },
+                   {
+                       "id":  10,
+                       "title":  "Hongdae vs Itaewon vs Gangnam: Seoul\u0027s Neighborhoods Decoded",
+                       "keywords":  [
+                                        "Seoul neighborhoods",
+                                        "Hongdae Seoul",
+                                        "Itaewon Seoul",
+                                        "Gangnam Seoul",
+                                        "where to go in Seoul"
+                                    ],
+                       "category":  "Travel",
+                       "tags":  [
+                                    "Seoul",
+                                    "Neighborhoods",
+                                    "Travel",
+                                    "KoreaTravel"
+                                ],
+                       "amazon_category":  "Travel",
+                       "status":  "done",
+                       "generated_slug":  "169",
+                       "generated_date":  "2026-05-02"
+                   },
+                   {
+                       "id":  11,
+                       "title":  "Korean PC Bang Culture: Gaming Cafes That Changed the World",
+                       "keywords":  [
+                                        "Korean PC bang",
+                                        "PC cafe Korea",
+                                        "Korean gaming culture",
+                                        "Starcraft Korea"
+                                    ],
+                       "category":  "Culture",
+                       "tags":  [
+                                    "PCBang",
+                                    "Gaming",
+                                    "KoreanCulture",
+                                    "Korea"
+                                ],
+                       "amazon_category":  "Shopping",
+                       "status":  "done",
+                       "generated_slug":  "170",
+                       "generated_date":  "2026-05-02"
+                   },
+                   {
+                       "id":  12,
+                       "title":  "How to Eat Korean BBQ Like a Local: The Unwritten Rules",
+                       "keywords":  [
+                                        "Korean BBQ guide",
+                                        "how to eat Korean BBQ",
+                                        "samgyeopsal guide",
+                                        "galbi tips"
+                                    ],
+                       "category":  "Food",
+                       "tags":  [
+                                    "KoreanBBQ",
+                                    "KoreanFood",
+                                    "Food",
+                                    "Culture"
+                                ],
+                       "amazon_category":  "Food",
+                       "status":  "done",
+                       "generated_slug":  "172",
+                       "generated_date":  "2026-05-10"
+                   },
+                   {
+                       "id":  13,
+                       "title":  "Korean Traditional Markets: Why Namdaemun and Dongdaemun Still Matter",
+                       "keywords":  [
+                                        "Korean traditional market",
+                                        "Namdaemun market",
+                                        "Dongdaemun market",
+                                        "shopping in Seoul"
+                                    ],
+                       "category":  "Shopping",
+                       "tags":  [
+                                    "KoreanMarket",
+                                    "Shopping",
+                                    "Seoul",
+                                    "Travel"
+                                ],
+                       "amazon_category":  "Shopping",
+                       "status":  "done",
+                       "generated_slug":  "175",
+                       "generated_date":  "2026-05-20"
+                   },
+                   {
+                       "id":  14,
+                       "title":  "The Rise of Korean Webtoons: From Naver to Netflix",
+                       "keywords":  [
+                                        "Korean webtoon",
+                                        "Naver webtoon",
+                                        "manhwa",
+                                        "Korean comics"
+                                    ],
+                       "category":  "Entertainment",
+                       "tags":  [
+                                    "Webtoon",
+                                    "Manhwa",
+                                    "Korea",
+                                    "Entertainment"
+                                ],
+                       "amazon_category":  "Shopping",
+                       "status":  "done",
+                       "generated_slug":  "181",
+                       "generated_date":  "2026-05-28"
+                   },
+                   {
+                       "id":  15,
+                       "title":  "Korean Work Culture Decoded: Overtime, Hierarchy, and Hof Fridays",
+                       "keywords":  [
+                                        "Korean work culture",
+                                        "Korean office culture",
+                                        "working in Korea",
+                                        "Korean hierarchy"
+                                    ],
+                       "category":  "Culture",
+                       "tags":  [
+                                    "KoreanWorkCulture",
+                                    "WorkLife",
+                                    "Korea",
+                                    "Culture"
+                                ],
+                       "amazon_category":  "Shopping",
+                       "status":  "done",
+                       "generated_slug":  "182",
+                       "generated_date":  "2026-05-28"
+                   },
+                   {
+                       "id":  16,
+                       "title":  "Bukchon Hanok Village: The Most Instagrammed Place in Seoul (And Why)",
+                       "keywords":  [
+                                        "Bukchon Hanok Village",
+                                        "Seoul Hanok",
+                                        "traditional Korean houses",
+                                        "Seoul photo spots"
+                                    ],
+                       "category":  "Travel",
+                       "tags":  [
+                                    "Bukchon",
+                                    "Seoul",
+                                    "Hanok",
+                                    "KoreaTravel",
+                                    "Photography"
+                                ],
+                       "amazon_category":  "Travel",
+                       "status":  "done",
+                       "generated_slug":  "180",
+                       "generated_date":  "2026-05-28"
+                   },
+                   {
+                       "id":  17,
+                       "title":  "Korean Healthcare for Tourists: What You Need to Know Before You Go",
+                       "keywords":  [
+                                        "Korean healthcare tourists",
+                                        "hospital in Korea",
+                                        "medical care Korea",
+                                        "Korean health insurance"
+                                    ],
+                       "category":  "Travel",
+                       "tags":  [
+                                    "KoreaTravel",
+                                    "Healthcare",
+                                    "TravelTips",
+                                    "Seoul"
+                                ],
+                       "amazon_category":  "Travel",
+                       "status":  "pending"
+                   },
+                   {
+                       "id":  18,
+                       "title":  "Korean Cafe Culture: Why Coffee Shops Became Seoul\u0027s Third Place",
+                       "keywords":  [
+                                        "Korean cafe culture",
+                                        "Seoul coffee shops",
+                                        "Korean cafe",
+                                        "best cafes Seoul"
+                                    ],
+                       "category":  "Culture",
+                       "tags":  [
+                                    "KoreanCafe",
+                                    "Coffee",
+                                    "Seoul",
+                                    "KoreanCulture"
+                                ],
+                       "amazon_category":  "Food",
+                       "status":  "done",
+                       "generated_slug":  "177",
+                       "generated_date":  "2026-05-21"
+                   },
+                   {
+                       "id":  19,
+                       "title":  "BTS Effect: How Seven Guys Changed Korean Tourism Forever",
+                       "keywords":  [
+                                        "BTS Korea tourism",
+                                        "BTS ARMY travel Korea",
+                                        "K-pop tourism",
+                                        "BTS filming locations"
+                                    ],
+                       "category":  "Entertainment",
+                       "tags":  [
+                                    "BTS",
+                                    "Kpop",
+                                    "KoreaTourism",
+                                    "Hallyu"
+                                ],
+                       "amazon_category":  "Shopping",
+                       "status":  "pending"
+                   },
+                   {
+                       "id":  20,
+                       "title":  "Korean University Life: Study Hard, Play Harder Culture Explained",
+                       "keywords":  [
+                                        "Korean university life",
+                                        "Korean college culture",
+                                        "studying in Korea",
+                                        "Korean student life"
+                                    ],
+                       "category":  "Education",
+                       "tags":  [
+                                    "KoreanUniversity",
+                                    "StudentLife",
+                                    "Korea",
+                                    "Education"
+                                ],
+                       "amazon_category":  "Shopping",
+                       "status":  "pending"
+                   },
+                   {
+                       "id":  21,
+                       "title":  "Busan vs Seoul: Which Korean City Should You Visit First?",
+                       "keywords":  [
+                                        "Busan vs Seoul",
+                                        "Busan travel guide",
+                                        "visiting Korea first time",
+                                        "best Korean cities"
+                                    ],
+                       "category":  "Travel",
+                       "tags":  [
+                                    "Busan",
+                                    "Seoul",
+                                    "KoreaTravel",
+                                    "TravelGuide"
+                                ],
+                       "amazon_category":  "Travel",
+                       "status":  "done",
+                       "generated_slug":  "188",
+                       "generated_date":  "2026-06-02"
+                   },
+                   {
+                       "id":  22,
+                       "title":  "Korean Superstitions You Should Know Before Visiting Korea",
+                       "keywords":  [
+                                        "Korean superstitions",
+                                        "Korean beliefs",
+                                        "Korean taboos",
+                                        "what not to do in Korea"
+                                    ],
+                       "category":  "Culture",
+                       "tags":  [
+                                    "KoreanCulture",
+                                    "Superstitions",
+                                    "Korea",
+                                    "TravelTips"
+                                ],
+                       "amazon_category":  "Shopping",
+                       "status":  "done",
+                       "generated_slug":  "187",
+                       "generated_date":  "2026-06-02"
+                   },
+                   {
+                       "id":  23,
+                       "title":  "Hallyu 2026: How Korean Pop Culture Continues to Dominate the World",
+                       "keywords":  [
+                                        "Hallyu 2026",
+                                        "Korean wave 2026",
+                                        "K-culture global",
+                                        "Korean soft power"
+                                    ],
+                       "category":  "Entertainment",
+                       "tags":  [
+                                    "Hallyu",
+                                    "KoreanWave",
+                                    "Kpop",
+                                    "2026",
+                                    "GlobalKorea"
+                                ],
+                       "amazon_category":  "Shopping",
+                       "status":  "pending"
+                   },
+                   {
+                       "id":  24,
+                       "title":  "Korean Drinking Culture: Soju, Makgeolli, and the Art of the Anju",
+                       "keywords":  [
+                                        "Korean drinking culture",
+                                        "soju guide",
+                                        "makgeolli",
+                                        "Korean alcohol",
+                                        "anju food"
+                                    ],
+                       "category":  "Food",
+                       "tags":  [
+                                    "Soju",
+                                    "KoreanDrinking",
+                                    "KoreanFood",
+                                    "Culture"
+                                ],
+                       "amazon_category":  "Food",
+                       "status":  "done",
+                       "generated_slug":  "179",
+                       "generated_date":  "2026-05-28"
+                   },
+                   {
+                       "id":  25,
+                       "title":  "K-Pop Idol Training: The Grueling Path to Becoming a Star",
+                       "keywords":  [
+                                        "K-pop trainee",
+                                        "K-pop idol training",
+                                        "SM Entertainment training",
+                                        "how to become K-pop idol"
+                                    ],
+                       "category":  "Entertainment",
+                       "tags":  [
+                                    "Kpop",
+                                    "KpopTraining",
+                                    "Entertainment",
+                                    "Korea"
+                                ],
+                       "amazon_category":  "Shopping",
+                       "status":  "pending"
+                   },
+                   {
+                       "id":  26,
+                       "title":  "Korean Jjimjilbang Experience: The Ultimate Guide to Korean Spas",
+                       "keywords":  [
+                                        "Korean jjimjilbang",
+                                        "Korean spa guide",
+                                        "jimjilbang Seoul",
+                                        "Korean bathhouse"
+                                    ],
+                       "category":  "Culture",
+                       "tags":  [
+                                    "Jjimjilbang",
+                                    "KoreanSpa",
+                                    "Korea",
+                                    "Travel",
+                                    "Culture"
+                                ],
+                       "amazon_category":  "Beauty",
+                       "status":  "done",
+                       "generated_slug":  "176",
+                       "generated_date":  "2026-05-21"
+                   },
+                   {
+                       "id":  27,
+                       "title":  "Eating Alone in Korea: The Honbap and Honsul Culture Rising",
+                       "keywords":  [
+                                        "eating alone Korea",
+                                        "Korean solo dining",
+                                        "honsul",
+                                        "honbap Korea"
+                                    ],
+                       "category":  "Culture",
+                       "tags":  [
+                                    "KoreanCulture",
+                                    "SoloDining",
+                                    "Korea",
+                                    "FoodCulture"
+                                ],
+                       "amazon_category":  "Food",
+                       "status":  "done",
+                       "generated_slug":  "186",
+                       "generated_date":  "2026-06-02"
+                   },
+                   {
+                       "id":  28,
+                       "title":  "DMZ Tour from Seoul: What You Need to Know Before Visiting",
+                       "keywords":  [
+                                        "DMZ tour Seoul",
+                                        "Korean DMZ visit",
+                                        "North Korea border tour",
+                                        "DMZ experience"
+                                    ],
+                       "category":  "Travel",
+                       "tags":  [
+                                    "DMZ",
+                                    "Seoul",
+                                    "KoreaTravel",
+                                    "History"
+                                ],
+                       "amazon_category":  "Travel",
+                       "status":  "pending"
+                   },
+                   {
+                       "id":  29,
+                       "title":  "Korean Food Delivery Culture: How Baemin Changed How Koreans Eat",
+                       "keywords":  [
+                                        "Korean food delivery",
+                                        "Baemin Korea",
+                                        "Korean delivery app",
+                                        "food delivery culture Korea"
+                                    ],
+                       "category":  "Culture",
+                       "tags":  [
+                                    "KoreanFood",
+                                    "FoodDelivery",
+                                    "Baemin",
+                                    "KoreanCulture"
+                                ],
+                       "amazon_category":  "Food",
+                       "status":  "done",
+                       "generated_slug":  "178",
+                       "generated_date":  "2026-05-28"
+                   },
+                   {
+                       "id":  30,
+                       "title":  "The Secret to Korean Long Life: Diet, Habits, and the Power of Kimchi",
+                       "keywords":  [
+                                        "Korean longevity",
+                                        "Korean healthy diet",
+                                        "kimchi health benefits",
+                                        "why Koreans live long"
+                                    ],
+                       "category":  "Health",
+                       "tags":  [
+                                    "KoreanHealth",
+                                    "Kimchi",
+                                    "Longevity",
+                                    "KoreanDiet"
+                                ],
+                       "amazon_category":  "Food",
+                       "status":  "pending"
+                   },
+                   {
+                       "id":  31,
+                       "title":  "Korean Convenience Store Breakfast: What Locals Actually Buy",
+                       "keywords":  [
+                                        "Korean convenience store breakfast",
+                                        "Korean breakfast convenience store",
+                                        "GS25 breakfast",
+                                        "CU Korea breakfast",
+                                        "Korean triangle gimbap breakfast"
+                                    ],
+                       "category":  "Food",
+                       "tags":  [
+                                    "KoreanFood",
+                                    "ConvenienceStore",
+                                    "KoreanBreakfast",
+                                    "KoreaTravel",
+                                    "Seoul"
+                                ],
+                       "amazon_category":  "Food",
+                       "status":  "done",
+                       "generated_slug":  "171",
+                       "generated_date":  "2026-05-07"
+                   },
+                   {
+                       "id":  32,
+                       "title":  "Korea\u0027s New Tourist Shopping Route: Olive Young, Daiso, Musinsa, Pharmacies, and Skin Clinics",
+                       "keywords":  [
+                                        "Korea shopping route",
+                                        "Olive Young Korea tourists",
+                                        "Daiso Korea tourists",
+                                        "Musinsa Korea tourists",
+                                        "Korean pharmacies tourists",
+                                        "Korean skin clinics tourists"
+                                    ],
+                       "category":  "Travel",
+                       "tags":  [
+                                    "KoreaShopping",
+                                    "KBeauty",
+                                    "KoreaTravel",
+                                    "Seoul",
+                                    "OliveYoung"
+                                ],
+                       "amazon_category":  "Beauty",
+                       "status":  "done",
+                       "generated_slug":  "173",
+                       "generated_date":  "2026-05-18"
+                   },
+                   {
+                       "id":  33,
+                       "title":  "Seoul Heatwave Travel: How to Stay Cool in Korea\u0027s Summer",
+                       "keywords":  [
+                                        "Seoul heatwave travel",
+                                        "Korea summer travel",
+                                        "Seoul heat shelters",
+                                        "Korea summer packing"
+                                    ],
+                       "category":  "Travel",
+                       "tags":  [
+                                    "SeoulTravel",
+                                    "KoreaSummer",
+                                    "TravelTips",
+                                    "Heatwave"
+                                ],
+                       "amazon_category":  "Travel",
+                       "status":  "done",
+                       "generated_slug":  "183",
+                       "generated_date":  "2026-05-30"
+                   },
+                   {
+                       "id":  34,
+                       "title":  "Korean Four-Cut Photo Booths: Why Tiny Photo Strips Became a Travel Ritual",
+                       "keywords":  [
+                                        "Korean four cut photo booth",
+                                        "Life4Cut Korea",
+                                        "Photoism Seoul",
+                                        "Korean photo booth trend"
+                                    ],
+                       "category":  "Culture",
+                       "tags":  [
+                                    "KoreanCulture",
+                                    "PhotoBooth",
+                                    "SeoulTravel",
+                                    "Hallyu"
+                                ],
+                       "amazon_category":  "Shopping",
+                       "status":  "done",
+                       "generated_slug":  "184",
+                       "generated_date":  "2026-05-30"
+                   },
+                   {
+                       "id":  35,
+                       "title":  "Han River Nap Competition: What Seoul\u0027s Sleep Event Says About Korea",
+                       "keywords":  [
+                                        "Han River Nap Competition",
+                                        "Seoul sleep culture",
+                                        "Hangang nap competition",
+                                        "Korean rest culture"
+                                    ],
+                       "category":  "Culture",
+                       "tags":  [
+                                    "Seoul",
+                                    "KoreanCulture",
+                                    "Wellness",
+                                    "HanRiver"
+                                ],
+                       "amazon_category":  "Travel",
+                       "status":  "done",
+                       "generated_slug":  "185",
+                       "generated_date":  "2026-05-30"
+                   }
+               ],
+    "last_updated":  "2026-06-02",
+    "next_slug":  189
 }
+

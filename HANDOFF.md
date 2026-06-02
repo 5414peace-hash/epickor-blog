@@ -1,36 +1,1215 @@
 # HANDOFF - EpicKor Agent Teams v2
 
-## Latest Update - 2026-05-30 Card News 184 Final Assets Ready
+## Latest Update - 2026-06-02 Blogs 187/188 Drafted + Ready To Deploy
+
+- Representative approved continuing with new posts before Reels V2 production.
+- Created Blog 187:
+  - `content/blog/187.md`
+  - Title: `Korean Superstitions You Should Know Before Visiting Korea`
+  - Angle: practical travel/culture guide, framing superstitions as cultural signals rather than beliefs travelers must adopt.
+  - Local images added under `public/assets/images/posts/187/`:
+    - `korea-no-4th-floor-elevator.jpg`
+    - `red-pens.jpg`
+    - `korean-fans-timer.jpg`
+    - `image-sources.md`
+  - Rejected weak image candidates and documented them in `image-sources.md`.
+- Created Blog 188:
+  - `content/blog/188.md`
+  - Title: `Busan vs Seoul: Which Korean City Should You Visit First?`
+  - Angle: first-city decision guide, intentionally separated from `/blog/159` which is a broader best-places overview.
+  - Local images added under `public/assets/images/posts/188/`:
+    - `busan-haeundae-beach.jpg`
+    - `seoul-gyeongbokgung-palace.jpg`
+    - `busan-gamcheon-culture-village.jpg`
+    - `seoul-myeongdong-night-street.jpg`
+    - `image-sources.md`
+- Updated `content/data/topics-queue.json`:
+  - Topic id `22` marked done as slug `187`.
+  - Topic id `21` marked done as slug `188`.
+  - `next_slug` advanced to `189`.
+- Created local Reels V2 planning packages:
+  - `output/reels/187/reels-v2-brief.md`
+  - `output/reels/187/script.md`
+  - `output/reels/187/instagram-caption.txt`
+  - `output/reels/188/reels-v2-brief.md`
+  - `output/reels/188/script.md`
+  - `output/reels/188/instagram-caption.txt`
+- Verification:
+  - All 187/188 local image files exist.
+  - `npm.cmd run build` passed.
+  - `npm.cmd run audit:seo-aeo` completed with average score 68/100; no 187/188-specific report entries appeared in a targeted report search.
+  - Local `localhost:4000` returned 404 for 187/188 because the running dev server appears stale; build output is clean. For final verification, use deployment/public URL checks after commit/push.
+- Deployment note:
+  - Main worktree remains heavily dirty and is behind `origin/master`.
+  - Use a temporary worktree from `origin/master` and copy only intended deploy files for the 186-188 commit.
+
+## Latest Update - 2026-06-02 Blog 186 Honbap/Honsul Draft + Reels V2 Package
+
+- Image update:
+  - Representative noted that Blog 186 had only one image and that first-pass image suggestions often feel weak.
+  - Added a dedicated image folder: `public/assets/images/posts/186/`.
+  - Blog 186 now uses four local images:
+    - `honbap-noodles-seoul.jpg` - hero / solo cup-noodle scene with Korean packaging.
+    - `korean-soup-and-banchan-table.jpg` - bowl-based Korean meal / honbap-friendly foods.
+    - `korean-bbq-shared-table.jpg` - shared-table BBQ caution section.
+    - `korean-convenience-store-drink-fridge.jpg` - convenience-store solo meal system.
+  - Added `public/assets/images/posts/186/image-sources.md` with selected sources and rejected candidates.
+  - Rejected candidates included the Baemin app graphic because it carried another article's title, plus generic solo-eating photos without enough Korea-specific context.
+  - Verification after image update:
+    - All four local image files exist.
+    - `npm.cmd run build` passed.
+    - Local `http://localhost:4000/blog/186` returned HTTP 200.
+    - Rendered HTML included all four image path markers.
+- Representative approved proceeding with the new-post path after the duplicate ssamjang cleanup.
+- Created new Blog 186:
+  - `content/blog/186.md`
+  - `output/final/186_final.md`
+  - Title: `Eating Alone in Korea: The Honbap and Honsul Culture Rising`
+  - Topic source: existing pending queue item id `27`, now marked done.
+  - Strategy: solo dining / solo drinking / one-person household culture with strong Reels V2 hook and practical travel value.
+- Updated `content/data/topics-queue.json`:
+  - Topic id `27` is now `done`.
+  - `generated_slug`: `186`.
+  - `generated_date`: `2026-06-02`.
+  - `next_slug`: `187`.
+- Created Reels 186 V2 planning package:
+  - `output/reels/186/reels-v2-brief.md`
+  - `output/reels/186/script.md`
+  - `output/reels/186/instagram-caption.txt`
+- Reels V2 hook:
+  - `Eating alone in Korea used to feel awkward. Now it has a name.`
+  - Key terms: `honbap`, `honsul`, `honja meogeodo dwaeyo?`
+- Sources used in the post:
+  - Ministry of Data and Statistics one-person household release.
+  - Yonhap 2024 one-person household report.
+  - Time solo dining / single economy discussion.
+  - Pexels image for hero visual.
+- Verification:
+  - `content/data/topics-queue.json` parsed successfully.
+  - `npm.cmd run build` passed.
+  - `npm.cmd run audit:seo-aeo` completed; no 186-specific issue appeared in the report search.
+  - Local `http://localhost:4000/blog/186` returned HTTP 200.
+- Current status:
+  - Blog 186 is locally ready for representative review.
+  - Reels 186 is at V2 brief/script/caption stage only. Do not prepare visual assets/render until blog review/publish/public URL verification is handled or the representative explicitly skips that gate.
+
+## Correction - 2026-06-02 Duplicate Ssamjang 186 Removed
+
+- Representative correctly flagged that `What Is Ssamjang?` was already covered by existing post `083`.
+- The attempted duplicate new-post artifacts were removed:
+  - `content/blog/186.md`
+  - `output/final/186_final.md`
+  - `output/reels/186`
+- `content/data/topics-queue.json` was corrected:
+  - Removed the mistakenly added `What Is Ssamjang? Korea's Essential BBQ Sauce Explained` item.
+  - Restored `next_slug` to `186`.
+- Do not create a new ssamjang post as 186. If this topic is used again, improve or relaunch existing `content/blog/083-the-best-secret-sauce-found-only-in-korea-ssamjang.md` and make the Reel from Blog `083`.
+- `.claude/skills/reels/v2_style_guide.md` was kept because it is a general Reels V2 production improvement, not a duplicate-topic artifact.
+
+## Latest Update - 2026-06-02 Workspace Cleanup Before Card News
+
+- Cleaned the project before the next card-news batch.
+- Final Reels archive is now organized under `output/final/reels/{slug}/`:
+  - `EPICKOR_170.mp4` through `EPICKOR_184.mp4` are preserved.
+  - `instagram-caption.txt` is preserved alongside the final mp4 where an existing caption file was available (`172`-`184`).
+  - Reels `170` and `171` had no local `instagram-caption.txt`, so only their final mp4 files were archived.
+- Updated `input/approved_scripts.json` video paths for Reels `182`-`184` to the new final archive paths.
+- Removed bulky/intermediate artifacts:
+  - `output/reels`
+  - `output/cardnews`
+  - `public/assets/reels`
+  - `output/preview`
+  - `output/logs`
+  - stale `output/dev-server-4000.*.log`
+  - `.tmp`
+  - Meta helper runtime folders: `browser-profile`, `runs`, `__pycache__`
+  - stale `tools/meta-suite-helper/meta_schedule_queue.json`
+- Preserved `public/assets/cardnews` because it contains the public/final card PNGs and captions. Small production records such as scripts/source notes were left intact for traceability.
+- Post-cleanup size check:
+  - `output`: about 488 MB.
+  - `output/final/reels`: about 428 MB.
+  - `public/assets/reels`: removed / 0 files.
+  - `tools/meta-suite-helper`: code/README/example queue only, about 0.06 MB.
+
+## Latest Update - 2026-06-02 Blog 090/082 GSC Intent Patch Deployed
+
+- Completed deployment for the narrow GSC CTR/search-intent patch on:
+  - `content/blog/090-the-fascinating-debate-among-korean-women-what-do-you-call-an-unfamiliar-man.md`
+  - `content/blog/082-koreas-top-3-universities-what-you-need-to-know.md`
+- Deployment method:
+  - Main worktree was still heavily dirty and behind `origin/master`, so a temporary in-repo worktree was created at `.tmp/worktrees/gsc-090-082-deploy` from `origin/master`.
+  - Only Blog 090 and Blog 082 were copied into that worktree, committed, and pushed to `origin/master`.
+  - Temporary worktree was removed and the local temporary branch was deleted after push.
+- Commit:
+  - `42e8b4a` - `Improve GSC intent coverage for blogs 090 and 082`
+- Verification:
+  - `npm.cmd run build` passed in the temporary worktree.
+  - Built HTML/RSC contained the new Blog 090 quick answer, spelling variant section, and Indonesian query coverage.
+  - Built HTML/RSC contained the new Blog 082 quick answer and official-ranking/cultural-label section.
+  - Production checks returned HTTP 200:
+    - `https://www.epickor.com/blog/090`
+    - `https://www.epickor.com/blog/082`
+  - Production content confirmed:
+    - Blog 090: `Quick answer`, `Ahjussi, Ajeossi, Ajusshi, and Ahjusshi`, `ahjussi artinya apa`.
+    - Blog 082: `Quick answer`, `Is SKY an Official Ranking or a Cultural Label`, `SKY university ranking`, `/blog/039`.
+- Remaining state:
+  - Main local worktree is still behind `origin/master` and has many pre-existing dirty/untracked files. Do not blindly reset or pull over them.
+  - The 090/082 deployment itself is complete on `origin/master`.
+- Next recommended move:
+  - Pick and schedule/track the next 3-card-news batch for the Tuesday/Wednesday/Thursday rhythm, or start the next new post/Reels supply chain if card-news scheduling is already handled manually.
+
+## Latest Correction - 2026-06-02 Reels 182/183/184 Scheduled
+
+- Representative confirmed that Reels 182/183/184 were uploaded and scheduled manually after Meta Business Suite bulk upload stayed at `0%` across Chrome, Edge, and Naver Whale.
+- Scheduled Reels batch:
+  - Reels 182: scheduled for 2026-06-12.
+  - Reels 183: scheduled for 2026-06-13.
+  - Reels 184: scheduled for 2026-06-14.
+- Do not treat "upload/schedule the ready Reels 182/183/184 batch" as the next open action anymore.
+- Meta automation helper remains paused. Future automation work should resume only after a manual one-file Meta upload reaches `100%` in the same browser/account environment.
+- Next priority should shift back to GSC/content deployment and the card-news/Reels production backlog.
+
+## Session Close - 2026-06-01 18:15 KST
+
+- Completed this session:
+  - Confirmed GSC manual export location and today's folder convention:
+    - `output/gsc/https___www.epickor.com_-Performance-on-Search-2026-06-01/`
+  - Analyzed the 2026-06-01 GSC CSV export and generated:
+    - `output/strategy/week_2026W23.md`
+  - Recorded GSC interpretation:
+    - 533 clicks / 145,186 impressions / 0.37% CTR.
+    - Biggest CTR/search-intent priority remains `/blog/090`.
+    - `/blog/082` remains the second narrow CTR-intent candidate.
+    - `/blog/167` is a positive mover and should not be disturbed casually.
+  - Investigated and cleaned up temporary publish worktree:
+    - Removed `D:\dev\epickor-blog-publish-182` using `git worktree remove`.
+    - Verified the external folder and `.git/worktrees/epickor-blog-publish-182` were gone.
+    - Added prevention rules to `CLAUDE.md`.
+  - Improved GSC-backed existing posts:
+    - Blog 090: added quick answer, relationship decision table, spelling variants, Indonesian query coverage, and extra FAQ.
+    - Blog 082: added quick answer, singular/plural SKY query coverage, official-ranking/cultural-label section, search phrase table, internal link to `/blog/039`, CTA typo fix, and extra FAQ.
+- Verification:
+  - `npm.cmd run build` passed after Blog 090/082 edits.
+  - Built HTML confirmed new Blog 090 and Blog 082 sections rendered.
+- Current working state:
+  - Modified files from this session:
+    - `CLAUDE.md`
+    - `HANDOFF.md`
+    - `content/blog/090-the-fascinating-debate-among-korean-women-what-do-you-call-an-unfamiliar-man.md`
+    - `content/blog/082-koreas-top-3-universities-what-you-need-to-know.md`
+  - Existing broader dirty/untracked workspace remains and must not be reverted blindly.
+- Next session first moves:
+  1. Decide whether to commit/deploy the Blog 090/082 GSC intent patch.
+  2. If deploying, reconcile with the dirty main worktree carefully or use an in-repo temporary worktree under `.tmp/worktrees/...` / `.codex-deploy/...`, then remove it in the same session.
+  3. Operational priority remains upload/schedule the ready Reels 182/183/184 batch.
+- Blockers:
+  - None for today's local content edits.
+  - Deployment/commit still requires careful git handling because local `master` is behind `origin/master` and the workspace has many pre-existing dirty/untracked files.
+
+## Latest Update - 2026-06-01 GSC CTR Intent Patch for Blog 090 and 082
 
 - Trigger:
-  - Representative approved moving forward with the next task after the post 183-185 image corrections.
-- Selected task:
-  - Card news for Blog 184: `Korean Four-Cut Photo Booths`.
-- Completed:
-  - Created 7-card Instagram card-news script:
-    - `public/assets/cardnews/2026-05-30_184/script.md`
-  - Added seven Life4Cuts / 인생네컷 visual sources with no repeated image paths:
-    - `public/assets/cardnews/2026-05-30_184/sources/`
-  - Rendered 1080 x 1080 PNGs:
-    - `card_01.png` through `card_07.png`
-  - Added upload caption:
-    - `public/assets/cardnews/2026-05-30_184/caption.txt`
-  - Added source and visual QA docs:
-    - `image-sources.md`
-    - `visual-review.md`
-  - Updated card-news index:
-    - `public/assets/cardnews/CARDNEWS_INDEX.md`
+  - Representative asked whether the 2026-06-01 GSC report implies existing-post improvements or new direction, then approved improving the current priority pages.
+  - Representative also asked whether posts need a 200% content expansion.
+- Strategy judgment:
+  - 200% expansion is not recommended for these two posts because both already exceeded the 1,800-word quality threshold before editing:
+    - Blog 090: about 2,005 words before, about 2,384 after.
+    - Blog 082: about 1,958 words before, about 2,432 after.
+  - The better move was targeted intent coverage: quick-answer blocks, query-variant coverage, comparison tables, extra FAQ entries, and internal links.
+- Updated Blog 090:
+  - File: `content/blog/090-the-fascinating-debate-among-korean-women-what-do-you-call-an-unfamiliar-man.md`
+  - Added a top `Quick answer` paragraph for `ahjussi meaning`.
+  - Added a relationship-first decision table for `jeogiyo`, `oppa`, `samchon`, and `ahjussi`.
+  - Added a spelling/search variant section:
+    - `Ahjussi, Ajeossi, Ajusshi, and Ahjusshi: Are They Different?`
+  - Added coverage for Indonesian-language GSC variants:
+    - `ahjussi artinya apa`
+    - `ahjussi itu apa`
+    - `ahjussi adalah`
+  - Added FAQ entries for spelling variants and Indonesian search intent.
+- Updated Blog 082:
+  - File: `content/blog/082-koreas-top-3-universities-what-you-need-to-know.md`
+  - Added a top `Quick answer` paragraph for `SKY universities`.
+  - Added explicit coverage for singular/plural query variants:
+    - `sky university`
+    - `sky universities Korea`
+    - `sky university Korea`
+    - `sky universities in Korea`
+  - Added section:
+    - `Is SKY an Official Ranking or a Cultural Label?`
+  - Added a query-intent table clarifying that SKY is a cultural prestige acronym, not a complete field-by-field ranking.
+  - Added internal link to `/blog/039` for career/status context.
+  - Fixed a typo in the first affiliate CTA.
+  - Added FAQ entries for official-ranking, non-SKY university quality, and singular `sky university` search wording.
 - Verification:
-  - Structural review passed:
-    - 7 cards
-    - 7/7 image cards
-    - 0 consecutive image-free cards
-  - Manual PNG inspection passed.
-  - Visual review average score: `92.1`.
+  - `npm.cmd run build` passed.
+  - Built HTML confirmed the new 090 quick answer, spelling variant section, and Indonesian-language intent paragraph.
+  - Built HTML confirmed the new 082 quick answer, official-ranking section, search phrase table, and FAQ additions.
+- Next strategy note:
+  - Do not split Ahjussi/Oppa/Samchon into separate new posts yet. First let this hub-style 090 improvement collect GSC data.
+  - Monitor 090 and 082 CTR after enough fresh Search Console data accumulates.
+  - If 090 still gets large impressions with weak CTR, next step should be a SERP-title/meta experiment, not another body expansion.
+
+## Latest Update - 2026-06-01 GSC W23 Analysis Imported
+
+- Trigger:
+  - Representative placed the 2026-06-01 Google Search Console export at:
+    - `output/gsc/https___www.epickor.com_-Performance-on-Search-2026-06-01/`
+  - Representative asked to analyze it and reference it for next work.
+- Ran:
+  - `node .claude\skills\strategy\scripts\analyze-week.mjs --mode csv --input output\gsc`
+- Created:
+  - `output/strategy/week_2026W23.md`
+- Current GSC summary:
+  - 533 clicks / 145,186 impressions / 0.37% average CTR.
+  - Previous 2026-05-22 report was 407 clicks / 113,117 impressions / 0.36% average CTR.
+  - Net movement: +126 clicks, +32,069 impressions, CTR essentially flat.
+- Top current page opportunities:
+  - `/blog/090`: 54 clicks / 54,083 impressions / 0.10% CTR / position 6.55.
+  - `/blog/082`: 36 clicks / 19,536 impressions / 0.18% CTR / position 7.08.
+  - `/blog/071`: 57 clicks / 6,378 impressions / 0.89% CTR / position 6.08.
+  - `/blog/043`: 22 clicks / 5,938 impressions / 0.37% CTR / position 8.57.
+  - `/blog/167`: 47 clicks / 4,838 impressions / 0.97% CTR / position 7.82.
+- 2026-05-22 -> 2026-06-01 movement:
+  - Biggest impression gain: `/blog/090` +14,684 impressions and +22 clicks.
+  - Next largest gains: `/blog/082` +4,177 impressions, `/blog/167` +2,821 impressions and +31 clicks, `/blog/071` +1,785 impressions and +17 clicks.
+  - `/blog/167` is the strongest positive mover; do not disturb it casually.
+  - `/blog/090` remains the biggest CTR gap even after the 2026-05-22 refresh.
+- Query signals:
+  - Ahjussi cluster dominates: `ahjussi meaning`, `ahjussi`, `ahjussi in korean`, Indonesian-language variants, and related `samchon meaning`.
+  - SKY cluster remains strong: `sky university`, `sky university korea`, `sky universities`.
+  - Deli Manjoo cluster is gaining clicks: `deli manjoo`, `delimanjoo`, misspellings, and `deli manjoo recipe`.
+- Strategy interpretation:
+  - Do not launch another broad GSC top-50 rewrite pass yet because the top pages were refreshed/CTA-cleaned on 2026-05-22.
+  - Priority 1 remains operational: upload/schedule the ready Reels 182/183/184 batch.
+  - After that, run a narrow CTR/search-intent audit for `/blog/090` and `/blog/082`, not a full rewrite by default.
+  - Use `/blog/167` as a positive signal for social expansion or internal-link support, because it is gaining clicks and impressions.
+  - Monetization follow-up should focus on production/Amazon behavior spot-checks for high-fit pages like `/blog/160`, `/blog/153`, `/blog/008`, and `/blog/071`, rather than adding more CTA boxes.
+
+## Latest Update - 2026-06-01 Temporary Publish Worktree Cleanup
+
+- Trigger:
+  - Representative asked why `D:\dev\epickor-blog-publish-182` existed and requested cleanup plus a future prevention rule.
+- Cause confirmed:
+  - The folder was a temporary Git worktree created on 2026-05-31 21:25 KST from `origin/master`.
+  - It was used to publish Blog 182 without touching the dirty main worktree.
+  - Commit produced there: `9a559d7` - `Publish Korean work culture guide`.
+  - Commit scope was only:
+    - `content/blog/182.md`: `visibility: "private"` -> `visibility: "public"`.
+    - `content/data/topics-queue.json`: Blog 182 topic `in_progress` -> `done`.
+- Cleanup completed:
+  - Verified the temporary worktree had no uncommitted changes.
+  - Removed it with `git worktree remove D:\dev\epickor-blog-publish-182`.
+  - Verified `D:\dev\epickor-blog-publish-182` no longer exists.
+  - Verified `.git/worktrees/epickor-blog-publish-182` no longer exists.
+  - Verified `git worktree list --porcelain` now shows only:
+    - main worktree `D:/dev/epickor-blog`
+    - existing detached worktree `D:/dev/epickor-blog/.codex-deploy`
+- Prevention rule added:
+  - Updated `CLAUDE.md` so future temporary publish/deploy worktrees must be created inside the repo, such as `.tmp/worktrees/publish-{slug}` or `.codex-deploy/...`, and removed in the same session after deploy verification.
+
+## Latest Update - 2026-06-01 Reels 183 Render Candidate Ready
+
+- Follow-up:
+  - Representative confirmed the v003 watch-through.
+  - Created `output/reels/183/upload-package.md`.
+  - Current 3-Reel upload batch is now ready:
+    - Reels 182: `output/reels/182/render/epickor-reel-182-v001.mp4`
+    - Reels 183: `output/reels/183/render/epickor-reel-183-v003.mp4`
+    - Reels 184: `output/reels/184/render/epickor-reel-184-v001.mp4`
+  - Next action: upload/schedule the 182/183/184 batch according to the publishing workflow.
+
+- Trigger:
+  - Representative submitted the refreshed Reels 183 visual review.
+- Visual status:
+  - `output/reels/183/scenes.json` is `visuals_approved`.
+  - `output/reels/183/approved-visuals.json` has `finalizedAt`.
+  - After render QA, Scene 4's Cheonggyecheon support image was removed because it repeated the Scene 3 motion-card background; Scene 4 now uses Gwanghwamun + DDP only.
+- Production completed:
+  - Created scene-level TTS v001 for all 7 scenes.
+  - Ran `npm.cmd run reels:prepare-assets -- --slug 183`.
+  - Added slug `183` caption beat overrides and Scene 6 caption start override in `.claude/skills/reels/scripts/build-remotion-props.mjs`.
+  - Ran `npm.cmd run reels:props -- --slug 183 --audio-version v001`.
+  - Ran `npm.cmd run reels:validate -- --slug 183 --require-scene-audio` successfully.
+- Recommended render:
+  - `output/reels/183/render/epickor-reel-183-v003.mp4`
+  - Duration: `37.013s`
+  - Size: `32,855,061` bytes
+  - Evaluation: `output/reels/183/evaluation/evaluation-v003.md`
+  - Contact sheet: `output/reels/183/evaluation/contact-v003.jpg`
+  - Scene grid: `output/reels/183/evaluation/scene-grid-v003.jpg`
+  - Final frame: `output/reels/183/evaluation/final-frame-v003.jpg`
+  - Machine findings: none
+  - Score: `93.2 / 100`, Band `A`
+- QA notes:
+  - Final frame shows `epickor.com` only.
+  - Exactly 2 motion-card scenes remain: Scene 3 and Scene 6.
+  - Duplicate-image issue is improved in v003.
 - Current stage:
-  - **Blog 184 card-news assets are final and ready for representative-managed Instagram upload.**
+  - **Reels 183 upload package is ready.**
+  - **Reels 182/183/184 are ready as a 3-item upload batch.**
 - Next action:
-  - Commit and push card-news assets to `origin/master`.
+  - Upload/schedule the 182/183/184 batch according to the publishing workflow.
+
+## Latest Update - 2026-06-01 Reels 183 Duplicate Feedback / Replacement Candidates Ready
+
+- Trigger:
+  - Representative submitted the Reels 183 visual pass and noted that duplicate images were still too frequent.
+- Submitted review status:
+  - `output/reels/183/scenes.json` is `replacement_requested`.
+  - `output/reels/183/review-pass.json` is `replacement_sourcing_needed`.
+  - Replacement scenes are Scene 2, Scene 5, and Scene 7.
+- Main repetition issues:
+  - Scene 2 reused the Scene 1 midday shade/fan image.
+  - Scene 5 candidates either overlapped with Scene 2 or did not clearly show subway/underground cooling.
+  - Scene 7 reused the same night public-space texture already used around Scene 3/4.
+- Replacement sourcing completed:
+  - Added generated/owned replacement candidates:
+    - `public/assets/reels/183/candidates/scene-02-cafe-cool-stop-a.png`
+    - `public/assets/reels/183/candidates/scene-02-convenience-cool-stop-b.png`
+    - `public/assets/reels/183/candidates/scene-05-subway-entrance-a.png`
+    - `public/assets/reels/183/candidates/scene-05-underground-arcade-b.png`
+    - `public/assets/reels/183/candidates/scene-07-hangang-evening-a.png`
+    - `public/assets/reels/183/candidates/scene-07-hotel-reset-b.png`
+  - Updated `output/reels/183/visual-candidates.json` with new pending candidate IDs:
+    - Scene 2: `183-2-d`, `183-2-e`
+    - Scene 5: `183-5-d`, `183-5-e`
+    - Scene 7: `183-7-d`, `183-7-e`
+  - Marked superseded/repeated options as `rejected` while preserving them for traceability.
+  - Updated `output/reels/183/replacement-requests.json` to `replacement_candidates_ready`.
+- Verification:
+  - `scenes.json`, `visual-candidates.json`, and `replacement-requests.json` parse successfully.
+  - `http://127.0.0.1:4000/api/reels/183/visuals` returned `200` with next step for scenes `2, 5, 7`.
+  - `http://127.0.0.1:4000/reels-review/183` returned `200`.
+- Current stage:
+  - **Reels 183 needs one more representative review pass for refreshed Scene 2, Scene 5, and Scene 7 candidates.**
+  - Do not generate TTS or render until visual review is finalized.
+- Next action:
+  - Representative reviews `http://127.0.0.1:4000/reels-review/183`.
+  - Rank/finalize the refreshed candidates for Scene 2, Scene 5, and Scene 7.
+  - Submit/finalize visual review before TTS/render.
+
+## Latest Update - 2026-06-01 Reels 183 Visual Review Ready
+
+- Trigger:
+  - Representative approved proceeding after Reels 184 upload package and asked to continue.
+- Reels 184:
+  - Upload package is complete:
+    - `output/reels/184/upload-package.md`
+- Reels 183 started:
+  - Chosen next target: Blog 183, `Seoul Heatwave Travel: How to Stay Cool in Korea's Summer`.
+  - Strategy reason:
+    - It is already public.
+    - It is timely for June/summer travel.
+    - It has a strong saveable travel-tip hook.
+    - It gives the current Reels batch a different visual/subject texture from Reels 182 and 184.
+  - Created Reels 183 project files:
+    - `output/reels/183/strategy.md`
+    - `output/reels/183/script.md`
+    - `output/reels/183/scenes.json`
+    - `output/reels/183/visual-candidates.json`
+    - `output/reels/183/motion-cards.json`
+    - `output/reels/183/source-notes.md`
+    - `output/reels/183/review.md`
+    - `output/reels/183/instagram-caption.txt`
+  - Localized Blog 183 source images under:
+    - `public/assets/reels/183/candidates/`
+  - Added generated/owned utility images for gaps in the source set:
+    - `seoul-midday-shade-fan.png`
+    - `seoul-subway-cooling-break.png`
+    - `seoul-summer-daypack-flatlay.png`
+  - Creative direction:
+    - Working title: `Seoul Summer Is Not A Toughness Test`.
+    - Hook: Seoul summer is not a toughness test; it is a route-design problem.
+    - Exactly two motion-card insert scenes planned:
+      - Scene 3: heat-zone day planner.
+      - Scene 6: cooling-kit checklist.
+- Verification:
+  - `scenes.json`, `visual-candidates.json`, and `motion-cards.json` parse successfully.
+  - All localized `/assets/reels/183/candidates/` image files exist.
+  - `http://127.0.0.1:4000/api/reels/183/visuals` returned `200`.
+  - `http://127.0.0.1:4000/reels-review/183` returned `200`.
+  - API payload reports:
+    - `status=visual_review_pending`
+    - `scenes=7`
+    - `candidateScenes=7`
+    - `motionCards=4`
+- Current stage:
+  - **Reels 183 is ready for representative visual review.**
+  - Do not generate TTS or render until visual and motion-card approvals are finalized.
+- Next action:
+  - Representative reviews `http://127.0.0.1:4000/reels-review/183`.
+  - Rank at least two visuals for normal image scenes.
+  - Approve exactly one motion-card option for Scene 3 and Scene 6.
+  - Submit/finalize visual review before TTS/render.
+
+## Latest Update - 2026-06-01 Reels 184 Upload Package Ready / Next Reels 183
+
+- Trigger:
+  - Representative confirmed Reels 184 v001 after watch-through.
+- Visual review:
+  - `output/reels/184/scenes.json` status is now `visuals_approved`.
+  - `output/reels/184/approved-visuals.json` has `finalizedAt=2026-06-01T05:12:24.259Z`.
+  - Scene 4 finalized with the original booth fallback plus generated replacement backups:
+    - primary: `/assets/reels/184/candidates/life4cuts-houston-booth.jpg`
+    - backups: `/assets/reels/184/candidates/scene-04-pose-props-b.png`, `/assets/reels/184/candidates/scene-04-pose-laugh-a.png`
+  - Scene 7 finalized with generated replacement candidates:
+    - primary: `/assets/reels/184/candidates/scene-07-hands-strip-a.png`
+    - backup: `/assets/reels/184/candidates/scene-07-flatlay-keepsake-b.png`
+- Completed production steps:
+  - Created scene-level voiceover text files:
+    - `output/reels/184/voiceover-v001-scene-01.txt` through `voiceover-v001-scene-07.txt`
+  - Generated ElevenLabs scene audio:
+    - `output/reels/184/audio/narration-v001-scene-01.mp3` through `narration-v001-scene-07.mp3`
+    - mirrored under `public/assets/reels/184/audio/`
+  - Ran asset prep:
+    - `npm.cmd run reels:prepare-assets -- --slug 184`
+  - Built props with explicit audio version:
+    - `npm.cmd run reels:props -- --slug 184 --audio-version v001`
+  - Added slug `184` caption beat overrides in `.claude/skills/reels/scripts/build-remotion-props.mjs` after validation caught sentence-boundary and line-length issues.
+  - Validation passed:
+    - `npm.cmd run reels:validate -- --slug 184 --require-scene-audio`
+  - Rendered v001:
+    - `output/reels/184/render/epickor-reel-184-v001.mp4`
+    - Duration: `36.544s`
+    - Size: `31,016,296 bytes`
+    - Video/audio: H264 1080x1920 30fps + AAC 48kHz stereo
+  - Evaluated v001:
+    - `output/reels/184/evaluation/evaluation-v001.md`
+    - `output/reels/184/evaluation/contact-v001.jpg`
+    - `output/reels/184/evaluation/scene-grid-v001.jpg`
+    - `output/reels/184/evaluation/final-frame-v001.jpg`
+- Evaluation:
+  - Score: `89.4/100`.
+  - Hard gates: none found.
+  - Final frame confirms only `epickor.com` appears.
+  - Main watch-through caveat: `life4cuts-photo-strips.jpg` still repeats in Scene 1, Scene 2, and the Scene 6 motion-card background.
+- Current stage:
+  - **Reels 184 is upload-package-ready.**
+  - Upload package:
+    - `output/reels/184/upload-package.md`
+  - Current ready Reels upload packages:
+    - Reels 182: `output/reels/182/upload-package.md`
+    - Reels 184: `output/reels/184/upload-package.md`
+- Next action:
+  - Prepare the third Reel for the current batch.
+  - Recommended next target: Blog 183, `Seoul Heatwave Travel: How to Stay Cool in Korea's Summer`.
+  - Reason: public post, timely summer utility, strong travel-save hook, and naturally different visual texture from Reels 182/184.
+  - Build Reels 183 visual-review package first; do not TTS/render until representative visual approval is saved.
+
+## Latest Update - 2026-06-01 Reels 184 Duplicate Feedback / Replacement Candidates Ready
+
+- Trigger:
+  - Representative submitted the Reels 184 visual pass and noted that too many images felt duplicated.
+- Submitted review status:
+  - `output/reels/184/scenes.json` is `replacement_requested`.
+  - `output/reels/184/review-pass.json` is `replacement_sourcing_needed`.
+  - Replacement scenes are Scene 4 and Scene 7.
+  - Main repetition risk: `life4cuts-photo-strips.jpg` is used heavily across the first submitted pass.
+- Replacement sourcing completed:
+  - Added generated/owned replacement candidates:
+    - `public/assets/reels/184/candidates/scene-04-pose-laugh-a.png`
+    - `public/assets/reels/184/candidates/scene-04-pose-props-b.png`
+    - `public/assets/reels/184/candidates/scene-07-hands-strip-a.png`
+    - `public/assets/reels/184/candidates/scene-07-flatlay-keepsake-b.png`
+  - Updated `output/reels/184/visual-candidates.json` with new pending candidate IDs:
+    - Scene 4: `184-4-c`, `184-4-d`
+    - Scene 7: `184-7-c`, `184-7-d`
+  - Marked the repeated Scene 4/7 strip/brand candidates as superseded/rejected for the refresh.
+  - Updated `output/reels/184/replacement-requests.json` to `replacement_candidates_ready`.
+- Current stage:
+  - **Reels 184 needs one more representative review pass for the refreshed Scene 4 and Scene 7 candidates.**
+  - Do not generate TTS or render until visual review is finalized.
+- Next action:
+  - Representative reviews `http://127.0.0.1:4000/reels-review/184`.
+  - Rank the refreshed candidates for Scene 4 and Scene 7.
+  - Check whether Scene 2 should move from the repeated strip image to its backup brand image to reduce repetition.
+  - Submit/finalize visual review before TTS/render.
+
+## Latest Update - 2026-06-01 Reels 182 Upload Package / Reels 184 Visual Review Ready
+
+- Trigger:
+  - Representative accepted moving on after Reels 182 v001 and asked to proceed with the next work.
+- Reels 182 completed:
+  - Created upload package:
+    - `output/reels/182/upload-package.md`
+  - Final upload candidate:
+    - `output/reels/182/render/epickor-reel-182-v001.mp4`
+  - Status:
+    - **Reels 182 is upload-package-ready.**
+- Reels 184 started:
+  - Chosen next target: Blog 184, `Korean Four-Cut Photo Booths: Why Tiny Photo Strips Became a Travel Ritual`.
+  - Strategy reason:
+    - It is already public.
+    - It has strong visual/social hook potential.
+    - The topic connects travel, Hallyu, printed keepsakes, and Korean daily-life ritual.
+    - It continues the next-social-distribution path from the public 183-185 posts.
+  - Created Reels 184 project files:
+    - `output/reels/184/strategy.md`
+    - `output/reels/184/script.md`
+    - `output/reels/184/scenes.json`
+    - `output/reels/184/visual-candidates.json`
+    - `output/reels/184/motion-cards.json`
+    - `output/reels/184/source-notes.md`
+    - `output/reels/184/review.md`
+    - `output/reels/184/instagram-caption.txt`
+  - Localized Life4Cuts source images under:
+    - `public/assets/reels/184/candidates/`
+  - Creative direction:
+    - Working title: `Korea Turned Photo Booths Into A Ritual`.
+    - Hook: four-cut booths are not just tiny souvenirs; they are a five-minute ritual.
+    - Exactly two motion-card insert scenes planned:
+      - Scene 3: tiny studio kit.
+      - Scene 6: practical frame/QR/strip checklist.
+- Verification:
+  - `scenes.json`, `visual-candidates.json`, and `motion-cards.json` parse successfully.
+  - All localized `/assets/reels/184/candidates/` image files exist.
+  - `http://127.0.0.1:4000/api/reels/184/visuals` returned `200`.
+  - `http://127.0.0.1:4000/reels-review/184` returned `200`.
+  - API payload reports:
+    - `status=visual_review_pending`
+    - `scenes=7`
+    - `candidateScenes=7`
+    - `motionCards=4`
+- Current stage:
+  - **Reels 184 is ready for representative visual review.**
+  - Do not generate TTS or render until visual and motion-card approvals are finalized.
+- Next action:
+  - Representative reviews `http://127.0.0.1:4000/reels-review/184`.
+  - Rank at least two visuals for normal image scenes.
+  - Approve exactly one motion-card option for Scene 3 and Scene 6.
+  - Submit/finalize visual review before TTS/render.
+
+## Latest Update - 2026-06-01 Reels 182 v001 Render Candidate Ready
+
+- Trigger:
+  - Representative submitted/finalized Reels 182 visual review after Scene 4 generated candidates were added.
+- Visual review:
+  - `output/reels/182/scenes.json` status is now `visuals_approved`.
+  - `output/reels/182/approved-visuals.json` has `finalizedAt`.
+  - Scene 4 finalized with generated local candidates:
+    - primary: `/assets/reels/182/candidates/scene-04-nunchi-room-a.png` (`182-4-c`)
+    - backups: `/assets/reels/182/candidates/scene-04-nunchi-room-b.png`, `/assets/reels/182/candidates/scene-04-nunchi-room-c.png`
+- Completed production steps:
+  - Created scene-level voiceover text files:
+    - `output/reels/182/voiceover-v001-scene-01.txt` through `voiceover-v001-scene-07.txt`
+  - Generated ElevenLabs scene audio:
+    - `output/reels/182/audio/narration-v001-scene-01.mp3` through `narration-v001-scene-07.mp3`
+    - mirrored under `public/assets/reels/182/audio/`
+  - Ran asset prep:
+    - `npm.cmd run reels:prepare-assets -- --slug 182`
+  - Built props with explicit audio version:
+    - `npm.cmd run reels:props -- --slug 182 --audio-version v001`
+  - Added slug `182` caption beat overrides in `.claude/skills/reels/scripts/build-remotion-props.mjs` after validation caught sentence-boundary and line-length issues.
+  - Validation passed:
+    - `npm.cmd run reels:validate -- --slug 182 --require-scene-audio`
+  - Rendered v001:
+    - `output/reels/182/render/epickor-reel-182-v001.mp4`
+  - Evaluated v001:
+    - `output/reels/182/evaluation/evaluation-v001.md`
+    - `output/reels/182/evaluation/evaluation-v001.json`
+    - `output/reels/182/evaluation/contact-v001.jpg`
+    - `output/reels/182/evaluation/scene-grid-v001.jpg`
+- Evaluation judgment:
+  - Score recorded as `89.6/100`.
+  - No machine/render hard gate is visible.
+  - Strong watch-through candidate, but just below strict 90+ benchmark due to Scene 1/3 stock-office feel and Scene 7 length.
+- Current stage:
+  - **Reels 182 v001 is ready for representative watch-through review.**
+  - Do not create upload package until representative approves v001 or requests a v002 polish.
+- Next action:
+  - Representative watches `output/reels/182/render/epickor-reel-182-v001.mp4`.
+  - If approved, create upload package.
+  - If strict 90+ is required, make v002 by improving Scene 1/3 Korean-office specificity and/or tightening Scene 7.
+
+## Latest Update - 2026-06-01 Reels 182 Scene 4 Replacement Candidates Ready
+
+- Trigger:
+  - Representative approved proceeding from the handoff recommendation to resolve the Reels 182 Scene 4 blocker.
+- Completed:
+  - Generated three owned/project-local vertical Korean-office meeting candidates for Scene 4 (`Nunchi is the skill underneath it...`):
+    - `public/assets/reels/182/candidates/scene-04-nunchi-room-a.png`
+    - `public/assets/reels/182/candidates/scene-04-nunchi-room-b.png`
+    - `public/assets/reels/182/candidates/scene-04-nunchi-room-c.png`
+  - Updated `output/reels/182/visual-candidates.json`:
+    - source refresh now records `korean_office_targeted_v3_scene4_generated`.
+    - added generated candidates `182-4-c`, `182-4-d`, and `182-4-e`.
+    - marked weak solo-desk candidate `182-4-b` as superseded/rejected instead of `replace_needed`.
+  - Updated Reels 182 status/supporting notes:
+    - `output/reels/182/scenes.json`
+    - `output/reels/182/replacement-requests.json`
+    - `output/reels/182/review-pass.json`
+    - `output/reels/182/source-notes.md`
+    - `output/reels/182/review.md`
+    - `output/reels/182/creative-score.md`
+- Current stage:
+  - Blog 182 is public and production-verified.
+  - Reels 182 Scene 4 replacement sourcing is no longer blocked.
+  - Reels 182 is still not visual-finalized; generated candidates require representative ranking/review in `/reels-review/182`.
+- Next action:
+  - Open/review `http://127.0.0.1:4000/reels-review/182`.
+  - Rank at least one generated Scene 4 candidate, likely `182-4-c` first if it feels realistic enough.
+  - Finalize visual review only after Scene 4 feels acceptable.
+- Blocker:
+  - Do not generate TTS or render until visual review is finalized.
+
+## Latest Update - 2026-05-31 Blog 182 Published / Reels 182 Korean-Office Source Refresh
+
+- Trigger:
+  - Representative pointed out that `https://www.epickor.com/blog/182` did not exist yet and asked to publish Blog 182 first.
+  - Representative also rejected the first Reels 182 visual sample because too many source images felt foreign/global-office rather than Korean office.
+- Blog 182 completed:
+  - Updated `content/blog/182.md` from `visibility: "private"` to `visibility: "public"`.
+  - Updated `content/data/topics-queue.json` topic ID 15 / generated slug 182 from `in_progress` to `done`.
+  - Local verification:
+    - `http://127.0.0.1:4000/blog/182` returned `200`.
+    - Local page contained the title marker, affiliate CTA marker, and all three source image markers.
+    - `npm.cmd run build` passed.
+  - Scoped deploy:
+    - Used temporary worktree `D:\dev\epickor-blog-publish-182` from `origin/master` to avoid touching the dirty main worktree.
+    - Commit pushed to `origin/master`: `9a559d7` - `Publish Korean work culture guide`.
+  - Production verification:
+    - `https://www.epickor.com/blog/182` returned `200 OK`.
+    - Production HTML confirmed title marker, `affiliate-inline-cta`, and image markers for Pexels 7845232, 8547226, and 31663813.
+- Reels 182 updated:
+  - Refreshed `output/reels/182/visual-candidates.json` with `korean_office_targeted_v2` source direction:
+    - Asian/Korean-feeling office worker and coworker candidates.
+    - Seoul night/office-city candidates for the two-clock and outro context.
+    - Korea-first hoesik visuals: Korean fried chicken in Seoul/Suwon, soju/chicken, Seoul bar/neon, Korean restaurant interior.
+  - Refreshed `output/reels/182/motion-cards.json` so motion-card backgrounds now use Seoul night and Asian office phone-pressure imagery.
+  - Updated:
+    - `output/reels/182/source-notes.md`
+    - `output/reels/182/creative-score.md`
+    - `output/reels/182/review.md`
+  - Validation:
+    - `scenes.json`, `visual-candidates.json`, and `motion-cards.json` parse successfully.
+    - `http://127.0.0.1:4000/api/reels/182/visuals` returned `200`.
+    - `http://127.0.0.1:4000/reels-review/182` returned `200`.
+    - Core refreshed image URLs checked with `curl.exe -I` and returned `200 OK`.
+- Current stage:
+  - Blog 182 is public.
+  - Reels 182 is still in visual-review preparation, not final-approved.
+  - Do not generate TTS/render until representative approves/ranks visuals or asks to proceed despite the visual-review gate.
+- Remaining caveat:
+  - The refreshed office sources are better, but many office interiors are still not explicitly Korea-shot. For a true 90+ benchmark, consider generated/owned Korean-office scenes for after-hours phone pressure and meeting hierarchy.
+- Next action:
+  - Representative reviews `http://127.0.0.1:4000/reels-review/182`.
+  - If the refreshed sources still feel too generic, generate or source owned Korean-office visuals before finalizing Reels 182.
+
+### 2026-05-31 End-of-Day Note - Reels 182 Review Submitted Again
+
+- Representative submitted the refreshed Reels 182 visual review pass again and asked to stop for today, then finish tomorrow.
+- Current Reels 182 status:
+  - `output/reels/182/scenes.json` status is `replacement_requested`.
+  - `output/reels/182/review-pass.json` status is `replacement_sourcing_needed`.
+- Approved/selected direction:
+  - Scene 1: ranked two visuals, primary `182-1-b`.
+  - Scene 2: motion card approved `182-2-motion-a` (`zone_compare`).
+  - Scene 3: ranked two visuals, primary `182-3-a`.
+  - Scene 5: motion card approved `182-5-motion-a` (`receipt_stack`).
+  - Scene 6: ranked three Korea/hoesik visuals, primary `182-6-b`.
+  - Scene 7: ranked two Seoul outro visuals, primary `182-7-c`.
+- Remaining blocker for tomorrow:
+  - Scene 4 (`Nunchi is the skill underneath it...`) needs replacement sourcing.
+  - Current Scene 4 has only one ranked visual (`182-4-a` at rank 3) and replacement requested for `182-4-b`.
+  - Tomorrow's first action: source stronger Korean/Asian office "read the room" / subtle social pressure visuals for Scene 4, update `visual-candidates.json`, then ask representative to review/finalize `/reels-review/182`.
+- Do not generate TTS/render until Scene 4 replacement is resolved and visual review is finalized.
+
+## Latest Update - 2026-05-31 Reels Outro Rule / Reels 182 v2 Creative Sample
+
+- Trigger:
+  - Representative clarified that Reels outros should use `epickor.com` only, not post-specific paths such as `/blog/184`, because viewers cannot click those paths inside the video frame.
+  - Representative asked to rethink Reels quality and start a stronger sample from 182 before continuing 182-184.
+- Completed:
+  - Added the `epickor.com`-only outro rule to:
+    - `CLAUDE.md`
+    - `.claude/agents/reels-team/AGENT.md`
+    - `.claude/skills/reels/design_system.md`
+  - Created a v2 creative sample package for Reels 182:
+    - `output/reels/182/strategy.md`
+    - `output/reels/182/script.md`
+    - `output/reels/182/scenes.json`
+    - `output/reels/182/visual-candidates.json`
+    - `output/reels/182/motion-cards.json`
+    - `output/reels/182/source-notes.md`
+    - `output/reels/182/creative-score.md`
+    - `output/reels/182/review.md`
+    - `output/reels/182/instagram-caption.txt`
+  - Creative direction:
+    - Working title: `The Korean Office Has Two Clocks`.
+    - Hook: `In a Korean office, 6 PM can mean two different things...`
+    - Core metaphor: official clock vs emotional clock.
+    - Motion-card scenes: Scene 2 two-clock contrast and Scene 5 allowed-vs-safe overtime contrast.
+- Current stage:
+  - Reels 182 is a creative sample, not production-ready.
+  - `content/blog/182.md` is still `visibility: private`.
+  - No TTS/render should begin until the source-post gate is cleared or the representative explicitly approves the exception.
+- Blocker:
+  - Current office visual candidates are useful for sample review but not Korea-specific enough for a 90+ final benchmark.
+- Next action:
+  - Representative reviews the 182 v2 concept/script/motion-card direction.
+  - If approved, source stronger Korea-specific or generated/owned office visuals, then open `/reels-review/182` for visual ranking.
+
+## Latest Update - 2026-05-30 Posts 183-185 Deployed / Image Fixes Finalized
+
+- Correction:
+  - The previous top handoff entry is stale. Posts 183-185 are no longer merely "ready for deploy"; they were committed, pushed to `origin/master`, deployed, and production URLs were verified.
+- Published/deployed posts:
+  - `https://www.epickor.com/blog/183` - `Seoul Heatwave Travel: How to Stay Cool in Korea's Summer`
+  - `https://www.epickor.com/blog/184` - `Korean Four-Cut Photo Booths: Why Tiny Photo Strips Became a Travel Ritual`
+  - `https://www.epickor.com/blog/185` - `Hangang Space-Out Competition: Why Seoul Turns Doing Nothing Into Culture`
+- Deployment commits on `origin/master`:
+  - `d79edd1` - Add three fresh Korea culture posts
+  - `e15d441` - Fix images for posts 183-185
+  - `29a5e51` - Refresh post images with stronger matches
+  - `00b16f4` - Refine images for posts 183 and 184
+  - `00802bf` - Add Seoul summer night images to post 183
+- Final image status:
+  - 183 confirmed with Seoul summer/night street visuals, including Hongdae, DDP summer night, Cheonggyecheon Outdoor Library, and Gwanghwamun Outdoor Library imagery.
+  - 184 confirmed with four Life4cuts / 인생네컷-related images.
+  - 185 confirmed with Hangang / Space-Out Competition imagery.
+- Verification:
+  - Reviewer passed 183/184/185 at 100/100 after final image adjustments.
+  - `npm.cmd run build` passed after the 183 final image update.
+  - Production HTML markers were verified for the final 183/184/185 image sets.
+- Worktree note:
+  - The main local worktree is behind `origin/master` and contains many pre-existing dirty/untracked changes. Future scoped deploys should continue using a temporary worktree or first reconcile carefully without reverting user work.
+- Next action:
+  - Best next production move is social distribution from the now-confirmed public posts, especially a Reels/card-news package for post 184 first, then 183 or 185 depending on the desired calendar slot.
+
+## Latest Update - 2026-05-30 New Posts 183-185 Published Locally / Ready For Deploy
+
+- Trigger:
+  - Representative asked to create three new posts with fresh, novel topics and complete commit/deploy.
+- Completed:
+  - Created three public posts:
+    - `content/blog/183.md` - `Seoul Heatwave Travel: How to Stay Cool in Korea's Summer`
+    - `content/blog/184.md` - `Korean Four-Cut Photo Booths: Why Tiny Photo Strips Became a Travel Ritual`
+    - `content/blog/185.md` - `Han River Nap Competition: What Seoul's Sleep Event Says About Korea`
+  - Topic strategy:
+    - 183 uses Seoul's 2026 heatwave-response expansion as a timely travel utility topic.
+    - 184 uses Korea's four-cut photo booth culture as a social/Hallyu/travel ritual topic.
+    - 185 uses the May 2, 2026 Hangang Nap Competition as a fresh culture/wellness angle.
+  - Added all three topics to `content/data/topics-queue.json` as done and advanced `next_slug` to `186`.
+  - Each post includes:
+    - public frontmatter
+    - 2+ images
+    - internal links
+    - latest source links
+    - 2 affiliate CTA opportunities / Amazon-enabled monetization
+    - FAQ using reviewer-compatible `**Q:**` format
+- Verification:
+  - Reviewer Agent passed all three posts at `100/100`:
+    - 183: 1,839 words, 7 H2s, 2 images, 5 FAQ Q&As.
+    - 184: 1,805 words, 7 H2s, 2 images, 5 FAQ Q&As.
+    - 185: 1,809 words, 6 H2s, 2 images, 5 FAQ Q&As.
+  - `npm.cmd run build` passed.
+  - Static build output exists for:
+    - `.next/server/app/blog/183.html`
+    - `.next/server/app/blog/184.html`
+    - `.next/server/app/blog/185.html`
+  - Static HTML inspection confirmed titles, OG metadata, image optimization references, affiliate sections, and FAQ content are present.
+- Current stage:
+  - Ready to commit selected files and deploy.
+- Next action:
+  - Commit only the scoped new-post files, push `master`, then verify production URLs:
+    - `https://www.epickor.com/blog/183`
+    - `https://www.epickor.com/blog/184`
+    - `https://www.epickor.com/blog/185`
+
+## Latest Update - 2026-05-29 Instagram Caption Audit
+
+- Trigger:
+  - Representative asked to verify Reels 176-181 Instagram captions and all card-news caption txt files before/around scheduled uploads.
+- Completed:
+  - Confirmed Reels 176-181 all have `output/reels/{slug}/instagram-caption.txt`.
+  - Corrected Reels 181 `instagram-caption.txt` from 7 hashtags to 5 hashtags:
+    - `#KoreanWebtoon #Webtoon #Manhwa #KDrama #EpicKor`
+  - Confirmed Reels 176-181 `upload-package.md` primary/backup caption blocks also use 5 hashtags.
+  - Confirmed every card-news folder under `public/assets/cardnews/` has `caption.txt`.
+  - Updated card-news captions so each `caption.txt` now has:
+    - exactly 5 hashtags
+    - 2-4 emoji/pictographic markers
+- Verification:
+  - Node audit passed with `BAD_COUNT=0`.
+  - Reels hashtag check passed for slugs 176, 177, 178, 179, 180, and 181.
+  - Card-news caption check passed for all current `public/assets/cardnews/*/caption.txt` files.
+- Next action:
+  - Use the existing caption txt files directly for scheduled Instagram uploads.
+
+## Latest Update - 2026-05-29 Instagram Scheduling Extended
+
+- Trigger:
+  - Representative confirmed Instagram scheduling is completed through 2026-06-10.
+- Status:
+  - **Instagram uploads are scheduled through Wednesday 2026-06-10.**
+  - Treat prepared assets within this window as scheduled, not pending upload.
+- Next action:
+  - Continue production planning from the next unscheduled slot after 2026-06-10.
+
+## Latest Update - 2026-05-29 Instagram Scheduling Confirmed
+
+- Trigger:
+  - Representative confirmed Instagram scheduling is complete.
+- Schedule note:
+  - Scheduled for this week:
+    - Friday 2026-05-29
+    - Saturday 2026-05-30
+    - Sunday 2026-05-31
+  - Scheduled for next week:
+    - Friday 2026-06-05
+    - Saturday 2026-06-06
+- Status:
+  - **Current prepared Reel assets for this scheduling batch should be treated as scheduled, not pending upload.**
+- Next action:
+  - Continue production planning from the next unscheduled content slot.
+
+## Latest Update - 2026-05-29 Reels 180 Confirmed / Upload Package Ready
+
+- Trigger:
+  - Representative confirmed Reels 180 v002 after reviewing the narration translation and final candidate.
+- Completed:
+  - Created upload package:
+    - `output/reels/180/upload-package.md`
+  - Final confirmed asset:
+    - `output/reels/180/render/epickor-reel-180-v002.mp4`
+- Status:
+  - **Reels 180 is upload-package-ready.**
+- Next action:
+  - Upload the v002 MP4 to Instagram as a Reel using the caption in `output/reels/180/upload-package.md` or `output/reels/180/instagram-caption.txt`.
+
+## Latest Update - 2026-05-29 Reels 180 v002 Render Candidate Ready
+
+- Trigger:
+  - Representative submitted/finalized the refreshed Reels 180 visual review.
+  - Approved motion cards:
+    - Scene 4: `180-4-motion-b`
+    - Scene 5: `180-5-motion-b`
+- Completed:
+  - Generated scene voiceover text files:
+    - `output/reels/180/voiceover-v001-scene-01.txt` through `voiceover-v001-scene-07.txt`
+  - Generated ElevenLabs scene audio:
+    - `output/reels/180/audio/narration-v001-scene-01.mp3` through `narration-v001-scene-07.mp3`
+    - Mirrored audio under `public/assets/reels/180/audio/`
+  - Ran asset prep/props/validation for slug 180.
+  - Added slug 180 caption beat overrides in `.claude/skills/reels/scripts/build-remotion-props.mjs` so caption beats stay on sentence boundaries.
+  - Rendered v001, then superseded it after evaluation showed approved backup images could still create repeated visual impressions.
+  - Pruned `selectedImages` in both `output/reels/180/scenes.json` and `output/reels/180/approved-visuals.json` to primary-only images for the final render pass.
+  - Rendered v002:
+    - `output/reels/180/render/epickor-reel-180-v002.mp4`
+  - Evaluated v002:
+    - `output/reels/180/evaluation/evaluation-v002.json`
+    - `output/reels/180/evaluation/evaluation-v002.md`
+    - `output/reels/180/evaluation/contact-v002.jpg`
+    - `output/reels/180/evaluation/scene-grid-v002.jpg`
+- Verification:
+  - `ffprobe` confirms v002 is 1080x1920 H.264 + AAC, duration `33.685333s`, size `23841366` bytes.
+  - `reels:evaluate` completed and produced v002 contact/scene-grid files.
+  - Manual scene-grid inspection confirms each scene now uses one approved primary image; the earlier backup-image repetition path is removed.
+  - Evaluation notes only minor fast-caption notes on very short beats; no hard render gate failed.
+- Current stage:
+  - **Reels 180 v002 is ready for representative watch-through review.**
+  - v001 should be treated as superseded.
+- Next action:
+  - Representative reviews `output/reels/180/render/epickor-reel-180-v002.mp4`.
+  - If approved, create `output/reels/180/upload-package.md`.
+
+## Latest Update - 2026-05-29 Reels 180 Duplicate Visual Refresh
+
+- Trigger:
+  - Representative reviewed the Reels 180 visual package and noted that some photos still looked repetitive.
+- Confirmed issue:
+  - Initial Reels 180 package used three Blog 180 source images across seven scenes.
+  - Even with separate 9:16 crops, Scene 1/3, Scene 2/5/7, and Scene 3/6 could still feel visually repetitive.
+  - Representative review pass also produced a Scene 7 replacement request.
+- Completed:
+  - Sourced additional Korea/Bukchon/Hanok-specific Pexels images:
+    - `33019245` by Saksham Vikram.
+    - `33019241` by Saksham Vikram.
+    - `35491993` by Luiz M.
+    - `32782628` by 거열 박.
+    - `20325767` by Line Knipst.
+    - `7654965` by KOREAN JH for the Scene 7 replacement.
+  - Downloaded local source copies under `public/assets/reels/180/candidates/`.
+  - Created new scene-specific crops:
+    - `scene-02-lived-neighborhood-v2.jpg`
+    - `scene-03-old-new-seoul-v2.jpg`
+    - `scene-04-etiquette-bg-v2.jpg`
+    - `scene-05-red-zone-bg-v2.jpg`
+    - `scene-06-short-route-v2.jpg`
+    - `scene-07-calm-close-v2.jpg`
+    - `scene-07-calm-close-v3.jpg`
+  - Updated:
+    - `output/reels/180/scenes.json`
+    - `output/reels/180/visual-candidates.json`
+    - `output/reels/180/motion-cards.json`
+    - `output/reels/180/replacement-requests.json`
+    - `output/reels/180/source-notes.md`
+  - Scene 7 replacement resolved:
+    - New primary: `/assets/reels/180/candidates/scene-07-calm-close-v3.jpg`
+    - Backup: `/assets/reels/180/candidates/scene-07-calm-close-v2.jpg`
+- Verification:
+  - JSON parse passed for updated Reels 180 files.
+  - All selected local `/assets/` paths exist under `public/assets/`.
+  - Primary selected image duplicate count is now `0`.
+  - API payload now reports:
+    - `status=replacement_candidates_ready`
+    - `scenes=7`
+    - `motionCards=4`
+    - next step: finalize visual review.
+  - Review page still returns `200` at `http://127.0.0.1:4000/reels-review/180`.
+  - Created visual contact sheet:
+    - `output/reels/180/visual-refresh-contact-v3.jpg`
+  - Manual contact-sheet inspection confirms the active primary visuals are meaningfully more varied: crowded photo hook, quiet alley, hanok detail, street/sky motion background, roof close-up, green hanok route image, and distinct alley/skyline closing image.
+- Current stage:
+  - **Reels 180 replacement candidates are ready for final visual review.**
+  - Do not generate TTS/render until representative finalizes the visual review.
+- Next action:
+  - Representative rechecks `http://localhost:4000/reels-review/180`.
+  - If the refreshed visuals are acceptable, press/finalize visual review, then proceed to TTS and render.
+
+## Latest Update - 2026-05-29 Reels 181 Confirmed / Reels 180 Visual Review Ready
+
+- Trigger:
+  - Representative confirmed Reels 181 v002 and asked to produce missing Reels 180.
+- Reels 181 completed:
+  - Created upload package:
+    - `output/reels/181/upload-package.md`
+  - Final confirmed asset:
+    - `output/reels/181/render/epickor-reel-181-v002.mp4`
+  - Status:
+    - **Reels 181 is upload-package-ready.**
+- Reels 180 gap correction:
+  - Confirmed Blog 180 was published/public-verified but Reels 180 had no output folder.
+  - Created new Reels 180 package under `output/reels/180/`:
+    - `script.md`
+    - `scenes.json`
+    - `visual-candidates.json`
+    - `motion-cards.json`
+    - `strategy.md`
+    - `source-notes.md`
+    - `instagram-caption.txt`
+    - `replacement-requests.json`
+  - Created local candidate assets under `public/assets/reels/180/candidates/`:
+    - Downloaded source copies:
+      - `bukchon-hero-20325769.jpg`
+      - `bukchon-quiet-street-33019244.jpg`
+      - `bukchon-roofline-20325768.jpg`
+    - Created scene-specific 9:16 crop files:
+      - `scene-01-bukchon-photo-hook.jpg`
+      - `scene-02-lived-neighborhood.jpg`
+      - `scene-03-old-new-seoul.jpg`
+      - `scene-04-etiquette-bg.jpg`
+      - `scene-05-red-zone-bg.jpg`
+      - `scene-06-short-route.jpg`
+      - `scene-07-calm-close.jpg`
+  - Reels 180 script angle:
+    - Working title: `Bukchon Is Not a Photo Set`.
+    - Hook: Bukchon looks like the perfect Seoul photo spot, which is why visitors need to slow down.
+    - Flow: photo hook -> real neighborhood -> why the photo works -> etiquette card -> Red Zone timing card -> quiet route -> calm close.
+  - Motion-card plan:
+    - Scene 4: approve one etiquette card option.
+    - Scene 5: approve one Red Zone timing card option.
+    - Exactly two motion-card scenes should remain.
+- Verification:
+  - JSON parse passed for `scenes.json`, `visual-candidates.json`, `motion-cards.json`, and `replacement-requests.json`.
+  - Selected local `/assets/` image paths exist under `public/assets/`.
+  - Local dev server started on port `4000`.
+  - API check returned `200` for `http://127.0.0.1:4000/api/reels/180/visuals`.
+  - Review page check returned `200` and contained the expected title for `http://127.0.0.1:4000/reels-review/180`.
+  - API payload status:
+    - `status=visual_review_pending`
+    - `scenes=7`
+    - `motionCards=4`
+    - next step: complete motion-card selections for scenes 4 and 5.
+- Current stage:
+  - **Reels 180 visual review is ready.**
+  - Do not generate TTS or render until representative submits/finalizes the visual review.
+- Next action:
+  - Representative reviews `http://localhost:4000/reels-review/180`.
+  - Approve/rank normal scene visuals and choose one motion-card option each for Scene 4 and Scene 5.
+  - If Scene 6 feels too visually repetitive, request replacement sourcing before final visual approval.
+
+## Latest Update - 2026-05-29 Reels 181 Intro Caption Fix / Reels 180 Gap Confirmed
+
+- Trigger:
+  - Representative flagged that the Reels 181 intro spoken-caption layer overlaps the title.
+  - Representative also noticed that Reels 180 appears to be missing and asked to check it.
+- Completed:
+  - Updated intro caption placement in `remotion/ReelComposition.tsx`:
+    - Changed `CaptionLayer` intro placement from a high `flex-start` caption band around `1120px` to a lower `flex-end` safe-area caption band with `360px` bottom padding.
+    - This keeps the live spoken caption away from the centered intro title lockup.
+  - Rebuilt Reels 181 props:
+    - `npm.cmd run reels:props -- --slug 181 --audio-version v001`
+  - Validation passed:
+    - `npm.cmd run reels:validate -- --slug 181 --require-scene-audio`
+  - Rendered corrected candidate without overwriting v001:
+    - `output/reels/181/render/epickor-reel-181-v002.mp4`
+    - Duration: `32.981333s`
+    - Size: `29,238,227` bytes
+    - ffprobe confirmed H.264 1080x1920 video plus AAC stereo audio.
+  - Generated v002 evaluation assets:
+    - `output/reels/181/evaluation/evaluation-v002.json`
+    - `output/reels/181/evaluation/evaluation-v002.md`
+    - `output/reels/181/evaluation/contact-v002.jpg`
+    - `output/reels/181/evaluation/scene-grid-v002.jpg`
+  - Manually opened `scene-grid-v002.jpg`; intro spoken-caption is now below the title area and no longer overlaps the large title lockup.
+- Reels 180 check:
+  - Confirmed `output/reels/180/` does not exist.
+  - `HANDOFF.md` only records Blog 180 as published and public-verified on 2026-05-28.
+  - `content/blog/180.md` exists and is public:
+    - Title: `Bukchon Hanok Village: Seoul's Most Instagrammed Place`
+    - Public URL was previously verified as `https://www.epickor.com/blog/180`.
+  - `output/research/180_research.json`, `output/drafts/180_draft.md`, and `output/review/180_review.json` exist; review passed `100/100`.
+  - No Reels 180 script, scenes, visual candidates, motion cards, audio, render, or upload package files were found.
+- Current stage:
+  - **Reels 181 v002 is the corrected candidate for representative watch-through review.**
+  - **Reels 180 is a confirmed production gap after Blog 180 publication.**
+- Next action:
+  - Representative reviews `output/reels/181/render/epickor-reel-181-v002.mp4`.
+  - If Reels 181 v002 is approved, create the Reels 181 upload package.
+  - Then produce missing Reels 180 from public-verified Blog 180 before moving on to later new-post Reels, unless the representative explicitly reprioritizes Blog 182 publishing first.
+
+## Latest Update - 2026-05-29 Reels 181 v001 Render Candidate Ready
+
+- Trigger:
+  - Representative asked to proceed from the saved Reels 181 visuals-approved handoff.
+- Completed:
+  - Generated scene-level ElevenLabs audio for Reels 181:
+    - `output/reels/181/audio/narration-v001-scene-01.mp3` through `narration-v001-scene-07.mp3`.
+    - Mirrored audio under `public/assets/reels/181/audio/`.
+  - Added scene-level voiceover text files:
+    - `output/reels/181/voiceover-scene-01.txt` through `voiceover-scene-07.txt`.
+  - Ran asset prep:
+    - `npm.cmd run reels:prepare-assets -- --slug 181`
+    - Output: `output/reels/181/asset-manifest.json`.
+  - Built Remotion props with scene audio:
+    - `npm.cmd run reels:props -- --slug 181 --audio-version v001`
+    - Output: `output/reels/181/remotion-props.json`.
+  - Added Reels 181 caption-beat overrides in `.claude/skills/reels/scripts/build-remotion-props.mjs` so strict post-175 caption validation passes without overlong lines or sentence-boundary splits.
+  - Validation passed:
+    - `npm.cmd run reels:validate -- --slug 181 --require-scene-audio`
+  - Rendered the first audio-included candidate:
+    - `output/reels/181/render/epickor-reel-181-v001.mp4`
+    - Duration: `32.981333s`
+    - Size: `29,254,241` bytes
+    - Video/audio confirmed by ffprobe: H.264 1080x1920 30fps plus AAC stereo audio.
+  - Generated evaluation packet:
+    - `output/reels/181/evaluation/evaluation-v001.json`
+    - `output/reels/181/evaluation/evaluation-v001.md`
+    - `output/reels/181/evaluation/contact-v001.jpg`
+    - `output/reels/181/evaluation/scene-grid-v001.jpg`
+  - Manually opened `scene-grid-v001.jpg`; render frames are nonblank, use the approved Korean WEBTOON/NAVER WEBTOON visual direction, and include exactly two motion-card scenes.
+- Current stage:
+  - **Reels 181 v001 is rendered and ready for representative watch-through review.**
+  - Do not create the final upload package until the representative confirms the rendered video.
+- Next action:
+  - Representative watches `output/reels/181/render/epickor-reel-181-v001.mp4`.
+  - If approved, create `output/reels/181/upload-package.md` and mark Reels 181 as upload-package-ready.
+  - If changes are requested, rerender as `v002` without overwriting `v001`.
+
+## Latest Update - 2026-05-28 Reels 181 Visuals Approved / Ready for TTS + Render
+
+- Trigger:
+  - Representative confirmed the final Reels 181 visual review after the Scene 1 foreground overlay title fix.
+- Confirmed:
+  - `output/reels/181/scenes.json` status is now `visuals_approved`.
+  - Scene 1 foreground overlay title was the intended fix target, not the background image text.
+  - Review dashboard overlay now displays the title as:
+    - `WEBTOONS CHANGED`
+    - `HOW STORIES TRAVEL`
+  - Scene 1 dashboard overlay title size was increased from `22px` to `44px`.
+  - Remotion `ThumbnailLayer` was updated to use the same two-line title treatment for Reels 181.
+  - Motion cards are accepted as-is:
+    - Scene 4: approved motion card.
+    - Scene 6: approved motion card.
+    - Exactly two motion-card scenes should remain.
+  - Replacement-marked items have been removed from active review and replaced with selected alternatives.
+- Updated:
+  - `app/reels-review/[slug]/ReelsReviewClient.tsx`
+  - `remotion/ReelComposition.tsx`
+  - `output/reels/181/scenes.json` already reflects visual approval.
+- Verification:
+  - Local API checked: `http://127.0.0.1:4002/api/reels/181/visuals` returned `200`.
+  - Local review page checked: `http://127.0.0.1:4002/reels-review/181` returned `200`.
+  - `npm.cmd run build` passed.
+- Current stage:
+  - **Reels 181 visuals are approved.**
+- Next action:
+  - Tomorrow, continue from Reels 181 TTS and render preparation.
+  - Likely next commands:
+    - `npm.cmd run reels:tts -- --slug 181`
+    - `npm.cmd run reels:prepare-assets -- --slug 181`
+    - Then render/validate using the established Reels pipeline.
+
+## Latest Update - 2026-05-28 Reels 181 Replacement Candidates Ready
+
+- Trigger:
+  - Representative submitted the Reels 181 visual review and asked to find better replacement sources for the marked scenes.
+  - Representative then flagged that the refresh still had too many motion-card-like visuals, lingering replace candidates, weak/generic sources, and foreign-language screens for a Korean webtoon topic.
+- Completed:
+  - Reworked the replacement refresh again with stricter rules:
+    - Exactly two motion-card inserts remain in `output/reels/181/motion-cards.json`: scenes 4 and 6 only.
+    - Active `replace_needed` candidates were removed from `visual-candidates.json`.
+    - Active LINE MANGA/Japanese, English WEBTOON, generic tablet/phone, generic streaming-TV, and label/composite candidates were removed from the review set.
+    - Added official Korean App Store screenshots for NAVER WEBTOON KR (`naver-webtoon-appstore-kr-01.jpg` through `06.jpg`) from the NAVER WEBTOON Ltd. app listing.
+    - Scene 2 now uses Korean NAVER WEBTOON reading/detail screens.
+    - Scene 3 uses Korean NAVER WEBTOON ranking/detail screens.
+    - Scene 5 uses Korean NAVER WEBTOON recommendation/NAVER SERIES/Korea-context story visuals instead of foreign/generic streaming UI.
+    - Scene 7 uses Korean NAVER WEBTOON library/CTA screens; LINE MANGA removed.
+  - Updated:
+    - `output/reels/181/scenes.json`
+    - `output/reels/181/visual-candidates.json`
+    - `output/reels/181/motion-cards.json`
+    - `output/reels/181/replacement-requests.json`
+    - `output/reels/181/source-notes.md`
+  - Added candidate image files under `public/assets/reels/181/candidates/`.
+- Verification:
+  - JSON parse passed for `scenes.json`, `visual-candidates.json`, and `motion-cards.json`.
+  - New candidate file existence checks passed.
+  - `rg` check found no active `replace_needed`, LINE MANGA, generic streaming, generic tablet/phone, or label/composite candidate references in active Reels 181 review JSON.
+  - API payload reports `motionCards: 2` and no replacement scenes.
+  - Local API checked: `http://127.0.0.1:4002/api/reels/181/visuals` returned `200`.
+  - Local review page checked: `http://127.0.0.1:4002/reels-review/181` returned `200`.
+- Current stage:
+  - **Reels 181 replacement candidate review is ready.**
+- Next action:
+  - Representative reviews `http://127.0.0.1:4002/reels-review/181`.
+  - Submit the updated visual choices, then proceed to TTS/render only after visual approval is complete.
+
+## Latest Update - 2026-05-28 Reels 181 Visual Review Ready
+
+- Trigger:
+  - Representative correctly flagged that Reels 181 had been skipped after Blog 181 publication.
+- Correction:
+  - Returned to Blog 181 (`The Rise of Korean Webtoons: From Naver to Netflix`) and built the missing Reels 181 visual review package before continuing other work.
+  - Blog 182 private preview remains prepared, but the active handoff focus is now Reels 181 review.
+- Completed:
+  - Created Reels 181 review files under `output/reels/181/`:
+    - `script.md`
+    - `scenes.json`
+    - `visual-candidates.json`
+    - `motion-cards.json`
+    - `source-notes.md`
+    - `strategy.md`
+    - `instagram-caption.txt`
+  - Created image candidates under `public/assets/reels/181/candidates/`.
+  - Used official WEBTOON Entertainment product media kit screens for platform-specific visuals:
+    - WEBTOON Home
+    - NAVER WEBTOON Home
+    - LINE MANGA Home
+    - NAVER SERIES Home
+    - Wattpad Home
+  - Avoided raw scraped captures of copyrighted webtoon panels.
+  - Added motion-card options for scenes 4 and 6 so the representative can choose the strongest treatment.
+- Verification:
+  - Local review URL checked: `http://localhost:4000/reels-review/181`
+  - HTTP check returned `200 OK`.
+- Current stage:
+  - **Reels 181 is ready for visual review.**
+- Next action:
+  - Representative reviews `http://localhost:4000/reels-review/181`.
+  - Choose one motion-card option each for scenes 4 and 6, then submit the review pass.
 
 ## Latest Update - 2026-05-28 Blog 182 Private Preview Ready
 
