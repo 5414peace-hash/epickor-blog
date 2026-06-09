@@ -1,5 +1,40 @@
 # HANDOFF - EpicKor Agent Teams v2
 
+## Latest Update - 2026-06-09 Blogs 189/190/191 Written And Deployed
+
+- Representative requested three new posts before Reels work, with careful topic selection, references, photo placement, Amazon links, and deployment commit.
+- Strategy/topic selection:
+  - Chose pending queue item `28` as Blog `189`: `DMZ Tour from Seoul: What You Need to Know Before Visiting`.
+  - Chose pending queue item `17` as Blog `190`: `Korean Healthcare for Tourists: What You Need to Know Before You Go`.
+  - Chose pending queue item `20` as Blog `191`: `Korean University Life: Study Hard, Play Harder Culture Explained`.
+  - Deferred BTS/Hallyu/K-pop trainee topics because they require heavier current-entertainment verification; deferred longevity because health-claim risk is higher.
+- Created posts:
+  - `content/blog/189.md`
+  - `content/blog/190.md`
+  - `content/blog/191.md`
+- Amazon placement:
+  - Each post includes exactly two `.affiliate-inline-cta` boxes.
+  - Each first CTA includes the Amazon Associate disclosure.
+  - Automatic `amazon: true` frontmatter was intentionally omitted after rendered HTML showed it would add an extra `Helpful Shopping Picks` section, exceeding the normal two-CTA rule.
+- Images:
+  - Added `public/assets/images/posts/189/` with Imjingak, Dora Observatory, and Third Tunnel images plus `image-sources.md`.
+  - Added `public/assets/images/posts/190/` with National Medical Center, emergency medical center, and ambulance images plus `image-sources.md`.
+  - Added `public/assets/images/posts/191/` with Korea University and Yonsei University campus images plus `image-sources.md`.
+  - Images are topic-specific and Korea-first; generic stock images were avoided.
+- Updated `content/data/topics-queue.json`:
+  - Topic id `28` marked done as slug `189`.
+  - Topic id `17` marked done as slug `190`.
+  - Topic id `20` marked done as slug `191`.
+  - `next_slug` advanced to `192`.
+- Verification:
+  - `npm.cmd run build` passed in the temporary worktree after allowing network access for Google Fonts.
+  - Built HTML exists for `/blog/189`, `/blog/190`, and `/blog/191`.
+  - Rendered HTML check confirmed two inline affiliate CTA sections per post and no automatic Amazon aside.
+  - Markdown image path check confirmed all referenced local image files exist.
+- Deployment method:
+  - Work was done in in-repo temporary worktree `.tmp/worktrees/posts-189-191` from `origin/master` to avoid the dirty main worktree.
+  - Commit/push and production URL verification should be recorded below once complete.
+
 ## Latest Update - 2026-06-02 Blogs 187/188 Drafted + Ready To Deploy
 
 - Representative approved continuing with new posts before Reels V2 production.

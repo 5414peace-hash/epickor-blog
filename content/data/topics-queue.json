@@ -357,7 +357,9 @@
                                     "Seoul"
                                 ],
                        "amazon_category":  "Travel",
-                       "status":  "pending"
+                       "status":  "done",
+                       "generated_slug":  "190",
+                       "generated_date":  "2026-06-09"
                    },
                    {
                        "id":  18,
@@ -416,7 +418,9 @@
                                     "Education"
                                 ],
                        "amazon_category":  "Shopping",
-                       "status":  "pending"
+                       "status":  "done",
+                       "generated_slug":  "191",
+                       "generated_date":  "2026-06-09"
                    },
                    {
                        "id":  21,
@@ -581,7 +585,9 @@
                                     "History"
                                 ],
                        "amazon_category":  "Travel",
-                       "status":  "pending"
+                       "status":  "done",
+                       "generated_slug":  "189",
+                       "generated_date":  "2026-06-09"
                    },
                    {
                        "id":  29,
@@ -734,7 +740,6 @@
                        "generated_date":  "2026-05-30"
                    }
                ],
-    "last_updated":  "2026-06-02",
-    "next_slug":  189
+    "last_updated":  "2026-06-09",
+    "next_slug":  192
 }
-
