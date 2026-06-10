@@ -1,5 +1,37 @@
 # HANDOFF - EpicKor Agent Teams v2
 
+## Latest Update - 2026-06-10 Blogs 192/193/194 New Post Batch
+
+- Representative requested three fresh posts, from topic selection through Amazon links, image placement, deploy, and commit.
+- Created the batch in a clean temporary worktree from `origin/master` because the main worktree is dirty and behind.
+- Topic strategy:
+  - Blog 192: `Olive Young Korea Shopping Guide: What to Buy, Skip, and Know Before You Go` - high-intent K-beauty/search/shopping affiliate topic.
+  - Blog 193: `Korean Pop-Up Store Culture: Why Seoul Lines Up for Limited Drops` - fresh Seoul/Hallyu/social topic with strong Reels/card-news potential.
+  - Blog 194: `Korean Gift-Giving Culture: What to Bring, Avoid, and What It Means` - evergreen etiquette/travel/culture topic with gift affiliate fit.
+- Created posts:
+  - `content/blog/192.md`
+  - `content/blog/193.md`
+  - `content/blog/194.md`
+- Added four local images per post plus source notes:
+  - `public/assets/images/posts/192/`
+  - `public/assets/images/posts/193/`
+  - `public/assets/images/posts/194/`
+- Amazon affiliate placement:
+  - Each post has exactly two `.affiliate-inline-cta` boxes.
+  - First CTA in each post includes Amazon Associate disclosure.
+  - Amazon links use `target="_blank"` and `rel="nofollow sponsored noopener noreferrer"`.
+- Updated `content/data/topics-queue.json`:
+  - Added topic ids `36`, `37`, and `38` as done.
+  - Advanced `next_slug` to `195`.
+- Verification before commit:
+  - Local image files exist for all 12 post images plus source notes.
+  - `content/data/topics-queue.json` parses successfully after stripping its pre-existing UTF-8 BOM.
+  - `npm.cmd run build` passed.
+  - Build output includes static routes for `/blog/192`, `/blog/193`, and `/blog/194`.
+  - Built HTML for each new post includes four `/assets/images/posts/{slug}/...` image references and two `affiliate-inline-cta` blocks.
+  - `npm.cmd run audit:seo-aeo` completed with average score `69/100`; no 192/193/194-specific report entries appeared in a targeted report search.
+- Deploy details should be appended after commit, push, and public URL checks complete.
+
 ## Latest Update - 2026-06-09 Blogs 189/190/191 Written And Deployed
 
 - Representative requested three new posts before Reels work, with careful topic selection, references, photo placement, Amazon links, and deployment commit.
