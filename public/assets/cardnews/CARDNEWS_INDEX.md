@@ -31,3 +31,4 @@ Instagram upload is representative-managed, so upload status is intentionally le
 | `2026-05-10_074` | 074 | Seoul Underground Shopping Malls | 7 | final | representative-managed |
 | `2026-05-10_140` | 140 | Korea Public Restroom Travel Tips | 7 | final revised | representative-managed |
 | `2026-05-30_184` | 184 | Korean Four-Cut Photo Booths | 7 | final | representative-managed |
+| `2026-06-10_192` | 192 | Olive Young Korea Shopping Guide | 7 | final | representative-managed |
