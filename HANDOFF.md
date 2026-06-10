@@ -30,7 +30,14 @@
   - Build output includes static routes for `/blog/192`, `/blog/193`, and `/blog/194`.
   - Built HTML for each new post includes four `/assets/images/posts/{slug}/...` image references and two `affiliate-inline-cta` blocks.
   - `npm.cmd run audit:seo-aeo` completed with average score `69/100`; no 192/193/194-specific report entries appeared in a targeted report search.
-- Deploy details should be appended after commit, push, and public URL checks complete.
+- Deployment:
+  - Commit `471c673` (`Publish blogs 192-194`) pushed to `origin/master`.
+  - Vercel production deployment `https://epickor-blog-eedwdd2hs-yhs-projects-5de403d3.vercel.app` reached `Ready`.
+  - Public URL checks returned HTTP 200:
+    - `https://www.epickor.com/blog/192`
+    - `https://www.epickor.com/blog/193`
+    - `https://www.epickor.com/blog/194`
+  - Public HTML checks confirmed new titles, image path markers, and `affiliate-inline-cta` markers for all three posts.
 
 ## Latest Update - 2026-06-09 Blogs 189/190/191 Written And Deployed
 
