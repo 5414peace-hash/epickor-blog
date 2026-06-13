@@ -1,5 +1,29 @@
 # HANDOFF - EpicKor Agent Teams v2
 
+## Latest Update - 2026-06-13 Blogs 195/196/197 Added Two Images Each
+
+- Representative requested keeping existing image sources while adding two more relevant images to each of Blogs 195, 196, and 197, with Reviewer Agent visual-fit approval at 90+ before deployment.
+- Work was done in clean temporary worktree `.tmp/worktrees/add-images-195-197` from latest `origin/master` because the main worktree is dirty/stale.
+- Added images:
+  - Blog `195`: `centre-pompidou-hanwha-night-glow.jpg`, `centre-pompidou-hanwha-night-street.jpg`
+  - Blog `196`: `korea-world-cup-red-devils-horns.jpg`, `korea-world-cup-emotional-cheering.jpg`
+  - Blog `197`: `boryeong-mud-festival-group.jpg`, `boryeong-mud-festival-mud-play.jpg`
+- Source quality:
+  - `195`: official Centre Pompidou Hanwha night renderings.
+  - `196`: Korea.net / Korean Culture and Information Service World Cup street-cheering images via Wikimedia Commons, CC BY-SA 2.0.
+  - `197`: real Boryeong Mud Festival images via Wikimedia Commons, CC BY 2.0.
+  - Existing image source notes were preserved and appended in each `image-sources.md`.
+- Reviewer Agent visual-fit review:
+  - Saved to `reports/image-fit-review-195-197.md`.
+  - All six added images scored at least `94/100`, above the required `90/100`.
+  - 196 captions explicitly identify the added images as historical street-cheering context, not 2026 brunch-match photos.
+- Verification:
+  - Local image path check passed: Blog 195 now has 4 images, Blog 196 has 5 images, Blog 197 has 6 images.
+  - CTA count remains unchanged at two `.affiliate-inline-cta` blocks per post.
+  - `npm.cmd run build` passed.
+  - Built HTML checks confirmed all six new image filenames appear in their corresponding generated pages.
+- Current status: image additions and build verification complete; commit/push/deploy verification pending in this session.
+
 ## Latest Update - 2026-06-13 Blogs 195/196/197 Timely Post Batch
 
 - Representative approved three non-overlapping, timely posts and explicitly requested careful image sourcing plus commit/deploy completion.

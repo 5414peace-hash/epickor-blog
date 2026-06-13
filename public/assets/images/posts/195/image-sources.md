@@ -11,3 +11,15 @@
   - URL: https://www.centrepompidou.fr/fileadmin/user_upload/centre-pompidou-hanwha_seoul_maquette_01-jour.jpg
   - Credit: Centre Pompidou Hanwha, Courtesy Hanwha Foundation of Culture, architect Jean-Michel Wilmotte
   - Usage note: Official rendering used for street-level context and facade identification.
+
+- `centre-pompidou-hanwha-night-glow.jpg`
+  - Source: Centre Pompidou official page
+  - URL: https://www.centrepompidou.fr/fileadmin/user_upload/centre-pompidou-hanwha_seoul_maquette_00-nuit.jpg
+  - Credit: Centre Pompidou Hanwha, Courtesy Hanwha Foundation of Culture, architect Jean-Michel Wilmotte
+  - Usage note: Official night rendering used to support the article's "box of light" explanation.
+
+- `centre-pompidou-hanwha-night-street.jpg`
+  - Source: Centre Pompidou official page
+  - URL: https://www.centrepompidou.fr/fileadmin/user_upload/centre-pompidou-hanwha_seoul_maquette_01-nuit.jpg
+  - Credit: Centre Pompidou Hanwha, Courtesy Hanwha Foundation of Culture, architect Jean-Michel Wilmotte
+  - Usage note: Official night rendering used for entrance/signage and street-level visitor context.

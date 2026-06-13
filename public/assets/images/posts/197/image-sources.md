@@ -23,3 +23,17 @@
   - URL: https://mudfestival.or.kr/storage/festival/event/image/2026/06/02/FESTIVAL_EVENT_IMAGE_1780365098980.jpg
   - Credit: Boryeong Festival & Tourism Foundation
   - Usage note: Official 2026 program image used for zone-specific planning context.
+
+- `boryeong-mud-festival-group.jpg`
+  - Source: Wikimedia Commons
+  - URL: https://commons.wikimedia.org/wiki/File:Korea-Boryeong_Mud_Festival-14.jpg
+  - Credit: Stinkie Pinkie
+  - License: CC BY 2.0
+  - Usage note: Real Boryeong Mud Festival crowd image used to show the messy, physical festival environment.
+
+- `boryeong-mud-festival-mud-play.jpg`
+  - Source: Wikimedia Commons
+  - URL: https://commons.wikimedia.org/wiki/File:Korea-Boryeong_Mud_Festival-15.jpg
+  - Credit: Stinkie Pinkie
+  - License: CC BY 2.0
+  - Usage note: Real Boryeong Mud Festival participant image used to support packing and first-timer advice.
