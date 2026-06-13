@@ -1,5 +1,44 @@
 # HANDOFF - EpicKor Agent Teams v2
 
+## Latest Update - 2026-06-13 Blogs 195/196/197 Timely Post Batch
+
+- Representative approved three non-overlapping, timely posts and explicitly requested careful image sourcing plus commit/deploy completion.
+- Work was done in clean temporary worktree `.tmp/worktrees/post-batch-195-197` from `origin/master` because the main worktree is dirty/stale.
+- Topic strategy:
+  - Blog 195: `Centre Pompidou Hanwha Seoul: Why Yeouido Just Became Korea's New Art Stop` - fresh June 2026 Seoul art opening with Yeouido travel route and culture-book/travel-essential affiliate fit.
+  - Blog 196: `Why Korea Is Watching the 2026 World Cup Over Brunch` - same-day 2026 World Cup Korea culture topic with strong social/news timeliness and snack/SPF affiliate fit.
+  - Blog 197: `Boryeong Mud Festival 2026: What to Pack and How to Do It From Seoul` - official 2026 festival dates confirmed and strong summer travel packing affiliate fit.
+- Created posts:
+  - `content/blog/195.md`
+  - `content/blog/196.md`
+  - `content/blog/197.md`
+- Image sourcing:
+  - `195`: Centre Pompidou official renderings from the official Centre Pompidou Hanwha page; source/credit notes saved.
+  - `196`: Korea.net/Flickr Korean football crowd images under CC BY-SA 2.0; source/credit notes saved.
+  - `197`: Boryeong Mud Festival official 2026 program images plus Flickr Boryeong mud crowd image under CC BY 2.0; source/credit notes saved.
+  - Image source files:
+    - `public/assets/images/posts/195/image-sources.md`
+    - `public/assets/images/posts/196/image-sources.md`
+    - `public/assets/images/posts/197/image-sources.md`
+- Amazon affiliate placement:
+  - Each post has exactly two `.affiliate-inline-cta` boxes.
+  - First CTA in each post includes Amazon Associate disclosure.
+  - Amazon links use `target="_blank"` and `rel="nofollow sponsored noopener noreferrer"`.
+- Updated `content/data/topics-queue.json`:
+  - Added topic ids `39`, `40`, and `41` as done.
+  - Advanced `next_slug` to `198`.
+- Agent roles:
+  - Research Agent: current source verification and image sourcing.
+  - Writer Agent: full post drafts and affiliate placement.
+  - Reviewer Agent: image path checks, word-count/structure checks, and build/public verification.
+  - Publisher Agent: commit, push, and Vercel/public URL verification.
+- Verification before commit:
+  - Local image files exist for all referenced post images.
+  - Word/structure check passed: 195/196/197 are roughly 1,900+ words, include 2+ images, 2 affiliate CTAs, table sections, and 4 FAQ items each.
+  - `npm.cmd run build` passed and generated static blog pages for `/blog/195`, `/blog/196`, and `/blog/197`.
+  - Built HTML checks confirmed title markers, image markers, and inline affiliate CTA markers for the three posts.
+- Current status: drafted and build-verified; commit/push/deploy verification still pending in this session.
+
 ## Latest Update - 2026-06-10 Blogs 192/193/194 New Post Batch
 
 - Representative requested three fresh posts, from topic selection through Amazon links, image placement, deploy, and commit.
