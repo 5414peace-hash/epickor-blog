@@ -22,7 +22,15 @@
   - CTA count remains unchanged at two `.affiliate-inline-cta` blocks per post.
   - `npm.cmd run build` passed.
   - Built HTML checks confirmed all six new image filenames appear in their corresponding generated pages.
-- Current status: image additions and build verification complete; commit/push/deploy verification pending in this session.
+- Deployment:
+  - Commit `eb769c8` (`Add supporting images to blogs 195-197`) pushed to `origin/master`.
+  - Vercel production deployment `https://epickor-blog-3v7nx2nfl-yhs-projects-5de403d3.vercel.app` reached `Ready`.
+  - Public URL checks returned HTTP 200 for:
+    - `https://www.epickor.com/blog/195`
+    - `https://www.epickor.com/blog/196`
+    - `https://www.epickor.com/blog/197`
+  - Public image URL checks returned HTTP 200 for all six added images.
+- Current status: image additions committed, deployed, and public URLs/images verified.
 
 ## Latest Update - 2026-06-13 Blogs 195/196/197 Timely Post Batch
 
