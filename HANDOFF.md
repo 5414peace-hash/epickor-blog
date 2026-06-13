@@ -37,7 +37,20 @@
   - Word/structure check passed: 195/196/197 are roughly 1,900+ words, include 2+ images, 2 affiliate CTAs, table sections, and 4 FAQ items each.
   - `npm.cmd run build` passed and generated static blog pages for `/blog/195`, `/blog/196`, and `/blog/197`.
   - Built HTML checks confirmed title markers, image markers, and inline affiliate CTA markers for the three posts.
-- Current status: drafted and build-verified; commit/push/deploy verification still pending in this session.
+- Deployment:
+  - Commit `4d54139` (`Publish blogs 195-197`) pushed to `origin/master`.
+  - Vercel production deployment `https://epickor-blog-qc51ksoyo-yhs-projects-5de403d3.vercel.app` reached `Ready`.
+  - Deployment aliases include `https://www.epickor.com`.
+  - Public URL checks returned HTTP 200:
+    - `https://www.epickor.com/blog/195`
+    - `https://www.epickor.com/blog/196`
+    - `https://www.epickor.com/blog/197`
+  - Representative public image checks returned HTTP 200:
+    - `https://www.epickor.com/assets/images/posts/195/centre-pompidou-hanwha-day.jpg`
+    - `https://www.epickor.com/assets/images/posts/196/korea-world-cup-street-cheering.jpg`
+    - `https://www.epickor.com/assets/images/posts/197/boryeong-mud-festival-crowd.jpg`
+  - Note: initial no-query public checks briefly returned cached 404s; cache-bust checks primed fresh routes, after which no-query public URL checks returned 200.
+- Current status: committed, deployed, and public URLs verified.
 
 ## Latest Update - 2026-06-10 Blogs 192/193/194 New Post Batch
 
