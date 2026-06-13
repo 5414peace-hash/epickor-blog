@@ -25,8 +25,18 @@
   - Research Agent: located/verified supplemental card images and rejected weak rendered official program images for 197.
   - Writer Agent: wrote carousel scripts, captions, and swipe logic.
   - Reviewer Agent: ran structural script, inspected rendered PNG sheets, scored visual fit, and checked duplicate image paths.
-  - Publisher Agent: copied final PNGs into public assets, prepared commit/deploy verification.
-- Current status: card-news assets and review records are ready for commit/deploy; deployment verification should check public PNG URLs after push.
+  - Publisher Agent: copied final PNGs into public assets, committed, pushed, and verified Vercel/public PNG URLs.
+- Deployment:
+  - Commit `0dbc798` (`Add card news for blogs 195-197`) pushed to `origin/master`.
+  - Vercel production deployment `https://epickor-blog-4oaitpe9v-yhs-projects-5de403d3.vercel.app` reached `Ready`.
+  - Public PNG checks returned HTTP 200 for representative and spot-check assets:
+    - `https://www.epickor.com/assets/cardnews/2026-06-13_195/card_01.png`
+    - `https://www.epickor.com/assets/cardnews/2026-06-13_195/card_02.png`
+    - `https://www.epickor.com/assets/cardnews/2026-06-13_196/card_01.png`
+    - `https://www.epickor.com/assets/cardnews/2026-06-13_196/card_07.png`
+    - `https://www.epickor.com/assets/cardnews/2026-06-13_197/card_01.png`
+    - `https://www.epickor.com/assets/cardnews/2026-06-13_197/card_05.png`
+- Current status: card-news assets are committed, deployed, visually reviewed, and public PNG URLs are verified.
 
 ## Latest Update - 2026-06-13 Blogs 195/196/197 Added Two Images Each
 
