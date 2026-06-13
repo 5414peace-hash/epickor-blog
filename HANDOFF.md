@@ -1,5 +1,33 @@
 # HANDOFF - EpicKor Agent Teams v2
 
+## Latest Update - 2026-06-13 Card News Batch 195/196/197
+
+- Representative approved producing three card-news carousels after blog 195/196/197 publication and image-expansion work.
+- Work was done in clean temporary worktree `.tmp/worktrees/cardnews-195-197` from latest `origin/master` because the main worktree is dirty/stale.
+- Created final 7-card carousels:
+  - `public/assets/cardnews/2026-06-13_195/` - Centre Pompidou Hanwha Seoul / Yeouido art route.
+  - `public/assets/cardnews/2026-06-13_196/` - Korea World Cup brunch watch culture.
+  - `public/assets/cardnews/2026-06-13_197/` - Boryeong Mud Festival 2026 packing guide.
+- Updated `public/assets/cardnews/CARDNEWS_INDEX.md` with all three folders.
+- Image sourcing and fit:
+  - `195`: official Centre Pompidou Hanwha renderings plus real 63 Building/Han River context photos.
+  - `196`: Korea football crowd images plus a Korean convenience-store drink image for morning/brunch context.
+  - `197`: real Boryeong Mud Festival photos; official program images were rejected for the carousel after render inspection because embedded Korean text and low-resolution layouts looked weak as full-card backgrounds.
+- Reviewer Agent checks:
+  - `node .claude\skills\cardnews\scripts\review-cardnews.mjs --slug 196` passed: 6/7 image cards, max 1 consecutive image-free card.
+  - `node .claude\skills\cardnews\scripts\review-cardnews.mjs --slug 197` passed: 5/7 image cards, max 2 consecutive image-free cards.
+  - `node .claude\skills\cardnews\scripts\review-cardnews.mjs --slug 195` passed: 6/7 image cards, max 1 consecutive image-free card.
+  - Manual rendered PNG review completed via review sheets for all three carousels.
+  - Visual Fit Scores saved in each `visual-review.md`: `195` average 95.1, `196` average 93.4, `197` average 93.7; no individual card below 90.
+  - Same-carousel duplicate image check passed; cross-card-news image path check against existing `public/assets/cardnews/*/script.md` found no duplicates.
+- Agent roles:
+  - Strategy Team: selected 195/196/197 as timely, recently published posts with social-card potential and no overlap with prior suggested themes.
+  - Research Agent: located/verified supplemental card images and rejected weak rendered official program images for 197.
+  - Writer Agent: wrote carousel scripts, captions, and swipe logic.
+  - Reviewer Agent: ran structural script, inspected rendered PNG sheets, scored visual fit, and checked duplicate image paths.
+  - Publisher Agent: copied final PNGs into public assets, prepared commit/deploy verification.
+- Current status: card-news assets and review records are ready for commit/deploy; deployment verification should check public PNG URLs after push.
+
 ## Latest Update - 2026-06-13 Blogs 195/196/197 Added Two Images Each
 
 - Representative requested keeping existing image sources while adding two more relevant images to each of Blogs 195, 196, and 197, with Reviewer Agent visual-fit approval at 90+ before deployment.
