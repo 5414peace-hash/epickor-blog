@@ -1,5 +1,26 @@
 # HANDOFF - EpicKor Agent Teams v2
 
+## Session Close - 2026-06-14 21:40
+
+- Representative ended the session after confirming the card-news asset location.
+- Current repository state:
+  - Main worktree is clean.
+  - `master` is even with `origin/master`.
+  - Latest pushed commit remains `a21ee64` - `Record workspace cleanup completion`.
+  - Latest Vercel production deployment reached `Ready`.
+- Card-news location reminder:
+  - Final upload PNGs live under `public/assets/cardnews/YYYY-MM-DD_slug/`.
+  - Tracking index: `public/assets/cardnews/CARDNEWS_INDEX.md`.
+- Preserved cleanup materials:
+  - `.tmp/archive/2026-06-14-cleanup-audit/`
+  - `.tmp/archive/2026-06-14-main-untracked-before-ff/`
+  - `.tmp/archive/2026-06-14-reels-share-artifacts/`
+  - `stash@{0}` - `pre-ff-main-dirty-2026-06-14`
+- Next session first step:
+  - Start Blog 198 Waterbomb Reels/card-news package from the now-clean main worktree.
+- Blockers:
+  - None.
+
 ## Latest Update - 2026-06-14 Workspace Cleanup Completed
 
 - Representative asked to proceed with priority 3 first: make the local project folder safe, clean, and orderly before starting the next content package.
