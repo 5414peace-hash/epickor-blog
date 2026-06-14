@@ -42,6 +42,14 @@ yarn-error.log*
 /epickor-agent-design-v2.md
 /package-lock.json
 
+# Meta Business Suite local automation artifacts
+/tools/meta-suite-helper/browser-profile/
+/tools/meta-suite-helper/runs/
+/tools/meta-suite-helper/*.log
+/tools/meta-suite-helper/batch_result.json
+/tools/meta-suite-helper/last_controls.json
+/tools/meta-suite-helper/meta_schedule_queue.json
+
 # vercel
 .vercel
 

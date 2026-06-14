@@ -588,6 +588,45 @@ def build_type_d(card, total):
   {watermark_html(card)}'''
 
 
+def build_type_f(card):
+    pc = point_color(card)
+    main = to_html_text(card['main_text'])
+    sub = to_html_text(card['sub_text'])
+    img = resolve_image_src(card)
+    kicker = kicker_html(card, pc)
+
+    return f'''
+  <div style="position:absolute;inset:0;background:#111111;"></div>
+  {image_layer_full(img, card, '0.48')}
+  <div style="position:absolute;inset:0;
+    background:
+      radial-gradient(ellipse at center,rgba(17,17,17,0.78) 0%,rgba(17,17,17,0.62) 42%,rgba(17,17,17,0.36) 100%),
+      linear-gradient(180deg,rgba(17,17,17,0.18) 0%,rgba(17,17,17,0.46) 54%,rgba(17,17,17,0.72) 100%);
+  "></div>
+
+  <div style="
+    position:absolute;left:128px;right:128px;top:50%;
+    transform:translateY(-47%);
+    z-index:6;text-align:center;
+    display:flex;flex-direction:column;align-items:center;
+  ">
+    {kicker}
+    <div style="width:76px;height:5px;background:{pc};margin:6px auto 30px;"></div>
+    <div style="
+      font-size:76px;font-weight:950;color:#FFFFFF;
+      line-height:1.02;margin-bottom:28px;
+      text-shadow:0 12px 42px rgba(0,0,0,0.58);
+    ">{main}</div>
+    <div style="
+      max-width:760px;
+      font-size:31px;font-weight:650;color:rgba(255,255,255,0.86);
+      line-height:1.32;word-break:keep-all;
+      text-shadow:0 8px 26px rgba(0,0,0,0.50);
+    ">{sub}</div>
+  </div>
+  {watermark_html(card)}'''
+
+
 def build_card_html(card, total):
     layout = card['layout'].upper().strip()
     if layout == 'A':
@@ -600,6 +639,8 @@ def build_card_html(card, total):
         body = build_type_e(card)
     elif layout == 'D':
         body = build_type_d(card, total)
+    elif layout == 'F':
+        body = build_type_f(card)
     else:
         body = build_type_b(card)
 

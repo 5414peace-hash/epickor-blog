@@ -3,16 +3,18 @@
 ## Card News Review Rules
 
 - Review rendered PNGs card by card. Do not approve from `script.md` alone.
-- Each card must have a relevant image or visual treatment. Reject cards with generic, misleading, off-topic, or non-Korea visuals when a Korea/EpicKor visual is available.
-- When usable post-owned photos exist, reject photo-free or mostly graphic-only carousels. For a 7-card carousel, require at least 4 image cards unless the representative explicitly approved a lower-image treatment.
+- Each card must have a relevant image. Reject cards with generic, misleading, off-topic, or non-Korea visuals when a Korea/EpicKor visual is available.
+- When usable post-owned photos exist or external photos can be sourced, reject photo-free or mostly graphic-only carousels. For a 7-card high-visual carousel, require photos on at least 5 cards; food, venues, travel, weddings, shopping, beauty, products, and places should normally use photos on all 7 cards.
 - Reject 3 or more consecutive image-free cards unless the representative explicitly approved the exception and it is recorded in `HANDOFF.md`.
 - High-visual topics such as cars, food, travel places, shopping, beauty, celebrities, products, and venues should normally use photos on 5+ cards in a 7-card carousel. If the same source subject truly must appear more than once, require clearly distinct derivative assets with different paths and documented reason.
+- Graphic-only use where a relevant photo could have been sourced caps the card's visual score at 79/100. A misleading country/context mismatch caps the card at 59/100 and blocks approval.
 - Reject repeated `image:` paths inside the same carousel. Same-carousel duplicate image paths are failures, not warnings. If the same source must be reused, require a separately saved derivative asset and documented reason.
 - Each card must include a Korea/EpicKor point keyword via `kicker:`.
 - Every rendered card must show `EPICKOR.COM` as the watermark text.
 - Check mobile readability: headline, subtext, kicker, and watermark must be legible at phone size.
 - Check swipe logic: card 1 must make card 2 desirable; each next card should answer or deepen the previous card.
 - Run `node .claude/skills/cardnews/scripts/review-cardnews.mjs --slug {slug}` after rendering and before approval. This catches missing image paths, same-carousel repeated `image:` paths, cross-post image reuse, too many image-free cards, and weak image coverage. Passing this script does not replace manual PNG inspection.
+- Produce a written Card News Visual Fit Score before approval: direct topic fit 30, Korea/context fit 25, no misleading/text/watermark risk 20, carousel variety/coherence 15, rendered mobile quality 10. Approval requires average >=90/100 and no individual card below 88/100.
 - Record card news visual review results in `HANDOFF.md`.
 
 ## Reels Review Rules
@@ -89,7 +91,9 @@ http://localhost:4000/preview/{slug}
 프로덕션 확인 URL:
 
 ```text
-https://epickor.com/preview/{slug}?token=[PREVIEW_SECRET_TOKEN]
+Do not write or share a production preview URL with a placeholder token.
+Load the real `PREVIEW_SECRET_TOKEN` from `.env.local`, verify the exact URL returns HTTP 200 with the expected post content, and only then share it.
+If production verification fails, share only the local preview URL and state that production preview is not verified.
 ```
 
 사용자에게는 로컬 작업 중이면 로컬 URL을 먼저 안내한다.

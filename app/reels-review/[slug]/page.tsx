@@ -34,6 +34,11 @@ interface ScenesFile {
 
 interface CandidateScene {
   number: number;
+  thumbnailOverlay?: {
+    kicker?: string;
+    titleLines?: string[];
+    watermark?: string;
+  };
   candidates: Array<{
     id: string;
     src: string;

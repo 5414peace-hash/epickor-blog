@@ -210,7 +210,8 @@ async function main() {
 
       if (isPrivatePreview) {
         console.log(`\n✅ 미리보기용 private 포스트 준비 완료!`);
-        console.log(`   Preview route: https://epickor.com/preview/${slug}?token=[PREVIEW_SECRET_TOKEN]`);
+        console.log('   Production preview URL requires the real PREVIEW_SECRET_TOKEN and HTTP 200 verification before sharing.');
+        console.log('   Do not share or record a placeholder token URL.');
       } else {
         console.log(`\n🎉 발행 완료!`);
         console.log(`   URL: ${vercelUrl}`);

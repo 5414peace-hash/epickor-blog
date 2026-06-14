@@ -2,10 +2,14 @@
 
 ## Card News Visual Brand Rules
 
-- Every card must have a relevant visual. Use the post's own images first; use Pexels only when the post lacks enough relevant images.
+- Every card must have a relevant image. For real-world/high-visual topics, photo-first is mandatory; SVG-only or graphic-only carousels are not acceptable unless the representative explicitly approves that exception in the current task.
+- Use the post's own images first. If the post lacks enough suitable images, source usable external photos before falling back to generated/graphic visuals. Pexels or other license-safe sources should be searched when the local assets are missing, weak, too text-heavy, or too repetitive.
 - Avoid generic or misleading visuals. For EpicKor, prefer Korea, Seoul, Korean culture, Korean food, K-beauty, K-pop, or Korean daily-life context where relevant.
 - For Korea explainers, image selection is Korea-first. Prefer visibly Korean locations, products, signage, packaging, or source pages that explicitly describe the image as taken in South Korea.
-- Reject images that are clearly from another country when the card is explaining Korea. If no Korean-specific image exists, use a culturally neutral close-up, graphic treatment, or generated/owned visual instead of foreign-looking stock.
+- Reject images that are clearly from another country when the card is explaining Korea. If no Korean-specific image exists, use a culturally neutral close-up, generated/owned visual, or a documented crop instead of foreign-looking stock. Graphic-only substitutes are a last resort and must be recorded.
+- For a 7-card high-visual carousel, use photos on at least 5 cards; food, venues, travel, weddings, shopping, beauty, products, and places should normally use photos on all 7 cards.
+- Reject text-heavy source frames unless cropped or edited so embedded captions, UI labels, or unrelated words do not compete with the card copy.
+- Before final presentation, produce `visual-review.md` with card-by-card Visual Fit Scores. Do not present the carousel unless the average is at least 90/100 and no individual card is below 88/100.
 - Every card must include a concise `kicker:` line that gives the Korea/EpicKor angle, such as `KOREA SPF GUIDE`, `SEOUL SKINCARE RULE`, or `K-BEAUTY TEXTURE MAP`.
 - Every rendered card must show `EPICKOR.COM` as the watermark text. Do not use only `EpicKor` as the watermark label.
 - The first card must create curiosity strong enough to make the user swipe to card 2.

@@ -158,14 +158,14 @@ function setPreviewPending(slug, draftPath) {
   const handoff = readHandoff();
   const now = new Date().toISOString().replace('T', ' ').slice(0, 19);
   const localPreviewUrl = `http://localhost:4000/preview/${slug}`;
-  const productionPreviewUrl = `https://epickor.com/preview/${slug}?token=[PREVIEW_SECRET_TOKEN]`;
+  const productionPreviewNote = 'Actual-token production preview must be HTTP-verified before sharing; placeholder-token preview URLs are forbidden.';
 
   const previewBlock = `## 사람 검토 대기
 
 - 슬러그: **${slug}**
 - draft 파일: \`${draftPath}\`
 - 로컬 미리보기 URL: ${localPreviewUrl}
-- 프로덕션 미리보기 URL: ${productionPreviewUrl}
+- 프로덕션 미리보기: ${productionPreviewNote}
 - 승인/거절: 위 URL에서 버튼 클릭
 - 대기 시작: ${now}
 `;
@@ -349,7 +349,7 @@ async function runReviewAndPreview(slug, researchPath) {
   log('\n✅ 리뷰 통과! 사람 검토가 필요합니다.');
   log('\n미리보기 URL:');
   log(`  로컬: http://localhost:4000/preview/${slug}`);
-  log(`  프로덕션: https://epickor.com/preview/${slug}?token=[PREVIEW_SECRET_TOKEN]`);
+  log('  프로덕션: actual PREVIEW_SECRET_TOKEN으로 HTTP 200 검증 후에만 공유. placeholder URL 금지.');
   log('\n승인/거절 방법:');
   log('  1. 위 URL 접속하여 내용 확인');
   log('  2. [승인 후 발행] 또는 [거절] 버튼 클릭');

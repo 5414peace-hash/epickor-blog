@@ -6,6 +6,7 @@
  *   npm run reels:render -- --slug 170 --audio-version v005
  *   npm run reels:render -- --slug 170 --version v006 --skip-props
  *   npm run reels:render -- --slug 170 --audio-version v005 --dry-run
+ *   npm run reels:render -- --slug 170 --allow-silent
  */
 
 import fs from 'node:fs';
@@ -103,6 +104,7 @@ const slug = args.slug;
 const audioVersion = args['audio-version'] || args.audioVersion;
 const skipProps = Boolean(args['skip-props']);
 const dryRun = Boolean(args['dry-run']);
+const allowSilent = Boolean(args['allow-silent']);
 
 if (!slug || !/^[a-zA-Z0-9_-]+$/.test(slug)) {
   console.error('Usage: npm run reels:render -- --slug {safe-slug} [--audio-version v005] [--version v006]');
@@ -145,6 +147,12 @@ if (fs.existsSync(outputPath)) {
 }
 
 const props = readJson(propsPath);
+const hasRenderableAudio = Boolean(props.audio?.staticFilePath) || (Array.isArray(props.audioSegments) && props.audioSegments.length > 0);
+if (!hasRenderableAudio && !allowSilent) {
+  console.error('Render props contain no audio. Pass --audio-version {version}, or pass --allow-silent for an intentional silent preview.');
+  process.exit(1);
+}
+
 const renderPropsPath = path.join(reelDir, `remotion-props-render-${version}.json`);
 writeJson(renderPropsPath, buildRenderProps(props, slug));
 

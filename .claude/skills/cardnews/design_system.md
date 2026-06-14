@@ -1,5 +1,12 @@
 # EpicKor Card News Design System v1.0
 
+## Instagram Grid Cover Rule
+
+- Card 01 must work as the Instagram profile-grid thumbnail.
+- Keep the hook text centered in a conservative safe area. Avoid left-bottom title placement for Card 01 unless the representative explicitly approves it for that upload.
+- For upload-ready backlog fixes, use `layout: F` and render the cover with `node .claude/skills/cardnews/scripts/render-grid-cover.mjs --slug {slug} --mirror`.
+- Keep all other carousel cards in their original layout unless there is a separate readability or visual-fit issue.
+
 ## 브랜드 개요
 
 EpicKor 카드뉴스는 한국 문화를 전하는 **프리미엄 다크 카드뉴스**다.
@@ -298,6 +305,14 @@ text-transform: uppercase;
 ---
 
 ## 이미지 사용 규칙
+
+- Photo-first gate:
+  - Real-world/high-visual topics must use actual photos by default. Weddings, food, venues, travel, shopping, beauty, products, and places should normally use photos on all 7 cards.
+  - If local post images are missing, weak, text-heavy, or repetitive, search Pexels or another license-safe source before using graphic-only visuals.
+  - SVG/graphic-only cards are allowed only when a relevant photo cannot be found or the representative explicitly approves that style for the current task.
+  - Reject visibly non-Korean locations, packaging, streets, or interiors for Korea explainers unless the card is making an international comparison.
+  - Crop or edit text-heavy frames so embedded captions/UI text do not compete with the card copy.
+  - Final approval requires `visual-review.md`: average Visual Fit Score >=90/100, no card below 88/100.
 
 - 배경 이미지: Pexels에서 소싱, `output/cardnews/{slug}/images/`에 로컬 저장
 - 상대경로로만 참조: `images/pexels_card_01.jpg`

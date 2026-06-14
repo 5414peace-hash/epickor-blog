@@ -7,6 +7,9 @@ export const dynamic = 'force-dynamic';
 
 type ReviewStatus = 'pending' | 'approved' | 'rejected' | 'replace_needed';
 
+const FINAL_REQUIRED_VISUALS_PER_SCENE = 1;
+const REVIEW_DEPTH_VISUALS_PER_SCENE = 2;
+
 interface Scene {
   number: number;
   narration: string;
@@ -162,7 +165,7 @@ function buildPayload(
     .filter((scene) =>
       hasMotionCards(scene.number)
         ? !hasApprovedMotionCard(scene.number)
-        : !Array.isArray(scene.selectedImages) || scene.selectedImages.length < 2
+        : !Array.isArray(scene.selectedImages) || scene.selectedImages.length < FINAL_REQUIRED_VISUALS_PER_SCENE
     )
     .map((scene) => scene.number);
   const replacementScenes = candidatesFile.scenes
@@ -183,7 +186,7 @@ function buildPayload(
     slug,
     title: scenesFile.title,
     status: scenesFile.status,
-    minRankedVisualsPerScene: 2,
+    minRankedVisualsPerScene: FINAL_REQUIRED_VISUALS_PER_SCENE,
     nextStep,
     scenes: scenesFile.scenes,
     candidateScenes: candidatesFile.scenes,
@@ -215,7 +218,7 @@ function syncSceneFromRanks(scene: Scene, candidateScene: CandidateScene) {
   const ranked = getRankedCandidates(candidateScene);
   scene.selectedImages = ranked.map((candidate) => candidate.src);
   scene.selectedImage = ranked[0]?.src || '';
-  scene.reviewStatus = ranked.length >= 2 ? 'approved' : ranked.length > 0 ? 'pending' : scene.reviewStatus;
+  scene.reviewStatus = ranked.length >= FINAL_REQUIRED_VISUALS_PER_SCENE ? 'approved' : scene.reviewStatus;
 }
 
 function buildApprovedScenes(scenesFile: ScenesFile) {
@@ -256,7 +259,7 @@ function getMissingScenes(scenesFile: ScenesFile, motionCardsFile: MotionCardsFi
     .filter((scene) =>
       sceneHasMotionCards(motionCardsFile, scene.number)
         ? !getApprovedMotionCard(motionCardsFile, scene.number)
-        : !Array.isArray(scene.selectedImages) || scene.selectedImages.length < 2
+        : !Array.isArray(scene.selectedImages) || scene.selectedImages.length < FINAL_REQUIRED_VISUALS_PER_SCENE
     )
     .map((scene) => scene.number);
 }
@@ -313,9 +316,9 @@ function buildReviewPass(slug: string, scenesFile: ScenesFile, candidatesFile: C
       })),
       replaceCandidateIds: replaceCandidates.map((candidate) => candidate.id),
       rejectedCandidateIds: rejectedCandidates.map((candidate) => candidate.id),
-      needsReplacementSourcing: ranked.length < 2 || replaceCandidates.length > 0,
+      needsReplacementSourcing: ranked.length < REVIEW_DEPTH_VISUALS_PER_SCENE || replaceCandidates.length > 0,
       replacementBrief:
-        ranked.length < 2
+        ranked.length < REVIEW_DEPTH_VISUALS_PER_SCENE
           ? 'Find more distinct visual candidates matched to narration keywords before final approval.'
           : replaceCandidates.length > 0
             ? 'User requested replacement options; source stronger alternatives if this scene still feels thin.'
@@ -326,7 +329,7 @@ function buildReviewPass(slug: string, scenesFile: ScenesFile, candidatesFile: C
   return {
     slug,
     submittedAt: new Date().toISOString(),
-    minRankedVisualsPerScene: 2,
+    minRankedVisualsPerScene: REVIEW_DEPTH_VISUALS_PER_SCENE,
     status: scenes.some((scene) => scene.needsReplacementSourcing) ? 'replacement_sourcing_needed' : 'ready_for_final_visual_approval',
     scenes,
     replacementScenes: scenes.filter((scene) => scene.needsReplacementSourcing),
@@ -385,7 +388,7 @@ export async function PATCH(request: NextRequest, { params }: { params: Promise<
       if (missingScenes.length > 0) {
         return NextResponse.json(
           {
-            error: `Visual review is not complete. Rank at least two visuals for scenes: ${missingScenes.join(', ')}`,
+            error: `Visual review is not complete. Select at least one visual for scenes: ${missingScenes.join(', ')}`,
             missingScenes,
             ...(await buildPayloadWithMotionCards(slug, scenesFile, candidatesFile, paths)),
           },
@@ -433,7 +436,7 @@ export async function PATCH(request: NextRequest, { params }: { params: Promise<
 
         const ranked = getRankedCandidates(candidateScene);
         const hasReplacementRequest = candidateScene.candidates.some((candidate) => candidate.reviewStatus === 'replace_needed');
-        if (ranked.length < 2 || hasReplacementRequest) {
+        if (ranked.length < REVIEW_DEPTH_VISUALS_PER_SCENE || hasReplacementRequest) {
           scene.reviewStatus = 'replace_needed';
           scene.reviewerNote = 'Review pass submitted with replacement sourcing requested.';
         }
@@ -583,7 +586,7 @@ export async function PATCH(request: NextRequest, { params }: { params: Promise<
 
       const approvedScenes = buildApprovedScenes(scenesFile);
 
-      scenesFile.status = scenesFile.scenes.every((item) => (item.selectedImages || []).length >= 2)
+      scenesFile.status = scenesFile.scenes.every((item) => (item.selectedImages || []).length >= FINAL_REQUIRED_VISUALS_PER_SCENE)
         ? 'visuals_ranked'
         : 'visual_review_pending';
 
@@ -638,7 +641,7 @@ export async function PATCH(request: NextRequest, { params }: { params: Promise<
 
     const approvedScenes = buildApprovedScenes(scenesFile);
 
-    scenesFile.status = scenesFile.scenes.every((item) => (item.selectedImages || []).length >= 2)
+    scenesFile.status = scenesFile.scenes.every((item) => (item.selectedImages || []).length >= FINAL_REQUIRED_VISUALS_PER_SCENE)
       ? 'visuals_ranked'
       : 'visual_review_pending';
 

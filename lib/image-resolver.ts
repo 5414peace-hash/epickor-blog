@@ -45,6 +45,12 @@ export function resolveImagePaths(html: string, postSlug: string): string {
     if (rawSrc.startsWith('http://') || rawSrc.startsWith('https://') || rawSrc.startsWith('//')) {
       return match;
     }
+
+    // Preserve explicit site asset paths. These may intentionally reference
+    // another post's deployed image folder.
+    if (rawSrc.startsWith('/assets/')) {
+      return match;
+    }
     
     // Extract filename from path
     const filename = rawSrc.split('/').pop() || rawSrc;

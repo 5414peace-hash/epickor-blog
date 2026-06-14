@@ -1,4 +1,4 @@
-# EpicKor Blog - Claude/Codex 운영 가이드
+# EpicKor Blog - Codex/Codex 운영 가이드
 
 ## COO_BRIEF
 
@@ -48,7 +48,7 @@
 - Before final save, Reviewer must compare the candidate `image:` values against existing `public/assets/cardnews/*/script.md` files and flag any cross-post duplicates.
 - Reviewer must inspect rendered PNGs card by card for image relevance, mobile readability, watermark presence, and swipe logic.
 - Card-news visual approval requires a written Visual Fit Score: direct topic fit 30, Korea/context fit 25, no misleading/text/watermark risk 20, carousel variety/coherence 15, rendered mobile quality 10. Do not show the user a carousel unless the average is at least 90/100 and no individual card is below 88/100. Any misleading country/context mismatch caps that card at 59; graphic-only use where a photo could be sourced caps that card at 79.
-- Before recording "Reviewer visually inspected" in `HANDOFF.md`, run `node .claude/skills/cardnews/scripts/review-cardnews.mjs --slug {slug}` after rendering. The script passing is not enough by itself; it is the structural gate before manual PNG inspection.
+- Before recording "Reviewer visually inspected" in `HANDOFF.md`, run `node .Codex/skills/cardnews/scripts/review-cardnews.mjs --slug {slug}` after rendering. The script passing is not enough by itself; it is the structural gate before manual PNG inspection.
 - Record card news agent roles and rendered-image review in `HANDOFF.md`.
 
 ## Instagram Revival Card News Strategy
@@ -117,7 +117,7 @@
 - Prefer an HTML `<table>` wrapped in `<div class="table-scroll">` for important reader-facing tables so the rendered article looks clean on desktop and mobile.
 - Reviewer must inspect rendered table sections in the browser. If a table looks like unstyled text, cramped columns, or broken mobile layout, the post is not ready.
 
-> epickor.com | 한국 문화·여행·라이프스타일 영어 블로그  
+> epickor.com | 한국 문화·여행·라이프스타일 영어 블로그
 > 이 파일과 `HANDOFF.md`를 읽으면 현재 파이프라인을 바로 이어받을 수 있다.
 
 ---
@@ -130,7 +130,7 @@
 | GitHub | 5414peace-hash/epickor-blog (branch: master) |
 | 배포 | Vercel - master push 시 자동 배포 |
 | 스택 | Next.js 16 + React 19 + TypeScript + Tailwind CSS v4 |
-| 글 작성 | Claude/Codex가 직접 작성 |
+| 글 작성 | Codex/Codex가 직접 작성 |
 | 리서치 | DuckDuckGo keyless search + Pexels API |
 | 수익화 | Amazon Affiliate |
 | 최신 슬러그 | 166 -> 다음 글: 167 |
@@ -170,7 +170,7 @@ Gemini API는 더 이상 사용하지 않는다.
 
 ## 파이프라인 흐름
 
-이 파이프라인은 완전 자동 글쓰기 흐름이 아니다. API 할당량 문제를 없애기 위해 리서치와 검증은 스크립트가 돕고, 글과 카드뉴스 문안은 Claude/Codex가 직접 작성한다.
+이 파이프라인은 완전 자동 글쓰기 흐름이 아니다. API 할당량 문제를 없애기 위해 리서치와 검증은 스크립트가 돕고, 글과 카드뉴스 문안은 Codex/Codex가 직접 작성한다.
 
 ### Step 1 - 리서치 자동 생성
 
@@ -197,7 +197,7 @@ node scripts/run-pipeline.mjs --step draft --slug 166
 
 - `output/drafts/166_writer-brief.md`
 
-그 다음 Claude/Codex가 직접 작성:
+그 다음 Codex/Codex가 직접 작성:
 
 - `output/drafts/166_draft.md`
 
@@ -218,7 +218,7 @@ node scripts/run-pipeline.mjs --step review --slug 166
 - `pass: true`
 - `seo_score >= 70`
 
-중요: 이 자동 리뷰는 형식/SEO 검사다. 다음 항목은 Claude/Codex가 사람 검토 전에 반드시 별도로 확인한다.
+중요: 이 자동 리뷰는 형식/SEO 검사다. 다음 항목은 Codex/Codex가 사람 검토 전에 반드시 별도로 확인한다.
 
 - 본문에 나온 작품명, 인물, 공개일, 플랫폼은 공식 사이트나 신뢰 가능한 최신 출처로 확인한다.
 - 확인이 약한 작품은 "지금 볼 추천작"처럼 단정하지 않고, "추적할 작품" 또는 "공개 여부 확인 필요"로 낮춰 쓴다.
@@ -241,7 +241,7 @@ node scripts/run-pipeline.mjs --step review --slug 166
 승인 후 카드뉴스 브리프를 만든다.
 
 ```bash
-node .claude/skills/cardnews/scripts/generate-slides.mjs \
+node .Codex/skills/cardnews/scripts/generate-slides.mjs \
   --draft output/drafts/166_draft.md \
   --research output/research/166_research.json \
   --slug 166
@@ -251,14 +251,14 @@ node .claude/skills/cardnews/scripts/generate-slides.mjs \
 
 - `output/cardnews/YYYY-MM-DD_166/script-brief.md`
 
-그 다음 Claude/Codex가 직접 작성:
+그 다음 Codex/Codex가 직접 작성:
 
 - `output/cardnews/YYYY-MM-DD_166/script.md`
 
 PNG 렌더:
 
 ```bash
-python .claude/skills/cardnews/scripts/html-to-png.py --slug 166
+python .Codex/skills/cardnews/scripts/html-to-png.py --slug 166
 ```
 
 ### Step 5B/6 - Amazon 링크 삽입 및 발행
@@ -289,8 +289,8 @@ output/review/                review.json
 output/final/                 final.md
 output/cardnews/YYYY-MM-DD_{slug}/ script.md 및 card PNG
 output/reels/{slug}/          Reels scene manifest, visual candidates, review notes, and audio
-.claude/skills/               팀별 스크립트
-.claude/agents/               팀별 운영 지침
+.Codex/skills/               팀별 스크립트
+.Codex/agents/               팀별 운영 지침
 ```
 
 ---

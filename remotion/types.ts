@@ -19,6 +19,8 @@ export interface ReelScene {
   narration: string;
   captionBeats: string[];
   captionBeatStartFrames?: number[];
+  captionLeadFrames?: number;
+  captionStyle?: 'phrase_pop' | 'readable_band';
   typographyBeats: ReelTypographyBeat[];
   motion: string;
   images: ReelImage[];
@@ -95,6 +97,7 @@ export interface ReelProps {
     highlightColor?: string;
     background?: string;
     maxWordsPerBeat?: number;
+    captionLeadFrames?: number;
   };
   scenes: ReelScene[];
   motionCards?: ReelMotionCard[];

@@ -35,8 +35,8 @@ function sceneRankName(sceneNumber, rank) {
   return `scene-${String(sceneNumber).padStart(2, '0')}-rank-${String(rank).padStart(2, '0')}.jpg`;
 }
 
-async function downloadImage(url, outputPath) {
-  if (fs.existsSync(outputPath) && fs.statSync(outputPath).size > 0) {
+async function downloadImage(url, outputPath, { allowExisting = false } = {}) {
+  if (allowExisting && fs.existsSync(outputPath) && fs.statSync(outputPath).size > 0) {
     return { skipped: true, bytes: fs.statSync(outputPath).size };
   }
 
@@ -80,6 +80,7 @@ if (!slug || !/^[a-zA-Z0-9_-]+$/.test(slug)) {
 const reelDir = path.join(ROOT, 'output', 'reels', slug);
 const approvedPath = path.join(reelDir, 'approved-visuals.json');
 const outputAssetDir = path.join(ROOT, 'public', 'assets', 'reels', slug);
+const manifestPath = path.join(reelDir, 'asset-manifest.json');
 
 if (!fs.existsSync(approvedPath)) {
   console.error(`Missing finalized visual manifest: ${path.relative(ROOT, approvedPath)}`);
@@ -92,6 +93,12 @@ const approved = readJson(approvedPath);
 if (!approved.finalizedAt) {
   console.error('approved-visuals.json does not include finalizedAt. Finalize visual review before preparing assets.');
   process.exit(1);
+}
+
+const previousManifest = fs.existsSync(manifestPath) ? readJson(manifestPath) : { scenes: [] };
+function previousSourceFor(sceneNumber, rank) {
+  const previousScene = previousManifest.scenes?.find((scene) => scene.number === sceneNumber);
+  return previousScene?.images?.find((image) => image.rank === rank)?.src;
 }
 
 const manifest = {
@@ -109,7 +116,9 @@ for (const scene of approved.scenes || []) {
     const rank = index + 1;
     const fileName = sceneRankName(scene.number, rank);
     const outputPath = path.join(outputAssetDir, fileName);
-    const result = await downloadImage(selectedImages[index], outputPath);
+    const result = await downloadImage(selectedImages[index], outputPath, {
+      allowExisting: previousSourceFor(scene.number, rank) === selectedImages[index],
+    });
     const publicPath = `/assets/reels/${slug}/${fileName}`;
 
     images.push({
@@ -128,7 +137,6 @@ for (const scene of approved.scenes || []) {
   });
 }
 
-const manifestPath = path.join(reelDir, 'asset-manifest.json');
 writeJson(manifestPath, manifest);
 console.log(`Saved ${path.relative(ROOT, manifestPath)}`);
 console.log(`Assets directory ${path.relative(ROOT, outputAssetDir)}`);

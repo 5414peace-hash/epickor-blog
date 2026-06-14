@@ -1,5 +1,54 @@
 # HANDOFF - EpicKor Agent Teams v2
 
+## Latest Update - 2026-06-14 Workspace Cleanup / Ops Port
+
+- Representative confirmed `epickor.com` now opens normally in Whale/Chrome after removing the stale apex DNS `A` record `167.99.28.202` from Porkbun.
+- Workspace cleanup was started safely because the main worktree at `D:\dev\epickor-blog` is stale and heavily dirty:
+  - main `master` is 51 commits behind `origin/master`.
+  - main worktree has many modified/deleted/untracked files, including old blog/post/cardnews/reels artifacts.
+  - no destructive reset, clean, or delete was run against the main worktree.
+- Clean working base selected:
+  - `.tmp/worktrees/post-batch-201-203`
+  - branch: `post-batch-201-203`
+  - status before port: clean
+  - `HEAD` matched `origin/master` at `4e65692`.
+- Non-destructive archive work completed in the main worktree:
+  - moved completed Reels 186-191 temporary share/dashboard/log folders under `.tmp/archive/2026-06-14-reels-share-artifacts/`.
+  - saved recovery audit files under `.tmp/archive/2026-06-14-cleanup-audit/`:
+    - `tracked-main-dirty.patch`
+    - `selected-ops-port.patch`
+    - `selected-ops-port-no-next.patch`
+    - `untracked-paths.txt`
+    - `git-status-porcelain.txt`
+    - `summary.txt`
+- Ops improvements ported into the clean worktree:
+  - root `AGENTS.md` operating guide.
+  - updated `CLAUDE.md` rules for COO brief, preview-token safety, card-news thumbnail safe area, Reels CTA domain text, and worktree hygiene.
+  - Reels/cardnews/reviewer agent rule updates.
+  - Reels evaluation gate files and `npm run reels:evaluate`.
+  - Reels review UI and Remotion pipeline updates.
+  - image resolver safeguard for explicit `/assets/` paths.
+  - pipeline preview logging changed to forbid placeholder production preview URLs.
+  - Meta Suite local-artifact ignore rules.
+- Deliberately not ported yet:
+  - main-worktree blog/content/public asset differences.
+  - `content/data/topics-queue.json` from the stale main worktree.
+  - `reports/*` differences.
+  - `tools/meta-suite-helper`, `config`, and `input` experimental/operations folders.
+  - old rendered `output/*` video/card artifacts.
+- Verification:
+  - `git diff --check` passed in the clean worktree.
+  - `node --check` passed for new cardnews/reels scripts.
+  - `npm.cmd run build` passed in `.tmp/worktrees/post-batch-201-203`.
+  - Build warning only: Next.js detected multiple lockfiles due to the nested worktree path; no build failure.
+- Current status:
+  - Clean worktree now contains a reviewable ops-cleanup change set.
+  - Main dirty worktree remains preserved for later selective salvage or final reset/cleanup.
+- Next recommended priorities:
+  1. Commit the clean ops-cleanup change set from `.tmp/worktrees/post-batch-201-203`.
+  2. After commit, choose whether to push the ops-cleanup branch or merge it into `master`.
+  3. Only after the ops changes are safely committed, decide whether the stale main worktree should be reset/cleaned or left as a preserved archive.
+
 ## Latest Update - 2026-06-14 Blog 198 Waterbomb Images Replaced
 
 - Representative reviewed Blog 198 and said the images did not fit well enough.

@@ -1,9 +1,35 @@
 import { Composition, registerRoot } from 'remotion';
 import { ReelComposition } from './ReelComposition';
 import type { ReelProps } from './types';
-import props from '../output/reels/170/remotion-props.json';
 
-const reelProps = props as ReelProps;
+const defaultReelProps: ReelProps = {
+  slug: 'preview',
+  title: 'EpicKor Reel',
+  width: 1080,
+  height: 1920,
+  fps: 30,
+  durationFrames: 1,
+  durationSeconds: 1 / 30,
+  finalizedAt: '',
+  audio: null,
+  audioSegments: [],
+  outro: {
+    startFrame: 0,
+    durationFrames: 1,
+    text: 'epicKor.com',
+  },
+  brand: {
+    label: 'EpicKor',
+    cta: 'EPICKOR.COM',
+  },
+  subtitleStyle: {
+    mode: 'narration_synced',
+    preset: 'modern_reels_phrase_pop',
+  },
+  scenes: [],
+  motionCards: [],
+  motionCardTemplates: [],
+};
 
 function metadataFromProps(inputProps: ReelProps) {
   return {
@@ -20,21 +46,21 @@ function Root() {
       <Composition
         id="EpicKorReel"
         component={ReelComposition}
-        width={reelProps.width}
-        height={reelProps.height}
-        fps={reelProps.fps}
-        durationInFrames={reelProps.durationFrames}
-        defaultProps={reelProps}
+        width={defaultReelProps.width}
+        height={defaultReelProps.height}
+        fps={defaultReelProps.fps}
+        durationInFrames={defaultReelProps.durationFrames}
+        defaultProps={defaultReelProps}
         calculateMetadata={({ props: inputProps }) => metadataFromProps(inputProps as ReelProps)}
       />
       <Composition
-        id="EpicKorReel170"
+        id="EpicKorReelPreview"
         component={ReelComposition}
-        width={reelProps.width}
-        height={reelProps.height}
-        fps={reelProps.fps}
-        durationInFrames={reelProps.durationFrames}
-        defaultProps={reelProps}
+        width={defaultReelProps.width}
+        height={defaultReelProps.height}
+        fps={defaultReelProps.fps}
+        durationInFrames={defaultReelProps.durationFrames}
+        defaultProps={defaultReelProps}
       />
     </>
   );
