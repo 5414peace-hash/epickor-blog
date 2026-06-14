@@ -1,5 +1,50 @@
 # HANDOFF - EpicKor Agent Teams v2
 
+## Latest Update - 2026-06-14 Workspace Cleanup Completed
+
+- Representative asked to proceed with priority 3 first: make the local project folder safe, clean, and orderly before starting the next content package.
+- Domain note:
+  - Representative removed stale Porkbun apex DNS `A` record `167.99.28.202`.
+  - Representative confirmed `epickor.com` opens normally in Whale/Chrome.
+  - `www.epickor.com` and `/blog/198` were verified by `curl -I` as HTTP 200 after the deployment.
+- Safe cleanup sequence completed:
+  - Created and pushed ops cleanup branch `ops-cleanup-20260614`.
+  - Ported selected operational improvements from the stale dirty main worktree into a clean worktree.
+  - Merged those changes to `master` by fast-forward push.
+  - Added `.tmp/` to `.gitignore` so local worktrees/archives do not pollute Git status.
+  - Main `master` was then safely brought up to latest `origin/master`.
+- Commits pushed to `origin/master`:
+  - `288d40d` - `Port ops cleanup and reels evaluation gates`
+  - `2510fb0` - `Ignore local temp workspace`
+- Verification:
+  - `npm.cmd run build` passed before merge in the clean worktree.
+  - `git diff --check` and new script `node --check` gates passed before commit.
+  - Vercel production deployment for latest master reached `Ready`.
+  - Current main worktree status: clean.
+  - Current main branch: `master` at `2510fb0`, even with `origin/master`.
+  - Temporary worktree `.tmp/worktrees/post-batch-201-203` was removed via `git worktree remove`.
+  - `git worktree list --porcelain` now shows only the main worktree.
+- Preservation / rollback notes:
+  - Tracked dirty main changes were saved in `stash@{0}` with message `pre-ff-main-dirty-2026-06-14`.
+  - Full tracked patch backup: `.tmp/archive/2026-06-14-cleanup-audit/tracked-main-dirty.patch`.
+  - Selected ops patch backups:
+    - `.tmp/archive/2026-06-14-cleanup-audit/selected-ops-port.patch`
+    - `.tmp/archive/2026-06-14-cleanup-audit/selected-ops-port-no-next.patch`
+  - Untracked files from the stale main worktree were moved, not deleted, to `.tmp/archive/2026-06-14-main-untracked-before-ff/`.
+  - Completed Reels 186-191 temporary share/dashboard/log folders were moved, not deleted, to `.tmp/archive/2026-06-14-reels-share-artifacts/`.
+- Deliberately preserved for later review:
+  - `.tmp/reel192-review-share/`
+  - `.tmp/build-reel192-review-share.mjs`
+  - `.tmp/rebuild-reel192-dashboard.mjs`
+  - archive folders under `.tmp/archive/`
+- Current status:
+  - Repository is clean and safe for the next work.
+  - Next content work should start from the main worktree directly, not from a stale temporary worktree.
+- Next recommended priorities:
+  1. Start Blog 198 Waterbomb Reels/card-news package because it has the strongest immediate summer/social hook.
+  2. Continue with Blog 199 rainy-season card-news while jangma timing is active.
+  3. Later review `.tmp/archive/` and old stashes after confirming no preserved artifact is needed.
+
 ## Latest Update - 2026-06-14 Workspace Cleanup / Ops Port
 
 - Representative confirmed `epickor.com` now opens normally in Whale/Chrome after removing the stale apex DNS `A` record `167.99.28.202` from Porkbun.
