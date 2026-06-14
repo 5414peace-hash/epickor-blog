@@ -1,5 +1,53 @@
 # HANDOFF - EpicKor Agent Teams v2
 
+## Latest Update - 2026-06-14 Blogs 198/199/200 Published
+
+- Representative approved moving forward with three sharp next topics and requested each post include at least 3-4 suitable photos, with Reviewer Agent approval at 90+ before final posting/deploy.
+- Completed and published posts:
+  - `198` - `Waterbomb Seoul 2026 Survival Guide: What to Wear, Bring, and Avoid`
+  - `199` - `Korea Rainy Season Travel Guide: What Tourists Should Pack for Jangma`
+  - `200` - `Chuseok 2026 Travel Shutdown Guide: What Tourists Need Before September 24-27`
+- Image sourcing:
+  - Each post has 4 images under `public/assets/images/posts/{198,199,200}/`.
+  - Source notes saved in each post image folder as `image-sources.md`.
+  - Waterbomb post uses license-safe Korea concert/beach/phone-prep support visuals, not actual Waterbomb photos; captions explicitly avoid implying they are documentary Waterbomb images.
+- Reviewer Agent result:
+  - Saved report: `reports/image-fit-review-198-200.md`
+  - Blog `198` average Visual Fit Score: `92.5/100`; all selected images >= 91.
+  - Blog `199` average Visual Fit Score: `97.0/100`; all selected images >= 96.
+  - Blog `200` average Visual Fit Score: `93.5/100`; all selected images >= 91.
+- Amazon placement:
+  - Each post has exactly two `.affiliate-inline-cta` boxes.
+  - First CTA in each post includes Amazon Associate disclosure.
+  - Amazon links use `rel="nofollow sponsored noopener noreferrer"`.
+- Verification:
+  - Word counts: `198` 2017, `199` 1826, `200` 1816.
+  - Each post has 4 local images and 2 affiliate CTA boxes.
+  - `npm.cmd run build` passed in temporary worktree `.tmp/worktrees/post-batch-198-200`.
+  - Built HTML confirmed titles/images/CTA markers for `/blog/198`, `/blog/199`, `/blog/200`.
+  - Production deployment `https://epickor-blog-9dajwd4t8-yhs-projects-5de403d3.vercel.app` reached `Ready`.
+  - Public URLs returned HTTP 200:
+    - `https://www.epickor.com/blog/198`
+    - `https://www.epickor.com/blog/199`
+    - `https://www.epickor.com/blog/200`
+  - Representative image URLs returned HTTP 200 for the main images of 198/199/200.
+- Deployment:
+  - Commit `8faf3e9` - `Publish blogs 198-200`
+  - Pushed to `origin/master`; latest Vercel production deployment reached `Ready`.
+- Agents involved:
+  - Strategy Team: selected Waterbomb/Jangma/Chuseok as timely monetizable next topics.
+  - Research Agent: checked current event/season/holiday facts and sourced Pexels visuals.
+  - Writer Agent: wrote the three public posts.
+  - Reviewer Agent: scored selected images and checked word count, images, CTAs, build output, and public URLs.
+  - Publisher Agent: committed, pushed, and verified production deployment.
+- Current status:
+  - Blog batch 198/199/200 is published and publicly verified.
+  - `content/data/topics-queue.json` now has `next_slug: 201`.
+- Next recommended priorities:
+  1. Prepare Reels/card-news packaging from the strongest newly published topic, with `198` Waterbomb first because it has the sharpest immediate summer/Reels hook.
+  2. Create a rainy-season card-news carousel from `199` while Korea is in the June/July jangma window.
+  3. Keep `200` Chuseok as an evergreen planning article and revisit for card news closer to late August/early September.
+
 ## Latest Update - 2026-06-13 Card News Batch 195/196/197
 
 - Representative approved producing three card-news carousels after blog 195/196/197 publication and image-expansion work.
