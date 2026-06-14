@@ -6,16 +6,18 @@ Gate: minimum 90/100 per selected image
 
 ## Blog 198 - Waterbomb Seoul 2026
 
-Average: 92.5/100. Pass.
+Updated: 2026-06-14 after representative feedback that the first image set did not fit Waterbomb closely enough.
+
+Average: 95.5/100. Pass.
 
 | Image | Direct topic fit | Korea/context fit | No misleading risk | Variety/utility | Render quality | Total |
 |---|---:|---:|---:|---:|---:|---:|
-| korea-outdoor-concert-crowd.jpg | 28 | 25 | 19 | 12 | 10 | 94 |
-| haeundae-summer-beach.jpg | 25 | 25 | 18 | 13 | 10 | 91 |
-| jeju-beach-phone-photo.jpg | 26 | 25 | 18 | 13 | 10 | 92 |
-| korea-sunset-outdoor-concert.jpg | 27 | 25 | 18 | 13 | 10 | 93 |
+| water-festival-crowd-generated.jpg | 30 | 24 | 19 | 13 | 10 | 96 |
+| quick-dry-outfit-generated.jpg | 29 | 24 | 19 | 13 | 10 | 95 |
+| festival-essentials-generated.jpg | 30 | 24 | 20 | 13 | 10 | 97 |
+| festival-exit-transit-generated.jpg | 28 | 24 | 19 | 13 | 10 | 94 |
 
-Reviewer note: no image is labeled as actual Waterbomb. Captions explicitly state when an image is a support visual, which controls misleading-event risk.
+Reviewer note: the visible images are EpicKor-generated support visuals, not official Waterbomb photos. This is safer than reusing unlicensed event photos and more visually accurate than the prior generic Korea concert/beach set. Captions explicitly state the generated/support status to control misleading-event risk.
 
 ## Blog 199 - Korea Rainy Season
 
