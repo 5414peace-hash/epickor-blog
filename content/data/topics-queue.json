@@ -873,8 +873,74 @@
       "status": "done",
       "generated_slug": "197",
       "generated_date": "2026-06-13"
+    },
+    {
+      "id": 42,
+      "title": "Waterbomb Seoul 2026 Survival Guide: What to Wear, Bring, and Avoid",
+      "keywords": [
+        "Waterbomb Seoul 2026",
+        "Waterbomb Seoul packing",
+        "Waterbomb Korea what to wear",
+        "Korea summer festival"
+      ],
+      "category": "Travel",
+      "tags": [
+        "WaterbombSeoul",
+        "KoreaTravel",
+        "SummerFestival",
+        "Kpop",
+        "PackingGuide"
+      ],
+      "amazon_category": "Travel",
+      "status": "done",
+      "generated_slug": "198",
+      "generated_date": "2026-06-14"
+    },
+    {
+      "id": 43,
+      "title": "Korea Rainy Season Travel Guide: What Tourists Should Pack for Jangma",
+      "keywords": [
+        "Korea rainy season",
+        "jangma Korea",
+        "Korea rainy season packing",
+        "Seoul rain travel"
+      ],
+      "category": "Travel",
+      "tags": [
+        "KoreaTravel",
+        "Jangma",
+        "RainySeason",
+        "SeoulTravel",
+        "PackingGuide"
+      ],
+      "amazon_category": "Travel",
+      "status": "done",
+      "generated_slug": "199",
+      "generated_date": "2026-06-14"
+    },
+    {
+      "id": 44,
+      "title": "Chuseok 2026 Travel Shutdown Guide: What Tourists Need Before September 24-27",
+      "keywords": [
+        "Chuseok 2026",
+        "Korea Chuseok travel",
+        "Korea holiday shutdown",
+        "Chuseok train tickets"
+      ],
+      "category": "Travel",
+      "tags": [
+        "Chuseok",
+        "KoreaTravel",
+        "KoreanCulture",
+        "TravelPlanning",
+        "SeoulTravel"
+      ],
+      "amazon_category": "Travel",
+      "status": "done",
+      "generated_slug": "200",
+      "generated_date": "2026-06-14"
     }
   ],
-  "last_updated": "2026-06-13",
-  "next_slug": 198
+  "last_updated": "2026-06-14",
+  "next_slug": 201
 }
