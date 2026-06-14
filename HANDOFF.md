@@ -1,5 +1,37 @@
 # HANDOFF - EpicKor Agent Teams v2
 
+## Latest Update - 2026-06-14 Blog 198 Waterbomb Images Replaced
+
+- Representative reviewed Blog 198 and said the images did not fit well enough.
+- Corrective work completed:
+  - Replaced all four visible Blog 198 images with EpicKor-generated, Waterbomb-style support visuals:
+    - `water-festival-crowd-generated.jpg`
+    - `quick-dry-outfit-generated.jpg`
+    - `festival-essentials-generated.jpg`
+    - `festival-exit-transit-generated.jpg`
+  - Removed the prior weaker Pexels support images from `public/assets/images/posts/198/`.
+  - Updated `content/blog/198.md` `ogImage`, image paths, alt text, and captions.
+  - Captions clearly state the visuals are EpicKor-generated support visuals and not official Waterbomb photos.
+  - Converted generated PNGs to optimized JPEGs with `sharp`; final image sizes are roughly 263-346KB each.
+- Reviewer Agent result:
+  - Updated `reports/image-fit-review-198-200.md`.
+  - Blog `198` revised image average Visual Fit Score: `95.5/100`.
+  - Individual image scores: 96, 95, 97, 94.
+- Verification:
+  - Local image path check passed: 4 visible images, 0 missing.
+  - `npm.cmd run build` passed in temporary worktree `.tmp/worktrees/fix-198-images`.
+  - Built HTML confirmed the new image paths and generated-support captions.
+  - Commit `72e645c` - `Replace Waterbomb post visuals` pushed to `origin/master`.
+  - Vercel production deployment `https://epickor-blog-qf2gfyu8i-yhs-projects-5de403d3.vercel.app` reached `Ready`.
+  - Public `https://www.epickor.com/blog/198` returned HTTP 200.
+  - New image URLs returned HTTP 200 for at least the hero, essentials, and outfit images.
+- Current status:
+  - Blog 198 visual fit issue is corrected and deployed.
+  - HTML body GET checks were intermittently blocked by a local connection failure, but HEAD/page status, image URL status, local build HTML, and Vercel Ready all passed.
+- Next recommended priorities:
+  1. Use Blog 198 as the first candidate for a Waterbomb Reels/card-news package because visuals now match the topic strongly.
+  2. For future event posts where official photos are not license-safe, use generated support visuals earlier instead of weak generic Pexels substitutes.
+
 ## Latest Update - 2026-06-14 Blogs 198/199/200 Published
 
 - Representative approved moving forward with three sharp next topics and requested each post include at least 3-4 suitable photos, with Reviewer Agent approval at 90+ before final posting/deploy.
