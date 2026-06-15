@@ -32,9 +32,14 @@
   - Research Agent: official source checks and image sourcing.
   - Writer Agent: wrote/published 201-203 with tables, FAQs, internal links, and Amazon CTAs.
   - Reviewer Agent: validated image count, local paths, rendered routes, image responses, and production build.
-- Current status:
-  - Ready for selective git commit and push.
-  - Unrelated Reels/Remotion/package changes remain in the worktree and should not be included in this blog deployment commit unless explicitly requested.
+- Deploy status:
+  - Selective deployment commit completed: `3e6d7f5 Add Korea travel utility posts 201-203`.
+  - Pushed to `origin/master`; Vercel auto deploy was triggered.
+  - Public verification passed after deploy:
+    - `https://www.epickor.com/blog/201` returned HTTP 200 and all 4 post images returned HTTP 200.
+    - `https://www.epickor.com/blog/202` returned HTTP 200 and all 4 post images returned HTTP 200.
+    - `https://www.epickor.com/blog/203` returned HTTP 200 and all 4 post images returned HTTP 200.
+  - Unrelated Reels/Remotion/package changes remain in the worktree and were not included in the blog deployment commit.
 
 ## Latest Update - 2026-06-15 Reels 198 Production Started
 
