@@ -14,6 +14,10 @@
 - Rank image candidates by direct topic fit, Korea/context fit, crop usability, duplicate risk, and license/source clarity.
 - Do not rely on one image source or one repeated subject. The final 3-4 images should have clear visual variety across the article.
 - If Pexels lacks a direct Korea-specific fit, broaden to license-safe official/public-domain/owned/generated options and record the reason.
+- Before selecting final blog images, check candidate source URLs, Pexels photo IDs, filenames, and local image hashes against previous posts. Do not reuse a visual already used in another blog post unless the representative explicitly approves it.
+- Do not treat "Korea-looking" as enough. Each selected image needs a direct section-level fit, not only a broad country mood.
+- Avoid filling a post with multiple images from the same photographer/session/source family unless the topic is specifically about that location and no better alternative exists.
+- Keep a short image decision note for new posts: selected image, source/ownership, direct fit reason, duplicate check result, and any weakness.
 
 ## Reels Visual Research Rules
 

@@ -15,6 +15,9 @@
 - Do not cluster all images at the top. Each image must support the nearby section, not merely satisfy the count.
 - Use fresh local `/assets/images/posts/{slug}/...` paths, descriptive alt text, and a short credit/source line.
 - For Korea explainers, prefer Korea-specific visuals. If a perfect Korea-specific photo is unavailable, use a culturally neutral close-up or owned/generated image instead of a visibly foreign stock scene.
+- Do not reuse images or Pexels source photos already used in older posts. A new filename is not enough if the underlying photo/source is the same.
+- If an image is only tangentially related to the paragraph, replace it or move it. Final images should score at least 85/100 for section fit before the post is shown or published.
+- When using generated/owned visuals to solve a hard-to-source topic, state `EpicKor generated visual` in the credit and avoid fake logos, fake interfaces, fake official cards, or misleading real-world claims.
 
 ## Blog Table Rules
 

@@ -1,5 +1,27 @@
 # HANDOFF - EpicKor Agent Teams v2
 
+## Correction - 2026-06-15 Blog Image Relevance and Duplicate Gate Tightened
+
+- Representative correctly flagged that some Blog 201-203 images still overlapped with past posts or had weak relevance.
+- Confirmed problems:
+  - `public/assets/images/posts/203/rainy-seoul-umbrella.jpg` was an exact binary duplicate of Blog 199's rainy Seoul image.
+  - `public/assets/images/posts/201/korean-convenience-store-drinks.jpg` reused a Pexels source already used in Blog 171 and was only tangentially related to payment setup.
+  - Blog 201 also had too many similar transit-payment close-ups from the same source family.
+- Fix completed:
+  - Replaced Blog 201 hero with `public/assets/images/posts/201/korea-payment-wallet-setup.png`, a direct payment-stack visual.
+  - Replaced Blog 201 second image with `public/assets/images/posts/201/seoul-transit-card-gate.png`, a direct transit-card gate visual.
+  - Kept one Seoul bus card-reader photo and one Seoul ticket-machine photo because they directly support transit payment sections.
+  - Replaced Blog 203 rainy duplicate with `public/assets/images/posts/203/rainy-han-river-repellent-bench.png`, a direct humid/rainy mosquito-prep visual.
+  - Removed unused weak/duplicate assets from Blog 201 and Blog 203 asset folders.
+- Agent memory/instructions updated:
+  - Research Team must check source URLs, Pexels IDs, filenames, hashes, and source-family reuse before final image selection.
+  - Writer Team must not treat a new filename as fresh if the underlying source image was used before; final image section-fit target is now at least 85/100.
+  - Reviewer Team must run/perform duplicate-source checks and produce a Blog Image Fit Score before approving new posts.
+- Verification:
+  - Exact-hash duplicate scan across `public/assets/images/posts/**` found `targetDupes 0` for Blogs 201-203.
+  - Blog 201, 202, and 203 each still have 4 local images and all referenced files exist.
+  - `npm.cmd run build` passed after image replacement.
+
 ## Latest Update - 2026-06-15 Blog 201-203 Published Locally and Ready for Deploy Commit
 
 - Representative approved the new-topic direction after duplicate-topic corrections and instructed Codex to find proper 3-4 images per post, update agents, publish posts, and complete the deployment commit.
