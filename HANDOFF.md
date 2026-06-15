@@ -21,6 +21,10 @@
   - Exact-hash duplicate scan across `public/assets/images/posts/**` found `targetDupes 0` for Blogs 201-203.
   - Blog 201, 202, and 203 each still have 4 local images and all referenced files exist.
   - `npm.cmd run build` passed after image replacement.
+  - Deployment correction commit completed: `94477c3 Tighten blog image quality gates`.
+  - Public verification after push passed:
+    - `https://www.epickor.com/blog/201` returned HTTP 200 and all 4 current Blog 201 images returned HTTP 200.
+    - `https://www.epickor.com/blog/203` returned HTTP 200 and all 4 current Blog 203 images returned HTTP 200.
 
 ## Latest Update - 2026-06-15 Blog 201-203 Published Locally and Ready for Deploy Commit
 
