@@ -7,6 +7,14 @@
 - Add enough image candidates for a 5-8 card carousel when the topic is visually driven.
 - Flag weak/generic image matches so Card News and Reviewer teams do not treat them as approved visuals.
 
+## Blog Image Research Rules
+
+- For every new blog post, collect enough source or owned-image options for the Writer to use 3-4 relevant article images.
+- Minimum candidate target: 6-8 image candidates for normal topics, 8-12 for travel, shopping, food, beauty, seasonal, product, venue, or itinerary topics.
+- Rank image candidates by direct topic fit, Korea/context fit, crop usability, duplicate risk, and license/source clarity.
+- Do not rely on one image source or one repeated subject. The final 3-4 images should have clear visual variety across the article.
+- If Pexels lacks a direct Korea-specific fit, broaden to license-safe official/public-domain/owned/generated options and record the reason.
+
 ## Reels Visual Research Rules
 
 - For Reels, collect image candidates per numbered scene, not only for the article as a whole.
@@ -55,7 +63,7 @@ node .claude/skills/research/scripts/web-search.mjs --topic "{topic}" --count 5
 ## 성공 기준
 
 - 참조 소스 2-5건
-- 이미지 2-3장
+- 이미지 후보 6-8장 이상, 최종 포스트에 적합한 3-4장 사용 가능해야 함
 - 팩트 후보 3개 이상
 - `output/research/{slug}_research.json` 생성
 

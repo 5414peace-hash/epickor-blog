@@ -7,6 +7,15 @@
 - Keep Korea/EpicKor context visible in the writing so Card News can extract `kicker:` labels such as `KOREA FOOD GUIDE`, `SEOUL TRAVEL TIP`, or `K-BEAUTY TEXTURE MAP`.
 - Do not bury all useful image context in captions only; make the image relevance clear in surrounding text.
 
+## Blog Image Coverage Rules
+
+- Every new EpicKor blog post must include 3-4 relevant images unless the representative explicitly approves fewer for that specific post.
+- Use 3 images for narrow explainer topics and 4 images for high-visual travel, food, shopping, beauty, venue, product, or seasonal-prep topics.
+- Place images naturally across the article: one near the opening after enough context, one or two in the main decision/help sections, and one later near a practical checklist or FAQ lead-in when useful.
+- Do not cluster all images at the top. Each image must support the nearby section, not merely satisfy the count.
+- Use fresh local `/assets/images/posts/{slug}/...` paths, descriptive alt text, and a short credit/source line.
+- For Korea explainers, prefer Korea-specific visuals. If a perfect Korea-specific photo is unavailable, use a culturally neutral close-up or owned/generated image instead of a visibly foreign stock scene.
+
 ## Blog Table Rules
 
 - Put comparison, shortcut, recommendation, itinerary, product-match, or category-summary information into a real table.

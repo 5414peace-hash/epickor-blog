@@ -198,10 +198,73 @@ function topicIdeasFromQueries(queries) {
   return ideas.slice(0, 10);
 }
 
+function normalizeIdeaText(value) {
+  return String(value || '')
+    .toLowerCase()
+    .replace(/[^a-z0-9가-힣]+/g, ' ')
+    .replace(/\s+/g, ' ')
+    .trim();
+}
+
 function loadTopicsQueue() {
   const path = join(ROOT, 'content/data/topics-queue.json');
   if (!existsSync(path)) return { path, data: { topics: [] } };
   return { path, data: JSON.parse(readFileSync(path, 'utf8')) };
+}
+
+function loadPublishedTopicCorpus() {
+  const blogDir = join(ROOT, 'content', 'blog');
+  const parts = [];
+
+  if (existsSync(blogDir)) {
+    for (const file of readdirSync(blogDir).filter(name => name.endsWith('.md'))) {
+      const abs = join(blogDir, file);
+      const text = readFileSync(abs, 'utf8');
+      const title = text.match(/^title:\s*["']?(.+?)["']?\s*$/m)?.[1] || '';
+      const description = text.match(/^description:\s*["']?(.+?)["']?\s*$/m)?.[1] || '';
+      parts.push(file, title, description);
+    }
+  }
+
+  const queue = loadTopicsQueue().data;
+  for (const topic of queue.topics || []) {
+    parts.push(topic.title || '', ...(topic.keywords || []), topic.generated_slug || '');
+  }
+
+  const handoffPath = join(ROOT, 'HANDOFF.md');
+  if (existsSync(handoffPath)) {
+    parts.push(readFileSync(handoffPath, 'utf8'));
+  }
+
+  return normalizeIdeaText(parts.join('\n'));
+}
+
+function isDuplicateTopicIdea(idea, corpus) {
+  const title = normalizeIdeaText(idea.title);
+  if (title && corpus.includes(title)) return true;
+
+  const keywordHits = (idea.keywords || [])
+    .map(normalizeIdeaText)
+    .filter(keyword => keyword.length >= 6)
+    .filter(keyword => !/^korean$|^korea$|^seoul$|^culture$|^travel$|^guide$|^food$/.test(keyword))
+    .filter(keyword => corpus.includes(keyword));
+
+  if (keywordHits.length >= 1) return true;
+
+  const duplicateTopicPatterns = [
+    /ssamjang/,
+    /deli manjoo|delimanjoo|subway snack/,
+    /ahjussi|samchon|oppa/,
+    /korean cafe culture|seoul cafes/,
+    /convenience store breakfast|gs25 breakfast|cu korea food/,
+  ];
+
+  return duplicateTopicPatterns.some(pattern => pattern.test(title) || (idea.keywords || []).some(keyword => pattern.test(normalizeIdeaText(keyword))));
+}
+
+function filterDuplicateTopicIdeas(ideas) {
+  const corpus = loadPublishedTopicCorpus();
+  return ideas.filter(idea => !isDuplicateTopicIdea(idea, corpus));
 }
 
 function maybeUpdateQueue(ideas, pendingCount) {
@@ -213,7 +276,7 @@ function maybeUpdateQueue(ideas, pendingCount) {
 
   const existingTitles = new Set(topics.map(t => String(t.title || '').toLowerCase()));
   const maxId = topics.reduce((max, t) => Math.max(max, Number(t.id) || 0), 0);
-  const toAdd = ideas
+  const toAdd = filterDuplicateTopicIdeas(ideas)
     .filter(idea => !existingTitles.has(idea.title.toLowerCase()))
     .slice(0, minPending - pendingCount)
     .map((idea, idx) => ({
@@ -261,7 +324,7 @@ function main() {
   const quickWins = pageRows
     .filter(p => p.position <= 8 && p.impressions >= 200 && p.ctr < 1.5)
     .slice(0, 15);
-  const topicIdeas = topicIdeasFromQueries(queryRows);
+  const topicIdeas = filterDuplicateTopicIdeas(topicIdeasFromQueries(queryRows));
 
   const { data: topicData } = loadTopicsQueue();
   const pendingCount = (topicData.topics || []).filter(t => t.status === 'pending').length;

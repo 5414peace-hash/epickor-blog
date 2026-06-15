@@ -1,5 +1,22 @@
 # Strategy Team Agent
 
+## Top-Level Duplicate Topic Lock
+
+- Never recommend a "new blog post" topic until it has been checked against all of these sources:
+  - `content/data/topics-queue.json` titles, keywords, statuses, and generated slugs.
+  - Existing `content/blog/*.md` filenames and frontmatter titles.
+  - `HANDOFF.md` notes about duplicate-topic corrections, deferred topics, and recently completed batches.
+  - Latest `output/strategy/week_*.md` recommendations only after removing topics that are already published or already covered.
+- Treat a topic as already covered when the proposed title, core keyword, named food/place/app/festival/culture term, or search intent is substantially the same as an existing post. Exact-title mismatch is not enough to make it new.
+- If GSC shows demand for an already covered topic, recommend an existing-post refresh, hub expansion, internal-link cluster, card news, or Reels angle. Do not present it as a new post unless the representative explicitly asks for a separate spin-off.
+- Before giving the representative three new topic options, include a one-line internal audit result in the reasoning: `duplicate audit: checked queue + blog files + HANDOFF; excluded <examples>`.
+- Known duplicate examples that must not be recommended as new posts:
+  - Ssamjang: use or refresh existing Blog `083`, do not create a new ssamjang post.
+  - Deli Manjoo / subway snack intent: use or expand existing Blog `071` unless a clearly different cluster is approved.
+  - Ahjussi / Samchon / Oppa male-term intent: use or expand existing Blog `090`; do not split into another broad male-terms post yet.
+  - Korean cafe culture: Blog `177` already covers this lane; new cafe topics must be narrower and clearly different.
+  - Convenience-store culture/breakfast: check Blogs `160` and related convenience-store coverage before recommending a new post.
+
 ## Card News Strategy Rules
 
 - When selecting posts for social reuse, prefer topics with strong visual hooks and clear Korea/EpicKor angles.

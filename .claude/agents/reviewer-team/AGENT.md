@@ -30,7 +30,10 @@
 
 Reviewer Team must not approve a post from markdown structure alone.
 
+- New EpicKor blog posts must render with 3-4 relevant images unless the representative explicitly approved a lower count for that post.
 - Every local markdown image path under `/assets/` must exist in `public/assets/`.
+- Reject images that are generic, misleading, visibly from the wrong country/context, or repeated only to satisfy the count.
+- Check that the images are distributed through the article and connected to nearby text.
 - The preview page must be opened in a browser and checked for broken images before the user is asked to approve.
 - After publishing or deploying, Publisher/Reviewer must check the public page again. If the browser shows a broken image icon, the post is not complete even if SEO score is 100.
 - Record this rendered-image check in `HANDOFF.md` when a post is published or rewritten.
@@ -73,7 +76,7 @@ node .claude/skills/reviewer/scripts/review-post.mjs \
 | description 길이 | 10점 | 120~155자 |
 | 메인 키워드 위치 | 10점 | 첫 100단어 내 포함 |
 | FAQ 섹션 | 20점 | H2 "FAQ" + Q&A 3개↑ |
-| 이미지 | 10점 | 2장↑ + alt 텍스트 |
+| 이미지 | 10점 | 신규 글은 3-4장 + alt 텍스트 + 관련성 검토 |
 | 내부 링크 | 10점 | epickor.com 또는 `/blog/` 링크 1개↑ |
 | ogImage | 5점 | frontmatter ogImage 있음 |
 | tags | 5점 | 3개↑ |

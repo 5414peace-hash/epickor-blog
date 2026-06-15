@@ -1,4 +1,4 @@
-﻿{
+{
   "_comment": "Writer Agent媛 ?쎈뒗 二쇱젣 ?? status: pending=?湲? in_progress=?앹꽦以? done=?꾨즺",
   "topics": [
     {
@@ -939,8 +939,74 @@
       "status": "done",
       "generated_slug": "200",
       "generated_date": "2026-06-14"
+    },
+    {
+      "id": 45,
+      "title": "Korea Travel Payment Setup 2026: T-money, WOWPASS, Credit Cards, and Cash",
+      "keywords": [
+        "Korea travel payment setup",
+        "T-money Korea tourists",
+        "WOWPASS Korea",
+        "Korea cash or card"
+      ],
+      "category": "Travel",
+      "tags": [
+        "KoreaTravel",
+        "Tmoney",
+        "WOWPASS",
+        "SeoulTravel",
+        "TravelPlanning"
+      ],
+      "amazon_category": "Travel",
+      "status": "done",
+      "generated_slug": "201",
+      "generated_date": "2026-06-15"
+    },
+    {
+      "id": 46,
+      "title": "Incheon Airport to Seoul: AREX, Airport Bus, Taxi, and When Each One Makes Sense",
+      "keywords": [
+        "Incheon Airport to Seoul",
+        "AREX airport train",
+        "Incheon airport bus Seoul",
+        "Incheon airport taxi Seoul"
+      ],
+      "category": "Travel",
+      "tags": [
+        "IncheonAirport",
+        "SeoulTravel",
+        "KoreaTravel",
+        "AREX",
+        "AirportTransfer"
+      ],
+      "amazon_category": "Travel",
+      "status": "done",
+      "generated_slug": "202",
+      "generated_date": "2026-06-15"
+    },
+    {
+      "id": 47,
+      "title": "Korea Mosquito Season Guide: What Tourists Should Pack and Buy Locally",
+      "keywords": [
+        "Korea mosquito season",
+        "Korea mosquito repellent",
+        "Korea summer packing",
+        "Seoul mosquito season"
+      ],
+      "category": "Travel",
+      "tags": [
+        "KoreaTravel",
+        "SummerTravel",
+        "PackingGuide",
+        "SeoulTravel",
+        "TravelHealth"
+      ],
+      "amazon_category": "Travel",
+      "status": "done",
+      "generated_slug": "203",
+      "generated_date": "2026-06-15"
     }
   ],
-  "last_updated": "2026-06-14",
-  "next_slug": 201
+  "last_updated": "2026-06-15",
+  "next_slug": 204
 }

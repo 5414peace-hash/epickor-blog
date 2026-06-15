@@ -1,5 +1,309 @@
 # HANDOFF - EpicKor Agent Teams v2
 
+## Latest Update - 2026-06-15 Blog 201-203 Published Locally and Ready for Deploy Commit
+
+- Representative approved the new-topic direction after duplicate-topic corrections and instructed Codex to find proper 3-4 images per post, update agents, publish posts, and complete the deployment commit.
+- Agent/system updates completed:
+  - `.claude/agents/strategy-team/AGENT.md`: added a top-level duplicate topic lock so Strategy Team checks queue, published posts, HANDOFF, and recent strategy before recommending topics.
+  - `.claude/skills/strategy/scripts/analyze-week.mjs`: added duplicate filtering against published posts, queue, HANDOFF, and known duplicate patterns.
+  - `.claude/agents/research-team/AGENT.md`: new blog research must collect enough candidates for 3-4 final images.
+  - `.claude/agents/writer-team/AGENT.md`: new blogs must include 3-4 relevant images unless explicitly approved otherwise.
+  - `.claude/agents/reviewer-team/AGENT.md`: new blogs must be rejected if fewer than 3-4 relevant rendered images appear without an explicit exception.
+- New public posts created:
+  - `content/blog/201.md` - Korea Travel Payment Setup 2026: T-money, WOWPASS, Credit Cards, and Cash.
+  - `content/blog/202.md` - Incheon Airport to Seoul: AREX, Airport Bus, Taxi, and When Each One Makes Sense.
+  - `content/blog/203.md` - Korea Mosquito Season Guide: What Tourists Should Pack and Buy Locally.
+- Images created/downloaded:
+  - Blog 201: 4 Pexels Korea payment/transit/convenience-store images under `public/assets/images/posts/201/`.
+  - Blog 202: 4 Pexels Incheon Airport/AREX/bus/taxi images under `public/assets/images/posts/202/`.
+  - Blog 203: 1 Pexels rainy Seoul image plus 3 EpicKor-owned generated mosquito-season travel visuals under `public/assets/images/posts/203/`.
+- Verification completed:
+  - Word/image/CTA check: Blog 201 has 2501 words, 4 images, 2 affiliate CTAs; Blog 202 has 2396 words, 4 images, 2 affiliate CTAs; Blog 203 has 2201 words, 4 images, 2 affiliate CTAs.
+  - All local markdown image paths exist under `public/assets/`.
+  - `npm.cmd run build` passed.
+  - Temporary Next server check passed:
+    - `/blog/201`, `/blog/202`, `/blog/203` returned HTTP 200.
+    - All 12 image URLs returned HTTP 200.
+- Updated `content/data/topics-queue.json`:
+  - Added IDs 45-47 as `done`.
+  - `next_slug` is now `204`.
+- Agents involved:
+  - Strategy Team: duplicate-topic correction and final topic selection.
+  - Research Agent: official source checks and image sourcing.
+  - Writer Agent: wrote/published 201-203 with tables, FAQs, internal links, and Amazon CTAs.
+  - Reviewer Agent: validated image count, local paths, rendered routes, image responses, and production build.
+- Current status:
+  - Ready for selective git commit and push.
+  - Unrelated Reels/Remotion/package changes remain in the worktree and should not be included in this blog deployment commit unless explicitly requested.
+
+## Latest Update - 2026-06-15 Reels 198 Production Started
+
+- Representative asked to start Reels production for Blog `198` Waterbomb Seoul 2026.
+- Preconditions confirmed:
+  - Blog `198` is already public and was previously verified after image replacement.
+  - Main worktree was clean/even with `origin/master` before this Reels setup.
+  - Reels work follows the current rule: newly published post -> public verification -> Reels production.
+- Created the initial Reels 198 review package:
+  - `output/reels/198/strategy.md`
+  - `output/reels/198/script.md`
+  - `output/reels/198/scenes.json`
+  - `output/reels/198/visual-candidates.json`
+  - `output/reels/198/motion-cards.json`
+  - `output/reels/198/image-sources.md`
+  - `output/reels/198/reviewer-visual-precheck.md`
+  - `output/reels/198/visual-contact-sheet.jpg`
+- Created Reels-specific vertical derivative assets from approved Blog 198 support visuals:
+  - `public/assets/reels/198/derivatives/`
+- Creative direction:
+  - 7 scenes, target 35-40 seconds.
+  - Exactly 2 motion-card scenes: Scene 3 outfit logic and Scene 5 tiny-bag kit.
+  - Hook: Waterbomb can make a cute Seoul outfit betray you.
+  - CTA uses `epickor.com` only.
+- Reviewer Agent structural precheck:
+  - JSON parse passed for scenes, visual candidates, and motion cards.
+  - Photo-led scenes have 2-3 candidates each.
+  - Motion-card scenes have 3 design options each.
+  - No repeated photo candidate paths across photo-led scenes.
+  - Contact-sheet inspection found some near-duplicate crop options; those were removed from the dashboard candidate list.
+- Local dashboard verification:
+  - Initial shell checks briefly returned HTTP 200, but representative reported the browser could not open the dashboard.
+  - Recheck showed Next dev servers on ports `4000` and `4010` could enter a bad state: port LISTEN remained, but `/reels-review/198` requests timed out and `CLOSE_WAIT` connections accumulated.
+  - Foreground `npm.cmd run dev` and `npm.cmd run start` both stayed alive during command execution, so the route/build itself is valid; the instability is with keeping the local Next server alive through hidden/background `Start-Process` in this Codex environment.
+  - `npm.cmd run build` passed on 2026-06-15.
+  - Created server-free fallback review file: `output/reels/198/review-local.html`.
+  - Opened `D:\dev\epickor-blog\output\reels\198\review-local.html` for representative review. This static file does not depend on localhost/Next.
+- Current status:
+  - Reels 198 is ready for representative visual review via the static fallback file.
+  - No TTS, asset prep, Remotion props, validation, or final rendering has been run yet.
+- Next step:
+  - Representative should review `output/reels/198/review-local.html` and report choices such as `S1 A, S2 A, S3 A, S4 A, S5 A, S6 A, S7 A`.
+  - Codex should then apply those choices to `visual-candidates.json`, `motion-cards.json`, and `scenes.json` before TTS/Remotion.
+- Blockers:
+  - Human visual approval required before TTS/Remotion.
+  - Interactive Next dashboard is unstable in background server mode in the current Codex session; use static review fallback unless a visible/manual terminal is used to run Next.
+- Agents involved:
+  - Strategy Team: confirmed Blog 198 as the safest highest-leverage Reels target.
+  - Reels Script Agent: wrote the 7-scene spoken script.
+  - Reels Visual Research Agent: prepared source-post-derived visual candidates and source notes.
+  - Reels Motion Design Agent: prepared two motion-card scenes with three options each.
+  - Reviewer Agent: ran structural/candidate-depth checks and contact-sheet inspection.
+
+## Correction - 2026-06-15 Reels Dashboard Gate Added
+
+- Representative correctly flagged two chronic Reels pre-review problems in the initial Reels 198 package:
+  1. Scene 1 thumbnail text/style drifted from the accepted recent Reels thumbnail standard.
+  2. Image sourcing was too thin and repetitive; too many candidates were derivative crops from the same few Blog 198 visuals.
+- Corrective system changes completed:
+  - Added thumbnail standard file:
+    - `.claude/skills/reels/thumbnail-style-standard.json`
+  - Added hard pre-review gate script:
+    - `.claude/skills/reels/scripts/review-dashboard-gate.mjs`
+  - Added package command:
+    - `npm.cmd run reels:dashboard-gate -- --slug {slug}`
+  - Updated Reels Team rules in `.claude/agents/reels-team/AGENT.md`.
+- New hard gate behavior:
+  - Fails if Scene 1 does not declare `templateId: "epickor-center-title-v2"`.
+  - Fails if Scene 1 does not use the accepted recent centered title style, two uppercase title lines, and `EPICKOR.COM`.
+  - Fails if a photo-led scene has fewer than 3 candidates by default.
+  - Fails if motion-card scenes have fewer than 3 design options.
+  - Fails if derivative crops do not include `sourceFamily` / `originalAsset` metadata.
+  - Fails if the photo candidate set is mostly repeated crops from the same few source families.
+- Verification:
+  - `node --check .claude\skills\reels\scripts\review-dashboard-gate.mjs` passed.
+  - `npm.cmd run reels:dashboard-gate -- --slug 198` failed as intended, catching:
+    - missing accepted thumbnail `templateId`
+    - too few photo candidates in Scenes 1, 2, 6, and 7
+    - missing derivative source-family metadata
+    - insufficient source-family diversity
+- Current status:
+  - The first Reels 198 static review file should be treated as rejected/internal-only.
+  - Next Reels 198 step is to rebuild the visual candidate set with real source diversity and the locked thumbnail style, then rerun `reels:dashboard-gate` before showing it to the representative again.
+
+## Latest Update - 2026-06-15 Reels 198 Visual Candidate Rebuild Passed Gate
+
+- Representative instructed Codex to redo Reels 198 properly after the thumbnail/source-diversity critique.
+- Rebuilt the Reels 198 candidate set:
+  - Added 10 downloaded Pexels assets under `public/assets/reels/198/candidates/`.
+  - Kept the strongest Blog 198 EpicKor-generated support visuals where they are directly topic-fitting.
+  - Rewrote `output/reels/198/visual-candidates.json` with 15 photo candidates across 14 source families.
+  - Added `sourceFamily` and/or `originalAsset` metadata to all photo candidates.
+  - Locked Scene 1 thumbnail overlay with `templateId: "epickor-center-title-v2"`, two uppercase title lines, and `EPICKOR.COM`.
+  - Regenerated `output/reels/198/review-local.html` from JSON instead of hand-writing stale review markup.
+  - Generated `output/reels/198/candidate-contact-sheet-v3.jpg` for visual inspection.
+- Verification:
+  - `npm.cmd run reels:dashboard-gate -- --slug 198` passed.
+  - Gate result: 15 photo candidates, 14 source families.
+  - Only warning: quick-dry source family appears in Scene 1 and Scene 7 as an intentional outfit callback, documented in JSON and within the hard limit.
+  - `node --check` passed for:
+    - `.claude\skills\reels\scripts\review-dashboard-gate.mjs`
+    - `.tmp\rebuild-reels-198-candidates.mjs`
+    - `.tmp\render-reels-198-review-static.mjs`
+- Review file:
+  - Use server-free fallback: `output/reels/198/review-local.html`
+  - Representative can reply with choices like `S1 A, S2 A, S3 A, S4 A, S5 A, S6 A, S7 A`.
+- Current status:
+  - Reels 198 is again ready for representative visual review, this time after passing the new dashboard gate.
+  - No TTS, asset prep, Remotion props, validation, or final render has been run.
+
+## Correction - 2026-06-15 Reels 198 Static Review Image Paths Fixed
+
+- Representative reported that images in `output/reels/198/review-local.html` were broken.
+- Root cause:
+  - The static HTML generator used Next/public URL paths as local file paths.
+  - It generated paths like `../../../assets/...`, but server-free local HTML must use `../../../public/assets/...`.
+- Fix completed:
+  - Updated `.tmp/render-reels-198-review-static.mjs` to convert `/assets/...` into `../../../public/assets/...` for both `<img>` tags and motion-card CSS backgrounds.
+  - Added `.tmp/verify-reels-198-static.mjs` to verify every static HTML image/background path exists on disk before sharing.
+  - Regenerated `output/reels/198/review-local.html`.
+- Verification:
+  - `node .tmp\verify-reels-198-static.mjs` passed:
+    - `img tags: 15`
+    - `motion backgrounds: 6`
+    - `checked sources: 21`
+    - `missing: 0`
+  - `npm.cmd run reels:dashboard-gate -- --slug 198` still passed:
+    - 15 photo candidates
+    - 14 source families
+    - only warning remains the intentional quick-dry source callback across Scenes 1 and 7.
+- Current review file:
+  - `D:\dev\epickor-blog\output\reels\198\review-local.html`
+  - This file has been reopened for representative review after path verification.
+
+## Correction - 2026-06-15 Reels 198 Static Review Ranking and Recommendation Patch
+
+- Representative reported three remaining review problems:
+  - Static review lacked 1/2/3 ranking buttons.
+  - Scene 1 thumbnail title looked smaller than past Reels; requested checking multiple prior examples, not just one.
+  - Some source candidates looked weakly related; requested 3-5 strongest recommendations.
+- Past thumbnail comparison checked:
+  - Reels `187`, `188`, `190`, `191`, and `192` Scene 1 thumbnail overlays.
+  - Common accepted pattern: centered short uppercase two-line title, short kicker, `EPICKOR.COM` watermark.
+  - Reels `198` title copy matches the pattern, but the static review preview was too conservative in card width/title scale.
+- Fix completed:
+  - Updated `.claude/skills/reels/thumbnail-style-standard.json` with static review guidance:
+    - `staticReviewTitlePx: 30`
+    - `staticReviewMinCardWidthPx: 250`
+  - Added `.tmp/annotate-reels-198-review-data.mjs` and annotated `output/reels/198/visual-candidates.json` / `motion-cards.json` with:
+    - `recommendedRank`
+    - `relevanceTier`
+    - `recommendationNote`
+  - Updated `.tmp/render-reels-198-review-static.mjs` so `review-local.html` now includes:
+    - 1/2/3 ranking buttons for all 21 candidates
+    - browser localStorage persistence
+    - sticky reviewer recommendation panel
+    - copyable choice summary
+    - visible `Direct fit`, `Korea context`, and `Context fallback` relevance labels
+    - larger Scene 1 thumbnail typography in the static review
+- Recommendation baseline:
+  - Reviewer default full set: `S1 A / S2 A / S3 A / S4 A / S5 A / S6 A / S7 A`.
+  - Strongest source-relevance shortlist: `S1 A`, `S2 A`, `S4 A`, `S5 A`, `S6 A`.
+- Verification:
+  - `node .tmp\render-reels-198-review-static.mjs` regenerated the review file and contact sheet.
+  - `node .tmp\verify-reels-198-static.mjs` passed:
+    - `img tags: 15`
+    - `motion backgrounds: 6`
+    - `checked sources: 21`
+    - `missing: 0`
+  - `npm.cmd run reels:dashboard-gate -- --slug 198` passed.
+  - HTML structure check found 21 candidates with rank controls, meaning 63 total rank buttons.
+  - Visual contact sheet `output/reels/198/candidate-contact-sheet-v3.jpg` was inspected; all photo candidates render.
+- Current review file:
+  - `D:\dev\epickor-blog\output\reels\198\review-local.html`
+  - This version is the current user-facing review file.
+
+## Correction - 2026-06-15 Reels 198 v3 Source and Motion-Card Quality Rebuild
+
+- Representative rejected the v2 review quality:
+  - Motion-card previews felt different from past accepted Reels.
+  - Image source relevance still felt around 70/100.
+  - Representative requested a stronger source search and better options.
+- Root cause identified:
+  - The first Pexels pass relied partly on the project helper that appends `Korea` to searches, which improved Korea context but buried direct `water gun` / `water fight` / `waterproof pouch` candidates.
+  - v2 motion cards used darker background-image mocks instead of recent accepted review families such as `kit_grid`, `receipt_stack`, and `menu_board`.
+- Search/rebuild completed:
+  - Added `.tmp/search-pexels-198-deep.mjs`.
+  - Ran direct Pexels deep search across 18 targeted queries without automatic Korea suffix.
+  - Search returned 445 unique raw candidates:
+    - recorded in `output/reels/198/pexels-deep-search-raw.json`.
+  - Added `.tmp/download-reels-198-deep-candidates.mjs`.
+  - Downloaded 21 manually selected deep-search candidates under:
+    - `public/assets/reels/198/deep-candidates/`
+  - Created review contact sheet:
+    - `output/reels/198/deep-candidate-contact-sheet.jpg`
+  - Manual visual rejection removed child-heavy, visibly foreign, generic, or low-directness images from the user-facing review set.
+- Generated direct-fit owned visuals because official Waterbomb photos are not license-safe for reuse and Pexels exact Seoul Waterbomb coverage is weak:
+  - `public/assets/reels/198/generated-v2/waterbomb-seoul-crowd-v2.png`
+  - `public/assets/reels/198/generated-v2/festival-phone-pouch-kit-v2.png`
+  - `public/assets/reels/198/generated-v2/wet-festival-exit-transit-v2.png`
+  - `public/assets/reels/198/generated-v2/phone-pouch-tissue-test-v2.png`
+- Rebuilt candidate data:
+  - Added `.tmp/rebuild-reels-198-v3-review-data.mjs`.
+  - Rewrote `output/reels/198/visual-candidates.json` with 16 stronger photo candidates across 14 source families.
+  - Every candidate now includes:
+    - `visualFitScore`
+    - `relevanceTier`
+    - `recommendedRank`
+    - `recommendationNote`
+  - Removed the 70-point S4 water-gun object fallback and replaced it with a direct tissue-test phone-pouch visual scored 94/100.
+- Motion-card v3 rebuild:
+  - Rewrote `output/reels/198/motion-cards.json` to return to recent accepted template families:
+    - Scene 3: `kit_grid`, `zone_compare`, `stamp_stack`
+    - Scene 5: `kit_grid`, `receipt_stack`, `menu_board`
+  - Updated `.tmp/render-reels-198-review-static.mjs` so the static review displays:
+    - `visualFitScore` badges
+    - clearer relevance labels
+    - motion-card previews closer to recent accepted structures instead of dark background mocks
+- Current recommended set:
+  - Full default: `S1 A / S2 A / S3 A / S4 A / S5 A / S6 A / S7 A`
+  - Strongest shortlist: `S1 A`, `S2 A`, `S4 A`, `S5 A`, `S6 A`
+- Verification:
+  - `node .tmp\render-reels-198-review-static.mjs` regenerated:
+    - `output/reels/198/review-local.html`
+    - `output/reels/198/candidate-contact-sheet-v3.jpg`
+  - `node .tmp\verify-reels-198-static.mjs` passed:
+    - `img tags: 16`
+    - `motion backgrounds: 0`
+    - `checked sources: 16`
+    - `missing: 0`
+  - `npm.cmd run reels:dashboard-gate -- --slug 198` passed:
+    - 16 photo candidates
+    - 14 source families
+    - warnings only for intentional optional callback source families in Scenes 1/7 and 4/7.
+  - Contact sheet was manually inspected after regeneration.
+- Current review file:
+  - `D:\dev\epickor-blog\output\reels\198\review-local.html`
+  - Same file path as before, but now contains the v3 source/motion-card rebuild.
+- Current status:
+  - Await representative visual ranking/approval.
+  - Do not proceed to TTS/Remotion until representative approves final choices.
+
+## Correction - 2026-06-15 Reels 198 Dashboard Delivery Recalibration
+
+- Representative correctly flagged that the review handoff became inconsistent:
+  - Codex gave file links and vague instructions instead of a copy/paste-ready address.
+  - Mobile Codex review flow and local PC review flow were mixed together.
+  - Unverified localhost URLs had previously wasted review time.
+- Rechecked local serving:
+  - Added `.tmp/serve-reels-198-review.mjs` as a tiny standalone server for `/reels-review/198`.
+  - Foreground run can bind and print `http://127.0.0.1:4010/reels-review/198`, but background `Start-Process` in this Codex environment dies before verified HTTP access.
+  - Because `curl`/`Invoke-WebRequest` could not verify HTTP 200 for the background server, do not present localhost as the current review URL.
+- Current delivery standard for Reels 198:
+  - Primary PC copy/paste URL:
+    - `file:///D:/dev/epickor-blog/output/reels/198/review-local.html`
+  - Backup Windows path:
+    - `D:\dev\epickor-blog\output\reels\198\review-local.html`
+  - Mobile is not supported for this local file URL. Mobile requires a deployed/shared URL, not `D:\...` or `127.0.0.1`.
+- Generator update:
+  - `.tmp/render-reels-198-review-static.mjs` now writes:
+    - `output/reels/198/review-links.txt`
+  - That file contains the exact copy/paste URL, backup path, mobile warning, and default recommendation.
+  - Long Korean recommendation text was removed from the user-facing HTML to avoid encoding/display drift; visible review UI now relies on English labels, scores, A/B/C choices, and rank buttons.
+- Verified:
+  - `node .tmp\render-reels-198-review-static.mjs`
+  - `node .tmp\verify-reels-198-static.mjs`
+  - `output/reels/198/review-links.txt`
+
+
 ## Session Close - 2026-06-14 21:40
 
 - Representative ended the session after confirming the card-news asset location.
@@ -7246,3 +7550,277 @@ Recommended future process:
   - `172 v007`
   - `171 v006`
   - `170 v008` remains a legacy candidate until scene-level audio is rebuilt.
+
+---
+
+## Latest Update - 2026-06-15 Reels 198 Owner Ranking Applied and v002 Rendered
+
+- Owner selected visual/motion-card rankings:
+  - `S1 1:A / 2:C | S2 1:B / 2:A | S3 1:A | S4 1:A / 2:C | S5 1:A | S6 1:A / 2:B | S7 1:A / 2:B`
+- Applied the owner ranking to:
+  - `output/reels/198/scenes.json`
+  - `output/reels/198/visual-candidates.json`
+  - `output/reels/198/motion-cards.json`
+  - `output/reels/198/approved-visuals.json`
+- Prepared assets after fixing `prepare-assets.mjs` so PNG sources keep `.png` output extensions instead of being forced to `.jpg`.
+- Generated scene-level ElevenLabs narration v001:
+  - `output/reels/198/audio/narration-v001-scene-01.mp3` through `scene-07.mp3`
+  - mirrored under `public/assets/reels/198/audio/`
+- Built Remotion props and validated render readiness:
+  - `npm.cmd run reels:props -- --slug 198 --audio-version v001`
+  - `npm.cmd run reels:validate -- --slug 198 --require-scene-audio`
+  - validation passed.
+- Rendered initial candidate:
+  - `output/reels/198/render/epickor-reel-198-v001.mp4`
+  - evaluation packet: `output/reels/198/evaluation/evaluation-v001.md`
+- Manual grid review found two quality issues before owner delivery:
+  - Scene 1 thumbnail used the long default title and felt weaker than the recent accepted lockup.
+  - Scenes 3 and 5 kit-grid motion cards had early frames that looked too empty.
+- Patched:
+  - `remotion/ReelComposition.tsx`
+    - Waterbomb-specific Scene 1 thumbnail lockup now renders `DRESS TO DRY / NOT JUST POSE`.
+    - Reels 198 approved kit-grid motion cards reveal tiles earlier.
+  - `.claude/skills/reels/scripts/build-remotion-props.mjs`
+    - Outro text corrected from `epicKor.com` to `epickor.com`.
+- Rebuilt props, TypeScript checked, validated, rendered and evaluated v002:
+  - `npx.cmd tsc --noEmit --pretty false` passed.
+  - `npm.cmd run reels:validate -- --slug 198 --require-scene-audio` passed.
+  - `output/reels/198/render/epickor-reel-198-v002.mp4`
+  - `output/reels/198/evaluation/evaluation-v002.md`
+  - `output/reels/198/evaluation/scene-grid-v002.jpg`
+- Manual visual QA performed by Codex/Reels Reviewer + Remotion Agent:
+  - opened `scene-grid-v002.jpg`;
+  - no broken image frames visible;
+  - thumbnail lockup improved;
+  - motion cards are less empty than v001;
+  - v002 is the current owner-review candidate.
+- Copy/paste owner review path:
+  - `file:///D:/dev/epickor-blog/output/reels/198/render/epickor-reel-198-v002.mp4`
+- Backup Windows file path:
+  - `D:\dev\epickor-blog\output\reels\198\render\epickor-reel-198-v002.mp4`
+- Important note:
+  - Do not share unverified localhost URLs for Reels 198. The previously attempted `127.0.0.1:4010` server was not reliable. Use the local file URL/path unless a server is actively verified.
+- Next:
+  - Owner should watch `v002`.
+  - If accepted, prepare final upload package.
+  - If rejected, use v002 evaluation packet and scene-grid notes as the baseline for the next rework.
+
+---
+
+## Latest Update - 2026-06-15 Reels 198 Caption Line Fix v003
+
+- Owner flagged a Scene 5 narration caption that visually appeared as a clipped 3-line block in `v002`.
+- Cause:
+  - The caption beat had only one explicit line break, but the second line was too long and wrapped inside the 2-line clamp.
+- Patched `.claude/skills/reels/scripts/build-remotion-props.mjs`:
+  - Scene 5 caption beats now split contextually into shorter 1-2 line beats:
+    - `Keep the bag tiny: / phone pouch, small towel,`
+    - `SPF, / dry shirt.`
+    - `Leave the best bag / at the hotel.`
+  - Added Scene 5 caption start-frame override for Reels 198: `[0, 68, 100]`.
+- Patched `.claude/skills/reels/scripts/validate-render-readiness.mjs`:
+  - readable-band captions now fail if any explicit line is over 30 characters, preventing long 2-line source captions from rendering as clipped 3-line captions.
+- Rebuilt props and validated:
+  - `npm.cmd run reels:props -- --slug 198 --audio-version v001`
+  - `npm.cmd run reels:validate -- --slug 198 --require-scene-audio`
+  - validation passed.
+- Rendered and evaluated:
+  - `output/reels/198/render/epickor-reel-198-v003.mp4`
+  - `output/reels/198/evaluation/evaluation-v003.md`
+  - `output/reels/198/evaluation/scene-grid-v003.jpg`
+- Manual visual QA:
+  - opened `scene-grid-v003.jpg`;
+  - Scene 5 captions now show as 1-2 lines, not 3 lines/clipped.
+- Current owner-review path:
+  - `file:///D:/dev/epickor-blog/output/reels/198/render/epickor-reel-198-v003.mp4`
+- Backup Windows path:
+  - `D:\dev\epickor-blog\output\reels\198\render\epickor-reel-198-v003.mp4`
+
+---
+
+## Latest Update - 2026-06-15 Reels 198 Final Package and Reels 192 Gate Repair
+
+- Reels 198 was representative-confirmed and copied into the final upload package folder:
+  - `output/final/reels/198/EPICKOR_198.mp4`
+  - `output/final/reels/198/instagram-caption.txt`
+  - `output/final/reels/198/upload-package.md`
+- Reels 198 status is now `representative-confirmed / upload-package-ready`.
+- Rechecked recent Reels using the correct final-output path:
+  - `output/final/reels` is the authoritative completed-Reels folder.
+  - `output/reels` is the working/render folder.
+- Correct recent status:
+  - 181-191 have final MP4s under `output/final/reels/{slug}/EPICKOR_{slug}.mp4`.
+  - 192 was started but had no render/final MP4.
+  - 198 had a working render and is now finalized.
+  - 193-197 and 199-200 still need Reels production.
+- Reels 192 repair:
+  - Existing files showed old status `visual_review_pending`, with `scenes.json`, `visual-candidates.json`, `motion-cards.json`, reviewer notes, and a contact sheet.
+  - Running `npm.cmd run reels:dashboard-gate -- --slug 192` initially failed because many candidate paths under `/assets/reels/192/candidates/` were missing and Scene 1 thumbnail metadata lacked `templateId`.
+  - Restored missing Pexels candidate files under `public/assets/reels/192/candidates/`.
+  - Added Scene 1 thumbnail `templateId: "epickor-center-title-v2"` to `output/reels/192/visual-candidates.json`.
+  - Replaced the missing/weak Scene 3 lipstick candidate with the existing post-owned `skincare-label-shopping.jpg`.
+  - Replaced an over-repeated Theodore Nguyen Scene 3 street candidate with `pexels-beauty-shelf-browsing-7755519.jpg` to reduce source-family repetition.
+  - Updated `output/reels/192/image-sources.md` for the Scene 3 repairs.
+  - Rebuilt `.tmp/reel192-review-share/index.html`; asset copy count: 21.
+  - Final gate result:
+    - `npm.cmd run reels:dashboard-gate -- --slug 192` passed.
+    - Photo candidates: 16.
+    - Photo source families: 12.
+    - Remaining warnings are source-family callbacks across Scene 1/7 and Scene 1/3, not blocking failures.
+- Next for Reels 192:
+  - Show the repaired visual review dashboard to the representative.
+  - After representative rankings, apply choices, prepare assets, generate TTS, validate, render, evaluate, then final-package.
+
+---
+
+## Latest Update - 2026-06-15 Reels 192 Thumbnail and Source Quality Rebuild
+
+- Representative rejected the first repaired Reels 192 dashboard quality:
+  - Scene 1 thumbnail text felt too large compared with accepted recent Reels.
+  - Candidate images still felt repetitive and weakly relevant, around 50/100 by owner judgment.
+  - Requested at least 80/100 source-search quality before review.
+- Rechecked recent accepted Reels tone:
+  - Opened recent evaluation grids for Reels `185`, `186`, `187`, `190`, and `191`.
+  - Common tone: centered short uppercase title, yellow kicker, small brand, strong but not edge-filling title scale.
+- Rebuilt Reels 192 visual pool:
+  - Added direct-fit EpicKor generated support visuals under `public/assets/reels/192/generated-v2/`.
+  - Replaced generic/weak candidates in `output/reels/192/visual-candidates.json`.
+  - Replaced weak Scene 6 backup `pexels-travel-cosmetic-bottles-8049849.jpg` with `pexels-packed-open-suitcase-8933565.jpg`.
+  - Updated `output/reels/192/image-sources.md` for the generated visuals and the Scene 6 suitcase backup.
+  - Updated `.tmp/build-reel192-review-share.mjs` so the static dashboard uses A/B/C candidate IDs, visible `Rank 1`, `Rank 2`, `Replace`, and `Copy Picks` controls, and English UI text to avoid encoding drift.
+  - Reduced Scene 1 thumbnail preview title scale in both:
+    - `.tmp/build-reel192-review-share.mjs`
+    - `.tmp/render-reels-192-candidate-sheet.mjs`
+- Verification:
+  - `node --check .tmp/build-reel192-review-share.mjs` passed.
+  - `node --check .tmp/render-reels-192-candidate-sheet.mjs` passed.
+  - JSON parse passed for `output/reels/192/visual-candidates.json`.
+  - `npm.cmd run reels:dashboard-gate -- --slug 192` passed.
+  - Rebuilt static review dashboard:
+    - `.tmp/reel192-review-share/index.html`
+    - asset copy count: 21 during generation; 28 files currently in local asset folder including prior copied assets.
+  - Rebuilt and manually inspected candidate sheet:
+    - `output/reels/192/candidate-contact-sheet-v4.jpg`
+  - No candidate is below visual-fit score `80`; candidate-pool average is `84.4/100`; recommended first-choice average is `90.0/100`.
+  - Updated `output/reels/192/reviewer-visual-score.md`; earlier 94/100 note is superseded because it missed the weak Scene 6 candidate and garbled dashboard UI.
+- Current review link for the representative:
+  - `file:///D:/dev/epickor-blog/.tmp/reel192-review-share/index.html`
+- Backup visual QA sheet:
+  - `D:\dev\epickor-blog\output\reels\192\candidate-contact-sheet-v4.jpg`
+- Current status:
+  - Reels 192 is ready for representative visual ranking review.
+  - Next expected owner response format: `S1 1:A / 2:C | S2 1:B / 2:A | ...`
+  - After rankings, apply choices and continue asset prep -> TTS -> props -> validation -> render -> evaluation -> final package.
+
+---
+
+## Latest Update - 2026-06-15 Reels 192 Owner Partial Approval and Replacement Rebuild
+
+- Representative reviewed the rebuilt Reels 192 dashboard and returned:
+  - `S1 1:A / 2:C`
+  - `S2 1:B / 2:A`
+  - `S3 1:A / Replace:B,C`
+  - `S4 1:? / Replace:A,B,C`
+  - `S5 1:? / Replace:A,B,C`
+  - `S6 1:? / Replace:A,B,C`
+  - `S7 1:C / 2:A`
+- Representative also flagged:
+  - Some sources were still weak.
+  - The search pool should not rely only on Pexels.
+  - Images must be safer for 9:16 cropping.
+- Broader source pass:
+  - Searched Wikimedia Commons as a non-Pexels public source.
+  - Found `File:OliveYoung store.png` as CC BY-SA 4.0, but direct download from `upload.wikimedia.org` returned HTTP 429 even with a User-Agent.
+  - Rejected other Commons candidates because they were visibly foreign cosmetics stores or unrelated PDFs.
+  - Used EpicKor-owned generated 9:16 support visuals for the weak replacement scenes to avoid crop and license problems.
+- Replacements created under:
+  - `public/assets/reels/192/generated-v3/`
+  - `public/assets/reels/192/generated-v3-motion/`
+- Rebuilt:
+  - Scene 3 B/C with 9:16 K-beauty aisle / basket pause candidates.
+  - Scene 4 A/B/C motion-card options around the `1-1-1 rule`.
+  - Scene 5 A/B/C with 9:16 one-need / one-curiosity / one-gift visuals.
+  - Scene 6 A/B/C with 9:16 travel-mini / compact-versus-bulky packing visuals.
+- Applied owner-selected ranks already known:
+  - Scene 1: A rank 1, C rank 2.
+  - Scene 2: B rank 1, A rank 2.
+  - Scene 3: A rank 1.
+  - Scene 7: C rank 1, A rank 2.
+- Verification:
+  - `npm.cmd run reels:dashboard-gate -- --slug 192` passed.
+  - Gate result: 15 photo candidates, 14 source families.
+  - Only remaining warning: `Pexels / Saksham Vikram` appears in Scenes 1 and 7, but Scene 7 B is not owner-selected.
+  - Local missing-image check: `missing 0`.
+  - Rebuilt static review dashboard:
+    - `.tmp/reel192-review-share/index.html`
+  - Rebuilt and manually inspected:
+    - `output/reels/192/candidate-contact-sheet-v4.jpg`
+  - Updated score:
+    - `output/reels/192/reviewer-visual-score.md`
+    - candidate-pool average `88.1/100`
+    - recommended rank-1 average `90.8/100`
+- Current review URL:
+  - `file:///D:/dev/epickor-blog/.tmp/reel192-review-share/index.html`
+- Next:
+  - Representative should review only the changed/unknown portions if desired:
+    - S3 B/C replacements
+    - S4 A/B/C replacements
+    - S5 A/B/C replacements
+    - S6 A/B/C replacements
+  - Suggested next choice starting point:
+    - `S3 1:A / 2:B`
+    - `S4 1:A / 2:B`
+    - `S5 1:A / 2:C`
+    - `S6 1:A / 2:B`
+
+---
+
+## Session Close - 2026-06-15 Reels 192 Paused for Motion-Card Recheck
+
+- Representative paused the session for the day.
+- Current Reels 192 status:
+  - Photo candidate sourcing was improved after the representative flagged weak/repetitive sources and 9:16 crop risk.
+  - `npm.cmd run reels:dashboard-gate -- --slug 192` passed after the replacement rebuild.
+  - Local missing-image check passed with `missing 0`.
+  - `output/reels/192/candidate-contact-sheet-v4.jpg` was manually inspected after the final S3/S5/S6 replacement pass.
+  - `output/reels/192/reviewer-visual-score.md` now records candidate-pool average `88.1/100` and recommended rank-1 average `90.8/100`.
+- Known blocker for next session:
+  - Representative said the motion-card portion is still "엉망" and needs a fresh review.
+  - Do not continue to asset prep, TTS, Remotion props, validation, or rendering for Reels 192 until S4 motion-card options are rebuilt/reapproved.
+- First task next session:
+  - Re-open `.tmp/reel192-review-share/index.html` and `output/reels/192/motion-cards.json`.
+  - Recompare S4 motion-card style against accepted recent Reels (`185`, `186`, `187`, `190`, `191`, `198`).
+  - Rebuild S4 motion-card options before asking the representative for final rankings.
+- Practical paths:
+  - Review URL: `file:///D:/dev/epickor-blog/.tmp/reel192-review-share/index.html`
+  - Candidate sheet: `D:\dev\epickor-blog\output\reels\192\candidate-contact-sheet-v4.jpg`
+  - Motion cards: `output/reels/192/motion-cards.json`
+  - Visual candidates: `output/reels/192/visual-candidates.json`
+- Agents involved this session:
+  - Reels Visual Research Agent: broadened source review beyond Pexels and created/reviewed 9:16 replacement visuals.
+  - Reels Motion Design Agent: attempted S4 motion-card replacement options, now flagged for next-session rework.
+  - Reviewer Agent: ran dashboard gate, missing-image check, and manual contact-sheet inspection.
+
+---
+
+## Correction - 2026-06-15 Strategy Team Duplicate Topic Lock
+
+- Representative correctly flagged that Strategy Team/Codex recommended topics that were already covered or should be treated as existing-post expansions:
+  - Ssamjang -> existing Blog `083`.
+  - Deli Manjoo / subway snacks -> existing Blog `071` lane.
+  - Ahjussi / Samchon / Oppa male terms -> existing Blog `090` lane.
+  - Korean cafe culture -> existing Blog `177` lane.
+  - Convenience-store breakfast/culture -> check existing Blog `160` and related coverage first.
+- Root cause:
+  - Topic recommendation relied too much on the latest GSC strategy output and exact queue-title matching.
+  - It did not strongly audit legacy published files, core keyword overlap, and HANDOFF duplicate corrections before presenting "new post" ideas.
+- Fix completed:
+  - Updated `.claude/agents/strategy-team/AGENT.md` with a top-level duplicate topic lock.
+  - Updated `.claude/skills/strategy/scripts/analyze-week.mjs` so generated topic ideas are filtered against:
+    - `content/blog/*.md` filenames/frontmatter descriptions,
+    - `content/data/topics-queue.json`,
+    - `HANDOFF.md`,
+    - known duplicate patterns.
+  - `node --check .claude\skills\strategy\scripts\analyze-week.mjs` passed.
+- Going forward:
+  - If GSC demand points to an already-covered topic, Strategy Team must recommend refresh/hub/card-news/Reels work, not a new post, unless the representative explicitly asks for a separate spin-off.
