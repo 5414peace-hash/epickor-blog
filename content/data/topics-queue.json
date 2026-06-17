@@ -1005,8 +1005,74 @@
       "status": "done",
       "generated_slug": "203",
       "generated_date": "2026-06-15"
+    },
+    {
+      "id": 48,
+      "title": "Korea Summer Packing List 2026: What Tourists Actually Need in July and August",
+      "keywords": [
+        "Korea summer packing list 2026",
+        "what to pack for Korea in July",
+        "Korea summer travel essentials",
+        "Korea July August packing"
+      ],
+      "category": "Travel",
+      "tags": [
+        "KoreaTravel",
+        "SummerTravel",
+        "PackingGuide",
+        "SeoulTravel",
+        "TravelEssentials"
+      ],
+      "amazon_category": "Travel",
+      "status": "done",
+      "generated_slug": "204",
+      "generated_date": "2026-06-17"
+    },
+    {
+      "id": 49,
+      "title": "Korea eSIM vs SIM Card vs Pocket WiFi 2026: Best Setup for Tourists",
+      "keywords": [
+        "Korea eSIM 2026",
+        "Korea SIM card vs pocket WiFi",
+        "best eSIM for Korea tourists",
+        "Incheon Airport SIM card"
+      ],
+      "category": "Travel",
+      "tags": [
+        "KoreaTravel",
+        "eSIM",
+        "PocketWiFi",
+        "IncheonAirport",
+        "TravelPlanning"
+      ],
+      "amazon_category": "Travel",
+      "status": "done",
+      "generated_slug": "205",
+      "generated_date": "2026-06-17"
+    },
+    {
+      "id": 50,
+      "title": "Korea Tax Refund Guide 2026: Olive Young, Daiso, Airport Kiosks, and Receipts",
+      "keywords": [
+        "Korea tax refund 2026",
+        "Olive Young tax refund",
+        "Korea tourist tax refund airport",
+        "Daiso Korea tax refund"
+      ],
+      "category": "Travel",
+      "tags": [
+        "KoreaTravel",
+        "TaxRefund",
+        "KoreaShopping",
+        "OliveYoung",
+        "TravelPlanning"
+      ],
+      "amazon_category": "Travel",
+      "status": "done",
+      "generated_slug": "206",
+      "generated_date": "2026-06-17"
     }
   ],
-  "last_updated": "2026-06-15",
-  "next_slug": 204
+  "last_updated": "2026-06-17",
+  "next_slug": 207
 }
