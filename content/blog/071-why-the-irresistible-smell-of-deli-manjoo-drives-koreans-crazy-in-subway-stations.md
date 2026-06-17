@@ -43,7 +43,7 @@ It is not a complicated dessert. That is part of its charm. It is the kind of sn
 For visitors, Deli Manjoo can feel like a Korean street-food cousin of taiyaki, imagawayaki, or small custard cakes. The difference is the corn shape, the subway setting, and the very specific smell that makes it almost impossible to ignore.
 
 <div class="affiliate-inline-cta">
-  <p><strong>Korean snack note:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. If Deli Manjoo made you want a sweet Korean snack at home, compare <a href="https://amzn.to/3RjAjOp">Korean honey yakgwa</a> for a shelf-stable tea-time option.</p>
+  <p><strong>Korean snack note:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. Deli Manjoo is best fresh, but if this made you want a sweet Korean snack at home, compare <a href="https://amzn.to/3RjAjOp" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean honey yakgwa</a> with a broad <a href="https://www.amazon.com/s?k=korean+snack+box&tag=epickor2026-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean snack box</a> before choosing one for a tea-time or watch-party setup.</p>
 </div>
 
 ---
@@ -175,10 +175,10 @@ Here is the simple tourist guide:
 
 Some fans also like it after cooling down or even frozen, but for a first try, warm is the classic version.
 
-For another Korean snack culture guide, see EpicKor's article on [Korean snacks and texture culture](/blog/029).
+For another Korean snack culture guide, see EpicKor's article on [Korean snacks and texture culture](/blog/029). For a more everyday morning version of this grab-and-go logic, read the guide to [Korean convenience store breakfast](/blog/171).
 
 <div class="affiliate-inline-cta">
-  <p><strong>For a snack drawer:</strong> Deli Manjoo is best fresh, but individually wrapped <a href="https://amzn.to/4nI1uhT">Korean sweet potato snack bars</a> are easier to keep around when you want a small Korean-style sweet bite.</p>
+  <p><strong>For a snack drawer:</strong> Individually wrapped <a href="https://amzn.to/4nI1uhT" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean sweet potato snack bars</a> are easier to keep around than fresh custard cakes, especially when you want one small Korean-style sweet bite without cooking.</p>
 </div>
 
 ---

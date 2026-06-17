@@ -419,6 +419,66 @@
       "category": "Food",
       "image": "",
       "tags": ["Korean Food", "Korean Snacks", "Korean Ramen", "Korean Sauce", "Korean Pantry"]
+    },
+    {
+      "id": "043",
+      "name": "Browse Waterproof Phone Pouches",
+      "description": "A practical comparison page for mud festivals, Waterbomb, rainy-season travel, beach days, and water-heavy Korea trips.",
+      "price": "",
+      "url": "https://www.amazon.com/s?k=waterproof+phone+pouch+travel&tag=epickor2026-20",
+      "category": "Travel",
+      "image": "",
+      "tags": ["Waterproof Phone Pouch", "Korea Festival", "Waterbomb", "Boryeong Mud Festival", "Rainy Season"]
+    },
+    {
+      "id": "044",
+      "name": "Browse Travel Document Organizers",
+      "description": "A useful comparison page for passports, tickets, insurance cards, transit cards, receipts, and airport-transfer days.",
+      "price": "",
+      "url": "https://www.amazon.com/s?k=travel+document+organizer&tag=epickor2026-20",
+      "category": "Travel",
+      "image": "",
+      "tags": ["Travel Document Organizer", "Korea Travel", "Airport Transfer", "Passport Pouch", "Trip Setup"]
+    },
+    {
+      "id": "045",
+      "name": "Browse Travel Card Pouches",
+      "description": "A compact comparison page for T-money, WOWPASS, hotel key cards, credit cards, and small cash during a Korea trip.",
+      "price": "",
+      "url": "https://www.amazon.com/s?k=travel+card+pouch&tag=epickor2026-20",
+      "category": "Travel",
+      "image": "",
+      "tags": ["Travel Card Pouch", "T-money", "WOWPASS", "Korea Payment", "Korea Travel"]
+    },
+    {
+      "id": "046",
+      "name": "Browse Compact Travel Umbrellas",
+      "description": "A practical comparison page for jangma rainy season, summer storms, Seoul walks, and day-bag travel.",
+      "price": "",
+      "url": "https://www.amazon.com/s?k=compact+travel+umbrella&tag=epickor2026-20",
+      "category": "Travel",
+      "image": "",
+      "tags": ["Travel Umbrella", "Korea Rainy Season", "Jangma", "Seoul Travel", "Packing"]
+    },
+    {
+      "id": "047",
+      "name": "Browse Travel Insect Repellent",
+      "description": "A comparison page for summer Korea trips, mosquito season, riverside walks, parks, and humid nights.",
+      "price": "",
+      "url": "https://www.amazon.com/s?k=travel+insect+repellent+spray&tag=epickor2026-20",
+      "category": "Travel",
+      "image": "",
+      "tags": ["Insect Repellent", "Korea Summer", "Mosquito Season", "Travel Spray", "Packing"]
+    },
+    {
+      "id": "048",
+      "name": "Browse Portable Power Banks",
+      "description": "A useful comparison page for navigation, translation, photos, festival days, and long Seoul itineraries.",
+      "price": "",
+      "url": "https://www.amazon.com/s?k=portable+power+bank+travel&tag=epickor2026-20",
+      "category": "Travel",
+      "image": "",
+      "tags": ["Power Bank", "Korea Travel", "Navigation", "Translation", "Festival Day"]
     }
   ]
 }

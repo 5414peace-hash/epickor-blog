@@ -1,8 +1,8 @@
 ---
-title: "Ahjussi Meaning in Korean: Is It Rude? Oppa vs Samchon"
+title: "Ahjussi Meaning in Korean: Is It Rude to Say?"
 slug: "090"
 date: "2024-08-30"
-description: "Ahjussi meaning in Korean explained: is it rude, when should foreigners use it, and how it differs from oppa and samchon."
+description: "Ahjussi meaning in Korean explained: what it means, when it sounds rude, and how it differs from oppa, samchon, and jeogiyo."
 tags: ["Culture", "Social", "Woman", "Man", "Language"]
 ogImage: "/assets/images/posts/090/9aba325a-8a83-4721-9780-c2760839d14b.png"
 author: "EpicKor"
@@ -128,7 +128,7 @@ For Korean learners, the biggest mistake is using K-drama words too freely. Oppa
   <p><strong>Before copying drama phrases:</strong> A small phrasebook can save awkward address-term mistakes; browse <a href="https://www.amazon.com/s?k=korean+phrasebook&tag=epickor2026-20">Korean phrasebook options</a> before practicing words like oppa, samchon, and ahjussi in real life.</p>
 </div>
 
-If you are unsure, do not label the person. Use a neutral phrase.
+If you are unsure, do not label the person. Use a neutral phrase. For more visitor-facing social rules, read EpicKor's guide to [Korean etiquette questions tourists actually run into](/blog/187).
 
 ## Ahjussi, Ajeossi, Ajusshi, and Ahjusshi: Are They Different?
 

@@ -1,8 +1,8 @@
 ---
-title: "SKY Universities in Korea: SNU, Korea, Yonsei and Why They Matter"
+title: "SKY Universities Korea: SNU, Korea, Yonsei Explained"
 slug: "082"
 date: "2024-08-25"
-description: "SKY universities in Korea explained: SNU, Korea University, Yonsei, rankings, rivalry, social status, and why SKY matters so much."
+description: "SKY universities Korea explained: SNU, Korea University, Yonsei, rankings, rivalry, social status, and why the SKY label matters."
 tags: ["Culture", "Social", "Education", "History"]
 ogImage: "/assets/images/posts/082/af24b8c3-5c79-4465-9da3-2065385ad011.png"
 author: "EpicKor"
@@ -12,7 +12,7 @@ If you searched **SKY universities in Korea**, the answer is simple: **SKY** ref
 
 But SKY is not only a ranking. In Korea, it can affect how people talk about intelligence, family sacrifice, career opportunity, marriage prospects, and social class. That may sound dramatic if you come from a country where university prestige matters but does not define your whole identity. In Korea, SKY can feel like a passport into the country's elite networks.
 
-So when Koreans talk about SKY universities, they are not just talking about campuses. They are talking about pressure, pride, rivalry, and the dream of entering the country's most respected academic circle.
+So when Koreans talk about SKY universities, they are not just talking about campuses. They are talking about pressure, pride, rivalry, and the dream of entering the country's most respected academic circle. For the student-life side beyond the acronym, read EpicKor's guide to [Korean university life](/blog/191).
 
 **Quick answer:** **SKY universities** means **Seoul National University (SNU), Korea University, and Yonsei University**. It is not just an official ranking label. It is a cultural shortcut Koreans use for elite education, exam success, alumni networks, and social prestige.
 
