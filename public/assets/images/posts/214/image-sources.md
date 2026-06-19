@@ -8,12 +8,12 @@ Reviewer visual fit target: 95/100 average. All images are downloaded from Pexel
   - Fit: Restaurant touchscreen terminal that visually supports the article's CatchTable/Naver/waiting-tablet reservation-system section without using a copyrighted branded kiosk photo.
   - Duplicate check: `rg 12935074` returned no prior blog/card-news asset usage before selection.
   - Visual Fit Score: 93/100.
-- `seoul-restaurant-interior-prep.jpg`
-  - Source: Pexels, photo ID 31663813, Photo by Theodore Nguyen.
-  - URL: https://images.pexels.com/photos/31663813/pexels-photo-31663813.jpeg
-  - Fit: Korean restaurant interior and limited seating; strong for reservation/capacity explanation.
-  - Duplicate check: `rg 31663813` returned no prior blog/card-news asset usage before selection.
-  - Visual Fit Score: 97/100.
+- `seoul-compact-restaurant-kitchen.jpg`
+  - Source: Pexels, photo ID 31909237, Photo by Theodore Nguyen.
+  - URL: https://images.pexels.com/photos/31909237/pexels-photo-31909237.jpeg
+  - Fit: Compact Korean restaurant kitchen/operation scene; useful for explaining why small restaurants can have tight capacity and timing.
+  - Duplicate check: `rg 31909237` returned no prior blog/card-news asset usage before selection.
+  - Visual Fit Score: 96/100.
 - `korean-restaurant-facade.jpg`
   - Source: Pexels, photo ID 33085091, Photo by Ruby Huang.
   - URL: https://images.pexels.com/photos/33085091/pexels-photo-33085091.jpeg
