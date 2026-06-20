@@ -1,13 +1,18 @@
 # Blog 219 Image Sources
 
-- `kimchi-ramen-bowl.jpg` - Pexels ID `36481287`, Photo by FOX on Pexels. Used as representative Korean ramen/kimchi comfort image.
-- `egg-kimchi-ramen.jpg` - Pexels ID `10359939`, Photo by FOX on Pexels. Used for egg, kimchi, and comfort ramen context.
-- `korean-noodle-kimchi-table.jpg` - Pexels ID `5339078`, Photo by ROMAN ODINTSOV on Pexels. Used for Korean table and side-dish context.
-- `korean-noodle-top-view.jpg` - Pexels ID `5774079`, Photo by Luis Becerra Fotografo on Pexels. Used for topping/add-on and plating discussion.
+- `korean-ramen-chopsticks.jpg` - Pexels ID `32196404`, Photo by Theodore Nguyen on Pexels. Used as the new hero because it shows chopsticks lifting ramen from a small Korean pot, directly matching ramen trend culture.
+- `korean-ramen-pot.jpg` - Pexels ID `32196405`, Photo by Theodore Nguyen on Pexels. Used for the classic comfort ramen section because the Korean pot, broth, and noodles are clearly visible.
+- `tteokbokki-ramyun-pot.jpg` - Pexels ID `32196399`, Photo by Theodore Nguyen on Pexels. Used for trend/remix context because it shows tteokbokki-style rice cakes and ramen in one spicy pot.
+- `spicy-korean-ramen-bowl.jpg` - Pexels ID `31858138`, Photo by Theodore Nguyen on Pexels. Used for toppings/add-ons and comfort bowl context.
 
 ## Review Notes
 
-- `rg` scan before download found no existing matches for active Pexels IDs in `content`, `public`, `output`, or `HANDOFF.md`.
-- Rejected/avoided IDs already seen in repo context: `32196404`, `32196399`, `32196405`, `31858138`, `5338144`, `5339080`, `5774084`, `31858150`.
-- Visual review: all active images are ramen/noodle or Korean-table relevant. None are claimed as exact branded Toomba or Buldak products.
-- Contact sheet: `.tmp/review/217-221-image-contact-sheet-v2.jpg`.
+- Replacement requested on `2026-06-20` because the prior image set looked too generic and did not communicate Korean ramen trend energy strongly enough.
+- Removed from active references:
+  - `kimchi-ramen-bowl.jpg`.
+  - `egg-kimchi-ramen.jpg`.
+  - `korean-noodle-kimchi-table.jpg`.
+  - `korean-noodle-top-view.jpg`.
+- The selected Pexels IDs appeared in older internal Reels candidate JSON/research notes, but not as active public blog/card-news/Reels article assets. They were approved for this replacement because they are materially stronger Korean ramen visuals and do not create a public exact-image duplicate.
+- Final images are not claimed as exact branded Toomba, Buldak, or Shin Ramyun product packaging; they support the Korean ramen cooking/trend context.
+- Contact sheet: `.tmp/review/218-219-221-replacement-candidates-sheet.jpg`.

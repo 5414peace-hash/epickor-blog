@@ -1,13 +1,18 @@
 # Blog 221 Image Sources
 
-- `rainy-seoul-alley-food-sign.jpg` - Pexels ID `31858119`, Photo by Theodore Nguyen on Pexels. Used as representative rainy Seoul alley/food-sign visual.
-- `korean-cafe-window-nook.jpg` - Pexels ID `29956386`, Photo by WON JONG LEE on Pexels. Used for cafe reset and indoor recovery context.
-- `seoul-indoor-art-museum.jpg` - Pexels ID `10220276`, Photo by Andrea De Santis on Pexels. Used for indoor museum/gallery rainy-day route.
-- `seoul-cafe-umbrellas-street.jpg` - Pexels ID `32028717`, Photo by Theodore Nguyen on Pexels. Used for compact cafe/neighborhood rainy-day routing.
+- `rainy-seoul-umbrellas-market.jpg` - Pexels ID `31858127`, Photo by Theodore Nguyen on Pexels. Used as the new hero because it shows wet pavement, umbrellas, Korean signs, and Seoul market-route density.
+- `rainy-seoul-market-walk.jpg` - Pexels ID `31858137`, Photo by Theodore Nguyen on Pexels. Used for the cafe-reset section because it makes the wet-weather friction immediately visible.
+- `rainy-seoul-family-street.jpg` - Pexels ID `31858140`, Photo by Theodore Nguyen on Pexels. Used for the museum/indoor-anchor section because it shows why rainy transfers drain energy.
+- `seoul-umbrella-market-route.jpg` - Pexels ID `31680632`, Photo by Theodore Nguyen on Pexels. Used for compact rainy routing because the umbrella-covered Seoul market lane clearly communicates shelter and short-route planning.
 
 ## Review Notes
 
-- `rg` scan before download found no existing matches for active Pexels IDs in `content`, `public`, `output`, or `HANDOFF.md`.
-- Rejected/avoided IDs already used or seen in repo context: `31858129`, `31858123`, `31858124`, `31858122`, `31811677`, `31811680`, `31858120`, `31858130`, `31858137`, `31858140`, `31826561`, `33895897`, `4847619`, `31736001`, `31909200`, `31663813`, `31925308`.
-- Visual review: all active images support rain, indoor culture, cafe reset, or compact route planning. No misleading non-Korea rainy market image used.
-- Contact sheet: `.tmp/review/217-221-image-contact-sheet-v2.jpg`.
+- Replacement requested on `2026-06-20` because the prior image set did not score high enough for rainy-day immediacy.
+- Removed from active references:
+  - `rainy-seoul-alley-food-sign.jpg`.
+  - `korean-cafe-window-nook.jpg`.
+  - `seoul-indoor-art-museum.jpg`.
+  - `seoul-cafe-umbrellas-street.jpg`.
+- Strong but already-public rainy Seoul sources such as Blog `199` and Reels `198` image assets were not reused. Some new selected IDs appeared only in internal candidate/research records or this prior rejected-note file; they were approved because they are not active public exact-image duplicates and they raise the article's direct rainy Seoul fit.
+- Visual review: all four final images show Korea/Seoul context, umbrellas or wet-weather routing, and no misleading foreign rainy street.
+- Contact sheet: `.tmp/review/218-219-221-replacement-candidates-sheet.jpg`.
