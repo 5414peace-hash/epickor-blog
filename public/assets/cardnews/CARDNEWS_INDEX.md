@@ -35,3 +35,4 @@ Instagram upload is representative-managed, so upload status is intentionally le
 | `2026-06-13_195` | 195 | Centre Pompidou Hanwha Seoul | 7 | final reviewed | representative-managed |
 | `2026-06-13_196` | 196 | Korea World Cup Brunch Watch Culture | 7 | final reviewed | representative-managed |
 | `2026-06-13_197` | 197 | Boryeong Mud Festival 2026 Packing Guide | 7 | final reviewed | representative-managed |
+| `2026-06-20_218` | 218 | Daiso Korea Must-Buy Guide | 7 | final reviewed | representative-managed |
