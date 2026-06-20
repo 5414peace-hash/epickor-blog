@@ -11,7 +11,7 @@ theme: bright
 image_keyword: Daiso Korea sign Seoul
 kicker: DAISO KOREA GUIDE
 image: /assets/images/posts/218/daiso-sign-closeup.jpg
-image_opacity: 0.78
+image_opacity: 0.88
 image_zoom: 1.08
 image_position: center center
 image_label: Daiso Korea

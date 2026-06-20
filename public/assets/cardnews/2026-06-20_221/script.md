@@ -11,7 +11,7 @@ theme: bright
 image_keyword: rainy Seoul umbrellas market
 kicker: SEOUL RAINY DAY ROUTE
 image: /assets/images/posts/221/rainy-seoul-umbrellas-market.jpg
-image_opacity: 0.78
+image_opacity: 0.88
 image_zoom: 1.08
 image_position: center center
 image_label: Rainy Seoul

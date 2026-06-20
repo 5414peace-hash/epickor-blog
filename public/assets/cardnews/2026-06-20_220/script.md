@@ -11,7 +11,7 @@ theme: bright
 image_keyword: Korean subway snacks Seoul street food
 kicker: SEOUL STATION SNACKS
 image: /assets/images/posts/220/myeongdong-street-snack-scene.jpg
-image_opacity: 0.78
+image_opacity: 0.88
 image_zoom: 1.10
 image_position: center center
 image_label: Seoul snack route
