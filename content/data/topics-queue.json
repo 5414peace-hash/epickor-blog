@@ -1401,8 +1401,74 @@
       "status": "done",
       "generated_slug": "221",
       "generated_date": "2026-06-20"
+    },
+    {
+      "id": 66,
+      "title": "Does Google Maps Work in Korea in 2026? Naver Map, Kakao T, and the Tourist App Setup",
+      "keywords": [
+        "does Google Maps work in Korea",
+        "Korea travel apps",
+        "Naver Map Korea",
+        "Kakao T Korea"
+      ],
+      "category": "Travel",
+      "tags": [
+        "KoreaTravel",
+        "GoogleMapsKorea",
+        "NaverMap",
+        "KakaoT",
+        "TravelApps"
+      ],
+      "amazon_category": "Travel",
+      "status": "done",
+      "generated_slug": "222",
+      "generated_date": "2026-06-22"
+    },
+    {
+      "id": 67,
+      "title": "Korea e-Arrival Card vs K-ETA 2026: What Tourists Must Fill Out Before Flying",
+      "keywords": [
+        "Korea e-Arrival Card",
+        "K-ETA 2026",
+        "Korea entry requirements",
+        "Korea arrival card"
+      ],
+      "category": "Travel",
+      "tags": [
+        "KoreaTravel",
+        "KETA",
+        "EArrivalCard",
+        "IncheonAirport",
+        "TravelPlanning"
+      ],
+      "amazon_category": "Travel",
+      "status": "done",
+      "generated_slug": "223",
+      "generated_date": "2026-06-22"
+    },
+    {
+      "id": 68,
+      "title": "KPop Demon Hunters Korea Guide: Seoul Places, Myths, Food, and Fan Travel Ideas",
+      "keywords": [
+        "KPop Demon Hunters Korea",
+        "KPop Demon Hunters Seoul",
+        "KPop Demon Hunters Korean culture",
+        "K-pop fan travel Korea"
+      ],
+      "category": "Culture",
+      "tags": [
+        "KPopDemonHunters",
+        "Kpop",
+        "SeoulTravel",
+        "KoreanCulture",
+        "FanTravel"
+      ],
+      "amazon_category": "Culture",
+      "status": "done",
+      "generated_slug": "224",
+      "generated_date": "2026-06-22"
     }
   ],
-  "last_updated": "2026-06-20",
-  "next_slug": 222
+  "last_updated": "2026-06-22",
+  "next_slug": 225
 }
