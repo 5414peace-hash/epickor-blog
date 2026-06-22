@@ -2,35 +2,29 @@
 
 Blog: `222` - `Does Google Maps Work in Korea in 2026? Naver Map, Kakao T, and the Tourist App Setup`
 
-All images were downloaded from Pexels on 2026-06-22 at 1200px width and reviewed in `.tmp/review/222-224-image-contact-sheet.jpg`.
+## Replacement Summary
+
+- Replaced the previous generic Pexels street/transit photos with original editorial graphics.
+- Reason: the old visuals showed Seoul atmosphere but did not directly show the problem this post solves: Google Maps limits, Naver Map handoff, Kakao T taxi backup, Papago translation, and subway-exit routing.
+- New visuals were rendered locally from original SVG artwork on 2026-06-22 and reviewed in `.tmp/review/222-224-replacement-contact-sheet.jpg`.
+- No third-party screenshots, map tiles, app UI captures, logos, movie stills, or copyrighted news photos are embedded in the final image files.
+
+## Web Research References
+
+- AP: `https://apnews.com/article/74d8c4d3e041a055f0bf1524ebdb9149`
+- The Guardian: `https://www.theguardian.com/world/2025/aug/08/south-korea-google-maps-geographic-data-restrictions`
+- Korea.net reference found during image research: `https://www.korea.net/NewsFocus/Culture/view?articleId=247859`
 
 ## Used Images
 
-- `seoul-phone-navigation.jpg`
-  - Source: Pexels ID `5574914`
-  - Credit: Photo by e-kobud-i on Pexels
-  - URL: `https://images.pexels.com/photos/5574914/pexels-photo-5574914.jpeg`
-  - Visual fit: phone navigation/travel setup; Korea-context street background and smartphone use fit the app guide.
+- `korea-navigation-app-stack-2026.jpg`
+  - Type: Original editorial graphic.
+  - Visual fit: shows the exact Korea travel app stack discussed in the article: Google Maps, Naver Map, Kakao T, and Papago.
 
-- `seoul-bus-window-navigation.jpg`
-  - Source: Pexels ID `32133701`
-  - Credit: Photo by Theodore Nguyen on Pexels
-  - URL: `https://images.pexels.com/photos/32133701/pexels-photo-32133701.jpeg`
-  - Visual fit: Seoul bus-window context with local signage; supports route and local-map discussion.
+- `google-to-naver-route-workflow.jpg`
+  - Type: Original editorial workflow graphic.
+  - Visual fit: explains the actual tourist behavior in the post: discover in Google, copy Korean name/address, route in Naver Map.
 
-- `seoul-subway-platform.jpg`
-  - Source: Pexels ID `31768202`
-  - Credit: Photo by Theodore Nguyen on Pexels
-  - URL: `https://images.pexels.com/photos/31768202/pexels-photo-31768202.jpeg`
-  - Visual fit: Seoul subway platform context; supports transit and subway-exit guidance.
-
-- `hoehyeon-station-entrance.jpg`
-  - Source: Pexels ID `31826589`
-  - Credit: Photo by Theodore Nguyen on Pexels
-  - URL: `https://images.pexels.com/photos/31826589/pexels-photo-31826589.jpeg`
-  - Visual fit: Seoul station/platform entrance context; retained as a post asset and available for future route sections.
-
-## Duplicate / Reuse Check
-
-- Avoided Pexels IDs already found in prior content or image-source records: `31768194`, `31892087`, `31826590`, `31768195`, and `31925324`.
-- Local search before final selection did not find prior uses of `5574914`, `32133701`, `31768202`, or `31826589`.
+- `seoul-subway-exit-rule-map.jpg`
+  - Type: Original editorial subway-exit diagram.
+  - Visual fit: directly supports the article's Seoul subway exit rule and why local navigation context matters.

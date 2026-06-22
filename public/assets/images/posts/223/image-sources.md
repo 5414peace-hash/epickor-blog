@@ -2,35 +2,33 @@
 
 Blog: `223` - `Korea e-Arrival Card vs K-ETA 2026: What Tourists Must Fill Out Before Flying`
 
-All images were downloaded from Pexels on 2026-06-22 at 1200px width and reviewed in `.tmp/review/222-224-image-contact-sheet.jpg`.
+## Replacement Summary
+
+- Replaced the previous generic airport/passport photos with original paperwork-specific editorial graphics.
+- Reason: the old visuals were broadly travel-related but did not explain the article's key decision: e-Arrival Card vs K-ETA, official fee difference, `.go.kr` domain checks, and airport-day document readiness.
+- New visuals were rendered locally from original SVG artwork on 2026-06-22 and reviewed in `.tmp/review/222-224-replacement-contact-sheet.jpg`.
+- No third-party screenshots, government-site screenshots, passport scans, or copyrighted news photos are embedded in the final image files.
+
+## Web Research References
+
+- Korea e-Arrival Card official site: `https://www.e-arrivalcard.go.kr/portal/main/index.do`
+- K-ETA official site: `https://www.k-eta.go.kr/portal/newapply/index.do`
+- K-ETA scam-warning context reviewed during search: `https://says.com/my/news/psa-beware-of-unauthorised-websites-selling-korea-eta`
 
 ## Used Images
 
-- `incheon-airport-terminal.jpg`
-  - Source: Pexels ID `31649603`
-  - Credit: Photo by Theodore Nguyen on Pexels
-  - URL: `https://images.pexels.com/photos/31649603/pexels-photo-31649603.jpeg`
-  - Visual fit: Incheon Airport interior with tourist-center context; direct Korea arrival relevance.
+- `korea-entry-paperwork-split-2026.jpg`
+  - Type: Original editorial comparison graphic.
+  - Visual fit: directly compares e-Arrival Card and K-ETA by purpose, fee, timing, and official domain.
 
-- `airport-check-in-queue.jpg`
-  - Source: Pexels ID `32223420`
-  - Credit: Photo by Kenneth Surillo on Pexels
-  - URL: `https://images.pexels.com/photos/32223420/pexels-photo-32223420.jpeg`
-  - Visual fit: airport check-in queue; supports pre-flight paperwork and airline-counter stress sections.
+- `e-arrival-card-form-flow.jpg`
+  - Type: Original editorial process graphic.
+  - Visual fit: shows the entry declaration sequence: terms/email, passport info, itinerary, stay details, submit/save.
 
-- `passport-travel-documents.jpg`
-  - Source: Pexels ID `4922356`
-  - Credit: Photo by Ekaterina Belinskaya on Pexels
-  - URL: `https://images.pexels.com/photos/4922356/pexels-photo-4922356.jpeg`
-  - Visual fit: passport close-up; directly supports passport and entry-document preparation.
+- `keta-official-site-scam-check.jpg`
+  - Type: Original editorial warning graphic.
+  - Visual fit: makes the article's official-domain and fake-fee warning visible at a glance.
 
-- `travel-document-bag.jpg`
-  - Source: Pexels ID `1058959`
-  - Credit: Photo by nappy on Pexels
-  - URL: `https://images.pexels.com/photos/1058959/pexels-photo-1058959.jpeg`
-  - Visual fit: passport/travel bag organization; useful for document organizer CTA and practical checklist sections.
-
-## Duplicate / Reuse Check
-
-- Avoided the AREX entrance candidate because Blog `202` already uses an AREX entrance image and Blog `216` records a related duplicate-risk rejection.
-- Local search before final selection did not find prior uses of `31649603`, `32223420`, `4922356`, or `1058959`.
+- `airport-day-document-checklist.jpg`
+  - Type: Original editorial checklist graphic.
+  - Visual fit: ties the paperwork advice to passport, K-ETA result, e-Arrival Card, flight details, email access, and phone battery.

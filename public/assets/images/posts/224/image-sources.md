@@ -2,36 +2,33 @@
 
 Blog: `224` - `KPop Demon Hunters Korea Guide: Seoul Places, Myths, Food, and Fan Travel Ideas`
 
-All images were downloaded from Pexels on 2026-06-22 at 1200px width and reviewed in `.tmp/review/222-224-image-contact-sheet.jpg`.
+## Replacement Summary
+
+- Replaced the previous generic Seoul/Namsan/hanok/hanbok photos with original fan-travel editorial visuals.
+- Reason: the old visuals looked like standard Seoul travel images and did not strongly connect to `KPop Demon Hunters`, fan behavior, food curiosity, K-pop shopping, photo booths, or the article's "inspiration route, not filming location" angle.
+- New visuals were rendered locally from original SVG artwork on 2026-06-22 and reviewed in `.tmp/review/222-224-replacement-contact-sheet.jpg`.
+- No Netflix/Sony character art, movie stills, poster crops, drone-show news photos, idol photos, album covers, or copyrighted merchandise images are embedded in the final image files.
+
+## Web Research References
+
+- The Guardian: `https://www.theguardian.com/media/2025/aug/26/kpop-demon-hunters-netflix-most-watched-film-record`
+- Korea JoongAng Daily drone-show context: `https://www.koreajoongangdaily.com/entertainment/seouls-night-sky-glows-with-kpop-demon-hunters-drone-magic-in-pictures/11582992`
+- Money Today Seoul Hunters Festival / Hangang drone-show context: `https://www.mt.co.kr/policy/2025/09/09/2025090910281237864`
 
 ## Used Images
 
-- `seoul-skyline-namsan-evening.jpg`
-  - Source: Pexels ID `11687718`
-  - Credit: Photo by Ethan Brooke on Pexels
-  - URL: `https://images.pexels.com/photos/11687718/pexels-photo-11687718.jpeg`
-  - Visual fit: Seoul skyline/Namsan atmosphere; supports the pop-fantasy-to-real-Seoul framing.
+- `kpop-demon-hunters-fan-route-seoul.jpg`
+  - Type: Original editorial route graphic.
+  - Visual fit: directly frames the article's search intent: movie fandom becoming a Seoul trip without fake filming-location claims.
 
-- `namsan-park-pavilion.jpg`
-  - Source: Pexels ID `32124401`
-  - Credit: Photo by Theodore Nguyen on Pexels
-  - URL: `https://images.pexels.com/photos/32124401/pexels-photo-32124401.jpeg`
-  - Visual fit: Namsan/traditional pavilion context; useful for inspiration-route sections without claiming official movie locations.
+- `seoul-fan-inspiration-route-map.jpg`
+  - Type: Original editorial route-map graphic.
+  - Visual fit: shows a real fan-day sequence: old roofs, album shop, four-cut photos, tteokbokki, and skyline.
 
-- `bukchon-hanok-roofs.jpg`
-  - Source: Pexels ID `20325767`
-  - Credit: Photo by Line Knipst on Pexels
-  - URL: `https://images.pexels.com/photos/20325767/pexels-photo-20325767.jpeg`
-  - Visual fit: hanok roof texture in Seoul; supports old/new Korea contrast and fan travel route.
+- `korean-fan-food-lane.jpg`
+  - Type: Original editorial food graphic.
+  - Visual fit: directly supports the article's Korean food lane: tteokbokki, ramyeon, convenience-store snacks, and Korean fried chicken.
 
-- `hanbok-palace-seoul.jpg`
-  - Source: Pexels ID `37865990`
-  - Credit: Photo by Henry Acevedo on Pexels
-  - URL: `https://images.pexels.com/photos/37865990/pexels-photo-37865990.jpeg`
-  - Visual fit: hanbok/palace scene in Seoul; supports respectful traditional-culture guidance.
-
-## Duplicate / Reuse Check
-
-- Avoided Bukchon IDs already used in old Blog `180`: `33019244`, `20325769`, and `20325768`.
-- Avoided ramen IDs already used in Blog `219` and Card News `219`: `32196404`, `32196405`, `32196399`, and `31858138`.
-- Local search before final selection did not find prior uses of `11687718`, `32124401`, `20325767`, or `37865990`.
+- `kpop-fan-goods-photo-booth-flatlay.jpg`
+  - Type: Original editorial fan-goods graphic.
+  - Visual fit: directly supports fan shopping and souvenir advice: album, four-cut strip, lightstick, and Korean snacks.
