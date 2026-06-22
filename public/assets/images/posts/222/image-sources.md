@@ -2,29 +2,39 @@
 
 Blog: `222` - `Does Google Maps Work in Korea in 2026? Naver Map, Kakao T, and the Tourist App Setup`
 
-## Replacement Summary
+## Replacement Summary - 2026-06-22 Web Photo Fix
 
-- Replaced the previous generic Pexels street/transit photos with original editorial graphics.
-- Reason: the old visuals showed Seoul atmosphere but did not directly show the problem this post solves: Google Maps limits, Naver Map handoff, Kakao T taxi backup, Papago translation, and subway-exit routing.
-- New visuals were rendered locally from original SVG artwork on 2026-06-22 and reviewed in `.tmp/review/222-224-replacement-contact-sheet.jpg`.
-- No third-party screenshots, map tiles, app UI captures, logos, movie stills, or copyrighted news photos are embedded in the final image files.
-
-## Web Research References
-
-- AP: `https://apnews.com/article/74d8c4d3e041a055f0bf1524ebdb9149`
-- The Guardian: `https://www.theguardian.com/world/2025/aug/08/south-korea-google-maps-geographic-data-restrictions`
-- Korea.net reference found during image research: `https://www.korea.net/NewsFocus/Culture/view?articleId=247859`
+- Replaced the rejected generated/editorial graphics with actual web-sourced visuals.
+- Image rule for this correction: no AI-generated design graphics, no abstract app-stack diagrams, and no made-up workflow visuals.
+- Final set uses one Korea.net real street/navigation photo, one official Kakao T taxi screen, and one Wikimedia Commons Seoul subway exit photo.
+- Visual review contact sheet: `.tmp/review/222-224-web-photo-replacement-contact-sheet.jpg`.
 
 ## Used Images
 
-- `korea-navigation-app-stack-2026.jpg`
-  - Type: Original editorial graphic.
-  - Visual fit: shows the exact Korea travel app stack discussed in the article: Google Maps, Naver Map, Kakao T, and Papago.
+- `korea-net-naver-map-phone.jpg`
+  - Source: Korea.net, `Foreign tourists prefer domestic apps like Naver Map for visits`.
+  - URL: `https://www.korea.net/NewsFocus/Culture/view?articleId=247859`
+  - Original image: `https://www.korea.net/upload/content/editImage/20240306131007307_86RHLSN6.jpg`
+  - Credit shown by source: Cao Thi Ha / Korea.net.
+  - Visual fit: direct real-world Naver Map use on a Korean street; best hero image for the post.
 
-- `google-to-naver-route-workflow.jpg`
-  - Type: Original editorial workflow graphic.
-  - Visual fit: explains the actual tourist behavior in the post: discover in Google, copy Korean name/address, route in Naver Map.
+- `kakao-t-taxi-official-screen.jpg`
+  - Source: Kakao official service page for Kakao T.
+  - URL: `https://www.kakaocorp.com/page/service/service/KakaoT?lang=en`
+  - Original image: `https://t1.kakaocdn.net/kakaocorp/kakaocorp/admin/service/1c1c81ed018b00001.jpg`
+  - Visual fit: official Kakao T taxi fare/route interface; directly supports the taxi backup section.
 
-- `seoul-subway-exit-rule-map.jpg`
-  - Type: Original editorial subway-exit diagram.
-  - Visual fit: directly supports the article's Seoul subway exit rule and why local navigation context matters.
+- `seoul-subway-exit-sign-cc0.jpg`
+  - Source: Wikimedia Commons.
+  - File: `Sungshin Women's Univ. Station Exit 2 Pole Sign 1.jpg`
+  - URL: `https://commons.wikimedia.org/wiki/File:Sungshin_Women%27s_Univ._Station_Exit_2_Pole_Sign_1.jpg`
+  - Original image: `https://upload.wikimedia.org/wikipedia/commons/b/bc/Sungshin_Women%27s_Univ._Station_Exit_2_Pole_Sign_1.jpg`
+  - License: `CC0`.
+  - Visual fit: actual Seoul subway exit sign, matching the article's exit-number advice.
+
+## Replaced Files
+
+- Removed from active markdown:
+  - `korea-navigation-app-stack-2026.jpg`
+  - `google-to-naver-route-workflow.jpg`
+  - `seoul-subway-exit-rule-map.jpg`
