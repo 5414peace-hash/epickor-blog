@@ -33,10 +33,13 @@ Reviewer Team must not approve a post from markdown structure alone.
 - New EpicKor blog posts must render with 3-4 relevant images unless the representative explicitly approved a lower count for that post.
 - Every local markdown image path under `/assets/` must exist in `public/assets/`.
 - Reject images that are generic, misleading, visibly from the wrong country/context, or repeated only to satisfy the count.
+- Use the corrected Blogs 222/223/224 as the blog-reference-image benchmark. Approve real web-sourced photos/screenshots when they directly document the reader task, official page, product, place, food, event, storefront, or cultural object discussed in the nearby section.
+- Reject "decorative but plausible" stock photos when a direct reference image can reasonably be sourced. The post should not pass just because the image looks Korean or attractive.
+- Generated/editorial graphics cannot replace direct real reference images for practical guides unless the source-image search failed, copyright/safety prevents use, or the representative approved the exception; the reason must be recorded in `image-sources.md` and `HANDOFF.md`.
 - Check that the images are distributed through the article and connected to nearby text.
 - Run or perform a duplicate-source check before approval: exact file hash against `public/assets/images/posts/**`, source URL/Pexels ID against `content/blog/**/*.md`, and visible same-session/source-family reuse.
 - A copied image saved under a new filename is still a duplicate and must be rejected.
-- Produce a Blog Image Fit Score before approval: direct section fit 35, Korea/context fit 20, uniqueness/no prior reuse 20, no misleading text/logo risk 15, rendered quality 10. Approval requires average >=88/100 and no individual image below 84/100.
+- Produce a Blog Image Fit Score before approval: direct section fit 40, Korea/context fit 20, real-reference/source value 15, uniqueness/no prior reuse 15, no misleading text/logo risk 5, rendered quality 5. Approval requires average >=90/100 and no individual image below 86/100; if a direct real reference image was reasonably available but a generic/graphic substitute was used, cap that image at 79/100.
 - The preview page must be opened in a browser and checked for broken images before the user is asked to approve.
 - After publishing or deploying, Publisher/Reviewer must check the public page again. If the browser shows a broken image icon, the post is not complete even if SEO score is 100.
 - Record this rendered-image check in `HANDOFF.md` when a post is published or rewritten.

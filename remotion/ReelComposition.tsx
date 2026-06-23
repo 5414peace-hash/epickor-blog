@@ -236,6 +236,9 @@ function bulletRevealStartFrame(card: ReelMotionCard | undefined, scene: ReelSce
     '173-6-motion-a': [58, 88, 126, 154],
     '190-card-save-numbers-menu': [-12, 18, 40],
     '190-card-right-door-menu': [-12, 16, 34],
+    '197-card-survival-kit-checklist': [-10, -2, 6, 14, 22],
+    '198-card-dress-dry-kit-grid': [-8, 3, 12, 21],
+    '198-card-tiny-bag-kit-grid': [-8, 8, 24, 40],
   };
   const start = card?.id ? overrides[card.id]?.[index] : undefined;
   if (typeof start === 'number') return Math.min(scene.durationFrames - 18, Math.max(-12, start));
@@ -1342,14 +1345,31 @@ function BrandLayer({ label }: { label: string }) {
 }
 
 function ThumbnailLayer({ scene, title }: { scene: ReelScene; title: string }) {
-  const beatText = scene.typographyBeats[0]?.text || title;
+  const isWaterbombTitle = scene.number === 1 && /Waterbomb Seoul 2026 Survival Guide/i.test(title);
+  const isOliveYoungTitle = scene.number === 1 && /Olive Young Korea Shopping Guide/i.test(title);
+  const customThumbnailTitle = scene.number === 1
+    ? scene.typographyBeats.find((beat) => /thumbnail_title/i.test(beat.emphasis || ''))
+    : undefined;
+  const beatText = isWaterbombTitle
+    ? 'WATERBOMB SEOUL 2026'
+    : isOliveYoungTitle
+      ? 'OLIVE YOUNG GUIDE'
+      : customThumbnailTitle
+        ? 'WORLD CUP BRUNCH'
+        : scene.typographyBeats[0]?.text || title;
   const isWebtoonTitle = scene.number === 1 && /Webtoons Changed How Stories Travel/i.test(title);
   const titleLines =
-    isWebtoonTitle
-      ? ['WEBTOONS CHANGED', 'HOW STORIES TRAVEL']
+    isWaterbombTitle
+      ? ['DRESS TO DRY', 'NOT JUST POSE']
+      : isOliveYoungTitle
+        ? ["DON'T PANIC", 'BUY']
+      : isWebtoonTitle
+        ? ['WEBTOONS CHANGED', 'HOW STORIES TRAVEL']
       : scene.number === 1 && /Convenience Store Breakfast/i.test(title)
-      ? ['KOREAN', 'CONVENIENCE STORE', 'BREAKFAST']
-      : textLines(title);
+        ? ['KOREAN', 'CONVENIENCE STORE', 'BREAKFAST']
+      : customThumbnailTitle
+        ? textLines(customThumbnailTitle.text)
+        : textLines(title);
 
   return (
     <AbsoluteFill style={{ justifyContent: 'center', alignItems: 'center', padding: isWebtoonTitle ? '0 48px' : '0 72px', pointerEvents: 'none' }}>
@@ -1357,9 +1377,9 @@ function ThumbnailLayer({ scene, title }: { scene: ReelScene; title: string }) {
         style={{
           color: '#facc15',
           fontFamily: 'Inter, Arial, sans-serif',
-          fontSize: isWebtoonTitle ? 42 : 28,
+          fontSize: isWebtoonTitle ? 42 : isWaterbombTitle || isOliveYoungTitle ? 34 : 28,
           fontWeight: 950,
-          marginBottom: isWebtoonTitle ? 24 : 28,
+          marginBottom: isWebtoonTitle ? 24 : isWaterbombTitle || isOliveYoungTitle ? 26 : 28,
           textAlign: 'center',
           textShadow: '0 5px 18px rgba(0,0,0,0.85)',
           textTransform: 'uppercase',
@@ -1372,9 +1392,9 @@ function ThumbnailLayer({ scene, title }: { scene: ReelScene; title: string }) {
         style={{
           color: '#ffffff',
           fontFamily: 'Inter, Arial, sans-serif',
-          fontSize: isWebtoonTitle ? 108 : titleLines.join('').length > 28 ? 68 : 82,
+          fontSize: isWebtoonTitle ? 108 : isWaterbombTitle || isOliveYoungTitle ? 104 : titleLines.join('').length > 28 ? 68 : 82,
           fontWeight: 950,
-          lineHeight: isWebtoonTitle ? 0.9 : 0.95,
+          lineHeight: isWebtoonTitle || isWaterbombTitle || isOliveYoungTitle ? 0.9 : 0.95,
           textAlign: 'center',
           textShadow: '0 9px 30px rgba(0,0,0,0.9)',
           textTransform: 'uppercase',

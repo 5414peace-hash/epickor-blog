@@ -11,6 +11,7 @@ Build a parallel Instagram Reels pipeline for newly published EpicKor posts whil
 - Every Reels project must keep scene-level files under `output/reels/{slug}/`.
 - Human visual approval is required before final Remotion rendering.
 - Record agent roles, blockers, and improvements in `HANDOFF.md`.
+- When the representative asks, "다음 릴스는 뭘로 해볼까?" or equivalent, first provide the numbered titles of completed/published posts that do not yet have a Reels render. Treat recent newly published posts as the default candidate pool; include older posts only when the representative asks for an exception or when Strategy Team explicitly justifies an overlap.
 
 ## Confirmed Production Standard - 2026-05-11
 
@@ -40,6 +41,35 @@ Lessons that must carry forward:
 - Final CTA text must remain clear of Instagram lower UI and right action rail.
 - Final outro/CTA text should display `epickor.com` only. Do not show post-specific paths such as `/blog/{slug}` inside Reels, because viewers cannot click them from the video frame.
 - Every final candidate needs validation, evaluation packet, contact sheet, and targeted spot-check stills for intro, motion-card, typography, and CTA scenes.
+- Before showing any new `/reels-review/{slug}` dashboard or static review fallback to the representative, run:
+  `npm.cmd run reels:dashboard-gate -- --slug {slug}`.
+  This is a hard pre-review gate, not a suggestion. If it fails, do not show the dashboard. Fix the thumbnail style, candidate depth, and source diversity first.
+- Visual review dashboards must keep a stable fixed-button frame unless the representative explicitly requests a redesign: scene-by-scene cards, photo buttons `Rank 1 / Rank 2 / Rank 3 / Replace`, motion-card buttons `Select / Replace`, no dropdown selectors, and a bottom copy-ready summary string like `S1 1:A / 2:B / 3:C | S2 1:C`.
+- As of 2026-06-17, the representative-approved dashboard response format is the canonical handoff contract for visual approval: `S1 1:D@24/52 / 2:A@63/48 | S2 1:A@54/51 / 2:C@89/50 / 3:D@92/54 | S4 A`. Photo entries may include crop focus as `Letter@x/y`; motion-card scenes use the selected letter only, such as `S4 A`.
+- When a representative response includes crop coordinates, treat those coordinates as production instructions, not comments. Before `approved-visuals.json`, generate final 1080x1920 crop derivatives from the original/source image using the supplied `x/y` focus point, then use those derivatives in asset prep and Remotion props.
+- Representative ranking messages are dashboard feedback, not render approval. Do not advance to TTS, props, or video rendering unless the representative explicitly says to produce/render/finalize the Reel after all requested replacements are resolved.
+- `Replace` means the candidate is rejected and must be replaced with a new, better candidate in a revised dashboard. It does not mean "exclude this candidate and continue production."
+- Rank values are preference signals, not disposal instructions. If the representative gives only Rank 1 and Rank 2, remaining unranked high-quality candidates should stay available as candidate inventory or be used to fill Rank 3 in the next dashboard when useful; do not silently throw them away.
+- Thumbnail style is locked by `.claude/skills/reels/thumbnail-style-standard.json`. Scene 1 must declare the accepted `templateId`, use the recent centered title lockup, exactly two uppercase title lines, and `EPICKOR.COM`.
+- Scene 1 dashboard previews must visibly render the thumbnail text overlay on top of every S1 candidate image. Metadata alone is not enough. Use the Reels 186/189 confirmed small centered style: at the old 180px card width, kicker about `9px`, title about `18px`, watermark about `8px`, scaled proportionally for larger static cards. Keep the image inspectable; do not let thumbnail text fill the whole candidate.
+- For wide or landscape source photos, the dashboard candidate must show the actual 9:16 crop that would be used in the Reel, not just the original source. Inspect the 9:16 crop for subject visibility. If the crop shows mostly empty sky/water/wall or loses the main object/person/sign, adjust crop anchor, make a deliberate derivative crop, or reject the candidate. Record a render motion hint such as `pan_left`, `pan_right`, `slow_push_in`, or `slow_zoom_out` when a wide image needs controlled movement to reveal the subject.
+- Photo candidate depth for new Reels must be materially reviewable: default minimum is five candidates for every photo-led scene, including hook and outro. Do not use fewer than five options unless the representative explicitly approves a thin-dashboard exception or a documented real-search blocker remains, and record the exception in `visual-candidates.json` and `HANDOFF.md`.
+- Derivative crops do not count as fresh visual sourcing by themselves. Every derivative candidate must include `sourceFamily` or `originalAsset` metadata, and the dashboard must not be filled mostly with crops from the same few source images.
+- Do not create extra post-render HTML review UIs unless the representative asks for one. After a render, provide the video path plus the contact sheet and scene grid paths; keep dashboard review and final render review as separate, minimal outputs.
+- Do not source visuals from isolated scene keywords only. Start from the Reel's whole topic and keep that visual world alive across all scenes. Practical scenes such as transport, packing, phone protection, or CTA still need topic-contextual images first. For example, in a Boryeong Mud Festival Reel, later logistics/protection/outro scenes should still show Boryeong Mud Festival, Daecheon Beach, muddy crowds, festival staff/signage, or mud-event context before falling back to generic transport or beach objects.
+- Default candidate depth for photo-led dashboard scenes is now five image candidates per scene. The representative may rank only one, two, or three of them; unranked good candidates remain reserve inventory. Use fewer than five only when five genuinely usable, non-duplicate, quality-passing candidates cannot be sourced, and record the exception in `visual-candidates.json` and `HANDOFF.md`.
+
+## Dashboard Approval And Crop Standard - 2026-06-17
+
+Use the Reels 197 v5 dashboard as the current standard for representative visual approval.
+
+- Build the dashboard as fixed scene-by-scene cards with five photo candidates A-E for photo-led scenes whenever possible.
+- Show each photo through the actual 9:16 crop viewport that would be used in the Reel.
+- For landscape or wide sources, the visible crop must be draggable. The dashboard must provide a `Lock Crop` action that records the focus point in the copy string as `@x/y`.
+- Photo buttons remain `Rank 1 / Rank 2 / Rank 3 / Replace`. Motion-card buttons remain `Select / Replace`, and motion-card choices appear inside their numbered scene, not in a separate preface.
+- The bottom copy string is the source of truth for finalization. Preserve the representative's scene order, rank order, selected letters, and crop coordinates exactly.
+- If the representative says to produce/render after sending the copy string, finalize the Reel by applying the crop coordinates to derivative assets before running asset prep, props, validation, render, and evaluation.
+- Record the exact representative approval string in `scenes.json`, `visual-candidates.json`, `approved-visuals.json`, and `HANDOFF.md`.
 
 ## One-Pass Production Checklist
 
@@ -80,17 +110,20 @@ Before asking the representative to review or publish a new Reel, complete this 
   3. Pexels or other usable external images.
   4. Generated images when no relevant image exists.
 - Before presenting a review dashboard to the representative, provide real choice depth:
-  - Every non-motion-card scene must have at least two usable candidates.
-  - Important hook, thumbnail, closing, or uncertain-fit scenes should have three candidates when sourcing allows.
+  - Every non-motion-card scene should have five usable candidates by default.
+  - Important hook, thumbnail, closing, or uncertain-fit scenes must not be thin; use five candidates unless a documented sourcing blocker remains after a real search pass.
   - Every motion-card scene must show at least two distinct motion-card design options in the dashboard; three is preferred when the scene carries key information.
+  - Motion-card options are not ranked. They appear inside their numbered scene as graphic previews and the representative selects exactly one option with `Select`; `Replace` means rebuild that option. Never show `Rank 1 / Rank 2 / Rank 3` buttons for motion-card candidates.
   - If any scene has only one candidate, the dashboard is not ready unless the representative explicitly asked for a single-option pass and the exception is recorded in `HANDOFF.md`.
 - Do not solve duplicate or remote-image risk by stripping the dashboard down to one option per scene. Replace weak/duplicated/unstable candidates with better local, owned, generated, Pexels, or source-post alternatives.
 - For photo-led topics, the dashboard must feel materially researched. A "technically valid" candidate list with one image per scene is a Reviewer failure, even if JSON, API, and duplicate checks pass.
-- The dashboard may offer two or three visual candidates per scene, but final approval must not require the representative to rank every offered candidate. One clear selected/rank-1 visual is enough for a non-motion scene, and one approved motion-card option is enough for a motion scene. Extra ranks are preference context, not a blocking requirement.
+- The dashboard should offer five visual candidates per photo-led scene whenever possible. Final approval must not require the representative to rank every offered candidate, but unranked good candidates remain reserve inventory and can be reused in revised dashboards for the same Reel.
+- For topic-led Reels, do not let later scenes visually drift into generic stock just because the narration mentions logistics, packing, or protection. Search and rank topic-specific images first, then use generic support images only when they still preserve the Reel's overall context and are clearly labeled as fallback/support.
 - Keep useful topic-relevant images discovered during Reels research even when they are not selected for video. After visual approval, recommend adding the best extras back into the source blog post when they strengthen the article, while preserving already usable post images.
 - Record source, license note, reason for fit, weakness, and duplicate risk.
 - Check against existing `public/assets/cardnews/*/script.md` and `public/assets/reels/*` before final approval.
-- Do not place the same image URL in multiple scene candidate sets unless the repeated use is explicitly approved and documented as a deliberate callback.
+- Do not place the same image URL, same original asset, same `sourceFamily`, same shoot/crop family, or a near-identical composition in multiple scene candidate sets unless the repeated use is explicitly approved and documented as a deliberate callback.
+- Do not use low-quality image sources: visibly pixelated, blurry, heavily compressed, tiny thumbnails, watermarked preview images, distorted upscales, unreadable screenshots, or crops that fall apart at 1080x1920. If a source is useful only for factual reference but not render quality, label it reference-only and do not present it as a selectable visual candidate.
 - Do not use rendered card-news PNGs or images with large embedded editorial text as normal Reels image candidates. The only allowed exception is an intentional intro thumbnail frame or a clearly labeled graphic insert.
 - When the representative marks a visual as replacement-needed because the image subject is wrong, replace it with a direct scene-proof image first: exact brand, place, object, action, or category. Do not respond with merely prettier generic stock photos.
 
@@ -100,6 +133,10 @@ Before asking the representative to review or publish a new Reel, complete this 
 - Reject generic, misleading, off-topic, or brand-risky visuals.
 - Reject any dashboard that has fewer than two usable visual/design choices for a scene, unless a representative-approved exception is recorded. This is a hard gate before human review.
 - Reject dashboards that look "thin" even when structurally valid: one candidate per scene, one motion-card design per motion-card scene, no photo alternative for a photo-led scene, or placeholder assets presented as final choices.
+- Reject dashboards that pass by path uniqueness but fail source diversity: repeated crops, same-shoot derivatives, same original asset, or multiple nearly identical compositions across scenes are not real choice depth.
+- Reject dashboards that include visibly low-resolution, broken, pixelated, blurry, over-compressed, watermarked preview, or distorted-upscale image candidates. A visually weak image is not acceptable just because it is topically correct.
+- Treat duplicate image sources as a hard dashboard failure, not a post-render cleanup item. Check exact paths, source URLs, original assets, source families, and near-duplicate compositions before sharing.
+- Run `npm.cmd run reels:dashboard-gate -- --slug {slug}` before writing "Reviewer precheck passed" or sharing the review URL/file. A failure means the dashboard is internal-only.
 - For every dashboard, write a short candidate-depth audit before sharing the URL:
   - candidate count by scene
   - which scenes are photo-led versus motion-card-led
@@ -130,7 +167,7 @@ Before asking the representative to review or publish a new Reel, complete this 
 - Treat the default library as a 10-family minimum starting set, not a ceiling: `editorial_box`, `kinetic_steps`, `menu_board`, `radial_burst`, `split_checklist`, `convenience_tray`, `morning_route`, `wrapper_tabs`, `receipt_stack`, and `stamp_stack`.
 - For yellow emphasis typography, choose clean manual line breaks with `|` and place it above the active narration subtitle unless it is the final CTA.
 - In the review dashboard, motion-card choices must appear inside their numbered scene. Do not show motion cards as a separate top-level block before the scene sequence.
-- For a motion-card scene, provide multiple design options for that scene and approve exactly one option.
+- For a motion-card scene, provide multiple design options for that scene and approve exactly one option with `Select / Replace`, not rank buttons. If the representative says "use one card motion" for a Reel, that means one motion-card insert scene in the script; the dashboard may still show A/B/C design options for that one scene unless the representative explicitly asks for a single design option.
 
 ### Reels Voice Agent
 

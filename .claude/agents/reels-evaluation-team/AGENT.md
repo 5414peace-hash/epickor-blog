@@ -16,6 +16,7 @@ This agent is not the same as the Reels QA Agent. The QA Agent verifies pipeline
   - `output/reels/{slug}/scenes.json`
   - `output/reels/{slug}/motion-cards.json`
   - `output/reels/{slug}/approved-visuals.json`
+  - representative dashboard approval string, including crop coordinates such as `S2 1:A@54/51 / 2:C@89/50`
 - Generated evaluation artifacts:
   - `output/reels/{slug}/evaluation/evaluation-{version}.md`
   - `output/reels/{slug}/evaluation/evaluation-{version}.json`
@@ -51,6 +52,7 @@ Hard gates:
 - No audio in final render.
 - Wrong audio source in final render, such as unintended fallback to `audio/narration.mp3` when a specific audio version was intended.
 - Wrong approved motion-card option appears.
+- Representative crop coordinates from the dashboard approval string were ignored, or the render uses stale pre-approval crops after a `Letter@x/y` approval.
 - Caption text does not match narration.
 - Scene-level audio required but missing.
 - Severe Instagram mobile occlusion on core captions.
@@ -101,6 +103,11 @@ Score as a skeptical Instagram viewer, not as the production team.
 5. Check viewer naturalness:
    - Watch without reading manifests.
    - Mark any moment that feels rushed, overexplained, visually generic, too dense, or confusing.
+
+6. Check dashboard approval traceability:
+   - Confirm `scenes.json`, `approved-visuals.json`, and evaluation notes preserve the representative copy string.
+   - For every approved photo entry with `Letter@x/y`, confirm final assets are derivative crops generated from the original/source image and not stale dashboard preview files.
+   - For motion-card entries such as `S4 A`, confirm only that selected option reaches `remotion-props.json`.
 
 ## Confirmed Production Baseline
 

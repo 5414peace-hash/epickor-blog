@@ -14,9 +14,11 @@
 - Place images naturally across the article: one near the opening after enough context, one or two in the main decision/help sections, and one later near a practical checklist or FAQ lead-in when useful.
 - Do not cluster all images at the top. Each image must support the nearby section, not merely satisfy the count.
 - Use fresh local `/assets/images/posts/{slug}/...` paths, descriptive alt text, and a short credit/source line.
+- Use the 222/223/224 corrected image set as the reference level: insert images that function as evidence or practical context for the section, such as official app/form screenshots, real Korea-location photos, actual storefronts, real food/product photos, or public-domain/Creative Commons reference images.
+- Do not accept a broad mood image when the section needs a specific visual. For example, an app guide needs the actual app or route context; an entry-document guide needs the official form/site context; a fan-travel guide needs real event/place/food/photo-booth context.
 - For Korea explainers, prefer Korea-specific visuals. If a perfect Korea-specific photo is unavailable, use a culturally neutral close-up or owned/generated image instead of a visibly foreign stock scene.
 - Do not reuse images or Pexels source photos already used in older posts. A new filename is not enough if the underlying photo/source is the same.
-- If an image is only tangentially related to the paragraph, replace it or move it. Final images should score at least 85/100 for section fit before the post is shown or published.
+- If an image is only tangentially related to the paragraph, replace it or move it. Final images should score at least 90/100 for section fit before the post is shown or published; anything below 85/100 is a revision blocker.
 - When using generated/owned visuals to solve a hard-to-source topic, state `EpicKor generated visual` in the credit and avoid fake logos, fake interfaces, fake official cards, or misleading real-world claims.
 
 ## Blog Table Rules

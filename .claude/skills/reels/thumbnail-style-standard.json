@@ -1,0 +1,25 @@
+{
+  "version": "2026-06-15",
+  "templateId": "epickor-center-title-v2",
+  "name": "Recent EpicKor centered title thumbnail",
+  "requiredOverlay": {
+    "style": "recent_reels_thumbnail_title",
+    "watermark": "EPICKOR.COM",
+    "titleLineCount": 2,
+    "titleCase": "uppercase",
+    "maxTitleLineChars": 16,
+    "staticReviewBaselineCardWidthPx": 180,
+    "staticReviewKickerPxAtBaseline": 9,
+    "staticReviewTitlePxAtBaseline": 18,
+    "staticReviewWatermarkPxAtBaseline": 8,
+    "staticReviewScaleRule": "Scale these values proportionally when the dashboard card is wider; keep the source image inspectable."
+  },
+  "layoutRules": [
+    "Card 1 must work as the Instagram grid thumbnail.",
+    "Use a centered title lockup inside a conservative safe area.",
+    "Use a short uppercase kicker above the title.",
+    "Use exactly two title lines unless the representative approves an exception.",
+    "Do not add a static subtitle below the title; live speech captions belong below the center title in render.",
+    "Use EPICKOR.COM as the watermark."
+  ]
+}

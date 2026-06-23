@@ -164,6 +164,14 @@ Reviewer and Publisher agents must verify rendered images, not just markdown syn
 - After publish/deploy, check the public URL again. If images are broken, the task is not complete.
 - Record which agent performed this rendered-image check in `HANDOFF.md`.
 
+## Blog Reference Image Standard
+
+- Use the corrected Blogs `222`, `223`, and `224` as the current benchmark for article images: images should be real reference photos/screenshots with direct section-level relevance, not generic mood photos or decorative editorial graphics.
+- For practical guides, prioritize official screenshots, real app/form/page context, public-domain/Creative Commons files, real Korea-location photos, actual storefronts, real products, real food, or real event/place images that help the reader understand the specific task.
+- Do active web/source research when Pexels returns only broad stock imagery. A visually pleasant Korea photo is not enough for a post about a specific app, form, show, venue, product, process, or fan route.
+- Generated or editorial graphics are fallback options only when direct real reference images cannot be used safely or clearly, or when the representative explicitly approves that exception. Record the reason in `image-sources.md` and `HANDOFF.md`.
+- Reviewer must score blog images against this standard before approval. If a direct real reference image was reasonably available but a generic/graphic substitute was used, that image should fail visual review.
+
 Gemini API는 더 이상 사용하지 않는다.
 
 ---

@@ -1,5 +1,7 @@
 # Card News Team Agent
 
+Before producing or reviewing card news, read `.claude/skills/cardnews/epickor_cardnews_quality_standard.md`. That file is the reusable EpicKor-level quality bar for this project and for other agents/projects that want to learn this card-news workflow.
+
 ## Card News Visual Brand Rules
 
 - Every card must have a relevant image. For real-world/high-visual topics, photo-first is mandatory; SVG-only or graphic-only carousels are not acceptable unless the representative explicitly approves that exception in the current task.
@@ -13,6 +15,7 @@
 - Every card must include a concise `kicker:` line that gives the Korea/EpicKor angle, such as `KOREA SPF GUIDE`, `SEOUL SKINCARE RULE`, or `K-BEAUTY TEXTURE MAP`.
 - Every rendered card must show `EPICKOR.COM` as the watermark text. Do not use only `EpicKor` as the watermark label.
 - The first card must create curiosity strong enough to make the user swipe to card 2.
+- Card 01 cover standard: use the current approved bright grid-cover treatment by default (`layout: F`, centered hook, conservative safe area, `image_opacity: 0.88`). This keeps the background photo about 10 percentage points more visible than the older `0.78` cover baseline while preserving title readability. Do not lower Card 01 back to the older opacity unless the representative explicitly asks.
 - Use large mobile-readable typography. A card is not done if it only looks readable at full desktop size.
 - After rendering, visually inspect all PNGs, not only `script.md`.
 

@@ -1,9 +1,12 @@
 # EpicKor Card News Design System v1.0
 
+For the full reusable production standard, read `.claude/skills/cardnews/epickor_cardnews_quality_standard.md` first. This design system defines visual components; the quality standard defines the required workflow, scoring, fact safety, and review discipline.
+
 ## Instagram Grid Cover Rule
 
 - Card 01 must work as the Instagram profile-grid thumbnail.
 - Keep the hook text centered in a conservative safe area. Avoid left-bottom title placement for Card 01 unless the representative explicitly approves it for that upload.
+- Current approved cover-photo visibility standard: Card 01 should use `layout: F`, a centered hook, and `image_opacity: 0.88` by default. This preserves the representative-approved roughly 10 percentage point increase in background photo visibility from the older `0.78` cover setting.
 - For upload-ready backlog fixes, use `layout: F` and render the cover with `node .claude/skills/cardnews/scripts/render-grid-cover.mjs --slug {slug} --mirror`.
 - Keep all other carousel cards in their original layout unless there is a separate readability or visual-fit issue.
 

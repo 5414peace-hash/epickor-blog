@@ -12,6 +12,9 @@
 - For every new blog post, collect enough source or owned-image options for the Writer to use 3-4 relevant article images.
 - Minimum candidate target: 6-8 image candidates for normal topics, 8-12 for travel, shopping, food, beauty, seasonal, product, venue, or itinerary topics.
 - Rank image candidates by direct topic fit, Korea/context fit, crop usability, duplicate risk, and license/source clarity.
+- Match the standard set by Blogs 222/223/224 after the web-sourced photo correction: prefer real reference photos, official screenshots, public-domain/Creative Commons files, or source-page visuals that directly show the reader task, place, app, form, product, food, or cultural object being explained.
+- Do active web image/source research when Pexels is too generic. A Korea street mood photo is not enough for a post about a map app, entry form, specific show, product, venue, or practical process.
+- Generated/editorial graphics are fallback options only after real source images/screenshots cannot be used safely or clearly; record the reason if a generated/owned visual replaces a real reference image.
 - Do not rely on one image source or one repeated subject. The final 3-4 images should have clear visual variety across the article.
 - If Pexels lacks a direct Korea-specific fit, broaden to license-safe official/public-domain/owned/generated options and record the reason.
 - Before selecting final blog images, check candidate source URLs, Pexels photo IDs, filenames, and local image hashes against previous posts. Do not reuse a visual already used in another blog post unless the representative explicitly approves it.

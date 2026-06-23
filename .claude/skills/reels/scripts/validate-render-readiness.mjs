@@ -227,6 +227,17 @@ for (const sourceScene of scenesFile.scenes || []) {
           `lines=${explicitLines}/2, beat="${beat}"`
         );
       }
+      const maxReadableLineChars = 30;
+      const overlongLine = String(beat || '')
+        .split(/\r?\n/)
+        .map((line) => line.replace(/\s+/g, ' ').trim())
+        .find((line) => line.length > maxReadableLineChars);
+      if (overlongLine) {
+        fail(
+          `Readable caption line is too long and may wrap into a third rendered line in Scene ${sourceScene.number}, beat ${index + 1}.`,
+          `chars=${overlongLine.length}/${maxReadableLineChars}, line="${overlongLine}", beat="${beat}"`
+        );
+      }
       const starts = propScene.captionBeatStartFrames || [];
       const start = starts[index] ?? Math.floor((index / Math.max(propScene.captionBeats.length, 1)) * propScene.durationFrames);
       const next = starts[index + 1] ?? propScene.durationFrames;

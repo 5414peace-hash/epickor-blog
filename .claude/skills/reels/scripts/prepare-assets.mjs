@@ -31,8 +31,15 @@ function writeJson(filePath, value) {
   fs.writeFileSync(filePath, `${JSON.stringify(value, null, 2)}\n`, 'utf8');
 }
 
-function sceneRankName(sceneNumber, rank) {
-  return `scene-${String(sceneNumber).padStart(2, '0')}-rank-${String(rank).padStart(2, '0')}.jpg`;
+function extensionForSource(src) {
+  const clean = String(src || '').split(/[?#]/)[0].toLowerCase();
+  const ext = path.extname(clean);
+  if (['.jpg', '.jpeg', '.png', '.webp'].includes(ext)) return ext === '.jpeg' ? '.jpg' : ext;
+  return '.jpg';
+}
+
+function sceneRankName(sceneNumber, rank, src) {
+  return `scene-${String(sceneNumber).padStart(2, '0')}-rank-${String(rank).padStart(2, '0')}${extensionForSource(src)}`;
 }
 
 async function downloadImage(url, outputPath, { allowExisting = false } = {}) {
@@ -114,7 +121,7 @@ for (const scene of approved.scenes || []) {
 
   for (let index = 0; index < selectedImages.length; index += 1) {
     const rank = index + 1;
-    const fileName = sceneRankName(scene.number, rank);
+    const fileName = sceneRankName(scene.number, rank, selectedImages[index]);
     const outputPath = path.join(outputAssetDir, fileName);
     const result = await downloadImage(selectedImages[index], outputPath, {
       allowExisting: previousSourceFor(scene.number, rank) === selectedImages[index],

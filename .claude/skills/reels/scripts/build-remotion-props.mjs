@@ -43,6 +43,77 @@ function splitCaption(text) {
 }
 
 const captionBeatOverridesBySlug = {
+  197: {
+    1: [
+      'Boryeong Mud Festival\nis the one Korea summer',
+      'event where your outfit\nis basically supposed to lose.',
+    ],
+    2: [
+      'The 2026 dates are\nJuly twenty-fourth',
+      'to August ninth,\nat Daecheon Beach,',
+      'about two hundred kilometers\nfrom Seoul.',
+    ],
+    3: [
+      'It is not one mud pit.',
+      'It is slides, pools,\nbeach energy, performances,',
+      'and a lot of people\nmaking questionable but',
+      'memorable choices.',
+    ],
+    4: [
+      'Your packing list is\nthe difference between',
+      'hilarious and miserable:\nphone pouch, water shoes,',
+      'sunscreen, towel,\nand a dry change.',
+    ],
+    5: [
+      'If you go from Seoul,\ndecide your return plan',
+      'before you get muddy.',
+      'Train, bus, shuttle,\nor overnight,',
+      'but do not freestyle it\nat night.',
+    ],
+    6: [
+      'The biggest rookie mistake\nis protecting your clothes',
+      'better than your phone,\nfeet, and skin.',
+    ],
+    7: [
+      'Save this if your Korea trip\ntouches late July.',
+      'More Korea travel guides\nat epickor.com.',
+    ],
+  },
+  196: {
+    1: [
+      'Korea just turned\nWorld Cup morning kickoffs',
+      'into a national\nbrunch appointment.',
+    ],
+    2: [
+      'The clock is\nthe whole joke:',
+      'same red shirts,\nvery different snacks.',
+    ],
+    3: [
+      'And this is not\nnostalgia content.',
+      'Son, Lee Kang-in,\nKim Min-jae, and',
+      'Hwang Hee-chan\nare why casual fans',
+      'are checking the score.',
+    ],
+    4: [
+      'After the Czechia comeback,',
+      'the group chat version\nis simple:',
+      'Korea did the dramatic\nthing before lunch.',
+    ],
+    5: [
+      'So in Seoul, a match\ncan feel like',
+      'a public festival,\nan office excuse,',
+      'and a snack run\nall at once.',
+    ],
+    6: [
+      'If you are visiting,\nbring red, water,',
+      'sunscreen, and patience.',
+      'Do not bring\nmain-character energy.',
+    ],
+    7: [
+      'Save this if you are\nin Korea during the World Cup.',
+      'More Korea culture guides\nat epickor.com.',
+    ],
+  },
   170: {
     1: [
       'Foreigners hear "PC bang"',
@@ -1144,9 +1215,75 @@ const captionBeatOverridesBySlug = {
       'Save this if you want\nto understand young Korea.',
     ],
   },
+  198: {
+    1: [
+      'Waterbomb is where your cute\nSeoul outfit can betray you.',
+    ],
+    2: [
+      'It is a music festival,\na water fight,',
+      'and late-July humidity\nall at once.',
+    ],
+    3: [
+      'So dress to dry,\nnot just to pose.',
+    ],
+    4: [
+      'Before you enter,\nseal your phone.',
+      'Test the pouch with tissue\nat the hotel.',
+    ],
+    5: [
+      'Keep the bag tiny:\nphone pouch, small towel,',
+      'SPF,\ndry shirt.',
+      'Leave the best bag\nat the hotel.',
+    ],
+    6: [
+      'And plan the exit before\nyour battery is red,',
+      'because the real ending is\ngetting home wet and tired.',
+    ],
+    7: [
+      'Save this before\nWaterbomb Seoul.',
+      'More Korea travel guides\nat epickor.com.',
+    ],
+  },
+  192: {
+    1: [
+      'Olive Young is where\nK-beauty gets useful,',
+      'and dangerous.',
+    ],
+    2: [
+      'The store is designed',
+      'to make every shelf\nfeel urgent.',
+    ],
+    3: [
+      'So do not start\nby reading every label.',
+      'Walk the store\nonce first.',
+    ],
+    4: [
+      'Then use the simple',
+      'one-one-one rule.',
+    ],
+    5: [
+      'Buy one thing\nyou actually need,',
+      'one thing you\nare curious about,',
+      'and one small gift.',
+    ],
+    6: [
+      'The easy wins are sunscreen,\ntoner pads, lip tints,',
+      'patches, and travel minis.',
+      'Skip giant routines',
+      'you cannot test or pack.',
+    ],
+    7: [
+      'Save this before your\nfirst Olive Young run.',
+      'More Korea shopping guides',
+      'at epickor.com.',
+    ],
+  },
 };
 
 const captionStartFrameOverridesBySlug = {
+  197: {
+    3: [0, 38, 92, 138],
+  },
   172: {
     1: [0, 51, 79, 96, 111, 129],
   },
@@ -1182,6 +1319,18 @@ const captionStartFrameOverridesBySlug = {
   },
   188: {
     3: [0, 70],
+  },
+  198: {
+    5: [0, 68, 100],
+  },
+  192: {
+    1: [0, 42],
+    2: [0, 40],
+    3: [0, 58],
+    4: [0, 30],
+    5: [0, 50, 88],
+    6: [0, 48, 88, 128],
+    7: [0, 58, 104],
   },
 };
 
@@ -1501,7 +1650,7 @@ const props = {
   outro: {
     startFrame,
     durationFrames: outroFrames,
-    text: 'epicKor.com',
+    text: 'epickor.com',
   },
   brand: {
     label: 'EpicKor',
