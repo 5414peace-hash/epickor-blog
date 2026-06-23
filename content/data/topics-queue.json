@@ -1467,8 +1467,118 @@
       "status": "done",
       "generated_slug": "224",
       "generated_date": "2026-06-22"
+    },
+    {
+      "id": 69,
+      "title": "KTX vs SRT vs Express Bus 2026: Korea City Travel Guide",
+      "keywords": [
+        "KTX vs SRT vs express bus",
+        "Korea intercity travel",
+        "KTX SRT Korea",
+        "Korea express bus guide"
+      ],
+      "category": "Travel",
+      "tags": [
+        "KoreaTravel",
+        "KTX",
+        "SRT",
+        "ExpressBus",
+        "IntercityTravel"
+      ],
+      "amazon_category": "Travel",
+      "status": "done",
+      "generated_slug": "225",
+      "generated_date": "2026-06-23"
+    },
+    {
+      "id": 70,
+      "title": "Korea Coin Laundry Guide 2026: Wash, Dry, and Pack Light",
+      "keywords": [
+        "Korea coin laundry",
+        "coin laundry Korea",
+        "laundromat Korea travel",
+        "wash clothes in Korea"
+      ],
+      "category": "Travel",
+      "tags": [
+        "KoreaTravel",
+        "Laundry",
+        "PackingLight",
+        "LongStay",
+        "TravelTips"
+      ],
+      "amazon_category": "Travel",
+      "status": "done",
+      "generated_slug": "226",
+      "generated_date": "2026-06-23"
+    },
+    {
+      "id": 71,
+      "title": "Korea Post EMS Guide 2026: Ship Souvenirs Home",
+      "keywords": [
+        "Korea Post EMS guide",
+        "ship souvenirs from Korea",
+        "Korea post office tourists",
+        "EMS Korea customs"
+      ],
+      "category": "Travel",
+      "tags": [
+        "KoreaTravel",
+        "KoreaPost",
+        "EMS",
+        "Souvenirs",
+        "Shopping"
+      ],
+      "amazon_category": "Travel",
+      "status": "done",
+      "generated_slug": "227",
+      "generated_date": "2026-06-23"
+    },
+    {
+      "id": 72,
+      "title": "Korea Temple Stay Guide 2026: What Actually Happens",
+      "keywords": [
+        "Korea temple stay",
+        "Temple Stay Korea",
+        "Korean Buddhist temple stay",
+        "Korea cultural travel"
+      ],
+      "category": "Culture",
+      "tags": [
+        "TempleStay",
+        "KoreanCulture",
+        "KoreaTravel",
+        "Buddhism",
+        "WellnessTravel"
+      ],
+      "amazon_category": "Culture",
+      "status": "done",
+      "generated_slug": "228",
+      "generated_date": "2026-06-23"
+    },
+    {
+      "id": 73,
+      "title": "Korean Floor Culture: Shoes, Ondol, Slippers, Low Tables",
+      "keywords": [
+        "Korean floor culture",
+        "why Koreans take off shoes",
+        "ondol Korean homes",
+        "Korean house slippers"
+      ],
+      "category": "Culture",
+      "tags": [
+        "KoreanCulture",
+        "KoreanHome",
+        "Ondol",
+        "Etiquette",
+        "DailyLife"
+      ],
+      "amazon_category": "Culture",
+      "status": "done",
+      "generated_slug": "229",
+      "generated_date": "2026-06-23"
     }
   ],
-  "last_updated": "2026-06-22",
-  "next_slug": 225
+  "last_updated": "2026-06-23",
+  "next_slug": 230
 }

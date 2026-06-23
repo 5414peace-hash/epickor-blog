@@ -479,6 +479,66 @@
       "category": "Travel",
       "image": "",
       "tags": ["Power Bank", "Korea Travel", "Navigation", "Translation", "Festival Day"]
+    },
+    {
+      "id": "049",
+      "name": "Browse Travel Laundry Detergent Sheets",
+      "description": "A compact laundry-kit search for travelers who want to wash small loads without carrying liquid detergent.",
+      "price": "",
+      "url": "https://www.amazon.com/s?k=travel+laundry+detergent+sheets&tag=epickor2026-20",
+      "category": "Travel",
+      "image": "",
+      "tags": ["Travel Laundry", "Laundry Sheets", "Packing Light", "Korea Travel", "Coin Laundry"]
+    },
+    {
+      "id": "050",
+      "name": "Browse Travel Laundry Bags",
+      "description": "A practical search for separating clean, damp, and dirty clothes on longer Korea trips.",
+      "price": "",
+      "url": "https://www.amazon.com/s?k=travel+laundry+bag&tag=epickor2026-20",
+      "category": "Travel",
+      "image": "",
+      "tags": ["Laundry Bag", "Packing", "Korea Travel", "Coin Laundry", "Travel Organization"]
+    },
+    {
+      "id": "051",
+      "name": "Browse Digital Luggage Scales",
+      "description": "A useful comparison page before shipping souvenirs or checking whether a bag is getting too heavy.",
+      "price": "",
+      "url": "https://www.amazon.com/s?k=digital+luggage+scale+travel&tag=epickor2026-20",
+      "category": "Travel",
+      "image": "",
+      "tags": ["Luggage Scale", "Korea Shopping", "Shipping", "Souvenirs", "Travel Prep"]
+    },
+    {
+      "id": "052",
+      "name": "Browse Packing Tape and Mailers",
+      "description": "A packing-supply search for readers comparing boxes, padded mailers, labels, and tape before sending items home.",
+      "price": "",
+      "url": "https://www.amazon.com/s?k=packing+tape+mailers+shipping+supplies&tag=epickor2026-20",
+      "category": "Travel",
+      "image": "",
+      "tags": ["Shipping Supplies", "Packing Tape", "Mailers", "Korea Post", "EMS"]
+    },
+    {
+      "id": "053",
+      "name": "Browse Indoor Slippers and House Shoes",
+      "description": "A home-comfort search that fits Korean floor culture, slippers, socks, and shoe-off household habits.",
+      "price": "",
+      "url": "https://www.amazon.com/s?k=indoor+slippers+house+shoes&tag=epickor2026-20",
+      "category": "Culture",
+      "image": "",
+      "tags": ["Indoor Slippers", "House Shoes", "Korean Home", "Floor Culture", "Home Comfort"]
+    },
+    {
+      "id": "054",
+      "name": "Browse Floor Cushions and Low Tables",
+      "description": "A home setup search for readers who want to understand or recreate floor-level sitting, snacking, and tea-table comfort.",
+      "price": "",
+      "url": "https://www.amazon.com/s?k=floor+cushion+low+table&tag=epickor2026-20",
+      "category": "Culture",
+      "image": "",
+      "tags": ["Floor Cushion", "Low Table", "Korean Home", "Ondol", "Floor Sitting"]
     }
   ]
 }
