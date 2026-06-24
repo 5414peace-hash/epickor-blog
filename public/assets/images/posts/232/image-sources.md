@@ -50,3 +50,4 @@
 - Final image set uses Seoul neighborhood/shopping context rather than rehosted brand/person photos.
 - No final image centers a named celebrity, designer, founder, or model as the article subject.
 - Final visual average: 95.5/100. No individual image below 95/100.
+- Public article attribution was added in the Blog `232` footer with author names, Wikimedia Commons file-page links, and license labels.
