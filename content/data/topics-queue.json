@@ -1577,8 +1577,74 @@
       "status": "done",
       "generated_slug": "229",
       "generated_date": "2026-06-23"
+    },
+    {
+      "id": 74,
+      "title": "K-Pop Concert in Seoul 2026: Tickets, Bags, Subway",
+      "keywords": [
+        "K-pop concert in Seoul 2026",
+        "K-pop concert Seoul",
+        "Gocheok Sky Dome concert",
+        "Korea concert tips"
+      ],
+      "category": "Travel",
+      "tags": [
+        "KpopConcert",
+        "SeoulTravel",
+        "KoreaTravel",
+        "FanTravel",
+        "ConcertTips"
+      ],
+      "amazon_category": "Travel",
+      "status": "done",
+      "generated_slug": "230",
+      "generated_date": "2026-06-24"
+    },
+    {
+      "id": 75,
+      "title": "Korean University Rankings Beyond SKY 2026 Guide",
+      "keywords": [
+        "Korean university rankings",
+        "SKY university Korea",
+        "Korean universities for international students",
+        "study in Korea"
+      ],
+      "category": "Education",
+      "tags": [
+        "KoreanUniversities",
+        "SKYUniversity",
+        "StudyInKorea",
+        "KoreanEducation",
+        "StudentLife"
+      ],
+      "amazon_category": "Culture",
+      "status": "done",
+      "generated_slug": "231",
+      "generated_date": "2026-06-24"
+    },
+    {
+      "id": 76,
+      "title": "K-Fashion Shopping Guide 2026: Seoul Brands Tour",
+      "keywords": [
+        "K-fashion shopping Seoul",
+        "Korean fashion brands 2026",
+        "Seoul fashion shopping",
+        "Musinsa Korea"
+      ],
+      "category": "Shopping",
+      "tags": [
+        "KFashion",
+        "SeoulShopping",
+        "KoreanBrands",
+        "FashionTravel",
+        "KoreanStyle"
+      ],
+      "amazon_category": "Fashion",
+      "status": "done",
+      "generated_slug": "232",
+      "generated_date": "2026-06-24"
     }
   ],
-  "last_updated": "2026-06-23",
-  "next_slug": 230
+  "last_updated": "2026-06-24",
+  "next_slug": 233
 }

@@ -1,11 +1,11 @@
 # SEO + AEO Content Audit
 
-Generated: 2026-06-23T09:59:00.776Z
+Generated: 2026-06-24T12:17:36.377Z
 
 ## Overall Snapshot
-- Total posts: 197
+- Total posts: 200
 - Average SEO/AEO score: 73/100
-- Average word count: 1075
+- Average word count: 1096
 - Average title length: 69
 - Average description length: 128
 - Stale posts (>180 days): 87
@@ -14,11 +14,11 @@ Generated: 2026-06-23T09:59:00.776Z
 - Critical: 5
 - High: 94
 - Medium: 21
-- Low: 77
+- Low: 80
 
 ## Top Issue Frequency
-- low-internal-linking: 140 posts (71%)
-- title-length-out-of-range: 136 posts (69%)
+- low-internal-linking: 140 posts (70%)
+- title-length-out-of-range: 136 posts (68%)
 - thin-content: 117 posts (59%)
 - missing-faq-section: 99 posts (50%)
 - stale-content: 87 posts (44%)
