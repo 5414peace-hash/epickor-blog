@@ -78,20 +78,25 @@
 - Instagram scheduling pattern: prepare and schedule content in batches of 3 Reels plus 3 card-news carousels. Do not recommend uploading/scheduling a single approved Reel by itself unless the representative explicitly asks. If one Reel in a batch is ready early, keep it as upload-package-ready until the other two Reels in the batch are also ready.
 - Current batch pattern example: Reels 173, 174, and 175 should be completed first, then scheduled together as a 3-Reel batch. Existing prepared card-news assets should also be scheduled as a 3-carousel batch.
 - Reels should start with newly published EpicKor posts, especially posts with strong social hooks and clear visual scenes.
+- Starting 2026-06-24, every new Reels candidate must pass the Reels Creative Performance Standard in `.claude/skills/reels/creative_performance_standard.md` before script, dashboard, TTS, or rendering work.
+- Strategy Team must assign a `Reels Viral Fit Score` out of 100 before production. Default threshold is `>=80`; topics below 80 should be routed to card news, blog refresh, or held for a stronger angle unless the representative explicitly approves a Reels exception.
+- New Reels must start from a creative brief saved in `output/reels/{slug}/strategy.md`: hook archetype, first-frame promise, viewer misconception, payoff, save/share reason, voice lane, thumbnail variants, one motion-card role, and funnel expectation.
 - The first Reels goal is not full automation. Build one MVP, note friction, then upgrade the pipeline.
 - Every Reels project should use numbered scene files under `output/reels/{slug}/`.
 - Human visual approval is required before final Remotion rendering.
 - The visual review dashboard should answer one question quickly: does this image fit this numbered scene?
 - During Reels visual research, keep a short list of strong topic-relevant images that were found but not selected for the Reel. If they improve the source post, add them back into the blog post after the Reel visual search instead of replacing already usable post images. For Blog 176 specifically, keep the current two images and use the Reels research pass to find additional Korean jjimjilbang-related images for the article if suitable.
-- New Reels should use exactly two motion-card inserts for a normal 35-45 second Reel. Do not use three motion cards anymore unless the representative explicitly requests an exception for that specific Reel and it is recorded in `HANDOFF.md`.
+- New Reels should use exactly one motion-card insert for a normal 35-45 second Reel by default. Do not use two or more motion cards unless the representative explicitly requests a slug-specific exception and it is recorded in `HANDOFF.md`.
+- The single motion card should normally appear around 60-75% of the Reel as a payoff board, checklist, receipt, decision table, mistake list, or rule card. Do not use a motion card as Scene 1 unless the representative explicitly approves it.
 - Reels motion cards must not look empty in the middle. Avoid or revise templates/copy combinations that leave the center visually hollow; prefer center-filled rows, checklists, boards, receipts, or clearly occupied focal layouts.
 - Reels motion cards must reserve a clean narration-caption zone. The spoken subtitle layer must not overlap card rows, labels, footer text, badges, or CTA text; if a template uses lower-card content, move the caption placement or redesign the card before rendering.
-- Starting after Reels 177, write new Reels narration in natural conversational American English, like a 20-something American man explaining the topic out loud. Keep it clear and non-slangy; avoid stiff essay/blog phrasing, lecture tone, or overly polished written-English sentences.
+- Starting after Reels 177, write new Reels narration in natural conversational American English. Starting 2026-06-24, choose a voice lane before TTS: `male_friend` or `female_culture_travel`. Keep it clear, non-slangy, and more entertaining than a blog summary; avoid stiff essay phrasing, lecture tone, or overly polished written-English sentences.
+- For important batch openers, new topics, or a changed voice lane, generate an 8-12 second voice audition before full scene-level TTS.
 - Reels narration should be generated in short parts, around three parts for a 35-45 second Reel, rather than one full script file. This reduces slow or uneven voice behavior.
 - Reels subtitles must follow context-aware phrase beats. Do not split tiny fragments such as `is`, `and`, or `to your` onto their own screen unless the fragment is intentionally designed as a typography beat.
 - Reels subtitle timing should feel slightly proactive: the caption should appear just before, or exactly as, the narration lands. A small lead such as 6 frames at 30fps is acceptable when it makes the pacing feel more responsive.
 - Reels render files must be versioned, such as `epickor-reel-{slug}-v005.mp4`; do not overwrite previous candidate renders during review.
-- The first scene should be designed strongly enough to work as a thumbnail when the hook supports it.
+- The first scene must be designed as both the hook and thumbnail. Prepare three thumbnail copy directions before selection: `Mystery`, `Mistake`, and `Decision`, with 3-5 word copy that does not merely restate the blog title.
 - Final Reels should include a clean `epicKor.com` outro when appropriate.
 - Reels outro/CTA text should use `epickor.com` only. Do not show post-specific paths such as `/blog/{slug}` inside the video frame because viewers cannot click them.
 - Reels visual sourcing priority:
@@ -100,12 +105,16 @@
   3. Pexels or other usable external images.
   4. Generated images when no relevant source image exists.
 - Record Reels agent roles, dashboard review status, blockers, and next improvements in `HANDOFF.md`.
+- After publishing a Reel, record hook archetype, thumbnail variant, voice lane, motion-card count/placement, and available performance metrics such as 1h/24h/7d views, saves, shares/sends, comments, profile visits, and external link taps.
 
 ## Handoff And Strategy Check Rules
 
 - Before deciding what EpicKor should do next, read `HANDOFF.md`, the latest `output/strategy/week_*.md`, and relevant git history if the handoff may be incomplete.
 - Do not recommend a page as the next target only from GSC impressions or CTR. First check whether that page was already rewritten, published, or verified recently.
 - When choosing the next EpicKor task, explicitly apply the Strategy Team perspective: GSC opportunity, recency of prior edits, monetization potential, visual/card-news potential, and operational risk.
+- Before recommending any "new blog post" topics, read `.claude/agents/strategy-team/AGENT.md` and perform a duplicate-topic audit against `content/data/topics-queue.json`, `content/blog/*.md`, `output/final/`, recent `HANDOFF.md` correction notes, and the latest strategy report. Do not rely on a strategy report's "Recommended New Topics" list until it has been deduped against already published or substantially covered topics.
+- Treat semantic/search-intent overlap as duplicate even when the title is different. If a topic is a refresh, cluster expansion, spin-off, or deliberate retread, label it that way and state the existing slug plus the reason; do not present it as a clean new topic.
+- Known covered examples that must not be recommended as fresh new posts without a stated retread reason: Ssamjang -> Blog `083`/BBQ support in `172`; Korean baseball/KBO culture -> Blog `081`; Korean Toast/Isaac Toast -> Blog `153` and breakfast support in `171`; Korea pharmacy/healthcare basics -> Blogs `190` and `173`; travel payment/transit app setup -> Blogs `201`, `205`, `222`, and `223`.
 - After completing a meaningful EpicKor task, recommend the next work as priority 1, 2, and 3. For each priority, include the reason, expected impact, and any dependency or blocker. Priority 1 should be the safest/highest-leverage next move, not simply the newest idea.
 - In normal completion replies, naturally include the next recommended move instead of waiting for the representative to ask. Keep it brief unless the representative asks for deeper planning.
 - If Strategy Team guidance conflicts with recent `HANDOFF.md` or git history, prefer the newer concrete work record and explain the conflict to the user.

@@ -1643,8 +1643,74 @@
       "status": "done",
       "generated_slug": "232",
       "generated_date": "2026-06-24"
+    },
+    {
+      "id": 77,
+      "title": "KBO Baseball Game in Seoul 2026: Tickets, Seats, Food, and Cheers",
+      "keywords": [
+        "KBO baseball game in Seoul 2026",
+        "Korean baseball tickets",
+        "Jamsil Baseball Stadium",
+        "Gocheok Sky Dome baseball"
+      ],
+      "category": "Travel",
+      "tags": [
+        "KBO",
+        "KoreanBaseball",
+        "SeoulTravel",
+        "SportsCulture",
+        "KoreaTravel"
+      ],
+      "amazon_category": "Travel",
+      "status": "done",
+      "generated_slug": "233",
+      "generated_date": "2026-06-25"
+    },
+    {
+      "id": 78,
+      "title": "Hanbok Rental in Seoul 2026: Palace Photos, Etiquette, and Mistakes",
+      "keywords": [
+        "hanbok rental Seoul 2026",
+        "Gyeongbokgung hanbok rental",
+        "hanbok palace photos",
+        "Seoul hanbok etiquette"
+      ],
+      "category": "Culture",
+      "tags": [
+        "Hanbok",
+        "Gyeongbokgung",
+        "SeoulTravel",
+        "KoreanCulture",
+        "PalaceTravel"
+      ],
+      "amazon_category": "Culture",
+      "status": "done",
+      "generated_slug": "234",
+      "generated_date": "2026-06-25"
+    },
+    {
+      "id": 79,
+      "title": "Korean Nail Salon Guide 2026: Gel Nails, Designs, and Tourist Booking",
+      "keywords": [
+        "Korean nail salon guide 2026",
+        "Korean nail art trends",
+        "Seoul nail salon booking",
+        "Korean gel nails"
+      ],
+      "category": "Beauty",
+      "tags": [
+        "KBeauty",
+        "NailSalon",
+        "KoreanBeauty",
+        "SeoulTravel",
+        "BeautyShopping"
+      ],
+      "amazon_category": "Beauty",
+      "status": "done",
+      "generated_slug": "235",
+      "generated_date": "2026-06-25"
     }
   ],
-  "last_updated": "2026-06-24",
-  "next_slug": 233
+  "last_updated": "2026-06-25",
+  "next_slug": 236
 }

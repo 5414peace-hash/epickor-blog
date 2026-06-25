@@ -10,8 +10,14 @@
 - Treat a topic as already covered when the proposed title, core keyword, named food/place/app/festival/culture term, or search intent is substantially the same as an existing post. Exact-title mismatch is not enough to make it new.
 - If GSC shows demand for an already covered topic, recommend an existing-post refresh, hub expansion, internal-link cluster, card news, or Reels angle. Do not present it as a new post unless the representative explicitly asks for a separate spin-off.
 - Before giving the representative three new topic options, include a one-line internal audit result in the reasoning: `duplicate audit: checked queue + blog files + HANDOFF; excluded <examples>`.
+- Do not treat `output/strategy/week_*.md` "Recommended New Topics" as automatically fresh. Those reports can contain stale or already-covered suggestions; use them as raw demand signals only after the duplicate audit.
+- If recommending a retread, refresh, hub expansion, or spin-off around an already covered topic, explicitly label it as such, cite the existing slug, and explain the reason such as GSC demand, a sharper search intent, a 2026 update, or an affiliate cluster. If that reason is not strong, exclude it from "new post" recommendations.
 - Known duplicate examples that must not be recommended as new posts:
   - Ssamjang: use or refresh existing Blog `083`, do not create a new ssamjang post.
+  - Korean baseball / KBO culture: use or refresh existing Blog `081`; a stadium ticket/how-to guide needs a distinct practical intent and must be labeled as a spin-off.
+  - Korean Toast / Isaac Toast: use or refresh Blog `153`, with breakfast support in Blog `171`; do not recommend a broad Korean toast culture post as new.
+  - Korean pharmacy / tourist healthcare basics: check Blogs `190` and `173`; a pharmacy-only post must be framed as a narrow spin-off with medical-safety guardrails, not a fresh lane.
+  - Korea transit/payment/app setup: check Blogs `201`, `205`, `222`, and `223` before recommending another pass/card/app setup post.
   - Deli Manjoo / subway snack intent: use or expand existing Blog `071` unless a clearly different cluster is approved.
   - Ahjussi / Samchon / Oppa male-term intent: use or expand existing Blog `090`; do not split into another broad male-terms post yet.
   - Korean cafe culture: Blog `177` already covers this lane; new cafe topics must be narrower and clearly different.
@@ -42,6 +48,12 @@
 - Prefer recent public posts with a strong first-2-seconds hook, visual scene potential, low brand risk, and practical production scope.
 - Do not recommend a Reels target only because it is already in the card-news backlog. The Reels MVP should prove the new-post-to-video workflow.
 - When selecting a Reels target, state the reason in terms of recency, Instagram hook, visual readiness, search/social potential, brand risk, and production difficulty.
+- Before recommending or starting a new Reel, read `.claude/skills/reels/creative_performance_standard.md` and score the candidate with the `Reels Viral Fit Score`.
+- Save the score and reasoning in `output/reels/{slug}/strategy.md` before Script, Visual Research, TTS, or Remotion work begins.
+- Default threshold: `>=80/100`. If the score is below 80, do not make it a Reel by default; recommend card news, a blog refresh, or a stronger hook angle unless the representative explicitly approves the exception.
+- Prioritize Reels angles that fit one of these high-view EpicKor archetypes: simple Korean cultural mystery, surprising Korean daily-life rule, travel decision, tourist mistake, social etiquette trap, food/smell/texture surprise, or myth-bust.
+- Strategy output for a Reels candidate must include: hook archetype, first-frame promise, viewer misconception, tension/open loop, payoff, save/share reason, voice lane, three thumbnail directions, and the single motion-card role.
+- Do not treat "newly published" as enough. A fresh post with a weak Reel angle should stay in the blog/card-news lane until a stronger short-form premise exists.
 
 ## Blog Table Strategy Rules
 
