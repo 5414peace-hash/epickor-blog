@@ -1,5 +1,42 @@
 # HANDOFF - EpicKor Agent Teams v2
 
+## Latest Update - 2026-06-26 Blog 236 Opening Image Replaced
+
+- Representative asked to replace the first image in Blog `236` because the original was visually weak.
+- Completed:
+  - Replaced Blog `236` opening image and `ogImage`.
+  - Removed old street image reference/file: `public/assets/images/posts/236/seoul-beauty-shopping-street.jpg`.
+  - Added new opening image: `public/assets/images/posts/236/personal-color-makeup-testing.jpg`.
+  - Updated `public/assets/images/posts/236/image-sources.md` with the new Pexels source and the reason for rejecting the original opening image.
+- Visual decision:
+  - Original image was dark and too street-focused for a personal color analysis article.
+  - Replacement image directly shows makeup shade testing on a client's arm, making the first impression more relevant to personal color consultation.
+- Validation:
+  - Manual image inspection completed.
+  - Blog `236` markdown image audit passed: 4 image refs, all local files present, old image ref absent.
+  - `npm.cmd run audit:seo-aeo` passed; report average score remained `74/100`.
+  - `npm.cmd run build` passed: 218 static pages generated.
+  - Built HTML check passed: `.next/server/app/blog/236.html` contains `personal-color-makeup-testing.jpg` and does not contain `seoul-beauty-shopping-street.jpg`.
+  - Public deployed check passed:
+    - `https://www.epickor.com/blog/236` returned HTTP 200 and contained the new image ref.
+    - `https://www.epickor.com/assets/images/posts/236/personal-color-makeup-testing.jpg` returned HTTP 200 `image/jpeg`.
+    - Old image ref was absent from public HTML, and old asset URL returned 404.
+- Git/deploy:
+  - Commit: `93855997 Replace 236 opening image`
+  - Pushed to `origin/master`.
+  - Vercel production deployment verified Ready: `https://epickor-blog-nuorxnlve-yhs-projects-5de403d3.vercel.app`
+- Current status:
+  - Blog `236` is live with the improved first image.
+  - Existing unrelated Reels/card-news dirty worktree changes remain untouched.
+- Next recommended work:
+  1. Priority 1: Move on to the `236/237/238` 3-carousel card-news batch, now using the improved Blog `236` opening visual as the image-direction baseline.
+  2. Priority 2: For Blog `236` card news, source Korea-first beauty/service images or neutral close-ups; avoid generic dark street shots.
+  3. Priority 3: If more polish is needed on Blog `236`, consider a second pass on image order only after checking public engagement or representative visual feedback.
+- Agents involved:
+  - Research Agent: searched Pexels replacement candidates and selected the stronger shade-testing visual.
+  - Reviewer Agent: manually inspected candidates, checked local image refs, ran SEO audit/build, and verified built HTML.
+  - Publisher Agent: committed, pushed, and verified public page/image deployment.
+
 ## Latest Update - 2026-06-26 Blogs 236-238 Published And Deployment Verified
 
 - Representative selected all three recommended next-post topics and asked for full posting, proper reference images, review/fix, deployment, and commit.
