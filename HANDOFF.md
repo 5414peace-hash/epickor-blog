@@ -1,5 +1,64 @@
 # HANDOFF - EpicKor Agent Teams v2
 
+## Latest Update - 2026-06-26 Blogs 236-238 Published And Deployment Verified
+
+- Representative selected all three recommended next-post topics and asked for full posting, proper reference images, review/fix, deployment, and commit.
+- Completed and published:
+  - Blog `236`: `Seoul Personal Color Analysis 2026: Booking, Results, and What to Buy After`
+    - Public URL verified: `https://www.epickor.com/blog/236`
+    - Role: K-beauty service/shopping guide connecting personal color analysis to Olive Young, makeup, hair, nails, and fashion decisions.
+    - Image set: Seoul beauty shopping street, color swatches, makeup swatching process, lip tint swatches.
+  - Blog `237`: `Korean Fragrance Shopping Guide 2026: Tamburins, Nonfiction, Granhand, and Skin Scents`
+    - Public URL verified: `https://www.epickor.com/blog/237`
+    - Role: emerging K-beauty/fragrance shopping lane with Seoul route planning, testing rules, gifting, packing, and tax-refund context.
+    - Image set: Myeongdong beauty street, minimalist perfume still life, neutral white perfume bottle, body-care/perfume shelf.
+    - Visual note: one fragrance retail candidate with visible Chinese text was rejected and removed; final set avoids misleading non-Korean retail context.
+  - Blog `238`: `Korea Autumn Foliage Trip 2026: Seoul, Seoraksan, Nami, and Naejangsan`
+    - Public URL verified: `https://www.epickor.com/blog/238`
+    - Role: seasonal travel planning guide with Seoul flexibility, Seoraksan/Nami/Naejangsan tradeoffs, timing, crowds, transit, and packing.
+    - Image set: Seoraksan peaks, Seoraksan autumn bridge/valley, Gyeongbokgung autumn palace, Gangwon autumn riverbed.
+- Files created/updated:
+  - `content/blog/236.md`
+  - `content/blog/237.md`
+  - `content/blog/238.md`
+  - `public/assets/images/posts/236/`
+  - `public/assets/images/posts/237/`
+  - `public/assets/images/posts/238/`
+  - `public/assets/images/posts/{236,237,238}/image-sources.md`
+  - `content/data/topics-queue.json` updated through generated slug `238`, next slug now `239`.
+  - `reports/seo-aeo-audit.md` regenerated.
+- Validation:
+  - Custom SEO/link/image audit passed:
+    - Blog `236`: 2257 words, 10 H2s, 5 FAQ items, 4 images, 4 internal links, 2 affiliate CTA boxes, 0 bad Amazon rels, 0 bad external rels.
+    - Blog `237`: 2154 words, 11 H2s, 5 FAQ items, 4 images, 5 internal links, 2 affiliate CTA boxes, 0 bad Amazon rels, 0 bad external rels.
+    - Blog `238`: 2182 words, 12 H2s, 5 FAQ items, 4 images, 4 internal links, 2 affiliate CTA boxes, 0 bad Amazon rels, 0 bad external rels.
+  - `npm.cmd run audit:seo-aeo` passed; report regenerated with average score `74/100`.
+  - `npm.cmd run build` passed: 218 static pages generated.
+  - Static render gate passed: `.next/server/app/blog/{236,237,238}.html` contained each title and all referenced image paths; all 12 local image files existed and decoded during manual visual inspection.
+  - Local server note: `next start --port 4013` reached Ready when run directly, but background server persistence/local HTTP polling was unreliable in the Codex shell. Public deployment verification below passed and is the final rendered-image gate.
+  - Public deployed HTTP check passed for pages `236`, `237`, `238` and all 12 exact image URLs on `https://www.epickor.com`, with image responses returning `image/jpeg`.
+- Git/deploy:
+  - Content commit: `9e2e4eca Publish personal color fragrance autumn guides`
+  - Pushed to `origin/master`.
+  - Vercel production deployment verified Ready: `https://epickor-blog-6c7n67n72-yhs-projects-5de403d3.vercel.app`
+  - Custom domain verified:
+    - `https://www.epickor.com/blog/236`
+    - `https://www.epickor.com/blog/237`
+    - `https://www.epickor.com/blog/238`
+- Current status:
+  - Blogs `236`, `237`, and `238` are live and public-image verified.
+  - Existing unrelated Reels/card-news dirty worktree changes remain untouched.
+- Next recommended work:
+  1. Priority 1: Produce a 3-carousel card-news batch from Blogs `236`, `237`, and `238`. Reason: all three are newly live, visually legible, and fit the Tuesday/Wednesday/Thursday card-news rhythm; expected impact is immediate Instagram reactivation inventory tied to current website URLs. Dependency: source fresh, non-duplicate carousel images per card-news rules.
+  2. Priority 2: Start a 3-Reel planning batch from newly published posts `236`, `237`, and `238`, with `238` as the strongest seasonal hook. Reason: Reels must come from newly published posts going forward and inventory must protect the Friday/Saturday/Sunday rhythm. Dependency: human visual approval before final Remotion rendering.
+  3. Priority 3: Add/update internal links from related legacy posts into `236` and `237`, especially beauty/shopping posts `192`, `207`, `232`, and `235`. Reason: this supports website session depth and Amazon-affiliate paths after the new guides are live. Dependency: avoid broad rewrite; keep this as a focused internal-link pass.
+- Agents involved:
+  - Strategy/Operations Agent: audited stale topic recommendations and selected non-duplicate, funnel-fit topics across K-beauty, shopping, fragrance, and seasonal travel.
+  - Research Agent: checked current web sources and sourced Pexels reference images; rejected one misleading non-Korean retail visual.
+  - Writer Agent: wrote Blogs `236`-`238` with tables, FAQs, internal links, and two Amazon affiliate CTA boxes each.
+  - Reviewer Agent: ran SEO/link/image audits, manual visual source inspection, build, and static render checks.
+  - Publisher Agent: committed, pushed, verified Vercel production deployment, and checked public pages plus image assets.
+
 ## Latest Update - 2026-06-25 Blogs 233-235 Published And Deployment Verified
 
 - Representative selected revised new-post topics `2/3/4` and set the goal: write, commit, push, and deploy three new EpicKor posts.
