@@ -4,11 +4,11 @@ Blog: `236` - `Seoul Personal Color Analysis 2026: Booking, Results, and What to
 
 ## Selected Images
 
-1. `seoul-beauty-shopping-street.jpg`
+1. `personal-color-makeup-testing.jpg`
    - Source: Pexels
-   - URL: https://images.pexels.com/photos/31925325/pexels-photo-31925325.jpeg
-   - Credit: Photo by Theodore Nguyen on Pexels
-   - Use: Seoul beauty shopping street context for the article opening.
+   - URL: https://images.pexels.com/photos/6954015/pexels-photo-6954015.jpeg
+   - Credit: Photo by George Milton on Pexels
+   - Use: Opening image for makeup shade testing and personal color consultation context.
 
 2. `personal-color-swatches.jpg`
    - Source: Pexels
@@ -31,6 +31,7 @@ Blog: `236` - `Seoul Personal Color Analysis 2026: Booking, Results, and What to
 ## Visual Review Notes
 
 - Reviewer manually inspected all four downloaded images.
-- Korea/context fit: first image shows Seoul cosmetic shopping signage and supports the article's Seoul K-beauty route.
+- The original opening image `seoul-beauty-shopping-street.jpg` was removed from the article because it felt too dark and street-focused for the personal color topic.
+- Replacement opening image `personal-color-makeup-testing.jpg` is a culturally neutral close-up that directly shows makeup shade testing, making it a stronger first impression for a personal color analysis guide.
 - The other three images are culturally neutral close-ups that directly show swatches, makeup testing, and lip color choice. They were selected instead of misleading non-Korean storefront or clinic images.
 - No image is reused from the previous 233-235 batch.
