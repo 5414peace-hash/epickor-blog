@@ -1709,8 +1709,75 @@
       "status": "done",
       "generated_slug": "235",
       "generated_date": "2026-06-25"
+    },
+    {
+      "id": 80,
+      "title": "Seoul Personal Color Analysis 2026: Booking, Results, and What to Buy After",
+      "keywords": [
+        "Seoul personal color analysis 2026",
+        "Korean personal color analysis",
+        "personal color Korea tourists",
+        "K-beauty color analysis"
+      ],
+      "category": "Beauty",
+      "tags": [
+        "KBeauty",
+        "PersonalColor",
+        "SeoulTravel",
+        "BeautyShopping",
+        "KoreanMakeup"
+      ],
+      "amazon_category": "Beauty",
+      "status": "done",
+      "generated_slug": "236",
+      "generated_date": "2026-06-26"
+    },
+    {
+      "id": 81,
+      "title": "Korean Fragrance Shopping Guide 2026: Tamburins, Nonfiction, Granhand, and Skin Scents",
+      "keywords": [
+        "Korean fragrance shopping 2026",
+        "Korean perfume brands",
+        "Tamburins Nonfiction Granhand",
+        "Seoul fragrance shopping"
+      ],
+      "category": "Beauty",
+      "tags": [
+        "KBeauty",
+        "KFragrance",
+        "SeoulShopping",
+        "KoreanBrands",
+        "BeautyShopping"
+      ],
+      "amazon_category": "Beauty",
+      "status": "done",
+      "generated_slug": "237",
+      "generated_date": "2026-06-26"
+    },
+    {
+      "id": 82,
+      "title": "Korea Autumn Foliage Trip 2026: Seoul, Seoraksan, Nami, and Naejangsan",
+      "keywords": [
+        "Korea autumn foliage trip 2026",
+        "Seoul fall foliage",
+        "Seoraksan autumn",
+        "Nami Island autumn",
+        "Naejangsan foliage"
+      ],
+      "category": "Travel",
+      "tags": [
+        "KoreaTravel",
+        "AutumnFoliage",
+        "SeoulTravel",
+        "Seoraksan",
+        "TravelPlanning"
+      ],
+      "amazon_category": "Travel",
+      "status": "done",
+      "generated_slug": "238",
+      "generated_date": "2026-06-26"
     }
   ],
-  "last_updated": "2026-06-25",
-  "next_slug": 236
+  "last_updated": "2026-06-26",
+  "next_slug": 239
 }
