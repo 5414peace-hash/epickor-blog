@@ -1,5 +1,68 @@
 # HANDOFF - EpicKor Agent Teams v2
 
+## Latest Update - 2026-06-28 Card News Batch 239/241/242 Produced
+
+- Representative approved the next card-news batch and specifically asked for:
+  - more impactful first-card thumbnails while keeping a tight grid-safe design,
+  - stronger font scale or font treatment where useful,
+  - colored emphasis in body cards instead of black-only text,
+  - a local result page that can be reviewed immediately.
+- Completed card-news packages:
+  - Blog `239`: Korean Hair Care Shopping Guide
+    - Folder: `public/assets/cardnews/2026-06-28_239/`
+    - Cover hook: `Stop buying pretty shampoo.`
+    - Visual Fit Score: average `94.3/100`, lowest card `91/100`.
+  - Blog `241`: Seoul Self Photo Studio Guide
+    - Folder: `public/assets/cardnews/2026-06-28_241/`
+    - Cover hook: `Your selfie needs a plan.`
+    - Visual Fit Score: average `94.7/100`, lowest card `91/100`.
+  - Blog `242`: Seoul Vintage Shopping Guide
+    - Folder: `public/assets/cardnews/2026-06-28_242/`
+    - Cover hook: `Do not thrift like a tourist.`
+    - Visual Fit Score: average `95.1/100`, lowest card `90/100`.
+- Design/content updates:
+  - All three carousels use large centered first-card hooks for Instagram grid thumbnail readability.
+  - Important body-copy phrases are marked with renderer-supported `**highlight**` emphasis, producing colored point text in the rendered PNGs.
+  - All 21 cards show `EPICKOR.COM` watermark text.
+  - All three carousels use 7 image-backed cards; no image-free card runs.
+- Image sourcing:
+  - Blog `239`: used fresh neutral/direct salon and hair-wash visuals from Pexels; no same-carousel repeated image paths.
+  - Blog `241`: used three owned/generated self-photo-studio visuals because license-safe Korean studio source images were weak or brand-heavy.
+  - Blog `242`: used Korea-first Seoul market/shopping visuals plus one neutral flea-market detail image only for condition-check logic.
+  - `image-sources.md` was added to each public package.
+- Review/validation:
+  - `node .claude\skills\cardnews\scripts\review-cardnews.mjs --folder public\assets\cardnews\2026-06-28_239` passed.
+  - `node .claude\skills\cardnews\scripts\review-cardnews.mjs --folder public\assets\cardnews\2026-06-28_241` passed.
+  - `node .claude\skills\cardnews\scripts\review-cardnews.mjs --folder public\assets\cardnews\2026-06-28_242` passed.
+  - Rendered PNG gate: all `21/21` final card images are `1080x1080`.
+  - Duplicate gate: `0` duplicate image hashes within the new batch and `0` exact cross-cardnews duplicate hashes against existing tracked card-news images.
+  - Local review HTML gate: `output/cardnews/2026-06-28_batch-review.html` references `24` images and has `0` missing sources.
+  - Manual visual inspection was completed for all three contact sheets and the three full-size first-card thumbnails.
+- Files for representative review:
+  - Local batch review page: `output/cardnews/2026-06-28_batch-review.html`
+  - Local contact sheets:
+    - `output/cardnews/2026-06-28_239/contact-sheet.png`
+    - `output/cardnews/2026-06-28_241/contact-sheet.png`
+    - `output/cardnews/2026-06-28_242/contact-sheet.png`
+  - Public upload packages:
+    - `public/assets/cardnews/2026-06-28_239/`
+    - `public/assets/cardnews/2026-06-28_241/`
+    - `public/assets/cardnews/2026-06-28_242/`
+- Current status:
+  - Card-news batch `239/241/242` is final-reviewed and ready for Instagram carousel upload.
+  - `public/assets/cardnews/CARDNEWS_INDEX.md` has the new `239/241/242` rows; pre-existing unrelated dirty card-news/Reels work remains untouched.
+  - `output/` files are local review artifacts and remain git-ignored by project policy.
+- Next recommended work:
+  1. Priority 1: Representative visual approval from the local review HTML, then schedule these three carousels as the next Tuesday/Wednesday/Thursday card-news batch. Reason: the assets are already rendered, checked, and match the Instagram revival rhythm. Dependency: manual upload scheduling.
+  2. Priority 2: Produce the next card-news batch from proven GSC/Reels topics after this upload package is queued. Reason: the 30-card-news revival backlog still needs volume while quality is improving. Dependency: pick topics without reusing current images.
+  3. Priority 3: Start a 3-Reel planning batch from newly published posts `239`, `241`, and `242`. Reason: these topics now have strong social hooks and image identities. Dependency: Reels should remain batched and require visual approval before final render.
+- Agents involved:
+  - Strategy Agent: selected `239/241/242` as the strongest 3-cardnews batch from the approved recommendation set.
+  - Research/Visual Agent: sourced Pexels assets and generated owned self-photo-studio visuals where source photos were weak.
+  - Writer Agent: wrote carousel scripts, tighter first-card hooks, captions, and colored-emphasis copy.
+  - Renderer Agent: rendered all PNGs and built the local batch review page.
+  - Reviewer Agent: ran structural review scripts, duplicate checks, dimensions checks, Korea/context image review, and manual PNG inspection.
+
 ## Latest Update - 2026-06-27 Posts 239-242 Duplicate Image Cleanup
 
 - Representative asked whether there were any duplicate images after the Korean-context image fix.

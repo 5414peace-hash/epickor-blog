@@ -38,3 +38,6 @@ Instagram upload is representative-managed, so upload status is intentionally le
 | `2026-06-20_218` | 218 | Daiso Korea Must-Buy Guide | 7 | final reviewed | representative-managed |
 | `2026-06-20_220` | 220 | Korean Subway Snacks Guide | 7 | final reviewed | representative-managed |
 | `2026-06-20_221` | 221 | Seoul Rainy Day Itinerary | 7 | final reviewed | representative-managed |
+| `2026-06-28_239` | 239 | Korean Hair Care Shopping Guide | 7 | final reviewed | representative-managed |
+| `2026-06-28_241` | 241 | Seoul Self Photo Studio Guide | 7 | final reviewed | representative-managed |
+| `2026-06-28_242` | 242 | Seoul Vintage Shopping Guide | 7 | final reviewed | representative-managed |
