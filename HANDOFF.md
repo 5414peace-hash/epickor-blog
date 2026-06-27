@@ -1,5 +1,77 @@
 # HANDOFF - EpicKor Agent Teams v2
 
+## Latest Update - 2026-06-27 Blogs 239-242 Published And Deployment Verified
+
+- Representative asked to publish all four newly recommended topics in one batch, with careful image sourcing/review, content review, fixes, build, deployment commit, and public URL verification.
+- Completed and published:
+  - Blog `239`: `Korean Hair Care Shopping Guide 2026: Scalp Tonics, Hair Oils, and Treatments`
+    - Public URL verified: `https://www.epickor.com/blog/239`
+    - Role: K-beauty shopping spin-off focused on scalp tonics, hair oils, salon-style treatments, Olive Young decisions, and tourist mistakes.
+    - Image set: salon hair wash/treatment, scalp serum dropper, hair-care product flatlay, salon treatment process.
+  - Blog `240`: `Korean Color Contact Lens and Eyewear Shopping Guide 2026`
+    - Public URL verified: `https://www.epickor.com/blog/240`
+    - Role: safety-first K-beauty/eyewear shopping guide separating contact-lens risk from lower-risk sunglasses/frame shopping.
+    - Image set: contact lenses and glasses, contact-lens case, sunglasses rack, neon-lit eyeglasses.
+  - Blog `241`: `Seoul Self Photo Studio Guide 2026: Profile Photos, Makeup, Outfits, and Booking`
+    - Public URL verified: `https://www.epickor.com/blog/241`
+    - Role: Seoul photo-culture guide connecting four-cut booths, self photo studios, makeup, outfit planning, booking, and profile-photo use cases.
+    - Image set: couple selfie studio, professional studio session, lighting setup, instant-camera portrait.
+  - Blog `242`: `Seoul Vintage Shopping Guide 2026: Dongmyo, Hongdae, Mullae, and What To Buy`
+    - Public URL verified: `https://www.epickor.com/blog/242`
+    - Role: Seoul shopping/travel guide for Dongmyo, Hongdae, Mullae/Euljiro discovery routes, condition checks, cleaning, packing, and tourist mistakes.
+    - Image set: Seoul clothing market with Korean context, Seoul outdoor flea-market scene, vintage-store browsing, thrift clothing racks.
+- Files created/updated:
+  - `content/blog/239.md`
+  - `content/blog/240.md`
+  - `content/blog/241.md`
+  - `content/blog/242.md`
+  - `public/assets/images/posts/239/`
+  - `public/assets/images/posts/240/`
+  - `public/assets/images/posts/241/`
+  - `public/assets/images/posts/242/`
+  - `public/assets/images/posts/{239,240,241,242}/image-sources.md`
+  - `content/data/topics-queue.json` updated through generated slug `242`, next slug now `243`.
+  - `reports/seo-aeo-audit.md` regenerated.
+- Research/source notes:
+  - Used current web/source references from FDA, Vogue, Allure, and Visit Korea where relevant.
+  - Blog `240` explicitly keeps a health-risk distinction: contact lenses are treated as medical-adjacent products, while eyewear/sunglasses are positioned as lower-risk style purchases.
+- Validation:
+  - Manual image inspection completed for all 16 selected images before publish work.
+  - Custom SEO/link/image audit passed:
+    - Blog `239`: 1957 words, 10 H2s, 5 FAQ items, 4 body images, 4 internal links, 2 affiliate CTA boxes, 0 missing images, 0 bad Amazon rels, 0 bad external rels.
+    - Blog `240`: 1872 words, 10 H2s, 5 FAQ items, 4 body images, 4 internal links, 2 affiliate CTA boxes, 0 missing images, 0 bad Amazon rels, 0 bad external rels.
+    - Blog `241`: 1857 words, 11 H2s, 5 FAQ items, 4 body images, 6 internal links, 2 affiliate CTA boxes, 0 missing images, 0 bad Amazon rels, 0 bad external rels.
+    - Blog `242`: 1866 words, 12 H2s, 5 FAQ items, 4 body images, 5 internal links, 2 affiliate CTA boxes, 0 missing images, 0 bad Amazon rels, 0 bad external rels.
+  - `npm.cmd run audit:seo-aeo` passed; report regenerated with average score `74/100`.
+  - `npm.cmd run build` passed: 222 static pages generated.
+  - Static render gate passed: `.next/server/app/blog/{239,240,241,242}.html` contains each page title and all four referenced body image paths.
+  - Local server note: background `next start`/dev HTTP polling was unreliable in the current PowerShell sandbox because `Path`/`PATH` environment duplication broke `Start-Process`. No long-running test server was left behind. Public deployment verification below passed and is the final rendered-image gate.
+  - Public deployed HTTP check passed:
+    - Pages `239`, `240`, `241`, and `242` each returned HTTP 200 and contained the expected title plus all four image references.
+    - All 16 exact image asset URLs under `https://www.epickor.com/assets/images/posts/{239,240,241,242}/` returned HTTP 200.
+- Git/deploy:
+  - Content commit: `5f1204ca Publish posts 239-242`
+  - Pushed to `origin/master`.
+  - Vercel production deployment verified Ready: `https://epickor-blog-8ozpyozge-yhs-projects-5de403d3.vercel.app`
+  - Custom domain verified:
+    - `https://www.epickor.com/blog/239`
+    - `https://www.epickor.com/blog/240`
+    - `https://www.epickor.com/blog/241`
+    - `https://www.epickor.com/blog/242`
+- Current status:
+  - Blogs `239`, `240`, `241`, and `242` are live and public-image verified.
+  - Existing unrelated Reels/card-news dirty worktree changes remain untouched.
+- Next recommended work:
+  1. Priority 1: Produce a 3-carousel card-news batch from Blogs `239`, `241`, and `242`. Reason: these have the strongest photo/social hooks for Tuesday/Wednesday/Thursday Instagram recovery; expected impact is fresh social inventory pointing to newly live affiliate-capable guides. Dependency: source fresh non-duplicate carousel images; do not reuse the blog images blindly if carousel variety is weak.
+  2. Priority 2: Start a 3-Reel planning batch from newly published posts `239`, `241`, and `242`. Reason: Reels must come from newly published posts, and these are more visual and less health-risk-sensitive than contact-lens content. Dependency: human visual approval before final Remotion render.
+  3. Priority 3: Add reverse internal links from older related posts into `239`-`242`, especially beauty/shopping posts `192`, `207`, `211`, `232`, `236`, and travel/culture posts `184`, `234`. Reason: this improves crawl paths, session depth, and Amazon-affiliate paths after the new guides are live. Dependency: keep it a focused internal-link pass, not a broad rewrite.
+- Agents involved:
+  - Strategy/Operations Agent: checked duplicate/spin-off risk and selected the four topics as distinct funnel-fit posts.
+  - Research Agent: verified current sources and selected/downloaded licensed Pexels images with source documentation.
+  - Writer Agent: wrote Blogs `239`-`242` with tables, FAQs, internal links, and Amazon affiliate CTA boxes.
+  - Reviewer Agent: performed custom SEO/link/image audits, manual visual inspection, source URL checks, SEO/AEO audit, build, and static render checks.
+  - Publisher Agent: committed, pushed, monitored Vercel production deployment, and verified public pages plus image assets.
+
 ## Latest Update - 2026-06-26 Blog 236 Opening Image Replaced
 
 - Representative asked to replace the first image in Blog `236` because the original was visually weak.
