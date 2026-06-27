@@ -1,5 +1,60 @@
 # HANDOFF - EpicKor Agent Teams v2
 
+## Latest Update - 2026-06-27 Posts 239-242 Korean Image Fit Rechecked
+
+- Representative asked to double-check whether the images in the latest four posts look Korean/context-appropriate and to fix any weak or non-Korean images.
+- Completed:
+  - Re-audited all 16 images across Blogs `239`, `240`, `241`, and `242` for Korea fit, topic fit, misleading foreign-context risk, and public render risk.
+  - Replaced 8 weak/non-Korean or overly generic images with stronger Korea-first or safer neutral direct-topic images.
+  - Updated body image references, `ogImage` where needed, captions, and each post folder's `image-sources.md` review notes.
+  - Removed old image files that were no longer referenced.
+- Image replacements:
+  - Blog `239`:
+    - Removed `korean-hair-wash-salon.jpg` and `hair-care-products-flatlay.jpg`.
+    - Added `myeongdong-kbeauty-shopping-street.jpg` and `seoul-night-kbeauty-street.jpg`.
+    - Kept `scalp-serum-dropper.jpg` and `salon-hair-treatment.jpg` as neutral direct scalp/salon support images because they fit the guide topic and do not imply a foreign Korea scene.
+  - Blog `240`:
+    - Removed `glasses-contact-lenses-blue.jpg` and `sunglasses-display-rack.jpg`.
+    - Added `korea-shopping-district-eyewear-route.jpg` and `eyewear-store-sign.jpg`.
+    - Kept `contact-lens-case-flatlay.jpg` and `eyeglasses-neon-reflection.jpg` as neutral direct safety/style support images.
+  - Blog `241`:
+    - Removed `studio-photographer-model.jpg` and `instant-camera-portrait.jpg`.
+    - Added `life4cuts-seoul-self-photo-store.jpg` and `korea-photo-storefront.jpg`.
+    - Kept `couple-selfie-photo-studio.jpg` and `photo-studio-lighting-setup.jpg` as neutral workflow support images.
+  - Blog `242`:
+    - Removed `vintage-store-browsing.jpg` and `thrift-clothing-racks.jpg`.
+    - Added `seoul-vintage-clothing-racks.jpg` and `seoul-shopping-alley-boutiques.jpg`.
+- Validation:
+  - Manual visual inspection completed for all newly selected images after replacement.
+  - Static render gate passed: `.next/server/app/blog/{239,240,241,242}.html` has 4 image references per post, 0 missing image references, and 0 stale old image references.
+  - `npm.cmd run audit:seo-aeo` passed; average score remained `74/100`.
+  - `npm.cmd run build` passed: 222 static pages generated.
+  - Public deployed HTTP check passed after Vercel Ready:
+    - Pages `239`, `240`, `241`, and `242` each returned HTTP 200, contained the expected title, included all four current image references, and had 0 stale old image references.
+    - All 16 current image asset URLs returned HTTP 200.
+- Git/deploy:
+  - Image-fit commit: `9e0e0151 Improve Korea fit for posts 239-242 images`
+  - Pushed to `origin/master`.
+  - Vercel production deployment verified Ready: `https://epickor-blog-kj0semzpt-yhs-projects-5de403d3.vercel.app`
+  - Custom domain verified:
+    - `https://www.epickor.com/blog/239`
+    - `https://www.epickor.com/blog/240`
+    - `https://www.epickor.com/blog/241`
+    - `https://www.epickor.com/blog/242`
+- Current status:
+  - Blogs `239`-`242` are live with corrected Korean/context-appropriate image sets and public image URLs verified.
+  - Existing unrelated Reels/card-news dirty worktree changes remain untouched.
+- Next recommended work:
+  1. Priority 1: Produce a 3-carousel card-news batch from Blogs `239`, `241`, and `242`. Reason: these now have stronger Korea-first visual hooks and fit the Tuesday/Wednesday/Thursday Instagram recovery rhythm. Dependency: source fresh carousel-specific images and avoid reusing blog images if variety is weak.
+  2. Priority 2: Add reverse internal links from older related posts into `239`-`242`, especially beauty/shopping posts `192`, `207`, `211`, `232`, and `236`. Reason: this improves crawl paths and affiliate-session depth. Dependency: keep it to a focused internal-link pass.
+  3. Priority 3: Start the next 3-Reel planning batch from newly published posts `239`, `241`, and `242`. Reason: they have the clearest social scenes after the image fix. Dependency: representative visual approval before final render.
+- Agents involved:
+  - Image Review Agent: audited Korea/context fit, foreign-context risk, and topic fit.
+  - Research/Visual Agent: selected replacement Pexels/repo-owned images and source-documented them.
+  - Writer Agent: updated image references, alt text, captions, and `ogImage` values without changing article substance.
+  - Reviewer Agent: ran reference cleanup, static render checks, SEO/AEO audit, build, and public page/image verification.
+  - Publisher Agent: committed, pushed, monitored Vercel production deployment, and verified custom-domain public pages plus image assets.
+
 ## Latest Update - 2026-06-27 Blogs 239-242 Published And Deployment Verified
 
 - Representative asked to publish all four newly recommended topics in one batch, with careful image sourcing/review, content review, fixes, build, deployment commit, and public URL verification.
@@ -7,19 +62,19 @@
   - Blog `239`: `Korean Hair Care Shopping Guide 2026: Scalp Tonics, Hair Oils, and Treatments`
     - Public URL verified: `https://www.epickor.com/blog/239`
     - Role: K-beauty shopping spin-off focused on scalp tonics, hair oils, salon-style treatments, Olive Young decisions, and tourist mistakes.
-    - Image set: salon hair wash/treatment, scalp serum dropper, hair-care product flatlay, salon treatment process.
+    - Current image set after later Korea-fit review: Myeongdong K-beauty shopping street, scalp serum dropper, Seoul night K-beauty street, salon treatment process.
   - Blog `240`: `Korean Color Contact Lens and Eyewear Shopping Guide 2026`
     - Public URL verified: `https://www.epickor.com/blog/240`
     - Role: safety-first K-beauty/eyewear shopping guide separating contact-lens risk from lower-risk sunglasses/frame shopping.
-    - Image set: contact lenses and glasses, contact-lens case, sunglasses rack, neon-lit eyeglasses.
+    - Current image set after later Korea-fit review: South Korea shopping district route image, contact-lens case, eyewear-store sign, neon-lit eyeglasses.
   - Blog `241`: `Seoul Self Photo Studio Guide 2026: Profile Photos, Makeup, Outfits, and Booking`
     - Public URL verified: `https://www.epickor.com/blog/241`
     - Role: Seoul photo-culture guide connecting four-cut booths, self photo studios, makeup, outfit planning, booking, and profile-photo use cases.
-    - Image set: couple selfie studio, professional studio session, lighting setup, instant-camera portrait.
+    - Current image set after later Korea-fit review: Life4Cuts Seoul self-photo storefront, couple selfie studio, lighting setup, South Korea photo storefront.
   - Blog `242`: `Seoul Vintage Shopping Guide 2026: Dongmyo, Hongdae, Mullae, and What To Buy`
     - Public URL verified: `https://www.epickor.com/blog/242`
     - Role: Seoul shopping/travel guide for Dongmyo, Hongdae, Mullae/Euljiro discovery routes, condition checks, cleaning, packing, and tourist mistakes.
-    - Image set: Seoul clothing market with Korean context, Seoul outdoor flea-market scene, vintage-store browsing, thrift clothing racks.
+    - Current image set after later Korea-fit review: Seoul clothing market, Seoul outdoor flea-market scene, Seoul vintage clothing racks, Seoul shopping alley boutiques.
 - Files created/updated:
   - `content/blog/239.md`
   - `content/blog/240.md`
