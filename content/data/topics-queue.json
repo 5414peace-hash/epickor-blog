@@ -1776,8 +1776,96 @@
       "status": "done",
       "generated_slug": "238",
       "generated_date": "2026-06-26"
+    },
+    {
+      "id": 83,
+      "title": "Korean Hair Care Shopping Guide 2026: Scalp Tonics, Hair Oils, and Treatments",
+      "keywords": [
+        "Korean hair care shopping guide 2026",
+        "Korean scalp tonic",
+        "Korean hair oil",
+        "Olive Young hair care"
+      ],
+      "category": "Beauty",
+      "tags": [
+        "KBeauty",
+        "KoreanHairCare",
+        "OliveYoung",
+        "SeoulShopping",
+        "BeautyShopping"
+      ],
+      "amazon_category": "Beauty",
+      "status": "done",
+      "generated_slug": "239",
+      "generated_date": "2026-06-27"
+    },
+    {
+      "id": 84,
+      "title": "Korean Color Contact Lens and Eyewear Shopping Guide 2026",
+      "keywords": [
+        "Korean color contact lens shopping 2026",
+        "Korean eyewear shopping",
+        "Seoul glasses shopping",
+        "Korean contact lens safety"
+      ],
+      "category": "Beauty",
+      "tags": [
+        "KBeauty",
+        "Eyewear",
+        "SeoulShopping",
+        "TravelSafety",
+        "BeautyShopping"
+      ],
+      "amazon_category": "Travel",
+      "status": "done",
+      "generated_slug": "240",
+      "generated_date": "2026-06-27"
+    },
+    {
+      "id": 85,
+      "title": "Seoul Self Photo Studio Guide 2026: Profile Photos, Makeup, Outfits, and Booking",
+      "keywords": [
+        "Seoul self photo studio 2026",
+        "Korean profile photo studio",
+        "Seoul photo studio booking",
+        "Korean self photo studio"
+      ],
+      "category": "Travel",
+      "tags": [
+        "SeoulTravel",
+        "PhotoStudio",
+        "KBeauty",
+        "KoreanCulture",
+        "TravelPlanning"
+      ],
+      "amazon_category": "Travel",
+      "status": "done",
+      "generated_slug": "241",
+      "generated_date": "2026-06-27"
+    },
+    {
+      "id": 86,
+      "title": "Seoul Vintage Shopping Guide 2026: Dongmyo, Hongdae, Mullae, and What To Buy",
+      "keywords": [
+        "Seoul vintage shopping 2026",
+        "Dongmyo vintage market",
+        "Hongdae vintage shops",
+        "Korean thrift shopping"
+      ],
+      "category": "Travel",
+      "tags": [
+        "SeoulShopping",
+        "VintageShopping",
+        "Dongmyo",
+        "Hongdae",
+        "KoreaTravel"
+      ],
+      "amazon_category": "Travel",
+      "status": "done",
+      "generated_slug": "242",
+      "generated_date": "2026-06-27"
     }
   ],
-  "last_updated": "2026-06-26",
-  "next_slug": 239
+  "last_updated": "2026-06-27",
+  "next_slug": 243
 }
