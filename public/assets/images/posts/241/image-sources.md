@@ -2,38 +2,50 @@
 
 Post: Seoul Self Photo Studio Guide 2026
 
+## Korean-Context Image Review - 2026-06-27
+
+Representative asked to double-check whether the images read as Korean. The original hero and two support images were generic studio images. The hero was replaced with an actual Seoul Life4Cuts storefront, and the final photo-culture support image was replaced with a South Korea photo-store image.
+
 ## Selected Images
 
-1. `couple-selfie-photo-studio.jpg`
+1. `life4cuts-seoul-self-photo-store.jpg`
+   - Source: NOL World / Interpark global listing for Life4Cuts Seongsu
+   - URL: https://world.nol.com/en/content/pois/cc1170d0-7897-4408-888e-8534fa3cdb14
+   - Original image: https://media.triple.guide/triple-cms/c_limit%2Cf_auto%2Ch_2048%2Cw_2048/6e1a39f4-f7be-461a-a2e1-5c0accb266ad.jpeg
+   - Use: Hero/OG image.
+   - Visual review: Strongest Korea fit; actual Seoul four-cut/self-photo storefront with Korean signage.
+   - Note: Copied from existing Blog 224 asset because it is the most directly Korean and topic-specific available image.
+
+2. `couple-selfie-photo-studio.jpg`
    - Source: Pexels, photo 6566008
    - Photographer: cottonbro studio
    - URL: https://www.pexels.com/photo/6566008/
-   - Use: Hero/OG image for self-photo studio behavior.
-   - Visual review: Best first image because it clearly shows people preparing for camera-based self photos.
-
-2. `studio-photographer-model.jpg`
-   - Source: Pexels, photo 3800848
-   - Photographer: Harrison Haines
-   - URL: https://www.pexels.com/photo/3800848/
-   - Use: Profile-photo and studio-result section.
-   - Visual review: Professional studio cue, supports higher-end profile-photo discussion.
+   - Use: Self-photo studio behavior section.
+   - Visual review: Neutral studio-use support image. Kept because it shows the remote/self-shoot behavior clearly after the Korean-context hero.
 
 3. `photo-studio-lighting-setup.jpg`
    - Source: Pexels, photo 7383644
    - Photographer: Hc Digital
    - URL: https://www.pexels.com/photo/7383644/
    - Use: Booking and studio setup section.
-   - Visual review: Clear lighting/setup fit with no distracting text.
+   - Visual review: Neutral lighting/setup support image with no misleading foreign sign.
 
-4. `instant-camera-portrait.jpg`
-   - Source: Pexels, photo 8422543
-   - Photographer: Pavel Danilyuk
-   - URL: https://www.pexels.com/photo/8422543/
-   - Use: Four-cut booth comparison and memory-photo framing.
-   - Visual review: Photo-output cue complements the existing four-cut booth internal link.
+4. `korea-photo-storefront.jpg`
+   - Source: Pexels, photo 33415138
+   - Photographer: Gül Işık
+   - URL: https://images.pexels.com/photos/33415138/pexels-photo-33415138.jpeg
+   - Use: Photo-culture and souvenir framing section.
+   - Visual review: South Korea photo-store context, stronger Korea fit than the previous generic instant-camera portrait.
+
+## Replaced / Removed From Markdown
+
+- `studio-photographer-model.jpg`
+  - Reason: Generic professional studio image, not visibly Korean.
+- `instant-camera-portrait.jpg`
+  - Reason: Generic studio portrait, not visibly Korean; replaced with South Korea photo-store context.
 
 ## Reviewer Notes
 
-- Manual image inspection completed before publish work.
-- Images are studio/photo-habit relevant, with no repeated image paths.
-- The article does not claim these are specific Seoul studios; images support the general studio workflow.
+- Final visible set: 2 Korea-context images plus 2 neutral studio-workflow support images.
+- The article does not claim the neutral studio images are specific Seoul studios.
+- Manual image inspection completed after replacement.
