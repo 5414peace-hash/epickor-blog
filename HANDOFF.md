@@ -1,5 +1,57 @@
 # HANDOFF - EpicKor Agent Teams v2
 
+## Latest Update - 2026-06-27 Posts 239-242 Duplicate Image Cleanup
+
+- Representative asked whether there were any duplicate images after the Korean-context image fix.
+- Finding:
+  - SHA-256 check across the current 16 images in Blogs `239`-`242`: internal duplicate groups `0`.
+  - SHA-256 check against all existing `public/assets/images/posts/` images initially found 3 exact cross-post duplicates:
+    - Blog `239` `myeongdong-kbeauty-shopping-street.jpg` duplicated Blog `207` `myeongdong-shopping-day.jpg`.
+    - Blog `239` `seoul-night-kbeauty-street.jpg` duplicated Blog `207` `seoul-night-beauty-street.jpg`.
+    - Blog `241` `life4cuts-seoul-self-photo-store.jpg` duplicated Blog `224` `life4cuts-seongsu-photo-booth-store.jpg`.
+  - First replacement attempt for Blog `239` also hit two already-used Pexels images from Blogs `211` and `237`, so those were rejected and replaced again.
+- Completed fixes:
+  - Blog `239`:
+    - Removed duplicate files `myeongdong-kbeauty-shopping-street.jpg` and `seoul-night-kbeauty-street.jpg`.
+    - Added distinct Pexels images:
+      - `myeongdong-kbeauty-cosmetics-street.jpg` from Pexels photo `31925324`.
+      - `myeongdong-kcosmetics-hair-street-night.jpg` from Pexels photo `33019200`.
+    - Updated `ogImage`, body image paths, alt text, captions, and `image-sources.md`.
+  - Blog `241`:
+    - Removed duplicate file `life4cuts-seoul-self-photo-store.jpg`.
+    - Added owned generated image `seoul-self-photo-studio-interior-generated.png` for the hero/OG image.
+    - Updated `ogImage`, body image paths, alt text, caption, and `image-sources.md`.
+- Final duplicate gate:
+  - Current target image count: `16`.
+  - Duplicate groups within Blogs `239`-`242`: `0`.
+  - Exact hash duplicates against all existing blog post images: `0`.
+- Validation:
+  - Markdown image reference gate passed: each of Blogs `239`, `240`, `241`, and `242` has 4 unique body image paths, 0 missing local files, and 0 stale old image references.
+  - Static build HTML gate passed after `npm.cmd run build`: `.next/server/app/blog/{239,240,241,242}.html` has all 4 current image references per post and 0 stale old image references.
+  - `npm.cmd run audit:seo-aeo` passed; average score `74/100`.
+  - `npm.cmd run build` passed: 222 static pages generated.
+  - Public deployed HTTP check passed after Vercel Ready:
+    - Pages `239`, `240`, `241`, and `242` returned HTTP 200.
+    - All 16 current image asset URLs returned HTTP 200.
+    - Public HTML had all 4 current image references per post and 0 stale old image references.
+- Git/deploy:
+  - Duplicate cleanup commit: `26fbabc1 Remove duplicate images from posts 239 and 241`
+  - Pushed to `origin/master`.
+  - Vercel production deployment verified Ready: `https://epickor-blog-pefwb27zv-yhs-projects-5de403d3.vercel.app`
+- Current status:
+  - Blogs `239`-`242` are live with Korea/context-reviewed image sets and no exact duplicate image hashes against existing blog post images.
+  - Existing unrelated Reels/card-news dirty worktree changes remain untouched.
+- Next recommended work:
+  1. Priority 1: Produce a 3-carousel card-news batch from Blogs `239`, `241`, and `242`. Reason: they now have stronger and non-duplicate image identities for social reuse planning. Dependency: still source fresh carousel-specific images instead of reusing blog images blindly.
+  2. Priority 2: Add reverse internal links from older related posts into `239`-`242`, especially beauty/shopping posts `192`, `207`, `211`, `232`, `236`, and `237`. Reason: new guides are live and can receive crawl/session depth from related pages.
+  3. Priority 3: Start the next 3-Reel planning batch from newly published posts `239`, `241`, and `242`. Reason: these have the clearest social scenes after the image cleanup. Dependency: representative visual approval before final render.
+- Agents involved:
+  - Image Review Agent: ran Korea/context fit review and exact-hash duplicate checks.
+  - Research/Visual Agent: sourced distinct Pexels replacements and generated the owned self-photo studio image.
+  - Writer Agent: updated article image references, alt text, captions, and source notes.
+  - Reviewer Agent: ran markdown reference checks, duplicate gates, SEO/AEO audit, build, and public HTML/image verification.
+  - Publisher Agent: committed, pushed, monitored Vercel production deployment, and verified public custom-domain pages plus assets.
+
 ## Latest Update - 2026-06-27 Posts 239-242 Korean Image Fit Rechecked
 
 - Representative asked to double-check whether the images in the latest four posts look Korean/context-appropriate and to fix any weak or non-Korean images.
