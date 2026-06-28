@@ -1952,8 +1952,74 @@
       "status": "done",
       "generated_slug": "246",
       "generated_date": "2026-06-28"
+    },
+    {
+      "id": 91,
+      "title": "Korean Pet Parent Culture 2026: Dog Strollers And Cafes",
+      "keywords": [
+        "Korean pet parent culture",
+        "dog stroller Korea",
+        "Seoul pet cafe",
+        "Korea pet travel"
+      ],
+      "category": "Pets",
+      "tags": [
+        "KoreanPets",
+        "SeoulLifestyle",
+        "PetTravel",
+        "UrbanKorea",
+        "KoreanCulture"
+      ],
+      "amazon_category": "Pets",
+      "status": "done",
+      "generated_slug": "247",
+      "generated_date": "2026-06-28"
+    },
+    {
+      "id": 92,
+      "title": "Seoul Running Crew Culture 2026: Why Korea Runs At Night",
+      "keywords": [
+        "Seoul running crew",
+        "Han River running",
+        "Korea run club",
+        "Seoul night running"
+      ],
+      "category": "Urban Fitness",
+      "tags": [
+        "SeoulRunning",
+        "UrbanFitness",
+        "HanRiver",
+        "KoreanLifestyle",
+        "SeoulTravel"
+      ],
+      "amazon_category": "Sports",
+      "status": "done",
+      "generated_slug": "248",
+      "generated_date": "2026-06-28"
+    },
+    {
+      "id": 93,
+      "title": "Korean Dating Rules 2026: Sogaeting, 100 Days, And Apps",
+      "keywords": [
+        "Korean dating rules",
+        "sogaeting Korean dating",
+        "Korean 100 day anniversary",
+        "Korean couple items"
+      ],
+      "category": "Relationships",
+      "tags": [
+        "KoreanDating",
+        "Sogaeting",
+        "ModernKorea",
+        "Relationships",
+        "SeoulLifestyle"
+      ],
+      "amazon_category": "Culture",
+      "status": "done",
+      "generated_slug": "249",
+      "generated_date": "2026-06-28"
     }
   ],
   "last_updated": "2026-06-28",
-  "next_slug": 247
+  "next_slug": 250
 }
