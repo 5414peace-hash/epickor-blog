@@ -41,3 +41,6 @@ Instagram upload is representative-managed, so upload status is intentionally le
 | `2026-06-28_239` | 239 | Korean Hair Care Shopping Guide | 7 | final reviewed | representative-managed |
 | `2026-06-28_241` | 241 | Seoul Self Photo Studio Guide | 7 | final reviewed | representative-managed |
 | `2026-06-28_242` | 242 | Seoul Vintage Shopping Guide | 7 | final reviewed | representative-managed |
+| `2026-06-28_247` | 247 | Korean Pet Parent Culture 2026 | 7 | final reviewed | representative-managed |
+| `2026-06-28_248` | 248 | Seoul Running Crew Culture 2026 | 7 | final reviewed | representative-managed |
+| `2026-06-28_249` | 249 | Korean Dating Rules 2026 | 7 | final reviewed | representative-managed |
