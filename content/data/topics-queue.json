@@ -1864,8 +1864,96 @@
       "status": "done",
       "generated_slug": "242",
       "generated_date": "2026-06-27"
+    },
+    {
+      "id": 87,
+      "title": "Korean Body Care Guide 2026: The New K-Beauty Routine",
+      "keywords": [
+        "Korean body care 2026",
+        "Korean body sunscreen",
+        "Korean exfoliating towel",
+        "K-beauty body care"
+      ],
+      "category": "Beauty",
+      "tags": [
+        "KBeauty",
+        "BodyCare",
+        "KoreanSkincare",
+        "OliveYoung",
+        "BeautyShopping"
+      ],
+      "amazon_category": "Beauty",
+      "status": "done",
+      "generated_slug": "243",
+      "generated_date": "2026-06-28"
+    },
+    {
+      "id": 88,
+      "title": "Seoul Glowcation Guide 2026: Beauty, Shopping, and Recovery",
+      "keywords": [
+        "Seoul glowcation 2026",
+        "Korean beauty travel",
+        "Seoul beauty shopping itinerary",
+        "K-beauty travel guide"
+      ],
+      "category": "Travel",
+      "tags": [
+        "SeoulTravel",
+        "KBeauty",
+        "Glowcation",
+        "BeautyShopping",
+        "TravelPlanning"
+      ],
+      "amazon_category": "Travel",
+      "status": "done",
+      "generated_slug": "244",
+      "generated_date": "2026-06-28"
+    },
+    {
+      "id": 89,
+      "title": "Korean Home Reset Culture: Why Seoul Apartments Feel Organized",
+      "keywords": [
+        "Korean home reset culture",
+        "Korean apartment organization",
+        "Korean shoe off home",
+        "Korean floor living"
+      ],
+      "category": "Culture",
+      "tags": [
+        "KoreanCulture",
+        "KoreanHome",
+        "Lifestyle",
+        "SeoulLiving",
+        "HomeOrganization"
+      ],
+      "amazon_category": "Culture",
+      "status": "done",
+      "generated_slug": "245",
+      "generated_date": "2026-06-28"
+    },
+    {
+      "id": 90,
+      "title": "Korean Kiosk Panic Guide: How To Order Food In Seoul",
+      "keywords": [
+        "Korean kiosk ordering",
+        "Seoul restaurant kiosk",
+        "how to order food in Korea",
+        "Korean food ordering guide"
+      ],
+      "category": "Travel",
+      "tags": [
+        "SeoulTravel",
+        "KoreanFood",
+        "TravelTips",
+        "KoreanCulture",
+        "OrderingFood"
+      ],
+      "amazon_category": "Travel",
+      "status": "done",
+      "generated_slug": "246",
+      "generated_date": "2026-06-28"
     }
   ],
-  "last_updated": "2026-06-27",
-  "next_slug": 243
+  "last_updated": "2026-06-28",
+  "next_slug": 247
 }
