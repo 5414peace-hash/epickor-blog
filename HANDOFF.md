@@ -1,5 +1,49 @@
 # HANDOFF - EpicKor Agent Teams v2
 
+## Latest Update - 2026-06-28 Posts 243/245 Image Fit Revision
+
+- Representative asked to re-check whether the images placed in the latest four posts were appropriate and to fix anything weak.
+- Reviewed rendered/contact-sheet image fit for Blogs `243`-`246`:
+  - `244` remains approved: glowcation flatlay, Seoul beauty clinic waiting room, Seoul shopping street, and Myeongdong night beauty district form a coherent Korea/beauty-travel set.
+  - `246` remains approved: kiosk ordering, Seoul kiosk queue, Korean restaurant street, and Korean street-food counter are Korea-first and directly support the kiosk panic guide.
+  - `243` needed revision because two body-lotion/arm application images created repetition.
+  - `245` needed revision because the previous generic closet image looked too western/luxury and weakened the compact Korean apartment context.
+- Completed image fixes:
+  - Blog `243`:
+    - Removed `public/assets/images/posts/243/body-lotion-routine-arm.jpg`.
+    - Added `public/assets/images/posts/243/body-spf-travel-care-kit.png`.
+    - Updated the body image, alt text, caption, and `public/assets/images/posts/243/image-sources.md`.
+    - New image role: Seoul hotel/apartment bathroom travel kit with body SPF, recovery gel, foot care, towel, water bottle, and leakproof pouch.
+  - Blog `245`:
+    - Removed `public/assets/images/posts/245/closet-storage-reset.jpg`.
+    - Added `public/assets/images/posts/245/compact-korean-storage-reset.png`.
+    - Updated the body image, alt text, caption, and `public/assets/images/posts/245/image-sources.md`.
+    - New image role: compact Seoul apartment storage corner with folded bedding, narrow shelving, boxes, shoes, rolling cart, and apartment window/entry context.
+- Validation completed after revision:
+  - Regenerated and manually inspected:
+    - `output/review/243_image_contact_sheet.jpg`
+    - `output/review/245_image_contact_sheet.jpg`
+  - Local image reference gate: Blogs `243`-`246` each have 4 image refs, missing `0`.
+  - SHA duplicate gate: exact duplicate hashes touching `243`-`246` assets: `0`.
+  - `npm.cmd run audit:seo-aeo` passed; site average `75/100`.
+  - `npm.cmd run build` passed; 226 static pages generated.
+  - Local dev render gate: `http://127.0.0.1:4000/blog/{243,244,245,246}` returned HTTP `200`, each with 4 image refs and bad images `0`.
+  - Production/custom-domain render gate: `https://www.epickor.com/blog/{243,244,245,246}` returned HTTP `200`, each with 4 image refs and bad images `0`; Blog `243` and `245` HTML contain the new filenames and no stale old filenames.
+- Build/deploy:
+  - Commit pushed: `a588230d Improve image fit for posts 243 and 245`.
+  - Vercel production deployment verified Ready: `https://epickor-blog-4qy2bhegi-yhs-projects-5de403d3.vercel.app`.
+- Current status:
+  - Blogs `243`-`246` are live and image-verified on `www.epickor.com`.
+  - Existing unrelated Reels/card-news dirty worktree changes remain untouched.
+- Next recommended work:
+  1. Priority 1: Create a 3-carousel card-news batch from `243`, `245`, and `246`. Reason: these now have stronger image identities and the most social-friendly hooks. Dependency: source or generate carousel-specific images and avoid reusing post images too directly.
+  2. Priority 2: Produce a Reel planning batch from `243/244/246`. Reason: body-care shift, glowcation caution, and kiosk panic are strong short-video hooks. Dependency: keep Reels batched and visually approved before final render.
+  3. Priority 3: Add reverse internal links from related older posts into `243`-`246`, especially `192`, `204`, `207`, `217`, `226`, and `239`. Reason: these new posts are live and can benefit from older-page crawl/session depth.
+- Agents involved:
+  - Visual Agent: re-reviewed image fit, generated the two replacement owned images, and inspected updated contact sheets.
+  - Reviewer Agent: ran image reference, duplicate hash, audit, build, local render, and public render checks.
+  - Publisher Agent: committed, pushed, monitored Vercel production deployment, and verified public pages plus image assets.
+
 ## Latest Update - 2026-06-28 Posts 243-246 Published And Verified
 
 - Representative approved producing four fresh, more viral/novel posts and set the goal: finish writing, pass a `96+` score gate, commit, push, deploy, and verify.
@@ -7,7 +51,7 @@
   - Blog `243`: `Korean Body Care Guide 2026: The New K-Beauty Routine`
     - Public URL verified: `https://www.epickor.com/blog/243`
     - Angle: body care as the next K-beauty lane after face skincare, SPF, hair care, and PDRN.
-    - Image set: owned body-care shelf hero plus neutral body lotion/product close-ups.
+    - Image set: owned body-care shelf hero, neutral product/lotion close-ups, and owned travel body-care packing kit.
   - Blog `244`: `Seoul Glowcation Guide 2026: Beauty, Shopping, and Recovery`
     - Public URL verified: `https://www.epickor.com/blog/244`
     - Angle: beauty travel that combines shopping, careful clinic research, recovery time, SPF, and photo planning.
@@ -15,7 +59,7 @@
   - Blog `245`: `Korean Home Reset Culture: Why Seoul Apartments Feel Organized`
     - Public URL verified: `https://www.epickor.com/blog/245`
     - Angle: shoe-off entryway, floor space, laundry drying, humidity, storage, and evening reset routines.
-    - Image set: owned compact Korean apartment entry/laundry/evening reset scenes plus neutral closet storage support image.
+    - Image set: owned compact Korean apartment entry, laundry, evening reset, and storage scenes.
   - Blog `246`: `Korean Kiosk Panic Guide: How To Order Food In Seoul`
     - Public URL verified: `https://www.epickor.com/blog/246`
     - Angle: tourist panic at Korean food-ordering kiosks, with practical ordering flow and vocabulary.
