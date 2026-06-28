@@ -1,5 +1,63 @@
 # HANDOFF - EpicKor Agent Teams v2
 
+## Latest Update - 2026-06-28 Posts 243-246 Published And Verified
+
+- Representative approved producing four fresh, more viral/novel posts and set the goal: finish writing, pass a `96+` score gate, commit, push, deploy, and verify.
+- Completed and published four new public posts:
+  - Blog `243`: `Korean Body Care Guide 2026: The New K-Beauty Routine`
+    - Public URL verified: `https://www.epickor.com/blog/243`
+    - Angle: body care as the next K-beauty lane after face skincare, SPF, hair care, and PDRN.
+    - Image set: owned body-care shelf hero plus neutral body lotion/product close-ups.
+  - Blog `244`: `Seoul Glowcation Guide 2026: Beauty, Shopping, and Recovery`
+    - Public URL verified: `https://www.epickor.com/blog/244`
+    - Angle: beauty travel that combines shopping, careful clinic research, recovery time, SPF, and photo planning.
+    - Image set: owned glowcation recovery flatlay, owned clinic waiting room, Seoul/Myeongdong shopping scenes.
+  - Blog `245`: `Korean Home Reset Culture: Why Seoul Apartments Feel Organized`
+    - Public URL verified: `https://www.epickor.com/blog/245`
+    - Angle: shoe-off entryway, floor space, laundry drying, humidity, storage, and evening reset routines.
+    - Image set: owned compact Korean apartment entry/laundry/evening reset scenes plus neutral closet storage support image.
+  - Blog `246`: `Korean Kiosk Panic Guide: How To Order Food In Seoul`
+    - Public URL verified: `https://www.epickor.com/blog/246`
+    - Angle: tourist panic at Korean food-ordering kiosks, with practical ordering flow and vocabulary.
+    - Image set: owned kiosk-ordering hero plus Seoul kiosk queue, restaurant street, and food-counter context photos.
+- Quality gate:
+  - Custom score check using the same `scripts/seo-aeo-audit.mjs` scoring logic:
+    - `243`: `100/100`, `1931` words.
+    - `244`: `100/100`, `1884` words.
+    - `245`: `100/100`, `1935` words.
+    - `246`: `100/100`, `1929` words.
+  - `npm.cmd run audit:seo-aeo` passed; site average now `75/100`.
+  - Each new post has title length in range, description length in range, 5 tags, 4 local images, 3+ H2 sections, FAQ, 2+ internal links, and two Amazon affiliate CTA boxes with disclosure/rel attributes.
+- Image/render validation:
+  - Local markdown image reference gate: Blogs `243`-`246` each have 4 image refs, missing `0`.
+  - SHA duplicate gate: new image count `16`; internal duplicate groups `0`; exact cross-duplicate images against existing blog post images `0`.
+  - Manual visual inspection completed via contact sheets:
+    - `output/review/243_image_contact_sheet.jpg`
+    - `output/review/244_image_contact_sheet.jpg`
+    - `output/review/245_image_contact_sheet.jpg`
+    - `output/review/246_image_contact_sheet.jpg`
+  - Local dev render gate: `http://localhost:4000/blog/{243,244,245,246}` returned HTTP `200`, each with 4 image refs and missing `0`; OG images returned HTTP `200`.
+  - Production render/public gate: custom-domain pages `243`-`246` returned HTTP `200`, each had 4 image refs, and all 16 image asset URLs returned HTTP `200`.
+- Build/deploy:
+  - `npm.cmd run build` passed: 226 static pages generated.
+  - Content commit pushed: `0d332734 Publish posts 243 through 246`.
+  - Vercel production deployment verified Ready: `https://epickor-blog-f01fj0cfp-yhs-projects-5de403d3.vercel.app`.
+- Current status:
+  - Blogs `243`-`246` are live and verified on `www.epickor.com`.
+  - `content/data/topics-queue.json` updated through slug `246`; next slug is `247`.
+  - Existing unrelated Reels/card-news dirty worktree changes remain untouched.
+- Next recommended work:
+  1. Priority 1: Create a 3-carousel card-news batch from `243`, `245`, and `246`. Reason: these have the strongest thumb-stopping social hooks: body care, home reset, and kiosk panic. Dependency: source/generate fresh carousel-specific images and avoid reusing post images too directly.
+  2. Priority 2: Produce a Reel concept batch from `243/244/246`. Reason: body-care shift, glowcation caution, and kiosk panic each has a strong first-three-second hook. Dependency: keep Reels batched and visually approved before final render.
+  3. Priority 3: Add reverse internal links from related older posts into `243`-`246`, especially `192`, `204`, `207`, `217`, `226`, and `239`. Reason: the new posts are live and can receive crawl/session depth from established pages.
+- Agents involved:
+  - Strategy Agent: selected fresh high-social-potential topics while avoiding direct duplication of existing PDRN/KPop/fashion/convenience-store coverage.
+  - Research Agent: verified current trend/source URLs and affiliate fit.
+  - Visual Agent: sourced Pexels assets and generated owned Korean-context visuals where source photos were weak.
+  - Writer Agent: wrote the four long-form posts, internal links, affiliate CTAs, FAQ sections, and image source docs.
+  - Reviewer Agent: ran score, image-reference, duplicate, build, local render, and public render checks.
+  - Publisher Agent: committed, pushed, monitored Vercel production deployment, and verified public pages plus images.
+
 ## Latest Update - 2026-06-28 Card News Batch 239/241/242 Produced
 
 - Representative approved the next card-news batch and specifically asked for:
