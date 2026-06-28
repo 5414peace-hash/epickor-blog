@@ -19,11 +19,13 @@ Post: Korean Home Reset Culture
    - Prompt role: Korean apartment laundry drying setup with foldable rack, baskets, and dehumidifier.
    - Review: Strong compact-apartment/laundry fit; no text/logos.
 
-4. `closet-storage-reset.jpg`
-   - Source: Pexels photo `7166555`, Max Vakhtbovych.
-   - Review: Neutral storage image used only for general storage logic; not presented as a Korean-specific room.
+4. `compact-korean-storage-reset.png`
+   - Source: Owned/generated image.
+   - Prompt role: compact Seoul apartment storage corner with folded bedding, narrow shelving, small boxes, shoes, rolling cart, and apartment window/entry context.
+   - Review: Stronger Korean compact-apartment fit than the previous generic closet image.
 
 ## Visual Review
 
-- Korea/context fit: Three of four images are owned/generated specifically for compact Korean apartment habits; one image is neutral storage support.
+- Korea/context fit: All four images are owned/generated specifically for compact Korean apartment habits and small-space home routines.
 - Duplicate check: SHA pass completed across new `243`-`246` assets and existing blog post images; no exact duplicates found.
+- Revision note: Replaced `closet-storage-reset.jpg` because it looked like a generic western walk-in closet and weakened the Korea-first context.

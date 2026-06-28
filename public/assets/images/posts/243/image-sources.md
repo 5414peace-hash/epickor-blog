@@ -17,11 +17,13 @@ Post: Korean Body Care Guide 2026
    - Source: Pexels photo `9774600`, SHVETS production.
    - Review: Direct lotion/body-care application image; neutral context.
 
-4. `body-lotion-routine-arm.jpg`
-   - Source: Pexels photo `9774614`, SHVETS production.
-   - Review: Direct lotion/body-care application image; no misleading Korea scene claim.
+4. `body-spf-travel-care-kit.png`
+   - Source: Owned/generated image.
+   - Prompt role: Seoul hotel or apartment bathroom travel kit with unbranded body sunscreen, cooling gel, foot cream, towel, water bottle, and leakproof toiletry pouch.
+   - Review: Stronger fit for the packing section and better carousel/article variety than a second arm-lotion application image.
 
 ## Visual Review
 
-- Korea/context fit: The hero is owned and Korean-apartment/bathroom inspired; other images are culturally neutral close-ups used only for direct product/routine explanation.
+- Korea/context fit: The hero and packing image are owned and Korean-apartment/hotel-bathroom inspired; other images are culturally neutral close-ups used only for direct product/routine explanation.
 - Duplicate check: SHA pass completed across new `243`-`246` assets and existing blog post images; no exact duplicates found.
+- Revision note: Replaced `body-lotion-routine-arm.jpg` because it repeated the visual idea of `moisturizer-arm-body-care.jpg`.
