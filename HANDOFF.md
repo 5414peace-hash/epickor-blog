@@ -1,5 +1,64 @@
 # HANDOFF - EpicKor Agent Teams v2
 
+## Latest Update - 2026-06-28 Posts 247-249 New Categories Published
+
+- Representative approved producing three posts in completely different/new categories and asked for proper research, appropriate related images, review, deploy commit, and final verification.
+- Completed and published three new public posts:
+  - Blog `247`: `Korean Pet Parent Culture 2026: Dog Strollers And Cafes`
+    - Public URL verified: `https://www.epickor.com/blog/247`
+    - Category expansion: `Pets / Urban Lifestyle`.
+    - Angle: dog strollers, pet cafes, apartment etiquette, pet-parent routines, and why pets feel like family in Seoul.
+    - Image set: owned Korean pet-stroller hero, real Seoul dog-walk/Hanok-cafe Pexels support, owned pet-cafe stroller scene, and owned Korean apartment pet-entry kit.
+  - Blog `248`: `Seoul Running Crew Culture 2026: Why Korea Runs At Night`
+    - Public URL verified: `https://www.epickor.com/blog/248`
+    - Category expansion: `Urban Fitness / Social Life`.
+    - Angle: Han River night runs, run crews as social life, gear, etiquette, seasons, pace anxiety, and post-run community.
+    - Image set: owned Han River running-crew hero, fresh Pexels Dongho Bridge night photo, owned night-run gear flatlay, and owned cool-down/social scene.
+  - Blog `249`: `Korean Dating Rules 2026: Sogaeting, 100 Days, And Apps`
+    - Public URL verified: `https://www.epickor.com/blog/249`
+    - Category expansion: `Relationships / Modern Korea`.
+    - Angle: sogaeting, app fatigue, 100-day anniversaries, couple items, texting, international dating, and boundaries.
+    - Image set: owned sogaeting cafe-date hero, owned dating-app-fatigue cafe table, owned couple-items flatlay, and real Seoul night-street Pexels support.
+- Image sourcing judgment:
+  - Random web images were rejected for direct insertion because news/blog/product images had copyright, hotlink, logo, readable-text, or identifiable-person risk.
+  - Final strategy was hybrid: owned/generated images for precise cultural scenes, Pexels only where a license-safe real Seoul context photo added place credibility.
+  - Rejected `249` candidate `seoul-couple-street-date.jpg` from Pexels `31925308` because it overlapped with a previously used Seoul shopping/couple source family.
+  - Replaced duplicate `248` Han River candidate `han-river-night-skyline.jpg` because SHA matched Blog `208`; final replacement is `han-river-dongho-bridge-night.jpg` from Pexels `15375822`.
+- Quality gate:
+  - Custom score check using the same `scripts/seo-aeo-audit.mjs` scoring logic:
+    - `247`: `100/100`, `1804` words.
+    - `248`: `100/100`, `1833` words.
+    - `249`: `100/100`, `1816` words.
+  - `npm.cmd run audit:seo-aeo` passed; site average remains `75/100`.
+  - `npm.cmd run build` passed after increasing command timeout; 229 static pages generated.
+- Image/render validation:
+  - Local image reference gate: Blogs `247`-`249` each have 4 image refs, missing `0`.
+  - SHA duplicate gate: exact duplicate hashes touching `247`-`249` assets: `0`.
+  - Manual visual inspection completed via:
+    - `output/review/247_image_contact_sheet.jpg`
+    - `output/review/248_image_contact_sheet.jpg`
+    - `output/review/249_image_contact_sheet.jpg`
+  - Local production render gate using `next start --port 4007`: `/blog/247`, `/blog/248`, `/blog/249` returned HTTP `200`, each with 4 image refs and bad images `0`.
+  - Production/custom-domain render gate: `https://www.epickor.com/blog/{247,248,249}` returned HTTP `200`, each with 4 image refs and bad images `0`.
+- Build/deploy:
+  - Content commit pushed: `105efaf8 Publish posts 247 through 249`.
+  - Vercel production deployment verified Ready: `https://epickor-blog-pnqkvnxtg-yhs-projects-5de403d3.vercel.app`.
+- Current status:
+  - Blogs `247`-`249` are live and verified on `www.epickor.com`.
+  - `content/data/topics-queue.json` updated through slug `249`; next slug is `250`.
+  - Existing unrelated Reels/card-news dirty worktree changes remain untouched.
+- Next recommended work:
+  1. Priority 1: Create a 3-carousel card-news batch from `247`, `248`, and `249`. Reason: each is a fresh category with distinct social thumbnail potential: dog stroller, night running crew, and sogaeting/100-day dating rules. Dependency: use carousel-specific images or new crops to avoid reusing post images too directly.
+  2. Priority 2: Produce a 3-Reel planning batch from `247/248/249`. Reason: each has a strong three-second hook and broad comment potential. Dependency: keep Reels batched and visually approved before final render.
+  3. Priority 3: Build new internal-link clusters around `Pets`, `Urban Fitness`, and `Relationships`. Reason: these are new category beachheads and need related older/newer posts to become durable SEO hubs.
+- Agents involved:
+  - Strategy Agent: selected three new categories far from recent beauty/shopping/travel repetition.
+  - Research Agent: checked topic fit, public trend signals, and source/image availability.
+  - Visual Agent: compared web/Pexels/generation options, generated owned images where safer, rejected duplicate/unsafe candidates, and inspected contact sheets.
+  - Writer Agent: wrote the three long-form posts, affiliate CTAs, internal links, FAQ sections, tables, and image source docs.
+  - Reviewer Agent: ran score, image-reference, duplicate hash, build, local render, and public render checks.
+  - Publisher Agent: committed, pushed, monitored Vercel production deployment, and verified public pages plus image assets.
+
 ## Latest Update - 2026-06-28 Posts 243/245 Image Fit Revision
 
 - Representative asked to re-check whether the images placed in the latest four posts were appropriate and to fix anything weak.
