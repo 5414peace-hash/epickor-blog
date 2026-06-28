@@ -1,5 +1,61 @@
 # HANDOFF - EpicKor Agent Teams v2
 
+## Latest Update - 2026-06-28 Card News 247/248/249 Batch Published
+
+- Representative approved creating three card-news carousels from the newly published `247/248/249` posts and set a goal to complete the batch carefully with strong Korean/contextual images, review, commit, and deployment.
+- Completed three 7-card Instagram carousel packages:
+  - Card news `247`: `Korean Pet Parent Culture 2026`
+    - Folder: `public/assets/cardnews/2026-06-28_247/`
+    - Files: `script.md`, `caption.txt`, `image-sources.md`, `visual-review.md`, and `card_01.png` through `card_07.png`.
+    - Visual angle: dog stroller city logic, pet-as-family routine, pet cafe manners, apartment entry kit, summer paw care, and grooming/family close.
+  - Card news `248`: `Seoul Running Crew Culture 2026`
+    - Folder: `public/assets/cardnews/2026-06-28_248/`
+    - Files: `script.md`, `caption.txt`, `image-sources.md`, `visual-review.md`, and `card_01.png` through `card_07.png`.
+    - Visual angle: Han River night-run thumbnail, river route, subway meetup, light gear, social pace, cooldown, and post-run convenience-store drink close.
+  - Card news `249`: `Korean Dating Rules 2026`
+    - Folder: `public/assets/cardnews/2026-06-28_249/`
+    - Files: `script.md`, `caption.txt`, `image-sources.md`, `visual-review.md`, and `card_01.png` through `card_07.png`.
+    - Visual angle: sogaeting cafe date, outfit prep, app fatigue, 100-day gift, couple items, photo booth ritual, and Seoul date-night close.
+- Image sourcing and duplicate gate:
+  - Used a hybrid set of post-owned images, license-safe post Pexels images, and 9 newly generated carousel-specific owned images.
+  - All three carousels have 7/7 image-backed cards.
+  - Internal image path duplicate check passed for `247`, `248`, and `249`.
+  - Cross-cardnews image path duplicate check against `public/assets/cardnews/*/script.md` passed for the new image paths.
+  - Local image existence check passed for all `image:` paths in the three scripts.
+- Render/review gate:
+  - Rendered 21 PNGs via `.claude/skills/cardnews/scripts/html-to-png-edge.mjs`.
+  - Full-batch Edge render was slow/hung on browser close, so missing cards were rendered card-by-card; final output has all 21 PNGs.
+  - Structural review passed for all three folders:
+    - `node .claude/skills/cardnews/scripts/review-cardnews.mjs --folder public/assets/cardnews/2026-06-28_247`
+    - `node .claude/skills/cardnews/scripts/review-cardnews.mjs --folder public/assets/cardnews/2026-06-28_248`
+    - `node .claude/skills/cardnews/scripts/review-cardnews.mjs --folder public/assets/cardnews/2026-06-28_249`
+  - Manual visual inspection completed using:
+    - `output/cardnews/2026-06-28_247/contact-sheet.jpg`
+    - `output/cardnews/2026-06-28_248/contact-sheet.jpg`
+    - `output/cardnews/2026-06-28_249/contact-sheet.jpg`
+  - Visual Fit Score results:
+    - `247`: average `93.9/100`, no card below `93`.
+    - `248`: average `93.0/100`, no card below `91`.
+    - `249`: average `92.7/100`, no card below `90`.
+- Build/deploy:
+  - Card-news asset commit pushed: `53e10584 Add card news batch for posts 247 to 249`.
+  - Vercel production deployment verified Ready: `https://epickor-blog-6vi7nxpoi-yhs-projects-5de403d3.vercel.app`.
+  - Custom-domain image verification passed: all 21 `https://www.epickor.com/assets/cardnews/2026-06-28_{247,248,249}/card_XX.png` URLs returned HTTP `200`.
+  - `public/assets/cardnews/CARDNEWS_INDEX.md` was updated in the commit with only the new `247/248/249` rows. Pre-existing uncommitted `204/216/219` index rows remain in the worktree and were intentionally not included in this commit.
+- Current status:
+  - Card news `247/248/249` are production-deployed as static assets and ready for representative-managed Instagram upload.
+  - Existing unrelated Reels/card-news dirty worktree changes remain untouched.
+- Next recommended work:
+  1. Priority 1: Upload/schedule the `247/248/249` card-news batch across the Tuesday/Wednesday/Thursday card-news rhythm. Reason: the assets are complete, visually reviewed, and public-image verified. Dependency: representative-managed Instagram upload only.
+  2. Priority 2: Start a 3-Reel planning batch from `247/248/249`. Reason: all three source posts are newly published and verified, and each has a high-comment hook: dog strollers, Seoul night-run social life, and Korean dating rules. Dependency: follow Reels rule sequence and keep the batch together.
+  3. Priority 3: Add internal-link support for the new `Pets`, `Urban Fitness`, and `Relationships` category beachheads. Reason: the fresh topics need crawl/session depth to become durable SEO hubs.
+- Agents involved:
+  - Strategy Agent: confirmed `247/248/249` as the safest fresh-category social batch after publication.
+  - Visual Agent: generated 9 extra carousel-specific owned images, checked Korea/context fit, and reviewed contact sheets.
+  - Writer Agent: wrote carousel scripts, captions, and social swipe logic.
+  - Reviewer Agent: ran structure, duplicate, asset-existence, public-image, and manual visual review gates.
+  - Publisher Agent: committed/pushed the asset batch and verified Vercel/custom-domain availability.
+
 ## Latest Update - 2026-06-28 Posts 247-249 New Categories Published
 
 - Representative approved producing three posts in completely different/new categories and asked for proper research, appropriate related images, review, deploy commit, and final verification.
