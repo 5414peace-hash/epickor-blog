@@ -1,5 +1,77 @@
 # HANDOFF - EpicKor Agent Teams v2
 
+## Latest Update - 2026-06-29 Posts 250-253 Trend Batch Published
+
+- Representative approved producing four new trendy/fresh posts with proper content research, non-duplicate web-sourced images, verification, commit, push, deployment, and public checks.
+- Completed and published four new public posts:
+  - Blog `250`: `K-Wellness Snacks 2026: Protein, Tea, Zero Sugar`
+    - Public URL verified: `https://www.epickor.com/blog/250`
+    - Angle: K-wellness snacks as the next shelf after K-beauty: protein snacks, beauty teas, zero-sugar drinks, konjac/low-calorie snacks, shopping routes, label reading, and packing logic.
+    - Image set: 4/4 real Pexels/web-sourced images; Seoul drink stand, Seoul cafe drinks, herbal tea, and healthy snack flatlay.
+  - Blog `251`: `Korean Study Cafe Rules 2026: Cagongjok Etiquette`
+    - Public URL verified: `https://www.epickor.com/blog/251`
+    - Angle: cagongjok, laptop etiquette, study cafes vs normal cafes, libraries/coworking alternatives, and the Starbucks Korea bulky-equipment debate.
+    - Image set: 4/4 real Pexels/web-sourced Korea-location images; Starfield Library and Asia Culture Center study/library spaces.
+  - Blog `252`: `Korean Screen Sports 2026: Golf, Bowling, And VR`
+    - Public URL verified: `https://www.epickor.com/blog/252`
+    - Angle: screen golf, screen baseball, bowling, VR arcades, indoor sports as after-work/date/rainy-day leisure; intentionally distinct from KBO spectator coverage and PC bang culture.
+    - Image set: 4/4 real Pexels/web-sourced images; two Seoul sports-context images plus neutral indoor golf/VR simulator support images clearly captioned as generic.
+  - Blog `253`: `Seoul One-Day Classes 2026: Crafts, Rings, Perfume`
+    - Public URL verified: `https://www.epickor.com/blog/253`
+    - Angle: perfume, pottery, silver ring, craft-date, neighborhood choice, booking/pickup/luggage rules, and traditional craft vs trend craft.
+    - Image set: 4/4 real Pexels/web-sourced images; direct pottery, ring, perfume workshop process photos plus a real Seoul craft/shop street context image.
+- Research/source checks:
+  - Duplicate-topic audit completed before writing against `content/data/topics-queue.json`, `content/blog/*.md`, `output/final/`, recent duplicate correction notes in `HANDOFF.md`, and latest strategy report.
+  - Excluded already-covered lanes such as Ssamjang, KBO culture as a broad topic, Korean toast, pharmacy/healthcare basics, transit/payment app setup, Daiso/Olive Young single-store shopping, K-fashion, self photo studios, hair/nail/fragrance/lens/body-care repeats.
+  - Current source checks included Olive Young/K-wellness reporting, Korea zero-sugar trend reporting, BBC cagongjok/Starbucks Korea coverage, Korea Herald/Golfzon screen golf context, and Seoul craft/class listings plus Seoul Museum of Craft Art context.
+- Image sourcing and visual review:
+  - Added 16 new article images under `public/assets/images/posts/250/` through `253/`.
+  - All 16 active images are web-sourced/Pexels, not generated.
+  - Rejected/avoided Pexels `31735910` because prior handoff records show duplicate use in older Blog/Card News assets.
+  - Rejected copyright-risk commercial listing/news/brand images where reuse rights were unclear.
+  - Created and visually inspected contact sheets:
+    - `output/review/250_image_contact_sheet.jpg`
+    - `output/review/251_image_contact_sheet.jpg`
+    - `output/review/252_image_contact_sheet.jpg`
+    - `output/review/253_image_contact_sheet.jpg`
+  - Visual fit result:
+    - `250`: Seoul drink/cafe images carry Korea context; tea/nuts used only as neutral wellness support.
+    - `251`: all four are real Korea-location focus/library spaces.
+    - `252`: Seoul bowling/basketball carry Korea context; indoor golf/VR are clearly neutral simulator support.
+    - `253`: craft process images directly match the class types; Seoul shop image supplies local context.
+- Quality gates:
+  - Custom per-post score check:
+    - `250`: `100/100`, `1953` words.
+    - `251`: `100/100`, `1922` words.
+    - `252`: `100/100`, `2021` words.
+    - `253`: `100/100`, `1923` words.
+  - Each post includes 4 local images, 5 tags, FAQ, 2+ internal links, 2 Amazon affiliate CTA boxes, Amazon Associate disclosure, source links with external rel handling, and at least one real table.
+  - Local image reference gate: each post has 4 local image refs and missing `0`.
+  - SHA duplicate gate: 16 new images; internal duplicate groups `0`; exact cross-duplicate hits against existing blog/card-news/Reels assets `0`.
+  - `npm.cmd run audit:seo-aeo` passed; site average now `76/100`.
+  - `npm.cmd run build` passed after clearing a corrupted generated `.next` cache file; 233 static pages generated.
+  - Local production render gate using `next start --port 4008`: `/blog/250`, `/251`, `/252`, `/253` returned HTTP `200`, each with 4 local image refs and bad images `0`.
+  - Production/custom-domain render gate: `https://www.epickor.com/blog/{250,251,252,253}` returned HTTP `200`, each contained all expected image filenames, and all 16 public image asset URLs returned HTTP `200`.
+- Build/deploy:
+  - Content commit pushed: `a61968a7 Publish trendy Korea guides 250 through 253`.
+  - Vercel production deployment verified Ready: `https://epickor-blog-mx01oy58p-yhs-projects-5de403d3.vercel.app`.
+  - Aliases verified by `vercel inspect`: `https://www.epickor.com`, `https://epickor.com`, and related Vercel aliases.
+- Current status:
+  - Blogs `250`-`253` are live and verified on `www.epickor.com`.
+  - `content/data/topics-queue.json` updated through slug `253`; next slug is `254`.
+  - Existing unrelated Reels/card-news dirty worktree changes remain untouched, including older local/manual card-news assets and Reels tooling/artifacts.
+- Next recommended work:
+  1. Priority 1: Produce a 3-carousel card-news batch from `250`, `251`, and `253`. Reason: K-wellness snacks, cagongjok etiquette, and one-day class culture have the clearest swipe hooks and strong visual/social potential. Dependency: source fresh carousel-specific images and avoid reusing the exact blog images unless a derivative crop is documented.
+  2. Priority 2: Start a 3-Reel planning batch from `250/251/252` after scoring each under the Reels Creative Performance Standard. Reason: `251` has a strong "do not turn a cafe into an office" hook, `252` has the strongest action visuals, and `250` has a clear shopping/shelf hook. Dependency: keep Reels batched and do not start TTS/render before strategy/visual approval.
+  3. Priority 3: Add internal links from older related posts into `250`-`253`, especially `171`, `192`, `209`, `218`, `170`, `233`, `241`, `249`, and `242`. Reason: the new posts are category expanders and need crawl/session support from established pages.
+- Agents involved:
+  - Strategy Agent: performed duplicate-topic audit and selected four non-duplicate trend lanes.
+  - Research Agent: verified current source context for K-wellness, cagongjok, screen sports, and Seoul one-day classes.
+  - Visual Agent: sourced 16 non-generated Pexels/web images, rejected duplicate/copyright-risk candidates, and inspected contact sheets.
+  - Writer Agent: wrote Blogs `250`-`253` with tables, FAQs, internal links, Amazon CTAs, and source sections.
+  - Reviewer Agent: ran score, image-reference, duplicate-hash, audit, build, local render, contact-sheet, and public image/page verification.
+  - Publisher Agent: committed, pushed, monitored Vercel production deployment, and verified public URLs plus image assets.
+
 ## Latest Update - 2026-06-28 Card News 247/248/249 Batch Published
 
 - Representative approved creating three card-news carousels from the newly published `247/248/249` posts and set a goal to complete the batch carefully with strong Korean/contextual images, review, commit, and deployment.
