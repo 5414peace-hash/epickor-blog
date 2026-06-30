@@ -4,22 +4,26 @@ Post: `content/blog/255.md`
 
 ## Used Images
 
-- `seoul-multi-level-shopping-area.jpg`
-  - Source: Pexels photo 31720211
-  - Photographer: Theodore Nguyen
-  - Description: Seoul multi-level shopping area used as the post hero and shopping-route context.
+- `shinsegae-gangnam-sweet-park-food-hall.jpg`
+  - Source page: `https://japanese.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=227973`
+  - Image URL: `https://tong.visitkorea.or.kr/cms/resource_etc/34/3497134_image2_1.JPG`
+  - Source credit: VISITKOREA / Shinsegae Department Store.
+  - Description: Shinsegae Gangnam Sweet Park indoor food hall used as the post hero.
 
-- `myeongdong-food-street.jpg`
-  - Source: Pexels photo 31925334
-  - Photographer: Theodore Nguyen
-  - Description: Myeongdong street market scene used to compare outdoor food culture with indoor food halls.
+- `the-hyundai-seoul-tasty-seoul-food-hall.jpg`
+  - Source page: `https://japanese.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=227973`
+  - Image URL: `https://tong.visitkorea.or.kr/cms/resource_etc/52/3497152_image2_1.jpg`
+  - Source credit: VISITKOREA / The Hyundai Seoul.
+  - Description: The Hyundai Seoul Tasty Seoul indoor food hall counter area.
 
-- `seoul-food-counter.jpg`
-  - Source: Pexels photo 31925313
-  - Photographer: Theodore Nguyen
-  - Description: Seoul food counter scene used for browsing and prepared-food context.
+- `lotte-food-avenue-interior.jpg`
+  - Source page: `https://restaurantandbardesignawards.com/entry/4380-lotte-food-avenue`
+  - Image URL: `https://d3cw4f1nejd90x.cloudfront.net/images/images/39975/large/fa_20180116_002.jpg`
+  - Source credit: Lotte Food Avenue design archive.
+  - Description: Indoor grocery/fruit counter and food avenue area used for premium food-hall browsing context.
 
-- `seoul-fresh-food-market-stall.jpg`
-  - Source: Pexels photo 28074077
-  - Photographer: Paul Bill
-  - Description: Seoul Korean food market stall used to contrast markets with curated department-store basements.
+- `lotte-food-avenue-seating-counters.jpg`
+  - Source page: `https://restaurantandbardesignawards.com/entry/4380-lotte-food-avenue`
+  - Image URL: `https://d3cw4f1nejd90x.cloudfront.net/images/images/39981/large/fa_20180116_028.jpg`
+  - Source credit: Lotte Food Avenue design archive.
+  - Description: Indoor seating and restaurant counter area used for rainy-day and seating-route context.
