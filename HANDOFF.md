@@ -1,5 +1,56 @@
 # HANDOFF - EpicKor Agent Teams v2
 
+## Latest Update - 2026-07-01 Posts 254-256 Published And Public-Verified
+
+- Representative approved replacing the third suggested topic with a Korean film `아저씨` / `The Man from Nowhere` post because GSC/search demand showed many users looking for the English meaning of `아저씨`; representative also explicitly accepted responsibility for movie poster/still copyright handling and requested proper insertion of poster and key scene captures.
+- Completed and published three new public posts:
+  - Blog `254`: `Korean Hwachae 2026: Summer Fruit Punch And Picnic Culture`
+    - Public URL verified: `https://www.epickor.com/blog/254`
+    - Angle: Korean hwachae as a summer dessert/picnic/camping culture guide, with watermelon milk/soda formula, variations, mistakes, and Korea travel context.
+    - Image set: 3/3 local Pexels images; fruit/condensed-milk bowl, watermelon-strawberry bowl, and outdoor picnic watermelon.
+  - Blog `255`: `Korean Department Store Food Halls 2026: What To Eat In Seoul`
+    - Public URL verified: `https://www.epickor.com/blog/255`
+    - Angle: Seoul department-store food halls as indoor food/shopping infrastructure: bakeries, lunch boxes, gift sets, rainy-day routing, and souvenir mistakes.
+    - Image set: 4/4 local Pexels Seoul food/shopping-context images; intentionally avoided copyright-risk department-store interior/brand images.
+  - Blog `256`: `Ajeossi Movie Explained: The Man from Nowhere And Won Bin`
+    - Public URL verified: `https://www.epickor.com/blog/256`
+    - Angle: search-intent bridge for `Ajeossi movie`, `아저씨 meaning`, `The Man from Nowhere`, and Won Bin; explains title translation, Korean language nuance, poster recognition, and key visual scenes.
+    - Image set: poster plus 3 movie still/crop images inserted in post; Hero/OG uses a horizontal shaving-scene crop to avoid severe top Hero cropping, while the Korean poster remains the first body image.
+    - Source tracking: `public/assets/images/posts/256/image-sources.md` records the poster source, CJ ENM official trailer/clip URLs, and derivative crop relationships.
+- Research/source checks:
+  - `254`: used existing Korean food knowledge plus Pexels visual research; kept the piece practical rather than overclaiming one canonical recipe.
+  - `255`: checked Vogue Seoul retail context and used food-hall strategy language without claiming fixed stall availability.
+  - `256`: checked film orientation through Wikipedia, Box Office Mojo, HanCinema, and CJ ENM official YouTube trailer/clip sources; avoided current streaming-platform claims because availability changes by country and date.
+- Quality gates:
+  - Custom new-post validation:
+    - `254`: `2324` words, title `58`, description `136`, 3 images, 2 affiliate CTA boxes, 6 Amazon links, 3 internal links, 5 FAQ questions, 15 H2 headings.
+    - `255`: `2451` words, title `61`, description `134`, 4 images, 2 affiliate CTA boxes, 6 Amazon links, 6 internal links, 5 FAQ questions, 16 H2 headings.
+    - `256`: `2405` words, title `57`, description `135`, 4 body images, 2 affiliate CTA boxes, 6 Amazon links, 2 internal links, 7 FAQ questions, 17 H2 headings.
+  - Link review passed: all Amazon links have `nofollow sponsored noopener noreferrer`; other external links have `noopener noreferrer`; all external links open in a new tab.
+  - `npm.cmd run audit:seo-aeo` passed; report updated at `reports/seo-aeo-audit.md`; site average remains `76/100`.
+  - `npm.cmd run build` passed after final edits; 236 static pages generated.
+  - Local production render gate passed using `next start --port 4012`: `/blog/254`, `/blog/255`, and `/blog/256` returned expected title markers, all body image paths, and all local image asset URLs returned HTTP `200`.
+  - Public/custom-domain render gate passed using `curl.exe`: `https://www.epickor.com/blog/{254,255,256}` returned content with expected title markers and image filenames; all referenced public image asset URLs returned HTTP `200`.
+- Build/deploy:
+  - Content commit pushed: `f128464f Publish Korean food hall and Ajeossi guides`.
+  - Vercel production deployment verified Ready: `https://epickor-blog-3i9eyms1n-yhs-projects-5de403d3.vercel.app`.
+  - Alias inspection confirmed `https://www.epickor.com`, `https://epickor.com`, and related Vercel aliases point to the Ready production deployment.
+- Current status:
+  - Blogs `254`-`256` are live and verified on `www.epickor.com`.
+  - `content/data/topics-queue.json` updated through slug `256`; next slug is `257`.
+  - Existing unrelated Reels/card-news dirty worktree changes remain untouched.
+- Next recommended work:
+  1. Priority 1: Produce a 3-carousel card-news batch from `254`, `255`, and `256`. Reason: all three are now public-verified and visually/socially strong; `254` has easy summer swipe value, `255` has travel utility, and `256` can capture `아저씨` language/movie curiosity. Dependency: for `256`, confirm whether the movie poster/stills may also be reused on Instagram or use a language-first carousel with limited film still exposure.
+  2. Priority 2: Add inbound internal links from older related posts into the new posts. Reason: `210`/`090` should point toward `256`, `209`/`206`/shopping content should point toward `255`, and summer/food/travel posts should support `254`; this improves crawl depth and session continuation.
+  3. Priority 3: Start Reels strategy briefs for a future `254/255/256` batch after card-news backlog needs are checked. Reason: all three posts are newly published and eligible under the Reels rule sequence, but card-news revival rhythm remains the safer immediate operational move.
+- Agents involved:
+  - Strategy Agent: reconciled the original topic list with GSC/search-demand rationale and selected `254/255/256` as the final publish batch.
+  - Research Agent: gathered current source context and tracked movie poster/still sources.
+  - Visual Agent: sourced and inspected Pexels images for `254/255`, selected poster/still candidates for `256`, created clean crops, and rejected a blank storyboard crop.
+  - Writer Agent: wrote all three posts with tables, FAQs, internal links, affiliate CTA boxes, source sections, and movie-language positioning.
+  - Reviewer Agent: ran word/title/description/image/CTA/link checks, SEO/AEO audit, build, local render/image HTTP gate, and public curl verification.
+  - Publisher Agent: committed, pushed, checked Vercel deployment status, inspected aliases, and verified public URLs plus image assets.
+
 ## Latest Update - 2026-06-29 Posts 250-253 Trend Batch Published
 
 - Representative approved producing four new trendy/fresh posts with proper content research, non-duplicate web-sourced images, verification, commit, push, deployment, and public checks.
