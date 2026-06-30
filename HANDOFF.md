@@ -1,5 +1,45 @@
 # HANDOFF - EpicKor Agent Teams v2
 
+## Latest Update - 2026-07-01 Blog 255 Image Correction Published
+
+- Representative confirmed Blogs `254` and `256`, but rejected Blog `255` images because a department-store basement food hall article was showing outdoor market/street images.
+- Completed Blog `255` image correction:
+  - Removed all four outdoor/market images:
+    - `seoul-multi-level-shopping-area.jpg`
+    - `myeongdong-food-street.jpg`
+    - `seoul-food-counter.jpg`
+    - `seoul-fresh-food-market-stall.jpg`
+  - Added four indoor food-hall/food-court images:
+    - `shinsegae-gangnam-sweet-park-food-hall.jpg`
+    - `the-hyundai-seoul-tasty-seoul-food-hall.jpg`
+    - `lotte-food-avenue-interior.jpg`
+    - `lotte-food-avenue-seating-counters.jpg`
+  - Updated `content/blog/255.md` captions/alt text and changed `ogImage` to the Shinsegae Gangnam Sweet Park indoor food hall image.
+  - Updated `public/assets/images/posts/255/image-sources.md` with VISITKOREA/Shinsegae, VISITKOREA/The Hyundai Seoul, and Lotte Food Avenue source URLs.
+- Quality gates:
+  - File-reference gate passed: Blog `255` now has 4 image refs, missing `0`, and old outdoor image refs `0`.
+  - Blog `255` validation: `2459` words, title length `61`, description length `134`, 4 images, 2 affiliate CTA boxes, 6 Amazon links, 6 internal links, 5 FAQ questions, 16 H2 headings.
+  - `npm.cmd run audit:seo-aeo` passed; site average remains `76/100`.
+  - `npm.cmd run build` passed; 236 static pages generated.
+  - Local curl render gate passed for `/blog/255`: expected title marker present, all four new image paths present, and all four local image asset URLs returned HTTP `200`.
+  - Public curl render gate passed for `https://www.epickor.com/blog/255`: all four new image paths present, old outdoor image refs absent, and all four public image asset URLs returned HTTP `200`.
+- Build/deploy:
+  - Correction commit pushed: `baadbc33 Replace blog 255 food hall images`.
+  - Vercel production deployment verified Ready: `https://epickor-blog-qy1spcije-yhs-projects-5de403d3.vercel.app`.
+- Current status:
+  - Blog `255` now visually matches the department-store basement food-hall topic.
+  - Blogs `254` and `256` remain representative-confirmed and unchanged.
+  - Existing unrelated Reels/card-news dirty worktree changes remain untouched.
+- Next recommended work:
+  1. Priority 1: Proceed with `254/255/256` card-news batch planning, but use the corrected indoor food-hall image direction for `255`.
+  2. Priority 2: For `256`, confirm whether movie poster/stills are allowed for Instagram carousel reuse before making social assets.
+  3. Priority 3: Add inbound internal links from older shopping/food posts into `255` now that its visual credibility is fixed.
+- Agents involved:
+  - Visual Agent: sourced and inspected replacement indoor food-hall images.
+  - Writer Agent: updated Blog `255` image alt text, captions, and ogImage.
+  - Reviewer Agent: ran reference, audit, build, local render, and public render/image gates.
+  - Publisher Agent: committed, pushed, checked Vercel deployment status, and verified public URL/images.
+
 ## Latest Update - 2026-07-01 Posts 254-256 Published And Public-Verified
 
 - Representative approved replacing the third suggested topic with a Korean film `아저씨` / `The Man from Nowhere` post because GSC/search demand showed many users looking for the English meaning of `아저씨`; representative also explicitly accepted responsibility for movie poster/still copyright handling and requested proper insertion of poster and key scene captures.
