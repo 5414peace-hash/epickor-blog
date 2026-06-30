@@ -2106,8 +2106,74 @@
       "status": "done",
       "generated_slug": "253",
       "generated_date": "2026-06-29"
+    },
+    {
+      "id": 98,
+      "title": "Korean Hwachae 2026: Summer Fruit Punch And Picnic Culture",
+      "keywords": [
+        "Korean hwachae",
+        "watermelon hwachae",
+        "Korean fruit punch",
+        "Korea summer dessert"
+      ],
+      "category": "Food",
+      "tags": [
+        "Hwachae",
+        "KoreanDessert",
+        "KoreanFood",
+        "KoreaSummer",
+        "PicnicCulture"
+      ],
+      "amazon_category": "Food",
+      "status": "done",
+      "generated_slug": "254",
+      "generated_date": "2026-06-30"
+    },
+    {
+      "id": 99,
+      "title": "Korean Department Store Food Halls 2026: What To Eat In Seoul",
+      "keywords": [
+        "Korean department store food hall",
+        "Seoul department store food",
+        "The Hyundai Seoul food hall",
+        "Korea food souvenir"
+      ],
+      "category": "Travel",
+      "tags": [
+        "SeoulFood",
+        "DepartmentStores",
+        "KoreaShopping",
+        "KoreanFood",
+        "SeoulTravel"
+      ],
+      "amazon_category": "Food",
+      "status": "done",
+      "generated_slug": "255",
+      "generated_date": "2026-06-30"
+    },
+    {
+      "id": 100,
+      "title": "Ajeossi Movie Explained: The Man from Nowhere And Won Bin",
+      "keywords": [
+        "Ajeossi movie",
+        "The Man from Nowhere Korean movie",
+        "Won Bin Ajeossi",
+        "아저씨 meaning movie"
+      ],
+      "category": "Culture",
+      "tags": [
+        "Ajeossi",
+        "KoreanFilm",
+        "WonBin",
+        "KoreanLanguage",
+        "KCinema"
+      ],
+      "amazon_category": "Culture",
+      "status": "done",
+      "generated_slug": "256",
+      "generated_date": "2026-06-30"
     }
   ],
-  "last_updated": "2026-06-29",
-  "next_slug": 254
+  "last_updated": "2026-06-30",
+  "next_slug": 257
 }
