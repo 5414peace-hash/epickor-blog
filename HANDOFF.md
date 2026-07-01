@@ -1,5 +1,79 @@
 # HANDOFF - EpicKor Agent Teams v2
 
+## Latest Update - 2026-07-01 Blog 257 Hero Replacement, Internal Links, Mobile Tables Deployed
+
+- Representative continued the active goal after Blogs `257`-`260` were published:
+  - Replace Blog `257`'s overused first/hero image.
+  - Add inbound internal links from existing related posts into the new `257`-`260` posts.
+  - Fix blog tables that were getting crushed or pushing mobile layouts sideways, including older posts where relevant.
+- Completed Blog `257` image correction:
+  - Updated `content/blog/257.md` `ogImage` and first body image from `incheon-airport-terminal-escalators.jpg` to `incheon-airport-terminal-lounge-seating.jpg`.
+  - New hero image is a direct Incheon Airport terminal seating/rest-area photo under the curved ceiling.
+  - Updated `public/assets/images/posts/257/image-sources.md` with source page, image URL, credit, and a note that the prior escalator image was removed from the active article image set after representative feedback.
+  - Public image asset verified HTTP `200`: `https://www.epickor.com/assets/images/posts/257/incheon-airport-terminal-lounge-seating.jpg`.
+- Completed inbound internal-link reinforcement:
+  - To Blog `257` / Incheon Airport layover:
+    - `content/blog/202.md`
+    - `content/blog/205.md`
+    - `content/blog/223.md`
+  - To Blog `258` / Noryangjin Fish Market:
+    - `content/blog/209.md`
+    - `content/blog/255.md`
+  - To Blog `259` / Korean bingsu:
+    - `content/blog/177.md`
+    - `content/blog/254.md`
+  - To Blog `260` / Korean rice cooker:
+    - `content/blog/172.md`
+    - `content/blog/209.md`
+    - `content/blog/218.md`
+  - Total added inbound links: `10`.
+- Completed mobile table fix:
+  - Updated `app/globals.css` structured-table styling.
+  - Tables now keep a practical minimum width instead of squeezing columns into unreadable mobile cells.
+  - `.table-scroll` uses horizontal scrolling with touch momentum and mobile full-width handling.
+  - `html`/`body` now block page-level horizontal overflow so table width does not make the whole page slide sideways.
+  - Older inline `overflow-x` table wrappers were sampled and verified; no broad legacy post rewrite was needed for this pass.
+- Quality gates:
+  - `npm.cmd run audit:seo-aeo` passed; site average remained `76/100`.
+  - `npm.cmd run build` passed after final CSS changes; 240 static pages generated.
+  - Local browser mobile check at 390px viewport passed for `/blog/257`, `/blog/258`, `/blog/259`, `/blog/260`, `/blog/209`, and legacy table post `/blog/008-exploring-koreas-love-affair-with-garlic-from-ancient-myths-to-modern-cuisine`.
+    - Page-level horizontal scroll after fix: `0`.
+    - Table wrappers still had internal horizontal scroll where needed.
+    - Broken rendered images: `0`.
+  - Manual rendered visual check completed for Blog `257`: new hero image rendered correctly and mobile table rendered with a visible internal scrollbar.
+  - Public URL checks passed:
+    - `https://www.epickor.com/blog/257` returned HTTP `200` and contained `incheon-airport-terminal-lounge-seating.jpg`.
+    - `https://www.epickor.com/blog/202`, `/blog/209`, `/blog/254`, and `/blog/218` returned HTTP `200` and contained the expected new internal-link markers.
+  - Public browser mobile check at 390px passed for `https://www.epickor.com/blog/257` and `https://www.epickor.com/blog/209`:
+    - `horizontalPageScrollX: 0`
+    - `documentScrollWidth: 375`
+    - `.table-scroll` wrappers remained internally scrollable.
+    - Broken images: `0`.
+- Build/deploy:
+  - Site change commit pushed: `9e55b36e Update blog image links and mobile tables`.
+  - Vercel production deployment verified Ready: `https://epickor-blog-6b6qnmaoc-yhs-projects-5de403d3.vercel.app`.
+  - Vercel inspect confirmed aliases include `https://www.epickor.com`, `https://epickor.com`, and the production Vercel aliases.
+- Current status:
+  - Blog `257` hero/OG image is replaced and public-verified.
+  - Inbound internal links into Blogs `257`-`260` are public-verified on representative sample pages.
+  - Mobile table behavior is fixed locally and publicly for sampled new and legacy posts.
+  - Existing unrelated Reels/card-news dirty worktree changes remain untouched.
+  - Unused local candidate images remain untracked and were not committed:
+    - `public/assets/images/posts/258/korean-seafood-market-display.jpg`
+    - `public/assets/images/posts/259/strawberry-shaved-ice-cafe.jpg`
+    - `public/assets/images/posts/260/steamed-rice-cooker-bowl.jpg`
+- Next recommended work:
+  1. Priority 1: Produce a 3-carousel card-news batch from Blogs `257`, `258`, and `259`. Reason: the blog/image/link/table cleanup is now complete, and these three have the clearest visual save/share value. Dependency: run card-news image uniqueness checks against existing carousel scripts before rendering.
+  2. Priority 2: Prepare the next Reel candidate from Blog `257` or `258` as part of a 3-Reel batch. Reason: airport layover and seafood-market topics have clear short-form hooks and public-verified URLs. Dependency: representative final direction on whether travel utility or food-market tension should lead.
+  3. Priority 3: Select Blog `261` with Amazon-affiliate fit and strong visual/social potential. Reason: the website publishing rhythm should continue while social assets ramp. Dependency: read latest strategy output and avoid topics already recently rewritten or published.
+- Agents involved:
+  - Strategy Agent: applied the existing next-step recommendation and selected related inbound-link targets across airport, food, dessert, and home/kitchen posts.
+  - Visual Agent: replaced and visually inspected Blog `257` hero image, then updated source tracking.
+  - Writer Agent: added context-safe inbound internal links without changing article intent.
+  - Frontend/UX Agent: revised global table CSS for mobile readability and page-level horizontal overflow control.
+  - Reviewer Agent: ran SEO/AEO audit, builds, local/public rendered checks, mobile viewport table checks, and image checks.
+  - Publisher Agent: committed, pushed, inspected Vercel deployment status, and verified public URLs.
+
 ## Latest Update - 2026-07-01 Blogs 257-260 Published And Public-Verified
 
 - Representative requested continuing the active goal: publish all four newly selected post topics end-to-end with proper images, review, deployment, and commit/push.
