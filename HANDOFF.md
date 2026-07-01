@@ -1,5 +1,65 @@
 # HANDOFF - EpicKor Agent Teams v2
 
+## Latest Update - 2026-07-01 Blogs 257-260 Published And Public-Verified
+
+- Representative requested continuing the active goal: publish all four newly selected post topics end-to-end with proper images, review, deployment, and commit/push.
+- Completed and published four new public posts:
+  - Blog `257`: `Incheon Airport Layover Guide 2026: Rest, Food, Transit`
+    - Public URL verified: `https://www.epickor.com/blog/257`
+    - Angle: practical ICN layover decisions around airside vs landside, rest, showers, luggage, food, AREX, Seoul exit risk, and packing.
+    - Image set: 4/4 direct travel images; real Incheon Airport interiors plus AREX airport-rail signage.
+  - Blog `258`: `Noryangjin Fish Market Guide 2026: Buy Seafood In Seoul`
+    - Public URL verified: `https://www.epickor.com/blog/258`
+    - Angle: first-timer seafood market flow, buying vs preparation fees, order strategy, etiquette, timing, and Seoul itinerary fit.
+    - Image set: 4/4 Korea seafood-market images; actual Noryangjin hero plus Korean seafood/wet-market support. Gangneung support image is explicitly captioned as general Korean fish-market atmosphere, not Noryangjin.
+  - Blog `259`: `Korean Bingsu Guide 2026: Patbingsu And Summer Orders`
+    - Public URL verified: `https://www.epickor.com/blog/259`
+    - Angle: patbingsu vs modern fruit/milk bingsu, ordering etiquette, sharing rules, cafe choice, texture mistakes, and at-home setup.
+    - Image set: 2/2 direct dessert images; modern watermelon shaved ice plus classic red bean patbingsu. A strawberry shaved-ice candidate was rejected after visual review because visible non-Korean signage weakened Korea-first fit.
+  - Blog `260`: `Korean Rice Cooker Guide 2026: Cuckoo, Cuchen, Home Rice`
+    - Public URL verified: `https://www.epickor.com/blog/260`
+    - Angle: Korean rice cooker culture, Cuckoo/Cuchen context, pressure vs basic models, mixed grains, keep-warm habits, cleaning, sizing, and buying checklist.
+    - Image set: 4/4 direct/support images; official CUCKOO product image plus rice/grain/home-cooking support. A Japanese-style rice-cooker/pot candidate was rejected to avoid misleading Korea context.
+- Monetization and structure:
+  - Each post includes exactly two `.affiliate-inline-cta` boxes.
+  - The first CTA in each post includes the Amazon Associate disclosure.
+  - Amazon links were checked for `rel="nofollow sponsored noopener noreferrer"` and external source links for `rel="noopener noreferrer"`.
+  - Each post includes at least one real HTML table wrapped in `<div class="table-scroll">`, a `Sources Checked` section, and FAQ coverage.
+  - `content/data/topics-queue.json` updated through slug `260`; next slug is `261`.
+- Quality gates:
+  - Custom validation passed:
+    - `257`: `3101` words, description `128`, 4 images, 2 affiliate boxes, 1 table.
+    - `258`: `2804` words, description `130`, 4 images, 2 affiliate boxes, 1 table.
+    - `259`: `2475` words, description `130`, 2 images, 2 affiliate boxes, 1 table.
+    - `260`: `2822` words, description `135`, 4 images, 2 affiliate boxes, 1 table.
+  - `npm.cmd run audit:seo-aeo` passed; site average remains `76/100`, total posts now `228`.
+  - `npm.cmd run build` passed; 240 static pages generated.
+  - Local rendered HTML/image gate passed for `/blog/257` through `/blog/260`: all rendered image asset paths resolved, and local dev-server image URLs returned HTTP `200`.
+  - Manual image review completed with `view_image`: direct-fit images confirmed for Incheon/AREX, Noryangjin/Korean seafood markets, bingsu/patbingsu, and CUCKOO/rice-cooking. Non-Korean/misleading candidates were excluded from commit.
+  - Public/custom-domain render gate passed using `Invoke-WebRequest`: `https://www.epickor.com/blog/{257,258,259,260}` returned HTTP `200`, expected title markers were present, all body image filenames were present, and all public image asset URLs returned HTTP `200`.
+- Build/deploy:
+  - Content commit pushed: `e95579f1 Publish Korean travel and food guides 257-260`.
+  - Vercel production deployment verified Ready: `https://epickor-blog-m4rgz5s8d-yhs-projects-5de403d3.vercel.app`.
+  - Vercel inspect confirmed aliases include `https://www.epickor.com`, `https://epickor.com`, and the production Vercel aliases.
+- Current status:
+  - Blogs `257`-`260` are live and verified on `www.epickor.com`.
+  - Existing unrelated Reels/card-news dirty worktree changes remain untouched.
+  - Unused local candidate images remain untracked and were not committed:
+    - `public/assets/images/posts/258/korean-seafood-market-display.jpg`
+    - `public/assets/images/posts/259/strawberry-shaved-ice-cafe.jpg`
+    - `public/assets/images/posts/260/steamed-rice-cooker-bowl.jpg`
+- Next recommended work:
+  1. Priority 1: Add inbound internal links from older airport, Seoul food, dessert, and Korean home/kitchen posts into `257`-`260`. Reason: all four are now public-verified and can benefit from crawl/session support. Dependency: identify 2-4 older posts per new article.
+  2. Priority 2: Start a 3-carousel card-news batch from the most visual new posts: `257`, `258`, and `259`. Reason: airport layover, fish market, and bingsu have strong save/share value and image clarity. Dependency: card-news photo uniqueness checks against existing carousel scripts.
+  3. Priority 3: Prepare one future Reel candidate from the new batch, with `257` or `258` as the safest first choice. Reason: both have clear travel/food decision hooks and public-verified URLs. Dependency: representative review of the newly published post direction before Reels production.
+- Agents involved:
+  - Strategy Agent: audited duplicates and selected the four-topic batch around airport layover, Noryangjin, bingsu, and rice cookers.
+  - Research Agent: checked current/source context and image candidates from Pexels, Commons, official CUCKOO, and official/source pages.
+  - Visual Agent: sourced, inspected, rejected weak candidates, and documented image sources.
+  - Writer Agent: wrote and revised posts `257`-`260` with tables, FAQs, source sections, internal links, and affiliate CTAs.
+  - Reviewer Agent: ran word/meta/image/link checks, SEO/AEO audit, build, local rendered HTML/image checks, and manual image-fit review.
+  - Publisher Agent: committed, pushed, verified Vercel Ready status, inspected aliases, and verified public URLs plus image assets.
+
 ## Latest Update - 2026-07-01 Blog 255 Image Correction Published
 
 - Representative confirmed Blogs `254` and `256`, but rejected Blog `255` images because a department-store basement food hall article was showing outdoor market/street images.
