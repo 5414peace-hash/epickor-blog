@@ -21,10 +21,18 @@
   }
 }
 
+html {
+  max-width: 100%;
+  overflow-x: hidden !important;
+}
+
 body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  max-width: 100%;
+  overflow-x: hidden !important;
 }
 
 /* Blog Content Styles */
@@ -220,7 +228,11 @@ body {
 /* Structured Tables */
 .blog-content .table-scroll {
   width: 100%;
+  max-width: 100%;
   overflow-x: auto;
+  overflow-y: hidden;
+  -webkit-overflow-scrolling: touch;
+  overscroll-behavior-x: contain;
   margin: 2rem 0 2.5rem 0 !important;
   border: 1px solid #e5e7eb;
   border-radius: 0.75rem;
@@ -229,9 +241,10 @@ body {
 
 .blog-content table {
   width: 100%;
-  min-width: 560px;
+  min-width: 640px;
   border-collapse: collapse;
   background: #ffffff;
+  table-layout: auto;
 }
 
 .blog-content th {
@@ -259,6 +272,36 @@ body {
 
 .blog-content tbody tr:last-child td {
   border-bottom: 0;
+}
+
+@media (max-width: 640px) {
+  .blog-content .table-scroll {
+    width: 100vw;
+    max-width: 100vw;
+    margin-left: calc(50% - 50vw) !important;
+    margin-right: calc(50% - 50vw) !important;
+    border-left: 0;
+    border-right: 0;
+    border-radius: 0;
+    box-shadow: none;
+  }
+
+  .blog-content .table-scroll > table {
+    width: max-content;
+    min-width: 680px;
+    max-width: none;
+  }
+
+  .blog-content th,
+  .blog-content td {
+    min-width: 8.5rem;
+    max-width: 17rem;
+    padding: 0.75rem 0.85rem !important;
+    font-size: 0.86rem !important;
+    line-height: 1.45 !important;
+    overflow-wrap: anywhere;
+    word-break: normal;
+  }
 }
 
 /* ========================================

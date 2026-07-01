@@ -4,11 +4,12 @@ Post: `content/blog/257.md`
 
 ## Used Images
 
-- `incheon-airport-terminal-escalators.jpg`
-  - Source: Pexels photo `31649603`
-  - Photographer: Theodore Nguyen
-  - URL: `https://www.pexels.com/photo/spacious-interior-view-of-seoul-incheon-airport-showcasing-escalators-and-tourist-center-31649603/`
-  - Description: Real Incheon Airport interior with tourist center signage and escalators. Used as the hero.
+- `incheon-airport-terminal-lounge-seating.jpg`
+  - Source: Islands / Shutterstock-sourced article image
+  - Source page: `https://www.islands.com/1883744/incheon-international-airport-most-comfortable-in-world-lavish-south-korean-gem-amenities-unwind-relax/`
+  - Image URL: `https://www.islands.com/img/gallery/the-most-comfortable-airport-in-the-world-is-a-lavish-south-korean-gem-with-several-incredible-amenities/intro-1749657264.jpg`
+  - Credit: MDV Edwards / Shutterstock, as credited by Islands.
+  - Description: Incheon Airport terminal seating/rest area under the curved ceiling. Used as the new hero after representative feedback that the prior first image felt overused.
 
 - `incheon-airport-terminal-departure.jpg`
   - Source: Wikimedia Commons
@@ -33,6 +34,6 @@ Post: `content/blog/257.md`
 ## Visual Review Notes
 
 - Real photo ratio: 4/4.
-- Direct topic fit: 4/4; all images show Incheon Airport or airport-rail routing.
+- Direct topic fit: 4/4; all used images show Incheon Airport or airport-rail routing.
+- Replaced after review: `incheon-airport-terminal-escalators.jpg` was removed from the article's active image set because the representative flagged the first image as overused.
 - Risk: Facility details can change; article avoids fixed claims about shower/nap/paid lounge availability and points readers to official confirmation before relying on one amenity.
-
