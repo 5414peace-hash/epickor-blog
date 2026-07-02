@@ -43,6 +43,104 @@ function splitCaption(text) {
 }
 
 const captionBeatOverridesBySlug = {
+  258: {
+    1: [
+      'At Noryangjin, the fish\nis not the whole bill.',
+    ],
+    2: [
+      'You buy seafood\ndownstairs,',
+      'then pay an upstairs\nrestaurant to prepare it.',
+    ],
+    3: [
+      'That second step is where\nfirst-timers get surprised.',
+    ],
+    4: [
+      'Before you say yes,\nask the fish price',
+      'and the cooking fee\nseparately.',
+    ],
+    5: [
+      'Use the simple check:',
+      'seafood price,\nprep fee,',
+      'table charge,\nspicy level,',
+      'and cash or card.',
+    ],
+    6: [
+      'Start with one\nmain seafood.',
+      'If live octopus\nmakes you nervous,',
+      'skip it. There is\nplenty else.',
+    ],
+    7: [
+      'Save this\nbefore Noryangjin.',
+      'More Seoul food guides\nat EpicKor.com.',
+    ],
+  },
+  259: {
+    1: [
+      'Bingsu is\nnot one dessert.',
+      'That is the first\nordering mistake.',
+    ],
+    2: [
+      'Classic patbingsu\nis red beans,',
+      'shaved ice,\nand chewy tteok.',
+      'It is calmer\nthan it looks.',
+    ],
+    3: [
+      'Modern bingsu can\nbe mango, melon,',
+      'milk ice,\nor whatever the cafe',
+      'wants to show off.',
+    ],
+    4: [
+      'The real choice\nis texture:',
+      'light ice,\ncreamy milk ice,',
+      'or toppings so heavy\nthey bury the bowl.',
+    ],
+    5: [
+      'Use the first\nbowl rule:',
+      'classic, fruit,\nmilk ice,',
+      'share size, then add\ncoffee if needed.',
+    ],
+    6: [
+      'In Korea, bingsu\nis usually shared.',
+      'Pick one bowl\nfor the table,',
+      'then balance it\nwith coffee.',
+    ],
+    7: [
+      'Save this before\na Seoul dessert stop.',
+      'More Korean food guides\nat EpicKor.com.',
+    ],
+  },
+  260: {
+    1: [
+      'Koreans do not pick\na rice cooker',
+      'like a cheap gadget.',
+    ],
+    2: [
+      'The mistake is buying\nby price first,',
+      'before you know\nhow you eat rice.',
+    ],
+    3: [
+      'Pressure cookers make\nstickier rice',
+      'and handle mixed grains\nbetter.',
+      'Basic cookers\nare simpler.',
+    ],
+    4: [
+      'Size matters. Too big\ncan dry out leftovers,',
+      'and too small makes\nbatch cooking annoying.',
+    ],
+    5: [
+      'Check five things:\nhousehold size,',
+      'pressure type, mixed grains,\nkeep-warm, and cleaning.',
+    ],
+    6: [
+      'If you eat Korean\nmeals often,',
+      'the cooker becomes\na daily appliance,',
+      'not a once-a-week pot.',
+    ],
+    7: [
+      'Save this before\ncomparing Cuckoo or Cuchen.',
+      'More Korean home guides\nat EpicKor.com.',
+    ],
+  },
   225: {
     1: [
       'In Korea, the fastest ride\nis not always the best route.',

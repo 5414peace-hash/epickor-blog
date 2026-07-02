@@ -1,5 +1,80 @@
 # HANDOFF - EpicKor Agent Teams v2
 
+## Latest Update - 2026-07-02 Reels 258/259/260 Batch Candidates Ready
+
+- Representative selected the prior recommendations `2, 3, 4` for the next multi-Reel goal:
+  - Blog `258`: Noryangjin Fish Market / `https://www.epickor.com/blog/258`
+  - Blog `260`: Korean rice cooker / `https://www.epickor.com/blog/260`
+  - Blog `259`: Korean bingsu / `https://www.epickor.com/blog/259`
+- Production standards requested and applied:
+  - Reference recent final quality level from Reels `198`, `191`, and the current `225/228/229` pipeline.
+  - High-relevance visuals, duplicate review, stronger thumbnails, tight typography, narration captions capped at two lines, and exactly one motion-card insert per Reel.
+- Created/updated Reel working files under `output/reels/{258,259,260}/`:
+  - `strategy.md`
+  - `script.md`
+  - `scenes.json`
+  - `visual-candidates.json`
+  - `approved-visuals.json`
+  - `motion-cards.json`
+  - `image-sources.md`
+  - `duplicate-audit.json`
+  - `review.md`
+  - scene-level narration files under `voice/`
+- Visual sourcing and review:
+  - Used source-post images first, vertical derivatives where useful, and generated EpicKor support images only where direct scene fit improved.
+  - Added fresh generated/derived assets under ignored local `public/assets/reels/{258,259,260}/`.
+  - Replaced weak v002 visual choices before final candidate selection:
+    - Reel `259` Scene 6 changed from a mango-bingsu table image that looked too similar to Scene 1 into `shared-injeolmi-redbean-bingsu-table.png`, which clearly shows a shared bingsu bowl with multiple spoons.
+    - Reel `260` Scene 4 changed from a gas-stove kitchen crop into `rice-cooker-size-choice-counter.png`, which directly communicates compact vs oversized rice-cooker choice.
+  - Manual review of final scene grids passed for thumbnail readability, image relevance, no obvious visual duplication, caption placement, and motion-card density:
+    - `output/reels/258/evaluation/scene-grid-v002.jpg`
+    - `output/reels/259/evaluation/scene-grid-v003.jpg`
+    - `output/reels/260/evaluation/scene-grid-v003.jpg`
+- Audio, captions, and motion cards:
+  - Generated 21 scene-level TTS files total using `v001` audio naming.
+  - Added slug-specific caption beat overrides for `258`, `259`, and `260` in `.claude/skills/reels/scripts/build-remotion-props.mjs`.
+  - `npm.cmd run reels:validate -- --slug {258,259,260} --require-scene-audio` passed after caption refinements.
+  - Each Reel has exactly one approved motion card:
+    - `258`: `ASK BEFORE YES`
+    - `259`: `FIRST BOWL RULE`
+    - `260`: `BUY BY HABIT`
+- Dashboard and duplicate gates:
+  - `node .claude/skills/reels/scripts/review-dashboard-gate.mjs --slug {258,259,260} --min-photo-candidates 3 --min-important-candidates 3` passed for all three.
+  - Final selected-image duplicate audit passed for all three:
+    - duplicate selected paths: `0`
+    - duplicate selected hashes: `0`
+- Final candidate renders for representative watch/listen review:
+  - Reel `258`: `output/reels/258/render/epickor-reel-258-v002.mp4`
+    - Size: `19.8 MB`
+    - Duration: `27.0s`
+    - Evaluation: `output/reels/258/evaluation/evaluation-v002.md`
+  - Reel `259`: `output/reels/259/render/epickor-reel-259-v003.mp4`
+    - Size: `27.4 MB`
+    - Duration: `33.6s`
+    - Evaluation: `output/reels/259/evaluation/evaluation-v003.md`
+  - Reel `260`: `output/reels/260/render/epickor-reel-260-v003.mp4`
+    - Size: `16.6 MB`
+    - Duration: `30.2s`
+    - Evaluation: `output/reels/260/evaluation/evaluation-v003.md`
+- Current status:
+  - Three-Reel candidate batch is ready for representative watch/listen review.
+  - Not yet marked representative-confirmed final and not yet scheduled/uploaded.
+  - No production blocker remains, except representative playback approval and any requested last-mile revisions.
+  - Note: final cuts are compact. If representative wants the older 35-45 second length target strictly applied, extend narration/scripts before final confirmation.
+- Worktree note:
+  - Tracked code change remains in `.claude/skills/reels/scripts/build-remotion-props.mjs` for the new caption beat overrides.
+  - Render assets and generated Reel support images are intentionally ignored by git via `/public/assets/reels/` and existing output ignores.
+- Next recommended work:
+  1. Representative should watch/listen to `258 v002`, `259 v003`, and `260 v003` once as a batch.
+  2. If approved, mark the three Reels as representative-confirmed final and schedule them together for the Friday/Saturday/Sunday rhythm.
+  3. If revisions are requested, prioritize thumbnail/caption feel first, then duration extension only if the compact pacing feels too rushed.
+- Agents involved:
+  - Strategy Agent: translated the selected 2/3/4 topics into a three-Reel batch direction.
+  - Visual/Research Agent: selected source images, generated support visuals, prepared vertical derivatives, and ran duplicate checks.
+  - Voice Agent: generated scene-level narration audio.
+  - Motion/Render Agent: prepared assets, built props, rendered v001/v002/v003 candidates, and generated evaluation sheets.
+  - Reviewer Agent: ran dashboard gates, render readiness validation, duplicate audits, and manual scene-grid inspection.
+
 ## Latest Update - 2026-07-02 Card News Scheduled, Worktree Cleaned, Next Reels Batch Prepared
 
 - Representative clarified the card-news state:
