@@ -79,12 +79,6 @@ function cameraMotionStyle(image: ReelImage, scene: ReelScene, localFrame: numbe
     return { transform: `scale(${interpolate(eased, [0, 1], [1.18 * scaleBoost, 1.13 * scaleBoost])}) translateX(-12.5%)` };
   }
 
-  if (move === 'right_to_left_scan') {
-    return {
-      transform: `scale(${interpolate(eased, [0, 1], [1.46 * scaleBoost, 1.3 * scaleBoost])}) translateX(${interpolate(eased, [0, 1], [-22, -12])}%)`,
-    };
-  }
-
   if (move === 'slow_zoom_out') {
     return { transform: `scale(${interpolate(eased, [0, 1], [1.13 * scaleBoost, 1.04 * scaleBoost])})` };
   }

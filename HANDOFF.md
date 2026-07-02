@@ -1,5 +1,45 @@
 # HANDOFF - EpicKor Agent Teams v2
 
+## Latest Update - 2026-07-02 Reel 258 Scene 6 Image Replacement Complete
+
+- Representative rejected the previous Reel `258` Scene 6 framing attempts and requested replacing the reference image entirely.
+- Completed replacement:
+  - Generated a new photo-style EpicKor support visual for the live-octopus/sannakji moment:
+    - Source asset: `public/assets/reels/258/generated/korean-seafood-market-live-octopus-clear.png`
+    - Prepared render asset: `public/assets/reels/258/scene-06-rank-01.png`
+  - Updated Reel `258` Scene 6 references in:
+    - `output/reels/258/approved-visuals.json`
+    - `output/reels/258/scenes.json`
+    - `output/reels/258/visual-candidates.json`
+    - `output/reels/258/image-sources.md`
+    - `output/reels/258/asset-manifest.json`
+  - Removed the previous `right_to_left_scan` override from the Remotion props builder and removed the now-unused camera move from `remotion/ReelComposition.tsx` and `remotion/types.ts`. Scene 6 now uses the new image with the normal `slow_zoom_out` motion.
+- New candidate render:
+  - Reel `258`: `output/reels/258/render/epickor-reel-258-v007.mp4`
+- Validation and review:
+  - `npm.cmd run reels:prepare-assets -- --slug 258` passed.
+  - `npm.cmd run reels:props -- --slug 258 --audio-version v001` passed.
+  - `npm.cmd run reels:validate -- --slug 258 --require-scene-audio` passed.
+  - `npx.cmd tsc --noEmit --pretty false` passed.
+  - `npm.cmd run reels:render -- --slug 258 --audio-version v001 --version v007` completed.
+  - `npm.cmd run reels:evaluate -- --slug 258 --render output\reels\258\render\epickor-reel-258-v007.mp4 --version v007` completed.
+  - Duplicate audit updated at `output/reels/258/duplicate-audit.json`; no duplicate selected paths or duplicate selected hashes.
+  - Manual visual review checked:
+    - `.tmp/reels-revisions-258-259-260/review-frames/258-v007-scene6-16_90.jpg`
+    - `.tmp/reels-revisions-258-259-260/review-frames/258-v007-scene6-18_30.jpg`
+    - `.tmp/reels-revisions-258-259-260/review-frames/258-v007-scene6-20_40.jpg`
+    - `output/reels/258/evaluation/scene-grid-v007.jpg`
+  - Result: the live octopus is now central, large, and clearly visible from the start through the end of Scene 6; caption does not hide the subject.
+- Current status:
+  - Reel `258` v007 is ready for representative confirmation.
+  - Reels `259` and `260` remain representative-confirmed at v005.
+  - The three-Reel scheduling batch should wait only for Reel `258` v007 confirmation.
+- Agents involved:
+  - Visual Agent: generated and selected the replacement live-octopus market visual.
+  - Motion/Render Agent: removed the previous camera-move workaround, rebuilt props, and rendered v007.
+  - Reviewer Agent: reran validation/evaluation, duplicate audit, and manually inspected Scene 6 frames plus the scene grid.
+  - Coordinator Agent: recorded that `259`/`260` remain confirmed while `258` awaits v007 confirmation.
+
 ## Latest Update - 2026-07-02 Reels 258/259/260 Final Confirmation Split
 
 - Representative confirmed:
