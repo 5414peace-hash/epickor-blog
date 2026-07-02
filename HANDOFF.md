@@ -1,5 +1,41 @@
 # HANDOFF - EpicKor Agent Teams v2
 
+## Latest Update - 2026-07-02 Reels 258/259/260 Second Representative Revision Pass Complete
+
+- Representative requested three additional fixes after reviewing the previous revision renders:
+  - Reel `260`: `Cuchen` was being pronounced like "koo-koon"; it must be pronounced like "koo-chen" / Korean "Cuchen".
+  - Reel `259`: `tteok` was still not acceptable; use the pronunciation cue `thug`. Also make the final `epickor.com` read with a falling ending, not an upward ending.
+  - Reel `258`: in the attached fish-tank frame, the live-octopus/sannakji visual needed to move farther left into the frame.
+- Completed fixes:
+  - Reel `259` Scene 2 voice source changed to `chewy thug` and TTS regenerated over `narration-v001-scene-02.mp3`; visible caption remains `tteok`.
+  - Reel `259` Scene 7 voice source changed to `EpicKor dot com` and TTS regenerated over `narration-v001-scene-07.mp3` to reduce upward domain-ending behavior.
+  - Reel `260` Scene 7 voice source changed to `koo-chen` and TTS regenerated over `narration-v001-scene-07.mp3`; visible caption remains `Cuchen`.
+  - Reel `258` `anchor_right` camera move strengthened in `remotion/ReelComposition.tsx` to scale and shift the selected scene image farther left without leaving a loose edge.
+- New revision renders:
+  - Reel `258`: `output/reels/258/render/epickor-reel-258-v005.mp4`
+  - Reel `259`: `output/reels/259/render/epickor-reel-259-v005.mp4`
+  - Reel `260`: `output/reels/260/render/epickor-reel-260-v005.mp4`
+- Validation and review:
+  - `npm.cmd run reels:props -- --slug {258,259,260} --audio-version v001` passed.
+  - `npm.cmd run reels:validate -- --slug {258,259,260} --require-scene-audio` passed before the new renders.
+  - After the final 258 camera adjustment, `npm.cmd run reels:validate -- --slug 258 --require-scene-audio` passed again.
+  - `npx.cmd tsc --noEmit --pretty false` passed.
+  - Evaluation packets regenerated:
+    - `output/reels/258/evaluation/evaluation-v005.md`
+    - `output/reels/259/evaluation/evaluation-v005.md`
+    - `output/reels/260/evaluation/evaluation-v005.md`
+  - Manual frame review:
+    - `258` checked at `00:17.20` and `00:18.30`; sannakji is farther inside the frame than v004.
+    - `259` scene grid checked; visual layout unchanged and the motion-card caption remains clear.
+    - `260` scene grid checked; visual layout unchanged and the Korean rice-meal/table replacement remains in place.
+- Current status:
+  - Second revision candidates are ready for representative watch/listen review.
+  - Final pronunciation still requires representative ear-check because the TTS engine output cannot be auditioned directly inside this text-only handoff.
+- Agents involved:
+  - Voice Agent: regenerated targeted TTS for `259` Scene 2, `259` Scene 7, and `260` Scene 7.
+  - Motion/Render Agent: strengthened `258` camera framing and rendered new MP4s.
+  - Reviewer Agent: reran validation/evaluation and inspected requested frames/grids.
+
 ## Latest Update - 2026-07-02 Reels 258/259/260 Representative Revision Pass Complete
 
 - Representative requested last-mile revisions for the current Reel batch:

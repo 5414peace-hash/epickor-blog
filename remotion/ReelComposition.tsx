@@ -76,7 +76,7 @@ function cameraMotionStyle(image: ReelImage, scene: ReelScene, localFrame: numbe
   }
 
   if (move === 'anchor_right') {
-    return { transform: `scale(${interpolate(eased, [0, 1], [1.06 * scaleBoost, 1.035 * scaleBoost])}) translateX(-3.8%)` };
+    return { transform: `scale(${interpolate(eased, [0, 1], [1.18 * scaleBoost, 1.13 * scaleBoost])}) translateX(-12.5%)` };
   }
 
   if (move === 'slow_zoom_out') {
