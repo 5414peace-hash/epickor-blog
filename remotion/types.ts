@@ -7,7 +7,7 @@ export interface ReelImage {
   height?: number;
   aspectRatio?: number;
   fitMode?: 'cover' | 'contain_frame' | 'framed_16_9';
-  cameraMove?: 'slow_push_in' | 'slow_zoom_out' | 'pan_left' | 'pan_right' | 'pan_up' | 'pan_down' | 'drift_left' | 'drift_right' | 'drift_up' | 'drift_down';
+  cameraMove?: 'slow_push_in' | 'slow_zoom_out' | 'pan_left' | 'pan_right' | 'pan_up' | 'pan_down' | 'drift_left' | 'drift_right' | 'drift_up' | 'drift_down' | 'anchor_right';
 }
 
 export interface ReelTypographyBeat {

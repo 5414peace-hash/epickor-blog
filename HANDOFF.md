@@ -1,5 +1,47 @@
 # HANDOFF - EpicKor Agent Teams v2
 
+## Latest Update - 2026-07-02 Reels 258/259/260 Representative Revision Pass Complete
+
+- Representative requested last-mile revisions for the current Reel batch:
+  - Reel `258`: during "Start with one main seafood", shift the image framing farther right so the live octopus/sannakji is visible.
+  - Reel `259`: fix TTS pronunciation of `tteok` so it is spoken as Korean `떡`; move the motion-card spoken caption lower because it overlapped the final card text.
+  - Reel `260`: replace the "Pressure cookers..." scene image with a Korean rice meal table; move the motion-card spoken caption lower because it overlapped the final card text.
+- Completed revisions:
+  - Added an `anchor_right` image camera move in Remotion and applied it to Reel `258` Scene 6 via `.claude/skills/reels/scripts/build-remotion-props.mjs`.
+  - Regenerated Reel `259` Scene 2 TTS from `output/reels/259/voice/scene-02.txt` using Korean `떡` in the voice source while keeping the visible English caption as `tteok`.
+  - Backed up the previous Reel `259` Scene 2 audio as:
+    - `output/reels/259/audio/narration-v001-scene-02-before-tteok-fix.mp3`
+    - `public/assets/reels/259/audio/narration-v001-scene-02-before-tteok-fix.mp3`
+  - Generated and inserted a new Korean rice meal table image for Reel `260` Scene 3:
+    - `/assets/reels/260/generated/korean-rice-meal-table-pressure-texture.png`
+  - Added scene-specific lowered caption placement for the compact `menu_board` motion cards in Reel `259` Scene 5 and Reel `260` Scene 5.
+- Validation and render results:
+  - `npm.cmd run reels:prepare-assets -- --slug 260` passed.
+  - `npm.cmd run reels:props -- --slug {258,259,260} --audio-version v001` passed.
+  - `npm.cmd run reels:validate -- --slug {258,259,260} --require-scene-audio` passed.
+  - `npx.cmd tsc --noEmit --pretty false` passed.
+  - New revision renders:
+    - Reel `258`: `output/reels/258/render/epickor-reel-258-v003.mp4`
+    - Reel `259`: `output/reels/259/render/epickor-reel-259-v004.mp4`
+    - Reel `260`: `output/reels/260/render/epickor-reel-260-v004.mp4`
+  - Evaluation packets regenerated:
+    - `output/reels/258/evaluation/evaluation-v003.md`
+    - `output/reels/259/evaluation/evaluation-v004.md`
+    - `output/reels/260/evaluation/evaluation-v004.md`
+- Manual visual review:
+  - Reel `258` Scene 6 frame checked at `00:17.20` and `00:18.30`; the right-side live octopus/sannakji tentacle is visible during the requested line.
+  - Reel `259` Scene 5 frame checked at `00:18.20`; lowered spoken caption clears the motion-card footer and final text area.
+  - Reel `260` Scene 3 frame checked at `00:07.20`; image now shows a Korean rice meal table with white rice, mixed-grain rice, banchan, and a rice cooker context.
+  - Reel `260` Scene 5 grid checked; lowered spoken caption clears the motion-card final text area.
+- Current status:
+  - Revision candidates are ready for representative watch/listen review.
+  - Not yet marked representative-confirmed final and not yet scheduled/uploaded after this revision pass.
+- Agents involved:
+  - Voice Agent: adjusted and regenerated Reel `259` TTS source/audio for the `tteok` pronunciation issue.
+  - Visual Agent: generated and inserted the Reel `260` Korean rice meal table replacement image.
+  - Motion/Render Agent: added right-anchor camera framing and lowered compact motion-card captions, rebuilt props, and rendered new MP4s.
+  - Reviewer Agent: ran validation/evaluation scripts and manually inspected the requested frames.
+
 ## Latest Update - 2026-07-02 Reels 258/259/260 Batch Candidates Ready
 
 - Representative selected the prior recommendations `2, 3, 4` for the next multi-Reel goal:

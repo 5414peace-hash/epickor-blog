@@ -75,6 +75,10 @@ function cameraMotionStyle(image: ReelImage, scene: ReelScene, localFrame: numbe
     return { transform: `translateY(${interpolate(eased, [0, 1], [-18, 18])}px) scale(${interpolate(eased, [0, 1], [0.988, 1.01])})` };
   }
 
+  if (move === 'anchor_right') {
+    return { transform: `scale(${interpolate(eased, [0, 1], [1.06 * scaleBoost, 1.035 * scaleBoost])}) translateX(-3.8%)` };
+  }
+
   if (move === 'slow_zoom_out') {
     return { transform: `scale(${interpolate(eased, [0, 1], [1.13 * scaleBoost, 1.04 * scaleBoost])})` };
   }
@@ -243,6 +247,9 @@ function CaptionLayer({ scene, compact = false, placement = 'default' }: { scene
   const isMotionPlaced = compact && ['motionRoute', 'motionStamp', 'motionReceipt', 'motionTabs', 'motionEditorial', 'motionChecklist', 'motionMenu', 'motionLowerBand', 'motionDefault'].includes(placement);
   const isTopPlaced = isIntro || isRadialCard || isMotionPlaced;
   const isStationFirstMotionCaption = compact && placement === 'motionMenu' && /Pick by station first/i.test(scene.narration);
+  const isLoweredMenuBoardCaption = compact
+    && placement === 'motionMenu'
+    && (/Use the first bowl rule/i.test(scene.narration) || /Check five things/i.test(scene.narration));
   const captionLeadFrames = scene.captionLeadFrames ?? 6;
   const ledFrame = Math.min(scene.durationFrames - 1, localFrame + captionLeadFrames);
   const beatStarts = scene.captionBeatStartFrames?.length === scene.captionBeats.length
@@ -298,6 +305,14 @@ function CaptionLayer({ scene, compact = false, placement = 'default' }: { scene
       ? {
           justifyContent: 'flex-end' as CSSProperties['justifyContent'],
           padding: '0 72px 214px',
+          maxWidth: 900,
+          fontSize: 44,
+          lineHeight: 1.14,
+        }
+      : isLoweredMenuBoardCaption
+      ? {
+          justifyContent: 'flex-end' as CSSProperties['justifyContent'],
+          padding: '0 72px 180px',
           maxWidth: 900,
           fontSize: 44,
           lineHeight: 1.14,

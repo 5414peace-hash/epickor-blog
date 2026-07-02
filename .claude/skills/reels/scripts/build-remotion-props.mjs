@@ -1813,6 +1813,11 @@ function imageFitModeFor(slug, sceneNumber, asset) {
 
 function imageCameraMoveFor(slug, sceneNumber, rank) {
   const moves = {
+    258: {
+      6: {
+        1: 'anchor_right',
+      },
+    },
     225: {
       1: {
         1: 'pan_right',
