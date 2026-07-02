@@ -1,5 +1,33 @@
 # HANDOFF - EpicKor Agent Teams v2
 
+## Latest Update - 2026-07-02 Reels 258/259/260 Final Upload Packages Created
+
+- Clarified folder meaning after representative asked about `output/final/reels`:
+  - `output/reels/{slug}/render/` is the working/versioned render folder for candidates such as `epickor-reel-258-v007.mp4`.
+  - `output/final/reels/{slug}/` is the authoritative completed-Reels upload package folder.
+  - `output/final/*.md` remains the final-blog-article area; `output/final/reels/` is the Reels final archive/upload-package subfolder.
+- Created final upload packages for the confirmed batch:
+  - `output/final/reels/258/EPICKOR_258.mp4`
+  - `output/final/reels/258/instagram-caption.txt`
+  - `output/final/reels/258/upload-package.md`
+  - `output/final/reels/259/EPICKOR_259.mp4`
+  - `output/final/reels/259/instagram-caption.txt`
+  - `output/final/reels/259/upload-package.md`
+  - `output/final/reels/260/EPICKOR_260.mp4`
+  - `output/final/reels/260/instagram-caption.txt`
+  - `output/final/reels/260/upload-package.md`
+- Source renders preserved:
+  - Reel `258`: `output/reels/258/render/epickor-reel-258-v007.mp4`
+  - Reel `259`: `output/reels/259/render/epickor-reel-259-v005.mp4`
+  - Reel `260`: `output/reels/260/render/epickor-reel-260-v005.mp4`
+- Current status:
+  - Reels `258`, `259`, and `260` are representative-confirmed and upload-package-ready.
+  - Use `output/final/reels/{258,259,260}/` for scheduling/upload, not the working `output/reels/*/render/` paths.
+  - They have not yet been recorded as actually uploaded/scheduled.
+- Agents involved:
+  - Publisher/Coordinator Agent: copied confirmed MP4s into final upload-package folders, added captions, and added upload-package notes.
+  - Reviewer Agent: verified package file presence and sizes.
+
 ## Latest Update - 2026-07-02 Reels 258/259/260 Representative Confirmation Complete
 
 - Representative confirmed Reel `258` after the v007 Scene 6 image replacement.
