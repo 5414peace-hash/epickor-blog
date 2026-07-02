@@ -1,5 +1,24 @@
 # HANDOFF - EpicKor Agent Teams v2
 
+## Latest Update - 2026-07-02 Reels 258/259/260 Representative Confirmation Complete
+
+- Representative confirmed Reel `258` after the v007 Scene 6 image replacement.
+- Final confirmed Reel files:
+  - Reel `258`: `output/reels/258/render/epickor-reel-258-v007.mp4`
+  - Reel `259`: `output/reels/259/render/epickor-reel-259-v005.mp4`
+  - Reel `260`: `output/reels/260/render/epickor-reel-260-v005.mp4`
+- Local review notes updated:
+  - `output/reels/258/review.md`
+  - `output/reels/259/review.md`
+  - `output/reels/260/review.md`
+- Current status:
+  - Reels `258`, `259`, and `260` are all representative-confirmed final candidates.
+  - They are ready to package as the next Friday/Saturday/Sunday Reels scheduling batch.
+  - They have not yet been recorded as uploaded/scheduled in this handoff.
+- Agents involved:
+  - Reviewer Agent: recorded final representative approval status across all three Reels.
+  - Coordinator Agent: moved the batch from revision/confirmation state to scheduling-ready state.
+
 ## Latest Update - 2026-07-02 Reel 258 Scene 6 Image Replacement Complete
 
 - Representative rejected the previous Reel `258` Scene 6 framing attempts and requested replacing the reference image entirely.
