@@ -14,6 +14,7 @@
     "reels:dashboard-gate": "node .claude/skills/reels/scripts/review-dashboard-gate.mjs",
     "reels:validate": "node .claude/skills/reels/scripts/validate-render-readiness.mjs",
     "reels:render": "node .claude/skills/reels/scripts/render-reel.mjs",
+    "reels:finalize": "node .claude/skills/reels/scripts/finalize-reel-package.mjs",
     "reels:evaluate": "node .claude/skills/reels/scripts/evaluate-render.mjs",
     "reels:studio:170": "remotion studio remotion/Root.tsx --props output/reels/170/remotion-props.json --port 4001 --no-open",
     "reels:render:170": "npm run reels:render -- --slug 170",

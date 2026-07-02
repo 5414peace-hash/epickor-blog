@@ -35,7 +35,14 @@ Render command target:
 npm run reels:render -- --slug {slug} --audio-version v005
 ```
 
-The render helper must keep numbered output filenames and refuse overwrites.
+The render helper writes numbered candidate files to `output/final/reels/{slug}/`, such as `EPICKOR_{slug}_01.mp4`, and refuses overwrites.
+After representative confirmation, run:
+
+```bash
+npm run reels:finalize -- --slug {slug} --candidate 01
+```
+
+Finalization leaves `output/final/reels/{slug}/EPICKOR_{slug}.mp4` plus package notes/caption, then removes numbered candidate MP4 files.
 It should pass `--public-dir public/assets/reels/{slug}` so Remotion copies only the current Reel assets instead of the full site `public/` directory.
 
 Do not render final video until every scene has one approved visual candidate.

@@ -1,5 +1,42 @@
 # HANDOFF - EpicKor Agent Teams v2
 
+## Latest Update - 2026-07-02 Reels Render Folder Cleanup And New Final Workflow
+
+- Representative requested cleanup of existing `output/reels/*/render` folders and a simpler future workflow:
+  - Do not keep producing upload candidates under `output/reels/{slug}/render/`.
+  - Produce numbered candidates directly under `output/final/reels/{slug}/`, such as `EPICKOR_{slug}_01.mp4`, `EPICKOR_{slug}_02.mp4`, and `EPICKOR_{slug}_03.mp4`.
+  - After representative final confirmation, keep only `EPICKOR_{slug}.mp4` and remove numbered candidate MP4s.
+- Completed cleanup:
+  - Deleted 17 legacy render directories under `output/reels/*/render`.
+  - Removed 71 render files totaling about 1.66 GB.
+  - Verified no `output/reels/*/render` directories remain.
+  - Verified current final package folders for Reels `258`, `259`, and `260` still contain only:
+    - `EPICKOR_{slug}.mp4`
+    - `instagram-caption.txt`
+    - `upload-package.md`
+- Pipeline changes:
+  - Updated `.claude/skills/reels/scripts/render-reel.mjs` so `npm run reels:render -- --slug {slug}` writes numbered candidates to `output/final/reels/{slug}/EPICKOR_{slug}_01.mp4` and refuses overwrites.
+  - Added `.claude/skills/reels/scripts/finalize-reel-package.mjs`.
+  - Added npm script `reels:finalize`.
+  - `npm run reels:finalize -- --slug {slug} --candidate 01` promotes `EPICKOR_{slug}_01.mp4` to `EPICKOR_{slug}.mp4` and deletes remaining numbered candidate MP4s.
+  - Updated `.claude/skills/reels/scripts/evaluate-render.mjs` to find/evaluate the new `output/final/reels/{slug}` candidate/final paths, with legacy `output/reels/{slug}/render` fallback only for old records.
+  - Updated `.claude/skills/reels/scripts/remotion-plan.md` with the new candidate/finalization convention.
+- Verification:
+  - `node --check .claude\skills\reels\scripts\render-reel.mjs` passed.
+  - `node --check .claude\skills\reels\scripts\evaluate-render.mjs` passed.
+  - `node --check .claude\skills\reels\scripts\finalize-reel-package.mjs` passed.
+  - `npm.cmd run reels:render -- --slug 258 --audio-version v001 --version 01 --dry-run` produced expected output path `output\final\reels\258\EPICKOR_258_01.mp4`.
+  - `npm.cmd run reels:finalize -- --slug 258` detected the existing final file without changing it.
+  - `npm.cmd run reels:evaluate -- --slug 258 --version final` passed without any `output/reels/258/render` folder and evaluated `output/final/reels/258/EPICKOR_258.mp4`.
+- Current operating rule:
+  - `output/reels/{slug}/` remains the working metadata/audio/evaluation area.
+  - `output/final/reels/{slug}/` is where render candidates and final upload packages live.
+  - After confirmation, use `reels:finalize` and leave only the final MP4 plus caption/package notes.
+- Agents involved:
+  - Motion/Render Agent: changed render output convention and added finalization helper.
+  - Publisher/Coordinator Agent: cleaned legacy render directories and recorded the new final-package workflow.
+  - Reviewer Agent: verified cleanup, script syntax, dry-run output path, and final package presence.
+
 ## Latest Update - 2026-07-02 Reels 258/259/260 Final Upload Packages Created
 
 - Clarified folder meaning after representative asked about `output/final/reels`:

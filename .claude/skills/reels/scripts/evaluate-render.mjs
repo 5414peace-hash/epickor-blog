@@ -3,7 +3,7 @@
  * Generate a frame/second-level evaluation packet for a rendered EpicKor Reel.
  *
  * Usage:
- *   npm run reels:evaluate -- --slug 172 --render output/reels/172/render/epickor-reel-172-v003.mp4 --version v003
+ *   npm run reels:evaluate -- --slug 172 --render output/final/reels/172/EPICKOR_172_03.mp4 --version 03
  */
 
 import fs from 'node:fs';
@@ -108,19 +108,33 @@ function safeRelative(filePath) {
 }
 
 function findLatestRender(slug) {
-  const renderDir = path.join(ROOT, 'output', 'reels', slug, 'render');
-  if (!fs.existsSync(renderDir)) return null;
-  const names = fs.readdirSync(renderDir).filter((name) => name.endsWith('.mp4'));
-  const versioned = names
+  const finalDir = path.join(ROOT, 'output', 'final', 'reels', slug);
+  if (fs.existsSync(finalDir)) {
+    const names = fs.readdirSync(finalDir).filter((name) => name.endsWith('.mp4'));
+    const versioned = names
+      .map((name) => ({ name, match: name.match(new RegExp(`^EPICKOR_${slug}_(\\d{2,3})\\.mp4$`)) }))
+      .filter((item) => item.match)
+      .sort((a, b) => Number(a.match[1]) - Number(b.match[1]));
+    const selected = versioned.at(-1)?.name || names.find((name) => name === `EPICKOR_${slug}.mp4`);
+    if (selected) return path.join(finalDir, selected);
+  }
+
+  const legacyRenderDir = path.join(ROOT, 'output', 'reels', slug, 'render');
+  if (!fs.existsSync(legacyRenderDir)) return null;
+  const legacyNames = fs.readdirSync(legacyRenderDir).filter((name) => name.endsWith('.mp4'));
+  const legacyVersioned = legacyNames
     .map((name) => ({ name, match: name.match(new RegExp(`^epickor-reel-${slug}-v(\\d{3})\\.mp4$`)) }))
     .filter((item) => item.match)
     .sort((a, b) => Number(a.match[1]) - Number(b.match[1]));
-  const selected = versioned.at(-1)?.name || names.sort().at(-1);
-  return selected ? path.join(renderDir, selected) : null;
+  const legacySelected = legacyVersioned.at(-1)?.name || legacyNames.sort().at(-1);
+  return legacySelected ? path.join(legacyRenderDir, legacySelected) : null;
 }
 
 function getVersion(renderPath, fallback) {
   if (fallback) return fallback;
+  const finalCandidateMatch = path.basename(renderPath).match(/_(\d{2,3})\.mp4$/);
+  if (finalCandidateMatch) return finalCandidateMatch[1];
+  if (path.basename(renderPath).match(/^EPICKOR_[^_]+\.mp4$/)) return 'final';
   const match = path.basename(renderPath).match(/-(v\d{3})\.mp4$/);
   return match?.[1] || 'unversioned';
 }

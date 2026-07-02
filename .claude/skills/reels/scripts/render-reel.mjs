@@ -4,9 +4,12 @@
  *
  * Usage:
  *   npm run reels:render -- --slug 170 --audio-version v005
- *   npm run reels:render -- --slug 170 --version v006 --skip-props
+ *   npm run reels:render -- --slug 170 --version 02 --skip-props
  *   npm run reels:render -- --slug 170 --audio-version v005 --dry-run
  *   npm run reels:render -- --slug 170 --allow-silent
+ *
+ * Candidate renders are written to output/final/reels/{slug}/EPICKOR_{slug}_01.mp4.
+ * After representative confirmation, run reels:finalize to keep only EPICKOR_{slug}.mp4.
  */
 
 import fs from 'node:fs';
@@ -61,16 +64,25 @@ function run(command, args) {
   }
 }
 
-function nextVersion(renderDir, slug) {
-  if (!fs.existsSync(renderDir)) return 'v001';
+function normalizeCandidateLabel(value) {
+  if (!value) return null;
+  const match = String(value).trim().match(/^v?(\d+)$/i);
+  if (!match) return null;
+  const number = Number(match[1]);
+  if (!Number.isInteger(number) || number < 1) return null;
+  return number < 100 ? String(number).padStart(2, '0') : String(number).padStart(3, '0');
+}
 
-  const pattern = new RegExp(`^epickor-reel-${slug}-v(\\d{3})\\.mp4$`);
-  const versions = fs.readdirSync(renderDir)
+function nextCandidateLabel(finalDir, slug) {
+  if (!fs.existsSync(finalDir)) return '01';
+
+  const pattern = new RegExp(`^EPICKOR_${slug}_(\\d{2,3})\\.mp4$`);
+  const versions = fs.readdirSync(finalDir)
     .map((name) => name.match(pattern)?.[1])
     .filter(Boolean)
     .map((value) => Number(value));
   const next = versions.length ? Math.max(...versions) + 1 : 1;
-  return `v${String(next).padStart(3, '0')}`;
+  return next < 100 ? String(next).padStart(2, '0') : String(next).padStart(3, '0');
 }
 
 function stripSlugPublicPrefix(staticFilePath, slug) {
@@ -107,14 +119,14 @@ const dryRun = Boolean(args['dry-run']);
 const allowSilent = Boolean(args['allow-silent']);
 
 if (!slug || !/^[a-zA-Z0-9_-]+$/.test(slug)) {
-  console.error('Usage: npm run reels:render -- --slug {safe-slug} [--audio-version v005] [--version v006]');
+  console.error('Usage: npm run reels:render -- --slug {safe-slug} [--audio-version v005] [--version 02]');
   process.exit(1);
 }
 
 const reelDir = path.join(ROOT, 'output', 'reels', slug);
+const finalDir = path.join(ROOT, 'output', 'final', 'reels', slug);
 const propsPath = path.join(reelDir, 'remotion-props.json');
 const publicDir = path.join(ROOT, 'public', 'assets', 'reels', slug);
-const renderDir = path.join(reelDir, 'render');
 
 if (!skipProps) {
   const buildArgs = ['.claude/skills/reels/scripts/build-remotion-props.mjs', '--slug', slug];
@@ -132,15 +144,15 @@ if (!fs.existsSync(publicDir)) {
   process.exit(1);
 }
 
-fs.mkdirSync(renderDir, { recursive: true });
+fs.mkdirSync(finalDir, { recursive: true });
 
-const version = args.version || nextVersion(renderDir, slug);
-if (!/^v\d{3}$/.test(version)) {
-  console.error('Version must look like v006.');
+const candidateLabel = normalizeCandidateLabel(args.version) || nextCandidateLabel(finalDir, slug);
+if (!candidateLabel) {
+  console.error('Version must look like 02 or v002.');
   process.exit(1);
 }
 
-const outputPath = path.join(renderDir, `epickor-reel-${slug}-${version}.mp4`);
+const outputPath = path.join(finalDir, `EPICKOR_${slug}_${candidateLabel}.mp4`);
 if (fs.existsSync(outputPath)) {
   console.error(`Refusing to overwrite existing render: ${path.relative(ROOT, outputPath)}`);
   process.exit(1);
@@ -153,7 +165,7 @@ if (!hasRenderableAudio && !allowSilent) {
   process.exit(1);
 }
 
-const renderPropsPath = path.join(reelDir, `remotion-props-render-${version}.json`);
+const renderPropsPath = path.join(reelDir, `remotion-props-render-${candidateLabel}.json`);
 writeJson(renderPropsPath, buildRenderProps(props, slug));
 
 if (dryRun) {
@@ -178,3 +190,4 @@ run(npxCommand, [
 ]);
 
 console.log(`Saved ${path.relative(ROOT, outputPath)}`);
+console.log(`Finalize after confirmation: npm run reels:finalize -- --slug ${slug} --candidate ${candidateLabel}`);
