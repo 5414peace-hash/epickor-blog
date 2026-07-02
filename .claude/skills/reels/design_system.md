@@ -1,10 +1,12 @@
 # EpicKor Reels Design System v0.1
 
+For new Reels after 2026-06-24, also follow `.claude/skills/reels/creative_performance_standard.md`. That file controls creative gates, Reels Viral Fit Score, thumbnail variants, one-motion-card policy, voice lanes, and performance postmortems.
+
 ## Format
 
 - Canvas: 1080x1920, vertical 9:16.
-- Duration target: 30-60 seconds.
-- Scene count: 6-9 scenes for the MVP.
+- Duration target: 32-42 seconds for normal Reels; 30-60 seconds only when the representative approves a topic-specific reason.
+- Scene count: 6-7 scenes for normal Reels; 8-9 scenes only when the narration remains fast, clear, and low-load.
 - Visual count: use 2-5 ranked images per scene when the narration contains multiple visual nouns or actions.
 - Safe area: keep captions inside the central 900x1500 region when possible.
 - Brand: use small `EPICKOR.COM` text, not a large logo lockup.
@@ -19,6 +21,8 @@ The first confirmed Reels set is:
 
 New Reels should be built to this standard on the first full render:
 
+- creative brief and Reels Viral Fit Score recorded before production.
+- a thumb-stopping first second and a selected `Mystery`, `Mistake`, or `Decision` thumbnail direction.
 - scene-level final audio.
 - exact narration-matched subtitles.
 - clean intro thumbnail/title lockup with live speech captions below the title.
@@ -31,10 +35,12 @@ New Reels should be built to this standard on the first full render:
 
 ## Story Rhythm
 
-- Scene 1 must hook within 2 seconds.
+- Scene 1 must hook within 1.5 seconds.
 - Each scene should carry one idea only.
 - Avoid reading the blog summary. Reels should feel like a short argument, observation, or cultural reveal.
 - Use the blog post as source material, then rewrite for spoken pacing.
+- Every script should include one surprising detail, one outsider misconception or mistake, one practical takeaway, and one save/share reason.
+- If the opening sentence could start a blog paragraph unchanged, rewrite it before visual research.
 
 ## Visual Rules
 
@@ -74,8 +80,10 @@ New Reels should be built to this standard on the first full render:
 
 ## Motion-Card Inserts
 
-- Use motion cards sparingly. For a normal 35-45 second Reel, use exactly two inserts. Do not use three motion cards unless the representative explicitly approves a slug-specific exception and it is recorded in `HANDOFF.md`.
-- Review motion-card inserts in chronological scene order. If Scene 2 uses a motion card, the Scene 2 section should show the Scene 2 motion-card options before moving to Scene 3.
+- Use motion cards sparingly. For a normal 35-45 second Reel, use exactly one insert by default. Do not use two or more motion cards unless the representative explicitly approves a slug-specific exception and it is recorded in `HANDOFF.md`.
+- The single motion-card insert should normally appear around 60-75% of the Reel as the payoff board, checklist, receipt, decision table, mistake list, or rule card.
+- Do not use a motion card as Scene 1 unless the representative explicitly approves it; Scene 1 should normally be a photo/video-led hook and thumbnail frame.
+- Review the motion-card insert in chronological scene order. If Scene 4 uses the motion card, the Scene 4 section should show the Scene 4 motion-card options before moving to Scene 5.
 - A motion-card scene should offer multiple design options, and exactly one option should be approved for that scene.
 - Final Remotion props must include only the approved motion-card option for each scene. Pending alternatives are review UI data, not render data.
 - Intro scenes should stay clean when they are designed as thumbnail or hook frames.
@@ -92,10 +100,11 @@ New Reels should be built to this standard on the first full render:
 - `radial_burst` center lockups should not stack four single-word headline lines. Pair them into two compact lines, move words to chips, or use a different template so the center, surrounding chips, footer, and synced narration caption do not collide.
 - For consecutive Reels, the Motion Design Agent must check the last accepted Reel and intentionally vary at least two of these: layout structure, color family, shape language, information metaphor, reveal order, or density.
 - The reusable motion-card library must maintain distinct template families before future selection: `zone_compare`, `kit_grid`, `editorial_box`, `kinetic_steps`, `menu_board`, `radial_burst`, `split_checklist`, `convenience_tray`, `morning_route`, `wrapper_tabs`, `receipt_stack`, and `stamp_stack`.
-- One boxed/card-like insert is fine, but the other insert should reinterpret the content with a different visual structure:
+- The single boxed/card-like insert should reinterpret the content with a strong visual structure:
   - concept map or radial chips for explaining several meanings
   - menu/signboard for food or options
   - vertical process/checklist for etiquette, steps, or warnings
+  - receipt/checklist for packing, shopping, mistakes, or save-worthy rules
 - Food/convenience-store topics can use receipt strips, shelf labels, barcode bands, tray grids, wrapper tabs, price-tag rows, fridge-door panels, or route-map choices when those match the narration.
 - Do not make two cards that are only color variants of the same dark panel.
 - Control English line breaks explicitly with `headlineLines`, `subheadLines`, and `footerLines` when the text is shown in a fixed 9:16 card layout.
@@ -105,12 +114,16 @@ New Reels should be built to this standard on the first full render:
 
 - Narration should sound conversational, not like an article readout.
 - Do not include bracketed acting directions unless they should be spoken.
+- Choose one voice lane before TTS: `male_friend` or `female_culture_travel`.
+- For important batch openers, new topics, or a changed voice lane, generate an 8-12 second audition sample before full scene-level TTS.
+- Do not alternate male/female voices inside one short Reel unless the script is intentionally written as call-and-response and the representative approves it.
 - Use ElevenLabs after script approval.
 - Save generated audio under `output/reels/{slug}/audio/`.
 - Generate final audio per scene using `narration-{version}-scene-##.mp3` naming. Multi-scene narration files are allowed for review/reference, but final scene timing must be based on actual scene audio durations or explicit timestamps.
 
 ## Review Gate
 
+- Before dashboard or TTS work, confirm `output/reels/{slug}/strategy.md` includes the Reels Viral Fit Score, hook archetype, thumbnail direction candidates, selected voice lane, and single motion-card role.
 - The dashboard review gate comes before Remotion rendering.
 - A scene is ready for video only when one candidate is marked `approved`.
 - If any scene is `pending`, `rejected`, or `replace_needed`, final rendering is blocked.

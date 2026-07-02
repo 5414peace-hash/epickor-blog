@@ -37,6 +37,7 @@ interface Candidate {
   reviewStatus: ReviewStatus;
   reviewerNote: string;
   rank?: number | null;
+  fitMode?: 'cover' | 'contain_frame';
 }
 
 interface CandidateScene {
@@ -124,6 +125,10 @@ function getCandidateScene(payload: Payload, sceneNumber: number): CandidateScen
 
 function getMotionCards(payload: Payload, sceneNumber: number): MotionCard[] {
   return (payload.motionCards || []).filter((card) => card.sceneNumber === sceneNumber);
+}
+
+function candidateNeedsContainFrame(candidate: Candidate) {
+  return candidate.fitMode === 'contain_frame';
 }
 
 function thumbnailTitleLines(title: string, overlay?: CandidateScene['thumbnailOverlay']): string[] {
@@ -468,7 +473,9 @@ export default function ReelsReviewClient({ initialPayload }: Props) {
                       gap: 10,
                     }}
                   >
-                    {candidates.map((candidate) => (
+                    {candidates.map((candidate) => {
+                      const shouldContain = candidateNeedsContainFrame(candidate);
+                      return (
                     <article
                       key={candidate.id}
                       style={{
@@ -491,13 +498,43 @@ export default function ReelsReviewClient({ initialPayload }: Props) {
                             background: '#e7e5e4',
                           }}
                         >
+                          {shouldContain && (
+                            <img
+                              src={candidate.src}
+                              alt=""
+                              aria-hidden="true"
+                              style={{
+                                position: 'absolute',
+                                inset: 0,
+                                width: '100%',
+                                height: '100%',
+                                objectFit: 'cover',
+                                filter: 'blur(12px)',
+                                transform: 'scale(1.12)',
+                                opacity: 0.42,
+                              }}
+                            />
+                          )}
+                          {shouldContain && (
+                            <div
+                              style={{
+                                position: 'absolute',
+                                inset: 0,
+                                background: 'linear-gradient(180deg, rgba(15,23,42,0.2), rgba(15,23,42,0.46))',
+                              }}
+                            />
+                          )}
                           <img
                             src={candidate.src}
                             alt={`${candidate.id} candidate`}
                             style={{
+                              position: shouldContain ? 'absolute' : undefined,
+                              inset: shouldContain ? 0 : undefined,
                               width: '100%',
                               height: '100%',
-                              objectFit: 'cover',
+                              objectFit: shouldContain ? 'contain' : 'cover',
+                              padding: shouldContain ? 8 : 0,
+                              boxSizing: 'border-box',
                             }}
                           />
                           {scene.number === 1 && (
@@ -595,7 +632,8 @@ export default function ReelsReviewClient({ initialPayload }: Props) {
                         </button>
                       </div>
                     </article>
-                    ))}
+                      );
+                    })}
                   </div>
                 )}
               </section>

@@ -8,6 +8,7 @@
     "titleLineCount": 2,
     "titleCase": "uppercase",
     "maxTitleLineChars": 16,
+    "preferredTitleWords": "3-5",
     "staticReviewBaselineCardWidthPx": 180,
     "staticReviewKickerPxAtBaseline": 9,
     "staticReviewTitlePxAtBaseline": 18,
@@ -18,8 +19,27 @@
     "Card 1 must work as the Instagram grid thumbnail.",
     "Use a centered title lockup inside a conservative safe area.",
     "Use a short uppercase kicker above the title.",
+    "Prepare three thumbnail copy directions before selection: Mystery, Mistake, and Decision.",
+    "The selected thumbnail must create curiosity, warn about a mistake, or force a decision; it must not merely restate the blog title.",
     "Use exactly two title lines unless the representative approves an exception.",
     "Do not add a static subtitle below the title; live speech captions belong below the center title in render.",
     "Use EPICKOR.COM as the watermark."
+  ],
+  "creativeDirections": [
+    {
+      "id": "mystery",
+      "label": "Mystery",
+      "purpose": "Make the viewer wonder why a Korean habit, place, food, or rule works this way."
+    },
+    {
+      "id": "mistake",
+      "label": "Mistake",
+      "purpose": "Warn about a tourist, foreigner, shopping, food, etiquette, packing, or planning mistake."
+    },
+    {
+      "id": "decision",
+      "label": "Decision",
+      "purpose": "Frame the Reel around choosing the better Korea option, route, timing, place, product, or behavior."
+    }
   ]
 }

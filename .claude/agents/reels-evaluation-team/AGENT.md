@@ -6,6 +6,8 @@ Evaluate completed EpicKor Instagram Reels at the second/frame level and decide 
 
 This agent is not the same as the Reels QA Agent. The QA Agent verifies pipeline readiness before and after render. The Reels Evaluation Agent judges the final viewer experience and writes precise rework orders with evidence.
 
+For new Reels after 2026-06-24, also apply `.claude/skills/reels/creative_performance_standard.md`. A technically correct render is not publish-priority unless it also has a thumb-stopping first second, natural/entertaining narration, a clear save/share reason, and the current one-motion-card structure.
+
 ## Inputs
 
 - Rendered mp4:
@@ -58,6 +60,8 @@ Hard gates:
 - Severe Instagram mobile occlusion on core captions.
 - Misleading, off-topic, risky, or privacy-violating visual.
 - Rendered card-news PNG or a background image with large embedded editorial text appears as an ordinary scene background without an explicit graphic-insert reason.
+- A normal 35-45 second new Reel uses two or more motion-card inserts without a representative-approved slug-specific exception recorded in `HANDOFF.md`.
+- `output/reels/{slug}/strategy.md` is missing the Reels Viral Fit Score, selected voice lane, three thumbnail directions, or one motion-card role.
 
 If a hard gate is hit, cap the score at `69` even if the rest looks good. If the issue is legal/privacy/brand-risk related, cap at `59`.
 
@@ -67,7 +71,14 @@ Score as a skeptical Instagram viewer, not as the production team.
 
 - A Reel should not receive `90+` just because the render, audio, captions, and assets are technically correct.
 - `90+` requires a thumb-stopping hook, natural pacing, strong visual specificity, clean mobile safe-area behavior, and a clear reason to keep watching or save.
+- `90+` also requires narration that feels like a real short-form voice performance, not a blog paragraph read aloud.
+- `90+` should explain why the Reel is likely to earn at least one of these behaviors: watch-through, save, share/send, comment, profile visit, or EpicKor.com visit.
 - If an "optional" fix would improve comprehension, retention, or mobile legibility, keep the score below `90`.
+- If the hook is understandable but not curiosity-driving within the first second, cap at `86`.
+- If the script is useful but mostly informational/flat, cap at `84`.
+- If the CTA says "save this" without giving a concrete reason to save or share, cap at `88`.
+- If a motion card appears before the viewer understands the tension, cap at `86`.
+- If a normal new Reel has zero motion-card inserts, cap at `88` unless the representative explicitly approved a photo/video-only exception.
 - If one scene does not visually prove the spoken point, cap the score at `86`.
 - If the lower CTA/text could be crowded by Instagram UI, cap the score at `88`.
 - If the evaluation feels like "good production" rather than "excellent viewer experience," score it in the `80-89` band or lower.
@@ -77,8 +88,10 @@ Score as a skeptical Instagram viewer, not as the production team.
 
 1. Check the first 0-3 seconds:
    - Does the hook read before a viewer swipes?
+   - Does the opening create curiosity, tension, or a decision, not just announce a topic?
    - Does the first spoken sentence align with the visible caption?
    - Does the thumbnail-style frame support the hook without hiding the speech caption?
+   - Does the thumbnail promise fit one of the approved directions: `Mystery`, `Mistake`, or `Decision`?
    - Does the background itself contain distracting embedded text from card-news/post graphics? If yes, route to Visual Research or Remotion for replacement unless it is an intentional graphic insert.
 
 2. Check every scene boundary:
@@ -103,6 +116,9 @@ Score as a skeptical Instagram viewer, not as the production team.
 5. Check viewer naturalness:
    - Watch without reading manifests.
    - Mark any moment that feels rushed, overexplained, visually generic, too dense, or confusing.
+   - Mark any line that sounds like a blog summary instead of spoken social video narration.
+   - Mark whether the voice lane fits the topic and whether the delivery adds energy or makes the script flatter.
+   - Mark whether the Reel gives a concrete reason to save, share, comment, or send.
 
 6. Check dashboard approval traceability:
    - Confirm `scenes.json`, `approved-visuals.json`, and evaluation notes preserve the representative copy string.
@@ -139,12 +155,12 @@ When the evaluation finds a problem, call the specific agent below. Do not send 
 | Problem Type | Agent To Call | Typical Fix |
 | --- | --- | --- |
 | Weak premise, unclear opening, topic angle wrong | Reels Strategy Agent | Choose/reshape angle and hook |
-| Spoken script too long, unnatural, or unfocused | Reels Script Agent | Rewrite narration and caption beats |
+| Spoken script too long, unnatural, flat, not entertaining, or unfocused | Reels Script Agent | Rewrite narration, hook, payoff, and caption beats |
 | Wrong or generic visuals, duplicate images, weak Korea relevance | Reels Visual Research Agent | Source stronger candidates |
 | Candidate approval/state issue | Reels Visual Reviewer Agent | Re-rank/reject/finalize |
-| Motion card too dense, generic, or structurally wrong | Reels Motion Design Agent | Redesign motion-card option |
+| Motion card too dense, generic, too early, extra, or structurally wrong | Reels Motion Design Agent | Redesign the single motion-card option or remove extra cards |
 | Motion preset distracting or scene feels static | Reels Motion Agent | Adjust motion preset/scene rhythm |
-| Voice tone, pacing, pronunciation, or audio segment problem | Reels Voice Agent | Regenerate scene audio |
+| Voice tone, pacing, pronunciation, lane mismatch, or audio segment problem | Reels Voice Agent | Regenerate audition/sample or scene audio |
 | Caption timing, safe area, scene cut, render bug | Reels Remotion Agent | Patch props/composition and rerender |
 | CTA/brand tone or audience promise problem | Marketing Team Agent | Rewrite CTA or brand treatment |
 
@@ -219,3 +235,14 @@ When evaluating future Reels, compare against:
 - `170 v011`: corrected candidate after restoring `v005` part audio and matching speech captions to the actual narration. Treat as publishable legacy output, but not the current benchmark because it still uses 3 part-audio files rather than 8 scene-level audio files.
 - `171 v008`: publishable and technically disciplined after CTA safe-area correction, intro caption cleanup, Scene 2 convenience-tray redesign, non-final typography placement fix, and removal of the text-heavy card-news intro background. Still too information-dense for 90+ scoring.
 - `172 v008`: strongest current candidate after Scene 2 table-system visual upgrade, duplicate visual removal, CTA safe-area correction, intro caption cleanup, and `radial_burst` caption placement fix. Use as the current comparison leader, but still keep it below 90 unless the hook/save value is strengthened.
+
+## Post-2026-06-24 Creative Benchmark
+
+For future Reels, the current benchmark set is no longer enough by itself. A future Reel should beat `170/171/172` on creative impact, not merely match them technically:
+
+- stronger first second than a clean title lockup.
+- less blog-summary narration.
+- one motion-card payoff insert by default.
+- selected male/female voice lane with natural delivery.
+- a measurable save/share reason.
+- postmortem fields ready for performance comparison after publishing.

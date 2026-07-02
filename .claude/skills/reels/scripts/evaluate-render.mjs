@@ -15,18 +15,18 @@ const DEFAULT_FPS = 30;
 const CAPTION_LEAD_FRAMES = 6;
 
 const rubric = [
-  ['C01', 'Hook Clarity And First 2 Seconds', 8],
-  ['C02', 'Narration-Caption Timing', 12],
-  ['C03', 'Scene Cut And Audio Boundary Sync', 10],
-  ['C04', 'Caption Readability And Phrase Quality', 8],
-  ['C05', 'Instagram Mobile Safe Area', 8],
-  ['C06', 'Visual-Narration Relevance', 8],
-  ['C07', 'Motion-Card Fit And Density', 8],
-  ['C08', 'Pacing And Cognitive Load', 8],
-  ['C09', 'Visual Continuity, Variety, And Risk', 7],
-  ['C10', 'CTA And Brand Finish', 6],
-  ['C11', 'Technical Render Integrity', 9],
-  ['C12', 'Production Traceability', 8],
+  ['C01', 'Hook And Thumbnail First 1.5 Seconds', 12],
+  ['C02', 'Narration Entertainment And Naturalness', 10],
+  ['C03', 'Narration-Caption Timing', 9],
+  ['C04', 'Scene Cut And Audio Boundary Sync', 8],
+  ['C05', 'Caption Readability And Phrase Quality', 7],
+  ['C06', 'Instagram Mobile Safe Area', 7],
+  ['C07', 'Visual-Narration Relevance', 8],
+  ['C08', 'Motion-Card Fit And Restraint', 7],
+  ['C09', 'Pacing And Cognitive Load', 8],
+  ['C10', 'Visual Continuity, Variety, And Risk', 7],
+  ['C11', 'CTA, Save/Share Reason, And Brand Finish', 7],
+  ['C12', 'Technical Render Integrity And Traceability', 10],
 ];
 
 function parseArgs() {
@@ -201,7 +201,7 @@ function buildSceneTimeline(props, fps) {
   });
 }
 
-function buildMachineFindings({ props, probe, sceneTimeline, renderDuration, renderPath, fps }) {
+function buildMachineFindings({ slug, props, probe, sceneTimeline, renderDuration, renderPath, fps }) {
   const findings = [];
   const streams = probe.streams || [];
   const video = streams.find((stream) => stream.codec_type === 'video');
@@ -209,6 +209,10 @@ function buildMachineFindings({ props, probe, sceneTimeline, renderDuration, ren
   const sceneCount = (props.scenes || []).length;
   const audioSegments = props.audioSegments || [];
   const motionCards = props.motionCards || [];
+  const numericSlug = Number(slug);
+  const usesOneMotionCardStandard = !Number.isFinite(numericSlug) || numericSlug >= 199;
+  const projectTwoMotionCardOverrideSlugs = new Set(['225', '228']);
+  const usesTwoMotionCardStandard = projectTwoMotionCardOverrideSlugs.has(String(slug));
   const primaryImages = (props.scenes || []).map((scene) => scene.images?.[0]?.staticFilePath).filter(Boolean);
   const duplicateImages = primaryImages.filter((image, index) => primaryImages.indexOf(image) !== index);
   const captionRisks = [];
@@ -251,11 +255,17 @@ function buildMachineFindings({ props, probe, sceneTimeline, renderDuration, ren
       message: `Audio segment count is ${audioSegments.length} for ${sceneCount} scenes. Final standard prefers scene-level audio.`,
     });
   }
-  if (motionCards.length > 2) {
+  if (usesTwoMotionCardStandard && motionCards.length !== 2) {
     findings.push({
       level: 'warn',
       check: 'motion_density',
-      message: `Motion-card count is ${motionCards.length}; current new-Reels standard is two inserts unless the representative approved an exception.`,
+      message: `Motion-card count is ${motionCards.length}; this project version expects exactly 2 motion-card inserts.`,
+    });
+  } else if (!usesTwoMotionCardStandard && usesOneMotionCardStandard && motionCards.length > 1) {
+    findings.push({
+      level: 'warn',
+      check: 'motion_density',
+      message: `Motion-card count is ${motionCards.length}; current new-Reels standard is one payoff insert unless the representative approved an exception.`,
     });
   }
   if (duplicateImages.length) {
@@ -394,9 +404,10 @@ ${markdownTable(findingRows)}
 - First 0-3 seconds:
 - Narration/caption naturalness:
 - Mobile safe-area/occlusion:
-- Motion-card density:
+- Narration entertainment/naturalness:
+- Motion-card restraint:
 - Visual relevance:
-- CTA:
+- CTA/save/share reason:
 
 ## Rework Calls
 
@@ -440,7 +451,7 @@ const sceneGridPath = path.join(evalDir, `scene-grid-${version}.jpg`);
 renderContactSheet(renderPath, contactPath);
 renderSceneGrid(renderPath, sceneGridPath, sceneTimeline);
 
-const findings = buildMachineFindings({ props, probe, sceneTimeline, renderDuration, renderPath, fps });
+const findings = buildMachineFindings({ slug, props, probe, sceneTimeline, renderDuration, renderPath, fps });
 const evaluation = {
   slug,
   version,

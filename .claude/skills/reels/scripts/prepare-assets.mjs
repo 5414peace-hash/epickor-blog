@@ -8,6 +8,7 @@
 
 import fs from 'node:fs';
 import path from 'node:path';
+import sharp from 'sharp';
 
 const ROOT = process.cwd();
 
@@ -77,6 +78,29 @@ async function downloadImage(url, outputPath, { allowExisting = false } = {}) {
   return { skipped: false, bytes: buffer.length };
 }
 
+async function inspectPreparedImage(outputPath) {
+  try {
+    const metadata = await sharp(outputPath).metadata();
+    const width = Number(metadata.width || 0);
+    const height = Number(metadata.height || 0);
+    const aspectRatio = width > 0 && height > 0 ? Number((width / height).toFixed(4)) : null;
+    return {
+      width: width || null,
+      height: height || null,
+      aspectRatio,
+      fitMode: aspectRatio && aspectRatio >= 1.25 ? 'framed_16_9' : 'cover',
+    };
+  } catch (error) {
+    return {
+      width: null,
+      height: null,
+      aspectRatio: null,
+      fitMode: 'cover',
+      inspectError: error instanceof Error ? error.message : 'Image inspection failed',
+    };
+  }
+}
+
 const { slug } = parseArgs();
 
 if (!slug || !/^[a-zA-Z0-9_-]+$/.test(slug)) {
@@ -127,6 +151,7 @@ for (const scene of approved.scenes || []) {
       allowExisting: previousSourceFor(scene.number, rank) === selectedImages[index],
     });
     const publicPath = `/assets/reels/${slug}/${fileName}`;
+    const imageInfo = await inspectPreparedImage(outputPath);
 
     images.push({
       rank,
@@ -135,6 +160,7 @@ for (const scene of approved.scenes || []) {
       publicPath,
       bytes: result.bytes,
       downloaded: !result.skipped,
+      ...imageInfo,
     });
   }
 

@@ -29,6 +29,7 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 .pnpm-debug.log*
+debug.log
 
 # env files (can opt-in for committing if needed)
 .env*
@@ -42,6 +43,7 @@ yarn-error.log*
 /.claude/settings.local.json
 /epickor-agent-design-v2.md
 /package-lock.json
+/public/assets/reels/
 
 # Meta Business Suite local automation artifacts
 /tools/meta-suite-helper/browser-profile/

@@ -1,5 +1,52 @@
 # HANDOFF - EpicKor Agent Teams v2
 
+## Latest Update - 2026-07-02 Card News Scheduled, Worktree Cleaned, Next Reels Batch Prepared
+
+- Representative clarified the card-news state:
+  - All existing card-news carousels are confirmed.
+  - All existing card-news assets have been scheduled for Instagram upload by the representative.
+  - Card news is no longer the immediate production blocker.
+- Card-news tracking update:
+  - Updated `public/assets/cardnews/CARDNEWS_INDEX.md` so every listed carousel now shows `scheduled by representative`.
+  - Added the previously local public card-news packages into the cleanup scope for preservation:
+    - `public/assets/cardnews/2026-06-20_204/`
+    - `public/assets/cardnews/2026-06-20_216/`
+    - `public/assets/cardnews/2026-06-20_219/`
+    - `public/assets/cardnews/2026-06-20_six-carousel-self-review.md`
+- Worktree cleanup:
+  - Added `/public/assets/reels/` to `.gitignore`; these are local Reels render/review assets and should stay available for rerenders without cluttering `git status`.
+  - Archived unused local blog image candidates into `.tmp/worktree-cleanup/2026-07-02/unused-blog-image-candidates/`:
+    - `public/assets/images/posts/258/korean-seafood-market-display.jpg`
+    - `public/assets/images/posts/259/strawberry-shaved-ice-cafe.jpg`
+    - `public/assets/images/posts/260/steamed-rice-cooker-bowl.jpg`
+  - Archived `debug.log` into `.tmp/worktree-cleanup/2026-07-02/logs/`.
+- Reels pipeline preparation:
+  - Preserved the existing Reels tooling/Remotion improvements for the next multi-Reel production goal.
+  - Added/kept the `creative_performance_standard.md` rule set as the pre-production gate for future Reels.
+  - Fixed `validate-render-readiness.mjs` so `representative_confirmed_final` scenes are render-ready, not incorrectly rejected after representative approval.
+  - Confirmed the current approved Reels batch assets still validate:
+    - `npm.cmd run reels:validate -- --slug 225 --require-scene-audio` passed.
+    - `npm.cmd run reels:validate -- --slug 228 --require-scene-audio` passed.
+    - `npm.cmd run reels:validate -- --slug 229 --require-scene-audio` passed.
+  - `npx.cmd tsc --noEmit --pretty false` passed.
+  - `npm.cmd run build` passed; 240 static pages generated.
+- Recommended next Reels production set, using the Reels Creative Performance Standard:
+  1. Main 1: Blog `257` / Incheon Airport layover. Viral Fit Score estimate `92/100`. Hook: `Do not leave ICN first.` Strong travel decision/save value and clear funnel to the live guide.
+  2. Main 2: Blog `258` / Noryangjin Fish Market. Viral Fit Score estimate `91/100`. Hook: `The fish is not the bill.` Strong curiosity, visual immediacy, pricing/etiquette stakes, and Seoul food share value.
+  3. Main 3: Blog `260` / Korean rice cooker. Viral Fit Score estimate `88/100`. Hook: `Koreans do not buy rice cookers like this.` Best Amazon affiliate fit in the set; should use a buyer-mistake/payoff-card structure.
+  4. Backup 1: Blog `259` / Korean bingsu. Viral Fit Score estimate `87/100`. Hook: `Bingsu is not one dessert.` Seasonal and visual, but overlaps with other summer dessert topics.
+  5. Backup 2: Blog `255` / Korean department-store food halls. Viral Fit Score estimate `84/100`. Hook: `Seoul's best food court is underground.` Useful and visual, but needs strong indoor food-hall proof shots to avoid looking like a generic food montage.
+- Not selected by default:
+  - Blog `256` / Ajeossi movie has strong curiosity but higher Instagram copyright/platform-risk because poster/still reuse needs explicit confirmation for Reels/social distribution. Use only as a deliberate special-topic exception.
+- Next recommended work:
+  1. Start a multi-Reel goal for `257`, `258`, and `260` together.
+  2. For each selected slug, create `output/reels/{slug}/strategy.md` before script or visual research.
+  3. Use exactly one motion-card insert per new Reel unless the representative approves a slug-specific exception.
+- Agents involved:
+  - Operations Agent: reconciled card-news upload status and cleaned the local worktree.
+  - Reels Strategy Agent: applied the Creative Performance Standard and scored the 3+2 candidate set.
+  - Reels QA Agent: ran TypeScript, Reels readiness validation, and full production build.
+
 ## Latest Update - 2026-07-01 Blog 257 Hero Replacement, Internal Links, Mobile Tables Deployed
 
 - Representative continued the active goal after Blogs `257`-`260` were published:

@@ -37,6 +37,51 @@ function motionStyle(scene: ReelScene, localFrame: number, durationFrames: numbe
   return { transform: `scale(${interpolate(eased, [0, 1], [1.03, 1.12])})` };
 }
 
+function cameraMotionStyle(image: ReelImage, scene: ReelScene, localFrame: number, durationFrames: number, scaleBoost = 1) {
+  const progress = Math.min(Math.max(localFrame / Math.max(durationFrames, 1), 0), 1);
+  const eased = easeOut(progress);
+  const move = image.cameraMove || scene.motion;
+  const scale = 1.08 * scaleBoost;
+
+  if (move === 'pan_left') {
+    return { transform: `scale(${scale}) translateX(${interpolate(eased, [0, 1], [4.2, -4.2])}%)` };
+  }
+
+  if (move === 'pan_right') {
+    return { transform: `scale(${scale}) translateX(${interpolate(eased, [0, 1], [-4.2, 4.2])}%)` };
+  }
+
+  if (move === 'pan_up') {
+    return { transform: `scale(${scale}) translateY(${interpolate(eased, [0, 1], [3.6, -3.6])}%)` };
+  }
+
+  if (move === 'pan_down') {
+    return { transform: `scale(${scale}) translateY(${interpolate(eased, [0, 1], [-3.6, 3.6])}%)` };
+  }
+
+  if (move === 'drift_left') {
+    return { transform: `translateX(${interpolate(eased, [0, 1], [22, -22])}px) scale(${interpolate(eased, [0, 1], [0.988, 1.01])})` };
+  }
+
+  if (move === 'drift_right') {
+    return { transform: `translateX(${interpolate(eased, [0, 1], [-22, 22])}px) scale(${interpolate(eased, [0, 1], [0.988, 1.01])})` };
+  }
+
+  if (move === 'drift_up') {
+    return { transform: `translateY(${interpolate(eased, [0, 1], [18, -18])}px) scale(${interpolate(eased, [0, 1], [0.988, 1.01])})` };
+  }
+
+  if (move === 'drift_down') {
+    return { transform: `translateY(${interpolate(eased, [0, 1], [-18, 18])}px) scale(${interpolate(eased, [0, 1], [0.988, 1.01])})` };
+  }
+
+  if (move === 'slow_zoom_out') {
+    return { transform: `scale(${interpolate(eased, [0, 1], [1.13 * scaleBoost, 1.04 * scaleBoost])})` };
+  }
+
+  return motionStyle(scene, localFrame, durationFrames);
+}
+
 function SceneImage({ image, scene, index, total }: { image: ReelImage; scene: ReelScene; index: number; total: number }) {
   const frame = useCurrentFrame();
   const imageDuration = Math.max(18, Math.floor(scene.durationFrames / Math.max(total, 1)));
@@ -47,19 +92,121 @@ function SceneImage({ image, scene, index, total }: { image: ReelImage; scene: R
     extrapolateRight: 'clamp',
   });
   const stableOpacity = index === 0 ? opacity : Math.max(opacity, localFrame >= 0 && localFrame < imageDuration - 6 ? 1 : 0);
+  const imageSrc = staticAsset(image.staticFilePath);
+  const imageMotion = cameraMotionStyle(image, scene, localFrame, imageDuration);
+  const backgroundMotion = cameraMotionStyle(image, scene, localFrame, imageDuration, 1.08);
+  const shouldContain = image.fitMode === 'contain_frame';
+  const shouldFrame16x9 = image.fitMode === 'framed_16_9';
 
   return (
     <Sequence from={imageStart} durationInFrames={imageDuration + 8}>
       <AbsoluteFill style={{ opacity: stableOpacity, overflow: 'hidden', backgroundColor: '#0f172a' }}>
-        <Img
-          src={staticAsset(image.staticFilePath)}
-          style={{
-            width: '100%',
-            height: '100%',
-            objectFit: 'cover',
-            ...motionStyle(scene, localFrame, imageDuration),
-          }}
-        />
+        {shouldFrame16x9 ? (
+          <>
+            <Img
+              src={imageSrc}
+              style={{
+                position: 'absolute',
+                inset: 0,
+                width: '100%',
+                height: '100%',
+                objectFit: 'cover',
+                filter: 'blur(26px)',
+                opacity: 0.48,
+                ...backgroundMotion,
+              }}
+            />
+            <div style={{ position: 'absolute', inset: 0, background: 'linear-gradient(180deg, rgba(5,8,13,0.42), rgba(5,8,13,0.18) 42%, rgba(5,8,13,0.78))' }} />
+            <div
+              style={{
+                position: 'absolute',
+                left: 64,
+                right: 64,
+                top: scene.number === 4 ? 382 : 356,
+                aspectRatio: '16 / 9',
+                borderRadius: 30,
+                overflow: 'hidden',
+                background: 'rgba(9,13,20,0.86)',
+                border: '1px solid rgba(255,255,255,0.2)',
+                boxShadow: '0 32px 84px rgba(0,0,0,0.46)',
+                ...cameraMotionStyle(image, scene, localFrame, imageDuration),
+              }}
+            >
+              <Img
+                src={imageSrc}
+                style={{
+                  position: 'absolute',
+                  inset: 0,
+                  width: '100%',
+                  height: '100%',
+                  objectFit: 'cover',
+                  filter: 'blur(18px)',
+                  opacity: 0.34,
+                  transform: 'scale(1.12)',
+                }}
+              />
+              <Img
+                src={imageSrc}
+                style={{
+                  position: 'absolute',
+                  inset: 0,
+                  width: '100%',
+                  height: '100%',
+                  objectFit: 'contain',
+                  filter: 'drop-shadow(0 20px 34px rgba(0,0,0,0.34))',
+                }}
+              />
+            </div>
+          </>
+        ) : shouldContain ? (
+          <>
+            <Img
+              src={imageSrc}
+              style={{
+                position: 'absolute',
+                inset: 0,
+                width: '100%',
+                height: '100%',
+                objectFit: 'cover',
+                filter: 'blur(24px)',
+                opacity: 0.58,
+                ...backgroundMotion,
+              }}
+            />
+            <div style={{ position: 'absolute', inset: 0, background: 'linear-gradient(180deg, rgba(7,10,16,0.38), rgba(7,10,16,0.76))' }} />
+            <div
+              style={{
+                position: 'absolute',
+                inset: 0,
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center',
+                padding: '140px 56px 430px',
+              }}
+            >
+              <Img
+                src={imageSrc}
+                style={{
+                  width: '100%',
+                  height: '100%',
+                  objectFit: 'contain',
+                  filter: 'drop-shadow(0 28px 46px rgba(0,0,0,0.48))',
+                  ...imageMotion,
+                }}
+              />
+            </div>
+          </>
+        ) : (
+          <Img
+            src={imageSrc}
+            style={{
+              width: '100%',
+              height: '100%',
+              objectFit: 'cover',
+              ...imageMotion,
+            }}
+          />
+        )}
       </AbsoluteFill>
     </Sequence>
   );
@@ -81,11 +228,21 @@ function motionCaptionPlacement(template: string): CaptionPlacement {
 function CaptionLayer({ scene, compact = false, placement = 'default' }: { scene: ReelScene; compact?: boolean; placement?: CaptionPlacement }) {
   const frame = useCurrentFrame();
   const localFrame = frame;
+  const isKoreanFloorThumbnailIntro = scene.number === 1 && /floor is not just floor/i.test(scene.narration);
+  const isTempleStayThumbnailIntro = scene.number === 1 && /temple stay is not a spa night/i.test(scene.narration);
+  const isTransportThumbnailIntro = scene.number === 1 && /fastest ride is not always the best route/i.test(scene.narration);
+  if ((isKoreanFloorThumbnailIntro || isTempleStayThumbnailIntro || isTransportThumbnailIntro) && localFrame < 42) return null;
+
   const isReadableBand = scene.captionStyle === 'readable_band';
+  const isOndolInfoCardCaption = scene.number === 3
+    && /Ondol made warm floors normal/i.test(scene.narration)
+    && scene.images.length > 1
+    && localFrame >= Math.floor(scene.durationFrames / scene.images.length) - 8;
   const isIntro = placement === 'intro';
   const isRadialCard = placement === 'radialCard';
   const isMotionPlaced = compact && ['motionRoute', 'motionStamp', 'motionReceipt', 'motionTabs', 'motionEditorial', 'motionChecklist', 'motionMenu', 'motionLowerBand', 'motionDefault'].includes(placement);
   const isTopPlaced = isIntro || isRadialCard || isMotionPlaced;
+  const isStationFirstMotionCaption = compact && placement === 'motionMenu' && /Pick by station first/i.test(scene.narration);
   const captionLeadFrames = scene.captionLeadFrames ?? 6;
   const ledFrame = Math.min(scene.durationFrames - 1, localFrame + captionLeadFrames);
   const beatStarts = scene.captionBeatStartFrames?.length === scene.captionBeats.length
@@ -121,10 +278,26 @@ function CaptionLayer({ scene, compact = false, placement = 'default' }: { scene
     motionDefault: { justifyContent: 'flex-start', padding: '1328px 112px 0', maxWidth: 856, fontSize: 48, lineHeight: 1.06 },
   };
   const layout = isReadableBand
-    ? placement === 'motionStamp'
+    ? isOndolInfoCardCaption
+      ? {
+          justifyContent: 'flex-end' as CSSProperties['justifyContent'],
+          padding: '0 72px 108px',
+          maxWidth: 920,
+          fontSize: 44,
+          lineHeight: 1.12,
+        }
+      : placement === 'motionStamp'
       ? {
           justifyContent: 'flex-start' as CSSProperties['justifyContent'],
           padding: '1120px 72px 0',
+          maxWidth: 900,
+          fontSize: 44,
+          lineHeight: 1.14,
+        }
+      : isStationFirstMotionCaption
+      ? {
+          justifyContent: 'flex-end' as CSSProperties['justifyContent'],
+          padding: '0 72px 214px',
           maxWidth: 900,
           fontSize: 44,
           lineHeight: 1.14,
@@ -239,6 +412,11 @@ function bulletRevealStartFrame(card: ReelMotionCard | undefined, scene: ReelSce
     '197-card-survival-kit-checklist': [-10, -2, 6, 14, 22],
     '198-card-dress-dry-kit-grid': [-8, 3, 12, 21],
     '198-card-tiny-bag-kit-grid': [-8, 8, 24, 40],
+    '229-card-three-zone-rule': [-8, 8, 24],
+    '228-card-program-picker': [-8, 6, 20, 34],
+    '228-card-quiet-checklist': [-8, 4, 16, 28],
+    '225-card-station-first': [-8, 4, 16, 28],
+    '225-card-door-to-door-check': [-8, 2, 12, 22, 34],
   };
   const start = card?.id ? overrides[card.id]?.[index] : undefined;
   if (typeof start === 'number') return Math.min(scene.durationFrames - 18, Math.max(-12, start));
@@ -1344,9 +1522,43 @@ function BrandLayer({ label }: { label: string }) {
   );
 }
 
+function EmbeddedBrandShield({ scene }: { scene: ReelScene }) {
+  const frame = useCurrentFrame();
+  if (scene.number !== 3 || !/Ondol made warm floors normal/i.test(scene.narration) || scene.images.length < 2) return null;
+
+  const imageStart = Math.floor(scene.durationFrames / scene.images.length);
+  if (frame < imageStart - 8) return null;
+  const opacity = interpolate(frame, [imageStart - 8, imageStart], [0, 1], {
+    extrapolateLeft: 'clamp',
+    extrapolateRight: 'clamp',
+  });
+
+  return (
+    <AbsoluteFill style={{ pointerEvents: 'none', opacity }}>
+      <div
+        style={{
+          position: 'absolute',
+          left: 52,
+          top: 52,
+          width: 190,
+          height: 74,
+          borderRadius: 18,
+          background: 'linear-gradient(90deg, rgba(30,16,8,0.92), rgba(30,16,8,0.68), rgba(30,16,8,0))',
+          filter: 'blur(0.2px)',
+        }}
+      />
+    </AbsoluteFill>
+  );
+}
+
 function ThumbnailLayer({ scene, title }: { scene: ReelScene; title: string }) {
+  const frame = useCurrentFrame();
   const isWaterbombTitle = scene.number === 1 && /Waterbomb Seoul 2026 Survival Guide/i.test(title);
   const isOliveYoungTitle = scene.number === 1 && /Olive Young Korea Shopping Guide/i.test(title);
+  const isWorldCupTitle = scene.number === 1 && /World Cup/i.test(title);
+  const isKtxSrtBusTitle = scene.number === 1 && /KTX vs SRT vs Express Bus/i.test(title);
+  const isKoreanFloorTitle = scene.number === 1 && /Korean Floor Culture/i.test(title);
+  const isTempleStayTitle = scene.number === 1 && /Korea Temple Stay Guide/i.test(title);
   const customThumbnailTitle = scene.number === 1
     ? scene.typographyBeats.find((beat) => /thumbnail_title/i.test(beat.emphasis || ''))
     : undefined;
@@ -1354,9 +1566,9 @@ function ThumbnailLayer({ scene, title }: { scene: ReelScene; title: string }) {
     ? 'WATERBOMB SEOUL 2026'
     : isOliveYoungTitle
       ? 'OLIVE YOUNG GUIDE'
-      : customThumbnailTitle
+      : isWorldCupTitle && customThumbnailTitle
         ? 'WORLD CUP BRUNCH'
-        : scene.typographyBeats[0]?.text || title;
+        : '';
   const isWebtoonTitle = scene.number === 1 && /Webtoons Changed How Stories Travel/i.test(title);
   const titleLines =
     isWaterbombTitle
@@ -1371,22 +1583,323 @@ function ThumbnailLayer({ scene, title }: { scene: ReelScene; title: string }) {
         ? textLines(customThumbnailTitle.text)
         : textLines(title);
 
+  if (isKtxSrtBusTitle) {
+    const opacity = interpolate(frame, [0, 30, 42], [1, 1, 0], {
+      extrapolateLeft: 'clamp',
+      extrapolateRight: 'clamp',
+    });
+    const cardScale = interpolate(frame, [0, 18], [0.96, 1], {
+      extrapolateLeft: 'clamp',
+      extrapolateRight: 'clamp',
+    });
+    const options = [
+      { label: 'KTX', color: '#22c55e' },
+      { label: 'SRT', color: '#a855f7' },
+      { label: 'BUS', color: '#f59e0b' },
+    ];
+
+    return (
+      <AbsoluteFill style={{ justifyContent: 'center', alignItems: 'center', padding: '0 64px', pointerEvents: 'none', opacity }}>
+        <div
+          style={{
+            position: 'absolute',
+            inset: 0,
+            background: 'linear-gradient(180deg, rgba(4,7,12,0.18), rgba(4,7,12,0.58) 46%, rgba(4,7,12,0.86))',
+          }}
+        />
+        <div
+          style={{
+            transform: `scale(${cardScale}) rotate(-0.8deg)`,
+            width: '100%',
+            maxWidth: 900,
+            display: 'grid',
+            gap: 30,
+            padding: '44px 46px 54px',
+            borderRadius: 12,
+            background: 'linear-gradient(180deg, rgba(7,11,19,0.9), rgba(7,11,19,0.64))',
+            border: '2px solid rgba(255,255,255,0.22)',
+            boxShadow: '0 36px 96px rgba(0,0,0,0.48)',
+          }}
+        >
+          <div
+            style={{
+              display: 'flex',
+              alignItems: 'center',
+              justifyContent: 'space-between',
+              gap: 18,
+              color: '#f8fafc',
+              fontFamily: 'Inter, Arial, sans-serif',
+              fontSize: 29,
+              fontWeight: 950,
+              textTransform: 'uppercase',
+              textShadow: '0 6px 20px rgba(0,0,0,0.82)',
+            }}
+          >
+            <span>KOREA CITY TRAVEL</span>
+            <span style={{ width: 112, height: 6, borderRadius: 999, background: '#22c55e' }} />
+          </div>
+          <LineStack
+            lines={['KTX / SRT', 'OR BUS?']}
+            style={{
+              color: '#ffffff',
+              fontFamily: 'Inter, Arial, sans-serif',
+              fontSize: 114,
+              fontWeight: 950,
+              lineHeight: 0.88,
+              textAlign: 'left',
+              textTransform: 'uppercase',
+              textShadow: '0 13px 36px rgba(0,0,0,0.92)',
+            }}
+          />
+          <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr 1fr', gap: 14 }}>
+            {options.map((option) => (
+              <div
+                key={option.label}
+                style={{
+                  height: 92,
+                  display: 'grid',
+                  placeItems: 'center',
+                  borderRadius: 10,
+                  background: option.color,
+                  color: '#07111f',
+                  fontFamily: 'Inter, Arial, sans-serif',
+                  fontSize: 44,
+                  fontWeight: 950,
+                  boxShadow: '0 18px 46px rgba(0,0,0,0.34)',
+                }}
+              >
+                {option.label}
+              </div>
+            ))}
+          </div>
+          <div
+            style={{
+              color: '#f8fafc',
+              fontFamily: 'Inter, Arial, sans-serif',
+              fontSize: 38,
+              fontWeight: 900,
+              lineHeight: 1.1,
+              textAlign: 'left',
+              textShadow: '0 7px 22px rgba(0,0,0,0.82)',
+            }}
+          >
+            <div>Do not pick by speed.</div>
+            <div>Start with your station.</div>
+          </div>
+        </div>
+        <div
+          style={{
+            position: 'absolute',
+            right: 70,
+            bottom: 76,
+            color: '#ffffff',
+            fontFamily: 'Inter, Arial, sans-serif',
+            fontSize: 29,
+            fontWeight: 950,
+            letterSpacing: 0,
+            textTransform: 'uppercase',
+            textShadow: '0 4px 16px rgba(0,0,0,0.82)',
+          }}
+        >
+          EPICKOR.COM
+        </div>
+      </AbsoluteFill>
+    );
+  }
+
+  if (isKoreanFloorTitle) {
+    const opacity = interpolate(frame, [0, 30, 42], [1, 1, 0], {
+      extrapolateLeft: 'clamp',
+      extrapolateRight: 'clamp',
+    });
+    return (
+      <AbsoluteFill style={{ justifyContent: 'flex-end', alignItems: 'flex-start', padding: '0 64px 322px', pointerEvents: 'none', opacity }}>
+        <div
+          style={{
+            display: 'grid',
+            gap: 24,
+            textShadow: '0 8px 28px rgba(0,0,0,0.88)',
+          }}
+        >
+          <div style={{ display: 'grid', gap: 18 }}>
+            <div
+              style={{
+                color: '#22c55e',
+                fontFamily: 'Inter, Arial, sans-serif',
+                fontSize: 31,
+                fontWeight: 950,
+                letterSpacing: 0,
+                textTransform: 'uppercase',
+              }}
+            >
+              KOREAN HOME RULE
+            </div>
+            <div style={{ width: 142, height: 8, borderRadius: 999, background: '#22c55e' }} />
+          </div>
+          <LineStack
+            lines={['FLOOR IS', 'THE ROOM']}
+            style={{
+              color: '#ffffff',
+              fontFamily: 'Inter, Arial, sans-serif',
+              fontSize: 118,
+              fontWeight: 950,
+              lineHeight: 0.9,
+              textAlign: 'left',
+              textTransform: 'uppercase',
+              maxWidth: 890,
+            }}
+          />
+          <div
+            style={{
+              color: '#f8fafc',
+              fontFamily: 'Inter, Arial, sans-serif',
+              fontSize: 42,
+              fontWeight: 900,
+              lineHeight: 1.08,
+              textAlign: 'left',
+            }}
+          >
+            Why everyone sits lower
+          </div>
+        </div>
+        <div
+          style={{
+            position: 'absolute',
+            right: 70,
+            bottom: 76,
+            color: '#ffffff',
+            fontFamily: 'Inter, Arial, sans-serif',
+            fontSize: 29,
+            fontWeight: 950,
+            letterSpacing: 0,
+            textTransform: 'uppercase',
+            textShadow: '0 4px 16px rgba(0,0,0,0.82)',
+          }}
+        >
+          EPICKOR.COM
+        </div>
+      </AbsoluteFill>
+    );
+  }
+
+  if (isTempleStayTitle) {
+    const opacity = interpolate(frame, [0, 30, 42], [1, 1, 0], {
+      extrapolateLeft: 'clamp',
+      extrapolateRight: 'clamp',
+    });
+    const warnScale = interpolate(frame, [0, 18], [0.96, 1], {
+      extrapolateLeft: 'clamp',
+      extrapolateRight: 'clamp',
+    });
+
+    return (
+      <AbsoluteFill style={{ justifyContent: 'center', alignItems: 'center', padding: '0 66px', pointerEvents: 'none', opacity }}>
+        <div
+          style={{
+            position: 'absolute',
+            inset: 0,
+            background: 'linear-gradient(180deg, rgba(4,5,7,0.08), rgba(4,5,7,0.58) 56%, rgba(4,5,7,0.82))',
+          }}
+        />
+        <div
+          style={{
+            transform: `scale(${warnScale}) rotate(-1deg)`,
+            display: 'grid',
+            gap: 24,
+            width: '100%',
+            maxWidth: 900,
+            padding: '46px 46px 54px',
+            borderTop: '8px solid #f59e0b',
+            borderBottom: '8px solid #f59e0b',
+            background: 'linear-gradient(180deg, rgba(10,12,16,0.78), rgba(10,12,16,0.48))',
+            boxShadow: '0 36px 90px rgba(0,0,0,0.42)',
+          }}
+        >
+          <div
+            style={{
+              display: 'flex',
+              justifyContent: 'space-between',
+              alignItems: 'center',
+              gap: 18,
+              color: '#fbbf24',
+              fontFamily: 'Inter, Arial, sans-serif',
+              fontSize: 30,
+              fontWeight: 950,
+              letterSpacing: 0,
+              textTransform: 'uppercase',
+              textShadow: '0 5px 18px rgba(0,0,0,0.82)',
+            }}
+          >
+            <span>KOREA TEMPLE STAY</span>
+            <span style={{ width: 112, height: 6, borderRadius: 999, background: '#f59e0b' }} />
+          </div>
+          <LineStack
+            lines={['NOT A', 'SPA NIGHT']}
+            style={{
+              color: '#ffffff',
+              fontFamily: 'Inter, Arial, sans-serif',
+              fontSize: 130,
+              fontWeight: 950,
+              lineHeight: 0.86,
+              textAlign: 'left',
+              textTransform: 'uppercase',
+              textShadow: '0 12px 36px rgba(0,0,0,0.92)',
+              maxWidth: 890,
+            }}
+          />
+          <div
+            style={{
+              color: '#f8fafc',
+              fontFamily: 'Inter, Arial, sans-serif',
+              fontSize: 40,
+              fontWeight: 900,
+              lineHeight: 1.1,
+              textAlign: 'left',
+              textShadow: '0 7px 22px rgba(0,0,0,0.82)',
+            }}
+          >
+            Choose the program first.
+          </div>
+        </div>
+        <div
+          style={{
+            position: 'absolute',
+            right: 70,
+            bottom: 76,
+            color: '#ffffff',
+            fontFamily: 'Inter, Arial, sans-serif',
+            fontSize: 29,
+            fontWeight: 950,
+            letterSpacing: 0,
+            textTransform: 'uppercase',
+            textShadow: '0 4px 16px rgba(0,0,0,0.82)',
+          }}
+        >
+          EPICKOR.COM
+        </div>
+      </AbsoluteFill>
+    );
+  }
+
   return (
     <AbsoluteFill style={{ justifyContent: 'center', alignItems: 'center', padding: isWebtoonTitle ? '0 48px' : '0 72px', pointerEvents: 'none' }}>
-      <div
-        style={{
-          color: '#facc15',
-          fontFamily: 'Inter, Arial, sans-serif',
-          fontSize: isWebtoonTitle ? 42 : isWaterbombTitle || isOliveYoungTitle ? 34 : 28,
-          fontWeight: 950,
-          marginBottom: isWebtoonTitle ? 24 : isWaterbombTitle || isOliveYoungTitle ? 26 : 28,
-          textAlign: 'center',
-          textShadow: '0 5px 18px rgba(0,0,0,0.85)',
-          textTransform: 'uppercase',
-        }}
-      >
-        {beatText.replace(/\|/g, ' ')}
-      </div>
+      {beatText ? (
+        <div
+          style={{
+            color: '#facc15',
+            fontFamily: 'Inter, Arial, sans-serif',
+            fontSize: isWebtoonTitle ? 42 : isWaterbombTitle || isOliveYoungTitle ? 34 : 28,
+            fontWeight: 950,
+            marginBottom: isWebtoonTitle ? 24 : isWaterbombTitle || isOliveYoungTitle ? 26 : 28,
+            textAlign: 'center',
+            textShadow: '0 5px 18px rgba(0,0,0,0.85)',
+            textTransform: 'uppercase',
+            zIndex: 2,
+          }}
+        >
+          {beatText.replace(/\|/g, ' ')}
+        </div>
+      ) : null}
       <LineStack
         lines={titleLines}
         style={{
@@ -1398,6 +1911,8 @@ function ThumbnailLayer({ scene, title }: { scene: ReelScene; title: string }) {
           textAlign: 'center',
           textShadow: '0 9px 30px rgba(0,0,0,0.9)',
           textTransform: 'uppercase',
+          position: 'relative',
+          zIndex: 3,
         }}
       />
     </AbsoluteFill>
@@ -1405,19 +1920,65 @@ function ThumbnailLayer({ scene, title }: { scene: ReelScene; title: string }) {
 }
 
 function OutroLayer({ text }: { text: string }) {
+  const frame = useCurrentFrame();
+  const opacity = interpolate(frame, [0, 14, 72, 90], [0, 1, 1, 0.88], {
+    extrapolateLeft: 'clamp',
+    extrapolateRight: 'clamp',
+  });
+  const y = interpolate(frame, [0, 22], [34, 0], {
+    extrapolateLeft: 'clamp',
+    extrapolateRight: 'clamp',
+  });
+  const scale = interpolate(frame, [0, 24, 90], [0.94, 1, 1.025], {
+    extrapolateLeft: 'clamp',
+    extrapolateRight: 'clamp',
+  });
+  const lineWidth = interpolate(frame, [8, 36], [0, 520], {
+    extrapolateLeft: 'clamp',
+    extrapolateRight: 'clamp',
+  });
+
   return (
-    <AbsoluteFill style={{ justifyContent: 'center', alignItems: 'center', backgroundColor: '#050505' }}>
+    <AbsoluteFill style={{ justifyContent: 'center', alignItems: 'center', backgroundColor: '#030406', overflow: 'hidden' }}>
+      <div style={{ position: 'absolute', inset: 0, background: 'radial-gradient(circle at 50% 46%, rgba(34,197,94,0.16), transparent 36%)' }} />
+      <div style={{ position: 'absolute', left: 120, right: 120, top: 470, height: 1, background: 'rgba(255,255,255,0.08)' }} />
+      <div style={{ position: 'absolute', left: 120, right: 120, bottom: 470, height: 1, background: 'rgba(255,255,255,0.08)' }} />
+      <div
+        style={{
+          opacity,
+          transform: `translateY(${y}px) scale(${scale})`,
+          display: 'grid',
+          justifyItems: 'center',
+          gap: 28,
+        }}
+      >
+        <div
+          style={{
+            color: '#22c55e',
+            fontFamily: 'Inter, Arial, sans-serif',
+            fontSize: 28,
+            fontWeight: 920,
+            textAlign: 'center',
+            textTransform: 'uppercase',
+            letterSpacing: 0,
+          }}
+        >
+          More Korea travel guides at
+        </div>
       <div
         style={{
           color: '#ffffff',
           fontFamily: 'Inter, Arial, sans-serif',
-          fontSize: 92,
+            fontSize: 104,
           fontWeight: 950,
           letterSpacing: 0,
           textAlign: 'center',
+            textShadow: '0 12px 44px rgba(34,197,94,0.34)',
         }}
       >
         {text}
+      </div>
+        <div style={{ width: lineWidth, height: 5, borderRadius: 999, background: '#22c55e', boxShadow: '0 0 26px rgba(34,197,94,0.62)' }} />
       </div>
     </AbsoluteFill>
   );
@@ -1450,6 +2011,7 @@ export function ReelComposition(props: ReelProps) {
                     : 'linear-gradient(180deg, rgba(0,0,0,0.38) 0%, rgba(0,0,0,0.05) 42%, rgba(0,0,0,0.66) 100%)',
                 }}
               />
+              <EmbeddedBrandShield scene={scene} />
               {motionCard ? (
                 <>
                   <MotionCardLayer card={motionCard} scene={scene} />

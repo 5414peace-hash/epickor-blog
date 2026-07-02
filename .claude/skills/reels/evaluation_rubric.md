@@ -22,18 +22,18 @@ final_score = sum(criterion_points)
 
 | ID | Criterion | Weight | What To Judge |
 | --- | --- | ---: | --- |
-| C01 | Hook Clarity And First 2 Seconds | 8 | The viewer understands the contrast/promise immediately and the opening frame works as a Reel thumbnail. |
-| C02 | Narration-Caption Timing | 12 | Captions appear at the right frame relative to speech, with expected caption lead considered. |
-| C03 | Scene Cut And Audio Boundary Sync | 10 | Scene cuts land naturally with the spoken idea and scene-level audio durations. |
-| C04 | Caption Readability And Phrase Quality | 8 | Captions are exact narration, short enough, readable on mobile, and not awkward fragments. |
-| C05 | Instagram Mobile Safe Area | 8 | Essential text is not hidden by profile, action rail, captions, comments, or bottom UI. |
-| C06 | Visual-Narration Relevance | 8 | Each visual directly supports the current spoken idea, not just the general topic. |
-| C07 | Motion-Card Fit And Density | 8 | Motion cards explain structure and follow the current two-insert standard for new Reels. They are not too frequent, too generic, or too dense. |
-| C08 | Pacing And Cognitive Load | 8 | The Reel feels natural to watch, neither rushed nor slow, and the viewer can process each beat. |
-| C09 | Visual Continuity, Variety, And Risk | 7 | No accidental duplicates, misleading images, privacy risk, or jarring visual style changes. |
-| C10 | CTA And Brand Finish | 6 | Final CTA is clear, natural, legible, and not too hard-sell. |
-| C11 | Technical Render Integrity | 9 | Correct resolution, fps, duration, audio stream, nonblank frames, no silent render, no wrong motion card. |
-| C12 | Production Traceability | 8 | Props, audio, source manifests, validation, contact sheet, and render version are reproducible. |
+| C01 | Hook And Thumbnail First 1.5 Seconds | 12 | The first frame and first spoken line create curiosity, tension, or a decision before a viewer swipes. |
+| C02 | Narration Entertainment And Naturalness | 10 | The script sounds spoken, specific, and engaging; it is not a flat blog-summary readout. |
+| C03 | Narration-Caption Timing | 9 | Captions appear at the right frame relative to speech, with expected caption lead considered. |
+| C04 | Scene Cut And Audio Boundary Sync | 8 | Scene cuts land naturally with the spoken idea and scene-level audio durations. |
+| C05 | Caption Readability And Phrase Quality | 7 | Captions are exact narration, short enough, readable on mobile, and not awkward fragments. |
+| C06 | Instagram Mobile Safe Area | 7 | Essential text is not hidden by profile, action rail, captions, comments, or bottom UI. |
+| C07 | Visual-Narration Relevance | 8 | Each visual directly supports the current spoken idea and the first scene has scroll-stopping visual force. |
+| C08 | Motion-Card Fit And Restraint | 7 | A normal new Reel uses one useful payoff insert by default; it is not too early, too generic, too dense, or duplicated. |
+| C09 | Pacing And Cognitive Load | 8 | The Reel feels natural to watch, neither rushed nor slow, and the viewer can process each beat. |
+| C10 | Visual Continuity, Variety, And Risk | 7 | No accidental duplicates, misleading images, privacy risk, or jarring visual style changes. |
+| C11 | CTA, Save/Share Reason, And Brand Finish | 7 | Final CTA is clear, natural, legible, not too hard-sell, and gives a concrete save/share reason. |
+| C12 | Technical Render Integrity And Traceability | 10 | Correct resolution, fps, duration, audio stream, nonblank frames, approved motion card, props, validation, contact sheet, and render version are reproducible. |
 
 Total: `100`.
 
@@ -54,8 +54,11 @@ Apply these caps after scoring:
 - If any scene weakens the central educational idea with a merely generic or narrow visual, cap at `86`.
 - If CTA or important lower text may be crowded by Instagram UI, cap at `88`.
 - If motion cards create noticeable reading load or feel like filler, cap at `86`.
-- If a new Reel uses more than two motion-card inserts without an explicit representative exception recorded in `HANDOFF.md`, cap at `86`.
+- If a normal new Reel uses two or more motion-card inserts without an explicit representative exception recorded in `HANDOFF.md`, cap at `86`.
+- If a normal new Reel has zero motion-card inserts without an explicit representative exception, cap at `88`.
 - If the hook is clear but not thumb-stopping within roughly the first second, cap at `86`.
+- If the narration is useful but mostly flat/informational, cap at `84`.
+- If the CTA says "save this" without a concrete reason to save or share, cap at `88`.
 - If the final score is above `90`, the report must explicitly explain why a real viewer would likely call it excellent, not just cleanly produced.
 - If the report contains an "optional improvement" that affects comprehension, retention, or mobile legibility, the score should usually stay below `90`.
 
@@ -75,6 +78,7 @@ Future new Reels should not repeat any defect that was fixed in this set. Treat 
 - motion-card footer or badge overlapping synced speech captions.
 - non-final yellow typography placed in the bottom Instagram UI region.
 - excessive same-looking motion cards in the middle of the Reel.
+- flat blog-summary narration that explains correctly but creates no curiosity or share/save reason.
 
 ## Reporting Requirement
 
@@ -97,6 +101,8 @@ Apply hard gates after scoring:
 - Validation fails with `--require-scene-audio`: cap at `69`.
 - Caption text differs from narration: cap at `79`; if widespread, cap at `69`.
 - Approved motion-card option is not the rendered option: cap at `69`.
+- Normal new Reel uses two or more motion-card inserts without a representative exception: cap at `69`.
+- Strategy brief is missing Reels Viral Fit Score, selected voice lane, three thumbnail directions, or one motion-card role: cap at `79`.
 - Severe mobile occlusion of hook/CTA/core caption: cap at `79`; if repeated, cap at `69`.
 - Misleading or privacy-risk visual: cap at `59`.
 - Text-heavy rendered graphic/card-news PNG used as an ordinary background: cap at `69`; cap at `59` if it misleads or makes the scene unreadable.
@@ -148,8 +154,9 @@ Fix in this order:
 
 1. Hard gates.
 2. Caption/audio sync.
-3. Hook and first 2 seconds.
+3. Hook and first 1.5 seconds.
 4. Mobile safe-area occlusion.
-5. Motion-card density and readability.
-6. Visual relevance.
-7. CTA polish.
+5. Narration entertainment and naturalness.
+6. Motion-card restraint and readability.
+7. Visual relevance.
+8. CTA/save/share polish.

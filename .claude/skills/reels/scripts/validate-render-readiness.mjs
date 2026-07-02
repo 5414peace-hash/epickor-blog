@@ -116,9 +116,17 @@ if (!slug || !/^[a-zA-Z0-9_-]+$/.test(slug)) {
 const numericSlug = Number(slug);
 const usesStrictTextBudget = !Number.isFinite(numericSlug) || numericSlug >= 175;
 const usesTwoMotionCardLimit = !Number.isFinite(numericSlug) || numericSlug >= 176;
+const usesOneMotionCardLimit = !Number.isFinite(numericSlug) || numericSlug >= 199;
+const projectTwoMotionCardOverrideSlugs = new Set(['225', '228']);
 const maxCaptionWords = usesStrictTextBudget ? 5 : 7;
 const maxCaptionChars = usesStrictTextBudget ? 26 : 40;
-const maxMotionCards = usesTwoMotionCardLimit ? 2 : Number.POSITIVE_INFINITY;
+const maxMotionCards = projectTwoMotionCardOverrideSlugs.has(String(slug))
+  ? 2
+  : usesOneMotionCardLimit
+    ? 1
+    : usesTwoMotionCardLimit
+      ? 2
+      : Number.POSITIVE_INFINITY;
 
 const reelDir = path.join(ROOT, 'output', 'reels', slug);
 const publicDir = path.join(ROOT, 'public', 'assets', 'reels', slug);
@@ -138,8 +146,9 @@ const approvedFile = readJson(approvedPath);
 const motionCardsFile = readJson(motionCardsPath);
 const props = readJson(propsPath);
 
-if (scenesFile.status !== 'visuals_approved') {
-  fail('scenes.json is not finalized as visuals_approved.');
+const renderReadySceneStatuses = new Set(['visuals_approved', 'representative_confirmed_final']);
+if (!renderReadySceneStatuses.has(scenesFile.status)) {
+  fail(`scenes.json is not finalized for rendering. status=${scenesFile.status || 'missing'}`);
 }
 
 if (!approvedFile.finalizedAt) {
@@ -150,7 +159,7 @@ const approvedMotionCards = (motionCardsFile.cards || []).filter((card) => card.
 if (approvedMotionCards.length > maxMotionCards) {
   fail(
     `Too many approved motion cards for current Reels standard: ${approvedMotionCards.length}.`,
-    `max=${maxMotionCards}; new Reels should use two motion-card inserts unless the representative records an explicit exception.`
+    `max=${maxMotionCards}; project-level overrides may allow two motion-card inserts when recorded in the Reel brief.`
   );
 }
 const approvedMotionByScene = new Map();

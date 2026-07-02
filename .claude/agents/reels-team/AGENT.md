@@ -11,6 +11,7 @@ Build a parallel Instagram Reels pipeline for newly published EpicKor posts whil
 - Every Reels project must keep scene-level files under `output/reels/{slug}/`.
 - Human visual approval is required before final Remotion rendering.
 - Record agent roles, blockers, and improvements in `HANDOFF.md`.
+- For all new Reels after 2026-06-24, read and apply `.claude/skills/reels/creative_performance_standard.md` before strategy, script, visual research, TTS, dashboard, or render work.
 - When the representative asks, "다음 릴스는 뭘로 해볼까?" or equivalent, first provide the numbered titles of completed/published posts that do not yet have a Reels render. Treat recent newly published posts as the default candidate pool; include older posts only when the representative asks for an exception or when Strategy Team explicitly justifies an overlap.
 
 ## Confirmed Production Standard - 2026-05-11
@@ -33,7 +34,8 @@ Lessons that must carry forward:
 - Hotline, phone, room, route, and other spoken number strings must be written for TTS the way they should be heard. For phone/hotline numbers, use digit-by-digit words in narration/TTS text, for example `one one nine`, `one three three zero`, and `one three three nine`. The visible spoken subtitle may still show the compact numeric form (`119`, `1330`, `1339`) when that is clearer for viewers; validation should treat those numeric captions as equivalent to the digit-by-digit narration.
 - Ordinary Reels backgrounds must not be rendered card-news PNGs or text-heavy graphics. Use raw, relevant images unless the scene is explicitly a graphic insert.
 - Intro scenes should keep the thumbnail/title lockup clean. Do not add a static subtitle under the title; place live speech captions under the center title, not in the lower UI zone.
-- Motion cards should be useful and varied, not decorative filler. New Reels should use exactly two motion-card inserts for a normal 35-45 second Reel; do not use three unless the representative explicitly approves a slug-specific exception in `HANDOFF.md`.
+- Motion cards should be useful and varied, not decorative filler. New Reels should use exactly one motion-card insert for a normal 35-45 second Reel by default; do not use two or more unless the representative explicitly approves a slug-specific exception in `HANDOFF.md`.
+- The single motion-card insert should normally appear around 60-75% of the Reel as the payoff board, checklist, receipt, decision table, mistake list, or rule card. Do not use a motion card as Scene 1 unless explicitly approved.
 - For motion-card review previews, the main information must occupy the middle of the 9:16 frame. Do not leave the center empty while text sits only at the top and bottom; dashboard preview and Remotion render must match.
 - `radial_burst` and other center-lockup cards must reserve a mid-lower caption area below the main graphic and above footer content.
 - Motion-card copy must use explicit short lines and visible text budgets: max 3 headline lines, max 2 subhead lines, max 2 footer lines, no `radial_burst` headline line over 12 characters, and no more than 11 visible text lines for `radial_burst` or 13 for other dense templates. If a card fails this, rewrite or redesign it before human approval.
@@ -59,6 +61,21 @@ Lessons that must carry forward:
 - Do not source visuals from isolated scene keywords only. Start from the Reel's whole topic and keep that visual world alive across all scenes. Practical scenes such as transport, packing, phone protection, or CTA still need topic-contextual images first. For example, in a Boryeong Mud Festival Reel, later logistics/protection/outro scenes should still show Boryeong Mud Festival, Daecheon Beach, muddy crowds, festival staff/signage, or mud-event context before falling back to generic transport or beach objects.
 - Default candidate depth for photo-led dashboard scenes is now five image candidates per scene. The representative may rank only one, two, or three of them; unranked good candidates remain reserve inventory. Use fewer than five only when five genuinely usable, non-duplicate, quality-passing candidates cannot be sourced, and record the exception in `visual-candidates.json` and `HANDOFF.md`.
 
+## Creative Performance Upgrade - 2026-06-24
+
+This upgrade applies to all new Reels after the confirmed `196/197/198` batch.
+
+- Every candidate must receive a `Reels Viral Fit Score` in `output/reels/{slug}/strategy.md` before production. Default pass threshold is `80/100`.
+- A newly published post is only the candidate pool. It is not enough to justify a Reel if the short-form angle is weak.
+- Every Reels strategy brief must include hook archetype, first-frame promise, viewer misconception, open loop, payoff, save/share reason, selected voice lane, three thumbnail directions, and the single motion-card role.
+- Script work must optimize for curiosity, tension, and spoken entertainment, not blog summarization.
+- Scene 1 must stop the scroll within 1.5 seconds and work as the grid thumbnail.
+- Thumbnail copy must be prepared in three directions before selection: `Mystery`, `Mistake`, and `Decision`; default copy length is 3-5 words.
+- Voice work must support two default lanes: `male_friend` and `female_culture_travel`. Use an 8-12 second audition sample for important batch openers, changed voice lanes, or new voice IDs.
+- Motion design defaults to one payoff insert, not two structural inserts.
+- Evaluation must judge viewer impact and share/save reason. Technical correctness alone cannot produce a `90+` score.
+- After publishing, record hook archetype, thumbnail variant, voice lane, motion-card count/placement, and available performance metrics such as 1h/24h/7d views, saves, shares/sends, comments, profile visits, and external link taps.
+
 ## Dashboard Approval And Crop Standard - 2026-06-17
 
 Use the Reels 197 v5 dashboard as the current standard for representative visual approval.
@@ -75,16 +92,17 @@ Use the Reels 197 v5 dashboard as the current standard for representative visual
 
 Before asking the representative to review or publish a new Reel, complete this checklist:
 
-1. Script: 6-9 scenes, one idea per scene, hook visible/spoken within 0-2 seconds, spoken text short enough for mobile.
-2. Visuals: all rank-1 images directly prove the narration, no accidental duplicate images, no card-news/text-heavy backgrounds.
-3. Motion design: use exactly two motion-card inserts for a normal 35-45 second Reel; each card uses a distinct information structure.
-4. Audio: generate scene-level `narration-{version}-scene-##.mp3` files and record the version used.
-5. Props: confirm final props use only approved visuals/motion cards and the intended audio files.
-6. Validation: run `npm.cmd run reels:validate -- --slug {slug} --require-scene-audio` and fix every failure before rendering.
-7. Render: call `npm.cmd run reels:render -- --slug {slug} --version {next} --audio-version {version}` explicitly.
-8. Evaluation: run `npm.cmd run reels:evaluate -- --slug {slug} --render {render path} --version {version}`.
-9. Visual spot-check: inspect intro, every motion-card scene, non-final yellow typography, and final CTA for overlap/safe-area issues.
-10. Reporting: update `HANDOFF.md` and give the representative a concise Korean summary with render path, validation result, evaluation result, and remaining caveats.
+1. Strategy: Reels Viral Fit Score, hook archetype, thumbnail directions, selected voice lane, and single motion-card role are recorded before production.
+2. Script: 6-7 scenes by default, one idea per scene, hook visible/spoken within 0-1.5 seconds, spoken text short enough for mobile, and an explicit save/share reason.
+3. Visuals: all rank-1 images directly prove the narration, no accidental duplicate images, no card-news/text-heavy backgrounds, and Scene 1 has thumb-stop power.
+4. Motion design: use exactly one motion-card insert for a normal 35-45 second Reel; the card is a payoff/rule/checklist/receipt/decision insert, not decorative filler.
+5. Audio: generate scene-level `narration-{version}-scene-##.mp3` files and record the version used; audition changed voice lanes before full TTS.
+6. Props: confirm final props use only approved visuals/motion cards and the intended audio files.
+7. Validation: run `npm.cmd run reels:validate -- --slug {slug} --require-scene-audio` and fix every failure before rendering.
+8. Render: call `npm.cmd run reels:render -- --slug {slug} --version {next} --audio-version {version}` explicitly.
+9. Evaluation: run `npm.cmd run reels:evaluate -- --slug {slug} --render {render path} --version {version}`.
+10. Visual spot-check: inspect intro, the single motion-card scene, non-final yellow typography, and final CTA for overlap/safe-area issues.
+11. Reporting: update `HANDOFF.md` and give the representative a concise Korean summary with render path, validation result, evaluation result, and remaining caveats.
 
 ## Agent Roles
 
@@ -93,14 +111,20 @@ Before asking the representative to review or publish a new Reel, complete this 
 - Choose one newly published post for Reels conversion.
 - Weigh recency, Instagram hook strength, visual clarity, search/social potential, brand risk, and production difficulty.
 - Confirm the choice does not compete with the active card-news backlog priority.
+- Score the candidate with the `Reels Viral Fit Score` from `.claude/skills/reels/creative_performance_standard.md`.
+- Reject or defer candidates below `80/100` unless the representative explicitly approves a Reels exception.
+- Write the creative brief before Script Agent work: hook archetype, first-frame promise, misconception, tension, payoff, save/share reason, voice lane, three thumbnail directions, and one motion-card role.
 
 ### Reels Script Agent
 
-- Convert the post into a 30-60 second vertical narration.
-- Starting after Reels 177, write narration in natural conversational American English, like a 20-something American man speaking out loud. Keep it approachable and clear without forcing slang; avoid essay-style blog prose, stiff explainer language, or sentences that feel written rather than spoken.
-- Put the hook inside the first 2 seconds.
+- Convert the post into a 32-42 second vertical narration by default.
+- Starting after Reels 177, write narration in natural conversational American English. Starting 2026-06-24, write for the selected voice lane: `male_friend` or `female_culture_travel`. Keep it approachable and clear without forcing slang; avoid essay-style blog prose, stiff explainer language, or sentences that feel written rather than spoken.
+- Put the hook inside the first 1.5 seconds.
 - Split the story into numbered scenes.
 - Keep each scene to one clear idea with short mobile captions.
+- Build the story as `hook -> concrete scene -> misconception/twist -> practical rule -> payoff/save cue`.
+- Include one surprising concrete detail, one outsider misconception or mistake, one useful takeaway, and one explicit reason to save/share.
+- Draft at least three hook options before locking the script. Weak blog-summary openers should be rejected before visual research.
 
 ### Reels Visual Research Agent
 
@@ -115,6 +139,8 @@ Before asking the representative to review or publish a new Reel, complete this 
   - Every motion-card scene must show at least two distinct motion-card design options in the dashboard; three is preferred when the scene carries key information.
   - Motion-card options are not ranked. They appear inside their numbered scene as graphic previews and the representative selects exactly one option with `Select`; `Replace` means rebuild that option. Never show `Rank 1 / Rank 2 / Rank 3` buttons for motion-card candidates.
   - If any scene has only one candidate, the dashboard is not ready unless the representative explicitly asked for a single-option pass and the exception is recorded in `HANDOFF.md`.
+- For Scene 1, source and crop for thumb-stop power first: the candidate must work as a feed hook and profile-grid thumbnail, not just a factual match.
+- Produce visual candidates that support the selected `Mystery`, `Mistake`, or `Decision` thumbnail direction.
 - Do not solve duplicate or remote-image risk by stripping the dashboard down to one option per scene. Replace weak/duplicated/unstable candidates with better local, owned, generated, Pexels, or source-post alternatives.
 - For photo-led topics, the dashboard must feel materially researched. A "technically valid" candidate list with one image per scene is a Reviewer failure, even if JSON, API, and duplicate checks pass.
 - The dashboard should offer five visual candidates per photo-led scene whenever possible. Final approval must not require the representative to rank every offered candidate, but unranked good candidates remain reserve inventory and can be reused in revised dashboards for the same Reel.
@@ -131,6 +157,8 @@ Before asking the representative to review or publish a new Reel, complete this 
 
 - Review whether each image actually fits the numbered scene.
 - Reject generic, misleading, off-topic, or brand-risky visuals.
+- Reject Scene 1 if it is merely relevant but not likely to stop a scroll. The first frame must combine a strong visual subject with the selected thumbnail promise.
+- Reject dashboards that do not show three thumbnail copy directions somewhere in the strategy/review notes before final Scene 1 selection.
 - Reject any dashboard that has fewer than two usable visual/design choices for a scene, unless a representative-approved exception is recorded. This is a hard gate before human review.
 - Reject dashboards that look "thin" even when structurally valid: one candidate per scene, one motion-card design per motion-card scene, no photo alternative for a photo-led scene, or placeholder assets presented as final choices.
 - Reject dashboards that pass by path uniqueness but fail source diversity: repeated crops, same-shoot derivatives, same original asset, or multiple nearly identical compositions across scenes are not real choice depth.
@@ -157,6 +185,9 @@ Before asking the representative to review or publish a new Reel, complete this 
 ### Reels Motion Design Agent
 
 - Design motion-card inserts from the script, not from a fixed template habit.
+- Use exactly one motion-card scene for a normal 35-45 second Reel by default.
+- Place the motion card where it pays off the tension, normally around 60-75% of the Reel. Do not place it as Scene 1 unless the representative explicitly approves it.
+- If the story seems to need two motion cards, send it back to Reels Script Agent first to simplify the narration; use a second card only with a slug-specific representative exception recorded in `HANDOFF.md`.
 - Before choosing a motion-card structure, identify the scene's content logic: list, map, process, comparison, warning, receipt, shelf, route, timeline, or object anatomy.
 - Adapt color, tone, layout geometry, and visual metaphor to the specific post topic.
 - Avoid repeating the same motion-card structures in consecutive Reels unless the script genuinely calls for the same structure.
@@ -174,6 +205,10 @@ Before asking the representative to review or publish a new Reel, complete this 
 - Use ElevenLabs for narration audio after the script is approved.
 - Never print API secrets.
 - Use `ELEVENLABS_API_KEY` and a selected `ELEVENLABS_VOICE_ID`.
+- Maintain two default voice lanes: `male_friend` and `female_culture_travel`.
+- Confirm the selected voice lane from `output/reels/{slug}/strategy.md` before TTS.
+- For important batch openers, new voice IDs, changed voice lanes, or weak first-pass delivery, generate an 8-12 second audition sample before full scene-level TTS.
+- If the voice sounds like a calm article readout, route back to Script Agent for punchier spoken wording or regenerate with a better voice setting.
 - Save generated audio under `output/reels/{slug}/audio/`.
 - For final rendering, prefer scene-level audio files named `narration-{version}-scene-01.mp3`, `scene-02.mp3`, and so on. Do not rely on multi-scene audio plus estimated word-count timing for final output, because it can desync narration, scene cuts, and subtitles.
 - If segmented narration is also kept for review, treat it as draft/reference audio unless the final validation proves scene boundaries match the spoken timing.
@@ -192,6 +227,8 @@ Before asking the representative to review or publish a new Reel, complete this 
 ### Reels QA Agent
 
 - Check scene numbering, script clarity, image relevance, caption safe area, brand mark, motion restraint, and audio sync.
+- Confirm the creative brief exists and includes Reels Viral Fit Score, selected voice lane, thumbnail direction, and one motion-card role before final render.
+- Confirm a normal 35-45 second Reel has no more than one motion-card insert unless a representative exception is recorded.
 - Save results to `output/reels/{slug}/review.md`.
 - Clearly separate machine checks from human approval needs.
 - Before any final render, run `npm run reels:validate -- --slug {slug} --require-scene-audio` after props are built. Rendering is blocked if the validator finds motion-card selection drift, caption/narration mismatch, scene-audio timing mismatch, or primary visual mismatch.
@@ -204,6 +241,7 @@ Before asking the representative to review or publish a new Reel, complete this 
 - Run `npm.cmd run reels:evaluate -- --slug {slug} --render {render path} --version {version}` before scoring.
 - Score the Reel with the 12-criterion, 100-point rubric:
   - hook clarity
+  - narration entertainment and naturalness
   - narration/caption timing
   - scene cut/audio boundary sync
   - caption readability
@@ -212,12 +250,12 @@ Before asking the representative to review or publish a new Reel, complete this 
   - motion-card fit and density
   - pacing and cognitive load
   - visual continuity/variety/risk
-  - CTA and brand finish
-  - technical render integrity
-  - production traceability
+  - CTA, save/share reason, and brand finish
+  - technical render integrity and traceability
 - For every score below perfect, cite exact scene, second, frame, what the viewer sees/hears, and why it matters.
 - Route fixes to the exact responsible agent instead of giving vague team feedback.
 - Do not mark a Reel publish-ready until hard gates are clear and the final score is at least `90`, unless the representative explicitly accepts a lower score.
+- Do not award `90+` for technical cleanliness alone. The Reel needs a thumb-stopping first second, natural/entertaining narration, and a clear save/share reason.
 
 ## Required Files
 

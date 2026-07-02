@@ -43,6 +43,120 @@ function splitCaption(text) {
 }
 
 const captionBeatOverridesBySlug = {
+  225: {
+    1: [
+      'In Korea, the fastest ride\nis not always the best route.',
+      'KTX, SRT, and buses\nsolve different problems.',
+    ],
+    2: [
+      'Start with your hotel,\nnot the vehicle.',
+      'Seoul Station points you\ntoward KTX.',
+      'Gangnam or Songpa\ncan make Suseo easier.',
+    ],
+    3: [
+      'Pick by station first:',
+      'central Seoul means KTX,',
+      'Gangnam means SRT,',
+      'smaller cities can mean bus.',
+    ],
+    4: [
+      'KTX is the classic\nlong-distance choice,',
+      'especially for Busan,\nDaegu, Daejeon,',
+      'Gyeongju, and major\nrail corridors.',
+    ],
+    5: [
+      'But buses are not\na downgrade.',
+      'For smaller cities,\nbeaches, temples, festivals,',
+      'or sold-out trains,',
+      'the terminal can win.',
+    ],
+    6: [
+      'Compare door-to-door time:',
+      'hotel to station,\nplatform buffer,',
+      'main ride,\narrival transfer,',
+      'and luggage stress.',
+    ],
+    7: [
+      'Save this before booking\nintercity travel in Korea.',
+      'More Korea travel\nguides at',
+      'epicKor.com',
+    ],
+  },
+  228: {
+    1: [
+      'A Korean temple stay\nis not a spa night',
+      'with better scenery.\nIt is a real temple schedule.',
+    ],
+    2: [
+      'You are joining\na hosted cultural program',
+      'inside an active\nBuddhist temple,',
+      'with guides, monks,\nstaff, and rules.',
+    ],
+    3: [
+      'So pick the\nprogram type first:',
+      'day program, rest stay,',
+      'experience stay,\nor overnight.',
+      'Do not book by\nthe prettiest photo.',
+    ],
+    4: [
+      'Depending on the temple,',
+      'you might meditate,\ndrink tea, eat simply,',
+      'join chanting,\nor do one hundred eight bows.',
+    ],
+    5: [
+      'The basic rule\nis simple:',
+      'dress modestly,\nkeep your phone quiet,',
+      'arrive on time,\nand ask before filming',
+      'people or ceremonies.',
+    ],
+    6: [
+      'For Seoul,\nchoose easy access.',
+      'For a mountain temple,\ncheck weather, stairs,',
+      'bedding, luggage,\nand the last bus.',
+    ],
+    7: [
+      'Save this before booking\na Korea temple stay.',
+      'More Korean culture\nguide at',
+      'epicKor.com',
+    ],
+  },
+  229: {
+    1: [
+      'In Korea, the floor\nis not just floor.',
+      'It is where\nlife happens.',
+    ],
+    2: [
+      'That is why shoes stop\nat the entrance',
+      'before your body fully\nenters the clean space.',
+    ],
+    3: [
+      'Ondol made warm\nfloors normal,',
+      'so sitting, eating,\nand sleeping closer',
+      'to the floor actually\nmade sense.',
+    ],
+    4: [
+      'The mistake is thinking\nthis is ancient cosplay.',
+      'Low tables and mats are also\nflexible modern furniture.',
+    ],
+    5: [
+      'Here is the rule\nto save:',
+      'outside shoes stay out,',
+      'clean socks or guest\nslippers stay in,',
+      'and bathroom slippers stay\nin the bathroom.',
+    ],
+    6: [
+      'So do not roll\na suitcase',
+      'across the clean floor,',
+      'and do not wander out\nwearing bathroom slippers.',
+    ],
+    7: [
+      'Save this before\na Korean home visit,',
+      'hanok stay,\nfloor-seat restaurant,',
+      'or jjimjilbang.',
+      'More Korean culture\nguide at',
+      'epicKor.com',
+    ],
+  },
   197: {
     1: [
       'Boryeong Mud Festival\nis the one Korea summer',
@@ -1332,9 +1446,31 @@ const captionStartFrameOverridesBySlug = {
     6: [0, 48, 88, 128],
     7: [0, 58, 104],
   },
+  228: {
+    5: [0, 44, 96, 134],
+    7: [0, 66, 106],
+  },
+  229: {
+    7: [0, 72, 118, 154, 201],
+  },
+  225: {
+    3: [0, 42, 82, 122],
+    5: [0, 55, 108, 144],
+    6: [0, 42, 84, 124],
+    7: [0, 56, 92],
+  },
 };
 
 const sceneDurationFrameOverridesBySlug = {
+  225: {
+    1: 162,
+    2: 180,
+    3: 174,
+    4: 168,
+    5: 192,
+    6: 174,
+    7: 144,
+  },
   185: {
     // Tuned from part-02 silence detection so scenes 4-6 stay synced after "goes to recover."
     4: 144,
@@ -1561,6 +1697,105 @@ if (hasSceneAudio) {
   }
 }
 
+function imageFitModeFor(slug, sceneNumber, asset) {
+  const defaultFitMode = asset.fitMode || 'cover';
+  const overrides = {
+    229: {
+      4: {
+        1: 'framed_16_9',
+      },
+      6: {
+        2: 'framed_16_9',
+      },
+    },
+  };
+
+  return overrides[slug]?.[sceneNumber]?.[asset.rank] || defaultFitMode;
+}
+
+function imageCameraMoveFor(slug, sceneNumber, rank) {
+  const moves = {
+    225: {
+      1: {
+        1: 'pan_right',
+        2: 'pan_left',
+        3: 'drift_up',
+      },
+      2: {
+        1: 'pan_left',
+        2: 'pan_right',
+        3: 'drift_up',
+      },
+      4: {
+        1: 'pan_right',
+        2: 'pan_left',
+        3: 'drift_down',
+      },
+      5: {
+        1: 'pan_up',
+        2: 'pan_right',
+        3: 'pan_left',
+      },
+      7: {
+        1: 'slow_zoom_out',
+        2: 'drift_right',
+      },
+    },
+    228: {
+      1: {
+        1: 'drift_up',
+        2: 'pan_down',
+      },
+      2: {
+        1: 'pan_right',
+        2: 'pan_left',
+      },
+      4: {
+        1: 'pan_down',
+        2: 'drift_right',
+        3: 'pan_left',
+      },
+      6: {
+        1: 'pan_left',
+        2: 'pan_right',
+      },
+      7: {
+        1: 'slow_zoom_out',
+        2: 'drift_up',
+      },
+    },
+    229: {
+      1: {
+        1: 'drift_up',
+        2: 'pan_down',
+      },
+      2: {
+        1: 'pan_right',
+        2: 'pan_left',
+      },
+      3: {
+        1: 'pan_down',
+        2: 'drift_right',
+      },
+      4: {
+        1: 'drift_left',
+        2: 'pan_up',
+        3: 'pan_right',
+      },
+      6: {
+        1: 'pan_down',
+        2: 'drift_right',
+      },
+      7: {
+        1: 'pan_up',
+        2: 'pan_left',
+      },
+    },
+  };
+
+  return moves[slug]?.[sceneNumber]?.[rank] || undefined;
+}
+
 const scenes = scenesFile.scenes.map((scene, index) => {
   const isLastScene = index === scenesFile.scenes.length - 1;
   const proportionalFrames = Math.round((narrationWeight(scene) / totalWeight) * targetFrames);
@@ -1587,6 +1822,11 @@ const scenes = scenesFile.scenes.map((scene, index) => {
       publicPath: asset.publicPath,
       staticFilePath: String(asset.publicPath || '').replace(/^\//, ''),
       sourceUrl: asset.src,
+      width: asset.width || undefined,
+      height: asset.height || undefined,
+      aspectRatio: asset.aspectRatio || undefined,
+      fitMode: imageFitModeFor(slug, scene.number, asset),
+      cameraMove: imageCameraMoveFor(slug, scene.number, asset.rank),
     })),
   };
   startFrame += durationFrames;
@@ -1627,6 +1867,9 @@ const approvedMotionCards = (motionCardsFile.cards || []).filter((card) => card.
 
 const outroFrameOverridesBySlug = {
   186: 180,
+  225: 90,
+  228: 90,
+  229: 90,
 };
 const outroFrames = outroFrameOverridesBySlug[slug] || 60;
 
@@ -1650,7 +1893,7 @@ const props = {
   outro: {
     startFrame,
     durationFrames: outroFrames,
-    text: 'epickor.com',
+    text: 'epicKor.com',
   },
   brand: {
     label: 'EpicKor',
