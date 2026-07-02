@@ -1,5 +1,33 @@
 # HANDOFF - EpicKor Agent Teams v2
 
+## Latest Update - 2026-07-02 Reels 258/259/260 Final Confirmation Split
+
+- Representative confirmed:
+  - Reel `259`: approved final candidate is `output/reels/259/render/epickor-reel-259-v005.mp4`.
+  - Reel `260`: approved final candidate is `output/reels/260/render/epickor-reel-260-v005.mp4`.
+- Representative requested one more Reel `258` visual framing revision:
+  - The sannakji/live-octopus part was still not visible enough.
+  - Requested behavior: start that part from the right side of the photo, then move left across the image.
+- Completed Reel `258` revision:
+  - Added a dedicated `right_to_left_scan` camera move in `remotion/ReelComposition.tsx` and `remotion/types.ts`.
+  - Applied `right_to_left_scan` only to Reel `258` Scene 6 rank-1 image via `.claude/skills/reels/scripts/build-remotion-props.mjs`.
+  - Rebuilt props and rendered `output/reels/258/render/epickor-reel-258-v006.mp4`.
+- Validation and review:
+  - `npm.cmd run reels:props -- --slug 258 --audio-version v001` passed.
+  - `npm.cmd run reels:validate -- --slug 258 --require-scene-audio` passed.
+  - `npx.cmd tsc --noEmit --pretty false` passed.
+  - `npm.cmd run reels:render -- --slug 258 --audio-version v001 --version v006` completed.
+  - `npm.cmd run reels:evaluate -- --slug 258 --render output\reels\258\render\epickor-reel-258-v006.mp4 --version v006` completed.
+  - Manual frame review checked extracted frames around Scene 6 (`00:16.90`, `00:17.20`, `00:18.30`) and `output/reels/258/evaluation/scene-grid-v006.jpg`; the live-octopus/sannakji is much larger and visible from the start of the requested part while the camera moves left.
+- Current status:
+  - Reel `259` and Reel `260` are representative-confirmed.
+  - Reel `258` v006 is ready for representative confirmation.
+  - The three-Reel upload/scheduling batch should wait until Reel `258` v006 is confirmed.
+- Agents involved:
+  - Motion/Render Agent: added the new right-start-to-left-scan camera move and rendered Reel `258` v006.
+  - Reviewer Agent: reran validation/evaluation and manually inspected Scene 6 frames and the scene grid.
+  - Coordinator Agent: recorded the confirmation split so `259`/`260` remain approved while `258` awaits final confirmation.
+
 ## Latest Update - 2026-07-02 Reels 258/259/260 Second Representative Revision Pass Complete
 
 - Representative requested three additional fixes after reviewing the previous revision renders:

@@ -1815,7 +1815,7 @@ function imageCameraMoveFor(slug, sceneNumber, rank) {
   const moves = {
     258: {
       6: {
-        1: 'anchor_right',
+        1: 'right_to_left_scan',
       },
     },
     225: {
