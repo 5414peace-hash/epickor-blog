@@ -13,3 +13,8 @@
 - `daejeon-expo-science-park.jpg`
   - Source: Pre-existing local asset copied into the 264 folder during this session.
   - Use: Expo Science Park and Hanbit Tower representative image.
+- `daejeon-station-exterior.jpg`
+  - Source: Culture Journal MAC article image.
+  - Page checked: `https://www.themac.co.kr/news/articleView.html?idxno=2564`
+  - URL used: `https://cdn.themac.co.kr/news/photo/202306/2564_9995_5424.jpg`
+  - Use: Daejeon Station rail-hub context for the day-trip route.
