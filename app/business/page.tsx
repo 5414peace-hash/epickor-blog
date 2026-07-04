@@ -36,7 +36,7 @@ function formatDate(value: string): string {
 }
 
 function getBusinessImageClass(imagePath: string, extraClasses: string = ''): string {
-  const fitClass = imagePath.toLowerCase().endsWith('.svg') ? 'object-contain p-4' : 'object-cover';
+  const fitClass = imagePath.toLowerCase().endsWith('.svg') ? 'object-contain' : 'object-cover';
   return `${fitClass} ${extraClasses}`.trim();
 }
 
