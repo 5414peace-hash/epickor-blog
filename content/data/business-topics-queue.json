@@ -1,7 +1,7 @@
 {
   "last_updated": "2026-07-04",
   "approval_required": true,
-  "next_id": 1,
+  "next_id": 11,
   "allowed_statuses": ["candidate", "approved", "rejected", "blocked"],
   "rules": {
     "candidate": "Topic can be proposed in a weekly list, but must not be drafted.",
