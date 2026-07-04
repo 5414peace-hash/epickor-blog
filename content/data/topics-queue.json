@@ -2260,8 +2260,118 @@
       "status": "done",
       "generated_slug": "260",
       "generated_date": "2026-07-01"
+    },
+    {
+      "id": 105,
+      "title": "Korea Stock Market 2026: Samsung, SK Hynix, AI Chips",
+      "keywords": [
+        "Korea stock market 2026",
+        "SK Hynix Samsung stock",
+        "KOSPI AI chip rally",
+        "Korean retail investors"
+      ],
+      "category": "Economy",
+      "tags": [
+        "KoreaStocks",
+        "Samsung",
+        "SKHynix",
+        "AIChips",
+        "KoreanEconomy"
+      ],
+      "amazon_category": "Books",
+      "status": "done",
+      "generated_slug": "261",
+      "generated_date": "2026-07-04"
+    },
+    {
+      "id": 106,
+      "title": "Busan Beach Guide 2026: Haeundae, Gwangalli, Songdo, Or Dadaepo?",
+      "keywords": [
+        "Busan beach guide",
+        "Haeundae vs Gwangalli",
+        "Songdo Beach Busan",
+        "Dadaepo Beach sunset"
+      ],
+      "category": "Travel",
+      "tags": [
+        "BusanBeach",
+        "Haeundae",
+        "Gwangalli",
+        "Songdo",
+        "Dadaepo"
+      ],
+      "amazon_category": "Travel",
+      "status": "done",
+      "generated_slug": "262",
+      "generated_date": "2026-07-04"
+    },
+    {
+      "id": 107,
+      "title": "Samgyetang And Boknal 2026: Korea's Hot Summer Soup",
+      "keywords": [
+        "samgyetang",
+        "Boknal",
+        "Korean ginseng chicken soup",
+        "Korea summer food"
+      ],
+      "category": "Food",
+      "tags": [
+        "Samgyetang",
+        "Boknal",
+        "KoreanFood",
+        "KoreaSummer",
+        "GinsengChickenSoup"
+      ],
+      "amazon_category": "Food",
+      "status": "done",
+      "generated_slug": "263",
+      "generated_date": "2026-07-04"
+    },
+    {
+      "id": 108,
+      "title": "Daejeon Day Trip 2026: Science City, Sungsimdang, And KTX",
+      "keywords": [
+        "Daejeon day trip",
+        "Sungsimdang bakery",
+        "Daejeon KTX",
+        "Expo Science Park Daejeon"
+      ],
+      "category": "Travel",
+      "tags": [
+        "Daejeon",
+        "Sungsimdang",
+        "KTX",
+        "KoreaTravel",
+        "ScienceCity"
+      ],
+      "amazon_category": "Travel",
+      "status": "done",
+      "generated_slug": "264",
+      "generated_date": "2026-07-04"
+    },
+    {
+      "id": 109,
+      "title": "Korea AI Chip Wealth Divide: Bonuses And Ant Investors",
+      "keywords": [
+        "Korea AI chip wealth divide",
+        "Samsung SK Hynix bonuses",
+        "Korean ant investors",
+        "semiconductor boom inequality"
+      ],
+      "category": "Economy",
+      "tags": [
+        "AIChips",
+        "KoreanEconomy",
+        "Samsung",
+        "SKHynix",
+        "WealthGap"
+      ],
+      "amazon_category": "Books",
+      "status": "done",
+      "generated_slug": "265",
+      "generated_date": "2026-07-04"
     }
   ],
-  "last_updated": "2026-07-01",
-  "next_slug": 261
+  "last_updated": "2026-07-04",
+  "next_slug": 266
 }

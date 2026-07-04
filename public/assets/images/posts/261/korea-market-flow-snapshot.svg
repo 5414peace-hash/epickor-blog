@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">Korea stock market flow snapshot</title>
+  <desc id="desc">A data-style illustration comparing Korean retail investment flows into domestic stocks, Korean ETFs, U.S. equities, brokerage deposits, and margin loans in 2026.</desc>
+  <rect width="1200" height="675" fill="#f6f7f3"/>
+  <rect x="64" y="58" width="1072" height="559" rx="24" fill="#ffffff" stroke="#20251f" stroke-width="3"/>
+  <text x="104" y="125" fill="#20251f" font-family="Arial, Helvetica, sans-serif" font-size="42" font-weight="700">Korea Market Flow Snapshot</text>
+  <text x="104" y="166" fill="#526055" font-family="Arial, Helvetica, sans-serif" font-size="21">Different figures measure different things: net buys, ETF flows, holdings, deposits, and leverage.</text>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <rect x="104" y="222" width="210" height="250" rx="16" fill="#e9f3ee" stroke="#b7d0c1"/>
+    <text x="126" y="268" fill="#274c3d" font-size="20" font-weight="700">Local Stocks</text>
+    <text x="126" y="338" fill="#20251f" font-size="44" font-weight="700">W6.3tn</text>
+    <text x="126" y="378" fill="#526055" font-size="18">net retail buys</text>
+    <text x="126" y="406" fill="#526055" font-size="18">since start 2026</text>
+    <rect x="126" y="432" width="150" height="14" rx="7" fill="#2e7d5b"/>
+
+    <rect x="348" y="222" width="210" height="250" rx="16" fill="#edf1fb" stroke="#bcc8e8"/>
+    <text x="370" y="268" fill="#2f457f" font-size="20" font-weight="700">Korean ETFs</text>
+    <text x="370" y="338" fill="#20251f" font-size="44" font-weight="700">W13tn</text>
+    <text x="370" y="378" fill="#526055" font-size="18">retail ETF flow</text>
+    <text x="370" y="406" fill="#526055" font-size="18">into local ETFs</text>
+    <rect x="370" y="432" width="176" height="14" rx="7" fill="#415da8"/>
+
+    <rect x="592" y="222" width="210" height="250" rx="16" fill="#fff3df" stroke="#e7c88e"/>
+    <text x="614" y="268" fill="#7b4b00" font-size="20" font-weight="700">U.S. Equities</text>
+    <text x="614" y="338" fill="#20251f" font-size="44" font-weight="700">$170bn</text>
+    <text x="614" y="378" fill="#526055" font-size="18">Korean retail holdings</text>
+    <text x="614" y="406" fill="#526055" font-size="18">at end-Oct 2025</text>
+    <rect x="614" y="432" width="188" height="14" rx="7" fill="#c7821f"/>
+
+    <rect x="836" y="222" width="210" height="250" rx="16" fill="#fbecee" stroke="#e8bdc3"/>
+    <text x="858" y="268" fill="#803642" font-size="20" font-weight="700">Dry Powder</text>
+    <text x="858" y="326" fill="#20251f" font-size="37" font-weight="700">W103tn</text>
+    <text x="858" y="362" fill="#526055" font-size="18">brokerage deposits</text>
+    <text x="858" y="408" fill="#20251f" font-size="37" font-weight="700">W31.5tn</text>
+    <text x="858" y="442" fill="#526055" font-size="18">margin loans</text>
+  </g>
+  <line x1="104" y1="520" x2="1096" y2="520" stroke="#d9ddd3" stroke-width="2"/>
+  <text x="104" y="560" fill="#20251f" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700">Reader note</text>
+  <text x="104" y="592" fill="#526055" font-family="Arial, Helvetica, sans-serif" font-size="19">A market can be huge, liquid, and exciting while still being concentrated and volatile.</text>
+</svg>

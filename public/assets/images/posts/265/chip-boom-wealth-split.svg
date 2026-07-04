@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">Korea AI chip wealth split</title>
+  <desc id="desc">A split-screen illustration showing semiconductor profit gains on one side and uneven household impact on the other side.</desc>
+  <rect width="1200" height="675" fill="#f8f7f2"/>
+  <rect x="72" y="64" width="1056" height="547" rx="26" fill="#ffffff" stroke="#22231e" stroke-width="3"/>
+  <text x="112" y="126" fill="#22231e" font-family="Arial, Helvetica, sans-serif" font-size="40" font-weight="700">AI Chip Boom, Uneven Feeling</text>
+  <text x="112" y="166" fill="#5b6057" font-family="Arial, Helvetica, sans-serif" font-size="21">Samsung and SK Hynix can move the index, but not every household feels the same boom.</text>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <rect x="112" y="215" width="460" height="310" rx="20" fill="#eaf3f1" stroke="#b9d6ce"/>
+    <text x="146" y="265" fill="#1d5a4c" font-size="28" font-weight="700">Boom Side</text>
+    <circle cx="178" cy="330" r="34" fill="#1d5a4c"/>
+    <rect x="232" y="304" width="254" height="52" rx="10" fill="#ffffff" stroke="#b9d6ce"/>
+    <text x="252" y="337" fill="#22231e" font-size="22" font-weight="700">HBM memory profits</text>
+    <circle cx="178" cy="425" r="34" fill="#2d7b5f"/>
+    <rect x="232" y="399" width="254" height="52" rx="10" fill="#ffffff" stroke="#b9d6ce"/>
+    <text x="252" y="432" fill="#22231e" font-size="22" font-weight="700">stock-linked bonuses</text>
+    <circle cx="178" cy="520" r="34" fill="#54a06f"/>
+    <rect x="232" y="494" width="254" height="52" rx="10" fill="#ffffff" stroke="#b9d6ce"/>
+    <text x="252" y="527" fill="#22231e" font-size="22" font-weight="700">retail investor gains</text>
+  </g>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <rect x="628" y="215" width="460" height="310" rx="20" fill="#f8ece9" stroke="#e2c2ba"/>
+    <text x="662" y="265" fill="#8a3c32" font-size="28" font-weight="700">Gap Side</text>
+    <circle cx="694" cy="330" r="34" fill="#8a3c32"/>
+    <rect x="748" y="304" width="254" height="52" rx="10" fill="#ffffff" stroke="#e2c2ba"/>
+    <text x="768" y="337" fill="#22231e" font-size="22" font-weight="700">small-business stress</text>
+    <circle cx="694" cy="425" r="34" fill="#b65e4d"/>
+    <rect x="748" y="399" width="254" height="52" rx="10" fill="#ffffff" stroke="#e2c2ba"/>
+    <text x="768" y="432" fill="#22231e" font-size="22" font-weight="700">housing pressure</text>
+    <circle cx="694" cy="520" r="34" fill="#d99272"/>
+    <rect x="748" y="494" width="254" height="52" rx="10" fill="#ffffff" stroke="#e2c2ba"/>
+    <text x="768" y="527" fill="#22231e" font-size="22" font-weight="700">jobs outside chips</text>
+  </g>
+  <text x="112" y="580" fill="#5b6057" font-family="Arial, Helvetica, sans-serif" font-size="19">The story is not only whether the KOSPI rises. It is who owns the upside, who earns the bonus, and who carries the risk.</text>
+</svg>
