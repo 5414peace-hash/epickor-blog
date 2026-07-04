@@ -36,7 +36,7 @@ export default function RootLayout({
             <Link href="/" className="text-2xl font-bold text-gray-900">
               EpicKor
             </Link>
-            <nav className="flex items-center gap-6">
+            <nav className="flex items-center gap-3 text-sm sm:gap-6 sm:text-base">
               <Link href="/" className="text-gray-600 hover:text-gray-900">
                 Home
               </Link>
@@ -47,7 +47,7 @@ export default function RootLayout({
                 href="https://www.instagram.com/epickorsnippets/reels/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="rounded-md border border-pink-200 bg-pink-50 px-3 py-1.5 text-sm font-semibold text-pink-700 transition-colors hover:bg-pink-100"
+                className="hidden rounded-md border border-pink-200 bg-pink-50 px-3 py-1.5 text-sm font-semibold text-pink-700 transition-colors hover:bg-pink-100 sm:inline-flex"
               >
                 Instagram
               </a>
