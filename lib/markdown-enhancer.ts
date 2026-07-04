@@ -305,8 +305,15 @@ export function addTargetToExternalLinks(html: string): string {
   });
 }
 
-export function convertInternalLinksToCards(html: string, allPosts: InternalPostReference[]): string {
-  const internalLinkPattern = /<a[^>]*href="https?:\/\/(?:www\.)?epickor\.com\/blog\/([^"]+)"[^>]*>([^<]+)<\/a>/g;
+export function convertInternalLinksToCards(
+  html: string,
+  allPosts: InternalPostReference[],
+  basePath: 'blog' | 'business' = 'blog'
+): string {
+  const internalLinkPattern = new RegExp(
+    `<a[^>]*href="(?:https?:\\/\\/(?:www\\.)?epickor\\.com)?\\/${basePath}\\/([^"]+)"[^>]*>([^<]+)<\\/a>`,
+    'g'
+  );
 
   return html.replace(internalLinkPattern, (match, slug) => {
     const post = allPosts.find((item) => item.slug === slug);
@@ -316,7 +323,7 @@ export function convertInternalLinksToCards(html: string, allPosts: InternalPost
     }
 
     return `
-      <a href="/blog/${slug}" class="internal-link-card">
+      <a href="/${basePath}/${slug}" class="internal-link-card">
         <div class="internal-link-card-content">
           ${post.ogImage ? `<img src="${post.ogImage}" alt="${post.title}" loading="lazy" />` : '<div class="internal-link-card-placeholder">EK</div>'}
           <div class="internal-link-card-text">
@@ -333,7 +340,8 @@ export function enhanceMarkdownHTML(
   html: string,
   allPosts: InternalPostReference[] = [],
   postTags: string[] = [],
-  enableAffiliate: boolean = false
+  enableAffiliate: boolean = false,
+  internalLinkBasePath: 'blog' | 'business' = 'blog'
 ): string {
   let enhanced = html;
 
@@ -342,7 +350,7 @@ export function enhanceMarkdownHTML(
   enhanced = convertYouTubeLinksToEmbeds(enhanced);
 
   if (allPosts.length > 0) {
-    enhanced = convertInternalLinksToCards(enhanced, allPosts);
+    enhanced = convertInternalLinksToCards(enhanced, allPosts, internalLinkBasePath);
   }
 
   if (enableAffiliate) {

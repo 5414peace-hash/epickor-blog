@@ -1,0 +1,13 @@
+{
+  "last_updated": "2026-07-04",
+  "approval_required": true,
+  "next_id": 1,
+  "allowed_statuses": ["candidate", "approved", "rejected", "blocked"],
+  "rules": {
+    "candidate": "Topic can be proposed in a weekly list, but must not be drafted.",
+    "approved": "Type A and Type B-2 topics may proceed through the drafting pipeline.",
+    "rejected": "Topic should not be drafted unless the representative reopens it.",
+    "blocked": "Topic needs external confirmation before drafting. Type B-1 client stories stay blocked until client consent and video embed permission are confirmed."
+  },
+  "topics": []
+}

@@ -1,5 +1,6 @@
 import { MetadataRoute } from 'next';
 import { getAllBlogPosts } from '@/lib/blog';
+import { getAllBusinessPosts } from '@/lib/business';
 
 export const revalidate = 86400;
 
@@ -8,7 +9,7 @@ function toValidDate(value: string): Date | undefined {
   return Number.isNaN(date.getTime()) ? undefined : date;
 }
 
-function getLatestPostDate(posts: ReturnType<typeof getAllBlogPosts>): Date | undefined {
+function getLatestPostDate(posts: Array<{ date: string }>): Date | undefined {
   return posts.reduce<Date | undefined>((latest, post) => {
     const date = toValidDate(post.date);
     if (!date) return latest;
@@ -19,7 +20,9 @@ function getLatestPostDate(posts: ReturnType<typeof getAllBlogPosts>): Date | un
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const posts = getAllBlogPosts();
-  const latestPostDate = getLatestPostDate(posts);
+  const businessPosts = getAllBusinessPosts();
+  const latestPostDate = getLatestPostDate([...posts, ...businessPosts]);
+  const latestBusinessPostDate = getLatestPostDate(businessPosts);
   
   const blogUrls = posts.map((post) => {
     const lastModified = toValidDate(post.date);
@@ -30,6 +33,16 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.8,
     };
   });
+
+  const businessUrls = businessPosts.map((post) => {
+    const lastModified = toValidDate(post.date);
+    return {
+      url: `https://www.epickor.com/business/${post.slug}`,
+      ...(lastModified ? { lastModified } : {}),
+      changeFrequency: 'monthly' as const,
+      priority: 0.75,
+    };
+  });
   
   return [
     {
@@ -38,7 +51,19 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: 'daily',
       priority: 1,
     },
+    {
+      url: 'https://www.epickor.com/business',
+      ...(latestBusinessPostDate ? { lastModified: latestBusinessPostDate } : {}),
+      changeFrequency: 'daily',
+      priority: 0.75,
+    },
+    {
+      url: 'https://www.epickor.com/business/editor',
+      changeFrequency: 'monthly' as const,
+      priority: 0.5,
+    },
     ...blogUrls,
+    ...businessUrls,
   ];
 }
 

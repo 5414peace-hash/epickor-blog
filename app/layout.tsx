@@ -40,6 +40,9 @@ export default function RootLayout({
               <Link href="/" className="text-gray-600 hover:text-gray-900">
                 Home
               </Link>
+              <Link href="/business" className="text-gray-600 hover:text-gray-900">
+                Business
+              </Link>
               <a
                 href="https://www.instagram.com/epickorsnippets/reels/"
                 target="_blank"

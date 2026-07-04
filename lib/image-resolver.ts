@@ -17,7 +17,11 @@ export function extractPostId(slug: string): string {
  * Resolve image paths dynamically
  * Converts any image path to /assets/images/posts/[post_id]/filename
  */
-export function resolveImagePaths(html: string, postSlug: string): string {
+export function resolveImagePaths(
+  html: string,
+  postSlug: string,
+  assetBasePath: string = '/assets/images/posts'
+): string {
   const postId = extractPostId(postSlug);
   
   // Match all <img> tags
@@ -56,7 +60,8 @@ export function resolveImagePaths(html: string, postSlug: string): string {
     const filename = rawSrc.split('/').pop() || rawSrc;
     
     // Construct new path
-    const newSrc = `/assets/images/posts/${postId}/${filename}`;
+    const normalizedBasePath = assetBasePath.replace(/\/$/, '');
+    const newSrc = `${normalizedBasePath}/${postId}/${filename}`;
     
     return `<img${before}src="${newSrc}"${after}>`;
   });
@@ -97,11 +102,15 @@ export function autoGridLayout(html: string): string {
 /**
  * Apply all image processing
  */
-export function processImages(html: string, postSlug: string): string {
+export function processImages(
+  html: string,
+  postSlug: string,
+  assetBasePath: string = '/assets/images/posts'
+): string {
   let processed = html;
   
   // 1. Resolve image paths
-  processed = resolveImagePaths(processed, postSlug);
+  processed = resolveImagePaths(processed, postSlug, assetBasePath);
   
   // 2. Center align all images
   processed = centerAlignImages(processed);
