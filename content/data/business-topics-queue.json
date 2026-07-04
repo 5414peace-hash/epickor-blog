@@ -23,7 +23,7 @@
   "topics": [
     {
       "id": 1,
-      "status": "candidate",
+      "status": "approved",
       "priority": "high",
       "business_type": "search-demand-guide",
       "topic": "How to Find Suppliers in Korea: Official Platforms, Verification, and First Contact",
@@ -35,11 +35,14 @@
       "duplicate_note": "Distinct from existing shopping/travel posts because it targets overseas buyer sourcing workflow.",
       "amazon_hint": "Korea business books, sourcing books, trade-show planning tools",
       "risk": "medium",
-      "representative_decision": null
+      "representative_decision": "approved",
+      "approved_at": "2026-07-04",
+      "published_slug": "how-to-find-suppliers-in-korea",
+      "published_path": "/business/how-to-find-suppliers-in-korea"
     },
     {
       "id": 2,
-      "status": "candidate",
+      "status": "approved",
       "priority": "high",
       "business_type": "search-demand-guide",
       "topic": "K-Beauty OEM/ODM in Korea: What Overseas Brands Should Check First",
@@ -51,7 +54,10 @@
       "duplicate_note": "Spin-off from consumer K-beauty coverage, but business intent is manufacturing and supplier evaluation.",
       "amazon_hint": "Cosmetics business books, product development notebooks, trade-show planning tools",
       "risk": "medium-high",
-      "representative_decision": null
+      "representative_decision": "approved",
+      "approved_at": "2026-07-04",
+      "published_slug": "k-beauty-oem-odm-korea",
+      "published_path": "/business/k-beauty-oem-odm-korea"
     },
     {
       "id": 3,
@@ -71,7 +77,7 @@
     },
     {
       "id": 4,
-      "status": "candidate",
+      "status": "approved",
       "priority": "high",
       "business_type": "search-demand-guide",
       "topic": "Korea Trade Shows for Overseas Buyers: How to Use KOTRA, Pavilions, and B2B Matching",
@@ -83,7 +89,10 @@
       "duplicate_note": "Not covered by existing travel/event posts; buyer workflow is new.",
       "amazon_hint": "Travel work essentials, trade-show notebooks, business-card organizers",
       "risk": "low-medium",
-      "representative_decision": null
+      "representative_decision": "approved",
+      "approved_at": "2026-07-04",
+      "published_slug": "korea-trade-shows-overseas-buyers",
+      "published_path": "/business/korea-trade-shows-overseas-buyers"
     },
     {
       "id": 5,

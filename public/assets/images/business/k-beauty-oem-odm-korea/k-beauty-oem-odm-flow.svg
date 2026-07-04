@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">K-beauty OEM and ODM workflow</title>
+  <desc id="desc">A K-beauty manufacturing workflow from brand brief to partner role, samples, documents, and launch readiness.</desc>
+  <rect width="1200" height="675" fill="#faf5ff"/>
+  <rect x="64" y="54" width="1072" height="566" rx="22" fill="#ffffff" stroke="#e9d5ff" stroke-width="2"/>
+  <text x="102" y="122" fill="#111827" font-family="Arial, Helvetica, sans-serif" font-size="42" font-weight="800">K-Beauty OEM/ODM Flow</text>
+  <text x="102" y="163" fill="#4b5563" font-family="Arial, Helvetica, sans-serif" font-size="21">A practical sequence for overseas brands before factory outreach.</text>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <path d="M168 325 C280 230, 420 230, 532 325 S784 420, 1032 325" fill="none" stroke="#a855f7" stroke-width="8" stroke-linecap="round"/>
+    <g transform="translate(96 260)">
+      <circle cx="72" cy="65" r="58" fill="#f5f3ff" stroke="#7c3aed" stroke-width="3"/>
+      <text x="72" y="56" text-anchor="middle" fill="#6d28d9" font-size="20" font-weight="800">Brief</text>
+      <text x="72" y="82" text-anchor="middle" fill="#4c1d95" font-size="15">market + claim</text>
+    </g>
+    <g transform="translate(304 190)">
+      <circle cx="72" cy="65" r="58" fill="#ecfeff" stroke="#0891b2" stroke-width="3"/>
+      <text x="72" y="56" text-anchor="middle" fill="#0e7490" font-size="20" font-weight="800">Role</text>
+      <text x="72" y="82" text-anchor="middle" fill="#164e63" font-size="15">OEM or ODM</text>
+    </g>
+    <g transform="translate(512 260)">
+      <circle cx="72" cy="65" r="58" fill="#ecfdf5" stroke="#059669" stroke-width="3"/>
+      <text x="72" y="56" text-anchor="middle" fill="#047857" font-size="20" font-weight="800">Samples</text>
+      <text x="72" y="82" text-anchor="middle" fill="#064e3b" font-size="15">version log</text>
+    </g>
+    <g transform="translate(720 330)">
+      <circle cx="72" cy="65" r="58" fill="#fff7ed" stroke="#ea580c" stroke-width="3"/>
+      <text x="72" y="56" text-anchor="middle" fill="#c2410c" font-size="20" font-weight="800">Docs</text>
+      <text x="72" y="82" text-anchor="middle" fill="#7c2d12" font-size="15">claims + tests</text>
+    </g>
+    <g transform="translate(928 260)">
+      <circle cx="72" cy="65" r="58" fill="#fef2f2" stroke="#dc2626" stroke-width="3"/>
+      <text x="72" y="56" text-anchor="middle" fill="#b91c1c" font-size="20" font-weight="800">Launch</text>
+      <text x="72" y="82" text-anchor="middle" fill="#7f1d1d" font-size="15">market review</text>
+    </g>
+  </g>
+  <rect x="150" y="500" width="900" height="58" rx="14" fill="#111827"/>
+  <text x="600" y="537" text-anchor="middle" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="800">Do not let texture excitement outrun claims, ownership, and documents.</text>
+  <text x="104" y="586" fill="#6b7280" font-family="Arial, Helvetica, sans-serif" font-size="17">EpicKor Business Editor | K-beauty operator visual</text>
+</svg>

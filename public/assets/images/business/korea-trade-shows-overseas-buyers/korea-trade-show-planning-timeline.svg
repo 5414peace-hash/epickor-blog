@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">Korea trade show planning timeline</title>
+  <desc id="desc">A 60-day planning timeline for overseas buyers preparing for Korea trade shows and B2B meetings.</desc>
+  <rect width="1200" height="675" fill="#f0f9ff"/>
+  <rect x="64" y="54" width="1072" height="566" rx="22" fill="#ffffff" stroke="#bae6fd" stroke-width="2"/>
+  <text x="102" y="122" fill="#111827" font-family="Arial, Helvetica, sans-serif" font-size="42" font-weight="800">Korea Trade-Show Planning Timeline</text>
+  <text x="102" y="163" fill="#475569" font-family="Arial, Helvetica, sans-serif" font-size="21">Turn the show floor into a sourcing sprint with a clear before, during, and after.</text>
+  <line x1="140" y1="340" x2="1060" y2="340" stroke="#0284c7" stroke-width="8" stroke-linecap="round"/>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <g transform="translate(108 250)">
+      <circle cx="50" cy="90" r="42" fill="#e0f2fe" stroke="#0284c7" stroke-width="3"/>
+      <text x="50" y="98" text-anchor="middle" fill="#075985" font-size="20" font-weight="800">60D</text>
+      <text x="50" y="160" text-anchor="middle" fill="#0f172a" font-size="19" font-weight="800">Scope</text>
+      <text x="50" y="186" text-anchor="middle" fill="#475569" font-size="15">category + role</text>
+    </g>
+    <g transform="translate(328 250)">
+      <circle cx="50" cy="90" r="42" fill="#ecfdf5" stroke="#059669" stroke-width="3"/>
+      <text x="50" y="98" text-anchor="middle" fill="#047857" font-size="20" font-weight="800">45D</text>
+      <text x="50" y="160" text-anchor="middle" fill="#0f172a" font-size="19" font-weight="800">Shortlist</text>
+      <text x="50" y="186" text-anchor="middle" fill="#475569" font-size="15">exhibitors</text>
+    </g>
+    <g transform="translate(548 250)">
+      <circle cx="50" cy="90" r="42" fill="#fff7ed" stroke="#ea580c" stroke-width="3"/>
+      <text x="50" y="98" text-anchor="middle" fill="#c2410c" font-size="20" font-weight="800">30D</text>
+      <text x="50" y="160" text-anchor="middle" fill="#0f172a" font-size="19" font-weight="800">Request</text>
+      <text x="50" y="186" text-anchor="middle" fill="#475569" font-size="15">meetings</text>
+    </g>
+    <g transform="translate(768 250)">
+      <circle cx="50" cy="90" r="42" fill="#fef2f2" stroke="#dc2626" stroke-width="3"/>
+      <text x="50" y="98" text-anchor="middle" fill="#b91c1c" font-size="20" font-weight="800">SHOW</text>
+      <text x="50" y="160" text-anchor="middle" fill="#0f172a" font-size="19" font-weight="800">Score</text>
+      <text x="50" y="186" text-anchor="middle" fill="#475569" font-size="15">booths + samples</text>
+    </g>
+    <g transform="translate(988 250)">
+      <circle cx="50" cy="90" r="42" fill="#f5f3ff" stroke="#7c3aed" stroke-width="3"/>
+      <text x="50" y="98" text-anchor="middle" fill="#6d28d9" font-size="20" font-weight="800">48H</text>
+      <text x="50" y="160" text-anchor="middle" fill="#0f172a" font-size="19" font-weight="800">Follow up</text>
+      <text x="50" y="186" text-anchor="middle" fill="#475569" font-size="15">quote + docs</text>
+    </g>
+  </g>
+  <rect x="155" y="522" width="890" height="58" rx="14" fill="#111827"/>
+  <text x="600" y="559" text-anchor="middle" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="800">The best buyer outcome is usually built before the booth meeting starts.</text>
+</svg>

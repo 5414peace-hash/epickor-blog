@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">Functional cosmetics checkpoints</title>
+  <desc id="desc">A cosmetics checkpoint board for claims, responsible seller, data, SPF or PA support, samples, and destination-market rules.</desc>
+  <rect width="1200" height="675" fill="#f8fafc"/>
+  <rect x="64" y="54" width="1072" height="566" rx="22" fill="#ffffff" stroke="#d1d5db" stroke-width="2"/>
+  <text x="102" y="122" fill="#111827" font-family="Arial, Helvetica, sans-serif" font-size="42" font-weight="800">Functional Cosmetics Checkpoints</text>
+  <text x="102" y="163" fill="#4b5563" font-family="Arial, Helvetica, sans-serif" font-size="21">Use claim language as an early regulatory screen, not a final copy exercise.</text>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <rect x="120" y="230" width="960" height="74" rx="14" fill="#ede9fe"/>
+    <text x="160" y="277" fill="#5b21b6" font-size="24" font-weight="800">Claim type</text>
+    <text x="360" y="277" fill="#312e81" font-size="20">whitening, wrinkle, UV, acne, hair-loss, and related functions</text>
+    <rect x="120" y="325" width="960" height="74" rx="14" fill="#ecfdf5"/>
+    <text x="160" y="372" fill="#047857" font-size="24" font-weight="800">Responsible seller</text>
+    <text x="360" y="372" fill="#064e3b" font-size="20">who manufactures, imports, reports, or requests evaluation</text>
+    <rect x="120" y="420" width="960" height="74" rx="14" fill="#fff7ed"/>
+    <text x="160" y="467" fill="#c2410c" font-size="24" font-weight="800">Data package</text>
+    <text x="360" y="467" fill="#7c2d12" font-size="20">safety, effectiveness, function, standards, test methods, samples</text>
+    <rect x="120" y="515" width="960" height="56" rx="14" fill="#111827"/>
+    <text x="600" y="551" text-anchor="middle" fill="#ffffff" font-size="22" font-weight="800">Korea procedure + destination-market compliance must both be checked.</text>
+  </g>
+  <text x="104" y="605" fill="#6b7280" font-family="Arial, Helvetica, sans-serif" font-size="17">EpicKor Business Editor | MFDS-informed visual summary</text>
+</svg>
