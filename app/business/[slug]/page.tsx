@@ -54,6 +54,11 @@ function formatDate(value: string): string {
   });
 }
 
+function getBusinessImageClass(imagePath: string, extraClasses: string = ''): string {
+  const fitClass = imagePath.toLowerCase().endsWith('.svg') ? 'object-contain p-4' : 'object-cover';
+  return `${fitClass} ${extraClasses}`.trim();
+}
+
 function getRelatedBusinessPosts(
   currentPost: BusinessPostMetadata,
   allPosts: BusinessPostMetadata[],
@@ -93,7 +98,13 @@ export default async function BusinessPostPage({ params }: { params: Promise<{ s
     <div className="min-h-screen bg-white">
       {post.ogImage && (
         <div className="relative h-80 w-full bg-gray-100 md:h-96">
-          <Image src={post.ogImage} alt={post.title} fill className="object-cover" priority />
+          <Image
+            src={post.ogImage}
+            alt={post.title}
+            fill
+            className={getBusinessImageClass(post.ogImage)}
+            priority
+          />
         </div>
       )}
 
@@ -186,7 +197,10 @@ export default async function BusinessPostPage({ params }: { params: Promise<{ s
                         src={relatedPost.ogImage}
                         alt={relatedPost.title}
                         fill
-                        className="object-cover transition-transform duration-300 group-hover:scale-105"
+                        className={getBusinessImageClass(
+                          relatedPost.ogImage,
+                          'transition-transform duration-300 group-hover:scale-105'
+                        )}
                         sizes="(max-width: 768px) 100vw, 33vw"
                       />
                     </div>

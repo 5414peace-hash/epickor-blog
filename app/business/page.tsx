@@ -35,6 +35,11 @@ function formatDate(value: string): string {
   });
 }
 
+function getBusinessImageClass(imagePath: string, extraClasses: string = ''): string {
+  const fitClass = imagePath.toLowerCase().endsWith('.svg') ? 'object-contain p-4' : 'object-cover';
+  return `${fitClass} ${extraClasses}`.trim();
+}
+
 export default function BusinessIndexPage() {
   const posts = getAllBusinessPosts();
   const featuredPost = posts[0];
@@ -80,7 +85,10 @@ export default function BusinessIndexPage() {
                       src={featuredPost.ogImage}
                       alt={featuredPost.title}
                       fill
-                      className="object-cover transition-transform duration-300 group-hover:scale-105"
+                      className={getBusinessImageClass(
+                        featuredPost.ogImage,
+                        'transition-transform duration-300 group-hover:scale-105'
+                      )}
                       sizes="(max-width: 768px) 100vw, 50vw"
                       priority
                     />
@@ -161,7 +169,10 @@ export default function BusinessIndexPage() {
                           src={post.ogImage}
                           alt={post.title}
                           fill
-                          className="object-cover transition-transform duration-300 group-hover:scale-105"
+                          className={getBusinessImageClass(
+                            post.ogImage,
+                            'transition-transform duration-300 group-hover:scale-105'
+                          )}
                           sizes="(max-width: 768px) 100vw, 33vw"
                         />
                       ) : (
