@@ -5,7 +5,7 @@ date: "2026-07-04"
 visibility: "public"
 publishAt: ""
 description: "A practical K-beauty OEM/ODM guide for overseas brands covering manufacturer roles, MFDS cautions, samples, documents, and first contact."
-ogImage: "/assets/images/business/k-beauty-oem-odm-korea/k-beauty-oem-odm-flow.svg"
+ogImage: "/assets/images/business/k-beauty-oem-odm-korea/tradekorea-beauty-category.jpg"
 tags: ["KBeautyBusiness", "CosmeticsOEM", "CosmeticsODM", "KoreaSourcing"]
 author: "EpicKor Business Editor"
 businessType: "search-demand-guide"
@@ -22,6 +22,8 @@ amazon: true
 If you want to make a K-beauty product in Korea, do not start by asking for a factory list. Start by deciding whether you need OEM, ODM, finished-product wholesale, or a brand-authorized distributor. Then screen Korean manufacturers by product category, regulatory readiness, sample process, documentation quality, export experience, intellectual-property boundaries, and communication discipline.
 
 Korea is strong in beauty manufacturing, but the label "K-beauty" does not remove basic operator risk. An overseas brand still needs to understand what it owns, what the manufacturer owns, which claims are allowed, which functional-cosmetic rules may apply in Korea, and what compliance is required in the destination market.
+
+![The tradeKorea beauty category page shows Korean beauty and personal-care products listed for B2B buyer research.](tradekorea-beauty-category.jpg)
 
 ![A K-beauty OEM/ODM workflow shows a brand moving from product brief to partner role, formula or concept, samples, MFDS checks, export documents, and launch.](k-beauty-oem-odm-flow.svg)
 
@@ -78,6 +80,8 @@ Korean cosmetics conversations often move quickly from "texture" and "trend" to 
 
 MFDS also states that a responsible seller who intends to manufacture or sell functional cosmetics by manufacturing or importing them must undergo MFDS evaluation or submit a report under the Cosmetics Act. Its public page lists review steps and data requirements, including safety, effectiveness, function data, SPF and PA data where relevant, standards, test methods, and samples.
 
+![The MFDS English cosmetics page shows functional-cosmetics categories and evaluation process details buyers should notice before using claim language.](mfds-functional-cosmetics-page.jpg)
+
 ![A functional cosmetics checkpoint board separates product claims, responsible seller, safety and effectiveness data, SPF or PA support, samples, and destination-market rules.](functional-cosmetics-checkpoints.svg)
 
 The practical point is not that every skincare product is a functional cosmetic. The point is that claim language matters. "Brightening," "whitening," "anti-wrinkle," "acne," "hair loss," and SPF-related claims can trigger special attention. Your supplier may understand Korean procedures, but your brand still needs to confirm what can be said in the country where the product will be sold.
@@ -91,6 +95,8 @@ The practical point is not that every skincare product is a functional cosmetic.
 A good K-beauty manufacturing inquiry should not be a mood board only. It should include enough commercial and technical information for the supplier to decide whether the project is real.
 
 Prepare the product category, target customer, target market, desired format, texture reference, ingredient preferences, restricted ingredients, claim direction, packaging type, expected first quantity range, timeline, target landed cost, certification needs, and whether you want OEM, ODM, or a ready formula. If you already have a benchmark product, use it carefully as a sensory reference, not as an instruction to copy another brand.
+
+![A skincare product planning desk shows why a K-beauty OEM or ODM brief should connect claims, packaging, samples, and launch assumptions.](skincare-products-pexels.jpg)
 
 For sunscreen, acne, whitening, wrinkle, hair-loss, or other claim-sensitive products, say that claim support and regulatory review are required before final copy. For clean beauty, vegan, cruelty-free, halal, or natural claims, ask what documents the supplier can provide and which claims are certification-backed versus marketing language.
 
@@ -113,6 +119,8 @@ Do not treat a sample as final just because it feels good. Ask whether the sampl
 ## Where To Search for Korean Beauty Suppliers
 
 For first discovery, use general Korea supplier paths and then narrow by category. [tradeKorea's category structure](https://www.tradekorea.com/main.do) includes beauty and personal care, and [buyKOREA](https://buykorea.org/) also carries Korean seller and product discovery paths. [GobizKOREA](https://www.gobizkorea.com/user/main.do) can be useful for Korean SME product discovery. Start there, then compare each candidate with the company's own website, event participation, certificates, and direct communication.
+
+![The buyKOREA homepage shows Korean seller, trade-show, and product-discovery surfaces that beauty buyers can use as a first screening path.](buykorea-cosmetics-platform.jpg)
 
 If you are still mapping the overall Korea supplier process, read [How to Find Suppliers in Korea](/business/how-to-find-suppliers-in-korea). If you plan to meet manufacturers in person, pair this with [Korea Trade Shows for Overseas Buyers](/business/korea-trade-shows-overseas-buyers).
 

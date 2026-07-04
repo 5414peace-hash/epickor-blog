@@ -5,7 +5,7 @@ date: "2026-07-04"
 visibility: "public"
 publishAt: ""
 description: "A practical Korea sourcing guide for overseas buyers comparing KOTRA, buyKOREA, tradeKorea, GobizKOREA, verification, and first contact."
-ogImage: "/assets/images/business/how-to-find-suppliers-in-korea/korea-supplier-discovery-map.svg"
+ogImage: "/assets/images/business/how-to-find-suppliers-in-korea/buykorea-marketplace-home.jpg"
 tags: ["KoreaSourcing", "KoreanSuppliers", "BuyKOREA", "TradeKorea"]
 author: "EpicKor Business Editor"
 businessType: "search-demand-guide"
@@ -22,6 +22,8 @@ amazon: true
 If you are trying to find suppliers in Korea, start with official and Korea-focused B2B channels before you send money, request samples, or trust a random cold email. The practical order is simple: define the product and buyer role, search Korean supplier platforms, compare company evidence across more than one source, contact a short list with a structured request, then verify documents before sampling or payment.
 
 For many overseas buyers, the first useful public paths are [KOTRA's buyer services](https://www.kotra.or.kr/english/subList/41000046004), [buyKOREA](https://buykorea.org/), [tradeKorea](https://www.tradekorea.com/main.do), and [GobizKOREA](https://www.gobizkorea.com/user/main.do). These are not magic filters that remove every risk. They are starting points that make the search more Korea-specific and more organized than a generic web search.
+
+![KOTRA's official buyer page explains online marketplace access, business meetings, trade fairs, import inquiries, and Korean SME sales support for overseas buyers.](kotra-buyer-services-page.jpg)
 
 ![A Korea supplier discovery map shows the buyer path from product scope to official platforms, verification, first contact, samples, and purchase order.](korea-supplier-discovery-map.svg)
 
@@ -84,7 +86,11 @@ Use the platforms for different jobs. Do not expect one site to solve every step
   </table>
 </div>
 
+![The buyKOREA marketplace homepage shows Korean supplier discovery surfaces, trade-show links, seller categories, and product cards for overseas buyers.](buykorea-marketplace-home.jpg)
+
 [KOTRA says](https://www.kotra.or.kr/english/subList/41000046004) it supports international buyers through BuyKorea.org, business meetings, trade fairs, and import inquiries. [buyKOREA describes itself](https://buykorea.org/comm/footer/aboutus.do) as an export support platform that helps South Korean companies promote products to overseas buyers and connect online. [tradeKorea states](https://www.tradekorea.com/abouttradekorea/abouttradekorea.do) that it is operated by KITA and is designed to help global buyers discover Korean partners.
+
+![The tradeKorea homepage gives buyers a category search, trade-service links, trade-show access, buyer picks, and RFQ entry points.](tradekorea-marketplace-home.jpg)
 
 <div class="affiliate-inline-cta">
   <p><strong>Buyer desk note:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. If Korea sourcing is new for your team, compare <a href="https://www.amazon.com/s?k=import+export+sourcing+book&tag=epickor2026-20" target="_blank" rel="nofollow sponsored noopener noreferrer">import/export sourcing books</a> before sending RFQs, because the first mistakes are usually process mistakes, not Korea-specific mistakes.</p>
@@ -123,6 +129,8 @@ Your first message should be short, specific, and easy to answer. Include who yo
 Do not ask for the "best price" without a specification. Ask for a quotation based on a defined product, packaging, order quantity, Incoterms preference, lead time, and sample availability. For an early screen, you can ask whether they support export to your country, whether they have English documentation, whether they are manufacturer or trading company, and whether they can share a catalog under ordinary business use.
 
 A strong supplier will not always reply instantly, but the quality of the reply matters. Look for whether they answer the actual questions, ask reasonable follow-up questions, avoid unrealistic claims, and send documents that match the company identity.
+
+![A buyer-side meeting scene shows why a structured first-contact message and clear document checklist matter before supplier calls.](business-meeting-pexels.jpg)
 
 ## Step 5: Control the Sample Stage
 
