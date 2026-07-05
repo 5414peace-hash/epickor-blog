@@ -25,9 +25,9 @@ Korea is strong in beauty manufacturing, but the label "K-beauty" does not remov
 
 ![The tradeKorea beauty category page shows Korean beauty and personal-care products listed for B2B buyer research.](tradekorea-beauty-category.jpg)
 
-![A K-beauty OEM/ODM workflow shows a brand moving from product brief to partner role, formula or concept, samples, MFDS checks, export documents, and launch.](k-beauty-oem-odm-flow.svg)
-
 Use this guide as the first screen before outreach. It is not legal or regulatory advice. For claims, ingredients, labels, import rules, and product safety, use qualified regulatory counsel or a specialist for the markets where you will sell.
+
+![A K-beauty OEM/ODM workflow shows a brand moving from product brief to partner role, formula or concept, samples, MFDS checks, export documents, and launch.](k-beauty-oem-odm-flow.svg)
 
 ## OEM, ODM, Distributor, or Brand Owner?
 
@@ -82,9 +82,9 @@ MFDS also states that a responsible seller who intends to manufacture or sell fu
 
 ![The MFDS English cosmetics page shows functional-cosmetics categories and evaluation process details buyers should notice before using claim language.](mfds-functional-cosmetics-page.jpg)
 
-![A functional cosmetics checkpoint board separates product claims, responsible seller, safety and effectiveness data, SPF or PA support, samples, and destination-market rules.](functional-cosmetics-checkpoints.svg)
-
 The practical point is not that every skincare product is a functional cosmetic. The point is that claim language matters. "Brightening," "whitening," "anti-wrinkle," "acne," "hair loss," and SPF-related claims can trigger special attention. Your supplier may understand Korean procedures, but your brand still needs to confirm what can be said in the country where the product will be sold.
+
+![A functional cosmetics checkpoint board separates product claims, responsible seller, safety and effectiveness data, SPF or PA support, samples, and destination-market rules.](functional-cosmetics-checkpoints.svg)
 
 <div class="affiliate-inline-cta">
   <p><strong>Beauty operator note:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. If this is your first private-label beauty project, compare <a href="https://www.amazon.com/s?k=cosmetics+business+product+development+book&tag=epickor2026-20" target="_blank" rel="nofollow sponsored noopener noreferrer">cosmetics product-development books</a> before supplier calls so your brief covers claims, packaging, testing, and launch assumptions.</p>

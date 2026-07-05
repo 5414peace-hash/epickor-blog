@@ -25,9 +25,9 @@ For many overseas buyers, the first useful public paths are [KOTRA's buyer servi
 
 ![KOTRA's official buyer page explains online marketplace access, business meetings, trade fairs, import inquiries, and Korean SME sales support for overseas buyers.](kotra-buyer-services-page.jpg)
 
-![A Korea supplier discovery map shows the buyer path from product scope to official platforms, verification, first contact, samples, and purchase order.](korea-supplier-discovery-map.svg)
-
 The key is to treat supplier discovery as a workflow, not a hunt for one perfect directory. A good Korean supplier search usually combines platform listings, public company information, trade-show evidence, certifications, email response quality, and small sample-stage tests.
+
+![A Korea supplier discovery map shows the buyer path from product scope to official platforms, verification, first contact, samples, and purchase order.](korea-supplier-discovery-map.svg)
 
 ## What Overseas Buyers Usually Get Wrong
 

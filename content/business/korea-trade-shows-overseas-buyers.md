@@ -25,9 +25,9 @@ Korea trade shows are useful when you treat them as a planned sourcing sprint, n
 
 ![KOTRA's buyer page shows a business-meeting event scene and trade-fair support context for overseas buyers.](kotra-trade-meetings-section.jpg)
 
-![A Korea trade-show planning timeline shows a buyer moving from 60 days before the event to exhibitor research, meeting requests, booth checks, sample controls, and post-show follow-up.](korea-trade-show-planning-timeline.svg)
-
 The show itself is only one part of the process. The buyer who wins is usually the buyer who prepares better before arrival and follows up faster after the meeting.
+
+![A Korea trade-show planning timeline shows a buyer moving from 60 days before the event to exhibitor research, meeting requests, booth checks, sample controls, and post-show follow-up.](korea-trade-show-planning-timeline.svg)
 
 ## When a Korea Trade Show Is Worth the Trip
 
