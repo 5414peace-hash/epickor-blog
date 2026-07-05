@@ -105,3 +105,21 @@
   - `npm.cmd run audit:seo-aeo` passed with average score `77/100`.
   - `npm.cmd run build` passed.
   - Built HTML includes the new OG image, the two replacement article images, the KOREA PACK source paragraph, two affiliate CTA blocks, and the existing sitemap route remains generated.
+
+## Correction - 2026-07-05 Opening Image Layout
+
+- Representative follow-up:
+  - The opening image area still rendered too small, and the Seoul convenience-store drink image was not appropriate for a B2B packaging supplier guide.
+- Cause:
+  - Two consecutive Markdown images were automatically converted into a two-image grid by the article renderer, which made them look like small thumbnails in the opening section.
+  - The convenience-store drink image was selected to show Korean retail packaging context, but that context was too consumer-facing for this operator guide.
+- Fix:
+  - Removed the convenience-store drink image from the article and deleted `seoul-korean-drink-packaging-pexels.jpg`.
+  - Kept only `cosmetic-packaging-box-bottle-pexels.jpg` in the opening Quick Answer section so it renders as a single full-width body image instead of an automatic grid.
+  - Added `export-carton-warehouse-pexels.jpg` later after the export-packaging paragraph, where carton strength, pallet patterns, and handling conditions are discussed.
+  - Updated `image-sources.md` to remove the convenience-store source and add the export-carton warehouse source.
+- Re-verification:
+  - Custom structure check passed: 2,725 words, 5 images, 2 affiliate CTA boxes, 5 FAQ items, 1 table, 0 missing local image references, and no remaining `seoul-korean-drink-packaging-pexels` reference.
+  - `npm.cmd run audit:seo-aeo` passed with average score `77/100`.
+  - `npm.cmd run build` passed.
+  - Built HTML shows `cosmetic-packaging-box-bottle-pexels.jpg` as a standalone `image-center` image and `export-carton-warehouse-pexels.jpg` later as a separate `image-center` image.

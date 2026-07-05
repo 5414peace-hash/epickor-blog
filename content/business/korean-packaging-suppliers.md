@@ -25,8 +25,6 @@ Korea can be a useful packaging search lane for overseas beauty, food, lifestyle
 
 ![A cosmetic bottle, carton, and fabric pouch show why packaging buyers should define each component before contacting suppliers.](cosmetic-packaging-box-bottle-pexels.jpg)
 
-![Korean drink packages in a Seoul convenience-store fridge show how container shape, label language, barcode, price label, and shelf fit meet at retail level.](seoul-korean-drink-packaging-pexels.jpg)
-
 For a first sourcing workflow, use Korea-focused public paths such as <a href="https://www.kotra.or.kr/english/subList/41000046004" target="_blank" rel="noopener noreferrer">KOTRA buyer services</a>, <a href="https://buykorea.org/" target="_blank" rel="noopener noreferrer">buyKOREA</a>, and the <a href="https://www.tradekorea.com/total_search/search.do?search_category=20%5E2033&search_categoryname=Packaging" target="_blank" rel="noopener noreferrer">tradeKorea packaging category</a>. Treat these as discovery surfaces, not as a replacement for your own commercial, quality, legal, and destination-market compliance review.
 
 ## First, Define What "Packaging Supplier" Means
@@ -38,6 +36,8 @@ For cosmetics, packaging often breaks into primary packaging and secondary packa
 For food, packaging can include flexible film, stand-up pouches, retort pouches, trays, cups, sleeves, labels, cartons, corrugated boxes, and shipping materials. Food packaging adds another layer because food-contact materials, shelf life, temperature, oxygen or moisture barriers, and destination-market labeling rules matter. A supplier that can print a beautiful pouch may not be the right party to advise on whether your exact food-contact structure is acceptable in the market where you will sell.
 
 For export-ready consumer goods, packaging also includes the transport layer. This is where buyers often lose money. A retail box can look correct but fail in shipping. A carton can survive domestic movement but deform during export. A pallet pattern can look efficient until humidity, container loading, or courier handling exposes weak assumptions. Ask about retail packaging and shipping packaging as separate scopes.
+
+![Stacked export cartons in a warehouse show why shipping packaging, carton strength, pallet patterns, and handling conditions need a separate supplier check.](export-carton-warehouse-pexels.jpg)
 
 ## The Practical Packaging Supplier Types
 
