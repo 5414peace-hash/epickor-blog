@@ -85,3 +85,23 @@
 - Keep this post in the `/business/` indexing watch.
 - Choose the next business topic candidate only after representative approval, likely ID `5` or ID `8` if the representative wants to continue the business-section batch.
 - Return to the deferred priority `1` Reels batch when the representative wants to protect the Friday/Saturday/Sunday Reels supply.
+
+## Revision - 2026-07-05 Image And Fact-Check Pass
+
+- Representative feedback:
+  - The first and second reference images were not strong enough.
+- Image changes:
+  - Replaced the first in-article image and OG image with `cosmetic-packaging-box-bottle-pexels.jpg`.
+  - Replaced the second in-article image with `seoul-korean-drink-packaging-pexels.jpg`.
+  - Kept the weaker `tradeKorea` category screenshot and `packaging-buyer-map.svg` as source-tracked assets, but removed them from the first two article image slots.
+  - Updated `public/assets/images/business/korean-packaging-suppliers/image-sources.md` with Pexels credits and usage notes.
+- Fact-check changes:
+  - Narrowed the broad claim that Korean suppliers understand cosmetics, food, small-format goods, and export documentation.
+  - Reframed the point around source-supported evidence: Korea-focused sourcing surfaces and trade events explicitly cover cosmetics packaging, food packaging, packaging materials, packaging machines, printing, and shipping packaging.
+  - Added KOREA PACK official overview as an additional source and cited it in the article.
+- Re-verification:
+  - Custom structure check passed: 2,727 words, 5 images, 2 affiliate CTA boxes, 5 FAQ items, 1 table, and 0 missing local image references.
+  - `content/data/business-topics-queue.json` parsed as valid JSON.
+  - `npm.cmd run audit:seo-aeo` passed with average score `77/100`.
+  - `npm.cmd run build` passed.
+  - Built HTML includes the new OG image, the two replacement article images, the KOREA PACK source paragraph, two affiliate CTA blocks, and the existing sitemap route remains generated.
