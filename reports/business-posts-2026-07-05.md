@@ -1,12 +1,16 @@
 # Business Post Batch - 2026-07-05
 
-## Published Locally
+## Published And Deployed
 
 - `/business/korean-packaging-suppliers`
+- Public URL: `https://www.epickor.com/business/korean-packaging-suppliers`
 - Local file: `content/business/korean-packaging-suppliers.md`
 - Business topic queue ID: `6`
 - Business type: `search-demand-guide`
 - Byline: `EpicKor Business Editor`
+- Deployment commit: `158ff138 Add Korean packaging suppliers business guide`
+- Vercel deployment: `https://epickor-blog-9smshffw1-yhs-projects-5de403d3.vercel.app`
+- Vercel status: `Ready`
 
 ## Topic Approval
 
@@ -59,6 +63,14 @@
 - Static sitemap body includes:
   - `https://www.epickor.com/business/korean-packaging-suppliers`
 - Built HTML includes all five article image references, two affiliate CTA blocks, and the table wrapper.
+- Public `www.epickor.com` HEAD checks returned `200 OK` for:
+  - `https://www.epickor.com/business/korean-packaging-suppliers`
+  - `https://www.epickor.com/sitemap.xml`
+  - `https://www.epickor.com/assets/images/business/korean-packaging-suppliers/tradekorea-packaging-category.png`
+  - `https://www.epickor.com/assets/images/business/korean-packaging-suppliers/mfds-containers-packages-regulation.png`
+  - `https://www.epickor.com/assets/images/business/korean-packaging-suppliers/kotra-buyer-services-page.png`
+  - `https://www.epickor.com/assets/images/business/korean-packaging-suppliers/packaging-buyer-map.svg`
+  - `https://www.epickor.com/assets/images/business/korean-packaging-suppliers/packaging-checkpoints.svg`
 
 ## Limitation
 
@@ -66,14 +78,10 @@
 - `Start-Process` failed because the shell environment contains conflicting `Path`/`PATH` keys.
 - A PowerShell background job attempt started but did not open port `4000` before timeout.
 - Render verification therefore relied on browser-captured source images, local file existence, production build, generated static route, built HTML references, and sitemap inclusion.
+- Public content GET checks through PowerShell `Invoke-WebRequest` and `curl -L` failed from this shell session even though HEAD checks succeeded; final live verification therefore used public HEAD responses plus the local static build and built HTML checks.
 
 ## Next Step
 
-- Commit and push the intended business post files only.
-- After Vercel deploys, verify public URL and image assets:
-  - `https://www.epickor.com/business/korean-packaging-suppliers`
-  - `/assets/images/business/korean-packaging-suppliers/tradekorea-packaging-category.png`
-  - `/assets/images/business/korean-packaging-suppliers/mfds-containers-packages-regulation.png`
-  - `/assets/images/business/korean-packaging-suppliers/kotra-buyer-services-page.png`
-  - `/assets/images/business/korean-packaging-suppliers/packaging-buyer-map.svg`
-  - `/assets/images/business/korean-packaging-suppliers/packaging-checkpoints.svg`
+- Keep this post in the `/business/` indexing watch.
+- Choose the next business topic candidate only after representative approval, likely ID `5` or ID `8` if the representative wants to continue the business-section batch.
+- Return to the deferred priority `1` Reels batch when the representative wants to protect the Friday/Saturday/Sunday Reels supply.
