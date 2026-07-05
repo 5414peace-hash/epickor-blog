@@ -112,7 +112,7 @@
     },
     {
       "id": 6,
-      "status": "candidate",
+      "status": "approved",
       "priority": "normal",
       "business_type": "search-demand-guide",
       "topic": "Korean Packaging Suppliers: Cosmetics, Food, and Export-Ready Packaging Basics",
@@ -124,7 +124,10 @@
       "duplicate_note": "New business/industrial lane; no current consumer-content duplicate.",
       "amazon_hint": "Packaging design books, export planning tools",
       "risk": "medium",
-      "representative_decision": null
+      "representative_decision": "approved",
+      "approved_at": "2026-07-05",
+      "published_slug": "korean-packaging-suppliers",
+      "published_path": "/business/korean-packaging-suppliers"
     },
     {
       "id": 7,
