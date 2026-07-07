@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+  <title id="title">Seoul bakery route map</title>
+  <desc id="desc">A simple route infographic for a Seoul bakery day around Anguk, Seongsu, Jangchung, and Myeongdong.</desc>
+  <rect width="1200" height="760" fill="#fffaf0"/>
+  <rect x="70" y="70" width="1060" height="620" rx="28" fill="#ffffff" stroke="#e7d8bf" stroke-width="3"/>
+  <text x="110" y="138" font-family="Arial, sans-serif" font-size="42" font-weight="700" fill="#1f2937">Seoul Bakery Pilgrimage Logic</text>
+  <text x="110" y="178" font-family="Arial, sans-serif" font-size="22" fill="#6b5b45">Do not chase every viral line. Build one neighborhood route.</text>
+  <line x1="210" y1="365" x2="995" y2="365" stroke="#d97706" stroke-width="8" stroke-linecap="round"/>
+  <g transform="translate(145 265)">
+    <circle cx="70" cy="100" r="58" fill="#ffedd5" stroke="#f97316" stroke-width="5"/>
+    <text x="31" y="92" font-family="Arial, sans-serif" font-size="23" font-weight="700" fill="#9a3412">Anguk</text>
+    <text x="18" y="125" font-family="Arial, sans-serif" font-size="18" fill="#7c2d12">Hanok cafes</text>
+  </g>
+  <g transform="translate(390 265)">
+    <circle cx="70" cy="100" r="58" fill="#ecfccb" stroke="#84cc16" stroke-width="5"/>
+    <text x="22" y="92" font-family="Arial, sans-serif" font-size="23" font-weight="700" fill="#3f6212">Seongsu</text>
+    <text x="13" y="125" font-family="Arial, sans-serif" font-size="18" fill="#3f6212">Factory cafes</text>
+  </g>
+  <g transform="translate(635 265)">
+    <circle cx="70" cy="100" r="58" fill="#fef3c7" stroke="#eab308" stroke-width="5"/>
+    <text x="14" y="92" font-family="Arial, sans-serif" font-size="23" font-weight="700" fill="#854d0e">Jangchung</text>
+    <text x="16" y="125" font-family="Arial, sans-serif" font-size="18" fill="#713f12">Old bakery</text>
+  </g>
+  <g transform="translate(880 265)">
+    <circle cx="70" cy="100" r="58" fill="#e0f2fe" stroke="#38bdf8" stroke-width="5"/>
+    <text x="8" y="92" font-family="Arial, sans-serif" font-size="23" font-weight="700" fill="#075985">Myeongdong</text>
+    <text x="22" y="125" font-family="Arial, sans-serif" font-size="18" fill="#075985">Easy finish</text>
+  </g>
+  <g transform="translate(120 570)">
+    <circle cx="20" cy="20" r="13" fill="#0f766e"/>
+    <text x="48" y="27" font-family="Arial, sans-serif" font-size="22" fill="#334155">Pick one anchor bakery, one nearby second stop, and one take-home item.</text>
+  </g>
+  <g transform="translate(120 620)">
+    <circle cx="20" cy="20" r="13" fill="#b45309"/>
+    <text x="48" y="27" font-family="Arial, sans-serif" font-size="22" fill="#334155">Salt bread is best fresh. Bagels, monaka, and packaged cookies travel better.</text>
+  </g>
+</svg>

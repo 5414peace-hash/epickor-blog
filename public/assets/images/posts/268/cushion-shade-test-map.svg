@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+  <title id="title">Korean cushion foundation shade test map</title>
+  <desc id="desc">A neutral infographic showing how to test Korean cushion foundation shades by depth, undertone, oxidation, and daylight checks.</desc>
+  <rect width="1200" height="760" fill="#f8fafc"/>
+  <rect x="70" y="70" width="1060" height="620" rx="28" fill="#ffffff" stroke="#d6dee8" stroke-width="3"/>
+  <text x="110" y="138" font-family="Arial, sans-serif" font-size="42" font-weight="700" fill="#172033">Korean Cushion Shade Check</text>
+  <text x="110" y="178" font-family="Arial, sans-serif" font-size="22" fill="#5b6472">Do not trust the number alone. Test depth, undertone, finish, and oxidation.</text>
+  <g transform="translate(110 238)">
+    <rect width="210" height="270" rx="18" fill="#fff7ed" stroke="#fed7aa" stroke-width="2"/>
+    <text x="28" y="52" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#9a3412">17</text>
+    <text x="28" y="90" font-family="Arial, sans-serif" font-size="20" fill="#7c2d12">Very fair range</text>
+    <rect x="28" y="126" width="154" height="52" rx="12" fill="#f6dfc6"/>
+    <text x="28" y="220" font-family="Arial, sans-serif" font-size="18" fill="#7c2d12">Can look bright on camera</text>
+  </g>
+  <g transform="translate(360 238)">
+    <rect width="210" height="270" rx="18" fill="#fffbeb" stroke="#fde68a" stroke-width="2"/>
+    <text x="28" y="52" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#854d0e">21</text>
+    <text x="28" y="90" font-family="Arial, sans-serif" font-size="20" fill="#713f12">Fair-light range</text>
+    <rect x="28" y="126" width="154" height="52" rx="12" fill="#ecd0a7"/>
+    <text x="28" y="220" font-family="Arial, sans-serif" font-size="18" fill="#713f12">Often the Korean default</text>
+  </g>
+  <g transform="translate(610 238)">
+    <rect width="210" height="270" rx="18" fill="#fef3c7" stroke="#facc15" stroke-width="2"/>
+    <text x="28" y="52" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#7c2d12">23</text>
+    <text x="28" y="90" font-family="Arial, sans-serif" font-size="20" fill="#713f12">Light-medium range</text>
+    <rect x="28" y="126" width="154" height="52" rx="12" fill="#d7ad7c"/>
+    <text x="28" y="220" font-family="Arial, sans-serif" font-size="18" fill="#713f12">Safer if 21 looks gray</text>
+  </g>
+  <g transform="translate(860 238)">
+    <rect width="210" height="270" rx="18" fill="#f5f3ff" stroke="#c4b5fd" stroke-width="2"/>
+    <text x="28" y="52" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#5b21b6">N/C/W</text>
+    <text x="28" y="90" font-family="Arial, sans-serif" font-size="20" fill="#4c1d95">Undertone code</text>
+    <rect x="28" y="126" width="44" height="52" rx="10" fill="#e5d1b8"/>
+    <rect x="83" y="126" width="44" height="52" rx="10" fill="#e9c7ad"/>
+    <rect x="138" y="126" width="44" height="52" rx="10" fill="#e2b982"/>
+    <text x="28" y="220" font-family="Arial, sans-serif" font-size="18" fill="#4c1d95">Neutral, cool, warm vary</text>
+  </g>
+  <g transform="translate(120 570)">
+    <circle cx="20" cy="20" r="13" fill="#0f766e"/>
+    <text x="48" y="27" font-family="Arial, sans-serif" font-size="22" fill="#334155">Swatch at jawline, wait 20 minutes, then check beside a window.</text>
+  </g>
+  <g transform="translate(120 620)">
+    <circle cx="20" cy="20" r="13" fill="#b45309"/>
+    <text x="48" y="27" font-family="Arial, sans-serif" font-size="22" fill="#334155">If it turns gray, orange, or too bright in daylight, change undertone or depth.</text>
+  </g>
+</svg>

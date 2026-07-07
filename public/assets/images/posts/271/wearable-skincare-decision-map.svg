@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+  <title id="title">Wearable skincare decision map</title>
+  <desc id="desc">A simple infographic comparing eye patches, jelly mists, melting patches, and overnight masks.</desc>
+  <rect width="1200" height="760" fill="#f8fafc"/>
+  <rect x="70" y="70" width="1060" height="620" rx="28" fill="#ffffff" stroke="#d7dee8" stroke-width="3"/>
+  <text x="110" y="138" font-family="Arial, sans-serif" font-size="42" font-weight="700" fill="#172033">Wearable Skincare: What To Use When</text>
+  <text x="110" y="178" font-family="Arial, sans-serif" font-size="22" fill="#5b6472">The trend is fun. The useful part is matching format to the moment.</text>
+  <g transform="translate(115 242)">
+    <rect width="230" height="270" rx="18" fill="#fdf2f8" stroke="#fbcfe8" stroke-width="2"/>
+    <text x="28" y="55" font-family="Arial, sans-serif" font-size="27" font-weight="700" fill="#9d174d">Eye Patches</text>
+    <text x="28" y="96" font-family="Arial, sans-serif" font-size="19" fill="#831843">Use before makeup</text>
+    <text x="28" y="150" font-family="Arial, sans-serif" font-size="18" fill="#475569">Best for a visible,</text>
+    <text x="28" y="178" font-family="Arial, sans-serif" font-size="18" fill="#475569">temporary hydrated look.</text>
+  </g>
+  <g transform="translate(370 242)">
+    <rect width="230" height="270" rx="18" fill="#ecfeff" stroke="#a5f3fc" stroke-width="2"/>
+    <text x="28" y="55" font-family="Arial, sans-serif" font-size="27" font-weight="700" fill="#0e7490">Jelly Mists</text>
+    <text x="28" y="96" font-family="Arial, sans-serif" font-size="19" fill="#155e75">Use during the day</text>
+    <text x="28" y="150" font-family="Arial, sans-serif" font-size="18" fill="#475569">Best when skin feels</text>
+    <text x="28" y="178" font-family="Arial, sans-serif" font-size="18" fill="#475569">tight, dull, or dry.</text>
+  </g>
+  <g transform="translate(625 242)">
+    <rect width="230" height="270" rx="18" fill="#f5f3ff" stroke="#ddd6fe" stroke-width="2"/>
+    <text x="28" y="55" font-family="Arial, sans-serif" font-size="27" font-weight="700" fill="#6d28d9">Melting Patches</text>
+    <text x="28" y="96" font-family="Arial, sans-serif" font-size="19" fill="#5b21b6">Use on target zones</text>
+    <text x="28" y="150" font-family="Arial, sans-serif" font-size="18" fill="#475569">Best for a focused</text>
+    <text x="28" y="178" font-family="Arial, sans-serif" font-size="18" fill="#475569">hydration experiment.</text>
+  </g>
+  <g transform="translate(880 242)">
+    <rect width="230" height="270" rx="18" fill="#f0fdf4" stroke="#bbf7d0" stroke-width="2"/>
+    <text x="28" y="55" font-family="Arial, sans-serif" font-size="27" font-weight="700" fill="#166534">Overnight Masks</text>
+    <text x="28" y="96" font-family="Arial, sans-serif" font-size="19" fill="#14532d">Use after routine</text>
+    <text x="28" y="150" font-family="Arial, sans-serif" font-size="18" fill="#475569">Best when your barrier</text>
+    <text x="28" y="178" font-family="Arial, sans-serif" font-size="18" fill="#475569">needs a quiet night.</text>
+  </g>
+  <g transform="translate(120 570)">
+    <circle cx="20" cy="20" r="13" fill="#0f766e"/>
+    <text x="48" y="27" font-family="Arial, sans-serif" font-size="22" fill="#334155">Treat patches and mists as temporary support, not medical treatment.</text>
+  </g>
+  <g transform="translate(120 620)">
+    <circle cx="20" cy="20" r="13" fill="#b45309"/>
+    <text x="48" y="27" font-family="Arial, sans-serif" font-size="22" fill="#334155">Sensitive skin should patch test first and avoid stacking too many actives.</text>
+  </g>
+</svg>
