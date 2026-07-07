@@ -73,7 +73,10 @@
       "duplicate_note": "Distinct from Olive Young/traveler shopping posts because it targets reseller and importer decisions.",
       "amazon_hint": "Retail buying books, import/export basics, Korea business books",
       "risk": "high",
-      "representative_decision": null
+      "representative_decision": "approved",
+      "approved_at": "2026-07-07",
+      "published_slug": "korean-cosmetics-wholesale-guide",
+      "published_path": "/business/korean-cosmetics-wholesale-guide"
     },
     {
       "id": 4,
