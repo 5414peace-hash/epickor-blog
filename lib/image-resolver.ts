@@ -71,19 +71,16 @@ export function resolveImagePaths(
  * Force center alignment for all images
  */
 export function centerAlignImages(html: string): string {
-  // 1. First, wrap standalone <img> tags with <p class="image-center">
-  // Match: <img> NOT already inside <p> tags
-  html = html.replace(/(<img[^>]*>)/g, (match) => {
-    // Check if already wrapped in <p>
-    return `<p class="image-center">${match}</p>`;
-  });
-  
-  // 2. Clean up double-wrapped <p><p class="image-center"><img></p></p>
-  html = html.replace(/<p>(<p class="image-center"><img[^>]*><\/p>)<\/p>/g, '$1');
-  
-  // 3. Add class to existing <p><img></p> patterns
-  html = html.replace(/<p>(<img[^>]*>)<\/p>/g, '<p class="image-center">$1</p>');
-  
+  // Markdown images followed immediately by an italic caption become
+  // <p><img><em>caption</em></p>. Split that into valid block markup.
+  html = html.replace(
+    /<p>\s*(<img[^>]*>)\s*(<em>[\s\S]*?<\/em>)\s*<\/p>/g,
+    '<figure class="image-figure"><p class="image-center">$1</p><figcaption>$2</figcaption></figure>'
+  );
+
+  // Add class to remaining image-only paragraphs.
+  html = html.replace(/<p>\s*(<img[^>]*>)\s*<\/p>/g, '<p class="image-center">$1</p>');
+
   return html;
 }
 

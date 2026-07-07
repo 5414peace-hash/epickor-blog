@@ -311,7 +311,7 @@ export function convertInternalLinksToCards(
   basePath: 'blog' | 'business' = 'blog'
 ): string {
   const internalLinkPattern = new RegExp(
-    `<a[^>]*href="(?:https?:\\/\\/(?:www\\.)?epickor\\.com)?\\/${basePath}\\/([^"]+)"[^>]*>([^<]+)<\\/a>`,
+    `<p>\\s*<a[^>]*href="(?:https?:\\/\\/(?:www\\.)?epickor\\.com)?\\/${basePath}\\/([^"]+)"[^>]*>([^<]+)<\\/a>\\s*<\\/p>`,
     'g'
   );
 
