@@ -33,6 +33,8 @@ The show itself is only one part of the process. The buyer who wins is usually t
 
 A Korea trade show is most useful when the category benefits from touch, comparison, or relationship-building. Beauty, food, packaging, gifts, fashion materials, home goods, machinery, electronics, medical-adjacent equipment, and consumer products can all benefit from in-person inspection. You can compare finishes, textures, packaging, samples, booth quality, catalog depth, and export-manager communication in a few concentrated days.
 
+For beauty shows specifically, separate manufacturing meetings from finished-product wholesale meetings. If a booth conversation is about existing Korean skincare or makeup brands for resale, use the [Korean cosmetics wholesale guide](/business/korean-cosmetics-wholesale-guide) to check authorization, gray-market exposure, batch proof, and channel restrictions after the show.
+
 It is less useful when your brief is still vague. If you cannot explain your target market, quantity range, product requirements, and decision timeline, an in-person meeting may only produce brochures. Trade shows reward focused buyers. They do not automatically create a sourcing strategy.
 
 ![A trade-show exhibition hall shows the booth-heavy environment where buyers need a clear shortlist, meeting schedule, and follow-up plan.](trade-show-exhibition-pexels.jpg)

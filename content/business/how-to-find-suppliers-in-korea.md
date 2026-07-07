@@ -102,6 +102,8 @@ Before you open a directory, decide which kind of counterpart you need. A manufa
 
 Those roles are easy to mix up in Korea because some companies perform more than one role. A cosmetics company may have its own brand, operate ODM work, and also introduce sister-company products. A food exporter may coordinate with multiple factories. A packaging supplier may produce some parts in-house and outsource others. Your first email should make the role clear: "We are looking for an OEM manufacturer," "We are looking for an authorized distributor," or "We need a trading partner for mixed small-lot export."
 
+If the category is finished K-beauty rather than private-label manufacturing, use the [Korean cosmetics wholesale guide](/business/korean-cosmetics-wholesale-guide) before you contact sellers. Branded beauty inventory needs authorization, batch, expiry, marketplace, and channel checks that are different from a normal supplier search.
+
 This avoids a common mismatch. If you ask an ODM lab for wholesale branded products, the conversation slows down. If you ask a distributor to develop a private-label product, you may be speaking to the wrong company. If you ask a marketplace reseller for exclusive rights, the answer may be commercially meaningless.
 
 ## Step 2: Build a Short List, Not a Long Spreadsheet

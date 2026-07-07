@@ -74,6 +74,8 @@ The words sound simple until the first quotation arrives. Beauty sourcing in Kor
 
 If your goal is a product under your own brand, OEM or ODM is usually the conversation. If your goal is to resell Korean skincare that already exists, you are closer to wholesale or brand distribution. The two paths use different questions, different contracts, and different risk controls.
 
+For that resale path, read the [Korean cosmetics wholesale guide](/business/korean-cosmetics-wholesale-guide) before you ask for prices. Finished branded K-beauty inventory depends on authorization, channel permission, batch proof, expiry dates, and marketplace documentation, not only product popularity.
+
 ## The Regulatory Check Buyers Should Notice Early
 
 Korean cosmetics conversations often move quickly from "texture" and "trend" to "claim." That is where buyers need caution. [MFDS explains](https://www.mfds.go.kr/eng/wpge/m_24/de011014l001.do) functional cosmetics as cosmetics with legally defined functions such as whitening, wrinkle improvement, UV protection, acne-related functions, atopic-prone dryness, stretch-mark-related functions, hair-dye and hair-loss symptom categories, and hair-removal products in certain contexts.
