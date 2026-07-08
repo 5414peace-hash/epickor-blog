@@ -1,6 +1,6 @@
 # SEO + AEO Content Audit
 
-Generated: 2026-07-08T05:00:47.052Z
+Generated: 2026-07-08T05:11:05.538Z
 
 ## Overall Snapshot
 - Total posts: 244
@@ -17,7 +17,7 @@ Generated: 2026-07-08T05:00:47.052Z
 - Low: 124
 
 ## Top Issue Frequency
-- title-length-out-of-range: 153 posts (63%)
+- title-length-out-of-range: 152 posts (62%)
 - low-internal-linking: 139 posts (57%)
 - thin-content: 117 posts (48%)
 - missing-faq-section: 99 posts (41%)
