@@ -175,7 +175,7 @@ Here is the simple tourist guide:
 
 Some fans also like it after cooling down or even frozen, but for a first try, warm is the classic version.
 
-For another Korean snack culture guide, see EpicKor's article on [Korean snacks and texture culture](/blog/029). For a more everyday morning version of this grab-and-go logic, read the guide to [Korean convenience store breakfast](/blog/171).
+For another Korean snack culture guide, see EpicKor's article on [Korean snacks and texture culture](/blog/029). For a more everyday morning version of this grab-and-go logic, read the guide to [Korean convenience store breakfast](/blog/171). If you want to recreate the snack break at home rather than chase the station kiosk, pair it with the [Korean instant coffee mix guide](/blog/278) or the broader [Korean pantry starter kit](/blog/277).
 
 <div class="affiliate-inline-cta">
   <p><strong>For a snack drawer:</strong> If you want variety instead of one dessert, browse <a href="https://www.amazon.com/s?k=korean+food+starter+pack&tag=epickor2026-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean food starter packs</a> and choose the snacks you would actually finish, not the biggest box.</p>
