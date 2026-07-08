@@ -4,14 +4,17 @@
   - Source: Wikimedia Commons, `File:Seoul-Yongsan-Terminal.Electronic.Center-01.jpg`.
   - License: Wikimedia Commons file license as recorded on the file page.
   - Use: Hero/support image for Yongsan Electronics Market context.
-- `korea-kodak-camera-store-pexels.jpg`
-  - Source: Pexels photo `33415138`.
-  - Credit: Photo by Gul Isik on Pexels.
-  - Use: Korea-shot camera/photography retail support image for the camera-shopping section.
-- `electronics-shop-laptop-pexels.jpg`
-  - Source: Pexels photo `5874513`.
-  - Credit: Photo by Thanh Do on Pexels.
-  - Use: Electronics shop support image. Useful for counter/retail comparison context; not claimed as a Korea-specific location.
+- `yongsan-electronics-camera-signs-seoul-data.jpg`
+  - Source: Seoul Research Data Service, photo code `04U03809db5000`.
+  - Source URL: `https://data.si.re.kr/photo/04U03809db5000`.
+  - License shown on source page: Kogl Type 1 / CC BY 4.0.
+  - Source metadata checked: title `용산 전자상가`, shooting place `용산 전자상가`, shooting date `2010 / 3`.
+  - Use: Hero image because the frame directly shows Yongsan electronics/camera-brand signage and the shopping district.
+- `yongsan-electronics-nikon-olympus-seoul-data.jpg`
+  - Source: Seoul Research Data Service, photo code `04U03814db4000`.
+  - Source URL: `https://data.si.re.kr/photo/04U03814db4000`.
+  - License shown on Seoul Research Data Service Yongsan photo pages: Kogl Type 1 / CC BY 4.0.
+  - Use: Camera/electronics-shopping support image because Nikon/Olympus signage and Yongsan retail buildings are visible.
 - `seoul-tech-buying-map.svg`
   - Source: EpicKor-owned editorial SVG.
   - Use: Buying checklist graphic for warranty, voltage, tax refund, and packability.
