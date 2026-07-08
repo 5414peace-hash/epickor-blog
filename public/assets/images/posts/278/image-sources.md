@@ -1,6 +1,8 @@
 # Image Sources - Blog 278
 
-- `korean-instant-coffee-mix-guide.svg` - EpicKor-owned editorial SVG created for this post. It illustrates coffee-mix ritual components without depicting a specific product package.
-- `korean-coffee-mix-choice-map.svg` - EpicKor-owned editorial SVG created for this post. It maps coffee-mix choice by use case.
+- `maxim-korean-coffee-mix.jpg` - Wikimedia Commons, "Korean coffee mix Maxim" by Startandstar, CC0. Source: https://commons.wikimedia.org/wiki/File:Korean_coffee_mix_Maxim.jpg
+- `maxim-coffee-mix-sticks.jpg` - Wikimedia Commons, "Korean coffee mix Maxim (2)" by Startandstar, CC0. Source: https://commons.wikimedia.org/wiki/File:Korean_coffee_mix_Maxim_(2).jpg
+- `yakgwa-honey-cookies.jpg` - Wikimedia Commons, "KOCIS yakgwa, honey cookies (4646996236)" by Korea.net / Korean Culture and Information Service, CC BY-SA 2.0. Source: https://commons.wikimedia.org/wiki/File:KOCIS_yakgwa,_honey_cookies_(4646996236).jpg
+- `korean-hangwa-tea-pairing.jpg` - Wikimedia Commons, "Korean hangwa-Yakgwa-Yugwa-Tea-01" by Amsikle, CC BY-SA 2.0. Source: https://commons.wikimedia.org/wiki/File:Korean_hangwa-Yakgwa-Yugwa-Tea-01.jpg
 
-No external image assets were reused for this post.
+Legacy EpicKor SVG files remain in this folder but are no longer used in the visible article after the 2026-07-08 photo upgrade.
