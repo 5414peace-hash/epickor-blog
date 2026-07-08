@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="900" viewBox="0 0 1400 900" role="img" aria-labelledby="title desc">
+  <title id="title">Korean men's haircut order map</title>
+  <desc id="desc">A salon communication map for ordering a Korean men's haircut, including two-block, down perm, volume, bangs, and styling terms.</desc>
+  <rect width="1400" height="900" fill="#f6f3ef"/>
+  <rect x="80" y="70" width="1240" height="760" rx="26" fill="#ffffff" stroke="#2f2b28" stroke-width="4"/>
+  <text x="130" y="145" font-family="Arial, Helvetica, sans-serif" font-size="46" font-weight="700" fill="#2c2926">Korean Men's Haircut Order Map</text>
+  <text x="130" y="190" font-family="Arial, Helvetica, sans-serif" font-size="24" fill="#615852">Show a photo, then answer these five questions.</text>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <circle cx="260" cy="360" r="92" fill="#e8edf7" stroke="#7b8db5" stroke-width="4"/>
+    <text x="208" y="350" font-size="28" font-weight="700" fill="#293755">Side</text>
+    <text x="185" y="385" font-size="23" fill="#3d4964">How short?</text>
+    <circle cx="510" cy="360" r="92" fill="#e8f2ed" stroke="#79a68f" stroke-width="4"/>
+    <text x="455" y="350" font-size="28" font-weight="700" fill="#264737">Top</text>
+    <text x="430" y="385" font-size="23" fill="#3c5a4b">How much length?</text>
+    <circle cx="760" cy="360" r="92" fill="#fff1df" stroke="#c49357" stroke-width="4"/>
+    <text x="705" y="350" font-size="28" font-weight="700" fill="#5a3d1f">Bang</text>
+    <text x="684" y="385" font-size="23" fill="#694e33">Cover or lift?</text>
+    <circle cx="1010" cy="360" r="92" fill="#f1e8ec" stroke="#b88291" stroke-width="4"/>
+    <text x="955" y="350" font-size="28" font-weight="700" fill="#57333d">Perm</text>
+    <text x="930" y="385" font-size="23" fill="#654851">Down or volume?</text>
+    <rect x="170" y="565" width="1060" height="105" rx="18" fill="#2f2b28"/>
+    <text x="220" y="610" font-size="28" font-weight="700" fill="#ffffff">Useful phrase:</text>
+    <text x="220" y="648" font-size="26" fill="#ffffff">"Natural two-block, not too short on the sides, easy styling, please."</text>
+    <text x="170" y="740" font-size="24" fill="#615852">Bring one front photo and one side photo. The back view matters more than tourists expect.</text>
+  </g>
+  <text x="130" y="790" font-family="Arial, Helvetica, sans-serif" font-size="24" fill="#615852">EPICKOR.COM salon graphic</text>
+</svg>

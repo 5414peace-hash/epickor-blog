@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="900" viewBox="0 0 1400 900" role="img" aria-labelledby="title desc">
+  <title id="title">Korea car camping decision map</title>
+  <desc id="desc">A clean editorial decision map for Korea car camping planning, including campsite, rest stop, gear, weather, and etiquette checks.</desc>
+  <rect width="1400" height="900" fill="#f5f7f2"/>
+  <rect x="70" y="70" width="1260" height="760" rx="28" fill="#ffffff" stroke="#24352f" stroke-width="4"/>
+  <text x="120" y="150" font-family="Arial, Helvetica, sans-serif" font-size="48" font-weight="700" fill="#1d2d29">Korea Car Camping Check</text>
+  <text x="120" y="195" font-family="Arial, Helvetica, sans-serif" font-size="24" fill="#5c6b64">Use this before treating a pretty parking spot like a campsite.</text>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <rect x="120" y="260" width="330" height="170" rx="18" fill="#e7f0e8" stroke="#7ba37f" stroke-width="3"/>
+    <text x="155" y="315" font-size="30" font-weight="700" fill="#23362f">1. Legal Place</text>
+    <text x="155" y="360" font-size="23" fill="#394a43">Reserved campsite,</text>
+    <text x="155" y="392" font-size="23" fill="#394a43">auto-campground, or</text>
+    <text x="155" y="424" font-size="23" fill="#394a43">clearly allowed stay.</text>
+    <rect x="535" y="260" width="330" height="170" rx="18" fill="#eef4fb" stroke="#7fa4c7" stroke-width="3"/>
+    <text x="570" y="315" font-size="30" font-weight="700" fill="#24384b">2. Road Rhythm</text>
+    <text x="570" y="360" font-size="23" fill="#405163">Rest stops are for</text>
+    <text x="570" y="392" font-size="23" fill="#405163">breaks, food, fuel,</text>
+    <text x="570" y="424" font-size="23" fill="#405163">and bathrooms.</text>
+    <rect x="950" y="260" width="330" height="170" rx="18" fill="#f6efe1" stroke="#caa15b" stroke-width="3"/>
+    <text x="985" y="315" font-size="30" font-weight="700" fill="#594022">3. Quiet Setup</text>
+    <text x="985" y="360" font-size="23" fill="#5f4f3c">No loud speakers,</text>
+    <text x="985" y="392" font-size="23" fill="#5f4f3c">open fire mistakes,</text>
+    <text x="985" y="424" font-size="23" fill="#5f4f3c">or trash trails.</text>
+    <rect x="120" y="500" width="330" height="170" rx="18" fill="#f1e8ea" stroke="#b88189" stroke-width="3"/>
+    <text x="155" y="555" font-size="30" font-weight="700" fill="#51343b">4. Gear Reality</text>
+    <text x="155" y="600" font-size="23" fill="#56434a">Sleep mat, power,</text>
+    <text x="155" y="632" font-size="23" fill="#56434a">lamp, bug control,</text>
+    <text x="155" y="664" font-size="23" fill="#56434a">and simple food.</text>
+    <rect x="535" y="500" width="330" height="170" rx="18" fill="#e9edf4" stroke="#8896ab" stroke-width="3"/>
+    <text x="570" y="555" font-size="30" font-weight="700" fill="#30394a">5. Weather Plan</text>
+    <text x="570" y="600" font-size="23" fill="#465064">Heat, jangma rain,</text>
+    <text x="570" y="632" font-size="23" fill="#465064">wind, cold nights,</text>
+    <text x="570" y="664" font-size="23" fill="#465064">and condensation.</text>
+    <rect x="950" y="500" width="330" height="170" rx="18" fill="#e6f2ef" stroke="#6da591" stroke-width="3"/>
+    <text x="985" y="555" font-size="30" font-weight="700" fill="#24443a">6. Exit Clean</text>
+    <text x="985" y="600" font-size="23" fill="#3f5d53">Pack trash, food</text>
+    <text x="985" y="632" font-size="23" fill="#3f5d53">waste, ashes, and</text>
+    <text x="985" y="664" font-size="23" fill="#3f5d53">wet gear properly.</text>
+  </g>
+  <path d="M456 345 H522" stroke="#24352f" stroke-width="5" stroke-linecap="round"/>
+  <path d="M871 345 H937" stroke="#24352f" stroke-width="5" stroke-linecap="round"/>
+  <path d="M456 585 H522" stroke="#24352f" stroke-width="5" stroke-linecap="round"/>
+  <path d="M871 585 H937" stroke="#24352f" stroke-width="5" stroke-linecap="round"/>
+  <text x="120" y="755" font-family="Arial, Helvetica, sans-serif" font-size="24" fill="#50605a">EPICKOR.COM planning graphic</text>
+</svg>
