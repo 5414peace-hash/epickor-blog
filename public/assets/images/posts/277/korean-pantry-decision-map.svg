@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">Korean pantry starter decision map</title>
+  <desc id="desc">A decision map showing how beginners should build a Korean pantry by starting with a base, adding sauces, choosing a quick meal, adding snacks, and delaying big tools.</desc>
+  <rect width="1200" height="675" fill="#f8faf7"/>
+  <rect x="74" y="62" width="1052" height="552" rx="26" fill="#ffffff" stroke="#111111" stroke-width="4"/>
+  <text x="116" y="124" font-family="Arial, Helvetica, sans-serif" font-size="40" font-weight="700" fill="#111111">Build the shelf in layers</text>
+  <text x="118" y="161" font-family="Arial, Helvetica, sans-serif" font-size="19" fill="#555555">The best starter kit answers one question: what will you actually eat twice?</text>
+
+  <g font-family="Arial, Helvetica, sans-serif">
+    <rect x="116" y="214" width="210" height="110" rx="18" fill="#fff1bf" stroke="#111111" stroke-width="3"/>
+    <text x="142" y="256" font-size="24" font-weight="700" fill="#111111">1. Base</text>
+    <text x="142" y="291" font-size="18" fill="#333333">rice or microwave rice</text>
+
+    <path d="M337 269 L401 269" stroke="#111111" stroke-width="4"/>
+    <path d="M390 252 L410 269 L390 286" fill="none" stroke="#111111" stroke-width="4"/>
+
+    <rect x="424" y="214" width="210" height="110" rx="18" fill="#ffd8d0" stroke="#111111" stroke-width="3"/>
+    <text x="450" y="256" font-size="24" font-weight="700" fill="#111111">2. Sauce</text>
+    <text x="450" y="291" font-size="18" fill="#333333">gochujang + ssamjang</text>
+
+    <path d="M645 269 L709 269" stroke="#111111" stroke-width="4"/>
+    <path d="M698 252 L718 269 L698 286" fill="none" stroke="#111111" stroke-width="4"/>
+
+    <rect x="732" y="214" width="250" height="110" rx="18" fill="#d9f1e5" stroke="#111111" stroke-width="3"/>
+    <text x="758" y="256" font-size="24" font-weight="700" fill="#111111">3. Quick meal</text>
+    <text x="758" y="291" font-size="18" fill="#333333">ramen, stew, rice bowl</text>
+
+    <rect x="180" y="390" width="250" height="112" rx="18" fill="#e1efff" stroke="#111111" stroke-width="3"/>
+    <text x="208" y="432" font-size="24" font-weight="700" fill="#111111">4. Snack lane</text>
+    <text x="208" y="467" font-size="18" fill="#333333">gim, yakgwa, coffee mix</text>
+
+    <path d="M446 446 L535 446" stroke="#111111" stroke-width="4"/>
+    <path d="M524 429 L544 446 L524 463" fill="none" stroke="#111111" stroke-width="4"/>
+
+    <rect x="562" y="390" width="250" height="112" rx="18" fill="#f0e1ff" stroke="#111111" stroke-width="3"/>
+    <text x="590" y="432" font-size="24" font-weight="700" fill="#111111">5. Small tools</text>
+    <text x="590" y="467" font-size="18" fill="#333333">spoon set, pot, storage</text>
+
+    <rect x="850" y="390" width="188" height="112" rx="18" fill="#f4f4f4" stroke="#111111" stroke-width="3"/>
+    <text x="882" y="432" font-size="24" font-weight="700" fill="#111111">Wait on</text>
+    <text x="882" y="467" font-size="18" fill="#333333">big gear</text>
+  </g>
+
+  <rect x="145" y="545" width="910" height="42" rx="21" fill="#111111"/>
+  <text x="186" y="573" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#ffffff">Rule: reorder what you used, not what looked exciting in the first haul.</text>
+  <text x="958" y="636" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#111111">EPICKOR.COM</text>
+</svg>

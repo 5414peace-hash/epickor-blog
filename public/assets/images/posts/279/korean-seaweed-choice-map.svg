@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">Korean seaweed choice map</title>
+  <desc id="desc">Decision map showing whether to choose Korean seaweed snack packs, rice sheets, gimbap sheets, bugak-style chips, or gift boxes.</desc>
+  <rect width="1200" height="675" fill="#f6f8f2"/>
+  <rect x="76" y="62" width="1048" height="552" rx="26" fill="#ffffff" stroke="#111111" stroke-width="4"/>
+  <text x="118" y="123" font-family="Arial, Helvetica, sans-serif" font-size="40" font-weight="700" fill="#111111">Choose seaweed by job</text>
+  <text x="120" y="160" font-family="Arial, Helvetica, sans-serif" font-size="19" fill="#555555">Most wrong purchases happen because the package looked close enough.</text>
+
+  <g font-family="Arial, Helvetica, sans-serif">
+    <rect x="122" y="216" width="195" height="110" rx="18" fill="#d9f1e5" stroke="#111111" stroke-width="3"/>
+    <text x="148" y="258" font-size="23" font-weight="700" fill="#111111">snack pack</text>
+    <text x="148" y="291" font-size="17" fill="#333333">eat now, rice side</text>
+
+    <rect x="365" y="216" width="195" height="110" rx="18" fill="#fff1bf" stroke="#111111" stroke-width="3"/>
+    <text x="391" y="258" font-size="23" font-weight="700" fill="#111111">rice sheet</text>
+    <text x="391" y="291" font-size="17" fill="#333333">home meal helper</text>
+
+    <rect x="608" y="216" width="195" height="110" rx="18" fill="#e1efff" stroke="#111111" stroke-width="3"/>
+    <text x="634" y="258" font-size="23" font-weight="700" fill="#111111">gimbap sheet</text>
+    <text x="634" y="291" font-size="17" fill="#333333">roll, not snack</text>
+
+    <rect x="851" y="216" width="195" height="110" rx="18" fill="#ffe1dc" stroke="#111111" stroke-width="3"/>
+    <text x="877" y="258" font-size="23" font-weight="700" fill="#111111">bugak chip</text>
+    <text x="877" y="291" font-size="17" fill="#333333">crunchy novelty</text>
+
+    <rect x="250" y="408" width="300" height="94" rx="18" fill="#f0e1ff" stroke="#111111" stroke-width="3"/>
+    <text x="278" y="448" font-size="23" font-weight="700" fill="#111111">souvenir gift</text>
+    <text x="278" y="480" font-size="17" fill="#333333">sealed, compact, explainable</text>
+
+    <rect x="650" y="408" width="300" height="94" rx="18" fill="#f4f4f4" stroke="#111111" stroke-width="3"/>
+    <text x="678" y="448" font-size="23" font-weight="700" fill="#111111">skip for now</text>
+    <text x="678" y="480" font-size="17" fill="#333333">soup seaweed if you wanted snacks</text>
+  </g>
+
+  <rect x="148" y="548" width="904" height="42" rx="21" fill="#111111"/>
+  <text x="183" y="576" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#ffffff">Best beginner move: small seasoned packs first, larger sheets only after rice meals repeat.</text>
+  <text x="960" y="636" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#111111">EPICKOR.COM</text>
+</svg>
