@@ -80,7 +80,7 @@ If you are trying to decide which word fits, start with the relationship instead
   <p><strong>Korean-learning note:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. If this address-term problem made you realize Korean is more than vocabulary lists, compare <a href="https://amzn.to/3Zgx6Qq">Korean Alphabet with Writing Workbook</a> as a low-pressure study starting point.</p>
 </div>
 
-This is also why age matters so much in Korean conversation. If you want a wider guide to how age shapes speech and social behavior, read our [Korean age system explained](/blog/166) after this.
+This is also why age matters so much in Korean conversation. If you want a wider guide to how age shapes speech and social behavior, read our [Korean age system explained](/blog/166) after this. For the institutional side of Korean social labels, EpicKor's [neutral guide to South Korean political parties](/blog/283) shows why names, factions, and formal titles also need date-specific context.
 
 ## Why Ahjussi Can Feel Sensitive
 

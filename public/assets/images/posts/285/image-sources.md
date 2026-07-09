@@ -1,0 +1,22 @@
+# Image Sources - Blog 285
+
+- `kyunggi-high-school-front.jpg`
+  - Source: Wikimedia Commons upload URL for Kyunggi High School front.
+  - Fit score: 99/100.
+  - Reason: Direct real image of Kyunggi High School, one of the main schools discussed.
+- `whimoon-high-school-south-building.jpg`
+  - Source: Wikimedia Commons upload URL for Whimoon High School southern building.
+  - Fit score: 99/100.
+  - Reason: Direct real image of Whimoon High School, one of the main schools discussed.
+- `whimoon-historic-heejungdang.jpg`
+  - Source: Wikimedia Commons upload URL for historical Whimoon school building.
+  - Fit score: 98/100.
+  - Reason: Direct historical image tied to Whimoon's early institution.
+- `joongdong-high-school-main.png`
+  - Source: Joongdong High School official website image.
+  - Fit score: 97/100.
+  - Reason: Official current school image for Joongdong High School.
+- `sookmyung-wooden-signboard.jpg`
+  - Source: Wikimedia Commons upload URL for Myeongsin Girls' School wooden signboard.
+  - Fit score: 96/100.
+  - Reason: Direct historical artifact tied to Sookmyung Girls' High School origins.
