@@ -102,6 +102,8 @@ The key is that these layers reinforce each other when they work well. Online da
 
 MUSINSA's official newsroom gives unusually concrete 2026 operating signals. In its May 27, 2026 release, MUSINSA said Q1 2026 consolidated revenue reached KRW 363.6 billion, up 24.1% year over year, and operating profit reached KRW 19.0 billion, up 8.2% year over year. It also reported standalone Q1 revenue of KRW 335.0 billion, up about 25%, and standalone operating profit of KRW 27.5 billion, up 45.5%.
 
+![A MUSINSA Newsroom photo from Seongsu shows how offline stores now sit beside the platform's online growth story.](musinsa-store-seongsu-sketch.jpg)
+
 The same release said MUSINSA Standard offline revenue rose about 86% year over year in Q1 2026, while visitors to its nationwide stores reached about 9.23 million, up about 98%. For global business, MUSINSA said Q1 2026 global-store gross merchandise value rose more than 48% year over year, and that foreign-customer revenue represented about 44% of sales across five road-shop locations in Myeongdong, Seomyeon, Seongsu, Hannam, and Hongdae. It also said exports reached about KRW 15.3 billion, about 11.9 times the year-earlier level, and represented 4.2% of quarterly sales versus 0.44% in Q1 2025.
 
 That set of figures is important because it points to three growth engines: online platform scale, offline retail execution, and global/tourist-facing demand.
@@ -153,6 +155,8 @@ These figures are company-reported, so readers should treat them as strong publi
 
 MUSINSA's offline move is not a retreat from digital. It is a sign that Korean fashion discovery has become hybrid.
 
+![An official MUSINSA Newsroom photo from the Mega Store Seongsu opening shows the physical-retail layer behind the online platform.](musinsa-megastore-seongsu-open-run.jpg)
+
 Seoul neighborhoods such as Seongsu, Myeongdong, Hongdae, Hannam, and department-store districts now act as media surfaces. A store can function as a showroom, tourist stop, social-content set, and conversion channel at the same time. For fashion, that is powerful because texture, fit, sizing, and styling still matter.
 
 MUSINSA Standard is especially important because it gives MUSINSA an owned-label anchor in offline retail. Basics are easier to understand physically than online: fabric hand, fit, color, and price become immediate. If a tourist or local shopper walks into a MUSINSA Standard store, the experience can reinforce the brand even if the later purchase happens online.
@@ -178,6 +182,8 @@ For overseas buyers, MUSINSA can be useful as a trend radar. It shows which Kore
 MUSINSA's global push matters because K-fashion has often been more fragmented than K-beauty or K-pop. Many Korean fashion labels have strong identity but limited overseas distribution. MUSINSA can potentially reduce that fragmentation by giving overseas consumers a recognizable discovery surface.
 
 The company has also benefited from Korea-bound tourism. A foreign customer who discovers a brand in a Seoul store may later buy online after returning home. That makes offline stores and global commerce complementary rather than separate.
+
+![MUSINSA Standard Myeongdong shoppers in an official newsroom photo show why tourist-facing stores matter for global K-fashion demand.](musinsa-standard-myeongdong-shoppers.jpg)
 
 Still, global fashion is hard. Size standards, returns, duties, delivery speed, local language, payment methods, seasonality, and brand awareness all vary by market. A Korean product that looks obvious in Seoul may need different storytelling in Los Angeles, Tokyo, Singapore, Paris, or Sydney.
 

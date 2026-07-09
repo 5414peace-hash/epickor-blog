@@ -31,6 +31,8 @@ This is a public-information-only company spotlight. EpicKor is not implying a c
 
 Korea is a useful market for fintech observation because the country combines dense mobile usage, fast consumer adoption, strong incumbent banks, active securities participation, card-heavy payments, and strict financial regulation. A product that becomes habitual in that environment has usually solved more than a design problem. It has solved trust, compliance, onboarding, data, partnerships, and reliability problems at the same time.
 
+![Toss's official team key visual frames the company as a product and organization built around everyday finance.](toss-team-key-visual.jpg)
+
 Toss began with a simple transfer experience and expanded into a broader financial surface. The company's own English pages describe Toss as a platform for managing a user's financial life, including bank accounts, cards, insurance, securities accounts, spending, credit scores, loans, investing, payments, taxes, verification, and business tools. The official team page also identifies Toss as Korea's leading financial super app and says it is used by more than one in two Koreans.
 
 For operators, that makes Toss interesting in four ways.
@@ -46,6 +48,8 @@ Fourth, Toss is useful for overseas companies studying Korea because it reveals 
 ## What Toss Actually Does
 
 Toss is best understood as a consumer and merchant financial stack rather than a single app utility. The public pages group the service around user money management, transfer, loans, credit score, securities, insurance, payments, and business tools.
+
+![An official Toss digital banking screen shows how banking tasks sit inside the same mobile-first Toss interface.](toss-app-digital-banking.png)
 
 <div class="table-scroll">
   <table>
@@ -100,6 +104,8 @@ The important distinction is that a super app is not just a long feature list. A
 
 Toss says its first simple transfer service launched in February 2015 without requiring an accredited certificate. That matters because Korea's older online finance experience was often fragmented across certificates, plug-ins, bank apps, and confusing user flows. Toss found a consumer pain point that almost everyone could understand: sending money should be simple.
 
+![The official Toss money-transfer product image shows the original high-frequency use case that helped build user habit.](toss-app-money-transfer.png)
+
 The company's 10-year data report says the figures in that report are based on accumulated data from launch through November 2024 unless a specific period is separately indicated. Its official team page says registered users among Koreans in their 20s reached 5.5 million, 30s reached 5.6 million, and 40s reached 5.7 million, with the percentages based on Statistics Korea population data and Toss user data as of December 2024.
 
 Those figures are useful because they suggest Toss is not only a Gen Z app. The public age-group metrics imply multi-generation adoption across Korean adults. For a financial app, that matters. Broad adoption makes the product more useful as an operating layer because each additional feature can be introduced to an audience that already has some trust in the brand.
@@ -113,6 +119,8 @@ The current Toss story is broader than Viva Republica alone. Toss Bank has its o
 ![An official Toss app image shows how the product presents financial actions through a mobile-first interface.](toss-app-credit-score.png)
 
 This ecosystem gives Toss several possible advantages.
+
+![Toss's official Toss Pay and e-commerce product image illustrates how the company extends from personal finance into payment and checkout contexts.](toss-app-tosspay-ecommerce.png)
 
 One advantage is cross-context recognition. A consumer who already uses Toss for transfer or credit score may be more willing to try investing or payment tools inside the same interface. A merchant who sees Toss as a payment brand may be more open to a Toss checkout or POS product.
 
