@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-07-04",
+  "last_updated": "2026-07-09",
   "approval_required": true,
-  "next_id": 11,
+  "next_id": 13,
   "allowed_statuses": ["candidate", "approved", "rejected", "blocked"],
   "rules": {
     "candidate": "Topic can be proposed in a weekly list, but must not be drafted.",
@@ -61,7 +61,7 @@
     },
     {
       "id": 3,
-      "status": "candidate",
+      "status": "approved",
       "priority": "high",
       "business_type": "search-demand-guide",
       "topic": "Korean Cosmetics Wholesale Guide: Distributors, Gray Market Risk, and Brand Authorization",
@@ -195,6 +195,44 @@
       "amazon_hint": "Beauty business books, Korea business books",
       "risk": "medium-high",
       "representative_decision": null
+    },
+    {
+      "id": 11,
+      "status": "approved",
+      "priority": "high",
+      "business_type": "non-client-spotlight",
+      "topic": "Toss / Viva Republica Deep Dive 2026: Korea's Fintech Super-App Company",
+      "slug_hint": "toss-viva-republica-deep-dive",
+      "keywords": ["Toss Korea", "Viva Republica", "Korean fintech company", "Korea fintech super app", "Toss fintech"],
+      "audience": "Overseas operators, fintech researchers, Korea-market analysts, and business readers studying Korean platform companies",
+      "angle": "Public-information-only company deep dive explaining Toss's transfer-to-super-app path, product stack, adoption signals, risks, and transferable lessons.",
+      "source_candidates": ["Toss official website", "Toss in Numbers", "Toss Bank", "Toss Securities", "Toss Place"],
+      "duplicate_note": "New B-2 company spotlight. No existing /business/ post covers Toss, Viva Republica, or Korean fintech super-app strategy.",
+      "amazon_hint": "Fintech strategy books, Korea business books, product management books",
+      "risk": "medium",
+      "representative_decision": "approved",
+      "approved_at": "2026-07-09",
+      "published_slug": "toss-viva-republica-deep-dive",
+      "published_path": "/business/toss-viva-republica-deep-dive"
+    },
+    {
+      "id": 12,
+      "status": "approved",
+      "priority": "high",
+      "business_type": "non-client-spotlight",
+      "topic": "MUSINSA Deep Dive 2026: Korea's Fashion Platform Going Offline and Global",
+      "slug_hint": "musinsa-company-deep-dive",
+      "keywords": ["MUSINSA", "Korean fashion platform", "K-fashion business", "MUSINSA global", "MUSINSA Standard"],
+      "audience": "Overseas fashion brands, buyers, retail operators, Korea-market researchers, and readers studying K-fashion infrastructure",
+      "angle": "Public-information-only company deep dive explaining MUSINSA's community roots, platform ecosystem, offline expansion, 2026 public numbers, global push, and risks.",
+      "source_candidates": ["MUSINSA corporate site", "MUSINSA Newsroom", "MUSINSA Global", "reliable retail reporting"],
+      "duplicate_note": "New B-2 company spotlight. Existing EpicKor fashion posts are consumer/culture-facing and do not cover MUSINSA as a business deep dive.",
+      "amazon_hint": "Fashion business books, retail strategy books, ecommerce strategy books, trade-show planning tools",
+      "risk": "medium",
+      "representative_decision": "approved",
+      "approved_at": "2026-07-09",
+      "published_slug": "musinsa-company-deep-dive",
+      "published_path": "/business/musinsa-company-deep-dive"
     }
   ]
 }

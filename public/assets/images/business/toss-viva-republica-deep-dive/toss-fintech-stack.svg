@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="900" viewBox="0 0 1400 900" role="img" aria-labelledby="title desc">
+  <title id="title">Toss fintech stack map</title>
+  <desc id="desc">A business infographic showing how Toss expanded from money transfer into a financial super-app stack.</desc>
+  <rect width="1400" height="900" fill="#f6f9ff"/>
+  <rect x="70" y="70" width="1260" height="760" rx="44" fill="#ffffff" stroke="#d7e4ff" stroke-width="3"/>
+  <text x="115" y="145" font-family="Arial, Helvetica, sans-serif" font-size="54" font-weight="800" fill="#172033">Toss as a fintech stack</text>
+  <text x="116" y="193" font-family="Arial, Helvetica, sans-serif" font-size="24" fill="#5b6678">From simple transfer into a daily financial interface</text>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <rect x="130" y="255" width="250" height="390" rx="28" fill="#ecf3ff" stroke="#bcd2ff" stroke-width="2"/>
+    <text x="165" y="315" font-size="28" font-weight="700" fill="#1f5fd6">Entry Point</text>
+    <text x="165" y="370" font-size="23" fill="#263247">Money transfer</text>
+    <text x="165" y="410" font-size="23" fill="#263247">Account view</text>
+    <text x="165" y="450" font-size="23" fill="#263247">Credit score</text>
+    <text x="165" y="490" font-size="23" fill="#263247">Daily finance</text>
+    <rect x="165" y="545" width="175" height="46" rx="23" fill="#3182f6"/>
+    <text x="207" y="576" font-size="20" font-weight="700" fill="#ffffff">trust loop</text>
+    <path d="M400 445 L480 445" stroke="#8bb5ff" stroke-width="10" stroke-linecap="round"/>
+    <path d="M462 420 L492 445 L462 470" fill="none" stroke="#8bb5ff" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="515" y="255" width="330" height="390" rx="28" fill="#f3f6fb" stroke="#d4dce8" stroke-width="2"/>
+    <text x="550" y="315" font-size="28" font-weight="700" fill="#172033">Core Platform</text>
+    <text x="550" y="370" font-size="23" fill="#263247">Toss app experience</text>
+    <text x="550" y="410" font-size="23" fill="#263247">Payments and commerce</text>
+    <text x="550" y="450" font-size="23" fill="#263247">Financial dashboard</text>
+    <text x="550" y="490" font-size="23" fill="#263247">Data-led personalization</text>
+    <rect x="550" y="545" width="250" height="46" rx="23" fill="#172033"/>
+    <text x="594" y="576" font-size="20" font-weight="700" fill="#ffffff">super-app layer</text>
+    <path d="M865 445 L945 445" stroke="#8bb5ff" stroke-width="10" stroke-linecap="round"/>
+    <path d="M927 420 L957 445 L927 470" fill="none" stroke="#8bb5ff" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="980" y="255" width="290" height="390" rx="28" fill="#eefaf4" stroke="#bce6ce" stroke-width="2"/>
+    <text x="1015" y="315" font-size="28" font-weight="700" fill="#087344">Regulated Units</text>
+    <text x="1015" y="370" font-size="23" fill="#263247">Digital banking</text>
+    <text x="1015" y="410" font-size="23" fill="#263247">Securities</text>
+    <text x="1015" y="450" font-size="23" fill="#263247">Merchant tools</text>
+    <text x="1015" y="490" font-size="23" fill="#263247">Insurance and loans</text>
+    <rect x="1015" y="545" width="205" height="46" rx="23" fill="#10a869"/>
+    <text x="1054" y="576" font-size="20" font-weight="700" fill="#ffffff">monetization</text>
+  </g>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <rect x="140" y="705" width="1120" height="78" rx="24" fill="#172033"/>
+    <text x="180" y="755" font-size="25" font-weight="700" fill="#ffffff">Operator question:</text>
+    <text x="420" y="755" font-size="25" fill="#d9e6ff">Can the same trust interface keep expanding without becoming too complex?</text>
+  </g>
+</svg>
