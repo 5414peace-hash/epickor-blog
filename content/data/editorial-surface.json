@@ -1,0 +1,396 @@
+{
+  "version": 1,
+  "updatedAt": "2026-07-09",
+  "selectionMode": "editorial-pinned",
+  "randomization": "disabled",
+  "reviewPolicy": {
+    "homeCadence": "weekly",
+    "categoryCadence": "every 2-4 weeks",
+    "homeReviewDay": "Monday",
+    "categoryReviewDay": "first Monday of the month",
+    "replacementRule": "Replace a pinned hero when it loses topical value, has weak search/business priority, is visually weak, or a newer post has stronger seasonal or monetization value.",
+    "automaticSections": ["latest"],
+    "manualSections": ["home.hero", "home.secondary", "home.popular", "home.plan", "home.reels", "category.hero", "category.startHere", "category.recommended"]
+  },
+  "scoringModel": [
+    {
+      "factor": "searchOpportunity",
+      "weight": 25,
+      "description": "GSC opportunity, search intent fit, and evergreen demand."
+    },
+    {
+      "factor": "seasonality",
+      "weight": 20,
+      "description": "Near-term relevance such as travel season, festival timing, weather, shopping season, or news-adjacent context."
+    },
+    {
+      "factor": "monetizationOrBusinessValue",
+      "weight": 20,
+      "description": "Amazon affiliate fit, buyer usefulness, business-section value, or strategic EpicKor funnel value."
+    },
+    {
+      "factor": "visualAndSocialPotential",
+      "weight": 15,
+      "description": "Strong image quality, card-news/Reels potential, and first-screen appeal."
+    },
+    {
+      "factor": "freshnessAndAccuracy",
+      "weight": 10,
+      "description": "Recent update status and low risk of stale information."
+    },
+    {
+      "factor": "sectionDiversity",
+      "weight": 10,
+      "description": "Balances travel, food, beauty, culture, business, and Instagram guide pathways."
+    }
+  ],
+  "surfaces": {
+    "home": {
+      "selectionMode": "editorial-pinned",
+      "reviewCadence": "weekly",
+      "nextReviewDate": "2026-07-13",
+      "hero": {
+        "slug": "257",
+        "pinnedSince": "2026-07-09",
+        "reviewAfter": "2026-07-13",
+        "reason": "Strong airport evergreen guide with high traveler intent, useful first-screen image, and natural links to transit, packing, and trip setup content."
+      },
+      "secondary": [
+        {
+          "slug": "160",
+          "reason": "High affiliate and K-beauty search value; keeps the homepage from becoming travel-only."
+        },
+        {
+          "slug": "270",
+          "reason": "Food/cafe visual appeal and recent Seoul bakery search/social fit."
+        }
+      ],
+      "popular": [
+        {
+          "slug": "090",
+          "reason": "Evergreen culture explainer with strong reader curiosity."
+        },
+        {
+          "slug": "082",
+          "reason": "Stable education/culture explainer that broadens the homepage mix."
+        },
+        {
+          "slug": "071",
+          "reason": "Food curiosity topic with proven social-friendly hook."
+        },
+        {
+          "slug": "201",
+          "reason": "Practical first-trip setup guide."
+        },
+        {
+          "slug": "205",
+          "reason": "Tourist connectivity planning guide with strong utility."
+        }
+      ],
+      "plan": [
+        {
+          "slug": "205",
+          "reason": "Core first-hour travel planning decision."
+        },
+        {
+          "slug": "201",
+          "reason": "Payment setup is a high-friction trip question."
+        },
+        {
+          "slug": "160",
+          "reason": "SPF guide supports travel packing and affiliate value."
+        },
+        {
+          "slug": "204",
+          "reason": "Seasonal packing and summer risk planning."
+        }
+      ],
+      "reels": [
+        {
+          "slug": "180",
+          "reason": "Strong visual Seoul destination for social-to-site continuation."
+        },
+        {
+          "slug": "177",
+          "reason": "Cafe culture is social-friendly and broadens the guide mix."
+        },
+        {
+          "slug": "267",
+          "reason": "Hangang night picnic is visual, seasonal, and local."
+        },
+        {
+          "slug": "272",
+          "reason": "Character shopping has clear social and shopping intent."
+        }
+      ]
+    },
+    "travel": {
+      "selectionMode": "editorial-pinned",
+      "reviewCadence": "every 2-4 weeks",
+      "nextReviewDate": "2026-08-03",
+      "hero": {
+        "slug": "257",
+        "pinnedSince": "2026-07-09",
+        "reviewAfter": "2026-08-03",
+        "reason": "Best current travel gateway article: airport, layover, rest, food, and transit decisions in one entry point."
+      },
+      "startHere": [
+        {
+          "slug": "202",
+          "reason": "Airport-to-Seoul transfer is a first-trip essential."
+        },
+        {
+          "slug": "205",
+          "reason": "Connectivity setup is a universal tourist decision."
+        },
+        {
+          "slug": "216",
+          "reason": "Luggage and hands-free travel solve a common itinerary problem."
+        },
+        {
+          "slug": "201",
+          "reason": "Payment setup reduces arrival friction."
+        },
+        {
+          "slug": "204",
+          "reason": "Packing guide supports seasonal trip planning."
+        }
+      ],
+      "recommended": [
+        {
+          "slug": "202",
+          "reason": "High-utility arrival guide."
+        },
+        {
+          "slug": "205",
+          "reason": "High-utility internet setup guide."
+        },
+        {
+          "slug": "216",
+          "reason": "Practical routing and luggage guide."
+        },
+        {
+          "slug": "201",
+          "reason": "Payment setup guide for tourists."
+        },
+        {
+          "slug": "204",
+          "reason": "Seasonal packing guide."
+        },
+        {
+          "slug": "267",
+          "reason": "Visually strong Seoul night activity."
+        },
+        {
+          "slug": "180",
+          "reason": "Classic Seoul neighborhood destination."
+        }
+      ]
+    },
+    "food-shopping": {
+      "selectionMode": "editorial-pinned",
+      "reviewCadence": "every 2-4 weeks",
+      "nextReviewDate": "2026-08-03",
+      "hero": {
+        "slug": "270",
+        "pinnedSince": "2026-07-09",
+        "reviewAfter": "2026-08-03",
+        "reason": "Recent Seoul bakery guide with strong visual, cafe, and food-discovery appeal."
+      },
+      "startHere": [
+        {
+          "slug": "272",
+          "reason": "Shopping entry point with strong tourist and gift intent."
+        },
+        {
+          "slug": "209",
+          "reason": "Grocery tourism is useful before flying home."
+        },
+        {
+          "slug": "220",
+          "reason": "Station snack guide is practical and visual."
+        },
+        {
+          "slug": "153",
+          "reason": "Iconic Korea breakfast/food curiosity guide."
+        },
+        {
+          "slug": "171",
+          "reason": "Convenience store breakfast connects food and daily life."
+        }
+      ],
+      "recommended": [
+        {
+          "slug": "272",
+          "reason": "Tourist shopping and souvenir pathway."
+        },
+        {
+          "slug": "209",
+          "reason": "Food-shopping and grocery pathway."
+        },
+        {
+          "slug": "220",
+          "reason": "Station snack pathway."
+        },
+        {
+          "slug": "153",
+          "reason": "Korean breakfast and street-food curiosity."
+        },
+        {
+          "slug": "171",
+          "reason": "Convenience-store food pathway."
+        },
+        {
+          "slug": "277",
+          "reason": "Korea-at-home pantry affiliate pathway."
+        },
+        {
+          "slug": "279",
+          "reason": "Korean snack affiliate pathway."
+        },
+        {
+          "slug": "280",
+          "reason": "Korean drink and gift pathway."
+        },
+        {
+          "slug": "281",
+          "reason": "Dosirak and Korea-at-home pathway."
+        },
+        {
+          "slug": "282",
+          "reason": "Kimchi jjigae and pantry pathway."
+        }
+      ]
+    },
+    "beauty-lifestyle": {
+      "selectionMode": "editorial-pinned",
+      "reviewCadence": "every 2-4 weeks",
+      "nextReviewDate": "2026-08-03",
+      "hero": {
+        "slug": "160",
+        "pinnedSince": "2026-07-09",
+        "reviewAfter": "2026-08-03",
+        "reason": "Best current K-beauty money-page anchor with strong SPF search and affiliate fit."
+      },
+      "startHere": [
+        {
+          "slug": "192",
+          "reason": "Olive Young shopping guide is the strongest retail entry point."
+        },
+        {
+          "slug": "268",
+          "reason": "Cushion shade guide solves a specific buying decision."
+        },
+        {
+          "slug": "269",
+          "reason": "Beauty device guide supports higher-value shopping research."
+        },
+        {
+          "slug": "271",
+          "reason": "Wearable skincare guide covers newer product formats."
+        },
+        {
+          "slug": "206",
+          "reason": "Connects beauty shopping with practical tourist planning."
+        }
+      ],
+      "recommended": [
+        {
+          "slug": "192",
+          "reason": "Core Olive Young and shopping pathway."
+        },
+        {
+          "slug": "268",
+          "reason": "Makeup shade decision guide."
+        },
+        {
+          "slug": "269",
+          "reason": "Device shopping guide."
+        },
+        {
+          "slug": "271",
+          "reason": "Wearable skincare trend guide."
+        },
+        {
+          "slug": "163",
+          "reason": "Evergreen skincare context."
+        },
+        {
+          "slug": "206",
+          "reason": "Shopping strategy bridge."
+        },
+        {
+          "slug": "244",
+          "reason": "Beauty travel trend context."
+        }
+      ]
+    },
+    "culture": {
+      "selectionMode": "editorial-pinned",
+      "reviewCadence": "every 2-4 weeks",
+      "nextReviewDate": "2026-08-03",
+      "hero": {
+        "slug": "090",
+        "pinnedSince": "2026-07-09",
+        "reviewAfter": "2026-08-03",
+        "reason": "Strong evergreen Korean-language/social cue explainer with clear reader curiosity."
+      },
+      "startHere": [
+        {
+          "slug": "082",
+          "reason": "Stable education/culture explainer."
+        },
+        {
+          "slug": "210",
+          "reason": "Language and social-term guide pairs naturally with Ahjussi."
+        },
+        {
+          "slug": "231",
+          "reason": "Education pathway beyond SKY universities."
+        },
+        {
+          "slug": "055",
+          "reason": "Korean speed culture is an accessible daily-life explainer."
+        },
+        {
+          "slug": "174",
+          "reason": "Subway etiquette is useful for travelers and culture readers."
+        }
+      ],
+      "recommended": [
+        {
+          "slug": "082",
+          "reason": "Education and status context."
+        },
+        {
+          "slug": "210",
+          "reason": "Korean male terms and social nuance."
+        },
+        {
+          "slug": "231",
+          "reason": "University ranking context."
+        },
+        {
+          "slug": "055",
+          "reason": "Korean daily-life speed culture."
+        },
+        {
+          "slug": "174",
+          "reason": "Etiquette and public-space behavior."
+        },
+        {
+          "slug": "166",
+          "reason": "Korean age system context."
+        },
+        {
+          "slug": "178",
+          "reason": "Food delivery as daily-life culture."
+        },
+        {
+          "slug": "080",
+          "reason": "Language and proverb pathway."
+        }
+      ]
+    }
+  }
+}

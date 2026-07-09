@@ -1,6 +1,7 @@
 import { MetadataRoute } from 'next';
 import { getAllBlogPosts } from '@/lib/blog';
 import { getAllBusinessPosts } from '@/lib/business';
+import { sectionPageList } from '@/lib/section-pages';
 
 export const revalidate = 86400;
 
@@ -23,6 +24,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const businessPosts = getAllBusinessPosts();
   const latestPostDate = getLatestPostDate([...posts, ...businessPosts]);
   const latestBusinessPostDate = getLatestPostDate(businessPosts);
+
+  const sectionUrls = sectionPageList.map((section) => ({
+    url: `https://www.epickor.com${section.href}`,
+    ...(latestPostDate ? { lastModified: latestPostDate } : {}),
+    changeFrequency: 'daily' as const,
+    priority: 0.85,
+  }));
   
   const blogUrls = posts.map((post) => {
     const lastModified = toValidDate(post.date);
@@ -57,6 +65,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: 'daily',
       priority: 0.75,
     },
+    ...sectionUrls,
     {
       url: 'https://www.epickor.com/business/editor',
       changeFrequency: 'monthly' as const,
