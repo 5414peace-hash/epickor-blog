@@ -133,7 +133,7 @@ export default function CardNewsCarousel({ title, slides, caption, fullGuideHref
             disabled={selected === 0}
             className="flex h-11 w-11 items-center justify-center rounded-md border border-gray-300 bg-white text-2xl font-black text-gray-950 transition hover:border-gray-950 disabled:cursor-not-allowed disabled:opacity-35"
           >
-            ‹
+            &lsaquo;
           </button>
           <button
             type="button"
@@ -142,7 +142,7 @@ export default function CardNewsCarousel({ title, slides, caption, fullGuideHref
             disabled={selected === slides.length - 1}
             className="flex h-11 w-11 items-center justify-center rounded-md border border-gray-300 bg-white text-2xl font-black text-gray-950 transition hover:border-gray-950 disabled:cursor-not-allowed disabled:opacity-35"
           >
-            ›
+            &rsaquo;
           </button>
         </div>
 
