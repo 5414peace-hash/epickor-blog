@@ -17,6 +17,7 @@ export interface CardNewsRailItem {
 interface CardNewsRailProps {
   items: CardNewsRailItem[];
   activeSlug?: string;
+  onSelect?: (slug: string) => void;
 }
 
 function ArrowMark({ direction }: { direction: 'left' | 'right' }) {
@@ -58,7 +59,7 @@ function RailButton({
   );
 }
 
-export default function CardNewsRail({ items, activeSlug }: CardNewsRailProps) {
+export default function CardNewsRail({ items, activeSlug, onSelect }: CardNewsRailProps) {
   const railRef = useRef<HTMLDivElement>(null);
   const startXRef = useRef(0);
   const startScrollRef = useRef(0);
@@ -139,6 +140,12 @@ export default function CardNewsRail({ items, activeSlug }: CardNewsRailProps) {
                     if (movedRef.current) {
                       event.preventDefault();
                       movedRef.current = false;
+                      return;
+                    }
+
+                    if (onSelect) {
+                      event.preventDefault();
+                      onSelect(item.slug);
                     }
                   }}
                   className={`group w-[132px] shrink-0 snap-center md:w-[148px] lg:w-[156px] ${

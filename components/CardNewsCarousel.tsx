@@ -2,7 +2,7 @@
 
 import Image from 'next/image';
 import Link from 'next/link';
-import { useCallback, useRef, useState } from 'react';
+import { useCallback, useEffect, useRef, useState } from 'react';
 
 interface CardNewsCarouselSlide {
   index: number;
@@ -88,6 +88,12 @@ export default function CardNewsCarousel({
   const slideRefs = useRef<Array<HTMLDivElement | null>>([]);
   const [selected, setSelected] = useState(0);
   const [copied, setCopied] = useState(false);
+
+  useEffect(() => {
+    setSelected(0);
+    setCopied(false);
+    viewportRef.current?.scrollTo({ left: 0 });
+  }, [title]);
 
   const scrollToSlide = useCallback((index: number) => {
     const viewport = viewportRef.current;

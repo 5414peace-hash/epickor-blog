@@ -332,8 +332,8 @@ function HomeInstagramGuides({ items }: { items: CardNewsItem[] }) {
   if (items.length === 0) return null;
 
   return (
-    <section className="border-b border-gray-200 bg-white">
-      <div className="container mx-auto grid gap-4 px-4 py-5 lg:grid-cols-[190px_1fr_auto] lg:items-center">
+    <section className="mt-6 border-b border-gray-200 bg-white pb-6">
+      <div className="grid gap-4 lg:grid-cols-[190px_1fr_auto] lg:items-center">
         <div>
           <p className="text-xs font-black uppercase text-red-600">Instagram Guides</p>
           <h2 className="mt-1 text-lg font-black leading-tight text-gray-950">Swipeable card news</h2>
@@ -452,7 +452,6 @@ export default function Home() {
     <div className="min-h-screen bg-white text-gray-950">
       <HomeGuideFinder chips={guideChips} />
       <LatestPulse articles={latestArticles} />
-      <HomeInstagramGuides items={cardNewsItems} />
 
       <main className="container mx-auto px-4 py-6">
         {leadArticle && (
@@ -476,6 +475,8 @@ export default function Home() {
             <SectionTileCard key={tile.href} tile={tile} />
           ))}
         </section>
+
+        <HomeInstagramGuides items={cardNewsItems} />
 
         <section className="mt-8 grid gap-6 xl:grid-cols-[1fr_0.98fr]">
           <div className="rounded-lg border border-gray-200 bg-white p-5">
