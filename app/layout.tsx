@@ -1,7 +1,9 @@
 import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
 import Link from 'next/link';
+import AnalyticsEvents from '@/components/AnalyticsEvents';
 import BackToTopButton from '@/components/BackToTopButton';
+import GoogleAnalytics from '@/components/GoogleAnalytics';
 import './globals.css';
 
 const inter = Inter({ subsets: ['latin'] });
@@ -33,6 +35,8 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${inter.className} antialiased`}>
+        <GoogleAnalytics />
+        <AnalyticsEvents />
         <header className="fixed inset-x-0 top-0 z-[1000] h-[76px] border-b border-gray-200 bg-white/95 backdrop-blur supports-[backdrop-filter]:bg-white/85">
           <div className="container mx-auto flex h-full items-center justify-between gap-5 px-4">
             <Link href="/" className="shrink-0">

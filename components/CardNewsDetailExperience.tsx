@@ -98,13 +98,25 @@ export default function CardNewsDetailExperience({ items, initialSlug }: CardNew
                 <h2 className="text-xl font-black text-gray-950">More Instagram Guides</h2>
                 <p className="mt-1 text-sm text-gray-600">Recent visual guides, kept compact for quick browsing.</p>
               </div>
-              <Link href="/card-news" className="text-sm font-black text-red-700 hover:text-red-900">
+              <Link
+                href="/card-news"
+                data-analytics-event="cardnews_archive_click"
+                data-analytics-location="detail_more_header"
+                className="text-sm font-black text-red-700 hover:text-red-900"
+              >
                 All Instagram Guides -&gt;
               </Link>
             </div>
             <div className="grid grid-cols-2 gap-3 sm:grid-cols-4 lg:grid-cols-8">
               {related.map((item) => (
-                <Link key={`${item.folder}-${item.slug}`} href={item.href} className="group block">
+                <Link
+                  key={`${item.folder}-${item.slug}`}
+                  href={item.href}
+                  data-analytics-event="cardnews_related_click"
+                  data-analytics-slug={item.slug}
+                  data-analytics-title={item.topic}
+                  className="group block"
+                >
                   <article className="overflow-hidden rounded-lg border border-gray-200 bg-white transition hover:-translate-y-0.5 hover:border-gray-300 hover:shadow-sm">
                     <div className="relative aspect-square bg-gray-950">
                       <Image

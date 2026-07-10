@@ -345,6 +345,9 @@ function HomeInstagramGuides({ items }: { items: CardNewsItem[] }) {
             <Link
               key={`${item.folder}-${item.slug}`}
               href={item.href}
+              data-analytics-event="home_instagram_guides_click"
+              data-analytics-slug={item.slug}
+              data-analytics-title={item.topic}
               className="group grid w-[156px] shrink-0 grid-cols-[58px_1fr] gap-3 rounded-lg border border-gray-200 bg-[#fbfaf8] p-2.5 transition hover:border-red-200 hover:bg-white hover:shadow-sm"
             >
               <div className="relative aspect-square overflow-hidden rounded-md bg-gray-950">
@@ -369,6 +372,7 @@ function HomeInstagramGuides({ items }: { items: CardNewsItem[] }) {
 
         <Link
           href="/card-news"
+          data-analytics-event="home_instagram_guides_all_click"
           className="inline-flex justify-center rounded-md border border-gray-300 bg-white px-4 py-2 text-sm font-black text-gray-950 hover:border-red-500 hover:text-red-700"
         >
           All guides -&gt;

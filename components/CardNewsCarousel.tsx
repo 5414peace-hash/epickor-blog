@@ -56,9 +56,15 @@ function ArrowMark({ direction }: { direction: 'left' | 'right' }) {
 function EdgeButton({
   direction,
   onClick,
+  title,
+  fromCard,
+  toCard,
 }: {
   direction: 'left' | 'right';
   onClick: () => void;
+  title: string;
+  fromCard: number;
+  toCard: number;
 }) {
   const sideClass = direction === 'left' ? 'left-2 md:-left-5' : 'right-2 md:-right-5';
 
@@ -67,6 +73,10 @@ function EdgeButton({
       type="button"
       aria-label={direction === 'left' ? 'Previous card' : 'Next card'}
       onClick={onClick}
+      data-analytics-event={direction === 'left' ? 'cardnews_slide_prev' : 'cardnews_slide_next'}
+      data-analytics-title={title}
+      data-analytics-from-card={String(fromCard)}
+      data-analytics-to-card={String(toCard)}
       className={`absolute top-1/2 z-30 flex h-11 w-11 -translate-y-1/2 items-center justify-center rounded-full border border-white/70 bg-white/90 shadow-[0_18px_48px_rgba(15,23,42,0.24)] backdrop-blur transition hover:scale-105 hover:border-red-200 hover:bg-white ${sideClass}`}
     >
       <ArrowMark direction={direction} />
@@ -161,6 +171,9 @@ export default function CardNewsCarousel({
               <button
                 type="button"
                 onClick={copyCaption}
+                data-analytics-event="cardnews_caption_copy"
+                data-analytics-title={title}
+                data-analytics-label={label}
                 className="rounded-md border border-gray-300 bg-white px-3 py-2 text-xs font-black text-gray-950 transition hover:border-gray-950"
               >
                 {copied ? 'Copied' : 'Copy caption'}
@@ -171,6 +184,9 @@ export default function CardNewsCarousel({
             </p>
             <Link
               href={fullGuideHref}
+              data-analytics-event="cardnews_full_article_click"
+              data-analytics-title={title}
+              data-analytics-href={fullGuideHref}
               className="mt-5 inline-flex w-full items-center justify-center rounded-md bg-gray-950 px-4 py-3 text-sm font-black text-white transition hover:bg-red-700"
             >
               Read full article -&gt;
@@ -180,8 +196,24 @@ export default function CardNewsCarousel({
 
         <div className="order-1 min-w-0 xl:order-2">
           <div className="relative mx-auto max-w-[620px]">
-            {selected > 0 && <EdgeButton direction="left" onClick={() => scrollToSlide(selected - 1)} />}
-            {selected < slides.length - 1 && <EdgeButton direction="right" onClick={() => scrollToSlide(selected + 1)} />}
+            {selected > 0 && (
+              <EdgeButton
+                direction="left"
+                onClick={() => scrollToSlide(selected - 1)}
+                title={title}
+                fromCard={selected + 1}
+                toCard={selected}
+              />
+            )}
+            {selected < slides.length - 1 && (
+              <EdgeButton
+                direction="right"
+                onClick={() => scrollToSlide(selected + 1)}
+                title={title}
+                fromCard={selected + 1}
+                toCard={selected + 2}
+              />
+            )}
 
             <div
               ref={viewportRef}
@@ -243,6 +275,9 @@ export default function CardNewsCarousel({
                     aria-label={`Go to card ${index + 1}`}
                     aria-current={index === selected ? 'true' : undefined}
                     onClick={() => scrollToSlide(index)}
+                    data-analytics-event="cardnews_slide_dot_select"
+                    data-analytics-title={title}
+                    data-analytics-card={String(index + 1)}
                     className={`h-2.5 rounded-full transition ${
                       index === selected ? 'w-7 bg-red-600' : 'w-2.5 bg-gray-300 hover:bg-gray-500'
                     }`}
@@ -278,6 +313,9 @@ export default function CardNewsCarousel({
                   type="button"
                   onClick={() => scrollToSlide(index)}
                   aria-current={active ? 'true' : undefined}
+                  data-analytics-event="cardnews_slide_list_select"
+                  data-analytics-title={title}
+                  data-analytics-card={String(index + 1)}
                   className={`grid grid-cols-[54px_1fr] gap-3 rounded-md border p-2 text-left transition ${
                     active
                       ? 'border-red-300 bg-red-50'

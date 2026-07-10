@@ -52,6 +52,8 @@ function RailButton({
       type="button"
       aria-label={direction === 'left' ? 'Previous Instagram guides' : 'Next Instagram guides'}
       onClick={onClick}
+      data-analytics-event="cardnews_rail_scroll"
+      data-analytics-direction={direction}
       className={`absolute top-1/2 z-20 flex h-10 w-10 -translate-y-1/2 items-center justify-center rounded-full border border-black/10 bg-white/90 shadow-[0_14px_36px_rgba(15,23,42,0.18)] backdrop-blur transition hover:scale-105 hover:border-red-200 hover:bg-white ${sideClass}`}
     >
       <ArrowMark direction={direction} />
@@ -138,7 +140,12 @@ export default function CardNewsRail({ items, activeSlug, onSelect }: CardNewsRa
             <p className="text-xs font-black uppercase text-red-600">Browse Instagram Guides</p>
             <h2 className="text-xl font-black text-gray-950">Pick another visual guide</h2>
           </div>
-          <Link href="/card-news" className="text-sm font-black text-red-700 hover:text-red-900">
+          <Link
+            href="/card-news"
+            data-analytics-event="cardnews_archive_click"
+            data-analytics-location="detail_rail"
+            className="text-sm font-black text-red-700 hover:text-red-900"
+          >
             All Instagram Guides -&gt;
           </Link>
         </div>
@@ -169,6 +176,9 @@ export default function CardNewsRail({ items, activeSlug, onSelect }: CardNewsRa
                   key={`${item.href}-${item.slug}`}
                   type="button"
                   aria-current={active ? 'true' : undefined}
+                  data-analytics-event="cardnews_rail_select"
+                  data-analytics-slug={item.slug}
+                  data-analytics-title={item.topic}
                   onClick={() => {
                     if (movedRef.current) {
                       movedRef.current = false;
@@ -185,6 +195,9 @@ export default function CardNewsRail({ items, activeSlug, onSelect }: CardNewsRa
                 <Link
                   key={`${item.href}-${item.slug}`}
                   href={item.href}
+                  data-analytics-event="cardnews_rail_open"
+                  data-analytics-slug={item.slug}
+                  data-analytics-title={item.topic}
                   onClick={(event) => {
                     if (movedRef.current) {
                       event.preventDefault();
