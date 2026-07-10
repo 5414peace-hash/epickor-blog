@@ -48,6 +48,9 @@ export default function RootLayout({
               <Link href="/latest" className="hover:text-red-600">
                 Latest
               </Link>
+              <Link href="/card-news" className="hover:text-red-600">
+                Card News
+              </Link>
               <Link href="/travel" className="hover:text-blue-700">
                 Travel
               </Link>
@@ -94,6 +97,9 @@ export default function RootLayout({
                 <Link href="/latest" className="hover:text-gray-950">
                   Latest updates
                 </Link>
+                <Link href="/card-news" className="hover:text-gray-950">
+                  Card news
+                </Link>
                 <Link href="/travel" className="hover:text-gray-950">
                   Travel guides
                 </Link>
@@ -123,6 +129,9 @@ export default function RootLayout({
               <div className="mt-3 grid gap-2">
                 <Link href="/instagram" className="hover:text-gray-950">
                   Instagram guide hub
+                </Link>
+                <Link href="/card-news" className="hover:text-gray-950">
+                  Card news archive
                 </Link>
                 <a
                   href="https://www.instagram.com/epickorsnippets/reels/"

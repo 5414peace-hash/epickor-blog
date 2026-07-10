@@ -1,6 +1,7 @@
 import { MetadataRoute } from 'next';
 import { getAllBlogPosts } from '@/lib/blog';
 import { getAllBusinessPosts } from '@/lib/business';
+import { getAllCardNews } from '@/lib/card-news';
 import { sectionPageList } from '@/lib/section-pages';
 
 export const revalidate = 86400;
@@ -22,8 +23,10 @@ function getLatestPostDate(posts: Array<{ date: string }>): Date | undefined {
 export default function sitemap(): MetadataRoute.Sitemap {
   const posts = getAllBlogPosts();
   const businessPosts = getAllBusinessPosts();
+  const cardNewsItems = getAllCardNews();
   const latestPostDate = getLatestPostDate([...posts, ...businessPosts]);
   const latestBusinessPostDate = getLatestPostDate(businessPosts);
+  const latestCardNewsDate = getLatestPostDate(cardNewsItems);
 
   const sectionUrls = sectionPageList.map((section) => ({
     url: `https://www.epickor.com${section.href}`,
@@ -51,6 +54,16 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.75,
     };
   });
+
+  const cardNewsUrls = cardNewsItems.map((item) => {
+    const lastModified = toValidDate(item.date);
+    return {
+      url: `https://www.epickor.com/card-news/${item.slug}`,
+      ...(lastModified ? { lastModified } : {}),
+      changeFrequency: 'monthly' as const,
+      priority: 0.65,
+    };
+  });
   
   return [
     {
@@ -71,6 +84,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: 'daily',
       priority: 0.9,
     },
+    {
+      url: 'https://www.epickor.com/card-news',
+      ...(latestCardNewsDate ? { lastModified: latestCardNewsDate } : {}),
+      changeFrequency: 'weekly',
+      priority: 0.82,
+    },
     ...sectionUrls,
     {
       url: 'https://www.epickor.com/business/editor',
@@ -79,6 +98,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
     ...blogUrls,
     ...businessUrls,
+    ...cardNewsUrls,
   ];
 }
 
