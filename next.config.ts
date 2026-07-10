@@ -3,9 +3,16 @@ import urlMappings from "./url_mappings.json";
 
 type UrlMapping = { source: string; destination: string; };
 
+const cardNewsImageTraceExcludes = [
+  './public/assets/cardnews/**/*.png',
+  './public/assets/cardnews/**/*.jpg',
+  './public/assets/cardnews/**/*.jpeg',
+  './public/assets/cardnews/**/*.webp',
+];
+
 const nextConfig: NextConfig = {
   outputFileTracingExcludes: {
-    '*': ['./output/**/*'],
+    '*': ['./output/**/*', ...cardNewsImageTraceExcludes],
     '/api/reels/*/visuals': ['./public/assets/reels/**/*'],
     '/reels-review/*': ['./public/assets/reels/**/*'],
   },

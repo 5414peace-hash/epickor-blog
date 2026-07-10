@@ -130,9 +130,8 @@ function buildCardNewsItem(folder: string, blogPostMap: Map<string, BlogPostMeta
 
   const folderPath = path.join(cardNewsDirectory, folder);
   const scriptPath = path.join(folderPath, 'script.md');
-  const coverPath = path.join(folderPath, 'card_01.png');
 
-  if (!fs.existsSync(scriptPath) || !fs.existsSync(coverPath)) {
+  if (!fs.existsSync(scriptPath)) {
     return null;
   }
 
