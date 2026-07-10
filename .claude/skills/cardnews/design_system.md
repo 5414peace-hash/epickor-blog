@@ -10,6 +10,22 @@ For the full reusable production standard, read `.claude/skills/cardnews/epickor
 - For upload-ready backlog fixes, use `layout: F` and render the cover with `node .claude/skills/cardnews/scripts/render-grid-cover.mjs --slug {slug} --mirror`.
 - Keep all other carousel cards in their original layout unless there is a separate readability or visual-fit issue.
 
+## Approved Dark Black-Bar Carousel Style - 2026-07-08
+
+Reference batch: `public/assets/cardnews/2026-07-08_257`, `2026-07-08_258`, `2026-07-08_259`, `2026-07-08_277`, `2026-07-08_278`, `2026-07-08_279`.
+
+Use this style for high-visual EpicKor Instagram carousels when the representative approves a sharper, darker, photo-forward look.
+
+- Format: 1080x1080, 7 cards, photo-first on every card when suitable topic images exist.
+- Card 01: centered heavy title inside the Instagram grid safe area; use large condensed/bold sans text over a Korean-context photo with a dark translucent text bar. The photo should remain clearly visible, not merely atmospheric.
+- Cards 02-07: use dark translucent black bars, row strips, or label panels over the photo. Keep the message direct and swipe-driven; avoid empty middles.
+- Typography: bold cover hook, smaller dense body text on interior cards, 0 letter spacing unless a watermark/label requires tracking.
+- Watermark: every rendered PNG must show `EPICKOR.COM`.
+- Color: keep the base dark, but use one compact accent per card batch when helpful. Do not let the carousel become a single-hue decorative theme.
+- Image rules: Korea-first, topic-specific, no repeated `image:` paths inside the carousel, and no cross-post duplicate source unless explicitly documented.
+- Deliverables: `script.md`, `caption.txt`, `instagram-caption.md`, `image-sources.md`, `visual-review.md`, rendered `card_01.png` through `card_07.png`, and source images under `sources/`.
+- Review gate: run the structural card-news review, inspect rendered PNGs card by card, and record the Visual Fit Score before showing the carousel.
+
 ## 브랜드 개요
 
 EpicKor 카드뉴스는 한국 문화를 전하는 **프리미엄 다크 카드뉴스**다.

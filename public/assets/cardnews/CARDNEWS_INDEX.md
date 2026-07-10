@@ -3,7 +3,7 @@
 Folder naming rule: `YYYY-MM-DD_slug`
 
 The date is the card-news production/final-save date from `HANDOFF.md`.
-Instagram upload is representative-managed. As of 2026-07-02, the representative confirmed all listed card-news assets are approved and scheduled.
+Instagram upload is representative-managed. As of 2026-07-02, the representative confirmed all card-news assets listed through `2026-06-28_249` are approved and scheduled. Rows produced afterward keep their own upload status.
 
 | Folder | Slug | Topic | Cards | Production status | Upload status |
 |---|---:|---|---:|---|---|
@@ -47,3 +47,9 @@ Instagram upload is representative-managed. As of 2026-07-02, the representative
 | `2026-06-28_247` | 247 | Korean Pet Parent Culture 2026 | 7 | final reviewed | scheduled by representative |
 | `2026-06-28_248` | 248 | Seoul Running Crew Culture 2026 | 7 | final reviewed | scheduled by representative |
 | `2026-06-28_249` | 249 | Korean Dating Rules 2026 | 7 | final reviewed | scheduled by representative |
+| `2026-07-08_257` | 257 | Incheon Airport Layover Guide 2026 | 7 | final approved + caption ready | ready for representative scheduling |
+| `2026-07-08_258` | 258 | Noryangjin Fish Market Guide 2026 | 7 | final approved + caption ready | ready for representative scheduling |
+| `2026-07-08_259` | 259 | Korean Bingsu Guide 2026 | 7 | final approved + caption ready | ready for representative scheduling |
+| `2026-07-08_277` | 277 | Korean Pantry Starter Kit 2026 | 7 | final approved + caption ready | ready for representative scheduling |
+| `2026-07-08_278` | 278 | Korean Instant Coffee Mix Guide 2026 | 7 | final approved + caption ready | ready for representative scheduling |
+| `2026-07-08_279` | 279 | Korean Seaweed Snack Guide 2026 | 7 | final approved + caption ready | ready for representative scheduling |
