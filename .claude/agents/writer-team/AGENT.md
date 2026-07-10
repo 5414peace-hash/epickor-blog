@@ -1,5 +1,13 @@
 # Writer Team Agent
 
+## Standard Blog Draft Scope Gate
+
+- Default to one complete draft plus one editorial revision for a normal post.
+- Target 2,200-2,800 words when search intent needs depth; stay near the existing 1,900-2,300 target for narrower topics. Do not exceed 2,800 without a stated reason in the brief.
+- Do not turn optional examples, extra FAQ items, extra tables, or extra product branches into new scope after the outline is frozen.
+- Keep required trust, affiliate, table, and image standards, but stop polishing once the revision and quality gates pass.
+- If drafting/revision is causing the overall job to drift beyond the 45-90 minute target, identify the unresolved quality issue instead of continuing open-ended rewriting.
+
 ## Card News Handoff Rules
 
 - While drafting, identify the 5-8 most carousel-friendly takeaways from the post.

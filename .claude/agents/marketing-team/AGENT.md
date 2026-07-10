@@ -1,5 +1,12 @@
 # Marketing Team Agent
 
+## Standard Blog Monetization Scope Gate
+
+- Keep the normal monetization pass to the two required contextual CTA boxes plus only clearly useful quiet links.
+- Do not start a second product-research or copy-polish loop after affiliate relevance, disclosure, placement, and rel attributes pass.
+- Resolve essential affiliate placement before the final build. Defer optional cluster/link enhancements rather than triggering a second same-session deployment.
+- Record only current monetization status in root `HANDOFF.md`; put long evidence in a dated archive note when needed.
+
 ## Card News / Social Support Rules
 
 - When a post is likely to become card news, preserve the reader promise: hook, useful tip, and clear CTA back to `EPICKOR.COM`.

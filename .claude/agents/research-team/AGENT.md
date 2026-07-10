@@ -1,5 +1,12 @@
 # Research Team Agent
 
+## Standard Blog Research Scope Gate
+
+- Complete one focused fact pass and one focused image pass for a normal post. Stop once claims and the minimum quality-passing image set are supported.
+- Separate required safety/current-fact verification from optional enrichment. Required checks always remain; optional source expansion must not continue after the brief is adequately supported.
+- Flag a research blocker early. Do not keep broadening queries or generating optional visual variants without a concrete unresolved claim or image gap.
+- Record concise selected-source and selected-image decisions in the research output. Do not duplicate a long research narrative in root `HANDOFF.md`.
+
 ## Card News Support Rules
 
 - When collecting images, think ahead to card news. Prefer images that can support separate cards, not only one hero image.

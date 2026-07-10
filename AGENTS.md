@@ -15,6 +15,56 @@
 - When choosing next work, always consider whether the task improves at least one part of this funnel: Instagram reach/quality -> website visits -> Amazon affiliate clicks -> Amazon earnings.
 - Protect the current upload rhythm while optimizing for monetization: Tuesday/Wednesday/Thursday card news, Friday/Saturday/Sunday Reels.
 
+## EpicKor Business Section Strategy v3
+
+- EpicKor is adding a separate business/industry section without reducing the existing culture, travel, lifestyle, shopping, card-news, or Reels operating rhythm.
+- The business section goal is not a general NYT-style expansion. It should become a niche trade-media surface that introduces Korean SMEs, industries, sourcing paths, and market-entry context to overseas buyers, operators, and Korea-market researchers.
+- Strategic parent-company context: Tripclip is a 10-year video-production company and export-voucher supplier. The business section should strengthen the position "a production company that also owns a working overseas-facing Korea media channel."
+- Use `/business/` as the separate URL area for business posts. Do not fold business content into normal `/blog/` posts once the route exists.
+- Do not redesign the whole site around business content before the 2026-10-05 review. Add minimal navigation and routing only.
+- Maintain the content ratio target after launch: culture section 3 posts/day plus business section 1 post/day, roughly culture 3 : business 1.
+- Business posts are not a separate paid-placement or sponsored-content monetization product at launch, but they should still include relevant Amazon affiliate links/CTAs under the normal Amazon Affiliate Placement Rules unless the representative explicitly says to omit them. Keep the links practical, subtle, and useful for business readers, such as Korea business books, sourcing books, trade-show planning tools, market-research books, or travel/work essentials.
+- Business posts must be in English. Company names should use official English names first.
+
+### Business Content Types
+
+- Type A: Search-demand guide.
+  - Audience: overseas buyers sourcing from Korea and operators researching Korean market entry.
+  - Examples: `how to find suppliers in Korea`, `K-beauty OEM/ODM`, `Korean cosmetics wholesale`, `Korea {industry} industry explained`, `doing business in Korea`.
+  - Tone: practical operator guide, not broad news commentary.
+  - Statistics, regulations, export figures, and institutional claims must come from official or highly reliable sources such as Korean government, public agencies, trade associations, official company materials, filings, or clearly cited research. Do not use unverifiable numbers. Label estimates as estimates.
+- Type B-1: Client story.
+  - Only use companies for which Tripclip actually produced video work. Proposal-only companies are not B-1 candidates.
+  - Representative must select the target and secure client consent before writing starts.
+  - Publicly embeddable production video is mandatory. Consent must cover both sensitive information and video embedding.
+  - Free placement for now. If later converted to paid placement, sponsored disclosure is mandatory.
+  - Add only one short Tripclip production-credit line at the end.
+- Type B-2: Non-client company spotlight.
+  - Use only public information such as official website, press releases, filings, public interviews, and news.
+  - No consent is required, no video embed, and no Tripclip credit.
+  - Keep the tone editorial: discovering interesting Korean companies for overseas readers. Do not write vendor brag copy.
+
+### Business Workflow And Trust Rules
+
+- Weekly business topic lists require representative approval before drafting. After topic approval, Type A and B-2 posts may move through the pipeline autonomously.
+- B-1 client stories are blocked until representative confirms client selection and consent. Do not draft first and ask later.
+- Do not invent fake authors, fake headshots, fake credentials, or fictional editorial personas.
+- Business posts should use a transparent brand/team byline such as `EpicKor Business Editor` by default. Do not create fake individual authors, fake headshots, or fictional credentials. Real-name bylines are optional only if the representative explicitly approves them later.
+- Create and maintain a business editor profile page describing EpicKor's business editorial desk and Tripclip's 10 years of video production and export-voucher field experience.
+- Guide posts and company stories should link to each other inside `/business/` to build section depth and session continuity.
+- Business posts can enter the Reels/social candidate pool, but do not auto-distribute all business posts to social. Representative selection remains required.
+- The 2026-10-05 review gate decides whether to expand the section and start a larger site redesign. Track `/business/` impressions, clicks, overseas IP traffic, buyer-like traffic, and inbound company/client interest against the starting GSC baseline.
+
+### Business Technical Backlog
+
+- Add `/business/` routing and category structure while preserving the existing culture post structure.
+- Add Business to navigation with minimal disruption.
+- Add sitemap coverage and GSC submission path for `/business/`.
+- Add three templates: search-demand guide, client story with video embed/credit, and non-client spotlight without embed/credit.
+- Add metadata fields for business post type, B-1 consent status, and video embed permission.
+- Add `/business/` separated GSC/analytics reporting and a baseline snapshot before launch.
+- Add a weekly topic-candidate approval workflow; approved topics may proceed, unapproved topics must not be drafted.
+
 ## Amazon Affiliate Placement Rules
 
 - Every new or meaningfully updated blog post should include Amazon affiliate opportunities unless the representative explicitly says to omit them.
@@ -99,11 +149,35 @@
   2. EpicKor-owned or generated images.
   3. Pexels or other usable external images.
   4. Generated images when no relevant source image exists.
+- Reels image orientation and placement rule:
+  - For Reels, source vertical images first. This is the default, not an optional polish step.
+  - More than 50% of selected photo cuts must be found/source vertical images.
+  - If suitable found vertical images are genuinely unavailable, generated vertical images may be used, but keep them within 25% of selected photo cuts.
+  - If a horizontal image is unavoidable, keep horizontal exceptions to roughly 10-15% of selected photo cuts and render each one as a centered 1:1 square image, not as a full-width/landscape frame.
+  - For current Remotion output, horizontal exceptions should use `fitMode: "square_center"`.
+  - Do not approve a Reel only because the vertical/horizontal portion and layout look good. The image must also directly fit the scene topic.
+- Reels Korea-context visual rule:
+  - EpicKor Reels about Korea must use visibly Korean, topic-specific images whenever reasonably findable.
+  - "Looks vaguely Asian" or "generic city/food/travel mood" is not enough.
+  - Incheon Airport scenes should show Incheon Airport, AREX, Korean airport signage, Korea airport transit, or clearly Korea-relevant airport/train context.
+  - Seoul running scenes should show Seoul, Han River, Korean running paths, Korean night streets, or Korean running-crew context.
+  - Korean department-store food hall scenes should show Korean department-store basements, Seoul food halls, Korean bakery/dessert counters, Korean packaged snacks, Korean signage/receipts/restrooms/seating, or close direct food-hall evidence.
+  - The representative has explicitly approved using direct web/reference images for Reels when they are the best topic fit. Do not reject a strong Korean-context image only from excessive copyright anxiety; record the source in `image-sources.md` and keep the visual truthful to the topic.
+  - Reviewer must reject non-Korean or misleading country/context visuals when Korean-topic visuals are reasonably available, even if the crop, motion, and visual rhythm look good.
+- Reels visual variety and duplicate gate:
+  - Do not approve a Reel just because repeated images have different filenames, crops, or zoom positions. A copied crop, same source photo, same article photo set, same scene/session, or visually near-identical subject is still a duplicate risk.
+  - In one normal 35-45 second Reel, no single source family should appear more than once unless the scene is explicitly about returning to that exact place/object and the exception is documented in `image-sources.md` and `HANDOFF.md`.
+  - No two adjacent photo cuts may come from the same source family or look like the same moment/place from a different crop.
+  - No thumbnail/opening image source family may be reused later in the Reel.
+  - Reviewer must inspect the scene grid for visual fatigue: repeated skyline, same food counter, same airport hall/escalator, same runner group, same table/flatlay, or same store interior should block approval even when the file paths are unique.
+  - Approval requires a written Reels Visual Variety Score: source-family uniqueness 30, scene-to-scene variety 25, direct topic/Korea fit 25, rendered mobile quality 10, no visual fatigue in opening/outro 10. Minimum average is 92/100 and no individual scene below 90/100.
 - Record Reels agent roles, dashboard review status, blockers, and next improvements in `HANDOFF.md`.
 
 ## Handoff And Strategy Check Rules
 
-- Before deciding what EpicKor should do next, read `HANDOFF.md`, the latest `output/strategy/week_*.md`, and relevant git history if the handoff may be incomplete.
+- At session start, read the root `HANDOFF.md` fast-start dashboard, then run `git status --short` and `git log -8 --oneline`. Do not load files under `docs/handoff/` by default.
+- Search a Handoff archive only for a specific slug, decision, incident, or older rule, using `rg`, and read only the narrow matching range.
+- Read the latest `output/strategy/week_*.md` only when choosing strategy or the next topic, not for every implementation task.
 - Do not recommend a page as the next target only from GSC impressions or CTR. First check whether that page was already rewritten, published, or verified recently.
 - When choosing the next EpicKor task, explicitly apply the Strategy Team perspective: GSC opportunity, recency of prior edits, monetization potential, visual/card-news potential, and operational risk.
 - After completing a meaningful EpicKor task, recommend the next work as priority 1, 2, and 3. For each priority, include the reason, expected impact, and any dependency or blocker. Priority 1 should be the safest/highest-leverage next move, not simply the newest idea.
@@ -326,7 +400,8 @@ output/reels/{slug}/          Reels scene manifest, visual candidates, review no
 ## 이어받기 프롬프트
 
 ```text
-HANDOFF.md 파일을 읽고 작업을 이어서 진행해줘.
+루트 HANDOFF.md의 Fast Start 순서대로 현재 상태만 확인하고 작업을 이어서 진행해줘.
+docs/handoff 아카이브는 특정 슬러그나 과거 결정이 필요할 때만 rg로 좁게 검색해.
 설계서는 epickor-agent-design-v2.md를 참고해.
 ```
 
@@ -337,13 +412,12 @@ HANDOFF.md 파일을 읽고 작업을 이어서 진행해줘.
 
 > 이 규칙은 선택이 아닌 의무다. 세션 종료 전 반드시 아래 두 단계를 모두 완료한다.
 
-### Step 1 -- 이 폴더의 HANDOFF.md 상세 업데이트
-이 프로젝트 폴더 안의 HANDOFF.md 에 아래 항목을 상세히 기록한다 (safe-write 사용):
-- 이번 세션에서 완료한 작업 (구체적으로)
-- 현재 진행 중인 작업과 진행률
-- 다음 세션에서 이어서 할 일
-- 막힌 것(블로커) 또는 확인이 필요한 사항
-- 참고할 파일명, 변수명, URL 등 실무 메모
+### Step 1 -- 이 폴더의 HANDOFF.md 현재 상태 업데이트
+루트 `HANDOFF.md`는 250줄 이하의 fast-start 대시보드로 유지한다 (safe-write 사용):
+- Current Snapshot, Active Work, Blockers, Next Recommended Work를 실제 상태로 갱신
+- Recent Change는 최근 10건만 유지
+- 긴 타임라인, 증거, 완료 세부사항은 `docs/handoff/YYYY-MM-DD_<topic>.md`에 기록
+- 재사용할 규칙은 HANDOFF에만 남기지 말고 `CLAUDE.md`, `AGENTS.md`, 관련 `.claude/agents/*/AGENT.md`에 반영
 
 ### Step 2 -- D:\dev\HANDOFF.md 에 COO 요약 보고
 D:\dev\HANDOFF.md 파일을 열어 해당 프로젝트 섹션에 아래 형식으로 기록을 추가한다

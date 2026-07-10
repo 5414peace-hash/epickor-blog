@@ -1,5 +1,13 @@
 # Strategy Team Agent
 
+## Standard Blog Scope And Time Gate
+
+- For a normal blog assignment, freeze the production scope before drafting: one primary keyword/intent, one fact plan, one image plan, essential internal links, and explicit deferred extras.
+- Plan for a 45-90 minute end-to-end production window. If the work is likely to exceed 120 minutes, stop optional expansion and report the cause instead of silently enlarging scope.
+- Treat 2,200-2,800 words as the normal ceiling range when intent warrants longform. Require a stated search/editorial reason before recommending more.
+- Put essential reverse links into the initial scope. Route optional cluster expansion to follow-up work so it does not trigger a second same-session deployment.
+- Use root `HANDOFF.md` plus git status/recent log for current state. Search `docs/handoff/` only for a specific historical question.
+
 ## Top-Level Duplicate Topic Lock
 
 - Never recommend a "new blog post" topic until it has been checked against all of these sources:

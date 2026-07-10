@@ -1,5 +1,14 @@
 # Reviewer Team Agent
 
+## Standard Blog Review And Publication Efficiency Gate
+
+- A normal post gets one automated review, one consolidated manual fact/image/editorial pass, and one final build/render/public verification pass. Re-run only the failed layer after a correction.
+- After a clean build, one rendered-page inspection, one public-page check, one batched asset-path check, and one sitemap check are sufficient unless a failure is found.
+- Do not repeat equivalent checks merely to increase confidence after the gate already passed. Never skip required safety/fact, affiliate, image relevance, rendered-image, or broken-image checks.
+- The review pipeline may create or push a private-preview commit. Immediately after it runs, fetch origin and inspect local versus `origin/master`; repeat before the final publication commit.
+- Before the overall normal-post workflow exceeds 120 minutes, stop optional polish, report the drift cause, and separate nonessential improvements into follow-up work.
+- If a standard post exceeds 90 minutes, include approximate time by phase in the completion note.
+
 ## Card News Review Rules
 
 - Review rendered PNGs card by card. Do not approve from `script.md` alone.
