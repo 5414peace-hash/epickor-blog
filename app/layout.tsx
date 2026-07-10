@@ -48,8 +48,14 @@ export default function RootLayout({
               <Link href="/latest" className="hover:text-red-600">
                 Latest
               </Link>
-              <Link href="/card-news" className="hover:text-red-600">
-                Card News
+              <Link href="/business" className="inline-flex items-center gap-2 hover:text-emerald-700">
+                Business
+                <span className="rounded-md bg-emerald-700 px-2 py-0.5 text-[10px] font-black uppercase text-white">
+                  Desk
+                </span>
+              </Link>
+              <Link href="/issues" className="hover:text-slate-950">
+                Issues
               </Link>
               <Link href="/travel" className="hover:text-blue-700">
                 Travel
@@ -63,13 +69,7 @@ export default function RootLayout({
               <Link href="/culture" className="hover:text-violet-700">
                 Culture
               </Link>
-              <Link href="/business" className="inline-flex items-center gap-2 hover:text-emerald-700">
-                Business
-                <span className="rounded-md bg-emerald-700 px-2 py-0.5 text-[10px] font-black uppercase text-white">
-                  Desk
-                </span>
-              </Link>
-              <Link href="/instagram" className="hover:text-red-500">
+              <Link href="/card-news" className="hover:text-red-500">
                 Instagram Guides
               </Link>
             </nav>
@@ -97,8 +97,8 @@ export default function RootLayout({
                 <Link href="/latest" className="hover:text-gray-950">
                   Latest updates
                 </Link>
-                <Link href="/card-news" className="hover:text-gray-950">
-                  Card news
+                <Link href="/issues" className="hover:text-gray-950">
+                  Issues
                 </Link>
                 <Link href="/travel" className="hover:text-gray-950">
                   Travel guides
@@ -108,6 +108,9 @@ export default function RootLayout({
                 </Link>
                 <Link href="/beauty-lifestyle" className="hover:text-gray-950">
                   Beauty & lifestyle
+                </Link>
+                <Link href="/card-news" className="hover:text-gray-950">
+                  Instagram guides
                 </Link>
               </div>
             </div>

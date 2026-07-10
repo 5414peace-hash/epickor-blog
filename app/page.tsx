@@ -3,6 +3,7 @@ import Link from 'next/link';
 import HomeGuideFinder from '@/components/HomeGuideFinder';
 import { BlogPostMetadata, getAllBlogPosts } from '@/lib/blog';
 import { BusinessPostMetadata, getAllBusinessPosts, getBusinessTypeLabel } from '@/lib/business';
+import { getAllCardNews, type CardNewsItem } from '@/lib/card-news';
 import { getHomeSurface, getSlotSlug, getSlotSlugs } from '@/lib/editorial-surface';
 import { getLatestArticles, type LatestArticle } from '@/lib/latest-articles';
 
@@ -327,10 +328,61 @@ function LatestPulse({ articles }: { articles: LatestArticle[] }) {
   );
 }
 
+function HomeInstagramGuides({ items }: { items: CardNewsItem[] }) {
+  if (items.length === 0) return null;
+
+  return (
+    <section className="border-b border-gray-200 bg-white">
+      <div className="container mx-auto grid gap-4 px-4 py-5 lg:grid-cols-[190px_1fr_auto] lg:items-center">
+        <div>
+          <p className="text-xs font-black uppercase text-red-600">Instagram Guides</p>
+          <h2 className="mt-1 text-lg font-black leading-tight text-gray-950">Swipeable card news</h2>
+          <p className="mt-1 text-xs leading-5 text-gray-600">Quick visual guides from EpicKor.</p>
+        </div>
+
+        <div className="scrollbar-none flex gap-3 overflow-x-auto pb-1">
+          {items.slice(0, 5).map((item, index) => (
+            <Link
+              key={`${item.folder}-${item.slug}`}
+              href={item.href}
+              className="group grid w-[156px] shrink-0 grid-cols-[58px_1fr] gap-3 rounded-lg border border-gray-200 bg-[#fbfaf8] p-2.5 transition hover:border-red-200 hover:bg-white hover:shadow-sm"
+            >
+              <div className="relative aspect-square overflow-hidden rounded-md bg-gray-950">
+                <Image
+                  src={item.coverImage}
+                  alt={`${item.topic} Instagram guide cover`}
+                  fill
+                  priority={index < 3}
+                  className="object-cover transition duration-500 group-hover:scale-[1.04]"
+                  sizes="58px"
+                />
+              </div>
+              <div className="min-w-0">
+                <p className="text-[10px] font-black uppercase text-red-600">{item.totalCards} cards</p>
+                <h3 className="mt-1 text-xs font-black leading-snug text-gray-950 line-clamp-3 group-hover:text-red-700">
+                  {trimTitle(getReadableTitle(item.topic), 42)}
+                </h3>
+              </div>
+            </Link>
+          ))}
+        </div>
+
+        <Link
+          href="/card-news"
+          className="inline-flex justify-center rounded-md border border-gray-300 bg-white px-4 py-2 text-sm font-black text-gray-950 hover:border-red-500 hover:text-red-700"
+        >
+          All guides -&gt;
+        </Link>
+      </div>
+    </section>
+  );
+}
+
 export default function Home() {
   const blogPosts = getAllBlogPosts();
   const businessPosts = getAllBusinessPosts();
   const latestArticles = getLatestArticles(8);
+  const cardNewsItems = getAllCardNews().slice(0, 5);
   const homeSurface = getHomeSurface();
   const curatedSlugs = {
     lead: getSlotSlug(homeSurface.hero),
@@ -400,6 +452,7 @@ export default function Home() {
     <div className="min-h-screen bg-white text-gray-950">
       <HomeGuideFinder chips={guideChips} />
       <LatestPulse articles={latestArticles} />
+      <HomeInstagramGuides items={cardNewsItems} />
 
       <main className="container mx-auto px-4 py-6">
         {leadArticle && (

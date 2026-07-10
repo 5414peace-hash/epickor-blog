@@ -85,6 +85,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.9,
     },
     {
+      url: 'https://www.epickor.com/issues',
+      ...(latestPostDate ? { lastModified: latestPostDate } : {}),
+      changeFrequency: 'daily',
+      priority: 0.84,
+    },
+    {
       url: 'https://www.epickor.com/card-news',
       ...(latestCardNewsDate ? { lastModified: latestCardNewsDate } : {}),
       changeFrequency: 'weekly',
