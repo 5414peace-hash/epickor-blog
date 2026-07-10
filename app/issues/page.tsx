@@ -6,16 +6,16 @@ import { getLatestArticles, type LatestArticle } from '@/lib/latest-articles';
 export const revalidate = 86400;
 
 export const metadata: Metadata = {
-  title: 'EpicKor Issues | Korea News, Politics, Trends, and Briefs',
+  title: 'EpicKor Issues | Timely Korea News and Trend Explainers',
   description:
-    'Short EpicKor briefs on Korean news issues, politics, business signals, culture shifts, and emerging Korea trends.',
+    'Date-anchored EpicKor explainers on Korean news, politics, business signals, labor, culture shifts, and emerging trends.',
   alternates: {
     canonical: '/issues',
   },
   openGraph: {
-    title: 'EpicKor Issues | Korea News, Politics, Trends, and Briefs',
+    title: 'EpicKor Issues | Timely Korea News and Trend Explainers',
     description:
-      'Short EpicKor briefs on Korean news issues, politics, business signals, culture shifts, and emerging Korea trends.',
+      'Date-anchored EpicKor explainers on Korean news, politics, business signals, labor, culture shifts, and emerging trends.',
     url: 'https://www.epickor.com/issues',
   },
 };
@@ -83,11 +83,11 @@ export default function IssuesPage() {
         <div className="container mx-auto px-4 py-10 md:py-12">
           <p className="text-xs font-black uppercase text-red-600">EpicKor Issues</p>
           <h1 className="mt-3 max-w-4xl font-serif text-4xl font-black leading-tight md:text-5xl">
-            Korea news issues, politics, business signals, and fast trend briefs.
+            Timely Korea issues, explained with context and a clear date.
           </h1>
           <p className="mt-4 max-w-2xl text-sm leading-7 text-gray-600">
-            This is the new home for sharper short-form EpicKor posts: Korean public issues, business moves, political
-            context, culture shifts, and trends worth understanding before they become background noise.
+            This is the home for substantial, date-anchored EpicKor reads on Korean public issues, business moves,
+            political context, culture shifts, and trends worth understanding before the facts move again.
           </p>
         </div>
       </section>
@@ -97,7 +97,7 @@ export default function IssuesPage() {
           <div>
             <h2 className="text-2xl font-black text-gray-950">Latest Issue Reads</h2>
             <p className="mt-1 text-sm text-gray-600">
-              Short, sharper Korea reads will collect here as the new brief format ramps up.
+              Timely Korea explainers with the background international readers need.
             </p>
           </div>
           <Link href="/latest" className="text-sm font-black text-red-700 hover:text-red-900">
