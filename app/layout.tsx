@@ -45,6 +45,9 @@ export default function RootLayout({
             </Link>
 
             <nav className="flex min-w-0 items-center gap-3 overflow-x-auto whitespace-nowrap text-[13px] font-bold text-gray-700 sm:gap-5 md:text-sm">
+              <Link href="/latest" className="hover:text-red-600">
+                Latest
+              </Link>
               <Link href="/travel" className="hover:text-blue-700">
                 Travel
               </Link>
@@ -88,6 +91,9 @@ export default function RootLayout({
             <div>
               <h2 className="font-black uppercase text-gray-950">Explore</h2>
               <div className="mt-3 grid gap-2">
+                <Link href="/latest" className="hover:text-gray-950">
+                  Latest updates
+                </Link>
                 <Link href="/travel" className="hover:text-gray-950">
                   Travel guides
                 </Link>

@@ -4,6 +4,7 @@ import HomeGuideFinder from '@/components/HomeGuideFinder';
 import { BlogPostMetadata, getAllBlogPosts } from '@/lib/blog';
 import { BusinessPostMetadata, getAllBusinessPosts, getBusinessTypeLabel } from '@/lib/business';
 import { getHomeSurface, getSlotSlug, getSlotSlugs } from '@/lib/editorial-surface';
+import { getLatestArticles, type LatestArticle } from '@/lib/latest-articles';
 
 export const revalidate = 86400;
 
@@ -278,9 +279,58 @@ function CompactArticleCard({ article }: { article: HomeArticle }) {
   );
 }
 
+function LatestPulse({ articles }: { articles: LatestArticle[] }) {
+  if (articles.length === 0) return null;
+
+  const visibleArticles = articles.slice(0, 4);
+  const updatedAt = visibleArticles[0]?.date;
+
+  return (
+    <section className="border-b border-gray-200 bg-[#fbfaf8]">
+      <div className="container mx-auto grid gap-4 px-4 py-4 lg:grid-cols-[190px_1fr_auto] lg:items-center">
+        <div className="border-l-4 border-red-500 pl-3">
+          <p className="text-xs font-black uppercase text-red-600">Latest on EpicKor</p>
+          <p className="mt-1 text-sm font-bold text-gray-950">
+            {updatedAt ? `Updated ${formatDate(updatedAt)}` : 'Fresh Korea updates'}
+          </p>
+        </div>
+
+        <div className="grid gap-3 sm:grid-cols-2 xl:grid-cols-4">
+          {visibleArticles.map((article, index) => (
+            <Link key={article.href} href={article.href} className="group grid min-w-0 grid-cols-[58px_1fr] gap-3">
+              <ArticleImage article={article} className="h-14 w-14 rounded-md" sizes="58px" />
+              <div className="min-w-0">
+                <div className="flex min-w-0 items-center gap-2">
+                  {index < 3 && (
+                    <span className="shrink-0 rounded-md bg-red-600 px-1.5 py-0.5 text-[10px] font-black uppercase text-white">
+                      New
+                    </span>
+                  )}
+                  <span className="truncate text-[11px] font-black uppercase text-gray-500">{article.label}</span>
+                </div>
+                <h2 className="mt-1 text-sm font-black leading-snug text-gray-950 line-clamp-2 group-hover:text-red-700">
+                  {trimTitle(getReadableTitle(article.title), 56)}
+                </h2>
+              </div>
+            </Link>
+          ))}
+        </div>
+
+        <Link
+          href="/latest"
+          className="inline-flex justify-center rounded-md border border-gray-300 bg-white px-4 py-2 text-sm font-black text-gray-950 hover:border-red-500 hover:text-red-700"
+        >
+          Latest feed -&gt;
+        </Link>
+      </div>
+    </section>
+  );
+}
+
 export default function Home() {
   const blogPosts = getAllBlogPosts();
   const businessPosts = getAllBusinessPosts();
+  const latestArticles = getLatestArticles(8);
   const homeSurface = getHomeSurface();
   const curatedSlugs = {
     lead: getSlotSlug(homeSurface.hero),
@@ -349,6 +399,7 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-white text-gray-950">
       <HomeGuideFinder chips={guideChips} />
+      <LatestPulse articles={latestArticles} />
 
       <main className="container mx-auto px-4 py-6">
         {leadArticle && (

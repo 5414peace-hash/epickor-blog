@@ -65,6 +65,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: 'daily',
       priority: 0.75,
     },
+    {
+      url: 'https://www.epickor.com/latest',
+      ...(latestPostDate ? { lastModified: latestPostDate } : {}),
+      changeFrequency: 'daily',
+      priority: 0.9,
+    },
     ...sectionUrls,
     {
       url: 'https://www.epickor.com/business/editor',
