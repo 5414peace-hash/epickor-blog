@@ -86,7 +86,6 @@ export default function CardNewsRail({ items, activeSlug, onSelect }: CardNewsRa
     movedRef.current = false;
     startXRef.current = event.clientX;
     startScrollRef.current = rail.scrollLeft;
-    rail.setPointerCapture(event.pointerId);
   };
 
   const onPointerMove = (event: PointerEvent<HTMLDivElement>) => {
@@ -101,6 +100,35 @@ export default function CardNewsRail({ items, activeSlug, onSelect }: CardNewsRa
   const endDrag = () => {
     setDragging(false);
   };
+
+  const renderCard = (item: CardNewsRailItem, index: number, active: boolean) => (
+    <article
+      className={`overflow-hidden rounded-lg border bg-white transition ${
+        active
+          ? 'border-red-500 shadow-[0_16px_38px_rgba(220,38,38,0.16)]'
+          : 'border-gray-200 hover:border-gray-300 hover:shadow-sm'
+      }`}
+    >
+      <div className="relative aspect-square bg-gray-950">
+        <Image
+          src={item.coverImage}
+          alt={`${item.topic} guide cover`}
+          fill
+          priority={index < 7}
+          draggable={false}
+          className="select-none object-cover transition duration-500 group-hover:scale-[1.025]"
+          sizes="(max-width: 768px) 132px, 156px"
+        />
+        <span className="absolute left-2 top-2 rounded-md bg-black/70 px-2 py-0.5 text-[10px] font-black uppercase text-white">
+          {item.totalCards}
+        </span>
+      </div>
+      <div className="p-2.5">
+        <p className="text-[10px] font-black uppercase text-red-600">{item.label}</p>
+        <h3 className="mt-1 text-xs font-black leading-snug text-gray-950 line-clamp-2">{item.topic}</h3>
+      </div>
+    </article>
+  );
 
   return (
     <section className="border-b border-gray-200 bg-[#fbfaf8]">
@@ -127,12 +155,33 @@ export default function CardNewsRail({ items, activeSlug, onSelect }: CardNewsRa
             onPointerMove={onPointerMove}
             onPointerUp={endDrag}
             onPointerCancel={endDrag}
+            onPointerLeave={endDrag}
             className={`scrollbar-none flex snap-x gap-3 overflow-x-auto px-12 py-2 ${dragging ? 'cursor-grabbing' : 'cursor-grab'}`}
           >
             {items.map((item, index) => {
               const active = item.slug === activeSlug;
+              const cardClass = `group w-[132px] shrink-0 snap-center text-left md:w-[148px] lg:w-[156px] ${
+                active ? 'opacity-100' : 'opacity-90 hover:opacity-100'
+              }`;
 
-              return (
+              return onSelect ? (
+                <button
+                  key={`${item.href}-${item.slug}`}
+                  type="button"
+                  aria-current={active ? 'true' : undefined}
+                  onClick={() => {
+                    if (movedRef.current) {
+                      movedRef.current = false;
+                      return;
+                    }
+
+                    onSelect(item.slug);
+                  }}
+                  className={cardClass}
+                >
+                  {renderCard(item, index, active)}
+                </button>
+              ) : (
                 <Link
                   key={`${item.href}-${item.slug}`}
                   href={item.href}
@@ -140,46 +189,11 @@ export default function CardNewsRail({ items, activeSlug, onSelect }: CardNewsRa
                     if (movedRef.current) {
                       event.preventDefault();
                       movedRef.current = false;
-                      return;
-                    }
-
-                    if (onSelect) {
-                      event.preventDefault();
-                      onSelect(item.slug);
                     }
                   }}
-                  className={`group w-[132px] shrink-0 snap-center md:w-[148px] lg:w-[156px] ${
-                    active ? 'opacity-100' : 'opacity-90 hover:opacity-100'
-                  }`}
+                  className={cardClass}
                 >
-                  <article
-                    className={`overflow-hidden rounded-lg border bg-white transition ${
-                      active
-                        ? 'border-red-500 shadow-[0_16px_38px_rgba(220,38,38,0.16)]'
-                        : 'border-gray-200 hover:border-gray-300 hover:shadow-sm'
-                    }`}
-                  >
-                    <div className="relative aspect-square bg-gray-950">
-                      <Image
-                        src={item.coverImage}
-                        alt={`${item.topic} guide cover`}
-                        fill
-                        priority={index < 7}
-                        draggable={false}
-                        className="select-none object-cover transition duration-500 group-hover:scale-[1.025]"
-                        sizes="(max-width: 768px) 132px, 156px"
-                      />
-                      <span className="absolute left-2 top-2 rounded-md bg-black/70 px-2 py-0.5 text-[10px] font-black uppercase text-white">
-                        {item.totalCards}
-                      </span>
-                    </div>
-                    <div className="p-2.5">
-                      <p className="text-[10px] font-black uppercase text-red-600">{item.label}</p>
-                      <h3 className="mt-1 text-xs font-black leading-snug text-gray-950 line-clamp-2">
-                        {item.topic}
-                      </h3>
-                    </div>
-                  </article>
+                  {renderCard(item, index, active)}
                 </Link>
               );
             })}
