@@ -172,7 +172,7 @@ export default function LatestPage() {
           </div>
 
           {labels.length > 0 && (
-            <div className="mt-6 flex gap-2 overflow-x-auto">
+            <div className="scrollbar-none mt-6 flex gap-2 overflow-x-auto">
               {labels.map((label) => (
                 <span key={label} className="shrink-0 rounded-md border border-gray-200 bg-white px-3 py-2 text-xs font-black text-gray-700">
                   {label}

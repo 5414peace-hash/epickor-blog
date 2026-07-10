@@ -53,7 +53,7 @@ export default function HomeGuideFinder({ chips }: HomeGuideFinderProps) {
           </button>
         </form>
 
-        <nav className="flex gap-2 overflow-x-auto" aria-label="Guide shortcuts">
+        <nav className="scrollbar-none flex gap-2 overflow-x-auto" aria-label="Guide shortcuts">
           {chips.map((chip) => (
             <Link
               key={chip.href}

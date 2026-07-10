@@ -44,7 +44,7 @@ export default function RootLayout({
               </span>
             </Link>
 
-            <nav className="flex min-w-0 items-center gap-3 overflow-x-auto whitespace-nowrap text-[13px] font-bold text-gray-700 sm:gap-5 md:text-sm">
+            <nav className="scrollbar-none flex min-w-0 items-center gap-3 overflow-x-auto whitespace-nowrap text-[13px] font-bold text-gray-700 sm:gap-5 md:text-sm">
               <Link href="/latest" className="hover:text-red-600">
                 Latest
               </Link>

@@ -35,6 +35,15 @@ body {
   overflow-x: hidden !important;
 }
 
+.scrollbar-none {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.scrollbar-none::-webkit-scrollbar {
+  display: none;
+}
+
 /* Blog Content Styles */
 .blog-content {
   color: #374151 !important;
