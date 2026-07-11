@@ -510,6 +510,8 @@ If your goal is long-term K-beauty retail, you are not only buying inventory. Yo
 
 ## FAQ
 
+Manufacturing and distribution are different layers. EpicKor Business's [COSMAX company deep dive](/business/cosmax-korean-beauty-odm-deep-dive) explains the ODM/manufacturing side; this guide remains focused on wholesale, authorization, and importer risk.
+
 ### Where can I find Korean cosmetics wholesale suppliers?
 
 Start with Korea-focused discovery paths such as KOTRA buyer services, buyKOREA, tradeKorea, GobizKOREA, and beauty trade-show exhibitor directories such as InterCHARM Korea. Then verify each seller's role, authorization, batch trail, documents, and destination-market fit before payment.

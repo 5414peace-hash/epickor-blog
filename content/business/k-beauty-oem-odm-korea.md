@@ -132,6 +132,8 @@ If you are still mapping the overall Korea supplier process, read [How to Find S
 
 ## FAQ
 
+For a public-company example of how Korean ODM, research, manufacturing, packaging coordination, and global factories connect, read EpicKor Business's [COSMAX deep dive](/business/cosmax-korean-beauty-odm-deep-dive). It is an editorial company study, not a supplier endorsement.
+
 ### Is Korean ODM better than OEM for a small beauty brand?
 
 ODM can be better if you need speed, concept support, and access to existing development work. OEM can be better if you already control the brief, formula direction, or product specification. The right choice depends on ownership, exclusivity, timeline, target market, and how much technical work your team can manage.

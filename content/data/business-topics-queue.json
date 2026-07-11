@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-09",
+  "last_updated": "2026-07-11",
   "approval_required": true,
   "next_id": 13,
   "allowed_statuses": ["candidate", "approved", "rejected", "blocked"],
@@ -166,7 +166,7 @@
     },
     {
       "id": 9,
-      "status": "candidate",
+      "status": "approved",
       "priority": "normal",
       "business_type": "non-client-spotlight",
       "topic": "COSMAX, Inc. Spotlight: Why Korean Beauty ODM Matters to Global Brands",
@@ -178,7 +178,10 @@
       "duplicate_note": "New B-2 company spotlight; no client relationship implied.",
       "amazon_hint": "Beauty business books, Korea business books",
       "risk": "medium-high",
-      "representative_decision": null
+      "representative_decision": "approved",
+      "approved_at": "2026-07-11",
+      "published_slug": "cosmax-korean-beauty-odm-deep-dive",
+      "published_path": "/business/cosmax-korean-beauty-odm-deep-dive"
     },
     {
       "id": 10,
