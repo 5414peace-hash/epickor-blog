@@ -53,3 +53,6 @@ Instagram upload is representative-managed. As of 2026-07-02, the representative
 | `2026-07-08_277` | 277 | Korean Pantry Starter Kit 2026 | 7 | final approved + caption ready | ready for representative scheduling |
 | `2026-07-08_278` | 278 | Korean Instant Coffee Mix Guide 2026 | 7 | final approved + caption ready | ready for representative scheduling |
 | `2026-07-08_279` | 279 | Korean Seaweed Snack Guide 2026 | 7 | final approved + caption ready | ready for representative scheduling |
+| `2026-07-11_081` | 081 | Why Korean Baseball Feels Like a Three-Hour Concert | 7 | final confirmed + Seoul After Dark 7-card restyle + caption ready | ready for representative scheduling |
+| `2026-07-11_288` | 288 | Korean Pojangmacha First-Visit Guide | 7 | final confirmed + Seoul After Dark 7-card restyle + caption ready | ready for representative scheduling |
+| `2026-07-11_290` | 290 | Seoul Four-Palace Night Comparison | 7 | final confirmed + Seoul After Dark 7-card restyle + caption ready | ready for representative scheduling |

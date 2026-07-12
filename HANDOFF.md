@@ -15,32 +15,39 @@
    - Read a narrow line range around the match; never load the full archive into context by default.
 6. If this dashboard and git history conflict, trust the newer concrete git/file evidence and correct this dashboard.
 
-## Current Snapshot - 2026-07-11
+## Current Snapshot - 2026-07-12
 
-- Latest published normal post: Blog `287`, `Korean BBQ Grill for Home 2026: Electric vs Grill Pan`.
-- Public URL: `https://www.epickor.com/blog/287`.
-- Latest commits: `11c46651` reverse-link cluster, `97de3485` final Blog 287 publication, `083149d1` private preview.
-- Production deployment was verified Ready and `www.epickor.com` served the article, sitemap entry, images, and reverse links.
+- Latest published normal posts: Blogs `288`-`290` — Korean Pojangmacha, Korean Board Game Cafe, and Seoul Palace Night guides.
+- Public URLs: `https://www.epickor.com/blog/288`, `https://www.epickor.com/blog/289`, `https://www.epickor.com/blog/290`.
+- Latest published Business post: `COSMAX Deep Dive 2026: The ODM Engine Behind Global K-Beauty`.
+- Public Business URL: `https://www.epickor.com/business/cosmax-korean-beauty-odm-deep-dive`.
+- Latest local commit: `Finalize Seoul After Dark card news batch`; it finalized the representative-confirmed 081/288/290 card-news batch and saved the reusable renderer preset. The preceding `93cafaee` published Blogs 288-290.
+- Vercel production deployment `epickor-blog-402nnvchg-yhs-projects-5de403d3.vercel.app` is Ready and aliased to `www.epickor.com`.
 - No article, Reel, card-news package, or deployment is currently in progress.
+- Card-news batch `081`, `288`, and `290` is representative-confirmed: all 21 final 1080x1080 PNGs use the reusable `Seoul After Dark` system; captions, source records, visual reviews, contact sheets, and index rows are ready for representative scheduling. The preset is documented at `.claude/skills/cardnews/seoul_after_dark_style.md` and activates with `style: seoul-after-dark`.
 - Existing unrelated dirty worktree files must be preserved. Confirm the exact list with `git status --short` before editing.
+- Local master and `origin/master` contain both new commits; confirm exact divergence before the next publication action.
 
 ## Active Work
 
 - Status: none.
-- Progress: 100% complete for Blog 287 publication and public verification.
-- First action next session: follow the representative's new request; do not automatically reopen Blog 287 production.
+- Progress: Blogs 288-290 research, writing, 12-image package, review, commit, deployment, and public verification are 100% complete.
+- Review record: `reports/blogs-288-290-review-2026-07-11.md`.
+- Social package: `public/assets/cardnews/2026-07-11_081`, `2026-07-11_288`, and `2026-07-11_290` are representative-confirmed final assets; upload status remains representative-managed.
 
 ## Blockers / Decisions Needed
 
 - No technical blocker.
 - Blog 287 GSC and GA4 results need time to accumulate before performance conclusions.
 - Social reuse of Blog 287 requires representative selection and must respect the 3-Reel/3-carousel batch rhythm.
+- No blocker for Blogs 288-290. Social production still requires representative selection after public verification, which is now complete.
+- No production blocker for card news 081/288/290. Instagram scheduling remains a representative action and should preserve the Tuesday/Wednesday/Thursday three-carousel batch rhythm.
 
 ## Next Recommended Work
 
-1. Monitor Blog 287 GSC query impressions for 7-14 days. Expected impact: validate the new transactional keyword cluster. Dependency: indexing/query data.
-2. Review GA4 affiliate events for Blog 287 after data accumulates. Expected impact: improve CTA and product-link choices. Dependency: event volume.
-3. Keep Blog 287 as a possible future Reel/card-news candidate, but do not auto-produce it ahead of approved inventory. Expected impact: commercial article traffic. Dependency: representative selection and batch timing.
+1. Review and schedule card news 081/288/290 together on the next Tuesday/Wednesday/Thursday slots. Expected impact: converts one proven GSC topic and two strong new visual guides into Instagram reach. Dependency: representative upload/scheduling action.
+2. Produce the second selected carousel batch 036/170/287 after the first batch review. Expected impact: combines seasonal demand, proven PC-bang search demand, and the strongest affiliate-ready topic. Dependency: representative confirmation that the first batch needs no revisions.
+3. Hold Blogs 287-290 and COSMAX unchanged while GSC/GA4 data accumulates. Expected impact: preserves clean performance baselines and avoids premature edits. Dependency: 7-14 days of crawl and event volume.
 
 ## Standard Blog Production Guardrails
 
@@ -77,10 +84,31 @@ These rules came from the Blog 287 abnormal-duration incident and apply to Strat
 
 ## Recent Change
 
+- 2026-07-12: Representative confirmed all 21 restyled cards in 081/288/290 and approved `Seoul After Dark` for reuse; saved it as the `style: seoul-after-dark` renderer preset with dedicated design-system and quality-standard documentation and committed the scoped batch locally.
+- 2026-07-11: Completed card news 081/288/290 with 21 photo-first 1080x1080 cards, captions, source documentation, structural review passes, manual PNG inspection, Visual Fit averages 97.9/98.7/99.0, and index updates; all three await representative scheduling.
+- 2026-07-11: Published and publicly verified Blogs 288-290; commit `93cafaee`, Vercel Ready, 12/12 assets HTTP 200, sitemap and three reverse links confirmed, and public browser render passed with zero broken article images.
+- 2026-07-11: Representative gave final confirmation for the published COSMAX Business deep dive; no further revision or redeployment is required.
+- 2026-07-11: Published and publicly verified the COSMAX Type B-2 company deep dive with seven official images, five Business internal links, two reverse links, two buyer tables, and two affiliate CTAs; commit `05fa20b0` and Vercel deployment Ready.
+- 2026-07-11: Committed the Handoff/agent guardrail refactor as `ab3dd487`; audited the next Business company shortlist and recommended COSMAX first, with CJ Olive Young and WEBTOON as later alternatives.
 - 2026-07-11: Replaced the 1.15MB rolling Handoff with this fast-start dashboard; archived all prior detail; promoted Blog 287 time-overrun lessons into shared and role-specific operating instructions.
 
 ## Agents Involved In This Maintenance
 
+- Card-news 081/288/290 restyle Design/Writer role: translated the selected `Seoul After Dark` cover into a deterministic reusable 21-card system while preserving approved photos and copy.
+- Card-news 081/288/290 restyle Reviewer role: ran structural gates, verified dimensions and unique hashes, compared the selected concept with all three covers, and manually inspected all 21 cards in high-resolution contact sheets.
+- Card-news 081/288/290 restyle Publisher/Operations role: synchronized final PNGs, scripts, contact sheets, visual-review records, index status, and Handoff documentation; no Instagram upload or scheduling was performed.
+- Card-news 081/288/290 Strategy/Research role: confirmed public source-post readiness, selected the approved three-carousel batch, audited the existing index, and mapped Korea-specific visual coverage.
+- Card-news 081/288/290 Writer role: wrote 21 one-message cards plus primary/short Instagram captions and save/CTA flow.
+- Card-news 081/288/290 Reviewer role: ran structural gates, rejected and replaced weak 081 frames, inspected all rendered contact sheets, verified 1080x1080 output/watermarks/readability, and recorded Visual Fit Scores.
+- Card-news 081/288/290 Publisher/Operations role: assembled final public asset folders and updated `CARDNEWS_INDEX.md`; no Instagram upload or scheduling was performed.
+- Blogs 288-290 Strategy/Research role: completed semantic duplicate audit, scope freeze, official-source fact plans, current-date checks, and image/source selection.
+- Blogs 288-290 Writer role: produced three narrative 2,300-2,400-word English guides with six tables, 18 FAQ answers, six affiliate CTAs, and practical internal-link clusters.
+- Blogs 288-290 Reviewer role: completed SEO 100 reviews, manual fact checks, 12-image hash/fit review, full-page desktop/mobile render review, 333-route build verification, and public-page/image/sitemap checks.
+- Blogs 288-290 Marketing/Publisher role: validated affiliate attributes, added three reverse links, committed scoped files, pushed master, monitored Vercel to Ready, and verified the public URLs.
+- COSMAX Strategy/Research role: completed duplicate audit, B-2 approval framing, official-source fact plan, and official-image selection.
+- COSMAX Writer role: wrote the 2,701-word buyer/operator company deep dive, tables, FAQ, CTAs, sources, and five-guide internal-link cluster.
+- COSMAX Reviewer role: verified facts, link attributes, official images, duplicate hashes, desktop/mobile render, build output, sitemap, assets, and public reverse links.
+- COSMAX Publisher role: committed scoped files, pushed `master`, monitored Vercel to Ready, and verified the public page, hub, sitemap, images, and reverse links.
 - Operations/Reviewer role: audited CLAUDE, Handoff history, git timing, and agent instructions; identified that incident lessons had not been promoted into executable role rules.
 - Documentation role: created the fast-start/read-on-demand structure and preserved the historical record.
 - Strategy/Research/Writer/Reviewer/Marketing/Publisher instruction owners: received scoped production-time, scope-freeze, verification, and Git synchronization rules.

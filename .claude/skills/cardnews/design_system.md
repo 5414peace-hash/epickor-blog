@@ -10,11 +10,25 @@ For the full reusable production standard, read `.claude/skills/cardnews/epickor
 - For upload-ready backlog fixes, use `layout: F` and render the cover with `node .claude/skills/cardnews/scripts/render-grid-cover.mjs --slug {slug} --mirror`.
 - Keep all other carousel cards in their original layout unless there is a separate readability or visual-fit issue.
 
+## Approved Seoul After Dark Preset - 2026-07-12
+
+Reference batch: `public/assets/cardnews/2026-07-11_081`, `2026-07-11_288`, and `2026-07-11_290`.
+
+The representative approved `Seoul After Dark` as a reusable full-carousel preset. Use it by setting the carousel header to:
+
+```yaml
+style: seoul-after-dark
+```
+
+The deterministic Edge renderer applies the selected blue-black/gold system to Card 01 and all supporting cards while preserving the existing photo, copy, layout letter, position, and watermark requirements.
+
+Read `.claude/skills/cardnews/seoul_after_dark_style.md` for activation, visual tokens, layout mapping, suitability rules, and QA requirements. This preset is an approved option, not the mandatory default for every topic.
+
 ## Approved Dark Black-Bar Carousel Style - 2026-07-08
 
 Reference batch: `public/assets/cardnews/2026-07-08_257`, `2026-07-08_258`, `2026-07-08_259`, `2026-07-08_277`, `2026-07-08_278`, `2026-07-08_279`.
 
-Use this style for high-visual EpicKor Instagram carousels when the representative approves a sharper, darker, photo-forward look.
+Use this style for high-visual EpicKor Instagram carousels when the representative approves a sharper, darker, photo-forward look. This older black-bar style remains separate from the newer `Seoul After Dark` preset.
 
 - Format: 1080x1080, 7 cards, photo-first on every card when suitable topic images exist.
 - Card 01: centered heavy title inside the Instagram grid safe area; use large condensed/bold sans text over a Korean-context photo with a dark translucent text bar. The photo should remain clearly visible, not merely atmospheric.

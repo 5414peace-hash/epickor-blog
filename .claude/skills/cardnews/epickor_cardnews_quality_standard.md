@@ -64,6 +64,8 @@ Use this as the default cover treatment unless the representative asks otherwise
 - `image_opacity: 0.88` for the current approved EpicKor bright cover treatment.
 - Background photo should be visible enough to identify the topic, while text remains readable.
 
+Approved exception: the representative-approved `Seoul After Dark` full-carousel preset uses a centered blue-black/gold cinematic cover and alternating interior layouts. Activate it with `style: seoul-after-dark` and follow `.claude/skills/cardnews/seoul_after_dark_style.md`. It is a reusable option rather than the universal default.
+
 Do not regress to the older low-visibility cover look. The 2026-06-20 standard deliberately made the cover photo about 10 percentage points more visible than the older `0.78` cover baseline.
 
 ## Copywriting Standard
