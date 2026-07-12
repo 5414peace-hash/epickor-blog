@@ -21,13 +21,13 @@
 - Public URLs: `https://www.epickor.com/blog/288`, `https://www.epickor.com/blog/289`, `https://www.epickor.com/blog/290`.
 - Latest published Business post: `COSMAX Deep Dive 2026: The ODM Engine Behind Global K-Beauty`.
 - Public Business URL: `https://www.epickor.com/business/cosmax-korean-beauty-odm-deep-dive`.
-- Latest local commit: `Finalize Seoul After Dark card news batch`; it finalized the representative-confirmed 081/288/290 card-news batch and saved the reusable renderer preset. The preceding `93cafaee` published Blogs 288-290.
-- Vercel production deployment `epickor-blog-402nnvchg-yhs-projects-5de403d3.vercel.app` is Ready and aliased to `www.epickor.com`.
+- Latest published commit: `7eba1772 Fix card news images when optimizer quota is exhausted`; `24ae249e` finalized the second 036/170/287 batch and `7a52ad83` finalized the first 081/288/290 batch plus reusable renderer preset.
+- The production deployment containing hotfix `7eba1772` was verified Ready and aliased to `www.epickor.com`; the final Handoff-only follow-up does not change runtime assets.
 - No article, Reel, card-news package, or deployment is currently in progress.
 - Card-news batch `081`, `288`, and `290` is representative-confirmed: all 21 final 1080x1080 PNGs use the reusable `Seoul After Dark` system; captions, source records, visual reviews, contact sheets, and index rows are ready for representative scheduling. The preset is documented at `.claude/skills/cardnews/seoul_after_dark_style.md` and activates with `style: seoul-after-dark`.
-- Second card-news batch `036`, `170`, and `287` is representative-confirmed and pushed in `24ae249e`: 21 final 1080x1080 PNGs, captions, source records, visual reviews, high-resolution contact sheets, and batch QA. Visual Fit averages are 98.3/98.6/98.9; batch self-review scores are 97/97/100. Public QA found Vercel image optimization returning 402 after quota exhaustion; all card-news surfaces now use direct static images via `unoptimized`, and the production build passes pending hotfix deployment.
+- Second card-news batch `036`, `170`, and `287` is representative-confirmed and live: 21 final 1080x1080 PNGs, captions, source records, visual reviews, high-resolution contact sheets, and batch QA. Visual Fit averages are 98.3/98.6/98.9; batch self-review scores are 97/97/100. Public QA found Vercel image optimization returning 402 after quota exhaustion; hotfix `7eba1772` moved card-news surfaces to direct static images. All three pages return 200 with zero optimizer references, and all 21 public PNGs return 200.
 - Existing unrelated dirty worktree files must be preserved. Confirm the exact list with `git status --short` before editing.
-- Local master and `origin/master` contain both new commits; confirm exact divergence before the next publication action.
+- Local master and `origin/master` contain the two batch commits plus the image-quota hotfix; confirm exact divergence before the next publication action.
 
 ## Active Work
 
