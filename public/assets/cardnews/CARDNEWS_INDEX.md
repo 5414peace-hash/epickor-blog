@@ -56,3 +56,6 @@ Instagram upload is representative-managed. As of 2026-07-02, the representative
 | `2026-07-11_081` | 081 | Why Korean Baseball Feels Like a Three-Hour Concert | 7 | final confirmed + Seoul After Dark 7-card restyle + caption ready | ready for representative scheduling |
 | `2026-07-11_288` | 288 | Korean Pojangmacha First-Visit Guide | 7 | final confirmed + Seoul After Dark 7-card restyle + caption ready | ready for representative scheduling |
 | `2026-07-11_290` | 290 | Seoul Four-Palace Night Comparison | 7 | final confirmed + Seoul After Dark 7-card restyle + caption ready | ready for representative scheduling |
+| `2026-07-12_036` | 036 | The Umbrella Protocol: Why Koreans Refuse to Get Wet | 7 | final confirmed + Seoul After Dark + caption ready | ready for representative scheduling |
+| `2026-07-12_170` | 170 | Korean PC Bang Culture | 7 | final confirmed + Seoul After Dark + caption ready | ready for representative scheduling |
+| `2026-07-12_287` | 287 | Korean BBQ Grill for Home | 7 | final confirmed + Seoul After Dark + caption ready | ready for representative scheduling |
