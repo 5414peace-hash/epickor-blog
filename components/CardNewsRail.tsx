@@ -116,6 +116,7 @@ export default function CardNewsRail({ items, activeSlug, onSelect }: CardNewsRa
           src={item.coverImage}
           alt={`${item.topic} guide cover`}
           fill
+          unoptimized
           priority={index < 7}
           draggable={false}
           className="select-none object-cover transition duration-500 group-hover:scale-[1.025]"

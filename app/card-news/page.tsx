@@ -42,6 +42,7 @@ function CardNewsPreview({ item, priority = false }: { item: CardNewsItem; prior
             src={item.coverImage}
             alt={`${item.topic} card-news cover`}
             fill
+            unoptimized
             priority={priority}
             className="object-cover transition duration-500 group-hover:scale-[1.025]"
             sizes="(max-width: 768px) 100vw, (max-width: 1280px) 33vw, 300px"
@@ -112,6 +113,7 @@ export default function CardNewsPage() {
                   src={featured.coverImage}
                   alt={`${featured.topic} card-news cover`}
                   fill
+                  unoptimized
                   priority
                   className="object-cover transition duration-500 group-hover:scale-[1.03]"
                   sizes="(max-width: 1024px) 100vw, 360px"

@@ -241,6 +241,7 @@ export default function CardNewsCarousel({
                         src={slide.renderedImage}
                         alt={slide.imageLabel || `${title} card ${index + 1}`}
                         fill
+                        unoptimized
                         priority={index === 0}
                         className="object-contain"
                         sizes="(max-width: 768px) 100vw, 620px"
@@ -327,6 +328,7 @@ export default function CardNewsCarousel({
                       src={slide.renderedImage}
                       alt={slide.imageLabel || `${title} card ${slide.index}`}
                       fill
+                      unoptimized
                       className="object-cover"
                       sizes="54px"
                     />

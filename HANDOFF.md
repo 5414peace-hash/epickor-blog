@@ -25,7 +25,7 @@
 - Vercel production deployment `epickor-blog-402nnvchg-yhs-projects-5de403d3.vercel.app` is Ready and aliased to `www.epickor.com`.
 - No article, Reel, card-news package, or deployment is currently in progress.
 - Card-news batch `081`, `288`, and `290` is representative-confirmed: all 21 final 1080x1080 PNGs use the reusable `Seoul After Dark` system; captions, source records, visual reviews, contact sheets, and index rows are ready for representative scheduling. The preset is documented at `.claude/skills/cardnews/seoul_after_dark_style.md` and activates with `style: seoul-after-dark`.
-- Second card-news batch `036`, `170`, and `287` is representative-confirmed: 21 final 1080x1080 PNGs, captions, source records, visual reviews, high-resolution contact sheets, and batch QA. Visual Fit averages are 98.3/98.6/98.9; batch self-review scores are 97/97/100. Production build passed with all three `/card-news/` routes generated; push/deploy is authorized and in progress.
+- Second card-news batch `036`, `170`, and `287` is representative-confirmed and pushed in `24ae249e`: 21 final 1080x1080 PNGs, captions, source records, visual reviews, high-resolution contact sheets, and batch QA. Visual Fit averages are 98.3/98.6/98.9; batch self-review scores are 97/97/100. Public QA found Vercel image optimization returning 402 after quota exhaustion; all card-news surfaces now use direct static images via `unoptimized`, and the production build passes pending hotfix deployment.
 - Existing unrelated dirty worktree files must be preserved. Confirm the exact list with `git status --short` before editing.
 - Local master and `origin/master` contain both new commits; confirm exact divergence before the next publication action.
 
@@ -85,6 +85,7 @@ These rules came from the Blog 287 abnormal-duration incident and apply to Strat
 
 ## Recent Change
 
+- 2026-07-12: Public browser QA caught `OPTIMIZED_IMAGE_REQUEST_PAYMENT_REQUIRED` on card-news main images despite raw PNG HTTP 200; added `unoptimized` to card-news listing, rail, related cards, carousel slides, and slide thumbnails so the social guides remain visible without Vercel image-optimization quota.
 - 2026-07-12: Representative confirmed the second `Seoul After Dark` batch 036/170/287 after 21-card review; web commit/push/deploy authorized.
 - 2026-07-12: Representative confirmed all 21 restyled cards in 081/288/290 and approved `Seoul After Dark` for reuse; saved it as the `style: seoul-after-dark` renderer preset with dedicated design-system and quality-standard documentation and committed the scoped batch locally.
 - 2026-07-11: Completed card news 081/288/290 with 21 photo-first 1080x1080 cards, captions, source documentation, structural review passes, manual PNG inspection, Visual Fit averages 97.9/98.7/99.0, and index updates; all three await representative scheduling.
@@ -101,6 +102,7 @@ These rules came from the Blog 287 abnormal-duration incident and apply to Strat
 - Card-news 036/170/287 Image role: sourced 16 local Pexels/post-owned images and generated five Korean-context PC-bang images after generic foreign-looking candidates failed the Korea-context gate.
 - Card-news 036/170/287 Reviewer role: ran three structural gates, corrected PC-bang service wording and the BBQ electric-grill mismatch, inspected all 21 rendered cards, and recorded Visual Fit/batch scores.
 - Card-news 036/170/287 Publisher/Operations role: synchronized scripts, sources, PNGs, contact sheets, captions, reviews, index rows, and Handoff state; no Instagram upload or scheduling was performed.
+- Card-news web QA/Publisher role: verified the production deployment and raw assets, diagnosed the Vercel optimizer 402 in a rendered browser page, implemented the direct-static-image fallback across card-news surfaces, and reran the full production build.
 - Card-news 081/288/290 restyle Design/Writer role: translated the selected `Seoul After Dark` cover into a deterministic reusable 21-card system while preserving approved photos and copy.
 - Card-news 081/288/290 restyle Reviewer role: ran structural gates, verified dimensions and unique hashes, compared the selected concept with all three covers, and manually inspected all 21 cards in high-resolution contact sheets.
 - Card-news 081/288/290 restyle Publisher/Operations role: synchronized final PNGs, scripts, contact sheets, visual-review records, index status, and Handoff documentation; no Instagram upload or scheduling was performed.

@@ -123,6 +123,7 @@ export default function CardNewsDetailExperience({ items, initialSlug }: CardNew
                         src={item.coverImage}
                         alt={`${item.topic} cover`}
                         fill
+                        unoptimized
                         className="object-cover transition duration-500 group-hover:scale-[1.025]"
                         sizes="(max-width: 768px) 50vw, 120px"
                       />
