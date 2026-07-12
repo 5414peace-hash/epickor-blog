@@ -47,6 +47,11 @@ const nextConfig: NextConfig = {
   },
   
   images: {
+    // Vercel's image optimizer can hard-fail every next/image request when the
+    // account's transformation quota is exhausted. EpicKor already serves its
+    // local assets from /public, so bypass the optimizer and let browsers fetch
+    // the original image URLs directly.
+    unoptimized: true,
     remotePatterns: [
       {
         protocol: 'https',

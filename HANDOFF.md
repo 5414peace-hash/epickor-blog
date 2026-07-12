@@ -22,6 +22,8 @@
 - Three reverse links were added from Blogs 193, 170, and 251.
 - Production commit `933c9019` is on `origin/master`; Vercel deployment `epickor-blog-3qmmu5fiw` is Ready and aliased to `www.epickor.com`.
 - Public QA verified 12/12 image assets HTTP 200, all three sitemap entries, and reverse links from Blogs 193, 170, and 251.
+- Sitewide thumbnail outage diagnosed on 2026-07-12: original assets returned HTTP 200, while Vercel `/_next/image` returned HTTP 402 `OPTIMIZED_IMAGE_REQUEST_PAYMENT_REQUIRED` after the image-transformation quota was exhausted.
+- `next.config.ts` now sets `images.unoptimized: true`, so all `next/image` surfaces use direct source URLs instead of the failing optimizer. A clean production build generated Blog 291 with the direct asset URL and no `/_next/image` reference.
 - Latest Business post remains the COSMAX B-2 deep dive.
 - Card-news batches `081/288/290` and `036/170/287` remain representative-confirmed and ready for scheduling.
 - Existing unrelated dirty files remain: `reports/seo-aeo-audit.md`, `design-qa.md`, and `docs/issues-post-playbook.md`.
@@ -30,6 +32,7 @@
 
 - Status: none.
 - Blogs 291-293 research, writing, review, image package, build, deployment, and public verification are 100% complete.
+- Thumbnail hotfix is locally complete; deployment and public rendered verification are the remaining release steps.
 - Review record: `reports/blogs-291-293-review-2026-07-12.md`.
 
 ## Blockers / Decisions Needed
@@ -55,6 +58,7 @@
 
 ## Recent Change
 
+- 2026-07-12: Diagnosed the sitewide broken-thumbnail incident as Vercel image optimizer quota exhaustion (direct asset 200 vs optimized request 402) and added a global direct-image bypass.
 - 2026-07-12: Published and publicly verified Blogs 291-293; production deployment Ready, three pages and 12 assets HTTP 200, sitemap entries and three reverse links confirmed.
 - 2026-07-12: Replaced six generated 2.1-2.5 MB PNGs with visually equivalent 156-225 KB JPEGs before deployment.
 - 2026-07-12: Publisher review created three remote private-preview commits; local public final was merged without losing unrelated work.
@@ -70,6 +74,7 @@
 - Image role: sourced six official/Pexels images, generated six copyright-safe illustrative images, rejected one irrelevant doll image, and optimized generated files.
 - Reviewer role: completed SEO 100 reviews, fact framing, affiliate/link checks, hash-duplicate check, 342-route build, rendered image/table/CTA checks, and overflow checks.
 - Publisher role: synchronized remote private previews with local public finals and prepared the scoped deployment commits.
+- Engineering/Reviewer role: reproduced the optimizer 402, confirmed source assets remained healthy, implemented the global bypass, and verified the generated Blog 291 HTML uses the direct hero asset URL.
 
 ## Maintenance Contract
 
