@@ -2436,8 +2436,74 @@
       "status": "done",
       "generated_slug": "290",
       "generated_date": "2026-07-11"
+    },
+    {
+      "id": 113,
+      "title": "K-Pop Photocard Guide 2026: Buying, Trading, Protecting, and Avoiding Fakes in Seoul",
+      "keywords": [
+        "K-pop photocard guide",
+        "buy photocards Seoul",
+        "K-pop photocard trading",
+        "fake K-pop photocards"
+      ],
+      "category": "Shopping",
+      "tags": [
+        "KpopPhotocard",
+        "KpopShopping",
+        "SeoulShopping",
+        "KpopMerch",
+        "FanCulture"
+      ],
+      "amazon_category": "Shopping",
+      "status": "in_progress",
+      "generated_slug": "291",
+      "generated_date": "2026-07-12"
+    },
+    {
+      "id": 114,
+      "title": "Korean Coin Noraebang Guide 2026: How to Use Seoul's Pay-Per-Song Karaoke Booths",
+      "keywords": [
+        "coin noraebang Seoul",
+        "Korean coin karaoke",
+        "how to use coin noraebang",
+        "solo karaoke Seoul"
+      ],
+      "category": "Culture",
+      "tags": [
+        "CoinNoraebang",
+        "KoreanKaraoke",
+        "SeoulNightlife",
+        "KoreanBangCulture",
+        "Kpop"
+      ],
+      "amazon_category": "Music",
+      "status": "in_progress",
+      "generated_slug": "292",
+      "generated_date": "2026-07-12"
+    },
+    {
+      "id": 115,
+      "title": "Seoul Bookstore and Library Guide 2026: Where Korea Reads, Shops, and Takes Photos",
+      "keywords": [
+        "Seoul bookstore guide",
+        "Seoul libraries",
+        "Kyobo Book Centre Gwanghwamun",
+        "Starfield Library Seoul"
+      ],
+      "category": "Travel",
+      "tags": [
+        "SeoulBookstore",
+        "StarfieldLibrary",
+        "KyoboBookCentre",
+        "SeoulIndoor",
+        "KoreanBooks"
+      ],
+      "amazon_category": "Books",
+      "status": "in_progress",
+      "generated_slug": "293",
+      "generated_date": "2026-07-12"
     }
   ],
-  "last_updated": "2026-07-11",
-  "next_slug": 291
+  "last_updated": "2026-07-12",
+  "next_slug": 294
 }

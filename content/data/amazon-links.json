@@ -91,6 +91,66 @@
       "tags": ["Hangeul", "Hangul", "Korean Language", "Korean Workbook"]
     },
     {
+      "id": "photocard-protection-search",
+      "name": "Browse Photocard Sleeves and Toploaders",
+      "description": "A practical comparison page for acid-free sleeves and rigid toploaders that protect standard K-pop photocards during storage and trading.",
+      "price": "",
+      "url": "https://www.amazon.com/s?k=photocard+sleeves+toploaders&tag=epickor2026-20",
+      "category": "Shopping",
+      "image": "",
+      "tags": ["K-pop Photocard", "Photocard Sleeve", "Toploader", "Trading Card Protection"]
+    },
+    {
+      "id": "photocard-binder-search",
+      "name": "Browse Photocard Binders",
+      "description": "Useful for comparing side-loading, zipper, and ringless binders for organizing a growing K-pop photocard collection.",
+      "price": "",
+      "url": "https://www.amazon.com/s?k=kpop+photocard+binder&tag=epickor2026-20",
+      "category": "Shopping",
+      "image": "",
+      "tags": ["K-pop Photocard", "Photocard Binder", "Card Storage", "K-pop Merch"]
+    },
+    {
+      "id": "portable-karaoke-search",
+      "name": "Browse Portable Karaoke Microphones",
+      "description": "A simple way to compare compact Bluetooth karaoke microphones for casual singing practice at home or with friends.",
+      "price": "",
+      "url": "https://www.amazon.com/s?k=portable+bluetooth+karaoke+microphone&tag=epickor2026-20",
+      "category": "Music",
+      "image": "",
+      "tags": ["Karaoke Microphone", "Portable Karaoke", "Noraebang", "Music Gear"]
+    },
+    {
+      "id": "vocal-earbuds-search",
+      "name": "Browse Wired In-Ear Headphones",
+      "description": "Useful for hearing backing tracks and practicing vocals without Bluetooth latency or carrying bulky equipment.",
+      "price": "",
+      "url": "https://www.amazon.com/s?k=wired+in+ear+headphones+singing+practice&tag=epickor2026-20",
+      "category": "Music",
+      "image": "",
+      "tags": ["Wired Earbuds", "Vocal Practice", "Karaoke", "Music Gear"]
+    },
+    {
+      "id": "korean-literature-search",
+      "name": "Browse Korean Literature in Translation",
+      "description": "A starting point for comparing English translations of Korean novels, short stories, poetry, and contemporary literature after a Seoul bookstore visit.",
+      "price": "",
+      "url": "https://www.amazon.com/s?k=korean+literature+in+translation&tag=epickor2026-20",
+      "category": "Books",
+      "image": "",
+      "tags": ["Korean Literature", "Korean Books", "Books in Translation", "Seoul Bookstore"]
+    },
+    {
+      "id": "reading-journal-search",
+      "name": "Browse Reading Journals and Book Tabs",
+      "description": "A practical comparison page for reading journals, annotation tabs, and book-tracking supplies that fit Seoul stationery-shopping content.",
+      "price": "",
+      "url": "https://www.amazon.com/s?k=reading+journal+book+tabs&tag=epickor2026-20",
+      "category": "Books",
+      "image": "",
+      "tags": ["Reading Journal", "Book Tabs", "Stationery", "Book Accessories"]
+    },
+    {
       "id": "010",
       "name": "Gochujang Korean Red Chili Paste (Mild)",
       "description": "Gluten-free spicy & sweet savory fermented sauce for bibimbap, marinades, stews & BBQ - O'food",
