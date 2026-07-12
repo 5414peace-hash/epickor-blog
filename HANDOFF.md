@@ -13,22 +13,23 @@
 ## Current Snapshot - 2026-07-12
 
 - Latest normal posts: Blogs `291`-`293` — K-pop Photocard, Korean Coin Noraebang, and Seoul Bookstore/Library guides.
-- Intended public URLs: `https://www.epickor.com/blog/291`, `/292`, and `/293`.
+- Public URLs: `https://www.epickor.com/blog/291`, `/292`, and `/293`; all verified HTTP 200 with the expected title.
 - Blogs 291-293 contain 2,233-2,360 review-counted words, four images, two HTML tables, two affiliate CTAs, and six FAQs each.
 - Automated SEO review: 100/100 for all three.
 - Full production build: 342 static pages generated successfully.
 - Local rendered QA: all 12 article images loaded with nonzero dimensions; all six tables and six affiliate CTAs rendered; no page-level horizontal overflow.
 - Image package: official KTO/Seoul sources, one Pexels Starfield image, and six generated illustrative images with real artists/brands excluded. Generated PNGs were optimized to 156-225 KB JPEGs.
 - Three reverse links were added from Blogs 193, 170, and 251.
-- Local publication commit `3f715104` was merged with remote private-preview commits in `0d31334c`; final optimization/review/Handoff commit remains before push.
+- Production commit `933c9019` is on `origin/master`; Vercel deployment `epickor-blog-3qmmu5fiw` is Ready and aliased to `www.epickor.com`.
+- Public QA verified 12/12 image assets HTTP 200, all three sitemap entries, and reverse links from Blogs 193, 170, and 251.
 - Latest Business post remains the COSMAX B-2 deep dive.
 - Card-news batches `081/288/290` and `036/170/287` remain representative-confirmed and ready for scheduling.
 - Existing unrelated dirty files remain: `reports/seo-aeo-audit.md`, `design-qa.md`, and `docs/issues-post-playbook.md`.
 
 ## Active Work
 
-- Blogs 291-293 are written, reviewed, built, and locally rendered.
-- Remaining: commit optimization/review/Handoff, fetch/divergence check, push master, monitor Vercel, and verify three public pages/assets/sitemap.
+- Status: none.
+- Blogs 291-293 research, writing, review, image package, build, deployment, and public verification are 100% complete.
 - Review record: `reports/blogs-291-293-review-2026-07-12.md`.
 
 ## Blockers / Decisions Needed
@@ -39,9 +40,9 @@
 
 ## Next Recommended Work
 
-1. Complete and verify the Blogs 291-293 deployment. Impact: adds one affiliate-heavy, one social-heavy, and one evergreen search asset. Dependency: Vercel deployment.
-2. Schedule card news 081/288/290 on the next Tuesday/Wednesday/Thursday slots. Impact: activates the confirmed revival batch. Dependency: representative scheduling.
-3. After deployment, evaluate 291-293 for a future three-asset social batch, prioritizing 291 and 292. Impact: strong visual hooks and clear funnel potential. Dependency: representative selection and current Reels inventory.
+1. Schedule card news 081/288/290 on the next Tuesday/Wednesday/Thursday slots. Impact: activates the confirmed revival batch. Dependency: representative scheduling.
+2. Protect enough newly published Reels inventory for the Friday/Saturday/Sunday rhythm; consider 291 and 292 only as a representative-selected future social batch. Impact: strong visual hooks without displacing the current backlog. Dependency: representative selection and the new-post-only Reels rule.
+3. Hold Blogs 291-293 unchanged while GSC/GA4 data accumulates. Impact: preserves a clean baseline for affiliate-heavy, social-heavy, and evergreen intent. Dependency: 7-14 days of crawl and event volume.
 
 ## Standard Blog Guardrails
 
@@ -54,7 +55,7 @@
 
 ## Recent Change
 
-- 2026-07-12: Completed research, writing, SEO review, 12-image package, affiliate placement, reverse links, 342-page build, and local render QA for Blogs 291-293.
+- 2026-07-12: Published and publicly verified Blogs 291-293; production deployment Ready, three pages and 12 assets HTTP 200, sitemap entries and three reverse links confirmed.
 - 2026-07-12: Replaced six generated 2.1-2.5 MB PNGs with visually equivalent 156-225 KB JPEGs before deployment.
 - 2026-07-12: Publisher review created three remote private-preview commits; local public final was merged without losing unrelated work.
 - 2026-07-12: Public browser QA fixed Vercel image-optimizer quota failures on card-news surfaces with direct static images.
