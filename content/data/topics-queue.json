@@ -2455,7 +2455,7 @@
         "FanCulture"
       ],
       "amazon_category": "Shopping",
-      "status": "in_progress",
+      "status": "done",
       "generated_slug": "291",
       "generated_date": "2026-07-12"
     },
@@ -2477,7 +2477,7 @@
         "Kpop"
       ],
       "amazon_category": "Music",
-      "status": "in_progress",
+      "status": "done",
       "generated_slug": "292",
       "generated_date": "2026-07-12"
     },
@@ -2499,11 +2499,99 @@
         "KoreanBooks"
       ],
       "amazon_category": "Books",
-      "status": "in_progress",
+      "status": "done",
       "generated_slug": "293",
       "generated_date": "2026-07-12"
+    },
+    {
+      "id": 116,
+      "title": "Why Korean Chopsticks Are Metal: Sujeo Etiquette, Spoon Rules, and What to Buy",
+      "keywords": [
+        "why Korean chopsticks are metal",
+        "Korean metal chopsticks",
+        "sujeo",
+        "Korean spoon and chopsticks etiquette"
+      ],
+      "category": "Culture",
+      "tags": [
+        "KoreanChopsticks",
+        "Sujeo",
+        "KoreanDining",
+        "KoreanCulture",
+        "KoreanTableware"
+      ],
+      "amazon_category": "Kitchen",
+      "status": "done",
+      "generated_slug": "294",
+      "generated_date": "2026-07-13"
+    },
+    {
+      "id": 117,
+      "title": "Korean Temple Food Guide 2026: Is It Vegan, What Monks Avoid, and Where to Try It",
+      "keywords": [
+        "Korean temple food",
+        "is Korean temple food vegan",
+        "oshinchae Korean temple food",
+        "temple food Seoul"
+      ],
+      "category": "Food",
+      "tags": [
+        "KoreanTempleFood",
+        "TempleCuisine",
+        "KoreanFood",
+        "VeganKorea",
+        "KoreanBuddhism"
+      ],
+      "amazon_category": "Food",
+      "status": "done",
+      "generated_slug": "295",
+      "generated_date": "2026-07-13"
+    },
+    {
+      "id": 118,
+      "title": "Seoul Hanok Experience Guide 2026: Bukchon, Seochon, Crafts, Tea, and Summer Nights",
+      "keywords": [
+        "Seoul hanok experience",
+        "Bukchon hanok programs 2026",
+        "Seochon public hanok",
+        "Seoul hanok activities"
+      ],
+      "category": "Travel",
+      "tags": [
+        "SeoulHanok",
+        "Bukchon",
+        "Seochon",
+        "KoreanArchitecture",
+        "SeoulTravel"
+      ],
+      "amazon_category": "Travel",
+      "status": "done",
+      "generated_slug": "296",
+      "generated_date": "2026-07-13"
+    },
+    {
+      "id": 119,
+      "title": "Korean Traditional Desserts Guide 2026: Tteok, Yakgwa, Hangwa, Sikhye, and Sujeonggwa",
+      "keywords": [
+        "Korean traditional desserts",
+        "Korean tteok and yakgwa",
+        "Korean hangwa",
+        "sikhye and sujeonggwa"
+      ],
+      "category": "Food",
+      "tags": [
+        "KoreanDesserts",
+        "Tteok",
+        "Yakgwa",
+        "Hangwa",
+        "KoreanFood"
+      ],
+      "amazon_category": "Food",
+      "status": "done",
+      "generated_slug": "297",
+      "generated_date": "2026-07-13"
     }
   ],
-  "last_updated": "2026-07-12",
-  "next_slug": 294
+  "last_updated": "2026-07-13",
+  "next_slug": 298
 }
