@@ -1,27 +1,27 @@
 # Instagram Caption
 
-Post: Why Korean Baseball Feels Like a Three-Hour Concert  
-Asset folder: `public/assets/cardnews/2026-07-11_081`  
+Post: Why Korean Baseball Feels Like a Three-Hour Concert
+Asset folder: `public/assets/cardnews/2026-07-11_081`
 Carousel: 7 cards
 
 ## Primary Caption
 
-Korean baseball does not wait quietly for the next big play.
+Korean baseball does not wait for a home run to get loud. ⚾
 
-Every batter has a song. The cheering section moves together. Cheerleaders keep the rhythm alive, and dinner comes straight to your seat.
+In the KBO, every batter gets a song, the cheering section moves together, and strangers learn the same rhythm before they learn every rule.
 
-You do not need to know every KBO rule to enjoy it. Learn one player name, copy the crowd, and let the stadium teach you the rest.
+For your first game, choose the cheering side if you want the full concert atmosphere. Arrive early, order stadium food, copy the hand moves, and let the crowd teach you the rest.
 
-Save this for your first Korean baseball night.
+Save this for your first Korean baseball night—and send it to the friend who would sing through all nine innings.
 
 Full guide: epickor.com/blog/081
 
-#KBO #KoreanBaseball #KoreaTravel #SeoulTravel #BaseballCulture #KoreaTips #EpicKor
+#KBO #KoreanBaseball #BaseballInKorea #SeoulTravel #KoreaTravel #KoreanCulture #EpicKor
 
 ## Short Caption
 
-Korean baseball feels less like a quiet game and more like a three-hour concert. Save this before your first KBO night. Full guide: epickor.com/blog/081
+Every batter gets a song, and the crowd never waits for a big play to get loud. Save this before your first KBO night. Full guide: epickor.com/blog/081
 
 ## Posting Note
 
-Strongest grid hook: Card 01. Pair with crowd audio or a familiar KBO cheer rhythm if used in a Reel teaser.
+Use Card 01 as the grid cover. The strongest comment prompt is: `Would you choose the loud cheering section or a quieter seat?`

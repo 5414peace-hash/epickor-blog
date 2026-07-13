@@ -1,18 +1,18 @@
 # Instagram Caption
 
-Post: Seoul Four-Palace Night Comparison  
-Asset folder: `public/assets/cardnews/2026-07-11_290`  
+Post: Seoul Four-Palace Night Comparison
+Asset folder: `public/assets/cardnews/2026-07-11_290`
 Carousel: 7 cards
 
 ## Primary Caption
 
-If you can visit only one Seoul palace at night, choose by experience—not by the prettiest old photo.
+One Seoul night. Four very different palace experiences. ✨
 
-Gyeongbokgung is the grand seasonal photo. Changdeokgung is the curated Moonlight Tour. Deoksugung is the easiest central evening. Changgyeonggung is the quieter garden walk.
+Choose Gyeongbokgung for grand seasonal photos, Changdeokgung for a curated Moonlight Tour, Deoksugung for the easiest central evening, or Changgyeonggung for a calmer garden walk.
 
-The key rule: Deoksugung and Changgyeonggung have regular evening grounds, while Gyeongbokgung and Changdeokgung night experiences depend on separately announced programs.
+The important rule: a beautiful night photo is not proof that the palace is open tonight. Special programs and seasonal openings change, so check the official schedule before dressing up and heading to the gate.
 
-Save this before planning your Seoul night.
+Save this comparison for your Seoul itinerary—and send it to the person choosing the palace with you.
 
 Full guide: epickor.com/blog/290
 
@@ -20,8 +20,8 @@ Full guide: epickor.com/blog/290
 
 ## Short Caption
 
-One Seoul night, four palace moods. Pick the experience first—and verify the official opening date. Full guide: epickor.com/blog/290
+One Seoul night, four palace moods. Choose the experience first, then verify the official opening. Full guide: epickor.com/blog/290
 
 ## Posting Note
 
-High-save comparison carousel. Card 06 is the fastest decision shortcut.
+Use Card 01 as the grid cover. Card 06 is the fastest decision shortcut for saves and shares.

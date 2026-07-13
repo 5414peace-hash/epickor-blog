@@ -1,17 +1,27 @@
-# Instagram Caption - Card News 036
+# Instagram Caption
 
-## Primary
+Post: The Umbrella Protocol: Why Koreans Refuse to Get Wet
+Asset folder: `public/assets/cardnews/2026-07-12_036`
+Carousel: 7 cards
 
-One drop in Seoul and the umbrellas appear fast. ☔
+## Primary Caption
 
-It is not only fear of getting wet. Korea's summer rain can change quickly, commutes involve long walks between stations and streets, and old pollution beliefs still shape the reflex.
+One drop in Seoul, and the umbrellas appear. ☔
 
-Save this before a rainy Korea trip—and keep one compact umbrella in your day bag.
+It is not only about avoiding wet hair. Summer rain can intensify quickly, and a normal commute may include exposed walks between subway exits, bus stops, markets, and cafes. Add long memories of fine dust and pollution worries, and carrying a compact umbrella starts to feel like basic city equipment.
 
-Full guide: EPICKOR.COM
+The hair-loss story is a familiar cultural myth—not a reason to panic. The practical lesson is simpler: check the forecast, pack small, and keep moving.
 
-#KoreaTravel #SeoulRain #KoreanCulture #SeoulTips #EpicKor
+Save this before a rainy Korea trip.
 
-## Short
+Full guide: epickor.com/blog/036
 
-Why does every umbrella open at the first drop in Seoul? Save the local rain logic before your Korea trip. Full guide on EPICKOR.COM.
+#SeoulRain #KoreaRainySeason #Jangma #KoreaTravel #SeoulTips #KoreanCulture #EpicKor
+
+## Short Caption
+
+Why do umbrellas open at the first drop in Seoul? Fast-changing rain, long commutes, and one very practical local habit. Full guide: epickor.com/blog/036
+
+## Posting Note
+
+Use Card 01 as the grid cover. Pair the post with a rainy-day Story reminder or packing poll.
