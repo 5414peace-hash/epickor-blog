@@ -1,7 +1,7 @@
 # Image sources for Blog 294
 
-- `korean-table-setting-pexels-32196400.jpg` — Theodore Nguyen / Pexels, https://www.pexels.com/photo/32196400/
-- `gimbap-metal-chopsticks-pexels-32196407.jpg` — Theodore Nguyen / Pexels, https://www.pexels.com/photo/32196407/
-- `korean-ramen-metal-chopsticks-pexels-32196404.jpg` — Theodore Nguyen / Pexels, https://www.pexels.com/photo/32196404/
+- `sujeo-set-national-institute-korean-language-wikimedia.webp` — National Institute of Korean Language via Wikimedia Commons, CC BY-SA 2.0 KR; converted from the source JPEG to WebP for web delivery: https://commons.wikimedia.org/wiki/File:Sujeo_(spoon_and_chopsticks).jpg
+- `korean-metal-chopsticks-minseong-kim-wikimedia.webp` — Minseong Kim via Wikimedia Commons, CC BY-SA 4.0; converted from the source PNG to WebP for web delivery: https://commons.wikimedia.org/wiki/File:Korean_Metal_Chopsticks.png
+- `korean-chopsticks-public-domain-wikimedia.webp` — Public-domain image via Wikimedia Commons; converted from the source JPEG to WebP for web delivery: https://commons.wikimedia.org/wiki/File:Korean_chopsticks.jpg
 
-Downloaded 2026-07-13. Each rendered image was manually checked for Korean table context and utensil relevance.
+Downloaded 2026-07-13. All three final images were opened and checked for direct focus on Korean metal chopsticks or the complete sujeo set; food-centered alternatives were removed after representative review.

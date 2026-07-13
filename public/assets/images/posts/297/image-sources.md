@@ -1,7 +1,11 @@
 # Image sources for Blog 297
 
-- `korean-sweets-pexels-10422389.jpg` — Junseop Yoon / Pexels, https://www.pexels.com/photo/10422389/
-- `korean-dasik-pexels-10422406.jpg` — Junseop Yoon / Pexels, https://www.pexels.com/photo/10422406/
-- `seoul-traditional-cafe-pexels-4847619.jpg` — Markus Winkler / Pexels, https://www.pexels.com/photo/4847619/
+Official dessert feature: Korea Tourism Organization / VISITKOREA, https://english.visitkorea.or.kr/svc/contents/contentsView.do?menuSn=219&vcontsId=1574161
 
-Downloaded 2026-07-13. A misleading search result showing Western-style iced cookies was rejected during manual image review and is not used by the article.
+- `kto-traditional-dessert-spread.jpg` — Traditional Korean dessert spread, image URL: https://tong.visitkorea.or.kr/cms/resource/50/4025050_image2_1.jpg
+- `kto-assorted-tteok.jpg` — Assorted Korean rice cakes, image URL: https://tong.visitkorea.or.kr/cms/resource/51/4025051_image2_1.jpg
+- `kto-injeolmi.jpg` — Injeolmi with roasted soybean powder, image URL: https://tong.visitkorea.or.kr/cms/resource/49/4025049_image2_1.jpg
+- `kto-yakgwa.jpg` — Flower-shaped yakgwa, image URL: https://tong.visitkorea.or.kr/cms/resource_photo/43/3106643_image2_1.jpg
+- `koreanet-sikhye.jpg` — Sikhye with floating rice grains, Korea.net article: https://www.korea.net/NewsFocus/Culture/view?articleId=142943; image URL: https://www.korea.net/upload/content/editImage/Sikhye_end_L1.jpg
+
+Downloaded 2026-07-13. Every final image was decoded and opened manually. Generic cafe and mixed-dessert photos were replaced with item-level matches beside the tteok, injeolmi, yakgwa, and sikhye sections.
