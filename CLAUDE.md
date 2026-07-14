@@ -76,6 +76,17 @@
 - All Amazon links must open in a new tab and render with `rel="nofollow sponsored noopener noreferrer"`. Other external links must also open in a new tab with `rel="noopener noreferrer"`.
 - Preserve editorial trust: the article should still feel like a useful Korea guide first, not an ad page.
 
+## Agoda Affiliate Placement Rules
+
+- Use Agoda by default only when a travel post has natural accommodation or booking intent, such as where-to-stay decisions, city or neighborhood comparisons, overnight airport/layover planning, hotel-access logistics, or itineraries that require choosing a base. Do not force Agoda into entry-document, transit-only, or general culture posts where accommodation is not part of the reader's decision.
+- Keep the normal ceiling of two visible affiliate CTA boxes per article. On an Agoda-ready travel post, replace the weaker Amazon CTA with one Agoda CTA instead of adding a third box. Retain the other Amazon CTA only when trip gear or another product remains genuinely useful.
+- Start with undated city, area, or airport-area deep links under the approved EpicKor Agoda CID. Do not hard-code check-in/check-out dates. All Agoda links must open in a new tab and use `rel="nofollow sponsored noopener noreferrer"`.
+- The first Agoda CTA or nearby copy must clearly disclose that EpicKor may earn a commission from qualifying bookings at no extra cost to the reader.
+- Track Agoda clicks separately with `affiliate_agoda_click`, including the content slug/type, CTA context, CID, and destination identifier when available.
+- Expand in stages only when click data supports it: city comparison -> neighborhood or use-case accommodation guide -> carefully selected property comparisons. Review pilot click data for at least 2-4 weeks before broad rollout.
+- Do not call a hotel article a firsthand review unless EpicKor or the approved bylined reviewer actually stayed there. Without a real stay, label it as a comparison, shortlist, booking guide, or verified property overview based on current official/public information.
+- Before linking a specific property, verify location, airport/station access, current official property information, and variable booking terms. Tell readers to confirm dates, taxes, cancellation conditions, room type, and final price on Agoda rather than presenting a cached price as permanent.
+
 ## Card News Brand Rules
 
 - Do not jump to downstream production before the current content stage is actually complete. For a new blog post, "draft written", "review passed", or "build passed" does not mean published. Before starting related Reels or card news, explicitly confirm the blog's final review, publish/deploy status, and public URL verification, unless the representative directly asks to skip ahead.

@@ -39,6 +39,13 @@ function isAmazonAffiliateUrl(url: URL): boolean {
   return url.searchParams.has('tag');
 }
 
+function isAgodaAffiliateUrl(url: URL): boolean {
+  const host = url.hostname.toLowerCase();
+  const isAgodaHost = host === 'agoda.com' || host.endsWith('.agoda.com');
+
+  return isAgodaHost && url.searchParams.has('cid');
+}
+
 function getContentContext(pathname: string): Pick<AmazonAffiliateEventParams, 'content_type' | 'content_slug'> {
   const [, contentType, contentSlug] = pathname.match(/^\/(blog|business)\/([^/?#]+)/) || [];
 
@@ -60,12 +67,25 @@ interface AmazonAffiliateEventParams {
   page_path: string;
 }
 
+interface AgodaAffiliateEventParams {
+  affiliate_cid: string;
+  affiliate_domain: string;
+  content_slug: string;
+  content_type: string;
+  cta_context: string;
+  destination_id: string;
+  destination_type: string;
+  link_path: string;
+  link_text: string;
+  page_path: string;
+}
+
 function buildAmazonAffiliateParams(link: HTMLAnchorElement): AmazonAffiliateEventParams | null {
   let url: URL;
 
   try {
     url = new URL(link.href, window.location.origin);
-  } catch (_error) {
+  } catch {
     return null;
   }
 
@@ -85,6 +105,35 @@ function buildAmazonAffiliateParams(link: HTMLAnchorElement): AmazonAffiliateEve
     cta_context: ctaContext,
     link_path: cleanParam(`${url.hostname}${url.pathname}`),
     link_query: cleanParam(query),
+    link_text: cleanParam(link.innerText || link.textContent || ''),
+    page_path: pathname,
+  };
+}
+
+function buildAgodaAffiliateParams(link: HTMLAnchorElement): AgodaAffiliateEventParams | null {
+  let url: URL;
+
+  try {
+    url = new URL(link.href, window.location.origin);
+  } catch {
+    return null;
+  }
+
+  if (!isAgodaAffiliateUrl(url)) return null;
+
+  const pathname = window.location.pathname;
+  const contentContext = getContentContext(pathname);
+  const cityId = url.searchParams.get('city') || '';
+
+  return {
+    affiliate_cid: cleanParam(url.searchParams.get('cid') || ''),
+    affiliate_domain: url.hostname,
+    content_slug: contentContext.content_slug,
+    content_type: contentContext.content_type,
+    cta_context: link.closest('.affiliate-inline-cta') ? 'affiliate_inline_cta' : 'inline_link',
+    destination_id: cleanParam(cityId),
+    destination_type: cityId ? 'city' : 'other',
+    link_path: cleanParam(`${url.hostname}${url.pathname}`),
     link_text: cleanParam(link.innerText || link.textContent || ''),
     page_path: pathname,
   };
@@ -121,9 +170,14 @@ export default function AnalyticsEvents() {
       }
 
       if (affiliateLink) {
-        const affiliateParams = buildAmazonAffiliateParams(affiliateLink);
-        if (affiliateParams) {
-          window.gtag('event', 'affiliate_amazon_click', affiliateParams);
+        const amazonAffiliateParams = buildAmazonAffiliateParams(affiliateLink);
+        if (amazonAffiliateParams) {
+          window.gtag('event', 'affiliate_amazon_click', amazonAffiliateParams);
+        }
+
+        const agodaAffiliateParams = buildAgodaAffiliateParams(affiliateLink);
+        if (agodaAffiliateParams) {
+          window.gtag('event', 'affiliate_agoda_click', agodaAffiliateParams);
         }
       }
     };
