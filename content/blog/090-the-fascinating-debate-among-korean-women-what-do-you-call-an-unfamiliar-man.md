@@ -189,6 +189,8 @@ That is why a simple word can create so much comedy, discomfort, and debate. In 
 
 So next time you hear ahjussi in a K-drama, do not just read the subtitle. Watch the face of the man being called that. The reaction will tell you everything.
 
+For the female counterpart, EpicKor's [ajumma meaning guide](/blog/301) explains why *ajumma*, *ajumeoni*, and *imo* carry different levels of familiarity and why *jeogiyo* is usually safer for travelers.
+
 ---
 
 ## Video Insight: Oppa or Ahjusshi?

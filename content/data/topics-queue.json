@@ -2656,8 +2656,54 @@
       "status": "done",
       "generated_slug": "300",
       "generated_date": "2026-07-14"
+    },
+    {
+      "id": 123,
+      "title": "Ajumma Meaning: Is It Rude? Ahjumma, Ajumeoni, and Imo Explained",
+      "keywords": [
+        "ajumma meaning",
+        "ahjumma meaning",
+        "is ajumma rude",
+        "ajumma vs ajumeoni",
+        "imo meaning Korean"
+      ],
+      "category": "Culture",
+      "tags": [
+        "AjummaMeaning",
+        "KoreanLanguage",
+        "KoreanCulture",
+        "KoreaTravel",
+        "KoreanEtiquette"
+      ],
+      "amazon_category": "Books",
+      "status": "done",
+      "generated_slug": "301",
+      "generated_date": "2026-07-15"
+    },
+    {
+      "id": 124,
+      "title": "What Do Koreans Eat for Breakfast? 12 Real Korean Morning Meals",
+      "keywords": [
+        "Korean breakfast",
+        "what do Koreans eat for breakfast",
+        "Korean breakfast foods",
+        "Korean street toast",
+        "breakfast in Seoul"
+      ],
+      "category": "Food",
+      "tags": [
+        "KoreanBreakfast",
+        "KoreanFood",
+        "SeoulFood",
+        "KoreaTravel",
+        "KoreanStreetToast"
+      ],
+      "amazon_category": "Food",
+      "status": "done",
+      "generated_slug": "302",
+      "generated_date": "2026-07-15"
     }
   ],
-  "last_updated": "2026-07-14",
-  "next_slug": 301
+  "last_updated": "2026-07-15",
+  "next_slug": 303
 }
