@@ -82,3 +82,10 @@
 - Update the existing sections instead of stacking transcripts.
 - Correct this dashboard whenever newer git/file evidence conflicts with it.
 - Session close also requires updating `D:\dev\HANDOFF.md` with the COO summary.
+
+## Completion Note - 2026-07-17 Blogs 303-305 + APR
+
+- Blogs `303`-`305` and Business B-2 `apr-medicube-global-beauty-tech-deep-dive` are published and publicly verified. Commit `56d36927` is on `origin/master`; Vercel deployment `dpl_8NsReFHG6pNbB5BTk234RYcgUKxm` is Ready and aliased to `www.epickor.com`.
+- Automated review is 100/100 for all four. They contain 18 used article visuals, 9 HTML tables, 8 disclosed affiliate CTAs, and 24 FAQs. Official/cultural/company source records are stored with each image package.
+- Public QA passed four pages, 18/18 used assets, four sitemap entries, and six reverse links. Exact 390px DevTools QA confirmed document width 390 with all article images decoded, correct table/CTA counts, clean title wrapping, and only intended table-local overflow.
+- Detailed review: `reports/blogs-303-305-apr-review-2026-07-17.md`. Next general slug is `306`; next business topic ID is `14`. Do not start related Reels or card news unless the representative selects them under the current batch rules.
