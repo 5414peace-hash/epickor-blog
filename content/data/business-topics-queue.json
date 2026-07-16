@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-07-11",
+  "last_updated": "2026-07-17",
   "approval_required": true,
-  "next_id": 13,
+  "next_id": 14,
   "allowed_statuses": ["candidate", "approved", "rejected", "blocked"],
   "rules": {
     "candidate": "Topic can be proposed in a weekly list, but must not be drafted.",
@@ -236,6 +236,25 @@
       "approved_at": "2026-07-09",
       "published_slug": "musinsa-company-deep-dive",
       "published_path": "/business/musinsa-company-deep-dive"
+    },
+    {
+      "id": 13,
+      "status": "approved",
+      "priority": "high",
+      "business_type": "non-client-spotlight",
+      "topic": "APR Corporation Deep Dive 2026: How Medicube Built a Global Beauty-Tech Flywheel",
+      "slug_hint": "apr-medicube-global-beauty-tech-deep-dive",
+      "keywords": ["APR Corporation", "Medicube company", "Korean beauty tech", "AGE-R devices", "K-beauty business"],
+      "audience": "Beauty operators, overseas buyers, retailers, Korea-market researchers, and readers studying Korean D2C companies",
+      "angle": "Public-information-only company deep dive explaining APR's skincare-and-device flywheel, global sales, selective manufacturing integration, buyer checks, and execution risks.",
+      "source_candidates": ["APR official corporate website", "APR 2025 IR presentation", "APR 2025 Sustainability Report", "APR product-safety pages"],
+      "duplicate_note": "New B-2 company spotlight. Existing Blog 269 is a consumer buying guide and does not analyze APR's operating model.",
+      "amazon_hint": "D2C strategy books, beauty-industry books, quality-management books, market-entry books",
+      "risk": "medium-high",
+      "representative_decision": "approved",
+      "approved_at": "2026-07-17",
+      "published_slug": "apr-medicube-global-beauty-tech-deep-dive",
+      "published_path": "/business/apr-medicube-global-beauty-tech-deep-dive"
     }
   ]
 }

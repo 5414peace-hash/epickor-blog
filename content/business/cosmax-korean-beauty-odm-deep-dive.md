@@ -205,6 +205,8 @@ COSMAX is valuable to EpicKor's business readers because it turns the abstract p
 
 The company also shows how a Korean industrial business can become internationally relevant without becoming a household consumer brand. COSMAX's customers put their own names on products. The manufacturer's influence is real, but often invisible to the final shopper. That makes it a strong example of a Korean company building global reach through embedded B2B capability.
 
+The complementary brand-owner case is APR: EpicKor's [APR and Medicube beauty-tech deep dive](/business/apr-medicube-global-beauty-tech-deep-dive) shows how a consumer company can combine ODM-supplied cosmetics with more tightly controlled device manufacturing, D2C data, and global channels.
+
 For overseas founders, the lesson is to evaluate the whole development system, not just the formula sample. For buyers, the lesson is to verify entity, site, scope, and evidence. For Korea-market researchers, the lesson is that the manufacturing layer deserves as much attention as the viral brand layer.
 
 ## FAQ

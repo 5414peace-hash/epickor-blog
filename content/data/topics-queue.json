@@ -2702,8 +2702,41 @@
       "status": "done",
       "generated_slug": "302",
       "generated_date": "2026-07-15"
+    },
+    {
+      "id": 125,
+      "title": "Korean Skincare Routine Order 2026: Toner, Essence, Ampoule, Mask, and SPF",
+      "keywords": ["Korean skincare routine order", "toner essence ampoule order", "Korean skincare steps", "when to use sheet mask"],
+      "category": "Beauty",
+      "tags": ["KoreanSkincare", "KBeauty", "SkincareRoutine", "Toner", "Sunscreen"],
+      "amazon_category": "Beauty",
+      "status": "done",
+      "generated_slug": "303",
+      "generated_date": "2026-07-17"
+    },
+    {
+      "id": 126,
+      "title": "Jeonju Day Trip from Seoul 2026: Hanok Village, Bibimbap, Nambu Market, and KTX",
+      "keywords": ["Jeonju day trip from Seoul", "Jeonju Hanok Village", "Seoul to Jeonju KTX", "Jeonju bibimbap"],
+      "category": "Travel",
+      "tags": ["Jeonju", "KoreaTravel", "HanokVillage", "KTX", "Bibimbap"],
+      "amazon_category": "Travel",
+      "status": "done",
+      "generated_slug": "304",
+      "generated_date": "2026-07-17"
+    },
+    {
+      "id": 127,
+      "title": "Bojagi Wrapping Guide 2026: Korean Fabric Gift Wrap, Knots, and What to Buy",
+      "keywords": ["bojagi wrapping", "Korean fabric gift wrap", "bojagi knot", "Korean wrapping cloth"],
+      "category": "Culture",
+      "tags": ["Bojagi", "KoreanCraft", "KoreanGift", "KoreanTextile", "KoreanCulture"],
+      "amazon_category": "Gifts",
+      "status": "done",
+      "generated_slug": "305",
+      "generated_date": "2026-07-17"
     }
   ],
-  "last_updated": "2026-07-15",
-  "next_slug": 303
+  "last_updated": "2026-07-17",
+  "next_slug": 306
 }

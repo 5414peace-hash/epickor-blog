@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Four-step bojagi gift wrapping method</title>
+  <desc id="desc">An EpicKor diagram showing a box centered diagonally on square cloth, opposite corners crossed, the remaining corners raised, and a balanced final knot.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fff9f4"/><stop offset="1" stop-color="#f5eee7"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#4a2f25" flood-opacity=".15"/></filter>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <text x="90" y="105" font-family="Arial, sans-serif" font-size="52" font-weight="700" fill="#241d19">A simple bojagi wrap</text>
+  <text x="90" y="155" font-family="Arial, sans-serif" font-size="25" fill="#6b5b52">Use a square cloth. Keep the knot secure, balanced, and easy to untie.</text>
+  <g font-family="Arial, sans-serif">
+    <g transform="translate(80 220)">
+      <rect width="330" height="520" rx="28" fill="#ffffff" filter="url(#shadow)"/>
+      <circle cx="45" cy="47" r="24" fill="#bc4158"/><text x="45" y="56" text-anchor="middle" font-size="24" font-weight="700" fill="#fff">1</text>
+      <text x="80" y="56" font-size="26" font-weight="700" fill="#241d19">Center</text>
+      <path d="M70 155 L165 80 L260 155 L165 230 Z" fill="#e78c9c" opacity=".88"/>
+      <rect x="120" y="125" width="90" height="70" rx="8" fill="#f8d68e" stroke="#6d4a25" stroke-width="5"/>
+      <text x="40" y="310" font-size="23" fill="#554840">Place the gift in the</text><text x="40" y="342" font-size="23" fill="#554840">middle of the cloth.</text>
+      <text x="40" y="405" font-size="20" fill="#7a6a60">Turn a rectangular box</text><text x="40" y="433" font-size="20" fill="#7a6a60">slightly diagonal if that</text><text x="40" y="461" font-size="20" fill="#7a6a60">gives the corners reach.</text>
+    </g>
+    <g transform="translate(450 220)">
+      <rect width="330" height="520" rx="28" fill="#ffffff" filter="url(#shadow)"/>
+      <circle cx="45" cy="47" r="24" fill="#bc4158"/><text x="45" y="56" text-anchor="middle" font-size="24" font-weight="700" fill="#fff">2</text>
+      <text x="80" y="56" font-size="26" font-weight="700" fill="#241d19">Cross</text>
+      <path d="M70 155 L165 80 L260 155 L165 230 Z" fill="#e78c9c" opacity=".35"/>
+      <path d="M70 155 Q165 110 260 155 Q165 205 70 155 Z" fill="#cf6077"/>
+      <rect x="120" y="125" width="90" height="70" rx="8" fill="#f8d68e" stroke="#6d4a25" stroke-width="5"/>
+      <text x="40" y="310" font-size="23" fill="#554840">Bring opposite corners</text><text x="40" y="342" font-size="23" fill="#554840">across the gift first.</text>
+      <text x="40" y="405" font-size="20" fill="#7a6a60">Smooth the fabric instead</text><text x="40" y="433" font-size="20" fill="#7a6a60">of twisting it into a tight</text><text x="40" y="461" font-size="20" fill="#7a6a60">rope around the box.</text>
+    </g>
+    <g transform="translate(820 220)">
+      <rect width="330" height="520" rx="28" fill="#ffffff" filter="url(#shadow)"/>
+      <circle cx="45" cy="47" r="24" fill="#bc4158"/><text x="45" y="56" text-anchor="middle" font-size="24" font-weight="700" fill="#fff">3</text>
+      <text x="80" y="56" font-size="26" font-weight="700" fill="#241d19">Gather</text>
+      <rect x="120" y="140" width="90" height="65" rx="8" fill="#f8d68e" stroke="#6d4a25" stroke-width="5"/>
+      <path d="M100 190 Q145 130 150 82 Q170 135 165 190" fill="#e78c9c" stroke="#bc4158" stroke-width="4"/>
+      <path d="M165 190 Q190 135 230 92 Q215 155 215 200" fill="#cf6077" stroke="#a43750" stroke-width="4"/>
+      <text x="40" y="310" font-size="23" fill="#554840">Lift the remaining two</text><text x="40" y="342" font-size="23" fill="#554840">corners to equal height.</text>
+      <text x="40" y="405" font-size="20" fill="#7a6a60">Adjust the box before the</text><text x="40" y="433" font-size="20" fill="#7a6a60">final knot. The cloth should</text><text x="40" y="461" font-size="20" fill="#7a6a60">feel firm, not strained.</text>
+    </g>
+    <g transform="translate(1190 220)">
+      <rect width="330" height="520" rx="28" fill="#ffffff" filter="url(#shadow)"/>
+      <circle cx="45" cy="47" r="24" fill="#bc4158"/><text x="45" y="56" text-anchor="middle" font-size="24" font-weight="700" fill="#fff">4</text>
+      <text x="80" y="56" font-size="26" font-weight="700" fill="#241d19">Tie</text>
+      <rect x="120" y="150" width="90" height="65" rx="8" fill="#f8d68e" stroke="#6d4a25" stroke-width="5"/>
+      <path d="M165 160 C105 140 95 86 145 92 C175 95 175 125 165 160" fill="#e78c9c" stroke="#bc4158" stroke-width="4"/>
+      <path d="M165 160 C225 140 238 88 188 94 C158 97 155 128 165 160" fill="#cf6077" stroke="#a43750" stroke-width="4"/>
+      <circle cx="165" cy="156" r="16" fill="#a43750"/>
+      <text x="40" y="310" font-size="23" fill="#554840">Tie one secure square</text><text x="40" y="342" font-size="23" fill="#554840">knot and shape the ends.</text>
+      <text x="40" y="405" font-size="20" fill="#7a6a60">A flower-like finish is an</text><text x="40" y="433" font-size="20" fill="#7a6a60">option. The package should</text><text x="40" y="461" font-size="20" fill="#7a6a60">still open without damage.</text>
+    </g>
+  </g>
+  <text x="90" y="825" font-family="Arial, sans-serif" font-size="22" fill="#6b5b52">EPICKOR.COM • Diagram for a basic box wrap; cloth size, fabric, and knot choice change with the object.</text>
+</svg>
