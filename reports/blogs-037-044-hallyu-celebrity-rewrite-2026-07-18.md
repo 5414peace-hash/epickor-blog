@@ -4,6 +4,14 @@
 
 This batch continued the legacy content-debt cleanup after the `002/006/023/024/025` deployment. The SEO/AEO audit queue identified Blogs `037`, `042`, and `044` as the next worst high-priority posts: all had roughly 380-403 words, no internal links, no FAQ section, stale dates, and no reliable source framing.
 
+Implementation commit: `982f5402` (`Rewrite Hallyu celebrity legacy posts`).
+
+Production deployment: `dpl_Gmgb6QRyHEStkNTPKgFnmPRfcq83`, Ready and aliased to:
+
+- `https://www.epickor.com`
+- `https://epickor.com`
+- `https://epickor-blog.vercel.app`
+
 ## Rewritten Posts
 
 | Slug | New title | Review count | Main upgrade |
@@ -51,6 +59,10 @@ Added contextual links into the new/rebuilt celebrity cluster from:
 | `npm.cmd run audit:amazon-links` | Pass; 604 tagged amazon.com URLs, 284 amzn.to URLs |
 | `npm.cmd run build` | Pass; 359 static pages generated |
 | Built HTML/RSC spot check | New titles, SVG image path, and reverse links found in build output |
+| Vercel production inspect | `dpl_Gmgb6QRyHEStkNTPKgFnmPRfcq83` Ready, production target, `www.epickor.com` alias attached |
+| Public QA | `/blog/037`, `/blog/042`, `/blog/044` HTTP 200 with expected title/table/CTA markers |
+| Public sitemap QA | `/sitemap.xml` HTTP 200 and contains `/blog/037`, `/blog/042`, `/blog/044` |
+| Public reverse-link QA | `/blog/002`, `/025`, `/051`, `/291` HTTP 200 and contain expected links into `037/042/044` |
 
 ## Audit Delta
 
