@@ -12,7 +12,9 @@ tags: ["Culture", "Shopping", "Travel", "Sociology"]
 
 ## Introduction: The Invisible Infrastructure
 
-Welcome to South Korea?遊?land of hyper-modernity and deep-seated Confucian roots. For the first-time visitor, the visual landscape of Seoul is intuitive, but the social landscape is governed by an invisible infrastructure of codes and expectations. To navigate this country with grace, one must look beyond the palaces and shopping malls. This deep dive analyzes five essential tips that define the traveler???experience, explaining the "Why" behind the "What" of Korean social norms.
+For the current practical layer—2026 entry forms, airport transfers, transit cards, navigation, payments, and emergency help—use EpicKor's updated [first trip to Korea guide](/blog/026).
+
+Welcome to South Korea—a land of hyper-modernity and deep-seated Confucian roots. For the first-time visitor, the visual landscape of Seoul is intuitive, but the social landscape is governed by an invisible infrastructure of codes and expectations. To navigate this country with grace, one must look beyond the palaces and shopping malls. This deep dive analyzes five essential tips that define the traveler's experience, explaining the "why" behind the "what" of Korean social norms.
 
 ---
 

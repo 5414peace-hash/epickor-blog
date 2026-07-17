@@ -167,7 +167,7 @@ Of course, there is a risk. If Wonyoungism becomes only another pressure to look
 
 That is a much better lesson.
 
-For related K-pop culture context, you may also like EpicKor's guide to [K-pop global influence and BTS](/blog/010).
+For related K-pop culture context, you may also like EpicKor's guide to [K-pop global influence and BTS](/blog/010). To compare Wonyoung's individual brand with the wider entertainment market, see the [2026 Forbes Korea Power Celebrity ranking guide](/blog/051).
 
 ---
 

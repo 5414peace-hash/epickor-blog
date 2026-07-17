@@ -16,6 +16,8 @@ tags: ["Culture", "Man", "Sports", "Travel", "Woman"]
 
 In the United States, baseball is often seen as a contemplative, "pastoral" game of statistics and silence. In South Korea, baseball is a three-hour, high-octane sensory overload. From the moment the first pitch is thrown to the final out, the stadium is a sea of synchronized chants, professional-grade choreography, and an endless supply of high-end food. This deep dive analyzes the unique "Culture of Heung" that has turned the Korea Baseball Organization (KBO) into a national obsession and why a baseball game in Seoul or Busan is the ultimate litmus test for understanding the Korean collective spirit.
 
+Baseball explains Korea's loud, commercial team-sport culture. For the opposite performance environment—quiet repetition, individual routines, and selection pressure—see EpicKor's updated guide to [why South Korea dominates Olympic archery](/blog/075).
+
 ---
 
 ## 1. The Synchronized Soul: Cheering Culture as Social Synchronization
