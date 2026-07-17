@@ -103,6 +103,15 @@ Verification completed before publication:
 - All 13 category-tagged direct links render with `target="_blank"` and `rel="nofollow sponsored noopener noreferrer"`.
 - The production bundle still contains `affiliate_amazon_click` instrumentation.
 
+Production publication and public QA:
+
+- Implementation commit `70ae589a` was pushed to `origin/master`.
+- Vercel production deployment `dpl_3PAyahXSkE5XkUa4QPQTrxKRZqtM` reached Ready and is aliased to `epickor.com` and `www.epickor.com`.
+- Public Blogs `006`, `071`, `082`, `090`, `136`, `153`, `160`, `171`, and `223` all returned HTTP 200.
+- The public HTML contains exactly 13 category-tagged Amazon anchor elements: Food 4, Beauty 2, Travel 2, Books 2, and Gear 3.
+- All 13 public anchors contain `target="_blank"` and `rel="nofollow sponsored noopener noreferrer"`.
+- The deployed layout bundle `/_next/static/chunks/app/layout-31703514b828cf1d.js` contains `affiliate_amazon_click`.
+
 ## Chrome Capability Boundary
 
 With the logged-in Chrome session, Codex inspected Associates reports, validated links, created the five approved Tracking IDs, and confirmed the account state. The same surface can be used later for SiteStripe product links and report review.
