@@ -40,10 +40,17 @@
 
 ## Deployment QA Plan
 
-After push and Git-connected Vercel deployment:
+Git-connected production deployment:
 
-- Verify public HTTP 200 and expected title markers for `/blog/046`, `/blog/047`, and `/blog/050`.
-- Verify each public page contains `.affiliate-inline-cta`, `<table>`, and FAQ markers.
-- Verify sitemap contains `/blog/046`, `/blog/047`, and `/blog/050`.
-- Verify reverse/source links from `/blog/169`, `/blog/209`, `/blog/266`, and `/blog/302`.
-- Spot-check that no public page still links "Seoul subway guide" to `/blog/165`.
+- Commit: `04fa2d83` (`Rewrite food and Yongsan legacy posts`)
+- Deployment: `dpl_146wawjQ9kd8LMxzM6L7B5n3cTa2`
+- Production alias: `www.epickor.com`
+- Status: Ready
+
+Public QA results:
+
+- `/blog/046`, `/blog/047`, `/blog/050` returned HTTP 200 and expected title markers.
+- Each rewritten public page contains `.affiliate-inline-cta`, `<table>`, and FAQ markers.
+- `sitemap.xml` contains `/blog/046`, `/blog/047`, and `/blog/050`.
+- Reverse/source links from `/blog/169`, `/blog/209`, `/blog/266`, and `/blog/302` are present publicly.
+- Corrected source pages `055/159/166/167/168/169/180/188/189/201/230/231/233` no longer contain `/blog/165` in public HTML.
