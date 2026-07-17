@@ -86,7 +86,7 @@ The sixteen highest-priority weak posts selected for this batch were rebuilt as 
 ## Deployment And Public QA
 
 - Implementation commit `df0c8b7d` (`Rewrite sixteen high-priority legacy posts`) is on `origin/master`.
-- Vercel deployment `dpl_FdNeQwhBdGst5DLrmbmL8oYXReUj` (`epickor-blog-34ikeuytc`) is Ready and owns the `www.epickor.com`, `epickor.com`, and `epickor-blog.vercel.app` production aliases.
+- Implementation deployment `dpl_FdNeQwhBdGst5DLrmbmL8oYXReUj` (`epickor-blog-34ikeuytc`) is Ready and was the deployment used for full public QA. The latest `origin/master` record deployment is also Ready and owns the `www.epickor.com`, `epickor.com`, and `epickor-blog.vercel.app` production aliases.
 - Vercel cloned commit `df0c8b7`, compiled successfully, generated 359/359 static pages, and completed deployment output without an error.
 - All sixteen public article routes returned HTTP 200 with the new titles and body markers; representative cache-free checks also returned the new content without a query parameter.
 - All 64 referenced public image assets returned HTTP 200.
