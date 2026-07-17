@@ -163,6 +163,8 @@ If you are not sure what kind of Korea trip you are building, use the [Korea tra
 
 If that first trip turns into a longer stay, read the [one-month Seoul living guide](/blog/079) before booking accommodation. A month-long visit changes the decision from sightseeing order to neighborhood rhythm, laundry, transit cards, app friction, and realistic weekly pacing.
 
+If your first trip includes an intercity bus, rental car, ski shuttle, or regional day trip, read the [Korean highway rest area guide](/blog/012) too. Rest stops are part of the travel rhythm, not just bathroom breaks.
+
 ## Frequently Asked Questions
 
 **Q: Do I need a K-ETA to visit Korea in 2026?**

@@ -141,6 +141,8 @@ Korean convenience-store food is a mirror of modern Korea: speed, value, brandin
 
 If you want to understand everyday food beyond restaurants, spend fifteen minutes studying the refrigerated shelf. You will see inflation anxiety, diet trends, spicy trends, protein trends, idol and TV tie-ins, local flavors, and the country's obsession with making a complete meal more convenient.
 
+That convenience-store logic also explains why Korean retail leadership matters. EpicKor's [Chung Yong-jin and Shinsegae guide](/blog/004) looks at the public-facing owner-executive model behind major consumer brands and the risks that come with retail visibility.
+
 ![A packaged-food visual from EpicKor's Korean convenience-store package.](/assets/images/posts/059/080_epickor_%25EC%25A7%2584%25ED%2598%25B8.mp4_20240801_221040.044.jpg)
 *The best Korean convenience-store choice is not always the most viral one. It is the item that fits your timing, appetite, and ability to eat it neatly.*
 

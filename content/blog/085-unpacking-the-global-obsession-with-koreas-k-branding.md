@@ -103,7 +103,7 @@ Use the K-prefix as a doorway, then ask a second question. If the product is K-b
 
 This second-question habit protects both trust and money. It keeps a traveler from buying every souvenir with Hangeul on it, and it keeps a shopper from assuming one viral item represents Korea. It also creates better affiliate decisions. A good recommendation should help a reader compare, pack, cook, protect, store, or understand something. It should not simply say "Korean equals cool."
 
-For EpicKor's purpose, that is the sweet spot. The reader arrives through culture, then gets a practical next step: compare a useful product, choose a route, understand a food, or avoid a common mistake. K-brand becomes most valuable when it turns attention into informed action.
+For EpicKor's purpose, that is the sweet spot. The reader arrives through culture, then gets a practical next step: compare a useful product, choose a route, understand a food, or avoid a common mistake. K-brand becomes most valuable when it turns attention into informed action. The same logic applies to corporate personalities: the [Chung Yong-jin and Shinsegae guide](/blog/004) shows how public-facing Korean retail leadership can create both consumer attention and reputational risk.
 
 <div class="affiliate-inline-cta">
   <p><strong>Wear the Korea signal lightly:</strong> For travel days, fan events, or simple souvenir styling, compare this <a href="https://amzn.to/4o5YOk8" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean flag dad hat</a> only if the design fits your actual use.</p>

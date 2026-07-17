@@ -100,7 +100,7 @@ Do not make history travel too dense. Palaces, museums, and fortresses require s
 
 Wellness and beauty travelers should plan recovery time. A jjimjilbang day, skincare appointment, clinic visit, massage, hair appointment, or shopping-heavy day should not be followed immediately by a punishing outdoor itinerary. Korea makes it easy to stack plans because transport is efficient, but your body may disagree.
 
-If you are staying for weeks, the cheat code changes again. You need laundry, groceries, stable transit, app setup, weather rhythm, and a neighborhood you can repeat. EpicKor's [one-month Seoul living guide](/blog/079), [laundry guide](/blog/226), and [luggage delivery guide](/blog/216) are more useful than a landmark checklist at that point.
+If you are staying for weeks, the cheat code changes again. You need laundry, groceries, stable transit, app setup, weather rhythm, and a neighborhood you can repeat. EpicKor's [one-month Seoul living guide](/blog/079), [laundry guide](/blog/226), and [luggage delivery guide](/blog/216) are more useful than a landmark checklist at that point. For road-heavy routes outside Seoul, the [Korean highway rest area guide](/blog/012) helps turn bus and rental-car stops into useful food and recovery breaks.
 
 For families, the cheat code is reducing transfers. A child-friendly Korea day is usually one major stop, one food plan, one backup indoor rest point, and one easy return route. For solo travelers, the cheat code is flexibility: leave one afternoon open for a neighborhood that surprises you. For couples, the cheat code is pace matching. One person may want cafes and photos while the other wants history or food, so split the day into one planned anchor and one softer wandering block.
 

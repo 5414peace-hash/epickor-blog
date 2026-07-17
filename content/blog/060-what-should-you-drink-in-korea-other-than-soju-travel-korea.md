@@ -140,7 +140,7 @@ If someone asks why you are not drinking, a simple "I do not drink" or "I have a
 
 Convenience stores are part of Korean drinking culture too. You may see beer, soju, makgeolli, canned highballs, flavored drinks, hangover products, ice cups, mixers, and snacks. Korea's convenience stores make it easy to create a mini night-in, but age rules matter. VisitKorea notes that alcohol purchases by minors are strictly prohibited and photo ID with birth date is required.
 
-For food pairing from the same store, read EpicKor's [Korean convenience store food guide](/blog/059) and [grocery tourism guide](/blog/209).
+For food pairing from the same store, read EpicKor's [Korean convenience store food guide](/blog/059) and [grocery tourism guide](/blog/209). If you want the street-tent version of Korean drinking food, the [pojangmacha guide](/blog/089) explains what to order, how to behave, and how to get home safely.
 
 ![A Korean drink-and-snack table visual from EpicKor's original package.](/assets/images/posts/060/081_epickor_%25EC%25A7%2584%25ED%2598%25B8.mp4_20240802_223437.725.jpg)
 *The best Korea drinking night is paced: food first, water often, transit planned, and no pressure to keep up.*
