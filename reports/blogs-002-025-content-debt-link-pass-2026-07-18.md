@@ -66,6 +66,32 @@ Validation completed:
 - Built HTML spot-check confirmed the five rewritten routes contain rendered table wrappers, affiliate CTA markup, article images, FAQ markup, and the expected new titles.
 - Built HTML spot-check confirmed the internal-link pass renders `Related EpicKor Guides` sections in the affected older pages.
 
+## Deployment QA
+
+Implementation commit:
+
+- `578803b6` - `Rewrite next legacy content debt batch`
+
+Production deployment:
+
+- Vercel deployment: `dpl_5xYLXFWwJis3WMeSGTKJ6JTELKHf`
+- Deployment URL: `https://epickor-blog-8sg310uj5-yhs-projects-5de403d3.vercel.app`
+- Aliases confirmed by `vercel inspect`: `https://www.epickor.com`, `https://epickor.com`, `https://epickor-blog.vercel.app`, and Git/master aliases.
+
+Public checks on `https://www.epickor.com`:
+
+| Check | Result |
+|---|---|
+| `/blog/002` | HTTP 200, expected title, table markup, affiliate CTA markup |
+| `/blog/006` | HTTP 200, expected title, table markup, affiliate CTA markup |
+| `/blog/023` | HTTP 200, expected title, table markup, affiliate CTA markup |
+| `/blog/024` | HTTP 200, expected title, table markup, affiliate CTA markup |
+| `/blog/025` | HTTP 200, expected title, table markup, affiliate CTA markup |
+| `/sitemap.xml` | Contains `/blog/002`, `/blog/006`, `/blog/023`, `/blog/024`, and `/blog/025` |
+| Representative internal-link source pages | `/blog/005`, `/027`, `/028`, `/029`, `/040`, `/048`, `/058` returned HTTP 200 and contained `Related EpicKor Guides` |
+
+Note: a manual `npx.cmd vercel --prod --yes` upload attempt hit Vercel's free upload API limit (`api-upload-free`). This did not block the release because the GitHub-connected production deployment was created from the pushed commit and reached Ready with the production aliases.
+
 ## Monitoring Link
 
 The previous 16-post legacy cluster should still be monitored separately. Baseline and check windows are recorded in:
