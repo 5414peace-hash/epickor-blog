@@ -46,7 +46,7 @@ Their official diplomatic role also shows how popular culture became part of Kor
 
 BTS also changed what "Korean content" could look like overseas. Earlier Hallyu often moved through Asian drama markets first, then expanded outward. BTS fandom was more networked: YouTube, X, Weverse, TikTok, fan translations, reaction channels, and group chats. For many overseas fans, Korea became not a distant travel destination but a daily media environment.
 
-For a broader fan-culture path, pair this with our [K-pop photocard guide](/blog/291) and [coin noraebang guide](/blog/292). Those explain how global fandom connects to small, everyday Korean habits.
+For a broader fan-culture path, pair this with our [K-pop photocard guide](/blog/291), [coin noraebang guide](/blog/292), and [BTS V military-service guide](/blog/044). Those explain how global fandom connects to small everyday habits, Korean civic context, and the post-service comeback cycle.
 
 <div class="affiliate-inline-cta">
   <p><strong>Build context before buying merch:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. If Hallyu made you curious about the country behind the songs, compare <a href="https://www.amazon.com/s?k=korean+culture+history+book&amp;tag=epickor-books-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean culture and history books</a> before filling a shelf only with fan goods.</p>

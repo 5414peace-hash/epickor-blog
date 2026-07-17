@@ -67,7 +67,7 @@ BTS did not appear as a group in the 2025 ranking while individual members were 
 
 That swing shows how responsive the index is to recent activity. The ranking rewards the economic and attention cycle inside its measurement window. It does not erase past cultural impact when someone drops out, and it does not guarantee that a current number one will hold the same position next year.
 
-For a broader explanation of the group's cultural reach, read EpicKor's [BTS and global K-pop influence guide](/blog/010). If you are planning to see a Korean act in person, the [K-pop concert in Seoul guide](/blog/230) covers ticket names, venues, bags, transit, and official notices.
+For a broader explanation of the group's cultural reach, read EpicKor's [BTS and global K-pop influence guide](/blog/010). To understand why V's 2025 discharge mattered to the full-group return story, use the [BTS V military-service guide](/blog/044). If you are planning to see a Korean act in person, the [K-pop concert in Seoul guide](/blog/230) covers ticket names, venues, bags, transit, and official notices.
 
 ## G-Dragon: Fan Mobilization Versus Overall Rank
 
@@ -137,7 +137,7 @@ The list can show where money and attention concentrated during a measurement pe
 
 The ranking works well as a map of Korean entertainment categories. Instead of trying to "stan" all 40 names, sample one path at a time: a BTS or BLACKPINK performance for global K-pop, a G-Dragon solo stage for idol authorship and fashion, a Lim Young-woong broadcast for modern trot, a Park Bo-gum drama for acting, or a Son Heung-min match for sports culture.
 
-If the list sends you toward physical merchandise, EpicKor's [K-pop merchandise shopping guide](/blog/134) explains official shops, photocards, lightsticks, pop-ups, and authenticity checks. For a newer-generation idol case study, see [why Jang Wonyoung became a modern K-pop icon](/blog/043).
+If the list sends you toward physical merchandise, EpicKor's [K-pop merchandise shopping guide](/blog/134) explains official shops, photocards, lightsticks, pop-ups, and authenticity checks. For celebrity-specific context, compare the [Cha Eun-woo visual-branding guide](/blog/037) and [Kim Soo-hyun drama-economics guide](/blog/042). For a newer-generation idol case study, see [why Jang Wonyoung became a modern K-pop icon](/blog/043).
 
 <div class="affiliate-inline-cta">
   <p><strong>Protect the items you already own:</strong> If ranking season leads you back to a photocard collection, compare <a href="https://www.amazon.com/s?k=photocard+sleeves+toploaders&amp;tag=epickor2026-20" target="_blank" rel="nofollow sponsored noopener noreferrer">acid-free photocard sleeves and toploaders</a> by size and material before buying more cards. Storage is usually a better first purchase than another unverified listing.</p>
