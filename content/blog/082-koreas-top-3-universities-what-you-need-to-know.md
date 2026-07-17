@@ -143,7 +143,7 @@ For younger Koreans, there is also growing criticism of the old prestige system.
 So the honest answer is balanced: SKY is not destiny, but it is still a powerful advantage.
 
 <div class="affiliate-inline-cta">
-  <p><strong>For language learners:</strong> Korean school names, titles, and campus culture make more sense once the basics click; compare <a href="https://www.amazon.com/s?k=korean+language+study+guide&tag=epickor2026-20">Korean language study guides</a> if this topic made you want a structured next step.</p>
+  <p><strong>For language learners:</strong> Korean school names, titles, and campus culture make more sense once the basics click; compare <a href="https://www.amazon.com/s?k=korean+language+study+guide+beginner&tag=epickor-books-20" target="_blank" rel="nofollow sponsored noopener noreferrer">beginner Korean language study guides</a> if this topic made you want a structured next step.</p>
 </div>
 
 ## Why Foreigners Notice SKY Later Than Koreans Do

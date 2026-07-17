@@ -125,7 +125,7 @@ Use this safer ladder:
 For Korean learners, the biggest mistake is using K-drama words too freely. Oppa is not just a cute word. Ahjussi is not just a dictionary word. Samchon is not always your real uncle. These terms live inside social distance.
 
 <div class="affiliate-inline-cta">
-  <p><strong>Before copying drama phrases:</strong> A small phrasebook can save awkward address-term mistakes; browse <a href="https://www.amazon.com/s?k=korean+phrasebook&tag=epickor2026-20">Korean phrasebook options</a> before practicing words like oppa, samchon, and ahjussi in real life.</p>
+  <p><strong>Before copying drama phrases:</strong> A small phrasebook can save awkward address-term mistakes; browse <a href="https://www.amazon.com/s?k=korean+phrasebook+polite+expressions&tag=epickor-books-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean phrasebooks with polite expressions</a> before practicing words like oppa, samchon, and ahjussi in real life.</p>
 </div>
 
 If you are unsure, do not label the person. Use a neutral phrase. For more visitor-facing social rules, read EpicKor's guide to [Korean etiquette questions tourists actually run into](/blog/187).

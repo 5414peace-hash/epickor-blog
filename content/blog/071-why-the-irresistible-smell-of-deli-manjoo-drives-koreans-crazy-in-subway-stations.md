@@ -178,7 +178,7 @@ Some fans also like it after cooling down or even frozen, but for a first try, w
 For another Korean snack culture guide, see EpicKor's article on [Korean snacks and texture culture](/blog/029). For a more everyday morning version of this grab-and-go logic, read the guide to [Korean convenience store breakfast](/blog/171). If you want to recreate the snack break at home rather than chase the station kiosk, pair it with the [Korean instant coffee mix guide](/blog/278), the [Korean tea and grain drinks guide](/blog/280), or the broader [Korean pantry starter kit](/blog/277).
 
 <div class="affiliate-inline-cta">
-  <p><strong>For a snack drawer:</strong> If you want variety instead of one dessert, browse <a href="https://www.amazon.com/s?k=korean+food+starter+pack&tag=epickor2026-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean food starter packs</a> and choose the snacks you would actually finish, not the biggest box.</p>
+  <p><strong>Compare the closest shelf-stable texture:</strong> Deli Manjoo itself is best hot from a kiosk, but you can compare <a href="https://www.amazon.com/s?k=korean+custard+cake+snack&tag=epickor-food-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean custard cake snacks</a> by filling, pack size, and freshness instead of buying an unrelated mixed snack box.</p>
 </div>
 
 ---
