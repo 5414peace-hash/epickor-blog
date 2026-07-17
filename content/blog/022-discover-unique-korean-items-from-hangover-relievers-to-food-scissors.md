@@ -71,6 +71,12 @@ Korea's life hacks prove that tradition should never stand in the way of progres
 
 ---
 
+## Related EpicKor Guides
+
+For practical Korea-prep items, pair this with our [first-time Korea travel guide](/blog/026) and [Seoul safety guide](/blog/138). If you are shopping for useful everyday goods, the [Daiso Korea guide](/blog/218) and [Korean cookware starter guide](/blog/299) give better item-by-item context than buying only from novelty lists.
+
+---
+
 ## Video Insight: Unique Korean Items
 
 <div class="video-container" style="position: relative; padding-bottom: 177.77%; height: 0; overflow: hidden; max-width: 100%; background: #000; border-radius: 12px; margin: 30px 0;">

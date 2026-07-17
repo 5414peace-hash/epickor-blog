@@ -57,6 +57,12 @@ Viyott is a reminder that in Korea, even the most mundane items are subject to r
 
 ---
 
+## Related EpicKor Guides
+
+For more Korean snack and convenience-store context, read our [Korean snacks guide](/blog/029), [Korean breakfast guide](/blog/302), and [convenience-store food guide](/blog/059). If you are planning a snack-shopping trip, the [first-time Korea travel guide](/blog/026) helps with payment, transit, and airport basics.
+
+---
+
 ## Video Insight: The Viyott Craze
 
 <div class="video-container" style="position: relative; padding-bottom: 177.77%; height: 0; overflow: hidden; max-width: 100%; background: #000; border-radius: 12px; margin: 30px 0;">

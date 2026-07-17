@@ -64,6 +64,12 @@ San-nakji is a 'Threshold Food'?遊?test of cultural adaptability for visitors. 
 
 ---
 
+## Related EpicKor Guides
+
+If this topic made you curious about Korean food beyond viral challenges, continue with [Korean breakfast habits](/blog/302), [Korean banchan culture](/blog/050), and [Seoul markets](/blog/053). For first-trip safety and ordering basics, use the [Seoul safety guide](/blog/138) before trying unfamiliar foods.
+
+---
+
 ## Video Insight: The Octopus Challenge
 
 <div class="video-container" style="position: relative; padding-bottom: 177.77%; height: 0; overflow: hidden; max-width: 100%; background: #000; border-radius: 12px; margin: 30px 0;">

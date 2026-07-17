@@ -65,6 +65,12 @@ The Summer K-Pop hit is more than a song; it is a seasonal anchor. In a society 
 
 ---
 
+## Related EpicKor Guides
+
+If summer K-pop is your Hallyu entry point, continue with the [Korean soft power icons guide](/blog/002), [K-pop photocard guide](/blog/291), and [coin noraebang guide](/blog/292). Those three explain how songs move from charts to fandom goods, karaoke rooms, and Korea travel plans.
+
+---
+
 ## Video Insight: Summer K-Pop Hits
 
 <div class="video-container" style="position: relative; padding-bottom: 177.77%; height: 0; overflow: hidden; max-width: 100%; background: #000; border-radius: 12px; margin: 30px 0;">

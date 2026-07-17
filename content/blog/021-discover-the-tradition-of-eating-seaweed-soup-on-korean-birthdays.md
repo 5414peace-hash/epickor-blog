@@ -57,6 +57,12 @@ Miyeok-guk remains the soul of the Korean kitchen. It is the flavor of survival 
 
 ---
 
+## Related EpicKor Guides
+
+To understand this birthday food in a wider Korean home-food context, continue with our [Korean breakfast guide](/blog/302) and [Korean banchan culture guide](/blog/050). If the tradition side interests you more than the recipe, the [Korean soft power icons guide](/blog/002) shows how food, media, and identity travel together.
+
+---
+
 ## Video Insight: The Birthday Tradition
 
 <div class="video-container" style="position: relative; padding-bottom: 177.77%; height: 0; overflow: hidden; max-width: 100%; background: #000; border-radius: 12px; margin: 30px 0;">

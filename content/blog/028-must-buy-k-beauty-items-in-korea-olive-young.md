@@ -66,6 +66,12 @@ Olive Young proves that high-quality skincare should be accessible to everyone. 
 
 ---
 
+## Related EpicKor Guides
+
+Before filling a basket, read the [Korean skincare routine order guide](/blog/303) and [K-beauty sunscreen guide](/blog/007) so the products fit your actual routine. If you are mixing beauty shopping with clinics or treatments, the [Gangnam plastic surgery and medical tourism guide](/blog/023) explains the safety line between retail beauty and medical decisions.
+
+---
+
 ## Video Insight: Olive Young Must Buys
 
 <div class="video-container" style="position: relative; padding-bottom: 177.77%; height: 0; overflow: hidden; max-width: 100%; background: #000; border-radius: 12px; margin: 30px 0;">

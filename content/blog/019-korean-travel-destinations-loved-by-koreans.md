@@ -64,6 +64,12 @@ Traveling through these three cities is a rite of passage. They represent the th
 
 ---
 
+## Related EpicKor Guides
+
+If you are building a Korea itinerary, start with the [first-time Korea travel guide](/blog/026), then use the [Seoul safety and etiquette guide](/blog/138) before moving between cities. For trip timing, our [best time to visit Korea guide](/blog/127) helps match destinations with weather, crowds, and seasonal scenery.
+
+---
+
 ## Video Insight: Top Travel Destinations
 
 <div class="video-container" style="position: relative; padding-bottom: 177.77%; height: 0; overflow: hidden; max-width: 100%; background: #000; border-radius: 12px; margin: 30px 0;">

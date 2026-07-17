@@ -67,6 +67,12 @@ Korean hip-hop is the sonic signature of a nation that never sleeps and never st
 
 ---
 
+## Related EpicKor Guides
+
+If Korean hip-hop brought you into modern Hallyu, use our [Korean soft power icons guide](/blog/002) to place music beside film, sport, and television. For another fan-culture route, the [K-pop photocard guide](/blog/291) explains how music fandom becomes collecting culture, while the [coin noraebang guide](/blog/292) shows how ordinary Koreans turn songs into a social night out.
+
+---
+
 ## Video Insight: The Hip-Hop Revolution
 
 <div class="video-container" style="position: relative; padding-bottom: 177.77%; height: 0; overflow: hidden; max-width: 100%; background: #000; border-radius: 12px; margin: 30px 0;">

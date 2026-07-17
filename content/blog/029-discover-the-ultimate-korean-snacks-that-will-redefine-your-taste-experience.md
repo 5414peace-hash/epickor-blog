@@ -59,6 +59,12 @@ Korean snacks have taught the world that flavor has no borders. They prove that 
 
 ---
 
+## Related EpicKor Guides
+
+If Korean snacks are your entry point, continue with the [Korean breakfast guide](/blog/302), [Buldak ramen business deep dive](/business/samyang-foods-buldak-global-deep-dive), and [Korean convenience-store food guide](/blog/059). For a broader cultural map, our [Korean soft power icons guide](/blog/002) explains why food now travels with music, film, and tourism.
+
+---
+
 ## Video Insight: Top Korean Snacks
 
 <div class="video-container" style="position: relative; padding-bottom: 177.77%; height: 0; overflow: hidden; max-width: 100%; background: #000; border-radius: 12px; margin: 30px 0;">

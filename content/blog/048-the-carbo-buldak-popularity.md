@@ -69,6 +69,12 @@ Carbo Buldak represents the 'Gen Z' evolution of soul food. It is fast, visual, 
 
 ---
 
+## Related EpicKor Guides
+
+For a deeper look at why Buldak became a global product, read our [Samyang Foods business deep dive](/business/samyang-foods-buldak-global-deep-dive). For home-cooking context, the [Korean cookware starter guide](/blog/299), [Korean ramen guide](/blog/219), and [Korean snacks guide](/blog/029) give more practical next steps.
+
+---
+
 ## Video Insight: The Buldak Craze
 
 <div class="video-container" style="position: relative; padding-bottom: 177.77%; height: 0; overflow: hidden; max-width: 100%; background: #000; border-radius: 12px; margin: 30px 0;">

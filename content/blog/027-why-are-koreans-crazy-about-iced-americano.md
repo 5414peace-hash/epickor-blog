@@ -58,6 +58,12 @@ Psychologists suggest that the obsession with ice is a physiological reaction to
 
 ---
 
+## Related EpicKor Guides
+
+The iced Americano habit makes more sense beside our [Korea work culture guide](/blog/024), because coffee often sits between lunch, office speed, and long commutes. For food-and-drink context beyond cafes, continue with [Korean breakfast habits](/blog/302) and [Seoul bakery cafe routes](/blog/270).
+
+---
+
 ## Video Insight: The Iced Americano Craze
 
 <div class="video-container" style="position: relative; padding-bottom: 177.77%; height: 0; overflow: hidden; max-width: 100%; background: #000; border-radius: 12px; margin: 30px 0;">
