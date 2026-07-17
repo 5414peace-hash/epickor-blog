@@ -51,9 +51,16 @@
 
 ## Deployment QA Plan
 
-After commit/push and Git-connected Vercel deployment:
+Git-connected production deployment:
 
-- Verify public HTTP 200 and expected title markers for `/blog/057`, `/blog/059`, and `/blog/060`.
-- Verify each public page contains `.affiliate-inline-cta`, `<table>`, and FAQ markers.
-- Verify sitemap contains `/blog/057`, `/blog/059`, and `/blog/060`.
-- Verify reverse/source links from `/blog/157`, `/blog/304`, `/blog/171`, `/blog/209`, `/blog/130`, `/blog/149`, `/blog/179`, and `/blog/288`.
+- Commit: `212761f9` (`Rewrite slow travel food and drinks posts`)
+- Deployment: `dpl_GvvSmUTKPKEANock7U4EqAcQawvG`
+- Production alias: `www.epickor.com`
+- Status: Ready
+
+Public QA results:
+
+- `/blog/057`, `/blog/059`, and `/blog/060` returned HTTP 200 and expected title markers.
+- Each rewritten public page contains `.affiliate-inline-cta`, `<table>`, and FAQ markers.
+- `sitemap.xml` contains `/blog/057`, `/blog/059`, and `/blog/060`.
+- Reverse/source links from `/blog/157`, `/blog/304`, `/blog/171`, `/blog/209`, `/blog/130`, `/blog/149`, `/blog/179`, and `/blog/288` are present publicly.
