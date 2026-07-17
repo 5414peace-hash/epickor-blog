@@ -66,7 +66,37 @@ Sitewide audits:
 
 ## Deployment
 
-Pending at the time of this initial report. Deployment ID, alias status, and public QA will be appended after commit, push, and Vercel verification.
+- Implementation commit: `412ab232` (`Rewrite Hangang K-drama and Seoul month posts`)
+- Vercel deployment: `dpl_HYVxWaBbnwsbYg23jfhR43dcuGQt`
+- Deployment URL: `https://epickor-blog-ir7dw9i9g-yhs-projects-5de403d3.vercel.app`
+- Status: Ready
+- Aliases verified: `https://www.epickor.com`, `https://epickor.com`, `https://epickor-blog.vercel.app`
+
+## Public QA
+
+Public page checks passed:
+
+- `https://www.epickor.com/blog/066`: HTTP 200, expected title marker, affiliate CTA marker, table marker, FAQ marker
+- `https://www.epickor.com/blog/070`: HTTP 200, expected title marker, affiliate CTA marker, table marker, FAQ marker
+- `https://www.epickor.com/blog/079`: HTTP 200, expected title marker, affiliate CTA marker, table marker, FAQ marker
+
+Sitemap checks passed:
+
+- `/blog/066`
+- `/blog/070`
+- `/blog/079`
+
+Public reverse-link checks passed:
+
+- `183 -> /blog/066`
+- `204 -> /blog/066`
+- `025 -> /blog/070`
+- `042 -> /blog/070`
+- `167 -> /blog/070`
+- `026 -> /blog/079`
+- `169 -> /blog/079`
+- `201 -> /blog/079`
+- `222 -> /blog/079`
 
 ## Notes
 
