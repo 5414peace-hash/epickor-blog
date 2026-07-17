@@ -179,7 +179,7 @@ If you are visiting, remember these simple habits:
 
 Small adjustments make Korea much easier.
 
-For subway-specific habits, read EpicKor's [Seoul subway guide](/blog/165).
+For subway-specific habits, read EpicKor's [Seoul subway etiquette guide](/blog/174).
 
 <div class="affiliate-inline-cta">
   <p><strong>For fast travel days:</strong> A small snack in your bag helps when transfers, lines, and sightseeing move quickly; compare <a href="https://amzn.to/4nI1uhT">Korean sweet potato snack bars</a> as a light emergency bite.</p>
