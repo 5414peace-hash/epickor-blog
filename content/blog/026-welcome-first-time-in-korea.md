@@ -159,6 +159,8 @@ For day one, choose one major sight and one nearby backup. Group destinations by
 
 Korea rewards curiosity more than speed. The “ppalli-ppalli” reputation for doing things quickly does not require a visitor to rush. A realistic route, current official information, and room to change your mind will produce a better first trip than a checklist with 12 neighborhoods in one day.
 
+If you are not sure what kind of Korea trip you are building, use the [Korea travel cheat codes guide](/blog/084) to choose by interest: food, shopping, Hallyu, history, wellness, or slow-stay travel.
+
 If that first trip turns into a longer stay, read the [one-month Seoul living guide](/blog/079) before booking accommodation. A month-long visit changes the decision from sightseeing order to neighborhood rhythm, laundry, transit cards, app friction, and realistic weekly pacing.
 
 ## Frequently Asked Questions

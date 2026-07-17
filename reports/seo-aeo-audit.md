@@ -1,27 +1,27 @@
 # SEO + AEO Content Audit
 
-Generated: 2026-07-17T23:16:37.682Z
+Generated: 2026-07-17T23:33:18.538Z
 
 ## Overall Snapshot
 - Total posts: 273
 - Average SEO/AEO score: 89/100
-- Average word count: 1712
+- Average word count: 1728
 - Average title length: 65
 - Average description length: 136
-- Stale posts (>180 days): 56
+- Stale posts (>180 days): 53
 
 ## Priority Breakdown
 - Critical: 0
-- High: 29
+- High: 26
 - Medium: 35
-- Low: 209
+- Low: 212
 
 ## Top Issue Frequency
-- title-length-out-of-range: 126 posts (46%)
-- low-internal-linking: 64 posts (23%)
-- thin-content: 63 posts (23%)
-- missing-faq-section: 57 posts (21%)
-- stale-content: 56 posts (21%)
+- title-length-out-of-range: 123 posts (45%)
+- low-internal-linking: 61 posts (22%)
+- thin-content: 60 posts (22%)
+- missing-faq-section: 54 posts (20%)
+- stale-content: 53 posts (19%)
 - missing-description: 5 posts (2%)
 - description-length-out-of-range: 4 posts (1%)
 - low-heading-depth: 2 posts (1%)
@@ -30,9 +30,6 @@ Generated: 2026-07-17T23:16:37.682Z
 ## Rewrite Priority Queue (Top 25)
 | slug | score | priority | words | h2 | internal_links | affiliate_links | issues |
 |---|---:|---|---:|---:|---:|---:|---|
-| 083 | 62 | high | 399 | 5 | 0 | 0 | title-length-out-of-range, thin-content, missing-faq-section, low-internal-linking, stale-content |
-| 084 | 62 | high | 394 | 5 | 0 | 0 | title-length-out-of-range, thin-content, missing-faq-section, low-internal-linking, stale-content |
-| 085 | 62 | high | 415 | 5 | 0 | 0 | title-length-out-of-range, thin-content, missing-faq-section, low-internal-linking, stale-content |
 | 089 | 62 | high | 415 | 5 | 0 | 0 | title-length-out-of-range, thin-content, missing-faq-section, low-internal-linking, stale-content |
 | 004 | 63 | high | 436 | 6 | 0 | 0 | title-length-out-of-range, thin-content, missing-faq-section, low-internal-linking, stale-content |
 | 012 | 63 | high | 431 | 6 | 0 | 0 | title-length-out-of-range, thin-content, missing-faq-section, low-internal-linking, stale-content |
@@ -55,6 +52,9 @@ Generated: 2026-07-17T23:16:37.682Z
 | 088 | 63 | high | 424 | 5 | 0 | 0 | title-length-out-of-range, thin-content, missing-faq-section, low-internal-linking, stale-content |
 | 003 | 64 | high | 492 | 6 | 0 | 0 | title-length-out-of-range, thin-content, missing-faq-section, low-internal-linking, stale-content |
 | 013 | 64 | high | 488 | 6 | 0 | 0 | title-length-out-of-range, thin-content, missing-faq-section, low-internal-linking, stale-content |
+| 063 | 64 | high | 460 | 5 | 0 | 0 | description-length-out-of-range, thin-content, missing-faq-section, low-internal-linking, stale-content |
+| 073 | 64 | high | 491 | 6 | 1 | 0 | title-length-out-of-range, thin-content, missing-faq-section, low-internal-linking, stale-content |
+| 081 | 64 | high | 477 | 5 | 1 | 0 | title-length-out-of-range, thin-content, missing-faq-section, low-internal-linking, stale-content |
 
 ## Targets
 - Title length: 45-65

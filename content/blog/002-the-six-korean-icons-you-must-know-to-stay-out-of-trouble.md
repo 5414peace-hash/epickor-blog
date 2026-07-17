@@ -135,7 +135,7 @@ That approach keeps the article useful without turning culture into a personalit
 
 Soft power becomes interesting when it changes real behavior. A BTS fan may start learning Hangeul. A film viewer may visit a Seoul neighborhood because a movie made the city feel legible. A Son fan may schedule a trip around a national-team match. An IU listener may look for Korean lyric translations, then end up reading about honorifics.
 
-That is the bridge EpicKor cares about: curiosity turning into useful cultural understanding. If you are planning a first trip, pair this guide with [first-time Korea travel basics](/blog/026), [Seoul safety and etiquette](/blog/138), and [Hangeul design culture](/blog/152). Those posts move from "I recognize the icon" to "I understand the place a little better."
+That is the bridge EpicKor cares about: curiosity turning into useful cultural understanding. If you are planning a first trip, pair this guide with [first-time Korea travel basics](/blog/026), [Seoul safety and etiquette](/blog/138), and [Hangeul design culture](/blog/152). For the broader mechanism behind that bridge, the [K-brand explainer](/blog/085) shows how Hallyu attention turns into travel, shopping, language, and food curiosity. Those posts move from "I recognize the icon" to "I understand the place a little better."
 
 <div class="affiliate-inline-cta">
   <p><strong>Fan goods are easier after you know the context:</strong> If you are buying around a concert, drama night, or Korean-culture gift, compare <a href="https://www.amazon.com/s?k=kpop+kdrama+fan+goods&amp;tag=epickor2026-20" target="_blank" rel="nofollow sponsored noopener noreferrer">K-pop and K-drama fan goods</a> with shipping time, authenticity, and return terms in mind.</p>

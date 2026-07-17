@@ -124,7 +124,7 @@ If the table feels overwhelming, start with approachable side dishes before jump
 </table>
 </div>
 
-If you want to understand how banchan appears in daily meals, read our guide to [Korean breakfast foods](/blog/302). If you are shopping for edible souvenirs, pair this with our guide to [Korean snacks and food souvenirs](/blog/209).
+If you want to understand how banchan appears in daily meals, read our guide to [Korean breakfast foods](/blog/302). If you are shopping for edible souvenirs, pair this with our guide to [Korean snacks and food souvenirs](/blog/209). For barbecue-table sauce logic, the [ssamjang guide](/blog/083) explains how fermented paste turns meat, lettuce, rice, and garlic into one balanced wrap.
 
 ## Restaurant Banchan vs. Home Banchan
 
