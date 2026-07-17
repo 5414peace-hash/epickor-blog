@@ -48,4 +48,8 @@ Seven legacy posts in the 130-160 content-debt range were rewritten from roughly
 
 ## Deployment And Public QA
 
-To be recorded after the production deployment and public URL verification.
+- Implementation commit: `2820733b` (`Rewrite seven legacy thin posts`), pushed to `origin/master`.
+- Production deployment: `dpl_EUgA1mkYd1hi5z6PVzu1pqGpuZhf` / `epickor-blog-55ir149dg-yhs-projects-5de403d3.vercel.app`, Ready and aliased to `www.epickor.com`.
+- Public pages: Blogs `132`, `135`, `138`, `141`, `142`, `143`, and `151` all returned HTTP 200 with two rendered tables, affiliate CTA markup, and their expected new image references.
+- Public assets: 28/28 new JPG files returned HTTP 200 with nonzero response size.
+- Sitemap: all seven public blog URLs are present in `https://www.epickor.com/sitemap.xml`.
