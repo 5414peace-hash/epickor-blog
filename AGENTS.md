@@ -139,27 +139,46 @@
 - Instagram scheduling pattern: prepare and schedule content in batches of 3 Reels plus 3 card-news carousels. Do not recommend uploading/scheduling a single approved Reel by itself unless the representative explicitly asks. If one Reel in a batch is ready early, keep it as upload-package-ready until the other two Reels in the batch are also ready.
 - Current batch pattern example: Reels 173, 174, and 175 should be completed first, then scheduled together as a 3-Reel batch. Existing prepared card-news assets should also be scheduled as a 3-carousel batch.
 - Reels should start with newly published EpicKor posts, especially posts with strong social hooks and clear visual scenes.
+- Starting 2026-07-14, Blog `293` Reels 2.0 V04 is representative-rejected and must not be used as the creative baseline. Keep the proven pre-293 Reel structure, then improve its hook, voice, video mix, and single motion-card treatment under the Reels 2.1 recovery standard in `.claude/skills/reels/creative_performance_standard.md`.
+- Every new Reels candidate must pass the Reels Creative Performance Standard before script, dashboard, TTS, or rendering work. Save the creative brief and Viral Fit Score in `output/reels/{slug}/strategy.md`.
 - The first Reels goal is not full automation. Build one MVP, note friction, then upgrade the pipeline.
 - Every Reels project should use numbered scene files under `output/reels/{slug}/`.
 - Human visual approval is required before final Remotion rendering.
 - The visual review dashboard should answer one question quickly: does this image fit this numbered scene?
 - During Reels visual research, keep a short list of strong topic-relevant images that were found but not selected for the Reel. If they improve the source post, add them back into the blog post after the Reel visual search instead of replacing already usable post images. For Blog 176 specifically, keep the current two images and use the Reels research pass to find additional Korean jjimjilbang-related images for the article if suitable.
-- New Reels should use exactly two motion-card inserts for a normal 35-45 second Reel. Do not use three motion cards anymore unless the representative explicitly requests an exception for that specific Reel and it is recorded in `HANDOFF.md`.
+- New Reels should use exactly one motion-card insert for a normal 32-42 second Reel by default. Do not use two or more motion cards unless the representative explicitly requests a slug-specific exception and it is recorded in `HANDOFF.md`.
+- Place the single motion card around 60-75% as the payoff. It must use a full-bleed topic-relevant image or video background with a controlled dim/blur veil and a semi-transparent card; plain black motion-card screens are not allowed.
+- Write the narration around that motion card: include a spoken setup, synchronize each row/reveal to the corresponding narration beat, and finish with a payoff line. The card cannot be an unrelated summary pasted over the script.
 - Reels motion cards must not look empty in the middle. Avoid or revise templates/copy combinations that leave the center visually hollow; prefer center-filled rows, checklists, boards, receipts, or clearly occupied focal layouts.
 - Reels motion cards must reserve a clean narration-caption zone. The spoken subtitle layer must not overlap card rows, labels, footer text, badges, or CTA text; if a template uses lower-card content, move the caption placement or redesign the card before rendering.
-- Starting after Reels 177, write new Reels narration in natural conversational American English, like a 20-something American man explaining the topic out loud. Keep it clear and non-slangy; avoid stiff essay/blog phrasing, lecture tone, or overly polished written-English sentences.
+- Write new Reels narration in natural conversational American English and choose either `male_friend` or `female_culture_travel` before TTS. Female narration is fully acceptable and may be preferred for culture, food, travel, lifestyle, and warning/mistake angles. Keep it clear and non-slangy; avoid stiff essay/blog phrasing, lecture tone, or overly polished written-English sentences.
+- Generate an 8-12 second voice audition for a new or changed voice lane. Use natural speaking speed by default; do not apply a blanket `0.8x` slowdown. Reject robotic pauses, drawn-out words, and calm blog-read cadence before full TTS.
 - Reels narration should be generated in short parts, around three parts for a 35-45 second Reel, rather than one full script file. This reduces slow or uneven voice behavior.
 - Reels subtitles must follow context-aware phrase beats. Do not split tiny fragments such as `is`, `and`, or `to your` onto their own screen unless the fragment is intentionally designed as a typography beat.
 - Reels subtitle timing should feel slightly proactive: the caption should appear just before, or exactly as, the narration lands. A small lead such as 6 frames at 30fps is acceptable when it makes the pacing feel more responsive.
+- Reels playback-continuity gate is mandatory before a render can be called final:
+  - Probe every selected video with `ffprobe` and record source FPS, total frames, `trimBefore`, and required composition frames in `output/reels/{slug}/continuity-manifest.json`.
+  - Do not use a hard `loop` when a scene outlasts its usable footage. Use a second distinct clip, or pre-render a forward/reverse ping-pong proxy with the duplicated endpoint removed. Reverse playback must be prepared as a proxy rather than improvised inside the final composition.
+  - Use frame-accurate final-render playback such as Remotion `OffthreadVideo`; do not rely on legacy browser video looping for exact cut timing.
+  - Do not naively convert 25fps footage to 30fps by duplicating frames. Keep a native cadence, replace the source, or create a reviewed interpolation proxy. Reject optical-flow artifacts, ghosting, and duplicate-frame judder.
+  - Cross-media changes need a 12-22 frame opacity overlap. Never mount an opaque replacement background while the incoming photo/video is still transparent. Scene transitions must fully cover or crossfade the underlying cut.
+  - Inspect every source endpoint, internal media change, and scene boundary at `-2, -1, 0, +1, +2` frames. Any flash, hard reset, repeated endpoint, or motion jump blocks approval.
+- Reels text and caption-safety gate is mandatory:
+  - Plan critical ONS line breaks explicitly at 1080x1920. Use a deliberate `<br>` or `whiteSpace: nowrap`; do not let the browser decide a phrase break. Never separate grammar units such as `BEFORE YOU USE / IT`, articles from nouns, prepositions from objects, or auxiliary verbs from complements.
+  - Reserve the actual narration-caption band dynamically. The default lower exclusion begins at `y=1400`; all ONS, card rows, labels, footer copy, and CTA copy must end at or above `y=1340`, leaving at least 60px before the caption band. If the longest caption begins higher, its measured top edge becomes the exclusion boundary.
+  - Check the longest two-line narration caption in every ONS and motion-card scene at full 1080x1920 resolution. Moving only the caption `bottom` value is not proof of clearance.
+  - A contact sheet is not sufficient for motion QA. Review the full rendered video on a phone with sound on and off; any flash, judder, unplanned wrap, orphan word, or caption/ONS collision blocks final status.
 - Reels render files must be versioned, such as `epickor-reel-{slug}-v005.mp4`; do not overwrite previous candidate renders during review.
-- The first scene should be designed strongly enough to work as a thumbnail when the hook supports it.
+- The first scene is both the thumbnail and intro. Prepare three 3-5-word thumbnail directions (`Mystery`, `Mistake`, `Decision`) and three spoken opening variants, then select the pair with the clearest stakes. Do not begin on black, a generic mood shot, or a topic-title restatement; show direct visual proof or action in the first frame.
 - Final Reels should include a clean `epicKor.com` outro when appropriate.
 - Reels outro/CTA text should use `epickor.com` only. Do not show post-specific paths such as `/blog/{slug}` inside the video frame because viewers cannot click them.
 - Reels visual sourcing priority:
-  1. Images already used by the source post.
-  2. EpicKor-owned or generated images.
-  3. Pexels or other usable external images.
-  4. Generated images when no relevant source image exists.
+  1. EpicKor-owned, official, licensed, or otherwise usable real vertical video.
+  2. Real vertical images already used by the source post or found during topic-specific research.
+  3. Pexels or other usable external vertical assets.
+  4. Generated images or video only when direct real material cannot fill a safe supporting beat.
+- Google AI Pro subscription credits may be used manually through Flow/Whisk for selected 3-5 second bridge or establishing shots. Gemini Developer API billing is separate and must not be enabled, funded, or automated without explicit representative approval.
+- AI-generated visuals must remain at or below 25% of selected photo/video cuts. They must not carry factual proof, Korean text/signage, property/brand claims, or delicate human/hand/object mechanics unless artifact-free under frame-by-frame review.
 - Reels image orientation and placement rule:
   - For Reels, source vertical images first. This is the default, not an optional polish step.
   - More than 50% of selected photo cuts must be found/source vertical images.
@@ -167,6 +186,7 @@
   - If a horizontal image is unavoidable, keep horizontal exceptions to roughly 10-15% of selected photo cuts and render each one as a centered 1:1 square image, not as a full-width/landscape frame.
   - For current Remotion output, horizontal exceptions should use `fitMode: "square_center"`.
   - Do not approve a Reel only because the vertical/horizontal portion and layout look good. The image must also directly fit the scene topic.
+  - Source true 9:16 material whenever possible; do not simulate vertical quality with repeated zooms on horizontal stills. Keep all first-frame copy and key subjects inside the conservative profile-grid safe area.
 - Reels Korea-context visual rule:
   - EpicKor Reels about Korea must use visibly Korean, topic-specific images whenever reasonably findable.
   - "Looks vaguely Asian" or "generic city/food/travel mood" is not enough.
@@ -182,6 +202,7 @@
   - No thumbnail/opening image source family may be reused later in the Reel.
   - Reviewer must inspect the scene grid for visual fatigue: repeated skyline, same food counter, same airport hall/escalator, same runner group, same table/flatlay, or same store interior should block approval even when the file paths are unique.
   - Approval requires a written Reels Visual Variety Score: source-family uniqueness 30, scene-to-scene variety 25, direct topic/Korea fit 25, rendered mobile quality 10, no visual fatigue in opening/outro 10. Minimum average is 92/100 and no individual scene below 90/100.
+- Reels 2.1 human-made finish gate is a hard reject, regardless of internal score, for: corporate-deck structure, generic stock mood, repeated templates, plain-black information screens, warped objects or hands, broken Korean text/signage, over-smooth AI motion, mismatched lighting, excessive still-image zooms, unnatural narration, or any scene that visibly feels AI-generated. Review the final candidate on a phone with sound both on and off. Representative rejection overrides all internal scores.
 - Record Reels agent roles, dashboard review status, blockers, and next improvements in `HANDOFF.md`.
 
 ## Handoff And Strategy Check Rules
@@ -249,7 +270,7 @@ Reviewer and Publisher agents must verify rendered images, not just markdown syn
 - After publish/deploy, check the public URL again. If images are broken, the task is not complete.
 - Record which agent performed this rendered-image check in `HANDOFF.md`.
 
-Gemini API는 더 이상 사용하지 않는다.
+Do not use or fund the Gemini Developer API without explicit representative approval. Google AI Pro's included Flow/Whisk credits may be used manually for scoped visual experiments under the Reels rules; subscription credits do not make API calls free.
 
 ---
 
