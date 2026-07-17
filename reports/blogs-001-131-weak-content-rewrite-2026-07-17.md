@@ -85,4 +85,10 @@ The sixteen highest-priority weak posts selected for this batch were rebuilt as 
 
 ## Deployment And Public QA
 
-- Pending implementation commit, production deployment, public route/asset/sitemap/reverse-link verification, and final HANDOFF update.
+- Implementation commit `df0c8b7d` (`Rewrite sixteen high-priority legacy posts`) is on `origin/master`.
+- Vercel deployment `dpl_FdNeQwhBdGst5DLrmbmL8oYXReUj` (`epickor-blog-34ikeuytc`) is Ready and owns the `www.epickor.com`, `epickor.com`, and `epickor-blog.vercel.app` production aliases.
+- Vercel cloned commit `df0c8b7`, compiled successfully, generated 359/359 static pages, and completed deployment output without an error.
+- All sixteen public article routes returned HTTP 200 with the new titles and body markers; representative cache-free checks also returned the new content without a query parameter.
+- All 64 referenced public image assets returned HTTP 200.
+- The public sitemap contains all sixteen target routes, and all eighteen reverse-link source pages render the intended `/blog/NNN` link.
+- Browser-window visual automation remained unavailable because no browser surface was connected. This is recorded as a QA limitation, not a deployment failure; production build, rendered HTML, public assets, sitemap, links, and CDN aliases all passed.
