@@ -10,6 +10,7 @@ const slugIndex = args.indexOf('--slug');
 const slug = slugIndex >= 0 ? args[slugIndex + 1] : '';
 const cardIndex = args.indexOf('--card');
 const onlyCard = cardIndex >= 0 ? Number(args[cardIndex + 1]) : null;
+const contactSheetOnly = args.includes('--contact-sheet');
 
 if (!slug) {
   console.error('Usage: node .claude/skills/cardnews/scripts/html-to-png-edge.mjs --slug 124 [--card 01]');
@@ -17,14 +18,21 @@ if (!slug) {
 }
 
 function findOutputDir(targetSlug) {
-  const base = path.join(root, 'output', 'cardnews');
-  const exact = path.join(base, targetSlug);
-  if (fs.existsSync(exact)) return exact;
-  const prefixed = fs.readdirSync(base, { withFileTypes: true })
-    .filter((entry) => entry.isDirectory() && entry.name.endsWith(`_${targetSlug}`))
-    .map((entry) => path.join(base, entry.name))
-    .sort();
-  return prefixed.at(-1) || exact;
+  const bases = [
+    path.join(root, 'output', 'cardnews'),
+    path.join(root, 'public', 'assets', 'cardnews'),
+  ];
+  for (const base of bases) {
+    const exact = path.join(base, targetSlug);
+    if (fs.existsSync(exact)) return exact;
+    if (!fs.existsSync(base)) continue;
+    const prefixed = fs.readdirSync(base, { withFileTypes: true })
+      .filter((entry) => entry.isDirectory() && entry.name.endsWith(`_${targetSlug}`))
+      .map((entry) => path.join(base, entry.name))
+      .sort();
+    if (prefixed.length) return prefixed.at(-1);
+  }
+  return path.join(bases[0], targetSlug);
 }
 
 function parseScript(scriptPath) {
@@ -46,6 +54,7 @@ function parseScript(scriptPath) {
       imageOpacity: '0.8',
       imageZoom: '1.1',
       imagePosition: 'center center',
+      imageFit: 'cover',
       imageLabel: '',
       coverStyle: '',
       visualStyle,
@@ -64,6 +73,7 @@ function parseScript(scriptPath) {
       if (line.startsWith('image_opacity:')) card.imageOpacity = line.split(':').slice(1).join(':').trim();
       if (line.startsWith('image_zoom:')) card.imageZoom = line.split(':').slice(1).join(':').trim();
       if (line.startsWith('image_position:')) card.imagePosition = line.split(':').slice(1).join(':').trim();
+      if (line.startsWith('image_fit:')) card.imageFit = line.split(':').slice(1).join(':').trim();
       if (line.startsWith('image_label:')) card.imageLabel = line.split(':').slice(1).join(':').trim();
       if (line.startsWith('cover_style:')) card.coverStyle = line.split(':').slice(1).join(':').trim();
       if (line.startsWith('visual_style:')) card.visualStyle = line.split(':').slice(1).join(':').trim();
@@ -91,6 +101,77 @@ function imageUrl(imagePath) {
     : path.join(root, imagePath);
   if (!fs.existsSync(fullPath)) return '';
   return pathToFileURL(fullPath).href;
+}
+
+function renderEditorialSystemHtml(card) {
+  const style = card.visualStyle.toLowerCase();
+  const img = imageUrl(card.image);
+  const number = String(card.number).padStart(2, '0');
+  const isCover = card.layout.toUpperCase().trim() === 'F';
+  const mainLength = (card.main || '').replace(/\\n/g, '').length;
+  const subLength = (card.sub || '').length;
+  const mainSize = isCover
+    ? (mainLength > 30 ? 82 : 94)
+    : (mainLength > 31 ? 61 : mainLength > 24 ? 68 : 76);
+  const subSize = subLength > 112 ? 26 : subLength > 92 ? 28 : 30;
+  const imageFit = card.imageFit || (card.image.endsWith('.png') ? 'contain' : 'cover');
+
+  const systems = {
+    'musinsa-editorial': {
+      bg: '#090a0c', panel: 'rgba(8,9,11,.97)', ink: '#f6f7f8', muted: '#c2c7ce',
+      accent: '#2867ff', rule: '#2867ff', border: 'rgba(255,255,255,.18)',
+      photoFilter: 'saturate(.88) contrast(1.08) brightness(.78)',
+      coverWash: 'linear-gradient(180deg,rgba(4,5,7,.18),rgba(4,5,7,.46) 48%,rgba(4,5,7,.76))',
+      font: 'Segoe UI,Arial,Noto Sans KR,Malgun Gothic,sans-serif',
+      mainFont: 'Arial Black,Segoe UI Black,Segoe UI,Arial,sans-serif',
+      badge: 'SEOUL / FASHION / COMMERCE', decor: 'editorial',
+    },
+    'hanji-invitation': {
+      bg: '#f2ead9', panel: 'rgba(248,242,226,.98)', ink: '#5b1420', muted: '#5e5249',
+      accent: '#9d6d2e', rule: '#7b1f2b', border: 'rgba(123,31,43,.38)',
+      photoFilter: 'saturate(.82) contrast(.98) brightness(.92) sepia(.08)',
+      coverWash: 'linear-gradient(180deg,rgba(49,18,20,.1),rgba(49,18,20,.22) 46%,rgba(49,18,20,.54))',
+      font: 'Segoe UI,Arial,Noto Sans KR,Malgun Gothic,sans-serif',
+      mainFont: 'Georgia,Times New Roman,Noto Serif KR,serif',
+      badge: 'MODERN HANJI INVITATION', decor: 'hanji',
+    },
+    'transit-signal': {
+      bg: '#07151d', panel: 'rgba(7,21,29,.98)', ink: '#f2fbff', muted: '#b9ced7',
+      accent: '#54e5c4', rule: '#20b8e6', border: 'rgba(84,229,196,.35)',
+      photoFilter: 'saturate(.9) contrast(1.08) brightness(.74)',
+      coverWash: 'linear-gradient(180deg,rgba(2,12,18,.16),rgba(2,12,18,.4) 46%,rgba(2,12,18,.78))',
+      font: 'Segoe UI,Arial,Noto Sans KR,Malgun Gothic,sans-serif',
+      mainFont: 'Arial Black,Segoe UI Black,Segoe UI,Arial,sans-serif',
+      badge: 'SEOUL TRANSIT / SIGNAL', decor: 'transit',
+    },
+  };
+  const s = systems[style];
+  if (!s) return '';
+  const isHanji = s.decor === 'hanji';
+  const isTransit = s.decor === 'transit';
+  const isEditorial = s.decor === 'editorial';
+  const coverPanel = isHanji ? 'rgba(248,242,226,.94)' : isTransit ? 'rgba(5,20,29,.88)' : 'rgba(6,7,9,.84)';
+  const coverInk = isHanji ? s.ink : '#fff';
+
+  return `<!doctype html>
+<html><head><meta charset="utf-8"><style>
+*{box-sizing:border-box}html,body{margin:0;width:1080px;height:1080px;overflow:hidden}body{font-family:${s.font};background:${s.bg};color:${s.ink}}.card{position:relative;width:1080px;height:1080px;overflow:hidden;background:${s.bg}}
+.photo{position:absolute;inset:${isCover ? '0' : '0 0 418px 0'};background-image:url("${img}");background-size:${imageFit};background-repeat:no-repeat;background-color:${isHanji ? '#ded3bf' : isTransit ? '#0a202b' : '#e7e8ea'};background-position:${card.imagePosition};transform:scale(${card.imageZoom || '1'});filter:${s.photoFilter}}
+.cover-wash{position:absolute;inset:0;background:${s.coverWash}}
+.topbar{position:absolute;left:42px;right:42px;top:30px;height:48px;z-index:12;display:flex;align-items:center;justify-content:space-between;color:${isCover && !isHanji ? '#fff' : s.ink};font-size:13px;font-weight:900;letter-spacing:.15em;text-shadow:${isCover && !isHanji ? '0 2px 10px rgba(0,0,0,.6)' : 'none'}}
+.brand{display:flex;align-items:center;gap:12px}.brand-mark{width:32px;height:32px;border:2px solid ${s.accent};display:grid;place-items:center;color:${s.accent};letter-spacing:0}.page{font-size:21px;color:${s.accent}}
+.photo-label{position:absolute;left:48px;top:584px;z-index:8;padding:8px 12px;background:${isHanji ? 'rgba(248,242,226,.9)' : 'rgba(4,11,16,.72)'};color:${isHanji ? s.ink : '#fff'};font-size:11px;font-weight:800;letter-spacing:.09em;text-transform:uppercase;max-width:720px}
+.panel{position:absolute;left:0;right:0;bottom:0;height:438px;z-index:7;background:${s.panel};border-top:8px solid ${s.rule};padding:42px 66px 52px;overflow:hidden}
+.panel:before{content:"";position:absolute;inset:0;pointer-events:none;${isHanji ? 'background:repeating-linear-gradient(7deg,rgba(122,88,45,.025) 0,rgba(122,88,45,.025) 1px,transparent 1px,transparent 7px)' : isTransit ? 'background:linear-gradient(90deg,transparent 0,transparent 78%,rgba(84,229,196,.045) 78%,rgba(84,229,196,.045) 78.4%,transparent 78.4%)' : 'background:linear-gradient(90deg,rgba(40,103,255,.1),transparent 18%)'} }
+.panel-content{position:relative;z-index:2;max-width:930px}.kicker{display:inline-flex;align-items:center;min-height:34px;padding:7px 12px;border:1px solid ${s.border};background:${isHanji ? 'rgba(157,109,46,.1)' : 'rgba(255,255,255,.04)'};color:${s.accent};font-size:15px;font-weight:900;letter-spacing:.13em;text-transform:uppercase}.main{margin-top:19px;font-family:${s.mainFont};font-size:${mainSize}px;font-weight:950;line-height:.93;letter-spacing:${isHanji ? '-.02em' : '-.035em'};color:${s.ink};text-wrap:balance}.sub{margin-top:20px;max-width:900px;font-size:${subSize}px;font-weight:${isHanji ? '600' : '680'};line-height:1.24;color:${s.muted};text-wrap:balance}.footer-rule{position:absolute;left:66px;right:66px;bottom:26px;height:1px;background:${s.border}}.footer-mark{position:absolute;right:66px;bottom:9px;padding-left:12px;background:${s.panel};color:${s.accent};font-size:11px;font-weight:900;letter-spacing:.16em}
+.rail{display:${isTransit ? 'block' : 'none'};position:absolute;left:66px;right:66px;top:24px;height:7px;background:${s.rule};border-radius:20px}.rail:before,.rail:after{content:"";position:absolute;top:-7px;width:21px;height:21px;border-radius:50%;background:${s.panel};border:5px solid ${s.accent}}.rail:before{left:0}.rail:after{right:0}
+.index-code{display:${isEditorial ? 'block' : 'none'};position:absolute;right:66px;top:42px;color:${s.accent};font-size:12px;font-weight:900;letter-spacing:.14em}.seal{display:${isHanji ? 'grid' : 'none'};position:absolute;right:62px;top:37px;width:50px;height:50px;border-radius:50%;place-items:center;background:${s.rule};color:#f8f2e2;font-family:Georgia,serif;font-size:19px;font-weight:900}
+.cover-panel{position:absolute;left:82px;right:82px;top:278px;min-height:492px;z-index:8;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:52px 58px;background:${coverPanel};border:1px solid ${s.border};box-shadow:0 18px 55px rgba(0,0,0,.28);text-align:center;overflow:hidden}.cover-panel:before{content:"";position:absolute;left:0;right:0;top:0;height:10px;background:${s.rule}}.cover-panel:after{content:"${s.badge}";position:absolute;left:30px;right:30px;bottom:22px;color:${s.accent};font-size:11px;font-weight:900;letter-spacing:.17em}.cover-kicker{display:inline-flex;padding:9px 14px;margin-bottom:27px;border:1px solid ${s.border};color:${s.accent};font-size:16px;font-weight:900;letter-spacing:.14em}.cover-main{font-family:${s.mainFont};font-size:${mainSize}px;font-weight:950;line-height:.93;letter-spacing:${isHanji ? '-.02em' : '-.04em'};color:${coverInk};text-wrap:balance}.cover-sub{max-width:800px;margin-top:28px;font-size:30px;font-weight:${isHanji ? '600' : '700'};line-height:1.25;color:${isHanji ? s.muted : '#dbe3e9'};text-wrap:balance}.cover-mark{position:absolute;right:38px;bottom:28px;z-index:12;padding:9px 13px;background:${isHanji ? 'rgba(248,242,226,.9)' : 'rgba(4,11,16,.7)'};border:1px solid ${s.border};color:${s.accent};font-size:11px;font-weight:900;letter-spacing:.16em}
+</style></head><body><section class="card">
+${img ? '<div class="photo"></div>' : ''}${isCover ? '<div class="cover-wash"></div>' : ''}
+<div class="topbar"><div class="brand"><div class="brand-mark">EK</div><div>EPICKOR.COM</div></div><div class="page">${number}</div></div>
+${isCover ? `<div class="cover-panel"><div class="cover-kicker">${htmlText(card.kicker || card.topic)}</div><div class="cover-main">${htmlText(card.main)}</div><div class="cover-sub">${htmlText(card.sub)}</div></div><div class="cover-mark">EPICKOR.COM</div>` : `<div class="photo-label">${htmlText(card.imageLabel)}</div><div class="panel"><div class="rail"></div><div class="index-code">BUSINESS SYSTEM / ${number}</div><div class="seal">喜</div><div class="panel-content"><div class="kicker">${htmlText(card.kicker || card.topic)}</div><div class="main">${htmlText(card.main)}</div><div class="sub">${htmlText(card.sub)}</div></div><div class="footer-rule"></div><div class="footer-mark">EPICKOR.COM</div></div>`}
+</section></body></html>`;
 }
 
 function renderSeoulAfterDarkHtml(card) {
@@ -224,6 +305,9 @@ function renderCoverHtml(card) {
 }
 
 function renderHtml(card) {
+  if (['musinsa-editorial', 'hanji-invitation', 'transit-signal'].includes(card.visualStyle.toLowerCase())) {
+    return renderEditorialSystemHtml(card);
+  }
   if (card.visualStyle.toLowerCase() === 'seoul-after-dark') {
     return renderSeoulAfterDarkHtml(card);
   }
@@ -272,6 +356,35 @@ function edgePath() {
 }
 
 const outputDir = findOutputDir(slug);
+if (contactSheetOnly) {
+  const htmlPath = path.join(outputDir, 'contact-sheet.html');
+  const pngPath = path.join(outputDir, 'contact-sheet.png');
+  if (!fs.existsSync(htmlPath)) {
+    console.error(`Missing contact-sheet.html: ${htmlPath}`);
+    process.exit(1);
+  }
+  const edge = edgePath();
+  const userDataDir = path.join(outputDir, `.edge-contact-${process.pid}-${Date.now()}`);
+  try {
+    execFileSync(edge, [
+      '--headless=new',
+      '--disable-gpu',
+      '--disable-extensions',
+      '--hide-scrollbars',
+      '--no-first-run',
+      '--no-default-browser-check',
+      '--no-proxy-server',
+      `--user-data-dir=${userDataDir}`,
+      '--window-size=1440,720',
+      `--screenshot=${pngPath}`,
+      pathToFileURL(htmlPath).href,
+    ], { stdio: 'pipe', timeout: 120000 });
+  } finally {
+    fs.rmSync(userDataDir, { recursive: true, force: true });
+  }
+  console.log(`Rendered ${path.relative(root, pngPath)}`);
+  process.exit(0);
+}
 const scriptPath = path.join(outputDir, 'script.md');
 if (!fs.existsSync(scriptPath)) {
   console.error(`Missing script.md: ${scriptPath}`);

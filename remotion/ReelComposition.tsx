@@ -2,13 +2,14 @@ import {
   AbsoluteFill,
   Audio,
   Img,
+  OffthreadVideo,
   Sequence,
   interpolate,
   staticFile,
   useCurrentFrame,
 } from 'remotion';
 import type { CSSProperties } from 'react';
-import type { ReelImage, ReelMotionCard, ReelProps, ReelScene } from './types';
+import type { ReelImage, ReelMotionCard, ReelProps, ReelScene, ReelVideoClip } from './types';
 
 const easeOut = (value: number) => 1 - Math.pow(1 - value, 3);
 type CaptionPlacement = 'default' | 'intro' | 'radialCard' | 'motionRoute' | 'motionStamp' | 'motionReceipt' | 'motionTabs' | 'motionEditorial' | 'motionChecklist' | 'motionMenu' | 'motionLowerBand' | 'motionDefault';
@@ -209,6 +210,49 @@ function SceneImage({ image, scene, index, total }: { image: ReelImage; scene: R
               objectFit: 'cover',
               ...imageMotion,
             }}
+          />
+        )}
+      </AbsoluteFill>
+    </Sequence>
+  );
+}
+
+function SceneVideo({ clip, scene, index, total }: { clip: ReelVideoClip; scene: ReelScene; index: number; total: number }) {
+  const clipDuration = Math.max(18, Math.floor(scene.durationFrames / Math.max(total, 1)));
+  const clipStart = index * clipDuration;
+  const trimBefore = Math.max(0, clip.trimBeforeFrames || 0);
+  const square = clip.fitMode === 'square_center';
+
+  return (
+    <Sequence from={clipStart} durationInFrames={clipDuration}>
+      <AbsoluteFill style={{ overflow: 'hidden', backgroundColor: '#0f172a' }}>
+        {square ? (
+          <>
+            <OffthreadVideo
+              src={staticAsset(clip.staticFilePath)}
+              trimBefore={trimBefore}
+              playbackRate={clip.playbackRate || 1}
+              muted
+              style={{ position: 'absolute', inset: 0, width: '100%', height: '100%', objectFit: 'cover', filter: 'blur(28px)', opacity: 0.42, transform: 'scale(1.14)' }}
+            />
+            <div style={{ position: 'absolute', inset: 0, background: 'linear-gradient(180deg, rgba(5,8,13,0.34), rgba(5,8,13,0.72))' }} />
+            <div style={{ position: 'absolute', left: 56, right: 56, top: 350, aspectRatio: '1 / 1', overflow: 'hidden', borderRadius: 34, border: '2px solid rgba(255,255,255,0.22)', boxShadow: '0 32px 84px rgba(0,0,0,0.48)' }}>
+              <OffthreadVideo
+                src={staticAsset(clip.staticFilePath)}
+                trimBefore={trimBefore}
+                playbackRate={clip.playbackRate || 1}
+                muted
+                style={{ width: '100%', height: '100%', objectFit: 'cover' }}
+              />
+            </div>
+          </>
+        ) : (
+          <OffthreadVideo
+            src={staticAsset(clip.staticFilePath)}
+            trimBefore={trimBefore}
+            playbackRate={clip.playbackRate || 1}
+            muted
+            style={{ width: '100%', height: '100%', objectFit: 'cover' }}
           />
         )}
       </AbsoluteFill>
@@ -432,6 +476,9 @@ function bulletRevealStartFrame(card: ReelMotionCard | undefined, scene: ReelSce
     '228-card-quiet-checklist': [-8, 4, 16, 28],
     '225-card-station-first': [-8, 4, 16, 28],
     '225-card-door-to-door-check': [-8, 2, 12, 22, 34],
+    '293-goal-selector': [-8, 0, 8, 16],
+    '293-final-rule': [-8, 0, 8, 16],
+    '294-sujeo-cheat-code': [-8, 72, 180],
   };
   const start = card?.id ? overrides[card.id]?.[index] : undefined;
   if (typeof start === 'number') return Math.min(scene.durationFrames - 18, Math.max(-12, start));
@@ -521,6 +568,87 @@ function ShellText({ card, compact = false }: { card: ReelMotionCard; compact?: 
         <LineStack lines={subheadLines} style={{ color: 'rgba(255,255,255,0.83)', fontSize: subheadFontSize, fontWeight: 760, lineHeight: 1.14 }} />
       ) : null}
     </div>
+  );
+}
+
+function GlassRulesCard({ card, scene, frame, opacity, enter, float, scale }: {
+  card: ReelMotionCard;
+  scene: ReelScene;
+  frame: number;
+  opacity: number;
+  enter: number;
+  float: number;
+  scale: number;
+}) {
+  const headlineLines = textLines(card.headline, card.headlineLines);
+  const subheadLines = textLines(card.subhead, card.subheadLines);
+  const footerLines = textLines(card.footer, card.footerLines);
+
+  return (
+    <AbsoluteFill style={{ alignItems: 'center', justifyContent: 'flex-start', paddingTop: 142, fontFamily: 'Inter, Arial, sans-serif' }}>
+      <div
+        style={{
+          width: 878,
+          minHeight: 1040,
+          padding: '54px 50px 48px',
+          borderRadius: 48,
+          opacity,
+          transform: `translateY(${enter + float}px) scale(${scale})`,
+          background: 'linear-gradient(155deg, rgba(8,17,22,0.64), rgba(12,22,25,0.43))',
+          backdropFilter: 'blur(18px) saturate(0.82)',
+          border: '1.5px solid rgba(255,255,255,0.34)',
+          boxShadow: '0 34px 96px rgba(0,0,0,0.34)',
+          color: '#ffffff',
+          display: 'grid',
+          alignContent: 'start',
+          gap: 26,
+        }}
+      >
+        <div style={{ display: 'grid', gap: 14 }}>
+          <div style={{ color: card.accentColor, fontSize: 25, fontWeight: 900, letterSpacing: 2.4, textTransform: 'uppercase' }}>{card.kicker}</div>
+          <LineStack
+            lines={headlineLines}
+            style={{ color: '#ffffff', fontSize: 63, fontWeight: 950, lineHeight: 0.92, letterSpacing: -2.2, textTransform: 'uppercase' }}
+          />
+          {subheadLines.length ? (
+            <LineStack lines={subheadLines} style={{ color: 'rgba(255,255,255,0.78)', fontSize: 29, fontWeight: 720, lineHeight: 1.14 }} />
+          ) : null}
+        </div>
+        <div style={{ height: 1, background: 'linear-gradient(90deg, rgba(255,255,255,0.5), rgba(255,255,255,0.08))' }} />
+        <div style={{ display: 'grid', gap: 18 }}>
+          {card.bullets.map((bullet, index) => {
+            const reveal = revealTiming(frame, scene, index, card.bullets.length, card);
+            const [left, right] = String(bullet).split(/\s*→\s*/);
+            return (
+              <div
+                key={bullet}
+                style={{
+                  minHeight: 150,
+                  opacity: reveal.opacity,
+                  transform: `translateY(${reveal.y}px) scale(${reveal.scale})`,
+                  display: 'grid',
+                  gridTemplateColumns: '1fr auto 1fr',
+                  alignItems: 'center',
+                  gap: 18,
+                  padding: '24px 28px',
+                  borderRadius: 28,
+                  background: index === 2 ? 'rgba(245,158,11,0.2)' : 'rgba(255,255,255,0.11)',
+                  border: index === 2 ? `1.5px solid ${card.accentColor}` : '1px solid rgba(255,255,255,0.2)',
+                  boxShadow: '0 18px 42px rgba(0,0,0,0.18)',
+                }}
+              >
+                <div style={{ fontSize: left.length > 14 ? 31 : 36, fontWeight: 900, lineHeight: 0.98, textAlign: 'right', textTransform: 'uppercase' }}>{left}</div>
+                <div style={{ color: card.accentColor, fontSize: 44, fontWeight: 950 }}>→</div>
+                <div style={{ color: index === 2 ? '#fde68a' : '#ffffff', fontSize: right && right.length > 12 ? 31 : 36, fontWeight: 950, lineHeight: 0.98, textTransform: 'uppercase' }}>{right || ''}</div>
+              </div>
+            );
+          })}
+        </div>
+        {footerLines.length ? (
+          <LineStack lines={footerLines} style={{ color: 'rgba(255,255,255,0.76)', fontSize: 26, fontWeight: 780, lineHeight: 1.12, textAlign: 'center', textTransform: 'uppercase' }} />
+        ) : null}
+      </div>
+    </AbsoluteFill>
   );
 }
 
@@ -1443,7 +1571,7 @@ function KitGridCard({ card, scene, frame, opacity, enter, float, scale }: {
             ) : null}
           </div>
           <div style={{ height: 154, borderRadius: 28, border: `4px solid ${card.accentColor}`, display: 'grid', placeItems: 'center', color: card.accentColor, fontSize: 34, fontWeight: 950, textTransform: 'uppercase' }}>
-            Small
+            {card.badge || 'Small'}
           </div>
         </div>
         <div style={{ position: 'absolute', left: 48, right: 48, top: 390, display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 22 }}>
@@ -1516,6 +1644,7 @@ function MotionCardLayer({ card, scene }: { card: ReelMotionCard; scene: ReelSce
   if (template === 'menu_board') return <MenuBoardCard {...shared} />;
   if (template === 'radial_burst') return <RadialBurstCard {...shared} />;
   if (template === 'split_checklist') return <SplitChecklistCard {...shared} />;
+  if (template === 'glass_rules') return <GlassRulesCard {...shared} />;
   return <EditorialBoxCard {...shared} />;
 }
 
@@ -2008,15 +2137,24 @@ export function ReelComposition(props: ReelProps) {
           <Audio src={staticAsset(segment.staticFilePath)} />
         </Sequence>
       ))}
+      {props.sfxSegments?.map((segment, index) => (
+        <Sequence key={`sfx-${index}`} from={segment.startFrame} durationInFrames={segment.durationFrames}>
+          <Audio src={staticAsset(segment.staticFilePath)} volume={segment.volume ?? 0.2} />
+        </Sequence>
+      ))}
       {props.scenes.map((scene) => {
         const motionCard = props.motionCards?.find((card) => card.sceneNumber === scene.number && card.reviewStatus === 'approved');
         const motionTemplate = motionCard ? cardTemplate(motionCard) : '';
         return (
           <Sequence key={scene.number} from={scene.startFrame} durationInFrames={scene.durationFrames}>
             <AbsoluteFill>
-              {scene.images.map((image, index) => (
-                <SceneImage key={`${scene.number}-${image.rank}`} image={image} scene={scene} index={index} total={scene.images.length} />
-              ))}
+              {scene.videoClips?.length
+                ? scene.videoClips.map((clip, index) => (
+                    <SceneVideo key={`${scene.number}-video-${index}`} clip={clip} scene={scene} index={index} total={scene.videoClips?.length || 1} />
+                  ))
+                : scene.images.map((image, index) => (
+                    <SceneImage key={`${scene.number}-${image.rank}`} image={image} scene={scene} index={index} total={scene.images.length} />
+                  ))}
               <div
                 style={{
                   position: 'absolute',

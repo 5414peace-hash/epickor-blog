@@ -47,12 +47,13 @@ const slug = args.slug;
 const textPath = args.text;
 const outputName = args.output || 'narration.mp3';
 const apiKey = process.env.ELEVENLABS_API_KEY;
-const voiceId = process.env.ELEVENLABS_VOICE_ID;
+const voiceId = args['voice-id'] || process.env.ELEVENLABS_VOICE_ID;
 const modelId = process.env.ELEVENLABS_MODEL_ID || 'eleven_multilingual_v2';
 const stability = Number(process.env.ELEVENLABS_STABILITY || '0.5');
 const similarityBoost = Number(process.env.ELEVENLABS_SIMILARITY_BOOST || '0.8');
 const style = Number(process.env.ELEVENLABS_STYLE || '0.3');
 const speakerBoost = String(process.env.ELEVENLABS_SPEAKER_BOOST || 'true').toLowerCase() === 'true';
+const speed = Number(args.speed || process.env.ELEVENLABS_SPEED || '1');
 
 if (!slug || !textPath) {
   console.error('Usage: --slug {slug} --text {path}');
@@ -60,7 +61,7 @@ if (!slug || !textPath) {
 }
 
 if (!apiKey || !voiceId) {
-  console.error('Missing ELEVENLABS_API_KEY or ELEVENLABS_VOICE_ID in .env.local.');
+  console.error('Missing ELEVENLABS_API_KEY or voice ID. Set ELEVENLABS_VOICE_ID or pass --voice-id.');
   process.exit(1);
 }
 
@@ -87,6 +88,7 @@ const response = await fetch(
         similarity_boost: similarityBoost,
         style,
         use_speaker_boost: speakerBoost,
+        speed,
       },
     }),
   }

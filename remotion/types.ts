@@ -10,6 +10,15 @@ export interface ReelImage {
   cameraMove?: 'slow_push_in' | 'slow_zoom_out' | 'pan_left' | 'pan_right' | 'pan_up' | 'pan_down' | 'drift_left' | 'drift_right' | 'drift_up' | 'drift_down' | 'anchor_right';
 }
 
+export interface ReelVideoClip {
+  publicPath: string;
+  staticFilePath: string;
+  sourceUrl: string;
+  trimBeforeFrames?: number;
+  playbackRate?: number;
+  fitMode?: 'cover' | 'square_center';
+}
+
 export interface ReelTypographyBeat {
   text: string;
   emphasis: string;
@@ -29,6 +38,7 @@ export interface ReelScene {
   typographyBeats: ReelTypographyBeat[];
   motion: string;
   images: ReelImage[];
+  videoClips?: ReelVideoClip[];
 }
 
 export interface ReelMotionCard {
@@ -40,6 +50,7 @@ export interface ReelMotionCard {
   headlineLines?: string[];
   subhead?: string;
   subheadLines?: string[];
+  badge?: string;
   bullets: string[];
   footer?: string;
   footerLines?: string[];
@@ -83,6 +94,13 @@ export interface ReelProps {
     startFrame: number;
     durationFrames: number;
     durationSeconds: number;
+  }>;
+  sfxSegments?: Array<{
+    file: string;
+    staticFilePath: string;
+    startFrame: number;
+    durationFrames: number;
+    volume?: number;
   }>;
   outro?: {
     startFrame: number;

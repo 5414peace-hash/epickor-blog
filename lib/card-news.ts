@@ -152,6 +152,10 @@ function buildCardNewsItem(folder: string, blogPostMap: Map<string, BlogPostMeta
     typeof frontmatter.total_cards === 'number'
       ? frontmatter.total_cards
       : slides.length;
+  const articlePath =
+    typeof frontmatter.article_path === 'string' && frontmatter.article_path.startsWith('/')
+      ? frontmatter.article_path
+      : `/blog/${slug}`;
 
   return {
     folder,
@@ -163,7 +167,7 @@ function buildCardNewsItem(folder: string, blogPostMap: Map<string, BlogPostMeta
     caption,
     coverImage: `/assets/cardnews/${folder}/card_01.png`,
     href: `/card-news/${slug}`,
-    blogHref: `/blog/${slug}`,
+    blogHref: articlePath,
     label: topicLabel(topic, blogPost),
     description: fallbackDescription(slides, blogPost),
     blogPost,
