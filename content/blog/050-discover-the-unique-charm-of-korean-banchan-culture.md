@@ -57,7 +57,7 @@ Banchan turns the diner into a participant.
 
 Kimchi is the banchan most foreigners recognize first, but in Korea it is not only a food trend or spicy garnish. It is a daily table item, a preservation technique, a regional food, a family memory, and a national symbol.
 
-UNESCO inscribed **kimjang**, the making and sharing of kimchi, on the Representative List of the Intangible Cultural Heritage of Humanity in 2013. Its page on <a href="https://ich.unesco.org/en/RL/kimjang-making-and-sharing-kimchi-in-the-republic-of-korea-00881?RL=00881&amp;lang=en" target="_blank" rel="noopener noreferrer">kimjang</a> emphasizes the seasonal and communal nature of preparing kimchi. That matters because kimchi is not just "Korean spicy cabbage." It is a practice of storing, sharing, seasoning, and adapting vegetables across households and regions.
+UNESCO inscribed **kimjang**, the making and sharing of kimchi, on the Representative List of the Intangible Cultural Heritage of Humanity in 2013. Its page on <a href="https://ich.unesco.org/en/RL/kimjang-making-and-sharing-kimchi-in-the-republic-of-korea-00881?RL=00881&amp;lang=en" target="_blank" rel="noopener noreferrer">kimjang</a> emphasizes the seasonal and communal nature of preparing kimchi. That matters because kimchi is not just "Korean spicy cabbage." It is a practice of storing, sharing, seasoning, and adapting vegetables across households and regions. If you are visiting Insadong, EpicKor's [Museum Kimchikan guide](/blog/062) turns that background into a practical Seoul stop.
 
 Travelers should try more than one kind:
 

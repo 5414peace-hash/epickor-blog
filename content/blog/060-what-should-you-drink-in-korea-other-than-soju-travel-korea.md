@@ -45,7 +45,7 @@ Makgeolli is an unrefined Korean rice wine made by fermenting grains with **nuru
 
 Makgeolli is a great first alternative because it feels different from soju immediately. It can be tangy, sweet, fizzy, creamy, dry, rustic, or modern depending on the brewery. It is often served in bowls or cups and paired with **jeon**, Korean pancakes. Rainy-day pajeon and makgeolli is one of Korea's most famous food-drink pairings.
 
-If you want a dedicated food pairing, read EpicKor's [pajeon and makgeolli rainy-day guide](/blog/149).
+If you want a dedicated food pairing, read EpicKor's [pajeon and makgeolli rainy-day guide](/blog/149). If the weather changes your whole itinerary, the broader [Korean rainy day food guide](/blog/065) covers noodles, soups, delivery, and no-alcohol options too.
 
 <div class="affiliate-inline-cta">
   <p><strong>Hoesik-table snack:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. Since Korean drinking culture is never just about drinks, compare <a href="https://amzn.to/4bubOGe" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean snack options</a> to understand the table rhythm better.</p>
