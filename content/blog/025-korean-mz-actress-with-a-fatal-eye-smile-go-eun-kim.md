@@ -108,7 +108,7 @@ Kim Go-eun's international appeal is not only about Korean beauty standards. It 
 
 Her career also helps explain why Korean entertainment travels well. It does not depend on one genre. The same performer can move from literature-based film to fantasy romance, webtoon adaptation, and occult mystery. Fans who enter through one format often discover another.
 
-For a broader map of Korean celebrity and soft power, read our [Korean soft power icons guide](/blog/002). If you want the actor-economics side of Hallyu, pair this with the [Kim Soo-hyun drama fee guide](/blog/042); if you want idol-to-drama visual branding, the [Cha Eun-woo guide](/blog/037) is the closer comparison. For the film side, our [Seoul bookstore and library guide](/blog/293) is useful if Korean cinema leads you toward translated books and culture spaces.
+For a broader map of Korean celebrity and soft power, read our [Korean soft power icons guide](/blog/002). If you want the actor-economics side of Hallyu, pair this with the [Kim Soo-hyun drama fee guide](/blog/042); if you want idol-to-drama visual branding, the [Cha Eun-woo guide](/blog/037) is the closer comparison. If her filmography makes you want a broader streaming path, the [Netflix K-drama watch-first guide](/blog/070) is a practical mood-based next step. For the film side, our [Seoul bookstore and library guide](/blog/293) is useful if Korean cinema leads you toward translated books and culture spaces.
 
 ## How Not to Misread Her Image
 

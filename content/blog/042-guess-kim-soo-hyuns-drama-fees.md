@@ -118,7 +118,7 @@ Why include affiliate context in a drama-fee article? Because Hallyu economics d
 
 The main takeaway is not "Kim Soo-hyun earns this exact amount." The better takeaway is that top K-drama actors are priced like global entertainment assets. Their value includes acting, but also financing confidence, streaming discovery, brand fit, fan memory, and social media afterlife.
 
-If you want to understand Korean celebrity economics more broadly, pair this article with our [Cha Eun-woo guide](/blog/037) and [Korean soft power icons guide](/blog/002). If you want the fan-collection side, read our [K-pop photocard guide](/blog/291). Together, those pages show how Hallyu turns attention into multiple business lanes.
+If you want to understand Korean celebrity economics more broadly, pair this article with our [Cha Eun-woo guide](/blog/037) and [Korean soft power icons guide](/blog/002). If you want the fan-collection side, read our [K-pop photocard guide](/blog/291). If you are choosing what to stream next, the [Netflix K-drama watch-first guide](/blog/070) connects Squid Game, newer Korean Netflix hits, and classic Hallyu viewing lanes. Together, those pages show how Hallyu turns attention into multiple business lanes.
 
 <div class="affiliate-inline-cta">
   <p><strong>Fan collection starter:</strong> If you collect actor photocards, albums, or fan-made drama cards, compare <a href="https://www.amazon.com/s?k=photocard+sleeves+toploaders&amp;tag=epickor2026-20" target="_blank" rel="nofollow sponsored noopener noreferrer">photocard sleeves and toploaders</a> before storing glossy cards in ordinary plastic.</p>
