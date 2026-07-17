@@ -47,9 +47,16 @@
 
 ## Deployment QA Plan
 
-After commit/push and Git-connected Vercel deployment:
+Git-connected production deployment:
 
-- Verify public HTTP 200 and expected title markers for `/blog/062`, `/blog/064`, and `/blog/065`.
-- Verify each public page contains `.affiliate-inline-cta`, `<table>`, and FAQ markers.
-- Verify sitemap contains `/blog/062`, `/blog/064`, and `/blog/065`.
-- Verify reverse/source links from `/blog/050`, `/blog/060`, `/blog/149`, and `/blog/159`.
+- Commit: `30aadc4c` (`Rewrite kimchi Suwon and rainy food posts`)
+- Deployment: `dpl_9nhW8Kr4c21ovMnKu9zVc5VmyCkt`
+- Production alias: `www.epickor.com`
+- Status: Ready
+
+Public QA results:
+
+- `/blog/062`, `/blog/064`, and `/blog/065` returned HTTP 200 and expected title markers.
+- Each rewritten public page contains `.affiliate-inline-cta`, `<table>`, and FAQ markers.
+- `sitemap.xml` contains `/blog/062`, `/blog/064`, and `/blog/065`.
+- Reverse/source links from `/blog/050`, `/blog/060`, `/blog/149`, and `/blog/159` are present publicly.
