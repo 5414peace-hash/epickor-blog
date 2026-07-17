@@ -48,7 +48,34 @@ Sitewide checks:
 
 ## Deployment
 
-Pending at the time of this initial report. Deployment ID, alias status, and public QA will be appended after commit, push, and Vercel verification.
+- Implementation commit: `da6d0e0f` (`Rewrite ssamjang travel and K-brand posts`)
+- Vercel deployment: `dpl_GQpGZftJtozRvysyxeLSZbcKeSB7`
+- Deployment URL: `https://epickor-blog-dadosaew5-yhs-projects-5de403d3.vercel.app`
+- Status: Ready
+- Aliases verified: `https://www.epickor.com`, `https://epickor.com`, `https://epickor-blog.vercel.app`
+
+## Public QA
+
+Public page checks passed:
+
+- `https://www.epickor.com/blog/083`: HTTP 200, expected title marker, affiliate CTA marker, table marker, FAQ marker
+- `https://www.epickor.com/blog/084`: HTTP 200, expected title marker, affiliate CTA marker, table marker, FAQ marker
+- `https://www.epickor.com/blog/085`: HTTP 200, expected title marker, affiliate CTA marker, table marker, FAQ marker
+
+Sitemap checks passed:
+
+- `/blog/083`
+- `/blog/084`
+- `/blog/085`
+
+Public reverse-link checks passed:
+
+- `050 -> /blog/083`
+- `299 -> /blog/083`
+- `026 -> /blog/084`
+- `169 -> /blog/084`
+- `002 -> /blog/085`
+- `291 -> /blog/085`
 
 ## Notes
 
