@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-labelledby="title desc">
+  <title id="title">DDP to Seongsu fashion route</title>
+  <desc id="desc">A route concept linking DDP fashion events, Seongsu pop-ups, and Hannam curated shopping.</desc>
+  <rect width="1200" height="800" fill="#eef2ff"/>
+  <text x="600" y="130" text-anchor="middle" font-family="Arial,sans-serif" font-size="50" font-weight="800" fill="#312e81">SEOUL FASHION ROUTE</text>
+  <path d="M220 420 C410 230 760 610 980 360" stroke="#4f46e5" stroke-width="18" fill="none" stroke-linecap="round"/>
+  <g font-family="Arial,sans-serif" fill="#312e81" font-weight="800">
+    <circle cx="220" cy="420" r="72" fill="#fff"/><text x="220" y="432" text-anchor="middle" font-size="34">DDP</text>
+    <circle cx="600" cy="420" r="72" fill="#fff"/><text x="600" y="432" text-anchor="middle" font-size="30">Seongsu</text>
+    <circle cx="980" cy="360" r="72" fill="#fff"/><text x="980" y="372" text-anchor="middle" font-size="30">Hannam</text>
+  </g>
+  <text x="600" y="645" text-anchor="middle" font-family="Arial,sans-serif" font-size="26" fill="#4338ca">Runway context → pop-up discovery → curated purchase.</text>
+</svg>

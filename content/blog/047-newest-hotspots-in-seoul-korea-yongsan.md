@@ -87,7 +87,7 @@ Yongsan is compact enough for a half day, but it rewards pacing. Do not stack to
 </table>
 </div>
 
-For neighborhood planning, compare Yongsan with our guides to [Seoul cafes](/blog/026), [Myeongdong, Hongdae, and Yongsan as Seoul bases](/blog/169), and [Seoul subway etiquette](/blog/174).
+For neighborhood planning, compare Yongsan with our guides to [Seoul cafes](/blog/026), [Myeongdong, Hongdae, and Yongsan as Seoul bases](/blog/169), and [Seoul subway etiquette](/blog/174). If you are choosing between Seoul's current trend districts rather than only Yongsan, EpicKor's [Seongsu vs Hannam guide](/blog/163) explains how those two neighborhoods differ.
 
 ## Food in Yongsan: What to Eat
 

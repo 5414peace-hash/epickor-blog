@@ -22,7 +22,7 @@ This guide explains the K-brand without treating it like magic. It is a mix of c
 
 ## Quick Answer: What Does K-Brand Mean?
 
-K-brand means the broad global recognition of Korean culture and products through the "K-" label. It includes pop culture such as K-pop and K-drama, but also food, beauty, fashion, language, tourism, design, games, webtoons, and even business interest in Korean companies.
+K-brand means the broad global recognition of Korean culture and products through the "K-" label. It includes pop culture such as K-pop and K-drama, but also food, beauty, fashion, language, tourism, design, games, webtoons, and even business interest in Korean companies. For the fashion-specific version of that loop, EpicKor's [Korean streetwear guide](/blog/164) explains how Seoul silhouettes, shopping districts, and sizing work in practice.
 
 The Ministry of Culture, Sports and Tourism and KOFICE's 2025 Overseas Hallyu Survey covered 26,400 respondents across 28 regions who had experienced Korean cultural content. Korea.net later reported that the 2026 Overseas Hallyu Survey found **69.7%** of 27,400 Korean-content-experienced respondents from 30 countries had a positive perception of Hallyu. Those surveys are not a perfect measure of every global consumer, but they show that Hallyu is now a measurable international cultural field, not just a fan anecdote.
 

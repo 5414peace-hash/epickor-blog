@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-labelledby="title desc">
+  <title id="title">Seongsu and Hannam Seoul neighborhood choice map</title>
+  <desc id="desc">EpicKor visual comparing Seongsu and Hannam for Seoul travelers.</desc>
+  <rect width="1200" height="800" fill="#f8fafc"/>
+  <rect x="70" y="70" width="1060" height="660" rx="46" fill="#fff"/>
+  <text x="600" y="145" text-anchor="middle" font-family="Arial,sans-serif" font-size="52" font-weight="800" fill="#111827">SEONGSU vs HANNAM</text>
+  <text x="600" y="195" text-anchor="middle" font-family="Arial,sans-serif" font-size="25" fill="#4b5563">Two Seoul neighborhoods, two very different travel moods.</text>
+  <rect x="130" y="270" width="420" height="330" rx="34" fill="#e0f2fe"/>
+  <text x="340" y="335" text-anchor="middle" font-family="Arial,sans-serif" font-size="42" font-weight="800" fill="#075985">SEONGSU</text>
+  <text x="340" y="405" text-anchor="middle" font-family="Arial,sans-serif" font-size="28" fill="#075985">warehouse cafes</text>
+  <text x="340" y="455" text-anchor="middle" font-family="Arial,sans-serif" font-size="28" fill="#075985">pop-ups</text>
+  <text x="340" y="505" text-anchor="middle" font-family="Arial,sans-serif" font-size="28" fill="#075985">brand flagships</text>
+  <rect x="650" y="270" width="420" height="330" rx="34" fill="#fce7f3"/>
+  <text x="860" y="335" text-anchor="middle" font-family="Arial,sans-serif" font-size="42" font-weight="800" fill="#9d174d">HANNAM</text>
+  <text x="860" y="405" text-anchor="middle" font-family="Arial,sans-serif" font-size="28" fill="#9d174d">galleries</text>
+  <text x="860" y="455" text-anchor="middle" font-family="Arial,sans-serif" font-size="28" fill="#9d174d">quiet luxury</text>
+  <text x="860" y="505" text-anchor="middle" font-family="Arial,sans-serif" font-size="28" fill="#9d174d">curated dining</text>
+  <text x="600" y="675" text-anchor="middle" font-family="Arial,sans-serif" font-size="24" fill="#6b7280">EpicKor.com · Seoul travel planning</text>
+</svg>

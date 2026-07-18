@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-labelledby="title desc">
+  <title id="title">K-living warm minimalism palette</title>
+  <desc id="desc">A warm Korean home palette using cream, light oak, clay, and soft green.</desc>
+  <rect width="1200" height="800" fill="#fffbeb"/>
+  <text x="600" y="130" text-anchor="middle" font-family="Arial,sans-serif" font-size="52" font-weight="800" fill="#713f12">K-LIVING PALETTE</text>
+  <g font-family="Arial,sans-serif" font-size="28" font-weight="800">
+    <rect x="140" y="250" width="200" height="300" rx="32" fill="#fef3c7"/><text x="240" y="610" text-anchor="middle" fill="#713f12">cream</text>
+    <rect x="370" y="250" width="200" height="300" rx="32" fill="#d6b98c"/><text x="470" y="610" text-anchor="middle" fill="#713f12">light oak</text>
+    <rect x="600" y="250" width="200" height="300" rx="32" fill="#c08457"/><text x="700" y="610" text-anchor="middle" fill="#713f12">clay</text>
+    <rect x="830" y="250" width="200" height="300" rx="32" fill="#bbf7d0"/><text x="930" y="610" text-anchor="middle" fill="#166534">soft green</text>
+  </g>
+</svg>

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-labelledby="title desc">
+  <title id="title">Seoul fashion shopping checklist</title>
+  <desc id="desc">A checklist for buying Korean fashion in Seoul.</desc>
+  <rect width="1200" height="800" fill="#f3f4f6"/>
+  <rect x="110" y="80" width="980" height="640" rx="42" fill="#fff"/>
+  <text x="600" y="155" text-anchor="middle" font-family="Arial,sans-serif" font-size="50" font-weight="800" fill="#111827">SEOUL SHOPPING CHECKLIST</text>
+  <g font-family="Arial,sans-serif" font-size="32" fill="#111827">
+    <text x="230" y="270">✓ Check measurements, not size letters</text>
+    <text x="230" y="350">✓ Compare fabric weight and seams</text>
+    <text x="230" y="430">✓ Try outerwear with your real layers</text>
+    <text x="230" y="510">✓ Save receipts for tax/refund rules</text>
+    <text x="230" y="590">✓ Leave luggage space for one hero item</text>
+  </g>
+</svg>
