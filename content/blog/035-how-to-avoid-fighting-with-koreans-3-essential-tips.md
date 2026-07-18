@@ -28,6 +28,8 @@ This does not mean you must accept bad service, unsafe behavior, discrimination,
 
 Three phrases help: "I'm sorry, but..." for softening, "Could you check once?" for a service issue, and "Maybe I misunderstood" when language or culture may be causing confusion. You do not need perfect Korean. A calm tone, patient body language, and willingness to clarify can carry a lot.
 
+For the broader first-visit behavior layer, EpicKor's [Korean etiquette guide](/blog/013) explains shoes indoors, two-hand exchanges, quiet transit, dining rules, and nunchi as everyday travel habits.
+
 <div class="table-scroll">
 <table>
   <thead><tr><th>Conflict Trigger</th><th>Why It Can Escalate</th><th>Better Move</th><th>What Not to Do</th></tr></thead>
