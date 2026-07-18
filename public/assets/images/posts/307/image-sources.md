@@ -1,28 +1,27 @@
 # Image Sources - Blog 307
 
-## kids-indoor-playground.jpg
+All three article images document named Seoul Kids Cafe facilities or programs on the Seoul Metropolitan Government's MediaHub. The source pages display Korea Open Government License Type 4 and the photographer/source attribution is preserved below.
 
-- Source: Pexels
-- Photo ID: 19875334
-- Photographer: Nothing Ahead
-- URL: https://www.pexels.com/photo/a-boy-playing-inside-an-indoor-playground-19875334/
-- Use: Hero image for kids-cafe-style indoor play environment.
-- Visual fit note: Direct indoor children's play-space context. Caption explicitly says it is not a specific Seoul public facility.
+## seoul-kids-cafe-hanseongbaekje.jpg
 
-## seoul-family-park.jpg
+- Source page: https://mediahub.seoul.go.kr/archives/2018417
+- Original image: https://mediahub.seoul.go.kr/uploads/mediahub/2026/06/SHAGJpXfqhzufraNTxdGtBlSZXoRpyKj.jpg
+- Source description: Colorful cube structures inside the Seoul Kids Cafe at Hanseong Baekje Museum.
+- Use: Hero and indoor public-play-space example.
+- Direct fit: Actual Seoul Kids Cafe branch photographed in Seoul in 2026.
 
-- Source: Pexels
-- Photo ID: 32148674
-- Photographer: Theodore Nguyen
-- URL: https://www.pexels.com/photo/families-spending-time-in-a-seoul-park-32148674/
-- Use: Outdoor Seoul family travel and Hangang/park pacing context.
-- Visual fit note: Seoul outdoor family context; not used to claim a specific Yeogijeogi Seoul Kids Cafe site.
+## yeogijeogi-seoul-kids-cafe-paris-park.jpg
 
-## kids-ball-pit.jpg
+- Source page: https://mediahub.seoul.go.kr/archives/2017834
+- Original image: https://mediahub.seoul.go.kr/uploads/mediahub/2026/04/dhrdhSuqfGIyBLUQPFPvLJXCNWOkHFgE.jpg
+- Photographer: Hwang Seung-hee, Seoul citizen reporter.
+- Use: Outdoor Yeogijeogi program and weather-sensitive scheduling section.
+- Direct fit: Actual Yeogijeogi Seoul Kids Cafe installation at Paris Park, Yangcheon-gu.
 
-- Source: Pexels
-- Photo ID: 19875873
-- Photographer: Nothing Ahead
-- URL: https://www.pexels.com/photo/a-child-playing-in-a-ball-pit-19875873/
-- Use: Indoor ball-pit and soft-play context.
-- Visual fit note: Direct kids-cafe-style play environment. Caption avoids claiming Seoul-specific facility identity.
+## seoul-kids-cafe-mok3-play-zone.jpg
+
+- Source page: https://mediahub.seoul.go.kr/archives/2017521
+- Original image: https://mediahub.seoul.go.kr/uploads/mediahub/2026/03/OtyrBpJczsYRYhUdjfQbQhUgdQxJYXAX.jpg
+- Photographer: Hwang Seung-hee, Seoul citizen reporter.
+- Use: Safety, age, and play-equipment section.
+- Direct fit: Padded climbing and ball-pit equipment at the Seoul Kids Cafe Mok 3-dong branch.

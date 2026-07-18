@@ -1,28 +1,26 @@
 # Image Sources - Blog 306
 
-## kpop-themed-building-seoul.jpg
+All three article images come from the official Visit Seoul listing for Real Kpop Dance in Mapo-gu, Seoul. The listing was edited on 2025-10-01 and identifies the facility, address, class format, and operator.
 
-- Source: Pexels
-- Photo ID: 32028691
-- Photographer: Theodore Nguyen
-- URL: https://www.pexels.com/photo/a-man-walking-by-a-k-pop-themed-building-in-seoul-32028691/
-- Use: Hero and Seoul/K-pop context image.
-- Visual fit note: Direct Seoul street context with Korean text and KPOP signage. Not presented as an official agency facility.
+Source page: https://english.visitseoul.net/entertainment/REAL-K-POP-DANCE/ENP015408
 
-## dance-studio-practice.jpg
+## real-kpop-group-class.jpg
 
-- Source: Pexels
-- Photo ID: 3902512
-- Photographer: RODNAE Productions
-- URL: https://www.pexels.com/photo/people-dancing-in-a-studio-3902512/
-- Use: Dance practice environment image.
-- Visual fit note: Generic dance-studio context, used transparently as a practice-room environment rather than a Seoul-specific K-pop academy.
+- Official image endpoint: https://english.visitseoul.net/comm/getImage?srvcId=MEDIA&parentSn=21538&fileTy=MEDIA&fileNo=1&thumbTy=L
+- Source label: `Real Kpop Dance_3`
+- Use: Hero and group choreography lesson.
+- Direct fit: Actual K-pop visitor class inside the named Mapo studio.
 
-## dance-class-instructor.jpg
+## real-kpop-dance-instructor.jpg
 
-- Source: Pexels
-- Photo ID: 5154353
-- Photographer: Yan Krukau
-- URL: https://www.pexels.com/photo/woman-in-black-long-sleeve-shirt-dancing-5154353/
-- Use: Instructor/class correction context.
-- Visual fit note: General dance instruction context. Caption avoids claiming it is a Korean program.
+- Official image endpoint: https://english.visitseoul.net/comm/getImage?srvcId=MEDIA&parentSn=21535&fileTy=MEDIA&fileNo=3&thumbTy=L
+- Source label: `REAL K-POP DANCE_1`
+- Use: Instructor demonstration and teaching flow.
+- Direct fit: Instructor photographed inside the same Seoul K-pop class featured by the article.
+
+## real-kpop-certificate.jpg
+
+- Official image endpoint: https://english.visitseoul.net/comm/getImage?srvcId=MEDIA&parentSn=21539&fileTy=MEDIA&fileNo=1&thumbTy=L
+- Source label: `Real Kpop Dance_4`
+- Use: Completion certificate and package-inclusion context.
+- Direct fit: Actual certificate handoff inside the named Seoul visitor program.

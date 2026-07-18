@@ -5,7 +5,7 @@ date: "2026-07-18"
 visibility: "public"
 publishAt: ""
 description: "A practical overseas-buyer guide to Korean medical device suppliers, dental implants, aesthetic devices, trade shows, MFDS checks, and sourcing risk."
-ogImage: "/assets/images/business/korean-medical-device-suppliers/dental-implant-drill-kit.jpg"
+ogImage: "/assets/images/business/korean-medical-device-suppliers/medi-expo-korea-2026.jpg"
 tags: ["KoreaMedicalDevices", "KoreanSuppliers", "KoreaSourcing", "MFDS"]
 author: "EpicKor Business Editor"
 businessType: "search-demand-guide"
@@ -25,8 +25,8 @@ Start with category scope, supplier role, regulatory status, manufacturing evide
 
 This guide is written for overseas buyers, distributors, sourcing teams, hospital procurement researchers, and market-entry operators who want a practical first map of **Korean medical device suppliers**. It is not legal, clinical, customs, reimbursement, or regulatory advice.
 
-![Dental implant instruments show one of the Korean medical device categories overseas buyers often research.](/assets/images/business/korean-medical-device-suppliers/dental-implant-drill-kit.jpg)
-*Dental implant systems are one visible part of Korea's medical device export story. This photo is a category illustration, not a specific Korean supplier claim. Photo by Jimmy Liao on Pexels.*
+![Visitors examine Korean rehabilitation technology at Medi Expo Korea 2026 in Daegu.](/assets/images/business/korean-medical-device-suppliers/medi-expo-korea-2026.jpg)
+*Medi Expo Korea gives buyers a working view of Korean manufacturers, product demonstrations, and competing technical approaches in one venue. Photo: Yonhap News via Korea.net.*
 
 ## Why Korea Is on Medical Device Buyers' Radar
 
@@ -65,8 +65,8 @@ For regulated products, distance from the actual legal manufacturer matters. If 
 
 This is why our broader [Korea supplier search guide](/business/how-to-find-suppliers-in-korea) recommends treating supplier discovery as a workflow rather than a directory hunt.
 
-![An ultrasound control panel illustrates the technical-service and documentation side of medical device sourcing.](/assets/images/business/korean-medical-device-suppliers/ultrasound-control-panel.jpg)
-*Technical categories require documentation, training, calibration, software, service, and replacement-part planning. Photo by MART PRODUCTION on Pexels.*
+![The MFDS English medical-device products page lists current Korean approval reports and product materials.](/assets/images/business/korean-medical-device-suppliers/mfds-medical-device-products.png)
+*The MFDS English portal is a useful starting point for Korean approval reports and product materials, but buyers still need product-specific and destination-market verification. Screenshot: Ministry of Food and Drug Safety.*
 
 ## Korea-Specific Verification Paths
 
@@ -131,8 +131,8 @@ If the device will be sold to clinics, spas, consumers, distributors, or hospita
 
 For adjacent consumer-beauty context, see our [APR Medicube global beauty-tech deep dive](/business/apr-medicube-global-beauty-tech-deep-dive) and [K-beauty OEM/ODM guide](/business/k-beauty-oem-odm-korea). Those are useful background, but medical devices require stricter evidence than cosmetics or general beauty goods.
 
-![An ultrasound probe represents device categories where technical documentation, training, and service matter as much as the purchase price.](/assets/images/business/korean-medical-device-suppliers/ultrasound-probe.jpg)
-*Medical device buying is not only about unit price. Service, documentation, indications, and training can decide whether a product works commercially. Photo by MART PRODUCTION on Pexels.*
+![MFDS officials examine a digital medical-device demonstration during an official manufacturing-site visit.](/assets/images/business/korean-medical-device-suppliers/mfds-digital-device-demonstration.jpg)
+*A product demonstration can reveal operating workflow and hardware design, but procurement decisions still require documentation, training, service, and regulatory checks. Photo: Ministry of Food and Drug Safety.*
 
 ## Red Flags
 
