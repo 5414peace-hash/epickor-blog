@@ -128,6 +128,8 @@ If you approach it with patience, Korean becomes more than a subtitle tool. It b
 
 One more mistake is studying only what feels aesthetically Korean: pretty handwriting, drama quotes, idol phrases, or cafe vocabulary. Those are motivating, but daily Korean also includes receipts, warnings, bus notices, restaurant options, polite refusals, and practical requests. A balanced learner keeps the fun material, then adds boring-useful language little by little. That is the difference between recognizing Korea as a vibe and actually moving through Korea with less friction.
 
+Once you can read basic Hangeul, EpicKor's [Korean proverbs guide](/blog/080) is a useful next step because it shows how small sayings carry timing, nunchi, and social values.
+
 ![Original EpicKor Korean-learning visual used as a Hangeul practice context image.](/assets/images/posts/068/094_epickor_%EB%AF%BC%ED%98%B8.mp4_20240809_184637.443.jpg)
 *The alphabet opens the door; repeated listening and social context teach you how to walk through it.*
 

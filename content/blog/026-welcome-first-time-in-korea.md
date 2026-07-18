@@ -124,6 +124,8 @@ Korea has hot, humid summers and cold winters, with regional variation. Check th
 
 Use layers in spring and autumn. In summer, carry water and plan indoor breaks. Obey closures around streams and underpasses during heavy rain.
 
+For family days or bad-weather backups, EpicKor's [Korea theme parks guide](/blog/078) helps compare Lotte World, Everland, and Korean Folk Village before you commit to a full-day route.
+
 Comfortable shoes matter because Seoul combines station corridors, slopes, and palace grounds. EpicKor's [Korea travel mistakes guide](/blog/073) is a useful packing check.
 
 <div class="affiliate-inline-cta">

@@ -26,6 +26,8 @@ South Korea feels intense because its modern transformation happened quickly and
 
 This speed produced extraordinary results: world-class companies, high education levels, digital infrastructure, global cultural exports, advanced cities, and strong national visibility. It also produced costs: long work hours, competition, regional inequality, gender tension, low fertility, housing stress, mental-health pressure, and deep public anger when institutions fail to protect people.
 
+For a narrower everyday-culture version of that pressure and speed, EpicKor's [Korean intensity culture guide](/blog/072) explains food contrast, ppalli-ppalli habits, work pressure, and why balance matters.
+
 The key is not to romanticize Korea as a miracle or reduce it to tragedy. Korea is both. The same society that can produce a joyful K-pop chorus can also carry heavy memories of war, dictatorship, disaster, and economic crisis.
 
 <div class="table-scroll">

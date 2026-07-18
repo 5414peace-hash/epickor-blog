@@ -66,6 +66,8 @@ Choose **Yeouido** if you care about central access and city atmosphere. Yeouido
 
 Choose **Jamsil** if you are staying around Jamsil, Songpa, Seokchon Lake, Lotte World, or the southeast side of Seoul and want a family-centered water-play option. It is not the same as a full pool resort day, but it can be the right low-friction cooling stop if your itinerary is already on that side of the city.
 
+If the weather turns too rainy or your group wants rides instead of water play, EpicKor's [Korea theme parks guide](/blog/078) compares Lotte World, Everland, and Korean Folk Village by weather, transit, and family fit.
+
 Choose **Nanji** or **Yanghwa** if your trip leans west and you want a casual river-park mood. These sites are better as part of a Hangang day than as the only major activity. Bring a picnic mat, manage shade carefully, and treat the water playground as the cooling chapter of a longer park plan.
 
 Choose **Gwangnaru** if you are based in eastern Seoul and want a more local, less tourist-coded outing. The earlier closing time matters, so it fits a morning or early afternoon plan better than a late-night summer schedule.
