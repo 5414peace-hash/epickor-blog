@@ -61,6 +61,8 @@ The basic facilities are usually restrooms, food court or snack counters, conven
 
 MOLIT has also treated rest areas as part of road safety and convenience. In 2025, the Ministry of Land, Infrastructure and Transport announced additional **Smart Rest Complex** locations on general national highways, describing them as integrated rest areas using digital-based smart technologies to provide road users with relaxing and cultural spaces. See MOLIT's English notice on <a href="https://www.molit.go.kr/english/USR/BORD0201/m_28286/DTL.jsp?id=eng_mltm_new&amp;idx=3278&amp;mode=view" target="_blank" rel="noopener noreferrer">integrated rest areas on general national highways</a>.
 
+For a wider look at Korea's self-service and machine-assisted daily life, read EpicKor's [Korea automated convenience guide](/blog/054), from Hangang ramyeon machines to unmanned food stores.
+
 In July 2026, Korean policy reporting said MOLIT announced a rest-area operation reform plan aimed at improving expensive food prices and weak service, including cheaper food pricing structures and more 24-hour convenience-store access from future operation changes. Because implementation details can vary, treat this as a policy direction rather than a guarantee at the exact stop you visit.
 
 ![Korean highway rest area snack and food frame from EpicKor's original package.](/assets/images/posts/012/9ad58e14-8aa2-4f95-ae39-9cef7ba40dde.png)

@@ -12,6 +12,8 @@ tags: ["Food", "Culture", "Economy", "Shopping"]
 
 ## Introduction: The 4 Billion Pack Industry
 
+For the machine-and-convenience side of this culture, pair this ramen guide with EpicKor's [Korea automated convenience guide](/blog/054), which covers Hangang ramyeon machines, unmanned stores, and robot-service expectations.
+
 South Korea has the highest per capita instant ramen consumption in the world. It is the national 'Soul Food'?遊쿴e cheap, high-energy fuel for a nation that never stops working. But Korean ramen is not just a meal; it is a laboratory of flavor innovation and a mirror of the national spice tolerance. This deep dive explores the 'Big Four' that every visitor must master to truly understand the Korean convenience store (CVS) experience.
 
 ---

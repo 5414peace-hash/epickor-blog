@@ -116,6 +116,7 @@ For EpicKor readers, the larger point is simple: Choi is a gateway. If you under
 - [Korean Hip-Hop's Journey From Underground to Mainstream](/blog/009) - useful for understanding another Korean culture lane that moved from subculture to global recognition.
 - [Korean Webtoon-to-Drama Adaptations](/blog/067) - shows how Korean screen storytelling keeps drawing from other popular media.
 - [Korea's Obsession With K-Branding](/blog/085) - explains how Korean culture packages itself for global recognition.
+- [South Korea Explained](/blog/056) - adds the broader growth, K-pop, tragedy, and resilience context behind modern Korean culture.
 
 <div class="affiliate-inline-cta">
   <p><strong>After the credits:</strong> Pair a late Korean film night with <a href="https://amzn.to/49fO0E8" target="_blank" rel="nofollow sponsored noopener noreferrer">Maxim coffee mix</a> if you want the easiest Korean pantry-style drink beside the screen.</p>

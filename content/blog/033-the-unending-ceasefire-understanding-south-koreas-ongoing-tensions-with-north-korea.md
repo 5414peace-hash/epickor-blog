@@ -112,6 +112,7 @@ For travelers, respecting that complexity matters. Do not tell Koreans they shou
 - [Korea Tourist Cheat Codes](/blog/084) - route planning by travel style, not panic or checklist pressure.
 - [How to Avoid Conflict in Korea](/blog/035) - useful if security, history, or national-identity topics come up in conversation.
 - [Top Jobs in Korea](/blog/039) - helpful background on conscription-adjacent social expectations and work culture.
+- [Korean Reserve Force Guide](/blog/045) - explains reserve training, lunch boxes, and why military duty still appears in everyday Korean life.
 - [Suwon and Hwaseong Fortress Guide](/blog/064) - a calmer way to understand Korean history through place.
 
 <div class="affiliate-inline-cta">
