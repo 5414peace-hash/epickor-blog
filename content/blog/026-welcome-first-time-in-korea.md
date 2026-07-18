@@ -155,7 +155,7 @@ Travel insurance should cover the activities you plan and provide an assistance 
 
 Do not schedule a timed palace tour immediately after landing. Immigration queues, baggage, SIM setup, and the airport transfer can vary. Reach your accommodation, confirm payment access and mobile data, buy a transit card, eat something simple, and take a short neighborhood walk.
 
-For day one, choose one major sight and one nearby backup. Group destinations by area instead of crossing Seoul repeatedly. Save the last train time, but leave enough money for a taxi in case fatigue or a missed connection changes the plan. If your arrival day becomes a full city sampler, use the [24-hour Seoul route guide](/blog/017) to pace markets, cafes, dinner, late-night transit, and the way back.
+For day one, choose one major sight and one nearby backup. Group destinations by area instead of crossing Seoul repeatedly. Save the last train time, but leave enough money for a taxi in case fatigue or a missed connection changes the plan. If your arrival day becomes a full city sampler, use the [24-hour Seoul route guide](/blog/017) to pace markets, cafes, dinner, late-night transit, and the way back. If you are also trying to read social warmth, eye contact, and Korean first-impression cues, the [Suzy first-love image guide](/blog/016) explains the celebrity-culture version without turning it into a dating stereotype.
 
 Korea rewards curiosity more than speed. The “ppalli-ppalli” reputation for doing things quickly does not require a visitor to rush. A realistic route, current official information, and room to change your mind will produce a better first trip than a checklist with 12 neighborhoods in one day.
 
