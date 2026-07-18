@@ -1,12 +1,12 @@
 # SEO + AEO Content Audit
 
-Generated: 2026-07-18T08:19:14.416Z
+Generated: 2026-07-18T08:38:55.430Z
 
 ## Overall Snapshot
 - Total posts: 273
-- Average SEO/AEO score: 98/100
+- Average SEO/AEO score: 99/100
 - Average word count: 2051
-- Average title length: 58
+- Average title length: 57
 - Average description length: 139
 - Stale posts (>180 days): 15
 
@@ -17,22 +17,13 @@ Generated: 2026-07-18T08:19:14.416Z
 - Low: 273
 
 ## Top Issue Frequency
-- title-length-out-of-range: 35 posts (13%)
+- title-length-out-of-range: 26 posts (10%)
 - stale-content: 15 posts (5%)
 - low-internal-linking: 8 posts (3%)
 
 ## Rewrite Priority Queue (Top 25)
 | slug | score | priority | words | h2 | internal_links | affiliate_links | issues |
 |---|---:|---|---:|---:|---:|---:|---|
-| 236 | 90 | low | 2195 | 10 | 4 | 0 | title-length-out-of-range |
-| 237 | 90 | low | 2098 | 11 | 5 | 0 | title-length-out-of-range |
-| 238 | 90 | low | 2129 | 12 | 4 | 0 | title-length-out-of-range |
-| 239 | 90 | low | 1912 | 10 | 5 | 0 | title-length-out-of-range |
-| 241 | 90 | low | 1792 | 11 | 6 | 0 | title-length-out-of-range |
-| 242 | 90 | low | 1844 | 12 | 6 | 0 | title-length-out-of-range |
-| 268 | 90 | low | 2154 | 9 | 4 | 0 | title-length-out-of-range |
-| 269 | 90 | low | 1847 | 9 | 4 | 0 | title-length-out-of-range |
-| 270 | 90 | low | 1965 | 10 | 4 | 0 | title-length-out-of-range |
 | 271 | 90 | low | 1783 | 9 | 4 | 0 | title-length-out-of-range |
 | 272 | 90 | low | 1746 | 10 | 5 | 0 | title-length-out-of-range |
 | 273 | 90 | low | 2081 | 12 | 8 | 0 | title-length-out-of-range |
@@ -49,6 +40,15 @@ Generated: 2026-07-18T08:19:14.416Z
 | 291 | 90 | low | 2406 | 10 | 11 | 0 | title-length-out-of-range |
 | 292 | 90 | low | 2173 | 11 | 5 | 0 | title-length-out-of-range |
 | 293 | 90 | low | 2242 | 11 | 7 | 0 | title-length-out-of-range |
+| 294 | 90 | low | 1893 | 10 | 2 | 0 | title-length-out-of-range |
+| 295 | 90 | low | 1932 | 10 | 3 | 0 | title-length-out-of-range |
+| 296 | 90 | low | 1859 | 11 | 3 | 0 | title-length-out-of-range |
+| 297 | 90 | low | 1975 | 11 | 3 | 0 | title-length-out-of-range |
+| 298 | 90 | low | 1820 | 7 | 4 | 0 | title-length-out-of-range |
+| 299 | 90 | low | 2000 | 8 | 9 | 0 | title-length-out-of-range |
+| 300 | 90 | low | 1900 | 8 | 4 | 0 | title-length-out-of-range |
+| 303 | 90 | low | 2450 | 13 | 8 | 0 | title-length-out-of-range |
+| 304 | 90 | low | 2478 | 14 | 11 | 0 | title-length-out-of-range |
 
 ## Targets
 - Title length: 45-65
