@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" role="img" aria-labelledby="title desc">
+  <title id="title">Carbo Buldak creamy heat choice map</title>
+  <desc id="desc">A simple editorial graphic showing how Carbo Buldak sits between spicy challenge noodles and creamy comfort noodles.</desc>
+  <rect width="1200" height="800" fill="#fff5f7"/>
+  <circle cx="190" cy="150" r="96" fill="#ff4b5f" opacity=".18"/>
+  <circle cx="1010" cy="650" r="132" fill="#ffcfda" opacity=".55"/>
+  <text x="84" y="94" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700" fill="#db2440">EPICKOR K-FOOD GUIDE</text>
+  <text x="84" y="170" font-family="Arial, Helvetica, sans-serif" font-size="62" font-weight="800" fill="#1f1f29">Carbo Buldak</text>
+  <text x="84" y="230" font-family="Arial, Helvetica, sans-serif" font-size="38" font-weight="700" fill="#7b2737">creamy heat map</text>
+  <line x1="160" y1="410" x2="1040" y2="410" stroke="#262433" stroke-width="10" stroke-linecap="round"/>
+  <circle cx="225" cy="410" r="32" fill="#f8d7df" stroke="#262433" stroke-width="6"/>
+  <circle cx="600" cy="410" r="44" fill="#ff6b7d" stroke="#262433" stroke-width="6"/>
+  <circle cx="975" cy="410" r="32" fill="#b50f2d" stroke="#262433" stroke-width="6"/>
+  <text x="145" y="495" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="800" fill="#262433">Creamier</text>
+  <text x="487" y="495" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="800" fill="#262433">Carbo Buldak</text>
+  <text x="870" y="495" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="800" fill="#262433">Hotter bite</text>
+  <rect x="110" y="560" width="300" height="118" rx="28" fill="#ffffff" stroke="#f0a5b3" stroke-width="4"/>
+  <rect x="450" y="560" width="300" height="118" rx="28" fill="#ffffff" stroke="#f0a5b3" stroke-width="4"/>
+  <rect x="790" y="560" width="300" height="118" rx="28" fill="#ffffff" stroke="#f0a5b3" stroke-width="4"/>
+  <text x="145" y="612" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="700" fill="#1f1f29">Use half sauce</text>
+  <text x="145" y="650" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#54505f">for spice-sensitive bowls</text>
+  <text x="485" y="612" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="700" fill="#1f1f29">Cook dry, not soup</text>
+  <text x="485" y="650" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#54505f">keep a splash of noodle water</text>
+  <text x="825" y="612" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="700" fill="#1f1f29">Add egg or cabbage</text>
+  <text x="825" y="650" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#54505f">to make it meal-like</text>
+  <text x="84" y="740" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#7b2737">Creamy does not mean mild. Taste first, then adjust.</text>
+</svg>

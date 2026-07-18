@@ -1,36 +1,33 @@
 # SEO + AEO Content Audit
 
-Generated: 2026-07-18T04:32:34.427Z
+Generated: 2026-07-18T04:55:23.401Z
 
 ## Overall Snapshot
 - Total posts: 273
 - Average SEO/AEO score: 95/100
-- Average word count: 1964
-- Average title length: 62
+- Average word count: 1979
+- Average title length: 61
 - Average description length: 138
-- Stale posts (>180 days): 20
+- Stale posts (>180 days): 18
 
 ## Priority Breakdown
 - Critical: 0
 - High: 0
-- Medium: 17
-- Low: 256
+- Medium: 14
+- Low: 259
 
 ## Top Issue Frequency
-- title-length-out-of-range: 86 posts (32%)
-- low-internal-linking: 25 posts (9%)
-- stale-content: 20 posts (7%)
-- thin-content: 16 posts (6%)
-- missing-faq-section: 15 posts (5%)
+- title-length-out-of-range: 83 posts (30%)
+- low-internal-linking: 24 posts (9%)
+- stale-content: 18 posts (7%)
+- thin-content: 13 posts (5%)
+- missing-faq-section: 13 posts (5%)
 - description-length-out-of-range: 3 posts (1%)
-- missing-description: 2 posts (1%)
+- missing-description: 1 posts (0%)
 
 ## Rewrite Priority Queue (Top 25)
 | slug | score | priority | words | h2 | internal_links | affiliate_links | issues |
 |---|---:|---|---:|---:|---:|---:|---|
-| 048 | 70 | medium | 396 | 6 | 3 | 0 | title-length-out-of-range, thin-content, missing-faq-section, stale-content |
-| 058 | 70 | medium | 399 | 6 | 3 | 0 | title-length-out-of-range, thin-content, missing-faq-section, stale-content |
-| 162 | 70 | medium | 624 | 6 | 0 | 0 | missing-description, title-length-out-of-range, thin-content, low-internal-linking |
 | 005 | 71 | medium | 438 | 7 | 3 | 0 | title-length-out-of-range, thin-content, missing-faq-section, stale-content |
 | 019 | 71 | medium | 432 | 7 | 3 | 0 | title-length-out-of-range, thin-content, missing-faq-section, stale-content |
 | 021 | 71 | medium | 452 | 6 | 3 | 0 | title-length-out-of-range, thin-content, missing-faq-section, stale-content |
@@ -53,6 +50,9 @@ Generated: 2026-07-18T04:32:34.427Z
 | 197 | 82 | low | 1929 | 13 | 1 | 0 | title-length-out-of-range, low-internal-linking |
 | 200 | 82 | low | 1737 | 12 | 1 | 0 | title-length-out-of-range, low-internal-linking |
 | 215 | 82 | low | 2034 | 16 | 1 | 0 | title-length-out-of-range, low-internal-linking |
+| 059 | 90 | low | 1790 | 11 | 6 | 0 | title-length-out-of-range |
+| 060 | 90 | low | 1759 | 12 | 12 | 0 | title-length-out-of-range |
+| 079 | 90 | low | 2283 | 9 | 12 | 0 | title-length-out-of-range |
 
 ## Targets
 - Title length: 45-65

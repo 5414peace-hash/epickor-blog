@@ -46,7 +46,7 @@ Their official diplomatic role also shows how popular culture became part of Kor
 
 BTS also changed what "Korean content" could look like overseas. Earlier Hallyu often moved through Asian drama markets first, then expanded outward. BTS fandom was more networked: YouTube, X, Weverse, TikTok, fan translations, reaction channels, and group chats. For many overseas fans, Korea became not a distant travel destination but a daily media environment.
 
-For a broader fan-culture path, pair this with our [K-pop photocard guide](/blog/291), [coin noraebang guide](/blog/292), and [BTS V military-service guide](/blog/044). Those explain how global fandom connects to small everyday habits, Korean civic context, and the post-service comeback cycle.
+For a broader fan-culture path, pair this with our [summer K-pop guide](/blog/058), [K-pop photocard guide](/blog/291), [coin noraebang guide](/blog/292), and [BTS V military-service guide](/blog/044). Those explain how global fandom connects to seasonal listening, small everyday habits, Korean civic context, and the post-service comeback cycle.
 
 <div class="affiliate-inline-cta">
   <p><strong>Build context before buying merch:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. If Hallyu made you curious about the country behind the songs, compare <a href="https://www.amazon.com/s?k=korean+culture+history+book&amp;tag=epickor-books-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean culture and history books</a> before filling a shelf only with fan goods.</p>
@@ -126,7 +126,7 @@ That approach keeps the article useful without turning culture into a personalit
     <tr><td>Film</td><td>Bong Joon-ho</td><td>Korean genre cinema and social satire</td><td><a href="/blog/293">Seoul bookstores and libraries</a></td></tr>
     <tr><td>TV personality</td><td>Yoo Jae-suk</td><td>Variety shows, speech levels, teasing</td><td><a href="/blog/090">Korean address terms</a></td></tr>
     <tr><td>Sporting excellence</td><td>Kim Yuna</td><td>Olympic memory and national attention</td><td><a href="/blog/081">Korean baseball fandom</a></td></tr>
-    <tr><td>Music and drama</td><td>IU</td><td>Lyrics, acting, concerts, OST culture</td><td><a href="/blog/061">Korean concert culture</a></td></tr>
+    <tr><td>Music and drama</td><td>IU</td><td>Lyrics, acting, concerts, OST culture</td><td><a href="/blog/058">Summer K-pop guide</a></td></tr>
   </tbody>
 </table>
 </div>

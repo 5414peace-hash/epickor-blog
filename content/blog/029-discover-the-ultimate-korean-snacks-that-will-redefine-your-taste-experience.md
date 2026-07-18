@@ -12,7 +12,7 @@ author: "EpicKor"
 
 **Korean snacks are not just souvenirs. They are one of the easiest ways to understand modern Korean taste: crunchy, sweet-salty, playful, fast-changing, and extremely convenience-store friendly.** If you visit Korea and only buy the same snacks you already saw online, you will still have fun. But if you understand how Korean snack aisles are organized, you can make much better choices: what to eat immediately, what to pack in a suitcase, what to compare at a mart, and what is better left as a one-time curiosity.
 
-This guide is written for travelers who want a practical snack map, not a random ranking. It explains why Turtle Chips became globally recognizable, why the Honey Butter Chip moment still matters, how convenience stores test new flavors, which snacks travel well, and how to avoid buying bulky items that melt, crush, or disappoint. For more food context, pair it with EpicKor's [Korean convenience-store food guide](/blog/059), [Korean breakfast guide](/blog/302), and [Buldak business deep dive](/business/samyang-foods-buldak-global-deep-dive).
+This guide is written for travelers who want a practical snack map, not a random ranking. It explains why Turtle Chips became globally recognizable, why the Honey Butter Chip moment still matters, how convenience stores test new flavors, which snacks travel well, and how to avoid buying bulky items that melt, crush, or disappoint. For more food context, pair it with EpicKor's [Korean convenience-store food guide](/blog/059), [Korean breakfast guide](/blog/302), [Carbo Buldak guide](/blog/048), and [Buldak business deep dive](/business/samyang-foods-buldak-global-deep-dive).
 
 ![Korean snack shelf with chips and sweet-salty snack options.](/assets/images/posts/029/fdd29860-8135-412c-a2b4-8551e90675d0.png)
 
@@ -104,7 +104,7 @@ Use translation apps for allergens and meat/seafood content. This matters if you
 
 Do not overbuy giant chip bags unless you have suitcase space. They crush, take up air, and can make your luggage smell like seasoning. Do not overbuy refrigerated desserts unless you have a same-day plan. Do not overbuy one viral snack before tasting it. And do not assume airport prices are the same as neighborhood mart prices.
 
-Also be careful with very spicy snacks. Korean spicy branding can mean mild warmth, but it can also mean actual heat. If the package uses Buldak-style fire imagery, treat it as a challenge item. If you are buying for children or spice-sensitive relatives, choose honey-butter, corn, seaweed, or cookie-style items.
+Also be careful with very spicy snacks. Korean spicy branding can mean mild warmth, but it can also mean actual heat. If the package uses Buldak-style fire imagery, treat it as a challenge item. If you are deciding whether the famous pink pack is right for you, read the [Carbo Buldak buying and cooking guide](/blog/048) before buying a large multipack. If you are buying for children or spice-sensitive relatives, choose honey-butter, corn, seaweed, or cookie-style items.
 
 ## The Seaweed Snack Advantage
 
