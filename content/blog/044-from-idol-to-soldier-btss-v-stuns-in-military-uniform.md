@@ -53,7 +53,7 @@ That is why agencies are careful with enlistment and discharge notices. They usu
 
 The service period also changes public language around idols. The star is no longer only a performer. He is temporarily a soldier, a citizen, and a member of a national system that many Korean men pass through.
 
-![BTS V military-service image pair from the original EpicKor visual package.](/assets/images/posts/044/047_epickor_%25EC%25A7%2584%25ED%2598%25B8.mp4_20240720_221206.474.jpg)
+![BTS V military-service image pair from the original EpicKor visual package.](/assets/images/posts/044/legacy-frame-01.jpg)
 *Military imagery can be powerful, but it should be read through Korean civic context, not only fan aesthetics.*
 
 ## V's Image Before and After Service
@@ -124,7 +124,7 @@ Post-service eras often bring a different kind of attention. Fans listen for mat
 
 For V, that creates a strong narrative lane: not a reinvention from zero, but a return with more life experience attached to the same distinctive tone.
 
-![BTS V military-service frame from the original EpicKor visual package.](/assets/images/posts/044/047_epickor_%25EC%25A7%2584%25ED%2598%25B8.mp4_20240720_221254.810.jpg)
+![BTS V military-service frame from the original EpicKor visual package.](/assets/images/posts/044/legacy-frame-02.jpg)
 *The post-service story is less about one uniform image and more about how BTS re-enters full-group life after a long staggered service period.*
 
 ## Sources and Further Reading

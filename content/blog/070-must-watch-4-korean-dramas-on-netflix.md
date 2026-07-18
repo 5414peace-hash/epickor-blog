@@ -69,7 +69,7 @@ If you usually watch prestige dramas, family sagas, or character-led stories, th
 
 The watch-out is pace. Viewers who come only for cliffhangers may mistake emotional patience for slowness. Korean dramas often build feeling through repeated meals, small gestures, family arguments, and seasonal memory. Give the story enough time to teach you its rhythm.
 
-![Korean streaming and entertainment visual from EpicKor's original drama package.](/assets/images/posts/070/099_eickor_%25EC%25A7%2584%25ED%2598%25B8_bgm%25EC%25A0%259C%25EA%25B1%25B0.mp4_20240827_102456.770.jpg)
+![Korean streaming and entertainment visual from EpicKor's original drama package.](/assets/images/posts/070/legacy-frame-01.jpg)
 *The best K-drama choice depends on whether you want spectacle, comfort, romance, tension, or cultural texture.*
 
 ## 3. The Trauma Code and Weak Hero: Fast, Modern, Easy to Start
@@ -94,7 +94,7 @@ Older Hallyu classics also matter, but you need to treat them differently from n
 
 That does not make them less important. It makes them a second step. Classics explain why certain Korean drama habits became beloved: destiny, memory, winter coats, neighborhood warmth, found family, restrained confession, and soundtracks that turn scenes into emotional anchors. They also help explain why actors such as Kim Go-eun, Kim Soo-hyun, and other major stars carry meaning beyond one title. EpicKor's [Kim Go-eun guide](/blog/025) is useful if you want to connect performance style and drama fandom.
 
-![Korean drama viewing visual from EpicKor's original Netflix Korea package.](/assets/images/posts/070/099_eickor_%25EC%25A7%2584%25ED%2598%25B8_bgm%25EC%25A0%259C%25EA%25B1%25B0.mp4_20240827_102509.066.jpg)
+![Korean drama viewing visual from EpicKor's original Netflix Korea package.](/assets/images/posts/070/legacy-frame-02.jpg)
 *Classic Hallyu titles help explain the emotional habits that newer Netflix Korean originals keep remixing.*
 
 <div class="table-scroll">

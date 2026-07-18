@@ -34,7 +34,7 @@ This is partly hygiene and partly habit. Korean floors are living surfaces. Peop
 
 In modern Korea, you keep shoes on in ordinary cafes, shops, offices, museums, and most chair-style restaurants. The clue is the entrance. If you see shoe racks, slippers, raised flooring, or other shoes lined up, pause and remove yours.
 
-![Original EpicKor shoes-off etiquette visual showing the indoor threshold that visitors should notice in Korea.](/assets/images/posts/013/8d9141df-b36e-484d-bc70-242395052fff.png)
+![Original EpicKor shoes-off etiquette visual showing the indoor threshold that visitors should notice in Korea.](/assets/images/posts/013/8d9141df-b36e-484d-bc70-242395052fff.jpg)
 *Shoes-off spaces are not rare tourist quirks. They are part of how Korean homes and floor-based spaces stay clean and comfortable.*
 
 ## 2. Two Hands Make a Small Moment Feel Respectful
@@ -124,7 +124,7 @@ Travelers can practice basic nunchi by slowing down for three seconds:
 
 That small pause solves many etiquette problems before they become problems.
 
-![Original EpicKor visual for Korean etiquette and social-reading context.](/assets/images/posts/013/4b5197c4-419f-4cbc-bd0b-cc0509d20194.png)
+![Original EpicKor visual for Korean etiquette and social-reading context.](/assets/images/posts/013/4b5197c4-419f-4cbc-bd0b-cc0509d20194.jpg)
 *Nunchi is not about fear. It is the useful habit of noticing the room before making yourself the center of it.*
 
 <div class="affiliate-inline-cta">

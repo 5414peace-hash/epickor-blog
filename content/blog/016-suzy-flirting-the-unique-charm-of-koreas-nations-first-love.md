@@ -59,7 +59,7 @@ Her acting identity became broader through television, film, streaming projects,
 
 For international fans, this career arc is useful because it shows how Hallyu fame layers over time. A star is rarely known for one thing in Korea. People remember the debut stage, the variety-show clip, the film breakthrough, the drama role, the commercial, the awards-show hosting, the meme, and the latest streaming project together. Suzy's image is especially durable because it can be recognized by older movie viewers, drama fans, K-pop fans, beauty shoppers, and short-form-video users at the same time.
 
-![Original EpicKor Suzy image package, used here as a celebrity-culture visual.](/assets/images/posts/016/bf501e9d-40d0-436a-9b3b-8afabb353ad6.png)
+![Original EpicKor Suzy image package, used here as a celebrity-culture visual.](/assets/images/posts/016/bf501e9d-40d0-436a-9b3b-8afabb353ad6.jpg)
 *Korean celebrity images are cumulative: debut memory, drama roles, interviews, fashion, and viral clips all stack together.*
 
 ## Why the "Flirting" Clips Hit Differently in Korea
@@ -102,7 +102,7 @@ Suzy's later roles work partly because they carry tension with her earlier image
 
 That is why Suzy remains useful as a cultural case study. She shows how Korean celebrity branding evolves without completely erasing the old version. The first-love image still opens the door. The newer roles decide whether people stay interested.
 
-![Original EpicKor Suzy visual used as a soft K-drama celebrity-culture image.](/assets/images/posts/016/d1d7eec0-02d5-46ab-bf85-52f12ab32648.png)
+![Original EpicKor Suzy visual used as a soft K-drama celebrity-culture image.](/assets/images/posts/016/d1d7eec0-02d5-46ab-bf85-52f12ab32648.jpg)
 *The strongest Korean celebrity images are not static; they let the audience remember the past while watching the present.*
 
 ## How to Talk About Suzy Without Sounding Outdated

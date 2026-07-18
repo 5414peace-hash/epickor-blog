@@ -5,14 +5,14 @@ date: "2024-07-30"
 updatedAt: "2026-07-18"
 description: "A practical Seoul K-pop birthday cafe guide explaining cup sleeves, photocards, Hongdae routes, fandom etiquette, costs, schedules, and fan-event planning."
 tags: ["Kpop", "BirthdayCafe", "Seoul", "Hallyu", "FanCulture"]
-ogImage: "/assets/images/posts/052/7b32c4a9-5a4b-409d-8c4c-5e15e479d5e6.png"
+ogImage: "/assets/images/posts/052/7b32c4a9-5a4b-409d-8c4c-5e15e479d5e6.jpg"
 ---
 
 A **K-pop birthday cafe** is one of the easiest ways to see Korean fandom become a real place. For a few days, an ordinary cafe turns into a temporary shrine for an idol, actor, webtoon character, esports player, or another beloved public figure. Fans decorate the space, prepare cup sleeves and photocards, organize lucky draws, share small gifts, and create a route that other fans can follow.
 
 The important thing for visitors is this: birthday cafes are usually fan-run, temporary, and schedule-sensitive. They are not the same as official agency shops. Some are polished enough to feel like pop-ups; others are small, sweet, and crowded. If you understand the rules before you go, the experience can be charming instead of confusing.
 
-![EpicKor birthday cafe explainer frame with Korean signage and large title text.](/assets/images/posts/052/7b32c4a9-5a4b-409d-8c4c-5e15e479d5e6.png)
+![EpicKor birthday cafe explainer frame with Korean signage and large title text.](/assets/images/posts/052/7b32c4a9-5a4b-409d-8c4c-5e15e479d5e6.jpg)
 *A legacy EpicKor frame introduces the birthday-cafe idea. Always verify the current event schedule before visiting because most cafes change themes quickly.*
 
 ## What Is a K-pop Birthday Cafe?

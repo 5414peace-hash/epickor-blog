@@ -8,7 +8,7 @@ publishAt: ""
 description: "A practical Suwon day trip guide from Seoul covering Hwaseong Fortress, Hwaseong Haenggung, Haenggung-dong cafes, food, transit, timing, and tips."
 tags: ['Suwon', 'HwaseongFortress', 'SeoulDayTrip', 'KoreaTravel', 'UNESCO']
 cleanUrl: ""
-ogImage: "/assets/images/posts/064/165c1dbd-7419-488a-a26f-3907fbfac515.png"
+ogImage: "/assets/images/posts/064/165c1dbd-7419-488a-a26f-3907fbfac515.jpg"
 author: "EpicKor"
 ---
 
@@ -18,7 +18,7 @@ The key is not to treat Suwon as "Seoul but farther." Suwon has its own logic. T
 
 This guide explains how to plan a Suwon day trip, what to see at Hwaseong Fortress and Hwaseong Haenggung, how much walking to expect, where Haenggung-dong fits, what to eat, and when to choose Suwon over other Seoul-area trips.
 
-![Suwon visual from EpicKor's original Hwaseong package.](/assets/images/posts/064/165c1dbd-7419-488a-a26f-3907fbfac515.png)
+![Suwon visual from EpicKor's original Hwaseong package.](/assets/images/posts/064/165c1dbd-7419-488a-a26f-3907fbfac515.jpg)
 *Suwon works because the fortress is not isolated from the city. The walls, gates, streets, cafes, and food routes sit together.*
 
 ## Quick Answer: Is Suwon Worth a Day Trip From Seoul?
@@ -62,7 +62,7 @@ Use Naver Map or Kakao Map on the day. Search for **Suwon Station**, **Hwaseong 
 
 Do not underestimate the final local leg. Suwon Station is useful, but the fortress area is not simply outside the station door for every route. A short taxi can be worth it if weather is bad or your group is tired.
 
-![Suwon fortress walk visual from EpicKor's original package.](/assets/images/posts/064/075_Epickor_%25EA%25B1%25B4%25EC%2588%259C.mp4_20240807_151845.615.jpg)
+![Suwon fortress walk visual from EpicKor's original package.](/assets/images/posts/064/legacy-frame-01.jpg)
 *The best Suwon day is paced around walking, not rushed transit checkmarks.*
 
 ## A Realistic Suwon Day Trip Itinerary
@@ -142,7 +142,7 @@ For photos, do not only stand at the first gate. Walk until the wall starts chan
 
 For walking, decide your maximum before you start. A full-wall ambition sounds romantic at breakfast and feels different after stairs, lunch, sun, and the return trip. A good half route with attention is better than a full loop you barely remember.
 
-![Suwon city-and-fortress visual from EpicKor's original package.](/assets/images/posts/064/075_Epickor_%25EA%25B1%25B4%25EC%2588%259C.mp4_20240807_151856.030.jpg)
+![Suwon city-and-fortress visual from EpicKor's original package.](/assets/images/posts/064/legacy-frame-02.jpg)
 *Suwon is close to Seoul, but it rewards a slower plan than a normal city errand.*
 
 ## Video Insight: The Charm of Suwon

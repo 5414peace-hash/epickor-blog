@@ -87,7 +87,7 @@ Before leaving the station, check the bike: brakes, saddle, tires, bell, and any
 
 Seoul also emphasizes cycling safety rules. Korean police and public-policy channels remind riders to use bike lanes where available, avoid phone and earphone distraction, use lights at night, and walk the bike across pedestrian crossings. Theft prevention and crash prevention are separate, but a rider who is already thinking carefully is less likely to make both kinds of mistake.
 
-![A Seoul running and cycling route near the Han River.](/assets/images/posts/248/seoul-running-crew-han-river.png)
+![A Seoul running and cycling route near the Han River.](/assets/images/posts/248/seoul-running-crew-han-river.jpg)
 *Riverside routes are comfortable for riding, running, and walking; station-area parking is where you need the stricter plan.*
 
 ## What to Do If Your Bike Is Missing

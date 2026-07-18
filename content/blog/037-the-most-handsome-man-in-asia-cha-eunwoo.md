@@ -124,7 +124,7 @@ Avoid three lazy readings. First, do not call him "the standard of Asian masculi
 
 The balanced reading is stronger: Cha Eun-woo is one of the clearest examples of how Korea turns visual appeal into a multi-platform entertainment asset. His face opened the door, but the lasting story is how that door connects music, drama, fashion, fandom, and national context.
 
-![Cha Eun-woo fashion-oriented frame from the original EpicKor visual package.](/assets/images/posts/037/3f78a519-f176-42af-9390-00cd3aa9bae6.png)
+![Cha Eun-woo fashion-oriented frame from the original EpicKor visual package.](/assets/images/posts/037/3f78a519-f176-42af-9390-00cd3aa9bae6.jpg)
 *The practical style lesson is restraint: clean grooming, controlled clothing lines, and one memorable accent.*
 
 ## Sources and Further Reading

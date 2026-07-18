@@ -5,7 +5,7 @@ date: "2024-08-07"
 updatedAt: "2026-07-18"
 description: "A practical Seoul hiking guide comparing Inwangsan, Achasan, Namsan, Bukhansan, Gwanaksan, gear etiquette, seasons, and first-timer trail tips."
 tags: ["SeoulHiking", "KoreaTravel", "Bukhansan", "Inwangsan", "OutdoorKorea"]
-ogImage: "/assets/images/posts/063/af4b8805-d6ac-4c9b-bb6d-f6bf3d5631c6.png"
+ogImage: "/assets/images/posts/063/af4b8805-d6ac-4c9b-bb6d-f6bf3d5631c6.jpg"
 ---
 
 Seoul hiking is one of the city's best surprises. You can ride the subway in the morning, climb above palace roofs or apartment towers, eat noodles or pajeon near the trailhead, and still be back in a cafe by afternoon.
@@ -14,7 +14,7 @@ The challenge is choosing the right mountain. Seoul has easy sunset walks, city-
 
 This Seoul hiking guide compares beginner, scenic, and challenging trails, explains the local hiking culture, and helps first-time visitors avoid the two classic mistakes: overdressing for a tiny hill or underpreparing for a real mountain.
 
-![Original EpicKor visual introducing Seoul's hiking culture and city-mountain contrast.](/assets/images/posts/063/af4b8805-d6ac-4c9b-bb6d-f6bf3d5631c6.png)
+![Original EpicKor visual introducing Seoul's hiking culture and city-mountain contrast.](/assets/images/posts/063/af4b8805-d6ac-4c9b-bb6d-f6bf3d5631c6.jpg)
 
 ## Why Seoul Is Such a Good Hiking City
 

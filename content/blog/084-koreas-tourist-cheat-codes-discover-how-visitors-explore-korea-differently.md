@@ -63,7 +63,7 @@ Beauty shoppers should separate Olive Young-style browsing from clinic or duty-f
 
 For a practical shopping stack, use EpicKor's [Seoul stationery shopping guide](/blog/298), [Korean cookware starter kit](/blog/299), [Seoul museum gift shop guide](/blog/300), and [K-beauty sunscreen guide](/blog/160). If accommodation matters, the [Seoul/Busan Agoda stay comparison](/blog/188) can help you choose a base that does not turn shopping into luggage pain.
 
-![Korea shopping and travel route visual from EpicKor's original package.](/assets/images/posts/084/111_epickor_%25EB%25AF%25BC%25ED%2598%25B8.mp4_20250111_214658.280.jpg)
+![Korea shopping and travel route visual from EpicKor's original package.](/assets/images/posts/084/legacy-frame-01.jpg)
 *Shopping in Korea works best when beauty, fashion, gifts, and food souvenirs are planned as separate missions.*
 
 ## Hallyu Travelers: Pick Anchors, Not Every Spot
@@ -109,7 +109,7 @@ For families, the cheat code is reducing transfers. A child-friendly Korea day i
 
 Business or buyer-style travelers need a different route again. They should protect appointment time, translation buffer, and transit margin instead of trying to squeeze tourism between meetings. If the trip includes Korean company research, trade shows, or sourcing curiosity, keep culture stops practical: a market, a department-store food hall, a business district, or a museum store can teach more about modern Korea than another rushed landmark.
 
-![Korea travel route frame from EpicKor's original tourist package.](/assets/images/posts/084/111_epickor_%25EB%25AF%25BC%25ED%2598%25B8.mp4_20250111_214703.285.jpg)
+![Korea travel route frame from EpicKor's original tourist package.](/assets/images/posts/084/legacy-frame-02.jpg)
 *A better Korea trip leaves enough space for recovery, repeat visits, and neighborhood texture.*
 
 ## FAQs About Korea Travel Cheat Codes

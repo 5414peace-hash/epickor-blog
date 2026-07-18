@@ -5,14 +5,14 @@ date: "2024-07-12"
 updatedAt: "2026-07-18"
 description: "A practical Korean moving guide explaining ladder trucks, packing movers, apartment access, contracts, damage checks, timing, and traveler lessons."
 tags: ["KoreanMoving", "Sadaricha", "KoreaLife", "Apartment", "KoreaTravel"]
-ogImage: "/assets/images/posts/020/379243b2-fce4-4cbf-865d-23a097060703.png"
+ogImage: "/assets/images/posts/020/379243b2-fce4-4cbf-865d-23a097060703.jpg"
 ---
 
 The Korean moving system looks unbelievable the first time you see it. A ladder truck parks beside an apartment tower, a platform rises toward a balcony, windows come out, and boxes or furniture seem to fly between the street and the living room. For visitors, it looks like a stunt. For many Koreans, it is simply moving day.
 
 This guide explains the practical side: why ladder trucks exist, what **pojang-isa** means, what to check before booking, why contracts matter, and what this tells you about Korean high-rise life.
 
-![Legacy EpicKor frame showing a Korean ladder-truck move outside an apartment building.](/assets/images/posts/020/379243b2-fce4-4cbf-865d-23a097060703.png)
+![Legacy EpicKor frame showing a Korean ladder-truck move outside an apartment building.](/assets/images/posts/020/379243b2-fce4-4cbf-865d-23a097060703.jpg)
 *The ladder truck is one of Korea's most visible answers to dense apartment living.*
 
 ## What Is Pojang-Isa?
@@ -80,7 +80,7 @@ The surprise comes from three things:
 
 That does not mean every move is effortless. It means the system is built around professional speed.
 
-![Legacy EpicKor frame showing ladder-truck equipment during a Korean apartment move.](/assets/images/posts/020/2695a870-400f-4eb0-9dcc-fd4d5223655b.png)
+![Legacy EpicKor frame showing ladder-truck equipment during a Korean apartment move.](/assets/images/posts/020/2695a870-400f-4eb0-9dcc-fd4d5223655b.jpg)
 *The impressive part is not only the machine. It is the coordination around access, timing, and building rules.*
 
 ## How Moving Day Usually Feels
@@ -153,7 +153,7 @@ This is where KCA's consumer advice becomes practical: if something goes wrong, 
 
 For renters, also separate the moving contract from the housing contract. Deposit return, cleaning, wall damage, elevator reservation, and parking approval may involve the landlord, real-estate office, building management, and moving company at different moments. Keep those conversations organized so one party does not blame another while you are standing between two apartments.
 
-![Legacy EpicKor frame showing another view of Korean moving equipment.](/assets/images/posts/020/761ec9c3-6a3d-4072-90d0-1e56e5dce10a.png)
+![Legacy EpicKor frame showing another view of Korean moving equipment.](/assets/images/posts/020/761ec9c3-6a3d-4072-90d0-1e56e5dce10a.jpg)
 *The best Korean move is not the fastest one. It is the one where access, cost, and responsibility are clear before the truck arrives.*
 
 ## Housewarming, Jajangmyeon, and the Human Side

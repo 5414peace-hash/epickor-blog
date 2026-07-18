@@ -74,7 +74,7 @@ The best Seoul neighborhood for a month is not always the most famous one. It is
 
 For a deeper neighborhood comparison, see EpicKor's [where to stay in Seoul guide](/blog/169) and [best time to visit Korea guide](/blog/127).
 
-![Seoul long-stay street and daily-life visual from EpicKor's original package.](/assets/images/posts/079/106_epickor_%25ED%259C%2598%25EC%2588%2598.mp4_20250105_214241.095.jpg)
+![Seoul long-stay street and daily-life visual from EpicKor's original package.](/assets/images/posts/079/legacy-frame-01.jpg)
 *For a month, choose a neighborhood you can repeat: station, grocery, laundry, cafe, park, and easy food matter more than one famous landmark.*
 
 ## Transit: T-money, Climate Card, and How to Move Without a Car
@@ -120,7 +120,7 @@ If the stay makes you curious about why cost and work pressure feel so heavy for
   <p><strong>For Seoul weather swings:</strong> A compact umbrella is one of the few items that helps in rain, sun, and surprise long walks. Compare <a href="https://www.amazon.com/s?k=compact+travel+umbrella&amp;tag=epickor2026-20" target="_blank" rel="nofollow sponsored noopener noreferrer">compact travel umbrellas</a> before packing for a month in Korea.</p>
 </div>
 
-![Seoul daily-life and transit visual from EpicKor's original one-month stay package.](/assets/images/posts/079/106_epickor_%25ED%259C%2598%25EC%2588%2598.mp4_20250105_214257.797.jpg)
+![Seoul daily-life and transit visual from EpicKor's original one-month stay package.](/assets/images/posts/079/legacy-frame-02.jpg)
 *The hidden budget leak in Seoul is not one big ticket. It is cafes, transport backups, pop-ups, weather gear, laundry, snacks, and small convenience purchases.*
 
 ## A Better One-Month Rhythm

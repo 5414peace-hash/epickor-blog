@@ -76,7 +76,7 @@ The lesson is bigger than one product. Korean convenience-store customers are va
 
 That is why celebrity food branding in Korea is not only about fame. The celebrity face must match the product promise. Kim Hye-ja's warm, trusted image fit a generous home-style lunch box. Baek Jong-won's practical food image fits mass-market flavor engineering.
 
-![A Korean convenience-store ready-meal image from EpicKor's original package.](/assets/images/posts/059/080_epickor_%25EC%25A7%2584%25ED%2598%25B8.mp4_20240801_221032.964.jpg)
+![A Korean convenience-store ready-meal image from EpicKor's original package.](/assets/images/posts/059/legacy-frame-01.jpg)
 *Celebrity branding works best when the name explains what kind of value the buyer expects.*
 
 ## How to Choose a Dosirak Lunch Box
@@ -144,7 +144,7 @@ If you want to understand everyday food beyond restaurants, spend fifteen minute
 
 That convenience-store logic also explains why Korean retail leadership matters. EpicKor's [Chung Yong-jin and Shinsegae guide](/blog/004) looks at the public-facing owner-executive model behind major consumer brands and the risks that come with retail visibility.
 
-![A packaged-food visual from EpicKor's Korean convenience-store package.](/assets/images/posts/059/080_epickor_%25EC%25A7%2584%25ED%2598%25B8.mp4_20240801_221040.044.jpg)
+![A packaged-food visual from EpicKor's Korean convenience-store package.](/assets/images/posts/059/legacy-frame-02.jpg)
 *The best Korean convenience-store choice is not always the most viral one. It is the item that fits your timing, appetite, and ability to eat it neatly.*
 
 ## Video Insight: Convenience Store Gurus

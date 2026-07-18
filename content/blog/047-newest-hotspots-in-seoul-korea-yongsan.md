@@ -8,7 +8,7 @@ publishAt: ""
 description: "A current Yongsan Seoul guide covering the War Memorial, Yongsan Park, Children’s Garden, Yongridan-gil cafes, food streets, transit, and itinerary tips."
 tags: ['Yongsan', 'SeoulTravel', 'KoreaTravel', 'WarMemorialOfKorea', 'YongridanGil']
 cleanUrl: ""
-ogImage: "/assets/images/posts/047/8171d3b9-5fe0-46d5-bb33-ff2c36e658c9.png"
+ogImage: "/assets/images/posts/047/8171d3b9-5fe0-46d5-bb33-ff2c36e658c9.jpg"
 author: "EpicKor"
 ---
 
@@ -18,7 +18,7 @@ That mix is exactly why Yongsan can feel confusing. It is not as instantly photo
 
 This guide explains what to do in Yongsan, how to plan the route, which stops are worth your time, and how to connect the area with the rest of Seoul.
 
-![A Yongsan street scene from EpicKor's original Seoul visual package.](/assets/images/posts/047/8171d3b9-5fe0-46d5-bb33-ff2c36e658c9.png)
+![A Yongsan street scene from EpicKor's original Seoul visual package.](/assets/images/posts/047/8171d3b9-5fe0-46d5-bb33-ff2c36e658c9.jpg)
 *Yongsan works best as a layered neighborhood: history first, then parks, food, cafes, and easy subway connections.*
 
 ## Quick Answer: Is Yongsan Worth Visiting?
@@ -60,7 +60,7 @@ The Ministry of Land, Infrastructure and Transport announced in late 2025 that p
 
 The travel meaning is simple: Yongsan is becoming more walkable and public, but it is still a changing district. Build flexibility into your day. If one entrance, event, or section is not convenient, you can still pair the War Memorial with cafes, restaurants, Ichon, the National Museum area, or Itaewon.
 
-![A street-level Yongsan scene near cafes and low-rise buildings.](/assets/images/posts/047/056_EpicKor_%25EC%259A%2594%25EC%2588%259C.mp4_20240722_221925.105.jpg)
+![A street-level Yongsan scene near cafes and low-rise buildings.](/assets/images/posts/047/legacy-frame-01.jpg)
 *The charm of Yongsan is not one landmark. It is the contrast between heavy history and casual street life.*
 
 ## Yongridan-gil: Cafes, Restaurants, and the New Yongsan Mood

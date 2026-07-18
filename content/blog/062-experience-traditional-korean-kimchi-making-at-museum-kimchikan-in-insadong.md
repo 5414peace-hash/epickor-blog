@@ -60,7 +60,7 @@ That matters because kimjang is not only a recipe. It is a seasonal project. Fam
 
 Museum Kimchikan makes that heritage easier to grasp in a city setting. A traveler may not be invited to a real family kimjang, but the museum can explain why the practice became a cultural symbol.
 
-![Kimchi and fermentation visual from EpicKor's original Museum Kimchikan package.](/assets/images/posts/062/086_epickor_%25EC%25A7%2584%25ED%2598%25B8.mp4_20240807_143344.588.jpg)
+![Kimchi and fermentation visual from EpicKor's original Museum Kimchikan package.](/assets/images/posts/062/legacy-frame-01.jpg)
 *Kimchi is easier to understand when you see it as preservation, seasoning, family memory, and daily table logic at once.*
 
 ## Should You Book a Kimchi Experience Program?
@@ -151,7 +151,7 @@ After visiting, try paying attention to kimchi in three different settings. At a
 
 This is where the museum's real value appears. It gives you vocabulary for food you were already going to eat. Instead of treating kimchi as one spicy object, you start seeing age, texture, acidity, region, salt, seafood, storage, and pairing. That small shift makes everyday meals more interesting.
 
-![Kimchi culture visual from EpicKor's original Insadong package.](/assets/images/posts/062/086_epickor_%25EC%25A7%2584%25ED%2598%25B8.mp4_20240807_143349.147.jpg)
+![Kimchi culture visual from EpicKor's original Insadong package.](/assets/images/posts/062/legacy-frame-02.jpg)
 *A short museum stop can make every kimchi plate you see later in Korea more readable.*
 
 ## Video Insight: The Kimchi Experience

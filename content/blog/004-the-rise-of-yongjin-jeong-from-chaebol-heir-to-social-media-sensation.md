@@ -64,7 +64,7 @@ This matters because Starbucks Korea is not an isolated cafe chain in the public
 
 The incident also changed the meaning of Chung's publicness. Visibility helped make him a recognizable leader, but it also made it natural for the public to expect him to stand in front of the issue. That is the core paradox of influencer-style leadership: the same attention that helps a leader humanize the company can turn into a demand for direct accountability when something goes wrong.
 
-![Shinsegae leadership and retail visual from EpicKor's original package.](/assets/images/posts/004/5dfa9df2-7699-4479-8811-10f8210dfd5e.png)
+![Shinsegae leadership and retail visual from EpicKor's original package.](/assets/images/posts/004/5dfa9df2-7699-4479-8811-10f8210dfd5e.jpg)
 *Consumer-facing conglomerates are judged not only by stores and sales, but by how quickly they understand public emotion.*
 
 ## Chaebol Leadership Is Changing, But Not Disappearing
@@ -106,7 +106,7 @@ For readers interested in Korea's shopping and consumer side, EpicKor's [Korean 
   <p><strong>Leadership lens:</strong> If this article is making you think about public executives and brand risk, compare <a href="https://www.amazon.com/s?k=business+leadership+books&amp;tag=epickor-books-20" target="_blank" rel="nofollow sponsored noopener noreferrer">business leadership books</a> with a focus on crisis communication and consumer trust.</p>
 </div>
 
-![Retail and leadership frame from EpicKor's original Shinsegae package.](/assets/images/posts/004/eef00638-949c-4476-b227-dc55602ea880.png)
+![Retail and leadership frame from EpicKor's original Shinsegae package.](/assets/images/posts/004/eef00638-949c-4476-b227-dc55602ea880.jpg)
 *The next phase of public chaebol leadership will be judged less by novelty and more by execution, governance, and repair after mistakes.*
 
 ## FAQs About Chung Yong-jin and Shinsegae

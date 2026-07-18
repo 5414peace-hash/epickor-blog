@@ -8,7 +8,7 @@ publishAt: ""
 description: "A Korean rainy day food guide covering pajeon, makgeolli, kalguksu, ramyeon, jeon, soups, delivery food, comfort meals, and rainy-season travel tips."
 tags: ['KoreanFood', 'RainyDayFood', 'Pajeon', 'Makgeolli', 'KoreaTravel']
 cleanUrl: ""
-ogImage: "/assets/images/posts/065/080ba621-2d5d-4a00-b55b-b65d0ed718e1.png"
+ogImage: "/assets/images/posts/065/080ba621-2d5d-4a00-b55b-b65d0ed718e1.jpg"
 author: "EpicKor"
 ---
 
@@ -18,7 +18,7 @@ The point is comfort. Rain slows the day, changes transit plans, makes outdoor s
 
 This guide explains why pajeon and makgeolli became famous, what else Koreans eat when it rains, what to order in Seoul, how to handle rainy-season travel, and how to enjoy the mood without forcing alcohol.
 
-![Korean rainy-day food visual from EpicKor's original package.](/assets/images/posts/065/080ba621-2d5d-4a00-b55b-b65d0ed718e1.png)
+![Korean rainy-day food visual from EpicKor's original package.](/assets/images/posts/065/080ba621-2d5d-4a00-b55b-b65d0ed718e1.jpg)
 *Rainy-day food in Korea is about warmth, sound, sharing, and adjusting the plan instead of fighting the weather.*
 
 ## Quick Answer: What Do Koreans Eat When It Rains?
@@ -66,7 +66,7 @@ Ramyeon is the no-drama rainy-day answer. You can eat it at a convenience store,
 
 The appeal is obvious: hot, spicy, cheap, and fast. Add egg, cheese, kimchi, tuna, rice, or convenience-store kimbap if you need more food. If you are shopping for instant noodles, EpicKor's [Korean ramen trends guide](/blog/219) and [Korean grocery tourism guide](/blog/209) help you choose without buying only the loudest package.
 
-![Korean rainy-day comfort-food visual from EpicKor's original package.](/assets/images/posts/065/092_epickor_%25EC%25A7%2584%25ED%2598%25B8.mp4_20240808_221507.041.jpg)
+![Korean rainy-day comfort-food visual from EpicKor's original package.](/assets/images/posts/065/legacy-frame-01.jpg)
 *Rain changes the value of food: hot, simple, nearby, and satisfying often beats famous and far away.*
 
 ## Stews: Kimchi Jjigae, Doenjang Jjigae, and Budae Jjigae
@@ -166,7 +166,7 @@ Do not schedule three famous food stops during heavy rain. Wet shoes, taxi delay
 
 The practical Korean move is flexible comfort. If pajeon is nearby, great. If the nearest safe option is kalguksu, that is also a rainy-day win. If the storm is ugly, convenience-store ramyeon in dry clothes may be the smartest meal of the trip.
 
-![Rainy-day Korean table visual from EpicKor's original package.](/assets/images/posts/065/092_epickor_%25EC%25A7%2584%25ED%2598%25B8.mp4_20240808_221521.693.jpg)
+![Rainy-day Korean table visual from EpicKor's original package.](/assets/images/posts/065/legacy-frame-02.jpg)
 *The best rainy-day food is the one that fits the weather, distance, group, and mood.*
 
 ## Video Insight: Rainy Day Comfort Food

@@ -78,7 +78,7 @@ Namul is important because it shows that Korean food is not only barbecue and sp
 
 For beginners, start with kongnamul muchim, seasoned soybean sprouts, or sigeumchi namul, seasoned spinach. They are common, approachable, and teach the sesame-garlic balance that appears across many Korean side dishes.
 
-![A close table view of Korean side dishes and rice-friendly small plates.](/assets/images/posts/050/050_epickor_%25EB%25AF%25BC%25ED%2598%25B8.mp4_20240723_224612.169.jpg)
+![A close table view of Korean side dishes and rice-friendly small plates.](/assets/images/posts/050/legacy-frame-01.jpg)
 *Banchan is not one flavor. It is a system of contrasts built around rice.*
 
 ## Jang: The Sauces Behind Banchan
@@ -145,7 +145,7 @@ Yes, especially with rice and soup. A simple Korean meal can be rice, kimchi, on
 
 But banchan is usually not meant to replace the main dish entirely in restaurant dining. It supports the main order, stretches the flavor, and makes the table feel complete.
 
-![A Korean meal spread showing how multiple banchan create variety around the main food.](/assets/images/posts/050/050_epickor_%25EB%25AF%25BC%25ED%2598%25B8.mp4_20240723_224650.257.jpg)
+![A Korean meal spread showing how multiple banchan create variety around the main food.](/assets/images/posts/050/legacy-frame-02.jpg)
 *The trick is not eating every side dish separately. It is building combinations bite by bite.*
 
 ## Video Insight: Banchan Culture

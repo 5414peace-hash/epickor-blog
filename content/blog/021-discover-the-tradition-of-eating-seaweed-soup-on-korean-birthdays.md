@@ -6,7 +6,7 @@ updatedAt: "2026-07-18"
 visibility: "public"
 publishAt: ""
 description: "A careful miyeokguk guide explaining Korean birthday seaweed soup, postpartum symbolism, ingredients, exam superstition, recipes, and etiquette."
-ogImage: "/assets/images/posts/021/95b36398-4217-4bac-bce9-ec4394ff4748.png"
+ogImage: "/assets/images/posts/021/95b36398-4217-4bac-bce9-ec4394ff4748.jpg"
 tags: ["Miyeokguk", "KoreanFood", "BirthdayTradition", "SeaweedSoup", "KoreanCulture"]
 author: "EpicKor"
 ---
@@ -15,7 +15,7 @@ author: "EpicKor"
 
 This guide explains why miyeokguk matters, what goes into the soup, how the postpartum tradition became a birthday ritual, why some Koreans avoid it before exams, and how to understand the health language without turning culture into medical advice. For wider Korean home-food context, pair it with EpicKor's [Korean breakfast guide](/blog/302), [Korean banchan culture guide](/blog/050), [Korean pantry starter kit](/blog/277), and [samgyetang guide](/blog/263).
 
-![A bowl of Korean miyeokguk seaweed soup for birthday and home-food context.](/assets/images/posts/021/95b36398-4217-4bac-bce9-ec4394ff4748.png)
+![A bowl of Korean miyeokguk seaweed soup for birthday and home-food context.](/assets/images/posts/021/95b36398-4217-4bac-bce9-ec4394ff4748.jpg)
 
 ## The Short Answer
 
@@ -45,7 +45,7 @@ In many countries, birthdays focus on the individual: your cake, your wish, your
 
 That is why miyeokguk can appear in K-dramas as shorthand. If a character cooks it for someone, the gesture often means care, intimacy, family, apology, or emotional repair. A bowl of soup can say what the dialogue is too shy to say.
 
-![A Korean seaweed soup image showing the home-meal mood of miyeokguk.](/assets/images/posts/021/f5e8ca45-a2d8-42db-b31d-4973b64cb0ec.png)
+![A Korean seaweed soup image showing the home-meal mood of miyeokguk.](/assets/images/posts/021/f5e8ca45-a2d8-42db-b31d-4973b64cb0ec.jpg)
 
 ## The Postpartum Connection
 
@@ -96,7 +96,7 @@ If you are cooking miyeokguk for a Korean person's birthday, ask about their fam
 
 If you are invited to a birthday meal and miyeokguk appears, do not joke that it looks plain compared with cake. The plainness is part of its power. It is a meal that remembers care before celebration.
 
-![A Korean seaweed soup and home table scene for birthday etiquette.](/assets/images/posts/021/85f623c4-8cf4-4eeb-936c-9fa7f4e71205.png)
+![A Korean seaweed soup and home table scene for birthday etiquette.](/assets/images/posts/021/85f623c4-8cf4-4eeb-936c-9fa7f4e71205.jpg)
 
 ## The Exam Superstition
 

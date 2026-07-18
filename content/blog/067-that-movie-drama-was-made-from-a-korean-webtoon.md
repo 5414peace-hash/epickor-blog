@@ -5,7 +5,7 @@ date: "2024-08-12"
 updatedAt: "2026-07-18"
 description: "A practical guide to Korean webtoons, why vertical comics became K-drama source material, and how beginners can start reading."
 tags: ["Webtoon", "KDrama", "Hallyu", "KoreanCulture", "Streaming"]
-ogImage: "/assets/images/posts/067/bfab7368-4346-469f-9c8c-1fcfeeba44eb.png"
+ogImage: "/assets/images/posts/067/bfab7368-4346-469f-9c8c-1fcfeeba44eb.jpg"
 ---
 
 Korean webtoons are not just online comics. They are one of the engines behind modern Korean screen culture. If you have watched a K-drama, Korean thriller, school romance, revenge story, or fantasy series and later learned it came from a webtoon, you have already met the system.
@@ -14,7 +14,7 @@ The basic format is simple: mobile-first, vertical-scroll episodes released regu
 
 This guide explains what Korean webtoons are, why they adapt so well into dramas, what Naver Webtoon and Kakao changed, how global readers should start, and what to avoid if you are new to the format.
 
-![Original EpicKor webtoon visual used as a mobile storytelling context image.](/assets/images/posts/067/bfab7368-4346-469f-9c8c-1fcfeeba44eb.png)
+![Original EpicKor webtoon visual used as a mobile storytelling context image.](/assets/images/posts/067/bfab7368-4346-469f-9c8c-1fcfeeba44eb.jpg)
 
 ## What Is a Korean Webtoon?
 

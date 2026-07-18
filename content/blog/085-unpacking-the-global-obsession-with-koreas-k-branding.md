@@ -62,7 +62,7 @@ That is why K-branding feels unusually connected. The same person can watch a dr
 
 For EpicKor, the editorial opportunity is to help readers move from vague interest to useful decisions. If someone discovers Korea through a show, the next helpful article might be [what Korean dramas to watch first](/blog/070), [why Korean webtoons feed K-drama adaptations](/blog/067), [how to start learning Hangeul and Korean](/blog/068), [what Koreans eat for breakfast](/blog/302), [how to use Naver or Kakao maps](/blog/222), or [where to stay in Seoul](/blog/169). Trust grows when the next step is practical, not just promotional.
 
-![Korean culture and K-brand frame from EpicKor's original package.](/assets/images/posts/085/112_EpicKor_%25EC%259A%2594%25EC%2588%259C.mp4_20250112_221620.445.jpg)
+![Korean culture and K-brand frame from EpicKor's original package.](/assets/images/posts/085/legacy-frame-01.jpg)
 *Hallyu attention becomes stronger when it leads to repeatable actions: watch, eat, shop, learn, travel, and share.*
 
 ## K-Pop, K-Drama, K-Food, and K-Beauty Are Different Engines
@@ -110,7 +110,7 @@ For EpicKor's purpose, that is the sweet spot. The reader arrives through cultur
   <p><strong>Wear the Korea signal lightly:</strong> For travel days, fan events, or simple souvenir styling, compare this <a href="https://amzn.to/4o5YOk8" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean flag dad hat</a> only if the design fits your actual use.</p>
 </div>
 
-![Korean identity and K-culture visual from EpicKor's original package.](/assets/images/posts/085/112_EpicKor_%25EC%259A%2594%25EC%2588%259C.mp4_20250112_221625.772.jpg)
+![Korean identity and K-culture visual from EpicKor's original package.](/assets/images/posts/085/legacy-frame-02.jpg)
 *The strongest K-brand content helps people understand Korea better, not just consume the label faster.*
 
 ## FAQs About K-Brand and Hallyu

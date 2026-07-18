@@ -8,7 +8,7 @@ publishAt: ""
 description: "A practical Choncance Korea guide explaining countryside stays, hanok lodging, rural villages, slow travel etiquette, packing, and itinerary ideas."
 tags: ['Choncance', 'KoreaTravel', 'HanokStay', 'SlowTravel', 'CountrysideKorea']
 cleanUrl: ""
-ogImage: "/assets/images/posts/057/e9146773-6fdc-4126-b1ef-7b425ba870cf.png"
+ogImage: "/assets/images/posts/057/e9146773-6fdc-4126-b1ef-7b425ba870cf.jpg"
 author: "EpicKor"
 ---
 
@@ -18,7 +18,7 @@ It is not simply "going rural." A good Choncance trip is about changing the pace
 
 This guide explains what Choncance means, where to try it, how to choose a legal and comfortable stay, what to pack, what manners matter in small villages, and how to build a slow Korea itinerary without romanticizing rural life.
 
-![A countryside-stay mood image from EpicKor's original Choncance visual package.](/assets/images/posts/057/e9146773-6fdc-4126-b1ef-7b425ba870cf.png)
+![A countryside-stay mood image from EpicKor's original Choncance visual package.](/assets/images/posts/057/e9146773-6fdc-4126-b1ef-7b425ba870cf.jpg)
 *Choncance is Korea's slow-travel answer to the pressure of doing too much in Seoul.*
 
 ## Quick Answer: What Is Choncance?
@@ -90,7 +90,7 @@ Before booking, check:
 
 Korea Tourism Organization also operates SafeStay in Korean for legal lodging checks. If you can navigate Korean or ask a Korean-speaking friend, the <a href="https://safestay.visitkorea.or.kr/" target="_blank" rel="noopener noreferrer">KTO SafeStay lodging lookup</a> can help verify registered accommodations.
 
-![A rural-stay image showing the slower, home-like mood associated with Choncance.](/assets/images/posts/057/074_EpicKor_%25EC%259A%2594%25EC%2588%259C.mp4_20240731_221204.526.jpg)
+![A rural-stay image showing the slower, home-like mood associated with Choncance.](/assets/images/posts/057/legacy-frame-01.jpg)
 *A successful Choncance stay is less about luxury and more about matching the lodging style to your comfort level.*
 
 ## A Simple One-Night Choncance Itinerary
@@ -165,7 +165,7 @@ Spring and autumn are the easiest seasons. Spring brings blossoms, greens, and o
 
 If your goal is photography, choose clear-season weekends carefully because popular hanok areas can fill quickly. If your goal is rest, weekdays are better.
 
-![A countryside food-and-stay visual from EpicKor's original Choncance package.](/assets/images/posts/057/074_EpicKor_%25EC%259A%2594%25EC%2588%259C.mp4_20240731_221210.094.jpg)
+![A countryside food-and-stay visual from EpicKor's original Choncance package.](/assets/images/posts/057/legacy-frame-02.jpg)
 *Choncance is most enjoyable when the schedule leaves enough space for weather, meals, and doing very little.*
 
 ## Video Insight: The Choncance Trend

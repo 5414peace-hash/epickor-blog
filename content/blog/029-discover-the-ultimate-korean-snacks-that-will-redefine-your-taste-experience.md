@@ -6,7 +6,7 @@ updatedAt: "2026-07-18"
 visibility: "public"
 publishAt: ""
 description: "A practical Korean snacks guide comparing Turtle Chips, honey-butter flavors, seaweed snacks, convenience-store finds, souvenirs, and packing tips."
-ogImage: "/assets/images/posts/029/fdd29860-8135-412c-a2b4-8551e90675d0.png"
+ogImage: "/assets/images/posts/029/fdd29860-8135-412c-a2b4-8551e90675d0.jpg"
 tags: ["KoreanSnacks", "KoreanFood", "KoreaShopping", "ConvenienceStore", "KFood"]
 author: "EpicKor"
 ---
@@ -17,7 +17,7 @@ This guide is written for travelers who want a practical snack map, not a random
 
 If snacks are only one part of your gift list, EpicKor's [Korean souvenir guide](/blog/041) helps you balance food, beauty, crafts, alcohol, luggage weight, and customs rules.
 
-![Korean snack shelf with chips and sweet-salty snack options.](/assets/images/posts/029/fdd29860-8135-412c-a2b4-8551e90675d0.png)
+![Korean snack shelf with chips and sweet-salty snack options.](/assets/images/posts/029/fdd29860-8135-412c-a2b4-8551e90675d0.jpg)
 
 ## The Short Answer
 
@@ -46,7 +46,7 @@ Korean food writing often uses the word **sikgam**, meaning texture or mouthfeel
 
 That is why Orion's Turtle Chips, known in Korea as Kkobuk Chip, became such a useful example. Orion's official English product pages describe versions of the snack around its four crispy layers, and the shape is the point: one bite gives a stacked crunch instead of a flat potato-chip snap. Orion has also kept expanding the Turtle Chips idea internationally, including a 2025 Korea-U.S. simultaneous release of a yangnyeom-chicken flavor noted in its Korean press materials. The important lesson for travelers is not one exact flavor. It is that Korean snacks often sell an eating action, not just an ingredient.
 
-![Layered Korean snack texture close-up.](/assets/images/posts/029/8084b0a7-7012-417a-8313-26f4c73c6f9b.png)
+![Layered Korean snack texture close-up.](/assets/images/posts/029/8084b0a7-7012-417a-8313-26f4c73c6f9b.jpg)
 
 ## The Sweet-Salty Pattern
 
@@ -66,7 +66,7 @@ Korean convenience stores are not only places to buy water. CU, GS25, 7-Eleven, 
 
 This is why a good Korean snack route should include both a convenience store and a larger mart. Convenience stores are better for discovery and single portions. Hypermarkets and supermarkets are better for bulk, boxes, multi-packs, and suitcase gifts. If you are near Seoul Station, Lotte Mart has historically been a popular foreign-traveler stop; Yonhap has reported on special K-food shopping zones and services for inbound visitors at major branches.
 
-![Korean convenience-store snack haul with sweet and savory options.](/assets/images/posts/029/fa3bfa45-9beb-4dc9-9f5f-ae81e67f1bfe.png)
+![Korean convenience-store snack haul with sweet and savory options.](/assets/images/posts/029/fa3bfa45-9beb-4dc9-9f5f-ae81e67f1bfe.jpg)
 
 The smartest move is simple. Use convenience stores for trial, then use a supermarket for purchase. That keeps you from buying six bags of something just because the packaging looked exciting at midnight.
 

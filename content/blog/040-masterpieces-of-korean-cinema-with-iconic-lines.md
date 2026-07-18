@@ -123,7 +123,7 @@ Streaming availability changes constantly by country. Do not trust an old blog p
 
 If a film is not available in your region, do not jump to illegal uploads. Korean cinema has a strong international rights ecosystem, and availability often rotates. Legal access supports the companies and archives that keep these films visible.
 
-![Korean cinema watchlist and subtitle note.](/assets/images/posts/040/8ae7024d-2a2a-4b68-b4cd-018848c51091.png)
+![Korean cinema watchlist and subtitle note.](/assets/images/posts/040/8ae7024d-2a2a-4b68-b4cd-018848c51091.jpg)
 
 ## Why These Films Help Travelers
 

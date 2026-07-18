@@ -8,7 +8,7 @@ publishAt: ""
 description: "A 2026 Hangang swimming pool guide covering dates, hours, fees, sites, swim-cap rules, weather pauses, and what to bring."
 tags: ['Hangang', 'SeoulSummer', 'SwimmingPools', 'FamilyTravel', 'KoreaTravel']
 cleanUrl: ""
-ogImage: "/assets/images/posts/066/b2720fc1-c0b2-4625-92d6-47fbc137e1b4.png"
+ogImage: "/assets/images/posts/066/b2720fc1-c0b2-4625-92d6-47fbc137e1b4.jpg"
 author: "EpicKor"
 ---
 
@@ -18,7 +18,7 @@ For 2026, the most important update is that Seoul is operating a mixed set of **
 
 This guide explains which Hangang water site fits your trip, how much it costs, what rules matter, what to pack, and how to avoid the common mistakes that make a Seoul summer day feel harder than it needs to be.
 
-![Summer Hangang pool visual from EpicKor's original Seoul river package.](/assets/images/posts/066/b2720fc1-c0b2-4625-92d6-47fbc137e1b4.png)
+![Summer Hangang pool visual from EpicKor's original Seoul river package.](/assets/images/posts/066/b2720fc1-c0b2-4625-92d6-47fbc137e1b4.jpg)
 *Hangang pools are public summer facilities, so the best experience comes from planning around rules, heat, crowds, and weather.*
 
 ## Quick Answer: Are Hangang Swimming Pools Worth It in 2026?
@@ -73,7 +73,7 @@ Choose **Nanji** or **Yanghwa** if your trip leans west and you want a casual ri
 
 Choose **Gwangnaru** if you are based in eastern Seoul and want a more local, less tourist-coded outing. The earlier closing time matters, so it fits a morning or early afternoon plan better than a late-night summer schedule.
 
-![Hangang summer frame from EpicKor's original river video package.](/assets/images/posts/066/088_EpicKor_%25EC%259A%2594%25EC%2588%259C.mp4_20240808_221604.077.jpg)
+![Hangang summer frame from EpicKor's original river video package.](/assets/images/posts/066/legacy-frame-01.jpg)
 *A good Hangang pool day is less about luxury and more about cooling down without leaving the city.*
 
 ## What to Bring: A Practical Seoul Summer Pool Checklist
@@ -112,7 +112,7 @@ The third mistake is choosing the wrong site for your neighborhood. Seoul looks 
 
 Finally, do not plan a delicate dinner reservation immediately after the pool. You may need time to shower, dry off, manage wet clothes, and move slowly through summer transit. A better day pairs the pool with a simple dinner, convenience-store snacks, river walking, or a low-pressure Hangang picnic. EpicKor's [Hangang night picnic guide](/blog/267) and [Hangang Bus guide](/blog/208) can help you build the rest of the day.
 
-![Hangang summer activity frame from EpicKor's original video package.](/assets/images/posts/066/088_EpicKor_%25EC%259A%2594%25EC%2588%259C.mp4_20240808_221621.731.jpg)
+![Hangang summer activity frame from EpicKor's original video package.](/assets/images/posts/066/legacy-frame-02.jpg)
 *Check weather and break times before leaving; Hangang water facilities are seasonal outdoor operations, not all-weather attractions.*
 
 ## A Simple One-Day Hangang Pool Plan

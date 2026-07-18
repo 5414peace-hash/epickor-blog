@@ -37,7 +37,7 @@ VisitKorea describes Korean fried chicken as a popular dish with many flavor opt
 
 The best first order is often **half-and-half**: one half original crispy, one half yangnyeom or soy garlic. Original lets you understand texture. Sauce lets you understand why Korean chicken became a flavor playground.
 
-![Original EpicKor visual showing the crispy texture and shared-table appeal of Korean fried chicken.](/assets/images/posts/018/833e943a-2661-4794-ad11-214e305cae57.png)
+![Original EpicKor visual showing the crispy texture and shared-table appeal of Korean fried chicken.](/assets/images/posts/018/833e943a-2661-4794-ad11-214e305cae57.jpg)
 
 ## Chimaek is a ritual, not a requirement
 
@@ -72,7 +72,7 @@ For first-timers, the safest path is:
 
 The mistake is assuming the most viral flavor is automatically the best. Some flavors are built for social media, while others are better for a whole meal.
 
-![Original EpicKor visual showing Korean fried chicken as a modern comfort-food and delivery culture item.](/assets/images/posts/018/d35e200f-7d11-47e8-a4e6-b94e1158918a.png)
+![Original EpicKor visual showing Korean fried chicken as a modern comfort-food and delivery culture item.](/assets/images/posts/018/d35e200f-7d11-47e8-a4e6-b94e1158918a.jpg)
 
 ## Why delivery made Korean chicken even stronger
 

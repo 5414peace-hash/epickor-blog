@@ -62,7 +62,7 @@ Keep your voice and body awareness under control. The tent may be noisy, but it 
 
 Pay attention to the owner. In older street-tent culture, the owner may be direct, busy, and efficient rather than performatively friendly. That is not necessarily rude. Order clearly, do not occupy a tiny table forever after finishing, and pay without making the last moment complicated. If a place looks full or regulars-only, move on.
 
-![Pojangmacha food and drinks frame from EpicKor's original package.](/assets/images/posts/089/116_epickor_%25EA%25B1%25B4%25EC%2588%259C.mp4_20250115_222924.553.jpg)
+![Pojangmacha food and drinks frame from EpicKor's original package.](/assets/images/posts/089/legacy-frame-01.jpg)
 *A good pojangmacha visit is warm, compact, and respectful. The close seating is part of the mood, but it also requires awareness.*
 
 ## Where to Find the Pojangmacha Mood in Seoul
@@ -102,7 +102,7 @@ Season also changes the experience. Winter is the classic pojangmacha fantasy be
   <p><strong>For a small street-food pantry:</strong> If you want a warm Korean comfort option before trying a full pojangmacha spread, compare <a href="https://amzn.to/4nFcnks" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean kimchi stew with tofu</a> as a low-effort home starting point.</p>
 </div>
 
-![Pojangmacha late-night Seoul frame from EpicKor's original package.](/assets/images/posts/089/116_epickor_%25EA%25B1%25B4%25EC%2588%259C.mp4_20250115_222927.231.jpg)
+![Pojangmacha late-night Seoul frame from EpicKor's original package.](/assets/images/posts/089/legacy-frame-02.jpg)
 *The glow is real, but the best traveler move is still practical: know what you ordered, keep payment simple, and plan the ride home.*
 
 ## FAQs About Pojangmacha

@@ -65,7 +65,7 @@ There is also a social layer. Making a wrap for someone else can be affectionate
 
 For broader table behavior, read EpicKor's [Korean restaurant etiquette guide](/blog/046) and [what Koreans eat for breakfast guide](/blog/302), which help explain why Korean meals often feel modular rather than plate-centered.
 
-![Korean BBQ wrap table visual from EpicKor's original ssamjang package.](/assets/images/posts/083/110_epickor_%25EA%25B1%25B4%25EC%2588%259C.mp4_20250110_222501.651.jpg)
+![Korean BBQ wrap table visual from EpicKor's original ssamjang package.](/assets/images/posts/083/legacy-frame-01.jpg)
 *The best ssam bite is small, balanced, and easy to finish in one mouthful.*
 
 ## Buying Ssamjang: What to Check
@@ -101,7 +101,7 @@ If you want to build a more complete home setup, EpicKor's [Korean cookware star
   <p><strong>Make the wrap table easier:</strong> Korean BBQ feels smoother when you can cut meat cleanly at the table, so compare <a href="https://amzn.to/4eX0zI4" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean BBQ scissors and tongs</a> before hosting a wrap night.</p>
 </div>
 
-![Ssamjang sauce and Korean food frame from EpicKor's original package.](/assets/images/posts/083/64e011ae-362f-40ca-af11-8b9f23c3236c.png)
+![Ssamjang sauce and Korean food frame from EpicKor's original package.](/assets/images/posts/083/64e011ae-362f-40ca-af11-8b9f23c3236c.jpg)
 *Ssamjang is strong enough to make vegetables, grilled meat, and rice feel like one designed bite.*
 
 ## Common Mistakes

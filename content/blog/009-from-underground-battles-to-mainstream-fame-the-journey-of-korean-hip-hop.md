@@ -84,7 +84,7 @@ Seoul gives Korean hip-hop its density. Hongdae, Itaewon, Hapjeong, Gangnam, uni
 
 For travel context, connect this guide with EpicKor's [24-hour Seoul itinerary](/blog/017), [Korean night picnic guide](/blog/267), and [Seoul bookstore and library guide](/blog/293). Korean hip-hop makes more sense when you see the city as both a work machine and a nighttime stage.
 
-![EpicKor Korean hip-hop visual with performance energy.](/assets/images/posts/009/a2d07641-da76-4e03-8e42-5953cc264c7b.png)
+![EpicKor Korean hip-hop visual with performance energy.](/assets/images/posts/009/a2d07641-da76-4e03-8e42-5953cc264c7b.jpg)
 *The scene moved between clubs, screens, streaming platforms, and survival-show stages.*
 
 If you are actually in Seoul, check current schedules instead of trusting a fixed neighborhood myth. A venue that felt central in one era may be quiet the next year, while a festival, pop-up performance, or label showcase can suddenly become the better entry point. Korean hip-hop rewards current checking because the culture moves through platforms as much as streets.

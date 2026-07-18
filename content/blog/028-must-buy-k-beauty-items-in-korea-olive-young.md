@@ -6,7 +6,7 @@ updatedAt: "2026-07-18"
 visibility: "public"
 publishAt: ""
 description: "A practical Olive Young Korea guide for travelers comparing skincare, sunscreen, toner pads, masks, tax refund, store strategy, and overbuying traps."
-ogImage: "/assets/images/posts/028/ca1ed6c1-ef12-46fd-aeae-5506fa6e925c.png"
+ogImage: "/assets/images/posts/028/ca1ed6c1-ef12-46fd-aeae-5506fa6e925c.jpg"
 tags: ["OliveYoung", "KBeauty", "KoreanSkincare", "KoreaShopping", "SeoulShopping"]
 author: "EpicKor"
 ---
@@ -15,7 +15,7 @@ author: "EpicKor"
 
 This guide explains how Olive Young works for travelers: which categories are worth comparing, how to read rankings and promotions, what to buy first, what to skip, how tax refund and tourist branches fit the trip, and how to avoid turning K-beauty curiosity into an expensive pile of half-used products. For deeper product order, pair this with EpicKor's [Korean skincare routine guide](/blog/303), [K-beauty sunscreen guide](/blog/007), and [Seongsu vs Hannam shopping guide](/blog/163).
 
-![Olive Young K-beauty shopping shelf for travelers.](/assets/images/posts/028/ca1ed6c1-ef12-46fd-aeae-5506fa6e925c.png)
+![Olive Young K-beauty shopping shelf for travelers.](/assets/images/posts/028/ca1ed6c1-ef12-46fd-aeae-5506fa6e925c.jpg)
 
 ## The Short Answer
 

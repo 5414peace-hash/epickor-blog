@@ -8,7 +8,7 @@ publishAt: ""
 description: "A practical guide to free side dishes in Korea, why banchan arrives without ordering, refill etiquette, service items, and restaurant manners."
 tags: ['KoreanFood', 'Banchan', 'KoreaTravel', 'RestaurantEtiquette', 'KoreanCulture']
 cleanUrl: ""
-ogImage: "/assets/images/posts/046/b5bd702e-e6b7-4afa-97bb-51d471267746.png"
+ogImage: "/assets/images/posts/046/b5bd702e-e6b7-4afa-97bb-51d471267746.jpg"
 author: "EpicKor"
 ---
 
@@ -18,7 +18,7 @@ Usually, no. Those plates are **banchan**, Korean side dishes, and many everyday
 
 This guide explains why free side dishes in Korea exist, what is usually refillable, what may cost extra, how to ask politely, and how to avoid looking confused at a Korean table.
 
-![A Korean restaurant table with several small side dishes around the main meal.](/assets/images/posts/046/b5bd702e-e6b7-4afa-97bb-51d471267746.png)
+![A Korean restaurant table with several small side dishes around the main meal.](/assets/images/posts/046/b5bd702e-e6b7-4afa-97bb-51d471267746.jpg)
 *Free-looking side dishes are one of the first things travelers notice in Korean restaurants, but the rules are more practical than mysterious.*
 
 ## Quick Answer: Are Side Dishes Free in Korea?
@@ -82,7 +82,7 @@ If you want a specific item:
 
 Use **jom**, meaning "a little," because it softens the request. You do not have to speak perfect Korean. Pointing to the empty plate with a smile usually works. At self-service banchan bars, take a small amount first and return for more if you finish it.
 
-![Small side dishes and sauces make the Korean table feel abundant even when the main order is simple.](/assets/images/posts/046/049_epickor_%25EB%25AF%25BC%25ED%2598%25B8.mp4_20240721_214319.336.jpg)
+![Small side dishes and sauces make the Korean table feel abundant even when the main order is simple.](/assets/images/posts/046/legacy-frame-01.jpg)
 *A good banchan table gives texture and contrast: spicy, sour, salty, crunchy, fresh, and fermented.*
 
 ## What Not to Do With Free Side Dishes
@@ -161,7 +161,7 @@ That small structure teaches the real lesson of Korean dining. Banchan is not ab
   <p><strong>Build a simple Korean table:</strong> If you cook at home, compare basics like <a href="https://amzn.to/4r2Pkkw" target="_blank" rel="nofollow sponsored noopener noreferrer">gochujang</a> and <a href="https://amzn.to/467PaA7" target="_blank" rel="nofollow sponsored noopener noreferrer">ssamjang</a> before adding too many specialty sauces.</p>
 </div>
 
-![A table-level view of Korean side dishes, sauces, and shared plates.](/assets/images/posts/046/049_epickor_%25EB%25AF%25BC%25ED%2598%25B8.mp4_20240721_214333.833.jpg)
+![A table-level view of Korean side dishes, sauces, and shared plates.](/assets/images/posts/046/legacy-frame-02.jpg)
 *The most useful Korea dining skill is not memorizing every dish. It is learning how to move between rice, soup, banchan, and sauce.*
 
 ## Video Insight: The Generous Table

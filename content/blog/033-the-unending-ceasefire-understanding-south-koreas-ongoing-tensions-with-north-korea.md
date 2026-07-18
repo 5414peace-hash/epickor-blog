@@ -63,7 +63,7 @@ Third, daily life has to continue. People cannot pause school, work, childcare, 
 
 It is also important not to romanticize calm. Some Koreans are deeply concerned about security, some are politically divided over how to respond, and some are simply exhausted by the topic. There is no single Korean emotional response.
 
-![Military-service and public-order visual from EpicKor's original 033 image package.](/assets/images/posts/033/95d31a4f-2956-4daa-a230-52af08e10f76.png)
+![Military-service and public-order visual from EpicKor's original 033 image package.](/assets/images/posts/033/95d31a4f-2956-4daa-a230-52af08e10f76.jpg)
 *Military service, drills, public alerts, and decades of repetition shape how many South Koreans process security news.*
 
 ## The DMZ Is Not a Theme Park

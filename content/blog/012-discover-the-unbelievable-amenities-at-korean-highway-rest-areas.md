@@ -66,7 +66,7 @@ For a wider look at Korea's self-service and machine-assisted daily life, read E
 
 In July 2026, Korean policy reporting said MOLIT announced a rest-area operation reform plan aimed at improving expensive food prices and weak service, including cheaper food pricing structures and more 24-hour convenience-store access from future operation changes. Because implementation details can vary, treat this as a policy direction rather than a guarantee at the exact stop you visit.
 
-![Korean highway rest area snack and food frame from EpicKor's original package.](/assets/images/posts/012/9ad58e14-8aa2-4f95-ae39-9cef7ba40dde.png)
+![Korean highway rest area snack and food frame from EpicKor's original package.](/assets/images/posts/012/9ad58e14-8aa2-4f95-ae39-9cef7ba40dde.jpg)
 *A good rest-area stop solves several problems at once: restroom, food, caffeine, stretching, and route reset.*
 
 ## Bus Tour and Intercity Bus Rules
@@ -110,7 +110,7 @@ Do not let a rest-area stop replace local food at the destination. Use it as a b
   <p><strong>For long Korea travel days:</strong> A small phone-power backup helps with maps, tickets, translation, payment, and bus timing. Compare <a href="https://www.amazon.com/s?k=portable+power+bank+travel&amp;tag=epickor-gear-20" target="_blank" rel="nofollow sponsored noopener noreferrer">portable travel power banks</a> before a road-heavy Korea itinerary.</p>
 </div>
 
-![Korean rest area facilities frame from EpicKor's original package.](/assets/images/posts/012/d6f0e08e-cc06-4948-90d2-2138792e26af.png)
+![Korean rest area facilities frame from EpicKor's original package.](/assets/images/posts/012/d6f0e08e-cc06-4948-90d2-2138792e26af.jpg)
 *The rest-area ritual is fun, but its first job is still safety: stop, reset, and continue the route in better condition.*
 
 ## FAQs About Korean Highway Rest Areas

@@ -84,7 +84,7 @@ BTS's rap line is one reason global fans became curious about Korean hip-hop. RM
 
 If you want to understand that wider scene, read EpicKor's [Korean hip-hop guide](/blog/009). BTS makes more sense when you understand how Korean rap, idol training, and pop performance overlap.
 
-![EpicKor BTS explainer image with performance atmosphere.](/assets/images/posts/010/9fdac220-fc50-4255-b002-edc517aeccab.png)
+![EpicKor BTS explainer image with performance atmosphere.](/assets/images/posts/010/9fdac220-fc50-4255-b002-edc517aeccab.jpg)
 *The BTS story sits between idol performance, rap credibility debates, social media intimacy, and Korean soft power.*
 
 ## How to Start Listening
@@ -146,7 +146,7 @@ Avoid these common mistakes:
 
 That last point matters. BTS is surrounded by intense online debate. You can understand the group better by listening first and arguing later, preferably never.
 
-![EpicKor BTS explainer image with group-history mood.](/assets/images/posts/010/771f4f48-682b-4188-a695-4a4e926d33af.png)
+![EpicKor BTS explainer image with group-history mood.](/assets/images/posts/010/771f4f48-682b-4188-a695-4a4e926d33af.jpg)
 *A good BTS beginner path moves from songs to members, then to Korean cultural context.*
 
 ## FAQ

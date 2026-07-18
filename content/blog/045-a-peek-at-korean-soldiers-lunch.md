@@ -8,7 +8,7 @@ publishAt: ""
 description: "A practical guide to South Korea's reserve force, yebigun training, military meals, lunch-box debates, and why service still shapes daily life."
 tags: ['KoreanMilitary', 'ReserveForce', 'KoreanCulture', 'Yebigun', 'KoreaSociety']
 cleanUrl: ""
-ogImage: "/assets/images/posts/045/501cc362-d7c6-4b95-8efa-6dbfe8b08f93.png"
+ogImage: "/assets/images/posts/045/501cc362-d7c6-4b95-8efa-6dbfe8b08f93.jpg"
 author: "EpicKor"
 ---
 
@@ -18,7 +18,7 @@ For international readers, the reserve system helps explain why military service
 
 This guide explains what yebigun is, why the reserve period matters, what the lunch-box debate reveals about respect and public service, and how to talk about Korean military duty without turning it into a stereotype.
 
-![Korean reserve-force visual from EpicKor's original post package.](/assets/images/posts/045/501cc362-d7c6-4b95-8efa-6dbfe8b08f93.png)
+![Korean reserve-force visual from EpicKor's original post package.](/assets/images/posts/045/501cc362-d7c6-4b95-8efa-6dbfe8b08f93.jpg)
 *Reserve-force culture is not only about drills; it is about how military duty keeps returning to ordinary civilian life.*
 
 ## Quick Answer: What Is Yebigun in Korea?

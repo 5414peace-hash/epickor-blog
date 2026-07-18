@@ -8,7 +8,7 @@ publishAt: ""
 description: "A practical 24-hour Seoul route covering sunrise markets, daytime neighborhoods, night food, Owl Bus transit, safety, and packing tips."
 tags: ['SeoulTravel', 'KoreaNightlife', 'SeoulItinerary', 'KoreaTransit', 'TravelSafety']
 cleanUrl: ""
-ogImage: "/assets/images/posts/017/0e0bfe56-2ce2-41d9-8e3a-1ec685a3799b.png"
+ogImage: "/assets/images/posts/017/0e0bfe56-2ce2-41d9-8e3a-1ec685a3799b.jpg"
 author: "EpicKor"
 ---
 
@@ -18,7 +18,7 @@ But a strong 24-hour Seoul plan should not mean cramming every landmark into one
 
 Seoul is not risk-free. You still need basic travel sense, especially with alcohol, taxis, crowds, phone battery, and last-train timing. But the city's dense transit, 24-hour businesses, late-night buses, convenience stores, and public lighting make it easier to move through the night than many first-time visitors expect.
 
-![Seoul 24-hour mood visual from EpicKor's original post package.](/assets/images/posts/017/0e0bfe56-2ce2-41d9-8e3a-1ec685a3799b.png)
+![Seoul 24-hour mood visual from EpicKor's original post package.](/assets/images/posts/017/0e0bfe56-2ce2-41d9-8e3a-1ec685a3799b.jpg)
 *A good 24-hour Seoul route follows the city's rhythm instead of trying to force every famous stop into one checklist.*
 
 ## Quick Answer: Can You Experience Seoul in 24 Hours?

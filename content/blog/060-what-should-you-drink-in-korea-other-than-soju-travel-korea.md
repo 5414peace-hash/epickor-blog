@@ -82,7 +82,7 @@ For travelers, the best place to try traditional sool is a tasting bar, brewery 
 
 Traditional sool also makes a meaningful gift, but alcohol rules, baggage limits, and customs rules matter. Do not buy bottles for international travel without checking your destination country's import allowances.
 
-![A soju-and-beer table mood from EpicKor's original drink package.](/assets/images/posts/060/081_epickor_%25EC%25A7%2584%25ED%2598%25B8.mp4_20240802_223412.682.jpg)
+![A soju-and-beer table mood from EpicKor's original drink package.](/assets/images/posts/060/legacy-frame-01.jpg)
 *The drink choice changes with the table: barbecue, jeon, seafood, fried chicken, and convenience-store snacks all ask for different pacing.*
 
 ## Highballs, Wine, and Modern Drinking
@@ -143,7 +143,7 @@ Convenience stores are part of Korean drinking culture too. You may see beer, so
 
 For food pairing from the same store, read EpicKor's [Korean convenience store food guide](/blog/059) and [grocery tourism guide](/blog/209). If you want the street-tent version of Korean drinking food, the [pojangmacha guide](/blog/089) explains what to order, how to behave, and how to get home safely.
 
-![A Korean drink-and-snack table visual from EpicKor's original package.](/assets/images/posts/060/081_epickor_%25EC%25A7%2584%25ED%2598%25B8.mp4_20240802_223437.725.jpg)
+![A Korean drink-and-snack table visual from EpicKor's original package.](/assets/images/posts/060/legacy-frame-02.jpg)
 *The best Korea drinking night is paced: food first, water often, transit planned, and no pressure to keep up.*
 
 ## Video Insight: Somaek and Beyond

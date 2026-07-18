@@ -8,7 +8,7 @@ publishAt: ""
 description: "A practical guide to Gangnam plastic surgery and Korea medical tourism, with safety checks, registered clinics, brokers, recovery time, and red flags."
 tags: ['Gangnam', 'MedicalTourism', 'KBeauty', 'KoreaTravel', 'Seoul']
 cleanUrl: ""
-ogImage: "/assets/images/posts/244/seoul-beauty-clinic-waiting-room.png"
+ogImage: "/assets/images/posts/244/seoul-beauty-clinic-waiting-room.jpg"
 author: "EpicKor"
 ---
 
@@ -16,7 +16,7 @@ Gangnam plastic surgery is one of Korea's most visible medical-tourism stories, 
 
 This guide explains how to understand Gangnam's plastic surgery district without glamorizing it. It is not medical advice and it does not recommend any procedure or clinic. Use it as a travel and research checklist: confirm registration, avoid illegal brokers, understand consultation pressure, plan recovery time, and know when to walk away.
 
-![A Seoul beauty clinic waiting-room style image.](/assets/images/posts/244/seoul-beauty-clinic-waiting-room.png)
+![A Seoul beauty clinic waiting-room style image.](/assets/images/posts/244/seoul-beauty-clinic-waiting-room.jpg)
 *Gangnam's beauty-medical scene is highly commercial, so foreign patients should separate marketing from medical safety.*
 
 ## The Short Answer: What Should Foreign Patients Check First?
@@ -85,7 +85,7 @@ Do not plan surgery as a final-day activity before an international flight unles
 
 For travel logistics around clinics, hotels, and transit, pair this with our [Seoul safety guide](/blog/138), [medical emergency guide](/blog/190), and [Seoul beauty shopping guide](/blog/192).
 
-![A Seoul skincare and recovery flatlay.](/assets/images/posts/244/seoul-glowcation-recovery-flatlay.png)
+![A Seoul skincare and recovery flatlay.](/assets/images/posts/244/seoul-glowcation-recovery-flatlay.jpg)
 *Recovery planning is not only cosmetics. It includes medication, rest, follow-up, transport, food, and emergency contact.*
 
 ## The Lookism Conversation Needs Care

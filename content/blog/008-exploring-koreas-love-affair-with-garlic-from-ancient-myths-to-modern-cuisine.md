@@ -68,7 +68,7 @@ Garlic becomes more than an ingredient. It becomes a tiny edible metaphor for Ko
 
 ---
 
-![Garlic and Korean food culture explainer frame](/assets/images/posts/008/39ef62bd-d1cd-43ab-a8e0-fde064191d0e.png)
+![Garlic and Korean food culture explainer frame](/assets/images/posts/008/39ef62bd-d1cd-43ab-a8e0-fde064191d0e.jpg)
 
 ## How Much Garlic Do Koreans Eat?
 
@@ -137,7 +137,7 @@ Once you see this pattern, Korean food starts to make more sense. Garlic is not 
 
 ---
 
-![Korean garlic and cooking explainer frame](/assets/images/posts/008/108dd9e8-271e-46d0-9a72-0a593831b690.png)
+![Korean garlic and cooking explainer frame](/assets/images/posts/008/108dd9e8-271e-46d0-9a72-0a593831b690.jpg)
 
 ## Garlic, Fermentation, and Korean Flavor Logic
 
@@ -187,7 +187,7 @@ For a deeper look at sauce culture, EpicKor also has a guide to [ssamjang, Korea
 
 ---
 
-![Dangun myth and Korean garlic culture frame](/assets/images/posts/008/425f79d7-a047-41ec-9721-ca81ba55d8bc.png)
+![Dangun myth and Korean garlic culture frame](/assets/images/posts/008/425f79d7-a047-41ec-9721-ca81ba55d8bc.jpg)
 
 ## Is Korean Garlic About Health?
 
