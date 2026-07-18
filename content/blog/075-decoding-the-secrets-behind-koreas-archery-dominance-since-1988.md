@@ -2,13 +2,13 @@
 title: "Why South Korea Dominates Olympic Archery in 2026"
 slug: "075"
 date: "2025-01-02"
-updatedAt: "2026-07-17"
+updatedAt: "2026-07-18"
 visibility: "public"
 publishAt: ""
 description: "How South Korea built its Olympic archery system through open selection, deep competition, repeatable technique, pressure training, and coaching."
 tags: ['KoreanArchery', 'Olympics', 'KoreanSports', 'RecurveArchery', 'SportsCulture']
 cleanUrl: ""
-ogImage: "/assets/images/posts/075/archery-01.jpg"
+ogImage: "/assets/images/posts/075/korea-womens-archery-team.jpg"
 author: "EpicKor"
 ---
 
@@ -16,8 +16,8 @@ South Korea dominates Olympic archery because it combines a deep competitive pip
 
 At Paris 2024, Lim Sihyeon, Jeon Hunyoung, and Nam Suhyeon won South Korea's tenth consecutive Olympic women's team title. Korea had won every edition since the women's team event entered the Games at Seoul 1988. That extraordinary result is real, but the final was close: China forced a shoot-off. The dynasty is best understood as a system that keeps producing contenders, not a machine that guarantees victory.
 
-![An empty outdoor recurve range at dawn, with bows ready on the shooting line.](/assets/images/posts/075/archery-01.jpg)
-*EpicKor editorial illustration: an empty Korean-style training range, generated without athletes, logos, or identifiable venues.*
+![South Korea's women's archery team with their London 2012 Olympic gold medals.](/assets/images/posts/075/korea-womens-archery-team.jpg)
+*South Korea's women's team won Olympic gold in London in 2012. Photo by the Korean Olympic Committee/KOCIS via Wikimedia Commons, CC BY-SA 2.0.*
 
 ## The Short Answer: A System, Not a Secret
 
@@ -55,8 +55,8 @@ For 2024, Korea first named a broader national squad and later reduced it to the
 
 This does two things. It gives emerging athletes a credible path past established names, and it keeps champions accountable to the same domestic field. The cost is severe pressure and the possibility that an internationally proven archer misses a major event. Meritocratic selection is not automatically humane; it still needs transparent rules, athlete support, and sensible workload management.
 
-![A modern Olympic-style recurve bow with sight and stabilizers at a training range.](/assets/images/posts/075/archery-02.jpg)
-*EpicKor editorial illustration showing the specialized equipment used in target recurve, without commercial branding.*
+![South Korea's men's Olympic archery team on the podium at London 2012.](/assets/images/posts/075/korea-mens-archery-team.jpg)
+*Im Dong-hyun, Kim Bub-min and Oh Jin-hyek represented South Korea in the London 2012 men's team event. Photo by Ian Patterson via Wikimedia Commons, CC BY 2.0.*
 
 ## Technique Is Built Around Repeatability
 
@@ -78,8 +78,8 @@ These methods do not make athletes fearless. They provide a routine for fear. Th
 
 Weather simulation matters too. Outdoor arrows spend enough time in flight for wind to alter the result. Training in rain and variable wind teaches athletes to read conditions, adjust aim, trust the bow, and accept that a well-executed shot can still land outside the ten.
 
-![Targets and windsocks on an outdoor range during rainy, windy practice conditions.](/assets/images/posts/075/archery-03.jpg)
-*EpicKor editorial illustration of adverse-weather practice, one element of competition preparation.*
+![South Korean Olympic archer Oh Jin-hyek at full draw during the London 2012 Games.](/assets/images/posts/075/oh-jin-hyek-olympic-archery.jpg)
+*Oh Jin-hyek won the men's individual Olympic title in London. Photo by the Korean Olympic Committee/KOCIS via Wikimedia Commons, CC BY-SA 2.0.*
 
 ## Equipment and Sports Science Support the Shot
 
@@ -125,8 +125,8 @@ Watch the sequence before the arrow lands. Does the archer settle into the ancho
 
 Also look at conditions. Flags, windsocks, clothing, and arrow drift reveal what the scoreboard cannot. A nine in difficult wind may be a better shot than a ten made in calm air. Results become more interesting when “perfection” is replaced with adaptation.
 
-![A close target group beside a scoring sheet and stopwatch.](/assets/images/posts/075/archery-04.jpg)
-*EpicKor editorial illustration: scores summarize performance, but coaches also study how each group was produced.*
+![South Korea's women's Olympic archers celebrating together on the field in London.](/assets/images/posts/075/korea-archery-training-line.jpg)
+*The Korean women's team celebrates its London 2012 result after competition. Photo by the Korean Olympic Committee/KOCIS via Wikimedia Commons, CC BY-SA 2.0.*
 
 <div class="affiliate-inline-cta">
   <p><strong>For spectators and club practice:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. If your range permits personal viewing gear, compare <a href="https://www.amazon.com/s?k=compact+binoculars+outdoor+sport&tag=epickor2026-20" target="_blank" rel="nofollow sponsored noopener noreferrer">compact outdoor binoculars</a>; check venue rules and never step onto an active range to retrieve arrows.</p>

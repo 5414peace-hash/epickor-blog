@@ -2,13 +2,13 @@
 title: "South Korea's 2024 Martial Law Crisis, Explained"
 slug: "076"
 date: "2025-01-03"
-updatedAt: "2026-07-17"
+updatedAt: "2026-07-18"
 visibility: "public"
 publishAt: ""
 description: "A neutral, sourced timeline of South Korea's December 2024 martial law declaration, the Assembly vote, Yoon Suk Yeol's removal, and the 2025 election."
 tags: ['SouthKoreaPolitics', 'MartialLaw', 'Impeachment', 'KoreanDemocracy', 'Constitution']
 cleanUrl: ""
-ogImage: "/assets/images/posts/076/constitution-01.jpg"
+ogImage: "/assets/images/posts/076/national-assembly-december-4.jpg"
 author: "EpicKor"
 ---
 
@@ -16,8 +16,8 @@ South Korea's 2024 martial law crisis began when President Yoon Suk Yeol declare
 
 Those outcomes are settled institutional facts. Criminal cases are separate. By July 17, 2026, Yoon had received several convictions; one seven-year sentence was final after Supreme Court review, while his life sentence for leading an insurrection and a separate 30-year drone-case sentence were under appeal. This guide distinguishes each procedural stage instead of treating an allegation, first-instance ruling, appeal, and final judgment as synonyms.
 
-![A domed parliament building at night, representing the National Assembly during the constitutional crisis.](/assets/images/posts/076/constitution-01.jpg)
-*EpicKor editorial illustration based on civic architecture; it does not depict a specific moment or copyrighted news photograph.*
+![National Assembly officials inspect damage inside the Assembly on December 4, 2024.](/assets/images/posts/076/national-assembly-december-4.jpg)
+*National Assembly officials inspect the chamber area after martial-law forces entered the complex. Photo: National Assembly of the Republic of Korea, KOGL Type 1.*
 
 ## The Short Answer: What Happened
 
@@ -56,8 +56,8 @@ The Assembly's ability to meet was the turning point. According to the Court's f
 
 All 190 lawmakers who participated voted for the lifting resolution. The number should not be misread as 190 out of all 300 agreeing after a normal full attendance; it records those present during an extraordinary overnight session. Nor should it be described as a party-line rejection. The resolution was unanimous among participants.
 
-![An empty parliamentary chamber illuminated for an emergency session.](/assets/images/posts/076/constitution-02.jpg)
-*EpicKor editorial illustration of a legislative chamber, used to explain the institution rather than identify individuals.*
+![South Korean soldiers and civilians outside the National Assembly during the martial law crisis.](/assets/images/posts/076/soldiers-national-assembly.jpg)
+*Soldiers gathered outside the National Assembly during the night of December 3–4, 2024. Photo via Wikimedia Commons, public domain.*
 
 The Court emphasized that the Assembly's quick success did not make the violations less grave. It attributed the outcome to citizen resistance and the passive conduct of parts of the military and police. In other words, a failed attempt to obstruct a constitutional institution can still endanger that institution.
 
@@ -95,8 +95,8 @@ Citizens gathered near the Assembly and later held large demonstrations both sup
 
 Livestreams and phone footage aided real-time scrutiny but also spread clips without context. Reliable reconstruction requires timestamps, institutional records, and court findings.
 
-![An open constitutional law book, clock, and gavel symbolizing time-limited emergency powers and legal review.](/assets/images/posts/076/constitution-03.jpg)
-*EpicKor editorial illustration; the book contains no reproduced legal text.*
+![National Assembly Speaker Woo Won-shik signing the impeachment resolution on December 14, 2024.](/assets/images/posts/076/impeachment-resolution-signing.jpg)
+*National Assembly Speaker Woo Won-shik signs the resolution approving President Yoon Suk Yeol's impeachment. Photo: National Assembly of the Republic of Korea, KOGL Type 1.*
 
 Institutional resilience was distributed across lawmakers, Assembly staff, courts, election administrators, journalists, citizens, and public servants. Calling it one actor's victory oversimplifies how the checks worked.
 
@@ -128,8 +128,8 @@ Third, date every live legal claim. A careful source distinguishes “prosecutor
 
 Fourth, avoid collective blame. Political parties, protesters, police, soldiers, judges, and voters are not internally uniform. The Court itself noted passive conduct by military and police personnel as one reason the Assembly could act.
 
-![Anonymous hands holding peaceful candle lights in a public square.](/assets/images/posts/076/constitution-04.jpg)
-*EpicKor editorial illustration of peaceful civic participation; it does not portray a documented rally or identifiable participants.*
+![Crowds outside South Korea's National Assembly during the December 14, 2024 impeachment vote.](/assets/images/posts/076/december-14-impeachment-protest.jpg)
+*Demonstrators gathered outside the National Assembly during the December 14 impeachment vote. Photo by Hashflu via Wikimedia Commons, CC BY-SA 4.0.*
 
 ## Why This Crisis Still Matters
 

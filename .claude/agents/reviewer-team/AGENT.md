@@ -52,6 +52,10 @@ Reviewer Team must not approve a post from markdown structure alone.
 - The preview page must be opened in a browser and checked for broken images before the user is asked to approve.
 - After publishing or deploying, Publisher/Reviewer must check the public page again. If the browser shows a broken image icon, the post is not complete even if SEO score is 100.
 - Record this rendered-image check in `HANDOFF.md` when a post is published or rewritten.
+- Reject captions or alt text that excuse weak relevance with `not a specific`, `not the actual`, `general image`, `category illustration`, `similar to`, `stand-in`, `without implying`, or `included to show`.
+- Reject public SVG-only articles and generated-image-led high-visual articles. Mixed SVG diagrams are acceptable only when they add information and sufficient direct real-image coverage already exists.
+- When an article names a real place, event, program, product, app, venue, company, or institution, verify the nearby image shows that exact subject when a usable reference was reasonably available.
+- Run `npm run audit:image-context -- --slug {slug}` before approval. Any critical/high result blocks publication; the automated pass does not replace desktop/mobile rendered inspection.
 
 ## Blog Table Review Rules
 

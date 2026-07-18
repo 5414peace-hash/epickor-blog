@@ -1,12 +1,12 @@
-# Image sources for Blog 076 (2026-07-17 rewrite)
+# Image sources - Blog 076
 
-The previous images were short-form video frames with burned-in captions and a recognizable politician. They remain in the asset folder for history but are no longer referenced by the article.
+Reviewed on 2026-07-18. All four displayed images document the December 2024 martial-law and impeachment events.
 
-The four replacements are crops from one EpicKor editorial contact sheet generated with OpenAI image generation on 2026-07-17. The prompt deliberately excluded politicians, soldiers, violence, party symbols, captions, and readable legal text to avoid identity, licensing, and false-documentary risks. The generated original remains outside the repository in the Codex generated-image store.
+| Local file | Source | Creator / license note | Use |
+|---|---|---|---|
+| `national-assembly-december-4.jpg` | https://commons.wikimedia.org/wiki/File:4_December_National_Assembly_3.jpg | National Assembly of the Republic of Korea, KOGL Type 1 | Assembly aftermath |
+| `soldiers-national-assembly.jpg` | https://commons.wikimedia.org/wiki/File:South_Korean_soldiers_outside_the_National_Assembly.png | Wikimedia Commons, public domain | Soldiers outside the Assembly |
+| `impeachment-resolution-signing.jpg` | https://commons.wikimedia.org/wiki/File:20241214_ROK_NA_Speaker_Woo_Won_Shik_signing_the_resolution_to_impeach_President_Yoon_Suk_Yeol_01.jpg | National Assembly of the Republic of Korea, KOGL Type 1 | Impeachment resolution signing |
+| `december-14-impeachment-protest.jpg` | https://commons.wikimedia.org/wiki/File:December_14_South_Korea_impeachment_protest.jpg | Hashflu / Wikimedia Commons, CC BY-SA 4.0 | December 14 public demonstration |
 
-- `constitution-01.jpg` — generic domed parliamentary building at night.
-- `constitution-02.jpg` — empty parliamentary chamber.
-- `constitution-03.jpg` — symbolic legal book, clock, and gavel.
-- `constitution-04.jpg` — anonymous hands holding peaceful candle lights.
-
-All four crops were visually inspected, resized to 1200 × 675, and compressed below 400 KB. They are editorial illustrations and do not claim to show the events of December 3–4, 2024.
+Legacy generated illustrations remain unreferenced and are not part of the published article.

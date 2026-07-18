@@ -272,6 +272,16 @@ Reviewer and Publisher agents must verify rendered images, not just markdown syn
 - After publish/deploy, check the public URL again. If images are broken, the task is not complete.
 - Record which agent performed this rendered-image check in `HANDOFF.md`.
 
+## Blog Reference Image Standard
+
+- Use corrected Blogs `222`, `223`, and `224` as the benchmark: real reference photos/screenshots with direct section-level value, not generic mood images or decorative graphics.
+- Captions must never compensate for weak relevance. `not a specific`, `not the actual`, `general image`, `category illustration`, `similar to`, `stand-in`, `without implying`, and `included to show` are hard-reject phrases; replace or remove that image.
+- When a real place, event, program, product, app, interface, venue, company, or institution is named, use the exact subject whenever a usable public/official/reference image is reasonably available. Vaguely Korean or Asian context is insufficient.
+- Public articles may not be SVG-only. SVG diagrams are allowed only as useful supplements after sufficient direct real-photo or exact-screenshot coverage; high-visual topics should be real-image-led throughout.
+- Do not expose internal AI/sourcing explanations in reader captions. `AI-generated`, `EpicKor generated visual`, fictional stand-ins, and generic proxy visuals are blocked when direct real references can reasonably be sourced.
+- Credits should briefly state what the image actually shows and name the creator/source. Do not explain what it is not, why a proxy was used, or how it was generated.
+- Before approval, run `npm run audit:image-context -- --slug {slug}`, inspect the rendered desktop and mobile page, and record a Blog Image Fit Score. Critical/high findings block publication.
+
 Do not use or fund the Gemini Developer API without explicit representative approval. Google AI Pro's included Flow/Whisk credits may be used manually for scoped visual experiments under the Reels rules; subscription credits do not make API calls free.
 
 ---

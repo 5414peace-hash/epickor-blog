@@ -28,6 +28,10 @@
 - Do not reuse images or Pexels source photos already used in older posts. A new filename is not enough if the underlying photo/source is the same.
 - If an image is only tangentially related to the paragraph, replace it or move it. Final images should score at least 90/100 for section fit before the post is shown or published; anything below 85/100 is a revision blocker.
 - When using generated/owned visuals to solve a hard-to-source topic, state `EpicKor generated visual` in the credit and avoid fake logos, fake interfaces, fake official cards, or misleading real-world claims.
+- Do not write captions that apologize for weak visuals. `not a specific`, `not the actual`, `general image`, `category illustration`, `similar to`, `stand-in`, `without implying`, and `included to show` mean replace or remove the image.
+- If nearby copy names a real place, event, program, product, app, venue, company, or institution, use an exact real reference or no image there. Do not substitute a generic Asian/Korean mood photo.
+- Public posts cannot be SVG-only or generated-image-led. Use SVG only as a supplemental diagram after sufficient real-photo or exact-screenshot coverage.
+- Keep visible credits concise: factual subject plus creator/source. Internal generation, prompt, legal-risk, and sourcing-workflow explanations belong in `image-sources.md`, not the article.
 
 ## Blog Table Rules
 

@@ -28,6 +28,10 @@
 - Do not treat "Korea-looking" as enough. Each selected image needs a direct section-level fit, not only a broad country mood.
 - Avoid filling a post with multiple images from the same photographer/session/source family unless the topic is specifically about that location and no better alternative exists.
 - Keep a short image decision note for new posts: selected image, source/ownership, direct fit reason, duplicate check result, and any weakness.
+- Treat a proposed caption containing `not a specific`, `general image`, `similar to`, `stand-in`, `without implying`, or `included to show` as proof that the candidate failed relevance review. Do not send that candidate to Writer.
+- Search the exact named place, event, product, app, or institution first. Only after exact official, public, Creative Commons, and other usable real references fail may a culturally neutral close-up be considered.
+- Return at least two visually inspected candidates for each planned section image and record why the selection is exact, not merely plausible.
+- Do not propose an SVG-only or generated-image-led set for a public article.
 
 ## Reels Visual Research Rules
 

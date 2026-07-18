@@ -262,8 +262,13 @@ Reviewer and Publisher agents must verify rendered images, not just markdown syn
 - Use the corrected Blogs `222`, `223`, and `224` as the current benchmark for article images: images should be real reference photos/screenshots with direct section-level relevance, not generic mood photos or decorative editorial graphics.
 - For practical guides, prioritize official screenshots, real app/form/page context, public-domain/Creative Commons files, real Korea-location photos, actual storefronts, real products, real food, or real event/place images that help the reader understand the specific task.
 - Do active web/source research when Pexels returns only broad stock imagery. A visually pleasant Korea photo is not enough for a post about a specific app, form, show, venue, product, process, or fan route.
+- A caption must never apologize for or explain away a weak image. Phrases such as `not a specific`, `not the actual`, `general image`, `category illustration`, `similar to`, `stand-in`, `without implying`, and `included to show` are hard-reject signals: replace the image or remove it.
+- If the article names a real place, event, program, product, app, interface, venue, company, or institution, use that exact subject when a usable public/official/reference image is reasonably available. A merely plausible Korean or Asian scene is not enough.
+- Public articles must never be SVG-only. An SVG diagram may appear only as a useful supplement after the article already has sufficient direct real-image coverage; high-visual subjects should use real photographs or exact screenshots throughout.
+- Do not publish visible `AI-generated`, `EpicKor generated visual`, fictional-product, or generic-proxy captions when a direct real reference can reasonably be sourced. Keep reader-facing credits short: what the image actually shows, then creator/source.
 - Generated or editorial graphics are fallback options only when direct real reference images cannot be used safely or clearly, or when the representative explicitly approves that exception. Record the reason in `image-sources.md` and `HANDOFF.md`.
 - Reviewer must score blog images against this standard before approval. If a direct real reference image was reasonably available but a generic/graphic substitute was used, that image should fail visual review.
+- Before approval, run `npm run audit:image-context -- --slug {slug}` and inspect the rendered desktop and mobile article. Critical/high findings block publication.
 
 Do not use or fund the Gemini Developer API without explicit representative approval. Google AI Pro's included Flow/Whisk credits may be used manually for scoped visual experiments under the Reels rules; subscription credits do not make API calls free.
 

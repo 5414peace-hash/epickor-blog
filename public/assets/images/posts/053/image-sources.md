@@ -1,12 +1,12 @@
 # Image sources - Blog 053
 
-Reviewed on 2026-07-17. All four used images are Pexels photographs with visible Seoul/Korea market context and are each below 400 KB. Captions deliberately describe them as supporting Seoul-market scenes; none is misidentified as a specific Gwangjang, Majang or Dongmyo stall.
+Reviewed on 2026-07-18. Every displayed photograph shows one of the three markets named in the guide.
 
 | Local file | Source | Creator / license note | Use |
 |---|---|---|---|
-| `seoul-market-lane.jpg` | https://www.pexels.com/photo/31826561/ | Theodore Nguyen / Pexels | Opening Seoul market and weather context |
-| `seoul-market-food-display.jpg` | https://www.pexels.com/photo/31858146/ | Theodore Nguyen / Pexels | Prepared-food choice and price-board context |
-| `seoul-clothing-market.jpg` | https://www.pexels.com/photo/32196411/ | Theodore Nguyen / Pexels | Outdoor clothing and secondhand browsing context |
-| `seoul-market-vendors.jpg` | https://www.pexels.com/photo/31826568/ | Theodore Nguyen / Pexels | Vendor etiquette and working-market context |
+| `gwangjang-market-seoul.jpg` | https://commons.wikimedia.org/wiki/File:Gwangjang_Market,_Seoul_02.jpg | Bgag / Wikimedia Commons, CC0 | Gwangjang opening aisle |
+| `gwangjang-market-food-stalls.jpg` | https://commons.wikimedia.org/wiki/File:Dongdaemun_Shopping_Complex,_Seoul_2.jpg | Kallerna / Wikimedia Commons, CC BY-SA 4.0 | Gwangjang food counter |
+| `dongmyo-flea-market.jpg` | https://commons.wikimedia.org/wiki/File:Dongmyo_Flea_Market_01.jpg | Seefooddiet / Wikimedia Commons, CC BY-SA 4.0 | Dongmyo secondhand inventory |
+| `majang-meat-market.jpg` | https://english.visitkorea.or.kr/svc/whereToGo/locIntrdn/rgnContentsView.do?vcontsId=84934 | Korea Tourism Organization official media | Majang beef-market experience |
 
-The old article's video-frame captures and caption image were removed from the article because their original source, exact location and pictured-person context were not adequately documented. Generic seafood images were also rejected because they could falsely imply Majang's meat trade.
+`dongmyo-flea-market-clothing.jpg` was reviewed as an alternate but is not used in the article.

@@ -1,21 +1,9 @@
-# Image Sources - Blog 276
+# Image sources - Blog 276
 
-- `korean-two-block-salon-generated.png`
-  - Source: EpicKor-owned generated photorealistic editorial reference.
-  - Generation prompt summary: Korean man in a modern Seoul-style salon, clean two-block haircut, side/back three-quarter angle, no logos/text/watermark/celebrity resemblance.
-  - Use: Hero/support image because it directly shows the two-block side/back logic discussed in the article.
-  - Disclosure: Generated visual reference, not a real salon, real customer, or documentary photo.
-- `korean-down-perm-side-generated.png`
-  - Source: EpicKor-owned generated photorealistic editorial reference.
-  - Generation prompt summary: Korean men's salon side profile, stylist controlling side hair, down-perm/side-control concept, no chemical labels/logos/text/watermark/celebrity resemblance.
-  - Use: Support image for the down-perm and side-control section.
-  - Disclosure: Generated visual reference, not a real salon procedure photo.
-- `korean-mens-haircut-order-map.svg`
-  - Source: EpicKor-owned editorial SVG.
-  - Use: Salon communication graphic for two-block/down-perm/volume/bang decisions.
-- `barber-tools-clippers-scissors-pexels.jpg`
-  - Source: Pexels.
-  - Photographer: RDNE Stock project.
-  - Pexels photo ID: 7697208.
-  - Source URL: `https://www.pexels.com/photo/7697208/`
-  - Use: Barber-tool context replacing the former haircut order SVG helper image.
+Reviewed on 2026-07-18. The article uses real salon-process photographs. They illustrate haircut communication and technique without claiming a named cut or Korean venue that the source does not document.
+
+| Local file | Source | Creator / license note | Use |
+|---|---|---|---|
+| `real-mens-haircut-technique.jpg` | https://www.pexels.com/photo/12464843/ | izzet cakalli / Pexels | Top, side and transition discussion |
+| `real-salon-side-hair-control.jpg` | https://www.pexels.com/photo/13138585/ | Marvin Sacdalan / Pexels | Side/back control discussion |
+| `barber-tools-clippers-scissors-pexels.jpg` | https://www.pexels.com/photo/7697208/ | RDNE Stock project / Pexels | Tools and order checklist |

@@ -2,19 +2,19 @@
 title: "Three Seoul Markets: Gwangjang, Majang and Dongmyo"
 slug: '053'
 date: "2024-07-31"
-updatedAt: "2026-07-17"
+updatedAt: "2026-07-18"
 description: "Plan Gwangjang, Majang and Dongmyo markets with the right food, shopping, subway stops, timing, etiquette, and realistic expectations."
 tags: ["Seoul", "Travel", "Food", "Shopping", "Traditional Markets"]
-ogImage: "/assets/images/posts/053/seoul-market-lane.jpg"
+ogImage: "/assets/images/posts/053/gwangjang-market-seoul.jpg"
 ---
 
 **Choose Gwangjang for famous street food and textiles, Majang for a meat-focused meal, and Dongmyo for low-cost secondhand browsing.** They are not three versions of the same tourist market. Each rewards a different plan, and trying to rush all three as a checklist can leave you tired, overfed and carrying things you did not mean to buy.
 
 The easiest first visit is Gwangjang, where food stalls and central subway access make the experience immediately legible. Majang is the specialist choice for diners who genuinely want to choose and grill meat. Dongmyo works best for patient browsers who enjoy outdoor flea-market unpredictability. This guide explains what each place does well, how to combine them, and where old online advice needs caution in 2026.
 
-![A rainy Seoul market lane with Korean signs and vendors](/assets/images/posts/053/seoul-market-lane.jpg)
+![The covered main aisle of Gwangjang Market in Seoul, filled with food stalls and shoppers](/assets/images/posts/053/gwangjang-market-seoul.jpg)
 
-*Seoul markets are working commercial spaces, not staged attractions. Weather and vendor schedules can change the experience. Photo by Theodore Nguyen on Pexels.*
+*Gwangjang Market's covered aisles combine prepared food, textiles, household goods and heavy foot traffic. Photo by Bgag via Wikimedia Commons, CC0.*
 
 ## Quick comparison: which Seoul market fits you?
 
@@ -39,9 +39,9 @@ The central food zone can feel tourist-oriented, while the fabric sections revea
 
 For food, order one or two items first. Bindaetteok is a crisp mung-bean pancake; mayak gimbap is a small rice roll served with mustard sauce; yukhoe is raw seasoned beef and should only be chosen if raw meat suits your health and comfort level. Knife-cut noodles, dumplings and tteokbokki offer alternatives. Prices and menus vary by stall, so read the displayed board before sitting. If a seafood-market stop tempts you toward moving octopus, read EpicKor's [san-nakji safety and etiquette guide](/blog/034) before treating it as a challenge.
 
-![Prepared side dishes at a Seoul market stall with Korean labels](/assets/images/posts/053/seoul-market-food-display.jpg)
+![Customers seated at a Gwangjang Market food counter in Seoul](/assets/images/posts/053/gwangjang-market-food-stalls.jpg)
 
-*This Seoul market display illustrates the density of prepared-food choices; it is not labeled as a specific Gwangjang stall. Photo by Theodore Nguyen on Pexels.*
+*Counter seating puts visitors directly beside the cooks and the dishes at Gwangjang Market. Photo by Kallerna via Wikimedia Commons, CC BY-SA 4.0.*
 
 ## How to eat at Gwangjang without turning lunch into a mistake
 
@@ -77,9 +77,9 @@ Dongmyo rewards curiosity more than a shopping list. The Seoul Metropolitan Gove
 
 Some vendors operate from shops; others arrange goods outside. Weekends can produce the liveliest street scene, while poor weather can reduce outdoor stock. Hours found online conflict because Dongmyo is not one controlled building. Seoul's tourism material advises that business hours vary by store. Arrive in daylight, ideally late morning through afternoon, and treat any exact closing time as a guideline.
 
-![Clothing racks in a Seoul outdoor market](/assets/images/posts/053/seoul-clothing-market.jpg)
+![A narrow secondhand book shop inside Dongmyo Flea Market](/assets/images/posts/053/dongmyo-flea-market.jpg)
 
-*Outdoor clothing racks capture the browsing rhythm of Seoul's secondhand-market culture without claiming this exact stall is in Dongmyo. Photo by Theodore Nguyen on Pexels.*
+*Dongmyo's flea-market inventory extends beyond clothing to tightly packed secondhand books, tools and household goods. Photo by Seefooddiet via Wikimedia Commons, CC BY-SA 4.0.*
 
 ## How to shop secondhand responsibly at Dongmyo
 
@@ -119,9 +119,9 @@ Accessibility varies. Gwangjang's main lanes are fairly flat but become congeste
   <p><strong>Carry purchases without adding bulk:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. Compare <a href="https://www.amazon.com/s?k=foldable+reusable+shopping+bag&tag=epickor2026-20" target="_blank" rel="nofollow sponsored noopener noreferrer">foldable reusable shopping bags</a> by packed size and washable fabric, especially if Dongmyo clothing or Gwangjang dry goods are on your list.</p>
 </div>
 
-![Two vendors seated beside produce at a Seoul market](/assets/images/posts/053/seoul-market-vendors.jpg)
+![A bite of grilled Korean beef served at Majang Meat Market](/assets/images/posts/053/majang-meat-market.jpg)
 
-*Two Seoul market vendors pose at a food stall. Ask before close photography instead of assuming every working person wants to be content. Photo by Theodore Nguyen on Pexels.*
+*Majang Meat Market is built around selecting cuts and taking them upstairs or nearby to be grilled. Photo: Korea Tourism Organization.*
 
 ## What to verify on the day you go
 

@@ -20,6 +20,7 @@
     "reels:render:170": "npm run reels:render -- --slug 170",
     "audit:image-sizes": "node scripts/optimize-blog-images.mjs --audit",
     "audit:image-refs": "node scripts/audit-blog-image-references.mjs",
+    "audit:image-context": "node scripts/audit-image-context.mjs",
     "optimize:images": "node scripts/optimize-blog-images.mjs",
     "audit:seo-aeo": "node scripts/seo-aeo-audit.mjs",
     "audit:amazon-links": "node scripts/audit-amazon-links.mjs",

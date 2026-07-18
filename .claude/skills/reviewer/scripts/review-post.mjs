@@ -166,8 +166,11 @@ function parseFrontmatter(markdown) {
 function checkImageIssues(markdown) {
   const issues = [];
   const imgMatches = [...markdown.matchAll(/!\[([^\]]*)\]\(([^)]+)\)/g)];
+  const proxyCopy = /(?:not (?:a|the) (?:specific|actual|real|verified|official)|general (?:image|photo|scene)|category illustration|included to show|without implying|not presented as|similar to (?:the|a|what)|(?:visual )?stand-in|editorial illustration|generated (?:scene|image|visual)|EpicKor generated visual)/i;
+  const bodyImageSources = [];
   for (const m of imgMatches) {
     const src = m[2].trim();
+    bodyImageSources.push(src.split(/[?#]/)[0]);
     if (!m[1].trim()) {
       issues.push(`alt 텍스트 없는 이미지: ${src.slice(0, 80)}`);
     }
@@ -183,6 +186,14 @@ function checkImageIssues(markdown) {
     if (assetPath && !existsSync(assetPath)) {
       issues.push(`local image file missing: ${cleanSrc}`);
     }
+
+    const following = markdown.slice((m.index || 0) + m[0].length).match(/^\s*\r?\n\s*\*([^\n]+)\*/)?.[1] || '';
+    if (proxyCopy.test(`${m[1]}\n${following}`)) {
+      issues.push(`proxy/generated image wording is not publishable: ${(following || m[1]).slice(0, 160)}`);
+    }
+  }
+  if (bodyImageSources.length > 0 && bodyImageSources.every((src) => /\.svg$/i.test(src))) {
+    issues.push('public article image set is SVG-only; add direct real photos or exact screenshots');
   }
   return issues;
 }

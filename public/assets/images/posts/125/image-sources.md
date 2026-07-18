@@ -1,12 +1,12 @@
-# Image sources for Blog 125 (2026-07-17 rewrite)
+# Image sources - Blog 125
 
-The previous `125_01.jpg` to `125_04.jpg` files are no longer referenced. Their provenance and precise performer identities were not documented, so the rewrite uses a new non-identifying editorial set.
+Reviewed on 2026-07-18. All four displayed images are documentary photographs of samulnori, nongak, or pungmul performances.
 
-The four replacement images are crops from one EpicKor editorial contact sheet generated with OpenAI image generation on 2026-07-17. The prompt required culturally accurate Korean percussion, no famous or identifiable people, no logos, and no readable text. The generated original remains outside the repository in the Codex generated-image store.
+| Local file | Source | Creator / license note | Use |
+|---|---|---|---|
+| `samulnori-kim-deok-su.jpg` | https://commons.wikimedia.org/wiki/File:7-75aSamulnori_performance_of_Kim_Deok-su_of_the_SamulNori_Hanullim_Art_Troupe_(4705242667).jpg | Republic of Korea/KOCIS, CC BY-SA 2.0 | Kim Deok-su and samulnori history |
+| `korean-nongak-performance.jpg` | https://commons.wikimedia.org/wiki/File:Korean_music-Nongak-02.jpg | Leigh Cooper, CC BY-SA 2.0 | Nongak ensemble |
+| `samulnori-quartet.jpg` | https://commons.wikimedia.org/wiki/File:Korea-Samul_nori-02.jpg | Sergio, CC BY 2.0 | Seated samulnori quartet |
+| `insadong-pungmul-performance.jpg` | https://commons.wikimedia.org/wiki/File:Pungmul_performance_at_Insadong_1.jpg | travel oriented, CC BY-SA 2.0 | Pungmul procession in Seoul |
 
-- `samulnori-four-instruments.jpg` — stylized kkwaenggwari, jing, janggu, and buk arranged separately with representative beaters.
-- `samulnori-stage-quartet.jpg` — seated four-person stage ensemble, cropped above the face line.
-- `nongak-village-procession.jpg` — wide outdoor community band showing movement, percussion, sashes, and ribbon hats.
-- `janggu-beginner-workshop.jpg` — hands-only beginner practice around janggu drums.
-
-The set was visually checked against the National Gugak Center instrument descriptions and UNESCO's broader nongak description. The top-left image shows two gongs and two drums; the stage image preserves the four core roles; the nongak image is explicitly presented as an illustration rather than a real village or designated heritage troupe. The precise stands, beaters, lacing, and workshop notation are illustrative and may differ from a teacher's equipment. All crops are 1200 × 675 and below 400 KB.
+Legacy generated illustrations remain unreferenced and are not part of the published article.

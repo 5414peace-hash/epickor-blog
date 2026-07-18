@@ -2,13 +2,13 @@
 title: "Dongduk Women's University Coeducation Dispute"
 slug: "077"
 date: "2025-01-03"
-updatedAt: "2026-07-17"
+updatedAt: "2026-07-18"
 visibility: "public"
 publishAt: ""
 description: "A neutral 2026 guide to Dongduk Women's University's coeducation dispute, the 2024 occupation, public deliberation, 2029 plan, and ongoing legal cases."
 tags: ['DongdukWomensUniversity', 'KoreanUniversities', 'Coeducation', 'StudentProtest', 'KoreanSociety']
 cleanUrl: ""
-ogImage: "/assets/images/posts/077/campus-01.jpg"
+ogImage: "/assets/images/posts/077/dongduk-protest-entrance.jpg"
 author: "EpicKor"
 ---
 
@@ -16,8 +16,8 @@ The Dongduk Women's University coeducation dispute began as a conflict over whet
 
 That does not make every dispute settled. Some students and supporters continued to oppose the change, while legal proceedings connected to the 2024 occupation moved forward. Eleven people were indicted without detention in March 2026, according to Korean court reporting. An indictment is an accusation, not a conviction, and the university's own strongly worded statements should be read as one party's position rather than neutral findings.
 
-![A quiet, generic Seoul university gate in autumn.](/assets/images/posts/077/campus-01.jpg)
-*EpicKor editorial illustration. It avoids Dongduk branding, protest writing, and identifiable students because the dispute and legal cases remain sensitive.*
+![The entrance to Dongduk Women's University covered with student protest messages in November 2024.](/assets/images/posts/077/dongduk-protest-entrance.jpg)
+*Messages opposing a coeducation proposal covered the entrance to Dongduk Women's University on November 13, 2024. Photo by Han Jun-gu/Aju Press.*
 
 ## The Short Answer: What Changed
 
@@ -56,8 +56,8 @@ That does not prove coeducation is the only viable response. Institutions can sp
 
 The university's 2024 and 2025 statements framed this as a development question and condemned the occupation as unlawful. Those notices evidence its reasoning, not independent adjudication of every contested event.
 
-![An empty seminar room arranged in a circle for institutional deliberation.](/assets/images/posts/077/campus-02.jpg)
-*EpicKor editorial illustration of a deliberation setting, not a photograph of the Dongduk committee.*
+![Protest slogans and funeral wreaths along a Dongduk Women's University campus walkway.](/assets/images/posts/077/dongduk-protest-signs.jpg)
+*Students placed slogans and funeral wreaths along the Dongduk campus during the 2024 dispute. Photo by Han Jun-gu/Aju Press.*
 
 ## What Happened During the 2024 Occupation
 
@@ -108,8 +108,8 @@ In March 2026, prosecutors indicted eleven people without detention on allegatio
 
 This article does not identify students. They are not necessary for explaining the institutional dispute, and naming defendants can amplify harassment before final judgments. Claims about individual conduct, damages, or intent should be updated from court records as cases conclude.
 
-![A campus notice board with blank papers, symbolizing competing messages without reproducing slogans.](/assets/images/posts/077/campus-03.jpg)
-*EpicKor editorial illustration. Blank notices prevent invented Korean writing or attribution to real participants.*
+![Protest writing across a Dongduk Women's University campus path in November 2024.](/assets/images/posts/077/dongduk-student-assembly.jpg)
+*The campus itself became a protest surface during the coeducation dispute. Photo by Lee Choong-woo/Maeil Business Newspaper.*
 
 ## Why Women's Universities Still Matter in Korea
 
@@ -137,8 +137,8 @@ Applicants should consult official admissions documents for the year and program
 
 Current students should look for written transition protections: whether their curriculum, facilities, graduation requirements, and degree wording remain stable. Alumni may want details on records and branding. International students should contact the university directly if Korean-language notices are unclear.
 
-![Two open campus doors and graduation caps representing a future institutional transition.](/assets/images/posts/077/campus-04.jpg)
-*EpicKor editorial illustration of institutional choice; it does not predict how Dongduk's campus will look in 2029.*
+![The official Dongduk Women's University Wolgok campus map.](/assets/images/posts/077/dongduk-campus-map.jpg)
+*Dongduk Women's University's official campus map shows the Wolgok campus discussed in the dispute. Image: Dongduk Women's University.*
 
 Because this dispute includes ongoing criminal proceedings and claims of substantial damage, EpicKor intentionally carries no affiliate product promotion in this guide. Primary notices, court reporting, and current admissions documents are more appropriate resources.
 
