@@ -69,6 +69,19 @@
 
 ## Release record
 
-- Commit: pending
-- Production deployment: pending
-- Public QA: pending
+- Implementation commit: `aab2173f` (`Fix sitewide image relevance and review gates`)
+- Deployment-safety commit: `59d05af9` (`Exclude local caches from Vercel archive`)
+- Production deployment: `dpl_HVetyD36ktJ6Rsv9u3rwor8E65v4`
+  - URL: `https://epickor-blog-1lybre7be-yhs-projects-5de403d3.vercel.app`
+  - Status: Ready
+  - Alias: `https://www.epickor.com`
+- Public QA passed for `/blog/015`, `/053`, `/075`, `/198`, `/201`, `/205`, `/206`, and `/292`: HTTP 200, new marker present, defensive-caption pattern absent.
+- Eight representative production image URLs returned HTTP 200 with the expected nonzero byte sizes.
+- `/latest` returned HTTP 200 and remained ordered `307 -> 306 -> 305`; legacy Blog 015 was absent from the recent list, confirming that the correction did not republish old posts.
+
+## Deployment freeze diagnosis
+
+- The first archived deployment attempt was stopped after Node memory exceeded 2 GB.
+- Root cause: `.tmp/` contained 9,843 files totaling about 1.87 GB and was missing from `.vercelignore`; `.git/` was also about 2.4 GB.
+- Added explicit Vercel exclusions for `.tmp/`, `.git/`, `.vercel/`, `.agents/`, `.codex/`, `.vscode/`, and the local backup folder.
+- After exclusion, a normal non-archive upload contained 4,292 files / 407.7 MB, stayed materially lighter, and deployed successfully. Future routine deploys should use `npx vercel --prod --yes`; use `--archive=tgz` only if the file-count limit actually reappears.
