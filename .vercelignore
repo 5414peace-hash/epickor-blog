@@ -1,6 +1,13 @@
 .next/
 node_modules/
 output/
+.tmp/
+.git/
+.vercel/
+.agents/
+.codex/
+.vscode/
+backup_20260203_100330/
 .history/
 history/
 .codex-deploy/
