@@ -91,6 +91,8 @@ Pack for the actual month:
 - Winter: layers, gloves, warm socks, and shoes with grip.
 - Spring/fall: light layers and air-quality awareness.
 
+If your trip is built around snow, slopes, or outdoor ice, pair this packing list with EpicKor's [Korea winter travel guide](/blog/091) before you lock hotels or day trips.
+
 If you plan outdoor days, read EpicKor's [Seoul hiking guide](/blog/063) before treating mountain trails like casual city walks.
 
 <div class="table-scroll">

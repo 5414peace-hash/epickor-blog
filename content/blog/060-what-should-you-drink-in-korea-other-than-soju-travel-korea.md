@@ -65,7 +65,7 @@ Korean beer is often enjoyed cold, easy, and food-friendly. It pairs naturally w
 
 Do not judge Korean beer only by craft-beer standards. The mainstream role is refreshment. It cuts through fried food and keeps group meals light. If you want more variety, look for local craft bars, convenience-store imports, or seasonal cans.
 
-For the food side, EpicKor's [Korean fried chicken guide](/blog/018), [Korean baseball guide](/blog/233), and [night picnic guide](/blog/267) connect beer to real travel situations.
+For the food side, EpicKor's [Korean fried chicken guide](/blog/018), [Korean baseball guide](/blog/081), and [night picnic guide](/blog/267) connect beer to real travel situations.
 
 ## Traditional Sool: Korea Beyond Green Bottles
 
