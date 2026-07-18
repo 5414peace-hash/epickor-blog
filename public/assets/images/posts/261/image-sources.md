@@ -17,3 +17,9 @@
   - Page checked: `https://www.chosun.com/english/market-money-en/2026/01/19/H27A43JH4BGYVLDGYIIWFJSSSQ/`
   - URL used: `https://cloudfront-ap-northeast-1.images.arcpublishing.com/chosun/R67EUERIFZGB7P5ZS4E2JP6Z34.jpg`
   - Use: Korean retail-investor and U.S.-stock-investing context.
+- `stock-market-trading-monitors-pexels.jpg`
+  - Source: Pexels.
+  - Photographer: Rafael Minguet Delgado.
+  - Pexels photo ID: 38412413.
+  - Source URL: `https://www.pexels.com/photo/38412413/`
+  - Use: Real trading-monitor context replacing the former market-flow SVG helper image.

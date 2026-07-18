@@ -18,3 +18,9 @@
   - Page checked: `https://pulse.mk.co.kr/news/english/11965817`
   - URL used: `https://pimg.mk.co.kr/news/cms/202602/19/news-p.v1.20260219.cb75c15c0d864078aa610aa8cc92c6c8_P1.png`
   - Use: Retail-stress and store-closure context for the uneven wealth-effect section.
+- `semiconductor-circuit-board-pexels.jpg`
+  - Source: Pexels.
+  - Photographer: Ivan Chumak.
+  - Pexels photo ID: 34924856.
+  - Source URL: `https://www.pexels.com/photo/34924856/`
+  - Use: Semiconductor hardware context replacing the former chip-boom split SVG helper image.

@@ -12,3 +12,15 @@
   - Source: Wikimedia Commons People Power Party logo.
   - Fit score: 98/100.
   - Reason: Directly identifies one of the two parties discussed.
+- `voting-ballot-box-pexels.jpg`
+  - Source: Pexels.
+  - Photographer: Edmond Dantes.
+  - Pexels photo ID: 7103187.
+  - Source URL: `https://www.pexels.com/photo/7103187/`
+  - Use: Voting/election context replacing a former party-logo SVG slot.
+- `voting-ballot-hands-pexels.jpg`
+  - Source: Pexels.
+  - Photographer: Edmond Dantes.
+  - Pexels photo ID: 7103185.
+  - Source URL: `https://www.pexels.com/photo/7103185/`
+  - Use: Ballot/voter context replacing a former party-logo SVG slot.

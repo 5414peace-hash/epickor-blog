@@ -18,3 +18,9 @@
 - `seoul-tech-buying-map.svg`
   - Source: EpicKor-owned editorial SVG.
   - Use: Buying checklist graphic for warranty, voltage, tax refund, and packability.
+- `korea-kodak-camera-store-pexels.jpg`
+  - Source: Pexels.
+  - Photographer: Gul Isik.
+  - Pexels photo ID: 33415138.
+  - Source URL: `https://www.pexels.com/photo/33415138/`
+  - Use: South Korea camera-store context replacing the former Seoul tech buying SVG helper image.

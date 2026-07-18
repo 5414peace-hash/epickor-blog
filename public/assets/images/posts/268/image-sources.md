@@ -4,3 +4,4 @@
 - `compact-sponge-application.jpg` - Pexels photo by RDNE Stock project. Source: https://www.pexels.com/photo/person-applying-powder-with-a-sponge-12323055/
 - `foundation-clean-setup.jpg` - Pexels photo by DS stories. Source: https://www.pexels.com/photo/foundation-concealer-and-makeup-sponge-on-white-surface-7256092/
 - `cushion-shade-test-map.svg` - EpicKor-owned editorial SVG created for this post to explain shade and undertone testing.
+- `makeup-shade-testing-pexels.jpg` - Pexels photo by George Milton. Source: https://www.pexels.com/photo/6953998/. Used as a real shade-testing context image replacing the former SVG helper.

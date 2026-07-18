@@ -13,3 +13,9 @@
 - `korean-mens-haircut-order-map.svg`
   - Source: EpicKor-owned editorial SVG.
   - Use: Salon communication graphic for two-block/down-perm/volume/bang decisions.
+- `barber-tools-clippers-scissors-pexels.jpg`
+  - Source: Pexels.
+  - Photographer: RDNE Stock project.
+  - Pexels photo ID: 7697208.
+  - Source URL: `https://www.pexels.com/photo/7697208/`
+  - Use: Barber-tool context replacing the former haircut order SVG helper image.

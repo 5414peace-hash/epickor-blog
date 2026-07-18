@@ -9,5 +9,6 @@ Reviewed on 2026-07-17. Four official Korea.net cultural images and one EpicKor 
 | `bojagi-hanbok.jpg` | https://www.korea.net/NewsFocus/HonoraryReporters/view?articleId=202030 | Korea.net article image | Material and reuse context |
 | `bojagi-hydrangea-knot.jpg` | https://www.korea.net/NewsFocus/HonoraryReporters/view?articleId=216024 | Korea.net article image | Decorative knot example |
 | `bojagi-wrap-steps.svg` | Original EpicKor editorial graphic created 2026-07-17 | No external asset | Basic box-wrap sequence |
+| `fabric-wrapped-gift-pexels.jpg` | https://www.pexels.com/photo/6305932/ | Pexels photo by Anastasia Shuraeva | Fabric-wrapped gift context replacing the former SVG helper |
 
 Rejected candidates included generic Japanese furoshiki tutorials, commercial product images with unclear reuse rights, and textile photos with no verified Korean context.

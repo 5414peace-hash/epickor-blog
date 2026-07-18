@@ -11,3 +11,8 @@
 - `car-camping-decision-map.svg`
   - Source: EpicKor-owned editorial SVG.
   - Use: Planning checklist graphic for legal place, rest-stop limits, gear, weather, and cleanup.
+- `car-camping-green-campsite-pexels.jpg`
+  - Source: Pexels photo `11749406`.
+  - Credit: Photo by Matheus Bertelli on Pexels.
+  - Source URL: `https://www.pexels.com/photo/11749406/`
+  - Use: Car-and-tent campsite context replacing the former SVG helper image.
