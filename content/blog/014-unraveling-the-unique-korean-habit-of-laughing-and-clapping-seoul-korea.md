@@ -4,7 +4,7 @@ slug: '014'
 date: "2024-07-09"
 description: "A careful guide to Korean laugh-clapping, variety-show reactions, heung, jeong, personal space, and what visitors should or should not copy."
 tags: ["Korean Culture", "Etiquette", "Variety Shows", "Heung", "Social Life"]
-ogImage: "/assets/images/posts/014/korean-laughter-context-map.svg"
+ogImage: "/assets/images/posts/014/70cc0930-3703-427f-8faa-a5a3ac2d8407.png"
 ---
 
 ![A Korean laugh-clap title frame from a close-up entertainment clip](/assets/images/posts/014/70cc0930-3703-427f-8faa-a5a3ac2d8407.png)
@@ -31,7 +31,7 @@ This matters because Korean conversation can carry a lot of indirectness. Age, s
 
 The Academy of Korean Studies' Encyclopedia of Korean Culture describes laughter as an expression of feeling through facial change and sound, while also noting that laughter can carry cultural and social meaning. That broader idea is useful here: laughter is never just a sound. It is also timing, audience, relationship, and context.
 
-![A simple context map showing when Korean laugh-clapping can mean amusement, support, TV reaction, or close-friend energy](/assets/images/posts/014/korean-laughter-context-map.svg)
+![Koreans laughing together in a casual entertainment clip](/assets/images/posts/014/c64fef49-6d7c-4545-b5de-edd9d636af0f.jpg)
 
 ## Heung Helps Explain the Energy
 
@@ -145,7 +145,7 @@ That difference can make Korean laughter feel warmer, louder, or more communal. 
 
 You can copy the supportive part, not the intrusive part. Laugh when something is funny. Smile. Clap your own hands if the mood is casual and everyone is reacting. Say “jinjja?” when you are surprised, “daebak” when something is impressive, or simply laugh naturally. At noraebang, clap for the singer. At a concert, follow the crowd's fan chant rather than inventing your own disruption. In a Korean-language exchange, give small reactions so the other person knows you are listening.
 
-![A Korean laugh-clap boundary guide showing safe reactions to copy and physical reactions to avoid](/assets/images/posts/014/korean-laugh-copy-boundary.svg)
+![Koreans laughing and clapping in a casual group setting](/assets/images/posts/014/fc714292-81b1-4b40-b6b0-16cac2c15b7d.jpg)
 
 What should you avoid? Do not hit someone's arm unless you already have that kind of relationship. Do not mock the reaction as “so Korean” in front of people. Do not force a huge laugh to prove cultural understanding. Do not film strangers laughing and turn them into content. The safest reaction is warm, present, and proportional.
 

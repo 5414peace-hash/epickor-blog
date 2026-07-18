@@ -38,7 +38,7 @@ Because the term is casual and internet-friendly, do not treat it like a formal 
 
 Korean dictionary resources define the broader verb **hapchanghada** as many people singing together in unison or chorus. Ttechang is the more colloquial fan/concert version people reach for when a crowd sings together loudly.
 
-![A guide graphic mapping ttechang, fan chants, light sticks, and noraebang to Korean concert behavior.](/assets/images/posts/061/korean-concert-crowd-map.svg)
+![A lively night concert crowd at Asia Culture Center.](/assets/images/posts/061/asia-culture-center-concert-crowd-pexels.jpg)
 
 ## Fan chants are different from sing-alongs
 
@@ -76,7 +76,7 @@ That organization can make the venue feel polished. It can also make first-timer
 
 For a broader Korean music context, read EpicKor's [Korean karaoke hits guide](/blog/003), [summer K-pop guide](/blog/058), and [samulnori and nongak guide](/blog/125).
 
-![A simple fan-prep map for Korean concerts: lyrics, chant guide, light stick, etiquette, and transport.](/assets/images/posts/061/korean-concert-prep-map.svg)
+![An outdoor concert crowd enjoying live music at Asia Culture Center.](/assets/images/posts/061/outdoor-concert-crowd-asia-culture-center-pexels.jpg)
 
 ## Etiquette: when to sing and when to listen
 

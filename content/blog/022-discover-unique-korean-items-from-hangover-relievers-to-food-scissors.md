@@ -37,7 +37,7 @@ Korea.net's K-Scissors feature shows the same logic: scissors are used in Korean
 
 That is why the scissors are not just "funny Korea content." They are part of a broader table system: grill, tongs, scissors, banchan, lettuce wraps, shared sauces, and quick refills. Once you understand the system, the tool stops feeling strange.
 
-![A visual map of common Korean table tools and when visitors notice them.](/assets/images/posts/022/korean-practical-tools-map.svg)
+![Korean table scissors shown in the original EpicKor practical tools footage.](/assets/images/posts/022/022_EpicKor_%EC%A7%84%ED%98%B8.mp4_20240712_221116.402.jpg)
 
 ## How to use Korean food scissors without looking lost
 
@@ -67,7 +67,7 @@ The cultural point is real: Korea has strong after-work dining and drinking trad
 
 There is research on some ingredients. For example, one small randomized crossover study on Hovenia dulcis extract examined effects after alcohol intake in a specific group of young male adults. That is interesting, but it does not prove that every Korean hangover drink works for every person, every bottle, or every drinking situation.
 
-![A label-check graphic for reading Korean hangover drink claims carefully.](/assets/images/posts/022/hangover-drink-label-check.svg)
+![Korean hangover relief drinks shown in the original EpicKor practical tools footage.](/assets/images/posts/022/022_EpicKor_%EC%A7%84%ED%98%B8.mp4_20240712_221031.610.jpg)
 
 ## Korea is tightening hangover-drink claims
 

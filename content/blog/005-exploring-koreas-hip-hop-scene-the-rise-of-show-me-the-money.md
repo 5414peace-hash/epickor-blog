@@ -6,7 +6,7 @@ updatedAt: "2026-07-18"
 visibility: "public"
 publishAt: ""
 description: "A practical Show Me The Money guide explaining how Mnet's rap survival show pushed Korean hip-hop from underground scenes into mainstream TV."
-ogImage: "/assets/images/posts/005/20260203100728_54836f8d.png"
+ogImage: "/assets/images/posts/005/hiphop-hoodie-mic-concert-pexels.jpg"
 tags: ["KoreanHipHop", "ShowMeTheMoney", "KMusic", "Mnet", "Hallyu"]
 author: "EpicKor"
 ---
@@ -15,7 +15,7 @@ author: "EpicKor"
 
 This guide is not a list of winners. It explains what the show changed: how underground credibility met television editing, why producers became as visible as contestants, how memes and stage clips moved through Korean youth culture, and why the series remains controversial even when it helps artists reach wider audiences. For the broader genre map, read EpicKor's [Korean hip-hop guide](/blog/009). For the fandom-shopping side of K-music, use the [K-pop photocard guide](/blog/291) and [coin noraebang guide](/blog/292).
 
-![Korean hip-hop stage mood for a Show Me The Money explainer.](/assets/images/posts/005/20260203100728_54836f8d.png)
+![A hoodie-wearing hip-hop performer holding a microphone on a concert stage.](/assets/images/posts/005/hiphop-hoodie-mic-concert-pexels.jpg)
 
 ## The Short Answer
 
@@ -46,7 +46,7 @@ That simplicity made the show work as television. Each episode could sell severa
 
 The risk is obvious. Real music scenes are messier than TV brackets. A quiet artist with great albums may be less television-friendly than a loud contestant with one viral moment. But the same compression also helped Korean hip-hop reach people who would never have started with underground archives.
 
-![A Korean hip-hop performance scene with stage lights and audience energy.](/assets/images/posts/005/20260203100730_3f30fa45.jpg)
+![A rapper performing live on stage with audience energy and concert lighting.](/assets/images/posts/005/rapper-stage-audience-pexels.jpg)
 
 ## The TV Flywheel
 
@@ -54,7 +54,7 @@ SMTM worked because it linked several engines at once. The broadcast gave the fi
 
 CJ ENM's current English materials describe Show Me The Money 12 as Korea's iconic hip-hop survival returning for a 12th season, and the company's Gen Z-facing material frames the series as a defining shared experience for Korean hip-hop fans. That is company language, so it should not be read as neutral criticism. But it confirms something important: CJ ENM itself treats SMTM as a long-running franchise, not a one-off rap contest.
 
-![A simple flywheel showing how SMTM moves from TV stage to clips, streaming, memes, festivals, and labels.](/assets/images/posts/005/smtm-tv-flywheel.svg)
+![A rapper performing under vivid stage lights during a live concert.](/assets/images/posts/005/rapper-stage-lights-pexels.jpg)
 
 <div class="affiliate-inline-cta">
   <p><strong>Build context before copying the style:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. If Korean hip-hop sends you deeper into Korean society and language, compare <a href="https://www.amazon.com/s?k=korean+culture+history+book&amp;tag=epickor2026-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean culture and history books</a> before treating lyrics as isolated slang.</p>

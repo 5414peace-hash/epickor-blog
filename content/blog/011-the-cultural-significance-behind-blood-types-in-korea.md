@@ -7,7 +7,7 @@ visibility: "public"
 publishAt: ""
 tags: ["Culture", "Psychology", "Dating", "MBTI", "Korean Society"]
 author: "EpicKor"
-ogImage: "/assets/images/posts/011/korean-blood-type-mbti-map.svg"
+ogImage: "/assets/images/posts/011/545ab633-a411-459c-9619-34d52b83ea1d.png"
 ---
 
 ![A Korean blood type personality title frame from an EpicKor video still](/assets/images/posts/011/545ab633-a411-459c-9619-34d52b83ea1d.png)
@@ -32,7 +32,7 @@ The stereotypes vary by person, generation, and media source, but the basic shor
 
 Those descriptions are not fair personality tests. They are social caricatures. The same way an English speaker may joke about zodiac signs without truly making life decisions from them, a Korean speaker may use blood type language as a playful way to talk about temperament.
 
-![A simple EpicKor map comparing the four Korean blood type personality stereotypes with MBTI-style small talk](/assets/images/posts/011/korean-blood-type-mbti-map.svg)
+![A Korean blood type Type B personality card from the original EpicKor visual package](/assets/images/posts/011/116afdc8-c43d-4992-9f30-aa5a82786688.jpg)
 
 The danger comes when playful labels become assumptions. Calling a Type B man unreliable, a Type A person timid, or an AB person weird can become lazy and sometimes rude. If someone brings up your blood type, you do not need to defend your entire personality. You can treat it lightly: “What does that mean in Korea?” or “Do people still believe that?” usually opens a better conversation.
 
@@ -130,7 +130,7 @@ But the underlying social function is similar. People want shortcuts for underst
 
 The scientific case for blood type personality is weak. The most useful way to explain it is not “no study has ever found anything,” because research history is messy and small studies sometimes claim minor associations. The better explanation is: strong, repeatable, useful evidence is not there.
 
-![A Korean blood type fact-check card showing culture, science, dating, and MBTI as separate layers](/assets/images/posts/011/korean-blood-type-fact-check.svg)
+![A Korean blood type Type O personality card from the original EpicKor visual package](/assets/images/posts/011/1b507c5d-4bbd-48ca-b878-1a59dd3afe6a.jpg)
 
 The 2014 Japanese Journal of Psychology paper by Kengo Nawata analyzed large survey datasets from Japan and the United States and concluded there was no meaningful relationship between ABO blood type and personality. The effect sizes were extremely small. A 2003 paper in *Personality and Individual Differences* also found no support for a relationship using personality measures. A 2005 study of Taiwanese high school students using Big Five personality measures likewise reported no significant relationship except a narrow subgroup result that does not support broad stereotypes.
 

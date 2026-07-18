@@ -4,7 +4,7 @@ slug: '086'
 date: "2024-08-27"
 description: "A practical Seoul night guide for Hangang drone shows, late cafes, markets, neighborhoods, transit, safety, and realistic after-dark planning."
 tags: ["Seoul", "Travel", "Nightlife", "Hangang", "Korea Travel"]
-ogImage: "/assets/images/posts/086/seoul-night-route-map.svg"
+ogImage: "/assets/images/posts/086/c5be1d0a-0bfb-45a5-9d97-d1738b29582b.png"
 ---
 
 ![A Seoul night-trip title frame with the Seoul moon balloon and riverside roads](/assets/images/posts/086/c5be1d0a-0bfb-45a5-9d97-d1738b29582b.png)
@@ -72,7 +72,7 @@ The Han River is the simplest way to understand Seoul at night because it gives 
 
 The official Seoul Metropolitan Government has made Hangang night programming part of its tourism strategy, especially through seasonal drone light shows and Hangang festivals. The Hangang Drone Light Show began as a night-tourism program, and Seoul's 2026 announcements describe free shows at major river parks such as Yeouido, Ttukseom, and Jamsil, with schedules that can change by season and weather. The practical lesson is simple: do not rely on an old blog schedule. Check the official Seoul page or the Hangang event page close to your travel date.
 
-![A simple Seoul night route map for choosing Hangang, cafe, market, or transit-heavy plans](/assets/images/posts/086/seoul-night-route-map.svg)
+![A Seoul moon balloon and riverside evening scene from the original EpicKor Seoul night footage](/assets/images/posts/086/113_EpicKor_%EC%9A%94%EC%88%9C.mp4_20250113_221742.210.jpg)
 
 For visitors, Hangang is best when you treat it as a complete plan, not a quick stop between three other places. Bring a light layer, check the weather, choose the nearest subway station before you go, and decide whether you want a quiet walk, a picnic, a show, or bridge views. If rain is possible, read EpicKor's [Korea rainy season guide](/blog/036) before committing to a riverside evening.
 
@@ -141,7 +141,7 @@ Do not try to eat every viral food in one night. Choose one proper meal, one sna
 
 Seoul's subway is one of the reasons nights feel manageable. It is clean, extensive, and predictable enough that you can move between neighborhoods without constantly negotiating fares. The catch is timing. Last-train windows vary by line, direction, station, and day. A transfer that looks easy at 7 PM can become annoying near midnight.
 
-![A Seoul night timing checklist for checking last train, taxi fallback, battery, and weather before going out](/assets/images/posts/086/seoul-night-timing-checklist.svg)
+![A Seoul night event crowd and fireworks scene from the original EpicKor Seoul night footage](/assets/images/posts/086/113_EpicKor_%EC%9A%94%EC%88%9C.mp4_20250113_221829.030.jpg)
 
 Before you leave your hotel, check the route back, not only the route out. If you plan to stay late in Hongdae, Itaewon, or Gangnam, decide in advance whether you are okay with a taxi. If you are traveling solo, save your accommodation address in Korean and English, keep your phone charged, and avoid walking through unfamiliar quiet streets just to save a small taxi fare.
 

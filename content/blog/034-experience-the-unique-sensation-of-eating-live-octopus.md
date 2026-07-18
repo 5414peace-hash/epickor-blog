@@ -52,7 +52,7 @@ Octopus arms contain a large amount of nervous-system activity outside the centr
 
 The movement can be fascinating, but do not let the visual drama make you careless. Treat each piece as food that requires deliberate chewing. The texture is chewy, slippery, and active enough that rushing is a bad idea.
 
-![San-nakji texture and sesame oil serving note.](/assets/images/posts/034/1cbf83f0-7479-4e50-ab5e-d414dc6f034e.png)
+![San-nakji texture and sesame oil serving note.](/assets/images/posts/034/1cbf83f0-7479-4e50-ab5e-d414dc6f034e.jpg)
 
 ## Safety Comes First
 
@@ -70,7 +70,7 @@ Practical rules are simple:
 
 This is not fearmongering. It is the difference between trying a distinctive Korean seafood dish and turning dinner into an emergency.
 
-![San-nakji safety checklist for travelers.](/assets/images/posts/034/sannakji-safety-checklist.svg)
+![San-nakji served as a Korean live-octopus dish in the original EpicKor footage.](/assets/images/posts/034/034_epickor_%ED%9C%98%EC%88%98.mp4_20240716_220341.020.jpg)
 
 ## Who Should Skip San-nakji
 

@@ -37,7 +37,7 @@ That difference matters because Korean ramyun is designed for speed and repeat u
 
 For the machine-and-convenience side of this culture, pair this with EpicKor's [Korea automated convenience guide](/blog/054), which covers Hangang ramyeon machines, unmanned stores, and robot-service expectations.
 
-![A practical map of Korean ramyun lanes, from soup noodles to stir-fried spicy noodles.](/assets/images/posts/038/korean-ramyun-choice-map.svg)
+![Shin Ramyun package shown in the original EpicKor Korean ramyun footage.](/assets/images/posts/038/038_epickor_%EB%AF%BC%ED%98%B8.mp4_20240717_145758.463.jpg)
 
 ## Shin Ramyun: the benchmark bowl
 
@@ -75,7 +75,7 @@ For travelers, this is where convenience stores become fun. You may see cup nood
 
 For broader convenience-store food planning, read EpicKor's [Korean convenience-store food guide](/blog/059) and [Korean pantry starter kit](/blog/277). If you want the product story behind Buldak's export rise, use the [Samyang Foods business deep dive](/business/samyang-foods-buldak-global-deep-dive).
 
-![A topping map for making Korean ramyun more filling without burying the noodle flavor.](/assets/images/posts/038/korean-ramyun-topping-map.svg)
+![Buldak ramen package shown in the original EpicKor Korean ramyun footage.](/assets/images/posts/038/038_epickor_%EB%AF%BC%ED%98%B8.mp4_20240717_145802.879.jpg)
 
 ## How to control spice without ruining the bowl
 

@@ -6,7 +6,7 @@ updatedAt: "2026-07-18"
 visibility: "public"
 publishAt: ""
 description: "A practical Korea travel guide comparing Jeju, Busan, and Gyeongju for first-time visitors, routes, seasons, transport, costs, and trip style."
-ogImage: "/assets/images/posts/019/ab189815-5584-44a7-b130-a6dfd10b076c.png"
+ogImage: "/assets/images/posts/019/ab189815-5584-44a7-b130-a6dfd10b076c.jpg"
 tags: ["KoreaTravel", "Jeju", "Busan", "Gyeongju", "Itinerary"]
 author: "EpicKor"
 ---
@@ -15,7 +15,7 @@ author: "EpicKor"
 
 This guide helps you choose the right destination instead of trying to force all three into a rushed itinerary. For basic trip prep, pair it with EpicKor's [first-time Korea travel guide](/blog/026), [best time to visit Korea guide](/blog/127), [Seoul safety and etiquette guide](/blog/138), and [Gyeongju day-planning guide](/blog/069).
 
-![Korea travel mood image for Jeju, Busan, and Gyeongju route planning.](/assets/images/posts/019/ab189815-5584-44a7-b130-a6dfd10b076c.png)
+![Korea travel mood image for Jeju, Busan, and Gyeongju route planning.](/assets/images/posts/019/ab189815-5584-44a7-b130-a6dfd10b076c.jpg)
 
 ## The Short Answer
 
@@ -44,7 +44,7 @@ Busan feels like a city with salt in the air. It has skyscrapers and beaches, tr
 
 Gyeongju feels like Korean history has been spread across the ground rather than locked in one museum. The city was the capital of the Silla kingdom, and travelers can move between royal tombs, temples, observatory sites, ponds, museum collections, and hanok-style streets. UNESCO lists the Gyeongju Historic Areas as a World Heritage site, and Bulguksa Temple and Seokguram Grotto are also UNESCO-listed. It is the strongest choice if you want Korea's older layers to feel visible.
 
-![A visual guide comparing Jeju, Busan, and Gyeongju by trip style.](/assets/images/posts/019/korea-travel-triangle-choice-map.svg)
+![Jeju Island coast image from the original EpicKor Korea travel package.](/assets/images/posts/019/48564206-7b41-4a5e-be85-4bcbec54fcdf.jpg)
 
 ## Jeju: Choose It for Landscape and Breathing Room
 
@@ -82,7 +82,7 @@ Busan is strongest for travelers who want:
 
 It is weaker if your main goal is ancient history, quiet temples, or remote nature.
 
-![A simple route planner showing how Seoul connects to Busan, Gyeongju, and Jeju.](/assets/images/posts/019/korea-travel-triangle-route-planner.svg)
+![Busan skyline and waterfront image from the original EpicKor Korea travel package.](/assets/images/posts/019/5856d517-a161-4341-9475-4f601c59145d.jpg)
 
 ## Gyeongju: Choose It for History You Can Walk Through
 

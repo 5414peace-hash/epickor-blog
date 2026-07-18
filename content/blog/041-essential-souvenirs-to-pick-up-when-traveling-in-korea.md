@@ -4,7 +4,7 @@ slug: '041'
 date: "2024-07-25"
 description: "A practical Korean souvenir guide for snacks, beauty, red ginseng, crafts, alcohol, luggage limits, gift etiquette, and smart shopping routes."
 tags: ["Korea Shopping", "Souvenirs", "Travel", "K-Beauty", "Korean Gifts"]
-ogImage: "/assets/images/posts/041/korean-souvenir-choice-map.svg"
+ogImage: "/assets/images/posts/041/bec1c78f-da60-4744-a1fc-614a21834522.png"
 ---
 
 ![A Korea travel shopping-list title frame from a busy Korean market street](/assets/images/posts/041/bec1c78f-da60-4744-a1fc-614a21834522.png)
@@ -27,7 +27,7 @@ The fastest way to waste money in Korea is to start with the most crowded shop a
 
 VisitKorea's shopping guidance highlights a wide range of popular Korean shopping items, from fashion and snacks to cosmetics, ginseng, and alcohol. That variety is helpful, but it also means you need a filter. A suitcase full of “must-buys” can become heavy, repetitive, and hard to explain at customs.
 
-![A compact decision map for matching Korean souvenirs to snack lovers, beauty fans, culture readers, and practical travelers](/assets/images/posts/041/korean-souvenir-choice-map.svg)
+![People shopping along a lively Ikseon-dong street in Seoul.](/assets/images/posts/041/ikseondong-shopping-street-pexels.jpg)
 
 Think in sets. One edible gift, one personal-care gift, and one small cultural object usually feels more thoughtful than six versions of the same trend item. If you are buying for coworkers, choose light and divisible items. If you are buying for close family, choose something with a story. If you are buying for yourself, choose something you will actually use on an ordinary Tuesday.
 
@@ -159,7 +159,7 @@ Do not leave everything for the airport. Airport shops are useful for final snac
 
 Before checkout, ask three boring questions. First: will this survive the flight? Second: will I actually be allowed to bring it into my destination country? Third: is the weight worth it? Food, plant products, herbal items, alcohol, cosmetics, liquids, aerosols, and animal products can all create rules depending on where you are going.
 
-![A Korean souvenir packing checklist for weight, liquids, customs rules, and fragile gifts](/assets/images/posts/041/korean-souvenir-packing-checklist.svg)
+![A busy Seoul market street with colorful stalls and shoppers.](/assets/images/posts/041/seoul-market-stalls-pexels.jpg)
 
 Do not assume a product is fine just because a tourist shop sells it. Tourist shops sell things for use in Korea too. Keep receipts for higher-value items. Separate liquids. Cushion glass. Put strong-smelling food in sealed bags. If something has meat, fresh produce, seeds, soil, or unclear herbal ingredients, check before buying.
 

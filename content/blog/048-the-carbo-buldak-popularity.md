@@ -43,7 +43,7 @@ The most important detail is that Buldak is not soup ramen. It is usually cooked
 
 Carbo Buldak sits in the middle of the Buldak family. The original hot-chicken flavor is sharper. Cream Carbonara is often perceived as softer and richer. Cheese, quattro cheese, jjajang, curry, and other versions each change the heat shape, but Carbonara remains the famous "pink one" because it gives a clear promise: spicy, but creamy.
 
-![A visual map comparing creamy, spicy, and pantry-friendly Carbo Buldak choices.](/assets/images/posts/048/buldak-heat-creamy-choice-map.svg)
+![Carbo Buldak held up in the original EpicKor Carbo Buldak footage.](/assets/images/posts/048/057_EpicKor_%EC%A7%84%ED%98%B8.mp4_20240722_222016.271.jpg)
 
 ## Why It Spread Outside Korea
 
@@ -84,7 +84,7 @@ Buy Carbonara first if you want the famous pink-pack experience. Buy Cream Carbo
 
 If you are shopping outside Korea, check the seller carefully. Look at pack count, expiry date, import labeling, and whether the listing is for Korean domestic packaging or a local-market version. Ingredient and allergen information can vary by market, so read the package you receive. Samyang America's product page lists wheat, soy, and milk among allergens for its Carbonara product page, which matters for many readers.
 
-![A simple Carbo Buldak cooking flow from boil to drain to sauce and customize.](/assets/images/posts/048/buldak-cooking-safety-flow.svg)
+![Korean ramen being served hot with chopsticks in Seoul.](/assets/images/posts/048/seoul-korean-ramen-chopsticks-pexels.jpg)
 
 ## Spice Safety and Common Sense
 

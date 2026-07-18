@@ -53,7 +53,7 @@ That is the modern K-drama loop. Domestic buzz feeds clips and articles. Global 
 
 For Kim Soo-hyun, <em>Queen of Tears</em> refreshed the exact thing that makes a top actor expensive: proof that he can still anchor a high-emotion mainstream drama in a streaming-heavy market.
 
-![EpicKor editorial diagram explaining K-drama star economics.](/assets/images/posts/042/kdrama-star-economics.svg)
+![A director managing film-production equipment in a studio setting.](/assets/images/posts/042/kdrama-production-camera-pexels.jpg)
 *A top actor's fee is part performance cost and part market-risk management.*
 
 ## What Producers Are Really Paying For
@@ -70,7 +70,7 @@ Use a three-step filter when you see a viral Kim Soo-hyun salary number. First, 
 
 Entertainment reporting often uses money as a shortcut for status. That can be useful if it opens a conversation about production economics. It becomes weak when it turns into gossip math. EpicKor's editorial approach is to use the rumor as a doorway, then ground the article in confirmed career record, platform information, and broader Hallyu economics.
 
-![EpicKor checklist for reading Korean actor salary headlines.](/assets/images/posts/042/kdrama-fee-rumor-filter.svg)
+![A TV studio camera and green-screen production setup.](/assets/images/posts/042/tv-studio-production-camera-pexels.jpg)
 *The stronger reading separates confirmed career data from reported trade claims and fan speculation.*
 
 ## How Hallyu Changed Actor Value

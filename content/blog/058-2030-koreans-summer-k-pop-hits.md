@@ -44,7 +44,7 @@ Korean listeners in their 20s and 30s often carry two timelines at once. One tim
 
 That is why names like SISTAR still matter in summer K-pop conversations. They are not only remembered as a successful girl group. They are remembered as a seasonal shortcut. Korea JoongAng Daily, writing during the 2015 summer girl-group rush, directly framed summer as go-time for girl groups and highlighted SISTAR's repeated seasonal association with songs such as "Loving U," "Touch My Body," and "Shake It." That kind of repetition builds a public memory stronger than one chart week.
 
-![A map of summer K-pop signals: timing, chorus, dance, public space, and nostalgia.](/assets/images/posts/058/summer-kpop-playlist-map.svg)
+![A K-pop stage performance frame from the original EpicKor summer K-pop footage.](/assets/images/posts/058/076_epickor_%ED%9C%98%EC%88%98.mp4_20240801_220950.731.jpg)
 
 ## The SISTAR Lesson
 
@@ -82,7 +82,7 @@ Start with three lanes. First, add seasonal classics: songs that Koreans still b
 
 This structure prevents the playlist from becoming a museum. A good summer playlist should let SISTAR sit beside newer songs, dance tracks, bright band songs, soloist releases, and even drama OSTs if they match the weather. The goal is not to prove the academically correct list. The goal is to build a playlist that explains why Korea treats music seasonally.
 
-![A simple flow for checking current summer K-pop: charts, playlists, public spaces, and replay value.](/assets/images/posts/058/kpop-chart-check-flow.svg)
+![A Korean pop performance frame from the original EpicKor summer K-pop footage.](/assets/images/posts/058/076_epickor_%ED%9C%98%EC%88%98.mp4_20240801_221003.054.jpg)
 
 ## Why Girl Groups Often Dominate Summer Memory
 

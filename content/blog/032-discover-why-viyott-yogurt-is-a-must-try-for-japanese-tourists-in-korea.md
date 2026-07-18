@@ -52,7 +52,7 @@ Travelers notice Viyott because it sits at the intersection of three Korea-trip 
 
 Yonhap reported in May 2026 that Seoul Milk launched a Japan-market Viyott ice cream through Seven-Eleven Japan, and the article noted the company's view that Viyott had become known among foreign tourists as a must-buy item during Korea visits. That does not mean every traveler must eat it. It means the product moved from ordinary Korean dairy snack to recognizable travel object.
 
-![Korean convenience-store yogurt snack with topping texture.](/assets/images/posts/032/8fe17d65-0b35-414b-bc62-2f236aa6c500.png)
+![Korean convenience-store yogurt snack with topping texture.](/assets/images/posts/032/8fe17d65-0b35-414b-bc62-2f236aa6c500.jpg)
 
 ## How to Buy It in Korea
 
@@ -62,7 +62,7 @@ If the first store does not have it, do not panic. Product availability varies b
 
 Check the expiry date and keep it cold. If you are buying several for a group, eat them soon after purchase or bring them straight back to a hotel refrigerator. Viyott is not the right item for a long unrefrigerated shopping day.
 
-![Viyott convenience-store cold shelf and mixing flow.](/assets/images/posts/032/viyott-cold-shelf-guide.svg)
+![Viyott-style Korean convenience-store yogurt shown in the original EpicKor footage.](/assets/images/posts/032/032_Epickor_%EB%AF%BC%ED%98%B8.mp4_20240715_221519.515.jpg)
 
 <div class="affiliate-inline-cta">
   <p><strong>Before your Korea snack run:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. If Viyott made you curious about Korean convenience-store flavors, compare a <a href="https://amzn.to/4bubOGe" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean snack assortment</a> at home, then use Korea to hunt the fresh dairy items you cannot easily pack.</p>

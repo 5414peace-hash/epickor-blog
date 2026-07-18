@@ -46,7 +46,7 @@ The useful reading is not "young Koreans have all given up." It is that some lif
 
 For a current employment-sector and work-culture angle, read EpicKor's [jobs and work culture in South Korea guide](/blog/039).
 
-![Original EpicKor visual showing Korea's youth-pressure debate as a social and economic crossroads.](/assets/images/posts/049/b6cf1f89-f0a2-424d-9c0e-bef45782d651.png)
+![Original EpicKor visual showing Korea's youth-pressure debate as a social and economic crossroads.](/assets/images/posts/049/b6cf1f89-f0a2-424d-9c0e-bef45782d651.jpg)
 
 ## Work pressure is not only unemployment
 
@@ -84,7 +84,7 @@ But it can also become another pressure. If the system feels hard and the answer
 
 That is why Korean youth culture often swings between productivity and escape: study cafes, self-improvement, noraebang, PC bangs, cafes, travel, fandom, gym routines, and convenience-store comfort food. None of those are contradictions. They are ways of managing a life that asks for a lot.
 
-![A simple pressure map showing how work, housing, education, and family expectations interact in Korea's youth debate.](/assets/images/posts/049/korea-youth-pressure-map.svg)
+![A Korea youth-pressure debate frame from the original EpicKor footage.](/assets/images/posts/049/058_epickor_%ED%9C%98%EC%88%98.mp4_20240723_223654.000.jpg)
 
 ## How to talk about this without flattening Korea
 

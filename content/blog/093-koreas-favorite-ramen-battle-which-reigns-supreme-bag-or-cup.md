@@ -67,7 +67,7 @@ Hangang machine ramyeon is the tourist version that actually deserves some hype.
 
 This is not exactly cup ramyeon. It is closer to bag ramyeon cooked in a disposable foil-style container by a self-service machine. The appeal is the scene: river wind, picnic tables, convenience-store drinks, friends, and a hot bowl that feels better because of where you are eating it.
 
-![A Korean ramyeon choice-map explainer showing bag, cup, and Hangang machine versions.](/assets/images/posts/093/bag-vs-cup-ramyeon-choice-map.svg)
+![A Korean ramyeon frame from the original EpicKor noodle comparison footage.](/assets/images/posts/093/ramyeon-bag-cup-video-frame.jpg)
 
 ## The Traveler's Choice Map
 

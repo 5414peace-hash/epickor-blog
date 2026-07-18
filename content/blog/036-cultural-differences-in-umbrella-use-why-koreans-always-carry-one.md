@@ -37,7 +37,7 @@ KMA normal data lists typical starts around June 25 for the central region, June
 
 For travelers, the lesson is simple: if your Korea trip falls from late June through July, plan as if rain can interrupt outdoor days. If the forecast looks perfect when you book, still bring rain gear.
 
-![A visual timeline of Korea's jangma rainy season and regional travel planning notes.](/assets/images/posts/036/korea-rainy-season-timeline.svg)
+![A rainy Seoul street with a person walking under an umbrella.](/assets/images/posts/036/seoul-rainy-umbrella-street-pexels.jpg)
 
 ## Why umbrellas come out so fast
 
@@ -89,7 +89,7 @@ The best Korea rain kit is small enough to carry all day. A perfect umbrella lef
 
 VisitKorea's travel basics section reminds visitors to think practically about weather, transportation, emergency information, and travel preparation. Rain affects all of those. It can slow buses, crowd subway exits, make taxis harder to catch, and change whether an outdoor market or palace walk still feels worth it.
 
-![A practical Korea rainy-day packing map for Seoul walks, markets, palaces, and subway transfers.](/assets/images/posts/036/seoul-rainy-day-pack-map.svg)
+![A rainy Seoul market street with umbrellas and Korean urban signs.](/assets/images/posts/036/seoul-rainy-market-umbrella-pexels.jpg)
 
 <div class="table-scroll">
 <table>

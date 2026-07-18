@@ -1,6 +1,6 @@
 # SEO + AEO Content Audit
 
-Generated: 2026-07-18T09:29:57.452Z
+Generated: 2026-07-18T10:04:59.102Z
 
 ## Overall Snapshot
 - Total posts: 273
