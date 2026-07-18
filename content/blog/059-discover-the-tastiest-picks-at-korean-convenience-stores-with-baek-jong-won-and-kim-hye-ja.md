@@ -1,5 +1,5 @@
 ---
-title: "Korean Convenience Store Food: Baek Jong-won, Kim Hye-ja, and Dosirak"
+title: "Korean Convenience Store Food Guide: Dosirak and Snacks"
 slug: "059"
 date: "2026-07-18"
 visibility: "public"

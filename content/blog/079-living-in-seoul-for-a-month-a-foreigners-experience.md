@@ -1,5 +1,5 @@
 ---
-title: "Living in Seoul for a Month: Cost, Neighborhoods, Apps, and Reality"
+title: "Living in Seoul for a Month: Cost, Apps, Neighborhoods"
 slug: "079"
 date: "2026-07-18"
 visibility: "public"

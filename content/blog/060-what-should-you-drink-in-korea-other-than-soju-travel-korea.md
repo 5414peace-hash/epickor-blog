@@ -1,5 +1,5 @@
 ---
-title: "What to Drink in Korea Besides Soju: Makgeolli, Beer, Somaek, and More"
+title: "Korea Drinks Guide: Makgeolli, Somaek, Beer, and More"
 slug: "060"
 date: "2026-07-18"
 visibility: "public"
