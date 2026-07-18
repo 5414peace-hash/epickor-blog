@@ -21,6 +21,8 @@ Many visitors describe Korea as convenient, but that word is too broad. The bett
 
 This is partly technology, partly density, and partly social expectation. In a high-density city like Seoul, small delays multiply quickly. A bus stop without shelter, a restaurant without an easy service signal, or a subway system without climate control can affect thousands of people every day.
 
+The same dense-city logic appears on moving day too: EpicKor's [Korean moving guide](/blog/020) explains why ladder trucks and packing movers became such a visible part of apartment life.
+
 If this is your first trip, read EpicKor's [first-time Korea travel guide](/blog/026) alongside this article. The conveniences make more sense once you understand arrival, payment, transit, and etiquette basics.
 
 ## 1. Elevator Cancel Buttons
