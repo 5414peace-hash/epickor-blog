@@ -1,7 +1,8 @@
 ---
 title: "Korea Work Culture: Hours, Hoesik, and Work-Life Balance"
 slug: "024"
-date: "2026-07-18"
+date: "2024-07-16"
+updatedAt: "2026-07-18"
 visibility: "public"
 publishAt: ""
 description: "A current guide to Korean work culture, from long hours and palli-palli speed to hoesik dinners, alcohol pressure, and the shift toward work-life balance."

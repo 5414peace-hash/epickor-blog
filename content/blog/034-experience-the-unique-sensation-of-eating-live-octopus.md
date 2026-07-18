@@ -1,7 +1,8 @@
 ---
 title: "San-nakji Guide: Korean Live Octopus, Safety, and Etiquette"
 slug: "034"
-date: "2026-07-18"
+date: "2024-07-21"
+updatedAt: "2026-07-18"
 visibility: "public"
 publishAt: ""
 description: "A practical san-nakji guide explaining Korean live octopus, how it is served, safety cautions, where to try it, etiquette, and alternatives."

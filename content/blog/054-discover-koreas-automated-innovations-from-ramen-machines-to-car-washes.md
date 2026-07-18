@@ -1,7 +1,8 @@
 ---
 title: "Korea's Automated Convenience Culture: Ramen Machines to Robots"
 slug: "054"
-date: "2026-07-18"
+date: "2024-07-31"
+updatedAt: "2026-07-18"
 visibility: "public"
 publishAt: ""
 description: "A practical guide to Korea's automated convenience culture, from Hangang ramen machines and kiosks to robot cafes, unmanned stores, and safety rules."

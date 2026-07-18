@@ -1,7 +1,8 @@
 ---
 title: "Korean Webtoons Guide: From Scroll Comics to K-Drama Hits"
 slug: '067'
-date: "2026-07-18"
+date: "2024-08-12"
+updatedAt: "2026-07-18"
 description: "A practical guide to Korean webtoons, why vertical comics became K-drama source material, and how beginners can start reading."
 tags: ["Webtoon", "KDrama", "Hallyu", "KoreanCulture", "Streaming"]
 ogImage: "/assets/images/posts/067/bfab7368-4346-469f-9c8c-1fcfeeba44eb.png"

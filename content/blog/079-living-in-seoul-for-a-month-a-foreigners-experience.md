@@ -1,7 +1,8 @@
 ---
 title: "Living in Seoul for a Month: Cost, Apps, Neighborhoods"
 slug: "079"
-date: "2026-07-18"
+date: "2026-02-03"
+updatedAt: "2026-07-18"
 visibility: "public"
 publishAt: ""
 description: "A practical one-month Seoul guide covering entry basics, neighborhoods, transit, apps, housing, budget, laundry, and daily rhythm."

@@ -1,7 +1,8 @@
 ---
 title: "Ssamjang Guide: Korea's BBQ Wrap Sauce Explained"
 slug: "083"
-date: "2026-07-18"
+date: "2024-08-26"
+updatedAt: "2026-07-18"
 visibility: "public"
 publishAt: ""
 description: "A practical guide to ssamjang, Korea's barbecue wrap sauce, including ingredients, flavor, ssam etiquette, how to buy it, and how to use it at home."

@@ -1,7 +1,8 @@
 ---
 title: "Forbes Korea Power Celebrity 40: 2026 Ranking Guide"
 slug: '051'
-date: "2026-07-17"
+date: "2024-07-30"
+updatedAt: "2026-07-17"
 visibility: "public"
 publishAt: ""
 description: "See the 2026 Forbes Korea Power Celebrity top 10, how its four weighted metrics work, and what the ranking actually says about Korean influence."

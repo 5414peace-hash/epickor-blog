@@ -1,7 +1,8 @@
 ---
 title: "Things to Know Before Traveling to Korea: 2026 Guide"
 slug: '073'
-date: "2026-07-18"
+date: "2024-09-19"
+updatedAt: "2026-07-18"
 description: "A practical 2026 Korea travel guide covering K-ETA checks, e-Arrival cards, T-money, maps, payments, safety numbers, etiquette, and packing."
 tags: ["KoreaTravel", "KoreaTravelTips", "KETA", "Tmoney", "SeoulGuide"]
 ogImage: "/assets/images/posts/073/1490862d-301e-4fff-8a6f-c641ae18c247.png"

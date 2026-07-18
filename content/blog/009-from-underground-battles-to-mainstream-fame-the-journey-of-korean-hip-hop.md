@@ -1,7 +1,8 @@
 ---
 title: "Korean Hip-Hop Guide: SMTM, Artists, and Seoul Scenes"
 slug: '009'
-date: "2026-07-18"
+date: "2024-07-08"
+updatedAt: "2026-07-18"
 description: "A practical Korean hip-hop guide explaining Show Me The Money, K-rap history, Seoul scenes, artists, fandom, and where beginners should start."
 tags: ["KoreanHipHop", "Khiphop", "Kmusic", "Seoul", "Hallyu"]
 ogImage: "/assets/images/posts/009/925ac31d-c39d-4c4c-8cc6-4956d7a0f76f.png"

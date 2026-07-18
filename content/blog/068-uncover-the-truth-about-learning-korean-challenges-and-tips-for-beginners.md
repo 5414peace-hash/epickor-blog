@@ -1,7 +1,8 @@
 ---
 title: "Learn Korean With Hangeul: Alphabet, Honorifics, and Apps"
 slug: '068'
-date: "2026-07-18"
+date: "2024-08-14"
+updatedAt: "2026-07-18"
 description: "A beginner-friendly guide to Hangeul, Korean pronunciation, honorifics, study apps, and realistic ways to start learning Korean."
 tags: ["KoreanLanguage", "Hangeul", "Hangul", "KoreanCulture", "StudyKorean"]
 ogImage: "/assets/images/posts/068/e8e945a9-107a-46a3-a5bd-12333f411419.png"

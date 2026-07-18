@@ -34,6 +34,7 @@ export default async function PreviewPage({ params, searchParams }: PreviewPageP
   }
 
   const formattedDate = format(new Date(post.date), 'MMMM dd, yyyy');
+  const formattedUpdatedAt = post.updatedAt ? format(new Date(post.updatedAt), 'MMMM dd, yyyy') : null;
 
   return (
     <div className="min-h-screen bg-white pb-24">
@@ -68,10 +69,18 @@ export default async function PreviewPage({ params, searchParams }: PreviewPageP
           <h1 className="mb-4 text-4xl font-bold text-gray-900 md:text-5xl">
             {post.title}
           </h1>
-          <div className="flex items-center gap-4 text-gray-600">
+          <div className="flex flex-wrap items-center gap-3 text-gray-600">
             <span className="font-medium">{post.author}</span>
             <span>|</span>
             <time dateTime={post.date}>{formattedDate}</time>
+            {formattedUpdatedAt && formattedUpdatedAt !== formattedDate && (
+              <>
+                <span className="text-gray-300">|</span>
+                <span className="text-xs text-gray-500">
+                  Updated <time dateTime={post.updatedAt}>{formattedUpdatedAt}</time>
+                </span>
+              </>
+            )}
           </div>
         </header>
 

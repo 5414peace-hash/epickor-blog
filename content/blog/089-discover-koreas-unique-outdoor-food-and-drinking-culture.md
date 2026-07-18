@@ -1,7 +1,8 @@
 ---
 title: "Pojangmacha Guide: Korean Street Tent Food and Etiquette"
 slug: "089"
-date: "2026-07-18"
+date: "2024-08-29"
+updatedAt: "2026-07-18"
 visibility: "public"
 publishAt: ""
 description: "A practical guide to Korean pojangmacha street tents, including what to order, how to drink politely, prices, etiquette, safety, and Seoul areas."

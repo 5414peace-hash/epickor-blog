@@ -1,7 +1,8 @@
 ---
 title: "Viyott Guide: Korea's Convenience-Store Yogurt Snack"
 slug: "032"
-date: "2026-07-18"
+date: "2024-07-20"
+updatedAt: "2026-07-18"
 visibility: "public"
 publishAt: ""
 description: "A practical Viyott guide for Korea travelers explaining flavors, where to buy it, why tourists notice it, how to eat it, and what to compare."

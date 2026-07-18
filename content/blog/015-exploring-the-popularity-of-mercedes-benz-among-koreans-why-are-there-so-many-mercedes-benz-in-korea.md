@@ -1,7 +1,8 @@
 ---
 title: "Why Mercedes-Benz Is So Common in South Korea"
 slug: '015'
-date: "2026-07-17"
+date: "2024-07-10"
+updatedAt: "2026-07-17"
 description: "See why Mercedes-Benz cars are so visible in South Korea, what current sales data shows, and where status, service, and city life fit."
 tags: ["Business", "Cars", "Culture", "Economy", "Korean Society"]
 ogImage: "/assets/images/posts/015/pexels-mercedes-urban-15056114.jpg"

@@ -1,7 +1,8 @@
 ---
 title: "Olive Young Korea Guide: What to Buy Without Overbuying"
 slug: "028"
-date: "2026-07-18"
+date: "2024-07-18"
+updatedAt: "2026-07-18"
 visibility: "public"
 publishAt: ""
 description: "A practical Olive Young Korea guide for travelers comparing skincare, sunscreen, toner pads, masks, tax refund, store strategy, and overbuying traps."

@@ -1,7 +1,8 @@
 ---
 title: "Why South Korea Dominates Olympic Archery in 2026"
 slug: "075"
-date: "2026-07-17"
+date: "2025-01-02"
+updatedAt: "2026-07-17"
 visibility: "public"
 publishAt: ""
 description: "How South Korea built its Olympic archery system through open selection, deep competition, repeatable technique, pressure training, and coaching."

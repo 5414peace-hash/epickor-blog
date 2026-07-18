@@ -1,7 +1,8 @@
 ---
 title: "Why Korean Skin Can Look Younger: A Practical Guide"
 slug: '007'
-date: "2026-07-17"
+date: "2024-07-05"
+updatedAt: "2026-07-17"
 description: "Separate Korean beauty habits from myths about ageless skin, then build a realistic routine around sunscreen, gentle care, and consistent products."
 tags: ["K-Beauty", "Korean Skincare", "Beauty", "Sunscreen", "Culture"]
 ogImage: "/assets/images/posts/007/skincare-routine-products.jpg"

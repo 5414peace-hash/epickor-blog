@@ -1,7 +1,8 @@
 ---
 title: "Korean Convenience Store Food Guide: Dosirak and Snacks"
 slug: "059"
-date: "2026-07-18"
+date: "2024-08-03"
+updatedAt: "2026-07-18"
 visibility: "public"
 publishAt: ""
 description: "A Korean convenience store food guide explaining Baek Jong-won and Kim Hye-ja lunch boxes, dosirak, ramen, snacks, value labels, and traveler tips."

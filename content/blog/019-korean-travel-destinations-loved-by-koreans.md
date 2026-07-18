@@ -1,7 +1,8 @@
 ---
 title: "Jeju, Busan, or Gyeongju: Korea Travel Triangle Guide"
 slug: "019"
-date: "2026-07-18"
+date: "2024-07-12"
+updatedAt: "2026-07-18"
 visibility: "public"
 publishAt: ""
 description: "A practical Korea travel guide comparing Jeju, Busan, and Gyeongju for first-time visitors, routes, seasons, transport, costs, and trip style."

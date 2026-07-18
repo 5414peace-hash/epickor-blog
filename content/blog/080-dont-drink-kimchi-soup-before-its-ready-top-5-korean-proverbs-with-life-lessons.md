@@ -1,7 +1,8 @@
 ---
 title: "Korean Proverbs Guide: Kimchi Soup, Tigers, and Everyday Wisdom"
 slug: '080'
-date: "2026-07-18"
+date: "2026-02-03"
+updatedAt: "2026-07-18"
 description: "A beginner-friendly guide to Korean proverbs, explaining kimchi soup, tiger, lamp, needle thief, and speech sayings in real cultural context."
 tags: ["KoreanProverbs", "KoreanLanguage", "KoreanCulture", "Hangeul", "KoreaEtiquette"]
 ogImage: "/assets/images/posts/080/4fc3feaa-2061-49d7-9bde-7a91d6aeb0e1.png"

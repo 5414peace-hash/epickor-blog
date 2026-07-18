@@ -134,11 +134,14 @@ function LatestFeedCard({ article }: { article: LatestArticle }) {
 }
 
 export default function LatestPage() {
-  const articles = getLatestArticles(36);
+  const articles = getLatestArticles(48);
   const featured = articles[0];
   const latestDate = featured?.date;
   const businessCount = articles.filter((article) => article.source === 'business').length;
   const labels = Array.from(new Set(articles.slice(0, 24).map((article) => article.label)));
+  const leadRailArticles = articles.slice(1, 7);
+  const mainRecentArticles = articles.slice(7, 24);
+  const moreArticles = articles.slice(24);
 
   return (
     <div className="min-h-screen bg-white text-gray-950">
@@ -166,7 +169,7 @@ export default function LatestPage() {
               </div>
               <div className="rounded-lg border border-gray-200 bg-white p-3">
                 <p className="text-xl font-black text-gray-950">{latestDate ? formatDate(latestDate).replace(', 2026', '') : '-'}</p>
-                <p className="mt-1 text-[11px] font-bold uppercase text-gray-500">Updated</p>
+                <p className="mt-1 text-[11px] font-bold uppercase text-gray-500">Newest</p>
               </div>
             </div>
           </div>
@@ -188,7 +191,7 @@ export default function LatestPage() {
           <section className="grid gap-6 lg:grid-cols-[minmax(0,1.15fr)_0.85fr]">
             <FeaturedLatestCard article={featured} />
             <div className="grid gap-4">
-              {articles.slice(1, 4).map((article) => (
+              {leadRailArticles.map((article) => (
                 <LatestFeedCard key={article.href} article={article} />
               ))}
             </div>
@@ -207,10 +210,21 @@ export default function LatestPage() {
           </div>
 
           <div className="grid gap-4 md:grid-cols-2 xl:grid-cols-3">
-            {articles.slice(4).map((article) => (
+            {mainRecentArticles.map((article) => (
               <LatestFeedCard key={article.href} article={article} />
             ))}
           </div>
+
+          {moreArticles.length > 0 && (
+            <details className="mt-6 rounded-lg border border-gray-200 bg-[#fbfaf8] p-4">
+              <summary className="cursor-pointer text-sm font-black text-red-700">And more recent posts</summary>
+              <div className="mt-4 grid gap-4 md:grid-cols-2 xl:grid-cols-3">
+                {moreArticles.map((article) => (
+                  <LatestFeedCard key={article.href} article={article} />
+                ))}
+              </div>
+            </details>
+          )}
         </section>
       </main>
     </div>

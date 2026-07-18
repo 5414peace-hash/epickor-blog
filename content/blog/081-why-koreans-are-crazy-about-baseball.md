@@ -1,7 +1,8 @@
 ---
 title: "Korean Baseball Guide: KBO Cheering, Tickets, and Food"
 slug: '081'
-date: "2026-07-18"
+date: "2024-08-25"
+updatedAt: "2026-07-18"
 description: "A practical Korean baseball guide explaining KBO cheering culture, Jamsil Stadium, tickets, food, team merch, etiquette, and first-game tips."
 tags: ["KoreanBaseball", "KBO", "SeoulSports", "KoreaTravel", "Jamsil"]
 ogImage: "/assets/images/posts/081/e6247c43-db31-45d1-849a-731a41be886b.png"

@@ -1,7 +1,8 @@
 ---
 title: "First Trip to Korea: 20 Essential Travel Tips for 2026"
 slug: "026"
-date: "2026-07-17"
+date: "2024-07-17"
+updatedAt: "2026-07-17"
 visibility: "public"
 publishAt: ""
 description: "Plan a first trip to South Korea with current 2026 entry rules, airport transfers, T-money, map apps, payments, etiquette, and emergency help."

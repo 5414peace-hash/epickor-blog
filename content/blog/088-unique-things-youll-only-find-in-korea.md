@@ -1,7 +1,8 @@
 ---
 title: "Unique Things in Korea: Small Conveniences, Trust, and Transit"
 slug: '088'
-date: "2026-07-18"
+date: "2024-08-28"
+updatedAt: "2026-07-18"
 description: "A practical guide to unique things in Korea, from elevator cancel buttons and call bells to heated bus-stop seats, lost items, and transit comfort."
 tags: ["KoreaTravel", "KoreanCulture", "SeoulTransit", "TravelTips", "KoreaConvenience"]
 ogImage: "/assets/images/posts/088/4fda1b66-ba26-4e46-953b-d09ed6eb9d3d.png"

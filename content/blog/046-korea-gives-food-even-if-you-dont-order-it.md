@@ -1,7 +1,8 @@
 ---
 title: "Free Side Dishes in Korea: Banchan, Service, and Refills"
 slug: "046"
-date: "2026-07-18"
+date: "2024-07-27"
+updatedAt: "2026-07-18"
 visibility: "public"
 publishAt: ""
 description: "A practical guide to free side dishes in Korea, why banchan arrives without ordering, refill etiquette, service items, and restaurant manners."

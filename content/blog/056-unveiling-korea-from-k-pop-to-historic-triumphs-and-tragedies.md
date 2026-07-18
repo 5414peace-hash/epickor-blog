@@ -1,7 +1,8 @@
 ---
 title: "South Korea Explained: K-Pop, Growth, Tragedy, and Resilience"
 slug: "056"
-date: "2026-07-18"
+date: "2024-08-01"
+updatedAt: "2026-07-18"
 visibility: "public"
 publishAt: ""
 description: "A clear guide to South Korea's compressed development, Hallyu soft power, historical trauma, safety reforms, and why modern Korea feels intense."

@@ -1,7 +1,8 @@
 ---
 title: "Carbo Buldak Guide: Why Korea's Creamy Spicy Ramen Went Global"
 slug: "048"
-date: "2026-07-18"
+date: "2024-07-28"
+updatedAt: "2026-07-18"
 visibility: "public"
 publishAt: ""
 description: "A practical Carbo Buldak guide explaining the Korean ramen's creamy heat, viral growth, buying tips, cooking tweaks, and spice-safety notes."

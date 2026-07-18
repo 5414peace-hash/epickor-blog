@@ -1,7 +1,8 @@
 ---
 title: "Korea Theme Parks Guide: Everland, Lotte World, Folk Village"
 slug: '078'
-date: "2026-07-18"
+date: "2026-02-03"
+updatedAt: "2026-07-18"
 description: "A practical guide to Korea theme parks, comparing Everland, Lotte World, and Korean Folk Village by weather, thrill level, transit, and family fit."
 tags: ["KoreaThemeParks", "Everland", "LotteWorld", "KoreanFolkVillage", "KoreaTravel"]
 ogImage: "/assets/images/posts/078/3612c820-2760-448d-85e5-ae0b43c83328.png"

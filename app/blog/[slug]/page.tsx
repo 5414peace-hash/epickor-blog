@@ -51,6 +51,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
   }
 
   const formattedDate = format(new Date(post.date), 'MMMM dd, yyyy');
+  const formattedUpdatedAt = post.updatedAt ? format(new Date(post.updatedAt), 'MMMM dd, yyyy') : null;
   
   // Get related posts
   const allPosts = getAllBlogPosts();
@@ -99,10 +100,18 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
             {post.title}
           </h1>
 
-          <div className="flex items-center gap-4 text-gray-600">
+          <div className="flex flex-wrap items-center gap-3 text-gray-600">
             <span className="font-medium">{post.author}</span>
             <span>|</span>
             <time dateTime={post.date}>{formattedDate}</time>
+            {formattedUpdatedAt && formattedUpdatedAt !== formattedDate && (
+              <>
+                <span className="text-gray-300">|</span>
+                <span className="text-xs text-gray-500">
+                  Updated <time dateTime={post.updatedAt}>{formattedUpdatedAt}</time>
+                </span>
+              </>
+            )}
           </div>
         </header>
 

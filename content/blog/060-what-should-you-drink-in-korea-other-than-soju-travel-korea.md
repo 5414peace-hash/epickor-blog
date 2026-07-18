@@ -1,7 +1,8 @@
 ---
 title: "Korea Drinks Guide: Makgeolli, Somaek, Beer, and More"
 slug: "060"
-date: "2026-07-18"
+date: "2024-08-03"
+updatedAt: "2026-07-18"
 visibility: "public"
 publishAt: ""
 description: "A Korea drinking guide for travelers covering makgeolli, beer, somaek, traditional sool, highballs, non-alcoholic options, etiquette, and food pairings."

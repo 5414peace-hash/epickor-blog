@@ -1,7 +1,8 @@
 ---
 title: "Korean Intensity Culture: Food, Work, Sports, and Balance"
 slug: '072'
-date: "2026-07-18"
+date: "2024-09-06"
+updatedAt: "2026-07-18"
 description: "A practical guide to Korean intensity culture, from hot soup and iced drinks to work speed, archery discipline, and why balance matters."
 tags: ["KoreanCulture", "KoreaFood", "WorkCulture", "KoreaTravel", "KoreanSociety"]
 ogImage: "/assets/images/posts/072/1339caf6-85ca-4f34-a9c1-18f80339aabd.png"

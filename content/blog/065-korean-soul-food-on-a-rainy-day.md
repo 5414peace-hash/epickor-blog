@@ -1,7 +1,8 @@
 ---
 title: "Korean Rainy Day Food: Pajeon, Makgeolli, Noodles, and Soups"
 slug: "065"
-date: "2026-07-18"
+date: "2024-08-08"
+updatedAt: "2026-07-18"
 visibility: "public"
 publishAt: ""
 description: "A Korean rainy day food guide covering pajeon, makgeolli, kalguksu, ramyeon, jeon, soups, delivery food, comfort meals, and rainy-season travel tips."

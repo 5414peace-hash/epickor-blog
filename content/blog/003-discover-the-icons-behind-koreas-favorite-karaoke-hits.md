@@ -1,7 +1,8 @@
 ---
 title: "Korean Noraebang Guide: Karaoke Rooms, Ballads, and Etiquette"
 slug: '003'
-date: "2026-07-18"
+date: "2024-07-03"
+updatedAt: "2026-07-18"
 description: "A practical Korean noraebang guide covering private karaoke rooms, coin noraebang, ballads, group etiquette, song choices, and first-visit tips."
 tags: ["Noraebang", "KoreanMusic", "KoreanCulture", "Kpop", "KoreaTravel"]
 ogImage: "/assets/images/posts/003/d1adafad-ab6e-4a7e-8bb1-d10d6d036429.png"

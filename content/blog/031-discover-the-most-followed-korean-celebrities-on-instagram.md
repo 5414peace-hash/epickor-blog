@@ -1,7 +1,8 @@
 ---
 title: "Most Followed Korean Celebrities on Instagram: What It Means"
 slug: "031"
-date: "2026-07-18"
+date: "2024-07-20"
+updatedAt: "2026-07-18"
 visibility: "public"
 publishAt: ""
 description: "A practical guide to Korean celebrity Instagram rankings, why BLACKPINK and BTS dominate, and how follower counts turn into Hallyu brand power."

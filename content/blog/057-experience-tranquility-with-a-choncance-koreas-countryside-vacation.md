@@ -1,7 +1,8 @@
 ---
 title: "Choncance in Korea: Countryside Stays, Hanok, and Slow Travel"
 slug: "057"
-date: "2026-07-18"
+date: "2024-08-02"
+updatedAt: "2026-07-18"
 visibility: "public"
 publishAt: ""
 description: "A practical Choncance Korea guide explaining countryside stays, hanok lodging, rural villages, slow travel etiquette, packing, and itinerary ideas."

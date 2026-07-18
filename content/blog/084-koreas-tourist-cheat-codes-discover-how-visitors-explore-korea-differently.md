@@ -1,7 +1,8 @@
 ---
 title: "Korea Travel Cheat Codes: Build a Better Trip by Interest"
 slug: "084"
-date: "2026-07-18"
+date: "2024-08-26"
+updatedAt: "2026-07-18"
 visibility: "public"
 publishAt: ""
 description: "A Korea travel guide for building better itineraries by interest, from food and shopping to Hallyu, history, wellness, and slow stays."

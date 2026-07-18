@@ -1,7 +1,8 @@
 ---
 title: "Korean Cinema Guide: Iconic Films and Lines to Know"
 slug: "040"
-date: "2026-07-18"
+date: "2024-07-24"
+updatedAt: "2026-07-18"
 visibility: "public"
 publishAt: ""
 description: "A practical Korean cinema guide explaining iconic films, famous lines, cultural context, where to start, and how to watch without missing the point."

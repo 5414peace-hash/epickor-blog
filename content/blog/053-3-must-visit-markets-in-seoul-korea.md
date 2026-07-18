@@ -1,7 +1,8 @@
 ---
 title: "Three Seoul Markets: Gwangjang, Majang and Dongmyo"
 slug: '053'
-date: "2026-07-17"
+date: "2024-07-31"
+updatedAt: "2026-07-17"
 description: "Plan Gwangjang, Majang and Dongmyo markets with the right food, shopping, subway stops, timing, etiquette, and realistic expectations."
 tags: ["Seoul", "Travel", "Food", "Shopping", "Traditional Markets"]
 ogImage: "/assets/images/posts/053/seoul-market-lane.jpg"

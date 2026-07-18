@@ -1,7 +1,8 @@
 ---
 title: "Best Korean Dramas on Netflix 2026: What to Watch First"
 slug: "070"
-date: "2026-07-18"
+date: "2024-08-20"
+updatedAt: "2026-07-18"
 visibility: "public"
 publishAt: ""
 description: "A 2026 Netflix K-drama guide to what to watch first, from Squid Game to emotional, medical, youth, and historical genre picks."

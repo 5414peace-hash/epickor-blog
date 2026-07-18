@@ -11,9 +11,13 @@ function toValidDate(value: string): Date | undefined {
   return Number.isNaN(date.getTime()) ? undefined : date;
 }
 
-function getLatestPostDate(posts: Array<{ date: string }>): Date | undefined {
+function getPostFreshnessDate(post: { date: string; updatedAt?: string }): Date | undefined {
+  return toValidDate(post.updatedAt || post.date);
+}
+
+function getLatestPostDate(posts: Array<{ date: string; updatedAt?: string }>): Date | undefined {
   return posts.reduce<Date | undefined>((latest, post) => {
-    const date = toValidDate(post.date);
+    const date = getPostFreshnessDate(post);
     if (!date) return latest;
     if (!latest || date.getTime() > latest.getTime()) return date;
     return latest;
@@ -36,7 +40,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   }));
   
   const blogUrls = posts.map((post) => {
-    const lastModified = toValidDate(post.date);
+    const lastModified = getPostFreshnessDate(post);
     return {
       url: `https://www.epickor.com/blog/${post.slug}`,
       ...(lastModified ? { lastModified } : {}),

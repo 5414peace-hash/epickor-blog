@@ -1,7 +1,8 @@
 ---
 title: "Summer K-Pop Guide: How Koreans Pick the Season's Real Hits"
 slug: "058"
-date: "2026-07-18"
+date: "2024-08-02"
+updatedAt: "2026-07-18"
 visibility: "public"
 publishAt: ""
 description: "A practical summer K-pop guide explaining seasonal hits, Korean 2030 listening habits, classic girl-group songs, charts, playlists, and fan rituals."

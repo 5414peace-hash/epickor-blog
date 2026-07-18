@@ -1,7 +1,8 @@
 ---
 title: "South Korea's 2024 Martial Law Crisis, Explained"
 slug: "076"
-date: "2026-07-17"
+date: "2025-01-03"
+updatedAt: "2026-07-17"
 visibility: "public"
 publishAt: ""
 description: "A neutral, sourced timeline of South Korea's December 2024 martial law declaration, the Assembly vote, Yoon Suk Yeol's removal, and the 2025 election."

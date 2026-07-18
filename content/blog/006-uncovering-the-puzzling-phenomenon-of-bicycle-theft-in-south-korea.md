@@ -1,7 +1,8 @@
 ---
 title: "Bicycle Theft in Korea: What Cyclists Should Actually Know"
 slug: "006"
-date: "2026-07-18"
+date: "2024-07-05"
+updatedAt: "2026-07-18"
 visibility: "public"
 publishAt: ""
 description: "A practical Korea bicycle theft guide for Seoul riders, covering locks, parking, Ttareungi rentals, police reports, and safer cycling habits."

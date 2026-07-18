@@ -28,6 +28,7 @@ export interface BlogPost {
   slug: string;
   title: string;
   date: string;
+  updatedAt?: string;
   description: string;
   ogImage: string;
   tags: string[];
@@ -39,6 +40,7 @@ export interface BlogPostMetadata {
   slug: string;
   title: string;
   date: string;
+  updatedAt?: string;
   description: string;
   ogImage: string;
   tags: string[];
@@ -245,7 +247,7 @@ export function getAllBlogPosts(now: Date = new Date()): BlogPostMetadata[] {
     const fileNames = fs.readdirSync(contentDirectory);
     const allPostsData = fileNames
       .filter((fileName) => fileName.endsWith('.md'))
-      .map((fileName) => {
+      .map((fileName): BlogPostMetadata | null => {
         const fullPath = path.join(contentDirectory, fileName);
         const fileContents = fs.readFileSync(fullPath, 'utf8');
         const { data, content } = matter(fileContents);
@@ -263,6 +265,7 @@ export function getAllBlogPosts(now: Date = new Date()): BlogPostMetadata[] {
           slug,
           title: (frontmatter.title as string) || '',
           date: (frontmatter.date as string) || '',
+          updatedAt: (frontmatter.updatedAt as string) || undefined,
           description: (frontmatter.description as string) || '',
           ogImage,
           tags: (frontmatter.tags as string[]) || [],
@@ -279,7 +282,18 @@ export function getAllBlogPosts(now: Date = new Date()): BlogPostMetadata[] {
         return a.date < b.date ? 1 : -1;
       }
 
-      return bDate - aDate;
+      if (bDate !== aDate) {
+        return bDate - aDate;
+      }
+
+      const aSlugNumber = Number(a.slug);
+      const bSlugNumber = Number(b.slug);
+
+      if (!Number.isNaN(aSlugNumber) && !Number.isNaN(bSlugNumber)) {
+        return bSlugNumber - aSlugNumber;
+      }
+
+      return b.slug.localeCompare(a.slug);
     });
   } catch (error) {
     console.error('Error reading blog posts:', error);
@@ -344,6 +358,7 @@ export async function getBlogPost(slug: string, now: Date = new Date()): Promise
       slug: postSlug,
       title: (frontmatter.title as string) || '',
       date: (frontmatter.date as string) || '',
+      updatedAt: (frontmatter.updatedAt as string) || undefined,
       description: (frontmatter.description as string) || '',
       ogImage: resolveOgImage(frontmatter.ogImage, content),
       tags: (frontmatter.tags as string[]) || [],
@@ -444,6 +459,7 @@ export async function getBlogPostForPreview(slug: string): Promise<BlogPost | nu
       slug: postSlug,
       title: (frontmatter.title as string) || '',
       date: (frontmatter.date as string) || '',
+      updatedAt: (frontmatter.updatedAt as string) || undefined,
       description: (frontmatter.description as string) || '',
       ogImage: resolveOgImage(frontmatter.ogImage, content),
       tags: (frontmatter.tags as string[]) || [],

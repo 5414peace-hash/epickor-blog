@@ -1,7 +1,8 @@
 ---
 title: "Seoul Nopo Restaurant Guide: Old Shops, Michelin, and Soup"
 slug: '087'
-date: "2026-07-18"
+date: "2024-08-28"
+updatedAt: "2026-07-18"
 description: "A practical Seoul nopo restaurant guide explaining old Korean restaurants, Michelin context, Imun Seolnongtang, Woo Lae Oak, and Mijin."
 tags: ["SeoulFood", "KoreanFood", "Nopo", "MichelinSeoul", "KoreaTravel"]
 ogImage: "/assets/images/posts/087/c4000f20-6848-4fb8-afac-6e913b662f1d.png"

@@ -1,7 +1,8 @@
 ---
 title: "BTS Guide 2026: Members, ARMY, Military Return, and Music"
 slug: '010'
-date: "2026-07-18"
+date: "2024-07-08"
+updatedAt: "2026-07-18"
 description: "A current BTS guide for new fans explaining the seven members, ARMY, military-service return, discography, social impact, K-pop context, and how to start."
 tags: ["BTS", "Kpop", "ARMY", "Hallyu", "KoreanMusic"]
 ogImage: "/assets/images/posts/010/2cb2f6b7-a608-4b20-b52f-71363b9ceae1.png"

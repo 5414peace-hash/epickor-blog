@@ -1,7 +1,8 @@
 ---
 title: "Korean Soft Power Icons: BTS, Son, Bong, IU, and More"
 slug: "002"
-date: "2026-07-18"
+date: "2024-07-03"
+updatedAt: "2026-07-18"
 visibility: "public"
 publishAt: ""
 description: "A current guide to six Korean soft power icons and what BTS, Son Heung-min, Bong Joon-ho, Yoo Jae-suk, Kim Yuna, and IU reveal about Korea."

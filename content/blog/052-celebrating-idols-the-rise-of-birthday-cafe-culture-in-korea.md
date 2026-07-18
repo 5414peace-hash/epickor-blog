@@ -1,7 +1,8 @@
 ---
 title: "K-pop Birthday Cafe Guide: Seoul Fan Events Explained"
 slug: '052'
-date: "2026-07-18"
+date: "2024-07-30"
+updatedAt: "2026-07-18"
 description: "A practical Seoul K-pop birthday cafe guide explaining cup sleeves, photocards, Hongdae routes, fandom etiquette, costs, schedules, and fan-event planning."
 tags: ["Kpop", "BirthdayCafe", "Seoul", "Hallyu", "FanCulture"]
 ogImage: "/assets/images/posts/052/7b32c4a9-5a4b-409d-8c4c-5e15e479d5e6.png"

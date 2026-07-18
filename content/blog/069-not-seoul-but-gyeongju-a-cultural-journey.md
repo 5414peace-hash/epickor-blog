@@ -1,7 +1,8 @@
 ---
 title: "Gyeongju Travel Guide: Silla History, Temples, and Cafes"
 slug: '069'
-date: "2026-07-18"
+date: "2024-08-15"
+updatedAt: "2026-07-18"
 description: "A practical Gyeongju travel guide for first-time visitors, covering Silla history, Bulguksa, Seokguram, royal tombs, Hwangnidan-gil, and route planning."
 tags: ["Gyeongju", "KoreaTravel", "Silla", "UNESCO", "KoreanHistory"]
 ogImage: "/assets/images/posts/069/08424f40-0f8b-4128-aa1a-9a658123106d.png"

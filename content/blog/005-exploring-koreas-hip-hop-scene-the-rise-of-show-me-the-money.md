@@ -1,7 +1,8 @@
 ---
 title: "Show Me The Money Guide: How TV Changed Korean Hip-Hop"
 slug: "005"
-date: "2026-07-18"
+date: "2024-07-04"
+updatedAt: "2026-07-18"
 visibility: "public"
 publishAt: ""
 description: "A practical Show Me The Money guide explaining how Mnet's rap survival show pushed Korean hip-hop from underground scenes into mainstream TV."

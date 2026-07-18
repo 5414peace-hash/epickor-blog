@@ -1,7 +1,8 @@
 ---
 title: "Dating in Korea: Sseom, Etiquette, and First-Date Tips"
 slug: "001"
-date: "2026-07-17"
+date: "2024-07-03"
+updatedAt: "2026-07-17"
 visibility: "public"
 publishAt: ""
 description: "A practical guide to dating in Korea: understand sseom, plan a first date, communicate clearly, split the bill, and respect boundaries."

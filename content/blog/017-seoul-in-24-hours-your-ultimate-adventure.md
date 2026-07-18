@@ -1,7 +1,8 @@
 ---
 title: "Seoul in 24 Hours: Safe Nightlife, Transit, and Food Route"
 slug: "017"
-date: "2026-07-18"
+date: "2024-07-11"
+updatedAt: "2026-07-18"
 visibility: "public"
 publishAt: ""
 description: "A practical 24-hour Seoul route covering sunrise markets, daytime neighborhoods, night food, Owl Bus transit, safety, and packing tips."

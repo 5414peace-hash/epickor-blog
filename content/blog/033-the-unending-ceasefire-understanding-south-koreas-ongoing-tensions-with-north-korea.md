@@ -1,7 +1,8 @@
 ---
 title: "Why the Korean War Armistice Still Shapes Daily Life in Seoul"
 slug: "033"
-date: "2026-07-18"
+date: "2024-07-21"
+updatedAt: "2026-07-18"
 visibility: "public"
 publishAt: ""
 description: "A careful guide to the Korean War Armistice, the DMZ, South Korea's calm under tension, travel safety context, and what visitors should know."

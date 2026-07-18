@@ -1,7 +1,8 @@
 ---
 title: "Korean Snacks Guide: What to Buy, Taste, and Pack"
 slug: "029"
-date: "2026-07-18"
+date: "2024-07-19"
+updatedAt: "2026-07-18"
 visibility: "public"
 publishAt: ""
 description: "A practical Korean snacks guide comparing Turtle Chips, honey-butter flavors, seaweed snacks, convenience-store finds, souvenirs, and packing tips."

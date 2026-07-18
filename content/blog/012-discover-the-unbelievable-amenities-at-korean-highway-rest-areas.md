@@ -1,7 +1,8 @@
 ---
 title: "Korean Highway Rest Areas: Food, Facilities, and Travel Tips"
 slug: "012"
-date: "2026-07-18"
+date: "2024-07-08"
+updatedAt: "2026-07-18"
 visibility: "public"
 publishAt: ""
 description: "A practical guide to Korean highway rest areas, covering hyugeso food, snacks, toilets, EV charging, payment, buses, family stops, and road-trip etiquette."

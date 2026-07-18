@@ -1,7 +1,8 @@
 ---
 title: "Gangnam Plastic Surgery District: Safe Medical Tourism Guide"
 slug: "023"
-date: "2026-07-18"
+date: "2024-07-16"
+updatedAt: "2026-07-18"
 visibility: "public"
 publishAt: ""
 description: "A practical guide to Gangnam plastic surgery and Korea medical tourism, with safety checks, registered clinics, brokers, recovery time, and red flags."

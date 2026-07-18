@@ -1,7 +1,8 @@
 ---
 title: "Choi Min-sik Guide: Oldboy, Exhuma, and Korean Cinema"
 slug: "030"
-date: "2026-07-18"
+date: "2024-07-19"
+updatedAt: "2026-07-18"
 visibility: "public"
 publishAt: ""
 description: "A practical guide to Choi Min-sik's career, from Oldboy and Roaring Currents to Exhuma, with Korean cinema context and watch tips."

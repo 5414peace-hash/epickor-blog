@@ -1,7 +1,8 @@
 ---
 title: "K-Brand Explained: Why Korea's K-Prefix Travels"
 slug: "085"
-date: "2026-07-18"
+date: "2024-08-27"
+updatedAt: "2026-07-18"
 visibility: "public"
 publishAt: ""
 description: "A practical guide to Korea's K-brand, Hallyu, K-pop, K-drama, K-food, K-beauty, and how soft power turns into travel and shopping."

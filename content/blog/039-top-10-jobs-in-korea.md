@@ -1,7 +1,8 @@
 ---
 title: "Jobs in South Korea: Career Sectors and Work Culture"
 slug: "039"
-date: "2026-07-17"
+date: "2024-07-24"
+updatedAt: "2026-07-17"
 visibility: "public"
 publishAt: ""
 description: "Understand South Korea jobs through current employment trends, major sectors, hiring routes, work culture, salaries, visas, and practical trade-offs."

@@ -1,7 +1,8 @@
 ---
 title: "Kim Go-eun Guide: Exhuma, Goblin, and Natural K-Beauty"
 slug: "025"
-date: "2026-07-18"
+date: "2024-07-17"
+updatedAt: "2026-07-18"
 visibility: "public"
 publishAt: ""
 description: "A current guide to Kim Go-eun's career, from A Muse and Goblin to Exhuma, with notes on acting style, public image, K-beauty, and what to watch first."

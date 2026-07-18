@@ -283,7 +283,7 @@ function CompactArticleCard({ article }: { article: HomeArticle }) {
 function LatestPulse({ articles }: { articles: LatestArticle[] }) {
   if (articles.length === 0) return null;
 
-  const visibleArticles = articles.slice(0, 4);
+  const visibleArticles = articles.slice(0, 12);
   const updatedAt = visibleArticles[0]?.date;
 
   return (
@@ -292,13 +292,13 @@ function LatestPulse({ articles }: { articles: LatestArticle[] }) {
         <div className="border-l-4 border-red-500 pl-3">
           <p className="text-xs font-black uppercase text-red-600">Latest on EpicKor</p>
           <p className="mt-1 text-sm font-bold text-gray-950">
-            {updatedAt ? `Updated ${formatDate(updatedAt)}` : 'Fresh Korea updates'}
+            {updatedAt ? `Newest ${formatDate(updatedAt)}` : 'Fresh Korea updates'}
           </p>
         </div>
 
-        <div className="grid gap-3 sm:grid-cols-2 xl:grid-cols-4">
+        <div className="scrollbar-none flex gap-3 overflow-x-auto pb-1">
           {visibleArticles.map((article, index) => (
-            <Link key={article.href} href={article.href} className="group grid min-w-0 grid-cols-[58px_1fr] gap-3">
+            <Link key={article.href} href={article.href} className="group grid w-[230px] shrink-0 grid-cols-[58px_1fr] gap-3">
               <ArticleImage article={article} className="h-14 w-14 rounded-md" sizes="58px" />
               <div className="min-w-0">
                 <div className="flex min-w-0 items-center gap-2">
@@ -321,7 +321,7 @@ function LatestPulse({ articles }: { articles: LatestArticle[] }) {
           href="/latest"
           className="inline-flex justify-center rounded-md border border-gray-300 bg-white px-4 py-2 text-sm font-black text-gray-950 hover:border-red-500 hover:text-red-700"
         >
-          Latest feed -&gt;
+          And more -&gt;
         </Link>
       </div>
     </section>
@@ -385,7 +385,7 @@ function HomeInstagramGuides({ items }: { items: CardNewsItem[] }) {
 export default function Home() {
   const blogPosts = getAllBlogPosts();
   const businessPosts = getAllBusinessPosts();
-  const latestArticles = getLatestArticles(8);
+  const latestArticles = getLatestArticles(20);
   const cardNewsItems = getAllCardNews().slice(0, 5);
   const homeSurface = getHomeSurface();
   const curatedSlugs = {

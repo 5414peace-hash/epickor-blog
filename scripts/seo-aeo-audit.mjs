@@ -103,6 +103,8 @@ const results = files.map((file) => {
   const description = String(data.description || '');
   const tags = Array.isArray(data.tags) ? data.tags : [];
   const date = data.date ? new Date(data.date) : null;
+  const updatedAt = data.updatedAt ? new Date(data.updatedAt) : null;
+  const freshnessDate = updatedAt && !Number.isNaN(updatedAt.getTime()) ? updatedAt : date;
 
   const metrics = {
     titleLength: title.length,
@@ -131,7 +133,7 @@ const results = files.map((file) => {
   if (!metrics.hasDisclosure && metrics.affiliateLinks > 0) issues.push('missing-affiliate-disclosure-in-post');
   if (metrics.internalLinks < 2) issues.push('low-internal-linking');
 
-  const ageDays = date ? Math.floor((now - date) / (1000 * 60 * 60 * 24)) : null;
+  const ageDays = freshnessDate ? Math.floor((now - freshnessDate) / (1000 * 60 * 60 * 24)) : null;
   if (ageDays !== null && ageDays > targets.staleDays) {
     issues.push('stale-content');
   }
@@ -143,6 +145,7 @@ const results = files.map((file) => {
     slug,
     url: `/blog/${slug}`,
     date: date ? date.toISOString().slice(0, 10) : null,
+    updatedAt: updatedAt && !Number.isNaN(updatedAt.getTime()) ? updatedAt.toISOString().slice(0, 10) : null,
     ageDays,
     metrics,
     seoAeoScore,

@@ -1,7 +1,8 @@
 ---
 title: "Suzy's First Love Image: Why Korea Still Reads Her Charm"
 slug: "016"
-date: "2026-07-18"
+date: "2024-07-10"
+updatedAt: "2026-07-18"
 visibility: "public"
 publishAt: ""
 description: "A clear guide to Bae Suzy's Nation's First Love image, her acting career, Korean flirting cues, fan culture, and why authenticity matters."

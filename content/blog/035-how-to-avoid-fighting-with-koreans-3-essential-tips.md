@@ -1,7 +1,8 @@
 ---
 title: "How to Avoid Conflict in Korea: Nunchi, Respect, and Boundaries"
 slug: "035"
-date: "2026-07-18"
+date: "2024-07-22"
+updatedAt: "2026-07-18"
 visibility: "public"
 publishAt: ""
 description: "A practical Korea etiquette guide explaining nunchi, honorifics, family respect, public conflict, sensitive topics, and how visitors can disagree well."

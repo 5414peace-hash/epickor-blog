@@ -1,7 +1,8 @@
 ---
 title: "Dongduk Women's University Coeducation Dispute"
 slug: "077"
-date: "2026-07-17"
+date: "2025-01-03"
+updatedAt: "2026-07-17"
 visibility: "public"
 publishAt: ""
 description: "A neutral 2026 guide to Dongduk Women's University's coeducation dispute, the 2024 occupation, public deliberation, 2029 plan, and ongoing legal cases."

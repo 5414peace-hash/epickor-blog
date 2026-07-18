@@ -1,7 +1,8 @@
 ---
 title: "Miyeokguk Guide: Why Koreans Eat Seaweed Soup on Birthdays"
 slug: "021"
-date: "2026-07-18"
+date: "2024-07-15"
+updatedAt: "2026-07-18"
 visibility: "public"
 publishAt: ""
 description: "A careful miyeokguk guide explaining Korean birthday seaweed soup, postpartum symbolism, ingredients, exam superstition, recipes, and etiquette."

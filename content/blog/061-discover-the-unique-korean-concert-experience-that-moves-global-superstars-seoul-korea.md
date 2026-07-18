@@ -1,7 +1,8 @@
 ---
 title: "Korean Concert Sing-Alongs: Ttechang, Fan Chants, and Noraebang"
 slug: '061'
-date: "2026-07-17"
+date: "2024-08-05"
+updatedAt: "2026-07-17"
 description: "A Korean concert culture guide explaining ttechang sing-alongs, fan chants, light sticks, noraebang habits, and visitor etiquette."
 tags: ["Celeb", "Culture", "Music", "KPop"]
 ogImage: "/assets/images/posts/061/49bf7251-2659-4502-8a0b-e261e14e68d8.png"

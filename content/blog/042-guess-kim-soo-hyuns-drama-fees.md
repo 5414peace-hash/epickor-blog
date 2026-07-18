@@ -1,7 +1,8 @@
 ---
 title: "Kim Soo-hyun Drama Fees: Hallyu Star Economics Explained"
 slug: "042"
-date: "2026-07-18"
+date: "2024-07-25"
+updatedAt: "2026-07-18"
 visibility: "public"
 publishAt: ""
 description: "A careful guide to Kim Soo-hyun's reported drama fees, Queen of Tears success, Hallyu economics, and why salary rumors need context."

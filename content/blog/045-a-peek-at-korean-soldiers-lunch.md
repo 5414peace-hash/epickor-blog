@@ -1,7 +1,8 @@
 ---
 title: "Korean Reserve Force Guide: Training, Lunch Boxes, and Duty"
 slug: "045"
-date: "2026-07-18"
+date: "2024-07-27"
+updatedAt: "2026-07-18"
 visibility: "public"
 publishAt: ""
 description: "A practical guide to South Korea's reserve force, yebigun training, military meals, lunch-box debates, and why service still shapes daily life."

@@ -1,7 +1,8 @@
 ---
 title: "Korean Ramyeon Guide: Bag vs Cup Noodles and How to Choose"
 slug: "093"
-date: "2026-07-18"
+date: "2026-02-09"
+updatedAt: "2026-07-18"
 description: "A practical Korean ramyeon guide comparing bag noodles, cup noodles, Hangang machine ramyeon, convenience-store choices, toppings, and travel tips."
 ogImage: "/assets/images/posts/093/0eee505d-81b1-4281-aa69-e4ba3b32fc50.png"
 tags: ['KoreanRamyeon', 'KoreanFood', 'ConvenienceStore', 'KoreaTravel', 'InstantNoodles']

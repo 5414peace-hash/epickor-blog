@@ -1,7 +1,8 @@
 ---
 title: "Hangang Swimming Pools 2026: Seoul Summer Guide"
 slug: "066"
-date: "2026-07-18"
+date: "2024-08-10"
+updatedAt: "2026-07-18"
 visibility: "public"
 publishAt: ""
 description: "A 2026 Hangang swimming pool guide covering dates, hours, fees, sites, swim-cap rules, weather pauses, and what to bring."

@@ -1,7 +1,8 @@
 ---
 title: "Korean Moving Guide: Ladder Trucks, Packing Movers, and Tips"
 slug: '020'
-date: "2026-07-18"
+date: "2024-07-12"
+updatedAt: "2026-07-18"
 description: "A practical Korean moving guide explaining ladder trucks, packing movers, apartment access, contracts, damage checks, timing, and traveler lessons."
 tags: ["KoreanMoving", "Sadaricha", "KoreaLife", "Apartment", "KoreaTravel"]
 ogImage: "/assets/images/posts/020/379243b2-fce4-4cbf-865d-23a097060703.png"

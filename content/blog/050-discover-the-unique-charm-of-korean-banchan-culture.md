@@ -1,7 +1,8 @@
 ---
 title: "Korean Banchan Guide: Side Dishes, Kimchi, and Table Rules"
 slug: "050"
-date: "2026-07-18"
+date: "2024-07-29"
+updatedAt: "2026-07-18"
 visibility: "public"
 publishAt: ""
 description: "A practical Korean banchan guide explaining side dishes, kimchi, namul, jang seasonings, table layout, refills, etiquette, and what to try first."

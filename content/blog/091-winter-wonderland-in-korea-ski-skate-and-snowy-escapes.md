@@ -1,7 +1,8 @@
 ---
 title: "Korea Winter Travel Guide: Skiing, Skating, and Snow Trips"
 slug: "091"
-date: "2026-07-18"
+date: "2026-02-09"
+updatedAt: "2026-07-18"
 description: "A practical Korea winter travel guide for skiing, snowboarding, skating, winter festivals, Seoul day trips, weather, packing, and first-timer planning."
 tags: ['KoreaWinter', 'SkiKorea', 'KoreaTravel', 'WinterFestival', 'Gangwon']
 ogImage: "/assets/images/posts/091/d68c2d60-f2e4-4a52-8941-0522bb16ea1b.png"

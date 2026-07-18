@@ -1,7 +1,8 @@
 ---
 title: "Seoul Hiking Guide: Easy, Scenic, and Challenging Trails"
 slug: '063'
-date: "2026-07-18"
+date: "2024-08-07"
+updatedAt: "2026-07-18"
 description: "A practical Seoul hiking guide comparing Inwangsan, Achasan, Namsan, Bukhansan, Gwanaksan, gear etiquette, seasons, and first-timer trail tips."
 tags: ["SeoulHiking", "KoreaTravel", "Bukhansan", "Inwangsan", "OutdoorKorea"]
 ogImage: "/assets/images/posts/063/af4b8805-d6ac-4c9b-bb6d-f6bf3d5631c6.png"

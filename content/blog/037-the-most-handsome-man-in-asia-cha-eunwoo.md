@@ -1,7 +1,8 @@
 ---
 title: "Cha Eun-woo Guide: ASTRO, K-Dramas, and Face Genius"
 slug: "037"
-date: "2026-07-18"
+date: "2024-07-23"
+updatedAt: "2026-07-18"
 visibility: "public"
 publishAt: ""
 description: "A current guide to Cha Eun-woo's ASTRO career, K-drama roles, military service, Face Genius image, and why his Hallyu appeal travels globally."

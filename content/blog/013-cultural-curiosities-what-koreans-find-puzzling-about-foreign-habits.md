@@ -1,7 +1,8 @@
 ---
 title: "Korean Etiquette Guide: Habits Locals Notice Most"
 slug: '013'
-date: "2026-07-18"
+date: "2024-07-09"
+updatedAt: "2026-07-18"
 description: "A practical Korean etiquette guide explaining shoes indoors, quiet public behavior, two-hand manners, indirect refusals, dining rules, and nunchi."
 tags: ["KoreanEtiquette", "KoreanCulture", "KoreaTravel", "Nunchi", "SeoulTips"]
 ogImage: "/assets/images/posts/013/44545854-cde8-4bcd-9791-9b422ddce717.png"

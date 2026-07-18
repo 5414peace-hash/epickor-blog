@@ -1,7 +1,8 @@
 ---
 title: "Iced Americano in Korea: Why Koreans Drink It Year-Round"
 slug: "027"
-date: "2026-07-18"
+date: "2024-07-18"
+updatedAt: "2026-07-18"
 visibility: "public"
 publishAt: ""
 description: "A practical guide to Korea's iced Americano culture, explaining eoljuk-a, cafe ordering, price tiers, office routines, winter habits, and traveler tips."

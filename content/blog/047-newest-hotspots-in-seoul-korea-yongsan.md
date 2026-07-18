@@ -1,7 +1,8 @@
 ---
 title: "Yongsan Seoul Guide: Park, War Memorial, Cafes, and Food"
 slug: "047"
-date: "2026-07-18"
+date: "2024-07-28"
+updatedAt: "2026-07-18"
 visibility: "public"
 publishAt: ""
 description: "A current Yongsan Seoul guide covering the War Memorial, Yongsan Park, Children’s Garden, Yongridan-gil cafes, food streets, transit, and itinerary tips."
