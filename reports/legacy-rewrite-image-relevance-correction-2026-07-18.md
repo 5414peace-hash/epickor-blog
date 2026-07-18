@@ -41,6 +41,21 @@ Actions:
 - `npm.cmd run build` - pass, 363 static pages.
 - `git diff --check` - pass, CRLF warnings only.
 
+## Deployment and public QA
+
+- Implementation commit: `b3058e80` (`Replace legacy rewrite SVG images`) pushed to `origin/master`.
+- Vercel deployment: `https://epickor-blog-evs48rq8t-yhs-projects-5de403d3.vercel.app`
+- Deployment id: `dpl_H7YvXFq8bv7obgtFSSq58tWC5XKQ`
+- Status: Ready and aliased to `https://www.epickor.com`.
+- Public QA passed:
+  - `/blog/005` contains the three new hip-hop/live-stage image paths and no longer contains `smtm-tv-flywheel.svg`.
+  - `/blog/011` contains the new JPG blood-type card paths and no longer contains `korean-blood-type-mbti-map.svg`.
+  - `/blog/036` contains the Seoul rainy-street Pexels paths and no longer contains `korea-rainy-season-timeline.svg`.
+  - `/blog/042` contains the production/studio camera paths and no longer contains `kdrama-star-economics.svg`.
+  - `/blog/061` contains the Asia Culture Center concert paths and no longer contains `korean-concert-crowd-map.svg`.
+  - `/blog/093` contains `ramyeon-bag-cup-video-frame.jpg` and no longer contains `bag-vs-cup-ramyeon-choice-map.svg`.
+  - All representative replacement image assets returned HTTP 200 from `www.epickor.com`.
+
 ## Remaining sitewide SVG notes
 
 Sitewide public posts with body/og SVG references remain at 13 after this correction:
