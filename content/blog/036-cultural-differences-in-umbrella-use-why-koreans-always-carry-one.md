@@ -2,6 +2,7 @@
 title: "Korea Rainy Season Guide: Umbrellas, Jangma, and Travel Tips"
 slug: '036'
 date: "2024-07-22"
+updatedAt: "2026-07-18"
 description: "A practical Korea rainy season guide covering umbrellas, jangma timing, Seoul etiquette, packing, weather checks, and travel mistakes."
 tags: ["Culture", "Travel", "Weather", "Lifestyle"]
 ogImage: "/assets/images/posts/036/bf6b2da9-9cd5-4a9f-aa47-60e4bc505281.png"

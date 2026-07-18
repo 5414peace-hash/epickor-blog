@@ -2,6 +2,7 @@
 title: "Korean Fried Chicken Guide: Chimaek, Crunch, and Ordering Tips"
 slug: '018'
 date: "2024-07-11"
+updatedAt: "2026-07-18"
 description: "A practical Korean fried chicken guide covering chimaek, sauces, delivery culture, ordering tips, and what makes K-chicken different."
 tags: ["Food", "Culture", "Travel"]
 ogImage: "/assets/images/posts/018/64a1c786-461d-46df-bad1-b8c0359202ac.png"

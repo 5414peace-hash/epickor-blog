@@ -2,6 +2,7 @@
 title: "Korean Blood Type Personality: Culture, Dating, and MBTI"
 slug: '011'
 date: "2024-07-08"
+updatedAt: "2026-07-18"
 description: "Korean blood type personality explained as pop culture, dating small talk, stereotypes, science limits, MBTI overlap, and visitor etiquette."
 visibility: "public"
 publishAt: ""

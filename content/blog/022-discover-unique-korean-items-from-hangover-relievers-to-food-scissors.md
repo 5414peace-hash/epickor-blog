@@ -2,6 +2,7 @@
 title: "Korean Food Scissors Guide: Practical Tools and Hangover Drinks"
 slug: '022'
 date: "2024-07-15"
+updatedAt: "2026-07-18"
 description: "A practical guide to Korean food scissors, table tools, hangover drinks, and the small convenience habits visitors notice in Korea."
 tags: ["Culture", "Lifestyle", "Food", "Travel"]
 ogImage: "/assets/images/posts/022/5378f074-e2f8-4fbe-bb3e-6ed589e2cd48.png"

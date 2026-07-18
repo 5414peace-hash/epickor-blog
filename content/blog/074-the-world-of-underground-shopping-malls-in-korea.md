@@ -2,6 +2,7 @@
 title: "Seoul Underground Shopping Malls: Best Stations Guide"
 slug: "074"
 date: "2024-09-19"
+updatedAt: "2026-07-18"
 visibility: "public"
 publishAt: ""
 description: "Seoul underground shopping malls explained: COEX, Gangnam Station, Goto Mall, Express Bus Terminal, subway lines, what to buy, and where to start."
@@ -11,6 +12,8 @@ author: "EpicKor"
 ---
 
 Seoul underground shopping malls can confuse first-time visitors because they do not always look like malls from the street. You may enter through a subway exit, follow a corridor, pass a row of cosmetics stores, turn a corner, and suddenly realize you are inside a shopping district that feels like a small city under the road.
+
+If you are planning a shopping day, EpicKor's [Korean souvenir guide](/blog/041) and [Seoul tech shopping guide](/blog/275) help separate easy station buys from bigger destination stops.
 
 That is normal in Seoul. Some of the city's most useful shopping spaces sit underground because they connect subway stations, department stores, bus terminals, office towers, restaurants, and weather-proof walking routes. In winter, summer rain, or rush hour, these underground malls are not just places to buy things. They are part of how Seoul moves.
 

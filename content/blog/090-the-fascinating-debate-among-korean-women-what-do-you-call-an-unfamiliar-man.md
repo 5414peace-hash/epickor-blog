@@ -2,6 +2,7 @@
 title: "Ahjussi Meaning: Is It Rude? Ajeossi Explained"
 slug: "090"
 date: "2024-08-30"
+updatedAt: "2026-07-18"
 description: "Ahjussi meaning explained: what Korean ajeossi means, when it sounds rude, and safer words like jeogiyo, oppa, and samchon."
 tags: ["Culture", "Social", "Woman", "Man", "Language"]
 ogImage: "/assets/images/posts/090/9aba325a-8a83-4721-9780-c2760839d14b.png"

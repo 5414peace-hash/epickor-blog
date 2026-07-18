@@ -2,6 +2,7 @@
 title: "Korean Ramyun Guide: Shin, Buldak, Chapaghetti, and More"
 slug: '038'
 date: "2024-07-23"
+updatedAt: "2026-07-18"
 description: "A practical Korean ramyun guide explaining Shin Ramyun, Buldak, Chapaghetti, cup noodles, spice levels, toppings, and buying tips."
 tags: ["Food", "Culture", "Shopping", "KoreanRamyun"]
 ogImage: "/assets/images/posts/038/36628da4-9e56-4710-bde0-a77b9874e472.png"

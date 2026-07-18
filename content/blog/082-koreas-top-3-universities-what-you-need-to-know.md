@@ -2,6 +2,7 @@
 title: "What Are SKY Universities in Korea? SNU, Korea, Yonsei"
 slug: "082"
 date: "2024-08-25"
+updatedAt: "2026-07-18"
 description: "SKY universities in Korea explained: what SNU, Korea University, and Yonsei mean, why the label matters, and how rankings differ."
 tags: ["Culture", "Social", "Education", "History"]
 ogImage: "/assets/images/posts/082/af24b8c3-5c79-4465-9da3-2065385ad011.png"

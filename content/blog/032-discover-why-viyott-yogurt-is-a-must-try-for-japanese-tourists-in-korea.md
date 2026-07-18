@@ -13,6 +13,8 @@ author: "EpicKor"
 
 **Viyott is one of those Korean convenience-store foods that looks too simple to explain until you watch travelers hunt for it.** It is a small topping yogurt from Seoul Milk: yogurt on one side, crunchy toppings on the other, folded together right before eating. For Koreans, it can feel like an everyday snack. For visitors, especially Japan-focused Korea travelers, it has become a small edible checklist item: easy to find, easy to film, easy to understand, and hard to recreate exactly once the trip is over.
 
+If you are building a wider convenience-store snack route, pair this with EpicKor's [Korean snacks guide](/blog/029) and [Korean micro-convenience guide](/blog/088).
+
 This guide explains what Viyott is, why it became a travel snack, where to buy it in Korea, how to choose flavors, and what to compare in the same refrigerated aisle. It also corrects one common misunderstanding: Viyott is not "important" because it is luxury food. It is important because it captures the Korean convenience-store formula very well: cute packaging, texture contrast, single-serving design, short-stop accessibility, and a snack that feels local even when the idea is simple.
 
 ![Viyott-style Korean topping yogurt in a convenience-store snack frame.](/assets/images/posts/032/1eb77d14-d926-4fce-b7ed-c3b14f60484d.png)

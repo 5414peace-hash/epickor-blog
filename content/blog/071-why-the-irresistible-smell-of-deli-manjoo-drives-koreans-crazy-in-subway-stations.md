@@ -2,6 +2,7 @@
 title: "What Is Deli Manjoo? Korea's Subway Custard Snack"
 slug: "071"
 date: "2024-09-06"
+updatedAt: "2026-07-18"
 visibility: "public"
 publishAt: ""
 description: "What is Deli Manjoo? Korea's warm corn-shaped custard snack, famous in subway stations for its sweet smell, soft cake, and nostalgia."
@@ -50,7 +51,7 @@ For visitors, Deli Manjoo can feel like a Korean street-food cousin of taiyaki, 
 
 ## Why Is It Called Deli Manjoo?
 
-The name is usually written as **Deli Manjoo** or **Delimanjoo** in English, and ?�리만�? in Korean.
+The name is usually written as **Deli Manjoo** or **Delimanjoo** in English, and ?�리만�? in Korean.
 
 "Deli" suggests delicious or deli-style convenience, while "manjoo" refers to a small filled pastry or cake. It is not mandu, the Korean dumpling, even though the words can sound a little similar to newcomers.
 

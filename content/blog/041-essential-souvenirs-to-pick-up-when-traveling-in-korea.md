@@ -2,6 +2,7 @@
 title: "Korean Souvenir Guide: What to Buy and What to Skip"
 slug: '041'
 date: "2024-07-25"
+updatedAt: "2026-07-18"
 description: "A practical Korean souvenir guide for snacks, beauty, red ginseng, crafts, alcohol, luggage limits, gift etiquette, and smart shopping routes."
 tags: ["Korea Shopping", "Souvenirs", "Travel", "K-Beauty", "Korean Gifts"]
 ogImage: "/assets/images/posts/041/bec1c78f-da60-4744-a1fc-614a21834522.png"

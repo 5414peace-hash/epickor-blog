@@ -2,6 +2,7 @@
 title: "Why Koreans Clap When They Laugh: Heung, TV, and Etiquette"
 slug: '014'
 date: "2024-07-09"
+updatedAt: "2026-07-18"
 description: "A careful guide to Korean laugh-clapping, variety-show reactions, heung, jeong, personal space, and what visitors should or should not copy."
 tags: ["Korean Culture", "Etiquette", "Variety Shows", "Heung", "Social Life"]
 ogImage: "/assets/images/posts/014/70cc0930-3703-427f-8faa-a5a3ac2d8407.png"

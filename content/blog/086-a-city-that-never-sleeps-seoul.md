@@ -2,6 +2,7 @@
 title: "Seoul Night Guide: Hangang, Cafes, Markets, and Transit"
 slug: '086'
 date: "2024-08-27"
+updatedAt: "2026-07-18"
 description: "A practical Seoul night guide for Hangang drone shows, late cafes, markets, neighborhoods, transit, safety, and realistic after-dark planning."
 tags: ["Seoul", "Travel", "Nightlife", "Hangang", "Korea Travel"]
 ogImage: "/assets/images/posts/086/c5be1d0a-0bfb-45a5-9d97-d1738b29582b.png"

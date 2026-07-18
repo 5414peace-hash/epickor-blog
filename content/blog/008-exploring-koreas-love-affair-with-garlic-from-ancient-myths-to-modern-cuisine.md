@@ -2,6 +2,7 @@
 title: "Why Koreans Eat So Much Garlic: Culture Explained"
 slug: "008"
 date: "2024-07-05"
+updatedAt: "2026-07-18"
 visibility: "public"
 publishAt: ""
 description: "Why Koreans eat so much garlic: Dangun myth, Korean BBQ, kimchi, banchan, pickled garlic, and how garlic became everyday flavor."
@@ -11,6 +12,8 @@ author: "EpicKor"
 ---
 
 ![Korean garlic culture video thumbnail from EpicKor](/assets/images/posts/008/e6183b70-1d05-4d16-b31b-88e2842e746a.png)
+
+For nearby food context, EpicKor's [Korean BBQ ssam guide](/blog/266) and [kimchi jjigae at home guide](/blog/282) show how garlic, banchan, and pantry flavors connect in everyday meals.
 
 Why do Koreans eat so much **garlic**?
 
