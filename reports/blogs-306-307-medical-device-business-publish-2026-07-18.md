@@ -58,4 +58,13 @@ Date: 2026-07-18
 
 ## Deployment Status
 
-- Ready for commit, push, Vercel production deployment, and public URL QA.
+- Commit: `67bc367d` (`Publish blogs 306 307 and medical device guide`)
+- Pushed to `origin/master`.
+- Vercel production deployment: `https://epickor-blog-8g10ldoyb-yhs-projects-5de403d3.vercel.app`
+- Deployment status: Ready.
+- First direct deploy attempt failed because Vercel rejected more than 15,000 uploaded files. The same commit was redeployed successfully with `--archive=tgz`.
+- Public `www.epickor.com` QA passed:
+  - `https://www.epickor.com/blog/306`: HTTP `200`, title/image/affiliate markers present.
+  - `https://www.epickor.com/blog/307`: HTTP `200`, title/image/affiliate markers present.
+  - `https://www.epickor.com/business/korean-medical-device-suppliers`: HTTP `200`, title/image/affiliate markers present.
+  - `https://www.epickor.com/sitemap.xml`: HTTP `200`, new blog and business URLs present.
