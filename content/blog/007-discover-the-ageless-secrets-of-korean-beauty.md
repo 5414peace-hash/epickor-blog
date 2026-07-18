@@ -106,7 +106,7 @@ The most distinctive Korean factor may be access. Health-and-beauty stores, phar
 
 Korea's Ministry of Food and Drug Safety regulates products that make certain functional-cosmetic claims, including ultraviolet protection. The [MFDS functional cosmetics process](https://www.mfds.go.kr/eng/wpge/m_24/de011014l001.do) is a useful official starting point. Regulation does not mean every product suits every person, and Korean approval does not replace the label rules where an international reader lives.
 
-K-beauty's global visibility can make all Koreans seem unusually skincare-focused even though individual routines range from minimalist to elaborate.
+K-beauty's global visibility can make all Koreans seem unusually skincare-focused even though individual routines range from minimalist to elaborate. Celebrity images can intensify that assumption, so EpicKor's [Suzy first-love image guide](/blog/016) is a useful companion for separating natural-looking public charm from real everyday beauty behavior.
 
 ![A person applying skincare while looking in a mirror](/assets/images/posts/007/applying-skincare.jpg)
 

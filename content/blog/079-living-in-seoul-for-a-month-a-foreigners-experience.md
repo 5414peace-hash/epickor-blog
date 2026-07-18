@@ -47,7 +47,7 @@ For many short-term visitors, the administrative side starts before the flight. 
 
 K-ETA rules are separate from the arrival card. Some nationalities have temporary K-ETA exemption through the end of 2026, while others may not. Even if your country is exempt, applying voluntarily may provide some convenience benefits, but it also has a fee. Do not rely on a social-media screenshot for entry rules. Check the current Korean consulate or embassy notice for your jurisdiction.
 
-Once you land, make the first 72 hours boring on purpose. Get your SIM/eSIM working, load a transit card, save your accommodation address in Korean and English, withdraw or exchange a small amount of cash, and test the route from your room to the nearest subway station, convenience store, pharmacy, and laundry option. A month in Seoul becomes easier when the basics are solved before the fun begins.
+Once you land, make the first 72 hours boring on purpose. Get your SIM/eSIM working, load a transit card, save your accommodation address in Korean and English, withdraw or exchange a small amount of cash, and test the route from your room to the nearest subway station, convenience store, pharmacy, and laundry option. A month in Seoul becomes easier when the basics are solved before the fun begins. If you are only testing the city for one intense day, EpicKor's [24-hour Seoul guide](/blog/017) gives a compact route through morning, afternoon, evening, and late-night transit.
 
 EpicKor's [Korea eSIM guide](/blog/205), [Korea payment setup guide](/blog/201), and [Google Maps vs Naver/Kakao guide](/blog/222) will help you avoid the most common arrival friction.
 

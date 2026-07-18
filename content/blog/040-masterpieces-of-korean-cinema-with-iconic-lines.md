@@ -59,7 +59,7 @@ Korean cinema is not just on the screen; it is in the streets. To know these lin
 
 ## Related EpicKor Guides
 
-For the bigger Korean cinema map, pair these movie lines with our [Kim Go-eun guide](/blog/025), [Korean soft power icons guide](/blog/002), and [Seoul bookstore and library guide](/blog/293). Together they connect film dialogue, actors, translated books, and the global Hallyu conversation.
+For the bigger Korean cinema map, pair these movie lines with our [Choi Min-sik guide to Oldboy, Exhuma, and Korean cinema](/blog/030), [Kim Go-eun guide](/blog/025), [Korean soft power icons guide](/blog/002), and [Seoul bookstore and library guide](/blog/293). Together they connect film dialogue, actors, translated books, and the global Hallyu conversation.
 
 ---
 

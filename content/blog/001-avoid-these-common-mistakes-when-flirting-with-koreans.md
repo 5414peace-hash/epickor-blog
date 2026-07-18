@@ -134,6 +134,8 @@ In an immediate emergency in Korea, call **112** for police or **119** for fire 
 
 Questions about family, work, age, marriage, or personality type may surface earlier than some visitors expect. You are free to answer selectively and ask why something matters. Curiosity should move both ways; it should not become an interview about whether someone matches a national stereotype.
 
+For the celebrity-culture version of this same "warmth without pressure" idea, see EpicKor's [Suzy first-love image and Korean flirting-cue guide](/blog/016). It helps separate polished media charm from real-life dating consent, timing, and reciprocity.
+
 Statistics Korea's 2024 Social Survey found that 52.5% of respondents thought people should marry; attitudes are clearly mixed. Financial pressure was the most common reason given for not marrying, so dating goals need a direct conversation.
 
 If a relationship becomes serious, Korean couple milestones and family expectations may matter—but not in identical ways for every pair. EpicKor's [guide to Korean couple anniversaries](/blog/147) separates common customs from social-media exaggeration. The broader [guide to resolving conflict with Koreans](/blog/035) is also useful when differences in communication style become more important than the first-date excitement.

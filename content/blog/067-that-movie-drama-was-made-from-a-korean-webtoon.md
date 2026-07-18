@@ -35,7 +35,7 @@ Long before Netflix became obsessed with Korean content, a quiet revolution was 
 ![epickor_??뤿땾.mp4_20240809_184548.869.jpg](/assets/images/posts/067/093_epickor_%ED%9C%98%EC%88%98.mp4_20240809_184548.869.jpg)
 
 
-The most successful Korean dramas and movies of the last five years were not original screenplays; they were webtoon adaptations. 
+The most successful Korean dramas and movies of the last five years were not original screenplays; they were webtoon adaptations. For the actor-led side of the same Korean screen boom, EpicKor's [Choi Min-sik guide](/blog/030) explains how film performances from *Oldboy* to *Exhuma* shaped global K-cinema memory.
 * **Proof of Concept:** Projects like **Itaewon Class**, **Sweet Home**, **Moving**, and **Train to Busan** (animated origins) were first vetted by millions of real-time readers. 
 * **Data-Driven Creativity:** Authors receive immediate feedback via comments and likes, allowing them to refine plots and character arcs before a single dollar is spent on TV production. This creates a "Low-Risk, High-Reward" pipeline for global streaming giants like Netflix and Disney+.
 
