@@ -39,6 +39,10 @@ All touched posts passed `review-post.mjs --dry-run`:
 - `npm.cmd run audit:amazon-links` passed: all direct Amazon URLs use exactly one approved tracking tag.
 - `git diff --check` passed with only Windows LF/CRLF warnings.
 - `npm.cmd run build` passed: 363 static pages generated.
+- Implementation commit: `4a7f8813`.
+- Pushed to `origin/master`.
+- Vercel production deployment: `https://epickor-blog-m8cckgpb9-yhs-projects-5de403d3.vercel.app`, Ready.
+- Public QA passed for `/blog/202`, `/blog/203`, `/blog/204`, `/blog/205`, `/blog/206`, `/blog/212`, `/blog/213`, `/blog/214`, `/blog/216`, and `/sitemap.xml`.
 
 ## Notes
 
