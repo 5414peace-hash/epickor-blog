@@ -41,6 +41,21 @@ This pass clears those remaining audit issues without rewriting article bodies o
 - `git diff --check` - pass, CRLF warnings only.
 - `npm.cmd run build` - pass, 363 static pages.
 
+## Deployment and public QA
+
+- Implementation commit: `6b4f0592` on `origin/master`.
+- Vercel deployment: `dpl_FmEZUvAkLKE1y4SPg4wYwLBaxgcF`.
+- Deployment URL: `https://epickor-blog-43ui0cjem-yhs-projects-5de403d3.vercel.app`.
+- Production alias: `www.epickor.com`.
+- Public QA passed for representative pages:
+  - `008`: confirmed `updatedAt` marker and new links to `/blog/266` and `/blog/282`.
+  - `032`: confirmed new links to `/blog/029` and `/blog/088`.
+  - `133`: confirmed new links to `/blog/274` and `/blog/289`.
+  - `142`: confirmed new links to `/blog/010` and `/blog/044`.
+  - `271`: confirmed shortened public title.
+  - `291`: confirmed shortened public title.
+  - `305`: confirmed shortened public title.
+
 ## Notes
 
 This pass intentionally keeps original `date` values unchanged. It uses `updatedAt` for freshness so Latest ordering remains based on actual publication dates rather than maintenance edits.
