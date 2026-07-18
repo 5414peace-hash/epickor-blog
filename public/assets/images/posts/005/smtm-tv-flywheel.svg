@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" role="img" aria-labelledby="title desc">
+  <title id="title">Show Me The Money TV flywheel</title>
+  <desc id="desc">A graphic showing how Show Me The Money moves Korean hip-hop from TV stage to clips, streaming, memes, festivals, and labels.</desc>
+  <rect width="1200" height="800" fill="#101018"/>
+  <circle cx="600" cy="400" r="230" fill="#202033" stroke="#f2c94c" stroke-width="8"/>
+  <text x="88" y="100" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700" fill="#f2c94c">EPICKOR K-MUSIC GUIDE</text>
+  <text x="88" y="170" font-family="Arial, Helvetica, sans-serif" font-size="58" font-weight="800" fill="#ffffff">SMTM flywheel</text>
+  <g font-family="Arial, Helvetica, sans-serif" text-anchor="middle">
+    <circle cx="600" cy="400" r="95" fill="#f2c94c"/>
+    <text x="600" y="388" font-size="28" font-weight="800" fill="#101018">TV</text>
+    <text x="600" y="424" font-size="28" font-weight="800" fill="#101018">stage</text>
+    <g fill="#ffffff" stroke="#f2c94c" stroke-width="5">
+      <rect x="455" y="165" width="290" height="82" rx="24"/>
+      <rect x="805" y="320" width="230" height="82" rx="24"/>
+      <rect x="765" y="570" width="260" height="82" rx="24"/>
+      <rect x="175" y="570" width="260" height="82" rx="24"/>
+      <rect x="165" y="320" width="230" height="82" rx="24"/>
+    </g>
+    <g fill="#101018" font-size="25" font-weight="800">
+      <text x="600" y="217">Short clips</text>
+      <text x="920" y="372">Streaming</text>
+      <text x="895" y="622">Memes</text>
+      <text x="305" y="622">Festivals</text>
+      <text x="280" y="372">Labels</text>
+    </g>
+  </g>
+  <path d="M702 246c110 20 186 74 213 154" fill="none" stroke="#f2c94c" stroke-width="7" stroke-linecap="round"/>
+  <path d="M919 425c-5 88-53 152-124 190" fill="none" stroke="#f2c94c" stroke-width="7" stroke-linecap="round"/>
+  <path d="M725 636c-94 58-195 58-290 0" fill="none" stroke="#f2c94c" stroke-width="7" stroke-linecap="round"/>
+  <path d="M382 615c-73-39-116-104-102-190" fill="none" stroke="#f2c94c" stroke-width="7" stroke-linecap="round"/>
+  <path d="M294 316c37-76 110-122 204-137" fill="none" stroke="#f2c94c" stroke-width="7" stroke-linecap="round"/>
+  <text x="88" y="735" font-family="Arial, Helvetica, sans-serif" font-size="23" fill="#f2c94c">The show did not invent the scene. It changed the attention loop.</text>
+</svg>

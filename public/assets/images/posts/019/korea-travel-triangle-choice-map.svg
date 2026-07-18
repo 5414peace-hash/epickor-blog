@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" role="img" aria-labelledby="title desc">
+  <title id="title">Korea travel triangle choice map</title>
+  <desc id="desc">A graphic comparing Jeju, Busan, and Gyeongju by trip mood and planning style.</desc>
+  <rect width="1200" height="800" fill="#f3fbff"/>
+  <text x="80" y="100" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700" fill="#1f75a8">EPICKOR KOREA TRAVEL</text>
+  <text x="80" y="175" font-family="Arial, Helvetica, sans-serif" font-size="58" font-weight="800" fill="#123044">Choose your Korea</text>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <rect x="95" y="300" width="300" height="280" rx="34" fill="#ffffff" stroke="#49a56d" stroke-width="6"/>
+    <rect x="450" y="300" width="300" height="280" rx="34" fill="#ffffff" stroke="#1f75a8" stroke-width="6"/>
+    <rect x="805" y="300" width="300" height="280" rx="34" fill="#ffffff" stroke="#b6792f" stroke-width="6"/>
+    <text x="150" y="370" font-size="42" font-weight="800" fill="#1f5234">Jeju</text>
+    <text x="505" y="370" font-size="42" font-weight="800" fill="#123044">Busan</text>
+    <text x="860" y="370" font-size="42" font-weight="800" fill="#6c3f17">Gyeongju</text>
+    <text x="150" y="425" font-size="25" fill="#3f5544">Volcanic coast</text>
+    <text x="150" y="465" font-size="25" fill="#3f5544">Driving + cafes</text>
+    <text x="150" y="505" font-size="25" fill="#3f5544">3-5 slower days</text>
+    <text x="505" y="425" font-size="25" fill="#405666">Beach city</text>
+    <text x="505" y="465" font-size="25" fill="#405666">Markets + KTX</text>
+    <text x="505" y="505" font-size="25" fill="#405666">2-4 energetic days</text>
+    <text x="860" y="425" font-size="25" fill="#644a31">Silla history</text>
+    <text x="860" y="465" font-size="25" fill="#644a31">Temples + tombs</text>
+    <text x="860" y="505" font-size="25" fill="#644a31">1-3 culture days</text>
+  </g>
+  <text x="80" y="715" font-family="Arial, Helvetica, sans-serif" font-size="24" fill="#1f75a8">Do not chase a ranking. Pick the destination that solves your actual trip.</text>
+</svg>

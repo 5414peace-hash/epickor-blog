@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" role="img" aria-labelledby="title desc">
+  <title id="title">Korea travel triangle route planner</title>
+  <desc id="desc">A simplified route planner showing Seoul connections to Busan, Gyeongju, and Jeju.</desc>
+  <rect width="1200" height="800" fill="#101b2c"/>
+  <text x="80" y="100" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700" fill="#9ed8ff">EPICKOR ROUTE NOTE</text>
+  <text x="80" y="175" font-family="Arial, Helvetica, sans-serif" font-size="56" font-weight="800" fill="#ffffff">Plan by friction</text>
+  <g font-family="Arial, Helvetica, sans-serif" text-anchor="middle">
+    <circle cx="250" cy="395" r="90" fill="#ffffff"/>
+    <text x="250" y="405" font-size="35" font-weight="800" fill="#101b2c">Seoul</text>
+    <circle cx="650" cy="280" r="82" fill="#9ed8ff"/>
+    <text x="650" y="290" font-size="32" font-weight="800" fill="#101b2c">Busan</text>
+    <circle cx="780" cy="520" r="82" fill="#ffd58b"/>
+    <text x="780" y="530" font-size="32" font-weight="800" fill="#101b2c">Gyeongju</text>
+    <circle cx="990" cy="395" r="82" fill="#a9e7bc"/>
+    <text x="990" y="405" font-size="32" font-weight="800" fill="#101b2c">Jeju</text>
+    <g stroke="#ffffff" stroke-width="8" stroke-linecap="round">
+      <path d="M335 370c80-45 150-70 235-78"/>
+      <path d="M335 430c115 75 245 105 365 92"/>
+      <path d="M340 395c210-80 420-80 565 0" stroke-dasharray="16 18"/>
+    </g>
+    <g fill="#ffffff" font-size="24" font-weight="700">
+      <text x="460" y="305">KTX easiest</text>
+      <text x="515" y="555">KTX + local transport</text>
+      <text x="660" y="370">Flight + island transport</text>
+    </g>
+  </g>
+  <text x="80" y="720" font-family="Arial, Helvetica, sans-serif" font-size="24" fill="#9ed8ff">A cheap ticket is not always the easiest route. Compare time, transfers, and weather.</text>
+</svg>

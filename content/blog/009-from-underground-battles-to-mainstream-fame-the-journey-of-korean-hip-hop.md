@@ -22,7 +22,7 @@ That mix creates tension. Some fans care about lyricism, rhyme, and live perform
 
 ## Why Show Me The Money Changed Everything
 
-Mnet's *Show Me The Money* became the most visible bridge between Korean rap and the general public. It gave underground artists national TV exposure, turned producer teams into drama engines, and made rap battles part of mainstream conversation.
+Mnet's *Show Me The Money* became the most visible bridge between Korean rap and the general public. It gave underground artists national TV exposure, turned producer teams into drama engines, and made rap battles part of mainstream conversation. For the TV-format side specifically, EpicKor's [Show Me The Money guide](/blog/005) explains how the franchise changed producer visibility, stage clips, streaming, and authenticity debates.
 
 CJ ENM describes *Show Me The Money 12* as the return of South Korea's iconic hip-hop survival show in 2026, after a hiatus of nearly three years. Its January 2026 newsroom announcement calls the series South Korea's first hip-hop survival show and says it helped bring hip-hop into the mainstream. That matters because older summaries that frame SMTM as simply “ended” are now outdated.
 
