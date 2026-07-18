@@ -32,6 +32,12 @@ This pass did not rewrite article text, publish dates, titles, descriptions, aff
 - `npm.cmd run audit:seo-aeo` - pass, average `99/100`.
 - `npm.cmd run audit:amazon-links` - pass.
 - `npm.cmd run build` - pass, 363 static pages.
+- Implementation commit `e01d1a8f` is on `origin/master`.
+- Vercel deployment `dpl_6wLPUHz4LqTugDEmYT2whTLe2XE8` (`https://epickor-blog-51s5umrxd-yhs-projects-5de403d3.vercel.app`) is Ready and aliased to `www.epickor.com`.
+- Public QA passed representative pages `029`, `044`, `203`, `205`, `248`, and `285`.
+  - New JPG or `legacy-frame-xx.jpg` markers are present in public HTML.
+  - Removed PNG or `%25EC` markers are absent from public HTML.
+  - Representative replacement image assets return HTTP 200.
 
 ## Notes
 
