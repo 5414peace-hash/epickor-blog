@@ -88,3 +88,17 @@ Follow-up recommended before continuing broad rewrite/title batches:
 - `npm.cmd run audit:image-sizes -- --dir public\assets\images\posts\165` - pass, 0 over budget.
 - `git diff --check` - pass, CRLF warnings only.
 - `npm.cmd run build` - pass, 363 static pages.
+
+## Deployment and public QA
+
+- Implementation commit: `fbc5b078` (`Fix legacy dates latest feed and SVG images`) pushed to `origin/master`.
+- Vercel deployment: `https://epickor-blog-emzsol397-yhs-projects-5de403d3.vercel.app`
+- Deployment id: `dpl_GDFNWWbPGk16RXxfkbxsVhsyAGe5`
+- Status: Ready and aliased to `https://www.epickor.com`.
+- Public QA passed:
+  - Home page contains `Newest`, `And more`, and orders `/blog/305 -> /blog/304 -> /blog/303 -> /blog/302`.
+  - `/latest` contains `And more recent posts` and orders `/blog/305 -> /blog/304 -> /blog/303 -> /blog/302 -> /blog/301 -> /blog/300`.
+  - `/blog/137` shows original publish date `February 05, 2026` plus secondary updated date `July 17, 2026`.
+  - `/blog/162`, `/blog/163`, `/blog/164`, and `/blog/165` contain the new real-image paths.
+  - All 12 replacement image assets returned HTTP 200 from `www.epickor.com`.
+  - Sitemap contains representative corrected entries `/blog/305` and `/blog/162`.
