@@ -28,6 +28,8 @@ The best examples for visitors are Hangang ramyeon machines, cafe kiosks, robot 
 
 Korea's official tourism site describes Hangang riverside convenience-store ramyeon as a visitor-friendly experience where you buy a packet, place it in a cooking station, and let the machine prepare it. Seoul and national food-safety authorities also monitor unmanned food stores because automation still needs hygiene, freshness, and accountability.
 
+For the non-robot version of the same habit, EpicKor's [unique things in Korea guide](/blog/088) covers elevator cancel buttons, restaurant call bells, heated bus-stop seats, and lost-item systems as everyday micro-conveniences.
+
 <div class="table-scroll">
 <table>
   <thead><tr><th>Automation Type</th><th>Where Visitors See It</th><th>Why Koreans Use It</th><th>Visitor Friction</th></tr></thead>
