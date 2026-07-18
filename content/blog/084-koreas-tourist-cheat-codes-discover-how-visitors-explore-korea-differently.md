@@ -77,7 +77,7 @@ Use EpicKor's [Netflix K-drama watch-first guide](/blog/070), [best Korean drama
 
 ## History and Culture Travelers: Build a Timeline
 
-The strongest history route in Korea connects time periods instead of collecting landmarks. In Seoul, a simple timeline might include Gyeongbokgung or Changdeokgung, the National Museum of Korea, Bukchon/Insadong, Euljiro's modern layers, and a fortress or day trip such as Suwon Hwaseong. If you have more time, Gyeongju, Jeonju, Andong, or the DMZ can add different kinds of context.
+The strongest history route in Korea connects time periods instead of collecting landmarks. In Seoul, a simple timeline might include Gyeongbokgung or Changdeokgung, the National Museum of Korea, Bukchon/Insadong, Euljiro's modern layers, and a fortress or day trip such as Suwon Hwaseong. If you have more time, [Gyeongju](/blog/069), Jeonju, Andong, or the DMZ can add different kinds of context.
 
 Suwon is especially useful because it gives a traveler a contained example of Joseon-era urban planning, fortress architecture, and a living modern city. EpicKor's [Suwon and Hwaseong Fortress guide](/blog/064) is a better next step than another generic palace list.
 

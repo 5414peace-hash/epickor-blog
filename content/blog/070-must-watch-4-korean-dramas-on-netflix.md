@@ -83,6 +83,8 @@ These two titles are useful because they challenge the lazy idea that K-drama me
 
 For more Korean entertainment context, see EpicKor's [best Korean dramas 2026 guide](/blog/167) and [Kim Soo-hyun explainer](/blog/042), especially if you are trying to connect star power, drama genres, and global fan interest.
 
+If you keep noticing that a series began as a digital comic, EpicKor's [Korean webtoons guide](/blog/067) explains why mobile-scroll stories became such a strong K-drama source pipeline.
+
 ## 4. Kingdom and Other Classics: Why Older K-Dramas Still Matter
 
 If **Kingdom** is available in your region, it remains one of the cleanest Korean genre recommendations. It is historical, political, violent, and easy to pitch: zombie horror in the Joseon Dynasty with class tension and royal intrigue. Even viewers who do not normally watch historical dramas can understand the premise.

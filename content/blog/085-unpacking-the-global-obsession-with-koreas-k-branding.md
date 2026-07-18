@@ -59,7 +59,7 @@ Hallyu works because it rarely stays in one lane. A drama creates an actor crush
 
 That is why K-branding feels unusually connected. The same person can watch a drama, buy Korean ramen, learn basic Hangeul, save a Seoul cafe, compare sunscreen, and plan a trip. The emotional bridge is not always rational, but the behavior is real.
 
-For EpicKor, the editorial opportunity is to help readers move from vague interest to useful decisions. If someone discovers Korea through a show, the next helpful article might be [what Korean dramas to watch first](/blog/070), [what Koreans eat for breakfast](/blog/302), [how to use Naver or Kakao maps](/blog/222), or [where to stay in Seoul](/blog/169). Trust grows when the next step is practical, not just promotional.
+For EpicKor, the editorial opportunity is to help readers move from vague interest to useful decisions. If someone discovers Korea through a show, the next helpful article might be [what Korean dramas to watch first](/blog/070), [why Korean webtoons feed K-drama adaptations](/blog/067), [how to start learning Hangeul and Korean](/blog/068), [what Koreans eat for breakfast](/blog/302), [how to use Naver or Kakao maps](/blog/222), or [where to stay in Seoul](/blog/169). Trust grows when the next step is practical, not just promotional.
 
 ![Korean culture and K-brand frame from EpicKor's original package.](/assets/images/posts/085/112_EpicKor_%25EC%259A%2594%25EC%2588%259C.mp4_20250112_221620.445.jpg)
 *Hallyu attention becomes stronger when it leads to repeatable actions: watch, eat, shop, learn, travel, and share.*

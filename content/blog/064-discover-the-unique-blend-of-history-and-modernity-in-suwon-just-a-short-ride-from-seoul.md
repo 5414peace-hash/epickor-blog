@@ -131,6 +131,8 @@ Choose Suwon when you want history that still feels physically walkable. The for
 
 Choose the DMZ instead if your priority is modern division and security history. Choose Jeonju if your priority is hanok streets and food identity. Choose Incheon or the airport area if your schedule is shaped by flights. Choose the Korean Folk Village if you want a more curated traditional-life attraction with performances and reconstructed scenes.
 
+Choose Gyeongju instead if you want Silla history, UNESCO temples, royal tombs, and a slower overnight heritage route; EpicKor's [Gyeongju travel guide](/blog/069) is the better fit for that plan.
+
 Suwon is best when you want a real city, not a sealed attraction. Cars pass, residents walk dogs, students sit in cafes, and the fortress remains part of the urban fabric. That can be less tidy than a theme park, but it is more interesting. You are seeing how Korea maintains a heritage site while people continue living around it.
 
 ## Photo and Walking Strategy

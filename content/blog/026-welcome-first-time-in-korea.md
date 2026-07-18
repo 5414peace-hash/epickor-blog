@@ -72,6 +72,8 @@ Other products, including mobile transit services and tourist payment cards, may
 
 Install **Naver Map** or **KakaoMap** before departure. Both provide public-transport routing and local place data that visitors often find more complete than foreign map services in Korea. Search quality improves when you paste a Korean venue name or road address. Save your hotel, airport terminal, and first few destinations while connected to reliable Wi-Fi.
 
+Even a little Hangeul helps with station names, menu words, and copied addresses. If Korean text still feels like a wall, read EpicKor's [beginner Hangeul and Korean learning guide](/blog/068) before your trip.
+
 For subway trips, check the destination direction, line number and color, transfer station, and exit number. The exit matters: emerging on the wrong side of a major road can add a long walk. Bus routing is excellent but first-time visitors should confirm the bus number and final direction because several stops can have similar English names.
 
 Papago and Google Translate can both help, but translation is most reliable with short, plain sentences. Download offline language support where available. Keep the Korean text for allergies, your hotel, and essential medical information as a screenshot.
