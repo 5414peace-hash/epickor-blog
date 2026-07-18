@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="900" viewBox="0 0 1400 900" role="img" aria-labelledby="title desc">
+  <title id="title">Korean concert crowd behavior map</title>
+  <desc id="desc">A concert-culture map explaining ttechang, fan chants, light sticks, and noraebang habits.</desc>
+  <rect width="1400" height="900" fill="#111827"/>
+  <circle cx="260" cy="180" r="90" fill="#a78bfa" opacity=".75"/>
+  <circle cx="1120" cy="210" r="120" fill="#38bdf8" opacity=".65"/>
+  <circle cx="700" cy="760" r="190" fill="#f472b6" opacity=".35"/>
+  <rect x="90" y="90" width="1220" height="720" rx="54" fill="#ffffff" opacity=".96"/>
+  <text x="150" y="175" font-family="Arial, Helvetica, sans-serif" font-size="54" font-weight="800" fill="#312e81">When the crowd becomes sound</text>
+  <text x="150" y="224" font-family="Arial, Helvetica, sans-serif" font-size="26" fill="#4338ca">Korean concerts mix preparation, memory, and permission.</text>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <rect x="160" y="320" width="500" height="138" rx="28" fill="#ede9fe"/>
+    <text x="200" y="378" font-size="34" font-weight="800" fill="#5b21b6">Ttechang</text>
+    <text x="200" y="420" font-size="23" fill="#4c1d95">Mass sing-along when the room knows the song</text>
+    <rect x="740" y="320" width="500" height="138" rx="28" fill="#e0f2fe"/>
+    <text x="780" y="378" font-size="34" font-weight="800" fill="#075985">Fan chants</text>
+    <text x="780" y="420" font-size="23" fill="#0c4a6e">Prepared responses at exact beats</text>
+    <rect x="160" y="535" width="500" height="138" rx="28" fill="#fce7f3"/>
+    <text x="200" y="593" font-size="34" font-weight="800" fill="#9d174d">Light sticks</text>
+    <text x="200" y="635" font-size="23" fill="#831843">Visual fandom identity and coordination</text>
+    <rect x="740" y="535" width="500" height="138" rx="28" fill="#fef3c7"/>
+    <text x="780" y="593" font-size="34" font-weight="800" fill="#92400e">Noraebang</text>
+    <text x="780" y="635" font-size="23" fill="#78350f">Private-room singing makes participation familiar</text>
+  </g>
+  <text x="150" y="755" font-family="Arial, Helvetica, sans-serif" font-size="24" fill="#4338ca">EpicKor rule: sing when invited; listen when the moment asks for it.</text>
+</svg>

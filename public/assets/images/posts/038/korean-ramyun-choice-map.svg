@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="900" viewBox="0 0 1400 900" role="img" aria-labelledby="title desc">
+  <title id="title">Korean ramyun choice map</title>
+  <desc id="desc">A colorful editorial map of Korean ramyun types including spicy soup, Buldak, Chapaghetti, and kimchi ramyun.</desc>
+  <rect width="1400" height="900" fill="#fff7ed"/>
+  <rect x="90" y="80" width="1220" height="740" rx="54" fill="#ffffff" stroke="#ef4444" stroke-width="6"/>
+  <text x="150" y="165" font-family="Arial, Helvetica, sans-serif" font-size="54" font-weight="800" fill="#991b1b">Korean ramyun lanes</text>
+  <text x="150" y="215" font-family="Arial, Helvetica, sans-serif" font-size="26" fill="#7f1d1d">Pick by broth, heat, sauce style, and comfort level.</text>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <rect x="160" y="310" width="500" height="145" rx="28" fill="#fee2e2"/>
+    <text x="200" y="366" font-size="34" font-weight="800" fill="#991b1b">Spicy soup</text>
+    <text x="200" y="408" font-size="24" fill="#7f1d1d">Shin-style broth and toppings</text>
+    <rect x="740" y="310" width="500" height="145" rx="28" fill="#ffedd5"/>
+    <text x="780" y="366" font-size="34" font-weight="800" fill="#9a3412">Buldak</text>
+    <text x="780" y="408" font-size="24" fill="#7c2d12">Drain, sauce, chew, heat</text>
+    <rect x="160" y="535" width="500" height="145" rx="28" fill="#fef3c7"/>
+    <text x="200" y="591" font-size="34" font-weight="800" fill="#92400e">Chapaghetti</text>
+    <text x="200" y="633" font-size="24" fill="#78350f">Jjajang comfort, less chili</text>
+    <rect x="740" y="535" width="500" height="145" rx="28" fill="#dcfce7"/>
+    <text x="780" y="591" font-size="34" font-weight="800" fill="#166534">Kimchi & stew</text>
+    <text x="780" y="633" font-size="24" fill="#14532d">Sour, spicy, broth-heavy</text>
+  </g>
+  <text x="150" y="760" font-family="Arial, Helvetica, sans-serif" font-size="24" fill="#991b1b">EpicKor rule: buy one classic, one spicy-stir-fry, one non-red option first.</text>
+</svg>

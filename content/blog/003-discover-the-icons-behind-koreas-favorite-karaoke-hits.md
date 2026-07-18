@@ -73,6 +73,8 @@ For a group, K-pop is great when everyone knows the hook. Songs by major groups 
 
 The safest K-pop choices are songs with a recognizable chorus, not too much dead space, and a part the whole group can shout together. A noraebang is not a concert audition. It is a social rhythm.
 
+For how those shared hooks scale up inside venues, read EpicKor's [Korean concert sing-alongs and fan chants guide](/blog/061).
+
 For related fan culture, EpicKor's [K-pop photocard guide](/blog/291) explains another side of how Korean music becomes a hands-on social hobby.
 
 ## The Remote Control Problem

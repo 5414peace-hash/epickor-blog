@@ -111,6 +111,8 @@ Food can be flexible. Convenience-store meals, gimbap shops, cafeteria-style res
 
 Laundry, transport, SIM/eSIM, cafe work sessions, shipping, luggage storage, umbrellas, skincare, and small household items also add up. Seoul makes spending easy because each purchase feels small. Track the first week carefully. If your first seven days already feel expensive, adjust before the month turns into four expensive weeks.
 
+If the stay makes you curious about why cost and work pressure feel so heavy for many locals, EpicKor's [Hell Joseon and N-po guide](/blog/049) gives the social context without flattening a whole generation.
+
 <div class="affiliate-inline-cta">
   <p><strong>For Seoul weather swings:</strong> A compact umbrella is one of the few items that helps in rain, sun, and surprise long walks. Compare <a href="https://www.amazon.com/s?k=compact+travel+umbrella&amp;tag=epickor2026-20" target="_blank" rel="nofollow sponsored noopener noreferrer">compact travel umbrellas</a> before packing for a month in Korea.</p>
 </div>
