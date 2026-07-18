@@ -1,36 +1,33 @@
 # SEO + AEO Content Audit
 
-Generated: 2026-07-18T03:55:31.195Z
+Generated: 2026-07-18T04:14:52.598Z
 
 ## Overall Snapshot
 - Total posts: 273
-- Average SEO/AEO score: 94/100
-- Average word count: 1929
+- Average SEO/AEO score: 95/100
+- Average word count: 1948
 - Average title length: 62
 - Average description length: 138
-- Stale posts (>180 days): 26
+- Stale posts (>180 days): 23
 
 ## Priority Breakdown
 - Critical: 0
 - High: 0
-- Medium: 23
-- Low: 250
+- Medium: 20
+- Low: 253
 
 ## Top Issue Frequency
-- title-length-out-of-range: 92 posts (34%)
-- stale-content: 26 posts (10%)
-- low-internal-linking: 24 posts (9%)
-- thin-content: 22 posts (8%)
-- missing-faq-section: 21 posts (8%)
+- title-length-out-of-range: 89 posts (33%)
+- low-internal-linking: 25 posts (9%)
+- stale-content: 23 posts (8%)
+- thin-content: 19 posts (7%)
+- missing-faq-section: 18 posts (7%)
 - description-length-out-of-range: 3 posts (1%)
 - missing-description: 2 posts (1%)
 
 ## Rewrite Priority Queue (Top 25)
 | slug | score | priority | words | h2 | internal_links | affiliate_links | issues |
 |---|---:|---|---:|---:|---:|---:|---|
-| 029 | 69 | medium | 375 | 6 | 3 | 0 | title-length-out-of-range, thin-content, missing-faq-section, stale-content |
-| 032 | 69 | medium | 378 | 6 | 4 | 0 | title-length-out-of-range, thin-content, missing-faq-section, stale-content |
-| 027 | 70 | medium | 390 | 6 | 3 | 0 | title-length-out-of-range, thin-content, missing-faq-section, stale-content |
 | 028 | 70 | medium | 384 | 6 | 3 | 0 | title-length-out-of-range, thin-content, missing-faq-section, stale-content |
 | 034 | 70 | medium | 400 | 6 | 4 | 0 | title-length-out-of-range, thin-content, missing-faq-section, stale-content |
 | 040 | 70 | medium | 414 | 6 | 4 | 0 | title-length-out-of-range, thin-content, missing-faq-section, stale-content |
@@ -53,6 +50,9 @@ Generated: 2026-07-18T03:55:31.195Z
 | 011 | 75 | medium | 525 | 6 | 0 | 0 | thin-content, missing-faq-section, low-internal-linking, stale-content |
 | 190 | 80 | low | 2321 | 14 | 2 | 0 | title-length-out-of-range, description-length-out-of-range |
 | 192 | 80 | low | 1824 | 17 | 3 | 0 | title-length-out-of-range, description-length-out-of-range |
+| 143 | 82 | low | 1959 | 10 | 1 | 0 | title-length-out-of-range, low-internal-linking |
+| 184 | 82 | low | 1788 | 7 | 1 | 0 | title-length-out-of-range, low-internal-linking |
+| 185 | 82 | low | 1750 | 6 | 1 | 0 | title-length-out-of-range, low-internal-linking |
 
 ## Targets
 - Title length: 45-65

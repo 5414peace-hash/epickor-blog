@@ -41,7 +41,7 @@ The old image is not entirely false. It is just incomplete. Some companies remai
 
 Palli-palli means "quickly, quickly." It is not just impatience. Korea rebuilt rapidly after war, industrialized at extraordinary speed, urbanized fast, and built a service culture where quick delivery, quick repair, quick response, and quick adaptation became competitive advantages. That history still shapes daily expectations.
 
-You see it in food delivery, subway transfers, same-day services, office messaging, construction timelines, and the way people move through Seoul stations. Speed can be impressive. It can also become a pressure system where every request feels urgent, every reply must be immediate, and rest looks like weakness.
+You see it in food delivery, subway transfers, same-day services, office messaging, construction timelines, and the way people move through Seoul stations. It also appears in small workday rituals such as the fast post-lunch cafe run; EpicKor's [iced Americano guide](/blog/027) explains why that cold coffee cup became such a visible office-and-commute signal. Speed can be impressive. It can also become a pressure system where every request feels urgent, every reply must be immediate, and rest looks like weakness.
 
 The useful way to read palli-palli is not "Koreans are impatient." It is "Korean systems often reward responsiveness." If you work with Korean teams, quick acknowledgment can matter even when the final answer takes longer. A short "I received this and will check" may prevent the silence from feeling disrespectful.
 

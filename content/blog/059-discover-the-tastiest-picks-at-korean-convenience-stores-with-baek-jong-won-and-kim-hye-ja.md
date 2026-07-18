@@ -22,7 +22,7 @@ This guide explains how to read Korean convenience store food, what those celebr
 
 ## Quick Answer: What Should You Eat at Korean Convenience Stores?
 
-Start with food that convenience stores do especially well: dosirak lunch boxes, triangle gimbap, gimbap rolls, cup ramen, refrigerated rice bowls, sandwiches, boiled eggs, protein drinks, banana milk, coffee, seasonal desserts, and packaged Korean snacks. If the ramen shelf is what caught your eye first, EpicKor's [Korean ramyeon bag-vs-cup guide](/blog/093) helps you choose between cup noodles, bag noodles, and Hangang machine ramyeon. If you see a Baek Jong-won product at CU or a Kim Hye-ja-style value lunch box at GS25, understand it as a trust signal, not a guarantee that every item is perfect.
+Start with food that convenience stores do especially well: dosirak lunch boxes, triangle gimbap, gimbap rolls, cup ramen, refrigerated rice bowls, sandwiches, boiled eggs, protein drinks, banana milk, coffee, seasonal desserts, and packaged Korean snacks. If the snack shelf is what catches your eye first, EpicKor's [Korean snacks guide](/blog/029) explains what to buy, taste, and pack, while the [Viyott yogurt guide](/blog/032) covers the refrigerated dessert tourists often notice. If the ramen shelf is what caught your eye first, EpicKor's [Korean ramyeon bag-vs-cup guide](/blog/093) helps you choose between cup noodles, bag noodles, and Hangang machine ramyeon. If you see a Baek Jong-won product at CU or a Kim Hye-ja-style value lunch box at GS25, understand it as a trust signal, not a guarantee that every item is perfect.
 
 For a first traveler basket, choose:
 
