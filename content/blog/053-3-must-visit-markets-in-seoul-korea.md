@@ -36,7 +36,7 @@ Gwangjang is the most accessible answer for a traveler asking for one classic Se
 
 The central food zone can feel tourist-oriented, while the fabric sections reveal why the market existed long before travel videos. Walk beyond the first crowded stall to see businesses serving working customers.
 
-For food, order one or two items first. Bindaetteok is a crisp mung-bean pancake; mayak gimbap is a small rice roll served with mustard sauce; yukhoe is raw seasoned beef and should only be chosen if raw meat suits your health and comfort level. Knife-cut noodles, dumplings and tteokbokki offer alternatives. Prices and menus vary by stall, so read the displayed board before sitting.
+For food, order one or two items first. Bindaetteok is a crisp mung-bean pancake; mayak gimbap is a small rice roll served with mustard sauce; yukhoe is raw seasoned beef and should only be chosen if raw meat suits your health and comfort level. Knife-cut noodles, dumplings and tteokbokki offer alternatives. Prices and menus vary by stall, so read the displayed board before sitting. If a seafood-market stop tempts you toward moving octopus, read EpicKor's [san-nakji safety and etiquette guide](/blog/034) before treating it as a challenge.
 
 ![Prepared side dishes at a Seoul market stall with Korean labels](/assets/images/posts/053/seoul-market-food-display.jpg)
 

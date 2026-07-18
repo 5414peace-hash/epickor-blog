@@ -71,7 +71,7 @@ Bong Joon-ho is often discussed through one line: the "one-inch barrier" of subt
 
 KOFIC's Korean Film Biz Zone records <em>Parasite</em> as a Cannes Palme d'Or film and an Academy Award winner, including Best Picture, Best Director, Best Original Screenplay, and Best International Feature Film. Those awards mattered because they changed the perceived ceiling for Korean-language cinema. A subtitled Korean film was not only a niche festival success; it became part of the global mainstream conversation.
 
-Bong's films also explain why Korean pop culture often mixes tones. Comedy, horror, family drama, social critique, and violence may sit close together. Overseas viewers sometimes ask why a Korean film can feel funny and devastating within the same hour. That tonal flexibility is one of its strengths. It reflects a storytelling culture comfortable with social contradiction.
+Bong's films also explain why Korean pop culture often mixes tones. Comedy, horror, family drama, social critique, and violence may sit close together. Overseas viewers sometimes ask why a Korean film can feel funny and devastating within the same hour. That tonal flexibility is one of its strengths. It reflects a storytelling culture comfortable with social contradiction. For a broader starting map beyond Bong, EpicKor's [Korean cinema guide](/blog/040) explains iconic films, famous lines, and why context matters more than memorizing quotes.
 
 If BTS shows Korea's fan network, Bong shows Korea's narrative confidence. The lesson for readers is simple: do not watch Korean films only for plot twists. Watch the homes, jobs, meals, school pressures, debt, slang, and public spaces around the story.
 
