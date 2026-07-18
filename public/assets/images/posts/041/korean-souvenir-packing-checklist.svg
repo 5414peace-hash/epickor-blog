@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" role="img" aria-labelledby="title desc">
+  <title id="title">Korean souvenir packing checklist</title>
+  <desc id="desc">A checklist for packing Korean souvenirs: weight, liquids, customs, fragile goods, and receipts.</desc>
+  <rect width="1200" height="800" fill="#fefce8"/>
+  <rect x="130" y="100" width="940" height="600" rx="34" fill="#fff" stroke="#fde68a" stroke-width="7"/>
+  <g font-family="Inter, Arial, sans-serif">
+    <text x="180" y="180" fill="#854d0e" font-size="48" font-weight="850">SOUVENIR PACKING CHECK</text>
+    <g transform="translate(190 255)" font-size="27" font-weight="800">
+      <circle cx="26" cy="26" r="23" fill="#22c55e"/><text x="70" y="36" fill="#365314">Weight: is it worth the space?</text>
+      <circle cx="26" cy="116" r="23" fill="#38bdf8"/><text x="70" y="126" fill="#075985">Liquids: seal and follow flight rules.</text>
+      <circle cx="26" cy="206" r="23" fill="#f97316"/><text x="70" y="216" fill="#7c2d12">Customs: food, alcohol, herbs, plants.</text>
+      <circle cx="26" cy="296" r="23" fill="#a855f7"/><text x="70" y="306" fill="#581c87">Fragile: glass, ceramics, boxed gifts.</text>
+      <circle cx="26" cy="386" r="23" fill="#ef4444"/><text x="70" y="396" fill="#7f1d1d">Receipts: keep proof for higher-value items.</text>
+    </g>
+    <text x="180" y="660" fill="#a16207" font-size="18" font-weight="700">EPICKOR.COM</text>
+  </g>
+</svg>

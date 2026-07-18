@@ -14,6 +14,8 @@ author: "EpicKor"
 
 This guide is written for travelers who want a practical snack map, not a random ranking. It explains why Turtle Chips became globally recognizable, why the Honey Butter Chip moment still matters, how convenience stores test new flavors, which snacks travel well, and how to avoid buying bulky items that melt, crush, or disappoint. For more food context, pair it with EpicKor's [Korean convenience-store food guide](/blog/059), [Korean breakfast guide](/blog/302), [Carbo Buldak guide](/blog/048), and [Buldak business deep dive](/business/samyang-foods-buldak-global-deep-dive).
 
+If snacks are only one part of your gift list, EpicKor's [Korean souvenir guide](/blog/041) helps you balance food, beauty, crafts, alcohol, luggage weight, and customs rules.
+
 ![Korean snack shelf with chips and sweet-salty snack options.](/assets/images/posts/029/fdd29860-8135-412c-a2b4-8551e90675d0.png)
 
 ## The Short Answer

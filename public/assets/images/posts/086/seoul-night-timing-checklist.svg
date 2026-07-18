@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" role="img" aria-labelledby="title desc">
+  <title id="title">Seoul night timing checklist</title>
+  <desc id="desc">A checklist for Seoul night travel: last train, taxi fallback, phone battery, and weather.</desc>
+  <rect width="1200" height="800" fill="#0b1220"/>
+  <rect x="110" y="90" width="980" height="620" rx="36" fill="#f8fafc"/>
+  <g font-family="Inter, Arial, sans-serif">
+    <text x="165" y="170" fill="#0f172a" font-size="48" font-weight="850">BEFORE A SEOUL NIGHT OUT</text>
+    <text x="168" y="212" fill="#475569" font-size="24">Four checks prevent most late-night friction.</text>
+    <g transform="translate(170 285)" font-size="28">
+      <rect width="860" height="82" rx="18" fill="#dbeafe"/><text x="34" y="53" fill="#1e3a8a" font-weight="800">✓ Last train route back</text>
+      <rect y="108" width="860" height="82" rx="18" fill="#dcfce7"/><text x="34" y="161" fill="#14532d" font-weight="800">✓ Taxi fallback and hotel address</text>
+      <rect y="216" width="860" height="82" rx="18" fill="#fef3c7"/><text x="34" y="269" fill="#78350f" font-weight="800">✓ Battery for maps, payment, translation</text>
+      <rect y="324" width="860" height="82" rx="18" fill="#fae8ff"/><text x="34" y="377" fill="#701a75" font-weight="800">✓ Weather, wind, and river temperature</text>
+    </g>
+    <text x="165" y="660" fill="#64748b" font-size="18" font-weight="700">EPICKOR.COM</text>
+  </g>
+</svg>

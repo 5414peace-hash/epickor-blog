@@ -49,6 +49,8 @@ K-ETA rules are separate from the arrival card. Some nationalities have temporar
 
 Once you land, make the first 72 hours boring on purpose. Get your SIM/eSIM working, load a transit card, save your accommodation address in Korean and English, withdraw or exchange a small amount of cash, and test the route from your room to the nearest subway station, convenience store, pharmacy, and laundry option. A month in Seoul becomes easier when the basics are solved before the fun begins. If you are only testing the city for one intense day, EpicKor's [24-hour Seoul guide](/blog/017) gives a compact route through morning, afternoon, evening, and late-night transit.
 
+If your month includes late walks, Hangang evenings, markets, or after-dinner cafes, use EpicKor's [Seoul night guide](/blog/086) to plan one anchor area instead of crossing the city too late.
+
 EpicKor's [Korea eSIM guide](/blog/205), [Korea payment setup guide](/blog/201), and [Google Maps vs Naver/Kakao guide](/blog/222) will help you avoid the most common arrival friction.
 
 <div class="affiliate-inline-cta">

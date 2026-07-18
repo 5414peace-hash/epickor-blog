@@ -141,6 +141,8 @@ The real score is the room's reaction. Did people join the chorus? Did the shy f
 
 That is why noraebang survives. It converts awkward energy into shared memory.
 
+For the smaller everyday version of those visible reactions, EpicKor's [Korean laugh-clap guide](/blog/014) explains why clapping, cheering, and body language can signal support without becoming a rule to copy blindly.
+
 ## Food, Drinks, and Practical Details
 
 Rules vary by venue. Some rooms sell drinks and snacks. Some allow outside food. Some do not. Some are family-friendly in daylight and party-heavy late at night. Some coin noraebang rooms are extremely compact and designed for quick use.

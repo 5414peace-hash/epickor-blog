@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" role="img" aria-labelledby="title desc">
+  <title id="title">Korean laughter context map</title>
+  <desc id="desc">A stylized EpicKor map explaining laugh-clapping as amusement, support, television reaction, and close-friend energy.</desc>
+  <rect width="1200" height="800" fill="#0f172a"/>
+  <circle cx="600" cy="400" r="170" fill="#f97316"/>
+  <circle cx="545" cy="360" r="18" fill="#111827"/>
+  <circle cx="655" cy="360" r="18" fill="#111827"/>
+  <path d="M510 430 Q600 505 690 430" fill="none" stroke="#111827" stroke-width="22" stroke-linecap="round"/>
+  <g fill="none" stroke="#fde68a" stroke-width="12" stroke-linecap="round">
+    <path d="M382 236 L318 185"/><path d="M420 205 L392 130"/><path d="M782 236 L846 185"/><path d="M745 205 L775 130"/>
+    <path d="M382 565 L318 620"/><path d="M420 595 L392 670"/><path d="M782 565 L846 620"/><path d="M745 595 L775 670"/>
+  </g>
+  <g font-family="Inter, Arial, sans-serif">
+    <text x="86" y="115" fill="#ffffff" font-size="52" font-weight="850">WHY THE LAUGH-CLAP WORKS</text>
+    <text x="90" y="160" fill="#cbd5e1" font-size="24">It is context, reaction, and relationship — not a rule.</text>
+    <g transform="translate(95 230)">
+      <rect width="260" height="112" rx="22" fill="#1e293b" stroke="#38bdf8" stroke-width="4"/>
+      <text x="24" y="44" fill="#e0f2fe" font-size="26" font-weight="800">AMUSEMENT</text>
+      <text x="24" y="78" fill="#bae6fd" font-size="19">“That joke landed.”</text>
+    </g>
+    <g transform="translate(845 230)">
+      <rect width="260" height="112" rx="22" fill="#1e293b" stroke="#a7f3d0" stroke-width="4"/>
+      <text x="24" y="44" fill="#dcfce7" font-size="26" font-weight="800">SUPPORT</text>
+      <text x="24" y="78" fill="#bbf7d0" font-size="19">“I am with you.”</text>
+    </g>
+    <g transform="translate(95 500)">
+      <rect width="260" height="112" rx="22" fill="#1e293b" stroke="#fbcfe8" stroke-width="4"/>
+      <text x="24" y="44" fill="#fce7f3" font-size="26" font-weight="800">TV RHYTHM</text>
+      <text x="24" y="78" fill="#fbcfe8" font-size="19">Readable reactions.</text>
+    </g>
+    <g transform="translate(845 500)">
+      <rect width="260" height="112" rx="22" fill="#1e293b" stroke="#fed7aa" stroke-width="4"/>
+      <text x="24" y="44" fill="#ffedd5" font-size="26" font-weight="800">CLOSENESS</text>
+      <text x="24" y="78" fill="#fed7aa" font-size="19">Only when welcome.</text>
+    </g>
+    <text x="90" y="730" fill="#94a3b8" font-size="18" font-weight="700">EPICKOR.COM</text>
+  </g>
+</svg>
