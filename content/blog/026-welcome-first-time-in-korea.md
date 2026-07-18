@@ -132,7 +132,7 @@ Comfortable shoes matter because Seoul combines station corridors, slopes, and p
 
 Call **112** for police and **119** for fire or ambulance. The Korea Tourism Organization advises callers who do not speak Korean to say “English please” or “Interpreter please.” Save your current address or a nearby building name because location information speeds assistance.
 
-For non-life-threatening tourist information and interpretation, contact the **1330 Korea Travel Helpline**. VISITKOREA lists phone and chat options and multiple supported languages. The government-backed Emergency Ready and Baro Emergency Reporting apps can provide multilingual safety information, but app functions can change; an app does not replace 112 or 119 during immediate danger.
+For non-life-threatening tourist information and interpretation, contact the **1330 Korea Travel Helpline**. VISITKOREA lists phone and chat options and multiple supported languages. The government-backed Emergency Ready and Baro Emergency Reporting apps can provide multilingual safety information, but app functions can change; an app does not replace 112 or 119 during immediate danger. If security headlines make the trip feel confusing, EpicKor's [Korean War armistice and daily-life guide](/blog/033) explains the difference between normal Seoul travel and the peninsula's unresolved armistice structure.
 
 Travel insurance should cover the activities you plan and provide an assistance number you can call from Korea. Carry essential medication in original packaging with a prescription or doctor's letter when appropriate, and verify controlled-drug import requirements in advance.
 

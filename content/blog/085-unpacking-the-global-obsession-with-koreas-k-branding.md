@@ -55,7 +55,7 @@ So the K-prefix is modern, but it borrows weight from deeper identity. That is w
 
 ## How Hallyu Turns Attention Into Products
 
-Hallyu works because it rarely stays in one lane. A drama creates an actor crush. The actor wears a coat, eats a food, uses a neighborhood, or appears in an ad. The viewer searches the place, the song, the snack, the skincare, the phrase, or the filming location. Social platforms then turn that curiosity into lists, hauls, subtitles, edits, memes, reviews, and travel plans.
+Hallyu works because it rarely stays in one lane. A drama creates an actor crush. The actor wears a coat, eats a food, uses a neighborhood, or appears in an ad. The viewer searches the place, the song, the snack, the skincare, the phrase, or the filming location. Social platforms then turn that curiosity into lists, hauls, subtitles, edits, memes, reviews, and travel plans. For the platform-specific version of this loop, EpicKor's [Korean celebrity Instagram ranking guide](/blog/031) explains how followers become fashion, fandom, and brand power.
 
 That is why K-branding feels unusually connected. The same person can watch a drama, buy Korean ramen, learn basic Hangeul, save a Seoul cafe, compare sunscreen, and plan a trip. The emotional bridge is not always rational, but the behavior is real.
 
