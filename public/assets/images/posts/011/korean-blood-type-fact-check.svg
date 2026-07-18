@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" role="img" aria-labelledby="title desc">
+  <title id="title">Korean blood type personality fact check</title>
+  <desc id="desc">A fact-check style EpicKor graphic separating Korean blood type culture, science, dating talk, and MBTI.</desc>
+  <rect width="1200" height="800" fill="#111827"/>
+  <g font-family="Inter, Arial, sans-serif">
+    <text x="95" y="125" fill="#fff" font-size="54" font-weight="850">BLOOD TYPE FACT CHECK</text>
+    <text x="98" y="170" fill="#cbd5e1" font-size="24">Useful as culture. Not useful as proof.</text>
+    <g transform="translate(120 245)">
+      <rect width="460" height="140" rx="28" fill="#dcfce7"/>
+      <text x="35" y="55" fill="#14532d" font-size="30" font-weight="850">CULTURE</text>
+      <text x="35" y="96" fill="#166534" font-size="22">A familiar Korean small-talk script.</text>
+    </g>
+    <g transform="translate(620 245)">
+      <rect width="460" height="140" rx="28" fill="#fee2e2"/>
+      <text x="35" y="55" fill="#991b1b" font-size="30" font-weight="850">SCIENCE</text>
+      <text x="35" y="96" fill="#b91c1c" font-size="22">Large studies do not support it.</text>
+    </g>
+    <g transform="translate(120 445)">
+      <rect width="460" height="140" rx="28" fill="#dbeafe"/>
+      <text x="35" y="55" fill="#1e3a8a" font-size="30" font-weight="850">DATING TALK</text>
+      <text x="35" y="96" fill="#1d4ed8" font-size="22">Playful only; avoid serious judgment.</text>
+    </g>
+    <g transform="translate(620 445)">
+      <rect width="460" height="140" rx="28" fill="#fef3c7"/>
+      <text x="35" y="55" fill="#92400e" font-size="30" font-weight="850">MBTI</text>
+      <text x="35" y="96" fill="#a16207" font-size="22">The newer personality shorthand.</text>
+    </g>
+    <text x="95" y="700" fill="#94a3b8" font-size="18" font-weight="700">EPICKOR.COM</text>
+  </g>
+</svg>

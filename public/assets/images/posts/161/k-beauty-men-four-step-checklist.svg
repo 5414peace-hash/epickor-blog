@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" role="img" aria-labelledby="title desc">
+  <title id="title">K-beauty for men four-step checklist</title>
+  <desc id="desc">Checklist for men's K-beauty: gentle cleanser, shave care, moisturizer, and broad-spectrum sunscreen.</desc>
+  <rect width="1200" height="800" fill="#0f172a"/>
+  <rect x="130" y="100" width="940" height="600" rx="34" fill="#f8fafc"/>
+  <g font-family="Inter, Arial, sans-serif">
+    <text x="180" y="180" fill="#0f172a" font-size="48" font-weight="850">FOUR STEPS ARE ENOUGH</text>
+    <g transform="translate(195 260)" font-size="29" font-weight="800">
+      <rect width="805" height="74" rx="18" fill="#cffafe"/><text x="32" y="48" fill="#155e75">1. Cleanse without stripping</text>
+      <rect y="100" width="805" height="74" rx="18" fill="#dcfce7"/><text x="32" y="148" fill="#166534">2. Shave with less irritation</text>
+      <rect y="200" width="805" height="74" rx="18" fill="#dbeafe"/><text x="32" y="248" fill="#1e3a8a">3. Moisturize while skin is damp</text>
+      <rect y="300" width="805" height="74" rx="18" fill="#fef3c7"/><text x="32" y="348" fill="#92400e">4. Use sunscreen consistently</text>
+    </g>
+    <text x="180" y="670" fill="#64748b" font-size="18" font-weight="700">EPICKOR.COM</text>
+  </g>
+</svg>
