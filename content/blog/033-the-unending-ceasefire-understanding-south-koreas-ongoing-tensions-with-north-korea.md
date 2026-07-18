@@ -110,6 +110,7 @@ For travelers, respecting that complexity matters. Do not tell Koreans they shou
 
 - [Welcome, First Time in Korea](/blog/026) - emergency numbers, arrival setup, and practical first-trip safety.
 - [Korea Tourist Cheat Codes](/blog/084) - route planning by travel style, not panic or checklist pressure.
+- [How to Avoid Conflict in Korea](/blog/035) - useful if security, history, or national-identity topics come up in conversation.
 - [Top Jobs in Korea](/blog/039) - helpful background on conscription-adjacent social expectations and work culture.
 - [Suwon and Hwaseong Fortress Guide](/blog/064) - a calmer way to understand Korean history through place.
 
