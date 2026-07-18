@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="900" viewBox="0 0 1400 900" role="img" aria-labelledby="title desc">
+  <title id="title">Korea jangma rainy season timeline</title>
+  <desc id="desc">A travel planning timeline for Korea's rainy season from late June to late July, with central, southern, and Jeju notes.</desc>
+  <rect width="1400" height="900" fill="#eef6ff"/>
+  <rect x="90" y="88" width="1220" height="724" rx="52" fill="#ffffff" stroke="#60a5fa" stroke-width="6"/>
+  <text x="150" y="175" font-family="Arial, Helvetica, sans-serif" font-size="54" font-weight="800" fill="#1e3a8a">Jangma planning window</text>
+  <text x="150" y="226" font-family="Arial, Helvetica, sans-serif" font-size="26" fill="#1d4ed8">KMA normals point to late June through late July, but exact dates change each year.</text>
+  <line x1="210" y1="430" x2="1190" y2="430" stroke="#2563eb" stroke-width="12" stroke-linecap="round"/>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <circle cx="270" cy="430" r="22" fill="#1d4ed8"/>
+    <text x="220" y="505" font-size="27" font-weight="800" fill="#1e3a8a">Jun 19</text>
+    <text x="190" y="540" font-size="22" fill="#1d4ed8">Jeju normal start</text>
+    <circle cx="410" cy="430" r="22" fill="#0284c7"/>
+    <text x="360" y="355" font-size="27" font-weight="800" fill="#075985">Jun 23</text>
+    <text x="316" y="390" font-size="22" fill="#0369a1">Southern start</text>
+    <circle cx="500" cy="430" r="22" fill="#0f766e"/>
+    <text x="450" y="505" font-size="27" font-weight="800" fill="#115e59">Jun 25</text>
+    <text x="410" y="540" font-size="22" fill="#0f766e">Central start</text>
+    <circle cx="960" cy="430" r="22" fill="#7c3aed"/>
+    <text x="915" y="355" font-size="27" font-weight="800" fill="#5b21b6">Jul 20</text>
+    <text x="884" y="390" font-size="22" fill="#6d28d9">Jeju normal end</text>
+    <circle cx="1060" cy="430" r="22" fill="#9333ea"/>
+    <text x="1014" y="505" font-size="27" font-weight="800" fill="#6b21a8">Jul 24</text>
+    <text x="970" y="540" font-size="22" fill="#7e22ce">Southern end</text>
+    <circle cx="1130" cy="430" r="22" fill="#be123c"/>
+    <text x="1084" y="355" font-size="27" font-weight="800" fill="#9f1239">Jul 26</text>
+    <text x="1048" y="390" font-size="22" fill="#be123c">Central end</text>
+  </g>
+  <rect x="180" y="630" width="1040" height="92" rx="28" fill="#dbeafe"/>
+  <text x="220" y="687" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700" fill="#1e40af">Travel rule: pack for rain even if only one outdoor day looks risky.</text>
+</svg>

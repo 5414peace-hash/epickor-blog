@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="900" viewBox="0 0 1400 900" role="img" aria-labelledby="title desc">
+  <title id="title">Seoul rainy day packing map</title>
+  <desc id="desc">A practical packing map for Seoul rainy days: umbrella, phone pouch, grip shoes, tissues, and indoor backup route.</desc>
+  <rect width="1400" height="900" fill="#f0f9ff"/>
+  <rect x="96" y="82" width="1208" height="736" rx="52" fill="#ffffff" stroke="#38bdf8" stroke-width="6"/>
+  <text x="152" y="168" font-family="Arial, Helvetica, sans-serif" font-size="54" font-weight="800" fill="#075985">Rain kit that actually travels</text>
+  <text x="152" y="218" font-family="Arial, Helvetica, sans-serif" font-size="26" fill="#0369a1">The best umbrella is the one small enough to carry before the storm.</text>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <rect x="160" y="300" width="320" height="150" rx="30" fill="#e0f2fe"/>
+    <text x="200" y="360" font-size="34" font-weight="800" fill="#075985">Umbrella</text>
+    <text x="200" y="402" font-size="23" fill="#0c4a6e">Compact, sturdy, sleeve</text>
+    <rect x="540" y="300" width="320" height="150" rx="30" fill="#dcfce7"/>
+    <text x="580" y="360" font-size="34" font-weight="800" fill="#166534">Phone pouch</text>
+    <text x="580" y="402" font-size="23" fill="#14532d">Maps, payment, translation</text>
+    <rect x="920" y="300" width="320" height="150" rx="30" fill="#fef3c7"/>
+    <text x="960" y="360" font-size="34" font-weight="800" fill="#92400e">Grip shoes</text>
+    <text x="960" y="402" font-size="23" fill="#78350f">Subway stairs and stone</text>
+    <rect x="160" y="530" width="320" height="150" rx="30" fill="#fae8ff"/>
+    <text x="200" y="590" font-size="34" font-weight="800" fill="#86198f">Tissues</text>
+    <text x="200" y="632" font-size="23" fill="#701a75">Hands, seats, wet bags</text>
+    <rect x="540" y="530" width="320" height="150" rx="30" fill="#ffe4e6"/>
+    <text x="580" y="590" font-size="34" font-weight="800" fill="#9f1239">Dry layer</text>
+    <text x="580" y="632" font-size="23" fill="#881337">Cafe AC after rain</text>
+    <rect x="920" y="530" width="320" height="150" rx="30" fill="#ede9fe"/>
+    <text x="960" y="590" font-size="34" font-weight="800" fill="#5b21b6">Plan B</text>
+    <text x="960" y="632" font-size="23" fill="#4c1d95">Bookstore, mall, museum</text>
+  </g>
+  <text x="152" y="760" font-family="Arial, Helvetica, sans-serif" font-size="24" fill="#0369a1">EpicKor note: rain changes routes, not the whole trip.</text>
+</svg>

@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="900" viewBox="0 0 1400 900" role="img" aria-labelledby="title desc">
+  <title id="title">Korean hangover drink label check</title>
+  <desc id="desc">A cautious guide graphic showing how to read hangover drink labels without treating them as cures.</desc>
+  <rect width="1400" height="900" fill="#f8fafc"/>
+  <rect x="92" y="78" width="1216" height="744" rx="54" fill="#ffffff" stroke="#64748b" stroke-width="5"/>
+  <text x="150" y="165" font-family="Arial, Helvetica, sans-serif" font-size="52" font-weight="800" fill="#0f172a">Before you trust the bottle</text>
+  <text x="150" y="214" font-family="Arial, Helvetica, sans-serif" font-size="26" fill="#475569">Korean hangover drinks are common culture, not magic.</text>
+  <g transform="translate(170 295)">
+    <rect x="0" y="0" width="300" height="420" rx="70" fill="#bfdbfe" stroke="#2563eb" stroke-width="6"/>
+    <rect x="66" y="56" width="168" height="62" rx="20" fill="#ffffff"/>
+    <text x="92" y="96" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="800" fill="#1d4ed8">LABEL</text>
+    <rect x="60" y="160" width="180" height="140" rx="24" fill="#eff6ff"/>
+    <text x="83" y="218" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="800" fill="#1e3a8a">Check</text>
+    <text x="80" y="254" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#1e40af">claims first</text>
+  </g>
+  <g font-family="Arial, Helvetica, sans-serif" font-size="28" fill="#0f172a">
+    <rect x="560" y="300" width="620" height="82" rx="24" fill="#e0f2fe"/>
+    <text x="600" y="353">1. Is the claim specific and substantiated?</text>
+    <rect x="560" y="410" width="620" height="82" rx="24" fill="#dcfce7"/>
+    <text x="600" y="463">2. Does it contain caffeine or lots of sugar?</text>
+    <rect x="560" y="520" width="620" height="82" rx="24" fill="#fef3c7"/>
+    <text x="600" y="573">3. Are you using it as permission to drink more?</text>
+    <rect x="560" y="630" width="620" height="82" rx="24" fill="#fee2e2"/>
+    <text x="600" y="683">4. If you feel unsafe, get help — not another bottle.</text>
+  </g>
+  <text x="150" y="775" font-family="Arial, Helvetica, sans-serif" font-size="24" fill="#475569">Best prevention still starts with pacing, food, water, rest, and skipping extra rounds.</text>
+</svg>
