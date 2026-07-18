@@ -50,6 +50,12 @@ These were mostly newer posts with one supporting map/logo/decision SVG alongsid
 - `npm.cmd run audit:amazon-links` - pass.
 - `git diff --check` - pass, CRLF warnings only.
 - `npm.cmd run build` - pass, 363 static pages.
+- Implementation commit `018bc818` is on `origin/master`.
+- Vercel deployment `dpl_BbJ8AA46eukBsFTXdKSBPKhJGtj6` (`https://epickor-blog-f6gwinvh3-yhs-projects-5de403d3.vercel.app`) is Ready and aliased to `www.epickor.com`.
+- Public QA passed for representative pages `261`, `268`, `276`, `283`, `287`, and `305`.
+  - New raster image markers are present in the public HTML.
+  - Removed SVG markers are absent from the public HTML.
+  - Representative replacement image assets return HTTP 200.
 
 ## Follow-up discovered
 
