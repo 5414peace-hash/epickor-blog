@@ -35,8 +35,9 @@
 
 ## Current Status
 
-- Local implementation and validation are complete.
-- Commit, push, Vercel deployment, and public URL QA remain next.
+- Implementation commit `485c9a23` is on `origin/master`.
+- Vercel production deployment `https://epickor-blog-eh1cqyzm5-yhs-projects-5de403d3.vercel.app` is Ready.
+- Public QA passed for all nine pages on `www.epickor.com` plus sitemap entries.
 
 ## Next Queue After This Batch
 
