@@ -399,7 +399,9 @@
         "Hallyu"
       ],
       "amazon_category": "Shopping",
-      "status": "pending"
+      "status": "done",
+      "generated_slug": "306",
+      "generated_date": "2026-07-18"
     },
     {
       "id": 20,
@@ -2735,8 +2737,19 @@
       "status": "done",
       "generated_slug": "305",
       "generated_date": "2026-07-17"
+    },
+    {
+      "id": 128,
+      "title": "Seoul Kids Cafe Guide 2026: Public Play Spaces, Hangang Weekends, and Family Travel",
+      "keywords": ["Seoul kids cafe", "Seoul with kids", "Seoul family travel", "Hangang kids cafe", "Seoul indoor playground"],
+      "category": "Travel",
+      "tags": ["SeoulFamilyTravel", "KidsCafe", "SeoulWithKids", "Hangang", "KoreaTravel"],
+      "amazon_category": "Travel",
+      "status": "done",
+      "generated_slug": "307",
+      "generated_date": "2026-07-18"
     }
   ],
-  "last_updated": "2026-07-17",
-  "next_slug": 306
+  "last_updated": "2026-07-18",
+  "next_slug": 308
 }
