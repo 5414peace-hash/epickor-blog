@@ -1,10 +1,10 @@
 {
   "summary": {
-    "generatedAt": "2026-07-18T15:12:34.710Z",
-    "auditedPosts": 286,
-    "includedPrivate": true,
+    "generatedAt": "2026-07-19T11:04:29.839Z",
+    "auditedPosts": 288,
+    "includedPrivate": false,
     "slugFilter": "",
-    "bodyImages": 1040,
+    "bodyImages": 1046,
     "affectedPosts": 118,
     "critical": 0,
     "high": 0,
@@ -5999,38 +5999,6 @@
     },
     {
       "type": "blog",
-      "slug": "161",
-      "title": "K-Beauty for Men: Simple Korean Grooming Routine",
-      "contentPath": "content\\blog\\161.md",
-      "sourceRecord": "public\\assets\\images\\posts\\161\\image-sources.md",
-      "imageCount": 3,
-      "images": [
-        {
-          "url": "/assets/images/posts/161/mens-skincare-moisturizer.jpg",
-          "alt": "A man applying moisturizer as part of a simple daily skincare routine",
-          "caption": "A useful Korean skincare routine starts with repeatable basics, not a crowded shelf. Photo by Ron Lach on Pexels.",
-          "ext": ".jpg",
-          "exists": true
-        },
-        {
-          "url": "/assets/images/posts/161/mens-face-cleansing.jpg",
-          "alt": "A man drying his face gently after cleansing",
-          "caption": "Pat the face dry after cleansing instead of rubbing irritated or freshly shaved skin. Photo by Ron Lach on Pexels.",
-          "ext": ".jpg",
-          "exists": true
-        },
-        {
-          "url": "/assets/images/posts/161/mens-skincare-mask.jpg",
-          "alt": "A man applying a facial mask in a bathroom",
-          "caption": "Masks and extra treatments come after the cleanser-moisturizer-sunscreen foundation is working. Photo by Ron Lach on Pexels.",
-          "ext": ".jpg",
-          "exists": true
-        }
-      ],
-      "findings": []
-    },
-    {
-      "type": "blog",
       "slug": "162",
       "title": "Korean Red Ginseng Guide: Benefits, Safety, and Buying Tips",
       "contentPath": "content\\blog\\162.md",
@@ -11477,6 +11445,102 @@
           "url": "/assets/images/posts/307/seoul-kids-cafe-mok3-play-zone.jpg",
           "alt": "A padded climbing slope and ball pit at the Seoul Kids Cafe Mok 3-dong branch in Yangcheon-gu.",
           "caption": "The Mok 3-dong branch combines padded climbing surfaces, rollers, and a ball pit in one contained play zone. Photo: Seoul Metropolitan Government MediaHub.",
+          "ext": ".jpg",
+          "exists": true
+        }
+      ],
+      "findings": []
+    },
+    {
+      "type": "blog",
+      "slug": "308",
+      "title": "Why Korean Fans Are Angry at Hong Myung-bo and the KFA",
+      "contentPath": "content\\blog\\308.md",
+      "sourceRecord": "public\\assets\\images\\posts\\308\\image-sources.md",
+      "imageCount": 3,
+      "images": [
+        {
+          "url": "/assets/images/posts/308/hong-myung-bo-portrait.jpg",
+          "alt": "Hong Myung-bo at a Korea Sports Personality Award ceremony in 2013.",
+          "caption": "Hong Myung-bo at a Korea Sports Personality Award ceremony in 2013. This is an archival portrait, not a photograph from the 2026 World Cup or the current protests. Photo: Korea.net / Korean Culture and Information Service, via Wikimedia Commons.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/308/korea-football-fans-red-shirts.jpg",
+          "alt": "Korean football supporters in red shirts cheering the national team in 2006.",
+          "caption": "Korean supporters cheer the national football team in red shirts in 2006. The image documents Korea's long-standing street-cheering culture; it does not show the 2026 airport protest. Photo: gypsycrystal, CC BY 2.0, via Wikimedia Commons.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/308/korea-national-team-farewell-2018.jpg",
+          "alt": "South Korea's national team receives applause at its 2018 World Cup farewell ceremony in Seoul Plaza.",
+          "caption": "The South Korean national team receives applause at its May 21, 2018 World Cup farewell ceremony in Seoul Plaza. The photograph illustrates the public bond around the team, not the 2026 squad. Photo: Korea.net, Korea Open Government License Type 1, via Wikimedia Commons.",
+          "ext": ".jpg",
+          "exists": true
+        }
+      ],
+      "findings": []
+    },
+    {
+      "type": "blog",
+      "slug": "309",
+      "title": "Korea's Data Breach Crisis: From Coupang to TVING",
+      "contentPath": "content\\blog\\309.md",
+      "sourceRecord": "public\\assets\\images\\posts\\309\\image-sources.md",
+      "imageCount": 3,
+      "images": [
+        {
+          "url": "/assets/images/posts/309/coupang-delivery-truck-seoul.jpg",
+          "alt": "A Coupang delivery truck photographed in Seoul in 2017.",
+          "caption": "A Coupang delivery truck in Seoul in 2017. The archival street photograph identifies the company but does not depict the 2025 breach itself. Photo: Bonnielou2013, CC BY-SA 4.0, via Wikimedia Commons.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/309/tving-data-breach-notice.png",
+          "alt": "TVING's official personal-data leak lookup page, captured on July 19, 2026.",
+          "caption": "TVING's official “personal information leak history lookup” page, captured on July 19, 2026. The page apologizes and offers account holders an individualized check after login. Source: TVING.",
+          "ext": ".png",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/309/pipc-coupang-decision.png",
+          "alt": "The Korean government's June 11 briefing page for the PIPC decision on Coupang.",
+          "caption": "The Korean government's official June 11 briefing page for the PIPC meeting that decided the Coupang case, captured July 19, 2026. The embedded briefing shows PIPC Chair Song Kyung-hee announcing the decision. Source: Korea Policy Briefing.",
+          "ext": ".png",
+          "exists": true
+        }
+      ],
+      "findings": []
+    },
+    {
+      "type": "blog",
+      "slug": "310",
+      "title": "Korea's National MCs: Yoo Jae-suk, Kang Ho-dong & Shin Dong-yup",
+      "contentPath": "content\\blog\\310.md",
+      "sourceRecord": "public\\assets\\images\\posts\\310\\image-sources.md",
+      "imageCount": 3,
+      "images": [
+        {
+          "url": "/assets/images/posts/310/yoo-jae-suk-2026.jpg",
+          "alt": "Yoo Jae-suk photographed in 2026 during filming for Yoo Jae-suk Camp.",
+          "caption": "Yoo Jae-suk during filming for the Netflix variety show “Yoo Jae-suk Camp” on May 19, 2026. Photo: Korea.net / Korean Culture and Information Service, CC BY-SA, via Wikimedia Commons.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/310/kang-ho-dong-2016.jpg",
+          "alt": "Kang Ho-dong at the press conference for One Meal Takes Two in 2016.",
+          "caption": "Kang Ho-dong at the 2016 press conference for JTBC's “One Meal Takes Two.” The image captures the physical, playful performance style central to his television persona. Photo: TV10, CC BY 3.0, via Wikimedia Commons.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/310/shin-dong-yup-2019.jpg",
+          "alt": "Shin Dong-yup at the 55th Baeksang Arts Awards red carpet in 2019.",
+          "caption": "Shin Dong-yup at the 55th Baeksang Arts Awards red carpet in May 2019. Awards hosting is one of the many formats in which his fast timing and broadcast control are valued. Photo derived from a CC BY 3.0 video, via Wikimedia Commons.",
           "ext": ".jpg",
           "exists": true
         }

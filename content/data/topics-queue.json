@@ -2748,8 +2748,41 @@
       "status": "done",
       "generated_slug": "307",
       "generated_date": "2026-07-18"
+    },
+    {
+      "id": 129,
+      "title": "Why Korean Football Fans Are Angry: Hong Myung-bo, the KFA Crisis, and What Happens Next",
+      "keywords": ["Hong Myung-bo", "KFA controversy", "South Korea World Cup 2026", "Korean football fans", "KFA reform"],
+      "category": "Culture",
+      "tags": ["KoreanFootball", "HongMyungbo", "KFA", "WorldCup2026", "KoreaIssues"],
+      "amazon_category": "Books",
+      "status": "done",
+      "generated_slug": "308",
+      "generated_date": "2026-07-19"
+    },
+    {
+      "id": 130,
+      "title": "Korea's Data Breach Crisis: From Coupang to TVING",
+      "keywords": ["Korea data breach", "Coupang data breach", "TVING data leak", "Korea privacy law", "personal information Korea"],
+      "category": "Culture",
+      "tags": ["KoreaPrivacy", "DataBreach", "Coupang", "TVING", "KoreaIssues"],
+      "amazon_category": "Electronics",
+      "status": "done",
+      "generated_slug": "309",
+      "generated_date": "2026-07-19"
+    },
+    {
+      "id": 131,
+      "title": "Korea's National MCs: Yoo Jae-suk, Kang Ho-dong, and Shin Dong-yup",
+      "keywords": ["Korean National MC", "Yoo Jae-suk", "Kang Ho-dong", "Shin Dong-yup", "Korean variety show hosts"],
+      "category": "Culture",
+      "tags": ["KoreanVariety", "YooJaesuk", "KangHodong", "ShinDongyup", "KoreanTV"],
+      "amazon_category": "Books",
+      "status": "done",
+      "generated_slug": "310",
+      "generated_date": "2026-07-19"
     }
   ],
-  "last_updated": "2026-07-18",
-  "next_slug": 308
+  "last_updated": "2026-07-19",
+  "next_slug": 311
 }
