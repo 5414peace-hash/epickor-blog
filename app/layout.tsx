@@ -4,6 +4,7 @@ import Link from 'next/link';
 import AnalyticsEvents from '@/components/AnalyticsEvents';
 import BackToTopButton from '@/components/BackToTopButton';
 import GoogleAnalytics from '@/components/GoogleAnalytics';
+import SocialLinks from '@/components/SocialLinks';
 import './globals.css';
 
 const inter = Inter({ subsets: ['latin'] });
@@ -48,6 +49,7 @@ export default function RootLayout({
               </span>
             </Link>
 
+            <div className="flex min-w-0 flex-1 items-center justify-end gap-2 sm:gap-3">
             <nav className="scrollbar-none flex min-w-0 items-center gap-3 overflow-x-auto whitespace-nowrap text-[13px] font-bold text-gray-700 sm:gap-5 md:text-sm">
               <Link href="/latest" className="hover:text-red-600">
                 Latest
@@ -74,9 +76,11 @@ export default function RootLayout({
                 Culture
               </Link>
               <Link href="/card-news" className="hover:text-red-500">
-                Instagram Guides
+                Card News
               </Link>
             </nav>
+            <SocialLinks placement="header" />
+            </div>
           </div>
         </header>
 
@@ -114,7 +118,7 @@ export default function RootLayout({
                   Beauty & lifestyle
                 </Link>
                 <Link href="/card-news" className="hover:text-gray-950">
-                  Instagram guides
+                  Card news
                 </Link>
               </div>
             </div>
@@ -133,22 +137,8 @@ export default function RootLayout({
 
             <div>
               <h2 className="font-black uppercase text-gray-950">Follow</h2>
-              <div className="mt-3 grid gap-2">
-                <Link href="/instagram" className="hover:text-gray-950">
-                  Instagram guide hub
-                </Link>
-                <Link href="/card-news" className="hover:text-gray-950">
-                  Card news archive
-                </Link>
-                <a
-                  href="https://www.instagram.com/epickorsnippets/reels/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="hover:text-gray-950"
-                >
-                  EpicKor Reels
-                </a>
-              </div>
+              <p className="mt-3 mb-3 text-xs leading-5 text-gray-500">Follow EpicKor on social.</p>
+              <SocialLinks placement="footer" />
             </div>
 
             <p className="border-t border-gray-200 pt-6 text-xs text-gray-500 md:col-span-4">

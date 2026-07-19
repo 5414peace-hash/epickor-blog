@@ -21,13 +21,13 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   }
 
   return {
-    title: `${item.topic} | EpicKor Instagram Guides`,
+    title: `${item.topic} | EpicKor Card News`,
     description: item.description,
     alternates: {
       canonical: `/card-news/${item.slug}`,
     },
     openGraph: {
-      title: `${item.topic} | EpicKor Instagram Guides`,
+      title: `${item.topic} | EpicKor Card News`,
       description: item.description,
       url: `https://www.epickor.com/card-news/${item.slug}`,
       images: [item.coverImage],

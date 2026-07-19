@@ -6,16 +6,16 @@ import { getAllCardNews, type CardNewsItem } from '@/lib/card-news';
 export const revalidate = 86400;
 
 export const metadata: Metadata = {
-  title: 'EpicKor Instagram Guides | Swipeable Korea Card News',
+  title: 'EpicKor Card News | Swipeable Korea Visual Guides',
   description:
-    'Browse EpicKor Instagram-style card news for Korea travel, food, shopping, culture, beauty, and lifestyle topics.',
+    'Browse EpicKor card news for Korea travel, food, shopping, culture, beauty, and lifestyle topics.',
   alternates: {
     canonical: '/card-news',
   },
   openGraph: {
-    title: 'EpicKor Instagram Guides | Swipeable Korea Card News',
+    title: 'EpicKor Card News | Swipeable Korea Visual Guides',
     description:
-      'Browse EpicKor Instagram-style card news for Korea travel, food, shopping, culture, beauty, and lifestyle topics.',
+      'Browse EpicKor card news for Korea travel, food, shopping, culture, beauty, and lifestyle topics.',
     url: 'https://www.epickor.com/card-news',
   },
 };
@@ -82,12 +82,12 @@ export default function CardNewsPage() {
       <section className="border-b border-gray-200 bg-gray-950 text-white">
         <div className="container mx-auto grid gap-8 px-4 py-8 md:py-10 lg:grid-cols-[minmax(0,1fr)_360px] lg:items-center">
           <div>
-            <p className="text-xs font-black uppercase text-red-300">EpicKor Instagram Guides</p>
+            <p className="text-xs font-black uppercase text-red-300">EpicKor Card News</p>
             <h1 className="mt-3 max-w-4xl font-serif text-4xl font-black leading-tight md:text-5xl">
               Swipeable Korea card news you can browse like a visual guide.
             </h1>
             <p className="mt-4 max-w-2xl text-sm leading-7 text-gray-200">
-              Each Instagram Guide is a short card-news story: quick enough to swipe, useful enough to save, and linked
+              Each edition is a short card-news story: quick enough to swipe, useful enough to save, and linked
               to the full EpicKor article when you want the deeper guide.
             </p>
             <div className="mt-6 grid max-w-xl grid-cols-3 gap-3 text-center">
@@ -119,7 +119,7 @@ export default function CardNewsPage() {
                   sizes="(max-width: 1024px) 100vw, 360px"
                 />
               </div>
-              <p className="mt-3 text-sm font-black text-red-200">Latest Instagram Guide -&gt;</p>
+              <p className="mt-3 text-sm font-black text-red-200">Latest Card News -&gt;</p>
             </Link>
           )}
         </div>
@@ -138,10 +138,10 @@ export default function CardNewsPage() {
 
         <div className="mb-5 flex flex-wrap items-end justify-between gap-3 border-b border-gray-200 pb-4">
           <div>
-            <h2 className="text-2xl font-black text-gray-950">All Instagram Guides</h2>
+            <h2 className="text-2xl font-black text-gray-950">All Card News</h2>
             <p className="mt-1 max-w-2xl text-sm leading-6 text-gray-600">
-              Browse every EpicKor card-news guide in one place. Open one to swipe through the cards, copy the Instagram
-              caption, or continue into the full article.
+              Browse every EpicKor card-news guide in one place. Open one to swipe through the cards, copy the prepared
+              social caption, or continue into the full article.
             </p>
           </div>
           <Link href="/latest" className="text-sm font-black text-red-700 hover:text-red-900">

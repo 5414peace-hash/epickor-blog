@@ -67,7 +67,7 @@ export default function CardNewsDetailExperience({ items, initialSlug }: CardNew
           </Link>
           <span>/</span>
           <Link href="/card-news" className="hover:text-red-700">
-            Instagram Guides
+            Card News
           </Link>
           <span>/</span>
           <span className="text-gray-950">{selectedItem.topic}</span>
@@ -95,7 +95,7 @@ export default function CardNewsDetailExperience({ items, initialSlug }: CardNew
           <section className="mt-10 border-t border-gray-200 pt-7">
             <div className="mb-5 flex flex-wrap items-end justify-between gap-3">
               <div>
-                <h2 className="text-xl font-black text-gray-950">More Instagram Guides</h2>
+                <h2 className="text-xl font-black text-gray-950">More Card News</h2>
                 <p className="mt-1 text-sm text-gray-600">Recent visual guides, kept compact for quick browsing.</p>
               </div>
               <Link
@@ -104,7 +104,7 @@ export default function CardNewsDetailExperience({ items, initialSlug }: CardNew
                 data-analytics-location="detail_more_header"
                 className="text-sm font-black text-red-700 hover:text-red-900"
               >
-                All Instagram Guides -&gt;
+                All Card News -&gt;
               </Link>
             </div>
             <div className="grid grid-cols-2 gap-3 sm:grid-cols-4 lg:grid-cols-8">

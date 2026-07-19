@@ -212,7 +212,7 @@ function PopularRail({ posts }: { posts: HomeArticle[] }) {
           <h2 className="text-sm font-black uppercase text-gray-950">Today In Korea</h2>
           <p className="mt-1 text-xs font-semibold text-gray-500">Popular from search</p>
         </div>
-        <Link href="/instagram" className="text-xs font-bold text-blue-700 hover:text-blue-900">
+        <Link href="/latest" className="text-xs font-bold text-blue-700 hover:text-blue-900">
           More
         </Link>
       </div>
@@ -328,14 +328,14 @@ function LatestPulse({ articles }: { articles: LatestArticle[] }) {
   );
 }
 
-function HomeInstagramGuides({ items }: { items: CardNewsItem[] }) {
+function HomeCardNews({ items }: { items: CardNewsItem[] }) {
   if (items.length === 0) return null;
 
   return (
     <section className="mt-6 border-b border-gray-200 bg-white pb-6">
       <div className="grid gap-4 lg:grid-cols-[190px_1fr_auto] lg:items-center">
         <div>
-          <p className="text-xs font-black uppercase text-red-600">Instagram Guides</p>
+          <p className="text-xs font-black uppercase text-red-600">Card News</p>
           <h2 className="mt-1 text-lg font-black leading-tight text-gray-950">Swipeable card news</h2>
           <p className="mt-1 text-xs leading-5 text-gray-600">Quick visual guides from EpicKor.</p>
         </div>
@@ -345,7 +345,7 @@ function HomeInstagramGuides({ items }: { items: CardNewsItem[] }) {
             <Link
               key={`${item.folder}-${item.slug}`}
               href={item.href}
-              data-analytics-event="home_instagram_guides_click"
+              data-analytics-event="home_card_news_click"
               data-analytics-slug={item.slug}
               data-analytics-title={item.topic}
               className="group grid w-[156px] shrink-0 grid-cols-[58px_1fr] gap-3 rounded-lg border border-gray-200 bg-[#fbfaf8] p-2.5 transition hover:border-red-200 hover:bg-white hover:shadow-sm"
@@ -353,7 +353,7 @@ function HomeInstagramGuides({ items }: { items: CardNewsItem[] }) {
               <div className="relative aspect-square overflow-hidden rounded-md bg-gray-950">
                 <Image
                   src={item.coverImage}
-                  alt={`${item.topic} Instagram guide cover`}
+                  alt={`${item.topic} card-news cover`}
                   fill
                   priority={index < 3}
                   className="object-cover transition duration-500 group-hover:scale-[1.04]"
@@ -372,10 +372,10 @@ function HomeInstagramGuides({ items }: { items: CardNewsItem[] }) {
 
         <Link
           href="/card-news"
-          data-analytics-event="home_instagram_guides_all_click"
+          data-analytics-event="home_card_news_all_click"
           className="inline-flex justify-center rounded-md border border-gray-300 bg-white px-4 py-2 text-sm font-black text-gray-950 hover:border-red-500 hover:text-red-700"
         >
-          All guides -&gt;
+          All Card News -&gt;
         </Link>
       </div>
     </section>
@@ -480,7 +480,7 @@ export default function Home() {
           ))}
         </section>
 
-        <HomeInstagramGuides items={cardNewsItems} />
+        <HomeCardNews items={cardNewsItems} />
 
         <section className="mt-8 grid gap-6 xl:grid-cols-[1fr_0.98fr]">
           <div className="rounded-lg border border-gray-200 bg-white p-5">
@@ -515,9 +515,17 @@ export default function Home() {
                 <h2 className="text-lg font-black uppercase text-gray-950">From Reels To Full Korea Guides</h2>
                 <p className="mt-1 text-sm text-gray-600">Short on social, deep on EpicKor.</p>
               </div>
-              <Link href="/instagram" className="text-sm font-black text-emerald-700 hover:text-emerald-900">
-                View all -&gt;
-              </Link>
+              <a
+                href="https://www.instagram.com/epickorsnippets/"
+                target="_blank"
+                rel="noopener noreferrer"
+                data-analytics-event="social_channel_click"
+                data-analytics-platform="instagram"
+                data-analytics-location="home_reels_section"
+                className="text-sm font-black text-emerald-700 hover:text-emerald-900"
+              >
+                Visit Instagram -&gt;
+              </a>
             </div>
             <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4 xl:grid-cols-4">
               {reelsArticles.map((article) => (

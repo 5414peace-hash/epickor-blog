@@ -50,7 +50,7 @@ function RailButton({
   return (
     <button
       type="button"
-      aria-label={direction === 'left' ? 'Previous Instagram guides' : 'Next Instagram guides'}
+      aria-label={direction === 'left' ? 'Previous card-news guides' : 'Next card-news guides'}
       onClick={onClick}
       data-analytics-event="cardnews_rail_scroll"
       data-analytics-direction={direction}
@@ -138,7 +138,7 @@ export default function CardNewsRail({ items, activeSlug, onSelect }: CardNewsRa
       <div className="mx-auto max-w-6xl px-4 py-5">
         <div className="mb-3 flex flex-wrap items-end justify-between gap-3">
           <div>
-            <p className="text-xs font-black uppercase text-red-600">Browse Instagram Guides</p>
+            <p className="text-xs font-black uppercase text-red-600">Browse Card News</p>
             <h2 className="text-xl font-black text-gray-950">Pick another visual guide</h2>
           </div>
           <Link
@@ -147,7 +147,7 @@ export default function CardNewsRail({ items, activeSlug, onSelect }: CardNewsRa
             data-analytics-location="detail_rail"
             className="text-sm font-black text-red-700 hover:text-red-900"
           >
-            All Instagram Guides -&gt;
+            All Card News -&gt;
           </Link>
         </div>
 
