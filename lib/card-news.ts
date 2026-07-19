@@ -83,12 +83,14 @@ function normalizeCaption(caption: string, topic: string, slug: string): string 
 function topicLabel(topic: string, blogPost?: BlogPostMetadata): string {
   const text = `${topic} ${(blogPost?.tags || []).join(' ')}`.toLowerCase();
 
+  if (/business|supplier|company|industry|export|market entry|commerce/.test(text)) return 'Business';
+  if (/beauty|skincare|sunscreen|olive young|makeup|lifestyle|hair|pet parent/.test(text)) {
+    return 'Beauty & Lifestyle';
+  }
   if (/food|shopping|market|bingsu|pantry|coffee|seaweed|snack|grocery|ramen|toast|daiso/.test(text)) {
     return 'Food & Shopping';
   }
   if (/airport|layover|seoul|travel|trip|itinerary|festival|packing/.test(text)) return 'Travel';
-  if (/beauty|skincare|sunscreen|olive young|makeup|lifestyle|hair/.test(text)) return 'Beauty & Lifestyle';
-  if (/business|supplier|company|industry|export|market entry/.test(text)) return 'Business';
   return 'Culture';
 }
 
