@@ -7,6 +7,7 @@ visibility: "public"
 publishAt: ""
 description: "A neutral, sourced timeline of South Korea's December 2024 martial law declaration, the Assembly vote, Yoon Suk Yeol's removal, and the 2025 election."
 tags: ['SouthKoreaPolitics', 'MartialLaw', 'Impeachment', 'KoreanDemocracy', 'Constitution']
+category: "Issues"
 cleanUrl: ""
 ogImage: "/assets/images/posts/076/national-assembly-december-4.jpg"
 author: "EpicKor"

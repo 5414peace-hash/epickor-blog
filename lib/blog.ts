@@ -29,6 +29,7 @@ export interface BlogPost {
   title: string;
   date: string;
   updatedAt?: string;
+  category?: string;
   description: string;
   ogImage: string;
   tags: string[];
@@ -41,6 +42,7 @@ export interface BlogPostMetadata {
   title: string;
   date: string;
   updatedAt?: string;
+  category?: string;
   description: string;
   ogImage: string;
   tags: string[];
@@ -266,6 +268,7 @@ export function getAllBlogPosts(now: Date = new Date()): BlogPostMetadata[] {
           title: (frontmatter.title as string) || '',
           date: (frontmatter.date as string) || '',
           updatedAt: (frontmatter.updatedAt as string) || undefined,
+          category: (frontmatter.category as string) || undefined,
           description: (frontmatter.description as string) || '',
           ogImage,
           tags: (frontmatter.tags as string[]) || [],
@@ -359,6 +362,7 @@ export async function getBlogPost(slug: string, now: Date = new Date()): Promise
       title: (frontmatter.title as string) || '',
       date: (frontmatter.date as string) || '',
       updatedAt: (frontmatter.updatedAt as string) || undefined,
+      category: (frontmatter.category as string) || undefined,
       description: (frontmatter.description as string) || '',
       ogImage: resolveOgImage(frontmatter.ogImage, content),
       tags: (frontmatter.tags as string[]) || [],
@@ -460,6 +464,7 @@ export async function getBlogPostForPreview(slug: string): Promise<BlogPost | nu
       title: (frontmatter.title as string) || '',
       date: (frontmatter.date as string) || '',
       updatedAt: (frontmatter.updatedAt as string) || undefined,
+      category: (frontmatter.category as string) || undefined,
       description: (frontmatter.description as string) || '',
       ogImage: resolveOgImage(frontmatter.ogImage, content),
       tags: (frontmatter.tags as string[]) || [],

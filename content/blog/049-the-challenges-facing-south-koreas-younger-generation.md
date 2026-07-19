@@ -5,6 +5,7 @@ date: "2024-07-29"
 updatedAt: "2026-07-17"
 description: "What Hell Joseon and N-po mean, and how work, housing, education costs, gender roles, fertility, and choice shape Korea's youth debate."
 tags: ["Culture", "Society", "Economy", "KoreaYouth"]
+category: "Issues"
 ogImage: "/assets/images/posts/049/705fd1b7-c97a-4cc7-ae53-520392feaf31.png"
 ---
 

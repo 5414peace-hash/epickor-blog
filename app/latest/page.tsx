@@ -36,6 +36,7 @@ function trimText(value: string, maxLength: number): string {
 }
 
 function labelClass(label: string): string {
+  if (label === 'Issues') return 'bg-red-700 text-white';
   if (label === 'Business') return 'bg-emerald-700 text-white';
   if (label === 'Politics') return 'bg-gray-950 text-white';
   if (label === 'Trend') return 'bg-red-600 text-white';
@@ -67,7 +68,12 @@ function LatestImage({
     );
   }
 
-  const fitClass = article.image.toLowerCase().endsWith('.svg') ? 'object-contain p-5' : 'object-cover';
+  const normalizedImage = article.image.toLowerCase();
+  const fitClass = normalizedImage.endsWith('.svg')
+    ? 'object-contain p-5'
+    : normalizedImage.includes('korea-national-mcs-hero')
+      ? 'object-contain'
+      : 'object-cover';
 
   return (
     <div className={`${positionClass} ${className} overflow-hidden bg-gray-100`}>
@@ -83,12 +89,12 @@ function LatestImage({
   );
 }
 
-function FeaturedLatestCard({ article }: { article: LatestArticle }) {
+function LeadLatestCard({ article, priority = false }: { article: LatestArticle; priority?: boolean }) {
   return (
     <Link href={article.href} className="group block h-full">
-      <article className="grid h-full overflow-hidden rounded-lg border border-gray-200 bg-white shadow-sm md:grid-cols-[0.92fr_1.08fr]">
-        <LatestImage article={article} className="min-h-72" sizes="(max-width: 768px) 100vw, 45vw" priority />
-        <div className="flex flex-col justify-center p-6 md:p-8">
+      <article className="flex h-full flex-col overflow-hidden rounded-lg border border-gray-200 bg-white shadow-sm transition hover:-translate-y-0.5 hover:border-gray-300 hover:shadow-md">
+        <LatestImage article={article} className="aspect-[16/9] w-full" sizes="(max-width: 1024px) 100vw, 33vw" priority={priority} />
+        <div className="flex flex-1 flex-col p-5 md:p-6">
           <div className="flex flex-wrap items-center gap-2">
             <span className={`rounded-md px-2.5 py-1 text-xs font-black uppercase ${labelClass(article.label)}`}>
               {article.label}
@@ -97,11 +103,11 @@ function FeaturedLatestCard({ article }: { article: LatestArticle }) {
               {formatDate(article.date)}
             </time>
           </div>
-          <h2 className="mt-4 font-serif text-3xl font-black leading-tight text-gray-950 group-hover:text-red-700 md:text-4xl">
+          <h2 className="mt-4 font-serif text-2xl font-black leading-tight text-gray-950 group-hover:text-red-700">
             {article.title}
           </h2>
-          <p className="mt-4 text-sm leading-7 text-gray-600">{article.description}</p>
-          <span className="mt-6 text-sm font-black text-red-700">Read latest -&gt;</span>
+          <p className="mt-3 text-sm leading-6 text-gray-600 line-clamp-3">{article.description}</p>
+          <span className="mt-auto pt-5 text-sm font-black text-red-700">Read article -&gt;</span>
         </div>
       </article>
     </Link>
@@ -139,8 +145,8 @@ export default function LatestPage() {
   const latestDate = featured?.date;
   const businessCount = articles.filter((article) => article.source === 'business').length;
   const labels = Array.from(new Set(articles.slice(0, 24).map((article) => article.label)));
-  const leadRailArticles = articles.slice(1, 7);
-  const mainRecentArticles = articles.slice(7, 24);
+  const leadArticles = articles.slice(0, 3);
+  const mainRecentArticles = articles.slice(3, 24);
   const moreArticles = articles.slice(24);
 
   return (
@@ -188,11 +194,17 @@ export default function LatestPage() {
 
       <main className="container mx-auto px-4 py-8">
         {featured && (
-          <section className="grid gap-6 lg:grid-cols-[minmax(0,1.15fr)_0.85fr]">
-            <FeaturedLatestCard article={featured} />
-            <div className="grid gap-4">
-              {leadRailArticles.map((article) => (
-                <LatestFeedCard key={article.href} article={article} />
+          <section aria-labelledby="latest-lead-heading">
+            <div className="mb-5 flex items-end justify-between gap-3 border-b border-gray-200 pb-4">
+              <div>
+                <p className="text-xs font-black uppercase text-red-600">Just published</p>
+                <h2 id="latest-lead-heading" className="mt-1 text-2xl font-black text-gray-950">Latest stories</h2>
+              </div>
+              <p className="hidden text-sm text-gray-500 sm:block">The three newest EpicKor reads</p>
+            </div>
+            <div className="grid gap-5 lg:grid-cols-3">
+              {leadArticles.map((article, index) => (
+                <LeadLatestCard key={article.href} article={article} priority={index < 3} />
               ))}
             </div>
           </section>

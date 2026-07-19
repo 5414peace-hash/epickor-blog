@@ -71,11 +71,9 @@ function IssueCard({ article, priority = false }: { article: LatestArticle; prio
 }
 
 export default function IssuesPage() {
-  const latest = getLatestArticles(60);
-  const issueArticles = latest.filter((article) =>
-    ['Politics', 'Trend', 'Business', 'Education'].includes(article.label)
-  );
-  const visibleArticles = (issueArticles.length > 0 ? issueArticles : latest).slice(0, 15);
+  const visibleArticles = getLatestArticles()
+    .filter((article) => article.label === 'Issues')
+    .slice(0, 15);
 
   return (
     <div className="min-h-screen bg-white text-gray-950">
@@ -86,8 +84,9 @@ export default function IssuesPage() {
             Timely Korea issues, explained with context and a clear date.
           </h1>
           <p className="mt-4 max-w-2xl text-sm leading-7 text-gray-600">
-            This is the home for substantial, date-anchored EpicKor reads on Korean public issues, business moves,
-            political context, culture shifts, and trends worth understanding before the facts move again.
+            This section contains only posts explicitly classified as Issues: date-anchored public controversies,
+            policy changes, political developments, labor disputes, and social debates. Business Desk profiles and
+            evergreen culture or travel guides stay in their own sections.
           </p>
         </div>
       </section>
@@ -97,7 +96,7 @@ export default function IssuesPage() {
           <div>
             <h2 className="text-2xl font-black text-gray-950">Latest Issue Reads</h2>
             <p className="mt-1 text-sm text-gray-600">
-              Timely Korea explainers with the background international readers need.
+              Explicitly selected issue explainers with the background international readers need.
             </p>
           </div>
           <Link href="/latest" className="text-sm font-black text-red-700 hover:text-red-900">

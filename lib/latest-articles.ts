@@ -23,6 +23,19 @@ function includesAny(value: string, patterns: string[]): boolean {
 }
 
 function getBlogLabel(post: BlogPostMetadata): string {
+  const explicitCategories: Record<string, string> = {
+    issues: 'Issues',
+    travel: 'Travel',
+    'food & shopping': 'Food & Shopping',
+    'beauty & lifestyle': 'Beauty & Lifestyle',
+    culture: 'Culture',
+  };
+  const explicitCategory = post.category?.trim().toLowerCase();
+
+  if (explicitCategory && explicitCategories[explicitCategory]) {
+    return explicitCategories[explicitCategory];
+  }
+
   const haystack = [post.title, post.description, ...post.tags].join(' ').toLowerCase();
 
   if (includesAny(haystack, ['politic', 'president', 'democraticparty', 'peoplepowerparty', 'election'])) {

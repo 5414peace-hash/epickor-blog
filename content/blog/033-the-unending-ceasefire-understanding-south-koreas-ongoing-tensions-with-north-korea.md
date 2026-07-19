@@ -7,6 +7,7 @@ visibility: "public"
 publishAt: ""
 description: "A careful guide to the Korean War Armistice, the DMZ, South Korea's calm under tension, travel safety context, and what visitors should know."
 tags: ['KoreanHistory', 'DMZ', 'KoreaTravelSafety', 'SouthKorea', 'ModernKorea']
+category: "Issues"
 cleanUrl: ""
 ogImage: "/assets/images/posts/033/b4e7bcc1-7922-403e-a696-dd2ecba15a34.png"
 author: "EpicKor"

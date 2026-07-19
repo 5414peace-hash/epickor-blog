@@ -65,6 +65,14 @@
 - Add `/business/` separated GSC/analytics reporting and a baseline snapshot before launch.
 - Add a weekly topic-candidate approval workflow; approved topics may proceed, unapproved topics must not be drafted.
 
+## Editorial Category Rules
+
+- Every new public blog post must declare one explicit frontmatter `category`: `Issues`, `Travel`, `Food & Shopping`, `Beauty & Lifestyle`, or `Culture`. Business-section posts remain under `/business/` and are labeled `Business` by route; do not duplicate them into `Issues` merely because they discuss a company or industry.
+- Use `Issues` only for date-anchored public controversies, policy or regulatory changes, politics, labor disputes, institutional failures, and significant social debates that require ongoing fact updates.
+- Use `Culture` for people, broadcasting, entertainment, customs, language, history, and social-life explainers when the post is not primarily a current public controversy.
+- The `/issues/` page must select posts from explicit `category: "Issues"` metadata. Do not infer issue membership from title, description, tags, or broad labels such as `Business`, `Trend`, `Politics`, or `Education`.
+- When an issue post becomes materially stale, update its facts and `updatedAt`, or remove the `Issues` category until it is current enough for the issue hub.
+
 ## Amazon Affiliate Placement Rules
 
 - Every new or meaningfully updated blog post should include Amazon affiliate opportunities unless the representative explicitly says to omit them.

@@ -7,6 +7,7 @@ visibility: "public"
 publishAt: ""
 description: "A neutral 2026 guide to Dongduk Women's University's coeducation dispute, the 2024 occupation, public deliberation, 2029 plan, and ongoing legal cases."
 tags: ['DongdukWomensUniversity', 'KoreanUniversities', 'Coeducation', 'StudentProtest', 'KoreanSociety']
+category: "Issues"
 cleanUrl: ""
 ogImage: "/assets/images/posts/077/dongduk-protest-entrance.jpg"
 author: "EpicKor"
