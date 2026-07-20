@@ -61,4 +61,4 @@ Instagram upload is representative-managed. As of 2026-07-02, the representative
 | `2026-07-12_287` | 287 | Korean BBQ Grill for Home | 7 | final confirmed + Seoul After Dark + caption ready | ready for representative scheduling |
 | `2026-07-15_musinsa` | musinsa | MUSINSA Business: Seoul Fashion Commerce | 7 | final approved + editorial system + caption ready | ready for representative scheduling |
 | `2026-07-15_124` | 124 | Korean Wedding Culture: The Modern K-Wedding Code | 7 | final approved + modern hanji system + caption ready | ready for representative scheduling |
-| `2026-07-15_174` | 174 | Seoul Subway Etiquette: The Quiet Signal System | 7 | final approved + transit signal system + caption ready | ready for representative scheduling |
+| `2026-07-15_174` | 174 | Seoul Subway Etiquette: The Quiet Signal System | 7 | final approved + transit signal system + caption ready | Instagram and YouTube Community scheduled for 2026-07-20 22:00 KST |

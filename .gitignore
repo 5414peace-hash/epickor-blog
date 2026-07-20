@@ -39,6 +39,7 @@ debug.log
 /.tmp/
 /.history/
 /history/
+/history reels/
 /.codex-deploy/
 /.claude/settings.local.json
 /epickor-agent-design-v2.md
