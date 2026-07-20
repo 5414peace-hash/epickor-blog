@@ -10,6 +10,7 @@ output/
 backup_20260203_100330/
 .history/
 history/
+history reels/
 .codex-deploy/
 .env*
 *.tsbuildinfo
