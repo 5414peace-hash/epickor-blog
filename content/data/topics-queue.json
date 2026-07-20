@@ -2708,9 +2708,20 @@
     {
       "id": 125,
       "title": "Korean Skincare Routine Order 2026: Toner, Essence, Ampoule, Mask, and SPF",
-      "keywords": ["Korean skincare routine order", "toner essence ampoule order", "Korean skincare steps", "when to use sheet mask"],
+      "keywords": [
+        "Korean skincare routine order",
+        "toner essence ampoule order",
+        "Korean skincare steps",
+        "when to use sheet mask"
+      ],
       "category": "Beauty",
-      "tags": ["KoreanSkincare", "KBeauty", "SkincareRoutine", "Toner", "Sunscreen"],
+      "tags": [
+        "KoreanSkincare",
+        "KBeauty",
+        "SkincareRoutine",
+        "Toner",
+        "Sunscreen"
+      ],
       "amazon_category": "Beauty",
       "status": "done",
       "generated_slug": "303",
@@ -2719,9 +2730,20 @@
     {
       "id": 126,
       "title": "Jeonju Day Trip from Seoul 2026: Hanok Village, Bibimbap, Nambu Market, and KTX",
-      "keywords": ["Jeonju day trip from Seoul", "Jeonju Hanok Village", "Seoul to Jeonju KTX", "Jeonju bibimbap"],
+      "keywords": [
+        "Jeonju day trip from Seoul",
+        "Jeonju Hanok Village",
+        "Seoul to Jeonju KTX",
+        "Jeonju bibimbap"
+      ],
       "category": "Travel",
-      "tags": ["Jeonju", "KoreaTravel", "HanokVillage", "KTX", "Bibimbap"],
+      "tags": [
+        "Jeonju",
+        "KoreaTravel",
+        "HanokVillage",
+        "KTX",
+        "Bibimbap"
+      ],
       "amazon_category": "Travel",
       "status": "done",
       "generated_slug": "304",
@@ -2730,9 +2752,20 @@
     {
       "id": 127,
       "title": "Bojagi Wrapping Guide 2026: Korean Fabric Gift Wrap, Knots, and What to Buy",
-      "keywords": ["bojagi wrapping", "Korean fabric gift wrap", "bojagi knot", "Korean wrapping cloth"],
+      "keywords": [
+        "bojagi wrapping",
+        "Korean fabric gift wrap",
+        "bojagi knot",
+        "Korean wrapping cloth"
+      ],
       "category": "Culture",
-      "tags": ["Bojagi", "KoreanCraft", "KoreanGift", "KoreanTextile", "KoreanCulture"],
+      "tags": [
+        "Bojagi",
+        "KoreanCraft",
+        "KoreanGift",
+        "KoreanTextile",
+        "KoreanCulture"
+      ],
       "amazon_category": "Gifts",
       "status": "done",
       "generated_slug": "305",
@@ -2741,9 +2774,21 @@
     {
       "id": 128,
       "title": "Seoul Kids Cafe Guide 2026: Public Play Spaces, Hangang Weekends, and Family Travel",
-      "keywords": ["Seoul kids cafe", "Seoul with kids", "Seoul family travel", "Hangang kids cafe", "Seoul indoor playground"],
+      "keywords": [
+        "Seoul kids cafe",
+        "Seoul with kids",
+        "Seoul family travel",
+        "Hangang kids cafe",
+        "Seoul indoor playground"
+      ],
       "category": "Travel",
-      "tags": ["SeoulFamilyTravel", "KidsCafe", "SeoulWithKids", "Hangang", "KoreaTravel"],
+      "tags": [
+        "SeoulFamilyTravel",
+        "KidsCafe",
+        "SeoulWithKids",
+        "Hangang",
+        "KoreaTravel"
+      ],
       "amazon_category": "Travel",
       "status": "done",
       "generated_slug": "307",
@@ -2752,9 +2797,21 @@
     {
       "id": 129,
       "title": "Why Korean Football Fans Are Angry: Hong Myung-bo, the KFA Crisis, and What Happens Next",
-      "keywords": ["Hong Myung-bo", "KFA controversy", "South Korea World Cup 2026", "Korean football fans", "KFA reform"],
+      "keywords": [
+        "Hong Myung-bo",
+        "KFA controversy",
+        "South Korea World Cup 2026",
+        "Korean football fans",
+        "KFA reform"
+      ],
       "category": "Issues",
-      "tags": ["KoreanFootball", "HongMyungbo", "KFA", "WorldCup2026", "KoreaIssues"],
+      "tags": [
+        "KoreanFootball",
+        "HongMyungbo",
+        "KFA",
+        "WorldCup2026",
+        "KoreaIssues"
+      ],
       "amazon_category": "Books",
       "status": "done",
       "generated_slug": "308",
@@ -2763,9 +2820,21 @@
     {
       "id": 130,
       "title": "Korea's Data Breach Crisis: From Coupang to TVING",
-      "keywords": ["Korea data breach", "Coupang data breach", "TVING data leak", "Korea privacy law", "personal information Korea"],
+      "keywords": [
+        "Korea data breach",
+        "Coupang data breach",
+        "TVING data leak",
+        "Korea privacy law",
+        "personal information Korea"
+      ],
       "category": "Issues",
-      "tags": ["KoreaPrivacy", "DataBreach", "Coupang", "TVING", "KoreaIssues"],
+      "tags": [
+        "KoreaPrivacy",
+        "DataBreach",
+        "Coupang",
+        "TVING",
+        "KoreaIssues"
+      ],
       "amazon_category": "Electronics",
       "status": "done",
       "generated_slug": "309",
@@ -2774,15 +2843,126 @@
     {
       "id": 131,
       "title": "Korea's National MCs: Yoo Jae-suk, Kang Ho-dong, and Shin Dong-yup",
-      "keywords": ["Korean National MC", "Yoo Jae-suk", "Kang Ho-dong", "Shin Dong-yup", "Korean variety show hosts"],
+      "keywords": [
+        "Korean National MC",
+        "Yoo Jae-suk",
+        "Kang Ho-dong",
+        "Shin Dong-yup",
+        "Korean variety show hosts"
+      ],
       "category": "Culture",
-      "tags": ["KoreanVariety", "YooJaesuk", "KangHodong", "ShinDongyup", "KoreanTV"],
+      "tags": [
+        "KoreanVariety",
+        "YooJaesuk",
+        "KangHodong",
+        "ShinDongyup",
+        "KoreanTV"
+      ],
       "amazon_category": "Books",
       "status": "done",
       "generated_slug": "310",
       "generated_date": "2026-07-19"
+    },
+    {
+      "id": 132,
+      "title": "Tteokbokki Guide 2026: Types, Spice Levels, and How to Order",
+      "keywords": [
+        "tteokbokki",
+        "what is tteokbokki",
+        "Korean rice cakes",
+        "rose tteokbokki",
+        "rabokki"
+      ],
+      "category": "Food",
+      "tags": [
+        "Tteokbokki",
+        "KoreanStreetFood",
+        "KoreanFood",
+        "Seoul",
+        "SpicyFood"
+      ],
+      "amazon_category": "Food",
+      "status": "done",
+      "planned_slug": "311",
+      "generated_slug": "311",
+      "generated_date": "2026-07-20",
+      "created_at": "2026-07-20",
+      "scheduled_for": null
+    },
+    {
+      "id": 133,
+      "title": "K-Beauty Ingredients Decoded 2026: Snail, Cica, Propolis, Rice",
+      "keywords": [
+        "Korean skincare ingredients",
+        "snail mucin",
+        "cica cream",
+        "propolis skincare",
+        "rice skincare"
+      ],
+      "category": "Beauty",
+      "tags": [
+        "KBeauty",
+        "KoreanSkincare",
+        "SkincareIngredients",
+        "SnailMucin",
+        "Cica"
+      ],
+      "amazon_category": "Beauty",
+      "status": "pending",
+      "planned_slug": "312",
+      "created_at": "2026-07-20",
+      "scheduled_for": null
+    },
+    {
+      "id": 134,
+      "title": "Seoul With Kids 2026: Family Travel and Itinerary Guide",
+      "keywords": [
+        "Seoul with kids",
+        "Korea family travel",
+        "Seoul family itinerary",
+        "Korea with children",
+        "Seoul kid friendly"
+      ],
+      "category": "Travel",
+      "tags": [
+        "SeoulWithKids",
+        "KoreaFamilyTravel",
+        "FamilyItinerary",
+        "Seoul",
+        "KoreaTravel"
+      ],
+      "amazon_category": "Travel",
+      "status": "pending",
+      "planned_slug": "313",
+      "created_at": "2026-07-20",
+      "scheduled_for": null
+    },
+    {
+      "id": 135,
+      "title": "Korean Health Supplement Suppliers 2026: Sourcing K-Supplements (Red Ginseng, Collagen, Inner Beauty)",
+      "keywords": [
+        "Korean health supplement suppliers",
+        "K-supplement sourcing",
+        "Korean red ginseng supplier",
+        "Korean collagen manufacturer",
+        "inner beauty supplement Korea"
+      ],
+      "category": "Business",
+      "tags": [
+        "KoreaBusiness",
+        "HealthSupplements",
+        "Sourcing",
+        "RedGinseng",
+        "Collagen"
+      ],
+      "amazon_category": "Books",
+      "business_type": "A",
+      "status": "pending",
+      "planned_slug": "korean-health-supplement-suppliers",
+      "created_at": "2026-07-20",
+      "scheduled_for": null
     }
   ],
-  "last_updated": "2026-07-19",
-  "next_slug": 311
+  "last_updated": "2026-07-20",
+  "next_slug": 312
 }
