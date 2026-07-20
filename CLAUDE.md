@@ -451,6 +451,7 @@ output/reels/{slug}/          Reels scene manifest, visual candidates, review no
 - 원본을 받을 때부터 과도하게 큰 소스(1920px, 800KB~1.2MB)를 피하고, 필요하면 최적화 후 크기를 확인해 한 번 더 줄인다.
 - 참고 실측(2026-07-20): Codex 발행분 306~310은 이미지당 평균 73~232KB(포스트당 220~728KB), Claude Code 발행분 311~313은 평균 240~339KB(포스트당 940~1,356KB)로 약 2배 무거웠다. 전부 400KB 게이트는 통과했지만 상한에 붙어 있었다.
 - 발행 전 `npm run audit:image-sizes`뿐 아니라 **포스트 폴더 합계**도 확인한다. 포스트당 이미지 총합 1MB 초과면 줄인다.
+- 주의: `npm run audit:image-context -- --slug {slug}`는 공용 리포트 `reports/image-context-audit.json`을 **단일 포스트 결과로 덮어쓴다.** 빠른 확인엔 `--slug`를 써도 되지만, 그 리포트를 커밋하기 전에는 반드시 `npm run audit:image-context`(전체)를 다시 돌려 사이트 전체 결과로 복구한다. 2026-07-20에 이 실수로 292개 포스트 리포트가 1개짜리로 축소된 커밋이 나갔고 다음 커밋에서 복구했다.
 
 ## 분량 기준
 
