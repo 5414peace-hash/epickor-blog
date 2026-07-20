@@ -62,3 +62,6 @@ Instagram upload is representative-managed. As of 2026-07-02, the representative
 | `2026-07-15_musinsa` | musinsa | MUSINSA Business: Seoul Fashion Commerce | 7 | final approved + editorial system + caption ready | ready for representative scheduling |
 | `2026-07-15_124` | 124 | Korean Wedding Culture: The Modern K-Wedding Code | 7 | final approved + modern hanji system + caption ready | ready for representative scheduling |
 | `2026-07-15_174` | 174 | Seoul Subway Etiquette: The Quiet Signal System | 7 | final approved + transit signal system + caption ready | Instagram and YouTube Community scheduled for 2026-07-20 22:00 KST |
+| `2026-07-20_311` | 311 | Tteokbokki: Six Styles, One Rice Cake | 7 | final + bunsik-red system + caption ready | ready for representative scheduling |
+| `2026-07-20_312` | 312 | K-Beauty Ingredients Decoded: Snail, Cica, Propolis, Rice | 7 | final + ingredient-decoder system + caption ready | ready for representative scheduling |
+| `2026-07-20_313` | 313 | Seoul With Kids: What Parents Get Wrong | 7 | final + family-seoul system + caption ready | ready for representative scheduling |
