@@ -429,6 +429,36 @@ output/reels/{slug}/          Reels scene manifest, visual candidates, review no
 
 ---
 
+## Deployment Operations (2026-07-20 확인된 실제 동작)
+
+이 항목들은 2026-07-20 배포 중 직접 확인한 사실이다. 추측이 아니라 실측이므로 다음 발행 때 그대로 따른다.
+
+- **git push만으로는 배포되지 않는다.** master에 push해도 Vercel 자동 배포가 트리거되지 않았다. 발행 후 반드시 수동으로 배포한다:
+  `npx vercel deploy --prod --archive=tgz --yes`
+- **`vercel` CLI는 배포 성공 후에도 프로세스가 종료되지 않는다.** CLI 종료를 기다리지 말 것. 성공 판정은 다음 두 가지로 한다:
+  1. `npx vercel ls epickor-blog --yes` 최상단 배포가 `● Ready`
+  2. 공개 URL이 HTTP 200
+  타임아웃/exit 1은 실패가 아닐 수 있으므로 반드시 위 두 가지로 재확인한다. 매달린 node 프로세스는 종료해도 배포에 영향 없다.
+- **대용량 폴더는 `.gitignore`와 `.vercelignore` 양쪽에 모두 넣어야 한다.** 2026-07-20에 `history reels/`(4.9GB 영상)가 `.vercelignore`에 없어서 배포마다 5GB를 아카이빙했다. node 메모리가 3.6GB까지 치솟고 20분 넘게 Vercel에 배포 등록조차 되지 않았다. `.tmp` 사고와 동일 유형이다.
+  - 주의: `history/` 패턴은 **`history reels/`를 매칭하지 못한다.** 공백이 들어간 폴더명은 별도 라인으로 정확히 적는다.
+  - 증상 체크리스트: 배포가 10분 넘게 `Deploying...`에서 멈춤 + node RAM 2GB 초과 + `vercel ls`에 새 배포 없음 → 즉시 중단하고 `.vercelignore` 누락부터 확인한다.
+  - repo 루트에 새 대용량 폴더(영상/원본 소스)를 만들면 그 자리에서 두 ignore 파일에 추가한다.
+
+## 이미지 용량 목표 (400KB는 상한이지 목표가 아니다)
+
+- `next.config.ts`에 `images.unoptimized: true`가 설정되어 있어 **원본 파일이 그대로 사용자에게 전송된다.** Next.js가 리사이즈해 주지 않는다.
+- 따라서 본문 이미지는 **150~250KB, 가로 1200~1600px를 실질 목표**로 한다. `optimize-blog-images.mjs`는 400KB 미만이 되면 압축을 멈추므로, 큰 원본을 받으면 397KB 같은 상한 근처 파일이 그대로 남는다.
+- 원본을 받을 때부터 과도하게 큰 소스(1920px, 800KB~1.2MB)를 피하고, 필요하면 최적화 후 크기를 확인해 한 번 더 줄인다.
+- 참고 실측(2026-07-20): Codex 발행분 306~310은 이미지당 평균 73~232KB(포스트당 220~728KB), Claude Code 발행분 311~313은 평균 240~339KB(포스트당 940~1,356KB)로 약 2배 무거웠다. 전부 400KB 게이트는 통과했지만 상한에 붙어 있었다.
+- 발행 전 `npm run audit:image-sizes`뿐 아니라 **포스트 폴더 합계**도 확인한다. 포스트당 이미지 총합 1MB 초과면 줄인다.
+
+## 분량 기준
+
+- 리뷰어 통과 최소치는 1,800단어지만 **그건 하한이다.** 실제 목표는 `2,200~2,800단어`(HANDOFF Standard Blog Guardrails)다.
+- 참고 실측(2026-07-20): Codex 발행분 306~310은 2,213~3,707단어, Claude Code 발행분 311~313+비즈니스는 1,847~2,069단어로 짧았다. 리뷰어 100/100은 분량 충분을 뜻하지 않는다.
+
+---
+
 ## 이어받기 프롬프트
 
 ```text
