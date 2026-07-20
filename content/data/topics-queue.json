@@ -2908,8 +2908,10 @@
         "Cica"
       ],
       "amazon_category": "Beauty",
-      "status": "pending",
+      "status": "done",
       "planned_slug": "312",
+      "generated_slug": "312",
+      "generated_date": "2026-07-20",
       "created_at": "2026-07-20",
       "scheduled_for": null
     },
@@ -2964,5 +2966,5 @@
     }
   ],
   "last_updated": "2026-07-20",
-  "next_slug": 312
+  "next_slug": 313
 }
