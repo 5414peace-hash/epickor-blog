@@ -112,6 +112,16 @@
 - Before recording "Reviewer visually inspected" in `HANDOFF.md`, run `node .claude/skills/cardnews/scripts/review-cardnews.mjs --slug {slug}` after rendering. The script passing is not enough by itself; it is the structural gate before manual PNG inspection.
 - Record card news agent roles and rendered-image review in `HANDOFF.md`.
 
+### Card News Render Settings (2026-07-20 실측)
+
+- `html-to-png.py`의 기본 베일은 `rgba(17,17,17,0.24) -> 0.92`이고 `image_opacity` 기본값은 `0.36`이다. **이 기본값으로 렌더하면 사진이 거의 검게 묻힌다.** 첫 떡볶이 렌더에서 음식이 안 보이는 카드가 나왔다.
+- 렌더러는 카드별 `image_tone: food`(베일이 `0.16 -> 0.46`으로 완화)와 `image_opacity`를 이미 지원한다. 사진 기반 카로셀은 **항상 이 둘을 명시**한다.
+- 검증된 값:
+  - 텍스트가 사진 위에 얹히는 풀블리드 레이아웃(`D`, 밝은 이미지의 `F`): `image_opacity: 0.58~0.74`. 그래야 금색 헤드라인 대비가 유지된다.
+  - 텍스트가 단색 패널에 있는 분할 레이아웃(`B`, `C`, `E`): `image_opacity: 0.80~0.86`.
+- **소스 이미지를 미리 밝게 보정해서 해결하려 하지 말 것.** 채도가 튀어 카드가 인공적으로 보이고 좌상단 워터마크까지 안 보이게 된다. 원본을 그대로 쓰고 `image_opacity`로 조절한다.
+- 좁은 세로 크롭이 생기는 레이아웃(`C`의 우측 패널)에서는 헤드라인이 말하는 대상이 잘려나갈 수 있다. 렌더 후 반드시 확인하고, 잘리면 풀블리드 레이아웃으로 바꾼다.
+
 ## Instagram Revival Card News Strategy
 
 - EpicKor should build a backlog of 30 high-quality card news carousels before treating card news as a fully new-topic channel.
