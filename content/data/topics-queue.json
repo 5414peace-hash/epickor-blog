@@ -2934,8 +2934,10 @@
         "KoreaTravel"
       ],
       "amazon_category": "Travel",
-      "status": "pending",
+      "status": "done",
       "planned_slug": "313",
+      "generated_slug": "313",
+      "generated_date": "2026-07-20",
       "created_at": "2026-07-20",
       "scheduled_for": null
     },
@@ -2966,5 +2968,5 @@
     }
   ],
   "last_updated": "2026-07-20",
-  "next_slug": 313
+  "next_slug": 314
 }
