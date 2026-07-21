@@ -166,8 +166,19 @@
 - Human visual approval is required before final Remotion rendering.
 - The visual review dashboard should answer one question quickly: does this image fit this numbered scene?
 - During Reels visual research, keep a short list of strong topic-relevant images that were found but not selected for the Reel. If they improve the source post, add them back into the blog post after the Reel visual search instead of replacing already usable post images. For Blog 176 specifically, keep the current two images and use the Reels research pass to find additional Korean jjimjilbang-related images for the article if suitable.
-- New Reels should use exactly one motion-card insert for a normal 35-45 second Reel by default. Do not use two or more motion cards unless the representative explicitly requests a slug-specific exception and it is recorded in `HANDOFF.md`.
-- The single motion card should normally appear around 60-75% of the Reel as a payoff board, checklist, receipt, decision table, mistake list, or rule card. Do not use a motion card as Scene 1 unless the representative explicitly approves it.
+- **2026-07-21 규칙 변경 (대표님 승인): 페이오프 자리의 모션카드를 없앤다.** 종전에는 "모션카드 1장을 60~75% 지점 페이오프로" 규정했으나, 그러면 릴스의 결말이 영상이 아니라 문서가 되어 정보 전달형으로 흐른다. 실제로 최근 세대는 기획서가 정교해졌는데도 도달이 나빠졌고, `creative_performance_standard.md`도 "너무 정보 중심이 됐다"고 진단하고 있다.
+  - **페이오프는 시각적 리빌이어야 한다.** 마지막 반전은 화면에서 벌어지는 일로 보여준다. 보드/체크리스트/표로 대체하지 않는다.
+  - 모션카드는 **기본 0장**이다. 꼭 필요하면 중반 이전의 **짧은 비트**로만 쓰고, 페이오프 자리에는 두지 않는다.
+  - 이 변경 이후의 릴스는 정보 나열이 아니라 **하나의 놀라움**을 증명하는 구조로 만든다.
+- 참고(구 규칙, 2026-07-21 이전 릴스에만 적용): 35-45초 릴스에 모션카드 1장, 60-75% 지점 페이오프 배치.
+
+### Reels 2.2 구조 기준 (2026-07-21, 3세대 실측 분석 기반)
+
+- **씬 쿼터를 버린다.** 40초에 7씬(씬당 5.7초)은 슬라이드쇼 박자다. **3막·4~6컷**으로 가고, 강한 샷은 6~8초 그대로 둔다.
+- **훅은 자막이 아니라 화면으로 만든다.** 첫 프레임에 주장의 물리적 증거가 있어야 하고, 첫 1.5초에 완결되는 움직임(젓가락이 들어옴, 치즈가 늘어남, 김이 오름)이 있어야 한다. 스톡 위에 타이포만 얹는 훅 금지.
+- **인코딩 하한선(신설)**: `1080x1920 30fps` 기준 **≥8 Mbps**, 모션이 많으면 **≥10 Mbps**. 기존 ffprobe QA는 코덱·길이만 봐서 이 누수를 못 잡았다. 실측: 사람 편집 세대는 20~51 Mbps였는데 최근 296/297은 **3.0~3.6 Mbps**로 떨어져 모션이 뭉갠다.
+- **길이와 fps는 콘텐츠가 정한다.** 소재가 시네마틱하면 24fps 허용, 페이오프가 필요하면 50~60초 허용. 사람 편집 세대는 42~67초로 편차를 뒀고 그게 고조회였다. **보간 편법 금지** — 25fps 소스를 30fps로 늘리지 말고 네이티브를 쓰거나 교체한다.
+- **측정 없이는 "조회수 폭발"을 설계할 수 없다.** 저장소에 실제 조회 데이터가 0건이다. 발행 후 1h/24h/7d 조회·저장·공유·시청완료율을 `output/reels/metrics.json`에 기록한다.
 - The single motion card must use a full-bleed topic-relevant image or video background with a controlled dim/blur veil and a semi-transparent card. Plain black motion-card screens are not allowed.
 - Write the narration around the card: include a spoken setup, synchronize each row/reveal with its narration beat, and finish with a payoff line. The card cannot be an unrelated summary pasted over the script.
 - Reels motion cards must not look empty in the middle. Avoid or revise templates/copy combinations that leave the center visually hollow; prefer center-filled rows, checklists, boards, receipts, or clearly occupied focal layouts.
@@ -461,6 +472,24 @@ output/reels/{slug}/          Reels scene manifest, visual candidates, review no
   - 주의: `history/` 패턴은 **`history reels/`를 매칭하지 못한다.** 공백이 들어간 폴더명은 별도 라인으로 정확히 적는다.
   - 증상 체크리스트: 배포가 10분 넘게 `Deploying...`에서 멈춤 + node RAM 2GB 초과 + `vercel ls`에 새 배포 없음 → 즉시 중단하고 `.vercelignore` 누락부터 확인한다.
   - repo 루트에 새 대용량 폴더(영상/원본 소스)를 만들면 그 자리에서 두 ignore 파일에 추가한다.
+
+## Meta Business Suite 자동화 절차 (2026-07-21 실측 확립)
+
+카드뉴스/릴스 업로드는 이제 Claude가 Meta Suite로 직접 예약한다. 아래는 실제로 성공한 절차다.
+
+- **브라우저 기동**: 시스템 Chrome을 Playwright `launch_persistent_context`로 띄운다.
+  - 전용 프로필: `{scratchpad}/meta-profile` (대표님 기존 Chrome 프로필은 실행 중이라 잠겨 있고, 다른 로그인 세션에 접근하지 않기 위해서도 전용 프로필을 쓴다)
+  - `channel="chrome"`, `headless=False`, `args=["--remote-debugging-port=9222","--start-maximized"]`
+  - 런처는 백그라운드로 살려두고, 이후 스크립트는 `connect_over_cdp("http://localhost:9222")`로 재접속한다.
+- **로그인은 대표님이 직접 한다. Claude는 자격증명을 절대 입력하지 않는다.** 전용 프로필이라 최초 1회만 필요하고 이후 세션은 로그인 상태가 유지된다.
+- **좌표 환산 주의**: 뷰포트는 1280x720인데 스크린샷은 1.25배로 저장된다. 스크린샷에서 읽은 좌표는 **1.25로 나눠서** `mouse.click`에 넘긴다. 이걸 놓쳐서 첫 클릭이 빗나갔다.
+- **계정 전환**: 좌상단 드롭다운(페이지 좌표 약 `106,98`) → 자산 목록에서 `epickorsnippets` 선택. 기본이 VDOLAB이므로 **매번 확인**한다.
+- **이미지 업로드**: 파일 입력은 DOM에 미리 없다. `사진 추가` → `데스크톱에서 업로드`를 `page.expect_file_chooser()`로 감싸 클릭하고 `chooser.set_files([7장 경로])`로 한 번에 주입한다. OS 파일창을 띄우지 않는다.
+- **캡션**: `div[contenteditable='true']` 첫 번째 요소. 비어 있을 때 높이가 20px라 "높이 60px 이상" 같은 필터로 찾으면 놓친다. `scroll_into_view_if_needed()` 후 클릭하고, 줄바꿈은 **`Shift+Enter`**로 입력한다(Enter는 쓰지 않는다).
+- **⚠️ 가장 위험한 지점**: 새 게시물은 기본이 **`게시`(즉시 발행)** 다. 예약 섹션의 `날짜 및 시간 설정` 토글을 켜야 버튼이 **`예약`**으로 바뀐다. **버튼 라벨이 `예약`인지 반드시 스크린샷으로 확인한 뒤** 누른다. 2026-07-21에 312/313에서 토글이 꺼진 채였고, 확인하지 않았으면 즉시 발행될 뻔했다.
+- **시간 입력**: `오후 12:55` 형태의 분할 필드다. AM/PM 세그먼트 클릭 → `ArrowUp`으로 오전 전환 → `ArrowRight` → 시 입력 → 분 세그먼트 클릭 후 분 입력.
+- **검증**: 예약 후 플래너(`content_calendar`)에서 날짜/시각/썸네일/캐러셀 아이콘을 눈으로 확인한다.
+- **주의**: Meta Suite 예약 목록은 **모바일 앱으로 올린 게시물을 보여주지 않는다.** 목록이 비어 있다고 "예약 없음"으로 단정하지 말 것.
 
 ## 이미지 용량 목표 (400KB는 상한이지 목표가 아니다)
 
