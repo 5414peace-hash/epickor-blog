@@ -218,6 +218,8 @@
 - Prepare three spoken opening variants as well, then select the thumbnail/narration pair with the clearest stakes. Do not begin on black, a generic mood shot, or a topic-title restatement; show direct visual proof or action in the first frame.
 - Final Reels should include a clean `epicKor.com` outro when appropriate.
 - Reels outro/CTA text should use `epickor.com` only. Do not show post-specific paths such as `/blog/{slug}` inside the video frame because viewers cannot click them.
+- **아웃트로에는 URL만 두지 말고 갈 이유를 붙인다 (2026-07-21 신설).** 후킹 문구 6종을 `output/reels/outro-cta-bank.md`에 두고 **주제에 맞춰 골라 돌려쓴다**: `THERE'S MORE`(미완결·범용) / `DON'T ORDER BLIND`(실수회피·음식/쇼핑) / `LOCALS KNOW THE REST`(인사이더·문화/에티켓) / `BEFORE YOU LAND`(시점압박·여행) / `WE WROTE IT ALL DOWN`(안심·가이드) / `NO PAYWALL. NO APP.`(마찰제거·범용). 심리 기제가 서로 달라야 돌려써도 물리지 않는다. 연속 릴스에 같은 ID를 쓰지 않는다.
+- **`epickor.com`은 반드시 솔리드 빨간 칩(흰 글씨)으로 렌더한다.** 영상 위에 빨간 글씨로 얹으면 따뜻하거나 복잡한 배경에서 안 읽힌다 — 실제로 한국 간판/차양 위에서 판독 불가였다. 칩으로 처리하면 어떤 배경에서도 동일하게 읽히고, 전 릴스에 걸쳐 일관된 브랜드 마크가 된다.
 - Reels visual sourcing priority:
   1. EpicKor-owned, official, licensed, or otherwise usable real vertical video.
   2. Real vertical images already used by the source post or found during topic-specific research.
