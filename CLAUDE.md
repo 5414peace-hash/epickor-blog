@@ -91,6 +91,11 @@
 
 - Do not jump to downstream production before the current content stage is actually complete. For a new blog post, "draft written", "review passed", or "build passed" does not mean published. Before starting related Reels or card news, explicitly confirm the blog's final review, publish/deploy status, and public URL verification, unless the representative directly asks to skip ahead.
 - Card news is a social carousel, not a blog excerpt. Each card needs one clear message and a reason to swipe.
+- **매 배치마다 그 주제에 맞는 새로운 비주얼 시스템을 설계한다. 같은 템플릿을 반복하지 않는다.** (2026-07-20 대표님 지시) 어두운 배경에 딤 베일을 씌우는 기본 템플릿을 매번 재사용하면 인스타 그리드에서 모든 캐러셀이 똑같아 보이고 브랜드가 납작해진다. 떡볶이 길거리 음식과 K-뷰티 성분 해설이 같은 비주얼을 쓸 이유가 없다.
+  - `script.md`를 쓰기 전에 그 주제만의 방향(팔레트, 타이포 처리, 레이아웃 리듬, 사진을 다루는 방식)을 먼저 정한다. `style:` 필드에 이름만 적지 말고 실제 렌더에 반영한다.
+  - 아래 "Card News Render Settings"의 다크 베일 값은 **여러 선택지 중 하나**이지 하우스 스타일이 아니다.
+  - 현재 `html-to-png.py`의 레이아웃(A~F)으로 그 방향을 표현할 수 없으면, 렌더러를 확장하거나 그 배치용 카드 HTML을 따로 만든다. 표현이 안 된다고 기본 템플릿으로 되돌아가지 않는다.
+  - 바꾸지 않는 것: 전 카드 `EPICKOR.COM` 워터마크, Korea-first 사진 기준, 카드 01의 프로필 그리드 가독성, 이미지 경로 중복 금지.
 - Every card must have a relevant image. For real-world/high-visual topics, photo-first is mandatory; do not let a carousel become SVG-only or graphic-only unless the representative explicitly approves that exception in the current task.
 - If the post does not have enough suitable images, source usable external photos before falling back to generated/graphic visuals. Prefer post-owned images first, then Pexels or other license-safe sources, then generated/owned visuals when search fails.
 - Every card should carry a Korea/EpicKor angle through `kicker:` text, such as `KOREA SPF GUIDE`, `SEOUL TRAVEL TIP`, or `K-BEAUTY TEXTURE MAP`.
@@ -112,7 +117,10 @@
 - Before recording "Reviewer visually inspected" in `HANDOFF.md`, run `node .claude/skills/cardnews/scripts/review-cardnews.mjs --slug {slug}` after rendering. The script passing is not enough by itself; it is the structural gate before manual PNG inspection.
 - Record card news agent roles and rendered-image review in `HANDOFF.md`.
 
-### Card News Render Settings (2026-07-20 실측)
+### Card News Render Settings (2026-07-20 실측) — 다크 템플릿을 쓸 때만 해당
+
+> 이 값들은 기존 다크 템플릿을 선택했을 때의 실측 세팅이다. **기본값으로 삼지 말 것.** 새 배치는 위의
+> "매 배치마다 새로운 비주얼 시스템" 규칙이 우선한다.
 
 - `html-to-png.py`의 기본 베일은 `rgba(17,17,17,0.24) -> 0.92`이고 `image_opacity` 기본값은 `0.36`이다. **이 기본값으로 렌더하면 사진이 거의 검게 묻힌다.** 첫 떡볶이 렌더에서 음식이 안 보이는 카드가 나왔다.
 - 렌더러는 카드별 `image_tone: food`(베일이 `0.16 -> 0.46`으로 완화)와 `image_opacity`를 이미 지원한다. 사진 기반 카로셀은 **항상 이 둘을 명시**한다.
