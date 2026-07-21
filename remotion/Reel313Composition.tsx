@@ -10,14 +10,14 @@ import {
   useCurrentFrame,
   useVideoConfig,
 } from 'remotion';
-import captions311 from '../output/reels/311/caption-timings-v02.json';
+import captions313 from '../output/reels/313/caption-timings-v02.json';
 
 const display = "Impact, 'Arial Narrow', 'Franklin Gothic Condensed', sans-serif";
 const body = "'Segoe UI', Arial, 'Helvetica Neue', sans-serif";
 
 type CaptionBeat = { text: string; startFrame: number; endFrame: number };
-const beats: CaptionBeat[] = ((captions311 as { beats?: CaptionBeat[] }).beats ??
-  (captions311 as unknown as CaptionBeat[])) as CaptionBeat[];
+const beats: CaptionBeat[] = ((captions313 as { beats?: CaptionBeat[] }).beats ??
+  (captions313 as unknown as CaptionBeat[])) as CaptionBeat[];
 
 /**
  * Signature system, no motion card.
@@ -30,26 +30,18 @@ const beats: CaptionBeat[] = ((captions311 as { beats?: CaptionBeat[] }).beats ?
  */
 // House palette, matched to Reel 301 (Ajumma). The brand already had a strong
 // system; the earlier sauce-colour idea was an invention that ignored it.
-const social = { cobalt: '#1557ff', red: '#ff3b30', ivory: '#f7f2e8', ink: '#111318', green: '#25b56a' };
+const social = { cobalt: '#0a4d5c', red: '#ff7a29', ivory: '#fff6e9', ink: '#06323a', green: '#ffd23f' };
 const SAUCE = social;
 
 const CUTS = [
-  // Cut 1 shortened to 175f: the source has only 198 usable frames after trim,
-  // so the previous 195f cut froze on its last frame. The next shot now arrives
-  // before the footage runs out.
-  { n: 1, from: 0, len: 175, accent: social.red, index: null as number | null },
-  { n: 2, from: 175, len: 135, accent: social.red, index: 1 },
-  { n: 3, from: 310, len: 150, accent: social.red, index: null },
-  { n: 4, from: 460, len: 170, accent: social.red, index: 2 },
-  { n: 5, from: 630, len: 220, accent: social.red, index: 3 },
-  // One cut per spoken name, cut to the narration rather than one image per chapter.
-  { n: 6, from: 850, len: 16, accent: social.red, index: 4 },
-  { n: 7, from: 866, len: 16, accent: social.red, index: 5 },
-  { n: 8, from: 882, len: 16, accent: social.red, index: 6 },
-  // The grid answers "six versions" literally, which the market footage never did.
-  { n: 9, from: 898, len: 102, accent: social.red, index: null },
-  { n: 10, from: 1000, len: 55, accent: social.red, index: null },
-  { n: 11, from: 1055, len: 55, accent: social.red, index: null },
+  { n: 1, from: 0, len: 165, accent: social.red, index: null as number | null },  // hook
+  { n: 2, from: 165, len: 195, accent: social.red, index: null }, // the real enemy: subway/stairs
+  { n: 3, from: 360, len: 150, accent: social.red, index: null }, // the fix: elevator exit
+  { n: 4, from: 510, len: 90, accent: social.red, index: 1 },  // hanbok free
+  { n: 5, from: 600, len: 80, accent: social.red, index: 2 },  // museum touch
+  { n: 6, from: 680, len: 90, accent: social.red, index: 3 },  // gimbap mild
+  { n: 7, from: 770, len: 160, accent: social.red, index: null }, // one big thing
+  { n: 8, from: 930, len: 90, accent: social.red, index: null },  // outro
 ];
 
 function clamp(frame: number, input: number[], output: number[]) {
@@ -176,9 +168,9 @@ function OutroCta() {
   return (
     <div style={{ position: 'absolute', left: 54, right: 110, top: 620, zIndex: 62 }}>
       <Kicker at={2}>The one rule</Kicker>
-      <MaskText at={6} size={112} style={{ marginTop: 26 }}>Don&apos;t order</MaskText>
-      <MaskText at={14} size={128} color={social.red}>blind</MaskText>
-      <div style={{ marginTop: 34, color: social.ivory, font: `900 33px/1.15 ${body}`, textShadow: '0 2px 12px rgba(0,0,0,.85)' }}>Save this before your next bunsik stop.</div>
+      <MaskText at={6} size={100} style={{ marginTop: 26 }}>Do less.</MaskText>
+      <MaskText at={14} size={116} color={social.red}>see more</MaskText>
+      <div style={{ marginTop: 34, color: social.ivory, font: `900 33px/1.15 ${body}`, textShadow: '0 2px 12px rgba(0,0,0,.85)' }}>Save this before your family trip.</div>
       <div style={{ marginTop: 22, opacity: p }}>
         <div style={{ color: social.ivory, font: `900 66px/1 ${display}`, letterSpacing: -1, textShadow: '0 3px 16px rgba(0,0,0,.85)' }}>epickor.com</div>
         <div style={{ marginTop: 12, height: 6, width: `${p * 340}px`, background: social.cobalt }} />
@@ -216,72 +208,56 @@ function Cut({ index, children }: { index: number; children: ReactNode }) {
   return <Sequence from={c.from} durationInFrames={c.len}>{children}</Sequence>;
 }
 
-export const Reel311Composition: React.FC = () => {
+export const Reel313Composition: React.FC = () => {
   return (
     <AbsoluteFill style={{ background: social.ink }}>
       <Cut index={0}>
-        <VideoCut src="assets/reels/311/video/cut1-hotteok.mp4" trim={30} position="center 55%" />
-        <Ons kicker="Korean street food" topLine="One dish" punch="you know" sub="And the one everyone pictures is the newest." top={560} size={122} />
+        <VideoCut src="assets/reels/313/video/hanbok-parade.mp4" trim={120} position="center 40%" />
+        <Ons kicker="Seoul with kids" topLine="Easier than" punch="you think" sub="But the hard part is never what you plan for." top={560} size={112} />
       </Cut>
 
       <Cut index={1}>
-        <StillCut src="assets/reels/311/image/cut2-classic.png" position="center 60%" />
-        <Ons kicker="Bunsik basics" topLine="Rice cakes." punch="Not pasta." top={250} size={116} />
+        <VideoCut src="assets/reels/313/video/subway.mp4" trim={30} />
+        <Ons kicker="The real enemy" topLine="Not safety." punch="Stairs." top={250} size={116} />
       </Cut>
 
       <Cut index={2}>
-        <VideoCut src="assets/reels/311/video/cut3-eomuk.mp4" trim={30} />
-        <Ons kicker="The counter" topLine="It never" punch="eats alone" top={250} size={122} />
+        <VideoCut src="assets/reels/313/video/subway-inside.mp4" trim={40} />
+        <Ons kicker="The fix" topLine="Find the" punch="elevator exit" sub="Before you arrive, not after." top={250} size={98} />
       </Cut>
 
       <Cut index={3}>
-        <StillCut src="assets/reels/311/image/cut4-rabokki.png" />
-        <Ons kicker="Upgrade" topLine="Add ramyeon." punch="Now dinner." top={250} size={100} />
+        <StillCut src="assets/reels/313/image/hanbok-family.png" scale={1.06} />
+        <Ons kicker="01" topLine="Hanbok =" punch="free entry" at={0} top={1020} size={92} reveal={6} />
       </Cut>
 
       <Cut index={4}>
-        <StillCut src="assets/reels/311/image/cut5-soy.png" scale={1.16} />
-        <Ons kicker="The original" topLine="The first one" punch="had no chili" at={22} top={250} size={98} />
+        <StillCut src="assets/reels/313/image/museum.png" scale={1.06} />
+        <Ons kicker="02" topLine="Museums" punch="let them touch" at={0} top={1020} size={82} reveal={6} />
       </Cut>
 
       <Cut index={5}>
-        <StillCut src="assets/reels/311/image/cut6-cheese.png" scale={1.05} />
-        <Ons kicker="01" topLine="" punch="Cheese" at={0} top={300} size={112} reveal={5} />
+        <StillCut src="assets/reels/313/image/gimbap.png" scale={1.08} />
+        <Ons kicker="03" topLine="Gimbap =" punch="never spicy" at={0} top={1020} size={92} reveal={6} />
       </Cut>
 
+      {/* the one rule */}
       <Cut index={6}>
-        <StillCut src="assets/reels/311/image/cut-rose.png" scale={1.05} />
-        <Ons kicker="02" topLine="" punch="Rose" at={0} top={300} size={112} reveal={5} />
+        <VideoCut src="assets/reels/313/video/gyeongbokgung.mp4" trim={30} />
+        <Ons kicker="The one rule" topLine="One big thing." punch="Not three." top={250} size={94} />
       </Cut>
 
       <Cut index={7}>
-        <StillCut src="assets/reels/311/image/cut-cream.png" scale={1.05} />
-        <Ons kicker="03" topLine="" punch="Cream" at={0} top={300} size={112} reveal={5} />
+        <VideoCut src="assets/reels/313/video/palace-pond.mp4" trim={20} scale={1.04} />
+        <OutroCta />
       </Cut>
 
-      <Cut index={8}>
-        <StillCut src="assets/reels/311/image/cut-sixgrid.png" scale={1.03} />
-        <Ons kicker="Six versions" topLine="One rice cake." punch="Six sauces." top={92} size={84} />
-      </Cut>
-
-      <Cut index={9}>
-        <VideoCut src="assets/reels/311/video/cut6-market.mp4" trim={45} />
-        <Ons kicker="Where to start" topLine="Start at" punch="a stall" top={280} size={122} />
-      </Cut>
-
-      <Cut index={10}>
-        <VideoCut src="assets/reels/311/video/cut7-beomsan.mp4" trim={110} scale={1.04} />
-        <OutroCta hook={["DON'T ORDER", 'BLIND']} accent={CUTS[10].accent} />
-      </Cut>
-
-      <Sequence from={5}><Audio src={staticFile('assets/reels/311/audio/voice-part-1.mp3')} /></Sequence>
-      <Sequence from={200}><Audio src={staticFile('assets/reels/311/audio/voice-part-2.mp3')} /></Sequence>
-      <Sequence from={470}><Audio src={staticFile('assets/reels/311/audio/voice-part-3.mp3')} /></Sequence>
-      <Sequence from={640}><Audio src={staticFile('assets/reels/311/audio/voice-part-4.mp3')} /></Sequence>
-      <Sequence from={852}><Audio src={staticFile('assets/reels/311/audio/voice-part-5.mp3')} /></Sequence>
-      <Sequence from={905}><Audio src={staticFile('assets/reels/311/audio/voice-part-6.mp3')} /></Sequence>
-      <Sequence from={1005}><Audio src={staticFile('assets/reels/311/audio/voice-part-7.mp3')} /></Sequence>
-      <Sequence from={1062}><Audio src={staticFile('assets/reels/311/audio/voice-part-8.mp3')} /></Sequence>
+      <Sequence from={5}><Audio src={staticFile('assets/reels/313/audio/voice-part-1.mp3')} /></Sequence>
+      <Sequence from={165}><Audio src={staticFile('assets/reels/313/audio/voice-part-2.mp3')} /></Sequence>
+      <Sequence from={360}><Audio src={staticFile('assets/reels/313/audio/voice-part-3.mp3')} /></Sequence>
+      <Sequence from={510}><Audio src={staticFile('assets/reels/313/audio/voice-part-4.mp3')} /></Sequence>
+      <Sequence from={760}><Audio src={staticFile('assets/reels/313/audio/voice-part-5.mp3')} /></Sequence>
+      <Sequence from={930}><Audio src={staticFile('assets/reels/313/audio/voice-part-6.mp3')} /></Sequence>
 
       <Captions />
       <Watermark />

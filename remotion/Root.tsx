@@ -15,6 +15,8 @@ import {
   Reel302V03Composition,
 } from './ReelNextBatchFinalComposition';
 import { Reel311Composition } from './Reel311Composition';
+import { Reel312Composition } from './Reel312Composition';
+import { Reel313Composition } from './Reel313Composition';
 import type { ReelProps } from './types';
 
 const defaultReelProps: ReelProps = {
@@ -196,7 +198,23 @@ function Root() {
         width={1080}
         height={1920}
         fps={30}
-        durationInFrames={915}
+        durationInFrames={1110}
+      />
+      <Composition
+        id="Reel312"
+        component={Reel312Composition}
+        width={1080}
+        height={1920}
+        fps={30}
+        durationInFrames={960}
+      />
+      <Composition
+        id="Reel313"
+        component={Reel313Composition}
+        width={1080}
+        height={1920}
+        fps={30}
+        durationInFrames={1020}
       />
     </>
   );
