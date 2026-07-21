@@ -10,6 +10,12 @@
 4. Read only files named under Active Work or the user request.
 5. Search the archive narrowly with `rg` only for a specific slug, decision, or incident.
 
+## Current Snapshot - 2026-07-22
+
+- **Reels 311, 312, and 313 are produced and representative-approved, awaiting only BGM swap before upload.** Three Reels under one shared pattern (Reel 301 Ajumma house style: Impact two-tone headlines, red kicker chips, per-item cuts synced to narration, a mid-Reel reveal, and the 301 caption bar), each given its own colour system: 311 `Bunsik Heat` red, 312 `Glass Skin` rose `#ff5d8f`, 313 `Family Route` tangerine `#ff7a29`. 311 was approved at 81/100; 312/313 built to the same bar. All open on video, all footage passed the footage gate with visual inspection, continuity has zero freeze frames, every render is >=10.6 Mbps, and captions carry no incomplete phrase beats. Compositions committed in `39cfaaf3`. Masters: `output/final/reels/311/EPICKOR_311_17_BGM.mp4`, `312/EPICKOR_312_07_BGM.mp4`, `313/EPICKOR_313_06_BGM.mp4`. **The BGM in those masters is YouTube Audio Library only; the representative will supply Instagram-cleared audio, then Claude re-mixes and the three go up on the Fri/Sat/Sun Reels rhythm.**
+
+- **Reel production method is now proven end to end in Remotion.** Per-Reel composition files (`remotion/Reel3NNComposition.tsx`) registered in `remotion/Root.tsx`, rendered with `npx remotion render ... --video-bitrate=10M`, BGM via `scripts/mix-reel-bgm.mjs` (sidechain ducking). Key lessons recorded in `CLAUDE.md`: footage gate before topic commitment, continuity manifest before render, `>=8 Mbps` encoding floor, caption beats must end on complete phrases, and the 301 house style is the brand reference.
+
 ## Current Snapshot - 2026-07-21
 
 - **Card news 311/312/313 are scheduled on Instagram `@epickorsnippets` for 2026-07-23, 07-24, and 07-25, all 05:00 KST.** Claude scheduled them through Meta Business Suite; the planner was verified showing all three with carousel icons, correct dates, and 05:00. Each carries seven ordered 1080x1080 PNGs plus the full caption. The Meta Suite procedure is now recorded in `CLAUDE.md` — the dangerous part is that new posts default to `게시` (publish now) and the `날짜 및 시간 설정` toggle must be on before the button reads `예약`.
@@ -44,9 +50,7 @@
 
 ## Previous Snapshot - 2026-07-16
 
-- Blogs `291`-`302` and the Samyang Foods business deep dive were published, deployed, and publicly verified. Full detail archived at `docs/handoff/2026-07-16_snapshot-blogs-291-302.md`.
-- Amazon revenue signal from the representative 2026-07-14 dashboard: last 30 days show 17 clicks and $4.18 commission; the current-month summary shows 6 clicks, 4 ordered/shipped items, and 66.67% conversion. Treat this as promising but small-sample proof of purchase conversion, with qualified click volume and source attribution now the primary bottlenecks.
-- Operational carry-forward: `next.config.ts` sets `images.unoptimized: true` after the 2026-07-12 Vercel image-quota outage, so original image files are served to users as-is. This is why body-image file size is a hard operating concern; see the image-weight rules in `CLAUDE.md`.
+- Blogs `291`-`302`, the Samyang business deep dive, and the image-quota fix were completed and verified. Detail: `docs/handoff/2026-07-16_snapshot-blogs-291-302-v2.md`.
 
 ## Active Work
 
