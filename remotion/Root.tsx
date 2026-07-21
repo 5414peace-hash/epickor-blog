@@ -14,6 +14,7 @@ import {
   Reel302V01Composition,
   Reel302V03Composition,
 } from './ReelNextBatchFinalComposition';
+import { Reel311Composition } from './Reel311Composition';
 import type { ReelProps } from './types';
 
 const defaultReelProps: ReelProps = {
@@ -189,6 +190,14 @@ function Root() {
           defaultProps={{ sceneNumber }}
         />
       ))}
+      <Composition
+        id="Reel311"
+        component={Reel311Composition}
+        width={1080}
+        height={1920}
+        fps={30}
+        durationInFrames={915}
+      />
     </>
   );
 }
