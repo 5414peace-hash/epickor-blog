@@ -1,0 +1,8 @@
+# Image sources for Blog 315 (Myeongdong Guide)
+
+- `myeongdong-night-neon.jpg` - A Myeongdong lane at night lit by stacked neon signs, including K Cosmetic, Mask for Skin / All Made in Korea, COSRX, and 명동 돈까스. Photo by Saksham Vikram on Pexels, photo ID 33019190: https://www.pexels.com/photo/vibrant-nightlife-in-seoul-s-myeongdong-district-33019190/
+- `myeongdong-street-food-stall.jpg` - A Myeongdong street-food stall with a 명동 군밤/옥수수/은행/버터 sign and won price tags. Photo by Theodore Nguyen on Pexels, photo ID 32014932: https://www.pexels.com/photo/vibrant-street-market-in-seoul-south-korea-32014932/
+- `myeongdong-shopping-crowd.jpg` - A daytime Myeongdong street lined with K Cosmetics, Mask for Skin, wholesale, and tax-free sale signs with shoppers. Photo by Theodore Nguyen on Pexels, photo ID 31925325: https://www.pexels.com/photo/bustling-street-scene-in-myeongdong-seoul-31925325/
+- `myeongdong-street-scene.jpg` - A daytime Myeongdong lane with food vendors setting up under a "Welcome to Clean Myeongdong Street" banner, with Skinfood and Holika cosmetics signs behind. Photo by Theodore Nguyen on Pexels, photo ID 31925334: https://www.pexels.com/photo/vibrant-street-market-in-seoul-s-myeongdong-district-31925334/
+
+Downloaded 2026-07-22. All four images were opened and manually inspected at full resolution and are unmistakably Myeongdong: Korean cosmetics neon (K Cosmetic, COSRX, Mask for Skin), a 명동 군밤 food-cart sign with won prices, cosmetics-shop storefronts with tax-free signage, and a "Clean Myeongdong Street" banner. One rejected candidate was removed during review: Pexels 32028707, which showed a travel agency and a vegan-chocolate cafe rather than the district's street food or cosmetics shops. All optimized to <=250 KB and <=1400 px.

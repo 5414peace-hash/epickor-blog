@@ -484,7 +484,8 @@
     "GlobalKorea"
    ],
    "amazon_category": "Shopping",
-   "status": "pending"
+   "status": "in_progress",
+   "generated_slug": "315"
   },
   {
    "id": 24,
@@ -3013,10 +3014,12 @@
     "SeoulTravel"
    ],
    "amazon_category": "Beauty",
-   "status": "pending",
+   "status": "done",
    "planned_slug": "315",
    "created_at": "2026-07-22",
-   "scheduled_for": null
+   "scheduled_for": null,
+   "generated_slug": "315",
+   "generated_date": "2026-07-22"
   },
   {
    "id": 138,
@@ -3069,5 +3072,5 @@
   }
  ],
  "last_updated": "2026-07-22",
- "next_slug": 315
+ "next_slug": 316
 }
