@@ -3067,10 +3067,12 @@
    ],
    "amazon_category": "Books",
    "business_type": "A",
-   "status": "pending",
+   "status": "done",
    "planned_slug": "korean-apparel-suppliers",
    "created_at": "2026-07-22",
-   "scheduled_for": null
+   "scheduled_for": null,
+   "generated_slug": "korean-apparel-suppliers",
+   "generated_date": "2026-07-22"
   }
  ],
  "last_updated": "2026-07-22",
