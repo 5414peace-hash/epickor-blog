@@ -1,10 +1,10 @@
 {
   "summary": {
-    "generatedAt": "2026-07-20T13:51:03.438Z",
-    "auditedPosts": 292,
+    "generatedAt": "2026-07-23T14:46:54.454Z",
+    "auditedPosts": 297,
     "includedPrivate": false,
     "slugFilter": "",
-    "bodyImages": 1061,
+    "bodyImages": 1080,
     "affectedPosts": 118,
     "critical": 0,
     "high": 0,
@@ -11665,6 +11665,162 @@
       "findings": []
     },
     {
+      "type": "blog",
+      "slug": "314",
+      "title": "N Seoul Tower Guide 2026: Namsan Cable Car, Locks, Night Views",
+      "contentPath": "content\\blog\\314.md",
+      "sourceRecord": "public\\assets\\images\\posts\\314\\image-sources.md",
+      "imageCount": 4,
+      "images": [
+        {
+          "url": "/assets/images/posts/314/n-seoul-tower-daytime.jpg",
+          "alt": "N Seoul Tower rising above the forested Namsan hill under a blue sky.",
+          "caption": "N Seoul Tower stands on Namsan, a wooded hill in central Seoul, which is why the views reach so far. Photo by Heesang Park on Pexels.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/314/namsan-cable-car.jpg",
+          "alt": "A Namsan cable car car moving up the hillside toward N Seoul Tower.",
+          "caption": "The Namsan cable car glides over the treetops toward the tower — the ride is part of the experience, especially near sunset. Photo by Kharl Anthony Paica on Pexels.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/314/love-locks-namsan.jpg",
+          "alt": "A visitor attaching a padlock to the crowded love-lock fence at N Seoul Tower.",
+          "caption": "Adding a lock to the Namsan fences is a small ritual that draws couples and friends from all over. Photo by Theodore Nguyen on Pexels.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/314/seoul-night-skyline-namsan.jpg",
+          "alt": "Seoul's evening skyline with N Seoul Tower lit up on Namsan and a bridge over the Han River.",
+          "caption": "Namsan turns from a daytime viewpoint into a night-skyline stage as the city lights come on. Photo by Hyeok Jang on Pexels.",
+          "ext": ".jpg",
+          "exists": true
+        }
+      ],
+      "findings": []
+    },
+    {
+      "type": "blog",
+      "slug": "315",
+      "title": "Myeongdong Guide 2026: Street Food and K-Beauty Shopping",
+      "contentPath": "content\\blog\\315.md",
+      "sourceRecord": "public\\assets\\images\\posts\\315\\image-sources.md",
+      "imageCount": 4,
+      "images": [
+        {
+          "url": "/assets/images/posts/315/myeongdong-night-neon.jpg",
+          "alt": "A Myeongdong street at night lit by stacked neon signs for K-beauty and cosmetics shops.",
+          "caption": "Myeongdong at night: layered neon for cosmetics, street food, and cafes down one lane. Photo by Saksham Vikram on Pexels.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/315/myeongdong-street-food-stall.jpg",
+          "alt": "A Myeongdong street-food stall with a Korean price sign for roast chestnuts, corn, and ginkgo nuts.",
+          "caption": "Myeongdong carts post their prices — chestnuts, corn, and dalgona here — so a quick glance keeps you from overpaying. Photo by Theodore Nguyen on Pexels.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/315/myeongdong-shopping-crowd.jpg",
+          "alt": "A daytime Myeongdong street lined with K-beauty shops advertising cosmetics wholesale and tax-free sales.",
+          "caption": "Cosmetics shops line the Myeongdong lanes, many advertising tax-free and wholesale pricing. Photo by Theodore Nguyen on Pexels.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/315/myeongdong-street-scene.jpg",
+          "alt": "A daytime Myeongdong lane with food stalls and cosmetics-shop signs, under a \"clean Myeongdong street\" banner.",
+          "caption": "By day the same lanes are quieter, with vendors setting up and cosmetics shops already open. Photo by Theodore Nguyen on Pexels.",
+          "ext": ".jpg",
+          "exists": true
+        }
+      ],
+      "findings": []
+    },
+    {
+      "type": "blog",
+      "slug": "316",
+      "title": "Nami Island Day Trip from Seoul 2026: Ferry, Foliage, and Trees",
+      "contentPath": "content\\blog\\316.md",
+      "sourceRecord": "public\\assets\\images\\posts\\316\\image-sources.md",
+      "imageCount": 4,
+      "images": [
+        {
+          "url": "/assets/images/posts/316/nami-metasequoia-winter.jpg",
+          "alt": "A snow-dusted avenue of tall metasequoia trees on Nami Island in winter.",
+          "caption": "Nami's tree-lined lanes are the island's signature, and winter turns them into something out of a film. Photo via Wikimedia Commons (CC BY-SA 4.0).",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/316/nami-ferry-gapyeong.jpg",
+          "alt": "The Nami Island ferry with flags and a \"Naminara Republic\" banner crossing the lake.",
+          "caption": "The short ferry to Nami is part of the fun, playing up the island's \"Naminara Republic\" theme. Photo by Minseong Kim via Wikimedia Commons (CC BY-SA 4.0).",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/316/nami-tree-tunnel-summer.jpg",
+          "alt": "A leafy summer tree tunnel path beside the lake on Nami Island.",
+          "caption": "In summer the same avenues become shaded green tunnels along the lakeside. Photo by Jocelyndurrey via Wikimedia Commons (CC BY-SA 4.0).",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/316/nami-peacock.jpg",
+          "alt": "A peacock walking freely on the grounds of Nami Island.",
+          "caption": "Nami's free-roaming animals, like this peacock, are one of the island's quiet delights. Photo via Wikimedia Commons (CC BY-SA 4.0).",
+          "ext": ".jpg",
+          "exists": true
+        }
+      ],
+      "findings": []
+    },
+    {
+      "type": "blog",
+      "slug": "317",
+      "title": "Korean Diet Secrets 2026: Kimchi, Fermentation, and Why Koreans Live Longer",
+      "contentPath": "content\\blog\\317.md",
+      "sourceRecord": "public\\assets\\images\\posts\\317\\image-sources.md",
+      "imageCount": 4,
+      "images": [
+        {
+          "url": "/assets/images/posts/317/kimchi-bowl.jpg",
+          "alt": "Close-up of traditional Korean kimchi served in a white bowl on a Korean metal dining tray.",
+          "caption": "Kimchi is the most famous piece of the Korean diet, but it's one part of a much bigger system. Photo by Theodore Nguyen via Pexels.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/317/banchan-spread.jpg",
+          "alt": "Kimchi and pickled radish banchan served in traditional Korean metal side-dish bowls.",
+          "caption": "A simple banchan spread: kimchi and pickled radish in the small metal bowls used at most Korean tables. Photo by Theodore Nguyen via Pexels.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/317/seoul-market.jpg",
+          "alt": "A traditional Korean market in Seoul with vendors and fresh produce for daily cooking.",
+          "caption": "Fresh produce at a Seoul market. Most Korean households still shop for vegetables in small batches rather than one large weekly haul. Photo by Theodore Nguyen via Pexels.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/317/market-vegetables.jpg",
+          "alt": "Fresh bean sprouts, shredded carrot, and chives at a Korean market, common banchan and kimchi ingredients.",
+          "caption": "Bean sprouts, carrot, and chives, the kind of everyday produce that becomes tomorrow's banchan or kimchi. Photo by Theodore Nguyen via Pexels.",
+          "ext": ".jpg",
+          "exists": true
+        }
+      ],
+      "findings": []
+    },
+    {
       "type": "business",
       "slug": "apr-medicube-global-beauty-tech-deep-dive",
       "title": "APR Corporation Deep Dive 2026: How Medicube Built a Global Beauty-Tech Flywheel",
@@ -11945,6 +12101,38 @@
           "detail": "2 SVG body image(s); mixed-media use requires manual relevance review"
         }
       ]
+    },
+    {
+      "type": "business",
+      "slug": "korean-apparel-suppliers",
+      "title": "Korean Apparel Manufacturers 2026: Dongdaemun Sourcing Guide",
+      "contentPath": "content\\business\\korean-apparel-suppliers.md",
+      "sourceRecord": "public\\assets\\images\\business\\korean-apparel-suppliers\\image-sources.md",
+      "imageCount": 3,
+      "images": [
+        {
+          "url": "/assets/images/business/korean-apparel-suppliers/pyounghwa-fashion-plaza.jpg",
+          "alt": "Pyounghwa Fashion Plaza, a Dongdaemun wholesale apparel market building, seen along Cheonggyecheon in Seoul.",
+          "caption": "Pyounghwa Fashion Plaza is one of the historic wholesale buildings at the heart of Dongdaemun's apparel trade. Photo via Wikimedia Commons (CC BY-SA 4.0).",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/business/korean-apparel-suppliers/dongdaemun-market.jpg",
+          "alt": "Dongdaemun's cluster of large wholesale fashion malls and shopping towers in Seoul.",
+          "caption": "Dongdaemun packs wholesale malls, retail towers, fabric markets, and production workshops into one dense district. Photo via Wikimedia Commons (CC BY-SA 2.0).",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/business/korean-apparel-suppliers/ddp-night.jpg",
+          "alt": "Dongdaemun Design Plaza lit at night, the modern landmark of Seoul's fashion district.",
+          "caption": "Dongdaemun Design Plaza anchors the district's identity as a global fashion hub, hosting shows and exhibitions beside the working wholesale markets. Photo via Wikimedia Commons (CC0).",
+          "ext": ".jpg",
+          "exists": true
+        }
+      ],
+      "findings": []
     },
     {
       "type": "business",
