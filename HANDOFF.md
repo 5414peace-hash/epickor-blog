@@ -10,6 +10,12 @@
 4. Read only files named under Active Work or the user request.
 5. Search the archive narrowly with `rg` only for a specific slug, decision, or incident.
 
+## Current Snapshot - 2026-07-24 (evening)
+
+- **Blog 318 published, deployed, LIVE-verified: "Lookism in Korea Explained" (`/blog/318`).** First post from the representative-approved W30 topic batch, filling a GSC-verified gap (query "oemo jisang juui" reached the site at pos 20.5 with no dedicated page). 2189 words, reviewer 100/100, 3 Korea-first images (1 candidate rejected for missing Korea context), BBC/CNN/JoongAng/peer-reviewed sourcing, balanced sensitive-topic framing. Commit `3cdb673b`; next_slug `319`.
+- **CTR surgery on 090/082 was deliberately SKIPPED and deferred to W32** after a git audit showed both already got title/CTR work on 7/18 (082 also 7/8): the 3-month GSC window is ~94% old-title data, so re-editing now would be evidence-free churn. Correction note added inside `week_2026W30.md`. Measure new-title CTR from a fresh GSC export ~2026-08-07.
+- **Queue refilled with 4 approved W30 topics** (ids 140-143): lookism (done as 318), jeong (정) explainer, Seoul observatory comparison (spin-off of 314), fried-chicken brand comparison (spin-off of 018). 3 remain pending.
+
 ## Current Snapshot - 2026-07-24 (later)
 
 - **W30 strategy report generated from fresh 2026-07-24 GSC data** (`output/strategy/week_2026W30.md`, local-only since `output/` is gitignored). Site 3-month totals: 1,234 clicks / 336K impressions / 0.37% CTR. Headline findings: Blog `090` (ahjussi) has 158K impressions at 0.09% CTR and `082` (SKY) 31K at 0.16% — CTR title/description surgery on these two is the single highest-leverage action on the site (~190K impressions already ranked, snippet losing the click). Seasonal: `200` Chuseok refresh window is now (~2-month lead). New-topic shortlist (duplicate-audited, awaiting representative approval): lookism explainer (GSC query evidence at pos 20.5), jeong (정) explainer, Seoul observatory comparison (spin-off of 314), fried-chicken brand comparison (spin-off of 018). Blogs 306-313 indexed but ≤1 click (too fresh to judge); 314-317 not yet in GSC.
