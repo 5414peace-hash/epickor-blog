@@ -1,10 +1,10 @@
 {
   "summary": {
-    "generatedAt": "2026-07-23T14:46:54.454Z",
-    "auditedPosts": 297,
+    "generatedAt": "2026-07-24T01:21:25.312Z",
+    "auditedPosts": 298,
     "includedPrivate": false,
     "slugFilter": "",
-    "bodyImages": 1080,
+    "bodyImages": 1083,
     "affectedPosts": 118,
     "critical": 0,
     "high": 0,
@@ -11814,6 +11814,38 @@
           "url": "/assets/images/posts/317/market-vegetables.jpg",
           "alt": "Fresh bean sprouts, shredded carrot, and chives at a Korean market, common banchan and kimchi ingredients.",
           "caption": "Bean sprouts, carrot, and chives, the kind of everyday produce that becomes tomorrow's banchan or kimchi. Photo by Theodore Nguyen via Pexels.",
+          "ext": ".jpg",
+          "exists": true
+        }
+      ],
+      "findings": []
+    },
+    {
+      "type": "blog",
+      "slug": "318",
+      "title": "Lookism in Korea Explained: Beauty Standards, Jobs, Daily Life",
+      "contentPath": "content\\blog\\318.md",
+      "sourceRecord": "public\\assets\\images\\posts\\318\\image-sources.md",
+      "imageCount": 3,
+      "images": [
+        {
+          "url": "/assets/images/posts/318/myeongdong-beauty-signs.jpg",
+          "alt": "A Myeongdong shopping street lined with Korean cosmetics shop signs and skincare advertising.",
+          "caption": "In shopping districts like Myeongdong, beauty marketing isn't a section of the street — it is the street. Photo via Pexels.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/318/subway-clinic-ad.jpg",
+          "alt": "A Seoul subway passage with a large illuminated clinic advertisement beside commuters.",
+          "caption": "Clinic advertising in a Seoul subway passage. Medical and beauty ads are part of the everyday commute backdrop. Photo via Pexels.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/318/seoul-street.jpg",
+          "alt": "A busy central Seoul street with office towers, large digital screens, and pedestrians crossing.",
+          "caption": "Daily life in central Seoul. Most of what a visitor experiences is ordinary city life — lookism is a current under the surface, not a wall you hit. Photo via Pexels.",
           "ext": ".jpg",
           "exists": true
         }

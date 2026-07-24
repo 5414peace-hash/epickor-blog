@@ -3075,8 +3075,90 @@
       "scheduled_for": null,
       "generated_slug": "korean-apparel-suppliers",
       "generated_date": "2026-07-22"
+    },
+    {
+      "id": 140,
+      "title": "Lookism in Korea Explained: Beauty Standards, Jobs, and Daily Life",
+      "keywords": [
+        "lookism Korea",
+        "Korean beauty standards",
+        "oemo jisang juui",
+        "appearance discrimination Korea"
+      ],
+      "category": "Culture",
+      "tags": [
+        "KoreanCulture",
+        "BeautyStandards",
+        "Lookism",
+        "KoreanSociety"
+      ],
+      "amazon_category": "Beauty",
+      "status": "done",
+      "note": "Approved 2026-07-24 from W30 GSC evidence (query oemo jisang juui pos 20.5, no dedicated page). Sensitive topic: cite research/media, no mockery, balanced tone. Adjacent: 023 Gangnam plastic surgery district.",
+      "generated_slug": "318",
+      "generated_date": "2026-07-24"
+    },
+    {
+      "id": 141,
+      "title": "Jeong (정) Explained: The Korean Bond That Has No English Word",
+      "keywords": [
+        "jeong meaning",
+        "jeong Korean culture",
+        "what is jeong",
+        "Korean emotional culture"
+      ],
+      "category": "Culture",
+      "tags": [
+        "KoreanCulture",
+        "Jeong",
+        "KoreanSociety",
+        "Language"
+      ],
+      "amazon_category": "Books",
+      "status": "pending",
+      "note": "Approved 2026-07-24. Zero coverage in 285 posts; evergreen social-concept lane (ahjussi/nunchi/SKY pattern)."
+    },
+    {
+      "id": 142,
+      "title": "Seoul Observatory Showdown 2026: N Seoul Tower vs Lotte World Tower vs 63 Building",
+      "keywords": [
+        "Seoul observatory",
+        "Lotte World Tower Seoul Sky",
+        "N Seoul Tower vs Lotte Tower",
+        "best view of Seoul"
+      ],
+      "category": "Travel",
+      "tags": [
+        "SeoulTravel",
+        "NSeoulTower",
+        "LotteWorldTower",
+        "KoreaTravel"
+      ],
+      "amazon_category": "Travel",
+      "status": "pending",
+      "note": "Approved 2026-07-24. Labeled spin-off of 314 (N Seoul Tower). Decision-frame guide = site best CTR class (275/300). Footage-gate candidate for Reels."
+    },
+    {
+      "id": 143,
+      "title": "Korean Fried Chicken Brands Compared 2026: BHC vs BBQ vs Kyochon",
+      "keywords": [
+        "Korean fried chicken brands",
+        "BHC vs BBQ chicken",
+        "Kyochon",
+        "best Korean chicken chain"
+      ],
+      "category": "Food",
+      "tags": [
+        "KoreanFood",
+        "KoreanFriedChicken",
+        "Chimaek",
+        "FoodGuide"
+      ],
+      "amazon_category": "Food",
+      "status": "pending",
+      "note": "Approved 2026-07-24. Labeled spin-off of 018 (chimaek culture): buyer-decision intent (which brand/menu/how to order)."
     }
   ],
   "last_updated": "2026-07-23",
-  "next_slug": 318
+  "next_slug": 319
 }
