@@ -14,7 +14,7 @@ author: "EpicKor"
 
 Museum Kimchikan is one of the easiest places in Seoul to understand why kimchi is more than a red side dish. It sits in Insadong, a neighborhood many travelers already visit for tea houses, crafts, galleries, souvenirs, and old Seoul atmosphere. That makes it a useful cultural stop: compact enough for a first trip, specific enough to teach something real, and close enough to combine with other Jongno-area plans.
 
-The museum works best if you treat it as a kimchi literacy stop. You are not only looking at jars and cabbage. You are learning why kimchi changes by region, why fermentation matters, why kimjang became UNESCO-listed heritage, and why a small dish on a restaurant table can carry family memory, seasonal labor, and community care.
+The museum works best if you treat it as a kimchi literacy stop. You are not only looking at jars and cabbage. You are learning why kimchi changes by region, why fermentation matters, why kimjang became UNESCO-listed heritage, and why a small dish on a restaurant table can carry family memory, seasonal labor, and community care. If you want the bigger picture behind that — how kimchi and fermentation fit into the Korean diet and its longevity story — EpicKor's [Korean diet secrets guide](/blog/317) covers it.
 
 This guide explains what Museum Kimchikan is, how to visit, what to know about kimjang, who should book an experience program, what food-allergy issues matter, and how to combine the museum with Insadong, Ikseon-dong, palaces, or a food day.
 

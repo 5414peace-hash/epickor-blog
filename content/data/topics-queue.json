@@ -484,8 +484,8 @@
         "GlobalKorea"
       ],
       "amazon_category": "Shopping",
-      "status": "in_progress",
-      "generated_slug": "315"
+      "status": "pending",
+      "note": "Previously mis-claimed slug 315 via pipeline auto-select bug (315 is actually Myeongdong). Reset 2026-07-24. NOTE: substantially overlaps published Hallyu coverage (085 K-branding, 056) - re-audit before drafting."
     },
     {
       "id": 24,
@@ -630,7 +630,7 @@
         "KoreanDiet"
       ],
       "amazon_category": "Food",
-      "status": "in_progress",
+      "status": "done",
       "generated_slug": "317",
       "generated_date": "2026-07-23"
     },
