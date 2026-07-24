@@ -10,6 +10,12 @@
 4. Read only files named under Active Work or the user request.
 5. Search the archive narrowly with `rg` only for a specific slug, decision, or incident.
 
+## Current Snapshot - 2026-07-24 (later)
+
+- **W30 strategy report generated from fresh 2026-07-24 GSC data** (`output/strategy/week_2026W30.md`, local-only since `output/` is gitignored). Site 3-month totals: 1,234 clicks / 336K impressions / 0.37% CTR. Headline findings: Blog `090` (ahjussi) has 158K impressions at 0.09% CTR and `082` (SKY) 31K at 0.16% — CTR title/description surgery on these two is the single highest-leverage action on the site (~190K impressions already ranked, snippet losing the click). Seasonal: `200` Chuseok refresh window is now (~2-month lead). New-topic shortlist (duplicate-audited, awaiting representative approval): lookism explainer (GSC query evidence at pos 20.5), jeong (정) explainer, Seoul observatory comparison (spin-off of 314), fried-chicken brand comparison (spin-off of 018). Blogs 306-313 indexed but ≤1 click (too fresh to judge); 314-317 not yet in GSC.
+- **Reverse links to Blog 317 added from 050/062/302, deployed, live-verified.** Queue data fixed: topic 23's falsely claimed slug 315 cleared (auto-select bug residue), topic 30 marked done. Queue now: 137 done / 2 pending — still effectively empty pending topic approval.
+- **Deploy pipeline is healthy again**: this session's deploy completed in ~5 minutes end to end with no size anomaly.
+
 ## Current Snapshot - 2026-07-24
 
 - **Blog 317 published, deployed, and LIVE-verified: "Korean Diet Secrets 2026: Kimchi, Fermentation, and Why Koreans Live Longer."** Topic came from the existing queue (id 30), duplicate-audited against the K-pop-idol-training queue topic (already covered by Blog 306, correctly skipped). Timely hook: OECD Health Statistics 2026 record life-expectancy release (83.7 years), published the same day, cited from three independent outlets. Also covers the banchan system, kimchi/fermentation, the UNESCO-listed Kimjang tradition, and practical at-home steps. 2238 words, reviewer 100/100, 4 Korea-first Pexels images (all manually inspected), 2 HTML tables, 6 FAQs, 2 disclosed Amazon CTAs (direct gochujang/kimchi-stew links plus a Korean-cookbook search link). Commit `d1a2eb27` on `origin/master`; next_slug is `318`.
