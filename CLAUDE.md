@@ -313,6 +313,14 @@ Reviewer and Publisher agents must verify rendered images, not just markdown syn
 - Reviewer must score blog images against this standard before approval. If a direct real reference image was reasonably available but a generic/graphic substitute was used, that image should fail visual review.
 - Before approval, run `npm run audit:image-context -- --slug {slug}` and inspect the rendered desktop and mobile article. Critical/high findings block publication.
 
+### Cross-Post Image Uniqueness (all posts, not just card news)
+
+- The "do not reuse an image across posts" rule already applied to card news (see Card News Brand Rules) but never applied to regular blog/business post images until a 2026-07-25 incident: Pexels photo `31925324` was used as the hero image of three separate posts (`192`, `239`, `318`) over six weeks because nothing checked for it. The rule now applies to every image in `public/assets/images/posts/` and `public/assets/images/business/`, not just card news.
+- Before selecting any Pexels/Unsplash/stock photo for a post, run `node scripts/audit-image-uniqueness.mjs --check-id {photoId}` (or the full scan `npm run audit:image-uniqueness`) and reject any candidate already flagged as used by another post. Do this at selection time, not after the draft is written — it is much cheaper to pick a different photo than to redo a hero image after publish.
+- **Do not rely on SHA-256/byte-hash duplicate checks for this.** An earlier ad hoc version of this check (see Blog `239`'s `image-sources.md` history) compared file hashes and reported "not a duplicate" for the exact photo above, because each post's copy had been compressed independently to different bytes even though the source photo was identical. Hash comparison only catches literal copy-paste of the same file; it does not catch "same Pexels ID, downloaded and compressed twice." Always key the check off the documented source URL/photo ID in `image-sources.md`, which is what `scripts/audit-image-uniqueness.mjs` does.
+- Record the source photo ID in `image-sources.md` for every image, in a `photos/{id}` or `photo/{id}` URL pattern, so the audit script can parse it. Entries that only paste a bare CDN URL without the recognizable ID pattern will silently escape the check.
+- `npm run audit:image-uniqueness` with no `--slug` runs a full site-wide scan and is useful for periodic cleanup sweeps, not just per-post gating.
+
 Do not use or fund the Gemini Developer API without explicit representative approval. Google AI Pro's included Flow/Whisk credits may be used manually for scoped visual experiments under the Reels rules; subscription credits do not make API calls free.
 
 ---

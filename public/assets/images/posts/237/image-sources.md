@@ -2,6 +2,13 @@
 
 Blog: `237` - `Korean Fragrance Shopping Guide 2026: Tamburins, Nonfiction, Granhand, and Skin Scents`
 
+**Note (2026-07-25):** `bodycare-perfume-shelf.jpg` was corrected in this pass (see entry #4,
+was a duplicate of Blog 192). This post still has one other pre-existing cross-post duplicate
+not fixed here: `myeongdong-night-shopping-street.jpg` (photo 33019190) is also used by Blog 134
+(`kpop-themed-building-seoul-pexels.jpg`/`myeongdong-shopping-night-pexels.jpg`). Out of scope
+for the 2026-07-25 incident fix; left for a separate cleanup pass. Run
+`node scripts/audit-image-uniqueness.mjs` for the full current list.
+
 ## Selected Images
 
 1. `myeongdong-night-shopping-street.jpg`
@@ -23,10 +30,13 @@ Blog: `237` - `Korean Fragrance Shopping Guide 2026: Tamburins, Nonfiction, Gran
    - Use: Neutral perfume bottle image with no brand/country text risk.
 
 4. `bodycare-perfume-shelf.jpg`
-   - Source: Pexels
-   - URL: https://images.pexels.com/photos/4202321/pexels-photo-4202321.jpeg
+   - Source: Pexels (was photo 4202321 until 2026-07-25, replaced: found to be a cross-post
+     duplicate already used as `public/assets/images/posts/192/skincare-products-flatlay.jpg`)
+   - URL: https://images.pexels.com/photos/4202329/pexels-photo-4202329.jpeg
    - Credit: Photo by Kaboompics.com on Pexels
    - Use: Body care and perfume format comparison.
+   - Verified unique site-wide by Pexels ID on 2026-07-25 (see `scripts/audit-image-uniqueness.mjs`
+     and `HANDOFF.md` 2026-07-25).
 
 ## Rejected Candidate
 

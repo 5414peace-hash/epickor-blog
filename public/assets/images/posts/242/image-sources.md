@@ -23,11 +23,19 @@ Representative asked to double-check whether the images read as Korean. The firs
    - Visual review: Korea-shot outdoor-market context; used as broader flea-market support, not as a clothing-only claim.
 
 3. `seoul-vintage-clothing-racks.jpg`
-   - Source: Pexels, photo 31783000
-   - Photographer: Theodore Nguyen
-   - URL: https://images.pexels.com/photos/31783000/pexels-photo-31783000.jpeg
+   - Source: Pexels, photo 28916457 (was photo 31783000 until 2026-07-25, replaced: found to
+     be a cross-post duplicate already used as `public/assets/images/posts/129/seoul-vintage-clothing-racks.jpg`)
+   - Photographer: Pexels contributor
+   - URL: https://images.pexels.com/photos/28916457/pexels-photo-28916457.jpeg
    - Use: Hongdae/youth vintage section.
-   - Visual review: Seoul street clothing racks with Korean market context; much stronger fit than the previous generic thrift-store image.
+   - Visual review: Young Koreans in casual streetwear on a busy Seoul shopping street; confirmed
+     Korea context (bicycle, storefronts, street banners). Does not show clothing racks
+     specifically, so the article caption was adjusted to describe the actual image content
+     rather than overclaim.
+   - Verified unique site-wide by Pexels ID on 2026-07-25 (see `scripts/audit-image-uniqueness.mjs`
+     and `HANDOFF.md` 2026-07-25). Note: this post still has one other pre-existing cross-post
+     duplicate (photo 29562546, shared with Blog 194 and Blog 253) that was NOT fixed in this
+     pass - out of scope for the 2026-07-25 incident, left for a separate cleanup.
 
 4. `seoul-shopping-alley-boutiques.jpg`
    - Source: Pexels, photo 31680634

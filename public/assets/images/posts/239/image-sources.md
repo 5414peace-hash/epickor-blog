@@ -9,12 +9,19 @@ Representative asked to double-check whether the images read as Korean. The firs
 ## Selected Images
 
 1. `myeongdong-kbeauty-cosmetics-street.jpg`
-   - Source: Pexels, photo 31925324
-   - Photographer: Theodore Nguyen
-   - URL: https://images.pexels.com/photos/31925324/pexels-photo-31925324.jpeg
+   - Source: Pexels, photo 32014943 (was 31925324 until 2026-07-25)
+   - Photographer: Pexels contributor
+   - URL: https://images.pexels.com/photos/32014943/pexels-photo-32014943.jpeg
    - Use: Hero/OG image.
-   - Visual review: Strong Korea and beauty-shopping fit with visible Myeongdong cosmetics/skincare storefront context.
-   - Duplicate review: Not an exact hash duplicate of another `public/assets/images/posts/` image.
+   - Visual review: Colorful "Seoul" sign landmark art installation on a Myeongdong street; location confirmed by the photo's own #myeongdong/#zaemiro hashtags visible in-frame.
+   - Duplicate review (2026-07-25): The original photo 31925324 passed the 2026-06-27 SHA-256
+     exact-file-hash duplicate check at the time, but was in fact already the hero image of Blog
+     192 (published 2026-06-10) — SHA-256 comparison only catches byte-identical files, and each
+     post's copy had been compressed independently to a different file, so the hashes never
+     matched even though the source photo was the same. It was later also copied into Blog 318
+     as a third use. Replaced here with a source verified unique by Pexels ID against every
+     `image-sources.md` on the site (see `scripts/audit-image-uniqueness.mjs`), which is the
+     correct check going forward — not file-hash comparison. See `HANDOFF.md` 2026-07-25.
 
 2. `scalp-serum-dropper.jpg`
    - Source: Pexels, photo 28994390
