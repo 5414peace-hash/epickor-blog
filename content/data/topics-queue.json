@@ -3115,8 +3115,10 @@
         "Language"
       ],
       "amazon_category": "Books",
-      "status": "pending",
-      "note": "Approved 2026-07-24. Zero coverage in 285 posts; evergreen social-concept lane (ahjussi/nunchi/SKY pattern)."
+      "status": "done",
+      "note": "Approved 2026-07-24. Zero coverage in 285 posts; evergreen social-concept lane (ahjussi/nunchi/SKY pattern).",
+      "generated_slug": "319",
+      "generated_date": "2026-07-25"
     },
     {
       "id": 142,
@@ -3135,8 +3137,10 @@
         "KoreaTravel"
       ],
       "amazon_category": "Travel",
-      "status": "pending",
-      "note": "Approved 2026-07-24. Labeled spin-off of 314 (N Seoul Tower). Decision-frame guide = site best CTR class (275/300). Footage-gate candidate for Reels."
+      "status": "done",
+      "note": "Approved 2026-07-24. Labeled spin-off of 314 (N Seoul Tower). Decision-frame guide = site best CTR class (275/300). Footage-gate candidate for Reels.",
+      "generated_slug": "320",
+      "generated_date": "2026-07-25"
     },
     {
       "id": 143,
@@ -3155,10 +3159,12 @@
         "FoodGuide"
       ],
       "amazon_category": "Food",
-      "status": "pending",
-      "note": "Approved 2026-07-24. Labeled spin-off of 018 (chimaek culture): buyer-decision intent (which brand/menu/how to order)."
+      "status": "done",
+      "note": "Approved 2026-07-24. Labeled spin-off of 018 (chimaek culture): buyer-decision intent (which brand/menu/how to order).",
+      "generated_slug": "321",
+      "generated_date": "2026-07-25"
     }
   ],
-  "last_updated": "2026-07-23",
+  "last_updated": "2026-07-25",
   "next_slug": 319
 }
