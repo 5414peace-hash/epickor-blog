@@ -1,10 +1,10 @@
 {
   "summary": {
-    "generatedAt": "2026-07-25T01:40:53.677Z",
-    "auditedPosts": 298,
+    "generatedAt": "2026-07-25T06:20:30.526Z",
+    "auditedPosts": 301,
     "includedPrivate": false,
     "slugFilter": "",
-    "bodyImages": 1083,
+    "bodyImages": 1092,
     "affectedPosts": 118,
     "critical": 0,
     "high": 0,
@@ -11846,6 +11846,102 @@
           "url": "/assets/images/posts/318/seoul-street.jpg",
           "alt": "A busy central Seoul street with office towers, large digital screens, and pedestrians crossing.",
           "caption": "Daily life in central Seoul. Most of what a visitor experiences is ordinary city life — lookism is a current under the surface, not a wall you hit. Photo via Pexels.",
+          "ext": ".jpg",
+          "exists": true
+        }
+      ],
+      "findings": []
+    },
+    {
+      "type": "blog",
+      "slug": "319",
+      "title": "Jeong (정) Explained: The Korean Bond That Has No English Word",
+      "contentPath": "content\\blog\\319.md",
+      "sourceRecord": "public\\assets\\images\\posts\\319\\image-sources.md",
+      "imageCount": 3,
+      "images": [
+        {
+          "url": "/assets/images/posts/319/korean-market-vendor-jeong.jpg",
+          "alt": "A Korean market food stall vendor handing a wrapped order across the counter to a customer.",
+          "caption": "The extra scoop, the \"just take it\" side dish, the vendor who remembers your order — jeong shows up in small transactions more than grand gestures. Photo via Pexels.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/319/korean-shared-meal-soju.jpg",
+          "alt": "Friends and family sharing a Korean meal at a restaurant table with soju bottles, kimchi, and a shared hot pot.",
+          "caption": "A shared pot, shared bottle, shared table — jeong is built collectively more often than it's declared individually. Photo via Pexels.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/319/traditional-hanok-pavilion.jpg",
+          "alt": "A traditional Korean wooden pavilion with a tiled roof, surrounded by pine trees under a clear sky.",
+          "caption": "Jeong for a place doesn't require it to be extraordinary — just familiar and shared. Photo via Pexels.",
+          "ext": ".jpg",
+          "exists": true
+        }
+      ],
+      "findings": []
+    },
+    {
+      "type": "blog",
+      "slug": "320",
+      "title": "Seoul Observatory Showdown 2026: N Seoul Tower vs Lotte World Tower vs 63 Building",
+      "contentPath": "content\\blog\\320.md",
+      "sourceRecord": "public\\assets\\images\\posts\\320\\image-sources.md",
+      "imageCount": 3,
+      "images": [
+        {
+          "url": "/assets/images/posts/320/lotte-world-tower-sunset.jpg",
+          "alt": "Lotte World Tower rising above Seokchon Lake and the Lotte World amusement park at sunset in Seoul.",
+          "caption": "Lotte World Tower dominates the Jamsil skyline — at 555 meters, it's the tallest building in South Korea and one of the tallest in the world. Photo via Pexels.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/320/n-seoul-tower-view.jpg",
+          "alt": "A visitor smiling at N Seoul Tower's observation deck with Seoul's skyline and Bukhansan's mountains behind.",
+          "caption": "The view from Namsan's observation deck — central Seoul in the foreground, Bukhansan's peaks on the horizon. Photo via Pexels.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/320/63-building-han-river.jpg",
+          "alt": "The 63 Building's distinctive gold-glass tower rising above the Han River in Yeouido, Seoul.",
+          "caption": "The 63 Building's gold-tinted glass facade over the Han River — its observation deck spent 16 years closed before reopening in June 2026. Photo via Pexels.",
+          "ext": ".jpg",
+          "exists": true
+        }
+      ],
+      "findings": []
+    },
+    {
+      "type": "blog",
+      "slug": "321",
+      "title": "Korean Fried Chicken Brands Compared 2026: BHC vs BBQ vs Kyochon",
+      "contentPath": "content\\blog\\321.md",
+      "sourceRecord": "public\\assets\\images\\posts\\321\\image-sources.md",
+      "imageCount": 3,
+      "images": [
+        {
+          "url": "/assets/images/posts/321/korean-yangnyeom-chicken-suwon.jpg",
+          "alt": "Close-up of glazed, spicy Korean fried chicken pieces on a plate with pickled radish cubes in Suwon, South Korea.",
+          "caption": "Yangnyeom-style (양념) glazed chicken, served with the mandatory side of pickled radish cubes (danmuji) to cut the richness. Photo via Pexels.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/321/korean-half-half-chicken-plate.jpg",
+          "alt": "Half-fried, half-glazed Korean fried chicken plated with shredded cabbage, lettuce, and carrot garnish.",
+          "caption": "A \"반반\" (ban-ban, \"half-half\") order — plain fried on one side, glazed on the other — is the standard way Koreans hedge between two flavors in a single box. Photo via Pexels.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/321/goobne-chicken-storefront.jpg",
+          "alt": "A Goobne Chicken storefront in South Korea with red-and-black branding and a large menu poster.",
+          "caption": "Goobne's storefronts are easy to spot — and unlike the big three, \"No.1 Oven Roasted Chicken\" is right there in the branding. Photo via Pexels.",
           "ext": ".jpg",
           "exists": true
         }

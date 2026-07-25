@@ -13,3 +13,16 @@ Rejected during selection: Pexels 5773996, a near-duplicate crop of the same pho
 one post, so only 5773964 was kept.
 
 Downloaded and inspected 2026-07-25. Verified unique site-wide before publish.
+
+## Fact verification note
+
+A same-day self-check after publish caught two inaccurate brand-history claims in the original
+draft and corrected them: (1) BHC was described as originally launched under the name "Bunny's
+Chicken" - no source supports this; BHC's own official history page begins "Our History From
+2004," and the brand became an independently managed company in 2013 (previously connected to
+the BBQ/Genesis group per multiple business-press sources). (2) BBQ's olive-oil frying was
+described as part of its 1995 founding identity - it was actually adopted later: the founder
+began exploring olive oil around 2002, and "Golden Olive Chicken" launched in 2007, per Korea
+Times business coverage and BBQ's own company history page. Kyochon's 1991 founding (Kwon
+Won-kang, Gumi) was independently confirmed via Wikipedia and the brand's own "Kyochon 1991"
+branding and was not affected. Corrected in `content/blog/321.md` same-day as publish.

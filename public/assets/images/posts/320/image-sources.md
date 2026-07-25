@@ -13,10 +13,15 @@ Downloaded and inspected 2026-07-25. Verified unique site-wide before publish.
 ## Fact verification note
 
 The 63 Building's observatory status was independently verified via WebSearch/WebFetch during
-drafting (not just the thin research.json blog summaries): 63 Sky Art closed 2024-06-30 for
-renovation, reopened 2026-06-04 as "63 SkyPicnic" on the 60th floor with an open-air rooftop.
-Cross-checked against waug.com (magazine), the official VisitSeoul page, and ticket-price
-aggregators (Klook/Trip.com) for the ₩24,300/₩20,700 pricing and 10:00-22:00 hours cited in the
-article. N Seoul Tower (~₩29,000 observatory-only) and Lotte World Tower Seoul Sky (~₩31,000)
-prices were similarly cross-checked against multiple current sources, not taken from a single
-blog aggregator.
+drafting (not just the thin research.json blog summaries). Initial verification pass concluded
+the whole observatory was "closed 16 years" (per waug.com's headline framing), which was published
+in article body text. A follow-up self-check caught that this conflated two different facts:
+the ROOFTOP was closed to the public for ~16 years (mostly military/electrical equipment, with a
+partial 20%-open one-day event in 2010 per NamuWiki), while the separate INDOOR 63 Sky Art
+observatory operated normally until its own 2024-06-30 closure for renovation. Both reopened
+together 2026-06-04 as "63 SkyPicnic." Corrected in the published post (2026-07-25, same-day as
+publish) to accurately attribute the 16-year closure to the rooftop specifically, not the whole
+observatory. Cross-checked against waug.com, NamuWiki, the official VisitSeoul page, and
+ticket-price aggregators (Klook/Trip.com) for the ₩24,300/₩20,700 pricing and 10:00-22:00 hours
+cited in the article. N Seoul Tower (~₩29,000 observatory-only) and Lotte World Tower Seoul Sky
+(~₩31,000) prices were similarly cross-checked against multiple current sources.
