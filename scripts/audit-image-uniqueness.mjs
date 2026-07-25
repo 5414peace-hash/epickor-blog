@@ -58,14 +58,19 @@ function slugFromPath(file) {
   return rel.length >= 2 ? `${rel[0]}/${rel[1]}` : rel[0];
 }
 
-// Matches Pexels/Unsplash/Pixabay-style numeric photo IDs embedded in a URL, e.g.
+// Matches Pexels/Unsplash/Pixabay-style numeric photo IDs embedded in a URL. Two shapes
+// both occur in this codebase's image-sources.md files:
 //   .../photos/31925324/pexels-photo-31925324.jpeg
 //   https://www.pexels.com/photo/31925324/
-const ID_RE = /photo[s]?[/_-]?(\d{5,})/gi;
+//   https://www.pexels.com/photo/outdoor-shop-in-seoul-bustling-...-29562546/  (slugified,
+//     id is a TRAILING number after the descriptive slug, not right after "photo/")
+const ID_RE_PREFIX = /photo[s]?[/_-]?(\d{5,})/gi;
+const ID_RE_TRAILING = /-(\d{5,})\/?(?=["'`)\s]|$)/g;
 
 function extractIds(content) {
   const ids = new Set();
-  for (const m of content.matchAll(ID_RE)) ids.add(m[1]);
+  for (const m of content.matchAll(ID_RE_PREFIX)) ids.add(m[1]);
+  for (const m of content.matchAll(ID_RE_TRAILING)) ids.add(m[1]);
   return ids;
 }
 

@@ -20,9 +20,10 @@ Post: Seoul One-Day Class Culture 2026
    - Review: Direct perfume-making process image. Supports perfume class section.
 
 4. `seoul-craft-street-shop.jpg`
-   - Source: Pexels photo `29562546`, Alexander London.
-   - URL: https://www.pexels.com/photo/outdoor-shop-in-seoul-bustling-with-assorted-goods-and-vibrant-street-activity-29562546/
-   - Review: Real Seoul shop/street context. Provides local neighborhood context around classes and souvenir walks.
+   - Source: Pexels photo `19271579`.
+   - URL: https://www.pexels.com/photo/19271579/
+   - Review: Quiet Seoul alley with small cafe/craft-shop signage in Korean. Provides local neighborhood context around classes and souvenir walks.
+   - **2026-07-25 correction:** was photo 29562546 until 2026-07-25, replaced: cross-post duplicate also used by Blogs 194 and 242 (three-way duplicate). Blog 194 is the earliest and keeps the original; Blog 242 was also replaced separately in the same pass with a different image. First replacement attempt (photo 31783000) was itself found to already be in use by Blog 129, so it was replaced again with this photo. Part of the site-wide cleanup; see `HANDOFF.md`.
 
 ## Rejected / Avoided
 

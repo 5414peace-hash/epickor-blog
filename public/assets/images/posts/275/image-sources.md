@@ -20,7 +20,7 @@
   - Use: Buying checklist graphic for warranty, voltage, tax refund, and packability.
 - `korea-kodak-camera-store-pexels.jpg`
   - Source: Pexels.
-  - Photographer: Gul Isik.
-  - Pexels photo ID: 33415138.
-  - Source URL: `https://www.pexels.com/photo/33415138/`
-  - Use: South Korea camera-store context replacing the former Seoul tech buying SVG helper image.
+  - Pexels photo ID: 38333363.
+  - Source URL: `https://www.pexels.com/photo/38333363/`
+  - Use: Retro Kodak-branded store in Seoul, explicitly confirmed by a "Kodak Seoul" t-shirt visible in frame; camera-store/film-culture context.
+  - **2026-07-25 correction:** was photo 33415138 until 2026-07-25, replaced: cross-post duplicate also used by Blogs 193 and 241 (three-way duplicate). Blog 193 is the earliest and keeps the original; Blog 241 was also replaced separately in the same pass with a different image. Part of the site-wide cleanup; see `HANDOFF.md`.

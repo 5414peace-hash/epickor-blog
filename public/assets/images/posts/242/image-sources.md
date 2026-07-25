@@ -16,11 +16,11 @@ Representative asked to double-check whether the images read as Korean. The firs
    - Visual review: Strong Korea context with visible Korean street-market cues and clothing racks.
 
 2. `seoul-outdoor-shop.jpg`
-   - Source: Pexels, photo 29562546
-   - Photographer: Alexander London
-   - URL: https://www.pexels.com/photo/29562546/
+   - Source: Pexels, photo 16745681
+   - URL: https://www.pexels.com/photo/16745681/
    - Use: Flea-market and discovery-route section.
-   - Visual review: Korea-shot outdoor-market context; used as broader flea-market support, not as a clothing-only claim.
+   - Visual review: Covered Seoul wholesale market alley with Korean wholesaler signage ("경상도 상회", "연진상회", "전주상회"). Clear Korea context.
+   - **2026-07-25 correction:** was photo 29562546 until 2026-07-25, replaced: cross-post duplicate also used by Blogs 194 and 253 (three-way duplicate). Blog 194 is the earliest and keeps the original; Blog 253 was also replaced separately in the same pass. First replacement attempt (photo 37785270) was itself found to already be in use by Blog 194, so it was replaced again with this photo. Part of the site-wide cleanup; see `HANDOFF.md`.
 
 3. `seoul-vintage-clothing-racks.jpg`
    - Source: Pexels, photo 28916457 (was photo 31783000 until 2026-07-25, replaced: found to

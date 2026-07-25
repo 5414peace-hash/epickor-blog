@@ -8,11 +8,11 @@
   - Visual Fit Score: 96/100.
 
 - `seoul-night-beauty-street.jpg`
-  - Source: Pexels, photo ID 33019197, Photo by Saksham Vikram.
-  - URL: https://images.pexels.com/photos/33019197/pexels-photo-33019197.jpeg
-  - Fit: Seoul night shopping district with Korean signage and beauty-district storefront energy.
-  - Verification: Local file hash matched the Pexels download candidate.
-  - Visual Fit Score: 94/100.
+  - Source: Pexels, photo ID 18468227.
+  - URL: https://www.pexels.com/photo/18468227/
+  - Fit: Narrow Seoul alley at night with Korean neon shop signage, a Samsung S22 Series ad, and a "진입금지" (no entry) road marking.
+  - Visual Fit Score: 93/100.
+  - **2026-07-25 correction:** was photo 33019197 until 2026-07-25, replaced: cross-post duplicate also used by Blog 148, which keeps the original as the earlier post. Part of the site-wide cleanup; see `HANDOFF.md`.
 
 - `seoul-beauty-shopping-street.jpg`
   - Source: Pexels, photo ID 31782996, Photo by Theodore Nguyen.

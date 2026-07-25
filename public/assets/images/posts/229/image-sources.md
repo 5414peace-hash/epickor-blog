@@ -5,11 +5,11 @@ Post: Why Korean Homes Start at the Floor: Shoes, Ondol, Slippers, and Low Table
 ## Selected Images
 
 1. `traditional-korean-hanok-front.jpg`
-   - Source: Pexels photo 37436293
-   - URL: https://www.pexels.com/photo/traditional-korean-hanok-house-facade-at-day-37436293/
-   - Photographer: Henry Acevedo
+   - Source: Pexels photo 20325767
+   - URL: https://www.pexels.com/photo/20325767/
    - License: Pexels License
-   - Use: Korean hanok facade for the floor-culture opener.
+   - Use: Bukchon Hanok Village tiled rooftops with N Seoul Tower visible in the background, for the floor-culture opener.
+   - **2026-07-25 correction:** was photo 37436293 until 2026-07-25, replaced: cross-post duplicate also used by Blog 165, which keeps the original as the earlier post. Part of the site-wide cleanup; see `HANDOFF.md`.
 
 2. `hanok-kitchen-agungi.jpg`
    - Source: Wikimedia Commons, `File:Hanok kitchen.jpg`

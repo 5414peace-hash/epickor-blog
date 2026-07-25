@@ -14,10 +14,13 @@
    - Use: Honbap-friendly bowl meal / gukbap style table with kimchi and side dishes.
 
 3. `korean-bbq-shared-table.jpg`
-   - Source: Pexels
-   - URL: https://www.pexels.com/photo/korean-barbecue-with-grilled-meat-onions-kimchi-and-side-dishes-5785545/
-   - Photographer: Jason Kim
-   - Use: Shared-table / Korean BBQ exception section.
+   - Source: Pexels (was photo 5785545 until 2026-07-25, replaced: cross-post duplicate also used
+     by Blog 130, which keeps the original as the earlier post)
+   - URL: https://www.pexels.com/photo/8288043/
+   - Photographer: Pexels contributor
+   - Use: Shared-table / Korean BBQ exception section. Full home-BBQ spread around a LOCK&LOCK
+     portable grill (genuine Korean brand visible), pork belly, kimchi, lettuce wraps, mushrooms.
+   - Verified unique site-wide on 2026-07-25 via `scripts/audit-image-uniqueness.mjs`.
 
 4. `korean-convenience-store-drink-fridge.jpg`
    - Source: Pexels

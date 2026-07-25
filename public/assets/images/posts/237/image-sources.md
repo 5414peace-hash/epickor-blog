@@ -3,19 +3,18 @@
 Blog: `237` - `Korean Fragrance Shopping Guide 2026: Tamburins, Nonfiction, Granhand, and Skin Scents`
 
 **Note (2026-07-25):** `bodycare-perfume-shelf.jpg` was corrected in this pass (see entry #4,
-was a duplicate of Blog 192). This post still has one other pre-existing cross-post duplicate
-not fixed here: `myeongdong-night-shopping-street.jpg` (photo 33019190) is also used by Blog 134
-(`kpop-themed-building-seoul-pexels.jpg`/`myeongdong-shopping-night-pexels.jpg`). Out of scope
-for the 2026-07-25 incident fix; left for a separate cleanup pass. Run
+was a duplicate of Blog 192). `myeongdong-night-shopping-street.jpg` was also corrected in this
+pass (see entry #1) — it was a duplicate of Blog 134's image. Run
 `node scripts/audit-image-uniqueness.mjs` for the full current list.
 
 ## Selected Images
 
 1. `myeongdong-night-shopping-street.jpg`
-   - Source: Pexels
-   - URL: https://images.pexels.com/photos/33019190/pexels-photo-33019190.jpeg
-   - Credit: Photo by Saksham Vikram on Pexels
-   - Use: Seoul beauty-shopping street context.
+   - Source: Pexels, photo ID 26732085.
+   - URL: https://www.pexels.com/photo/26732085/
+   - Use: Myeongdong beauty-shopping street context at dusk.
+   - Visual review: Explicitly confirmed Myeongdong via a "KOREA COSMETICS 70%~30% SALE" sign and crowded 족발(jokbal)/restaurant signage visible in frame.
+   - **2026-07-25 correction:** was photo 33019190 until 2026-07-25, replaced: cross-post duplicate also used by Blog 134, which keeps the original as the earlier post. First replacement attempt (photo 33019200) was itself found to already be in use by Blog 239, so it was replaced again with this photo. Part of the site-wide cleanup; see `HANDOFF.md`.
 
 2. `minimalist-perfume-still-life.jpg`
    - Source: Pexels

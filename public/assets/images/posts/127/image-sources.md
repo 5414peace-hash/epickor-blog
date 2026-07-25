@@ -12,9 +12,10 @@ All four files were downloaded through Pexels' compressed 1200px image delivery 
 
 ## rainy-seoul-market.jpg
 
-- Source: https://www.pexels.com/photo/31858129/
+- Source: https://www.pexels.com/photo/31858124/
 - Photographer: Theodore Nguyen
-- Subject: a person with a yellow umbrella on a rainy Seoul market street
+- Subject: a rainy Namdaemun Market arcade with a "Namdaemun eave-road" banner and shoppers under umbrellas
+- **2026-07-25 correction:** was photo 31858129 until 2026-07-25, replaced: cross-post duplicate also used by Blog 036, which keeps the original as the earlier post (Blog 203 was also a duplicate of the same photo and was replaced separately with a different image). Part of the site-wide cleanup; see `HANDOFF.md`.
 
 ## seoul-autumn-foliage.jpg
 
