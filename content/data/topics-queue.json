@@ -484,8 +484,8 @@
         "GlobalKorea"
       ],
       "amazon_category": "Shopping",
-      "status": "pending",
-      "note": "Previously mis-claimed slug 315 via pipeline auto-select bug (315 is actually Myeongdong). Reset 2026-07-24. NOTE: substantially overlaps published Hallyu coverage (085 K-branding, 056) - re-audit before drafting."
+      "status": "rejected_duplicate",
+      "note": "REJECTED 2026-07-26 after duplicate audit: substantially overlaps Blog 085 (\"K-Brand Explained: Why Korea's K-Prefix Travels\") and Blog 056 (\"South Korea Explained: K-Pop, Growth, Tragedy, and Resilience\"), which already own the Hallyu/soft-power explainer intent. Semantic overlap counts as duplicate per CLAUDE.md even with a different title. Do not redraft as a generic \"Hallyu dominates\" post; only revive with a narrow, genuinely uncovered angle."
     },
     {
       "id": 24,
@@ -526,7 +526,8 @@
         "Korea"
       ],
       "amazon_category": "Shopping",
-      "status": "pending"
+      "status": "rejected_duplicate",
+      "note": "REJECTED 2026-07-26 after duplicate audit: Blog 306 (\"K-pop Idol Training in Seoul 2026: Tourist Class Guide\") already covers trainee life and training-experience intent. HANDOFF 2026-07-24 had already flagged this as correctly skipped once; closing it so it stops re-surfacing as an available pending topic."
     },
     {
       "id": 26,
@@ -3163,8 +3164,88 @@
       "note": "Approved 2026-07-24. Labeled spin-off of 018 (chimaek culture): buyer-decision intent (which brand/menu/how to order).",
       "generated_slug": "321",
       "generated_date": "2026-07-25"
+    },
+    {
+      "id": 144,
+      "title": "Korean Spice Levels Explained: How Hot Is Korean Food Really?",
+      "keywords": [
+        "how spicy is korean food",
+        "korean spice level",
+        "gochugaru heat",
+        "korean food not spicy"
+      ],
+      "category": "Food",
+      "tags": [
+        "KoreanFood",
+        "SpiceLevel",
+        "FoodGuide",
+        "KoreaTravel"
+      ],
+      "amazon_category": "Food",
+      "status": "pending",
+      "note": "Added 2026-07-26. Carried over from the W30 report P3 candidate #5, which the representative had not yet approved. Re-audited 2026-07-26: zero dedicated coverage (grep for spice level / how spicy returns 0 title matches; 048 is Carbo Buldak-specific, 311 is tteokbokki-specific, 217 was a false positive for \"spicules\" skincare). Decision-frame food guide = the site's best-CTR class (275/300/320/321)."
+    },
+    {
+      "id": 145,
+      "title": "Kkondae (꼰대) Explained: Korea's Word for the Boss Who Knows Best",
+      "keywords": [
+        "kkondae meaning",
+        "what is kkondae",
+        "korean workplace culture",
+        "korean generation gap"
+      ],
+      "category": "Culture",
+      "tags": [
+        "KoreanCulture",
+        "Kkondae",
+        "KoreanSociety",
+        "Workplace"
+      ],
+      "amazon_category": "Books",
+      "status": "pending",
+      "note": "Added 2026-07-26. Zero coverage (0 grep hits across 289 posts). Sits in the site/s best-performing lane — the untranslatable Korean social concept (ahjussi 090, nunchi 035, SKY 082, jeong 319, lookism 318). Same structural pattern that just worked for 319."
+    },
+    {
+      "id": 146,
+      "title": "Jesa and Chuseok Rites Explained: What Korean Families Actually Do",
+      "keywords": [
+        "jesa korean ancestral rite",
+        "chuseok traditions",
+        "korean ancestor ceremony",
+        "charye"
+      ],
+      "category": "Culture",
+      "tags": [
+        "KoreanCulture",
+        "Chuseok",
+        "Jesa",
+        "Tradition"
+      ],
+      "amazon_category": "Culture",
+      "status": "pending",
+      "note": "Added 2026-07-26. Zero jesa/charye coverage (0 grep hits). SEASONAL — HANDOFF flags the Blog 200 Chuseok refresh window as open now on a ~2-month lead, so this pairs with that refresh and can cross-link. 200 is travel logistics (closures/trains); this is the cultural explainer, a distinct intent rather than a retread."
+    },
+    {
+      "id": 147,
+      "title": "Gapjil (갑질) Explained: Power Abuse in Korean Work Culture",
+      "keywords": [
+        "gapjil meaning",
+        "what is gapjil",
+        "korean power abuse",
+        "korean workplace hierarchy"
+      ],
+      "category": "Culture",
+      "tags": [
+        "KoreanCulture",
+        "Gapjil",
+        "KoreanSociety",
+        "Workplace"
+      ],
+      "amazon_category": "Books",
+      "status": "pending",
+      "note": "Added 2026-07-26. Zero coverage (0 grep hits). Social-concept lane; globally recognizable via widely reported incidents. SENSITIVE — same editorial care as 318 (lookism): cite reporting, no mockery, no naming private individuals, present the reform/pushback side too."
     }
   ],
-  "last_updated": "2026-07-25",
+  "last_updated": "2026-07-26",
   "next_slug": 322
 }

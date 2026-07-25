@@ -35,7 +35,13 @@ debug.log
 .env*
 
 # local automation/runtime artifacts
-/output/
+/output/*
+# ...except the social performance record, which must accumulate across sessions/machines.
+# Git will not descend into an excluded directory, so each level has to be re-opened
+# explicitly and then re-closed, or the multi-GB reels/ media would start getting tracked.
+!/output/reels/
+/output/reels/*
+!/output/reels/metrics.json
 /.tmp/
 /.history/
 /history/

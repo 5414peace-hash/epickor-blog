@@ -1,0 +1,102 @@
+{
+  "_comment": "EpicKor Instagram/Facebook performance record. Created 2026-07-26 — this file had never existed despite CLAUDE.md requiring post-publish 1h/24h/7d capture, so every prior Reel and carousel shipped unmeasured. Source: Meta Business Suite > 콘텐츠 > 게시됨, account epickorsnippets (asset_id 1187482087784752), read via CDP-attached Chrome. Metric column order in that table: 도달(reach) / 조회수(views) / 조회계정 / 팔로우 / 반응 / 좋아요 / 댓글 / 공유 / 저장 / 링크클릭 / 시청시간 / 평균재생 / 3초이상조회 / 인스트림수익. '--' means Meta reported no value for that format.",
+  "captured_at": "2026-07-26",
+  "capture_note": "First capture is a single snapshot, NOT the required 1h/24h/7d series — these posts went out 1-4 days before anyone measured them. Treat the numbers as 'days-after' readings, not as a clean 24h/7d benchmark. Start the proper 1h/24h/7d cadence with Reels 311/312/313 (publishing 07-26/27/28).",
+  "account": {
+    "instagram": "epickorsnippets",
+    "instagram_followers": 15000,
+    "facebook_page": "EpicKor",
+    "facebook_followers": 0
+  },
+  "reels": [
+    {
+      "slug": "171",
+      "topic": "Korean convenience store breakfast",
+      "format": "reel",
+      "channel": "instagram",
+      "published_at": "2026-07-22 08:50",
+      "duration_sec": 41,
+      "reach": 256,
+      "views": 280,
+      "follows": 1,
+      "reactions": 1,
+      "likes": 1,
+      "comments": 0,
+      "shares": 0,
+      "saves": 0,
+      "watch_time_total": "19분 56초",
+      "avg_watch_time_sec": 5,
+      "measured_on": "2026-07-26",
+      "days_since_publish": 4,
+      "flag": "avg watch 5s on a 41s Reel = ~12% average completion, and 0 saves / 0 shares. This is the single clearest performance signal in the account right now: the hook is not holding past the first beat. Compare against 311/312/313 once they land before drawing conclusions from one data point."
+    }
+  ],
+  "cardnews": [
+    {
+      "slug": "311",
+      "topic": "Tteokbokki: six styles, one rice cake",
+      "format": "carousel",
+      "channel": "instagram",
+      "published_at": "2026-07-23 05:00",
+      "reach": 350,
+      "views": 778,
+      "follows": 0,
+      "reactions": 9,
+      "likes": 6,
+      "comments": 0,
+      "shares": 1,
+      "saves": 2,
+      "measured_on": "2026-07-26",
+      "days_since_publish": 3
+    },
+    {
+      "slug": "312",
+      "topic": "K-beauty ingredients decoded",
+      "format": "carousel",
+      "channel": "instagram",
+      "published_at": "2026-07-24 05:00",
+      "reach": 203,
+      "views": 477,
+      "follows": 0,
+      "reactions": 2,
+      "likes": 1,
+      "comments": 0,
+      "shares": 0,
+      "saves": 1,
+      "measured_on": "2026-07-26",
+      "days_since_publish": 2
+    },
+    {
+      "slug": "313",
+      "topic": "Seoul with kids: what parents get wrong",
+      "format": "carousel",
+      "channel": "instagram",
+      "published_at": "2026-07-25 05:00",
+      "reach": 320,
+      "views": 652,
+      "follows": 0,
+      "reactions": 6,
+      "likes": 3,
+      "comments": 0,
+      "shares": 1,
+      "saves": 2,
+      "measured_on": "2026-07-26",
+      "days_since_publish": 1
+    }
+  ],
+  "scheduled_pending_measurement": [
+    { "slug": "311", "format": "reel", "channel": "instagram", "scheduled_at": "2026-07-26 08:50" },
+    { "slug": "311", "format": "reel", "channel": "facebook", "scheduled_at": "2026-07-26 08:50" },
+    { "slug": "312", "format": "reel", "channel": "instagram", "scheduled_at": "2026-07-27 08:00" },
+    { "slug": "312", "format": "reel", "channel": "facebook", "scheduled_at": "2026-07-27 02:33" },
+    { "slug": "313", "format": "reel", "channel": "instagram", "scheduled_at": "2026-07-28 02:02" },
+    { "slug": "313", "format": "reel", "channel": "facebook", "scheduled_at": "2026-07-28 04:02" }
+  ],
+  "observations": [
+    "Reach across the three carousels (350 / 203 / 320) against 15,000 followers is roughly 1.4-2.3% — the account is still cold after the long posting pause, which is consistent with the Instagram-revival plan's premise.",
+    "Follows attributed to all three carousels: 0. Reach is happening; conversion to follow is not.",
+    "Saves are 2 / 1 / 2 and comments are 0 across the board. Save-worthy framing is the stated goal of the card-news format, so this is the metric to move.",
+    "Tteokbokki (311) outperformed both other carousels on every engagement metric — food/bunsik is the strongest-performing topic lane so far in this small sample.",
+    "Do not over-read any of this: n=4 posts, single snapshot, account recently reactivated."
+  ]
+}
