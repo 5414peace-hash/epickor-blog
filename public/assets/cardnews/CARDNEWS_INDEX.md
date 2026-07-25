@@ -5,6 +5,8 @@ Folder naming rule: `YYYY-MM-DD_slug`
 The date is the card-news production/final-save date from `HANDOFF.md`.
 Instagram upload is representative-managed. As of 2026-07-02, the representative confirmed all card-news assets listed through `2026-06-28_249` are approved and scheduled. Rows produced afterward keep their own upload status.
 
+**2026-07-26 correction:** rows `311`/`312`/`313` still read "ready for representative scheduling" long after Claude had actually scheduled them through Meta Business Suite on 2026-07-21 (planner-verified; see the `HANDOFF.md` 2026-07-21 snapshot). Whoever schedules a row must update its Upload status in the same session — a stale row here caused a session-close report to wrongly tell the representative that scheduling was still outstanding.
+
 | Folder | Slug | Topic | Cards | Production status | Upload status |
 |---|---:|---|---:|---|---|
 | `2026-04-30_071` | 071 | Deli Manjoo Korea Subway Snack | 7 | final | scheduled by representative |
@@ -62,6 +64,6 @@ Instagram upload is representative-managed. As of 2026-07-02, the representative
 | `2026-07-15_musinsa` | musinsa | MUSINSA Business: Seoul Fashion Commerce | 7 | final approved + editorial system + caption ready | ready for representative scheduling |
 | `2026-07-15_124` | 124 | Korean Wedding Culture: The Modern K-Wedding Code | 7 | final approved + modern hanji system + caption ready | ready for representative scheduling |
 | `2026-07-15_174` | 174 | Seoul Subway Etiquette: The Quiet Signal System | 7 | final approved + transit signal system + caption ready | Instagram and YouTube Community scheduled for 2026-07-20 22:00 KST |
-| `2026-07-20_311` | 311 | Tteokbokki: Six Styles, One Rice Cake | 7 | final + bunsik-red system + caption ready | ready for representative scheduling |
-| `2026-07-20_312` | 312 | K-Beauty Ingredients Decoded: Snail, Cica, Propolis, Rice | 7 | final + ingredient-decoder system + caption ready | ready for representative scheduling |
-| `2026-07-20_313` | 313 | Seoul With Kids: What Parents Get Wrong | 7 | final + family-seoul system + caption ready | ready for representative scheduling |
+| `2026-07-20_311` | 311 | Tteokbokki: Six Styles, One Rice Cake | 7 | final + bunsik-red system + caption ready | scheduled 2026-07-23 05:00 KST (Meta Suite, planner-verified 07-21) |
+| `2026-07-20_312` | 312 | K-Beauty Ingredients Decoded: Snail, Cica, Propolis, Rice | 7 | final + ingredient-decoder system + caption ready | scheduled 2026-07-24 05:00 KST (Meta Suite, planner-verified 07-21) |
+| `2026-07-20_313` | 313 | Seoul With Kids: What Parents Get Wrong | 7 | final + family-seoul system + caption ready | scheduled 2026-07-25 05:00 KST (Meta Suite, planner-verified 07-21) |
