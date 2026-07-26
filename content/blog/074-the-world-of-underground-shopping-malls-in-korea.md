@@ -75,7 +75,7 @@ The important thing is this: "underground shopping mall" in Seoul does not alway
 That distinction matters, especially for Hongdae.
 
 <div class="affiliate-inline-cta">
-  <p><strong>Shopping-route note:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. If Seoul shopping makes you want one small Korean souvenir before the trip, compare <a href="https://amzn.to/42T2B4K">Korean Bokjumeoni lucky pouch</a> as a light, packable gift idea.</p>
+  <p><strong>Shopping-route note:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. If Seoul shopping makes you want one small Korean souvenir before the trip, compare <a href="https://amzn.to/42T2B4K" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean Bokjumeoni lucky pouch</a> as a light, packable gift idea.</p>
 </div>
 
 ## COEX Mall: The Easiest Underground Mall for First-Timers
@@ -232,7 +232,7 @@ For beauty shopping, underground malls are useful for casual browsing, but if yo
 For travel gifts, underground malls are good because the items are small and easy to pack. Socks, pouches, stationery, keychains, accessories, and simple bags are easier to carry than fragile souvenirs.
 
 <div class="affiliate-inline-cta">
-  <p><strong>Gift-list shortcut:</strong> Before buying random small items in a station corridor, compare <a href="https://amzn.to/4fBa7IZ">Korean traditional craft textile wallet</a> so your souvenir list has at least one intentional option.</p>
+  <p><strong>Gift-list shortcut:</strong> Before buying random small items in a station corridor, compare <a href="https://amzn.to/4fBa7IZ" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean traditional craft textile wallet</a> so your souvenir list has at least one intentional option.</p>
 </div>
 
 ## FAQ About Seoul Underground Shopping Malls

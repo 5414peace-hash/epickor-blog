@@ -135,7 +135,7 @@ Here is the simple map.
 Once you see this pattern, Korean food starts to make more sense. Garlic is not doing one job. It is doing five small jobs at once.
 
 <div class="affiliate-inline-cta">
-  <p><strong>Korean BBQ flavor note:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. If garlic made you curious about the full wrap system, compare <a href="https://amzn.to/4tPG4AY">ssamjang Korean soybean paste sauce</a> for the salty, savory anchor of a Korean BBQ bite.</p>
+  <p><strong>Korean BBQ flavor note:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. If garlic made you curious about the full wrap system, compare <a href="https://amzn.to/4tPG4AY" target="_blank" rel="nofollow sponsored noopener noreferrer">ssamjang Korean soybean paste sauce</a> for the salty, savory anchor of a Korean BBQ bite.</p>
 </div>
 
 ---
@@ -185,7 +185,7 @@ This is why Korean BBQ can feel so addictive. It is not only the grill. It is th
 For a deeper look at sauce culture, EpicKor also has a guide to [ssamjang, Korea's essential BBQ sauce](/blog/083).
 
 <div class="affiliate-inline-cta">
-  <p><strong>For the home grill table:</strong> Garlic and ssamjang work better when the table setup is practical; compare a <a href="https://amzn.to/4eX0zI4">Korean BBQ scissors and tongs set</a> before trying the cut-and-wrap rhythm at home.</p>
+  <p><strong>For the home grill table:</strong> Garlic and ssamjang work better when the table setup is practical; compare a <a href="https://amzn.to/4eX0zI4" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean BBQ scissors and tongs set</a> before trying the cut-and-wrap rhythm at home.</p>
 </div>
 
 ---

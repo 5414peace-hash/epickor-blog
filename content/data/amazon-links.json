@@ -599,6 +599,46 @@
       "category": "Culture",
       "image": "",
       "tags": ["Floor Cushion", "Low Table", "Korean Home", "Ondol", "Floor Sitting"]
+    },
+    {
+      "id": "055",
+      "name": "The Kpop Dictionary",
+      "description": "500 essential Korean slang words and address terms K-pop and K-drama fans actually hear",
+      "price": "",
+      "url": "https://www.amazon.com/dp/B01N52C32A?tag=epickor-books-20",
+      "category": "Books",
+      "image": "",
+      "tags": ["Korean Slang", "K-pop", "Language"]
+    },
+    {
+      "id": "056",
+      "name": "Lonely Planet Korean Phrasebook & Dictionary",
+      "description": "Practical Korean phrasebook and dictionary for travelers and beginners",
+      "price": "",
+      "url": "https://www.amazon.com/dp/1838691537?tag=epickor-books-20",
+      "category": "Books",
+      "image": "",
+      "tags": ["Phrasebook", "Korean Language", "Travel"]
+    },
+    {
+      "id": "057",
+      "name": "KAHI Airy Fit Sun Stick SPF 50+",
+      "description": "Compact Korean SPF 50+ sun stick for easy outdoor reapplication",
+      "price": "",
+      "url": "https://www.amazon.com/dp/B0G7CJ4SG7?tag=epickor-beauty-20",
+      "category": "Beauty",
+      "image": "",
+      "tags": ["Sun Stick", "Korean Sunscreen", "SPF 50"]
+    },
+    {
+      "id": "058",
+      "name": "ROUND LAB Birch Juice Moisturizing Sun Stick SPF 50+",
+      "description": "Non-sticky Korean sun stick that fits in a daily bag",
+      "price": "",
+      "url": "https://www.amazon.com/dp/B0F2HL5XPT?tag=epickor-beauty-20",
+      "category": "Beauty",
+      "image": "",
+      "tags": ["Sun Stick", "ROUND LAB", "Korean Sunscreen"]
     }
   ]
 }
