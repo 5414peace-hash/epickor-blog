@@ -71,6 +71,14 @@
   with the debug port — the session cookie persists and CDP attaches to a logged-in GA4.
   Scripts: `scratchpad/ga_login.py` (step 1) → `scratchpad/ga_attach.py` (step 2).
   Profile is `scratchpad/ga-profile`, separate from `meta-profile` so the Amazon session is untouched.
+- **2026-07-26 — Always pass `--disable-sync` when launching a throwaway Chrome profile for someone
+  to sign into.** Without it, signing in turns on Chrome Sync and pulls the representative's entire
+  extension set (18 extensions, incl. MetaMask, Glasp, Thunderbit) into a `%TEMP%` profile, and each
+  newly installed extension auto-opens its own onboarding tab. That is what happened on first run —
+  the representative saw MetaMask and Glasp windows appear unprompted. Both launcher scripts now set
+  the flag. MetaMask landed on `#/onboarding/welcome` (no vault — MetaMask excludes its vault from
+  Chrome Sync), and `Login Data` stayed at the 40KB empty-schema size, so no wallet or saved
+  passwords were replicated.
 
 - **2026-07-26 — GA4 data starts ~2026-07-10, so only ~16 days exist.** Whole-property totals:
   **5,688 events, 1,839 page_view, 1,316 users, 7 `affiliate_amazon_click` (4 users).** The 90-day
