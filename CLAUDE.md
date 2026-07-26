@@ -234,8 +234,40 @@
 
 ## Handoff And Strategy Check Rules
 
-- At session start, read the root `HANDOFF.md` fast-start dashboard, then run `git status --short` and `git log -8 --oneline`. Do not load files under `docs/handoff/` by default.
-- Search a Handoff archive only for a specific slug, decision, incident, or older rule, using `rg`, and read only the narrow matching range.
+### 세션 시작 (이 순서를 지킨다)
+
+1. `node scripts/handoff.mjs facts` — **검증 사실 원장.** 작고, 이미 확인된 것만 들어 있다. 반드시 먼저 읽는다.
+2. 루트 `HANDOFF.md` fast-start 대시보드.
+3. `git status --short` 및 `git log -8 --oneline`.
+
+`docs/handoff/` 아래 파일은 기본적으로 열지 않는다. 아카이브는 1.2MB이고, 통째로 읽으면 세션 컨텍스트가 그걸로 끝난다.
+
+### 필요한 부분만 꺼내 읽는 법
+
+파일을 열지 말고 `scripts/handoff.mjs`로 잘라 읽는다:
+
+```bash
+node scripts/handoff.mjs facts [amazon|ga4|deploy|gsc|images|instagram]  # 도메인별 확정 사실
+node scripts/handoff.mjs find <term...>   # 전 아카이브 랭킹 검색 (최신 우선, FACTS 우선)
+node scripts/handoff.mjs slug 322         # 특정 슬러그에 대해 기록된 전부
+node scripts/handoff.mjs map              # 어느 파일이 어느 기간/주제를 담는지
+```
+
+`rg`로 직접 뒤져야 할 때는 매칭되는 좁은 범위만 읽는다.
+
+### FACTS.md — 재조사를 막는 장치 (2026-07-26 신설)
+
+`docs/handoff/FACTS.md`는 **도구로 직접 확인한 사실만** 담는 원장이다.
+
+- **왜 만들었나**: 2026-07-26에 "Amazon OneLink를 설정해야 한다"는 결론으로 세션 하나를 통째로 썼는데, **이미 10개국 전부 설정이 끝나 있었다.** 그 사실이 저장소 어디에도 없어서 처음부터 다시 판 것이다. HANDOFF가 길어서가 아니라, **확인한 사실이 기록되지 않아서** 생긴 손실이다.
+- **무엇을 적나**: 계획·추측·"아마도"는 넣지 않는다. 날짜와 **어떻게 확인했는지**를 같이 적는다. 근거 없는 줄은 사실이 아니라 추측이다.
+- **언제 적나**: 세션 중 계정 상태, 외부 서비스 설정, 실측 수치, 도구 동작을 확인했으면 **그 자리에서** 추가한다. 세션 끝까지 미루지 않는다.
+- **틀린 것으로 밝혀지면**: 조용히 지우지 말고 `CORRECTED`로 교체한다. 잘못된 믿음 자체가 재조사를 유발한 원인이므로 다음 세션이 그걸 봐야 한다.
+- 이 파일은 작게 유지한다. 서술은 스냅샷 아카이브로 보내고 여기엔 단정문만 남긴다.
+
+### 아카이브 유지
+
+- 루트 `HANDOFF.md`에는 **최신 Current Snapshot 1개만** 둔다. 새 스냅샷을 쓸 때 직전 것은 `docs/handoff/YYYY-MM-DD_snapshot-log-*.md`로 내린다. 스냅샷을 쌓지 않는다 — 2026-07-26에 16개가 쌓여 211줄짜리 파일이 61KB가 되어 있었다.
 - Read the latest `output/strategy/week_*.md` only when choosing strategy or the next topic, not for every implementation task.
 - Do not recommend a page as the next target only from GSC impressions or CTR. First check whether that page was already rewritten, published, or verified recently.
 - When choosing the next EpicKor task, explicitly apply the Strategy Team perspective: GSC opportunity, recency of prior edits, monetization potential, visual/card-news potential, and operational risk.
@@ -575,6 +607,8 @@ D:\dev\HANDOFF.md 파일을 열어 해당 프로젝트 섹션에 아래 형식�
 
 ### [체크] 종료 체크리스트
 세션을 닫기 전 아래를 확인한다:
+- [ ] **이번 세션에 도구로 직접 확인한 사실을 `docs/handoff/FACTS.md`에 추가했는가** (계정 설정, 외부 서비스 상태, 실측 수치, 도구 동작). 이걸 빠뜨리면 다음 세션이 같은 조사를 반복한다.
+- [ ] 루트 HANDOFF.md의 직전 Current Snapshot을 `docs/handoff/`로 내리고 최신 1개만 남겼는가
 - [ ] 이 폴더의 HANDOFF.md 업데이트 완료 (safe-write 사용)
 - [ ] D:\dev\HANDOFF.md 의 이 프로젝트 섹션 기록 추가 완료 (safe-write 사용)
 - [ ] CEO에게 세션 종료 보고 (완료 내용 한 줄 요약, 존댓말)
