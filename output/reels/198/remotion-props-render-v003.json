@@ -1,0 +1,469 @@
+{
+  "slug": "198",
+  "title": "Waterbomb Seoul 2026 Survival Guide: What to Wear, Bring, and Avoid",
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "durationFrames": 869,
+  "durationSeconds": 28.966666666666665,
+  "finalizedAt": "2026-06-15T06:14:03.319Z",
+  "audio": null,
+  "audioSegments": [
+    {
+      "part": 1,
+      "sceneNumber": 1,
+      "file": "output/reels/198/audio/narration-v001-scene-01.mp3",
+      "publicPath": "/assets/reels/198/audio/narration-v001-scene-01.mp3",
+      "staticFilePath": "audio/narration-v001-scene-01.mp3",
+      "startFrame": 0,
+      "durationFrames": 87,
+      "durationSeconds": 2.9
+    },
+    {
+      "part": 2,
+      "sceneNumber": 2,
+      "file": "output/reels/198/audio/narration-v001-scene-02.mp3",
+      "publicPath": "/assets/reels/198/audio/narration-v001-scene-02.mp3",
+      "staticFilePath": "audio/narration-v001-scene-02.mp3",
+      "startFrame": 87,
+      "durationFrames": 130,
+      "durationSeconds": 4.333333333333333
+    },
+    {
+      "part": 3,
+      "sceneNumber": 3,
+      "file": "output/reels/198/audio/narration-v001-scene-03.mp3",
+      "publicPath": "/assets/reels/198/audio/narration-v001-scene-03.mp3",
+      "staticFilePath": "audio/narration-v001-scene-03.mp3",
+      "startFrame": 217,
+      "durationFrames": 56,
+      "durationSeconds": 1.8666666666666667
+    },
+    {
+      "part": 4,
+      "sceneNumber": 4,
+      "file": "output/reels/198/audio/narration-v001-scene-04.mp3",
+      "publicPath": "/assets/reels/198/audio/narration-v001-scene-04.mp3",
+      "staticFilePath": "audio/narration-v001-scene-04.mp3",
+      "startFrame": 273,
+      "durationFrames": 123,
+      "durationSeconds": 4.1
+    },
+    {
+      "part": 5,
+      "sceneNumber": 5,
+      "file": "output/reels/198/audio/narration-v001-scene-05.mp3",
+      "publicPath": "/assets/reels/198/audio/narration-v001-scene-05.mp3",
+      "staticFilePath": "audio/narration-v001-scene-05.mp3",
+      "startFrame": 396,
+      "durationFrames": 150,
+      "durationSeconds": 5
+    },
+    {
+      "part": 6,
+      "sceneNumber": 6,
+      "file": "output/reels/198/audio/narration-v001-scene-06.mp3",
+      "publicPath": "/assets/reels/198/audio/narration-v001-scene-06.mp3",
+      "staticFilePath": "audio/narration-v001-scene-06.mp3",
+      "startFrame": 546,
+      "durationFrames": 140,
+      "durationSeconds": 4.666666666666667
+    },
+    {
+      "part": 7,
+      "sceneNumber": 7,
+      "file": "output/reels/198/audio/narration-v001-scene-07.mp3",
+      "publicPath": "/assets/reels/198/audio/narration-v001-scene-07.mp3",
+      "staticFilePath": "audio/narration-v001-scene-07.mp3",
+      "startFrame": 686,
+      "durationFrames": 123,
+      "durationSeconds": 4.1
+    }
+  ],
+  "outro": {
+    "startFrame": 809,
+    "durationFrames": 60,
+    "text": "epickor.com"
+  },
+  "brand": {
+    "label": "EpicKor",
+    "cta": "EPICKOR.COM"
+  },
+  "subtitleStyle": {
+    "mode": "narration_synced",
+    "preset": "modern_reels_phrase_pop"
+  },
+  "scenes": [
+    {
+      "number": 1,
+      "startFrame": 0,
+      "durationFrames": 87,
+      "durationSeconds": 2.9,
+      "narration": "Waterbomb is where your cute Seoul outfit can betray you.",
+      "captionBeats": [
+        "Waterbomb is where your cute\nSeoul outfit can betray you."
+      ],
+      "captionBeatStartFrames": [
+        0
+      ],
+      "captionLeadFrames": 0,
+      "captionStyle": "readable_band",
+      "typographyBeats": [],
+      "motion": "slow_push_in",
+      "images": [
+        {
+          "rank": 1,
+          "publicPath": "/assets/reels/198/scene-01-rank-01.png",
+          "staticFilePath": "scene-01-rank-01.png",
+          "sourceUrl": "/assets/reels/198/generated-v2/waterbomb-seoul-crowd-v2.png"
+        },
+        {
+          "rank": 2,
+          "publicPath": "/assets/reels/198/scene-01-rank-02.jpg",
+          "staticFilePath": "scene-01-rank-02.jpg",
+          "sourceUrl": "/assets/reels/198/deep-candidates/pexels-colorful-water-festival-with-joyous-adults-enj-35078390.jpg"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "startFrame": 87,
+      "durationFrames": 130,
+      "durationSeconds": 4.333333333333333,
+      "narration": "It is a music festival, a water fight, and late-July humidity all at once.",
+      "captionBeats": [
+        "It is a music festival,\na water fight,",
+        "and late-July humidity\nall at once."
+      ],
+      "captionBeatStartFrames": [
+        0,
+        75
+      ],
+      "captionLeadFrames": 0,
+      "captionStyle": "readable_band",
+      "typographyBeats": [],
+      "motion": "pan_right",
+      "images": [
+        {
+          "rank": 1,
+          "publicPath": "/assets/reels/198/scene-02-rank-01.jpg",
+          "staticFilePath": "scene-02-rank-01.jpg",
+          "sourceUrl": "/assets/reels/198/deep-candidates/pexels-people-engaging-in-lively-water-festival-activ-32268614.jpg"
+        },
+        {
+          "rank": 2,
+          "publicPath": "/assets/reels/198/scene-02-rank-02.jpg",
+          "staticFilePath": "scene-02-rank-02.jpg",
+          "sourceUrl": "/assets/reels/198/derivatives/crowd-hero-vertical.jpg"
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "startFrame": 217,
+      "durationFrames": 56,
+      "durationSeconds": 1.8666666666666667,
+      "narration": "So dress to dry, not just to pose.",
+      "captionBeats": [
+        "So dress to dry,\nnot just to pose."
+      ],
+      "captionBeatStartFrames": [
+        0
+      ],
+      "captionLeadFrames": 0,
+      "captionStyle": "readable_band",
+      "typographyBeats": [],
+      "motion": "motion_card",
+      "images": []
+    },
+    {
+      "number": 4,
+      "startFrame": 273,
+      "durationFrames": 123,
+      "durationSeconds": 4.1,
+      "narration": "Before you enter, seal your phone. Test the pouch with tissue at the hotel.",
+      "captionBeats": [
+        "Before you enter,\nseal your phone.",
+        "Test the pouch with tissue\nat the hotel."
+      ],
+      "captionBeatStartFrames": [
+        0,
+        55
+      ],
+      "captionLeadFrames": 0,
+      "captionStyle": "readable_band",
+      "typographyBeats": [],
+      "motion": "pan_left",
+      "images": [
+        {
+          "rank": 1,
+          "publicPath": "/assets/reels/198/scene-04-rank-01.png",
+          "staticFilePath": "scene-04-rank-01.png",
+          "sourceUrl": "/assets/reels/198/generated-v2/festival-phone-pouch-kit-v2.png"
+        },
+        {
+          "rank": 2,
+          "publicPath": "/assets/reels/198/scene-04-rank-02.png",
+          "staticFilePath": "scene-04-rank-02.png",
+          "sourceUrl": "/assets/reels/198/generated-v2/phone-pouch-tissue-test-v2.png"
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "startFrame": 396,
+      "durationFrames": 150,
+      "durationSeconds": 5,
+      "narration": "Keep the bag tiny: phone pouch, small towel, SPF, dry shirt. Leave the best bag at the hotel.",
+      "captionBeats": [
+        "Keep the bag tiny:\nphone pouch, small towel,",
+        "SPF,\ndry shirt.",
+        "Leave the best bag\nat the hotel."
+      ],
+      "captionBeatStartFrames": [
+        0,
+        68,
+        100
+      ],
+      "captionLeadFrames": 0,
+      "captionStyle": "readable_band",
+      "typographyBeats": [],
+      "motion": "motion_card",
+      "images": []
+    },
+    {
+      "number": 6,
+      "startFrame": 546,
+      "durationFrames": 140,
+      "durationSeconds": 4.666666666666667,
+      "narration": "And plan the exit before your battery is red, because the real ending is getting home wet and tired.",
+      "captionBeats": [
+        "And plan the exit before\nyour battery is red,",
+        "because the real ending is\ngetting home wet and tired."
+      ],
+      "captionBeatStartFrames": [
+        0,
+        66
+      ],
+      "captionLeadFrames": 0,
+      "captionStyle": "readable_band",
+      "typographyBeats": [],
+      "motion": "slow_zoom_out",
+      "images": [
+        {
+          "rank": 1,
+          "publicPath": "/assets/reels/198/scene-06-rank-01.png",
+          "staticFilePath": "scene-06-rank-01.png",
+          "sourceUrl": "/assets/reels/198/generated-v2/wet-festival-exit-transit-v2.png"
+        },
+        {
+          "rank": 2,
+          "publicPath": "/assets/reels/198/scene-06-rank-02.jpg",
+          "staticFilePath": "scene-06-rank-02.jpg",
+          "sourceUrl": "/assets/reels/198/derivatives/exit-transit-vertical.jpg"
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "startFrame": 686,
+      "durationFrames": 123,
+      "durationSeconds": 4.1,
+      "narration": "Save this before Waterbomb Seoul. More Korea travel guides at epickor.com.",
+      "captionBeats": [
+        "Save this before\nWaterbomb Seoul.",
+        "More Korea travel guides\nat epickor.com."
+      ],
+      "captionBeatStartFrames": [
+        0,
+        54
+      ],
+      "captionLeadFrames": 0,
+      "captionStyle": "readable_band",
+      "typographyBeats": [],
+      "motion": "outro_push",
+      "images": [
+        {
+          "rank": 1,
+          "publicPath": "/assets/reels/198/scene-07-rank-01.jpg",
+          "staticFilePath": "scene-07-rank-01.jpg",
+          "sourceUrl": "/assets/reels/198/derivatives/quick-dry-gear-vertical.jpg"
+        },
+        {
+          "rank": 2,
+          "publicPath": "/assets/reels/198/scene-07-rank-02.jpg",
+          "staticFilePath": "scene-07-rank-02.jpg",
+          "sourceUrl": "/assets/reels/198/derivatives/sunscreen-towel-kit-left.jpg"
+        }
+      ]
+    }
+  ],
+  "motionCards": [
+    {
+      "id": "198-card-dress-dry-kit-grid",
+      "sceneNumber": 3,
+      "templateId": "kit_grid",
+      "kicker": "WATERBOMB FIT",
+      "headline": "Dress to dry",
+      "headlineLines": [
+        "Dress",
+        "to dry"
+      ],
+      "subhead": "Not just to pose",
+      "subheadLines": [
+        "Not just",
+        "to pose"
+      ],
+      "bullets": [
+        "Quick-dry top",
+        "Strapped shoes",
+        "Dark fabric",
+        "No denim"
+      ],
+      "footer": "Wet clothes get heavy fast",
+      "footerLines": [
+        "Wet clothes",
+        "get heavy fast"
+      ],
+      "layout": "kit_grid",
+      "motionPreset": "tiles_pop_balance",
+      "accentColor": "#0f766e",
+      "overlayOpacity": 0.78,
+      "durationSeconds": 5,
+      "reviewStatus": "approved",
+      "reviewerNote": "Representative ranked #1 on 2026-06-15.",
+      "recommendedRank": 1,
+      "relevanceTier": "direct",
+      "visualFitScore": 94,
+      "recommendationNote": "추천 1순위: 최근 승인된 kit_grid 계열로 복장 조언을 가장 깔끔하게 저장형으로 보여줍니다.",
+      "choice": "A",
+      "rank": 1
+    },
+    {
+      "id": "198-card-tiny-bag-kit-grid",
+      "sceneNumber": 5,
+      "templateId": "kit_grid",
+      "kicker": "TINY BAG RULE",
+      "headline": "Four things only",
+      "headlineLines": [
+        "Four things",
+        "only"
+      ],
+      "subhead": "Wet-crowd basics",
+      "subheadLines": [
+        "Wet-crowd",
+        "basics"
+      ],
+      "bullets": [
+        "Phone pouch",
+        "Small towel",
+        "SPF stick",
+        "Dry shirt"
+      ],
+      "footer": "Everything else earns its place",
+      "footerLines": [
+        "Everything else",
+        "earns its place"
+      ],
+      "layout": "kit_grid",
+      "motionPreset": "tiles_pop_balance",
+      "accentColor": "#2563eb",
+      "overlayOpacity": 0.78,
+      "durationSeconds": 7,
+      "reviewStatus": "approved",
+      "reviewerNote": "Representative ranked #1 on 2026-06-15.",
+      "recommendedRank": 1,
+      "relevanceTier": "direct",
+      "visualFitScore": 95,
+      "recommendationNote": "추천 1순위: tiny bag 조언을 최근 승인 스타일의 2x2 키트 카드로 가장 명확히 보여줍니다.",
+      "choice": "A",
+      "rank": 1
+    }
+  ],
+  "motionCardTemplates": [
+    {
+      "id": "zone_compare",
+      "name": "Zone Compare",
+      "description": "Two filled comparison columns with a clear lower caption band. Best for explaining paired rules, areas, or before-after systems without an empty center.",
+      "layout": "split_compare",
+      "motionPreset": "zone_columns_reveal"
+    },
+    {
+      "id": "kit_grid",
+      "name": "Kit Grid",
+      "description": "A compact 2x2 tile grid with strong item blocks and a clear lower caption band. Best for packing lists, saveable checklists, and small sets of essentials.",
+      "layout": "kit_grid",
+      "motionPreset": "tiles_pop_balance"
+    },
+    {
+      "id": "editorial_box",
+      "name": "Editorial Box",
+      "description": "A strong framed card with headline, subhead, and list rows. Best for definitions or summary moments.",
+      "layout": "boxed",
+      "motionPreset": "card_rise_list_reveal"
+    },
+    {
+      "id": "kinetic_steps",
+      "name": "Kinetic Steps",
+      "description": "Floating step pills without a full card box. Best for process, how-to, or quick-start narration.",
+      "layout": "unboxed_steps",
+      "motionPreset": "step_pills_follow_voice"
+    },
+    {
+      "id": "menu_board",
+      "name": "Menu Board",
+      "description": "A menu/signboard style with sliding rows. Best for food, product lists, or options.",
+      "layout": "board",
+      "motionPreset": "menu_rows_follow_voice"
+    },
+    {
+      "id": "radial_burst",
+      "name": "Radial Burst",
+      "description": "A center headline with orbiting/angled labels. Best for explaining several meanings in one concept.",
+      "layout": "unboxed_radial",
+      "motionPreset": "chips_orbit_in"
+    },
+    {
+      "id": "split_checklist",
+      "name": "Split Checklist",
+      "description": "A vertical guide rail with checklist items. Best for etiquette, travel tips, and warnings.",
+      "layout": "split_checklist",
+      "motionPreset": "check_items_follow_voice"
+    },
+    {
+      "id": "convenience_tray",
+      "name": "Convenience Tray",
+      "description": "A bright shelf/tray grid with large item blocks. Best for convenience-store, breakfast, shopping, or assembled-choice scenes.",
+      "layout": "tray_grid",
+      "motionPreset": "tray_items_pop_in"
+    },
+    {
+      "id": "morning_route",
+      "name": "Morning Route",
+      "description": "A vertical path with paired start/end labels. Best for route, sequence, commute, or before-after logic.",
+      "layout": "route_map",
+      "motionPreset": "route_nodes_follow_voice"
+    },
+    {
+      "id": "wrapper_tabs",
+      "name": "Wrapper Tabs",
+      "description": "A package/wrapper metaphor with tagged steps. Best for food wrappers, assembly, folding, or object-anatomy scenes.",
+      "layout": "package_tabs",
+      "motionPreset": "tabs_reveal_around_object"
+    },
+    {
+      "id": "receipt_stack",
+      "name": "Receipt Stack",
+      "description": "A paper receipt/card stack with item rows and barcode texture. Best for prices, purchases, rules, and quick tallies.",
+      "layout": "receipt",
+      "motionPreset": "receipt_rows_print_in"
+    },
+    {
+      "id": "stamp_stack",
+      "name": "Stamp Stack",
+      "description": "Layered stamped slips with angled labels and a verification badge. Best for local rules, validations, myths, and cultural checkpoints.",
+      "layout": "stamp_slips",
+      "motionPreset": "stamps_drop_and_verify"
+    }
+  ]
+}

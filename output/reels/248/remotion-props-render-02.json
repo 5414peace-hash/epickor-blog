@@ -1,0 +1,534 @@
+{
+  "slug": "248",
+  "title": "Seoul Running Crew Culture 2026: Why Korea Runs At Night",
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "durationFrames": 975,
+  "durationSeconds": 32.5,
+  "finalizedAt": "2026-07-03T05:37:39.374Z",
+  "audio": null,
+  "audioSegments": [
+    {
+      "part": 1,
+      "sceneNumber": 1,
+      "file": "output/reels/248/audio/narration-v001-scene-01.mp3",
+      "publicPath": "/assets/reels/248/audio/narration-v001-scene-01.mp3",
+      "staticFilePath": "audio/narration-v001-scene-01.mp3",
+      "startFrame": 0,
+      "durationFrames": 99,
+      "durationSeconds": 3.3
+    },
+    {
+      "part": 2,
+      "sceneNumber": 2,
+      "file": "output/reels/248/audio/narration-v001-scene-02.mp3",
+      "publicPath": "/assets/reels/248/audio/narration-v001-scene-02.mp3",
+      "staticFilePath": "audio/narration-v001-scene-02.mp3",
+      "startFrame": 99,
+      "durationFrames": 131,
+      "durationSeconds": 4.366666666666666
+    },
+    {
+      "part": 3,
+      "sceneNumber": 3,
+      "file": "output/reels/248/audio/narration-v001-scene-03.mp3",
+      "publicPath": "/assets/reels/248/audio/narration-v001-scene-03.mp3",
+      "staticFilePath": "audio/narration-v001-scene-03.mp3",
+      "startFrame": 230,
+      "durationFrames": 118,
+      "durationSeconds": 3.933333333333333
+    },
+    {
+      "part": 4,
+      "sceneNumber": 4,
+      "file": "output/reels/248/audio/narration-v001-scene-04.mp3",
+      "publicPath": "/assets/reels/248/audio/narration-v001-scene-04.mp3",
+      "staticFilePath": "audio/narration-v001-scene-04.mp3",
+      "startFrame": 348,
+      "durationFrames": 133,
+      "durationSeconds": 4.433333333333334
+    },
+    {
+      "part": 5,
+      "sceneNumber": 5,
+      "file": "output/reels/248/audio/narration-v001-scene-05.mp3",
+      "publicPath": "/assets/reels/248/audio/narration-v001-scene-05.mp3",
+      "staticFilePath": "audio/narration-v001-scene-05.mp3",
+      "startFrame": 481,
+      "durationFrames": 133,
+      "durationSeconds": 4.433333333333334
+    },
+    {
+      "part": 6,
+      "sceneNumber": 6,
+      "file": "output/reels/248/audio/narration-v001-scene-06.mp3",
+      "publicPath": "/assets/reels/248/audio/narration-v001-scene-06.mp3",
+      "staticFilePath": "audio/narration-v001-scene-06.mp3",
+      "startFrame": 614,
+      "durationFrames": 134,
+      "durationSeconds": 4.466666666666667
+    },
+    {
+      "part": 7,
+      "sceneNumber": 7,
+      "file": "output/reels/248/audio/narration-v001-scene-07.mp3",
+      "publicPath": "/assets/reels/248/audio/narration-v001-scene-07.mp3",
+      "staticFilePath": "audio/narration-v001-scene-07.mp3",
+      "startFrame": 748,
+      "durationFrames": 137,
+      "durationSeconds": 4.566666666666666
+    }
+  ],
+  "outro": {
+    "startFrame": 885,
+    "durationFrames": 90,
+    "text": "epickor.com"
+  },
+  "brand": {
+    "label": "EpicKor",
+    "cta": "EPICKOR.COM"
+  },
+  "subtitleStyle": {
+    "mode": "narration_synced",
+    "preset": "readable_band_two_line",
+    "captionLeadFrames": 0
+  },
+  "scenes": [
+    {
+      "number": 1,
+      "startFrame": 0,
+      "durationFrames": 99,
+      "durationSeconds": 3.3,
+      "narration": "In Seoul, some night outs start with five kilometers, not a bar.",
+      "captionBeats": [
+        "In Seoul, some night\nouts start with",
+        "five kilometers,\nnot a bar."
+      ],
+      "captionBeatStartFrames": [
+        0,
+        55
+      ],
+      "captionLeadFrames": 0,
+      "captionStyle": "readable_band",
+      "typographyBeats": [
+        {
+          "text": "SEOUL RUNS|AT NIGHT",
+          "emphasis": "thumbnail_title_batch_248",
+          "timingHint": "first frame"
+        }
+      ],
+      "motion": "slow_push_in",
+      "images": [
+        {
+          "rank": 1,
+          "publicPath": "/assets/reels/248/scene-01-rank-01.jpg",
+          "staticFilePath": "scene-01-rank-01.jpg",
+          "sourceUrl": "/assets/reels/248/korea-context/han-river-run-crew-01.jpg",
+          "width": 1080,
+          "height": 1920,
+          "aspectRatio": 0.5625,
+          "fitMode": "cover",
+          "cameraMove": "slow_push_in"
+        },
+        {
+          "rank": 2,
+          "publicPath": "/assets/reels/248/scene-01-rank-02.jpg",
+          "staticFilePath": "scene-01-rank-02.jpg",
+          "sourceUrl": "/assets/reels/248/korea-context/han-river-cooldown-02.jpg",
+          "width": 1080,
+          "height": 1920,
+          "aspectRatio": 0.5625,
+          "fitMode": "cover",
+          "cameraMove": "pan_left"
+        },
+        {
+          "rank": 3,
+          "publicPath": "/assets/reels/248/scene-01-rank-03.jpg",
+          "staticFilePath": "scene-01-rank-03.jpg",
+          "sourceUrl": "/assets/reels/248/korea-context/han-river-night-skyline-08.jpg",
+          "width": 1080,
+          "height": 1920,
+          "aspectRatio": 0.5625,
+          "fitMode": "cover",
+          "cameraMove": "drift_right"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "startFrame": 99,
+      "durationFrames": 131,
+      "durationSeconds": 4.366666666666666,
+      "narration": "The Han River gives it a stage: bridges, lights, flat paths, and convenience stores.",
+      "captionBeats": [
+        "The Han River gives\nit a stage:",
+        "bridges, lights, flat paths,\nand convenience stores."
+      ],
+      "captionBeatStartFrames": [
+        0,
+        60
+      ],
+      "captionLeadFrames": 0,
+      "captionStyle": "readable_band",
+      "typographyBeats": [],
+      "motion": "pan_left",
+      "images": [
+        {
+          "rank": 1,
+          "publicPath": "/assets/reels/248/scene-02-rank-01.jpg",
+          "staticFilePath": "scene-02-rank-01.jpg",
+          "sourceUrl": "/assets/reels/248/korea-context/dongho-bridge-night-04.jpg",
+          "width": 1080,
+          "height": 1920,
+          "aspectRatio": 0.5625,
+          "fitMode": "cover",
+          "cameraMove": "pan_left"
+        },
+        {
+          "rank": 2,
+          "publicPath": "/assets/reels/248/scene-02-rank-02.jpg",
+          "staticFilePath": "scene-02-rank-02.jpg",
+          "sourceUrl": "/assets/reels/248/korea-context/han-river-lit-bridge-06.jpg",
+          "width": 1080,
+          "height": 1920,
+          "aspectRatio": 0.5625,
+          "fitMode": "cover",
+          "cameraMove": "pan_right"
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "startFrame": 230,
+      "durationFrames": 118,
+      "durationSeconds": 3.933333333333333,
+      "narration": "The surprise is that many crews are social first. The run is the excuse to show up.",
+      "captionBeats": [
+        "The surprise is that\nmany crews are social first.",
+        "The run is the excuse\nto show up."
+      ],
+      "captionBeatStartFrames": [
+        0,
+        62
+      ],
+      "captionLeadFrames": 0,
+      "captionStyle": "readable_band",
+      "typographyBeats": [],
+      "motion": "drift_right",
+      "images": [
+        {
+          "rank": 1,
+          "publicPath": "/assets/reels/248/scene-03-rank-01.jpg",
+          "staticFilePath": "scene-03-rank-01.jpg",
+          "sourceUrl": "/assets/reels/248/korea-context/seoul-night-run-gear-03.jpg",
+          "width": 1080,
+          "height": 1920,
+          "aspectRatio": 0.5625,
+          "fitMode": "cover",
+          "cameraMove": "drift_up"
+        },
+        {
+          "rank": 2,
+          "publicPath": "/assets/reels/248/scene-03-rank-02.jpg",
+          "staticFilePath": "scene-03-rank-02.jpg",
+          "sourceUrl": "/assets/reels/248/korea-context/han-river-evening-kit-09.jpg",
+          "width": 1080,
+          "height": 1920,
+          "aspectRatio": 0.5625,
+          "fitMode": "cover",
+          "cameraMove": "slow_zoom_out"
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "startFrame": 348,
+      "durationFrames": 133,
+      "durationSeconds": 4.433333333333334,
+      "narration": "But the path is shared. Stay to one side, watch bikes, and do not turn the river into your stage.",
+      "captionBeats": [
+        "But the path\nis shared.",
+        "Stay to one side,\nwatch bikes,",
+        "and do not turn the river\ninto your stage."
+      ],
+      "captionBeatStartFrames": [
+        0,
+        33,
+        75
+      ],
+      "captionLeadFrames": 0,
+      "captionStyle": "readable_band",
+      "typographyBeats": [],
+      "motion": "pan_right",
+      "images": [
+        {
+          "rank": 1,
+          "publicPath": "/assets/reels/248/scene-04-rank-01.jpg",
+          "staticFilePath": "scene-04-rank-01.jpg",
+          "sourceUrl": "/assets/reels/248/korea-context/han-river-blue-bridge-05.jpg",
+          "width": 1080,
+          "height": 1920,
+          "aspectRatio": 0.5625,
+          "fitMode": "cover",
+          "cameraMove": "pan_right"
+        },
+        {
+          "rank": 2,
+          "publicPath": "/assets/reels/248/scene-04-rank-02.jpg",
+          "staticFilePath": "scene-04-rank-02.jpg",
+          "sourceUrl": "/assets/reels/248/korea-context/han-river-ferry-skyline-07.jpg",
+          "width": 1080,
+          "height": 1920,
+          "aspectRatio": 0.5625,
+          "fitMode": "cover",
+          "cameraMove": "drift_left"
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "startFrame": 481,
+      "durationFrames": 133,
+      "durationSeconds": 4.433333333333334,
+      "narration": "Use the run crew rule: pace first, one side, lights on, watch bikes, and plan the cool-down.",
+      "captionBeats": [
+        "Use the run crew rule:",
+        "pace first,\none side,",
+        "lights on,\nwatch bikes,",
+        "and plan the cool-down."
+      ],
+      "captionBeatStartFrames": [
+        0,
+        37,
+        70,
+        103
+      ],
+      "captionLeadFrames": 0,
+      "captionStyle": "readable_band",
+      "typographyBeats": [],
+      "motion": "caption_pop",
+      "images": []
+    },
+    {
+      "number": 6,
+      "startFrame": 614,
+      "durationFrames": 134,
+      "durationSeconds": 4.466666666666667,
+      "narration": "If you join, check the pace before you show up. The cool-down is where people actually talk.",
+      "captionBeats": [
+        "If you join,\ncheck the pace",
+        "before you show up.",
+        "The cool-down is where\npeople actually talk."
+      ],
+      "captionBeatStartFrames": [
+        0,
+        47,
+        80
+      ],
+      "captionLeadFrames": 0,
+      "captionStyle": "readable_band",
+      "typographyBeats": [],
+      "motion": "slow_zoom_out",
+      "images": [
+        {
+          "rank": 1,
+          "publicPath": "/assets/reels/248/scene-06-rank-01.jpg",
+          "staticFilePath": "scene-06-rank-01.jpg",
+          "sourceUrl": "/assets/reels/248/korea-context/rainy-han-river-bench-10.jpg",
+          "width": 1080,
+          "height": 1920,
+          "aspectRatio": 0.5625,
+          "fitMode": "cover",
+          "cameraMove": "drift_right"
+        },
+        {
+          "rank": 2,
+          "publicPath": "/assets/reels/248/scene-06-rank-02.jpg",
+          "staticFilePath": "scene-06-rank-02.jpg",
+          "sourceUrl": "/assets/reels/248/korea-context/han-river-repellent-evening-11.jpg",
+          "width": 1080,
+          "height": 1920,
+          "aspectRatio": 0.5625,
+          "fitMode": "cover",
+          "cameraMove": "pan_left"
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "startFrame": 748,
+      "durationFrames": 137,
+      "durationSeconds": 4.566666666666666,
+      "narration": "Save this before a Seoul night run. More Korea lifestyle guides at epickor.com.",
+      "captionBeats": [
+        "Save this before\na Seoul night run.",
+        "More Korea lifestyle guides\nat epickor.com."
+      ],
+      "captionBeatStartFrames": [
+        0,
+        71
+      ],
+      "captionLeadFrames": 0,
+      "captionStyle": "readable_band",
+      "typographyBeats": [
+        {
+          "text": "SAVE BEFORE|A NIGHT RUN",
+          "emphasis": "final_cta",
+          "timingHint": "before black outro"
+        }
+      ],
+      "motion": "drift_up",
+      "images": [
+        {
+          "rank": 1,
+          "publicPath": "/assets/reels/248/scene-07-rank-01.jpg",
+          "staticFilePath": "scene-07-rank-01.jpg",
+          "sourceUrl": "/assets/reels/248/korea-context/seoul-summer-day-bag-12.jpg",
+          "width": 1080,
+          "height": 1920,
+          "aspectRatio": 0.5625,
+          "fitMode": "cover",
+          "cameraMove": "slow_zoom_out"
+        },
+        {
+          "rank": 2,
+          "publicPath": "/assets/reels/248/scene-07-rank-02.jpg",
+          "staticFilePath": "scene-07-rank-02.jpg",
+          "sourceUrl": "/assets/reels/248/korea-context/seoul-mediahub-run-13.jpg",
+          "width": 1080,
+          "height": 1920,
+          "aspectRatio": 0.5625,
+          "fitMode": "cover",
+          "cameraMove": "drift_up"
+        }
+      ]
+    }
+  ],
+  "motionCards": [
+    {
+      "id": "248-card-run-crew-rules",
+      "sceneNumber": 5,
+      "choice": "A",
+      "templateId": "menu_board",
+      "layout": "board",
+      "motionPreset": "menu_rows_follow_voice",
+      "kicker": "SEOUL RUN CREW",
+      "headline": "JOIN LIKE A GUEST",
+      "headlineLines": [
+        "JOIN LIKE",
+        "A GUEST"
+      ],
+      "subhead": "Do not own the path.",
+      "subheadLines": [
+        "Do not own",
+        "the path."
+      ],
+      "bullets": [
+        "PACE FIRST",
+        "ONE SIDE",
+        "LIGHTS ON",
+        "WATCH BIKES",
+        "COOL DOWN"
+      ],
+      "footer": "EPICKOR.COM",
+      "footerLines": [
+        "EPICKOR.COM"
+      ],
+      "accentColor": "#22c55e",
+      "overlayOpacity": 0.74,
+      "durationSeconds": 6.2,
+      "reviewStatus": "approved",
+      "template": "menu_board",
+      "fitReason": "Best single payoff card for this Reel; turns the hook into a saveable viewer rule.",
+      "weakness": "Inspect final render for caption-safe spacing and center density.",
+      "reviewerNote": "Approved internally under representative /goal one-shot completion request."
+    }
+  ],
+  "motionCardTemplates": [
+    {
+      "id": "zone_compare",
+      "name": "Zone Compare",
+      "description": "Two filled comparison columns with a clear lower caption band. Best for explaining paired rules, areas, or before-after systems without an empty center.",
+      "layout": "split_compare",
+      "motionPreset": "zone_columns_reveal"
+    },
+    {
+      "id": "kit_grid",
+      "name": "Kit Grid",
+      "description": "A compact 2x2 tile grid with strong item blocks and a clear lower caption band. Best for packing lists, saveable checklists, and small sets of essentials.",
+      "layout": "kit_grid",
+      "motionPreset": "tiles_pop_balance"
+    },
+    {
+      "id": "editorial_box",
+      "name": "Editorial Box",
+      "description": "A strong framed card with headline, subhead, and list rows. Best for definitions or summary moments.",
+      "layout": "boxed",
+      "motionPreset": "card_rise_list_reveal"
+    },
+    {
+      "id": "kinetic_steps",
+      "name": "Kinetic Steps",
+      "description": "Floating step pills without a full card box. Best for process, how-to, or quick-start narration.",
+      "layout": "unboxed_steps",
+      "motionPreset": "step_pills_follow_voice"
+    },
+    {
+      "id": "menu_board",
+      "name": "Menu Board",
+      "description": "A menu/signboard style with sliding rows. Best for food, product lists, or options.",
+      "layout": "board",
+      "motionPreset": "menu_rows_follow_voice"
+    },
+    {
+      "id": "radial_burst",
+      "name": "Radial Burst",
+      "description": "A center headline with orbiting/angled labels. Best for explaining several meanings in one concept.",
+      "layout": "unboxed_radial",
+      "motionPreset": "chips_orbit_in"
+    },
+    {
+      "id": "split_checklist",
+      "name": "Split Checklist",
+      "description": "A vertical guide rail with checklist items. Best for etiquette, travel tips, and warnings.",
+      "layout": "split_checklist",
+      "motionPreset": "check_items_follow_voice"
+    },
+    {
+      "id": "convenience_tray",
+      "name": "Convenience Tray",
+      "description": "A bright shelf/tray grid with large item blocks. Best for convenience-store, breakfast, shopping, or assembled-choice scenes.",
+      "layout": "tray_grid",
+      "motionPreset": "tray_items_pop_in"
+    },
+    {
+      "id": "morning_route",
+      "name": "Morning Route",
+      "description": "A vertical path with paired start/end labels. Best for route, sequence, commute, or before-after logic.",
+      "layout": "route_map",
+      "motionPreset": "route_nodes_follow_voice"
+    },
+    {
+      "id": "wrapper_tabs",
+      "name": "Wrapper Tabs",
+      "description": "A package/wrapper metaphor with tagged steps. Best for food wrappers, assembly, folding, or object-anatomy scenes.",
+      "layout": "package_tabs",
+      "motionPreset": "tabs_reveal_around_object"
+    },
+    {
+      "id": "receipt_stack",
+      "name": "Receipt Stack",
+      "description": "A paper receipt/card stack with item rows and barcode texture. Best for prices, purchases, rules, and quick tallies.",
+      "layout": "receipt",
+      "motionPreset": "receipt_rows_print_in"
+    },
+    {
+      "id": "stamp_stack",
+      "name": "Stamp Stack",
+      "description": "Layered stamped slips with angled labels and a verification badge. Best for local rules, validations, myths, and cultural checkpoints.",
+      "layout": "stamp_slips",
+      "motionPreset": "stamps_drop_and_verify"
+    }
+  ]
+}

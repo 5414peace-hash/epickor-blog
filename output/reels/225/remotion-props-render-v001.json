@@ -1,0 +1,593 @@
+{
+  "slug": "225",
+  "title": "KTX vs SRT vs Express Bus 2026: Korea City Travel Guide",
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "durationFrames": 1341,
+  "durationSeconds": 44.7,
+  "finalizedAt": "2026-06-24T07:37:12.816Z",
+  "audio": null,
+  "audioSegments": [
+    {
+      "part": 1,
+      "sceneNumber": 1,
+      "file": "output/reels/225/audio/narration-v001-scene-01.mp3",
+      "publicPath": "/assets/reels/225/audio/narration-v001-scene-01.mp3",
+      "staticFilePath": "audio/narration-v001-scene-01.mp3",
+      "startFrame": 0,
+      "durationFrames": 169,
+      "durationSeconds": 5.633333333333334
+    },
+    {
+      "part": 2,
+      "sceneNumber": 2,
+      "file": "output/reels/225/audio/narration-v001-scene-02.mp3",
+      "publicPath": "/assets/reels/225/audio/narration-v001-scene-02.mp3",
+      "staticFilePath": "audio/narration-v001-scene-02.mp3",
+      "startFrame": 169,
+      "durationFrames": 196,
+      "durationSeconds": 6.533333333333333
+    },
+    {
+      "part": 3,
+      "sceneNumber": 3,
+      "file": "output/reels/225/audio/narration-v001-scene-03.mp3",
+      "publicPath": "/assets/reels/225/audio/narration-v001-scene-03.mp3",
+      "staticFilePath": "audio/narration-v001-scene-03.mp3",
+      "startFrame": 365,
+      "durationFrames": 174,
+      "durationSeconds": 5.8
+    },
+    {
+      "part": 4,
+      "sceneNumber": 4,
+      "file": "output/reels/225/audio/narration-v001-scene-04.mp3",
+      "publicPath": "/assets/reels/225/audio/narration-v001-scene-04.mp3",
+      "staticFilePath": "audio/narration-v001-scene-04.mp3",
+      "startFrame": 539,
+      "durationFrames": 198,
+      "durationSeconds": 6.6
+    },
+    {
+      "part": 5,
+      "sceneNumber": 5,
+      "file": "output/reels/225/audio/narration-v001-scene-05.mp3",
+      "publicPath": "/assets/reels/225/audio/narration-v001-scene-05.mp3",
+      "staticFilePath": "audio/narration-v001-scene-05.mp3",
+      "startFrame": 737,
+      "durationFrames": 192,
+      "durationSeconds": 6.4
+    },
+    {
+      "part": 6,
+      "sceneNumber": 6,
+      "file": "output/reels/225/audio/narration-v001-scene-06.mp3",
+      "publicPath": "/assets/reels/225/audio/narration-v001-scene-06.mp3",
+      "staticFilePath": "audio/narration-v001-scene-06.mp3",
+      "startFrame": 929,
+      "durationFrames": 177,
+      "durationSeconds": 5.9
+    },
+    {
+      "part": 7,
+      "sceneNumber": 7,
+      "file": "output/reels/225/audio/narration-v001-scene-07.mp3",
+      "publicPath": "/assets/reels/225/audio/narration-v001-scene-07.mp3",
+      "staticFilePath": "audio/narration-v001-scene-07.mp3",
+      "startFrame": 1106,
+      "durationFrames": 145,
+      "durationSeconds": 4.833333333333333
+    }
+  ],
+  "outro": {
+    "startFrame": 1251,
+    "durationFrames": 90,
+    "text": "epicKor.com"
+  },
+  "brand": {
+    "label": "EpicKor",
+    "cta": "EPICKOR.COM"
+  },
+  "subtitleStyle": {
+    "mode": "narration_synced",
+    "preset": "readable_band_two_line",
+    "captionLeadFrames": 0
+  },
+  "scenes": [
+    {
+      "number": 1,
+      "startFrame": 0,
+      "durationFrames": 169,
+      "durationSeconds": 5.633333333333334,
+      "narration": "In Korea, the fastest ride is not always the best route. KTX, SRT, and buses solve different problems.",
+      "captionBeats": [
+        "In Korea, the fastest ride\nis not always the best route.",
+        "KTX, SRT, and buses\nsolve different problems."
+      ],
+      "captionBeatStartFrames": [
+        0,
+        99
+      ],
+      "captionLeadFrames": 0,
+      "captionStyle": "readable_band",
+      "typographyBeats": [
+        {
+          "text": "KTX / SRT / BUS?",
+          "emphasis": "thumbnail_title_concept_03",
+          "timingHint": "first frame"
+        }
+      ],
+      "motion": "slow_push_in",
+      "images": [
+        {
+          "rank": 1,
+          "publicPath": "/assets/reels/225/scene-01-rank-01.jpg",
+          "staticFilePath": "scene-01-rank-01.jpg",
+          "sourceUrl": "/assets/images/posts/225/ktx-sancheon-train.jpg",
+          "width": 2701,
+          "height": 1555,
+          "aspectRatio": 1.737,
+          "fitMode": "framed_16_9",
+          "cameraMove": "pan_right"
+        },
+        {
+          "rank": 2,
+          "publicPath": "/assets/reels/225/scene-01-rank-02.jpg",
+          "staticFilePath": "scene-01-rank-02.jpg",
+          "sourceUrl": "/assets/reels/225/source/srt-train-130000-series.jpg",
+          "width": 1800,
+          "height": 1350,
+          "aspectRatio": 1.3333,
+          "fitMode": "framed_16_9",
+          "cameraMove": "pan_left"
+        },
+        {
+          "rank": 3,
+          "publicPath": "/assets/reels/225/scene-01-rank-03.jpg",
+          "staticFilePath": "scene-01-rank-03.jpg",
+          "sourceUrl": "/assets/reels/225/source/seoul-express-terminal-entrance-2016.jpg",
+          "width": 1800,
+          "height": 1013,
+          "aspectRatio": 1.7769,
+          "fitMode": "framed_16_9",
+          "cameraMove": "drift_up"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "startFrame": 169,
+      "durationFrames": 196,
+      "durationSeconds": 6.533333333333333,
+      "narration": "Start with your hotel, not the vehicle. Seoul Station points you toward KTX. Gangnam or Songpa can make Suseo easier.",
+      "captionBeats": [
+        "Start with your hotel,\nnot the vehicle.",
+        "Seoul Station points you\ntoward KTX.",
+        "Gangnam or Songpa\ncan make Suseo easier."
+      ],
+      "captionBeatStartFrames": [
+        0,
+        71,
+        129
+      ],
+      "captionLeadFrames": 0,
+      "captionStyle": "readable_band",
+      "typographyBeats": [],
+      "motion": "pan_right",
+      "images": [
+        {
+          "rank": 1,
+          "publicPath": "/assets/reels/225/scene-02-rank-01.jpg",
+          "staticFilePath": "scene-02-rank-01.jpg",
+          "sourceUrl": "/assets/reels/225/source/ktx-seoul-station.jpg",
+          "width": 1800,
+          "height": 1350,
+          "aspectRatio": 1.3333,
+          "fitMode": "framed_16_9",
+          "cameraMove": "pan_left"
+        },
+        {
+          "rank": 2,
+          "publicPath": "/assets/reels/225/scene-02-rank-02.jpg",
+          "staticFilePath": "scene-02-rank-02.jpg",
+          "sourceUrl": "/assets/reels/225/source/suseo-srt-station-hall.jpg",
+          "width": 1800,
+          "height": 1200,
+          "aspectRatio": 1.5,
+          "fitMode": "framed_16_9",
+          "cameraMove": "pan_right"
+        },
+        {
+          "rank": 3,
+          "publicPath": "/assets/reels/225/scene-02-rank-03.jpg",
+          "staticFilePath": "scene-02-rank-03.jpg",
+          "sourceUrl": "/assets/reels/225/source/pexels-suwon-station-signage.jpg",
+          "width": 1200,
+          "height": 800,
+          "aspectRatio": 1.5,
+          "fitMode": "framed_16_9",
+          "cameraMove": "drift_up"
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "startFrame": 365,
+      "durationFrames": 174,
+      "durationSeconds": 5.8,
+      "narration": "Pick by station first: central Seoul means KTX, Gangnam means SRT, smaller cities can mean bus.",
+      "captionBeats": [
+        "Pick by station first:",
+        "central Seoul means KTX,",
+        "Gangnam means SRT,",
+        "smaller cities can mean bus."
+      ],
+      "captionBeatStartFrames": [
+        0,
+        42,
+        82,
+        122
+      ],
+      "captionLeadFrames": 0,
+      "captionStyle": "readable_band",
+      "typographyBeats": [],
+      "motion": "caption_pop",
+      "images": []
+    },
+    {
+      "number": 4,
+      "startFrame": 539,
+      "durationFrames": 198,
+      "durationSeconds": 6.6,
+      "narration": "KTX is the classic long-distance choice, especially for Busan, Daegu, Daejeon, Gyeongju, and major rail corridors.",
+      "captionBeats": [
+        "KTX is the classic\nlong-distance choice,",
+        "especially for Busan,\nDaegu, Daejeon,",
+        "Gyeongju, and major\nrail corridors."
+      ],
+      "captionBeatStartFrames": [
+        0,
+        68,
+        136
+      ],
+      "captionLeadFrames": 0,
+      "captionStyle": "readable_band",
+      "typographyBeats": [],
+      "motion": "pan_left",
+      "images": [
+        {
+          "rank": 1,
+          "publicPath": "/assets/reels/225/scene-04-rank-01.jpg",
+          "staticFilePath": "scene-04-rank-01.jpg",
+          "sourceUrl": "/assets/reels/225/source/ktx-busan-station.jpg",
+          "width": 1800,
+          "height": 1349,
+          "aspectRatio": 1.3343,
+          "fitMode": "framed_16_9",
+          "cameraMove": "pan_right"
+        },
+        {
+          "rank": 2,
+          "publicPath": "/assets/reels/225/scene-04-rank-02.jpg",
+          "staticFilePath": "scene-04-rank-02.jpg",
+          "sourceUrl": "/assets/reels/225/source/ktx-seodaejeon-station.jpg",
+          "width": 1800,
+          "height": 1350,
+          "aspectRatio": 1.3333,
+          "fitMode": "framed_16_9",
+          "cameraMove": "pan_left"
+        },
+        {
+          "rank": 3,
+          "publicPath": "/assets/reels/225/scene-04-rank-03.jpg",
+          "staticFilePath": "scene-04-rank-03.jpg",
+          "sourceUrl": "/assets/reels/225/source/ktx-sancheon-excellent.jpg",
+          "width": 1800,
+          "height": 1350,
+          "aspectRatio": 1.3333,
+          "fitMode": "framed_16_9",
+          "cameraMove": "drift_down"
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "startFrame": 737,
+      "durationFrames": 192,
+      "durationSeconds": 6.4,
+      "narration": "But buses are not a downgrade. For smaller cities, beaches, temples, festivals, or sold-out trains, the terminal can win.",
+      "captionBeats": [
+        "But buses are not\na downgrade.",
+        "For smaller cities,\nbeaches, temples, festivals,",
+        "or sold-out trains,",
+        "the terminal can win."
+      ],
+      "captionBeatStartFrames": [
+        0,
+        55,
+        108,
+        144
+      ],
+      "captionLeadFrames": 0,
+      "captionStyle": "readable_band",
+      "typographyBeats": [],
+      "motion": "pan_up",
+      "images": [
+        {
+          "rank": 1,
+          "publicPath": "/assets/reels/225/scene-05-rank-01.jpg",
+          "staticFilePath": "scene-05-rank-01.jpg",
+          "sourceUrl": "/assets/images/posts/225/seoul-express-bus-terminal.jpg",
+          "width": 640,
+          "height": 480,
+          "aspectRatio": 1.3333,
+          "fitMode": "framed_16_9",
+          "cameraMove": "pan_up"
+        },
+        {
+          "rank": 2,
+          "publicPath": "/assets/reels/225/scene-05-rank-02.jpg",
+          "staticFilePath": "scene-05-rank-02.jpg",
+          "sourceUrl": "/assets/reels/225/source/gangnam-seoul-express-terminal.jpg",
+          "width": 1535,
+          "height": 1800,
+          "aspectRatio": 0.8528,
+          "fitMode": "cover",
+          "cameraMove": "pan_right"
+        },
+        {
+          "rank": 3,
+          "publicPath": "/assets/reels/225/scene-05-rank-03.jpg",
+          "staticFilePath": "scene-05-rank-03.jpg",
+          "sourceUrl": "/assets/reels/225/source/pexels-seoul-bus-street.jpg",
+          "width": 1200,
+          "height": 800,
+          "aspectRatio": 1.5,
+          "fitMode": "framed_16_9",
+          "cameraMove": "pan_left"
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "startFrame": 929,
+      "durationFrames": 177,
+      "durationSeconds": 5.9,
+      "narration": "Compare door-to-door time: hotel to station, platform buffer, main ride, arrival transfer, and luggage stress.",
+      "captionBeats": [
+        "Compare door-to-door time:",
+        "hotel to station,\nplatform buffer,",
+        "main ride,\narrival transfer,",
+        "and luggage stress."
+      ],
+      "captionBeatStartFrames": [
+        0,
+        42,
+        84,
+        124
+      ],
+      "captionLeadFrames": 0,
+      "captionStyle": "readable_band",
+      "typographyBeats": [],
+      "motion": "caption_pop",
+      "images": []
+    },
+    {
+      "number": 7,
+      "startFrame": 1106,
+      "durationFrames": 145,
+      "durationSeconds": 4.833333333333333,
+      "narration": "Save this before booking city travel in Korea. More Korean culture guide at epicKor dot com.",
+      "captionBeats": [
+        "Save this before booking\ncity travel in Korea.",
+        "More Korean culture\nguide at",
+        "epicKor.com"
+      ],
+      "captionBeatStartFrames": [
+        0,
+        56,
+        92
+      ],
+      "captionLeadFrames": 0,
+      "captionStyle": "readable_band",
+      "typographyBeats": [
+        {
+          "text": "SAVE BEFORE|BOOKING",
+          "emphasis": "final_cta",
+          "timingHint": "before black outro"
+        }
+      ],
+      "motion": "slow_zoom_out",
+      "images": [
+        {
+          "rank": 1,
+          "publicPath": "/assets/reels/225/scene-07-rank-01.jpg",
+          "staticFilePath": "scene-07-rank-01.jpg",
+          "sourceUrl": "/assets/reels/225/source/suseo-srt-station.jpg",
+          "width": 1800,
+          "height": 1050,
+          "aspectRatio": 1.7143,
+          "fitMode": "framed_16_9",
+          "cameraMove": "slow_zoom_out"
+        },
+        {
+          "rank": 2,
+          "publicPath": "/assets/reels/225/scene-07-rank-02.jpg",
+          "staticFilePath": "scene-07-rank-02.jpg",
+          "sourceUrl": "/assets/reels/225/source/pexels-seoul-metro-commuters.jpg",
+          "width": 1200,
+          "height": 800,
+          "aspectRatio": 1.5,
+          "fitMode": "framed_16_9",
+          "cameraMove": "drift_right"
+        }
+      ]
+    }
+  ],
+  "motionCards": [
+    {
+      "sceneNumber": 3,
+      "shortId": "A",
+      "id": "225-card-station-first",
+      "template": "menu_board",
+      "templateId": "menu_board",
+      "layout": "board",
+      "motionPreset": "menu_rows_follow_voice",
+      "kicker": "KOREA CITY TRAVEL",
+      "headline": "STATION FIRST",
+      "headlineLines": [
+        "STATION",
+        "FIRST"
+      ],
+      "subhead": "Start from your hotel.",
+      "subheadLines": [
+        "Start from",
+        "your hotel."
+      ],
+      "bullets": [
+        "CENTRAL SEOUL -> KTX",
+        "GANGNAM -> SRT",
+        "SMALLER CITY -> BUS",
+        "SOLD OUT -> BUS"
+      ],
+      "footer": "EPICKOR.COM",
+      "footerLines": [
+        "EPICKOR.COM"
+      ],
+      "accentColor": "#22c55e",
+      "overlayOpacity": 0.74,
+      "durationSeconds": 5.8,
+      "fitReason": "Strongest saveable rule: the comparison starts from the departure station, not vehicle speed.",
+      "weakness": "Four-option board needs proactive caption placement; renderer uses motionMenu compact placement.",
+      "reviewStatus": "approved",
+      "choice": "A",
+      "reviewerNote": "Approved internally for one-shot final production."
+    },
+    {
+      "sceneNumber": 6,
+      "shortId": "A",
+      "id": "225-card-door-to-door-check",
+      "template": "split_checklist",
+      "templateId": "split_checklist",
+      "layout": "split_checklist",
+      "motionPreset": "check_items_follow_voice",
+      "kicker": "REAL TIME CHECK",
+      "headline": "DOOR TO DOOR WINS",
+      "headlineLines": [
+        "DOOR TO",
+        "DOOR WINS"
+      ],
+      "subhead": "Add every transfer.",
+      "subheadLines": [
+        "Add every",
+        "transfer."
+      ],
+      "bullets": [
+        "HOTEL TO STATION",
+        "PLATFORM BUFFER",
+        "MAIN RIDE",
+        "ARRIVAL TRANSFER",
+        "LUGGAGE STRESS"
+      ],
+      "footer": "EPICKOR.COM",
+      "footerLines": [
+        "EPICKOR.COM"
+      ],
+      "accentColor": "#f59e0b",
+      "overlayOpacity": 0.74,
+      "durationSeconds": 5.6,
+      "fitReason": "Directly explains the core article insight: listed ride time is not the real decision metric.",
+      "weakness": "Five checklist rows; reveal timing is compressed to keep center filled and avoid lower caption conflict.",
+      "reviewStatus": "approved",
+      "choice": "A",
+      "reviewerNote": "Approved internally for one-shot final production."
+    }
+  ],
+  "motionCardTemplates": [
+    {
+      "id": "zone_compare",
+      "name": "Zone Compare",
+      "description": "Two filled comparison columns with a clear lower caption band. Best for explaining paired rules, areas, or before-after systems without an empty center.",
+      "layout": "split_compare",
+      "motionPreset": "zone_columns_reveal"
+    },
+    {
+      "id": "kit_grid",
+      "name": "Kit Grid",
+      "description": "A compact 2x2 tile grid with strong item blocks and a clear lower caption band. Best for packing lists, saveable checklists, and small sets of essentials.",
+      "layout": "kit_grid",
+      "motionPreset": "tiles_pop_balance"
+    },
+    {
+      "id": "editorial_box",
+      "name": "Editorial Box",
+      "description": "A strong framed card with headline, subhead, and list rows. Best for definitions or summary moments.",
+      "layout": "boxed",
+      "motionPreset": "card_rise_list_reveal"
+    },
+    {
+      "id": "kinetic_steps",
+      "name": "Kinetic Steps",
+      "description": "Floating step pills without a full card box. Best for process, how-to, or quick-start narration.",
+      "layout": "unboxed_steps",
+      "motionPreset": "step_pills_follow_voice"
+    },
+    {
+      "id": "menu_board",
+      "name": "Menu Board",
+      "description": "A menu/signboard style with sliding rows. Best for food, product lists, or options.",
+      "layout": "board",
+      "motionPreset": "menu_rows_follow_voice"
+    },
+    {
+      "id": "radial_burst",
+      "name": "Radial Burst",
+      "description": "A center headline with orbiting/angled labels. Best for explaining several meanings in one concept.",
+      "layout": "unboxed_radial",
+      "motionPreset": "chips_orbit_in"
+    },
+    {
+      "id": "split_checklist",
+      "name": "Split Checklist",
+      "description": "A vertical guide rail with checklist items. Best for etiquette, travel tips, and warnings.",
+      "layout": "split_checklist",
+      "motionPreset": "check_items_follow_voice"
+    },
+    {
+      "id": "convenience_tray",
+      "name": "Convenience Tray",
+      "description": "A bright shelf/tray grid with large item blocks. Best for convenience-store, breakfast, shopping, or assembled-choice scenes.",
+      "layout": "tray_grid",
+      "motionPreset": "tray_items_pop_in"
+    },
+    {
+      "id": "morning_route",
+      "name": "Morning Route",
+      "description": "A vertical path with paired start/end labels. Best for route, sequence, commute, or before-after logic.",
+      "layout": "route_map",
+      "motionPreset": "route_nodes_follow_voice"
+    },
+    {
+      "id": "wrapper_tabs",
+      "name": "Wrapper Tabs",
+      "description": "A package/wrapper metaphor with tagged steps. Best for food wrappers, assembly, folding, or object-anatomy scenes.",
+      "layout": "package_tabs",
+      "motionPreset": "tabs_reveal_around_object"
+    },
+    {
+      "id": "receipt_stack",
+      "name": "Receipt Stack",
+      "description": "A paper receipt/card stack with item rows and barcode texture. Best for prices, purchases, rules, and quick tallies.",
+      "layout": "receipt",
+      "motionPreset": "receipt_rows_print_in"
+    },
+    {
+      "id": "stamp_stack",
+      "name": "Stamp Stack",
+      "description": "Layered stamped slips with angled labels and a verification badge. Best for local rules, validations, myths, and cultural checkpoints.",
+      "layout": "stamp_slips",
+      "motionPreset": "stamps_drop_and_verify"
+    }
+  ]
+}

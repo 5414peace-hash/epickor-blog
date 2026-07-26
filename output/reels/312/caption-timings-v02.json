@@ -1,0 +1,203 @@
+{
+ "slug": "312",
+ "version": "v02",
+ "fps": 30,
+ "generatedAt": "2026-07-21T22:36:38.872Z",
+ "method": "ElevenLabs Forced Alignment against the approved narration transcript",
+ "captionLeadFrames": 5,
+ "safeZone": {
+  "left": 76,
+  "right": 76,
+  "bottom": 410,
+  "maxWidth": 928
+ },
+ "parts": [
+  {
+   "part": 1,
+   "transcript": "Korean skincare doesn't sell you a feeling. It sells you an ingredient, with the exact percentage printed on the front.",
+   "alignmentLoss": 0.029021244089142615,
+   "wordCount": 20,
+   "beatCount": 3,
+   "firstWordStart": 0.179,
+   "lastWordEnd": 4.9
+  },
+  {
+   "part": 2,
+   "transcript": "Snail mucin for slip. Cica, which is just the centella plant, for calming. Propolis from bees for glow. Rice for the gentlest start.",
+   "alignmentLoss": 0.1822783983114994,
+   "wordCount": 23,
+   "beatCount": 5,
+   "firstWordStart": 0.179,
+   "lastWordEnd": 6.279
+  },
+  {
+   "part": 3,
+   "transcript": "But here's the trap everyone falls for. That big number on the label?",
+   "alignmentLoss": 0.0786656003067459,
+   "wordCount": 13,
+   "beatCount": 2,
+   "firstWordStart": 0.14,
+   "lastWordEnd": 2.919
+  },
+  {
+   "part": 4,
+   "transcript": "Ninety-six doesn't mean better. It's a hint, not a grade. A smart five percent formula can beat a near-pure one.",
+   "alignmentLoss": 0.06171581042664392,
+   "wordCount": 20,
+   "beatCount": 4,
+   "firstWordStart": 0.219,
+   "lastWordEnd": 5.839
+  },
+  {
+   "part": 5,
+   "transcript": "Read the front of the box. Pick one ingredient for one problem. Then let your skin decide.",
+   "alignmentLoss": 0.061549088690016004,
+   "wordCount": 17,
+   "beatCount": 3,
+   "firstWordStart": 0.239,
+   "lastWordEnd": 4.399
+  },
+  {
+   "part": 6,
+   "transcript": "epickor dot com.",
+   "alignmentLoss": 1.4638328552246094,
+   "wordCount": 3,
+   "beatCount": 1,
+   "firstWordStart": 0.179,
+   "lastWordEnd": 0.959
+  }
+ ],
+ "beats": [
+  {
+   "part": 1,
+   "text": "Korean skincare doesn't sell you a feeling.",
+   "startFrame": 5,
+   "endFrame": 59,
+   "sourceStartSeconds": 0.179,
+   "sourceEndSeconds": 1.939,
+   "wordCount": 7
+  },
+  {
+   "part": 1,
+   "text": "It sells you an ingredient, with the exact percentage printed on the front.",
+   "startFrame": 60,
+   "endFrame": 159,
+   "sourceStartSeconds": 2,
+   "sourceEndSeconds": 3.339,
+   "wordCount": 7
+  },
+  {
+   "part": 2,
+   "text": "Snail mucin for slip.",
+   "startFrame": 175,
+   "endFrame": 207,
+   "sourceStartSeconds": 0.179,
+   "sourceEndSeconds": 1.22,
+   "wordCount": 4
+  },
+  {
+   "part": 2,
+   "text": "Cica, which is just the centella plant, for calming.",
+   "startFrame": 208,
+   "endFrame": 273,
+   "sourceStartSeconds": 1.279,
+   "sourceEndSeconds": 2.119,
+   "wordCount": 5
+  },
+  {
+   "part": 2,
+   "text": "Propolis from bees for glow.",
+   "startFrame": 274,
+   "endFrame": 318,
+   "sourceStartSeconds": 3.48,
+   "sourceEndSeconds": 4.819,
+   "wordCount": 5
+  },
+  {
+   "part": 2,
+   "text": "Rice for the gentlest start.",
+   "startFrame": 319,
+   "endFrame": 369,
+   "sourceStartSeconds": 4.96,
+   "sourceEndSeconds": 6.279,
+   "wordCount": 5
+  },
+  {
+   "part": 3,
+   "text": "But here's the trap everyone falls for.",
+   "startFrame": 395,
+   "endFrame": 445,
+   "sourceStartSeconds": 0.14,
+   "sourceEndSeconds": 1.62,
+   "wordCount": 7
+  },
+  {
+   "part": 3,
+   "text": "That big number on the label?",
+   "startFrame": 446,
+   "endFrame": 490,
+   "sourceStartSeconds": 1.86,
+   "sourceEndSeconds": 2.919,
+   "wordCount": 6
+  },
+  {
+   "part": 4,
+   "text": "Ninety-six doesn't mean better.",
+   "startFrame": 511,
+   "endFrame": 558,
+   "sourceStartSeconds": 0.219,
+   "sourceEndSeconds": 1.539,
+   "wordCount": 4
+  },
+  {
+   "part": 4,
+   "text": "It's a hint, not a grade.",
+   "startFrame": 559,
+   "endFrame": 603,
+   "sourceStartSeconds": 1.819,
+   "sourceEndSeconds": 3.039,
+   "wordCount": 6
+  },
+  {
+   "part": 4,
+   "text": "A smart five percent formula can beat a near-pure one.",
+   "startFrame": 604,
+   "endFrame": 692,
+   "sourceStartSeconds": 3.319,
+   "sourceEndSeconds": 4.659,
+   "wordCount": 5
+  },
+  {
+   "part": 5,
+   "text": "Read the front of the box.",
+   "startFrame": 722,
+   "endFrame": 760,
+   "sourceStartSeconds": 0.239,
+   "sourceEndSeconds": 1.24,
+   "wordCount": 6
+  },
+  {
+   "part": 5,
+   "text": "Pick one ingredient for one problem.",
+   "startFrame": 761,
+   "endFrame": 811,
+   "sourceStartSeconds": 1.559,
+   "sourceEndSeconds": 3.099,
+   "wordCount": 6
+  },
+  {
+   "part": 5,
+   "text": "Then let your skin decide.",
+   "startFrame": 812,
+   "endFrame": 859,
+   "sourceStartSeconds": 3.259,
+   "sourceEndSeconds": 4.399,
+   "wordCount": 5
+  }
+ ],
+ "coverage": {
+  "transcriptWords": 96,
+  "captionWords": 96,
+  "audioParts": 6
+ }
+}

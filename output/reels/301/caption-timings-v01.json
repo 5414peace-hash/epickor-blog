@@ -1,0 +1,248 @@
+{
+  "slug": "301",
+  "version": "v01",
+  "fps": 30,
+  "generatedAt": "2026-07-16T05:10:50.029Z",
+  "method": "ElevenLabs Forced Alignment against the approved narration transcript",
+  "captionLeadFrames": 5,
+  "safeZone": {
+    "left": 76,
+    "right": 76,
+    "bottom": 410,
+    "maxWidth": 928
+  },
+  "parts": [
+    {
+      "part": 1,
+      "transcript": "Ajumma can look like ma'am in subtitles—and still offend the person in front of you. The word can mark age and borrow familiarity you haven't earned. The translation is easy. The social distance is not.",
+      "alignmentLoss": 0.13318172303756864,
+      "wordCount": 35,
+      "beatCount": 7,
+      "firstWordStart": 0.079,
+      "lastWordEnd": 11.699
+    },
+    {
+      "part": 2,
+      "transcript": "But it isn't always an insult. Women may use it about themselves, and friends may use it playfully. That doesn't give a stranger permission. So use the room, not a phrasebook. For a stranger, say jeogiyo. If you know she's the owner, sajangnim works. Use imo only when that casual restaurant already does.",
+      "alignmentLoss": 0.09627130227010758,
+      "wordCount": 53,
+      "beatCount": 10,
+      "firstWordStart": 0.199,
+      "lastWordEnd": 17.219
+    },
+    {
+      "part": 3,
+      "transcript": "When you don't know the relationship, don't guess it. Understand ajumma before you use it. Save this, and read the full guide at epickor.com.",
+      "alignmentLoss": 0.21107308323501695,
+      "wordCount": 24,
+      "beatCount": 5,
+      "firstWordStart": 0.119,
+      "lastWordEnd": 7.779
+    }
+  ],
+  "beats": [
+    {
+      "part": 1,
+      "text": "Ajumma can look like ma'am",
+      "startFrame": 0,
+      "endFrame": 30,
+      "sourceStartSeconds": 0.079,
+      "sourceEndSeconds": 1.179,
+      "wordCount": 5
+    },
+    {
+      "part": 1,
+      "text": "in subtitles—and still offend the",
+      "startFrame": 31,
+      "endFrame": 81,
+      "sourceStartSeconds": 1.22,
+      "sourceEndSeconds": 2.879,
+      "wordCount": 5
+    },
+    {
+      "part": 1,
+      "text": "person in front of you.",
+      "startFrame": 82,
+      "endFrame": 133,
+      "sourceStartSeconds": 2.919,
+      "sourceEndSeconds": 3.879,
+      "wordCount": 5
+    },
+    {
+      "part": 1,
+      "text": "The word can mark age and",
+      "startFrame": 134,
+      "endFrame": 178,
+      "sourceStartSeconds": 4.639,
+      "sourceEndSeconds": 6.099,
+      "wordCount": 6
+    },
+    {
+      "part": 1,
+      "text": "borrow familiarity you haven't earned.",
+      "startFrame": 179,
+      "endFrame": 256,
+      "sourceStartSeconds": 6.139,
+      "sourceEndSeconds": 7.98,
+      "wordCount": 5
+    },
+    {
+      "part": 1,
+      "text": "The translation is easy.",
+      "startFrame": 257,
+      "endFrame": 309,
+      "sourceStartSeconds": 8.739,
+      "sourceEndSeconds": 9.859,
+      "wordCount": 4
+    },
+    {
+      "part": 1,
+      "text": "The social distance is not.",
+      "startFrame": 310,
+      "endFrame": 354,
+      "sourceStartSeconds": 10.519,
+      "sourceEndSeconds": 11.699,
+      "wordCount": 5
+    },
+    {
+      "part": 2,
+      "text": "But it isn't always an insult.",
+      "startFrame": 364,
+      "endFrame": 414,
+      "sourceStartSeconds": 0.199,
+      "sourceEndSeconds": 1.439,
+      "wordCount": 6
+    },
+    {
+      "part": 2,
+      "text": "Women may use it about themselves,",
+      "startFrame": 415,
+      "endFrame": 463,
+      "sourceStartSeconds": 1.919,
+      "sourceEndSeconds": 3.399,
+      "wordCount": 6
+    },
+    {
+      "part": 2,
+      "text": "and friends may use it playfully.",
+      "startFrame": 464,
+      "endFrame": 520,
+      "sourceStartSeconds": 3.539,
+      "sourceEndSeconds": 5,
+      "wordCount": 6
+    },
+    {
+      "part": 2,
+      "text": "That doesn't give a stranger permission.",
+      "startFrame": 521,
+      "endFrame": 579,
+      "sourceStartSeconds": 5.44,
+      "sourceEndSeconds": 7.319,
+      "wordCount": 6
+    },
+    {
+      "part": 2,
+      "text": "So use the room, not a phrasebook.",
+      "startFrame": 580,
+      "endFrame": 648,
+      "sourceStartSeconds": 7.419,
+      "sourceEndSeconds": 9.279,
+      "wordCount": 7
+    },
+    {
+      "part": 2,
+      "text": "For a stranger, say jeogiyo.",
+      "startFrame": 649,
+      "endFrame": 708,
+      "sourceStartSeconds": 9.719,
+      "sourceEndSeconds": 11.259,
+      "wordCount": 5
+    },
+    {
+      "part": 2,
+      "text": "If you know she's",
+      "startFrame": 709,
+      "endFrame": 727,
+      "sourceStartSeconds": 11.699,
+      "sourceEndSeconds": 12.32,
+      "wordCount": 4
+    },
+    {
+      "part": 2,
+      "text": "the owner, sajangnim works.",
+      "startFrame": 728,
+      "endFrame": 795,
+      "sourceStartSeconds": 12.359,
+      "sourceEndSeconds": 14.239,
+      "wordCount": 4
+    },
+    {
+      "part": 2,
+      "text": "Use imo only when that",
+      "startFrame": 796,
+      "endFrame": 829,
+      "sourceStartSeconds": 14.619,
+      "sourceEndSeconds": 15.699,
+      "wordCount": 5
+    },
+    {
+      "part": 2,
+      "text": "casual restaurant already does.",
+      "startFrame": 830,
+      "endFrame": 887,
+      "sourceStartSeconds": 15.739,
+      "sourceEndSeconds": 17.219,
+      "wordCount": 4
+    },
+    {
+      "part": 3,
+      "text": "When you don't know the",
+      "startFrame": 899,
+      "endFrame": 915,
+      "sourceStartSeconds": 0.119,
+      "sourceEndSeconds": 0.68,
+      "wordCount": 5
+    },
+    {
+      "part": 3,
+      "text": "relationship, don't guess it.",
+      "startFrame": 916,
+      "endFrame": 972,
+      "sourceStartSeconds": 0.74,
+      "sourceEndSeconds": 2.259,
+      "wordCount": 4
+    },
+    {
+      "part": 3,
+      "text": "Understand ajumma before you use it.",
+      "startFrame": 973,
+      "endFrame": 1043,
+      "sourceStartSeconds": 2.659,
+      "sourceEndSeconds": 4.44,
+      "wordCount": 6
+    },
+    {
+      "part": 3,
+      "text": "Save this, and read the",
+      "startFrame": 1044,
+      "endFrame": 1082,
+      "sourceStartSeconds": 5,
+      "sourceEndSeconds": 6.259,
+      "wordCount": 5
+    },
+    {
+      "part": 3,
+      "text": "full guide at epickor.com.",
+      "startFrame": 1083,
+      "endFrame": 1139,
+      "sourceStartSeconds": 6.319,
+      "sourceEndSeconds": 7.779,
+      "wordCount": 4
+    }
+  ],
+  "coverage": {
+    "transcriptWords": 112,
+    "captionWords": 112,
+    "audioParts": 3
+  }
+}

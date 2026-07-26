@@ -1,0 +1,432 @@
+{
+  "slug": "192",
+  "title": "Olive Young Korea Shopping Guide: What to Buy, Skip, and Know Before You Go",
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "durationFrames": 828,
+  "durationSeconds": 27.6,
+  "finalizedAt": "2026-06-16T02:04:44.068Z",
+  "audio": null,
+  "audioSegments": [
+    {
+      "part": 1,
+      "file": "output/reels/192/audio/narration-v001-part-01.mp3",
+      "publicPath": "/assets/reels/192/audio/narration-v001-part-01.mp3",
+      "staticFilePath": "audio/narration-v001-part-01.mp3",
+      "startFrame": 0,
+      "durationFrames": 269,
+      "durationSeconds": 8.966666666666667
+    },
+    {
+      "part": 2,
+      "file": "output/reels/192/audio/narration-v001-part-02.mp3",
+      "publicPath": "/assets/reels/192/audio/narration-v001-part-02.mp3",
+      "staticFilePath": "audio/narration-v001-part-02.mp3",
+      "startFrame": 269,
+      "durationFrames": 359,
+      "durationSeconds": 11.966666666666667
+    },
+    {
+      "part": 3,
+      "file": "output/reels/192/audio/narration-v001-part-03.mp3",
+      "publicPath": "/assets/reels/192/audio/narration-v001-part-03.mp3",
+      "staticFilePath": "audio/narration-v001-part-03.mp3",
+      "startFrame": 628,
+      "durationFrames": 140,
+      "durationSeconds": 4.666666666666667
+    }
+  ],
+  "outro": {
+    "startFrame": 768,
+    "durationFrames": 60,
+    "text": "epickor.com"
+  },
+  "brand": {
+    "label": "EpicKor",
+    "cta": "EPICKOR.COM"
+  },
+  "subtitleStyle": {
+    "mode": "narration_synced",
+    "preset": "modern_reels_phrase_pop"
+  },
+  "scenes": [
+    {
+      "number": 1,
+      "startFrame": 0,
+      "durationFrames": 74,
+      "durationSeconds": 2.466666666666667,
+      "narration": "Olive Young is where K-beauty gets useful, and dangerous.",
+      "captionBeats": [
+        "Olive Young is where\nK-beauty gets useful,",
+        "and dangerous."
+      ],
+      "captionBeatStartFrames": [
+        0,
+        42
+      ],
+      "captionLeadFrames": 0,
+      "captionStyle": "readable_band",
+      "typographyBeats": [],
+      "motion": "slow_push_in",
+      "images": [
+        {
+          "rank": 1,
+          "publicPath": "/assets/reels/192/scene-01-rank-01.png",
+          "staticFilePath": "scene-01-rank-01.png",
+          "sourceUrl": "/assets/reels/192/generated-v2/kbeauty-drugstore-aisle.png"
+        },
+        {
+          "rank": 2,
+          "publicPath": "/assets/reels/192/scene-01-rank-02.jpg",
+          "staticFilePath": "scene-01-rank-02.jpg",
+          "sourceUrl": "/assets/reels/192/real-v4/s1-olive-young-sign-close.jpg"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "startFrame": 74,
+      "durationFrames": 81,
+      "durationSeconds": 2.7,
+      "narration": "The store is designed to make every shelf feel urgent.",
+      "captionBeats": [
+        "The store is designed",
+        "to make every shelf\nfeel urgent."
+      ],
+      "captionBeatStartFrames": [
+        0,
+        40
+      ],
+      "captionLeadFrames": 0,
+      "captionStyle": "readable_band",
+      "typographyBeats": [],
+      "motion": "motion_card",
+      "images": []
+    },
+    {
+      "number": 3,
+      "startFrame": 155,
+      "durationFrames": 114,
+      "durationSeconds": 3.8,
+      "narration": "So do not start by reading every label. Walk the store once first.",
+      "captionBeats": [
+        "So do not start\nby reading every label.",
+        "Walk the store\nonce first."
+      ],
+      "captionBeatStartFrames": [
+        0,
+        58
+      ],
+      "captionLeadFrames": 0,
+      "captionStyle": "readable_band",
+      "typographyBeats": [],
+      "motion": "pan_right",
+      "images": [
+        {
+          "rank": 1,
+          "publicPath": "/assets/reels/192/scene-03-rank-01.png",
+          "staticFilePath": "scene-03-rank-01.png",
+          "sourceUrl": "/assets/reels/192/generated-v3/s3-aisle-walk-first-a.png"
+        },
+        {
+          "rank": 2,
+          "publicPath": "/assets/reels/192/scene-03-rank-02.jpg",
+          "staticFilePath": "scene-03-rank-02.jpg",
+          "sourceUrl": "/assets/reels/192/real-v4/s3-label-shelf-close.jpg"
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "startFrame": 269,
+      "durationFrames": 60,
+      "durationSeconds": 2,
+      "narration": "Then use the simple one-one-one rule.",
+      "captionBeats": [
+        "Then use the simple",
+        "one-one-one rule."
+      ],
+      "captionBeatStartFrames": [
+        0,
+        30
+      ],
+      "captionLeadFrames": 0,
+      "captionStyle": "readable_band",
+      "typographyBeats": [],
+      "motion": "motion_card",
+      "images": []
+    },
+    {
+      "number": 5,
+      "startFrame": 329,
+      "durationFrames": 127,
+      "durationSeconds": 4.233333333333333,
+      "narration": "Buy one thing you actually need, one thing you are curious about, and one small gift.",
+      "captionBeats": [
+        "Buy one thing\nyou actually need,",
+        "one thing you\nare curious about,",
+        "and one small gift."
+      ],
+      "captionBeatStartFrames": [
+        0,
+        50,
+        88
+      ],
+      "captionLeadFrames": 0,
+      "captionStyle": "readable_band",
+      "typographyBeats": [],
+      "motion": "pan_left",
+      "images": [
+        {
+          "rank": 1,
+          "publicPath": "/assets/reels/192/scene-05-rank-01.jpg",
+          "staticFilePath": "scene-05-rank-01.jpg",
+          "sourceUrl": "/assets/reels/192/real-v4/s5-real-product-shelf.jpg"
+        },
+        {
+          "rank": 2,
+          "publicPath": "/assets/reels/192/scene-05-rank-02.png",
+          "staticFilePath": "scene-05-rank-02.png",
+          "sourceUrl": "/assets/reels/192/generated-v2/smart-kbeauty-haul.png"
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "startFrame": 456,
+      "durationFrames": 172,
+      "durationSeconds": 5.733333333333333,
+      "narration": "The easy wins are sunscreen, toner pads, lip tints, patches, and travel minis. Skip giant routines you cannot test or pack.",
+      "captionBeats": [
+        "The easy wins are sunscreen,\ntoner pads, lip tints,",
+        "patches, and travel minis.",
+        "Skip giant routines",
+        "you cannot test or pack."
+      ],
+      "captionBeatStartFrames": [
+        0,
+        48,
+        88,
+        128
+      ],
+      "captionLeadFrames": 0,
+      "captionStyle": "readable_band",
+      "typographyBeats": [],
+      "motion": "pan_right",
+      "images": [
+        {
+          "rank": 1,
+          "publicPath": "/assets/reels/192/scene-06-rank-01.jpg",
+          "staticFilePath": "scene-06-rank-01.jpg",
+          "sourceUrl": "/assets/reels/192/real-v4/s6-real-aisle-products.jpg"
+        },
+        {
+          "rank": 2,
+          "publicPath": "/assets/reels/192/scene-06-rank-02.png",
+          "staticFilePath": "scene-06-rank-02.png",
+          "sourceUrl": "/assets/reels/192/generated-v2/travel-minis-suitcase.png"
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "startFrame": 628,
+      "durationFrames": 140,
+      "durationSeconds": 4.666666666666667,
+      "narration": "Save this before your first Olive Young run. More Korea shopping guides at epickor.com.",
+      "captionBeats": [
+        "Save this before your\nfirst Olive Young run.",
+        "More Korea shopping guides",
+        "at epickor.com."
+      ],
+      "captionBeatStartFrames": [
+        0,
+        58,
+        104
+      ],
+      "captionLeadFrames": 0,
+      "captionStyle": "readable_band",
+      "typographyBeats": [],
+      "motion": "slow_zoom_out",
+      "images": [
+        {
+          "rank": 1,
+          "publicPath": "/assets/reels/192/scene-07-rank-01.jpg",
+          "staticFilePath": "scene-07-rank-01.jpg",
+          "sourceUrl": "/assets/reels/192/real-v4/s7-myeongdong-save-this.jpg"
+        },
+        {
+          "rank": 2,
+          "publicPath": "/assets/reels/192/scene-07-rank-02.png",
+          "staticFilePath": "scene-07-rank-02.png",
+          "sourceUrl": "/assets/reels/192/generated-v2/seoul-kbeauty-outro.png"
+        }
+      ]
+    }
+  ],
+  "motionCards": [
+    {
+      "id": "192-card-urgent-shelf-menu",
+      "sceneNumber": 2,
+      "templateId": "menu_board",
+      "kicker": "STORE SIGNALS",
+      "headline": "Why you overspend",
+      "headlineLines": [
+        "Why you",
+        "overspend"
+      ],
+      "subhead": "Signals everywhere",
+      "subheadLines": [
+        "Signals",
+        "everywhere"
+      ],
+      "bullets": [
+        "Ranking",
+        "Sale",
+        "Tester",
+        "Limited"
+      ],
+      "footer": "Useful if you shop with a plan",
+      "footerLines": [
+        "Useful with",
+        "a plan"
+      ],
+      "layout": "board",
+      "motionPreset": "menu_rows_follow_voice",
+      "accentColor": "#db2777",
+      "overlayOpacity": 0.82,
+      "durationSeconds": 5,
+      "backgroundImage": "/assets/reels/192/candidates/pexels-cosmetics-sale-bag-5632393.jpg",
+      "reviewStatus": "approved",
+      "reviewerNote": "Owner selected as Scene 2 rank 1 on 2026-06-15.",
+      "rank": 1,
+      "representativeChoice": "S2 1:B"
+    },
+    {
+      "id": "192-card-one-one-one-receipt-v4",
+      "sceneNumber": 4,
+      "templateId": "receipt_stack",
+      "kicker": "BASKET FILTER",
+      "headline": "Three is enough",
+      "headlineLines": [
+        "Three",
+        "is enough"
+      ],
+      "subhead": "First visit rule",
+      "subheadLines": [
+        "First visit",
+        "rule"
+      ],
+      "bullets": [
+        "Real need",
+        "Curiosity",
+        "Small gift",
+        "Rest waits"
+      ],
+      "footer": "Leave space in the suitcase",
+      "footerLines": [
+        "Leave space",
+        "in the suitcase"
+      ],
+      "layout": "receipt",
+      "motionPreset": "receipt_rows_print_in",
+      "accentColor": "#0ea5e9",
+      "overlayOpacity": 0.8,
+      "durationSeconds": 5,
+      "backgroundImage": "/assets/reels/192/real-v4/s6-shelf-decision-real.jpg",
+      "reviewStatus": "approved",
+      "reviewerNote": "Option B v5: receipt-style basket filter. Clear and safe, with real Olive Young shelf context.",
+      "relevanceTier": "direct",
+      "visualFitScore": 91,
+      "rank": 1,
+      "representativeChoice": "S4 1:B"
+    }
+  ],
+  "motionCardTemplates": [
+    {
+      "id": "zone_compare",
+      "name": "Zone Compare",
+      "description": "Two filled comparison columns with a clear lower caption band. Best for explaining paired rules, areas, or before-after systems without an empty center.",
+      "layout": "split_compare",
+      "motionPreset": "zone_columns_reveal"
+    },
+    {
+      "id": "kit_grid",
+      "name": "Kit Grid",
+      "description": "A compact 2x2 tile grid with strong item blocks and a clear lower caption band. Best for packing lists, saveable checklists, and small sets of essentials.",
+      "layout": "kit_grid",
+      "motionPreset": "tiles_pop_balance"
+    },
+    {
+      "id": "editorial_box",
+      "name": "Editorial Box",
+      "description": "A strong framed card with headline, subhead, and list rows. Best for definitions or summary moments.",
+      "layout": "boxed",
+      "motionPreset": "card_rise_list_reveal"
+    },
+    {
+      "id": "kinetic_steps",
+      "name": "Kinetic Steps",
+      "description": "Floating step pills without a full card box. Best for process, how-to, or quick-start narration.",
+      "layout": "unboxed_steps",
+      "motionPreset": "step_pills_follow_voice"
+    },
+    {
+      "id": "menu_board",
+      "name": "Menu Board",
+      "description": "A menu/signboard style with sliding rows. Best for food, product lists, or options.",
+      "layout": "board",
+      "motionPreset": "menu_rows_follow_voice"
+    },
+    {
+      "id": "radial_burst",
+      "name": "Radial Burst",
+      "description": "A center headline with orbiting/angled labels. Best for explaining several meanings in one concept.",
+      "layout": "unboxed_radial",
+      "motionPreset": "chips_orbit_in"
+    },
+    {
+      "id": "split_checklist",
+      "name": "Split Checklist",
+      "description": "A vertical guide rail with checklist items. Best for etiquette, travel tips, and warnings.",
+      "layout": "split_checklist",
+      "motionPreset": "check_items_follow_voice"
+    },
+    {
+      "id": "convenience_tray",
+      "name": "Convenience Tray",
+      "description": "A bright shelf/tray grid with large item blocks. Best for convenience-store, breakfast, shopping, or assembled-choice scenes.",
+      "layout": "tray_grid",
+      "motionPreset": "tray_items_pop_in"
+    },
+    {
+      "id": "morning_route",
+      "name": "Morning Route",
+      "description": "A vertical path with paired start/end labels. Best for route, sequence, commute, or before-after logic.",
+      "layout": "route_map",
+      "motionPreset": "route_nodes_follow_voice"
+    },
+    {
+      "id": "wrapper_tabs",
+      "name": "Wrapper Tabs",
+      "description": "A package/wrapper metaphor with tagged steps. Best for food wrappers, assembly, folding, or object-anatomy scenes.",
+      "layout": "package_tabs",
+      "motionPreset": "tabs_reveal_around_object"
+    },
+    {
+      "id": "receipt_stack",
+      "name": "Receipt Stack",
+      "description": "A paper receipt/card stack with item rows and barcode texture. Best for prices, purchases, rules, and quick tallies.",
+      "layout": "receipt",
+      "motionPreset": "receipt_rows_print_in"
+    },
+    {
+      "id": "stamp_stack",
+      "name": "Stamp Stack",
+      "description": "Layered stamped slips with angled labels and a verification badge. Best for local rules, validations, myths, and cultural checkpoints.",
+      "layout": "stamp_slips",
+      "motionPreset": "stamps_drop_and_verify"
+    }
+  ]
+}

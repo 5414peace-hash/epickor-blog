@@ -1,0 +1,471 @@
+{
+  "slug": "185",
+  "title": "Seoul Made Rest A Contest",
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "durationFrames": 1083,
+  "durationSeconds": 36.1,
+  "finalizedAt": "2026-06-10T06:20:21.042Z",
+  "audio": null,
+  "audioSegments": [
+    {
+      "part": 1,
+      "file": "output/reels/185/audio/narration-v001-part-01.mp3",
+      "publicPath": "/assets/reels/185/audio/narration-v001-part-01.mp3",
+      "staticFilePath": "audio/narration-v001-part-01.mp3",
+      "startFrame": 0,
+      "durationFrames": 432,
+      "durationSeconds": 14.4
+    },
+    {
+      "part": 2,
+      "file": "output/reels/185/audio/narration-v001-part-02.mp3",
+      "publicPath": "/assets/reels/185/audio/narration-v001-part-02.mp3",
+      "staticFilePath": "audio/narration-v001-part-02.mp3",
+      "startFrame": 432,
+      "durationFrames": 388,
+      "durationSeconds": 12.933333333333334
+    },
+    {
+      "part": 3,
+      "file": "output/reels/185/audio/narration-v001-part-03.mp3",
+      "publicPath": "/assets/reels/185/audio/narration-v001-part-03.mp3",
+      "staticFilePath": "audio/narration-v001-part-03.mp3",
+      "startFrame": 820,
+      "durationFrames": 203,
+      "durationSeconds": 6.766666666666667
+    }
+  ],
+  "outro": {
+    "startFrame": 1023,
+    "durationFrames": 60,
+    "text": "epicKor.com"
+  },
+  "brand": {
+    "label": "EpicKor",
+    "cta": "EPICKOR.COM"
+  },
+  "subtitleStyle": {
+    "mode": "narration_synced",
+    "preset": "modern_reels_phrase_pop"
+  },
+  "scenes": [
+    {
+      "number": 1,
+      "startFrame": 0,
+      "durationFrames": 123,
+      "durationSeconds": 4.1,
+      "narration": "Seoul is famous for moving fast. So of course it made doing nothing a competition.",
+      "captionBeats": [
+        "Seoul is famous",
+        "for moving fast.",
+        "So of course",
+        "it made doing nothing",
+        "a competition."
+      ],
+      "captionBeatStartFrames": [
+        0,
+        23,
+        50,
+        73,
+        104
+      ],
+      "typographyBeats": [
+        {
+          "text": "SEOUL MADE REST",
+          "emphasis": "thumbnail_title",
+          "timingHint": "first frame"
+        },
+        {
+          "text": "A CONTEST",
+          "emphasis": "thumbnail_title",
+          "timingHint": "first frame"
+        }
+      ],
+      "motion": "slow_push_in",
+      "images": [
+        {
+          "rank": 1,
+          "publicPath": "/assets/reels/185/scene-01-rank-01.jpg",
+          "staticFilePath": "scene-01-rank-01.jpg",
+          "sourceUrl": "https://mediahub.seoul.go.kr/uploads/mediahub/2025/05/yFHmOtNOzYnLOkvBkrvGhkLfKGHqsFlN.jpg"
+        },
+        {
+          "rank": 2,
+          "publicPath": "/assets/reels/185/scene-01-rank-02.jpg",
+          "staticFilePath": "scene-01-rank-02.jpg",
+          "sourceUrl": "https://mediahub.seoul.go.kr/uploads/mediahub/2025/05/fCbAhHlgwGoGOoPgdKihhJiqatcrSQGD.jpg"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "startFrame": 123,
+      "durationFrames": 173,
+      "durationSeconds": 5.766666666666667,
+      "narration": "At the Hangang Space-Out Competition, people sit still for 90 minutes. No phone. No talking. No productive little task.",
+      "captionBeats": [
+        "At the Hangang",
+        "Space-Out Competition,",
+        "people sit still",
+        "for 90 minutes.",
+        "No phone.",
+        "No talking.",
+        "No productive little",
+        "task."
+      ],
+      "captionBeatStartFrames": [
+        0,
+        24,
+        44,
+        69,
+        97,
+        117,
+        137,
+        161
+      ],
+      "typographyBeats": [],
+      "motion": "motion_card",
+      "images": []
+    },
+    {
+      "number": 3,
+      "startFrame": 296,
+      "durationFrames": 136,
+      "durationSeconds": 4.533333333333333,
+      "narration": "And that is why the joke works. In a city built around speed, stillness suddenly looks radical.",
+      "captionBeats": [
+        "And that is why",
+        "the joke works.",
+        "In a city",
+        "built around speed,",
+        "stillness suddenly",
+        "looks radical."
+      ],
+      "captionBeatStartFrames": [
+        0,
+        30,
+        55,
+        77,
+        103,
+        118
+      ],
+      "typographyBeats": [],
+      "motion": "cut_in",
+      "images": [
+        {
+          "rank": 1,
+          "publicPath": "/assets/reels/185/scene-03-rank-01.jpg",
+          "staticFilePath": "scene-03-rank-01.jpg",
+          "sourceUrl": "https://static.wixstatic.com/media/d463b2_a10e8dd678e640b0a4fe7dbe1d994817~mv2.jpg/v1/fill/w_1080,h_1920,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/d463b2_a10e8dd678e640b0a4fe7dbe1d994817~mv2.jpg"
+        },
+        {
+          "rank": 2,
+          "publicPath": "/assets/reels/185/scene-03-rank-02.jpg",
+          "staticFilePath": "scene-03-rank-02.jpg",
+          "sourceUrl": "https://static.wixstatic.com/media/d463b2_162d277033ac49e0ab009c2b716acb65~mv2.jpg/v1/fill/w_1080,h_1920,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/d463b2_162d277033ac49e0ab009c2b716acb65~mv2.jpg"
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "startFrame": 432,
+      "durationFrames": 159,
+      "durationSeconds": 5.3,
+      "narration": "The Han River matters here. It is not just a view. It is where Seoul goes to recover.",
+      "captionBeats": [
+        "The Han River",
+        "matters here.",
+        "It is not just",
+        "a view.",
+        "It is where Seoul",
+        "goes to recover."
+      ],
+      "captionBeatStartFrames": [
+        0,
+        25,
+        45,
+        78,
+        98,
+        131
+      ],
+      "typographyBeats": [],
+      "motion": "pan_hold",
+      "images": [
+        {
+          "rank": 1,
+          "publicPath": "/assets/reels/185/scene-04-rank-01.jpg",
+          "staticFilePath": "scene-04-rank-01.jpg",
+          "sourceUrl": "https://static.wixstatic.com/media/d463b2_0d04fc7adee84af6aaa990be84f8bb6d~mv2.jpg/v1/fill/w_1080,h_1920,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/d463b2_0d04fc7adee84af6aaa990be84f8bb6d~mv2.jpg"
+        },
+        {
+          "rank": 2,
+          "publicPath": "/assets/reels/185/scene-04-rank-02.jpg",
+          "staticFilePath": "scene-04-rank-02.jpg",
+          "sourceUrl": "https://static.wixstatic.com/media/d463b2_ff80271ba34f4035940c2d729185b55e~mv2.jpg/v1/fill/w_1080,h_1920,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/d463b2_ff80271ba34f4035940c2d729185b55e~mv2.jpg"
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "startFrame": 591,
+      "durationFrames": 121,
+      "durationSeconds": 4.033333333333333,
+      "narration": "People bring mats, snacks, drinks, tiny lamps, and just enough room to breathe for a while.",
+      "captionBeats": [
+        "People bring mats,",
+        "snacks, drinks,",
+        "tiny lamps,",
+        "and just enough room",
+        "to breathe for a while."
+      ],
+      "captionBeatStartFrames": [
+        0,
+        23,
+        42,
+        58,
+        85
+      ],
+      "typographyBeats": [],
+      "motion": "slow_push_in",
+      "images": [
+        {
+          "rank": 1,
+          "publicPath": "/assets/reels/185/scene-05-rank-01.jpg",
+          "staticFilePath": "scene-05-rank-01.jpg",
+          "sourceUrl": "https://static.wixstatic.com/media/d463b2_e0f46cfeadc04753a27466e93e9fe2ed~mv2.jpg/v1/fill/w_1080,h_1920,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/d463b2_e0f46cfeadc04753a27466e93e9fe2ed~mv2.jpg"
+        },
+        {
+          "rank": 2,
+          "publicPath": "/assets/reels/185/scene-05-rank-02.jpg",
+          "staticFilePath": "scene-05-rank-02.jpg",
+          "sourceUrl": "https://static.wixstatic.com/media/d463b2_301dc4b8bfb04802b2c7cdd79c03d07c~mv2.jpg/v1/fill/w_1080,h_1920,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/d463b2_301dc4b8bfb04802b2c7cdd79c03d07c~mv2.jpg"
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "startFrame": 712,
+      "durationFrames": 108,
+      "durationSeconds": 3.6,
+      "narration": "Korea often turns rest into a format: cafe break, jjimjilbang, temple stay, river picnic.",
+      "captionBeats": [
+        "Korea often turns",
+        "rest into a format:",
+        "cafe break,",
+        "jjimjilbang,",
+        "temple stay,",
+        "river picnic."
+      ],
+      "captionBeatStartFrames": [
+        0,
+        20,
+        50,
+        66,
+        75,
+        92
+      ],
+      "typographyBeats": [],
+      "motion": "motion_card",
+      "images": []
+    },
+    {
+      "number": 7,
+      "startFrame": 820,
+      "durationFrames": 203,
+      "durationSeconds": 6.766666666666667,
+      "narration": "If your Seoul itinerary is already packed, do not add wellness as one more task. Replace something. Save this before you overplan Seoul.",
+      "captionBeats": [
+        "If your Seoul itinerary",
+        "is already packed,",
+        "do not add wellness",
+        "as one more task.",
+        "Replace something.",
+        "Save this before",
+        "you overplan Seoul."
+      ],
+      "captionBeatStartFrames": [
+        0,
+        33,
+        61,
+        94,
+        130,
+        150,
+        175
+      ],
+      "typographyBeats": [],
+      "motion": "outro_push",
+      "images": [
+        {
+          "rank": 1,
+          "publicPath": "/assets/reels/185/scene-07-rank-01.jpg",
+          "staticFilePath": "scene-07-rank-01.jpg",
+          "sourceUrl": "https://static.wixstatic.com/media/d463b2_af65e39ac84f4915be78cda56159b061~mv2.jpg/v1/fill/w_1080,h_1920,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/d463b2_af65e39ac84f4915be78cda56159b061~mv2.jpg"
+        },
+        {
+          "rank": 2,
+          "publicPath": "/assets/reels/185/scene-07-rank-02.jpg",
+          "staticFilePath": "scene-07-rank-02.jpg",
+          "sourceUrl": "https://static.wixstatic.com/media/d463b2_6480611f67d04deda6faca466c9151ce~mv2.jpg/v1/fill/w_1080,h_1920,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/d463b2_6480611f67d04deda6faca466c9151ce~mv2.jpg"
+        }
+      ]
+    }
+  ],
+  "motionCards": [
+    {
+      "id": "185-card-rules-zone",
+      "sceneNumber": 2,
+      "templateId": "zone_compare",
+      "kicker": "SPACE-OUT RULE",
+      "headline": "Ninety quiet minutes",
+      "headlineLines": [
+        "Ninety quiet",
+        "minutes"
+      ],
+      "subhead": "The joke is also the point",
+      "subheadLines": [
+        "The joke is",
+        "the point"
+      ],
+      "bullets": [
+        "No phone",
+        "No talking",
+        "No task",
+        "Just still"
+      ],
+      "footer": "Seoul turns pause into public culture",
+      "footerLines": [
+        "Pause becomes",
+        "public culture"
+      ],
+      "layout": "split_compare",
+      "motionPreset": "zone_columns_reveal",
+      "accentColor": "#38bdf8",
+      "overlayOpacity": 0.8,
+      "durationSeconds": 6,
+      "reviewStatus": "approved",
+      "reviewerNote": ""
+    },
+    {
+      "id": "185-card-rest-formats",
+      "sceneNumber": 6,
+      "templateId": "split_checklist",
+      "kicker": "KOREA REST MAP",
+      "headline": "Rest has formats",
+      "headlineLines": [
+        "Rest has",
+        "formats"
+      ],
+      "subhead": "Small pauses that locals recognize",
+      "subheadLines": [
+        "Local pauses",
+        "not extra tasks"
+      ],
+      "bullets": [
+        "Cafe break",
+        "Jjimjilbang",
+        "Temple stay",
+        "River picnic"
+      ],
+      "footer": "Replace one stop, do not add one",
+      "footerLines": [
+        "Replace one stop",
+        "do not add one"
+      ],
+      "layout": "split_checklist",
+      "motionPreset": "check_items_follow_voice",
+      "accentColor": "#f59e0b",
+      "overlayOpacity": 0.8,
+      "durationSeconds": 6,
+      "reviewStatus": "approved",
+      "reviewerNote": ""
+    }
+  ],
+  "motionCardTemplates": [
+    {
+      "id": "zone_compare",
+      "name": "Zone Compare",
+      "description": "Two filled comparison columns with a clear lower caption band. Best for explaining paired rules, areas, or before-after systems without an empty center.",
+      "layout": "split_compare",
+      "motionPreset": "zone_columns_reveal"
+    },
+    {
+      "id": "kit_grid",
+      "name": "Kit Grid",
+      "description": "A compact 2x2 tile grid with strong item blocks and a clear lower caption band. Best for packing lists, saveable checklists, and small sets of essentials.",
+      "layout": "kit_grid",
+      "motionPreset": "tiles_pop_balance"
+    },
+    {
+      "id": "editorial_box",
+      "name": "Editorial Box",
+      "description": "A strong framed card with headline, subhead, and list rows. Best for definitions or summary moments.",
+      "layout": "boxed",
+      "motionPreset": "card_rise_list_reveal"
+    },
+    {
+      "id": "kinetic_steps",
+      "name": "Kinetic Steps",
+      "description": "Floating step pills without a full card box. Best for process, how-to, or quick-start narration.",
+      "layout": "unboxed_steps",
+      "motionPreset": "step_pills_follow_voice"
+    },
+    {
+      "id": "menu_board",
+      "name": "Menu Board",
+      "description": "A menu/signboard style with sliding rows. Best for food, product lists, or options.",
+      "layout": "board",
+      "motionPreset": "menu_rows_follow_voice"
+    },
+    {
+      "id": "radial_burst",
+      "name": "Radial Burst",
+      "description": "A center headline with orbiting/angled labels. Best for explaining several meanings in one concept.",
+      "layout": "unboxed_radial",
+      "motionPreset": "chips_orbit_in"
+    },
+    {
+      "id": "split_checklist",
+      "name": "Split Checklist",
+      "description": "A vertical guide rail with checklist items. Best for etiquette, travel tips, and warnings.",
+      "layout": "split_checklist",
+      "motionPreset": "check_items_follow_voice"
+    },
+    {
+      "id": "convenience_tray",
+      "name": "Convenience Tray",
+      "description": "A bright shelf/tray grid with large item blocks. Best for convenience-store, breakfast, shopping, or assembled-choice scenes.",
+      "layout": "tray_grid",
+      "motionPreset": "tray_items_pop_in"
+    },
+    {
+      "id": "morning_route",
+      "name": "Morning Route",
+      "description": "A vertical path with paired start/end labels. Best for route, sequence, commute, or before-after logic.",
+      "layout": "route_map",
+      "motionPreset": "route_nodes_follow_voice"
+    },
+    {
+      "id": "wrapper_tabs",
+      "name": "Wrapper Tabs",
+      "description": "A package/wrapper metaphor with tagged steps. Best for food wrappers, assembly, folding, or object-anatomy scenes.",
+      "layout": "package_tabs",
+      "motionPreset": "tabs_reveal_around_object"
+    },
+    {
+      "id": "receipt_stack",
+      "name": "Receipt Stack",
+      "description": "A paper receipt/card stack with item rows and barcode texture. Best for prices, purchases, rules, and quick tallies.",
+      "layout": "receipt",
+      "motionPreset": "receipt_rows_print_in"
+    },
+    {
+      "id": "stamp_stack",
+      "name": "Stamp Stack",
+      "description": "Layered stamped slips with angled labels and a verification badge. Best for local rules, validations, myths, and cultural checkpoints.",
+      "layout": "stamp_slips",
+      "motionPreset": "stamps_drop_and_verify"
+    }
+  ]
+}

@@ -1,0 +1,494 @@
+{
+  "slug": "191",
+  "title": "Korean University Life: Study Hard, Play Harder Culture Explained",
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "durationFrames": 1148,
+  "durationSeconds": 38.266666666666666,
+  "finalizedAt": "2026-06-12T08:07:08.923Z",
+  "audio": null,
+  "audioSegments": [
+    {
+      "part": 1,
+      "sceneNumber": 1,
+      "file": "output/reels/191/audio/narration-v001-scene-01.mp3",
+      "publicPath": "/assets/reels/191/audio/narration-v001-scene-01.mp3",
+      "staticFilePath": "audio/narration-v001-scene-01.mp3",
+      "startFrame": 0,
+      "durationFrames": 60,
+      "durationSeconds": 2
+    },
+    {
+      "part": 2,
+      "sceneNumber": 2,
+      "file": "output/reels/191/audio/narration-v001-scene-02.mp3",
+      "publicPath": "/assets/reels/191/audio/narration-v001-scene-02.mp3",
+      "staticFilePath": "audio/narration-v001-scene-02.mp3",
+      "startFrame": 60,
+      "durationFrames": 108,
+      "durationSeconds": 3.6
+    },
+    {
+      "part": 3,
+      "sceneNumber": 3,
+      "file": "output/reels/191/audio/narration-v001-scene-03.mp3",
+      "publicPath": "/assets/reels/191/audio/narration-v001-scene-03.mp3",
+      "staticFilePath": "audio/narration-v001-scene-03.mp3",
+      "startFrame": 168,
+      "durationFrames": 183,
+      "durationSeconds": 6.1
+    },
+    {
+      "part": 4,
+      "sceneNumber": 4,
+      "file": "output/reels/191/audio/narration-v001-scene-04.mp3",
+      "publicPath": "/assets/reels/191/audio/narration-v001-scene-04.mp3",
+      "staticFilePath": "audio/narration-v001-scene-04.mp3",
+      "startFrame": 351,
+      "durationFrames": 165,
+      "durationSeconds": 5.5
+    },
+    {
+      "part": 5,
+      "sceneNumber": 5,
+      "file": "output/reels/191/audio/narration-v001-scene-05.mp3",
+      "publicPath": "/assets/reels/191/audio/narration-v001-scene-05.mp3",
+      "staticFilePath": "audio/narration-v001-scene-05.mp3",
+      "startFrame": 516,
+      "durationFrames": 144,
+      "durationSeconds": 4.8
+    },
+    {
+      "part": 6,
+      "sceneNumber": 6,
+      "file": "output/reels/191/audio/narration-v001-scene-06.mp3",
+      "publicPath": "/assets/reels/191/audio/narration-v001-scene-06.mp3",
+      "staticFilePath": "audio/narration-v001-scene-06.mp3",
+      "startFrame": 660,
+      "durationFrames": 228,
+      "durationSeconds": 7.6
+    },
+    {
+      "part": 7,
+      "sceneNumber": 7,
+      "file": "output/reels/191/audio/narration-v001-scene-07.mp3",
+      "publicPath": "/assets/reels/191/audio/narration-v001-scene-07.mp3",
+      "staticFilePath": "audio/narration-v001-scene-07.mp3",
+      "startFrame": 888,
+      "durationFrames": 200,
+      "durationSeconds": 6.666666666666667
+    }
+  ],
+  "outro": {
+    "startFrame": 1088,
+    "durationFrames": 60,
+    "text": "epicKor.com"
+  },
+  "brand": {
+    "label": "EpicKor",
+    "cta": "EPICKOR.COM"
+  },
+  "subtitleStyle": {
+    "mode": "narration_synced",
+    "preset": "modern_reels_phrase_pop"
+  },
+  "scenes": [
+    {
+      "number": 1,
+      "startFrame": 0,
+      "durationFrames": 60,
+      "durationSeconds": 2,
+      "narration": "Korean college is not just study hard.",
+      "captionBeats": [
+        "Korean college is\nnot just study hard."
+      ],
+      "captionBeatStartFrames": [
+        0
+      ],
+      "captionLeadFrames": 0,
+      "captionStyle": "readable_band",
+      "typographyBeats": [],
+      "motion": "slow_push_in",
+      "images": [
+        {
+          "rank": 1,
+          "publicPath": "/assets/reels/191/scene-01-rank-01.jpg",
+          "staticFilePath": "scene-01-rank-01.jpg",
+          "sourceUrl": "/assets/images/posts/191/korea-university-main-hall.jpg"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "startFrame": 60,
+      "durationFrames": 108,
+      "durationSeconds": 3.6,
+      "narration": "It is study hard, socialize hard, and start planning your future early.",
+      "captionBeats": [
+        "It is study hard,\nsocialize hard,",
+        "and start planning\nyour future early."
+      ],
+      "captionBeatStartFrames": [
+        0,
+        56
+      ],
+      "captionLeadFrames": 0,
+      "captionStyle": "readable_band",
+      "typographyBeats": [],
+      "motion": "motion_card",
+      "images": [
+        {
+          "rank": 1,
+          "publicPath": "/assets/reels/191/scene-02-rank-01.jpg",
+          "staticFilePath": "scene-02-rank-01.jpg",
+          "sourceUrl": "/assets/images/posts/191/korea-university-main-hall.jpg"
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "startFrame": 168,
+      "durationFrames": 183,
+      "durationSeconds": 6.1,
+      "narration": "After years of entrance-exam pressure, university can feel like freedom. But the pressure does not disappear. It changes shape.",
+      "captionBeats": [
+        "After years of\nentrance-exam pressure,",
+        "university can feel\nlike freedom.",
+        "But the pressure\ndoes not disappear.",
+        "It changes shape."
+      ],
+      "captionBeatStartFrames": [
+        0,
+        48,
+        96,
+        153
+      ],
+      "captionLeadFrames": 0,
+      "captionStyle": "readable_band",
+      "typographyBeats": [],
+      "motion": "pan_hold",
+      "images": [
+        {
+          "rank": 1,
+          "publicPath": "/assets/reels/191/scene-03-rank-01.jpg",
+          "staticFilePath": "scene-03-rank-01.jpg",
+          "sourceUrl": "/assets/reels/191/candidates/pexels-campus-notes-walking-7972647.jpg"
+        },
+        {
+          "rank": 2,
+          "publicPath": "/assets/reels/191/scene-03-rank-02.jpg",
+          "staticFilePath": "scene-03-rank-02.jpg",
+          "sourceUrl": "/assets/images/posts/191/yonsei-main-building.jpg"
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "startFrame": 351,
+      "durationFrames": 165,
+      "durationSeconds": 5.5,
+      "narration": "Students join clubs, go to festivals, take MT trips, build friend groups, and sometimes drink way more than they expected.",
+      "captionBeats": [
+        "Students join clubs,\ngo to festivals,",
+        "take MT trips,\nbuild friend groups,",
+        "and sometimes drink way more\nthan they expected."
+      ],
+      "captionBeatStartFrames": [
+        0,
+        51,
+        102
+      ],
+      "captionLeadFrames": 0,
+      "captionStyle": "readable_band",
+      "typographyBeats": [],
+      "motion": "motion_card",
+      "images": [
+        {
+          "rank": 1,
+          "publicPath": "/assets/reels/191/scene-04-rank-01.jpg",
+          "staticFilePath": "scene-04-rank-01.jpg",
+          "sourceUrl": "/assets/reels/191/candidates/pexels-korean-performance-14072292.jpg"
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "startFrame": 516,
+      "durationFrames": 144,
+      "durationSeconds": 4.8,
+      "narration": "But at the same time, they are thinking about grades, internships, language scores, certificates, and jobs.",
+      "captionBeats": [
+        "But at the same time,",
+        "they are thinking about grades,",
+        "internships, language scores,",
+        "certificates, and jobs."
+      ],
+      "captionBeatStartFrames": [
+        0,
+        42,
+        84,
+        114
+      ],
+      "captionLeadFrames": 0,
+      "captionStyle": "readable_band",
+      "typographyBeats": [],
+      "motion": "text_overlay",
+      "images": [
+        {
+          "rank": 1,
+          "publicPath": "/assets/reels/191/scene-05-rank-01.jpg",
+          "staticFilePath": "scene-05-rank-01.jpg",
+          "sourceUrl": "/assets/reels/191/candidates/pexels-library-wide-study-7777702.jpg"
+        },
+        {
+          "rank": 2,
+          "publicPath": "/assets/reels/191/scene-05-rank-02.jpg",
+          "staticFilePath": "scene-05-rank-02.jpg",
+          "sourceUrl": "/assets/reels/191/candidates/pexels-library-laptop-study-8199257.jpg"
+        },
+        {
+          "rank": 3,
+          "publicPath": "/assets/reels/191/scene-05-rank-03.jpg",
+          "staticFilePath": "scene-05-rank-03.jpg",
+          "sourceUrl": "/assets/reels/191/candidates/pexels-outdoor-laptop-study-7972944.jpg"
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "startFrame": 660,
+      "durationFrames": 228,
+      "durationSeconds": 7.6,
+      "narration": "It can look like a party from the outside. But underneath it, there is hierarchy, career anxiety, school prestige, and a lot of social effort.",
+      "captionBeats": [
+        "It can look like a party\nfrom the outside.",
+        "But underneath it,\nthere is hierarchy,",
+        "career anxiety,\nschool prestige,",
+        "and a lot of\nsocial effort."
+      ],
+      "captionBeatStartFrames": [
+        0,
+        78,
+        135,
+        175
+      ],
+      "captionLeadFrames": 0,
+      "captionStyle": "readable_band",
+      "typographyBeats": [],
+      "motion": "match_cut",
+      "images": [
+        {
+          "rank": 1,
+          "publicPath": "/assets/reels/191/scene-06-rank-01.jpg",
+          "staticFilePath": "scene-06-rank-01.jpg",
+          "sourceUrl": "/assets/reels/191/candidates/pexels-seoul-sunset-street-31613718.jpg"
+        },
+        {
+          "rank": 2,
+          "publicPath": "/assets/reels/191/scene-06-rank-02.jpg",
+          "staticFilePath": "scene-06-rank-02.jpg",
+          "sourceUrl": "/assets/reels/191/candidates/pexels-seoul-young-friends-street-28916457.jpg"
+        },
+        {
+          "rank": 3,
+          "publicPath": "/assets/reels/191/scene-06-rank-03.jpg",
+          "staticFilePath": "scene-06-rank-03.jpg",
+          "sourceUrl": "/assets/reels/191/candidates/pexels-campus-socializing-7972544.jpg"
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "startFrame": 888,
+      "durationFrames": 200,
+      "durationSeconds": 6.666666666666667,
+      "narration": "So Korean university life is not just school. It is a mirror of modern Korea. Save this if you want to understand young Korea.",
+      "captionBeats": [
+        "So Korean university life\nis not just school.",
+        "It is a mirror\nof modern Korea.",
+        "Save this if you want\nto understand young Korea."
+      ],
+      "captionBeatStartFrames": [
+        0,
+        67,
+        125
+      ],
+      "captionLeadFrames": 0,
+      "captionStyle": "readable_band",
+      "typographyBeats": [],
+      "motion": "outro_push",
+      "images": [
+        {
+          "rank": 1,
+          "publicPath": "/assets/reels/191/scene-07-rank-01.jpg",
+          "staticFilePath": "scene-07-rank-01.jpg",
+          "sourceUrl": "/assets/reels/191/derivatives/korea-university-outro-vertical.jpg"
+        },
+        {
+          "rank": 2,
+          "publicPath": "/assets/reels/191/scene-07-rank-02.jpg",
+          "staticFilePath": "scene-07-rank-02.jpg",
+          "sourceUrl": "/assets/reels/191/derivatives/yonsei-main-building-outro-vertical.jpg"
+        }
+      ]
+    }
+  ],
+  "motionCards": [
+    {
+      "id": "191-card-pressure-split",
+      "sceneNumber": 2,
+      "templateId": "zone_compare",
+      "kicker": "KOREAN CAMPUS",
+      "headline": "Freedom plus pressure",
+      "headlineLines": [
+        "Freedom",
+        "plus pressure"
+      ],
+      "subhead": "Both happen at once",
+      "subheadLines": [
+        "Both happen",
+        "at once"
+      ],
+      "bullets": [
+        "Study hard",
+        "Socialize hard",
+        "Plan early"
+      ],
+      "footer": "That is the Korean college mix",
+      "footerLines": [
+        "That is the",
+        "college mix"
+      ],
+      "layout": "split_compare",
+      "motionPreset": "zone_columns_reveal",
+      "accentColor": "#2563eb",
+      "overlayOpacity": 0.8,
+      "durationSeconds": 6,
+      "backgroundImage": "/assets/images/posts/191/korea-university-main-hall.jpg",
+      "reviewStatus": "approved",
+      "reviewerNote": ""
+    },
+    {
+      "id": "191-card-campus-life-grid",
+      "sceneNumber": 4,
+      "templateId": "kit_grid",
+      "kicker": "CAMPUS MIX",
+      "headline": "More than classes",
+      "headlineLines": [
+        "More than",
+        "classes"
+      ],
+      "subhead": "The weekly rhythm",
+      "subheadLines": [
+        "The weekly",
+        "rhythm"
+      ],
+      "bullets": [
+        "Clubs",
+        "Festivals",
+        "MT trips",
+        "Internships"
+      ],
+      "footer": "Fun and pressure share the calendar",
+      "footerLines": [
+        "Fun and pressure",
+        "share the calendar"
+      ],
+      "layout": "kit_grid",
+      "motionPreset": "tiles_pop_balance",
+      "accentColor": "#ea580c",
+      "overlayOpacity": 0.8,
+      "durationSeconds": 7,
+      "backgroundImage": "/assets/reels/191/candidates/pexels-korean-performance-14072292.jpg",
+      "reviewStatus": "approved",
+      "reviewerNote": ""
+    }
+  ],
+  "motionCardTemplates": [
+    {
+      "id": "zone_compare",
+      "name": "Zone Compare",
+      "description": "Two filled comparison columns with a clear lower caption band. Best for explaining paired rules, areas, or before-after systems without an empty center.",
+      "layout": "split_compare",
+      "motionPreset": "zone_columns_reveal"
+    },
+    {
+      "id": "kit_grid",
+      "name": "Kit Grid",
+      "description": "A compact 2x2 tile grid with strong item blocks and a clear lower caption band. Best for packing lists, saveable checklists, and small sets of essentials.",
+      "layout": "kit_grid",
+      "motionPreset": "tiles_pop_balance"
+    },
+    {
+      "id": "editorial_box",
+      "name": "Editorial Box",
+      "description": "A strong framed card with headline, subhead, and list rows. Best for definitions or summary moments.",
+      "layout": "boxed",
+      "motionPreset": "card_rise_list_reveal"
+    },
+    {
+      "id": "kinetic_steps",
+      "name": "Kinetic Steps",
+      "description": "Floating step pills without a full card box. Best for process, how-to, or quick-start narration.",
+      "layout": "unboxed_steps",
+      "motionPreset": "step_pills_follow_voice"
+    },
+    {
+      "id": "menu_board",
+      "name": "Menu Board",
+      "description": "A menu/signboard style with sliding rows. Best for food, product lists, or options.",
+      "layout": "board",
+      "motionPreset": "menu_rows_follow_voice"
+    },
+    {
+      "id": "radial_burst",
+      "name": "Radial Burst",
+      "description": "A center headline with orbiting/angled labels. Best for explaining several meanings in one concept.",
+      "layout": "unboxed_radial",
+      "motionPreset": "chips_orbit_in"
+    },
+    {
+      "id": "split_checklist",
+      "name": "Split Checklist",
+      "description": "A vertical guide rail with checklist items. Best for etiquette, travel tips, and warnings.",
+      "layout": "split_checklist",
+      "motionPreset": "check_items_follow_voice"
+    },
+    {
+      "id": "convenience_tray",
+      "name": "Convenience Tray",
+      "description": "A bright shelf/tray grid with large item blocks. Best for convenience-store, breakfast, shopping, or assembled-choice scenes.",
+      "layout": "tray_grid",
+      "motionPreset": "tray_items_pop_in"
+    },
+    {
+      "id": "morning_route",
+      "name": "Morning Route",
+      "description": "A vertical path with paired start/end labels. Best for route, sequence, commute, or before-after logic.",
+      "layout": "route_map",
+      "motionPreset": "route_nodes_follow_voice"
+    },
+    {
+      "id": "wrapper_tabs",
+      "name": "Wrapper Tabs",
+      "description": "A package/wrapper metaphor with tagged steps. Best for food wrappers, assembly, folding, or object-anatomy scenes.",
+      "layout": "package_tabs",
+      "motionPreset": "tabs_reveal_around_object"
+    },
+    {
+      "id": "receipt_stack",
+      "name": "Receipt Stack",
+      "description": "A paper receipt/card stack with item rows and barcode texture. Best for prices, purchases, rules, and quick tallies.",
+      "layout": "receipt",
+      "motionPreset": "receipt_rows_print_in"
+    },
+    {
+      "id": "stamp_stack",
+      "name": "Stamp Stack",
+      "description": "Layered stamped slips with angled labels and a verification badge. Best for local rules, validations, myths, and cultural checkpoints.",
+      "layout": "stamp_slips",
+      "motionPreset": "stamps_drop_and_verify"
+    }
+  ]
+}

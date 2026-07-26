@@ -1,0 +1,534 @@
+{
+  "slug": "257",
+  "title": "Incheon Airport Layover Guide 2026: Rest, Food, Transit",
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "durationFrames": 1026,
+  "durationSeconds": 34.2,
+  "finalizedAt": "2026-07-03T04:48:24.275Z",
+  "audio": null,
+  "audioSegments": [
+    {
+      "part": 1,
+      "sceneNumber": 1,
+      "file": "output/reels/257/audio/narration-v001-scene-01.mp3",
+      "publicPath": "/assets/reels/257/audio/narration-v001-scene-01.mp3",
+      "staticFilePath": "audio/narration-v001-scene-01.mp3",
+      "startFrame": 0,
+      "durationFrames": 95,
+      "durationSeconds": 3.1666666666666665
+    },
+    {
+      "part": 2,
+      "sceneNumber": 2,
+      "file": "output/reels/257/audio/narration-v001-scene-02.mp3",
+      "publicPath": "/assets/reels/257/audio/narration-v001-scene-02.mp3",
+      "staticFilePath": "audio/narration-v001-scene-02.mp3",
+      "startFrame": 95,
+      "durationFrames": 137,
+      "durationSeconds": 4.566666666666666
+    },
+    {
+      "part": 3,
+      "sceneNumber": 3,
+      "file": "output/reels/257/audio/narration-v001-scene-03.mp3",
+      "publicPath": "/assets/reels/257/audio/narration-v001-scene-03.mp3",
+      "staticFilePath": "audio/narration-v001-scene-03.mp3",
+      "startFrame": 232,
+      "durationFrames": 126,
+      "durationSeconds": 4.2
+    },
+    {
+      "part": 4,
+      "sceneNumber": 4,
+      "file": "output/reels/257/audio/narration-v001-scene-04.mp3",
+      "publicPath": "/assets/reels/257/audio/narration-v001-scene-04.mp3",
+      "staticFilePath": "audio/narration-v001-scene-04.mp3",
+      "startFrame": 358,
+      "durationFrames": 158,
+      "durationSeconds": 5.266666666666667
+    },
+    {
+      "part": 5,
+      "sceneNumber": 5,
+      "file": "output/reels/257/audio/narration-v001-scene-05.mp3",
+      "publicPath": "/assets/reels/257/audio/narration-v001-scene-05.mp3",
+      "staticFilePath": "audio/narration-v001-scene-05.mp3",
+      "startFrame": 516,
+      "durationFrames": 130,
+      "durationSeconds": 4.333333333333333
+    },
+    {
+      "part": 6,
+      "sceneNumber": 6,
+      "file": "output/reels/257/audio/narration-v001-scene-06.mp3",
+      "publicPath": "/assets/reels/257/audio/narration-v001-scene-06.mp3",
+      "staticFilePath": "audio/narration-v001-scene-06.mp3",
+      "startFrame": 646,
+      "durationFrames": 157,
+      "durationSeconds": 5.233333333333333
+    },
+    {
+      "part": 7,
+      "sceneNumber": 7,
+      "file": "output/reels/257/audio/narration-v001-scene-07.mp3",
+      "publicPath": "/assets/reels/257/audio/narration-v001-scene-07.mp3",
+      "staticFilePath": "audio/narration-v001-scene-07.mp3",
+      "startFrame": 803,
+      "durationFrames": 133,
+      "durationSeconds": 4.433333333333334
+    }
+  ],
+  "outro": {
+    "startFrame": 936,
+    "durationFrames": 90,
+    "text": "epicKor.com"
+  },
+  "brand": {
+    "label": "EpicKor",
+    "cta": "EPICKOR.COM"
+  },
+  "subtitleStyle": {
+    "mode": "narration_synced",
+    "preset": "readable_band_two_line",
+    "captionLeadFrames": 0
+  },
+  "scenes": [
+    {
+      "number": 1,
+      "startFrame": 0,
+      "durationFrames": 95,
+      "durationSeconds": 3.1666666666666665,
+      "narration": "Your Incheon layover starts with a trap: the clock lies.",
+      "captionBeats": [
+        "Your Incheon layover\nstarts with a trap:",
+        "the clock lies."
+      ],
+      "captionBeatStartFrames": [
+        0,
+        65
+      ],
+      "captionLeadFrames": 0,
+      "captionStyle": "readable_band",
+      "typographyBeats": [
+        {
+          "text": "DON'T LEAVE|ICN FIRST",
+          "emphasis": "thumbnail_title_batch_257",
+          "timingHint": "first frame"
+        }
+      ],
+      "motion": "slow_push_in",
+      "images": [
+        {
+          "rank": 1,
+          "publicPath": "/assets/reels/257/scene-01-rank-01.jpg",
+          "staticFilePath": "scene-01-rank-01.jpg",
+          "sourceUrl": "/assets/reels/257/korea-context/incheon-lounge-01.jpg",
+          "width": 1080,
+          "height": 1920,
+          "aspectRatio": 0.5625,
+          "fitMode": "cover",
+          "cameraMove": "slow_push_in"
+        },
+        {
+          "rank": 2,
+          "publicPath": "/assets/reels/257/scene-01-rank-02.jpg",
+          "staticFilePath": "scene-01-rank-02.jpg",
+          "sourceUrl": "/assets/reels/257/korea-context/incheon-departure-02.jpg",
+          "width": 1080,
+          "height": 1920,
+          "aspectRatio": 0.5625,
+          "fitMode": "cover",
+          "cameraMove": "pan_left"
+        },
+        {
+          "rank": 3,
+          "publicPath": "/assets/reels/257/scene-01-rank-03.jpg",
+          "staticFilePath": "scene-01-rank-03.jpg",
+          "sourceUrl": "/assets/reels/257/korea-context/incheon-arrival-03.jpg",
+          "width": 1080,
+          "height": 1920,
+          "aspectRatio": 0.5625,
+          "fitMode": "cover",
+          "cameraMove": "drift_up"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "startFrame": 95,
+      "durationFrames": 137,
+      "durationSeconds": 4.566666666666666,
+      "narration": "Landing to takeoff is not free time. Walking, screens, security, and boarding take chunks first.",
+      "captionBeats": [
+        "Landing to takeoff\nis not free time.",
+        "Walking, screens,\nsecurity, and boarding",
+        "take chunks first."
+      ],
+      "captionBeatStartFrames": [
+        0,
+        57,
+        106
+      ],
+      "captionLeadFrames": 0,
+      "captionStyle": "readable_band",
+      "typographyBeats": [],
+      "motion": "pan_right",
+      "images": [
+        {
+          "rank": 1,
+          "publicPath": "/assets/reels/257/scene-02-rank-01.jpg",
+          "staticFilePath": "scene-02-rank-01.jpg",
+          "sourceUrl": "/assets/reels/257/korea-context/incheon-escalator-04.jpg",
+          "width": 1080,
+          "height": 1920,
+          "aspectRatio": 0.5625,
+          "fitMode": "cover",
+          "cameraMove": "pan_right"
+        },
+        {
+          "rank": 2,
+          "publicPath": "/assets/reels/257/scene-02-rank-02.jpg",
+          "staticFilePath": "scene-02-rank-02.jpg",
+          "sourceUrl": "/assets/reels/257/korea-context/incheon-official-arrival-05.jpg",
+          "width": 1080,
+          "height": 1920,
+          "aspectRatio": 0.5625,
+          "fitMode": "cover",
+          "cameraMove": "pan_left"
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "startFrame": 232,
+      "durationFrames": 126,
+      "durationSeconds": 4.2,
+      "narration": "Under three hours? Stay airside. Food, water, charger, bathroom, gate. That is the win.",
+      "captionBeats": [
+        "Under three hours?\nStay airside.",
+        "Food, water, charger,\nbathroom, gate.",
+        "That is the win."
+      ],
+      "captionBeatStartFrames": [
+        0,
+        42,
+        94
+      ],
+      "captionLeadFrames": 0,
+      "captionStyle": "readable_band",
+      "typographyBeats": [],
+      "motion": "drift_up",
+      "images": [
+        {
+          "rank": 1,
+          "publicPath": "/assets/reels/257/scene-03-rank-01.jpg",
+          "staticFilePath": "scene-03-rank-01.jpg",
+          "sourceUrl": "/assets/reels/257/korea-context/incheon-official-departure-06.jpg",
+          "width": 1080,
+          "height": 1920,
+          "aspectRatio": 0.5625,
+          "fitMode": "cover",
+          "cameraMove": "drift_up"
+        },
+        {
+          "rank": 2,
+          "publicPath": "/assets/reels/257/scene-03-rank-02.jpg",
+          "staticFilePath": "scene-03-rank-02.jpg",
+          "sourceUrl": "/assets/reels/257/korea-context/incheon-terminal-buffer-07.jpg",
+          "width": 1080,
+          "height": 1920,
+          "aspectRatio": 0.5625,
+          "fitMode": "cover",
+          "cameraMove": "pan_right"
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "startFrame": 358,
+      "durationFrames": 158,
+      "durationSeconds": 5.266666666666667,
+      "narration": "Around six hours, pick one reset: shower, lounge, nap, Korean meal, or rail plan. Not all five.",
+      "captionBeats": [
+        "Around six hours,\npick one reset:",
+        "shower, lounge,\nnap, Korean meal,",
+        "or rail plan.\nNot all five."
+      ],
+      "captionBeatStartFrames": [
+        0,
+        53,
+        105
+      ],
+      "captionLeadFrames": 0,
+      "captionStyle": "readable_band",
+      "typographyBeats": [],
+      "motion": "pan_left",
+      "images": [
+        {
+          "rank": 1,
+          "publicPath": "/assets/reels/257/scene-04-rank-01.jpg",
+          "staticFilePath": "scene-04-rank-01.jpg",
+          "sourceUrl": "/assets/reels/257/korea-context/incheon-terminal-movement-08.jpg",
+          "width": 1080,
+          "height": 1920,
+          "aspectRatio": 0.5625,
+          "fitMode": "cover",
+          "cameraMove": "slow_zoom_out"
+        },
+        {
+          "rank": 2,
+          "publicPath": "/assets/reels/257/scene-04-rank-02.jpg",
+          "staticFilePath": "scene-04-rank-02.jpg",
+          "sourceUrl": "/assets/images/posts/257/incheon-airport-terminal-lounge-seating.jpg",
+          "width": 780,
+          "height": 438,
+          "aspectRatio": 1.7808,
+          "fitMode": "square_center",
+          "cameraMove": "slow_push_in"
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "startFrame": 516,
+      "durationFrames": 130,
+      "durationSeconds": 4.333333333333333,
+      "narration": "Use the buffer check: landing, walking, immigration, return, security, and gate time.",
+      "captionBeats": [
+        "Use the buffer check:",
+        "landing, walking,\nimmigration,",
+        "return, security,\nand gate time."
+      ],
+      "captionBeatStartFrames": [
+        0,
+        38,
+        76
+      ],
+      "captionLeadFrames": 0,
+      "captionStyle": "readable_band",
+      "typographyBeats": [],
+      "motion": "caption_pop",
+      "images": []
+    },
+    {
+      "number": 6,
+      "startFrame": 646,
+      "durationFrames": 157,
+      "durationSeconds": 5.233333333333333,
+      "narration": "Leave for Seoul only when entry, luggage, AREX, and the return buffer are boringly clear.",
+      "captionBeats": [
+        "Leave for Seoul only\nwhen entry, luggage,",
+        "AREX, and the return\nbuffer are boringly clear."
+      ],
+      "captionBeatStartFrames": [
+        0,
+        74
+      ],
+      "captionLeadFrames": 0,
+      "captionStyle": "readable_band",
+      "typographyBeats": [],
+      "motion": "pan_right",
+      "images": [
+        {
+          "rank": 1,
+          "publicPath": "/assets/reels/257/scene-06-rank-01.jpg",
+          "staticFilePath": "scene-06-rank-01.jpg",
+          "sourceUrl": "/assets/reels/257/korea-context/arex-transfer-09.jpg",
+          "width": 1080,
+          "height": 1920,
+          "aspectRatio": 0.5625,
+          "fitMode": "cover",
+          "cameraMove": "pan_right"
+        },
+        {
+          "rank": 2,
+          "publicPath": "/assets/reels/257/scene-06-rank-02.jpg",
+          "staticFilePath": "scene-06-rank-02.jpg",
+          "sourceUrl": "/assets/images/posts/257/arex-airport-rail-signage.jpg",
+          "width": 1400,
+          "height": 933,
+          "aspectRatio": 1.5005,
+          "fitMode": "square_center",
+          "cameraMove": "slow_push_in"
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "startFrame": 803,
+      "durationFrames": 133,
+      "durationSeconds": 4.433333333333334,
+      "narration": "Save this before an Incheon connection. More Korea travel guides at EpicKor.com.",
+      "captionBeats": [
+        "Save this before\nan Incheon connection.",
+        "More Korea travel guides\nat EpicKor.com."
+      ],
+      "captionBeatStartFrames": [
+        0,
+        64
+      ],
+      "captionLeadFrames": 0,
+      "captionStyle": "readable_band",
+      "typographyBeats": [
+        {
+          "text": "SAVE BEFORE|ICN",
+          "emphasis": "final_cta",
+          "timingHint": "before black outro"
+        }
+      ],
+      "motion": "slow_zoom_out",
+      "images": [
+        {
+          "rank": 1,
+          "publicPath": "/assets/reels/257/scene-07-rank-01.jpg",
+          "staticFilePath": "scene-07-rank-01.jpg",
+          "sourceUrl": "/assets/reels/257/korea-context/incheon-transport-center-10.jpg",
+          "width": 1080,
+          "height": 1920,
+          "aspectRatio": 0.5625,
+          "fitMode": "cover",
+          "cameraMove": "slow_zoom_out"
+        },
+        {
+          "rank": 2,
+          "publicPath": "/assets/reels/257/scene-07-rank-02.jpg",
+          "staticFilePath": "scene-07-rank-02.jpg",
+          "sourceUrl": "/assets/reels/257/korea-context/incheon-arrival-transfer-11.jpg",
+          "width": 1080,
+          "height": 1920,
+          "aspectRatio": 0.5625,
+          "fitMode": "cover",
+          "cameraMove": "drift_up"
+        }
+      ]
+    }
+  ],
+  "motionCards": [
+    {
+      "id": "257-card-buffer-check",
+      "sceneNumber": 5,
+      "choice": "A",
+      "templateId": "receipt_stack",
+      "layout": "receipt",
+      "motionPreset": "receipt_rows_print_in",
+      "kicker": "ICN BUFFER CHECK",
+      "headline": "COUNT TIME FIRST",
+      "headlineLines": [
+        "COUNT TIME",
+        "FIRST"
+      ],
+      "subhead": "Then choose the plan.",
+      "subheadLines": [
+        "Then choose",
+        "the plan."
+      ],
+      "bullets": [
+        "LANDING",
+        "WALKING",
+        "IMMIGRATION",
+        "RETURN",
+        "GATE TIME"
+      ],
+      "footer": "EPICKOR.COM",
+      "footerLines": [
+        "EPICKOR.COM"
+      ],
+      "accentColor": "#38bdf8",
+      "overlayOpacity": 0.76,
+      "durationSeconds": 6.4,
+      "reviewStatus": "approved",
+      "template": "receipt_stack",
+      "fitReason": "Best single payoff card for this Reel; turns the hook into a saveable viewer rule.",
+      "weakness": "Inspect final render for caption-safe spacing and center density.",
+      "reviewerNote": "Approved internally under representative /goal one-shot completion request."
+    }
+  ],
+  "motionCardTemplates": [
+    {
+      "id": "zone_compare",
+      "name": "Zone Compare",
+      "description": "Two filled comparison columns with a clear lower caption band. Best for explaining paired rules, areas, or before-after systems without an empty center.",
+      "layout": "split_compare",
+      "motionPreset": "zone_columns_reveal"
+    },
+    {
+      "id": "kit_grid",
+      "name": "Kit Grid",
+      "description": "A compact 2x2 tile grid with strong item blocks and a clear lower caption band. Best for packing lists, saveable checklists, and small sets of essentials.",
+      "layout": "kit_grid",
+      "motionPreset": "tiles_pop_balance"
+    },
+    {
+      "id": "editorial_box",
+      "name": "Editorial Box",
+      "description": "A strong framed card with headline, subhead, and list rows. Best for definitions or summary moments.",
+      "layout": "boxed",
+      "motionPreset": "card_rise_list_reveal"
+    },
+    {
+      "id": "kinetic_steps",
+      "name": "Kinetic Steps",
+      "description": "Floating step pills without a full card box. Best for process, how-to, or quick-start narration.",
+      "layout": "unboxed_steps",
+      "motionPreset": "step_pills_follow_voice"
+    },
+    {
+      "id": "menu_board",
+      "name": "Menu Board",
+      "description": "A menu/signboard style with sliding rows. Best for food, product lists, or options.",
+      "layout": "board",
+      "motionPreset": "menu_rows_follow_voice"
+    },
+    {
+      "id": "radial_burst",
+      "name": "Radial Burst",
+      "description": "A center headline with orbiting/angled labels. Best for explaining several meanings in one concept.",
+      "layout": "unboxed_radial",
+      "motionPreset": "chips_orbit_in"
+    },
+    {
+      "id": "split_checklist",
+      "name": "Split Checklist",
+      "description": "A vertical guide rail with checklist items. Best for etiquette, travel tips, and warnings.",
+      "layout": "split_checklist",
+      "motionPreset": "check_items_follow_voice"
+    },
+    {
+      "id": "convenience_tray",
+      "name": "Convenience Tray",
+      "description": "A bright shelf/tray grid with large item blocks. Best for convenience-store, breakfast, shopping, or assembled-choice scenes.",
+      "layout": "tray_grid",
+      "motionPreset": "tray_items_pop_in"
+    },
+    {
+      "id": "morning_route",
+      "name": "Morning Route",
+      "description": "A vertical path with paired start/end labels. Best for route, sequence, commute, or before-after logic.",
+      "layout": "route_map",
+      "motionPreset": "route_nodes_follow_voice"
+    },
+    {
+      "id": "wrapper_tabs",
+      "name": "Wrapper Tabs",
+      "description": "A package/wrapper metaphor with tagged steps. Best for food wrappers, assembly, folding, or object-anatomy scenes.",
+      "layout": "package_tabs",
+      "motionPreset": "tabs_reveal_around_object"
+    },
+    {
+      "id": "receipt_stack",
+      "name": "Receipt Stack",
+      "description": "A paper receipt/card stack with item rows and barcode texture. Best for prices, purchases, rules, and quick tallies.",
+      "layout": "receipt",
+      "motionPreset": "receipt_rows_print_in"
+    },
+    {
+      "id": "stamp_stack",
+      "name": "Stamp Stack",
+      "description": "Layered stamped slips with angled labels and a verification badge. Best for local rules, validations, myths, and cultural checkpoints.",
+      "layout": "stamp_slips",
+      "motionPreset": "stamps_drop_and_verify"
+    }
+  ]
+}

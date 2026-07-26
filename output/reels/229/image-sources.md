@@ -1,0 +1,345 @@
+# Reels 229 Image Sources And Selection Notes
+
+- Search strategy: source-post images first, then Commons Korea/hanok/ondol interiors, then Pexels support only for neutral modern floor/slipper cues.
+- Final selected visuals prioritize direct Korea/context fit over generic modern interiors.
+- Pexels candidates are documented as fallback/support; the final Rank 1 selections use source-post or Commons Korean-context images where possible.
+- Candidate depth: six photo-led scenes x five candidates = 30 candidates; one motion-card scene has three design options.
+- Duplicate policy: candidate source families are unique per candidate row; final selected images do not repeat source paths or source families.
+
+## 2026-06-24 Representative Replacement Pass
+
+- Representative submitted the dashboard review pass.
+- Scene 1, 2, and 7 selections were saved.
+- Scene 3, 4, and 6 needed stronger replacement options.
+- Existing `replace_needed` candidates in Scenes 3, 4, and 6 were marked `rejected` / superseded so new v2 candidates can be ranked cleanly.
+- Added v2 candidates:
+  - Scene 3 F: `/assets/reels/229/review-v2/s3-f-ondol-floor-heating-diagram-card.png`
+    - Source: source-post Wikimedia Commons `Ondol.png` diagram, redesigned as an EpicKor-owned explanatory vertical card.
+    - Fit: directly explains under-floor heat flow and low floor living logic.
+  - Scene 4 F: `/assets/reels/229/review-v2/s4-i-living-room-hanok-flex-room.jpg`
+    - Source: derivative crop from Wikimedia Commons `Living room of a Hanok - panoramio.jpg`.
+    - Fit: stronger floor-centered room, cushions, and low-furniture candidate for flexible floor-room narration.
+    - Note: same source family appeared in Scene 1 candidates, but Scene 1 selected other images; this v2 crop is documented as a deliberate Scene 4 derivative.
+  - Scene 4 G: `/assets/reels/229/review-v2/s4-h-pexels-korean-restaurant-seoul-converted.jpg`
+    - Source: Pexels photo `31663813`, converted from HEIF/AVIF response to JPEG for dashboard compatibility.
+    - Fit: modern Seoul restaurant/Korean signage support for the "not ancient cosplay" line; weaker on floor seating.
+  - Scene 6 F: `/assets/reels/229/review-v2/s6-f-clean-zone-map.png`
+    - Source: EpicKor-owned graphic.
+    - Fit: explicit clean-floor, bathroom-slipper, and suitcase-wheel boundary.
+  - Scene 6 G: `/assets/reels/229/review-v2/s6-g-slipper-zone-warning.png`
+    - Source: EpicKor-owned graphic.
+    - Fit: strongest direct mistake-hook visual for not mixing bathroom slippers and suitcase wheels with the clean floor.
+- Dashboard gate after v2 additions:
+  - Passed.
+  - Photo candidates: `35`.
+  - Photo source families: `34`.
+  - Warning: `commons-living-room-hanok-panoramio` appears in Scene 1 and Scene 4; accepted as deliberate documented derivative.
+
+## Scene 1
+- A: `/assets/reels/229/review-v1/s1-a-living-room-hanok.jpg`
+  - Source: Wikimedia Commons / File:Living room of a Hanok - panoramio.jpg
+  - URL: https://commons.wikimedia.org/wiki/File:Living_room_of_a_Hanok_-_panoramio.jpg
+  - Author: Schölla Schwarz
+  - License: CC BY 3.0
+  - Source family: commons-living-room-hanok-panoramio
+  - Fit: Hanok living room for low-table/floor-life section.
+  - Status: approved, rank 1
+- B: `/assets/reels/229/review-v1/s1-b-hahoe-women-room.jpg`
+  - Source: Wikimedia Commons / File:Korea-Andong-Hahoe Folk Village-Women in a room-01.jpg
+  - URL: https://commons.wikimedia.org/wiki/File:Korea-Andong-Hahoe_Folk_Village-Women_in_a_room-01.jpg
+  - Author: Robert at w:Picasa
+  - License: CC BY 3.0
+  - Source family: commons-hahoe-women-room
+  - Fit: Hahoe Folk Village room with people seated on the floor.
+  - Status: reserve
+- C: `/assets/reels/229/review-v1/s1-c-tea-house-interior.jpg`
+  - Source: Wikimedia Commons / File:Interior of a Korean tea house.jpg
+  - URL: https://commons.wikimedia.org/wiki/File:Interior_of_a_Korean_tea_house.jpg
+  - Author: Danica from Angang, Gyeongju, Gyeongbuk, South Korea
+  - License: CC BY 2.0
+  - Source family: commons-korean-tea-house-interior
+  - Fit: Vertical Korean tea-house interior showing floor-level living/tea context.
+  - Status: reserve
+- D: `/assets/reels/229/review-v1/s1-d-korean-game-original.jpg`
+  - Source: Wikimedia Commons / File:Korean Game 3b26994u-original.jpg
+  - URL: https://commons.wikimedia.org/wiki/File:Korean_Game_3b26994u-original.jpg
+  - Author: Frank and Frances Carpenter Collection
+  - License: Public domain
+  - Source family: commons-korean-game-original-floor-sitting
+  - Fit: Historic floor-sitting/social-use reference.
+  - Status: reserve
+- E: `/assets/reels/229/review-v1/s1-e-pexels-minimal-living-room.jpg`
+  - Source: Pexels photo 20285350
+  - URL: https://www.pexels.com/photo/elegant-minimalist-living-room-with-neutral-colors-and-modern-decor-20285350/
+  - Author: Hello Pipcke
+  - License: Pexels License
+  - Source family: pexels-minimal-living-room-20285350
+  - Fit: Neutral modern living-room floor support visual; fallback only.
+  - Status: reserve
+
+## Scene 2
+- A: `/assets/reels/229/review-v1/s2-a-post-hanok-front.jpg`
+  - Source: Source post image / Pexels photo 37436293
+  - URL: https://www.pexels.com/photo/traditional-korean-hanok-house-facade-at-day-37436293/
+  - Author: Henry Acevedo
+  - License: Pexels License
+  - Source family: post229-pexels-hanok-front-37436293
+  - Fit: Korean entrance / hanok exterior context for shoe-off boundary.
+  - Status: approved, rank 1
+- B: `/assets/reels/229/review-v1/s2-b-namsangol-hanok-interior.jpg`
+  - Source: Wikimedia Commons / File:Korea-Seoul-Namsangol Hanok Village 47-06.JPG
+  - URL: https://commons.wikimedia.org/wiki/File:Korea-Seoul-Namsangol_Hanok_Village_47-06.JPG
+  - Author: Steve46814
+  - License: CC BY-SA 3.0
+  - Source family: commons-namsangol-hanok-interior-47-06
+  - Fit: Seoul/Namsangol hanok interior candidate.
+  - Status: reserve
+- C: `/assets/reels/229/review-v1/s2-c-pexels-family-shoes-doormat.jpg`
+  - Source: Pexels photo 1909014
+  - URL: https://www.pexels.com/photo/cozy-family-shoes-on-a-doormat-at-home-1909014/
+  - Author: Lisa from Pexels
+  - License: Pexels License
+  - Source family: pexels-family-shoes-doormat-1909014
+  - Fit: Neutral entrance-shoes support visual; used only as fallback because it is not Korea-specific.
+  - Status: reserve
+- D: `/assets/reels/229/review-v1/s2-d-pexels-palace-doors-seoul.jpg`
+  - Source: Pexels photo 4840726
+  - URL: https://www.pexels.com/photo/beautiful-wooden-doors-of-a-traditional-korean-palace-entrance-in-seoul-south-korea-4840726/
+  - Author: Markus Winkler
+  - License: Pexels License
+  - Source family: pexels-palace-doors-seoul-4840726
+  - Fit: Korean entrance/threshold support visual; palace not home, so backup only.
+  - Status: reserve
+- E: `/assets/reels/229/review-v1/s2-e-pexels-black-slippers-tile.jpg`
+  - Source: Pexels photo 9144545
+  - URL: https://www.pexels.com/photo/close-up-of-black-leather-slippers-on-a-tile-floor-9144545/
+  - Author: Ron Lach
+  - License: Pexels License
+  - Source family: pexels-black-slippers-tile-9144545
+  - Fit: Neutral bathroom/indoor slipper cue; fallback only.
+  - Status: reserve
+
+## Scene 3
+- A: `/assets/reels/229/review-v1/s3-a-post-agungi.jpg`
+  - Source: Source post image / Wikimedia Commons File:Hanok kitchen.jpg
+  - URL: https://commons.wikimedia.org/wiki/File:Hanok_kitchen.jpg
+  - Author: hangidan
+  - License: CC BY-SA 2.0
+  - Source family: post229-commons-hanok-kitchen-agungi
+  - Fit: Traditional hanok kitchen/agungi for ondol origin.
+  - Status: approved, rank 1
+- B: `/assets/reels/229/review-v1/s3-b-ondol-of-korea.jpg`
+  - Source: Wikimedia Commons / File:Ondol of korea.jpg
+  - URL: https://commons.wikimedia.org/wiki/File:Ondol_of_korea.jpg
+  - Author: Jjobskim05
+  - License: CC BY-SA 3.0
+  - Source family: commons-ondol-of-korea
+  - Fit: Direct ondol/heated-floor reference image.
+  - Status: reserve
+- C: `/assets/reels/229/review-v1/s3-c-ondol-photo.jpg`
+  - Source: Wikimedia Commons / File:Ondol.JPG
+  - URL: https://commons.wikimedia.org/wiki/File:Ondol.JPG
+  - Author: Holger Ebermann, Leipzig
+  - License: CC BY-SA 3.0 de
+  - Source family: commons-ondol-photo
+  - Fit: Direct ondol structure reference.
+  - Status: reserve
+- D: `/assets/reels/229/review-v1/s3-d-baekje-ondol-site.jpg`
+  - Source: Wikimedia Commons / File:Baekje Ondol site.jpg
+  - URL: https://commons.wikimedia.org/wiki/File:Baekje_Ondol_site.jpg
+  - Author: Puzzlet Chung
+  - License: Public domain
+  - Source family: commons-baekje-ondol-site
+  - Fit: Historic ondol site reference.
+  - Status: reserve
+- E: `/assets/reels/229/review-v1/s3-e-gyeongbokgung-amisan-chimney.jpg`
+  - Source: Wikimedia Commons / File:Ondol Chimneys in the Amisan Garden of Gyeongbokgung IMG 2062.jpg
+  - URL: https://commons.wikimedia.org/wiki/File:Ondol_Chimneys_in_the_Amisan_Garden_of_Gyeongbokgung_IMG_2062.jpg
+  - Author: G41rn8
+  - License: CC BY-SA 4.0
+  - Source family: commons-gyeongbokgung-amisan-ondol-chimney
+  - Fit: Gyeongbokgung ondol chimney support visual.
+  - Status: reserve
+
+## Scene 4
+- A: `/assets/reels/229/review-v1/s4-a-traditional-house-interior.jpg`
+  - Source: Wikimedia Commons / File:Interior of a traditional Korean house.JPG
+  - URL: https://commons.wikimedia.org/wiki/File:Interior_of_a_traditional_Korean_house.JPG
+  - Author: Adbar
+  - License: CC BY-SA 3.0
+  - Source family: commons-traditional-korean-house-interior
+  - Fit: Traditional Korean house interior with floor-centered room context.
+  - Status: approved, rank 1
+- B: `/assets/reels/229/review-v1/s4-b-hanok-child-room-2.jpg`
+  - Source: Wikimedia Commons / File:Hanok Child Data Room in Hyeonam Library 2.jpg
+  - URL: https://commons.wikimedia.org/wiki/File:Hanok_Child_Data_Room_in_Hyeonam_Library_2.jpg
+  - Author: Motoko C. K.
+  - License: CC0
+  - Source family: commons-hanok-child-data-room-2
+  - Fit: Hanok-style room support visual with floor space and low furniture.
+  - Status: reserve
+- C: `/assets/reels/229/review-v1/s4-c-hanok-child-room-1.jpg`
+  - Source: Wikimedia Commons / File:Hanok Child Data Room in Hyeonam Library 1.jpg
+  - URL: https://commons.wikimedia.org/wiki/File:Hanok_Child_Data_Room_in_Hyeonam_Library_1.jpg
+  - Author: Motoko C. K.
+  - License: CC0
+  - Source family: commons-hanok-child-data-room-1
+  - Fit: Hanok-style room support visual with floor and furniture context.
+  - Status: reserve
+- D: `/assets/reels/229/review-v1/s4-d-pexels-modern-hardwood-room.jpg`
+  - Source: Pexels photo 8146330
+  - URL: https://www.pexels.com/photo/bright-and-empty-modern-room-with-hardwood-floors-and-large-window-view-8146330/
+  - Author: Max Vakhtbovych
+  - License: Pexels License
+  - Source family: pexels-modern-hardwood-room-8146330
+  - Fit: Neutral modern floor support visual; fallback only.
+  - Status: reserve
+- E: `/assets/reels/229/review-v1/s4-e-korean-game-carpenter.jpg`
+  - Source: Wikimedia Commons / File:Korean Game from the Carpenter Collection, ca. 1910-1920.jpg
+  - URL: https://commons.wikimedia.org/wiki/File:Korean_Game_from_the_Carpenter_Collection,_ca._1910-1920.jpg
+  - Author: Frank and Frances Carpenter Collection
+  - License: Public domain
+  - Source family: commons-korean-game-carpenter-floor-sitting
+  - Fit: Historic floor-sitting/social-use reference.
+  - Status: reserve
+  - v007 render note: replaced the 9:16 cropped review derivative with `/assets/reels/229/candidates/korean-game-carpenter.jpg` for Scene 4 rank 1 so the repeated historic image appears as a smaller framed landscape cut instead of a second fullscreen crop.
+
+## Scene 6
+- A: `/assets/reels/229/review-v1/s6-a-post-slippers.jpg`
+  - Source: Source post image / Pexels photo 6633368
+  - URL: https://www.pexels.com/photo/woman-wearing-warm-socks-and-slippers-6633368/
+  - Author: Kaboompics.com
+  - License: Pexels License
+  - Source family: post229-pexels-indoor-slippers-6633368
+  - Fit: Neutral support for indoor slippers and modern floor comfort.
+  - Status: rejected/superseded after representative review
+- B: `/assets/reels/229/review-v1/s6-b-pexels-seoul-residential-alley.jpg`
+  - Source: Pexels photo 31671163
+  - URL: https://www.pexels.com/photo/a-quiet-alleyway-in-a-residential-area-of-seoul-31671163/
+  - Author: Ayyeee Ayyeee
+  - License: Pexels License
+  - Source family: pexels-seoul-residential-alley-31671163
+  - Fit: Seoul residential context for modern-home transition; exterior only.
+  - Status: rejected/superseded after representative review
+- C: `/assets/reels/229/review-v1/s6-c-pexels-modern-empty-apartment.jpg`
+  - Source: Pexels photo 8146158
+  - URL: https://www.pexels.com/photo/a-contemporary-empty-apartment-with-white-walls-and-wooden-flooring-8146158/
+  - Author: Max Vakhtbovych
+  - License: Pexels License
+  - Source family: pexels-modern-empty-apartment-8146158
+  - Fit: Neutral modern apartment floor support visual; fallback only.
+  - Status: rejected/superseded after representative review
+- D: `/assets/reels/229/review-v1/s6-d-pexels-modern-tv-room.jpg`
+  - Source: Pexels photo 6523297
+  - URL: https://www.pexels.com/photo/modern-tv-set-on-cupboard-placed-near-empty-table-in-spacious-room-6523297/
+  - Author: Max Vakhtbovych
+  - License: Pexels License
+  - Source family: pexels-modern-tv-room-6523297
+  - Fit: Neutral modern room/floor support visual; fallback only.
+  - Status: rejected/superseded after representative review
+- E: `/assets/reels/229/review-v1/s6-e-pexels-modern-kitchen-floor.jpg`
+  - Source: Pexels photo 8146149
+  - URL: https://www.pexels.com/photo/bright-and-spacious-modern-kitchen-interior-with-wooden-floors-8146149/
+  - Author: Max Vakhtbovych
+  - License: Pexels License
+  - Source family: pexels-modern-kitchen-floor-8146149
+  - Fit: Neutral modern interior support visual; fallback only.
+  - Status: rejected/superseded after representative review
+- F: `/assets/reels/229/review-v2/s6-f-clean-zone-map.png`
+  - Source: EpicKor-owned graphic candidate
+  - URL: n/a
+  - Author: EpicKor
+  - License: Owned visual
+  - Source family: epickor-owned-clean-zone-map
+  - Fit: Direct clean-zone map, but representative preferred stronger photo/image fit.
+  - Status: rejected/superseded after 2026-06-24 representative review
+- G: `/assets/reels/229/review-v2/s6-g-slipper-zone-warning.png`
+  - Source: EpicKor-owned graphic candidate
+  - URL: n/a
+  - Author: EpicKor
+  - License: Owned visual
+  - Source family: epickor-owned-slipper-zone-warning
+  - Fit: Direct mistake graphic, but representative preferred stronger photo/image fit.
+  - Status: rejected/superseded after 2026-06-24 representative review
+- H: `/assets/reels/229/review-v3/s6-h-tobang-shoe-rack.jpg`
+  - Source: Wikimedia Commons / File:Tobang with shoe rack.jpg
+  - URL: https://commons.wikimedia.org/wiki/File:Tobang_with_shoe_rack.jpg
+  - Author: Sarang
+  - License: Public domain
+  - Source family: commons-tobang-shoe-rack
+  - Fit: Direct Korean shoe-rack/entry-boundary cue for the shoes-off clean-zone rule.
+  - Status: pending representative ranking
+- I: `/assets/reels/229/review-v3/s6-i-jjimjilbang-locker-lounge.jpg`
+  - Source: EpicKor source post 176 / Wikimedia Commons CC0 jjimjilbang image
+  - URL: https://www.epickor.com/blog/176
+  - Author: Choikwangmo9 via Wikimedia Commons
+  - License: CC0
+  - Source family: post176-jjimjilbang-common-locker-lounge
+  - Fit: Real Korean jjimjilbang common lounge with lockers, benches, and Korean signs.
+  - Status: pending representative ranking; `contain_frame` if selected
+- J: `/assets/reels/229/review-v3/s6-j-jjimjilbang-bulgama-floor.jpg`
+  - Source: EpicKor source post 176 / Wikimedia Commons CC0 jjimjilbang image
+  - URL: https://www.epickor.com/blog/176
+  - Author: Choikwangmo9 via Wikimedia Commons
+  - License: CC0
+  - Source family: post176-jjimjilbang-bulgama-floor
+  - Fit: Korean sauna-floor scene with visible signage and zone-boundary context.
+  - Status: pending representative ranking; `contain_frame` if selected
+- K: `/assets/reels/229/review-v3/s6-k-jjimjilbang-bathhouse-lockers.jpg`
+  - Source: EpicKor source post 176 / Wikimedia Commons CC0 jjimjilbang image
+  - URL: https://www.epickor.com/blog/176
+  - Author: Choikwangmo9 via Wikimedia Commons
+  - License: CC0
+  - Source family: post176-jjimjilbang-bathhouse-lockers
+  - Fit: Korean bathhouse/locker area reinforcing shoes, lockers, wet areas, and common floors as separate zones.
+  - Status: pending representative ranking; `contain_frame` if selected
+- L: `/assets/reels/229/review-v3/s6-l-jjimjilbang-women-entrance.jpg`
+  - Source: EpicKor source post 176 / Wikimedia Commons CC0 jjimjilbang image
+  - URL: https://www.epickor.com/blog/176
+  - Author: Choikwangmo9 via Wikimedia Commons
+  - License: CC0
+  - Source family: post176-jjimjilbang-women-entrance
+  - Fit: Real Korean jjimjilbang corridor with bath-area signage for bathroom/common-area boundary.
+  - Status: pending representative ranking; `contain_frame` if selected
+
+## Scene 7
+- A: `/assets/reels/229/review-v1/s7-a-seoul-hanok-room.jpg`
+  - Source: Wikimedia Commons / File:Seoul-A room in a Hanok near Chungmuro Station-01.jpg
+  - URL: https://commons.wikimedia.org/wiki/File:Seoul-A_room_in_a_Hanok_near_Chungmuro_Station-01.jpg
+  - Author: Robert at w:Picasa
+  - License: CC BY 3.0
+  - Source family: commons-seoul-hanok-room-chungmuro
+  - Fit: Seoul hanok room interior for clean floor and room flexibility.
+  - Status: approved, rank 1
+- B: `/assets/reels/229/review-v1/s7-b-gyeongbokgung-winter-office-chimney.jpg`
+  - Source: Wikimedia Commons / File:Ondol Chimneys behind the Winter Office of Gyeongbokgung IMG 2061.jpg
+  - URL: https://commons.wikimedia.org/wiki/File:Ondol_Chimneys_behind_the_Winter_Office_of_Gyeongbokgung_IMG_2061.jpg
+  - Author: G41rn8
+  - License: CC BY-SA 4.0
+  - Source family: commons-gyeongbokgung-winter-office-ondol-chimney
+  - Fit: Gyeongbokgung ondol chimney support visual.
+  - Status: reserve
+- C: `/assets/reels/229/review-v1/s7-c-post-ondol-diagram.jpg`
+  - Source: Source post image / Wikimedia Commons File:Ondol.png
+  - URL: https://commons.wikimedia.org/wiki/File:Ondol.png
+  - Author: Dzihi
+  - License: CC BY 3.0
+  - Source family: post229-commons-ondol-diagram
+  - Fit: Reference-only direct diagram for ondol airflow.
+  - Status: reserve
+- D: `/assets/reels/229/review-v1/s7-d-pexels-plush-slippers.jpg`
+  - Source: Pexels photo 7671671
+  - URL: https://www.pexels.com/photo/overhead-view-of-feet-in-plush-slippers-on-a-modern-tiled-floor-7671671/
+  - Author: Ivan S
+  - License: Pexels License
+  - Source family: pexels-plush-slippers-7671671
+  - Fit: Neutral slipper/floor support visual; fallback only.
+  - Status: reserve
+- E: `/assets/reels/229/review-v1/s7-e-pexels-cozy-sandals-carpet.jpg`
+  - Source: Pexels photo 6862846
+  - URL: https://www.pexels.com/photo/a-pair-of-cozy-sandals-on-a-textured-carpet-6862846/
+  - Author: cottonbro studio
+  - License: Pexels License
+  - Source family: pexels-cozy-sandals-carpet-6862846
+  - Fit: Neutral indoor footwear support visual; fallback only.
+  - Status: reserve

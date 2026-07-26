@@ -1,0 +1,453 @@
+{
+  "slug": "187",
+  "title": "Korean Superstitions You Should Know Before Visiting Korea",
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "durationFrames": 1260,
+  "durationSeconds": 42,
+  "finalizedAt": "2026-06-11T12:32:50.050Z",
+  "audio": null,
+  "audioSegments": [],
+  "outro": {
+    "startFrame": 1200,
+    "durationFrames": 60,
+    "text": "epicKor.com"
+  },
+  "brand": {
+    "label": "EpicKor",
+    "cta": "EPICKOR.COM"
+  },
+  "subtitleStyle": {
+    "mode": "narration_synced",
+    "preset": "modern_reels_phrase_pop"
+  },
+  "scenes": [
+    {
+      "number": 1,
+      "startFrame": 0,
+      "durationFrames": 150,
+      "durationSeconds": 5,
+      "narration": "Some Korean superstitions sound fake until they change what people actually do.",
+      "captionBeats": [
+        "Some Korean superstitions",
+        "sound fake",
+        "until they change",
+        "what people actually do."
+      ],
+      "captionBeatStartFrames": [
+        0,
+        36,
+        60,
+        96
+      ],
+      "captionLeadFrames": 6,
+      "captionStyle": "phrase_pop",
+      "typographyBeats": [],
+      "motion": "slow_push_in",
+      "images": [
+        {
+          "rank": 1,
+          "publicPath": "/assets/reels/187/scene-01-rank-01.jpg",
+          "staticFilePath": "scene-01-rank-01.jpg",
+          "sourceUrl": "https://images.pexels.com/photos/32133736/pexels-photo-32133736.jpeg?auto=compress&cs=tinysrgb&w=1200"
+        },
+        {
+          "rank": 2,
+          "publicPath": "/assets/reels/187/scene-01-rank-02.jpg",
+          "staticFilePath": "scene-01-rank-02.jpg",
+          "sourceUrl": "https://images.pexels.com/photos/21011608/pexels-photo-21011608.jpeg?auto=compress&cs=tinysrgb&w=1200"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "startFrame": 150,
+      "durationFrames": 150,
+      "durationSeconds": 5,
+      "narration": "Like this: in Korea, some elevators use F instead of 4, because four sounds close to death.",
+      "captionBeats": [
+        "Like this:",
+        "in Korea, some elevators",
+        "use F instead of 4,",
+        "because four sounds",
+        "close to death."
+      ],
+      "captionBeatStartFrames": [
+        0,
+        20,
+        55,
+        99,
+        122
+      ],
+      "captionLeadFrames": 6,
+      "captionStyle": "phrase_pop",
+      "typographyBeats": [],
+      "motion": "detail_push",
+      "images": [
+        {
+          "rank": 1,
+          "publicPath": "/assets/reels/187/scene-02-rank-01.jpg",
+          "staticFilePath": "scene-02-rank-01.jpg",
+          "sourceUrl": "/assets/reels/187/candidates/korea-no-4th-floor-elevator-scene2.jpg"
+        },
+        {
+          "rank": 2,
+          "publicPath": "/assets/reels/187/scene-02-rank-02.jpg",
+          "staticFilePath": "scene-02-rank-02.jpg",
+          "sourceUrl": "https://images.pexels.com/photos/16026071/pexels-photo-16026071.jpeg?auto=compress&cs=tinysrgb&w=1200"
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "startFrame": 300,
+      "durationFrames": 150,
+      "durationSeconds": 5,
+      "narration": "And this one matters more: do not write a living person's name in red ink.",
+      "captionBeats": [
+        "And this one",
+        "matters more:",
+        "do not write",
+        "a living person's name",
+        "in red ink."
+      ],
+      "captionBeatStartFrames": [
+        0,
+        28,
+        51,
+        80,
+        117
+      ],
+      "captionLeadFrames": 6,
+      "captionStyle": "phrase_pop",
+      "typographyBeats": [],
+      "motion": "cut_in",
+      "images": [
+        {
+          "rank": 1,
+          "publicPath": "/assets/reels/187/scene-03-rank-01.jpg",
+          "staticFilePath": "scene-03-rank-01.jpg",
+          "sourceUrl": "https://images.pexels.com/photos/6913294/pexels-photo-6913294.jpeg?auto=compress&cs=tinysrgb&w=1200"
+        },
+        {
+          "rank": 2,
+          "publicPath": "/assets/reels/187/scene-03-rank-02.jpg",
+          "staticFilePath": "scene-03-rank-02.jpg",
+          "sourceUrl": "https://images.pexels.com/photos/6913192/pexels-photo-6913192.jpeg?auto=compress&cs=tinysrgb&w=1200"
+        },
+        {
+          "rank": 3,
+          "publicPath": "/assets/reels/187/scene-03-rank-03.jpg",
+          "staticFilePath": "scene-03-rank-03.jpg",
+          "sourceUrl": "/assets/images/posts/187/red-pens.jpg"
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "startFrame": 450,
+      "durationFrames": 150,
+      "durationSeconds": 5,
+      "narration": "It can feel rude, unlucky, or death-coded. Use black or blue. Easy.",
+      "captionBeats": [
+        "It can feel rude,",
+        "unlucky, or death-coded.",
+        "Use black or blue.",
+        "Easy."
+      ],
+      "captionBeatStartFrames": [
+        0,
+        47,
+        88,
+        135
+      ],
+      "captionLeadFrames": 6,
+      "captionStyle": "phrase_pop",
+      "typographyBeats": [],
+      "motion": "motion_card",
+      "images": []
+    },
+    {
+      "number": 5,
+      "startFrame": 600,
+      "durationFrames": 210,
+      "durationSeconds": 7,
+      "narration": "Then there is fan death. No, a normal fan is not secretly magic. But the belief is famous enough that Korean fans often have timers.",
+      "captionBeats": [
+        "Then there is fan death.",
+        "No, a normal fan",
+        "is not secretly magic.",
+        "But the belief is famous",
+        "enough that Korean fans",
+        "often have timers."
+      ],
+      "captionBeatStartFrames": [
+        0,
+        43,
+        78,
+        112,
+        152,
+        183
+      ],
+      "captionLeadFrames": 6,
+      "captionStyle": "phrase_pop",
+      "typographyBeats": [],
+      "motion": "pan_hold",
+      "images": [
+        {
+          "rank": 1,
+          "publicPath": "/assets/reels/187/scene-05-rank-01.jpg",
+          "staticFilePath": "scene-05-rank-01.jpg",
+          "sourceUrl": "https://images.pexels.com/photos/6000684/pexels-photo-6000684.jpeg?auto=compress&cs=tinysrgb&w=1200"
+        },
+        {
+          "rank": 2,
+          "publicPath": "/assets/reels/187/scene-05-rank-02.jpg",
+          "staticFilePath": "scene-05-rank-02.jpg",
+          "sourceUrl": "/assets/images/posts/187/korean-fans-timer.jpg"
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "startFrame": 810,
+      "durationFrames": 150,
+      "durationSeconds": 5,
+      "narration": "So if your host says, set the timer, do not turn it into a debate.",
+      "captionBeats": [
+        "So if your host says,",
+        "set the timer,",
+        "do not turn it",
+        "into a debate."
+      ],
+      "captionBeatStartFrames": [
+        0,
+        50,
+        82,
+        118
+      ],
+      "captionLeadFrames": 6,
+      "captionStyle": "phrase_pop",
+      "typographyBeats": [],
+      "motion": "motion_card",
+      "images": []
+    },
+    {
+      "number": 7,
+      "startFrame": 960,
+      "durationFrames": 240,
+      "durationSeconds": 8,
+      "narration": "Seaweed soup before a test? Bad joke. Shoes for your partner? Risky joke. You do not have to believe every superstition. You just need to know which ones make a moment awkward. Save this before your Korea trip.",
+      "captionBeats": [
+        "Seaweed soup",
+        "before a test?",
+        "Bad joke.",
+        "Shoes for your partner?",
+        "Risky joke.",
+        "You do not have to",
+        "believe every",
+        "superstition.",
+        "You just need to know",
+        "which ones make",
+        "a moment awkward.",
+        "Save this before",
+        "your Korea trip."
+      ],
+      "captionBeatStartFrames": [
+        0,
+        12,
+        32,
+        46,
+        72,
+        86,
+        115,
+        127,
+        136,
+        165,
+        182,
+        202,
+        220
+      ],
+      "captionLeadFrames": 6,
+      "captionStyle": "phrase_pop",
+      "typographyBeats": [],
+      "motion": "outro_push",
+      "images": [
+        {
+          "rank": 1,
+          "publicPath": "/assets/reels/187/scene-07-rank-01.jpg",
+          "staticFilePath": "scene-07-rank-01.jpg",
+          "sourceUrl": "https://images.pexels.com/photos/8742649/pexels-photo-8742649.jpeg?auto=compress&cs=tinysrgb&w=1200"
+        },
+        {
+          "rank": 2,
+          "publicPath": "/assets/reels/187/scene-07-rank-02.jpg",
+          "staticFilePath": "scene-07-rank-02.jpg",
+          "sourceUrl": "https://images.pexels.com/photos/31925308/pexels-photo-31925308.jpeg?auto=compress&cs=tinysrgb&w=1200"
+        },
+        {
+          "rank": 3,
+          "publicPath": "/assets/reels/187/scene-07-rank-03.jpg",
+          "staticFilePath": "scene-07-rank-03.jpg",
+          "sourceUrl": "https://images.pexels.com/photos/13679285/pexels-photo-13679285.jpeg?auto=compress&cs=tinysrgb&w=1200"
+        }
+      ]
+    }
+  ],
+  "motionCards": [
+    {
+      "id": "187-card-red-name",
+      "sceneNumber": 4,
+      "templateId": "tiny_rule",
+      "kicker": "KOREA ETIQUETTE",
+      "headline": "Do not write names in red",
+      "headlineLines": [
+        "Do not write",
+        "names in red"
+      ],
+      "subhead": "Use black or blue",
+      "subheadLines": [
+        "Use black",
+        "or blue"
+      ],
+      "bullets": [
+        "Living person's name",
+        "Red feels death-coded",
+        "Easy fix"
+      ],
+      "footer": "Small rule, big awkward moment",
+      "footerLines": [
+        "Small rule",
+        "big awkward moment"
+      ],
+      "layout": "tiny_rule",
+      "motionPreset": "rule_snap_in",
+      "accentColor": "#dc2626",
+      "overlayOpacity": 0.8,
+      "durationSeconds": 5,
+      "reviewStatus": "approved",
+      "reviewerNote": "Representative approved A."
+    },
+    {
+      "id": "187-card-fan-timer",
+      "sceneNumber": 6,
+      "templateId": "wrong_vs_right",
+      "kicker": "HOST ETIQUETTE",
+      "headline": "Do the polite thing",
+      "headlineLines": [
+        "Do the",
+        "polite thing"
+      ],
+      "subhead": "Fan death is famous, not factual",
+      "subheadLines": [
+        "Famous",
+        "not factual"
+      ],
+      "leftLabel": "Argue the science",
+      "rightLabel": "Set the timer",
+      "bullets": [
+        "Argue the science",
+        "Set the timer"
+      ],
+      "footer": "Respect the signal",
+      "footerLines": [
+        "Respect",
+        "the signal"
+      ],
+      "layout": "wrong_vs_right",
+      "motionPreset": "right_choice_reveal",
+      "accentColor": "#2563eb",
+      "overlayOpacity": 0.78,
+      "durationSeconds": 5,
+      "reviewStatus": "approved",
+      "reviewerNote": "Representative approved A."
+    }
+  ],
+  "motionCardTemplates": [
+    {
+      "id": "zone_compare",
+      "name": "Zone Compare",
+      "description": "Two filled comparison columns with a clear lower caption band. Best for explaining paired rules, areas, or before-after systems without an empty center.",
+      "layout": "split_compare",
+      "motionPreset": "zone_columns_reveal"
+    },
+    {
+      "id": "kit_grid",
+      "name": "Kit Grid",
+      "description": "A compact 2x2 tile grid with strong item blocks and a clear lower caption band. Best for packing lists, saveable checklists, and small sets of essentials.",
+      "layout": "kit_grid",
+      "motionPreset": "tiles_pop_balance"
+    },
+    {
+      "id": "editorial_box",
+      "name": "Editorial Box",
+      "description": "A strong framed card with headline, subhead, and list rows. Best for definitions or summary moments.",
+      "layout": "boxed",
+      "motionPreset": "card_rise_list_reveal"
+    },
+    {
+      "id": "kinetic_steps",
+      "name": "Kinetic Steps",
+      "description": "Floating step pills without a full card box. Best for process, how-to, or quick-start narration.",
+      "layout": "unboxed_steps",
+      "motionPreset": "step_pills_follow_voice"
+    },
+    {
+      "id": "menu_board",
+      "name": "Menu Board",
+      "description": "A menu/signboard style with sliding rows. Best for food, product lists, or options.",
+      "layout": "board",
+      "motionPreset": "menu_rows_follow_voice"
+    },
+    {
+      "id": "radial_burst",
+      "name": "Radial Burst",
+      "description": "A center headline with orbiting/angled labels. Best for explaining several meanings in one concept.",
+      "layout": "unboxed_radial",
+      "motionPreset": "chips_orbit_in"
+    },
+    {
+      "id": "split_checklist",
+      "name": "Split Checklist",
+      "description": "A vertical guide rail with checklist items. Best for etiquette, travel tips, and warnings.",
+      "layout": "split_checklist",
+      "motionPreset": "check_items_follow_voice"
+    },
+    {
+      "id": "convenience_tray",
+      "name": "Convenience Tray",
+      "description": "A bright shelf/tray grid with large item blocks. Best for convenience-store, breakfast, shopping, or assembled-choice scenes.",
+      "layout": "tray_grid",
+      "motionPreset": "tray_items_pop_in"
+    },
+    {
+      "id": "morning_route",
+      "name": "Morning Route",
+      "description": "A vertical path with paired start/end labels. Best for route, sequence, commute, or before-after logic.",
+      "layout": "route_map",
+      "motionPreset": "route_nodes_follow_voice"
+    },
+    {
+      "id": "wrapper_tabs",
+      "name": "Wrapper Tabs",
+      "description": "A package/wrapper metaphor with tagged steps. Best for food wrappers, assembly, folding, or object-anatomy scenes.",
+      "layout": "package_tabs",
+      "motionPreset": "tabs_reveal_around_object"
+    },
+    {
+      "id": "receipt_stack",
+      "name": "Receipt Stack",
+      "description": "A paper receipt/card stack with item rows and barcode texture. Best for prices, purchases, rules, and quick tallies.",
+      "layout": "receipt",
+      "motionPreset": "receipt_rows_print_in"
+    },
+    {
+      "id": "stamp_stack",
+      "name": "Stamp Stack",
+      "description": "Layered stamped slips with angled labels and a verification badge. Best for local rules, validations, myths, and cultural checkpoints.",
+      "layout": "stamp_slips",
+      "motionPreset": "stamps_drop_and_verify"
+    }
+  ]
+}

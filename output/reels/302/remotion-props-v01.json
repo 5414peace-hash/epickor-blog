@@ -1,0 +1,17 @@
+{
+  "slug": "302",
+  "title": "Seoul 7:03 AM",
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "durationFrames": 1220,
+  "durationSeconds": 40.667,
+  "audio": null,
+  "audioSegments": [
+    {"part": 1, "file": "voice-part-1.mp3", "staticFilePath": "audio/voice-part-1.mp3", "startFrame": 0, "durationFrames": 356, "durationSeconds": 11.842},
+    {"part": 2, "file": "voice-part-2.mp3", "staticFilePath": "audio/voice-part-2.mp3", "startFrame": 365, "durationFrames": 402, "durationSeconds": 13.375},
+    {"part": 3, "file": "voice-part-3.mp3", "staticFilePath": "audio/voice-part-3.mp3", "startFrame": 776, "durationFrames": 385, "durationSeconds": 12.817}
+  ],
+  "scenes": [],
+  "motionCards": [{"sceneNumber": 5, "templateId": "choose_your_morning", "motionPreset": "row_reveal", "reviewStatus": "representative_storyboard_approved"}]
+}

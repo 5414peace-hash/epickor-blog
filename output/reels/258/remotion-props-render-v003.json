@@ -1,0 +1,437 @@
+{
+  "slug": "258",
+  "title": "Noryangjin Fish Market Guide 2026: Buy Seafood In Seoul",
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "durationFrames": 810,
+  "durationSeconds": 27,
+  "finalizedAt": "2026-07-02T02:59:11.168Z",
+  "audio": null,
+  "audioSegments": [
+    {
+      "part": 1,
+      "sceneNumber": 1,
+      "file": "output/reels/258/audio/narration-v001-scene-01.mp3",
+      "publicPath": "/assets/reels/258/audio/narration-v001-scene-01.mp3",
+      "staticFilePath": "audio/narration-v001-scene-01.mp3",
+      "startFrame": 0,
+      "durationFrames": 67,
+      "durationSeconds": 2.2333333333333334
+    },
+    {
+      "part": 2,
+      "sceneNumber": 2,
+      "file": "output/reels/258/audio/narration-v001-scene-02.mp3",
+      "publicPath": "/assets/reels/258/audio/narration-v001-scene-02.mp3",
+      "staticFilePath": "audio/narration-v001-scene-02.mp3",
+      "startFrame": 67,
+      "durationFrames": 104,
+      "durationSeconds": 3.466666666666667
+    },
+    {
+      "part": 3,
+      "sceneNumber": 3,
+      "file": "output/reels/258/audio/narration-v001-scene-03.mp3",
+      "publicPath": "/assets/reels/258/audio/narration-v001-scene-03.mp3",
+      "staticFilePath": "audio/narration-v001-scene-03.mp3",
+      "startFrame": 171,
+      "durationFrames": 81,
+      "durationSeconds": 2.7
+    },
+    {
+      "part": 4,
+      "sceneNumber": 4,
+      "file": "output/reels/258/audio/narration-v001-scene-04.mp3",
+      "publicPath": "/assets/reels/258/audio/narration-v001-scene-04.mp3",
+      "staticFilePath": "audio/narration-v001-scene-04.mp3",
+      "startFrame": 252,
+      "durationFrames": 99,
+      "durationSeconds": 3.3
+    },
+    {
+      "part": 5,
+      "sceneNumber": 5,
+      "file": "output/reels/258/audio/narration-v001-scene-05.mp3",
+      "publicPath": "/assets/reels/258/audio/narration-v001-scene-05.mp3",
+      "staticFilePath": "audio/narration-v001-scene-05.mp3",
+      "startFrame": 351,
+      "durationFrames": 150,
+      "durationSeconds": 5
+    },
+    {
+      "part": 6,
+      "sceneNumber": 6,
+      "file": "output/reels/258/audio/narration-v001-scene-06.mp3",
+      "publicPath": "/assets/reels/258/audio/narration-v001-scene-06.mp3",
+      "staticFilePath": "audio/narration-v001-scene-06.mp3",
+      "startFrame": 501,
+      "durationFrames": 144,
+      "durationSeconds": 4.8
+    },
+    {
+      "part": 7,
+      "sceneNumber": 7,
+      "file": "output/reels/258/audio/narration-v001-scene-07.mp3",
+      "publicPath": "/assets/reels/258/audio/narration-v001-scene-07.mp3",
+      "staticFilePath": "audio/narration-v001-scene-07.mp3",
+      "startFrame": 645,
+      "durationFrames": 105,
+      "durationSeconds": 3.5
+    }
+  ],
+  "outro": {
+    "startFrame": 750,
+    "durationFrames": 60,
+    "text": "epicKor.com"
+  },
+  "brand": {
+    "label": "EpicKor",
+    "cta": "EPICKOR.COM"
+  },
+  "subtitleStyle": {
+    "mode": "narration_synced",
+    "preset": "readable_band_two_line",
+    "captionLeadFrames": 0
+  },
+  "scenes": [
+    {
+      "number": 1,
+      "startFrame": 0,
+      "durationFrames": 67,
+      "durationSeconds": 2.2333333333333334,
+      "narration": "At Noryangjin, the fish is not the whole bill.",
+      "captionBeats": [
+        "At Noryangjin, the fish\nis not the whole bill."
+      ],
+      "captionBeatStartFrames": [
+        0
+      ],
+      "captionLeadFrames": 0,
+      "captionStyle": "readable_band",
+      "typographyBeats": [
+        {
+          "text": "FISH BILL?|READ THIS",
+          "emphasis": "thumbnail_title_batch_258",
+          "timingHint": "first frame"
+        }
+      ],
+      "motion": "slow_push_in",
+      "images": [
+        {
+          "rank": 1,
+          "publicPath": "/assets/reels/258/scene-01-rank-01.png",
+          "staticFilePath": "scene-01-rank-01.png",
+          "sourceUrl": "/assets/reels/258/generated/seafood-market-price-check.png",
+          "width": 941,
+          "height": 1672,
+          "aspectRatio": 0.5628,
+          "fitMode": "cover"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "startFrame": 67,
+      "durationFrames": 104,
+      "durationSeconds": 3.466666666666667,
+      "narration": "You buy seafood downstairs, then pay an upstairs restaurant to prepare it.",
+      "captionBeats": [
+        "You buy seafood\ndownstairs,",
+        "then pay an upstairs\nrestaurant to prepare it."
+      ],
+      "captionBeatStartFrames": [
+        0,
+        36
+      ],
+      "captionLeadFrames": 0,
+      "captionStyle": "readable_band",
+      "typographyBeats": [],
+      "motion": "pan_right",
+      "images": [
+        {
+          "rank": 1,
+          "publicPath": "/assets/reels/258/scene-02-rank-01.jpg",
+          "staticFilePath": "scene-02-rank-01.jpg",
+          "sourceUrl": "/assets/images/posts/258/noryangjin-fish-market-view.jpg",
+          "width": 1280,
+          "height": 1707,
+          "aspectRatio": 0.7499,
+          "fitMode": "cover"
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "startFrame": 171,
+      "durationFrames": 81,
+      "durationSeconds": 2.7,
+      "narration": "That second step is where first-timers get surprised.",
+      "captionBeats": [
+        "That second step is where\nfirst-timers get surprised."
+      ],
+      "captionBeatStartFrames": [
+        0
+      ],
+      "captionLeadFrames": 0,
+      "captionStyle": "readable_band",
+      "typographyBeats": [],
+      "motion": "drift_up",
+      "images": [
+        {
+          "rank": 1,
+          "publicPath": "/assets/reels/258/scene-03-rank-01.png",
+          "staticFilePath": "scene-03-rank-01.png",
+          "sourceUrl": "/assets/reels/258/generated/upstairs-seafood-prep-table.png",
+          "width": 941,
+          "height": 1672,
+          "aspectRatio": 0.5628,
+          "fitMode": "cover"
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "startFrame": 252,
+      "durationFrames": 99,
+      "durationSeconds": 3.3,
+      "narration": "Before you say yes, ask the fish price and the cooking fee separately.",
+      "captionBeats": [
+        "Before you say yes,\nask the fish price",
+        "and the cooking fee\nseparately."
+      ],
+      "captionBeatStartFrames": [
+        0,
+        60
+      ],
+      "captionLeadFrames": 0,
+      "captionStyle": "readable_band",
+      "typographyBeats": [],
+      "motion": "pan_left",
+      "images": [
+        {
+          "rank": 1,
+          "publicPath": "/assets/reels/258/scene-04-rank-01.jpg",
+          "staticFilePath": "scene-04-rank-01.jpg",
+          "sourceUrl": "/assets/reels/258/derivatives/seoul-seafood-market-stall-vertical.jpg",
+          "width": 1080,
+          "height": 1920,
+          "aspectRatio": 0.5625,
+          "fitMode": "cover"
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "startFrame": 351,
+      "durationFrames": 150,
+      "durationSeconds": 5,
+      "narration": "Use the simple check: seafood price, prep fee, table charge, spicy level, and cash or card.",
+      "captionBeats": [
+        "Use the simple check:",
+        "seafood price,\nprep fee,",
+        "table charge,\nspicy level,",
+        "and cash or card."
+      ],
+      "captionBeatStartFrames": [
+        0,
+        36,
+        75,
+        114
+      ],
+      "captionLeadFrames": 0,
+      "captionStyle": "readable_band",
+      "typographyBeats": [],
+      "motion": "caption_pop",
+      "images": []
+    },
+    {
+      "number": 6,
+      "startFrame": 501,
+      "durationFrames": 144,
+      "durationSeconds": 4.8,
+      "narration": "Start with one main seafood. If live octopus makes you nervous, skip it. There is plenty else.",
+      "captionBeats": [
+        "Start with one\nmain seafood.",
+        "If live octopus\nmakes you nervous,",
+        "skip it. There is\nplenty else."
+      ],
+      "captionBeatStartFrames": [
+        0,
+        42,
+        91
+      ],
+      "captionLeadFrames": 0,
+      "captionStyle": "readable_band",
+      "typographyBeats": [],
+      "motion": "slow_zoom_out",
+      "images": [
+        {
+          "rank": 1,
+          "publicPath": "/assets/reels/258/scene-06-rank-01.jpg",
+          "staticFilePath": "scene-06-rank-01.jpg",
+          "sourceUrl": "/assets/reels/258/derivatives/korean-wet-market-octopus-closeup-vertical.jpg",
+          "width": 1080,
+          "height": 1920,
+          "aspectRatio": 0.5625,
+          "fitMode": "cover",
+          "cameraMove": "anchor_right"
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "startFrame": 645,
+      "durationFrames": 105,
+      "durationSeconds": 3.5,
+      "narration": "Save this before Noryangjin. More Seoul food guides at EpicKor.com.",
+      "captionBeats": [
+        "Save this\nbefore Noryangjin.",
+        "More Seoul food guides\nat EpicKor.com."
+      ],
+      "captionBeatStartFrames": [
+        0,
+        41
+      ],
+      "captionLeadFrames": 0,
+      "captionStyle": "readable_band",
+      "typographyBeats": [],
+      "motion": "drift_right",
+      "images": [
+        {
+          "rank": 1,
+          "publicPath": "/assets/reels/258/scene-07-rank-01.jpg",
+          "staticFilePath": "scene-07-rank-01.jpg",
+          "sourceUrl": "/assets/reels/258/derivatives/korean-fish-market-gangneung-vertical.jpg",
+          "width": 1080,
+          "height": 1920,
+          "aspectRatio": 0.5625,
+          "fitMode": "cover"
+        }
+      ]
+    }
+  ],
+  "motionCards": [
+    {
+      "id": "258-card-ask-before-yes",
+      "sceneNumber": 5,
+      "templateId": "menu_board",
+      "layout": "board",
+      "motionPreset": "menu_rows_follow_voice",
+      "kicker": "NORYANGJIN CHECK",
+      "headline": "ASK BEFORE YES",
+      "headlineLines": [
+        "ASK BEFORE",
+        "YES"
+      ],
+      "subhead": "Separate the bill.",
+      "subheadLines": [
+        "Separate",
+        "the bill."
+      ],
+      "bullets": [
+        "SEAFOOD PRICE",
+        "PREP FEE",
+        "TABLE CHARGE",
+        "SPICY LEVEL",
+        "CASH OR CARD"
+      ],
+      "footer": "EPICKOR.COM",
+      "footerLines": [
+        "EPICKOR.COM"
+      ],
+      "accentColor": "#38bdf8",
+      "overlayOpacity": 0.76,
+      "durationSeconds": 6.6,
+      "reviewStatus": "approved",
+      "choice": "A",
+      "reviewerNote": "Best single payoff card: turns the pricing confusion into a saveable question list."
+    }
+  ],
+  "motionCardTemplates": [
+    {
+      "id": "zone_compare",
+      "name": "Zone Compare",
+      "description": "Two filled comparison columns with a clear lower caption band. Best for explaining paired rules, areas, or before-after systems without an empty center.",
+      "layout": "split_compare",
+      "motionPreset": "zone_columns_reveal"
+    },
+    {
+      "id": "kit_grid",
+      "name": "Kit Grid",
+      "description": "A compact 2x2 tile grid with strong item blocks and a clear lower caption band. Best for packing lists, saveable checklists, and small sets of essentials.",
+      "layout": "kit_grid",
+      "motionPreset": "tiles_pop_balance"
+    },
+    {
+      "id": "editorial_box",
+      "name": "Editorial Box",
+      "description": "A strong framed card with headline, subhead, and list rows. Best for definitions or summary moments.",
+      "layout": "boxed",
+      "motionPreset": "card_rise_list_reveal"
+    },
+    {
+      "id": "kinetic_steps",
+      "name": "Kinetic Steps",
+      "description": "Floating step pills without a full card box. Best for process, how-to, or quick-start narration.",
+      "layout": "unboxed_steps",
+      "motionPreset": "step_pills_follow_voice"
+    },
+    {
+      "id": "menu_board",
+      "name": "Menu Board",
+      "description": "A menu/signboard style with sliding rows. Best for food, product lists, or options.",
+      "layout": "board",
+      "motionPreset": "menu_rows_follow_voice"
+    },
+    {
+      "id": "radial_burst",
+      "name": "Radial Burst",
+      "description": "A center headline with orbiting/angled labels. Best for explaining several meanings in one concept.",
+      "layout": "unboxed_radial",
+      "motionPreset": "chips_orbit_in"
+    },
+    {
+      "id": "split_checklist",
+      "name": "Split Checklist",
+      "description": "A vertical guide rail with checklist items. Best for etiquette, travel tips, and warnings.",
+      "layout": "split_checklist",
+      "motionPreset": "check_items_follow_voice"
+    },
+    {
+      "id": "convenience_tray",
+      "name": "Convenience Tray",
+      "description": "A bright shelf/tray grid with large item blocks. Best for convenience-store, breakfast, shopping, or assembled-choice scenes.",
+      "layout": "tray_grid",
+      "motionPreset": "tray_items_pop_in"
+    },
+    {
+      "id": "morning_route",
+      "name": "Morning Route",
+      "description": "A vertical path with paired start/end labels. Best for route, sequence, commute, or before-after logic.",
+      "layout": "route_map",
+      "motionPreset": "route_nodes_follow_voice"
+    },
+    {
+      "id": "wrapper_tabs",
+      "name": "Wrapper Tabs",
+      "description": "A package/wrapper metaphor with tagged steps. Best for food wrappers, assembly, folding, or object-anatomy scenes.",
+      "layout": "package_tabs",
+      "motionPreset": "tabs_reveal_around_object"
+    },
+    {
+      "id": "receipt_stack",
+      "name": "Receipt Stack",
+      "description": "A paper receipt/card stack with item rows and barcode texture. Best for prices, purchases, rules, and quick tallies.",
+      "layout": "receipt",
+      "motionPreset": "receipt_rows_print_in"
+    },
+    {
+      "id": "stamp_stack",
+      "name": "Stamp Stack",
+      "description": "Layered stamped slips with angled labels and a verification badge. Best for local rules, validations, myths, and cultural checkpoints.",
+      "layout": "stamp_slips",
+      "motionPreset": "stamps_drop_and_verify"
+    }
+  ]
+}

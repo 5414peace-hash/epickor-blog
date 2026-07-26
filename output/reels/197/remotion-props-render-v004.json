@@ -1,0 +1,486 @@
+{
+  "slug": "197",
+  "title": "Boryeong Mud Festival 2026: What to Pack and How to Do It From Seoul",
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "durationFrames": 1239,
+  "durationSeconds": 41.3,
+  "finalizedAt": "2026-06-17T02:36:41.919Z",
+  "audio": null,
+  "audioSegments": [
+    {
+      "part": 1,
+      "sceneNumber": 1,
+      "file": "output/reels/197/audio/narration-v001-scene-01.mp3",
+      "publicPath": "/assets/reels/197/audio/narration-v001-scene-01.mp3",
+      "staticFilePath": "audio/narration-v001-scene-01.mp3",
+      "startFrame": 0,
+      "durationFrames": 141,
+      "durationSeconds": 4.7
+    },
+    {
+      "part": 2,
+      "sceneNumber": 2,
+      "file": "output/reels/197/audio/narration-v001-scene-02.mp3",
+      "publicPath": "/assets/reels/197/audio/narration-v001-scene-02.mp3",
+      "staticFilePath": "audio/narration-v001-scene-02.mp3",
+      "startFrame": 141,
+      "durationFrames": 172,
+      "durationSeconds": 5.733333333333333
+    },
+    {
+      "part": 3,
+      "sceneNumber": 3,
+      "file": "output/reels/197/audio/narration-v001-scene-03.mp3",
+      "publicPath": "/assets/reels/197/audio/narration-v001-scene-03.mp3",
+      "staticFilePath": "audio/narration-v001-scene-03.mp3",
+      "startFrame": 313,
+      "durationFrames": 209,
+      "durationSeconds": 6.966666666666667
+    },
+    {
+      "part": 4,
+      "sceneNumber": 4,
+      "file": "output/reels/197/audio/narration-v001-scene-04.mp3",
+      "publicPath": "/assets/reels/197/audio/narration-v001-scene-04.mp3",
+      "staticFilePath": "audio/narration-v001-scene-04.mp3",
+      "startFrame": 522,
+      "durationFrames": 189,
+      "durationSeconds": 6.3
+    },
+    {
+      "part": 5,
+      "sceneNumber": 5,
+      "file": "output/reels/197/audio/narration-v001-scene-05.mp3",
+      "publicPath": "/assets/reels/197/audio/narration-v001-scene-05.mp3",
+      "staticFilePath": "audio/narration-v001-scene-05.mp3",
+      "startFrame": 711,
+      "durationFrames": 191,
+      "durationSeconds": 6.366666666666666
+    },
+    {
+      "part": 6,
+      "sceneNumber": 6,
+      "file": "output/reels/197/audio/narration-v001-scene-06.mp3",
+      "publicPath": "/assets/reels/197/audio/narration-v001-scene-06.mp3",
+      "staticFilePath": "audio/narration-v001-scene-06.mp3",
+      "startFrame": 902,
+      "durationFrames": 134,
+      "durationSeconds": 4.466666666666667
+    },
+    {
+      "part": 7,
+      "sceneNumber": 7,
+      "file": "output/reels/197/audio/narration-v001-scene-07.mp3",
+      "publicPath": "/assets/reels/197/audio/narration-v001-scene-07.mp3",
+      "staticFilePath": "audio/narration-v001-scene-07.mp3",
+      "startFrame": 1036,
+      "durationFrames": 143,
+      "durationSeconds": 4.766666666666667
+    }
+  ],
+  "outro": {
+    "startFrame": 1179,
+    "durationFrames": 60,
+    "text": "epickor.com"
+  },
+  "brand": {
+    "label": "EpicKor",
+    "cta": "EPICKOR.COM"
+  },
+  "subtitleStyle": {
+    "mode": "narration_synced",
+    "preset": "modern_reels_phrase_pop"
+  },
+  "scenes": [
+    {
+      "number": 1,
+      "startFrame": 0,
+      "durationFrames": 141,
+      "durationSeconds": 4.7,
+      "narration": "Boryeong Mud Festival is the one Korea summer event where your outfit is basically supposed to lose.",
+      "captionBeats": [
+        "Boryeong Mud Festival\nis the one Korea summer",
+        "event where your outfit\nis basically supposed to lose."
+      ],
+      "captionBeatStartFrames": [
+        0,
+        65
+      ],
+      "captionLeadFrames": 0,
+      "captionStyle": "readable_band",
+      "typographyBeats": [
+        {
+          "text": "MUD FEST\nSURVIVAL",
+          "emphasis": "thumbnail_title",
+          "timingHint": "first frame"
+        }
+      ],
+      "motion": "slow_push_in",
+      "images": [
+        {
+          "rank": 1,
+          "publicPath": "/assets/reels/197/scene-01-rank-01.jpg",
+          "staticFilePath": "scene-01-rank-01.jpg",
+          "sourceUrl": "/assets/reels/197/approved-crops/scene-01-rank-01-d-s1-d-boryeong-sunglass-smile.jpg"
+        },
+        {
+          "rank": 2,
+          "publicPath": "/assets/reels/197/scene-01-rank-02.jpg",
+          "staticFilePath": "scene-01-rank-02.jpg",
+          "sourceUrl": "/assets/reels/197/approved-crops/scene-01-rank-02-a-s1-a-boryeong-mud-crowd.jpg"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "startFrame": 141,
+      "durationFrames": 172,
+      "durationSeconds": 5.733333333333333,
+      "narration": "The 2026 dates are July twenty-fourth to August ninth, at Daecheon Beach, about two hundred kilometers from Seoul.",
+      "captionBeats": [
+        "The 2026 dates are\nJuly twenty-fourth",
+        "to August ninth,\nat Daecheon Beach,",
+        "about two hundred kilometers\nfrom Seoul."
+      ],
+      "captionBeatStartFrames": [
+        0,
+        53,
+        115
+      ],
+      "captionLeadFrames": 0,
+      "captionStyle": "readable_band",
+      "typographyBeats": [],
+      "motion": "pan_right",
+      "images": [
+        {
+          "rank": 1,
+          "publicPath": "/assets/reels/197/scene-02-rank-01.jpg",
+          "staticFilePath": "scene-02-rank-01.jpg",
+          "sourceUrl": "/assets/reels/197/approved-crops/scene-02-rank-01-a-s2-a-boryeong-mud-girls.jpg"
+        },
+        {
+          "rank": 2,
+          "publicPath": "/assets/reels/197/scene-02-rank-02.jpg",
+          "staticFilePath": "scene-02-rank-02.jpg",
+          "sourceUrl": "/assets/reels/197/approved-crops/scene-02-rank-02-c-s2-c-boryeong-mud-face-paint.jpg"
+        },
+        {
+          "rank": 3,
+          "publicPath": "/assets/reels/197/scene-02-rank-03.jpg",
+          "staticFilePath": "scene-02-rank-03.jpg",
+          "sourceUrl": "/assets/reels/197/approved-crops/scene-02-rank-03-d-s2-d-boryeong-mud-tv-close.jpg"
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "startFrame": 313,
+      "durationFrames": 209,
+      "durationSeconds": 6.966666666666667,
+      "narration": "It is not one mud pit. It is slides, pools, beach energy, performances, and a lot of people making questionable but memorable choices.",
+      "captionBeats": [
+        "It is not one mud pit.",
+        "It is slides, pools,\nbeach energy, performances,",
+        "and a lot of people\nmaking questionable but",
+        "memorable choices."
+      ],
+      "captionBeatStartFrames": [
+        0,
+        38,
+        92,
+        138
+      ],
+      "captionLeadFrames": 0,
+      "captionStyle": "readable_band",
+      "typographyBeats": [],
+      "motion": "slow_zoom_out",
+      "images": [
+        {
+          "rank": 1,
+          "publicPath": "/assets/reels/197/scene-03-rank-01.jpg",
+          "staticFilePath": "scene-03-rank-01.jpg",
+          "sourceUrl": "/assets/reels/197/approved-crops/scene-03-rank-01-a-s3-a-boryeong-mud-play.jpg"
+        },
+        {
+          "rank": 2,
+          "publicPath": "/assets/reels/197/scene-03-rank-02.jpg",
+          "staticFilePath": "scene-03-rank-02.jpg",
+          "sourceUrl": "/assets/reels/197/approved-crops/scene-03-rank-02-d-s3-d-boryeong-mud-pool-crawl.jpg"
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "startFrame": 522,
+      "durationFrames": 189,
+      "durationSeconds": 6.3,
+      "narration": "Your packing list is the difference between hilarious and miserable: phone pouch, water shoes, sunscreen, towel, and a dry change.",
+      "captionBeats": [
+        "Your packing list is\nthe difference between",
+        "hilarious and miserable:\nphone pouch, water shoes,",
+        "sunscreen, towel,\nand a dry change."
+      ],
+      "captionBeatStartFrames": [
+        0,
+        58,
+        128
+      ],
+      "captionLeadFrames": 0,
+      "captionStyle": "readable_band",
+      "typographyBeats": [],
+      "images": []
+    },
+    {
+      "number": 5,
+      "startFrame": 711,
+      "durationFrames": 191,
+      "durationSeconds": 6.366666666666666,
+      "narration": "If you go from Seoul, decide your return plan before you get muddy. Train, bus, shuttle, or overnight, but do not freestyle it at night.",
+      "captionBeats": [
+        "If you go from Seoul,\ndecide your return plan",
+        "before you get muddy.",
+        "Train, bus, shuttle,\nor overnight,",
+        "but do not freestyle it\nat night."
+      ],
+      "captionBeatStartFrames": [
+        0,
+        64,
+        94,
+        140
+      ],
+      "captionLeadFrames": 0,
+      "captionStyle": "readable_band",
+      "typographyBeats": [],
+      "motion": "slow_pan_up",
+      "images": [
+        {
+          "rank": 1,
+          "publicPath": "/assets/reels/197/scene-05-rank-01.jpg",
+          "staticFilePath": "scene-05-rank-01.jpg",
+          "sourceUrl": "/assets/reels/197/approved-crops/scene-05-rank-01-c-s5-c-boryeong-post-mud-return.jpg"
+        },
+        {
+          "rank": 2,
+          "publicPath": "/assets/reels/197/scene-05-rank-02.jpg",
+          "staticFilePath": "scene-05-rank-02.jpg",
+          "sourceUrl": "/assets/reels/197/approved-crops/scene-05-rank-02-d-s5-d-boryeong-post-mud-exit.jpg"
+        },
+        {
+          "rank": 3,
+          "publicPath": "/assets/reels/197/scene-05-rank-03.jpg",
+          "staticFilePath": "scene-05-rank-03.jpg",
+          "sourceUrl": "/assets/reels/197/approved-crops/scene-05-rank-03-e-s5-e-daecheon-shore-return.jpg"
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "startFrame": 902,
+      "durationFrames": 134,
+      "durationSeconds": 4.466666666666667,
+      "narration": "The biggest rookie mistake is protecting your clothes better than your phone, feet, and skin.",
+      "captionBeats": [
+        "The biggest rookie mistake\nis protecting your clothes",
+        "better than your phone,\nfeet, and skin."
+      ],
+      "captionBeatStartFrames": [
+        0,
+        66
+      ],
+      "captionLeadFrames": 0,
+      "captionStyle": "readable_band",
+      "typographyBeats": [],
+      "motion": "slow_push_in",
+      "images": [
+        {
+          "rank": 1,
+          "publicPath": "/assets/reels/197/scene-06-rank-01.jpg",
+          "staticFilePath": "scene-06-rank-01.jpg",
+          "sourceUrl": "/assets/reels/197/approved-crops/scene-06-rank-01-e-s6-e-boryeong-crowd-protection-context.jpg"
+        },
+        {
+          "rank": 2,
+          "publicPath": "/assets/reels/197/scene-06-rank-02.jpg",
+          "staticFilePath": "scene-06-rank-02.jpg",
+          "sourceUrl": "/assets/reels/197/approved-crops/scene-06-rank-02-d-s6-d-boryeong-mud-splash-phone-risk.jpg"
+        },
+        {
+          "rank": 3,
+          "publicPath": "/assets/reels/197/scene-06-rank-03.jpg",
+          "staticFilePath": "scene-06-rank-03.jpg",
+          "sourceUrl": "/assets/reels/197/approved-crops/scene-06-rank-03-c-s6-c-boryeong-wash-station.jpg"
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "startFrame": 1036,
+      "durationFrames": 143,
+      "durationSeconds": 4.766666666666667,
+      "narration": "Save this if your Korea trip touches late July. More Korea travel guides at epickor.com.",
+      "captionBeats": [
+        "Save this if your Korea trip\ntouches late July.",
+        "More Korea travel guides\nat epickor.com."
+      ],
+      "captionBeatStartFrames": [
+        0,
+        83
+      ],
+      "captionLeadFrames": 0,
+      "captionStyle": "readable_band",
+      "typographyBeats": [],
+      "motion": "slow_zoom_out",
+      "images": [
+        {
+          "rank": 1,
+          "publicPath": "/assets/reels/197/scene-07-rank-01.jpg",
+          "staticFilePath": "scene-07-rank-01.jpg",
+          "sourceUrl": "/assets/reels/197/approved-crops/scene-07-rank-01-b-s7-b-boryeong-overhead-celebration.jpg"
+        },
+        {
+          "rank": 2,
+          "publicPath": "/assets/reels/197/scene-07-rank-02.jpg",
+          "staticFilePath": "scene-07-rank-02.jpg",
+          "sourceUrl": "/assets/reels/197/approved-crops/scene-07-rank-02-d-s7-d-boryeong-final-mud-pour.jpg"
+        }
+      ]
+    }
+  ],
+  "motionCards": [
+    {
+      "sceneNumber": 4,
+      "shortId": "A",
+      "id": "197-card-survival-kit-checklist",
+      "template": "center_filled_checklist",
+      "title": "MUD KIT",
+      "lines": [
+        "PHONE POUCH",
+        "WATER SHOES",
+        "SUNSCREEN",
+        "TOWEL",
+        "DRY CHANGE"
+      ],
+      "fitReason": "Most direct packing checklist; center stays filled and caption zone remains clear.",
+      "weakness": "Utilitarian, less playful.",
+      "reviewStatus": "approved",
+      "choice": "A",
+      "rank": 1,
+      "templateId": "split_checklist",
+      "layout": "split_checklist",
+      "motionPreset": "check_items_follow_voice",
+      "kicker": "BORYEONG SURVIVAL",
+      "headline": "MUD KIT",
+      "headlineLines": [
+        "MUD KIT"
+      ],
+      "subhead": "Pack like you will get wrecked.",
+      "subheadLines": [
+        "Pack like you",
+        "will get wrecked."
+      ],
+      "bullets": [
+        "PHONE POUCH",
+        "WATER SHOES",
+        "SUNSCREEN",
+        "TOWEL",
+        "DRY CHANGE"
+      ],
+      "footer": "EPICKOR.COM",
+      "footerLines": [
+        "EPICKOR.COM"
+      ],
+      "accentColor": "#68d391",
+      "overlayOpacity": 0.6,
+      "durationSeconds": 7,
+      "reviewerNote": "Representative selected S4 A as the only approved motion-card insert for production."
+    }
+  ],
+  "motionCardTemplates": [
+    {
+      "id": "zone_compare",
+      "name": "Zone Compare",
+      "description": "Two filled comparison columns with a clear lower caption band. Best for explaining paired rules, areas, or before-after systems without an empty center.",
+      "layout": "split_compare",
+      "motionPreset": "zone_columns_reveal"
+    },
+    {
+      "id": "kit_grid",
+      "name": "Kit Grid",
+      "description": "A compact 2x2 tile grid with strong item blocks and a clear lower caption band. Best for packing lists, saveable checklists, and small sets of essentials.",
+      "layout": "kit_grid",
+      "motionPreset": "tiles_pop_balance"
+    },
+    {
+      "id": "editorial_box",
+      "name": "Editorial Box",
+      "description": "A strong framed card with headline, subhead, and list rows. Best for definitions or summary moments.",
+      "layout": "boxed",
+      "motionPreset": "card_rise_list_reveal"
+    },
+    {
+      "id": "kinetic_steps",
+      "name": "Kinetic Steps",
+      "description": "Floating step pills without a full card box. Best for process, how-to, or quick-start narration.",
+      "layout": "unboxed_steps",
+      "motionPreset": "step_pills_follow_voice"
+    },
+    {
+      "id": "menu_board",
+      "name": "Menu Board",
+      "description": "A menu/signboard style with sliding rows. Best for food, product lists, or options.",
+      "layout": "board",
+      "motionPreset": "menu_rows_follow_voice"
+    },
+    {
+      "id": "radial_burst",
+      "name": "Radial Burst",
+      "description": "A center headline with orbiting/angled labels. Best for explaining several meanings in one concept.",
+      "layout": "unboxed_radial",
+      "motionPreset": "chips_orbit_in"
+    },
+    {
+      "id": "split_checklist",
+      "name": "Split Checklist",
+      "description": "A vertical guide rail with checklist items. Best for etiquette, travel tips, and warnings.",
+      "layout": "split_checklist",
+      "motionPreset": "check_items_follow_voice"
+    },
+    {
+      "id": "convenience_tray",
+      "name": "Convenience Tray",
+      "description": "A bright shelf/tray grid with large item blocks. Best for convenience-store, breakfast, shopping, or assembled-choice scenes.",
+      "layout": "tray_grid",
+      "motionPreset": "tray_items_pop_in"
+    },
+    {
+      "id": "morning_route",
+      "name": "Morning Route",
+      "description": "A vertical path with paired start/end labels. Best for route, sequence, commute, or before-after logic.",
+      "layout": "route_map",
+      "motionPreset": "route_nodes_follow_voice"
+    },
+    {
+      "id": "wrapper_tabs",
+      "name": "Wrapper Tabs",
+      "description": "A package/wrapper metaphor with tagged steps. Best for food wrappers, assembly, folding, or object-anatomy scenes.",
+      "layout": "package_tabs",
+      "motionPreset": "tabs_reveal_around_object"
+    },
+    {
+      "id": "receipt_stack",
+      "name": "Receipt Stack",
+      "description": "A paper receipt/card stack with item rows and barcode texture. Best for prices, purchases, rules, and quick tallies.",
+      "layout": "receipt",
+      "motionPreset": "receipt_rows_print_in"
+    },
+    {
+      "id": "stamp_stack",
+      "name": "Stamp Stack",
+      "description": "Layered stamped slips with angled labels and a verification badge. Best for local rules, validations, myths, and cultural checkpoints.",
+      "layout": "stamp_slips",
+      "motionPreset": "stamps_drop_and_verify"
+    }
+  ]
+}

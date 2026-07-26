@@ -1,0 +1,455 @@
+{
+  "slug": "229",
+  "title": "Korean Floor Culture: Shoes, Ondol, Slippers, Low Tables",
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "durationFrames": 1333,
+  "durationSeconds": 44.43333333333333,
+  "finalizedAt": "2026-06-24T01:47:00.402Z",
+  "audio": null,
+  "audioSegments": [
+    {
+      "part": 1,
+      "sceneNumber": 1,
+      "file": "output/reels/229/audio/narration-v002-scene-01.mp3",
+      "publicPath": "/assets/reels/229/audio/narration-v002-scene-01.mp3",
+      "staticFilePath": "audio/narration-v002-scene-01.mp3",
+      "startFrame": 0,
+      "durationFrames": 111,
+      "durationSeconds": 3.7
+    },
+    {
+      "part": 2,
+      "sceneNumber": 2,
+      "file": "output/reels/229/audio/narration-v002-scene-02.mp3",
+      "publicPath": "/assets/reels/229/audio/narration-v002-scene-02.mp3",
+      "staticFilePath": "audio/narration-v002-scene-02.mp3",
+      "startFrame": 111,
+      "durationFrames": 130,
+      "durationSeconds": 4.333333333333333
+    },
+    {
+      "part": 3,
+      "sceneNumber": 3,
+      "file": "output/reels/229/audio/narration-v002-scene-03.mp3",
+      "publicPath": "/assets/reels/229/audio/narration-v002-scene-03.mp3",
+      "staticFilePath": "audio/narration-v002-scene-03.mp3",
+      "startFrame": 241,
+      "durationFrames": 191,
+      "durationSeconds": 6.366666666666666
+    },
+    {
+      "part": 4,
+      "sceneNumber": 4,
+      "file": "output/reels/229/audio/narration-v002-scene-04.mp3",
+      "publicPath": "/assets/reels/229/audio/narration-v002-scene-04.mp3",
+      "staticFilePath": "audio/narration-v002-scene-04.mp3",
+      "startFrame": 432,
+      "durationFrames": 183,
+      "durationSeconds": 6.1
+    },
+    {
+      "part": 5,
+      "sceneNumber": 5,
+      "file": "output/reels/229/audio/narration-v002-scene-05.mp3",
+      "publicPath": "/assets/reels/229/audio/narration-v002-scene-05.mp3",
+      "staticFilePath": "audio/narration-v002-scene-05.mp3",
+      "startFrame": 615,
+      "durationFrames": 222,
+      "durationSeconds": 7.4
+    },
+    {
+      "part": 6,
+      "sceneNumber": 6,
+      "file": "output/reels/229/audio/narration-v002-scene-06.mp3",
+      "publicPath": "/assets/reels/229/audio/narration-v002-scene-06.mp3",
+      "staticFilePath": "audio/narration-v002-scene-06.mp3",
+      "startFrame": 837,
+      "durationFrames": 162,
+      "durationSeconds": 5.4
+    },
+    {
+      "part": 7,
+      "sceneNumber": 7,
+      "file": "output/reels/229/audio/narration-v002-scene-07.mp3",
+      "publicPath": "/assets/reels/229/audio/narration-v002-scene-07.mp3",
+      "staticFilePath": "audio/narration-v002-scene-07.mp3",
+      "startFrame": 999,
+      "durationFrames": 244,
+      "durationSeconds": 8.133333333333333
+    }
+  ],
+  "outro": {
+    "startFrame": 1243,
+    "durationFrames": 90,
+    "text": "epicKor.com"
+  },
+  "brand": {
+    "label": "EpicKor",
+    "cta": "EPICKOR.COM"
+  },
+  "subtitleStyle": {
+    "mode": "narration_synced",
+    "preset": "readable_band",
+    "captionLeadFrames": 0
+  },
+  "scenes": [
+    {
+      "number": 1,
+      "startFrame": 0,
+      "durationFrames": 111,
+      "durationSeconds": 3.7,
+      "narration": "In Korea, the floor is not just floor. It is where life happens.",
+      "captionBeats": [
+        "In Korea, the floor\nis not just floor.",
+        "It is where\nlife happens."
+      ],
+      "captionBeatStartFrames": [
+        0,
+        69
+      ],
+      "captionLeadFrames": 0,
+      "captionStyle": "readable_band",
+      "typographyBeats": [
+        {
+          "text": "WHY THE\nFLOOR?",
+          "emphasis": "thumbnail_title",
+          "timingHint": "first frame"
+        }
+      ],
+      "motion": "slow_push_in",
+      "images": [
+        {
+          "rank": 1,
+          "publicPath": "/assets/reels/229/scene-01-rank-01.jpg",
+          "staticFilePath": "scene-01-rank-01.jpg",
+          "sourceUrl": "/assets/reels/229/approved-crops/scene-01-rank-01-a-s1-a-living-room-hanok.jpg"
+        },
+        {
+          "rank": 2,
+          "publicPath": "/assets/reels/229/scene-01-rank-02.jpg",
+          "staticFilePath": "scene-01-rank-02.jpg",
+          "sourceUrl": "/assets/reels/229/approved-crops/scene-01-rank-02-b-s1-b-hahoe-women-room.jpg"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "startFrame": 111,
+      "durationFrames": 130,
+      "durationSeconds": 4.333333333333333,
+      "narration": "That is why shoes stop at the entrance before your body fully enters the clean space.",
+      "captionBeats": [
+        "That is why shoes stop\nat the entrance",
+        "before your body fully\nenters the clean space."
+      ],
+      "captionBeatStartFrames": [
+        0,
+        63
+      ],
+      "captionLeadFrames": 0,
+      "captionStyle": "readable_band",
+      "typographyBeats": [],
+      "motion": "pan_right",
+      "images": [
+        {
+          "rank": 1,
+          "publicPath": "/assets/reels/229/scene-02-rank-01.jpg",
+          "staticFilePath": "scene-02-rank-01.jpg",
+          "sourceUrl": "/assets/reels/229/approved-crops/scene-02-rank-01-a-s2-a-post-hanok-front.jpg"
+        },
+        {
+          "rank": 2,
+          "publicPath": "/assets/reels/229/scene-02-rank-02.jpg",
+          "staticFilePath": "scene-02-rank-02.jpg",
+          "sourceUrl": "/assets/reels/229/approved-crops/scene-02-rank-02-b-s2-b-namsangol-hanok-interior.jpg"
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "startFrame": 241,
+      "durationFrames": 191,
+      "durationSeconds": 6.366666666666666,
+      "narration": "Ondol made warm floors normal, so sitting, eating, and sleeping closer to the floor actually made sense.",
+      "captionBeats": [
+        "Ondol made warm\nfloors normal,",
+        "so sitting, eating,\nand sleeping closer",
+        "to the floor actually\nmade sense."
+      ],
+      "captionBeatStartFrames": [
+        0,
+        55,
+        125
+      ],
+      "captionLeadFrames": 0,
+      "captionStyle": "readable_band",
+      "typographyBeats": [],
+      "motion": "slow_zoom_out",
+      "images": [
+        {
+          "rank": 1,
+          "publicPath": "/assets/reels/229/scene-03-rank-01.jpg",
+          "staticFilePath": "scene-03-rank-01.jpg",
+          "sourceUrl": "/assets/reels/229/approved-crops/scene-03-rank-01-a-s3-a-post-agungi.jpg"
+        },
+        {
+          "rank": 2,
+          "publicPath": "/assets/reels/229/scene-03-rank-02.jpg",
+          "staticFilePath": "scene-03-rank-02.jpg",
+          "sourceUrl": "/assets/reels/229/approved-crops/scene-03-rank-02-b-s3-b-ondol-of-korea.jpg"
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "startFrame": 432,
+      "durationFrames": 183,
+      "durationSeconds": 6.1,
+      "narration": "The mistake is thinking this is ancient cosplay. Low tables and mats are also flexible modern furniture.",
+      "captionBeats": [
+        "The mistake is thinking\nthis is ancient cosplay.",
+        "Low tables and mats are also\nflexible modern furniture."
+      ],
+      "captionBeatStartFrames": [
+        0,
+        86
+      ],
+      "captionLeadFrames": 0,
+      "captionStyle": "readable_band",
+      "typographyBeats": [],
+      "motion": "slow_push_in",
+      "images": [
+        {
+          "rank": 1,
+          "publicPath": "/assets/reels/229/scene-04-rank-01.jpg",
+          "staticFilePath": "scene-04-rank-01.jpg",
+          "sourceUrl": "/assets/reels/229/approved-crops/scene-04-rank-01-a-s4-a-traditional-house-interior.jpg"
+        },
+        {
+          "rank": 2,
+          "publicPath": "/assets/reels/229/scene-04-rank-02.jpg",
+          "staticFilePath": "scene-04-rank-02.jpg",
+          "sourceUrl": "/assets/reels/229/approved-crops/scene-04-rank-02-b-s4-b-hanok-child-room-2.jpg"
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "startFrame": 615,
+      "durationFrames": 222,
+      "durationSeconds": 7.4,
+      "narration": "Here is the rule to save: outside shoes stay out, clean socks or guest slippers stay in, and bathroom slippers stay in the bathroom.",
+      "captionBeats": [
+        "Here is the rule\nto save:",
+        "outside shoes stay out,",
+        "clean socks or guest\nslippers stay in,",
+        "and bathroom slippers stay\nin the bathroom."
+      ],
+      "captionBeatStartFrames": [
+        0,
+        56,
+        94,
+        158
+      ],
+      "captionLeadFrames": 0,
+      "captionStyle": "readable_band",
+      "typographyBeats": [],
+      "images": []
+    },
+    {
+      "number": 6,
+      "startFrame": 837,
+      "durationFrames": 162,
+      "durationSeconds": 5.4,
+      "narration": "So do not roll a suitcase across the clean floor, and do not wander out wearing bathroom slippers.",
+      "captionBeats": [
+        "So do not roll\na suitcase",
+        "across the clean floor,",
+        "and do not wander out\nwearing bathroom slippers."
+      ],
+      "captionBeatStartFrames": [
+        0,
+        51,
+        90
+      ],
+      "captionLeadFrames": 0,
+      "captionStyle": "readable_band",
+      "typographyBeats": [],
+      "motion": "pan_left",
+      "images": [
+        {
+          "rank": 1,
+          "publicPath": "/assets/reels/229/scene-06-rank-01.jpg",
+          "staticFilePath": "scene-06-rank-01.jpg",
+          "sourceUrl": "/assets/reels/229/approved-crops/scene-06-rank-01-a-s6-a-post-slippers.jpg"
+        },
+        {
+          "rank": 2,
+          "publicPath": "/assets/reels/229/scene-06-rank-02.jpg",
+          "staticFilePath": "scene-06-rank-02.jpg",
+          "sourceUrl": "/assets/reels/229/approved-crops/scene-06-rank-02-b-s6-b-black-slippers-tile.jpg"
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "startFrame": 999,
+      "durationFrames": 244,
+      "durationSeconds": 8.133333333333333,
+      "narration": "Save this before a Korean home visit, hanok stay, floor-seat restaurant, or jjimjilbang. More Korean culture guide at epickor dot com.",
+      "captionBeats": [
+        "Save this before\na Korean home visit,",
+        "hanok stay,\nfloor-seat restaurant,",
+        "or jjimjilbang.",
+        "More Korean culture\nguide at",
+        "epicKor.com"
+      ],
+      "captionBeatStartFrames": [
+        0,
+        72,
+        118,
+        154,
+        201
+      ],
+      "captionLeadFrames": 0,
+      "captionStyle": "readable_band",
+      "typographyBeats": [],
+      "motion": "slow_zoom_out",
+      "images": [
+        {
+          "rank": 1,
+          "publicPath": "/assets/reels/229/scene-07-rank-01.jpg",
+          "staticFilePath": "scene-07-rank-01.jpg",
+          "sourceUrl": "/assets/reels/229/approved-crops/scene-07-rank-01-a-s7-a-seoul-hanok-room.jpg"
+        }
+      ]
+    }
+  ],
+  "motionCards": [
+    {
+      "sceneNumber": 5,
+      "shortId": "A",
+      "id": "229-card-three-zone-rule",
+      "template": "split_checklist",
+      "templateId": "split_checklist",
+      "layout": "split_checklist",
+      "motionPreset": "check_items_follow_voice",
+      "kicker": "KOREAN FLOOR RULE",
+      "headline": "3-ZONE RULE",
+      "headlineLines": [
+        "3-ZONE RULE"
+      ],
+      "subhead": "Do not mix them.",
+      "subheadLines": [
+        "Do not mix",
+        "them."
+      ],
+      "bullets": [
+        "OUTSIDE SHOES",
+        "CLEAN SOCKS",
+        "BATHROOM SLIPPERS"
+      ],
+      "footer": "EPICKOR.COM",
+      "footerLines": [
+        "EPICKOR.COM"
+      ],
+      "accentColor": "#22c55e",
+      "overlayOpacity": 0.68,
+      "durationSeconds": 8.6,
+      "fitReason": "Best payoff card: turns the cultural explanation into one saveable etiquette rule.",
+      "weakness": "Rule-heavy, so caption placement must stay clean.",
+      "reviewStatus": "approved",
+      "choice": "A",
+      "rank": 1,
+      "reviewerNote": "Approved by Codex under representative delegation; center-filled checklist keeps the middle occupied and preserves a lower caption band."
+    }
+  ],
+  "motionCardTemplates": [
+    {
+      "id": "zone_compare",
+      "name": "Zone Compare",
+      "description": "Two filled comparison columns with a clear lower caption band. Best for explaining paired rules, areas, or before-after systems without an empty center.",
+      "layout": "split_compare",
+      "motionPreset": "zone_columns_reveal"
+    },
+    {
+      "id": "kit_grid",
+      "name": "Kit Grid",
+      "description": "A compact 2x2 tile grid with strong item blocks and a clear lower caption band. Best for packing lists, saveable checklists, and small sets of essentials.",
+      "layout": "kit_grid",
+      "motionPreset": "tiles_pop_balance"
+    },
+    {
+      "id": "editorial_box",
+      "name": "Editorial Box",
+      "description": "A strong framed card with headline, subhead, and list rows. Best for definitions or summary moments.",
+      "layout": "boxed",
+      "motionPreset": "card_rise_list_reveal"
+    },
+    {
+      "id": "kinetic_steps",
+      "name": "Kinetic Steps",
+      "description": "Floating step pills without a full card box. Best for process, how-to, or quick-start narration.",
+      "layout": "unboxed_steps",
+      "motionPreset": "step_pills_follow_voice"
+    },
+    {
+      "id": "menu_board",
+      "name": "Menu Board",
+      "description": "A menu/signboard style with sliding rows. Best for food, product lists, or options.",
+      "layout": "board",
+      "motionPreset": "menu_rows_follow_voice"
+    },
+    {
+      "id": "radial_burst",
+      "name": "Radial Burst",
+      "description": "A center headline with orbiting/angled labels. Best for explaining several meanings in one concept.",
+      "layout": "unboxed_radial",
+      "motionPreset": "chips_orbit_in"
+    },
+    {
+      "id": "split_checklist",
+      "name": "Split Checklist",
+      "description": "A vertical guide rail with checklist items. Best for etiquette, travel tips, and warnings.",
+      "layout": "split_checklist",
+      "motionPreset": "check_items_follow_voice"
+    },
+    {
+      "id": "convenience_tray",
+      "name": "Convenience Tray",
+      "description": "A bright shelf/tray grid with large item blocks. Best for convenience-store, breakfast, shopping, or assembled-choice scenes.",
+      "layout": "tray_grid",
+      "motionPreset": "tray_items_pop_in"
+    },
+    {
+      "id": "morning_route",
+      "name": "Morning Route",
+      "description": "A vertical path with paired start/end labels. Best for route, sequence, commute, or before-after logic.",
+      "layout": "route_map",
+      "motionPreset": "route_nodes_follow_voice"
+    },
+    {
+      "id": "wrapper_tabs",
+      "name": "Wrapper Tabs",
+      "description": "A package/wrapper metaphor with tagged steps. Best for food wrappers, assembly, folding, or object-anatomy scenes.",
+      "layout": "package_tabs",
+      "motionPreset": "tabs_reveal_around_object"
+    },
+    {
+      "id": "receipt_stack",
+      "name": "Receipt Stack",
+      "description": "A paper receipt/card stack with item rows and barcode texture. Best for prices, purchases, rules, and quick tallies.",
+      "layout": "receipt",
+      "motionPreset": "receipt_rows_print_in"
+    },
+    {
+      "id": "stamp_stack",
+      "name": "Stamp Stack",
+      "description": "Layered stamped slips with angled labels and a verification badge. Best for local rules, validations, myths, and cultural checkpoints.",
+      "layout": "stamp_slips",
+      "motionPreset": "stamps_drop_and_verify"
+    }
+  ]
+}

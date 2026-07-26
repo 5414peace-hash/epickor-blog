@@ -1,0 +1,194 @@
+{
+ "slug": "313",
+ "version": "v02",
+ "fps": 30,
+ "generatedAt": "2026-07-21T22:58:18.178Z",
+ "method": "ElevenLabs Forced Alignment against the approved narration transcript",
+ "captionLeadFrames": 5,
+ "safeZone": {
+  "left": 76,
+  "right": 76,
+  "bottom": 410,
+  "maxWidth": 928
+ },
+ "parts": [
+  {
+   "part": 1,
+   "transcript": "Seoul with kids is easier than most parents expect. But the hard part is never the one you plan for.",
+   "alignmentLoss": 0.07282993316650391,
+   "wordCount": 20,
+   "beatCount": 4,
+   "firstWordStart": 0.239,
+   "lastWordEnd": 4.779
+  },
+  {
+   "part": 2,
+   "transcript": "Nobody worries about safety here, even at night. The real enemy is stairs. Half the subway exits don't have an elevator.",
+   "alignmentLoss": 0.038258257508277896,
+   "wordCount": 21,
+   "beatCount": 5,
+   "firstWordStart": 0.219,
+   "lastWordEnd": 5.44
+  },
+  {
+   "part": 3,
+   "transcript": "So check the elevator exit before you arrive, not after. Then the rest gets easy.",
+   "alignmentLoss": 0.05573813120524088,
+   "wordCount": 15,
+   "beatCount": 3,
+   "firstWordStart": 0.179,
+   "lastWordEnd": 3.839
+  },
+  {
+   "part": 4,
+   "transcript": "Kid-size hanbok gets you into the palaces free. Children's museums let them touch everything. And gimbap is the one meal that's never spicy.",
+   "alignmentLoss": 0.0687209393296923,
+   "wordCount": 23,
+   "beatCount": 5,
+   "firstWordStart": 0.179,
+   "lastWordEnd": 6.92
+  },
+  {
+   "part": 5,
+   "transcript": "One big thing per day. Three attractions ends in tears. Do less, and Seoul does the rest.",
+   "alignmentLoss": 0.16442673393849577,
+   "wordCount": 17,
+   "beatCount": 3,
+   "firstWordStart": 0.259,
+   "lastWordEnd": 4.159
+  },
+  {
+   "part": 6,
+   "transcript": "epickor dot com.",
+   "alignmentLoss": 1.4037971496582031,
+   "wordCount": 3,
+   "beatCount": 1,
+   "firstWordStart": 0.179,
+   "lastWordEnd": 0.959
+  }
+ ],
+ "beats": [
+  {
+   "part": 1,
+   "text": "Seoul with kids is easier than most parents expect.",
+   "startFrame": 7,
+   "endFrame": 81,
+   "sourceStartSeconds": 0.239,
+   "sourceEndSeconds": 1.48,
+   "wordCount": 5
+  },
+  {
+   "part": 1,
+   "text": "But the hard part is never the one you plan for.",
+   "startFrame": 82,
+   "endFrame": 154,
+   "sourceStartSeconds": 2.74,
+   "sourceEndSeconds": 3.839,
+   "wordCount": 6
+  },
+  {
+   "part": 2,
+   "text": "Nobody worries about safety here, even at night.",
+   "startFrame": 166,
+   "endFrame": 229,
+   "sourceStartSeconds": 0.219,
+   "sourceEndSeconds": 1.299,
+   "wordCount": 4
+  },
+  {
+   "part": 2,
+   "text": "The real enemy is stairs.",
+   "startFrame": 230,
+   "endFrame": 267,
+   "sourceStartSeconds": 2.339,
+   "sourceEndSeconds": 3.439,
+   "wordCount": 5
+  },
+  {
+   "part": 2,
+   "text": "Half the subway exits don't have an elevator.",
+   "startFrame": 268,
+   "endFrame": 335,
+   "sourceStartSeconds": 3.599,
+   "sourceEndSeconds": 4.519,
+   "wordCount": 4
+  },
+  {
+   "part": 3,
+   "text": "So check the elevator exit before you arrive, not after.",
+   "startFrame": 360,
+   "endFrame": 440,
+   "sourceStartSeconds": 0.179,
+   "sourceEndSeconds": 1.279,
+   "wordCount": 5
+  },
+  {
+   "part": 3,
+   "text": "Then the rest gets easy.",
+   "startFrame": 441,
+   "endFrame": 482,
+   "sourceStartSeconds": 2.879,
+   "sourceEndSeconds": 3.839,
+   "wordCount": 5
+  },
+  {
+   "part": 4,
+   "text": "Kid-size hanbok gets you into the palaces free.",
+   "startFrame": 510,
+   "endFrame": 582,
+   "sourceStartSeconds": 0.179,
+   "sourceEndSeconds": 1.279,
+   "wordCount": 4
+  },
+  {
+   "part": 4,
+   "text": "Children's museums let them touch everything.",
+   "startFrame": 583,
+   "endFrame": 646,
+   "sourceStartSeconds": 2.619,
+   "sourceEndSeconds": 4.4,
+   "wordCount": 6
+  },
+  {
+   "part": 4,
+   "text": "And gimbap is the one meal that's never spicy.",
+   "startFrame": 647,
+   "endFrame": 725,
+   "sourceStartSeconds": 4.739,
+   "sourceEndSeconds": 5.679,
+   "wordCount": 5
+  },
+  {
+   "part": 5,
+   "text": "One big thing per day.",
+   "startFrame": 762,
+   "endFrame": 795,
+   "sourceStartSeconds": 0.259,
+   "sourceEndSeconds": 1.24,
+   "wordCount": 5
+  },
+  {
+   "part": 5,
+   "text": "Three attractions ends in tears.",
+   "startFrame": 796,
+   "endFrame": 838,
+   "sourceStartSeconds": 1.379,
+   "sourceEndSeconds": 2.679,
+   "wordCount": 5
+  },
+  {
+   "part": 5,
+   "text": "Do less, and Seoul does the rest.",
+   "startFrame": 839,
+   "endFrame": 892,
+   "sourceStartSeconds": 2.799,
+   "sourceEndSeconds": 4.159,
+   "wordCount": 7
+  }
+ ],
+ "coverage": {
+  "transcriptWords": 99,
+  "captionWords": 99,
+  "audioParts": 6
+ }
+}

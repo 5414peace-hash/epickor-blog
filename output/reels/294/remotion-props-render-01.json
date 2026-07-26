@@ -1,0 +1,330 @@
+{
+  "slug": "294",
+  "title": "Why Korean Chopsticks Are Metal",
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "durationFrames": 1005,
+  "durationSeconds": 33.5,
+  "finalizedAt": "2026-07-14",
+  "audio": null,
+  "audioSegments": [
+    {
+      "part": 1,
+      "file": "voice-part-1.mp3",
+      "publicPath": "/assets/reels/294/audio/voice-part-1.mp3",
+      "staticFilePath": "audio/voice-part-1.mp3",
+      "startFrame": 0,
+      "durationFrames": 269,
+      "durationSeconds": 8.96
+    },
+    {
+      "part": 2,
+      "file": "voice-part-2.mp3",
+      "publicPath": "/assets/reels/294/audio/voice-part-2.mp3",
+      "staticFilePath": "audio/voice-part-2.mp3",
+      "startFrame": 279,
+      "durationFrames": 371,
+      "durationSeconds": 12.35
+    },
+    {
+      "part": 3,
+      "file": "voice-part-3.mp3",
+      "publicPath": "/assets/reels/294/audio/voice-part-3.mp3",
+      "staticFilePath": "audio/voice-part-3.mp3",
+      "startFrame": 660,
+      "durationFrames": 262,
+      "durationSeconds": 8.73
+    }
+  ],
+  "sfxSegments": [],
+  "outro": {
+    "startFrame": 930,
+    "durationFrames": 75,
+    "text": "epickor.com"
+  },
+  "brand": {
+    "label": "EPICKOR",
+    "cta": "EPICKOR.COM"
+  },
+  "subtitleStyle": {
+    "mode": "narration_synced",
+    "preset": "modern_reels_phrase_pop",
+    "font": "Inter",
+    "fontWeight": 900,
+    "highlightColor": "#f59e0b",
+    "maxWordsPerBeat": 5,
+    "captionLeadFrames": 5
+  },
+  "scenes": [
+    {
+      "number": 1,
+      "startFrame": 0,
+      "durationFrames": 126,
+      "durationSeconds": 4.2,
+      "narration": "Korean chopsticks feel impossible when you make them do the spoon's job.",
+      "captionBeats": [
+        "KOREAN CHOPSTICKS FEEL IMPOSSIBLE",
+        "WHEN THEY DO THE SPOON'S JOB"
+      ],
+      "captionBeatStartFrames": [
+        0,
+        67
+      ],
+      "captionLeadFrames": 4,
+      "captionStyle": "phrase_pop",
+      "typographyBeats": [
+        {
+          "text": "CHOPSTICKS AREN'T | THE PROBLEM",
+          "emphasis": "thumbnail_title",
+          "timingHint": "first_frame"
+        }
+      ],
+      "motion": "slow_push_in",
+      "images": [
+        {
+          "rank": 1,
+          "publicPath": "/assets/reels/294/images/sujeo-set-national-institute-korean-language-wikimedia.webp",
+          "staticFilePath": "images/sujeo-set-national-institute-korean-language-wikimedia.webp",
+          "sourceUrl": "National Institute of Korean Language via Wikimedia Commons",
+          "width": 2880,
+          "height": 1920,
+          "aspectRatio": 1.5,
+          "fitMode": "contain_frame",
+          "cameraMove": "slow_push_in"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "startFrame": 126,
+      "durationFrames": 153,
+      "durationSeconds": 5.1,
+      "narration": "They're flatter and smoother than wooden chopsticks, so squeezing harder can make them twist instead of behave.",
+      "captionBeats": [
+        "FLATTER + SMOOTHER",
+        "SQUEEZING HARDER CAN MAKE THEM TWIST"
+      ],
+      "captionBeatStartFrames": [
+        0,
+        72
+      ],
+      "captionLeadFrames": 5,
+      "captionStyle": "readable_band",
+      "typographyBeats": [
+        {
+          "text": "FLAT + SMOOTH",
+          "emphasis": "proof",
+          "timingHint": "macro"
+        }
+      ],
+      "motion": "slow_zoom_out",
+      "images": [
+        {
+          "rank": 1,
+          "publicPath": "/assets/reels/294/images/korean-metal-chopsticks-minseong-kim-wikimedia.webp",
+          "staticFilePath": "images/korean-metal-chopsticks-minseong-kim-wikimedia.webp",
+          "sourceUrl": "Minseong Kim via Wikimedia Commons",
+          "width": 1132,
+          "height": 660,
+          "aspectRatio": 1.715,
+          "fitMode": "contain_frame",
+          "cameraMove": "slow_zoom_out"
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "startFrame": 279,
+      "durationFrames": 135,
+      "durationSeconds": 4.5,
+      "narration": "And they're only half the system. Koreans call the spoon-and-chopstick pair sujeo.",
+      "captionBeats": [
+        "ONLY HALF THE SYSTEM",
+        "SPOON + CHOPSTICKS = SUJEO"
+      ],
+      "captionBeatStartFrames": [
+        0,
+        64
+      ],
+      "captionLeadFrames": 5,
+      "captionStyle": "readable_band",
+      "typographyBeats": [],
+      "motion": "slow_push_in",
+      "images": [],
+      "videoClips": [
+        {
+          "publicPath": "/assets/reels/294/video/korean-hansik-table-pexels-35196990.mp4",
+          "staticFilePath": "video/korean-hansik-table-pexels-35196990.mp4",
+          "sourceUrl": "https://www.pexels.com/video/vibrant-korean-hansik-meal-spread-35196990/",
+          "trimBeforeFrames": 18,
+          "fitMode": "cover"
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "startFrame": 414,
+      "durationFrames": 66,
+      "durationSeconds": 2.2,
+      "narration": "Here's the cheat code.",
+      "captionBeats": [
+        "HERE'S THE CHEAT CODE"
+      ],
+      "captionBeatStartFrames": [
+        0
+      ],
+      "captionLeadFrames": 4,
+      "captionStyle": "readable_band",
+      "typographyBeats": [],
+      "motion": "slow_push_in",
+      "images": [],
+      "videoClips": [
+        {
+          "publicPath": "/assets/reels/294/video/metal-spoon-rice-pexels-14150482.mp4",
+          "staticFilePath": "video/metal-spoon-rice-pexels-14150482.mp4",
+          "sourceUrl": "https://www.pexels.com/video/hand-taking-rice-with-spoon-14150482/",
+          "trimBeforeFrames": 48,
+          "fitMode": "cover"
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "startFrame": 480,
+      "durationFrames": 255,
+      "durationSeconds": 8.5,
+      "narration": "Rice or soup, use the spoon. Kimchi, meat, noodles, or banchan, use the chopsticks. Still slipping?",
+      "captionBeats": [
+        "RICE OR SOUP",
+        "KIMCHI, MEAT, NOODLES, OR BANCHAN",
+        "STILL SLIPPING?"
+      ],
+      "captionBeatStartFrames": [
+        0,
+        78,
+        176
+      ],
+      "captionLeadFrames": 4,
+      "captionStyle": "readable_band",
+      "typographyBeats": [],
+      "motion": "slow_push_in",
+      "images": [],
+      "videoClips": [
+        {
+          "publicPath": "/assets/reels/294/video/korean-bbq-table-pexels-34753874.mp4",
+          "staticFilePath": "video/korean-bbq-table-pexels-34753874.mp4",
+          "sourceUrl": "https://www.pexels.com/video/korean-bbq-samgyeopsal-on-grill-34753874/",
+          "trimBeforeFrames": 54,
+          "fitMode": "cover"
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "startFrame": 735,
+      "durationFrames": 120,
+      "durationSeconds": 4,
+      "narration": "Loosen your grip and line up the flat sides. Save this before your first Korean meal.",
+      "captionBeats": [
+        "LOOSEN YOUR GRIP",
+        "LINE UP THE FLAT SIDES",
+        "SAVE THIS BEFORE YOUR MEAL"
+      ],
+      "captionBeatStartFrames": [
+        0,
+        48,
+        88
+      ],
+      "captionLeadFrames": 5,
+      "captionStyle": "readable_band",
+      "typographyBeats": [
+        {
+          "text": "LIGHTER GRIP",
+          "emphasis": "takeaway",
+          "timingHint": "alignment"
+        }
+      ],
+      "motion": "slow_push_in",
+      "images": [
+        {
+          "rank": 1,
+          "publicPath": "/assets/reels/294/images/korean-chopsticks-public-domain-wikimedia.webp",
+          "staticFilePath": "images/korean-chopsticks-public-domain-wikimedia.webp",
+          "sourceUrl": "Wikimedia Commons public-domain photograph",
+          "width": 1600,
+          "height": 1200,
+          "aspectRatio": 1.333,
+          "fitMode": "contain_frame",
+          "cameraMove": "slow_push_in"
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "startFrame": 855,
+      "durationFrames": 150,
+      "durationSeconds": 5,
+      "narration": "Get the full etiquette guide at epickor.com.",
+      "captionBeats": [
+        "THE FULL ETIQUETTE GUIDE",
+        "epickor.com"
+      ],
+      "captionBeatStartFrames": [
+        0,
+        62
+      ],
+      "captionLeadFrames": 5,
+      "captionStyle": "readable_band",
+      "typographyBeats": [],
+      "motion": "slow_push_in",
+      "images": [],
+      "videoClips": [
+        {
+          "publicPath": "/assets/reels/294/video/korean-steamed-egg-pexels-37391013.mp4",
+          "staticFilePath": "video/korean-steamed-egg-pexels-37391013.mp4",
+          "sourceUrl": "https://www.pexels.com/video/delicious-korean-steamed-egg-dish-in-stone-pot-37391013/",
+          "trimBeforeFrames": 36,
+          "fitMode": "cover"
+        }
+      ]
+    }
+  ],
+  "motionCards": [
+    {
+      "id": "294-sujeo-cheat-code",
+      "sceneNumber": 5,
+      "templateId": "glass_rules",
+      "kicker": "KOREAN TABLE RULE",
+      "headline": "THE SUJEO CHEAT CODE",
+      "headlineLines": [
+        "THE SUJEO",
+        "CHEAT CODE"
+      ],
+      "subhead": "One pair. Two jobs.",
+      "badge": "SAVE",
+      "bullets": [
+        "RICE / SOUP → SPOON",
+        "KIMCHI / MEAT → CHOPSTICKS",
+        "STILL SLIPPING? → LIGHTER GRIP"
+      ],
+      "footer": "USE THE PAIR, NOT ONE TOOL FOR EVERYTHING",
+      "layout": "glass_rules",
+      "motionPreset": "row_reveal",
+      "accentColor": "#f59e0b",
+      "overlayOpacity": 0.32,
+      "durationSeconds": 8.5,
+      "reviewStatus": "approved",
+      "reviewerNote": "Prototype-only approval for dashboard/render review; representative visual approval still required."
+    }
+  ],
+  "motionCardTemplates": [
+    {
+      "id": "glass_rules",
+      "name": "Transparent Rules Over Topic Video",
+      "description": "Semi-transparent payoff card preserving a real topic background.",
+      "layout": "glass_rules",
+      "motionPreset": "row_reveal"
+    }
+  ]
+}

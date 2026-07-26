@@ -1,0 +1,471 @@
+{
+  "slug": "189",
+  "title": "DMZ Tour|Know This First",
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "durationFrames": 920,
+  "durationSeconds": 30.666666666666668,
+  "finalizedAt": "2026-06-12T04:26:17.820Z",
+  "audio": null,
+  "audioSegments": [
+    {
+      "part": 1,
+      "sceneNumber": 1,
+      "file": "output/reels/189/audio/narration-v001-scene-01.mp3",
+      "publicPath": "/assets/reels/189/audio/narration-v001-scene-01.mp3",
+      "staticFilePath": "audio/narration-v001-scene-01.mp3",
+      "startFrame": 0,
+      "durationFrames": 83,
+      "durationSeconds": 2.7666666666666666
+    },
+    {
+      "part": 2,
+      "sceneNumber": 2,
+      "file": "output/reels/189/audio/narration-v001-scene-02.mp3",
+      "publicPath": "/assets/reels/189/audio/narration-v001-scene-02.mp3",
+      "staticFilePath": "audio/narration-v001-scene-02.mp3",
+      "startFrame": 83,
+      "durationFrames": 133,
+      "durationSeconds": 4.433333333333334
+    },
+    {
+      "part": 3,
+      "sceneNumber": 3,
+      "file": "output/reels/189/audio/narration-v001-scene-03.mp3",
+      "publicPath": "/assets/reels/189/audio/narration-v001-scene-03.mp3",
+      "staticFilePath": "audio/narration-v001-scene-03.mp3",
+      "startFrame": 216,
+      "durationFrames": 104,
+      "durationSeconds": 3.466666666666667
+    },
+    {
+      "part": 4,
+      "sceneNumber": 4,
+      "file": "output/reels/189/audio/narration-v001-scene-04.mp3",
+      "publicPath": "/assets/reels/189/audio/narration-v001-scene-04.mp3",
+      "staticFilePath": "audio/narration-v001-scene-04.mp3",
+      "startFrame": 320,
+      "durationFrames": 83,
+      "durationSeconds": 2.7666666666666666
+    },
+    {
+      "part": 5,
+      "sceneNumber": 5,
+      "file": "output/reels/189/audio/narration-v001-scene-05.mp3",
+      "publicPath": "/assets/reels/189/audio/narration-v001-scene-05.mp3",
+      "staticFilePath": "audio/narration-v001-scene-05.mp3",
+      "startFrame": 403,
+      "durationFrames": 145,
+      "durationSeconds": 4.833333333333333
+    },
+    {
+      "part": 6,
+      "sceneNumber": 6,
+      "file": "output/reels/189/audio/narration-v001-scene-06.mp3",
+      "publicPath": "/assets/reels/189/audio/narration-v001-scene-06.mp3",
+      "staticFilePath": "audio/narration-v001-scene-06.mp3",
+      "startFrame": 548,
+      "durationFrames": 140,
+      "durationSeconds": 4.666666666666667
+    },
+    {
+      "part": 7,
+      "sceneNumber": 7,
+      "file": "output/reels/189/audio/narration-v001-scene-07.mp3",
+      "publicPath": "/assets/reels/189/audio/narration-v001-scene-07.mp3",
+      "staticFilePath": "audio/narration-v001-scene-07.mp3",
+      "startFrame": 688,
+      "durationFrames": 172,
+      "durationSeconds": 5.733333333333333
+    }
+  ],
+  "outro": {
+    "startFrame": 860,
+    "durationFrames": 60,
+    "text": "epicKor.com"
+  },
+  "brand": {
+    "label": "EpicKor",
+    "cta": "EPICKOR.COM"
+  },
+  "subtitleStyle": {
+    "mode": "narration_synced",
+    "preset": "modern_reels_phrase_pop"
+  },
+  "scenes": [
+    {
+      "number": 1,
+      "startFrame": 0,
+      "durationFrames": 83,
+      "durationSeconds": 2.7666666666666666,
+      "narration": "Most tourists think the DMZ is one place. It is not.",
+      "captionBeats": [
+        "Most tourists think the DMZ\nis one place. It is not."
+      ],
+      "captionBeatStartFrames": [
+        0
+      ],
+      "captionLeadFrames": 0,
+      "captionStyle": "readable_band",
+      "typographyBeats": [
+        {
+          "text": "SEOUL DMZ TOUR",
+          "emphasis": "thumbnail_title",
+          "timingHint": "thumbnail"
+        }
+      ],
+      "motion": "slow_push_in",
+      "images": [
+        {
+          "rank": 1,
+          "publicPath": "/assets/reels/189/scene-01-rank-01.jpg",
+          "staticFilePath": "scene-01-rank-01.jpg",
+          "sourceUrl": "https://images.pexels.com/photos/34314528/pexels-photo-34314528.jpeg?auto=compress&cs=tinysrgb&w=1200"
+        },
+        {
+          "rank": 2,
+          "publicPath": "/assets/reels/189/scene-01-rank-02.jpg",
+          "staticFilePath": "scene-01-rank-02.jpg",
+          "sourceUrl": "/assets/images/posts/189/dmz-imjingak-locomotive.jpg"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "startFrame": 83,
+      "durationFrames": 133,
+      "durationSeconds": 4.433333333333334,
+      "narration": "Imjingak, Dora Observatory, the Third Tunnel, and the JSA are different levels of access.",
+      "captionBeats": [
+        "Imjingak, Dora Observatory,\nthe Third Tunnel,",
+        "and the JSA are different\nlevels of access."
+      ],
+      "captionBeatStartFrames": [
+        0,
+        62
+      ],
+      "captionLeadFrames": 0,
+      "captionStyle": "readable_band",
+      "typographyBeats": [],
+      "motion": "motion_card",
+      "images": []
+    },
+    {
+      "number": 3,
+      "startFrame": 216,
+      "durationFrames": 104,
+      "durationSeconds": 3.466666666666667,
+      "narration": "And a normal DMZ tour does not automatically include the JSA.",
+      "captionBeats": [
+        "And a normal DMZ tour",
+        "does not automatically\ninclude the JSA."
+      ],
+      "captionBeatStartFrames": [
+        0,
+        45
+      ],
+      "captionLeadFrames": 0,
+      "captionStyle": "readable_band",
+      "typographyBeats": [],
+      "motion": "cut_in",
+      "images": [
+        {
+          "rank": 1,
+          "publicPath": "/assets/reels/189/scene-03-rank-01.jpg",
+          "staticFilePath": "scene-03-rank-01.jpg",
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Panmungak_the_dominant_KPA_building_inside_the_JSA.jpg"
+        },
+        {
+          "rank": 2,
+          "publicPath": "/assets/reels/189/scene-03-rank-02.jpg",
+          "staticFilePath": "scene-03-rank-02.jpg",
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Korean_DMZ_Border_2009.jpg"
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "startFrame": 320,
+      "durationFrames": 83,
+      "durationSeconds": 2.7666666666666666,
+      "narration": "You are not wandering around a border like a museum.",
+      "captionBeats": [
+        "You are not wandering around\na border like a museum."
+      ],
+      "captionBeatStartFrames": [
+        0
+      ],
+      "captionLeadFrames": 0,
+      "captionStyle": "readable_band",
+      "typographyBeats": [],
+      "motion": "pan_hold",
+      "images": [
+        {
+          "rank": 1,
+          "publicPath": "/assets/reels/189/scene-04-rank-01.jpg",
+          "staticFilePath": "scene-04-rank-01.jpg",
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/6/68/DMZ_seen_from_the_north%2C_2005.jpg"
+        },
+        {
+          "rank": 2,
+          "publicPath": "/assets/reels/189/scene-04-rank-02.jpg",
+          "staticFilePath": "scene-04-rank-02.jpg",
+          "sourceUrl": "/assets/images/posts/189/dora-observatory.jpg"
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "startFrame": 403,
+      "durationFrames": 145,
+      "durationSeconds": 4.833333333333333,
+      "narration": "You are following a tour route, with passport checks, military rules, and access that can change.",
+      "captionBeats": [
+        "You are following\na tour route,",
+        "with passport checks,\nmilitary rules,",
+        "and access\nthat can change."
+      ],
+      "captionBeatStartFrames": [
+        0,
+        53,
+        101
+      ],
+      "captionLeadFrames": 0,
+      "captionStyle": "readable_band",
+      "typographyBeats": [],
+      "motion": "detail_push",
+      "images": [
+        {
+          "rank": 1,
+          "publicPath": "/assets/reels/189/scene-05-rank-01.jpg",
+          "staticFilePath": "scene-05-rank-01.jpg",
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/20240602_100029_DMZ_-_Third_Tunnel_of_Aggression_01.jpg/1280px-20240602_100029_DMZ_-_Third_Tunnel_of_Aggression_01.jpg"
+        },
+        {
+          "rank": 2,
+          "publicPath": "/assets/reels/189/scene-05-rank-02.jpg",
+          "staticFilePath": "scene-05-rank-02.jpg",
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/20240602_100029_DMZ_-_Third_Tunnel_of_Aggression_04.jpg/1280px-20240602_100029_DMZ_-_Third_Tunnel_of_Aggression_04.jpg"
+        },
+        {
+          "rank": 3,
+          "publicPath": "/assets/reels/189/scene-05-rank-03.jpg",
+          "staticFilePath": "scene-05-rank-03.jpg",
+          "sourceUrl": "/assets/images/posts/189/third-tunnel-area.jpg"
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "startFrame": 548,
+      "durationFrames": 140,
+      "durationSeconds": 4.666666666666667,
+      "narration": "Bring your passport. Wear real walking shoes, because the Third Tunnel is more physical than it looks.",
+      "captionBeats": [
+        "Bring your passport.\nWear real walking shoes,",
+        "because the Third Tunnel\nis more physical than it looks."
+      ],
+      "captionBeatStartFrames": [
+        0,
+        60
+      ],
+      "captionLeadFrames": 0,
+      "captionStyle": "readable_band",
+      "typographyBeats": [],
+      "motion": "motion_card",
+      "images": []
+    },
+    {
+      "number": 7,
+      "startFrame": 688,
+      "durationFrames": 172,
+      "durationSeconds": 5.733333333333333,
+      "narration": "And do not book something tight right after, because the schedule can shift. Save this before you book a DMZ tour from Seoul.",
+      "captionBeats": [
+        "And do not book\nsomething tight right after,",
+        "because the schedule\ncan shift.",
+        "Save this before you book\na DMZ tour from Seoul."
+      ],
+      "captionBeatStartFrames": [
+        0,
+        60,
+        98
+      ],
+      "captionLeadFrames": 0,
+      "captionStyle": "readable_band",
+      "typographyBeats": [],
+      "motion": "outro_push",
+      "images": [
+        {
+          "rank": 1,
+          "publicPath": "/assets/reels/189/scene-07-rank-01.jpg",
+          "staticFilePath": "scene-07-rank-01.jpg",
+          "sourceUrl": "https://images.pexels.com/photos/27660060/pexels-photo-27660060.jpeg?auto=compress&cs=tinysrgb&w=1200"
+        },
+        {
+          "rank": 2,
+          "publicPath": "/assets/reels/189/scene-07-rank-02.jpg",
+          "staticFilePath": "scene-07-rank-02.jpg",
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/20240602_100029_DMZ_-_Third_Tunnel_of_Aggression_09.jpg/1280px-20240602_100029_DMZ_-_Third_Tunnel_of_Aggression_09.jpg"
+        }
+      ]
+    }
+  ],
+  "motionCards": [
+    {
+      "id": "189-card-access-layers",
+      "sceneNumber": 2,
+      "templateId": "split_checklist",
+      "kicker": "DMZ ACCESS CHECK",
+      "headline": "Not one open place",
+      "headlineLines": [
+        "Not one",
+        "open place"
+      ],
+      "subhead": "Read the exact route",
+      "subheadLines": [
+        "Read the",
+        "exact route"
+      ],
+      "bullets": [
+        "Imjingak public",
+        "Dora controlled",
+        "Tunnel guided",
+        "JSA separate"
+      ],
+      "footer": "Access can change",
+      "footerLines": [
+        "Access",
+        "can change"
+      ],
+      "layout": "split_checklist",
+      "motionPreset": "check_items_follow_voice",
+      "accentColor": "#38bdf8",
+      "overlayOpacity": 0.82,
+      "durationSeconds": 6,
+      "reviewStatus": "approved",
+      "reviewerNote": ""
+    },
+    {
+      "id": "189-card-dmz-kit",
+      "sceneNumber": 6,
+      "templateId": "kit_grid",
+      "kicker": "BEFORE YOU GO",
+      "headline": "Bring these",
+      "headlineLines": [
+        "Bring",
+        "these"
+      ],
+      "subhead": "DMZ day basics",
+      "subheadLines": [
+        "DMZ day",
+        "basics"
+      ],
+      "bullets": [
+        "Passport",
+        "Walking shoes",
+        "Light bag",
+        "Time buffer"
+      ],
+      "footer": "Third Tunnel is physical",
+      "footerLines": [
+        "Third Tunnel",
+        "is physical"
+      ],
+      "layout": "kit_grid",
+      "motionPreset": "tiles_pop_balance",
+      "accentColor": "#16a34a",
+      "overlayOpacity": 0.8,
+      "durationSeconds": 6,
+      "reviewStatus": "approved",
+      "reviewerNote": ""
+    }
+  ],
+  "motionCardTemplates": [
+    {
+      "id": "zone_compare",
+      "name": "Zone Compare",
+      "description": "Two filled comparison columns with a clear lower caption band. Best for explaining paired rules, areas, or before-after systems without an empty center.",
+      "layout": "split_compare",
+      "motionPreset": "zone_columns_reveal"
+    },
+    {
+      "id": "kit_grid",
+      "name": "Kit Grid",
+      "description": "A compact 2x2 tile grid with strong item blocks and a clear lower caption band. Best for packing lists, saveable checklists, and small sets of essentials.",
+      "layout": "kit_grid",
+      "motionPreset": "tiles_pop_balance"
+    },
+    {
+      "id": "editorial_box",
+      "name": "Editorial Box",
+      "description": "A strong framed card with headline, subhead, and list rows. Best for definitions or summary moments.",
+      "layout": "boxed",
+      "motionPreset": "card_rise_list_reveal"
+    },
+    {
+      "id": "kinetic_steps",
+      "name": "Kinetic Steps",
+      "description": "Floating step pills without a full card box. Best for process, how-to, or quick-start narration.",
+      "layout": "unboxed_steps",
+      "motionPreset": "step_pills_follow_voice"
+    },
+    {
+      "id": "menu_board",
+      "name": "Menu Board",
+      "description": "A menu/signboard style with sliding rows. Best for food, product lists, or options.",
+      "layout": "board",
+      "motionPreset": "menu_rows_follow_voice"
+    },
+    {
+      "id": "radial_burst",
+      "name": "Radial Burst",
+      "description": "A center headline with orbiting/angled labels. Best for explaining several meanings in one concept.",
+      "layout": "unboxed_radial",
+      "motionPreset": "chips_orbit_in"
+    },
+    {
+      "id": "split_checklist",
+      "name": "Split Checklist",
+      "description": "A vertical guide rail with checklist items. Best for etiquette, travel tips, and warnings.",
+      "layout": "split_checklist",
+      "motionPreset": "check_items_follow_voice"
+    },
+    {
+      "id": "convenience_tray",
+      "name": "Convenience Tray",
+      "description": "A bright shelf/tray grid with large item blocks. Best for convenience-store, breakfast, shopping, or assembled-choice scenes.",
+      "layout": "tray_grid",
+      "motionPreset": "tray_items_pop_in"
+    },
+    {
+      "id": "morning_route",
+      "name": "Morning Route",
+      "description": "A vertical path with paired start/end labels. Best for route, sequence, commute, or before-after logic.",
+      "layout": "route_map",
+      "motionPreset": "route_nodes_follow_voice"
+    },
+    {
+      "id": "wrapper_tabs",
+      "name": "Wrapper Tabs",
+      "description": "A package/wrapper metaphor with tagged steps. Best for food wrappers, assembly, folding, or object-anatomy scenes.",
+      "layout": "package_tabs",
+      "motionPreset": "tabs_reveal_around_object"
+    },
+    {
+      "id": "receipt_stack",
+      "name": "Receipt Stack",
+      "description": "A paper receipt/card stack with item rows and barcode texture. Best for prices, purchases, rules, and quick tallies.",
+      "layout": "receipt",
+      "motionPreset": "receipt_rows_print_in"
+    },
+    {
+      "id": "stamp_stack",
+      "name": "Stamp Stack",
+      "description": "Layered stamped slips with angled labels and a verification badge. Best for local rules, validations, myths, and cultural checkpoints.",
+      "layout": "stamp_slips",
+      "motionPreset": "stamps_drop_and_verify"
+    }
+  ]
+}

@@ -1,0 +1,534 @@
+{
+  "slug": "255",
+  "title": "Korean Department Store Food Halls 2026: What To Eat In Seoul",
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "durationFrames": 1033,
+  "durationSeconds": 34.43333333333333,
+  "finalizedAt": "2026-07-03T03:10:49.282Z",
+  "audio": null,
+  "audioSegments": [
+    {
+      "part": 1,
+      "sceneNumber": 1,
+      "file": "output/reels/255/audio/narration-v001-scene-01.mp3",
+      "publicPath": "/assets/reels/255/audio/narration-v001-scene-01.mp3",
+      "staticFilePath": "audio/narration-v001-scene-01.mp3",
+      "startFrame": 0,
+      "durationFrames": 101,
+      "durationSeconds": 3.3666666666666667
+    },
+    {
+      "part": 2,
+      "sceneNumber": 2,
+      "file": "output/reels/255/audio/narration-v001-scene-02.mp3",
+      "publicPath": "/assets/reels/255/audio/narration-v001-scene-02.mp3",
+      "staticFilePath": "audio/narration-v001-scene-02.mp3",
+      "startFrame": 101,
+      "durationFrames": 143,
+      "durationSeconds": 4.766666666666667
+    },
+    {
+      "part": 3,
+      "sceneNumber": 3,
+      "file": "output/reels/255/audio/narration-v001-scene-03.mp3",
+      "publicPath": "/assets/reels/255/audio/narration-v001-scene-03.mp3",
+      "staticFilePath": "audio/narration-v001-scene-03.mp3",
+      "startFrame": 244,
+      "durationFrames": 124,
+      "durationSeconds": 4.133333333333334
+    },
+    {
+      "part": 4,
+      "sceneNumber": 4,
+      "file": "output/reels/255/audio/narration-v001-scene-04.mp3",
+      "publicPath": "/assets/reels/255/audio/narration-v001-scene-04.mp3",
+      "staticFilePath": "audio/narration-v001-scene-04.mp3",
+      "startFrame": 368,
+      "durationFrames": 158,
+      "durationSeconds": 5.266666666666667
+    },
+    {
+      "part": 5,
+      "sceneNumber": 5,
+      "file": "output/reels/255/audio/narration-v001-scene-05.mp3",
+      "publicPath": "/assets/reels/255/audio/narration-v001-scene-05.mp3",
+      "staticFilePath": "audio/narration-v001-scene-05.mp3",
+      "startFrame": 526,
+      "durationFrames": 148,
+      "durationSeconds": 4.933333333333334
+    },
+    {
+      "part": 6,
+      "sceneNumber": 6,
+      "file": "output/reels/255/audio/narration-v001-scene-06.mp3",
+      "publicPath": "/assets/reels/255/audio/narration-v001-scene-06.mp3",
+      "staticFilePath": "audio/narration-v001-scene-06.mp3",
+      "startFrame": 674,
+      "durationFrames": 145,
+      "durationSeconds": 4.833333333333333
+    },
+    {
+      "part": 7,
+      "sceneNumber": 7,
+      "file": "output/reels/255/audio/narration-v001-scene-07.mp3",
+      "publicPath": "/assets/reels/255/audio/narration-v001-scene-07.mp3",
+      "staticFilePath": "audio/narration-v001-scene-07.mp3",
+      "startFrame": 819,
+      "durationFrames": 124,
+      "durationSeconds": 4.133333333333334
+    }
+  ],
+  "outro": {
+    "startFrame": 943,
+    "durationFrames": 90,
+    "text": "epicKor.com"
+  },
+  "brand": {
+    "label": "EpicKor",
+    "cta": "EPICKOR.COM"
+  },
+  "subtitleStyle": {
+    "mode": "narration_synced",
+    "preset": "readable_band_two_line",
+    "captionLeadFrames": 0
+  },
+  "scenes": [
+    {
+      "number": 1,
+      "startFrame": 0,
+      "durationFrames": 101,
+      "durationSeconds": 3.3666666666666667,
+      "narration": "Seoul food halls are not mall food courts. That is the first mistake.",
+      "captionBeats": [
+        "Seoul food halls\nare not mall food courts.",
+        "That is the\nfirst mistake."
+      ],
+      "captionBeatStartFrames": [
+        0,
+        61
+      ],
+      "captionLeadFrames": 0,
+      "captionStyle": "readable_band",
+      "typographyBeats": [
+        {
+          "text": "NOT A|FOOD COURT",
+          "emphasis": "thumbnail_title_batch_255",
+          "timingHint": "first frame"
+        }
+      ],
+      "motion": "slow_push_in",
+      "images": [
+        {
+          "rank": 1,
+          "publicPath": "/assets/reels/255/scene-01-rank-01.jpg",
+          "staticFilePath": "scene-01-rank-01.jpg",
+          "sourceUrl": "/assets/reels/255/sourced-vertical/scene-01-portrait-01-pexels-35177681-a-vibrant-market-scene-with-a-street-food-vendor-pre.jpg",
+          "width": 1080,
+          "height": 1920,
+          "aspectRatio": 0.5625,
+          "fitMode": "cover",
+          "cameraMove": "slow_push_in"
+        },
+        {
+          "rank": 2,
+          "publicPath": "/assets/reels/255/scene-01-rank-02.jpg",
+          "staticFilePath": "scene-01-rank-02.jpg",
+          "sourceUrl": "/assets/reels/255/sourced-vertical/scene-01-portrait-03-pexels-27993176-engaging-shot-of-vendor-interacting-with-customers-i.jpg",
+          "width": 1080,
+          "height": 1920,
+          "aspectRatio": 0.5625,
+          "fitMode": "cover",
+          "cameraMove": "pan_left"
+        },
+        {
+          "rank": 3,
+          "publicPath": "/assets/reels/255/scene-01-rank-03.jpg",
+          "staticFilePath": "scene-01-rank-03.jpg",
+          "sourceUrl": "/assets/images/posts/255/shinsegae-gangnam-sweet-park-food-hall.jpg",
+          "width": 950,
+          "height": 634,
+          "aspectRatio": 1.4984,
+          "fitMode": "square_center",
+          "cameraMove": "slow_push_in"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "startFrame": 101,
+      "durationFrames": 143,
+      "durationSeconds": 4.766666666666667,
+      "narration": "They are part bakery street, part gift market, part lunch stop, and part rainy-day shelter.",
+      "captionBeats": [
+        "They are part\nbakery street,",
+        "part gift market,\npart lunch stop,",
+        "and part rainy-day\nshelter."
+      ],
+      "captionBeatStartFrames": [
+        0,
+        46,
+        105
+      ],
+      "captionLeadFrames": 0,
+      "captionStyle": "readable_band",
+      "typographyBeats": [],
+      "motion": "pan_left",
+      "images": [
+        {
+          "rank": 1,
+          "publicPath": "/assets/reels/255/scene-02-rank-01.jpg",
+          "staticFilePath": "scene-02-rank-01.jpg",
+          "sourceUrl": "/assets/reels/255/sourced-vertical/scene-02-portrait-06-pexels-33806587-young-woman-in-a-red-dress-choosing-pastries-in-a-wa.jpg",
+          "width": 1080,
+          "height": 1920,
+          "aspectRatio": 0.5625,
+          "fitMode": "cover",
+          "cameraMove": "pan_right"
+        },
+        {
+          "rank": 2,
+          "publicPath": "/assets/reels/255/scene-02-rank-02.jpg",
+          "staticFilePath": "scene-02-rank-02.jpg",
+          "sourceUrl": "/assets/images/posts/255/lotte-food-avenue-seating-counters.jpg",
+          "width": 700,
+          "height": 525,
+          "aspectRatio": 1.3333,
+          "fitMode": "square_center",
+          "cameraMove": "slow_push_in"
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "startFrame": 244,
+      "durationFrames": 124,
+      "durationSeconds": 4.133333333333334,
+      "narration": "Start with one real food, then one dessert. Do not turn the basement into a panic buffet.",
+      "captionBeats": [
+        "Start with one real food,\nthen one dessert.",
+        "Do not turn the basement\ninto a panic buffet."
+      ],
+      "captionBeatStartFrames": [
+        0,
+        60
+      ],
+      "captionLeadFrames": 0,
+      "captionStyle": "readable_band",
+      "typographyBeats": [],
+      "motion": "drift_up",
+      "images": [
+        {
+          "rank": 1,
+          "publicPath": "/assets/reels/255/scene-03-rank-01.jpg",
+          "staticFilePath": "scene-03-rank-01.jpg",
+          "sourceUrl": "/assets/reels/255/sourced-vertical/scene-03-portrait-05-pexels-31264141-a-selection-of-colorful-mochi-and-crispy-senbei-on-a.jpg",
+          "width": 1080,
+          "height": 1920,
+          "aspectRatio": 0.5625,
+          "fitMode": "cover",
+          "cameraMove": "pan_left"
+        },
+        {
+          "rank": 2,
+          "publicPath": "/assets/reels/255/scene-03-rank-02.jpg",
+          "staticFilePath": "scene-03-rank-02.jpg",
+          "sourceUrl": "/assets/reels/255/sourced-vertical/scene-03-portrait-06-pexels-33202870-authentic-south-korean-street-food-stall-with-a-focu.jpg",
+          "width": 1080,
+          "height": 1920,
+          "aspectRatio": 0.5625,
+          "fitMode": "cover",
+          "cameraMove": "drift_up"
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "startFrame": 368,
+      "durationFrames": 158,
+      "durationSeconds": 5.266666666666667,
+      "narration": "For travelers, the hidden value is weather-proof food, receipts, restrooms, gifts, and subway access.",
+      "captionBeats": [
+        "For travelers,\nthe hidden value is",
+        "weather-proof food,\nreceipts, restrooms,",
+        "gifts, and subway access."
+      ],
+      "captionBeatStartFrames": [
+        0,
+        61,
+        112
+      ],
+      "captionLeadFrames": 0,
+      "captionStyle": "readable_band",
+      "typographyBeats": [],
+      "motion": "pan_right",
+      "images": [
+        {
+          "rank": 1,
+          "publicPath": "/assets/reels/255/scene-04-rank-01.jpg",
+          "staticFilePath": "scene-04-rank-01.jpg",
+          "sourceUrl": "/assets/reels/255/sourced-vertical/scene-02-portrait-01-pexels-9685238-a-restaurant-buffet-setup-with-stainless-food-contai.jpg",
+          "width": 1080,
+          "height": 1920,
+          "aspectRatio": 0.5625,
+          "fitMode": "cover",
+          "cameraMove": "slow_zoom_out"
+        },
+        {
+          "rank": 2,
+          "publicPath": "/assets/reels/255/scene-04-rank-02.jpg",
+          "staticFilePath": "scene-04-rank-02.jpg",
+          "sourceUrl": "/assets/reels/255/sourced-vertical/scene-06-portrait-03-pexels-38127820-colorful-display-of-snack-bags-and-bottles-on-a-wood.jpg",
+          "width": 1080,
+          "height": 1920,
+          "aspectRatio": 0.5625,
+          "fitMode": "cover",
+          "cameraMove": "drift_right"
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "startFrame": 526,
+      "durationFrames": 148,
+      "durationSeconds": 4.933333333333334,
+      "narration": "Use the food hall map: main bite, dessert, gift, seating, receipts, then leave before you overbuy.",
+      "captionBeats": [
+        "Use the food hall map:",
+        "main bite, dessert,\ngift, seating,",
+        "receipts, then leave\nbefore you overbuy."
+      ],
+      "captionBeatStartFrames": [
+        0,
+        42,
+        95
+      ],
+      "captionLeadFrames": 0,
+      "captionStyle": "readable_band",
+      "typographyBeats": [],
+      "motion": "caption_pop",
+      "images": []
+    },
+    {
+      "number": 6,
+      "startFrame": 674,
+      "durationFrames": 145,
+      "durationSeconds": 4.833333333333333,
+      "narration": "Buy fragile cream cakes last. Pack sealed snacks, tea, seaweed, or sweets if they need to fly.",
+      "captionBeats": [
+        "Buy fragile cream\ncakes last.",
+        "Pack sealed snacks,\ntea, seaweed,",
+        "or sweets if they\nneed to fly."
+      ],
+      "captionBeatStartFrames": [
+        0,
+        41,
+        89
+      ],
+      "captionLeadFrames": 0,
+      "captionStyle": "readable_band",
+      "typographyBeats": [],
+      "motion": "slow_zoom_out",
+      "images": [
+        {
+          "rank": 1,
+          "publicPath": "/assets/reels/255/scene-06-rank-01.jpg",
+          "staticFilePath": "scene-06-rank-01.jpg",
+          "sourceUrl": "/assets/reels/255/sourced-vertical/scene-06-portrait-01-pexels-36121004-vibrant-assortment-of-packaged-asian-snacks-on-displ.jpg",
+          "width": 1080,
+          "height": 1920,
+          "aspectRatio": 0.5625,
+          "fitMode": "cover",
+          "cameraMove": "drift_up"
+        },
+        {
+          "rank": 2,
+          "publicPath": "/assets/reels/255/scene-06-rank-02.jpg",
+          "staticFilePath": "scene-06-rank-02.jpg",
+          "sourceUrl": "/assets/reels/255/sourced-vertical/scene-06-portrait-02-pexels-27939228-variety-of-snacks-in-an-indoor-supermarket-aisle-col.jpg",
+          "width": 1080,
+          "height": 1920,
+          "aspectRatio": 0.5625,
+          "fitMode": "cover",
+          "cameraMove": "pan_right"
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "startFrame": 819,
+      "durationFrames": 124,
+      "durationSeconds": 4.133333333333334,
+      "narration": "Save this for a rainy Seoul shopping day. More Seoul food guides at EpicKor.com.",
+      "captionBeats": [
+        "Save this for a rainy\nSeoul shopping day.",
+        "More Seoul food guides\nat EpicKor.com."
+      ],
+      "captionBeatStartFrames": [
+        0,
+        68
+      ],
+      "captionLeadFrames": 0,
+      "captionStyle": "readable_band",
+      "typographyBeats": [
+        {
+          "text": "SAVE FOR|RAINY SEOUL",
+          "emphasis": "final_cta",
+          "timingHint": "before black outro"
+        }
+      ],
+      "motion": "drift_right",
+      "images": [
+        {
+          "rank": 1,
+          "publicPath": "/assets/reels/255/scene-07-rank-01.jpg",
+          "staticFilePath": "scene-07-rank-01.jpg",
+          "sourceUrl": "/assets/reels/255/sourced-vertical/scene-07-portrait-01-pexels-31899739-delicious-mini-charlotte-cakes-topped-with-fruits-on.jpg",
+          "width": 1080,
+          "height": 1920,
+          "aspectRatio": 0.5625,
+          "fitMode": "cover",
+          "cameraMove": "pan_left"
+        },
+        {
+          "rank": 2,
+          "publicPath": "/assets/reels/255/scene-07-rank-02.jpg",
+          "staticFilePath": "scene-07-rank-02.jpg",
+          "sourceUrl": "/assets/reels/255/sourced-vertical/scene-07-portrait-02-pexels-15419008-an-assortment-of-bottled-drinks-and-cakes-on-display.jpg",
+          "width": 1080,
+          "height": 1920,
+          "aspectRatio": 0.5625,
+          "fitMode": "cover",
+          "cameraMove": "slow_zoom_out"
+        }
+      ]
+    }
+  ],
+  "motionCards": [
+    {
+      "id": "255-card-food-hall-map",
+      "sceneNumber": 5,
+      "choice": "A",
+      "templateId": "menu_board",
+      "layout": "board",
+      "motionPreset": "menu_rows_follow_voice",
+      "kicker": "FOOD HALL MAP",
+      "headline": "BROWSE ONCE",
+      "headlineLines": [
+        "BROWSE",
+        "ONCE"
+      ],
+      "subhead": "Then buy with a plan.",
+      "subheadLines": [
+        "Then buy",
+        "with a plan."
+      ],
+      "bullets": [
+        "MAIN BITE",
+        "DESSERT",
+        "GIFT",
+        "SEATING",
+        "RECEIPTS"
+      ],
+      "footer": "EPICKOR.COM",
+      "footerLines": [
+        "EPICKOR.COM"
+      ],
+      "accentColor": "#f97316",
+      "overlayOpacity": 0.75,
+      "durationSeconds": 6.4,
+      "reviewStatus": "approved",
+      "template": "menu_board",
+      "fitReason": "Best single payoff card for this Reel; turns the hook into a saveable viewer rule.",
+      "weakness": "Inspect final render for caption-safe spacing and center density.",
+      "reviewerNote": "Approved internally under representative /goal one-shot completion request."
+    }
+  ],
+  "motionCardTemplates": [
+    {
+      "id": "zone_compare",
+      "name": "Zone Compare",
+      "description": "Two filled comparison columns with a clear lower caption band. Best for explaining paired rules, areas, or before-after systems without an empty center.",
+      "layout": "split_compare",
+      "motionPreset": "zone_columns_reveal"
+    },
+    {
+      "id": "kit_grid",
+      "name": "Kit Grid",
+      "description": "A compact 2x2 tile grid with strong item blocks and a clear lower caption band. Best for packing lists, saveable checklists, and small sets of essentials.",
+      "layout": "kit_grid",
+      "motionPreset": "tiles_pop_balance"
+    },
+    {
+      "id": "editorial_box",
+      "name": "Editorial Box",
+      "description": "A strong framed card with headline, subhead, and list rows. Best for definitions or summary moments.",
+      "layout": "boxed",
+      "motionPreset": "card_rise_list_reveal"
+    },
+    {
+      "id": "kinetic_steps",
+      "name": "Kinetic Steps",
+      "description": "Floating step pills without a full card box. Best for process, how-to, or quick-start narration.",
+      "layout": "unboxed_steps",
+      "motionPreset": "step_pills_follow_voice"
+    },
+    {
+      "id": "menu_board",
+      "name": "Menu Board",
+      "description": "A menu/signboard style with sliding rows. Best for food, product lists, or options.",
+      "layout": "board",
+      "motionPreset": "menu_rows_follow_voice"
+    },
+    {
+      "id": "radial_burst",
+      "name": "Radial Burst",
+      "description": "A center headline with orbiting/angled labels. Best for explaining several meanings in one concept.",
+      "layout": "unboxed_radial",
+      "motionPreset": "chips_orbit_in"
+    },
+    {
+      "id": "split_checklist",
+      "name": "Split Checklist",
+      "description": "A vertical guide rail with checklist items. Best for etiquette, travel tips, and warnings.",
+      "layout": "split_checklist",
+      "motionPreset": "check_items_follow_voice"
+    },
+    {
+      "id": "convenience_tray",
+      "name": "Convenience Tray",
+      "description": "A bright shelf/tray grid with large item blocks. Best for convenience-store, breakfast, shopping, or assembled-choice scenes.",
+      "layout": "tray_grid",
+      "motionPreset": "tray_items_pop_in"
+    },
+    {
+      "id": "morning_route",
+      "name": "Morning Route",
+      "description": "A vertical path with paired start/end labels. Best for route, sequence, commute, or before-after logic.",
+      "layout": "route_map",
+      "motionPreset": "route_nodes_follow_voice"
+    },
+    {
+      "id": "wrapper_tabs",
+      "name": "Wrapper Tabs",
+      "description": "A package/wrapper metaphor with tagged steps. Best for food wrappers, assembly, folding, or object-anatomy scenes.",
+      "layout": "package_tabs",
+      "motionPreset": "tabs_reveal_around_object"
+    },
+    {
+      "id": "receipt_stack",
+      "name": "Receipt Stack",
+      "description": "A paper receipt/card stack with item rows and barcode texture. Best for prices, purchases, rules, and quick tallies.",
+      "layout": "receipt",
+      "motionPreset": "receipt_rows_print_in"
+    },
+    {
+      "id": "stamp_stack",
+      "name": "Stamp Stack",
+      "description": "Layered stamped slips with angled labels and a verification badge. Best for local rules, validations, myths, and cultural checkpoints.",
+      "layout": "stamp_slips",
+      "motionPreset": "stamps_drop_and_verify"
+    }
+  ]
+}

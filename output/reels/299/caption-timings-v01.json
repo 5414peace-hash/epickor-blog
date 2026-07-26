@@ -1,0 +1,257 @@
+{
+  "slug": "299",
+  "version": "v01",
+  "fps": 30,
+  "generatedAt": "2026-07-16T05:10:49.539Z",
+  "method": "ElevenLabs Forced Alignment against the approved narration transcript",
+  "captionLeadFrames": 5,
+  "safeZone": {
+    "left": 76,
+    "right": 76,
+    "bottom": 410,
+    "maxWidth": 928
+  },
+  "parts": [
+    {
+      "part": 1,
+      "transcript": "Turn off the flame—and this Korean pot keeps cooking. That's the job of a ttukbaegi: hold heat and carry a bubbling stew to the table. Thin ramen pots do the opposite. They heat fast, cool fast, and overflow fast.",
+      "alignmentLoss": 0.1418308176345109,
+      "wordCount": 39,
+      "beatCount": 8,
+      "firstWordStart": 0.14,
+      "lastWordEnd": 10.719
+    },
+    {
+      "part": 2,
+      "transcript": "And Korean barbecue? The pan is only one piece. You still need ventilation, grease control, tongs, and scissors. So buy for the meal you repeat. Stew: check a real ttukbaegi. Ramyeon: choose a pot that fits your stove.",
+      "alignmentLoss": 0.1749765342528667,
+      "wordCount": 38,
+      "beatCount": 8,
+      "firstWordStart": 0.159,
+      "lastWordEnd": 10.819
+    },
+    {
+      "part": 3,
+      "transcript": "Home barbecue: start with scissors and tongs. Mixed cooking? Keep your saucepan until a real problem appears. Buy for the heat, not the photograph. Save this before shopping, and compare the full kit at epickor.com.",
+      "alignmentLoss": 0.10948953129524408,
+      "wordCount": 35,
+      "beatCount": 7,
+      "firstWordStart": 0.179,
+      "lastWordEnd": 10.619
+    }
+  ],
+  "beats": [
+    {
+      "part": 1,
+      "text": "Turn off the flame—and this",
+      "startFrame": 0,
+      "endFrame": 37,
+      "sourceStartSeconds": 0.14,
+      "sourceEndSeconds": 1.36,
+      "wordCount": 5
+    },
+    {
+      "part": 1,
+      "text": "Korean pot keeps cooking.",
+      "startFrame": 38,
+      "endFrame": 85,
+      "sourceStartSeconds": 1.439,
+      "sourceEndSeconds": 2.519,
+      "wordCount": 4
+    },
+    {
+      "part": 1,
+      "text": "That's the job of a ttukbaegi:",
+      "startFrame": 86,
+      "endFrame": 135,
+      "sourceStartSeconds": 3.059,
+      "sourceEndSeconds": 4.199,
+      "wordCount": 6
+    },
+    {
+      "part": 1,
+      "text": "hold heat and carry a",
+      "startFrame": 136,
+      "endFrame": 162,
+      "sourceStartSeconds": 4.719,
+      "sourceEndSeconds": 5.559,
+      "wordCount": 5
+    },
+    {
+      "part": 1,
+      "text": "bubbling stew to the table.",
+      "startFrame": 163,
+      "endFrame": 204,
+      "sourceStartSeconds": 5.619,
+      "sourceEndSeconds": 6.659,
+      "wordCount": 5
+    },
+    {
+      "part": 1,
+      "text": "Thin ramen pots do the opposite.",
+      "startFrame": 205,
+      "endFrame": 255,
+      "sourceStartSeconds": 7,
+      "sourceEndSeconds": 8.319,
+      "wordCount": 6
+    },
+    {
+      "part": 1,
+      "text": "They heat fast, cool",
+      "startFrame": 256,
+      "endFrame": 283,
+      "sourceStartSeconds": 8.699,
+      "sourceEndSeconds": 9.579,
+      "wordCount": 4
+    },
+    {
+      "part": 1,
+      "text": "fast, and overflow fast.",
+      "startFrame": 284,
+      "endFrame": 329,
+      "sourceStartSeconds": 9.639,
+      "sourceEndSeconds": 10.719,
+      "wordCount": 4
+    },
+    {
+      "part": 2,
+      "text": "And Korean barbecue?",
+      "startFrame": 340,
+      "endFrame": 376,
+      "sourceStartSeconds": 0.159,
+      "sourceEndSeconds": 1.179,
+      "wordCount": 3
+    },
+    {
+      "part": 2,
+      "text": "The pan is only one piece.",
+      "startFrame": 377,
+      "endFrame": 416,
+      "sourceStartSeconds": 1.399,
+      "sourceEndSeconds": 2.559,
+      "wordCount": 6
+    },
+    {
+      "part": 2,
+      "text": "You still need ventilation, grease",
+      "startFrame": 417,
+      "endFrame": 456,
+      "sourceStartSeconds": 2.74,
+      "sourceEndSeconds": 4.019,
+      "wordCount": 5
+    },
+    {
+      "part": 2,
+      "text": "control, tongs, and scissors.",
+      "startFrame": 457,
+      "endFrame": 494,
+      "sourceStartSeconds": 4.079,
+      "sourceEndSeconds": 5.259,
+      "wordCount": 4
+    },
+    {
+      "part": 2,
+      "text": "So buy for the meal you repeat.",
+      "startFrame": 495,
+      "endFrame": 542,
+      "sourceStartSeconds": 5.339,
+      "sourceEndSeconds": 6.659,
+      "wordCount": 7
+    },
+    {
+      "part": 2,
+      "text": "Stew: check a real ttukbaegi.",
+      "startFrame": 543,
+      "endFrame": 598,
+      "sourceStartSeconds": 6.94,
+      "sourceEndSeconds": 8.619,
+      "wordCount": 5
+    },
+    {
+      "part": 2,
+      "text": "Ramyeon: choose a pot",
+      "startFrame": 599,
+      "endFrame": 632,
+      "sourceStartSeconds": 8.819,
+      "sourceEndSeconds": 9.899,
+      "wordCount": 4
+    },
+    {
+      "part": 2,
+      "text": "that fits your stove.",
+      "startFrame": 633,
+      "endFrame": 672,
+      "sourceStartSeconds": 9.939,
+      "sourceEndSeconds": 10.819,
+      "wordCount": 4
+    },
+    {
+      "part": 3,
+      "text": "Home barbecue: start with scissors and tongs.",
+      "startFrame": 681,
+      "endFrame": 743,
+      "sourceStartSeconds": 0.179,
+      "sourceEndSeconds": 2.139,
+      "wordCount": 7
+    },
+    {
+      "part": 3,
+      "text": "Mixed cooking?",
+      "startFrame": 744,
+      "endFrame": 773,
+      "sourceStartSeconds": 2.279,
+      "sourceEndSeconds": 2.859,
+      "wordCount": 2
+    },
+    {
+      "part": 3,
+      "text": "Keep your saucepan until",
+      "startFrame": 774,
+      "endFrame": 800,
+      "sourceStartSeconds": 3.279,
+      "sourceEndSeconds": 4.139,
+      "wordCount": 4
+    },
+    {
+      "part": 3,
+      "text": "a real problem appears.",
+      "startFrame": 801,
+      "endFrame": 844,
+      "sourceStartSeconds": 4.179,
+      "sourceEndSeconds": 5.279,
+      "wordCount": 4
+    },
+    {
+      "part": 3,
+      "text": "Buy for the heat, not the photograph.",
+      "startFrame": 845,
+      "endFrame": 895,
+      "sourceStartSeconds": 5.639,
+      "sourceEndSeconds": 7.159,
+      "wordCount": 7
+    },
+    {
+      "part": 3,
+      "text": "Save this before shopping, and compare",
+      "startFrame": 896,
+      "endFrame": 944,
+      "sourceStartSeconds": 7.339,
+      "sourceEndSeconds": 8.939,
+      "wordCount": 6
+    },
+    {
+      "part": 3,
+      "text": "the full kit at epickor.com.",
+      "startFrame": 945,
+      "endFrame": 1006,
+      "sourceStartSeconds": 8.979,
+      "sourceEndSeconds": 10.619,
+      "wordCount": 5
+    }
+  ],
+  "coverage": {
+    "transcriptWords": 112,
+    "captionWords": 112,
+    "audioParts": 3
+  }
+}

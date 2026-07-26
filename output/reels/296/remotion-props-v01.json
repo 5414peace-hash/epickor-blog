@@ -1,0 +1,27 @@
+{
+  "slug": "296",
+  "title": "Seoul Hanok Experience Guide 2026",
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "durationFrames": 1080,
+  "durationSeconds": 36,
+  "finalizedAt": "2026-07-14",
+  "audio": null,
+  "audioSegments": [
+    {"part": 1, "file": "voice-part-1.mp3", "publicPath": "/assets/reels/296/audio/voice-part-1.mp3", "staticFilePath": "audio/voice-part-1.mp3", "startFrame": 0, "durationFrames": 350, "durationSeconds": 11.656},
+    {"part": 2, "file": "voice-part-2.mp3", "publicPath": "/assets/reels/296/audio/voice-part-2.mp3", "staticFilePath": "audio/voice-part-2.mp3", "startFrame": 359, "durationFrames": 325, "durationSeconds": 10.82},
+    {"part": 3, "file": "voice-part-3.mp3", "publicPath": "/assets/reels/296/audio/voice-part-3.mp3", "staticFilePath": "audio/voice-part-3.mp3", "startFrame": 693, "durationFrames": 292, "durationSeconds": 9.706}
+  ],
+  "sfxSegments": [],
+  "outro": {"startFrame": 950, "durationFrames": 130, "text": "epickor.com"},
+  "brand": {"label": "EPICKOR", "cta": "EPICKOR.COM"},
+  "subtitleStyle": {"mode": "narration_synced", "preset": "modern_reels_phrase_pop", "font": "Arial", "fontWeight": 900, "highlightColor": "#dfa35b", "maxWordsPerBeat": 7, "captionLeadFrames": 5},
+  "scenes": [],
+  "motionCards": [
+    {"id": "296-hanok-after-dark", "sceneNumber": 5, "templateId": "hanok_after_dark", "kicker": "THE EASY PLAN", "headline": "HANOK AFTER DARK", "subhead": "Choose the right place for the hour.", "bullets": ["10 TO 5 — BUKCHON RED ZONE", "AFTER 5 — OFFICIAL HANOK EVENT", "EASY NIGHT — JONGNO COMMERCIAL AREA"], "footer": "CHECK THE VENUE ROUTE — RESPECT RESIDENTIAL LANES", "layout": "center_filled_rows", "motionPreset": "row_reveal", "accentColor": "#dfa35b", "overlayOpacity": 0.68, "durationSeconds": 7, "reviewStatus": "approved_storyboard"}
+  ],
+  "motionCardTemplates": [
+    {"id": "hanok_after_dark", "name": "Hanok After Dark", "description": "Copper-and-ivory center-filled plan card over real Seoul roofscape motion.", "layout": "center_filled_rows", "motionPreset": "row_reveal"}
+  ]
+}

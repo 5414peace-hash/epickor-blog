@@ -1,0 +1,496 @@
+{
+  "slug": "186",
+  "title": "Eating Alone Has A Name",
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "durationFrames": 1058,
+  "durationSeconds": 35.266666666666666,
+  "finalizedAt": "2026-06-11T03:08:56.941Z",
+  "audio": null,
+  "audioSegments": [
+    {
+      "part": 1,
+      "file": "output/reels/186/audio/narration-v002-part-01.mp3",
+      "publicPath": "/assets/reels/186/audio/narration-v002-part-01.mp3",
+      "staticFilePath": "audio/narration-v002-part-01.mp3",
+      "startFrame": 0,
+      "durationFrames": 228,
+      "durationSeconds": 7.6
+    },
+    {
+      "part": 2,
+      "file": "output/reels/186/audio/narration-v002-part-02.mp3",
+      "publicPath": "/assets/reels/186/audio/narration-v002-part-02.mp3",
+      "staticFilePath": "audio/narration-v002-part-02.mp3",
+      "startFrame": 228,
+      "durationFrames": 328,
+      "durationSeconds": 10.933333333333334
+    },
+    {
+      "part": 3,
+      "file": "output/reels/186/audio/narration-v002-part-03.mp3",
+      "publicPath": "/assets/reels/186/audio/narration-v002-part-03.mp3",
+      "staticFilePath": "audio/narration-v002-part-03.mp3",
+      "startFrame": 556,
+      "durationFrames": 322,
+      "durationSeconds": 10.733333333333333
+    }
+  ],
+  "outro": {
+    "startFrame": 878,
+    "durationFrames": 180,
+    "text": "epicKor.com"
+  },
+  "brand": {
+    "label": "EpicKor",
+    "cta": "EPICKOR.COM"
+  },
+  "subtitleStyle": {
+    "mode": "narration_synced",
+    "preset": "modern_reels_phrase_pop",
+    "captionLeadFrames": 12
+  },
+  "scenes": [
+    {
+      "number": 1,
+      "startFrame": 0,
+      "durationFrames": 100,
+      "durationSeconds": 3.3333333333333335,
+      "narration": "Eating alone in Korea used to feel awkward. Now it has a name.",
+      "captionBeats": [
+        "Eating alone in Korea used to feel awkward.",
+        "Now it has a name."
+      ],
+      "captionBeatStartFrames": [
+        0,
+        61
+      ],
+      "captionLeadFrames": 0,
+      "captionStyle": "readable_band",
+      "typographyBeats": [
+        {
+          "text": "EATING ALONE",
+          "emphasis": "thumbnail_title",
+          "timingHint": "first frame"
+        },
+        {
+          "text": "HAS A NAME",
+          "emphasis": "thumbnail_title",
+          "timingHint": "first frame"
+        }
+      ],
+      "motion": "slow_push_in",
+      "images": [
+        {
+          "rank": 1,
+          "publicPath": "/assets/reels/186/scene-01-rank-01.jpg",
+          "staticFilePath": "scene-01-rank-01.jpg",
+          "sourceUrl": "https://images.pexels.com/photos/32196398/pexels-photo-32196398.jpeg?auto=compress&cs=tinysrgb&w=1200"
+        },
+        {
+          "rank": 2,
+          "publicPath": "/assets/reels/186/scene-01-rank-02.jpg",
+          "staticFilePath": "scene-01-rank-02.jpg",
+          "sourceUrl": "/assets/images/posts/186/honbap-noodles-seoul.jpg"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "startFrame": 100,
+      "durationFrames": 70,
+      "durationSeconds": 2.3333333333333335,
+      "narration": "Honbap means eating alone. Honsul means drinking alone.",
+      "captionBeats": [
+        "Honbap means eating alone.",
+        "Honsul means drinking alone."
+      ],
+      "captionBeatStartFrames": [
+        0,
+        35
+      ],
+      "captionLeadFrames": 0,
+      "captionStyle": "readable_band",
+      "typographyBeats": [
+        {
+          "text": "HONBAP",
+          "emphasis": "word_pop",
+          "timingHint": "first definition"
+        },
+        {
+          "text": "HONSUL",
+          "emphasis": "word_pop",
+          "timingHint": "second definition"
+        }
+      ],
+      "motion": "cut_in",
+      "images": [
+        {
+          "rank": 1,
+          "publicPath": "/assets/reels/186/scene-02-rank-01.jpg",
+          "staticFilePath": "scene-02-rank-01.jpg",
+          "sourceUrl": "https://images.pexels.com/photos/37290956/pexels-photo-37290956.jpeg?auto=compress&cs=tinysrgb&w=1200"
+        },
+        {
+          "rank": 2,
+          "publicPath": "/assets/reels/186/scene-02-rank-02.jpg",
+          "staticFilePath": "scene-02-rank-02.jpg",
+          "sourceUrl": "https://images.pexels.com/photos/32196402/pexels-photo-32196402.jpeg?auto=compress&cs=tinysrgb&w=1200"
+        },
+        {
+          "rank": 3,
+          "publicPath": "/assets/reels/186/scene-02-rank-03.jpg",
+          "staticFilePath": "scene-02-rank-03.jpg",
+          "sourceUrl": "https://images.pexels.com/photos/5773971/pexels-photo-5773971.jpeg?auto=compress&cs=tinysrgb&w=1200"
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "startFrame": 170,
+      "durationFrames": 58,
+      "durationSeconds": 1.9333333333333333,
+      "narration": "And no, it does not automatically mean lonely.",
+      "captionBeats": [
+        "And no, it does not automatically mean lonely."
+      ],
+      "captionBeatStartFrames": [
+        0
+      ],
+      "captionLeadFrames": 0,
+      "captionStyle": "readable_band",
+      "typographyBeats": [],
+      "motion": "slow_push_in",
+      "images": [
+        {
+          "rank": 1,
+          "publicPath": "/assets/reels/186/scene-03-rank-01.jpg",
+          "staticFilePath": "scene-03-rank-01.jpg",
+          "sourceUrl": "https://images.pexels.com/photos/13112412/pexels-photo-13112412.jpeg?auto=compress&cs=tinysrgb&w=1200"
+        },
+        {
+          "rank": 2,
+          "publicPath": "/assets/reels/186/scene-03-rank-02.jpg",
+          "staticFilePath": "scene-03-rank-02.jpg",
+          "sourceUrl": "https://images.pexels.com/photos/13774721/pexels-photo-13774721.jpeg?auto=compress&cs=tinysrgb&w=1200"
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "startFrame": 228,
+      "durationFrames": 200,
+      "durationSeconds": 6.666666666666667,
+      "narration": "Korea still loves group meals. But more people live alone, work weird hours, travel solo, and eat on their own schedule.",
+      "captionBeats": [
+        "Korea still loves group meals.",
+        "But more people live alone,",
+        "work weird hours, travel solo,",
+        "and eat on their own schedule."
+      ],
+      "captionBeatStartFrames": [
+        0,
+        32,
+        66,
+        101
+      ],
+      "captionLeadFrames": 0,
+      "captionStyle": "readable_band",
+      "typographyBeats": [],
+      "motion": "motion_card",
+      "images": []
+    },
+    {
+      "number": 5,
+      "startFrame": 428,
+      "durationFrames": 128,
+      "durationSeconds": 4.266666666666667,
+      "narration": "So the food system adapted: counter seats, convenience-store meals, delivery, cafes, and one-person bowls.",
+      "captionBeats": [
+        "So the food system adapted: counter seats,",
+        "convenience-store meals, delivery, cafes, and one-person bowls."
+      ],
+      "captionBeatStartFrames": [
+        0,
+        44
+      ],
+      "captionLeadFrames": 0,
+      "captionStyle": "readable_band",
+      "typographyBeats": [],
+      "motion": "pan_left",
+      "images": [
+        {
+          "rank": 1,
+          "publicPath": "/assets/reels/186/scene-05-rank-01.jpg",
+          "staticFilePath": "scene-05-rank-01.jpg",
+          "sourceUrl": "https://images.pexels.com/photos/31858134/pexels-photo-31858134.jpeg?auto=compress&cs=tinysrgb&w=1200"
+        },
+        {
+          "rank": 2,
+          "publicPath": "/assets/reels/186/scene-05-rank-02.jpg",
+          "staticFilePath": "scene-05-rank-02.jpg",
+          "sourceUrl": "https://images.pexels.com/photos/32211598/pexels-photo-32211598.jpeg?auto=compress&cs=tinysrgb&w=1200"
+        },
+        {
+          "rank": 3,
+          "publicPath": "/assets/reels/186/scene-05-rank-03.jpg",
+          "staticFilePath": "scene-05-rank-03.jpg",
+          "sourceUrl": "https://images.pexels.com/photos/32196395/pexels-photo-32196395.jpeg?auto=compress&cs=tinysrgb&w=1200"
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "startFrame": 556,
+      "durationFrames": 158,
+      "durationSeconds": 5.266666666666667,
+      "narration": "Start with kimbap, noodles, gukbap, food courts, or convenience stores. For Korean BBQ, ask first.",
+      "captionBeats": [
+        "Start with kimbap, noodles, gukbap,",
+        "food courts, or convenience stores.",
+        "For Korean BBQ, ask first."
+      ],
+      "captionBeatStartFrames": [
+        0,
+        40,
+        73
+      ],
+      "captionLeadFrames": 0,
+      "captionStyle": "readable_band",
+      "typographyBeats": [],
+      "motion": "cut_in",
+      "images": [
+        {
+          "rank": 1,
+          "publicPath": "/assets/reels/186/scene-06-rank-01.jpg",
+          "staticFilePath": "scene-06-rank-01.jpg",
+          "sourceUrl": "https://images.pexels.com/photos/32196407/pexels-photo-32196407.jpeg?auto=compress&cs=tinysrgb&w=1200"
+        },
+        {
+          "rank": 2,
+          "publicPath": "/assets/reels/186/scene-06-rank-02.jpg",
+          "staticFilePath": "scene-06-rank-02.jpg",
+          "sourceUrl": "https://images.pexels.com/photos/31649644/pexels-photo-31649644.jpeg?auto=compress&cs=tinysrgb&w=1200"
+        },
+        {
+          "rank": 3,
+          "publicPath": "/assets/reels/186/scene-06-rank-03.jpg",
+          "staticFilePath": "scene-06-rank-03.jpg",
+          "sourceUrl": "https://images.pexels.com/photos/3871071/pexels-photo-3871071.jpeg?auto=compress&cs=tinysrgb&w=1200"
+        },
+        {
+          "rank": 4,
+          "publicPath": "/assets/reels/186/scene-06-rank-04.jpg",
+          "staticFilePath": "scene-06-rank-04.jpg",
+          "sourceUrl": "https://images.pexels.com/photos/18426537/pexels-photo-18426537.jpeg?auto=compress&cs=tinysrgb&w=1200"
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "startFrame": 714,
+      "durationFrames": 90,
+      "durationSeconds": 3,
+      "narration": "Say: hona-ja muk-u-do joa-yo? 혼자 먹어도 좋아요?",
+      "captionBeats": [
+        "Say: hona-ja muk-u-do joa-yo?\n혼자 먹어도 좋아요?"
+      ],
+      "captionBeatStartFrames": [
+        0
+      ],
+      "captionLeadFrames": 0,
+      "captionStyle": "readable_band",
+      "typographyBeats": [],
+      "motion": "motion_card",
+      "images": []
+    },
+    {
+      "number": 8,
+      "startFrame": 804,
+      "durationFrames": 74,
+      "durationSeconds": 2.466666666666667,
+      "narration": "Save this before your solo Korea trip.",
+      "captionBeats": [
+        "Save this before your solo Korea trip."
+      ],
+      "captionBeatStartFrames": [
+        0
+      ],
+      "captionLeadFrames": 0,
+      "captionStyle": "readable_band",
+      "typographyBeats": [],
+      "motion": "outro_push",
+      "images": [
+        {
+          "rank": 1,
+          "publicPath": "/assets/reels/186/scene-08-rank-01.jpg",
+          "staticFilePath": "scene-08-rank-01.jpg",
+          "sourceUrl": "https://images.pexels.com/photos/31858135/pexels-photo-31858135.jpeg?auto=compress&cs=tinysrgb&w=1200"
+        },
+        {
+          "rank": 2,
+          "publicPath": "/assets/reels/186/scene-08-rank-02.jpg",
+          "staticFilePath": "scene-08-rank-02.jpg",
+          "sourceUrl": "https://images.pexels.com/photos/35491992/pexels-photo-35491992.jpeg?auto=compress&cs=tinysrgb&w=1200"
+        }
+      ]
+    }
+  ],
+  "motionCards": [
+    {
+      "id": "186-card-single-economy",
+      "sceneNumber": 4,
+      "templateId": "split_checklist",
+      "kicker": "KOREA SOLO SHIFT",
+      "headline": "Room for one",
+      "headlineLines": [
+        "Room",
+        "for one"
+      ],
+      "subhead": "The table changed",
+      "subheadLines": [
+        "The table",
+        "changed"
+      ],
+      "bullets": [
+        "One-person homes",
+        "Odd work hours",
+        "Solo travel",
+        "Smaller meals"
+      ],
+      "footer": "Honbap became ordinary",
+      "footerLines": [
+        "Honbap became",
+        "ordinary"
+      ],
+      "layout": "split_checklist",
+      "motionPreset": "check_items_follow_voice",
+      "accentColor": "#22c55e",
+      "overlayOpacity": 0.82,
+      "durationSeconds": 6,
+      "reviewStatus": "approved",
+      "reviewerNote": ""
+    },
+    {
+      "id": "186-card-solo-phrase",
+      "sceneNumber": 7,
+      "templateId": "stamp_stack",
+      "kicker": "SOLO DINING PHRASE",
+      "headline": "Ask first",
+      "headlineLines": [
+        "Ask",
+        "first"
+      ],
+      "subhead": "A simple Korean line",
+      "subheadLines": [
+        "A simple",
+        "Korean line"
+      ],
+      "bullets": [
+        "Honja",
+        "meogeodo",
+        "dwaeyo?",
+        "Can I eat alone?"
+      ],
+      "footer": "Useful before BBQ or busy restaurants",
+      "footerLines": [
+        "Useful before BBQ",
+        "or busy restaurants"
+      ],
+      "layout": "stamp_slips",
+      "motionPreset": "stamps_drop_and_verify",
+      "accentColor": "#f97316",
+      "overlayOpacity": 0.84,
+      "durationSeconds": 5,
+      "reviewStatus": "approved",
+      "reviewerNote": ""
+    }
+  ],
+  "motionCardTemplates": [
+    {
+      "id": "zone_compare",
+      "name": "Zone Compare",
+      "description": "Two filled comparison columns with a clear lower caption band. Best for explaining paired rules, areas, or before-after systems without an empty center.",
+      "layout": "split_compare",
+      "motionPreset": "zone_columns_reveal"
+    },
+    {
+      "id": "kit_grid",
+      "name": "Kit Grid",
+      "description": "A compact 2x2 tile grid with strong item blocks and a clear lower caption band. Best for packing lists, saveable checklists, and small sets of essentials.",
+      "layout": "kit_grid",
+      "motionPreset": "tiles_pop_balance"
+    },
+    {
+      "id": "editorial_box",
+      "name": "Editorial Box",
+      "description": "A strong framed card with headline, subhead, and list rows. Best for definitions or summary moments.",
+      "layout": "boxed",
+      "motionPreset": "card_rise_list_reveal"
+    },
+    {
+      "id": "kinetic_steps",
+      "name": "Kinetic Steps",
+      "description": "Floating step pills without a full card box. Best for process, how-to, or quick-start narration.",
+      "layout": "unboxed_steps",
+      "motionPreset": "step_pills_follow_voice"
+    },
+    {
+      "id": "menu_board",
+      "name": "Menu Board",
+      "description": "A menu/signboard style with sliding rows. Best for food, product lists, or options.",
+      "layout": "board",
+      "motionPreset": "menu_rows_follow_voice"
+    },
+    {
+      "id": "radial_burst",
+      "name": "Radial Burst",
+      "description": "A center headline with orbiting/angled labels. Best for explaining several meanings in one concept.",
+      "layout": "unboxed_radial",
+      "motionPreset": "chips_orbit_in"
+    },
+    {
+      "id": "split_checklist",
+      "name": "Split Checklist",
+      "description": "A vertical guide rail with checklist items. Best for etiquette, travel tips, and warnings.",
+      "layout": "split_checklist",
+      "motionPreset": "check_items_follow_voice"
+    },
+    {
+      "id": "convenience_tray",
+      "name": "Convenience Tray",
+      "description": "A bright shelf/tray grid with large item blocks. Best for convenience-store, breakfast, shopping, or assembled-choice scenes.",
+      "layout": "tray_grid",
+      "motionPreset": "tray_items_pop_in"
+    },
+    {
+      "id": "morning_route",
+      "name": "Morning Route",
+      "description": "A vertical path with paired start/end labels. Best for route, sequence, commute, or before-after logic.",
+      "layout": "route_map",
+      "motionPreset": "route_nodes_follow_voice"
+    },
+    {
+      "id": "wrapper_tabs",
+      "name": "Wrapper Tabs",
+      "description": "A package/wrapper metaphor with tagged steps. Best for food wrappers, assembly, folding, or object-anatomy scenes.",
+      "layout": "package_tabs",
+      "motionPreset": "tabs_reveal_around_object"
+    },
+    {
+      "id": "receipt_stack",
+      "name": "Receipt Stack",
+      "description": "A paper receipt/card stack with item rows and barcode texture. Best for prices, purchases, rules, and quick tallies.",
+      "layout": "receipt",
+      "motionPreset": "receipt_rows_print_in"
+    },
+    {
+      "id": "stamp_stack",
+      "name": "Stamp Stack",
+      "description": "Layered stamped slips with angled labels and a verification badge. Best for local rules, validations, myths, and cultural checkpoints.",
+      "layout": "stamp_slips",
+      "motionPreset": "stamps_drop_and_verify"
+    }
+  ]
+}

@@ -1,0 +1,230 @@
+{
+  "slug": "297",
+  "version": "v02",
+  "fps": 30,
+  "generatedAt": "2026-07-14T12:30:05.796Z",
+  "method": "ElevenLabs Forced Alignment against the approved narration transcript",
+  "captionLeadFrames": 5,
+  "safeZone": {
+    "left": 76,
+    "right": 76,
+    "bottom": 410,
+    "maxWidth": 928
+  },
+  "parts": [
+    {
+      "part": 1,
+      "transcript": "If you call every Korean rice cake mochi, you miss most of the dessert table.\n\nTteok is a whole family. Injeolmi is soft and chewy with roasted soybean powder. Yakgwa is different: fried, dense, and syrup-soaked.",
+      "alignmentLoss": 0.4996447657870355,
+      "wordCount": 36,
+      "beatCount": 7,
+      "firstWordStart": 0.219,
+      "lastWordEnd": 10.599
+    },
+    {
+      "part": 2,
+      "transcript": "Then hangwa opens another lane, with crisp yugwa and gangjeong.\n\nAnd the drinks split too. Sikhye is mild, cold, and malty, with rice grains. Sujeonggwa is cinnamon and ginger served chilled.",
+      "alignmentLoss": 0.5986306074369757,
+      "wordCount": 31,
+      "beatCount": 6,
+      "firstWordStart": 0.179,
+      "lastWordEnd": 9.179
+    },
+    {
+      "part": 3,
+      "transcript": "So pick by texture: chewy tteok, rich yakgwa, crisp hangwa, or a drink.\n\nFor a first tasting, pair one chewy sweet, one crisp or fried sweet, and tea. Save this before a Korean cafe, and get the full guide at epickor.com.",
+      "alignmentLoss": 0.4990300399840145,
+      "wordCount": 41,
+      "beatCount": 7,
+      "firstWordStart": 0.179,
+      "lastWordEnd": 12.819
+    }
+  ],
+  "beats": [
+    {
+      "part": 1,
+      "text": "If you call every Korean",
+      "startFrame": 1,
+      "endFrame": 30,
+      "sourceStartSeconds": 0.219,
+      "sourceEndSeconds": 1.159,
+      "wordCount": 5
+    },
+    {
+      "part": 1,
+      "text": "rice cake mochi, you miss",
+      "startFrame": 31,
+      "endFrame": 74,
+      "sourceStartSeconds": 1.22,
+      "sourceEndSeconds": 2.639,
+      "wordCount": 5
+    },
+    {
+      "part": 1,
+      "text": "most of the dessert table.",
+      "startFrame": 75,
+      "endFrame": 114,
+      "sourceStartSeconds": 2.679,
+      "sourceEndSeconds": 3.659,
+      "wordCount": 5
+    },
+    {
+      "part": 1,
+      "text": "Tteok is a whole family.",
+      "startFrame": 115,
+      "endFrame": 150,
+      "sourceStartSeconds": 4.02,
+      "sourceEndSeconds": 5.159,
+      "wordCount": 5
+    },
+    {
+      "part": 1,
+      "text": "Injeolmi is soft and chewy",
+      "startFrame": 151,
+      "endFrame": 190,
+      "sourceStartSeconds": 5.219,
+      "sourceEndSeconds": 6.519,
+      "wordCount": 5
+    },
+    {
+      "part": 1,
+      "text": "with roasted soybean powder.",
+      "startFrame": 191,
+      "endFrame": 236,
+      "sourceStartSeconds": 6.559,
+      "sourceEndSeconds": 7.859,
+      "wordCount": 4
+    },
+    {
+      "part": 1,
+      "text": "Yakgwa is different: fried, dense, and syrup-soaked.",
+      "startFrame": 237,
+      "endFrame": 322,
+      "sourceStartSeconds": 8.079,
+      "sourceEndSeconds": 10.599,
+      "wordCount": 7
+    },
+    {
+      "part": 2,
+      "text": "Then hangwa opens another lane,",
+      "startFrame": 331,
+      "endFrame": 373,
+      "sourceStartSeconds": 0.179,
+      "sourceEndSeconds": 1.519,
+      "wordCount": 5
+    },
+    {
+      "part": 2,
+      "text": "with crisp yugwa and gangjeong.",
+      "startFrame": 374,
+      "endFrame": 425,
+      "sourceStartSeconds": 1.599,
+      "sourceEndSeconds": 3.179,
+      "wordCount": 5
+    },
+    {
+      "part": 2,
+      "text": "And the drinks split too.",
+      "startFrame": 426,
+      "endFrame": 463,
+      "sourceStartSeconds": 3.359,
+      "sourceEndSeconds": 4.339,
+      "wordCount": 5
+    },
+    {
+      "part": 2,
+      "text": "Sikhye is mild, cold, and",
+      "startFrame": 464,
+      "endFrame": 495,
+      "sourceStartSeconds": 4.599,
+      "sourceEndSeconds": 5.639,
+      "wordCount": 5
+    },
+    {
+      "part": 2,
+      "text": "malty, with rice grains.",
+      "startFrame": 496,
+      "endFrame": 532,
+      "sourceStartSeconds": 5.679,
+      "sourceEndSeconds": 6.719,
+      "wordCount": 4
+    },
+    {
+      "part": 2,
+      "text": "Sujeonggwa is cinnamon and ginger served chilled.",
+      "startFrame": 533,
+      "endFrame": 613,
+      "sourceStartSeconds": 6.92,
+      "sourceEndSeconds": 9.179,
+      "wordCount": 7
+    },
+    {
+      "part": 3,
+      "text": "So pick by texture: chewy tteok, rich",
+      "startFrame": 622,
+      "endFrame": 700,
+      "sourceStartSeconds": 0.179,
+      "sourceEndSeconds": 2.74,
+      "wordCount": 7
+    },
+    {
+      "part": 3,
+      "text": "yakgwa, crisp hangwa, or a drink.",
+      "startFrame": 701,
+      "endFrame": 764,
+      "sourceStartSeconds": 2.799,
+      "sourceEndSeconds": 4.719,
+      "wordCount": 6
+    },
+    {
+      "part": 3,
+      "text": "For a first tasting, pair",
+      "startFrame": 765,
+      "endFrame": 805,
+      "sourceStartSeconds": 4.94,
+      "sourceEndSeconds": 6.239,
+      "wordCount": 5
+    },
+    {
+      "part": 3,
+      "text": "one chewy sweet, one crisp",
+      "startFrame": 806,
+      "endFrame": 851,
+      "sourceStartSeconds": 6.299,
+      "sourceEndSeconds": 7.819,
+      "wordCount": 5
+    },
+    {
+      "part": 3,
+      "text": "or fried sweet, and tea.",
+      "startFrame": 852,
+      "endFrame": 897,
+      "sourceStartSeconds": 7.859,
+      "sourceEndSeconds": 8.939,
+      "wordCount": 5
+    },
+    {
+      "part": 3,
+      "text": "Save this before a Korean cafe, and",
+      "startFrame": 898,
+      "endFrame": 948,
+      "sourceStartSeconds": 9.38,
+      "sourceEndSeconds": 11.039,
+      "wordCount": 7
+    },
+    {
+      "part": 3,
+      "text": "get the full guide at epickor.com.",
+      "startFrame": 949,
+      "endFrame": 1014,
+      "sourceStartSeconds": 11.079,
+      "sourceEndSeconds": 12.819,
+      "wordCount": 6
+    }
+  ],
+  "coverage": {
+    "transcriptWords": 108,
+    "captionWords": 108,
+    "audioParts": 3
+  }
+}

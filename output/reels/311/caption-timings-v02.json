@@ -1,0 +1,267 @@
+{
+ "slug": "311",
+ "version": "v02",
+ "fps": 30,
+ "generatedAt": "2026-07-21T13:54:43.617Z",
+ "method": "ElevenLabs Forced Alignment against the approved narration transcript",
+ "captionLeadFrames": 5,
+ "safeZone": {
+  "left": 76,
+  "right": 76,
+  "bottom": 410,
+  "maxWidth": 928
+ },
+ "parts": [
+  {
+   "part": 1,
+   "transcript": "Korean street food has one dish everyone thinks they know. You've seen it in every video. Red, glossy, piled high on a paper tray.",
+   "alignmentLoss": 0.031830805081587574,
+   "wordCount": 24,
+   "beatCount": 5,
+   "firstWordStart": 0.159,
+   "lastWordEnd": 6.039
+  },
+  {
+   "part": 2,
+   "transcript": "Tteokbokki. Chewy rice cakes in gochujang, sweet before it turns spicy. But it never eats alone. Fish cake, fried snacks, the whole bunsik counter moves together.",
+   "alignmentLoss": 0.1411580303568899,
+   "wordCount": 26,
+   "beatCount": 6,
+   "firstWordStart": 0.14,
+   "lastWordEnd": 8.699
+  },
+  {
+   "part": 3,
+   "transcript": "Drop in instant ramyeon and it becomes rabokki. Same sauce, twice the meal. Now here's the part nobody tells you.",
+   "alignmentLoss": 0.10769403719269069,
+   "wordCount": 20,
+   "beatCount": 4,
+   "firstWordStart": 0.159,
+   "lastWordEnd": 5.099
+  },
+  {
+   "part": 4,
+   "transcript": "The first tteokbokki had no chili at all. Soy sauce, beef, mushrooms, served in the royal court centuries before the red one existed.",
+   "alignmentLoss": 0.11199877315894105,
+   "wordCount": 23,
+   "beatCount": 5,
+   "firstWordStart": 0.159,
+   "lastWordEnd": 6.46
+  },
+  {
+   "part": 5,
+   "transcript": "Cheese. Rose. Cream.",
+   "alignmentLoss": 0.6424762725830078,
+   "wordCount": 3,
+   "beatCount": 3,
+   "firstWordStart": 0.179,
+   "lastWordEnd": 1.259
+  },
+  {
+   "part": 6,
+   "transcript": "Six versions, one rice cake. The red one is just the loudest.",
+   "alignmentLoss": 0.0817067310458324,
+   "wordCount": 12,
+   "beatCount": 2,
+   "firstWordStart": 0.199,
+   "lastWordEnd": 2.72
+  },
+  {
+   "part": 7,
+   "transcript": "Start at a market stall.",
+   "alignmentLoss": 0.10247572263081868,
+   "wordCount": 5,
+   "beatCount": 1,
+   "firstWordStart": 0.179,
+   "lastWordEnd": 1.139
+  },
+  {
+   "part": 8,
+   "transcript": "epickor dot com.",
+   "alignmentLoss": 1.0731315612792969,
+   "wordCount": 3,
+   "beatCount": 1,
+   "firstWordStart": 0.159,
+   "lastWordEnd": 0.919
+  }
+ ],
+ "beats": [
+  {
+   "part": 1,
+   "text": "Korean street food has one dish everyone thinks they know.",
+   "startFrame": 5,
+   "endFrame": 80,
+   "sourceStartSeconds": 0.159,
+   "sourceEndSeconds": 1.339,
+   "wordCount": 5
+  },
+  {
+   "part": 1,
+   "text": "You've seen it in every video.",
+   "startFrame": 81,
+   "endFrame": 119,
+   "sourceStartSeconds": 2.7,
+   "sourceEndSeconds": 3.839,
+   "wordCount": 6
+  },
+  {
+   "part": 1,
+   "text": "Red, glossy, piled high on a paper tray.",
+   "startFrame": 120,
+   "endFrame": 193,
+   "sourceStartSeconds": 4,
+   "sourceEndSeconds": 5.239,
+   "wordCount": 4
+  },
+  {
+   "part": 2,
+   "text": "Tteokbokki.",
+   "startFrame": 200,
+   "endFrame": 225,
+   "sourceStartSeconds": 0.14,
+   "sourceEndSeconds": 0.74,
+   "wordCount": 1
+  },
+  {
+   "part": 2,
+   "text": "Chewy rice cakes in gochujang,",
+   "startFrame": 226,
+   "endFrame": 275,
+   "sourceStartSeconds": 1.039,
+   "sourceEndSeconds": 2.559,
+   "wordCount": 5
+  },
+  {
+   "part": 2,
+   "text": "sweet before it turns spicy.",
+   "startFrame": 276,
+   "endFrame": 328,
+   "sourceStartSeconds": 2.7,
+   "sourceEndSeconds": 4.079,
+   "wordCount": 5
+  },
+  {
+   "part": 2,
+   "text": "But it never eats alone.",
+   "startFrame": 329,
+   "endFrame": 363,
+   "sourceStartSeconds": 4.48,
+   "sourceEndSeconds": 5.439,
+   "wordCount": 5
+  },
+  {
+   "part": 2,
+   "text": "Fish cake, fried snacks, the whole bunsik counter moves together.",
+   "startFrame": 364,
+   "endFrame": 467,
+   "sourceStartSeconds": 5.659,
+   "sourceEndSeconds": 7.099,
+   "wordCount": 5
+  },
+  {
+   "part": 3,
+   "text": "Drop in instant ramyeon and it becomes rabokki.",
+   "startFrame": 470,
+   "endFrame": 538,
+   "sourceStartSeconds": 0.159,
+   "sourceEndSeconds": 1.179,
+   "wordCount": 4
+  },
+  {
+   "part": 3,
+   "text": "Same sauce, twice the meal.",
+   "startFrame": 539,
+   "endFrame": 577,
+   "sourceStartSeconds": 2.48,
+   "sourceEndSeconds": 3.679,
+   "wordCount": 5
+  },
+  {
+   "part": 3,
+   "text": "Now here's the part nobody tells you.",
+   "startFrame": 578,
+   "endFrame": 630,
+   "sourceStartSeconds": 3.779,
+   "sourceEndSeconds": 5.099,
+   "wordCount": 7
+  },
+  {
+   "part": 4,
+   "text": "The first tteokbokki had no chili at all.",
+   "startFrame": 640,
+   "endFrame": 701,
+   "sourceStartSeconds": 0.159,
+   "sourceEndSeconds": 1.219,
+   "wordCount": 4
+  },
+  {
+   "text": "Soy sauce, beef, mushrooms,",
+   "startFrame": 702,
+   "endFrame": 739
+  },
+  {
+   "text": "served in the royal court centuries before the red one existed.",
+   "startFrame": 740,
+   "endFrame": 841
+  },
+  {
+   "part": 5,
+   "text": "Cheese.",
+   "startFrame": 852,
+   "endFrame": 864,
+   "sourceStartSeconds": 0.179,
+   "sourceEndSeconds": 0.439,
+   "wordCount": 1
+  },
+  {
+   "part": 5,
+   "text": "Rose.",
+   "startFrame": 865,
+   "endFrame": 876,
+   "sourceStartSeconds": 0.599,
+   "sourceEndSeconds": 0.899,
+   "wordCount": 1
+  },
+  {
+   "part": 5,
+   "text": "Cream.",
+   "startFrame": 877,
+   "endFrame": 897,
+   "sourceStartSeconds": 1,
+   "sourceEndSeconds": 1.259,
+   "wordCount": 1
+  },
+  {
+   "part": 6,
+   "text": "Six versions, one rice cake.",
+   "startFrame": 906,
+   "endFrame": 942,
+   "sourceStartSeconds": 0.199,
+   "sourceEndSeconds": 1.379,
+   "wordCount": 5
+  },
+  {
+   "part": 6,
+   "text": "The red one is just the loudest.",
+   "startFrame": 943,
+   "endFrame": 994,
+   "sourceStartSeconds": 1.439,
+   "sourceEndSeconds": 2.72,
+   "wordCount": 7
+  },
+  {
+   "part": 7,
+   "text": "Start at a market stall.",
+   "startFrame": 1005,
+   "endFrame": 1046,
+   "sourceStartSeconds": 0.179,
+   "sourceEndSeconds": 1.139,
+   "wordCount": 5
+  }
+ ],
+ "coverage": {
+  "transcriptWords": 116,
+  "captionWords": 116,
+  "audioParts": 8
+ }
+}

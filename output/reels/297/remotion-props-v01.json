@@ -1,0 +1,27 @@
+{
+  "slug": "297",
+  "title": "Korean Traditional Desserts Guide 2026",
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "durationFrames": 1080,
+  "durationSeconds": 36,
+  "finalizedAt": "2026-07-14",
+  "audio": null,
+  "audioSegments": [
+    {"part": 1, "file": "voice-part-1.mp3", "publicPath": "/assets/reels/297/audio/voice-part-1.mp3", "staticFilePath": "audio/voice-part-1.mp3", "startFrame": 0, "durationFrames": 322, "durationSeconds": 10.728},
+    {"part": 2, "file": "voice-part-2.mp3", "publicPath": "/assets/reels/297/audio/voice-part-2.mp3", "staticFilePath": "audio/voice-part-2.mp3", "startFrame": 331, "durationFrames": 282, "durationSeconds": 9.381},
+    {"part": 3, "file": "voice-part-3.mp3", "publicPath": "/assets/reels/297/audio/voice-part-3.mp3", "staticFilePath": "audio/voice-part-3.mp3", "startFrame": 622, "durationFrames": 392, "durationSeconds": 13.05}
+  ],
+  "sfxSegments": [],
+  "outro": {"startFrame": 960, "durationFrames": 120, "text": "epickor.com"},
+  "brand": {"label": "EPICKOR", "cta": "EPICKOR.COM"},
+  "subtitleStyle": {"mode": "narration_synced", "preset": "editorial_phrase_band", "font": "Arial", "fontWeight": 900, "highlightColor": "#c52d22", "maxWordsPerBeat": 7, "captionLeadFrames": 5},
+  "scenes": [],
+  "motionCards": [
+    {"id": "297-dessert-switch", "sceneNumber": 5, "templateId": "dessert_switch", "kicker": "THE DESSERT SWITCH", "headline": "PICK BY TEXTURE", "subhead": "Choose the feeling first.", "bullets": ["CHEWY — TTEOK / INJEOLMI", "RICH + STICKY — YAKGWA", "CRISP — YUGWA / GANGJEONG", "DRINK — SIKHYE / SUJEONGGWA"], "footer": "ONE CATEGORY NAME IS NEVER THE WHOLE TABLE", "layout": "four_filled_rows", "motionPreset": "row_reveal", "accentColor": "#c52d22", "overlayOpacity": 0.54, "durationSeconds": 8, "reviewStatus": "candidate"}
+  ],
+  "motionCardTemplates": [
+    {"id": "dessert_switch", "name": "Dessert Switch", "description": "Red-and-cream four-row chooser over real Korean dessert proof.", "layout": "four_filled_rows", "motionPreset": "row_reveal"}
+  ]
+}

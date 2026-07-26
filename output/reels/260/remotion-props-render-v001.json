@@ -1,0 +1,438 @@
+{
+  "slug": "260",
+  "title": "Korean Rice Cooker Guide 2026: Cuckoo, Cuchen, Home Rice",
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "durationFrames": 906,
+  "durationSeconds": 30.2,
+  "finalizedAt": "2026-07-02T02:36:57.067Z",
+  "audio": null,
+  "audioSegments": [
+    {
+      "part": 1,
+      "sceneNumber": 1,
+      "file": "output/reels/260/audio/narration-v001-scene-01.mp3",
+      "publicPath": "/assets/reels/260/audio/narration-v001-scene-01.mp3",
+      "staticFilePath": "audio/narration-v001-scene-01.mp3",
+      "startFrame": 0,
+      "durationFrames": 81,
+      "durationSeconds": 2.7
+    },
+    {
+      "part": 2,
+      "sceneNumber": 2,
+      "file": "output/reels/260/audio/narration-v001-scene-02.mp3",
+      "publicPath": "/assets/reels/260/audio/narration-v001-scene-02.mp3",
+      "staticFilePath": "audio/narration-v001-scene-02.mp3",
+      "startFrame": 81,
+      "durationFrames": 104,
+      "durationSeconds": 3.466666666666667
+    },
+    {
+      "part": 3,
+      "sceneNumber": 3,
+      "file": "output/reels/260/audio/narration-v001-scene-03.mp3",
+      "publicPath": "/assets/reels/260/audio/narration-v001-scene-03.mp3",
+      "staticFilePath": "audio/narration-v001-scene-03.mp3",
+      "startFrame": 185,
+      "durationFrames": 134,
+      "durationSeconds": 4.466666666666667
+    },
+    {
+      "part": 4,
+      "sceneNumber": 4,
+      "file": "output/reels/260/audio/narration-v001-scene-04.mp3",
+      "publicPath": "/assets/reels/260/audio/narration-v001-scene-04.mp3",
+      "staticFilePath": "audio/narration-v001-scene-04.mp3",
+      "startFrame": 319,
+      "durationFrames": 147,
+      "durationSeconds": 4.9
+    },
+    {
+      "part": 5,
+      "sceneNumber": 5,
+      "file": "output/reels/260/audio/narration-v001-scene-05.mp3",
+      "publicPath": "/assets/reels/260/audio/narration-v001-scene-05.mp3",
+      "staticFilePath": "audio/narration-v001-scene-05.mp3",
+      "startFrame": 466,
+      "durationFrames": 129,
+      "durationSeconds": 4.3
+    },
+    {
+      "part": 6,
+      "sceneNumber": 6,
+      "file": "output/reels/260/audio/narration-v001-scene-06.mp3",
+      "publicPath": "/assets/reels/260/audio/narration-v001-scene-06.mp3",
+      "staticFilePath": "audio/narration-v001-scene-06.mp3",
+      "startFrame": 595,
+      "durationFrames": 124,
+      "durationSeconds": 4.133333333333334
+    },
+    {
+      "part": 7,
+      "sceneNumber": 7,
+      "file": "output/reels/260/audio/narration-v001-scene-07.mp3",
+      "publicPath": "/assets/reels/260/audio/narration-v001-scene-07.mp3",
+      "staticFilePath": "audio/narration-v001-scene-07.mp3",
+      "startFrame": 719,
+      "durationFrames": 127,
+      "durationSeconds": 4.233333333333333
+    }
+  ],
+  "outro": {
+    "startFrame": 846,
+    "durationFrames": 60,
+    "text": "epicKor.com"
+  },
+  "brand": {
+    "label": "EpicKor",
+    "cta": "EPICKOR.COM"
+  },
+  "subtitleStyle": {
+    "mode": "narration_synced",
+    "preset": "readable_band_two_line",
+    "captionLeadFrames": 0
+  },
+  "scenes": [
+    {
+      "number": 1,
+      "startFrame": 0,
+      "durationFrames": 81,
+      "durationSeconds": 2.7,
+      "narration": "Koreans do not pick a rice cooker like a cheap gadget.",
+      "captionBeats": [
+        "Koreans do not pick\na rice cooker",
+        "like a cheap gadget."
+      ],
+      "captionBeatStartFrames": [
+        0,
+        50
+      ],
+      "captionLeadFrames": 0,
+      "captionStyle": "readable_band",
+      "typographyBeats": [
+        {
+          "text": "RICE COOKER|MISTAKE",
+          "emphasis": "thumbnail_title_batch_260",
+          "timingHint": "first frame"
+        }
+      ],
+      "motion": "slow_push_in",
+      "images": [
+        {
+          "rank": 1,
+          "publicPath": "/assets/reels/260/scene-01-rank-01.png",
+          "staticFilePath": "scene-01-rank-01.png",
+          "sourceUrl": "/assets/reels/260/generated/open-rice-cooker-korean-kitchen.png",
+          "width": 941,
+          "height": 1672,
+          "aspectRatio": 0.5628,
+          "fitMode": "cover"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "startFrame": 81,
+      "durationFrames": 104,
+      "durationSeconds": 3.466666666666667,
+      "narration": "The mistake is buying by price first, before you know how you eat rice.",
+      "captionBeats": [
+        "The mistake is buying\nby price first,",
+        "before you know\nhow you eat rice."
+      ],
+      "captionBeatStartFrames": [
+        0,
+        52
+      ],
+      "captionLeadFrames": 0,
+      "captionStyle": "readable_band",
+      "typographyBeats": [],
+      "motion": "slow_zoom_out",
+      "images": [
+        {
+          "rank": 1,
+          "publicPath": "/assets/reels/260/scene-02-rank-01.jpg",
+          "staticFilePath": "scene-02-rank-01.jpg",
+          "sourceUrl": "/assets/images/posts/260/cuckoo-pressure-rice-cooker-official.jpg",
+          "width": 1200,
+          "height": 1200,
+          "aspectRatio": 1,
+          "fitMode": "cover"
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "startFrame": 185,
+      "durationFrames": 134,
+      "durationSeconds": 4.466666666666667,
+      "narration": "Pressure cookers make stickier rice and handle mixed grains better. Basic cookers are simpler.",
+      "captionBeats": [
+        "Pressure cookers make\nstickier rice",
+        "and handle mixed grains\nbetter.",
+        "Basic cookers\nare simpler."
+      ],
+      "captionBeatStartFrames": [
+        0,
+        45,
+        94
+      ],
+      "captionLeadFrames": 0,
+      "captionStyle": "readable_band",
+      "typographyBeats": [],
+      "motion": "pan_right",
+      "images": [
+        {
+          "rank": 1,
+          "publicPath": "/assets/reels/260/scene-03-rank-01.jpg",
+          "staticFilePath": "scene-03-rank-01.jpg",
+          "sourceUrl": "/assets/images/posts/260/rice-and-grains-bowls.jpg",
+          "width": 1400,
+          "height": 933,
+          "aspectRatio": 1.5005,
+          "fitMode": "framed_16_9"
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "startFrame": 319,
+      "durationFrames": 147,
+      "durationSeconds": 4.9,
+      "narration": "Size matters. Too big can dry out leftovers, and too small makes batch cooking annoying.",
+      "captionBeats": [
+        "Size matters. Too big\ncan dry out leftovers,",
+        "and too small makes\nbatch cooking annoying."
+      ],
+      "captionBeatStartFrames": [
+        0,
+        80
+      ],
+      "captionLeadFrames": 0,
+      "captionStyle": "readable_band",
+      "typographyBeats": [],
+      "motion": "drift_left",
+      "images": [
+        {
+          "rank": 1,
+          "publicPath": "/assets/reels/260/scene-04-rank-01.jpg",
+          "staticFilePath": "scene-04-rank-01.jpg",
+          "sourceUrl": "/assets/images/posts/260/home-rice-cooking-kitchen.jpg",
+          "width": 1400,
+          "height": 933,
+          "aspectRatio": 1.5005,
+          "fitMode": "framed_16_9"
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "startFrame": 466,
+      "durationFrames": 129,
+      "durationSeconds": 4.3,
+      "narration": "Check five things: household size, pressure type, mixed grains, keep-warm, and cleaning.",
+      "captionBeats": [
+        "Check five things:\nhousehold size,",
+        "pressure type, mixed grains,\nkeep-warm, and cleaning."
+      ],
+      "captionBeatStartFrames": [
+        0,
+        52
+      ],
+      "captionLeadFrames": 0,
+      "captionStyle": "readable_band",
+      "typographyBeats": [],
+      "motion": "caption_pop",
+      "images": []
+    },
+    {
+      "number": 6,
+      "startFrame": 595,
+      "durationFrames": 124,
+      "durationSeconds": 4.133333333333334,
+      "narration": "If you eat Korean meals often, the cooker becomes a daily appliance, not a once-a-week pot.",
+      "captionBeats": [
+        "If you eat Korean\nmeals often,",
+        "the cooker becomes\na daily appliance,",
+        "not a once-a-week pot."
+      ],
+      "captionBeatStartFrames": [
+        0,
+        46,
+        92
+      ],
+      "captionLeadFrames": 0,
+      "captionStyle": "readable_band",
+      "typographyBeats": [],
+      "motion": "pan_left",
+      "images": [
+        {
+          "rank": 1,
+          "publicPath": "/assets/reels/260/scene-06-rank-01.png",
+          "staticFilePath": "scene-06-rank-01.png",
+          "sourceUrl": "/assets/reels/260/generated/korean-home-rice-table.png",
+          "width": 941,
+          "height": 1672,
+          "aspectRatio": 0.5628,
+          "fitMode": "cover"
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "startFrame": 719,
+      "durationFrames": 127,
+      "durationSeconds": 4.233333333333333,
+      "narration": "Save this before comparing Cuckoo or Cuchen. More Korean home guides at EpicKor.com.",
+      "captionBeats": [
+        "Save this before\ncomparing Cuckoo or Cuchen.",
+        "More Korean home guides\nat EpicKor.com."
+      ],
+      "captionBeatStartFrames": [
+        0,
+        66
+      ],
+      "captionLeadFrames": 0,
+      "captionStyle": "readable_band",
+      "typographyBeats": [],
+      "motion": "drift_up",
+      "images": [
+        {
+          "rank": 1,
+          "publicPath": "/assets/reels/260/scene-07-rank-01.jpg",
+          "staticFilePath": "scene-07-rank-01.jpg",
+          "sourceUrl": "/assets/images/posts/260/korean-mixed-grain-rice-bowl.jpg",
+          "width": 1400,
+          "height": 933,
+          "aspectRatio": 1.5005,
+          "fitMode": "framed_16_9"
+        }
+      ]
+    }
+  ],
+  "motionCards": [
+    {
+      "id": "260-card-buy-by-habit",
+      "sceneNumber": 5,
+      "templateId": "menu_board",
+      "layout": "board",
+      "motionPreset": "menu_rows_follow_voice",
+      "kicker": "RICE COOKER CHECK",
+      "headline": "BUY BY HABIT",
+      "headlineLines": [
+        "BUY BY",
+        "HABIT"
+      ],
+      "subhead": "Then compare specs.",
+      "subheadLines": [
+        "Then compare",
+        "specs."
+      ],
+      "bullets": [
+        "HOUSEHOLD SIZE",
+        "PRESSURE TYPE",
+        "MIXED GRAINS",
+        "KEEP-WARM",
+        "CLEANING"
+      ],
+      "footer": "EPICKOR.COM",
+      "footerLines": [
+        "EPICKOR.COM"
+      ],
+      "accentColor": "#f59e0b",
+      "overlayOpacity": 0.76,
+      "durationSeconds": 6.2,
+      "reviewStatus": "approved",
+      "choice": "A",
+      "reviewerNote": "Best affiliate-friendly payoff: converts the video into a concrete buying checklist."
+    }
+  ],
+  "motionCardTemplates": [
+    {
+      "id": "zone_compare",
+      "name": "Zone Compare",
+      "description": "Two filled comparison columns with a clear lower caption band. Best for explaining paired rules, areas, or before-after systems without an empty center.",
+      "layout": "split_compare",
+      "motionPreset": "zone_columns_reveal"
+    },
+    {
+      "id": "kit_grid",
+      "name": "Kit Grid",
+      "description": "A compact 2x2 tile grid with strong item blocks and a clear lower caption band. Best for packing lists, saveable checklists, and small sets of essentials.",
+      "layout": "kit_grid",
+      "motionPreset": "tiles_pop_balance"
+    },
+    {
+      "id": "editorial_box",
+      "name": "Editorial Box",
+      "description": "A strong framed card with headline, subhead, and list rows. Best for definitions or summary moments.",
+      "layout": "boxed",
+      "motionPreset": "card_rise_list_reveal"
+    },
+    {
+      "id": "kinetic_steps",
+      "name": "Kinetic Steps",
+      "description": "Floating step pills without a full card box. Best for process, how-to, or quick-start narration.",
+      "layout": "unboxed_steps",
+      "motionPreset": "step_pills_follow_voice"
+    },
+    {
+      "id": "menu_board",
+      "name": "Menu Board",
+      "description": "A menu/signboard style with sliding rows. Best for food, product lists, or options.",
+      "layout": "board",
+      "motionPreset": "menu_rows_follow_voice"
+    },
+    {
+      "id": "radial_burst",
+      "name": "Radial Burst",
+      "description": "A center headline with orbiting/angled labels. Best for explaining several meanings in one concept.",
+      "layout": "unboxed_radial",
+      "motionPreset": "chips_orbit_in"
+    },
+    {
+      "id": "split_checklist",
+      "name": "Split Checklist",
+      "description": "A vertical guide rail with checklist items. Best for etiquette, travel tips, and warnings.",
+      "layout": "split_checklist",
+      "motionPreset": "check_items_follow_voice"
+    },
+    {
+      "id": "convenience_tray",
+      "name": "Convenience Tray",
+      "description": "A bright shelf/tray grid with large item blocks. Best for convenience-store, breakfast, shopping, or assembled-choice scenes.",
+      "layout": "tray_grid",
+      "motionPreset": "tray_items_pop_in"
+    },
+    {
+      "id": "morning_route",
+      "name": "Morning Route",
+      "description": "A vertical path with paired start/end labels. Best for route, sequence, commute, or before-after logic.",
+      "layout": "route_map",
+      "motionPreset": "route_nodes_follow_voice"
+    },
+    {
+      "id": "wrapper_tabs",
+      "name": "Wrapper Tabs",
+      "description": "A package/wrapper metaphor with tagged steps. Best for food wrappers, assembly, folding, or object-anatomy scenes.",
+      "layout": "package_tabs",
+      "motionPreset": "tabs_reveal_around_object"
+    },
+    {
+      "id": "receipt_stack",
+      "name": "Receipt Stack",
+      "description": "A paper receipt/card stack with item rows and barcode texture. Best for prices, purchases, rules, and quick tallies.",
+      "layout": "receipt",
+      "motionPreset": "receipt_rows_print_in"
+    },
+    {
+      "id": "stamp_stack",
+      "name": "Stamp Stack",
+      "description": "Layered stamped slips with angled labels and a verification badge. Best for local rules, validations, myths, and cultural checkpoints.",
+      "layout": "stamp_slips",
+      "motionPreset": "stamps_drop_and_verify"
+    }
+  ]
+}

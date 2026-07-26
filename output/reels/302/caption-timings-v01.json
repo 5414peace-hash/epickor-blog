@@ -1,0 +1,248 @@
+{
+  "slug": "302",
+  "version": "v01",
+  "fps": 30,
+  "generatedAt": "2026-07-16T05:10:48.246Z",
+  "method": "ElevenLabs Forced Alignment against the approved narration transcript",
+  "captionLeadFrames": 5,
+  "safeZone": {
+    "left": 76,
+    "right": 76,
+    "bottom": 410,
+    "maxWidth": 928
+  },
+  "parts": [
+    {
+      "part": 1,
+      "transcript": "Soup at seven in the morning? In Korea, that's not even the surprising part. Breakfast doesn't have a hard food border. Rice, soup, kimchi, and last night's sides can show up again—because they're meals, not breakfast-only dishes.",
+      "alignmentLoss": 0.07352407289587932,
+      "wordCount": 37,
+      "beatCount": 7,
+      "firstWordStart": 0.219,
+      "lastWordEnd": 11.719
+    },
+    {
+      "part": 2,
+      "transcript": "But a real Seoul morning might also be street toast, gimbap, a convenience-store set, or just coffee. The clock changes. The food doesn't have to. Choose by the morning you have: jet-lagged, get juk. Big walking day, get gukbap.",
+      "alignmentLoss": 0.14641767949388737,
+      "wordCount": 39,
+      "beatCount": 8,
+      "firstWordStart": 0.199,
+      "lastWordEnd": 13.119
+    },
+    {
+      "part": 3,
+      "transcript": "Early train, grab gimbap. Want the fun first bite? Try sweet-savory street toast. Korean breakfast is a system, not one perfect tray. Save this before Seoul, and get all twelve options at epickor.com.",
+      "alignmentLoss": 0.12667925655841827,
+      "wordCount": 33,
+      "beatCount": 7,
+      "firstWordStart": 0.099,
+      "lastWordEnd": 12.579
+    }
+  ],
+  "beats": [
+    {
+      "part": 1,
+      "text": "Soup at seven in the morning?",
+      "startFrame": 1,
+      "endFrame": 49,
+      "sourceStartSeconds": 0.219,
+      "sourceEndSeconds": 1.339,
+      "wordCount": 6
+    },
+    {
+      "part": 1,
+      "text": "In Korea, that's not",
+      "startFrame": 50,
+      "endFrame": 74,
+      "sourceStartSeconds": 1.839,
+      "sourceEndSeconds": 2.679,
+      "wordCount": 4
+    },
+    {
+      "part": 1,
+      "text": "even the surprising part.",
+      "startFrame": 75,
+      "endFrame": 125,
+      "sourceStartSeconds": 2.68,
+      "sourceEndSeconds": 3.659,
+      "wordCount": 4
+    },
+    {
+      "part": 1,
+      "text": "Breakfast doesn't have a hard food border.",
+      "startFrame": 126,
+      "endFrame": 195,
+      "sourceStartSeconds": 4.36,
+      "sourceEndSeconds": 6.019,
+      "wordCount": 7
+    },
+    {
+      "part": 1,
+      "text": "Rice, soup, kimchi, and last night's",
+      "startFrame": 196,
+      "endFrame": 253,
+      "sourceStartSeconds": 6.699,
+      "sourceEndSeconds": 8.619,
+      "wordCount": 6
+    },
+    {
+      "part": 1,
+      "text": "sides can show up again—because",
+      "startFrame": 254,
+      "endFrame": 296,
+      "sourceStartSeconds": 8.639,
+      "sourceEndSeconds": 10.06,
+      "wordCount": 5
+    },
+    {
+      "part": 1,
+      "text": "they're meals, not breakfast-only dishes.",
+      "startFrame": 297,
+      "endFrame": 356,
+      "sourceStartSeconds": 10.079,
+      "sourceEndSeconds": 11.719,
+      "wordCount": 5
+    },
+    {
+      "part": 2,
+      "text": "But a real Seoul morning might",
+      "startFrame": 366,
+      "endFrame": 411,
+      "sourceStartSeconds": 0.199,
+      "sourceEndSeconds": 1.699,
+      "wordCount": 6
+    },
+    {
+      "part": 2,
+      "text": "also be street toast, gimbap, a",
+      "startFrame": 412,
+      "endFrame": 479,
+      "sourceStartSeconds": 1.759,
+      "sourceEndSeconds": 3.959,
+      "wordCount": 6
+    },
+    {
+      "part": 2,
+      "text": "convenience-store set, or just coffee.",
+      "startFrame": 480,
+      "endFrame": 547,
+      "sourceStartSeconds": 4.019,
+      "sourceEndSeconds": 6.019,
+      "wordCount": 5
+    },
+    {
+      "part": 2,
+      "text": "The clock changes.",
+      "startFrame": 548,
+      "endFrame": 576,
+      "sourceStartSeconds": 6.279,
+      "sourceEndSeconds": 7.039,
+      "wordCount": 3
+    },
+    {
+      "part": 2,
+      "text": "The food doesn't have to.",
+      "startFrame": 577,
+      "endFrame": 630,
+      "sourceStartSeconds": 7.239,
+      "sourceEndSeconds": 8.199,
+      "wordCount": 5
+    },
+    {
+      "part": 2,
+      "text": "Choose by the morning you",
+      "startFrame": 631,
+      "endFrame": 659,
+      "sourceStartSeconds": 9.059,
+      "sourceEndSeconds": 9.92,
+      "wordCount": 5
+    },
+    {
+      "part": 2,
+      "text": "have: jet-lagged, get juk.",
+      "startFrame": 660,
+      "endFrame": 713,
+      "sourceStartSeconds": 10,
+      "sourceEndSeconds": 11.559,
+      "wordCount": 4
+    },
+    {
+      "part": 2,
+      "text": "Big walking day, get gukbap.",
+      "startFrame": 714,
+      "endFrame": 766,
+      "sourceStartSeconds": 11.819,
+      "sourceEndSeconds": 13.119,
+      "wordCount": 5
+    },
+    {
+      "part": 3,
+      "text": "Early train, grab gimbap.",
+      "startFrame": 776,
+      "endFrame": 829,
+      "sourceStartSeconds": 0.099,
+      "sourceEndSeconds": 1.62,
+      "wordCount": 4
+    },
+    {
+      "part": 3,
+      "text": "Want the fun first bite?",
+      "startFrame": 830,
+      "endFrame": 880,
+      "sourceStartSeconds": 1.979,
+      "sourceEndSeconds": 3.059,
+      "wordCount": 5
+    },
+    {
+      "part": 3,
+      "text": "Try sweet-savory street toast.",
+      "startFrame": 881,
+      "endFrame": 949,
+      "sourceStartSeconds": 3.679,
+      "sourceEndSeconds": 5.319,
+      "wordCount": 4
+    },
+    {
+      "part": 3,
+      "text": "Korean breakfast is a system,",
+      "startFrame": 950,
+      "endFrame": 1002,
+      "sourceStartSeconds": 5.98,
+      "sourceEndSeconds": 7.48,
+      "wordCount": 5
+    },
+    {
+      "part": 3,
+      "text": "not one perfect tray.",
+      "startFrame": 1003,
+      "endFrame": 1059,
+      "sourceStartSeconds": 7.759,
+      "sourceEndSeconds": 8.859,
+      "wordCount": 4
+    },
+    {
+      "part": 3,
+      "text": "Save this before Seoul, and get",
+      "startFrame": 1060,
+      "endFrame": 1097,
+      "sourceStartSeconds": 9.639,
+      "sourceEndSeconds": 10.84,
+      "wordCount": 6
+    },
+    {
+      "part": 3,
+      "text": "all twelve options at epickor.com.",
+      "startFrame": 1098,
+      "endFrame": 1160,
+      "sourceStartSeconds": 10.92,
+      "sourceEndSeconds": 12.579,
+      "wordCount": 5
+    }
+  ],
+  "coverage": {
+    "transcriptWords": 109,
+    "captionWords": 109,
+    "audioParts": 3
+  }
+}

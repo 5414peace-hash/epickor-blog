@@ -1,0 +1,62 @@
+{
+ "slug": "313",
+ "title": "Seoul With Kids",
+ "width": 1080,
+ "height": 1920,
+ "fps": 30,
+ "durationFrames": 1020,
+ "durationSeconds": 34,
+ "audio": null,
+ "audioSegments": [
+  {
+   "part": 1,
+   "file": "voice-part-1.mp3",
+   "staticFilePath": "audio/voice-part-1.mp3",
+   "startFrame": 5,
+   "durationFrames": 149,
+   "durationSeconds": 4.969
+  },
+  {
+   "part": 2,
+   "file": "voice-part-2.mp3",
+   "staticFilePath": "audio/voice-part-2.mp3",
+   "startFrame": 165,
+   "durationFrames": 171,
+   "durationSeconds": 5.712
+  },
+  {
+   "part": 3,
+   "file": "voice-part-3.mp3",
+   "staticFilePath": "audio/voice-part-3.mp3",
+   "startFrame": 360,
+   "durationFrames": 123,
+   "durationSeconds": 4.087
+  },
+  {
+   "part": 4,
+   "file": "voice-part-4.mp3",
+   "staticFilePath": "audio/voice-part-4.mp3",
+   "startFrame": 510,
+   "durationFrames": 216,
+   "durationSeconds": 7.198
+  },
+  {
+   "part": 5,
+   "file": "voice-part-5.mp3",
+   "staticFilePath": "audio/voice-part-5.mp3",
+   "startFrame": 760,
+   "durationFrames": 134,
+   "durationSeconds": 4.458
+  },
+  {
+   "part": 6,
+   "file": "voice-part-6.mp3",
+   "staticFilePath": "audio/voice-part-6.mp3",
+   "startFrame": 930,
+   "durationFrames": 38,
+   "durationSeconds": 1.254
+  }
+ ],
+ "scenes": [],
+ "motionCards": []
+}

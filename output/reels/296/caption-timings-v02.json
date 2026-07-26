@@ -1,0 +1,230 @@
+{
+  "slug": "296",
+  "version": "v02",
+  "fps": 30,
+  "generatedAt": "2026-07-14T12:29:59.491Z",
+  "method": "ElevenLabs Forced Alignment against the approved narration transcript",
+  "captionLeadFrames": 5,
+  "safeZone": {
+    "left": 76,
+    "right": 76,
+    "bottom": 410,
+    "maxWidth": 928
+  },
+  "parts": [
+    {
+      "part": 1,
+      "transcript": "One of Seoul's prettiest hanok lanes can fine tourists who enter after five.\n\nThe rule is specific: Bukchon-ro 11-gil's red zone restricts tourist visits from 5 p.m. to 10 the next morning. The fine is 100,000 won.",
+      "alignmentLoss": 0.4992063702256591,
+      "wordCount": 37,
+      "beatCount": 6,
+      "firstWordStart": 0.219,
+      "lastWordEnd": 11.42
+    },
+    {
+      "part": 2,
+      "transcript": "Why? This isn't a movie set. People live here, and those quiet hours belong to the neighborhood.\n\nThe easy plan is simple: visit the red zone from ten to five, then leave the residential lanes before the restriction starts.",
+      "alignmentLoss": 0.3142309088177151,
+      "wordCount": 39,
+      "beatCount": 8,
+      "firstWordStart": 0.199,
+      "lastWordEnd": 10.579
+    },
+    {
+      "part": 3,
+      "transcript": "After five, book an official public-hanok program—or move to an evening-friendly commercial part of Jongno. Pretty doesn't mean public. Save this before Seoul, and get the full hanok guide at epickor.com.",
+      "alignmentLoss": 0.2648241981571796,
+      "wordCount": 31,
+      "beatCount": 6,
+      "firstWordStart": 0.199,
+      "lastWordEnd": 9.46
+    }
+  ],
+  "beats": [
+    {
+      "part": 1,
+      "text": "One of Seoul's prettiest hanok lanes can",
+      "startFrame": 1,
+      "endFrame": 54,
+      "sourceStartSeconds": 0.219,
+      "sourceEndSeconds": 1.979,
+      "wordCount": 7
+    },
+    {
+      "part": 1,
+      "text": "fine tourists who enter after five.",
+      "startFrame": 55,
+      "endFrame": 117,
+      "sourceStartSeconds": 2,
+      "sourceEndSeconds": 3.639,
+      "wordCount": 6
+    },
+    {
+      "part": 1,
+      "text": "The rule is specific: Bukchon-ro 11-gil's red",
+      "startFrame": 118,
+      "endFrame": 203,
+      "sourceStartSeconds": 4.119,
+      "sourceEndSeconds": 6.899,
+      "wordCount": 7
+    },
+    {
+      "part": 1,
+      "text": "zone restricts tourist visits from 5 p.m.",
+      "startFrame": 204,
+      "endFrame": 262,
+      "sourceStartSeconds": 6.98,
+      "sourceEndSeconds": 8.84,
+      "wordCount": 7
+    },
+    {
+      "part": 1,
+      "text": "to 10 the next morning.",
+      "startFrame": 263,
+      "endFrame": 289,
+      "sourceStartSeconds": 8.939,
+      "sourceEndSeconds": 9.8,
+      "wordCount": 5
+    },
+    {
+      "part": 1,
+      "text": "The fine is 100,000 won.",
+      "startFrame": 290,
+      "endFrame": 350,
+      "sourceStartSeconds": 9.859,
+      "sourceEndSeconds": 11.42,
+      "wordCount": 5
+    },
+    {
+      "part": 2,
+      "text": "Why?",
+      "startFrame": 360,
+      "endFrame": 370,
+      "sourceStartSeconds": 0.199,
+      "sourceEndSeconds": 0.459,
+      "wordCount": 1
+    },
+    {
+      "part": 2,
+      "text": "This isn't a movie set.",
+      "startFrame": 371,
+      "endFrame": 402,
+      "sourceStartSeconds": 0.56,
+      "sourceEndSeconds": 1.5,
+      "wordCount": 5
+    },
+    {
+      "part": 2,
+      "text": "People live here, and those quiet",
+      "startFrame": 403,
+      "endFrame": 445,
+      "sourceStartSeconds": 1.639,
+      "sourceEndSeconds": 3.039,
+      "wordCount": 6
+    },
+    {
+      "part": 2,
+      "text": "hours belong to the neighborhood.",
+      "startFrame": 446,
+      "endFrame": 505,
+      "sourceStartSeconds": 3.079,
+      "sourceEndSeconds": 4.279,
+      "wordCount": 5
+    },
+    {
+      "part": 2,
+      "text": "The easy plan is simple: visit",
+      "startFrame": 506,
+      "endFrame": 544,
+      "sourceStartSeconds": 5.079,
+      "sourceEndSeconds": 6.359,
+      "wordCount": 6
+    },
+    {
+      "part": 2,
+      "text": "the red zone from ten to",
+      "startFrame": 545,
+      "endFrame": 580,
+      "sourceStartSeconds": 6.379,
+      "sourceEndSeconds": 7.539,
+      "wordCount": 6
+    },
+    {
+      "part": 2,
+      "text": "five, then leave the residential",
+      "startFrame": 581,
+      "endFrame": 623,
+      "sourceStartSeconds": 7.579,
+      "sourceEndSeconds": 8.94,
+      "wordCount": 5
+    },
+    {
+      "part": 2,
+      "text": "lanes before the restriction starts.",
+      "startFrame": 624,
+      "endFrame": 683,
+      "sourceStartSeconds": 9.019,
+      "sourceEndSeconds": 10.579,
+      "wordCount": 5
+    },
+    {
+      "part": 3,
+      "text": "After five, book an official",
+      "startFrame": 694,
+      "endFrame": 733,
+      "sourceStartSeconds": 0.199,
+      "sourceEndSeconds": 1.48,
+      "wordCount": 5
+    },
+    {
+      "part": 3,
+      "text": "public-hanok program—or move to an",
+      "startFrame": 734,
+      "endFrame": 783,
+      "sourceStartSeconds": 1.559,
+      "sourceEndSeconds": 3.159,
+      "wordCount": 5
+    },
+    {
+      "part": 3,
+      "text": "evening-friendly commercial part of Jongno.",
+      "startFrame": 784,
+      "endFrame": 843,
+      "sourceStartSeconds": 3.199,
+      "sourceEndSeconds": 5.019,
+      "wordCount": 5
+    },
+    {
+      "part": 3,
+      "text": "Pretty doesn't mean public.",
+      "startFrame": 844,
+      "endFrame": 878,
+      "sourceStartSeconds": 5.199,
+      "sourceEndSeconds": 6.219,
+      "wordCount": 4
+    },
+    {
+      "part": 3,
+      "text": "Save this before Seoul, and get",
+      "startFrame": 879,
+      "endFrame": 919,
+      "sourceStartSeconds": 6.379,
+      "sourceEndSeconds": 7.719,
+      "wordCount": 6
+    },
+    {
+      "part": 3,
+      "text": "the full hanok guide at epickor.com.",
+      "startFrame": 920,
+      "endFrame": 984,
+      "sourceStartSeconds": 7.759,
+      "sourceEndSeconds": 9.46,
+      "wordCount": 6
+    }
+  ],
+  "coverage": {
+    "transcriptWords": 107,
+    "captionWords": 107,
+    "audioParts": 3
+  }
+}
