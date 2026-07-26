@@ -1,10 +1,10 @@
 {
   "summary": {
-    "generatedAt": "2026-07-26T08:37:33.766Z",
-    "auditedPosts": 303,
+    "generatedAt": "2026-07-26T08:47:21.458Z",
+    "auditedPosts": 304,
     "includedPrivate": false,
     "slugFilter": "",
-    "bodyImages": 1098,
+    "bodyImages": 1101,
     "affectedPosts": 118,
     "critical": 0,
     "high": 0,
@@ -12006,6 +12006,38 @@
           "url": "/assets/images/posts/323/korean-budae-jjigae-pot.jpg",
           "alt": "A bubbling pot of budae jjigae with sausage, dumplings, instant noodles and chili paste on a tabletop burner.",
           "caption": "The shared pot is a staging choice as much as a food choice — it keeps everyone at the table. Photo via Pexels.",
+          "ext": ".jpg",
+          "exists": true
+        }
+      ],
+      "findings": []
+    },
+    {
+      "type": "blog",
+      "slug": "324",
+      "title": "Jesa and Chuseok Rites Explained: What Korean Families Do",
+      "contentPath": "content\\blog\\324.md",
+      "sourceRecord": "public\\assets\\images\\posts\\324\\image-sources.md",
+      "imageCount": 3,
+      "images": [
+        {
+          "url": "/assets/images/posts/324/chuseok-songpyeon-korean-pear.jpg",
+          "alt": "Songpyeon rice cakes in a small wooden bowl beside Korean pears on a styled holiday table.",
+          "caption": "Songpyeon and Korean pears are two fixtures of the Chuseok table. Photo via Pexels.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/324/korean-rice-cake-making.jpg",
+          "alt": "A worker in gloves cutting freshly made Korean rice cake dusted with bean powder on a wooden board.",
+          "caption": "Holiday rice cakes are still made fresh at markets and workshops in the run-up to Chuseok. Photo via Pexels.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/324/korean-jesa-table-jujube.jpg",
+          "alt": "Korean jujubes in a white bowl beside pears and pressed tea-cake sweets on a holiday table.",
+          "caption": "Jujubes, pears, and dasik pressed sweets are standard fixtures of a Korean ceremonial table. Photo via Pexels.",
           "ext": ".jpg",
           "exists": true
         }

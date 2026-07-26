@@ -3222,8 +3222,10 @@
         "Tradition"
       ],
       "amazon_category": "Culture",
-      "status": "pending",
-      "note": "Added 2026-07-26. Zero jesa/charye coverage (0 grep hits). SEASONAL — HANDOFF flags the Blog 200 Chuseok refresh window as open now on a ~2-month lead, so this pairs with that refresh and can cross-link. 200 is travel logistics (closures/trains); this is the cultural explainer, a distinct intent rather than a retread."
+      "status": "done",
+      "note": "Added 2026-07-26. Zero jesa/charye coverage (0 grep hits). SEASONAL — HANDOFF flags the Blog 200 Chuseok refresh window as open now on a ~2-month lead, so this pairs with that refresh and can cross-link. 200 is travel logistics (closures/trains); this is the cultural explainer, a distinct intent rather than a retread.",
+      "generated_slug": "324",
+      "generated_date": "2026-07-26"
     },
     {
       "id": 147,
@@ -3306,9 +3308,8 @@
         "Fandom"
       ],
       "amazon_category": "Shopping",
-      "status": "in_progress",
-      "generated_slug": "324",
-      "note": "Added 2026-07-26. SPIN-OFF of 134 (K-Pop Merch in Korea) and 291 (Photocard Guide) - labeled as such per CLAUDE.md. Distinct intent: those two cover what to buy WHILE IN KOREA; this covers buying from abroad as a gift. Gift angle nearly absent site-wide (134 mentions gift once, 291 zero). We own photocard sleeve/binder links."
+      "status": "blocked_no_imagery",
+      "note": "Added 2026-07-26. SPIN-OFF of 134 (K-Pop Merch in Korea) and 291 (Photocard Guide) - labeled as such per CLAUDE.md. Distinct intent: those two cover what to buy WHILE IN KOREA; this covers buying from abroad as a gift. Gift angle nearly absent site-wide (134 mentions gift once, 291 zero). We own photocard sleeve/binder links. BLOCKED 2026-07-26: failed the image gate. Pexels has no usable K-pop merch/lightstick/fan-goods photography — searches returned a Vietnamese concert crowd, generic CD racks, and Christmas gift wrapping. Per CLAUDE.md a merely plausible substitute is not acceptable, so the topic is parked rather than illustrated dishonestly. Revive only if licensed imagery is found."
     }
   ],
   "last_updated": "2026-07-26",
