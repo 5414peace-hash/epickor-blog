@@ -3244,8 +3244,73 @@
       "amazon_category": "Books",
       "status": "pending",
       "note": "Added 2026-07-26. Zero coverage (0 grep hits). Social-concept lane; globally recognizable via widely reported incidents. SENSITIVE — same editorial care as 318 (lookism): cite reporting, no mockery, no naming private individuals, present the reform/pushback side too."
+    },
+    {
+      "id": 148,
+      "title": "Korean Mens Skincare 2026: The Routine Behind Idol Skin",
+      "keywords": [
+        "korean skincare for men",
+        "korean mens skincare routine",
+        "k-beauty for men",
+        "korean grooming"
+      ],
+      "category": "Beauty",
+      "tags": [
+        "KBeauty",
+        "MensSkincare",
+        "KoreanCulture",
+        "Grooming"
+      ],
+      "amazon_category": "Beauty",
+      "status": "done",
+      "generated_slug": "322",
+      "note": "Added 2026-07-26. GAP: all 21 beauty posts are female-oriented; zero men-focused grooming post (grep title \"men.*skincare|male.*grooming\" = 0). Market validated: Korean male grooming ~$1.4B/yr, highest per-capita globally, driven by K-pop idols. Bridges our best-efficiency cluster (K-pop/drama, 9.8 clicks/post) to Amazon products that actually exist. Conversion-first per representative direction 2026-07-26.",
+      "generated_date": "2026-07-26"
+    },
+    {
+      "id": 149,
+      "title": "What They Actually Eat in K-Dramas: Make It at Home",
+      "keywords": [
+        "korean drama food",
+        "what do they eat in kdramas",
+        "kdrama food recipes",
+        "korean food from dramas"
+      ],
+      "category": "Food",
+      "tags": [
+        "KoreanFood",
+        "KDrama",
+        "FoodGuide",
+        "CookAtHome"
+      ],
+      "amazon_category": "Food",
+      "status": "done",
+      "generated_slug": "323",
+      "note": "Added 2026-07-26. GAP: food cluster 69 posts x K-drama cluster 12 posts, intersection = 0 dedicated posts. Highest conversion fit on the site: we ALREADY own direct Amazon links for exactly these items (Samyang Buldak, gochujang, ssamjang, kimchi stew, ramyeon pot). Joins our 2nd-largest cluster to our highest-efficiency one.",
+      "generated_date": "2026-07-26"
+    },
+    {
+      "id": 150,
+      "title": "K-Pop Fan Gift Guide 2026: What to Buy From Abroad",
+      "keywords": [
+        "kpop fan gift",
+        "gift for kpop fan",
+        "kpop merch online",
+        "what to buy kpop fan"
+      ],
+      "category": "Shopping",
+      "tags": [
+        "Kpop",
+        "GiftGuide",
+        "Merch",
+        "Fandom"
+      ],
+      "amazon_category": "Shopping",
+      "status": "in_progress",
+      "generated_slug": "324",
+      "note": "Added 2026-07-26. SPIN-OFF of 134 (K-Pop Merch in Korea) and 291 (Photocard Guide) - labeled as such per CLAUDE.md. Distinct intent: those two cover what to buy WHILE IN KOREA; this covers buying from abroad as a gift. Gift angle nearly absent site-wide (134 mentions gift once, 291 zero). We own photocard sleeve/binder links."
     }
   ],
   "last_updated": "2026-07-26",
-  "next_slug": 322
+  "next_slug": 325
 }

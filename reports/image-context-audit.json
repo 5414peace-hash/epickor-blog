@@ -1,10 +1,10 @@
 {
   "summary": {
-    "generatedAt": "2026-07-25T06:20:30.526Z",
-    "auditedPosts": 301,
+    "generatedAt": "2026-07-26T08:37:33.766Z",
+    "auditedPosts": 303,
     "includedPrivate": false,
     "slugFilter": "",
-    "bodyImages": 1092,
+    "bodyImages": 1098,
     "affectedPosts": 118,
     "critical": 0,
     "high": 0,
@@ -11909,7 +11909,7 @@
         {
           "url": "/assets/images/posts/320/63-building-han-river.jpg",
           "alt": "The 63 Building's distinctive gold-glass tower rising above the Han River in Yeouido, Seoul.",
-          "caption": "The 63 Building's gold-tinted glass facade over the Han River — its observation deck spent 16 years closed before reopening in June 2026. Photo via Pexels.",
+          "caption": "The 63 Building's gold-tinted glass facade over the Han River — its rooftop stood largely inaccessible for about 16 years before reopening in June 2026. Photo via Pexels.",
           "ext": ".jpg",
           "exists": true
         }
@@ -11942,6 +11942,70 @@
           "url": "/assets/images/posts/321/goobne-chicken-storefront.jpg",
           "alt": "A Goobne Chicken storefront in South Korea with red-and-black branding and a large menu poster.",
           "caption": "Goobne's storefronts are easy to spot — and unlike the big three, \"No.1 Oven Roasted Chicken\" is right there in the branding. Photo via Pexels.",
+          "ext": ".jpg",
+          "exists": true
+        }
+      ],
+      "findings": []
+    },
+    {
+      "type": "blog",
+      "slug": "322",
+      "title": "Korean Men's Skincare 2026: The Routine Behind Idol Skin",
+      "contentPath": "content\\blog\\322.md",
+      "sourceRecord": "public\\assets\\images\\posts\\322\\image-sources.md",
+      "imageCount": 3,
+      "images": [
+        {
+          "url": "/assets/images/posts/322/korean-man-face-mask.jpg",
+          "alt": "A young man rinsing a white cleansing mask off his face in a tiled bathroom.",
+          "caption": "In Korea, a multi-step face routine is an ordinary weekday habit rather than a special occasion. Photo via Pexels.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/322/korean-man-applying-cream.jpg",
+          "alt": "A man applying moisturizer to his cheek, wearing a bathrobe and sleep mask.",
+          "caption": "The routine most Korean men actually run is short, repeated daily, and unglamorous. Photo via Pexels.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/322/korean-man-moisturizer-jar.jpg",
+          "alt": "A man with light hair applying face cream in a tiled bathroom, holding an open jar.",
+          "caption": "Lightweight, fast-absorbing textures are the defining trait of Korean men's products. Photo via Pexels.",
+          "ext": ".jpg",
+          "exists": true
+        }
+      ],
+      "findings": []
+    },
+    {
+      "type": "blog",
+      "slug": "323",
+      "title": "What They Actually Eat in K-Dramas: Make It at Home",
+      "contentPath": "content\\blog\\323.md",
+      "sourceRecord": "public\\assets\\images\\posts\\323\\image-sources.md",
+      "imageCount": 3,
+      "images": [
+        {
+          "url": "/assets/images/posts/323/korean-fried-chicken-soju.jpg",
+          "alt": "Korean fried chicken glazed in sauce, served with green soju bottles and red chilies on a wooden board.",
+          "caption": "Chimaek — chicken plus beer — is the most-filmed comfort meal in Korean television. Photo via Pexels.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/323/korean-ramyeon-spam-cheese.jpg",
+          "alt": "A bowl of spicy Korean instant noodles topped with Spam, seaweed, melted cheese and sesame seeds.",
+          "caption": "The Spam-and-cheese ramyeon bowl you see on screen has real history behind it — budae jjigae came out of post-war scarcity. Photo via Pexels.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/323/korean-budae-jjigae-pot.jpg",
+          "alt": "A bubbling pot of budae jjigae with sausage, dumplings, instant noodles and chili paste on a tabletop burner.",
+          "caption": "The shared pot is a staging choice as much as a food choice — it keeps everyone at the table. Photo via Pexels.",
           "ext": ".jpg",
           "exists": true
         }
