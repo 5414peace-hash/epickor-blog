@@ -232,6 +232,50 @@
 - Record Reels agent roles, dashboard review status, blockers, and next improvements in `HANDOFF.md`.
 - After publishing a Reel, record hook archetype, thumbnail variant, voice lane, motion-card count/placement, and available performance metrics such as 1h/24h/7d views, saves, shares/sends, comments, profile visits, and external link taps.
 
+## Topic Engine — 뾰족함이 볼륨을 이긴다 (2026-07-26 대표님 지시, GSC 실측으로 확정)
+
+대표님 지시: *"에피코어닷컴에서 좋은 주제와 검색률이 높게 나올 수 있는 뾰족한 주제, 사람들이 클릭을
+하게 만들 수밖에 없는 포스팅… 절대 그 부분에 대해서 요령을 부리거나 뼁끼를 쓰거나 피하려고 하지 말고."*
+
+**계측·링크배치·계정설정으로 도망가지 않는다.** 2026-07-26 세션에서 OneLink → 트래킹 ID → GA4 →
+litt.ly 순으로 배관만 만지고 글은 한 편도 좋아지지 않았다. 배관은 이미 다 되어 있다. 남은 건 콘텐츠뿐이다.
+
+### 우리 데이터가 증명한 것 (2026-07-24 GSC, 3개월, 1,000쿼리)
+
+| 쿼리 | 노출 | 클릭 | CTR |
+|---|---|---|---|
+| `korean convenience store breakfast` | 61 | 9 | **14.75%** |
+| `ahjussi` | 20,585 | 12 | 0.058% |
+
+**노출 61개가 노출 20,585개를 이긴다 — 뾰족함이 볼륨을 340배 이긴다.** 전체 184,100 노출 /
+348 클릭 / 0.189%. 구매·행동 의도 쿼리는 노출의 1.5%(2,776)인데 클릭의 13%(44)를 만든다(CTR 1.59%).
+인도네시아어 쿼리는 29,442 노출에 클릭 **1개**.
+
+### 이기는 주제 / 지는 주제
+
+- **이긴다**: 구체적인 한국 물건·장소·경험 + 독자가 실제로 하는 행동. `korean convenience store
+  breakfast`(14.75%), `isaac toast sauce where to buy`(2%), `deli manjoo recipe`(5.13%),
+  `shopping in busan vs seoul`(11.76%). Google이 SERP에서 답을 끝낼 수 없는 질문들이다.
+- **진다**: 한국어 단어·개념의 뜻. `ahjussi`, `sky university`, `~ meaning`, `artinya`.
+  검색결과 스니펫에서 답이 끝나므로 노출이 아무리 커도 클릭이 안 나온다. **노출 수를 성과로 보고하지 말 것.**
+
+### 신규 주제 선정 절차 (순서를 지킨다)
+
+1. **수요 근거**: GSC 쿼리, 검증된 Reels/카드뉴스 반응, 또는 외부 검색 근거 중 하나를 반드시 댄다.
+   근거 없는 "좋아 보이는 주제" 금지.
+2. **중복 감사**: `content/blog/*.md` 제목·본문, `topics-queue.json`, `output/final/`을 검색한다.
+   의미·검색의도가 겹치면 제목이 달라도 중복이다. 리트레드면 그렇게 라벨하고 기존 슬러그와 이유를 적는다.
+3. **행동 검증**: 독자가 글을 읽고 *하는 일*이 한 문장으로 나오는가. 안 나오면 정의형이므로 버린다.
+4. **이미지 게이트**: 쓰기 전에 실제 사용 가능한 이미지가 있는지 확인한다(Reels 소재 게이트와 동일).
+   없으면 `blocked_no_imagery`로 큐에 남기고 그럴듯한 대체 이미지로 채우지 않는다.
+5. **수익 경로**: Amazon 상품이 자연스럽게 붙는가. 안 붙으면 왜 그래도 쓸 가치가 있는지 적는다.
+
+### 10배의 산수 — 이건 눈덩이지 한 방이 아니다
+
+뾰족한 글 1편 ≈ 분기당 200~400 노출 × 1.6~15% CTR ≈ 분기당 3~30 클릭. 현재 348클릭/분기를
+10배로 만들려면 **뾰족한 글 150~300편**이 필요하다. 하루 3편이면 2~3개월. 기존 ahjussi/SKY
+노출 기반을 키워서는 절대 도달할 수 없다 — 그쪽은 10배 늘려도 클릭은 1.3배다.
+
 ## Handoff And Strategy Check Rules
 
 ### 세션 시작 (이 순서를 지킨다)

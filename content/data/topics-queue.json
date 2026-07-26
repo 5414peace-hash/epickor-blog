@@ -3183,7 +3183,8 @@
       ],
       "amazon_category": "Food",
       "status": "pending",
-      "note": "Added 2026-07-26. Carried over from the W30 report P3 candidate #5, which the representative had not yet approved. Re-audited 2026-07-26: zero dedicated coverage (grep for spice level / how spicy returns 0 title matches; 048 is Carbo Buldak-specific, 311 is tteokbokki-specific, 217 was a false positive for \"spicules\" skincare). Decision-frame food guide = the site's best-CTR class (275/300/320/321)."
+      "note": "Added 2026-07-26. Carried over from the W30 report P3 candidate #5, which the representative had not yet approved. Re-audited 2026-07-26: zero dedicated coverage (grep for spice level / how spicy returns 0 title matches; 048 is Carbo Buldak-specific, 311 is tteokbokki-specific, 217 was a false positive for \"spicules\" skincare). Decision-frame food guide = the site's best-CTR class (275/300/320/321). | 2026-07-26: promoted to slot 326 in place of the delimanjoo recipe (image-gate fail). Passes the new Topic Engine test - action shape (reader decides what to order and how hot to go), abundant Korea-verifiable food imagery, and direct Amazon fit via gochugaru/gochujang/buldak.",
+      "generated_slug": "326"
     },
     {
       "id": 145,
@@ -3310,6 +3311,75 @@
       "amazon_category": "Shopping",
       "status": "blocked_no_imagery",
       "note": "Added 2026-07-26. SPIN-OFF of 134 (K-Pop Merch in Korea) and 291 (Photocard Guide) - labeled as such per CLAUDE.md. Distinct intent: those two cover what to buy WHILE IN KOREA; this covers buying from abroad as a gift. Gift angle nearly absent site-wide (134 mentions gift once, 291 zero). We own photocard sleeve/binder links. BLOCKED 2026-07-26: failed the image gate. Pexels has no usable K-pop merch/lightstick/fan-goods photography — searches returned a Vietnamese concert crowd, generic CD racks, and Christmas gift wrapping. Per CLAUDE.md a merely plausible substitute is not acceptable, so the topic is parked rather than illustrated dishonestly. Revive only if licensed imagery is found."
+    },
+    {
+      "id": 151,
+      "title": "Best Korean Dramas of 2026 So Far: What Is Actually Worth Your Time",
+      "keywords": [
+        "best kdrama 2026",
+        "best korean drama 2026",
+        "best kdrama of 2026 so far",
+        "korean drama 2026 netflix",
+        "best korean series 2026",
+        "top 10 korean drama 2026"
+      ],
+      "category": "Culture",
+      "tags": [
+        "KDrama",
+        "KoreanDrama",
+        "WatchGuide",
+        "Netflix"
+      ],
+      "amazon_category": "Entertainment",
+      "status": "in_progress",
+      "generated_slug": "325",
+      "generated_date": "2026-07-26",
+      "note": "Added 2026-07-26 under the new Topic Engine rule. DEMAND: GSC 2026-07-24 shows a 69-query cluster at 1,675 impressions / 42 clicks / 2.51% CTR that converts across English, Indonesian, Arabic, Russian and Spanish searchers - and we have ZERO dedicated posts, so those positions (3.9-11.9) come from incidental mentions only. DEDUP: grepped every content/blog title and body for best kdrama / korean drama 2026; 002/009/010/016/031/040 are unrelated celebrity or cinema posts. ACTION TEST: reader picks what to watch tonight. This is deliberately a living post - it must be re-verified and updated as 2026 continues, which is exactly the daily-update brand the representative asked for."
+    },
+    {
+      "id": 152,
+      "title": "How to Make Deli Manjoo at Home: The Subway Custard Snack, Recreated",
+      "keywords": [
+        "deli manjoo recipe",
+        "delimanjoo recipe",
+        "how to make deli manjoo",
+        "korean custard cake recipe",
+        "deli manjoo corn"
+      ],
+      "category": "Food",
+      "tags": [
+        "KoreanFood",
+        "Recipe",
+        "DeliManjoo",
+        "CookAtHome"
+      ],
+      "amazon_category": "Food",
+      "status": "blocked_no_imagery",
+      "generated_date": "2026-07-26",
+      "note": "Added 2026-07-26 under the new Topic Engine rule. DEMAND: deli manjoo is EpicKor s single strongest franchise - a 37-query cluster at 8,860 impressions / 86 clicks, ranking position 3-7. Recipe intent is proven inside it: deli manjoo recipe 39 imp / 2 clicks = 5.13% CTR, delimanjoo recipe 63 imp / 1 click. DEDUP: 071 is What Is Deli Manjoo (explainer), 220 is a subway snacks roundup; neither contains a recipe. Labelled as a deliberate cluster spin-off of 071, not a fresh topic. MONETIZATION: madeleine/custard pan, corn extract, piping bag - direct Amazon fit. | 2026-07-26 IMAGE GATE FAIL: Wikimedia Commons has exactly one delimanjoo photo and Pexels has none (it returned hodu-gwaja walnut cookies and an unrelated sandwich). A recipe post additionally needs process shots - batter, pan, filling, finished tray - which do not exist under any usable licence, and EpicKor does not shoot its own food photography. Post 071 owns real delimanjoo frames but the 2026-07-25 cross-post image-uniqueness rule forbids reusing them. Parked rather than illustrated with a plausible substitute. UNBLOCK IF: EpicKor shoots its own process photos, or a licence-safe delimanjoo set appears."
+    },
+    {
+      "id": 153,
+      "title": "PC Bang in Korea: What It Costs, How to Get In, and Why the Ramyeon Matters",
+      "keywords": [
+        "pc bang",
+        "pc bang korea",
+        "pc bang price",
+        "how to use pc bang foreigner",
+        "korean internet cafe"
+      ],
+      "category": "Culture",
+      "tags": [
+        "PCBang",
+        "KoreaTravel",
+        "Gaming",
+        "SeoulGuide"
+      ],
+      "amazon_category": "Gear",
+      "status": "in_progress",
+      "generated_slug": "327",
+      "generated_date": "2026-07-26",
+      "note": "Added 2026-07-26 under the new Topic Engine rule. DEMAND: 33-query cluster at 1,017 impressions, no dedicated post - positions 5-19 come from incidental mentions in 018/036/049/093. CAVEAT recorded honestly: cluster CTR is only 0.20% because roughly half the queries are definitional or statistical (pc bang meaning, number of pc bangs in korea 2026). The winnable slice is the ~400 experience-intent impressions (pc bang 265, pc bang korea 52, pc bangs 45, pcbang 41). ANGLE MUST BE THE EXPERIENCE, NOT THE DEFINITION - cost, foreigner ID requirement, ordering food - or this becomes another ahjussi-shaped loser."
     }
   ],
   "last_updated": "2026-07-26",
