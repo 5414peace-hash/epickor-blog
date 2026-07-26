@@ -1,0 +1,266 @@
+{
+  "slug": "174",
+  "version": "v01",
+  "fps": 30,
+  "generatedAt": "2026-07-26T15:01:35.107Z",
+  "method": "ElevenLabs Forced Alignment against the approved narration transcript",
+  "captionLeadFrames": 5,
+  "safeZone": {
+    "left": 76,
+    "right": 76,
+    "bottom": 410,
+    "maxWidth": 928
+  },
+  "parts": [
+    {
+      "part": 1,
+      "transcript": "There are like a thousand people moving through this station right now, and it's completely silent. Not quiet. Silent. Nobody's on speakerphone, nobody's taking a call, nobody's playing a video out loud — and honestly that's the first thing that messes with you.",
+      "alignmentLoss": 0.06652403196305719,
+      "wordCount": 43,
+      "beatCount": 9,
+      "firstWordStart": 0.099,
+      "lastWordEnd": 15.279
+    },
+    {
+      "part": 2,
+      "transcript": "The rules aren't posted anywhere. They're just understood. You don't eat on the train. You don't put your bag on the seat next to you.",
+      "alignmentLoss": 0.03424963043696845,
+      "wordCount": 25,
+      "beatCount": 5,
+      "firstWordStart": 0.079,
+      "lastWordEnd": 6.259
+    },
+    {
+      "part": 3,
+      "transcript": "And those priority seats? Those are for pregnant passengers, and people will stand right next to an empty one for forty minutes rather than take it. So the fastest way to look like you've done this before is honestly just to say nothing. Headphones in, face the doors. Everybody else already is.",
+      "alignmentLoss": 0.02717133416967877,
+      "wordCount": 52,
+      "beatCount": 10,
+      "firstWordStart": 0.079,
+      "lastWordEnd": 16.76
+    }
+  ],
+  "beats": [
+    {
+      "part": 1,
+      "text": "There are like a thousand people",
+      "startFrame": 8,
+      "endFrame": 43,
+      "sourceStartSeconds": 0.099,
+      "sourceEndSeconds": 1.339,
+      "wordCount": 6
+    },
+    {
+      "part": 1,
+      "text": "moving through this station right",
+      "startFrame": 44,
+      "endFrame": 78,
+      "sourceStartSeconds": 1.36,
+      "sourceEndSeconds": 2.5,
+      "wordCount": 5
+    },
+    {
+      "part": 1,
+      "text": "now, and it's completely silent.",
+      "startFrame": 79,
+      "endFrame": 161,
+      "sourceStartSeconds": 2.539,
+      "sourceEndSeconds": 4.539,
+      "wordCount": 5
+    },
+    {
+      "part": 1,
+      "text": "Not quiet.",
+      "startFrame": 162,
+      "endFrame": 199,
+      "sourceStartSeconds": 5.319,
+      "sourceEndSeconds": 5.819,
+      "wordCount": 2
+    },
+    {
+      "part": 1,
+      "text": "Silent.",
+      "startFrame": 200,
+      "endFrame": 230,
+      "sourceStartSeconds": 6.579,
+      "sourceEndSeconds": 6.919,
+      "wordCount": 1
+    },
+    {
+      "part": 1,
+      "text": "Nobody's on speakerphone, nobody's taking a",
+      "startFrame": 231,
+      "endFrame": 294,
+      "sourceStartSeconds": 7.619,
+      "sourceEndSeconds": 9.679,
+      "wordCount": 6
+    },
+    {
+      "part": 1,
+      "text": "call, nobody's playing a video out",
+      "startFrame": 295,
+      "endFrame": 350,
+      "sourceStartSeconds": 9.739,
+      "sourceEndSeconds": 11.579,
+      "wordCount": 6
+    },
+    {
+      "part": 1,
+      "text": "loud — and honestly that's the",
+      "startFrame": 351,
+      "endFrame": 422,
+      "sourceStartSeconds": 11.619,
+      "sourceEndSeconds": 13.939,
+      "wordCount": 6
+    },
+    {
+      "part": 1,
+      "text": "first thing that messes with you.",
+      "startFrame": 423,
+      "endFrame": 473,
+      "sourceStartSeconds": 14,
+      "sourceEndSeconds": 15.279,
+      "wordCount": 6
+    },
+    {
+      "part": 2,
+      "text": "The rules aren't posted anywhere.",
+      "startFrame": 487,
+      "endFrame": 540,
+      "sourceStartSeconds": 0.079,
+      "sourceEndSeconds": 1.459,
+      "wordCount": 5
+    },
+    {
+      "part": 2,
+      "text": "They're just understood.",
+      "startFrame": 541,
+      "endFrame": 587,
+      "sourceStartSeconds": 1.979,
+      "sourceEndSeconds": 2.899,
+      "wordCount": 3
+    },
+    {
+      "part": 2,
+      "text": "You don't eat on the train.",
+      "startFrame": 588,
+      "endFrame": 619,
+      "sourceStartSeconds": 3.539,
+      "sourceEndSeconds": 4.519,
+      "wordCount": 6
+    },
+    {
+      "part": 2,
+      "text": "You don't put your bag on",
+      "startFrame": 620,
+      "endFrame": 643,
+      "sourceStartSeconds": 4.619,
+      "sourceEndSeconds": 5.379,
+      "wordCount": 6
+    },
+    {
+      "part": 2,
+      "text": "the seat next to you.",
+      "startFrame": 644,
+      "endFrame": 682,
+      "sourceStartSeconds": 5.4,
+      "sourceEndSeconds": 6.259,
+      "wordCount": 5
+    },
+    {
+      "part": 3,
+      "text": "And those priority seats?",
+      "startFrame": 696,
+      "endFrame": 763,
+      "sourceStartSeconds": 0.079,
+      "sourceEndSeconds": 1.299,
+      "wordCount": 4
+    },
+    {
+      "part": 3,
+      "text": "Those are for pregnant passengers, and",
+      "startFrame": 764,
+      "endFrame": 819,
+      "sourceStartSeconds": 2.44,
+      "sourceEndSeconds": 4.259,
+      "wordCount": 6
+    },
+    {
+      "part": 3,
+      "text": "people will stand right next to",
+      "startFrame": 820,
+      "endFrame": 858,
+      "sourceStartSeconds": 4.319,
+      "sourceEndSeconds": 5.599,
+      "wordCount": 6
+    },
+    {
+      "part": 3,
+      "text": "an empty one for forty",
+      "startFrame": 859,
+      "endFrame": 889,
+      "sourceStartSeconds": 5.619,
+      "sourceEndSeconds": 6.579,
+      "wordCount": 5
+    },
+    {
+      "part": 3,
+      "text": "minutes rather than take it.",
+      "startFrame": 890,
+      "endFrame": 946,
+      "sourceStartSeconds": 6.659,
+      "sourceEndSeconds": 8.479,
+      "wordCount": 5
+    },
+    {
+      "part": 3,
+      "text": "So the fastest way to look",
+      "startFrame": 947,
+      "endFrame": 984,
+      "sourceStartSeconds": 8.539,
+      "sourceEndSeconds": 9.739,
+      "wordCount": 6
+    },
+    {
+      "part": 3,
+      "text": "like you've done this before is",
+      "startFrame": 985,
+      "endFrame": 1027,
+      "sourceStartSeconds": 9.8,
+      "sourceEndSeconds": 11.18,
+      "wordCount": 6
+    },
+    {
+      "part": 3,
+      "text": "honestly just to say nothing.",
+      "startFrame": 1028,
+      "endFrame": 1091,
+      "sourceStartSeconds": 11.239,
+      "sourceEndSeconds": 12.699,
+      "wordCount": 5
+    },
+    {
+      "part": 3,
+      "text": "Headphones in, face the doors.",
+      "startFrame": 1092,
+      "endFrame": 1155,
+      "sourceStartSeconds": 13.38,
+      "sourceEndSeconds": 14.88,
+      "wordCount": 5
+    },
+    {
+      "part": 3,
+      "text": "Everybody else already is.",
+      "startFrame": 1156,
+      "endFrame": 1206,
+      "sourceStartSeconds": 15.519,
+      "sourceEndSeconds": 16.76,
+      "wordCount": 4
+    }
+  ],
+  "coverage": {
+    "transcriptWords": 120,
+    "captionWords": 120,
+    "audioParts": 3
+  }
+}

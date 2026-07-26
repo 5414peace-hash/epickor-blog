@@ -1,0 +1,33 @@
+{
+  "slug": "175",
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "durationInFrames": 1140,
+  "audioSegments": [
+    {
+      "part": 1,
+      "file": "voice-part-1.mp3",
+      "staticFilePath": "audio/voice-part-1.mp3",
+      "startFrame": 8,
+      "durationFrames": 480,
+      "durationSeconds": 15.975
+    },
+    {
+      "part": 2,
+      "file": "voice-part-2.mp3",
+      "staticFilePath": "audio/voice-part-2.mp3",
+      "startFrame": 500,
+      "durationFrames": 225,
+      "durationSeconds": 7.477
+    },
+    {
+      "part": 3,
+      "file": "voice-part-3.mp3",
+      "staticFilePath": "audio/voice-part-3.mp3",
+      "startFrame": 737,
+      "durationFrames": 293,
+      "durationSeconds": 9.752
+    }
+  ]
+}

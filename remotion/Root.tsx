@@ -14,6 +14,9 @@ import {
   Reel302V01Composition,
   Reel302V03Composition,
 } from './ReelNextBatchFinalComposition';
+import { Reel174Composition } from './Reel174Composition';
+import { Reel175Composition } from './Reel175Composition';
+import { Reel220Composition } from './Reel220Composition';
 import { Reel311Composition } from './Reel311Composition';
 import { Reel312Composition } from './Reel312Composition';
 import { Reel313Composition } from './Reel313Composition';
@@ -61,6 +64,32 @@ function metadataFromProps(inputProps: ReelProps) {
 function Root() {
   return (
     <>
+      {/* 2026-07-26 batch. Durations come from remotion-props-v01.json, which is
+          generated from the measured TTS lengths, so audio can never outrun video. */}
+      <Composition
+        id="Reel220"
+        component={Reel220Composition}
+        durationInFrames={1345}
+        fps={30}
+        width={1080}
+        height={1920}
+      />
+      <Composition
+        id="Reel174"
+        component={Reel174Composition}
+        durationInFrames={1325}
+        fps={30}
+        width={1080}
+        height={1920}
+      />
+      <Composition
+        id="Reel175"
+        component={Reel175Composition}
+        durationInFrames={1140}
+        fps={30}
+        width={1080}
+        height={1920}
+      />
       <Composition
         id="EpicKorReel"
         component={ReelComposition}

@@ -42,6 +42,18 @@ debug.log
 !/output/reels/
 /output/reels/*
 !/output/reels/metrics.json
+!/output/reels/*.md
+# Per-Reel text: scripts, source provenance, and the two JSON files the Remotion
+# compositions import at build time. Without these a clean checkout fails to compile.
+# Media (video/audio/renders) stays excluded - the 2026-07-26 batch alone is 313MB.
+!/output/reels/*/
+/output/reels/*/*
+!/output/reels/*/*.md
+!/output/reels/*/caption-timings-*.json
+!/output/reels/*/remotion-props-*.json
+!/output/reels/*/tts/
+/output/reels/*/tts/*
+!/output/reels/*/tts/*.txt
 /.tmp/
 /.history/
 /history/
