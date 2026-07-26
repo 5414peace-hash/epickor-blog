@@ -72,6 +72,25 @@
   Scripts: `scratchpad/ga_login.py` (step 1) → `scratchpad/ga_attach.py` (step 2).
   Profile is `scratchpad/ga-profile`, separate from `meta-profile` so the Amazon session is untouched.
 
+- **2026-07-26 — GA4 data starts ~2026-07-10, so only ~16 days exist.** Whole-property totals:
+  **5,688 events, 1,839 page_view, 1,316 users, 7 `affiliate_amazon_click` (4 users).** The 90-day
+  and 28-day windows return identical numbers, and the last 7 days hold 46% of pageviews where an
+  even 28-day spread would give 25% — both confirm the short history. *Verified:* GA4 이벤트 report.
+- **2026-07-26 — The website's affiliate CTR is 0.38%** (7 clicks / 1,839 pageviews ≈ 13/month).
+  **This is the actual bottleneck**, and the ratio is robust even though absolute counts are
+  undercounted by ad blockers — blockers suppress pageviews and click events alike.
+- **2026-07-26 — Most Amazon clicks do NOT come from epickor.com.** GA4 ≈13/month vs Amazon's
+  35/month. **Cause found:** the Instagram bio hub `litt.ly/epickor` carries two direct Amazon
+  short links (`amzn.to/4bSbotg` "Mud Festival packing checklist", `amzn.to/4k0T839` "Korean food
+  and snack picks"). Off-domain, so they earn on Amazon but never fire a GA4 event. That hub also
+  carries Coupang Partners and Agoda `cid=1968802` links.
+  **Consequence: never treat GA4 affiliate clicks as the site's total Amazon clicks.**
+- **2026-07-26 — GA4 cannot yet say which posts convert.** n=7 across 4 users is noise. Revisit once
+  the event count passes ~100 (roughly 2026-10 at the current rate).
+- **2026-07-26 — GA tag coverage verified on live production**: `/`, `/business`, `/blog/322`,
+  `/blog/090` all serve `G-HH7PM78V3E`. No coverage gap; the tracking code in
+  `AnalyticsEvents.tsx` correctly matches amazon.com, its subdomains, `amzn.to`, and `tag=`.
+
 ## deploy
 
 - **2026-07-26 — `git push` alone deploys. Never run `vercel deploy` manually.** The CLI archive
