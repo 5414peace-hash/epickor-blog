@@ -484,8 +484,19 @@ output/reels/{slug}/          Reels scene manifest, visual candidates, review no
 
 이 항목들은 2026-07-20 배포 중 직접 확인한 사실이다. 추측이 아니라 실측이므로 다음 발행 때 그대로 따른다.
 
-- **git push만으로는 배포되지 않는다.** master에 push해도 Vercel 자동 배포가 트리거되지 않았다. 발행 후 반드시 수동으로 배포한다:
-  `npx vercel deploy --prod --archive=tgz --yes`
+- **[2026-07-26 정정] git push만으로 배포된다. 수동 CLI 배포는 이제 쓰지 말 것.**
+  아래 옛 지침("git push로는 배포 안 되니 `--archive=tgz`로 수동 배포하라")은 **틀렸고, 실제로 장애를 일으켰다.**
+  - 실측 근거: 2026-07-26 성공 배포 로그는 `Cloning github.com/... (Commit: b89598e)` → `Found .vercelignore`
+    → `Removed 156 ignored files`로 끝나고 **3분** 만에 Ready였다. 즉 **git 연동 자동배포가 정상 작동 중이다.**
+  - 반면 같은 날 `npx vercel deploy --prod --archive=tgz`로 돌린 배포는
+    `Extracting deployment files...` → **`Extracted 20,230 deployment files`**(추출에만 4.5분)로 시작해
+    45분 만에 Error가 났고, 뒤따르던 배포 2건이 Queued로 막혀 큐 전체가 정체됐다.
+  - 원인: CLI 아카이브 업로드가 `.vercelignore`에 있는 `.tmp/`(11,046개)와 `output/`(5,687개)까지
+    싸서 올린다. 20,230 − 정상 3,334 ≈ 그 둘의 합과 정확히 일치한다. **git 배포는 이 둘이 gitignore라
+    애초에 클론에 없어서 문제가 생기지 않는다.**
+  - **따라서 발행 절차는 `git push`로 끝난다.** 별도 `vercel deploy`를 돌리지 말 것.
+  - 배포가 Queued에 오래 머물면 CLI 배포가 큐를 막고 있는지부터 확인하고
+    `npx vercel remove {deployment-url} --yes`로 제거한다.
 - **`vercel` CLI는 배포 성공 후에도 프로세스가 종료되지 않는다.** CLI 종료를 기다리지 말 것. 성공 판정은 다음 두 가지로 한다:
   1. `npx vercel ls epickor-blog --yes` 최상단 배포가 `● Ready`
   2. 공개 URL이 HTTP 200
