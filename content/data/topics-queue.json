@@ -3331,10 +3331,9 @@
         "Netflix"
       ],
       "amazon_category": "Entertainment",
-      "status": "in_progress",
-      "generated_slug": "325",
+      "status": "merged_into_existing_post",
       "generated_date": "2026-07-26",
-      "note": "Added 2026-07-26 under the new Topic Engine rule. DEMAND: GSC 2026-07-24 shows a 69-query cluster at 1,675 impressions / 42 clicks / 2.51% CTR that converts across English, Indonesian, Arabic, Russian and Spanish searchers - and we have ZERO dedicated posts, so those positions (3.9-11.9) come from incidental mentions only. DEDUP: grepped every content/blog title and body for best kdrama / korean drama 2026; 002/009/010/016/031/040 are unrelated celebrity or cinema posts. ACTION TEST: reader picks what to watch tonight. This is deliberately a living post - it must be re-verified and updated as 2026 continues, which is exactly the daily-update brand the representative asked for."
+      "note": "Added 2026-07-26 under the new Topic Engine rule. DEMAND: GSC 2026-07-24 shows a 69-query cluster at 1,675 impressions / 42 clicks / 2.51% CTR that converts across English, Indonesian, Arabic, Russian and Spanish searchers - and we have ZERO dedicated posts, so those positions (3.9-11.9) come from incidental mentions only. DEDUP: grepped every content/blog title and body for best kdrama / korean drama 2026; 002/009/010/016/031/040 are unrelated celebrity or cinema posts. ACTION TEST: reader picks what to watch tonight. This is deliberately a living post - it must be re-verified and updated as 2026 continues, which is exactly the daily-update brand the representative asked for. | 2026-07-28 정정: 초안 작성 직전 재검증 중 167번 글(\"Best Korean Dramas 2026: What to Watch First Now\", 2026-04-27 발행)이 이미 거의 동일한 주제/키워드(FAQ에 \"best Korean drama of 2026 so far\" 문항까지 동일)를 다루고 있는 걸 발견. 원래 중복감사가 제목 기반 grep(002/009/010/016/031/040)만 돌려서 167을 놓쳤음 - 제목이 달라도 의미가 겹치면 중복이라는 Topic Engine 원칙 그대로 적용해 신규 글 대신 167을 업데이트함. 167이 다루지 않았던, 이제 방영 완료/방영중으로 확인된 신작 4개(저지 리턴즈, 티치 유 어 레슨, 마이 로열 네메시스, 스푸키 인 러브)를 반영해 167을 갱신, 커밋 완료. 슬러그 325는 미사용으로 반납."
     },
     {
       "id": 152,
@@ -3777,6 +3776,6 @@
       "generated_slug": "329"
     }
   ],
-  "last_updated": "2026-07-27",
+  "last_updated": "2026-07-28",
   "next_slug": 325
 }
