@@ -3617,6 +3617,50 @@
       "status": "pending",
       "note": "Added 2026-07-27. Verified real and current global viral trend (recipe blogs worldwide - Manila Spoon, Bake Street, Deliciously Rushed - covering it through 2025-2026), originated in Gangnam bakeries. IMPORTANT ANGLE NOTE: the recipe keyword itself is already saturated by dedicated recipe/food blogs with strong SEO authority - do not compete head-on with a recipe post. EpicKor's defensible lane is the travel/guide angle ('where to actually find/eat it in Seoul', bakery recommendations, what makes the real version different from home attempts) rather than a recipe, consistent with the site's guide-not-recipe identity. Amazon fit via cream cheese / garlic butter product search-links, weaker than food-decision posts but real.",
       "generated_date": "2026-07-27"
+    },
+    {
+      "id": 165,
+      "title": "Seoul's Most Viral Rooftop Cafes: Where TikTok Is Actually Sending You",
+      "keywords": [
+        "seoul rooftop cafe",
+        "viral cafe seoul",
+        "seoul cafe with a view",
+        "best rooftop bar seoul"
+      ],
+      "category": "Travel",
+      "tags": [
+        "SeoulTravel",
+        "CafeCulture",
+        "ViralSpot",
+        "Itinerary"
+      ],
+      "amazon_category": "Travel",
+      "status": "pending",
+      "note": "Added 2026-07-27, TRAVEL category (diversity fix - three prior picks were all Food). Verified real and current: named specific venues actively trending on TikTok/Instagram 2025-2026 (REPERK Coffee, NOOP, Cafe Sangguk, Villa Bar Cafe, Cieltri, Mil Toast - called 'possibly the best known cafe in Seoul' for its TikTok popularity). Zero dedicated coverage - existing matches (069, 128, 188, 214) are incidental keyword collisions, not actual rooftop-cafe content. Decision-format list ('where to actually go') matches the site's best-performing shape. Amazon fit via camera/phone gimbal or travel-photography accessories already in catalog (275 Seoul Tech Shopping) rather than a direct product.",
+      "generated_date": "2026-07-27"
+    },
+    {
+      "id": 166,
+      "title": "Viral K-Beauty Products of 2026: What's Actually Worth Buying (Not Just Trending)",
+      "keywords": [
+        "viral k-beauty 2026",
+        "korean skincare tiktok",
+        "numbuzin",
+        "mixsoon",
+        "beauty of joseon relief sun",
+        "anua heartleaf"
+      ],
+      "category": "Beauty",
+      "tags": [
+        "KBeauty",
+        "Skincare",
+        "TikTokViral",
+        "ProductGuide"
+      ],
+      "amazon_category": "Beauty",
+      "status": "pending",
+      "note": "Added 2026-07-27, BEAUTY category (diversity fix). Verified via three independent sources (skin-seoul.com, idewcare.com, umma.io) naming the same specific viral products - Numbuzin No.9 eye cream, Mixsoon Bean Essence, Beauty of Joseon Relief Sun, Anua Heartleaf toner - plus real market data (K-beauty US sales +37.2% to $2B in the 52 weeks to Aug 2025, driven by TikTok Shop). Distinct from 160 (Best Korean Sunscreens - different product set/angle) and other beauty posts - no dedicated 'what's actually viral right now' roundup exists. Strong Amazon fit: these specific brands increasingly sell directly on Amazon US, not just Olive Young - direct product links likely findable, search-link fallback otherwise.",
+      "generated_date": "2026-07-27"
     }
   ],
   "last_updated": "2026-07-27",
