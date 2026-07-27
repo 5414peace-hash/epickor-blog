@@ -41,19 +41,19 @@ export const Reel175V2Composition: React.FC = () => (
     {/* B1 0-105 "two huge markets / everybody tells you to do both" */}
     <Cut from={0} len={105}>
       <VideoCut src={`${V}/market-stalls-38433424.mp4`} trim={10} from={1.03} to={1.12} />
-      <Ons kicker="Seoul markets" topLine="Everyone says" punch="do both" top={250} size={110} />
+      <Ons kicker="Seoul markets" topLine="Namdaemun vs" punch="Dongdaemun" sub="Pick one. Skip one." top={250} size={96} />
     </Cut>
 
     {/* B2 105-174 "a great way to waste a whole day" */}
     <Cut from={105} len={69}>
       <VideoCut src={`${V}/jongno-alley-32214386.mp4`} trim={20} from={1.02} to={1.10} />
-      <Ons kicker="Honestly" punch="a wasted day" at={0} top={250} size={104} />
+      <Ons kicker="Doing both?" punch="a wasted day" at={0} top={250} size={104} />
     </Cut>
 
     {/* B3 174-248 "they're not the same kind of place at all" */}
     <Cut from={174} len={74}>
       <VideoCut src={`${V}/seoul-street-34676841.mp4`} trim={20} from={1.02} to={1.10} />
-      <Ons kicker="Two markets" topLine="Not the same" punch="place. At all." top={250} size={94} />
+      <Ons kicker="Two markets" topLine="Two different" punch="worlds" top={250} size={104} />
     </Cut>
 
     {/* B4 248-312 "Namdaemun is a daytime thing." — 숭례문 + royal guards */}
@@ -67,13 +67,13 @@ export const Reel175V2Composition: React.FC = () => (
       {/* same source as B1 but reframed hard onto the goods (low crop, tight
           push) so the return reads as a NEW shot, not the first one repeating */}
       <VideoCut src={`${V}/market-stalls-38433424.mp4`} trim={160} origin="center 88%" from={1.30} to={1.45} />
-      <Ons kicker="The routine" topLine="Eat first." punch="Then buy." at={0} top={250} size={100} />
+      <Ons kicker="Namdaemun rule" topLine="Eat first." punch="Then buy." at={0} top={250} size={100} />
     </Cut>
 
     {/* B6 424-500 "by evening most of it's closing up" */}
     <Cut from={424} len={76}>
       <VideoCut src={`${V}/cheonggyecheon-38109939.mp4`} trim={30} from={1.02} to={1.10} />
-      <Ons kicker="By evening" punch="it winds down" at={0} top={250} size={92} />
+      <Ons kicker="Namdaemun" topLine="By evening" punch="it closes" at={0} top={250} size={96} />
     </Cut>
 
     {/* B7 500-562 "Dongdaemun does the exact opposite." — 흥인지문 */}
@@ -85,13 +85,13 @@ export const Reel175V2Composition: React.FC = () => (
     {/* B8 562-637 "doesn't wake up until it's dark" — DOOTA + 평화시장 in frame */}
     <Cut from={562} len={75}>
       <VideoCut src={`${V}/doota-question-36294726.mp4`} trim={30} from={1.02} to={1.10} />
-      <Ons kicker="Fashion town" topLine="Wakes up" punch="after dark" at={0} top={250} size={96} />
+      <Ons kicker="Dongdaemun" topLine="Wakes up" punch="after dark" at={0} top={250} size={96} />
     </Cut>
 
     {/* B9 637-737 "the wholesale buildings just keep going till dawn" — real Seoul night */}
     <Cut from={637} len={100}>
       <VideoCut src={`${V}/night-cross-26690701.mp4`} trim={30} from={1.02} to={1.11} />
-      <Ons kicker="Wholesale" topLine="Runs till" punch="dawn" at={0} top={250} size={112} />
+      <Ons kicker="Dongdaemun wholesale" topLine="Runs till" punch="dawn" at={0} top={250} size={112} />
     </Cut>
 
     {/* B10 737-819 "So it's really one question. Are you shopping in daylight," */}
@@ -111,7 +111,7 @@ export const Reel175V2Composition: React.FC = () => (
     {/* B12 871-936 "Pick one. Do it properly." */}
     <Cut from={871} len={65}>
       <VideoCut src={`${V}/jongno-alley-32214386.mp4`} trim={160} origin="center 8%" from={1.24} to={1.36} />
-      <Ons kicker="Pick one" punch="do it properly" at={0} top={250} size={92} />
+      <Ons kicker="Pick one" topLine="Namdaemun or" punch="Dongdaemun" at={0} top={250} size={88} />
     </Cut>
 
     {/* B13 936-1140 "Skip the other one — enjoy your trip" + outro */}
