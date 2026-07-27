@@ -1,0 +1,257 @@
+{
+  "slug": "174",
+  "version": "v02",
+  "fps": 30,
+  "generatedAt": "2026-07-27T06:00:57.179Z",
+  "method": "ElevenLabs Forced Alignment against the approved narration transcript",
+  "captionLeadFrames": 5,
+  "safeZone": {
+    "left": 76,
+    "right": 76,
+    "bottom": 410,
+    "maxWidth": 928
+  },
+  "parts": [
+    {
+      "part": 1,
+      "transcript": "Here's something nobody warns you about in Seoul. The city is loud — packed streets, music, traffic, all of it. But the second you step into the subway, it all just stops. No speakerphone calls, no videos out loud. Just... quiet.",
+      "alignmentLoss": 0.07368738422227218,
+      "wordCount": 41,
+      "beatCount": 10,
+      "firstWordStart": 0.099,
+      "lastWordEnd": 13.259
+    },
+    {
+      "part": 2,
+      "transcript": "The rules aren't posted anywhere, they're just understood. Let people off the train before you get on. On the escalator, stand right, walk left. And that snack you're holding? It waits until you're back outside.",
+      "alignmentLoss": 0.023303898024898004,
+      "wordCount": 35,
+      "beatCount": 7,
+      "firstWordStart": 0.099,
+      "lastWordEnd": 12.479
+    },
+    {
+      "part": 3,
+      "transcript": "So the fastest way to look like a local is to do almost nothing. Headphones in. Voice down. Face the doors. Everybody around you is already doing it.",
+      "alignmentLoss": 0.0877243984465631,
+      "wordCount": 28,
+      "beatCount": 6,
+      "firstWordStart": 0.119,
+      "lastWordEnd": 8.859
+    }
+  ],
+  "beats": [
+    {
+      "part": 1,
+      "text": "Here's something nobody warns you about in Seoul.",
+      "startFrame": 8,
+      "endFrame": 85,
+      "sourceStartSeconds": 0.099,
+      "sourceEndSeconds": 2.259,
+      "wordCount": 8
+    },
+    {
+      "part": 1,
+      "text": "The city is loud —",
+      "startFrame": 86,
+      "endFrame": 125,
+      "sourceStartSeconds": 2.779,
+      "sourceEndSeconds": 4.04,
+      "wordCount": 5
+    },
+    {
+      "part": 1,
+      "text": "packed streets, music, traffic,",
+      "startFrame": 126,
+      "endFrame": 182,
+      "sourceStartSeconds": 4.119,
+      "sourceEndSeconds": 5.9,
+      "wordCount": 4
+    },
+    {
+      "part": 1,
+      "text": "all of it.",
+      "startFrame": 183,
+      "endFrame": 210,
+      "sourceStartSeconds": 6.019,
+      "sourceEndSeconds": 6.419,
+      "wordCount": 3
+    },
+    {
+      "part": 1,
+      "text": "But the second you step into the subway,",
+      "startFrame": 211,
+      "endFrame": 258,
+      "sourceStartSeconds": 6.94,
+      "sourceEndSeconds": 8.42,
+      "wordCount": 8
+    },
+    {
+      "part": 1,
+      "text": "it all just stops.",
+      "startFrame": 259,
+      "endFrame": 300,
+      "sourceStartSeconds": 8.539,
+      "sourceEndSeconds": 9.679,
+      "wordCount": 4
+    },
+    {
+      "part": 1,
+      "text": "No speakerphone calls,",
+      "startFrame": 301,
+      "endFrame": 331,
+      "sourceStartSeconds": 9.939,
+      "sourceEndSeconds": 10.899,
+      "wordCount": 3
+    },
+    {
+      "part": 1,
+      "text": "no videos out loud.",
+      "startFrame": 332,
+      "endFrame": 359,
+      "sourceStartSeconds": 10.979,
+      "sourceEndSeconds": 11.819,
+      "wordCount": 4
+    },
+    {
+      "part": 1,
+      "text": "Just...",
+      "startFrame": 360,
+      "endFrame": 389,
+      "sourceStartSeconds": 11.92,
+      "sourceEndSeconds": 12.119,
+      "wordCount": 1
+    },
+    {
+      "part": 1,
+      "text": "quiet.",
+      "startFrame": 390,
+      "endFrame": 413,
+      "sourceStartSeconds": 12.92,
+      "sourceEndSeconds": 13.259,
+      "wordCount": 1
+    },
+    {
+      "part": 2,
+      "text": "The rules aren't posted anywhere,",
+      "startFrame": 429,
+      "endFrame": 474,
+      "sourceStartSeconds": 0.099,
+      "sourceEndSeconds": 1.5,
+      "wordCount": 5
+    },
+    {
+      "part": 2,
+      "text": "they're just understood.",
+      "startFrame": 475,
+      "endFrame": 520,
+      "sourceStartSeconds": 1.719,
+      "sourceEndSeconds": 2.639,
+      "wordCount": 3
+    },
+    {
+      "part": 2,
+      "text": "Let people off the train before you get on.",
+      "startFrame": 521,
+      "endFrame": 593,
+      "sourceStartSeconds": 3.259,
+      "sourceEndSeconds": 4.899,
+      "wordCount": 9
+    },
+    {
+      "part": 2,
+      "text": "On the escalator,",
+      "startFrame": 594,
+      "endFrame": 624,
+      "sourceStartSeconds": 5.679,
+      "sourceEndSeconds": 6.44,
+      "wordCount": 3
+    },
+    {
+      "part": 2,
+      "text": "stand right, walk left.",
+      "startFrame": 625,
+      "endFrame": 693,
+      "sourceStartSeconds": 6.699,
+      "sourceEndSeconds": 8.059,
+      "wordCount": 4
+    },
+    {
+      "part": 2,
+      "text": "And that snack you're holding?",
+      "startFrame": 694,
+      "endFrame": 756,
+      "sourceStartSeconds": 9.019,
+      "sourceEndSeconds": 10.119,
+      "wordCount": 5
+    },
+    {
+      "part": 2,
+      "text": "It waits until you're back outside.",
+      "startFrame": 757,
+      "endFrame": 810,
+      "sourceStartSeconds": 11.099,
+      "sourceEndSeconds": 12.479,
+      "wordCount": 6
+    },
+    {
+      "part": 3,
+      "text": "So the fastest way to look like",
+      "startFrame": 826,
+      "endFrame": 869,
+      "sourceStartSeconds": 0.119,
+      "sourceEndSeconds": 1.599,
+      "wordCount": 7
+    },
+    {
+      "part": 3,
+      "text": "a local is to do almost nothing.",
+      "startFrame": 870,
+      "endFrame": 932,
+      "sourceStartSeconds": 1.659,
+      "sourceEndSeconds": 3.46,
+      "wordCount": 7
+    },
+    {
+      "part": 3,
+      "text": "Headphones in.",
+      "startFrame": 933,
+      "endFrame": 964,
+      "sourceStartSeconds": 3.759,
+      "sourceEndSeconds": 4.4,
+      "wordCount": 2
+    },
+    {
+      "part": 3,
+      "text": "Voice down.",
+      "startFrame": 965,
+      "endFrame": 995,
+      "sourceStartSeconds": 4.799,
+      "sourceEndSeconds": 5.779,
+      "wordCount": 2
+    },
+    {
+      "part": 3,
+      "text": "Face the doors.",
+      "startFrame": 996,
+      "endFrame": 1033,
+      "sourceStartSeconds": 5.859,
+      "sourceEndSeconds": 6.94,
+      "wordCount": 3
+    },
+    {
+      "part": 3,
+      "text": "Everybody around you is already doing it.",
+      "startFrame": 1034,
+      "endFrame": 1099,
+      "sourceStartSeconds": 7.099,
+      "sourceEndSeconds": 8.859,
+      "wordCount": 7
+    }
+  ],
+  "coverage": {
+    "transcriptWords": 104,
+    "captionWords": 104,
+    "audioParts": 3
+  }
+}

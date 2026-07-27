@@ -182,6 +182,17 @@
   representative. ffmpeg has `zoompan` for pre-rendered image animation; Remotion StillCut already
   does push/drift natively.
 
+- **2026-07-27 — Korea-verified subway-interior VIDEO does not exist on Pexels or Commons.**
+  Measured across three sweeps (~150 portrait candidates): "seoul subway/metro" queries return
+  Kuala Lumpur, Bucharest, Barcelona, BART, Melbourne and six Turkish photographers. Commons hosts
+  one Korail pass-by webm. **Workaround that shipped in Reel 174 v2:** loud-city/silent-subway
+  contrast structure — above-ground beats on verified Seoul video, underground beats on the
+  **Theodore Nguyen Seoul Metro photo series** (Pexels photos 31892087/31892061/32211609 + Leon
+  Bastian 35010155, slugs name Seoul, Hangul in every frame) as moving stills.
+- **2026-07-27 — Reel batch v2 all rebuilt and rendered**: 220 v005 (confirmed by representative),
+  175 v005, 174 v002. Zero clip overlap with published Reels (ledger-enforced), ONS chains carry
+  the argument sound-off, per-track BGM (Hold Me / Walk the Walk / Papi Beat), -14 LUFS.
+
 ## instagram / social
 
 - **2026-07-26 — Instagram uploads are representative-managed (~1/day) and leave no repo trace.**

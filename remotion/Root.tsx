@@ -17,6 +17,7 @@ import {
 import { Reel174Composition } from './Reel174Composition';
 import { Reel175Composition } from './Reel175Composition';
 import { Reel220Composition } from './Reel220Composition';
+import { Reel174V2Composition } from './Reel174V2Composition';
 import { Reel175V2Composition } from './Reel175V2Composition';
 import { Reel220V2Composition } from './Reel220V2Composition';
 import { Reel311Composition } from './Reel311Composition';
@@ -68,6 +69,14 @@ function Root() {
     <>
       {/* 2026-07-26 batch. Durations come from remotion-props-v01.json, which is
           generated from the measured TTS lengths, so audio can never outrun video. */}
+      <Composition
+        id="Reel174V2"
+        component={Reel174V2Composition}
+        durationInFrames={1214}
+        fps={30}
+        width={1080}
+        height={1920}
+      />
       <Composition
         id="Reel175V2"
         component={Reel175V2Composition}
