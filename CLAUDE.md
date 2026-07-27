@@ -378,6 +378,48 @@ Reviewer and Publisher agents must verify rendered images, not just markdown syn
 - After publish/deploy, check the public URL again. If images are broken, the task is not complete.
 - Record which agent performed this rendered-image check in `HANDOFF.md`.
 
+## Topic Selection Is Never Gated By Image Availability (2026-07-27 대표님 지시로 규칙 전복)
+
+**대표님 지시, 원문 취지 보존**: "픽셀에서 자료가 없기 때문에 주제를 선정할 수 없다는 건 주객전도다.
+주제는 제한 없이 찾고, 드라마든 노래든 영화든 저작권 걸리는 화가든 한국 미술이든 먹거리든 편의점이든
+길거리 음식이든 뭐든 괜찮다. 이미지는 그다음에 찾는 것이다."
+
+**이전 방식(틀렸음)**: 이미지 게이트를 주제 선정의 사전 필터로 썼다 — Pexels/Commons에 사진이 없으면
+후보에서 뺐다. 2026-07-27에 이 방식으로 "신규 주제가 고갈됐다"고 보고했다가 대표님께 정정받았다.
+이건 이미지 조달의 실패를 주제 선정의 실패로 둔갑시킨 것이었다.
+
+**새 순서 — 주제가 먼저, 이미지 조달은 그다음 단계일 뿐이다:**
+
+1. **주제 선정은 제한 없이 한다.** 드라마·노래·영화·미술/화가(저작권 있는 작품 포함)·한식·편의점·
+   길거리 음식, 무엇이든 소재가 된다. GSC 증거가 없어도 좋다 — 외부 검증(뉴스·평론·박물관 기록 등)만
+   있으면 충분하다. 중복 감사(기존 발행글과의 검색의도 겹침)는 여전히 반드시 한다.
+2. **이미지는 주제 확정 후, 다음 단계로 조달한다 (막히면 다음 단계로, 절대 주제를 버리지 않는다):**
+   - **1차: Pexels + Wikimedia Commons** (기존 방식)
+   - **2차: 무료 국내 소스.** 아래 목록 순서대로 확인한다.
+   - **3차: 그래도 없으면 대표님께 되묻는다.** 대표님이 보유한 스톡 폴더가 있을 수 있다 — 있으면
+     날짜/키워드별로 정리된 엑셀(또는 CSV) 색인과 함께 저장소에 넣고, 이후 무제한 재사용 자산으로 등록한다.
+   - **4차: 그래도 부족하면 인터넷(유튜브·구글 이미지 등) 전방위 검색을 한다.** 저작권 걱정으로
+     스스로 막지 말 것 — **대표님이 명시적으로 이 단계를 승인**했다. 찾은 자료를 그대로 도용하지 않고
+     **참조 자료로 삼아 유사하게 재창조(AI 생성 등)**하는 방식을 쓴다. 실제 인물/브랜드를 사칭하거나
+     허위로 "진짜 촬영본"이라 표기하지 않는 선은 지킨다 — 대표님의 승인은 소재 확보 범위에 대한 것이지,
+     허위 출처 표기를 승인한 것은 아니다.
+3. **1~4차를 다 거쳐도 못 찾을 때만** `blocked_no_imagery`로 기록하고 다음 세션이 재시도할 수 있게 남긴다.
+
+**2차 무료 국내 소스 목록 (2026-07-27 조사 확정, 우선순위 순):**
+
+| 소스 | 라이선스 | 강점 |
+|---|---|---|
+| **KTO Photo Gallery** (`english1.visitkorea.or.kr` "Photo Korea") | KOGL Type 1 — 출처표기 조건 상업적 사용·2차 창작 허용 | 한국관광공사 공식, 음식·거리·축제·사찰·한복 등 9만~10만 장. 가입 필요, 1일 20장 제한. **Pexels 다음으로 확인할 1순위** |
+| **Rawpixel 무료/CC0 tier** | CC0 | 조선시대 초상화·동궐도 등 **한국 전통 회화의 퍼블릭도메인 원본**. 한국 화가/미술 주제의 1순위 소스 |
+| **공유마당** (`gongu.copyright.or.kr`) | 항목별 상이 — **반드시 KOGL Type 1만** 사용 (Type 4는 상업 이용 금지) | 전통 미술/문양/역사 자료. 항목마다 라이선스 태그를 직접 확인할 것 |
+| **e영상역사관** (`ehistory.go.kr`) | KOGL Type 1 | 1950년대 이후 역사 사진/뉴스릴 — 레트로/역사 소재 전용 |
+| Pixabay | 상업적 사용 무료, 출처표기 불요 | Pexels와 비슷한 급, 두 번째 백업 |
+
+**하드 금지(상업 이용 불가로 확인됨)**: 국립중앙박물관(National Museum of Korea) 소장품 이미지는
+비상업적 용도로만 허용 — 별도 서면 허가 없이 사용 금지. MMCA(국립현대미술관)도 사전 서면 허가 없이
+재사용 금지. Google Arts & Culture는 참고용 열람 도구일 뿐, 한국 파트너 기관 이미지는 CC0 다운로드가
+아니다. 이 셋은 소싱 대상에서 제외하고, 필요하면 4차(재창조) 단계로 넘어간다.
+
 ## Blog Reference Image Standard
 
 - Use the corrected Blogs `222`, `223`, and `224` as the current benchmark for article images: images should be real reference photos/screenshots with direct section-level relevance, not generic mood photos or decorative editorial graphics.

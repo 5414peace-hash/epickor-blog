@@ -3401,6 +3401,72 @@
       "status": "blocked_no_imagery",
       "note": "Added 2026-07-27 during next-3-topics search. DEMAND VERIFIED (external, no GSC signal yet): Korea Herald + Culture Trip + Creatrip + Daebak + KoreaPeek + IVisitKorea independently confirm saju cafes as a real, current Hongdae/Myeongdong/Hyehwa/Insadong tourist phenomenon, roughly 15,000-50,000 KRW per session, Seoul Tourism Organization formally recognized it as a tourism product in 2024. Zero site coverage. IMAGE GATE FAIL: Wikimedia Commons has no saju-cafe storefront or signage photos; Pexels queries for saju cafe korea and tarot cafe seoul return either generic Korean street or cafe photos with no fortune-telling connection, or generic Western tarot-card stock (cottonbro studio, Pavel Danilyuk) with zero Korea signifier, verified directly via the Pexels API rather than an agent report alone. Using either would violate the no-generic-substitute rule for a named real experience. UNBLOCK IF a specific saju cafe agrees to be photographed and credited, or a licensed travel-journalist photo becomes available.",
       "generated_date": "2026-07-27"
+    },
+    {
+      "id": 155,
+      "title": "Korean Corn Dogs Explained: Why the Cheese-Pull Snack Went Viral Worldwide",
+      "keywords": [
+        "korean corn dog",
+        "korean hot dog",
+        "corn dog seoul",
+        "cheese corn dog korea",
+        "myeongrang hotdog"
+      ],
+      "category": "Food",
+      "tags": [
+        "KoreanFood",
+        "StreetFood",
+        "ViralFood",
+        "Seoul"
+      ],
+      "amazon_category": "Food",
+      "status": "pending",
+      "note": "Added 2026-07-27 on representative direction to select topics on merit first, images second. Distinct from 220 (subway exit snacks - hotteok/bungeoppang/mandu/odeng), where corn dogs get one passing mention only. Real global viral food trend (originated Myeongrang/Isaac-style Korean corn dog chains, spread via TikTok/Instagram to US/SEA), highly photogenic subject so image odds are strong even though not GSC-evidenced yet (blue ocean, no current site coverage to compete against for the query).",
+      "generated_date": "2026-07-27"
+    },
+    {
+      "id": 156,
+      "title": "Korean Modern Art: The Painters Whose Work Now Sells for Millions",
+      "keywords": [
+        "korean modern art",
+        "korean painters",
+        "korean contemporary art",
+        "korean art auction",
+        "kim whanki"
+      ],
+      "category": "Culture",
+      "tags": [
+        "KoreanArt",
+        "Culture",
+        "MMCA",
+        "Auction"
+      ],
+      "amazon_category": "Books",
+      "status": "pending",
+      "note": "Added 2026-07-27 per representative's direct instruction to cover Korean painters/art even where copyright applies to individual works. Genuinely uncovered - existing posts (195 Centre Pompidou Hanwha Seoul, 300 MMCA gift shop, 152 Hangeul design) are adjacent (venues/shopping) but none profile the painters or the art market itself. Real business hook: Korean contemporary art auction records (Kim Whanki, Lee Ufan, Park Soo-keun) have risen sharply at Seoul/Hong Kong auctions - genuine reader curiosity plus travel tie-in (which museums to visit to see the actual work). Monetization via Korean art book / print search links (no dedicated product in catalog yet).",
+      "generated_date": "2026-07-27"
+    },
+    {
+      "id": 157,
+      "title": "Korean Trot Music Explained: Why the Retro Genre Had Its Biggest Comeback",
+      "keywords": [
+        "korean trot music",
+        "what is trot korea",
+        "trot singers korea",
+        "mr trot",
+        "korean trot revival"
+      ],
+      "category": "Culture",
+      "tags": [
+        "KoreanMusic",
+        "Trot",
+        "Noraebang",
+        "PopCulture"
+      ],
+      "amazon_category": "Music",
+      "status": "pending",
+      "note": "Added 2026-07-27. Distinct from 003 (noraebang/karaoke etiquette general guide) and 051 (celebrity power ranking) - neither covers trot as a genre or its Mr Trot/Miss Trot survival-show-driven generational revival. Real cultural story with existing internal-link targets (003 noraebang, 061 concert culture). Monetization already available: catalog already has portable karaoke microphone products (017, 018, portable-karaoke-search) under the Music category, a direct fit.",
+      "generated_date": "2026-07-27"
     }
   ],
   "last_updated": "2026-07-27",
