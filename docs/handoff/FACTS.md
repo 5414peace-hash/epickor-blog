@@ -18,6 +18,20 @@
 
 ## amazon
 
+- **2026-07-27 — ACCOUNT CLOSED. Amazon rejected the Associates application and closed
+  `epickor2026-20` in ALL configured countries.** Stated reason: *"You did not meet the requirement
+  to drive three qualifying purchases within 180 days of signup."* Associates Central access is
+  revoked. **Every fact below this line about OneLink/tracking IDs describes the closed account —
+  it is historical context, not current state.** Reapplication is allowed at any time and issues a
+  new store ID; all 892 site links (`tag=epickor2026-20` + 5 category tags) and the 2 litt.ly
+  `amzn.to` short links earn nothing until reapproval + site-wide retag.
+  *Verified:* rejection email received by the representative, pasted 2026-07-27.
+- **2026-07-27 — Why 4 orders did not satisfy "3 qualifying purchases":** the Jul 25 dashboard
+  showed 4 ordered/shipped, but (a) the 180-day window is measured from signup, and orders landing
+  after the window closed do not count; (b) purchases made by the associate themselves or close
+  parties are explicitly non-qualifying. If any of the 4 were internal test purchases, they never
+  counted. The next cycle needs 3 real reader purchases inside 180 days of the NEW signup.
+
 - **2026-07-26 — Global Earning (OneLink) is ALREADY fully configured. There is nothing to set up.**
   Store `epickor2026-20` is enrolled in all 10 countries: US, Canada, UK, Germany, France, Italy,
   Spain, Netherlands, Poland, Sweden.
