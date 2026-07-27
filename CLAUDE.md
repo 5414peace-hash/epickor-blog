@@ -405,20 +405,32 @@ Reviewer and Publisher agents must verify rendered images, not just markdown syn
      허위 출처 표기를 승인한 것은 아니다.
 3. **1~4차를 다 거쳐도 못 찾을 때만** `blocked_no_imagery`로 기록하고 다음 세션이 재시도할 수 있게 남긴다.
 
-**2차 무료 국내 소스 목록 (2026-07-27 조사 확정, 우선순위 순):**
+**2차 무료 소스 목록 (2026-07-27 조사 확정, 2026-07-27 2차 조사로 확장, 우선순위 순):**
 
 | 소스 | 라이선스 | 강점 |
 |---|---|---|
-| **KTO Photo Gallery** (`english1.visitkorea.or.kr` "Photo Korea") | KOGL Type 1 — 출처표기 조건 상업적 사용·2차 창작 허용 | 한국관광공사 공식, 음식·거리·축제·사찰·한복 등 9만~10만 장. 가입 필요, 1일 20장 제한. **Pexels 다음으로 확인할 1순위** |
+| **KTO Photo Gallery** (`english1.visitkorea.or.kr` "Photo Korea", `phoko.visitkorea.or.kr`) | KOGL Type 1 — 출처표기 조건 상업적 사용·2차 창작 허용 | 한국관광공사 공식, 음식·거리·축제·사찰·한복 등 9만~10만 장. 가입 필요, 1일 20장 제한. **Pexels 다음으로 확인할 1순위**. `data.go.kr`의 "관광사진 정보" API로도 동일 은행에 대량 접근 가능 |
+| **문화재청/국가유산청 유산 이미지 아카이브** (`cha.go.kr`/`heritage.go.kr`) | KOGL Type 1 (항목별 확인 필수, Type 4 존재) | **신규, 강력.** 유산 사진 3.3만 장 + 도면 8.8만 장. 궁궐·한옥·사찰·전통 유물에 최강. 현대 생활/길거리 음식은 약함 |
 | **Rawpixel 무료/CC0 tier** | CC0 | 조선시대 초상화·동궐도 등 **한국 전통 회화의 퍼블릭도메인 원본**. 한국 화가/미술 주제의 1순위 소스 |
+| **KOCIS 공식 Flickr** (`flickr.com/photos/koreanet`, "Republic of Korea") | CC BY-SA 2.0 (Wikimedia에서 라이선스 검증됨) | **신규.** 문화·축제·명예기자 여행 사진. 음식은 약함. **주의: korea.net 웹사이트 본체 갤러리는 자유 이용 아님** — "각 메뉴 담당자와 사전 협의" 문구 있음, Flickr 계정만 쓸 것 |
+| **e영상역사관** (`ehistory.go.kr`) | KOGL Type 1 | 1950년대 이후 역사 사진/뉴스릴 — 레트로/역사 소재 전용. 무표시 항목은 문화체육관광부에 별도 확인 필요 |
 | **공유마당** (`gongu.copyright.or.kr`) | 항목별 상이 — **반드시 KOGL Type 1만** 사용 (Type 4는 상업 이용 금지) | 전통 미술/문양/역사 자료. 항목마다 라이선스 태그를 직접 확인할 것 |
-| **e영상역사관** (`ehistory.go.kr`) | KOGL Type 1 | 1950년대 이후 역사 사진/뉴스릴 — 레트로/역사 소재 전용 |
-| Pixabay | 상업적 사용 무료, 출처표기 불요 | Pexels와 비슷한 급, 두 번째 백업 |
+| **Unsplash** | 상업적 사용 무료, 출처표기 불요 (재판매·경쟁 서비스 구축만 금지) | **신규.** "Korea" 검색 약 1만 장, "Seoul" 약 4,700장 — 다만 스카이라인·궁궐 위주로 일반적인 편. Pexels와 동급으로 매번 병행 검색 |
+| **Pixabay (사진+영상)** | 상업적 사용 무료, 출처표기 불요 | Pexels와 비슷한 급. 영상은 한국 소재가 얇음 |
+| **Mixkit (영상)** | 상업적 사용 무료, 출처표기 불요 | 한국 소재 영상은 희박 — 국가중립 브릿지 컷 용도로만 |
+| **Videvo / Coverr / Videezy (영상)** | **출처표기 조건부 무료** (표기 안 하려면 유료 구독 필요) | 한국 소재 영상 거의 없음. 쓸 경우 화면에 크레딧 표기 필수 |
+| Reshot·Picjumbo·Gratisography·ISO Republic·StockSnap·Kaboompics·Burst·Life of Pix | CC0/상업 무료 | 한국 소재 사실상 없음 — 국가중립 배경/질감 용도로만 |
+| **국가기록원** (`archives.go.kr`) | 항목별 4종 KOGL 혼재 — Type 1만 | 행정/역사 기록 위주, 음식·여행 사진 약함. 1962년 이전 자료는 아직 권리 검토 중이라 미공개 |
+| **Openverse** (`openverse.org`) | 소스별 상이, 상업이용 필터 가능 | Wikimedia·NYPL·Smithsonian 등 통합 검색. 1960년대 이전 빈티지 한국 사진에 유용, 현대 소재는 얇음 |
 
-**하드 금지(상업 이용 불가로 확인됨)**: 국립중앙박물관(National Museum of Korea) 소장품 이미지는
-비상업적 용도로만 허용 — 별도 서면 허가 없이 사용 금지. MMCA(국립현대미술관)도 사전 서면 허가 없이
-재사용 금지. Google Arts & Culture는 참고용 열람 도구일 뿐, 한국 파트너 기관 이미지는 CC0 다운로드가
-아니다. 이 셋은 소싱 대상에서 제외하고, 필요하면 4차(재창조) 단계로 넘어간다.
+**신규 확정 하드 금지/제외:**
+- **한국관광데이터랩** (`datalab.visitkorea.or.kr`) — 순수 통계·방문객 데이터 대시보드다. **이미지/영상이 아예 없다.** 소싱 대상 아님, 확인만 하고 제외.
+- **KBS/MBC/SBS/EBS** — 전부 **유료 소재판매/아카이브 라이선싱**만 운영. 무료 재사용 프로그램 없음. 확인 완료, 제외.
+- **Getty Images 임베드** — 약관상 "editorial, newsworthy" 용도만 허용하고 광고/프로모션 상업적 목적을 명시적으로 금지한다. 제휴링크로 수익화하는 이 사이트에 안전하지 않음 — 쓰지 않는다.
+- **Shutterstock 무료 이미지(주간)** — 실제 무료·상업이용 가능이지만 매주 무작위 사진 1장뿐이라 한국 소재를 고를 수 없다. 파이프라인으로 못 씀.
+- 국립중앙박물관(National Museum of Korea), MMCA(국립현대미술관) 소장품 이미지는 비상업적 용도로만 허용 —
+  별도 서면 허가 없이 사용 금지. Google Arts & Culture는 참고용 열람 도구일 뿐, 한국 파트너 기관 이미지는
+  CC0 다운로드가 아니다. 이 셋은 소싱 대상에서 제외하고, 필요하면 4차(재창조) 단계로 넘어간다.
 
 ## Blog Reference Image Standard
 
