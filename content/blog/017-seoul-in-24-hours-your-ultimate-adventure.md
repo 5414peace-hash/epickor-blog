@@ -59,7 +59,7 @@ If you choose the palace area, protect your energy. Many visitors burn out becau
 If you choose markets, go with curiosity rather than a checklist of viral foods. Gwangjang Market, Namdaemun, and nearby alleys are working food and shopping spaces, not just content sets. Carry cash or a transit/card pouch, keep your bag controlled in crowds, and step aside before filming or translating menus. If you want a broader food foundation, pair this with EpicKor's [Korean convenience-store food guide](/blog/059) and [Korean banchan culture guide](/blog/050).
 
 <div class="affiliate-inline-cta">
-  <p><strong>First-day Seoul kit:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. A 24-hour route drains phone battery fast, so compare <a href="https://www.amazon.com/s?k=portable+power+bank+travel&amp;tag=epickor2026-20" target="_blank" rel="nofollow sponsored noopener noreferrer">portable power banks</a> before you depend on maps, translation, photos, and late-night transit.</p>
+  <p><strong>First-day Seoul kit:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. A 24-hour route drains phone battery fast, so compare <a href="https://www.amazon.com/s?k=portable+power+bank+travel&amp;tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">portable power banks</a> before you depend on maps, translation, photos, and late-night transit.</p>
 </div>
 
 ## Afternoon: Let Seoul Be Stylish
@@ -130,7 +130,7 @@ Keep your accommodation name and address saved offline in Korean. Do not rely on
 Women traveling alone often report that Seoul night walks feel more comfortable than expected, but personal safety still depends on route, awareness, and boundaries. Use the city's infrastructure: lit main streets, convenience stores, transit hubs, and taxi options. Confidence is good. Performing invincibility is not.
 
 <div class="affiliate-inline-cta">
-  <p><strong>Small-item control:</strong> For a long Seoul day, compare <a href="https://www.amazon.com/s?k=travel+card+pouch&amp;tag=epickor2026-20" target="_blank" rel="nofollow sponsored noopener noreferrer">travel card pouches</a> so your T-money card, room key, cash, and backup card do not scatter across jacket pockets after midnight.</p>
+  <p><strong>Small-item control:</strong> For a long Seoul day, compare <a href="https://www.amazon.com/s?k=travel+card+pouch&amp;tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">travel card pouches</a> so your T-money card, room key, cash, and backup card do not scatter across jacket pockets after midnight.</p>
 </div>
 
 ## Related EpicKor Guides

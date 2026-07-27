@@ -51,7 +51,7 @@ That last idea is the key. Korean meals are not always about one plated dish tha
 Banchan turns the diner into a participant.
 
 <div class="affiliate-inline-cta">
-  <p><strong>Worth comparing:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. If you want to practice banchan-style eating at home, compare a basic <a href="https://www.amazon.com/s?k=korean+food+starter+pack&amp;tag=epickor2026-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean food starter pack</a> before buying too many single-use ingredients.</p>
+  <p><strong>Worth comparing:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. If you want to practice banchan-style eating at home, compare a basic <a href="https://www.amazon.com/s?k=korean+food+starter+pack&amp;tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean food starter pack</a> before buying too many single-use ingredients.</p>
 </div>
 
 ## Kimchi: The Most Famous Banchan
@@ -136,7 +136,7 @@ Home banchan is more flexible. Families may prepare a few side dishes for the we
 That is why "Korean table" content online can be misleading. A huge spread is beautiful, but ordinary meals are often simpler.
 
 <div class="affiliate-inline-cta">
-  <p><strong>Build the flavor base first:</strong> For home cooking, compare staples like <a href="https://amzn.to/4r2Pkkw" target="_blank" rel="nofollow sponsored noopener noreferrer">gochujang</a> and <a href="https://amzn.to/467PaA7" target="_blank" rel="nofollow sponsored noopener noreferrer">ssamjang</a> before chasing rare ingredients.</p>
+  <p><strong>Build the flavor base first:</strong> For home cooking, compare staples like <a href="https://www.amazon.com/dp/B004KUCK18?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">gochujang</a> and <a href="https://www.amazon.com/dp/B07BFQPCM6?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">ssamjang</a> before chasing rare ingredients.</p>
 </div>
 
 ## Can Banchan Be a Meal?

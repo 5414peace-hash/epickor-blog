@@ -71,7 +71,7 @@ Manufacturing sits under a **GMP designation system** for health functional food
 Now the part that costs people money: **none of this transfers automatically to your market.** A Korean functional claim is not an FDA-permitted structure/function claim, an EU authorised health claim, or a halal or GCC registration. Plan your destination-market pathway in parallel with sourcing, not after the container ships.
 
 <div class="affiliate-inline-cta">
-  <p><strong>Build the background before the first call:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. Buyers new to this market often benefit from a short shelf of <a href="https://www.amazon.com/s?k=doing+business+in+korea+book&tag=epickor-books-20" target="_blank" rel="nofollow sponsored noopener noreferrer">doing-business-in-Korea books</a> covering negotiation norms and company structures before the first supplier meeting.</p>
+  <p><strong>Build the background before the first call:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. Buyers new to this market often benefit from a short shelf of <a href="https://www.amazon.com/s?k=doing+business+in+korea+book&tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">doing-business-in-Korea books</a> covering negotiation norms and company structures before the first supplier meeting.</p>
 </div>
 
 ## How to Find and Verify Korean Supplement Suppliers
@@ -114,7 +114,7 @@ A few patterns show up repeatedly.
 Buyers coming from cosmetics will find the structural parallels familiar — the gray-market and authorised-distributor issues covered in EpicKor's [Korean cosmetics wholesale guide](/business/korean-cosmetics-wholesale-guide) and the manufacturing-partner logic in the [K-beauty OEM/ODM guide](/business/k-beauty-oem-odm-korea) apply here with different paperwork.
 
 <div class="affiliate-inline-cta">
-  <p><strong>Get the import mechanics right:</strong> Compare <a href="https://www.amazon.com/s?k=importing+sourcing+supply+chain+book&tag=epickor-books-20" target="_blank" rel="nofollow sponsored noopener noreferrer">importing and sourcing reference books</a> covering supplier audits, incoterms, and quality agreements. Most supplement sourcing failures are contract and documentation failures, not manufacturing failures.</p>
+  <p><strong>Get the import mechanics right:</strong> Compare <a href="https://www.amazon.com/s?k=importing+sourcing+supply+chain+book&tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">importing and sourcing reference books</a> covering supplier audits, incoterms, and quality agreements. Most supplement sourcing failures are contract and documentation failures, not manufacturing failures.</p>
 </div>
 
 ## Frequently Asked Questions

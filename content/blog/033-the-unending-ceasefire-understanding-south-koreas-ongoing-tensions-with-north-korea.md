@@ -51,7 +51,7 @@ That is why the word "technically" appears so often. Technically, the war was no
 For international readers, this matters because Korean security news often sounds contradictory. One week there may be missile headlines, balloon incidents, military drills, border-area restrictions, or diplomatic statements. The same week, Seoul cafes are full, concerts happen, travelers arrive, and locals complain about rent or restaurant waits. The contradiction is not fake. It is the lived reality of an advanced society built beside a frozen conflict.
 
 <div class="affiliate-inline-cta">
-  <p><strong>Historical context helper:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. If the armistice topic makes Korea feel hard to read, compare <a href="https://www.amazon.com/s?k=korean+culture+history+book&amp;tag=epickor2026-20" target="_blank" rel="nofollow sponsored noopener noreferrer">books on Korean history and modern society</a> before reducing the peninsula to headlines.</p>
+  <p><strong>Historical context helper:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. If the armistice topic makes Korea feel hard to read, compare <a href="https://www.amazon.com/s?k=korean+culture+history+book&amp;tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">books on Korean history and modern society</a> before reducing the peninsula to headlines.</p>
 </div>
 
 ## Why South Koreans Often Seem Calm
@@ -118,7 +118,7 @@ For travelers, respecting that complexity matters. Do not tell Koreans they shou
 - [Suwon and Hwaseong Fortress Guide](/blog/064) - a calmer way to understand Korean history through place.
 
 <div class="affiliate-inline-cta">
-  <p><strong>Language basics before sensitive topics:</strong> If you plan to ask Koreans about history, politics, or family memory, compare <a href="https://www.amazon.com/s?k=korean+phrasebook&amp;tag=epickor2026-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean phrasebooks</a> first so your questions sound more respectful and less like a debate prompt.</p>
+  <p><strong>Language basics before sensitive topics:</strong> If you plan to ask Koreans about history, politics, or family memory, compare <a href="https://www.amazon.com/s?k=korean+phrasebook&amp;tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean phrasebooks</a> first so your questions sound more respectful and less like a debate prompt.</p>
 </div>
 
 ## FAQ

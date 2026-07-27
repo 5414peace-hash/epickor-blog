@@ -78,7 +78,7 @@ If you are trying to decide which word fits, start with the relationship instead
 | You are unsure | No title, or jeogiyo | Korean address terms can create the wrong relationship fast |
 
 <div class="affiliate-inline-cta">
-  <p><strong>Korean-learning note:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. If this address-term problem made you realize Korean is more than vocabulary lists, compare <a href="https://amzn.to/3Zgx6Qq" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean Alphabet with Writing Workbook</a> as a low-pressure study starting point.</p>
+  <p><strong>Korean-learning note:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. If this address-term problem made you realize Korean is more than vocabulary lists, compare <a href="https://www.amazon.com/dp/1974152626?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean Alphabet with Writing Workbook</a> as a low-pressure study starting point.</p>
 </div>
 
 This is also why age matters so much in Korean conversation. If you want a wider guide to how age shapes speech and social behavior, read our [Korean age system explained](/blog/166) after this. For the institutional side of Korean social labels, EpicKor's [neutral guide to South Korean political parties](/blog/283) shows why names, factions, and formal titles also need date-specific context.
@@ -126,7 +126,7 @@ Use this safer ladder:
 For Korean learners, the biggest mistake is using K-drama words too freely. Oppa is not just a cute word. Ahjussi is not just a dictionary word. Samchon is not always your real uncle. These terms live inside social distance.
 
 <div class="affiliate-inline-cta">
-  <p><strong>Before copying drama phrases:</strong> Drama and idol content is full of address terms that textbooks skip entirely, which is exactly how the awkward mistakes happen. <a href="https://www.amazon.com/dp/B01N52C32A?tag=epickor-books-20" target="_blank" rel="nofollow sponsored noopener noreferrer">The Kpop Dictionary</a> collects 500 of the words fans actually hear — oppa, ahjussi, and the rest — with the nuance that tells you which ones are safe to say out loud.</p>
+  <p><strong>Before copying drama phrases:</strong> Drama and idol content is full of address terms that textbooks skip entirely, which is exactly how the awkward mistakes happen. <a href="https://www.amazon.com/dp/B01N52C32A?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">The Kpop Dictionary</a> collects 500 of the words fans actually hear — oppa, ahjussi, and the rest — with the nuance that tells you which ones are safe to say out loud.</p>
 </div>
 
 If you are unsure, do not label the person. Use a neutral phrase. For more visitor-facing social rules, read EpicKor's guide to [Korean etiquette questions tourists actually run into](/blog/187).

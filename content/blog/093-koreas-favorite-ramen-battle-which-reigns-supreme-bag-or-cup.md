@@ -50,7 +50,7 @@ For Koreans, bag ramyeon often feels more like a tiny home-cooked meal. It is st
 Bag ramyeon is also better for sharing. Two packets in a pot can become a late-night meal for friends. Add mandu, scallions, and one egg per person, and suddenly the cheapest food in the kitchen feels planned.
 
 <div class="affiliate-inline-cta">
-  <p><strong>Recreate the pot version:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. If bag ramyeon is your favorite style, compare a <a href="https://amzn.to/4qrpQMM" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean ramen cooking pot</a> for size, handle heat, lid fit, and stove compatibility before buying one for home.</p>
+  <p><strong>Recreate the pot version:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. If bag ramyeon is your favorite style, compare a <a href="https://www.amazon.com/dp/B08G1CM3XX?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean ramen cooking pot</a> for size, handle heat, lid fit, and stove compatibility before buying one for home.</p>
 </div>
 
 ## Why Cup Ramyeon Wins in Public
@@ -147,7 +147,7 @@ If you are buying ramyeon to take home, bag packs are lighter and easier to fit 
 For a smarter food-souvenir basket, combine ramyeon with Korean seaweed snacks, yakgwa, instant coffee, and a sauce like gochujang or ssamjang. EpicKor's [Korean pantry starter guide](/blog/277), [yakgwa guide](/blog/128), and [ssamjang guide](/blog/083) can help you avoid buying only spicy noodles.
 
 <div class="affiliate-inline-cta">
-  <p><strong>Build a Korean pantry starter shelf:</strong> If ramen leads you into Korean food at home, compare <a href="https://www.amazon.com/s?k=korean+food+starter+pack&amp;tag=epickor2026-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean food starter packs</a> before buying ten single-flavor noodles you may not actually finish.</p>
+  <p><strong>Build a Korean pantry starter shelf:</strong> If ramen leads you into Korean food at home, compare <a href="https://www.amazon.com/s?k=korean+food+starter+pack&amp;tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean food starter packs</a> before buying ten single-flavor noodles you may not actually finish.</p>
 </div>
 
 ## FAQ

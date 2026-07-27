@@ -63,7 +63,7 @@ Jeju is strongest for travelers who want:
 It is weaker if you hate driving, dislike weather uncertainty, or want dense nightlife in one walkable district.
 
 <div class="affiliate-inline-cta">
-  <p><strong>Pack for Korea beyond Seoul:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. Before adding Jeju or Busan to a Seoul trip, compare <a href="https://www.amazon.com/s?k=korea+travel+essentials&amp;tag=epickor2026-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korea travel essentials</a> such as adapters, pouches, compact umbrellas, and small day-bag items.</p>
+  <p><strong>Pack for Korea beyond Seoul:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. Before adding Jeju or Busan to a Seoul trip, compare <a href="https://www.amazon.com/s?k=korea+travel+essentials&amp;tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korea travel essentials</a> such as adapters, pouches, compact umbrellas, and small day-bag items.</p>
 </div>
 
 ## Busan: Choose It for Food, Beach, and Second-City Energy
@@ -132,7 +132,7 @@ Busan is usually the simplest: KTX from Seoul Station to Busan Station, then sub
 Do not compare only ticket prices. Compare friction. A cheap flight to Jeju can still require airport time, luggage handling, car rental, parking, and weather backup. A slightly longer train trip can be easier because stations place you closer to the city route.
 
 <div class="affiliate-inline-cta">
-  <p><strong>Keep documents and tickets sane:</strong> For multi-city Korea travel, compare <a href="https://www.amazon.com/s?k=travel+document+organizer&amp;tag=epickor2026-20" target="_blank" rel="nofollow sponsored noopener noreferrer">travel document organizers</a> for passports, rail tickets, SIM notes, receipts, and booking printouts before bouncing between airports and train stations.</p>
+  <p><strong>Keep documents and tickets sane:</strong> For multi-city Korea travel, compare <a href="https://www.amazon.com/s?k=travel+document+organizer&amp;tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">travel document organizers</a> for passports, rail tickets, SIM notes, receipts, and booking printouts before bouncing between airports and train stations.</p>
 </div>
 
 ## Quick Recommendation

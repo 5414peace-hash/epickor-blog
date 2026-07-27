@@ -100,7 +100,7 @@ The benefit is variety. Gwanaksan shows another side of Seoul: university neighb
 *Seoul hiking difficulty changes quickly. A route can move from city access to rocky terrain faster than first-time visitors expect.*
 
 <div class="affiliate-inline-cta">
-  <p><strong>Prepare for maps, photos, and translation:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. Seoul hikes drain phone batteries through navigation and photos, so compare <a href="https://www.amazon.com/s?k=portable+power+bank+travel&tag=epickor2026-20" target="_blank" rel="nofollow sponsored noopener noreferrer">portable power banks for travel</a> before a long trail day.</p>
+  <p><strong>Prepare for maps, photos, and translation:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. Seoul hikes drain phone batteries through navigation and photos, so compare <a href="https://www.amazon.com/s?k=portable+power+bank+travel&tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">portable power banks for travel</a> before a long trail day.</p>
 </div>
 
 ## What to Wear for Seoul Hiking
@@ -175,7 +175,7 @@ If you want one easy plan, do this:
 If you loved it, choose Achasan next. If you still want more, plan Bukhansan or Gwanaksan with proper route research.
 
 <div class="affiliate-inline-cta">
-  <p><strong>Keep the trail bag light:</strong> A compact travel pouch can keep transit card, hotel key, cash, and small essentials together while you climb. Compare <a href="https://www.amazon.com/s?k=travel+card+pouch&tag=epickor2026-20" target="_blank" rel="nofollow sponsored noopener noreferrer">travel card pouches</a> before carrying a bulky wallet on Seoul stairs.</p>
+  <p><strong>Keep the trail bag light:</strong> A compact travel pouch can keep transit card, hotel key, cash, and small essentials together while you climb. Compare <a href="https://www.amazon.com/s?k=travel+card+pouch&tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">travel card pouches</a> before carrying a bulky wallet on Seoul stairs.</p>
 </div>
 
 ## FAQ

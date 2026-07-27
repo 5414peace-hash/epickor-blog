@@ -154,7 +154,7 @@ Sales grew about 44.9% in 2024 and another 36.1% in 2025 based on those company 
 The company's May 2026 press-release list gives a newer signal: Q1 2026 sales of KRW 714.4 billion and operating profit of KRW 177.1 billion, both described as quarterly records. In June 2026, the same official list announced that cumulative Buldak sales had passed 10 billion units. Those are company-reported milestones, not a forecast of future earnings.
 
 <div class="affiliate-inline-cta">
-  <p><strong>See the product behind the case:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. If you are studying why Buldak moved from challenge content into repeat retail, compare <a href="https://amzn.to/3MaZWi6" target="_blank" rel="nofollow sponsored noopener noreferrer">Samyang Buldak Carbonara ramen</a> with the original flavor and note how packaging, heat level, format, and accessibility change the audience.</p>
+  <p><strong>See the product behind the case:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. If you are studying why Buldak moved from challenge content into repeat retail, compare <a href="https://www.amazon.com/dp/B0C85RZWP3?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Samyang Buldak Carbonara ramen</a> with the original flavor and note how packaging, heat level, format, and accessibility change the audience.</p>
 </div>
 
 ## Manufacturing Turned Attention Into Supply
@@ -258,7 +258,7 @@ The fourth risk is local-channel economics. Major retailers can expand volume an
 The fifth risk is cultural translation. Buldak's playful pain-and-challenge identity is powerful, but messages that work in one country may be misunderstood in another. Local teams need enough authority to adapt while protecting the recognizable global brand.
 
 <div class="affiliate-inline-cta">
-  <p><strong>Build the operator file:</strong> If you are analyzing Samyang as an export case rather than only a food trend, compare <a href="https://www.amazon.com/s?k=international+food+business+book&tag=epickor2026-20" target="_blank" rel="nofollow sponsored noopener noreferrer">international food-business books</a> and <a href="https://www.amazon.com/s?k=export+distribution+strategy+book&tag=epickor2026-20" target="_blank" rel="nofollow sponsored noopener noreferrer">export-distribution guides</a> before mapping product, compliance, channel, and capacity decisions.</p>
+  <p><strong>Build the operator file:</strong> If you are analyzing Samyang as an export case rather than only a food trend, compare <a href="https://www.amazon.com/s?k=international+food+business+book&tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">international food-business books</a> and <a href="https://www.amazon.com/s?k=export+distribution+strategy+book&tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">export-distribution guides</a> before mapping product, compliance, channel, and capacity decisions.</p>
 </div>
 
 ## Practical Lessons From Samyang Foods

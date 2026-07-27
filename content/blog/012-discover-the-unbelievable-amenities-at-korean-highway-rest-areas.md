@@ -53,7 +53,7 @@ Food travelers should remember that rest-area dishes are convenience food with r
 If Korean road food interests you, pair this with EpicKor's [Korean convenience-store food guide](/blog/059), [Korean snacks and food souvenirs guide](/blog/209), and [Korea travel cheat codes guide](/blog/084).
 
 <div class="affiliate-inline-cta">
-  <p><strong>Road snack mood at home:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. If Korean rest-area snacks made you curious, compare <a href="https://www.amazon.com/s?k=korean+snacks&amp;tag=epickor-food-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean snack options</a> before your next road-trip night or watch party.</p>
+  <p><strong>Road snack mood at home:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. If Korean rest-area snacks made you curious, compare <a href="https://www.amazon.com/s?k=korean+snacks&amp;tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean snack options</a> before your next road-trip night or watch party.</p>
 </div>
 
 ## Facilities: Toilets, Shops, EV Charging, and Wi-Fi
@@ -107,7 +107,7 @@ On guided tours, ask the guide whether the rest-area stop is a restroom break or
 Do not let a rest-area stop replace local food at the destination. Use it as a bridge: one snack, one coffee, one regional curiosity, then continue. The best road-trip food memory is often small enough to fit in your hand.
 
 <div class="affiliate-inline-cta">
-  <p><strong>For long Korea travel days:</strong> A small phone-power backup helps with maps, tickets, translation, payment, and bus timing. Compare <a href="https://www.amazon.com/s?k=portable+power+bank+travel&amp;tag=epickor-gear-20" target="_blank" rel="nofollow sponsored noopener noreferrer">portable travel power banks</a> before a road-heavy Korea itinerary.</p>
+  <p><strong>For long Korea travel days:</strong> A small phone-power backup helps with maps, tickets, translation, payment, and bus timing. Compare <a href="https://www.amazon.com/s?k=portable+power+bank+travel&amp;tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">portable travel power banks</a> before a road-heavy Korea itinerary.</p>
 </div>
 
 ![Korean rest area facilities frame from EpicKor's original package.](/assets/images/posts/012/d6f0e08e-cc06-4948-90d2-2138792e26af.jpg)

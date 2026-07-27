@@ -82,7 +82,7 @@ A better beauty reading is that Kim's image made room for a different kind of pu
 If you enjoy this beauty angle, pair it with our [Korean skincare routine guide](/blog/303) and [K-beauty sunscreen guide](/blog/007). Those guides keep beauty practical rather than turning one celebrity into a rulebook.
 
 <div class="affiliate-inline-cta">
-  <p><strong>Natural K-beauty angle:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. If Kim Go-eun's understated screen image is what stands out, compare <a href="https://amzn.to/4twhKFk" target="_blank" rel="nofollow sponsored noopener noreferrer">ROUND LAB 1025 Dokdo Toner</a> as a simple Korean skincare starting point rather than trying to copy a celebrity face.</p>
+  <p><strong>Natural K-beauty angle:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. If Kim Go-eun's understated screen image is what stands out, compare <a href="https://www.amazon.com/dp/B08FM5BTF6?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">ROUND LAB 1025 Dokdo Toner</a> as a simple Korean skincare starting point rather than trying to copy a celebrity face.</p>
 </div>
 
 ## What to Watch First
@@ -121,7 +121,7 @@ The more respectful reading is simple: Kim Go-eun is a strong actor whose public
 *The Kim Go-eun beauty mood is better translated as simplicity and expression, not as a product checklist.*
 
 <div class="affiliate-inline-cta">
-  <p><strong>Quiet fan-style detail:</strong> For a low-key drama-night or travel look, these <a href="https://amzn.to/4kTVIZe" target="_blank" rel="nofollow sponsored noopener noreferrer">fashion sunglasses</a> are worth comparing for size and return terms before buying.</p>
+  <p><strong>Quiet fan-style detail:</strong> For a low-key drama-night or travel look, these <a href="https://www.amazon.com/s?k=fashion+sunglasses&tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">fashion sunglasses</a> are worth comparing for size and return terms before buying.</p>
 </div>
 
 ## Sources and Further Reading

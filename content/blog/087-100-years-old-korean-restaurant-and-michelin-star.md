@@ -68,7 +68,7 @@ Kimchi matters. In many old soup restaurants, kkakdugi radish kimchi is not just
 If you are new to Korean meals, remember that old restaurants can feel brisk. Staff may not narrate the experience. This does not necessarily mean they are unfriendly. It often means the restaurant is operating on a regular-customer rhythm.
 
 <div class="affiliate-inline-cta">
-  <p><strong>Bring the comfort-food idea home:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. If this Seoul nopo restaurant guide makes you crave Korean soup, compare <a href="https://amzn.to/4nFcnks" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean kimchi stew with tofu</a> as an easy pantry starting point.</p>
+  <p><strong>Bring the comfort-food idea home:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. If this Seoul nopo restaurant guide makes you crave Korean soup, compare <a href="https://www.amazon.com/dp/B0F4K5JK5S?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean kimchi stew with tofu</a> as an easy pantry starting point.</p>
 </div>
 
 ## Woo Lae Oak: Why Pyeongyang Naengmyeon Divides People
@@ -136,7 +136,7 @@ That directness matches modern travel better than many people expect. Visitors a
 Still, do not romanticize everything. Old restaurants can be crowded. Service may be blunt. Facilities may not match a new mall restaurant. Menus and hours can change. Popularity can create lines. The goal is not to pretend every old shop is perfect. The goal is to understand why certain places remain meaningful.
 
 <div class="affiliate-inline-cta">
-  <p><strong>Set up a simple Korean table:</strong> A small Korean ramen pot is not a nopo shortcut, but it does help recreate the one-pot, hot-broth rhythm at home. Compare a <a href="https://amzn.to/4qrpQMM" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean ramen cooking pot</a> before buying oversized cookware.</p>
+  <p><strong>Set up a simple Korean table:</strong> A small Korean ramen pot is not a nopo shortcut, but it does help recreate the one-pot, hot-broth rhythm at home. Compare a <a href="https://www.amazon.com/dp/B08G1CM3XX?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean ramen cooking pot</a> before buying oversized cookware.</p>
 </div>
 
 ## FAQ

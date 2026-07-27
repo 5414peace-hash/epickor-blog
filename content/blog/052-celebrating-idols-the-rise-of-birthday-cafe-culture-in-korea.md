@@ -95,7 +95,7 @@ Keep these rules:
 The best visitor is excited but light-footed. You can enjoy the event without turning the cafe into a pressure chamber.
 
 <div class="affiliate-inline-cta">
-  <p><strong>Protect the small goods:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. If birthday cafes lead you into collecting, compare <a href="https://www.amazon.com/s?k=photocard+sleeves+toploaders&amp;tag=epickor2026-20" target="_blank" rel="nofollow sponsored noopener noreferrer">photocard sleeves and rigid toploaders</a> before putting loose cards into a bag.</p>
+  <p><strong>Protect the small goods:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. If birthday cafes lead you into collecting, compare <a href="https://www.amazon.com/s?k=photocard+sleeves+toploaders&amp;tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">photocard sleeves and rigid toploaders</a> before putting loose cards into a bag.</p>
 </div>
 
 ## Birthday Cafe vs Pop-up Store vs Official Shop
@@ -151,7 +151,7 @@ If you are visiting Seoul for the first time, keep the day simple:
 That balance keeps the trip fun. The birthday cafe should feel like a highlight, not a scavenger hunt that eats your whole Seoul day.
 
 <div class="affiliate-inline-cta">
-  <p><strong>Make the fan-event stack easier to store:</strong> Compare <a href="https://www.amazon.com/s?k=kpop+photocard+binder&amp;tag=epickor2026-20" target="_blank" rel="nofollow sponsored noopener noreferrer">K-pop photocard binders</a> by pocket size, zipper style, and page material if you plan to keep cup-sleeve inserts, postcards, and photocards from multiple events.</p>
+  <p><strong>Make the fan-event stack easier to store:</strong> Compare <a href="https://www.amazon.com/s?k=kpop+photocard+binder&amp;tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">K-pop photocard binders</a> by pocket size, zipper style, and page material if you plan to keep cup-sleeve inserts, postcards, and photocards from multiple events.</p>
 </div>
 
 ## FAQ

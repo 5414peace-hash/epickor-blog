@@ -49,7 +49,7 @@ Kimchi can be cabbage, radish, cucumber, young radish greens, water kimchi, whit
 For the table context, pair this guide with EpicKor's [Korean banchan guide](/blog/050) and [free side-dish etiquette guide](/blog/046).
 
 <div class="affiliate-inline-cta">
-  <p><strong>Kimchi curiosity at home:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. If Museum Kimchikan makes fermentation feel less abstract, compare <a href="https://amzn.to/4nFcnks" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean kimchi stew with tofu</a> as an easy flavor entry point.</p>
+  <p><strong>Kimchi curiosity at home:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. If Museum Kimchikan makes fermentation feel less abstract, compare <a href="https://www.amazon.com/dp/B0F4K5JK5S?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean kimchi stew with tofu</a> as an easy flavor entry point.</p>
 </div>
 
 ## Kimjang: Why UNESCO Matters
@@ -121,7 +121,7 @@ After Museum Kimchikan, choose food that lets you apply what you learned:
 You do not have to chase a famous restaurant. The point is to notice how kimchi changes the table. Sometimes the best lesson is a simple soup meal with excellent kkakdugi.
 
 <div class="affiliate-inline-cta">
-  <p><strong>Table companion:</strong> Kimchi culture is easier to understand beside rice, wraps, and sauce, so compare <a href="https://amzn.to/44pMS9J" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean ssamjang sauce</a> if you want a broader Korean table setup at home.</p>
+  <p><strong>Table companion:</strong> Kimchi culture is easier to understand beside rice, wraps, and sauce, so compare <a href="https://www.amazon.com/s?k=korean+ssamjang+sauce&tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean ssamjang sauce</a> if you want a broader Korean table setup at home.</p>
 </div>
 
 ## What Not to Expect

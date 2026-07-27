@@ -66,7 +66,7 @@ The lock should connect the frame to a fixed rack, not only the wheel to itself.
 Remove accessories. Lights, phone mounts, saddle bags, helmets, and delivery baskets can disappear even when the bike remains. If you use an e-bike, take the battery indoors when the design allows it and follow the manufacturer's safety instructions.
 
 <div class="affiliate-inline-cta">
-  <p><strong>Bike-in-Korea practical pick:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. If you plan to park a private bike in Seoul, compare <a href="https://www.amazon.com/s?k=heavy+duty+bike+lock&amp;tag=epickor-gear-20" target="_blank" rel="nofollow sponsored noopener noreferrer">heavy-duty bike lock options</a> before relying on a thin cable in a station rack.</p>
+  <p><strong>Bike-in-Korea practical pick:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. If you plan to park a private bike in Seoul, compare <a href="https://www.amazon.com/s?k=heavy+duty+bike+lock&amp;tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">heavy-duty bike lock options</a> before relying on a thin cable in a station rack.</p>
 </div>
 
 ## Where to Park in Seoul
@@ -109,7 +109,7 @@ Third, gather proof:
 Then contact police through the appropriate channel or visit a local police station if you need help in person. For language support, the Korea Travel Helpline 1330 can help visitors navigate tourist issues and interpretation, but theft itself belongs with police.
 
 <div class="affiliate-inline-cta">
-  <p><strong>Small lock, fewer regrets:</strong> For a helmet, rental accessory, or very short daytime stop, compare a <a href="https://www.amazon.com/s?k=compact+cable+bike+lock&amp;tag=epickor-gear-20" target="_blank" rel="nofollow sponsored noopener noreferrer">compact cable bike lock</a> as a secondary layer, not as your only protection for a private bike.</p>
+  <p><strong>Small lock, fewer regrets:</strong> For a helmet, rental accessory, or very short daytime stop, compare a <a href="https://www.amazon.com/s?k=compact+cable+bike+lock&amp;tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">compact cable bike lock</a> as a secondary layer, not as your only protection for a private bike.</p>
 </div>
 
 ## Used Bikes, Resale Apps, and Red Flags

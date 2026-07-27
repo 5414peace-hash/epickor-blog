@@ -54,7 +54,7 @@ Carbo Buldak added a second audience. It still gave the spicy-noodle experience,
 Samyang's own financial information also shows how much the company expanded in recent years. The useful reader takeaway is not "one noodle changed everything." It is that Korean instant noodles are no longer only ethnic-grocery items. They are now mainstream pantry products in many markets.
 
 <div class="affiliate-inline-cta">
-  <p><strong>Try the pink-pack baseline first:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. If you want the famous creamy-spicy version, compare <a href="https://amzn.to/3MaZWi6" target="_blank" rel="nofollow sponsored noopener noreferrer">Samyang Buldak Spicy Ramen Carbonara</a> before buying a large variety pack.</p>
+  <p><strong>Try the pink-pack baseline first:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. If you want the famous creamy-spicy version, compare <a href="https://www.amazon.com/dp/B0C85RZWP3?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Samyang Buldak Spicy Ramen Carbonara</a> before buying a large variety pack.</p>
 </div>
 
 ## How to Cook It Without Making It Worse
@@ -95,7 +95,7 @@ Also remember sodium. Instant noodles are convenient and fun, but they are not a
 Another practical safety point is serving context. If you are hosting friends, do not make the first bowl a surprise full-sauce challenge. Put toppings and milk on the side, tell people it is spicy, and let each person choose how much sauce to use. That keeps the meal social rather than competitive. Korean spicy food is often more enjoyable when the table includes cooling or balancing foods: pickled radish, plain rice, egg, cheese, cucumber, or seaweed snacks. A small bowl that people finish happily is better than a dramatic bowl nobody wants to repeat.
 
 <div class="affiliate-inline-cta">
-  <p><strong>Build a spicy Korean snack night:</strong> If the ramen is already in your cart, compare <a href="https://amzn.to/4ae69Sg" target="_blank" rel="nofollow sponsored noopener noreferrer">Buldak cheese tteokbokki</a> or a broad <a href="https://www.amazon.com/s?k=korean+food+starter+pack&amp;tag=epickor2026-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean food starter pack</a> so you are not buying only one heat level.</p>
+  <p><strong>Build a spicy Korean snack night:</strong> If the ramen is already in your cart, compare <a href="https://www.amazon.com/dp/B07P1G8SWJ?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Buldak cheese tteokbokki</a> or a broad <a href="https://www.amazon.com/s?k=korean+food+starter+pack&amp;tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean food starter pack</a> so you are not buying only one heat level.</p>
 </div>
 
 ## Why Carbo Buldak Matters in K-Food

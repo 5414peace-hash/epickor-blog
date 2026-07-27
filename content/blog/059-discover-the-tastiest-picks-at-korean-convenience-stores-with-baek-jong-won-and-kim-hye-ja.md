@@ -57,7 +57,7 @@ GS25's own site describes fresh food categories such as dosirak, gimbap, rice ba
 That competition is good for travelers. It means you can often eat better from a Korean convenience store than from a random tourist trap near a station.
 
 <div class="affiliate-inline-cta">
-  <p><strong>Worth comparing:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. If this guide makes you want a Korea-style snack drawer at home, compare <a href="https://amzn.to/4bubOGe" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean snack options</a> before buying a huge mixed box.</p>
+  <p><strong>Worth comparing:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. If this guide makes you want a Korea-style snack drawer at home, compare <a href="https://www.amazon.com/s?k=korean+snack&tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean snack options</a> before buying a huge mixed box.</p>
 </div>
 
 ## Baek Jong-won: Why His Name Works on Convenience Food
@@ -133,7 +133,7 @@ Skip anything that looks old, damaged, swollen, unrefrigerated when it should be
 Also skip the idea that one store represents all Korean convenience food. Product lines rotate quickly. If one location is disappointing, try another chain or a larger branch near an office district, university, train station, or apartment area.
 
 <div class="affiliate-inline-cta">
-  <p><strong>Recreate the easiest shelf first:</strong> Instead of chasing every viral product, compare <a href="https://amzn.to/4qhhWVZ" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean seaweed snacks</a> or a <a href="https://www.amazon.com/s?k=korean+food+starter+pack&amp;tag=epickor2026-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean food starter pack</a> to build a small, repeatable Korea-at-home snack shelf.</p>
+  <p><strong>Recreate the easiest shelf first:</strong> Instead of chasing every viral product, compare <a href="https://www.amazon.com/dp/B0DH5MR3YP?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean seaweed snacks</a> or a <a href="https://www.amazon.com/s?k=korean+food+starter+pack&amp;tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean food starter pack</a> to build a small, repeatable Korea-at-home snack shelf.</p>
 </div>
 
 ## Why This Matters Culturally

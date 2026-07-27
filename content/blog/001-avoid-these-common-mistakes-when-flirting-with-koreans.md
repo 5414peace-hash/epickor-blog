@@ -79,7 +79,7 @@ Share the exact meeting point. Large stations can have more than a dozen exits, 
 Ask before ordering shared food, alcohol, or a second round. Korea's dining culture includes many dishes placed in the middle, but a shared table does not eliminate allergies, religious restrictions, vegetarian needs, or personal preferences. If alcohol is involved, a refusal does not require a reason.
 
 <div class="affiliate-inline-cta">
-  <p><strong>Learn phrases that reduce friction:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. A compact <a href="https://www.amazon.com/s?k=korean+phrasebook&amp;tag=epickor2026-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean phrasebook</a> can help with menus, meeting points, and polite clarification; use it to communicate, not to perform canned pickup lines.</p>
+  <p><strong>Learn phrases that reduce friction:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. A compact <a href="https://www.amazon.com/s?k=korean+phrasebook&amp;tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean phrasebook</a> can help with menus, meeting points, and polite clarification; use it to communicate, not to perform canned pickup lines.</p>
 </div>
 
 ## Messaging on KakaoTalk Without Playing Read-Receipt Games
@@ -142,7 +142,7 @@ Statistics Korea's 2024 Social Survey found that 52.5% of respondents thought pe
 If a relationship becomes serious, Korean couple milestones and family expectations may matter—but not in identical ways for every pair. EpicKor's [guide to Korean couple anniversaries](/blog/147) separates common customs from social-media exaggeration. The broader [guide to resolving conflict with Koreans](/blog/035) is also useful when differences in communication style become more important than the first-date excitement.
 
 <div class="affiliate-inline-cta">
-  <p><strong>Go beyond dating-list stereotypes:</strong> Compare <a href="https://www.amazon.com/s?k=korean+culture+history+book&amp;tag=epickor2026-20" target="_blank" rel="nofollow sponsored noopener noreferrer">books on Korean culture and modern society</a> if you want context for family, work, language, and generational change. No book can predict an individual partner, but good background can improve the questions you ask.</p>
+  <p><strong>Go beyond dating-list stereotypes:</strong> Compare <a href="https://www.amazon.com/s?k=korean+culture+history+book&amp;tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">books on Korean culture and modern society</a> if you want context for family, work, language, and generational change. No book can predict an individual partner, but good background can improve the questions you ask.</p>
 </div>
 
 ## Common Mistakes—and Better Alternatives

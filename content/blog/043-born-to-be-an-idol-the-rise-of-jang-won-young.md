@@ -66,7 +66,7 @@ It is not deep philosophy in the academic sense. It is an aesthetic coping strat
 That is why it works online. It is short enough for a caption, cute enough for TikTok, and emotionally useful enough for fans to repeat when something annoying happens.
 
 <div class="affiliate-inline-cta">
-  <p><strong>Wonyoungism routine note:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. If the appeal is a softer, more polished daily routine, compare <a href="https://amzn.to/4twhKFk" target="_blank" rel="nofollow sponsored noopener noreferrer">ROUND LAB 1025 Dokdo Toner</a> as one simple K-beauty step rather than chasing a whole viral shelf.</p>
+  <p><strong>Wonyoungism routine note:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. If the appeal is a softer, more polished daily routine, compare <a href="https://www.amazon.com/dp/B08FM5BTF6?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">ROUND LAB 1025 Dokdo Toner</a> as one simple K-beauty step rather than chasing a whole viral shelf.</p>
 </div>
 
 ---
@@ -116,7 +116,7 @@ That combination is powerful. A Wonyoung outfit is not just "what she wore." It 
 This is where Wonyoungism and fashion meet. The philosophy says, "I will frame my life beautifully." The fashion image shows what that frame might look like.
 
 <div class="affiliate-inline-cta">
-  <p><strong>Style-mood comparison:</strong> For a small fashion signal instead of a full wardrobe reset, compare <a href="https://amzn.to/4kTVIZe" target="_blank" rel="nofollow sponsored noopener noreferrer">fashion sunglasses</a> with the polished, camera-ready mood fans often associate with Korean celebrity styling.</p>
+  <p><strong>Style-mood comparison:</strong> For a small fashion signal instead of a full wardrobe reset, compare <a href="https://www.amazon.com/s?k=fashion+sunglasses&tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">fashion sunglasses</a> with the polished, camera-ready mood fans often associate with Korean celebrity styling.</p>
 </div>
 
 ---

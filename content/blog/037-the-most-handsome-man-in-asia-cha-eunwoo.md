@@ -97,7 +97,7 @@ Cha Eun-woo's look often sends readers toward K-beauty searches, but the useful 
 If you like the Cha Eun-woo look, think in systems. Keep skin calm. Avoid heavy product stacking unless your skin tolerates it. Choose one visual accent such as eyewear, a jacket line, or a neat hairstyle. Korean celebrity styling often looks effortless because a lot of invisible grooming work happened before the camera.
 
 <div class="affiliate-inline-cta">
-  <p><strong>Clean K-beauty baseline:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. If Cha Eun-woo's polished image made you curious about Korean skincare, compare <a href="https://amzn.to/4twhKFk" target="_blank" rel="nofollow sponsored noopener noreferrer">ROUND LAB 1025 Dokdo Toner</a> as a gentle starting point rather than chasing a celebrity face.</p>
+  <p><strong>Clean K-beauty baseline:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. If Cha Eun-woo's polished image made you curious about Korean skincare, compare <a href="https://www.amazon.com/dp/B08FM5BTF6?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">ROUND LAB 1025 Dokdo Toner</a> as a gentle starting point rather than chasing a celebrity face.</p>
 </div>
 
 ## Fashion, Eyewear, and the "One Accent" Rule
@@ -107,7 +107,7 @@ Cha Eun-woo's styling is usually not loud. That is part of why it travels. A cle
 For men, the easiest translation is not luxury shopping. It is fit, grooming, and one accent. Sunglasses or clear-frame glasses can shift the mood quickly, but only if the size fits your face and the rest of the outfit is quiet. That is why Korean celebrity looks often feel expensive even when the idea is simple.
 
 <div class="affiliate-inline-cta">
-  <p><strong>One styling accent:</strong> For a low-effort Korean celebrity styling cue, compare these <a href="https://amzn.to/4kTVIZe" target="_blank" rel="nofollow sponsored noopener noreferrer">fashion sunglasses</a> by face width, lens darkness, and return policy before buying.</p>
+  <p><strong>One styling accent:</strong> For a low-effort Korean celebrity styling cue, compare these <a href="https://www.amazon.com/s?k=fashion+sunglasses&tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">fashion sunglasses</a> by face width, lens darkness, and return policy before buying.</p>
 </div>
 
 ## Why His Hallyu Appeal Travels

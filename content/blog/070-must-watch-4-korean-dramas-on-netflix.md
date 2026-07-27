@@ -56,7 +56,7 @@ What makes Squid Game useful for a new viewer is not just the numbers. It is the
 If you are building Korean-culture context around the show, pair this with EpicKor's [K-pop photocard guide](/blog/291) for fan-culture collecting logic and [Korean traditional games explainer](/blog/075) if you want to understand why childhood play can become powerful storytelling material.
 
 <div class="affiliate-inline-cta">
-  <p><strong>For watch-party context:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. If Korean shows are becoming part of your regular rotation, compare <a href="https://www.amazon.com/s?k=kpop+kdrama+fan+goods&amp;tag=epickor2026-20" target="_blank" rel="nofollow sponsored noopener noreferrer">K-pop and K-drama fan goods</a> without locking yourself into one trend.</p>
+  <p><strong>For watch-party context:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. If Korean shows are becoming part of your regular rotation, compare <a href="https://www.amazon.com/s?k=kpop+kdrama+fan+goods&amp;tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">K-pop and K-drama fan goods</a> without locking yourself into one trend.</p>
 </div>
 
 ## 2. When Life Gives You Tangerines: The Emotional Entry Point
@@ -123,7 +123,7 @@ Third, are you okay with **subtitles**? Dubbing can help casual viewing, but sub
 Fourth, are you watching alone or with people? For a group, a high-concept title is easier. For a solo evening, a slower emotional drama can be more rewarding. For a couple, romance or slice-of-life may work better than a brutal survival thriller.
 
 <div class="affiliate-inline-cta">
-  <p><strong>More context than subtitles:</strong> If K-dramas are making you curious about Korea beyond the screen, compare <a href="https://www.amazon.com/s?k=korean+culture+history+book&amp;tag=epickor2026-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean culture and history books</a> before your next watchlist deep dive.</p>
+  <p><strong>More context than subtitles:</strong> If K-dramas are making you curious about Korea beyond the screen, compare <a href="https://www.amazon.com/s?k=korean+culture+history+book&amp;tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean culture and history books</a> before your next watchlist deep dive.</p>
 </div>
 
 ## FAQs About Korean Dramas on Netflix

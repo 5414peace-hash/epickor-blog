@@ -54,7 +54,7 @@ Korean public transit is dense. A small behavior repeats across hundreds of ride
 If you are using transit for the first time, EpicKor's [Seoul subway etiquette guide](/blog/174) explains the platform and seat behavior in more detail.
 
 <div class="affiliate-inline-cta">
-  <p><strong>Learn the context, not just the rule:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. If etiquette makes you curious about the deeper social background, compare <a href="https://www.amazon.com/s?k=korean+culture+history+book&tag=epickor2026-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean culture and history books</a> before buying a random travel title.</p>
+  <p><strong>Learn the context, not just the rule:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. If etiquette makes you curious about the deeper social background, compare <a href="https://www.amazon.com/s?k=korean+culture+history+book&tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean culture and history books</a> before buying a random travel title.</p>
 </div>
 
 ## 4. Indirect Refusals Can Be Polite, Not Vague
@@ -128,7 +128,7 @@ That small pause solves many etiquette problems before they become problems.
 *Nunchi is not about fear. It is the useful habit of noticing the room before making yourself the center of it.*
 
 <div class="affiliate-inline-cta">
-  <p><strong>Make the language layer less awkward:</strong> A little Korean softens many etiquette moments. Compare the <a href="https://amzn.to/3Zgx6Qq" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean Alphabet with Writing Workbook</a> if you want to read signs, names, and simple phrases before your trip.</p>
+  <p><strong>Make the language layer less awkward:</strong> A little Korean softens many etiquette moments. Compare the <a href="https://www.amazon.com/dp/1974152626?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean Alphabet with Writing Workbook</a> if you want to read signs, names, and simple phrases before your trip.</p>
 </div>
 
 ## What Koreans Usually Do Not Expect From Visitors

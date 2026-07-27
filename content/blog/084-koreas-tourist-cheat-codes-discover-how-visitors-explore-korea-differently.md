@@ -52,7 +52,7 @@ A better food route builds by meal type. Start with one Korean breakfast or simp
 Food travelers should also think about weather. In summer, a long outdoor market route at noon can turn a beautiful plan into survival. In rainy season, soups, pancakes, and indoor markets become better. In winter, stews and hot snacks feel like infrastructure.
 
 <div class="affiliate-inline-cta">
-  <p><strong>Food-route helper:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. If Korean meals are the center of your trip, compare <a href="https://www.amazon.com/s?k=korean+cookbook&amp;tag=epickor2026-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean cookbooks</a> before you go so restaurant menus feel less mysterious.</p>
+  <p><strong>Food-route helper:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. If Korean meals are the center of your trip, compare <a href="https://www.amazon.com/s?k=korean+cookbook&amp;tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean cookbooks</a> before you go so restaurant menus feel less mysterious.</p>
 </div>
 
 ## Shopping Travelers: Split the Mission

@@ -57,7 +57,7 @@ Honey Butter Chip is the classic modern case. Yonhap reported that Haitai's Hone
 Do not assume every sweet-salty snack is gentle. Some are subtly sweet; others are extremely seasoned. If you are buying for family, choose one safe bag and one experimental bag. Seaweed, honey-butter chips, rice crackers, and baked-style snacks are safer gifts. Spicy ramyeon snacks, strong garlic chips, and seafood-flavored crackers are more polarizing.
 
 <div class="affiliate-inline-cta">
-  <p><strong>Snack taste test at home:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. If you want to compare the Korean snack style before or after a trip, start with a <a href="https://amzn.to/4bubOGe" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean snack assortment</a> and treat it like a tasting flight, not a single best-item hunt.</p>
+  <p><strong>Snack taste test at home:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. If you want to compare the Korean snack style before or after a trip, start with a <a href="https://www.amazon.com/s?k=korean+snack&tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean snack assortment</a> and treat it like a tasting flight, not a single best-item hunt.</p>
 </div>
 
 ## Convenience Stores Are Snack Labs
@@ -116,7 +116,7 @@ Seaweed snacks deserve their own section because they solve many travel problems
 The downside is fragility. Seaweed sheets crumble if you crush them. Pack them in a rigid corner of your suitcase, or buy a box rather than loose packs. For home comparison, Korean BBQ-flavored seaweed snacks are an easy starting point because they give a familiar savory bridge for people who are new to gim.
 
 <div class="affiliate-inline-cta">
-  <p><strong>Light suitcase-style snack:</strong> For a compact Korean snack that makes sense beyond novelty, compare <a href="https://amzn.to/4qhhWVZ" target="_blank" rel="nofollow sponsored noopener noreferrer">Bibigo Korean BBQ flavor seaweed snacks</a>. They are easier to share than fragile giant chip bags.</p>
+  <p><strong>Light suitcase-style snack:</strong> For a compact Korean snack that makes sense beyond novelty, compare <a href="https://www.amazon.com/dp/B0DH5MR3YP?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Bibigo Korean BBQ flavor seaweed snacks</a>. They are easier to share than fragile giant chip bags.</p>
 </div>
 
 ## Where Korean Snacks Fit in K-Food

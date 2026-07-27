@@ -73,7 +73,7 @@ For a practical reader, this means you should check three layers:
 </div>
 
 <div class="affiliate-inline-cta">
-  <p><strong>Build a fan-night setup:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. If summer K-pop sends you into a watch-party mood, compare <a href="https://www.amazon.com/s?k=kpop+kdrama+fan+goods&amp;tag=epickor2026-20" target="_blank" rel="nofollow sponsored noopener noreferrer">K-pop and K-drama fan goods</a> for light sticks, display items, and small party props without forcing one exact group purchase.</p>
+  <p><strong>Build a fan-night setup:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. If summer K-pop sends you into a watch-party mood, compare <a href="https://www.amazon.com/s?k=kpop+kdrama+fan+goods&amp;tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">K-pop and K-drama fan goods</a> for light sticks, display items, and small party props without forcing one exact group purchase.</p>
 </div>
 
 ## How to Build a Korean Summer K-Pop Playlist
@@ -101,7 +101,7 @@ Travelers can test this quickly. Spend one summer day in Seoul and notice where 
 This also explains why some international favorites feel huge online but less seasonal in Korea. A song may have a powerful fandom, beautiful video, and high global attention, yet still not become the track people associate with humid evenings and summer errands. The reverse can happen too: a song that looks modest internationally may feel extremely present in Korean public life for a few weeks.
 
 <div class="affiliate-inline-cta">
-  <p><strong>Make the playlist more than streaming:</strong> If you collect albums, photocards, or small display items, compare <a href="https://www.amazon.com/s?k=kpop+photocard+binder&amp;tag=epickor2026-20" target="_blank" rel="nofollow sponsored noopener noreferrer">K-pop photocard binders</a> or <a href="https://www.amazon.com/s?k=photocard+sleeves+toploaders&amp;tag=epickor2026-20" target="_blank" rel="nofollow sponsored noopener noreferrer">photocard sleeves and toploaders</a> before storing summer-comeback pulls loose in a drawer.</p>
+  <p><strong>Make the playlist more than streaming:</strong> If you collect albums, photocards, or small display items, compare <a href="https://www.amazon.com/s?k=kpop+photocard+binder&amp;tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">K-pop photocard binders</a> or <a href="https://www.amazon.com/s?k=photocard+sleeves+toploaders&amp;tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">photocard sleeves and toploaders</a> before storing summer-comeback pulls loose in a drawer.</p>
 </div>
 
 ## Quick Listening Plan

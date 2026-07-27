@@ -50,7 +50,7 @@ BTS also changed what "Korean content" could look like overseas. Earlier Hallyu 
 For a broader fan-culture path, pair this with our [summer K-pop guide](/blog/058), [K-pop photocard guide](/blog/291), [coin noraebang guide](/blog/292), and [BTS V military-service guide](/blog/044). Those explain how global fandom connects to seasonal listening, small everyday habits, Korean civic context, and the post-service comeback cycle.
 
 <div class="affiliate-inline-cta">
-  <p><strong>Build context before buying merch:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. If Hallyu made you curious about the country behind the songs, compare <a href="https://www.amazon.com/s?k=korean+culture+history+book&amp;tag=epickor-books-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean culture and history books</a> before filling a shelf only with fan goods.</p>
+  <p><strong>Build context before buying merch:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. If Hallyu made you curious about the country behind the songs, compare <a href="https://www.amazon.com/s?k=korean+culture+history+book&amp;tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean culture and history books</a> before filling a shelf only with fan goods.</p>
 </div>
 
 ## Son Heung-min: Sport as Shared National Emotion
@@ -139,7 +139,7 @@ Soft power becomes interesting when it changes real behavior. A BTS fan may star
 That is the bridge EpicKor cares about: curiosity turning into useful cultural understanding. If you are planning a first trip, pair this guide with [first-time Korea travel basics](/blog/026), [Seoul safety and etiquette](/blog/138), and [Hangeul design culture](/blog/152). For the broader mechanism behind that bridge, the [K-brand explainer](/blog/085) shows how Hallyu attention turns into travel, shopping, language, and food curiosity. Those posts move from "I recognize the icon" to "I understand the place a little better."
 
 <div class="affiliate-inline-cta">
-  <p><strong>Fan goods are easier after you know the context:</strong> If you are buying around a concert, drama night, or Korean-culture gift, compare <a href="https://www.amazon.com/s?k=kpop+kdrama+fan+goods&amp;tag=epickor2026-20" target="_blank" rel="nofollow sponsored noopener noreferrer">K-pop and K-drama fan goods</a> with shipping time, authenticity, and return terms in mind.</p>
+  <p><strong>Fan goods are easier after you know the context:</strong> If you are buying around a concert, drama night, or Korean-culture gift, compare <a href="https://www.amazon.com/s?k=kpop+kdrama+fan+goods&amp;tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">K-pop and K-drama fan goods</a> with shipping time, authenticity, and return terms in mind.</p>
 </div>
 
 ## Sources and Further Reading

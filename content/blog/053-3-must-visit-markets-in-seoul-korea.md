@@ -52,7 +52,7 @@ Do not order five famous foods at the first stall. Portions overlap, fried items
 Seoul introduced measures to reduce price disputes at Gwangjang, including clearer quantity and price display. The city's [market price-transparency announcement](https://english.seoul.go.kr/seoul-unveils-system-to-combat-price-gouging-at-gwangjang-market/) is useful context, but visitors should still confirm the current board. A viral complaint or a viral recommendation may describe one vendor, not the entire market.
 
 <div class="affiliate-inline-cta">
-  <p><strong>Prepare for a food-heavy market day:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. Compare <a href="https://www.amazon.com/s?k=travel+wet+wipes&tag=epickor2026-20" target="_blank" rel="nofollow sponsored noopener noreferrer">travel wet wipes</a> in small resealable packs; market tables, sauces and crowded handwashing areas make a compact pack more useful than a bulky travel kit.</p>
+  <p><strong>Prepare for a food-heavy market day:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. Compare <a href="https://www.amazon.com/s?k=travel+wet+wipes&tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">travel wet wipes</a> in small resealable packs; market tables, sauces and crowded handwashing areas make a compact pack more useful than a bulky travel kit.</p>
 </div>
 
 ## Majang Meat Market: a specialist destination, not a snack lane
@@ -116,7 +116,7 @@ Carry both a card and modest cash. Korea is highly card-friendly, but small outd
 Accessibility varies. Gwangjang's main lanes are fairly flat but become congested; upper floors and old sections may involve stairs. Majang can have wet working surfaces and delivery traffic. Dongmyo's outdoor layout, piles and uneven pedestrian edges can be difficult for wheelchairs, strollers or anyone with limited balance. A quieter weekday can help, but it may also mean fewer outdoor sellers.
 
 <div class="affiliate-inline-cta">
-  <p><strong>Carry purchases without adding bulk:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. Compare <a href="https://www.amazon.com/s?k=foldable+reusable+shopping+bag&tag=epickor2026-20" target="_blank" rel="nofollow sponsored noopener noreferrer">foldable reusable shopping bags</a> by packed size and washable fabric, especially if Dongmyo clothing or Gwangjang dry goods are on your list.</p>
+  <p><strong>Carry purchases without adding bulk:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. Compare <a href="https://www.amazon.com/s?k=foldable+reusable+shopping+bag&tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">foldable reusable shopping bags</a> by packed size and washable fabric, especially if Dongmyo clothing or Gwangjang dry goods are on your list.</p>
 </div>
 
 ![A bite of grilled Korean beef served at Majang Meat Market](/assets/images/posts/053/majang-meat-market.jpg)

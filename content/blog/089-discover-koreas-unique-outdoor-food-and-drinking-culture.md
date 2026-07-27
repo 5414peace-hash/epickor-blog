@@ -51,7 +51,7 @@ If the table is drinking, order **anju**, food meant to accompany alcohol. Commo
 For a gentle first visit, order one hot broth dish, one spicy dish, and one neutral dish. That lets the table balance heat, salt, alcohol, and comfort. If you do not drink, you can still eat, but choose a stall or indoor pocha where the mood is food-friendly rather than a place built mainly around late-night alcohol rounds.
 
 <div class="affiliate-inline-cta">
-  <p><strong>Pojangmacha comfort at home:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. If the late-night noodle-and-broth mood is what you want to recreate, compare a <a href="https://amzn.to/4qrpQMM" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean ramen cooking pot</a> for an easy home setup.</p>
+  <p><strong>Pojangmacha comfort at home:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. If the late-night noodle-and-broth mood is what you want to recreate, compare a <a href="https://www.amazon.com/dp/B08G1CM3XX?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean ramen cooking pot</a> for an easy home setup.</p>
 </div>
 
 ## How to Drink and Behave Politely
@@ -99,7 +99,7 @@ Safety is simple: go with at least one other person if you plan to drink, watch 
 Season also changes the experience. Winter is the classic pojangmacha fantasy because hot broth, steam, plastic tent walls, and cold air work together. Summer can still be fun, but tents may feel humid and crowded. Rainy nights can be atmospheric if the tent is comfortable, but they also make taxis harder and sidewalks messier. If the weather is rough, choose an indoor pocha and save the outdoor tent for a clearer night.
 
 <div class="affiliate-inline-cta">
-  <p><strong>For a small street-food pantry:</strong> If you want a warm Korean comfort option before trying a full pojangmacha spread, compare <a href="https://amzn.to/4nFcnks" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean kimchi stew with tofu</a> as a low-effort home starting point.</p>
+  <p><strong>For a small street-food pantry:</strong> If you want a warm Korean comfort option before trying a full pojangmacha spread, compare <a href="https://www.amazon.com/dp/B0F4K5JK5S?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean kimchi stew with tofu</a> as a low-effort home starting point.</p>
 </div>
 
 ![Pojangmacha late-night Seoul frame from EpicKor's original package.](/assets/images/posts/089/legacy-frame-02.jpg)

@@ -55,7 +55,7 @@ The honest version is this: Hangeul has a low entry barrier and Korean has a lon
 Start by learning the basic consonants and vowels, then practice reading slow, real Korean: station names, simple food words, artist names, drama titles, or webtoon titles. If you already like Korean content, use that interest as study fuel. EpicKor's [Korean webtoon guide](/blog/067) is a good bridge because webtoons expose learners to short conversational lines.
 
 <div class="affiliate-inline-cta">
-  <p><strong>First workbook step:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. If you want a physical practice path, compare the <a href="https://amzn.to/3Zgx6Qq" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean Alphabet with Writing Workbook</a> with your app-based routine so writing practice does not get skipped.</p>
+  <p><strong>First workbook step:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. If you want a physical practice path, compare the <a href="https://www.amazon.com/dp/1974152626?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean Alphabet with Writing Workbook</a> with your app-based routine so writing practice does not get skipped.</p>
 </div>
 
 ## The Real Challenge: Korean Is Social
@@ -116,7 +116,7 @@ If you are visiting Korea soon, prioritize practical phrases over abstract gramm
 However, even travel Korean works better when you can read Hangeul. Menus, cafe names, subway stops, neighborhood signs, and receipts become less intimidating. You will still use translation apps, but you will not be completely dependent on them.
 
 <div class="affiliate-inline-cta">
-  <p><strong>Trip-language backup:</strong> If you are learning Korean for travel, compare <a href="https://www.amazon.com/s?k=korean+phrasebook&amp;tag=epickor2026-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean phrasebooks</a> as a small offline backup for cafe, transit, and etiquette situations.</p>
+  <p><strong>Trip-language backup:</strong> If you are learning Korean for travel, compare <a href="https://www.amazon.com/s?k=korean+phrasebook&amp;tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean phrasebooks</a> as a small offline backup for cafe, transit, and etiquette situations.</p>
 </div>
 
 ## Common Beginner Mistakes

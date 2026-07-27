@@ -112,7 +112,7 @@ That layered career is why one actor can stay expensive for more than one cycle.
 Why include affiliate context in a drama-fee article? Because Hallyu economics does not stop at the production budget. Fans buy snacks for watch parties, collect merch, compare fan goods, plan Korea trips, and discover beauty or fashion brands through dramas. That consumer tail is part of why stars become economically important beyond one show.
 
 <div class="affiliate-inline-cta">
-  <p><strong>K-drama watch-party angle:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. If <em>Queen of Tears</em> sent you into a Kim Soo-hyun rewatch cycle, compare <a href="https://www.amazon.com/s?k=kpop+kdrama+fan+goods&amp;tag=epickor2026-20" target="_blank" rel="nofollow sponsored noopener noreferrer">K-pop and K-drama fan goods</a> for simple watch-party or shelf-display ideas.</p>
+  <p><strong>K-drama watch-party angle:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. If <em>Queen of Tears</em> sent you into a Kim Soo-hyun rewatch cycle, compare <a href="https://www.amazon.com/s?k=kpop+kdrama+fan+goods&amp;tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">K-pop and K-drama fan goods</a> for simple watch-party or shelf-display ideas.</p>
 </div>
 
 ## What International Fans Should Take Away
@@ -122,7 +122,7 @@ The main takeaway is not "Kim Soo-hyun earns this exact amount." The better take
 If you want to understand Korean celebrity economics more broadly, pair this article with our [Cha Eun-woo guide](/blog/037) and [Korean soft power icons guide](/blog/002). If you want the fan-collection side, read our [K-pop photocard guide](/blog/291). If you are choosing what to stream next, the [Netflix K-drama watch-first guide](/blog/070) connects Squid Game, newer Korean Netflix hits, and classic Hallyu viewing lanes. Together, those pages show how Hallyu turns attention into multiple business lanes.
 
 <div class="affiliate-inline-cta">
-  <p><strong>Fan collection starter:</strong> If you collect actor photocards, albums, or fan-made drama cards, compare <a href="https://www.amazon.com/s?k=photocard+sleeves+toploaders&amp;tag=epickor2026-20" target="_blank" rel="nofollow sponsored noopener noreferrer">photocard sleeves and toploaders</a> before storing glossy cards in ordinary plastic.</p>
+  <p><strong>Fan collection starter:</strong> If you collect actor photocards, albums, or fan-made drama cards, compare <a href="https://www.amazon.com/s?k=photocard+sleeves+toploaders&amp;tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">photocard sleeves and toploaders</a> before storing glossy cards in ordinary plastic.</p>
 </div>
 
 ## Sources and Further Reading

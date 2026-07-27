@@ -131,7 +131,7 @@ A third advantage is brand compression. Korean finance can feel fragmented acros
 The downside is complexity. Each additional layer brings a different regulatory, operational, and reputational risk. Banking risk is not the same as securities risk. Payments reliability is not the same as advertising ethics. Insurance inquiry is not the same as loan matching. The wider Toss becomes, the more the company has to protect clarity.
 
 <div class="affiliate-inline-cta">
-  <p><strong>Operator desk note:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. If you are studying Toss as a product strategy case, compare <a href="https://www.amazon.com/s?k=fintech+strategy+book&tag=epickor2026-20" target="_blank" rel="nofollow sponsored noopener noreferrer">fintech strategy books</a> and <a href="https://www.amazon.com/s?k=product+management+financial+services+book&tag=epickor2026-20" target="_blank" rel="nofollow sponsored noopener noreferrer">financial-services product management books</a> before mapping the model to another market.</p>
+  <p><strong>Operator desk note:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. If you are studying Toss as a product strategy case, compare <a href="https://www.amazon.com/s?k=fintech+strategy+book&tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">fintech strategy books</a> and <a href="https://www.amazon.com/s?k=product+management+financial+services+book&tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">financial-services product management books</a> before mapping the model to another market.</p>
 </div>
 
 ## The Business Model Lens
@@ -218,7 +218,7 @@ For a partnership angle, identify the exact business surface. A merchant payment
 For a product strategy angle, study the sequence: pain point, trust, habit, expansion. The sequence is more transferable than any single feature.
 
 <div class="affiliate-inline-cta">
-  <p><strong>Research kit:</strong> If you are building a Korea fintech briefing, compare <a href="https://www.amazon.com/s?k=korea+business+book&tag=epickor2026-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korea business books</a>, <a href="https://www.amazon.com/s?k=startup+strategy+book&tag=epickor2026-20" target="_blank" rel="nofollow sponsored noopener noreferrer">startup strategy books</a>, and <a href="https://www.amazon.com/s?k=business+research+notebook&tag=epickor2026-20" target="_blank" rel="nofollow sponsored noopener noreferrer">business research notebooks</a> so your source notes stay separated by product, entity, and date.</p>
+  <p><strong>Research kit:</strong> If you are building a Korea fintech briefing, compare <a href="https://www.amazon.com/s?k=korea+business+book&tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korea business books</a>, <a href="https://www.amazon.com/s?k=startup+strategy+book&tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">startup strategy books</a>, and <a href="https://www.amazon.com/s?k=business+research+notebook&tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">business research notebooks</a> so your source notes stay separated by product, entity, and date.</p>
 </div>
 
 ## Practical Lessons From Toss

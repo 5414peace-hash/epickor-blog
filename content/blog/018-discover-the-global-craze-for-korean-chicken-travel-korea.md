@@ -57,7 +57,7 @@ Common order terms include **bone-in**, **boneless**, **wings**, **half-and-half
 Most orders arrive with pickled radish, sometimes called chicken-mu. Do not skip it. The sweet-sour crunch resets your palate between bites and makes the meal feel less heavy.
 
 <div class="affiliate-inline-cta">
-  <p><strong>Korean flavor starter:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. If chimaek made you curious about Korean snack-night flavors, compare <a href="https://www.amazon.com/s?k=korean+food+starter+pack&amp;tag=epickor2026-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean food starter packs</a> with sauces, snacks, ramen, and easy pantry items.</p>
+  <p><strong>Korean flavor starter:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. If chimaek made you curious about Korean snack-night flavors, compare <a href="https://www.amazon.com/s?k=korean+food+starter+pack&amp;tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean food starter packs</a> with sauces, snacks, ramen, and easy pantry items.</p>
 </div>
 
 ## Sauce logic: why Korean chicken keeps changing
@@ -126,7 +126,7 @@ If you have several chicken options nearby, compare them by use case instead of 
 Photos help, but read them carefully. Look for recent images showing the actual coating, portion size, and packaging. A sauce that looks glossy and balanced is different from a box that looks soggy. If reviews mention long waits, choose a simpler flavor or order earlier. Fried chicken is at its best when it is still hot enough to crackle.
 
 <div class="affiliate-inline-cta">
-  <p><strong>Make Korean chicken night easier:</strong> If you cook Korean-style meals at home, compare a <a href="https://amzn.to/4eX0zI4" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean BBQ scissors and tongs set</a> for cutting shared foods, plus sauces or snack-night pantry items that match your cooking style.</p>
+  <p><strong>Make Korean chicken night easier:</strong> If you cook Korean-style meals at home, compare a <a href="https://www.amazon.com/dp/B08YZ1CTHC?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean BBQ scissors and tongs set</a> for cutting shared foods, plus sauces or snack-night pantry items that match your cooking style.</p>
 </div>
 
 ## Related EpicKor guides

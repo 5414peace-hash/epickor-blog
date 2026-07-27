@@ -55,7 +55,7 @@ If your month includes late walks, Hangang evenings, markets, or after-dinner ca
 EpicKor's [Korea eSIM guide](/blog/205), [Korea payment setup guide](/blog/201), and [Google Maps vs Naver/Kakao guide](/blog/222) will help you avoid the most common arrival friction.
 
 <div class="affiliate-inline-cta">
-  <p><strong>First-week sanity kit:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. A Seoul month means carrying cards, phone, transit pass, cash, and receipts constantly, so compare <a href="https://www.amazon.com/s?k=travel+card+pouch&amp;tag=epickor2026-20" target="_blank" rel="nofollow sponsored noopener noreferrer">travel card pouches</a> before departure.</p>
+  <p><strong>First-week sanity kit:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. A Seoul month means carrying cards, phone, transit pass, cash, and receipts constantly, so compare <a href="https://www.amazon.com/s?k=travel+card+pouch&amp;tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">travel card pouches</a> before departure.</p>
 </div>
 
 ## Where to Stay for a Month in Seoul
@@ -117,7 +117,7 @@ Laundry, transport, SIM/eSIM, cafe work sessions, shipping, luggage storage, umb
 If the stay makes you curious about why cost and work pressure feel so heavy for many locals, EpicKor's [Hell Joseon and N-po guide](/blog/049) gives the social context without flattening a whole generation.
 
 <div class="affiliate-inline-cta">
-  <p><strong>For Seoul weather swings:</strong> A compact umbrella is one of the few items that helps in rain, sun, and surprise long walks. Compare <a href="https://www.amazon.com/s?k=compact+travel+umbrella&amp;tag=epickor2026-20" target="_blank" rel="nofollow sponsored noopener noreferrer">compact travel umbrellas</a> before packing for a month in Korea.</p>
+  <p><strong>For Seoul weather swings:</strong> A compact umbrella is one of the few items that helps in rain, sun, and surprise long walks. Compare <a href="https://www.amazon.com/s?k=compact+travel+umbrella&amp;tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">compact travel umbrellas</a> before packing for a month in Korea.</p>
 </div>
 
 ![Seoul daily-life and transit visual from EpicKor's original one-month stay package.](/assets/images/posts/079/legacy-frame-02.jpg)

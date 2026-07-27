@@ -83,7 +83,7 @@ For the Korea-side check, use official and source-near materials:
 Then ask the supplier for documents in the exact form your market requires. Do not accept screenshots when a signed, dated, verifiable document is needed. Do not rely on English brochures alone.
 
 <div class="affiliate-inline-cta">
-  <p><strong>Medical sourcing desk setup:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. For early category research, compare <a href="https://www.amazon.com/s?k=medical+device+regulatory+affairs+book&tag=epickor2026-20" target="_blank" rel="nofollow sponsored noopener noreferrer">medical device regulatory affairs books</a> and <a href="https://www.amazon.com/s?k=import+export+business+book&tag=epickor2026-20" target="_blank" rel="nofollow sponsored noopener noreferrer">import-export business books</a> before you turn a supplier list into purchase orders.</p>
+  <p><strong>Medical sourcing desk setup:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. For early category research, compare <a href="https://www.amazon.com/s?k=medical+device+regulatory+affairs+book&tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">medical device regulatory affairs books</a> and <a href="https://www.amazon.com/s?k=import+export+business+book&tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">import-export business books</a> before you turn a supplier list into purchase orders.</p>
 </div>
 
 ## First Email Template for Korean Medical Device Suppliers
@@ -169,7 +169,7 @@ Use a staged approach:
 This looks slow. It is faster than solving a regulatory, service, or liability problem after shipment.
 
 <div class="affiliate-inline-cta">
-  <p><strong>Trade-show and document control:</strong> A Korea supplier trip is easier when supplier notes, certificates, booth cards, and follow-up tasks stay connected. Compare <a href="https://www.amazon.com/s?k=trade+show+planner+notebook&tag=epickor2026-20" target="_blank" rel="nofollow sponsored noopener noreferrer">trade-show planner notebooks</a> and <a href="https://www.amazon.com/s?k=travel+document+organizer&tag=epickor2026-20" target="_blank" rel="nofollow sponsored noopener noreferrer">travel document organizers</a> before you visit KIMES, K-Hospital Fair, or supplier offices.</p>
+  <p><strong>Trade-show and document control:</strong> A Korea supplier trip is easier when supplier notes, certificates, booth cards, and follow-up tasks stay connected. Compare <a href="https://www.amazon.com/s?k=trade+show+planner+notebook&tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">trade-show planner notebooks</a> and <a href="https://www.amazon.com/s?k=travel+document+organizer&tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">travel document organizers</a> before you visit KIMES, K-Hospital Fair, or supplier offices.</p>
 </div>
 
 ## Final Take

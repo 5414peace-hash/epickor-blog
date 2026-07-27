@@ -73,7 +73,7 @@ The viral "gummy smile" or open-laugh discussion fits this pattern. In beauty cu
 For readers trying to understand Korean dating culture, the lesson is not "copy Suzy's exact smile." The better lesson is that Korean flirtation often rewards social calibration. Do not force intensity too early. Match the other person's comfort. Notice whether teasing lands well. Make the conversation feel safe before trying to make it romantic.
 
 <div class="affiliate-inline-cta">
-  <p><strong>Korean conversation prep:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. If this guide makes you curious about Korean social cues, compare <a href="https://www.amazon.com/s?k=korean+phrasebook&amp;tag=epickor2026-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean phrasebooks</a> before a trip, language exchange, or first conversation in Korea.</p>
+  <p><strong>Korean conversation prep:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. If this guide makes you curious about Korean social cues, compare <a href="https://www.amazon.com/s?k=korean+phrasebook&amp;tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean phrasebooks</a> before a trip, language exchange, or first conversation in Korea.</p>
 </div>
 
 ## A Practical Guide to Korean Flirting Cues
@@ -133,7 +133,7 @@ For deeper background, pair this guide with EpicKor's [Korean beauty standards g
 - [Korea's Obsession With K-Branding](/blog/085) - explains how Korean public images become exportable culture.
 
 <div class="affiliate-inline-cta">
-  <p><strong>K-drama watch-party add-on:</strong> If Suzy's roles send you into a drama night, compare <a href="https://www.amazon.com/s?k=kpop+kdrama+fan+goods&amp;tag=epickor2026-20" target="_blank" rel="nofollow sponsored noopener noreferrer">K-pop and K-drama fan goods</a> for a low-pressure way to build a watch setup without chasing one exact product.</p>
+  <p><strong>K-drama watch-party add-on:</strong> If Suzy's roles send you into a drama night, compare <a href="https://www.amazon.com/s?k=kpop+kdrama+fan+goods&amp;tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">K-pop and K-drama fan goods</a> for a low-pressure way to build a watch setup without chasing one exact product.</p>
 </div>
 
 ## FAQ

@@ -66,7 +66,7 @@ Private education matters because it changes the imagined cost of children. In K
 The result is not one simple decision. Some young Koreans reject traditional timelines. Some want family life but delay it. Some pursue careers first. Some move cities. Some leave Korea. Some build smaller, quieter lives than their parents imagined.
 
 <div class="affiliate-inline-cta">
-  <p><strong>Context before hot takes:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. If this topic interests you, compare <a href="https://www.amazon.com/s?k=korean+culture+history+book&amp;tag=epickor2026-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean culture and history books</a> that explain modern Korea beyond one viral phrase.</p>
+  <p><strong>Context before hot takes:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. If this topic interests you, compare <a href="https://www.amazon.com/s?k=korean+culture+history+book&amp;tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean culture and history books</a> that explain modern Korea beyond one viral phrase.</p>
 </div>
 
 ## Gender roles and fertility are connected
@@ -121,7 +121,7 @@ Understanding Hell Joseon does not require becoming cynical. It simply makes the
 The respectful move is to listen for context. A young Korean joking about Hell Joseon may be venting after work, making a political critique, using old internet slang ironically, or describing a very real family-pressure situation. Do not assume the deepest meaning from one phrase. Ask what part feels hard: job search, rent, marriage pressure, office hierarchy, exams, or future planning.
 
 <div class="affiliate-inline-cta">
-  <p><strong>Language helps nuance:</strong> If you want to read Korean social terms more carefully, compare <a href="https://www.amazon.com/s?k=korean+phrasebook&amp;tag=epickor2026-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean phrasebooks</a> or beginner language resources before relying only on translated internet slang.</p>
+  <p><strong>Language helps nuance:</strong> If you want to read Korean social terms more carefully, compare <a href="https://www.amazon.com/s?k=korean+phrasebook&amp;tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean phrasebooks</a> or beginner language resources before relying only on translated internet slang.</p>
 </div>
 
 ## Related EpicKor guides

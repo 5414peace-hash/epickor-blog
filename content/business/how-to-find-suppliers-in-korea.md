@@ -93,7 +93,7 @@ Use the platforms for different jobs. Do not expect one site to solve every step
 ![The tradeKorea homepage gives buyers a category search, trade-service links, trade-show access, buyer picks, and RFQ entry points.](tradekorea-marketplace-home.jpg)
 
 <div class="affiliate-inline-cta">
-  <p><strong>Buyer desk note:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. If Korea sourcing is new for your team, compare <a href="https://www.amazon.com/s?k=import+export+sourcing+book&tag=epickor2026-20" target="_blank" rel="nofollow sponsored noopener noreferrer">import/export sourcing books</a> before sending RFQs, because the first mistakes are usually process mistakes, not Korea-specific mistakes.</p>
+  <p><strong>Buyer desk note:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. If Korea sourcing is new for your team, compare <a href="https://www.amazon.com/s?k=import+export+sourcing+book&tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">import/export sourcing books</a> before sending RFQs, because the first mistakes are usually process mistakes, not Korea-specific mistakes.</p>
 </div>
 
 ## Step 1: Define the Supplier Role Before Searching
@@ -147,7 +147,7 @@ You do not need to fly to Korea for every supplier search. A trip makes sense wh
 If trade shows are part of your plan, read EpicKor's guide to [Korea trade shows for overseas buyers](/business/korea-trade-shows-overseas-buyers). If your category is beauty manufacturing, pair this guide with [K-Beauty OEM/ODM in Korea](/business/k-beauty-oem-odm-korea) before contacting factories.
 
 <div class="affiliate-inline-cta">
-  <p><strong>Simple sourcing kit:</strong> Before a Korea trip or supplier call week, compare <a href="https://www.amazon.com/s?k=trade+show+planner+notebook&tag=epickor2026-20" target="_blank" rel="nofollow sponsored noopener noreferrer">trade-show planner notebooks</a> or <a href="https://www.amazon.com/s?k=travel+document+organizer&tag=epickor2026-20" target="_blank" rel="nofollow sponsored noopener noreferrer">travel document organizers</a>. They are not strategic tools, but they help keep samples, business cards, invoices, and meeting notes from becoming a mess.</p>
+  <p><strong>Simple sourcing kit:</strong> Before a Korea trip or supplier call week, compare <a href="https://www.amazon.com/s?k=trade+show+planner+notebook&tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">trade-show planner notebooks</a> or <a href="https://www.amazon.com/s?k=travel+document+organizer&tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">travel document organizers</a>. They are not strategic tools, but they help keep samples, business cards, invoices, and meeting notes from becoming a mess.</p>
 </div>
 
 ## FAQ

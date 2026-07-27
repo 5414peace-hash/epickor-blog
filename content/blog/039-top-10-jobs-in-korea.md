@@ -76,7 +76,7 @@ Employers recruit for specific stacks, engineering disciplines, research records
 The market also changes quickly. Artificial-intelligence branding does not guarantee an AI job, and a short boot camp does not replace foundations required for engineering work. Review current vacancies on <a href="https://www.work24.go.kr/" target="_blank" rel="noopener noreferrer">Employment24</a> and employer career pages to see which tools and degrees recur.
 
 <div class="affiliate-inline-cta">
-  <p><strong>Build language foundations alongside technical skills:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. Compare a <a href="https://amzn.to/3Zgx6Qq" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean alphabet and writing workbook</a> if you are starting from zero, then move toward job-specific listening, email, and document vocabulary.</p>
+  <p><strong>Build language foundations alongside technical skills:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. Compare a <a href="https://www.amazon.com/dp/1974152626?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean alphabet and writing workbook</a> if you are starting from zero, then move toward job-specific listening, email, and document vocabulary.</p>
 </div>
 
 ## Manufacturing, Construction, Logistics, and Skilled Trades
@@ -150,7 +150,7 @@ At interview, ask how decisions and feedback work and what a normal week looks l
 Titles and speech levels matter, so learn how colleagues address one another. That does not require accepting harassment, unpaid work, or discrimination as “Korean culture.” Respectful adaptation and legal rights can coexist. EpicKor's [guide to pressures facing younger Koreans](/blog/049) provides social context for job competition, housing, and insecurity without reducing people to a hustle stereotype.
 
 <div class="affiliate-inline-cta">
-  <p><strong>Understand the society around the workplace:</strong> Compare <a href="https://www.amazon.com/s?k=korean+culture+history+book&amp;tag=epickor2026-20" target="_blank" rel="nofollow sponsored noopener noreferrer">books on modern Korean culture and history</a> before relocating. Use them as context, then judge the actual employer by its contract, team, and conduct.</p>
+  <p><strong>Understand the society around the workplace:</strong> Compare <a href="https://www.amazon.com/s?k=korean+culture+history+book&amp;tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">books on modern Korean culture and history</a> before relocating. Use them as context, then judge the actual employer by its contract, team, and conduct.</p>
 </div>
 
 ## A Better Way to Choose a Korean Career

@@ -67,7 +67,7 @@ Check the expiry date and keep it cold. If you are buying several for a group, e
 ![Viyott-style Korean convenience-store yogurt shown in the original EpicKor footage.](/assets/images/posts/032/032_Epickor_%EB%AF%BC%ED%98%B8.mp4_20240715_221519.515.jpg)
 
 <div class="affiliate-inline-cta">
-  <p><strong>Before your Korea snack run:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. If Viyott made you curious about Korean convenience-store flavors, compare a <a href="https://amzn.to/4bubOGe" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean snack assortment</a> at home, then use Korea to hunt the fresh dairy items you cannot easily pack.</p>
+  <p><strong>Before your Korea snack run:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. If Viyott made you curious about Korean convenience-store flavors, compare a <a href="https://www.amazon.com/s?k=korean+snack&tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean snack assortment</a> at home, then use Korea to hunt the fresh dairy items you cannot easily pack.</p>
 </div>
 
 ## Which Flavor Should You Try First?
@@ -124,7 +124,7 @@ For a small convenience-store tasting, pair Viyott with banana milk, one seaweed
 For a morning snack, pair it with coffee. If you want to understand Korea's drink rhythm, read EpicKor's [iced Americano guide](/blog/027) next. A very Korea-coded morning is simple: Viyott from the cold shelf, iced Americano from a cafe, and a subway ride to your first neighborhood.
 
 <div class="affiliate-inline-cta">
-  <p><strong>Fresh snack in Korea, shelf-stable snack at home:</strong> Viyott is best eaten cold in Korea. For a packable Korean option to share later, compare <a href="https://amzn.to/4qhhWVZ" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean BBQ flavor seaweed snacks</a> instead of trying to travel with refrigerated yogurt.</p>
+  <p><strong>Fresh snack in Korea, shelf-stable snack at home:</strong> Viyott is best eaten cold in Korea. For a packable Korean option to share later, compare <a href="https://www.amazon.com/dp/B0DH5MR3YP?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean BBQ flavor seaweed snacks</a> instead of trying to travel with refrigerated yogurt.</p>
 </div>
 
 ## Common Mistakes

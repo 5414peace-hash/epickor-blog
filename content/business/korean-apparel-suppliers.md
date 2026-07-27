@@ -71,7 +71,7 @@ A few structural realities shape how you buy there:
 For the broader verification workflow that applies across Korean industries, start with EpicKor's [how to find suppliers in Korea](/business/how-to-find-suppliers-in-korea). The market-entry and matchmaking channels in the [Korea trade shows for overseas buyers](/business/korea-trade-shows-overseas-buyers) guide also apply to fashion, where trade fairs and pavilions can surface OEM partners you would never find on the wholesale floor.
 
 <div class="affiliate-inline-cta">
-  <p><strong>Build the background before the first buying trip:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. Buyers new to this market benefit from a short shelf of <a href="https://www.amazon.com/s?k=apparel+sourcing+production+book&tag=epickor-books-20" target="_blank" rel="nofollow sponsored noopener noreferrer">apparel sourcing and production books</a> covering tech packs, grading, and factory relationships before walking a wholesale floor at 2 a.m.</p>
+  <p><strong>Build the background before the first buying trip:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. Buyers new to this market benefit from a short shelf of <a href="https://www.amazon.com/s?k=apparel+sourcing+production+book&tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">apparel sourcing and production books</a> covering tech packs, grading, and factory relationships before walking a wholesale floor at 2 a.m.</p>
 </div>
 
 ## Due Diligence: From Sample to Shipment
@@ -106,7 +106,7 @@ Export mechanics are where apparel deals quietly succeed or fail. Textiles carry
 Keep it concrete. Agree incoterms so it is unambiguous who pays and who is responsible at each leg. Confirm that labeling meets your destination market before production, not after the container lands. Consolidate small wholesale buys through an agent or forwarder rather than shipping stall by stall. And build in a QC gate before anything leaves Korea, because fixing a fabric or fit problem after export is slow and expensive. For the official procedure side, use Korea's customs and trade-support bodies rather than relying on a seller's assurance.
 
 <div class="affiliate-inline-cta">
-  <p><strong>Get the import mechanics right:</strong> Compare <a href="https://www.amazon.com/s?k=importing+incoterms+supply+chain+book&tag=epickor-books-20" target="_blank" rel="nofollow sponsored noopener noreferrer">importing and incoterms reference books</a> covering quality agreements, labeling, and freight terms. In apparel, most losses are contract, labeling, and inspection failures, not sewing failures.</p>
+  <p><strong>Get the import mechanics right:</strong> Compare <a href="https://www.amazon.com/s?k=importing+incoterms+supply+chain+book&tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">importing and incoterms reference books</a> covering quality agreements, labeling, and freight terms. In apparel, most losses are contract, labeling, and inspection failures, not sewing failures.</p>
 </div>
 
 ## Frequently Asked Questions

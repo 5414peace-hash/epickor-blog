@@ -51,7 +51,7 @@ That history matters because modern K-branding is not only a pop-culture abbrevi
 So the K-prefix is modern, but it borrows weight from deeper identity. That is why a Korean flag hat, Hangeul tote, kimchi museum, or traditional pouch can sit beside K-pop albums and still feel connected.
 
 <div class="affiliate-inline-cta">
-  <p><strong>K-brand souvenir angle:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. If the global "K" label interests you, a simple <a href="https://amzn.to/42T2B4K" target="_blank" rel="nofollow sponsored noopener noreferrer">Bokjumeoni pouch</a> is a small example of tradition becoming a modern gift object.</p>
+  <p><strong>K-brand souvenir angle:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. If the global "K" label interests you, a simple <a href="https://www.amazon.com/dp/B0CLG9TFKG?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Bokjumeoni pouch</a> is a small example of tradition becoming a modern gift object.</p>
 </div>
 
 ## How Hallyu Turns Attention Into Products
@@ -107,7 +107,7 @@ This second-question habit protects both trust and money. It keeps a traveler fr
 For EpicKor's purpose, that is the sweet spot. The reader arrives through culture, then gets a practical next step: compare a useful product, choose a route, understand a food, or avoid a common mistake. K-brand becomes most valuable when it turns attention into informed action. The same logic applies to corporate personalities: the [Chung Yong-jin and Shinsegae guide](/blog/004) shows how public-facing Korean retail leadership can create both consumer attention and reputational risk.
 
 <div class="affiliate-inline-cta">
-  <p><strong>Wear the Korea signal lightly:</strong> For travel days, fan events, or simple souvenir styling, compare this <a href="https://amzn.to/4o5YOk8" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean flag dad hat</a> only if the design fits your actual use.</p>
+  <p><strong>Wear the Korea signal lightly:</strong> For travel days, fan events, or simple souvenir styling, compare this <a href="https://www.amazon.com/s?k=korean+flag+dad+hat&tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean flag dad hat</a> only if the design fits your actual use.</p>
 </div>
 
 ![Korean identity and K-culture visual from EpicKor's original package.](/assets/images/posts/085/legacy-frame-02.jpg)

@@ -55,7 +55,7 @@ But ppalli-ppalli is not just impatience. It emerged alongside industrialization
 The downside is that speed can become pressure. People may feel rushed at work, school, family events, or even leisure. A country can be efficient and still exhausted. The best traveler notices both.
 
 <div class="affiliate-inline-cta">
-  <p><strong>Food-intensity at home:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. If Korean flavor contrast interests you, compare <a href="https://www.amazon.com/s?k=korean+food+starter+pack&amp;tag=epickor2026-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean food starter packs</a> before buying random spicy items with no plan.</p>
+  <p><strong>Food-intensity at home:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. If Korean flavor contrast interests you, compare <a href="https://www.amazon.com/s?k=korean+food+starter+pack&amp;tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean food starter packs</a> before buying random spicy items with no plan.</p>
 </div>
 
 ## Work, Study, and the Cost of Intensity

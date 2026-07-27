@@ -81,7 +81,7 @@ This is the clearest example of why "won the vote" and "won the ranking" are dif
 That mix also helps explain why established names can re-enter strongly. A comeback year creates new music, performances, advertising, interviews, searches, and fan activity at the same time. The index is built to detect that concentrated burst.
 
 <div class="affiliate-inline-cta">
-  <p><strong>Keep fandom purchases practical:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. Before buying random unofficial merchandise, compare <a href="https://www.amazon.com/s?k=kpop+kdrama+fan+goods&amp;tag=epickor2026-20" target="_blank" rel="nofollow sponsored noopener noreferrer">K-pop and K-drama fan goods</a>, check licensing and seller details, and save premium spending for official releases you can verify.</p>
+  <p><strong>Keep fandom purchases practical:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. Before buying random unofficial merchandise, compare <a href="https://www.amazon.com/s?k=kpop+kdrama+fan+goods&amp;tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">K-pop and K-drama fan goods</a>, check licensing and seller details, and save premium spending for official releases you can verify.</p>
 </div>
 
 ## BLACKPINK and the Group-Plus-Solo Model
@@ -141,7 +141,7 @@ The ranking works well as a map of Korean entertainment categories. Instead of t
 If the list sends you toward physical merchandise, EpicKor's [K-pop merchandise shopping guide](/blog/134) explains official shops, photocards, lightsticks, pop-ups, and authenticity checks. For celebrity-specific context, compare the [Cha Eun-woo visual-branding guide](/blog/037) and [Kim Soo-hyun drama-economics guide](/blog/042). For a newer-generation idol case study, see [why Jang Wonyoung became a modern K-pop icon](/blog/043).
 
 <div class="affiliate-inline-cta">
-  <p><strong>Protect the items you already own:</strong> If ranking season leads you back to a photocard collection, compare <a href="https://www.amazon.com/s?k=photocard+sleeves+toploaders&amp;tag=epickor2026-20" target="_blank" rel="nofollow sponsored noopener noreferrer">acid-free photocard sleeves and toploaders</a> by size and material before buying more cards. Storage is usually a better first purchase than another unverified listing.</p>
+  <p><strong>Protect the items you already own:</strong> If ranking season leads you back to a photocard collection, compare <a href="https://www.amazon.com/s?k=photocard+sleeves+toploaders&amp;tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">acid-free photocard sleeves and toploaders</a> by size and material before buying more cards. Storage is usually a better first purchase than another unverified listing.</p>
 </div>
 
 ## FAQ About the Forbes Korea Power Celebrity 40

@@ -89,7 +89,7 @@ The practical point is not that every skincare product is a functional cosmetic.
 ![A functional cosmetics checkpoint board separates product claims, responsible seller, safety and effectiveness data, SPF or PA support, samples, and destination-market rules.](functional-cosmetics-checkpoints.svg)
 
 <div class="affiliate-inline-cta">
-  <p><strong>Beauty operator note:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. If this is your first private-label beauty project, compare <a href="https://www.amazon.com/s?k=cosmetics+business+product+development+book&tag=epickor2026-20" target="_blank" rel="nofollow sponsored noopener noreferrer">cosmetics product-development books</a> before supplier calls so your brief covers claims, packaging, testing, and launch assumptions.</p>
+  <p><strong>Beauty operator note:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. If this is your first private-label beauty project, compare <a href="https://www.amazon.com/s?k=cosmetics+business+product+development+book&tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">cosmetics product-development books</a> before supplier calls so your brief covers claims, packaging, testing, and launch assumptions.</p>
 </div>
 
 ## What To Prepare Before Contacting a Korean Manufacturer
@@ -127,7 +127,7 @@ For first discovery, use general Korea supplier paths and then narrow by categor
 If you are still mapping the overall Korea supplier process, read [How to Find Suppliers in Korea](/business/how-to-find-suppliers-in-korea). If you plan to meet manufacturers in person, pair this with [Korea Trade Shows for Overseas Buyers](/business/korea-trade-shows-overseas-buyers).
 
 <div class="affiliate-inline-cta">
-  <p><strong>Launch planning check:</strong> For early project control, compare <a href="https://www.amazon.com/s?k=product+development+notebook&tag=epickor2026-20" target="_blank" rel="nofollow sponsored noopener noreferrer">product-development notebooks</a> or <a href="https://www.amazon.com/s?k=travel+document+organizer&tag=epickor2026-20" target="_blank" rel="nofollow sponsored noopener noreferrer">document organizers</a>. A clean sample and document trail is more useful than a folder full of screenshots.</p>
+  <p><strong>Launch planning check:</strong> For early project control, compare <a href="https://www.amazon.com/s?k=product+development+notebook&tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">product-development notebooks</a> or <a href="https://www.amazon.com/s?k=travel+document+organizer&tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">document organizers</a>. A clean sample and document trail is more useful than a folder full of screenshots.</p>
 </div>
 
 ## FAQ

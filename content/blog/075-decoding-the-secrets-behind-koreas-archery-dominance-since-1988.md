@@ -67,7 +67,7 @@ Elite athletes have different bodies, tempos, anchors, and mental cues. Their us
 Repetition works only when it contains feedback. Shooting thousands of careless arrows can reinforce a bad pattern. High-level practice alternates volume with technical blocks, physical training, recovery, and competition simulation. The objective is not a motion that looks identical on camera; it is a reliable process whose small variations the archer can recognize and manage.
 
 <div class="affiliate-inline-cta">
-  <p><strong>For learning the sport safely:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. Beginners should use a qualified club and coach rather than buying competition equipment first. For background reading, compare <a href="https://www.amazon.com/s?k=beginner+recurve+archery+book&tag=epickor2026-20" target="_blank" rel="nofollow sponsored noopener noreferrer">beginner recurve archery books</a> and follow your range's safety rules.</p>
+  <p><strong>For learning the sport safely:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. Beginners should use a qualified club and coach rather than buying competition equipment first. For background reading, compare <a href="https://www.amazon.com/s?k=beginner+recurve+archery+book&tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">beginner recurve archery books</a> and follow your range's safety rules.</p>
 </div>
 
 ## Pressure Training Makes Stress Familiar
@@ -129,7 +129,7 @@ Also look at conditions. Flags, windsocks, clothing, and arrow drift reveal what
 *The Korean women's team celebrates its London 2012 result after competition. Photo by the Korean Olympic Committee/KOCIS via Wikimedia Commons, CC BY-SA 2.0.*
 
 <div class="affiliate-inline-cta">
-  <p><strong>For spectators and club practice:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. If your range permits personal viewing gear, compare <a href="https://www.amazon.com/s?k=compact+binoculars+outdoor+sport&tag=epickor2026-20" target="_blank" rel="nofollow sponsored noopener noreferrer">compact outdoor binoculars</a>; check venue rules and never step onto an active range to retrieve arrows.</p>
+  <p><strong>For spectators and club practice:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. If your range permits personal viewing gear, compare <a href="https://www.amazon.com/s?k=compact+binoculars+outdoor+sport&tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">compact outdoor binoculars</a>; check venue rules and never step onto an active range to retrieve arrows.</p>
 </div>
 
 ## What the Korean Record Really Proves

@@ -19,7 +19,7 @@ The better rule is simple: buy souvenirs that still make sense after the suitcas
 This guide keeps the romance but removes the overbuying. For broader shopping context, pair it with EpicKor's [Olive Young shopping guide](/blog/028), [Korean snack guide](/blog/029), [Korean grocery store tourism guide](/blog/209), and [Korean food starter shelf guide](/blog/277).
 
 <div class="affiliate-inline-cta">
-  <p><strong>Souvenir planning note:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. If your bag is already close to the airline limit, compare <a href="https://www.amazon.com/s?k=digital+luggage+scale+travel&amp;tag=epickor2026-20" target="_blank" rel="nofollow sponsored noopener noreferrer">digital luggage scales for travel</a> before you turn a snack haul into an airport repacking scene.</p>
+  <p><strong>Souvenir planning note:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. If your bag is already close to the airline limit, compare <a href="https://www.amazon.com/s?k=digital+luggage+scale+travel&amp;tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">digital luggage scales for travel</a> before you turn a snack haul into an airport repacking scene.</p>
 </div>
 
 ## Start With the Recipient, Not the Store
@@ -100,7 +100,7 @@ Traditional Korean craft souvenirs can be beautiful, but the best ones for trave
 Craft shopping is especially good around Insadong, palace neighborhoods, museum shops, and selected market areas. The challenge is quality. A cheap pouch can still be a sweet gift, but do not confuse every traditional-looking item with artisan work. If a seller explains the material, maker, region, or technique, that context adds value. If not, buy it because you like it, not because it proves anything.
 
 <div class="affiliate-inline-cta">
-  <p><strong>Gift-at-home option:</strong> If you want a light traditional-style gift without packing extra fabric in Korea, compare a <a href="https://amzn.to/42T2B4K" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean bokjumeoni lucky pouch</a> or similar small craft item before deciding what deserves suitcase space.</p>
+  <p><strong>Gift-at-home option:</strong> If you want a light traditional-style gift without packing extra fabric in Korea, compare a <a href="https://www.amazon.com/dp/B0CLG9TFKG?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean bokjumeoni lucky pouch</a> or similar small craft item before deciding what deserves suitcase space.</p>
 </div>
 
 ## Alcohol: Good Gift, More Rules

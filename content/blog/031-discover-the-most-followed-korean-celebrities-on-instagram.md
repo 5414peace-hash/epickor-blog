@@ -50,7 +50,7 @@ Jennie's account often represents the bridge between Korean celebrity culture an
 The platform rewards this separation. A group account can promote official releases, but individual accounts create the feeling of access. A fan can track outfits, hair, travel, backstage moments, magazine shoots, and tiny personality clues. Luxury brands love that because the star's feed becomes a soft storefront without looking like a normal ad page.
 
 <div class="affiliate-inline-cta">
-  <p><strong>K-pop fan setup:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. If this ranking guide sends you deeper into K-pop fandom, compare <a href="https://www.amazon.com/s?k=kpop+kdrama+fan+goods&amp;tag=epickor2026-20" target="_blank" rel="nofollow sponsored noopener noreferrer">K-pop and K-drama fan goods</a> before buying random merch from unfamiliar sellers.</p>
+  <p><strong>K-pop fan setup:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. If this ranking guide sends you deeper into K-pop fandom, compare <a href="https://www.amazon.com/s?k=kpop+kdrama+fan+goods&amp;tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">K-pop and K-drama fan goods</a> before buying random merch from unfamiliar sellers.</p>
 </div>
 
 ## Why BTS Instagram Influence Is Different
@@ -111,7 +111,7 @@ Food, beauty, travel, and fan goods work in a similar but more accessible way. A
 - [Suzy First-Love Image Guide](/blog/016) - shows how one celebrity image can become a cultural shorthand.
 
 <div class="affiliate-inline-cta">
-  <p><strong>Go beyond follower-count headlines:</strong> If you want deeper context on why Korean culture travels so efficiently, compare <a href="https://www.amazon.com/s?k=korean+culture+history+book&amp;tag=epickor2026-20" target="_blank" rel="nofollow sponsored noopener noreferrer">books on Korean culture and modern society</a> after reading this guide.</p>
+  <p><strong>Go beyond follower-count headlines:</strong> If you want deeper context on why Korean culture travels so efficiently, compare <a href="https://www.amazon.com/s?k=korean+culture+history+book&amp;tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">books on Korean culture and modern society</a> after reading this guide.</p>
 </div>
 
 ## FAQ

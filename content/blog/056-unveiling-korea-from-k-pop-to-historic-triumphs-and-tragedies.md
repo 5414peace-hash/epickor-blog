@@ -52,7 +52,7 @@ This development changed daily life at extraordinary speed. Families moved from 
 But speed has a bill. When people say Korean society is competitive, they are not only talking about personality. They are talking about a system where education, jobs, housing, marriage, childcare, and status can feel tightly linked. The miracle created opportunity, but it also taught people that falling behind is dangerous.
 
 <div class="affiliate-inline-cta">
-  <p><strong>Read Korea beyond headlines:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. If this overview makes Korea feel more complex than K-pop or kimchi, compare <a href="https://www.amazon.com/s?k=korean+culture+history+book&amp;tag=epickor2026-20" target="_blank" rel="nofollow sponsored noopener noreferrer">books on Korean culture and modern history</a> for deeper context.</p>
+  <p><strong>Read Korea beyond headlines:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. If this overview makes Korea feel more complex than K-pop or kimchi, compare <a href="https://www.amazon.com/s?k=korean+culture+history+book&amp;tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">books on Korean culture and modern history</a> for deeper context.</p>
 </div>
 
 ## From Hardware Exports to Hallyu Soft Power
@@ -115,7 +115,7 @@ That is why Korea travels so well globally. It feels polished, but not empty. St
 - [Korean Cinema and Choi Min-sik](/blog/030) - a screen-culture path into Korean grief, revenge, history, and genre storytelling.
 
 <div class="affiliate-inline-cta">
-  <p><strong>Bring the overview down to language:</strong> If Korea's history and culture make you want to understand everyday speech, compare <a href="https://www.amazon.com/s?k=korean+phrasebook&amp;tag=epickor2026-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean phrasebooks</a> before relying only on subtitles.</p>
+  <p><strong>Bring the overview down to language:</strong> If Korea's history and culture make you want to understand everyday speech, compare <a href="https://www.amazon.com/s?k=korean+phrasebook&amp;tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean phrasebooks</a> before relying only on subtitles.</p>
 </div>
 
 ## FAQ

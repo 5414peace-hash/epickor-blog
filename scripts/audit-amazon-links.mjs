@@ -5,13 +5,11 @@ import { fileURLToPath } from 'node:url';
 const ROOT = join(fileURLToPath(new URL('..', import.meta.url)));
 const CONTENT_DIRS = ['content/blog', 'content/business'];
 const CATALOG_PATH = 'content/data/amazon-links.json';
+// 2026-07-27: the original account (epickor2026-20 + five category IDs) was closed by
+// Amazon for missing 3 qualifying sales in 180 days. The reapplied account has exactly
+// one tracking ID. Any of the old tags reappearing is a defect, not a category choice.
 const APPROVED_TAGS = new Set([
-  'epickor2026-20',
-  'epickor-food-20',
-  'epickor-travel-20',
-  'epickor-beauty-20',
-  'epickor-books-20',
-  'epickor-gear-20',
+  'epickor-20',
 ]);
 const TEXT_EXTENSIONS = new Set(['.md', '.mdx', '.json']);
 const AMAZON_URL_RE = /https:\/\/(?:www\.)?(?:amazon\.com|amzn\.to)[^\s"'<>\)\]]+/gi;

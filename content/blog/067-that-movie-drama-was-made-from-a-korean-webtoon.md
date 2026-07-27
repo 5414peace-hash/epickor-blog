@@ -55,7 +55,7 @@ That listing mattered symbolically. It told global investors that the mobile-scr
 For readers, the practical meaning is simpler: webtoons are no longer only "the thing a drama was based on." They are a primary discovery layer. If you follow Korean culture only through Netflix or Disney+, you often meet stories after they have already been tested by webtoon readers.
 
 <div class="affiliate-inline-cta">
-  <p><strong>Webtoon-to-drama watch setup:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. If a webtoon sends you into a K-drama binge, compare <a href="https://www.amazon.com/s?k=kpop+kdrama+fan+goods&amp;tag=epickor2026-20" target="_blank" rel="nofollow sponsored noopener noreferrer">K-pop and K-drama fan goods</a> without assuming every item is official merchandise.</p>
+  <p><strong>Webtoon-to-drama watch setup:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. If a webtoon sends you into a K-drama binge, compare <a href="https://www.amazon.com/s?k=kpop+kdrama+fan+goods&amp;tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">K-pop and K-drama fan goods</a> without assuming every item is official merchandise.</p>
 </div>
 
 ## Naver, Kakao, and the Platform Layer
@@ -125,7 +125,7 @@ Webtoons are useful for EpicKor because they connect culture curiosity to practi
 That is the healthy path: entertainment opens the door, but useful guides keep the reader moving. Webtoons should not be treated as a random trend. They are one of the bridges between Korean creative industries and everyday reader action.
 
 <div class="affiliate-inline-cta">
-  <p><strong>After the screen, read deeper:</strong> If webtoons make you curious about Korea beyond one show, compare <a href="https://www.amazon.com/s?k=korean+culture+history+book&amp;tag=epickor2026-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean culture and history books</a> before choosing a broad explainer.</p>
+  <p><strong>After the screen, read deeper:</strong> If webtoons make you curious about Korea beyond one show, compare <a href="https://www.amazon.com/s?k=korean+culture+history+book&amp;tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean culture and history books</a> before choosing a broad explainer.</p>
 </div>
 
 ## FAQs About Korean Webtoons

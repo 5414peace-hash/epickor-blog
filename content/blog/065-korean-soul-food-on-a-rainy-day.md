@@ -49,7 +49,7 @@ VisitKorea's makgeolli material describes makgeolli as an unrefined rice wine an
 But do not turn the tradition into a rule. Many Koreans do not drink makgeolli. Many rainy days involve delivery food, noodles, coffee, or staying home. The phrase survives because it feels instantly shareable.
 
 <div class="affiliate-inline-cta">
-  <p><strong>Rainy-day pantry shortcut:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. When the pajeon craving turns into a full comfort-food night, compare <a href="https://amzn.to/4nFcnks" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean kimchi stew with tofu</a> as an easy standby dish.</p>
+  <p><strong>Rainy-day pantry shortcut:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. When the pajeon craving turns into a full comfort-food night, compare <a href="https://www.amazon.com/dp/B0F4K5JK5S?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean kimchi stew with tofu</a> as an easy standby dish.</p>
 </div>
 
 ## Kalguksu and Sujebi: Rainy Broth Comfort
@@ -125,7 +125,7 @@ Makgeolli is part of the famous rainy-day image, but alcohol is not required. Yo
 Never let a food tradition pressure you into drinking. The real rainy-day mood is shared warmth, not proving tolerance.
 
 <div class="affiliate-inline-cta">
-  <p><strong>Make it feel like a pocha table:</strong> A small <a href="https://amzn.to/4qrpQMM" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean ramen cooking pot</a> turns rainy-day noodles into a simple shared-table ritual at home without needing a full restaurant setup.</p>
+  <p><strong>Make it feel like a pocha table:</strong> A small <a href="https://www.amazon.com/dp/B08G1CM3XX?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean ramen cooking pot</a> turns rainy-day noodles into a simple shared-table ritual at home without needing a full restaurant setup.</p>
 </div>
 
 ## What to Cook at Home

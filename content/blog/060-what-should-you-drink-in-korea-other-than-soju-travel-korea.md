@@ -49,7 +49,7 @@ Makgeolli is a great first alternative because it feels different from soju imme
 If you want a dedicated food pairing, read EpicKor's [pajeon and makgeolli rainy-day guide](/blog/149). If the weather changes your whole itinerary, the broader [Korean rainy day food guide](/blog/065) covers noodles, soups, delivery, and no-alcohol options too.
 
 <div class="affiliate-inline-cta">
-  <p><strong>Hoesik-table snack:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. Since Korean drinking culture is never just about drinks, compare <a href="https://amzn.to/4bubOGe" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean snack options</a> to understand the table rhythm better.</p>
+  <p><strong>Hoesik-table snack:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. Since Korean drinking culture is never just about drinks, compare <a href="https://www.amazon.com/s?k=korean+snack&tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean snack options</a> to understand the table rhythm better.</p>
 </div>
 
 ## Somaek: Why Koreans Mix Soju and Beer
@@ -134,7 +134,7 @@ You can still enjoy Korean food culture without drinking. Order soft drinks, spa
 If someone asks why you are not drinking, a simple "I do not drink" or "I have an early morning" is usually enough. You do not owe a complicated explanation.
 
 <div class="affiliate-inline-cta">
-  <p><strong>Late-night table helper:</strong> A small <a href="https://amzn.to/4qrpQMM" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean ramen cooking pot</a> makes the after-drinks noodle habit easier to recreate at home without turning the whole night into an alcohol ritual.</p>
+  <p><strong>Late-night table helper:</strong> A small <a href="https://www.amazon.com/dp/B08G1CM3XX?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean ramen cooking pot</a> makes the after-drinks noodle habit easier to recreate at home without turning the whole night into an alcohol ritual.</p>
 </div>
 
 ## Convenience Store Drink Reality

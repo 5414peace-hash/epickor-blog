@@ -56,7 +56,7 @@ You may hear strong nutrition claims around seaweed: iodine, calcium, minerals, 
 The safe cultural reading is this: miyeokguk is a Korean food tradition that connects birth, recovery, warmth, and family care. You can respect that meaning without treating the soup as medicine.
 
 <div class="affiliate-inline-cta">
-  <p><strong>Try the seaweed lane gently:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. If miyeokguk makes you curious about Korean seaweed flavors, compare <a href="https://amzn.to/4qhhWVZ" target="_blank" rel="nofollow sponsored noopener noreferrer">Bibigo Korean BBQ flavor seaweed snacks</a> as a low-effort taste before buying a large dried-seaweed pack for soup.</p>
+  <p><strong>Try the seaweed lane gently:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. If miyeokguk makes you curious about Korean seaweed flavors, compare <a href="https://www.amazon.com/dp/B0DH5MR3YP?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Bibigo Korean BBQ flavor seaweed snacks</a> as a low-effort taste before buying a large dried-seaweed pack for soup.</p>
 </div>
 
 ## What Goes Into Miyeokguk
@@ -107,7 +107,7 @@ This does not mean people literally believe soup controls exam results. Like man
 The contrast is useful. Miyeokguk is not one-symbol food. On a birthday, it means origin and gratitude. Before an exam, it can mean slipping and failure. Korean food culture is full of these context shifts.
 
 <div class="affiliate-inline-cta">
-  <p><strong>Build a Korean comfort-food night:</strong> If soup culture interests you, compare <a href="https://amzn.to/4nFcnks" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean kimchi stew with tofu</a> with a broader <a href="https://www.amazon.com/s?k=korean+food+starter+pack&amp;tag=epickor2026-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean food starter pack</a> so your pantry covers more than one soup story.</p>
+  <p><strong>Build a Korean comfort-food night:</strong> If soup culture interests you, compare <a href="https://www.amazon.com/dp/B0F4K5JK5S?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean kimchi stew with tofu</a> with a broader <a href="https://www.amazon.com/s?k=korean+food+starter+pack&amp;tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean food starter pack</a> so your pantry covers more than one soup story.</p>
 </div>
 
 ## How Miyeokguk Tastes

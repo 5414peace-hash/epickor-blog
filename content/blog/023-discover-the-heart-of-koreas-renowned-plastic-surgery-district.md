@@ -66,7 +66,7 @@ For aesthetic procedures, ask the doctor to define the goal in conservative lang
 Do not rely only on before-and-after galleries. Lighting, angle, makeup, swelling stage, selection bias, and editing can change perception. A gallery can start questions, but it should not end them.
 
 <div class="affiliate-inline-cta">
-  <p><strong>Prepare the non-glamorous part first:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. If you are traveling for consultations, compare <a href="https://www.amazon.com/s?k=travel+document+organizer&amp;tag=epickor-travel-20" target="_blank" rel="nofollow sponsored noopener noreferrer">travel document organizers</a> so passport copies, clinic papers, insurance details, and receipts stay together.</p>
+  <p><strong>Prepare the non-glamorous part first:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. If you are traveling for consultations, compare <a href="https://www.amazon.com/s?k=travel+document+organizer&amp;tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">travel document organizers</a> so passport copies, clinic papers, insurance details, and receipts stay together.</p>
 </div>
 
 ## Price Shopping Can Backfire
@@ -118,7 +118,7 @@ A sensible plan looks slow: research official clinic registration, read medical 
 Gangnam's medical-tourism scene can be sophisticated and internationally experienced. That is exactly why readers should approach it with adult seriousness. Korea's beauty infrastructure is impressive, but the safest patient is still the one who asks unglamorous questions.
 
 <div class="affiliate-inline-cta">
-  <p><strong>For the skincare side, not surgery:</strong> If your Korea plan is beauty shopping rather than a procedure, compare a simple product such as <a href="https://amzn.to/4twhKFk" target="_blank" rel="nofollow sponsored noopener noreferrer">ROUND LAB 1025 Dokdo Toner</a> and patch-test slowly instead of overhauling your routine while traveling.</p>
+  <p><strong>For the skincare side, not surgery:</strong> If your Korea plan is beauty shopping rather than a procedure, compare a simple product such as <a href="https://www.amazon.com/dp/B08FM5BTF6?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">ROUND LAB 1025 Dokdo Toner</a> and patch-test slowly instead of overhauling your routine while traveling.</p>
 </div>
 
 ## Sources and Further Reading

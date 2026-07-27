@@ -53,7 +53,7 @@ But consumer intimacy cuts both ways. The more a leader becomes a face, the more
 For broader soft-power and Korean consumer context, see EpicKor's [K-brand explainer](/blog/085), [Korea travel cheat codes guide](/blog/084), and [Korean soft power icons guide](/blog/002). Shinsegae is not only a business story; it sits inside Korean lifestyle, food, shopping, sports, and branded spaces.
 
 <div class="affiliate-inline-cta">
-  <p><strong>Business context before hot takes:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. If Korean conglomerates and retail leadership interest you, compare <a href="https://www.amazon.com/s?k=korean+business+books&amp;tag=epickor-books-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean business books</a> before relying only on celebrity-chairman headlines.</p>
+  <p><strong>Business context before hot takes:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. If Korean conglomerates and retail leadership interest you, compare <a href="https://www.amazon.com/s?k=korean+business+books&amp;tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean business books</a> before relying only on celebrity-chairman headlines.</p>
 </div>
 
 ## The 2026 Starbucks Korea Lesson
@@ -103,7 +103,7 @@ That is why the next proof point is operational, measurable, durable, and not ae
 For readers interested in Korea's shopping and consumer side, EpicKor's [Korean convenience-store food guide](/blog/059), [Seoul stationery shopping guide](/blog/298), and [Korean cookware starter kit](/blog/299) show the ground-level consumer culture that large retail groups compete to serve.
 
 <div class="affiliate-inline-cta">
-  <p><strong>Leadership lens:</strong> If this article is making you think about public executives and brand risk, compare <a href="https://www.amazon.com/s?k=business+leadership+books&amp;tag=epickor-books-20" target="_blank" rel="nofollow sponsored noopener noreferrer">business leadership books</a> with a focus on crisis communication and consumer trust.</p>
+  <p><strong>Leadership lens:</strong> If this article is making you think about public executives and brand risk, compare <a href="https://www.amazon.com/s?k=business+leadership+books&amp;tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">business leadership books</a> with a focus on crisis communication and consumer trust.</p>
 </div>
 
 ![Retail and leadership frame from EpicKor's original Shinsegae package.](/assets/images/posts/004/eef00638-949c-4476-b227-dc55602ea880.jpg)

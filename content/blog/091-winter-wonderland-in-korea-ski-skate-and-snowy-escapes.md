@@ -103,7 +103,7 @@ This is the smarter plan if your trip is short or if not everyone in your group 
 EpicKor's [24-hour Seoul route guide](/blog/017) helps you pace the city when daylight and temperature make winter days feel shorter.
 
 <div class="affiliate-inline-cta">
-  <p><strong>Keep the winter route powered:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. Cold weather drains phones faster, so compare <a href="https://www.amazon.com/s?k=portable+power+bank+travel&tag=epickor2026-20" target="_blank" rel="nofollow sponsored noopener noreferrer">portable power banks for travel</a> before a ski shuttle or long winter photo day.</p>
+  <p><strong>Keep the winter route powered:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. Cold weather drains phones faster, so compare <a href="https://www.amazon.com/s?k=portable+power+bank+travel&tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">portable power banks for travel</a> before a ski shuttle or long winter photo day.</p>
 </div>
 
 ## Winter Festivals and Snow Escapes
@@ -176,7 +176,7 @@ Plan one major winter activity per day. A ski resort plus a night market plus a 
 If you are moving between cities, check train or bus schedules early. If you are returning from a resort, confirm the last shuttle and where it departs. Korean travel infrastructure is good, but it is not psychic. It will not rescue an itinerary that ignores time.
 
 <div class="affiliate-inline-cta">
-  <p><strong>Carry small winter essentials together:</strong> A travel card pouch keeps transit card, hotel key, backup cash, and locker receipts from disappearing in coat pockets. Compare <a href="https://www.amazon.com/s?k=travel+card+pouch&tag=epickor2026-20" target="_blank" rel="nofollow sponsored noopener noreferrer">travel card pouches</a> before a cold-weather Korea route.</p>
+  <p><strong>Carry small winter essentials together:</strong> A travel card pouch keeps transit card, hotel key, backup cash, and locker receipts from disappearing in coat pockets. Compare <a href="https://www.amazon.com/s?k=travel+card+pouch&tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">travel card pouches</a> before a cold-weather Korea route.</p>
 </div>
 
 ## A Simple 4-Day Korea Winter Plan

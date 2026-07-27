@@ -51,7 +51,7 @@ It also overlaps with Korea's **newtro** mood: new interest in older aesthetics.
 The best Choncance trip respects both sides: enjoy the charm, but do not treat the village as a costume set.
 
 <div class="affiliate-inline-cta">
-  <p><strong>Countryside-trip pocket item:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. Choncance sounds romantic until the bus stop has no convenience store, so compare <a href="https://www.amazon.com/s?k=travel+tissue+packs&amp;tag=epickor2026-20" target="_blank" rel="nofollow sponsored noopener noreferrer">travel tissue packs</a> before packing a light Korea day bag.</p>
+  <p><strong>Countryside-trip pocket item:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. Choncance sounds romantic until the bus stop has no convenience store, so compare <a href="https://www.amazon.com/s?k=travel+tissue+packs&amp;tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">travel tissue packs</a> before packing a light Korea day bag.</p>
 </div>
 
 ## Where to Try Choncance in Korea
@@ -156,7 +156,7 @@ If you do not have a car, check the final 5 kilometers before booking. "Near a s
 For a first attempt, choose a destination where the lodging, meal, and main walk are close enough that you are not depending on rare buses.
 
 <div class="affiliate-inline-cta">
-  <p><strong>Slow-trip snack:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. For a quiet train, guesthouse, or village stay, <a href="https://amzn.to/4nI1uhT" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean sweet potato snack bars</a> fit the countryside-rest mood better than flashy souvenirs.</p>
+  <p><strong>Slow-trip snack:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. For a quiet train, guesthouse, or village stay, <a href="https://www.amazon.com/dp/B09PQCFH6S?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean sweet potato snack bars</a> fit the countryside-rest mood better than flashy souvenirs.</p>
 </div>
 
 ## When Is Choncance Best?

@@ -52,7 +52,7 @@ For visitors, nunchi starts with slowing down. If a restaurant is packed and sta
 Nunchi does not mean mind-reading. You can ask direct questions. The trick is to ask them in a way that leaves room for the other person to answer without shame. "Is this okay here?" works better than "Why is this so confusing?" "Could you help me check?" works better than "You made a mistake."
 
 <div class="affiliate-inline-cta">
-  <p><strong>Conversation safety net:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. If you want a few polite phrases before a trip, compare <a href="https://www.amazon.com/s?k=korean+phrasebook&amp;tag=epickor2026-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean phrasebooks</a> so basic requests do not come out harsher than intended.</p>
+  <p><strong>Conversation safety net:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. If you want a few polite phrases before a trip, compare <a href="https://www.amazon.com/s?k=korean+phrasebook&amp;tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean phrasebooks</a> so basic requests do not come out harsher than intended.</p>
 </div>
 
 ## Honorifics, Banmal, and Why "Friendly" Can Sound Rude
@@ -123,7 +123,7 @@ If something goes wrong, try not to make the first sentence a moral accusation. 
 - [Korean Proverbs With Life Lessons](/blog/080) - for understanding how everyday language carries social values.
 
 <div class="affiliate-inline-cta">
-  <p><strong>Deeper culture context:</strong> If etiquette guides feel too shallow, compare <a href="https://www.amazon.com/s?k=korean+culture+history+book&amp;tag=epickor2026-20" target="_blank" rel="nofollow sponsored noopener noreferrer">books on Korean culture and modern society</a> so you can understand the background behind the manners.</p>
+  <p><strong>Deeper culture context:</strong> If etiquette guides feel too shallow, compare <a href="https://www.amazon.com/s?k=korean+culture+history+book&amp;tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">books on Korean culture and modern society</a> so you can understand the background behind the manners.</p>
 </div>
 
 ## FAQ

@@ -57,7 +57,7 @@ This does not mean every Korean is a great singer. It means group singing has a 
 That background can make concert participation feel less strange. If singing with friends is normal after dinner, singing with thousands of fans at a concert can feel like a larger version of a familiar release.
 
 <div class="affiliate-inline-cta">
-  <p><strong>Practice without pressure:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. If this makes noraebang culture click, compare <a href="https://www.amazon.com/s?k=portable+bluetooth+karaoke+microphone&amp;tag=epickor2026-20" target="_blank" rel="nofollow sponsored noopener noreferrer">portable karaoke microphones</a> for casual sing-along practice at home.</p>
+  <p><strong>Practice without pressure:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. If this makes noraebang culture click, compare <a href="https://www.amazon.com/s?k=portable+bluetooth+karaoke+microphone&amp;tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">portable karaoke microphones</a> for casual sing-along practice at home.</p>
 </div>
 
 ## Why artists react so strongly in Seoul
@@ -115,7 +115,7 @@ The second misunderstanding is that fan rules are silly. Some rules exist becaus
 The third misunderstanding is that you must know everything. You do not. A respectful first-timer can have a great night by learning three songs, following the nearest section's energy, and treating the fandom as a host culture rather than a test.
 
 <div class="affiliate-inline-cta">
-  <p><strong>Concert-night kit:</strong> Compare <a href="https://www.amazon.com/s?k=kpop+kdrama+fan+goods&amp;tag=epickor2026-20" target="_blank" rel="nofollow sponsored noopener noreferrer">K-pop and K-drama fan goods</a>, small clear pouches, and simple concert accessories before buying random unofficial items outside a venue.</p>
+  <p><strong>Concert-night kit:</strong> Compare <a href="https://www.amazon.com/s?k=kpop+kdrama+fan+goods&amp;tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">K-pop and K-drama fan goods</a>, small clear pouches, and simple concert accessories before buying random unofficial items outside a venue.</p>
 </div>
 
 ## Ttechang is a relationship, not a trick

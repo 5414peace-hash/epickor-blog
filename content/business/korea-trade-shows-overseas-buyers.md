@@ -95,7 +95,7 @@ Use official and platform resources as planning tools. KOTRA's buyer page descri
 KOTRA says it organizes more than 190 one-on-one business meeting events in Korea annually and dispatches more than 100 trade delegations globally each year. Treat those numbers as proof that a structured meeting ecosystem exists, not as proof that every buyer will qualify for every incentive or program.
 
 <div class="affiliate-inline-cta">
-  <p><strong>Trade-show desk note:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. Before a Korea sourcing trip, compare <a href="https://www.amazon.com/s?k=trade+show+planner+notebook&tag=epickor2026-20" target="_blank" rel="nofollow sponsored noopener noreferrer">trade-show planner notebooks</a> or <a href="https://www.amazon.com/s?k=business+card+organizer&tag=epickor2026-20" target="_blank" rel="nofollow sponsored noopener noreferrer">business-card organizers</a> so booth notes, cards, samples, and follow-up tasks stay connected.</p>
+  <p><strong>Trade-show desk note:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. Before a Korea sourcing trip, compare <a href="https://www.amazon.com/s?k=trade+show+planner+notebook&tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">trade-show planner notebooks</a> or <a href="https://www.amazon.com/s?k=business+card+organizer&tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">business-card organizers</a> so booth notes, cards, samples, and follow-up tasks stay connected.</p>
 </div>
 
 ## The 60-Day Planning Timeline
@@ -174,7 +174,7 @@ If a supplier was found at a Korea pavilion outside Korea, still verify the comp
 For a wider supplier workflow, read [How to Find Suppliers in Korea](/business/how-to-find-suppliers-in-korea). For beauty-specific manufacturing meetings, read [K-Beauty OEM/ODM in Korea](/business/k-beauty-oem-odm-korea).
 
 <div class="affiliate-inline-cta">
-  <p><strong>Travel work setup:</strong> A Korea trade-show trip is easier when your receipts, passports, samples, and meeting notes are separated. Compare <a href="https://www.amazon.com/s?k=travel+document+organizer&tag=epickor2026-20" target="_blank" rel="nofollow sponsored noopener noreferrer">travel document organizers</a> or <a href="https://www.amazon.com/s?k=portable+power+bank+travel&tag=epickor2026-20" target="_blank" rel="nofollow sponsored noopener noreferrer">portable power banks</a> before a multi-day booth schedule.</p>
+  <p><strong>Travel work setup:</strong> A Korea trade-show trip is easier when your receipts, passports, samples, and meeting notes are separated. Compare <a href="https://www.amazon.com/s?k=travel+document+organizer&tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">travel document organizers</a> or <a href="https://www.amazon.com/s?k=portable+power+bank+travel&tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">portable power banks</a> before a multi-day booth schedule.</p>
 </div>
 
 ## FAQ

@@ -59,7 +59,7 @@ South Korea requires most able-bodied men to complete mandatory service. For glo
 BTS's service period mattered because it tested whether the fandom could stay active without full-group promotions. The answer was yes. Solo projects, archives, Festa events, fan activity, and anticipation kept the group present.
 
 <div class="affiliate-inline-cta">
-  <p><strong>Start with the fan basics:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. If BTS pulls you into albums, displays, or watch-party gifts, compare <a href="https://www.amazon.com/s?k=kpop+kdrama+fan+goods&amp;tag=epickor2026-20" target="_blank" rel="nofollow sponsored noopener noreferrer">K-pop and K-drama fan goods</a> without treating every listing as official merchandise.</p>
+  <p><strong>Start with the fan basics:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. If BTS pulls you into albums, displays, or watch-party gifts, compare <a href="https://www.amazon.com/s?k=kpop+kdrama+fan+goods&amp;tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">K-pop and K-drama fan goods</a> without treating every listing as official merchandise.</p>
 </div>
 
 ## Why BTS Felt Different From Earlier K-pop Groups
@@ -131,7 +131,7 @@ Korea.net's 2025 discharge article did more than report military timing. It conn
 The danger is turning BTS into a government slogan. They are artists first. But their global impact also helps explain why Korean language, food, beauty, drama, fashion, and travel became easier for international audiences to approach.
 
 <div class="affiliate-inline-cta">
-  <p><strong>Keep the small collectibles safe:</strong> If albums or fan events lead to photocards, compare <a href="https://www.amazon.com/s?k=photocard+sleeves+toploaders&amp;tag=epickor2026-20" target="_blank" rel="nofollow sponsored noopener noreferrer">photocard sleeves and toploaders</a> before storing cards loosely in a bag or drawer.</p>
+  <p><strong>Keep the small collectibles safe:</strong> If albums or fan events lead to photocards, compare <a href="https://www.amazon.com/s?k=photocard+sleeves+toploaders&amp;tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">photocard sleeves and toploaders</a> before storing cards loosely in a bag or drawer.</p>
 </div>
 
 ## What Beginners Should Avoid

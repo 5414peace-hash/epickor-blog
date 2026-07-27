@@ -57,7 +57,7 @@ The useful version is more grounded: rain can mix with urban dust, streets can s
 Korea rewards practical caution, not panic.
 
 <div class="affiliate-inline-cta">
-  <p><strong>Rainy Seoul packing note:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. Before a summer Korea trip, compare <a href="https://www.amazon.com/s?k=compact+travel+umbrella&amp;tag=epickor2026-20" target="_blank" rel="nofollow sponsored noopener noreferrer">compact travel umbrellas</a> by closed length, wind resistance, and wet-storage sleeve so it actually fits your day bag.</p>
+  <p><strong>Rainy Seoul packing note:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. Before a summer Korea trip, compare <a href="https://www.amazon.com/s?k=compact+travel+umbrella&amp;tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">compact travel umbrellas</a> by closed length, wind resistance, and wet-storage sleeve so it actually fits your day bag.</p>
 </div>
 
 ## How to handle umbrellas politely in Korea
@@ -123,7 +123,7 @@ This sounds obvious, but travelers often lose time because they try to rescue th
 Rain planning is not pessimism. It is how you keep the trip flexible enough to stay enjoyable.
 
 <div class="affiliate-inline-cta">
-  <p><strong>Protect the phone first:</strong> If your route includes markets, festivals, beaches, or jangma showers, compare <a href="https://www.amazon.com/s?k=waterproof+phone+pouch+travel&amp;tag=epickor2026-20" target="_blank" rel="nofollow sponsored noopener noreferrer">waterproof phone pouches</a> and simple zip protection before your map, translation, and payment tools get soaked.</p>
+  <p><strong>Protect the phone first:</strong> If your route includes markets, festivals, beaches, or jangma showers, compare <a href="https://www.amazon.com/s?k=waterproof+phone+pouch+travel&amp;tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">waterproof phone pouches</a> and simple zip protection before your map, translation, and payment tools get soaked.</p>
 </div>
 
 ## Related EpicKor guides

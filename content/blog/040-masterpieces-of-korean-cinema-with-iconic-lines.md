@@ -73,7 +73,7 @@ The line most associated with the film is commonly paraphrased around the idea t
 That is why *The Unjust* has remained culturally sticky. It is a crime thriller, but it is also a vocabulary machine for talking about power. Korea has a long tradition of films that use genre entertainment to express frustration with institutions. *The Unjust* belongs firmly in that tradition.
 
 <div class="affiliate-inline-cta">
-  <p><strong>Korean culture context:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. If Korean films make more sense when you understand history, hierarchy, and modern society, compare <a href="https://www.amazon.com/s?k=korean+culture+history+book&amp;tag=epickor2026-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean culture and history books</a> before treating movie lines as isolated memes.</p>
+  <p><strong>Korean culture context:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. If Korean films make more sense when you understand history, hierarchy, and modern society, compare <a href="https://www.amazon.com/s?k=korean+culture+history+book&amp;tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean culture and history books</a> before treating movie lines as isolated memes.</p>
 </div>
 
 ## Oldboy and the Global Gateway Problem
@@ -132,7 +132,7 @@ Watching Korean films before a trip changes how Seoul feels. You notice police s
 But keep fiction separate from daily life. Korea is not a noir film. The value of cinema is not that it "proves" what Koreans are like. It shows what Korean artists do with fear, humor, power, memory, and desire.
 
 <div class="affiliate-inline-cta">
-  <p><strong>Build a Korea watch shelf:</strong> For a home viewing night, compare <a href="https://www.amazon.com/s?k=korean+cinema+book&amp;tag=epickor2026-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean cinema books</a> or film-history guides so the movies become more than isolated streaming recommendations.</p>
+  <p><strong>Build a Korea watch shelf:</strong> For a home viewing night, compare <a href="https://www.amazon.com/s?k=korean+cinema+book&amp;tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean cinema books</a> or film-history guides so the movies become more than isolated streaming recommendations.</p>
 </div>
 
 ## Sources and Further Reading

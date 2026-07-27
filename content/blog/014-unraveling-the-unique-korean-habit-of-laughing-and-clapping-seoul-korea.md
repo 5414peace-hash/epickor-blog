@@ -21,7 +21,7 @@ So the interesting question is not “Why do all Koreans clap?” It is: why doe
 For the etiquette layer around this topic, also read EpicKor's [Korean etiquette guide](/blog/013), [noraebang etiquette guide](/blog/003), and [Korean concert sing-along guide](/blog/061).
 
 <div class="affiliate-inline-cta">
-  <p><strong>Catch the social nuance:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. If laughter, honorifics, and reaction words feel connected, compare <a href="https://www.amazon.com/s?k=korean+phrasebook&amp;tag=epickor2026-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean phrasebooks</a> so you can hear how tone changes everyday conversation.</p>
+  <p><strong>Catch the social nuance:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. If laughter, honorifics, and reaction words feel connected, compare <a href="https://www.amazon.com/s?k=korean+phrasebook&amp;tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean phrasebooks</a> so you can hear how tone changes everyday conversation.</p>
 </div>
 
 ## Think of It as a Visible “I Am With You”
@@ -159,7 +159,7 @@ The laugh-clap is charming because it makes emotion visible. It turns a joke int
 So yes, you may see Koreans clap when they laugh. But the deeper cultural lesson is not about hands. It is about responsiveness. In Korean social life, a good reaction can be a gift to the room.
 
 <div class="affiliate-inline-cta">
-  <p><strong>Go deeper than one gesture:</strong> If this reaction makes you curious about Korean social values, compare <a href="https://www.amazon.com/s?k=korean+culture+history+book&amp;tag=epickor2026-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean culture and history books</a> before relying only on clips and short-form edits.</p>
+  <p><strong>Go deeper than one gesture:</strong> If this reaction makes you curious about Korean social values, compare <a href="https://www.amazon.com/s?k=korean+culture+history+book&amp;tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean culture and history books</a> before relying only on clips and short-form edits.</p>
 </div>
 
 ## FAQ

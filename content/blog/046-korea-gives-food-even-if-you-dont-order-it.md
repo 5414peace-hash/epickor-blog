@@ -51,7 +51,7 @@ That table structure matters. Banchan is not a bonus snack. It is how the meal w
 This is why first-time visitors sometimes misread Korean abundance. The small plates do not always mean the restaurant is giving you "free food" in the Western promotion sense. They are part of the expected value of the meal.
 
 <div class="affiliate-inline-cta">
-  <p><strong>Worth comparing:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. If this guide makes you want a Korean snack table at home, start by comparing <a href="https://amzn.to/4bubOGe" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean snack options</a> before buying a big assorted box.</p>
+  <p><strong>Worth comparing:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. If this guide makes you want a Korean snack table at home, start by comparing <a href="https://www.amazon.com/s?k=korean+snack&tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean snack options</a> before buying a big assorted box.</p>
 </div>
 
 ## Banchan vs. Service: Two Different Ideas
@@ -158,7 +158,7 @@ You do not need twenty plates to recreate the logic of a Korean table. Think in 
 That small structure teaches the real lesson of Korean dining. Banchan is not about showing off quantity. It is about making each bite adjustable.
 
 <div class="affiliate-inline-cta">
-  <p><strong>Build a simple Korean table:</strong> If you cook at home, compare basics like <a href="https://amzn.to/4r2Pkkw" target="_blank" rel="nofollow sponsored noopener noreferrer">gochujang</a> and <a href="https://amzn.to/467PaA7" target="_blank" rel="nofollow sponsored noopener noreferrer">ssamjang</a> before adding too many specialty sauces.</p>
+  <p><strong>Build a simple Korean table:</strong> If you cook at home, compare basics like <a href="https://www.amazon.com/dp/B004KUCK18?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">gochujang</a> and <a href="https://www.amazon.com/dp/B07BFQPCM6?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">ssamjang</a> before adding too many specialty sauces.</p>
 </div>
 
 ![A table-level view of Korean side dishes, sauces, and shared plates.](/assets/images/posts/046/legacy-frame-02.jpg)

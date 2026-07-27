@@ -24,7 +24,7 @@ So why does the topic still matter? Because culture does not always disappear wh
 For nearby social-context guides, read EpicKor's [Hell Joseon and N-po explainer](/blog/049), [Korean laugh-clap guide](/blog/014), and [Korean etiquette guide](/blog/013).
 
 <div class="affiliate-inline-cta">
-  <p><strong>Small-talk prep:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. If blood type, MBTI, honorifics, and dating questions make Korean conversation feel layered, compare <a href="https://www.amazon.com/s?k=korean+phrasebook&amp;tag=epickor2026-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean phrasebooks</a> before your next Korea trip or language exchange.</p>
+  <p><strong>Small-talk prep:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. If blood type, MBTI, honorifics, and dating questions make Korean conversation feel layered, compare <a href="https://www.amazon.com/s?k=korean+phrasebook&amp;tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean phrasebooks</a> before your next Korea trip or language exchange.</p>
 </div>
 
 ## The Four Stereotypes People Recognize
@@ -152,7 +152,7 @@ If you know your blood type, answer and ask what stereotype it has in Korea. If 
 The goal is not to win a science debate in the first minute of conversation. The goal is to understand why the question appears. In Korea, blood type personality is one more example of how social categories become conversation tools. It is not reliable psychology, but it is useful cultural vocabulary.
 
 <div class="affiliate-inline-cta">
-  <p><strong>For a Korean culture night:</strong> If this kind of social-label talk makes you curious about modern Korea, compare <a href="https://www.amazon.com/s?k=korean+culture+history+book&amp;tag=epickor2026-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean culture and history books</a> before relying only on dating clips, quizzes, or short-form jokes.</p>
+  <p><strong>For a Korean culture night:</strong> If this kind of social-label talk makes you curious about modern Korea, compare <a href="https://www.amazon.com/s?k=korean+culture+history+book&amp;tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean culture and history books</a> before relying only on dating clips, quizzes, or short-form jokes.</p>
 </div>
 
 ## FAQ

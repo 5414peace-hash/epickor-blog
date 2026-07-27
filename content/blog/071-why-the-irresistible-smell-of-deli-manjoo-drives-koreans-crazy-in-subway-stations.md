@@ -44,7 +44,7 @@ It is not a complicated dessert. That is part of its charm. It is the kind of sn
 For visitors, Deli Manjoo can feel like a Korean street-food cousin of taiyaki, imagawayaki, or small custard cakes. The difference is the corn shape, the subway setting, and the very specific smell that makes it almost impossible to ignore.
 
 <div class="affiliate-inline-cta">
-  <p><strong>Korean snack note:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. Deli Manjoo is best fresh from a station kiosk, but <a href="https://amzn.to/3RjAjOp" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean honey yakgwa</a> is a better shelf-stable sweet if you want a small Korea-style tea snack at home.</p>
+  <p><strong>Korean snack note:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. Deli Manjoo is best fresh from a station kiosk, but <a href="https://www.amazon.com/dp/B07VQF4N85?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean honey yakgwa</a> is a better shelf-stable sweet if you want a small Korea-style tea snack at home.</p>
 </div>
 
 ---
@@ -179,7 +179,7 @@ Some fans also like it after cooling down or even frozen, but for a first try, w
 For another Korean snack culture guide, see EpicKor's article on [Korean snacks and texture culture](/blog/029). If the old-but-new dessert angle interests you, the [yakgwa guide](/blog/128) explains how a traditional honey cookie became a modern Gen Z cafe and convenience-store trend. For a more everyday morning version of this grab-and-go logic, read the guide to [Korean convenience store breakfast](/blog/171). If you want to recreate the snack break at home rather than chase the station kiosk, pair it with the [Korean instant coffee mix guide](/blog/278), the [Korean tea and grain drinks guide](/blog/280), or the broader [Korean pantry starter kit](/blog/277).
 
 <div class="affiliate-inline-cta">
-  <p><strong>Compare the closest shelf-stable texture:</strong> Deli Manjoo itself is best hot from a kiosk, but you can compare <a href="https://www.amazon.com/s?k=korean+custard+cake+snack&tag=epickor-food-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean custard cake snacks</a> by filling, pack size, and freshness instead of buying an unrelated mixed snack box.</p>
+  <p><strong>Compare the closest shelf-stable texture:</strong> Deli Manjoo itself is best hot from a kiosk, but you can compare <a href="https://www.amazon.com/s?k=korean+custard+cake+snack&tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean custard cake snacks</a> by filling, pack size, and freshness instead of buying an unrelated mixed snack box.</p>
 </div>
 
 ---

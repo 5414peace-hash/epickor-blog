@@ -50,7 +50,7 @@ It is tempting to reduce *Oldboy* to the hallway fight, the live-octopus scene, 
 The live-octopus scene especially became part of Choi's legend because viewers understood it as evidence of commitment. But the deeper lesson is not shock value. It is that Korean cinema of that era often forced emotion through the body: eating, bleeding, running, screaming, kneeling, fighting, vomiting, and enduring. Choi was uniquely suited to that style because he could make excess feel grounded.
 
 <div class="affiliate-inline-cta">
-  <p><strong>K-movie watch-night pick:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. If this Choi Min-sik guide sends you into a Korean film night, compare <a href="https://amzn.to/4bubOGe" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean snack options</a> before pressing play.</p>
+  <p><strong>K-movie watch-night pick:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. If this Choi Min-sik guide sends you into a Korean film night, compare <a href="https://www.amazon.com/s?k=korean+snack&tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean snack options</a> before pressing play.</p>
 </div>
 
 ## Why Korean Audiences See More Than One Choi
@@ -120,7 +120,7 @@ For EpicKor readers, the larger point is simple: Choi is a gateway. If you under
 - [South Korea Explained](/blog/056) - adds the broader growth, K-pop, tragedy, and resilience context behind modern Korean culture.
 
 <div class="affiliate-inline-cta">
-  <p><strong>After the credits:</strong> Pair a late Korean film night with <a href="https://amzn.to/49fO0E8" target="_blank" rel="nofollow sponsored noopener noreferrer">Maxim coffee mix</a> if you want the easiest Korean pantry-style drink beside the screen.</p>
+  <p><strong>After the credits:</strong> Pair a late Korean film night with <a href="https://www.amazon.com/dp/B003VD5SNC?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Maxim coffee mix</a> if you want the easiest Korean pantry-style drink beside the screen.</p>
 </div>
 
 ## FAQ

@@ -300,7 +300,7 @@ Before you request prices, decide what model you are actually pursuing.
 The cleanest model is not always the cheapest. But a clean model gives you repeat supply, clearer documents, and a better chance of surviving marketplace review.
 
 <div class="affiliate-inline-cta">
-  <p><strong>Operator note:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. If you are preparing your first wholesale beauty project, compare <a href="https://www.amazon.com/s?k=cosmetics+business+product+development+book&tag=epickor2026-20" target="_blank" rel="nofollow sponsored noopener noreferrer">cosmetics business books</a> and <a href="https://www.amazon.com/s?k=import+export+sourcing+book&tag=epickor2026-20" target="_blank" rel="nofollow sponsored noopener noreferrer">import/export sourcing books</a> before sending RFQs, because weak paperwork can cost more than weak pricing.</p>
+  <p><strong>Operator note:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. If you are preparing your first wholesale beauty project, compare <a href="https://www.amazon.com/s?k=cosmetics+business+product+development+book&tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">cosmetics business books</a> and <a href="https://www.amazon.com/s?k=import+export+sourcing+book&tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">import/export sourcing books</a> before sending RFQs, because weak paperwork can cost more than weak pricing.</p>
 </div>
 
 ## Document Checklist Before Payment
@@ -505,7 +505,7 @@ For a first test, consider fewer SKUs, fresher stock, clearer authorization, and
 If your goal is long-term K-beauty retail, you are not only buying inventory. You are building a supply file: seller identity, product documents, batch trail, authorization, label review, invoices, shipment records, and customer-response plan.
 
 <div class="affiliate-inline-cta">
-  <p><strong>Sourcing desk setup:</strong> Before a Korea buyer trip or trade-show week, compare <a href="https://www.amazon.com/s?k=trade+show+planner+notebook&tag=epickor2026-20" target="_blank" rel="nofollow sponsored noopener noreferrer">trade-show planner notebooks</a>, <a href="https://www.amazon.com/s?k=travel+document+organizer&tag=epickor2026-20" target="_blank" rel="nofollow sponsored noopener noreferrer">travel document organizers</a>, and <a href="https://www.amazon.com/s?k=barcode+scanner+inventory&tag=epickor2026-20" target="_blank" rel="nofollow sponsored noopener noreferrer">barcode scanner inventory tools</a>. Wholesale beauty work is much easier when samples, invoices, barcodes, and booth notes stay organized.</p>
+  <p><strong>Sourcing desk setup:</strong> Before a Korea buyer trip or trade-show week, compare <a href="https://www.amazon.com/s?k=trade+show+planner+notebook&tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">trade-show planner notebooks</a>, <a href="https://www.amazon.com/s?k=travel+document+organizer&tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">travel document organizers</a>, and <a href="https://www.amazon.com/s?k=barcode+scanner+inventory&tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">barcode scanner inventory tools</a>. Wholesale beauty work is much easier when samples, invoices, barcodes, and booth notes stay organized.</p>
 </div>
 
 ## FAQ

@@ -48,7 +48,7 @@ Not every restaurant has one. Very small, old, luxury, or foreign-style restaura
 For meal etiquette, especially side dishes and refills, EpicKor's [Korean banchan guide](/blog/050) gives useful context.
 
 <div class="affiliate-inline-cta">
-  <p><strong>Pack for frictionless Korea days:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. If this unique things in Korea guide is helping you plan, compare <a href="https://www.amazon.com/s?k=korea+travel+essentials&tag=epickor2026-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korea travel essentials</a> before buying random gadgets.</p>
+  <p><strong>Pack for frictionless Korea days:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. If this unique things in Korea guide is helping you plan, compare <a href="https://www.amazon.com/s?k=korea+travel+essentials&tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korea travel essentials</a> before buying random gadgets.</p>
 </div>
 
 ## 3. Heated Bus-Stop Seats
@@ -109,7 +109,7 @@ This is why locals plan by micro-route. A good Seoul route is not only "go from 
 If rain is in the forecast, EpicKor's [Korean rainy-day food guide](/blog/065) is a good companion because food culture adapts to weather too.
 
 <div class="affiliate-inline-cta">
-  <p><strong>Protect your phone-heavy travel day:</strong> Navigation, translation, photos, and payment checks drain batteries fast. Compare <a href="https://www.amazon.com/s?k=portable+power+bank+travel&tag=epickor2026-20" target="_blank" rel="nofollow sponsored noopener noreferrer">portable power banks for travel</a> before a long Seoul itinerary.</p>
+  <p><strong>Protect your phone-heavy travel day:</strong> Navigation, translation, photos, and payment checks drain batteries fast. Compare <a href="https://www.amazon.com/s?k=portable+power+bank+travel&tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">portable power banks for travel</a> before a long Seoul itinerary.</p>
 </div>
 
 ## 8. The QR, Kiosk, and Self-Service Layer

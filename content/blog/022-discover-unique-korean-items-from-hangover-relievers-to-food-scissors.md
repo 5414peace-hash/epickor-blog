@@ -49,7 +49,7 @@ For naengmyeon, scissors may arrive with the bowl because the noodles can be lon
 The main etiquette is simple: do not wave scissors around, do not cut above someone else's bowl without asking, and do not use food scissors like personal desk scissors. If there are separate tongs or serving chopsticks, use them for shared food. The goal is clean sharing, not performance.
 
 <div class="affiliate-inline-cta">
-  <p><strong>Home Korean-table note:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. If this guide makes Korean BBQ feel more understandable, compare a <a href="https://amzn.to/4eX0zI4" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean BBQ scissors and tongs set</a> before recreating the grill-and-cut rhythm at home.</p>
+  <p><strong>Home Korean-table note:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. If this guide makes Korean BBQ feel more understandable, compare a <a href="https://www.amazon.com/dp/B08YZ1CTHC?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean BBQ scissors and tongs set</a> before recreating the grill-and-cut rhythm at home.</p>
 </div>
 
 ## The bigger pattern: Korea likes friction removers
@@ -99,7 +99,7 @@ If you like practical Korean items, focus on things that fit your life after the
 For hangover drinks, the better souvenir may be knowledge rather than a suitcase full of bottles. Try one only if it is safe for you, read the label, and remember what it represents: a convenience culture built around long nights and next-day responsibilities.
 
 <div class="affiliate-inline-cta">
-  <p><strong>Build a useful Korea-at-home kit:</strong> Compare <a href="https://www.amazon.com/s?k=korean+food+starter+pack&amp;tag=epickor2026-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean food starter packs</a>, sauces, snacks, and simple pantry items before buying novelty products that may not match how you actually cook.</p>
+  <p><strong>Build a useful Korea-at-home kit:</strong> Compare <a href="https://www.amazon.com/s?k=korean+food+starter+pack&amp;tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean food starter packs</a>, sauces, snacks, and simple pantry items before buying novelty products that may not match how you actually cook.</p>
 </div>
 
 ## Related EpicKor guides

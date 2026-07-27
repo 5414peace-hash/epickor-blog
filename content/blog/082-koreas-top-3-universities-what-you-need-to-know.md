@@ -66,7 +66,7 @@ Here is the simple version:
 None of these images tells the whole truth. Every school has many departments, personalities, and subcultures. But these public images matter because Koreans often talk about universities through reputation as much as through official rankings.
 
 <div class="affiliate-inline-cta">
-  <p><strong>Study-culture note:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. If SKY made you curious about Korea's education pressure, start with <a href="https://amzn.to/3Zgx6Qq" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean Alphabet with Writing Workbook</a> before diving deeper into Korean campus life.</p>
+  <p><strong>Study-culture note:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. If SKY made you curious about Korea's education pressure, start with <a href="https://www.amazon.com/dp/1974152626?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean Alphabet with Writing Workbook</a> before diving deeper into Korean campus life.</p>
 </div>
 
 ## Is SKY an Official Ranking or a Cultural Label?
@@ -144,7 +144,7 @@ For younger Koreans, there is also growing criticism of the old prestige system.
 So the honest answer is balanced: SKY is not destiny, but it is still a powerful advantage.
 
 <div class="affiliate-inline-cta">
-  <p><strong>For language learners:</strong> Korean school names, titles, and campus culture make more sense once the basics click; the <a href="https://www.amazon.com/dp/1838691537?tag=epickor-books-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Lonely Planet Korean Phrasebook &amp; Dictionary</a> is a low-commitment starting point if this topic made you want a practical next step.</p>
+  <p><strong>For language learners:</strong> Korean school names, titles, and campus culture make more sense once the basics click; the <a href="https://www.amazon.com/dp/1838691537?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Lonely Planet Korean Phrasebook &amp; Dictionary</a> is a low-commitment starting point if this topic made you want a practical next step.</p>
 </div>
 
 ## Why Foreigners Notice SKY Later Than Koreans Do

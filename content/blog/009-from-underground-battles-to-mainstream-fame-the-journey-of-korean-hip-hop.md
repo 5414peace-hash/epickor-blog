@@ -54,7 +54,7 @@ In Korea, the debate is extra complicated because the entertainment industry is 
 If you are also tracking the idol side of this question, read EpicKor's [BTS guide](/blog/010). BTS helped many global listeners notice that idol rap and hip-hop authenticity were not always cleanly separated.
 
 <div class="affiliate-inline-cta">
-  <p><strong>Build a listener kit:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. If Korean hip-hop sends you into albums, posters, and watch-party goods, compare <a href="https://www.amazon.com/s?k=kpop+kdrama+fan+goods&amp;tag=epickor2026-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean music and fan goods</a> without assuming every item is official.</p>
+  <p><strong>Build a listener kit:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. If Korean hip-hop sends you into albums, posters, and watch-party goods, compare <a href="https://www.amazon.com/s?k=kpop+kdrama+fan+goods&amp;tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean music and fan goods</a> without assuming every item is official.</p>
 </div>
 
 ## The Artists Beginners Hear First
@@ -115,7 +115,7 @@ If you want to understand more than vibes, pair this guide with EpicKor's [Hange
 *Reading artist names and track titles in Hangeul makes Korean hip-hop discovery less dependent on romanization.*
 
 <div class="affiliate-inline-cta">
-  <p><strong>Make Korean names less blurry:</strong> If the artist names, titles, and captions start to matter, compare <a href="https://amzn.to/3Zgx6Qq" target="_blank" rel="nofollow sponsored noopener noreferrer">a Korean alphabet writing workbook</a> before relying only on romanization.</p>
+  <p><strong>Make Korean names less blurry:</strong> If the artist names, titles, and captions start to matter, compare <a href="https://www.amazon.com/dp/1974152626?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">a Korean alphabet writing workbook</a> before relying only on romanization.</p>
 </div>
 
 ## How Fans Discover New Korean Rap Now

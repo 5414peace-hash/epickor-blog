@@ -82,7 +82,7 @@ The safest approach is to arrive early, scout food, and avoid carrying too much 
 If Korean game food interests you more broadly, EpicKor's [Korean snacks guide](/blog/029) and [convenience-store food guide](/blog/059) make good companions.
 
 <div class="affiliate-inline-cta">
-  <p><strong>Build a low-effort watch-party snack table:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. If Korean baseball makes you curious about the food side, compare <a href="https://amzn.to/4bubOGe" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean snack options</a> before your next home game night.</p>
+  <p><strong>Build a low-effort watch-party snack table:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. If Korean baseball makes you curious about the food side, compare <a href="https://www.amazon.com/s?k=korean+snack&tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean snack options</a> before your next home game night.</p>
 </div>
 
 ## Merch and Team Identity
@@ -142,7 +142,7 @@ For a full late-night Seoul rhythm, EpicKor's [24-hour Seoul route guide](/blog/
 </div>
 
 <div class="affiliate-inline-cta">
-  <p><strong>Keep the game-night kit small:</strong> A compact card pouch can hold transit card, hotel key, and backup cash without a bulky bag. Compare <a href="https://www.amazon.com/s?k=travel+card+pouch&tag=epickor2026-20" target="_blank" rel="nofollow sponsored noopener noreferrer">travel card pouches</a> before a crowded stadium night.</p>
+  <p><strong>Keep the game-night kit small:</strong> A compact card pouch can hold transit card, hotel key, and backup cash without a bulky bag. Compare <a href="https://www.amazon.com/s?k=travel+card+pouch&tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">travel card pouches</a> before a crowded stadium night.</p>
 </div>
 
 ## FAQ

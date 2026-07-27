@@ -52,7 +52,7 @@ The official VisitKorea page on Korean seasonings describes doenjang as fermente
 At the table, use less than you think. Newcomers often overload the wrap with ssamjang and then complain that the bite is too salty. A pea-sized or thumbnail-sized amount is usually enough for a leaf wrap with meat, rice, and garlic. If the meat is heavily seasoned, use less. If the wrap has mostly vegetables, use a little more.
 
 <div class="affiliate-inline-cta">
-  <p><strong>Try the sauce itself:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. If ssamjang is the flavor you are trying to understand, compare <a href="https://amzn.to/44pMS9J" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean ssamjang sauce</a> before your next BBQ or lettuce-wrap night.</p>
+  <p><strong>Try the sauce itself:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. If ssamjang is the flavor you are trying to understand, compare <a href="https://www.amazon.com/s?k=korean+ssamjang+sauce&tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean ssamjang sauce</a> before your next BBQ or lettuce-wrap night.</p>
 </div>
 
 ## How to Make a Good Ssam Bite
@@ -98,7 +98,7 @@ Ssamjang also works as a dip for cucumbers, carrots, peppers, and cabbage. It ca
 If you want to build a more complete home setup, EpicKor's [Korean cookware starter kit](/blog/299) and [Korean convenience-store food guide](/blog/059) are useful next reads. One explains tools; the other explains how Koreans often combine simple ready-to-eat items with sauces and sides.
 
 <div class="affiliate-inline-cta">
-  <p><strong>Make the wrap table easier:</strong> Korean BBQ feels smoother when you can cut meat cleanly at the table, so compare <a href="https://amzn.to/4eX0zI4" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean BBQ scissors and tongs</a> before hosting a wrap night.</p>
+  <p><strong>Make the wrap table easier:</strong> Korean BBQ feels smoother when you can cut meat cleanly at the table, so compare <a href="https://www.amazon.com/dp/B08YZ1CTHC?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean BBQ scissors and tongs</a> before hosting a wrap night.</p>
 </div>
 
 ![Ssamjang sauce and Korean food frame from EpicKor's original package.](/assets/images/posts/083/64e011ae-362f-40ca-af11-8b9f23c3236c.jpg)

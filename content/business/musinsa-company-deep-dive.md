@@ -164,7 +164,7 @@ MUSINSA Standard is especially important because it gives MUSINSA an owned-label
 The risk is that offline execution is expensive. Locations, staffing, inventory, design, rent, and operations can pressure margins. The success question is not only visitor count. The deeper question is whether offline stores improve conversion, repeat purchase, brand awareness, and partner-brand value enough to justify the operating burden.
 
 <div class="affiliate-inline-cta">
-  <p><strong>Retail strategy note:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. If you are studying MUSINSA as a platform-to-retail case, compare <a href="https://www.amazon.com/s?k=fashion+business+book&tag=epickor2026-20" target="_blank" rel="nofollow sponsored noopener noreferrer">fashion business books</a> and <a href="https://www.amazon.com/s?k=retail+strategy+book&tag=epickor2026-20" target="_blank" rel="nofollow sponsored noopener noreferrer">retail strategy books</a> before applying the model to another country.</p>
+  <p><strong>Retail strategy note:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. If you are studying MUSINSA as a platform-to-retail case, compare <a href="https://www.amazon.com/s?k=fashion+business+book&tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">fashion business books</a> and <a href="https://www.amazon.com/s?k=retail+strategy+book&tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">retail strategy books</a> before applying the model to another country.</p>
 </div>
 
 ## What MUSINSA Means For Korean Brands
@@ -253,7 +253,7 @@ The third lesson is that offline retail still matters when the product is tactil
 The fourth lesson is that platform success brings responsibility. If partner brands see growth, data, and fair opportunity, the platform gets stronger. If they see only pressure to discount, dependency risk rises.
 
 <div class="affiliate-inline-cta">
-  <p><strong>Market-research kit:</strong> For a Korea fashion briefing, compare <a href="https://www.amazon.com/s?k=fashion+merchandising+book&tag=epickor2026-20" target="_blank" rel="nofollow sponsored noopener noreferrer">fashion merchandising books</a>, <a href="https://www.amazon.com/s?k=ecommerce+strategy+book&tag=epickor2026-20" target="_blank" rel="nofollow sponsored noopener noreferrer">ecommerce strategy books</a>, and <a href="https://www.amazon.com/s?k=travel+document+organizer&tag=epickor2026-20" target="_blank" rel="nofollow sponsored noopener noreferrer">travel document organizers</a> if you are visiting Seoul stores and trade events.</p>
+  <p><strong>Market-research kit:</strong> For a Korea fashion briefing, compare <a href="https://www.amazon.com/s?k=fashion+merchandising+book&tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">fashion merchandising books</a>, <a href="https://www.amazon.com/s?k=ecommerce+strategy+book&tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">ecommerce strategy books</a>, and <a href="https://www.amazon.com/s?k=travel+document+organizer&tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">travel document organizers</a> if you are visiting Seoul stores and trade events.</p>
 </div>
 
 ## FAQ

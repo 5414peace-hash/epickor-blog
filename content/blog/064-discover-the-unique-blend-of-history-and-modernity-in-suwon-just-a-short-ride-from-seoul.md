@@ -51,7 +51,7 @@ That story matters because it makes the wall more than a scenic loop. You are wa
 In practical terms, you can experience that by walking just one strong section rather than trying to conquer the full distance.
 
 <div class="affiliate-inline-cta">
-  <p><strong>Worth comparing:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. Before a history-heavy Seoul-area trip, compare <a href="https://www.amazon.com/s?k=korean+culture+history+book&amp;tag=epickor2026-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean culture and history books</a> so Suwon, palaces, and fortress cities connect into one story.</p>
+  <p><strong>Worth comparing:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. Before a history-heavy Seoul-area trip, compare <a href="https://www.amazon.com/s?k=korean+culture+history+book&amp;tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean culture and history books</a> so Suwon, palaces, and fortress cities connect into one story.</p>
 </div>
 
 ## How to Get to Suwon From Seoul
@@ -101,7 +101,7 @@ If galbi is too heavy or expensive, choose a simpler meal near the fortress area
 If the table includes many side dishes, EpicKor's [Korean banchan guide](/blog/050) will help you understand what is included, what may be refillable, and how the meal structure works.
 
 <div class="affiliate-inline-cta">
-  <p><strong>Walking-day helper:</strong> For a fortress day that mixes trains, hills, and cafes, compare <a href="https://www.amazon.com/s?k=korea+travel+essentials&amp;tag=epickor2026-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korea travel essentials</a> like a compact umbrella, day bag, and power bank before overpacking.</p>
+  <p><strong>Walking-day helper:</strong> For a fortress day that mixes trains, hills, and cafes, compare <a href="https://www.amazon.com/s?k=korea+travel+essentials&amp;tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korea travel essentials</a> like a compact umbrella, day bag, and power bank before overpacking.</p>
 </div>
 
 ## Best Season and Weather Tips

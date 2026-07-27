@@ -111,7 +111,7 @@ For a brand, regional manufacturing can reduce distance to customers, retailers,
 COSMAX has published older sustainability reports with historical scale and capacity figures, but those snapshots should not be presented as current 2026 performance. A responsible company study distinguishes a dated report metric from a live operating fact and checks the latest filing before using a number in a commercial decision.
 
 <div class="affiliate-inline-cta">
-  <p><strong>Operator research note:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. Before turning an ODM idea into a supplier brief, compare <a href="https://www.amazon.com/s?k=cosmetic+product+development+book&tag=epickor2026-20" target="_blank" rel="nofollow sponsored noopener noreferrer">cosmetic product-development books</a> and <a href="https://www.amazon.com/s?k=beauty+brand+business+book&tag=epickor2026-20" target="_blank" rel="nofollow sponsored noopener noreferrer">beauty-brand business guides</a> so your formula, claims, packaging, and commercial questions are separated before the first meeting.</p>
+  <p><strong>Operator research note:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. Before turning an ODM idea into a supplier brief, compare <a href="https://www.amazon.com/s?k=cosmetic+product+development+book&tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">cosmetic product-development books</a> and <a href="https://www.amazon.com/s?k=beauty+brand+business+book&tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">beauty-brand business guides</a> so your formula, claims, packaging, and commercial questions are separated before the first meeting.</p>
 </div>
 
 ## Why Packaging Is Part Of The Product
@@ -186,7 +186,7 @@ Start by reading EpicKor's [K-beauty OEM/ODM guide](/business/k-beauty-oem-odm-k
 The point is not to create a longer checklist for its own sake. It is to prevent assumptions from becoming expensive. A sample approval is not a capacity reservation. A factory certificate is not a destination-market registration. A promising formula is not a trademark clearance. A packaging rendering is not a compatibility result. A global company name is not the same thing as a contract with the correct legal entity.
 
 <div class="affiliate-inline-cta">
-  <p><strong>Build the buyer file:</strong> Compare <a href="https://www.amazon.com/s?k=supplier+quality+management+book&tag=epickor2026-20" target="_blank" rel="nofollow sponsored noopener noreferrer">supplier-quality management books</a> and <a href="https://www.amazon.com/s?k=cosmetic+packaging+design+book&tag=epickor2026-20" target="_blank" rel="nofollow sponsored noopener noreferrer">cosmetic-packaging references</a> if you need a practical framework for approvals, change control, defects, and packaging decisions.</p>
+  <p><strong>Build the buyer file:</strong> Compare <a href="https://www.amazon.com/s?k=supplier+quality+management+book&tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">supplier-quality management books</a> and <a href="https://www.amazon.com/s?k=cosmetic+packaging+design+book&tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">cosmetic-packaging references</a> if you need a practical framework for approvals, change control, defects, and packaging decisions.</p>
 </div>
 
 ## Risks And Limits Of The ODM Model

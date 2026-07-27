@@ -48,7 +48,7 @@ That warning matters. Everland is best when you can enjoy a long outdoor day wit
 Go for Everland if your group wants big rides, animal zones, seasonal flower or night programs, and the feeling of leaving the city. Do not go if you only have a loose half-day and no patience for transfers.
 
 <div class="affiliate-inline-cta">
-  <p><strong>Theme-park day kit:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. Before a full Everland or Lotte World day, compare <a href="https://www.amazon.com/s?k=korea+travel+essentials&amp;tag=epickor2026-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korea travel essentials</a> such as small pouches, tissues, and compact day-bag items.</p>
+  <p><strong>Theme-park day kit:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. Before a full Everland or Lotte World day, compare <a href="https://www.amazon.com/s?k=korea+travel+essentials&amp;tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korea travel essentials</a> such as small pouches, tissues, and compact day-bag items.</p>
 </div>
 
 ## Lotte World: Best for Seoul Access and Bad Weather
@@ -122,7 +122,7 @@ Pack light but intentional: phone battery, transit/payment card, small cash back
 Theme park days drain phone batteries because you use maps, tickets, photos, translation, and messaging. This is one of the clearest travel days where a power bank matters.
 
 <div class="affiliate-inline-cta">
-  <p><strong>Battery insurance:</strong> Compare <a href="https://www.amazon.com/s?k=portable+power+bank+travel&amp;tag=epickor2026-20" target="_blank" rel="nofollow sponsored noopener noreferrer">portable travel power banks</a> before a theme-park day because tickets, maps, photos, and ride-time checks all depend on your phone.</p>
+  <p><strong>Battery insurance:</strong> Compare <a href="https://www.amazon.com/s?k=portable+power+bank+travel&amp;tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">portable travel power banks</a> before a theme-park day because tickets, maps, photos, and ride-time checks all depend on your phone.</p>
 </div>
 
 ## Common Mistakes

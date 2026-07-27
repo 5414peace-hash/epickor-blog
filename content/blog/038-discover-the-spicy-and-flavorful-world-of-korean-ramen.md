@@ -57,7 +57,7 @@ Buldak's global growth is real. Yonhap reported in June 2026 that Samyang Foods 
 The best beginner move is to start with a creamy or cheese-adjacent version, use part of the sauce packet if needed, and add milk, cheese, egg, corn, or dumplings only after you understand the base flavor.
 
 <div class="affiliate-inline-cta">
-  <p><strong>Spice-ladder starter:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. If you want the viral but gentler lane first, compare <a href="https://amzn.to/3MaZWi6" target="_blank" rel="nofollow sponsored noopener noreferrer">Samyang Buldak Spicy Ramen Carbonara</a> before jumping straight to hotter versions.</p>
+  <p><strong>Spice-ladder starter:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. If you want the viral but gentler lane first, compare <a href="https://www.amazon.com/dp/B0C85RZWP3?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Samyang Buldak Spicy Ramen Carbonara</a> before jumping straight to hotter versions.</p>
 </div>
 
 ## Chapaghetti and Chapaguri
@@ -119,7 +119,7 @@ The most Korean thing about ramyun is not eating it plain. It is knowing when pl
 This is why ramyun can feel both low-effort and emotionally specific. It can be a convenience-store snack, a rainy-day bowl, a late-night recovery meal, or a small shared pot. You do not need to romanticize it. Just notice how often it solves the meal problem when nobody wants to cook properly.
 
 <div class="affiliate-inline-cta">
-  <p><strong>Build a flexible noodle shelf:</strong> Compare <a href="https://www.amazon.com/s?k=korean+food+starter+pack&amp;tag=epickor2026-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean food starter packs</a> or small mixed ramyun bundles before committing to one giant box of a flavor you have not tested.</p>
+  <p><strong>Build a flexible noodle shelf:</strong> Compare <a href="https://www.amazon.com/s?k=korean+food+starter+pack&amp;tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean food starter packs</a> or small mixed ramyun bundles before committing to one giant box of a flavor you have not tested.</p>
 </div>
 
 ## Related EpicKor guides

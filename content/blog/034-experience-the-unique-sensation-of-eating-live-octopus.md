@@ -81,7 +81,7 @@ Children should not be treated as novelty participants. If a child cannot chew c
 If you are unsure, order a cooked octopus dish first. Korean seafood restaurants have many options: stir-fried octopus, seafood pancake, grilled shellfish, fish stew, raw fish, or cooked seafood platters depending on the restaurant.
 
 <div class="affiliate-inline-cta">
-  <p><strong>Food culture context:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. If san-nakji made you curious about Korean dining beyond viral clips, compare <a href="https://www.amazon.com/s?k=korean+culture+history+book&amp;tag=epickor2026-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean culture and history books</a> before reducing Korean food to challenge videos.</p>
+  <p><strong>Food culture context:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. If san-nakji made you curious about Korean dining beyond viral clips, compare <a href="https://www.amazon.com/s?k=korean+culture+history+book&amp;tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean culture and history books</a> before reducing Korean food to challenge videos.</p>
 </div>
 
 ## Where to Try It
@@ -140,7 +140,7 @@ Do not swallow large pieces. Do not drink heavily before trying it. Do not make 
 If you try it and dislike it, that is fine. Many Koreans also have strong personal preferences about seafood texture. Korean food is large enough to include both san-nakji fans and people who would rather order hot soup.
 
 <div class="affiliate-inline-cta">
-  <p><strong>Try Korean food more safely at home:</strong> For a lower-risk Korean food starting point, compare <a href="https://www.amazon.com/s?k=korean+food+starter+pack&amp;tag=epickor2026-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean food starter packs</a> focused on sauces, gim, noodles, and pantry basics instead of attempting risky fresh seafood outside proper restaurants.</p>
+  <p><strong>Try Korean food more safely at home:</strong> For a lower-risk Korean food starting point, compare <a href="https://www.amazon.com/s?k=korean+food+starter+pack&amp;tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean food starter packs</a> focused on sauces, gim, noodles, and pantry basics instead of attempting risky fresh seafood outside proper restaurants.</p>
 </div>
 
 ## Sources and Further Reading

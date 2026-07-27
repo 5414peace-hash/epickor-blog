@@ -103,7 +103,7 @@ Also avoid saying the service "proved" one fixed idea of masculinity. Korean mil
 Fans naturally want to mark a return moment. The healthy version happens away from military spaces: watch parties, playlist nights, safe online messages, photocard organizing, Korean snacks, or writing down favorite eras. That keeps support joyful without creating pressure at restricted locations.
 
 <div class="affiliate-inline-cta">
-  <p><strong>BTS return-era fan setup:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. If you are organizing photocards or comeback keepsakes at home, compare <a href="https://www.amazon.com/s?k=photocard+sleeves+toploaders&amp;tag=epickor2026-20" target="_blank" rel="nofollow sponsored noopener noreferrer">photocard sleeves and toploaders</a> before storing glossy cards in ordinary plastic.</p>
+  <p><strong>BTS return-era fan setup:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. If you are organizing photocards or comeback keepsakes at home, compare <a href="https://www.amazon.com/s?k=photocard+sleeves+toploaders&amp;tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">photocard sleeves and toploaders</a> before storing glossy cards in ordinary plastic.</p>
 </div>
 
 ## A Simple Korea Context for Overseas ARMY
@@ -113,7 +113,7 @@ If you are outside Korea, the main thing to understand is that military service 
 The respectful fan approach is to separate love from access. You can celebrate V's return, stream music, share messages, and enjoy BTS's next chapter without demanding proximity to military spaces or private schedules.
 
 <div class="affiliate-inline-cta">
-  <p><strong>Watch-party snack:</strong> For a simple Korean sweet during BTS comeback clips, interviews, or fan edits, compare <a href="https://amzn.to/3O5pcqu" target="_blank" rel="nofollow sponsored noopener noreferrer">yakgwa Korean honey cookies</a> as an easy table snack.</p>
+  <p><strong>Watch-party snack:</strong> For a simple Korean sweet during BTS comeback clips, interviews, or fan edits, compare <a href="https://www.amazon.com/dp/B07VQF4N85?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">yakgwa Korean honey cookies</a> as an easy table snack.</p>
 </div>
 
 ## What V's Return Means Artistically

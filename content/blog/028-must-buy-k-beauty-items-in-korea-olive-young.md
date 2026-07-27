@@ -67,7 +67,7 @@ Toner pads are very Korean-retail friendly: easy to display, easy to test, and v
 Barrier cream is underrated. Travel often means dry airplane air, hotel heating or air conditioning, different water, and more sunscreen. A simple cream can be more useful than a dramatic serum.
 
 <div class="affiliate-inline-cta">
-  <p><strong>Build the routine slowly:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. Before buying a giant K-beauty basket, compare <a href="https://www.amazon.com/s?k=korean+beauty+starter+set&amp;tag=epickor2026-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean beauty starter products</a> and decide which category is missing from your real routine.</p>
+  <p><strong>Build the routine slowly:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. Before buying a giant K-beauty basket, compare <a href="https://www.amazon.com/s?k=korean+beauty+starter+set&amp;tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean beauty starter products</a> and decide which category is missing from your real routine.</p>
 </div>
 
 ## What to Skip or Delay

@@ -53,7 +53,7 @@ They are not just "old buildings." Bulguksa shows the ambition of Silla Buddhist
 Plan them as a half-day block rather than squeezing them between central-city stops. Check current opening hours, ticket rules, shuttle/bus conditions, and weather before you go. Mountain weather and transport timing can change the experience.
 
 <div class="affiliate-inline-cta">
-  <p><strong>Heritage-day packing:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. Before a temple-and-tomb day, compare <a href="https://www.amazon.com/s?k=korea+travel+essentials&amp;tag=epickor2026-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korea travel essentials</a> such as card pouches, compact tissues, and small day-bag items.</p>
+  <p><strong>Heritage-day packing:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. Before a temple-and-tomb day, compare <a href="https://www.amazon.com/s?k=korea+travel+essentials&amp;tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korea travel essentials</a> such as card pouches, compact tissues, and small day-bag items.</p>
 </div>
 
 ## Daereungwon, Cheomseongdae, and the Central Historic Walk
@@ -127,7 +127,7 @@ Spring and autumn are the most comfortable for walking. Summer can be hot and hu
 Cherry blossom season can be beautiful but crowded. Autumn color can make temple and tomb walks especially memorable. Rain is not automatically a disaster, but it changes footing, photos, and comfort. For rainy-day packing, EpicKor's [Korean rainy season guide](/blog/131) and [rainy-day food guide](/blog/065) may help.
 
 <div class="affiliate-inline-cta">
-  <p><strong>Long-walk backup:</strong> Gyeongju is a walking-heavy city, so compare <a href="https://www.amazon.com/s?k=portable+power+bank+travel&amp;tag=epickor2026-20" target="_blank" rel="nofollow sponsored noopener noreferrer">portable travel power banks</a> before relying on maps, translation, photos, and cafe searches all day.</p>
+  <p><strong>Long-walk backup:</strong> Gyeongju is a walking-heavy city, so compare <a href="https://www.amazon.com/s?k=portable+power+bank+travel&amp;tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">portable travel power banks</a> before relying on maps, translation, photos, and cafe searches all day.</p>
 </div>
 
 ## Etiquette at Heritage Sites

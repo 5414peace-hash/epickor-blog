@@ -49,7 +49,7 @@ For travelers, the museum does two things. First, it explains why Korea's modern
 If you are not a museum person, still consider walking the outdoor exhibition and main grounds. If you are interested in Korean history, give yourself enough time for the indoor halls instead of treating the site as a quick photo stop.
 
 <div class="affiliate-inline-cta">
-  <p><strong>Worth comparing:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. Before a history-heavy Seoul day, compare <a href="https://www.amazon.com/s?k=korean+culture+history+book&amp;tag=epickor2026-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean culture and history books</a> so the War Memorial, palaces, and modern neighborhoods make more sense together.</p>
+  <p><strong>Worth comparing:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. Before a history-heavy Seoul day, compare <a href="https://www.amazon.com/s?k=korean+culture+history+book&amp;tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean culture and history books</a> so the War Memorial, palaces, and modern neighborhoods make more sense together.</p>
 </div>
 
 ## Understand Yongsan Park and the Returned-Site Story
@@ -108,7 +108,7 @@ Yongsan can be a good base if you want central transit and a less tourist-satura
 If this is your first Seoul trip and you want maximum convenience for palaces, shopping, and airport buses, compare Yongsan with Myeongdong, Hongdae, Jongno, and Gangnam before booking. If you want history, cafes, trains, and quick access to multiple sides of the city, Yongsan is a strong contender.
 
 <div class="affiliate-inline-cta">
-  <p><strong>Pack lighter for a Yongsan walking day:</strong> Compare <a href="https://www.amazon.com/s?k=korea+travel+essentials&amp;tag=epickor2026-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korea travel essentials</a> like a compact umbrella, power bank, and comfortable day bag before building a long Seoul itinerary.</p>
+  <p><strong>Pack lighter for a Yongsan walking day:</strong> Compare <a href="https://www.amazon.com/s?k=korea+travel+essentials&amp;tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korea travel essentials</a> like a compact umbrella, power bank, and comfortable day bag before building a long Seoul itinerary.</p>
 </div>
 
 ## How to Get Around Yongsan

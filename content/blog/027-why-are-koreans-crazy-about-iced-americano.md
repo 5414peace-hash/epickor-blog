@@ -63,7 +63,7 @@ Korea JoongAng Daily reported in 2025 that Starbucks Korea had identified Americ
 The affordable coffee chain boom reinforces the loop. Budget chains make giant iced Americanos accessible to students and office workers, while specialty cafes offer more careful espresso, beans, interiors, and neighborhood identity. Both worlds can coexist on the same block.
 
 <div class="affiliate-inline-cta">
-  <p><strong>Cafe culture at home:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. If Korea's coffee habits made you curious, compare <a href="https://amzn.to/4bubOGe" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean snack assortments</a> with coffee at home, or use the trip to focus on fresh cafe drinks you cannot recreate exactly.</p>
+  <p><strong>Cafe culture at home:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. If Korea's coffee habits made you curious, compare <a href="https://www.amazon.com/s?k=korean+snack&tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean snack assortments</a> with coffee at home, or use the trip to focus on fresh cafe drinks you cannot recreate exactly.</p>
 </div>
 
 ## How to Order Iced Americano in Korea
@@ -132,7 +132,7 @@ If you want to recreate the Korean cafe feeling at home, keep it simple: espress
 Korean instant coffee mix is a different tradition. It is usually sweet and creamy, closer to office pantry nostalgia than iced Americano culture. It is still useful if you want a Korea-at-home coffee memory, but do not confuse it with the black iced Americano habit.
 
 <div class="affiliate-inline-cta">
-  <p><strong>Korea-at-home coffee note:</strong> For a different Korean coffee lane, compare <a href="https://www.amazon.com/s?k=korean+instant+coffee+mix&amp;tag=epickor2026-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean instant coffee mix</a>. It will not taste like an iced Americano, but it explains another everyday Korean coffee ritual.</p>
+  <p><strong>Korea-at-home coffee note:</strong> For a different Korean coffee lane, compare <a href="https://www.amazon.com/s?k=korean+instant+coffee+mix&amp;tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean instant coffee mix</a>. It will not taste like an iced Americano, but it explains another everyday Korean coffee ritual.</p>
 </div>
 
 ## Sources and Further Reading
