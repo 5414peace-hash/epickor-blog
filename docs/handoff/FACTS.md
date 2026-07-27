@@ -26,6 +26,21 @@
   new store ID; all 892 site links (`tag=epickor2026-20` + 5 category tags) and the 2 litt.ly
   `amzn.to` short links earn nothing until reapproval + site-wide retag.
   *Verified:* rejection email received by the representative, pasted 2026-07-27.
+- **2026-07-27 — REAPPLIED SAME DAY. New Associate ID: `epickor-20`.** Full Associates Central
+  access granted immediately; formal review happens after the first qualified sales, and the new
+  180-day / 3-qualifying-sales clock started at this signup. Websites declared: epickor.com,
+  litt.ly/epickor, instagram.com/epickorsnippets. Payment/tax deferred ("Later") — required before
+  first payout only. *Verified:* signup confirmation screen, 2026-07-27.
+- **2026-07-27 — Site-wide retag COMPLETE (commit `16d0f9f4`):** 724 tagged URLs (271 files) moved
+  from the six dead tags to `epickor-20`, and all 251 amzn.to short links (116 files) resolved and
+  replaced with full URLs — short links carry the dead account's tag inside the redirect, so any
+  left behind would silently earn nothing. 9 of 41 short codes were dead (redirect to Amazon home)
+  and were rebuilt as search links from their anchor texts. Audit: 975 tagged URLs, 0 short links,
+  exactly one approved tag. **Self/test purchases are non-qualifying — the 3 sales must come from
+  real readers.**
+- **2026-07-27 — litt.ly still carries 2 dead amzn.to links; only the representative can edit
+  litt.ly.** Replacements ready: Buldak Original → `https://www.amazon.com/dp/B0C9D5576K?tag=epickor-20`,
+  Buldak Carbonara → `https://www.amazon.com/dp/B0C85RZWP3?tag=epickor-20`.
 - **2026-07-27 — Why 4 orders did not satisfy "3 qualifying purchases":** the Jul 25 dashboard
   showed 4 ordered/shipped, but (a) the 180-day window is measured from signup, and orders landing
   after the window closed do not count; (b) purchases made by the associate themselves or close
