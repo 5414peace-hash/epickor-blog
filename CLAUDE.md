@@ -133,7 +133,7 @@
 ## Instagram Revival Card News Strategy
 
 - EpicKor should build a backlog of 30 high-quality card news carousels before treating card news as a fully new-topic channel.
-- Instagram upload rhythm confirmed by the representative: Tuesday/Wednesday/Thursday are card-news upload days, and Friday/Saturday/Sunday are Reels upload days. Treat this as the default operating calendar unless the representative overrides it.
+- **[2026-07-27 변경] 요일 고정 규칙 폐기.** 릴스·카드뉴스 모두 마지막 예약일 다음날부터 하루 1건씩 연속 예약한다 (대표님 지시: "금토일로만 해야한다는 규칙은 버려. 가장 파이널 예약날짜 다음날부터 하나씩"). 시각은 05:00 KST 기본.
 - Prioritize card news topics from historically validated demand:
   - Past EpicKor Instagram Reels that earned high views or strong engagement.
   - EpicKor GSC pages/queries with proven impressions, clicks, or clear search demand.

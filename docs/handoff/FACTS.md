@@ -195,6 +195,24 @@
 
 ## instagram / social
 
+- **2026-07-27 — Reels 220/175/174 scheduled via Meta Suite, planner-verified: exactly six entries
+  at 5:00 KST** — 7/29 수 (220), 7/30 목 (175), 7/31 금 (174), each FB(EpicKor)+IG(epickorsnippets).
+  174 initially landed at 5:37 (composer default time) and was corrected on both rows via
+  게시물 상세 → 옵션 → **게시물 일정 조정** dialog.
+- **2026-07-27 — Meta Suite Reels scheduling, measured procedure updates:**
+  (a) Playwright CDP attach cannot transfer files >50MB — the reel composer uses showOpenFilePicker
+  with no DOM input, so the workaround is an **owning process** (`launch_persistent_context` with
+  `--remote-debugging-port=9223`) doing upload+caption locally, then CDP scripts continue the flow.
+  (b) The machine runs **DPI 1.25**: screenshots are 1920px but CSS viewport is 1536 — divide
+  screenshot coords by 1.25 or use DOM getBoundingClientRect, never raw screenshot pixels.
+  (c) Date fields accept typed `2026-7-29` + Enter; time is three segment inputs (오전오후/시/분)
+  — set minutes by clicking the third segment directly.
+  (d) The submit button label check ("예약", never "공유하기") remains the hard safety gate.
+  (e) Do NOT kill the browser while "게시 일정 예약 중" spins — the submit may still land (175 did),
+  but you lose confirmation; the spinner can also hang >5min after success (174).
+- **2026-07-27 — 요일 고정(카드뉴스 화수목/릴스 금토일) 규칙 폐기** — 연속 일자 예약으로 전환.
+  다음 측정 의무: 220/175/174 발행 후 1h/24h/7d 지표를 `output/reels/metrics.json`에 기록.
+
 - **2026-07-26 — Instagram uploads are representative-managed (~1/day) and leave no repo trace.**
   An empty scheduling record is NOT evidence of an upload stall. Meta Suite's list also does not
   show posts made from the mobile app.
