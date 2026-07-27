@@ -128,6 +128,31 @@
   exists *before* committing to a topic. A K-pop fan gift guide was parked as `blocked_no_imagery`
   rather than illustrated with a plausible-looking substitute.
 
+## reels
+
+- **2026-07-27 — Pexels metadata is the country check, and skipping it shipped Kuala Lumpur as
+  Seoul.** Reel 174 v001's "proof" car interior `29082029` has the URL slug
+  `modern-kuala-lumpur-train-interior`; payoff `18603132` is by Turkish photographer Reyhan
+  Alioğlu. Frame "feel" is not verification — **read the slug + photographer for every clip.**
+  *Verified:* Pexels API `GET /videos/videos/{id}`.
+- **2026-07-27 — Reel clip reuse had no tooling and it produced heavy duplication.** 175 v001's
+  hook `36718309` had already been used in Reels 297/301/302/311 (4 times); 220 v001's hook
+  `20672041` was used in 302, the immediately preceding finished Reel. Actual-use ledger =
+  `output/reels/*/clip-sources.md` + `remotion/*.tsx`, NOT the candidates JSONs.
+- **2026-07-27 — Representative rejected the whole 220/174/175 v001 batch** and dictated a 6-step
+  process: topic → script(review: fun/fact) → one clip per ~3s beat-sheet numbered against
+  narration (first clip video, ≤30% images, images always moving) → per-beat relevance+country
+  gate → generate/animate when free sources lack it → BGM ducked under narration.
+  Plan: `output/reels/production-process-v3-plan.md`.
+- **2026-07-27 — nanobanana MCP is connected to this session** (Gemini image gen/edit,
+  gemini-3-pro-image / 2.5-flash-image, 9:16, saves to local path). Billing is the Gemini API, so
+  the standing "no Gemini API without explicit approval" rule applies — **approval requested, not
+  yet granted.**
+- **2026-07-27 — BGM library exists: `input/BGM/` with 11 mp3 tracks** (Do, Me, Cats, Beat, Two,
+  CHONKLAP, Camión, Fires, version, Beach, Walk). Licence/origin not yet confirmed with the
+  representative. ffmpeg has `zoompan` for pre-rendered image animation; Remotion StillCut already
+  does push/drift natively.
+
 ## instagram / social
 
 - **2026-07-26 — Instagram uploads are representative-managed (~1/day) and leave no repo trace.**
