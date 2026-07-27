@@ -3507,8 +3507,8 @@
         "Architecture"
       ],
       "amazon_category": "Books",
-      "status": "pending",
-      "note": "Added 2026-07-27 leveraging the newly-verified Cultural Heritage Administration (heritage.go.kr) archive - KOGL Type 1, ~33.7k heritage photos, exactly the palace/temple architectural-detail strength this source has. Only passing mention on site (151, temple etiquette); no dedicated piece on the dancheong art form itself. Real, visually striking, distinct Korean decorative art tradition with an easy action frame (where to see the best examples - Gyeongbokgung, specific temples). Monetization is weak by design (no natural product tie beyond a search-link to Korean pattern art books) - kept anyway for site authority/AEO value on a genuinely uncovered cultural-explainer lane, per Topic Engine rule 5 (explain why it's still worth it when Amazon fit is thin).",
+      "status": "deprioritized",
+      "note": "Added 2026-07-27 leveraging the newly-verified Cultural Heritage Administration (heritage.go.kr) archive - KOGL Type 1, ~33.7k heritage photos, exactly the palace/temple architectural-detail strength this source has. Only passing mention on site (151, temple etiquette); no dedicated piece on the dancheong art form itself. Real, visually striking, distinct Korean decorative art tradition with an easy action frame (where to see the best examples - Gyeongbokgung, specific temples). Monetization is weak by design (no natural product tie beyond a search-link to Korean pattern art books) - kept anyway for site authority/AEO value on a genuinely uncovered cultural-explainer lane, per Topic Engine rule 5 (explain why it's still worth it when Amazon fit is thin). | 2026-07-27 대표님 피드백으로 강등: '한국인도 관심 없어할 만큼 코리안틱'하다 - 외국인 클릭 유인, SEO 선점력, 아마존 수익화가 전부 약한데, 문화재청 아카이브를 찾은 흥분으로 이미지 조달 가능성을 다시 주제 선정 기준으로 썼던 재발 실수. 삭제하지 않고 최하위 우선순위로 보류.",
       "generated_date": "2026-07-27"
     },
     {
@@ -3528,8 +3528,8 @@
         "History"
       ],
       "amazon_category": "Travel",
-      "status": "pending",
-      "note": "Added 2026-07-27. 40 UNESCO-listed tombs ring Seoul (Donggureung, Seolleung, Heolleung), genuinely uncovered - existing matches (069 Gyeongju, 064 Suwon, 264 Daejeon) are different cities/sites entirely. Decision-format day-trip guide fits the site's proven best-performing shape (compare our 264/069 day-trip posts). Heritage Administration archive is a strong direct fit for tomb-site photography. Monetization via travel gear (day-trip daypack, walking shoes - already in catalog under Travel) rather than a dedicated product.",
+      "status": "deprioritized",
+      "note": "Added 2026-07-27. 40 UNESCO-listed tombs ring Seoul (Donggureung, Seolleung, Heolleung), genuinely uncovered - existing matches (069 Gyeongju, 064 Suwon, 264 Daejeon) are different cities/sites entirely. Decision-format day-trip guide fits the site's proven best-performing shape (compare our 264/069 day-trip posts). Heritage Administration archive is a strong direct fit for tomb-site photography. Monetization via travel gear (day-trip daypack, walking shoes - already in catalog under Travel) rather than a dedicated product. | 2026-07-27 대표님 피드백으로 강등: '한국인도 관심 없어할 만큼 코리안틱'하다 - 외국인 클릭 유인, SEO 선점력, 아마존 수익화가 전부 약한데, 문화재청 아카이브를 찾은 흥분으로 이미지 조달 가능성을 다시 주제 선정 기준으로 썼던 재발 실수. 삭제하지 않고 최하위 우선순위로 보류.",
       "generated_date": "2026-07-27"
     },
     {
@@ -3550,8 +3550,72 @@
         "RoyalCourt"
       ],
       "amazon_category": "Books",
+      "status": "deprioritized",
+      "note": "Added 2026-07-27. Distinct from 234 (Hanbok Rental in Seoul: Palace Photos and Etiquette), which covers the tourist rental experience, not the historical royal costume itself (rank-specific colors/patterns, gwanbok for officials, wonsam for royal women). Heritage Administration archive and museum-artifact photography are a strong fit. Natural internal link to 234. Monetization weak (Korean history book search-link) - kept for cultural-authority value, explicitly disclosed as thin per Topic Engine rule 5. | 2026-07-27 대표님 피드백으로 강등: '한국인도 관심 없어할 만큼 코리안틱'하다 - 외국인 클릭 유인, SEO 선점력, 아마존 수익화가 전부 약한데, 문화재청 아카이브를 찾은 흥분으로 이미지 조달 가능성을 다시 주제 선정 기준으로 썼던 재발 실수. 삭제하지 않고 최하위 우선순위로 보류.",
+      "generated_date": "2026-07-27"
+    },
+    {
+      "id": 162,
+      "title": "Dalgona Candy Explained: The Real Squid Game Snack, Not Just a TikTok Challenge",
+      "keywords": [
+        "dalgona candy",
+        "squid game candy",
+        "how to make dalgona",
+        "dalgona candy kit",
+        "honeycomb toffee korea"
+      ],
+      "category": "Food",
+      "tags": [
+        "KoreanFood",
+        "SquidGame",
+        "Nostalgia",
+        "ViralFood"
+      ],
+      "amazon_category": "Food",
       "status": "pending",
-      "note": "Added 2026-07-27. Distinct from 234 (Hanbok Rental in Seoul: Palace Photos and Etiquette), which covers the tourist rental experience, not the historical royal costume itself (rank-specific colors/patterns, gwanbok for officials, wonsam for royal women). Heritage Administration archive and museum-artifact photography are a strong fit. Natural internal link to 234. Monetization weak (Korean history book search-link) - kept for cultural-authority value, explicitly disclosed as thin per Topic Engine rule 5.",
+      "note": "Added 2026-07-27 under the tightened test (foreigner clickability + keyword + SEO winnability + Amazon fit + deli-manjoo/ahjussi-style breakout potential). External search confirms sustained 2025-2026 global interest tied to Squid Game (Forbes Jan 2025, Good Morning America), described as a genuine 'soft power' phenomenon - exactly the specific-Korean-item-gone-global pattern that already works for us (deli manjoo, hotteok). Only passing mentions on site (278, 315), no dedicated post despite the scale of international recognition. Real Amazon fit: dalgona candy-making kits exist as a product category (search-link, no exact catalog match yet). Action shape: make it at home / the honeycomb-crack technique / where to buy a kit.",
+      "generated_date": "2026-07-27"
+    },
+    {
+      "id": 163,
+      "title": "Korean 7-Eleven Strawberry Sandwich: Why This Convenience-Store Dessert Went Viral",
+      "keywords": [
+        "korean strawberry sandwich",
+        "fruit sando korea",
+        "korean convenience store sandwich",
+        "korean 7-eleven dessert"
+      ],
+      "category": "Food",
+      "tags": [
+        "KoreanFood",
+        "ConvenienceStore",
+        "ViralFood",
+        "Seoul"
+      ],
+      "amazon_category": "Food",
+      "status": "pending",
+      "note": "Added 2026-07-27. Verified current and real: Korea Herald (koreaherald.com/article/10791584, 2026) covers the 'fruit sando' trend as this summer's go-to dessert, TikTok discovery tag 'strawberry sandwich korean 711' active. This sits squarely in the site's single best-proven pattern - convenience store items (korean convenience store breakfast = 14.75% CTR, the site's highest). Distinct from existing convenience-store posts (059, 171, 302), which are broad roundups that don't feature this specific viral item. Monetization thinner (perishable food, no direct Amazon SKU) but strong internal-link value into 171/059/029 and real traffic-driver potential given the proven category pattern.",
+      "generated_date": "2026-07-27"
+    },
+    {
+      "id": 164,
+      "title": "Korean Cream Cheese Garlic Bread: Where to Find Seoul's Viral Bakery Trend",
+      "keywords": [
+        "korean cream cheese garlic bread",
+        "korean garlic bread seoul",
+        "garlic bread bakery korea",
+        "gangnam garlic bread"
+      ],
+      "category": "Food",
+      "tags": [
+        "KoreanFood",
+        "Bakery",
+        "ViralFood",
+        "Seoul"
+      ],
+      "amazon_category": "Food",
+      "status": "pending",
+      "note": "Added 2026-07-27. Verified real and current global viral trend (recipe blogs worldwide - Manila Spoon, Bake Street, Deliciously Rushed - covering it through 2025-2026), originated in Gangnam bakeries. IMPORTANT ANGLE NOTE: the recipe keyword itself is already saturated by dedicated recipe/food blogs with strong SEO authority - do not compete head-on with a recipe post. EpicKor's defensible lane is the travel/guide angle ('where to actually find/eat it in Seoul', bakery recommendations, what makes the real version different from home attempts) rather than a recipe, consistent with the site's guide-not-recipe identity. Amazon fit via cream cheese / garlic butter product search-links, weaker than food-decision posts but real.",
       "generated_date": "2026-07-27"
     }
   ],
