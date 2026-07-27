@@ -3,7 +3,7 @@
   "fps": 30,
   "width": 1080,
   "height": 1920,
-  "durationInFrames": 1449,
+  "durationInFrames": 1446,
   "audioSegments": [
     {
       "part": 1,
@@ -18,14 +18,14 @@
       "file": "voice-part-2.mp3",
       "staticFilePath": "audio/voice-part-2.mp3",
       "startFrame": 415,
-      "durationFrames": 675,
-      "durationSeconds": 22.477
+      "durationFrames": 672,
+      "durationSeconds": 22.384
     },
     {
       "part": 3,
       "file": "voice-part-3.mp3",
       "staticFilePath": "audio/voice-part-3.mp3",
-      "startFrame": 1102,
+      "startFrame": 1099,
       "durationFrames": 237,
       "durationSeconds": 7.895
     }

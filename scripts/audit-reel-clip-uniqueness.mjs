@@ -24,6 +24,16 @@ import { readFileSync, readdirSync, existsSync, statSync } from 'node:fs';
 import { join, basename } from 'node:path';
 
 const ROOT = process.cwd();
+
+/**
+ * Reels that were scrapped BEFORE any render shipped. Their clip-sources.md
+ * records a failed footage-gate evaluation, not viewer-seen usage, so they must
+ * not poison the ledger. 311 is the tteokbokki Reel abandoned at planning on
+ * 2026-07-21 (0 usable clips found); the 311 CARD NEWS that did publish shares
+ * the number but no video clips.
+ */
+const SCRAPPED_SLUGS = new Set(['311']);
+
 const args = {};
 for (let i = 2; i < process.argv.length; i += 1) {
   if (process.argv[i].startsWith('--')) { args[process.argv[i].slice(2)] = process.argv[i + 1] ?? true; i += 1; }
@@ -50,7 +60,7 @@ function buildLedger() {
   if (existsSync(reelsDir)) {
     for (const slug of readdirSync(reelsDir)) {
       const dir = join(reelsDir, slug);
-      if (!statSync(dir).isDirectory()) continue;
+      if (!statSync(dir).isDirectory() || SCRAPPED_SLUGS.has(slug)) continue;
       for (const name of ['clip-sources.md', 'image-sources.md']) {
         const p = join(dir, name);
         if (!existsSync(p)) continue;

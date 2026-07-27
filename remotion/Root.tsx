@@ -70,7 +70,7 @@ function Root() {
       <Composition
         id="Reel220V2"
         component={Reel220V2Composition}
-        durationInFrames={1449}
+        durationInFrames={1446}
         fps={30}
         width={1080}
         height={1920}

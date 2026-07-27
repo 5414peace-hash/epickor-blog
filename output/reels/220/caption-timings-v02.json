@@ -2,7 +2,7 @@
   "slug": "220",
   "version": "v02",
   "fps": 30,
-  "generatedAt": "2026-07-27T02:57:12.907Z",
+  "generatedAt": "2026-07-27T03:31:53.327Z",
   "method": "ElevenLabs Forced Alignment against the approved narration transcript",
   "captionLeadFrames": 5,
   "safeZone": {
@@ -23,12 +23,12 @@
     },
     {
       "part": 2,
-      "transcript": "And here's the part nobody tells you — these stalls aren't random. They're parked right where you come out of the station. That's the entire business model. Hotteok — sweet fried dough with brown sugar melting inside. Fish-shaped bread stuffed with red bean. Steamed dumplings the size of your fist. Fried stuff on sticks that you dip yourself. And a pot of broth that's been going since morning.",
-      "alignmentLoss": 0.07877917512498721,
-      "wordCount": 68,
-      "beatCount": 11,
+      "transcript": "And here's the part nobody tells you — these stalls aren't random. They're parked right where you come out of the station. That's the entire business model. Hotteok — sweet fried dough with brown sugar melting inside. Fish-shaped bread stuffed with red bean. Steamed dumplings the size of your fist. And fish cakes on skewers, floating in a broth that's been going since morning.",
+      "alignmentLoss": 0.09789737201932237,
+      "wordCount": 64,
+      "beatCount": 10,
       "firstWordStart": 0.079,
-      "lastWordEnd": 22.18
+      "lastWordEnd": 22.1
     },
     {
       "part": 3,
@@ -108,106 +108,97 @@
       "part": 2,
       "text": "And here's the part nobody tells you —",
       "startFrame": 415,
-      "endFrame": 464,
+      "endFrame": 458,
       "sourceStartSeconds": 0.079,
-      "sourceEndSeconds": 1.741,
+      "sourceEndSeconds": 1.58,
       "wordCount": 8
     },
     {
       "part": 2,
       "text": "these stalls aren't random.",
-      "startFrame": 465,
-      "endFrame": 514,
-      "sourceStartSeconds": 1.839,
-      "sourceEndSeconds": 2.98,
+      "startFrame": 459,
+      "endFrame": 509,
+      "sourceStartSeconds": 1.659,
+      "sourceEndSeconds": 2.799,
       "wordCount": 4
     },
     {
       "part": 2,
       "text": "They're parked right",
-      "startFrame": 515,
-      "endFrame": 536,
-      "sourceStartSeconds": 3.519,
-      "sourceEndSeconds": 4.179,
+      "startFrame": 510,
+      "endFrame": 529,
+      "sourceStartSeconds": 3.339,
+      "sourceEndSeconds": 4,
       "wordCount": 3
     },
     {
       "part": 2,
       "text": "where you come out of the station.",
-      "startFrame": 537,
-      "endFrame": 584,
-      "sourceStartSeconds": 4.239,
-      "sourceEndSeconds": 5.559,
+      "startFrame": 530,
+      "endFrame": 578,
+      "sourceStartSeconds": 4.019,
+      "sourceEndSeconds": 5.279,
       "wordCount": 7
     },
     {
       "part": 2,
       "text": "That's the entire business model.",
-      "startFrame": 585,
-      "endFrame": 637,
-      "sourceStartSeconds": 5.839,
-      "sourceEndSeconds": 7.279,
+      "startFrame": 579,
+      "endFrame": 650,
+      "sourceStartSeconds": 5.659,
+      "sourceEndSeconds": 7.079,
       "wordCount": 5
     },
     {
       "part": 2,
       "text": "Hotteok — sweet fried dough with brown sugar melting inside.",
-      "startFrame": 638,
-      "endFrame": 765,
-      "sourceStartSeconds": 7.599,
-      "sourceEndSeconds": 11.059,
+      "startFrame": 651,
+      "endFrame": 794,
+      "sourceStartSeconds": 8.059,
+      "sourceEndSeconds": 11.979,
       "wordCount": 10
     },
     {
       "part": 2,
       "text": "Fish-shaped bread stuffed with red bean.",
-      "startFrame": 766,
-      "endFrame": 843,
-      "sourceStartSeconds": 11.88,
-      "sourceEndSeconds": 13.759,
+      "startFrame": 795,
+      "endFrame": 869,
+      "sourceStartSeconds": 12.859,
+      "sourceEndSeconds": 14.739,
       "wordCount": 6
     },
     {
       "part": 2,
       "text": "Steamed dumplings the size of your fist.",
-      "startFrame": 844,
-      "endFrame": 923,
-      "sourceStartSeconds": 14.479,
-      "sourceEndSeconds": 16.219,
+      "startFrame": 870,
+      "endFrame": 950,
+      "sourceStartSeconds": 15.359,
+      "sourceEndSeconds": 17.18,
       "wordCount": 7
     },
     {
       "part": 2,
-      "text": "Fried stuff on sticks that you dip yourself.",
-      "startFrame": 924,
-      "endFrame": 1001,
-      "sourceStartSeconds": 17.139,
-      "sourceEndSeconds": 19.119,
-      "wordCount": 8
-    },
-    {
-      "part": 2,
-      "text": "And a pot of broth",
-      "startFrame": 1002,
-      "endFrame": 1036,
-      "sourceStartSeconds": 19.739,
-      "sourceEndSeconds": 20.739,
+      "text": "And fish cakes on skewers,",
+      "startFrame": 951,
+      "endFrame": 1007,
+      "sourceStartSeconds": 18.039,
+      "sourceEndSeconds": 19.5,
       "wordCount": 5
     },
     {
       "part": 2,
-      "text": "that's been going since morning.",
-      "startFrame": 1037,
-      "endFrame": 1087,
-      "sourceStartSeconds": 20.92,
-      "sourceEndSeconds": 22.18,
-      "wordCount": 5
+      "text": "floating in a broth that's been going since morning.",
+      "startFrame": 1008,
+      "endFrame": 1085,
+      "sourceStartSeconds": 19.939,
+      "sourceEndSeconds": 22.1,
+      "wordCount": 9
     },
     {
       "part": 3,
       "text": "None of it is a meal.",
-      "startFrame": 1102,
-      "endFrame": 1151,
+      "startFrame": 1099,
+      "endFrame": 1148,
       "sourceStartSeconds": 0.119,
       "sourceEndSeconds": 1.12,
       "wordCount": 6
@@ -215,8 +206,8 @@
     {
       "part": 3,
       "text": "All of it is about two bucks.",
-      "startFrame": 1152,
-      "endFrame": 1207,
+      "startFrame": 1149,
+      "endFrame": 1204,
       "sourceStartSeconds": 1.839,
       "sourceEndSeconds": 3.079,
       "wordCount": 7
@@ -224,8 +215,8 @@
     {
       "part": 3,
       "text": "And you'll eat it standing up, right there,",
-      "startFrame": 1208,
-      "endFrame": 1259,
+      "startFrame": 1205,
+      "endFrame": 1256,
       "sourceStartSeconds": 3.699,
       "sourceEndSeconds": 5.44,
       "wordCount": 8
@@ -233,16 +224,16 @@
     {
       "part": 3,
       "text": "before you've even figured out which exit you needed.",
-      "startFrame": 1260,
-      "endFrame": 1335,
+      "startFrame": 1257,
+      "endFrame": 1332,
       "sourceStartSeconds": 5.441,
       "sourceEndSeconds": 7.519,
       "wordCount": 9
     }
   ],
   "coverage": {
-    "transcriptWords": 141,
-    "captionWords": 141,
+    "transcriptWords": 137,
+    "captionWords": 137,
     "audioParts": 3
   }
 }

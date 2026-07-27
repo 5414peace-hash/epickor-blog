@@ -77,51 +77,47 @@ export const Reel220V2Composition: React.FC = () => (
       <Ons kicker="Right at" punch="the exits" at={104} top={620} size={96} />
     </Cut>
 
-    {/* 585-638 "That's the entire business model." */}
-    <Cut from={585} len={53}>
+    {/* 579-651 "That's the entire business model." */}
+    <Cut from={579} len={72}>
       <VideoCut src={`${V}/seoul-shinsegae-31727226.mp4`} trim={20} from={1.03} to={1.10} />
       <Ons kicker="That's the" punch="business model" at={0} top={250} size={88} />
     </Cut>
 
-    {/* 638-766 "Hotteok — sweet fried dough with brown sugar melting inside."
-        The word lands on the real Busan ssiat-hotteok photograph. */}
-    <Cut from={638} len={128}>
+    {/* 651-795 "Hotteok — sweet fried dough with brown sugar melting inside." */}
+    <Cut from={651} len={144}>
       <StillCut src={`${I}/hotteok-busan.jpg`} from={1.1} to={1.0} drift="left" amount={34} />
       <Ons kicker="01 Hotteok" topLine="Brown sugar" punch="inside" at={0} top={250} size={104} />
     </Cut>
 
-    {/* 766-844 "Fish-shaped bread stuffed with red bean." */}
-    <Cut from={766} len={78}>
+    {/* 795-870 "Fish-shaped bread stuffed with red bean." */}
+    <Cut from={795} len={75}>
       <StillCut src={`${I}/bungeoppang-stall.jpg`} from={1.0} to={1.15} drift="right" amount={48} />
       <Ons kicker="02 Bungeoppang" punch="red bean" at={0} top={940} size={96} />
     </Cut>
 
-    {/* 844-924 "Steamed dumplings the size of your fist." */}
-    <Cut from={844} len={80}>
+    {/* 870-951 "Steamed dumplings the size of your fist." */}
+    <Cut from={870} len={81}>
       <StillCut src={`${I}/mandu-vendor.jpg`} from={1.16} to={1.02} drift="left" amount={40} />
       <Ons kicker="03 Son-mandu" punch="hand-folded" at={0} top={940} size={88} />
     </Cut>
 
-    {/* 924-1002 "Fried stuff on sticks that you dip yourself." */}
-    <Cut from={924} len={78}>
-      <VideoCut src={`${V}/dip-skewer-4551330.mp4`} trim={30} from={1.04} to={1.13} />
-      <Ons kicker="04 Skewers" punch="you dip" at={0} top={940} size={96} />
+    {/* 951-1099 "And fish cakes on skewers, floating in a broth that's been
+        going since morning." — one clip proves both halves of the line:
+        skewers AND the broth pot. Replaces the sauce-cup and kimchi-pan cuts
+        the representative rejected. */}
+    <Cut from={951} len={148}>
+      <VideoCut src={`${V}/odeng-pot-11556562.mp4`} trim={20} from={1.02} to={1.12} />
+      <Ons kicker="04 Odeng" topLine="Skewers in broth," punch="since 6am" at={0} top={940} size={84} />
     </Cut>
 
-    {/* 1002-1102 "And a pot of broth that's been going since morning." — flagged nearest-honest */}
-    <Cut from={1002} len={100}>
-      <VideoCut src={`${V}/kimchi-pot-11588425.mp4`} trim={20} from={1.02} to={1.12} />
-      <Ons kicker="05 The pot" punch="since 6am" at={0} top={940} size={96} />
-    </Cut>
-
-    {/* 1102-1208 "None of it is a meal / about two bucks" — ₩3,000 sign in frame */}
-    <Cut from={1102} len={106}>
+    {/* 1099-1205 "None of it is a meal / about two bucks" — ₩3,000 sign in frame */}
+    <Cut from={1099} len={106}>
       <StillCut src={`${I}/hanbok-stall.jpg`} from={1.02} to={1.16} drift="up" amount={46} />
       <Ons kicker="None of it" topLine="is a meal." punch="₩3,000 a bag" top={250} size={92} />
     </Cut>
 
-    {/* 1208-1449 "standing up... which exit" + outro — Bank of Korea intersection */}
-    <Cut from={1208} len={241}>
+    {/* 1205-1446 "standing up... which exit" + outro — Bank of Korea intersection */}
+    <Cut from={1205} len={241}>
       <VideoCut src={`${V}/bank-street-36849357.mp4`} trim={30} from={1.02} to={1.10} />
       <Outro hook="Don't order blind" sub="Save this before you land in Seoul." />
     </Cut>
