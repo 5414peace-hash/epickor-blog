@@ -3379,6 +3379,28 @@
       "status": "retread_dropped",
       "generated_date": "2026-07-26",
       "note": "Added 2026-07-26 under the new Topic Engine rule. DEMAND: 33-query cluster at 1,017 impressions, no dedicated post - positions 5-19 come from incidental mentions in 018/036/049/093. CAVEAT recorded honestly: cluster CTR is only 0.20% because roughly half the queries are definitional or statistical (pc bang meaning, number of pc bangs in korea 2026). The winnable slice is the ~400 experience-intent impressions (pc bang 265, pc bang korea 52, pc bangs 45, pcbang 41). ANGLE MUST BE THE EXPERIENCE, NOT THE DEFINITION - cost, foreigner ID requirement, ordering food - or this becomes another ahjussi-shaped loser. | 2026-07-27 DROPPED on dedup re-audit: 133 (\"PC Bang Guide: Food, Kiosk, Etiquette, and First Visit Tips\") and 170 (\"Korean PC Bang Culture: Why Gaming Cafes Matter\") already fully cover cost, etiquette, first-visit, food ordering, and culture/esports context. This topic would have been a silent retread. Slug 327 released back to queue."
+    },
+    {
+      "id": 154,
+      "title": "Saju Cafes in Seoul: What a Korean Fortune-Telling Session Actually Costs",
+      "keywords": [
+        "saju cafe seoul",
+        "korean fortune telling cafe",
+        "tarot cafe hongdae",
+        "saju reading korea",
+        "how much is saju reading"
+      ],
+      "category": "Culture",
+      "tags": [
+        "KoreanCulture",
+        "Saju",
+        "Hongdae",
+        "SeoulExperience"
+      ],
+      "amazon_category": "Books",
+      "status": "blocked_no_imagery",
+      "note": "Added 2026-07-27 during next-3-topics search. DEMAND VERIFIED (external, no GSC signal yet): Korea Herald + Culture Trip + Creatrip + Daebak + KoreaPeek + IVisitKorea independently confirm saju cafes as a real, current Hongdae/Myeongdong/Hyehwa/Insadong tourist phenomenon, roughly 15,000-50,000 KRW per session, Seoul Tourism Organization formally recognized it as a tourism product in 2024. Zero site coverage. IMAGE GATE FAIL: Wikimedia Commons has no saju-cafe storefront or signage photos; Pexels queries for saju cafe korea and tarot cafe seoul return either generic Korean street or cafe photos with no fortune-telling connection, or generic Western tarot-card stock (cottonbro studio, Pavel Danilyuk) with zero Korea signifier, verified directly via the Pexels API rather than an agent report alone. Using either would violate the no-generic-substitute rule for a named real experience. UNBLOCK IF a specific saju cafe agrees to be photographed and credited, or a licensed travel-journalist photo becomes available.",
+      "generated_date": "2026-07-27"
     }
   ],
   "last_updated": "2026-07-27",
