@@ -3489,6 +3489,70 @@
       "status": "pending_needs_image_sourcing",
       "note": "Added 2026-07-27. Fact-checked real and current: Korea FTC 2025 franchise data (Mega 3,325 stores, Compose 2,649, Ediya 2,562, Paik's 1,712 as of Apr 2026), ~1,500-3,200 KRW price points, Jollibee's 70% Compose acquisition (2024), Compose adding tteokbokki to offset delivery-app margins (Korea Times Jan 2026), Ediya reportedly losing share to Mega/Compose. Zero site coverage (177 only covers Starbucks). IMAGE STATUS: no free/open-licence storefront photos on Commons or Pexels (checked directly). Korea Herald (koreaherald.com/article/3443301) has a real side-by-side storefront photo of Mega/Compose/Paik's in Jongno-gu plus an Ediya shot in Seongdong-gu, but it is a copyrighted press photo, not licensed for reuse. Path forward per the 2026-07-27 image-sourcing rule: use as visual reference for an AI-recreated illustration (labelled honestly as a rendering, not a real photo), or seek Korea Herald/photographer permission before drafting.",
       "generated_date": "2026-07-27"
+    },
+    {
+      "id": 159,
+      "title": "Dancheong Explained: The Colorful Patterns on Every Korean Palace and Temple",
+      "keywords": [
+        "dancheong",
+        "korean palace colors",
+        "korean temple patterns",
+        "why korean palaces are colorful"
+      ],
+      "category": "Culture",
+      "tags": [
+        "KoreanArt",
+        "Dancheong",
+        "Heritage",
+        "Architecture"
+      ],
+      "amazon_category": "Books",
+      "status": "pending",
+      "note": "Added 2026-07-27 leveraging the newly-verified Cultural Heritage Administration (heritage.go.kr) archive - KOGL Type 1, ~33.7k heritage photos, exactly the palace/temple architectural-detail strength this source has. Only passing mention on site (151, temple etiquette); no dedicated piece on the dancheong art form itself. Real, visually striking, distinct Korean decorative art tradition with an easy action frame (where to see the best examples - Gyeongbokgung, specific temples). Monetization is weak by design (no natural product tie beyond a search-link to Korean pattern art books) - kept anyway for site authority/AEO value on a genuinely uncovered cultural-explainer lane, per Topic Engine rule 5 (explain why it's still worth it when Amazon fit is thin).",
+      "generated_date": "2026-07-27"
+    },
+    {
+      "id": 160,
+      "title": "Joseon Royal Tombs Near Seoul: The UNESCO Site Most Visitors Skip",
+      "keywords": [
+        "joseon royal tombs",
+        "korea royal tombs unesco",
+        "seoul royal tomb day trip",
+        "donggureung"
+      ],
+      "category": "Culture",
+      "tags": [
+        "Heritage",
+        "UNESCO",
+        "SeoulDayTrip",
+        "History"
+      ],
+      "amazon_category": "Travel",
+      "status": "pending",
+      "note": "Added 2026-07-27. 40 UNESCO-listed tombs ring Seoul (Donggureung, Seolleung, Heolleung), genuinely uncovered - existing matches (069 Gyeongju, 064 Suwon, 264 Daejeon) are different cities/sites entirely. Decision-format day-trip guide fits the site's proven best-performing shape (compare our 264/069 day-trip posts). Heritage Administration archive is a strong direct fit for tomb-site photography. Monetization via travel gear (day-trip daypack, walking shoes - already in catalog under Travel) rather than a dedicated product.",
+      "generated_date": "2026-07-27"
+    },
+    {
+      "id": 161,
+      "title": "Gwanbok and Wonsam: What Korean Royalty Actually Wore, vs the Hanbok You Can Rent",
+      "keywords": [
+        "gwanbok",
+        "wonsam",
+        "korean royal costume",
+        "korean king clothes",
+        "joseon royal dress"
+      ],
+      "category": "Culture",
+      "tags": [
+        "Hanbok",
+        "Heritage",
+        "KoreanHistory",
+        "RoyalCourt"
+      ],
+      "amazon_category": "Books",
+      "status": "pending",
+      "note": "Added 2026-07-27. Distinct from 234 (Hanbok Rental in Seoul: Palace Photos and Etiquette), which covers the tourist rental experience, not the historical royal costume itself (rank-specific colors/patterns, gwanbok for officials, wonsam for royal women). Heritage Administration archive and museum-artifact photography are a strong fit. Natural internal link to 234. Monetization weak (Korean history book search-link) - kept for cultural-authority value, explicitly disclosed as thin per Topic Engine rule 5.",
+      "generated_date": "2026-07-27"
     }
   ],
   "last_updated": "2026-07-27",
