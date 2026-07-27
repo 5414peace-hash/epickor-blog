@@ -3182,9 +3182,10 @@
         "KoreaTravel"
       ],
       "amazon_category": "Food",
-      "status": "in_progress",
+      "status": "done",
       "note": "Added 2026-07-26. Carried over from the W30 report P3 candidate #5, which the representative had not yet approved. Re-audited 2026-07-26: zero dedicated coverage (grep for spice level / how spicy returns 0 title matches; 048 is Carbo Buldak-specific, 311 is tteokbokki-specific, 217 was a false positive for \"spicules\" skincare). Decision-frame food guide = the site's best-CTR class (275/300/320/321). | 2026-07-26: promoted to slot 326 in place of the delimanjoo recipe (image-gate fail). Passes the new Topic Engine test - action shape (reader decides what to order and how hot to go), abundant Korea-verifiable food imagery, and direct Amazon fit via gochugaru/gochujang/buldak.",
-      "generated_slug": "326"
+      "generated_slug": "326",
+      "generated_date": "2026-07-27"
     },
     {
       "id": 145,
