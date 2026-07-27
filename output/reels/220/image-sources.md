@@ -33,3 +33,40 @@ consecutive stills use opposing directions so a run of photos reads as motion.
 - Post 071's real deli manjoo photographs — all four frames carry burned-in Reels subtitles.
 - Wikimedia `델리만쥬 사진.jpg` — only 472x349, unusable at 1080x1920.
 - Pexels `38489828` — assigned to Reel 175 instead, to avoid the same clip appearing in two Reels of one batch.
+
+---
+
+# v2 재제작 (2026-07-27, process v3) — 실사용 소재
+
+v001은 대표님 리젝(클립 재사용 + 매칭 실패). v2는 전 소재를 원장·국가 게이트 통과 후 사용.
+
+## Video (Pexels)
+
+| File | ID | 국가 검증 |
+| --- | --- | --- |
+| video2/griddle-work-4551328.mp4 | 4551328 | cottonbro studio 서울 길거리음식 시리즈, 국가중립 클로즈업 |
+| video2/dip-skewer-4551330.mp4 | 4551330 | 동일 시리즈 (v001 이월, 220 전용) |
+| video2/street-day-36412260.mp4 | 36412260 | 슬러그 "south-korean-city" + 안경·환전 한글 간판 |
+| video2/seoul-shinsegae-31727226.mp4 | 31727226 | 신세계 본점 + 한국 버스 |
+| video2/kimchi-pot-11588425.mp4 | 11588425 | 김치솥 클로즈업, 외국 증거 없음 (약매칭 #2로 신고됨) |
+| video2/rain-yak-38489829.mp4 | 38489829 | 슬러그 "korean-shopping-street" + 약국 한글 네온 |
+
+## Images
+
+| File | 출처 | 라이선스/저작자 |
+| --- | --- | --- |
+| image2/sinchon-exit.jpg | Wikimedia Commons `Seoul-metro-240-Sinchon-station-entrance-2-20181121-082132.jpg` | CC BY-SA 4.0, LERK. 신촌역 2번출구, 서울 마포구 |
+| image2/hotteok-busan.jpg | Wikimedia Commons `Ssiat-hotteok.jpg` | CC BY-SA 2.0, bryan... (Flickr). 부산, GPS 35°5'55.7"N — 씨앗호떡 실물 |
+| image2/bungeoppang-stall.jpg · mandu-vendor.jpg · hanbok-stall.jpg | 포스트 220 보유 사진 (v001 이월) | EpicKor |
+
+## BGM
+
+`audio/bgm-hold-me.mp3` — Cosmonkey "Hold Me" (`input/BGM/`, 대표님 보유 라이브러리),
+47s 트림, 컴포지션에서 0.11 볼륨 + 페이드. 라이선스 출처는 대표님 확인 대기.
+
+## v2에서 심사 후 탈락
+
+- 37632317 (교회 광장 — 음식 무관), 38489830 (38489829와 동일 장소, 릴스 내 반복 방지)
+- 34572817 · 12153167 · 29844136 · 30748408 · 36021178 (국가 양성 증거 없음)
+- 34141287 · 34983118 (일본), 35480733 (터키 HAFIZ MUSTAFA), 37157122 (인도 파라타), 34141853 (비엔나)
+- 11556562 (어묵솥 — 릴스 311 기사용, 원장 FAIL)
