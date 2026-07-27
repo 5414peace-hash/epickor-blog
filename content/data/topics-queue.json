@@ -3398,8 +3398,8 @@
         "SeoulExperience"
       ],
       "amazon_category": "Books",
-      "status": "blocked_no_imagery",
-      "note": "Added 2026-07-27 during next-3-topics search. DEMAND VERIFIED (external, no GSC signal yet): Korea Herald + Culture Trip + Creatrip + Daebak + KoreaPeek + IVisitKorea independently confirm saju cafes as a real, current Hongdae/Myeongdong/Hyehwa/Insadong tourist phenomenon, roughly 15,000-50,000 KRW per session, Seoul Tourism Organization formally recognized it as a tourism product in 2024. Zero site coverage. IMAGE GATE FAIL: Wikimedia Commons has no saju-cafe storefront or signage photos; Pexels queries for saju cafe korea and tarot cafe seoul return either generic Korean street or cafe photos with no fortune-telling connection, or generic Western tarot-card stock (cottonbro studio, Pavel Danilyuk) with zero Korea signifier, verified directly via the Pexels API rather than an agent report alone. Using either would violate the no-generic-substitute rule for a named real experience. UNBLOCK IF a specific saju cafe agrees to be photographed and credited, or a licensed travel-journalist photo becomes available.",
+      "status": "pending_needs_image_sourcing",
+      "note": "Added 2026-07-27 during next-3-topics search. DEMAND VERIFIED (external, no GSC signal yet): Korea Herald + Culture Trip + Creatrip + Daebak + KoreaPeek + IVisitKorea independently confirm saju cafes as a real, current Hongdae/Myeongdong/Hyehwa/Insadong tourist phenomenon, roughly 15,000-50,000 KRW per session, Seoul Tourism Organization formally recognized it as a tourism product in 2024. Zero site coverage. IMAGE GATE FAIL: Wikimedia Commons has no saju-cafe storefront or signage photos; Pexels queries for saju cafe korea and tarot cafe seoul return either generic Korean street or cafe photos with no fortune-telling connection, or generic Western tarot-card stock (cottonbro studio, Pavel Danilyuk) with zero Korea signifier, verified directly via the Pexels API rather than an agent report alone. Using either would violate the no-generic-substitute rule for a named real experience. UNBLOCK IF a specific saju cafe agrees to be photographed and credited, or a licensed travel-journalist photo becomes available. | 2026-07-27 재시도 결과: KTO 공식 Hallyu 콘텐츠(english.visitkorea.or.kr, dataSetId=76 vcontsId=216894)에 실제 홍대 사주카페(Modern Witches / Healing Saju Tarot Miracle) 내부 실사진 존재 확인. 단 페이지 하단에 Copyright(c) Korea Tourism Organization. All Rights Reserved 명시 - KOGL Type 1 오픈라이선스 배포용 사진갤러리가 아니라 저작권 있는 에디토리얼 콘텐츠. 일부 사진은 업체 자체 크레딧(Modern Witches of Saju Tarot Love Compatibility). 완전 해결 아님 - 다음 중 하나 필요: (a) 실명 확인된 두 업체에 직접 사용 허가 요청 (KTO도 동일 업체에서 허가받아 게재한 것으로 보임), (b) 이 실사진들을 레퍼런스로 AI 재창조(2026-07-27 신규 규칙 4단계, 대표님 승인) 후 실사진 아님을 명확히 표기. blocked에서 해제하고 pending으로 전환, 작성 전 이미지 조달 단계 필요.",
       "generated_date": "2026-07-27"
     },
     {
@@ -3466,6 +3466,28 @@
       "amazon_category": "Music",
       "status": "pending",
       "note": "Added 2026-07-27. Distinct from 003 (noraebang/karaoke etiquette general guide) and 051 (celebrity power ranking) - neither covers trot as a genre or its Mr Trot/Miss Trot survival-show-driven generational revival. Real cultural story with existing internal-link targets (003 noraebang, 061 concert culture). Monetization already available: catalog already has portable karaoke microphone products (017, 018, portable-karaoke-search) under the Music category, a direct fit.",
+      "generated_date": "2026-07-27"
+    },
+    {
+      "id": 158,
+      "title": "Korea's Cheap Coffee Chain Wars 2026: Mega Coffee vs Compose vs Ediya vs Paik's",
+      "keywords": [
+        "mega coffee korea",
+        "compose coffee",
+        "cheap coffee korea",
+        "korean coffee chain",
+        "ediya vs mega coffee"
+      ],
+      "category": "Culture",
+      "tags": [
+        "KoreanCoffee",
+        "PriceWar",
+        "Seoul",
+        "Business"
+      ],
+      "amazon_category": "Coffee",
+      "status": "pending_needs_image_sourcing",
+      "note": "Added 2026-07-27. Fact-checked real and current: Korea FTC 2025 franchise data (Mega 3,325 stores, Compose 2,649, Ediya 2,562, Paik's 1,712 as of Apr 2026), ~1,500-3,200 KRW price points, Jollibee's 70% Compose acquisition (2024), Compose adding tteokbokki to offset delivery-app margins (Korea Times Jan 2026), Ediya reportedly losing share to Mega/Compose. Zero site coverage (177 only covers Starbucks). IMAGE STATUS: no free/open-licence storefront photos on Commons or Pexels (checked directly). Korea Herald (koreaherald.com/article/3443301) has a real side-by-side storefront photo of Mega/Compose/Paik's in Jongno-gu plus an Ediya shot in Seongdong-gu, but it is a copyrighted press photo, not licensed for reuse. Path forward per the 2026-07-27 image-sourcing rule: use as visual reference for an AI-recreated illustration (labelled honestly as a rendering, not a real photo), or seek Korea Herald/photographer permission before drafting.",
       "generated_date": "2026-07-27"
     }
   ],
