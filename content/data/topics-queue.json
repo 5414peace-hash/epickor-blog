@@ -3573,7 +3573,7 @@
       ],
       "amazon_category": "Food",
       "status": "pending",
-      "note": "Added 2026-07-27 under the tightened test (foreigner clickability + keyword + SEO winnability + Amazon fit + deli-manjoo/ahjussi-style breakout potential). External search confirms sustained 2025-2026 global interest tied to Squid Game (Forbes Jan 2025, Good Morning America), described as a genuine 'soft power' phenomenon - exactly the specific-Korean-item-gone-global pattern that already works for us (deli manjoo, hotteok). Only passing mentions on site (278, 315), no dedicated post despite the scale of international recognition. Real Amazon fit: dalgona candy-making kits exist as a product category (search-link, no exact catalog match yet). Action shape: make it at home / the honeycomb-crack technique / where to buy a kit.",
+      "note": "Added 2026-07-27 under the tightened test (foreigner clickability + keyword + SEO winnability + Amazon fit + deli-manjoo/ahjussi-style breakout potential). External search confirms sustained 2025-2026 global interest tied to Squid Game (Forbes Jan 2025, Good Morning America), described as a genuine 'soft power' phenomenon - exactly the specific-Korean-item-gone-global pattern that already works for us (deli manjoo, hotteok). Only passing mentions on site (278, 315), no dedicated post despite the scale of international recognition. Real Amazon fit: dalgona candy-making kits exist as a product category (search-link, no exact catalog match yet). Action shape: make it at home / the honeycomb-crack technique / where to buy a kit. | 2026-07-27 정직성 수정: 오징어게임 시즌3는 2025-06-27에 이미 완결(1년 이상 경과) - '지금 막 터지는 트렌드'로 판 것은 과장이었다. 성숙기 트렌드로 정직하게 재포지셔닝: '완결 후에도 여전히 통하는 이유'.",
       "generated_date": "2026-07-27"
     },
     {
@@ -3635,8 +3635,8 @@
         "Itinerary"
       ],
       "amazon_category": "Travel",
-      "status": "pending",
-      "note": "Added 2026-07-27, TRAVEL category (diversity fix - three prior picks were all Food). Verified real and current: named specific venues actively trending on TikTok/Instagram 2025-2026 (REPERK Coffee, NOOP, Cafe Sangguk, Villa Bar Cafe, Cieltri, Mil Toast - called 'possibly the best known cafe in Seoul' for its TikTok popularity). Zero dedicated coverage - existing matches (069, 128, 188, 214) are incidental keyword collisions, not actual rooftop-cafe content. Decision-format list ('where to actually go') matches the site's best-performing shape. Amazon fit via camera/phone gimbal or travel-photography accessories already in catalog (275 Seoul Tech Shopping) rather than a direct product.",
+      "status": "deprioritized",
+      "note": "Added 2026-07-27, TRAVEL category (diversity fix - three prior picks were all Food). Verified real and current: named specific venues actively trending on TikTok/Instagram 2025-2026 (REPERK Coffee, NOOP, Cafe Sangguk, Villa Bar Cafe, Cieltri, Mil Toast - called 'possibly the best known cafe in Seoul' for its TikTok popularity). Zero dedicated coverage - existing matches (069, 128, 188, 214) are incidental keyword collisions, not actual rooftop-cafe content. Decision-format list ('where to actually go') matches the site's best-performing shape. Amazon fit via camera/phone gimbal or travel-photography accessories already in catalog (275 Seoul Tech Shopping) rather than a direct product. | 2026-07-27 강등 (대표님 '이게 최선이야?' 재검증 요구로 재검토): Creatrip이 이미 'Best Rooftop Cafes In Seoul'을 선점했고, 대표 사진(Noop Cafe, visitseoul.net)은 KOGL이 아닌 '(c) Seoul Tourism Organization all rights reserved'라 이미지 조달도 막힘. 경쟁강도+이미지 둘 다 약해 City Hall Station 신규 명소로 교체.",
       "generated_date": "2026-07-27"
     },
     {
@@ -3658,9 +3658,123 @@
         "ProductGuide"
       ],
       "amazon_category": "Beauty",
-      "status": "pending",
-      "note": "Added 2026-07-27, BEAUTY category (diversity fix). Verified via three independent sources (skin-seoul.com, idewcare.com, umma.io) naming the same specific viral products - Numbuzin No.9 eye cream, Mixsoon Bean Essence, Beauty of Joseon Relief Sun, Anua Heartleaf toner - plus real market data (K-beauty US sales +37.2% to $2B in the 52 weeks to Aug 2025, driven by TikTok Shop). Distinct from 160 (Best Korean Sunscreens - different product set/angle) and other beauty posts - no dedicated 'what's actually viral right now' roundup exists. Strong Amazon fit: these specific brands increasingly sell directly on Amazon US, not just Olive Young - direct product links likely findable, search-link fallback otherwise.",
+      "status": "deprioritized",
+      "note": "Added 2026-07-27, BEAUTY category (diversity fix). Verified via three independent sources (skin-seoul.com, idewcare.com, umma.io) naming the same specific viral products - Numbuzin No.9 eye cream, Mixsoon Bean Essence, Beauty of Joseon Relief Sun, Anua Heartleaf toner - plus real market data (K-beauty US sales +37.2% to $2B in the 52 weeks to Aug 2025, driven by TikTok Shop). Distinct from 160 (Best Korean Sunscreens - different product set/angle) and other beauty posts - no dedicated 'what's actually viral right now' roundup exists. Strong Amazon fit: these specific brands increasingly sell directly on Amazon US, not just Olive Young - direct product links likely findable, search-link fallback otherwise. | 2026-07-27 강등 (재검증): 'viral K-beauty 상품 랭킹' 포맷은 이미 전문 뷰티 블로그(Skinimalist, Seoulz, Ma Petite Coree, Skinorea, CYoung)가 블라인드 테스트까지 곁들여 선점한 레드오션. EpicKor는 뷰티 전문 사이트가 아니라 '외국인에게 한국을 설명하는' 포지션인데 상품 랭킹으로 정면승부하면 권위 열세. '왜 지금 미국에서 K-뷰티가 폭발했는가' 현상 설명형으로 각도를 바꾼 신규 항목으로 교체.",
       "generated_date": "2026-07-27"
+    },
+    {
+      "id": 167,
+      "title": "Seoul's Hidden 40-Year-Old Tunnel Just Reopened as a K-Content Hub",
+      "keywords": [
+        "city hall station seoul",
+        "seoul underground k-content",
+        "new seoul attraction 2026",
+        "seoul plaza underground"
+      ],
+      "category": "Travel",
+      "tags": [
+        "SeoulTravel",
+        "NewAttraction",
+        "KContent",
+        "Itinerary"
+      ],
+      "amazon_category": "Travel",
+      "status": "pending",
+      "note": "Added 2026-07-27 replacing rooftop cafes after rigor re-check. Verified via 3 independent Korean outlets (Asia Business Daily 2026-05-24, Seoul Economic Daily, Haps Korea) plus official visitseoul.net: a 335m/3,261sqm underground space beneath Seoul Plaza at City Hall Station, dormant 40 years, reopening October 2026 as an immersive K-content venue (AI media art, K-pop/K-fashion exhibitions, virtual-idol pop-up). This is a genuine first-mover opportunity - only news-wire coverage exists so far, zero travel-guide-style content. Directly checked content/blog for overlap: 074 (COEX/Gangnam/Goto underground malls) is a different subject (shopping, not this new cultural venue) - natural internal-link, not a duplicate. Weak point disclosed honestly: opens October 2026, so the post should be framed as 'what's coming and how to plan around it' rather than a visited-in-person guide until it actually opens; revisit once opening is confirmed on-schedule. Amazon fit thin (general Seoul day-trip gear) - kept for first-mover SEO value per Topic Engine rule 5.",
+      "generated_date": "2026-07-27"
+    },
+    {
+      "id": 168,
+      "title": "Why K-Beauty Suddenly Took Over TikTok Shop in the US (And What's Actually Real)",
+      "keywords": [
+        "k-beauty tiktok shop",
+        "why is k-beauty popular",
+        "k-beauty trend 2026",
+        "korean skincare us sales"
+      ],
+      "category": "Beauty",
+      "tags": [
+        "KBeauty",
+        "TikTokShop",
+        "Skincare",
+        "TrendExplainer"
+      ],
+      "amazon_category": "Beauty",
+      "status": "pending",
+      "note": "Added 2026-07-27 replacing the product-roundup version after rigor re-check exposed that dedicated K-beauty review blogs (Skinimalist, Seoulz, Skinorea, CYoung) already own the 'best viral products' format with blind-testing authority EpicKor cannot match. This angle instead explains the PHENOMENON (real market data: K-beauty US sales +37.2% to ~$2B in 52 weeks to Aug 2025, TikTok Shop-driven, per market research covered in the Seoulz/Accio sourcing) using specific breakout brands (Numbuzin, Mixsoon, Anua, Beauty of Joseon) as examples inside a why/how explainer, not as a ranked buying-guide competing head-on with specialist sites. Matches EpicKor's actual authority (Korea explained to curious outsiders) rather than beauty-product-review authority. Distinct from 028 (Olive Young in-store shopping guide, Korea-side) and 160 (Korean sunscreens) - different angle (US market trend vs in-Korea shopping vs single category). Real Amazon fit: named brands increasingly sell direct on Amazon US.",
+      "generated_date": "2026-07-27"
+    },
+    {
+      "id": 169,
+      "title": "BTS Part 1: Seven Unknown Trainees at a Label With No Money",
+      "keywords": [
+        "bts origin story",
+        "bts before debut",
+        "bts trainee years",
+        "big hit entertainment early days",
+        "how bts started"
+      ],
+      "category": "Entertainment",
+      "tags": [
+        "BTS",
+        "Kpop",
+        "Hallyu",
+        "WorldCup2026"
+      ],
+      "amazon_category": "Entertainment",
+      "status": "done",
+      "note": "3부작 1편. 도입부는 2026-07-19/20 FIFA 월드컵 결승 하프타임쇼(뉴저지 MetLife Stadium) - BTS가 'Dynamite'로 마돈나/저스틴 비버/샤키라와 함께 무대(사상 최초 월드컵 하프타임쇼, Coldplay 크리스 마틴 총괄기획, 3개 언론사 교차확인: Rolling Stone, Variety, 머니투데이/파이낸셜뉴스)에 섰다는 장면으로 열고, 시간을 되감아 2010-2013년 사실상 무명이었던 작은 레이블(빅히트) 연습생 시절, 데뷔 전 어려움, 자체 프로듯싱 시작으로 이어짐. 정확성 주: 포스트말론은 같은 결승전 프리게임(경기 전) 세리머니에서 신곡을 공개한 것으로, BTS의 하프타임쇼와는 별도 순서 - 기사에 이 구분을 정확히 반영해야 함. 기존 010('BTS Guide 2026: Members, ARMY, Military Return, and Music')과 대상은 겹치지만 형식이 다름 - 010은 신규 팬용 레퍼런스/FAQ 가이드(멤버 소개, 병역, 디스코그래피 입문)이고 이 3부작은 처음부터 끝까지 읽는 서사형 히스토리(무명 연습생 7명 -> 월드컵 하프타임쇼)다. 010은 2026-07-19/20 월드컵 공연을 아직 반영 못함(작성 시점이 그 전). 중복이 아니라 클러스터 확장으로 라벨링: 3부작 각 편에서 010으로 상호링크하고, 010 인트로에도 월드컵 공연 한 줄 + 3부작 링크를 추가해 최신성을 보강하는 것을 권장. | 이미지: 실제 BTS/월드컵 사진을 그냥 가져다 쓰는 것은 대표님 승인과 무관하게 저작권 리스크가 있음(HYBE/빅히트, FIFA/Getty/AP가 소유권자이지 대표님이나 EpicKor가 아님 - HYBE는 무단 상업적 이미지 사용에 적극 대응하는 것으로 알려져 있고, 월드컵 공식 영상/사진도 FIFA가 엄격히 통제). 이번 세션에 이미 확인한 Getty 상업적 사용 금지 사례와 동일한 유형의 리스크. 권장 대안: (1) 공식 유튜브 임베드(010이 이미 쓰는 패턴, 다운로드가 아니라 임베드라 라이선스 문제 없음) - 월드컵 하프타임쇼 공식 클립이나 BTS 공식 MV를 임베드, (2) KOCIS 공식 Flickr(CC BY-SA 2.0, 이번 세션에 검증된 소스)에 BTS의 정부/외교 행사 사진이 있는지 확인, (3) Wikimedia Commons에 CC 라이선스로 풀린 프레스 사진이 있는지 확인, (4) 위 세 경로로 부족한 장면은 실제 사진을 참조만 해서 AI로 재창조하되 '실제 촬영본'으로 오표기하지 않음. 대표님 승인은 소재 확보 범위이지 허위 출처 표기 승인이 아니라는 기존 CLAUDE.md 원칙을 그대로 적용. | 2026-07-27: 대표님이 제공한 실제 월드컵 무대 사진 2장 + Wikimedia Commons에서 직접 라이선스 검증한 실제 사진 6장(2013 데뷔/트레이니 시절 CC BY 4.0 x2, 2017 BBMA/AMA CC BY 3.0+KOGL x2, 2019 빌보드 레드카펫 CC BY 3.0, 2026 컴백/투어 CC BY-SA 4.0 x2)으로 초안 작성 완료. 자동 리뷰 통과(95-100/100), private 프리뷰 커밋 완료. 사람 검토 대기.",
+      "generated_date": "2026-07-27",
+      "series": "bts-history-3part",
+      "generated_slug": "327"
+    },
+    {
+      "id": 170,
+      "title": "BTS Part 2: The English-Language Gamble and the ARMY Machine That Broke Billboard",
+      "keywords": [
+        "why is bts so successful",
+        "bts billboard history",
+        "bts un speech",
+        "dynamite billboard number one",
+        "bts army fandom power"
+      ],
+      "category": "Entertainment",
+      "tags": [
+        "BTS",
+        "Kpop",
+        "Hallyu",
+        "WorldCup2026"
+      ],
+      "amazon_category": "Entertainment",
+      "status": "done",
+      "note": "3부작 2편. 2017-2020 글로벌 돌파 메커니즘: UN 'Speak Yourself' 연설(2018), 빌보드 뮤직어워드, 'Dynamite'가 빌보드 핫100 1위(2020, 한국 그룹 최초)를 찍기까지의 전략(영어 싱글 크로스오버, 소셜미디어 직접소통, 자작곡 서사), ARMY의 조직화된 스트리밍/번역 파워. 여기서 '왜 성공했는가'의 실제 이유를 파고듦. 기존 010('BTS Guide 2026: Members, ARMY, Military Return, and Music')과 대상은 겹치지만 형식이 다름 - 010은 신규 팬용 레퍼런스/FAQ 가이드(멤버 소개, 병역, 디스코그래피 입문)이고 이 3부작은 처음부터 끝까지 읽는 서사형 히스토리(무명 연습생 7명 -> 월드컵 하프타임쇼)다. 010은 2026-07-19/20 월드컵 공연을 아직 반영 못함(작성 시점이 그 전). 중복이 아니라 클러스터 확장으로 라벨링: 3부작 각 편에서 010으로 상호링크하고, 010 인트로에도 월드컵 공연 한 줄 + 3부작 링크를 추가해 최신성을 보강하는 것을 권장. | 2026-07-27: 대표님이 제공한 실제 월드컵 무대 사진 2장 + Wikimedia Commons에서 직접 라이선스 검증한 실제 사진 6장(2013 데뷔/트레이니 시절 CC BY 4.0 x2, 2017 BBMA/AMA CC BY 3.0+KOGL x2, 2019 빌보드 레드카펫 CC BY 3.0, 2026 컴백/투어 CC BY-SA 4.0 x2)으로 초안 작성 완료. 자동 리뷰 통과(95-100/100), private 프리뷰 커밋 완료. 사람 검토 대기.",
+      "generated_date": "2026-07-27",
+      "series": "bts-history-3part",
+      "generated_slug": "328"
+    },
+    {
+      "id": 171,
+      "title": "BTS Part 3: Military Service, the 2026 Reunion, and What Their World Cup Stage Actually Proves",
+      "keywords": [
+        "bts military service reunion",
+        "bts world cup 2026",
+        "bts soft power korea",
+        "bts comeback 2026",
+        "bts legacy"
+      ],
+      "category": "Entertainment",
+      "tags": [
+        "BTS",
+        "Kpop",
+        "Hallyu",
+        "WorldCup2026"
+      ],
+      "amazon_category": "Entertainment",
+      "status": "done",
+      "note": "3부작 3편. 2022-2025 병역 공백(국민적 이벤트가 된 과정) -> 2025년 전원 전역/재결합 -> 2026 월드컵 무대를 '기량이 여전하다는 증거'이자 '커리어의 새로운 정점'으로 마무리. 한국 소프트파워/관광 효과로 확장 연결(큐 id 19 'BTS Effect: Tourism' 항목과 자연스럽게 상호링크 가능, 별개 프로젝트로 남겨둠). 기존 010('BTS Guide 2026: Members, ARMY, Military Return, and Music')과 대상은 겹치지만 형식이 다름 - 010은 신규 팬용 레퍼런스/FAQ 가이드(멤버 소개, 병역, 디스코그래피 입문)이고 이 3부작은 처음부터 끝까지 읽는 서사형 히스토리(무명 연습생 7명 -> 월드컵 하프타임쇼)다. 010은 2026-07-19/20 월드컵 공연을 아직 반영 못함(작성 시점이 그 전). 중복이 아니라 클러스터 확장으로 라벨링: 3부작 각 편에서 010으로 상호링크하고, 010 인트로에도 월드컵 공연 한 줄 + 3부작 링크를 추가해 최신성을 보강하는 것을 권장. | 2026-07-27: 대표님이 제공한 실제 월드컵 무대 사진 2장 + Wikimedia Commons에서 직접 라이선스 검증한 실제 사진 6장(2013 데뷔/트레이니 시절 CC BY 4.0 x2, 2017 BBMA/AMA CC BY 3.0+KOGL x2, 2019 빌보드 레드카펫 CC BY 3.0, 2026 컴백/투어 CC BY-SA 4.0 x2)으로 초안 작성 완료. 자동 리뷰 통과(95-100/100), private 프리뷰 커밋 완료. 사람 검토 대기.",
+      "generated_date": "2026-07-27",
+      "series": "bts-history-3part",
+      "generated_slug": "329"
     }
   ],
   "last_updated": "2026-07-27",
