@@ -58,7 +58,8 @@ v001은 대표님 리젝(클립 재사용 + 매칭 실패). v2는 전 소재를 
 | --- | --- | --- |
 | image2/sinchon-exit.jpg | Wikimedia Commons `Seoul-metro-240-Sinchon-station-entrance-2-20181121-082132.jpg` | CC BY-SA 4.0, LERK. 신촌역 2번출구, 서울 마포구 |
 | image2/hotteok-busan.jpg | Wikimedia Commons `Ssiat-hotteok.jpg` | CC BY-SA 2.0, bryan... (Flickr). 부산, GPS 35°5'55.7"N — 씨앗호떡 실물 |
-| image2/bungeoppang-stall.jpg · mandu-vendor.jpg · hanbok-stall.jpg | 포스트 220 보유 사진 (v001 이월) | EpicKor |
+| image2/bungeoppang-stall.jpg · hanbok-stall.jpg | 포스트 220 보유 사진 (v001 이월) | EpicKor |
+| image2/jjinmandu-plate.jpg | Wikimedia Commons `Jjin-mandu_1.jpg` | CC BY 2.0, chomjong. 한국 성남 GPS 좌표 — 찐만두 실물. v5에서 손만두 현수막+상인 사진 대체(대표님: 음식이 보여야 함) |
 
 ## BGM
 

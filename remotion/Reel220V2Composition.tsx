@@ -95,10 +95,12 @@ export const Reel220V2Composition: React.FC = () => (
       <Ons kicker="02 Bungeoppang" punch="red bean" at={0} top={940} size={96} />
     </Cut>
 
-    {/* 870-951 "Steamed dumplings the size of your fist." */}
+    {/* 870-951 "Steamed dumplings the size of your fist." — actual jjin-mandu
+        on the plate (Commons, Korea GPS). Replaced the vendor/banner shot the
+        representative rejected for showing text and a person instead of food. */}
     <Cut from={870} len={81}>
-      <StillCut src={`${I}/mandu-vendor.jpg`} from={1.16} to={1.02} drift="left" amount={40} />
-      <Ons kicker="03 Son-mandu" punch="hand-folded" at={0} top={940} size={88} />
+      <StillCut src={`${I}/jjinmandu-plate.jpg`} from={1.18} to={1.02} drift="right" amount={38} />
+      <Ons kicker="03 Mandu" punch="fist-sized" at={0} top={940} size={92} />
     </Cut>
 
     {/* 951-1099 "And fish cakes on skewers, floating in a broth that's been
