@@ -20,3 +20,13 @@ audio/bgm-papi.mp3 — Kicktracks "Papi Beat" (input/BGM 보유), 43s trim.
 
 ## 참고
 v001 소재(쿠알라룸푸르 차내·터키 계단 등)는 전량 폐기, video/·image/ 구폴더 삭제됨.
+
+## v003 (2026-07-27, "중복 푸티지 절대 불가" + BGM 교체)
+
+- billboard-street-37984173.mp4 — 한글 대형 광고판 거리 (FREE VIDEO HAPPY, 103s)
+- pond-person-32242948.mp4 — 여의도 못가에 앉은 사람 (Theodore Nguyen, 슬러그 seoul)
+- city-aerial-37500922.mp4 — 고양시 항공 (슬러그 south-korea) — 아웃트로
+- BGM: Papi Beat → Silly Putty "Blooming (Instrumental)"
+- ⚠️ 신고: B1(성당 광장 항공 37998673)·B8(성당 계단 38533116)은 다른 클립이지만 같은 명동성당.
+  한국 검증 군중 영상 풀 소진으로 잔존. 거슬리면 B8 교체 후보 재수급 필요.
+- 기각: 모노레일 36192482(지하철 아님), 한국은행 36849359(220 아웃트로 랜드마크 반복)

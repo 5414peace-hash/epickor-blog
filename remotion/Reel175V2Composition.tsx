@@ -66,7 +66,7 @@ export const Reel175V2Composition: React.FC = () => (
     <Cut from={312} len={112}>
       {/* same source as B1 but reframed hard onto the goods (low crop, tight
           push) so the return reads as a NEW shot, not the first one repeating */}
-      <VideoCut src={`${V}/market-stalls-38433424.mp4`} trim={160} origin="center 88%" from={1.30} to={1.45} />
+      <StillCut src={`${I}/namdaemun-alley.jpg`} from={1.0} to={1.16} drift="left" amount={50} />
       <Ons kicker="Namdaemun rule" topLine="Eat first." punch="Then buy." at={0} top={250} size={100} />
     </Cut>
 
@@ -98,25 +98,22 @@ export const Reel175V2Composition: React.FC = () => (
     <Cut from={737} len={82}>
       {/* reframed to the tower top vs B8's full view — the day/night cross-cut
           is intentional, but each return still gets its own framing */}
-      <VideoCut src={`${V}/doota-question-36294726.mp4`} trim={350} origin="center 12%" from={1.25} to={1.38} />
+      <VideoCut src={`${V}/ntower-cherry-36949144.mp4`} trim={30} from={1.02} to={1.10} />
       <Ons kicker="One question" punch="Daylight?" at={0} top={250} size={116} />
     </Cut>
 
     {/* B11 819-871 "or are you shopping after midnight?" — the cross-cut answers it */}
     <Cut from={819} len={52}>
-      <VideoCut src={`${V}/night-cross-26690701.mp4`} trim={250} origin="center 85%" from={1.28} to={1.40} />
+      <StillCut src={`${I}/ddp-night.jpg`} from={1.14} to={1.02} drift="right" amount={36} />
       <Ons kicker="Or" punch="after midnight?" at={0} top={250} size={100} />
     </Cut>
 
-    {/* B12 871-936 "Pick one. Do it properly." */}
-    <Cut from={871} len={65}>
-      <VideoCut src={`${V}/jongno-alley-32214386.mp4`} trim={160} origin="center 8%" from={1.24} to={1.36} />
-      <Ons kicker="Pick one" topLine="Namdaemun or" punch="Dongdaemun" at={0} top={250} size={88} />
-    </Cut>
-
-    {/* B13 936-1140 "Skip the other one — enjoy your trip" + outro */}
-    <Cut from={936} len={204}>
-      <VideoCut src={`${V}/cheonggyecheon-38109939.mp4`} trim={350} origin="center 88%" from={1.18} to={1.30} />
+    {/* B12 871-1140 "Pick one. Do it properly. Skip the other one — enjoy your
+        trip" + outro — one 9s closing shot: Han River with the N Seoul Tower
+        skyline. Two returning cuts were removed entirely; every source in this
+        Reel now appears exactly once. */}
+    <Cut from={871} len={269}>
+      <VideoCut src={`${V}/hanriver-ntower-37763965.mp4`} trim={30} from={1.02} to={1.10} />
       <Outro hook="Before you land" sub="Pick one. Do it properly." />
     </Cut>
 

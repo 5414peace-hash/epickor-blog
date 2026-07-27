@@ -28,3 +28,12 @@ v001 소재는 100% 폐기 (과거 릴스 중복 + 일본 골목). v2는 전부 
 - 35040563/540 (터키 촬영자 — 중동 아치), 36108xxx 시리즈 (필리핀 SM몰 확인된 촬영자)
 - Earth Photart 초록유리 플라자 5종 (DDP 아님, 국가 불명), 16265183 (장소 불명 광장)
 - 31708717 (베트남 촬영자 야경), 38522593 (일본 노렌 — v001에서 이미 기각)
+
+## v006 (2026-07-27, "중복 푸티지 절대 불가" 반영)
+
+재등장 5곳 전부 신규 소스로 대체 — 전 소스 정확히 1회 (grep 검증):
+- namdaemun-alley.jpg — Commons `Namdaemun_Market_Alley.jpg`, CC BY-SA 3.0 Adbar, GPS 중구. Valued Image
+- ddp-night.jpg — Commons `Dongdaemun_Design_Plaza_at_night`, CC BY 2.0 Eugene Lim
+- ntower-cherry-36949144.mp4 — N서울타워 벚꽃 (Nicholaus Choi, 슬러그 namsan)
+- hanriver-ntower-37763965.mp4 — 한강+남산 스카이라인 (슬러그 han-river) — 9s 단일 클로징
+- 기각: 첨성대 야경 34753868(경주 — 서울 아님), 흑백 한옥 36947460(그레이딩 불일치)

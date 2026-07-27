@@ -29,7 +29,7 @@ function Bgm() {
   const frame = useCurrentFrame();
   const fadeIn = interpolate(frame, [0, 15], [0, 1], { extrapolateLeft: 'clamp', extrapolateRight: 'clamp' });
   const fadeOut = interpolate(frame, [TOTAL - 45, TOTAL], [1, 0], { extrapolateLeft: 'clamp', extrapolateRight: 'clamp' });
-  return <Audio src={staticFile('assets/reels/174/audio/bgm-papi.mp3')} volume={0.10 * Math.min(fadeIn, fadeOut)} />;
+  return <Audio src={staticFile('assets/reels/174/audio/bgm-blooming.mp3')} volume={0.10 * Math.min(fadeIn, fadeOut)} />;
 }
 
 export const Reel174V2Composition: React.FC = () => (
@@ -40,9 +40,10 @@ export const Reel174V2Composition: React.FC = () => (
       <Ons kicker="Seoul subway" topLine="Loud city." punch="Silent trains." top={250} size={98} />
     </Cut>
 
-    {/* 126-211 "packed streets, music, traffic, all of it" */}
+    {/* 126-211 "packed streets, music, traffic" — Hangul billboard street.
+        (cathedral-steps moved to B8 so the cathedral location appears once) */}
     <Cut from={126} len={85}>
-      <VideoCut src={`${V}/cathedral-steps-38533116.mp4`} trim={30} from={1.02} to={1.10} />
+      <VideoCut src={`${V}/billboard-street-37984173.mp4`} trim={60} from={1.02} to={1.10} />
       <Ons kicker="Above ground" punch="packed" at={0} top={250} size={120} />
     </Cut>
 
@@ -76,21 +77,23 @@ export const Reel174V2Composition: React.FC = () => (
       <Ons kicker="Rule 02" topLine="Stand right." punch="Walk left." at={0} top={250} size={96} />
     </Cut>
 
-    {/* 694-826 "that snack you're holding? It waits until you're back outside" */}
+    {/* 694-826 "that snack? waits until you're back outside" — street crowd */}
     <Cut from={694} len={132}>
-      <VideoCut src={`${V}/seoul-station-street-38391895.mp4`} trim={350} origin="center 80%" from={1.14} to={1.26} />
+      <VideoCut src={`${V}/cathedral-steps-38533116.mp4`} trim={30} from={1.02} to={1.10} />
       <Ons kicker="Rule 03" topLine="Snacks wait" punch="for outside" at={0} top={250} size={94} />
     </Cut>
 
-    {/* 826-996 "fastest way to look like a local... headphones in, voice down" */}
+    {/* 826-996 "look like a local: do almost nothing" — a person sitting still
+        by the Yeouido pond. The calmest shot in the Reel carries the calmest line. */}
     <Cut from={826} len={170}>
-      <VideoCut src={`${V}/myeongdong-crowd-37998673.mp4`} trim={350} origin="center 15%" from={1.20} to={1.32} />
+      <VideoCut src={`${V}/pond-person-32242948.mp4`} trim={20} from={1.02} to={1.10} />
       <Ons kicker="Look local" topLine="Do almost" punch="nothing" at={0} top={250} size={104} />
     </Cut>
 
-    {/* 996-1214 "face the doors / everybody already doing it" + outro */}
+    {/* 996-1214 "everybody already doing it" + outro — Korean city aerial.
+        Every source in this Reel appears exactly once. */}
     <Cut from={996} len={218}>
-      <VideoCut src={`${V}/seoul-station-street-38391895.mp4`} trim={700} origin="center 30%" from={1.08} to={1.18} />
+      <VideoCut src={`${V}/city-aerial-37500922.mp4`} trim={40} from={1.02} to={1.10} />
       <Outro hook="Locals know the rest" sub="Headphones in. Face the doors." />
     </Cut>
 
