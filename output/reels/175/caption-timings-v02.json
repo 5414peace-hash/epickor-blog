@@ -1,0 +1,248 @@
+{
+  "slug": "175",
+  "version": "v02",
+  "fps": 30,
+  "generatedAt": "2026-07-27T04:52:36.543Z",
+  "method": "ElevenLabs Forced Alignment against the approved narration transcript",
+  "captionLeadFrames": 5,
+  "safeZone": {
+    "left": 76,
+    "right": 76,
+    "bottom": 410,
+    "maxWidth": 928
+  },
+  "parts": [
+    {
+      "part": 1,
+      "transcript": "Seoul's got two huge markets, and everybody tells you to do both — which is honestly a great way to waste a whole day, because they're not the same kind of place at all. Namdaemun is a daytime thing. You go in the morning, you eat way too much, you buy stuff you didn't plan on buying, and by evening most of it's closing up.",
+      "alignmentLoss": 0.0510681229371291,
+      "wordCount": 65,
+      "beatCount": 11,
+      "firstWordStart": 0.119,
+      "lastWordEnd": 15.659
+    },
+    {
+      "part": 2,
+      "transcript": "Dongdaemun does the exact opposite. A lot of it doesn't even wake up until it's dark, and the wholesale buildings just keep going till dawn.",
+      "alignmentLoss": 0.05125034536634173,
+      "wordCount": 25,
+      "beatCount": 4,
+      "firstWordStart": 0.079,
+      "lastWordEnd": 7.139
+    },
+    {
+      "part": 3,
+      "transcript": "So it's really one question. Are you shopping in daylight, or are you shopping after midnight? Pick one. Do it properly. Skip the other one — you'll enjoy your trip a lot more.",
+      "alignmentLoss": 0.09118364683606407,
+      "wordCount": 33,
+      "beatCount": 7,
+      "firstWordStart": 0.099,
+      "lastWordEnd": 9.439
+    }
+  ],
+  "beats": [
+    {
+      "part": 1,
+      "text": "Seoul's got two huge markets,",
+      "startFrame": 8,
+      "endFrame": 47,
+      "sourceStartSeconds": 0.119,
+      "sourceEndSeconds": 1.399,
+      "wordCount": 5
+    },
+    {
+      "part": 1,
+      "text": "and everybody tells you to do both —",
+      "startFrame": 48,
+      "endFrame": 104,
+      "sourceStartSeconds": 1.519,
+      "sourceEndSeconds": 3.38,
+      "wordCount": 8
+    },
+    {
+      "part": 1,
+      "text": "which is honestly a great way",
+      "startFrame": 105,
+      "endFrame": 134,
+      "sourceStartSeconds": 3.399,
+      "sourceEndSeconds": 4.38,
+      "wordCount": 6
+    },
+    {
+      "part": 1,
+      "text": "to waste a whole day,",
+      "startFrame": 135,
+      "endFrame": 173,
+      "sourceStartSeconds": 4.4,
+      "sourceEndSeconds": 5.219,
+      "wordCount": 5
+    },
+    {
+      "part": 1,
+      "text": "because they're not the same",
+      "startFrame": 174,
+      "endFrame": 198,
+      "sourceStartSeconds": 5.699,
+      "sourceEndSeconds": 6.519,
+      "wordCount": 5
+    },
+    {
+      "part": 1,
+      "text": "kind of place at all.",
+      "startFrame": 199,
+      "endFrame": 247,
+      "sourceStartSeconds": 6.559,
+      "sourceEndSeconds": 7.379,
+      "wordCount": 5
+    },
+    {
+      "part": 1,
+      "text": "Namdaemun is a daytime thing.",
+      "startFrame": 248,
+      "endFrame": 311,
+      "sourceStartSeconds": 8.179,
+      "sourceEndSeconds": 9.539,
+      "wordCount": 5
+    },
+    {
+      "part": 1,
+      "text": "You go in the morning,",
+      "startFrame": 312,
+      "endFrame": 332,
+      "sourceStartSeconds": 10.3,
+      "sourceEndSeconds": 10.92,
+      "wordCount": 5
+    },
+    {
+      "part": 1,
+      "text": "you eat way too much,",
+      "startFrame": 333,
+      "endFrame": 358,
+      "sourceStartSeconds": 11.019,
+      "sourceEndSeconds": 11.8,
+      "wordCount": 5
+    },
+    {
+      "part": 1,
+      "text": "you buy stuff you didn't plan on buying,",
+      "startFrame": 359,
+      "endFrame": 423,
+      "sourceStartSeconds": 11.88,
+      "sourceEndSeconds": 13.399,
+      "wordCount": 8
+    },
+    {
+      "part": 1,
+      "text": "and by evening most of it's closing up.",
+      "startFrame": 424,
+      "endFrame": 485,
+      "sourceStartSeconds": 14.039,
+      "sourceEndSeconds": 15.659,
+      "wordCount": 8
+    },
+    {
+      "part": 2,
+      "text": "Dongdaemun does the exact opposite.",
+      "startFrame": 500,
+      "endFrame": 561,
+      "sourceStartSeconds": 0.079,
+      "sourceEndSeconds": 1.62,
+      "wordCount": 5
+    },
+    {
+      "part": 2,
+      "text": "A lot of it doesn't even",
+      "startFrame": 562,
+      "endFrame": 587,
+      "sourceStartSeconds": 2.24,
+      "sourceEndSeconds": 2.98,
+      "wordCount": 6
+    },
+    {
+      "part": 2,
+      "text": "wake up until it's dark,",
+      "startFrame": 588,
+      "endFrame": 636,
+      "sourceStartSeconds": 3.099,
+      "sourceEndSeconds": 4.219,
+      "wordCount": 5
+    },
+    {
+      "part": 2,
+      "text": "and the wholesale buildings just keep going till dawn.",
+      "startFrame": 637,
+      "endFrame": 721,
+      "sourceStartSeconds": 4.739,
+      "sourceEndSeconds": 7.139,
+      "wordCount": 9
+    },
+    {
+      "part": 3,
+      "text": "So it's really one question.",
+      "startFrame": 737,
+      "endFrame": 779,
+      "sourceStartSeconds": 0.099,
+      "sourceEndSeconds": 1.059,
+      "wordCount": 5
+    },
+    {
+      "part": 3,
+      "text": "Are you shopping in daylight,",
+      "startFrame": 780,
+      "endFrame": 818,
+      "sourceStartSeconds": 1.62,
+      "sourceEndSeconds": 2.579,
+      "wordCount": 5
+    },
+    {
+      "part": 3,
+      "text": "or are you shopping after midnight?",
+      "startFrame": 819,
+      "endFrame": 870,
+      "sourceStartSeconds": 2.919,
+      "sourceEndSeconds": 4.079,
+      "wordCount": 6
+    },
+    {
+      "part": 3,
+      "text": "Pick one.",
+      "startFrame": 871,
+      "endFrame": 896,
+      "sourceStartSeconds": 4.659,
+      "sourceEndSeconds": 5.059,
+      "wordCount": 2
+    },
+    {
+      "part": 3,
+      "text": "Do it properly.",
+      "startFrame": 897,
+      "endFrame": 935,
+      "sourceStartSeconds": 5.5,
+      "sourceEndSeconds": 6.159,
+      "wordCount": 3
+    },
+    {
+      "part": 3,
+      "text": "Skip the other one —",
+      "startFrame": 936,
+      "endFrame": 970,
+      "sourceStartSeconds": 6.819,
+      "sourceEndSeconds": 7.92,
+      "wordCount": 5
+    },
+    {
+      "part": 3,
+      "text": "you'll enjoy your trip a lot more.",
+      "startFrame": 971,
+      "endFrame": 1027,
+      "sourceStartSeconds": 7.96,
+      "sourceEndSeconds": 9.439,
+      "wordCount": 7
+    }
+  ],
+  "coverage": {
+    "transcriptWords": 123,
+    "captionWords": 123,
+    "audioParts": 3
+  }
+}

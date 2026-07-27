@@ -60,9 +60,16 @@ function Fade({ children, hold = 8 }: { children: ReactNode; hold?: number }) {
   return <AbsoluteFill style={{ opacity: Math.min(inOpacity, outOpacity) }}>{children}</AbsoluteFill>;
 }
 
+/**
+ * QA 2026-07-27 (175 v003): objectPosition is useless on a full-bleed 9:16
+ * source — there is no overflow to reposition, so "reframed" returns rendered
+ * identical to their first appearance. Reframing now uses transform-origin:
+ * scaling toward 'center 15%' shows the top of the frame, 'center 85%' the
+ * bottom. That is what actually turns a returning clip into a different shot.
+ */
 export function VideoCut({
-  src, trim = 0, position = 'center', from = 1.02, to = 1.09,
-}: { src: string; trim?: number; position?: string; from?: number; to?: number }) {
+  src, trim = 0, position = 'center', origin = 'center center', from = 1.02, to = 1.09,
+}: { src: string; trim?: number; position?: string; origin?: string; from?: number; to?: number }) {
   const frame = useCurrentFrame();
   const { durationInFrames } = useVideoConfig();
   const zoom = clamp(frame, [0, Math.max(1, durationInFrames)], [from, to]);
@@ -74,7 +81,7 @@ export function VideoCut({
         muted
         style={{
           width: '100%', height: '100%', objectFit: 'cover',
-          objectPosition: position, transform: `scale(${zoom})`,
+          objectPosition: position, transformOrigin: origin, transform: `scale(${zoom})`,
         }}
       />
     </Fade>
