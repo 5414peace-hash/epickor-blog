@@ -30,6 +30,27 @@ function loadDotEnvLocal() {
   }
 }
 
+/**
+ * 2026-07-27: the old even-split-by-7 produced grammar breaks the representative
+ * rejected on Reel 220 v2 — "nobody tells / you", "it hits / you". Captions now
+ * split at punctuation first, then before conjunctions, and never end a card on
+ * a word that grammatically requires the next one.
+ */
+const BAD_ENDINGS = new Set([
+  'a', 'an', 'the', 'of', 'to', 'in', 'on', 'at', 'for', 'with', 'from', 'by',
+  'your', 'my', 'our', 'their', 'his', 'her', 'its', 'is', 'are', 'was', 'be',
+  'been', "that's", "it's", "you're", "they're", 'gonna', 'and', 'or', 'but',
+  'tells', 'hits', 'makes', 'gets', 'takes', 'gives', 'lets', 'nobody', 'so',
+  // subjects and phrasal-verb halves stranded from what follows ("where you |
+  // come", "you come | up the stairs") — only enforced when the word carries no
+  // punctuation, since "it hits you," is a legitimate card ending.
+  'you', 'i', 'we', 'they', 'he', 'she', 'it', 'who', 'come', 'came', 'go',
+  'went', 'get', 'got', 'after', 'before', 'where', 'when', 'while', 'as',
+]);
+const clean = (t) => t.toLowerCase().replace(/[^a-z']/g, '');
+/** A word followed by spoken punctuation may end a card regardless of the list. */
+const hasPunct = (t) => /[,.!?;:—]$/.test(t.trim());
+
 function groupWords(words, segment, fps) {
   const sentences = [];
   let currentSentence = [];
@@ -44,16 +65,52 @@ function groupWords(words, segment, fps) {
 
   const groups = [];
   for (const sentence of sentences) {
-    const groupCount = Math.max(1, Math.ceil(sentence.length / 7));
-    const baseSize = Math.floor(sentence.length / groupCount);
-    let extra = sentence.length % groupCount;
-    let cursor = 0;
-    for (let index = 0; index < groupCount; index += 1) {
-      const size = baseSize + (extra > 0 ? 1 : 0);
-      extra -= extra > 0 ? 1 : 0;
-      groups.push(sentence.slice(cursor, cursor + size));
-      cursor += size;
+    // 1) split at spoken punctuation: commas, dashes, semicolons
+    let chunks = [];
+    let cur = [];
+    for (const w of sentence) {
+      cur.push(w);
+      if (/[,—;:]$/.test(w.text.trim()) || /—$/.test(w.text.trim())) { chunks.push(cur); cur = []; }
     }
+    if (cur.length) chunks.push(cur);
+
+    // 2) any chunk still too long splits before a conjunction, else at midpoint
+    const sized = [];
+    for (const chunk of chunks) {
+      if (chunk.length <= 9) { sized.push(chunk); continue; }
+      let cutAt = -1;
+      for (let i = 3; i < chunk.length - 2; i += 1) {
+        if (['and', 'but', 'because', 'which', 'that', 'so'].includes(clean(chunk[i].text))) cutAt = i;
+      }
+      if (cutAt < 3) cutAt = Math.ceil(chunk.length / 2);
+      sized.push(chunk.slice(0, cutAt), chunk.slice(cutAt));
+    }
+
+    // 3) never end a card on a word that needs the next one — shift it forward
+    for (let i = 0; i < sized.length - 1; i += 1) {
+      while (
+        sized[i].length > 1 &&
+        !hasPunct(sized[i].at(-1).text) &&
+        BAD_ENDINGS.has(clean(sized[i].at(-1).text))
+      ) {
+        sized[i + 1].unshift(sized[i].pop());
+      }
+    }
+    // 4) a card must not START with a stranded object pronoun — pull it back
+    for (let i = 1; i < sized.length; i += 1) {
+      while (sized[i].length > 1 && /^(you|it|me|them|him|her|us)[,.]?$/i.test(sized[i][0].text.trim())) {
+        sized[i - 1].push(sized[i].shift());
+      }
+    }
+    // 5) merge any leftover tiny fragment into its neighbour
+    for (let i = sized.length - 1; i >= 0; i -= 1) {
+      if (sized[i].length <= 2 && sized.length > 1) {
+        if (i > 0) sized[i - 1].push(...sized[i]);
+        else sized[i + 1].unshift(...sized[i]);
+        sized.splice(i, 1);
+      }
+    }
+    groups.push(...sized.filter((g) => g.length));
   }
 
   const beats = groups.map((group) => {

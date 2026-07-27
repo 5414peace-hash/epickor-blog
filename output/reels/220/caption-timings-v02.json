@@ -1,0 +1,248 @@
+{
+  "slug": "220",
+  "version": "v02",
+  "fps": 30,
+  "generatedAt": "2026-07-27T02:57:12.907Z",
+  "method": "ElevenLabs Forced Alignment against the approved narration transcript",
+  "captionLeadFrames": 5,
+  "safeZone": {
+    "left": 76,
+    "right": 76,
+    "bottom": 410,
+    "maxWidth": 928
+  },
+  "parts": [
+    {
+      "part": 1,
+      "transcript": "Okay so — that smell. About ten seconds after you come up the stairs in Seoul, it hits you, and you're gonna stop walking. Somebody's pressing golden pancakes flat on a hot griddle, right on the sidewalk, and they're like a dollar fifty.",
+      "alignmentLoss": 0.08099294111195496,
+      "wordCount": 43,
+      "beatCount": 7,
+      "firstWordStart": 0.079,
+      "lastWordEnd": 12.799
+    },
+    {
+      "part": 2,
+      "transcript": "And here's the part nobody tells you — these stalls aren't random. They're parked right where you come out of the station. That's the entire business model. Hotteok — sweet fried dough with brown sugar melting inside. Fish-shaped bread stuffed with red bean. Steamed dumplings the size of your fist. Fried stuff on sticks that you dip yourself. And a pot of broth that's been going since morning.",
+      "alignmentLoss": 0.07877917512498721,
+      "wordCount": 68,
+      "beatCount": 11,
+      "firstWordStart": 0.079,
+      "lastWordEnd": 22.18
+    },
+    {
+      "part": 3,
+      "transcript": "None of it is a meal. All of it is about two bucks. And you'll eat it standing up, right there, before you've even figured out which exit you needed.",
+      "alignmentLoss": 0.09860752332930597,
+      "wordCount": 30,
+      "beatCount": 4,
+      "firstWordStart": 0.119,
+      "lastWordEnd": 7.519
+    }
+  ],
+  "beats": [
+    {
+      "part": 1,
+      "text": "Okay so — that smell.",
+      "startFrame": 8,
+      "endFrame": 58,
+      "sourceStartSeconds": 0.079,
+      "sourceEndSeconds": 1.36,
+      "wordCount": 5
+    },
+    {
+      "part": 1,
+      "text": "About ten seconds",
+      "startFrame": 59,
+      "endFrame": 82,
+      "sourceStartSeconds": 1.879,
+      "sourceEndSeconds": 2.599,
+      "wordCount": 3
+    },
+    {
+      "part": 1,
+      "text": "after you come up the stairs in Seoul, it hits you,",
+      "startFrame": 83,
+      "endFrame": 161,
+      "sourceStartSeconds": 2.679,
+      "sourceEndSeconds": 4.779,
+      "wordCount": 11
+    },
+    {
+      "part": 1,
+      "text": "and you're gonna stop walking.",
+      "startFrame": 162,
+      "endFrame": 216,
+      "sourceStartSeconds": 5.299,
+      "sourceEndSeconds": 6.419,
+      "wordCount": 5
+    },
+    {
+      "part": 1,
+      "text": "Somebody's pressing golden pancakes flat on a hot griddle,",
+      "startFrame": 217,
+      "endFrame": 309,
+      "sourceStartSeconds": 7.139,
+      "sourceEndSeconds": 9.719,
+      "wordCount": 9
+    },
+    {
+      "part": 1,
+      "text": "right on the sidewalk,",
+      "startFrame": 310,
+      "endFrame": 350,
+      "sourceStartSeconds": 10.239,
+      "sourceEndSeconds": 11.219,
+      "wordCount": 4
+    },
+    {
+      "part": 1,
+      "text": "and they're like a dollar fifty.",
+      "startFrame": 351,
+      "endFrame": 399,
+      "sourceStartSeconds": 11.599,
+      "sourceEndSeconds": 12.799,
+      "wordCount": 6
+    },
+    {
+      "part": 2,
+      "text": "And here's the part nobody tells you —",
+      "startFrame": 415,
+      "endFrame": 464,
+      "sourceStartSeconds": 0.079,
+      "sourceEndSeconds": 1.741,
+      "wordCount": 8
+    },
+    {
+      "part": 2,
+      "text": "these stalls aren't random.",
+      "startFrame": 465,
+      "endFrame": 514,
+      "sourceStartSeconds": 1.839,
+      "sourceEndSeconds": 2.98,
+      "wordCount": 4
+    },
+    {
+      "part": 2,
+      "text": "They're parked right",
+      "startFrame": 515,
+      "endFrame": 536,
+      "sourceStartSeconds": 3.519,
+      "sourceEndSeconds": 4.179,
+      "wordCount": 3
+    },
+    {
+      "part": 2,
+      "text": "where you come out of the station.",
+      "startFrame": 537,
+      "endFrame": 584,
+      "sourceStartSeconds": 4.239,
+      "sourceEndSeconds": 5.559,
+      "wordCount": 7
+    },
+    {
+      "part": 2,
+      "text": "That's the entire business model.",
+      "startFrame": 585,
+      "endFrame": 637,
+      "sourceStartSeconds": 5.839,
+      "sourceEndSeconds": 7.279,
+      "wordCount": 5
+    },
+    {
+      "part": 2,
+      "text": "Hotteok — sweet fried dough with brown sugar melting inside.",
+      "startFrame": 638,
+      "endFrame": 765,
+      "sourceStartSeconds": 7.599,
+      "sourceEndSeconds": 11.059,
+      "wordCount": 10
+    },
+    {
+      "part": 2,
+      "text": "Fish-shaped bread stuffed with red bean.",
+      "startFrame": 766,
+      "endFrame": 843,
+      "sourceStartSeconds": 11.88,
+      "sourceEndSeconds": 13.759,
+      "wordCount": 6
+    },
+    {
+      "part": 2,
+      "text": "Steamed dumplings the size of your fist.",
+      "startFrame": 844,
+      "endFrame": 923,
+      "sourceStartSeconds": 14.479,
+      "sourceEndSeconds": 16.219,
+      "wordCount": 7
+    },
+    {
+      "part": 2,
+      "text": "Fried stuff on sticks that you dip yourself.",
+      "startFrame": 924,
+      "endFrame": 1001,
+      "sourceStartSeconds": 17.139,
+      "sourceEndSeconds": 19.119,
+      "wordCount": 8
+    },
+    {
+      "part": 2,
+      "text": "And a pot of broth",
+      "startFrame": 1002,
+      "endFrame": 1036,
+      "sourceStartSeconds": 19.739,
+      "sourceEndSeconds": 20.739,
+      "wordCount": 5
+    },
+    {
+      "part": 2,
+      "text": "that's been going since morning.",
+      "startFrame": 1037,
+      "endFrame": 1087,
+      "sourceStartSeconds": 20.92,
+      "sourceEndSeconds": 22.18,
+      "wordCount": 5
+    },
+    {
+      "part": 3,
+      "text": "None of it is a meal.",
+      "startFrame": 1102,
+      "endFrame": 1151,
+      "sourceStartSeconds": 0.119,
+      "sourceEndSeconds": 1.12,
+      "wordCount": 6
+    },
+    {
+      "part": 3,
+      "text": "All of it is about two bucks.",
+      "startFrame": 1152,
+      "endFrame": 1207,
+      "sourceStartSeconds": 1.839,
+      "sourceEndSeconds": 3.079,
+      "wordCount": 7
+    },
+    {
+      "part": 3,
+      "text": "And you'll eat it standing up, right there,",
+      "startFrame": 1208,
+      "endFrame": 1259,
+      "sourceStartSeconds": 3.699,
+      "sourceEndSeconds": 5.44,
+      "wordCount": 8
+    },
+    {
+      "part": 3,
+      "text": "before you've even figured out which exit you needed.",
+      "startFrame": 1260,
+      "endFrame": 1335,
+      "sourceStartSeconds": 5.441,
+      "sourceEndSeconds": 7.519,
+      "wordCount": 9
+    }
+  ],
+  "coverage": {
+    "transcriptWords": 141,
+    "captionWords": 141,
+    "audioParts": 3
+  }
+}
