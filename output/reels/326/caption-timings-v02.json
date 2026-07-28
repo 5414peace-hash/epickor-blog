@@ -2,7 +2,7 @@
   "slug": "326",
   "version": "v02",
   "fps": 30,
-  "generatedAt": "2026-07-28T03:01:00.149Z",
+  "generatedAt": "2026-07-28T08:25:34.965Z",
   "method": "ElevenLabs Forced Alignment against the approved narration transcript",
   "captionLeadFrames": 5,
   "safeZone": {
@@ -59,12 +59,12 @@
     },
     {
       "part": 6,
-      "transcript": "Next time, just say \"an-mapge\" — not spicy — before you order.",
-      "alignmentLoss": 0.6715227865403698,
+      "transcript": "Next time, just say \"an-map-gae\" — not spicy — before you order.",
+      "alignmentLoss": 0.56413334608078,
       "wordCount": 12,
       "beatCount": 3,
-      "firstWordStart": 0.199,
-      "lastWordEnd": 3.24
+      "firstWordStart": 0.179,
+      "lastWordEnd": 3.539
     },
     {
       "part": 7,
@@ -178,36 +178,36 @@
     },
     {
       "part": 6,
-      "text": "Next time, just say \"an-mapge\" —",
-      "startFrame": 636,
-      "endFrame": 684,
-      "sourceStartSeconds": 0.199,
-      "sourceEndSeconds": 1.82,
+      "text": "Next time, just say \"an-map-gae\" —",
+      "startFrame": 635,
+      "endFrame": 690,
+      "sourceStartSeconds": 0.179,
+      "sourceEndSeconds": 1.94,
       "wordCount": 6
     },
     {
       "part": 6,
       "text": "not spicy —",
-      "startFrame": 685,
-      "endFrame": 708,
-      "sourceStartSeconds": 1.839,
-      "sourceEndSeconds": 2.62,
+      "startFrame": 691,
+      "endFrame": 716,
+      "sourceStartSeconds": 2.039,
+      "sourceEndSeconds": 2.741,
       "wordCount": 3
     },
     {
       "part": 6,
       "text": "before you order.",
-      "startFrame": 709,
-      "endFrame": 739,
-      "sourceStartSeconds": 2.639,
-      "sourceEndSeconds": 3.24,
+      "startFrame": 717,
+      "endFrame": 748,
+      "sourceStartSeconds": 2.899,
+      "sourceEndSeconds": 3.539,
       "wordCount": 3
     },
     {
       "part": 7,
       "text": "Stop fearing the noodle.",
-      "startFrame": 750,
-      "endFrame": 779,
+      "startFrame": 759,
+      "endFrame": 788,
       "sourceStartSeconds": 0.239,
       "sourceEndSeconds": 1.159,
       "wordCount": 4
@@ -215,8 +215,8 @@
     {
       "part": 7,
       "text": "Watch the little pepper on your side plate.",
-      "startFrame": 780,
-      "endFrame": 834,
+      "startFrame": 789,
+      "endFrame": 843,
       "sourceStartSeconds": 1.259,
       "sourceEndSeconds": 3.039,
       "wordCount": 8
@@ -224,8 +224,8 @@
     {
       "part": 7,
       "text": "Save this before your next Korean meal.",
-      "startFrame": 835,
-      "endFrame": 898,
+      "startFrame": 844,
+      "endFrame": 907,
       "sourceStartSeconds": 3.079,
       "sourceEndSeconds": 4.779,
       "wordCount": 7
