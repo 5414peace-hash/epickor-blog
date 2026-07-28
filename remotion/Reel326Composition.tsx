@@ -1,8 +1,13 @@
 /**
  * Reel 326 — Korean Spice Levels ("Everyone's scared of this noodle").
  * Built on the Reels 2.2 Batch0726Kit: 3 acts, 6 cuts, zero motion cards.
- * The payoff is a visual reveal (real Scoville numbers on screen over real
- * food footage), not a card. 6 real Pexels vertical clips, no stills.
+ *
+ * v2 (2026-07-28): representative rejected v1 — the chili/paste footage was
+ * generic international stock with no visible Korean context. Replaced with
+ * real, verified Korean-specific stills: actual Buldak product (Commons,
+ * CC BY-SA 4.0), a KOGL-licensed official Korean-agency gochujang photo, and
+ * real Cheongyang chili photos (CC0 / CC BY-SA 3.0). Only the ordering-tip
+ * and closing banchan cuts remain video.
  *
  * Cut boundaries = caption-timings-v02.json segment starts (forced alignment).
  */
@@ -10,37 +15,38 @@ import { AbsoluteFill, staticFile } from 'remotion';
 import timings from '../output/reels/326/caption-timings-v02.json';
 import props from '../output/reels/326/remotion-props-v01.json';
 import {
-  Captions, Cut, Ons, Outro, VideoCut, VoiceTrack, Watermark, Kicker,
+  Captions, Cut, Ons, Outro, StillCut, VideoCut, VoiceTrack, Watermark, Kicker,
   social, type CaptionBeat,
 } from './Batch0726Kit';
 
 const beats = timings.beats as CaptionBeat[];
 const V = 'assets/reels/326/video';
+const I = 'assets/reels/326/images';
 const TOTAL = props.durationInFrames; // 944
 
 export const Reel326Composition: React.FC = () => (
   <AbsoluteFill style={{ background: social.ink }}>
     {/* 0-140 "Everyone's scared of this noodle. Turns out, it's barely hotter than a jalapeno." */}
     <Cut from={0} len={140}>
-      <VideoCut src={`${V}/noodles.mp4`} trim={20} from={1.03} to={1.11} />
+      <StillCut src={`${I}/buldak-branded.png`} from={1.0} to={1.1} drift="left" amount={30} position="center 30%" />
       <Ons kicker="Spice myth" topLine="Everyone's scared" punch="of this noodle" top={230} size={100} />
     </Cut>
 
     {/* 140-324 "The original fire noodle rates about 4,400 Scoville units. A jalapeno goes up to 8,000." */}
     <Cut from={140} len={184}>
-      <VideoCut src={`${V}/chilipile.mp4`} trim={10} from={1.02} to={1.1} />
+      <StillCut src={`${I}/korean-chili-greenhouse.jpg`} from={1.05} to={1.18} drift="right" amount={40} />
       <Ons kicker="The actual number" topLine="4,400 Scoville" punch="A jalapeno? 8,000" top={230} size={90} />
     </Cut>
 
     {/* 324-504 "The pepper Koreans actually reach for? Cheongyang chili. Five times a jalapeno, sliced into everyday dishes." */}
     <Cut from={324} len={180}>
-      <VideoCut src={`${V}/chiliglass.mp4`} trim={15} from={1.02} to={1.1} />
+      <StillCut src={`${I}/cheongyang-chili.jpg`} from={1.0} to={1.13} drift="left" amount={34} />
       <Ons kicker="The real heat" topLine="Cheongyang chili" punch="5x jalapenos" top={230} size={62} />
     </Cut>
 
     {/* 504-635 "And that thick red paste that looks terrifying? Usually milder than Sriracha." */}
     <Cut from={504} len={131}>
-      <VideoCut src={`${V}/saucestir.mp4`} trim={10} from={1.03} to={1.12} />
+      <StillCut src={`${I}/gochujang-official.jpg`} from={1.1} to={1.0} drift="right" amount={26} />
       <Ons kicker="Plot twist" topLine="That red paste?" punch="Milder than Sriracha" top={230} size={82} />
     </Cut>
 

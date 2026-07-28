@@ -289,7 +289,7 @@ function Root() {
         width={1080}
         height={1920}
         fps={30}
-        durationInFrames={840}
+        durationInFrames={828}
       />
       <Composition
         id="Reel320"
