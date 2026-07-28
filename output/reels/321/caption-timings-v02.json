@@ -1,0 +1,212 @@
+{
+  "slug": "321",
+  "version": "v02",
+  "fps": 30,
+  "generatedAt": "2026-07-28T03:14:44.964Z",
+  "method": "ElevenLabs Forced Alignment against the approved narration transcript",
+  "captionLeadFrames": 5,
+  "safeZone": {
+    "left": 76,
+    "right": 76,
+    "bottom": 410,
+    "maxWidth": 928
+  },
+  "parts": [
+    {
+      "part": 1,
+      "transcript": "You've been ordering the wrong Korean fried chicken.",
+      "alignmentLoss": 0.03602125094487117,
+      "wordCount": 8,
+      "beatCount": 1,
+      "firstWordStart": 0.199,
+      "lastWordEnd": 2.119
+    },
+    {
+      "part": 2,
+      "transcript": "BHC, BBQ, and Kyochon are not the same chicken.",
+      "alignmentLoss": 0.19680696599026945,
+      "wordCount": 9,
+      "beatCount": 1,
+      "firstWordStart": 0.179,
+      "lastWordEnd": 2.559
+    },
+    {
+      "part": 3,
+      "transcript": "BHC is the volume play — bigger portions, lower price, everywhere you look.",
+      "alignmentLoss": 0.13350489298502605,
+      "wordCount": 13,
+      "beatCount": 3,
+      "firstWordStart": 0.179,
+      "lastWordEnd": 3.699
+    },
+    {
+      "part": 4,
+      "transcript": "BBQ's whole thing is the olive oil. Lighter, less greasy, and they will tell you that unprompted.",
+      "alignmentLoss": 0.0597197886594792,
+      "wordCount": 17,
+      "beatCount": 3,
+      "firstWordStart": 0.239,
+      "lastWordEnd": 4.46
+    },
+    {
+      "part": 5,
+      "transcript": "Kyochon basically invented the soy garlic wave everyone else is still copying.",
+      "alignmentLoss": 0.04896021959109184,
+      "wordCount": 12,
+      "beatCount": 2,
+      "firstWordStart": 0.159,
+      "lastWordEnd": 3.999
+    },
+    {
+      "part": 6,
+      "transcript": "So: cheap and filling, go BHC. Lighter and crispier, go BBQ. Classic flavor, go Kyochon.",
+      "alignmentLoss": 0.294756835157221,
+      "wordCount": 15,
+      "beatCount": 3,
+      "firstWordStart": 0.159,
+      "lastWordEnd": 4.539
+    },
+    {
+      "part": 7,
+      "transcript": "Save this before your next order.",
+      "alignmentLoss": 0.04821516528274074,
+      "wordCount": 6,
+      "beatCount": 1,
+      "firstWordStart": 0.259,
+      "lastWordEnd": 1.639
+    }
+  ],
+  "beats": [
+    {
+      "part": 1,
+      "text": "You've been ordering the wrong Korean fried chicken.",
+      "startFrame": 1,
+      "endFrame": 71,
+      "sourceStartSeconds": 0.199,
+      "sourceEndSeconds": 2.119,
+      "wordCount": 8
+    },
+    {
+      "part": 2,
+      "text": "BHC, BBQ, and Kyochon are not the same chicken.",
+      "startFrame": 79,
+      "endFrame": 163,
+      "sourceStartSeconds": 0.179,
+      "sourceEndSeconds": 2.559,
+      "wordCount": 9
+    },
+    {
+      "part": 3,
+      "text": "BHC is the volume play —",
+      "startFrame": 172,
+      "endFrame": 215,
+      "sourceStartSeconds": 0.179,
+      "sourceEndSeconds": 1.48,
+      "wordCount": 6
+    },
+    {
+      "part": 3,
+      "text": "bigger portions, lower price,",
+      "startFrame": 216,
+      "endFrame": 254,
+      "sourceStartSeconds": 1.659,
+      "sourceEndSeconds": 2.819,
+      "wordCount": 4
+    },
+    {
+      "part": 3,
+      "text": "everywhere you look.",
+      "startFrame": 255,
+      "endFrame": 289,
+      "sourceStartSeconds": 2.939,
+      "sourceEndSeconds": 3.699,
+      "wordCount": 3
+    },
+    {
+      "part": 4,
+      "text": "BBQ's whole thing is the olive oil.",
+      "startFrame": 299,
+      "endFrame": 349,
+      "sourceStartSeconds": 0.239,
+      "sourceEndSeconds": 1.719,
+      "wordCount": 7
+    },
+    {
+      "part": 4,
+      "text": "Lighter, less greasy,",
+      "startFrame": 350,
+      "endFrame": 385,
+      "sourceStartSeconds": 1.959,
+      "sourceEndSeconds": 3,
+      "wordCount": 3
+    },
+    {
+      "part": 4,
+      "text": "and they will tell you that unprompted.",
+      "startFrame": 386,
+      "endFrame": 438,
+      "sourceStartSeconds": 3.139,
+      "sourceEndSeconds": 4.46,
+      "wordCount": 7
+    },
+    {
+      "part": 5,
+      "text": "Kyochon basically invented the soy garlic",
+      "startFrame": 446,
+      "endFrame": 508,
+      "sourceStartSeconds": 0.159,
+      "sourceEndSeconds": 2.22,
+      "wordCount": 6
+    },
+    {
+      "part": 5,
+      "text": "wave everyone else is still copying.",
+      "startFrame": 509,
+      "endFrame": 573,
+      "sourceStartSeconds": 2.279,
+      "sourceEndSeconds": 3.999,
+      "wordCount": 6
+    },
+    {
+      "part": 6,
+      "text": "So: cheap and filling, go BHC.",
+      "startFrame": 582,
+      "endFrame": 630,
+      "sourceStartSeconds": 0.159,
+      "sourceEndSeconds": 1.679,
+      "wordCount": 6
+    },
+    {
+      "part": 6,
+      "text": "Lighter and crispier, go BBQ.",
+      "startFrame": 631,
+      "endFrame": 673,
+      "sourceStartSeconds": 1.819,
+      "sourceEndSeconds": 3.139,
+      "wordCount": 5
+    },
+    {
+      "part": 6,
+      "text": "Classic flavor, go Kyochon.",
+      "startFrame": 674,
+      "endFrame": 725,
+      "sourceStartSeconds": 3.24,
+      "sourceEndSeconds": 4.539,
+      "wordCount": 4
+    },
+    {
+      "part": 7,
+      "text": "Save this before your next order.",
+      "startFrame": 734,
+      "endFrame": 788,
+      "sourceStartSeconds": 0.259,
+      "sourceEndSeconds": 1.639,
+      "wordCount": 6
+    }
+  ],
+  "coverage": {
+    "transcriptWords": 80,
+    "captionWords": 80,
+    "audioParts": 7
+  }
+}

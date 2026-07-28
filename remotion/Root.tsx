@@ -23,6 +23,9 @@ import { Reel220V2Composition } from './Reel220V2Composition';
 import { Reel311Composition } from './Reel311Composition';
 import { Reel312Composition } from './Reel312Composition';
 import { Reel313Composition } from './Reel313Composition';
+import { Reel326Composition } from './Reel326Composition';
+import { Reel321Composition } from './Reel321Composition';
+import { Reel320Composition } from './Reel320Composition';
 import type { ReelProps } from './types';
 
 const defaultReelProps: ReelProps = {
@@ -271,6 +274,30 @@ function Root() {
         height={1920}
         fps={30}
         durationInFrames={1020}
+      />
+      <Composition
+        id="Reel326"
+        component={Reel326Composition}
+        width={1080}
+        height={1920}
+        fps={30}
+        durationInFrames={944}
+      />
+      <Composition
+        id="Reel321"
+        component={Reel321Composition}
+        width={1080}
+        height={1920}
+        fps={30}
+        durationInFrames={840}
+      />
+      <Composition
+        id="Reel320"
+        component={Reel320Composition}
+        width={1080}
+        height={1920}
+        fps={30}
+        durationInFrames={970}
       />
     </>
   );

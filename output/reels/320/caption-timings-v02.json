@@ -1,0 +1,284 @@
+{
+  "slug": "320",
+  "version": "v02",
+  "fps": 30,
+  "generatedAt": "2026-07-28T03:23:05.387Z",
+  "method": "ElevenLabs Forced Alignment against the approved narration transcript",
+  "captionLeadFrames": 5,
+  "safeZone": {
+    "left": 76,
+    "right": 76,
+    "bottom": 410,
+    "maxWidth": 928
+  },
+  "parts": [
+    {
+      "part": 1,
+      "transcript": "You've picked the wrong Seoul tower before you even land.",
+      "alignmentLoss": 0.21712216787170946,
+      "wordCount": 10,
+      "beatCount": 2,
+      "firstWordStart": 0.179,
+      "lastWordEnd": 2.399
+    },
+    {
+      "part": 2,
+      "transcript": "Three towers. Genuinely different views, different prices, different reasons to go.",
+      "alignmentLoss": 0.05676660193018166,
+      "wordCount": 11,
+      "beatCount": 3,
+      "firstWordStart": 0.199,
+      "lastWordEnd": 4.099
+    },
+    {
+      "part": 3,
+      "transcript": "N Seoul Tower is the romantic classic. Namsan mountain, love locks, open until eleven at night.",
+      "alignmentLoss": 0.17252191869836103,
+      "wordCount": 16,
+      "beatCount": 3,
+      "firstWordStart": 0.179,
+      "lastWordEnd": 4.88
+    },
+    {
+      "part": 4,
+      "transcript": "Lotte World Tower is the giant. Five hundred fifty five meters, a glass floor, the tallest building in Korea.",
+      "alignmentLoss": 0.08025622258492567,
+      "wordCount": 19,
+      "beatCount": 4,
+      "firstWordStart": 0.199,
+      "lastWordEnd": 5.139
+    },
+    {
+      "part": 5,
+      "transcript": "And 63 Building? Its rooftop was closed for sixteen years. It just reopened this year.",
+      "alignmentLoss": 0.18580864196599917,
+      "wordCount": 15,
+      "beatCount": 3,
+      "firstWordStart": 0.199,
+      "lastWordEnd": 4.679
+    },
+    {
+      "part": 6,
+      "transcript": "Want romance? Go Namsan. Want height? Go Lotte. Want something brand new? Go 63 SkyPicnic.",
+      "alignmentLoss": 0.185329098171658,
+      "wordCount": 15,
+      "beatCount": 6,
+      "firstWordStart": 0.239,
+      "lastWordEnd": 4.899
+    },
+    {
+      "part": 7,
+      "transcript": "Save this before you pick.",
+      "alignmentLoss": 0.06703677544227013,
+      "wordCount": 5,
+      "beatCount": 1,
+      "firstWordStart": 0.259,
+      "lastWordEnd": 1.299
+    }
+  ],
+  "beats": [
+    {
+      "part": 1,
+      "text": "You've picked the wrong Seoul",
+      "startFrame": 0,
+      "endFrame": 28,
+      "sourceStartSeconds": 0.179,
+      "sourceEndSeconds": 1.059,
+      "wordCount": 5
+    },
+    {
+      "part": 1,
+      "text": "tower before you even land.",
+      "startFrame": 29,
+      "endFrame": 79,
+      "sourceStartSeconds": 1.139,
+      "sourceEndSeconds": 2.399,
+      "wordCount": 5
+    },
+    {
+      "part": 2,
+      "text": "Three towers.",
+      "startFrame": 88,
+      "endFrame": 114,
+      "sourceStartSeconds": 0.199,
+      "sourceEndSeconds": 0.839,
+      "wordCount": 2
+    },
+    {
+      "part": 2,
+      "text": "Genuinely different views, different prices,",
+      "startFrame": 115,
+      "endFrame": 177,
+      "sourceStartSeconds": 1.12,
+      "sourceEndSeconds": 3.059,
+      "wordCount": 5
+    },
+    {
+      "part": 2,
+      "text": "different reasons to go.",
+      "startFrame": 178,
+      "endFrame": 217,
+      "sourceStartSeconds": 3.199,
+      "sourceEndSeconds": 4.099,
+      "wordCount": 4
+    },
+    {
+      "part": 3,
+      "text": "N Seoul Tower is the romantic classic.",
+      "startFrame": 225,
+      "endFrame": 283,
+      "sourceStartSeconds": 0.179,
+      "sourceEndSeconds": 2.039,
+      "wordCount": 7
+    },
+    {
+      "part": 3,
+      "text": "Namsan mountain, love locks,",
+      "startFrame": 284,
+      "endFrame": 327,
+      "sourceStartSeconds": 2.159,
+      "sourceEndSeconds": 3.48,
+      "wordCount": 4
+    },
+    {
+      "part": 3,
+      "text": "open until eleven at night.",
+      "startFrame": 328,
+      "endFrame": 378,
+      "sourceStartSeconds": 3.619,
+      "sourceEndSeconds": 4.88,
+      "wordCount": 5
+    },
+    {
+      "part": 4,
+      "text": "Lotte World Tower is the giant.",
+      "startFrame": 389,
+      "endFrame": 437,
+      "sourceStartSeconds": 0.199,
+      "sourceEndSeconds": 1.639,
+      "wordCount": 6
+    },
+    {
+      "part": 4,
+      "text": "Five hundred fifty five meters,",
+      "startFrame": 438,
+      "endFrame": 478,
+      "sourceStartSeconds": 1.839,
+      "sourceEndSeconds": 3.079,
+      "wordCount": 5
+    },
+    {
+      "part": 4,
+      "text": "a glass floor,",
+      "startFrame": 479,
+      "endFrame": 500,
+      "sourceStartSeconds": 3.199,
+      "sourceEndSeconds": 3.819,
+      "wordCount": 3
+    },
+    {
+      "part": 4,
+      "text": "the tallest building in Korea.",
+      "startFrame": 501,
+      "endFrame": 549,
+      "sourceStartSeconds": 3.939,
+      "sourceEndSeconds": 5.139,
+      "wordCount": 5
+    },
+    {
+      "part": 5,
+      "text": "And 63 Building?",
+      "startFrame": 559,
+      "endFrame": 602,
+      "sourceStartSeconds": 0.199,
+      "sourceEndSeconds": 1.62,
+      "wordCount": 3
+    },
+    {
+      "part": 5,
+      "text": "Its rooftop was closed for sixteen years.",
+      "startFrame": 603,
+      "endFrame": 658,
+      "sourceStartSeconds": 1.679,
+      "sourceEndSeconds": 3.5,
+      "wordCount": 7
+    },
+    {
+      "part": 5,
+      "text": "It just reopened this year.",
+      "startFrame": 659,
+      "endFrame": 705,
+      "sourceStartSeconds": 3.559,
+      "sourceEndSeconds": 4.679,
+      "wordCount": 5
+    },
+    {
+      "part": 6,
+      "text": "Want romance?",
+      "startFrame": 717,
+      "endFrame": 738,
+      "sourceStartSeconds": 0.239,
+      "sourceEndSeconds": 0.879,
+      "wordCount": 2
+    },
+    {
+      "part": 6,
+      "text": "Go Namsan.",
+      "startFrame": 739,
+      "endFrame": 757,
+      "sourceStartSeconds": 0.979,
+      "sourceEndSeconds": 1.559,
+      "wordCount": 2
+    },
+    {
+      "part": 6,
+      "text": "Want height?",
+      "startFrame": 758,
+      "endFrame": 773,
+      "sourceStartSeconds": 1.62,
+      "sourceEndSeconds": 2.079,
+      "wordCount": 2
+    },
+    {
+      "part": 6,
+      "text": "Go Lotte.",
+      "startFrame": 774,
+      "endFrame": 788,
+      "sourceStartSeconds": 2.139,
+      "sourceEndSeconds": 2.599,
+      "wordCount": 2
+    },
+    {
+      "part": 6,
+      "text": "Want something brand new?",
+      "startFrame": 789,
+      "endFrame": 814,
+      "sourceStartSeconds": 2.659,
+      "sourceEndSeconds": 3.419,
+      "wordCount": 4
+    },
+    {
+      "part": 6,
+      "text": "Go 63 SkyPicnic.",
+      "startFrame": 815,
+      "endFrame": 868,
+      "sourceStartSeconds": 3.519,
+      "sourceEndSeconds": 4.899,
+      "wordCount": 3
+    },
+    {
+      "part": 7,
+      "text": "Save this before you pick.",
+      "startFrame": 876,
+      "endFrame": 920,
+      "sourceStartSeconds": 0.259,
+      "sourceEndSeconds": 1.299,
+      "wordCount": 5
+    }
+  ],
+  "coverage": {
+    "transcriptWords": 91,
+    "captionWords": 91,
+    "audioParts": 7
+  }
+}

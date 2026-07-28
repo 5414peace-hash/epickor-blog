@@ -1,0 +1,239 @@
+{
+  "slug": "326",
+  "version": "v02",
+  "fps": 30,
+  "generatedAt": "2026-07-28T03:01:00.149Z",
+  "method": "ElevenLabs Forced Alignment against the approved narration transcript",
+  "captionLeadFrames": 5,
+  "safeZone": {
+    "left": 76,
+    "right": 76,
+    "bottom": 410,
+    "maxWidth": 928
+  },
+  "parts": [
+    {
+      "part": 1,
+      "transcript": "Everyone's scared of this noodle.",
+      "alignmentLoss": 0.053927851445747146,
+      "wordCount": 5,
+      "beatCount": 1,
+      "firstWordStart": 0.219,
+      "lastWordEnd": 1.5
+    },
+    {
+      "part": 2,
+      "transcript": "Turns out, it's barely hotter than a jalapeno.",
+      "alignmentLoss": 0.1743371693984322,
+      "wordCount": 8,
+      "beatCount": 1,
+      "firstWordStart": 0.179,
+      "lastWordEnd": 2.079
+    },
+    {
+      "part": 3,
+      "transcript": "The original fire noodle rates about four thousand four hundred Scoville units. A jalapeno goes up to eight thousand.",
+      "alignmentLoss": 0.0569938991823767,
+      "wordCount": 19,
+      "beatCount": 3,
+      "firstWordStart": 0.159,
+      "lastWordEnd": 5.579
+    },
+    {
+      "part": 4,
+      "transcript": "The pepper Koreans actually reach for? Cheongyang chili. Five times a jalapeno, sliced straight into everyday dishes.",
+      "alignmentLoss": 0.1006238307708349,
+      "wordCount": 17,
+      "beatCount": 4,
+      "firstWordStart": 0.159,
+      "lastWordEnd": 5.42
+    },
+    {
+      "part": 5,
+      "transcript": "And that thick red paste that looks terrifying? Usually milder than Sriracha.",
+      "alignmentLoss": 0.1434547049658639,
+      "wordCount": 12,
+      "beatCount": 2,
+      "firstWordStart": 0.159,
+      "lastWordEnd": 3.779
+    },
+    {
+      "part": 6,
+      "transcript": "Next time, just say \"an-mapge\" — not spicy — before you order.",
+      "alignmentLoss": 0.6715227865403698,
+      "wordCount": 12,
+      "beatCount": 3,
+      "firstWordStart": 0.199,
+      "lastWordEnd": 3.24
+    },
+    {
+      "part": 7,
+      "transcript": "Stop fearing the noodle. Watch the little pepper on your side plate. Save this before your next Korean meal.",
+      "alignmentLoss": 0.044774417523984554,
+      "wordCount": 19,
+      "beatCount": 3,
+      "firstWordStart": 0.239,
+      "lastWordEnd": 4.779
+    }
+  ],
+  "beats": [
+    {
+      "part": 1,
+      "text": "Everyone's scared of this noodle.",
+      "startFrame": 1,
+      "endFrame": 52,
+      "sourceStartSeconds": 0.219,
+      "sourceEndSeconds": 1.5,
+      "wordCount": 5
+    },
+    {
+      "part": 2,
+      "text": "Turns out, it's barely hotter than a jalapeno.",
+      "startFrame": 61,
+      "endFrame": 130,
+      "sourceStartSeconds": 0.179,
+      "sourceEndSeconds": 2.079,
+      "wordCount": 8
+    },
+    {
+      "part": 3,
+      "text": "The original fire noodle rates about",
+      "startFrame": 140,
+      "endFrame": 192,
+      "sourceStartSeconds": 0.159,
+      "sourceEndSeconds": 1.879,
+      "wordCount": 6
+    },
+    {
+      "part": 3,
+      "text": "four thousand four hundred Scoville units.",
+      "startFrame": 193,
+      "endFrame": 249,
+      "sourceStartSeconds": 1.939,
+      "sourceEndSeconds": 3.779,
+      "wordCount": 6
+    },
+    {
+      "part": 3,
+      "text": "A jalapeno goes up to eight thousand.",
+      "startFrame": 250,
+      "endFrame": 314,
+      "sourceStartSeconds": 3.839,
+      "sourceEndSeconds": 5.579,
+      "wordCount": 7
+    },
+    {
+      "part": 4,
+      "text": "The pepper Koreans actually reach for?",
+      "startFrame": 324,
+      "endFrame": 370,
+      "sourceStartSeconds": 0.159,
+      "sourceEndSeconds": 1.62,
+      "wordCount": 6
+    },
+    {
+      "part": 4,
+      "text": "Cheongyang chili.",
+      "startFrame": 371,
+      "endFrame": 401,
+      "sourceStartSeconds": 1.759,
+      "sourceEndSeconds": 2.48,
+      "wordCount": 2
+    },
+    {
+      "part": 4,
+      "text": "Five times a jalapeno,",
+      "startFrame": 402,
+      "endFrame": 436,
+      "sourceStartSeconds": 2.779,
+      "sourceEndSeconds": 3.819,
+      "wordCount": 4
+    },
+    {
+      "part": 4,
+      "text": "sliced straight into everyday dishes.",
+      "startFrame": 437,
+      "endFrame": 494,
+      "sourceStartSeconds": 3.959,
+      "sourceEndSeconds": 5.42,
+      "wordCount": 5
+    },
+    {
+      "part": 5,
+      "text": "And that thick red paste that looks terrifying?",
+      "startFrame": 504,
+      "endFrame": 571,
+      "sourceStartSeconds": 0.159,
+      "sourceEndSeconds": 2.24,
+      "wordCount": 8
+    },
+    {
+      "part": 5,
+      "text": "Usually milder than Sriracha.",
+      "startFrame": 572,
+      "endFrame": 624,
+      "sourceStartSeconds": 2.44,
+      "sourceEndSeconds": 3.779,
+      "wordCount": 4
+    },
+    {
+      "part": 6,
+      "text": "Next time, just say \"an-mapge\" —",
+      "startFrame": 636,
+      "endFrame": 684,
+      "sourceStartSeconds": 0.199,
+      "sourceEndSeconds": 1.82,
+      "wordCount": 6
+    },
+    {
+      "part": 6,
+      "text": "not spicy —",
+      "startFrame": 685,
+      "endFrame": 708,
+      "sourceStartSeconds": 1.839,
+      "sourceEndSeconds": 2.62,
+      "wordCount": 3
+    },
+    {
+      "part": 6,
+      "text": "before you order.",
+      "startFrame": 709,
+      "endFrame": 739,
+      "sourceStartSeconds": 2.639,
+      "sourceEndSeconds": 3.24,
+      "wordCount": 3
+    },
+    {
+      "part": 7,
+      "text": "Stop fearing the noodle.",
+      "startFrame": 750,
+      "endFrame": 779,
+      "sourceStartSeconds": 0.239,
+      "sourceEndSeconds": 1.159,
+      "wordCount": 4
+    },
+    {
+      "part": 7,
+      "text": "Watch the little pepper on your side plate.",
+      "startFrame": 780,
+      "endFrame": 834,
+      "sourceStartSeconds": 1.259,
+      "sourceEndSeconds": 3.039,
+      "wordCount": 8
+    },
+    {
+      "part": 7,
+      "text": "Save this before your next Korean meal.",
+      "startFrame": 835,
+      "endFrame": 898,
+      "sourceStartSeconds": 3.079,
+      "sourceEndSeconds": 4.779,
+      "wordCount": 7
+    }
+  ],
+  "coverage": {
+    "transcriptWords": 92,
+    "captionWords": 92,
+    "audioParts": 7
+  }
+}
