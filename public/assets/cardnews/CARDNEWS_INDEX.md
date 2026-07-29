@@ -49,12 +49,12 @@ Instagram upload is representative-managed. As of 2026-07-02, the representative
 | `2026-06-28_247` | 247 | Korean Pet Parent Culture 2026 | 7 | final reviewed | scheduled by representative |
 | `2026-06-28_248` | 248 | Seoul Running Crew Culture 2026 | 7 | final reviewed | scheduled by representative |
 | `2026-06-28_249` | 249 | Korean Dating Rules 2026 | 7 | final reviewed | scheduled by representative |
-| `2026-07-08_257` | 257 | Incheon Airport Layover Guide 2026 | 7 | final approved + caption ready | ready for representative scheduling |
-| `2026-07-08_258` | 258 | Noryangjin Fish Market Guide 2026 | 7 | final approved + caption ready | ready for representative scheduling |
-| `2026-07-08_259` | 259 | Korean Bingsu Guide 2026 | 7 | final approved + caption ready | ready for representative scheduling |
-| `2026-07-08_277` | 277 | Korean Pantry Starter Kit 2026 | 7 | final approved + caption ready | ready for representative scheduling |
-| `2026-07-08_278` | 278 | Korean Instant Coffee Mix Guide 2026 | 7 | final approved + caption ready | ready for representative scheduling |
-| `2026-07-08_279` | 279 | Korean Seaweed Snack Guide 2026 | 7 | final approved + caption ready | ready for representative scheduling |
+| `2026-07-08_257` | 257 | Incheon Airport Layover Guide 2026 | 7 | final approved + caption ready | scheduled 2026-08-04 05:00 KST (Meta Suite, planner-verified 07-29) |
+| `2026-07-08_258` | 258 | Noryangjin Fish Market Guide 2026 | 7 | final approved + caption ready | scheduled 2026-08-05 05:00 KST (Meta Suite, planner-verified 07-29) |
+| `2026-07-08_259` | 259 | Korean Bingsu Guide 2026 | 7 | final approved + caption ready | scheduled 2026-08-06 05:00 KST (Meta Suite, planner-verified 07-29) |
+| `2026-07-08_277` | 277 | Korean Pantry Starter Kit 2026 | 7 | final approved + caption ready | scheduled 2026-08-07 05:00 KST (Meta Suite, planner-verified 07-29) |
+| `2026-07-08_278` | 278 | Korean Instant Coffee Mix Guide 2026 | 7 | final approved + caption ready | scheduled 2026-08-08 05:00 KST (Meta Suite, planner-verified 07-29) |
+| `2026-07-08_279` | 279 | Korean Seaweed Snack Guide 2026 | 7 | final approved + caption ready | scheduled 2026-08-09 05:00 KST (Meta Suite, planner-verified 07-29) |
 | `2026-07-11_081` | 081 | Why Korean Baseball Feels Like a Three-Hour Concert | 7 | final confirmed + Seoul After Dark 7-card restyle + caption ready | ready for representative scheduling |
 | `2026-07-11_288` | 288 | Korean Pojangmacha First-Visit Guide | 7 | final confirmed + Seoul After Dark 7-card restyle + caption ready | ready for representative scheduling |
 | `2026-07-11_290` | 290 | Seoul Four-Palace Night Comparison | 7 | final confirmed + Seoul After Dark 7-card restyle + caption ready | ready for representative scheduling |

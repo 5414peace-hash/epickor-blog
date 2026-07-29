@@ -244,6 +244,36 @@
 - **2026-07-27 — 요일 고정(카드뉴스 화수목/릴스 금토일) 규칙 폐기** — 연속 일자 예약으로 전환.
   다음 측정 의무: 220/175/174 발행 후 1h/24h/7d 지표를 `output/reels/metrics.json`에 기록.
 
+- **2026-07-29 — Card news (multi-image carousel) scheduling uses a DIFFERENT Meta Suite composer
+  than Reels: "게시물 만들기" (`/latest/composer/`), not "릴스 만들기".** Key mechanics, distinct from
+  the Reels flow already documented above:
+  (a) Upload via the SAME `expect_file_chooser` + `set_files([...7 paths in order])` pattern —
+  order is preserved faithfully; verified by reading the uploaded thumbnails' visible headline
+  text in sequence, not just trusting the array order.
+  (b) The caption `contenteditable` is `.nth(1)`, not `.nth(0)` (index 0 exists but has no
+  bounding box / isn't rendered).
+  (c) The schedule toggle is a text link "날짜 및 시간 설정" (not a segmented control like Reels) —
+  clicking it reveals separate Facebook and Instagram date/time rows, each with 4 inputs
+  (date, AM/PM, hour, minute) — same index pattern as Reels (date, ampm, hour, minute × 2 rows).
+  (d) **The AM/PM + minute + hour interaction is fragile: adjusting minutes past a wrap boundary
+  changes the hour, and the starting minute value is whatever the real current minute happened to
+  be when the composer loaded (NOT always :59) — never assume a fixed delta.** Reliable pattern:
+  click the minute input, read its current value via
+  `el.evaluate("e => e.parentElement.innerText")` (returns a plain "NN" string), then press
+  ArrowDown exactly that many times to reach :00, THEN re-read the hour the same way and correct
+  any carry with additional Arrow presses — don't guess the press count.
+  (e) **A hashtag string can silently truncate mid-list** (e.g. typed 8 hashtags, only 1 landed) —
+  the hashtag autocomplete dropdown appears to swallow subsequent keystrokes/Shift+Enter
+  sometimes. Fix: after typing each hashtag, press `Escape` before typing the next one. Always
+  verify the final caption length/content via `editable.inner_text()` before scheduling, don't
+  trust the typing loop silently.
+  (f) After a successful "예약" submit, a **paid-promotion upsell modal** ("홍보를 통해 더 많은
+  사람에게 도달해보세요") appears on top of the "게시물이 예약되었습니다" confirmation — click
+  "나중에 하기" to decline; the confirmation card behind it already shows the correct scheduled
+  date/time as final proof of success (don't click "홍보하기", that spends real money).
+  (g) This composer's post-submit outcome was reliably a clean confirmation dialog every time
+  (6/6), unlike the Reels composer's "게시 일정 예약 중" spinner-hang quirk — no cache-purge or
+  extended waiting was needed for card news.
 - **2026-07-26 — Instagram uploads are representative-managed (~1/day) and leave no repo trace.**
   An empty scheduling record is NOT evidence of an upload stall. Meta Suite's list also does not
   show posts made from the mobile app.
