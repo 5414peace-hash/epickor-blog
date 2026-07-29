@@ -639,6 +639,16 @@
       "category": "Beauty",
       "image": "",
       "tags": ["Sun Stick", "ROUND LAB", "Korean Sunscreen"]
+    },
+    {
+      "id": "korean-art-book-search",
+      "name": "Browse Korean Art and Design Books",
+      "description": "A starting point for comparing books on Korean modern and contemporary painters, museum catalogs, and Korean design history.",
+      "price": "",
+      "url": "https://www.amazon.com/s?k=korean+art+book&tag=epickor-20",
+      "category": "Books",
+      "image": "",
+      "tags": ["Korean Art", "Korean Painters", "Art Book", "MMCA"]
     }
   ]
 }
