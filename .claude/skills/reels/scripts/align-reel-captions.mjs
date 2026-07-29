@@ -96,9 +96,16 @@ function groupWords(words, segment, fps) {
         sized[i + 1].unshift(sized[i].pop());
       }
     }
-    // 4) a card must not START with a stranded object pronoun — pull it back
+    // 4) a card must not START with a stranded object pronoun — but only when
+    // the previous card ended mid-clause. If it ended on punctuation, a leading
+    // pronoun is the SUBJECT of a new clause ("...morning, | you eat way too
+    // much") and must stay where it is.
     for (let i = 1; i < sized.length; i += 1) {
-      while (sized[i].length > 1 && /^(you|it|me|them|him|her|us)[,.]?$/i.test(sized[i][0].text.trim())) {
+      while (
+        sized[i].length > 1 &&
+        !hasPunct(sized[i - 1].at(-1).text) &&
+        /^(you|it|me|them|him|her|us)[,.]?$/i.test(sized[i][0].text.trim())
+      ) {
         sized[i - 1].push(sized[i].shift());
       }
     }

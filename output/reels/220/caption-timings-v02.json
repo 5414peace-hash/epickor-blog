@@ -2,7 +2,7 @@
   "slug": "220",
   "version": "v02",
   "fps": 30,
-  "generatedAt": "2026-07-27T03:31:53.327Z",
+  "generatedAt": "2026-07-27T04:52:36.839Z",
   "method": "ElevenLabs Forced Alignment against the approved narration transcript",
   "captionLeadFrames": 5,
   "safeZone": {
@@ -17,7 +17,7 @@
       "transcript": "Okay so — that smell. About ten seconds after you come up the stairs in Seoul, it hits you, and you're gonna stop walking. Somebody's pressing golden pancakes flat on a hot griddle, right on the sidewalk, and they're like a dollar fifty.",
       "alignmentLoss": 0.08099294111195496,
       "wordCount": 43,
-      "beatCount": 7,
+      "beatCount": 8,
       "firstWordStart": 0.079,
       "lastWordEnd": 12.799
     },
@@ -61,12 +61,21 @@
     },
     {
       "part": 1,
-      "text": "after you come up the stairs in Seoul, it hits you,",
+      "text": "after you come up the stairs in Seoul,",
       "startFrame": 83,
-      "endFrame": 161,
+      "endFrame": 129,
       "sourceStartSeconds": 2.679,
+      "sourceEndSeconds": 4.179,
+      "wordCount": 8
+    },
+    {
+      "part": 1,
+      "text": "it hits you,",
+      "startFrame": 130,
+      "endFrame": 161,
+      "sourceStartSeconds": 4.239,
       "sourceEndSeconds": 4.779,
-      "wordCount": 11
+      "wordCount": 3
     },
     {
       "part": 1,
