@@ -146,6 +146,24 @@
   both boxes use different products/angles and carry the full `target`/`rel` attributes** — do
   not trust the script's auto-insertion blindly. A draft that already writes 2 well-formed CTA
   boxes itself is unaffected (confirmed clean on 330).
+  - **Correction/nuance, same day, confirmed on 334/336:** the bare `<a href>` from the auto-insert
+    is not actually a live compliance gap. `lib/markdown-enhancer.ts` (~line 280) post-processes
+    **every** `<a>` tag site-wide at render time and force-injects `target="_blank"` plus the full
+    `rel` list (Amazon hrefs get `nofollow sponsored noopener noreferrer`; other external hrefs get
+    `noopener noreferrer`), regardless of what the source markdown/HTML had. Verified by curling
+    the live rendered `/blog/336` page and finding the auto-inserted link fully attributed. The
+    **duplicate-product** half of the bug is still real and still needs a manual check — the
+    attribute half is not.
+- **2026-07-29 — `content/business/*.md` posts have no private-preview route.** `app/preview/[slug]`
+  only reads `content/blog/`; there is no business equivalent, and the business page
+  (`app/business/[slug]/page.tsx`) uses `dynamicParams = false`, so a slug missing from
+  `generateStaticParams()` 404s even if you flip `visibility` in the file — the dev server must be
+  **restarted** to recompute static params before a brand-new business slug becomes reachable at
+  all, even locally. This matches why every existing B-2 spotlight in the repo was committed
+  straight to `visibility: "public"` with no draft stage: there is no tooling for anything else.
+  Practical flow: write the file with `visibility: "public"` directly, restart the local dev
+  server once, curl the `/business/{slug}` route to confirm 200 + images, then commit/push for
+  real — there is no separate "approve" step to run afterward.
 - **2026-07-29 — Production can serve a stale cached page for several minutes after a fresh
   deploy goes Ready, even across multiple back-to-back deployments.** Blog pages use
   `export const revalidate = 86400` (`app/blog/[slug]/page.tsx`); the edge cache (`X-Vercel-Cache:
@@ -158,6 +176,14 @@
   deployments; Vercel auto-cancels the superseded ones and only the deployment for the latest
   commit goes Ready.** Don't assume a `Queued`/`Canceled` deployment means something failed —
   check the newest deployment's status specifically.
+
+- **2026-07-29 — `publish-post.mjs`'s `markTopicDone()` only writes `topics-queue.json` to the
+  local filesystem; it never commits/pushes it (only `content/blog/{slug}.md` goes through the
+  GitHub API commit).** The console log `topics-queue.json 업데이트: ID N → done` is easy to
+  misread as "pushed" — it is not. Same for its `updateHandoff()` write to root `HANDOFF.md`.
+  After any batch of `--approve` runs, both files must be included in a normal manual
+  `git add`/`commit`/`push` alongside the image folders (see the broken-images fact above), or the
+  "done" status and handoff notes only exist on the machine that ran the pipeline.
 
 ## deploy
 
