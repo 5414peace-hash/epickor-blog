@@ -3204,8 +3204,10 @@
         "Workplace"
       ],
       "amazon_category": "Books",
-      "status": "pending",
-      "note": "Added 2026-07-26. Zero coverage (0 grep hits across 289 posts). Sits in the site/s best-performing lane — the untranslatable Korean social concept (ahjussi 090, nunchi 035, SKY 082, jeong 319, lookism 318). Same structural pattern that just worked for 319."
+      "status": "done",
+      "note": "Added 2026-07-26. Zero coverage (0 grep hits across 289 posts). Sits in the site/s best-performing lane — the untranslatable Korean social concept (ahjussi 090, nunchi 035, SKY 082, jeong 319, lookism 318). Same structural pattern that just worked for 319.",
+      "generated_slug": "330",
+      "generated_date": "2026-07-29"
     },
     {
       "id": 146,
@@ -3442,9 +3444,10 @@
         "Auction"
       ],
       "amazon_category": "Books",
-      "status": "pending",
+      "status": "done",
       "note": "Added 2026-07-27 per representative's direct instruction to cover Korean painters/art even where copyright applies to individual works. Genuinely uncovered - existing posts (195 Centre Pompidou Hanwha Seoul, 300 MMCA gift shop, 152 Hangeul design) are adjacent (venues/shopping) but none profile the painters or the art market itself. Real business hook: Korean contemporary art auction records (Kim Whanki, Lee Ufan, Park Soo-keun) have risen sharply at Seoul/Hong Kong auctions - genuine reader curiosity plus travel tie-in (which museums to visit to see the actual work). Monetization via Korean art book / print search links (no dedicated product in catalog yet).",
-      "generated_date": "2026-07-27"
+      "generated_date": "2026-07-29",
+      "generated_slug": "331"
     },
     {
       "id": 157,
@@ -3464,9 +3467,10 @@
         "PopCulture"
       ],
       "amazon_category": "Music",
-      "status": "pending",
+      "status": "done",
       "note": "Added 2026-07-27. Distinct from 003 (noraebang/karaoke etiquette general guide) and 051 (celebrity power ranking) - neither covers trot as a genre or its Mr Trot/Miss Trot survival-show-driven generational revival. Real cultural story with existing internal-link targets (003 noraebang, 061 concert culture). Monetization already available: catalog already has portable karaoke microphone products (017, 018, portable-karaoke-search) under the Music category, a direct fit.",
-      "generated_date": "2026-07-27"
+      "generated_date": "2026-07-29",
+      "generated_slug": "332"
     },
     {
       "id": 158,
@@ -3777,6 +3781,6 @@
       "generated_slug": "329"
     }
   ],
-  "last_updated": "2026-07-28",
+  "last_updated": "2026-07-29",
   "next_slug": 325
 }

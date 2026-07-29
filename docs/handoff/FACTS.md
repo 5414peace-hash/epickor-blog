@@ -128,6 +128,37 @@
   `/blog/090` all serve `G-HH7PM78V3E`. No coverage gap; the tracking code in
   `AnalyticsEvents.tsx` correctly matches amazon.com, its subdomains, `amzn.to`, and `tag=`.
 
+## publishing
+
+- **2026-07-29 — `run-pipeline.mjs --approve` / `publish-post.mjs` commits `content/blog/{slug}.md`
+  via GitHub API but does NOT push image assets under `public/assets/images/`.** Publishing
+  Blogs 330/331/332 this way put all three live with broken images (verified: text returned
+  HTTP 200, every image URL returned 404) until the image folders were committed and pushed via
+  a normal `git push` afterward. **Always verify every image URL on the live post with `curl`
+  after `--approve`, not just the post URL itself** — a 200 on `/blog/{slug}` proves nothing
+  about its images.
+- **2026-07-29 — `.claude/skills/marketing/scripts/insert-links.mjs` has a real bug: when a draft
+  already has exactly 1 CTA box, it auto-inserts a "needed" 2nd box that can (a) duplicate the
+  exact same product as the existing manual CTA, and (b) omit the required
+  `target="_blank" rel="nofollow sponsored noopener noreferrer"` attributes entirely (bare
+  `<a href>`).** Happened identically on both 331 and 332 in the same session. **After every
+  `--approve`, grep `output/final/{slug}_final.md` for `affiliate-inline-cta` and manually check
+  both boxes use different products/angles and carry the full `target`/`rel` attributes** — do
+  not trust the script's auto-insertion blindly. A draft that already writes 2 well-formed CTA
+  boxes itself is unaffected (confirmed clean on 330).
+- **2026-07-29 — Production can serve a stale cached page for several minutes after a fresh
+  deploy goes Ready, even across multiple back-to-back deployments.** Blog pages use
+  `export const revalidate = 86400` (`app/blog/[slug]/page.tsx`); the edge cache (`X-Vercel-Cache:
+  HIT`) kept serving an old CTA-duplicate version of `/blog/332` through at least 2 subsequent
+  "Ready" deployments. **Fix: `npx vercel cache purge --yes`** — confirmed safe (CDN+data cache
+  only, not a redeploy) and immediately resolved it (`X-Vercel-Cache: PRERENDER` + correct
+  content right after). This is unrelated to the documented `vercel deploy --archive=tgz` risk —
+  `cache purge` does not touch deployments at all.
+- **2026-07-29 — Rapid sequential `--approve` calls (5 in ~10 min) queued 5 separate Vercel
+  deployments; Vercel auto-cancels the superseded ones and only the deployment for the latest
+  commit goes Ready.** Don't assume a `Queued`/`Canceled` deployment means something failed —
+  check the newest deployment's status specifically.
+
 ## deploy
 
 - **2026-07-26 — `git push` alone deploys. Never run `vercel deploy` manually.** The CLI archive
