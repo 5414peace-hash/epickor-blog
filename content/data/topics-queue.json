@@ -3779,6 +3779,93 @@
       "generated_date": "2026-07-27",
       "series": "bts-history-3part",
       "generated_slug": "329"
+    },
+    {
+      "id": 172,
+      "title": "Jindo Dog: Korea's National Treasure Breed",
+      "keywords": [
+        "jindo dog",
+        "korean dog breed",
+        "jindo temperament",
+        "national treasure dog korea"
+      ],
+      "category": "Pets",
+      "tags": [
+        "KoreanPets",
+        "JindoDog",
+        "KoreanCulture",
+        "DogBreed"
+      ],
+      "amazon_category": "Books",
+      "status": "done",
+      "generated_slug": "333",
+      "note": "New 2026-07-29, duplicate-audited: zero hits for jindo across all posts. Only existing Pets post (091) is urban pet-owning lifestyle, not breed heritage.",
+      "generated_date": "2026-07-29"
+    },
+    {
+      "id": 173,
+      "title": "Korea's Pet Funeral Industry: How Koreans Say Goodbye to Their Pets",
+      "keywords": [
+        "korea pet funeral",
+        "pet cemetery korea",
+        "pet cremation korea"
+      ],
+      "category": "Pets",
+      "tags": [
+        "KoreanPets",
+        "PetFuneral",
+        "KoreanCulture",
+        "ModernKorea"
+      ],
+      "amazon_category": "Books",
+      "status": "done",
+      "generated_slug": "334",
+      "note": "New 2026-07-29, duplicate-audited: zero hits for pet funeral/cemetery across all posts.",
+      "generated_date": "2026-07-29"
+    },
+    {
+      "id": 174,
+      "title": "Korean Convenience Store Ice Cream, Ranked",
+      "keywords": [
+        "korean convenience store ice cream",
+        "melona",
+        "korean ice cream brands",
+        "guava bar korea"
+      ],
+      "category": "Food",
+      "tags": [
+        "KoreanFood",
+        "KoreanIceCream",
+        "ConvenienceStore",
+        "KFood"
+      ],
+      "amazon_category": "Food",
+      "status": "done",
+      "generated_slug": "335",
+      "note": "New 2026-07-29, duplicate-audited: zero hits for melona/korean ice cream across all posts. Same specific-item pattern as deli manjoo/corn dog successes.",
+      "generated_date": "2026-07-29"
+    },
+    {
+      "id": 175,
+      "title": "Samgak Kimbap (Triangle Kimbap): The Engineering Behind Korea's Favorite Snack",
+      "keywords": [
+        "samgak kimbap",
+        "triangle kimbap",
+        "korean convenience store kimbap",
+        "how to open samgak kimbap"
+      ],
+      "category": "Food",
+      "tags": [
+        "KoreanFood",
+        "Kimbap",
+        "ConvenienceStore",
+        "KFood"
+      ],
+      "amazon_category": "Food",
+      "status": "done",
+      "generated_slug": "336",
+      "note": "New 2026-07-29, duplicate-audited: dedicated triangle-kimbap deep dive does not exist; only passing mentions inside broader food roundups (158, 178, 196, 267, 302).",
+      "generated_date": "2026-07-29"
     }
   ],
   "last_updated": "2026-07-29",

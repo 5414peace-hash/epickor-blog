@@ -649,6 +649,26 @@
       "category": "Books",
       "image": "",
       "tags": ["Korean Art", "Korean Painters", "Art Book", "MMCA"]
+    },
+    {
+      "id": "dog-breed-book-search",
+      "name": "Browse Dog Breed and Training Books",
+      "description": "A comparison page for dog breed guides and training books, useful for readers researching an independent-minded breed like the Jindo before adopting.",
+      "price": "",
+      "url": "https://www.amazon.com/s?k=dog+breed+training+book&tag=epickor-20",
+      "category": "Books",
+      "image": "",
+      "tags": ["Dog Breed Book", "Dog Training", "Pet Books"]
+    },
+    {
+      "id": "pet-memorial-search",
+      "name": "Browse Pet Memorial and Keepsake Items",
+      "description": "A comparison page for pet memorial frames, keepsake urns, and paw-print kits for readers processing pet loss.",
+      "price": "",
+      "url": "https://www.amazon.com/s?k=pet+memorial+keepsake&tag=epickor-20",
+      "category": "Books",
+      "image": "",
+      "tags": ["Pet Memorial", "Pet Loss", "Keepsake"]
     }
   ]
 }
