@@ -3866,8 +3866,74 @@
       "generated_slug": "336",
       "note": "New 2026-07-29, duplicate-audited: dedicated triangle-kimbap deep dive does not exist; only passing mentions inside broader food roundups (158, 178, 196, 267, 302).",
       "generated_date": "2026-07-29"
+    },
+    {
+      "id": 176,
+      "title": "Korean Reality Dating Shows Compared: Single's Inferno vs. I Am Solo vs. Heart Signal",
+      "keywords": [
+        "korean dating shows",
+        "single's inferno",
+        "i am solo",
+        "heart signal",
+        "transit love"
+      ],
+      "category": "Entertainment",
+      "tags": [
+        "KoreanDatingShows",
+        "SinglesInferno",
+        "KDrama",
+        "KoreanCulture"
+      ],
+      "amazon_category": "Culture",
+      "status": "done",
+      "generated_slug": "337",
+      "note": "Approved 2026-07-29 as topic 5 of 8, deferred to 2026-07-30. Duplicate-audited: zero hits for dating show/single's inferno/transit love across all posts.",
+      "generated_date": "2026-07-30"
+    },
+    {
+      "id": 177,
+      "title": "Virtual K-pop Idols Compared: Which Groups Are Real People and Which Are AI",
+      "keywords": [
+        "virtual kpop idol",
+        "plave",
+        "mave virtual group",
+        "ai idol korea"
+      ],
+      "category": "Entertainment",
+      "tags": [
+        "VirtualIdol",
+        "PLAVE",
+        "KpopTech",
+        "KoreanCulture"
+      ],
+      "amazon_category": "Culture",
+      "status": "done",
+      "generated_slug": "338",
+      "note": "Approved 2026-07-29 as topic 6 of 8, deferred to 2026-07-30. Duplicate-audited: zero hits for virtual idol/PLAVE/AI idol across all posts.",
+      "generated_date": "2026-07-30"
+    },
+    {
+      "id": 178,
+      "title": "Squid Game Filming Locations: The Real Seoul Spots You Can Actually Visit",
+      "keywords": [
+        "squid game filming locations",
+        "squid game korea tour",
+        "where was squid game filmed"
+      ],
+      "category": "Travel Phenomena",
+      "tags": [
+        "SquidGame",
+        "SeoulTravel",
+        "FilmingLocations",
+        "KoreaTravel"
+      ],
+      "amazon_category": "Culture",
+      "status": "done",
+      "generated_slug": "339",
+      "note": "Approved 2026-07-29 as topic 7 of 8, deferred to 2026-07-30. Duplicate-audited: existing Squid Game mentions (042, 070, 168) are passing references/recommendations, not filming-location coverage - genuinely new angle.",
+      "generated_date": "2026-07-30"
     }
   ],
   "last_updated": "2026-07-29",
-  "next_slug": 325
+  "next_slug": "340"
 }
