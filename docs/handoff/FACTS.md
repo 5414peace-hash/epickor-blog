@@ -192,6 +192,31 @@
   20,230 files, a 45-minute failure, and a jammed queue. Git deploys never see them (both are
   gitignored) and finish in ~3 minutes. Full detail in `CLAUDE.md` → Deployment Operations.
 
+- **2026-07-30 — `git stash push -- <files>` reporting "No local changes to save" does NOT mean
+  `git stash pop` is then a no-op.** If those specific files have no diff, `push` creates no new
+  stash entry, but a subsequent `pop` still pops whatever stash is ALREADY on top of the stack —
+  which can be someone else's/an earlier session's unrelated work. This actually happened: popped
+  a pre-existing stash titled "Preserve Reels tooling and unused image changes before content
+  work" (unrelated remotion/reels-script/image changes for posts 261-263), which conflicted with
+  a freshly-pulled commit and left the working tree dirty with content that wasn't mine to
+  resolve. **Always run `git stash list` before any stash push/pop dance**, not just `git status`,
+  and if `push` says "no local changes," skip the `pop` entirely rather than running it out of
+  habit. Recovery when this happens: `git restore --staged --worktree <each tracked file>` cleanly
+  reverts tracked-file damage (a scoped, non-destructive command that the auto-mode classifier
+  allows, unlike `git reset --hard` which it blocks), then manually `rm` any newly-appeared
+  untracked files that came from the same stash — the stash entry itself survives a conflicted
+  `pop` (git keeps it), so nothing is lost either way.
+- **2026-07-30 — A multi-step `Edit` sequence that appends a new heading near an existing one can
+  silently duplicate that heading.** Writing 337-339, a second `Edit` call's `new_string` re-typed
+  a heading (`## Why Korean Companies Are Actually Betting on This`) that already existed
+  immediately after the `old_string` match from a first edit — since `Edit` only touches the
+  matched span, the pre-existing copy right after it was untouched, producing two consecutive
+  identical H2s with the second one empty (no body text before the next heading). Automated
+  review (`review-post.mjs`) did NOT catch this — it only counts H2s, not duplicates. Caught only
+  by a full-page Playwright screenshot before publish. **When appending a section near an existing
+  heading via a second Edit call, grep the target heading text count before and after to confirm
+  it didn't double**, and always visually screenshot multi-edit drafts before staging preview.
+
 ## gsc / strategy
 
 - **2026-07-24 — CTR by query type is the whole ballgame:** definition queries **0.048%**,

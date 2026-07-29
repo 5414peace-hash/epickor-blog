@@ -31,3 +31,13 @@
 - **Representative approved topics 1-4 + Coupang for same-day production; topics 5-7 (Reality Dating Shows, Virtual K-pop Idols, Squid Game Filming Locations) explicitly deferred to the next session ("킵해놔").** Topic 8 (Sleep Cafes) was not explicitly approved.
 - **Blogs `333`(Jindo Dog)/`334`(Pet Funeral Industry)/`335`(Convenience Store Ice Cream)/`336`(Samgak Kimbap) + Business `coupang-company-deep-dive` researched, written, reviewed (90/100 each), previewed, published, and live-verified** (see the newer Current Snapshot for full detail, including two newly-discovered facts: `markTopicDone()`/`updateHandoff()` are local-file-only and never pushed by the GitHub API commit, and business posts have no private-preview route at all — see `docs/handoff/FACTS.md`).
 - `next_slug` was `333`, now `337`.
+
+---
+
+## Rolled snapshot (superseded 2026-07-30 — topics 5-7 batch published)
+
+- 6 card news carousels scheduled (257/258/259/277/278/279, 2026-08-04 through 08-09 05:00 KST), continuing the Reels 320/321/326 sequence with no gap.
+- Published 4 new blog posts + 1 business deep-dive from the 2026-07-29 approved 8-topic list: Blog `333` (Jindo Dog), `334` (Pet Funeral Industry), `335` (Convenience Store Ice Cream), `336` (Samgak Kimbap), and business spotlight `coupang-company-deep-dive`. Topics 5-7 (Reality Dating Shows, Virtual K-pop Idols, Squid Game Filming Locations) were explicitly deferred to the next session; topic 8 (Sleep Cafes) was not approved.
+- Two new pipeline facts recorded: `publish-post.mjs`'s `markTopicDone()`/`updateHandoff()` are local-file-only, never pushed via the GitHub API commit; business posts have no private-preview route and need a dev-server restart to reach a new slug locally.
+- Caught and reverted an accidental full-site image-optimize run (117 unrelated files) before committing.
+- All 5 pieces live-verified. `next_slug` was `337`.
