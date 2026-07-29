@@ -64,6 +64,10 @@ debug.log
 /package-lock.json
 /public/assets/reels/
 
+# Raw BGM/audio source library (65MB+ of mp3s, licence/origin not yet confirmed
+# with the representative) - keep local-only, same reasoning as public/assets/reels/.
+/input/
+
 # Meta Business Suite local automation artifacts
 /tools/meta-suite-helper/browser-profile/
 /tools/meta-suite-helper/runs/

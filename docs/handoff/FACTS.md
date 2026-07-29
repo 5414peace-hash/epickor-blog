@@ -216,3 +216,34 @@
 - **2026-07-26 — Instagram uploads are representative-managed (~1/day) and leave no repo trace.**
   An empty scheduling record is NOT evidence of an upload stall. Meta Suite's list also does not
   show posts made from the mobile app.
+- **2026-07-29 — Reels 326/321/320 scheduled via Meta Suite, planner-verified: six entries at
+  5:00 KST** — 8/1 토 (326, spice levels), 8/2 일 (321, chicken brands), 8/3 월 (320, tower
+  comparison), each FB(EpicKor)+IG(epickorsnippets). Continues the no-fixed-weekday consecutive-day
+  pattern directly after the prior batch's 7/31 landing.
+- **2026-07-29 — Exact >50MB attach-mode error confirmed: `"Cannot transfer files larger than 50Mb
+  to a browser not co-located with the server"`.** A 48.5MB file (321) succeeded via CDP-attach
+  `set_files` despite the client-side call itself timing out at 30s (the upload lands anyway —
+  don't trust the Playwright promise, screenshot the actual composer state). A 64.4MB file (320)
+  was hard-rejected immediately with the exact error above, no timeout involved. **Fix for >50MB:
+  cleanly kill the existing owning Chrome+Python process tree (`taskkill /PID {chrome_pid} /T /F`)
+  and relaunch a fresh `launch_persistent_context` against the SAME profile dir + same
+  `--remote-debugging-port` — login/session cookies persist because the profile directory itself
+  survives on disk, no re-login needed.** Recipe lives in `scratchpad/reel326_upload.py` /
+  `reel320_upload.py` (this session, PROFILE_DIR = `scratchpad/meta-profile`, port 9222).
+- **2026-07-29 — The AM/PM time segment (오전/오후) frequently needs TWO tries.** Click + one
+  `ArrowDown` press often leaves the label unchanged (silently ignored, no error) while hour/minute
+  segments set correctly on the first attempt every time. **Always screenshot and check the label
+  after setting AM/PM; if still wrong, click the segment again and press `ArrowDown` a second
+  time** — this reliably fixes it. Happened on both new schedules this session (321 and 320), each
+  time on both the Facebook and Instagram row.
+- **2026-07-29 — The "게시 일정 예약 중" spinner hanging past 5 minutes is confirmed harmless,
+  three-for-three this session (326, 321, 320).** In every case the schedule had already landed
+  server-side; the spinner is a pure UI display bug. **Do not treat a stuck spinner as failure —
+  verify via the 콘텐츠 → 예약됨 planner tab instead of waiting for the spinner to resolve.**
+- **2026-07-29 — This machine runs Mouse Without Borders (input-sharing across multiple physical
+  PCs).** Confirmed via `GetForegroundWindow` unexpectedly resolving to `MouseWithoutBordersHelper`
+  after a synthetic `SetCursorPos`+`mouse_event` call intended for the automated Chrome window
+  landed on VS Code instead. **Do not drive this browser via raw OS-level mouse/keyboard simulation
+  (PowerShell `user32.dll` calls) — synthetic input can be captured by this hook and misdirected to
+  a different window or, potentially, a different physical machine. Stay inside Playwright/CDP,
+  scoped to the Chrome process, for all browser automation on this machine.**
