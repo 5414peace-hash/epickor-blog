@@ -219,6 +219,119 @@
 
 ## gsc / strategy
 
+- **2026-07-31 — Keyword-selection playbook written: `docs/keyword-selection-playbook.md`.**
+  Repeatable weekly process, free tools only. Read that file before doing any keyword research;
+  it records which tools are alive, which are dead, and the accept/reject rules. The rows below
+  are the tool-behavior facts verified while building it — do not re-test these.
+- **2026-07-31 — Autocomplete endpoints are ALL live, unauthenticated, and un-throttled at low
+  volume.** Verified by direct curl: Google (`suggestqueries.google.com/complete/search?client=firefox`
+  and `google.com/complete/search?client=chrome` — the latter returns 15 suggestions + relevance
+  scores vs 10), YouTube (`&ds=yt`), Amazon (`completion.amazon.com/api/2017/suggestions`), Bing,
+  DuckDuckGo, and Naver (`ac.search.naver.com/nx/ac`). **This is the core of the discovery stack.**
+  The legacy `completion.amazon.com/search/complete` path is **404** — use `/api/2017/suggestions`.
+- **2026-07-31 — `gl=` is IGNORED on Google autocomplete; results follow the requesting IP.**
+  `gl=us`, `gl=kr`, and `gl=ph` on the same seed returned byte-identical suggestions. `hl=en` does
+  work for language. **Running this from Seoul yields Korea-IP suggestions** — do not claim US
+  results without a VPN. *Verified:* three-way curl comparison on `is tteokbokki`.
+- **2026-07-31 — Reddit `.json` is DEAD: 403 on every route.** Tested `www.reddit.com/*.json`,
+  `old.reddit.com/*.json`, `api.reddit.com`, across User-Agents. Guides claiming "10 QPM
+  unauthenticated" are stale. `reddit.com/robots.txt` is now `Disallow: /` with no Googlebot
+  carve-out (Google's access is contractual). Surviving free paths: `old.reddit.com` HTML search,
+  `arctic-shift.photon-reddit.com`, and `site:reddit.com` **via Google only** (Bing/DDG lack recent
+  Reddit content). ⚠️ Reddit's free API tier is scoped **non-commercial** — a grey zone for an
+  affiliate-monetized site; prefer plain web access.
+- **2026-07-31 — Automated SERP scraping is not viable; SERP inspection must stay manual.**
+  Google and Bing return JS-required shells with zero results in raw HTML (Google has needed JS
+  rendering since ~Jan 2025). DuckDuckGo's `html.duckduckgo.com` worked for ~5 queries then served
+  empty results/challenge pages even after a 45s cooldown. **Do not build a SERP scraper.**
+  Use `&udm=14&pws=0` in a browser to see the true organic field with AI Overviews suppressed.
+- **2026-07-31 — `&num=100` was removed mid-September 2025 and Google Trends' unofficial API
+  returns 429.** Page SERPs with `&start=0,10,20…`. The official Trends API is still an
+  application-gated alpha (announced 2025-07-24, not GA) — do not plan around it. `pytrends` is
+  effectively dead.
+- **2026-07-31 — Two data-integrity problems contaminate our own GSC baseline. Compare CLICKS
+  across time, never impressions or CTR.** (a) Google confirmed a logging bug that **over-reported
+  impressions from 2025-05-13 until early April 2026** (clicks unaffected) — inflated impressions
+  with correct clicks means our CTR figures are **artificially low by an unknown margin**, and every
+  export in `output/gsc/` sits inside that window. (b) The `num=100` removal stripped rank-tracker
+  bot impressions in Sept 2025 (87.7% of 319 studied sites lost impressions, clicks flat).
+- **2026-07-31 — CORRECTION to `reports/competitor-study-v2-verified-2026-07-30.md`: the "86.4%
+  below benchmark CTR" claim compares against the wrong curve and should not be repeated.**
+  Clickstream curves (First Page Sage: position 1 = 39.8%) measure a different population than
+  GSC-aggregate curves (Ahrefs, 300k keywords, Dec 2025: position 1 = **3.9%** without an AI
+  Overview, **1.6%** with one). Benchmarked against the GSC-appropriate curve, expected CTR at
+  position 7.81 is roughly **0.10–0.25%**, so our **0.363% is at or slightly above expectation.**
+  We are not uniquely broken. **The strategic conclusion is unchanged** — it is a query-mix problem
+  (definition 0.048% vs purchase 2.0% on the same site), which is exactly what topic selection
+  controls. Only the diagnostic framing was wrong.
+- **2026-07-31 — GSC row limits, from Google's own docs.** UI export **1,000 rows**; Search
+  Analytics API **25,000/request**, paginating to **50,000/day/site/search-type**; **the Looker
+  Studio connector does NOT bypass this** — same 50,000 ceiling. BigQuery bulk export has **no row
+  cap and accumulates indefinitely**, but only from the day it is enabled, and it **requires a
+  billing-enabled GCP project (card on file)** even though our volume stays inside the free tier
+  (1 TiB queries + 10 GiB storage/month). GSC retention is **16 months, rolling**. **GSC API access
+  is still NOT configured** (no credentials, no `googleapis` dependency) — wiring it up is the
+  single highest-leverage unfilled gap: 25× more discoverable queries.
+- **2026-07-31 — Bing Webmaster Tools Keyword Research is genuinely free and gives REAL volume
+  numbers** (Microsoft Advertising data, not estimates), filterable by country/language/device,
+  with CSV export and a free API (`ssl.bing.com/webmaster/api.svc/json/`, `GetKeywordStats` /
+  `GetRelatedKeywords`). Requires verified site ownership. **Hard limit: Keyword Research holds
+  6 months only** (the Search Performance report separately holds 24 — better than Google's 16).
+  ⚠️ Bing is ~27–28% of US *desktop* but only ~0.6% of mobile, while **64.7% of our impressions are
+  mobile** — use for relative ranking between keywords, never as an absolute forecast. Any
+  "multiply by 10–20×" rule is folklore.
+- **2026-07-31 — Google Trends returns 0 for our best keywords and must not be used to validate
+  topics.** Google states low-volume terms "appear as 0"; the floor is roughly several hundred
+  searches/month. Our top converter (`korean convenience store breakfast`, 61 impressions,
+  **14.75% CTR**) sits below it. Trends is for **seasonality and direction only**. It is a sample,
+  not a census — identical repeated queries have measured 8 vs 23 across successive exports.
+
+### korean-source arbitrage (all verified by direct curl 2026-07-31)
+
+- **2026-07-31 — The Two-Curl Arbitrage Test works and is the cheapest signal we have.**
+  `ac.search.naver.com/nx/ac?q={한글}&st=100&r_format=json` returns branch counts; Naver only builds
+  branches for terms with real query volume. Live proof: **`육포깡` → 10 branches** (후기/가격/편의점/
+  칼로리/맛/매콤한맛) while **`yukpokkang` on Google EN → `[]` empty array**. That gap *is* the
+  arbitrage, measured in two unauthenticated GETs.
+- **2026-07-31 — `POST datalab.naver.com/shoppingInsight/getCategoryKeywordRank.naver` is OPEN —
+  no auth, no cookie — and the age/gender/device filters are where the signal lives.** Independently
+  reproduced: 식품 (`cid=50000006`) unfiltered returns staples (옥수수/쌀20kg/닭가슴살); with
+  `age=20&gender=f&device=mo` it returns 생새우·바위굴·**화과자**·**볶음너구리**·촉촉한황치즈칩.
+  Needs `Referer: .../sCategory.naver` + `X-Requested-With: XMLHttpRequest`. ⚠️ Flaky — a call may
+  301 to `/notfound.html` then succeed on retry; treat 301 as retry, not dead. The 검색어트렌드
+  equivalent (`qc/getKeywordTrend.naver`) is **not** open — use the official API for that.
+- **2026-07-31 — `POST know.tour.go.kr/stat/entryTourStatDis_DataXML.do` returns inbound tourists
+  by all 75 nationalities, monthly, with NO auth.** The widely-cited
+  `kto.visitkorea.or.kr/eng/tourismStatics/...` link is **DEAD** and `datalab.visitkorea.or.kr` is
+  login-gated — use this instead. **Strategic finding: English is our slowest-growing inbound
+  market.** H1 2025→H1 2026: Taiwan **+33.4%**, China **+27.1%**, Japan **+20.4%**, USA **+11.1%**,
+  total +21.3% (first-ever 10M half-year). Worth a representative conversation; not acted on.
+- **2026-07-31 — 뉴스와이어 RSS is live and free:** `api.newswire.co.kr/rss/theme/101` (신상품),
+  `/theme/116` (사업확장), `/region/11` (해외). ⚠️ **대한민국 정책브리핑 (korea.kr) RSS is officially
+  discontinued** — the list page still scrapes. 식품음료신문 has the only true 수출 desk with a feed:
+  `thinkfood.co.kr/rss/S1N3.xml`. **더구루** is real and on-beat but the useful section is
+  **생활경제 `sec_no=52`**, not 글로벌 — and it has **no RSS**, so scraping is mandatory.
+- **2026-07-31 — 공정위 정보공개서 is free with NO login** (plain anonymous curl), ~11,750 registered
+  brands, comparison tool at `franchise.ftc.go.kr/mnu/00014/program/firHope/view.do` covering
+  **2017–2025** across 17 regions. ⚠️ `franchise.ftc.go.kr/main.do` is **404** — deep paths only.
+  Store-count growth (신규개점 − 계약종료) is a **leading indicator of overseas franchise expansion**,
+  visible months before any press release. Data is self-reported and excludes 외국계 브랜드.
+- **2026-07-31 — The Korea→English arbitrage window has collapsed to ~8 weeks for visually viral
+  items.** 왁뿌볼/말랑이 reached **CNN on 2026-07-04**; 얼먹젤리 was already in Korea Herald and Korea
+  Times. Buldak's 12–18 month runway no longer exists. **Durable arbitrage has moved to structural/
+  retail/channel topics** (convenience-store category shifts, franchise counts, export figures)
+  that English media covers late or never. **Always verify English coverage before writing.**
+- **2026-07-31 — Naver DataLab Open API signup requires 휴대폰 인증 + company name but NOT a
+  사업자등록번호.** 1,000 calls/day, data from 2016-01-01, returns **relative ratio 0–100 only —
+  never absolute volume**. Max 5 groups × 20 keywords. This phone-verification barrier is precisely
+  the moat: trivial for a Seoul team, a hard block for a foreign competitor.
+- **2026-07-31 — Domain migrations to fix in old notes:** `motie.go.kr`→**`motir.go.kr`** (ministry
+  renamed 산업통상부), `unipass.customs.go.kr/ets`→**`tradedata.go.kr`**, `kostat.go.kr`→**`mods.go.kr`**
+  (통계청 renamed 국가데이터처 2025-10-01), `search.shopping.naver.com/best`→**`shopping.naver.com/ns/home/best`**.
+  **Dead/blocked:** namu.wiki RecentChanges (Cloudflare JS challenge; article pages work fine),
+  namu.news (410), TikTok `creative_radar_api` (auth-gated), Waygook (frozen 2019), Korea4Expats
+  (500), 네이버/다음 카페 (login + join approval).
+
 - **2026-07-30 — Real keyword cannibalization confirmed: Blog `090` and Blog `210` target the
   identical "oppa/samchon/ahjussi" comparison.** 090 (retitled 7/18 to lead with this comparison,
   already has an H2 "Oppa, Samchon, and Ahjussi: The Real Difference") is the site's top-trafficked

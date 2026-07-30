@@ -8,9 +8,13 @@
 
 ## 0. Executive summary
 
-**We do not have a ranking problem. We have a promise problem.**
+**We do not have a ranking problem. We have a query-mix problem.**
 
-251 indexed pages, **335,211 impressions, average position 7.81** — and **1,216 clicks (0.363%)**. Benchmark CTR for that position curve predicts ~8,950. We are **86.4% below** what our own rankings should yield. The gap is ~7,700 clicks/quarter.
+251 indexed pages, **335,211 impressions, average position 7.81** — and **1,216 clicks (0.363%)**.
+
+> **⚠️ CORRECTED 2026-07-31.** This section originally claimed we are "86.4% below benchmark CTR" (1,216 vs a predicted ~8,950). **That was wrong and must not be repeated.** It benchmarked our GSC data against *clickstream* CTR curves (position 1 = 39.8%), which measure high-volume well-matched queries. GSC-aggregate curves (Ahrefs, 300k keywords) put position 1 at **3.9%** — because GSC includes a huge long tail of loosely-matched queries. Against the right curve, expectation at position 7.81 is roughly **0.10–0.25%**, so **our 0.363% is at or above expectation. We are not uniquely broken.** See `docs/keyword-selection-playbook.md` §6.1. The strategy below is unchanged — but the "catastrophically broken" framing invited the wrong fixes (rewrite everything, migrate URLs), which is exactly the trap this study already fell into once.
+
+The real problem is narrower and more fixable: **our aggregate CTR is dragged down by high-impression definitional queries that resolve on the SERP.** `korean convenience store breakfast` at 14.75% and `ahjussi` at 0.058%, same site, same authority — that is the whole story.
 
 The cause is visible in one comparison. `southkoreahallyu.com` — **two British bloggers in London, 153 posts** (half our 309), using photos from a 2023 trip — outranks and out-clicks us. Their every post contains prices, exact menu items, and store-level operational facts. Ours promise definitions.
 
