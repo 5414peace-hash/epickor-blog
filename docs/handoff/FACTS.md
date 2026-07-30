@@ -219,6 +219,33 @@
 
 ## gsc / strategy
 
+- **2026-07-30 — Real keyword cannibalization confirmed: Blog `090` and Blog `210` target the
+  identical "oppa/samchon/ahjussi" comparison.** 090 (retitled 7/18 to lead with this comparison,
+  already has an H2 "Oppa, Samchon, and Ahjussi: The Real Difference") is the site's top-trafficked
+  page at 142 clicks/158,280 impressions. 210's title is literally "Oppa, Samchon, Ahjussi: Korean
+  Male Terms Explained" — same three-word comparison, never touched since its 2026-06-17 publish,
+  stuck at 7 clicks/2,562 impressions. Confirmed by reading both files directly, not just query
+  matching. **Not yet resolved** — needs a representative call (merge/redirect 210 into 090, or
+  differentiate 210's angle so it stops competing for the same query) before acting.
+  *Verified:* direct file read of `content/blog/090-*.md` and `content/blog/210.md`, cross-checked
+  against `output/gsc/https___www.epickor.com_-Performance-on-Search-2026-07-24/페이지.csv`.
+- **2026-07-30 — The "SKY university" query cluster is a confirmed structural dead-end, same as
+  ahjussi — stop trying to fix it with retitles.** Combined queries ("sky university," "sky
+  universities," "sky korea university," etc.) run roughly 15,000-20,000+ impressions with
+  near-0% CTR across both pages that touch it (082, 231). 082 already got the CTR-fix retitle
+  treatment on 7/18 and is still near-0% six days later; 231 name-checks SKY early in the body
+  (`## What SKY Means In Korea`) but the title doesn't signal that, and it likely wouldn't help
+  anyway — this is a pure definition query where Google answers in the snippet, exactly like
+  ahjussi. Do not spend more retitle effort chasing this cluster.
+  *Verified:* parsed the full 1,000-row query CSV and 322-row page CSV programmatically (not
+  eyeballed), cross-referenced against `content/blog/082-*.md` and `content/blog/231.md`.
+- **2026-07-30 — GSC data only shows queries the site already has SOME impression footprint on —
+  it cannot reveal genuinely new, zero-footprint search demand.** A weak-position (rank 15-40,
+  impressions ≥80) scan of the same 1,000-query export returned only 3 hits, all already covered
+  elsewhere on the site. This is why a rigorous GSC re-analysis found no fresh "new topic"
+  candidates on 2026-07-30 — the query universe in a single export is inherently bounded to what
+  we already rank for somewhere. New-topic discovery needs external research (news/trends/
+  competitor gaps), not another GSC pass, once the existing CTR-fix backlog is exhausted.
 - **2026-07-24 — CTR by query type is the whole ballgame:** definition queries **0.048%**,
   comparison **1.15%**, purchase **2.0%** (42x spread). 10x impressions on the current query mix
   yields only **1.3x clicks**; fixing CTR at flat impressions yields **9.2x**.
