@@ -9,14 +9,13 @@ photo exists on Seoul's official mediahub, but Type 4 licensing prohibits use on
 site, so it was not used.
 
 **None of the three images below show the actual Yongwangsan Skywalk.** They are real, honestly
-sourced photos of other Seoul night-view/mountain-park/walkway locations, selected because they
-are genuinely representative of the same experience category (elevated Seoul mountain-park
-walkways, Seoul night skyline views). The writer must caption every one of these as general/
-contextual Seoul imagery — never imply, state, or let alt text suggest that any of these photos
-depict Yongwangsan itself. Suggested caption framing: "A Seoul mountain-park night view, similar
-in spirit to Yongwangsan's new skywalk" / "Namsan Park's elevated walkway — Seoul has several of
-these hillside walking decks" / "The Han River skyline as seen from one of Seoul's night-view
-spots," not "Yongwangsan Skywalk" itself.
+sourced photos of other Seoul night-view/mountain-park/walkway locations. **Caption each one by
+naming what it actually, positively is (e.g. "Namsan Park's elevated walkway" or "Seoul's skyline
+at night"), never by explaining what it isn't.** Per CLAUDE.md's Blog Reference Image Standard,
+phrases like "similar to," "not the actual," or "shown for illustration" are hard-reject signals —
+if a photo can only be captioned by apologizing for what it's not, that's the signal to pick a
+different photo, not to write a more careful disclaimer. (Corrected 2026-07-30 after an earlier
+draft of this post briefly used hedge-style captions and was caught post-publish.)
 
 ---
 

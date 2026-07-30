@@ -31,20 +31,21 @@ photos were taken at the venue.**
   scene — not as anything from Galaxy Robot Park.
 - **Dimensions delivered**: 1600x898, ~148KB.
 
-## 342-02-humanoid-robot-context.jpg
+## 342-02-humanoid-robot-context.jpg — REMOVED 2026-07-30, do not re-add
 
-- **Source**: Pexels — https://www.pexels.com/photo/high-angle-photo-of-robot-2599244/
-- **Photo ID**: `photos/2599244`
-- **Photographer**: Alex Knight — https://www.pexels.com/@agk42
-- **License**: Pexels License (free to use, no attribution required, modification permitted) — https://www.pexels.com/license/
-- **What it actually shows**: A real SoftBank "Pepper" humanoid robot photographed indoors in
-  Tokyo, Japan. This is a genuine photo of an actual, well-known consumer humanoid robot — it is
-  NOT a Korean robot and NOT affiliated with Galaxy Robot Park in any way.
-- **Honest use**: General "what a humanoid robot looks like" illustrative context only. Caption
-  MUST make clear this is a general humanoid-robot example (e.g. "a Pepper humanoid robot, shown
-  for general illustration") and must NOT be captioned as a Galaxy Robot Park robot or as being
-  located in Korea.
-- **Dimensions delivered**: 1600x1067, ~117KB.
+- Originally sourced: Pexels photo 2599244 (a SoftBank "Pepper" robot, Tokyo, Alex Knight,
+  Pexels License).
+- **Removed after publish.** The only way to caption it honestly was to explicitly say what it
+  wasn't ("not one of Galaxy Robot Park's own robots," "not photographed in Korea") — that
+  hedging/apologizing pattern is a **hard-reject per CLAUDE.md's Blog Reference Image Standard**
+  ("not the actual", "shown for illustration only", "without implying" are explicitly listed as
+  hard-reject signals; the correct response is to replace or remove the image, not caption around
+  it). Caught and corrected post-publish on 2026-07-30 after the representative flagged it.
+- **Lesson for next time**: if an image can only be captioned by explaining what it *isn't*, that
+  is itself the signal to drop it, not to write a more careful disclaimer. A usable substitute
+  image must be describable purely in terms of what it actually, positively is (see 342-01 and
+  342-03 below, and 340's Namsan Park/Maebongsan Park images, all of which name their real subject
+  directly with no hedge language).
 
 ## 342-03-seoul-skyline.jpg
 
