@@ -82,3 +82,7 @@ debug.log
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# GSC service account key - NEVER commit (grants read access to Search Console)
+/.gsc-service-account.json
+/output/gsc/api/
