@@ -3932,8 +3932,71 @@
       "generated_slug": "339",
       "note": "Approved 2026-07-29 as topic 7 of 8, deferred to 2026-07-30. Duplicate-audited: existing Squid Game mentions (042, 070, 168) are passing references/recommendations, not filming-location coverage - genuinely new angle.",
       "generated_date": "2026-07-30"
+    },
+    {
+      "id": 179,
+      "title": "Yongwangsan Skywalk vs N Seoul Tower: Seoul's Free New Night View, Compared",
+      "keywords": [
+        "yongwangsan skywalk",
+        "seoul new night view",
+        "yongwangsan skywalk how to get there"
+      ],
+      "category": "Travel Phenomena",
+      "tags": [
+        "Yongwangsan",
+        "SeoulNightView",
+        "SeoulTravel",
+        "HiddenSeoul"
+      ],
+      "amazon_category": "Travel",
+      "status": "done",
+      "generated_slug": "340",
+      "note": "External keyword research 2026-07-30 (GSC deep-dive found no new opportunities, pivoted to fresh news/trend research). Real Korea Times 2026-07-29 news, brand-new April 2026 attraction. Duplicate-audited clean.",
+      "generated_date": "2026-07-30"
+    },
+    {
+      "id": 180,
+      "title": "Goblin K-Drama Filming Locations: What's Really in Jumunjin (And What Isn't)",
+      "keywords": [
+        "goblin filming location",
+        "jumunjin breakwater",
+        "goblin drama gangneung"
+      ],
+      "category": "Travel Phenomena",
+      "tags": [
+        "Goblin",
+        "KDramaTourism",
+        "Gangneung",
+        "JumunjinBeach"
+      ],
+      "amazon_category": "Travel",
+      "status": "done",
+      "generated_slug": "341",
+      "note": "External keyword research 2026-07-30. Tied to real July 2026 tvN 10th-anniversary reunion special news. Duplicate-audited clean (existing Goblin mentions in 025/070/224 are passing references, not filming-location coverage).",
+      "generated_date": "2026-07-30"
+    },
+    {
+      "id": 181,
+      "title": "Galaxy Robot Park Seoul: Is Korea's New Robot K-pop Theme Park Worth It?",
+      "keywords": [
+        "galaxy robot park",
+        "robot theme park seoul",
+        "galaxy robot park tickets"
+      ],
+      "category": "Travel Phenomena",
+      "tags": [
+        "GalaxyRobotPark",
+        "SeoulAttractions",
+        "KpopRobots",
+        "SeoulTravel"
+      ],
+      "amazon_category": "Travel",
+      "status": "done",
+      "generated_slug": "342",
+      "note": "External keyword research 2026-07-30. Brand-new 2026 venue (soft-opened May 2026, grand opening Sept 2026). Duplicate-audited clean.",
+      "generated_date": "2026-07-30"
     }
   ],
   "last_updated": "2026-07-29",
-  "next_slug": "340"
+  "next_slug": "343"
 }
