@@ -258,6 +258,29 @@
 
 ## images
 
+- **2026-07-30 — Actually violated the site's own Blog Reference Image Standard while writing
+  captions for images honestly documented as "not the real venue" (Blogs 340/342, both brand-new
+  2026 locations too recent for Wikimedia Commons).** Wrote captions like "not a photo of the park
+  itself" and "not one of Galaxy Robot Park's own robots" — directly using the exact hard-reject
+  phrase pattern the standard names ("not the actual", "shown for illustration only", "without
+  implying"). The rule's actual instruction when honesty requires an apology is to **replace or
+  remove the image**, not write a more careful disclaimer — hedging IS the violation, regardless of
+  how honest the hedge is. Caught by the representative post-publish, not by me. Fixed by (a)
+  dropping the one image (a Tokyo Pepper robot) that could only be captioned by explaining what it
+  wasn't, and (b) rewriting the remaining captions to name their real subject directly with zero
+  apology (e.g. "Namsan Park's elevated walkway" instead of "similar in spirit to Yongwangsan").
+  **Test to apply going forward**: if a caption's honest version requires saying what the photo
+  ISN'T, the image is wrong — don't caption around it.
+- **2026-07-30 — A Python `open(path, 'w').write(text)` on this Windows checkout converts `\n` to
+  `\r\n` (CRLF), which silently broke `review-post.mjs`'s frontmatter regex** (it returned
+  `unknown_review.json` with every field empty, no error). Files under `content/blog/` are CRLF by
+  git-autocrlf convention on this machine and the reviewer handles them fine when they arrive via
+  `git pull`/Edit-tool edits; the breakage was specific to rewriting `output/drafts` /`output/final`
+  files (gitignored, not autocrlf-managed) via raw Python file writes. Fix: after any Python-based
+  bulk text edit to a draft/final file, verify with `file <path>` that it still says "with CRLF
+  line terminators" only if it already had them, or normalize back with
+  `open(p,'rb').read().replace(b'\r\n', b'\n')` before re-running the reviewer.
+
 - **2026-07-25 — Cross-post duplicate detection must key off the documented Pexels/Unsplash photo
   ID, never SHA-256.** Each post's copy is compressed independently, so byte hashes differ for the
   identical source photo — that is exactly how photo `31925324` reached three posts (192, 239, 318).
