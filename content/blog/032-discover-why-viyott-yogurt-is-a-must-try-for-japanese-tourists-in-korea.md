@@ -2,7 +2,7 @@
 title: "Viyott Guide: Korea's Convenience-Store Yogurt Snack"
 slug: "032"
 date: "2024-07-20"
-updatedAt: "2026-07-18"
+updatedAt: "2026-07-31"
 visibility: "public"
 publishAt: ""
 description: "A practical Viyott guide for Korea travelers explaining flavors, where to buy it, why tourists notice it, how to eat it, and what to compare."
@@ -47,6 +47,29 @@ Viyott is a topping yogurt. One compartment holds yogurt; the other holds toppin
 That design matters. A normal yogurt is passive. Viyott gives the eater a tiny action: crack open, fold, pour, mix, crunch. In travel content, that action is perfect. It shows well on camera, it creates a sound and texture moment, and it takes only a few seconds to understand.
 
 The taste is not complicated. The yogurt is tangy and creamy, while the topping adds sweetness and crunch. The appeal is the balance. If you expect a luxury dessert, you may be confused. If you expect a convenience-store snack that is more fun than ordinary yogurt, it makes immediate sense.
+
+## How Old It Is, and What It Costs
+
+Viyott is not a recent convenience store novelty. **Seoul Milk (서울우유) launched 비요뜨 in March 2004**, which makes it older than most of the products sitting beside it in the cold case, and it passed its twentieth year still selling as a staple rather than a nostalgia item.
+
+Longevity shows up in the format. The two-compartment tub with the snap-fold topping release has barely changed in twenty years, because it did not need to. Seoul Milk has extended the line instead — a strawberry-yogurt spin-off called **마이픽 (My Pick)** arrived in 2023, and a **Japan-export-only Viyott ice cream** was created for the twentieth anniversary rather than replacing the original.
+
+<div class="table-scroll">
+
+| Item | Korean | Price |
+|---|---|---|
+| Viyott, standard tub at a convenience store | 비요뜨 | **₩1,800** (verified December 2022) |
+| Same tub, 2026 | 비요뜨 | expect roughly ₩2,000–2,500 |
+| Chocolate ring, the most common variety | 초코링 138g | same range, about 200 kcal |
+| Multi-pack at a mart | 마트 묶음 | meaningfully cheaper per tub |
+
+</div>
+
+The gap between those two rows has a name in Korea: **밀크플레이션** (*milkflation*). Korea sets raw milk prices through an annual negotiation, and when that price rises, every dairy product — milk, yogurt, ice cream, bakery cream — moves within weeks. Viyott was caught in exactly that chain in late 2022 and has followed dairy pricing since. If a guide quotes you a Viyott price from a few years ago, this is why it will be wrong.
+
+**The honest counter-recommendation: buy Viyott at a mart, not a convenience store, if you want more than one.** The multi-pack is materially cheaper per tub, and this is a product people buy repeatedly rather than once. Buy a single at a convenience store to find your flavour, then stop paying single-unit prices for it.
+
+And skip it entirely if you want breakfast. It is about 200 kcal of yogurt and sweet topping — a dessert or an afternoon snack, not a meal. Pairing it with a triangle gimbap makes a breakfast; on its own it will not hold you.
 
 ## Why Travelers Notice It
 
