@@ -130,6 +130,13 @@
 
 ## publishing
 
+- **`run-pipeline.mjs --step review --slug {n}`는 읽기 전용이 아니다. GitHub에 직접 커밋·푸시하고, 라이브 글을 내려버린다.** (2026-07-31 실측, 사고)
+  - 발행된 글 `171`에 리뷰만 돌렸는데, 스크립트가 `content/blog/171.md`를 **`visibility: "private"`로 바꿔 커밋**(`6b2e067d "draft: update private preview post 171"`)하고 푸시했다. 배포가 나가면서 **사이트 최고 CTR 음식 글(3.35%)이 프로덕션에서 404**가 됐다.
+  - 그것만이 아니다. 스크립트는 `output/drafts/`의 **낡은 초안 본문으로 덮어썼다.** 그 결과 `171`에서 **내부 링크 5개(059, 277, 278, 279, 281, 302)와 Amazon 제휴 CTA 박스 2개가 통째로 삭제**됐다. 발행 후에 넣은 수익화·내부링크가 전부 날아간 것이다.
+  - 로컬에서만 검토했다고 착각하기 쉽다. 원격이 앞서가서 다음 `git push`가 거절되고, `git pull --rebase`에서 충돌이 나야 비로소 알게 된다. **충돌 구간(frontmatter)만 해결하고 넘어가면 삭제된 링크·CTA는 조용히 사라진 채로 남는다.**
+  - **따라서 이미 발행된 글에는 `--step review`를 쓰지 말 것.** 리뷰만 필요하면 리뷰어 스크립트를 파일 지정으로 직접 돌린다: `node .claude/skills/reviewer/scripts/review-post.mjs --file content/blog/{n}.md`. `--step review`는 아직 발행 안 된 신규 초안에만 쓴다.
+  - 실수로 돌렸다면 복구법: `git show <그커밋>^:content/blog/{n}.md`로 사고 직전 원본을 꺼내 기준으로 삼고, 그 위에 이번 편집을 다시 얹는다. 충돌 해결만으로 끝내지 말고 **내부 링크 수와 `affiliate-inline-cta` 개수를 편집 전후로 반드시 대조**한다.
+
 - **2026-07-29 — `run-pipeline.mjs --approve` / `publish-post.mjs` commits `content/blog/{slug}.md`
   via GitHub API but does NOT push image assets under `public/assets/images/`.** Publishing
   Blogs 330/331/332 this way put all three live with broken images (verified: text returned

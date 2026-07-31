@@ -586,6 +586,13 @@ node scripts/run-pipeline.mjs --step review --slug 166
 
 - `output/review/166_review.json`
 
+> **경고 (2026-07-31 사고): `--step review`는 신규 초안 전용이다. 이미 발행된 글에 쓰지 말 것.**
+> 이 스텝은 읽기 전용이 아니라 **GitHub에 직접 커밋·푸시한다.** 발행된 `171`에 돌렸더니
+> `visibility`를 `private`로 바꿔 **라이브에서 404**를 만들었고, `output/drafts/`의 낡은 초안으로
+> 본문을 덮어써서 **내부 링크 5개와 Amazon CTA 박스 2개를 삭제**했다.
+> 발행된 글의 품질 점수만 보려면 파일 지정으로 리뷰어만 돌린다:
+> `node .claude/skills/reviewer/scripts/review-post.mjs --file content/blog/{slug}.md`
+
 리뷰 통과 기준:
 
 - `pass: true`
