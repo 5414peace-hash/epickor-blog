@@ -3995,8 +3995,37 @@
       "generated_slug": "342",
       "note": "External keyword research 2026-07-30. Brand-new 2026 venue (soft-opened May 2026, grand opening Sept 2026). Duplicate-audited clean.",
       "generated_date": "2026-07-30"
+    },
+    {
+      "id": 182,
+      "title": "Orion Moist Yellow Cheese Chip: Why Korea Can't Keep It in Stock",
+      "target_keyword": "orion moist yellow cheese chip",
+      "keyword_shape": "identity_specific_product",
+      "serp_score": 58,
+      "serp_score_date": "2026-07-31",
+      "category": "Food",
+      "tags": [
+        "KoreanSnacks",
+        "Orion",
+        "ConvenienceStore",
+        "KoreanFood"
+      ],
+      "amazon_category": "Food",
+      "status": "done",
+      "generated_slug": "343",
+      "generated_date": "2026-07-31",
+      "demand_evidence": {
+        "source": "naver_autocomplete + google_suggest + 8 KR outlets",
+        "kr_branches": 10,
+        "en_branches": 7,
+        "detail": "\"orion moist yellow cheese chip\" is a live Google EN suggestion; EN coverage limited to Korea-domestic wires on the March price spike"
+      },
+      "korean_source_fact": "Shares a production line with 촉촉한 초코칩; Orion states it cannot go permanent without capacity expansion (아시아타임즈 2026-07-10)",
+      "duplicate_audit": "checked blog + business + queue; zero hits for 황치즈/cheese chip/Orion",
+      "amazon_path": "orion cheese korean snack / korean snack variety box",
+      "note": "W31 cycle first pick. Lane 1 (음식-구체) under 실행계획 챕터 1."
     }
   ],
   "last_updated": "2026-07-29",
-  "next_slug": "343"
+  "next_slug": "344"
 }
