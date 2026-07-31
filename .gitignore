@@ -44,6 +44,7 @@ debug.log
 /output/strategy/*
 !/output/strategy/keywords_*.md
 !/output/strategy/keyword-bets.csv
+!/output/strategy/cluster-backlog.md
 /output/reels/*
 !/output/reels/metrics.json
 !/output/reels/*.md

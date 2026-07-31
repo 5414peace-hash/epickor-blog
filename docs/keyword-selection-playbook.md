@@ -314,6 +314,41 @@ are all dead.
 
 ---
 
+## 1c. 새 함정 — 디아스포라 트랩 (2026-08-01 발견)
+
+**영어 쿼리에 `korean`이 들어 있다고 해서 한국에 대한 검색이 아니다.**
+상당수는 **"자기 동네에 있는 한국식 무언가"**를 찾는 것이다.
+
+실측:
+
+```
+korean photo booth  → near me · in delhi · in chandigarh · in kolkata
+                      · in noida · in jaipur · london · brisbane · toronto
+escape room korea   → koreatown · koreatown nyc · koreatown los angeles
+                      · korean show · korean variety show · netflix
+coin karaoke korea  → koreatown · london · near me
+korea dog cafe      → korean corn dog cafe · korean corn dog cafe belgaum
+```
+
+`인생네컷`은 네이버 10개·구글 10개로 **양쪽 만점이었지만 실제로는 전멸**이다.
+검색자는 서울의 인생네컷 부스를 찾는 게 아니라 **델리·토론토의 한국식 포토부스**를 찾고 있다.
+
+**왜 위험한가**: 기존 로컬 마커 규칙(`near me`, `{도시명}`)은 씨앗에 지명이 붙은 경우를 걸렀다.
+디아스포라 트랩은 **씨앗 자체는 깨끗한데 분기에서 터진다.** 분기 수만 세면 놓친다.
+
+**필터 절차 (분기 수를 세기 전에 한다)**:
+1. 분기를 **읽는다.** 세지 말고 읽는다
+2. **해외 도시명**이 3개 이상 나오면 기각 (델리·런던·토론토·브리즈번…)
+3. **`koreatown`**이 나오면 기각 — 미국·캐나다의 한인타운 상권 검색이다
+4. **`korean {일반명사}`가 다른 제품을 뜻하지 않는지** 확인 —
+   `korean corn dog cafe`가 `korea dog cafe` 분기를 오염시킨 사례가 있다
+
+**살아남는 형태**: 분기가 **한국 안의 지명·시설·절차**를 가리킬 때만 진짜 수요다.
+예: `korean school uniform rental` → `seoul` · `near lotte world` · `ewha` · `jamsil`.
+이건 실제로 서울에서 그 행동을 할 사람들이다.
+
+---
+
 ## 2. The query-shape filter
 
 Apply to every candidate keyword. Target: **30 seconds**. Most candidates die at step 1 or 2.
