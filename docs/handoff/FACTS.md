@@ -187,6 +187,20 @@
 
 ## deploy
 
+- **2026-07-31 — This repo is pnpm. Adding a dependency with `npm install` silently breaks every
+  deployment.** `npm install googleapis --save` updated `package.json` but left `pnpm-lock.yaml`
+  untouched, and Vercel builds with `pnpm install --frozen-lockfile`, which then fails with
+  `ERR_PNPM_OUTDATED_LOCKFILE`. Four consecutive production builds errored at ~25s each and three
+  finished commits (two retitles plus a new post) sat undeployed for roughly 40 minutes before
+  anyone looked at the build log — the pages simply 404'd while git and the GitHub API commits all
+  reported success. **Fix:** `pnpm install --lockfile-only`, commit `pnpm-lock.yaml`.
+  **Prevention:** use `pnpm add <pkg>`, never `npm install`, in this repo.
+  **Diagnostic shortcut:** when a published page 404s for more than ~5 minutes, run
+  `npx vercel ls epickor-blog --yes` first — an `● Error` status with a ~25s duration is a dependency
+  install failure, not a content problem. `npx vercel inspect --logs <url>` gives the reason.
+  *Verified:* build log read directly, 2026-07-31.
+
+
 - **2026-07-26 — `git push` alone deploys. Never run `vercel deploy` manually.** The CLI archive
   upload packs `.tmp/` (11,046 files) and `output/` (5,687) despite `.vercelignore`, producing
   20,230 files, a 45-minute failure, and a jammed queue. Git deploys never see them (both are
