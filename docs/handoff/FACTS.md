@@ -240,6 +240,13 @@
 
 ## gsc / strategy
 
+- **바이럴 한국 트렌드는 영문 통신사가 선점한다. 수요가 아니라 커버리지 공백을 봐야 한다.** (2026-07-31 W32 실측)
+  - W32에서 수요 최상위 후보 2개가 커버리지 게이트에서 탈락했다. `chestnut tiramisu cu`는 구글 영문 자동완성 **1위**였고, 두쫀쿠도 `viral dubai chocolate cookie korea` 등 수요가 확실했다. 그런데 공급을 재보니 —
+  - 두쫀쿠: **Korea Times(2026-01-14)·Stripes Korea·VisitKorea 영문판·서울경제 영문판(2026-02-07)·Gulf News·AOL/Food&Wine 신디케이션**이 전부 커버
+  - 밤 티라미수: 조회 수백만 틱톡 레시피 다수 + K-en News + KoreaProductPost 전용 기사 + SETHLUI
+  - **규칙**: 한국에서 바이럴이 터지면 우리보다 도메인 권위가 훨씬 높은 영문 매체가 며칠 안에 쓴다. **트렌드를 쫓으면 항상 늦는다.** 343(황치즈칩)이 통한 건 신선해서가 아니라 **한국에서 큰데 영어권에 안 보였기** 때문이다.
+  - **선정 기준**: 신선도가 아니라 **"한국에서 크지만 영어권에 전용 기사가 0건"**. 실제로 이 기준으로 뽑은 344(박카스)·345(연세우유 크림빵)는 둘 다 한국인이면 다 아는데 영어 전용 기사가 없었다.
+
 - **2026-07-31 — Two-Curl arbitrage measures DEMAND, not SUPPLY. Both gates are required.**
   An empty English autocomplete array means nobody *searches* the romanization; it does not mean
   nobody has *written* about it. Proven by 짜르르 (Samyang beef-tallow jjajang) in the W31 cycle:
@@ -412,6 +419,15 @@
   the real 11.43% figure above, but the reasoning rule still stands.)
 
 ## images
+
+- **Wikimedia Commons에 한국 상용 제품 실물 사진이 생각보다 많다. Pexels 실패를 이미지 조달 실패로 착각하지 말 것.** (2026-07-31 실측)
+  - 344/345 작업 중 Pexels는 두 주제 모두 실패했다 — `korean convenience store bread` 등은 베트남·필리핀·러시아 이미지를 반환했고, 유일한 한국 검증 사진(Pexels `31735910`)은 이미 Blog `171`의 ogImage라 교차중복 규칙에 걸렸다.
+  - 그런데 **Commons에는 해당 제품 실물이 그대로 있었다**:
+    - `File:연세우유 우유생크림빵.jpg` 외 3건 — 포장 상태 + 단면 2종, 전부 **CC BY 2.0 KR**, 저작자 이분의일디자인
+    - `File:박카스-F.jpg` (CC BY 2.0 KR, 라벨에 `120mL` 판독 가능), `File:박카스1970.jpg` (**KOGL Type 1**, 한국문화정보원, 라벨에 `BACCHUS-D` `100cc.` 판독 가능)
+  - **검색 요령**: 영어 서술구가 아니라 **한글 제품명 그대로** 검색해야 나온다. `Korean convenience store bread`는 실패하고 `연세우유`는 4건이 나왔다. API 파라미터는 `gsrnamespace=6` 필수.
+  - **주의**: 짧은 시간에 여러 번 호출하면 `You are making too many requests`(HTML 반환)가 뜬다. 요청 사이 3초 이상 간격을 두고, 다운로드는 UA에 연락처를 포함한다 (`EpicKor/1.0 (https://epickor.com)`). 실패 시 1,964바이트짜리 HTML이 `.jpg`로 저장되므로 **다운로드 후 파일 크기를 반드시 확인**한다.
+  - **부수 효과**: 라벨에 수치가 찍힌 사진을 쓰면 본문 주장과 이미지가 서로를 증명한다 — 344는 `100cc.`와 `120mL`가 사진에 그대로 있어 캡션이 변명할 필요가 없었다.
 
 - **2026-07-31 — STRUCTURAL CONSTRAINT ON LANE 1: viral limited-edition Korean products have no
   freely-licensed photos, and there is no workaround.** Confirmed exhaustively for 오리온 촉촉한
