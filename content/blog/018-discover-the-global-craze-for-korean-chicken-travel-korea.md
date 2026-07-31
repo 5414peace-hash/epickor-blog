@@ -2,7 +2,7 @@
 title: "Korean Fried Chicken Guide: Chimaek, Crunch, and Ordering Tips"
 slug: '018'
 date: "2024-07-11"
-updatedAt: "2026-07-18"
+updatedAt: "2026-07-31"
 description: "A practical Korean fried chicken guide covering chimaek, sauces, delivery culture, ordering tips, and what makes K-chicken different."
 tags: ["Food", "Culture", "Travel"]
 ogImage: "/assets/images/posts/018/64a1c786-461d-46df-bad1-b8c0359202ac.png"
@@ -82,6 +82,50 @@ Korean fried chicken fits delivery unusually well. A whole box can be shared wit
 Delivery also changed expectations. Many Korean diners expect chicken to arrive hot, organized, and easy to eat. That pressure encourages packaging, side dishes, sauce control, and brand competition. A shop cannot rely only on being nearby. It has to survive comparison: crunch, portion size, sauce balance, delivery speed, radish freshness, and whether the box still feels good after a twenty-minute ride.
 
 For travelers, this explains why Korean chicken can feel more systemized than expected. It is not only cooking. It is cooking plus logistics. The meal has been optimized for a city where people want comfort food without turning the night into a formal restaurant plan.
+
+## What a Chicken Actually Costs in 2026
+
+Korean fried chicken is not the cheap food many visitors expect, and the gap between the menu price and what you actually pay is the part worth understanding before you order.
+
+<div class="table-scroll">
+
+| Item | Korean | Price (2026) |
+|---|---|---|
+| Kyochon Original | 교촌 오리지널 | about **₩19,000** |
+| bhc plain fried | bhc 후라이드 | about **₩20,000** |
+| BBQ Golden Olive fried | BBQ 황금올리브 후라이드 | **₩20,000 → ₩23,000** after its increase |
+| Kyochon Honey Combo / Red Combo, delivery pricing | 허니콤보 / 레드콤보 | about **₩26,000** |
+| Delivery fee, on top | 배달비 | **₩1,500–4,000** depending on area and time |
+
+</div>
+
+Add those last two rows together and you land on the number Korean media has been writing about for a while: **치킨 3만원 시대** — "the 30,000-won chicken era." One delivered bird can genuinely reach ₩30,000 in Seoul, which is a real restaurant meal for two people, not a snack.
+
+### The mistake that costs you the most
+
+**Eat in at the shop instead of ordering delivery.**
+
+This is the single biggest saving available, and almost no English guide mentions it. Delivery adds a fee of ₩1,500–4,000, and many brands also run **higher menu prices on delivery apps** than in the store itself, so you are often paying twice for the convenience. Sitting down at the chicken shop skips both.
+
+It is also the better experience. Chimaek is a place you go, not a box you receive, and fried chicken degrades fast — the coating you paid for is at its best in the first ten minutes.
+
+**Other ways to spend less:**
+
+- **Order plain fried (후라이드) rather than a sauced combo.** The sauced and combo versions carry the biggest markups, and the plain version is what shows off the frying.
+- **Do not order one bird per person.** One chicken plus sides feeds two comfortably. Koreans share.
+- **Check the frozen aisle if you are on a budget.** Korean supermarkets sell frozen fried chicken around the ₩10,000 mark, and it has become a real substitute for delivery among price-conscious households — not as good, but a third of the price.
+
+## The Industry Behind the Price
+
+The numbers explain why chicken costs what it does, and they are not what most people assume.
+
+Korea has roughly **647 chicken brands** and, as of 2023, about **39,787 chicken restaurants nationwide** — a number that has **fallen for three consecutive years** from about 42,743 in 2020.
+
+But franchise outlets specifically went the other way: about **31,397 franchise chicken shops in 2024**, up 5.3% from 29,805 the year before.
+
+Read those together and the picture is consolidation. **Independent chicken shops are closing while franchise outlets multiply.** The corner shop run by one family is being replaced by branded stores with head-office pricing, and head-office pricing is what produces coordinated increases across BBQ, bhc, and Kyochon within months of each other.
+
+For you as a customer, that means two practical things: the big three will be broadly similar in price wherever you are, and an independent neighbourhood shop — if you find one — is often the better-value and more interesting meal.
 
 ## Common first-timer mistakes
 
