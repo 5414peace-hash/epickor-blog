@@ -144,3 +144,96 @@
 - **기각에는 등급을 붙인다.** T1·T2는 예약이지 사망이 아니다
 - **하나가 통한 클러스터는 재고가 깊다.** 동네 하나가 통하면 열 개가 따라온다.
   단 `cluster-backlog.md` 규칙대로 **연속 발행하지 않고 다른 클러스터를 사이에 끼운다**
+
+---
+
+# 2차 스캔 (2026-08-01 추가) — K콘텐츠 + 미검증 12개 카테고리
+
+씨앗 48개 추가. **누계 153개.**
+
+## 웹툰 — 제가 놓쳤던 것을 읽었다
+
+수치는 최상위가 맞았다. 그런데 분기를 읽으니 갈린다.
+
+| 씨앗 | 분기 | 판정 |
+|---|---|---|
+| `webtoon vs manga` | **vs manga vs manhwa · difference · format · manhwa vs manga difference** | ✅ **최상급 비교형** |
+| `korean drama based on webtoon` | **2025 · 2026 · new · k drama · manhwa · bl drama** — 연도 스탬프 = 갱신 수요 | ✅ 후보 |
+| `korean webtoon` | site · app · english (읽을 곳 찾기 = 도구 의도, 불법 유통 인접) | ⏸ |
+| `korean web novel` | in english · translations · site · mtl · read online (전부 도구 의도) | ❌ |
+| `korean manhwa cafe` | cafe korea hours · cafe korean near me (오염) | ❌ |
+
+### 🚨 그런데 여기서 **세 번째 잠식 쌍**이 나왔다
+
+| 슬러그 | 제목 | 노출 | 클릭 | 순위 |
+|---|---|---|---|---|
+| `181` | Korean Webtoons Guide: Naver, Manhwa, Netflix Adaptations | 1,953 | 7 | 8.85 |
+| `067` | Korean Webtoons Guide: From Scroll Comics to K-Drama Hits | **102** | **0** | 11.27 |
+
+**제목이 둘 다 "Korean Webtoons Guide"다.** `090`/`210`, `133`/`170`에 이은 세 번째다.
+`067`은 사실상 죽어 있다(102노출·0클릭).
+
+**→ 웹툰은 신규 집필 대상이 아니라 통합 대상이다.**
+`181`을 살리고 `067`을 병합·차별화한 뒤, `webtoon vs manga vs manhwa` 비교 섹션을 `181`에 넣는다.
+세 번째 웹툰 글을 추가하는 것은 잠식을 악화시킬 뿐이다.
+
+## K콘텐츠 나머지 — 대부분 막힘
+
+- `where to watch korean drama` → **`in india` · `in tamil` · `in hindi for free` · `in telugu` · dubbed.**
+  인도어권 쿼리는 우리 GSC 실측에서 29,442노출에 클릭 1개였다. ❌
+- `korean variety show` · `korean movies to watch` → 스트리밍 리스티클. 대형 매체 영역 + `watch online` 도구 의도 ❌
+- `kpop unboxing` → tiktok · asmr · youtube · compilation. **영상 의도지 글 의도가 아니다** ❌
+- `kpop album inclusions` → list · template · unique · **weirdest** · coolest. 흥미롭고 선점자가 안 보이나
+  **레인 2(K팝 굿즈) 게이트 대상**이다. 코호트 CTR 1.5% 확인 전까지 보류 ⏸
+- `kpop fansign how to` · `kpop fan culture terms` → **0건** ❌
+
+## 미검증 12개 카테고리 — 결과
+
+| 씨앗 | 분기 | 판정 |
+|---|---|---|
+| **`why do koreans live in apartments`** | why most · **why are korean apartments so small** · why so many · apartments or houses | ✅ **통과** |
+| `korea birth rate crisis` | why is korea's birth rate so low · reddit | **T2** — NYT·BBC·이코노미스트가 다 씀 |
+| `korean stock market foreigner` | **can foreigners buy korean stocks** · foreign ownership | ⏸ 정체성 부적합 (금융 YMYL) |
+| `korean military service explained` | how does it work · why required | ⏸ `044` 인접 |
+| `korean honorifics` | for lovers · for friends · for younger male | ❌ **`090`/`210`/`301` 클러스터** — 우리 dead end 영역 |
+| `joseon dynasty explained` | meaning · summary · what is | ❌ 정의형 — 위키·브리태니커 |
+| `chaebol korea explained` | meaning · what is | ❌ 정의형 |
+| `korean fashion brands` | in india · uk · singapore · **that ship to us** | ❌ 해외구매 의도 + `232` 중복 |
+| `son heung min korea` | **jersey** · jersey 2026 · world cup jersey | ❌ 굿즈·뉴스, 스포츠 매체 영역 |
+| `korean electronics brands` | in india · companies in india | ❌ |
+| `how to watch baseball in korea` | how to watch korean baseball **in the us/australia** | ❌ 해외 시청 + `081` 중복 |
+| `korea same day delivery` | **korean skincare · grocery · mart · snacks · pants same day delivery** | ❌ **디아스포라 트랩** |
+
+**`why do koreans live in apartments` 중복 감사**: `245`(Korean Home Reset Culture)가 아파트를
+다루지만 **집 안의 정리 문화**이지 "왜 한국이 아파트 국가가 되었나"라는 주거사·정책 질문이 아니다.
+`020`(이사)·`229`(바닥문화)도 다른 각도다. → **신규로 통과.**
+
+---
+
+# 최종 1차 통과 리스트
+
+## 지금 쓸 수 있는 것 (T0/T1)
+
+| # | 후보 | 클러스터 | 근거 | 등급 |
+|---|---|---|---|---|
+| 1 | **을지로 (Euljiro)** | 서울 동네 | 10/10, 오염 0, 전용글 없음, 경쟁자는 동급 블로그 | T1 |
+| 2 | **연남동 (Yeonnam-dong)** | 서울 동네 | 10/10, 오염 0, 전용글 없음 | T1 |
+| 3 | **캠핑 / wild camping** | 야외활동 | `for foreigners`·`winter`·`wild camping` — 야영 합법성은 한국 규정으로만 답 가능 | T0/T1 |
+| 4 | **왜 한국인은 아파트에 사는가** | 주거·사회 | 8분기 전부 mechanism, 한국 주거사로만 답 가능, 중복 없음 | T0/T1 |
+
+## 신규가 아니라 정비가 필요한 것
+
+| 대상 | 조치 |
+|---|---|
+| `067` + `181` 웹툰 | **통합.** `181` 유지, `067` 병합·차별화, `vs manga vs manhwa` 섹션 추가 |
+| `133` + `170` PC방 | 오늘 제목으로 의도 분리 완료 — 결과 관찰 |
+| `090` + `210` 호칭 | **대표님 결정 대기** (병합 vs 각도 분리) |
+| `054` 자동화 | 1,846단어로 얕음 — 한강 라면기·무인점포 수요를 심화로 흡수 |
+| `063` 등산 | 서울 한정 — 전국·계절 각도로 확장 여지 |
+| `151` 템플스테이 | 비용·영어 가능 여부·예약 실무 부재 |
+| `148` 다이소 | `tax refund`·`vs japan` 각도 부재 |
+
+## 예약 (T2 — 권위 상승 후)
+
+저출산 · 교복대여 · 사주 · e스포츠 · 팁 문화 · 외국인등록증 · 전세 ·
+계란빵 · 기름장 · 밀키스 · 너구리 · K팝 앨범 구성품(레인2 게이트)
