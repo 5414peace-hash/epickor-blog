@@ -568,9 +568,40 @@ Korean demand at scale. An empty English array means no English site has establi
 
 | KR branches | EN branches | Verdict |
 |---|---|---|
-| ≥8 | 0 | **Prime arbitrage.** Write now, own the romanization. |
-| ≥8 | 1–3 | Window closing. Check English coverage depth before committing. |
+| ≥8 | 0 | Demand gap confirmed — **now run the coverage gate below before writing.** |
+| ≥8 | 1–3 | Window closing. Coverage gate is mandatory. |
 | ≥8 | ≥8 | Too late — compete on specificity (§3) or skip. |
+
+#### ⚠️ 4.1a The coverage gate — equal in weight to Two-Curl, not a footnote
+
+**Added 2026-07-31 after the W31 cycle caught this the hard way.**
+
+**Two-Curl measures demand. It says nothing about supply.** An empty English autocomplete array
+means *nobody searches the romanized term* — it does **not** mean *nobody has written about it*.
+Those are different facts and conflating them produces a confident wrong answer.
+
+**The case that proved it — 짜르르 (Samyang beef-tallow jjajang), W31:**
+- Two-Curl: Naver 10 branches, `jjareureu` **0**, `samyang jjareureu` **0** → looked like prime arbitrage
+- The intended killer angle was the 1989 우지 파동 (the beef-tallow scandal that nearly destroyed Samyang)
+- **But a live SERP check found Korea Herald, Korea Times and Stripes Korea had already told that
+  exact story in English.** Supply existed; demand did not.
+- **No demand + existing supply is the worst quadrant there is.** Correctly parked, not written.
+
+**So run both gates and require both to pass:**
+
+| Gate | Question | Method | Fail condition |
+|---|---|---|---|
+| **Demand** (§4.1) | Does anyone search this in English? | Two-Curl | EN branches ≥8 |
+| **Supply** (this gate) | Has anyone already written this in English? | Live SERP + Google News on the romanization **and** the descriptive English phrase | A major English outlet already covers the specific angle |
+
+**Search both forms.** The romanization alone is not enough — `jjareureu` returns nothing while
+`samyang beef tallow ramen` returns Korea Herald, Korea Times and Stripes Korea. If the angle you
+intend to write is the one already covered, the topic is closed regardless of what autocomplete says.
+
+**The quadrant that is actually worth writing:** English demand exists (autocomplete shows a live
+descriptive suggestion, even a shallow one) **and** English coverage is thin or absent. W31's
+황치즈 sat exactly there — `orion moist yellow cheese chip` is a live Google suggestion, while
+English coverage was limited to Korea-domestic wire briefs about a single March price spike.
 | ≤3 | 0 | No demand anywhere. Skip. Not arbitrage, just obscurity. |
 
 ⚠️ **The romanization problem is real and it cuts both ways.** An empty English array can mean
@@ -807,6 +838,9 @@ New posts are not the only lever, and usually not the best one. Ranking 5–9 wi
    `age=20&gender=f&device=mo` — **the filtered list, not the unfiltered one**.
 4. Note anything appearing in **two or more** sources. Single-source signals are noise.
 5. Run the **Two-Curl Arbitrage Test** (§4.1) on each. Keep only KR-deep / EN-empty.
+5a. **Run the coverage gate (§4.1a) on every survivor — mandatory, not optional.** Search both the
+   romanization AND the descriptive English phrase. Two-Curl proves demand; this proves nobody has
+   already written it. Both must pass. (W31: 짜르르 passed Two-Curl and failed here.)
 6. **Check English coverage explicitly** — search the romanization and the descriptive phrase in
    Google News. If CNN/Korea Herald/Eater already has it, the window is closed (§4.5).
 7. Output: 3–6 raw candidates.

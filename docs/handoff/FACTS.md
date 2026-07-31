@@ -219,6 +219,27 @@
 
 ## gsc / strategy
 
+- **2026-07-31 — Two-Curl arbitrage measures DEMAND, not SUPPLY. Both gates are required.**
+  An empty English autocomplete array means nobody *searches* the romanization; it does not mean
+  nobody has *written* about it. Proven by 짜르르 (Samyang beef-tallow jjajang) in the W31 cycle:
+  Naver 10 branches, `jjareureu` and `samyang jjareureu` both **0** EN branches — textbook prime
+  arbitrage on the numbers — but a live SERP check showed **Korea Herald, Korea Times and Stripes
+  Korea had already published the 1989 우지 파동 angle in English.** No demand + existing supply.
+  Correctly parked. Playbook §4.1a added as an equal gate; Step 5a added to the weekly cadence.
+  **Always search the descriptive English phrase, not just the romanization** — `jjareureu` returns
+  nothing while `samyang beef tallow ramen` returns three major outlets.
+  *Verified:* direct autocomplete calls + WebSearch, 2026-07-31.
+- **2026-07-31 — Blog `301` (Ajumma Meaning) added to the permanent definitional dead-end list**
+  alongside `090` (ahjussi), `082` (SKY), `210`. 946 impressions / 0.21% CTR / position 8.3 —
+  structurally identical to 090. Do not spend a retitle on it. Recorded in CLAUDE.md.
+- **2026-07-31 — GSC web-export query CSV is capped at 1,000 rows and that materially limits the
+  weekly cycle's Step 1.** Page-level data covers all 322 pages, but most pages' query detail is
+  invisible: Blog `227` shows 1,797 page impressions while only 18 impressions of its queries appear
+  in the query export. Retitle decisions for such pages are therefore shape-inferred, not
+  query-verified, and must be labelled as such. `scripts/gsc-fetch.mjs` (25,000 rows/request) is
+  built and gitignore-verified but setup is optional and must not be prioritised over content.
+
+
 - **2026-07-31 — Keyword-selection playbook written: `docs/keyword-selection-playbook.md`.**
   Repeatable weekly process, free tools only. Read that file before doing any keyword research;
   it records which tools are alive, which are dead, and the accept/reject rules. The rows below
