@@ -2,7 +2,7 @@
 title: "What Is Deli Manjoo? Korea's Subway Custard Snack"
 slug: "071"
 date: "2024-09-06"
-updatedAt: "2026-07-18"
+updatedAt: "2026-07-31"
 visibility: "public"
 publishAt: ""
 description: "What is Deli Manjoo? Korea's warm corn-shaped custard snack, famous in subway stations for its sweet smell, soft cake, and nostalgia."
@@ -198,6 +198,33 @@ That is why people remember it.
 
 ---
 
+## What It Costs, and What to Ask For
+
+Deli Manjoo is sold by size rather than by piece, and prices are set per store, so this is a range rather than a fixed tariff. The sizing you will see on the board is 소 / 중 / 대 / 특대 — small, medium, large, extra-large.
+
+<div class="table-scroll">
+
+| Size on the board | Roughly | Good for |
+|---|---|---|
+| **소 (small)** | around ₩3,000 | one person, a taste |
+| **중 (medium)** | around ₩5,000 | one hungry person or two sharing |
+| **대 (large)** | around ₩8,000 | a group, or taking some back |
+| **특대 (extra-large)** | around ₩10,000 | sharing properly |
+
+</div>
+
+Some stalls price in flat ₩2,000 / ₩3,000 / ₩5,000 increments instead of named sizes. Either way, **₩3,000–5,000 is the normal entry point**, which puts it below a single café coffee almost anywhere in Seoul. Prices checked July 2026; individual franchise stores set their own, so treat these as the range to expect rather than a quote.
+
+You do not need Korean to order. Point at the size, pay, take the bag. If you want to say it, the brand is **델리만쥬** (*delli-manjyu*).
+
+## The Company Behind It, and Why Stations
+
+One detail that rarely makes it into English write-ups: **Deli Manjoo is a franchise brand, not a generic street snack.** It belongs to a Korean food company called **델리스 (Delis)**, and the first store opened in **1998 inside Myeongdong Station on Line 4**.
+
+From there it expanded to roughly **90 franchise locations concentrated in subway stations** through the early 2000s. That is why the snack feels inseparable from the metro — it was not a coincidence of street vending, it was a deliberate station-based franchise strategy. The smell you notice on the stairs is a business model.
+
+It also explains the inconsistency travelers notice. Because these are independently operated franchise stores rather than one company-run chain, the exact price, size naming, and even how fresh the batch is will vary from station to station.
+
 ## How to Find and Order It as a Visitor
 
 For travelers, Deli Manjoo is one of the easiest Korean snacks to try because it does not require much language confidence. You usually point to the size you want, pay, and receive a bag of warm pieces. The smell will probably guide you before the map does.
@@ -214,6 +241,14 @@ The ordering style is simple:
 It also travels better than many street foods. Tteokbokki can spill, hotteok can leak syrup, and fried snacks can get oily. Deli Manjoo is tidy enough to carry onto a walk, though you should still be considerate on crowded trains. Korea's subway etiquette is quiet and clean, so it is better to eat near the stall or outside the gate rather than making a full snack session inside a packed car.
 
 That tiny etiquette detail is part of the experience too. Deli Manjoo is a commuter snack, but the best moment to eat it is usually before the ride, not during it.
+
+### When to skip it
+
+Being honest about this makes the recommendation worth more. **Deli Manjoo is best within a few minutes of coming off the griddle, and it declines fast.** Warm, the shell is soft and the custard is loose. Twenty minutes later in a closed bag it goes dense and slightly damp, and the smell that sold it to you is gone.
+
+So: buy it when you can see it being made and you intend to eat it standing there or shortly after. Do not buy a large bag as a souvenir to bring home — it will not be the same snack by the time anyone else tries it. If you want something to actually carry back, the supermarket sells shelf-stable 만쥬-style packaged cakes that are a different, drier product but survive the trip.
+
+And if the stall you find has a tray of pieces sitting out rather than a griddle running, it is worth walking on. The whole point of this snack is that it is hot.
 
 ---
 
@@ -255,3 +290,10 @@ It turns a commute into a snack break.
 <div class="video-container" style="position: relative; padding-bottom: 177.77%; height: 0; overflow: hidden; max-width: 100%; background: #000; border-radius: 12px; margin: 30px 0;">
   <iframe src="https://www.youtube.com/embed/rP87tGz-82M" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
+
+**Sources and further reading:**
+
+- <a href="https://ko.wikipedia.org/wiki/%EB%8D%B8%EB%A6%AC%EB%A7%8C%EC%A5%AC" target="_blank" rel="noopener noreferrer">델리만쥬 (Korean Wikipedia)</a> — the Delis company, the 1998 Myeongdong Station first store, and the subway franchise expansion
+- <a href="http://www.delimanjoo.kr/" target="_blank" rel="noopener noreferrer">델리만쥬 official site</a>
+- <a href="/blog/220">EpicKor Korean subway snacks guide</a>
+- <a href="/blog/171">EpicKor Korean convenience store breakfast guide</a>
