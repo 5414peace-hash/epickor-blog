@@ -1,8 +1,8 @@
 ---
-title: "Museum Kimchikan Guide: Kimchi, Kimjang, and Insadong Visit Tips"
+title: "Museum Kimchikan Guide: Korean Kimchi, Kimjang, and Insadong Tips"
 slug: "062"
 date: "2024-08-07"
-updatedAt: "2026-07-18"
+updatedAt: "2026-07-31"
 visibility: "public"
 publishAt: ""
 description: "A practical Museum Kimchikan guide covering kimchi culture, kimjang, Insadong location, hours, tickets, programs, food allergies, and nearby stops."

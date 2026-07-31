@@ -1,8 +1,8 @@
 ---
-title: "Why Is Jang Wonyoung So Popular? Wonyoungism Explained"
+title: "Why Is Jang Wonyoung So Popular? The Korean Idol and Wonyoungism"
 slug: "043"
 date: "2024-07-26"
-updatedAt: "2026-07-18"
+updatedAt: "2026-07-31"
 visibility: "public"
 publishAt: ""
 description: "Why Jang Wonyoung is so popular: IVE, IZ*ONE, Lucky Vicky, Wonyoungism, fashion, criticism, and the K-pop idol image she shaped."

@@ -1,8 +1,8 @@
 ---
-title: "Chung Yong-jin and Shinsegae: Influencer Leadership Risks"
+title: "Chung Yong-jin and Shinsegae: Korean Influencer Leadership Risks"
 slug: "004"
 date: "2024-07-04"
-updatedAt: "2026-07-18"
+updatedAt: "2026-07-31"
 visibility: "public"
 publishAt: ""
 description: "A current guide to Chung Yong-jin, Shinsegae Group, E-Mart, Starbucks Korea, and the risks of public-facing chaebol leadership."

@@ -1,8 +1,8 @@
 ---
-title: "BTS V Military Service Guide: SDT, Discharge, and Comeback"
+title: "BTS V Korean Military Service Guide: SDT, Discharge, and Comeback"
 slug: "044"
 date: "2024-07-26"
-updatedAt: "2026-07-18"
+updatedAt: "2026-07-31"
 visibility: "public"
 publishAt: ""
 description: "A current guide to BTS V's military service, Special Duty Team role, June 2025 discharge, fan etiquette, and what it means for BTS's comeback era."

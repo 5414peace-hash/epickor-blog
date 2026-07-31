@@ -51,6 +51,20 @@ function calculateSeoScore(markdown, frontmatter) {
     issues.push(`단어 수 심각히 부족: ${wordCount}단어 (1800+ 필요)`);
   }
 
+  // 1b. 제목 Korea 게이트 (감점 없음, 하드 블로커)
+  // 2026-07-31 대표님 지시: EpicKor의 모든 글은 한국 이야기다. 제목에 한국 지시어가 없으면
+  // 구글이 이 페이지를, 나아가 사이트 전체를 한국 주제로 묶을 근거를 하나 잃는다.
+  // 노출이 큰 페이지일수록 손해가 크다 — `090`은 158,280 노출을 만들면서 제목에 Korea가 없었다.
+  // 로마자 제품명만으로는 통과하지 못한다: `Chapagetti Guide`가 아니라
+  // `Chapagetti: Korea's Black Bean Noodle`이어야 한다.
+  const koreaMarker = /korea|korean|seoul|busan|k-pop|k-drama|k-beauty|hangul|jeju|hanok|hallyu/i;
+  if (!koreaMarker.test(frontmatter.title || '')) {
+    issues.push(
+      `제목에 한국 지시어 없음: "${frontmatter.title}" ` +
+      `(Korea/Korean/Seoul/Busan 등 중 하나를 자연스럽게 포함할 것)`
+    );
+  }
+
   // 2. H2 섹션 수 (10점)
   const h2Count = (markdown.match(/^## .+/gm) || []).length;
   if (h2Count >= 4) {

@@ -1,8 +1,8 @@
 ---
-title: "Suwon Day Trip Guide: Hwaseong Fortress, Haenggung, and Food"
+title: "Suwon Day Trip from Seoul: Hwaseong Fortress, Haenggung, and Food"
 slug: "064"
 date: "2024-08-08"
-updatedAt: "2026-07-18"
+updatedAt: "2026-07-31"
 visibility: "public"
 publishAt: ""
 description: "A practical Suwon day trip guide from Seoul covering Hwaseong Fortress, Hwaseong Haenggung, Haenggung-dong cafes, food, transit, timing, and tips."
