@@ -392,6 +392,27 @@
 
 ## images
 
+- **2026-07-31 — STRUCTURAL CONSTRAINT ON LANE 1: viral limited-edition Korean products have no
+  freely-licensed photos, and there is no workaround.** Confirmed exhaustively for 오리온 촉촉한
+  황치즈칩 (the W31 pick): **zero** results on Wikimedia Commons, Pexels and Unsplash for the actual
+  product. The causes are structural and will repeat for every similar product:
+  (a) limited editions get **no permanent manufacturer catalog page** — verified that 촉촉한 초코칩
+  *is* in Orion's biscuit catalog while 황치즈칩 is in neither the 스낵 nor 비스킷 catalog;
+  (b) **no export SKU**, so no foreign retail photography either;
+  (c) scarcity means it never enters casual photo commons.
+  **Press photos credited "오리온 제공" are press-distribution licensing, not CC or PD** — same
+  reasoning that already bars Getty embeds from this monetized site.
+  **The tier-4 "reference and recreate" route is CLOSED for branded packaged goods** — a recreated
+  package is brand impersonation, which the sourcing rules bar outright.
+  **Therefore the standing approach for lane-1 product posts is:** honestly-captioned real Korean
+  retail context (convenience store interiors, the manufacturer's *other* CC0-licensed products),
+  each captioned by what it positively IS with zero reference to the target product. If the only
+  honest caption explains what the photo is NOT, the photo is the wrong choice — replace it, do not
+  hedge the caption. Upgrade paths worth taking when the product matters enough: request permission
+  from the manufacturer's PR, or have the representative photograph it on a Korean shelf.
+  *Verified:* direct searches of Commons/Pexels/Unsplash and Orion's own KR + EN catalogs, 2026-07-31.
+
+
 - **2026-07-30 — Actually violated the site's own Blog Reference Image Standard while writing
   captions for images honestly documented as "not the real venue" (Blogs 340/342, both brand-new
   2026 locations too recent for Wikimedia Commons).** Wrote captions like "not a photo of the park
