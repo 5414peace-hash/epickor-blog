@@ -2,7 +2,7 @@
 title: "Korean Convenience Store Food Guide: Dosirak and Snacks"
 slug: "059"
 date: "2024-08-03"
-updatedAt: "2026-07-18"
+updatedAt: "2026-07-31"
 visibility: "public"
 publishAt: ""
 description: "A Korean convenience store food guide explaining Baek Jong-won and Kim Hye-ja lunch boxes, dosirak, ramen, snacks, value labels, and traveler tips."
@@ -79,6 +79,34 @@ That is why celebrity food branding in Korea is not only about fame. The celebri
 ![A Korean convenience-store ready-meal image from EpicKor's original package.](/assets/images/posts/059/legacy-frame-01.jpg)
 *Celebrity branding works best when the name explains what kind of value the buyer expects.*
 
+## What It Costs in 2026
+
+The convenience-store meal is Korea's price benchmark, which is exactly why Koreans track its inflation so closely. Here is where it actually sits.
+
+<div class="table-scroll">
+
+| Item | Korean | Typical price (July 2026) |
+|---|---|---|
+| Lunch box, budget line | 도시락 | from about **₩3,500** (CU runs the lowest entry price) |
+| Lunch box, standard | 도시락 | ₩4,500–6,700 |
+| GS25 "Hyeja" line | 혜자로운 도시락 | around ₩4,000 with 10+ side items |
+| Triangle gimbap | 삼각김밥 | ₩1,200–1,900 |
+| Cup ramyeon | 컵라면 | ₩1,500–2,500 |
+
+</div>
+
+The shift worth knowing: **the ₩6,000 lunch box is now normal.** For years the convenience-store dosirak was shorthand for the cheapest possible hot meal in Korea, and Korean coverage in 2026 has been marking the moment that framing stopped being true. It is still good value against a restaurant, but it is no longer automatically the cheapest thing you can eat.
+
+### The word that means the opposite, and the lawsuit it caused
+
+*Hyeja-like* only makes sense because Korean already had a word for the opposite, and that word is a small piece of internet history worth knowing.
+
+Singer **Kim Chang-ryeol (김창렬)** fronted a convenience-store instant-food line, *Kim Chang-ryeol's Pojangmacha* (김창렬의 포장마차), starting in 2009. Shoppers found the packaging impressive and the contents thin, and Korean internet users coined **창렬하다** (*changryeol-hada*) — flashy outside, disappointing inside, bad value. It became a general-purpose insult for any overpriced, underfilled product.
+
+He sued the manufacturer for damaging his reputation. **On February 3, 2017, the Seoul Central District Court ruled against him**, holding it could not conclude the company had made products defective enough to damage his image.
+
+So the two words work as a pair, and Koreans use them constantly when judging a lunch box: **혜자** means you got more than you paid for, **창렬** means you got less. If you learn only two pieces of convenience-store slang in Korea, learn these.
+
 ## How to Choose a Dosirak Lunch Box
 
 A Korean dosirak is a boxed meal, usually rice plus main protein plus side dishes. Convenience-store dosirak can be surprisingly good, but quality varies by freshness, brand, store turnover, and whether you like the seasoning style.
@@ -128,7 +156,13 @@ If you cannot read the package, watch what locals do or ask staff briefly. A sim
 
 ## What to Skip
 
-Skip anything that looks old, damaged, swollen, unrefrigerated when it should be cold, or too difficult to eat in your situation. A giant soup meal is not a good subway snack. A delicate cream dessert is not ideal for a long summer walk. A very spicy ramen may not be fun before a bus ride.
+**Buy the dosirak with the latest sell-by time, not the one in front.** Stock rotates front-to-back, so the freshest box is usually behind the others. Locals check the label without thinking about it, and it is the single highest-value habit in the whole store.
+
+**Skip the fresh case late at night unless it is discounted.** Fresh items get marked down (**마감 할인**) as their sell-by time approaches. Paying full price for a box that expires in two hours is the one genuinely bad deal here.
+
+**Skip the giant hot meal if you are about to move.** A soup dosirak is not a subway snack, a cream dessert is not a summer walking food, and a very spicy ramyeon is a poor choice before a long bus ride.
+
+Skip anything that looks old, damaged, swollen, or unrefrigerated when it should be cold.
 
 Also skip the idea that one store represents all Korean convenience food. Product lines rotate quickly. If one location is disappointing, try another chain or a larger branch near an office district, university, train station, or apartment area.
 
