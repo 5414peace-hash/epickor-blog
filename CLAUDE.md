@@ -22,7 +22,7 @@
 - Strategic parent-company context: Tripclip is a 10-year video-production company and export-voucher supplier. The business section should strengthen the position "a production company that also owns a working overseas-facing Korea media channel."
 - Use `/business/` as the separate URL area for business posts. Do not fold business content into normal `/blog/` posts once the route exists.
 - Do not redesign the whole site around business content before the 2026-10-05 review. Add minimal navigation and routing only.
-- Maintain the content ratio target after launch: culture section 3 posts/day plus business section 1 post/day, roughly culture 3 : business 1.
+- Maintain the content ratio target after launch: culture section 3 posts/day plus business section 1 post/day, roughly culture 3 : business 1. **(2026-07-31 변경: 일반 섹션의 일일 리듬은 "신규 2편 + 리프레시 1편"으로 대체됨 — "실행계획 챕터 1 — 확정 지침" 참조. 비즈니스 섹션 별도 1편 목표는 유지하되 동일하게 레인·스펙 게이트를 따른다.)**
 - Business posts are not a separate paid-placement or sponsored-content monetization product at launch, but they should still include relevant Amazon affiliate links/CTAs under the normal Amazon Affiliate Placement Rules unless the representative explicitly says to omit them. Keep the links practical, subtle, and useful for business readers, such as Korea business books, sourcing books, trade-show planning tools, market-research books, or travel/work essentials.
 - Business posts must be in English. Company names should use official English names first.
 
@@ -231,6 +231,78 @@
 - Reels 2.1 human-made finish gate is a hard reject, regardless of internal score, for: corporate-deck structure, generic stock mood, repeated templates, plain-black information screens, warped objects or hands, broken Korean text/signage, over-smooth AI motion, mismatched lighting, excessive still-image zooms, unnatural narration, or any scene that visibly feels AI-generated. Review the final candidate on a phone with sound both on and off. Representative rejection overrides all internal scores.
 - Record Reels agent roles, dashboard review status, blockers, and next improvements in `HANDOFF.md`.
 - After publishing a Reel, record hook archetype, thumbnail variant, voice lane, motion-card count/placement, and available performance metrics such as 1h/24h/7d views, saves, shares/sends, comments, profile visits, and external link taps.
+
+## 실행계획 챕터 1 — 확정 지침 (2026-07-31 대표님 승인)
+
+> 전문: `docs/checkpoints/2026-07-31_실행계획-챕터1.md` / 진단 근거: `2026-07-31_중간점검-챕터1.md`.
+> 이 지침은 아래 Topic Engine 원칙을 대체하는 것이 아니라 **레인·형식·리듬 차원에서 구체화**한 것이다.
+> 충돌 시 이 지침이 우선한다 (더 최신, 대표님 승인).
+
+### 정체성 (모든 판단의 기준)
+
+**EpicKor는 "지목해서 살 수 있는 한국의 구체적인 것"을, 한국 현지에서 한국어 출처로 검증해,
+이번 달 기준의 사실로 알려주는 영어 사이트다.** 파는 것은 정의가 아니라 판단 재료다.
+한 레인을 먼저 압도하고, 이긴 뒤 넓힌다.
+
+### 레인 (순서 고정 — 임의로 건너뛰지 않는다)
+
+1. **1차 (현재)**: 음식-구체 — 포장 과자·편의점·길거리 음식. 근거: 자체 CTR 2.154% (문화의 14배), SERP 무주공산 실측.
+2. **2차 (조건부)**: K팝 굿즈·뷰티 제품. **확장 조건: 1차 레인 신규 글 코호트 CTR ≥ 1.5% 확인 후.**
+   조건 충족 전에는 2차 레인 신규 글을 쓰지 않는다 — 이전에 승인됐던 뷰티 제품 주제(네오젠 모공무스,
+   바이오댄스 마스크 등)도 **이 조건이 충족될 때까지 보류**다. 먼저 꺼내 쓰지 말 것.
+3. **3차 (분기 단위)**: 거래장벽 실용 가이드 ("for foreigners" + 한국 시스템 항해).
+
+### 금지 (신규 발행 기준)
+
+- **정의형 문화 설명글 신규 발행 금지.** 판정 기준은 주제가 아니라 **쿼리 형태**다: 독자가 읽고 *하는 일*이
+  없으면 정의형이다. 문화 주제라도 행동/결정 프레임(예: 결혼식 하객 — 얼마 내나, 뭐 입나)이면 통과.
+  기존 문화 글은 삭제·비공개하지 않는다 (클릭 327개 유입 중). 키우려는 투자만 중단.
+- **"where to buy X" 프레임 금지.** 해당 SERP는 소매점(sayweee·월마트·타겟·아마존)이 100% 점유 —
+  2026-07-30 실측. 반드시 "what is X / how to eat·use X / A vs B"로 쓴다.
+- **아저씨·SKY 클러스터(090·082) 추가 투자 금지.** 노출의 56.6%지만 구조적 dead end (4위에서도 CTR 0.3%대).
+  이 노출을 성과·기회로 보고하지 않는다.
+- **Creatrip 제휴는 하지 않는다 (2026-07-31 대표님 결정).** 법인 문의 메일도 보내지 않는다. 재론 금지.
+- **배관(계측·설정·도구) 작업을 콘텐츠보다 먼저 하지 않는다.** GSC API 스크립트(`scripts/gsc-fetch.mjs`)는
+  만들어져 있고, 대표님의 5클릭 설정은 급하지 않은 선택 사항이다. 재촉하지 말 것.
+
+### 제품 글 스펙 v1 (1차 레인 신규 글 필수 5요소 — 하나라도 빠지면 발행 불가)
+
+1. **이번 달 가격 + 날짜 스탬프** — "As of July 2026, ₩2,800" 형식. 가격 없는 제품 글은 미완성이다.
+2. **한글 병기** — 브랜드·제품·장소명 전부 (`Ppushu Ppushu (뿌셔뿌셔)`).
+3. **한국어 출처 사실 최소 1개** — 영어 웹에 존재하지 않는 것 (나무위키·네이버·공정위 정보공개서·KOSIS·브랜드 공식 한국어 자료). 출처 명시.
+4. **실물 디테일** — 실제 파는 곳, 먹는·쓰는 법, 지하철 출구 번호, 영업시간 등 "현장에 서 있어야 아는 것".
+5. **정직한 반대 정보** — "이럴 땐 사지 마라", "다이소가 더 싸다" 류. 제휴 링크 바로 옆에 배치.
+
+형식 표준: 서문 직후 Quick Guide 표(`table-scroll`) / 신규 글은 키워드 슬러그(`/blog/ppushu-ppushu-guide` 형태 —
+**기존 글 URL 마이그레이션은 반증 완료, 하지 않는다**) / `Last Updated` 표시(발행일은 스키마에만) /
+제목에 연도 스탬프 넣지 않음 / description 120~260자(놀라운 사실을 앞에서부터 채움 — 리뷰어 스크립트 반영됨) /
+H2 사이 `You might like` 내부링크 디바이더.
+
+### 하루 리듬 (2026-07-31부로 기존 "신규 3편/일" 대체)
+
+**신규 2편 + 리프레시 1편.**
+- 신규 2편: 주간 키워드 사이클 통과 후보만. 임의 주제 금지.
+- 리프레시 1편: 스펙 v1을 기존 글에 적용. 순서 고정 — **음식-구체 16편 먼저**, 그다음 클릭 상위 30편.
+- 기존 `topics-queue.json` 대기 주제도 발행 전 이 지침의 게이트(레인·쿼리 형태·스펙)를 재통과해야 한다.
+
+### 주간 키워드 사이클 (절차: `docs/keyword-selection-playbook.md`)
+
+네이버 자동완성·데이터랩(한국 신호) ↔ 구글 영문 자동완성(공백) 격차 → 쿼리 형태 필터 →
+수동 SERP 판정 → **주간 산출물: 후보 5개 + 판정 근거 → 대표님 승인 → 집필 큐.**
+승인 없이 집필로 넘어가지 않는다.
+
+### 측정 규칙
+
+- **시계열 비교는 클릭으로만 한다.** 노출·CTR 시계열 비교 금지 — 구글이 2025-05-13~2026-04 노출
+  과다집계 버그를 공식 인정했고 보유 추출본 전부가 그 구간이다 (FACTS.md).
+- 챕터 2 점검(약 4주 후) 판정표는 실행계획 문서 §7. 핵심 게이트: 신규 12편+ / 16편 리프레시 완료 /
+  신규 코호트 CTR ≥ 1.5% / 아마존 판매 1건+.
+
+### 수익화
+
+아마존(재신청 계정 `epickor-20`, 180일 내 실독자 판매 3건 필요 — 1차 레인 제품 글이 곧 판매 견인) +
+아고다(기존 파일럿 유지). Trazy 제휴는 계획상 후보로 남기되 가입 실행은 대표님과 함께 진행.
+**Creatrip은 위 금지 항목 참조 — 하지 않는다.**
 
 ## Topic Engine — 뾰족함이 볼륨을 이긴다 (2026-07-26 대표님 지시, GSC 실측으로 확정)
 
@@ -599,7 +671,7 @@ output/reels/{slug}/          Reels scene manifest, visual candidates, review no
 |------|------|
 | 단어 수 1,800 이상 | 20 |
 | H2 4개 이상 | 10 |
-| description 120-155자 | 10 |
+| description 120-260자 (2026-07-31 상한 확대 — 실행계획 챕터 1) | 10 |
 | 메인 키워드 첫 100단어 내 | 10 |
 | FAQ Q&A 3개 이상 | 20 |
 | 이미지 2장 이상 + alt | 10 |

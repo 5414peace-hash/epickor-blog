@@ -63,14 +63,17 @@ function calculateSeoScore(markdown, frontmatter) {
   }
 
   // 3. description 길이 (10점)
+  // 2026-07-31 규칙 변경 (실행계획 챕터 1, 대표님 승인): 상한을 155자에서 260자로 확대.
+  // 상위 경쟁 사이트는 200~260자에 놀라운 사실을 앞쪽부터 채우고 구글이 자르게 둔다.
+  // 짧은 요약보다 사실 밀도가 우선이다.
   const descLen = (frontmatter.description || '').length;
-  if (descLen >= 120 && descLen <= 155) {
+  if (descLen >= 120 && descLen <= 260) {
     score += 10;
-  } else if ((descLen >= 100 && descLen < 120) || (descLen > 155 && descLen <= 170)) {
+  } else if ((descLen >= 100 && descLen < 120) || (descLen > 260 && descLen <= 280)) {
     score += 5;
-    suggestions.push(`description 길이 조정: ${descLen}자 (120~155자 권장)`);
+    suggestions.push(`description 길이 조정: ${descLen}자 (120~260자 권장)`);
   } else {
-    issues.push(`description 길이 문제: ${descLen}자 (120~155자 필요)`);
+    issues.push(`description 길이 문제: ${descLen}자 (120~260자 필요)`);
   }
 
   // 4. 메인 키워드 첫 100단어 위치 (10점)
