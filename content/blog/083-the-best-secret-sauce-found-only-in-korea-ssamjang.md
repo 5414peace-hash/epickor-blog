@@ -2,7 +2,7 @@
 title: "Ssamjang Guide: Korea's BBQ Wrap Sauce Explained"
 slug: "083"
 date: "2024-08-26"
-updatedAt: "2026-07-18"
+updatedAt: "2026-07-31"
 visibility: "public"
 publishAt: ""
 description: "A practical guide to ssamjang, Korea's barbecue wrap sauce, including ingredients, flavor, ssam etiquette, how to buy it, and how to use it at home."
@@ -67,6 +67,52 @@ For broader table behavior, read EpicKor's [Korean restaurant etiquette guide](/
 
 ![Korean BBQ wrap table visual from EpicKor's original ssamjang package.](/assets/images/posts/083/legacy-frame-01.jpg)
 *The best ssam bite is small, balanced, and easy to finish in one mouthful.*
+
+## The Ratio: What Ssamjang Actually Is
+
+Most English explanations stop at "a mix of soybean paste and chili paste," which is true and useless. Here is the working ratio Koreans actually use.
+
+<div class="table-scroll">
+
+| Component | Korean | Proportion |
+|---|---|---|
+| Soybean paste | 된장 | **2 parts** |
+| Chili paste | 고추장 | **1 part** |
+| Minced garlic | 다진 마늘 | to taste |
+| Sesame oil | 참기름 | to taste |
+| Chopped spring onion | 파 | to taste |
+| Sweetener — honey, corn syrup, or sugar | 꿀 / 물엿 / 설탕 | small amount |
+
+</div>
+
+**Two parts doenjang to one part gochujang.** That is the whole structure, and it explains why ssamjang tastes the way it does: it is fundamentally a **savoury** sauce with heat added, not a chili sauce softened. If yours tastes like gochujang with something mixed in, the ratio is wrong.
+
+The additions are not optional garnish either. Sesame oil is what makes it cling to a lettuce leaf instead of sliding off. Garlic is what makes it taste like a barbecue sauce rather than plain fermented paste. The sweetener rounds the salt down so a spoonful next to fatty pork does not read as harsh.
+
+**You can make usable ssamjang in about two minutes** if you already own doenjang and gochujang, and many Korean households do exactly that rather than buying a tub. If you have both pastes in your fridge and have been buying ssamjang separately, stop.
+
+## What a Tub Costs in Korea
+
+<div class="table-scroll">
+
+| Product | Korean | Price (July 2026) |
+|---|---|---|
+| Haechandle four-season ssamjang, 170g | 해찬들 사계절 쌈장 | about **₩1,500** |
+| Chung Jung One Sunchang seasoned ssamjang, 200g | 청정원 순창 양념듬뿍 쌈장 | about **₩2,500** |
+| Chung Jung One sesame-garlic ssamjang, 500g | 청정원 순창 참깨마늘 양념쌈장 | about **₩8,600** |
+
+</div>
+
+The three big domestic paste brands are **청정원 (Chung Jung One)**, **샘표 (Sempio)**, and **해찬들 (Haechandle)**. Any of them is a safe purchase — this is not a category where brand choice will make or break your meal.
+
+Note the price jump between the 200g and 500g tubs above. **Bigger is not automatically better value here**, because the larger tub is a premium sesame-garlic variant rather than more of the same product. Compare price per gram on the shelf rather than assuming the big one wins.
+
+### When to skip buying it
+
+- **Skip the tub entirely if you already own doenjang and gochujang.** Mix 2:1 with garlic and sesame oil. It takes two minutes and tastes fresher.
+- **Skip the small 170g tub if you are cooking for a household.** Ssamjang keeps well refrigerated and gets used faster than people expect once it is in the fridge.
+- **Skip it as a gift or souvenir.** It is a fermented paste in a plastic tub — it travels poorly, may raise customs questions on some routes, and is available in Korean groceries in most major cities anyway. Buy gochujang or a sesame oil bottle instead if you want something to carry home.
+- **If you are vegetarian, vegan, or allergic, do not assume.** Some commercial tubs contain anchovy or other animal-derived ingredients, and wheat appears in many. Read the panel every time; formulations differ by brand and by variant within a brand.
 
 ## Buying Ssamjang: What to Check
 
