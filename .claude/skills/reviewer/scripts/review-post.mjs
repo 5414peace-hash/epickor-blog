@@ -179,11 +179,30 @@ function checkImageIssues(markdown) {
     }
 
     const cleanSrc = src.split('#')[0].split('?')[0];
+    // 일부 자산은 파일명 자체에 %EC%A7%84%ED%98%B8 같은 문자열이 리터럴로 들어 있다.
+    // 디코딩한 경로만 검사하면 실재하는 파일을 "missing"으로 오탐한다 (2026-07-31, 048/038).
+    // 프로덕션은 둘 다 200으로 서빙하므로 두 형태 모두 확인한다.
+    const rel = cleanSrc.startsWith('/assets/')
+      ? cleanSrc.slice(1)
+      : cleanSrc.startsWith('assets/')
+        ? cleanSrc
+        : null;
     let assetPath = null;
-    if (cleanSrc.startsWith('/assets/')) {
-      assetPath = join(ROOT, 'public', decodeURIComponent(cleanSrc.slice(1)));
-    } else if (cleanSrc.startsWith('assets/')) {
-      assetPath = join(ROOT, 'public', decodeURIComponent(cleanSrc));
+    if (rel) {
+      const candidates = [rel];
+      try {
+        const decoded = decodeURIComponent(rel);
+        if (decoded !== rel) candidates.push(decoded);
+      } catch {
+        // 잘못된 %-시퀀스는 리터럴 파일명으로 취급한다
+      }
+      assetPath = join(ROOT, 'public', rel);
+      for (const c of candidates) {
+        if (existsSync(join(ROOT, 'public', c))) {
+          assetPath = join(ROOT, 'public', c);
+          break;
+        }
+      }
     }
 
     if (assetPath && !existsSync(assetPath)) {

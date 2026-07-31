@@ -2,7 +2,7 @@
 title: "Korean Ramyun Guide: Shin, Buldak, Chapaghetti, and More"
 slug: '038'
 date: "2024-07-23"
-updatedAt: "2026-07-18"
+updatedAt: "2026-07-31"
 description: "A practical Korean ramyun guide explaining Shin Ramyun, Buldak, Chapaghetti, cup noodles, spice levels, toppings, and buying tips."
 tags: ["Food", "Culture", "Shopping", "KoreanRamyun"]
 ogImage: "/assets/images/posts/038/36628da4-9e56-4710-bde0-a77b9874e472.png"
@@ -97,6 +97,33 @@ For soup ramyun, use a little less powder if sodium or heat is a concern, but un
   </tbody>
 </table>
 </div>
+
+## What ramyun costs in Korea right now
+
+Ramyun is the cheapest hot meal in Korea, and its price is watched more closely than almost any other grocery item. Here is where it stands.
+
+<div class="table-scroll">
+
+| Format | Korean | Price (July 2026) |
+|---|---|---|
+| Bagged Shin Ramyun, single | 신라면 봉지 | **about ₩1,000** at a convenience store |
+| Bagged multipack, 5 units | 봉지 5개입 | notably cheaper per serving at a mart |
+| Cup ramyun, small | 컵라면 | roughly ₩1,200–1,800 |
+| Buldak cup | 불닭볶음면 컵 | about ₩1,800 |
+
+</div>
+
+**Buy single packs at a convenience store only to sample.** For anything more, go to an E-Mart, Homeplus, or Lotte Mart — the same noodles in a five-pack cost meaningfully less per serving, and this is the one place travelers routinely overspend on Korean groceries.
+
+### Why ramyun prices are political in Korea
+
+This is the part that surprises visitors, and it explains why the ₩1,000 bag has barely moved.
+
+In June 2023, Deputy Prime Minister Choo Kyung-ho publicly said ramyun prices ought to come down because international wheat prices had fallen. Manufacturers complied within weeks. **Nongshim cut Shin Ramyun's shipping price by 4.5% and Saewookkang by 6.9% effective July 1, 2023 — its first ramyun price cut in 13 years.** Samyang followed with an average 4.7% cut across 12 products. Nongshim put its flour savings at ₩8 billion against roughly ₩20 billion in consumer benefit.
+
+The same logic is visible this week. Nongshim announced on July 24, 2026 that from **August 1, 2026** it would raise shipping prices on cup ramyun by an average 6.0%, snacks by 5.5%, and beverages by 7.7% — Yukgaejang Sabalmyeon goes from ₩1,100 to ₩1,200, and 90g Saewookkang from ₩1,500 to ₩1,600. **Bagged ramyun, including Shin Ramyun, was excluded entirely**, and bagged products are about 63% of ramen sales.
+
+That exclusion is not an accident. The bagged ₩1,000 noodle functions as a public price benchmark in Korea, and raising it invites a political reaction that raising a cup noodle does not. If you are comparing prices on your trip, this is why the bag and the cup move differently.
 
 ## What should a beginner buy first?
 

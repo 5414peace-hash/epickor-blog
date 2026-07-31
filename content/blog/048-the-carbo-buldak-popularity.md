@@ -2,7 +2,7 @@
 title: "Carbo Buldak Guide: Why Korea's Creamy Spicy Ramen Went Global"
 slug: "048"
 date: "2024-07-28"
-updatedAt: "2026-07-18"
+updatedAt: "2026-07-31"
 visibility: "public"
 publishAt: ""
 description: "A practical Carbo Buldak guide explaining the Korean ramen's creamy heat, viral growth, buying tips, cooking tweaks, and spice-safety notes."
@@ -43,7 +43,7 @@ The most important detail is that Buldak is not soup ramen. It is usually cooked
 
 Carbo Buldak sits in the middle of the Buldak family. The original hot-chicken flavor is sharper. Cream Carbonara is often perceived as softer and richer. Cheese, quattro cheese, jjajang, curry, and other versions each change the heat shape, but Carbonara remains the famous "pink one" because it gives a clear promise: spicy, but creamy.
 
-![Carbo Buldak held up in the original EpicKor Carbo Buldak footage.](/assets/images/posts/048/057_EpicKor_%EC%A7%84%ED%98%B8.mp4_20240722_222016.271.jpg)
+![Carbo Buldak held up in the original EpicKor Carbo Buldak footage.](/assets/images/posts/048/carbo-buldak-pack-epickor-footage.jpg)
 
 ## Why It Spread Outside Korea
 
@@ -79,6 +79,28 @@ If you are new to Buldak, start with half the sauce packet. You can always add m
 </div>
 
 ## Which Version Should You Buy?
+
+Before anything else, the numbers. Samyang publishes a Scoville rating for each pack, and the three you will see side by side are genuinely different products — not marketing variations of one noodle.
+
+<div class="table-scroll">
+
+| Version | Korean | Heat (SHU) |
+|---|---|---|
+| Original Buldak | 불닭볶음면 | **4,404** |
+| Carbo Buldak | 까르보불닭볶음면 | **2,400** |
+| Cream Carbo Buldak | 크림까르보불닭볶음면 | **2,000** |
+
+</div>
+
+**Carbo Buldak is roughly half the heat of the original.** That single fact explains the global takeover better than any trend piece: the sauce that broke people on camera was reformulated into something most people can actually finish, and the milk fat in the carbonara powder blunts the capsaicin further.
+
+The trap is the third row. **Cream Carbo (크림까르보) is a separate, milder product**, launched in 2020, and its pack looks close enough to standard Carbo that shoppers outside Korea mix them up constantly. If you wanted the famous pink pack and got something noticeably gentler, this is almost certainly what happened. Check the Korean name on the front.
+
+### What it costs in Korea
+
+As of **July 2026**, a Buldak cup at a Korean convenience store runs about **₩1,800**, and single bagged packs sit in a similar range.
+
+**Do not buy your supply at a convenience store.** This is the honest counter-recommendation: convenience stores charge a premium for single units, and the same noodles in a five-pack (봉지 5개입) at an E-Mart, Homeplus, or Lotte Mart cost meaningfully less per serving. Buy one at a convenience store to try it. Buy the multipack at a mart if you liked it.
 
 Buy Carbonara first if you want the famous pink-pack experience. Buy Cream Carbonara if you specifically want a softer, creamier bowl. Buy the original hot-chicken flavor if you want the sharper challenge version. Buy tteokbokki or dumpling versions only if you already know you like the sauce family and want the same flavor logic in a different format.
 
