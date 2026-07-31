@@ -2,7 +2,7 @@
 title: "Korea's Automated Convenience Culture: Ramen Machines to Robots"
 slug: "054"
 date: "2024-07-31"
-updatedAt: "2026-07-18"
+updatedAt: "2026-08-01"
 visibility: "public"
 publishAt: ""
 description: "A practical guide to Korea's automated convenience culture, from Hangang ramen machines and kiosks to robot cafes, unmanned stores, and safety rules."
@@ -46,6 +46,32 @@ For the non-robot version of the same habit, EpicKor's [unique things in Korea g
 ## Hangang Ramyeon Machines: The Perfect Tourist Automation
 
 If one Korean machine deserves tourist fame, it is the Hangang ramyeon cooker. The ritual is simple: buy a packet of ramyeon and a special foil container at a riverside convenience store, place the noodles and seasoning inside, use the cooking station, and wait while the machine adds water and boils the noodles. Then you eat with the river view.
+
+### Where the machines are, and what it costs
+
+<div class="table-scroll">
+
+| | Detail |
+|---|---|
+| Korean name | **한강라면** (*Hangang ramyeon*) |
+| Where | Convenience stores **inside Hangang parks** — Yeouido and Banpo are the best-known |
+| Price | **around ₩4,800** as of January 2024, up from ₩2,500 in the early years. Expect higher now |
+| What you pay for | The noodles plus use of the cooker — you are not buying a bowl from a kitchen |
+| Time | **about 3 minutes 30 seconds** |
+
+</div>
+
+The history is more specific than most guides say. The cookers appeared in a **Yeouido Hangang Park convenience store in the late 2000s**, and the habit became a nationwide phenomenon in **2011**, when **7-Eleven — which then operated 13 stores across the Hangang parks** — began installing them across its riverside branches. One chain rolling out one appliance created a national food ritual.
+
+### Why it tastes different from the same packet at home
+
+This is the part nobody explains, and it is the actual answer to why people say Hangang ramyeon hits differently.
+
+**The machine does not follow the packet.** It dispenses roughly **400–450ml of water — about 100ml less than the instructions call for** — and runs for only **about three and a half minutes**, shorter than a standard home cook.
+
+Less water and less time means a **more concentrated broth and firmer noodles**. It is not nostalgia or the river view doing the work; the appliance is making a measurably different bowl. If you want to reproduce it at home, use less water than the bag says and pull the noodles early — the same trick Koreans already apply to instant noodles generally.
+
+**The honest counter-recommendation:** ₩4,800 for a packet of instant noodles is several times what the same packet costs at a normal convenience store, and roughly what a modest restaurant meal costs. **You are paying for the setting, not the food.** Do it once for the river and the ritual. If you want to eat cheaply by the Hangang, bring your own from a mart and skip the cooker.
 
 VISITKOREA frames this as a must-try soul-food experience because it combines cheap food, Seoul scenery, convenience stores, and local leisure culture. It is not fine dining. That is the point. The machine makes a simple food feel like a place-based memory.
 
