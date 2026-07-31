@@ -2,7 +2,7 @@
 title: "Korean Snacks Guide: What to Buy, Taste, and Pack"
 slug: "029"
 date: "2024-07-19"
-updatedAt: "2026-07-18"
+updatedAt: "2026-07-31"
 visibility: "public"
 publishAt: ""
 description: "A practical Korean snacks guide comparing Turtle Chips, honey-butter flavors, seaweed snacks, convenience-store finds, souvenirs, and packing tips."
@@ -97,11 +97,40 @@ If you want social-media snacks, check the new-arrivals shelf and the refrigerat
 
 ## How to Read a Korean Snack Aisle
 
+### First, the suffix nobody explains
+
+Walk the aisle and you will see the same syllable over and over: **새우깡**, **감자깡**, **양파깡**, **고구마깡**. That **-깡** (*-kkang*) is not a Korean word for snack. It comes from a four-year-old.
+
+Nongshim launched **새우깡** (*Saewookkang*, shrimp crackers) in **1971** as **Korea's first snack product**. Company chairman Shin Choon-ho took the name from his youngest daughter, then four, who kept mispronouncing the folk song *Arirang* (아리랑) as *"Ari-kkang."* He kept the ending. Every *-kkang* snack on the shelf since is a descendant of a child's slip of the tongue.
+
+Two more details that tell you how seriously this was taken. Developing it took a year of testing that consumed about **4.5 tons of flour** — roughly 80 truckloads. And the flavor is not a seasoning trick: Nongshim grinds **four to five real shrimp, 5–7cm each, into every bag**. By its 50th anniversary in 2021 it had sold about **8.3 billion bags**.
+
+So when you pick up a *-kkang* snack, you are holding the format that started the Korean snack industry.
+
 Look for three signals. First, **shape**: rings, tubes, layers, sticks, crackers, and puffed corn all promise different texture. Second, **base flavor**: potato, corn, wheat, rice, seaweed, sweet potato, or milk. Third, **seasoning style**: sweet, salty, spicy, creamy, buttery, roasted, or sour.
 
 If you cannot read Korean, packaging still helps. Blue and ocean imagery often suggests seafood or seaweed. Yellow and butter imagery usually means corn, cheese, honey, or butter. Red often means spicy, but not always. Character packaging may be a limited collaboration, not a flavor clue.
 
 Use translation apps for allergens and meat/seafood content. This matters if you avoid pork, beef, shrimp, dairy, gelatin, nuts, or wheat. Korean snacks can include small amounts of powdered milk, seafood extract, beef flavoring, or gelatin even when the front package looks harmless.
+
+## What Korean Snacks Cost
+
+Prices here are the reason snacks are such an easy souvenir: almost everything on the shelf is a single-coin purchase.
+
+<div class="table-scroll">
+
+| Item | Korean | Price (July 2026) |
+|---|---|---|
+| Saewookkang, 90g | 새우깡 | **₩1,500**, rising to ₩1,600 on August 1, 2026 |
+| Standard bagged snack | 봉지 과자 | roughly ₩1,500–2,500 |
+| Seaweed snack pack | 김자반 / 조미김 | ₩1,000–2,000 |
+| Large sharing bag | 대용량 | ₩3,000–5,000 |
+
+</div>
+
+That August increase is not snack-specific. Nongshim announced on July 24, 2026 that from **August 1** it would lift shipping prices on snacks by an average 5.5%, cup ramyun by 6.0%, and beverages by 7.7%, citing exchange rates and packaging costs. If you are shopping in early August and a price looks higher than a guide told you, this is why.
+
+**Buy snacks at a mart, not a convenience store.** Convenience stores are excellent for discovering what you like, and genuinely bad value for buying six of them. A large-format mart is materially cheaper per bag, and it is where the multipack and gift-box formats live.
 
 ## What Not to Overbuy
 
