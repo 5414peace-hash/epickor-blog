@@ -240,8 +240,8 @@
 
 ## gsc / strategy
 
-- **바이럴 한국 트렌드는 영문 통신사가 선점한다. 수요가 아니라 커버리지 공백을 봐야 한다.** (2026-07-31 W32 실측)
-  - W32에서 수요 최상위 후보 2개가 커버리지 게이트에서 탈락했다. `chestnut tiramisu cu`는 구글 영문 자동완성 **1위**였고, 두쫀쿠도 `viral dubai chocolate cookie korea` 등 수요가 확실했다. 그런데 공급을 재보니 —
+- **바이럴 한국 트렌드는 영문 통신사가 선점한다. 수요가 아니라 커버리지 공백을 봐야 한다.** (2026-07-31 실측, `output/strategy/keywords_2026-W31b.md`)
+  - 이 사이클에서 수요 최상위 후보 2개가 커버리지 게이트에서 탈락했다. `chestnut tiramisu cu`는 구글 영문 자동완성 **1위**였고, 두쫀쿠도 `viral dubai chocolate cookie korea` 등 수요가 확실했다. 그런데 공급을 재보니 —
   - 두쫀쿠: **Korea Times(2026-01-14)·Stripes Korea·VisitKorea 영문판·서울경제 영문판(2026-02-07)·Gulf News·AOL/Food&Wine 신디케이션**이 전부 커버
   - 밤 티라미수: 조회 수백만 틱톡 레시피 다수 + K-en News + KoreaProductPost 전용 기사 + SETHLUI
   - **규칙**: 한국에서 바이럴이 터지면 우리보다 도메인 권위가 훨씬 높은 영문 매체가 며칠 안에 쓴다. **트렌드를 쫓으면 항상 늦는다.** 343(황치즈칩)이 통한 건 신선해서가 아니라 **한국에서 큰데 영어권에 안 보였기** 때문이다.

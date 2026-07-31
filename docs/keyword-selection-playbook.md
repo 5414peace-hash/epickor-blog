@@ -800,6 +800,16 @@ separately; do not act on it inside this playbook.
 **Total: ~3 hours, once a week.** Suggested slot: Monday morning.
 **Output artifact: `output/strategy/keywords_YYYY-Www.md`** — 5 scored candidates.
 
+> **Naming (2026-07-31, after getting it wrong).** `ww` is the **ISO week number of the run date**,
+> not a counter that increments each time you run the cycle. Two cycles were run on 2026-07-31 —
+> ISO week 31 — and the second was filed as `keywords_2026-W32.md`, which claimed a week that had
+> not happened yet and made the next step look like "W33". Renamed to `keywords_2026-W31b.md`.
+> **If you run the cycle more than once in the same ISO week, suffix the letter (`-W31b`, `-W31c`).
+> Never bump the week number.** Check the actual week before naming the file:
+> `python3 -c "import datetime;print(datetime.date.today().isocalendar()[1])"`.
+> This matters beyond tidiness: `week_2026W30.md` defers real CTR measurements to "the W32-W33
+> report", and those refer to genuine future weeks. A fake W32 file collides with a real commitment.
+
 ### Step 0 — Close last month's loop (20 min, first Monday of each month only)
 
 Do this **before** picking anything new. Otherwise we keep guessing.
