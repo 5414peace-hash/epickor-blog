@@ -2,7 +2,7 @@
 title: "Pojangmacha Guide: Korean Street Tent Food and Etiquette"
 slug: "089"
 date: "2024-08-29"
-updatedAt: "2026-07-18"
+updatedAt: "2026-07-31"
 visibility: "public"
 publishAt: ""
 description: "A practical guide to Korean pojangmacha street tents, including what to order, how to drink politely, prices, etiquette, safety, and Seoul areas."
@@ -91,6 +91,29 @@ For night movement, pair this with EpicKor's [Seoul subway etiquette guide](/blo
 ## Price, Payment, and Safety Reality
 
 Prices vary by neighborhood and menu. Simple snacks can be inexpensive, but seafood, stir-fried dishes, and alcohol can add up quickly. Ask or check the menu before ordering expensive items. If there is no visible price and you feel unsure, choose a different place.
+
+### What you are actually paying for a bottle of soju
+
+This is the number that decides your bill, because a pojangmacha night is usually two or three bottles rather than the food.
+
+<div class="table-scroll">
+
+| Where | Korean | Price for a 360ml bottle |
+|---|---|---|
+| Factory shipping price | 출고가 | about **₩1,250** |
+| Convenience store | 편의점 | around **₩1,900** |
+| Restaurant, bar, or pojangmacha | 식당·포차 | **₩5,000–6,000** |
+
+</div>
+
+Korea has been arguing about that third row for years under the phrase **소주 6000원 시대** — "the 6,000-won soju era." What makes it an argument rather than simple inflation is the first row: when Hite Jinro raised Chamisul's factory price, the increase was about **₩81 a bottle**, yet restaurant prices moved by ₩1,000 at a time. Korean newspapers ran the comparison directly, and the gap is not really about the distillery — it is rent, staff, and the fact that alcohol is where a small food business makes its margin.
+
+**Practical read for your night out:**
+
+- **The food is the good value; the alcohol is the markup.** Order more food and fewer bottles rather than the reverse.
+- **Do not pre-load at a convenience store and then sit down at a stall.** Bringing your own drinks to a pojangmacha is not acceptable, and the price difference is precisely what pays for your seat.
+- **If the drinking is the point and the budget is tight**, a convenience store table outside — a completely normal thing to do in Korea — costs a third as much. It is a different evening, not a worse one.
+- **Check the price before ordering seafood.** Stir-fried or live seafood is where a modest bill becomes a large one, and it is often priced by weight or market rate rather than listed.
 
 Payment is another reason to bring backup cash. Korea is card-friendly overall, but temporary street-food settings can be less predictable. Have a credit card, transit/payment card, and some won. If you are drinking, decide how you will get home before the second bottle appears. Kakao T or a hotel taxi can be useful, but late-night demand and language friction can still happen.
 
