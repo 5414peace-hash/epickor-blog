@@ -40,6 +40,10 @@ debug.log
 # Git will not descend into an excluded directory, so each level has to be re-opened
 # explicitly and then re-closed, or the multi-GB reels/ media would start getting tracked.
 !/output/reels/
+!/output/strategy/
+/output/strategy/*
+!/output/strategy/keywords_*.md
+!/output/strategy/keyword-bets.csv
 /output/reels/*
 !/output/reels/metrics.json
 !/output/reels/*.md
