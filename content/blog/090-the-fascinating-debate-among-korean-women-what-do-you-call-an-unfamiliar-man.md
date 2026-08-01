@@ -79,6 +79,7 @@ If you are trying to decide which word fits, start with the relationship instead
 
 <div class="affiliate-inline-cta">
   <p><strong>Korean-learning note:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. If this address-term problem made you realize Korean is more than vocabulary lists, compare <a href="https://www.amazon.com/dp/1974152626?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean Alphabet with Writing Workbook</a> as a low-pressure study starting point.</p>
+  <a class="affiliate-cta-button" href="https://www.amazon.com/dp/1974152626?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">See it on Amazon</a>
 </div>
 
 This is also why age matters so much in Korean conversation. If you want a wider guide to how age shapes speech and social behavior, read our [Korean age system explained](/blog/166) after this. For the institutional side of Korean social labels, EpicKor's [neutral guide to South Korean political parties](/blog/283) shows why names, factions, and formal titles also need date-specific context.
@@ -127,6 +128,7 @@ For Korean learners, the biggest mistake is using K-drama words too freely. Oppa
 
 <div class="affiliate-inline-cta">
   <p><strong>Before copying drama phrases:</strong> Drama and idol content is full of address terms that textbooks skip entirely, which is exactly how the awkward mistakes happen. <a href="https://www.amazon.com/dp/B01N52C32A?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">The Kpop Dictionary</a> collects 500 of the words fans actually hear — oppa, ahjussi, and the rest — with the nuance that tells you which ones are safe to say out loud.</p>
+  <a class="affiliate-cta-button" href="https://www.amazon.com/dp/B01N52C32A?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">See it on Amazon</a>
 </div>
 
 If you are unsure, do not label the person. Use a neutral phrase. For more visitor-facing social rules, read EpicKor's guide to [Korean etiquette questions tourists actually run into](/blog/187).

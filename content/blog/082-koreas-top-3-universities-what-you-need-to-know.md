@@ -67,6 +67,7 @@ None of these images tells the whole truth. Every school has many departments, p
 
 <div class="affiliate-inline-cta">
   <p><strong>Study-culture note:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. If SKY made you curious about Korea's education pressure, start with <a href="https://www.amazon.com/dp/1974152626?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean Alphabet with Writing Workbook</a> before diving deeper into Korean campus life.</p>
+  <a class="affiliate-cta-button" href="https://www.amazon.com/dp/1974152626?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">See it on Amazon</a>
 </div>
 
 ## Is SKY an Official Ranking or a Cultural Label?
@@ -145,6 +146,7 @@ So the honest answer is balanced: SKY is not destiny, but it is still a powerful
 
 <div class="affiliate-inline-cta">
   <p><strong>For language learners:</strong> Korean school names, titles, and campus culture make more sense once the basics click; the <a href="https://www.amazon.com/dp/1838691537?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Lonely Planet Korean Phrasebook &amp; Dictionary</a> is a low-commitment starting point if this topic made you want a practical next step.</p>
+  <a class="affiliate-cta-button" href="https://www.amazon.com/dp/1838691537?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">See it on Amazon</a>
 </div>
 
 ## Why Foreigners Notice SKY Later Than Koreans Do
