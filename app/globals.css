@@ -259,6 +259,50 @@ body {
   text-underline-offset: 3px;
 }
 
+/* Affiliate button (2026-08-01)
+   본문 링크는 독자가 문장을 읽어야 발견된다. 버튼은 스캔만 해도 보인다.
+   규정 주의: 아마존 로고·제품 이미지·가격을 쓰지 않는다. 전부 우리 자산이다.
+   제품 이미지와 가격은 Creators API가 필요한데, 그 API는 직전 30일 적격 판매 10건을
+   요구하고 우리는 0건이다. 정적 가격 표기는 규정 위반이며 계정을 다시 잃을 수 있다.
+   근거: docs/checkpoints/2026-08-01_아마존-CTA-스터디.md */
+.blog-content .affiliate-inline-cta a.affiliate-cta-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  margin-top: 0.85rem;
+  padding: 0.6rem 1.15rem;
+  border: 1px solid #b45309;
+  border-radius: 0.4rem;
+  background: #d97706;
+  color: #ffffff !important;
+  font-weight: 700 !important;
+  font-size: 0.94rem !important;
+  line-height: 1.2 !important;
+  text-decoration: none !important;
+  box-shadow: 0 6px 14px -8px rgba(146, 64, 14, 0.7);
+  transition: background 0.15s ease, transform 0.15s ease;
+}
+
+.blog-content .affiliate-inline-cta a.affiliate-cta-button:hover,
+.blog-content .affiliate-inline-cta a.affiliate-cta-button:focus-visible {
+  background: #b45309;
+  transform: translateY(-1px);
+}
+
+.blog-content .affiliate-inline-cta a.affiliate-cta-button::after {
+  content: "\2192";
+  font-weight: 700;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .blog-content .affiliate-inline-cta a.affiliate-cta-button {
+    transition: none;
+  }
+  .blog-content .affiliate-inline-cta a.affiliate-cta-button:hover {
+    transform: none;
+  }
+}
+
 @media (max-width: 640px) {
   .blog-content h1 {
     font-size: 2.35rem !important;
