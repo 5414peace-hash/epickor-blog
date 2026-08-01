@@ -30,6 +30,8 @@ This guide explains the Korean ramyun map: **Shin Ramyun**, **Buldak**, **Chapag
 </table>
 </div>
 
+<p class="affiliate-topline"><a href="https://www.amazon.com/dp/B0C85RZWP3?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Samyang Buldak Spicy Ramen Carbonara — compare on Amazon</a><span class="affiliate-topline-note">Affiliate link. As an Amazon Associate, EpicKor earns from qualifying purchases at no extra cost to you.</span></p>
+
 ## Ramyun or ramen?
 
 In English, people often say "Korean ramen," but **ramyun** is the more useful Korean-food term for the instant noodle category. Japanese ramen usually points to restaurant noodles with fresh broth and toppings. Korean ramyun usually means packaged instant noodles, cup noodles, or quick-cook products.

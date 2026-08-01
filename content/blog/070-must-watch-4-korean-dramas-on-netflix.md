@@ -23,6 +23,10 @@ So the real question is not whether K-drama matters on Netflix. It does. The bet
 ![K-drama streaming mood visual from EpicKor's original Netflix Korea package.](/assets/images/posts/070/e1cccaf2-ffd4-4e4a-8fc7-5d9a2eaedd51.png)
 *Korean dramas on Netflix work best when you choose by mood, not only by popularity.*
 
+
+
+<p class="affiliate-topline"><a href="https://www.amazon.com/s?k=kpop+kdrama+fan+goods&amp;tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">K-pop and K-drama fan goods — compare on Amazon</a><span class="affiliate-topline-note">Affiliate link. As an Amazon Associate, EpicKor earns from qualifying purchases at no extra cost to you.</span></p>
+
 ## Quick Answer: The Best First Korean Dramas on Netflix
 
 If you are completely new to Korean dramas, start with one strong mainstream title, then branch by genre. **Squid Game** is the obvious global reference point because it became a shared cultural language beyond K-drama fans. But it is not the only entry point, and it is not the softest introduction.

@@ -21,6 +21,10 @@ This guide explains Choi Min-sik's career for international viewers: why *Oldboy
 ![Choi Min-sik-focused EpicKor visual from the original post package.](/assets/images/posts/030/cee879ed-05fe-4fcf-bac6-4f4322ca18fb.png)
 *Choi Min-sik's screen presence works because it can feel intimate and monumental at the same time.*
 
+
+
+<p class="affiliate-topline"><a href="https://www.amazon.com/s?k=korean+snack&tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean snack options — compare on Amazon</a><span class="affiliate-topline-note">Affiliate link. As an Amazon Associate, EpicKor earns from qualifying purchases at no extra cost to you.</span></p>
+
 ## Quick Answer: Why Is Choi Min-sik So Important?
 
 Choi Min-sik is important because he connects several eras of Korean screen culture. He is globally associated with Park Chan-wook's *Oldboy*, one of the films that helped define the international reputation of modern Korean cinema. He also anchored domestic box-office history through *The Admiral: Roaring Currents*, a film widely known for its extraordinary Korean admissions record. In 2024, *Exhuma* brought him back to the center of a mass-audience phenomenon, crossing the 10-million-admissions milestone in South Korea.

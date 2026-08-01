@@ -58,6 +58,8 @@ Another Korean phrase, **gobaek** (고백), means a confession or direct declara
 </table>
 </div>
 
+<p class="affiliate-topline"><a href="https://www.amazon.com/s?k=korean+phrasebook&amp;tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean phrasebook — compare on Amazon</a><span class="affiliate-topline-note">Affiliate link. As an Amazon Associate, EpicKor earns from qualifying purchases at no extra cost to you.</span></p>
+
 ## How to Ask Someone Out Without Sounding Vague
 
 The best invitation gives the other person enough information to decide comfortably. “Would you like to get coffee with me in Seongsu on Saturday afternoon?” works better than repeated hints. If you met through a language exchange or professional setting, make your romantic interest especially clear so the other person is not surprised.

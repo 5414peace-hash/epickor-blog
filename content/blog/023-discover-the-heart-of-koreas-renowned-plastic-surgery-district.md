@@ -38,6 +38,8 @@ Medical Korea, operated with the Ministry of Health and Welfare and KHIDI contex
 </table>
 </div>
 
+<p class="affiliate-topline"><a href="https://www.amazon.com/s?k=travel+document+organizer&amp;tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Travel document organizers — compare on Amazon</a><span class="affiliate-topline-note">Affiliate link. As an Amazon Associate, EpicKor earns from qualifying purchases at no extra cost to you.</span></p>
+
 ## Why Gangnam Became the Beauty-Medical Center
 
 Gangnam is not only a cluster of clinics. It is a cluster of money, transit, advertising, premium retail, dermatology, cosmetic surgery, skincare, hotels, translators, and medical-tourism services. Apgujeong and Sinsa are associated with image industries; Gangnam Station is dense with office workers and commuters; Cheongdam and nearby areas connect beauty, fashion, entertainment, and luxury retail.

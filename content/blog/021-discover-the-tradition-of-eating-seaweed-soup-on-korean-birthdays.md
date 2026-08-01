@@ -37,6 +37,8 @@ The basic soup is made with soaked dried seaweed, sesame oil, soy sauce or soup 
 </table>
 </div>
 
+<p class="affiliate-topline"><a href="https://www.amazon.com/dp/B0DH5MR3YP?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Bibigo Korean BBQ flavor seaweed snacks — compare on Amazon</a><span class="affiliate-topline-note">Affiliate link. As an Amazon Associate, EpicKor earns from qualifying purchases at no extra cost to you.</span></p>
+
 ## Why This Soup Is Birthday Food
 
 Korea.net's recipe feature describes miyeokguk as a must-eat dish for birthday meals and for mothers who have just given birth. The same official article connects the birthday practice to remembering a mother's love and devotion. That is the emotional center of the dish.

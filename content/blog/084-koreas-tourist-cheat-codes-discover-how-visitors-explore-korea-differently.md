@@ -21,6 +21,10 @@ This guide replaces the lazy "different nationalities do different things" idea 
 ![Korea travel planning visual from EpicKor's original tourist route package.](/assets/images/posts/084/4a9ace36-ac46-43dc-95dc-7a809e975d8e.png)
 *The smartest Korea itinerary starts with your interest lane, not with a generic list of famous stops.*
 
+
+
+<p class="affiliate-topline"><a href="https://www.amazon.com/s?k=korean+cookbook&amp;tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean cookbooks — compare on Amazon</a><span class="affiliate-topline-note">Affiliate link. As an Amazon Associate, EpicKor earns from qualifying purchases at no extra cost to you.</span></p>
+
 ## Quick Answer: What Is a Korea Travel Cheat Code?
 
 A Korea travel cheat code is a shortcut that makes the trip feel more personal and less exhausting. It is not a secret location. It is a better planning lens.

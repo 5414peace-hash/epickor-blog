@@ -37,6 +37,8 @@ Kim Soo-hyun's official agency profile lists a career that includes <em>Dream Hi
 </table>
 </div>
 
+<p class="affiliate-topline"><a href="https://www.amazon.com/s?k=kpop+kdrama+fan+goods&amp;tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">K-pop and K-drama fan goods — compare on Amazon</a><span class="affiliate-topline-note">Affiliate link. As an Amazon Associate, EpicKor earns from qualifying purchases at no extra cost to you.</span></p>
+
 ## Why Kim Soo-hyun Became a Premium Casting
 
 Kim Soo-hyun is a premium casting because his career has proven several kinds of reliability. <em>Dream High</em> made him familiar to younger Hallyu viewers. <em>Moon Embracing the Sun</em> showed domestic ratings power. <em>My Love from the Star</em> became a huge international Korean-drama reference. <em>It's Okay to Not Be Okay</em> extended his Netflix-era visibility. <em>Queen of Tears</em> then reintroduced him to a new wave of global viewers.

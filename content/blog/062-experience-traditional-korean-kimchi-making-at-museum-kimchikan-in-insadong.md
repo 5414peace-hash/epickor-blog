@@ -21,6 +21,10 @@ This guide explains what Museum Kimchikan is, how to visit, what to know about k
 ![Museum Kimchikan visual from EpicKor's original kimchi package.](/assets/images/posts/062/4ede73ef-726e-48bf-b436-11ff614ea6d8.png)
 *Museum Kimchikan is a compact stop, but it helps travelers understand why kimchi sits at the center of Korean meals.*
 
+
+
+<p class="affiliate-topline"><a href="https://www.amazon.com/dp/B0F4K5JK5S?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean kimchi stew with tofu — compare on Amazon</a><span class="affiliate-topline-note">Affiliate link. As an Amazon Associate, EpicKor earns from qualifying purchases at no extra cost to you.</span></p>
+
 ## Quick Answer: Is Museum Kimchikan Worth Visiting?
 
 Yes, Museum Kimchikan is worth visiting if you are interested in Korean food, kimchi, fermentation, UNESCO kimjang culture, or a short indoor stop in Insadong. It is especially useful for travelers who keep seeing kimchi at restaurants but do not yet understand why it matters.

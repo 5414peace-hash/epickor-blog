@@ -39,6 +39,8 @@ The system then adds common technical language, experienced coaching, sports sci
 </table>
 </div>
 
+<p class="affiliate-topline"><a href="https://www.amazon.com/s?k=beginner+recurve+archery+book&tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Beginner recurve archery books — compare on Amazon</a><span class="affiliate-topline-note">Affiliate link. As an Amazon Associate, EpicKor earns from qualifying purchases at no extra cost to you.</span></p>
+
 ## The Medal Record in Proper Context
 
 The headline record belongs to women's team recurve. Since that event began at Seoul 1988, South Korea has won ten consecutive Olympic titles through Paris 2024. Korean archers have also succeeded across men's, women's, individual, and mixed-team events, but not every medal is Korean and not every tournament ends in victory.

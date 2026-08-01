@@ -21,6 +21,10 @@ This guide explains what to do in Yongsan, how to plan the route, which stops ar
 ![A Yongsan street scene from EpicKor's original Seoul visual package.](/assets/images/posts/047/8171d3b9-5fe0-46d5-bb33-ff2c36e658c9.jpg)
 *Yongsan works best as a layered neighborhood: history first, then parks, food, cafes, and easy subway connections.*
 
+
+
+<p class="affiliate-topline"><a href="https://www.amazon.com/s?k=korean+culture+history+book&amp;tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean culture and history books — compare on Amazon</a><span class="affiliate-topline-note">Affiliate link. As an Amazon Associate, EpicKor earns from qualifying purchases at no extra cost to you.</span></p>
+
 ## Quick Answer: Is Yongsan Worth Visiting?
 
 Yes, Yongsan is worth visiting if you want a Seoul day that combines history, local food, cafes, and a less obvious city walk. The most practical route is to start at **The War Memorial of Korea**, move toward **Samgakji** or **Sinyongsan** for lunch, explore **Yongridan-gil** for cafes, and add **Yongsan Park** or **Yongsan Children's Garden** if the public-access area and your schedule match.

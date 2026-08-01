@@ -40,6 +40,8 @@ If you are shopping in Korea, buy a few single bags first, taste them in your ho
 </table>
 </div>
 
+<p class="affiliate-topline"><a href="https://www.amazon.com/s?k=korean+snack&tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean snack assortment — compare on Amazon</a><span class="affiliate-topline-note">Affiliate link. As an Amazon Associate, EpicKor earns from qualifying purchases at no extra cost to you.</span></p>
+
 ## Why Texture Matters So Much
 
 Korean food writing often uses the word **sikgam**, meaning texture or mouthfeel. It shows up across Korean eating habits: chewy rice cakes, crispy fried chicken, bouncy noodles, crunchy pickles, soft tofu, and flaky snacks. Korean snack companies lean into that same logic. A snack is not only "cheese flavor" or "corn flavor." It is airy, layered, crunchy, chewy, brittle, sticky, powdery, or creamy.

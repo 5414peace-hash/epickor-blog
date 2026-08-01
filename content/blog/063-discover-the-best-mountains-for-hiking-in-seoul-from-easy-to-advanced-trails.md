@@ -53,6 +53,8 @@ Do not choose by photo alone. A trail that looks short can still be slippery, ex
   </table>
 </div>
 
+<p class="affiliate-topline"><a href="https://www.amazon.com/s?k=portable+power+bank+travel&tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Portable power banks for travel — compare on Amazon</a><span class="affiliate-topline-note">Affiliate link. As an Amazon Associate, EpicKor earns from qualifying purchases at no extra cost to you.</span></p>
+
 ## Namsan: The Easiest Seoul Hiking Win
 
 Namsan is the best answer when someone wants a Seoul "hike" but not a full hiking day. The routes around Namsan and N Seoul Tower include paved paths, stairs, viewpoints, buses, and cable-car options depending on your plan.

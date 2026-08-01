@@ -36,6 +36,8 @@ Do not treat them as interchangeable "must-see" stops. Jeju often needs flights 
 </table>
 </div>
 
+<p class="affiliate-topline"><a href="https://www.amazon.com/s?k=korea+travel+essentials&amp;tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korea travel essentials — compare on Amazon</a><span class="affiliate-topline-note">Affiliate link. As an Amazon Associate, EpicKor earns from qualifying purchases at no extra cost to you.</span></p>
+
 ## How the Three Destinations Feel
 
 Jeju feels physically different from mainland Korea. The horizon is wider, the roads are lower, and the trip often moves through coast, oreum volcanic cones, lava formations, waterfalls, stone walls, wind, and cafes. The official VisitKorea materials consistently frame Jeju around natural landscapes such as Seongsan Ilchulbong, volcanic features, beaches, and island culture. It is the strongest choice if you want Korea to feel less urban.

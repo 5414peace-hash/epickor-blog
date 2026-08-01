@@ -38,6 +38,8 @@ The safest mindset is simple: Korea is not a magic exception to ordinary city bi
 </table>
 </div>
 
+<p class="affiliate-topline"><a href="https://www.amazon.com/s?k=heavy+duty+bike+lock&amp;tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Heavy-duty bike lock options — compare on Amazon</a><span class="affiliate-topline-note">Affiliate link. As an Amazon Associate, EpicKor earns from qualifying purchases at no extra cost to you.</span></p>
+
 ## Why Bikes Feel Like the Exception to Korea's Public Trust
 
 Visitors often notice that Koreans leave phones, bags, and laptops on cafe tables while ordering. That does happen, and it says something real about everyday trust and surveillance in many Korean urban spaces. But the comparison breaks down when the object is a bicycle.

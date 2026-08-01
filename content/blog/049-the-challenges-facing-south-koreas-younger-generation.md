@@ -31,6 +31,8 @@ South Korea's official total fertility rate rose to **0.75 in 2024**, according 
 </table>
 </div>
 
+<p class="affiliate-topline"><a href="https://www.amazon.com/s?k=korean+culture+history+book&amp;tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean culture and history books — compare on Amazon</a><span class="affiliate-topline-note">Affiliate link. As an Amazon Associate, EpicKor earns from qualifying purchases at no extra cost to you.</span></p>
+
 ## What does Hell Joseon mean?
 
 Hell Joseon combines "hell" with Joseon, the name of Korea's long premodern dynasty. Online, the phrase is used to criticize a society felt to be hierarchical, competitive, expensive, and unforgiving. It is intentionally dramatic. That drama is the point.

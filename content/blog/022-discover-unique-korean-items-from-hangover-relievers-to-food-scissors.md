@@ -30,6 +30,8 @@ If you want the short version: food scissors are a normal Korean table tool for 
 </table>
 </div>
 
+<p class="affiliate-topline"><a href="https://www.amazon.com/dp/B08YZ1CTHC?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean BBQ scissors and tongs set — compare on Amazon</a><span class="affiliate-topline-note">Affiliate link. As an Amazon Associate, EpicKor earns from qualifying purchases at no extra cost to you.</span></p>
+
 ## Why food scissors feel so Korean
 
 Korean food scissors make sense because many Korean meals are built around **shared food that changes at the table**. Meat cooks on a grill in the center. Noodles may be too long for easy eating. Kimchi, jeon, and seafood can be portioned after they arrive. A knife and cutting board would slow everything down and take up space. Scissors solve the problem at the exact place where the problem happens.

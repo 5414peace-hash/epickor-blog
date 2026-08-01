@@ -38,6 +38,8 @@ That format changed the incentives around Korean rap. A rapper could gain attent
 </table>
 </div>
 
+<p class="affiliate-topline"><a href="https://www.amazon.com/s?k=korean+culture+history+book&amp;tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean culture and history books — compare on Amazon</a><span class="affiliate-topline-note">Affiliate link. As an Amazon Associate, EpicKor earns from qualifying purchases at no extra cost to you.</span></p>
+
 ## Why SMTM Was So Legible
 
 Hip-hop can be difficult for a newcomer because the culture has many gates: lyricism, flow, slang, scene history, label politics, fashion, beefs, production styles, and local references. Show Me The Money simplified the first gate. Viewers did not need to know every label or mixtape before they understood the stakes. Someone walked into an audition. A producer reacted. A stage happened. The room decided whether the performance had power.

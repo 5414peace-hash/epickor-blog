@@ -37,6 +37,8 @@ The reason it travels well online is simple. It is visually recognizable, easy t
 </table>
 </div>
 
+<p class="affiliate-topline"><a href="https://www.amazon.com/dp/B0C85RZWP3?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Samyang Buldak Spicy Ramen Carbonara — compare on Amazon</a><span class="affiliate-topline-note">Affiliate link. As an Amazon Associate, EpicKor earns from qualifying purchases at no extra cost to you.</span></p>
+
 ## What Carbo Buldak Actually Is
 
 The most important detail is that Buldak is not soup ramen. It is usually cooked as a stir-fried noodle: boil the noodles, drain most of the water, then mix the sauce and powder so the noodles become glossy and coated. If you leave too much water, the sauce turns thin. If you drain too aggressively, the sauce can become dry and harsh.

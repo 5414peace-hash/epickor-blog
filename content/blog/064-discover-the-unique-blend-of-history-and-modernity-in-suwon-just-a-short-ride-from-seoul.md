@@ -21,6 +21,10 @@ This guide explains how to plan a Suwon day trip, what to see at Hwaseong Fortre
 ![Suwon visual from EpicKor's original Hwaseong package.](/assets/images/posts/064/165c1dbd-7419-488a-a26f-3907fbfac515.jpg)
 *Suwon works because the fortress is not isolated from the city. The walls, gates, streets, cafes, and food routes sit together.*
 
+
+
+<p class="affiliate-topline"><a href="https://www.amazon.com/s?k=korean+culture+history+book&amp;tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean culture and history books — compare on Amazon</a><span class="affiliate-topline-note">Affiliate link. As an Amazon Associate, EpicKor earns from qualifying purchases at no extra cost to you.</span></p>
+
 ## Quick Answer: Is Suwon Worth a Day Trip From Seoul?
 
 Yes. Suwon is worth a day trip if you want Korean history without a long intercity journey. It is especially good for travelers who like walking, fortress views, traditional architecture, local food, and neighborhoods that feel less saturated than central Seoul.

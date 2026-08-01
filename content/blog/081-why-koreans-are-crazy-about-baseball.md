@@ -26,6 +26,10 @@ The result is a live event that sits between sport and pop culture. You can atte
 
 If you want the quieter opposite side of Korean sports culture, EpicKor's [Korean Olympic archery guide](/blog/075) is a useful contrast.
 
+
+
+<p class="affiliate-topline"><a href="https://www.amazon.com/s?k=korean+snack&tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean snack options — compare on Amazon</a><span class="affiliate-topline-note">Affiliate link. As an Amazon Associate, EpicKor earns from qualifying purchases at no extra cost to you.</span></p>
+
 ## Quick Answer: How Do You Enjoy a KBO Game?
 
 Choose a game in Seoul, Busan, Daegu, Daejeon, Gwangju, Changwon, Incheon, Suwon, or another KBO city. Buy tickets through the team, venue, or travel package options available for your date. Arrive early, find food before first pitch, check whether your section is a cheering zone, and follow the crowd's rhythm.

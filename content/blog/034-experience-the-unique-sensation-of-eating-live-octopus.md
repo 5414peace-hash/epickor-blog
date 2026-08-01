@@ -38,6 +38,8 @@ The most important travel note is safety: chew thoroughly, eat small pieces, sta
 </table>
 </div>
 
+<p class="affiliate-topline"><a href="https://www.amazon.com/s?k=korean+culture+history+book&amp;tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean culture and history books — compare on Amazon</a><span class="affiliate-topline-note">Affiliate link. As an Amazon Associate, EpicKor earns from qualifying purchases at no extra cost to you.</span></p>
+
 ## What San-nakji Actually Is
 
 San-nakji literally points to fresh or live-style small octopus. In restaurants, the version tourists usually encounter is not a whole octopus crawling around a plate. It is cut into bite-size pieces close to serving time. The arms move because octopus tissue can react after separation, not because the dish should be treated like a conscious animal fighting the diner.

@@ -21,6 +21,10 @@ This guide explains what yebigun is, why the reserve period matters, what the lu
 ![Korean reserve-force visual from EpicKor's original post package.](/assets/images/posts/045/501cc362-d7c6-4b95-8efa-6dbfe8b08f93.jpg)
 *Reserve-force culture is not only about drills; it is about how military duty keeps returning to ordinary civilian life.*
 
+
+
+<p class="affiliate-topline"><a href="https://www.amazon.com/s?k=korean+culture+history+book&amp;tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Books on Korean culture and modern history — compare on Amazon</a><span class="affiliate-topline-note">Affiliate link. As an Amazon Associate, EpicKor earns from qualifying purchases at no extra cost to you.</span></p>
+
 ## Quick Answer: What Is Yebigun in Korea?
 
 Yebigun means South Korea's reserve force. After active-duty service, many former service members are assigned to reserve obligations for years, with training requirements depending on year, status, and assignment. Korea's Military Manpower Administration describes the military-service process as including **reserve forces for 8 years**, and the Ministry of National Defense's reserve-training information explains how training types differ by year and designation.

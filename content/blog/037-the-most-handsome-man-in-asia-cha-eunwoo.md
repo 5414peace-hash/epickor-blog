@@ -37,6 +37,8 @@ That combination explains why he is searched by different audiences for differen
 </table>
 </div>
 
+<p class="affiliate-topline"><a href="https://www.amazon.com/dp/B08FM5BTF6?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">ROUND LAB 1025 Dokdo Toner — compare on Amazon</a><span class="affiliate-topline-note">Affiliate link. As an Amazon Associate, EpicKor earns from qualifying purchases at no extra cost to you.</span></p>
+
 ## What "Face Genius" Means in Korea
 
 "Face Genius" is not a formal title. It is fan and media language for someone whose visuals look almost unreal on camera. In Cha Eun-woo's case, the term stuck because his face fit several Korean entertainment preferences at once: symmetry, clean skin, gentle expression, height, polished styling, and a public manner that rarely broke the fantasy.

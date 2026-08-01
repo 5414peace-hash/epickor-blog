@@ -38,6 +38,8 @@ CJ Olive Young describes itself as Korea's leading health and beauty store, and 
 </table>
 </div>
 
+<p class="affiliate-topline"><a href="https://www.amazon.com/s?k=korean+beauty+starter+set&amp;tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean beauty starter products — compare on Amazon</a><span class="affiliate-topline-note">Affiliate link. As an Amazon Associate, EpicKor earns from qualifying purchases at no extra cost to you.</span></p>
+
 ## Why Olive Young Became a K-Beauty Gateway
 
 Olive Young is not simply a drugstore equivalent. CJ Olive Young's official materials describe a beauty-and-health platform with offline stores, town stores, global mall operations, same-day delivery, and brand partnerships. The company's global page says the Global Mall serves customers in 150 countries and that specialized Korean stores receive millions of international visitors annually. CJ Newsroom also reported that global tourists from 189 countries made 9.42 million purchases at Olive Young stores in Korea in 2024.

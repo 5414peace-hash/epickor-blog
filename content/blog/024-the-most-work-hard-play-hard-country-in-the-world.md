@@ -38,6 +38,8 @@ The old image is not entirely false. It is just incomplete. Some companies remai
 </table>
 </div>
 
+<p class="affiliate-topline"><a href="https://www.amazon.com/s?k=korean+phrasebook&amp;tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean phrasebooks — compare on Amazon</a><span class="affiliate-topline-note">Affiliate link. As an Amazon Associate, EpicKor earns from qualifying purchases at no extra cost to you.</span></p>
+
 ## Palli-Palli: Why Speed Became a National Habit
 
 Palli-palli means "quickly, quickly." It is not just impatience. Korea rebuilt rapidly after war, industrialized at extraordinary speed, urbanized fast, and built a service culture where quick delivery, quick repair, quick response, and quick adaptation became competitive advantages. That history still shapes daily expectations.

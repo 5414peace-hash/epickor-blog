@@ -21,6 +21,10 @@ This guide explains what Choncance means, where to try it, how to choose a legal
 ![A countryside-stay mood image from EpicKor's original Choncance visual package.](/assets/images/posts/057/e9146773-6fdc-4126-b1ef-7b425ba870cf.jpg)
 *Choncance is Korea's slow-travel answer to the pressure of doing too much in Seoul.*
 
+
+
+<p class="affiliate-topline"><a href="https://www.amazon.com/s?k=travel+tissue+packs&amp;tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Travel tissue packs — compare on Amazon</a><span class="affiliate-topline-note">Affiliate link. As an Amazon Associate, EpicKor earns from qualifying purchases at no extra cost to you.</span></p>
+
 ## Quick Answer: What Is Choncance?
 
 **Choncance** is a Korean trend of taking a relaxing vacation in the countryside, often at a hanok, pension, farm stay, guesthouse, or quiet rural village. It became popular as younger travelers looked for "healing," nostalgia, local food, open air, and a slower alternative to hotel stays or city shopping trips.

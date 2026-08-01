@@ -21,6 +21,10 @@ This guide turns the old "three essential tips" idea into a broader, more useful
 ![Korean etiquette and conflict-avoidance visual from EpicKor's original package.](/assets/images/posts/035/33843114-c60b-45e6-94ce-783d02559b44.png)
 *Avoiding conflict in Korea is less about fear and more about timing, tone, and not forcing someone to lose face.*
 
+
+
+<p class="affiliate-topline"><a href="https://www.amazon.com/s?k=korean+phrasebook&amp;tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean phrasebooks — compare on Amazon</a><span class="affiliate-topline-note">Affiliate link. As an Amazon Associate, EpicKor earns from qualifying purchases at no extra cost to you.</span></p>
+
 ## Quick Answer: What Is the Best Way to Avoid Conflict in Korea?
 
 The best way to avoid conflict in Korea is to start politely, read the room, avoid public humiliation, be careful with family or national-history jokes, and separate disagreement from personal attack. If something goes wrong, stay calm, explain the practical issue, and give the other person a path to fix it without embarrassment.

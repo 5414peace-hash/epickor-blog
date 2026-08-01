@@ -27,6 +27,10 @@ The answer is not just taste. Garlic sits at the meeting point of Korean myth, f
 
 ---
 
+
+
+<p class="affiliate-topline"><a href="https://www.amazon.com/dp/B07BFQPCM6?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Ssamjang Korean soybean paste sauce — compare on Amazon</a><span class="affiliate-topline-note">Affiliate link. As an Amazon Associate, EpicKor earns from qualifying purchases at no extra cost to you.</span></p>
+
 ## Garlic Is Not a Garnish in Korean Food
 
 In Korean cooking, garlic usually does real structural work.

@@ -40,6 +40,8 @@ Seoul Milk's official English product page lists Viyott as a thick fermented mil
 </table>
 </div>
 
+<p class="affiliate-topline"><a href="https://www.amazon.com/s?k=korean+snack&tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean snack assortment — compare on Amazon</a><span class="affiliate-topline-note">Affiliate link. As an Amazon Associate, EpicKor earns from qualifying purchases at no extra cost to you.</span></p>
+
 ## What Viyott Actually Is
 
 Viyott is a topping yogurt. One compartment holds yogurt; the other holds toppings such as chocolate rings, crunchy balls, cookies and cream pieces, or fruit-style additions depending on the version available. You peel the lid, fold or pour the topping side into the yogurt, mix lightly, and eat it with a spoon.

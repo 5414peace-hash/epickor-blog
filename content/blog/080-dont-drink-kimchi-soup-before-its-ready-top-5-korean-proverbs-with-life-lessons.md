@@ -24,6 +24,10 @@ For learners, proverbs also reveal what a culture notices. Korean sayings often 
 
 If you are still learning the alphabet, start with EpicKor's [Hangeul and Korean learning guide](/blog/068). Proverbs become much easier once you can read the Korean forms.
 
+
+
+<p class="affiliate-topline"><a href="https://www.amazon.com/dp/1974152626?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean Alphabet with Writing Workbook — compare on Amazon</a><span class="affiliate-topline-note">Affiliate link. As an Amazon Associate, EpicKor earns from qualifying purchases at no extra cost to you.</span></p>
+
 ## 1. Do Not Drink Kimchi Soup First
 
 The Korean saying **김칫국부터 마시지 마라** is often translated as "Do not drink kimchi soup first." The meaning is close to "Do not count your chickens before they hatch." It warns against celebrating or assuming success before the result is secure.

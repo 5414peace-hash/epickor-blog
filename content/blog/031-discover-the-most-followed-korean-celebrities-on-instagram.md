@@ -21,6 +21,10 @@ This guide explains the ranking logic, why BLACKPINK and BTS members became unus
 ![Korean celebrity Instagram ranking visual from EpicKor's original package.](/assets/images/posts/031/66eeda38-c281-4a91-93d1-3fc9feb3edb1.png)
 *Korean celebrity Instagram influence is a mix of fandom, fashion, personal identity, and global algorithm timing.*
 
+
+
+<p class="affiliate-topline"><a href="https://www.amazon.com/s?k=kpop+kdrama+fan+goods&amp;tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">K-pop and K-drama fan goods — compare on Amazon</a><span class="affiliate-topline-note">Affiliate link. As an Amazon Associate, EpicKor earns from qualifying purchases at no extra cost to you.</span></p>
+
 ## Quick Answer: Who Are the Most Followed Korean Celebrities on Instagram?
 
 As a general 2026 snapshot, BLACKPINK members and BTS members remain the core names people expect near the top of Korean-celebrity Instagram rankings. Lisa often sits above everyone connected to K-pop, though she is Thai rather than ethnically Korean. Among Korean stars specifically, BLACKPINK's Jennie, Jisoo, Rose, and other major K-pop idols are usually discussed alongside BTS members such as V, Jungkook, Jimin, J-Hope, RM, SUGA, and Jin. K-drama actors such as Lee Min-ho, Cha Eun-woo, and other Hallyu leads also rank high, but their Instagram growth pattern is usually different from idol fandom growth.

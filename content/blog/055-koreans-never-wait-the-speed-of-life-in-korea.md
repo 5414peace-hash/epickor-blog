@@ -31,6 +31,10 @@ To understand pali pali culture, you have to see both sides: the beauty of effic
 
 ---
 
+
+
+<p class="affiliate-topline"><a href="https://www.amazon.com/dp/B003VD5SNC?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Maxim Mocha Gold Mild Coffee Mix — compare on Amazon</a><span class="affiliate-topline-note">Affiliate link. As an Amazon Associate, EpicKor earns from qualifying purchases at no extra cost to you.</span></p>
+
 ## Pali Pali Meaning in Korean
 
 The word **pali** means quickly. Repeating it as **pali pali** makes it more urgent: hurry up, move faster, do it now.

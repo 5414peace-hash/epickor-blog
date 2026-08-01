@@ -37,6 +37,8 @@ That is the factual spine. The cultural meaning is bigger. BTS's military period
 </table>
 </div>
 
+<p class="affiliate-topline"><a href="https://www.amazon.com/s?k=photocard+sleeves+toploaders&amp;tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Photocard sleeves and toploaders — compare on Amazon</a><span class="affiliate-topline-note">Affiliate link. As an Amazon Associate, EpicKor earns from qualifying purchases at no extra cost to you.</span></p>
+
 ## What Is the SDT / Special Mission Team?
 
 International fans often use "SDT" when talking about V's service. In English reporting around his discharge, Korea.net described his role as a special mission team of the military police. Fan language may vary, but the important point is that it was not a normal entertainment schedule or symbolic uniform shoot. It was part of his actual active-duty service.

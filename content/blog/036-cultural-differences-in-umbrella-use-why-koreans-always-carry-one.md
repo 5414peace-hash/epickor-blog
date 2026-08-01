@@ -30,6 +30,8 @@ This guide explains Korean umbrella culture, **jangma** rainy season, travel pac
 </table>
 </div>
 
+<p class="affiliate-topline"><a href="https://www.amazon.com/s?k=compact+travel+umbrella&amp;tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Compact travel umbrellas — compare on Amazon</a><span class="affiliate-topline-note">Affiliate link. As an Amazon Associate, EpicKor earns from qualifying purchases at no extra cost to you.</span></p>
+
 ## What is jangma?
 
 **Jangma** is Korea's summer rainy season. The Korea Meteorological Administration explains it as a climatological rainy period connected to the seasonal rain front. Exact timing changes every year, but KMA's 1991-2020 normal data places the rainy season roughly from late June to late July, with regional variation.

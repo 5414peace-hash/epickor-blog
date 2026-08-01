@@ -26,6 +26,10 @@ A true nopo survives this cycle. It may keep a simple menu. It may have old sign
 
 If you are planning your first Korea trip, pair this guide with EpicKor's [interest-based Korea travel planning guide](/blog/084), because a nopo meal works best when it is built into a neighborhood day rather than treated as a single checklist stop.
 
+
+
+<p class="affiliate-topline"><a href="https://www.amazon.com/dp/B0F4K5JK5S?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean kimchi stew with tofu — compare on Amazon</a><span class="affiliate-topline-note">Affiliate link. As an Amazon Associate, EpicKor earns from qualifying purchases at no extra cost to you.</span></p>
+
 ## Why MICHELIN Changed the Nopo Conversation
 
 The MICHELIN Guide's Seoul coverage has made many old restaurants easier for international travelers to discover. MICHELIN's Korean coverage now includes a wide range of Seoul restaurants, from starred dining to Bib Gourmand and selected restaurants, and the guide itself has noted the growth of its Korea coverage over the last decade.

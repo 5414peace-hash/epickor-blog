@@ -29,6 +29,10 @@ This seems like a design detail, but it changes storytelling. A webtoon can make
 
 For beginners, the easiest way to think about webtoons is this: manga and print comics were often page-native; Korean webtoons became phone-native. That phone-native format made them easy to translate, distribute, share, and adapt for streaming.
 
+
+
+<p class="affiliate-topline"><a href="https://www.amazon.com/s?k=kpop+kdrama+fan+goods&amp;tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">K-pop and K-drama fan goods — compare on Amazon</a><span class="affiliate-topline-note">Affiliate link. As an Amazon Associate, EpicKor earns from qualifying purchases at no extra cost to you.</span></p>
+
 ## Why Webtoons Became a K-Drama Pipeline
 
 Webtoons are useful source material because they already test three things screen producers care about: concept, character, and audience. A successful webtoon shows that readers understand the premise, return for episodes, argue about characters, and care about the ending.

@@ -45,6 +45,8 @@ Coin noraebang is more flexible. You pay by song or by small blocks of credit. R
   </table>
 </div>
 
+<p class="affiliate-topline"><a href="https://www.amazon.com/s?k=portable+bluetooth+karaoke+microphone&tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Portable karaoke microphones — compare on Amazon</a><span class="affiliate-topline-note">Affiliate link. As an Amazon Associate, EpicKor earns from qualifying purchases at no extra cost to you.</span></p>
+
 ## Why Private Rooms Fit Korean Social Life
 
 Korea has many shared spaces, but truly relaxed private space can be expensive. Apartments are smaller than many travelers expect. Cafes are public. Restaurants turn tables. Parks depend on weather. A room you can rent for a specific purpose becomes useful.

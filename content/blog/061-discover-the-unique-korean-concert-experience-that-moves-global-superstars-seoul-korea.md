@@ -30,6 +30,8 @@ But this guide starts with one important correction: ttechang is not automatic a
 </table>
 </div>
 
+<p class="affiliate-topline"><a href="https://www.amazon.com/s?k=portable+bluetooth+karaoke+microphone&amp;tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Portable karaoke microphones — compare on Amazon</a><span class="affiliate-topline-note">Affiliate link. As an Amazon Associate, EpicKor earns from qualifying purchases at no extra cost to you.</span></p>
+
 ## What does ttechang mean?
 
 Ttechang is commonly used for a crowd singing together. It combines the idea of a group or crowd with singing. It is close to "sing-along," but in concert context it often implies a large audience moving as one voice.

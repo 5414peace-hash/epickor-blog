@@ -34,6 +34,10 @@ For calendar year 2025, imported-car registrations reached 307,377. Mercedes-Ben
 
 The annual totals come from KAIDA data summarized by [Yonhap's January 2026 market report](https://en.yna.co.kr/view/AEN20260106004500320). Monthly rankings can change, and Tesla's growth means that Korea's premium-import story is no longer only a German-brand contest.
 
+
+
+<p class="affiliate-topline"><a href="https://www.amazon.com/s?k=car+trunk+organizer&tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Car trunk organizers — compare on Amazon</a><span class="affiliate-topline-note">Affiliate link. As an Amazon Associate, EpicKor earns from qualifying purchases at no extra cost to you.</span></p>
+
 ## Why the E-Class is the key to the street-level impression
 
 The E-Class sits in a useful middle position: visibly premium, large enough for executives and families, but less rare and expensive than an S-Class or Maybach. In Korea it has become a familiar benchmark when buyers compare imported executive sedans. That long presence matters. Every strong sales year adds cars that remain visible for many more years through leasing, resale and ordinary ownership.

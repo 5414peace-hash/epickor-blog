@@ -57,6 +57,8 @@ Use rankings only after reading the survey question, population, year, and defin
 </table>
 </div>
 
+<p class="affiliate-topline"><a href="https://www.amazon.com/dp/1974152626?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean alphabet and writing workbook — compare on Amazon</a><span class="affiliate-topline-note">Affiliate link. As an Amazon Associate, EpicKor earns from qualifying purchases at no extra cost to you.</span></p>
+
 ## Healthcare and Care Work
 
 Doctors, dentists, pharmacists, nurses, therapists, and other healthcare professionals follow occupation-specific education and licensing. A foreign qualification does not automatically authorize practice in Korea. Anyone considering clinical work should check the relevant Korean licensing authority before paying for a course or accepting a recruiter's promise.

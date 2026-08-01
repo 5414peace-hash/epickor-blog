@@ -21,6 +21,10 @@ This guide explains what banchan means, the main types to know, how Korean table
 ![A Korean banchan table from EpicKor's original food visual package.](/assets/images/posts/050/6d305414-0269-4117-815f-735d0ed98dce.png)
 *Banchan makes a Korean meal modular: every diner builds different bites from the same shared table.*
 
+
+
+<p class="affiliate-topline"><a href="https://www.amazon.com/s?k=korean+food+starter+pack&amp;tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean food starter pack — compare on Amazon</a><span class="affiliate-topline-note">Affiliate link. As an Amazon Associate, EpicKor earns from qualifying purchases at no extra cost to you.</span></p>
+
 ## Quick Answer: What Is Banchan?
 
 **Banchan** means Korean side dishes served with rice and a main dish, soup, stew, or shared meal. Common examples include kimchi, seasoned spinach, bean sprouts, braised potatoes, stir-fried fish cake, pickled radish, cucumber salad, dried anchovies, rolled egg, tofu, seaweed, and many regional or seasonal dishes.

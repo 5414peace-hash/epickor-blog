@@ -24,6 +24,10 @@ Age guessing also depends on hairstyle, clothing, facial expression, makeup and 
 
 Finally, skin aging varies enormously within every population. Sun exposure, smoking, sleep, illness, hormones, air pollution, occupation and access to care can matter alongside inherited traits. It is reasonable to notice that Korean beauty culture emphasizes prevention. It is not reasonable to conclude that kimchi, one serum or ethnicity freezes a person's biological clock.
 
+
+
+<p class="affiliate-topline"><a href="https://www.amazon.com/s?k=korean+sunscreen+spf+50&tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean SPF 50 sunscreens — compare on Amazon</a><span class="affiliate-topline-note">Affiliate link. As an Amazon Associate, EpicKor earns from qualifying purchases at no extra cost to you.</span></p>
+
 ## Appearance, skin health and aging are different questions
 
 “Looking younger” may reflect less visible dryness, smoother makeup, facial volume, styling or simply good lighting. Healthy skin is about comfort and function, not passing for a younger age.

@@ -45,6 +45,8 @@ Keep offline copies of your first accommodation's name, address, and phone numbe
 </table>
 </div>
 
+<p class="affiliate-topline"><a href="https://www.amazon.com/s?k=travel+document+organizer&amp;tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Travel document organizer — compare on Amazon</a><span class="affiliate-topline-note">Affiliate link. As an Amazon Associate, EpicKor earns from qualifying purchases at no extra cost to you.</span></p>
+
 ## Choose Your Incheon Airport Transfer Before Landing
 
 The right transfer depends on where you stay, how much luggage you have, and when you land. **AREX** trains connect Incheon Airport with Seoul Station. The nonstop Express Train and all-stop service are different products, with different stops and ticketing. An airport limousine bus can be easier when its stop is near your hotel and you have a large suitcase. A taxi provides door-to-door travel but costs more and can be delayed by traffic.

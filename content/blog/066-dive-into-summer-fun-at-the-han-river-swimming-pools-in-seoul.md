@@ -21,6 +21,10 @@ This guide explains which Hangang water site fits your trip, how much it costs, 
 ![Summer Hangang pool visual from EpicKor's original Seoul river package.](/assets/images/posts/066/b2720fc1-c0b2-4625-92d6-47fbc137e1b4.jpg)
 *Hangang pools are public summer facilities, so the best experience comes from planning around rules, heat, crowds, and weather.*
 
+
+
+<p class="affiliate-topline"><a href="https://www.amazon.com/s?k=korean+sunscreen+spf+50&amp;tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean SPF 50 sunscreen options — compare on Amazon</a><span class="affiliate-topline-note">Affiliate link. As an Amazon Associate, EpicKor earns from qualifying purchases at no extra cost to you.</span></p>
+
 ## Quick Answer: Are Hangang Swimming Pools Worth It in 2026?
 
 Yes, Hangang swimming pools are worth it if you want an affordable Seoul summer experience with water, skyline views, and a local atmosphere. They are especially useful for families, long-stay travelers, and visitors who already plan to spend time around the river.

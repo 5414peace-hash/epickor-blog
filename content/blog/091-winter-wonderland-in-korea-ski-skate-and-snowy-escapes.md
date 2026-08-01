@@ -51,6 +51,8 @@ Choose by effort level:
   </table>
 </div>
 
+<p class="affiliate-topline"><a href="https://www.amazon.com/s?k=portable+power+bank+travel&tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Portable power banks for travel — compare on Amazon</a><span class="affiliate-topline-note">Affiliate link. As an Amazon Associate, EpicKor earns from qualifying purchases at no extra cost to you.</span></p>
+
 ## Skiing and Snowboarding in Korea
 
 Korea's ski culture is strongest in and around Gangwon, where snowfall and mountain terrain support larger resorts. VISITKOREA highlights multiple ski resorts and notes that many resorts offer slopes for different skill levels, lift systems, rentals, nighttime skiing, and additional facilities such as cafes, saunas, indoor water parks, or family activities.

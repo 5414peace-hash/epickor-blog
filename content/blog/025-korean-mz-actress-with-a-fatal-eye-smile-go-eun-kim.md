@@ -38,6 +38,8 @@ For overseas viewers, she is a bridge figure. Film fans may know her from darker
 </table>
 </div>
 
+<p class="affiliate-topline"><a href="https://www.amazon.com/dp/B08FM5BTF6?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">ROUND LAB 1025 Dokdo Toner — compare on Amazon</a><span class="affiliate-topline-note">Affiliate link. As an Amazon Associate, EpicKor earns from qualifying purchases at no extra cost to you.</span></p>
+
 ## From A Muse to a Serious Film Reputation
 
 Kim Go-eun's debut mattered because it did not look like a safe celebrity launch. KOFIC's profile describes her as a Korea National University of Arts drama student when she was cast in <em>Eungyo</em> (<em>A Muse</em>), and the role brought major new-actress recognition. That beginning framed her less as a manufactured starlet and more as an actor willing to enter complicated material early.

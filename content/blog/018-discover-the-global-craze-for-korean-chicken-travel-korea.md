@@ -30,6 +30,8 @@ This guide explains what makes Korean fried chicken different, how to order it, 
 </table>
 </div>
 
+<p class="affiliate-topline"><a href="https://www.amazon.com/s?k=korean+food+starter+pack&amp;tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean food starter packs — compare on Amazon</a><span class="affiliate-topline-note">Affiliate link. As an Amazon Associate, EpicKor earns from qualifying purchases at no extra cost to you.</span></p>
+
 ## What makes Korean fried chicken different?
 
 Korean fried chicken usually emphasizes a thinner, crispier exterior than many heavier battered styles. The exact method varies by brand and shop, but the goal is often the same: a shell that stays satisfying even after sauce, delivery time, or shared-table eating.

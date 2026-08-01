@@ -38,6 +38,8 @@ The iconic lines matter because they travel outside the movie. Koreans may use t
 </table>
 </div>
 
+<p class="affiliate-topline"><a href="https://www.amazon.com/s?k=korean+culture+history+book&amp;tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean culture and history books — compare on Amazon</a><span class="affiliate-topline-note">Affiliate link. As an Amazon Associate, EpicKor earns from qualifying purchases at no extra cost to you.</span></p>
+
 ## Why Korean Movie Lines Travel
 
 Korean movie lines travel because they compress a social feeling into a repeatable phrase. A film character says something in a charged situation, and later people use that line to joke about work, money, hierarchy, gambling, betrayal, loyalty, or absurd unfairness. The line becomes a social tool.

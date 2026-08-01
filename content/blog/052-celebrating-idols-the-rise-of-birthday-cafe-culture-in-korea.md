@@ -23,6 +23,10 @@ VISITKOREA describes birthday cafe tours as a Hallyu travel activity where fans 
 
 That expansion matters. Birthday cafes are not only about “buying coffee.” They are social proof. They show how Korean fan communities turn affection into planning, design, printing, queue management, and neighborhood movement.
 
+
+
+<p class="affiliate-topline"><a href="https://www.amazon.com/s?k=photocard+sleeves+toploaders&amp;tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Photocard sleeves and rigid toploaders — compare on Amazon</a><span class="affiliate-topline-note">Affiliate link. As an Amazon Associate, EpicKor earns from qualifying purchases at no extra cost to you.</span></p>
+
 ## Why Birthday Cafes Became a Seoul Fandom Ritual
 
 The ritual works because it solves three fan needs at once:

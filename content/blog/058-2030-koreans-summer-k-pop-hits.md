@@ -38,6 +38,8 @@ That is why a song can feel like a summer hit even if it is not the year's bigge
 </table>
 </div>
 
+<p class="affiliate-topline"><a href="https://www.amazon.com/s?k=kpop+kdrama+fan+goods&amp;tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">K-pop and K-drama fan goods — compare on Amazon</a><span class="affiliate-topline-note">Affiliate link. As an Amazon Associate, EpicKor earns from qualifying purchases at no extra cost to you.</span></p>
+
 ## Why Korean 2030 Listeners Treat Summer Songs Differently
 
 Korean listeners in their 20s and 30s often carry two timelines at once. One timeline is current: streaming charts, YouTube clips, TikTok edits, music shows, festivals, and idol comebacks. The other is nostalgic: the songs they heard in school, at university festivals, during first jobs, on beach trips, or inside tiny stores with air conditioning blasting.

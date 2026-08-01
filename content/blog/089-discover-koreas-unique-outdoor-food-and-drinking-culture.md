@@ -21,6 +21,10 @@ This guide explains how to enjoy a pojangmacha without turning the experience in
 ![Pojangmacha night visual from EpicKor's original Seoul street food package.](/assets/images/posts/089/d6f1969d-a973-4746-b6fa-8573eb1a2410.png)
 *Pojangmacha is less about luxury and more about warm food, close seating, and the emotional looseness of a Korean night.*
 
+
+
+<p class="affiliate-topline"><a href="https://www.amazon.com/dp/B08G1CM3XX?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean ramen cooking pot — compare on Amazon</a><span class="affiliate-topline-note">Affiliate link. As an Amazon Associate, EpicKor earns from qualifying purchases at no extra cost to you.</span></p>
+
 ## Quick Answer: What Is a Pojangmacha?
 
 A pojangmacha is a Korean street-food tent or temporary stall, usually associated with late-night eating and drinking. Korea.net's K-InfoHub describes night markets and pojangmacha as part of Korea's distinctive street-food culture, with pojangmacha operating mainly at night and serving simple warming foods such as fishcake soup, tteokbokki, sundae, ramyeon, gimbap, soju, and makgeolli. It also frames them as working-class, social, unpretentious spaces rather than only food stalls. See Korea.net's <a href="https://www.korea.net/K-InfoHub/SubMainDetail/view?articleId=4096&amp;headwordCd=74&amp;headwordGroupCd=28&amp;pageIndex=1" target="_blank" rel="noopener noreferrer">night markets and street food tent culture</a> explainer.

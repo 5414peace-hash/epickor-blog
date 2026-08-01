@@ -23,6 +23,10 @@ That official profile also emphasizes self-produced music, performance, fan inte
 
 For a beginner, the key point is simple: BTS became enormous because the group combined idol performance with unusually strong narrative continuity. Fans did not only follow songs. They followed growth, friendship, lyrics, vulnerability, documentary-style content, and a shared language of resilience.
 
+
+
+<p class="affiliate-topline"><a href="https://www.amazon.com/s?k=kpop+kdrama+fan+goods&amp;tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">K-pop and K-drama fan goods — compare on Amazon</a><span class="affiliate-topline-note">Affiliate link. As an Amazon Associate, EpicKor earns from qualifying purchases at no extra cost to you.</span></p>
+
 ## The Seven Members at a Glance
 
 <div class="table-scroll">

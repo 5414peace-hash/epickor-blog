@@ -40,6 +40,8 @@ If this is your first visit, use EpicKor's [first-time Korea travel guide](/blog
   </table>
 </div>
 
+<p class="affiliate-topline"><a href="https://www.amazon.com/s?k=travel+document+organizer&tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Travel document organizers — compare on Amazon</a><span class="affiliate-topline-note">Affiliate link. As an Amazon Associate, EpicKor earns from qualifying purchases at no extra cost to you.</span></p>
+
 ## 2. Korea Uses Local Map Logic
 
 Korea is very digital, but visitors often get surprised by maps. Local apps such as Naver Map and KakaoMap are widely used for transit, walking, restaurants, business hours, and place details. Google Maps can still be useful for general orientation, but it may not provide the same walking, transit, or local-business depth that travelers expect in other countries.

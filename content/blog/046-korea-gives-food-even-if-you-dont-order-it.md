@@ -21,6 +21,10 @@ This guide explains why free side dishes in Korea exist, what is usually refilla
 ![A Korean restaurant table with several small side dishes around the main meal.](/assets/images/posts/046/b5bd702e-e6b7-4afa-97bb-51d471267746.jpg)
 *Free-looking side dishes are one of the first things travelers notice in Korean restaurants, but the rules are more practical than mysterious.*
 
+
+
+<p class="affiliate-topline"><a href="https://www.amazon.com/s?k=korean+snack&tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean snack options — compare on Amazon</a><span class="affiliate-topline-note">Affiliate link. As an Amazon Associate, EpicKor earns from qualifying purchases at no extra cost to you.</span></p>
+
 ## Quick Answer: Are Side Dishes Free in Korea?
 
 In many Korean restaurants, basic side dishes are included with your meal and can often be refilled at no extra charge. This is especially common at barbecue restaurants, soup restaurants, noodle shops, stews, baekban places, and casual local diners. The restaurant is not being randomly generous; banchan is part of the normal meal format.

@@ -165,7 +165,11 @@ function parseFrontmatter(markdown) {
   // 그러면 slug가 없어 결과가 unknown_review.json으로 저장되고, title이 없어
   // "메인 키워드 첫 100단어" 검사가 무조건 실패한다 — 글 잘못이 아닌데 감점된다.
   // 2026-08-01 실측: 207~211 다섯 편이 이 상태였다.
-  const clean = markdown.replace(/^﻿/, '');
+  // CRLF도 같은 방식으로 터진다. 이 저장소는 core.autocrlf=true라 git이 체크아웃할 때
+  // 모든 .md를 CRLF로 쓴다. 그러면 /^---\n/ 이 매칭되지 않아 갓 체크아웃한 파일이
+  // 전부 60점대로 나오고, 원인이 글 내용처럼 보인다.
+  // 2026-08-01 실측: 337을 stash/pop 한 뒤 같은 파일이 90 -> 60으로 떨어져 발견.
+  const clean = markdown.replace(/^﻿/, '').replace(/\r\n/g, '\n');
   const match = clean.match(/^---\n([\s\S]*?)\n---/);
   if (!match) return {};
   const fm = {};
@@ -248,7 +252,9 @@ async function main() {
     process.exit(1);
   }
 
-  const markdown = readFileSync(absPath, 'utf8');
+  // 줄바꿈은 여기서 한 번만 정규화한다. 아래 검사들이 전부 줄 단위 정규식이라
+  // CRLF가 섞여 들어가면 검사마다 다른 방식으로 조용히 어긋난다.
+  const markdown = readFileSync(absPath, 'utf8').replace(/^﻿/, '').replace(/\r\n/g, '\n');
   const frontmatter = parseFrontmatter(markdown);
   const slug = frontmatter.slug || 'unknown';
 

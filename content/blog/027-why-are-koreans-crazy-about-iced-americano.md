@@ -38,6 +38,8 @@ For travelers, the key is not "Koreans are strange for drinking cold coffee in w
 </table>
 </div>
 
+<p class="affiliate-topline"><a href="https://www.amazon.com/s?k=korean+snack&tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean snack assortments — compare on Amazon</a><span class="affiliate-topline-note">Affiliate link. As an Amazon Associate, EpicKor earns from qualifying purchases at no extra cost to you.</span></p>
+
 ## What "Eoljuk-a" Really Means
 
 Eoljuk-a is internet slang, not a formal rule. It describes people who choose iced Americano even when the weather is cold. The phrase became popular because it turns a tiny preference into a funny identity: I know it is freezing, but I still want my iced coffee.

@@ -22,6 +22,10 @@ This guide explains the armistice in practical terms, why many South Koreans app
 ![Korean Peninsula tension visual from EpicKor's original post package.](/assets/images/posts/033/b4e7bcc1-7922-403e-a696-dd2ecba15a34.png)
 *South Korea's normal daily life exists beside an unresolved armistice structure, not outside it.*
 
+
+
+<p class="affiliate-topline"><a href="https://www.amazon.com/s?k=korean+culture+history+book&amp;tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Books on Korean history and modern society — compare on Amazon</a><span class="affiliate-topline-note">Affiliate link. As an Amazon Associate, EpicKor earns from qualifying purchases at no extra cost to you.</span></p>
+
 ## Quick Answer: Is South Korea Still Technically at War?
 
 The Korean War fighting stopped with the Korean Armistice Agreement signed on July 27, 1953. Because the armistice was not a peace treaty, many explainers say the war has not formally ended. In practical terms, the armistice created mechanisms to stop active fighting, including the Military Demarcation Line and the Demilitarized Zone, while the political division of the peninsula remained unresolved.

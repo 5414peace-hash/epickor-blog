@@ -42,6 +42,8 @@ The 2026 list was published in late May. The top 10 includes three group entries
 </table>
 </div>
 
+<p class="affiliate-topline"><a href="https://www.amazon.com/s?k=kpop+kdrama+fan+goods&amp;tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">K-pop and K-drama fan goods — compare on Amazon</a><span class="affiliate-topline-note">Affiliate link. As an Amazon Associate, EpicKor earns from qualifying purchases at no extra cost to you.</span></p>
+
 The unusual feature is the simultaneous presence of BTS as a group and several members as individuals. That is not a typo. Group and solo activity can create separate economic and media footprints, so readers should not add those ranks together as if they were votes in one contest.
 
 ## How the 2026 Ranking Is Calculated

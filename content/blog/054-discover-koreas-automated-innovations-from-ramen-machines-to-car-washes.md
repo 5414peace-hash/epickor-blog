@@ -43,6 +43,8 @@ For the non-robot version of the same habit, EpicKor's [unique things in Korea g
 </table>
 </div>
 
+<p class="affiliate-topline"><a href="https://www.amazon.com/dp/B08G1CM3XX?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean ramen cooking pot — compare on Amazon</a><span class="affiliate-topline-note">Affiliate link. As an Amazon Associate, EpicKor earns from qualifying purchases at no extra cost to you.</span></p>
+
 ## Hangang Ramyeon Machines: The Perfect Tourist Automation
 
 If one Korean machine deserves tourist fame, it is the Hangang ramyeon cooker. The ritual is simple: buy a packet of ramyeon and a special foil container at a riverside convenience store, place the noodles and seasoning inside, use the cooking station, and wait while the machine adds water and boils the noodles. Then you eat with the river view.

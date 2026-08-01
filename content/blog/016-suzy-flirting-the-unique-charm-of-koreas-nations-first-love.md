@@ -41,6 +41,8 @@ The "flirting" angle should also be read culturally. Korean audiences often trea
 </table>
 </div>
 
+<p class="affiliate-topline"><a href="https://www.amazon.com/s?k=korean+phrasebook&amp;tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean phrasebooks — compare on Amazon</a><span class="affiliate-topline-note">Affiliate link. As an Amazon Associate, EpicKor earns from qualifying purchases at no extra cost to you.</span></p>
+
 ## The Korean Meaning of "Nation's First Love"
 
 Korea uses "Nation's..." labels often: Nation's MC, Nation's Little Sister, Nation's First Love, Nation's Pick. These nicknames are not official titles. They are social labels created through media repetition, public affection, and the sense that one person represents a shared mood. The label can be affectionate, but it can also become a box.

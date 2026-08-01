@@ -24,6 +24,10 @@ That matters because Hangeul was not created only as a court symbol. Its purpose
 
 For learners, this block system is the key. Korean is not written letter-by-letter in a straight line like `h-a-n-g-e-u-l`. It is grouped into syllables: ?쒓?. Each block usually combines an initial consonant, a vowel, and sometimes a final consonant.
 
+
+
+<p class="affiliate-topline"><a href="https://www.amazon.com/dp/1974152626?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean Alphabet with Writing Workbook — compare on Amazon</a><span class="affiliate-topline-note">Affiliate link. As an Amazon Associate, EpicKor earns from qualifying purchases at no extra cost to you.</span></p>
+
 ## Why You Should Avoid Romanization
 
 Romanization can help with street signs and maps, but it is a weak way to learn Korean. English letters do not map cleanly onto Korean sounds. If you rely on romanization too long, you may build pronunciation habits that are hard to fix later.

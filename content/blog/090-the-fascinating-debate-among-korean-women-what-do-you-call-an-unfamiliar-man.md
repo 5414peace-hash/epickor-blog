@@ -19,6 +19,10 @@ For a stranger in Korea, the safest practical word is usually **jeogiyo**, which
 
 ![epickor_민호.mp4_20250116_211742.982.jpg](/assets/images/posts/090/9aba325a-8a83-4721-9780-c2760839d14b.png)
 
+
+
+<p class="affiliate-topline"><a href="https://www.amazon.com/dp/1974152626?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean Alphabet with Writing Workbook — compare on Amazon</a><span class="affiliate-topline-note">Affiliate link. As an Amazon Associate, EpicKor earns from qualifying purchases at no extra cost to you.</span></p>
+
 ## Ahjussi Meaning: More Than Just "Mister"
 
 In Korean, **ahjussi** is written 아저씨. The closest English word is "mister," but the emotional weight is different. In English, "mister" can be formal or old-fashioned. In Korean, ahjussi is everyday language. You might hear it at a restaurant, in a market, on the street, or in a drama when someone is calling an unfamiliar adult man.

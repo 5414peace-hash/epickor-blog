@@ -21,6 +21,10 @@ This guide explains who Chung Yong-jin is, why his leadership style matters in K
 ![Chung Yong-jin and Shinsegae leadership visual from EpicKor's original package.](/assets/images/posts/004/99e4515a-8f18-4e2d-965c-fe239592a73c.png)
 *Chung Yong-jin's public image is useful only if you also understand Shinsegae's retail, governance, and reputation stakes.*
 
+
+
+<p class="affiliate-topline"><a href="https://www.amazon.com/s?k=korean+business+books&amp;tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean business books — compare on Amazon</a><span class="affiliate-topline-note">Affiliate link. As an Amazon Associate, EpicKor earns from qualifying purchases at no extra cost to you.</span></p>
+
 ## Quick Answer: Who Is Chung Yong-jin?
 
 Chung Yong-jin, also romanized Jeong Yong-jin in some Korean-to-English contexts, is chairman of Shinsegae Group. Yonhap reported that he was promoted from vice chairman to chairman in March 2024 as Shinsegae sought to respond to difficult retail conditions and changing customer demand. Forbes notes that he is a grandson of Samsung founder Lee Byung-chull and that his fortune is tied largely to Samsung Electronics and E-Mart, a Shinsegae retail unit.

@@ -26,6 +26,10 @@ Visit Seoul's etiquette guidance describes basic Korean manners around shoes, gr
 
 If you want the broader social-reading layer, pair this article with EpicKor's [nunchi and Korean conflict-avoidance guide](/blog/035).
 
+
+
+<p class="affiliate-topline"><a href="https://www.amazon.com/s?k=korean+culture+history+book&tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean culture and history books — compare on Amazon</a><span class="affiliate-topline-note">Affiliate link. As an Amazon Associate, EpicKor earns from qualifying purchases at no extra cost to you.</span></p>
+
 ## 1. Shoes Indoors: The Threshold Matters
 
 The fastest way to shock a Korean host is to walk into a home with outdoor shoes on. In Korean homes, many hanok stays, some guesthouses, temple spaces, jjimjilbangs, and floor-seating restaurants, the entryway marks a real boundary between outside and inside.

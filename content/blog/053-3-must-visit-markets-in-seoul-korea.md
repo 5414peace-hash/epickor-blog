@@ -31,6 +31,10 @@ The three markets serve different appetites. Gwangjang is a broad historic marke
 
 Times are planning estimates, not official limits. Add more time if you want a full meal, serious textile shopping or careful secondhand inspection.
 
+
+
+<p class="affiliate-topline"><a href="https://www.amazon.com/s?k=travel+wet+wipes&tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Travel wet wipes — compare on Amazon</a><span class="affiliate-topline-note">Affiliate link. As an Amazon Associate, EpicKor earns from qualifying purchases at no extra cost to you.</span></p>
+
 ## Gwangjang Market: go for food, but see the whole market
 
 Gwangjang is the most accessible answer for a traveler asking for one classic Seoul market. The Seoul Metropolitan Government describes it as Korea's first permanent market, established in 1905, and notes its mung-bean pancakes, small gimbap and beef tartare. The official [Seoul Gwangjang overview](https://english.seoul.go.kr/gwangjang-market/) also highlights the upstairs fabric wholesale area, tailors and handmade hanbok shops.

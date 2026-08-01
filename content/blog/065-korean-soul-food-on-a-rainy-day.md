@@ -21,6 +21,10 @@ This guide explains why pajeon and makgeolli became famous, what else Koreans ea
 ![Korean rainy-day food visual from EpicKor's original package.](/assets/images/posts/065/080ba621-2d5d-4a00-b55b-b65d0ed718e1.jpg)
 *Rainy-day food in Korea is about warmth, sound, sharing, and adjusting the plan instead of fighting the weather.*
 
+
+
+<p class="affiliate-topline"><a href="https://www.amazon.com/dp/B0F4K5JK5S?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean kimchi stew with tofu — compare on Amazon</a><span class="affiliate-topline-note">Affiliate link. As an Amazon Associate, EpicKor earns from qualifying purchases at no extra cost to you.</span></p>
+
 ## Quick Answer: What Do Koreans Eat When It Rains?
 
 The classic answer is **pajeon and makgeolli**, especially green onion pancake or seafood pancake with cloudy rice wine. But common rainy-day choices also include kalguksu, sujebi, ramyeon, kimchi stew, hot soups, tteokbokki, fried chicken, delivery food, convenience-store noodles, and market snacks.

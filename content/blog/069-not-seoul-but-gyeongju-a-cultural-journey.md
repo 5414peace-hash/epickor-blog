@@ -24,6 +24,10 @@ That matters for travelers because Gyeongju is not only one attraction. It is a 
 
 If Seoul is your first Korea trip base, EpicKor's [24-hour Seoul route](/blog/017) gives the fast-city version. Gyeongju is the slower historical counterpart.
 
+
+
+<p class="affiliate-topline"><a href="https://www.amazon.com/s?k=korea+travel+essentials&amp;tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korea travel essentials — compare on Amazon</a><span class="affiliate-topline-note">Affiliate link. As an Amazon Associate, EpicKor earns from qualifying purchases at no extra cost to you.</span></p>
+
 ## How Many Days Do You Need?
 
 One day is possible, but tight. A one-day trip should focus on the central historic area and maybe one temple cluster if transportation is efficient. Two days is much better because Bulguksa and Seokguram sit outside the central walking zone, while Daereungwon, Cheomseongdae, Woljeonggyo, Donggung and Wolji, and Hwangnidan-gil are easier to combine.

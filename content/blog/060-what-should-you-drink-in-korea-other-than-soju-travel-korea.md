@@ -21,6 +21,10 @@ This guide explains what to drink in Korea besides soju, how somaek works, when 
 ![A Korean drinking-culture visual from EpicKor's original package.](/assets/images/posts/060/ecf8dfd7-dd2e-47f7-839c-69016976ceec.png)
 *Korean drinking culture is really table culture: drink, food, pacing, group mood, and etiquette all move together.*
 
+
+
+<p class="affiliate-topline"><a href="https://www.amazon.com/s?k=korean+snack&tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean snack options — compare on Amazon</a><span class="affiliate-topline-note">Affiliate link. As an Amazon Associate, EpicKor earns from qualifying purchases at no extra cost to you.</span></p>
+
 ## Quick Answer: What Should You Drink in Korea Besides Soju?
 
 Try **makgeolli** with jeon or casual traditional food, **Korean beer** with fried chicken, **somaek** if you want the classic soju-beer mix, **traditional sool** at a tasting bar, **highballs** in modern pubs, and **non-alcoholic drinks** such as barley tea, sparkling water, zero beer, or soft drinks if you do not drink alcohol.
