@@ -161,7 +161,12 @@ function calculateSeoScore(markdown, frontmatter) {
 // ─── frontmatter 파싱 ─────────────────────────────────────────────
 
 function parseFrontmatter(markdown) {
-  const match = markdown.match(/^---\n([\s\S]*?)\n---/);
+  // UTF-8 BOM이 있으면 /^---/ 가 매칭되지 않아 frontmatter 전체가 빈 객체가 된다.
+  // 그러면 slug가 없어 결과가 unknown_review.json으로 저장되고, title이 없어
+  // "메인 키워드 첫 100단어" 검사가 무조건 실패한다 — 글 잘못이 아닌데 감점된다.
+  // 2026-08-01 실측: 207~211 다섯 편이 이 상태였다.
+  const clean = markdown.replace(/^﻿/, '');
+  const match = clean.match(/^---\n([\s\S]*?)\n---/);
   if (!match) return {};
   const fm = {};
   for (const line of match[1].split('\n')) {
