@@ -114,6 +114,10 @@ This is similar to how age works in Korea. A number is not only a number; it cha
 
 For the career side of that pressure, EpicKor also has a guide to [top jobs in Korea and how status shapes work](/blog/039). University prestige is not the whole story, but it often appears near the beginning of the story.
 
+![The Yonsei University campus in Seoul, its stone buildings seen across an open green.](/assets/images/posts/082/yonsei-university-campus.jpg)
+
+*Yonsei University, Sinchon. The Y in SKY, and one half of Korea’s most theatrical university rivalry. Photo by Christian Bolz, CC BY-SA 4.0.*
+
 ## The Korea University vs Yonsei Rivalry
 
 One reason SKY is easy to remember is the legendary rivalry between Korea University and Yonsei University. This rivalry is not a small campus joke. It is a major part of student identity.
