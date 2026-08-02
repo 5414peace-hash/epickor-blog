@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import Image from 'next/image';
 import Link from 'next/link';
 import HubCrossLinks from '@/components/HubCrossLinks';
+import HubParentLine from '@/components/HubParentLine';
 import SeoulMap from '@/components/SeoulMap';
 import { BreadcrumbLd, HubLd } from '@/components/StructuredData';
 import { NEIGHBOURHOODS } from '@/lib/seoul';
@@ -77,6 +78,7 @@ export default function SeoulHubPage() {
               a buried railway, a shrine approach, a district of workshops that emptied out. Work out
               which one you want, then book near it.
             </p>
+            <HubParentLine href="/seoul" />
           </div>
         </div>
       </section>

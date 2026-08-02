@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import Image from 'next/image';
 import Link from 'next/link';
 import HubCrossLinks from '@/components/HubCrossLinks';
+import HubParentLine from '@/components/HubParentLine';
 import { BreadcrumbLd, HubLd } from '@/components/StructuredData';
 import { GUIDE_GROUPS, PRICES, RAMYUN } from '@/lib/ramyun';
 
@@ -71,6 +72,7 @@ export default function RamyunHubPage() {
               broth at all. Here they are side by side, with the Scoville figures that have actually
               been published.
             </p>
+            <HubParentLine href="/ramyun" />
           </div>
         </div>
       </section>

@@ -86,11 +86,11 @@ export const sectionPageConfigs: Record<SectionPageKey, SectionPageConfig> = {
     promise: 'Use this page when a Reel or search result makes you hungry, curious, or one click away from buying the wrong thing.',
     spotlight: {
       eyebrow: 'New section',
-      title: 'Korean convenience stores',
+      title: 'Convenience stores and ramyun',
       body:
-        'CU, GS25, 7-Eleven and Emart24 compared, current prices for the things people actually buy, and a guide to each product on the shelf.',
-      href: '/convenience-store',
-      action: 'Open the guide',
+        'Two comparison guides sit inside this section: Korean convenience stores — CU, GS25, 7-Eleven and Emart24 compared with current prices — and Korean ramyun, every packet ranked by published Scoville.',
+      href: '/guides',
+      action: 'See both guides',
     },
     heroSlugs: ['270', '209', '272'],
     recommendedSlugs: ['270', '272', '209', '220', '153', '171', '277', '279', '280', '281', '282'],

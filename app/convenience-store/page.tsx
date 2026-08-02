@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import Image from 'next/image';
 import Link from 'next/link';
 import HubCrossLinks from '@/components/HubCrossLinks';
+import HubParentLine from '@/components/HubParentLine';
 import { BreadcrumbLd, HubLd } from '@/components/StructuredData';
 import { CHAINS, GUIDE_GROUPS, HOW_TO, PRICES } from '@/lib/convenience-store';
 
@@ -57,6 +58,7 @@ export default function ConvenienceStoreHubPage() {
               stock rotates fast enough that a guide written last year is describing a different
               shelf. Here is what is on it now.
             </p>
+            <HubParentLine href="/convenience-store" />
           </div>
         </div>
       </section>

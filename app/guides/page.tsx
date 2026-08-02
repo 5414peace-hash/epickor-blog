@@ -52,6 +52,11 @@ export default function GuidesIndexPage() {
             <p className="mt-4 text-sm font-bold text-gray-500">
               {HUBS.length} guides · {totalArticles} articles
             </p>
+            <p className="mt-2 max-w-2xl text-sm leading-6 text-gray-500">
+              Each guide sits inside one of the topic sections — Seoul under Travel, the food guides
+              under Food &amp; Shopping. They are listed together here because the comparison, not
+              the subject, is what they have in common.
+            </p>
           </div>
         </div>
       </section>
@@ -75,8 +80,12 @@ export default function GuidesIndexPage() {
                 </div>
               </Link>
               <div className={`flex flex-col justify-center p-6 ${hub.accentBg}`}>
-                <p className={`text-[11px] font-black uppercase tracking-[0.14em] ${hub.accentText}`}>
-                  {hub.articleCount} articles
+                <p className="flex flex-wrap items-center gap-1.5 text-[11px] font-black uppercase tracking-[0.14em]">
+                  <Link href={hub.parent.href} className="text-gray-500 hover:underline">
+                    {hub.parent.label}
+                  </Link>
+                  <span aria-hidden className="text-gray-300">›</span>
+                  <span className={hub.accentText}>{hub.articleCount} articles</span>
                 </p>
                 <h2 className="mt-1.5 text-2xl font-black leading-tight text-gray-950">
                   <Link href={hub.href} className="hover:underline">

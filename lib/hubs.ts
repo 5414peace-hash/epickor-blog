@@ -16,6 +16,12 @@
 export interface Hub {
   href: string;
   label: string;
+  /**
+   * The topic section this hub belongs inside. Seoul is a part of Travel and
+   * the food hubs are parts of Food & Shopping — stating that explicitly is the
+   * fix for a taxonomy that was showing children beside their own parents.
+   */
+  parent: { label: string; href: string };
   /** Full title used on the /guides index. */
   title: string;
   blurb: string;
@@ -33,6 +39,7 @@ export const HUBS: Hub[] = [
   {
     href: '/seoul',
     label: 'Seoul by Neighbourhood',
+    parent: { label: 'Travel', href: '/travel' },
     title: 'Seoul by neighbourhood',
     blurb:
       'Twelve Seoul neighbourhoods compared by character, nearest station, whether they are worth staying in, and how long each actually takes.',
@@ -47,6 +54,7 @@ export const HUBS: Hub[] = [
   {
     href: '/convenience-store',
     label: 'Convenience Stores',
+    parent: { label: 'Food & Shopping', href: '/food-shopping' },
     title: 'Korean convenience stores',
     blurb:
       'CU, GS25, 7-Eleven and Emart24 compared, current prices for the things people actually buy, and a guide to each product on the shelf.',
@@ -61,6 +69,7 @@ export const HUBS: Hub[] = [
   {
     href: '/ramyun',
     label: 'Korean Ramyun',
+    parent: { label: 'Food & Shopping', href: '/food-shopping' },
     title: 'Korean ramyun',
     blurb:
       'Every packet compared by soup base and published Scoville, with current Korean prices and the format that saves money.',
