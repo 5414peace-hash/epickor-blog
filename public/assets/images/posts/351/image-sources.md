@@ -35,3 +35,15 @@
   라이선스 부담도 가장 낮다
 - **용량**: 3장 합계 732KB (포스트당 1MB 미만 기준 충족)
 - **헤지 캡션 없음** — 세 장 모두 정확히 그 대상이다
+
+## 2026-08-02 추가 (가로 사진 보강 · 배치 1)
+
+기존 세로 이미지는 **릴스용 텍스트/썸네일로 의도 제작된 것이라 그대로 둔다**(대표님 판정).
+여기서는 가로 사진만 얹었다. 계획: `output/strategy/image-reinforcement-plan.md`
+
+| 파일 | 출처 | 라이선스 | 촬영 |
+|---|---|---|---|
+| `gyeongui-line-forest-trail-park.jpg` | https://commons.wikimedia.org/wiki/File:Gyeonguiseon_Forest_Trail_Park_and_Ttaeng-ttaeng_Street_in_Seoul_(near_Hongdae,_1).jpg | CC BY-SA 4.0 | Christian Bolz |
+| `yeontral-park-hongdae.jpg` | https://commons.wikimedia.org/wiki/File:Yeontral_Park,_Hongdae.png | CC BY-SA 4.0 | Brit in Seoul |
+
+둘 다 **글이 다루는 경의선숲길·연남동 현장 촬영본**이다. 대체 이미지가 아니라 직접 참조.

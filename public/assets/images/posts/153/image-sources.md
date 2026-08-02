@@ -9,3 +9,14 @@
 | `isaac-toast-bacon-potato-pizza.jpg` | https://commons.wikimedia.org/wiki/File:%EC%9D%B4%EC%82%AD%ED%86%A0%EC%8A%A4%ED%8A%B8_%EB%B2%A0%EC%9D%B4%EC%BB%A8_%ED%8F%AC%ED%85%8C%EC%9D%B4%ED%86%A0_%ED%94%BC%EC%9E%90.jpg | CC BY-SA 2.0 KR | 엔느맘 |
 
 실제 이삭토스트 제품 사진이다. 원본이 900x676로 작아 확대하지 않고 원본 크기로 썼다.
+
+## 2026-08-02 추가 (가로 사진 보강 · 배치 1)
+
+기존 세로 이미지는 **릴스용 텍스트/썸네일로 의도 제작된 것이라 그대로 둔다**(대표님 판정).
+여기서는 가로 사진만 얹었다. 계획: `output/strategy/image-reinforcement-plan.md`
+
+| 파일 | 출처 | 라이선스 | 촬영 |
+|---|---|---|---|
+| `sandwich-on-griddle.jpg` | https://www.pexels.com/photo/32727238/ | Pexels License | DAVE GARCIA |
+
+이삭토스트 매장이라고 주장하지 않는다. 그 섹션이 설명하는 **조리 방식**(버터를 두른 철판)을 보여주는 용도다.

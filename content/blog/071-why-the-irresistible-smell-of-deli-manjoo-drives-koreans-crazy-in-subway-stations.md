@@ -72,6 +72,10 @@ That is good branding.
 
 </div>
 
+![Commuters waiting on a Seoul metro platform, the concourse stretching away behind them.](/assets/images/posts/071/seoul-metro-station-concourse.jpg)
+
+*A Seoul metro station. Enclosed, warm, and full of moving air — which is exactly why one small machine can scent an entire concourse. Photo by Theodore Nguyen, Pexels.*
+
 ## Why Deli Manjoo Smells So Strong in Subway Stations
 
 Deli Manjoo is famous because of smell more than sight.

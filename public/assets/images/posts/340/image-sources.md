@@ -76,3 +76,14 @@ found already in use in Blog `314`'s image-sources.md and was rejected for that 
   Yangcheon-gu-specific if a truly local image is later wanted.
 - **Tier 3/4 (Commons general-area search, representative stock, AI recreation)**: Not reached,
   same reason.
+
+## 2026-08-02 추가 (가로 사진 보강 · 배치 1)
+
+기존 세로 이미지는 **릴스용 텍스트/썸네일로 의도 제작된 것이라 그대로 둔다**(대표님 판정).
+여기서는 가로 사진만 얹었다. 계획: `output/strategy/image-reinforcement-plan.md`
+
+| 파일 | 출처 | 라이선스 | 촬영 |
+|---|---|---|---|
+| `namsan-seoul-tower-night.jpg` | https://www.pexels.com/photo/18495180/ | Pexels License | Gije Cho |
+
+실제 남산 N서울타워 야경이며 서울세계불꽃축제 중 촬영본이다. **캡션에 불꽃축제임을 명시**했다 — 평상시 야경으로 오인되지 않게.

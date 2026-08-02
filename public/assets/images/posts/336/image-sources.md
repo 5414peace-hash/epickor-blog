@@ -19,3 +19,10 @@ convenience store" all returned either Japanese onigiri (would misrepresent the 
 rolled/sliced kimbap (wrong shape), or non-Korean convenience stores - none usable. Given the
 site's real-photo-first standard and this category's genuine scarcity, no substitute/generated
 image was used; the two Commons photos above carry the full visual load for this post.
+
+## 2026-08-02 — 조달 실패 (배치 1)
+
+삼각김밥 사진을 찾지 못했다. Pexels·커먼즈 후보가 전부 **일본 오니기리 또는 김밥 롤**이라 다른 음식이다.
+**탈락**: Pexels `20124001`(GS25)은 창문 안내가 베트남어인 **베트남 매장**이었다 — 제목만 보고 믿으면 안 되는 사례.
+`31735910`(서울 편의점 냉장고)은 사이트 내 중복.
+KTO 계정이 열리면 재시도한다.

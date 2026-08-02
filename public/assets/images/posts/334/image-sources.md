@@ -22,3 +22,10 @@ would require consent this article does not have. A Jindo dog photo was consider
 "changing relationship with pets" intro beat but deliberately NOT reused here since Blog 333
 (published the same day) already uses three different Jindo Commons/Pexels photos - reusing any
 of them here would violate the site's cross-post image uniqueness rule.
+
+## 2026-08-02 — 조달 실패 (배치 1)
+
+반려동물 장례 산업 글에 맞는 자유 라이선스 사진을 찾지 못했다.
+**탈락시킨 후보**: Pexels `8871527`은 액자 사진과 촛불이지만 **사람의 영정**이라 대상을 잘못 표현한다.
+반려동물 장례 시설 사진은 자유 라이선스로 존재하지 않고, 정서적 무드샷은 정보를 더하지 않는 필러다.
+KTO 계정이 열리면 재시도한다.
