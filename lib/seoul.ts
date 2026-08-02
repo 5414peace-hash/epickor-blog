@@ -161,6 +161,38 @@ export const NEIGHBOURHOODS: Neighbourhood[] = [
     imageAlt: 'The glass-and-steel approach to the Leeum museum in Hannam-dong, Seoul.',
     theAngle: 'One is a former factory district that kept its warehouses; the other never had industry to convert. That is why they feel different.',
   },
+  {
+    slug: '357',
+    name: 'Bukchon',
+    nameKo: '북촌',
+    district: 'Jongno-gu',
+    hook: 'Korea’s first neighbourhood where sightseeing is legally time-limited.',
+    character: 'Residential hanok, heavily visited',
+    suits: 'Anyone who wants the postcard — before 5pm',
+    station: 'Anguk (Line 3)',
+    stay: "Visit, don't stay",
+    time: '1–2 hours',
+    bestTime: 'Before 10:30 — and the red zone closes to visitors at 17:00',
+    image: '/assets/images/posts/357/bukchon-ro-11-gil-hanok-street.jpg',
+    imageAlt: 'Hanok roofs stepping down Bukchon-ro 11-gil under a blue sky.',
+    theAngle: 'Built by the same developer as Ikseon-dong, roughly 300 houses a year. Designated a Special Management Area in 2024, with a ₩100,000 fine enforced since March 2025.',
+  },
+  {
+    slug: '356',
+    name: 'Seochon',
+    nameKo: '서촌',
+    district: 'Jongno-gu',
+    hook: 'A valley rebuilt from a 300-year-old painting, and a market you eat with brass coins.',
+    character: 'Working streets, market, valley',
+    suits: 'People who found Bukchon too crowded',
+    station: 'Gyeongbokgung (Line 3)',
+    stay: 'Workable',
+    time: 'Half a day',
+    bestTime: 'Late morning — market first, valley after',
+    image: '/assets/images/posts/356/giringyo-bridge-suseongdong-valley.jpg',
+    imageAlt: 'The Giringyo stone bridge over Suseongdong Valley in Seochon.',
+    theAngle: 'A 1971 apartment block was demolished and the valley beneath restored to match Jeong Seon’s painting. The stone bridge in it was still there.',
+  },
 ];
 
 /**
@@ -172,7 +204,9 @@ export const NEIGHBOURHOODS: Neighbourhood[] = [
  * which is the opposite of useful on a comparison-driven section.
  */
 export const SIBLINGS: Record<string, [string, string]> = {
-  '355': ['352', '349'],
+  '355': ['357', '349'],
+  '357': ['355', '356'],
+  '356': ['357', '349'],
   '349': ['351', '355'],
   '351': ['352', '354'],
   '354': ['355', '351'],
