@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "node scripts/build-image-dimensions.mjs && next build",
     "start": "next start",
     "lint": "eslint",
     "reels:prepare-assets": "node .claude/skills/reels/scripts/prepare-assets.mjs",
