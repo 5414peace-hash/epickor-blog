@@ -18,6 +18,18 @@ export interface SectionPageConfig {
   accentBorderClass: string;
   metadataTitle: string;
   metadataDescription: string;
+  /**
+   * Optional pointer to a reference hub that belongs to this topic but is not a
+   * post — /seoul under Travel, and /prices under Food & Shopping once it
+   * exists. Kept optional so the five sections without one render unchanged.
+   */
+  spotlight?: {
+    eyebrow: string;
+    title: string;
+    body: string;
+    href: string;
+    action: string;
+  };
 }
 
 export const sectionPageConfigs: Record<SectionPageKey, SectionPageConfig> = {
@@ -30,6 +42,14 @@ export const sectionPageConfigs: Record<SectionPageKey, SectionPageConfig> = {
     description:
       'Plan Korea with airport transfers, Seoul routes, festival timing, packing decisions, and practical day-by-day guides.',
     promise: 'Start with the high-friction travel decisions first, then branch into neighborhoods, seasons, and local routines.',
+    spotlight: {
+      eyebrow: 'New section',
+      title: 'Seoul by neighbourhood',
+      body:
+        'Ikseon-dong, Euljiro, Yeonnam-dong, Mangwon, Haebangchon, Mullae, Seongsu and Hannam compared by character, nearest station, and whether each is worth staying in.',
+      href: '/seoul',
+      action: 'Compare neighbourhoods',
+    },
     heroSlugs: ['257', '202', '159'],
     recommendedSlugs: ['257', '202', '205', '216', '201', '204', '267', '180'],
     matchers: [

@@ -257,6 +257,26 @@ export default function SectionLandingPage({ config }: { config: SectionPageConf
           </section>
         )}
 
+        {config.spotlight && (
+          <section className={`mt-8 rounded-lg border ${config.accentBorderClass} ${config.accentBgClass} p-5`}>
+            <div className="flex flex-wrap items-center justify-between gap-4">
+              <div className="max-w-2xl">
+                <p className={`text-[11px] font-black uppercase tracking-[0.14em] ${config.accentTextClass}`}>
+                  {config.spotlight.eyebrow}
+                </p>
+                <h2 className="mt-1 text-2xl font-black text-gray-950">{config.spotlight.title}</h2>
+                <p className="mt-2 text-sm leading-6 text-gray-700">{config.spotlight.body}</p>
+              </div>
+              <Link
+                href={config.spotlight.href}
+                className="rounded-md bg-gray-950 px-4 py-2 text-sm font-black text-white hover:bg-gray-800"
+              >
+                {config.spotlight.action}
+              </Link>
+            </div>
+          </section>
+        )}
+
         {recommendedPosts.length > 0 && (
           <section className="mt-8">
             <div className="mb-4 flex flex-wrap items-end justify-between gap-3">

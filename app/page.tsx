@@ -38,6 +38,7 @@ const guideChips = [
   { label: 'K-Beauty', href: '/beauty-lifestyle' },
   { label: 'Food & Shopping', href: '/food-shopping' },
   { label: 'Culture', href: '/culture' },
+  { label: 'Seoul Neighbourhoods', href: '/seoul' },
   { label: 'Business in Korea', href: '/business' },
 ];
 
@@ -450,6 +451,14 @@ export default function Home() {
       accentClass: 'text-emerald-700',
       action: 'Visit Business Desk',
     },
+    {
+      title: 'Seoul by Neighbourhood',
+      description: 'Which Seoul neighbourhood is worth your afternoon, compared side by side.',
+      href: '/seoul',
+      image: '/assets/images/posts/355/ikseon-dong-hanok-alley.jpg',
+      accentClass: 'text-blue-700',
+      action: 'Compare Neighbourhoods',
+    },
   ];
 
   return (
@@ -474,7 +483,7 @@ export default function Home() {
           </section>
         )}
 
-        <section className="mt-6 grid gap-6 border-y border-gray-200 py-6 sm:grid-cols-2 lg:grid-cols-5">
+        <section className="mt-6 grid gap-6 border-y border-gray-200 py-6 sm:grid-cols-2 lg:grid-cols-3">
           {sectionTiles.map((tile) => (
             <SectionTileCard key={tile.href} tile={tile} />
           ))}
