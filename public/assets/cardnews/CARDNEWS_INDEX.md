@@ -67,3 +67,4 @@ Instagram upload is representative-managed. As of 2026-07-02, the representative
 | `2026-07-20_311` | 311 | Tteokbokki: Six Styles, One Rice Cake | 7 | final + bunsik-red system + caption ready | scheduled 2026-07-23 05:00 KST (Meta Suite, planner-verified 07-21) |
 | `2026-07-20_312` | 312 | K-Beauty Ingredients Decoded: Snail, Cica, Propolis, Rice | 7 | final + ingredient-decoder system + caption ready | scheduled 2026-07-24 05:00 KST (Meta Suite, planner-verified 07-21) |
 | `2026-07-20_313` | 313 | Seoul With Kids: What Parents Get Wrong | 7 | final + family-seoul system + caption ready | scheduled 2026-07-25 05:00 KST (Meta Suite, planner-verified 07-21) |
+| 2026-08-02_ramyun | Korean Ramyun — Heat Scale | 7 | 제작완료·검수완료 | 미업로드 | /ramyun 허브 |
