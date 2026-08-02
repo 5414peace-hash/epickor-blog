@@ -8,7 +8,7 @@ publishAt: ""
 description: "A Korean convenience store food guide explaining Baek Jong-won and Kim Hye-ja lunch boxes, dosirak, ramen, snacks, value labels, and traveler tips."
 tags: ['KoreanConvenienceStore', 'Dosirak', 'KoreanFood', 'KoreaShopping', 'CU']
 cleanUrl: ""
-ogImage: "/assets/images/posts/059/9f4217c9-a783-4538-9de8-0ba4ece9a096.png"
+ogImage: "/assets/images/posts/059/9f4217c9-a783-4538-9de8-0ba4ece9a096.jpg"
 author: "EpicKor"
 ---
 
@@ -18,7 +18,7 @@ Two names explain a lot about why Koreans trust certain convenience-store meals:
 
 This guide explains how to read Korean convenience store food, what those celebrity names mean, what travelers should actually buy, and how to avoid choosing a sad plastic box when better options are one shelf away.
 
-![A Korean convenience-store food visual from EpicKor's original package.](/assets/images/posts/059/9f4217c9-a783-4538-9de8-0ba4ece9a096.png)
+![A Korean convenience-store food visual from EpicKor's original package.](/assets/images/posts/059/9f4217c9-a783-4538-9de8-0ba4ece9a096.jpg)
 *Korean convenience stores are daily food infrastructure, not only snack stops.*
 
 ![A Korean convenience store lunch box with rice, meat and side compartments.](/assets/images/posts/059/convenience-store-lunchbox-01.jpg)

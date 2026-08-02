@@ -8,7 +8,7 @@ publishAt: ""
 description: "A Korea drinking guide for travelers covering makgeolli, beer, somaek, traditional sool, highballs, non-alcoholic options, etiquette, and food pairings."
 tags: ['KoreanDrinks', 'Makgeolli', 'Somaek', 'KoreaTravel', 'KoreanFood']
 cleanUrl: ""
-ogImage: "/assets/images/posts/060/ecf8dfd7-dd2e-47f7-839c-69016976ceec.png"
+ogImage: "/assets/images/posts/060/ecf8dfd7-dd2e-47f7-839c-69016976ceec.jpg"
 author: "EpicKor"
 ---
 
@@ -18,7 +18,7 @@ The better question is not "What do Koreans drink?" It is "What should I drink w
 
 This guide explains what to drink in Korea besides soju, how somaek works, when makgeolli makes sense, what traditional sool means, how to drink politely, and how to enjoy the culture without treating alcohol pressure as mandatory.
 
-![A Korean drinking-culture visual from EpicKor's original package.](/assets/images/posts/060/ecf8dfd7-dd2e-47f7-839c-69016976ceec.png)
+![A Korean drinking-culture visual from EpicKor's original package.](/assets/images/posts/060/ecf8dfd7-dd2e-47f7-839c-69016976ceec.jpg)
 *Korean drinking culture is really table culture: drink, food, pacing, group mood, and etiquette all move together.*
 
 

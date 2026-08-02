@@ -8,7 +8,7 @@ publishAt: ""
 description: "A practical Korean banchan guide explaining side dishes, kimchi, namul, jang seasonings, table layout, refills, etiquette, and what to try first."
 tags: ['Banchan', 'KoreanFood', 'Kimchi', 'KoreaTravel', 'KoreanCulture']
 cleanUrl: ""
-ogImage: "/assets/images/posts/050/6d305414-0269-4117-815f-735d0ed98dce.png"
+ogImage: "/assets/images/posts/050/6d305414-0269-4117-815f-735d0ed98dce.jpg"
 author: "EpicKor"
 ---
 
@@ -18,7 +18,7 @@ That is why a bowl of rice can feel complete with only a few side dishes, and wh
 
 This guide explains what banchan means, the main types to know, how Korean table settings work, which side dishes travelers should try first, how refills work, and why kimchi and jang sauces carry so much cultural weight. If you're curious why this many-small-dishes system is also credited in Korea's health and longevity story, EpicKor's [Korean diet secrets guide](/blog/317) picks up that thread.
 
-![A Korean banchan table from EpicKor's original food visual package.](/assets/images/posts/050/6d305414-0269-4117-815f-735d0ed98dce.png)
+![A Korean banchan table from EpicKor's original food visual package.](/assets/images/posts/050/6d305414-0269-4117-815f-735d0ed98dce.jpg)
 *Banchan makes a Korean meal modular: every diner builds different bites from the same shared table.*
 
 
