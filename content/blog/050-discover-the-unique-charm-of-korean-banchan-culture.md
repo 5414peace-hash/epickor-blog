@@ -46,6 +46,10 @@ For a restaurant-etiquette version of this topic, read our guide to [free side d
 </table>
 </div>
 
+![A Korean table set with rice, soup and several small side dishes.](/assets/images/posts/050/korean-table-setting.jpg)
+
+*The standard arrangement: rice and soup in front of you, banchan shared in the middle. The layout is the rule, not the decoration. Photo by Alan Chan, CC BY-SA 2.0.*
+
 ## Why Banchan Is Central to Korean Food
 
 The Korea Tourism Organization describes a Korean meal table, or **Han Sang Charim**, as a spread where rice, soup, kimchi, main dishes, and side dishes sit together. Its <a href="https://english.visitkorea.or.kr/svc/contents/contentsView.do?menuSn=903&amp;vcontsId=229195" target="_blank" rel="noopener noreferrer">Korean food overview</a> explains that banchan are the side dishes eaten with rice and that each diner can combine foods differently.
@@ -57,6 +61,10 @@ Banchan turns the diner into a participant.
 <div class="affiliate-inline-cta">
   <p><strong>Worth comparing:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. If you want to practice banchan-style eating at home, compare a basic <a href="https://www.amazon.com/s?k=korean+food+starter+pack&amp;tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean food starter pack</a> before buying too many single-use ingredients.</p>
 </div>
+
+![Seven small bowls of banchan including napa kimchi, kkakdugi, bean sprouts and spinach.](/assets/images/posts/050/banchan-assortment.jpg)
+
+*Kimchi is one banchan among many. A normal table carries several at once, and only one of them is the famous one. Photo by stuart spivack, CC BY-SA 2.0.*
 
 ## Kimchi: The Most Famous Banchan
 

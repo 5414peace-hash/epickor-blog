@@ -68,6 +68,10 @@ The affordable coffee chain boom reinforces the loop. Budget chains make giant i
   <p><strong>Cafe culture at home:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. If Korea's coffee habits made you curious, compare <a href="https://www.amazon.com/s?k=korean+snack&tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean snack assortments</a> with coffee at home, or use the trip to focus on fresh cafe drinks you cannot recreate exactly.</p>
 </div>
 
+![An iced americano in a takeaway cup at a Korean cafe, beside a sandwich and an ade.](/assets/images/posts/027/angelinus-iced-americano-korea.jpg)
+
+*A chain-cafe iced americano in Korea. The cup size and the ice load are the defaults; you have to ask to change either. Photo by 김바삭, CC BY 4.0.*
+
 ## How to Order Iced Americano in Korea
 
 The easiest order is: **"Aiseu amerikano hana juseyo"** meaning "One iced Americano, please." In many cafes, English menu boards will be enough. At kiosks, look for "Americano" and choose iced. Some kiosks use Korean: 아이스 아메리카노. If you hear people say **a-a**, they mean iced Americano.

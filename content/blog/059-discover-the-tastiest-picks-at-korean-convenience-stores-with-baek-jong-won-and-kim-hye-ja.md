@@ -21,6 +21,10 @@ This guide explains how to read Korean convenience store food, what those celebr
 ![A Korean convenience-store food visual from EpicKor's original package.](/assets/images/posts/059/9f4217c9-a783-4538-9de8-0ba4ece9a096.png)
 *Korean convenience stores are daily food infrastructure, not only snack stops.*
 
+![A Korean convenience store lunch box with rice, meat and side compartments.](/assets/images/posts/059/convenience-store-lunchbox-01.jpg)
+
+*A convenience store dosirak. Rice, a main, and compartments of banchan — a full meal engineered for a microwave. Photo by Korea.net / Korean Culture and Information Service, CC BY-SA 2.0.*
+
 ## Quick Answer: What Should You Eat at Korean Convenience Stores?
 
 Start with food that convenience stores do especially well: dosirak lunch boxes, triangle gimbap, gimbap rolls, cup ramen, refrigerated rice bowls, sandwiches, boiled eggs, protein drinks, banana milk, coffee, seasonal desserts, and packaged Korean snacks. If the snack shelf is what catches your eye first, EpicKor's [Korean snacks guide](/blog/029) explains what to buy, taste, and pack, while the [Viyott yogurt guide](/blog/032) covers the refrigerated dessert tourists often notice. If the ramen shelf is what caught your eye first, EpicKor's [Korean ramyeon bag-vs-cup guide](/blog/093) helps you choose between cup noodles, bag noodles, and Hangang machine ramyeon. If you see a Baek Jong-won product at CU or a Kim Hye-ja-style value lunch box at GS25, understand it as a trust signal, not a guarantee that every item is perfect.
@@ -106,6 +110,10 @@ Singer **Kim Chang-ryeol (김창렬)** fronted a convenience-store instant-food 
 He sued the manufacturer for damaging his reputation. **On February 3, 2017, the Seoul Central District Court ruled against him**, holding it could not conclude the company had made products defective enough to damage his image.
 
 So the two words work as a pair, and Koreans use them constantly when judging a lunch box: **혜자** means you got more than you paid for, **창렬** means you got less. If you learn only two pieces of convenience-store slang in Korea, learn these.
+
+![Another Korean convenience store lunch box, opened to show its compartments.](/assets/images/posts/059/convenience-store-lunchbox-02.jpg)
+
+*Compare the compartments, not the picture on the lid. The ratio of rice to everything else is what decides whether it fills you up. Photo by Republic of Korea, CC BY-SA 2.0.*
 
 ## How to Choose a Dosirak Lunch Box
 

@@ -25,6 +25,10 @@ This guide explains how to enjoy a pojangmacha without turning the experience in
 
 <p class="affiliate-topline"><a href="https://www.amazon.com/dp/B08G1CM3XX?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean ramen cooking pot — compare on Amazon</a><span class="affiliate-topline-note">Affiliate link. As an Amazon Associate, EpicKor earns from qualifying purchases at no extra cost to you.</span></p>
 
+![A street food cart on a Seoul shopping street, a vendor cooking behind a steel counter.](/assets/images/posts/089/seoul-street-food-tent-01.jpg)
+
+*A street cart in Seoul, prices chalked on a board. This is the daytime, standing-up end of the pojangmacha spectrum. Photo by LinasD, CC BY-SA 4.0.*
+
 ## Quick Answer: What Is a Pojangmacha?
 
 A pojangmacha is a Korean street-food tent or temporary stall, usually associated with late-night eating and drinking. Korea.net's K-InfoHub describes night markets and pojangmacha as part of Korea's distinctive street-food culture, with pojangmacha operating mainly at night and serving simple warming foods such as fishcake soup, tteokbokki, sundae, ramyeon, gimbap, soju, and makgeolli. It also frames them as working-class, social, unpretentious spaces rather than only food stalls. See Korea.net's <a href="https://www.korea.net/K-InfoHub/SubMainDetail/view?articleId=4096&amp;headwordCd=74&amp;headwordGroupCd=28&amp;pageIndex=1" target="_blank" rel="noopener noreferrer">night markets and street food tent culture</a> explainer.
@@ -68,6 +72,10 @@ Pay attention to the owner. In older street-tent culture, the owner may be direc
 
 ![Pojangmacha food and drinks frame from EpicKor's original package.](/assets/images/posts/089/legacy-frame-01.jpg)
 *A good pojangmacha visit is warm, compact, and respectful. The close seating is part of the mood, but it also requires awareness.*
+
+![Another Seoul street food stall with trays of prepared food on the counter.](/assets/images/posts/089/seoul-street-food-tent-02.jpg)
+
+*What is on the counter changes by neighbourhood and by hour. Look at the trays before you decide where to stop. Photo by LinasD, CC BY-SA 4.0.*
 
 ## Where to Find the Pojangmacha Mood in Seoul
 

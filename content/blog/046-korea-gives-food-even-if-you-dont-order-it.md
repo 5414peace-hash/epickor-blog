@@ -58,6 +58,10 @@ This is why first-time visitors sometimes misread Korean abundance. The small pl
   <p><strong>Worth comparing:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. If this guide makes you want a Korean snack table at home, start by comparing <a href="https://www.amazon.com/s?k=korean+snack&tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean snack options</a> before buying a big assorted box.</p>
 </div>
 
+![A spread of home-style Korean side dishes in small white bowls.](/assets/images/posts/046/home-style-korean-banchan.jpg)
+
+*Home-style banchan. The dishes that arrive without being ordered are usually this kind — made in batches, refilled, and not itemised on the bill. Photo by Choikwangmo9, CC0.*
+
 ## Banchan vs. Service: Two Different Ideas
 
 Travelers often mix up two Korean restaurant ideas: **banchan** and **service**.

@@ -44,6 +44,10 @@ VisitKorea's drinking guide describes soju and beer as two favorite Korean choic
 </table>
 </div>
 
+![Several bottles of makgeolli in different brands lined up together.](/assets/images/posts/060/makgeolli-bottles-lineup.jpg)
+
+*Makgeolli is a category, not one drink. Brands differ in sweetness and fizz enough that a bad first bottle is worth a second try. Photo by Walnussbaumchen, CC0.*
+
 ## Makgeolli: The Best First Alternative
 
 Makgeolli is an unrefined Korean rice wine made by fermenting grains with **nuruk**, a traditional fermentation starter. It looks milky because rice particles remain after fermentation. VisitKorea's makgeolli page describes it as a traditional rice wine with a smooth, slightly thick texture and about 6-8% alcohol, though styles vary. See its <a href="https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=231646" target="_blank" rel="noopener noreferrer">makgeolli food entry</a>.
@@ -55,6 +59,10 @@ If you want a dedicated food pairing, read EpicKor's [pajeon and makgeolli rainy
 <div class="affiliate-inline-cta">
   <p><strong>Hoesik-table snack:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. Since Korean drinking culture is never just about drinks, compare <a href="https://www.amazon.com/s?k=korean+snack&tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean snack options</a> to understand the table rhythm better.</p>
 </div>
+
+![Korean beer, soju and makgeolli bottles standing together.](/assets/images/posts/060/korean-beer-soju-makgeolli.jpg)
+
+*The three that share almost every Korean table. Somaek is what happens when the first two get combined on purpose. Photo by Sgroey, CC BY-SA 4.0.*
 
 ## Somaek: Why Koreans Mix Soju and Beer
 

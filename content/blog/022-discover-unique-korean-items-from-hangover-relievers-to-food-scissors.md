@@ -42,6 +42,10 @@ That is why the scissors are not just "funny Korea content." They are part of a 
 
 ![Korean table scissors shown in the original EpicKor practical tools footage.](/assets/images/posts/022/022_EpicKor_%EC%A7%84%ED%98%B8.mp4_20240712_221116.402.jpg)
 
+![A bowl of mul-naengmyeon, cold buckwheat noodles in chilled broth.](/assets/images/posts/022/chuncheon-mul-naengmyeon.jpg)
+
+*Cold noodles are the other place the scissors appear. The server asks whether to cut them before you eat, and the answer is normally yes. Photo by 원선민, CC BY, via 공유마당.*
+
 ## How to use Korean food scissors without looking lost
 
 At Korean BBQ, the usual rhythm is: place meat on the grill, flip with tongs, cut into bite-size pieces with scissors, finish cooking the cut pieces, then share. If staff are helping, let them do it. If your group is self-grilling, one person usually manages the tongs and scissors so the table stays organized.

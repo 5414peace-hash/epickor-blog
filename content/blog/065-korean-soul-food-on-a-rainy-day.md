@@ -44,6 +44,10 @@ If you want the focused version of the famous pairing, EpicKor's [pajeon and mak
 </table>
 </div>
 
+![A scallion pancake cooking in oil on a pan.](/assets/images/posts/065/pajeon-on-the-pan.jpg)
+
+*The sound is the point. Batter hitting hot oil is close enough to rain on a window that Koreans link the two directly. Photo via World to Table, CC BY-SA 3.0.*
+
 ## Why Pajeon and Makgeolli Became the Famous Pair
 
 The common explanation is sensory and historical. The sound of batter frying in oil resembles rain hitting a roof or window. The food is hot, savory, and shareable. Makgeolli has older associations with farmers, fields, rest, and casual communal drinking. When rain interrupted outdoor work or city plans, a warm pancake and a cloudy drink made sense.
@@ -55,6 +59,10 @@ But do not turn the tradition into a rule. Many Koreans do not drink makgeolli. 
 <div class="affiliate-inline-cta">
   <p><strong>Rainy-day pantry shortcut:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. When the pajeon craving turns into a full comfort-food night, compare <a href="https://www.amazon.com/dp/B0F4K5JK5S?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean kimchi stew with tofu</a> as an easy standby dish.</p>
 </div>
+
+![A finished pajeon cut into pieces and served on a plate.](/assets/images/posts/065/pajeon-served.jpg)
+
+*Served, it is shared and torn rather than portioned. One pancake between two people with a kettle of makgeolli is the whole ritual. Photo by Brucke-Osteuropa, CC0.*
 
 ## Kalguksu and Sujebi: Rainy Broth Comfort
 
