@@ -54,6 +54,12 @@ export default function RootLayout({
               <Link href="/latest" className="hover:text-red-600">
                 Latest
               </Link>
+              <Link href="/guides" className="inline-flex items-center gap-2 hover:text-gray-950">
+                Guides
+                <span className="rounded-md bg-gray-950 px-2 py-0.5 text-[10px] font-black uppercase text-white">
+                  New
+                </span>
+              </Link>
               <Link href="/business" className="inline-flex items-center gap-2 hover:text-emerald-700">
                 Business
                 <span className="rounded-md bg-emerald-700 px-2 py-0.5 text-[10px] font-black uppercase text-white">
@@ -105,6 +111,9 @@ export default function RootLayout({
                 <Link href="/latest" className="hover:text-gray-950">
                   Latest updates
                 </Link>
+              <Link href="/guides" className="hover:text-red-600">
+                Guides
+              </Link>
                 <Link href="/issues" className="hover:text-gray-950">
                   Issues
                 </Link>

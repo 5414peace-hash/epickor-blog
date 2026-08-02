@@ -1,6 +1,8 @@
 import type { Metadata } from 'next';
 import Image from 'next/image';
 import Link from 'next/link';
+import HubCrossLinks from '@/components/HubCrossLinks';
+import { BreadcrumbLd, HubLd } from '@/components/StructuredData';
 import { GUIDE_GROUPS, PRICES, RAMYUN } from '@/lib/ramyun';
 
 export const revalidate = 86400;
@@ -40,6 +42,19 @@ function heatBar(heat: string): number | null {
 export default function RamyunHubPage() {
   return (
     <div className="min-h-screen bg-white">
+      <HubLd
+        name={TITLE}
+        description={DESCRIPTION}
+        href={metadata.alternates!.canonical as string}
+        items={RAMYUN.map((r) => ({ name: r.name, href: `/blog/${r.slug}` }))}
+      />
+      <BreadcrumbLd
+        trail={[
+          { name: 'Home', href: '/' },
+          { name: 'Guides', href: '/guides' },
+          { name: 'Korean ramyun', href: metadata.alternates!.canonical as string },
+        ]}
+      />
       <section className="border-b border-gray-200 bg-orange-50/60">
         <div className="container mx-auto px-4 py-12 md:py-14">
           <div className="max-w-4xl">
@@ -230,6 +245,7 @@ export default function RamyunHubPage() {
             Compare Korean ramyun packs on Amazon →
           </a>
         </section>
+        <HubCrossLinks current="/ramyun" />
       </main>
     </div>
   );

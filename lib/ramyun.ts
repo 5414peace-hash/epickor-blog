@@ -7,9 +7,13 @@
  * prices, and routes.
  *
  * Every heat and price figure below was verified in one of our own posts and
- * carries the slug it came from. Nothing here is estimated. The gaps are left
- * as gaps for the same reason: an invented Scoville number is worse than a
- * missing one, and Shin Ramyun's published figures genuinely do vary by source.
+ * carries the slug it came from. Nothing here is estimated.
+ *
+ * Shin Ramyun's number was left blank at launch because published figures
+ * disagreed. They disagree for a reason worth knowing: the 1,320 and 2,700
+ * figures circulating online were published by Paldo, a competitor, in 2012 and
+ * 2014 while marketing against it. Nongshim's own account is 2,900 SHU from
+ * 1986 to 2016 and a single rise to 3,400 in 2017. Resolved rather than guessed.
  */
 
 export interface RamyunRow {
@@ -35,8 +39,8 @@ export const RAMYUN: RamyunRow[] = [
     maker: 'Nongshim',
     format: 'Soup',
     base: 'Chili',
-    heat: 'Clearly hot — published figures vary by source',
-    heatVerified: false,
+    heat: '3,400 SHU (2,900 before 2017)',
+    heatVerified: true,
     buyIf: 'You want the famous one, and the reference everything is measured against',
     slug: '346',
   },

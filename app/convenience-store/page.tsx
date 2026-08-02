@@ -1,6 +1,8 @@
 import type { Metadata } from 'next';
 import Image from 'next/image';
 import Link from 'next/link';
+import HubCrossLinks from '@/components/HubCrossLinks';
+import { BreadcrumbLd, HubLd } from '@/components/StructuredData';
 import { CHAINS, GUIDE_GROUPS, PRICES } from '@/lib/convenience-store';
 
 export const revalidate = 86400;
@@ -27,6 +29,19 @@ const PRICES_CHECKED = 'August 2026';
 export default function ConvenienceStoreHubPage() {
   return (
     <div className="min-h-screen bg-white">
+      <HubLd
+        name={TITLE}
+        description={DESCRIPTION}
+        href="/convenience-store"
+        items={GUIDE_GROUPS.flatMap((g) => g.guides).map((g) => ({ name: g.title, href: `/blog/${g.slug}` }))}
+      />
+      <BreadcrumbLd
+        trail={[
+          { name: 'Home', href: '/' },
+          { name: 'Guides', href: '/guides' },
+          { name: 'Korean convenience stores', href: '/convenience-store' },
+        ]}
+      />
       <section className="border-b border-gray-200 bg-red-50/50">
         <div className="container mx-auto px-4 py-12 md:py-14">
           <div className="max-w-4xl">
@@ -196,6 +211,7 @@ export default function ConvenienceStoreHubPage() {
             Compare Korean snack boxes on Amazon →
           </a>
         </section>
+        <HubCrossLinks current="/convenience-store" />
       </main>
     </div>
   );

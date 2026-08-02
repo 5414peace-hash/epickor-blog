@@ -32,15 +32,20 @@ interface SectionTile {
   action: string;
 }
 
+// Hubs lead. The chip row scrolls horizontally on a phone, so anything past
+// roughly the fourth chip is off-screen — measured at 390px, the hubs were
+// sitting at x=610 and beyond and were effectively unreachable from the home
+// page. These are our most distinctive pages and they go first.
 const guideChips = [
+  { label: 'Seoul Neighbourhoods', href: '/seoul' },
+  { label: 'Ramyun', href: '/ramyun' },
+  { label: 'Convenience Stores', href: '/convenience-store' },
+  { label: 'All Guides', href: '/guides' },
   { label: 'Travel', href: '/travel' },
   { label: 'Airport & Transit', href: '/travel' },
   { label: 'K-Beauty', href: '/beauty-lifestyle' },
   { label: 'Food & Shopping', href: '/food-shopping' },
   { label: 'Culture', href: '/culture' },
-  { label: 'Seoul Neighbourhoods', href: '/seoul' },
-  { label: 'Convenience Stores', href: '/convenience-store' },
-  { label: 'Ramyun', href: '/ramyun' },
   { label: 'Business in Korea', href: '/business' },
 ];
 

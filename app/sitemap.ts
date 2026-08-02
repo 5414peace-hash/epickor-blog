@@ -77,6 +77,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 1,
     },
     {
+      url: 'https://www.epickor.com/guides',
+      ...(latestPostDate ? { lastModified: latestPostDate } : {}),
+      changeFrequency: 'weekly' as const,
+      priority: 0.9,
+    },
+    {
       url: 'https://www.epickor.com/ramyun',
       ...(latestPostDate ? { lastModified: latestPostDate } : {}),
       changeFrequency: 'weekly' as const,

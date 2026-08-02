@@ -1,6 +1,8 @@
 import type { Metadata } from 'next';
 import Image from 'next/image';
 import Link from 'next/link';
+import HubCrossLinks from '@/components/HubCrossLinks';
+import { BreadcrumbLd, HubLd } from '@/components/StructuredData';
 import { NEIGHBOURHOODS } from '@/lib/seoul';
 
 export const revalidate = 86400;
@@ -46,6 +48,19 @@ const PICKERS: { want: string; answer: string; slug: string }[] = [
 export default function SeoulHubPage() {
   return (
     <div className="min-h-screen bg-white">
+      <HubLd
+        name={TITLE}
+        description={DESCRIPTION}
+        href={metadata.alternates!.canonical as string}
+        items={NEIGHBOURHOODS.map((n) => ({ name: n.name, href: `/blog/${n.slug}` }))}
+      />
+      <BreadcrumbLd
+        trail={[
+          { name: 'Home', href: '/' },
+          { name: 'Guides', href: '/guides' },
+          { name: 'Seoul by neighbourhood', href: metadata.alternates!.canonical as string },
+        ]}
+      />
       <section className="border-b border-gray-200 bg-slate-50">
         <div className="container mx-auto px-4 py-12 md:py-14">
           <div className="max-w-4xl">
@@ -203,6 +218,7 @@ export default function SeoulHubPage() {
           More neighbourhoods are being added. Next up: Seochon and Bukchon, which are the
           counterpart to the Ikseon-dong story above.
         </p>
+        <HubCrossLinks current="/seoul" />
       </main>
     </div>
   );

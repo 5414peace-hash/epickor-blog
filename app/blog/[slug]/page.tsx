@@ -4,6 +4,7 @@ import Link from 'next/link';
 import { getBlogPost, getAllBlogSlugs, getAllBlogPosts } from '@/lib/blog';
 import { getRelatedPosts } from '@/lib/related-posts';
 import { isPortraitImage } from '@/lib/image-dimensions';
+import { ArticleLd, BreadcrumbLd, FaqLd, extractFaq } from '@/components/StructuredData';
 import { format } from 'date-fns';
 
 export const revalidate = 86400;
@@ -58,8 +59,26 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
   const allPosts = getAllBlogPosts();
   const relatedPosts = getRelatedPosts(post, allPosts, 3);
   
+  const faq = extractFaq(post.content || '');
+
   return (
     <div className="min-h-screen bg-white">
+      <ArticleLd
+        headline={post.title}
+        description={post.description}
+        slug={post.slug}
+        image={post.ogImage}
+        datePublished={post.date}
+        dateModified={post.updatedAt || post.date}
+      />
+      <BreadcrumbLd
+        trail={[
+          { name: 'Home', href: '/' },
+          { name: post.title, href: `/blog/${post.slug}` },
+        ]}
+      />
+      <FaqLd qa={faq} />
+
       {/* Hero Image
           Portrait sources are anchored to the top rather than centred. Many of
           these are Reels thumbnails with the headline set in the upper third,
