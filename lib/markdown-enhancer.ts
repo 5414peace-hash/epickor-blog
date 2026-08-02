@@ -9,6 +9,7 @@
 
 import fs from 'fs';
 import path from 'path';
+import { normalizeImageGrids } from './image-resolver';
 
 interface InternalPostReference {
   slug: string;
@@ -203,9 +204,15 @@ export function addLazyLoadingToImages(html: string): string {
 export function convertToParallelImageGrid(html: string): string {
   const pattern = /(<p[^>]*><img[^>]*><\/p>)[\s\n\r]*(<p[^>]*><img[^>]*><\/p>)/g;
 
-  return html.replace(pattern, (_match, img1, img2) => {
+  const wrapped = html.replace(pattern, (_match, img1, img2) => {
     return `<div class="image-grid-2">${img1}${img2}</div>`;
   });
+
+  // processImages has already grouped image pairs by the time this runs, so
+  // without normalising here we re-wrap the pairs it made and end up with a
+  // grid inside a grid — which halves the column twice and leaves the images
+  // at a quarter width. See normalizeImageGrids for the full history.
+  return normalizeImageGrids(wrapped);
 }
 
 export function convertYouTubeLinksToEmbeds(html: string): string {

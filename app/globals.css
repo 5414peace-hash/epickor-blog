@@ -468,31 +468,61 @@ body {
    Advanced Content Enhancements
    ======================================== */
 
-/* Parallel Image Grid (2 images side by side) */
+/* Parallel Image Grid (2 images side by side)
+   2026-08-02: two images side by side stay side by side on mobile. Stacking
+   them made a pair of 9:16 frames into two consecutive full-height blocks,
+   which is worse than the pair. The images fill their half of the row instead
+   of sitting at intrinsic width, so a portrait pair reads as one tidy band. */
 .blog-content .image-grid-2 {
   display: grid !important;
   grid-template-columns: 1fr 1fr !important;
-  gap: 2rem !important;
+  gap: 1.25rem !important;
   margin: 3rem auto !important;
   max-width: 900px !important;
-  justify-items: center !important;
   align-items: start !important;
   width: 100% !important;
 }
 
 .blog-content .image-grid-2 p {
   margin: 0 !important;
+  display: block !important;
+  width: 100% !important;
 }
 
+/* Fill the cell. The site-wide `width: auto` leaves an image at intrinsic size,
+   which is why small sources used to float in the corner of a half-width cell. */
 .blog-content .image-grid-2 img {
   margin: 0 !important;
+  width: 100% !important;
+  height: auto !important;
   max-width: 100% !important;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 640px) {
   .blog-content .image-grid-2 {
-    grid-template-columns: 1fr;
-    gap: 1rem;
+    gap: 0.6rem !important;
+    margin: 2rem auto !important;
+  }
+}
+
+/* A single portrait image. Unconstrained, a 9:16 frame at full column width is
+   ~1.8 screens tall on a phone and reads as a full-bleed interruption rather
+   than an illustration. Capping height and width keeps it inset and lets the
+   article continue around it. Landscape images are untouched. */
+.blog-content .image-center.is-portrait img,
+.blog-content .image-figure.is-portrait img {
+  width: auto !important;
+  max-width: min(62%, 420px) !important;
+  max-height: 68vh !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+@media (max-width: 640px) {
+  .blog-content .image-center.is-portrait img,
+  .blog-content .image-figure.is-portrait img {
+    max-width: 78% !important;
+    max-height: 62vh !important;
   }
 }
 

@@ -3,6 +3,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { getBlogPost, getAllBlogSlugs, getAllBlogPosts } from '@/lib/blog';
 import { getRelatedPosts } from '@/lib/related-posts';
+import { isPortraitImage } from '@/lib/image-dimensions';
 import { format } from 'date-fns';
 
 export const revalidate = 86400;
@@ -59,14 +60,24 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
   
   return (
     <div className="min-h-screen bg-white">
-      {/* Hero Image */}
+      {/* Hero Image
+          Portrait sources are anchored to the top rather than centred. Many of
+          these are Reels thumbnails with the headline set in the upper third,
+          and a centred cover crop sliced straight through that text — the hero
+          showed a bowl of noodles and half a word. Anchoring to the top keeps
+          the headline intact; landscape photographs keep the centred crop,
+          where the subject is normally in the middle. */}
       {post.ogImage && (
         <div className="relative h-96 w-full bg-gray-100">
           <Image
             src={post.ogImage}
             alt={post.title}
             fill
-            className="object-cover"
+            className={
+              isPortraitImage(post.ogImage)
+                ? 'object-cover object-top'
+                : 'object-cover'
+            }
             priority
           />
         </div>
