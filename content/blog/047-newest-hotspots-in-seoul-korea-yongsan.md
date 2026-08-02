@@ -161,3 +161,9 @@ Use Samgakji for the War Memorial, Sinyongsan for Yongridan-gil, Yongsan Station
 **Q: Is Yongridan-gil an official street?**
 
 It is more of a popular nickname for the cafe and restaurant area around Sinyongsan and Samgakji than a single official tourist street with one entrance.
+
+<div class="section-belt">
+  <span class="section-belt-label">Seoul by neighbourhood</span>
+  <p>Yongsan is one of the neighbourhoods compared in <a href="/seoul">EpicKor's Seoul neighbourhood guide</a> — character, nearest station, whether it is worth staying in, and how long each actually takes.</p>
+  <p>Next in the series: <a href="/blog/353">Haebangchon</a> and <a href="/blog/352">Mullae</a>.</p>
+</div>

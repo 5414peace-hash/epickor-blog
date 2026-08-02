@@ -3,7 +3,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import HubCrossLinks from '@/components/HubCrossLinks';
 import { BreadcrumbLd, HubLd } from '@/components/StructuredData';
-import { CHAINS, GUIDE_GROUPS, PRICES } from '@/lib/convenience-store';
+import { CHAINS, GUIDE_GROUPS, HOW_TO, PRICES } from '@/lib/convenience-store';
 
 export const revalidate = 86400;
 
@@ -149,6 +149,48 @@ export default function ConvenienceStoreHubPage() {
                       <Link href={`/blog/${p.slug}`} className="font-bold text-red-700 hover:underline">
                         Read →
                       </Link>
+                    </td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        </section>
+
+
+        <section aria-labelledby="howto" className="mt-14">
+          <h2 id="howto" className="text-2xl font-black text-gray-950">
+            How to actually use one
+          </h2>
+          <p className="mt-2 max-w-3xl text-gray-600">
+            The half of the format that is not about food. Most of these are things visitors
+            hesitate over at the counter for no reason.
+          </p>
+
+          <div className="table-scroll mt-6 overflow-x-auto rounded-lg border border-gray-200">
+            <table className="w-full min-w-[720px] border-collapse text-left text-sm">
+              <thead className="bg-gray-50 text-xs uppercase tracking-wide text-gray-600">
+                <tr>
+                  <th scope="col" className="px-4 py-3 font-black">Question</th>
+                  <th scope="col" className="px-4 py-3 font-black">Short answer</th>
+                  <th scope="col" className="px-4 py-3 font-black">What to know</th>
+                </tr>
+              </thead>
+              <tbody className="divide-y divide-gray-200">
+                {HOW_TO.map((h) => (
+                  <tr key={h.thing} className="align-top hover:bg-red-50/40">
+                    <th scope="row" className="whitespace-nowrap px-4 py-3 font-bold text-gray-950">{h.thing}</th>
+                    <td className="whitespace-nowrap px-4 py-3 font-black text-red-700">{h.answer}</td>
+                    <td className="px-4 py-3 text-gray-600">
+                      {h.detail}
+                      {h.slug && (
+                        <>
+                          {' '}
+                          <Link href={`/blog/${h.slug}`} className="font-bold text-red-700 hover:underline">
+                            More →
+                          </Link>
+                        </>
+                      )}
                     </td>
                   </tr>
                 ))}

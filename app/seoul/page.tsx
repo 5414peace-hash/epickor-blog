@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import Image from 'next/image';
 import Link from 'next/link';
 import HubCrossLinks from '@/components/HubCrossLinks';
+import SeoulMap from '@/components/SeoulMap';
 import { BreadcrumbLd, HubLd } from '@/components/StructuredData';
 import { NEIGHBOURHOODS } from '@/lib/seoul';
 
@@ -9,7 +10,7 @@ export const revalidate = 86400;
 
 const TITLE = 'Seoul by Neighbourhood: Which One Is Actually Worth Your Afternoon';
 const DESCRIPTION =
-  'Seoul is not one city. Ikseon-dong, Euljiro, Yeonnam-dong, Mangwon, Haebangchon, Mullae, Seongsu and Hannam compared by character, nearest station, whether to stay there, and how long each really takes.';
+  'Seoul is not one city. Twelve neighbourhoods — Ikseon-dong, Bukchon, Seochon, Euljiro, Yeonnam-dong, Mangwon, Haebangchon, Mullae, Myeongdong, Yongsan and the nightlife districts — compared by character, nearest station, whether to stay there, and how long each really takes.';
 
 export const metadata: Metadata = {
   title: `${TITLE} | EpicKor`,
@@ -129,6 +130,18 @@ export default function SeoulHubPage() {
               </tbody>
             </table>
           </div>
+        </section>
+
+
+        <section aria-labelledby="map" className="mt-14">
+          <h2 id="map" className="text-2xl font-black text-gray-950">
+            Where they are, relative to each other
+          </h2>
+          <p className="mt-2 max-w-3xl text-gray-600">
+            The table tells you what each neighbourhood is. This tells you which ones you can put in
+            the same day.
+          </p>
+          <SeoulMap />
         </section>
 
         <section aria-labelledby="pick" className="mt-14">

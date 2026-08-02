@@ -35,11 +35,11 @@ export const HUBS: Hub[] = [
     label: 'Seoul by Neighbourhood',
     title: 'Seoul by neighbourhood',
     blurb:
-      'Nine Seoul neighbourhoods compared by character, nearest station, whether they are worth staying in, and how long each actually takes.',
+      'Twelve Seoul neighbourhoods compared by character, nearest station, whether they are worth staying in, and how long each actually takes.',
     whatItAdds: 'A side-by-side table, so you pick the neighbourhood before you book the hotel.',
     image: '/assets/images/posts/355/ikseon-dong-hanok-alley.jpg',
     imageAlt: 'A narrow alley of hanok houses in Ikseon-dong, Seoul.',
-    articleCount: 9,
+    articleCount: 12,
     accentText: 'text-blue-700',
     accentBg: 'bg-blue-50',
     accentBorder: 'border-blue-200',

@@ -89,6 +89,74 @@ export const PRICES: PriceRow[] = [
   { item: 'Sandwich', itemKo: '샌드위치', price: '₩2,500–4,500', note: 'Discounted near the expiry cut-off', slug: '171', asOf: '2026-07' },
 ];
 
+export interface HowToRow {
+  thing: string;
+  answer: string;
+  detail: string;
+  /** Post that covers it properly, where one exists. */
+  slug?: string;
+}
+
+/**
+ * The "how do I use one" half, which the hub was missing entirely at launch.
+ * Every row here is something a visitor gets wrong or hesitates over at the
+ * counter, and each answer comes from a post we have already verified rather
+ * than from general knowledge.
+ */
+export const HOW_TO: HowToRow[] = [
+  {
+    thing: 'Opening hours',
+    answer: 'Usually 24 hours',
+    detail: 'Not guaranteed — smaller franchise stores in residential areas do close overnight. The sign on the door is the authority.',
+  },
+  {
+    thing: 'Foreign cards',
+    answer: 'Widely accepted',
+    detail: 'Visa and Mastercard work at convenience stores. Some machines still reject foreign cards, so carry a little cash as a fallback.',
+    slug: '201',
+  },
+  {
+    thing: 'Transport cards',
+    answer: 'Buy and top up here',
+    detail: 'Convenience stores sell and recharge T-money. Availability and card designs vary by location.',
+    slug: '201',
+  },
+  {
+    thing: '1+1 and 2+1',
+    answer: 'Take the free one yourself',
+    detail: 'The shelf tag means buy one get one, or buy two get one. Nobody hands it to you — you pick the extra up and bring it to the till.',
+  },
+  {
+    thing: 'End-of-day markdown',
+    answer: '마감 할인, usually evening',
+    detail: 'Gimbap, sandwiches and lunchboxes are discounted as their sell-by time approaches. Locals use this constantly.',
+    slug: '171',
+  },
+  {
+    thing: 'Microwave and hot water',
+    answer: 'Self-service, free',
+    detail: 'Heat your own food. Hot water dispensers are for cup noodles. Some stores have a machine that cooks bagged ramyun for you.',
+    slug: '054',
+  },
+  {
+    thing: 'Seating',
+    answer: 'Eat there, briefly',
+    detail: 'The counter or table is for quick use, not for spreading out luggage or working. It is normal to eat a meal there alone.',
+    slug: '186',
+  },
+  {
+    thing: 'Bin and packaging',
+    answer: 'Separate it, in-store',
+    detail: 'Korea has few street bins and strict sorting. Leave packaging in the store bins rather than carrying it out to look for one.',
+    slug: '213',
+  },
+  {
+    thing: 'Parcels and ATMs',
+    answer: 'Both, at most branches',
+    detail: 'Convenience stores run parcel drop-off and pickup and carry ATMs, which is a large part of why they are on every corner.',
+  },
+];
+
 export interface Guide {
   slug: string;
   title: string;
