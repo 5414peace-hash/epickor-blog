@@ -172,3 +172,9 @@ It is visually memorable, spicy enough for reaction videos, creamier than the or
 **Q: Is Carbo Buldak safe for children or spice-sensitive people?**
 
 Use caution. It can be very spicy. For children, reflux-prone readers, or spice-sensitive eaters, use less sauce, add mild ingredients, and avoid treating it as a challenge.
+
+<div class="section-belt section-belt-cvs">
+  <span class="section-belt-label">Korean convenience stores</span>
+  <p>Carbo Buldak is part of <a href="/convenience-store">EpicKor's Korean convenience store guide</a> — the four chains compared, current prices, and what each product actually is.</p>
+  <p>Also in the section: <a href="/blog/093">Bag vs cup noodles</a> and <a href="/blog/343">The yellow cheese chip</a>.</p>
+</div>

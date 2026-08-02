@@ -178,3 +178,9 @@ A: Dense cities, fast service expectations, digital payments, labor pressures, c
 <div class="video-container" style="position: relative; padding-bottom: 177.77%; height: 0; overflow: hidden; max-width: 100%; background: #000; border-radius: 12px; margin: 30px 0;">
   <iframe src="https://www.youtube.com/embed/4KsK5-0urXk" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
+
+<div class="section-belt section-belt-cvs">
+  <span class="section-belt-label">Korean convenience stores</span>
+  <p>The automated store is part of <a href="/convenience-store">EpicKor's Korean convenience store guide</a> — the four chains compared, current prices, and what each product actually is.</p>
+  <p>Also in the section: <a href="/blog/093">Bag vs cup noodles</a> and <a href="/blog/059">Convenience store food</a>.</p>
+</div>

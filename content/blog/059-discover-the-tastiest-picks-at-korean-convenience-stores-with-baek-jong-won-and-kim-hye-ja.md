@@ -220,3 +220,9 @@ Yes. Pay first, follow the package instructions, remove unsafe lids or packets, 
 **Q: What should I buy first at a Korean convenience store?**
 
 Try triangle gimbap, a simple dosirak, cup ramen, a Korean drink, and one snack. That gives you the basic daily-life experience without overbuying.
+
+<div class="section-belt section-belt-cvs">
+  <span class="section-belt-label">Korean convenience stores</span>
+  <p>Convenience store food is part of <a href="/convenience-store">EpicKor's Korean convenience store guide</a> — the four chains compared, current prices, and what each product actually is.</p>
+  <p>Also in the section: <a href="/blog/171">Convenience store breakfast</a> and <a href="/blog/281">The dosirak lunchbox</a>.</p>
+</div>

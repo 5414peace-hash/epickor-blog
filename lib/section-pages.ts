@@ -84,6 +84,14 @@ export const sectionPageConfigs: Record<SectionPageKey, SectionPageConfig> = {
     description:
       'Find what to eat, what to buy, what to bring home, and how to shop smarter in Korea without turning every trip into a guess.',
     promise: 'Use this page when a Reel or search result makes you hungry, curious, or one click away from buying the wrong thing.',
+    spotlight: {
+      eyebrow: 'New section',
+      title: 'Korean convenience stores',
+      body:
+        'CU, GS25, 7-Eleven and Emart24 compared, current prices for the things people actually buy, and a guide to each product on the shelf.',
+      href: '/convenience-store',
+      action: 'Open the guide',
+    },
     heroSlugs: ['270', '209', '272'],
     recommendedSlugs: ['270', '272', '209', '220', '153', '171', '277', '279', '280', '281', '282'],
     matchers: [

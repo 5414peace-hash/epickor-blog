@@ -39,6 +39,7 @@ const guideChips = [
   { label: 'Food & Shopping', href: '/food-shopping' },
   { label: 'Culture', href: '/culture' },
   { label: 'Seoul Neighbourhoods', href: '/seoul' },
+  { label: 'Convenience Stores', href: '/convenience-store' },
   { label: 'Business in Korea', href: '/business' },
 ];
 
@@ -458,6 +459,14 @@ export default function Home() {
       image: '/assets/images/posts/355/ikseon-dong-hanok-alley.jpg',
       accentClass: 'text-blue-700',
       action: 'Compare Neighbourhoods',
+    },
+    {
+      title: 'Korean Convenience Stores',
+      description: 'The four chains compared, current prices, and what each product actually is.',
+      href: '/convenience-store',
+      image: '/assets/images/posts/059/convenience-store-lunchbox-01.jpg',
+      accentClass: 'text-red-600',
+      action: 'Open the Guide',
     },
   ];
 

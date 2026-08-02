@@ -348,6 +348,23 @@ body {
   border-bottom-color: #1d4ed8;
 }
 
+/* Convenience store belt — same component, different accent, so a reader can
+   tell at a glance which section an article belongs to. */
+.blog-content .section-belt.section-belt-cvs {
+  border-color: #fecaca;
+  border-left-color: #b91c1c;
+  background: #fef6f6;
+}
+
+.blog-content .section-belt.section-belt-cvs .section-belt-label,
+.blog-content .section-belt.section-belt-cvs a {
+  color: #b91c1c !important;
+}
+
+.blog-content .section-belt.section-belt-cvs a {
+  border-bottom-color: rgba(185, 28, 28, 0.35);
+}
+
 /* Slim early affiliate line (2026-08-01)
    측정: CTA 있는 318편의 첫 링크 중앙값이 본문 38% 지점 — 모바일 6~8스크롤이라
    대다수 독자가 링크를 보지도 못하고 이탈한다. 이 한 줄은 그 노출 격차를 메운다.

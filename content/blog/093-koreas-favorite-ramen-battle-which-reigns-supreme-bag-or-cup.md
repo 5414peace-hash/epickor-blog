@@ -184,3 +184,9 @@ Simply put, egg and scallions are the easiest upgrades; mandu, cheese, bean spro
 - <a href="https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=194464" target="_blank" rel="noopener noreferrer">VISITKOREA: Keeping Up with Convenience Stores in Korea</a>
 
 The best Korean ramyeon is not always the spiciest or most famous one. It is the one that fits the moment: a pot at home, a cup in a store, or a hot machine-cooked bowl beside the Han River.
+
+<div class="section-belt section-belt-cvs">
+  <span class="section-belt-label">Korean convenience stores</span>
+  <p>Bag vs cup noodles is part of <a href="/convenience-store">EpicKor's Korean convenience store guide</a> — the four chains compared, current prices, and what each product actually is.</p>
+  <p>Also in the section: <a href="/blog/054">The automated store</a> and <a href="/blog/048">Carbo Buldak</a>.</p>
+</div>
