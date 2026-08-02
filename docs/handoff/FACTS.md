@@ -641,3 +641,20 @@
   (한 줄 링크)을 273편에 넣어 중앙값을 **14%**로 당겼다. 첫 박스가 이미 25% 이전인 36편은
   의도적으로 제외했다(박스 옆에 붙으면 광고 더미로 읽힘). 효과 판정은 다음 아마존 리포트에서
   클릭 수가 35에서 얼마나 움직이는지로 한다.
+- **2026-08-02 — Vercel의 서버리스 함수 한도는 압축 전 250MB이고, `public/`에서 런타임 파일 읽기를
+  하면 이 한도를 넘긴다 (실측).** 이미지 방향(세로/가로)을 판별하려고 `lib/`에서
+  `readFileSync(path.join(process.cwd(),'public',...))`를 했더니 Next.js가 `public/`(**1.7GB**)을
+  함수 번들에 추적해 넣어 `blog/[slug]` 함수가 **418.77MB**가 됐고 배포가 거부됐다.
+  - **가장 중요한 부분: `next build`는 로컬에서도 Vercel에서도 성공했다.** 에러는 그 뒤 배포 단계에서
+    났다. **빌드 초록불은 배포 안전의 증거가 아니다.** 로그 마지막 줄까지 봐야 한다
+    (`npx vercel inspect {url} --logs | tail -30`).
+  - 해결: 빌드 시점에 한 번 스캔해 `lib/generated/portrait-images.json`(42KB)을 만들고 런타임은
+    Set 조회만 한다. 생성 스크립트는 `scripts/build-image-dimensions.mjs`이고
+    **`prebuild` 훅이 아니라 `build` 스크립트 안에 직접** 넣었다 — pnpm은 pre/post 스크립트를
+    기본으로 실행하지 않는다.
+  - 일반화: **`lib/`나 서버 컴포넌트에서 `public/` 아래를 런타임에 읽지 말 것.** 필요하면 빌드 산출물로 넘긴다.
+- **2026-08-02 — 이미지 쌍을 감싸는 코드가 세 군데에 있어 그리드가 3중 중첩되고 있었다 (수정 완료).**
+  `autoGridLayout`(image-resolver) + `convertToParallelImageGrid`(markdown-enhancer) +
+  옛 관리자 도구가 글 파일에 직접 박아둔 `<div class="image-grid-2up">`. 2열 그리드가 겹치면서
+  이미지가 컬럼 폭의 **1/4**로 줄고 오른쪽 절반이 비었다. 파이프라인 끝에서 중첩을 펴는
+  `normalizeImageGrids`로 해결. **각 생산자를 서로 알게 만들려 하지 말 것 — 마지막에 정규화한다.**
