@@ -3,6 +3,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import HubCrossLinks from '@/components/HubCrossLinks';
 import HubParentLine from '@/components/HubParentLine';
+import HubAffiliateLine from '@/components/HubAffiliateLine';
 import { BreadcrumbLd, HubLd } from '@/components/StructuredData';
 import { CHAINS, GUIDE_GROUPS, HOW_TO, PRICES } from '@/lib/convenience-store';
 
@@ -111,6 +112,11 @@ export default function ConvenienceStoreHubPage() {
             Business figures are 2024 full-year, from Korean business press. Store counts across the
             four chains fell by about 1,600 that year.
           </p>
+          <HubAffiliateLine
+            href="https://www.amazon.com/s?k=korean+snack+variety+box&amp;tag=epickor-20"
+            label="Korean snack boxes that actually ship — compare on Amazon"
+            network="amazon"
+          />
         </section>
 
         <section aria-labelledby="prices" className="mt-14">

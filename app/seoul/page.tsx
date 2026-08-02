@@ -3,6 +3,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import HubCrossLinks from '@/components/HubCrossLinks';
 import HubParentLine from '@/components/HubParentLine';
+import HubAffiliateLine from '@/components/HubAffiliateLine';
 import SeoulMap from '@/components/SeoulMap';
 import { BreadcrumbLd, HubLd } from '@/components/StructuredData';
 import { NEIGHBOURHOODS } from '@/lib/seoul';
@@ -132,8 +133,13 @@ export default function SeoulHubPage() {
               </tbody>
             </table>
           </div>
-        </section>
 
+          <HubAffiliateLine
+            href="https://www.agoda.com/city/seoul-kr.html?cid=1968802"
+            label="Compare Seoul stays by neighbourhood on Agoda"
+            network="agoda"
+          />
+        </section>
 
         <section aria-labelledby="map" className="mt-14">
           <h2 id="map" className="text-2xl font-black text-gray-950">

@@ -3,6 +3,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import HubCrossLinks from '@/components/HubCrossLinks';
 import HubParentLine from '@/components/HubParentLine';
+import HubAffiliateLine from '@/components/HubAffiliateLine';
 import { BreadcrumbLd, HubLd } from '@/components/StructuredData';
 import { GUIDE_GROUPS, PRICES, RAMYUN } from '@/lib/ramyun';
 
@@ -140,6 +141,11 @@ export default function RamyunHubPage() {
             For reference, a single jalapeño runs roughly 2,500–8,000 SHU. Every figure here is
             sourced from the linked article.
           </p>
+          <HubAffiliateLine
+            href="https://www.amazon.com/s?k=korean+ramyun+variety+pack&amp;tag=epickor-20"
+            label="Korean ramyun variety packs — compare on Amazon"
+            network="amazon"
+          />
         </section>
 
         <section aria-labelledby="prices" className="mt-14">
