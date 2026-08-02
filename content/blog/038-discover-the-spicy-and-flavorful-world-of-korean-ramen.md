@@ -193,3 +193,9 @@ A: Only if you cook ramyun often and want a light, fast pot. A normal saucepan w
 <div class="video-container" style="position: relative; padding-bottom: 177.77%; height: 0; overflow: hidden; max-width: 100%; background: #000; border-radius: 12px; margin: 30px 0;">
   <iframe src="https://www.youtube.com/embed/lhARyIQgYq0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
+
+<div class="section-belt section-belt-ramyun">
+  <span class="section-belt-label">Korean ramyun</span>
+  <p>The ramyun guide is part of <a href="/ramyun">EpicKor's Korean ramyun guide</a> — every packet compared by soup base and verified Scoville, with current Korean prices.</p>
+  <p>Also in the section: <a href="/blog/346">Ansungtangmyun vs Shin</a> and <a href="/blog/326">Korean spice levels</a>.</p>
+</div>

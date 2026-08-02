@@ -40,6 +40,7 @@ const guideChips = [
   { label: 'Culture', href: '/culture' },
   { label: 'Seoul Neighbourhoods', href: '/seoul' },
   { label: 'Convenience Stores', href: '/convenience-store' },
+  { label: 'Ramyun', href: '/ramyun' },
   { label: 'Business in Korea', href: '/business' },
 ];
 
@@ -467,6 +468,14 @@ export default function Home() {
       image: '/assets/images/posts/059/convenience-store-lunchbox-01.jpg',
       accentClass: 'text-red-600',
       action: 'Open the Guide',
+    },
+    {
+      title: 'Korean Ramyun',
+      description: 'Every packet compared by soup base and verified Scoville, with current prices.',
+      href: '/ramyun',
+      image: '/assets/images/posts/346/ansungtangmyun-noodle-and-soup-powder.jpg',
+      accentClass: 'text-orange-700',
+      action: 'Compare Ramyun',
     },
   ];
 

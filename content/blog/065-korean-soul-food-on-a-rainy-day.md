@@ -212,3 +212,9 @@ Not necessarily, but you need indoor backup plans, waterproof packing, and flexi
 **Q: Can I make Korean rainy-day food at home?**
 
 Yes. Start with kimchi stew, ramyeon with egg, frozen dumplings in broth, or a simple scallion pancake before attempting more complex dishes.
+
+<div class="section-belt section-belt-ramyun">
+  <span class="section-belt-label">Korean ramyun</span>
+  <p>Rainy-day noodles is part of <a href="/ramyun">EpicKor's Korean ramyun guide</a> — every packet compared by soup base and verified Scoville, with current Korean prices.</p>
+  <p>Also in the section: <a href="/blog/145">Naengmyeon compared</a> and <a href="/blog/038">The ramyun guide</a>.</p>
+</div>

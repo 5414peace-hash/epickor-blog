@@ -190,3 +190,9 @@ The best Korean ramyeon is not always the spiciest or most famous one. It is the
   <p>Bag vs cup noodles is part of <a href="/convenience-store">EpicKor's Korean convenience store guide</a> — the four chains compared, current prices, and what each product actually is.</p>
   <p>Also in the section: <a href="/blog/054">The automated store</a> and <a href="/blog/048">Carbo Buldak</a>.</p>
 </div>
+
+<div class="section-belt section-belt-ramyun">
+  <span class="section-belt-label">Korean ramyun</span>
+  <p>Bag vs cup is part of <a href="/ramyun">EpicKor's Korean ramyun guide</a> — every packet compared by soup base and verified Scoville, with current Korean prices.</p>
+  <p>Also in the section: <a href="/blog/038">The ramyun guide</a> and <a href="/blog/054">The in-store ramyun machine</a>.</p>
+</div>

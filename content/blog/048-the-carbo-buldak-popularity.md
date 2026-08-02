@@ -178,3 +178,9 @@ Use caution. It can be very spicy. For children, reflux-prone readers, or spice-
   <p>Carbo Buldak is part of <a href="/convenience-store">EpicKor's Korean convenience store guide</a> — the four chains compared, current prices, and what each product actually is.</p>
   <p>Also in the section: <a href="/blog/093">Bag vs cup noodles</a> and <a href="/blog/343">The yellow cheese chip</a>.</p>
 </div>
+
+<div class="section-belt section-belt-ramyun">
+  <span class="section-belt-label">Korean ramyun</span>
+  <p>Carbo Buldak is part of <a href="/ramyun">EpicKor's Korean ramyun guide</a> — every packet compared by soup base and verified Scoville, with current Korean prices.</p>
+  <p>Also in the section: <a href="/blog/326">Korean spice levels</a> and <a href="/blog/219">This year’s ramen trends</a>.</p>
+</div>

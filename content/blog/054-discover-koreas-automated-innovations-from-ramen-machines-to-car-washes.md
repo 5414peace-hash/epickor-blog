@@ -184,3 +184,9 @@ A: Dense cities, fast service expectations, digital payments, labor pressures, c
   <p>The automated store is part of <a href="/convenience-store">EpicKor's Korean convenience store guide</a> — the four chains compared, current prices, and what each product actually is.</p>
   <p>Also in the section: <a href="/blog/093">Bag vs cup noodles</a> and <a href="/blog/059">Convenience store food</a>.</p>
 </div>
+
+<div class="section-belt section-belt-ramyun">
+  <span class="section-belt-label">Korean ramyun</span>
+  <p>The in-store ramyun machine is part of <a href="/ramyun">EpicKor's Korean ramyun guide</a> — every packet compared by soup base and verified Scoville, with current Korean prices.</p>
+  <p>Also in the section: <a href="/blog/093">Bag vs cup</a> and <a href="/blog/038">The ramyun guide</a>.</p>
+</div>
