@@ -796,3 +796,30 @@
     이건 여전히 로그인 벽 뒤라 미확인 상태 그대로다.**
   - 앞 항목의 CDN 실측(`tong.visitkorea.or.kr/cms/resource_photo/...`, image1=높이1080, 워터마크
     일부)은 그대로 유효하다. API가 주는 이미지 URL도 같은 CDN을 가리킨다.
+- **2026-08-03 — 관광사진 API 인증키 발급 완료, 실제 호출 성공 (실측).** 대표님이 data.go.kr에서
+  활용신청 → **자동승인**. 활용기간 **2026-08-03 ~ 2028-08-03**, 오퍼레이션 4종 각 **1,000건/일**.
+  - **키는 `.env.local`에 `KTO_PHOTO_API_KEY_ENCODED` / `_DECODED` 두 형태로 저장했다.**
+    `.gitignore`의 `.env*`에 걸려 있어 커밋되지 않는 것을 확인함. **저장소·FACTS에 키 값을 적지 말 것.**
+    Encoding/Decoding 둘 다 200 OK로 동작 확인 — **단 Encoding 키는 URL 인코딩을 다시 하면 실패**하므로
+    쿼리 조립 시 `serviceKey`만 그대로 넣어야 한다.
+  - 엔드포인트 `https://apis.data.go.kr/B551011/PhotoGalleryService1/{op}`,
+    op = `galleryList1` · `gallerySearchList1`(키워드) · `galleryDetailList1` · `gallerySyncDetailList1`.
+    공통 파라미터: `serviceKey/numOfRows/pageNo/MobileOS/MobileApp/_type=json`, 검색은 `keyword`.
+  - **전체 6,118건이다. 홍보 문구의 "10만 장"이 아니다** — 포토코리아 웹사이트 보유량과 API 개방량은
+    다르다. 이 숫자를 기준으로 기대치를 잡을 것.
+  - 응답 필드: `galContentId, galContentTypeId, galTitle, galPhotographer,
+    galPhotographyLocation, galPhotographyMonth, galSearchKeyword, galWebImageUrl,
+    galCreatedtime, galModifiedtime`.
+  - **이미지는 `tong.visitkorea.or.kr/cms2/website/{끝2자리}/{id}.jpg` 경로이고 실측 1280x853,
+    약 0.8~1.2MB다.** 앞서 확인한 `cms/resource_photo/...`(image1=높이1080)와는 **다른 경로**다.
+    해상도는 본문 기준(1200~1600px)에 충분하지만 **용량이 목표(150~250KB)의 4~6배라 반드시 압축**해야 한다.
+  - **CORRECTED — 직전 항목에서 "서울대 캠퍼스는 관광지가 아니라 없을 것"이라고 쓴 것은 틀렸다.**
+    실제 검색 결과(건수): 망원시장 **21** / 서울대학교 **17** / 익선동 **88** / 연남동 **33** /
+    북촌 **117** / 명동 **155** / 전통시장 **1,145** / 라면 **19**.
+    기록된 이미지 공백 중 **망원시장은 완전히 해결**된다 — 실물 확인 결과 망원시장 아치 간판과
+    한국어 상점 간판이 정면으로 찍힌 1280x853 컷이고 **행인 얼굴은 블러 처리**돼 있어 그대로 쓸 수 있다.
+    서울대는 17건 있으나 첫 컷은 운동장+관악산이라 약하다(정문/샤 조형물 컷을 골라야 함).
+  - **여전히 0건인 것**: 을지로 · 문래 · 해방촌 (우리 신규 서울 동네 글들), 삼각김밥, 편의점(1건이지만
+    전주한옥마을이라 무관). **즉 관광공사가 찍은 "전통 관광지"에 강하고 힙한 동네·포장제품에는 없다.**
+    제품은 계속 제조사 공식 사이트(0차 규칙)가 답이다.
+  - 저작권 표기 `ⓒ한국관광공사 포토코리아-촬영자` (예: `galPhotographer`가 "한국관광공사 이범수").
