@@ -67,6 +67,6 @@ Instagram upload is representative-managed. As of 2026-07-02, the representative
 | `2026-07-20_311` | 311 | Tteokbokki: Six Styles, One Rice Cake | 7 | final + bunsik-red system + caption ready | scheduled 2026-07-23 05:00 KST (Meta Suite, planner-verified 07-21) |
 | `2026-07-20_312` | 312 | K-Beauty Ingredients Decoded: Snail, Cica, Propolis, Rice | 7 | final + ingredient-decoder system + caption ready | scheduled 2026-07-24 05:00 KST (Meta Suite, planner-verified 07-21) |
 | `2026-07-20_313` | 313 | Seoul With Kids: What Parents Get Wrong | 7 | final + family-seoul system + caption ready | scheduled 2026-07-25 05:00 KST (Meta Suite, planner-verified 07-21) |
-| 2026-08-02_ramyun | Korean Ramyun — Heat Scale | 7 | 제작완료·검수완료 (2026-08-03 개정: 제품 사진 전량 교체) | 미업로드 | /ramyun 허브 |
-| 2026-08-03_convenience-store | Korean Convenience Store — Shelf Tag | 7 | 제작완료·검수완료 | 미업로드 | /convenience-store 허브 |
-| 2026-08-04_seoul | Seoul by Neighbourhood — Station Sign | 7 | 제작완료·검수완료 | 미업로드 | /seoul 허브 |
+| 2026-08-02_ramyun | Korean Ramyun — Heat Scale | 7 | 제작완료·검수완료 (2026-08-03 개정: 제품 사진 전량 교체) | scheduled 2026-08-10 05:00 KST (Meta Suite, planner-verified 08-03) | /ramyun 허브 |
+| 2026-08-03_convenience-store | Korean Convenience Store — Shelf Tag | 7 | 제작완료·검수완료 | scheduled 2026-08-11 05:00 KST (Meta Suite, planner-verified 08-03) | /convenience-store 허브 |
+| 2026-08-04_seoul | Seoul by Neighbourhood — Station Sign | 7 | 제작완료·검수완료 | scheduled 2026-08-12 05:00 KST (Meta Suite, planner-verified 08-03) | /seoul 허브 |
