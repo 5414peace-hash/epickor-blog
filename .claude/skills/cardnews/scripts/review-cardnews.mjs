@@ -44,14 +44,53 @@ const blocks = script.split(/\n(?=## Card\s+\d+)/g).filter((block) => /^## Card\
 const cards = blocks.map((block) => {
   const number = (block.match(/^## Card\s+(\d+)/m) || [])[1] || '?';
   const image = (block.match(/^image:[ \t]*(.*)$/m) || [])[1]?.trim() || '';
-  return { number, image };
+  const imageLabel = (block.match(/^image_label:[ \t]*(.*)$/m) || [])[1]?.trim() || '';
+  const nameKo = (block.match(/^name_ko:[ \t]*(.*)$/m) || [])[1]?.trim() || '';
+  const nameEn = (block.match(/^name_en:[ \t]*(.*)$/m) || [])[1]?.trim() || '';
+  return { number, image, imageLabel, nameKo, nameEn };
 });
+
+/**
+ * Product identity, checked against the card's own words.
+ *
+ * Added 2026-08-03 after a carousel shipped with a photograph of red seafood
+ * ramyeon on the card headed CHAPAGHETTI — a black bean noodle with no broth
+ * and no chili. The mismatch was not hidden: the block declared
+ *
+ *   image_label: Seafood ramyeon in a stainless bowl with a Korean spoon
+ *   **Main:** CHAPAGHETTI
+ *
+ * on adjacent lines, and nothing read one against the other. Every gate in
+ * place asked whether an image existed, never whether it was the thing the
+ * card names. This is the cheapest possible version of that question.
+ */
+function normalise(text) {
+  return text.toLowerCase().replace(/\\n/g, ' ').replace(/[^a-z0-9가-힣]+/g, '');
+}
 
 const failures = [];
 const warnings = [];
 
 if (!cards.length) {
   failures.push('No cards parsed from script.md.');
+}
+
+for (const card of cards) {
+  if (!card.image) continue;
+  if (!card.imageLabel) {
+    warnings.push(`Card ${card.number}: image has no image_label, so its subject cannot be checked.`);
+    continue;
+  }
+  const label = normalise(card.imageLabel);
+  const names = [card.nameKo, card.nameEn].filter(Boolean);
+  if (!names.length) continue;
+  const matched = names.some((n) => label.includes(normalise(n)));
+  if (!matched) {
+    failures.push(
+      `Card ${card.number}: names "${[card.nameKo, card.nameEn].filter(Boolean).join(' / ').replace(/\\n/g, ' ')}" ` +
+        `but its image is labelled "${card.imageLabel}". A card that names a product must show that product.`
+    );
+  }
 }
 
 const imageCards = cards.filter((card) => card.image);

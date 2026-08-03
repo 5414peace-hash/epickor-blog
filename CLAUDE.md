@@ -97,6 +97,12 @@
   - 현재 `html-to-png.py`의 레이아웃(A~F)으로 그 방향을 표현할 수 없으면, 렌더러를 확장하거나 그 배치용 카드 HTML을 따로 만든다. 표현이 안 된다고 기본 템플릿으로 되돌아가지 않는다.
   - 바꾸지 않는 것: 전 카드 `EPICKOR.COM` 워터마크, Korea-first 사진 기준, 카드 01의 프로필 그리드 가독성, 이미지 경로 중복 금지.
 - Every card must have a relevant image. For real-world/high-visual topics, photo-first is mandatory; do not let a carousel become SVG-only or graphic-only unless the representative explicitly approves that exception in the current task.
+- **카드가 제품·장소·인물의 이름을 대면, 그 카드의 이미지는 그 대상이어야 한다. "주제에 맞는 사진"은 불합격이다. (2026-08-03 신설)**
+  - **왜 신설했나**: 라면 카로셀 1판이 **짜파게티 카드(검은 춘장·국물 없음·안 매움)에 낙지가 든 붉은 해물 라면**을, **불닭 카드(볶음면·국물 없음)에 국물 라면**을 실었다. 사진이 본문을 정면으로 반박했다.
+  - **당시 규칙으로는 전부 통과했다**: 사진이고(상단 규칙), 한국 라면이고(Korea-first), 커버리지 충족(7장 중 6장), 캐러셀 내 중복 아님. **어느 규칙도 "그 제품인가"를 묻지 않았다.** `## Blog Reference Image Standard`의 "use that exact subject" 규칙은 존재했지만 **블로그 섹션에만 있었고 카드뉴스에 적용되지 않았다.**
+  - **제품 카드는 `name_ko` / `name_en` 필드를 반드시 선언한다.** 선언해야 리뷰 스크립트가 `image_label`과 대조할 수 있다. 선언 없는 제품 카드는 자동 검사를 통과하는 게 아니라 **검사 대상에서 빠지는 것**이다.
+  - `image_label`에는 사진에 실제로 찍힌 것을 적는다. 1판은 `image_label: Seafood ramyeon in a stainless bowl`과 `**Main:** CHAPAGHETTI`가 **같은 블록 인접 줄에 나란히** 적혀 있었는데 아무도 서로 대조하지 않았다.
+- **포장 제품·브랜드 상품의 1순위 이미지 소스는 제조사 공식 사이트다.** 스톡 사진 라이브러리(Pexels·Unsplash)와 공공 아카이브(Commons·KTO·문화재청)에는 **특정 상품의 팩샷이 애초에 없다.** 거기서 "비슷한 것"을 찾는 순간 이미 카테고리 사진으로 타협한 것이다. 실측 확보처: 농심 `nongshimusa.com/html5/imgs/products/imgs/` (1500~2000px 흰 배경 컷아웃), 삼양 `samyangfoods.com/upload/product/`. 제품 식별 목적의 편집적 사용이며 후원 관계를 시사하지 않는다. 정사각 캔버스에 여백이 있으므로 `sharp trim`으로 여백을 잘라야 카드 패널에서 작아 보이지 않는다.
 - If the post does not have enough suitable images, source usable external photos before falling back to generated/graphic visuals. Prefer post-owned images first, then Pexels or other license-safe sources, then generated/owned visuals when search fails.
 - Every card should carry a Korea/EpicKor angle through `kicker:` text, such as `KOREA SPF GUIDE`, `SEOUL TRAVEL TIP`, or `K-BEAUTY TEXTURE MAP`.
 - Every rendered card must show `EPICKOR.COM` as the watermark text. Do not use only `EpicKor` as the watermark label.
@@ -114,6 +120,7 @@
 - Before final save, Reviewer must compare the candidate `image:` values against existing `public/assets/cardnews/*/script.md` files and flag any cross-post duplicates.
 - Reviewer must inspect rendered PNGs card by card for image relevance, mobile readability, watermark presence, and swipe logic.
 - Card-news visual approval requires a written Visual Fit Score: direct topic fit 30, Korea/context fit 25, no misleading/text/watermark risk 20, carousel variety/coherence 15, rendered mobile quality 10. Do not show the user a carousel unless the average is at least 90/100 and no individual card is below 88/100. Any misleading country/context mismatch caps that card at 59; graphic-only use where a photo could be sourced caps that card at 79.
+  - **주의 (2026-08-03): 첫 항목은 "topic fit"이지 "product fit"이 아니다.** 이 문구 때문에 짜파게티 카드에 붉은 해물 라면을 올려놓고도 "주제=한국 라면"이니 30점 만점으로 자기채점했다. **카드가 이름을 댄 제품과 사진이 다르면 그 카드는 59점 상한이다** — 국가 불일치와 같은 급으로 취급한다.
 - Before recording "Reviewer visually inspected" in `HANDOFF.md`, run `node .claude/skills/cardnews/scripts/review-cardnews.mjs --slug {slug}` after rendering. The script passing is not enough by itself; it is the structural gate before manual PNG inspection.
 - Record card news agent roles and rendered-image review in `HANDOFF.md`.
 
@@ -495,6 +502,7 @@ Reviewer and Publisher agents must verify rendered images, not just markdown syn
    길거리 음식, 무엇이든 소재가 된다. GSC 증거가 없어도 좋다 — 외부 검증(뉴스·평론·박물관 기록 등)만
    있으면 충분하다. 중복 감사(기존 발행글과의 검색의도 겹침)는 여전히 반드시 한다.
 2. **이미지는 주제 확정 후, 다음 단계로 조달한다 (막히면 다음 단계로, 절대 주제를 버리지 않는다):**
+   - **0차 (2026-08-03 신설): 대상이 포장 제품·브랜드 상품·기업이면 제조사/기업 공식 사이트를 먼저 본다.** 아래 1~4차는 전부 스톡·공공 아카이브·문화유산 소스라 **특정 상품의 팩샷이라는 범주 자체가 없다.** 이 단계를 건너뛰면 Commons에서 "비슷한 라면 사진"을 찾아놓고 조달에 성공했다고 착각한다 — 2026-08-03 라면 카드뉴스가 정확히 그렇게 실패했다. 저장소에 이미 선례가 있었다: `buldak-original-product.jpg`(samyangfoods.com 공식, 2026-07-15 커밋)를 카드뉴스(2026-08-02)보다 18일 먼저 쓰고 있었는데 일반화하지 않았다.
    - **1차: Pexels + Wikimedia Commons** (기존 방식)
    - **2차: 무료 국내 소스.** 아래 목록 순서대로 확인한다.
    - **3차: 그래도 없으면 대표님께 되묻는다.** 대표님이 보유한 스톡 폴더가 있을 수 있다 — 있으면
