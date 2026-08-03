@@ -22,6 +22,7 @@
     "audit:image-refs": "node scripts/audit-blog-image-references.mjs",
     "audit:image-context": "node scripts/audit-image-context.mjs",
     "audit:image-uniqueness": "node scripts/audit-image-uniqueness.mjs",
+    "footage:gate": "node scripts/footage-gate.mjs",
     "optimize:images": "node scripts/optimize-blog-images.mjs",
     "audit:seo-aeo": "node scripts/seo-aeo-audit.mjs",
     "audit:amazon-links": "node scripts/audit-amazon-links.mjs",
