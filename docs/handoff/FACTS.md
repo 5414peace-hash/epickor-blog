@@ -780,3 +780,19 @@
     삼각김밥 실물 ✗ / 반려동물 장례 ✗. **여행·장소 글에는 강력한 자산이고, 음식-제품 레인에는
     거의 도움이 안 된다.** 제품은 여전히 제조사 공식 사이트(0차 규칙)가 정답이다.
   - 저작권 표기: `ⓒ한국관광공사 포토코리아-촬영자`. 다운로드분은 30일 내 사용, 제3자 재배포 금지.
+- **2026-08-03 CORRECTED — 포토코리아는 별도 사이트가 아니라 한국관광콘텐츠랩 포털의 메뉴다.**
+  위 항목에서 `phoko.visitkorea.or.kr`을 독립 사이트로 취급해 로그인 벽을 뚫는 문제로 봤는데,
+  대표님 지적대로 **틀린 프레임이었다.** 포털(`api.visitkorea.or.kr`) SPA 번들을 뜯어 확인한 실측:
+  - 포털 라우트에 **`#/usePhotoGallery`(사진갤러리)** 가 있고, 그 페이지가 안내하는 실체는
+    **`http://apis.data.go.kr/B551011/PhotoGalleryService1`** — 즉 **공공데이터포털 오픈API다.**
+    포털은 API 카탈로그·명세·실습(`#/useUtilExercises`) 페이지이지 이미지 저장소가 아니다.
+  - **서비스ID `PhotoGalleryService1`, 서비스명 "관광사진 정보"**, 오퍼레이션 4종 실측:
+    **`galleryList1`**(목록) · **`gallerySearchList1`**(키워드 검색) · `galleryDetailList1`(상세) ·
+    `gallerySyncDetailList1`(동기화 상세).
+  - **따라서 정답 경로는 로그인 세션 스크래핑이 아니라 data.go.kr 활용신청(인증키)이다.**
+    `data.go.kr/data/15101914/openapi.do` → 활용신청 → **개발계정 자동승인, 1,000건/일.**
+  - 포털 SPA에 있는 `#/cntMov`는 관광 영상이 아니라 **콘텐츠랩 자체 안내/교육 영상** 게시판이다
+    (같은 `cnt` 그룹에 notice·FAQ·QandA가 함께 있음). **관광지 영상은 phoko의 `/sub/video.kto`이고
+    이건 여전히 로그인 벽 뒤라 미확인 상태 그대로다.**
+  - 앞 항목의 CDN 실측(`tong.visitkorea.or.kr/cms/resource_photo/...`, image1=높이1080, 워터마크
+    일부)은 그대로 유효하다. API가 주는 이미지 URL도 같은 CDN을 가리킨다.
