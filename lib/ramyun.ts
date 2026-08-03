@@ -63,7 +63,7 @@ export const RAMYUN: RamyunRow[] = [
     base: 'Chili sauce, no broth',
     heat: '~4,404 SHU',
     heatVerified: true,
-    buyIf: 'You have had a jalapeño and were fine',
+    buyIf: 'You have had a jalapeño and were fine — this is about the same',
     slug: '038',
   },
   {
@@ -163,7 +163,7 @@ export const GUIDE_GROUPS: GuideGroup[] = [
       {
         slug: '326',
         title: 'How hot is it, really',
-        blurb: 'Scoville numbers for the things people are actually scared of. Original Buldak is about one jalapeño.',
+        blurb: 'Scoville numbers for the things people are actually scared of, measured against a Korean pepper.',
         image: '/assets/images/posts/326/korean-street-food-noodles.jpg',
         imageAlt: 'Spicy Korean noodles in a bowl.',
       },

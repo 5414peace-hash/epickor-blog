@@ -73,7 +73,7 @@ export const HUBS: Hub[] = [
     title: 'Korean ramyun',
     blurb:
       'Every packet compared by soup base and published Scoville, with current Korean prices and the format that saves money.',
-    whatItAdds: 'Real heat numbers — the famous one is about as hot as a jalapeño.',
+    whatItAdds: 'Real heat numbers — every packet loses to one fresh Korean pepper.',
     image: '/assets/images/posts/346/ansungtangmyun-noodle-and-soup-powder.jpg',
     imageAlt: 'Ansungtangmyun noodle block beside its brown soup powder.',
     articleCount: 9,

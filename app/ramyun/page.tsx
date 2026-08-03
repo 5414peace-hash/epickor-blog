@@ -11,7 +11,7 @@ export const revalidate = 86400;
 
 const TITLE = 'Korean Ramyun: Which Packet to Buy, How Hot It Actually Is, and What It Costs';
 const DESCRIPTION =
-  'Shin Ramyun, Ansungtangmyun, Buldak and Chapaghetti compared by soup base, format and verified Scoville numbers — original Buldak is about one jalapeño — plus current Korean prices and where to buy.';
+  'Shin Ramyun, Ansungtangmyun, Buldak and Chapaghetti compared by soup base, format and verified Scoville numbers — even the hottest official Buldak stays under one fresh cheongyang pepper — plus current Korean prices and where to buy.';
 
 export const metadata: Metadata = {
   title: `${TITLE} | EpicKor`,
@@ -63,15 +63,23 @@ export default function RamyunHubPage() {
             <p className="mb-3 text-sm font-bold uppercase tracking-[0.18em] text-orange-700">
               Korean ramyun
             </p>
+            {/* The hook used to be "about as hot as a jalapeño", inherited from
+                blog 326. It is a fair calibration for an American reader and a
+                poor headline for a Korea site: the yardstick is Mexican, and a
+                jalapeño's own range (2,500–8,000 SHU) is wider than the gap
+                between the two noodles it was being used to separate. The
+                cheongyang pepper is the Korean fact 326 already had, and it is
+                the more surprising one. */}
             <h1 className="text-3xl font-black leading-tight text-gray-950 md:text-5xl">
-              The famous one is about as hot as a jalapeño.
+              The scariest noodle in Korea loses to a Korean pepper.
             </h1>
             <p className="mt-5 max-w-2xl text-lg leading-8 text-gray-600">
               Korean instant noodles get sorted into &ldquo;spicy&rdquo; and &ldquo;very spicy&rdquo;
               by almost every English guide, which sends people to the wrong packet. The real
               differences are the soup base — chili, soybean paste, black bean — and whether there is
               broth at all. Here they are side by side, with the Scoville figures that have actually
-              been published.
+              been published. For scale: a fresh cheongyang pepper (청양고추), the thing Korean cooks
+              reach for when they want real heat, runs 10,000–23,000 SHU — above every packet below.
             </p>
             <HubParentLine href="/ramyun" />
           </div>
@@ -85,8 +93,9 @@ export default function RamyunHubPage() {
           </h2>
           <p className="mt-2 max-w-3xl text-gray-600">
             Bars are scaled against the hottest official Buldak. Where no reliable published figure
-            exists, the row says so rather than guessing — Shin Ramyun&rsquo;s numbers genuinely vary
-            between sources, and inventing one would be worse than leaving it out.
+            exists the row says so rather than guessing. Shin Ramyun&rsquo;s number is the one that
+            circulates in several conflicting versions; the figure here is Nongshim&rsquo;s own, and
+            the row explains where the rival numbers came from.
           </p>
 
           <div className="table-scroll mt-6 overflow-x-auto rounded-lg border border-gray-200">
@@ -138,8 +147,8 @@ export default function RamyunHubPage() {
             </table>
           </div>
           <p className="mt-3 text-xs text-gray-500">
-            For reference, a single jalapeño runs roughly 2,500–8,000 SHU. Every figure here is
-            sourced from the linked article.
+            Reference points: a fresh cheongyang pepper is 10,000–23,000 SHU, and a jalapeño is
+            2,500–8,000. Every figure here is sourced from the linked article.
           </p>
           <HubAffiliateLine
             href="https://www.amazon.com/s?k=korean+ramyun+variety+pack&amp;tag=epickor-20"

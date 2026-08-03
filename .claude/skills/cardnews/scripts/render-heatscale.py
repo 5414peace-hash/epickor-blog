@@ -16,6 +16,20 @@ veil, so this carousel does not look like every other one in the grid.
 
 Output is 1080x1080 PNG, same as the main renderer, with the same EPICKOR.COM
 watermark requirement.
+
+Layout revision, 2026-08-03. The first cut anchored the text block to the top,
+floated a 372px photo square beside it and pinned the heat bar near the bottom.
+Everything below the photo and above the bar was empty — roughly a third of the
+frame carrying nothing, which reads as an unfinished card rather than as space.
+Now the frame is divided with no remainder: a left text column and a right
+column holding the photograph with the note beneath it, both running the full
+height, over a dark footer band that carries the scale. The photo panel is
+close to square because the products are shot as flat-lays; a tall panel would
+crop the sachets out of the very pictures that make the argument.
+
+The product name is fitted to the column rather than set at a fixed size. A
+fixed 56px silently overflowed ANSUNGTANGMYUN into the photograph, which is the
+kind of fault that only shows up in the PNG, never in the markup.
 """
 
 import argparse
@@ -96,37 +110,86 @@ def watermark():
   </div>'''
 
 
-def heat_bar(shu):
-    """Full-width scale with the card's value marked on it."""
-    if not shu:
-        return ''
+FOOTER_TOP = 928
+
+
+def fit_size(text, column_px, cap, factor=0.76):
+    """Shrink a display line until its longest word fits the column.
+
+    Measuring the longest *word* rather than the whole line is what matters: a
+    line can wrap, a word cannot, and it is the unwrappable word that punches
+    through the column edge into whatever sits beside it. ANSUNGTANGMYUN is the
+    worst case in this batch and is why the factor is measured rather than
+    guessed — at 0.615 it still crossed into the photograph, because black-
+    weight caps in this face run about 0.75em wide, not 0.6em.
+    """
+    words = [w for w in re.split(r'\s+|<br>', esc(text).replace('<br>', ' ')) if w]
+    longest = max((len(w) for w in words), default=1)
+    return max(30, min(cap, int(column_px / (longest * factor))))
+
+
+def heat_bar(shu, index, total):
+    """The scale, carried in a dark footer band across the foot of every card.
+
+    Drawn even at zero. An empty bar on the Chapaghetti card is not a missing
+    element — no chili is the fact that card exists to state, and the bar says
+    it without a word.
+    """
     try:
-        value = int(str(shu).replace(',', ''))
+        value = int(str(shu or 0).replace(',', ''))
     except ValueError:
-        return ''
-    pct = max(2.0, min(100.0, value / MAX_SHU * 100))
+        value = 0
+    pct = min(100.0, value / MAX_SHU * 100)
     return f'''
-  <div style="position:absolute;left:96px;right:96px;bottom:150px;z-index:20;">
-    <div style="height:22px;border:3px solid {INK};background:#FFFFFF;position:relative;">
-      <div style="position:absolute;left:0;top:0;bottom:0;width:{pct}%;
+  <div style="position:absolute;left:0;right:0;top:{FOOTER_TOP}px;bottom:0;
+    background:{INK};z-index:22;padding:36px 88px 0;">
+    <div style="height:20px;border:2px solid rgba(255,255,255,0.85);
+      background:rgba(255,255,255,0.10);position:relative;">
+      <div style="position:absolute;left:0;top:0;bottom:0;width:{pct:.1f}%;
         background:linear-gradient(90deg,#F2B705 0%,{HEAT} 100%);"></div>
     </div>
-    <div style="display:flex;justify-content:space-between;margin-top:12px;
-      font-size:19px;font-weight:800;color:{MUTE};letter-spacing:0.04em;">
-      <span>0 SHU</span><span>{MAX_SHU:,} SHU — hottest official Buldak</span>
+    <div style="display:flex;justify-content:space-between;align-items:center;
+      margin-top:14px;font-size:18px;font-weight:800;
+      color:rgba(255,255,255,0.72);letter-spacing:0.05em;">
+      <span>0 SHU</span>
+      <span>{MAX_SHU:,} SHU — hottest official Buldak</span>
+      <span style="color:#FFFFFF;">{index:02d} / {total:02d}</span>
     </div>
   </div>'''
 
 
-def photo_panel(card):
+def right_column(card):
+    """Photograph, its caption, the sub-copy and the note, in one flow.
+
+    The sub-copy lives here rather than under the number because a left column
+    of kicker + name + numeral only reaches about half the height on its own.
+    Putting the prose beside the picture it describes fills the right column to
+    the footer and leaves the numeral alone in its own column, which is what
+    the whole system is for.
+
+    The panel is near-square: every product here is shot as a flat-lay, and a
+    tall panel would crop the sachets off the plate — the sachet colour being
+    the argument the carousel is making.
+    """
     if not card['image']:
         return ''
     return f'''
-  <div style="position:absolute;right:88px;top:118px;width:372px;height:372px;
-    border:4px solid {INK};overflow:hidden;background:#DED8CE;z-index:14;
-    box-shadow:16px 16px 0 rgba(22,20,18,0.10);">
-    <img src="{card['image']}" alt="{card['image_label']}"
-      style="width:100%;height:100%;object-fit:cover;display:block;">
+  <div style="position:absolute;left:568px;right:80px;top:126px;
+    height:{FOOTER_TOP - 166}px;z-index:16;display:flex;flex-direction:column;
+    gap:22px;">
+    <div style="height:432px;flex:none;border:4px solid {INK};overflow:hidden;
+      background:#DED8CE;box-shadow:14px 14px 0 rgba(22,20,18,0.10);">
+      <img src="{card['image']}" alt="{card['image_label']}"
+        style="width:100%;height:100%;object-fit:cover;display:block;">
+    </div>
+    <div style="margin-top:-8px;font-size:16px;font-weight:800;
+      letter-spacing:0.08em;color:{MUTE};text-transform:uppercase;
+      line-height:1.35;">{card['image_label']}</div>
+    <div style="font-size:25px;font-weight:650;color:{MUTE};
+      line-height:1.4;word-break:keep-all;">{esc(card['sub'])}</div>
+    {f"""<div style="margin-top:auto;padding-left:20px;border-left:5px solid {INK};
+      font-size:24px;font-weight:700;color:{INK};line-height:1.36;
+      word-break:keep-all;">{esc(card['note'])}</div>""" if card['note'] else ''}
   </div>'''
 
 
@@ -149,14 +212,14 @@ def build(card, index, total):
       style="width:100%;height:100%;object-fit:cover;display:block;">
   </div>
 
-  <div style="position:absolute;left:110px;right:110px;top:150px;height:440px;
+  <div style="position:absolute;left:104px;right:104px;top:132px;height:470px;
     z-index:20;display:flex;flex-direction:column;align-items:center;
     justify-content:center;text-align:center;overflow:hidden;">
     <div style="font-size:20px;font-weight:900;letter-spacing:0.2em;
       color:{HEAT};margin-bottom:24px;">{card['kicker']}</div>
-    <div style="font-size:78px;font-weight:950;color:{INK};line-height:1.02;
-      letter-spacing:-0.02em;">{esc(card['main'])}</div>
-    <div style="margin-top:26px;max-width:760px;font-size:27px;font-weight:650;
+    <div style="font-size:{fit_size(card['main'], 872, 78)}px;font-weight:950;
+      color:{INK};line-height:1.04;letter-spacing:-0.02em;">{esc(card['main'])}</div>
+    <div style="margin-top:26px;max-width:790px;font-size:26px;font-weight:650;
       color:{MUTE};line-height:1.38;word-break:keep-all;">{esc(card['sub'])}</div>
   </div>
 
@@ -174,8 +237,19 @@ def build(card, index, total):
   {watermark()}'''
 
     if card['mode'] == 'end':
+        # Backed with a photograph rather than left as a flat dark screen. A
+        # plain black end card reads as the carousel running out rather than
+        # finishing, and this batch can afford a picture on all seven.
+        backdrop = f'''
+  <img src="{card['image']}" alt="{card['image_label']}"
+    style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;
+    display:block;opacity:0.34;z-index:2;">
+  <div style="position:absolute;inset:0;z-index:3;
+    background:linear-gradient(180deg,rgba(22,20,18,0.72) 0%,rgba(22,20,18,0.88) 100%);"></div>
+''' if card['image'] else ''
         return f'''
   <div style="position:absolute;inset:0;background:{INK};"></div>
+  {backdrop}
   <div style="position:absolute;left:96px;right:96px;top:50%;transform:translateY(-50%);
     z-index:20;text-align:center;">
     <div style="font-size:20px;font-weight:900;letter-spacing:0.2em;
@@ -197,46 +271,41 @@ def build(card, index, total):
     <div style="font-size:12px;font-weight:900;letter-spacing:0.2em;">EPICKOR.COM</div>
   </div>'''
 
-    # Default: the scale card. One number, big.
+    # Default: the scale card. The left column is split rather than centred —
+    # name at the top, level with the photograph; numeral at the foot, level
+    # with the note. Centring it left a visibly empty bottom-left quadrant
+    # while the right column ran the full height, and an off-balance card reads
+    # as unfinished however well the type is set.
     shu_block = ''
     if card['shu']:
-        # Six-character figures like 13,200 run into the photo panel at the
-        # display size that suits four-character ones, so the type scales down
-        # rather than the panel moving — the panel position is what keeps the
-        # cards reading as a set.
         text = shu_display(card['shu'])
-        size = 150 if len(text) <= 5 else 124
+        # Sized off the digits themselves. A cap that suits 570 puts 13,200
+        # through the edge of the column and into the photograph.
+        size = max(96, min(168, int((456 - 78) / (len(text) * 0.58))))
         shu_block = f'''
-    <div style="display:flex;align-items:baseline;gap:14px;margin-top:8px;">
-      <div style="font-size:{size}px;font-weight:950;color:{HEAT};line-height:0.9;
+    <div style="display:flex;align-items:baseline;gap:12px;">
+      <div style="font-size:{size}px;font-weight:950;color:{HEAT};line-height:0.88;
         letter-spacing:-0.03em;">{text}</div>
-      <div style="font-size:32px;font-weight:900;color:{INK};">SHU</div>
+      <div style="font-size:30px;font-weight:900;color:{INK};">SHU</div>
     </div>'''
     elif card['shu_label']:
         shu_block = f'''
-    <div style="font-size:96px;font-weight:950;color:{COOL};line-height:1.0;
-      margin-top:8px;">{card['shu_label']}</div>'''
-
-    note = f'''<div style="margin-top:26px;padding-left:20px;
-      border-left:5px solid {INK};font-size:25px;font-weight:700;
-      color:{INK};line-height:1.34;word-break:keep-all;">{esc(card['note'])}</div>''' if card['note'] else ''
+    <div style="font-size:{fit_size(card['shu_label'], 456, 96)}px;font-weight:950;
+      color:{COOL};line-height:1.0;">{card['shu_label']}</div>'''
 
     return f'''
   <div style="position:absolute;inset:0;background:{PAPER};"></div>
-  {photo_panel(card)}
-  <div style="position:absolute;left:88px;right:500px;top:140px;z-index:20;">
-    {kicker}
-    <div style="font-size:56px;font-weight:950;color:{INK};line-height:1.04;
-      letter-spacing:-0.01em;">{esc(card['main'])}</div>
-    {shu_block}
-    <div style="margin-top:24px;font-size:26px;font-weight:650;color:{MUTE};
-      line-height:1.38;word-break:keep-all;">{esc(card['sub'])}</div>
-    {note}
+  {right_column(card)}
+  <div style="position:absolute;left:80px;width:456px;top:126px;height:{FOOTER_TOP - 166}px;
+    z-index:20;display:flex;flex-direction:column;justify-content:space-between;">
+    <div>
+      {kicker}
+      <div style="font-size:{fit_size(card['main'], 456, 60)}px;font-weight:950;
+        color:{INK};line-height:1.06;letter-spacing:-0.01em;">{esc(card['main'])}</div>
+    </div>
+    <div>{shu_block}</div>
   </div>
-  {heat_bar(card['shu'])}
-  <div style="position:absolute;right:96px;bottom:76px;z-index:20;
-    font-size:20px;font-weight:900;color:{MUTE};letter-spacing:0.1em;">
-    {index:02d} / {total:02d}</div>
+  {heat_bar(card['shu'], index, total)}
   {watermark()}'''
 
 
