@@ -309,6 +309,56 @@ export async function getBusinessPost(slug: string, now: Date = new Date()): Pro
   }
 }
 
+/**
+ * Same as getBusinessPost but without the visibility gate, so a `private` draft can be read
+ * back for review. Business posts previously had no preview path at all — /preview/[slug]
+ * only looked at content/blog — so a business draft could not be shown to the representative
+ * before publishing.
+ *
+ * The trust gate is deliberately still enforced. It is what blocks a client story whose consent
+ * or video permission is unconfirmed, and a draft is exactly when that check matters most.
+ */
+export async function getBusinessPostForPreview(slug: string): Promise<BusinessPost | null> {
+  try {
+    const fileName = findFileBySlug(slug);
+    if (!fileName) return null;
+
+    const fullPath = path.join(contentDirectory, fileName);
+    const fileContents = fs.readFileSync(fullPath, 'utf8');
+    const { data, content } = matter(fileContents);
+    const frontmatter = data as Record<string, unknown>;
+
+    if (!isBusinessTrustReady(frontmatter)) {
+      return null;
+    }
+
+    const processedContent = await remark()
+      .use(gfm)
+      .use(html, { sanitize: false })
+      .process(content);
+
+    const metadata = buildMetadata(fileName, frontmatter, content);
+    let contentHtml = processedContent.toString();
+    contentHtml = contentHtml.replace(/<p>\s*\{\{\s*IMAGE[_-]?\d+\s*\}\}\s*<\/p>/gim, '');
+    contentHtml = processImages(contentHtml, metadata.slug, '/assets/images/business');
+    contentHtml = enhanceMarkdownHTML(
+      contentHtml,
+      getAllBusinessPosts(),
+      metadata.tags,
+      frontmatter.amazon === true,
+      'business'
+    );
+
+    return {
+      ...metadata,
+      content: contentHtml,
+    };
+  } catch (error) {
+    console.error(`Error reading business post for preview ${slug}:`, error);
+    return null;
+  }
+}
+
 export function getAllBusinessSlugs(
   options: { includeScheduled?: boolean; includePrivate?: boolean } = {}
 ): string[] {
