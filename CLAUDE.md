@@ -622,7 +622,9 @@ node scripts/run-pipeline.mjs --step review --slug 166
 > `visibility`를 `private`로 바꿔 **라이브에서 404**를 만들었고, `output/drafts/`의 낡은 초안으로
 > 본문을 덮어써서 **내부 링크 5개와 Amazon CTA 박스 2개를 삭제**했다.
 > 발행된 글의 품질 점수만 보려면 파일 지정으로 리뷰어만 돌린다:
-> `node .claude/skills/reviewer/scripts/review-post.mjs --file content/blog/{slug}.md`
+> `node .claude/skills/reviewer/scripts/review-post.mjs --draft content/blog/{slug}.md --dry-run`
+> (2026-08-03 정정: 위에 `--file`이라 적혀 있었으나 스크립트가 받는 플래그는 `--draft`다.
+> `--dry-run`을 붙이지 않으면 `output/review/`에 결과 파일을 쓴다.)
 
 리뷰 통과 기준:
 
