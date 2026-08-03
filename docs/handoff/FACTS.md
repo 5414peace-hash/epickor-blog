@@ -888,3 +888,34 @@
   → **관광 영상은 `phoko.visitkorea.or.kr/sub/video.kto` 로그인 뒤에만 있다.** 편수·해상도·비율은
   여전히 미확인이고, 확인하려면 대표님이 전용 프로필로 1회 로그인해 주셔야 한다. **릴스 소재는 이미
   Pexels 가로크롭으로 해결됐으므로 이건 급하지 않다 — 여행 글 보강이 필요할 때 꺼낸다.**
+
+- **2026-08-03 — `TaskStop`으로 dev 서버를 껐는데 실제 Next 서버가 살아남아 978MB를 물고 있었다. 이 PC의
+  메모리 부족 원인 중 절반이 내가 흘린 것이었다.**
+  - 실행 형태가 `npm run dev 2>&1 | tee .tmp/dev.log`였다. `TaskStop`은 **파이프라인(npm 래퍼 + tee)만
+    죽이고 손자 프로세스인 `next/dist/server/lib/start-server.js`는 남긴다.** 실측: PID 226868,
+    **978MB**, 부모가 이미 사라진 고아 상태.
+  - **증상 판별법**: `Get-CimInstance Win32_Process -Filter "Name='node.exe'"`로 명령줄을 보면
+    `start-server.js`가 그대로 떠 있다. 죽이면 자식 워커도 함께 정리된다.
+  - **앞으로**: dev 서버를 띄웠으면 `TaskStop` 후 **포트가 실제로 닫혔는지 확인**한다.
+    `curl -s -o /dev/null http://localhost:3000` 이 아직 200이면 안 죽은 것이다.
+  - 같은 세션에서 `npx vercel` 잔여 프로세스(117MB)도 있었다 — FACTS에 이미 기록된
+    "vercel CLI는 성공 후에도 종료되지 않는다"의 후속 비용이다.
+  - **이 PC는 16GB이고 정리 전 여유가 1.09GB였다. 정리 후 2.09GB.** 내가 흘린 것이 정확히 그 1GB다.
+
+- **2026-08-03 — 로컬 `npm run build`가 이 PC에서 실패하는 것은 코드 문제가 아니라 메모리다.
+  그리고 `NODE_OPTIONS=--max-old-space-size`로는 해결되지 않는다.**
+  - `next build`는 별도 **빌드 워커**를 띄우는데 그 워커가 부모의 `NODE_OPTIONS`를 그대로 받지 않는다.
+    8192로 올려도 `Zone Allocation failed - process out of memory`, exit code **134**로 죽었다.
+  - **`npx tsc --noEmit`은 힙만 올려주면 통과한다** (실측: 기본값 OOM → `--max-old-space-size=8192` exit 0).
+    타입 검증은 이쪽으로 하면 된다.
+  - **메모리 실측 (16GB 머신)**: VS Code 23개 프로세스 합계 **3,183MB**, 그중 TypeScript 언어 서버
+    (`tsserver.js`) 하나가 **1,409MB**. VS Code가 `--max-old-space-size=3072`로 띄우므로 3GB까지 자란다.
+    Claude Code 확장은 세션당 약 270~295MB(당시 2세션 = 582MB).
+  - **tsserver가 큰 건 이 저장소 코드 때문이 아니다.** 프로젝트 전체 `.ts/.tsx/.mts`는 **108개**뿐이고
+    `.tmp`·`output`에는 **0개**다. 비용은 Next 16 + React 19의 `node_modules` 타입 그래프(76,850 파일)에서 나온다.
+    즉 줄이려면 tsserver 상한(`typescript.tsserver.maxTsServerMemory`)을 낮추거나 창을 닫는 수밖에 없다.
+  - **결론: 배포 전 검증 게이트를 로컬 `next build`로 잡지 말 것.** git push면 Vercel이 3분에 빌드하고,
+    로컬에서 의미 있는 검사는 `tsc --noEmit`이다.
+  - 부수 조치: `.tmp`(11,172 파일, 릴스 원본 아카이브)가 `files.watcherExclude`·`search.exclude`
+    어디에도 없어서 VS Code가 전부 감시하고 있었다 → `.vscode/settings.json`에 추가.
+    `tsconfig.json` exclude에도 `.tmp`/`output`/`public`을 넣었다(현재 .ts는 0개라 예방 목적).
