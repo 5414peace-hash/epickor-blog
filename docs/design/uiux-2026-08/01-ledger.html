@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>EpicKor — Design A: The Ledger</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,500;6..72,600;6..72,800&family=Inter:wght@400;600;700;800&family=IBM+Plex+Mono:wght@500;600&family=Noto+Serif+KR:wght@600;900&display=swap" rel="stylesheet">
+<style>
+  /* ============================================================
+     DESIGN A — THE LEDGER (검증 원장)
+     One idea: the chrome itself carries the proof.
+     Ink on white, a single red, hairline rules, dated fact-chips.
+     ============================================================ */
+  :root{
+    --ink:#131312;
+    --paper:#FFFFFF;
+    --faint:#F7F6F2;          /* warm panel, biased toward the red   */
+    --rule:#E5E2DB;           /* hairline                            */
+    --rule-ink:#131312;       /* structural rule                     */
+    --mute:#6B6862;
+    --red:#C8102E;            /* THE accent. There is no second one. */
+    --red-deep:#A00D25;
+    --serif:"Newsreader","Noto Serif KR",serif;
+    --sans:"Inter",-apple-system,sans-serif;
+    --mono:"IBM Plex Mono",monospace;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{background:var(--paper);color:var(--ink);font-family:var(--sans);
+       font-size:16px;line-height:1.6;-webkit-font-smoothing:antialiased}
+  img{display:block;max-width:100%}
+  a{color:inherit;text-decoration:none}
+  .wrap{max-width:1200px;margin:0 auto;padding:0 28px}
+
+  /* ---- utility bar ------------------------------------------------ */
+  .utility{background:var(--ink);color:#fff}
+  .utility .wrap{display:flex;justify-content:space-between;align-items:center;height:34px}
+  .utility .left{font-family:var(--mono);font-size:11px;letter-spacing:.14em;
+                 color:rgba(255,255,255,.75)}
+  .utility .left b{color:#fff;font-weight:600}
+  .utility .right{font-family:var(--mono);font-size:11px;letter-spacing:.14em;
+                  display:flex;gap:18px;color:rgba(255,255,255,.75)}
+  .utility .right .dot{color:var(--red)}
+
+  /* ---- masthead --------------------------------------------------- */
+  .masthead{border-bottom:2px solid var(--rule-ink);background:var(--paper);
+            position:sticky;top:0;z-index:50}
+  .masthead .wrap{display:flex;align-items:center;justify-content:space-between;height:78px}
+  .wordmark{font-family:var(--serif);font-weight:800;font-size:34px;letter-spacing:-.015em;
+            line-height:1}
+  .wordmark .dot{color:var(--red)}
+  .wordmark small{display:block;font-family:var(--mono);font-weight:500;font-size:9.5px;
+                  letter-spacing:.3em;color:var(--mute);margin-top:5px}
+  nav.main{display:flex;gap:26px;font-size:13.5px;font-weight:700;letter-spacing:.01em}
+  nav.main a{padding:6px 0;border-bottom:2px solid transparent}
+  nav.main a:hover{border-bottom-color:var(--red);color:var(--ink)}
+  nav.main a.now{border-bottom-color:var(--ink)}
+
+  /* ---- fact chip: the signature device ---------------------------- */
+  .chip{display:inline-flex;align-items:center;gap:7px;border:1px solid var(--rule);
+        background:#fff;padding:4px 10px;font-family:var(--mono);font-size:10.5px;
+        font-weight:600;letter-spacing:.12em;color:var(--ink);white-space:nowrap}
+  .chip::before{content:"";width:6px;height:6px;border-radius:50%;background:var(--red)}
+  .chip.plain::before{background:var(--ink)}
+  .price{font-family:var(--mono);font-weight:600;color:var(--red);letter-spacing:0;
+         font-variant-numeric:tabular-nums}
+
+  /* ---- section head ----------------------------------------------- */
+  .sect{border-top:2px solid var(--rule-ink);padding-top:10px;margin-top:52px;
+        display:flex;justify-content:space-between;align-items:baseline}
+  .sect h2{font-family:var(--mono);font-size:12px;font-weight:600;letter-spacing:.24em}
+  .sect a{font-family:var(--mono);font-size:11px;letter-spacing:.12em;color:var(--mute)}
+  .sect a:hover{color:var(--red)}
+
+  /* ---- lead ------------------------------------------------------- */
+  .lead{display:grid;grid-template-columns:1fr 1.05fr;gap:44px;padding:44px 0 40px;
+        border-bottom:1px solid var(--rule)}
+  .kicker{font-family:var(--mono);font-size:11px;font-weight:600;letter-spacing:.22em;
+          color:var(--red);margin-bottom:14px}
+  .lead h1{font-family:var(--serif);font-weight:800;font-size:47px;line-height:1.06;
+           letter-spacing:-.018em;text-wrap:balance}
+  .lead h1:hover{color:var(--red-deep)}
+  .lead .ko{font-family:"Noto Serif KR",serif;font-weight:600;color:var(--mute);
+            font-size:15px;margin-top:12px;letter-spacing:.02em}
+  .lead p.dek{margin-top:16px;font-size:16.5px;line-height:1.65;color:#3C3A36;max-width:52ch}
+  .lead .chips{display:flex;gap:8px;margin-top:22px;flex-wrap:wrap}
+  .lead figure{border:1px solid var(--rule)}
+  .lead figure img{aspect-ratio:16/10.6;object-fit:cover;width:100%}
+  .lead figcaption{font-family:var(--mono);font-size:10.5px;letter-spacing:.06em;
+                   color:var(--mute);padding:9px 12px;border-top:1px solid var(--rule)}
+
+  /* ---- second row: stories + today ------------------------------- */
+  .row2{display:grid;grid-template-columns:2fr 1fr;gap:44px;padding:30px 0 8px}
+  .stories{display:grid;grid-template-columns:1fr 1fr;gap:0 36px}
+  .story{display:grid;grid-template-columns:1fr 108px;gap:16px;padding:18px 0;
+         border-bottom:1px solid var(--rule);align-content:start}
+  .story .k{font-family:var(--mono);font-size:10px;font-weight:600;letter-spacing:.18em;
+            color:var(--mute);margin-bottom:8px}
+  .story h3{font-family:var(--serif);font-weight:600;font-size:20.5px;line-height:1.22;
+            letter-spacing:-.008em}
+  .story h3:hover{color:var(--red-deep)}
+  .story .meta{margin-top:10px;display:flex;gap:8px;flex-wrap:wrap}
+  .story img{width:108px;height:86px;object-fit:cover;border:1px solid var(--rule)}
+  .today{border-left:1px solid var(--rule);padding-left:36px}
+  .today .item{display:flex;gap:16px;padding:14px 0;border-bottom:1px solid var(--rule);
+               align-items:baseline}
+  .today .n{font-family:var(--serif);font-weight:800;font-size:26px;color:var(--rule);
+            line-height:1;min-width:34px;transition:color .15s}
+  .today .item:hover .n{color:var(--red)}
+  .today h4{font-weight:700;font-size:14.5px;line-height:1.35}
+  .today .m{font-family:var(--mono);font-size:10px;letter-spacing:.1em;color:var(--mute);
+            margin-top:5px}
+
+  /* ---- guides ledger ---------------------------------------------- */
+  .guides{display:grid;grid-template-columns:repeat(3,1fr);gap:0;margin-top:26px;
+          border:1px solid var(--rule);border-left:none}
+  .guide{border-left:1px solid var(--rule);padding:0 0 20px}
+  .guide img{aspect-ratio:16/9;object-fit:cover;width:100%;border-bottom:1px solid var(--rule)}
+  .guide .body{padding:18px 20px 0}
+  .guide h3{font-family:var(--serif);font-weight:800;font-size:23px;letter-spacing:-.01em;
+            line-height:1.15}
+  .guide h3:hover{color:var(--red-deep)}
+  .guide .ko{font-family:"Noto Serif KR",serif;font-size:13px;color:var(--mute);margin-top:4px}
+  .guide p{font-size:13.5px;color:#4A4843;line-height:1.55;margin-top:10px}
+  .guide .foot{display:flex;justify-content:space-between;align-items:center;margin-top:16px;
+               padding:12px 20px 0;border-top:1px dotted var(--rule)}
+  .guide .foot .chip{border:none;padding:0}
+  .guide .cnt{font-family:var(--mono);font-size:11px;color:var(--mute);letter-spacing:.08em}
+
+  /* ---- article fragment ------------------------------------------- */
+  .article-band{background:var(--faint);border-top:2px solid var(--rule-ink);margin-top:64px}
+  .article{max-width:720px;margin:0 auto;padding:56px 28px 64px}
+  .article .crumb{font-family:var(--mono);font-size:10.5px;letter-spacing:.14em;
+                  color:var(--mute);margin-bottom:22px}
+  .article .crumb b{color:var(--ink);font-weight:600}
+  .article h1{font-family:var(--serif);font-weight:800;font-size:40px;line-height:1.1;
+              letter-spacing:-.016em;text-wrap:balance}
+  .metarow{display:flex;gap:10px;flex-wrap:wrap;margin:22px 0 6px}
+  .article p.lede{font-family:var(--serif);font-size:21px;line-height:1.5;color:#33312D;
+                  margin-top:22px;font-weight:500}
+  .article p.body{margin-top:18px;font-size:16.5px;line-height:1.75;color:#2E2C29}
+  .article p.body .price{font-size:15.5px}
+  table.ledger{width:100%;border-collapse:collapse;margin-top:30px;background:#fff;
+               border:1px solid var(--rule);font-size:14.5px}
+  table.ledger caption{caption-side:top;text-align:left;font-family:var(--mono);
+        font-size:10.5px;letter-spacing:.18em;color:var(--mute);padding-bottom:10px}
+  table.ledger th{background:var(--ink);color:#fff;text-align:left;font-size:11px;
+        font-family:var(--mono);font-weight:600;letter-spacing:.12em;padding:10px 14px}
+  table.ledger td{padding:13px 14px;border-top:1px solid var(--rule);vertical-align:top}
+  table.ledger td.name{font-weight:700}
+  table.ledger td.name span{display:block;font-family:"Noto Serif KR",serif;font-weight:600;
+        font-size:12.5px;color:var(--mute);margin-top:2px}
+  table.ledger tr:hover td{background:var(--faint)}
+  .verdict{border-left:3px solid var(--red);background:#fff;border:1px solid var(--rule);
+           border-left:3px solid var(--red);padding:16px 20px;margin-top:26px;
+           font-size:15.5px;line-height:1.6}
+  .verdict b{font-weight:800}
+  .cta{border:1px solid var(--rule-ink);background:#fff;margin-top:30px;padding:20px 22px;
+       display:flex;justify-content:space-between;align-items:center;gap:20px}
+  .cta .t{font-family:var(--mono);font-size:10px;letter-spacing:.2em;color:var(--mute)}
+  .cta .h{font-weight:800;font-size:16.5px;margin-top:6px;letter-spacing:-.01em}
+  .cta .d{font-size:13px;color:var(--mute);margin-top:4px}
+  .cta a.btn{flex-shrink:0;background:var(--red);color:#fff;font-weight:800;font-size:13.5px;
+             padding:13px 22px;letter-spacing:.02em}
+  .cta a.btn:hover{background:var(--red-deep)}
+
+  /* ---- footer ------------------------------------------------------ */
+  footer{border-top:2px solid var(--rule-ink);margin-top:0}
+  footer .wrap{display:flex;justify-content:space-between;align-items:center;height:84px}
+  footer .fm{font-family:var(--serif);font-weight:800;font-size:22px}
+  footer .fm .dot{color:var(--red)}
+  footer .fr{font-family:var(--mono);font-size:10.5px;letter-spacing:.16em;color:var(--mute)}
+
+  @media (max-width:860px){
+    .wrap{padding:0 18px}
+    .lead{grid-template-columns:1fr;gap:24px;padding:28px 0}
+    .lead h1{font-size:33px}
+    .row2{grid-template-columns:1fr;gap:0}
+    .stories{grid-template-columns:1fr}
+    .today{border-left:none;padding-left:0;border-top:2px solid var(--rule-ink);
+           margin-top:26px;padding-top:8px}
+    .guides{grid-template-columns:1fr;border-left:1px solid var(--rule)}
+    .guide{border-left:none;border-top:1px solid var(--rule)}
+    nav.main{display:none}
+    .menu-btn{display:inline-flex!important}
+    .article h1{font-size:30px}
+    .cta{flex-direction:column;align-items:flex-start}
+  }
+  .menu-btn{display:none;font-family:var(--mono);font-size:11px;letter-spacing:.2em;
+            border:1px solid var(--ink);padding:9px 14px;align-items:center;gap:8px}
+</style>
+</head>
+<body>
+
+<div class="utility">
+  <div class="wrap">
+    <div class="left"><b>SUNDAY, AUG 3, 2026</b>&nbsp;&nbsp;·&nbsp;&nbsp;SEOUL 27°C</div>
+    <div class="right"><span><span class="dot">●</span> PRICES RE-CHECKED THIS MONTH</span><span>INSTAGRAM</span><span>YOUTUBE</span></div>
+  </div>
+</div>
+
+<header class="masthead">
+  <div class="wrap">
+    <a class="wordmark" href="#">EpicKor<span class="dot">.</span>
+      <small>KOREA, VERIFIED IN KOREAN.</small>
+    </a>
+    <nav class="main">
+      <a class="now" href="#">Guides</a>
+      <a href="#">Travel</a>
+      <a href="#">Food &amp; Shopping</a>
+      <a href="#">Beauty</a>
+      <a href="#">Culture</a>
+      <a href="#">Business</a>
+      <a href="#">Latest</a>
+    </nav>
+    <a class="menu-btn" href="#">MENU ☰</a>
+  </div>
+</header>
+
+<main class="wrap">
+
+  <!-- LEAD -->
+  <section class="lead">
+    <div>
+      <div class="kicker">FOOD &amp; SHOPPING — THE HEAD-TO-HEAD</div>
+      <h1><a href="#">Ansungtangmyun vs Shin Ramyun: which packet to buy first</a></h1>
+      <div class="ko">안성탕면 대 신라면 — 순한 신라면이 아니라, 다른 요리입니다</div>
+      <p class="dek">They are not a mild and a spicy version of the same soup. One is built on
+        soybean paste, the other on chili — and the powder colour settles it before
+        you boil water.</p>
+      <div class="chips">
+        <span class="chip">PRICES CHECKED AUG 2026</span>
+        <span class="chip plain">SOURCED IN KOREAN</span>
+        <span class="chip plain">1 BAG ≈ <span class="price">&nbsp;₩1,000</span></span>
+      </div>
+    </div>
+    <figure>
+      <img src="../../../public/assets/images/posts/346/ansungtangmyun-noodle-and-soup-powder.jpg" alt="">
+      <figcaption>ANSUNGTANGMYUN, UNPACKED — THE POWDER IS BROWN, NOT RED. ⓒ WIKIMEDIA / MOBIUS6</figcaption>
+    </figure>
+  </section>
+
+  <!-- STORIES + TODAY -->
+  <div class="row2">
+    <div class="stories">
+      <article class="story">
+        <div>
+          <div class="k">CONVENIENCE STORE</div>
+          <h3><a href="#">Samgak gimbap has numbered tabs, and the order matters</a></h3>
+          <div class="meta"><span class="chip"><span class="price">₩1,200–1,900</span></span></div>
+        </div>
+        <img src="../../../public/assets/images/posts/336/samgak-kimbap-1.jpg" alt="">
+      </article>
+      <article class="story">
+        <div>
+          <div class="k">CU ONLY</div>
+          <h3><a href="#">Yonsei Cream Bread is 80% cream, and Koreans eat it frozen</a></h3>
+          <div class="meta"><span class="chip"><span class="price">₩2,600–3,000</span></span></div>
+        </div>
+        <img src="../../../public/assets/images/posts/345/yonsei-milk-cream-bread-cross-section.jpg" alt="">
+      </article>
+      <article class="story">
+        <div>
+          <div class="k">SEOUL — JONGNO</div>
+          <h3><a href="#">Ikseon-dong was mass-produced in the 1920s. That is why it survived</a></h3>
+          <div class="meta"><span class="chip plain">1–2 HOURS</span></div>
+        </div>
+        <img src="../../../public/assets/images/posts/355/ikseon-dong-hanok-alley.jpg" alt="">
+      </article>
+      <article class="story">
+        <div>
+          <div class="k">SEOUL — NIGHT</div>
+          <h3><a href="#">Euljiro drinks after 7pm because the printers worked nights</a></h3>
+          <div class="meta"><span class="chip plain">AN EVENING</span></div>
+        </div>
+        <img src="../../../public/assets/images/posts/349/euljiro-nogari-alley-night.jpg" alt="">
+      </article>
+    </div>
+
+    <aside class="today">
+      <div class="sect" style="border-top:none;margin-top:0;padding-top:14px">
+        <h2>TODAY IN KOREA</h2><a href="#">FROM SEARCH →</a>
+      </div>
+      <div class="item"><div class="n">01</div><div><h4>Ahjussi, oppa, samchon — which one is rude?</h4><div class="m">5 MIN READ</div></div></div>
+      <div class="item"><div class="n">02</div><div><h4>What are SKY universities, actually?</h4><div class="m">6 MIN READ</div></div></div>
+      <div class="item"><div class="n">03</div><div><h4>Deli Manjoo: the subway custard smell, explained</h4><div class="m">7 MIN READ</div></div></div>
+      <div class="item"><div class="n">04</div><div><h4>T-money, WOWPASS, cards: the payment setup</h4><div class="m">8 MIN READ</div></div></div>
+    </aside>
+  </div>
+
+  <!-- GUIDES -->
+  <div class="sect"><h2>COMPARED SIDE BY SIDE — THE GUIDES</h2><a href="#">ALL GUIDES →</a></div>
+  <section class="guides">
+    <article class="guide">
+      <img src="../../../public/assets/images/posts/355/ikseon-dong-hanok-alley.jpg" alt="">
+      <div class="body">
+        <h3><a href="#">Seoul by neighbourhood</a></h3>
+        <div class="ko">서울, 동네별로</div>
+        <p>Twelve neighbourhoods by character, nearest station, and whether they are
+           worth staying in — pick before you book.</p>
+      </div>
+      <div class="foot"><span class="chip">UPDATED AUG 2026</span><span class="cnt">12 AREAS</span></div>
+    </article>
+    <article class="guide">
+      <img src="../../../public/assets/images/posts/059/convenience-store-lunchbox-01.jpg" alt="">
+      <div class="body">
+        <h3><a href="#">Korean convenience stores</a></h3>
+        <div class="ko">한국 편의점</div>
+        <p>CU, GS25, 7-Eleven and Emart24 compared, with current prices for the things
+           people actually buy.</p>
+      </div>
+      <div class="foot"><span class="chip">PRICES AUG 2026</span><span class="cnt">14 GUIDES</span></div>
+    </article>
+    <article class="guide">
+      <img src="../../../public/assets/images/posts/346/shin-ramyun-noodle-and-soup-powder.jpg" alt="">
+      <div class="body">
+        <h3><a href="#">Korean ramyun</a></h3>
+        <div class="ko">한국 라면</div>
+        <p>Every packet by soup base and published Scoville — every figure loses to one
+           fresh cheongyang pepper.</p>
+      </div>
+      <div class="foot"><span class="chip">VERIFIED SHU</span><span class="cnt">9 GUIDES</span></div>
+    </article>
+  </section>
+
+</main>
+
+<!-- ARTICLE FRAGMENT -->
+<div class="article-band">
+  <article class="article">
+    <div class="crumb">GUIDES / FOOD &amp; SHOPPING / <b>KOREAN RAMYUN</b></div>
+    <h1>Ansungtangmyun vs Shin Ramyun: which Korean ramyun to buy first</h1>
+    <div class="metarow">
+      <span class="chip">LAST UPDATED AUG 2026</span>
+      <span class="chip plain">12 MIN READ</span>
+      <span class="chip plain">EVERY FIGURE SOURCED</span>
+    </div>
+    <p class="lede">Buying your first Korean ramyun is a coin toss between two red packets —
+      except one of them is not actually the spicy one, and the difference is printed
+      on the soup sachet if you know what colour to look for.</p>
+    <p class="body">At a convenience store a single bag of either runs about
+      <span class="price">₩1,000</span>; five-packs at E-Mart or Homeplus cost markedly
+      less per serving. The real difference is the base: Ansungtangmyun is built on
+      soybean paste (된장), Shin Ramyun on chili.</p>
+
+    <table class="ledger">
+      <caption>THE LEDGER — VERIFIED AUG 2026</caption>
+      <thead><tr><th>NOODLE</th><th>BASE</th><th>HEAT</th><th>PRICE / BAG</th><th>BUY IF</th></tr></thead>
+      <tbody>
+        <tr><td class="name">Ansungtangmyun<span>안성탕면</span></td><td>Soybean paste</td>
+            <td><span class="price">570 SHU</span></td><td><span class="price">₩1,000</span></td>
+            <td>You want Korean seasoning, not heat</td></tr>
+        <tr><td class="name">Shin Ramyun<span>신라면</span></td><td>Chili</td>
+            <td><span class="price">3,400 SHU</span></td><td><span class="price">₩1,000</span></td>
+            <td>You want the reference point</td></tr>
+        <tr><td class="name">Buldak<span>불닭볶음면</span></td><td>Chili sauce, no broth</td>
+            <td><span class="price">4,404 SHU</span></td><td><span class="price">₩1,300</span></td>
+            <td>You have had a jalapeño and were fine</td></tr>
+      </tbody>
+    </table>
+
+    <div class="verdict"><b>The one rule that saves money:</b> buy single packets at a
+      convenience store only to sample. For anything more, a five-pack at a mart costs
+      meaningfully less per serving.</div>
+
+    <div class="cta">
+      <div>
+        <div class="t">BEFORE YOU FLY — AMAZON ASSOCIATE</div>
+        <div class="h">Compare Korean ramyun variety packs</div>
+        <div class="d">Bagged ramyun survives export; it costs several times more abroad.</div>
+      </div>
+      <a class="btn" href="#">COMPARE →</a>
+    </div>
+  </article>
+</div>
+
+<footer>
+  <div class="wrap">
+    <div class="fm">EpicKor<span class="dot">.</span></div>
+    <div class="fr">ⓒ 2026 EPICKOR — KOREA, VERIFIED IN KOREAN.</div>
+  </div>
+</footer>
+
+</body>
+</html>

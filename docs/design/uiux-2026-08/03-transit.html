@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>EpicKor — Design C: Night Transit</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@600;700;800&family=Inter:wght@400;600;700&family=IBM+Plex+Mono:wght@500;600&family=Noto+Sans+KR:wght@500;700;900&display=swap" rel="stylesheet">
+<style>
+  /* ============================================================
+     DESIGN C — NIGHT TRANSIT (심야 노선도)
+     Seoul after dark, read as a wayfinding system: dark chrome,
+     Seoul Metro line colours used FUNCTIONALLY (one line = one
+     section), station name plates with Hangul first, roundels.
+     Long-form articles stay on a light sheet — readability is
+     not sacrificed to the theme.
+     ============================================================ */
+  :root{
+    --night:#14171B;
+    --panel:#1C2025;
+    --panel2:#222731;
+    --text:#F2F4F6;
+    --mute:rgba(242,244,246,.6);
+    --hair:rgba(242,244,246,.14);
+    --l1:#0052A4;  /* Line 1 blue   — TRAVEL      */
+    --l2:#00A84D;  /* Line 2 green  — SEOUL/GUIDE */
+    --lred:#D6151B;/* house red     — FOOD        */
+    --l8:#E6186C;  /* Line 8 pink   — BEAUTY      */
+    --l5:#996CAC;  /* Line 5 purple — CULTURE     */
+    --l6:#CD7C2F;  /* Line 6 ochre  — BUSINESS    */
+    --disp:"Barlow Semi Condensed","Noto Sans KR",sans-serif;
+    --sans:"Inter","Noto Sans KR",sans-serif;
+    --mono:"IBM Plex Mono",monospace;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{background:var(--night);color:var(--text);font-family:var(--sans);
+       font-size:16px;line-height:1.6;-webkit-font-smoothing:antialiased}
+  img{display:block;max-width:100%}
+  a{color:inherit;text-decoration:none}
+  .wrap{max-width:1200px;margin:0 auto;padding:0 28px}
+  .roundel{display:inline-flex;width:26px;height:26px;border-radius:50%;align-items:center;
+        justify-content:center;color:#fff;font-family:var(--disp);font-weight:800;
+        font-size:14px;flex-shrink:0}
+
+  /* ---- header ------------------------------------------------------ */
+  header{background:rgba(20,23,27,.92);backdrop-filter:blur(8px);
+         border-bottom:1px solid var(--hair);position:sticky;top:0;z-index:50}
+  .lineband{height:5px;background:linear-gradient(90deg,
+      var(--l1) 0 16.6%,var(--l2) 16.6% 33.2%,var(--lred) 33.2% 49.8%,
+      var(--l8) 49.8% 66.4%,var(--l5) 66.4% 83%,var(--l6) 83% 100%)}
+  header .wrap{display:flex;align-items:center;justify-content:space-between;height:74px}
+  .wordmark{font-family:var(--disp);font-weight:800;font-size:29px;letter-spacing:.01em}
+  .wordmark .dot{color:var(--lred)}
+  .wordmark small{display:block;font-family:var(--mono);font-size:9px;font-weight:500;
+        letter-spacing:.3em;color:var(--mute);margin-top:3px}
+  nav.main{display:flex;gap:4px}
+  nav.main a{display:flex;align-items:center;gap:8px;font-family:var(--disp);font-weight:700;
+        font-size:14.5px;letter-spacing:.04em;padding:8px 13px;border-radius:3px;
+        color:var(--mute);text-transform:uppercase}
+  nav.main a:hover{background:var(--panel2);color:var(--text)}
+  nav.main a .dot{width:9px;height:9px;border-radius:50%}
+
+  /* ---- hero: departure board -------------------------------------- */
+  .depart{padding:46px 0 8px}
+  .depart .board{font-family:var(--mono);font-size:11px;letter-spacing:.22em;color:var(--mute);
+        display:flex;gap:26px;margin-bottom:22px}
+  .depart .board b{color:#F6C453;font-weight:600;animation:blink 2.4s step-end infinite}
+  @keyframes blink{55%{opacity:.35}}
+  .hero{display:grid;grid-template-columns:1.15fr .85fr;gap:34px}
+  .platecard{position:relative;border:1px solid var(--hair);overflow:hidden;min-height:430px;
+        display:flex;align-items:flex-end}
+  .platecard img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+  .platecard .grad{position:absolute;inset:0;
+        background:linear-gradient(180deg,rgba(20,23,27,.1) 30%,rgba(20,23,27,.92) 82%)}
+  .plate{position:relative;padding:30px 34px 30px;width:100%}
+  .plate .line{display:flex;align-items:center;gap:10px;margin-bottom:14px}
+  .plate .name-ko{font-family:"Noto Sans KR",sans-serif;font-weight:900;font-size:46px;
+        line-height:1.05;letter-spacing:-.01em}
+  .plate .name-en{font-family:var(--disp);font-weight:700;font-size:19px;letter-spacing:.14em;
+        color:var(--mute);text-transform:uppercase;margin-top:6px}
+  .plate p{margin-top:12px;color:rgba(242,244,246,.82);font-size:15.5px;max-width:52ch}
+  .plate .strip{display:flex;justify-content:space-between;align-items:center;
+        border-top:1px solid var(--hair);margin-top:18px;padding-top:14px;
+        font-family:var(--mono);font-size:11.5px;letter-spacing:.12em;color:var(--mute)}
+  .plate .strip b{color:#fff;font-weight:600}
+  .sideстack{display:flex;flex-direction:column;gap:22px}
+  .sidecard{background:var(--panel);border:1px solid var(--hair);display:grid;
+        grid-template-columns:1fr 128px;overflow:hidden;flex:1}
+  .sidecard .pad{padding:20px 22px;display:flex;flex-direction:column}
+  .sidecard .line{display:flex;align-items:center;gap:8px;font-family:var(--mono);
+        font-size:10px;letter-spacing:.16em;color:var(--mute)}
+  .sidecard h3{font-family:var(--disp);font-weight:700;font-size:21px;line-height:1.15;
+        margin-top:10px;letter-spacing:.01em}
+  .sidecard h3:hover{color:#F6C453}
+  .sidecard .time{margin-top:auto;padding-top:12px;font-family:var(--mono);font-size:11px;
+        letter-spacing:.1em;color:var(--mute)}
+  .sidecard .time b{color:#00A84D;font-weight:600}
+  .sidecard img{width:128px;height:100%;object-fit:cover}
+
+  /* ---- line section ------------------------------------------------ */
+  .linehead{display:flex;align-items:center;gap:14px;margin:58px 0 20px}
+  .linehead .roundel{width:34px;height:34px;font-size:17px}
+  .linehead h2{font-family:var(--disp);font-weight:800;font-size:26px;letter-spacing:.05em;
+        text-transform:uppercase}
+  .linehead .ko{font-family:"Noto Sans KR",sans-serif;font-weight:700;font-size:15px;
+        color:var(--mute)}
+  .linehead .rule{flex:1;height:3px}
+  .linehead a{font-family:var(--mono);font-size:11px;letter-spacing:.14em;color:var(--mute)}
+  .linehead a:hover{color:var(--text)}
+  .stations{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+  .station{background:var(--panel);border:1px solid var(--hair);overflow:hidden;
+        transition:transform .12s,border-color .12s}
+  .station:hover{transform:translateY(-3px);border-color:rgba(242,244,246,.35)}
+  .station img{aspect-ratio:16/9;object-fit:cover;width:100%}
+  .station .pad{padding:16px 18px 14px;border-top:3px solid var(--l2)}
+  .station.food .pad{border-top-color:var(--lred)}
+  .station .ko{font-family:"Noto Sans KR",sans-serif;font-weight:900;font-size:22px}
+  .station .en{font-family:var(--disp);font-weight:700;font-size:12px;letter-spacing:.16em;
+        color:var(--mute);text-transform:uppercase;margin-top:2px}
+  .station p{font-size:13px;color:rgba(242,244,246,.72);line-height:1.5;margin-top:9px}
+  .station .foot{display:flex;justify-content:space-between;padding:11px 18px;
+        border-top:1px solid var(--hair);font-family:var(--mono);font-size:10.5px;
+        letter-spacing:.1em;color:var(--mute)}
+  .station .foot b{color:#F6C453;font-weight:600}
+
+  /* ---- article: light sheet on dark chrome ------------------------- */
+  .reader{margin-top:70px;background:var(--panel);border-top:1px solid var(--hair);
+        padding:56px 0 72px}
+  .reader .note{max-width:760px;margin:0 auto 18px;padding:0 28px;font-family:var(--mono);
+        font-size:10.5px;letter-spacing:.18em;color:var(--mute)}
+  .sheet{max-width:760px;margin:0 auto;background:#FCFCFA;color:#1B1A18;border-radius:4px;
+        overflow:hidden;box-shadow:0 24px 70px rgba(0,0,0,.5)}
+  .sheet .topline{height:5px;background:var(--lred)}
+  .sheet .head{padding:38px 46px 0}
+  .sheet .crumb{font-family:var(--mono);font-size:10.5px;letter-spacing:.14em;color:#8A867E}
+  .sheet h1{font-family:var(--disp);font-weight:800;font-size:36px;line-height:1.1;
+        margin-top:14px;color:#141311}
+  .sheet .chips{display:flex;gap:8px;margin-top:16px;flex-wrap:wrap}
+  .pill{font-family:var(--mono);font-size:10.5px;font-weight:600;letter-spacing:.1em;
+        border:1px solid #DDD9D0;padding:5px 10px;color:#3E3B36;display:inline-flex;
+        align-items:center;gap:7px}
+  .pill::before{content:"";width:6px;height:6px;border-radius:50%;background:var(--lred)}
+  .sheet .body{padding:24px 46px 44px;font-size:16.5px;line-height:1.75;color:#2B2926}
+  .sheet .body p+p{margin-top:16px}
+  .sheet .won{font-family:var(--mono);font-weight:600;color:var(--lred)}
+  table.tt{width:100%;border-collapse:collapse;margin-top:26px;font-size:14.5px}
+  table.tt th{text-align:left;font-family:var(--mono);font-size:10.5px;letter-spacing:.14em;
+        color:#8A867E;border-bottom:2px solid #141311;padding:9px 10px}
+  table.tt td{border-bottom:1px solid #E7E3DA;padding:12px 10px}
+  table.tt td.name{font-weight:700}
+  table.tt td.name span{display:block;font-family:"Noto Sans KR",sans-serif;font-weight:700;
+        font-size:12.5px;color:#8A867E}
+  .sheet .cta{margin-top:28px;border:2px solid #141311;padding:18px 22px;display:flex;
+        justify-content:space-between;align-items:center;gap:18px}
+  .sheet .cta .t{font-family:var(--mono);font-size:10px;letter-spacing:.18em;color:#8A867E}
+  .sheet .cta .h{font-weight:700;font-size:16.5px;margin-top:5px}
+  .sheet .cta a{background:var(--lred);color:#fff;font-weight:700;font-size:13px;
+        padding:13px 20px;flex-shrink:0}
+
+  footer{border-top:1px solid var(--hair)}
+  footer .wrap{display:flex;justify-content:space-between;align-items:center;height:88px}
+  footer .fm{font-family:var(--disp);font-weight:800;font-size:21px}
+  footer .fm .dot{color:var(--lred)}
+  footer .fr{font-family:var(--mono);font-size:10.5px;letter-spacing:.16em;color:var(--mute)}
+
+  @media (max-width:900px){
+    .wrap{padding:0 18px}
+    nav.main{display:none}
+    .menu-btn{display:inline-flex!important}
+    .hero{grid-template-columns:1fr}
+    .platecard{min-height:340px}
+    .plate .name-ko{font-size:34px}
+    .stations{grid-template-columns:1fr}
+    .sheet .head{padding:26px 22px 0}
+    .sheet .body{padding:18px 22px 30px}
+    .sheet h1{font-size:27px}
+    .sheet .cta{flex-direction:column;align-items:flex-start}
+  }
+  .menu-btn{display:none;font-family:var(--mono);font-size:11px;letter-spacing:.18em;
+        border:1px solid var(--hair);padding:9px 14px;color:var(--mute)}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="lineband"></div>
+  <div class="wrap">
+    <a class="wordmark" href="#">EpicKor<span class="dot">.</span>
+      <small>SEOUL, AFTER DARK &amp; IN DETAIL</small>
+    </a>
+    <nav class="main">
+      <a href="#"><span class="dot" style="background:var(--l1)"></span>Travel</a>
+      <a href="#"><span class="dot" style="background:var(--lred)"></span>Food</a>
+      <a href="#"><span class="dot" style="background:var(--l8)"></span>Beauty</a>
+      <a href="#"><span class="dot" style="background:var(--l5)"></span>Culture</a>
+      <a href="#"><span class="dot" style="background:var(--l6)"></span>Business</a>
+      <a href="#"><span class="dot" style="background:var(--l2)"></span>Guides</a>
+    </nav>
+    <a class="menu-btn" href="#">MENU ☰</a>
+  </div>
+</header>
+
+<main class="wrap">
+
+  <!-- DEPARTURE BOARD -->
+  <section class="depart">
+    <div class="board">
+      <span><b>●</b> NOW BOARDING — AUG 3, 2026</span>
+      <span>PRICES RE-CHECKED THIS MONTH</span>
+      <span>ALL FIGURES SOURCED IN KOREAN</span>
+    </div>
+    <div class="hero">
+      <article class="platecard">
+        <img src="../../../public/assets/images/posts/349/euljiro-nogari-alley-night.jpg" alt="">
+        <div class="grad"></div>
+        <div class="plate">
+          <div class="line">
+            <span class="roundel" style="background:var(--l2)">2</span>
+            <span class="roundel" style="background:#EF7C1C">3</span>
+            <span style="font-family:var(--mono);font-size:11px;letter-spacing:.14em;color:var(--mute)">EULJIRO 3-GA STATION</span>
+          </div>
+          <h1 class="name-ko">을지로</h1>
+          <div class="name-en">EULJIRO — MACHINES BY DAY, DRINKS BY NIGHT</div>
+          <p>The bars exist because the printers worked night shifts. After 7pm the same
+             street becomes the best drinking alley in Seoul.</p>
+          <div class="strip"><span>TIME IT TAKES — <b>AN EVENING</b></span><span>STAY? <b>WORKABLE</b></span></div>
+        </div>
+      </article>
+
+      <div class="sideстack">
+        <article class="sidecard">
+          <div class="pad">
+            <div class="line"><span class="roundel" style="background:var(--l2);width:20px;height:20px;font-size:11px">2</span> HONGIK UNIV.</div>
+            <h3><a href="#">연남동 — the park everyone sits in is a buried railway</a></h3>
+            <div class="time">HALF A DAY · STAY: <b>GOOD BASE</b></div>
+          </div>
+          <img src="../../../public/assets/images/posts/351/gyeongui-line-forest-park-yeonnam.jpg" alt="">
+        </article>
+        <article class="sidecard">
+          <div class="pad">
+            <div class="line"><span class="roundel" style="background:#EF7C1C;width:20px;height:20px;font-size:11px">3</span> ANGUK</div>
+            <h3><a href="#">북촌 — eleven alleys, one photo spot, and the quiet rule</a></h3>
+            <div class="time">1–2 HOURS · GO BEFORE <b>10AM</b></div>
+          </div>
+          <img src="../../../public/assets/images/posts/357/bukchon-ro-11-gil-hanok-street.jpg" alt="">
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- LINE 2: GUIDES -->
+  <div class="linehead">
+    <span class="roundel" style="background:var(--l2)">G</span>
+    <h2>The Guides</h2><span class="ko">비교 가이드</span>
+    <span class="rule" style="background:var(--l2)"></span>
+    <a href="#">ALL LINES →</a>
+  </div>
+  <section class="stations">
+    <article class="station">
+      <img src="../../../public/assets/images/posts/353/haebangchon-namsan-hillside.jpg" alt="">
+      <div class="pad">
+        <div class="ko">서울, 동네별로</div>
+        <div class="en">Seoul by Neighbourhood</div>
+        <p>Twelve areas by character, nearest station, and whether they are worth
+           staying in.</p>
+      </div>
+      <div class="foot"><span>12 AREAS</span><b>UPDATED AUG 2026</b></div>
+    </article>
+    <article class="station food">
+      <img src="../../../public/assets/images/posts/059/convenience-store-lunchbox-01.jpg" alt="">
+      <div class="pad">
+        <div class="ko">한국 편의점</div>
+        <div class="en">Korean Convenience Stores</div>
+        <p>Four chains compared, with current prices for the things people actually buy.</p>
+      </div>
+      <div class="foot"><span>14 GUIDES</span><b>PRICES AUG 2026</b></div>
+    </article>
+    <article class="station food">
+      <img src="../../../public/assets/images/posts/346/shin-ramyun-noodle-and-soup-powder.jpg" alt="">
+      <div class="pad">
+        <div class="ko">한국 라면</div>
+        <div class="en">Korean Ramyun</div>
+        <p>Every packet by soup base and published Scoville — the famous one is not
+           the hottest thing in Korea.</p>
+      </div>
+      <div class="foot"><span>9 GUIDES</span><b>VERIFIED SHU</b></div>
+    </article>
+  </section>
+
+</main>
+
+<!-- READER: light sheet -->
+<div class="reader">
+  <div class="note">READER MODE — ARTICLES STAY ON A LIGHT SHEET. THE NIGHT IS FOR THE CHROME.</div>
+  <article class="sheet">
+    <div class="topline"></div>
+    <div class="head">
+      <div class="crumb">GUIDES / FOOD &amp; SHOPPING / KOREAN RAMYUN</div>
+      <h1>Ansungtangmyun vs Shin Ramyun: which one to buy first</h1>
+      <div class="chips">
+        <span class="pill">PRICES CHECKED AUG 2026</span>
+        <span class="pill">12 MIN READ</span>
+      </div>
+    </div>
+    <div class="body">
+      <p>They are not a mild and a spicy version of the same soup. Ansungtangmyun is
+         built on soybean paste (된장), Shin Ramyun on chili — and the powder colour
+         settles it before you boil water. A single bag of either runs about
+         <span class="won">₩1,000</span> at a convenience store.</p>
+      <table class="tt">
+        <thead><tr><th>NOODLE</th><th>BASE</th><th>HEAT</th><th>PRICE</th></tr></thead>
+        <tbody>
+          <tr><td class="name">Ansungtangmyun<span>안성탕면</span></td><td>Soybean paste</td>
+              <td>570 SHU</td><td class="won">₩1,000</td></tr>
+          <tr><td class="name">Shin Ramyun<span>신라면</span></td><td>Chili</td>
+              <td>3,400 SHU</td><td class="won">₩1,000</td></tr>
+          <tr><td class="name">Buldak<span>불닭볶음면</span></td><td>Chili sauce, no broth</td>
+              <td>4,404 SHU</td><td class="won">₩1,300</td></tr>
+        </tbody>
+      </table>
+      <div class="cta">
+        <div>
+          <div class="t">BEFORE YOU FLY — AMAZON ASSOCIATE</div>
+          <div class="h">Compare Korean ramyun variety packs</div>
+        </div>
+        <a href="#">COMPARE →</a>
+      </div>
+    </div>
+  </article>
+</div>
+
+<footer>
+  <div class="wrap">
+    <div class="fm">EpicKor<span class="dot">.</span></div>
+    <div class="fr">ⓒ 2026 EPICKOR — LAST TRAIN 00:40, LAST UPDATE AUG 2026</div>
+  </div>
+</footer>
+
+</body>
+</html>

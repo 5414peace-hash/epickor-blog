@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>EpicKor — Design B: Paper Shelf</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;700;900&family=Archivo+Black&family=IBM+Plex+Mono:wght@500;600;700&family=Noto+Sans+KR:wght@500;700;900&display=swap" rel="stylesheet">
+<style>
+  /* ============================================================
+     DESIGN B — PAPER SHELF (매대)
+     The Instagram card systems, carried onto the web:
+     paper ground, ink-bordered tag cards, hard offset shadows,
+     mono won-prices in red, yellow flash badges, barcode feet.
+     ============================================================ */
+  :root{
+    --paper:#F5F2EA;
+    --card:#FFFFFF;
+    --ink:#171512;
+    --mute:#6E6A61;
+    --red:#D6151B;
+    --flash:#FFD400;
+    --cool:#2F6F5B;
+    --shadow:9px 9px 0 rgba(23,21,18,.13);
+    --shadow-lg:13px 13px 0 rgba(23,21,18,.15);
+    --disp:"Archivo Black","Noto Sans KR",sans-serif;
+    --sans:"Archivo","Noto Sans KR",sans-serif;
+    --mono:"IBM Plex Mono",monospace;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{background:var(--paper);color:var(--ink);font-family:var(--sans);
+       font-size:16px;line-height:1.6;-webkit-font-smoothing:antialiased}
+  img{display:block;max-width:100%}
+  a{color:inherit;text-decoration:none}
+  .wrap{max-width:1200px;margin:0 auto;padding:0 28px}
+
+  /* barcode: pure CSS, decorative */
+  .barcode{height:26px;background:repeating-linear-gradient(90deg,
+    var(--ink) 0 2px, transparent 2px 5px, var(--ink) 5px 9px, transparent 9px 11px,
+    var(--ink) 11px 12px, transparent 12px 16px, var(--ink) 16px 21px, transparent 21px 23px);
+    opacity:.9}
+
+  /* ---- header ------------------------------------------------------ */
+  header{background:var(--card);border-bottom:3px solid var(--ink);
+         position:sticky;top:0;z-index:50}
+  header .wrap{display:flex;align-items:center;justify-content:space-between;height:80px}
+  .wordmark{display:flex;align-items:baseline;gap:10px}
+  .wordmark .mark{font-family:var(--disp);font-size:30px;letter-spacing:-.01em}
+  .wordmark .chip-dot{background:var(--red);color:#fff;font-family:var(--mono);
+        font-weight:700;font-size:11px;padding:4px 8px;letter-spacing:.08em}
+  nav.main{display:flex;gap:8px;flex-wrap:wrap}
+  nav.main a{border:2px solid var(--ink);background:var(--card);font-weight:700;
+        font-size:12.5px;padding:8px 13px;letter-spacing:.02em;transition:all .12s}
+  nav.main a:hover{background:var(--ink);color:#fff}
+  nav.main a.now{background:var(--ink);color:#fff}
+
+  /* ---- hero: the big shelf tag ------------------------------------ */
+  .hero{display:grid;grid-template-columns:1.1fr .9fr;gap:36px;padding:52px 0 16px;
+        align-items:stretch}
+  .tagcard{background:var(--card);border:3px solid var(--ink);box-shadow:var(--shadow-lg);
+        display:flex;flex-direction:column}
+  .tagcard .pad{padding:34px 36px 28px;flex:1}
+  .flash{display:inline-block;background:var(--flash);border:2px solid var(--ink);
+        font-family:var(--mono);font-weight:700;font-size:12px;letter-spacing:.14em;
+        padding:6px 12px}
+  .hero h1{font-family:var(--disp);font-size:52px;line-height:1.02;letter-spacing:-.01em;
+        margin-top:22px;text-transform:uppercase}
+  .hero h1 .price-line{color:var(--red)}
+  .hero .ko{font-family:"Noto Sans KR",sans-serif;font-weight:900;font-size:19px;
+        margin-top:14px}
+  .hero p{margin-top:14px;color:#494540;font-size:15.5px;line-height:1.6;max-width:46ch}
+  .hero .receipt{margin-top:22px;font-family:var(--mono);font-size:13.5px;line-height:2.05;
+        border-top:2px dotted var(--ink);padding-top:14px}
+  .hero .receipt .row{display:flex;justify-content:space-between;gap:12px}
+  .hero .receipt .row b{color:var(--red);font-weight:700}
+  .hero .tagfoot{display:flex;justify-content:space-between;align-items:flex-end;gap:20px;
+        padding:0 36px 22px}
+  .hero .tagfoot .sum{font-family:var(--mono);font-size:11px;letter-spacing:.14em;
+        color:var(--mute)}
+  .hero .tagfoot .barcode{width:190px}
+  .heroimg{border:3px solid var(--ink);box-shadow:var(--shadow-lg);overflow:hidden;
+        display:flex;flex-direction:column;background:var(--card)}
+  .heroimg img{flex:1;object-fit:cover;min-height:0}
+  .heroimg .cap{font-family:var(--mono);font-size:11px;letter-spacing:.1em;padding:12px 16px;
+        border-top:3px solid var(--ink);display:flex;justify-content:space-between}
+  .heroimg .cap b{color:var(--red)}
+
+  /* ---- aisle label ------------------------------------------------- */
+  .aisle{display:flex;align-items:center;gap:16px;margin:56px 0 22px}
+  .aisle .no{background:var(--ink);color:#fff;font-family:var(--disp);font-size:17px;
+        padding:8px 14px}
+  .aisle h2{font-family:var(--disp);font-size:24px;letter-spacing:.01em;text-transform:uppercase}
+  .aisle .rule{flex:1;border-top:3px solid var(--ink)}
+  .aisle a{font-family:var(--mono);font-weight:700;font-size:12px;letter-spacing:.12em}
+  .aisle a:hover{color:var(--red)}
+
+  /* ---- product grid ------------------------------------------------ */
+  .grid{display:grid;grid-template-columns:repeat(4,1fr);gap:26px}
+  .prod{background:var(--card);border:3px solid var(--ink);box-shadow:var(--shadow);
+        display:flex;flex-direction:column;transition:transform .12s}
+  .prod:hover{transform:translate(-3px,-3px);box-shadow:12px 12px 0 rgba(23,21,18,.15)}
+  .prod img{aspect-ratio:1/0.82;object-fit:cover;border-bottom:3px solid var(--ink)}
+  .prod .pad{padding:16px 18px 14px;flex:1}
+  .prod .kick{font-family:var(--mono);font-weight:700;font-size:10px;letter-spacing:.16em;
+        color:var(--red)}
+  .prod h3{font-family:"Noto Sans KR",sans-serif;font-weight:900;font-size:21px;
+        line-height:1.2;margin-top:8px}
+  .prod .en{font-family:var(--sans);font-weight:700;font-size:12px;letter-spacing:.06em;
+        color:var(--mute);text-transform:uppercase;margin-top:3px}
+  .prod .pricebar{display:flex;justify-content:space-between;align-items:center;
+        border-top:2px dotted rgba(23,21,18,.3);margin-top:12px;padding:10px 18px 12px}
+  .prod .won{font-family:var(--mono);font-weight:700;font-size:19px;color:var(--red);
+        font-variant-numeric:tabular-nums}
+  .prod .note{font-family:var(--mono);font-size:10px;color:var(--mute);letter-spacing:.06em}
+  .prod .flash{font-size:10px;padding:4px 8px;margin-top:10px}
+
+  /* ---- guide shelf ------------------------------------------------- */
+  .shelfrow{display:grid;grid-template-columns:repeat(3,1fr);gap:26px}
+  .shelf{background:var(--ink);color:#fff;border:3px solid var(--ink);
+         box-shadow:var(--shadow);display:flex;flex-direction:column}
+  .shelf img{aspect-ratio:16/8.5;object-fit:cover}
+  .shelf .pad{padding:20px 22px}
+  .shelf .kick{font-family:var(--mono);font-size:10px;font-weight:700;letter-spacing:.18em;
+        color:var(--flash)}
+  .shelf h3{font-family:var(--disp);font-size:23px;line-height:1.08;margin-top:10px;
+        text-transform:uppercase}
+  .shelf p{font-size:13px;line-height:1.55;color:rgba(255,255,255,.75);margin-top:10px}
+  .shelf .foot{margin-top:auto;display:flex;justify-content:space-between;align-items:center;
+        padding:14px 22px;border-top:1px solid rgba(255,255,255,.25);
+        font-family:var(--mono);font-size:11px;letter-spacing:.12em}
+  .shelf .foot b{color:var(--flash)}
+
+  /* ---- article sheet ----------------------------------------------- */
+  .sheetband{margin-top:70px;padding:0 0 70px;
+        background:repeating-linear-gradient(0deg,transparent 0 4px, rgba(23,21,18,.02) 4px 5px)}
+  .sheet{max-width:780px;margin:0 auto;background:var(--card);border:3px solid var(--ink);
+        box-shadow:var(--shadow-lg)}
+  .sheet .head{padding:40px 48px 0}
+  .sheet .crumb{font-family:var(--mono);font-size:11px;font-weight:700;letter-spacing:.14em;
+        color:var(--mute)}
+  .sheet h1{font-family:var(--disp);font-size:36px;line-height:1.08;margin-top:16px;
+        text-transform:uppercase}
+  .sheet .chips{display:flex;gap:8px;flex-wrap:wrap;margin-top:18px}
+  .tag{display:inline-flex;align-items:center;gap:8px;border:2px solid var(--ink);
+        font-family:var(--mono);font-size:10.5px;font-weight:700;letter-spacing:.1em;
+        padding:5px 10px;background:var(--card)}
+  .tag.red{background:var(--red);border-color:var(--red);color:#fff}
+  .tag.yellow{background:var(--flash)}
+  .sheet .body{padding:26px 48px 40px;font-size:16px;line-height:1.75;color:#2C2A26}
+  .sheet .body p+p{margin-top:16px}
+  .sheet .won{font-family:var(--mono);font-weight:700;color:var(--red)}
+  table.receipt{width:100%;border-collapse:collapse;margin:26px 0 6px;
+        font-family:var(--mono);font-size:13.5px}
+  table.receipt th{border-top:3px solid var(--ink);border-bottom:2px dotted var(--ink);
+        text-align:left;padding:10px 8px;font-size:10.5px;letter-spacing:.14em}
+  table.receipt td{border-bottom:1px dotted rgba(23,21,18,.35);padding:12px 8px}
+  table.receipt td.r{text-align:right;color:var(--red);font-weight:700}
+  table.receipt td .ko{font-family:"Noto Sans KR",sans-serif;font-weight:700}
+  .sheet .ctabox{margin:28px 0 0;border:3px solid var(--ink);background:var(--flash);
+        padding:20px 24px;display:flex;justify-content:space-between;gap:18px;align-items:center}
+  .sheet .ctabox .t{font-family:var(--mono);font-size:10px;font-weight:700;letter-spacing:.16em}
+  .sheet .ctabox .h{font-family:var(--disp);font-size:19px;margin-top:6px;text-transform:uppercase}
+  .sheet .ctabox a{flex-shrink:0;background:var(--ink);color:#fff;font-weight:900;
+        font-size:13px;padding:14px 20px;letter-spacing:.04em}
+  .sheet .ctabox a:hover{background:var(--red)}
+  .sheet>.barcode{margin:34px 48px 30px}
+
+  footer{border-top:3px solid var(--ink);background:var(--card)}
+  footer .wrap{display:flex;justify-content:space-between;align-items:center;height:86px}
+  footer .fm{font-family:var(--disp);font-size:21px}
+  footer .fr{font-family:var(--mono);font-size:10.5px;letter-spacing:.14em;color:var(--mute)}
+
+  @media (max-width:900px){
+    .wrap{padding:0 18px}
+    nav.main{display:none}
+    .menu-btn{display:inline-flex!important}
+    .hero{grid-template-columns:1fr;padding-top:28px}
+    .hero h1{font-size:38px}
+    .heroimg img{min-height:260px}
+    .grid{grid-template-columns:1fr 1fr;gap:18px}
+    .shelfrow{grid-template-columns:1fr;gap:18px}
+    .sheet .head{padding:26px 22px 0}
+    .sheet .body{padding:20px 22px 30px}
+    .sheet h1{font-size:26px}
+    .sheet>.barcode{margin:24px 22px}
+    .sheet .ctabox{flex-direction:column;align-items:flex-start}
+  }
+  .menu-btn{display:none;border:2px solid var(--ink);font-family:var(--mono);font-weight:700;
+        font-size:11px;letter-spacing:.16em;padding:9px 14px}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap">
+    <a class="wordmark" href="#">
+      <span class="mark">EPICKOR</span>
+      <span class="chip-dot">.COM</span>
+    </a>
+    <nav class="main">
+      <a class="now" href="#">GUIDES</a>
+      <a href="#">TRAVEL</a>
+      <a href="#">FOOD</a>
+      <a href="#">BEAUTY</a>
+      <a href="#">CULTURE</a>
+      <a href="#">BUSINESS</a>
+    </nav>
+    <a class="menu-btn" href="#">MENU ☰</a>
+  </div>
+</header>
+
+<main class="wrap">
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="tagcard">
+      <div class="pad">
+        <span class="flash">PRICES CHECKED AUG 2026</span>
+        <h1>Breakfast in Korea<br><span class="price-line">costs ₩3,000</span></h1>
+        <div class="ko">삼각김밥 하나, 바나나맛우유 하나. 그게 전부다.</div>
+        <p>One triangle gimbap and one banana milk — that is the whole thing, and it is
+           what the people around you in the shop are actually buying.</p>
+        <div class="receipt">
+          <div class="row"><span>SAMGAK GIMBAP 삼각김밥</span><b>₩1,200</b></div>
+          <div class="row"><span>BANANA MILK 바나나맛우유</span><b>₩1,800</b></div>
+          <div class="row"><span>TOTAL — NO CARD MINIMUM</span><b>₩3,000</b></div>
+        </div>
+      </div>
+      <div class="tagfoot">
+        <span class="sum">EPICKOR.COM / CONVENIENCE-STORE</span>
+        <div class="barcode"></div>
+      </div>
+    </div>
+    <div class="heroimg">
+      <img src="../../../public/assets/images/posts/171/korean-convenience-store-breakfast.jpg" alt="">
+      <div class="cap"><span>SEOUL, MILK FRIDGE — REAL SHELF TAGS</span><b>₩1,800</b></div>
+    </div>
+  </section>
+
+  <!-- AISLE 1: products -->
+  <div class="aisle"><span class="no">A-1</span><h2>On the shelf now</h2>
+    <span class="rule"></span><a href="#">ALL PRODUCTS →</a></div>
+  <section class="grid">
+    <article class="prod">
+      <img src="../../../public/assets/images/posts/336/samgak-kimbap-1.jpg" alt="">
+      <div class="pad">
+        <div class="kick">THE ₩1,200 ONE</div>
+        <h3>삼각김밥</h3><div class="en">Samgak Gimbap</div>
+      </div>
+      <div class="pricebar"><span class="won">₩1,200–1,900</span><span class="note">PULL 1·2·3</span></div>
+    </article>
+    <article class="prod">
+      <img src="../../../public/assets/images/posts/345/yonsei-milk-cream-bread-cross-section.jpg" alt="">
+      <div class="pad">
+        <div class="kick">CU ONLY</div>
+        <h3>연세우유 크림빵</h3><div class="en">Yonsei Cream Bread</div>
+        <span class="flash">100 MILLION SOLD</span>
+      </div>
+      <div class="pricebar"><span class="won">₩2,600–3,000</span><span class="note">EAT FROZEN</span></div>
+    </article>
+    <article class="prod">
+      <img src="../../../public/assets/images/posts/346/ansungtangmyun-noodle-and-soup-powder.jpg" alt="">
+      <div class="pad">
+        <div class="kick">MILDEST ON THE SHELF</div>
+        <h3>안성탕면</h3><div class="en">Ansungtangmyun</div>
+      </div>
+      <div class="pricebar"><span class="won">₩1,000</span><span class="note">570 SHU</span></div>
+    </article>
+    <article class="prod">
+      <img src="../../../public/assets/images/posts/346/shin-ramyun-noodle-and-soup-powder.jpg" alt="">
+      <div class="pad">
+        <div class="kick">THE BENCHMARK</div>
+        <h3>신라면</h3><div class="en">Shin Ramyun</div>
+      </div>
+      <div class="pricebar"><span class="won">₩1,000</span><span class="note">3,400 SHU</span></div>
+    </article>
+  </section>
+
+  <!-- AISLE 2: guides -->
+  <div class="aisle"><span class="no">A-2</span><h2>The comparison guides</h2>
+    <span class="rule"></span><a href="#">ALL GUIDES →</a></div>
+  <section class="shelfrow">
+    <article class="shelf">
+      <img src="../../../public/assets/images/posts/355/ikseon-dong-hanok-alley.jpg" alt="">
+      <div class="pad">
+        <div class="kick">SEOUL BY NEIGHBOURHOOD</div>
+        <h3>Seoul is not one city</h3>
+        <p>Twelve neighbourhoods compared — character, station, and how long each
+           actually takes.</p>
+      </div>
+      <div class="foot"><span>12 AREAS</span><b>OPEN →</b></div>
+    </article>
+    <article class="shelf">
+      <img src="../../../public/assets/images/posts/059/convenience-store-lunchbox-01.jpg" alt="">
+      <div class="pad">
+        <div class="kick">KOREAN CONVENIENCE STORE</div>
+        <h3>What it costs right now</h3>
+        <p>CU vs GS25 vs 7-Eleven vs Emart24, with every price dated and sourced.</p>
+      </div>
+      <div class="foot"><span>14 GUIDES</span><b>OPEN →</b></div>
+    </article>
+    <article class="shelf">
+      <img src="../../../public/assets/images/posts/346/shin-ramyun-noodle-and-soup-powder.jpg" alt="">
+      <div class="pad">
+        <div class="kick">KOREAN RAMYUN</div>
+        <h3>Real heat numbers</h3>
+        <p>Every packet loses to one fresh cheongyang pepper — verified Scoville only.</p>
+      </div>
+      <div class="foot"><span>9 GUIDES</span><b>OPEN →</b></div>
+    </article>
+  </section>
+
+</main>
+
+<!-- ARTICLE SHEET -->
+<div class="sheetband">
+  <div class="wrap" style="padding-top:70px">
+    <article class="sheet">
+      <div class="head">
+        <div class="crumb">GUIDES / FOOD &amp; SHOPPING / KOREAN RAMYUN</div>
+        <h1>Ansungtangmyun vs Shin Ramyun: which one to buy first</h1>
+        <div class="chips">
+          <span class="tag red">PRICES AUG 2026</span>
+          <span class="tag">12 MIN READ</span>
+          <span class="tag yellow">HONEST COUNTER-PICK INSIDE</span>
+        </div>
+      </div>
+      <div class="body">
+        <p>They are not a mild and a spicy version of the same soup. Ansungtangmyun is
+           built on soybean paste (된장), Shin Ramyun on chili — and the powder colour
+           settles it before you boil water. A single bag of either runs about
+           <span class="won">₩1,000</span> at a convenience store.</p>
+        <table class="receipt">
+          <thead><tr><th>ITEM</th><th>BASE</th><th>HEAT</th><th style="text-align:right">PRICE</th></tr></thead>
+          <tbody>
+            <tr><td><span class="ko">안성탕면</span> ANSUNGTANGMYUN</td><td>SOYBEAN</td><td>570 SHU</td><td class="r">₩1,000</td></tr>
+            <tr><td><span class="ko">신라면</span> SHIN RAMYUN</td><td>CHILI</td><td>3,400 SHU</td><td class="r">₩1,000</td></tr>
+            <tr><td><span class="ko">불닭볶음면</span> BULDAK</td><td>NO BROTH</td><td>4,404 SHU</td><td class="r">₩1,300</td></tr>
+          </tbody>
+        </table>
+        <div class="ctabox">
+          <div>
+            <div class="t">BEFORE YOU FLY — AMAZON ASSOCIATE</div>
+            <div class="h">Compare ramyun variety packs</div>
+          </div>
+          <a href="#">COMPARE →</a>
+        </div>
+      </div>
+      <div class="barcode"></div>
+    </article>
+  </div>
+</div>
+
+<footer>
+  <div class="wrap">
+    <div class="fm">EPICKOR<span style="color:var(--red)">.COM</span></div>
+    <div class="fr">ⓒ 2026 EPICKOR — PRICES DATED, FACTS SOURCED.</div>
+  </div>
+</footer>
+
+</body>
+</html>
