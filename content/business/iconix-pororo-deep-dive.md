@@ -2,7 +2,7 @@
 title: "ICONIX and Pororo: How a Korean Studio Turned One Penguin Into a Licensing Company"
 slug: "iconix-pororo-deep-dive"
 date: "2026-08-03"
-visibility: "private"
+visibility: "public"
 publishAt: ""
 description: "ICONIX makes under 10 percent of its money from broadcasting Pororo and over 90 percent from licensing it. A public-information deep dive on the Korean character IP company behind Pororo, Tayo and Zanmang Loopy, and what its model shows overseas operators."
 ogImage: "/assets/images/business/iconix-pororo-deep-dive/tayo-liveried-bus-seoul.jpg"
