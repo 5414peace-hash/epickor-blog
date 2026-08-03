@@ -71,17 +71,19 @@ def parse_script(path):
         card = {
             'kicker': '', 'main': '', 'sub': '', 'image': '', 'image_label': '',
             'shu': '', 'shu_label': '', 'note': '', 'mode': 'scale',
+            'name_ko': '', 'name_en': '', 'fit': 'cover',
         }
         for line in block.splitlines():
             s = line.strip()
-            for key in ('kicker', 'image', 'image_label', 'shu', 'shu_label', 'note', 'mode'):
+            for key in ('kicker', 'image', 'image_label', 'shu', 'shu_label',
+                        'note', 'mode', 'name_ko', 'name_en', 'fit'):
                 if s.startswith(key + ':'):
                     card[key] = s.split(':', 1)[1].strip()
             if s.startswith('**Main:**'):
                 card['main'] = s.replace('**Main:**', '').strip()
             elif s.startswith('**Sub:**'):
                 card['sub'] = s.replace('**Sub:**', '').strip()
-        if card['main']:
+        if card['main'] or card['name_ko']:
             cards.append(card)
     return meta, cards
 
@@ -159,43 +161,38 @@ def heat_bar(shu, index, total):
 
 
 def right_column(card):
-    """Photograph, its caption, the sub-copy and the note, in one flow.
+    """The product panel.
 
-    The sub-copy lives here rather than under the number because a left column
-    of kicker + name + numeral only reaches about half the height on its own.
-    Putting the prose beside the picture it describes fills the right column to
-    the footer and leaves the numeral alone in its own column, which is what
-    the whole system is for.
-
-    The panel is near-square: every product here is shot as a flat-lay, and a
-    tall panel would crop the sachets off the plate — the sachet colour being
-    the argument the carousel is making.
+    Two fits, and the difference matters. A retail pack shot is `contain` on
+    white: cropping a packet to fill the frame cuts the brand mark off the very
+    thing the card is naming, and the packet is the evidence. A photograph is
+    `cover`: letterboxing one onto white reads as a mistake, not as product
+    photography. The script says which, per card.
     """
     if not card['image']:
         return ''
+    contain = card['fit'] == 'contain'
+    inner = ('max-width:100%;max-height:100%;object-fit:contain;'
+             if contain else 'width:100%;height:100%;object-fit:cover;')
     return f'''
-  <div style="position:absolute;left:568px;right:80px;top:126px;
-    height:{FOOTER_TOP - 166}px;z-index:16;display:flex;flex-direction:column;
-    gap:22px;">
-    <div style="height:432px;flex:none;border:4px solid {INK};overflow:hidden;
-      background:#DED8CE;box-shadow:14px 14px 0 rgba(22,20,18,0.10);">
-      <img src="{card['image']}" alt="{card['image_label']}"
-        style="width:100%;height:100%;object-fit:cover;display:block;">
-    </div>
-    <div style="margin-top:-8px;font-size:16px;font-weight:800;
-      letter-spacing:0.08em;color:{MUTE};text-transform:uppercase;
-      line-height:1.35;">{card['image_label']}</div>
-    <div style="font-size:25px;font-weight:650;color:{MUTE};
-      line-height:1.4;word-break:keep-all;">{esc(card['sub'])}</div>
-    {f"""<div style="margin-top:auto;padding-left:20px;border-left:5px solid {INK};
-      font-size:24px;font-weight:700;color:{INK};line-height:1.36;
-      word-break:keep-all;">{esc(card['note'])}</div>""" if card['note'] else ''}
-  </div>'''
+  <div style="position:absolute;left:580px;right:80px;top:126px;
+    height:604px;z-index:16;border:4px solid {INK};overflow:hidden;
+    background:{'#FFFFFF' if contain else '#DED8CE'};
+    box-shadow:14px 14px 0 rgba(22,20,18,0.10);
+    display:flex;align-items:center;justify-content:center;
+    padding:{'26px' if contain else '0'};">
+    <img src="{card['image']}" alt="{card['image_label']}"
+      style="{inner}display:block;">
+  </div>
+  <div style="position:absolute;left:580px;right:80px;top:752px;
+    z-index:16;font-size:16px;font-weight:800;letter-spacing:0.08em;
+    color:{MUTE};text-transform:uppercase;line-height:1.35;">
+    {card['image_label']}</div>'''
 
 
 def build(card, index, total):
-    kicker = f'''<div style="font-size:20px;font-weight:900;letter-spacing:0.2em;
-      color:{HEAT};margin-bottom:26px;">{card['kicker']}</div>''' if card['kicker'] else ''
+    kicker = f'''<div style="font-size:18px;font-weight:900;letter-spacing:0.18em;
+      color:{HEAT};margin-bottom:14px;">{card['kicker']}</div>''' if card['kicker'] else ''
 
     if card['mode'] == 'cover':
         # Card 01 doubles as the Instagram profile-grid thumbnail, so the hook
@@ -271,39 +268,65 @@ def build(card, index, total):
     <div style="font-size:12px;font-weight:900;letter-spacing:0.2em;">EPICKOR.COM</div>
   </div>'''
 
-    # Default: the scale card. The left column is split rather than centred —
-    # name at the top, level with the photograph; numeral at the foot, level
-    # with the note. Centring it left a visibly empty bottom-left quadrant
-    # while the right column ran the full height, and an off-balance card reads
-    # as unfinished however well the type is set.
+    # The product card, ordered as the representative specified on 2026-08-03:
+    # Korean name large at the top left, the romanised name under it (allowed
+    # to break over two lines rather than shrink to fit), then the heat figure
+    # large, then the prose. One column, read straight down — the earlier
+    # split-column version scattered the same information across the card and
+    # made the reader hunt for the number.
+    COL = 468
+
     shu_block = ''
     if card['shu']:
         text = shu_display(card['shu'])
-        # Sized off the digits themselves. A cap that suits 570 puts 13,200
-        # through the edge of the column and into the photograph.
-        size = max(96, min(168, int((456 - 78) / (len(text) * 0.58))))
+        size = max(96, min(158, int((COL - 78) / (len(text) * 0.58))))
         shu_block = f'''
-    <div style="display:flex;align-items:baseline;gap:12px;">
-      <div style="font-size:{size}px;font-weight:950;color:{HEAT};line-height:0.88;
+    <div style="display:flex;align-items:baseline;gap:12px;margin-top:26px;">
+      <div style="font-size:{size}px;font-weight:950;color:{HEAT};line-height:0.86;
         letter-spacing:-0.03em;">{text}</div>
-      <div style="font-size:30px;font-weight:900;color:{INK};">SHU</div>
+      <div style="font-size:29px;font-weight:900;color:{INK};">SHU</div>
     </div>'''
     elif card['shu_label']:
         shu_block = f'''
-    <div style="font-size:{fit_size(card['shu_label'], 456, 96)}px;font-weight:950;
-      color:{COOL};line-height:1.0;">{card['shu_label']}</div>'''
+    <div style="margin-top:26px;font-size:{fit_size(card['shu_label'], COL, 96)}px;
+      font-weight:950;color:{COOL};line-height:1.0;">{card['shu_label']}</div>'''
+
+    # Cards that name a product lead with the Korean; the two that make an
+    # argument rather than name a packet fall back to their headline in the
+    # same slot, so the set keeps one shape.
+    headline = card['name_ko'] or card['main']
+    name_ko = f'''
+    <div style="font-size:{fit_size(headline, COL, 86)}px;font-weight:950;
+      color:{INK};line-height:1.04;letter-spacing:-0.02em;">{esc(headline)}</div>
+    ''' if headline else ''
+
+    # The English name is allowed to run to two lines on an explicit break
+    # rather than shrink — ANSUNGTANGMYUN set small enough to fit on one line
+    # would be smaller than the body copy underneath it.
+    name_en = f'''
+    <div style="margin-top:10px;font-size:{fit_size(card['name_en'], COL, 46)}px;
+      font-weight:900;color:{MUTE};line-height:1.08;letter-spacing:0.02em;
+      text-transform:uppercase;">{esc(card['name_en'])}</div>
+    ''' if card['name_en'] else ''
+
+    note = f'''
+    <div style="margin-top:20px;padding-left:18px;border-left:5px solid {INK};
+      font-size:23px;font-weight:700;color:{INK};line-height:1.34;
+      word-break:keep-all;">{esc(card['note'])}</div>''' if card['note'] else ''
 
     return f'''
   <div style="position:absolute;inset:0;background:{PAPER};"></div>
   {right_column(card)}
-  <div style="position:absolute;left:80px;width:456px;top:126px;height:{FOOTER_TOP - 166}px;
-    z-index:20;display:flex;flex-direction:column;justify-content:space-between;">
-    <div>
-      {kicker}
-      <div style="font-size:{fit_size(card['main'], 456, 60)}px;font-weight:950;
-        color:{INK};line-height:1.06;letter-spacing:-0.01em;">{esc(card['main'])}</div>
-    </div>
-    <div>{shu_block}</div>
+  <div style="position:absolute;left:80px;width:{COL}px;top:126px;
+    height:{FOOTER_TOP - 166}px;z-index:20;display:flex;flex-direction:column;
+    justify-content:center;">
+    {kicker}
+    {name_ko}
+    {name_en}
+    {shu_block}
+    <div style="margin-top:26px;font-size:24px;font-weight:650;color:{MUTE};
+      line-height:1.4;word-break:keep-all;">{esc(card['sub'])}</div>
+    {note}
   </div>
   {heat_bar(card['shu'], index, total)}
   {watermark()}'''
