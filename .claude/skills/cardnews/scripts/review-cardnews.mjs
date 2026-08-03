@@ -47,7 +47,8 @@ const cards = blocks.map((block) => {
   const imageLabel = (block.match(/^image_label:[ \t]*(.*)$/m) || [])[1]?.trim() || '';
   const nameKo = (block.match(/^name_ko:[ \t]*(.*)$/m) || [])[1]?.trim() || '';
   const nameEn = (block.match(/^name_en:[ \t]*(.*)$/m) || [])[1]?.trim() || '';
-  return { number, image, imageLabel, nameKo, nameEn };
+  const subjectNote = (block.match(/^subject_note:[ \t]*(.*)$/m) || [])[1]?.trim() || '';
+  return { number, image, imageLabel, nameKo, nameEn, subjectNote };
 });
 
 /**
@@ -68,6 +69,38 @@ function normalise(text) {
   return text.toLowerCase().replace(/\\n/g, ' ').replace(/[^a-z0-9가-힣]+/g, '');
 }
 
+/**
+ * Matched on tokens, not as one contiguous string.
+ *
+ * The first cut compared the whole name against the label as a substring and
+ * failed BANANA MILK against "Binggrae banana flavoured milk in its jar-shaped
+ * bottle" — every word present, one adjective in between. A gate that cries
+ * wolf on a correct card is worse than no gate, because the next person learns
+ * to skip the output. Requiring every token of the name to appear somewhere in
+ * the label still fails the case this exists for: CHAPAGHETTI against a label
+ * about seafood ramyeon shares no token at all.
+ */
+/**
+ * Korean administrative suffixes, dropped before matching.
+ *
+ * MULLAE-DONG against "…working steel workshops in Mullae" was the second
+ * false failure this gate produced. -dong is the ward suffix, not part of the
+ * place name, and a photograph captioned with the bare name is still a
+ * photograph of the right place. Same for -gu, -ro and -gil.
+ */
+const PLACE_SUFFIXES = new Set(['dong', 'gu', 'gun', 'ro', 'gil', 'si', 'eup', 'myeon']);
+
+function nameIsInLabel(name, label) {
+  const flat = normalise(label);
+  const tokens = name
+    .replace(/\\n/g, ' ')
+    .split(/[\s/·,\-–—]+/)
+    .map((t) => normalise(t))
+    .filter((t) => t.length >= 3 && !PLACE_SUFFIXES.has(t));
+  if (!tokens.length) return false;
+  return tokens.every((t) => flat.includes(t));
+}
+
 const failures = [];
 const warnings = [];
 
@@ -81,10 +114,17 @@ for (const card of cards) {
     warnings.push(`Card ${card.number}: image has no image_label, so its subject cannot be checked.`);
     continue;
   }
-  const label = normalise(card.imageLabel);
   const names = [card.nameKo, card.nameEn].filter(Boolean);
   if (!names.length) continue;
-  const matched = names.some((n) => label.includes(normalise(n)));
+  const matched = names.some((n) => nameIsInLabel(n, card.imageLabel));
+  if (!matched && card.subjectNote) {
+    // A card can head a concept rather than a product — an end-of-day markdown
+    // card legitimately shows the food that gets marked down. The exemption is
+    // a warning rather than a silent pass, so the reason is restated on every
+    // single run instead of being written once and forgotten.
+    warnings.push(`Card ${card.number}: subject exemption claimed — "${card.subjectNote}". Confirm by eye.`);
+    continue;
+  }
   if (!matched) {
     failures.push(
       `Card ${card.number}: names "${[card.nameKo, card.nameEn].filter(Boolean).join(' / ').replace(/\\n/g, ' ')}" ` +
