@@ -118,17 +118,21 @@ FOOTER_TOP = 928
 def fit_size(text, column_px, cap, factor=0.76):
     """Shrink a display line until its longest word fits the column.
 
-    Measuring the longest *word* rather than the whole line is what matters: a
-    line can wrap, a word cannot, and it is the unwrappable word that punches
-    through the column edge into whatever sits beside it. ANSUNGTANGMYUN is the
-    worst case in this batch and is why the factor is measured rather than
-    guessed — at 0.615 it still crossed into the photograph, because black-
-    weight caps in this face run about 0.75em wide, not 0.6em.
+    Hangul is measured separately. Latin caps in this face run about 0.76em
+    wide; Hangul syllables are full-width, near 1.0em. Measuring 연세우유 with
+    the Latin factor said it was 25% narrower than it is, so the line was set
+    too large to fit and the browser wrapped it — anywhere it liked, which put
+    the break inside 크림빵. Sizing it correctly, together with keep-all below,
+    means the break lands at the space: 연세우유 / 크림빵.
     """
     words = [w for w in re.split(r'\s+|<br>', esc(text).replace('<br>', ' ')) if w]
-    longest = max((len(w) for w in words), default=1)
-    return max(30, min(cap, int(column_px / (longest * factor))))
-
+    if not words:
+        return cap
+    def width(word):
+        han = sum(1 for c in word if '\uac00' <= c <= '\ud7a3')
+        return han * 1.02 + (len(word) - han) * factor
+    widest = max(width(w) for w in words) or 1
+    return max(28, min(cap, int(column_px / widest)))
 
 def heat_bar(shu, index, total):
     """The scale, carried in a dark footer band across the foot of every card.
@@ -297,7 +301,8 @@ def build(card, index, total):
     headline = card['name_ko'] or card['main']
     name_ko = f'''
     <div style="font-size:{fit_size(headline, COL, 86)}px;font-weight:950;
-      color:{INK};line-height:1.04;letter-spacing:-0.02em;">{esc(headline)}</div>
+      color:{INK};line-height:1.04;letter-spacing:-0.02em;
+      word-break:keep-all;">{esc(headline)}</div>
     ''' if headline else ''
 
     # The English name is allowed to run to two lines on an explicit break
@@ -306,7 +311,7 @@ def build(card, index, total):
     name_en = f'''
     <div style="margin-top:10px;font-size:{fit_size(card['name_en'], COL, 46)}px;
       font-weight:900;color:{MUTE};line-height:1.08;letter-spacing:0.02em;
-      text-transform:uppercase;">{esc(card['name_en'])}</div>
+      text-transform:uppercase;word-break:keep-all;">{esc(card['name_en'])}</div>
     ''' if card['name_en'] else ''
 
     note = f'''

@@ -84,13 +84,23 @@ def esc(text):
 
 
 def fit_size(text, column_px, cap, factor=0.76):
-    """Same measured factor as the Heat Scale renderer, for the same reason:
-    a fixed display size silently pushes a long word into whatever sits beside
-    it, and that only shows up in the PNG."""
-    words = [w for w in re.split(r'\s+|<br>', esc(text).replace('<br>', ' ')) if w]
-    longest = max((len(w) for w in words), default=1)
-    return max(28, min(cap, int(column_px / (longest * factor))))
+    """Shrink a display line until its longest word fits the column.
 
+    Hangul is measured separately. Latin caps in this face run about 0.76em
+    wide; Hangul syllables are full-width, near 1.0em. Measuring 연세우유 with
+    the Latin factor said it was 25% narrower than it is, so the line was set
+    too large to fit and the browser wrapped it — anywhere it liked, which put
+    the break inside 크림빵. Sizing it correctly, together with keep-all below,
+    means the break lands at the space: 연세우유 / 크림빵.
+    """
+    words = [w for w in re.split(r'\s+|<br>', esc(text).replace('<br>', ' ')) if w]
+    if not words:
+        return cap
+    def width(word):
+        han = sum(1 for c in word if '\uac00' <= c <= '\ud7a3')
+        return han * 1.02 + (len(word) - han) * factor
+    widest = max(width(w) for w in words) or 1
+    return max(28, min(cap, int(column_px / widest)))
 
 def barcode(seed):
     """A barcode strip, drawn rather than imported.
@@ -220,14 +230,18 @@ def build(card, index, total, checked):
       color:{PRICE};margin-bottom:12px;">{card['kicker']}</div>''' if card['kicker'] else ''
 
     headline = card['name_ko'] or card.get('main', '')
+    # keep-all, or the browser breaks Hangul between any two syllables and
+    # 연세우유 크림빵 comes out as 연세우유 크 / 림빵. With it the break can only
+    # land on the space: 연세우유 / 크림빵.
     name_ko = f'''
     <div style="font-size:{fit_size(headline, COL, 82)}px;font-weight:950;color:{INK};
-      line-height:1.05;letter-spacing:-0.02em;">{esc(headline)}</div>''' if headline else ''
+      line-height:1.05;letter-spacing:-0.02em;word-break:keep-all;">
+      {esc(headline)}</div>''' if headline else ''
 
     name_en = f'''
     <div style="margin-top:10px;font-size:{fit_size(card['name_en'], COL, 44)}px;
       font-weight:900;color:{MUTE};line-height:1.08;letter-spacing:0.02em;
-      text-transform:uppercase;">{esc(card['name_en'])}</div>''' if card['name_en'] else ''
+      text-transform:uppercase;word-break:keep-all;">{esc(card['name_en'])}</div>''' if card['name_en'] else ''
 
     # The price is monospaced and tabular. It is a till figure, not a headline
     # numeral, and setting it in the display face would make this batch look

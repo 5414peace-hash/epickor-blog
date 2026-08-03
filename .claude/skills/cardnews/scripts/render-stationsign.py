@@ -94,10 +94,23 @@ def esc(text):
 
 
 def fit_size(text, column_px, cap, factor=0.76):
-    words = [w for w in re.split(r'\s+|<br>', esc(text).replace('<br>', ' ')) if w]
-    longest = max((len(w) for w in words), default=1)
-    return max(28, min(cap, int(column_px / (longest * factor))))
+    """Shrink a display line until its longest word fits the column.
 
+    Hangul is measured separately. Latin caps in this face run about 0.76em
+    wide; Hangul syllables are full-width, near 1.0em. Measuring 연세우유 with
+    the Latin factor said it was 25% narrower than it is, so the line was set
+    too large to fit and the browser wrapped it — anywhere it liked, which put
+    the break inside 크림빵. Sizing it correctly, together with keep-all below,
+    means the break lands at the space: 연세우유 / 크림빵.
+    """
+    words = [w for w in re.split(r'\s+|<br>', esc(text).replace('<br>', ' ')) if w]
+    if not words:
+        return cap
+    def width(word):
+        han = sum(1 for c in word if '\uac00' <= c <= '\ud7a3')
+        return han * 1.02 + (len(word) - han) * factor
+    widest = max(width(w) for w in words) or 1
+    return max(28, min(cap, int(column_px / widest)))
 
 def roundels(spec, size=64):
     """The line-numbered discs from the platform sign.
@@ -233,10 +246,11 @@ def build(card, index, total):
     display:flex;flex-direction:column;justify-content:center;">
     <div style="margin-bottom:20px;">{roundels(card['lines'])}</div>
     <div style="font-size:{fit_size(card['name_ko'], COL, 86)}px;font-weight:950;
-      color:{TEXT};line-height:1.05;letter-spacing:-0.02em;">{esc(card['name_ko'])}</div>
+      color:{TEXT};line-height:1.05;letter-spacing:-0.02em;
+      word-break:keep-all;">{esc(card['name_ko'])}</div>
     <div style="margin-top:10px;font-size:{fit_size(card['name_en'], COL, 44)}px;
       font-weight:900;color:{MUTE};line-height:1.08;letter-spacing:0.04em;
-      text-transform:uppercase;">{esc(card['name_en'])}</div>
+      text-transform:uppercase;word-break:keep-all;">{esc(card['name_en'])}</div>
     {time_block}
     <div style="margin-top:22px;font-size:23px;font-weight:650;color:{MUTE};
       line-height:1.42;word-break:keep-all;">{esc(card['sub'])}</div>
