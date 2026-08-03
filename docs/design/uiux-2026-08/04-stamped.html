@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>EpicKor — Design D: Stamped</title>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;700;900&family=Caveat:wght@600;700&family=Nanum+Pen+Script&family=IBM+Plex+Mono:wght@500;600&display=swap" rel="stylesheet">
+<style>
+  /* ============================================================
+     DESIGN D — STAMPED (검증 스탬프 수첩)
+     A field notebook that has actually been to Korea: graph-paper
+     ground, taped-down photos, red-pen annotations — and the
+     verification identity as a literal RUBBER STAMP. Korea runs
+     on seals (도장); so does this site's proof.
+     ============================================================ */
+  :root{
+    --paper:#FBFAF6;
+    --grid:rgba(64,110,142,.10);
+    --ink:#22303C;            /* blue-black pen */
+    --mute:#6F7A83;
+    --stamp:#D63426;          /* rubber-stamp red */
+    --hl:#FFF3B8;             /* highlighter */
+    --tape:rgba(255,224,130,.55);
+    --sans:"Inter",sans-serif;
+    --hand:"Caveat","Nanum Pen Script",cursive;
+    --mono:"IBM Plex Mono",monospace;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{background:var(--paper);color:var(--ink);font-family:var(--sans);font-size:16px;
+       line-height:1.6;-webkit-font-smoothing:antialiased;
+       background-image:
+         linear-gradient(var(--grid) 1px,transparent 1px),
+         linear-gradient(90deg,var(--grid) 1px,transparent 1px);
+       background-size:26px 26px}
+  img{display:block;max-width:100%}
+  a{color:inherit;text-decoration:none}
+  .wrap{max-width:1160px;margin:0 auto;padding:0 28px}
+
+  .stamp{display:inline-block;border:3px double var(--stamp);color:var(--stamp);
+       font-family:var(--mono);font-weight:600;font-size:11px;letter-spacing:.16em;
+       padding:7px 13px;transform:rotate(-4deg);border-radius:4px;
+       mix-blend-mode:multiply;background:rgba(214,52,38,.03)}
+  .stamp.straight{transform:rotate(2deg)}
+  .hand{font-family:var(--hand);font-size:22px;color:var(--stamp);font-weight:700}
+  .hl{background:linear-gradient(180deg,transparent 45%,var(--hl) 45% 88%,transparent 88%)}
+  .tape{position:absolute;width:110px;height:30px;background:var(--tape);
+       top:-14px;left:50%;transform:translateX(-50%) rotate(-2deg);
+       box-shadow:0 1px 2px rgba(0,0,0,.06)}
+
+  header{background:rgba(251,250,246,.94);backdrop-filter:blur(6px);
+       border-bottom:2px solid var(--ink);position:sticky;top:0;z-index:50}
+  header .wrap{display:flex;align-items:center;justify-content:space-between;height:76px}
+  .wordmark{font-weight:900;font-size:28px;letter-spacing:-.02em}
+  .wordmark .dot{color:var(--stamp)}
+  .wordmark small{display:block;font-family:var(--hand);font-size:16px;color:var(--mute);
+       font-weight:600;margin-top:-2px}
+  nav.main{display:flex;gap:22px;font-size:13.5px;font-weight:700}
+  nav.main a{padding-bottom:3px;border-bottom:2px dashed transparent}
+  nav.main a:hover{border-bottom-color:var(--stamp);color:var(--stamp)}
+
+  .hero{display:grid;grid-template-columns:1.05fr .95fr;gap:52px;padding:56px 0 30px;
+       align-items:center}
+  .kick{font-family:var(--mono);font-size:11px;font-weight:600;letter-spacing:.2em;
+       color:var(--mute)}
+  .hero h1{font-weight:900;font-size:46px;line-height:1.06;letter-spacing:-.02em;
+       margin-top:14px}
+  .hero .note{margin-top:10px}
+  .hero p.dek{margin-top:14px;color:#46525C;font-size:16.5px;max-width:50ch}
+  .hero .stamps{display:flex;gap:16px;margin-top:26px;align-items:center;flex-wrap:wrap}
+  .polaroid{position:relative;background:#fff;padding:14px 14px 48px;
+       box-shadow:0 10px 26px rgba(34,48,60,.16);transform:rotate(2.2deg)}
+  .polaroid img{aspect-ratio:4/3.4;object-fit:cover;width:100%}
+  .polaroid .cap{position:absolute;left:0;right:0;bottom:12px;text-align:center;
+       font-family:var(--hand);font-size:21px;color:#3A4650}
+
+  .secthead{display:flex;align-items:baseline;gap:14px;margin:54px 0 8px}
+  .secthead h2{font-weight:900;font-size:24px;letter-spacing:-.01em}
+  .secthead .hand{font-size:20px}
+  .secthead .rule{flex:1;border-top:2px dashed rgba(34,48,60,.25)}
+
+  .cards{display:grid;grid-template-columns:repeat(3,1fr);gap:34px;padding:22px 0 8px}
+  .fieldcard{position:relative;background:#fff;border:1px solid rgba(34,48,60,.14);
+       box-shadow:0 8px 22px rgba(34,48,60,.10);padding:14px 14px 18px}
+  .fieldcard:nth-child(2){transform:rotate(-1.1deg)}
+  .fieldcard:nth-child(3){transform:rotate(.9deg)}
+  .fieldcard img{aspect-ratio:16/10;object-fit:cover;width:100%}
+  .fieldcard h3{font-weight:900;font-size:19px;margin-top:14px;line-height:1.25}
+  .fieldcard h3:hover{color:var(--stamp)}
+  .fieldcard .ko{font-family:var(--hand);font-size:20px;color:var(--mute);margin-top:2px}
+  .fieldcard .foot{display:flex;justify-content:space-between;align-items:center;
+       margin-top:14px;border-top:1px dashed rgba(34,48,60,.25);padding-top:12px}
+  .fieldcard .m{font-family:var(--mono);font-size:10.5px;letter-spacing:.12em;color:var(--mute)}
+  .fieldcard .stamp{font-size:9.5px;padding:5px 9px}
+
+  .article{max-width:760px;margin:64px auto 0;background:#fff;
+       border:1px solid rgba(34,48,60,.14);box-shadow:0 14px 40px rgba(34,48,60,.12);
+       position:relative;padding:52px 56px 46px}
+  .article .tape{width:150px}
+  .article .crumb{font-family:var(--mono);font-size:10.5px;letter-spacing:.16em;color:var(--mute)}
+  .article h1{font-weight:900;font-size:34px;line-height:1.12;margin-top:14px;
+       letter-spacing:-.015em}
+  .article .stamps{display:flex;gap:14px;align-items:center;margin:20px 0 4px;flex-wrap:wrap}
+  .article p.body{margin-top:18px;font-size:16.5px;line-height:1.8;color:#333F49}
+  .article p.body .won{font-family:var(--mono);font-weight:600;color:var(--stamp)}
+  .article .annotate{font-family:var(--hand);color:var(--stamp);font-size:21px;
+       margin-top:6px}
+  table.notes{width:100%;border-collapse:collapse;margin-top:26px;font-size:14.5px}
+  table.notes th{font-family:var(--mono);font-size:10.5px;letter-spacing:.14em;text-align:left;
+       color:var(--mute);border-bottom:2px solid var(--ink);padding:9px 10px}
+  table.notes td{border-bottom:1px dashed rgba(34,48,60,.28);padding:12px 10px}
+  table.notes td.name{font-weight:700}
+  table.notes td.name span{font-family:var(--hand);font-weight:400;font-size:18px;
+       color:var(--mute);margin-left:8px}
+  table.notes td.r{font-family:var(--mono);color:var(--stamp);font-weight:600}
+  .cta{margin-top:30px;border:2px solid var(--ink);padding:18px 22px;display:flex;
+       justify-content:space-between;align-items:center;gap:18px;background:var(--paper)}
+  .cta .t{font-family:var(--mono);font-size:10px;letter-spacing:.18em;color:var(--mute)}
+  .cta .h{font-weight:900;font-size:17px;margin-top:5px}
+  .cta a{background:var(--stamp);color:#fff;font-weight:900;font-size:13px;
+       padding:13px 20px;flex-shrink:0;transform:rotate(-1.2deg)}
+
+  footer{margin-top:70px;border-top:2px solid var(--ink)}
+  footer .wrap{display:flex;justify-content:space-between;align-items:center;height:86px}
+  footer .fm{font-weight:900;font-size:20px}
+  footer .fr{font-family:var(--hand);font-size:19px;color:var(--mute)}
+
+  @media (max-width:880px){
+    .wrap{padding:0 18px}
+    nav.main{display:none}
+    .menu-btn{display:inline-flex!important}
+    .hero{grid-template-columns:1fr;gap:34px;padding-top:30px}
+    .hero h1{font-size:34px}
+    .polaroid{transform:rotate(1.2deg);max-width:420px}
+    .cards{grid-template-columns:1fr;gap:26px}
+    .fieldcard:nth-child(2),.fieldcard:nth-child(3){transform:none}
+    .article{padding:38px 22px 34px;margin-top:44px}
+    .article h1{font-size:27px}
+    .cta{flex-direction:column;align-items:flex-start}
+  }
+  .menu-btn{display:none;font-family:var(--mono);font-size:11px;letter-spacing:.16em;
+       border:2px solid var(--ink);padding:8px 13px}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap">
+    <a class="wordmark" href="#">EpicKor<span class="dot">.</span>
+      <small>korea, checked in person ✓</small></a>
+    <nav class="main">
+      <a href="#">Guides</a><a href="#">Travel</a><a href="#">Food &amp; Shopping</a>
+      <a href="#">Beauty</a><a href="#">Culture</a><a href="#">Business</a>
+    </nav>
+    <a class="menu-btn" href="#">MENU ☰</a>
+  </div>
+</header>
+
+<main class="wrap">
+
+  <section class="hero">
+    <div>
+      <div class="kick">FIELD NOTES — FOOD &amp; SHOPPING</div>
+      <h1>Ansungtangmyun vs Shin Ramyun: <span class="hl">which packet first</span></h1>
+      <div class="note hand">둘은 다른 요리다 — 수프 색부터 봐!</div>
+      <p class="dek">Not a mild and a spicy version of the same soup. One is soybean paste,
+        one is chili — the powder colour settles it before the water boils.</p>
+      <div class="stamps">
+        <span class="stamp">✓ PRICES CHECKED · AUG 2026</span>
+        <span class="stamp straight">SOURCED IN KOREAN</span>
+      </div>
+    </div>
+    <figure class="polaroid">
+      <span class="tape"></span>
+      <img src="../../../public/assets/images/posts/346/ansungtangmyun-noodle-and-soup-powder.jpg" alt="">
+      <div class="cap">안성탕면 — the powder is BROWN, not red</div>
+    </figure>
+  </section>
+
+  <div class="secthead"><h2>Checked this month</h2>
+    <span class="hand">전부 직접 확인함</span><span class="rule"></span></div>
+  <section class="cards">
+    <article class="fieldcard">
+      <img src="../../../public/assets/images/posts/336/samgak-kimbap-1.jpg" alt="">
+      <h3><a href="#">Samgak gimbap: the tabs are numbered, and the order matters</a></h3>
+      <div class="ko">삼각김밥 — 1·2·3 순서!</div>
+      <div class="foot"><span class="m">₩1,200–1,900</span><span class="stamp">VERIFIED</span></div>
+    </article>
+    <article class="fieldcard">
+      <img src="../../../public/assets/images/posts/171/korean-convenience-store-breakfast.jpg" alt="">
+      <h3><a href="#">Breakfast in Korea costs ₩3,000, and here is the receipt</a></h3>
+      <div class="ko">편의점 아침 — 진짜 가격표</div>
+      <div class="foot"><span class="m">SEOUL, MAPO-GU</span><span class="stamp">AUG 2026</span></div>
+    </article>
+    <article class="fieldcard">
+      <img src="../../../public/assets/images/posts/355/ikseon-dong-hanok-alley.jpg" alt="">
+      <h3><a href="#">Ikseon-dong was mass-produced in the 1920s. That is why it survived</a></h3>
+      <div class="ko">익선동 — 아침에 갈 것</div>
+      <div class="foot"><span class="m">1–2 HOURS</span><span class="stamp">WALKED IT</span></div>
+    </article>
+  </section>
+
+  <article class="article">
+    <span class="tape"></span>
+    <div class="crumb">GUIDES / FOOD &amp; SHOPPING / KOREAN RAMYUN</div>
+    <h1>Ansungtangmyun vs Shin Ramyun: which Korean ramyun to buy first</h1>
+    <div class="stamps">
+      <span class="stamp">✓ LAST UPDATED AUG 2026</span>
+      <span class="stamp straight">12 MIN READ</span>
+    </div>
+    <p class="body">At a convenience store a single bag of either runs about
+      <span class="won">₩1,000</span>; five-packs at E-Mart cost markedly less per serving.
+      The real difference is the base: Ansungtangmyun is soybean paste (된장),
+      Shin Ramyun is chili.</p>
+    <div class="annotate">→ 매운 게 무서우면 안성탕면부터. 570 SHU밖에 안 됨</div>
+    <table class="notes">
+      <thead><tr><th>NOODLE</th><th>BASE</th><th>HEAT</th><th>PRICE</th></tr></thead>
+      <tbody>
+        <tr><td class="name">Ansungtangmyun<span>안성탕면</span></td><td>Soybean paste</td>
+            <td>570 SHU</td><td class="r">₩1,000</td></tr>
+        <tr><td class="name">Shin Ramyun<span>신라면</span></td><td>Chili</td>
+            <td>3,400 SHU</td><td class="r">₩1,000</td></tr>
+        <tr><td class="name">Buldak<span>불닭볶음면</span></td><td>No broth</td>
+            <td>4,404 SHU</td><td class="r">₩1,300</td></tr>
+      </tbody>
+    </table>
+    <div class="cta">
+      <div>
+        <div class="t">BEFORE YOU FLY — AMAZON ASSOCIATE</div>
+        <div class="h">Compare Korean ramyun variety packs</div>
+      </div>
+      <a href="#">COMPARE →</a>
+    </div>
+  </article>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="fm">EpicKor<span style="color:var(--stamp)">.</span></div>
+    <div class="fr">ⓒ 2026 — 전부 한국에서, 한국어로 확인했습니다 ✓</div>
+  </div>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>EpicKor — Design E: The Archive</title>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,600;9..144,900&family=Inter:wght@400;500;700&family=IBM+Plex+Mono:wght@400;500&family=Noto+Serif+KR:wght@400;700&display=swap" rel="stylesheet">
+<style>
+  /* ============================================================
+     DESIGN E — THE ARCHIVE (박물관 도록)
+     Every item is a catalogued specimen. Museum-label typography,
+     generous negative space, accession numbers, hairline frames.
+     The site stops looking like a blog and starts looking like a
+     collection that has been curated — which is literally what
+     313 verified posts are.
+     ============================================================ */
+  :root{
+    --paper:#F4F1EC;          /* gallery wall  */
+    --card:#FCFBF9;
+    --ink:#1A1917;
+    --mute:#8A8478;
+    --line:#D9D3C7;
+    --accent:#7A2E22;         /* celadon-era oxide red, muted */
+    --serif:"Fraunces","Noto Serif KR",serif;
+    --sans:"Inter",sans-serif;
+    --mono:"IBM Plex Mono",monospace;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{background:var(--paper);color:var(--ink);font-family:var(--sans);font-size:16px;
+       line-height:1.7;-webkit-font-smoothing:antialiased}
+  img{display:block;max-width:100%}
+  a{color:inherit;text-decoration:none}
+  .wrap{max-width:1140px;margin:0 auto;padding:0 34px}
+
+  /* museum label */
+  .label{font-family:var(--mono);font-size:10.5px;letter-spacing:.2em;color:var(--mute);
+       text-transform:uppercase}
+  .acc{font-family:var(--mono);font-size:10.5px;letter-spacing:.14em;color:var(--accent)}
+
+  header{border-bottom:1px solid var(--line);background:var(--paper);
+       position:sticky;top:0;z-index:50}
+  header .wrap{display:flex;align-items:center;justify-content:space-between;height:92px}
+  .wordmark{font-family:var(--serif);font-weight:300;font-size:32px;letter-spacing:.02em;
+       font-variation-settings:'opsz' 96}
+  .wordmark b{font-weight:900}
+  .wordmark small{display:block;font-family:var(--mono);font-size:9px;letter-spacing:.34em;
+       color:var(--mute);margin-top:6px}
+  nav.main{display:flex;gap:30px;font-size:12.5px;letter-spacing:.06em;font-weight:500;
+       text-transform:uppercase}
+  nav.main a{color:var(--mute);padding-bottom:2px;border-bottom:1px solid transparent}
+  nav.main a:hover{color:var(--ink);border-bottom-color:var(--accent)}
+
+  /* gallery intro */
+  .intro{padding:84px 0 62px;border-bottom:1px solid var(--line);
+       display:grid;grid-template-columns:1fr 1fr;gap:70px;align-items:end}
+  .intro h1{font-family:var(--serif);font-weight:300;font-size:54px;line-height:1.08;
+       letter-spacing:-.02em;font-variation-settings:'opsz' 144}
+  .intro h1 em{font-style:normal;font-weight:900}
+  .intro .ko{font-family:"Noto Serif KR",serif;font-size:15px;color:var(--mute);margin-top:18px}
+  .intro .r{border-left:1px solid var(--line);padding-left:34px}
+  .intro .r p{font-size:15.5px;color:#4B4741;max-width:44ch}
+  .intro .r .stats{display:flex;gap:34px;margin-top:26px}
+  .intro .r .stats div .n{font-family:var(--serif);font-weight:900;font-size:34px;
+       line-height:1}
+  .intro .r .stats div .t{margin-top:4px}
+
+  /* specimen: the signature */
+  .plinth{padding:66px 0 20px}
+  .specimen{display:grid;grid-template-columns:1.15fr .85fr;gap:60px;align-items:center}
+  .frame{border:1px solid var(--line);background:var(--card);padding:26px}
+  .frame img{width:100%;aspect-ratio:4/3;object-fit:cover}
+  .cardlabel{border-left:2px solid var(--accent);padding-left:22px}
+  .cardlabel .acc{display:block;margin-bottom:14px}
+  .cardlabel h2{font-family:var(--serif);font-weight:900;font-size:34px;line-height:1.12;
+       letter-spacing:-.015em}
+  .cardlabel .sub{font-family:"Noto Serif KR",serif;font-size:16px;color:var(--mute);
+       margin-top:8px}
+  .cardlabel p{margin-top:18px;font-size:15.5px;color:#4B4741;max-width:44ch}
+  .spec{margin-top:26px;border-top:1px solid var(--line)}
+  .spec div{display:grid;grid-template-columns:118px 1fr;gap:16px;padding:11px 0;
+       border-bottom:1px solid var(--line);font-size:14px}
+  .spec div b{font-family:var(--mono);font-size:10.5px;letter-spacing:.14em;color:var(--mute);
+       font-weight:500;text-transform:uppercase;padding-top:3px}
+  .spec .val{font-family:var(--mono);color:var(--accent);font-weight:500}
+
+  /* collection grid */
+  .colhead{display:flex;justify-content:space-between;align-items:baseline;
+       margin:96px 0 30px;padding-bottom:14px;border-bottom:1px solid var(--ink)}
+  .colhead h2{font-family:var(--serif);font-weight:300;font-size:30px;letter-spacing:-.01em}
+  .colhead h2 em{font-style:normal;font-weight:900}
+  .collection{display:grid;grid-template-columns:repeat(3,1fr);gap:52px 42px}
+  .item .fr{border:1px solid var(--line);background:var(--card);padding:16px}
+  .item .fr img{width:100%;aspect-ratio:1/1;object-fit:cover}
+  .item .acc{display:block;margin-top:16px}
+  .item h3{font-family:var(--serif);font-weight:600;font-size:21px;line-height:1.22;
+       margin-top:8px;letter-spacing:-.005em}
+  .item h3:hover{color:var(--accent)}
+  .item .ko{font-family:"Noto Serif KR",serif;font-size:13.5px;color:var(--mute);margin-top:4px}
+  .item .meta{margin-top:12px;padding-top:11px;border-top:1px solid var(--line);
+       display:flex;justify-content:space-between}
+
+  /* reading room */
+  .room{margin-top:110px;background:var(--card);border-top:1px solid var(--line);
+       border-bottom:1px solid var(--line)}
+  .article{max-width:680px;margin:0 auto;padding:78px 34px 84px}
+  .article .acc{display:block;margin-bottom:20px}
+  .article h1{font-family:var(--serif);font-weight:900;font-size:40px;line-height:1.12;
+       letter-spacing:-.02em;text-wrap:balance}
+  .article .ko{font-family:"Noto Serif KR",serif;font-size:15px;color:var(--mute);margin-top:12px}
+  .article .rail{display:flex;gap:26px;margin:26px 0 0;padding:14px 0;
+       border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+  .article .rail div .t{font-family:var(--mono);font-size:9.5px;letter-spacing:.16em;
+       color:var(--mute);text-transform:uppercase}
+  .article .rail div .v{font-size:14px;font-weight:500;margin-top:3px}
+  .article p{margin-top:22px;font-size:17px;line-height:1.85;color:#33302B}
+  .article p:first-of-type::first-letter{font-family:var(--serif);font-weight:900;
+       font-size:62px;float:left;line-height:.86;margin:6px 12px 0 0;color:var(--accent)}
+  .article .won{font-family:var(--mono);font-weight:500;color:var(--accent)}
+  table.cat{width:100%;border-collapse:collapse;margin-top:34px;font-size:14.5px}
+  table.cat caption{caption-side:top;text-align:left;font-family:var(--mono);font-size:10px;
+       letter-spacing:.2em;color:var(--mute);padding-bottom:12px;text-transform:uppercase}
+  table.cat th{text-align:left;font-family:var(--mono);font-size:10px;letter-spacing:.14em;
+       color:var(--mute);border-bottom:1px solid var(--ink);padding:10px 12px;
+       text-transform:uppercase;font-weight:500}
+  table.cat td{border-bottom:1px solid var(--line);padding:14px 12px;vertical-align:top}
+  table.cat td.name{font-family:var(--serif);font-weight:600;font-size:16px}
+  table.cat td.name span{display:block;font-family:"Noto Serif KR",serif;font-weight:400;
+       font-size:12.5px;color:var(--mute)}
+  table.cat td.r{font-family:var(--mono);color:var(--accent);font-weight:500}
+  .cta{margin-top:38px;border:1px solid var(--ink);padding:24px 26px}
+  .cta .t{font-family:var(--mono);font-size:9.5px;letter-spacing:.2em;color:var(--mute);
+       text-transform:uppercase}
+  .cta .h{font-family:var(--serif);font-weight:600;font-size:19px;margin-top:8px}
+  .cta a{display:inline-block;margin-top:16px;border-bottom:1px solid var(--accent);
+       color:var(--accent);font-size:14px;font-weight:500;padding-bottom:2px}
+
+  footer .wrap{display:flex;justify-content:space-between;align-items:center;height:104px}
+  footer .fm{font-family:var(--serif);font-weight:300;font-size:22px}
+  footer .fm b{font-weight:900}
+
+  @media (max-width:900px){
+    .wrap{padding:0 20px}
+    nav.main{display:none}
+    .menu-btn{display:inline-flex!important}
+    .intro{grid-template-columns:1fr;gap:34px;padding:44px 0 34px}
+    .intro h1{font-size:36px}
+    .intro .r{border-left:none;padding-left:0;border-top:1px solid var(--line);padding-top:26px}
+    .specimen{grid-template-columns:1fr;gap:32px}
+    .collection{grid-template-columns:1fr;gap:40px}
+    .colhead{margin-top:60px}
+    .article{padding:48px 20px 54px}
+    .article h1{font-size:29px}
+    .article .rail{flex-wrap:wrap;gap:18px}
+  }
+  .menu-btn{display:none;font-family:var(--mono);font-size:10.5px;letter-spacing:.18em;
+       border:1px solid var(--line);padding:9px 14px;color:var(--mute)}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap">
+    <a class="wordmark" href="#">Epic<b>Kor</b><small>THE KOREA COLLECTION</small></a>
+    <nav class="main">
+      <a href="#">Collection</a><a href="#">Travel</a><a href="#">Food</a>
+      <a href="#">Beauty</a><a href="#">Culture</a><a href="#">Business</a>
+    </nav>
+    <a class="menu-btn" href="#">MENU</a>
+  </div>
+</header>
+
+<main class="wrap">
+
+  <section class="intro">
+    <div>
+      <div class="label">Current exhibition</div>
+      <h1>Korea, <em>catalogued</em> — one verified item at a time</h1>
+      <div class="ko">한국의 구체적인 것들을, 한국어 출처로 확인해 기록합니다</div>
+    </div>
+    <div class="r">
+      <p>Every entry in this collection was checked in Korea, in Korean, and carries the
+        month it was verified. Nothing here is an estimate presented as a fact.</p>
+      <div class="stats">
+        <div><div class="n">313</div><div class="t label">Items catalogued</div></div>
+        <div><div class="n">Aug<br>2026</div><div class="t label">Last accession</div></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="plinth">
+    <div class="specimen">
+      <figure class="frame">
+        <img src="../../../public/assets/images/posts/346/ansungtangmyun-noodle-and-soup-powder.jpg" alt="">
+      </figure>
+      <div class="cardlabel">
+        <span class="acc">ACC. 346 · FOOD &amp; SHOPPING</span>
+        <h2>Ansungtangmyun, unpacked</h2>
+        <div class="sub">안성탕면 — 된장 베이스, 고추 아님</div>
+        <p>The powder is brown, not red. That single fact separates it from Shin Ramyun
+          more completely than any spice rating could.</p>
+        <div class="spec">
+          <div><b>Maker</b><span>Nongshim 농심</span></div>
+          <div><b>Base</b><span>Soybean paste (된장)</span></div>
+          <div><b>Heat</b><span class="val">570 SHU</span></div>
+          <div><b>Price</b><span class="val">₩1,000 · checked Aug 2026</span></div>
+          <div><b>Source</b><span>Korean-language, cited in article</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="colhead"><h2>The <em>collection</em></h2><span class="label">View all →</span></div>
+  <section class="collection">
+    <article class="item">
+      <div class="fr"><img src="../../../public/assets/images/posts/336/samgak-kimbap-1.jpg" alt=""></div>
+      <span class="acc">ACC. 336</span>
+      <h3><a href="#">Samgak gimbap, and the order of its tabs</a></h3>
+      <div class="ko">삼각김밥</div>
+      <div class="meta"><span class="label">Convenience store</span><span class="acc">₩1,200–1,900</span></div>
+    </article>
+    <article class="item">
+      <div class="fr"><img src="../../../public/assets/images/posts/345/yonsei-milk-cream-bread-cross-section.jpg" alt=""></div>
+      <span class="acc">ACC. 345</span>
+      <h3><a href="#">Yonsei Cream Bread, in cross-section</a></h3>
+      <div class="ko">연세우유 크림빵</div>
+      <div class="meta"><span class="label">CU exclusive</span><span class="acc">₩2,600–3,000</span></div>
+    </article>
+    <article class="item">
+      <div class="fr"><img src="../../../public/assets/images/posts/355/ikseon-dong-hanok-alley.jpg" alt=""></div>
+      <span class="acc">ACC. 355</span>
+      <h3><a href="#">Ikseon-dong, a 1920s development</a></h3>
+      <div class="ko">익선동 한옥거리</div>
+      <div class="meta"><span class="label">Seoul · Jongno</span><span class="acc">1–2 hours</span></div>
+    </article>
+  </section>
+
+</main>
+
+<div class="room">
+  <article class="article">
+    <span class="acc">ACC. 346 · GUIDES / FOOD &amp; SHOPPING / KOREAN RAMYUN</span>
+    <h1>Ansungtangmyun vs Shin Ramyun: which Korean ramyun to buy first</h1>
+    <div class="ko">안성탕면 대 신라면 — 순한 신라면이 아니라, 다른 요리입니다</div>
+    <div class="rail">
+      <div><div class="t">Verified</div><div class="v">August 2026</div></div>
+      <div><div class="t">Reading</div><div class="v">12 minutes</div></div>
+      <div><div class="t">Sources</div><div class="v">Korean-language</div></div>
+    </div>
+    <p>They are not a mild and a spicy version of the same soup. Ansungtangmyun is built
+      on soybean paste, Shin Ramyun on chili — and the powder colour settles it before
+      you boil water. At a convenience store a single bag of either runs about
+      <span class="won">₩1,000</span>; five-packs at a mart cost markedly less per serving.</p>
+    <table class="cat">
+      <caption>Catalogue — verified August 2026</caption>
+      <thead><tr><th>Item</th><th>Base</th><th>Heat</th><th>Price</th></tr></thead>
+      <tbody>
+        <tr><td class="name">Ansungtangmyun<span>안성탕면</span></td><td>Soybean paste</td>
+            <td class="r">570 SHU</td><td class="r">₩1,000</td></tr>
+        <tr><td class="name">Shin Ramyun<span>신라면</span></td><td>Chili</td>
+            <td class="r">3,400 SHU</td><td class="r">₩1,000</td></tr>
+        <tr><td class="name">Buldak<span>불닭볶음면</span></td><td>Chili sauce, no broth</td>
+            <td class="r">4,404 SHU</td><td class="r">₩1,300</td></tr>
+      </tbody>
+    </table>
+    <div class="cta">
+      <div class="t">Before you fly — Amazon Associate</div>
+      <div class="h">Compare Korean ramyun variety packs</div>
+      <a href="#">View on Amazon →</a>
+    </div>
+  </article>
+</div>
+
+<footer><div class="wrap">
+  <div class="fm">Epic<b>Kor</b></div>
+  <div class="label">ⓒ 2026 · The Korea Collection · 313 items catalogued</div>
+</div></footer>
+
+</body>
+</html>
