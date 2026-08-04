@@ -85,12 +85,12 @@ export const sectionPageConfigs: Record<SectionPageKey, SectionPageConfig> = {
       'Find what to eat, what to buy, what to bring home, and how to shop smarter in Korea without turning every trip into a guess.',
     promise: 'Use this page when a Reel or search result makes you hungry, curious, or one click away from buying the wrong thing.',
     spotlight: {
-      eyebrow: 'New section',
-      title: 'Convenience stores and ramyun',
+      eyebrow: 'Reference guides',
+      title: 'Convenience stores, ramyun and drinks',
       body:
-        'Two comparison guides sit inside this section: Korean convenience stores — CU, GS25, 7-Eleven and Emart24 compared with current prices — and Korean ramyun, every packet ranked by published Scoville.',
+        'Three comparison guides sit inside this section: Korean convenience stores — CU, GS25, 7-Eleven and Emart24 compared with current prices — Korean ramyun, every packet ranked by published Scoville, and Korean drinks, where half the names point at the wrong thing.',
       href: '/guides',
-      action: 'See both guides',
+      action: 'See all three guides',
     },
     heroSlugs: ['270', '209', '272'],
     recommendedSlugs: ['270', '272', '209', '220', '153', '171', '277', '279', '280', '281', '282'],

@@ -76,10 +76,25 @@ export const HUBS: Hub[] = [
     whatItAdds: 'Real heat numbers — every packet loses to one fresh Korean pepper.',
     image: '/assets/images/posts/346/ansungtangmyun-noodle-and-soup-powder.jpg',
     imageAlt: 'Ansungtangmyun noodle block beside its brown soup powder.',
-    articleCount: 9,
+    articleCount: 11,
     accentText: 'text-orange-700',
     accentBg: 'bg-orange-50',
     accentBorder: 'border-orange-200',
+  },
+  {
+    href: '/drinks',
+    label: 'Korean Drinks',
+    parent: { label: 'Food & Shopping', href: '/food-shopping' },
+    title: 'Korean drinks',
+    blurb:
+      'Cider that is not cider, Yakult that is not yoghurt, and a tonic that is legally a drug — the drinks aisle explained product by product, with current Korean prices.',
+    whatItAdds: 'One table of what each drink actually is, against what its name implies.',
+    image: '/assets/images/posts/365/chilsung-cider-bottles.jpg',
+    imageAlt: 'Green bottles of Chilsung Cider standing in snow.',
+    articleCount: 10,
+    accentText: 'text-sky-700',
+    accentBg: 'bg-sky-50',
+    accentBorder: 'border-sky-200',
   },
 ];
 

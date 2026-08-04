@@ -95,6 +95,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.85,
     },
     {
+      url: 'https://www.epickor.com/drinks',
+      ...(latestPostDate ? { lastModified: latestPostDate } : {}),
+      changeFrequency: 'weekly' as const,
+      priority: 0.85,
+    },
+    {
       url: 'https://www.epickor.com/seoul',
       ...(latestPostDate ? { lastModified: latestPostDate } : {}),
       changeFrequency: 'weekly' as const,

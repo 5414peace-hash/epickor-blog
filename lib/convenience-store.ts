@@ -245,6 +245,27 @@ export const GUIDE_GROUPS: GuideGroup[] = [
         image: '/assets/images/posts/343/korean-convenience-store-ramyeon-wall-hongdae.jpg',
         imageAlt: 'A wall of Korean instant noodles on convenience store shelves.',
       },
+      {
+        slug: '366',
+        title: 'Pocachip',
+        blurb: 'Korea’s No.1 potato chip. Onion launched in 1988 and Original only in 1992, so the blue bag is the later one.',
+        image: '/assets/images/posts/366/pocachip-original-onion-bags.jpg',
+        imageAlt: 'Bags of Pocachip Original and Onion side by side.',
+      },
+      {
+        slug: '364',
+        title: 'Matdongsan',
+        blurb: 'Looks like traditional Korean confection, descends from Japanese karinto. Withdrawn in 1974 for selling too well.',
+        image: '/assets/images/posts/364/matdongsan-in-bag.jpg',
+        imageAlt: 'An open bag of Matdongsan peanut-coated fried sticks.',
+      },
+      {
+        slug: '365',
+        title: 'Chilsung Cider',
+        blurb: 'The default fridge drink. No apples, no alcohol, and eleven years older than Sprite.',
+        image: '/assets/images/posts/365/chilsung-cider-bottles.jpg',
+        imageAlt: 'Green bottles of Chilsung Cider.',
+      },
     ],
   },
   {
