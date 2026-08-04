@@ -1,10 +1,10 @@
 {
   "summary": {
-    "generatedAt": "2026-08-04T09:19:24.036Z",
-    "auditedPosts": 345,
+    "generatedAt": "2026-08-04T10:16:39.260Z",
+    "auditedPosts": 346,
     "includedPrivate": false,
     "slugFilter": "",
-    "bodyImages": 1263,
+    "bodyImages": 1266,
     "affectedPosts": 101,
     "critical": 0,
     "high": 0,
@@ -13335,6 +13335,38 @@
           "url": "/assets/images/posts/363/korean-beef-soup-table.jpg",
           "alt": "A Korean beef soup served with rice and side dishes on a wooden table.",
           "caption": "A home-style beef soup with banchan. This is the everyday context dashida lives in — not restaurant cooking, weeknight cooking. Photo by 세훈 예 via Pexels.",
+          "ext": ".jpg",
+          "exists": true
+        }
+      ],
+      "findings": []
+    },
+    {
+      "type": "blog",
+      "slug": "364",
+      "title": "Matdongsan: Korea's Peanut Crunch Snack, and Why It Was Pulled for Selling Too Well",
+      "contentPath": "content\\blog\\364.md",
+      "sourceRecord": "public\\assets\\images\\posts\\364\\image-sources.md",
+      "imageCount": 3,
+      "images": [
+        {
+          "url": "/assets/images/posts/364/matdongsan-in-bag.jpg",
+          "alt": "An open bag of Matdongsan, golden fried sticks glazed with syrup and coated in crushed peanuts.",
+          "caption": "맛동산 in the bag, which is how most Koreans first see it. The pale flecks are crushed peanut. Photo by 박찹쌀, CC BY-SA 2.0 KR, via Wikimedia Commons.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/364/karinto-japan.jpg",
+          "alt": "A pile of Japanese karinto — dark brown fried dough sticks with a bare sugar glaze.",
+          "caption": "Karintō, Japan. Same short fried sticks, same glaze — but darker, and with nothing coating the outside. Photo by Ocdp, CC0, via Wikimedia Commons.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/364/yugwa-korean-hangwa.jpg",
+          "alt": "Yugwa — pale Korean traditional sweets coated in puffed rice, served on a black dish.",
+          "caption": "유과, a traditional Korean 한과. Rice-based, puffed, coated in grain — a completely different construction. Photo by abex, CC BY-SA 2.0, via Wikimedia Commons.",
           "ext": ".jpg",
           "exists": true
         }

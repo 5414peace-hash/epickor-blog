@@ -4038,7 +4038,7 @@
         "ConvenienceStore"
       ],
       "amazon_category": "Food",
-      "status": "approved",
+      "status": "done",
       "approved_date": "2026-08-04",
       "approved_by": "representative",
       "cycle": "2026-W32b",
@@ -4051,7 +4051,9 @@
         "checked": "content/blog/*.md, content/business/*.md, topics-queue.json",
         "result": "zero matches"
       },
-      "notes": "Approved in the W32b cycle alongside Dashida. Dashida was written first (published as 363) because it had 10 Amazon branches against Matdongsan's 2. Must still pass the imagery gate at write time — expect the same no-free-packshot problem Dashida hit (see public/assets/images/posts/363/image-sources.md)."
+      "notes": "Approved in the W32b cycle alongside Dashida. Dashida was written first (published as 363) because it had 10 Amazon branches against Matdongsan's 2. Must still pass the imagery gate at write time — expect the same no-free-packshot problem Dashida hit (see public/assets/images/posts/363/image-sources.md). | 이미지 게이트 통과 — 다시다와 달리 커먼즈에 실물 사진 1장(맛동산 사진.jpg, CC BY-SA 2.0 KR)이 존재했다. 해태 공식(ht.co.kr)은 CJ와 동일하게 SPA 셸만 반환해 팩샷 조달 불가.",
+      "generated_slug": "364",
+      "generated_date": "2026-08-04"
     },
     {
       "id": 184,
