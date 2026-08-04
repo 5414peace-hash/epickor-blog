@@ -1,17 +1,25 @@
 {
   "summary": {
-    "generatedAt": "2026-07-26T08:47:21.458Z",
-    "auditedPosts": 304,
+    "generatedAt": "2026-08-04T09:02:00.625Z",
+    "auditedPosts": 344,
     "includedPrivate": false,
     "slugFilter": "",
-    "bodyImages": 1101,
-    "affectedPosts": 118,
+    "bodyImages": 1258,
+    "affectedPosts": 101,
     "critical": 0,
     "high": 0,
-    "medium": 0,
-    "info": 118
+    "medium": 1,
+    "info": 100
   },
   "findings": [
+    {
+      "type": "blog",
+      "slug": "332",
+      "title": "Korean Trot Music Explained: Why the Retro Genre Had Its Biggest Comeback",
+      "severity": "medium",
+      "code": "DUPLICATE_BODY_IMAGE",
+      "detail": "1 repeated body reference(s)"
+    },
     {
       "type": "blog",
       "slug": "002",
@@ -31,7 +39,7 @@
     {
       "type": "blog",
       "slug": "004",
-      "title": "Chung Yong-jin and Shinsegae: Influencer Leadership Risks",
+      "title": "Chung Yong-jin and Shinsegae: Korean Influencer Leadership Risks",
       "severity": "info",
       "code": "MISSING_SOURCE_RECORD",
       "detail": "public\\assets\\images\\posts\\004\\image-sources.md"
@@ -63,7 +71,7 @@
     {
       "type": "blog",
       "slug": "010",
-      "title": "BTS Guide 2026: Members, ARMY, Military Return, and Music",
+      "title": "BTS Guide 2026: The Korean Group's Members, ARMY, and Military Return",
       "severity": "info",
       "code": "MISSING_SOURCE_RECORD",
       "detail": "public\\assets\\images\\posts\\010\\image-sources.md"
@@ -150,16 +158,8 @@
     },
     {
       "type": "blog",
-      "slug": "022",
-      "title": "Korean Food Scissors Guide: Practical Tools and Hangover Drinks",
-      "severity": "info",
-      "code": "MISSING_SOURCE_RECORD",
-      "detail": "public\\assets\\images\\posts\\022\\image-sources.md"
-    },
-    {
-      "type": "blog",
       "slug": "023",
-      "title": "Gangnam Plastic Surgery District: Safe Medical Tourism Guide",
+      "title": "Gangnam Plastic Surgery District: Seoul Medical Tourism Guide",
       "severity": "info",
       "code": "MISSING_SOURCE_RECORD",
       "detail": "public\\assets\\images\\posts\\023\\image-sources.md"
@@ -179,14 +179,6 @@
       "severity": "info",
       "code": "MISSING_SOURCE_RECORD",
       "detail": "public\\assets\\images\\posts\\025\\image-sources.md"
-    },
-    {
-      "type": "blog",
-      "slug": "027",
-      "title": "Iced Americano in Korea: Why Koreans Drink It Year-Round",
-      "severity": "info",
-      "code": "MISSING_SOURCE_RECORD",
-      "detail": "public\\assets\\images\\posts\\027\\image-sources.md"
     },
     {
       "type": "blog",
@@ -262,14 +254,6 @@
     },
     {
       "type": "blog",
-      "slug": "038",
-      "title": "Korean Ramyun Guide: Shin, Buldak, Chapaghetti, and More",
-      "severity": "info",
-      "code": "MISSING_SOURCE_RECORD",
-      "detail": "public\\assets\\images\\posts\\038\\image-sources.md"
-    },
-    {
-      "type": "blog",
       "slug": "040",
       "title": "Korean Cinema Guide: Iconic Films and Lines to Know",
       "severity": "info",
@@ -279,7 +263,7 @@
     {
       "type": "blog",
       "slug": "043",
-      "title": "Why Is Jang Wonyoung So Popular? Wonyoungism Explained",
+      "title": "Why Is Jang Wonyoung So Popular? The Korean Idol and Wonyoungism",
       "severity": "info",
       "code": "MISSING_SOURCE_RECORD",
       "detail": "public\\assets\\images\\posts\\043\\image-sources.md"
@@ -287,7 +271,7 @@
     {
       "type": "blog",
       "slug": "044",
-      "title": "BTS V Military Service Guide: SDT, Discharge, and Comeback",
+      "title": "BTS V Korean Military Service Guide: SDT, Discharge, and Comeback",
       "severity": "info",
       "code": "MISSING_SOURCE_RECORD",
       "detail": "public\\assets\\images\\posts\\044\\image-sources.md"
@@ -299,14 +283,6 @@
       "severity": "info",
       "code": "MISSING_SOURCE_RECORD",
       "detail": "public\\assets\\images\\posts\\045\\image-sources.md"
-    },
-    {
-      "type": "blog",
-      "slug": "046",
-      "title": "Free Side Dishes in Korea: Banchan, Service, and Refills",
-      "severity": "info",
-      "code": "MISSING_SOURCE_RECORD",
-      "detail": "public\\assets\\images\\posts\\046\\image-sources.md"
     },
     {
       "type": "blog",
@@ -323,14 +299,6 @@
       "severity": "info",
       "code": "MISSING_SOURCE_RECORD",
       "detail": "public\\assets\\images\\posts\\049\\image-sources.md"
-    },
-    {
-      "type": "blog",
-      "slug": "050",
-      "title": "Korean Banchan Guide: Side Dishes, Kimchi, and Table Rules",
-      "severity": "info",
-      "code": "MISSING_SOURCE_RECORD",
-      "detail": "public\\assets\\images\\posts\\050\\image-sources.md"
     },
     {
       "type": "blog",
@@ -382,24 +350,8 @@
     },
     {
       "type": "blog",
-      "slug": "059",
-      "title": "Korean Convenience Store Food Guide: Dosirak and Snacks",
-      "severity": "info",
-      "code": "MISSING_SOURCE_RECORD",
-      "detail": "public\\assets\\images\\posts\\059\\image-sources.md"
-    },
-    {
-      "type": "blog",
-      "slug": "060",
-      "title": "Korea Drinks Guide: Makgeolli, Somaek, Beer, and More",
-      "severity": "info",
-      "code": "MISSING_SOURCE_RECORD",
-      "detail": "public\\assets\\images\\posts\\060\\image-sources.md"
-    },
-    {
-      "type": "blog",
       "slug": "062",
-      "title": "Museum Kimchikan Guide: Kimchi, Kimjang, and Insadong Visit Tips",
+      "title": "Museum Kimchikan Guide: Korean Kimchi, Kimjang, and Insadong Tips",
       "severity": "info",
       "code": "MISSING_SOURCE_RECORD",
       "detail": "public\\assets\\images\\posts\\062\\image-sources.md"
@@ -415,18 +367,10 @@
     {
       "type": "blog",
       "slug": "064",
-      "title": "Suwon Day Trip Guide: Hwaseong Fortress, Haenggung, and Food",
+      "title": "Suwon Day Trip from Seoul: Hwaseong Fortress, Haenggung, and Food",
       "severity": "info",
       "code": "MISSING_SOURCE_RECORD",
       "detail": "public\\assets\\images\\posts\\064\\image-sources.md"
-    },
-    {
-      "type": "blog",
-      "slug": "065",
-      "title": "Korean Rainy Day Food: Pajeon, Makgeolli, Noodles, and Soups",
-      "severity": "info",
-      "code": "MISSING_SOURCE_RECORD",
-      "detail": "public\\assets\\images\\posts\\065\\image-sources.md"
     },
     {
       "type": "blog",
@@ -439,7 +383,7 @@
     {
       "type": "blog",
       "slug": "067",
-      "title": "Korean Webtoons Guide: From Scroll Comics to K-Drama Hits",
+      "title": "Why Korean Webtoons Become K-Dramas, and What Changes",
       "severity": "info",
       "code": "MISSING_SOURCE_RECORD",
       "detail": "public\\assets\\images\\posts\\067\\image-sources.md"
@@ -455,7 +399,7 @@
     {
       "type": "blog",
       "slug": "069",
-      "title": "Gyeongju Travel Guide: Silla History, Temples, and Cafes",
+      "title": "Gyeongju Travel Guide: Korea's Silla Capital, Temples, and Cafes",
       "severity": "info",
       "code": "MISSING_SOURCE_RECORD",
       "detail": "public\\assets\\images\\posts\\069\\image-sources.md"
@@ -467,14 +411,6 @@
       "severity": "info",
       "code": "MISSING_SOURCE_RECORD",
       "detail": "public\\assets\\images\\posts\\070\\image-sources.md"
-    },
-    {
-      "type": "blog",
-      "slug": "071",
-      "title": "What Is Deli Manjoo? Korea's Subway Custard Snack",
-      "severity": "info",
-      "code": "MISSING_SOURCE_RECORD",
-      "detail": "public\\assets\\images\\posts\\071\\image-sources.md"
     },
     {
       "type": "blog",
@@ -534,14 +470,6 @@
     },
     {
       "type": "blog",
-      "slug": "082",
-      "title": "What Are SKY Universities in Korea? SNU, Korea, Yonsei",
-      "severity": "info",
-      "code": "MISSING_SOURCE_RECORD",
-      "detail": "public\\assets\\images\\posts\\082\\image-sources.md"
-    },
-    {
-      "type": "blog",
       "slug": "083",
       "title": "Ssamjang Guide: Korea's BBQ Wrap Sauce Explained",
       "severity": "info",
@@ -590,16 +518,8 @@
     },
     {
       "type": "blog",
-      "slug": "089",
-      "title": "Pojangmacha Guide: Korean Street Tent Food and Etiquette",
-      "severity": "info",
-      "code": "MISSING_SOURCE_RECORD",
-      "detail": "public\\assets\\images\\posts\\089\\image-sources.md"
-    },
-    {
-      "type": "blog",
       "slug": "090",
-      "title": "Ahjussi Meaning: Is It Rude? Ajeossi Explained",
+      "title": "Ahjussi Meaning: Is This Korean Word Rude? Ajeossi Explained",
       "severity": "info",
       "code": "MISSING_SOURCE_RECORD",
       "detail": "public\\assets\\images\\posts\\090\\image-sources.md"
@@ -611,78 +531,6 @@
       "severity": "info",
       "code": "MISSING_SOURCE_RECORD",
       "detail": "public\\assets\\images\\posts\\091\\image-sources.md"
-    },
-    {
-      "type": "blog",
-      "slug": "093",
-      "title": "Korean Ramyeon Guide: Bag vs Cup Noodles and How to Choose",
-      "severity": "info",
-      "code": "MISSING_SOURCE_RECORD",
-      "detail": "public\\assets\\images\\posts\\093\\image-sources.md"
-    },
-    {
-      "type": "blog",
-      "slug": "126",
-      "title": "Korean Drinking Games Guide: Rules, Etiquette, and Safety",
-      "severity": "info",
-      "code": "MISSING_SOURCE_RECORD",
-      "detail": "public\\assets\\images\\posts\\126\\image-sources.md"
-    },
-    {
-      "type": "blog",
-      "slug": "128",
-      "title": "Yakgwa Guide: Why Korea's Honey Cookie Became Cool Again",
-      "severity": "info",
-      "code": "MISSING_SOURCE_RECORD",
-      "detail": "public\\assets\\images\\posts\\128\\image-sources.md"
-    },
-    {
-      "type": "blog",
-      "slug": "133",
-      "title": "PC Bang Guide: Food, Kiosk, Etiquette, and First Visit Tips",
-      "severity": "info",
-      "code": "MISSING_SOURCE_RECORD",
-      "detail": "public\\assets\\images\\posts\\133\\image-sources.md"
-    },
-    {
-      "type": "blog",
-      "slug": "136",
-      "title": "Korean Luxury Brands Guide: Best Labels and Seoul Map",
-      "severity": "info",
-      "code": "MISSING_SOURCE_RECORD",
-      "detail": "public\\assets\\images\\posts\\136\\image-sources.md"
-    },
-    {
-      "type": "blog",
-      "slug": "145",
-      "title": "Naengmyeon Guide: Pyongyang, Hamheung, and How to Eat It",
-      "severity": "info",
-      "code": "MISSING_SOURCE_RECORD",
-      "detail": "public\\assets\\images\\posts\\145\\image-sources.md"
-    },
-    {
-      "type": "blog",
-      "slug": "153",
-      "title": "Isaac Toast Sauce: Korea's Famous Sweet Breakfast",
-      "severity": "info",
-      "code": "MISSING_SOURCE_RECORD",
-      "detail": "public\\assets\\images\\posts\\153\\image-sources.md"
-    },
-    {
-      "type": "blog",
-      "slug": "155",
-      "title": "MU:DS Korea Museum Goods Guide: Best Buys and Smart Tips",
-      "severity": "info",
-      "code": "MISSING_SOURCE_RECORD",
-      "detail": "public\\assets\\images\\posts\\155\\image-sources.md"
-    },
-    {
-      "type": "blog",
-      "slug": "156",
-      "title": "Beatpella House Guide: Why This Korean Team Keeps Going Viral",
-      "severity": "info",
-      "code": "MISSING_SOURCE_RECORD",
-      "detail": "public\\assets\\images\\posts\\156\\image-sources.md"
     },
     {
       "type": "blog",
@@ -710,14 +558,6 @@
     },
     {
       "type": "blog",
-      "slug": "167",
-      "title": "Best Korean Dramas 2026: What to Watch First Now",
-      "severity": "info",
-      "code": "MISSING_SOURCE_RECORD",
-      "detail": "public\\assets\\images\\posts\\167\\image-sources.md"
-    },
-    {
-      "type": "blog",
       "slug": "168",
       "title": "Korean Hiking Culture: Why Weekends Mean Mountains",
       "severity": "info",
@@ -735,7 +575,7 @@
     {
       "type": "blog",
       "slug": "170",
-      "title": "Korean PC Bang Culture: Why Gaming Cafes Matter",
+      "title": "How Many PC Bangs Are in Korea? Count, Prices, and Rules",
       "severity": "info",
       "code": "MISSING_SOURCE_RECORD",
       "detail": "public\\assets\\images\\posts\\170\\image-sources.md"
@@ -775,7 +615,7 @@
     {
       "type": "blog",
       "slug": "175",
-      "title": "Korean Traditional Markets: Namdaemun and Dongdaemun Guide",
+      "title": "Namdaemun vs Dongdaemun: Which Seoul Market to Visit",
       "severity": "info",
       "code": "MISSING_SOURCE_RECORD",
       "detail": "public\\assets\\images\\posts\\175\\image-sources.md"
@@ -807,7 +647,7 @@
     {
       "type": "blog",
       "slug": "181",
-      "title": "Korean Webtoons Guide: Naver, Manhwa, Netflix Adaptations",
+      "title": "Korean Webtoons Explained: Manhwa vs Manga, and How to Read",
       "severity": "info",
       "code": "MISSING_SOURCE_RECORD",
       "detail": "public\\assets\\images\\posts\\181\\image-sources.md"
@@ -863,7 +703,7 @@
     {
       "type": "blog",
       "slug": "210",
-      "title": "Oppa, Samchon, Ahjussi: Korean Male Terms Explained",
+      "title": "What to Call a Stranger in Korea: Jeogiyo, Sajangnim, Imo",
       "severity": "info",
       "code": "MISSING_SOURCE_RECORD",
       "detail": "public\\assets\\images\\posts\\210\\image-sources.md"
@@ -883,6 +723,30 @@
       "severity": "info",
       "code": "MISSING_SOURCE_RECORD",
       "detail": "public\\assets\\images\\posts\\293\\image-sources.md"
+    },
+    {
+      "type": "blog",
+      "slug": "327",
+      "title": "BTS Part 1: Seven Unknown Korean Trainees at a Label With No Money",
+      "severity": "info",
+      "code": "MISSING_SOURCE_RECORD",
+      "detail": "public\\assets\\images\\posts\\327\\image-sources.md"
+    },
+    {
+      "type": "blog",
+      "slug": "328",
+      "title": "BTS Part 2: The Korean Group's English Gamble and the ARMY Machine",
+      "severity": "info",
+      "code": "MISSING_SOURCE_RECORD",
+      "detail": "public\\assets\\images\\posts\\328\\image-sources.md"
+    },
+    {
+      "type": "blog",
+      "slug": "329",
+      "title": "BTS Part 3: Korean Military Service, the 2026 Reunion, and the World Cup",
+      "severity": "info",
+      "code": "MISSING_SOURCE_RECORD",
+      "detail": "public\\assets\\images\\posts\\329\\image-sources.md"
     },
     {
       "type": "business",
@@ -1076,7 +940,7 @@
     {
       "type": "blog",
       "slug": "004",
-      "title": "Chung Yong-jin and Shinsegae: Influencer Leadership Risks",
+      "title": "Chung Yong-jin and Shinsegae: Korean Influencer Leadership Risks",
       "contentPath": "content\\blog\\004-the-rise-of-yongjin-jeong-from-chaebol-heir-to-social-media-sensation.md",
       "sourceRecord": "",
       "imageCount": 3,
@@ -1306,7 +1170,7 @@
     {
       "type": "blog",
       "slug": "010",
-      "title": "BTS Guide 2026: Members, ARMY, Military Return, and Music",
+      "title": "BTS Guide 2026: The Korean Group's Members, ARMY, and Military Return",
       "contentPath": "content\\blog\\010-discover-hidden-facts-about-bts.md",
       "sourceRecord": "",
       "imageCount": 3,
@@ -1765,8 +1629,8 @@
       "slug": "022",
       "title": "Korean Food Scissors Guide: Practical Tools and Hangover Drinks",
       "contentPath": "content\\blog\\022-discover-unique-korean-items-from-hangover-relievers-to-food-scissors.md",
-      "sourceRecord": "",
-      "imageCount": 3,
+      "sourceRecord": "public\\assets\\images\\posts\\022\\image-sources.md",
+      "imageCount": 4,
       "images": [
         {
           "url": "/assets/images/posts/022/5378f074-e2f8-4fbe-bb3e-6ed589e2cd48.png",
@@ -1783,6 +1647,13 @@
           "exists": true
         },
         {
+          "url": "/assets/images/posts/022/chuncheon-mul-naengmyeon.jpg",
+          "alt": "A bowl of mul-naengmyeon, cold buckwheat noodles in chilled broth.",
+          "caption": "Cold noodles are the other place the scissors appear. The server asks whether to cut them before you eat, and the answer is normally yes. Photo by 원선민, CC BY, via 공유마당.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
           "url": "/assets/images/posts/022/022_EpicKor_%EC%A7%84%ED%98%B8.mp4_20240712_221031.610.jpg",
           "alt": "Korean hangover relief drinks shown in the original EpicKor practical tools footage.",
           "caption": "",
@@ -1790,18 +1661,12 @@
           "exists": true
         }
       ],
-      "findings": [
-        {
-          "severity": "info",
-          "code": "MISSING_SOURCE_RECORD",
-          "detail": "public\\assets\\images\\posts\\022\\image-sources.md"
-        }
-      ]
+      "findings": []
     },
     {
       "type": "blog",
       "slug": "023",
-      "title": "Gangnam Plastic Surgery District: Safe Medical Tourism Guide",
+      "title": "Gangnam Plastic Surgery District: Seoul Medical Tourism Guide",
       "contentPath": "content\\blog\\023-discover-the-heart-of-koreas-renowned-plastic-surgery-district.md",
       "sourceRecord": "",
       "imageCount": 3,
@@ -1956,8 +1821,8 @@
       "slug": "027",
       "title": "Iced Americano in Korea: Why Koreans Drink It Year-Round",
       "contentPath": "content\\blog\\027-why-are-koreans-crazy-about-iced-americano.md",
-      "sourceRecord": "",
-      "imageCount": 3,
+      "sourceRecord": "public\\assets\\images\\posts\\027\\image-sources.md",
+      "imageCount": 4,
       "images": [
         {
           "url": "/assets/images/posts/027/fa4ffba6-b779-4911-ab69-8179e299eb38.png",
@@ -1974,6 +1839,13 @@
           "exists": true
         },
         {
+          "url": "/assets/images/posts/027/angelinus-iced-americano-korea.jpg",
+          "alt": "An iced americano in a takeaway cup at a Korean cafe, beside a sandwich and an ade.",
+          "caption": "A chain-cafe iced americano in Korea. The cup size and the ice load are the defaults; you have to ask to change either. Photo by 김바삭, CC BY 4.0.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
           "url": "/assets/images/posts/027/fd25a8ab-69b3-40b1-9aae-c6c6ee6fb81a.jpg",
           "alt": "Korean cafe drink and snack pairing for a travel day.",
           "caption": "",
@@ -1981,13 +1853,7 @@
           "exists": true
         }
       ],
-      "findings": [
-        {
-          "severity": "info",
-          "code": "MISSING_SOURCE_RECORD",
-          "detail": "public\\assets\\images\\posts\\027\\image-sources.md"
-        }
-      ]
+      "findings": []
     },
     {
       "type": "blog",
@@ -2368,20 +2234,27 @@
       "slug": "038",
       "title": "Korean Ramyun Guide: Shin, Buldak, Chapaghetti, and More",
       "contentPath": "content\\blog\\038-discover-the-spicy-and-flavorful-world-of-korean-ramen.md",
-      "sourceRecord": "",
-      "imageCount": 3,
+      "sourceRecord": "public\\assets\\images\\posts\\038\\image-sources.md",
+      "imageCount": 4,
       "images": [
         {
-          "url": "/assets/images/posts/038/36628da4-9e56-4710-bde0-a77b9874e472.png",
+          "url": "/assets/images/posts/038/36628da4-9e56-4710-bde0-a77b9874e472.jpg",
           "alt": "Original EpicKor visual introducing Korean ramyun culture and convenience-store noodles.",
           "caption": "",
-          "ext": ".png",
+          "ext": ".jpg",
           "exists": true
         },
         {
           "url": "/assets/images/posts/038/038_epickor_%EB%AF%BC%ED%98%B8.mp4_20240717_145758.463.jpg",
           "alt": "Shin Ramyun package shown in the original EpicKor Korean ramyun footage.",
           "caption": "",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/038/korean-seafood-ramyeon-bowl.jpg",
+          "alt": "Seafood ramyeon in a stainless bowl with octopus, spring onion and a Korean spoon and chopsticks.",
+          "caption": "Ramyeon served the Korean way — stainless bowl, noodles left sitting in the broth, spoon and metal chopsticks. Photo by 정이의 아카이브, CC BY, via 공유마당.",
           "ext": ".jpg",
           "exists": true
         },
@@ -2393,13 +2266,7 @@
           "exists": true
         }
       ],
-      "findings": [
-        {
-          "severity": "info",
-          "code": "MISSING_SOURCE_RECORD",
-          "detail": "public\\assets\\images\\posts\\038\\image-sources.md"
-        }
-      ]
+      "findings": []
     },
     {
       "type": "blog",
@@ -2545,7 +2412,7 @@
     {
       "type": "blog",
       "slug": "043",
-      "title": "Why Is Jang Wonyoung So Popular? Wonyoungism Explained",
+      "title": "Why Is Jang Wonyoung So Popular? The Korean Idol and Wonyoungism",
       "contentPath": "content\\blog\\043-born-to-be-an-idol-the-rise-of-jang-won-young.md",
       "sourceRecord": "",
       "imageCount": 5,
@@ -2597,7 +2464,7 @@
     {
       "type": "blog",
       "slug": "044",
-      "title": "BTS V Military Service Guide: SDT, Discharge, and Comeback",
+      "title": "BTS V Korean Military Service Guide: SDT, Discharge, and Comeback",
       "contentPath": "content\\blog\\044-from-idol-to-soldier-btss-v-stuns-in-military-uniform.md",
       "sourceRecord": "",
       "imageCount": 3,
@@ -2675,13 +2542,20 @@
       "slug": "046",
       "title": "Free Side Dishes in Korea: Banchan, Service, and Refills",
       "contentPath": "content\\blog\\046-korea-gives-food-even-if-you-dont-order-it.md",
-      "sourceRecord": "",
-      "imageCount": 3,
+      "sourceRecord": "public\\assets\\images\\posts\\046\\image-sources.md",
+      "imageCount": 4,
       "images": [
         {
           "url": "/assets/images/posts/046/b5bd702e-e6b7-4afa-97bb-51d471267746.jpg",
           "alt": "A Korean restaurant table with several small side dishes around the main meal.",
           "caption": "Free-looking side dishes are one of the first things travelers notice in Korean restaurants, but the rules are more practical than mysterious.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/046/home-style-korean-banchan.jpg",
+          "alt": "A spread of home-style Korean side dishes in small white bowls.",
+          "caption": "Home-style banchan. The dishes that arrive without being ordered are usually this kind — made in batches, refilled, and not itemised on the bill. Photo by Choikwangmo9, CC0.",
           "ext": ".jpg",
           "exists": true
         },
@@ -2700,13 +2574,7 @@
           "exists": true
         }
       ],
-      "findings": [
-        {
-          "severity": "info",
-          "code": "MISSING_SOURCE_RECORD",
-          "detail": "public\\assets\\images\\posts\\046\\image-sources.md"
-        }
-      ]
+      "findings": []
     },
     {
       "type": "blog",
@@ -2762,7 +2630,7 @@
           "exists": true
         },
         {
-          "url": "/assets/images/posts/048/057_EpicKor_%EC%A7%84%ED%98%B8.mp4_20240722_222016.271.jpg",
+          "url": "/assets/images/posts/048/carbo-buldak-pack-epickor-footage.jpg",
           "alt": "Carbo Buldak held up in the original EpicKor Carbo Buldak footage.",
           "caption": "",
           "ext": ".jpg",
@@ -2821,14 +2689,28 @@
       "slug": "050",
       "title": "Korean Banchan Guide: Side Dishes, Kimchi, and Table Rules",
       "contentPath": "content\\blog\\050-discover-the-unique-charm-of-korean-banchan-culture.md",
-      "sourceRecord": "",
-      "imageCount": 3,
+      "sourceRecord": "public\\assets\\images\\posts\\050\\image-sources.md",
+      "imageCount": 5,
       "images": [
         {
-          "url": "/assets/images/posts/050/6d305414-0269-4117-815f-735d0ed98dce.png",
+          "url": "/assets/images/posts/050/6d305414-0269-4117-815f-735d0ed98dce.jpg",
           "alt": "A Korean banchan table from EpicKor's original food visual package.",
           "caption": "Banchan makes a Korean meal modular: every diner builds different bites from the same shared table.",
-          "ext": ".png",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/050/korean-table-setting.jpg",
+          "alt": "A Korean table set with rice, soup and several small side dishes.",
+          "caption": "The standard arrangement: rice and soup in front of you, banchan shared in the middle. The layout is the rule, not the decoration. Photo by Alan Chan, CC BY-SA 2.0.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/050/banchan-assortment.jpg",
+          "alt": "Seven small bowls of banchan including napa kimchi, kkakdugi, bean sprouts and spinach.",
+          "caption": "Kimchi is one banchan among many. A normal table carries several at once, and only one of them is the famous one. Photo by stuart spivack, CC BY-SA 2.0.",
+          "ext": ".jpg",
           "exists": true
         },
         {
@@ -2846,13 +2728,7 @@
           "exists": true
         }
       ],
-      "findings": [
-        {
-          "severity": "info",
-          "code": "MISSING_SOURCE_RECORD",
-          "detail": "public\\assets\\images\\posts\\050\\image-sources.md"
-        }
-      ]
+      "findings": []
     },
     {
       "type": "blog",
@@ -3179,20 +3055,34 @@
       "slug": "059",
       "title": "Korean Convenience Store Food Guide: Dosirak and Snacks",
       "contentPath": "content\\blog\\059-discover-the-tastiest-picks-at-korean-convenience-stores-with-baek-jong-won-and-kim-hye-ja.md",
-      "sourceRecord": "",
-      "imageCount": 3,
+      "sourceRecord": "public\\assets\\images\\posts\\059\\image-sources.md",
+      "imageCount": 5,
       "images": [
         {
-          "url": "/assets/images/posts/059/9f4217c9-a783-4538-9de8-0ba4ece9a096.png",
+          "url": "/assets/images/posts/059/9f4217c9-a783-4538-9de8-0ba4ece9a096.jpg",
           "alt": "A Korean convenience-store food visual from EpicKor's original package.",
           "caption": "Korean convenience stores are daily food infrastructure, not only snack stops.",
-          "ext": ".png",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/059/convenience-store-lunchbox-01.jpg",
+          "alt": "A Korean convenience store lunch box with rice, meat and side compartments.",
+          "caption": "A convenience store dosirak. Rice, a main, and compartments of banchan — a full meal engineered for a microwave. Photo by Korea.net / Korean Culture and Information Service, CC BY-SA 2.0.",
+          "ext": ".jpg",
           "exists": true
         },
         {
           "url": "/assets/images/posts/059/legacy-frame-01.jpg",
           "alt": "A Korean convenience-store ready-meal image from EpicKor's original package.",
           "caption": "Celebrity branding works best when the name explains what kind of value the buyer expects.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/059/convenience-store-lunchbox-02.jpg",
+          "alt": "Another Korean convenience store lunch box, opened to show its compartments.",
+          "caption": "Compare the compartments, not the picture on the lid. The ratio of rice to everything else is what decides whether it fills you up. Photo by Republic of Korea, CC BY-SA 2.0.",
           "ext": ".jpg",
           "exists": true
         },
@@ -3204,27 +3094,35 @@
           "exists": true
         }
       ],
-      "findings": [
-        {
-          "severity": "info",
-          "code": "MISSING_SOURCE_RECORD",
-          "detail": "public\\assets\\images\\posts\\059\\image-sources.md"
-        }
-      ]
+      "findings": []
     },
     {
       "type": "blog",
       "slug": "060",
       "title": "Korea Drinks Guide: Makgeolli, Somaek, Beer, and More",
       "contentPath": "content\\blog\\060-what-should-you-drink-in-korea-other-than-soju-travel-korea.md",
-      "sourceRecord": "",
-      "imageCount": 3,
+      "sourceRecord": "public\\assets\\images\\posts\\060\\image-sources.md",
+      "imageCount": 5,
       "images": [
         {
-          "url": "/assets/images/posts/060/ecf8dfd7-dd2e-47f7-839c-69016976ceec.png",
+          "url": "/assets/images/posts/060/ecf8dfd7-dd2e-47f7-839c-69016976ceec.jpg",
           "alt": "A Korean drinking-culture visual from EpicKor's original package.",
           "caption": "Korean drinking culture is really table culture: drink, food, pacing, group mood, and etiquette all move together.",
-          "ext": ".png",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/060/makgeolli-bottles-lineup.jpg",
+          "alt": "Several bottles of makgeolli in different brands lined up together.",
+          "caption": "Makgeolli is a category, not one drink. Brands differ in sweetness and fizz enough that a bad first bottle is worth a second try. Photo by Walnussbaumchen, CC0.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/060/korean-beer-soju-makgeolli.jpg",
+          "alt": "Korean beer, soju and makgeolli bottles standing together.",
+          "caption": "The three that share almost every Korean table. Somaek is what happens when the first two get combined on purpose. Photo by Sgroey, CC BY-SA 4.0.",
+          "ext": ".jpg",
           "exists": true
         },
         {
@@ -3242,13 +3140,7 @@
           "exists": true
         }
       ],
-      "findings": [
-        {
-          "severity": "info",
-          "code": "MISSING_SOURCE_RECORD",
-          "detail": "public\\assets\\images\\posts\\060\\image-sources.md"
-        }
-      ]
+      "findings": []
     },
     {
       "type": "blog",
@@ -3285,7 +3177,7 @@
     {
       "type": "blog",
       "slug": "062",
-      "title": "Museum Kimchikan Guide: Kimchi, Kimjang, and Insadong Visit Tips",
+      "title": "Museum Kimchikan Guide: Korean Kimchi, Kimjang, and Insadong Tips",
       "contentPath": "content\\blog\\062-experience-traditional-korean-kimchi-making-at-museum-kimchikan-in-insadong.md",
       "sourceRecord": "",
       "imageCount": 3,
@@ -3368,7 +3260,7 @@
     {
       "type": "blog",
       "slug": "064",
-      "title": "Suwon Day Trip Guide: Hwaseong Fortress, Haenggung, and Food",
+      "title": "Suwon Day Trip from Seoul: Hwaseong Fortress, Haenggung, and Food",
       "contentPath": "content\\blog\\064-discover-the-unique-blend-of-history-and-modernity-in-suwon-just-a-short-ride-from-seoul.md",
       "sourceRecord": "",
       "imageCount": 3,
@@ -3408,13 +3300,27 @@
       "slug": "065",
       "title": "Korean Rainy Day Food: Pajeon, Makgeolli, Noodles, and Soups",
       "contentPath": "content\\blog\\065-korean-soul-food-on-a-rainy-day.md",
-      "sourceRecord": "",
-      "imageCount": 3,
+      "sourceRecord": "public\\assets\\images\\posts\\065\\image-sources.md",
+      "imageCount": 5,
       "images": [
         {
           "url": "/assets/images/posts/065/080ba621-2d5d-4a00-b55b-b65d0ed718e1.jpg",
           "alt": "Korean rainy-day food visual from EpicKor's original package.",
           "caption": "Rainy-day food in Korea is about warmth, sound, sharing, and adjusting the plan instead of fighting the weather.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/065/pajeon-on-the-pan.jpg",
+          "alt": "A scallion pancake cooking in oil on a pan.",
+          "caption": "The sound is the point. Batter hitting hot oil is close enough to rain on a window that Koreans link the two directly. Photo via World to Table, CC BY-SA 3.0.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/065/pajeon-served.jpg",
+          "alt": "A finished pajeon cut into pieces and served on a plate.",
+          "caption": "Served, it is shared and torn rather than portioned. One pancake between two people with a kettle of makgeolli is the whole ritual. Photo by Brucke-Osteuropa, CC0.",
           "ext": ".jpg",
           "exists": true
         },
@@ -3433,13 +3339,7 @@
           "exists": true
         }
       ],
-      "findings": [
-        {
-          "severity": "info",
-          "code": "MISSING_SOURCE_RECORD",
-          "detail": "public\\assets\\images\\posts\\065\\image-sources.md"
-        }
-      ]
+      "findings": []
     },
     {
       "type": "blog",
@@ -3482,7 +3382,7 @@
     {
       "type": "blog",
       "slug": "067",
-      "title": "Korean Webtoons Guide: From Scroll Comics to K-Drama Hits",
+      "title": "Why Korean Webtoons Become K-Dramas, and What Changes",
       "contentPath": "content\\blog\\067-that-movie-drama-was-made-from-a-korean-webtoon.md",
       "sourceRecord": "",
       "imageCount": 3,
@@ -3558,7 +3458,7 @@
     {
       "type": "blog",
       "slug": "069",
-      "title": "Gyeongju Travel Guide: Silla History, Temples, and Cafes",
+      "title": "Gyeongju Travel Guide: Korea's Silla Capital, Temples, and Cafes",
       "contentPath": "content\\blog\\069-not-seoul-but-gyeongju-a-cultural-journey.md",
       "sourceRecord": "",
       "imageCount": 3,
@@ -3636,8 +3536,8 @@
       "slug": "071",
       "title": "What Is Deli Manjoo? Korea's Subway Custard Snack",
       "contentPath": "content\\blog\\071-why-the-irresistible-smell-of-deli-manjoo-drives-koreans-crazy-in-subway-stations.md",
-      "sourceRecord": "",
-      "imageCount": 5,
+      "sourceRecord": "public\\assets\\images\\posts\\071\\image-sources.md",
+      "imageCount": 6,
       "images": [
         {
           "url": "/assets/images/posts/071/64a29764-bfc3-47d6-a963-4ed11f271548.png",
@@ -3661,6 +3561,13 @@
           "exists": true
         },
         {
+          "url": "/assets/images/posts/071/seoul-metro-station-concourse.jpg",
+          "alt": "Commuters waiting on a Seoul metro platform, the concourse stretching away behind them.",
+          "caption": "A Seoul metro station. Enclosed, warm, and full of moving air — which is exactly why one small machine can scent an entire concourse. Photo by Theodore Nguyen, Pexels.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
           "url": "/assets/images/posts/071/071_frame_3.jpg",
           "alt": "Deli Manjoo Korean snack shape frame from EpicKor video",
           "caption": "",
@@ -3675,13 +3582,7 @@
           "exists": true
         }
       ],
-      "findings": [
-        {
-          "severity": "info",
-          "code": "MISSING_SOURCE_RECORD",
-          "detail": "public\\assets\\images\\posts\\071\\image-sources.md"
-        }
-      ]
+      "findings": []
     },
     {
       "type": "blog",
@@ -3885,7 +3786,7 @@
     {
       "type": "blog",
       "slug": "077",
-      "title": "Dongduk Women's University Coeducation Dispute",
+      "title": "Dongduk Women's University Coeducation Dispute in Korea",
       "contentPath": "content\\blog\\077-the-dongduk-womens-university-protest-a-turning-point-for-womens-universities-in-korea.md",
       "sourceRecord": "public\\assets\\images\\posts\\077\\image-sources.md",
       "imageCount": 4,
@@ -4078,8 +3979,8 @@
       "slug": "082",
       "title": "What Are SKY Universities in Korea? SNU, Korea, Yonsei",
       "contentPath": "content\\blog\\082-koreas-top-3-universities-what-you-need-to-know.md",
-      "sourceRecord": "",
-      "imageCount": 9,
+      "sourceRecord": "public\\assets\\images\\posts\\082\\image-sources.md",
+      "imageCount": 10,
       "images": [
         {
           "url": "/assets/images/posts/082/af24b8c3-5c79-4465-9da3-2065385ad011.png",
@@ -4117,6 +4018,13 @@
           "exists": true
         },
         {
+          "url": "/assets/images/posts/082/yonsei-university-campus.jpg",
+          "alt": "The Yonsei University campus in Seoul, its stone buildings seen across an open green.",
+          "caption": "Yonsei University, Sinchon. The Y in SKY, and one half of Korea’s most theatrical university rivalry. Photo by Christian Bolz, CC BY-SA 4.0.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
           "url": "/assets/images/posts/082/082_frame_5.jpg",
           "alt": "Korea and Yonsei rivalry scene from EpicKor SKY university video",
           "caption": "",
@@ -4145,13 +4053,7 @@
           "exists": true
         }
       ],
-      "findings": [
-        {
-          "severity": "info",
-          "code": "MISSING_SOURCE_RECORD",
-          "detail": "public\\assets\\images\\posts\\082\\image-sources.md"
-        }
-      ]
+      "findings": []
     },
     {
       "type": "blog",
@@ -4393,8 +4295,8 @@
       "slug": "089",
       "title": "Pojangmacha Guide: Korean Street Tent Food and Etiquette",
       "contentPath": "content\\blog\\089-discover-koreas-unique-outdoor-food-and-drinking-culture.md",
-      "sourceRecord": "",
-      "imageCount": 3,
+      "sourceRecord": "public\\assets\\images\\posts\\089\\image-sources.md",
+      "imageCount": 5,
       "images": [
         {
           "url": "/assets/images/posts/089/d6f1969d-a973-4746-b6fa-8573eb1a2410.png",
@@ -4404,9 +4306,23 @@
           "exists": true
         },
         {
+          "url": "/assets/images/posts/089/seoul-street-food-tent-01.jpg",
+          "alt": "A street food cart on a Seoul shopping street, a vendor cooking behind a steel counter.",
+          "caption": "A street cart in Seoul, prices chalked on a board. This is the daytime, standing-up end of the pojangmacha spectrum. Photo by LinasD, CC BY-SA 4.0.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
           "url": "/assets/images/posts/089/legacy-frame-01.jpg",
           "alt": "Pojangmacha food and drinks frame from EpicKor's original package.",
           "caption": "A good pojangmacha visit is warm, compact, and respectful. The close seating is part of the mood, but it also requires awareness.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/089/seoul-street-food-tent-02.jpg",
+          "alt": "Another Seoul street food stall with trays of prepared food on the counter.",
+          "caption": "What is on the counter changes by neighbourhood and by hour. Look at the trays before you decide where to stop. Photo by LinasD, CC BY-SA 4.0.",
           "ext": ".jpg",
           "exists": true
         },
@@ -4418,18 +4334,12 @@
           "exists": true
         }
       ],
-      "findings": [
-        {
-          "severity": "info",
-          "code": "MISSING_SOURCE_RECORD",
-          "detail": "public\\assets\\images\\posts\\089\\image-sources.md"
-        }
-      ]
+      "findings": []
     },
     {
       "type": "blog",
       "slug": "090",
-      "title": "Ahjussi Meaning: Is It Rude? Ajeossi Explained",
+      "title": "Ahjussi Meaning: Is This Korean Word Rude? Ajeossi Explained",
       "contentPath": "content\\blog\\090-the-fascinating-debate-among-korean-women-what-do-you-call-an-unfamiliar-man.md",
       "sourceRecord": "",
       "imageCount": 6,
@@ -4535,7 +4445,7 @@
       "slug": "093",
       "title": "Korean Ramyeon Guide: Bag vs Cup Noodles and How to Choose",
       "contentPath": "content\\blog\\093-koreas-favorite-ramen-battle-which-reigns-supreme-bag-or-cup.md",
-      "sourceRecord": "",
+      "sourceRecord": "public\\assets\\images\\posts\\093\\image-sources.md",
       "imageCount": 3,
       "images": [
         {
@@ -4560,13 +4470,7 @@
           "exists": true
         }
       ],
-      "findings": [
-        {
-          "severity": "info",
-          "code": "MISSING_SOURCE_RECORD",
-          "detail": "public\\assets\\images\\posts\\093\\image-sources.md"
-        }
-      ]
+      "findings": []
     },
     {
       "type": "blog",
@@ -4651,8 +4555,8 @@
       "slug": "126",
       "title": "Korean Drinking Games Guide: Rules, Etiquette, and Safety",
       "contentPath": "content\\blog\\126.md",
-      "sourceRecord": "",
-      "imageCount": 4,
+      "sourceRecord": "public\\assets\\images\\posts\\126\\image-sources.md",
+      "imageCount": 6,
       "images": [
         {
           "url": "/assets/images/posts/126/126_01.jpg",
@@ -4669,9 +4573,23 @@
           "exists": true
         },
         {
+          "url": "/assets/images/posts/126/pouring-soju-korean-table.jpg",
+          "alt": "Soju being poured at a Korean table. Almost every drinking game here is built around this bottle, this glass, and whose turn it is to pour.",
+          "caption": "Pouring soju at a Korean table. Photo by Adalyntu, CC BY-SA 3.0.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
           "url": "/assets/images/posts/126/126_03.jpg",
           "alt": "Someone flicking the wire of a soju bottle cap.",
           "caption": "",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/126/korean-drinking-table-manner.jpg",
+          "alt": "A Korean drinking table with soju glasses, side dishes and shared plates in the middle.",
+          "caption": "The table itself sets the rules — shared dishes in the middle, small glasses, and someone always watching whether yours is empty. Photo by Kai Hendry, CC BY 2.0.",
           "ext": ".jpg",
           "exists": true
         },
@@ -4683,13 +4601,7 @@
           "exists": true
         }
       ],
-      "findings": [
-        {
-          "severity": "info",
-          "code": "MISSING_SOURCE_RECORD",
-          "detail": "public\\assets\\images\\posts\\126\\image-sources.md"
-        }
-      ]
+      "findings": []
     },
     {
       "type": "blog",
@@ -4735,8 +4647,8 @@
       "slug": "128",
       "title": "Yakgwa Guide: Why Korea's Honey Cookie Became Cool Again",
       "contentPath": "content\\blog\\128.md",
-      "sourceRecord": "",
-      "imageCount": 3,
+      "sourceRecord": "public\\assets\\images\\posts\\128\\image-sources.md",
+      "imageCount": 5,
       "images": [
         {
           "url": "/assets/images/posts/128/128_01.jpg",
@@ -4753,6 +4665,20 @@
           "exists": true
         },
         {
+          "url": "/assets/images/posts/128/yakgwa-korean-honey-cookies.jpg",
+          "alt": "Flower-shaped yakgwa, deep-fried honey cookies with a glossy syrup coating, arranged on a plate.",
+          "caption": "Traditional yakgwa. The shape is pressed from a wooden mould, and the gloss is the honey syrup it soaks in after frying. Photo by Lawren00, CC BY-SA 3.0.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/128/yakgwa-yugwa-with-tea.jpg",
+          "alt": "Yakgwa and yugwa served together with tea on a traditional tray.",
+          "caption": "Yakgwa is normally served with tea rather than eaten alone — the tea is what keeps the sweetness manageable. Photo by Amsikle, CC BY-SA 2.0.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
           "url": "/assets/images/posts/128/128_03.jpg",
           "alt": "A modern yakgwa-topped ice cream dessert in a trendy cafe.",
           "caption": "",
@@ -4760,13 +4686,7 @@
           "exists": true
         }
       ],
-      "findings": [
-        {
-          "severity": "info",
-          "code": "MISSING_SOURCE_RECORD",
-          "detail": "public\\assets\\images\\posts\\128\\image-sources.md"
-        }
-      ]
+      "findings": []
     },
     {
       "type": "blog",
@@ -4927,15 +4847,29 @@
     {
       "type": "blog",
       "slug": "133",
-      "title": "PC Bang Guide: Food, Kiosk, Etiquette, and First Visit Tips",
+      "title": "How to Use a Korean PC Bang: Kiosk, Food, and Etiquette",
       "contentPath": "content\\blog\\133.md",
-      "sourceRecord": "",
-      "imageCount": 3,
+      "sourceRecord": "public\\assets\\images\\posts\\133\\image-sources.md",
+      "imageCount": 5,
       "images": [
         {
           "url": "/assets/images/posts/133/133_01.jpg",
           "alt": "Legacy EpicKor frame showing rows of gaming seats in a Korean PC room.",
           "caption": "A PC bang is built for long focus: screens, chairs, headsets, fast networks, and food within reach.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/133/pc-bang-interior-seats.jpg",
+          "alt": "Rows of gaming seats and monitors inside a Korean PC bang.",
+          "caption": "A Korean PC bang. Seats are numbered, and the number is what the kiosk and the food order both key off. Photo by MatthieuRicard, CC0.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/133/pc-bang-screens-and-desks.jpg",
+          "alt": "Desks and monitors in a PC bang, with keyboards, headsets and space beside each screen.",
+          "caption": "Note the space beside each keyboard. That is where the food goes — ordering to your seat is normal, not a novelty. Photo by MatthieuRicard, CC0.",
           "ext": ".jpg",
           "exists": true
         },
@@ -4954,13 +4888,7 @@
           "exists": true
         }
       ],
-      "findings": [
-        {
-          "severity": "info",
-          "code": "MISSING_SOURCE_RECORD",
-          "detail": "public\\assets\\images\\posts\\133\\image-sources.md"
-        }
-      ]
+      "findings": []
     },
     {
       "type": "blog",
@@ -5043,47 +4971,34 @@
     {
       "type": "blog",
       "slug": "136",
-      "title": "Korean Luxury Brands Guide: Best Labels and Seoul Map",
+      "title": "Korean Luxury Brands: What Actually Exists, and What to Buy in Seoul",
       "contentPath": "content\\blog\\136.md",
-      "sourceRecord": "",
-      "imageCount": 4,
+      "sourceRecord": "public\\assets\\images\\posts\\136\\image-sources.md",
+      "imageCount": 3,
       "images": [
         {
-          "url": "/assets/images/posts/136/136_01.jpg",
-          "alt": "Model wearing a signature Wooyoungmi oversized blazer",
-          "caption": "",
+          "url": "/assets/images/posts/136/seoul-shopping-mall-interior.jpg",
+          "alt": "A busy multi-level shopping complex interior with shoppers on escalators and glass-fronted stores.",
+          "caption": "Korean retail is unusually good at the environment around the product. That is not a side note — for one whole tier of Korean brands, it is the product. Photo by Tony Wu, Pexels.",
           "ext": ".jpg",
           "exists": true
         },
         {
-          "url": "/assets/images/posts/136/136_02.jpg",
-          "alt": "The sleek interior of a Wooyoungmi flagship store",
-          "caption": "",
+          "url": "/assets/images/posts/136/eyewear-retail-display.jpg",
+          "alt": "A wall of eyewear on retail display racks, arranged by frame shape.",
+          "caption": "Eyewear is the volume engine of Korea's new-luxury tier — over ₩600 billion of it a year, from one company. Photo via Kaboompics, Pexels.",
           "ext": ".jpg",
           "exists": true
         },
         {
-          "url": "/assets/images/posts/136/136_03.jpg",
-          "alt": "The artistic installation inside a Gentle Monster store",
-          "caption": "",
-          "ext": ".jpg",
-          "exists": true
-        },
-        {
-          "url": "/assets/images/posts/136/136_04.jpg",
-          "alt": "A person wearing futuristic Gentle Monster sunglasses",
-          "caption": "",
+          "url": "/assets/images/posts/136/seoul-street-posters-fashion.jpg",
+          "alt": "A pedestrian in Seoul reading posters on a city street, with layered urban signage behind.",
+          "caption": "Most of the interesting Korean retail is street-level and neighbourhood-scale rather than inside a mall. Plan on walking. Photo by Theodore Nguyen, Pexels.",
           "ext": ".jpg",
           "exists": true
         }
       ],
-      "findings": [
-        {
-          "severity": "info",
-          "code": "MISSING_SOURCE_RECORD",
-          "detail": "public\\assets\\images\\posts\\136\\image-sources.md"
-        }
-      ]
+      "findings": []
     },
     {
       "type": "blog",
@@ -5393,15 +5308,22 @@
     {
       "type": "blog",
       "slug": "145",
-      "title": "Naengmyeon Guide: Pyongyang, Hamheung, and How to Eat It",
+      "title": "Pyongyang vs Hamheung Naengmyeon: Which Korean Cold Noodle to Order",
       "contentPath": "content\\blog\\145.md",
-      "sourceRecord": "",
-      "imageCount": 3,
+      "sourceRecord": "public\\assets\\images\\posts\\145\\image-sources.md",
+      "imageCount": 5,
       "images": [
         {
           "url": "/assets/images/posts/145/145_01.jpg",
           "alt": "A legacy EpicKor naengmyeon frame comparing cold noodle styles.",
           "caption": "Naengmyeon looks simple, but the style changes dramatically by broth, sauce, noodle starch, and toppings.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/145/mul-naengmyeon-bowl.jpg",
+          "alt": "A bowl of mul-naengmyeon, buckwheat noodles in a clear chilled broth with sliced egg and vegetables.",
+          "caption": "Mul-naengmyeon. The broth is the dish — clear, cold, and deliberately restrained. Photo by lazy fri13th, CC BY 2.0.",
           "ext": ".jpg",
           "exists": true
         },
@@ -5413,6 +5335,13 @@
           "exists": true
         },
         {
+          "url": "/assets/images/posts/145/naengmyeon-served.jpg",
+          "alt": "Naengmyeon served at a Korean restaurant table with garnishes and condiments.",
+          "caption": "How it arrives at the table. Taste the broth before you reach for the vinegar or mustard. Photo by chomjong, CC BY 2.0.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
           "url": "/assets/images/posts/145/145_03.jpg",
           "alt": "A legacy EpicKor frame about seasoning cold noodles.",
           "caption": "Vinegar and mustard are useful, but the first sip should be the restaurant's version, not your edited version.",
@@ -5420,13 +5349,7 @@
           "exists": true
         }
       ],
-      "findings": [
-        {
-          "severity": "info",
-          "code": "MISSING_SOURCE_RECORD",
-          "detail": "public\\assets\\images\\posts\\145\\image-sources.md"
-        }
-      ]
+      "findings": []
     },
     {
       "type": "blog",
@@ -5674,8 +5597,8 @@
       "slug": "153",
       "title": "Isaac Toast Sauce: Korea's Famous Sweet Breakfast",
       "contentPath": "content\\blog\\153.md",
-      "sourceRecord": "",
-      "imageCount": 4,
+      "sourceRecord": "public\\assets\\images\\posts\\153\\image-sources.md",
+      "imageCount": 6,
       "images": [
         {
           "url": "/assets/images/posts/153/153_01.jpg",
@@ -5688,6 +5611,20 @@
           "url": "/assets/images/posts/153/153_02.jpg",
           "alt": "Close up of golden-brown Isaac Toast bread",
           "caption": "",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/153/sandwich-on-griddle.jpg",
+          "alt": "A sandwich cooking on a flat griddle, cheese melting between slices of bread.",
+          "caption": "The bread is griddled in butter on a flat top, not toasted. That surface is half of why the sauce reads the way it does. Photo by DAVE GARCIA, Pexels.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/153/isaac-toast-bacon-potato-pizza.jpg",
+          "alt": "An Isaac Toast bacon potato pizza toast, cut open to show the filling between grilled slices of bread.",
+          "caption": "Isaac Toast bacon potato pizza. The bread is griddled in butter, which is half of why the sauce works. Photo by 엔느맘, CC BY-SA 2.0 KR.",
           "ext": ".jpg",
           "exists": true
         },
@@ -5706,13 +5643,7 @@
           "exists": true
         }
       ],
-      "findings": [
-        {
-          "severity": "info",
-          "code": "MISSING_SOURCE_RECORD",
-          "detail": "public\\assets\\images\\posts\\153\\image-sources.md"
-        }
-      ]
+      "findings": []
     },
     {
       "type": "blog",
@@ -5763,78 +5694,52 @@
     {
       "type": "blog",
       "slug": "155",
-      "title": "MU:DS Korea Museum Goods Guide: Best Buys and Smart Tips",
+      "title": "MU:DS Guide: How to Buy Korea's National Museum Souvenirs and Get Them Home",
       "contentPath": "content\\blog\\155.md",
-      "sourceRecord": "",
-      "imageCount": 4,
+      "sourceRecord": "public\\assets\\images\\posts\\155\\image-sources.md",
+      "imageCount": 2,
       "images": [
         {
-          "url": "/assets/images/posts/155/155_01.jpg",
-          "alt": "Row of colorful Pensive Bodhisattva miniatures on a shelf",
-          "caption": "",
+          "url": "/assets/images/posts/155/pensive-bodhisattva-national-treasure-83.jpg",
+          "alt": "The gilt-bronze Pensive Bodhisattva, National Treasure No. 83, seated with one leg crossed and fingertips resting against the cheek.",
+          "caption": "The gilt-bronze Pensive Bodhisattva, National Treasure No. 83, late 6th century. The ₩65,000 miniature in the museum shop is a reproduction of this. Photo by Gary Lee Todd, CC0.",
           "ext": ".jpg",
           "exists": true
         },
         {
-          "url": "/assets/images/posts/155/155_02.jpg",
-          "alt": "Close up of the serene face of the Bodhisattva miniature",
-          "caption": "",
-          "ext": ".jpg",
-          "exists": true
-        },
-        {
-          "url": "/assets/images/posts/155/155_03.jpg",
-          "alt": "Elegant Goryeo Celadon-themed modern tableware",
-          "caption": "",
-          "ext": ".jpg",
-          "exists": true
-        },
-        {
-          "url": "/assets/images/posts/155/155_04.jpg",
-          "alt": "The modern, aesthetic interior of the MU:DS flagship store",
-          "caption": "",
+          "url": "/assets/images/posts/155/national-museum-of-korea-exterior.jpg",
+          "alt": "The National Museum of Korea in Yongsan, its long horizontal facade and central gateway seen from the approach.",
+          "caption": "The National Museum of Korea in Yongsan. The main MU:DS shop is inside, and admission to the permanent galleries is free. Photo by Tristan Surtel, CC BY-SA 4.0.",
           "ext": ".jpg",
           "exists": true
         }
       ],
-      "findings": [
-        {
-          "severity": "info",
-          "code": "MISSING_SOURCE_RECORD",
-          "detail": "public\\assets\\images\\posts\\155\\image-sources.md"
-        }
-      ]
+      "findings": []
     },
     {
       "type": "blog",
       "slug": "156",
-      "title": "Beatpella House Guide: Why This Korean Team Keeps Going Viral",
+      "title": "Beatpella House: How a Korean Beatbox Crew Reached 7.7 Million Subscribers",
       "contentPath": "content\\blog\\156.md",
-      "sourceRecord": "",
+      "sourceRecord": "public\\assets\\images\\posts\\156\\image-sources.md",
       "imageCount": 2,
       "images": [
         {
-          "url": "/assets/images/posts/156/156_01.jpg",
-          "alt": "Members of Beatpella House performing together in a studio",
-          "caption": "",
+          "url": "/assets/images/posts/156/condenser-microphones-studio.jpg",
+          "alt": "Three condenser microphones on stands arranged in a recording studio.",
+          "caption": "Everything in a beatpella recording comes out of a mouth and into a microphone. There is no drum machine anywhere in the chain. Photo by Andreu Marquès, Pexels.",
           "ext": ".jpg",
           "exists": true
         },
         {
-          "url": "/assets/images/posts/156/156_02.jpg",
-          "alt": "Close up of a member beatboxing into a professional microphone",
-          "caption": "",
+          "url": "/assets/images/posts/156/loop-station-pedalboard.jpg",
+          "alt": "A looper pedal on a floor with cables running from it.",
+          "caption": "A looper is a simple device with a brutal rule: the first layer decides the tempo, and nothing after it can be fixed. Photo by Vladyslav Dukhin, Pexels.",
           "ext": ".jpg",
           "exists": true
         }
       ],
-      "findings": [
-        {
-          "severity": "info",
-          "code": "MISSING_SOURCE_RECORD",
-          "detail": "public\\assets\\images\\posts\\156\\image-sources.md"
-        }
-      ]
+      "findings": []
     },
     {
       "type": "blog",
@@ -5930,32 +5835,32 @@
       "imageCount": 4,
       "images": [
         {
-          "url": "https://images.pexels.com/photos/33019230/pexels-photo-33019230.jpeg?auto=compress&cs=tinysrgb&w=1200",
+          "url": "/assets/images/posts/159/pexels-33019230.jpg",
           "alt": "Traditional Korean palace architecture in Seoul",
           "caption": "Photo by Saksham Vikram on Pexels",
-          "ext": ".jpeg",
-          "exists": null
+          "ext": ".jpg",
+          "exists": true
         },
         {
-          "url": "https://images.pexels.com/photos/29188029/pexels-photo-29188029.jpeg?auto=compress&cs=tinysrgb&w=1200",
+          "url": "/assets/images/posts/159/pexels-29188029.jpg",
           "alt": "Busan skyline and coastline at night",
           "caption": "Photo by Jhany Blue on Pexels",
-          "ext": ".jpeg",
-          "exists": null
+          "ext": ".jpg",
+          "exists": true
         },
         {
-          "url": "https://images.pexels.com/photos/29956384/pexels-photo-29956384.jpeg?auto=compress&cs=tinysrgb&w=1200",
+          "url": "/assets/images/posts/159/pexels-29956384.jpg",
           "alt": "Traditional Korean pavilion in Gyeongju at sunset",
           "caption": "Photo by WON JONG LEE on Pexels",
-          "ext": ".jpeg",
-          "exists": null
+          "ext": ".jpg",
+          "exists": true
         },
         {
-          "url": "https://images.pexels.com/photos/18023250/pexels-photo-18023250.jpeg?auto=compress&cs=tinysrgb&w=1200",
+          "url": "/assets/images/posts/159/pexels-18023250.jpg",
           "alt": "Traditional Jeju village with thatched houses and orange trees",
           "caption": "Photo by SOO CHUL PARK on Pexels",
-          "ext": ".jpeg",
-          "exists": null
+          "ext": ".jpg",
+          "exists": true
         }
       ],
       "findings": [
@@ -5996,6 +5901,38 @@
           "detail": "public\\assets\\images\\posts\\160\\image-sources.md"
         }
       ]
+    },
+    {
+      "type": "blog",
+      "slug": "161",
+      "title": "K-Beauty for Men: Simple Korean Grooming Routine",
+      "contentPath": "content\\blog\\161.md",
+      "sourceRecord": "public\\assets\\images\\posts\\161\\image-sources.md",
+      "imageCount": 3,
+      "images": [
+        {
+          "url": "/assets/images/posts/161/mens-skincare-moisturizer.jpg",
+          "alt": "A man applying moisturizer as part of a simple daily skincare routine",
+          "caption": "A useful Korean skincare routine starts with repeatable basics, not a crowded shelf. Photo by Ron Lach on Pexels.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/161/mens-face-cleansing.jpg",
+          "alt": "A man drying his face gently after cleansing",
+          "caption": "Pat the face dry after cleansing instead of rubbing irritated or freshly shaved skin. Photo by Ron Lach on Pexels.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/161/mens-skincare-mask.jpg",
+          "alt": "A man applying a facial mask in a bathroom",
+          "caption": "Masks and extra treatments come after the cleanser-moisturizer-sunscreen foundation is working. Photo by Ron Lach on Pexels.",
+          "ext": ".jpg",
+          "exists": true
+        }
+      ],
+      "findings": []
     },
     {
       "type": "blog",
@@ -6134,25 +6071,25 @@
       "imageCount": 3,
       "images": [
         {
-          "url": "https://images.pexels.com/photos/32001107/pexels-photo-32001107.jpeg?auto=compress&cs=tinysrgb&w=1200",
+          "url": "/assets/images/posts/166/pexels-32001107.jpg",
           "alt": "Individual waiting at a modern subway station in Suwon, South Korea",
           "caption": "Photo by Theodore Nguyen on Pexels",
-          "ext": ".jpeg",
-          "exists": null
+          "ext": ".jpg",
+          "exists": true
         },
         {
-          "url": "https://images.pexels.com/photos/31939734/pexels-photo-31939734.jpeg?auto=compress&cs=tinysrgb&w=1200",
+          "url": "/assets/images/posts/166/pexels-31939734.jpg",
           "alt": "People walking through lively streets in Suwon, South Korea",
           "caption": "Photo by Theodore Nguyen on Pexels",
-          "ext": ".jpeg",
-          "exists": null
+          "ext": ".jpg",
+          "exists": true
         },
         {
-          "url": "https://images.pexels.com/photos/32028728/pexels-photo-32028728.jpeg?auto=compress&cs=tinysrgb&w=1200",
+          "url": "/assets/images/posts/166/pexels-32028728.jpg",
           "alt": "Elderly couple walking on a hilly street in Seoul, South Korea",
           "caption": "Photo by Theodore Nguyen on Pexels",
-          "ext": ".jpeg",
-          "exists": null
+          "ext": ".jpg",
+          "exists": true
         }
       ],
       "findings": [
@@ -6168,38 +6105,32 @@
       "slug": "167",
       "title": "Best Korean Dramas 2026: What to Watch First Now",
       "contentPath": "content\\blog\\167.md",
-      "sourceRecord": "",
+      "sourceRecord": "public\\assets\\images\\posts\\167\\image-sources.md",
       "imageCount": 3,
       "images": [
         {
-          "url": "https://images.pexels.com/photos/4009401/pexels-photo-4009401.jpeg?auto=compress&cs=tinysrgb&w=1200",
-          "alt": "A couple watching Netflix together in a cozy living room",
-          "caption": "Photo by cottonbro studio on Pexels",
-          "ext": ".jpeg",
-          "exists": null
+          "url": "/assets/images/posts/167/byeon-woo-seok-2026.jpg",
+          "alt": "Byeon Woo-seok photographed at a press event in May 2026.",
+          "caption": "Byeon Woo-seok in May 2026, weeks after 21세기 대군부인 (Perfect Crown) finished its MBC run opposite IU. Photo by 티비텐 TV10, CC BY 3.0, via Wikimedia Commons.",
+          "ext": ".jpg",
+          "exists": true
         },
         {
-          "url": "https://images.pexels.com/photos/5202957/pexels-photo-5202957.jpeg?auto=compress&cs=tinysrgb&w=1200",
-          "alt": "A person using a remote with a television screen blurred in the background",
-          "caption": "Photo by Kaboompics.com on Pexels",
-          "ext": ".jpeg",
-          "exists": null
+          "url": "/assets/images/posts/167/park-eun-bin.jpg",
+          "alt": "Park Eun-bin photographed at a public appearance.",
+          "caption": "Park Eun-bin, who is carrying two of this list's entries — 오싹한 연애 (Spooky in Love), airing now, and the upcoming 원더풀스. Photo by KIYOUNG KIM, CC BY 2.0, via Wikimedia Commons.",
+          "ext": ".jpg",
+          "exists": true
         },
         {
-          "url": "https://images.pexels.com/photos/7991318/pexels-photo-7991318.jpeg?auto=compress&cs=tinysrgb&w=1200",
-          "alt": "People watching a movie in a theater with red seats",
-          "caption": "Photo by Tima Miroshnichenko on Pexels",
-          "ext": ".jpeg",
-          "exists": null
+          "url": "/assets/images/posts/167/son-ye-jin.jpg",
+          "alt": "Son Ye-jin photographed at the Bucheon International Fantastic Film Festival.",
+          "caption": "Son Ye-jin at the Bucheon International Fantastic Film Festival. She leads 스캔들 (Scandals). Photo by 티비텐 TV10, CC BY 3.0, via Wikimedia Commons.",
+          "ext": ".jpg",
+          "exists": true
         }
       ],
-      "findings": [
-        {
-          "severity": "info",
-          "code": "MISSING_SOURCE_RECORD",
-          "detail": "public\\assets\\images\\posts\\167\\image-sources.md"
-        }
-      ]
+      "findings": []
     },
     {
       "type": "blog",
@@ -6210,25 +6141,25 @@
       "imageCount": 3,
       "images": [
         {
-          "url": "https://images.pexels.com/photos/33222162/pexels-photo-33222162.jpeg?auto=compress&cs=tinysrgb&w=1200",
+          "url": "/assets/images/posts/168/pexels-33222162.jpg",
           "alt": "Rocky Korean mountain peaks above a green forest",
           "caption": "Photo by Nui MALAMA on Pexels",
-          "ext": ".jpeg",
-          "exists": null
+          "ext": ".jpg",
+          "exists": true
         },
         {
-          "url": "https://images.pexels.com/photos/31955751/pexels-photo-31955751.jpeg?auto=compress&cs=tinysrgb&w=1200",
+          "url": "/assets/images/posts/168/pexels-31955751.jpg",
           "alt": "A historic Korean fortress wall trail in Seoul",
           "caption": "Photo by Theodore Nguyen on Pexels",
-          "ext": ".jpeg",
-          "exists": null
+          "ext": ".jpg",
+          "exists": true
         },
         {
-          "url": "https://images.pexels.com/photos/31872726/pexels-photo-31872726.jpeg?auto=compress&cs=tinysrgb&w=1200",
+          "url": "/assets/images/posts/168/pexels-31872726.jpg",
           "alt": "A person looking over the Seoul skyline from a mountain viewpoint",
           "caption": "Photo by Theodore Nguyen on Pexels",
-          "ext": ".jpeg",
-          "exists": null
+          "ext": ".jpg",
+          "exists": true
         }
       ],
       "findings": [
@@ -6248,25 +6179,25 @@
       "imageCount": 3,
       "images": [
         {
-          "url": "https://images.pexels.com/photos/32196411/pexels-photo-32196411.jpeg?auto=compress&cs=tinysrgb&w=1200",
+          "url": "/assets/images/posts/169/pexels-32196411.jpg",
           "alt": "A lively Seoul shopping street with clothing and city movement",
           "caption": "Photo by Theodore Nguyen on Pexels",
-          "ext": ".jpeg",
-          "exists": null
+          "ext": ".jpg",
+          "exists": true
         },
         {
-          "url": "https://images.pexels.com/photos/31382339/pexels-photo-31382339.jpeg?auto=compress&cs=tinysrgb&w=1200",
+          "url": "/assets/images/posts/169/pexels-31382339.jpg",
           "alt": "A night street in Itaewon with restaurant signs and city lights",
           "caption": "Photo by Calvin Seng on Pexels",
-          "ext": ".jpeg",
-          "exists": null
+          "ext": ".jpg",
+          "exists": true
         },
         {
-          "url": "https://images.pexels.com/photos/35007594/pexels-photo-35007594.jpeg?auto=compress&cs=tinysrgb&w=1200",
+          "url": "/assets/images/posts/169/pexels-35007594.jpg",
           "alt": "A modern Seoul street with tall buildings and people crossing",
           "caption": "Photo by JW on Pexels",
-          "ext": ".jpeg",
-          "exists": null
+          "ext": ".jpg",
+          "exists": true
         }
       ],
       "findings": [
@@ -6280,31 +6211,31 @@
     {
       "type": "blog",
       "slug": "170",
-      "title": "Korean PC Bang Culture: Why Gaming Cafes Matter",
+      "title": "How Many PC Bangs Are in Korea? Count, Prices, and Rules",
       "contentPath": "content\\blog\\170.md",
       "sourceRecord": "",
       "imageCount": 3,
       "images": [
         {
-          "url": "https://images.pexels.com/photos/7915277/pexels-photo-7915277.jpeg?auto=compress&cs=tinysrgb&w=1200",
+          "url": "/assets/images/posts/170/pexels-7915277.jpg",
           "alt": "A group of gamers focused in a modern gaming lounge",
           "caption": "Photo by RDNE Stock project on Pexels",
-          "ext": ".jpeg",
-          "exists": null
+          "ext": ".jpg",
+          "exists": true
         },
         {
-          "url": "https://images.pexels.com/photos/9072248/pexels-photo-9072248.jpeg?auto=compress&cs=tinysrgb&w=1200",
+          "url": "/assets/images/posts/170/pexels-9072248.jpg",
           "alt": "Players gaming together in an internet cafe setting",
           "caption": "Photo by Yan Krukau on Pexels",
-          "ext": ".jpeg",
-          "exists": null
+          "ext": ".jpg",
+          "exists": true
         },
         {
-          "url": "https://images.pexels.com/photos/28993052/pexels-photo-28993052.jpeg?auto=compress&cs=tinysrgb&w=1200",
+          "url": "/assets/images/posts/170/pexels-28993052.jpg",
           "alt": "A close-up gaming setup with colorful PC accessories",
           "caption": "Photo by Matheus Bertelli on Pexels",
-          "ext": ".jpeg",
-          "exists": null
+          "ext": ".jpg",
+          "exists": true
         }
       ],
       "findings": [
@@ -6324,18 +6255,18 @@
       "imageCount": 2,
       "images": [
         {
-          "url": "https://images.pexels.com/photos/31735910/pexels-photo-31735910.jpeg?auto=compress&cs=tinysrgb&w=1200",
-          "alt": "Vibrant assortment of Korean drinks in a convenience store fridge in Seoul, South Korea.",
+          "url": "/assets/images/posts/171/korean-convenience-store-breakfast.jpg",
+          "alt": "A convenience store fridge in Seoul filled with Korean drinks.",
           "caption": "A Korean convenience store drink fridge can become part of a very normal breakfast plan. Photo by Theodore Nguyen on Pexels.",
-          "ext": ".jpeg",
-          "exists": null
+          "ext": ".jpg",
+          "exists": true
         },
         {
-          "url": "https://images.pexels.com/photos/33675546/pexels-photo-33675546.jpeg?auto=compress&cs=tinysrgb&w=1200",
-          "alt": "A cozy breakfast plate with bread, eggs, and coffee.",
-          "caption": "Not every Korean convenience store breakfast looks this polished, but bread, egg, and coffee are part of the lighter morning logic many travelers recognize. Photo by Viridiana Rivera on Pexels.",
-          "ext": ".jpeg",
-          "exists": null
+          "url": "/assets/images/posts/171/convenience-store-meal-tray.jpg",
+          "alt": "A Korean convenience store meal tray with rice, side dishes and a drink.",
+          "caption": "A convenience store meal as it is actually sold in Korea — compartments, a drink, and a microwave twenty seconds away. Photo by Republic of Korea (Korea.net), CC BY-SA 2.0.",
+          "ext": ".jpg",
+          "exists": true
         }
       ],
       "findings": [
@@ -6355,25 +6286,25 @@
       "imageCount": 3,
       "images": [
         {
-          "url": "https://images.pexels.com/photos/34688717/pexels-photo-34688717.png?auto=compress&cs=tinysrgb&w=1200",
+          "url": "/assets/images/posts/172/pexels-34688717.jpg",
           "alt": "Diverse selection of Korean BBQ meats and sides on an indoor restaurant table.",
           "caption": "Korean BBQ is built around shared meat, side dishes, sauces, and table rhythm. Photo from Pexels.",
-          "ext": ".png",
-          "exists": null
+          "ext": ".jpg",
+          "exists": true
         },
         {
-          "url": "https://images.pexels.com/photos/23383499/pexels-photo-23383499.jpeg?auto=compress&cs=tinysrgb&w=1200",
+          "url": "/assets/images/posts/172/pexels-23383499.jpg",
           "alt": "Close-up of raw beef on a Korean BBQ grill under a restaurant hood.",
           "caption": "Watch how the first round is handled before taking control of the grill. Photo by Rebel Sam Photos on Pexels.",
-          "ext": ".jpeg",
-          "exists": null
+          "ext": ".jpg",
+          "exists": true
         },
         {
-          "url": "https://images.pexels.com/photos/5785545/pexels-photo-5785545.jpeg?auto=compress&cs=tinysrgb&w=1200",
+          "url": "/assets/images/posts/172/pexels-5785545.jpg",
           "alt": "Korean barbecue with grilled meat, onions, kimchi, and side dishes.",
           "caption": "The best Korean BBQ bites are balanced: meat, freshness, sauce, acidity, and heat. Photo by Jason Kim on Pexels.",
-          "ext": ".jpeg",
-          "exists": null
+          "ext": ".jpg",
+          "exists": true
         }
       ],
       "findings": [
@@ -6459,32 +6390,32 @@
       "imageCount": 4,
       "images": [
         {
-          "url": "https://images.pexels.com/photos/31892087/pexels-photo-31892087.jpeg?auto=compress&cs=tinysrgb&w=1200",
+          "url": "/assets/images/posts/174/pexels-31892087.jpg",
           "alt": "A Seoul subway platform with passengers waiting near screen doors.",
           "caption": "Seoul subway etiquette is not only about knowing the route. It is about moving with the local flow once you are on the platform.",
-          "ext": ".jpeg",
-          "exists": null
+          "ext": ".jpg",
+          "exists": true
         },
         {
-          "url": "https://images.pexels.com/photos/31768200/pexels-photo-31768200.jpeg?auto=compress&cs=tinysrgb&w=1200",
+          "url": "/assets/images/posts/174/pexels-31768200.jpg",
           "alt": "Commuters move through a Seoul subway station in warm afternoon light.",
           "caption": "The easiest way to move well in a Seoul station is to follow the crowd's direction instead of stopping in the middle of it. Photo by Theodore Nguyen on Pexels.",
-          "ext": ".jpeg",
-          "exists": null
+          "ext": ".jpg",
+          "exists": true
         },
         {
-          "url": "https://images.pexels.com/photos/31826590/pexels-photo-31826590.jpeg?auto=compress&cs=tinysrgb&w=1200",
+          "url": "/assets/images/posts/174/pexels-31826590.jpg",
           "alt": "Commuters walk through a Seoul subway station corridor.",
           "caption": "Large Seoul stations can feel like small underground districts. Step aside before checking your route. Photo by Theodore Nguyen on Pexels.",
-          "ext": ".jpeg",
-          "exists": null
+          "ext": ".jpg",
+          "exists": true
         },
         {
-          "url": "https://images.pexels.com/photos/31768195/pexels-photo-31768195.jpeg?auto=compress&cs=tinysrgb&w=1200",
+          "url": "/assets/images/posts/174/pexels-31768195.jpg",
           "alt": "Passengers walk toward an exit inside a Seoul subway station.",
           "caption": "The best Seoul subway habit is simple: step aside, check your route, then rejoin the flow. Photo by Theodore Nguyen on Pexels.",
-          "ext": ".jpeg",
-          "exists": null
+          "ext": ".jpg",
+          "exists": true
         }
       ],
       "findings": [
@@ -6498,31 +6429,31 @@
     {
       "type": "blog",
       "slug": "175",
-      "title": "Korean Traditional Markets: Namdaemun and Dongdaemun Guide",
+      "title": "Namdaemun vs Dongdaemun: Which Seoul Market to Visit",
       "contentPath": "content\\blog\\175.md",
       "sourceRecord": "",
       "imageCount": 3,
       "images": [
         {
-          "url": "https://images.pexels.com/photos/31955755/pexels-photo-31955755.jpeg?auto=compress&cs=tinysrgb&w=1200",
+          "url": "/assets/images/posts/175/pexels-31955755.jpg",
           "alt": "Explore a vibrant street market in Seoul with local vendors and colorful displays.",
           "caption": "Seoul's traditional markets still work because they are not only attractions. They are places where shopping, food, labor, and local routine overlap.",
-          "ext": ".jpeg",
-          "exists": null
+          "ext": ".jpg",
+          "exists": true
         },
         {
-          "url": "https://images.pexels.com/photos/32196411/pexels-photo-32196411.jpeg?auto=compress&cs=tinysrgb&w=1200",
+          "url": "/assets/images/posts/175/pexels-32196411.jpg",
           "alt": "Vibrant street market in Seoul showcasing colorful clothing and lively urban life.",
           "caption": "Dongdaemun is easiest to understand when you stop treating it as one market and start seeing it as a fashion district with retail, wholesale, design, and logistics layered together.",
-          "ext": ".jpeg",
-          "exists": null
+          "ext": ".jpg",
+          "exists": true
         },
         {
-          "url": "https://images.pexels.com/photos/31826555/pexels-photo-31826555.jpeg?auto=compress&cs=tinysrgb&w=1200",
+          "url": "/assets/images/posts/175/pexels-31826555.jpg",
           "alt": "A dedicated Korean vendor preparing food in a bustling Seoul market, showcasing Korean culture and street food.",
           "caption": "The best market visit usually has one clear mission: eat, browse, buy gifts, study fashion, or simply watch the city work.",
-          "ext": ".jpeg",
-          "exists": null
+          "ext": ".jpg",
+          "exists": true
         }
       ],
       "findings": [
@@ -6581,25 +6512,25 @@
       "imageCount": 3,
       "images": [
         {
-          "url": "https://images.pexels.com/photos/31736001/pexels-photo-31736001.jpeg?auto=compress&cs=tinysrgb&w=1200",
+          "url": "/assets/images/posts/177/pexels-31736001.jpg",
           "alt": "A tray of coffee drinks and dessert-style cafe beverages in Seoul.",
           "caption": "Korean cafes often treat drinks, dessert, table space, and visual design as one experience. Photo by Theodore Nguyen on Pexels.",
-          "ext": ".jpeg",
-          "exists": null
+          "ext": ".jpg",
+          "exists": true
         },
         {
-          "url": "https://images.pexels.com/photos/4847619/pexels-photo-4847619.jpeg?auto=compress&cs=tinysrgb&w=1200",
+          "url": "/assets/images/posts/177/pexels-4847619.jpg",
           "alt": "A traditional-looking cafe facade on a Seoul street.",
           "caption": "Some Seoul cafes lean into traditional architecture, while others use industrial, minimal, or concept-store design. Photo by Markus Winkler on Pexels.",
-          "ext": ".jpeg",
-          "exists": null
+          "ext": ".jpg",
+          "exists": true
         },
         {
-          "url": "https://images.pexels.com/photos/33895897/pexels-photo-33895897.jpeg?auto=compress&cs=tinysrgb&w=1200",
+          "url": "/assets/images/posts/177/pexels-33895897.jpg",
           "alt": "People chatting inside a Seoul cafe with city views nearby.",
           "caption": "The cafe is often where a Seoul day slows down enough for real conversation. Photo by Mohammed Mehdaoui on Pexels.",
-          "ext": ".jpeg",
-          "exists": null
+          "ext": ".jpg",
+          "exists": true
         }
       ],
       "findings": [
@@ -6651,25 +6582,25 @@
       "imageCount": 3,
       "images": [
         {
-          "url": "https://images.pexels.com/photos/6919669/pexels-photo-6919669.jpeg?auto=compress&cs=tinysrgb&w=1200",
+          "url": "/assets/images/posts/179/pexels-6919669.jpg",
           "alt": "Friends clinking small soju glasses at a Korean drinking table.",
           "caption": "Soju is the drink most visitors notice first, but the social table matters more than the bottle. Photo by Mizzu Cho on Pexels.",
-          "ext": ".jpeg",
-          "exists": null
+          "ext": ".jpg",
+          "exists": true
         },
         {
-          "url": "https://images.pexels.com/photos/12913663/pexels-photo-12913663.jpeg?auto=compress&cs=tinysrgb&w=1200",
+          "url": "/assets/images/posts/179/pexels-12913663.jpg",
           "alt": "Korean pajeon served with dipping sauce at a casual restaurant table.",
           "caption": "Pajeon is one of the classic anju foods that makes makgeolli nights feel slower and more table-centered. Photo by FOX on Pexels.",
-          "ext": ".jpeg",
-          "exists": null
+          "ext": ".jpg",
+          "exists": true
         },
         {
-          "url": "https://images.pexels.com/photos/37014613/pexels-photo-37014613.jpeg?auto=compress&cs=tinysrgb&w=1200",
+          "url": "/assets/images/posts/179/pexels-37014613.jpg",
           "alt": "Korean fried chicken served with soju bottles on a dark table.",
           "caption": "Fried chicken and soju show the casual anju side of Korean drinking culture: food first, drinks around it. Photo by John Benedict Malong on Pexels.",
-          "ext": ".jpeg",
-          "exists": null
+          "ext": ".jpg",
+          "exists": true
         }
       ],
       "findings": [
@@ -6689,25 +6620,25 @@
       "imageCount": 3,
       "images": [
         {
-          "url": "https://images.pexels.com/photos/20325769/pexels-photo-20325769.jpeg?auto=compress&cs=tinysrgb&w=1200",
+          "url": "/assets/images/posts/180/pexels-20325769.jpg",
           "alt": "Visitors walking through Bukchon Hanok Village beside traditional Korean architecture.",
           "caption": "Bukchon is photogenic because it still feels like a neighborhood, not because it was built as a photo set. Photo by Line Knipst on Pexels.",
-          "ext": ".jpeg",
-          "exists": null
+          "ext": ".jpg",
+          "exists": true
         },
         {
-          "url": "https://images.pexels.com/photos/33019244/pexels-photo-33019244.jpeg?auto=compress&cs=tinysrgb&w=1200",
+          "url": "/assets/images/posts/180/pexels-33019244.jpg",
           "alt": "Traditional hanok street in Seoul under clear skies.",
           "caption": "The best Bukchon photos usually come from stepping back, not from crowding a private doorway. Photo by Saksham Vikram on Pexels.",
-          "ext": ".jpeg",
-          "exists": null
+          "ext": ".jpg",
+          "exists": true
         },
         {
-          "url": "https://images.pexels.com/photos/20325768/pexels-photo-20325768.jpeg?auto=compress&cs=tinysrgb&w=1200",
+          "url": "/assets/images/posts/180/pexels-20325768.jpg",
           "alt": "A bustling Bukchon Hanok Village street with traditional Korean architecture.",
           "caption": "Bukchon works best when you move through it as a neighborhood walk, not as a single-photo mission. Photo by Line Knipst on Pexels.",
-          "ext": ".jpeg",
-          "exists": null
+          "ext": ".jpg",
+          "exists": true
         }
       ],
       "findings": [
@@ -6721,7 +6652,7 @@
     {
       "type": "blog",
       "slug": "181",
-      "title": "Korean Webtoons Guide: Naver, Manhwa, Netflix Adaptations",
+      "title": "Korean Webtoons Explained: Manhwa vs Manga, and How to Read",
       "contentPath": "content\\blog\\181.md",
       "sourceRecord": "",
       "imageCount": 3,
@@ -6741,11 +6672,11 @@
           "exists": true
         },
         {
-          "url": "https://images.pexels.com/photos/19714663/pexels-photo-19714663.jpeg?auto=compress&cs=tinysrgb&w=1200",
+          "url": "/assets/images/posts/181/pexels-19714663.jpg",
           "alt": "A dramatic view of Starfield Library in Seoul with tall shelves and warm interior lighting.",
           "caption": "Korea's story culture now moves between bookshelves, phone screens, streaming platforms, and global fandoms. Photo by Line Knipst on Pexels.",
-          "ext": ".jpeg",
-          "exists": null
+          "ext": ".jpg",
+          "exists": true
         }
       ],
       "findings": [
@@ -6765,25 +6696,25 @@
       "imageCount": 3,
       "images": [
         {
-          "url": "https://images.pexels.com/photos/7845232/pexels-photo-7845232.jpeg?auto=compress&cs=tinysrgb&w=1200",
+          "url": "/assets/images/posts/182/pexels-7845232.jpg",
           "alt": "Asian colleagues discuss work across office partitions in a modern workplace.",
           "caption": "Korean office culture is often less about individual job titles and more about how people read the room, manage rank, and protect the team rhythm. Photo by RDNE Stock project on Pexels.",
-          "ext": ".jpeg",
-          "exists": null
+          "ext": ".jpg",
+          "exists": true
         },
         {
-          "url": "https://images.pexels.com/photos/8547226/pexels-photo-8547226.jpeg?auto=compress&cs=tinysrgb&w=1200",
+          "url": "/assets/images/posts/182/pexels-8547226.jpg",
           "alt": "An Asian businesswoman looks stressed during an office discussion with colleagues.",
           "caption": "The hardest part of Korean office life is often not one dramatic deadline. It is the quiet accumulation of rank, timing, messages, and unspoken expectations. Photo by Kaboompics.com on Pexels.",
-          "ext": ".jpeg",
-          "exists": null
+          "ext": ".jpg",
+          "exists": true
         },
         {
-          "url": "https://images.pexels.com/photos/31663813/pexels-photo-31663813.jpeg?auto=compress&cs=tinysrgb&w=1200",
+          "url": "/assets/images/posts/182/pexels-31663813.jpg",
           "alt": "A warm interior of a traditional Korean restaurant in Seoul with staff preparing tables.",
           "caption": "A Korean restaurant can become an unofficial extension of the office, especially when hoesik moves from dinner to beer, fried chicken, and second-round conversation. Photo by Theodore Nguyen on Pexels.",
-          "ext": ".jpeg",
-          "exists": null
+          "ext": ".jpg",
+          "exists": true
         }
       ],
       "findings": [
@@ -6800,28 +6731,35 @@
       "title": "Seoul Heatwave Travel: How to Stay Cool in Korea's Summer",
       "contentPath": "content\\blog\\183.md",
       "sourceRecord": "",
-      "imageCount": 3,
+      "imageCount": 4,
       "images": [
         {
-          "url": "https://mediahub.seoul.go.kr/uploads/mediahub/2025/08/mhBBBQdIOaRczDfLwIfPlzQVzZqnmMQo.jpg",
+          "url": "/assets/images/posts/183/seoul-heatwave-summer.jpg",
+          "alt": "Hongdae Street in Seoul with summer-night crowds and sleeveless tops visible in the foreground.",
+          "caption": "Seoul is a walking city, but summer walking needs shade, subway breaks, and clothes light enough for real heat. Photo by Karsten Torrefiel on Unsplash.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/183/seoul-mediahub-1.jpg",
           "alt": "People walking through Seoul Light DDP on a hot summer night in Dongdaemun.",
           "caption": "Seoul's tropical nights are not empty nights. People still gather outside, but the better plan is to move slowly, carry water, and choose places with nearby indoor exits. Photo via Seoul Metropolitan Government MediaHub.",
           "ext": ".jpg",
-          "exists": null
+          "exists": true
         },
         {
-          "url": "https://mediahub.seoul.go.kr/uploads/mediahub/2024/06/WQrKqPplJlTkzhqqiMdMgPulZpgmyhLa.jpg",
+          "url": "/assets/images/posts/183/seoul-mediahub-2.jpg",
           "alt": "Crowds sitting along Cheonggyecheon during Seoul Outdoor Library's summer night program.",
           "caption": "On summer nights, Seoul often shifts from exposed daytime walking to illuminated public spaces like Cheonggyecheon. Photo via Seoul Metropolitan Government MediaHub.",
           "ext": ".jpg",
-          "exists": null
+          "exists": true
         },
         {
-          "url": "https://mediahub.seoul.go.kr/uploads/mediahub/2024/05/QNutHxadaXppiaOpwrZCUhkrytmOdmIo.jpg",
+          "url": "/assets/images/posts/183/seoul-mediahub-3.jpg",
           "alt": "People relaxing outdoors at Gwanghwamun's Seoul Outdoor Library on a warm summer night.",
           "caption": "Summer Seoul rewards travelers who treat night air, shade, transit, and nearby convenience stores as part of the route. Photo via Seoul Metropolitan Government MediaHub.",
           "ext": ".jpg",
-          "exists": null
+          "exists": true
         }
       ],
       "findings": [
@@ -6886,18 +6824,18 @@
       "imageCount": 2,
       "images": [
         {
-          "url": "https://mediahub.seoul.go.kr/uploads/mediahub/2025/05/yFHmOtNOzYnLOkvBkrvGhkLfKGHqsFlN.jpg",
+          "url": "/assets/images/posts/185/seoul-mediahub-hero.jpg",
           "alt": "Participants sitting still at the 2025 Hangang Space-Out Competition on Jamsu Bridge.",
           "caption": "The Space-out Competition, or 멍때리기 대회, makes doing nothing visible enough to become a Seoul cultural image. Photo by Jang Shin-ja via Seoul Metropolitan Government's MediaHub.",
           "ext": ".jpg",
-          "exists": null
+          "exists": true
         },
         {
-          "url": "https://mediahub.seoul.go.kr/uploads/mediahub/2025/05/fCbAhHlgwGoGOoPgdKihhJiqatcrSQGD.jpg",
+          "url": "/assets/images/posts/185/seoul-mediahub-1.jpg",
           "alt": "A wide scene from the 2025 Hangang Space-Out Competition before the main contest begins.",
           "caption": "A real event scene makes the point clearer than a generic park image: this is not just resting, it is a named Seoul cultural event. Photo by Jang Shin-ja via Seoul Metropolitan Government's MediaHub.",
           "ext": ".jpg",
-          "exists": null
+          "exists": true
         }
       ],
       "findings": [
@@ -7817,7 +7755,7 @@
     {
       "type": "blog",
       "slug": "210",
-      "title": "Oppa, Samchon, Ahjussi: Korean Male Terms Explained",
+      "title": "What to Call a Stranger in Korea: Jeogiyo, Sajangnim, Imo",
       "contentPath": "content\\blog\\210.md",
       "sourceRecord": "",
       "imageCount": 4,
@@ -8471,7 +8409,7 @@
     {
       "type": "blog",
       "slug": "227",
-      "title": "Korea Post EMS Guide 2026: Ship Souvenirs Home",
+      "title": "Shipping From Korea to the US: 15% Duty, Prepaid, and What It Costs",
       "contentPath": "content\\blog\\227.md",
       "sourceRecord": "public\\assets\\images\\posts\\227\\image-sources.md",
       "imageCount": 3,
@@ -9354,7 +9292,7 @@
     {
       "type": "blog",
       "slug": "250",
-      "title": "K-Wellness Snacks 2026: Protein, Tea, Zero Sugar",
+      "title": "Korean Wellness Snacks 2026: Protein, Tea, and Zero Sugar",
       "contentPath": "content\\blog\\250.md",
       "sourceRecord": "public\\assets\\images\\posts\\250\\image-sources.md",
       "imageCount": 4,
@@ -9581,7 +9519,7 @@
     {
       "type": "blog",
       "slug": "256",
-      "title": "Ajeossi Movie Explained: The Man from Nowhere And Won Bin",
+      "title": "Ajeossi Movie Explained: Korea's The Man from Nowhere and Won Bin",
       "contentPath": "content\\blog\\256.md",
       "sourceRecord": "public\\assets\\images\\posts\\256\\image-sources.md",
       "imageCount": 4,
@@ -9620,7 +9558,7 @@
     {
       "type": "blog",
       "slug": "257",
-      "title": "Incheon Airport Layover Guide 2026: Rest, Food, Transit",
+      "title": "Incheon Airport Layover Guide 2026: Rest, Food, and Seoul Transit",
       "contentPath": "content\\blog\\257.md",
       "sourceRecord": "public\\assets\\images\\posts\\257\\image-sources.md",
       "imageCount": 4,
@@ -9701,12 +9639,26 @@
       "title": "Korean Bingsu Guide 2026: Patbingsu And Summer Orders",
       "contentPath": "content\\blog\\259.md",
       "sourceRecord": "public\\assets\\images\\posts\\259\\image-sources.md",
-      "imageCount": 2,
+      "imageCount": 4,
       "images": [
         {
           "url": "/assets/images/posts/259/watermelon-shaved-ice-dessert.jpg",
           "alt": "A watermelon shaved ice dessert with fruit and a cold drink.",
           "caption": "Modern bingsu often leads with fruit, but the best bowls still balance ice texture, sweetness, and toppings.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/259/korean-bingsu-close-up.jpg",
+          "alt": "A bowl of Korean bingsu topped with fruit and syrup, two spoons resting in the shaved ice.",
+          "caption": "Bingsu arrives built, and it arrives shared — two spoons is the default, not a request. Photo by makafood, Pexels.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/259/bingsu-and-iced-coffee-cafe.jpg",
+          "alt": "A bowl of bingsu on a cafe table beside a glass of iced coffee.",
+          "caption": "The standard Korean cafe order in summer: one bingsu between two people, plus an iced americano each. Photo by J Kim, Pexels.",
           "ext": ".jpg",
           "exists": true
         },
@@ -9836,12 +9788,19 @@
       "title": "Samgyetang And Boknal 2026: Korea's Hot Summer Soup",
       "contentPath": "content\\blog\\263.md",
       "sourceRecord": "public\\assets\\images\\posts\\263\\image-sources.md",
-      "imageCount": 4,
+      "imageCount": 6,
       "images": [
         {
           "url": "/assets/images/posts/263/ginseng-chicken-soup-kocis.jpg",
           "alt": "A bowl of Korean ginseng chicken soup served hot with a whole chicken and broth.",
           "caption": "Samgyetang is a Korean summer comfort food built around a whole young chicken, rice, garlic, jujube, and ginseng.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/263/samgyetang-whole-chicken-soup.jpg",
+          "alt": "A whole young chicken in a stone bowl of clear samgyetang broth.",
+          "caption": "A classic bowl. The chicken is whole and stuffed, and the broth is deliberately pale — the seasoning happens at the table, not in the pot. Photo by wizdata, CC0.",
           "ext": ".jpg",
           "exists": true
         },
@@ -9860,6 +9819,13 @@
           "exists": true
         },
         {
+          "url": "/assets/images/posts/263/jeju-samgyetang-with-abalone.jpg",
+          "alt": "A Jeju-style samgyetang served with abalone alongside the chicken.",
+          "caption": "The Jeju variant adds abalone. Regional versions like this are the main reason two bowls of \"samgyetang\" can look nothing alike. Photo by Chae Ji-hyung, CC BY 4.0.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
           "url": "/assets/images/posts/263/samgyetang-stuffed-chicken.jpg",
           "alt": "A whole chicken is stuffed with rice, garlic, jujubes, and ginseng before simmering for samgyetang.",
           "caption": "At home, the key technique is simple but specific: stuff loosely, simmer gently, and let the rice absorb the broth.",
@@ -9872,7 +9838,7 @@
     {
       "type": "blog",
       "slug": "264",
-      "title": "Daejeon Day Trip 2026: Science City, Sungsimdang, And KTX",
+      "title": "Daejeon Day Trip 2026: Korea's Science City, Sungsimdang, and KTX",
       "contentPath": "content\\blog\\264.md",
       "sourceRecord": "public\\assets\\images\\posts\\264\\image-sources.md",
       "imageCount": 4,
@@ -10426,7 +10392,7 @@
     {
       "type": "blog",
       "slug": "280",
-      "title": "Korean Tea and Grain Drinks Guide 2026: Boricha to Yuja",
+      "title": "Korean Barley Tea vs Corn Tea, and the Rest of the Grain Drinks",
       "contentPath": "content\\blog\\280.md",
       "sourceRecord": "public\\assets\\images\\posts\\280\\image-sources.md",
       "imageCount": 4,
@@ -10471,8 +10437,8 @@
       "imageCount": 4,
       "images": [
         {
-          "url": "/assets/images/posts/281/korean-dosirak-meal.jpg",
-          "alt": "A Korean home-style dosirak meal with rice, side dishes, and metal utensils.",
+          "url": "/assets/images/posts/281/homemade-dosirak-gangneung.jpg",
+          "alt": "Home-packed dosirak boxes shared on a table at the Gangneung Olympic Museum staff room.",
           "caption": "A good dosirak is not a decoration project. It is rice plus small useful sides in a form you can actually carry and eat.",
           "ext": ".jpg",
           "exists": true
@@ -10504,7 +10470,7 @@
     {
       "type": "blog",
       "slug": "282",
-      "title": "Kimchi Jjigae at Home Guide 2026: Stew Packs and Tofu",
+      "title": "Korean Kimchi Jjigae at Home 2026: Stew Packs and Tofu",
       "contentPath": "content\\blog\\282.md",
       "sourceRecord": "public\\assets\\images\\posts\\282\\image-sources.md",
       "imageCount": 4,
@@ -11188,7 +11154,7 @@
     {
       "type": "blog",
       "slug": "301",
-      "title": "Ajumma Meaning: Is It Rude? Ahjumma, Ajumeoni, and Imo Explained",
+      "title": "Ajumma Meaning: Is This Korean Word Rude? Ahjumma and Imo Explained",
       "contentPath": "content\\blog\\301.md",
       "sourceRecord": "public\\assets\\images\\posts\\301\\image-sources.md",
       "imageCount": 4,
@@ -12045,6 +12011,1291 @@
       "findings": []
     },
     {
+      "type": "blog",
+      "slug": "326",
+      "title": "Korean Spice Levels Explained: How Hot Is Korean Food Really?",
+      "contentPath": "content\\blog\\326.md",
+      "sourceRecord": "public\\assets\\images\\posts\\326\\image-sources.md",
+      "imageCount": 4,
+      "images": [
+        {
+          "url": "/assets/images/posts/326/korean-street-food-noodles.jpg",
+          "alt": "Korean street food noodles displayed in a vibrant market setting.",
+          "caption": "Korean street food spans a much wider heat range than its reputation suggests. Photo by Theodore Nguyen on Pexels.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/326/spicy-korean-radish-kimchi.jpg",
+          "alt": "Korean radish kimchi in a white dish, coated in red chili seasoning.",
+          "caption": "Red does not mean hot. Radish kimchi looks fierce and sits low on the scale — the colour comes from gochugaru, which is mild by international standards. Photo by makafood, Pexels.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/326/korean-fried-chicken-tteokbokki.jpg",
+          "alt": "Korean fried chicken next to a pot of tteokbokki rice cakes in red sauce.",
+          "caption": "Fried chicken and tteokbokki side by side — two dishes with the same \"spicy\" label and completely different, recipe-dependent heat levels. Photo by Jeremy Li on Pexels.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/326/korean-side-dishes-spread.jpg",
+          "alt": "A spread of Korean side dishes including kimchi, greens and pickles in small bowls.",
+          "caption": "The banchan spread is the practical defence. Rice and the non-spicy side dishes are what actually reset your mouth mid-meal. Photo by makafood, Pexels.",
+          "ext": ".jpg",
+          "exists": true
+        }
+      ],
+      "findings": []
+    },
+    {
+      "type": "blog",
+      "slug": "327",
+      "title": "BTS Part 1: Seven Unknown Korean Trainees at a Label With No Money",
+      "contentPath": "content\\blog\\327.md",
+      "sourceRecord": "",
+      "imageCount": 3,
+      "images": [
+        {
+          "url": "/assets/images/posts/327/bts-worldcup-2026-group.png",
+          "alt": "BTS on the field at the 2026 FIFA World Cup Final, MetLife Stadium.",
+          "caption": "BTS at the 2026 FIFA World Cup Final. Photo provided by EpicKor's representative.",
+          "ext": ".png",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/327/bts-2013-yongsan-fansign.jpg",
+          "alt": "BTS members at a fansigning event in Yongsan, October 2013, shortly after debut.",
+          "caption": "BTS at a Yongsan fansigning, October 2013 — a few months after debut, still a rookie group with a modest fan turnout. Photo by Marshmallow9293, licensed CC BY 4.0, via Wikimedia Commons.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/327/bts-2013-melon-music-awards.jpg",
+          "alt": "BTS accepting the Best New Artist award at the 2013 Melon Music Awards.",
+          "caption": "BTS winning Best New Artist at the 2013 Melon Music Awards — their first industry recognition, five months after debut. Photo by HopeSmiling, licensed CC BY 4.0, via Wikimedia Commons.",
+          "ext": ".jpg",
+          "exists": true
+        }
+      ],
+      "findings": [
+        {
+          "severity": "info",
+          "code": "MISSING_SOURCE_RECORD",
+          "detail": "public\\assets\\images\\posts\\327\\image-sources.md"
+        }
+      ]
+    },
+    {
+      "type": "blog",
+      "slug": "328",
+      "title": "BTS Part 2: The Korean Group's English Gamble and the ARMY Machine",
+      "contentPath": "content\\blog\\328.md",
+      "sourceRecord": "",
+      "imageCount": 2,
+      "images": [
+        {
+          "url": "/assets/images/posts/328/bts-2017-bbma-press-conference.jpg",
+          "alt": "BTS backstage with their first Billboard Music Award trophy, May 2017.",
+          "caption": "BTS backstage after winning Top Social Artist at the 2017 Billboard Music Awards — their first American award show win, and the first time any K-pop act had been nominated for a Billboard Music Award at all. Photo via Ten Asia, licensed CC BY 3.0, via Wikimedia Commons.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/328/bts-2019-billboard-red-carpet.jpg",
+          "alt": "BTS on the Billboard Music Awards red carpet, May 2019, the year before Dynamite's Hot 100 No. 1.",
+          "caption": "BTS at the 2019 Billboard Music Awards — still building toward the Hot 100 peak that arrived the following year. Photo via Dispatch, licensed CC BY 3.0, via Wikimedia Commons.",
+          "ext": ".jpg",
+          "exists": true
+        }
+      ],
+      "findings": [
+        {
+          "severity": "info",
+          "code": "MISSING_SOURCE_RECORD",
+          "detail": "public\\assets\\images\\posts\\328\\image-sources.md"
+        }
+      ]
+    },
+    {
+      "type": "blog",
+      "slug": "329",
+      "title": "BTS Part 3: Korean Military Service, the 2026 Reunion, and the World Cup",
+      "contentPath": "content\\blog\\329.md",
+      "sourceRecord": "",
+      "imageCount": 3,
+      "images": [
+        {
+          "url": "/assets/images/posts/329/bts-2026-comeback-live-arirang.jpg",
+          "alt": "Crowds and security infrastructure at BTS's Comeback Live: Arirang concert, Gwanghwamun Plaza, March 21 2026.",
+          "caption": "The scale of BTS's first post-military-service concert, Gwanghwamun Plaza, Seoul, March 21 2026 — dense crowds, official crowd-control tents, and police coordination visible around the venue. Photo by Lee Jeong Woo, Ministry of Culture, Sports and Tourism, licensed CC BY-SA 4.0, via Wikimedia Commons.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/329/bts-2026-paris-comeover-stage.jpg",
+          "alt": "BTS performing on the center stage at Stade de France, Paris, July 17 2026 — two days before the World Cup Final.",
+          "caption": "BTS on stage at Stade de France, Paris, during \"Come Over,\" July 17, 2026 — two days before the group flew to New Jersey for the FIFA World Cup Final. Photo by Chiyako92, licensed CC BY-SA 4.0, via Wikimedia Commons.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/329/bts-2026-paris-idol-walkway.jpg",
+          "alt": "BTS walking the elevated runway through the crowd during \"Idol,\" Stade de France, Paris, July 17 2026.",
+          "caption": "BTS on the crowd runway during \"Idol,\" Stade de France, Paris, July 17, 2026. Photo by Chiyako92, licensed CC BY-SA 4.0, via Wikimedia Commons.",
+          "ext": ".jpg",
+          "exists": true
+        }
+      ],
+      "findings": [
+        {
+          "severity": "info",
+          "code": "MISSING_SOURCE_RECORD",
+          "detail": "public\\assets\\images\\posts\\329\\image-sources.md"
+        }
+      ]
+    },
+    {
+      "type": "blog",
+      "slug": "330",
+      "title": "Kkondae (꼰대) Explained: Korea's Word for the Boss Who Knows Best",
+      "contentPath": "content\\blog\\330.md",
+      "sourceRecord": "public\\assets\\images\\posts\\330\\image-sources.md",
+      "imageCount": 2,
+      "images": [
+        {
+          "url": "/assets/images/posts/330/seoul-businessmen-street.jpg",
+          "alt": "Three men in business coats walking down a Seoul side street past a mural-painted construction hoarding.",
+          "caption": "Seoul's office culture runs on rank and seniority — which is exactly the soil kkondae behavior grows in. Photo via Pexels.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/330/seoul-young-professional-rooftop.jpg",
+          "alt": "A young office worker in a suit stands on a Seoul rooftop, looking out over the city skyline.",
+          "caption": "Junior employees are usually the ones absorbing kkondae behavior, not producing it. Photo via Pexels.",
+          "ext": ".jpg",
+          "exists": true
+        }
+      ],
+      "findings": []
+    },
+    {
+      "type": "blog",
+      "slug": "331",
+      "title": "Korean Modern Art: The Painters Whose Work Now Sells for Millions",
+      "contentPath": "content\\blog\\331.md",
+      "sourceRecord": "public\\assets\\images\\posts\\331\\image-sources.md",
+      "imageCount": 3,
+      "images": [
+        {
+          "url": "/assets/images/posts/331/whanki-museum-exterior.jpg",
+          "alt": "Exterior of the Whanki Museum in Seoul, showing an exhibition banner reading Kim Whanki: The Immortal Nature.",
+          "caption": "The Whanki Museum in Buam-dong, Seoul — a dedicated single-artist museum built by the painter's own widow. Photo via Wikimedia Commons.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/331/mmca-seoul-exterior.jpg",
+          "alt": "Exterior of MMCA Seoul, the National Museum of Modern and Contemporary Art, Korea, with clear Korean and English signage.",
+          "caption": "MMCA Seoul is one of four branches of Korea's National Museum of Modern and Contemporary Art — the Deoksugung branch specifically focuses on this modern-era generation. Photo via Wikimedia Commons.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/331/leeum-museum-exterior.jpg",
+          "alt": "Interior atrium of the Leeum Museum of Art in Seoul with the Leeum sign visible in the background.",
+          "caption": "Leeum's Samsung-family collection includes real Kim Whanki canvases on display, not just a gift shop. Photo via Wikimedia Commons.",
+          "ext": ".jpg",
+          "exists": true
+        }
+      ],
+      "findings": []
+    },
+    {
+      "type": "blog",
+      "slug": "332",
+      "title": "Korean Trot Music Explained: Why the Retro Genre Had Its Biggest Comeback",
+      "contentPath": "content\\blog\\332.md",
+      "sourceRecord": "public\\assets\\images\\posts\\332\\image-sources.md",
+      "imageCount": 5,
+      "images": [
+        {
+          "url": "/assets/images/posts/332/song-ga-in-2020.png",
+          "alt": "Trot singer Song Ga-in holding a microphone at a 2020 concert-recording event in Seoul.",
+          "caption": "Song Ga-in, winner of Miss Trot 2019, at a concert recording session in Seoul, January 2020. Photo via Wikimedia Commons.",
+          "ext": ".png",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/332/nam-jin-portrait.jpg",
+          "alt": "Trot legend Nam Jin performing on stage with a microphone, singing under blue stage lights.",
+          "caption": "Nam Jin, one of trot's first genuine idols, performing decades into a career that began in the late 1960s. Photo via Wikimedia Commons.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/332/noraebang-screen.jpg",
+          "alt": "A real Korean noraebang machine screen displaying on-screen song lyrics mid-performance.",
+          "caption": "The interface every noraebang visitor sees mid-song — whether the next queued track is trot or K-pop. Photo via Wikimedia Commons.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/332/jang-yoon-jeong-2008.jpg",
+          "alt": "Singer Jang Yoon-jeong smiling and waving at the Golden Disk Awards red carpet in 2008.",
+          "caption": "Jang Yoon-jeong, whose song \"Eomeona\" is a noraebang staple, at the 2008 Golden Disk Awards. Photo via Wikimedia Commons.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/332/noraebang-screen.jpg",
+          "alt": "A real Korean noraebang machine screen displaying on-screen song lyrics mid-performance.",
+          "caption": "The interface every noraebang visitor sees mid-song — whether the next queued track is trot or K-pop. Photo via Wikimedia Commons.",
+          "ext": ".jpg",
+          "exists": true
+        }
+      ],
+      "findings": [
+        {
+          "severity": "medium",
+          "code": "DUPLICATE_BODY_IMAGE",
+          "detail": "1 repeated body reference(s)"
+        }
+      ]
+    },
+    {
+      "type": "blog",
+      "slug": "333",
+      "title": "Jindo Dog: Korea's National Treasure Breed",
+      "contentPath": "content\\blog\\333.md",
+      "sourceRecord": "public\\assets\\images\\posts\\333\\image-sources.md",
+      "imageCount": 2,
+      "images": [
+        {
+          "url": "/assets/images/posts/333/jindo-dog-theme-park.jpg",
+          "alt": "Real kennels and dogs at the Jindo Dog Theme Park and Research Center in Jindo-gun, South Korea.",
+          "caption": "The Jindo Dog Research and Testing Center in Jindo-gun — the actual facility responsible for evaluating and preserving the breed. Photo via Wikimedia Commons.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/333/jindo-dog-white.jpg",
+          "alt": "A white Korean Jindo dog standing in profile, showing the breed's erect ears and curled tail.",
+          "caption": "The breed's signature look: erect triangular ears, a tightly curled tail, and a double coat built for outdoor island life. Photo via Wikimedia Commons.",
+          "ext": ".jpg",
+          "exists": true
+        }
+      ],
+      "findings": []
+    },
+    {
+      "type": "blog",
+      "slug": "334",
+      "title": "Korea's Pet Funeral Industry: How Koreans Say Goodbye to Their Pets",
+      "contentPath": "content\\blog\\334.md",
+      "sourceRecord": "public\\assets\\images\\posts\\334\\image-sources.md",
+      "imageCount": 4,
+      "images": [
+        {
+          "url": "/assets/images/posts/334/memorial-candle-flowers.jpg",
+          "alt": "A burning candle beside white flowers and an open book, a warm memorial still life.",
+          "caption": "A funeral facility might look nothing like this, but the impulse behind it is universal. Photo via Pexels.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/334/korean-pet-dog-on-a-walk.jpg",
+          "alt": "A small white dog on a lead on a tree-lined path in a Korean park.",
+          "caption": "A pet on a walk in a Korean park. The industry described here exists because this became normal — the companion first, the services afterwards. Photo by 김은영, CC BY, via 공유마당.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/334/chrysanthemums-candlelight.jpg",
+          "alt": "White chrysanthemums beside candlelight, a still life associated with memorial occasions.",
+          "caption": "Chrysanthemums carry the same memorial association in Korea that they do in much of East Asia. Photo via Pexels.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/334/hand-holding-dog-paw.jpg",
+          "alt": "A person's hand gently holding a dog's paw, illustrating the companion-animal bond.",
+          "caption": "The bond the whole industry exists to honor. Photo via Pexels.",
+          "ext": ".jpg",
+          "exists": true
+        }
+      ],
+      "findings": []
+    },
+    {
+      "type": "blog",
+      "slug": "335",
+      "title": "Korean Convenience Store Ice Cream, Ranked",
+      "contentPath": "content\\blog\\335.md",
+      "sourceRecord": "public\\assets\\images\\posts\\335\\image-sources.md",
+      "imageCount": 3,
+      "images": [
+        {
+          "url": "/assets/images/posts/335/melona-original.jpg",
+          "alt": "Two green Melona ice cream bars held up against greenery, the honeydew-melon original flavor.",
+          "caption": "Melona, Korea's most exported convenience store ice cream, in its original honeydew-melon flavor. Photo via Wikimedia Commons.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/335/cu-store-ice-cream-section.jpg",
+          "alt": "The frozen snack section inside a real CU convenience store in South Korea, showing a Watermelon Bar and other packaged treats.",
+          "caption": "A real CU convenience store freezer basket — the Watermelon Bar's green-and-red package is visible on the left. Photo via Wikimedia Commons.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/335/cu-store-freezer.jpg",
+          "alt": "Inside a real CU convenience store freezer showing stacked plastic ice cups alongside candy.",
+          "caption": "The \"ice cup\" section of a real CU store — buy the cup of ice, add your own drink. Photo via Wikimedia Commons.",
+          "ext": ".jpg",
+          "exists": true
+        }
+      ],
+      "findings": []
+    },
+    {
+      "type": "blog",
+      "slug": "336",
+      "title": "Samgak Kimbap (Triangle Kimbap): The Engineering Behind Korea's Favorite Snack",
+      "contentPath": "content\\blog\\336.md",
+      "sourceRecord": "public\\assets\\images\\posts\\336\\image-sources.md",
+      "imageCount": 3,
+      "images": [
+        {
+          "url": "/assets/images/posts/336/samgak-kimbap-1.jpg",
+          "alt": "A real Korean samgak kimbap showing the numbered PULL 1, PULL 2, PULL 3 tabs on its plastic wrapper.",
+          "caption": "The numbered tabs are the whole trick — pull them in order and the seaweed only touches the rice at the last second. Photo via Wikimedia Commons.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/336/seoul-neighbourhood-convenience-store.jpg",
+          "alt": "A Seoul street corner with a neighbourhood convenience store and its outdoor plastic tables.",
+          "caption": "A neighbourhood convenience store in Seoul, tables out front. This is where a samgak kimbap is bought and, more often than not, eaten. Photo by 한국교육방송공사, CC BY, via 공유마당.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/336/samgak-kimbap-2.jpg",
+          "alt": "A second real Korean triangular kimbap, unwrapped, showing the seaweed and rice.",
+          "caption": "A real samgak kimbap, sourced from a Korean home cook's own photo. Photo via Wikimedia Commons.",
+          "ext": ".jpg",
+          "exists": true
+        }
+      ],
+      "findings": []
+    },
+    {
+      "type": "blog",
+      "slug": "337",
+      "title": "Korean Reality Dating Shows Compared: Single's Inferno vs. I Am Solo vs. Heart Signal",
+      "contentPath": "content\\blog\\337.md",
+      "sourceRecord": "public\\assets\\images\\posts\\337\\image-sources.md",
+      "imageCount": 3,
+      "images": [
+        {
+          "url": "/assets/images/posts/337/korean-skincare-products.jpg",
+          "alt": "Real Korean skincare product photography: a BB cream tube, applicator, and stacked retail boxes with Korean-market packaging.",
+          "caption": "Korean beauty press has run entire roundups naming the specific skincare and makeup cast members use on camera — a real, recurring angle in coverage of these shows. Photo via Pexels.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/337/jeju-island-coast.jpg",
+          "alt": "A real coastal view near Hamdeok, Jeju Island: calm turquoise water, a headland, and a golden-hour coastal walking path.",
+          "caption": "Jeju Island — the real location used for Single's Inferno's later \"Paradise\" segments and reportedly Transit Love's third season. Photo via Pexels.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/337/streaming-tv-living-room.jpg",
+          "alt": "A person holding a TV remote in front of a screen showing a blurred, generic multi-thumbnail streaming layout.",
+          "caption": "Four shows, four very different paces — worth knowing which one you're actually in the mood for before you press play. Photo via Pexels.",
+          "ext": ".jpg",
+          "exists": true
+        }
+      ],
+      "findings": []
+    },
+    {
+      "type": "blog",
+      "slug": "338",
+      "title": "Virtual K-pop Idols Compared: Which Groups Are Real People and Which Are AI",
+      "contentPath": "content\\blog\\338.md",
+      "sourceRecord": "public\\assets\\images\\posts\\338\\image-sources.md",
+      "imageCount": 3,
+      "images": [
+        {
+          "url": "/assets/images/posts/338/motion-capture-technology.jpg",
+          "alt": "A real person wearing a chroma-key motion-tracking bodysuit with tracking markers, seated in a studio setup.",
+          "caption": "Real-time motion capture is the actual technology behind PLAVE's live performances — a real human body driving a digital avatar, not pre-rendered animation. Photo via Pexels.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/338/gocheok-sky-dome.jpg",
+          "alt": "Interior of Gocheok Sky Dome in Seoul, showing the steel dome roof structure, seating bowl, and scoreboard during a live event.",
+          "caption": "Gocheok Sky Dome, Seoul — the real venue Isegye Idol sold out in May 2025, one of the clearest signs virtual-performer fandom has moved past novelty status. Photo via Wikimedia Commons.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/338/seoul-skyline-yeouido.jpg",
+          "alt": "A night view of the Seoul skyline and Han River, with Lotte World Tower lit up and a river bridge in the foreground.",
+          "caption": "Seoul — where PLAVE was named an official \"Startup Seoul\" ambassador in 2025, part of a broader civic bet on the city's virtual-entertainment industry. Photo via Pexels.",
+          "ext": ".jpg",
+          "exists": true
+        }
+      ],
+      "findings": []
+    },
+    {
+      "type": "blog",
+      "slug": "339",
+      "title": "Squid Game Filming Locations: The Real Seoul Spots You Can Actually Visit",
+      "contentPath": "content\\blog\\339.md",
+      "sourceRecord": "public\\assets\\images\\posts\\339\\image-sources.md",
+      "imageCount": 4,
+      "images": [
+        {
+          "url": "/assets/images/posts/339/studio-cube-daejeon-exterior.jpg",
+          "alt": "Exterior grounds view at Daejeon Expo Science Park, showing Hanbit Tower, the Expo Bridge, and the plaza gate — the public science park where the Studio Cube soundstage is located.",
+          "caption": "Daejeon Expo Science Park's public grounds. Studio Cube itself, the actual soundstage building where the game sets were built, sits inside this complex — but it's a working production facility, not a paid tour attraction. Photo via Wikimedia Commons.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/339/yangjae-citizens-forest-station.jpg",
+          "alt": "Entrance and exit 3 of Yangjae Citizen's Forest Station on Seoul's Sinbundang Line, with the Korean and English station name clearly visible on the canopy.",
+          "caption": "Yangjae Citizen's Forest Station — the actual, publicly reachable subway stop used for the ddakji recruitment scene. Photo via Wikimedia Commons.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/339/ifc-mall-yeouido.jpg",
+          "alt": "Wide river-level view of the Yeouido financial district skyline across the Han River, showing the Parc.1 twin towers and the Three IFC/IFC Mall tower cluster.",
+          "caption": "Yeouido's skyline from across the Han River — the real backdrop for Season 1's finale confrontation. Photo via Wikimedia Commons.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/339/namsan-park.jpg",
+          "alt": "N Seoul Tower rising above the wooded hillside of Namsan Park, seen from inside the park's walking trails.",
+          "caption": "Namsan Park — used for Season 1's outdoor scenes, and also home to N Seoul Tower.* *Photo via Wikimedia Commons.",
+          "ext": ".jpg",
+          "exists": true
+        }
+      ],
+      "findings": []
+    },
+    {
+      "type": "blog",
+      "slug": "340",
+      "title": "Yongwangsan Skywalk vs N Seoul Tower: Seoul's Free New Night View, Compared",
+      "contentPath": "content\\blog\\340.md",
+      "sourceRecord": "public\\assets\\images\\posts\\340\\image-sources.md",
+      "imageCount": 4,
+      "images": [
+        {
+          "url": "/assets/images/posts/340/seoul-han-river-night-view.jpg",
+          "alt": "A night view of Seoul's illuminated skyline reflected over the Han River.",
+          "caption": "Seoul's skyline at night. Photo via Pexels.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/340/namsan-park-elevated-walkway-autumn.jpg",
+          "alt": "A real elevated hillside walkway through autumn foliage in Namsan Park, Seoul.",
+          "caption": "Seoul already has a handful of elevated hillside park walkways like this one in Namsan Park — Yongwangsan's new deck adds a free, LED-lit version to that same category in a different part of the city. Photo via Pexels.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/340/namsan-seoul-tower-night.jpg",
+          "alt": "N Seoul Tower on Namsan at night with fireworks bursting beside it.",
+          "caption": "N Seoul Tower on Namsan during the Seoul fireworks festival. This is the view Yongwangsan is being compared against — and the night everyone tries to see it. Photo by Gije Cho, Pexels.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/340/seoul-night-skyline-maebongsan-park.jpg",
+          "alt": "Night skyline view from Maebongsan Park, another Seoul mountain-park viewpoint.",
+          "caption": "Seoul has several neighborhood mountain parks with their own night views — Maebongsan is one, Yongwangsan is the newest. Photo via Pexels.",
+          "ext": ".jpg",
+          "exists": true
+        }
+      ],
+      "findings": []
+    },
+    {
+      "type": "blog",
+      "slug": "341",
+      "title": "Goblin K-Drama Filming Locations: What's Really in Jumunjin (And What Isn't)",
+      "contentPath": "content\\blog\\341.md",
+      "sourceRecord": "public\\assets\\images\\posts\\341\\image-sources.md",
+      "imageCount": 3,
+      "images": [
+        {
+          "url": "/assets/images/posts/341/jumunjin-harbor-boats.jpg",
+          "alt": "Jumunjin Harbor, Gangneung, at golden hour, with fishing boats moored at the dock.",
+          "caption": "Jumunjin Harbor — the real working fishing harbor next to Goblin's famous breakwater scene, still active today. Photo via Wikimedia Commons.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/341/ktx-train-seoul-station.jpg",
+          "alt": "A KTX high-speed train at a platform, with an overhead station sign visible.",
+          "caption": "The KTX Gyeonggang Line covers Seoul to Gangneung in about two hours — the standard way overseas fans reach Jumunjin today. Photo via Wikimedia Commons.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/341/jumunjin-coastal-road-cafe.jpg",
+          "alt": "The Jumunjin coastal road, with the East Sea and rocky shoreline, cafes and pensions lining the street.",
+          "caption": "Jumunjin's coastal road today — the same stretch of cafes and pensions that fans walk between photo stops at the breakwater. Photo via Wikimedia Commons.",
+          "ext": ".jpg",
+          "exists": true
+        }
+      ],
+      "findings": []
+    },
+    {
+      "type": "blog",
+      "slug": "342",
+      "title": "Galaxy Robot Park Seoul: Is Korea's New Robot K-pop Theme Park Worth It?",
+      "contentPath": "content\\blog\\342.md",
+      "sourceRecord": "public\\assets\\images\\posts\\342\\image-sources.md",
+      "imageCount": 2,
+      "images": [
+        {
+          "url": "/assets/images/posts/342/342-01-robot-tech-conference.jpg",
+          "alt": "A real autonomous delivery robot navigating an aisle at a Korean technology conference, with Korean-language signage visible on its body.",
+          "caption": "A real autonomous delivery robot at a Korean technology conference — Korea's robotics industry has been building toward consumer-facing robot experiences like this for years. Photo via Pexels.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/342/342-03-seoul-skyline.jpg",
+          "alt": "A real night skyline view of Seoul over the Han River, shown as general Seoul location context.",
+          "caption": "Seoul's skyline — Galaxy Robot Park sits out in Gangdong-gu, on the eastern edge of the city, a real subway ride from the center rather than downtown. Photo via Pexels.",
+          "ext": ".jpg",
+          "exists": true
+        }
+      ],
+      "findings": []
+    },
+    {
+      "type": "blog",
+      "slug": "343",
+      "title": "Orion Moist Yellow Cheese Chip: Why Korea Can't Keep It in Stock",
+      "contentPath": "content\\blog\\343.md",
+      "sourceRecord": "public\\assets\\images\\posts\\343\\image-sources.md",
+      "imageCount": 2,
+      "images": [
+        {
+          "url": "/assets/images/posts/343/korean-convenience-store-ramyeon-wall-hongdae.jpg",
+          "alt": "Floor-to-ceiling shelves of Korean instant ramyeon packets with price tags, inside a shop in Hongdae, Seoul.",
+          "caption": "Floor-to-ceiling shelves of Korean instant ramyeon at the Ramyun Library shop in Hongdae, Seoul. Photo by lazy fri13th, <a href=\"https://creativecommons.org/licenses/by/2.0/\" target=\"_blank\" rel=\"noopener noreferrer\">CC BY 2.0</a>.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/343/gs25-convenience-store-itaewon-seoul.jpg",
+          "alt": "A GS25 convenience store on a street corner in Itaewon, Seoul, with Korean signage.",
+          "caption": "A GS25 convenience store on a corner in Itaewon, Seoul. Photo via Pexels.",
+          "ext": ".jpg",
+          "exists": true
+        }
+      ],
+      "findings": []
+    },
+    {
+      "type": "blog",
+      "slug": "344",
+      "title": "Bacchus D vs F: Why Korea's Energy Drink Comes in Two Versions",
+      "contentPath": "content\\blog\\344.md",
+      "sourceRecord": "public\\assets\\images\\posts\\344\\image-sources.md",
+      "imageCount": 3,
+      "images": [
+        {
+          "url": "/assets/images/posts/344/bacchus-f-120ml-bottle.jpg",
+          "alt": "A bottle of Bacchus F held in one hand, with the 120mL marking visible on the label.",
+          "caption": "Bacchus F, the convenience store version. The label prints 120mL. Photo by 남종현 (Nam Jong-hyun), CC BY 2.0 KR.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/344/bacchus-d-1970s-bottle.jpg",
+          "alt": "A 1970s Bacchus-D glass bottle with the label reading BACCHUS-D and 100cc.",
+          "caption": "A 1970s Bacchus-D bottle. The label prints `BACCHUS-D` and `100cc.` — the pharmacy line has carried the same small format for decades. Photo: 한국문화정보원 (Korea Culture Information Service Agency), KOGL Type 1.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/344/bacchus-f-bottle-outdoors.jpg",
+          "alt": "A Bacchus F bottle standing on an outdoor wooden bench.",
+          "caption": "Bacchus turns up wherever the work is — job sites, park benches, between errands. Photo by Kth696586, CC BY-SA 4.0.",
+          "ext": ".jpg",
+          "exists": true
+        }
+      ],
+      "findings": []
+    },
+    {
+      "type": "blog",
+      "slug": "345",
+      "title": "Yonsei Cream Bread: Korea's 100-Million-Unit Convenience Store Bun",
+      "contentPath": "content\\blog\\345.md",
+      "sourceRecord": "public\\assets\\images\\posts\\345\\image-sources.md",
+      "imageCount": 3,
+      "images": [
+        {
+          "url": "/assets/images/posts/345/yonsei-milk-cream-bread-cross-section.jpg",
+          "alt": "Cross-section of Yonsei milk cream bread showing a thick layer of white cream filling almost the entire bun.",
+          "caption": "Yonsei milk cream bread, cut open. Around 80% of the bun's weight is the cream. Photo by 이분의일디자인, CC BY 2.0 KR.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/345/yonsei-cream-bread-packaged.jpg",
+          "alt": "A packaged Yonsei red bean cream bread in its clear convenience store tray with the Korean label visible.",
+          "caption": "How you find it on the shelf — a clear tray, a Korean label, and a diagram of the cross-section. Photo by 이분의일디자인, CC BY 2.0 KR.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/345/yonsei-red-bean-cream-bread-cross-section.jpg",
+          "alt": "Cross-section of Yonsei red bean cream bread showing white cream with a dark red bean core running through the centre.",
+          "caption": "The red bean variety adds a paste core through the cream. Photo by 이분의일디자인, CC BY 2.0 KR.",
+          "ext": ".jpg",
+          "exists": true
+        }
+      ],
+      "findings": []
+    },
+    {
+      "type": "blog",
+      "slug": "346",
+      "title": "Ansungtangmyun vs Shin Ramyun: Which Korean Ramyun to Buy First",
+      "contentPath": "content\\blog\\346.md",
+      "sourceRecord": "public\\assets\\images\\posts\\346\\image-sources.md",
+      "imageCount": 3,
+      "images": [
+        {
+          "url": "/assets/images/posts/346/ansungtangmyun-noodle-and-soup-powder.jpg",
+          "alt": "Ansungtangmyun noodle block beside its soup powder, which is brown rather than red.",
+          "caption": "Ansungtangmyun's soup powder is brown. That colour is the whole answer. Photo by Mobius6, CC BY-SA 4.0.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/346/shin-ramyun-noodle-and-soup-powder.jpg",
+          "alt": "Shin Ramyun noodle block with its red-orange chili soup powder and a separate packet of dried vegetables.",
+          "caption": "Shin Ramyun's powder is red-orange, and it ships with a separate dried vegetable packet. Photo by Mobius6, CC BY-SA 4.0.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/346/ansungtangmyun-cooked-bowl.jpg",
+          "alt": "A cooked bowl of Ansungtangmyun with egg and spring onion.",
+          "caption": "Cooked, with egg and spring onion stirred through. Photo by Debbie Tingzon, CC BY 2.0.",
+          "ext": ".jpg",
+          "exists": true
+        }
+      ],
+      "findings": []
+    },
+    {
+      "type": "blog",
+      "slug": "347",
+      "title": "Vita 500: Korea's Vitamin Drink, and Why It Beat Bacchus to the Shelf",
+      "contentPath": "content\\blog\\347.md",
+      "sourceRecord": "public\\assets\\images\\posts\\347\\image-sources.md",
+      "imageCount": 4,
+      "images": [
+        {
+          "url": "/assets/images/posts/347/vita500-original-bottle.jpg",
+          "alt": "A bottle of Vita 500, its label reading 마시는 비타민C and 비타민C 500mg.",
+          "caption": "Vita 500. The label reads \"drinking vitamin C\" and 500mg of vitamin C, 100ml in a bottle you finish in three swallows.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/347/vita500-ten-bottle-box.jpg",
+          "alt": "A Vita 500 ten-bottle box beside a single bottle, the box marked 100 mL × 10병.",
+          "caption": "The ten-bottle box is the standard format. The single bottle at a convenience store is the expensive way to buy it.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/347/vita500-zero-bottles.jpg",
+          "alt": "Two Vita 500 Zero bottles beside their box, labelled 무탄산음료 and 100 mL 0 kcal.",
+          "caption": "Vita 500 Zero. Note 무탄산음료 on the label — this is the still version, not the sparkling one.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/347/vita500-zero-sparkling.jpg",
+          "alt": "A Vita 500 Zero Sparkling bottle in blue livery, surrounded by ice.",
+          "caption": "Zero Sparkling, in blue rather than orange. This is the carbonated one.",
+          "ext": ".jpg",
+          "exists": true
+        }
+      ],
+      "findings": []
+    },
+    {
+      "type": "blog",
+      "slug": "348",
+      "title": "Why Koreans Live in Apartments: Korea's One-Generation Shift",
+      "contentPath": "content\\blog\\348.md",
+      "sourceRecord": "public\\assets\\images\\posts\\348\\image-sources.md",
+      "imageCount": 3,
+      "images": [
+        {
+          "url": "/assets/images/posts/348/yeouido-apartment-complex-1975.jpg",
+          "alt": "Aerial view of Yeouido apartment blocks in 1975, with construction cranes at the edge and low-rise city behind.",
+          "caption": "Yeouido, 10 May 1975. Identical blocks in rows, cranes still working at the right edge, and the old low-rise city behind. Photo: 한국정책방송원 (KTV), KOGL Type 1.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/348/seoul-hangang-apartment-estates-1976.jpg",
+          "alt": "Aerial view of a vast Korean apartment estate in 1976, rows of blocks running out to bare land and fields.",
+          "caption": "The Han River area, 29 November 1976. The same arrangement running out to bare earth. Photo: Government of the Republic of Korea, public domain.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/348/jamsil-apartment-blocks-street.jpg",
+          "alt": "Apartment blocks behind Korean road signs in Jamsil, Seoul.",
+          "caption": "Jamsil, at street level. The same form, still the default. Photo by InSapphoWeTrust, CC BY-SA 2.0.",
+          "ext": ".jpg",
+          "exists": true
+        }
+      ],
+      "findings": []
+    },
+    {
+      "type": "blog",
+      "slug": "349",
+      "title": "Euljiro Seoul Guide: Why the Machine Shops Become Bars at Night",
+      "contentPath": "content\\blog\\349.md",
+      "sourceRecord": "public\\assets\\images\\posts\\349\\image-sources.md",
+      "imageCount": 3,
+      "images": [
+        {
+          "url": "/assets/images/posts/349/euljiro-nogari-alley-night.jpg",
+          "alt": "Nogari Alley in Euljiro at dusk, with red plastic stools and tables set up in front of shuttered machine workshops.",
+          "caption": "Nogari Alley at dusk. The shutters behind the tables belong to precision machining workshops — 금강정밀, 오주정밀 — closed for the day. Photo: Seoul Tourism Organization, KOGL Type 1.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/349/euljiro-printing-alley-paper-wholesaler.jpg",
+          "alt": "A paper wholesaler in Euljiro's printing alley, stacks of paper stock filling the shopfront.",
+          "caption": "A paper wholesaler in the printing alley. This industry is the reason the bars are here. Photo by Aaaatu, CC BY-SA 4.0.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/349/euljiro-tool-and-lighting-shops.jpg",
+          "alt": "Euljiro tool and lighting shops with power tools, motors and LED strips displayed out onto the pavement.",
+          "caption": "The daytime district — tools, motors, transformers and lighting, spilling onto the pavement. Photo by Aaaatu, CC BY-SA 4.0.",
+          "ext": ".jpg",
+          "exists": true
+        }
+      ],
+      "findings": []
+    },
+    {
+      "type": "blog",
+      "slug": "350",
+      "title": "Wild Camping in Korea: Why You Can't, and Where to Sleep Instead",
+      "contentPath": "content\\blog\\350.md",
+      "sourceRecord": "public\\assets\\images\\posts\\350\\image-sources.md",
+      "imageCount": 5,
+      "images": [
+        {
+          "url": "/assets/images/posts/350/yangpok-shelter-seoraksan.jpg",
+          "alt": "Yangpok Shelter, a wooden mountain hut below granite cliffs in Seoraksan, with hikers on its deck.",
+          "caption": "Yangpok Shelter in Seoraksan. This — not a tent — is what sleeping in a Korean mountain looks like. Photo by Christophe95, CC BY-SA 4.0.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/350/jungcheong-shelter-interior-bunks.jpg",
+          "alt": "Inside Jungcheong Shelter: numbered wooden sleeping platforms and a wall sign reading No Cooking.",
+          "caption": "Inside Jungcheong Shelter. Numbered wooden sleeping platforms — note \"234\" — and a wall notice reading 취사 및 식사음주금지 / No Cooking. Photo by 콩가루, CC BY-SA 4.0.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/350/hakdong-beach-campsite-korea.jpg",
+          "alt": "Tents at a designated beach campsite at Hakdong, Korea.",
+          "caption": "A designated beach campsite. Legal camping in Korea is abundant — it is just in assigned places. Photo by gary4now, CC BY 3.0.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/350/korean-winter-campsite-snow.jpg",
+          "alt": "Tents pitched among snow-covered pines at a Korean winter campsite.",
+          "caption": "Winter camping at a designated Korean site. Koreans camp through the cold season, at booked pitches. Photo by 황남원, CC BY (공유마당).",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/350/inje-garisan-campsite-fire-pit.jpg",
+          "alt": "A fire pit at a campsite in Inje Garisan, Gangwon.",
+          "caption": "A fire pit at a campsite in Inje, Gangwon — the kind of built firepit designated sites provide, and the reason open fires elsewhere are not permitted. Photo by 전영재, CC BY (공유마당).",
+          "ext": ".jpg",
+          "exists": true
+        }
+      ],
+      "findings": []
+    },
+    {
+      "type": "blog",
+      "slug": "351",
+      "title": "Yeonnam-dong Seoul Guide: The Park Built on a Buried Railway",
+      "contentPath": "content\\blog\\351.md",
+      "sourceRecord": "public\\assets\\images\\posts\\351\\image-sources.md",
+      "imageCount": 5,
+      "images": [
+        {
+          "url": "/assets/images/posts/351/gyeongui-line-forest-park-yeonnam.jpg",
+          "alt": "The Gyeongui Line Forest Park in Yeonnam-dong, with old railway sleepers still set into the paving on both sides of the path.",
+          "caption": "Look at the ground. Those are the original railway sleepers, left in the paving. Photo by Striker9498, CC0.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/351/gyeongui-line-forest-trail-park.jpg",
+          "alt": "The Gyeongui Line Forest Trail park, a long strip of grass and paths running between buildings.",
+          "caption": "The Gyeongui Line Forest Trail. The shape gives it away — this is a railway corridor, not a park anyone laid out. Photo by Christian Bolz, CC BY-SA 4.0.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/351/yeontral-park-hongdae.jpg",
+          "alt": "People sitting on the grass at Yeonnam-dong park near Hongdae.",
+          "caption": "Locals call this stretch Yeontral Park. Sitting on the grass is the activity; everything else in the neighbourhood grew around it. Photo by Brit in Seoul, CC BY-SA 4.0.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/351/yeonnam-dong-shopfronts.jpg",
+          "alt": "Low-rise shopfronts and small cafes on a Yeonnam-dong street.",
+          "caption": "Low buildings, small independent shopfronts. This scale is the difference from Hongdae. Photo by azer0, CC BY 2.0 KR.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/351/yeonnam-busking.jpg",
+          "alt": "Buskers performing beside the park in Yeonnam.",
+          "caption": "Busking beside the park. Sitting and watching is the main activity here. Photo by Explicit, CC BY-SA 4.0.",
+          "ext": ".jpg",
+          "exists": true
+        }
+      ],
+      "findings": []
+    },
+    {
+      "type": "blog",
+      "slug": "352",
+      "title": "Mullae Seoul Guide: The Steel District That Grew an Art Village",
+      "contentPath": "content\\blog\\352.md",
+      "sourceRecord": "public\\assets\\images\\posts\\352\\image-sources.md",
+      "imageCount": 3,
+      "images": [
+        {
+          "url": "/assets/images/posts/352/mullae-steelworks-shutter-murals.jpg",
+          "alt": "Murals painted on the metal shutters of a working Mullae steel workshop, depicting metalworkers cutting and carrying steel.",
+          "caption": "Look closely at what the mural shows: metalworkers cutting and carrying steel. Behind it, a real crane hoist and the working shop. Photo by Bellalee1205, CC BY-SA 4.0.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/352/mullae-alley-at-night.jpg",
+          "alt": "A Mullae alley at night, with a neon-signed bar next to shuttered metal workshops.",
+          "caption": "After the shutters come down, the bars light up next door. Photo by lazy fri13th, CC BY 2.0.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/352/mullae-lowrise-and-towers.jpg",
+          "alt": "Low-rise Mullae rooftops with high-rise apartments and office towers directly behind.",
+          "caption": "The low-rise district with towers immediately behind it. Photo by Minseong Kim, CC BY-SA 4.0.",
+          "ext": ".jpg",
+          "exists": true
+        }
+      ],
+      "findings": []
+    },
+    {
+      "type": "blog",
+      "slug": "353",
+      "title": "Haebangchon Seoul Guide: The Village Named After Liberation",
+      "contentPath": "content\\blog\\353.md",
+      "sourceRecord": "public\\assets\\images\\posts\\353\\image-sources.md",
+      "imageCount": 3,
+      "images": [
+        {
+          "url": "/assets/images/posts/353/haebangchon-namsan-hillside.jpg",
+          "alt": "Haebangchon's dense low-rise housing climbing Namsan's slope, with N Seoul Tower above and a tunnel entrance below.",
+          "caption": "Haebangchon on the southern slope of Namsan, directly under the tower. The shape of the neighbourhood is its history. Photo by 이정우 / Ministry of Culture, Sports and Tourism, CC BY-SA 4.0.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/353/sinheung-market-1953-arch.jpg",
+          "alt": "The Sinheung Market arch in Haebangchon, marked 1953, with cafes and restaurants down the lane behind it.",
+          "caption": "The arch says 1953. The market opened right after the armistice. Photo by 이정우 / Ministry of Culture, Sports and Tourism, CC BY-SA 4.0.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/353/haebangchon-signboard-namsan-tower.jpg",
+          "alt": "A Haebangchon signboard with N Seoul Tower and cherry blossom behind it.",
+          "caption": "The tower is always above you here, which makes the neighbourhood hard to get lost in. Photo by 이정우 / Ministry of Culture, Sports and Tourism, CC BY-SA 4.0.",
+          "ext": ".jpg",
+          "exists": true
+        }
+      ],
+      "findings": []
+    },
+    {
+      "type": "blog",
+      "slug": "354",
+      "title": "Mangwon-dong, Seoul: The Market Neighbourhood Locals Go To Instead of Hongdae",
+      "contentPath": "content\\blog\\354.md",
+      "sourceRecord": "public\\assets\\images\\posts\\354\\image-sources.md",
+      "imageCount": 4,
+      "images": [
+        {
+          "url": "/assets/images/posts/354/korean-traditional-market-stalls.jpg",
+          "alt": "Stalls in a Korean covered market, produce and prepared food laid out along a narrow aisle with shoppers passing.",
+          "caption": "A working Korean neighbourhood market. Mangwon Market is this kind of place first, and a tourist destination a distant second. Photo by Yena Kwon, Pexels.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/354/mangwon-station-entrance.jpg",
+          "alt": "Mangwon Station on Seoul Metro Line 6, its street-level entrance with signage.",
+          "caption": "Mangwon Station, Line 6. One stop from Hapjeong, two from Hongik University — which is why the neighbourhood absorbed the overflow. Photo by LERK, CC BY-SA 4.0.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/354/korean-market-noodle-stall.jpg",
+          "alt": "A street vendor preparing traditional Korean noodles at a food stall.",
+          "caption": "Market food in Korea is cooked in front of you, at a counter, for immediate eating. There is no seating culture to plan around. Photo by wal_ 172619, Pexels.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/354/mangwon-hangang-park.jpg",
+          "alt": "Mangwon Hangang Park along the river, with paths and open ground beside the water.",
+          "caption": "Mangwon Hangang Park. The riverside parks are free, open late, and the single most-used public space in Seoul. Photo by Brit in Seoul, CC BY-SA 4.0.",
+          "ext": ".jpg",
+          "exists": true
+        }
+      ],
+      "findings": []
+    },
+    {
+      "type": "blog",
+      "slug": "355",
+      "title": "Ikseon-dong, Seoul: The Hanok Village a Developer Mass-Produced in the 1920s",
+      "contentPath": "content\\blog\\355.md",
+      "sourceRecord": "public\\assets\\images\\posts\\355\\image-sources.md",
+      "imageCount": 3,
+      "images": [
+        {
+          "url": "/assets/images/posts/355/ikseon-dong-hanok-alley.jpg",
+          "alt": "A narrow alley in Ikseon-dong lined with single-storey hanok, tiled roofs meeting overhead.",
+          "caption": "Ikseon-dong. The alleys are narrow because the houses were laid out to fit as many onto the land as possible. Photo by S h y numis, CC BY-SA 4.0.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/355/ikseon-dong-hanok-roofline.jpg",
+          "alt": "Rows of hanok roofs in Ikseon-dong seen from above, tiles running in tight parallel lines.",
+          "caption": "The rooflines show the method. These are the same house repeated, sized to a subdivided lot — a 1920s housing product, not a collection of individual estates. Photo by S h y numis, CC BY-SA 4.0.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/355/ikseon-dong-hanok-shopfront.jpg",
+          "alt": "A hanok shopfront in Ikseon-dong, its wooden frontage and signage opening onto a lane.",
+          "caption": "Almost every hanok in the village is now a business. How much of the original interior survives varies enormously from one door to the next. Photo by S h y numis, CC BY-SA 4.0.",
+          "ext": ".jpg",
+          "exists": true
+        }
+      ],
+      "findings": []
+    },
+    {
+      "type": "blog",
+      "slug": "356",
+      "title": "Seochon, Seoul: The Valley Restored From a 300-Year-Old Painting",
+      "contentPath": "content\\blog\\356.md",
+      "sourceRecord": "public\\assets\\images\\posts\\356\\image-sources.md",
+      "imageCount": 3,
+      "images": [
+        {
+          "url": "/assets/images/posts/356/giringyo-bridge-suseongdong-valley.jpg",
+          "alt": "Giringyo, a stone slab bridge over the rocky Suseongdong Valley in Seoul.",
+          "caption": "Giringyo. Two long stone slabs across the gorge — the bridge that appears in an 18th-century painting, still in place. Photo by 오모군, CC BY 3.0.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/356/tongin-market-aisle.jpg",
+          "alt": "The aisle of Tongin Market in Seochon, stalls on both sides.",
+          "caption": "Tongin Market. Buy the coins first, then walk it once before you spend any of them. Photo by Republic of Korea, CC BY-SA 2.0.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/356/tongin-market-stall-food.jpg",
+          "alt": "A food stall in Tongin Market with prepared dishes on trays.",
+          "caption": "Stall food at Tongin. The coin system only works at participating stalls, so check before you queue. Photo by Republic of Korea, CC BY-SA 2.0.",
+          "ext": ".jpg",
+          "exists": true
+        }
+      ],
+      "findings": []
+    },
+    {
+      "type": "blog",
+      "slug": "357",
+      "title": "Bukchon Hanok Village, Seoul: The Village That Now Has Legal Visiting Hours",
+      "contentPath": "content\\blog\\357.md",
+      "sourceRecord": "public\\assets\\images\\posts\\357\\image-sources.md",
+      "imageCount": 4,
+      "images": [
+        {
+          "url": "/assets/images/posts/357/bukchon-ro-11-gil-hanok-street.jpg",
+          "alt": "The hanok street of Bukchon-ro 11-gil in Seoul, tiled roofs stepping down the hill under a blue sky.",
+          "caption": "Bukchon-ro 11-gil. This is the street the restriction applies to. Photo by Basile Morin, CC BY-SA 4.0.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/357/bukchon-hanok-wooden-gate.jpg",
+          "alt": "A wooden gate on a hanok house along Bukchon-ro 11-gil.",
+          "caption": "These are front doors. The gate in this photograph belongs to somebody's house, not an exhibit. Photo by Basile Morin, CC BY-SA 4.0.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/357/gyedong-gil-street.jpg",
+          "alt": "Gyedong-gil in Bukchon at golden hour, climbing plants over a low wall.",
+          "caption": "Gyedong-gil. Same neighbourhood, a fraction of the crowd, and no time restriction. Photo by Basile Morin, CC BY-SA 4.0.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/357/bukchon-sloping-hanok-street.jpg",
+          "alt": "Hanok houses on the corner of a steeply sloping street in Bukchon.",
+          "caption": "The slope is the reason for the view, and the reason your legs will notice. Photo by Basile Morin, CC BY-SA 4.0.",
+          "ext": ".jpg",
+          "exists": true
+        }
+      ],
+      "findings": []
+    },
+    {
+      "type": "blog",
+      "slug": "358",
+      "title": "Pororo Drink: Korea's Kids' Drink, Which Flavour to Pick and How to Open It",
+      "contentPath": "content\\blog\\358.md",
+      "sourceRecord": "public\\assets\\images\\posts\\358\\image-sources.md",
+      "imageCount": 4,
+      "images": [
+        {
+          "url": "/assets/images/posts/358/pororo-drink-lineup-paldo.jpg",
+          "alt": "Four Paldo Pororo drink products side by side: Pororo Zero in milk and strawberry, Big Pororo Zero, the penguin-shaped spring water bottle, and organic barley tea.",
+          "caption": "Part of Paldo's current Pororo line. Note the ribbed cap on the two bottles at left — that is the part everyone gets wrong. Product images: Paldo.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/358/pororo-organic-barley-tea-paldo.jpg",
+          "alt": "Paldo's Pororo organic barley tea in the penguin-moulded bottle, its cap and label clearly different from the sweetened flavours.",
+          "caption": "The barley tea version is the one Korean households buy repeatedly. It is unsweetened. Product image: Paldo.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/358/pororo-zero-235ml-paldo.jpg",
+          "alt": "Pororo Zero in the 235 ml bottle, the standard size sold in Korean convenience stores.",
+          "caption": "Pororo Zero, 235 ml — the size you will actually see in a convenience store fridge. Product image: Paldo.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/358/pororo-spring-water-paldo.jpg",
+          "alt": "Pororo spring water in a bottle moulded into the character's head, shown in both labelled 250 ml and label-free 260 ml versions.",
+          "caption": "The spring water comes labelled at 250 ml and label-free at 260 ml. Product image: Paldo.",
+          "ext": ".jpg",
+          "exists": true
+        }
+      ],
+      "findings": []
+    },
+    {
+      "type": "blog",
+      "slug": "359",
+      "title": "Neoguri Ramen Hacks: How Koreans Cook Korea's Seafood Udon Noodle",
+      "contentPath": "content\\blog\\359.md",
+      "sourceRecord": "public\\assets\\images\\posts\\359\\image-sources.md",
+      "imageCount": 3,
+      "images": [
+        {
+          "url": "/assets/images/posts/359/neoguri-spicy-nongshim.jpg",
+          "alt": "Nongshim Neoguri Spicy Seafood packet, 120 g, with 너구리 printed in Hangul and a bowl on the front showing the dark green kelp square.",
+          "caption": "Look at the bowl on the front of the packet. That dark green square is not a garnish drawn by a designer — it is in the bag. Product image: Nongshim.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/359/neoguri-mild-nongshim.jpg",
+          "alt": "Nongshim Neoguri Mild packet in its green bag, the version Korean households buy for children.",
+          "caption": "순한맛 — the mild green bag. Same kelp, same thick noodle, far less chili. Product image: Nongshim.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/359/chapagetti-nongshim.jpg",
+          "alt": "Nongshim Chapagetti packet, the black-bean noodle that combines with Neoguri to make Chapaguri.",
+          "caption": "The other half. Chapagetti is a black-bean sauce noodle with no broth — the opposite construction to Neoguri. Product image: Nongshim.",
+          "ext": ".jpg",
+          "exists": true
+        }
+      ],
+      "findings": []
+    },
+    {
+      "type": "blog",
+      "slug": "360",
+      "title": "Milkis Flavours: Which Korean Milk Soda to Pick, and How Koreans Drink It",
+      "contentPath": "content\\blog\\360.md",
+      "sourceRecord": "public\\assets\\images\\posts\\360\\image-sources.md",
+      "imageCount": 3,
+      "images": [
+        {
+          "url": "/assets/images/posts/360/milkis-bottles.jpg",
+          "alt": "Three 500 ml bottles of Korean Milkis with 밀키스 in Hangul on the label, showing the cloudy milk-white liquid inside.",
+          "caption": "Korean-market 500 ml bottles. The slogan under the Hangul reads 사랑해요! Milkis, and along the bottom, \"New feeling of soda beverage.\" Photo by validationset, CC BY 4.0, via Wikimedia Commons.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/360/ambasa-can-1980s-korea.jpg",
+          "alt": "A Korean Ambasa can from the 1980s, held in a national museum collection.",
+          "caption": "A 1980s Korean Ambasa can. Collection of the National Folk Museum of Korea, KOGL Type 1.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/360/milkis-can.jpg",
+          "alt": "A Korean 250 ml Milkis can showing the Korean nutrition and ingredient panel.",
+          "caption": "The Korean 250 ml can. The panel gives 250 ml (130 kcal), 0 g fat, 0 mg cholesterol, and lists whey powder among the ingredients. Photo by validationset, CC BY 4.0, via Wikimedia Commons.",
+          "ext": ".jpg",
+          "exists": true
+        }
+      ],
+      "findings": []
+    },
+    {
+      "type": "blog",
+      "slug": "361",
+      "title": "Jin Ramen Mild vs Spicy: The Korean Ramyun Locals Buy Most Often",
+      "contentPath": "content\\blog\\361.md",
+      "sourceRecord": "public\\assets\\images\\posts\\361\\image-sources.md",
+      "imageCount": 4,
+      "images": [
+        {
+          "url": "/assets/images/posts/361/jin-ramen-cooked-bowl.jpg",
+          "alt": "A prepared cup of Jin Ramen spicy, the broth orange-red with spring onion and dried vegetables.",
+          "caption": "Jin Ramen spicy, made up. Photo by Mobius6, CC BY-SA 4.0, via Wikimedia Commons.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/361/jin-ramen-mild-pack.jpg",
+          "alt": "Contents of a Jin Ramen mild packet: noodle block, dried vegetable flake, and a pale tan soup powder.",
+          "caption": "순한맛 (mild). The powder is a pale, sandy tan. Photo by Mobius6, CC BY-SA 4.0, via Wikimedia Commons.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/361/jin-ramen-spicy-pack.jpg",
+          "alt": "Contents of a Jin Ramen spicy packet, with a distinctly orange-red soup powder.",
+          "caption": "매운맛 (spicy). Same photographer, same setup — and the powder has visibly turned orange-red. Photo by Mobius6, CC BY-SA 4.0, via Wikimedia Commons.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/361/jin-ramen-spicy-ottogi.jpg",
+          "alt": "The official Ottogi pack shot of Jin Ramen spicy, a yellow bag with the character 진 in red.",
+          "caption": "The spicy bag: yellow ground, red 진, and 매운맛 in the corner. Product image: Ottogi.",
+          "ext": ".jpg",
+          "exists": true
+        }
+      ],
+      "findings": []
+    },
+    {
+      "type": "blog",
+      "slug": "362",
+      "title": "Korean Yakult: Not Yogurt, and Its Delivery Fridge Needs a Driving Licence",
+      "contentPath": "content\\blog\\362.md",
+      "sourceRecord": "public\\assets\\images\\posts\\362\\image-sources.md",
+      "imageCount": 4,
+      "images": [
+        {
+          "url": "/assets/images/posts/362/coco-cart-official.jpg",
+          "alt": "The COCO 3.0 electric refrigerated cart, cream and grey, with handlebars and a digital display.",
+          "caption": "COCO 3.0, the cart Korea's Fresh Managers ride. The Korean line on the side reads 신선한 가치로 건강한 습관을. Official product image, hy Mobility.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/362/coco-cart-side.jpg",
+          "alt": "COCO 3.0 seen from the side, showing the low body, four wheels, and rider handlebars.",
+          "caption": "The side profile makes the proportions clear — it is a chest freezer with a steering column. Official product image, hy Mobility.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/362/yakult-premium-light.jpg",
+          "alt": "A bottle of 야쿠르트 프리미엄 라이트 next to a glass of the milky-white drink.",
+          "caption": "야쿠르트 프리미엄 라이트, with the gold foil seal still on. The glass shows the point: it pours. Official product image, hy.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/362/seoul-convenience-store-night.jpg",
+          "alt": "A 7-Eleven in Seoul at night, lit up on a corner with Korean signage.",
+          "caption": "The dependable option. Every major Korean convenience-store chain stocks it in the chilled case. Photo by Paul Bill via Pexels.",
+          "ext": ".jpg",
+          "exists": true
+        }
+      ],
+      "findings": []
+    },
+    {
       "type": "business",
       "slug": "apr-medicube-global-beauty-tech-deep-dive",
       "title": "APR Corporation Deep Dive 2026: How Medicube Built a Global Beauty-Tech Flywheel",
@@ -12151,6 +13402,31 @@
     },
     {
       "type": "business",
+      "slug": "coupang-company-deep-dive",
+      "title": "Coupang Deep Dive 2026: How Korea Built Its Own Amazon",
+      "contentPath": "content\\business\\coupang-company-deep-dive.md",
+      "sourceRecord": "public\\assets\\images\\business\\coupang-company-deep-dive\\image-sources.md",
+      "imageCount": 2,
+      "images": [
+        {
+          "url": "/assets/images/business/coupang-company-deep-dive/coupang-delivery-truck.jpg",
+          "alt": "A real Coupang Rocket Delivery truck parked on a Seoul street, branded with the Coupang wordmark.",
+          "caption": "A Coupang Rocket Delivery truck in Seoul — the owned-logistics fleet that is the whole basis of the \"Amazon of Korea\" comparison. Photo via Wikimedia Commons.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/business/coupang-company-deep-dive/coupang-reusable-bag.jpg",
+          "alt": "A real Coupang-branded insulated grocery delivery bag, shown open, marked with Coupang and Rocket Fresh branding.",
+          "caption": "Coupang's Rocket Fresh grocery delivery bag — one of several verticals the company has built on top of its core logistics network. Photo via Wikimedia Commons.",
+          "ext": ".jpg",
+          "exists": true
+        }
+      ],
+      "findings": []
+    },
+    {
+      "type": "business",
       "slug": "how-to-find-suppliers-in-korea",
       "title": "How to Find Suppliers in Korea: Official Platforms, Verification, and First Contact",
       "contentPath": "content\\business\\how-to-find-suppliers-in-korea.md",
@@ -12207,6 +13483,31 @@
           "detail": "2 SVG body image(s); mixed-media use requires manual relevance review"
         }
       ]
+    },
+    {
+      "type": "business",
+      "slug": "iconix-pororo-deep-dive",
+      "title": "ICONIX and Pororo: How a Korean Studio Turned One Penguin Into a Licensing Company",
+      "contentPath": "content\\business\\iconix-pororo-deep-dive.md",
+      "sourceRecord": "public\\assets\\images\\business\\iconix-pororo-deep-dive\\image-sources.md",
+      "imageCount": 2,
+      "images": [
+        {
+          "url": "/assets/images/business/iconix-pororo-deep-dive/tayo-liveried-bus-seoul.jpg",
+          "alt": "A Seoul city bus on route 9401 painted in Tayo the Little Bus livery, with eyes and a smile applied to the front, waiting at the Seoul Station bus stop.",
+          "caption": "A working Seoul bus in Tayo livery at Seoul Station. Photo by 분당선M, CC BY-SA 3.0, via Wikimedia Commons.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/business/iconix-pororo-deep-dive/tayo-bus-rudolph-seoul.jpg",
+          "alt": "A blue Seoul city bus on route 262 in Tayo livery, additionally fitted with reindeer antlers and a red nose for the Christmas season.",
+          "caption": "The same programme at Christmas: route 262 with antlers and a red nose added on top of the Tayo face. Photo by 분당선M, CC BY-SA 3.0, via Wikimedia Commons.",
+          "ext": ".jpg",
+          "exists": true
+        }
+      ],
+      "findings": []
     },
     {
       "type": "business",
