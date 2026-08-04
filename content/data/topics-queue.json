@@ -4105,6 +4105,103 @@
       "status": "deprioritized",
       "cycle": "2026-W32b",
       "notes": "Best query shape of the whole W32b batch - all 10 Google branches are comparison-shaped. Fails gate 4 (monetisation): alcohol returns zero Amazon autocomplete suggestions and cannot carry an affiliate link. Held rather than dropped; revisit if a non-Amazon revenue path exists."
+    },
+    {
+      "id": 187,
+      "title": "Korean Cider Isn't Cider: Chilsung vs Sprite",
+      "target_keyword": "korean cider",
+      "keyword_shape": "confusion_correction",
+      "category": "Food",
+      "tags": [
+        "KoreanDrinks",
+        "ChilsungCider",
+        "LotteChilsung"
+      ],
+      "amazon_category": "Food",
+      "status": "done",
+      "generated_slug": "365",
+      "generated_date": "2026-08-04",
+      "cycle": "2026-W32c",
+      "notes": "Survived the coverage gate on a correction, not a gap: existing English pages all call it 'Korea's answer to Sprite' and it launched 1950 against Sprite's 1961. Demand sits in the alcohol/halal/caffeine cluster those pages skip."
+    },
+    {
+      "id": 188,
+      "title": "Pocachip: Korea's No.1 Potato Chip",
+      "target_keyword": "pocachip",
+      "keyword_shape": "identity_plus_flavour_decision",
+      "category": "Food",
+      "tags": [
+        "KoreanSnacks",
+        "Orion",
+        "ConvenienceStore"
+      ],
+      "amazon_category": "Food",
+      "status": "done",
+      "generated_slug": "366",
+      "generated_date": "2026-08-04",
+      "cycle": "2026-W32c",
+      "notes": "No.2 Korean snack by revenue and fastest grower, with zero English explainer. Hook: onion launched 1988, Original only 1992. Orion's official site is server-rendered and honest (real 404s), unlike CJ and Haitai."
+    },
+    {
+      "id": 189,
+      "title": "Kkokkal Corn: The Korean Snack You Wear on Your Fingers",
+      "target_keyword": "kkokkal corn",
+      "keyword_shape": "identity_specific_product",
+      "category": "Food",
+      "tags": [
+        "KoreanSnacks",
+        "LotteWellfood"
+      ],
+      "amazon_category": "Food",
+      "status": "held",
+      "cycle": "2026-W32c",
+      "notes": "HELD, not rejected. Coverage gate passes cleanly (retail listings + namu EN only) and the physical hook is excellent - Koreans put them on their fingertips and eat them off. Killed on demand: Google returns 2 branches. Representative was asked whether to run it standalone or fold the detail into an existing snack post; no answer given, so it stays held. Launched 1983-09-23; name is a pun on 고깔 (cone) and corn."
+    },
+    {
+      "id": 190,
+      "title": "Homerun Ball",
+      "target_keyword": "homerun ball korean snack",
+      "keyword_shape": "identity_specific_product",
+      "category": "Food",
+      "tags": [
+        "KoreanSnacks",
+        "Haitai"
+      ],
+      "amazon_category": "Food",
+      "status": "deprioritized",
+      "cycle": "2026-W32c",
+      "notes": "Coverage gate passes and there is a real angle (it is a profiterole - French choux - and the standard Korean baseball-stadium snack). Deprioritized on keyword collision: 'homerun ball' in English belongs to baseball results. Revisit only if a disambiguated query emerges."
+    },
+    {
+      "id": 191,
+      "title": "Saewookkang",
+      "target_keyword": "saewookkang",
+      "keyword_shape": "identity_specific_product",
+      "category": "Food",
+      "tags": [
+        "KoreanSnacks",
+        "Nongshim"
+      ],
+      "amazon_category": "Food",
+      "status": "rejected_duplicate",
+      "cycle": "2026-W32c",
+      "notes": "REJECTED. Korea's No.1 snack by revenue two years running, and our own 029 already carries the 1971 origin, the 아리랑->아리깡 naming from the chairman's four-year-old daughter, the -깡 suffix lineage and Aug-2026 pricing. Google returns 2 weak branches. Do not re-propose without a genuinely new angle."
+    },
+    {
+      "id": 192,
+      "title": "Choco Pie",
+      "target_keyword": "korean choco pie",
+      "keyword_shape": "comparison",
+      "category": "Food",
+      "tags": [
+        "KoreanSnacks",
+        "Orion",
+        "Lotte"
+      ],
+      "amazon_category": "Food",
+      "status": "rejected_coverage",
+      "cycle": "2026-W32c",
+      "notes": "REJECTED on coverage. Korea Herald, Korea Times, ZenKimchi ('Myth: Choco Pies were Invented in Korea'), myfreshdash and two dedicated Orion-vs-Lotte blogs, plus namu EN. The 1974/1979 copycat suit and the generic-trademark ruling are all already in English. Amazon demand is strong (8 branches) but there is nothing left to say."
     }
   ],
   "last_updated": "2026-07-29",

@@ -1,10 +1,10 @@
 {
   "summary": {
-    "generatedAt": "2026-08-04T12:36:50.160Z",
-    "auditedPosts": 347,
+    "generatedAt": "2026-08-04T12:45:51.894Z",
+    "auditedPosts": 348,
     "includedPrivate": false,
     "slugFilter": "",
-    "bodyImages": 1269,
+    "bodyImages": 1272,
     "affectedPosts": 101,
     "critical": 0,
     "high": 0,
@@ -13399,6 +13399,38 @@
           "url": "/assets/images/posts/365/chilsung-cider-zero-can.jpg",
           "alt": "A hand holding a 250 ml can of Chilsung Cider Zero in green, white and black.",
           "caption": "칠성사이다 제로, 250 ml. The zero line now has more flavours than the original ever did. Photo by Hyeonyoung Lee, CC BY-SA 4.0, via Wikimedia Commons.",
+          "ext": ".jpg",
+          "exists": true
+        }
+      ],
+      "findings": []
+    },
+    {
+      "type": "blog",
+      "slug": "366",
+      "title": "Pocachip: Korea's No.1 Potato Chip, and Why the Original Came Second",
+      "contentPath": "content\\blog\\366.md",
+      "sourceRecord": "public\\assets\\images\\posts\\366\\image-sources.md",
+      "imageCount": 3,
+      "images": [
+        {
+          "url": "/assets/images/posts/366/pocachip-original-onion-bags.jpg",
+          "alt": "Two bags of Orion Pocachip side by side — blue Original and green Onion — both marked 100% 국산 햇감자.",
+          "caption": "포카칩 Original (blue) and Onion (green). The gold badge reads **100% 국산 햇감자** — 100% Korean new potatoes — and that claim is only true for part of the year. Official product image, Orion.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/366/pocachip-chips-plate.jpg",
+          "alt": "A plate of Pocachip — thin, flat, pale-gold chips with visible seasoning specks.",
+          "caption": "Out of the bag: thin, flat, and translucent at the edges. Photo by 박둘리, CC BY 2.0 KR, via Wikimedia Commons.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/366/swingchip-chips-plate.jpg",
+          "alt": "A bowl of Swing Chip — thick chips with deep parallel ridges.",
+          "caption": "스윙칩, the sister product. Same maker, same domestic-potato claim, completely different cut. Photo by 박찹쌀, CC BY-SA 2.0 KR, via Wikimedia Commons.",
           "ext": ".jpg",
           "exists": true
         }
