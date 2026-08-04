@@ -4024,6 +4024,85 @@
       "duplicate_audit": "checked blog + business + queue; zero hits for 황치즈/cheese chip/Orion",
       "amazon_path": "orion cheese korean snack / korean snack variety box",
       "note": "W31 cycle first pick. Lane 1 (음식-구체) under 실행계획 챕터 1."
+    },
+    {
+      "id": 183,
+      "title": "Matdongsan: Korea's Peanut Crunch Snack, and Why Nobody Explains It",
+      "target_keyword": "matdongsan snack",
+      "keyword_shape": "identity_specific_product",
+      "category": "Food",
+      "tags": [
+        "KoreanSnacks",
+        "Haitai",
+        "KoreanFood",
+        "ConvenienceStore"
+      ],
+      "amazon_category": "Food",
+      "status": "approved",
+      "approved_date": "2026-08-04",
+      "approved_by": "representative",
+      "cycle": "2026-W32b",
+      "demand_evidence": {
+        "source": "naver_autocomplete + google_suggest + amazon_autocomplete",
+        "amazon_branches": 2,
+        "detail": "Amazon autocomplete returns 'matdongsan' and 'matdongsan peanut crunch snack'. English web supply is retail listings plus a single Maangchi recipe; no explainer exists. 1975 Haitai product."
+      },
+      "dedupe": {
+        "checked": "content/blog/*.md, content/business/*.md, topics-queue.json",
+        "result": "zero matches"
+      },
+      "notes": "Approved in the W32b cycle alongside Dashida. Dashida was written first (published as 363) because it had 10 Amazon branches against Matdongsan's 2. Must still pass the imagery gate at write time — expect the same no-free-packshot problem Dashida hit (see public/assets/images/posts/363/image-sources.md)."
+    },
+    {
+      "id": 184,
+      "title": "Korean Yakult vs Yogurt and the Fresh Manager's Rolling Fridge",
+      "target_keyword": "yakult in korea",
+      "keyword_shape": "comparison_plus_culture",
+      "category": "Food",
+      "tags": [
+        "KoreanDrinks",
+        "Yakult",
+        "SeoulLife"
+      ],
+      "amazon_category": "Food",
+      "status": "done",
+      "generated_slug": "362",
+      "generated_date": "2026-08-04",
+      "cycle": "2026-W32b",
+      "notes": "Angle set by the representative: lead with the COCO cart as culture, not a product comparison alone. Validated after the fact — Google autocomplete carries yakult cart korea, yakult vs yakult light and yakult vs yogurt, and Naver carries a full cart cluster English has no answer for."
+    },
+    {
+      "id": 185,
+      "title": "Dashida vs Dashi",
+      "target_keyword": "dashida vs dashi",
+      "keyword_shape": "comparison",
+      "category": "Food",
+      "tags": [
+        "KoreanCooking",
+        "Dashida",
+        "KoreanIngredients"
+      ],
+      "amazon_category": "Food",
+      "status": "done",
+      "generated_slug": "363",
+      "generated_date": "2026-08-04",
+      "cycle": "2026-W32b",
+      "notes": "Best candidate of the cycle: 10 Amazon autocomplete branches, and the single English SEO page answering the query contradicts itself within one paragraph."
+    },
+    {
+      "id": 186,
+      "title": "Chamisul vs Chum Churum: Korea's Two Soju Brands",
+      "target_keyword": "chamisul vs chum churum",
+      "keyword_shape": "comparison",
+      "category": "Food",
+      "tags": [
+        "KoreanDrinks",
+        "Soju"
+      ],
+      "amazon_category": null,
+      "status": "deprioritized",
+      "cycle": "2026-W32b",
+      "notes": "Best query shape of the whole W32b batch - all 10 Google branches are comparison-shaped. Fails gate 4 (monetisation): alcohol returns zero Amazon autocomplete suggestions and cannot carry an affiliate link. Held rather than dropped; revisit if a non-Amazon revenue path exists."
     }
   ],
   "last_updated": "2026-07-29",
