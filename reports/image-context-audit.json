@@ -1,10 +1,10 @@
 {
   "summary": {
-    "generatedAt": "2026-08-04T10:16:39.260Z",
-    "auditedPosts": 346,
+    "generatedAt": "2026-08-04T12:36:50.160Z",
+    "auditedPosts": 347,
     "includedPrivate": false,
     "slugFilter": "",
-    "bodyImages": 1266,
+    "bodyImages": 1269,
     "affectedPosts": 101,
     "critical": 0,
     "high": 0,
@@ -13367,6 +13367,38 @@
           "url": "/assets/images/posts/364/yugwa-korean-hangwa.jpg",
           "alt": "Yugwa — pale Korean traditional sweets coated in puffed rice, served on a black dish.",
           "caption": "유과, a traditional Korean 한과. Rice-based, puffed, coated in grain — a completely different construction. Photo by abex, CC BY-SA 2.0, via Wikimedia Commons.",
+          "ext": ".jpg",
+          "exists": true
+        }
+      ],
+      "findings": []
+    },
+    {
+      "type": "blog",
+      "slug": "365",
+      "title": "Korean Cider Isn't Cider: Chilsung, the Soda That Beat Sprite by 11 Years",
+      "contentPath": "content\\blog\\365.md",
+      "sourceRecord": "public\\assets\\images\\posts\\365\\image-sources.md",
+      "imageCount": 3,
+      "images": [
+        {
+          "url": "/assets/images/posts/365/chilsung-cider-bottles.jpg",
+          "alt": "Three green 500 ml bottles of Chilsung Cider standing in snow, labels reading 칠성사이다 and Chilsung Cider.",
+          "caption": "칠성사이다 in its familiar green bottle. The label reads \"PURE, CLEAN, CAFFEINE FREE\" — which answers one of the most-asked questions about it. Photo by Republic of Korea (KOCIS), CC BY-SA 2.0, via Wikimedia Commons.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/365/chilsung-cider-poured-glass.jpg",
+          "alt": "A tall cut-glass tumbler of Chilsung Cider over ice — completely clear and colourless.",
+          "caption": "Poured, the point makes itself. Apple cider is amber and cloudy; this is water-clear. Photo by Republic of Korea (KOCIS), CC BY-SA 2.0, via Wikimedia Commons.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/365/chilsung-cider-zero-can.jpg",
+          "alt": "A hand holding a 250 ml can of Chilsung Cider Zero in green, white and black.",
+          "caption": "칠성사이다 제로, 250 ml. The zero line now has more flavours than the original ever did. Photo by Hyeonyoung Lee, CC BY-SA 4.0, via Wikimedia Commons.",
           "ext": ".jpg",
           "exists": true
         }
