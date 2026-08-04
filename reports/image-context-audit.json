@@ -1,10 +1,10 @@
 {
   "summary": {
-    "generatedAt": "2026-08-04T09:02:00.625Z",
-    "auditedPosts": 344,
+    "generatedAt": "2026-08-04T09:12:59.109Z",
+    "auditedPosts": 345,
     "includedPrivate": false,
     "slugFilter": "",
-    "bodyImages": 1258,
+    "bodyImages": 1263,
     "affectedPosts": 101,
     "critical": 0,
     "high": 0,
@@ -13289,6 +13289,52 @@
           "url": "/assets/images/posts/362/seoul-convenience-store-night.jpg",
           "alt": "A 7-Eleven in Seoul at night, lit up on a corner with Korean signage.",
           "caption": "The dependable option. Every major Korean convenience-store chain stocks it in the chilled case. Photo by Paul Bill via Pexels.",
+          "ext": ".jpg",
+          "exists": true
+        }
+      ],
+      "findings": []
+    },
+    {
+      "type": "blog",
+      "slug": "363",
+      "title": "Dashida vs Dashi: Why Korea's Beef Stock Powder Isn't Japanese Broth",
+      "contentPath": "content\\blog\\363.md",
+      "sourceRecord": "public\\assets\\images\\posts\\363\\image-sources.md",
+      "imageCount": 5,
+      "images": [
+        {
+          "url": "/assets/images/posts/363/korean-beef-stew-stone-pot.jpg",
+          "alt": "A steaming Korean beef soup in a black stone pot, topped with sliced spring onion, with kimchi alongside.",
+          "caption": "The kind of broth 쇠고기 다시다 exists to produce. Photo by makafood via Pexels.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/363/katsuobushi-bonito-flakes.jpg",
+          "alt": "Dried bonito flakes, pale pink and paper-thin, heaped in a pile.",
+          "caption": "Katsuobushi — shaved from a block of dried, smoked, fermented skipjack tuna. Photo by Sakurai Midori, CC BY-SA 3.0, via Wikimedia Commons.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/363/kombu-drying-hokkaido.jpg",
+          "alt": "Long ribbons of kelp laid out to dry in the sun in Hokkaido, Japan.",
+          "caption": "Kombu drying in Hokkaido. This is the other half of dashi, and the reason it tastes of the sea without tasting fishy. Photo by Marie-Sophie Mejan, CC BY 4.0, via Wikimedia Commons.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/363/dasida-1975-tv-ad.jpg",
+          "alt": "A black-and-white frame from CJ's 1975 Dasida advertising reading 11월 20일 다시다 탄생.",
+          "caption": "\"11월 20일 다시다 탄생\" — November 20, Dasida is born. A frame from the original 1975 campaign. Image from CJ CheilJedang's brand archive.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/363/korean-beef-soup-table.jpg",
+          "alt": "A Korean beef soup served with rice and side dishes on a wooden table.",
+          "caption": "A home-style beef soup with banchan. This is the everyday context dashida lives in — not restaurant cooking, weeknight cooking. Photo by 세훈 예 via Pexels.",
           "ext": ".jpg",
           "exists": true
         }
