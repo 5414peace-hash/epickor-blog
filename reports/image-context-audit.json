@@ -1,10 +1,10 @@
 {
   "summary": {
-    "generatedAt": "2026-08-05T14:06:10.955Z",
-    "auditedPosts": 352,
+    "generatedAt": "2026-08-05T14:51:36.120Z",
+    "auditedPosts": 353,
     "includedPrivate": false,
     "slugFilter": "",
-    "bodyImages": 1284,
+    "bodyImages": 1288,
     "affectedPosts": 101,
     "critical": 0,
     "high": 0,
@@ -13559,6 +13559,45 @@
           "url": "/assets/images/posts/370/ppushu-yeol-spicy-pack.jpg",
           "alt": "Ottogi Yeol Ppushu Ppushu Super Spicy — a red bag with chillies and flames behind the Korean characters.",
           "caption": "열뿌셔뿌셔 화끈한 매운맛, launched November 2024. Official product image, Ottogi.",
+          "ext": ".jpg",
+          "exists": true
+        }
+      ],
+      "findings": []
+    },
+    {
+      "type": "blog",
+      "slug": "371",
+      "title": "Kancho: The Korean Biscuit With 504 Names Printed On It, One Per Piece",
+      "contentPath": "content\\blog\\371.md",
+      "sourceRecord": "public\\assets\\images\\posts\\371\\image-sources.md",
+      "imageCount": 4,
+      "images": [
+        {
+          "url": "/assets/images/posts/371/kancho-printed-biscuits.jpg",
+          "alt": "A white plate of round Kancho biscuits, each stamped in brown with a different Korean name, a cartoon face, or a heart.",
+          "caption": "Every piece carries something. Names, faces, hearts — all printed in chocolate ink. Photo supplied by EpicKor.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/371/kancho-lotty-lorry-box.jpg",
+          "alt": "A tall pink hexagonal Kancho box from an earlier era, printed with two masked raccoon characters and the words 로터로리.",
+          "caption": "The Lotte World raccoon era — 로티 and 로리 on the box, which places this design somewhere between the 1990s and the mid-2000s. Photo supplied by EpicKor.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/371/kancho-choco-box.jpg",
+          "alt": "A pink Kancho Choco box with a yellow character in a chef's hat and biscuits showing a chocolate filling, a hat and a LOVE heart.",
+          "caption": "The current era: 카니 in the chef's hat, and the printing shown on the box itself — a hat, a heart, a LOVE. Photo supplied by EpicKor.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/371/kancho-cup-format.jpg",
+          "alt": "A Lotte Kancho Choco cup with a pink resealable lid, reading 카니와 쵸니의 달콤한 이야기 and 95 g, 460 kcal.",
+          "caption": "The cup format, with the resealable lid. The line under the heart reads **카니와 쵸니의 달콤한 이야기** — \"the sweet story of Kani and Choni.\" Photo supplied by EpicKor.",
           "ext": ".jpg",
           "exists": true
         }

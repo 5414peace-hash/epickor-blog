@@ -4251,10 +4251,11 @@
         "KPop"
       ],
       "amazon_category": "Food",
-      "status": "approved_pending_images",
+      "status": "done",
       "cycle": "2026-W33",
       "slug": "371",
-      "notes": "Lotte prints names/messages on each biscuit; 2026 edition has 500 Korean names. KR: 칸초 내이름 찾기/이름 종류/이름 이벤트. EN: kancho snack name list, with names, jungkook. Jungkook hunted for Ian on a Weverse live - Sportskeeda covered that, nobody wrote the product explainer. Write evergreen, date-stamp the campaign. | 2026-08-05 image gate: Commons 0 for 칸초/Lotte Kancho, lottewellfood.com is JS-rendered and /brand/hero/kancho returns 500. Moved to last in the batch; needs waterfall tier 3-4."
+      "notes": "Lotte prints names/messages on each biscuit; 2026 edition has 500 Korean names. KR: 칸초 내이름 찾기/이름 종류/이름 이벤트. EN: kancho snack name list, with names, jungkook. Jungkook hunted for Ian on a Weverse live - Sportskeeda covered that, nobody wrote the product explainer. Write evergreen, date-stamp the campaign. | 2026-08-05 image gate: Commons 0 for 칸초/Lotte Kancho, lottewellfood.com is JS-rendered and /brand/hero/kancho returns 500. Moved to last in the batch; needs waterfall tier 3-4. | RESOLVED 2026-08-05: representative supplied four product photos, including the plate of printed biscuits and a 로티·로리-era box. Waterfall tier 3 is what unblocked this; tiers 0 and 1 both failed (lottewellfood.com is client-rendered and returns 500 on /brand/hero/*, Commons has zero files).",
+      "published_at": "2026-08-05"
     },
     {
       "id": 196,
@@ -4294,5 +4295,5 @@
     }
   ],
   "last_updated": "2026-08-05",
-  "next_slug": "371"
+  "next_slug": "372"
 }
