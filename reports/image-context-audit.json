@@ -1,10 +1,10 @@
 {
   "summary": {
-    "generatedAt": "2026-08-04T12:54:29.192Z",
-    "auditedPosts": 348,
+    "generatedAt": "2026-08-05T14:06:10.955Z",
+    "auditedPosts": 352,
     "includedPrivate": false,
     "slugFilter": "",
-    "bodyImages": 1272,
+    "bodyImages": 1284,
     "affectedPosts": 101,
     "critical": 0,
     "high": 0,
@@ -13431,6 +13431,134 @@
           "url": "/assets/images/posts/366/swingchip-chips-plate.jpg",
           "alt": "A bowl of Swing Chip — thick chips with deep parallel ridges.",
           "caption": "스윙칩, the sister product. Same maker, same domestic-potato claim, completely different cut. Photo by 박찹쌀, CC BY-SA 2.0 KR, via Wikimedia Commons.",
+          "ext": ".jpg",
+          "exists": true
+        }
+      ],
+      "findings": []
+    },
+    {
+      "type": "blog",
+      "slug": "367",
+      "title": "Banana Kick: Korea's Banana Snack Is 1.6% Banana, and That's the Point",
+      "contentPath": "content\\blog\\367.md",
+      "sourceRecord": "public\\assets\\images\\posts\\367\\image-sources.md",
+      "imageCount": 3,
+      "images": [
+        {
+          "url": "/assets/images/posts/367/banana-kick-pack-official.jpg",
+          "alt": "Nongshim Banana Kick packaging artwork — a yellow bag with cartoon banana characters, beside loose pale corn puffs shaped like small bananas.",
+          "caption": "바나나킥. The bag says **바나나맛 그대로** — \"banana taste, just as it is.\" What is inside is corn. Official brand image, Nongshim.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/367/banana-kick-puffs-shape.jpg",
+          "alt": "Five pale corn puffs on a white rectangular plate — each curved like a small banana, with a lightly pitted, porous surface.",
+          "caption": "The shape is the whole design brief: a banana in the hand, corn in the mouth. Photo: Mobius6, Wikimedia Commons, CC BY-SA 4.0.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/367/banana-kick-inside-bag.jpg",
+          "alt": "Pale banana-shaped corn puffs filling the inside of an opened foil bag, seen from above.",
+          "caption": "Inside the bag. The pieces look dense and are not — the interior is hollow. Photo: Mobius6, Wikimedia Commons, CC BY-SA 4.0.",
+          "ext": ".jpg",
+          "exists": true
+        }
+      ],
+      "findings": []
+    },
+    {
+      "type": "blog",
+      "slug": "368",
+      "title": "Korea's Sun Chips Is a Different Chip, and It Came Back From a Fire",
+      "contentPath": "content\\blog\\368.md",
+      "sourceRecord": "public\\assets\\images\\posts\\368\\image-sources.md",
+      "imageCount": 3,
+      "images": [
+        {
+          "url": "/assets/images/posts/368/sun-returned-hot-spicy-bag.jpg",
+          "alt": "Orion Sun Hot Spicy bag — red and orange packaging reading 돌아온 Sun with 태양의 맛 썬 beside it, showing wavy ridged corn chips.",
+          "caption": "The bag says **돌아온 Sun** — \"Sun, returned.\" That is not a slogan. Official product image, Orion.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/368/sun-garlic-baguette.jpg",
+          "alt": "Orion Sun Garlic Baguette artwork — ridged corn chips beside slices of herbed garlic bread.",
+          "caption": "갈릭바게트맛, launched 2019 and now the flagship. Orion's copy leans on 발효종 — a fermented starter — as the reason it reads as bread rather than garlic powder. Official product image, Orion.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/368/sun-wavy-ridges-closeup.jpg",
+          "alt": "Close-up of Orion Sun chips showing deep wavy ridges on a wholegrain corn chip.",
+          "caption": "The ridge depth is the structural difference: deeper channels hold more seasoning, which is why the Korean version reads as stronger. Official product image, Orion.",
+          "ext": ".jpg",
+          "exists": true
+        }
+      ],
+      "findings": []
+    },
+    {
+      "type": "blog",
+      "slug": "369",
+      "title": "Goraebap: Korea's Whale Food Crackers Have 16 Shapes, and Every One Has a Name",
+      "contentPath": "content\\blog\\369.md",
+      "sourceRecord": "public\\assets\\images\\posts\\369\\image-sources.md",
+      "imageCount": 3,
+      "images": [
+        {
+          "url": "/assets/images/posts/369/goraebap-box-official.jpg",
+          "alt": "Orion Goraebap box — green packaging with a yellow cartoon fish in a pirate hat steering a boat full of sea-creature crackers.",
+          "caption": "고래밥, \"whale food.\" The badge in the corner reads **16마리 귀여운 바닷속 친구들이 들어있어요** — 16 cute sea friends inside. Official product image, Orion.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/369/goraebap-16-shapes-chart.jpg",
+          "alt": "Chart of 16 Goraebap cracker shapes on a green background, each labelled in Korean with its species and character name.",
+          "caption": "The chart Orion prints on its own product page. Sixteen, not nine. Official product image, Orion.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/369/goraebap-piece-closeup.jpg",
+          "alt": "Close-up of Goraebap crackers showing the hollow, puffed structure and orange seasoning coating.",
+          "caption": "The interior is hollow, which is why the pieces give way instead of snapping. Official product image, Orion.",
+          "ext": ".jpg",
+          "exists": true
+        }
+      ],
+      "findings": []
+    },
+    {
+      "type": "blog",
+      "slug": "370",
+      "title": "Ppushu Ppushu: Korea's Smash-It-Yourself Noodle Snack, and Which Flavour to Get",
+      "contentPath": "content\\blog\\370.md",
+      "sourceRecord": "public\\assets\\images\\posts\\370\\image-sources.md",
+      "imageCount": 3,
+      "images": [
+        {
+          "url": "/assets/images/posts/370/ppushu-bulgogi-pack.jpg",
+          "alt": "Ottogi Ppushu Ppushu Bulgogi flavour — a yellow bag showing a cartoon character raising a wooden mallet over a block of instant noodles.",
+          "caption": "뿌셔뿌셔 불고기맛. The character on the bag is holding a mallet, which is the entire instruction. Official product image, Ottogi.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/370/ppushu-crushed-and-seasoning.jpg",
+          "alt": "Crushed Ppushu Ppushu noodle pieces on a white plate beside a small pile of pale seasoning powder.",
+          "caption": "What is actually in the bag: a noodle block and a small sachet. The powder pile is the whole sachet — far less than a ramyun soup packet. Photo: Mobius6, Wikimedia Commons, CC BY-SA 4.0.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/370/ppushu-yeol-spicy-pack.jpg",
+          "alt": "Ottogi Yeol Ppushu Ppushu Super Spicy — a red bag with chillies and flames behind the Korean characters.",
+          "caption": "열뿌셔뿌셔 화끈한 매운맛, launched November 2024. Official product image, Ottogi.",
           "ext": ".jpg",
           "exists": true
         }

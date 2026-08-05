@@ -4202,8 +4202,97 @@
       "status": "rejected_coverage",
       "cycle": "2026-W32c",
       "notes": "REJECTED on coverage. Korea Herald, Korea Times, ZenKimchi ('Myth: Choco Pies were Invented in Korea'), myfreshdash and two dedicated Orion-vs-Lotte blogs, plus namu EN. The 1974/1979 copycat suit and the generic-trademark ruling are all already in English. Amazon demand is strong (8 branches) but there is nothing left to say."
+    },
+    {
+      "id": 193,
+      "title": "Banana Kick",
+      "target_keyword": "banana kick snack korea",
+      "keyword_shape": "purchase",
+      "category": "Food",
+      "tags": [
+        "KoreanSnacks",
+        "Nongshim",
+        "ConvenienceStore"
+      ],
+      "amazon_category": "Food",
+      "status": "done",
+      "cycle": "2026-W33",
+      "slug": "367",
+      "notes": "Corn puff, not banana. Nongshim 1978. Naver 2nd branch is 바나나킥 아기 - standard Korean toddler first snack, zero English coverage of that. Jennie named it on The Jennifer Hudson Show 2025-03-10; PR wire + K-pop blogs cover the celebrity moment, not the product. Images: Commons 3x CC BY-SA 4.0 up to 3000x2000 + nongshimusa.com pack shots.",
+      "published_at": "2026-08-05"
+    },
+    {
+      "id": 194,
+      "title": "Sun Chips (Korea)",
+      "target_keyword": "korean sun chips garlic baguette",
+      "keyword_shape": "comparison",
+      "category": "Food",
+      "tags": [
+        "KoreanSnacks",
+        "Orion",
+        "ConvenienceStore"
+      ],
+      "amazon_category": "Food",
+      "status": "done",
+      "cycle": "2026-W33",
+      "slug": "368",
+      "notes": "Name collision, same pattern as 365 Chilsung. Orion Frito-Lay formed April 1993 under PepsiCo licence; after it lapsed the Korean product was renamed 태양의 맛 썬. Korean-only flavours 갈릭바게트/핫앤스파이시/타코. Coverage: namu EN, Grokipedia, Creatrip roundup only. VERIFY current Korean shelf name before writing.",
+      "published_at": "2026-08-05"
+    },
+    {
+      "id": 195,
+      "title": "Kancho",
+      "target_keyword": "kancho snack name list",
+      "keyword_shape": "action",
+      "category": "Food",
+      "tags": [
+        "KoreanSnacks",
+        "Lotte",
+        "KPop"
+      ],
+      "amazon_category": "Food",
+      "status": "approved_pending_images",
+      "cycle": "2026-W33",
+      "slug": "371",
+      "notes": "Lotte prints names/messages on each biscuit; 2026 edition has 500 Korean names. KR: 칸초 내이름 찾기/이름 종류/이름 이벤트. EN: kancho snack name list, with names, jungkook. Jungkook hunted for Ian on a Weverse live - Sportskeeda covered that, nobody wrote the product explainer. Write evergreen, date-stamp the campaign. | 2026-08-05 image gate: Commons 0 for 칸초/Lotte Kancho, lottewellfood.com is JS-rendered and /brand/hero/kancho returns 500. Moved to last in the batch; needs waterfall tier 3-4."
+    },
+    {
+      "id": 196,
+      "title": "Goraebap",
+      "target_keyword": "goraebap korean snack",
+      "keyword_shape": "purchase",
+      "category": "Food",
+      "tags": [
+        "KoreanSnacks",
+        "Orion",
+        "ConvenienceStore"
+      ],
+      "amazon_category": "Food",
+      "status": "done",
+      "cycle": "2026-W33",
+      "slug": "369",
+      "notes": "Orion 1984. Nine sea-animal shapes, six baked dough layers, bingo and trivia printed on the flip-top box. CLEANEST coverage result of the cycle - retail listings only, zero English editorial. Risk: thinnest demand (8 branches) but all on-topic.",
+      "published_at": "2026-08-05"
+    },
+    {
+      "id": 197,
+      "title": "Ppushu Ppushu",
+      "target_keyword": "ppushu ppushu flavors",
+      "keyword_shape": "decision",
+      "category": "Food",
+      "tags": [
+        "KoreanSnacks",
+        "Ottogi",
+        "ConvenienceStore"
+      ],
+      "amazon_category": "Food",
+      "status": "done",
+      "cycle": "2026-W33",
+      "slug": "370",
+      "notes": "WEAKEST of the five. Crush-to-eat is on Amazon product titles and theramenrater reviewed it (2026-04). Wins on the flavour gap or not at all: Korean shelf carries 제주마농/구운양파/떡볶이맛/마요땅/열뿌셔뿌셔, export is BBQ/bulgogi/grilled chicken. korean crushed noodle snack = 0 EN branches. Images: Commons 2x CC BY-SA 4.0 (2240x1229, 2669x1013).",
+      "published_at": "2026-08-05"
     }
   ],
-  "last_updated": "2026-07-29",
-  "next_slug": "344"
+  "last_updated": "2026-08-05",
+  "next_slug": "371"
 }
