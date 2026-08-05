@@ -1,0 +1,110 @@
+[
+ {
+  "cut": 1,
+  "id": 37931943,
+  "srcFps": 30.0,
+  "srcDur": 7.93,
+  "needSec": 1.37,
+  "headroom": 6.56,
+  "ok": true
+ },
+ {
+  "cut": 4,
+  "id": 28982709,
+  "srcFps": 23.976,
+  "srcDur": 10.93,
+  "needSec": 1.03,
+  "headroom": 9.9,
+  "ok": true
+ },
+ {
+  "cut": 5,
+  "id": 38567383,
+  "srcFps": 30.0,
+  "srcDur": 6.1,
+  "needSec": 1.87,
+  "headroom": 4.23,
+  "ok": true
+ },
+ {
+  "cut": 6,
+  "id": 37971704,
+  "srcFps": 29.97,
+  "srcDur": 19.15,
+  "needSec": 2.53,
+  "headroom": 16.62,
+  "ok": true
+ },
+ {
+  "cut": 7,
+  "id": 29233121,
+  "srcFps": 23.976,
+  "srcDur": 25.53,
+  "needSec": 2.2,
+  "headroom": 23.33,
+  "ok": true
+ },
+ {
+  "cut": 8,
+  "id": 31801692,
+  "srcFps": 23.976,
+  "srcDur": 17.14,
+  "needSec": 3.4,
+  "headroom": 13.74,
+  "ok": true
+ },
+ {
+  "cut": 10,
+  "id": 31801544,
+  "srcFps": 23.976,
+  "srcDur": 23.19,
+  "needSec": 2.33,
+  "headroom": 20.86,
+  "ok": true
+ },
+ {
+  "cut": 12,
+  "id": 4768006,
+  "srcFps": 29.97,
+  "srcDur": 22.49,
+  "needSec": 2.7,
+  "headroom": 19.79,
+  "ok": true
+ },
+ {
+  "cut": 13,
+  "id": 37870428,
+  "srcFps": 29.97,
+  "srcDur": 20.92,
+  "needSec": 1.53,
+  "headroom": 19.39,
+  "ok": true
+ },
+ {
+  "cut": 16,
+  "id": 4629216,
+  "srcFps": 23.976,
+  "srcDur": 9.05,
+  "needSec": 3.9,
+  "headroom": 5.15,
+  "ok": true
+ },
+ {
+  "cut": 20,
+  "id": 31801696,
+  "srcFps": 23.976,
+  "srcDur": 7.26,
+  "needSec": 2.37,
+  "headroom": 4.89,
+  "ok": true
+ },
+ {
+  "cut": 22,
+  "id": 37984339,
+  "srcFps": 30.0,
+  "srcDur": 19.1,
+  "needSec": 1.87,
+  "headroom": 17.23,
+  "ok": true
+ }
+]

@@ -26,6 +26,7 @@ import { Reel313Composition } from './Reel313Composition';
 import { Reel326Composition } from './Reel326Composition';
 import { Reel321Composition } from './Reel321Composition';
 import { Reel320Composition } from './Reel320Composition';
+import { HubDrinksReel, HubRamyunReel, HubSeoulReel } from './HubReels';
 import type { ReelProps } from './types';
 
 const defaultReelProps: ReelProps = {
@@ -298,6 +299,30 @@ function Root() {
         height={1920}
         fps={30}
         durationInFrames={970}
+      />
+      <Composition
+        id="HubDrinks"
+        component={HubDrinksReel}
+        width={1080}
+        height={1920}
+        fps={30}
+        durationInFrames={1740}
+      />
+      <Composition
+        id="HubRamyun"
+        component={HubRamyunReel}
+        width={1080}
+        height={1920}
+        fps={30}
+        durationInFrames={1452}
+      />
+      <Composition
+        id="HubSeoul"
+        component={HubSeoulReel}
+        width={1080}
+        height={1920}
+        fps={30}
+        durationInFrames={1645}
       />
     </>
   );

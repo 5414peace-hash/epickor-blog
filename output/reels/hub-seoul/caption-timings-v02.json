@@ -1,0 +1,386 @@
+{
+ "slug": "hub-seoul",
+ "version": "v01",
+ "fps": 30,
+ "generatedAt": "2026-08-05T03:19:03.508Z",
+ "method": "ElevenLabs Forced Alignment against the approved narration transcript",
+ "captionLeadFrames": 5,
+ "safeZone": {
+  "left": 76,
+  "right": 76,
+  "bottom": 410,
+  "maxWidth": 928
+ },
+ "parts": [
+  {
+   "part": 1,
+   "transcript": "There's a street in Seoul where you are not allowed to be a tourist after five in the afternoon. The fine is a hundred thousand won, and they do collect it.",
+   "alignmentLoss": 0.038584839075039595,
+   "wordCount": 31,
+   "beatCount": 4,
+   "firstWordStart": 0.219,
+   "lastWordEnd": 7.419
+  },
+  {
+   "part": 2,
+   "transcript": "That's Bukchon, and the reason isn't complicated. People live there. Those are houses, with people inside them, and a very large number of visitors walking past the front doors every day. Which is the thing about Seoul neighbourhoods. The ones that look like attractions usually aren't, and the ones that look like nothing usually are.",
+   "alignmentLoss": 0.0562884850288505,
+   "wordCount": 55,
+   "beatCount": 9,
+   "firstWordStart": 0.179,
+   "lastWordEnd": 14.259
+  },
+  {
+   "part": 3,
+   "transcript": "This one looks three hundred years old. It went up in the nineteen-twenties, as a housing development. Somebody mass-produced hanok and sold them off, and it survived, so it's now the oldest hanok village left in Seoul. That park is shaped like a railway because it was one. Seoul buried the line and left six kilometres of grass on top of it.",
+   "alignmentLoss": 0.09220953029376773,
+   "wordCount": 62,
+   "beatCount": 11,
+   "firstWordStart": 0.179,
+   "lastWordEnd": 13.979
+  },
+  {
+   "part": 4,
+   "transcript": "That's a steel district, and it's still working. The artists moved in around the workshops, not instead of them. And then there's Euljiro. Metal shops all day, same street, same doors, and bars at night. Nobody puts a sign up. You're just supposed to know. So we wrote down all twelve.",
+   "alignmentLoss": 0.07067405842898185,
+   "wordCount": 51,
+   "beatCount": 11,
+   "firstWordStart": 0.179,
+   "lastWordEnd": 12.219
+  }
+ ],
+ "beats": [
+  {
+   "part": 1,
+   "text": "There's a street in Seoul where you are not allowed",
+   "startFrame": 11,
+   "endFrame": 70,
+   "sourceStartSeconds": 0.219,
+   "sourceEndSeconds": 2.2,
+   "wordCount": 10
+  },
+  {
+   "part": 1,
+   "text": "to be a tourist after five in the afternoon.",
+   "startFrame": 71,
+   "endFrame": 140,
+   "sourceStartSeconds": 2.22,
+   "sourceEndSeconds": 4.279,
+   "wordCount": 9
+  },
+  {
+   "part": 1,
+   "text": "The fine is a hundred thousand won,",
+   "startFrame": 141,
+   "endFrame": 193,
+   "sourceStartSeconds": 4.539,
+   "sourceEndSeconds": 6.079,
+   "wordCount": 7
+  },
+  {
+   "part": 1,
+   "text": "and they do collect it.",
+   "startFrame": 194,
+   "endFrame": 238,
+   "sourceStartSeconds": 6.299,
+   "sourceEndSeconds": 7.419,
+   "wordCount": 5
+  },
+  {
+   "part": 2,
+   "text": "That's Bukchon, and the reason isn't complicated.",
+   "startFrame": 247,
+   "endFrame": 307,
+   "sourceStartSeconds": 0.179,
+   "sourceEndSeconds": 2.119,
+   "wordCount": 7
+  },
+  {
+   "part": 2,
+   "text": "People live there.",
+   "startFrame": 308,
+   "endFrame": 332,
+   "sourceStartSeconds": 2.22,
+   "sourceEndSeconds": 2.919,
+   "wordCount": 3
+  },
+  {
+   "part": 2,
+   "text": "Those are houses,",
+   "startFrame": 333,
+   "endFrame": 360,
+   "sourceStartSeconds": 3.059,
+   "sourceEndSeconds": 3.919,
+   "wordCount": 3
+  },
+  {
+   "part": 2,
+   "text": "with people inside them,",
+   "startFrame": 361,
+   "endFrame": 395,
+   "sourceStartSeconds": 3.98,
+   "sourceEndSeconds": 5.019,
+   "wordCount": 4
+  },
+  {
+   "part": 2,
+   "text": "and a very large number of visitors",
+   "startFrame": 396,
+   "endFrame": 439,
+   "sourceStartSeconds": 5.139,
+   "sourceEndSeconds": 6.539,
+   "wordCount": 7
+  },
+  {
+   "part": 2,
+   "text": "walking past the front doors every day.",
+   "startFrame": 440,
+   "endFrame": 485,
+   "sourceStartSeconds": 6.599,
+   "sourceEndSeconds": 8.099,
+   "wordCount": 7
+  },
+  {
+   "part": 2,
+   "text": "Which is the thing about Seoul neighbourhoods.",
+   "startFrame": 486,
+   "endFrame": 538,
+   "sourceStartSeconds": 8.159,
+   "sourceEndSeconds": 9.899,
+   "wordCount": 7
+  },
+  {
+   "part": 2,
+   "text": "The ones that look like attractions usually aren't,",
+   "startFrame": 539,
+   "endFrame": 607,
+   "sourceStartSeconds": 9.92,
+   "sourceEndSeconds": 12.159,
+   "wordCount": 8
+  },
+  {
+   "part": 2,
+   "text": "and the ones that look like nothing usually are.",
+   "startFrame": 608,
+   "endFrame": 682,
+   "sourceStartSeconds": 12.219,
+   "sourceEndSeconds": 14.259,
+   "wordCount": 9
+  },
+  {
+   "part": 3,
+   "text": "This one looks three hundred years old.",
+   "startFrame": 690,
+   "endFrame": 738,
+   "sourceStartSeconds": 0.179,
+   "sourceEndSeconds": 1.74,
+   "wordCount": 7
+  },
+  {
+   "part": 3,
+   "text": "It went up in the nineteen-twenties,",
+   "startFrame": 739,
+   "endFrame": 777,
+   "sourceStartSeconds": 1.799,
+   "sourceEndSeconds": 3.059,
+   "wordCount": 6
+  },
+  {
+   "part": 3,
+   "text": "as a housing development.",
+   "startFrame": 778,
+   "endFrame": 808,
+   "sourceStartSeconds": 3.099,
+   "sourceEndSeconds": 4.039,
+   "wordCount": 4
+  },
+  {
+   "part": 3,
+   "text": "Somebody mass-produced hanok and sold them off,",
+   "startFrame": 809,
+   "endFrame": 867,
+   "sourceStartSeconds": 4.159,
+   "sourceEndSeconds": 6.059,
+   "wordCount": 7
+  },
+  {
+   "part": 3,
+   "text": "and it survived,",
+   "startFrame": 868,
+   "endFrame": 891,
+   "sourceStartSeconds": 6.119,
+   "sourceEndSeconds": 6.819,
+   "wordCount": 3
+  },
+  {
+   "part": 3,
+   "text": "so it's now the oldest",
+   "startFrame": 892,
+   "endFrame": 916,
+   "sourceStartSeconds": 6.899,
+   "sourceEndSeconds": 7.699,
+   "wordCount": 5
+  },
+  {
+   "part": 3,
+   "text": "hanok village left in Seoul.",
+   "startFrame": 917,
+   "endFrame": 952,
+   "sourceStartSeconds": 7.759,
+   "sourceEndSeconds": 8.88,
+   "wordCount": 5
+  },
+  {
+   "part": 3,
+   "text": "That park is shaped like a railway",
+   "startFrame": 953,
+   "endFrame": 994,
+   "sourceStartSeconds": 8.939,
+   "sourceEndSeconds": 10.3,
+   "wordCount": 7
+  },
+  {
+   "part": 3,
+   "text": "because it was one.",
+   "startFrame": 995,
+   "endFrame": 1015,
+   "sourceStartSeconds": 10.359,
+   "sourceEndSeconds": 10.96,
+   "wordCount": 4
+  },
+  {
+   "part": 3,
+   "text": "Seoul buried the line",
+   "startFrame": 1016,
+   "endFrame": 1044,
+   "sourceStartSeconds": 11.059,
+   "sourceEndSeconds": 11.96,
+   "wordCount": 4
+  },
+  {
+   "part": 3,
+   "text": "and left six kilometres of grass on top of it.",
+   "startFrame": 1045,
+   "endFrame": 1116,
+   "sourceStartSeconds": 12,
+   "sourceEndSeconds": 13.979,
+   "wordCount": 10
+  },
+  {
+   "part": 4,
+   "text": "That's a steel district,",
+   "startFrame": 1125,
+   "endFrame": 1155,
+   "sourceStartSeconds": 0.179,
+   "sourceEndSeconds": 1.12,
+   "wordCount": 4
+  },
+  {
+   "part": 4,
+   "text": "and it's still working.",
+   "startFrame": 1156,
+   "endFrame": 1182,
+   "sourceStartSeconds": 1.22,
+   "sourceEndSeconds": 2.039,
+   "wordCount": 4
+  },
+  {
+   "part": 4,
+   "text": "The artists moved in around the workshops,",
+   "startFrame": 1183,
+   "endFrame": 1231,
+   "sourceStartSeconds": 2.099,
+   "sourceEndSeconds": 3.679,
+   "wordCount": 7
+  },
+  {
+   "part": 4,
+   "text": "not instead of them.",
+   "startFrame": 1232,
+   "endFrame": 1268,
+   "sourceStartSeconds": 3.759,
+   "sourceEndSeconds": 4.519,
+   "wordCount": 4
+  },
+  {
+   "part": 4,
+   "text": "And then there's Euljiro.",
+   "startFrame": 1269,
+   "endFrame": 1300,
+   "sourceStartSeconds": 4.96,
+   "sourceEndSeconds": 5.9,
+   "wordCount": 4
+  },
+  {
+   "part": 4,
+   "text": "Metal shops all day,",
+   "startFrame": 1301,
+   "endFrame": 1329,
+   "sourceStartSeconds": 6.059,
+   "sourceEndSeconds": 6.899,
+   "wordCount": 4
+  },
+  {
+   "part": 4,
+   "text": "same street, same doors,",
+   "startFrame": 1330,
+   "endFrame": 1362,
+   "sourceStartSeconds": 7.019,
+   "sourceEndSeconds": 8.079,
+   "wordCount": 4
+  },
+  {
+   "part": 4,
+   "text": "and bars at night.",
+   "startFrame": 1363,
+   "endFrame": 1388,
+   "sourceStartSeconds": 8.119,
+   "sourceEndSeconds": 8.88,
+   "wordCount": 4
+  },
+  {
+   "part": 4,
+   "text": "Nobody puts a sign up.",
+   "startFrame": 1389,
+   "endFrame": 1422,
+   "sourceStartSeconds": 8.96,
+   "sourceEndSeconds": 9.979,
+   "wordCount": 5
+  },
+  {
+   "part": 4,
+   "text": "You're just supposed to know.",
+   "startFrame": 1423,
+   "endFrame": 1451,
+   "sourceStartSeconds": 10.119,
+   "sourceEndSeconds": 11,
+   "wordCount": 5
+  },
+  {
+   "part": 4,
+   "text": "So we wrote down all twelve.",
+   "startFrame": 1452,
+   "endFrame": 1498,
+   "sourceStartSeconds": 11.079,
+   "sourceEndSeconds": 12.219,
+   "wordCount": 6
+  },
+  {
+   "text": "There's a lot more of this.",
+   "startFrame": 1510,
+   "endFrame": 1537,
+   "part": 5
+  },
+  {
+   "text": "All twelve Seoul neighbourhoods, on epickor.com.",
+   "startFrame": 1539,
+   "endFrame": 1606,
+   "part": 5
+  }
+ ],
+ "coverage": {
+  "transcriptWords": 199,
+  "captionWords": 199,
+  "audioParts": 4
+ }
+}

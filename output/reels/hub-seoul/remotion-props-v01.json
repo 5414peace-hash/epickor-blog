@@ -1,0 +1,41 @@
+{
+  "slug": "hub-seoul",
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "durationInFrames": 1529,
+  "audioSegments": [
+    {
+      "part": 1,
+      "file": "voice-part-1.mp3",
+      "staticFilePath": "audio/voice-part-1.mp3",
+      "startFrame": 10,
+      "durationFrames": 228,
+      "durationSeconds": 7.616
+    },
+    {
+      "part": 2,
+      "file": "voice-part-2.mp3",
+      "staticFilePath": "audio/voice-part-2.mp3",
+      "startFrame": 247,
+      "durationFrames": 435,
+      "durationSeconds": 14.489
+    },
+    {
+      "part": 3,
+      "file": "voice-part-3.mp3",
+      "staticFilePath": "audio/voice-part-3.mp3",
+      "startFrame": 690,
+      "durationFrames": 426,
+      "durationSeconds": 14.211
+    },
+    {
+      "part": 4,
+      "file": "voice-part-4.mp3",
+      "staticFilePath": "audio/voice-part-4.mp3",
+      "startFrame": 1125,
+      "durationFrames": 373,
+      "durationSeconds": 12.446
+    }
+  ]
+}

@@ -1,0 +1,313 @@
+[
+ {
+  "n": 1,
+  "from": 11,
+  "to": 140,
+  "sec": 4.33,
+  "kind": "video",
+  "beats": [
+   0,
+   1
+  ],
+  "id": 29233125,
+  "ss": 1
+ },
+ {
+  "n": 2,
+  "from": 141,
+  "to": 193,
+  "sec": 1.77,
+  "kind": "still",
+  "beats": [
+   2,
+   2
+  ],
+  "src": "/assets/images/posts/357/bukchon-ro-11-gil-hanok-street.jpg"
+ },
+ {
+  "n": 3,
+  "from": 194,
+  "to": 246,
+  "sec": 1.77,
+  "kind": "still",
+  "beats": [
+   3,
+   3
+  ],
+  "abs": true,
+  "src": ".tmp/bukchon/Bukchon_Hanok_Village_07_jpg"
+ },
+ {
+  "n": 4,
+  "from": 247,
+  "to": 307,
+  "sec": 2.03,
+  "kind": "still",
+  "beats": [
+   4,
+   4
+  ],
+  "abs": true,
+  "src": ".tmp/bukchon/Bukchon_Village_Seoul_jpg"
+ },
+ {
+  "n": 5,
+  "from": 308,
+  "to": 360,
+  "sec": 1.77,
+  "kind": "still",
+  "beats": [
+   5,
+   6
+  ],
+  "src": "/assets/images/posts/357/bukchon-hanok-wooden-gate.jpg"
+ },
+ {
+  "n": 6,
+  "from": 361,
+  "to": 395,
+  "sec": 1.17,
+  "kind": "video",
+  "beats": [
+   7,
+   7
+  ],
+  "id": 34267134,
+  "ss": 2
+ },
+ {
+  "n": 7,
+  "from": 396,
+  "to": 485,
+  "sec": 3,
+  "kind": "still",
+  "beats": [
+   8,
+   9
+  ],
+  "src": "/assets/images/posts/357/bukchon-sloping-hanok-street.jpg"
+ },
+ {
+  "n": 8,
+  "from": 486,
+  "to": 538,
+  "sec": 1.77,
+  "kind": "video",
+  "beats": [
+   10,
+   10
+  ],
+  "id": 6120136,
+  "ss": 2
+ },
+ {
+  "n": 9,
+  "from": 539,
+  "to": 607,
+  "sec": 2.3,
+  "kind": "video",
+  "beats": [
+   11,
+   11
+  ],
+  "id": 34267123,
+  "ss": 3
+ },
+ {
+  "n": 10,
+  "from": 608,
+  "to": 689,
+  "sec": 2.73,
+  "kind": "video",
+  "beats": [
+   12,
+   12
+  ],
+  "id": 29354418,
+  "ss": 1
+ },
+ {
+  "n": 11,
+  "from": 690,
+  "to": 738,
+  "sec": 1.63,
+  "kind": "still",
+  "beats": [
+   13,
+   13
+  ],
+  "src": "/assets/images/posts/355/ikseon-dong-hanok-roofline.jpg"
+ },
+ {
+  "n": 12,
+  "from": 739,
+  "to": 808,
+  "sec": 2.33,
+  "kind": "still",
+  "beats": [
+   14,
+   15
+  ],
+  "src": "/assets/images/posts/355/ikseon-dong-narrow-lane.jpg"
+ },
+ {
+  "n": 13,
+  "from": 809,
+  "to": 867,
+  "sec": 1.97,
+  "kind": "still",
+  "beats": [
+   16,
+   16
+  ],
+  "src": "/assets/images/posts/355/ikseon-dong-hanok-shopfront.jpg"
+ },
+ {
+  "n": 14,
+  "from": 868,
+  "to": 952,
+  "sec": 2.83,
+  "kind": "still",
+  "beats": [
+   17,
+   19
+  ],
+  "ss": 11,
+  "abs": true,
+  "src": ".tmp/deriv/ikseon-roofline-tight.jpg"
+ },
+ {
+  "n": 15,
+  "from": 953,
+  "to": 994,
+  "sec": 1.4,
+  "kind": "still",
+  "beats": [
+   20,
+   20
+  ],
+  "src": "/assets/images/posts/351/gyeongui-line-forest-trail-park.jpg"
+ },
+ {
+  "n": 16,
+  "from": 995,
+  "to": 1044,
+  "sec": 1.67,
+  "kind": "video",
+  "beats": [
+   21,
+   22
+  ],
+  "id": 37583759,
+  "ss": 2
+ },
+ {
+  "n": 17,
+  "from": 1045,
+  "to": 1124,
+  "sec": 2.67,
+  "kind": "still",
+  "beats": [
+   23,
+   23
+  ],
+  "src": "/assets/images/posts/351/gyeongui-line-forest-park-yeonnam.jpg"
+ },
+ {
+  "n": 18,
+  "from": 1125,
+  "to": 1182,
+  "sec": 1.93,
+  "kind": "still",
+  "beats": [
+   24,
+   25
+  ],
+  "src": "/assets/images/posts/352/mullae-steelworks-shutter-murals.jpg"
+ },
+ {
+  "n": 19,
+  "from": 1183,
+  "to": 1268,
+  "sec": 2.87,
+  "kind": "still",
+  "beats": [
+   26,
+   27
+  ],
+  "src": "/assets/images/posts/352/mullae-lowrise-and-towers.jpg"
+ },
+ {
+  "n": 20,
+  "from": 1269,
+  "to": 1300,
+  "sec": 1.07,
+  "kind": "still",
+  "beats": [
+   28,
+   28
+  ],
+  "ss": 2,
+  "abs": true,
+  "src": ".tmp/deriv/euljiro-shopfront-tight.jpg"
+ },
+ {
+  "n": 21,
+  "from": 1301,
+  "to": 1362,
+  "sec": 2.07,
+  "kind": "still",
+  "beats": [
+   29,
+   30
+  ],
+  "src": "/assets/images/posts/349/euljiro-tool-and-lighting-shops.jpg"
+ },
+ {
+  "n": 22,
+  "from": 1363,
+  "to": 1388,
+  "sec": 0.87,
+  "kind": "video",
+  "beats": [
+   31,
+   31
+  ],
+  "id": 28987855,
+  "ss": 2
+ },
+ {
+  "n": 23,
+  "from": 1389,
+  "to": 1451,
+  "sec": 2.1,
+  "kind": "still",
+  "beats": [
+   32,
+   33
+  ],
+  "src": "/assets/images/posts/349/euljiro-nogari-alley-night.jpg"
+ },
+ {
+  "n": 24,
+  "from": 1452,
+  "to": 1504,
+  "sec": 1.77,
+  "kind": "video",
+  "beats": [
+   34,
+   34
+  ],
+  "id": 31801552,
+  "ss": 1
+ },
+ {
+  "n": 25,
+  "from": 1505,
+  "to": 1644,
+  "kind": "video",
+  "id": 37971704,
+  "ss": 1,
+  "sec": 4.67
+ }
+]

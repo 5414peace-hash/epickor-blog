@@ -52,10 +52,10 @@ export function clamp(frame: number, input: number[], output: number[]) {
  * 16 frames in the compositions, so one cut is still at partial opacity while
  * the next comes up — no hard reset to the background colour.
  */
-function Fade({ children, hold = 8 }: { children: ReactNode; hold?: number }) {
+function Fade({ children, hold = 8, fadeIn = true }: { children: ReactNode; hold?: number; fadeIn?: boolean }) {
   const frame = useCurrentFrame();
   const { durationInFrames } = useVideoConfig();
-  const inOpacity = clamp(frame, [0, hold], [0, 1]);
+  const inOpacity = fadeIn ? clamp(frame, [0, hold], [0, 1]) : 1;
   const outOpacity = clamp(frame, [durationInFrames - hold, durationInFrames], [1, 0]);
   return <AbsoluteFill style={{ opacity: Math.min(inOpacity, outOpacity) }}>{children}</AbsoluteFill>;
 }
@@ -68,13 +68,13 @@ function Fade({ children, hold = 8 }: { children: ReactNode; hold?: number }) {
  * bottom. That is what actually turns a returning clip into a different shot.
  */
 export function VideoCut({
-  src, trim = 0, position = 'center', origin = 'center center', from = 1.02, to = 1.09,
-}: { src: string; trim?: number; position?: string; origin?: string; from?: number; to?: number }) {
+  src, trim = 0, position = 'center', origin = 'center center', from = 1.02, to = 1.09, fadeIn = true,
+}: { src: string; trim?: number; position?: string; origin?: string; from?: number; to?: number; fadeIn?: boolean }) {
   const frame = useCurrentFrame();
   const { durationInFrames } = useVideoConfig();
   const zoom = clamp(frame, [0, Math.max(1, durationInFrames)], [from, to]);
   return (
-    <Fade>
+    <Fade fadeIn={fadeIn}>
       <OffthreadVideo
         src={staticFile(src)}
         trimBefore={trim}
@@ -98,8 +98,8 @@ export type Drift = 'left' | 'right' | 'up' | 'down';
  * and consecutive stills are given opposing directions by the caller.
  */
 export function StillCut({
-  src, from = 1.0, to = 1.15, drift = 'left', amount = 46, position = 'center',
-}: { src: string; from?: number; to?: number; drift?: Drift; amount?: number; position?: string }) {
+  src, from = 1.0, to = 1.15, drift = 'left', amount = 46, position = 'center', fadeIn = true,
+}: { src: string; from?: number; to?: number; drift?: Drift; amount?: number; position?: string; fadeIn?: boolean }) {
   const frame = useCurrentFrame();
   const { durationInFrames } = useVideoConfig();
   const span = Math.max(1, durationInFrames);
@@ -108,7 +108,7 @@ export function StillCut({
   const x = drift === 'left' ? -travel : drift === 'right' ? travel : 0;
   const y = drift === 'up' ? -travel : drift === 'down' ? travel : 0;
   return (
-    <Fade>
+    <Fade fadeIn={fadeIn}>
       <Img
         src={staticFile(src)}
         style={{

@@ -1,0 +1,314 @@
+{
+ "slug": "hub-ramyun",
+ "version": "v01",
+ "fps": 30,
+ "generatedAt": "2026-08-05T03:01:03.648Z",
+ "method": "ElevenLabs Forced Alignment against the approved narration transcript",
+ "captionLeadFrames": 5,
+ "safeZone": {
+  "left": 76,
+  "right": 76,
+  "bottom": 410,
+  "maxWidth": 928
+ },
+ "parts": [
+  {
+   "part": 1,
+   "transcript": "Somewhere on your feed there's a person crying into a bowl of Korean noodles. That's Buldak. Four thousand four hundred Scoville.",
+   "alignmentLoss": 0.0908857685650966,
+   "wordCount": 21,
+   "beatCount": 4,
+   "firstWordStart": 0.199,
+   "lastWordEnd": 5.699
+  },
+  {
+   "part": 2,
+   "transcript": "Here's the part Koreans find funny about that. This is a cheongyang pepper. It lives in the fridge, it gets sliced raw into soup, and it starts at ten thousand. So the noodle the whole internet is frightened of doesn't get halfway to a pepper somebody's grandmother drops into a stew without thinking about it.",
+   "alignmentLoss": 0.036186059828727475,
+   "wordCount": 55,
+   "beatCount": 7,
+   "firstWordStart": 0.179,
+   "lastWordEnd": 13.339
+  },
+  {
+   "part": 3,
+   "transcript": "Which makes you wonder what Koreans are actually buying, and it isn't the famous one. It's Jin Ramen. Twenty-six percent of the country, and the mild version is mild enough that five-year-olds eat it. That's deliberate, not an accident.",
+   "alignmentLoss": 0.049879438796285855,
+   "wordCount": 39,
+   "beatCount": 7,
+   "firstWordStart": 0.179,
+   "lastWordEnd": 9.739
+  },
+  {
+   "part": 4,
+   "transcript": "And if you've ever been handed free ramyun in a Korean restaurant, it was this brand. Every time. Ottogi held the price still for thirteen years, so it quietly became the cheapest bag in Korea to give away. Korea isn't eating for the burn. It's just eating dinner.",
+   "alignmentLoss": 0.060692161321640015,
+   "wordCount": 48,
+   "beatCount": 9,
+   "firstWordStart": 0.179,
+   "lastWordEnd": 12.719
+  }
+ ],
+ "beats": [
+  {
+   "part": 1,
+   "text": "Somewhere on your feed there's a person",
+   "startFrame": 11,
+   "endFrame": 51,
+   "sourceStartSeconds": 0.199,
+   "sourceEndSeconds": 1.559,
+   "wordCount": 7
+  },
+  {
+   "part": 1,
+   "text": "crying into a bowl of Korean noodles.",
+   "startFrame": 52,
+   "endFrame": 108,
+   "sourceStartSeconds": 1.579,
+   "sourceEndSeconds": 3.179,
+   "wordCount": 7
+  },
+  {
+   "part": 1,
+   "text": "That's Buldak.",
+   "startFrame": 109,
+   "endFrame": 133,
+   "sourceStartSeconds": 3.48,
+   "sourceEndSeconds": 4.219,
+   "wordCount": 2
+  },
+  {
+   "part": 1,
+   "text": "Four thousand four hundred Scoville.",
+   "startFrame": 134,
+   "endFrame": 188,
+   "sourceStartSeconds": 4.319,
+   "sourceEndSeconds": 5.699,
+   "wordCount": 5
+  },
+  {
+   "part": 2,
+   "text": "Here's the part Koreans find funny about that.",
+   "startFrame": 199,
+   "endFrame": 257,
+   "sourceStartSeconds": 0.179,
+   "sourceEndSeconds": 1.979,
+   "wordCount": 8
+  },
+  {
+   "part": 2,
+   "text": "This is a cheongyang pepper.",
+   "startFrame": 258,
+   "endFrame": 305,
+   "sourceStartSeconds": 2.139,
+   "sourceEndSeconds": 3.399,
+   "wordCount": 5
+  },
+  {
+   "part": 2,
+   "text": "It lives in the fridge,",
+   "startFrame": 306,
+   "endFrame": 331,
+   "sourceStartSeconds": 3.759,
+   "sourceEndSeconds": 4.539,
+   "wordCount": 5
+  },
+  {
+   "part": 2,
+   "text": "it gets sliced raw into soup,",
+   "startFrame": 332,
+   "endFrame": 376,
+   "sourceStartSeconds": 4.619,
+   "sourceEndSeconds": 6.059,
+   "wordCount": 6
+  },
+  {
+   "part": 2,
+   "text": "and it starts at ten thousand.",
+   "startFrame": 377,
+   "endFrame": 417,
+   "sourceStartSeconds": 6.099,
+   "sourceEndSeconds": 7.419,
+   "wordCount": 6
+  },
+  {
+   "part": 2,
+   "text": "So the noodle the whole internet is frightened of doesn't get halfway",
+   "startFrame": 418,
+   "endFrame": 500,
+   "sourceStartSeconds": 7.48,
+   "sourceEndSeconds": 10.219,
+   "wordCount": 12
+  },
+  {
+   "part": 2,
+   "text": "to a pepper somebody's grandmother drops into a stew without thinking about it.",
+   "startFrame": 501,
+   "endFrame": 606,
+   "sourceStartSeconds": 10.239,
+   "sourceEndSeconds": 13.339,
+   "wordCount": 13
+  },
+  {
+   "part": 3,
+   "text": "Which makes you wonder what Koreans are actually buying,",
+   "startFrame": 615,
+   "endFrame": 678,
+   "sourceStartSeconds": 0.179,
+   "sourceEndSeconds": 2.2,
+   "wordCount": 9
+  },
+  {
+   "part": 3,
+   "text": "and it isn't the famous one.",
+   "startFrame": 679,
+   "endFrame": 708,
+   "sourceStartSeconds": 2.299,
+   "sourceEndSeconds": 3.259,
+   "wordCount": 6
+  },
+  {
+   "part": 3,
+   "text": "It's Jin Ramen.",
+   "startFrame": 709,
+   "endFrame": 740,
+   "sourceStartSeconds": 3.319,
+   "sourceEndSeconds": 4.059,
+   "wordCount": 3
+  },
+  {
+   "part": 3,
+   "text": "Twenty-six percent of the country,",
+   "startFrame": 741,
+   "endFrame": 779,
+   "sourceStartSeconds": 4.38,
+   "sourceEndSeconds": 5.579,
+   "wordCount": 5
+  },
+  {
+   "part": 3,
+   "text": "and the mild version is mild enough",
+   "startFrame": 780,
+   "endFrame": 828,
+   "sourceStartSeconds": 5.679,
+   "sourceEndSeconds": 7.259,
+   "wordCount": 7
+  },
+  {
+   "part": 3,
+   "text": "that five-year-olds eat it.",
+   "startFrame": 829,
+   "endFrame": 862,
+   "sourceStartSeconds": 7.319,
+   "sourceEndSeconds": 8.42,
+   "wordCount": 4
+  },
+  {
+   "part": 3,
+   "text": "That's deliberate, not an accident.",
+   "startFrame": 863,
+   "endFrame": 914,
+   "sourceStartSeconds": 8.439,
+   "sourceEndSeconds": 9.739,
+   "wordCount": 5
+  },
+  {
+   "part": 4,
+   "text": "And if you've ever been handed",
+   "startFrame": 923,
+   "endFrame": 956,
+   "sourceStartSeconds": 0.179,
+   "sourceEndSeconds": 1.219,
+   "wordCount": 6
+  },
+  {
+   "part": 4,
+   "text": "free ramyun in a Korean restaurant,",
+   "startFrame": 957,
+   "endFrame": 1003,
+   "sourceStartSeconds": 1.299,
+   "sourceEndSeconds": 2.779,
+   "wordCount": 6
+  },
+  {
+   "part": 4,
+   "text": "it was this brand.",
+   "startFrame": 1004,
+   "endFrame": 1039,
+   "sourceStartSeconds": 2.879,
+   "sourceEndSeconds": 3.699,
+   "wordCount": 4
+  },
+  {
+   "part": 4,
+   "text": "Every time.",
+   "startFrame": 1040,
+   "endFrame": 1077,
+   "sourceStartSeconds": 4.079,
+   "sourceEndSeconds": 4.659,
+   "wordCount": 2
+  },
+  {
+   "part": 4,
+   "text": "Ottogi held the price still for thirteen years,",
+   "startFrame": 1078,
+   "endFrame": 1140,
+   "sourceStartSeconds": 5.339,
+   "sourceEndSeconds": 7.379,
+   "wordCount": 8
+  },
+  {
+   "part": 4,
+   "text": "so it quietly became the cheapest",
+   "startFrame": 1141,
+   "endFrame": 1185,
+   "sourceStartSeconds": 7.44,
+   "sourceEndSeconds": 8.88,
+   "wordCount": 6
+  },
+  {
+   "part": 4,
+   "text": "bag in Korea to give away.",
+   "startFrame": 1186,
+   "endFrame": 1232,
+   "sourceStartSeconds": 8.939,
+   "sourceEndSeconds": 10.179,
+   "wordCount": 6
+  },
+  {
+   "part": 4,
+   "text": "Korea isn't eating for the burn.",
+   "startFrame": 1233,
+   "endFrame": 1271,
+   "sourceStartSeconds": 10.5,
+   "sourceEndSeconds": 11.719,
+   "wordCount": 6
+  },
+  {
+   "part": 4,
+   "text": "It's just eating dinner.",
+   "startFrame": 1272,
+   "endFrame": 1312,
+   "sourceStartSeconds": 11.8,
+   "sourceEndSeconds": 12.719,
+   "wordCount": 4
+  },
+  {
+   "text": "There's a lot more of this.",
+   "startFrame": 1320,
+   "endFrame": 1343,
+   "part": 5
+  },
+  {
+   "text": "Every Korean ramyun, ranked, on epickor.com.",
+   "startFrame": 1347,
+   "endFrame": 1412,
+   "part": 5
+  }
+ ],
+ "coverage": {
+  "transcriptWords": 163,
+  "captionWords": 163,
+  "audioParts": 4
+ }
+}

@@ -534,6 +534,44 @@
   175 v005, 174 v002. Zero clip overlap with published Reels (ledger-enforced), ONS chains carry
   the argument sound-off, per-track BGM (Hold Me / Walk the Walk / Papi Beat), -14 LUFS.
 
+- **2026-08-05 — Rendering a Reel outside Batch0726Kit costs the entire design system, and it is
+  not obvious from the MP4 which parts are missing.** The hub-drinks/ramyun/seoul batch was
+  assembled straight to MP4 with ffmpeg (concat + `adelay`/`amix` + burned ASS subtitles). It
+  therefore had **no ONS, no outro `epickor.com` chip, no kicker chips, no watermark** — the kit
+  supplies all four and nothing else does. Representative scored it **3/100**. **Always render
+  through `remotion/`; ffmpeg is for preparing media, never for assembling a Reel.**
+- **2026-08-05 — libass stacks simultaneous same-alignment subtitles upward, so a "caption leads
+  the audio" rule implemented as *start earlier* produces vertical jitter on every line.** The
+  delivered ASS had **29 of 33** (drinks), 23/27 (ramyun), 31/35 (seoul) `Dialogue` lines
+  overlapping the next by 0.14s = 4 frames. The lead must come **out of the previous beat**
+  (`beats[i].endFrame = beats[i+1].startFrame - 1`), not run alongside it. The upstream
+  `caption-timings-v01.json` beats were already clean — **the ASS writer introduced the overlap.**
+  Remotion's `Captions` is immune: it renders one `beats.find()` match at a fixed `bottom: 410`.
+- **2026-08-05 — Video-only render QA passes files with ten seconds of silence in them.** All
+  three delivered Reels had a hole: drinks **16.0-26.3s at -91.0 dB** (digital silence), seoul
+  7.6-18.0s, ramyun 6.0-12.6s. The source mp3s were intact (12/12 clean) and the mix reproduced
+  clean from the same script, so the artifacts were stale renders. **Gate added:**
+  `npm run reels:qa-audio -- --file <mp4> --manifest <render-manifest.json>`; also
+  `reels:qa-cuts` builds a per-cut contact sheet captioning each frame with the line spoken over
+  it, which is what would have caught the six picture/word contradictions.
+  *Trap found while writing the gate:* `silencedetect`/`volumedetect` report on **stderr**, and
+  `execFileSync` returns stdout only — the first version read `''` and passed the known-bad file.
+  Use `spawnSync` and concatenate both streams.
+- **2026-08-05 — hy Mobility (`hymobility.net/ko/coco30`) publishes the COCO 3.0 cart in 16
+  angles plus two spec tables**; Wikimedia Commons has **zero** Yakult-cart images and the footage
+  gate found **0 usable cart/fridge/moped clips out of 97 Korea-named results**. Official spec
+  table: **total storage 260 L = 220 L at 0-10°C + 40 L at 0-25°C**, max speed **8 km/h**, curb
+  weight 420 kg, lithium-ion 8.3 kWh, 14-inch foam-filled tyres. Wix originals come back at
+  1024-1280px by stripping the `/v1/fill/w_NNN,...` transform from the media URL.
+- **2026-08-05 — Studio product renders key cleanly on CHROMA, never on brightness.** COCO renders
+  are (255,255,255) plate vs (232,211,186) cream body — a brightness cut at ≥234 flood-fills the
+  whole body away, while `maxCh-minCh < 12 && mean > 205` separates them with 30 points to spare.
+  Flood-fill from the border rather than keying globally, so enclosed specular highlights survive.
+  Two sharp traps: `sharp.trim()` keys off the top-left pixel and cropped an 861×594 cart to a
+  934×182 sliver (compute the alpha bbox during the fill instead), and **sharp promotes a
+  1-channel raw buffer to 3-channel on the way out**, so a blurred alpha mask must be indexed by
+  `info.channels`, not assumed to be 1 — assuming 1 striped the alpha into scanlines.
+
 ## instagram / social
 
 - **2026-07-27 — Reels 220/175/174 scheduled via Meta Suite, planner-verified: exactly six entries

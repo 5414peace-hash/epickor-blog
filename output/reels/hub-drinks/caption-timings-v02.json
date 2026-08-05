@@ -1,0 +1,368 @@
+{
+ "slug": "hub-drinks",
+ "version": "v01",
+ "fps": 30,
+ "generatedAt": "2026-08-05T02:30:03.899Z",
+ "method": "ElevenLabs Forced Alignment against the approved narration transcript",
+ "captionLeadFrames": 5,
+ "safeZone": {
+  "left": 76,
+  "right": 76,
+  "bottom": 410,
+  "maxWidth": 928
+ },
+ "parts": [
+  {
+   "part": 1,
+   "transcript": "This is a refrigerator. Two hundred and twenty litres, and it does eight kilometres an hour. Somebody is riding one down a road in Seoul right now, because legally, that thing is a moped. Licence, helmet, all of it.",
+   "alignmentLoss": 0.08861568362213844,
+   "wordCount": 39,
+   "beatCount": 7,
+   "firstWordStart": 0.179,
+   "lastWordEnd": 9.859
+  },
+  {
+   "part": 2,
+   "transcript": "So who drives a refrigerator to work? Around eleven thousand people do. Korea calls them Fresh Managers now, though everybody still says yogurt lady. Two of them work an island in the East Sea. And the drink they're handing you isn't yogurt. It pours, because they break the curd on purpose.",
+   "alignmentLoss": 0.04786014024334675,
+   "wordCount": 51,
+   "beatCount": 8,
+   "firstWordStart": 0.219,
+   "lastWordEnd": 14.219
+  },
+  {
+   "part": 3,
+   "transcript": "Honestly, the whole aisle is like this. The menu says cider, so you're expecting apples. There aren't any. It's a clear lemon-lime soda, and it's been on shelves since nineteen fifty. Sprite didn't exist until nineteen sixty-one. So it isn't Korea's version of Sprite. Sprite turned up late.",
+   "alignmentLoss": 0.05833026797501082,
+   "wordCount": 48,
+   "beatCount": 9,
+   "firstWordStart": 0.199,
+   "lastWordEnd": 12.699
+  },
+  {
+   "part": 4,
+   "transcript": "Even the little brown bottle by the till isn't what it looks like. Push past a thousand milligrams of taurine and Korea calls it a drug, so the strong one sits behind a pharmacy counter, and the one you're allowed to buy is the weaker one. None of that is written in English anywhere. So we wrote it down.",
+   "alignmentLoss": 0.027824021167442446,
+   "wordCount": 59,
+   "beatCount": 9,
+   "firstWordStart": 0.179,
+   "lastWordEnd": 13.899
+  }
+ ],
+ "beats": [
+  {
+   "part": 1,
+   "text": "This is a refrigerator.",
+   "startFrame": 10,
+   "endFrame": 50,
+   "sourceStartSeconds": 0.179,
+   "sourceEndSeconds": 1.22,
+   "wordCount": 4
+  },
+  {
+   "part": 1,
+   "text": "Two hundred and twenty litres,",
+   "startFrame": 51,
+   "endFrame": 89,
+   "sourceStartSeconds": 1.559,
+   "sourceEndSeconds": 2.779,
+   "wordCount": 5
+  },
+  {
+   "part": 1,
+   "text": "and it does eight kilometres an hour.",
+   "startFrame": 90,
+   "endFrame": 148,
+   "sourceStartSeconds": 2.839,
+   "sourceEndSeconds": 4.319,
+   "wordCount": 7
+  },
+  {
+   "part": 1,
+   "text": "Somebody is riding one down",
+   "startFrame": 149,
+   "endFrame": 179,
+   "sourceStartSeconds": 4.799,
+   "sourceEndSeconds": 5.819,
+   "wordCount": 5
+  },
+  {
+   "part": 1,
+   "text": "a road in Seoul right now, because legally,",
+   "startFrame": 180,
+   "endFrame": 235,
+   "sourceStartSeconds": 5.839,
+   "sourceEndSeconds": 7.679,
+   "wordCount": 8
+  },
+  {
+   "part": 1,
+   "text": "that thing is a moped.",
+   "startFrame": 236,
+   "endFrame": 266,
+   "sourceStartSeconds": 7.719,
+   "sourceEndSeconds": 8.659,
+   "wordCount": 5
+  },
+  {
+   "part": 1,
+   "text": "Licence, helmet, all of it.",
+   "startFrame": 267,
+   "endFrame": 311,
+   "sourceStartSeconds": 8.739,
+   "sourceEndSeconds": 9.859,
+   "wordCount": 5
+  },
+  {
+   "part": 2,
+   "text": "So who drives a refrigerator to work?",
+   "startFrame": 321,
+   "endFrame": 386,
+   "sourceStartSeconds": 0.219,
+   "sourceEndSeconds": 2.099,
+   "wordCount": 7
+  },
+  {
+   "part": 2,
+   "text": "Around eleven thousand people do.",
+   "startFrame": 387,
+   "endFrame": 436,
+   "sourceStartSeconds": 2.399,
+   "sourceEndSeconds": 3.899,
+   "wordCount": 5
+  },
+  {
+   "part": 2,
+   "text": "Korea calls them Fresh Managers now,",
+   "startFrame": 437,
+   "endFrame": 488,
+   "sourceStartSeconds": 4.079,
+   "sourceEndSeconds": 5.679,
+   "wordCount": 6
+  },
+  {
+   "part": 2,
+   "text": "though everybody still says yogurt lady.",
+   "startFrame": 489,
+   "endFrame": 546,
+   "sourceStartSeconds": 5.799,
+   "sourceEndSeconds": 7.539,
+   "wordCount": 6
+  },
+  {
+   "part": 2,
+   "text": "Two of them work",
+   "startFrame": 547,
+   "endFrame": 569,
+   "sourceStartSeconds": 7.759,
+   "sourceEndSeconds": 8.479,
+   "wordCount": 4
+  },
+  {
+   "part": 2,
+   "text": "an island in the East Sea.",
+   "startFrame": 570,
+   "endFrame": 616,
+   "sourceStartSeconds": 8.519,
+   "sourceEndSeconds": 9.739,
+   "wordCount": 6
+  },
+  {
+   "part": 2,
+   "text": "And the drink they're handing you isn't yogurt.",
+   "startFrame": 617,
+   "endFrame": 672,
+   "sourceStartSeconds": 10.079,
+   "sourceEndSeconds": 11.88,
+   "wordCount": 8
+  },
+  {
+   "part": 2,
+   "text": "It pours, because they break the curd on purpose.",
+   "startFrame": 673,
+   "endFrame": 753,
+   "sourceStartSeconds": 11.939,
+   "sourceEndSeconds": 14.219,
+   "wordCount": 9
+  },
+  {
+   "part": 3,
+   "text": "Honestly, the whole aisle is like this.",
+   "startFrame": 763,
+   "endFrame": 808,
+   "sourceStartSeconds": 0.199,
+   "sourceEndSeconds": 1.679,
+   "wordCount": 7
+  },
+  {
+   "part": 3,
+   "text": "The menu says cider,",
+   "startFrame": 809,
+   "endFrame": 840,
+   "sourceStartSeconds": 1.759,
+   "sourceEndSeconds": 2.759,
+   "wordCount": 4
+  },
+  {
+   "part": 3,
+   "text": "so you're expecting apples.",
+   "startFrame": 841,
+   "endFrame": 873,
+   "sourceStartSeconds": 2.819,
+   "sourceEndSeconds": 3.839,
+   "wordCount": 4
+  },
+  {
+   "part": 3,
+   "text": "There aren't any.",
+   "startFrame": 874,
+   "endFrame": 894,
+   "sourceStartSeconds": 3.899,
+   "sourceEndSeconds": 4.42,
+   "wordCount": 3
+  },
+  {
+   "part": 3,
+   "text": "It's a clear lemon-lime soda,",
+   "startFrame": 895,
+   "endFrame": 936,
+   "sourceStartSeconds": 4.619,
+   "sourceEndSeconds": 5.96,
+   "wordCount": 5
+  },
+  {
+   "part": 3,
+   "text": "and it's been on shelves since nineteen fifty.",
+   "startFrame": 937,
+   "endFrame": 991,
+   "sourceStartSeconds": 6.019,
+   "sourceEndSeconds": 7.759,
+   "wordCount": 8
+  },
+  {
+   "part": 3,
+   "text": "Sprite didn't exist until nineteen sixty-one.",
+   "startFrame": 992,
+   "endFrame": 1053,
+   "sourceStartSeconds": 7.839,
+   "sourceEndSeconds": 9.879,
+   "wordCount": 6
+  },
+  {
+   "part": 3,
+   "text": "So it isn't Korea's version of Sprite.",
+   "startFrame": 1054,
+   "endFrame": 1105,
+   "sourceStartSeconds": 9.92,
+   "sourceEndSeconds": 11.46,
+   "wordCount": 7
+  },
+  {
+   "part": 3,
+   "text": "Sprite turned up late.",
+   "startFrame": 1106,
+   "endFrame": 1149,
+   "sourceStartSeconds": 11.659,
+   "sourceEndSeconds": 12.699,
+   "wordCount": 4
+  },
+  {
+   "part": 4,
+   "text": "Even the little brown bottle",
+   "startFrame": 1157,
+   "endFrame": 1190,
+   "sourceStartSeconds": 0.179,
+   "sourceEndSeconds": 1.279,
+   "wordCount": 5
+  },
+  {
+   "part": 4,
+   "text": "by the till isn't what it looks like.",
+   "startFrame": 1191,
+   "endFrame": 1244,
+   "sourceStartSeconds": 1.319,
+   "sourceEndSeconds": 2.779,
+   "wordCount": 8
+  },
+  {
+   "part": 4,
+   "text": "Push past a thousand milligrams of taurine",
+   "startFrame": 1245,
+   "endFrame": 1304,
+   "sourceStartSeconds": 3.119,
+   "sourceEndSeconds": 5.079,
+   "wordCount": 7
+  },
+  {
+   "part": 4,
+   "text": "and Korea calls it a drug,",
+   "startFrame": 1305,
+   "endFrame": 1344,
+   "sourceStartSeconds": 5.119,
+   "sourceEndSeconds": 6.279,
+   "wordCount": 6
+  },
+  {
+   "part": 4,
+   "text": "so the strong one sits behind a pharmacy counter,",
+   "startFrame": 1345,
+   "endFrame": 1415,
+   "sourceStartSeconds": 6.44,
+   "sourceEndSeconds": 8.619,
+   "wordCount": 9
+  },
+  {
+   "part": 4,
+   "text": "and the one you're allowed",
+   "startFrame": 1416,
+   "endFrame": 1439,
+   "sourceStartSeconds": 8.819,
+   "sourceEndSeconds": 9.579,
+   "wordCount": 5
+  },
+  {
+   "part": 4,
+   "text": "to buy is the weaker one.",
+   "startFrame": 1440,
+   "endFrame": 1482,
+   "sourceStartSeconds": 9.599,
+   "sourceEndSeconds": 10.659,
+   "wordCount": 6
+  },
+  {
+   "part": 4,
+   "text": "None of that is written in English anywhere.",
+   "startFrame": 1483,
+   "endFrame": 1538,
+   "sourceStartSeconds": 11.059,
+   "sourceEndSeconds": 12.659,
+   "wordCount": 8
+  },
+  {
+   "part": 4,
+   "text": "So we wrote it down.",
+   "startFrame": 1539,
+   "endFrame": 1581,
+   "sourceStartSeconds": 12.92,
+   "sourceEndSeconds": 13.899,
+   "wordCount": 5
+  },
+  {
+   "text": "There's a lot more of this.",
+   "startFrame": 1601,
+   "endFrame": 1629,
+   "part": 5
+  },
+  {
+   "text": "Every Korean drink worth knowing, on epickor.com.",
+   "startFrame": 1633,
+   "endFrame": 1709,
+   "part": 5
+  }
+ ],
+ "coverage": {
+  "transcriptWords": 197,
+  "captionWords": 197,
+  "audioParts": 4
+ }
+}

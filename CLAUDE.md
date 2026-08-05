@@ -214,6 +214,15 @@
 - Reels narration should be generated in short parts, around three parts for a 35-45 second Reel, rather than one full script file. This reduces slow or uneven voice behavior.
 - Reels subtitles must follow context-aware phrase beats. Do not split tiny fragments such as `is`, `and`, or `to your` onto their own screen unless the fragment is intentionally designed as a typography beat.
 - Reels subtitle timing should feel slightly proactive: the caption should appear just before, or exactly as, the narration lands. A small lead such as 6 frames at 30fps is acceptable when it makes the pacing feel more responsive.
+- **그 리드는 앞 자막을 끝내서 만든다. 뒷 자막만 당기면 안 된다 (2026-08-05 신설).** 두 자막이 동시에 살아 있으면 **libass가 뒤엣것을 위로 쌓아** 컷마다 자막이 올라갔다 내려온다. 2026-08-04 배치는 ASS 33줄 중 **29줄이 0.14초씩 겹쳐** 있었고, 대표님이 "자막 위치가 지 맘대로"라고 지적한 게 이것이다. 규칙: `beats[i].endFrame = beats[i+1].startFrame - 1`. 상류 `caption-timings-*.json`은 멀쩡했고 **ASS 생성기가 겹침을 만들었으므로**, 정렬 결과가 깨끗하다는 것만으로 안심하지 말 것.
+- **릴스 최종 조립은 반드시 `remotion/` 컴포지션으로 한다. ffmpeg는 소재 준비 전용이다 (2026-08-05 신설, 대표님 3/100 반려).** `remotion/Batch0726Kit.tsx`가 **ONS·키커칩·아웃트로 빨간 `epickor.com` 칩·워터마크·`TextGate`(컷 경계 글자 겹침 방지)·16프레임 컷 오버랩·고정위치 자막 카드**를 전부 공급하고, **다른 어떤 경로도 이것들을 공급하지 않는다.** ffmpeg로 직접 concat하면 "영상은 나오는데 디자인이 통째로 없는" 결과가 나오고, MP4만 봐서는 무엇이 빠졌는지 알기 어렵다.
+  - 컷이 20개를 넘는 카테고리 릴스는 ONS를 컷 안에 넣을 수 없다. **ONS 전용 `Sequence`를 여러 컷에 걸쳐 얹는다** (`remotion/HubReel.tsx` 참조).
+  - 블로그 사진은 대개 가로다. 키트의 `objectFit: cover`는 9:16에서 가로 사진을 가운데 조각만 남기므로, **정지컷은 미리 1080x1920 블러커버 플레이트로 만들어 넣는다.** 영상도 미리 9:16 프록시로 만들되 **컷 길이 + 45프레임 여유**를 붙여야 16프레임 오버랩이 검은 화면으로 떨어지지 않는다.
+- **렌더 QA는 산출물을 실측한다. 소스가 멀쩡한 것은 근거가 아니다 (2026-08-05 신설).** 2026-08-04 배치는 컷 경계 휘도만 검사하고 통과시켰는데 세 편 모두 나레이션에 구멍이 있었다 — drinks **16.0~26.3초 -91.0 dB(완전 무음)**, seoul 7.6~18.0초, ramyun 6.0~12.6초. mp3 12개는 전부 정상이었다. 최종 후보마다 두 게이트를 돌린다:
+  - `npm run reels:qa-audio -- --file {mp4} --manifest output/reels/{slug}/render-manifest.json` — 나레이션 구간 안에 0.6초 이상 무음이 하나라도 있으면 **차단**.
+  - `npm run reels:qa-cuts -- --file {mp4} --manifest ... --out {sheet.jpg}` — 컷마다 프레임 1장에 **그 위에 흐르는 문장**과 휘도를 붙인 컨택트시트. 반드시 눈으로 본다. 이 시트가 2026-08-05에 화면-말 불일치 6건을 잡았다(삼겹살 위 "Sprite came 11 years late", 파란 함석지붕 위 "oldest hanok village", 현대 스카이라인 위 "And then there's Euljiro").
+  - 게이트를 쓸 때 함정: `silencedetect`/`volumedetect`는 **stderr**로 출력하는데 `execFileSync`는 stdout만 반환한다. `spawnSync`로 두 스트림을 합칠 것. 1차 버전이 이걸 놓쳐서 **10.3초 구멍이 있는 파일을 PASS 시켰다** — 게이트는 반드시 알려진 불량 파일로 검증하고 쓴다.
+- **영상 비중 목표(50%)보다 화면-말 일치가 우선한다 (2026-08-05).** 비중을 맞추려고 내용이 안 맞는 컷을 채우는 것이 바로 반려 사유였다. 제품 비교형 릴스는 팩샷이 정지컷으로만 존재하므로 구조적으로 50%에 못 미친다 — 그 사실을 보고하고 넘어가되, 억지로 채우지 않는다.
 - Reels playback-continuity gate is mandatory before a render can be called final:
   - Probe every selected video with `ffprobe` and record source FPS, total frames, `trimBefore`, and required composition frames in `output/reels/{slug}/continuity-manifest.json`.
   - Do not use a hard `loop` when a scene outlasts its usable footage. Use a second distinct clip, or pre-render a forward/reverse ping-pong proxy with the duplicated endpoint removed. Reverse playback must be prepared as a proxy rather than improvised inside the final composition.
@@ -516,6 +525,8 @@ Reviewer and Publisher agents must verify rendered images, not just markdown syn
    있으면 충분하다. 중복 감사(기존 발행글과의 검색의도 겹침)는 여전히 반드시 한다.
 2. **이미지는 주제 확정 후, 다음 단계로 조달한다 (막히면 다음 단계로, 절대 주제를 버리지 않는다):**
    - **0차 (2026-08-03 신설): 대상이 포장 제품·브랜드 상품·기업이면 제조사/기업 공식 사이트를 먼저 본다.** 아래 1~4차는 전부 스톡·공공 아카이브·문화유산 소스라 **특정 상품의 팩샷이라는 범주 자체가 없다.** 이 단계를 건너뛰면 Commons에서 "비슷한 라면 사진"을 찾아놓고 조달에 성공했다고 착각한다 — 2026-08-03 라면 카드뉴스가 정확히 그렇게 실패했다. 저장소에 이미 선례가 있었다: `buldak-original-product.jpg`(samyangfoods.com 공식, 2026-07-15 커밋)를 카드뉴스(2026-08-02)보다 18일 먼저 쓰고 있었는데 일반화하지 않았다.
+     - **제조사 사이트는 각도를 여러 장 준다. 이게 스톡과의 결정적 차이다 (2026-08-05).** hy Mobility(`hymobility.net/ko/coco30`)에서 COCO 카트를 **16개 각도 + 스펙표 2장**으로 받았다 — Commons에는 이 물건 사진이 **0장**이고 영상 소재 게이트도 97건 중 사용가능 0건이었다. 덕분에 "스펙을 말하는 동안 같은 물건을 여러 각도로 보여주기"가 가능해졌다. Wix 기반 사이트는 미디어 URL에서 `/v1/fill/w_NNN,h_NNN,...` 변환부를 떼면 원본이 온다. 스펙표는 본문 수치의 1차 출처로도 쓴다.
+     - **스튜디오 제품컷을 9:16 캔버스에 올릴 때는 밝기가 아니라 채도로 배경을 판다 (2026-08-05).** 흰 배경은 채도 0이고 크림색 차체는 채도 44라 `maxCh-minCh < 12 && mean > 205` 조건에 **테두리 플러드필**이면 깨끗이 분리된다(밝기 234 컷은 차체를 통째로 지웠다). 플러드필로 제한해야 거울·화면의 하이라이트가 살아남는다. 함정 둘: `sharp.trim()`은 좌상단 픽셀 색 기준이라 861×594 피사체를 934×182로 잘라먹으므로 **플러드필 도중 알파 bbox를 직접 계산**하고, **sharp는 1채널 raw 버퍼를 3채널로 승격해서 내보내므로** 블러한 알파 마스크는 반드시 `info.channels`로 인덱싱한다(1로 가정하면 알파가 스캔라인으로 줄무늬진다).
    - **1차: Pexels + Wikimedia Commons** (기존 방식)
    - **2차: 무료 국내 소스.** 아래 목록 순서대로 확인한다.
    - **3차: 그래도 없으면 대표님께 되묻는다.** 대표님이 보유한 스톡 폴더가 있을 수 있다 — 있으면

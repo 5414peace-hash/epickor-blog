@@ -1,0 +1,323 @@
+{
+ "slug": "hub-ramyun",
+ "fps": 30,
+ "width": 1080,
+ "height": 1920,
+ "durationInFrames": 1452,
+ "cuts": [
+  {
+   "n": 1,
+   "from": 11,
+   "len": 98,
+   "kind": "video",
+   "src": "assets/reels/hub-ramyun/video/cut-01.mp4",
+   "handle": 45
+  },
+  {
+   "n": 2,
+   "from": 109,
+   "len": 25,
+   "kind": "still",
+   "src": "assets/reels/hub-ramyun/images/cut-02.jpg"
+  },
+  {
+   "n": 3,
+   "from": 134,
+   "len": 65,
+   "kind": "video",
+   "src": "assets/reels/hub-ramyun/video/cut-03.mp4",
+   "handle": 45
+  },
+  {
+   "n": 4,
+   "from": 199,
+   "len": 59,
+   "kind": "video",
+   "src": "assets/reels/hub-ramyun/video/cut-04.mp4",
+   "handle": 45
+  },
+  {
+   "n": 5,
+   "from": 258,
+   "len": 48,
+   "kind": "still",
+   "src": "assets/reels/hub-ramyun/images/cut-05.jpg"
+  },
+  {
+   "n": 6,
+   "from": 306,
+   "len": 26,
+   "kind": "still",
+   "src": "assets/reels/hub-ramyun/images/cut-06.jpg"
+  },
+  {
+   "n": 7,
+   "from": 332,
+   "len": 45,
+   "kind": "video",
+   "src": "assets/reels/hub-ramyun/video/cut-07.mp4",
+   "handle": 45
+  },
+  {
+   "n": 8,
+   "from": 377,
+   "len": 41,
+   "kind": "still",
+   "src": "assets/reels/hub-ramyun/images/cut-08.jpg"
+  },
+  {
+   "n": 9,
+   "from": 418,
+   "len": 83,
+   "kind": "video",
+   "src": "assets/reels/hub-ramyun/video/cut-09.mp4",
+   "handle": 45
+  },
+  {
+   "n": 10,
+   "from": 501,
+   "len": 114,
+   "kind": "video",
+   "src": "assets/reels/hub-ramyun/video/cut-10.mp4",
+   "handle": 45
+  },
+  {
+   "n": 11,
+   "from": 615,
+   "len": 94,
+   "kind": "video",
+   "src": "assets/reels/hub-ramyun/video/cut-11.mp4",
+   "handle": 45
+  },
+  {
+   "n": 12,
+   "from": 709,
+   "len": 32,
+   "kind": "still",
+   "src": "assets/reels/hub-ramyun/images/cut-12.jpg"
+  },
+  {
+   "n": 13,
+   "from": 741,
+   "len": 39,
+   "kind": "still",
+   "src": "assets/reels/hub-ramyun/images/cut-13.jpg"
+  },
+  {
+   "n": 14,
+   "from": 780,
+   "len": 83,
+   "kind": "still",
+   "src": "assets/reels/hub-ramyun/images/cut-14.jpg"
+  },
+  {
+   "n": 15,
+   "from": 863,
+   "len": 60,
+   "kind": "video",
+   "src": "assets/reels/hub-ramyun/video/cut-15.mp4",
+   "handle": 45
+  },
+  {
+   "n": 16,
+   "from": 923,
+   "len": 81,
+   "kind": "video",
+   "src": "assets/reels/hub-ramyun/video/cut-16.mp4",
+   "handle": 45
+  },
+  {
+   "n": 17,
+   "from": 1004,
+   "len": 74,
+   "kind": "still",
+   "src": "assets/reels/hub-ramyun/images/cut-17.jpg"
+  },
+  {
+   "n": 18,
+   "from": 1078,
+   "len": 63,
+   "kind": "video",
+   "src": "assets/reels/hub-ramyun/video/cut-18.mp4",
+   "handle": 45
+  },
+  {
+   "n": 19,
+   "from": 1141,
+   "len": 92,
+   "kind": "video",
+   "src": "assets/reels/hub-ramyun/video/cut-19.mp4",
+   "handle": 45
+  },
+  {
+   "n": 20,
+   "from": 1233,
+   "len": 39,
+   "kind": "video",
+   "src": "assets/reels/hub-ramyun/video/cut-20.mp4",
+   "handle": 45
+  },
+  {
+   "n": 21,
+   "from": 1272,
+   "len": 47,
+   "kind": "still",
+   "src": "assets/reels/hub-ramyun/images/cut-21.jpg"
+  },
+  {
+   "n": 22,
+   "from": 1319,
+   "len": 133,
+   "kind": "video",
+   "src": "assets/reels/hub-ramyun/video/cut-22.mp4",
+   "handle": 45
+  }
+ ],
+ "beats": [
+  {
+   "text": "Somewhere on your feed there's a person",
+   "startFrame": 11,
+   "endFrame": 51
+  },
+  {
+   "text": "crying into a bowl of Korean noodles.",
+   "startFrame": 52,
+   "endFrame": 108
+  },
+  {
+   "text": "That's Buldak.",
+   "startFrame": 109,
+   "endFrame": 133
+  },
+  {
+   "text": "Four thousand four hundred Scoville.",
+   "startFrame": 134,
+   "endFrame": 188
+  },
+  {
+   "text": "Here's the part Koreans find funny about that.",
+   "startFrame": 199,
+   "endFrame": 257
+  },
+  {
+   "text": "This is a cheongyang pepper.",
+   "startFrame": 258,
+   "endFrame": 305
+  },
+  {
+   "text": "It lives in the fridge,",
+   "startFrame": 306,
+   "endFrame": 331
+  },
+  {
+   "text": "it gets sliced raw into soup,",
+   "startFrame": 332,
+   "endFrame": 376
+  },
+  {
+   "text": "and it starts at ten thousand.",
+   "startFrame": 377,
+   "endFrame": 417
+  },
+  {
+   "text": "So the noodle the whole internet is frightened of doesn't get halfway",
+   "startFrame": 418,
+   "endFrame": 500
+  },
+  {
+   "text": "to a pepper somebody's grandmother drops into a stew without thinking about it.",
+   "startFrame": 501,
+   "endFrame": 606
+  },
+  {
+   "text": "Which makes you wonder what Koreans are actually buying,",
+   "startFrame": 615,
+   "endFrame": 678
+  },
+  {
+   "text": "and it isn't the famous one.",
+   "startFrame": 679,
+   "endFrame": 708
+  },
+  {
+   "text": "It's Jin Ramen.",
+   "startFrame": 709,
+   "endFrame": 740
+  },
+  {
+   "text": "Twenty-six percent of the country,",
+   "startFrame": 741,
+   "endFrame": 779
+  },
+  {
+   "text": "and the mild version is mild enough",
+   "startFrame": 780,
+   "endFrame": 828
+  },
+  {
+   "text": "that five-year-olds eat it.",
+   "startFrame": 829,
+   "endFrame": 862
+  },
+  {
+   "text": "That's deliberate, not an accident.",
+   "startFrame": 863,
+   "endFrame": 914
+  },
+  {
+   "text": "And if you've ever been handed",
+   "startFrame": 923,
+   "endFrame": 956
+  },
+  {
+   "text": "free ramyun in a Korean restaurant,",
+   "startFrame": 957,
+   "endFrame": 1003
+  },
+  {
+   "text": "it was this brand.",
+   "startFrame": 1004,
+   "endFrame": 1039
+  },
+  {
+   "text": "Every time.",
+   "startFrame": 1040,
+   "endFrame": 1077
+  },
+  {
+   "text": "Ottogi held the price still for thirteen years,",
+   "startFrame": 1078,
+   "endFrame": 1140
+  },
+  {
+   "text": "so it quietly became the cheapest",
+   "startFrame": 1141,
+   "endFrame": 1185
+  },
+  {
+   "text": "bag in Korea to give away.",
+   "startFrame": 1186,
+   "endFrame": 1232
+  },
+  {
+   "text": "Korea isn't eating for the burn.",
+   "startFrame": 1233,
+   "endFrame": 1271
+  },
+  {
+   "text": "It's just eating dinner.",
+   "startFrame": 1272,
+   "endFrame": 1312
+  },
+  {
+   "text": "There's a lot more of this.",
+   "startFrame": 1320,
+   "endFrame": 1343
+  },
+  {
+   "text": "Every Korean ramyun, ranked, on epickor.com.",
+   "startFrame": 1347,
+   "endFrame": 1412
+  }
+ ]
+}

@@ -27,7 +27,9 @@
     "audit:seo-aeo": "node scripts/seo-aeo-audit.mjs",
     "audit:amazon-links": "node scripts/audit-amazon-links.mjs",
     "editorial:review": "node scripts/editorial-review.mjs",
-    "editorial:review:write": "node scripts/editorial-review.mjs --write"
+    "editorial:review:write": "node scripts/editorial-review.mjs --write",
+    "reels:qa-audio": "node .claude/skills/reels/scripts/qa-reel-audio.mjs",
+    "reels:qa-cuts": "node .claude/skills/reels/scripts/qa-cut-sheet.mjs"
   },
   "dependencies": {
     "@remotion/cli": "4.0.457",

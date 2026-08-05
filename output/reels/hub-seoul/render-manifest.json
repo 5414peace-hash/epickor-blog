@@ -1,0 +1,380 @@
+{
+ "slug": "hub-seoul",
+ "fps": 30,
+ "width": 1080,
+ "height": 1920,
+ "durationInFrames": 1645,
+ "cuts": [
+  {
+   "n": 1,
+   "from": 11,
+   "len": 130,
+   "kind": "video",
+   "src": "assets/reels/hub-seoul/video/cut-01.mp4",
+   "handle": 45
+  },
+  {
+   "n": 2,
+   "from": 141,
+   "len": 53,
+   "kind": "still",
+   "src": "assets/reels/hub-seoul/images/cut-02.jpg"
+  },
+  {
+   "n": 3,
+   "from": 194,
+   "len": 53,
+   "kind": "still",
+   "src": "assets/reels/hub-seoul/images/cut-03.jpg"
+  },
+  {
+   "n": 4,
+   "from": 247,
+   "len": 61,
+   "kind": "still",
+   "src": "assets/reels/hub-seoul/images/cut-04.jpg"
+  },
+  {
+   "n": 5,
+   "from": 308,
+   "len": 53,
+   "kind": "still",
+   "src": "assets/reels/hub-seoul/images/cut-05.jpg"
+  },
+  {
+   "n": 6,
+   "from": 361,
+   "len": 35,
+   "kind": "video",
+   "src": "assets/reels/hub-seoul/video/cut-06.mp4",
+   "handle": 45
+  },
+  {
+   "n": 7,
+   "from": 396,
+   "len": 90,
+   "kind": "still",
+   "src": "assets/reels/hub-seoul/images/cut-07.jpg"
+  },
+  {
+   "n": 8,
+   "from": 486,
+   "len": 53,
+   "kind": "video",
+   "src": "assets/reels/hub-seoul/video/cut-08.mp4",
+   "handle": 45
+  },
+  {
+   "n": 9,
+   "from": 539,
+   "len": 69,
+   "kind": "video",
+   "src": "assets/reels/hub-seoul/video/cut-09.mp4",
+   "handle": 45
+  },
+  {
+   "n": 10,
+   "from": 608,
+   "len": 82,
+   "kind": "video",
+   "src": "assets/reels/hub-seoul/video/cut-10.mp4",
+   "handle": 45
+  },
+  {
+   "n": 11,
+   "from": 690,
+   "len": 49,
+   "kind": "still",
+   "src": "assets/reels/hub-seoul/images/cut-11.jpg"
+  },
+  {
+   "n": 12,
+   "from": 739,
+   "len": 70,
+   "kind": "still",
+   "src": "assets/reels/hub-seoul/images/cut-12.jpg"
+  },
+  {
+   "n": 13,
+   "from": 809,
+   "len": 59,
+   "kind": "still",
+   "src": "assets/reels/hub-seoul/images/cut-13.jpg"
+  },
+  {
+   "n": 14,
+   "from": 868,
+   "len": 85,
+   "kind": "still",
+   "src": "assets/reels/hub-seoul/images/cut-14.jpg"
+  },
+  {
+   "n": 15,
+   "from": 953,
+   "len": 42,
+   "kind": "still",
+   "src": "assets/reels/hub-seoul/images/cut-15.jpg"
+  },
+  {
+   "n": 16,
+   "from": 995,
+   "len": 50,
+   "kind": "video",
+   "src": "assets/reels/hub-seoul/video/cut-16.mp4",
+   "handle": 45
+  },
+  {
+   "n": 17,
+   "from": 1045,
+   "len": 80,
+   "kind": "still",
+   "src": "assets/reels/hub-seoul/images/cut-17.jpg"
+  },
+  {
+   "n": 18,
+   "from": 1125,
+   "len": 58,
+   "kind": "still",
+   "src": "assets/reels/hub-seoul/images/cut-18.jpg"
+  },
+  {
+   "n": 19,
+   "from": 1183,
+   "len": 86,
+   "kind": "still",
+   "src": "assets/reels/hub-seoul/images/cut-19.jpg"
+  },
+  {
+   "n": 20,
+   "from": 1269,
+   "len": 32,
+   "kind": "still",
+   "src": "assets/reels/hub-seoul/images/cut-20.jpg"
+  },
+  {
+   "n": 21,
+   "from": 1301,
+   "len": 62,
+   "kind": "still",
+   "src": "assets/reels/hub-seoul/images/cut-21.jpg"
+  },
+  {
+   "n": 22,
+   "from": 1363,
+   "len": 26,
+   "kind": "video",
+   "src": "assets/reels/hub-seoul/video/cut-22.mp4",
+   "handle": 45
+  },
+  {
+   "n": 23,
+   "from": 1389,
+   "len": 63,
+   "kind": "still",
+   "src": "assets/reels/hub-seoul/images/cut-23.jpg"
+  },
+  {
+   "n": 24,
+   "from": 1452,
+   "len": 53,
+   "kind": "video",
+   "src": "assets/reels/hub-seoul/video/cut-24.mp4",
+   "handle": 45
+  },
+  {
+   "n": 25,
+   "from": 1505,
+   "len": 140,
+   "kind": "video",
+   "src": "assets/reels/hub-seoul/video/cut-25.mp4",
+   "handle": 45
+  }
+ ],
+ "beats": [
+  {
+   "text": "There's a street in Seoul where you are not allowed",
+   "startFrame": 11,
+   "endFrame": 70
+  },
+  {
+   "text": "to be a tourist after five in the afternoon.",
+   "startFrame": 71,
+   "endFrame": 140
+  },
+  {
+   "text": "The fine is a hundred thousand won,",
+   "startFrame": 141,
+   "endFrame": 193
+  },
+  {
+   "text": "and they do collect it.",
+   "startFrame": 194,
+   "endFrame": 238
+  },
+  {
+   "text": "That's Bukchon, and the reason isn't complicated.",
+   "startFrame": 247,
+   "endFrame": 307
+  },
+  {
+   "text": "People live there.",
+   "startFrame": 308,
+   "endFrame": 332
+  },
+  {
+   "text": "Those are houses,",
+   "startFrame": 333,
+   "endFrame": 360
+  },
+  {
+   "text": "with people inside them,",
+   "startFrame": 361,
+   "endFrame": 395
+  },
+  {
+   "text": "and a very large number of visitors",
+   "startFrame": 396,
+   "endFrame": 439
+  },
+  {
+   "text": "walking past the front doors every day.",
+   "startFrame": 440,
+   "endFrame": 485
+  },
+  {
+   "text": "Which is the thing about Seoul neighbourhoods.",
+   "startFrame": 486,
+   "endFrame": 538
+  },
+  {
+   "text": "The ones that look like attractions usually aren't,",
+   "startFrame": 539,
+   "endFrame": 607
+  },
+  {
+   "text": "and the ones that look like nothing usually are.",
+   "startFrame": 608,
+   "endFrame": 682
+  },
+  {
+   "text": "This one looks three hundred years old.",
+   "startFrame": 690,
+   "endFrame": 738
+  },
+  {
+   "text": "It went up in the nineteen-twenties,",
+   "startFrame": 739,
+   "endFrame": 777
+  },
+  {
+   "text": "as a housing development.",
+   "startFrame": 778,
+   "endFrame": 808
+  },
+  {
+   "text": "Somebody mass-produced hanok and sold them off,",
+   "startFrame": 809,
+   "endFrame": 867
+  },
+  {
+   "text": "and it survived,",
+   "startFrame": 868,
+   "endFrame": 891
+  },
+  {
+   "text": "so it's now the oldest",
+   "startFrame": 892,
+   "endFrame": 916
+  },
+  {
+   "text": "hanok village left in Seoul.",
+   "startFrame": 917,
+   "endFrame": 952
+  },
+  {
+   "text": "That park is shaped like a railway",
+   "startFrame": 953,
+   "endFrame": 994
+  },
+  {
+   "text": "because it was one.",
+   "startFrame": 995,
+   "endFrame": 1015
+  },
+  {
+   "text": "Seoul buried the line",
+   "startFrame": 1016,
+   "endFrame": 1044
+  },
+  {
+   "text": "and left six kilometres of grass on top of it.",
+   "startFrame": 1045,
+   "endFrame": 1116
+  },
+  {
+   "text": "That's a steel district,",
+   "startFrame": 1125,
+   "endFrame": 1155
+  },
+  {
+   "text": "and it's still working.",
+   "startFrame": 1156,
+   "endFrame": 1182
+  },
+  {
+   "text": "The artists moved in around the workshops,",
+   "startFrame": 1183,
+   "endFrame": 1231
+  },
+  {
+   "text": "not instead of them.",
+   "startFrame": 1232,
+   "endFrame": 1268
+  },
+  {
+   "text": "And then there's Euljiro.",
+   "startFrame": 1269,
+   "endFrame": 1300
+  },
+  {
+   "text": "Metal shops all day,",
+   "startFrame": 1301,
+   "endFrame": 1329
+  },
+  {
+   "text": "same street, same doors,",
+   "startFrame": 1330,
+   "endFrame": 1362
+  },
+  {
+   "text": "and bars at night.",
+   "startFrame": 1363,
+   "endFrame": 1388
+  },
+  {
+   "text": "Nobody puts a sign up.",
+   "startFrame": 1389,
+   "endFrame": 1422
+  },
+  {
+   "text": "You're just supposed to know.",
+   "startFrame": 1423,
+   "endFrame": 1451
+  },
+  {
+   "text": "So we wrote down all twelve.",
+   "startFrame": 1452,
+   "endFrame": 1498
+  },
+  {
+   "text": "There's a lot more of this.",
+   "startFrame": 1510,
+   "endFrame": 1537
+  },
+  {
+   "text": "All twelve Seoul neighbourhoods, on epickor.com.",
+   "startFrame": 1539,
+   "endFrame": 1606
+  }
+ ]
+}
