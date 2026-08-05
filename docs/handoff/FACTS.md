@@ -1062,3 +1062,38 @@
   - **프로세스 보완(다음 회차부터)**: 게이트 실행 후 컨택트시트를 만들기 **전에**,
     페이오프가 요구하는 객체 이름으로 **슬러그 스캔**을 먼저 돌린다.
     `yakult-cart`를 명령 하나로 죽였을 것이고 `chilsung-cider`의 2회차 실행을 아꼈을 것이다.
+
+- **2026-08-04 (4차) — 릴스 파이프라인을 ffmpeg로 재구성했다. Remotion 없이 프레임 정확도가 나온다.**
+  - **순서를 뒤집는 게 핵심이다**: TTS → ElevenLabs 강제정렬 → **비트 경계에서 컷 지점 산출** → 소재를 그 길이에 맞춰 자른다.
+    스토리보드를 먼저 짜고 나레이션을 맞추면 반드시 어긋난다.
+  - 실측 나레이션 속도 **233 wpm** (`ELEVENLABS_VOICE_ID=Lq4CTV7whEQtfYtzrWKb`, 기본 설정).
+    200단어 ≈ 51초. 단어수로 길이를 추정할 때 이 값을 쓴다.
+  - 스크립트 3종을 만들어 재사용 가능: `.tmp/prep-generic.mjs`(컷 생성), `.tmp/assemble.mjs`(조립),
+    `.tmp/strip.mjs`(컨택트 스트립). **다음 릴스는 컷 플랜 JSON만 주면 된다.**
+
+- **2026-08-04 (4차) — ffmpeg 조립에서 실제로 밟은 함정 5개. 전부 QA에서만 잡혔다.**
+  1. **오디오/영상 드리프트 25프레임(0.83초).** 나레이션 파트 사이 공백(9+9+7프레임)을 오디오는 갖고 있는데
+     영상 concat은 없앤다. **해법: 각 컷을 다음 컷 시작 직전까지 연장해 컷을 연속으로 만든다.**
+  2. **`-t` 로 자르면 23.98fps 소스가 1프레임 모자란다.** `-frames:v N`을 쓸 것.
+  3. **ASS `Dialogue` 필드 수를 틀리면 자막 앞에 쉼표가 붙는다.** Format은 9필드
+     (`Layer, Start, End, Style, Name, MarginL, MarginR, Effect, Text`)이고 값은 `Nar,,0,0,,텍스트`다.
+  4. **`WrapStyle: 2`는 자동 줄바꿈을 끈다.** 긴 자막이 화면 밖으로 잘린다. **`WrapStyle: 0`을 쓸 것.**
+  5. **`adelay`에 음수가 들어가면 실패한다.** 첫 오디오가 첫 컷보다 앞설 수 있으므로
+     타임라인 원점을 `min(첫 컷 from, 모든 오디오 startFrame)`으로 잡는다.
+  - 필터 문법: `execFileSync`(셸 없음)로 넘길 때 `min(iw,1080)` 같은 **쉼표가 필터 구분자로 먹힌다.**
+    `force_original_aspect_ratio`로 우회할 것.
+
+- **2026-08-04 (4차) — 정지컷은 밝기를 먼저 재고 배치한다. 안 재면 검은 화면이 나간다.**
+  - Reel A에서 `coco-cart-side.jpg`가 **평균 휘도 16**, `chilsung-cider-poured-glass.jpg`가 **28**이었다.
+    후자는 **"맑은 레몬라임 탄산"이라는 나레이션 위에 거의 검은 화면**이라 본문을 정면으로 반박했다.
+  - **배치 전에 `sharp().stats()`로 채널 평균을 잰다. 60 미만이면 풀프레임으로 쓰지 않는다.**
+  - 컷 경계 검사는 `signalstats,metadata=print:key=lavfi.signalstats.YAVG:file=-`로 전수 자동화된다
+    (단 `-v error`면 출력이 눌리므로 `-hide_banner -nostats`를 쓸 것).
+
+- **2026-08-04 (4차) — 파일명을 믿고 이미지를 쓰면 안 된다. 또 당했다.**
+  - `public/assets/images/posts/048/carbo-buldak-pack-epickor-footage.jpg`는 **팩샷이 아니다.**
+    파티에서 촬영 중인 여자아이 둘이고 **자막까지 박혀 있다.** "That's Buldak" 자리에 넣었다가 QA에서 걸렸다.
+  - 같은 릴스에서 **"it was this brand"(진라면)에 너구리 봉지**를 배치한 것도 잡았다 — 컷 플랜 작성 실수.
+  - **진짜 진라면 봉지는 `361/jin-ramen-spicy-ottogi.jpg`다.** 불닭 팩샷은 저장소에 없고,
+    커먼즈에 **조리된 불닭**(`불닭볶음면.png`, 1511×1932, CC BY-SA 4.0, LR0725)이 있어 그걸 썼다.
+  - **청양고추는 커먼즈에 있다**: `Cheongyang-gochu.jpg` 3543×2362 **CC0** (Y-h Kim). 라면 릴스의 페이오프.
