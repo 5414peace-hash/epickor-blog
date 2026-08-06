@@ -1,10 +1,10 @@
 {
   "summary": {
-    "generatedAt": "2026-08-06T02:24:44.327Z",
-    "auditedPosts": 353,
+    "generatedAt": "2026-08-06T13:33:33.611Z",
+    "auditedPosts": 355,
     "includedPrivate": false,
     "slugFilter": "",
-    "bodyImages": 1288,
+    "bodyImages": 1297,
     "affectedPosts": 101,
     "critical": 0,
     "high": 0,
@@ -14201,6 +14201,91 @@
           "detail": "2 SVG body image(s); mixed-media use requires manual relevance review"
         }
       ]
+    },
+    {
+      "type": "business",
+      "slug": "ottogi-otoki-company-deep-dive",
+      "title": "Ottogi (Otoki) Deep Dive: The Korean Food Giant That Wins at Home and Lags Abroad",
+      "contentPath": "content\\business\\ottogi-otoki-company-deep-dive.md",
+      "sourceRecord": "public\\assets\\images\\business\\ottogi-otoki-company-deep-dive\\image-sources.md",
+      "imageCount": 5,
+      "images": [
+        {
+          "url": "/assets/images/business/ottogi-otoki-company-deep-dive/jin-ramen-export-pack.jpg",
+          "alt": "The Otoki export pack for Jin Ramen Spicy, carrying the company's new English name and the beef-bone-broth badge used on overseas packaging.",
+          "caption": "",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/business/ottogi-otoki-company-deep-dive/otoki-america-norwalk-office.jpg",
+          "alt": "The Otoki America office in Norwalk, California, carrying the company's post-2024 English name on the building.",
+          "caption": "",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/business/ottogi-otoki-company-deep-dive/otoki-vietnam-binh-duong-factory.jpg",
+          "alt": "The Otoki Vietnam plant at Binh Duong, one of two Vietnamese factories the company uses to supply regional and US demand.",
+          "caption": "",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/business/ottogi-otoki-company-deep-dive/otoki-new-zealand-takanini.jpg",
+          "alt": "Otoki New Zealand at Takanini, Auckland — the operation behind the beef-bone broth used in Jin Ramen.",
+          "caption": "",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/business/ottogi-otoki-company-deep-dive/jiangsu-otoki-foods-china.jpg",
+          "alt": "Jiangsu Otoki Foods in Donghai County, Lianyungang — the company's oldest overseas manufacturing base, running since 1993.",
+          "caption": "",
+          "ext": ".jpg",
+          "exists": true
+        }
+      ],
+      "findings": []
+    },
+    {
+      "type": "business",
+      "slug": "pulmuone-company-deep-dive",
+      "title": "Pulmuone Deep Dive: The Korean Company That Quietly Owns America's Tofu Aisle",
+      "contentPath": "content\\business\\pulmuone-company-deep-dive.md",
+      "sourceRecord": "public\\assets\\images\\business\\pulmuone-company-deep-dive\\image-sources.md",
+      "imageCount": 4,
+      "images": [
+        {
+          "url": "/assets/images/business/pulmuone-company-deep-dive/pulmuone-us-tofu-brand-lineup.jpg",
+          "alt": "Five tofu brands sold in American supermarkets — Nasoya, Wildwood, Azumaya, Soga and Pulmuone — all owned by the same Korean company. Only one of them carries the parent name.",
+          "caption": "",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/business/pulmuone-company-deep-dive/pulmuone-early-plant-cold-chain.jpg",
+          "alt": "An early Pulmuone Foods plant with its refrigerated delivery fleet. Packaged tofu is a cold-chain product first and a food product second.",
+          "caption": "",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/business/pulmuone-company-deep-dive/pulmuone-us-supermarket-tofu-shelf.jpg",
+          "alt": "A US supermarket refrigerated case with Wildwood tofu on the shelf, priced in dollars alongside its American competitors.",
+          "caption": "",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/business/pulmuone-company-deep-dive/pulmuone-china-pumeiduo-booth.jpg",
+          "alt": "Pulmuone's Chinese operation trades as Pumeiduo (圃美多). China is the group's one clearly profitable overseas market.",
+          "caption": "",
+          "ext": ".jpg",
+          "exists": true
+        }
+      ],
+      "findings": []
     },
     {
       "type": "business",
