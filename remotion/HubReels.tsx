@@ -62,7 +62,15 @@ export const HubDrinksReel: React.FC = () => (
 
 /* ------------------------------------------------------------------ ramyun */
 
+/**
+ * The opening title card. Drinks and Seoul both open on one at f14; ramyun did
+ * not, so its first 3.7 seconds carried narration with nothing on screen.
+ * It has to close by f96 — the next ONS starts at f112 and `Cut` adds the
+ * 16-frame overlap on top of `len`, so anything later puts two ONS on screen
+ * at once.
+ */
 const RAMYUN_ONS: OnsBeat[] = [
+  { from: 14, to: 92, kicker: 'Korean ramyun', topLine: 'WHAT KOREA', punch: 'ACTUALLY EATS', sub: 'Not the one your feed is crying about' },
   { from: 112, to: 192, kicker: 'The scary one', topLine: '4,400 SHU', punch: 'BULDAK', sub: 'The noodle your feed cries over', size: NAME },
   { from: 261, to: 420, kicker: 'What Koreans actually use', topLine: '10,000 SHU', punch: 'CHEONGYANG', sub: 'Sliced raw into soup, straight from the fridge', size: NAME },
   { from: 504, to: 606, kicker: 'So', punch: 'NOT HALFWAY', sub: "Buldak doesn't reach the pepper in a grandmother's stew" },
