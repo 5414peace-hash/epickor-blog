@@ -418,6 +418,27 @@
   **28% of the time**. Do not diagnose the funnel from small samples. (Superseded in substance by
   the real 11.43% figure above, but the reasoning rule still stands.)
 
+- **2026-08-06 — 네이버 자동완성은 10건에서 잘린다. `KR:10`은 강도 신호가 아니라 천장이다.** W33에서 씨앗 31개를 돌렸는데 **거의 전부 KR:10**이 나왔다. 즉 한국 수요의 크기를 자동완성 개수로 비교할 수 없고, **분기의 내용을 읽어야** 한다(예: `자갈치`는 10건이 전부 부산 자갈치시장이라 과자 수요가 0이었고, `자갈치 과자`로 다시 재야 했다). 반대로 구글 영문은 15건까지 나오므로 EN 쪽은 개수 비교가 유효하다.
+  *Verified:* `ac.search.naver.com/nx/ac` 31회 호출, 2026-08-05.
+
+- **2026-08-06 — 로마자 오염이 W33 기각의 최대 사유였다. 네이버보다 로마자를 먼저 재라.** 씨앗 31개 중 **6개가 로마자 충돌로 사망**: `mychew`→chewy.com, `moncher`→moncheri(네일숍·브라이덜), `dezawa`→줄기세포 논문(Muse cells), `matbam`→matbao(베트남 호스팅), `wang kkumtturi`→중국 인명, `yangpa ring`→dapivirine ring. **제품이 아무리 좋아도 영어 핸들이 없으면 끝**이므로, 네이버 10건을 확인한 뒤에 죽는 것보다 로마자를 먼저 재는 쪽이 싸다. 플레이북 절차에 반영할 것.
+  *Verified:* `google.com/complete/search?client=chrome` 60회 이상, 2026-08-05.
+
+- **2026-08-06 — 음식 레인 커버리지 킬러 1위는 레시피 블로그다.** W33 기각 11건 중 **3건**이 여기서 죽었다 — 죠리퐁(Beyond Kimchee·My Korean Kitchen·anakjajan·Nomss·hungry-appetite가 라떼/셰이크 전부 커버), 비락식혜(Maangchi·My Korean Kitchen·Beyond Kimchee·196flavors), 호두과자(**Tasting Table 전용 기사** + VisitKorea 영문 + Wikipedia + My Korean Kitchen). W32c의 배홍동/비빔면도 같은 사유였다. **판별 규칙: 집에서 만들 수 있는 음식은 이미 누가 썼다. 공산품은 안 썼다.** 씨앗을 고를 때 "이걸 레시피로 쓸 수 있나"를 먼저 물으면 커버리지 검색을 아낄 수 있다.
+  *Verified:* WebSearch 커버리지 게이트 11회, 2026-08-05.
+
+- **2026-08-06 — K팝 언급은 보너스가 아니라 커버리지 위험이다.** 바나나킥(제니, 2025-03 Jennifer Hudson Show)과 칸초(정국, Weverse 라이브) 둘 다 **연예인 순간은 이미 영어 기사가 있고 제품 설명은 없다** — 바나나킥은 농심 보도자료 + Yahoo Finance 신디케이션 + K팝 블로그, 칸초는 Sportskeeda. **제품을 쓰면 비어 있고, 연예인을 쓰면 늦는다.**
+  *Verified:* WebSearch, 2026-08-05.
+
+- **2026-08-06 — 외국인 관광객 즉시환급 한도가 2026-01-01부터 2배가 됐다.** 1회 **₩500,000 → ₩1,000,000**, 총 **₩2,500,000 → ₩5,000,000**. 카메라 바디·중급 노트북 한 대가 공항 대신 **매장에서 즉시 환급** 가능해진 구간이라, 쇼핑·테크 글에서 실제로 답이 바뀐다. `275`에 반영됨.
+  *Verified:* 코리아넷/문체부 및 한국 언론, 2026-08-06 확인.
+
+- **2026-08-06 — 용산전자상가는 "폐업"이 아니라 "B2C 종료"다(대표님 정정).** 철거 실적: 나진 19·20동 2025-06, 10·11동·12·13동 2025-07, 17·18동 2025-11 착수, 15동 2026-02, 14동 2026 예정. 터미널상가(8·9동)는 2015 철거 → **서울드래곤시티 호텔**(2017). **영업 중**: 전자랜드(1~3동), 원효상가(4~7동, 사업자 위주), 선인상가(21·22동, PC 부품·조립), 나진상가 **지하** 매장(임대 만료까지). 착공 2027·준공 2030, 완료 후 **교차로 이름도 바뀐다.** 2025년 반도체 수급난으로 소매 재고가 비었고 컴마왕이 철수했다. **그리고 지금 용산에 가는 이유는 용리단길**(신용산~삼각지, 한강로2가, 용산역 1번/신용산역 2번 출구 도보 5~10분, 아모레퍼시픽 신사옥이 촉발).
+  *Verified:* 나무위키 + 한국 부동산·경제 언론, 2026-08-06.
+
+- **2026-08-06 — 롤파크는 2025-12-16부터 `치지직 롤파크`이고, LCK가 전부 서울에서 열리지는 않는다.** 네이버 치지직 명명권 **2030년까지**. 주소 종로구 종로 33(청진동) 그랑서울 3F(4F까지). **450석** — 이전 홈 OGN e스타디움 756석보다 **작다**. 티켓 **일반석 ₩10,000 / 시야방해석 ₩7,500**(2024년 ₩8,000·₩5,000에서 인상), NOL 티켓(인터파크), **1분 매진**. 좌석 A=응원석, C~E=일반석, B·F=우리은행존. **매 시즌 팀별 `홈그라운드` 로드쇼가 대형 아레나에서 열린다** — 2026 T1은 **4/24~26 인천 인스파이어 아레나**(25일 한진 브리온, 26일 BNK 피어엑스), 시즌 내 2회 예정. 결승은 KSPO DOME 등 외부. **여행자가 도시를 잘못 갈 수 있는 지점이다.**
+  *Verified:* 나무위키 + 한국 스포츠·e스포츠 언론, 2026-08-06.
+
 ## images
 
 - **CORRECTED (2026-08-01, 같은 날 정정): 한국 캠핑 사진은 있다. 공유마당에 2,225장이다.** 아래 항목은 **서양 스톡(Pexels·Commons·Openverse)에 한정해서만** 맞다.
@@ -498,6 +519,16 @@
   exists *before* committing to a topic. A K-pop fan gift guide was parked as `blocked_no_imagery`
   rather than illustrated with a plausible-looking substitute.
 
+- **2026-08-06 — 오리온 카탈로그는 서버 렌더라 통째로 인덱싱된다. 롯데웰푸드는 안 된다.**
+  - **오리온 (동작함).** 목록 `https://www.orionworld.com/goods/list/{list}?category={cat}` — list 25~32·23·38, category `0101`~`0107`. HTML에 `<img src="/upload/goods/{hash}.png">` 다음 200자 안에 `<h8>제품명</h8>`이 오므로 **이름↔이미지 페어링이 정규식으로 가능**하다(1회 스캔에 115개 인덱싱됨). 썸네일은 **468×468로 작다** — 히어로에 쓰면 2.6배 업스케일이라 못 쓴다. 큰 그림은 상세 페이지 `goods/view/26?goodsno={id}&category={cat}`의 **`/upload/editor/{date}/{n}.jpg`**에 있고 **폭 900~3248px, 높이 2600~9300px의 세로 긴 스트립**이다(한국 이커머스 관행). 스트립의 **서로 다른 구간을 크롭하면 서로 다른 사진**이 나온다. 상세 페이지 텍스트에 **중량·칼로리·소비기한·알러지 성분·맛 목록**이 그대로 있다.
+  - **오뚜기 (동작함).** `https://www.otokimall.com/front/product/{id}` → **750×750 팩샷**. 예: 616=뿌셔뿌셔 불고기맛, 3987=열뿌셔뿌셔. **`ottogi.co.kr/product/...`는 404** — 몰 쪽을 쓸 것.
+  - **농심 (동작함).** 제품별 브랜드관 `https://brand.nongshim.com/{slug}/main/index` (예: `bananakicksnack`). 전체 목록은 `/all_product/index`. 스펙(중량·칼로리·소비기한)이 본문에 있고, `admin.nongshim.com/crosseditor/binary/images/…`에 **1067×791급 브랜드 아트**가 있다.
+  - **롯데웰푸드 (막힘).** 카탈로그가 **클라이언트 렌더**라 서버 HTML에 제품이 없고, `/brand/hero/{name}`은 **HTTP 500**(kancho·cancho·칸초 전부), 노출된 API 없음, `lotteconf.co.kr`은 같은 사이트로 리다이렉트. **칸초는 Commons도 0건**(`칸초`·`Lotte Kancho`·`Kancho biscuit Korea`·`롯데 칸초` 4쿼리). 워터폴 3차(대표님 제공)로만 해결됨.
+  *Verified:* 직접 fetch + 정규식 인덱싱, 2026-08-05~06.
+
+- **2026-08-06 — Commons에 있는 것과 없는 것(과자 4종 실측).** 바나나킥 **3장(최대 3000×2000, CC BY-SA 4.0, Mobius6)**, 뿌셔뿌셔 **2장(2240×1229·2669×1013, 동일 촬영자)**. 썬·고래밥·칸초는 **전부 0건**. 즉 **Commons의 한국 과자 커버리지는 촬영자 한 명(Mobius6)에 크게 의존**하며, 그가 안 찍은 제품은 없다. 진라면(`361`)도 같은 촬영자다. 제품 글을 기획할 때 **Commons를 먼저 재보면 조달 난이도가 즉시 갈린다.**
+  *Verified:* Commons API `generator=search&gsrnamespace=6`, 2026-08-05.
+
 ## reels
 
 - **2026-07-27 — Pexels metadata is the country check, and skipping it shipped Kuala Lumpur as
@@ -571,6 +602,18 @@
   934×182 sliver (compute the alpha bbox during the fill instead), and **sharp promotes a
   1-channel raw buffer to 3-channel on the way out**, so a blurred alpha mask must be indexed by
   `info.channels`, not assumed to be 1 — assuming 1 striped the alpha into scanlines.
+
+- **2026-08-05 — "인트로에 배경이 비친다"는 페이드인 문제가 아니라 첫 컷이 늦게 시작한 것이었다.** 컷 플랜의 첫 컷 `from`을 **첫 나레이션 프레임(f10~f11)**에 맞춰 놓아서 **프레임 0~10에 아무 미디어도 마운트되지 않았다** — ramyun v015 실측 프레임 0·1·4가 전부 **휘도 37 = `social.ink` 그대로**, 워터마크만 떠 있었다. 그 위에 8프레임 페이드인이 얹히니 "청록 레이어에서 페이드인"으로 보인 것이다. **첫 컷은 `from=0, len=len+from`으로 당기고 `fadeIn=false`로 끈다.** 뒤 컷의 페이드인은 유지 — 거기서는 배경이 아니라 이전 컷 위로 겹치는 크로스페이드다. `Batch0726Kit`의 `Fade`/`VideoCut`/`StillCut`에 선택적 `fadeIn` prop을 추가했다(기본 true라 기존 릴스 동작 불변).
+  *Verified:* 프레임 추출 + `sharp().stats()` 휘도 측정, 2026-08-05.
+
+- **2026-08-05 — 소재 판정은 "면이 나오는가"가 아니라 "한국식으로 조리·상차림 되었는가"까지 봐야 한다 (대표님 지적).** Pexels **`9508xxx` 캠핑 시리즈 전체가 옥수수 고명 + 고춧가루를 뿌린다** — 한국 라면 조리법이 아니다. 라운드 2에서 나는 슬러그에 `noodle`이 있으면 통과시켰고, 대표님이 화면을 보고 잡았다. 교체분: `12837556`(끓는 물에 면 뭉치 투입, **2160×3840 세로 네이티브**), `12908934`(계란 올린 라면, 세로 네이티브), `9984065`(붉은 국물+햄+대파), `8107380`(검은 그릇), `8107374`/`8107385`(면 클로즈업). **고명·그릇·조리기구가 그 나라 것인지 프레임에서 확인할 것.**
+  *Verified:* Pexels 프레임 추출 + 대표님 판정, 2026-08-05.
+
+- **2026-08-05 — 9:16 크롭 창은 소스 해상도에서 계산해야 한다. 4K 전제 고정값은 FHD와 세로 네이티브 양쪽에서 깨진다.** `crop=1215:2160` 고정값이 **1920×1080 소스에서 "Invalid too big or non positive size"로 즉사**했고, **2160×4096 세로 네이티브**는 9:16보다 더 길쭉해서 폭 기준 크롭 후 스케일하면 **눌린다**. 규칙: `sw/sh > 9/16`이면 `cropH=sh, cropW=sh*9/16`, 아니면 `cropW=sw, cropH=sw*16/9`.
+  *Verified:* ffmpeg 실패 로그 + 재작성 후 통과, 2026-08-05.
+
+- **2026-08-05 — `TaskStop`으로 dev 서버를 죽여도 `.next/dev/lock`이 남아 다음 기동이 죽는다.** 증상: `⨯ Unable to acquire lock at D:\dev\epickor-blog\.next\dev\lock, is another instance of next dev running?` 후 exit 1. 또한 **`npm run dev | head -30`처럼 파이프를 붙이면** 출력 파일이 0바이트인 채로 서버가 살아 있어 상태 확인이 불가능하다. 대응: dev 서버는 **파이프 없이** 띄우고, 죽인 뒤 `.next/dev/lock`을 지운다.
+  *Verified:* 실측 2회, 2026-08-05.
 
 ## instagram / social
 

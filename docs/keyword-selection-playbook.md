@@ -678,6 +678,48 @@ descriptive phrase has demand but the romanization doesn't, **target the descrip
 introduce the romanization inside the article** — that is how you end up owning the term when
 English demand does arrive.
 
+### 4.1b 로마자를 네이버보다 먼저 재라 (2026-08-06 신설, W33 실측)
+
+W33에서 씨앗 31개를 돌렸고 **기각의 최대 사유가 로마자 오염**이었다 — 6건이 여기서 죽었다:
+
+```
+mychew          -> chewy.com, mychway, mychewiq
+moncher         -> moncheri, moncheri nails, moncheri bridal
+dezawa          -> dezawa muse cells (줄기세포 논문)
+matbam          -> matbao (베트남 호스팅)
+wang kkumtturi  -> wang kun, wang kuomintang (중국 인명)
+yangpa ring     -> dapivirine ring
+```
+
+**제품이 아무리 좋아도 영어 핸들이 없으면 끝난다.** 그리고 이 판정은 네이버 호출 없이 1초면 끝나므로,
+**Two-Curl의 순서를 뒤집어 로마자부터 재는 편이 싸다.** 한국 수요를 확인한 뒤에 죽으면 그 확인이 낭비다.
+
+대안 핸들이 있으면 살릴 수 있으므로 `korean {서술구}`를 같이 잰다 — `korean squid chips`는 12분기가
+나왔다. 둘 다 비면 기각한다. §4.1a의 "**서술형 영어 구문을 반드시 같이 검색하라**"와 같은 방향이지만,
+이건 **순서**에 관한 규칙이다.
+
+### 4.1c 네이버 자동완성은 10건에서 잘린다 (2026-08-06)
+
+W33 씨앗 31개가 **거의 전부 KR:10**이었다. **10은 강도가 아니라 천장이다** — 한국 수요의 크기를
+개수로 비교할 수 없다. **분기의 내용을 읽어야** 한다. 실제 사례: `자갈치`는 10건이 전부 부산 자갈치시장
+이라 과자 수요가 0이었고, `자갈치 과자`로 다시 재서야 진짜 신호(뜻·맛 변화·출시일)가 보였다.
+구글 영문은 15건까지 반환하므로 EN 쪽은 개수 비교가 유효하다.
+
+### 4.1d 레시피 블로그가 음식 레인 최대의 커버리지 킬러다 (2026-08-06)
+
+W33 기각 11건 중 **3건**이 레시피 블로그에 밀렸다 — 죠리퐁(Beyond Kimchee·My Korean Kitchen·
+anakjajan·Nomss), 비락식혜(Maangchi·196flavors), 호두과자(**Tasting Table 전용 기사** + VisitKorea
+영문). W32c의 배홍동/비빔면도 같은 사유였다.
+
+**판별 규칙 한 줄: 집에서 만들 수 있는 음식은 이미 누가 썼다. 공산품은 안 썼다.**
+씨앗을 고를 때 "이걸 레시피로 쓸 수 있나"를 먼저 물으면 커버리지 검색을 여러 번 아낀다.
+
+### 4.1e K팝 언급은 보너스가 아니라 커버리지 위험이다 (2026-08-06)
+
+바나나킥(제니, 2025-03 미국 토크쇼)과 칸초(정국, Weverse 라이브) 둘 다 **연예인 순간은 이미 영어
+기사가 있고 제품 설명은 없었다** — 전자는 농심 보도자료와 Yahoo Finance 신디케이션, 후자는 Sportskeeda.
+**제품을 쓰면 비어 있고, 연예인을 쓰면 늦는다.** 셀럽 훅은 뉴스 후크로만 쓰고 날짜를 박아둔다.
+
 ### 4.2 The source stack — verified, free, no login unless noted
 
 **Tier 1 — free, no login, machine-readable. Build the weekly script on these.**
