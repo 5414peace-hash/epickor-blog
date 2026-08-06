@@ -1,6 +1,6 @@
 {
   "summary": {
-    "generatedAt": "2026-08-06T13:33:33.611Z",
+    "generatedAt": "2026-08-06T14:56:44.697Z",
     "auditedPosts": 355,
     "includedPrivate": false,
     "slugFilter": "",
@@ -9636,7 +9636,7 @@
     {
       "type": "blog",
       "slug": "259",
-      "title": "Korean Bingsu Guide 2026: Patbingsu And Summer Orders",
+      "title": "Korean Bingsu Guide: Why the Same Dessert Costs ₩9,900 and ₩149,000",
       "contentPath": "content\\blog\\259.md",
       "sourceRecord": "public\\assets\\images\\posts\\259\\image-sources.md",
       "imageCount": 4,
@@ -9644,28 +9644,28 @@
         {
           "url": "/assets/images/posts/259/watermelon-shaved-ice-dessert.jpg",
           "alt": "A watermelon shaved ice dessert with fruit and a cold drink.",
-          "caption": "Modern bingsu often leads with fruit, but the best bowls still balance ice texture, sweetness, and toppings.",
-          "ext": ".jpg",
-          "exists": true
-        },
-        {
-          "url": "/assets/images/posts/259/korean-bingsu-close-up.jpg",
-          "alt": "A bowl of Korean bingsu topped with fruit and syrup, two spoons resting in the shaved ice.",
-          "caption": "Bingsu arrives built, and it arrives shared — two spoons is the default, not a request. Photo by makafood, Pexels.",
-          "ext": ".jpg",
-          "exists": true
-        },
-        {
-          "url": "/assets/images/posts/259/bingsu-and-iced-coffee-cafe.jpg",
-          "alt": "A bowl of bingsu on a cafe table beside a glass of iced coffee.",
-          "caption": "The standard Korean cafe order in summer: one bingsu between two people, plus an iced americano each. Photo by J Kim, Pexels.",
+          "caption": "Modern bingsu leads with fruit. The price of the bowl usually follows the fruit, not the ice.",
           "ext": ".jpg",
           "exists": true
         },
         {
           "url": "/assets/images/posts/259/patbingsu-red-bean-shaved-ice.jpg",
           "alt": "A classic red bean patbingsu bowl with shaved ice and sweet red beans.",
-          "caption": "Classic patbingsu makes the Korean baseline clear: shaved ice, sweet red beans, cold texture, and a shared bowl.",
+          "caption": "Classic patbingsu: shaved ice, sweet red beans, cold milk, a shared bowl.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/259/korean-bingsu-close-up.jpg",
+          "alt": "A bowl of Korean bingsu topped with fruit and syrup, two spoons resting in the shaved ice.",
+          "caption": "Two spoons is the default, not a request — the bowl arrives assuming there are two of you. Photo by makafood, Pexels.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/259/bingsu-and-iced-coffee-cafe.jpg",
+          "alt": "A bowl of bingsu on a cafe table beside a glass of iced coffee.",
+          "caption": "The standard Korean summer order: one bingsu between two, plus an iced americano each. Photo by J Kim, Pexels.",
           "ext": ".jpg",
           "exists": true
         }
