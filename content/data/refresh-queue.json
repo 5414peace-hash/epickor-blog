@@ -16,35 +16,14 @@
   "287": "home appliance (grills), not a food product"
  },
  "counts": {
-  "pending": 51,
-  "tier1": 10,
+  "pending": 50,
+  "tier1": 9,
   "tier2": 10,
   "tier3": 31,
-  "alreadyRefreshed": 19,
+  "alreadyRefreshed": 20,
   "excluded": 4
  },
  "queue": [
-  {
-   "slug": "128",
-   "title": "Yakgwa Guide: Why Korea's Honey Cookie Became Cool Again",
-   "tier": 1,
-   "refreshedOn": null,
-   "specApplied": false,
-   "gaps": {
-    "won": 0,
-    "hangul": 0,
-    "yearInTitle": false,
-    "words": 2142
-   },
-   "gsc": {
-    "clicks": 2,
-    "impressions": 226,
-    "ctr": "0.88%",
-    "position": 11.52
-   },
-   "status": "pending",
-   "note": null
-  },
   {
    "slug": "219",
    "title": "Korean Ramen Trends 2026: Toomba, Buldak, Recipes",
