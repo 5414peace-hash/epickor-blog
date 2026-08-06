@@ -1,6 +1,6 @@
 {
   "summary": {
-    "generatedAt": "2026-08-05T14:51:36.120Z",
+    "generatedAt": "2026-08-06T02:24:44.327Z",
     "auditedPosts": 353,
     "includedPrivate": false,
     "slugFilter": "",
@@ -10172,29 +10172,29 @@
     {
       "type": "blog",
       "slug": "274",
-      "title": "Seoul LoL Park and LCK Match Guide 2026: Tickets",
+      "title": "LoL Park Seoul: 450 Seats, One-Minute Sellouts, and How to Actually Get In",
       "contentPath": "content\\blog\\274.md",
       "sourceRecord": "public\\assets\\images\\posts\\274\\image-sources.md",
       "imageCount": 3,
       "images": [
         {
           "url": "/assets/images/posts/274/lol-park-stadium.jpg",
-          "alt": "The LoL Park esports arena in Seoul during a League of Legends event, with players, stage lighting, screens, and audience seating.",
-          "caption": "LoL Park turns a computer game into a live-room experience: stage, crowd, draft tension, team colors, and broadcast energy in one compact venue. Image: Wikimedia Commons / CC BY-SA 4.0.",
+          "alt": "The LoL Park esports arena in Seoul during a League of Legends match, with players on stage, screens, and a full audience.",
+          "caption": "450 seats in a half-circle around the stage. The size is why it feels like this, and why the tickets behave the way they do. Image: Wikimedia Commons / CC BY-SA 4.0.",
           "ext": ".jpg",
           "exists": true
         },
         {
           "url": "/assets/images/posts/274/lol-park-entrance.jpg",
-          "alt": "The exterior entrance area of LoL Park in the Gran Seoul complex, with Korean signage and the LoL Park logo.",
-          "caption": "The entrance itself is useful for travelers because it confirms the venue as a real Seoul place, not only an online broadcast brand. Image: Wikimedia Commons / CC BY-SA 4.0.",
+          "alt": "The exterior entrance area of LoL Park inside the Gran Seoul complex, with Korean signage and the venue logo.",
+          "caption": "The entrance sits inside an office complex rather than on a stadium concourse. Look for the escalators up, not for a stadium gate. Image: Wikimedia Commons.",
           "ext": ".jpg",
           "exists": true
         },
         {
           "url": "/assets/images/posts/274/lol-park-pc-room.jpg",
-          "alt": "The PC room inside LoL Park, with rows of gaming computers and chairs.",
-          "caption": "The PC room side of LoL Park connects the professional arena to everyday Korean gaming-room culture. Image: Wikimedia Commons.",
+          "alt": "The PC room inside LoL Park, rows of gaming computers and chairs.",
+          "caption": "The PC room inside the building connects the professional arena to ordinary Korean gaming-room culture. Image: Wikimedia Commons.",
           "ext": ".jpg",
           "exists": true
         }
@@ -10204,36 +10204,36 @@
     {
       "type": "blog",
       "slug": "275",
-      "title": "Seoul Tech Shopping Guide 2026: Yongsan and Cameras",
+      "title": "Seoul Tech Shopping: What Yongsan Actually Is Now, and Where to Buy Instead",
       "contentPath": "content\\blog\\275.md",
       "sourceRecord": "public\\assets\\images\\posts\\275\\image-sources.md",
       "imageCount": 4,
       "images": [
         {
           "url": "/assets/images/posts/275/yongsan-electronics-camera-signs-seoul-data.jpg",
-          "alt": "Yongsan Electronics Market area in Seoul with electronics, camera, and brand signs near the shopping district.",
-          "caption": "Yongsan Electronics Market is a real Seoul tech-shopping landmark, but a good buyer still checks model numbers, warranty, voltage, and return rules. Image: Seoul Research Data Service / Kogl Type 1 / CC BY 4.0.",
-          "ext": ".jpg",
-          "exists": true
-        },
-        {
-          "url": "/assets/images/posts/275/korea-kodak-camera-store-pexels.jpg",
-          "alt": "A retro Kodak-branded store interior in Seoul with a \"Kodak Seoul\" t-shirt display and vintage camera gear.",
-          "caption": "The best gadget deal is the one you can verify, carry, use, and return if something is wrong.",
+          "alt": "Aerial view of the Yongsan Electronics Market district in Seoul, low commercial blocks covered in Korean electronics and brand signage.",
+          "caption": "The Yongsan electronics district at its peak density. Several of the blocks in this frame no longer stand. Image: Seoul Research Data Service / KOGL Type 1 / CC BY 4.0.",
           "ext": ".jpg",
           "exists": true
         },
         {
           "url": "/assets/images/posts/275/yongsan-electronics-nikon-olympus-seoul-data.jpg",
-          "alt": "Yongsan Electronics Market in Seoul with Nikon and Olympus camera signage near electronics shopping buildings.",
-          "caption": "Camera shopping belongs naturally in the Yongsan conversation, but the safer tourist mindset is still comparison first: model, condition, warranty, receipt, and packability before excitement. Image: Seoul Research Data Service / Kogl Type 1 / CC BY 4.0.",
+          "alt": "Yongsan Electronics Market seen from above, with large Nikon and Olympus signs on the buildings.",
+          "caption": "Camera-brand signage on the Yongsan blocks. Buying a camera here is no longer the plan it once was — the used-camera trade moved to specialists. Image: Seoul Research Data Service / KOGL Type 1 / CC BY 4.0.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/275/korea-kodak-camera-store-pexels.jpg",
+          "alt": "A retro Kodak-branded store interior in Seoul with a Kodak Seoul t-shirt display and vintage camera gear.",
+          "caption": "Camera-themed lifestyle shops are a safer purchase than a camera. You can inspect a strap.",
           "ext": ".jpg",
           "exists": true
         },
         {
           "url": "/assets/images/posts/275/yongsan-electronics-terminal.jpg",
-          "alt": "Yongsan Electronics Market terminal shopping center building in Seoul with Korean electronics signage.",
-          "caption": "For expensive tech, the place matters less than the counter conversation: model, specs, return rule, warranty, voltage, and receipt before price excitement. Image: Wikimedia Commons.",
+          "alt": "The Terminal Electronics Market building in Yongsan, Seoul, with 터미널전자상가 in large red lettering on the roofline.",
+          "caption": "터미널전자상가 — buildings 8 and 9. This building is gone: demolished in 2015, replaced by the Seoul Dragon City hotel that opened in 2017. It is the clearest picture of what has been happening to this district for a decade. Image: Wikimedia Commons.",
           "ext": ".jpg",
           "exists": true
         }
