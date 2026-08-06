@@ -441,6 +441,22 @@
 
 ## images
 
+- **오뚜기 영문 사명은 2024-08에 OTTOGI → OTOKI로 바뀌었고, 도메인도 `ottogi.co.kr` → `otoki.com`으로 301 리다이렉트된다.** (2026-08-06 실측)
+  - 한국어 사명 `오뚜기`는 그대로다. 상표 출원 2024-08-08, 발표 2024-08-09. 사유는 영문 표기 발음 혼란 해소.
+  - **재조사 방지 포인트**: 옛 경로(`ottogi.co.kr/eng/company/history.asp`)를 그대로 WebFetch하면 리다이렉트 안내만 오고, 새 호스트에서 `/eng/...` 경로는 **404**다. 영문 경로는 `/en/...`이다.
+  - 실무 함의(비즈니스 글에 반영함): 필링·통관·마켓플레이스에 **두 철자가 동시에 살아 있다.** 한쪽만 검색하고 "없다"고 판단하지 말 것.
+
+- **`otoki.com`은 긁힌다. 해외 사업장 사진과 영문 제품컷을 직접 준다.** (2026-08-06 실측, 전부 200)
+  - 해외 법인 건물 사진: `https://www.otoki.com/images/about/overseas_img{1,2,3,4,5,5_2,5_3,5_4}.jpg` — 각각 강소오뚜기(중국)·강소태동·뉴질랜드·아메리카(Norwalk)·베트남 4종. **간판에 새 OTOKI 로고가 찍혀 있어 리브랜드의 시각 증거가 된다.**
+  - 영문 제품컷: 상세 페이지 `https://www.otoki.com/en/product/product_detail?categorySeqFirst=1&productIdx=10`(진라면 매운맛) 안의 `/pds/product/prd_en/...png`. **2598x2400 알파 PNG**라 흰 배경으로 flatten해야 한다.
+  - 사이트 구조 확인법: `/main/` HTML의 `href=` 목록이 실제 경로를 다 보여준다. `/about/overseas-corporation`·`/pr/news`·`/brand/rolypoly` 등. **제품 목록 페이지(`/product/list`)는 JS 렌더라 비어 있고, 상세 페이지는 서버 렌더다.**
+
+- **풀무원 공식 사이트는 긁히지만, 풀무원의 미국 사이트 두 곳은 봇을 차단한다.** (2026-08-06 실측)
+  - **차단**: `nasoya.com`, `www.pulmuonefoodsusa.com` — 브라우저 UA를 붙여도 **HTTP 403**. 다시 시도하지 말 것.
+  - **우회로**: 회사가 PR Newswire로 배포한 공식 이미지를 쓴다. `https://mma.prnewswire.com/media/1703941/Tofu_Family_Shot_10x.jpg` — **기본 URL은 400x180 썸네일을 준다. `?p=original`을 붙여야 실물(800x360)이 온다.** `?p=publish`/`?p=twitter`도 동일 크기.
+  - **긁히는 곳**: `pulmuone.co.kr` 연혁 페이지의 이미지 경로 — 한국어 `/pulmuone/images/sub/history/{enterprise,overseas}/{n}.jpg`, 영문 `/en/images/sub/history/enterprise/{n}.jpg`. `overseas/3.jpg`는 **미국 슈퍼마켓 냉장 진열대에 Wildwood 두부가 달러 가격표와 함께 찍힌 사진**이라 미국 사업 서술의 직접 증거로 쓸 수 있다.
+  - **일반화**: **모회사 한국 사이트가 자회사 해외 사이트보다 잘 열린다.** 해외 브랜드 사이트가 막히면 포기하지 말고 ① 한국 본사 연혁/IR 페이지 ② 회사가 배포한 보도자료 이미지(PRN·Business Wire) 순으로 간다.
+
 - **CORRECTED (2026-08-01, 같은 날 정정): 한국 캠핑 사진은 있다. 공유마당에 2,225장이다.** 아래 항목은 **서양 스톡(Pexels·Commons·Openverse)에 한정해서만** 맞다.
   - **무엇을 놓쳤나**: `공유마당`(gongu.copyright.or.kr, 한국저작권위원회)은 **CLAUDE.md 2차 소스 목록에 이미 적혀 있었는데 열어보지 않았다.** 서양 스톡 25개 쿼리가 0건이라 "한국 캠핑 사진은 존재하지 않는다"로 결론냈고, 그건 **"내가 찾아본 곳에 없다"를 "없다"로 바꿔치기한 것**이다.
   - **실측**: `이미지 검색 → 사진 필터 → 캠핑` = **2,225건.** 한국 공원의 타프, 야간 텐트와 랜턴, 텐트 안에서 본 소나무숲, 숯불 등 **진짜 한국 캠핑 사진**이다.
