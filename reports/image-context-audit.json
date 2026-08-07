@@ -1,6 +1,6 @@
 {
   "summary": {
-    "generatedAt": "2026-08-07T00:20:51.835Z",
+    "generatedAt": "2026-08-07T04:58:59.599Z",
     "auditedPosts": 355,
     "includedPrivate": false,
     "slugFilter": "",
@@ -10431,7 +10431,7 @@
     {
       "type": "blog",
       "slug": "281",
-      "title": "Korean Dosirak Lunchbox Guide 2026: Gim and Sides",
+      "title": "Korean Dosirak: The Lunchbox a Teacher Could Confiscate, and What Replaced It",
       "contentPath": "content\\blog\\281.md",
       "sourceRecord": "public\\assets\\images\\posts\\281\\image-sources.md",
       "imageCount": 4,
@@ -10439,28 +10439,28 @@
         {
           "url": "/assets/images/posts/281/homemade-dosirak-gangneung.jpg",
           "alt": "Home-packed dosirak boxes shared on a table at the Gangneung Olympic Museum staff room.",
-          "caption": "A good dosirak is not a decoration project. It is rice plus small useful sides in a form you can actually carry and eat.",
+          "caption": "A dosirak is not a decoration project. It is rice plus small useful sides in something you can carry.",
           "ext": ".jpg",
           "exists": true
         },
         {
           "url": "/assets/images/posts/281/convenience-store-dosirak.jpg",
-          "alt": "A convenience-store Korean dosirak with rice and multiple side compartments.",
-          "caption": "Convenience-store dosirak show the basic structure clearly: rice, small sides, protein, sauce or kimchi, and a container that separates the pieces.",
+          "alt": "A Korean convenience-store dosirak with rice, sides, and protein in one microwaveable tray.",
+          "caption": "The convenience-store box is the template most people actually copy: a big rice section, several small sides, one or two proteins, a pickle.",
           "ext": ".jpg",
           "exists": true
         },
         {
           "url": "/assets/images/posts/281/ktx-gimbap-dosirak.jpg",
           "alt": "A Korean KTX gimbap dosirak with seaweed rolls arranged for travel.",
-          "caption": "Gimbap dosirak works well for train days and picnics because the rice, filling, and gim are already built into each bite.",
+          "caption": "Gimbap travels because the rice, filling and gim are already built into each bite.",
           "ext": ".jpg",
           "exists": true
         },
         {
           "url": "/assets/images/posts/281/dosirak-container-owned.jpg",
-          "alt": "A Korean dosirak container with rice, gim, small sides, spoon, and chopsticks.",
-          "caption": "Container choice matters because Korean lunchbox food often combines rice, wet sides, crisp gim, and strong-smelling ingredients.",
+          "alt": "An EpicKor dosirak container packed with rice and sides.",
+          "caption": "Leak resistance matters more than compartment count. Kimchi decides which container you actually need.",
           "ext": ".jpg",
           "exists": true
         }

@@ -16,35 +16,14 @@
   "287": "home appliance (grills), not a food product"
  },
  "counts": {
-  "pending": 49,
-  "tier1": 8,
+  "pending": 48,
+  "tier1": 7,
   "tier2": 10,
   "tier3": 31,
-  "alreadyRefreshed": 21,
+  "alreadyRefreshed": 22,
   "excluded": 4
  },
  "queue": [
-  {
-   "slug": "281",
-   "title": "Korean Dosirak Lunchbox Guide 2026: Gim and Sides",
-   "tier": 1,
-   "refreshedOn": null,
-   "specApplied": false,
-   "gaps": {
-    "won": 0,
-    "hangul": 0,
-    "yearInTitle": true,
-    "words": 2187
-   },
-   "gsc": {
-    "clicks": 0,
-    "impressions": 58,
-    "ctr": "0%",
-    "position": 11.16
-   },
-   "status": "pending",
-   "note": null
-  },
   {
    "slug": "278",
    "title": "Korean Instant Coffee Mix Guide 2026: Maxim Sticks",
