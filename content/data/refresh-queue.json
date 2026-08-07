@@ -16,11 +16,11 @@
   "287": "home appliance (grills), not a food product"
  },
  "counts": {
-  "pending": 52,
+  "pending": 51,
   "tier1": 6,
-  "tier2": 15,
+  "tier2": 14,
   "tier3": 31,
-  "alreadyRefreshed": 24,
+  "alreadyRefreshed": 25,
   "excluded": 4
  },
  "queue": [
@@ -146,27 +146,6 @@
     "impressions": 6,
     "ctr": "0%",
     "position": 16.33
-   },
-   "status": "pending",
-   "note": null
-  },
-  {
-   "slug": "140",
-   "title": "Public Toilets in Korea: Bidets, Signs, and Traveler Etiquette",
-   "tier": 2,
-   "refreshedOn": null,
-   "specApplied": false,
-   "gaps": {
-    "won": 0,
-    "hangul": 2,
-    "yearInTitle": false,
-    "words": 1930
-   },
-   "gsc": {
-    "clicks": 27,
-    "impressions": 6644,
-    "ctr": "0.41%",
-    "position": 8.54
    },
    "status": "pending",
    "note": null

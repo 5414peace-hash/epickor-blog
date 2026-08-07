@@ -1,6 +1,6 @@
 {
   "summary": {
-    "generatedAt": "2026-08-07T14:53:05.288Z",
+    "generatedAt": "2026-08-07T15:18:52.712Z",
     "auditedPosts": 355,
     "includedPrivate": false,
     "slugFilter": "",
@@ -5120,36 +5120,36 @@
     {
       "type": "blog",
       "slug": "140",
-      "title": "Public Toilets in Korea: Bidets, Signs, and Traveler Etiquette",
+      "title": "Public Toilets in Korea: 78,183 of Them, and the Law That Decides Which You Can Walk Into",
       "contentPath": "content\\blog\\140.md",
       "sourceRecord": "public\\assets\\images\\posts\\140\\image-sources.md",
       "imageCount": 4,
       "images": [
         {
-          "url": "/assets/images/posts/140/seoul-universal-restroom-official.png",
-          "alt": "Universal-design public restroom entrance in Seoul with clear pictograms",
-          "caption": "Clear pictograms and accessible routes matter more to travelers than novelty features.",
-          "ext": ".png",
+          "url": "/assets/images/posts/140/korea-bin-free-toilet-sign.jpg",
+          "alt": "Official Korean public restroom sign from the Ministry of the Interior and Safety and Seoul Metropolitan Government reading \"휴지통 없는 화장실 / 사용한 휴지는 변기에 버려주세요\" with translations in English, Chinese and Japanese.",
+          "caption": "This sign is the single most useful thing in a Korean stall. It is a government notice, posted in four languages, telling you to flush the paper — because since 2018 that has been national policy, not a building's preference.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/140/gusan-station-public-toilet.jpg",
+          "alt": "A public toilet inside Gusan Station on the Seoul subway network.",
+          "caption": "A station restroom on the Seoul network. Signage uses the same pictograms nationwide, so you can navigate to one without reading any Korean.",
+          "ext": ".jpg",
           "exists": true
         },
         {
           "url": "/assets/images/posts/140/seoul-subway-platform-pexels.jpg",
-          "alt": "Passengers waiting on a platform in the Seoul subway system",
-          "caption": "Subway stations are dependable restroom anchors, but the facility may be far from the platform or on the other side of the gates.",
+          "alt": "A passenger with luggage waiting at Anguk Station on Seoul Subway Line 3.",
+          "caption": "Large transfer stations can put the restroom a long walk from the platform. Follow the pictogram rather than assuming it is beside the stairs.",
           "ext": ".jpg",
           "exists": true
         },
         {
-          "url": "/assets/images/posts/140/accessible-restroom-sign-pexels.jpg",
-          "alt": "An inclusive restroom sign showing women and wheelchair access",
-          "caption": "Accessibility depends on the entire route, not only the symbol at the door.",
-          "ext": ".jpg",
-          "exists": true
-        },
-        {
-          "url": "/assets/images/posts/140/modern-public-restroom-pexels.jpg",
-          "alt": "A clean modern public restroom interior with stainless fixtures",
-          "caption": "Facility quality varies, but maintained public buildings and transport hubs are the safest first choice.",
+          "url": "/assets/images/posts/140/squat-toilet-korean-building.jpg",
+          "alt": "A squat toilet (화변기) in a commercial building in Korea.",
+          "caption": "Squat toilets have not disappeared. They persist in older commercial buildings, schools, markets and mountain facilities — the stall door usually shows which type is inside.",
           "ext": ".jpg",
           "exists": true
         }
