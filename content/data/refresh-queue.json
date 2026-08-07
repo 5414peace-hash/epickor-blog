@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-08-06",
+ "generatedAt": "2026-08-07",
  "generator": "scripts/build-refresh-queue.mjs",
  "rule": "CLAUDE.md 실행계획 챕터 1 — 하루 리듬 \"신규 2편 + 리프레시 1편\". 순서: tier 1 → 2 → 3, 각 tier 안에서는 GSC 노출 내림차순 (이 큐 전체의 클릭 최대값이 7이라 클릭은 정렬 신호가 되지 못한다).",
  "gate": "스펙 적용 전에 \"이 글이 아직 사실인가\"를 먼저 검사한다 (CLAUDE.md 2026-08-04 신설). 4회 연속 그쪽이 더 값어치 있었다.",
@@ -16,35 +16,14 @@
   "287": "home appliance (grills), not a food product"
  },
  "counts": {
-  "pending": 50,
-  "tier1": 9,
+  "pending": 49,
+  "tier1": 8,
   "tier2": 10,
   "tier3": 31,
-  "alreadyRefreshed": 20,
+  "alreadyRefreshed": 21,
   "excluded": 4
  },
  "queue": [
-  {
-   "slug": "219",
-   "title": "Korean Ramen Trends 2026: Toomba, Buldak, Recipes",
-   "tier": 1,
-   "refreshedOn": null,
-   "specApplied": false,
-   "gaps": {
-    "won": 0,
-    "hangul": 0,
-    "yearInTitle": true,
-    "words": 2201
-   },
-   "gsc": {
-    "clicks": 0,
-    "impressions": 107,
-    "ctr": "0%",
-    "position": 11.57
-   },
-   "status": "pending",
-   "note": null
-  },
   {
    "slug": "281",
    "title": "Korean Dosirak Lunchbox Guide 2026: Gim and Sides",

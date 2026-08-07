@@ -1,6 +1,6 @@
 {
   "summary": {
-    "generatedAt": "2026-08-06T23:40:01.515Z",
+    "generatedAt": "2026-08-07T00:20:51.835Z",
     "auditedPosts": 355,
     "includedPrivate": false,
     "slugFilter": "",
@@ -8118,7 +8118,7 @@
     {
       "type": "blog",
       "slug": "219",
-      "title": "Korean Ramen Trends 2026: Toomba, Buldak, Recipes",
+      "title": "Korean Ramen Went Premium: Why a Packet Now Costs ₩1,900",
       "contentPath": "content\\blog\\219.md",
       "sourceRecord": "public\\assets\\images\\posts\\219\\image-sources.md",
       "imageCount": 4,
@@ -8126,28 +8126,28 @@
         {
           "url": "/assets/images/posts/219/korean-ramen-chopsticks.jpg",
           "alt": "Chopsticks lifting Korean ramen from a small pot, showing the visual ritual behind Korea's ramen trend culture.",
-          "caption": "Korean ramen trends move fast, but the core appeal is still simple: heat, texture, broth, and a bowl that feels like a reset. Photo by Theodore Nguyen on Pexels.",
-          "ext": ".jpg",
-          "exists": true
-        },
-        {
-          "url": "/assets/images/posts/219/korean-ramen-pot.jpg",
-          "alt": "A small Korean ramen pot with spicy broth and noodles, representing the comfort side of Korean ramen trends.",
-          "caption": "Add egg, kimchi, green onion, cheese, or dumplings and the packet stops feeling like a snack. It becomes a small meal. Photo by Theodore Nguyen on Pexels.",
+          "caption": "The core appeal has not changed: heat, texture, broth, and a bowl that feels like a reset. What changed is what Korea is willing to pay for it. Photo by Theodore Nguyen on Pexels.",
           "ext": ".jpg",
           "exists": true
         },
         {
           "url": "/assets/images/posts/219/tteokbokki-ramyun-pot.jpg",
           "alt": "A Korean ramen bowl with tteokbokki-style rice cakes and spicy broth, showing how ramen trends borrow from Korean street-food logic.",
-          "caption": "Ramen works best when it borrows from Korean table logic: heat, toppings, rice cakes, egg, and a sense of comfort meeting chaos. Photo by Theodore Nguyen on Pexels.",
+          "caption": "Ramyun works best when it borrows from Korean table logic: heat, toppings, rice cakes, egg. Photo by Theodore Nguyen on Pexels.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/219/korean-ramen-pot.jpg",
+          "alt": "A Korean aluminium ramen pot with noodles cooking, the standard single-serving vessel in Korean homes and convenience stores.",
+          "caption": "The gold-toned aluminium pot is thin on purpose — it boils fast and cools fast, so the lid works as a plate. Photo by Theodore Nguyen on Pexels.",
           "ext": ".jpg",
           "exists": true
         },
         {
           "url": "/assets/images/posts/219/spicy-korean-ramen-bowl.jpg",
           "alt": "A close bowl of spicy Korean ramen with greens and broth, showing how add-ons turn instant noodles into a fuller meal.",
-          "caption": "Add-ons matter. Ramen trends are not only about the packet, but about what people build around it. Photo by Theodore Nguyen on Pexels.",
+          "caption": "Add-ons matter. Ramyun trends are not only about the packet, but about what people build around it. Photo by Theodore Nguyen on Pexels.",
           "ext": ".jpg",
           "exists": true
         }
