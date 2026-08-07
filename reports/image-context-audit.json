@@ -1,6 +1,6 @@
 {
   "summary": {
-    "generatedAt": "2026-08-07T23:10:43.042Z",
+    "generatedAt": "2026-08-07T23:34:16.780Z",
     "auditedPosts": 355,
     "includedPrivate": false,
     "slugFilter": "",
@@ -9271,36 +9271,36 @@
     {
       "type": "blog",
       "slug": "250",
-      "title": "Korean Wellness Snacks 2026: Protein, Tea, and Zero Sugar",
+      "title": "Korean Wellness Snacks: Olive Young's Own Brand Sold 30 Million Bags, and One Bag Is 240 Calories",
       "contentPath": "content\\blog\\250.md",
       "sourceRecord": "public\\assets\\images\\posts\\250\\image-sources.md",
       "imageCount": 4,
       "images": [
         {
+          "url": "/assets/images/posts/250/delight-project-bagel-chip-corn-soup.jpg",
+          "alt": "A bag of Delight Project Corn Soup Bagel Chip from Olive Young, with 240 kcal printed in large type on the front of the pack.",
+          "caption": "Delight Project puts the calorie count where a normal snack puts the flavour name. 옥수수스프 베이글칩 — corn soup bagel chip, 55g, 240 kcal, 8.49% corn.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/250/delight-project-bagel-chip-gift-set.jpg",
+          "alt": "The Delight Project Bagel Chips Collection gift box showing five flavours with their weights and calorie counts printed on the packaging.",
+          "caption": "The gift box prints the full spec: 5 bags, 285g total, 1,260 kcal — garlic butter 60g/280, honey butter 60g/245, real pizza 60g/275, choco cinnamon 50g/220, corn soup 55g/240.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
           "url": "/assets/images/posts/250/seoul-lemonade-stand-wellness-drink.jpg",
-          "alt": "A Seoul drink stand with bright Korean street-culture energy, useful for understanding Korea's grab-and-go wellness drink mood.",
-          "caption": "Korea's wellness snack trend sits between cafe culture, convenience-store speed, and beauty-shopping habits.",
+          "alt": "A Seoul drink stand, showing the grab-and-go side of Korea's wellness drink habit.",
+          "caption": "The zero-sugar drink habit is a convenience-store and street-stand behaviour more than a health-store one.",
           "ext": ".jpg",
           "exists": true
         },
         {
           "url": "/assets/images/posts/250/seoul-cafe-functional-drinks.jpg",
-          "alt": "A Seoul cafe tray with drinks, showing the lifestyle side of Korean wellness snacking.",
-          "caption": "K-wellness is not only a gym trend. It is also a cafe, desk, commute, and shopping-bag habit.",
-          "ext": ".jpg",
-          "exists": true
-        },
-        {
-          "url": "/assets/images/posts/250/herbal-tea-wellness-cup.jpg",
-          "alt": "A calm herbal tea setup that fits Korea's beauty-tea and routine-drink side of K-wellness.",
-          "caption": "Beauty teas and functional drinks are best treated as pleasant routines, not miracle fixes.",
-          "ext": ".jpg",
-          "exists": true
-        },
-        {
-          "url": "/assets/images/posts/250/healthy-snack-nuts-flatlay.jpg",
-          "alt": "A flatlay of nuts and light snacks, useful for comparing Korean wellness snacks with normal global healthy-snack logic.",
-          "caption": "The smartest K-wellness haul is not the biggest haul. It is the one you will actually eat.",
+          "alt": "A Seoul cafe tray with drinks, showing the everyday routine side of Korean wellness snacking.",
+          "caption": "Cafe, desk, commute, shopping bag — the wellness snack sits inside an existing routine rather than replacing a meal.",
           "ext": ".jpg",
           "exists": true
         }

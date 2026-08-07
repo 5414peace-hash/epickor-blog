@@ -16,35 +16,14 @@
   "287": "home appliance (grills), not a food product"
  },
  "counts": {
-  "pending": 49,
-  "tier1": 6,
+  "pending": 48,
+  "tier1": 5,
   "tier2": 12,
   "tier3": 31,
-  "alreadyRefreshed": 27,
+  "alreadyRefreshed": 28,
   "excluded": 4
  },
  "queue": [
-  {
-   "slug": "250",
-   "title": "Korean Wellness Snacks 2026: Protein, Tea, and Zero Sugar",
-   "tier": 1,
-   "refreshedOn": null,
-   "specApplied": false,
-   "gaps": {
-    "won": 0,
-    "hangul": 0,
-    "yearInTitle": true,
-    "words": 2207
-   },
-   "gsc": {
-    "clicks": 0,
-    "impressions": 41,
-    "ctr": "0%",
-    "position": 7.07
-   },
-   "status": "pending",
-   "note": null
-  },
   {
    "slug": "282",
    "title": "Korean Kimchi Jjigae at Home 2026: Stew Packs and Tofu",
