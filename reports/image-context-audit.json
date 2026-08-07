@@ -1,15 +1,15 @@
 {
   "summary": {
-    "generatedAt": "2026-08-07T22:52:35.479Z",
+    "generatedAt": "2026-08-07T23:10:43.042Z",
     "auditedPosts": 355,
     "includedPrivate": false,
     "slugFilter": "",
-    "bodyImages": 1299,
-    "affectedPosts": 100,
+    "bodyImages": 1298,
+    "affectedPosts": 99,
     "critical": 0,
     "high": 0,
     "medium": 1,
-    "info": 99
+    "info": 98
   },
   "findings": [
     {
@@ -595,14 +595,6 @@
       "severity": "info",
       "code": "MISSING_SOURCE_RECORD",
       "detail": "public\\assets\\images\\posts\\173\\image-sources.md"
-    },
-    {
-      "type": "blog",
-      "slug": "174",
-      "title": "Seoul Subway Etiquette: The Quiet Rules Tourists Miss",
-      "severity": "info",
-      "code": "MISSING_SOURCE_RECORD",
-      "detail": "public\\assets\\images\\posts\\174\\image-sources.md"
     },
     {
       "type": "blog",
@@ -6384,47 +6376,34 @@
     {
       "type": "blog",
       "slug": "174",
-      "title": "Seoul Subway Etiquette: The Quiet Rules Tourists Miss",
+      "title": "Seoul Subway Etiquette: Korea Just Reversed the Escalator Rule, and Two of Those Seats Aren't Yours",
       "contentPath": "content\\blog\\174.md",
-      "sourceRecord": "",
-      "imageCount": 4,
+      "sourceRecord": "public\\assets\\images\\posts\\174\\image-sources.md",
+      "imageCount": 3,
       "images": [
         {
-          "url": "/assets/images/posts/174/pexels-31892087.jpg",
-          "alt": "A Seoul subway platform with passengers waiting near screen doors.",
-          "caption": "Seoul subway etiquette is not only about knowing the route. It is about moving with the local flow once you are on the platform.",
+          "url": "/assets/images/posts/174/seoul-metro-pregnant-priority-seats.jpg",
+          "alt": "The priority seating bank inside a Seoul Metro car, showing pink designated seats for pregnant passengers at both ends, a yellow priority seat, and grey general seats, with pink floor decals.",
+          "caption": "One bank of seats, three meanings. The pink seats at each end are 임산부 배려석 — designated for pregnant passengers. The yellow is priority seating. Grey is general. The pink floor decals are part of the same campaign.",
           "ext": ".jpg",
           "exists": true
         },
         {
-          "url": "/assets/images/posts/174/pexels-31768200.jpg",
-          "alt": "Commuters move through a Seoul subway station in warm afternoon light.",
-          "caption": "The easiest way to move well in a Seoul station is to follow the crowd's direction instead of stopping in the middle of it. Photo by Theodore Nguyen on Pexels.",
+          "url": "/assets/images/posts/174/seoul-station-escalator.jpg",
+          "alt": "An escalator leading out of a Seoul subway station.",
+          "caption": "Station escalators are long and often the only way up. The government would now prefer you stand on both sides; the crowd has not agreed yet.",
           "ext": ".jpg",
           "exists": true
         },
         {
-          "url": "/assets/images/posts/174/pexels-31826590.jpg",
-          "alt": "Commuters walk through a Seoul subway station corridor.",
-          "caption": "Large Seoul stations can feel like small underground districts. Step aside before checking your route. Photo by Theodore Nguyen on Pexels.",
-          "ext": ".jpg",
-          "exists": true
-        },
-        {
-          "url": "/assets/images/posts/174/pexels-31768195.jpg",
-          "alt": "Passengers walk toward an exit inside a Seoul subway station.",
-          "caption": "The best Seoul subway habit is simple: step aside, check your route, then rejoin the flow. Photo by Theodore Nguyen on Pexels.",
+          "url": "/assets/images/posts/174/euljiro-4ga-platform-screen-doors.jpg",
+          "alt": "Platform screen doors at Euljiro 4-ga Station on Seoul Subway Line 2.",
+          "caption": "Every Seoul Metro platform has screen doors with floor markings. The pattern is the same citywide, so learning it once works everywhere.",
           "ext": ".jpg",
           "exists": true
         }
       ],
-      "findings": [
-        {
-          "severity": "info",
-          "code": "MISSING_SOURCE_RECORD",
-          "detail": "public\\assets\\images\\posts\\174\\image-sources.md"
-        }
-      ]
+      "findings": []
     },
     {
       "type": "blog",

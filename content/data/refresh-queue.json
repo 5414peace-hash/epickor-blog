@@ -16,11 +16,11 @@
   "287": "home appliance (grills), not a food product"
  },
  "counts": {
-  "pending": 50,
+  "pending": 49,
   "tier1": 6,
-  "tier2": 13,
+  "tier2": 12,
   "tier3": 31,
-  "alreadyRefreshed": 26,
+  "alreadyRefreshed": 27,
   "excluded": 4
  },
  "queue": [
@@ -146,27 +146,6 @@
     "impressions": 6,
     "ctr": "0%",
     "position": 16.33
-   },
-   "status": "pending",
-   "note": null
-  },
-  {
-   "slug": "174",
-   "title": "Seoul Subway Etiquette: The Quiet Rules Tourists Miss",
-   "tier": 2,
-   "refreshedOn": null,
-   "specApplied": false,
-   "gaps": {
-    "won": 0,
-    "hangul": 0,
-    "yearInTitle": false,
-    "words": 3168
-   },
-   "gsc": {
-    "clicks": 12,
-    "impressions": 2650,
-    "ctr": "0.45%",
-    "position": 7.59
    },
    "status": "pending",
    "note": null
