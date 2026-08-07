@@ -1,6 +1,6 @@
 {
   "summary": {
-    "generatedAt": "2026-08-07T15:18:52.712Z",
+    "generatedAt": "2026-08-07T22:52:35.479Z",
     "auditedPosts": 355,
     "includedPrivate": false,
     "slugFilter": "",
@@ -8267,36 +8267,36 @@
     {
       "type": "blog",
       "slug": "223",
-      "title": "Korea e-Arrival Card vs K-ETA 2026: Tourist Guide",
+      "title": "Korea e-Arrival Card vs K-ETA: 22 Countries Are Exempt, and the Paid One Cancels the Free One",
       "contentPath": "content\\blog\\223.md",
       "sourceRecord": "public\\assets\\images\\posts\\223\\image-sources.md",
       "imageCount": 4,
       "images": [
         {
           "url": "/assets/images/posts/223/korea-e-arrival-card-portal-screen.jpg",
-          "alt": "The Korea e-Arrival Card portal landing screen showing declaration options and date availability.",
-          "caption": "The core confusion is simple: e-Arrival Card is a free arrival declaration, while K-ETA is travel authorization when your passport category requires it.",
+          "alt": "The Korea e-Arrival Card portal landing screen showing individual and group declaration options.",
+          "caption": "The e-Arrival Card portal. Free, official, and required only if you are not already covered by something else — a K-ETA, a residence card, or a visa category that exempts you.",
           "ext": ".jpg",
           "exists": true
         },
         {
           "url": "/assets/images/posts/223/e-arrival-card-detail-form-screen.jpg",
-          "alt": "A Korea e-Arrival Card form screen showing passport, stay, and arrival information fields.",
-          "caption": "The official e-Arrival Card process is a form flow, not a paid agency service. If a free declaration asks for payment, stop and verify the domain.",
+          "alt": "A Korea e-Arrival Card form screen showing passport, stay and arrival information fields.",
+          "caption": "The official flow is terms, passport details, itinerary, stay information, a check screen, then submit. It is a form, not a service — nothing about it should require a payment.",
           "ext": ".jpg",
           "exists": true
         },
         {
           "url": "/assets/images/posts/223/official-keta-homepage-screen.jpg",
           "alt": "The official K-ETA homepage with Korea Electronic Travel Authorization buttons.",
-          "caption": "Before typing passport details, check the domain. Official Korea entry sites should point you to the `.go.kr` government domain.",
+          "caption": "Check the domain before typing passport details. Korean government sites end in `.go.kr`.",
           "ext": ".jpg",
           "exists": true
         },
         {
           "url": "/assets/images/posts/223/keta-official-warning-screen.jpg",
           "alt": "A K-ETA official warning screen explaining non-official websites and agency fee risks.",
-          "caption": "The airport-day goal is boring: passport ready, entry confirmations saved, hotel address copied, and official domains checked before money or passport details move anywhere.",
+          "caption": "The K-ETA operator publishes its own warning about agency sites. If a service offers to make K-ETA faster, that alone is disqualifying — no expedited option exists.",
           "ext": ".jpg",
           "exists": true
         }

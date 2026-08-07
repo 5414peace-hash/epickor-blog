@@ -1,5 +1,10 @@
 # Image Sources - Blog 223
 
+2026-08-08 refresh: image set reviewed and kept unchanged. All four are direct screenshots of
+the actual official interfaces the article describes (e-Arrival Card portal and form, K-ETA
+homepage, K-ETA warning screen), which is what the Blog Reference Image Standard asks for on a
+post about a specific form or portal. No replacement was warranted.
+
 Blog: `223` - `Korea e-Arrival Card vs K-ETA 2026: What Tourists Must Fill Out Before Flying`
 
 ## Replacement Summary - 2026-06-22 Web Photo Fix
