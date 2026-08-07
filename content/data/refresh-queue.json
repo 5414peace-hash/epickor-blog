@@ -16,11 +16,11 @@
   "287": "home appliance (grills), not a food product"
  },
  "counts": {
-  "pending": 53,
+  "pending": 52,
   "tier1": 6,
-  "tier2": 16,
+  "tier2": 15,
   "tier3": 31,
-  "alreadyRefreshed": 23,
+  "alreadyRefreshed": 24,
   "excluded": 4
  },
  "queue": [
@@ -146,27 +146,6 @@
     "impressions": 6,
     "ctr": "0%",
     "position": 16.33
-   },
-   "status": "pending",
-   "note": null
-  },
-  {
-   "slug": "074",
-   "title": "Seoul Underground Shopping Malls: Best Stations Guide",
-   "tier": 2,
-   "refreshedOn": null,
-   "specApplied": false,
-   "gaps": {
-    "won": 0,
-    "hangul": 0,
-    "yearInTitle": false,
-    "words": 2096
-   },
-   "gsc": {
-    "clicks": 11,
-    "impressions": 9613,
-    "ctr": "0.11%",
-    "position": 8.05
    },
    "status": "pending",
    "note": null

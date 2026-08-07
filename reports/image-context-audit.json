@@ -1,15 +1,15 @@
 {
   "summary": {
-    "generatedAt": "2026-08-07T05:44:39.957Z",
+    "generatedAt": "2026-08-07T14:53:05.288Z",
     "auditedPosts": 355,
     "includedPrivate": false,
     "slugFilter": "",
-    "bodyImages": 1297,
-    "affectedPosts": 101,
+    "bodyImages": 1299,
+    "affectedPosts": 100,
     "critical": 0,
     "high": 0,
     "medium": 1,
-    "info": 100
+    "info": 99
   },
   "findings": [
     {
@@ -427,14 +427,6 @@
       "severity": "info",
       "code": "MISSING_SOURCE_RECORD",
       "detail": "public\\assets\\images\\posts\\073\\image-sources.md"
-    },
-    {
-      "type": "blog",
-      "slug": "074",
-      "title": "Seoul Underground Shopping Malls: Best Stations Guide",
-      "severity": "info",
-      "code": "MISSING_SOURCE_RECORD",
-      "detail": "public\\assets\\images\\posts\\074\\image-sources.md"
     },
     {
       "type": "blog",
@@ -3670,40 +3662,48 @@
     {
       "type": "blog",
       "slug": "074",
-      "title": "Seoul Underground Shopping Malls: Best Stations Guide",
+      "title": "Seoul Underground Shopping: 25 City-Run Arcades, and Why Hongdae Isn't One",
       "contentPath": "content\\blog\\074-the-world-of-underground-shopping-malls-in-korea.md",
-      "sourceRecord": "",
-      "imageCount": 3,
+      "sourceRecord": "public\\assets\\images\\posts\\074\\image-sources.md",
+      "imageCount": 5,
       "images": [
         {
-          "url": "/assets/images/posts/074/1f65ae5b-0c36-456c-9134-f3e0059f5b0e.png",
-          "alt": "The world of underground shopping malls in Korea",
-          "caption": "",
-          "ext": ".png",
-          "exists": true
-        },
-        {
-          "url": "/assets/images/posts/074/106_epickor_%EA%B1%B4%EC%88%9C.mp4_20240919_111617.641.jpg",
-          "alt": "Samseong Station COEX Mall exterior",
-          "caption": "",
+          "url": "/assets/images/posts/074/goto-mall-underground-corridor.jpg",
+          "alt": "The Goto Mall underground corridor at Express Bus Terminal Station in Seoul, lined with clothing shops.",
+          "caption": "Goto Mall runs 31,566 m² under Express Bus Terminal Station — 620 shops, the largest of Seoul's 25 city-run underground arcades by a wide margin.",
           "ext": ".jpg",
           "exists": true
         },
         {
-          "url": "/assets/images/posts/074/106_epickor_%EA%B1%B4%EC%88%9C.mp4_20240919_111556.496.jpg",
-          "alt": "Express Bus Terminal Underground Shopping Mall",
-          "caption": "",
+          "url": "/assets/images/posts/074/hongik-university-station-linkway.jpg",
+          "alt": "The underground linkway at Hongik University Station connecting Line 2, the Airport Railroad and the Gyeongui–Jungang Line.",
+          "caption": "Hongik University Station has long underground linkways between three lines — but they are transfer corridors, not a shopping arcade. The shopping at Hongdae is above ground.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/074/express-bus-terminal-station.jpg",
+          "alt": "Express Bus Terminal Station in Seoul, the interchange for subway Lines 3, 7 and 9 that sits above Goto Mall.",
+          "caption": "Express Bus Terminal Station serves Lines 3, 7 and 9. Goto Mall runs underneath it; the address is 서초구 신반포로 지하200.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/074/goto-mall-clothing-rows.jpg",
+          "alt": "Rows of clothing shops inside Goto Mall, the underground arcade at Seoul's Express Bus Terminal Station.",
+          "caption": "The rows repeat by design — the arcade is organised by product category, so comparing five similar shops in a row is the intended way to shop it.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/074/starfield-library-coex.jpg",
+          "alt": "Starfield Library inside Starfield COEX Mall in Samseong, Seoul, with its tall open bookshelves.",
+          "caption": "Starfield Library is the reason most first-time visitors go to COEX. It is free to enter and free to sit in — the mall treats it as a public square rather than a bookshop.",
           "ext": ".jpg",
           "exists": true
         }
       ],
-      "findings": [
-        {
-          "severity": "info",
-          "code": "MISSING_SOURCE_RECORD",
-          "detail": "public\\assets\\images\\posts\\074\\image-sources.md"
-        }
-      ]
+      "findings": []
     },
     {
       "type": "blog",
