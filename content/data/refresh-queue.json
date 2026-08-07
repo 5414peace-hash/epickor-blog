@@ -16,35 +16,14 @@
   "287": "home appliance (grills), not a food product"
  },
  "counts": {
-  "pending": 48,
-  "tier1": 7,
+  "pending": 47,
+  "tier1": 6,
   "tier2": 10,
   "tier3": 31,
-  "alreadyRefreshed": 22,
+  "alreadyRefreshed": 23,
   "excluded": 4
  },
  "queue": [
-  {
-   "slug": "278",
-   "title": "Korean Instant Coffee Mix Guide 2026: Maxim Sticks",
-   "tier": 1,
-   "refreshedOn": null,
-   "specApplied": false,
-   "gaps": {
-    "won": 0,
-    "hangul": 0,
-    "yearInTitle": true,
-    "words": 2460
-   },
-   "gsc": {
-    "clicks": 1,
-    "impressions": 40,
-    "ctr": "2.5%",
-    "position": 7.83
-   },
-   "status": "pending",
-   "note": null
-  },
   {
    "slug": "250",
    "title": "Korean Wellness Snacks 2026: Protein, Tea, and Zero Sugar",
