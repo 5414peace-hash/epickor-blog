@@ -3,7 +3,7 @@
  "generator": "scripts/build-refresh-queue.mjs",
  "rule": "CLAUDE.md 실행계획 챕터 1 — 하루 리듬 \"신규 2편 + 리프레시 1편\". 순서: tier 1 → 2 → 3, 각 tier 안에서는 GSC 노출 내림차순 (이 큐 전체의 클릭 최대값이 7이라 클릭은 정렬 신호가 되지 못한다).",
  "gate": "스펙 적용 전에 \"이 글이 아직 사실인가\"를 먼저 검사한다 (CLAUDE.md 2026-08-04 신설). 4회 연속 그쪽이 더 값어치 있었다.",
- "gscSource": "output\\gsc\\https___www.epickor.com_-Performance-on-Search-2026-07-24\\페이지.csv (2026-07-24)",
+ "gscSource": "output\\gsc\\https___www.epickor.com_-Performance-on-Search-2026-08-07\\페이지.csv (2026-08-07)",
  "tiers": {
   "1": "제품·브랜드 이름이 나오는 글 — 스펙 v1이 그대로 적용된다",
   "2": "장소·행동 글 — 스펙이 가격·영업시간·출구번호로 착지한다",
@@ -16,9 +16,9 @@
   "287": "home appliance (grills), not a food product"
  },
  "counts": {
-  "pending": 47,
+  "pending": 53,
   "tier1": 6,
-  "tier2": 10,
+  "tier2": 16,
   "tier3": 31,
   "alreadyRefreshed": 23,
   "excluded": 4
@@ -38,51 +38,9 @@
    },
    "gsc": {
     "clicks": 0,
-    "impressions": 40,
+    "impressions": 41,
     "ctr": "0%",
-    "position": 6.58
-   },
-   "status": "pending",
-   "note": null
-  },
-  {
-   "slug": "277",
-   "title": "Korean Pantry Starter Kit 2026: Sauces, Seaweed, Ramen, Rice",
-   "tier": 1,
-   "refreshedOn": null,
-   "specApplied": false,
-   "gaps": {
-    "won": 0,
-    "hangul": 0,
-    "yearInTitle": true,
-    "words": 2911
-   },
-   "gsc": {
-    "clicks": 1,
-    "impressions": 12,
-    "ctr": "8.33%",
-    "position": 8.58
-   },
-   "status": "pending",
-   "note": null
-  },
-  {
-   "slug": "279",
-   "title": "Korean Seaweed Snack Guide 2026: Gim, Laver, Rice Bowls",
-   "tier": 1,
-   "refreshedOn": null,
-   "specApplied": false,
-   "gaps": {
-    "won": 0,
-    "hangul": 0,
-    "yearInTitle": true,
-    "words": 2342
-   },
-   "gsc": {
-    "clicks": 0,
-    "impressions": 12,
-    "ctr": "0%",
-    "position": 17
+    "position": 7.07
    },
    "status": "pending",
    "note": null
@@ -101,9 +59,72 @@
    },
    "gsc": {
     "clicks": 0,
-    "impressions": 11,
+    "impressions": 20,
     "ctr": "0%",
-    "position": 19
+    "position": 19.25
+   },
+   "status": "pending",
+   "note": null
+  },
+  {
+   "slug": "279",
+   "title": "Korean Seaweed Snack Guide 2026: Gim, Laver, Rice Bowls",
+   "tier": 1,
+   "refreshedOn": null,
+   "specApplied": false,
+   "gaps": {
+    "won": 0,
+    "hangul": 0,
+    "yearInTitle": true,
+    "words": 2342
+   },
+   "gsc": {
+    "clicks": 0,
+    "impressions": 17,
+    "ctr": "0%",
+    "position": 15.35
+   },
+   "status": "pending",
+   "note": null
+  },
+  {
+   "slug": "277",
+   "title": "Korean Pantry Starter Kit 2026: Sauces, Seaweed, Ramen, Rice",
+   "tier": 1,
+   "refreshedOn": null,
+   "specApplied": false,
+   "gaps": {
+    "won": 0,
+    "hangul": 0,
+    "yearInTitle": true,
+    "words": 2911
+   },
+   "gsc": {
+    "clicks": 1,
+    "impressions": 13,
+    "ctr": "7.69%",
+    "position": 9.54
+   },
+   "status": "pending",
+   "note": null
+  },
+  {
+   "slug": "335",
+   "title": "Korean Convenience Store Ice Cream, Ranked",
+   "tier": 1,
+   "refreshedOn": null,
+   "specApplied": false,
+   "gaps": {
+    "won": 0,
+    "hangul": 13,
+    "yearInTitle": false,
+    "words": 2167
+   },
+   "gsc": {
+    "clicks": 0,
+    "impressions": 12,
+    "ctr": "0%",
+    "position": 5
    },
    "status": "pending",
    "note": null
@@ -122,26 +143,136 @@
    },
    "gsc": {
     "clicks": 0,
-    "impressions": 10,
+    "impressions": 6,
     "ctr": "0%",
-    "position": 12.9
+    "position": 16.33
    },
    "status": "pending",
    "note": null
   },
   {
-   "slug": "335",
-   "title": "Korean Convenience Store Ice Cream, Ranked",
-   "tier": 1,
+   "slug": "074",
+   "title": "Seoul Underground Shopping Malls: Best Stations Guide",
+   "tier": 2,
    "refreshedOn": null,
    "specApplied": false,
    "gaps": {
     "won": 0,
-    "hangul": 13,
+    "hangul": 0,
     "yearInTitle": false,
-    "words": 2167
+    "words": 2096
    },
-   "gsc": null,
+   "gsc": {
+    "clicks": 11,
+    "impressions": 9613,
+    "ctr": "0.11%",
+    "position": 8.05
+   },
+   "status": "pending",
+   "note": null
+  },
+  {
+   "slug": "140",
+   "title": "Public Toilets in Korea: Bidets, Signs, and Traveler Etiquette",
+   "tier": 2,
+   "refreshedOn": null,
+   "specApplied": false,
+   "gaps": {
+    "won": 0,
+    "hangul": 2,
+    "yearInTitle": false,
+    "words": 1930
+   },
+   "gsc": {
+    "clicks": 27,
+    "impressions": 6644,
+    "ctr": "0.41%",
+    "position": 8.54
+   },
+   "status": "pending",
+   "note": null
+  },
+  {
+   "slug": "174",
+   "title": "Seoul Subway Etiquette: The Quiet Rules Tourists Miss",
+   "tier": 2,
+   "refreshedOn": null,
+   "specApplied": false,
+   "gaps": {
+    "won": 0,
+    "hangul": 0,
+    "yearInTitle": false,
+    "words": 3168
+   },
+   "gsc": {
+    "clicks": 12,
+    "impressions": 2650,
+    "ctr": "0.45%",
+    "position": 7.59
+   },
+   "status": "pending",
+   "note": null
+  },
+  {
+   "slug": "223",
+   "title": "Korea e-Arrival Card vs K-ETA 2026: Tourist Guide",
+   "tier": 2,
+   "refreshedOn": null,
+   "specApplied": false,
+   "gaps": {
+    "won": 0,
+    "hangul": 0,
+    "yearInTitle": true,
+    "words": 2421
+   },
+   "gsc": {
+    "clicks": 25,
+    "impressions": 2298,
+    "ctr": "1.09%",
+    "position": 12.07
+   },
+   "status": "pending",
+   "note": null
+  },
+  {
+   "slug": "175",
+   "title": "Namdaemun vs Dongdaemun: Which Seoul Market to Visit",
+   "tier": 2,
+   "refreshedOn": null,
+   "specApplied": false,
+   "gaps": {
+    "won": 0,
+    "hangul": 0,
+    "yearInTitle": false,
+    "words": 2964
+   },
+   "gsc": {
+    "clicks": 5,
+    "impressions": 1975,
+    "ctr": "0.25%",
+    "position": 12.24
+   },
+   "status": "pending",
+   "note": null
+  },
+  {
+   "slug": "233",
+   "title": "KBO Baseball Game in Seoul 2026: Tickets, Seats, Food, and Cheers",
+   "tier": 2,
+   "refreshedOn": null,
+   "specApplied": false,
+   "gaps": {
+    "won": 0,
+    "hangul": 0,
+    "yearInTitle": true,
+    "words": 3058
+   },
+   "gsc": {
+    "clicks": 6,
+    "impressions": 1621,
+    "ctr": "0.37%",
+    "position": 8.47
+   },
    "status": "pending",
    "note": null
   },
@@ -159,9 +290,9 @@
    },
    "gsc": {
     "clicks": 6,
-    "impressions": 459,
-    "ctr": "1.31%",
-    "position": 6.32
+    "impressions": 507,
+    "ctr": "1.18%",
+    "position": 6.39
    },
    "status": "pending",
    "note": null
@@ -179,10 +310,31 @@
     "words": 2662
    },
    "gsc": {
-    "clicks": 2,
-    "impressions": 388,
-    "ctr": "0.52%",
-    "position": 8.48
+    "clicks": 5,
+    "impressions": 422,
+    "ctr": "1.18%",
+    "position": 8.35
+   },
+   "status": "pending",
+   "note": null
+  },
+  {
+   "slug": "311",
+   "title": "Tteokbokki Guide 2026: Types, Spice Levels, and How to Order",
+   "tier": 2,
+   "refreshedOn": null,
+   "specApplied": false,
+   "gaps": {
+    "won": 0,
+    "hangul": 7,
+    "yearInTitle": true,
+    "words": 2162
+   },
+   "gsc": {
+    "clicks": 1,
+    "impressions": 234,
+    "ctr": "0.43%",
+    "position": 11.65
    },
    "status": "pending",
    "note": null
@@ -201,9 +353,9 @@
    },
    "gsc": {
     "clicks": 1,
-    "impressions": 173,
-    "ctr": "0.58%",
-    "position": 32.27
+    "impressions": 165,
+    "ctr": "0.61%",
+    "position": 33.3
    },
    "status": "pending",
    "note": null
@@ -222,9 +374,9 @@
    },
    "gsc": {
     "clicks": 2,
-    "impressions": 111,
-    "ctr": "1.8%",
-    "position": 23.78
+    "impressions": 121,
+    "ctr": "1.65%",
+    "position": 22.54
    },
    "status": "pending",
    "note": null
@@ -243,9 +395,9 @@
    },
    "gsc": {
     "clicks": 1,
-    "impressions": 79,
-    "ctr": "1.27%",
-    "position": 8.22
+    "impressions": 97,
+    "ctr": "1.03%",
+    "position": 8.46
    },
    "status": "pending",
    "note": null
@@ -264,30 +416,9 @@
    },
    "gsc": {
     "clicks": 1,
-    "impressions": 76,
-    "ctr": "1.32%",
-    "position": 10.49
-   },
-   "status": "pending",
-   "note": null
-  },
-  {
-   "slug": "270",
-   "title": "Seoul Salt Bread Bakery Guide 2026: Best Routes",
-   "tier": 2,
-   "refreshedOn": null,
-   "specApplied": false,
-   "gaps": {
-    "won": 0,
-    "hangul": 0,
-    "yearInTitle": true,
-    "words": 2178
-   },
-   "gsc": {
-    "clicks": 2,
-    "impressions": 32,
-    "ctr": "6.25%",
-    "position": 7.12
+    "impressions": 77,
+    "ctr": "1.3%",
+    "position": 10.45
    },
    "status": "pending",
    "note": null
@@ -306,30 +437,30 @@
    },
    "gsc": {
     "clicks": 0,
-    "impressions": 25,
+    "impressions": 60,
     "ctr": "0%",
-    "position": 7.56
+    "position": 9.2
    },
    "status": "pending",
    "note": null
   },
   {
-   "slug": "311",
-   "title": "Tteokbokki Guide 2026: Types, Spice Levels, and How to Order",
+   "slug": "270",
+   "title": "Seoul Salt Bread Bakery Guide 2026: Best Routes",
    "tier": 2,
    "refreshedOn": null,
    "specApplied": false,
    "gaps": {
     "won": 0,
-    "hangul": 7,
+    "hangul": 0,
     "yearInTitle": true,
-    "words": 2162
+    "words": 2178
    },
    "gsc": {
-    "clicks": 0,
-    "impressions": 14,
-    "ctr": "0%",
-    "position": 8.29
+    "clicks": 2,
+    "impressions": 44,
+    "ctr": "4.55%",
+    "position": 7.32
    },
    "status": "pending",
    "note": null
@@ -346,7 +477,12 @@
     "yearInTitle": true,
     "words": 2329
    },
-   "gsc": null,
+   "gsc": {
+    "clicks": 0,
+    "impressions": 9,
+    "ctr": "0%",
+    "position": 10.67
+   },
    "status": "pending",
    "note": null
   },
@@ -363,10 +499,31 @@
     "words": 2151
    },
    "gsc": {
+    "clicks": 2,
+    "impressions": 1046,
+    "ctr": "0.19%",
+    "position": 10.53
+   },
+   "status": "pending",
+   "note": null
+  },
+  {
+   "slug": "302",
+   "title": "What Do Koreans Eat for Breakfast? 12 Real Korean Morning Meals",
+   "tier": 3,
+   "refreshedOn": null,
+   "specApplied": false,
+   "gaps": {
+    "won": 0,
+    "hangul": 14,
+    "yearInTitle": false,
+    "words": 2823
+   },
+   "gsc": {
     "clicks": 1,
-    "impressions": 902,
-    "ctr": "0.11%",
-    "position": 10.3
+    "impressions": 683,
+    "ctr": "0.15%",
+    "position": 14.16
    },
    "status": "pending",
    "note": null
@@ -384,10 +541,10 @@
     "words": 3070
    },
    "gsc": {
-    "clicks": 1,
-    "impressions": 447,
-    "ctr": "0.22%",
-    "position": 9.83
+    "clicks": 2,
+    "impressions": 598,
+    "ctr": "0.33%",
+    "position": 10.45
    },
    "status": "pending",
    "note": null
@@ -406,30 +563,9 @@
    },
    "gsc": {
     "clicks": 1,
-    "impressions": 432,
-    "ctr": "0.23%",
-    "position": 17.39
-   },
-   "status": "pending",
-   "note": null
-  },
-  {
-   "slug": "130",
-   "title": "Korean Drinking Culture: Hoesik, Choice and Safety",
-   "tier": 3,
-   "refreshedOn": null,
-   "specApplied": false,
-   "gaps": {
-    "won": 0,
-    "hangul": 10,
-    "yearInTitle": false,
-    "words": 2298
-   },
-   "gsc": {
-    "clicks": 7,
-    "impressions": 334,
-    "ctr": "2.1%",
-    "position": 6.46
+    "impressions": 546,
+    "ctr": "0.18%",
+    "position": 17.12
    },
    "status": "pending",
    "note": null
@@ -447,31 +583,31 @@
     "words": 2290
    },
    "gsc": {
-    "clicks": 4,
-    "impressions": 323,
-    "ctr": "1.24%",
-    "position": 9.52
+    "clicks": 8,
+    "impressions": 524,
+    "ctr": "1.53%",
+    "position": 9.9
    },
    "status": "pending",
    "note": null
   },
   {
-   "slug": "214",
-   "title": "Korea Reservation Culture: Why Seoul Walk-Ins Fail",
+   "slug": "130",
+   "title": "Korean Drinking Culture: Hoesik, Choice and Safety",
    "tier": 3,
    "refreshedOn": null,
    "specApplied": false,
    "gaps": {
     "won": 0,
-    "hangul": 0,
+    "hangul": 10,
     "yearInTitle": false,
-    "words": 2286
+    "words": 2298
    },
    "gsc": {
-    "clicks": 2,
-    "impressions": 264,
-    "ctr": "0.76%",
-    "position": 8.27
+    "clicks": 8,
+    "impressions": 443,
+    "ctr": "1.81%",
+    "position": 8.46
    },
    "status": "pending",
    "note": null
@@ -490,9 +626,72 @@
    },
    "gsc": {
     "clicks": 2,
-    "impressions": 254,
-    "ctr": "0.79%",
-    "position": 8.3
+    "impressions": 408,
+    "ctr": "0.49%",
+    "position": 8.17
+   },
+   "status": "pending",
+   "note": null
+  },
+  {
+   "slug": "050",
+   "title": "Korean Banchan Guide: Side Dishes, Kimchi, and Table Rules",
+   "tier": 3,
+   "refreshedOn": null,
+   "specApplied": false,
+   "gaps": {
+    "won": 0,
+    "hangul": 0,
+    "yearInTitle": false,
+    "words": 2077
+   },
+   "gsc": {
+    "clicks": 3,
+    "impressions": 321,
+    "ctr": "0.93%",
+    "position": 27.87
+   },
+   "status": "pending",
+   "note": null
+  },
+  {
+   "slug": "214",
+   "title": "Korea Reservation Culture: Why Seoul Walk-Ins Fail",
+   "tier": 3,
+   "refreshedOn": null,
+   "specApplied": false,
+   "gaps": {
+    "won": 0,
+    "hangul": 0,
+    "yearInTitle": false,
+    "words": 2286
+   },
+   "gsc": {
+    "clicks": 3,
+    "impressions": 320,
+    "ctr": "0.94%",
+    "position": 8.33
+   },
+   "status": "pending",
+   "note": null
+  },
+  {
+   "slug": "326",
+   "title": "Korean Spice Levels Explained: How Hot Is Korean Food Really?",
+   "tier": 3,
+   "refreshedOn": null,
+   "specApplied": false,
+   "gaps": {
+    "won": 0,
+    "hangul": 6,
+    "yearInTitle": false,
+    "words": 2184
+   },
+   "gsc": {
+    "clicks": 0,
+    "impressions": 257,
+    "ctr": "0%",
+    "position": 8.91
    },
    "status": "pending",
    "note": null
@@ -511,72 +710,9 @@
    },
    "gsc": {
     "clicks": 2,
-    "impressions": 241,
-    "ctr": "0.83%",
-    "position": 20.19
-   },
-   "status": "pending",
-   "note": null
-  },
-  {
-   "slug": "302",
-   "title": "What Do Koreans Eat for Breakfast? 12 Real Korean Morning Meals",
-   "tier": 3,
-   "refreshedOn": null,
-   "specApplied": false,
-   "gaps": {
-    "won": 0,
-    "hangul": 14,
-    "yearInTitle": false,
-    "words": 2823
-   },
-   "gsc": {
-    "clicks": 0,
-    "impressions": 233,
-    "ctr": "0%",
-    "position": 11.83
-   },
-   "status": "pending",
-   "note": null
-  },
-  {
-   "slug": "021",
-   "title": "Miyeokguk Guide: Why Koreans Eat Seaweed Soup on Birthdays",
-   "tier": 3,
-   "refreshedOn": null,
-   "specApplied": false,
-   "gaps": {
-    "won": 0,
-    "hangul": 0,
-    "yearInTitle": false,
-    "words": 1895
-   },
-   "gsc": {
-    "clicks": 2,
-    "impressions": 199,
-    "ctr": "1.01%",
-    "position": 22.05
-   },
-   "status": "pending",
-   "note": null
-  },
-  {
-   "slug": "050",
-   "title": "Korean Banchan Guide: Side Dishes, Kimchi, and Table Rules",
-   "tier": 3,
-   "refreshedOn": null,
-   "specApplied": false,
-   "gaps": {
-    "won": 0,
-    "hangul": 0,
-    "yearInTitle": false,
-    "words": 2077
-   },
-   "gsc": {
-    "clicks": 4,
-    "impressions": 161,
-    "ctr": "2.48%",
-    "position": 19.48
+    "impressions": 249,
+    "ctr": "0.8%",
+    "position": 21.52
    },
    "status": "pending",
    "note": null
@@ -595,9 +731,30 @@
    },
    "gsc": {
     "clicks": 0,
-    "impressions": 98,
+    "impressions": 212,
     "ctr": "0%",
-    "position": 14.09
+    "position": 12.66
+   },
+   "status": "pending",
+   "note": null
+  },
+  {
+   "slug": "021",
+   "title": "Miyeokguk Guide: Why Koreans Eat Seaweed Soup on Birthdays",
+   "tier": 3,
+   "refreshedOn": null,
+   "specApplied": false,
+   "gaps": {
+    "won": 0,
+    "hangul": 0,
+    "yearInTitle": false,
+    "words": 1895
+   },
+   "gsc": {
+    "clicks": 1,
+    "impressions": 209,
+    "ctr": "0.48%",
+    "position": 24.61
    },
    "status": "pending",
    "note": null
@@ -616,9 +773,51 @@
    },
    "gsc": {
     "clicks": 1,
-    "impressions": 77,
-    "ctr": "1.3%",
-    "position": 10.78
+    "impressions": 166,
+    "ctr": "0.6%",
+    "position": 9.51
+   },
+   "status": "pending",
+   "note": null
+  },
+  {
+   "slug": "295",
+   "title": "Korean Temple Food Guide 2026: Vegan Limits and Temples",
+   "tier": 3,
+   "refreshedOn": null,
+   "specApplied": false,
+   "gaps": {
+    "won": 0,
+    "hangul": 0,
+    "yearInTitle": true,
+    "words": 2108
+   },
+   "gsc": {
+    "clicks": 3,
+    "impressions": 101,
+    "ctr": "2.97%",
+    "position": 12.76
+   },
+   "status": "pending",
+   "note": null
+  },
+  {
+   "slug": "266",
+   "title": "Korean BBQ Ssam Guide 2026: Lettuce, Perilla, Ssamjang, Garlic",
+   "tier": 3,
+   "refreshedOn": null,
+   "specApplied": false,
+   "gaps": {
+    "won": 0,
+    "hangul": 0,
+    "yearInTitle": true,
+    "words": 2374
+   },
+   "gsc": {
+    "clicks": 0,
+    "impressions": 100,
+    "ctr": "0%",
+    "position": 14.6
    },
    "status": "pending",
    "note": null
@@ -645,22 +844,22 @@
    "note": null
   },
   {
-   "slug": "295",
-   "title": "Korean Temple Food Guide 2026: Vegan Limits and Temples",
+   "slug": "350",
+   "title": "Wild Camping in Korea: Why You Can't, and Where to Sleep Instead",
    "tier": 3,
    "refreshedOn": null,
    "specApplied": false,
    "gaps": {
     "won": 0,
-    "hangul": 0,
-    "yearInTitle": true,
-    "words": 2108
+    "hangul": 19,
+    "yearInTitle": false,
+    "words": 2655
    },
    "gsc": {
     "clicks": 1,
-    "impressions": 53,
-    "ctr": "1.89%",
-    "position": 12.68
+    "impressions": 67,
+    "ctr": "1.49%",
+    "position": 6.54
    },
    "status": "pending",
    "note": null
@@ -679,30 +878,51 @@
    },
    "gsc": {
     "clicks": 1,
-    "impressions": 45,
-    "ctr": "2.22%",
-    "position": 8.42
+    "impressions": 66,
+    "ctr": "1.52%",
+    "position": 8.33
    },
    "status": "pending",
    "note": null
   },
   {
-   "slug": "266",
-   "title": "Korean BBQ Ssam Guide 2026: Lettuce, Perilla, Ssamjang, Garlic",
+   "slug": "323",
+   "title": "What They Actually Eat in K-Dramas: Make It at Home",
    "tier": 3,
    "refreshedOn": null,
    "specApplied": false,
    "gaps": {
     "won": 0,
-    "hangul": 0,
-    "yearInTitle": true,
-    "words": 2374
+    "hangul": 4,
+    "yearInTitle": false,
+    "words": 2211
    },
    "gsc": {
     "clicks": 0,
-    "impressions": 28,
+    "impressions": 53,
     "ctr": "0%",
-    "position": 12.86
+    "position": 11.87
+   },
+   "status": "pending",
+   "note": null
+  },
+  {
+   "slug": "354",
+   "title": "Mangwon-dong, Seoul: The Market Neighbourhood Locals Go To Instead of Hongdae",
+   "tier": 3,
+   "refreshedOn": null,
+   "specApplied": false,
+   "gaps": {
+    "won": 0,
+    "hangul": 12,
+    "yearInTitle": false,
+    "words": 2469
+   },
+   "gsc": {
+    "clicks": 0,
+    "impressions": 40,
+    "ctr": "0%",
+    "position": 9.62
    },
    "status": "pending",
    "note": null
@@ -721,9 +941,9 @@
    },
    "gsc": {
     "clicks": 0,
-    "impressions": 20,
+    "impressions": 22,
     "ctr": "0%",
-    "position": 10.65
+    "position": 11.64
    },
    "status": "pending",
    "note": null
@@ -872,70 +1092,6 @@
     "hangul": 2,
     "yearInTitle": false,
     "words": 2651
-   },
-   "gsc": null,
-   "status": "pending",
-   "note": null
-  },
-  {
-   "slug": "323",
-   "title": "What They Actually Eat in K-Dramas: Make It at Home",
-   "tier": 3,
-   "refreshedOn": null,
-   "specApplied": false,
-   "gaps": {
-    "won": 0,
-    "hangul": 4,
-    "yearInTitle": false,
-    "words": 2211
-   },
-   "gsc": null,
-   "status": "pending",
-   "note": null
-  },
-  {
-   "slug": "326",
-   "title": "Korean Spice Levels Explained: How Hot Is Korean Food Really?",
-   "tier": 3,
-   "refreshedOn": null,
-   "specApplied": false,
-   "gaps": {
-    "won": 0,
-    "hangul": 6,
-    "yearInTitle": false,
-    "words": 2184
-   },
-   "gsc": null,
-   "status": "pending",
-   "note": null
-  },
-  {
-   "slug": "350",
-   "title": "Wild Camping in Korea: Why You Can't, and Where to Sleep Instead",
-   "tier": 3,
-   "refreshedOn": null,
-   "specApplied": false,
-   "gaps": {
-    "won": 0,
-    "hangul": 19,
-    "yearInTitle": false,
-    "words": 2655
-   },
-   "gsc": null,
-   "status": "pending",
-   "note": null
-  },
-  {
-   "slug": "354",
-   "title": "Mangwon-dong, Seoul: The Market Neighbourhood Locals Go To Instead of Hongdae",
-   "tier": 3,
-   "refreshedOn": null,
-   "specApplied": false,
-   "gaps": {
-    "won": 0,
-    "hangul": 12,
-    "yearInTitle": false,
-    "words": 2469
    },
    "gsc": null,
    "status": "pending",

@@ -30,7 +30,23 @@ const OUT = 'content/data/refresh-queue.json';
 const TIER1 = ['219', '277', '278', '279', '250', '335', '128', '281', '282', '093', '259'];
 
 /** Place and action posts — the spec lands as prices, hours, exits. */
-const TIER2 = ['258', '255', '270', '288', '315', '087', '311', '267', '263', '254', '062'];
+const TIER2 = [
+  '258', '255', '270', '288', '315', '087', '311', '267', '263', '254', '062',
+  // 2026-08-07 sweep: the food filter blinded the queue to the site's largest
+  // unworked action-shape impression pools. These are traveler/shopping/
+  // transaction pages (not food), impressions >= 1,500 in the 08-07 pull,
+  // no content refresh on record — last commits were link retags and image
+  // fixes only. Definitional "why/meaning" pages from the same sweep (043,
+  // 055, 135, 166, 014, 008, 011, 137, 181) were deliberately NOT added.
+  '074', // Seoul underground shopping malls — 9,613i / 0.11% / p8.1; unanswered hongik-station cluster
+  '140', // public toilets in Korea — 6,644i / 0.41%
+  '170', // PC bang count/prices/rules — 5,610i / 0.34%
+  '174', // Seoul subway etiquette — 2,650i / 0.45%
+  '227', // shipping Korea→US, 15% duty — 2,435i / 0.33%; transaction shape
+  '223', // e-Arrival vs K-ETA — 2,298i / 1.09% p12; entry rules churn, "still true?" gate applies
+  '175', // Namdaemun vs Dongdaemun — 1,975i / 0.25% p12.2
+  '233', // KBO game in Seoul — 1,621i / 0.37%; season runs through October
+];
 
 /**
  * Caught by the food filter but not food. Kept explicit rather than silently
