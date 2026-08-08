@@ -4410,11 +4410,13 @@
         "CompanyDeepDive"
       ],
       "amazon_category": "varies",
-      "status": "approved",
+      "status": "done",
       "approved_date": "2026-08-08",
       "approved_by": "representative",
       "cycle": "2026-W33",
-      "notes": "APPROVED batch #5 (weakest gap — product reviews exist in EN). Founded 1978 구자신, HQ 양산. US entity W30bn revenue +80%; sells rice cookers as multicookers in US. Blog 260 is the product guide; this is the company story. Distinct from 260 or skip if coverage check fails at draft time."
+      "notes": "APPROVED batch #5 (weakest gap — product reviews exist in EN). Founded 1978 구자신, HQ 양산. US entity W30bn revenue +80%; sells rice cookers as multicookers in US. Blog 260 is the product guide; this is the company story. Distinct from 260 or skip if coverage check fails at draft time.",
+      "slug": "cuckoo-rice-cooker-company-deep-dive",
+      "completed_date": "2026-08-08"
     },
     {
       "id": 204,

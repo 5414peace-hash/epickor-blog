@@ -1,10 +1,10 @@
 {
   "summary": {
-    "generatedAt": "2026-08-08T10:18:27.139Z",
-    "auditedPosts": 360,
+    "generatedAt": "2026-08-08T10:33:27.027Z",
+    "auditedPosts": 361,
     "includedPrivate": false,
     "slugFilter": "",
-    "bodyImages": 1308,
+    "bodyImages": 1310,
     "affectedPosts": 99,
     "critical": 0,
     "high": 0,
@@ -13707,6 +13707,31 @@
           "url": "/assets/images/business/coupang-company-deep-dive/coupang-reusable-bag.jpg",
           "alt": "A real Coupang-branded insulated grocery delivery bag, shown open, marked with Coupang and Rocket Fresh branding.",
           "caption": "Coupang's Rocket Fresh grocery delivery bag — one of several verticals the company has built on top of its core logistics network. Photo via Wikimedia Commons.",
+          "ext": ".jpg",
+          "exists": true
+        }
+      ],
+      "findings": []
+    },
+    {
+      "type": "business",
+      "slug": "cuckoo-rice-cooker-company-deep-dive",
+      "title": "Cuckoo Deep Dive: The Korean Rice Cooker That Outlived LG, Its Own Client",
+      "contentPath": "content\\business\\cuckoo-rice-cooker-company-deep-dive.md",
+      "sourceRecord": "public\\assets\\images\\business\\cuckoo-rice-cooker-company-deep-dive\\image-sources.md",
+      "imageCount": 2,
+      "images": [
+        {
+          "url": "/assets/images/business/cuckoo-rice-cooker-company-deep-dive/cuckoo-crp-pressure-official.jpg",
+          "alt": "CUCKOO twin-pressure rice cooker, official product image.",
+          "caption": "The premium pressure tier. The voice, the pressure mechanism, and the 압력 rice texture are the product's actual moat — a cooked-rice standard Korean households can hear.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/business/cuckoo-rice-cooker-company-deep-dive/cuckoo-cr-0655f-official.jpg",
+          "alt": "CUCKOO CR-0655F 6-cup micom rice cooker, official product image.",
+          "caption": "The CR-0655F, the US entry model. Cuckoo began selling through New York and LA distributors in 2002, opened Cuckoo Electronics America in Los Angeles in late 2016, and localises US models as \"multicookers\" rather than rice cookers.",
           "ext": ".jpg",
           "exists": true
         }
