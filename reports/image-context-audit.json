@@ -1,10 +1,10 @@
 {
   "summary": {
-    "generatedAt": "2026-08-08T01:20:04.736Z",
-    "auditedPosts": 355,
+    "generatedAt": "2026-08-08T01:50:24.999Z",
+    "auditedPosts": 356,
     "includedPrivate": false,
     "slugFilter": "",
-    "bodyImages": 1298,
+    "bodyImages": 1300,
     "affectedPosts": 99,
     "critical": 0,
     "high": 0,
@@ -13791,6 +13791,31 @@
           "url": "/assets/images/business/iconix-pororo-deep-dive/tayo-bus-rudolph-seoul.jpg",
           "alt": "A blue Seoul city bus on route 262 in Tayo livery, additionally fitted with reindeer antlers and a red nose for the Christmas season.",
           "caption": "The same programme at Christmas: route 262 with antlers and a red nose added on top of the Tayo face. Photo by 분당선M, CC BY-SA 3.0, via Wikimedia Commons.",
+          "ext": ".jpg",
+          "exists": true
+        }
+      ],
+      "findings": []
+    },
+    {
+      "type": "business",
+      "slug": "jmw-hair-dryer-company-deep-dive",
+      "title": "JMW Deep Dive: The Dryer in Every Korean Salon Does Not Have an Aircraft Motor",
+      "contentPath": "content\\business\\jmw-hair-dryer-company-deep-dive.md",
+      "sourceRecord": "public\\assets\\images\\business\\jmw-hair-dryer-company-deep-dive\\image-sources.md",
+      "imageCount": 2,
+      "images": [
+        {
+          "url": "/assets/images/business/jmw-hair-dryer-company-deep-dive/jmw-air-collection-ms8001a.jpg",
+          "alt": "JMW AIR COLLECTION MS8001A professional hair dryer, official product image.",
+          "caption": "JMW's flagship AIR COLLECTION dryer. The motor inside is a BLDC — brushless direct current — which is real engineering. The aircraft is a simile that escaped.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/business/jmw-hair-dryer-company-deep-dive/jmw-airjet-turbo-ms6020b.jpg",
+          "alt": "JMW AIRJET Turbo MS6020B hair dryer, official product image.",
+          "caption": "The AIRJET Turbo, the workhorse tier. JMW's own retail runs roughly ₩79,000 to ₩239,000 depending on line — professional pricing, not luxury pricing.",
           "ext": ".jpg",
           "exists": true
         }
