@@ -16,35 +16,14 @@
   "287": "home appliance (grills), not a food product"
  },
  "counts": {
-  "pending": 47,
-  "tier1": 4,
+  "pending": 46,
+  "tier1": 3,
   "tier2": 12,
   "tier3": 31,
-  "alreadyRefreshed": 29,
+  "alreadyRefreshed": 30,
   "excluded": 4
  },
  "queue": [
-  {
-   "slug": "279",
-   "title": "Korean Seaweed Snack Guide 2026: Gim, Laver, Rice Bowls",
-   "tier": 1,
-   "refreshedOn": null,
-   "specApplied": false,
-   "gaps": {
-    "won": 0,
-    "hangul": 0,
-    "yearInTitle": true,
-    "words": 2342
-   },
-   "gsc": {
-    "clicks": 0,
-    "impressions": 17,
-    "ctr": "0%",
-    "position": 15.35
-   },
-   "status": "pending",
-   "note": null
-  },
   {
    "slug": "277",
    "title": "Korean Pantry Starter Kit 2026: Sauces, Seaweed, Ramen, Rice",

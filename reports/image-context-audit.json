@@ -1,6 +1,6 @@
 {
   "summary": {
-    "generatedAt": "2026-08-07T23:59:11.718Z",
+    "generatedAt": "2026-08-08T00:20:14.391Z",
     "auditedPosts": 355,
     "includedPrivate": false,
     "slugFilter": "",
@@ -10332,36 +10332,36 @@
     {
       "type": "blog",
       "slug": "279",
-      "title": "Korean Seaweed Snack Guide 2026: Gim, Laver, Rice Bowls",
+      "title": "Korean Seaweed Snacks: Gim Is Called the Black Semiconductor, and the Price Doubled",
       "contentPath": "content\\blog\\279.md",
       "sourceRecord": "public\\assets\\images\\posts\\279\\image-sources.md",
       "imageCount": 4,
       "images": [
         {
           "url": "/assets/images/posts/279/korean-seaweed-gim-sheets.jpg",
-          "alt": "Korean gim sheets in a container, showing the crisp seaweed used for rice, snacks, and simple meals.",
-          "caption": "Korean gim works because it is small, salty, crisp, and useful: snack, rice companion, lunchbox side, and souvenir all in one category.",
+          "alt": "Korean gim sheets in a container, showing the crisp roasted seaweed used for rice, snacks and simple meals.",
+          "caption": "Gim is sold by processing stage, not by brand. Knowing which of the four stages you are holding is most of the shopping problem.",
           "ext": ".jpg",
           "exists": true
         },
         {
           "url": "/assets/images/posts/279/packed-korean-gim.jpg",
-          "alt": "A package of Korean gim with Hangul packaging, showing how seasoned laver is often sold for rice and snacks.",
-          "caption": "Packaging matters because snack gim, rice gim, gimbap sheets, and soup seaweed can look similar to beginners.",
+          "alt": "Packed Korean gim in small lunchbox-format sheets.",
+          "caption": "도시락김 — lunchbox gim. Small pre-cut sheets in single-serving packs, and the format that carried Korean seaweed into foreign supermarkets.",
           "ext": ".jpg",
           "exists": true
         },
         {
           "url": "/assets/images/posts/279/gimbap-seaweed-rolls.jpg",
-          "alt": "Freshly sliced gimbap rolls wrapped in gim, showing why rolling sheets are different from small snack packs.",
-          "caption": "Gimbap sheets have a job: hold rice and fillings together. They are not the same purchase as tiny lunchbox snack packs.",
+          "alt": "Gimbap rolls made with gimbap-gim sheets.",
+          "caption": "김밥김 is thicker and unseasoned because it has to survive rolling and slicing. Seasoned gim tears when you roll it — the oil is the reason.",
           "ext": ".jpg",
           "exists": true
         },
         {
           "url": "/assets/images/posts/279/gim-bugak-seaweed-chips.jpg",
-          "alt": "Crispy gim-bugak seaweed chips, a richer snack-style seaweed option compared with everyday rice gim.",
-          "caption": "Bugak-style seaweed chips are a snack lane, not a replacement for everyday rice gim.",
+          "alt": "Gim-bugak, seaweed coated in rice paste and fried.",
+          "caption": "김부각 is not a seaweed snack in the usual sense — it is gim coated in rice paste and fried, which makes it thick, loud and closer to a crisp.",
           "ext": ".jpg",
           "exists": true
         }
