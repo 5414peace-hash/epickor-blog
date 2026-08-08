@@ -1,10 +1,10 @@
 {
   "summary": {
-    "generatedAt": "2026-08-08T02:57:07.965Z",
-    "auditedPosts": 357,
+    "generatedAt": "2026-08-08T08:39:44.608Z",
+    "auditedPosts": 358,
     "includedPrivate": false,
     "slugFilter": "",
-    "bodyImages": 1302,
+    "bodyImages": 1304,
     "affectedPosts": 99,
     "critical": 0,
     "high": 0,
@@ -13796,6 +13796,31 @@
           "detail": "2 SVG body image(s); mixed-media use requires manual relevance review"
         }
       ]
+    },
+    {
+      "type": "business",
+      "slug": "hurom-slow-juicer-company-deep-dive",
+      "title": "Hurom Deep Dive: The Korean Company That Invented the Slow Juicer — and What Happens After Everyone Copies You",
+      "contentPath": "content\\business\\hurom-slow-juicer-company-deep-dive.md",
+      "sourceRecord": "public\\assets\\images\\business\\hurom-slow-juicer-company-deep-dive\\image-sources.md",
+      "imageCount": 2,
+      "images": [
+        {
+          "url": "/assets/images/business/hurom-slow-juicer-company-deep-dive/hurom-h400-official.jpg",
+          "alt": "Hurom H400 slow juicer, official product image with the Forbes Vetted 2024 award badge.",
+          "caption": "The current flagship H400. The award badge is real and current — the product is still excellent. The business around it is the complicated part.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/business/hurom-slow-juicer-company-deep-dive/hurom-h-aa-official.jpg",
+          "alt": "Hurom H-AA slow juicer, official product image.",
+          "caption": "The H-AA, the mid-2010s icon — the model most people picture when they picture a slow juicer, in the rose gold that furnished a thousand wellness Instagrams.",
+          "ext": ".jpg",
+          "exists": true
+        }
+      ],
+      "findings": []
     },
     {
       "type": "business",

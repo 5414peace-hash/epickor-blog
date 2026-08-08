@@ -4349,11 +4349,13 @@
         "CompanyDeepDive"
       ],
       "amazon_category": "varies",
-      "status": "approved",
+      "status": "done",
       "approved_date": "2026-08-08",
       "approved_by": "representative",
       "cycle": "2026-W33",
-      "notes": "APPROVED batch #2. Founded 1974 김영기, HQ 김해. World-first vertical slow juicer 2005 (SST tech 2003), 12M units / 80 countries / cumulative W2.18tn. Every slow juicer is a copy. Amazon direct. English content mostly own marketing (Worldfolio/Newsweek-insights are ad-adjacent) — independent editorial gap. VERIFY: patent war with NUC/Kuvings, current revenue, ownership."
+      "notes": "APPROVED batch #2. Founded 1974 김영기, HQ 김해. World-first vertical slow juicer 2005 (SST tech 2003), 12M units / 80 countries / cumulative W2.18tn. Every slow juicer is a copy. Amazon direct. English content mostly own marketing (Worldfolio/Newsweek-insights are ad-adjacent) — independent editorial gap. VERIFY: patent war with NUC/Kuvings, current revenue, ownership.",
+      "slug": "hurom-slow-juicer-company-deep-dive",
+      "completed_date": "2026-08-08"
     },
     {
       "id": 201,
