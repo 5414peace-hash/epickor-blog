@@ -1,6 +1,6 @@
 {
   "summary": {
-    "generatedAt": "2026-08-08T00:20:14.391Z",
+    "generatedAt": "2026-08-08T00:41:12.331Z",
     "auditedPosts": 355,
     "includedPrivate": false,
     "slugFilter": "",
@@ -10254,36 +10254,36 @@
     {
       "type": "blog",
       "slug": "277",
-      "title": "Korean Pantry Starter Kit 2026: Sauces, Seaweed, Ramen, Rice",
+      "title": "Korean Pantry Starter Kit: Gochujang Has a Printed Heat Number, and Nobody Tells You",
       "contentPath": "content\\blog\\277.md",
       "sourceRecord": "public\\assets\\images\\posts\\277\\image-sources.md",
       "imageCount": 4,
       "images": [
         {
           "url": "/assets/images/posts/277/gochujang-cheongyang-chili.jpg",
-          "alt": "A bowl of Korean gochujang beside Cheongyang chili peppers, showing the spicy sauce lane in a Korean pantry starter kit.",
-          "caption": "Gochujang is the most recognizable sauce in a beginner Korean pantry, but it works best when it sits beside rice, ssamjang, ramen, and simple meal bases.",
-          "ext": ".jpg",
-          "exists": true
-        },
-        {
-          "url": "/assets/images/posts/277/korean-bap-cooked-rice.jpg",
-          "alt": "A bowl of cooked Korean rice, the base that makes sauces, gim, eggs, and stews work together in a starter pantry.",
-          "caption": "Rice is the quiet anchor of a Korean pantry starter kit. Buy sauces after you know what they will land on.",
+          "alt": "Cheongyang chili peppers beside gochujang.",
+          "caption": "Gochujang is the anchor purchase and the one most likely to be bought at the wrong heat level. The grade is on the tub — you just have to know it is there.",
           "ext": ".jpg",
           "exists": true
         },
         {
           "url": "/assets/images/posts/277/ssam-vegetables-ssamjang.jpg",
-          "alt": "Fresh ssam vegetables with small bowls of ssamjang and Korean dipping sauces for a home wrap setup.",
-          "caption": "Ssamjang is not just another red sauce. It belongs with lettuce, rice, grilled food, tofu, or vegetables in small, savory amounts.",
+          "alt": "Ssam vegetables served with ssamjang.",
+          "caption": "쌈장 is gochujang and doenjang already blended for dipping. Convenient, and the reason you can skip buying doenjang separately at first.",
           "ext": ".jpg",
           "exists": true
         },
         {
           "url": "/assets/images/posts/277/shin-ramyun-starter-pack.jpg",
-          "alt": "A bowl of Korean ramyun, showing the quick-meal lane that gives a pantry starter kit immediate payoff.",
-          "caption": "A repeatable starter shelf needs at least one low-effort meal, not only sauces that require a full cooking plan.",
+          "alt": "Nongshim Shin Ramyun packets.",
+          "caption": "Instant ramyun is the one category where buying a big pack early is safe — but only after you know which one you like.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/277/korean-bap-cooked-rice.jpg",
+          "alt": "A bowl of cooked Korean short-grain rice.",
+          "caption": "밥 is the base the whole shelf reports to. A rice cooker earns its counter space faster than any sauce.",
           "ext": ".jpg",
           "exists": true
         }

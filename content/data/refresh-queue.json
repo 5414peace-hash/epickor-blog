@@ -16,35 +16,14 @@
   "287": "home appliance (grills), not a food product"
  },
  "counts": {
-  "pending": 46,
-  "tier1": 3,
+  "pending": 45,
+  "tier1": 2,
   "tier2": 12,
   "tier3": 31,
-  "alreadyRefreshed": 30,
+  "alreadyRefreshed": 31,
   "excluded": 4
  },
  "queue": [
-  {
-   "slug": "277",
-   "title": "Korean Pantry Starter Kit 2026: Sauces, Seaweed, Ramen, Rice",
-   "tier": 1,
-   "refreshedOn": null,
-   "specApplied": false,
-   "gaps": {
-    "won": 0,
-    "hangul": 0,
-    "yearInTitle": true,
-    "words": 2911
-   },
-   "gsc": {
-    "clicks": 1,
-    "impressions": 13,
-    "ctr": "7.69%",
-    "position": 9.54
-   },
-   "status": "pending",
-   "note": null
-  },
   {
    "slug": "335",
    "title": "Korean Convenience Store Ice Cream, Ranked",
