@@ -21,7 +21,7 @@ ko_line: 휴롬 · 김해 2005
 stamp: GIMHAE, 2005
 
 **Main:** EVERY SLOW JUICER\nON EARTH IS A COPY
-**Sub:** Every cold-press machine on Amazon descends from one gadget a company in Gimhae, Korea shipped in 2005. This is what happens after you invent a category — including the ending nobody markets.
+**Sub:** Every cold-press machine on Amazon descends from one gadget a company in Gimhae, Korea shipped in 2005. This is what happens after you invent a category, including the ending nobody markets.
 
 ---
 
@@ -34,7 +34,7 @@ image_label: Hurom H-AA slow juicer, official product image
 name_en: Ten years, thousands\nof failed prototypes
 name_ko: 원액기
 
-**Sub:** Founder Kim Young-ki wanted juice that tasted hand-squeezed. No fast blades, no heat, less oxidation — squeeze slowly instead. In 2005 Hurom shipped the world's first vertical slow juicer, and a category that didn't exist was born.
+**Sub:** Founder Kim Young-ki wanted juice that tasted hand-squeezed: no fast blades, no heat, just a slow, patient press. In 2005 Hurom shipped the world's first vertical slow juicer, and a category that didn't exist was born.
 
 ---
 
@@ -45,7 +45,7 @@ num: 12M
 num_label: units · 80 countries · ₩2.18 trillion cumulative
 stamp: CATEGORY: CREATED
 
-**Sub:** The market agreed at scale. Exports took off in 2009 — Australia and the UK first — and by the mid-2010s the slow juicer was a global category with Hurom's silhouette at the center of it.
+**Sub:** The market agreed at scale. Exports took off in 2009, Australia and the UK first, and by the mid-2010s the slow juicer was a global category with Hurom's silhouette at the center of it.
 
 ---
 
@@ -59,7 +59,7 @@ name_en: You can't patent\n"squeeze slowly"
 name_ko: 특허
 note: Korea's fiercest competition is usually Korean.
 
-**Sub:** Only specific mechanisms can be owned — and Hurom's fiercest rival wasn't Chinese. Kuvings, another Korean maker from Daegu, engineered around the claims with the same suppliers, the same talent pool, at full speed.
+**Sub:** Only specific mechanisms can be owned, and Hurom's fiercest rival wasn't Chinese. Kuvings, another Korean maker from Daegu, engineered around the claims with the same suppliers and the same talent pool, at full speed.
 
 ---
 
@@ -67,7 +67,7 @@ note: Korea's fiercest competition is usually Korean.
 mode: number
 kicker: THE VERDICT · 2025
 num: −15.2%
-num_label: revenue in one year — and the key patent died in court
+num_label: revenue in one year, and the key patent died in court
 stamp: UPC RULING
 
 **Sub:** A European court voided Hurom's core patent as "not substantially different" from published designs. The continent opened, revenue slid, operating profit went negative. The inventor now holds a shrinking piece of its own invention.
@@ -82,9 +82,9 @@ image: sources/card_h200.jpg
 image_label: Hurom H200 easy-clean slow juicer, official product image
 name_en: A world-first is\nnot an annuity
 name_ko: 발명 ≠ 연금
-note: Hurom still holds the home field — its Korean ruling against the rival stands.
+note: Hurom still holds the home field. Its Korean ruling against the rival stands.
 
-**Sub:** Hurom turned invention into a decade of dominance — a real win. But when the patents thinned, the category outgrew its creator. If you're ever licensing Korean tech: price the claims, not the story.
+**Sub:** Hurom turned invention into a decade of dominance, a real win. But when the patents thinned, the category outgrew its creator. If you ever license Korean tech, price the claims, not the story.
 
 ---
 
@@ -95,4 +95,4 @@ image: sources/card_cp50-commercial.jpg
 image_label: Hurom CP50 commercial slow juicer, official product image
 
 **Main:** THE JUICE WARS,\nGIMHAE VS DAEGU
-**Sub:** Which machine wins on yield and cleanup, what the ruling means for buyers, and the full 20-year arc — search "Hurom" on epickor.com.
+**Sub:** Which machine wins on yield and cleanup, what the ruling means for buyers, and the full 20-year arc. Search "Hurom" on epickor.com.

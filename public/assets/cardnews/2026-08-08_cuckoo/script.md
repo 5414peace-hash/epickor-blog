@@ -21,7 +21,7 @@ ko_line: 쿠쿠 · 양산 1978
 stamp: A TRUE STORY
 
 **Main:** LG QUIT.\nTHE FACTORY DIDN'T.
-**Sub:** 1997. Korea's worst crisis in decades. A giant walks away from rice cookers — and leaves the tiny factory that built them all for dead. At least, that's how it looked.
+**Sub:** 1997. Korea's worst crisis in decades. A giant walks away from rice cookers and leaves the tiny factory that built them all for dead. At least, that's how it looked.
 
 ---
 
@@ -48,7 +48,7 @@ name_en: Then the client\nwalked away
 name_ko: 1997
 note: For a factory with one customer, this is usually where the story ends.
 
-**Sub:** The IMF crisis hit, and Korea's giants started cutting anything that wasn't core. LG cut rice cookers. Just like that, the factory in Yangsan was holding twenty years of skill — and zero orders.
+**Sub:** The IMF crisis hit, and Korea's giants started cutting anything that wasn't core. LG cut rice cookers. Just like that, the factory in Yangsan was holding twenty years of skill and zero orders.
 
 ---
 
@@ -59,7 +59,7 @@ num: 98%
 num_label: of Korean homes already owned a rice cooker
 stamp: WORST TIMING EVER?
 
-**Sub:** So what did they do? Mid-crisis, they bet everything on their own name — in a market where everyone already owned the product. Sounds insane. But they knew one thing nobody else did: the best cooker in Korea was already theirs. Only the label wasn't.
+**Sub:** Mid-crisis, the factory bet everything on its own name, in a market where everyone already owned the product. It sounds insane, until you remember what they knew: the best cooker in Korea was already theirs. Only the label wasn't.
 
 ---
 
@@ -70,7 +70,7 @@ num: 70%+
 num_label: of Korea cooks rice on a Cuckoo
 stamp: LG NEVER CAME BACK
 
-**Sub:** The no-name factory became the name. Their cookers even talk — in a cheerful voice Koreans abroad say sounds like home. In 2025, a New York art show was built entirely around that voice.
+**Sub:** The no-name factory became the name. Their cookers even talk, in a cheerful voice Koreans abroad say sounds like home. In 2025, a New York art show was built entirely around that voice.
 
 ---
 
@@ -86,7 +86,7 @@ num: ₩1.06T
 num_label: RENTAL REVENUE, 2024
 note: Water purifiers on subscription now out-earn the machine that made the name.
 
-**Sub:** Here's the part nobody sees: the cooker built the brand, but subscriptions pay the bills. The old subcontractor now runs a rental empire from Seoul to Kuala Lumpur.
+**Sub:** The quiet truth: the cooker built the brand, but subscriptions pay the bills. The old subcontractor now runs a rental empire from Seoul to Kuala Lumpur.
 
 ---
 
@@ -97,4 +97,4 @@ image: sources/card_crp-st0609.jpg
 image_label: Cuckoo CRP pressure cooker, official cutout
 
 **Main:** THE SUITCASE ERA,\nTHE TALKING COOKER
-**Sub:** Why Koreans hand-carried 220V cookers across oceans, what that voice actually says, and which model the 70% actually buy — search "Cuckoo" on epickor.com.
+**Sub:** Why Koreans hand-carried 220V cookers across oceans, what that voice actually says, and which model the 70% actually buy. Search "Cuckoo" on epickor.com.

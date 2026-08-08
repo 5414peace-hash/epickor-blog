@@ -22,7 +22,7 @@ ko_line: 삼익악기 · 인천 · 1958
 stamp: HALF THE WORLD'S GUITARS
 
 **Main:** YOUR GUITAR MIGHT\nBE KOREAN
-**Sub:** That beat-up '80s Epiphone you love? Real chance it was born in Incheon — in a factory that built half the guitars on Earth.
+**Sub:** That beat-up '80s Epiphone you love? There's a real chance it was born in Incheon, in a factory that built half the guitars on Earth.
 
 ---
 
@@ -36,7 +36,7 @@ image_label: 1980s Hondo bass, Korean-built era
 name_en: Epiphone. Squier.\nHondo. Washburn.
 name_ko: 헤드스톡의 이름들
 
-**Sub:** In 1984, Epiphone quietly moved production from Japan to Korea. Two years later, the first Korean Squiers showed up. Different logos, wildly different price tags — and very often? Same hands.
+**Sub:** In 1984, Epiphone quietly moved production from Japan to Korea. Two years later, the first Korean Squiers showed up. The logos were different, the price tags wildly so. The hands that built them, very often, were the same.
 
 ---
 
@@ -50,7 +50,7 @@ image_label: Samick pedal steel guitar
 ko_line: 삼익악기
 name_en: Those hands\nbelonged to Samick
 name_ko: 삼익악기
-note: Started in 1958 selling American pianos. Guitars came in 1965 — at the cheapest end of the market.
+note: Started in 1958 selling American pianos. Guitars came in 1965, at the cheapest end of the market.
 
 **Sub:** Samick climbed one rung at a time: selling pianos, building pianos, then picking up the phone whenever a Western brand found Japan too expensive. Guitar nerds pieced it together decades later, one serial number at a time.
 
@@ -63,7 +63,7 @@ num: ~50%
 num_label: of the world's guitars, built by one company
 stamp: WORLD NO.1
 
-**Sub:** By 1994, one in every two guitars on the planet passed through Samick's hands. And almost none of them said Samick anywhere. The biggest guitar maker in history — and most guitarists had never heard the name.
+**Sub:** By 1994, one in every two guitars on the planet passed through Samick's hands. And almost none of them said Samick anywhere. The biggest guitar maker in history was a company most guitarists had never heard of.
 
 ---
 
@@ -79,7 +79,7 @@ name_ko: 부도
 num: ₩2.7B
 num_label: THE BOUNCED NOTE THAT DID IT
 
-**Sub:** It wasn't bad guitars that killed them. It was 1990s Korea — debt everywhere, tangled affiliates, and one bounced note worth about 0.1% of today's revenue. That's all it took to put the world's biggest guitar maker into receivership.
+**Sub:** It wasn't bad guitars that killed them. It was 1990s Korea: debt everywhere, tangled affiliates, and one bounced note worth about 0.1% of today's revenue. That was enough to put the world's biggest guitar maker into receivership.
 
 ---
 
@@ -94,7 +94,7 @@ name_en: One dollar short\nof Steinway
 name_ko: 스타인웨이
 note: Consolation prize: Seiler, Germany's 170-year-old piano house. Samick kept it.
 
-**Sub:** Here's the wild part. Samick came back, went upmarket, and bid to buy Steinway — the Steinway — at $39 a share. A hedge-fund billionaire answered: $40. The budget-guitar factory missed the most famous name in music by one dollar.
+**Sub:** Then came the wildest chapter. Samick returned, went upmarket, and bid $39 a share to buy Steinway. Yes, that Steinway. A hedge-fund billionaire answered with $40, and the budget-guitar factory missed the most famous name in music by a single dollar.
 
 ---
 
@@ -105,4 +105,4 @@ image: sources/card_jtr-elvira-body.jpg
 image_label: Samick JTR guitar body, detail crop
 
 **Main:** CHECK YOUR\nHEADSTOCK
-**Sub:** Serial-number detectives can trace your guitar to the exact factory. We wrote down how — search "Samick" on epickor.com.
+**Sub:** Serial-number detectives can trace your guitar to the exact factory. We wrote down exactly how. Search "Samick" on epickor.com.
