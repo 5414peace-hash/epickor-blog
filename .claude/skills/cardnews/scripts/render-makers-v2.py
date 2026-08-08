@@ -27,7 +27,7 @@ SCRIPT_DIR = Path(__file__).parent
 ROOT = (SCRIPT_DIR / '../../../../').resolve()
 
 KEYS = ('kicker', 'image', 'image_label', 'name_ko', 'name_en', 'num',
-        'num_label', 'stamp', 'note', 'mode', 'fit', 'accent', 'ko_line')
+        'num_label', 'stamp', 'note', 'mode', 'fit', 'accent', 'ko_line', 'verdict')
 
 
 def esc(text):
@@ -695,10 +695,650 @@ def build_homedrama(meta, card, index, total):
   {hd_watermark()}'''
 
 
+# ============================================================ NOTEBOOK (monami)
+
+NB_PAPER = '#FBF8F1'
+NB_INK = '#26241F'
+NB_INK70 = 'rgba(38,36,31,0.72)'
+NB_INK45 = 'rgba(38,36,31,0.45)'
+NB_BLUE = '#1B3FAB'
+NB_RED = '#D23B2E'
+NB_LINE = 'rgba(27,63,171,0.13)'
+NB_SANS = "'Segoe UI',Arial,sans-serif"
+NB_HAND = "'Ink Free','Segoe Print','Segoe UI',cursive"
+NB_MONO = "'Consolas','Courier New',monospace"
+NB_KO = "'Malgun Gothic','Segoe UI',sans-serif"
+
+
+def nb_ground():
+    return f'''
+  <div style="position:absolute;inset:0;background:{NB_PAPER};"></div>
+  <div style="position:absolute;inset:0;background:
+    repeating-linear-gradient(180deg,transparent 0 45px,{NB_LINE} 45px 46.5px);"></div>
+  <div style="position:absolute;left:118px;top:0;bottom:0;width:1.5px;
+    background:rgba(210,59,46,0.45);"></div>'''
+
+
+def nb_watermark():
+    return f'''
+  <div style="position:absolute;left:52px;top:34px;z-index:30;display:flex;align-items:center;gap:12px;">
+    <div style="width:30px;height:30px;border:2.5px solid {NB_INK};display:flex;align-items:center;
+      justify-content:center;font-family:{NB_SANS};font-size:12px;font-weight:900;color:{NB_INK};
+      background:#FFFFFF;">EK</div>
+    <div style="font-family:{NB_SANS};font-size:14px;font-weight:900;letter-spacing:0.24em;
+      color:{NB_INK};">EPICKOR.COM</div>
+  </div>'''
+
+
+def nb_tally(index):
+    """바를 정(正)식 획 진행표시 — 5획 묶음(세로 4 + 사선 1) + 나머지."""
+    groups = []
+    left = index
+    while left > 0:
+        n = min(left, 5)
+        bars = ''.join(f'<div style="width:4px;height:26px;background:{NB_INK};"></div>' for _ in range(min(n, 4)))
+        cross = ('<div style="position:absolute;left:-4px;top:10px;width:44px;height:4px;'
+                 f'background:{NB_INK};transform:rotate(-24deg);"></div>') if n == 5 else ''
+        groups.append(f'<div style="position:relative;display:flex;gap:7px;">{bars}{cross}</div>')
+        left -= n
+    return f'<div style="display:flex;gap:16px;align-items:center;">{"".join(groups)}</div>'
+
+
+def nb_foot(index, total):
+    return f'''
+  <div style="position:absolute;left:52px;right:52px;top:1008px;z-index:26;
+    border-top:2px solid rgba(38,36,31,0.22);padding-top:11px;display:flex;
+    justify-content:space-between;align-items:center;">
+    <div style="font-family:{NB_MONO};font-size:12px;font-weight:700;letter-spacing:0.2em;
+      color:{NB_INK45};">MONAMI — KOREAN MAKERS · FILE 04</div>
+    {nb_tally(index)}
+    <div style="font-family:{NB_MONO};font-size:12px;font-weight:700;letter-spacing:0.2em;
+      color:{NB_INK45};">p.{index:02d} / {total:02d}</div>
+  </div>'''
+
+
+def nb_kicker(text):
+    return f'''<div style="font-family:{NB_HAND};font-size:26px;font-weight:700;
+      color:{NB_RED};letter-spacing:0.04em;">{text}</div>'''
+
+
+def nb_stamp(text):
+    if not text:
+        return ''
+    return f'''<div style="display:inline-block;transform:rotate(-3deg);border:3px double {NB_RED};
+      color:{NB_RED};font-family:{NB_MONO};font-weight:700;font-size:17px;letter-spacing:0.16em;
+      padding:8px 16px;border-radius:4px;opacity:0.9;">{text}</div>'''
+
+
+def nb_photo(card, w, h):
+    if not card['image']:
+        return ''
+    fitmode = ('width:100%;height:100%;object-fit:cover;' if card['fit'] == 'cover'
+               else 'max-width:100%;max-height:100%;object-fit:contain;')
+    return f'''
+  <div style="width:{w}px;position:relative;">
+    <div style="background:#FFFFFF;padding:12px;box-shadow:0 12px 30px rgba(38,36,31,0.18);">
+      <div style="height:{h}px;overflow:hidden;display:flex;align-items:center;justify-content:center;">
+        <img src="{card['image']}" alt="{card['image_label']}" style="{fitmode}display:block;"></div>
+    </div>
+    <div style="position:absolute;left:50%;top:-14px;width:130px;height:30px;margin-left:-65px;
+      background:rgba(233,222,187,0.88);transform:rotate(-3deg);
+      box-shadow:0 2px 6px rgba(38,36,31,0.12);"></div>
+    <div style="margin-top:12px;font-family:{NB_MONO};font-size:12px;font-weight:700;
+      letter-spacing:0.08em;color:{NB_INK45};text-transform:uppercase;
+      line-height:1.4;">{card['image_label']}</div>
+  </div>'''
+
+
+def nb_koline(card):
+    if not card['ko_line']:
+        return ''
+    return f'''
+  <div style="position:absolute;left:56px;top:0;bottom:0;z-index:24;display:flex;
+    align-items:center;justify-content:center;">
+    <div style="writing-mode:vertical-rl;font-family:{NB_KO};font-size:14px;font-weight:600;
+      letter-spacing:0.4em;color:rgba(27,63,171,0.6);">{card['ko_line']}</div>
+  </div>'''
+
+
+def build_notebook(meta, card, index, total):
+    mode = card['mode']
+
+    if mode == 'cover':
+        return f'''
+  {nb_ground()}
+  {nb_koline(card)}
+  <div data-flow="1" style="position:absolute;left:180px;right:120px;top:104px;height:880px;
+    z-index:20;display:flex;flex-direction:column;align-items:center;justify-content:center;
+    gap:24px;text-align:center;">
+    {nb_kicker(card['kicker'])}
+    <div style="font-family:{NB_SANS};font-size:{fit_size(card['main'], 760, 82, 0.68)}px;
+      font-weight:900;color:{NB_INK};line-height:1.06;letter-spacing:-0.015em;">{esc(card['main'])}</div>
+    <div style="width:150px;height:5px;background:{NB_BLUE};border-radius:99px;"></div>
+    <div style="font-family:{NB_SANS};font-weight:500;font-size:24px;color:{NB_INK70};
+      line-height:1.5;max-width:700px;">{esc(card['sub'])}</div>
+    {nb_stamp(card['stamp'])}
+    {nb_photo(card, 470, 240)}
+  </div>
+  {nb_foot(index, total)}
+  {nb_watermark()}'''
+
+    if mode == 'number':
+        note = ''
+        if card['note']:
+            note = f'''
+    <div style="font-family:{NB_HAND};font-size:23px;font-weight:700;color:{NB_RED};
+      line-height:1.35;max-width:720px;">{esc(card['note'])}</div>'''
+        return f'''
+  {nb_ground()}
+  {nb_koline(card)}
+  <div data-flow="1" style="position:absolute;left:180px;right:120px;top:110px;height:870px;
+    z-index:20;display:flex;flex-direction:column;align-items:center;justify-content:center;
+    gap:22px;text-align:center;">
+    {nb_kicker(card['kicker'])}
+    <div style="font-family:{NB_SANS};font-size:{fit_size(card['num'], 720, 250, 0.62)}px;
+      font-weight:900;color:{NB_BLUE};line-height:0.98;letter-spacing:-0.03em;
+      font-variant-numeric:tabular-nums;">{esc(card['num'])}</div>
+    <div style="font-family:{NB_SANS};font-size:29px;font-weight:800;color:{NB_INK};
+      line-height:1.3;max-width:740px;">{esc(card['num_label'])}</div>
+    <div style="font-family:{NB_SANS};font-weight:500;font-size:23px;color:{NB_INK70};
+      line-height:1.52;max-width:740px;">{esc(card['sub'])}</div>
+    {note}
+    {nb_stamp(card['stamp'])}
+  </div>
+  {nb_foot(index, total)}
+  {nb_watermark()}'''
+
+    if mode == 'end':
+        return f'''
+  {nb_ground()}
+  {nb_koline(card)}
+  <div data-flow="1" style="position:absolute;left:180px;right:120px;top:104px;height:880px;
+    z-index:20;display:flex;flex-direction:column;align-items:center;justify-content:center;
+    gap:24px;text-align:center;">
+    {nb_kicker(card['kicker'])}
+    <div style="font-family:{NB_SANS};font-size:{fit_size(card['main'], 740, 74, 0.68)}px;
+      font-weight:900;color:{NB_INK};line-height:1.06;">{esc(card['main'])}</div>
+    <div style="font-family:{NB_SANS};font-weight:500;font-size:23px;color:{NB_INK70};
+      line-height:1.5;max-width:700px;">{esc(card['sub'])}</div>
+    {nb_photo(card, 440, 230)}
+    <div style="background:{NB_BLUE};color:#FFFFFF;font-family:{NB_SANS};font-weight:900;
+      font-size:27px;letter-spacing:0.1em;padding:16px 42px;">EPICKOR.COM</div>
+  </div>
+  {nb_foot(index, total)}
+  {nb_watermark()}'''
+
+    # item: text left, taped photo right
+    head = card['name_en'] or card['main']
+    num_block = ''
+    if card['num']:
+        num_block = f'''
+    <div style="font-family:{NB_SANS};font-size:{fit_size(card['num'], 430, 84, 0.62)}px;
+      font-weight:900;color:{NB_BLUE};line-height:1;font-variant-numeric:tabular-nums;">{esc(card['num'])}</div>
+    <div style="font-family:{NB_MONO};font-size:14px;font-weight:700;letter-spacing:0.16em;
+      color:{NB_INK};text-transform:uppercase;">{esc(card['num_label'])}</div>'''
+    note = ''
+    if card['note']:
+        note = f'''
+    <div style="font-family:{NB_HAND};font-size:22px;font-weight:700;color:{NB_RED};
+      line-height:1.35;">{esc(card['note'])}</div>'''
+    return f'''
+  {nb_ground()}
+  {nb_koline(card)}
+  <div style="position:absolute;left:170px;right:84px;top:110px;height:870px;z-index:20;
+    display:flex;align-items:center;gap:44px;">
+    <div data-flow="1" style="flex:1.1;display:flex;flex-direction:column;gap:19px;min-width:0;">
+      {nb_kicker(card['kicker'])}
+      <div style="font-family:{NB_SANS};font-size:{fit_size(head, 460, 54, 0.68)}px;
+        font-weight:900;color:{NB_INK};line-height:1.12;letter-spacing:-0.01em;">{esc(head)}</div>
+      <div style="width:120px;height:4px;background:{NB_BLUE};border-radius:99px;"></div>
+      <div style="font-family:{NB_SANS};font-weight:500;font-size:21.5px;color:{NB_INK70};
+        line-height:1.52;">{esc(card['sub'])}</div>
+      {num_block}
+      {note}
+    </div>
+    <div data-flow="1" style="flex:0 0 400px;">{nb_photo(card, 400, 460)}</div>
+  </div>
+  {nb_foot(index, total)}
+  {nb_watermark()}'''
+
+
+# ============================================================ WINDTUNNEL (jmw)
+
+WT_BG = '#191C20'
+WT_LIGHT = '#ECEFF2'
+WT_MUTE = 'rgba(236,239,242,0.62)'
+WT_MUTE35 = 'rgba(236,239,242,0.36)'
+WT_ORANGE = '#FF7A3D'
+WT_RING = 'rgba(236,239,242,0.09)'
+WT_DISPLAY = "'Segoe UI Black','Segoe UI',Arial,sans-serif"
+WT_SANS = "'Segoe UI',Arial,sans-serif"
+WT_MONO = "'Consolas','Courier New',monospace"
+WT_KO = "'Malgun Gothic','Segoe UI',sans-serif"
+
+
+def wt_ground(cx=810, cy=430):
+    rings = ''.join(
+        f'<div style="position:absolute;left:{cx - r}px;top:{cy - r}px;width:{2*r}px;height:{2*r}px;'
+        f'border:1.5px solid {WT_RING};border-radius:50%;"></div>'
+        for r in (150, 260, 380, 510))
+    return f'''
+  <div style="position:absolute;inset:0;background:
+    radial-gradient(circle at 68% 34%, #22262C 0%, {WT_BG} 55%, #131519 100%);"></div>
+  {rings}'''
+
+
+def wt_watermark():
+    return f'''
+  <div style="position:absolute;left:56px;top:48px;z-index:30;display:flex;align-items:center;gap:12px;">
+    <div style="width:30px;height:30px;border:2.5px solid {WT_LIGHT};display:flex;align-items:center;
+      justify-content:center;font-family:{WT_SANS};font-size:12px;font-weight:900;
+      color:{WT_LIGHT};">EK</div>
+    <div style="font-family:{WT_SANS};font-size:14px;font-weight:900;letter-spacing:0.24em;
+      color:{WT_LIGHT};">EPICKOR.COM</div>
+  </div>'''
+
+
+def wt_power(index, total):
+    bars = ''.join(
+        f'<div style="width:6px;height:{10 + d * 2.4}px;'
+        + (f'background:{WT_ORANGE};' if d <= index else f'background:{WT_MUTE35};')
+        + 'border-radius:2px;"></div>'
+        for d in range(1, total + 1))
+    return f'<div style="display:flex;gap:6px;align-items:flex-end;">{bars}</div>'
+
+
+def wt_foot(index, total):
+    return f'''
+  <div style="position:absolute;left:56px;right:56px;top:1010px;z-index:26;
+    border-top:1.5px solid rgba(236,239,242,0.2);padding-top:11px;display:flex;
+    justify-content:space-between;align-items:center;">
+    <div style="font-family:{WT_MONO};font-size:12px;font-weight:700;letter-spacing:0.22em;
+      color:{WT_MUTE35};">JMW — KOREAN MAKERS · FILE 05</div>
+    {wt_power(index, total)}
+    <div style="font-family:{WT_MONO};font-size:12px;font-weight:700;letter-spacing:0.22em;
+      color:{WT_MUTE};">{index:02d} / {total:02d}</div>
+  </div>'''
+
+
+def wt_micro(text, color=WT_ORANGE):
+    return f'''<div style="font-family:{WT_MONO};font-weight:700;font-size:15px;
+      letter-spacing:0.3em;color:{color};text-transform:uppercase;">{text}</div>'''
+
+
+def wt_verdict(card):
+    # NOTE: chips inside a left-aligned flex column must carry align-self:flex-start,
+    # or the column's default `stretch` pulls them to full width.
+    v = card['verdict']
+    if v == 'myth':
+        return f'''<div style="position:relative;display:inline-block;align-self:flex-start;border:2.5px solid {WT_MUTE35};
+      color:{WT_MUTE};font-family:{WT_DISPLAY};font-style:italic;font-size:19px;
+      letter-spacing:0.22em;padding:8px 20px;">MYTH
+      <div style="position:absolute;left:-6px;right:-6px;top:50%;height:3px;
+        background:#D8422F;transform:rotate(-6deg);"></div></div>'''
+    if v == 'fact':
+        return f'''<div style="display:inline-block;align-self:flex-start;background:{WT_ORANGE};color:{WT_BG};
+      font-family:{WT_DISPLAY};font-style:italic;font-size:19px;letter-spacing:0.22em;
+      padding:9px 22px;">FACT</div>'''
+    return ''
+
+
+def wt_stamp(text):
+    if not text:
+        return ''
+    return f'''<div style="display:inline-block;align-self:flex-start;border:2.5px solid {WT_ORANGE};color:{WT_ORANGE};
+      font-family:{WT_MONO};font-weight:700;font-size:16px;letter-spacing:0.2em;
+      padding:9px 18px;">{text}</div>'''
+
+
+def wt_circle(card, d):
+    if not card['image']:
+        return ''
+    return f'''
+  <div style="width:{d + 34}px;">
+    <div style="width:{d + 34}px;height:{d + 34}px;border:1.5px solid rgba(255,122,61,0.55);
+      border-radius:50%;display:flex;align-items:center;justify-content:center;">
+      <div style="width:{d}px;height:{d}px;border-radius:50%;background:#FFFFFF;overflow:hidden;
+        display:flex;align-items:center;justify-content:center;
+        box-shadow:0 20px 60px rgba(0,0,0,0.5);">
+        <img src="{card['image']}" alt="{card['image_label']}"
+          style="max-width:86%;max-height:86%;object-fit:contain;display:block;"></div>
+    </div>
+    <div style="margin-top:14px;font-family:{WT_MONO};font-size:12px;font-weight:700;
+      letter-spacing:0.08em;color:{WT_MUTE35};text-transform:uppercase;text-align:center;
+      line-height:1.4;">{card['image_label']}</div>
+  </div>'''
+
+
+def wt_koline(card):
+    if not card['ko_line']:
+        return ''
+    return f'''
+  <div style="position:absolute;right:58px;top:0;bottom:0;z-index:24;display:flex;
+    align-items:center;">
+    <div style="writing-mode:vertical-rl;font-family:{WT_KO};font-size:13px;font-weight:600;
+      letter-spacing:0.42em;color:{WT_MUTE35};">{card['ko_line']}</div>
+  </div>'''
+
+
+def build_windtunnel(meta, card, index, total):
+    mode = card['mode']
+
+    if mode == 'cover':
+        # full-width headline on top, then sub text beside the product circle —
+        # a narrow column can't hold the italic display caps without widows.
+        return f'''
+  {wt_ground()}
+  {wt_koline(card)}
+  <div data-flow="1" style="position:absolute;left:88px;right:100px;top:118px;height:864px;
+    z-index:20;display:flex;flex-direction:column;gap:26px;justify-content:center;">
+    {wt_micro(card['kicker'], WT_MUTE)}
+    <div style="font-family:{WT_DISPLAY};font-style:italic;
+      font-size:{fit_size(card['main'], 860, 82, 0.75)}px;color:{WT_LIGHT};line-height:1.05;
+      letter-spacing:-0.01em;text-transform:uppercase;">{esc(card['main'])}</div>
+    <div style="display:flex;align-items:center;gap:16px;">
+      <div style="width:54px;height:3px;background:{WT_ORANGE};"></div>
+      {wt_micro(card['stamp'])}
+    </div>
+    <div style="display:flex;align-items:center;gap:44px;">
+      <div style="flex:1;font-family:{WT_SANS};font-weight:400;font-size:23px;color:{WT_MUTE};
+        line-height:1.55;">{esc(card['sub'])}</div>
+      <div style="flex:0 0 360px;">{wt_circle(card, 326)}</div>
+    </div>
+  </div>
+  {wt_foot(index, total)}
+  {wt_watermark()}'''
+
+    if mode == 'number':
+        return f'''
+  {wt_ground(cx=880, cy=320)}
+  {wt_koline(card)}
+  <div data-flow="1" style="position:absolute;left:96px;right:130px;top:130px;height:850px;
+    z-index:20;display:flex;flex-direction:column;gap:26px;justify-content:center;">
+    {wt_micro(card['kicker'], WT_MUTE)}
+    <div style="font-family:{WT_DISPLAY};font-style:italic;
+      font-size:{fit_size(card['num'], 800, 300, 0.6)}px;color:{WT_LIGHT};line-height:0.95;
+      letter-spacing:-0.02em;font-variant-numeric:tabular-nums;">{esc(card['num'])}</div>
+    <div style="font-family:{WT_SANS};font-weight:700;font-size:27px;color:{WT_ORANGE};
+      line-height:1.35;max-width:760px;">{esc(card['num_label'])}</div>
+    <div style="font-family:{WT_SANS};font-weight:400;font-size:23px;color:{WT_MUTE};
+      line-height:1.55;max-width:760px;">{esc(card['sub'])}</div>
+    {wt_stamp(card['stamp'])}
+  </div>
+  {wt_foot(index, total)}
+  {wt_watermark()}'''
+
+    if mode == 'end':
+        return f'''
+  {wt_ground(cx=540, cy=760)}
+  {wt_koline(card)}
+  <div data-flow="1" style="position:absolute;left:110px;right:110px;top:100px;height:890px;
+    z-index:20;display:flex;flex-direction:column;align-items:center;justify-content:center;
+    gap:24px;text-align:center;">
+    {wt_micro(card['kicker'], WT_MUTE)}
+    <div style="font-family:{WT_DISPLAY};font-style:italic;
+      font-size:{fit_size(card['main'], 800, 70, 0.75)}px;color:{WT_LIGHT};line-height:1.06;
+      text-transform:uppercase;">{esc(card['main'])}</div>
+    <div style="font-family:{WT_SANS};font-weight:400;font-size:22px;color:{WT_MUTE};
+      line-height:1.52;max-width:700px;">{esc(card['sub'])}</div>
+    {wt_circle(card, 300)}
+    <div style="background:{WT_ORANGE};color:{WT_BG};font-family:{WT_DISPLAY};font-style:italic;
+      font-size:26px;letter-spacing:0.1em;padding:15px 42px;">EPICKOR.COM</div>
+  </div>
+  {wt_foot(index, total)}
+  {wt_watermark()}'''
+
+    # item: text left, circular product right
+    head = card['name_en'] or card['main']
+    num_block = ''
+    if card['num']:
+        num_block = f'''
+    <div style="font-family:{WT_DISPLAY};font-style:italic;
+      font-size:{fit_size(card['num'], 430, 84, 0.6)}px;color:{WT_ORANGE};line-height:1;
+      font-variant-numeric:tabular-nums;">{esc(card['num'])}</div>
+    <div style="font-family:{WT_MONO};font-size:14px;font-weight:700;letter-spacing:0.18em;
+      color:{WT_LIGHT};text-transform:uppercase;">{esc(card['num_label'])}</div>'''
+    note = ''
+    if card['note']:
+        note = f'''
+    <div style="border-left:2.5px solid {WT_ORANGE};padding-left:16px;font-family:{WT_SANS};
+      font-weight:400;font-size:19px;color:{WT_MUTE};line-height:1.5;">{esc(card['note'])}</div>'''
+    return f'''
+  {wt_ground(cx=830, cy=470)}
+  {wt_koline(card)}
+  <div style="position:absolute;left:88px;right:80px;top:120px;height:860px;z-index:20;
+    display:flex;align-items:center;gap:40px;">
+    <div data-flow="1" style="flex:1.2;display:flex;flex-direction:column;gap:19px;min-width:0;">
+      {wt_micro(card['kicker'], WT_MUTE)}
+      {wt_verdict(card)}
+      <div style="font-family:{WT_DISPLAY};font-style:italic;
+        font-size:{fit_size(head, 500, 54, 0.72)}px;color:{WT_LIGHT};line-height:1.1;
+        text-transform:uppercase;">{esc(head)}</div>
+      <div style="font-family:{WT_SANS};font-weight:400;font-size:21px;color:{WT_MUTE};
+        line-height:1.55;">{esc(card['sub'])}</div>
+      {num_block}
+      {note}
+    </div>
+    <div data-flow="1" style="flex:0 0 380px;">{wt_circle(card, 346)}</div>
+  </div>
+  {wt_foot(index, total)}
+  {wt_watermark()}'''
+
+
+# ============================================================ FRESHPRESS (hurom)
+
+FP_MIST = '#F5F8F1'
+FP_INK = '#22402E'
+FP_INK70 = 'rgba(34,64,46,0.72)'
+FP_LEAF = 'rgba(34,64,46,0.5)'
+FP_LEAF30 = 'rgba(34,64,46,0.3)'
+FP_GREEN = '#4C8C34'
+FP_LIGHTF = "'Segoe UI Semilight','Segoe UI Light','Segoe UI',sans-serif"
+FP_SANS = "'Segoe UI',Arial,sans-serif"
+FP_KO = "'Malgun Gothic','Segoe UI',sans-serif"
+
+
+def fp_ground():
+    return f'''
+  <div style="position:absolute;inset:0;background:{FP_MIST};"></div>
+  <div style="position:absolute;inset:0;background:
+    radial-gradient(circle at 82% 14%, rgba(76,140,52,0.09) 0%, transparent 42%),
+    radial-gradient(circle at 8% 92%, rgba(76,140,52,0.06) 0%, transparent 36%);"></div>'''
+
+
+def fp_watermark():
+    return f'''
+  <div style="position:absolute;left:60px;top:48px;z-index:30;display:flex;align-items:center;gap:12px;">
+    <div style="width:30px;height:30px;border:2px solid {FP_INK};border-radius:50%;display:flex;
+      align-items:center;justify-content:center;font-family:{FP_SANS};font-size:11.5px;
+      font-weight:700;color:{FP_INK};">EK</div>
+    <div style="font-family:{FP_SANS};font-size:14px;font-weight:700;letter-spacing:0.26em;
+      color:{FP_INK};">EPICKOR.COM</div>
+  </div>'''
+
+
+def fp_glassfill(index, total):
+    fill = int(46 * index / total)
+    return f'''
+  <div style="width:16px;height:58px;border:1.5px solid {FP_INK};border-radius:3px 3px 7px 7px;
+    position:relative;overflow:hidden;">
+    <div style="position:absolute;left:0;right:0;bottom:0;height:{fill}px;
+      background:{FP_GREEN};"></div>
+  </div>'''
+
+
+def fp_foot(index, total):
+    return f'''
+  <div style="position:absolute;left:60px;right:60px;top:1004px;z-index:26;display:flex;
+    justify-content:space-between;align-items:center;">
+    <div style="font-family:{FP_SANS};font-weight:600;font-size:12px;letter-spacing:0.28em;
+      color:{FP_LEAF};">HUROM — KOREAN MAKERS · FILE 06</div>
+    <div style="display:flex;align-items:center;gap:14px;">
+      {fp_glassfill(index, total)}
+      <div style="font-family:{FP_SANS};font-weight:600;font-size:12px;letter-spacing:0.28em;
+        color:{FP_INK};">{index:02d} / {total:02d}</div>
+    </div>
+  </div>'''
+
+
+def fp_kicker(text):
+    return f'''<div style="font-family:{FP_SANS};font-weight:700;font-size:14px;
+      letter-spacing:0.32em;color:{FP_GREEN};text-transform:uppercase;">{text}</div>'''
+
+
+def fp_drops(center=True):
+    drops = ''.join(
+        f'<div style="width:{s}px;height:{s}px;background:{FP_GREEN};opacity:{o};'
+        'border-radius:0 50% 50% 50%;transform:rotate(45deg);"></div>'
+        for s, o in ((13, .9), (10, .65), (7, .4)))
+    margin = 'justify-content:center;' if center else ''
+    return f'<div style="display:flex;gap:12px;align-items:center;{margin}">{drops}</div>'
+
+
+def fp_stamp(text):
+    if not text:
+        return ''
+    return f'''<div style="display:inline-block;border:1.5px solid {FP_GREEN};color:{FP_GREEN};
+      font-family:{FP_SANS};font-weight:700;font-size:14px;letter-spacing:0.24em;
+      padding:10px 22px;border-radius:999px;text-transform:uppercase;">{text}</div>'''
+
+
+def fp_glass(card, w, h):
+    if not card['image']:
+        return ''
+    return f'''
+  <div style="width:{w}px;">
+    <div style="height:{h}px;background:#FFFFFF;border:1.5px solid {FP_LEAF30};
+      border-radius:24px 24px {int(w * 0.42)}px {int(w * 0.42)}px;overflow:hidden;display:flex;
+      align-items:center;justify-content:center;padding:26px 22px 34px;
+      box-shadow:0 16px 40px rgba(34,64,46,0.12);">
+      <img src="{card['image']}" alt="{card['image_label']}"
+        style="max-width:100%;max-height:100%;object-fit:contain;display:block;"></div>
+    <div style="margin-top:13px;font-family:{FP_SANS};font-weight:600;font-size:12px;
+      letter-spacing:0.1em;color:{FP_LEAF};text-transform:uppercase;text-align:center;
+      line-height:1.45;">{card['image_label']}</div>
+  </div>'''
+
+
+def fp_koline(card):
+    if not card['ko_line']:
+        return ''
+    return f'''
+  <div style="position:absolute;left:62px;top:0;bottom:0;z-index:24;display:flex;
+    align-items:center;">
+    <div style="writing-mode:vertical-rl;font-family:{FP_KO};font-size:13px;font-weight:600;
+      letter-spacing:0.42em;color:{FP_LEAF30};">{card['ko_line']}</div>
+  </div>'''
+
+
+def build_freshpress(meta, card, index, total):
+    mode = card['mode']
+
+    if mode == 'cover':
+        return f'''
+  {fp_ground()}
+  {fp_koline(card)}
+  <div style="position:absolute;left:104px;right:84px;top:120px;height:860px;z-index:20;
+    display:flex;align-items:center;gap:48px;">
+    <div data-flow="1" style="flex:1.2;display:flex;flex-direction:column;gap:24px;min-width:0;">
+      {fp_kicker(card['kicker'])}
+      <div style="font-family:{FP_LIGHTF};font-weight:300;
+        font-size:{fit_size(card['main'], 560, 74, 0.72)}px;color:{FP_INK};line-height:1.1;
+        letter-spacing:-0.005em;">{esc(card['main'])}</div>
+      {fp_drops(center=False)}
+      <div style="font-family:{FP_SANS};font-weight:400;font-size:23px;color:{FP_INK70};
+        line-height:1.55;">{esc(card['sub'])}</div>
+      <div style="display:flex;">{fp_stamp(card['stamp'])}</div>
+    </div>
+    <div data-flow="1" style="flex:0 0 380px;">{fp_glass(card, 380, 560)}</div>
+  </div>
+  {fp_foot(index, total)}
+  {fp_watermark()}'''
+
+    if mode == 'number':
+        return f'''
+  {fp_ground()}
+  {fp_koline(card)}
+  <div data-flow="1" style="position:absolute;left:130px;right:130px;top:120px;height:860px;
+    z-index:20;display:flex;flex-direction:column;align-items:center;justify-content:center;
+    gap:24px;text-align:center;">
+    {fp_kicker(card['kicker'])}
+    <div style="font-family:{FP_LIGHTF};font-weight:300;
+      font-size:{fit_size(card['num'], 760, 280, 0.58)}px;color:{FP_GREEN};line-height:0.98;
+      letter-spacing:-0.02em;font-variant-numeric:tabular-nums;">{esc(card['num'])}</div>
+    <div style="font-family:{FP_SANS};font-weight:600;font-size:28px;color:{FP_INK};
+      line-height:1.35;max-width:760px;">{esc(card['num_label'])}</div>
+    {fp_drops()}
+    <div style="font-family:{FP_SANS};font-weight:400;font-size:23px;color:{FP_INK70};
+      line-height:1.55;max-width:740px;">{esc(card['sub'])}</div>
+    {fp_stamp(card['stamp'])}
+  </div>
+  {fp_foot(index, total)}
+  {fp_watermark()}'''
+
+    if mode == 'end':
+        return f'''
+  {fp_ground()}
+  {fp_koline(card)}
+  <div data-flow="1" style="position:absolute;left:120px;right:120px;top:104px;height:880px;
+    z-index:20;display:flex;flex-direction:column;align-items:center;justify-content:center;
+    gap:24px;text-align:center;">
+    {fp_kicker(card['kicker'])}
+    <div style="font-family:{FP_LIGHTF};font-weight:300;
+      font-size:{fit_size(card['main'], 760, 66, 0.72)}px;color:{FP_INK};
+      line-height:1.1;">{esc(card['main'])}</div>
+    <div style="font-family:{FP_SANS};font-weight:400;font-size:22px;color:{FP_INK70};
+      line-height:1.52;max-width:700px;">{esc(card['sub'])}</div>
+    {fp_glass(card, 300, 340)}
+    <div style="background:{FP_GREEN};color:#FFFFFF;font-family:{FP_SANS};font-weight:700;
+      font-size:25px;letter-spacing:0.12em;padding:16px 44px;border-radius:999px;">EPICKOR.COM</div>
+  </div>
+  {fp_foot(index, total)}
+  {fp_watermark()}'''
+
+    # item: text left, glass photo right
+    head = card['name_en'] or card['main']
+    num_block = ''
+    if card['num']:
+        num_block = f'''
+    <div style="font-family:{FP_LIGHTF};font-weight:300;
+      font-size:{fit_size(card['num'], 430, 84, 0.58)}px;color:{FP_GREEN};line-height:1;
+      font-variant-numeric:tabular-nums;">{esc(card['num'])}</div>
+    <div style="font-family:{FP_SANS};font-weight:700;font-size:14px;letter-spacing:0.2em;
+      color:{FP_INK};text-transform:uppercase;">{esc(card['num_label'])}</div>'''
+    note = ''
+    if card['note']:
+        note = f'''
+    <div style="border-top:1.5px solid {FP_LEAF30};padding-top:14px;font-family:{FP_SANS};
+      font-weight:500;font-size:19px;color:{FP_INK};line-height:1.5;">{esc(card['note'])}</div>'''
+    return f'''
+  {fp_ground()}
+  {fp_koline(card)}
+  <div style="position:absolute;left:110px;right:84px;top:120px;height:860px;z-index:20;
+    display:flex;align-items:center;gap:44px;">
+    <div data-flow="1" style="flex:1.15;display:flex;flex-direction:column;gap:20px;min-width:0;">
+      {fp_kicker(card['kicker'])}
+      <div style="font-family:{FP_LIGHTF};font-weight:300;
+        font-size:{fit_size(head, 480, 54, 0.6)}px;color:{FP_INK};line-height:1.14;">{esc(head)}</div>
+      {fp_drops(center=False)}
+      <div style="font-family:{FP_SANS};font-weight:400;font-size:21.5px;color:{FP_INK70};
+        line-height:1.55;">{esc(card['sub'])}</div>
+      {num_block}
+      {note}
+    </div>
+    <div data-flow="1" style="flex:0 0 370px;">{fp_glass(card, 370, 500)}</div>
+  </div>
+  {fp_foot(index, total)}
+  {fp_watermark()}'''
+
+
 # ============================================================ shell + harness
 
-BUILDERS = {'sunburst': build_sunburst, 'blade': build_blade, 'homedrama': build_homedrama}
-GROUNDS = {'sunburst': '#45250F', 'blade': BL_BG, 'homedrama': HD_CREAM}
+BUILDERS = {'sunburst': build_sunburst, 'blade': build_blade, 'homedrama': build_homedrama,
+            'notebook': build_notebook, 'windtunnel': build_windtunnel,
+            'freshpress': build_freshpress}
+GROUNDS = {'sunburst': '#45250F', 'blade': BL_BG, 'homedrama': HD_CREAM,
+           'notebook': NB_PAPER, 'windtunnel': WT_BG, 'freshpress': FP_MIST}
 
 SHELL = '''<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8">
 <meta name="viewport" content="width=1080"><style>
