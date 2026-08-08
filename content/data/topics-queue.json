@@ -4292,8 +4292,28 @@
       "slug": "370",
       "notes": "WEAKEST of the five. Crush-to-eat is on Amazon product titles and theramenrater reviewed it (2026-04). Wins on the flavour gap or not at all: Korean shelf carries 제주마농/구운양파/떡볶이맛/마요땅/열뿌셔뿌셔, export is BBQ/bulgogi/grilled chicken. korean crushed noodle snack = 0 EN branches. Images: Commons 2x CC BY-SA 4.0 (2240x1229, 2669x1013).",
       "published_at": "2026-08-05"
+    },
+    {
+      "id": 198,
+      "title": "JMW: The Hair Dryer in Every Korean Salon, and the Marketing Word Hiding What It Actually Did",
+      "target_keyword": "JMW hair dryer korea",
+      "keyword_shape": "identity_specific_product",
+      "category": "Business",
+      "business_type": "B-2 non-client spotlight",
+      "tags": [
+        "KoreanManufacturing",
+        "BLDC",
+        "HairCare",
+        "KoreanSME"
+      ],
+      "amazon_category": "Beauty",
+      "status": "representative_proposed",
+      "approved_date": "2026-08-08",
+      "approved_by": "representative",
+      "cycle": "2026-W33",
+      "notes": "REPRESENTATIVE PROPOSED 2026-08-08. Premise to correct, not repeat: the rep (and every English listing) says JMW makes aircraft motors. It does not. | VERIFIED: founded 2004, CEO 강민웅, 주식회사 제이엠더블유. Korean R&D and domestic production of professional hair devices. | VERIFIED: first in Korea to put a BLDC motor in a hair dryer -- this part is real and did change the category. 1M cumulative BLDC dryer units by 2017. 8 consecutive years #1 in 올해의 브랜드 대상 hair dryer category (as of 2025). | THE ANGLE: 항공모터 (aircraft motor) is a MARKETING TERM, now a whole product category on Danawa that competitors (밀다 etc.) also use. Real aircraft use engines; BLDC motors appear in RC aircraft, helicopters and drones. Korean consumers already question it -- Clien thread 10982168 titled \"JMW드라이기의 BLDC 모터는 항공모터??\". Korean commenters compare it to 항공냄비 aluminium cookware. | So the thesis is the third counter-example in a row after 오뚜기 (did not export) and 풀무원 (bought American brands): JMW built a genuinely good thing and then buried it under a word that is not true. The real story is domestic BLDC engineering and salon-grade durability. | COVERAGE GATE looks CLEAN: English web has Amazon/retailer listings and a Canadian distributor site repeating \"aircraft motor\" verbatim. No English editorial or journalistic examination found. That is the gap. | SECTION FIT: would be the first appliance/hardware manufacturer in the business section, which is currently food (samyang/ottogi/pulmuone), beauty (cosmax/apr-medicube) and platforms (coupang/musinsa/toss/iconix). | STILL TO VERIFY BEFORE DRAFTING: revenue and salon share (not public in search; check 나이스평가정보 / DART if they file), export markets, employee count, patent filings (a US patent 8922082 \"BLDC motor for a hairdryer\" surfaced -- confirm assignee), and whether JMW has ever claimed aerospace supply itself vs distributors adding it. | IMAGE NOTE: 0차 rule applies -- jmwkorea.com serves a self-signed cert so WebFetch fails; use a browser UA via curl, or jmwmall.co.kr / jmwprofessional.com."
     }
   ],
-  "last_updated": "2026-08-05",
+  "last_updated": "2026-08-08",
   "next_slug": "372"
 }

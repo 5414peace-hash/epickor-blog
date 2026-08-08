@@ -1,6 +1,6 @@
 {
   "summary": {
-    "generatedAt": "2026-08-07T23:34:16.780Z",
+    "generatedAt": "2026-08-07T23:59:11.718Z",
     "auditedPosts": 355,
     "includedPrivate": false,
     "slugFilter": "",
@@ -10449,36 +10449,36 @@
     {
       "type": "blog",
       "slug": "282",
-      "title": "Korean Kimchi Jjigae at Home 2026: Stew Packs and Tofu",
+      "title": "Korean Kimchi Jjigae at Home: You Want 묵은지, Not Just Old Kimchi",
       "contentPath": "content\\blog\\282.md",
       "sourceRecord": "public\\assets\\images\\posts\\282\\image-sources.md",
       "imageCount": 4,
       "images": [
         {
           "url": "/assets/images/posts/282/kimchi-jjigae-ttukbaegi.jpg",
-          "alt": "A pot of Korean kimchi jjigae with tofu and red broth served hot.",
-          "caption": "Kimchi jjigae works because it turns fermented kimchi, broth, tofu, protein, and rice into one repeatable comfort meal.",
+          "alt": "A pot of Korean kimchi jjigae with tofu in a red broth, served hot.",
+          "caption": "Kimchi jjigae is not kimchi soup. The kimchi is the seasoning for the whole pot, which is why the age of the kimchi decides the dish.",
           "ext": ".jpg",
           "exists": true
         },
         {
           "url": "/assets/images/posts/282/kimchi-jjigae-tofu.jpg",
-          "alt": "Kimchi jjigae with tofu in a red broth, showing a beginner-friendly stew structure.",
-          "caption": "A ready kimchi stew pack can teach the target flavor before you invest in a full Korean pantry.",
-          "ext": ".jpg",
-          "exists": true
-        },
-        {
-          "url": "/assets/images/posts/282/tuna-kimchi-jjigae.jpg",
-          "alt": "A bowl of tuna kimchi jjigae with tofu and red broth.",
-          "caption": "Tuna kimchi jjigae is a smart pantry version because canned tuna adds body without requiring fresh meat.",
+          "alt": "Kimchi jjigae with tofu in a shallow bowl.",
+          "caption": "Tofu marked 찌개용 stays in cubes. The soft 부침용 or 순두부 block will break apart and cloud the broth.",
           "ext": ".jpg",
           "exists": true
         },
         {
           "url": "/assets/images/posts/282/jjigae-banchan-table.jpg",
-          "alt": "A Korean table with jjigae, rice, and banchan-style side dishes.",
-          "caption": "Kimchi jjigae becomes easier to understand when it sits with rice and small sides instead of trying to be the whole table alone.",
+          "alt": "A Korean table with kimchi jjigae surrounded by small banchan side dishes.",
+          "caption": "The stew is a centre dish, not a solo meal. Rice plus one or two small sides is the normal shape.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/282/tuna-kimchi-jjigae.jpg",
+          "alt": "Kimchi jjigae made with canned tuna.",
+          "caption": "참치김치찌개 — the tuna version is a pantry meal, not a compromise. Canned tuna's oil does the job pork fat does.",
           "ext": ".jpg",
           "exists": true
         }

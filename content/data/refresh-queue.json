@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-08-07",
+ "generatedAt": "2026-08-08",
  "generator": "scripts/build-refresh-queue.mjs",
  "rule": "CLAUDE.md 실행계획 챕터 1 — 하루 리듬 \"신규 2편 + 리프레시 1편\". 순서: tier 1 → 2 → 3, 각 tier 안에서는 GSC 노출 내림차순 (이 큐 전체의 클릭 최대값이 7이라 클릭은 정렬 신호가 되지 못한다).",
  "gate": "스펙 적용 전에 \"이 글이 아직 사실인가\"를 먼저 검사한다 (CLAUDE.md 2026-08-04 신설). 4회 연속 그쪽이 더 값어치 있었다.",
@@ -16,35 +16,14 @@
   "287": "home appliance (grills), not a food product"
  },
  "counts": {
-  "pending": 48,
-  "tier1": 5,
+  "pending": 47,
+  "tier1": 4,
   "tier2": 12,
   "tier3": 31,
-  "alreadyRefreshed": 28,
+  "alreadyRefreshed": 29,
   "excluded": 4
  },
  "queue": [
-  {
-   "slug": "282",
-   "title": "Korean Kimchi Jjigae at Home 2026: Stew Packs and Tofu",
-   "tier": 1,
-   "refreshedOn": null,
-   "specApplied": false,
-   "gaps": {
-    "won": 0,
-    "hangul": 0,
-    "yearInTitle": true,
-    "words": 2152
-   },
-   "gsc": {
-    "clicks": 0,
-    "impressions": 20,
-    "ctr": "0%",
-    "position": 19.25
-   },
-   "status": "pending",
-   "note": null
-  },
   {
    "slug": "279",
    "title": "Korean Seaweed Snack Guide 2026: Gim, Laver, Rice Bowls",
