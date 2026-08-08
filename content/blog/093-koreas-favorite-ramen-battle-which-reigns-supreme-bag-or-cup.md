@@ -1,198 +1,154 @@
 ---
-title: "Korean Ramyeon Guide: Bag vs Cup Noodles and How to Choose"
+title: "Korean Ramyeon, Bag vs Cup: The Bag Has 60% More Noodles, and Korea Lost Its No.1 Ranking"
 slug: "093"
 date: "2026-02-09"
-updatedAt: "2026-07-18"
-description: "A practical Korean ramyeon guide comparing bag noodles, cup noodles, Hangang machine ramyeon, convenience-store choices, toppings, and travel tips."
-ogImage: "/assets/images/posts/093/0eee505d-81b1-4281-aa69-e4ba3b32fc50.png"
+updatedAt: "2026-08-08"
+description: "The same Shin Ramyun is 120g in the bag and 75g in the cup — that, not nostalgia, is why bag tastes better. Koreans eat 79 packs a year each (now world No.2 behind Vietnam), and the Hangang machine runs about ₩4,000–4,800. The real decision map."
+ogImage: "/assets/images/posts/093/shin-ramyun-bag-vs-cup.jpg"
 tags: ['KoreanRamyeon', 'KoreanFood', 'ConvenienceStore', 'KoreaTravel', 'InstantNoodles']
 ---
 
-**Korean ramyeon is not one thing. It is a home meal, a convenience-store snack, a Hangang picnic ritual, a late-night comfort food, and a global export category.** That is why the bag-versus-cup question matters. The best Korean ramyeon choice depends less on brand loyalty and more on where you are, how much control you want, and whether you have a pot, hot water, or a riverside cooker.
+The bag-versus-cup question has a physical answer, and it is printed on the packaging.
 
-This guide compares bag ramyeon, cup ramyeon, and the famous Hangang convenience-store machine version. It also explains why Korea eats so much instant noodle, how travelers should choose spice levels, and what to buy if you want to recreate the experience at home. For the broader spicy-ramyeon map, read EpicKor's [Korean ramen culture guide](/blog/038). For the convenience-store context, use the [Korean convenience-store food guide](/blog/059).
+The same **Shin Ramyun (신라면)** is **120g in the bag and 75g in the cup**. Same brand, same flavour system — **60% more noodles and a full-strength soup base in the bag**, cooked in water you measured, in a pot that holds heat. The cup is not a smaller portion of the same thing; it is a different product engineered to cook in three minutes with whatever water a convenience-store dispenser gives you.
 
-![Korean ramyeon varieties arranged for comparison.](/assets/images/posts/093/0eee505d-81b1-4281-aa69-e4ba3b32fc50.png)
+Once you see that, the whole decision resolves: **bag when you control the kitchen, cup when you control nothing.** Everything else in this guide is the interesting detail around that rule.
 
-## The Big Picture: Korea Eats a Lot of Ramyeon
+One correction to the thing everyone repeats, first. **Koreans no longer eat the most instant noodles per person.** By the latest count Koreans put away **79 packs a year each — about 4.1 billion servings nationally — and that is world No.2. Vietnam leads at 81**, and has for three years running. Korea remains the country that *exports* the category's icons, which for a visitor is the more relevant fact anyway.
 
-South Korea is one of the world's most serious instant-noodle countries. The World Instant Noodles Association's 2024 demand table lists the Republic of Korea at about **4.098 billion servings** in 2024, ranking eighth globally by total demand. Its 2024 per-person trivia page places South Korea near the top for servings per person, with roughly **79 servings per person per year**, second after Vietnam.
+![Official Nongshim pack shots of Shin Ramyun: the 120g bag next to the 75g cup.](/assets/images/posts/093/shin-ramyun-bag-vs-cup.jpg)
+*The answer, printed on the packs: 120g in the bag, 75g in the cup. Images: Nongshim official product photography, used for product identification.*
 
-Those numbers explain why ramyeon appears everywhere: homes, offices, PC bangs, convenience stores, hiking routes, Hangang parks, highway rest areas, and late-night drama scenes. It is cheap, fast, flexible, and emotionally familiar. But "ramyeon" in Korea can mean several different experiences.
+<p class="affiliate-topline"><a href="https://www.amazon.com/s?k=shin+ramyun+multipack&tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Shin Ramyun multipacks — compare on Amazon</a><span class="affiliate-topline-note">Affiliate link. As an Amazon Associate, EpicKor earns from qualifying purchases at no extra cost to you.</span></p>
 
-VISITKOREA's food guide describes Korean **ramyeon** as instant noodles often served with additions like eggs and green onions, while distinguishing it from Japanese ramen made with house-made noodles and broth. That distinction is important for travelers. In Korea, ramyeon usually means instant noodle culture, not a ramen-shop broth experience.
-
-
-
-<p class="affiliate-topline"><a href="https://www.amazon.com/dp/B08G1CM3XX?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean ramen cooking pot — compare on Amazon</a><span class="affiliate-topline-note">Affiliate link. As an Amazon Associate, EpicKor earns from qualifying purchases at no extra cost to you.</span></p>
-
-## Bag vs Cup: The Simple Answer
-
-If you have a kitchen, choose bag ramyeon. If you need speed, choose cup ramyeon. If you are at the Han River or a tourist-friendly convenience-store ramyeon spot, choose the machine-cooked bag version because it gives you the best story.
+## The Decision Map
 
 <div class="table-scroll">
 <table>
   <thead>
-    <tr><th>Choice</th><th>Best situation</th><th>Strength</th><th>Weakness</th></tr>
+    <tr><th>You are</th><th>Buy</th><th>Why</th></tr>
   </thead>
   <tbody>
-    <tr><td>Bag ramyeon</td><td>Home, guesthouse, apartment stay</td><td>Best texture and customization</td><td>Needs pot, stove, cleanup</td></tr>
-    <tr><td>Cup ramyeon</td><td>Convenience store, office, quick travel snack</td><td>Fast and portable</td><td>Less control over noodle texture</td></tr>
-    <tr><td>Hangang machine ramyeon</td><td>River picnic or Korea-trip memory</td><td>Fun, easy, scenic</td><td>Store hours, lines, trash rules</td></tr>
-    <tr><td>PC bang ramyeon</td><td>Gaming session</td><td>Food arrives to your seat</td><td>Not really a cooking experience</td></tr>
-    <tr><td>Restaurant ramyeon</td><td>Bunsik, pojangmacha, casual meals</td><td>Extra toppings and broth context</td><td>Varies by shop</td></tr>
+    <tr><td>At home, have a pot</td><td><strong>Bag</strong></td><td>More noodles, stronger soup, water control. No contest.</td></tr>
+    <tr><td>In a convenience store at midnight</td><td><strong>Cup</strong></td><td>Hot-water dispenser and a window counter exist for exactly this.</td></tr>
+    <tr><td>At a Hangang park</td><td><strong>Bag + the machine</strong></td><td>The riverside cooker is built for bag ramyeon. This is the famous version.</td></tr>
+    <tr><td>In a hotel room</td><td><strong>Cup</strong></td><td>A kettle is enough. A bag needs a pot you do not have.</td></tr>
+    <tr><td>Taking ramyeon home as souvenirs</td><td><strong>Bag multipacks</strong></td><td>Cups are mostly air — terrible per suitcase litre. Bags stack flat.</td></tr>
+    <tr><td>Hiking or on an intercity bus break</td><td><strong>Cup</strong></td><td>Rest stops and trail shops sell hot water, not stoves.</td></tr>
   </tbody>
 </table>
 </div>
 
-## Why Bag Ramyeon Usually Tastes Better
+## Why the Bag Actually Tastes Better
 
-Bag ramyeon gives you control. You decide water amount, cooking time, egg timing, scallions, dumplings, cheese, rice cakes, bean sprouts, leftover vegetables, or the final minute of noodle texture. The pot version also lets starch, seasoning, and toppings move together in a way a sealed cup cannot fully match.
+It is not nostalgia, and being precise about the reasons tells you how to cook it.
 
-For Koreans, bag ramyeon often feels more like a tiny home-cooked meal. It is still instant food, but it allows personal style. Some people like firm noodles. Some crack the egg early for a cloudy broth. Others drop the egg near the end so the yolk stays soft. Some add rice after the noodles are gone.
+- **Noodle mass.** 120g versus 75g is a different meal. Cup noodles are also cut thinner so they can hydrate in still water — which is why they go soft faster.
+- **Soup concentration.** The bag's powder is dosed for around 550ml of *boiling, moving* water. Cup soup is dosed to work at dispenser temperature, which caps how much depth it can carry.
+- **Heat.** A pot on a burner keeps water at a rolling boil; a paper cup loses heat from the second you pour. That difference is texture: pot noodles stay springy (꼬들꼬들), cup noodles trend soft.
+- **Control.** Using slightly less water than the packet says is the most common Korean adjustment. You cannot do that meaningfully in a cup.
 
-Bag ramyeon is also better for sharing. Two packets in a pot can become a late-night meal for friends. Add mandu, scallions, and one egg per person, and suddenly the cheapest food in the kitchen feels planned.
-
-<div class="affiliate-inline-cta">
-  <p><strong>Recreate the pot version:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. If bag ramyeon is your favorite style, compare a <a href="https://www.amazon.com/dp/B08G1CM3XX?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean ramen cooking pot</a> for size, handle heat, lid fit, and stove compatibility before buying one for home.</p>
-</div>
-
-## Why Cup Ramyeon Wins in Public
-
-Cup ramyeon wins when the situation matters more than perfect texture. You need hot water, chopsticks, and a few minutes. That is why it belongs in convenience stores, offices, study rooms, highway stops, PC bangs, and quick late-night routines.
-
-VISITKOREA's convenience-store food recommendations note that Koreans are known for loving instant noodles and that convenience stores carry many varieties, including spicy, kimchi, cheese, mild, and limited franchise-specific flavors. For travelers, cup ramyeon is the safest low-effort entry point because you can choose by picture, spice label, or brand familiarity.
-
-The weakness is control. You cannot adjust heat once the lid closes. If you add too much water, the broth becomes flat. If you wait too long, the noodles soften. If you choose a flavor far above your spice level, you are stuck with the cup you bought.
-
-## Hangang Machine Ramyeon
-
-Hangang machine ramyeon is the tourist version that actually deserves some hype. VISITKOREA describes the Hangang riverside convenience-store experience as buying a ramyeon packet, placing it in a special container, using the cooking station, and eating with the river view. The machine does the boiling, which makes it easy even for visitors who cannot read much Korean.
-
-This is not exactly cup ramyeon. It is closer to bag ramyeon cooked in a disposable foil-style container by a self-service machine. The appeal is the scene: river wind, picnic tables, convenience-store drinks, friends, and a hot bowl that feels better because of where you are eating it.
-
-![A Korean ramyeon frame from the original EpicKor noodle comparison footage.](/assets/images/posts/093/ramyeon-bag-cup-video-frame.jpg)
-
-## The Traveler's Choice Map
-
-Use this rule:
-
-- Choose **bag ramyeon** if you have a kitchen and want the best taste.
-- Choose **cup ramyeon** if you are moving, studying, working, or eating fast.
-- Choose **Hangang machine ramyeon** if you want a Korea memory.
-- Choose **mild ramyeon** first if you are spice-sensitive.
-- Choose **stir-fried/no-broth ramyeon** only if you can handle stronger seasoning.
-
-<div class="table-scroll">
-<table>
-  <thead>
-    <tr><th>Your situation</th><th>Best pick</th><th>Add this</th><th>Avoid this</th></tr>
-  </thead>
-  <tbody>
-    <tr><td>First night in Seoul</td><td>Mild or classic cup ramyeon</td><td>Triangle gimbap or water</td><td>Extreme-spicy challenge packs</td></tr>
-    <tr><td>Guesthouse kitchen</td><td>Bag ramyeon</td><td>Egg and scallions</td><td>Cooking three packs in a tiny pot</td></tr>
-    <tr><td>Hangang picnic</td><td>Machine ramyeon</td><td>Drink, napkins, trash cleanup</td><td>Leaving waste behind</td></tr>
-    <tr><td>PC bang visit</td><td>Seat-order ramyeon</td><td>Small snack or soda</td><td>Messy food near keyboard</td></tr>
-    <tr><td>Spice-sensitive traveler</td><td>Udon, gomtang, or mild label</td><td>Milk drink or rice</td><td>Assuming red packaging is manageable</td></tr>
-  </tbody>
-</table>
-</div>
-
-## How to Read Spice Levels
-
-Korean ramyeon can be spicier than visitors expect. VISITKOREA's CU Ramyun Library guide notes that some stores provide multilingual spice-level labels, and that even items marked mild may contain pepper or spice. That is exactly the warning travelers need. "Mild" in Korea can still mean "not plain."
-
-If you are new:
-
-1. Start with a mild or classic broth ramyeon.
-2. Avoid challenge-style products on day one.
-3. Buy water or a milk drink.
-4. Do not add all spicy sauce at once for stir-fried noodles.
-5. Eat with rice or gimbap if the broth is intense.
-
-The best Korea food trip is not a spice endurance contest. It is better to enjoy three bowls comfortably than suffer through one famous product for bragging rights.
-
-## What to Add to Bag Ramyeon
-
-Bag ramyeon becomes better with small additions. The classic is egg. Add it early for richer broth, or late for a more intact yolk. Scallions add freshness. Mandu adds body. Cheese softens spice. Bean sprouts add crunch. Leftover rice turns the broth into a second meal.
-
-Good additions:
-
-- egg;
-- scallions;
-- mandu;
-- sliced cheese;
-- bean sprouts;
-- kimchi;
-- rice cakes;
-- leftover rice;
-- tuna or canned corn for some styles.
-
-But do not overbuild every bowl. Ramyeon is designed to be simple. If you add too many heavy toppings, the broth becomes muddy and the noodles overcook while you fuss with extras.
-
-## Cup Ramyeon Etiquette in Korea
-
-Convenience-store cup ramyeon has small manners. Use the hot-water station carefully. Do not block the counter while deciding. Be careful carrying the hot cup. If the store has seats, clean your area. Dispose of broth and packaging according to local setup. Do not pour leftover soup into random street drains.
-
-If you eat at a Hangang park, cleanup matters even more. The river setting is public, shared, and heavily used. The experience is charming because everyone can use it; do not be the traveler who leaves a ramen container behind.
-
-![A legacy EpicKor ramyeon frame showing Korean instant-noodle context.](/assets/images/posts/093/093_ramyeon_legacy_frame.jpg)
-
-## Is Ramyeon a Meal or Snack?
-
-In Korea, ramyeon can be both. It can be a snack after school, a quick lunch, a late-night meal, a hiking reward, a PC bang order, or a convenience-store stop between plans. The context decides. Add rice, egg, and toppings, and it becomes a meal. Eat a small cup between train rides, and it is a snack.
-
-This flexibility explains its cultural power. Ramyeon belongs to everyday survival and small pleasure at the same time. It is inexpensive enough to be casual, but emotionally strong enough to become a travel memory.
-
-## Bag vs Cup for Souvenirs
-
-If you are buying ramyeon to take home, bag packs are lighter and easier to fit in luggage, but cups protect the noodle shape and feel more like the convenience-store experience. Check customs rules for your destination, especially for meat-based flavorings or agricultural restrictions. If you are unsure, buy products available through approved import channels at home.
-
-For a smarter food-souvenir basket, combine ramyeon with Korean seaweed snacks, yakgwa, instant coffee, and a sauce like gochujang or ssamjang. EpicKor's [Korean pantry starter guide](/blog/277), [yakgwa guide](/blog/128), and [ssamjang guide](/blog/083) can help you avoid buying only spicy noodles.
+If you want the bag result with cup convenience, that is exactly the machine the Hangang parks installed.
 
 <div class="affiliate-inline-cta">
-  <p><strong>Build a Korean pantry starter shelf:</strong> If ramen leads you into Korean food at home, compare <a href="https://www.amazon.com/s?k=korean+food+starter+pack&amp;tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean food starter packs</a> before buying ten single-flavor noodles you may not actually finish.</p>
+  <p><strong>Recreate the pot version:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. If bag ramyeon is your style, compare a <a href="https://www.amazon.com/dp/B08G1CM3XX?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean ramen cooking pot</a> — the thin nickel-plated 양은냄비 boils fast, holds a rolling boil, and doubles as the serving bowl, which is the point.</p>
 </div>
+
+## Hangang Ramyeon: The ₩4,000 Version Worth Doing
+
+The famous one. Convenience stores inside the Hangang parks — GS25 and 7-Eleven branches — sell bag ramyeon with a dedicated **즉석라면 조리기**, an instant-ramyeon cooker combining an induction plate with a water dispenser. You pay for the ramyeon and a foil cooking bowl, carry it outside, and cook it yourself at the machine.
+
+As of 2026 the going rate is about **₩4,000–4,800** depending on the store and toppings (egg, cheese, rice cake). Two machine quirks worth knowing:
+
+- It dispenses **about 400–450ml — slightly less water than the packet calls for** — and runs roughly 3 minutes 30 seconds. The under-filling is deliberate, and it is why machine ramyeon comes out punchier than home ramyeon.
+- The etiquette is self-service: cook, carry to a riverside table, bin the foil bowl after.
+
+It is the best price-to-experience ratio in Seoul food: river, skyline, and a hot pot of noodles for under ₩5,000. Pair it with the [Korean convenience store breakfast guide](/blog/171) if you are building a whole cheap-eats day.
+
+![Official Nongshim pack shot of the Shin Ramyun 120g bag.](/assets/images/posts/093/shin-ramyun-bag-official.jpg)
+*The bag is dosed for boiling water — and the Hangang machine's trick is giving it slightly less than the packet asks for.*
+
+## Reading the Shelf: Spice and Format
+
+Korean ramyeon carries no standard printed heat scale (that grading exists for gochujang — see the [Korean pantry guide](/blog/277)), so the shelf skill is brand recognition:
+
+- **Mild lane:** Ansungtangmyun (안성탕면), Jin Ramen Mild (진라면 순한맛), Sari Gomtang (사리곰탕).
+- **The reference point:** Shin Ramyun (신라면) — genuinely spicy for a first-timer, ordinary for a regular.
+- **Above Shin:** Yeul Ramen (열라면), Jin Jjambbong (진짬뽕) at the flavour end.
+- **The dare tier:** Buldak (불닭볶음면) — which is a stir-fried *sauce* noodle, not a soup, and belongs to a different conversation.
+
+Format matters as much as heat: **soup ramyeon (국물라면)** versus **stir-fried sauce ramyeon (볶음면)**. A cup of Buldak still needs the hot water — you pour it off after the noodles hydrate, keeping only the sauce. Watching someone drain a Buldak cup into the convenience-store slop sink is a small Korean rite of passage.
+
+For what happened to ramyeon pricing in 2026 — the premium tier, the ₩1,900 packet, the Samyang 1963 story — see EpicKor's [Korean ramen went premium](/blog/219). This guide stays on the everyday shelf: as of August 2026 a standard bag runs about **₩1,000–1,200 at a convenience store** (meaningfully less per pack in a mart multipack), and a cup runs about **₩1,400–1,700**.
+
+## What to Add (Bag Version)
+
+The Korean home canon, in order of how often it actually happens:
+
+1. **An egg**, in for the last 90 seconds. Stir for cloudy broth; do not stir for a poached island.
+2. **Spring onion**, always.
+3. **A slice of processed cheese** on top at the end — melts into the broth, rounds the heat. This is standard, not a hack.
+4. **Rice, at the end.** The last third of the broth plus a scoop of rice is a second course, not a leftover.
+5. **Dumplings or rice cake** when it needs to become dinner.
+
+The one thing Koreans largely do not do: add vegetables until it becomes a virtuous soup. Ramyeon is not pretending to be anything.
+
+![Official Nongshim pack shot of the Shin Ramyun 75g cup.](/assets/images/posts/093/shin-cup-official.jpg)
+*The cup is engineered for still water at dispenser temperature — thinner noodles, faster hydration, softer result. It is solving a different problem than the bag.*
+
+## Ramyeon Is Not Ramen, and the Other Two Formats
+
+One distinction saves visitors real confusion: **Korean 라면 means instant noodle culture.** A Japanese-style ramen shop with house-made broth exists in Korea, but it is a different word in practice and a different price bracket. When a Korean says 라면, they mean the packet — including when a restaurant serves it.
+
+Which leads to the two formats this guide has not covered:
+
+- **분식집 라면** — snack-bar ramyeon, around ₩3,500–5,000. It is the same packet you can buy for ₩1,000, cooked competently in a 양은냄비 and served with kimchi. You are paying for the table, the banchan, and the option to add egg, cheese, or 떡. This offends some visitors until they realise the markup logic is identical to a cafe charging for espresso.
+- **PC방 라면** — ordered from your gaming seat, delivered cooked. The quality target is speed, not texture. It is part of the [PC bang experience](/blog/170) rather than a food decision.
+
+Both prove the same point as the Hangang machine: in Korea the packet is an ingredient, and what you are choosing between is cooking contexts.
+
+## Cup Etiquette, Briefly
+
+The convenience-store window counter is a legitimate dining room and nobody will look at you twice. The rules are the ones you would guess: bin your cup, wipe your spot, and do not hold four seats with one cup at 8am on a weekday. Hot water is free with purchase; so is the microwave. A cup at the counter with a triangle gimbap (삼각김밥) on the side is a complete Korean meal with a name — 편의점 한 끼 — not a sad compromise.
+
+## The Souvenir Math
+
+Bags win, and it is not close. A cup is mostly protected air; a suitcase of cups carries a handful of meals. Bag multipacks stack flat, survive baggage handling, and the 4- and 5-packs are shrink-wrapped for exactly this.
+
+Check your destination's meat-ingredient import rules before flying — some soup powders are meat-derived, and countries like Australia genuinely check. The [Korean pantry starter kit](/blog/277) covers what else earns luggage space.
+
+## Sources Checked
+
+- <a href="https://www.asiae.co.kr/article/2025100909525588071" target="_blank" rel="noopener noreferrer">Asia Economy on WINA per-capita rankings</a> and <a href="https://www.nongmin.com/article/20251010500077" target="_blank" rel="noopener noreferrer">Nongmin Shinmun</a> for Vietnam at 81 servings per person (three straight years at No.1), Korea at 79 with about 4.1 billion servings nationally, and the trailing order (Thailand, Nepal, Indonesia).
+- <a href="https://namu.wiki/w/%ED%95%9C%EA%B0%95%EB%9D%BC%EB%A9%B4" target="_blank" rel="noopener noreferrer">Korean reference material on 한강라면</a> for the machine's origin in Hangang park convenience stores, the ₩4,000–4,800 2026 price range, and the 400–450ml / ~3:30 dispensing behaviour.
+- <a href="https://nongshimusa.com/" target="_blank" rel="noopener noreferrer">Nongshim official product pages</a> for the 120g bag and 75g cup weights, read from the official pack photography used above.
 
 ## FAQ
 
-**Q: Is Korean ramyeon the same as Japanese ramen?**
-Simply put, no. In Korea, ramyeon usually means instant noodles, while Japanese ramen usually means restaurant noodles with prepared broth.
+**Q: Why does bag ramyeon taste better than cup ramyeon?**
 
-**Q: Is bag ramyeon better than cup ramyeon?**
-Simply put, bag ramyeon usually gives better texture and customization, while cup ramyeon wins for speed and convenience.
+**A:** It is a different product, not a bigger one: 120g of thicker noodles versus 75g of thinner ones, soup dosed for boiling water versus dispenser water, and a pot that holds temperature versus a cup that sheds it. The gap is engineering, and no topping closes it.
 
-**Q: What is Hangang ramyeon?**
-Simply put, it is ramyeon cooked with a self-service machine at convenience stores near Han River parks, then eaten with the river view.
+**Q: Do Koreans eat the most instant noodles in the world?**
 
-**Q: How much ramyeon do Koreans eat?**
-Simply put, WINA's 2024 data places South Korea among the world's top instant-noodle consumers, with roughly 79 servings per person per year.
+**A:** Per person, not any more — Vietnam has led for three consecutive years at 81 servings each, with Korea second at 79. Korea's total is about 4.1 billion servings a year, and it remains the category's biggest cultural exporter.
 
-**Q: What should spice-sensitive travelers choose?**
-Simply put, start with mild broth noodles, udon-style cups, gomtang-style noodles, or a clearly labeled mild option before trying spicy icons.
+**Q: How much is Hangang ramyeon?**
 
-**Q: What should I add to bag ramyeon?**
-Simply put, egg and scallions are the easiest upgrades; mandu, cheese, bean sprouts, kimchi, or rice can work depending on the flavor.
+**A:** About ₩4,000–4,800 in 2026, sold through GS25 and 7-Eleven branches inside the Hangang parks with a self-service cooker. The machine under-fills slightly — 400–450ml — which is why the result tastes stronger than home ramyeon.
 
-## Sources and Further Reading
+**Q: How much does regular ramyeon cost in Korea?**
 
-- <a href="https://instantnoodles.org/en/noodles/demand/table/" target="_blank" rel="noopener noreferrer">World Instant Noodles Association: Global Demand Rankings 2024</a>
-- <a href="https://instantnoodles.org/en/noodles/demand/trivia/" target="_blank" rel="noopener noreferrer">World Instant Noodles Association: 2024 instant-noodle trivia</a>
-- <a href="https://english.visitkorea.or.kr/svc/sp/food/ext/special_view.do?menuSn=603&amp;menuSn=913&amp;page=1&amp;sContsTtl=%EB%9D%BC%EB%A9%B4&amp;sort=regDt&amp;vcontsId=178959" target="_blank" rel="noopener noreferrer">VISITKOREA: Instant Noodles (Ramyeon)</a>
-- <a href="https://english.visitkorea.or.kr/svc/contents/infoHtmlView.do?vcontsId=195206" target="_blank" rel="noopener noreferrer">VISITKOREA: CU Ramyun Library guide</a>
-- <a href="https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=187423" target="_blank" rel="noopener noreferrer">VISITKOREA: Hangang riverside convenience-store ramyeon</a>
-- <a href="https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=194464" target="_blank" rel="noopener noreferrer">VISITKOREA: Keeping Up with Convenience Stores in Korea</a>
+**A:** As of August 2026, roughly ₩1,000–1,200 for a standard bag at a convenience store, cheaper per pack in mart multipacks, and ₩1,400–1,700 for a cup. The premium tier that launched in 2026 runs ₩1,500–1,900 — covered in the [premium ramen guide](/blog/219).
 
-The best Korean ramyeon is not always the spiciest or most famous one. It is the one that fits the moment: a pot at home, a cup in a store, or a hot machine-cooked bowl beside the Han River.
+**Q: What should I try first if I cannot handle spice?**
 
-<div class="section-belt section-belt-cvs">
-  <span class="section-belt-label">Korean convenience stores</span>
-  <p>Bag vs cup noodles is part of <a href="/convenience-store">EpicKor's Korean convenience store guide</a> — the four chains compared, current prices, and what each product actually is.</p>
-  <p>Also in the section: <a href="/blog/054">The automated store</a> and <a href="/blog/048">Carbo Buldak</a>.</p>
-</div>
+**A:** Ansungtangmyun, Jin Ramen Mild, or Sari Gomtang. Treat Shin Ramyun as the calibration point: real heat for a beginner, baseline for a regular. Buldak is a sauce noodle, not a soup, and is the dare tier.
 
-<div class="section-belt section-belt-ramyun">
-  <span class="section-belt-label">Korean ramyun</span>
-  <p>Bag vs cup is part of <a href="/ramyun">EpicKor's Korean ramyun guide</a> — every packet compared by soup base and verified Scoville, with current Korean prices.</p>
-  <p>Also in the section: <a href="/blog/038">The ramyun guide</a> and <a href="/blog/054">The in-store ramyun machine</a>.</p>
-</div>
+**Q: Are cup noodles bad souvenirs?**
+
+**A:** Yes — they are mostly air and crush easily. Buy bag multipacks, and check meat-import rules for your destination before flying.
+
+## The Short Version
+
+Bag when you have a pot, cup when you have nothing, and the Hangang machine when you are in Seoul with ₩5,000 and an evening. The bag is better because it is 60% more noodles dosed for boiling water — a fact the packaging has been printing all along.

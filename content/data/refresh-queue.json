@@ -16,56 +16,14 @@
   "287": "home appliance (grills), not a food product"
  },
  "counts": {
-  "pending": 45,
-  "tier1": 2,
+  "pending": 43,
+  "tier1": 0,
   "tier2": 12,
   "tier3": 31,
-  "alreadyRefreshed": 31,
+  "alreadyRefreshed": 33,
   "excluded": 4
  },
  "queue": [
-  {
-   "slug": "335",
-   "title": "Korean Convenience Store Ice Cream, Ranked",
-   "tier": 1,
-   "refreshedOn": null,
-   "specApplied": false,
-   "gaps": {
-    "won": 0,
-    "hangul": 13,
-    "yearInTitle": false,
-    "words": 2167
-   },
-   "gsc": {
-    "clicks": 0,
-    "impressions": 12,
-    "ctr": "0%",
-    "position": 5
-   },
-   "status": "pending",
-   "note": null
-  },
-  {
-   "slug": "093",
-   "title": "Korean Ramyeon Guide: Bag vs Cup Noodles and How to Choose",
-   "tier": 1,
-   "refreshedOn": null,
-   "specApplied": false,
-   "gaps": {
-    "won": 0,
-    "hangul": 0,
-    "yearInTitle": false,
-    "words": 2061
-   },
-   "gsc": {
-    "clicks": 0,
-    "impressions": 6,
-    "ctr": "0%",
-    "position": 16.33
-   },
-   "status": "pending",
-   "note": null
-  },
   {
    "slug": "175",
    "title": "Namdaemun vs Dongdaemun: Which Seoul Market to Visit",

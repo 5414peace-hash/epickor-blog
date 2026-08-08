@@ -1,6 +1,6 @@
 {
   "summary": {
-    "generatedAt": "2026-08-08T00:41:12.331Z",
+    "generatedAt": "2026-08-08T01:20:04.736Z",
     "auditedPosts": 355,
     "includedPrivate": false,
     "slugFilter": "",
@@ -4435,29 +4435,29 @@
     {
       "type": "blog",
       "slug": "093",
-      "title": "Korean Ramyeon Guide: Bag vs Cup Noodles and How to Choose",
+      "title": "Korean Ramyeon, Bag vs Cup: The Bag Has 60% More Noodles, and Korea Lost Its No.1 Ranking",
       "contentPath": "content\\blog\\093-koreas-favorite-ramen-battle-which-reigns-supreme-bag-or-cup.md",
       "sourceRecord": "public\\assets\\images\\posts\\093\\image-sources.md",
       "imageCount": 3,
       "images": [
         {
-          "url": "/assets/images/posts/093/0eee505d-81b1-4281-aa69-e4ba3b32fc50.png",
-          "alt": "Korean ramyeon varieties arranged for comparison.",
-          "caption": "",
-          "ext": ".png",
-          "exists": true
-        },
-        {
-          "url": "/assets/images/posts/093/ramyeon-bag-cup-video-frame.jpg",
-          "alt": "A Korean ramyeon frame from the original EpicKor noodle comparison footage.",
-          "caption": "",
+          "url": "/assets/images/posts/093/shin-ramyun-bag-vs-cup.jpg",
+          "alt": "Official Nongshim pack shots of Shin Ramyun: the 120g bag next to the 75g cup.",
+          "caption": "The answer, printed on the packs: 120g in the bag, 75g in the cup. Images: Nongshim official product photography, used for product identification.",
           "ext": ".jpg",
           "exists": true
         },
         {
-          "url": "/assets/images/posts/093/093_ramyeon_legacy_frame.jpg",
-          "alt": "A legacy EpicKor ramyeon frame showing Korean instant-noodle context.",
-          "caption": "",
+          "url": "/assets/images/posts/093/shin-ramyun-bag-official.jpg",
+          "alt": "Official Nongshim pack shot of the Shin Ramyun 120g bag.",
+          "caption": "The bag is dosed for boiling water — and the Hangang machine's trick is giving it slightly less than the packet asks for.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/093/shin-cup-official.jpg",
+          "alt": "Official Nongshim pack shot of the Shin Ramyun 75g cup.",
+          "caption": "The cup is engineered for still water at dispenser temperature — thinner noodles, faster hydration, softer result. It is solving a different problem than the bag.",
           "ext": ".jpg",
           "exists": true
         }
