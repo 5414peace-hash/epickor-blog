@@ -1,10 +1,10 @@
 {
   "summary": {
-    "generatedAt": "2026-08-08T09:11:57.329Z",
-    "auditedPosts": 359,
+    "generatedAt": "2026-08-08T10:18:27.139Z",
+    "auditedPosts": 360,
     "includedPrivate": false,
     "slugFilter": "",
-    "bodyImages": 1306,
+    "bodyImages": 1308,
     "affectedPosts": 99,
     "critical": 0,
     "high": 0,
@@ -14360,6 +14360,31 @@
           "url": "/assets/images/business/pulmuone-company-deep-dive/pulmuone-china-pumeiduo-booth.jpg",
           "alt": "Pulmuone's Chinese operation trades as Pumeiduo (圃美多). China is the group's one clearly profitable overseas market.",
           "caption": "",
+          "ext": ".jpg",
+          "exists": true
+        }
+      ],
+      "findings": []
+    },
+    {
+      "type": "business",
+      "slug": "samick-guitar-company-deep-dive",
+      "title": "Samick Deep Dive: The Korean Company That Built Half the World's Guitars — and Nearly Bought Steinway",
+      "contentPath": "content\\business\\samick-guitar-company-deep-dive.md",
+      "sourceRecord": "public\\assets\\images\\business\\samick-guitar-company-deep-dive\\image-sources.md",
+      "imageCount": 2,
+      "images": [
+        {
+          "url": "/assets/images/business/samick-guitar-company-deep-dive/seiler-grand-piano-samick.jpg",
+          "alt": "A Seiler grand piano — Samick's own homepage visual featuring the German piano house it acquired.",
+          "caption": "Samick's own homepage hero is a Seiler grand — the German piano house it bought on the way back up. The image is the acquisition, displayed.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/business/samick-guitar-company-deep-dive/samick-jtr-guitar.jpg",
+          "alt": "A Samick JTR series electric guitar under the company's own brand.",
+          "caption": "A Samick-branded JTR electric. The own-name instruments exist and are respectable — but the company's fame, such as it is, lives inside other brands' headstocks. Photo: Wikimedia Commons, CC BY 2.0.",
           "ext": ".jpg",
           "exists": true
         }

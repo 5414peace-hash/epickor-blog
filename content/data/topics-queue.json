@@ -4391,11 +4391,11 @@
         "CompanyDeepDive"
       ],
       "amazon_category": "varies",
-      "status": "approved",
+      "status": "replaced",
       "approved_date": "2026-08-08",
       "approved_by": "representative",
       "cycle": "2026-W33",
-      "notes": "APPROVED batch #4. Founded 1982 김동숙(故), HQ 인천 서운산단, 60-country exports, US subsidiary, 13 straight brand-award years in camping. Kovea Cube is at REI with third-party wooden-knob accessories = cult object. Zero English corporate story. VERIFY: revenue, OEM history (Coleman?), founder succession."
+      "notes": "APPROVED batch #4. Founded 1982 김동숙(故), HQ 인천 서운산단, 60-country exports, US subsidiary, 13 straight brand-award years in camping. Kovea Cube is at REI with third-party wooden-knob accessories = cult object. Zero English corporate story. VERIFY: revenue, OEM history (Coleman?), founder succession. | 2026-08-08 REPLACED by representative decision (option B): Kovea recognition is camping-niche only — the series engine needs product recognition on at least one side, and the rep had never heard of it. Swapped for Samick."
     },
     {
       "id": 203,
@@ -4415,6 +4415,29 @@
       "approved_by": "representative",
       "cycle": "2026-W33",
       "notes": "APPROVED batch #5 (weakest gap — product reviews exist in EN). Founded 1978 구자신, HQ 양산. US entity W30bn revenue +80%; sells rice cookers as multicookers in US. Blog 260 is the product guide; this is the company story. Distinct from 260 or skip if coverage check fails at draft time."
+    },
+    {
+      "id": 204,
+      "title": "Samick: The Korean Company That Made Your Guitar",
+      "target_keyword": "samick guitar company",
+      "keyword_shape": "identity_specific_company",
+      "category": "Business",
+      "business_type": "B-2 non-client spotlight",
+      "tags": [
+        "KoreanCompany",
+        "KoreanManufacturing",
+        "Samick",
+        "Guitars",
+        "CompanyDeepDive"
+      ],
+      "amazon_category": "Musical Instruments",
+      "status": "done",
+      "approved_date": "2026-08-08",
+      "approved_by": "representative",
+      "cycle": "2026-W33",
+      "notes": "APPROVED as Kovea replacement (option B). Dorco-pattern: invisible OEM — Samick has manufactured guitars for famous Western brands (Epiphone, Squier era claims — VERIFY specifics), claims among world largest guitar/piano makers, Indonesia mega-factory. Korean recognition via 삼익피아노. VERIFY before draft: 1958 founding + founder, 1990s court receivership and 2002 acquisition by 김종섭(스페코), KOSPI 002450 financials, Steinway stake history (largest shareholder before Paulson 2013 — verify), Seiler acquisition 2008, current OEM clients, Amazon ASINs.",
+      "slug": "samick-guitar-company-deep-dive",
+      "completed_date": "2026-08-08"
     }
   ],
   "last_updated": "2026-08-08",
