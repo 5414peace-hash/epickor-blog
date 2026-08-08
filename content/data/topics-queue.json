@@ -4314,6 +4314,103 @@
       "notes": "REPRESENTATIVE PROPOSED 2026-08-08. Premise to correct, not repeat: the rep (and every English listing) says JMW makes aircraft motors. It does not. | VERIFIED: founded 2004, CEO 강민웅, 주식회사 제이엠더블유. Korean R&D and domestic production of professional hair devices. | VERIFIED: first in Korea to put a BLDC motor in a hair dryer -- this part is real and did change the category. 1M cumulative BLDC dryer units by 2017. 8 consecutive years #1 in 올해의 브랜드 대상 hair dryer category (as of 2025). | THE ANGLE: 항공모터 (aircraft motor) is a MARKETING TERM, now a whole product category on Danawa that competitors (밀다 etc.) also use. Real aircraft use engines; BLDC motors appear in RC aircraft, helicopters and drones. Korean consumers already question it -- Clien thread 10982168 titled \"JMW드라이기의 BLDC 모터는 항공모터??\". Korean commenters compare it to 항공냄비 aluminium cookware. | So the thesis is the third counter-example in a row after 오뚜기 (did not export) and 풀무원 (bought American brands): JMW built a genuinely good thing and then buried it under a word that is not true. The real story is domestic BLDC engineering and salon-grade durability. | COVERAGE GATE looks CLEAN: English web has Amazon/retailer listings and a Canadian distributor site repeating \"aircraft motor\" verbatim. No English editorial or journalistic examination found. That is the gap. | SECTION FIT: would be the first appliance/hardware manufacturer in the business section, which is currently food (samyang/ottogi/pulmuone), beauty (cosmax/apr-medicube) and platforms (coupang/musinsa/toss/iconix). | STILL TO VERIFY BEFORE DRAFTING: revenue and salon share (not public in search; check 나이스평가정보 / DART if they file), export markets, employee count, patent filings (a US patent 8922082 \"BLDC motor for a hairdryer\" surfaced -- confirm assignee), and whether JMW has ever claimed aerospace supply itself vs distributors adding it. | IMAGE NOTE: 0차 rule applies -- jmwkorea.com serves a self-signed cert so WebFetch fails; use a browser UA via curl, or jmwmall.co.kr / jmwprofessional.com.",
       "slug": "jmw-hair-dryer-company-deep-dive",
       "completed_date": "2026-08-08"
+    },
+    {
+      "id": 199,
+      "title": "Dorco: The Korean Blades Behind Dollar Shave Club",
+      "target_keyword": "dorco razor korea",
+      "keyword_shape": "identity_specific_company",
+      "category": "Business",
+      "business_type": "B-2 non-client spotlight",
+      "tags": [
+        "KoreanCompany",
+        "KoreanManufacturing",
+        "CompanyDeepDive"
+      ],
+      "amazon_category": "varies",
+      "status": "done",
+      "approved_date": "2026-08-08",
+      "approved_by": "representative",
+      "cycle": "2026-W33",
+      "notes": "APPROVED as JMW-pattern batch #1. Founded 1955 by 탁시근 (동양경금속→한일공업→1990 도루코). DOUBLE mystery: mistaken for Japanese INSIDE Korea (Insight article documents it), invisible OEM abroad — made DSC blades while DSC sold to Unilever for $1bn. Amazon: Dorco sells own-brand US. Coverage: shaving blogs/Quora fragments 2012-16, no company editorial. VERIFY before draft: current ownership, revenue, world blade share, Pace 7 seven-blade world-first claim, what happened after DSC-Unilever.",
+      "slug": "dorco-razor-company-deep-dive",
+      "completed_date": "2026-08-08"
+    },
+    {
+      "id": 200,
+      "title": "Hurom: The Company That Invented the Slow Juicer",
+      "target_keyword": "hurom slow juicer company",
+      "keyword_shape": "identity_specific_company",
+      "category": "Business",
+      "business_type": "B-2 non-client spotlight",
+      "tags": [
+        "KoreanCompany",
+        "KoreanManufacturing",
+        "CompanyDeepDive"
+      ],
+      "amazon_category": "varies",
+      "status": "approved",
+      "approved_date": "2026-08-08",
+      "approved_by": "representative",
+      "cycle": "2026-W33",
+      "notes": "APPROVED batch #2. Founded 1974 김영기, HQ 김해. World-first vertical slow juicer 2005 (SST tech 2003), 12M units / 80 countries / cumulative W2.18tn. Every slow juicer is a copy. Amazon direct. English content mostly own marketing (Worldfolio/Newsweek-insights are ad-adjacent) — independent editorial gap. VERIFY: patent war with NUC/Kuvings, current revenue, ownership."
+    },
+    {
+      "id": 201,
+      "title": "Monami: The W300 Pen That Crashes Servers",
+      "target_keyword": "monami 153 pen",
+      "keyword_shape": "identity_specific_company",
+      "category": "Business",
+      "business_type": "B-2 non-client spotlight",
+      "tags": [
+        "KoreanCompany",
+        "KoreanManufacturing",
+        "CompanyDeepDive"
+      ],
+      "amazon_category": "varies",
+      "status": "approved",
+      "approved_date": "2026-08-08",
+      "approved_by": "representative",
+      "cycle": "2026-W33",
+      "notes": "APPROVED batch #3. Founded 1960 송삼석, HQ 용인. 153 pen since 1963-05-01, name = 15원 bus fare + 3rd product, still W300. 50th-anniv W20,000 limited sold out in 2 days; 2023 limited crashed servers. Brand power = people pay 66x for the same shape. Amazon has Monami. English: design-blog fragments only."
+    },
+    {
+      "id": 202,
+      "title": "Kovea: The Korean Stove With a US Cult Following",
+      "target_keyword": "kovea cube stove company",
+      "keyword_shape": "identity_specific_company",
+      "category": "Business",
+      "business_type": "B-2 non-client spotlight",
+      "tags": [
+        "KoreanCompany",
+        "KoreanManufacturing",
+        "CompanyDeepDive"
+      ],
+      "amazon_category": "varies",
+      "status": "approved",
+      "approved_date": "2026-08-08",
+      "approved_by": "representative",
+      "cycle": "2026-W33",
+      "notes": "APPROVED batch #4. Founded 1982 김동숙(故), HQ 인천 서운산단, 60-country exports, US subsidiary, 13 straight brand-award years in camping. Kovea Cube is at REI with third-party wooden-knob accessories = cult object. Zero English corporate story. VERIFY: revenue, OEM history (Coleman?), founder succession."
+    },
+    {
+      "id": 203,
+      "title": "Cuckoo: The Rice Cooker Koreans Ask Visitors to Carry",
+      "target_keyword": "cuckoo rice cooker company",
+      "keyword_shape": "identity_specific_company",
+      "category": "Business",
+      "business_type": "B-2 non-client spotlight",
+      "tags": [
+        "KoreanCompany",
+        "KoreanManufacturing",
+        "CompanyDeepDive"
+      ],
+      "amazon_category": "varies",
+      "status": "approved",
+      "approved_date": "2026-08-08",
+      "approved_by": "representative",
+      "cycle": "2026-W33",
+      "notes": "APPROVED batch #5 (weakest gap — product reviews exist in EN). Founded 1978 구자신, HQ 양산. US entity W30bn revenue +80%; sells rice cookers as multicookers in US. Blog 260 is the product guide; this is the company story. Distinct from 260 or skip if coverage check fails at draft time."
     }
   ],
   "last_updated": "2026-08-08",

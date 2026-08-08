@@ -1,10 +1,10 @@
 {
   "summary": {
-    "generatedAt": "2026-08-08T01:50:24.999Z",
-    "auditedPosts": 356,
+    "generatedAt": "2026-08-08T02:57:07.965Z",
+    "auditedPosts": 357,
     "includedPrivate": false,
     "slugFilter": "",
-    "bodyImages": 1300,
+    "bodyImages": 1302,
     "affectedPosts": 99,
     "critical": 0,
     "high": 0,
@@ -13707,6 +13707,31 @@
           "url": "/assets/images/business/coupang-company-deep-dive/coupang-reusable-bag.jpg",
           "alt": "A real Coupang-branded insulated grocery delivery bag, shown open, marked with Coupang and Rocket Fresh branding.",
           "caption": "Coupang's Rocket Fresh grocery delivery bag — one of several verticals the company has built on top of its core logistics network. Photo via Wikimedia Commons.",
+          "ext": ".jpg",
+          "exists": true
+        }
+      ],
+      "findings": []
+    },
+    {
+      "type": "business",
+      "slug": "dorco-razor-company-deep-dive",
+      "title": "Dorco Deep Dive: The Korean Company That Made Dollar Shave Club's Blades — and Outlived the Hype",
+      "contentPath": "content\\business\\dorco-razor-company-deep-dive.md",
+      "sourceRecord": "public\\assets\\images\\business\\dorco-razor-company-deep-dive\\image-sources.md",
+      "imageCount": 2,
+      "images": [
+        {
+          "url": "/assets/images/business/dorco-razor-company-deep-dive/dorco-sleek-flagship-razors.jpg",
+          "alt": "Dorco's flagship SLEEK razor line, official brand visual.",
+          "caption": "Dorco's flagship SLEEK line. The company that supplied other people's brands for decades now runs its own — and the engineering claims are printed on its history, not its marketing.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/business/dorco-razor-company-deep-dive/dorco-product-families.jpg",
+          "alt": "Dorco's product families in one official visual: a kitchen pan, men's and women's razor systems, and a stationery box cutter.",
+          "caption": "One frame, seventy years: the box cutter came first (1955, ground from discarded blades), the razors built the export business, the kitchenware extended the steel.",
           "ext": ".jpg",
           "exists": true
         }
