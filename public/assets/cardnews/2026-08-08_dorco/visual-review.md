@@ -1,0 +1,19 @@
+# Visual Review - 2026-08-08_dorco (spec-sheet system)
+
+Structural gate: PASS (4 subject-note exemptions eye-confirmed).
+All 7 PNGs inspected at full resolution.
+
+| Card | Topic fit /30 | Korea fit /25 | No-mislead /20 | Variety /15 | Mobile /10 | Total |
+|---|---|---|---|---|---|---|
+| 01 cover | 29 | 25 | 20 | 14 | 9 | 97 |
+| 02 trash years | 29 | 24 | 20 | 14 | 10 | 97 |
+| 03 DSC | 28 | 23 | 19 | 14 | 9 | 93 |
+| 04 6&7 number | 29 | 24 | 20 | 14 | 10 | 97 |
+| 05 Japanese twist | 28 | 25 | 19 | 14 | 9 | 95 |
+| 06 outcome | 28 | 23 | 19 | 14 | 9 | 93 |
+| 07 CTA | 27 | 24 | 19 | 14 | 9 | 93 |
+
+Average 95.0, min 93 — passes.
+Exemption eye-checks: every image is a DORCO-branded product or Dorco's own official visual;
+card 03's Dorco-cartridge-under-DSC-headline pairing is the card's stated argument, not a
+mismatch. DORCO wordmark clearly legible on cards 01/02/07.

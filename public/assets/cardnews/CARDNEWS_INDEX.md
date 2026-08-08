@@ -70,3 +70,6 @@ Instagram upload is representative-managed. As of 2026-07-02, the representative
 | 2026-08-02_ramyun | Korean Ramyun — Heat Scale | 7 | 제작완료·검수완료 (2026-08-03 개정: 제품 사진 전량 교체) | scheduled 2026-08-10 05:00 KST (Meta Suite, planner-verified 08-03) | /ramyun 허브 |
 | 2026-08-03_convenience-store | Korean Convenience Store — Shelf Tag | 7 | 제작완료·검수완료 | scheduled 2026-08-11 05:00 KST (Meta Suite, planner-verified 08-03) | /convenience-store 허브 |
 | 2026-08-04_seoul | Seoul by Neighbourhood — Station Sign | 7 | 제작완료·검수완료 | scheduled 2026-08-12 05:00 KST (Meta Suite, planner-verified 08-03) | /seoul 허브 |
+| `2026-08-08_samick` | samick | Korean Makers 01: Samick Guitars | 7 | final | ready for scheduling (proposed 8/16) |
+| `2026-08-08_dorco` | dorco | Korean Makers 02: Dorco Blades | 7 | final | ready for scheduling (proposed 8/17) |
+| `2026-08-08_cuckoo` | cuckoo | Korean Makers 03: Cuckoo Rice Cookers | 7 | final | ready for scheduling (proposed 8/18) |
