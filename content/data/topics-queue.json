@@ -4370,11 +4370,13 @@
         "CompanyDeepDive"
       ],
       "amazon_category": "varies",
-      "status": "approved",
+      "status": "done",
       "approved_date": "2026-08-08",
       "approved_by": "representative",
       "cycle": "2026-W33",
-      "notes": "APPROVED batch #3. Founded 1960 송삼석, HQ 용인. 153 pen since 1963-05-01, name = 15원 bus fare + 3rd product, still W300. 50th-anniv W20,000 limited sold out in 2 days; 2023 limited crashed servers. Brand power = people pay 66x for the same shape. Amazon has Monami. English: design-blog fragments only."
+      "notes": "APPROVED batch #3. Founded 1960 송삼석, HQ 용인. 153 pen since 1963-05-01, name = 15원 bus fare + 3rd product, still W300. 50th-anniv W20,000 limited sold out in 2 days; 2023 limited crashed servers. Brand power = people pay 66x for the same shape. Amazon has Monami. English: design-blog fragments only.",
+      "slug": "monami-153-company-deep-dive",
+      "completed_date": "2026-08-08"
     },
     {
       "id": 202,
