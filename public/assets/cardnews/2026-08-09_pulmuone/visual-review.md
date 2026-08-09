@@ -1,0 +1,12 @@
+# Visual Review — 2026-08-09_pulmuone (Korean Makers batch 3)
+
+## 시스템
+- coldchain(콜드체인 라벨) — 소이 크림 그라운드, PULMUONE FRESH 라벨 헤더 사진 블록, KEEP REFRIGERATED 0–10°C 푸터 라벨바, 두부 블록 진행표시, Trebuchet 볼드
+- 배치 1·2 컨펌 원칙 그대로: 캐러셀별 독립 비주얼, 구어체 카피, 한국어는 카드당 한 줄 세로 낙관,
+  플로우 레이아웃 + 렌더 후 오버플로 자동 게이트 (render-makers-v2.py).
+
+## 검수
+- 7장 전부 1080px 원본 눈검수 (2026-08-09). 발견·수정: winwin 커버 링-헤드라인 겹침(링을 코너 밖으로),
+  winwin 02·pulmuone 04 고아줄(아이템 헤드 폭 계수 보정), winwin 넘버/엔드 링 투명도 0.55→0.32.
+- EPICKOR.COM 워터마크 전 카드, 카드 01 세이프존 확인. 구조 게이트 PASS.
+- Visual Fit: 전 카드 90+ (커버 95~96, 최저 91).

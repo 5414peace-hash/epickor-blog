@@ -76,3 +76,6 @@ Instagram upload is representative-managed. As of 2026-07-02, the representative
 | `2026-08-08_monami` | monami | Korean Makers 04: Monami 153 (notebook) | 7 | final · 검수완료 | scheduled 2026-08-19 05:00 KST (Meta Suite, planner-verified 08-09) |
 | `2026-08-08_jmw` | jmw | Korean Makers 05: JMW Dryers (windtunnel) | 7 | final · 검수완료 | scheduled 2026-08-20 05:00 KST (Meta Suite, planner-verified 08-09) |
 | `2026-08-08_hurom` | hurom | Korean Makers 06: Hurom Juicers (freshpress) | 7 | final · 검수완료 | scheduled 2026-08-21 05:00 KST (Meta Suite, planner-verified 08-09) |
+| `2026-08-09_winwin` | winwin | Korean Makers 07: Win&Win Archery (target) | 7 | final · 검수완료 | 대표 검토 대기 (proposed 8/22) |
+| `2026-08-09_otoki` | otoki | Korean Makers 08: Otoki (timer) | 7 | final · 검수완료 | 대표 검토 대기 (proposed 8/23) |
+| `2026-08-09_pulmuone` | pulmuone | Korean Makers 09: Pulmuone (coldchain) | 7 | final · 검수완료 | 대표 검토 대기 (proposed 8/24) |

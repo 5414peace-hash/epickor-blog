@@ -1332,13 +1332,629 @@ def build_freshpress(meta, card, index, total):
   {fp_watermark()}'''
 
 
+# ============================================================ TARGET (winwin)
+
+TG_BG = '#FAFAF7'
+TG_INK = '#16181B'
+TG_MUTE = 'rgba(22,24,27,0.55)'
+TG_MUTE30 = 'rgba(22,24,27,0.32)'
+TG_GOLD = '#F0B429'
+TG_RED = '#D93829'
+TG_BLUE = '#2A6BC4'
+TG_DISPLAY = "'Segoe UI Black','Segoe UI',Arial,sans-serif"
+TG_SANS = "'Segoe UI',Arial,sans-serif"
+TG_MONO = "'Consolas','Courier New',monospace"
+TG_KO = "'Malgun Gothic','Segoe UI',sans-serif"
+
+
+def tg_rings(cx=1080, cy=0, scale=1.0, op=0.9):
+    """월드아카이브 5색 과녁: radial-gradient 밴드로 그린다."""
+    s = int(760 * scale)
+    return f'''
+  <div style="position:absolute;left:{cx - s}px;top:{cy - s}px;width:{2*s}px;height:{2*s}px;
+    border-radius:50%;opacity:{op};z-index:2;background:radial-gradient(circle,
+    {TG_GOLD} 0 20%, #FFFFFF 20% 21.5%,
+    {TG_RED} 21.5% 40%, #FFFFFF 40% 41.5%,
+    {TG_BLUE} 41.5% 60%, #FFFFFF 60% 61.5%,
+    {TG_INK} 61.5% 80%, #FFFFFF 80% 81.5%,
+    rgba(22,24,27,0.14) 81.5% 99%, transparent 99%);"></div>'''
+
+
+def tg_watermark():
+    return f'''
+  <div style="position:absolute;left:56px;top:48px;z-index:30;display:flex;align-items:center;gap:12px;">
+    <div style="width:30px;height:30px;border:2.5px solid {TG_INK};border-radius:50%;display:flex;
+      align-items:center;justify-content:center;font-family:{TG_SANS};font-size:11px;
+      font-weight:900;color:{TG_INK};background:#FFFFFF;">EK</div>
+    <div style="font-family:{TG_SANS};font-size:14px;font-weight:900;letter-spacing:0.24em;
+      color:{TG_INK};">EPICKOR.COM</div>
+  </div>'''
+
+
+def tg_hits(index, total):
+    dots = ''.join(
+        f'<div style="width:{12 if d == index else 9}px;height:{12 if d == index else 9}px;'
+        f'border-radius:50%;'
+        + (f'background:{TG_RED};box-shadow:0 0 0 3px rgba(217,56,41,0.25);' if d == index
+           else f'background:{TG_MUTE30};')
+        + '"></div>'
+        for d in range(1, total + 1))
+    return f'<div style="display:flex;gap:10px;align-items:center;">{dots}</div>'
+
+
+def tg_foot(index, total):
+    return f'''
+  <div style="position:absolute;left:56px;right:56px;top:1010px;z-index:26;
+    border-top:2px solid {TG_INK};padding-top:11px;display:flex;
+    justify-content:space-between;align-items:center;">
+    <div style="font-family:{TG_MONO};font-size:12px;font-weight:700;letter-spacing:0.2em;
+      color:{TG_MUTE};">WIN&amp;WIN — KOREAN MAKERS · FILE 07</div>
+    {tg_hits(index, total)}
+    <div style="font-family:{TG_MONO};font-size:12px;font-weight:700;letter-spacing:0.2em;
+      color:{TG_INK};">{index:02d} / {total:02d}</div>
+  </div>'''
+
+
+def tg_kicker(text, color=None):
+    return f'''<div style="font-family:{TG_MONO};font-weight:700;font-size:15px;
+      letter-spacing:0.26em;color:{color or TG_RED};text-transform:uppercase;">{text}</div>'''
+
+
+def tg_stamp(text):
+    if not text:
+        return ''
+    return f'''<div style="display:inline-block;align-self:flex-start;border:3px solid {TG_INK};
+      color:{TG_INK};background:{TG_GOLD};font-family:{TG_MONO};font-weight:700;font-size:15px;
+      letter-spacing:0.16em;padding:8px 16px;">{text}</div>'''
+
+
+def tg_photo(card, w, h):
+    if not card['image']:
+        return ''
+    fitmode = ('width:100%;height:100%;object-fit:cover;' if card['fit'] == 'cover'
+               else 'max-width:92%;max-height:92%;object-fit:contain;')
+    return f'''
+  <div style="width:{w}px;position:relative;">
+    <div style="height:{h}px;background:#FFFFFF;border:3px solid {TG_INK};overflow:hidden;
+      display:flex;align-items:center;justify-content:center;">
+      <img src="{card['image']}" alt="{card['image_label']}" style="{fitmode}display:block;"></div>
+    <div style="position:absolute;right:-16px;top:-16px;width:52px;height:52px;border-radius:50%;
+      background:{TG_GOLD};border:3px solid {TG_INK};display:flex;align-items:center;
+      justify-content:center;font-family:{TG_DISPLAY};font-size:20px;color:{TG_INK};">10</div>
+    <div style="margin-top:12px;font-family:{TG_MONO};font-size:12px;font-weight:700;
+      letter-spacing:0.08em;color:{TG_MUTE};text-transform:uppercase;
+      line-height:1.4;">{card['image_label']}</div>
+  </div>'''
+
+
+def tg_koline(card):
+    if not card['ko_line']:
+        return ''
+    return f'''
+  <div style="position:absolute;left:58px;top:0;bottom:0;z-index:24;display:flex;
+    align-items:center;">
+    <div style="writing-mode:vertical-rl;font-family:{TG_KO};font-size:13px;font-weight:600;
+      letter-spacing:0.42em;color:{TG_MUTE30};">{card['ko_line']}</div>
+  </div>'''
+
+
+def build_target(meta, card, index, total):
+    mode = card['mode']
+
+    if mode == 'cover':
+        # rings pushed far into the corner: at scale .78 centred at (1160,-70)
+        # the outermost band stays clear of the headline column (checked by
+        # distance: any point left of x=860 at headline height sits outside
+        # the 593px radius). A centred ring put "KOREA," on the black band.
+        return f'''
+  {tg_rings(cx=1160, cy=-70, scale=0.78, op=0.95)}
+  {tg_koline(card)}
+  <div data-flow="1" style="position:absolute;left:96px;right:110px;top:118px;height:864px;
+    z-index:20;display:flex;flex-direction:column;gap:24px;justify-content:center;">
+    {tg_kicker(card['kicker'])}
+    <div style="font-family:{TG_DISPLAY};font-size:{fit_size(card['main'], 850, 88, 0.72)}px;
+      color:{TG_INK};line-height:1.04;letter-spacing:-0.01em;
+      text-transform:uppercase;">{esc(card['main'])}</div>
+    {tg_stamp(card['stamp'])}
+    <div style="display:flex;align-items:flex-start;gap:40px;">
+      <div style="flex:1;font-family:{TG_SANS};font-weight:400;font-size:23px;color:{TG_MUTE};
+        line-height:1.55;padding-top:6px;">{esc(card['sub'])}</div>
+      <div style="flex:0 0 400px;">{tg_photo(card, 400, 300)}</div>
+    </div>
+  </div>
+  {tg_foot(index, total)}
+  {tg_watermark()}'''
+
+    if mode == 'number':
+        return f'''
+  {tg_rings(cx=1060, cy=1080, scale=0.7, op=0.32)}
+  {tg_koline(card)}
+  <div data-flow="1" style="position:absolute;left:100px;right:130px;top:130px;height:850px;
+    z-index:20;display:flex;flex-direction:column;gap:26px;justify-content:center;">
+    {tg_kicker(card['kicker'])}
+    <div style="font-family:{TG_DISPLAY};font-size:{fit_size(card['num'], 800, 290, 0.64)}px;
+      color:{TG_INK};line-height:0.96;letter-spacing:-0.02em;
+      font-variant-numeric:tabular-nums;">{esc(card['num'])}</div>
+    <div style="font-family:{TG_SANS};font-weight:700;font-size:27px;color:{TG_RED};
+      line-height:1.35;max-width:740px;">{esc(card['num_label'])}</div>
+    <div style="font-family:{TG_SANS};font-weight:400;font-size:23px;color:{TG_MUTE};
+      line-height:1.55;max-width:740px;">{esc(card['sub'])}</div>
+    {tg_stamp(card['stamp'])}
+  </div>
+  {tg_foot(index, total)}
+  {tg_watermark()}'''
+
+    if mode == 'end':
+        return f'''
+  {tg_rings(cx=30, cy=1060, scale=0.7, op=0.32)}
+  {tg_koline(card)}
+  <div data-flow="1" style="position:absolute;left:120px;right:120px;top:106px;height:880px;
+    z-index:20;display:flex;flex-direction:column;align-items:center;justify-content:center;
+    gap:24px;text-align:center;">
+    {tg_kicker(card['kicker'])}
+    <div style="font-family:{TG_DISPLAY};font-size:{fit_size(card['main'], 800, 74, 0.72)}px;
+      color:{TG_INK};line-height:1.05;text-transform:uppercase;">{esc(card['main'])}</div>
+    <div style="font-family:{TG_SANS};font-weight:400;font-size:22px;color:{TG_MUTE};
+      line-height:1.5;max-width:700px;">{esc(card['sub'])}</div>
+    {tg_photo(card, 380, 300)}
+    <div style="background:{TG_RED};color:#FFFFFF;font-family:{TG_DISPLAY};font-size:26px;
+      letter-spacing:0.1em;padding:15px 42px;">EPICKOR.COM</div>
+  </div>
+  {tg_foot(index, total)}
+  {tg_watermark()}'''
+
+    # item: text left, scored photo right
+    head = card['name_en'] or card['main']
+    num_block = ''
+    if card['num']:
+        num_block = f'''
+    <div style="font-family:{TG_DISPLAY};font-size:{fit_size(card['num'], 430, 84, 0.64)}px;
+      color:{TG_RED};line-height:1;font-variant-numeric:tabular-nums;">{esc(card['num'])}</div>
+    <div style="font-family:{TG_MONO};font-size:14px;font-weight:700;letter-spacing:0.18em;
+      color:{TG_INK};text-transform:uppercase;">{esc(card['num_label'])}</div>'''
+    note = ''
+    if card['note']:
+        note = f'''
+    <div style="border-left:3px solid {TG_GOLD};padding-left:16px;font-family:{TG_SANS};
+      font-weight:600;font-size:19px;color:{TG_INK};line-height:1.5;">{esc(card['note'])}</div>'''
+    return f'''
+  {tg_rings(cx=1080, cy=1080, scale=0.55, op=0.3)}
+  {tg_koline(card)}
+  <div style="position:absolute;left:96px;right:84px;top:118px;height:864px;z-index:20;
+    display:flex;align-items:center;gap:44px;">
+    <div data-flow="1" style="flex:1.15;display:flex;flex-direction:column;gap:19px;min-width:0;">
+      {tg_kicker(card['kicker'])}
+      <div style="font-family:{TG_DISPLAY};font-size:{fit_size(head, 500, 52, 0.75)}px;
+        color:{TG_INK};line-height:1.1;text-transform:uppercase;">{esc(head)}</div>
+      <div style="font-family:{TG_SANS};font-weight:400;font-size:21px;color:{TG_MUTE};
+        line-height:1.55;">{esc(card['sub'])}</div>
+      {num_block}
+      {note}
+    </div>
+    <div data-flow="1" style="flex:0 0 380px;">{tg_photo(card, 380, 470)}</div>
+  </div>
+  {tg_foot(index, total)}
+  {tg_watermark()}'''
+
+
+# ============================================================ TIMER (otoki)
+
+TM_YELLOW = '#F7B917'
+TM_BROWN = '#57280B'
+TM_BROWN70 = 'rgba(87,40,11,0.74)'
+TM_BROWN40 = 'rgba(87,40,11,0.4)'
+TM_RED = '#D42B1E'
+TM_CREAM = '#FFF6E3'
+TM_DISPLAY = "Impact,'Arial Black','Segoe UI',sans-serif"
+TM_SANS = "'Segoe UI',Arial,sans-serif"
+TM_MONO = "'Consolas','Courier New',monospace"
+TM_KO = "'Malgun Gothic','Segoe UI',sans-serif"
+
+
+def tm_ground():
+    return f'''
+  <div style="position:absolute;inset:0;background:{TM_YELLOW};"></div>
+  <div style="position:absolute;inset:0;background:
+    radial-gradient(circle at 85% 12%, rgba(255,255,255,0.28) 0%, transparent 34%),
+    radial-gradient(circle at 8% 95%, rgba(87,40,11,0.08) 0%, transparent 30%);"></div>
+  <div style="position:absolute;inset:26px;border:3px solid {TM_BROWN};z-index:5;"></div>'''
+
+
+def tm_watermark():
+    return f'''
+  <div style="position:absolute;left:60px;top:52px;z-index:30;display:flex;align-items:center;gap:12px;">
+    <div style="width:30px;height:30px;border:3px solid {TM_BROWN};display:flex;align-items:center;
+      justify-content:center;font-family:{TM_SANS};font-size:11px;font-weight:900;
+      color:{TM_BROWN};background:{TM_CREAM};">EK</div>
+    <div style="font-family:{TM_SANS};font-size:14px;font-weight:900;letter-spacing:0.24em;
+      color:{TM_BROWN};">EPICKOR.COM</div>
+  </div>'''
+
+
+def tm_dial(index, total, size=54):
+    """주방 타이머: 경과분(index/total)만큼 붉게 채운 다이얼."""
+    deg = int(360 * index / total)
+    return f'''
+  <div style="width:{size}px;height:{size}px;border-radius:50%;border:3px solid {TM_BROWN};
+    background:conic-gradient({TM_RED} 0deg {deg}deg, {TM_CREAM} {deg}deg 360deg);
+    position:relative;">
+    <div style="position:absolute;left:50%;top:-7px;width:4px;height:9px;background:{TM_BROWN};
+      margin-left:-2px;"></div>
+  </div>'''
+
+
+def tm_foot(index, total):
+    return f'''
+  <div style="position:absolute;left:60px;right:60px;top:1002px;z-index:26;display:flex;
+    justify-content:space-between;align-items:center;">
+    <div style="font-family:{TM_MONO};font-size:12px;font-weight:700;letter-spacing:0.2em;
+      color:{TM_BROWN70};">OTOKI — KOREAN MAKERS · FILE 08</div>
+    {tm_dial(index, total, 46)}
+    <div style="font-family:{TM_MONO};font-size:12px;font-weight:700;letter-spacing:0.2em;
+      color:{TM_BROWN};">{index:02d} / {total:02d}</div>
+  </div>'''
+
+
+def tm_kicker(text):
+    return f'''<div style="display:inline-block;align-self:flex-start;background:{TM_RED};
+      color:#FFFFFF;font-family:{TM_SANS};font-weight:800;font-size:15px;
+      letter-spacing:0.18em;padding:8px 18px;text-transform:uppercase;">{text}</div>'''
+
+
+def tm_stamp(text):
+    if not text:
+        return ''
+    return f'''<div style="display:inline-block;align-self:flex-start;border:3px solid {TM_BROWN};
+      color:{TM_BROWN};font-family:{TM_MONO};font-weight:700;font-size:15px;
+      letter-spacing:0.16em;padding:8px 16px;transform:rotate(-2deg);">{text}</div>'''
+
+
+def tm_crimp(width):
+    """레토르트 파우치 압착선: 지그재그 스트립."""
+    return (f'<div style="width:{width}px;height:10px;background:'
+            f'repeating-linear-gradient(135deg,{TM_BROWN40} 0 6px,transparent 6px 12px);"></div>')
+
+
+def tm_photo(card, w, h):
+    if not card['image']:
+        return ''
+    fitmode = ('width:100%;height:100%;object-fit:cover;' if card['fit'] == 'cover'
+               else 'max-width:94%;max-height:94%;object-fit:contain;')
+    return f'''
+  <div style="width:{w}px;">
+    {tm_crimp(w)}
+    <div style="height:{h}px;background:#FFFFFF;border-left:3px solid {TM_BROWN};
+      border-right:3px solid {TM_BROWN};overflow:hidden;display:flex;align-items:center;
+      justify-content:center;">
+      <img src="{card['image']}" alt="{card['image_label']}" style="{fitmode}display:block;"></div>
+    {tm_crimp(w)}
+    <div style="margin-top:11px;font-family:{TM_MONO};font-size:12px;font-weight:700;
+      letter-spacing:0.08em;color:{TM_BROWN70};text-transform:uppercase;
+      line-height:1.4;">{card['image_label']}</div>
+  </div>'''
+
+
+def tm_koline(card):
+    if not card['ko_line']:
+        return ''
+    return f'''
+  <div style="position:absolute;left:60px;top:0;bottom:0;z-index:24;display:flex;
+    align-items:center;">
+    <div style="writing-mode:vertical-rl;font-family:{TM_KO};font-size:13px;font-weight:600;
+      letter-spacing:0.42em;color:{TM_BROWN40};">{card['ko_line']}</div>
+  </div>'''
+
+
+def build_timer(meta, card, index, total):
+    mode = card['mode']
+
+    if mode == 'cover':
+        return f'''
+  {tm_ground()}
+  {tm_koline(card)}
+  <div data-flow="1" style="position:absolute;left:100px;right:100px;top:116px;height:860px;
+    z-index:20;display:flex;flex-direction:column;gap:24px;justify-content:center;">
+    {tm_kicker(card['kicker'])}
+    <div style="font-family:{TM_DISPLAY};font-size:{fit_size(card['main'], 860, 96, 0.52)}px;
+      color:{TM_BROWN};line-height:1.02;letter-spacing:0.01em;
+      text-transform:uppercase;">{esc(card['main'])}</div>
+    {tm_stamp(card['stamp'])}
+    <div style="display:flex;align-items:flex-start;gap:40px;">
+      <div style="flex:1;font-family:{TM_SANS};font-weight:500;font-size:23px;color:{TM_BROWN70};
+        line-height:1.55;padding-top:4px;">{esc(card['sub'])}</div>
+      <div style="flex:0 0 400px;">{tm_photo(card, 400, 300)}</div>
+    </div>
+  </div>
+  {tm_foot(index, total)}
+  {tm_watermark()}'''
+
+    if mode == 'number':
+        return f'''
+  {tm_ground()}
+  {tm_koline(card)}
+  <div data-flow="1" style="position:absolute;left:110px;right:130px;top:130px;height:850px;
+    z-index:20;display:flex;flex-direction:column;gap:26px;justify-content:center;">
+    {tm_kicker(card['kicker'])}
+    <div style="font-family:{TM_DISPLAY};font-size:{fit_size(card['num'], 800, 300, 0.52)}px;
+      color:{TM_BROWN};line-height:0.96;font-variant-numeric:tabular-nums;">{esc(card['num'])}</div>
+    <div style="font-family:{TM_SANS};font-weight:800;font-size:27px;color:{TM_RED};
+      line-height:1.35;max-width:760px;">{esc(card['num_label'])}</div>
+    <div style="font-family:{TM_SANS};font-weight:500;font-size:23px;color:{TM_BROWN70};
+      line-height:1.55;max-width:760px;">{esc(card['sub'])}</div>
+    {tm_stamp(card['stamp'])}
+  </div>
+  {tm_foot(index, total)}
+  {tm_watermark()}'''
+
+    if mode == 'end':
+        return f'''
+  {tm_ground()}
+  {tm_koline(card)}
+  <div data-flow="1" style="position:absolute;left:120px;right:120px;top:106px;height:880px;
+    z-index:20;display:flex;flex-direction:column;align-items:center;justify-content:center;
+    gap:24px;text-align:center;">
+    <div style="align-self:center;">{tm_kicker(card['kicker'])}</div>
+    <div style="font-family:{TM_DISPLAY};font-size:{fit_size(card['main'], 780, 84, 0.52)}px;
+      color:{TM_BROWN};line-height:1.04;text-transform:uppercase;">{esc(card['main'])}</div>
+    <div style="font-family:{TM_SANS};font-weight:500;font-size:22px;color:{TM_BROWN70};
+      line-height:1.5;max-width:700px;">{esc(card['sub'])}</div>
+    {tm_photo(card, 400, 300)}
+    <div style="background:{TM_RED};color:#FFFFFF;font-family:{TM_DISPLAY};font-size:27px;
+      letter-spacing:0.08em;padding:15px 44px;">EPICKOR.COM</div>
+  </div>
+  {tm_foot(index, total)}
+  {tm_watermark()}'''
+
+    # item
+    head = card['name_en'] or card['main']
+    num_block = ''
+    if card['num']:
+        num_block = f'''
+    <div style="font-family:{TM_DISPLAY};font-size:{fit_size(card['num'], 430, 84, 0.52)}px;
+      color:{TM_RED};line-height:1;font-variant-numeric:tabular-nums;">{esc(card['num'])}</div>
+    <div style="font-family:{TM_MONO};font-size:14px;font-weight:700;letter-spacing:0.16em;
+      color:{TM_BROWN};text-transform:uppercase;">{esc(card['num_label'])}</div>'''
+    note = ''
+    if card['note']:
+        note = f'''
+    <div style="background:{TM_CREAM};border-left:5px solid {TM_RED};padding:14px 18px;
+      font-family:{TM_SANS};font-weight:600;font-size:19px;color:{TM_BROWN};
+      line-height:1.45;">{esc(card['note'])}</div>'''
+    return f'''
+  {tm_ground()}
+  {tm_koline(card)}
+  <div style="position:absolute;left:100px;right:84px;top:118px;height:864px;z-index:20;
+    display:flex;align-items:center;gap:44px;">
+    <div data-flow="1" style="flex:1.15;display:flex;flex-direction:column;gap:19px;min-width:0;">
+      {tm_kicker(card['kicker'])}
+      <div style="font-family:{TM_DISPLAY};font-size:{fit_size(head, 500, 56, 0.5)}px;
+        color:{TM_BROWN};line-height:1.08;text-transform:uppercase;">{esc(head)}</div>
+      <div style="font-family:{TM_SANS};font-weight:500;font-size:21.5px;color:{TM_BROWN70};
+        line-height:1.55;">{esc(card['sub'])}</div>
+      {num_block}
+      {note}
+    </div>
+    <div data-flow="1" style="flex:0 0 380px;">{tm_photo(card, 380, 460)}</div>
+  </div>
+  {tm_foot(index, total)}
+  {tm_watermark()}'''
+
+
+# ============================================================ COLDCHAIN (pulmuone)
+
+CC_BG = '#F1EEE4'
+CC_INK = '#22261F'
+CC_MUTE = 'rgba(34,38,31,0.56)'
+CC_MUTE30 = 'rgba(34,38,31,0.32)'
+CC_GREEN = '#1E6B3C'
+CC_BLUE = '#3D7EA6'
+CC_WHITE = '#FFFFFF'
+CC_DISPLAY = "'Trebuchet MS','Segoe UI',Arial,sans-serif"
+CC_SANS = "'Segoe UI',Arial,sans-serif"
+CC_MONO = "'Consolas','Courier New',monospace"
+CC_KO = "'Malgun Gothic','Segoe UI',sans-serif"
+
+
+def cc_ground():
+    return f'''
+  <div style="position:absolute;inset:0;background:{CC_BG};"></div>
+  <div style="position:absolute;inset:0;background:
+    repeating-linear-gradient(90deg, rgba(34,38,31,0.025) 0 1px, transparent 1px 90px);"></div>'''
+
+
+def cc_watermark():
+    return f'''
+  <div style="position:absolute;left:58px;top:50px;z-index:30;display:flex;align-items:center;gap:12px;">
+    <div style="width:30px;height:30px;background:{CC_GREEN};border-radius:7px;display:flex;
+      align-items:center;justify-content:center;font-family:{CC_DISPLAY};font-size:11px;
+      font-weight:700;color:#FFFFFF;">EK</div>
+    <div style="font-family:{CC_DISPLAY};font-size:14px;font-weight:700;letter-spacing:0.22em;
+      color:{CC_INK};">EPICKOR.COM</div>
+  </div>'''
+
+
+def cc_blocks(index, total):
+    cells = ''.join(
+        f'<div style="width:16px;height:16px;border-radius:4px;'
+        + (f'background:{CC_GREEN};' if d <= index else
+           f'background:{CC_WHITE};border:1.5px solid {CC_MUTE30};')
+        + '"></div>'
+        for d in range(1, total + 1))
+    return f'<div style="display:flex;gap:7px;align-items:center;">{cells}</div>'
+
+
+def cc_foot(index, total):
+    return f'''
+  <div style="position:absolute;left:58px;right:58px;top:1004px;height:46px;z-index:26;
+    background:{CC_WHITE};border:2px solid {CC_GREEN};border-radius:10px;display:flex;
+    align-items:center;justify-content:space-between;padding:0 22px;">
+    <div style="font-family:{CC_MONO};font-size:11.5px;font-weight:700;letter-spacing:0.16em;
+      color:{CC_GREEN};">PULMUONE — KOREAN MAKERS · FILE 09</div>
+    <div style="display:flex;align-items:center;gap:16px;">
+      <div style="font-family:{CC_MONO};font-size:11.5px;font-weight:700;letter-spacing:0.1em;
+        color:{CC_BLUE};">KEEP REFRIGERATED 0–10°C</div>
+      {cc_blocks(index, total)}
+      <div style="font-family:{CC_MONO};font-size:11.5px;font-weight:700;letter-spacing:0.16em;
+        color:{CC_INK};">{index:02d}/{total:02d}</div>
+    </div>
+  </div>'''
+
+
+def cc_kicker(text):
+    return f'''<div style="display:inline-block;align-self:flex-start;background:{CC_GREEN};
+      color:#FFFFFF;font-family:{CC_DISPLAY};font-weight:700;font-size:15px;
+      letter-spacing:0.16em;padding:8px 18px;border-radius:7px;
+      text-transform:uppercase;">{text}</div>'''
+
+
+def cc_stamp(text):
+    if not text:
+        return ''
+    return f'''<div style="display:inline-block;align-self:flex-start;border:2.5px solid {CC_BLUE};
+      color:{CC_BLUE};font-family:{CC_MONO};font-weight:700;font-size:14px;
+      letter-spacing:0.14em;padding:8px 16px;border-radius:7px;">{text}</div>'''
+
+
+def cc_photo(card, w, h):
+    if not card['image']:
+        return ''
+    fitmode = ('width:100%;height:100%;object-fit:cover;' if card['fit'] == 'cover'
+               else 'max-width:94%;max-height:94%;object-fit:contain;')
+    return f'''
+  <div style="width:{w}px;">
+    <div style="background:{CC_WHITE};border-radius:12px;overflow:hidden;
+      box-shadow:0 12px 30px rgba(34,38,31,0.14);">
+      <div style="background:{CC_GREEN};color:#FFFFFF;font-family:{CC_MONO};font-size:11.5px;
+        font-weight:700;letter-spacing:0.18em;padding:8px 14px;">PULMUONE FRESH · 풀무원</div>
+      <div style="height:{h}px;overflow:hidden;display:flex;align-items:center;
+        justify-content:center;">
+        <img src="{card['image']}" alt="{card['image_label']}" style="{fitmode}display:block;"></div>
+    </div>
+    <div style="margin-top:11px;font-family:{CC_MONO};font-size:12px;font-weight:700;
+      letter-spacing:0.06em;color:{CC_MUTE};text-transform:uppercase;
+      line-height:1.4;">{card['image_label']}</div>
+  </div>'''
+
+
+def cc_koline(card):
+    if not card['ko_line']:
+        return ''
+    return f'''
+  <div style="position:absolute;right:58px;top:0;bottom:0;z-index:24;display:flex;
+    align-items:center;">
+    <div style="writing-mode:vertical-rl;font-family:{CC_KO};font-size:13px;font-weight:600;
+      letter-spacing:0.42em;color:{CC_MUTE30};">{card['ko_line']}</div>
+  </div>'''
+
+
+def build_coldchain(meta, card, index, total):
+    mode = card['mode']
+
+    if mode == 'cover':
+        return f'''
+  {cc_ground()}
+  {cc_koline(card)}
+  <div data-flow="1" style="position:absolute;left:96px;right:104px;top:116px;height:860px;
+    z-index:20;display:flex;flex-direction:column;gap:24px;justify-content:center;">
+    {cc_kicker(card['kicker'])}
+    <div style="font-family:{CC_DISPLAY};font-weight:700;
+      font-size:{fit_size(card['main'], 860, 84, 0.66)}px;color:{CC_INK};line-height:1.05;
+      letter-spacing:-0.01em;text-transform:uppercase;">{esc(card['main'])}</div>
+    {cc_stamp(card['stamp'])}
+    <div style="display:flex;align-items:flex-start;gap:40px;">
+      <div style="flex:1;font-family:{CC_SANS};font-weight:400;font-size:23px;color:{CC_MUTE};
+        line-height:1.55;padding-top:4px;">{esc(card['sub'])}</div>
+      <div style="flex:0 0 420px;">{cc_photo(card, 420, 280)}</div>
+    </div>
+  </div>
+  {cc_foot(index, total)}
+  {cc_watermark()}'''
+
+    if mode == 'number':
+        return f'''
+  {cc_ground()}
+  {cc_koline(card)}
+  <div data-flow="1" style="position:absolute;left:110px;right:130px;top:130px;height:850px;
+    z-index:20;display:flex;flex-direction:column;gap:26px;justify-content:center;">
+    {cc_kicker(card['kicker'])}
+    <div style="font-family:{CC_DISPLAY};font-weight:700;
+      font-size:{fit_size(card['num'], 800, 280, 0.62)}px;color:{CC_GREEN};line-height:0.96;
+      font-variant-numeric:tabular-nums;">{esc(card['num'])}</div>
+    <div style="font-family:{CC_SANS};font-weight:700;font-size:27px;color:{CC_INK};
+      line-height:1.35;max-width:760px;">{esc(card['num_label'])}</div>
+    <div style="font-family:{CC_SANS};font-weight:400;font-size:23px;color:{CC_MUTE};
+      line-height:1.55;max-width:760px;">{esc(card['sub'])}</div>
+    {cc_stamp(card['stamp'])}
+  </div>
+  {cc_foot(index, total)}
+  {cc_watermark()}'''
+
+    if mode == 'end':
+        return f'''
+  {cc_ground()}
+  {cc_koline(card)}
+  <div data-flow="1" style="position:absolute;left:120px;right:120px;top:106px;height:880px;
+    z-index:20;display:flex;flex-direction:column;align-items:center;justify-content:center;
+    gap:24px;text-align:center;">
+    <div style="align-self:center;">{cc_kicker(card['kicker'])}</div>
+    <div style="font-family:{CC_DISPLAY};font-weight:700;
+      font-size:{fit_size(card['main'], 780, 72, 0.66)}px;color:{CC_INK};line-height:1.06;
+      text-transform:uppercase;">{esc(card['main'])}</div>
+    <div style="font-family:{CC_SANS};font-weight:400;font-size:22px;color:{CC_MUTE};
+      line-height:1.5;max-width:700px;">{esc(card['sub'])}</div>
+    {cc_photo(card, 420, 280)}
+    <div style="background:{CC_GREEN};color:#FFFFFF;font-family:{CC_DISPLAY};font-weight:700;
+      font-size:26px;letter-spacing:0.1em;padding:15px 44px;border-radius:10px;">EPICKOR.COM</div>
+  </div>
+  {cc_foot(index, total)}
+  {cc_watermark()}'''
+
+    # item
+    head = card['name_en'] or card['main']
+    num_block = ''
+    if card['num']:
+        num_block = f'''
+    <div style="font-family:{CC_DISPLAY};font-weight:700;
+      font-size:{fit_size(card['num'], 430, 80, 0.62)}px;color:{CC_GREEN};line-height:1;
+      font-variant-numeric:tabular-nums;">{esc(card['num'])}</div>
+    <div style="font-family:{CC_MONO};font-size:14px;font-weight:700;letter-spacing:0.16em;
+      color:{CC_INK};text-transform:uppercase;">{esc(card['num_label'])}</div>'''
+    note = ''
+    if card['note']:
+        note = f'''
+    <div style="background:{CC_WHITE};border-radius:10px;border-left:5px solid {CC_BLUE};
+      padding:14px 18px;font-family:{CC_SANS};font-weight:600;font-size:19px;color:{CC_INK};
+      line-height:1.45;">{esc(card['note'])}</div>'''
+    return f'''
+  {cc_ground()}
+  {cc_koline(card)}
+  <div style="position:absolute;left:96px;right:84px;top:118px;height:864px;z-index:20;
+    display:flex;align-items:center;gap:44px;">
+    <div data-flow="1" style="flex:1.15;display:flex;flex-direction:column;gap:19px;min-width:0;">
+      {cc_kicker(card['kicker'])}
+      <div style="font-family:{CC_DISPLAY};font-weight:700;
+        font-size:{fit_size(head, 500, 52, 0.70)}px;color:{CC_INK};line-height:1.1;
+        text-transform:uppercase;">{esc(head)}</div>
+      <div style="font-family:{CC_SANS};font-weight:400;font-size:21.5px;color:{CC_MUTE};
+        line-height:1.55;">{esc(card['sub'])}</div>
+      {num_block}
+      {note}
+    </div>
+    <div data-flow="1" style="flex:0 0 400px;">{cc_photo(card, 400, 440)}</div>
+  </div>
+  {cc_foot(index, total)}
+  {cc_watermark()}'''
+
+
 # ============================================================ shell + harness
 
 BUILDERS = {'sunburst': build_sunburst, 'blade': build_blade, 'homedrama': build_homedrama,
             'notebook': build_notebook, 'windtunnel': build_windtunnel,
-            'freshpress': build_freshpress}
+            'freshpress': build_freshpress, 'target': build_target, 'timer': build_timer,
+            'coldchain': build_coldchain}
 GROUNDS = {'sunburst': '#45250F', 'blade': BL_BG, 'homedrama': HD_CREAM,
-           'notebook': NB_PAPER, 'windtunnel': WT_BG, 'freshpress': FP_MIST}
+           'notebook': NB_PAPER, 'windtunnel': WT_BG, 'freshpress': FP_MIST,
+           'target': TG_BG, 'timer': TM_YELLOW, 'coldchain': CC_BG}
 
 SHELL = '''<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8">
 <meta name="viewport" content="width=1080"><style>
