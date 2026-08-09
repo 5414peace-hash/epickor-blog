@@ -1,10 +1,10 @@
 {
   "summary": {
-    "generatedAt": "2026-08-08T10:33:27.027Z",
-    "auditedPosts": 361,
+    "generatedAt": "2026-08-09T12:39:48.374Z",
+    "auditedPosts": 362,
     "includedPrivate": false,
     "slugFilter": "",
-    "bodyImages": 1310,
+    "bodyImages": 1312,
     "affectedPosts": 99,
     "critical": 0,
     "high": 0,
@@ -9427,7 +9427,7 @@
     {
       "type": "blog",
       "slug": "254",
-      "title": "Korean Hwachae 2026: Summer Fruit Punch And Picnic Culture",
+      "title": "Korean Hwachae: Summer Fruit Punch and Picnic Culture",
       "contentPath": "content\\blog\\254.md",
       "sourceRecord": "public\\assets\\images\\posts\\254\\image-sources.md",
       "imageCount": 3,
@@ -10023,7 +10023,7 @@
     {
       "type": "blog",
       "slug": "270",
-      "title": "Seoul Salt Bread Bakery Guide 2026: Best Routes",
+      "title": "Seoul Salt Bread Bakery Guide: Routes and Real Prices",
       "contentPath": "content\\blog\\270.md",
       "sourceRecord": "public\\assets\\images\\posts\\270\\image-sources.md",
       "imageCount": 3,
@@ -11495,7 +11495,7 @@
     {
       "type": "blog",
       "slug": "311",
-      "title": "Tteokbokki Guide 2026: Types, Spice Levels, and How to Order",
+      "title": "Tteokbokki: Korea's Spicy Rice Cakes, Types and Spice Levels",
       "contentPath": "content\\blog\\311.md",
       "sourceRecord": "public\\assets\\images\\posts\\311\\image-sources.md",
       "imageCount": 4,
@@ -11651,7 +11651,7 @@
     {
       "type": "blog",
       "slug": "315",
-      "title": "Myeongdong Guide 2026: Street Food and K-Beauty Shopping",
+      "title": "Myeongdong, Seoul: Street Food Prices and K-Beauty Shopping",
       "contentPath": "content\\blog\\315.md",
       "sourceRecord": "public\\assets\\images\\posts\\315\\image-sources.md",
       "imageCount": 4,
@@ -14540,6 +14540,31 @@
           "detail": "2 SVG body image(s); mixed-media use requires manual relevance review"
         }
       ]
+    },
+    {
+      "type": "business",
+      "slug": "winwin-archery-company-deep-dive",
+      "title": "Win&Win Deep Dive: Korea Won Olympic Gold with American Bows — Until Its Own Coach Built a Better One",
+      "contentPath": "content\\business\\winwin-archery-company-deep-dive.md",
+      "sourceRecord": "public\\assets\\images\\business\\winwin-archery-company-deep-dive\\image-sources.md",
+      "imageCount": 2,
+      "images": [
+        {
+          "url": "/assets/images/business/winwin-archery-company-deep-dive/wiawis-mxt-xp-limbs-official.jpg",
+          "alt": "Official WIAWIS product visual of MXT-XP recurve limbs crossed against a red background.",
+          "caption": "WIAWIS MXT-XP limbs, from Win&Win's own product imagery. The company that built these started because Korean gold medals were being won on someone else's bow. Image: Win&Win official site.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/business/winwin-archery-company-deep-dive/wiawis-risers-metadx-radicalpro-official.jpg",
+          "alt": "Official WIAWIS product images of the META DX graphene riser and Radical Pro riser, side by side.",
+          "caption": "Two WIAWIS risers from the company's current catalogue. The META DX carries Win&Win's graphene nano-carbon badge — the materials ladder (carbon, nano-carbon, graphene) is the moat that outlasted every rival. Images: Win&Win official site.",
+          "ext": ".jpg",
+          "exists": true
+        }
+      ],
+      "findings": []
     }
   ]
 }
