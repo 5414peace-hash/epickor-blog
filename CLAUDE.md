@@ -46,6 +46,7 @@
 
 ### Business Workflow And Trust Rules
 
+- **딥다이브 후보는 상장 대기업이 아니라 JMW형 중소기업이다 (2026-08-09 대표님 지시 — "하이트진로 이런 거는 하면 안 되는 분야야. 명심해").** 하이트진로·대상 종가·BGF/GS리테일급 후보는 전부 기각됐고 재론하지 않는다. 이 코너의 정체는 대기업 무료 소개가 아니라 **트립클립 수출바우처 영상 제작에 "EpicKor 기획기사"를 패키지로 붙이는 미래 상품의 포트폴리오**다. 그래서 후보 기준은: ① 외국인 수요/관심은 실재하는데 ② 한국에서든 영어권에서든 제대로 된 기획기사가 없는 중소기업, 또는 ③ 외국 기업들이 관심 가질 분야에서 잠재력 있는 중소기업을 **선제 발굴**해 그 회사의 영어 검색 결과를 EpicKor가 선점하는 것. 상장 여부 자체보다 "대기업/모두가 아는 회사"가 감점 요인이다. 소유구조 검증(한국 자본인가)은 기존 규칙대로 유지한다.
 - Weekly business topic lists require representative approval before drafting. After topic approval, Type A and B-2 posts may move through the pipeline autonomously.
 - B-1 client stories are blocked until representative confirms client selection and consent. Do not draft first and ask later.
 - Do not invent fake authors, fake headshots, fake credentials, or fictional editorial personas.
