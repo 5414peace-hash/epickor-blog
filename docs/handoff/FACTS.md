@@ -682,6 +682,15 @@
 
 ## instagram / social
 
+- **카드뉴스(캐러셀) 예약은 2026-08-09에 스크립트로 확정했다: `.claude/skills/cardnews/scripts/schedule-meta-cardnews.py`.** 6편 × (FB+IG) 12건을 한 번에 넣고 플래너로 검증했다. 릴스와 달리 **단계가 없다** — 한 화면에서 업로드·캡션·예약이 끝난다. 컴포저 URL: `https://business.facebook.com/latest/composer/?asset_id=1187482087784752&business_id=1214459297026761` (이 asset_id가 EpicKor다. **기본값은 VDOLAB이므로 화면에 `EpicKor`가 보이는지 확인하고 시작한다.**)
+  - **PNG 7장은 `connect_over_cdp`로도 올라간다** — 릴스의 50MB 제약은 파일 크기 문제이지 연결 방식 문제가 아니다. 카드 7장 합계는 1~6MB다.
+  - **가장 위험한 지점**: 푸터 기본값이 **`게시`(즉시 발행)**다. `날짜 및 시간 설정` 옆 스위치를 켜야 **`예약`으로 바뀐다.** 스크립트는 푸터 글자가 `예약`이 아니면 클릭을 거부한다.
+  - **업로드 후 `div[contenteditable=true]`가 2개가 되고 첫 번째는 hidden이다.** `.first`를 쓰면 `scroll_into_view_if_needed`에서 예외가 난다 — **보이는 첫 요소**를 골라야 한다.
+  - **AM/PM 스핀버튼의 `.value`는 항상 `''`이고 실제 상태는 `aria-valuetext`에 있다.** `input_value()`로 비교하면 조건이 영영 참이 안 되어 **전 게시물이 조용히 오후로 예약된다.** 8/16 리허설 스크린샷에서 `오후 05:00`을 발견해 잡았다. `ArrowUp`이 오전/오후 토글이다.
+  - **마지막 탭을 닫으면 Chrome이 통째로 종료된다.** 런처의 탭까지 정리하려다 두 번 브라우저를 죽였고 다음 `new_page()`가 `TargetClosedError`를 냈다. **자기 탭만 열고 자기 탭만 닫는다.**
+  - **미디어가 담긴 컴포저에서 이동하면 beforeunload가 뜨는데, sync API에서 `page.on('dialog', ...)`를 걸면 greenlet 안에서 터진다.** 다이얼로그를 다루려 하지 말고 **새 탭에서 시작**한다(`page.close()`는 beforeunload를 건너뛴다).
+  - **영속 프로필은 `D:\dev\.browser-profiles\epickor-meta`다.** CLAUDE.md의 "스크래치패드에 만들라"는 안내를 따랐다가 **세션마다 로그인이 날아가** 한 번 헛돌았다. 스크래치패드 경로는 세션마다 바뀐다.
+
 - **릴스 예약은 카드뉴스 예약과 다른 화면이고, 함정도 다르다. 2026-08-07 3편 실측으로 확정.** 재사용 스크립트: `.tmp/reel-schedule-one.py`.
   - **Playwright는 자기가 띄우지 않은 브라우저에 50MB 초과 파일을 못 넣는다** — `Cannot transfer files larger than 50Mb to a browser not co-located with the server`. 릴스 렌더는 58~130MB라 **`connect_over_cdp`로는 업로드가 불가능하다.** 반드시 같은 프로세스에서 `launch_persistent_context`로 띄워야 한다. 단 **`--remote-debugging-port=9222`를 같이 주어야** 이후 세밀한 조작을 별도 스크립트로 붙일 수 있다(두 번 빠뜨려서 두 번 재업로드했다).
   - **DOM에 `input[type=file]`이 미리 없다.** CDP `DOM.setFileInputFiles`로 우회하려 해도 노드가 0개다. `expect_file_chooser`로 감싸는 것 외에 방법이 없고, 그래서 위의 50MB 제약을 피할 수 없다.
