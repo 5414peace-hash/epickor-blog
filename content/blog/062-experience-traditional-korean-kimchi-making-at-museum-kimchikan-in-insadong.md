@@ -2,10 +2,10 @@
 title: "Museum Kimchikan Guide: Korean Kimchi, Kimjang, and Insadong Tips"
 slug: "062"
 date: "2024-08-07"
-updatedAt: "2026-07-31"
+updatedAt: "2026-08-09"
 visibility: "public"
 publishAt: ""
-description: "A practical Museum Kimchikan guide covering kimchi culture, kimjang, Insadong location, hours, tickets, programs, food allergies, and nearby stops."
+description: "Museum Kimchikan costs ₩5,000 for adults, opens Tuesday to Sunday 10:00-18:00 and closes every Monday. Kimchi culture, kimjang, the Insadong location, hands-on programs, allergy notes, and what to pair it with."
 tags: ['MuseumKimchikan', 'Kimchi', 'Kimjang', 'Insadong', 'KoreanFood']
 cleanUrl: ""
 ogImage: "/assets/images/posts/062/4ede73ef-726e-48bf-b436-11ff614ea6d8.png"
@@ -28,6 +28,28 @@ This guide explains what Museum Kimchikan is, how to visit, what to know about k
 ## Quick Answer: Is Museum Kimchikan Worth Visiting?
 
 Yes, Museum Kimchikan is worth visiting if you are interested in Korean food, kimchi, fermentation, UNESCO kimjang culture, or a short indoor stop in Insadong. It is especially useful for travelers who keep seeing kimchi at restaurants but do not yet understand why it matters.
+
+Here is what it costs and when you can actually get in:
+
+<div class="table-scroll">
+
+| | Detail |
+|---|---|
+| **Korean name** | 뮤지엄김치간 (Museum Kimchikan) |
+| **Admission, adult (19+)** | **₩5,000** |
+| **Primary / middle / high school** | ₩3,000 |
+| **Kindergarten** | ₩2,000 |
+| **Groups of 20+** | ₩4,000 adult · ₩2,000 student · ₩1,000 kindergarten |
+| **Hours** | Tuesday–Sunday **10:00–18:00**, last admission **17:30** |
+| **Closed** | **Every Monday**, 1 January, Lunar New Year, Chuseok, 25 December |
+| **Where** | Maru Art Center floors 4–6, 인사동길 35-4, Jongno-gu |
+| **Nearest stations** | Anguk 안국역 (Line 3), Jonggak 종각역 (Line 1), Jongno 3-ga 종로3가역 (Lines 1/3/5) — about 6 minutes' walk from each |
+
+</div>
+
+*Admission and hours checked August 2026 against the museum's own site. The museum moved to Insadong and reopened under this name on 21 April 2015.*
+
+At ₩5,000 this is one of the cheapest indoor stops in central Seoul, which matters for the decision it usually competes with: on a rainy Insadong afternoon it costs less than a café visit and takes about the same time.
 
 The official Museum Kimchikan site lists opening hours as Tuesday to Sunday, 10:00-18:00, with final admission at 17:30, and closures on Mondays, January 1, Lunar New Year holidays, Chuseok holidays, and Christmas Day. VisitKorea's listing places the museum on the 4th to 6th floors of Maru Art Center at 35-4 Insadong-gil, Jongno-gu, Seoul, and describes exhibitions on kimchi culture, history, trajectory, efficacy, videos, samples, and individual or group experience programs. Check the official <a href="https://www.kimchikan.com/en" target="_blank" rel="noopener noreferrer">Museum Kimchikan site</a> and the <a href="https://english.visitkorea.or.kr/svc/whereToGo/locIntrdn/rgnContentsView.do?vcontsId=66201" target="_blank" rel="noopener noreferrer">VisitKorea Museum Kimchikan listing</a> before visiting because programs and fees can change.
 
