@@ -3,122 +3,130 @@
 ## The gap
 
 `drinks` 8/13 · `ramyun` 8/14 · `seoul` 8/15 are scheduled and verified. **Nothing after 8/15.**
-Card news covers 8/16–8/24, so Reels are the side that goes dark first. This batch fills it.
+Card news covers 8/16–8/24, so Reels go dark first.
 
-## Gate first, as required
+## The first draft of this plan was rejected, and the reason matters
 
-Five topics were gated before any thesis was written. **Every verdict below came from opening
-contact frames, not from reading counts.** Three failed.
+The first version proposed **guard ceremony / palaces / Han River cherry blossoms**. The
+representative's verdict was one line: *주제가 재미없어.* Correct, and there is a rule in CLAUDE.md
+that already says why:
 
-| Topic | Korea-named | Verdict | Why |
-|---|---|---|---|
-| **palace ceremony / traditional performance** | 145 | **PASS** | drums, flags, marching, sword work — real motion events, subject survives the 9:16 band |
-| **hanok / village / palace** | 91 | **PASS** | dancheong, lanterns, hanbok crowds, fortress; distinct register from the above |
-| **han river / park / nature** | 49 | **PASS** | blossoms, bridges, river; **6 of 11 are native vertical** |
-| korea-convenience-store | 97 | **FAIL** | **zero convenience stores.** Pool is Seoul streets, Myeongdong cathedral, a bank, city buses |
-| jokbal-bossam | 31 | **FAIL** | pool is **grilled** pork; the article's thesis is boiled vs braised. Footage would contradict the script |
+> **2026-07-27 재발 방지: 이미지 소스 발견에 흥분해서 주제 선정 기준을 다시 왜곡한 사례.**
+> …대표님께 "한국인도 관심 없어할 만큼 코리안틱하다"는 지적을 받고 강등했다.
+> **이미지 조달 가능성은 이 5문항에 들어가지 않는다.**
 
-### The two failures are the same two failures we already documented
+**The footage gate is a veto, not a selector.** It exists to kill topics that cannot be filmed. It
+must never be used to *choose* topics, because the pool's own shape then picks the subject — and
+this pool's shape is a tourism board. Palaces, blossoms and ceremonies are what stock has, so
+letting the pool decide produces a tourism reel every time.
 
-**korea-convenience-store is `yakult-cart` again.** High Korea-named count, none of the object.
-CU/GS25/7-Eleven interiors are not a category stock libraries carry, exactly like commercial pack
-shots. Do not re-gate this topic hoping for a different result; the answer is our own 90
-convenience-store stills, not video.
+## Why the pool keeps pushing toward postcards
 
-**jokbal-bossam is `chilsung-cider` again.** Chilsung failed because every "pour" was cola —
-opaque, contradicting an article about *clear* soda. Here every pork clip is on a grill, contradicting
-an article about *boiled* bossam and *braised* jokbal. One clip (`34921939`, native 1080×1920,
-slug says pig trotters) may be real jokbal, but a Reel cannot stand on one uncertain clip.
+Five topic gates in a row now say the same thing:
 
-## Why counts had to be thrown away
+| Topic | Korea-named | Result |
+|---|---|---|
+| korea-convenience-store | 97 | **0 convenience stores.** Seoul streets, a cathedral, a bank, buses |
+| jokbal-bossam | 31 | all **grilled** pork, against an article about boiled and braised |
+| korea-archery | 83 | **one** archery clip, and it is a 25fps armoured-warrior reenactment |
+| noryangjin-fish | 51 | **0 fish markets** |
+| palace / hanok / river | 145 / 91 / 49 | plentiful — and generic |
 
-Per-gate counts double-count heavily — `seoul-park` (110), `korea-palace-ceremony` (124),
-`namsan-hillside` (71) and `korea-convenience-store` (74) largely return the *same* generic Seoul
-footage. Deduplicating every gate run against every clip already spent on Reels 294–302 and the
-hub batch gives the real inventory:
+**Stock has Korean scenery. It does not have Korean specifics.** EpicKor's identity is "지목해서 살
+수 있는 구체적인 것," and that is precisely the category stock lacks. The constraint selects for
+boring. Any future batch that skips this paragraph will rediscover it.
 
-**202 unused Korea-verified clips at ≥1080 tall**, distributed as:
+## The rule this batch follows instead
 
-| group | total | vertical | 4K+ | ≥59fps |
-|---|---|---|---|---|
-| street / city / transit | 71 | 11 | 21 | 12 |
-| unclassified | 54 | 8 | 15 | 3 |
-| **hanok / village / palace** | **29** | 6 | 9 | 4 |
-| food / cooking | 16 | 5 | 4 | 2 |
-| **han river / park / nature** | **11** | 6 | 4 | 3 |
-| **ceremony / guard / parade** | **10** | 1 | 8 | 4 |
-| market / street food | 6 | 2 | 0 | 0 |
-| night / neon | 3 | 1 | 1 | 2 |
-| hanbok / costume | 2 | 2 | 0 | 1 |
+Pick the **most surprising true sentence we own**, then ask whether footage can honestly prove it.
+Surprise first, footage as veto.
 
-`food / cooking` was rejected as a third Reel despite having 16 clips: **nine of the sixteen are
-Korean BBQ grilling**, which was already the visual spine of Reel A (drinks). Repeating it would
-trip the Reels 2.1 hard reject for repeated templates.
+---
 
-## The batch — three registers, zero collisions
+## Reel D — Cheonggyecheon → `/travel`
 
-Verified programmatically: **no clip appears in two Reels.**
+**The sentence:** *There was a six-lane elevated motorway here. Seoul tore it down and dug the
+buried stream back out.*
 
-### Reel D — Traditional performance → `/culture`
-**Register:** loud. Red, teal, gold; drums, flags, marching, sword work.
-**Thesis candidate:** the ceremony at the palace gate is free, runs on a fixed daily schedule, and
-most visitors walk straight past it on the way to the ticket office.
-**Pool: 12 clips, 274s, 8 at 4K+, 5 at ≥59fps.**
+**Verified facts.** The 청계고가도로 was demolished by **3 August 2003**. Restoration ran
+**1 July 2003 → 1 October 2005**, two years three months, **5.84km** from the Dong-A Ilbo building
+at Gwanghwamun to Sindap railway bridge in Seongdong-gu, at roughly **₩386.7 billion**. It was
+driven by mayor **이명박**, who became president two years later.
+
+**Why the crop works, unusually.** The stream is a vertical corridor between buildings, so the 9:16
+window *improves* the composition instead of destroying it — the opposite of the wide-landscape
+failure that killed `namsan-hillside`.
 
 | ID | Res | fps | s | What |
 |---|---|---|---|---|
-| `29117383` | 3840 | **60** | 16 | guard ceremony at palace — **hook candidate** |
-| `29233127` | 3840 | 59.94 | 15 | **drum performance** — a real motion event |
-| `29240314` | 3840 | 59.94 | 25 | guard ceremony, close row |
-| `29242638` | 3840 | 59.94 | 12 | parade, colourful flags |
-| `36459509` | 1080×1920 | 30 | **59** | traditional dance festival — **native vertical, long** |
-| `36459510` | 1920 | 30 | **72** | traditional dance performance |
-| `29240315` | 3840 | 23.98 | 15 | ceremony, drum being struck |
-| `29240313` · `29242640` · `29233129` | 3840 | 23.98 | 11/10/7 | ceremony variants |
-| `30012658` | 1080×1920 | 59.94 | 16 | hanbok fashion show — **native vertical** |
-| `34921915` | 1080×1920 | 30 | 16 | hanbok display, indoor |
+| `31714020` | 1920×1080 | 29.97 | **32** | stream corridor, people walking, towers behind — **hook** |
+| `31758112` | 1920×1080 | 30 | **33** | stream, bridge, spring foliage |
+| `31638894` | 1920×1080 | 29.97 | 19 | stepping stones, walkway |
+| `31758110` | 1920×1080 | 29.97 | 6 | close on water and stone |
 
-### Reel E — Palaces and hanok → `/culture` or `290`
-**Register:** architectural and calm. Dancheong green-and-red, wood, stone, lanterns, water.
-**Thesis candidate:** the palace grounds are wrapped in bus lanes and office towers — the contrast
-is the story, not the buildings alone.
-**Pool: 29 clips, 348s, 9 at 4K+, 6 native vertical.**
-Standouts: `34267133` (60fps dancheong pavilion) · `38462443` (59.93fps Gwanghwamun with city
-buses in frame) · `29354413` (temple lanterns with wish tags) · `29233126` (59.94fps hanbok crowd)
-· `15981227` (Museom village wooden bridge) · `37515906` (**8K** Suwon Hwaseong) · `28103732`
-(Dongsipjagak tower beside a crosswalk).
+---
 
-> **Open item:** `32676829` / `32676830` are Suwon Hwaseong **martial-arts reenactment** — warriors
-> mid-swing, the best pure action in the whole pool — but both are **25fps**. CLAUDE.md forbids
-> padding 25→30. Either keep them as native-cadence beats or leave them out; do not interpolate.
+## Reel E — Sungnyemun → `/culture`
 
-### Reel F — Han River and Seoul's green side → `/travel` or `267`
-**Register:** open and airy. Blossom pink, water, sky, mountains.
-**Thesis candidate:** the river is not scenery you look at, it is where the city actually goes.
-**Pool: 11 clips, 203s, 6 native vertical, 3 at ≥59fps.**
-Standouts: `32257242` and `32242945` (4K 59.94fps cherry blossom, **native vertical**) ·
-`37763965` (Seoullo bridge over the Han, native vertical 59.89fps) · `12079562` (36s, **trains
-crossing the railway bridge** — motion event) · `38259254` (4K aerial riverside at sunset) ·
-`36949171` (Namsan tower with blossoms, native vertical).
+**The sentence:** *This gate burned down in 2008. A man set fire to it and the country watched it
+collapse live on television. What tourists photograph today was finished in 2013.*
 
-**This is the most vertical-native Reel we have ever had material for** — six of eleven need no crop
-at all, which removes the single biggest quality tax on the format.
+**Verified facts.** Arson on the night of **10 February 2008** by **채종기**, then 69, from Chilgok.
+Restoration completed **29 April 2013**, reopened to the public **4 May 2013** — five years, two
+months and twenty days, about **₩27.67 billion**, roughly 35,000 workers.
 
-## Open items before production
+**Two twists worth the payoff slot.** First, the phrase every guidebook still uses — "National
+Treasure No. 1" — **was retired on 19 November 2021**, when Korea abolished heritage designation
+numbers after sixty years, because the numbering originated with the Japanese colonial listing. It
+is now simply **국보 숭례문**. Second, the rebuild itself went wrong: the **dancheong cracked and
+peeled within a year**, and reporting in 2022 found the damage still unrepaired more than a decade on.
 
-1. **Stills.** The 241-still inventory is food and product hubs; it does not serve culture Reels.
-   `374` just added four usable culture stills (Sejong statue night with the Hunminjeongeum
-   projection, statue in daylight, the Haerye opening page, the multi-language 축하합니다 projection).
-   Confirm the remaining still count per Reel against the 12–19 asset band before writing cut plans.
-2. **No post anchors the ceremony Reel.** The 2026-08-04 plan already flagged this: *"a dedicated
-   post on palace ceremonies would unlock the rest with footage already in hand."* That is still
-   true and is now the cheapest content win available — the footage is verified and sitting here.
-3. **Mixed cadence.** D is 24/30/60, E is 24/25/30/60, F is 30/60. Set each composition to 30fps and
-   pull the 60fps sources natively. Do not stretch 23.98 or 25.
-4. **Assembly is Remotion, not ffmpeg** — ONS, kicker chips, the red `epickor.com` outro chip,
-   watermark, TextGate and the 16-frame overlap come only from the kit.
-5. **Both QA gates are mandatory on every candidate**: `reels:qa-audio` (blocks on any ≥0.6s hole
-   inside narration) and `reels:qa-cuts` (contact sheet with each cut's spoken line — this is what
-   caught six screen/word mismatches on 2026-08-05).
-6. **Outro CTA IDs must differ across D/E/F.** Candidates: `LOCALS KNOW THE REST` (culture) for D,
-   `BEFORE YOU LAND` (travel) for E, `THERE'S MORE` for F.
+| ID | Res | fps | s | What |
+|---|---|---|---|---|
+| `37094297` | 1920×1080 | 29.97 | 8 | **people walking through the arch** — real motion, **hook** |
+| `18525869` | 1920×1080 | 29.97 | 13 | gate with crosswalk, cyclists, glass towers |
+| `29078559` | 1920×1080 | 30 | **28** | gate from the side, stone wall, traffic |
+| `29078509` · `29078508` | 1920×1080 | 29.97 | 5 / 8 | market alley with the gate at the end of it |
+| `37094305` | 1920×1440 | 30 | 5 | **1.33× upscale** — best ratio in the batch |
+
+---
+
+## Reel F — Suneung → `/culture` or `375` (the experiment)
+
+**The sentence:** *For thirty-five minutes every November, South Korea stops its aircraft. Artillery
+drills halt. The stock market opens an hour late. For a school listening test.*
+
+This is the strongest fact EpicKor owns and **there is no video of it.** The representative approved
+running it anyway as a one-off measurement: does a stills-led Reel actually land?
+
+Material: the four Korea.net exam-day photographs already sourced for `375` (parents praying at the
+gate, the aerial gate scene, juniors saluting, the required marker pen), plus honest video for the
+things the script names — `29117582` (**3840×2160, 59.94fps, 33s**, a Korean school building) and
+quiet early-morning Seoul street footage for "the city starts at ten."
+
+> **This Reel will not reach the 50% video floor.** That is reported, not padded. Precedent is the
+> 2026-08-05 rule: *제품 비교형 릴스는 팩샷이 정지컷으로만 존재하므로 구조적으로 50%에 못 미친다 —
+> 그 사실을 보고하고 넘어가되, 억지로 채우지 않는다.* If F underperforms D and E, the answer is that
+> stills-led Reels do not work and the format stays on place-with-an-event topics.
+
+---
+
+## Honest quality note
+
+Every clip in D and E is **1920×1080 or 1920×1440**, so the 9:16 crop needs a **1.78× upscale**
+(1.33× for one). That is inside the permitted band — CLAUDE.md allows FHD at 1.78× and rejects HD at
+2.67× — but it is a visible step down from the previous batch, which had 8K and 60fps sources. The
+trade is deliberate: interesting subject at FHD beats a beautiful 8K postcard. Hold the encode at
+**≥8 Mbps**, and ≥10 Mbps if motion is heavy.
+
+## Production requirements
+
+1. Assembly is **Remotion**, never ffmpeg concat — ONS, kicker chips, the red `epickor.com` outro
+   chip, watermark, TextGate and the 16-frame overlap come only from the kit.
+2. Stills must be pre-built as 1080×1920 blur-cover plates; video proxies need **cut length + 45
+   frames** of headroom so the overlap does not fall to black.
+3. Both QA gates on every candidate: `reels:qa-audio` (blocks on any ≥0.6s hole inside narration)
+   and `reels:qa-cuts` (contact sheet pairing each cut with the sentence spoken over it).
+4. Subtitle beats must end before the next one starts — `beats[i].endFrame = beats[i+1].startFrame - 1`
+   — or libass stacks them and the captions visibly climb.
+5. Distinct outro CTA IDs: `THERE'S MORE` (D) · `LOCALS KNOW THE REST` (E) · `WE WROTE IT ALL DOWN` (F).
