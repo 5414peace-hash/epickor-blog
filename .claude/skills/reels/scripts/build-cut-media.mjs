@@ -68,6 +68,10 @@ for (const cut of plan) {
      *   focusX  0..1 horizontal centre of the crop  (default 0.5)
      *   focusY  0..1 vertical centre of the crop    (default 0.5)
      *   top     y position of the fitted image      (default centred)
+     *
+     * Background darkening was -0.16 and made whole frames fail the luma>=60
+     * floor: suneung cut 4 measured 36 on the qa-cut sheet, reading as a black
+     * void under the subject rather than a plate. Now -0.06.
      */
     const src = cut.src;
     const [sw, sh] = execFileSync('ffprobe', ['-v', 'error', '-select_streams', 'v:0',
@@ -87,7 +91,7 @@ for (const cut of plan) {
       '-y', '-hide_banner', '-loglevel', 'error',
       '-loop', '1', '-i', src, '-t', seconds.toFixed(3),
       '-filter_complex',
-      `[0:v]scale=${W}:${H}:force_original_aspect_ratio=increase,crop=${W}:${H},boxblur=46:2,eq=brightness=-0.16:saturation=0.6[bg];`
+      `[0:v]scale=${W}:${H}:force_original_aspect_ratio=increase,crop=${W}:${H},boxblur=44:2,eq=brightness=-0.06:saturation=0.66[bg];`
       + `[0:v]crop=${cw}:${ch}:${cx}:${cy},scale=${W}:${fgH}:flags=lanczos[fg];`
       + `[bg][fg]overlay=0:${top},fps=${FPS}[v]`,
       '-map', '[v]', '-an', '-c:v', 'libx264', '-preset', 'slow', '-crf', '18', '-pix_fmt', 'yuv420p',

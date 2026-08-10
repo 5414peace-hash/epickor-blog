@@ -6,61 +6,71 @@
    "n": 1,
    "from": 0,
    "len": 110,
-   "src": "assets/reels/suneung/media/cut-01.mp4"
+   "src": "assets/reels/suneung/media/cut-01.mp4",
+   "kind": "video"
   },
   {
    "n": 2,
    "from": 110,
    "len": 170,
-   "src": "assets/reels/suneung/media/cut-02.mp4"
+   "src": "assets/reels/suneung/media/cut-02.mp4",
+   "kind": "still"
   },
   {
    "n": 3,
    "from": 280,
    "len": 150,
-   "src": "assets/reels/suneung/media/cut-03.mp4"
+   "src": "assets/reels/suneung/media/cut-03.mp4",
+   "kind": "video"
   },
   {
    "n": 4,
    "from": 430,
    "len": 130,
-   "src": "assets/reels/suneung/media/cut-04.mp4"
+   "src": "assets/reels/suneung/media/cut-04.mp4",
+   "kind": "still"
   },
   {
    "n": 5,
    "from": 560,
    "len": 140,
-   "src": "assets/reels/suneung/media/cut-05.mp4"
+   "src": "assets/reels/suneung/media/cut-05.mp4",
+   "kind": "video"
   },
   {
    "n": 6,
    "from": 700,
    "len": 130,
-   "src": "assets/reels/suneung/media/cut-06.mp4"
+   "src": "assets/reels/suneung/media/cut-06.mp4",
+   "kind": "still"
   },
   {
    "n": 7,
    "from": 830,
    "len": 150,
-   "src": "assets/reels/suneung/media/cut-07.mp4"
+   "src": "assets/reels/suneung/media/cut-07.mp4",
+   "kind": "video"
   },
   {
    "n": 8,
    "from": 980,
    "len": 130,
-   "src": "assets/reels/suneung/media/cut-08.mp4"
+   "src": "assets/reels/suneung/media/cut-08.mp4",
+   "kind": "video"
   },
   {
    "n": 9,
    "from": 1110,
    "len": 155,
-   "src": "assets/reels/suneung/media/cut-09.mp4"
+   "src": "assets/reels/suneung/media/cut-09.mp4",
+   "kind": "still"
   },
   {
    "n": 10,
    "from": 1265,
    "len": 155,
-   "src": "assets/reels/suneung/media/cut-10.mp4"
+   "src": "assets/reels/suneung/media/cut-10.mp4",
+   "kind": "video"
   }
  ],
  "beats": [

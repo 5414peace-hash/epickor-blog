@@ -6,49 +6,57 @@
    "n": 1,
    "from": 0,
    "len": 265,
-   "src": "assets/reels/cheonggyecheon/media/cut-01.mp4"
+   "src": "assets/reels/cheonggyecheon/media/cut-01.mp4",
+   "kind": "video"
   },
   {
    "n": 2,
    "from": 265,
    "len": 165,
-   "src": "assets/reels/cheonggyecheon/media/cut-02.mp4"
+   "src": "assets/reels/cheonggyecheon/media/cut-02.mp4",
+   "kind": "video"
   },
   {
    "n": 3,
    "from": 430,
    "len": 130,
-   "src": "assets/reels/cheonggyecheon/media/cut-03.mp4"
+   "src": "assets/reels/cheonggyecheon/media/cut-03.mp4",
+   "kind": "video"
   },
   {
    "n": 4,
    "from": 560,
    "len": 140,
-   "src": "assets/reels/cheonggyecheon/media/cut-04.mp4"
+   "src": "assets/reels/cheonggyecheon/media/cut-04.mp4",
+   "kind": "video"
   },
   {
    "n": 5,
    "from": 700,
    "len": 150,
-   "src": "assets/reels/cheonggyecheon/media/cut-05.mp4"
+   "src": "assets/reels/cheonggyecheon/media/cut-05.mp4",
+   "kind": "video"
   },
   {
    "n": 6,
    "from": 850,
    "len": 145,
-   "src": "assets/reels/cheonggyecheon/media/cut-06.mp4"
+   "src": "assets/reels/cheonggyecheon/media/cut-06.mp4",
+   "kind": "video"
   },
   {
    "n": 7,
    "from": 995,
    "len": 165,
-   "src": "assets/reels/cheonggyecheon/media/cut-07.mp4"
+   "src": "assets/reels/cheonggyecheon/media/cut-07.mp4",
+   "kind": "video"
   },
   {
    "n": 8,
    "from": 1160,
    "len": 203,
-   "src": "assets/reels/cheonggyecheon/media/cut-08.mp4"
+   "src": "assets/reels/cheonggyecheon/media/cut-08.mp4",
+   "kind": "video"
   }
  ],
  "beats": [
@@ -84,123 +92,123 @@
   },
   {
    "text": "And underneath it,",
-   "startFrame": 274,
-   "endFrame": 292
+   "startFrame": 271,
+   "endFrame": 289
   },
   {
    "text": "sealed under a concrete lid,",
-   "startFrame": 293,
-   "endFrame": 331
+   "startFrame": 290,
+   "endFrame": 328
   },
   {
    "text": "there was a stream.",
-   "startFrame": 332,
-   "endFrame": 374
+   "startFrame": 329,
+   "endFrame": 371
   },
   {
    "text": "Seoul buried this water back in the fifties.",
-   "startFrame": 375,
-   "endFrame": 432
+   "startFrame": 372,
+   "endFrame": 429
   },
   {
    "text": "It smelled, the city was broke,",
-   "startFrame": 433,
-   "endFrame": 473
+   "startFrame": 430,
+   "endFrame": 470
   },
   {
    "text": "and paving over it was the cheap answer.",
-   "startFrame": 474,
-   "endFrame": 535
+   "startFrame": 471,
+   "endFrame": 532
   },
   {
    "text": "Then they built the freeway on top",
-   "startFrame": 536,
-   "endFrame": 576
+   "startFrame": 533,
+   "endFrame": 573
   },
   {
    "text": "and for thirty years,",
-   "startFrame": 577,
-   "endFrame": 604
+   "startFrame": 574,
+   "endFrame": 601
   },
   {
    "text": "that was just what this place was.",
-   "startFrame": 605,
-   "endFrame": 654
+   "startFrame": 602,
+   "endFrame": 651
   },
   {
    "text": "Until two thousand three,",
-   "startFrame": 656,
-   "endFrame": 689
+   "startFrame": 653,
+   "endFrame": 686
   },
   {
    "text": "when the city did the thing",
-   "startFrame": 690,
-   "endFrame": 717
+   "startFrame": 687,
+   "endFrame": 714
   },
   {
    "text": "that basically nobody does.",
-   "startFrame": 718,
-   "endFrame": 764
+   "startFrame": 715,
+   "endFrame": 761
   },
   {
    "text": "They tore the freeway down.",
-   "startFrame": 765,
-   "endFrame": 803
+   "startFrame": 762,
+   "endFrame": 800
   },
   {
    "text": "Five point eight kilometres.",
-   "startFrame": 804,
-   "endFrame": 844
+   "startFrame": 801,
+   "endFrame": 841
   },
   {
    "text": "Two years.",
-   "startFrame": 845,
-   "endFrame": 876
+   "startFrame": 842,
+   "endFrame": 873
   },
   {
    "text": "Three hundred and eighty six billion won.",
-   "startFrame": 877,
-   "endFrame": 924
+   "startFrame": 874,
+   "endFrame": 921
   },
   {
    "text": "They pulled the lid off",
-   "startFrame": 925,
-   "endFrame": 946
+   "startFrame": 922,
+   "endFrame": 943
   },
   {
    "text": "and let the water back out.",
-   "startFrame": 947,
-   "endFrame": 990
+   "startFrame": 944,
+   "endFrame": 987
   },
   {
    "text": "The mayor who pushed it through",
-   "startFrame": 1001,
-   "endFrame": 1028
+   "startFrame": 998,
+   "endFrame": 1025
   },
   {
    "text": "was president two years later.",
-   "startFrame": 1029,
-   "endFrame": 1077
+   "startFrame": 1026,
+   "endFrame": 1074
   },
   {
    "text": "And the city says it runs about three degrees",
-   "startFrame": 1078,
-   "endFrame": 1129
+   "startFrame": 1075,
+   "endFrame": 1126
   },
   {
    "text": "cooler down here than the street up there.",
-   "startFrame": 1130,
-   "endFrame": 1180
+   "startFrame": 1127,
+   "endFrame": 1177
   },
   {
    "text": "So that breeze isn't landscaping.",
-   "startFrame": 1181,
-   "endFrame": 1229
+   "startFrame": 1178,
+   "endFrame": 1226
   },
   {
    "text": "That's a road that isn't there any more.",
-   "startFrame": 1230,
-   "endFrame": 1286
+   "startFrame": 1227,
+   "endFrame": 1283
   }
  ]
 }

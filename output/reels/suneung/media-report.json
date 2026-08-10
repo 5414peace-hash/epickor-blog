@@ -13,10 +13,10 @@
   "kind": "still",
   "src": "suneung-school-gate-crowd-aerial.jpg",
   "seconds": 7.17,
-  "crop": "1000x1332@0,100",
-  "fitted": "1080x1438",
-  "top": 241,
-  "coverage": 75
+  "crop": "1000x1428@0,31",
+  "fitted": "1080x1542",
+  "top": 189,
+  "coverage": 80
  },
  {
   "n": 3,
@@ -32,10 +32,10 @@
   "kind": "still",
   "src": "suneung-juniors-saluting-seniors.jpg",
   "seconds": 5.83,
-  "crop": "718x798@150,0",
-  "fitted": "1080x1200",
-  "top": 360,
-  "coverage": 63
+  "crop": "574x798@182,0",
+  "fitted": "1080x1502",
+  "top": 209,
+  "coverage": 78
  },
  {
   "n": 5,
@@ -51,10 +51,10 @@
   "kind": "still",
   "src": "suneung-computer-sign-pen.jpg",
   "seconds": 5.83,
-  "crop": "730x730@285,1",
-  "fitted": "1080x1080",
-  "top": 420,
-  "coverage": 56
+  "crop": "548x730@376,1",
+  "fitted": "1080x1438",
+  "top": 241,
+  "coverage": 75
  },
  {
   "n": 7,

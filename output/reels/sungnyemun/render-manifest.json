@@ -6,61 +6,71 @@
    "n": 1,
    "from": 0,
    "len": 180,
-   "src": "assets/reels/sungnyemun/media/cut-01.mp4"
+   "src": "assets/reels/sungnyemun/media/cut-01.mp4",
+   "kind": "video"
   },
   {
    "n": 2,
    "from": 180,
    "len": 150,
-   "src": "assets/reels/sungnyemun/media/cut-02.mp4"
+   "src": "assets/reels/sungnyemun/media/cut-02.mp4",
+   "kind": "video"
   },
   {
    "n": 3,
    "from": 330,
    "len": 140,
-   "src": "assets/reels/sungnyemun/media/cut-03.mp4"
+   "src": "assets/reels/sungnyemun/media/cut-03.mp4",
+   "kind": "video"
   },
   {
    "n": 4,
    "from": 470,
    "len": 90,
-   "src": "assets/reels/sungnyemun/media/cut-04.mp4"
+   "src": "assets/reels/sungnyemun/media/cut-04.mp4",
+   "kind": "video"
   },
   {
    "n": 5,
    "from": 560,
    "len": 150,
-   "src": "assets/reels/sungnyemun/media/cut-05.mp4"
+   "src": "assets/reels/sungnyemun/media/cut-05.mp4",
+   "kind": "video"
   },
   {
    "n": 6,
    "from": 710,
    "len": 180,
-   "src": "assets/reels/sungnyemun/media/cut-06.mp4"
+   "src": "assets/reels/sungnyemun/media/cut-06.mp4",
+   "kind": "video"
   },
   {
    "n": 7,
    "from": 890,
    "len": 90,
-   "src": "assets/reels/sungnyemun/media/cut-07.mp4"
+   "src": "assets/reels/sungnyemun/media/cut-07.mp4",
+   "kind": "video"
   },
   {
    "n": 8,
    "from": 980,
    "len": 160,
-   "src": "assets/reels/sungnyemun/media/cut-08.mp4"
+   "src": "assets/reels/sungnyemun/media/cut-08.mp4",
+   "kind": "video"
   },
   {
    "n": 9,
    "from": 1140,
    "len": 140,
-   "src": "assets/reels/sungnyemun/media/cut-09.mp4"
+   "src": "assets/reels/sungnyemun/media/cut-09.mp4",
+   "kind": "video"
   },
   {
    "n": 10,
    "from": 1280,
    "len": 171,
-   "src": "assets/reels/sungnyemun/media/cut-10.mp4"
+   "src": "assets/reels/sungnyemun/media/cut-10.mp4",
+   "kind": "video"
   }
  ],
  "beats": [

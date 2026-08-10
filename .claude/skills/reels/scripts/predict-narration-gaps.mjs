@@ -9,7 +9,17 @@ import path from 'node:path';
 import { spawnSync } from 'node:child_process';
 
 const FPS = 30;
-const LIMIT = 0.6;
+/**
+ * The gate's real limit is 0.6s, but it measures the mixed track with a 0.3s
+ * detection window while this reads the individual mp3s at 0.05s. Measured
+ * 2026-08-11 on cheonggyecheon v002: predicted 0.58s, gate reported 0.62s.
+ * So the prediction runs ~0.04s low and the working limit here is tightened to
+ * 0.54s — passing here should mean passing there, not "probably".
+ */
+const GATE_LIMIT = 0.6;
+const OFFSET = 0.04;
+const SAFETY = 0.02;
+const LIMIT = GATE_LIMIT - OFFSET - SAFETY;
 
 function edges(file) {
   const r = spawnSync('ffmpeg', ['-hide_banner', '-nostats', '-i', file,

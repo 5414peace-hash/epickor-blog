@@ -35,14 +35,14 @@ export const CheonggyecheonReel: React.FC = () => (
       { from: 16, to: 210, tape: 'Cheonggyecheon · Seoul', line2: 'SIX LANES', note: 'Elevated. On concrete stilts.' },
       // The signature beat. "And underneath it, sealed under a concrete lid,
       // there was a stream." — f274-377. The strike is the whole film.
-      { from: 282, to: 392, tape: 'What was under it', line1: 'HIGHWAY', strike: true, line2: 'A STREAM', note: 'Buried since the 1950s', size: 118 },
+      { from: 279, to: 389, tape: 'What was under it', line1: 'HIGHWAY', strike: true, line2: 'A STREAM', note: 'Buried since the 1950s', size: 118 },
       // "Five point eight kilometres… three hundred and eighty six billion won" — f816-936
-      { from: 806, to: 988, tape: 'Demolished · 2003', line1: '5.84 KM', line2: '₩386.7 BN', note: 'Two years, three months', size: 116 },
+      { from: 803, to: 985, tape: 'Demolished · 2003', line1: '5.84 KM', line2: '₩386.7 BN', note: 'Two years, three months', size: 116 },
       // "about three degrees cooler down here than the street up there" — f1096-1197
-      { from: 1078, to: 1203, tape: 'Measured by the city', line1: 'ABOUT', line2: '3°C COOLER', note: 'than the street above', size: 112 },
+      { from: 1075, to: 1200, tape: 'Measured by the city', line1: 'ABOUT', line2: '3°C COOLER', note: 'than the street above', size: 112 },
     ]}
-    outro={{ from: 1210, hook: "There's more", sub: 'The parts of Seoul that used to be something else' }}
-    audio={[{ part: 1, startFrame: 10 }, { part: 2, startFrame: 274 }, { part: 3, startFrame: 656 }, { part: 4, startFrame: 1001 }]}
+    outro={{ from: 1207, hook: "There's more", sub: 'The parts of Seoul that used to be something else' }}
+    audio={[{ part: 1, startFrame: 10 }, { part: 2, startFrame: 271 }, { part: 3, startFrame: 653 }, { part: 4, startFrame: 998 }]}
   />
 );
 
