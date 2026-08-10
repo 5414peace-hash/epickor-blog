@@ -32,7 +32,10 @@
     "reels:qa-audio": "node .claude/skills/reels/scripts/qa-reel-audio.mjs",
     "reels:qa-cuts": "node .claude/skills/reels/scripts/qa-cut-sheet.mjs",
     "audit:encoding": "node scripts/audit-text-encoding.mjs",
-    "reels:pool": "node scripts/reels-master-pool.mjs"
+    "reels:pool": "node scripts/reels-master-pool.mjs",
+    "reels:media": "node .claude/skills/reels/scripts/build-cut-media.mjs",
+    "reels:gaps": "node .claude/skills/reels/scripts/predict-narration-gaps.mjs",
+    "reels:trim-lead": "node .claude/skills/reels/scripts/trim-narration-lead.mjs"
   },
   "dependencies": {
     "@remotion/cli": "4.0.457",

@@ -1,0 +1,302 @@
+{
+  "slug": "suneung",
+  "version": "v01",
+  "fps": 30,
+  "generatedAt": "2026-08-10T18:59:59.809Z",
+  "method": "ElevenLabs Forced Alignment against the approved narration transcript",
+  "captionLeadFrames": 5,
+  "safeZone": {
+    "left": 76,
+    "right": 76,
+    "bottom": 410,
+    "maxWidth": 928
+  },
+  "parts": [
+    {
+      "part": 1,
+      "transcript": "Once a year, South Korea stops every plane in the sky.",
+      "alignmentLoss": 0.03990537590450711,
+      "wordCount": 11,
+      "beatCount": 2,
+      "firstWordStart": 0.219,
+      "lastWordEnd": 2.519
+    },
+    {
+      "part": 2,
+      "transcript": "Third Thursday of November. Half a million teenagers sit down for one exam, and at ten past one in the afternoon, for thirty-five minutes, the whole country goes quiet for them. Aircraft hold above three kilometres. Artillery drills stop. No horns within two hundred metres of a school.",
+      "alignmentLoss": 0.062079312084438086,
+      "wordCount": 48,
+      "beatCount": 8,
+      "firstWordStart": 0.159,
+      "lastWordEnd": 12.699
+    },
+    {
+      "part": 3,
+      "transcript": "The stock market opens an hour late so the roads stay clear. Offices start at ten. Police cars run late students to the gate with the sirens going. All of that, for twenty-five minutes of English listening.",
+      "alignmentLoss": 0.06364004704558733,
+      "wordCount": 37,
+      "beatCount": 7,
+      "firstWordStart": 0.159,
+      "lastWordEnd": 9.42
+    },
+    {
+      "part": 4,
+      "transcript": "Because there is no second date. One Thursday a year, and where you land shapes what comes next. Which is why about three in every ten people in that room are sitting it again.",
+      "alignmentLoss": 0.048338224264708435,
+      "wordCount": 34,
+      "beatCount": 5,
+      "firstWordStart": 0.179,
+      "lastWordEnd": 8.719
+    },
+    {
+      "part": 5,
+      "transcript": "And outside the gate, once it shuts, the parents don't go anywhere. They stand there for nine hours.",
+      "alignmentLoss": 0.05474075675010681,
+      "wordCount": 18,
+      "beatCount": 4,
+      "firstWordStart": 0.159,
+      "lastWordEnd": 4
+    }
+  ],
+  "beats": [
+    {
+      "part": 1,
+      "text": "Once a year,",
+      "startFrame": 11,
+      "endFrame": 26,
+      "sourceStartSeconds": 0.219,
+      "sourceEndSeconds": 0.62,
+      "wordCount": 3
+    },
+    {
+      "part": 1,
+      "text": "South Korea stops every plane in the sky.",
+      "startFrame": 27,
+      "endFrame": 93,
+      "sourceStartSeconds": 0.74,
+      "sourceEndSeconds": 2.519,
+      "wordCount": 8
+    },
+    {
+      "part": 2,
+      "text": "Third Thursday of November.",
+      "startFrame": 103,
+      "endFrame": 142,
+      "sourceStartSeconds": 0.159,
+      "sourceEndSeconds": 1.339,
+      "wordCount": 4
+    },
+    {
+      "part": 2,
+      "text": "Half a million teenagers sit down for one exam,",
+      "startFrame": 143,
+      "endFrame": 211,
+      "sourceStartSeconds": 1.5,
+      "sourceEndSeconds": 3.579,
+      "wordCount": 9
+    },
+    {
+      "part": 2,
+      "text": "and at ten past one in the afternoon,",
+      "startFrame": 212,
+      "endFrame": 250,
+      "sourceStartSeconds": 3.799,
+      "sourceEndSeconds": 5.059,
+      "wordCount": 8
+    },
+    {
+      "part": 2,
+      "text": "for thirty-five minutes,",
+      "startFrame": 251,
+      "endFrame": 279,
+      "sourceStartSeconds": 5.119,
+      "sourceEndSeconds": 6,
+      "wordCount": 3
+    },
+    {
+      "part": 2,
+      "text": "the whole country goes quiet for them.",
+      "startFrame": 280,
+      "endFrame": 334,
+      "sourceStartSeconds": 6.079,
+      "sourceEndSeconds": 7.659,
+      "wordCount": 7
+    },
+    {
+      "part": 2,
+      "text": "Aircraft hold above three kilometres.",
+      "startFrame": 335,
+      "endFrame": 386,
+      "sourceStartSeconds": 7.899,
+      "sourceEndSeconds": 9.539,
+      "wordCount": 5
+    },
+    {
+      "part": 2,
+      "text": "Artillery drills stop.",
+      "startFrame": 387,
+      "endFrame": 422,
+      "sourceStartSeconds": 9.659,
+      "sourceEndSeconds": 10.76,
+      "wordCount": 3
+    },
+    {
+      "part": 2,
+      "text": "No horns within two hundred metres of a school.",
+      "startFrame": 423,
+      "endFrame": 490,
+      "sourceStartSeconds": 10.859,
+      "sourceEndSeconds": 12.699,
+      "wordCount": 9
+    },
+    {
+      "part": 3,
+      "text": "The stock market opens an hour late",
+      "startFrame": 499,
+      "endFrame": 544,
+      "sourceStartSeconds": 0.159,
+      "sourceEndSeconds": 1.639,
+      "wordCount": 7
+    },
+    {
+      "part": 3,
+      "text": "so the roads stay clear.",
+      "startFrame": 545,
+      "endFrame": 581,
+      "sourceStartSeconds": 1.699,
+      "sourceEndSeconds": 2.799,
+      "wordCount": 5
+    },
+    {
+      "part": 3,
+      "text": "Offices start at ten.",
+      "startFrame": 582,
+      "endFrame": 621,
+      "sourceStartSeconds": 2.939,
+      "sourceEndSeconds": 4.099,
+      "wordCount": 4
+    },
+    {
+      "part": 3,
+      "text": "Police cars run late students",
+      "startFrame": 622,
+      "endFrame": 661,
+      "sourceStartSeconds": 4.279,
+      "sourceEndSeconds": 5.559,
+      "wordCount": 5
+    },
+    {
+      "part": 3,
+      "text": "to the gate with the sirens going.",
+      "startFrame": 662,
+      "endFrame": 707,
+      "sourceStartSeconds": 5.599,
+      "sourceEndSeconds": 7.099,
+      "wordCount": 7
+    },
+    {
+      "part": 3,
+      "text": "All of that,",
+      "startFrame": 708,
+      "endFrame": 722,
+      "sourceStartSeconds": 7.159,
+      "sourceEndSeconds": 7.539,
+      "wordCount": 3
+    },
+    {
+      "part": 3,
+      "text": "for twenty-five minutes of English listening.",
+      "startFrame": 723,
+      "endFrame": 789,
+      "sourceStartSeconds": 7.639,
+      "sourceEndSeconds": 9.42,
+      "wordCount": 6
+    },
+    {
+      "part": 4,
+      "text": "Because there is no second date.",
+      "startFrame": 798,
+      "endFrame": 849,
+      "sourceStartSeconds": 0.179,
+      "sourceEndSeconds": 1.579,
+      "wordCount": 6
+    },
+    {
+      "part": 4,
+      "text": "One Thursday a year,",
+      "startFrame": 850,
+      "endFrame": 889,
+      "sourceStartSeconds": 1.919,
+      "sourceEndSeconds": 2.96,
+      "wordCount": 4
+    },
+    {
+      "part": 4,
+      "text": "and where you land shapes what comes next.",
+      "startFrame": 890,
+      "endFrame": 960,
+      "sourceStartSeconds": 3.24,
+      "sourceEndSeconds": 5.44,
+      "wordCount": 8
+    },
+    {
+      "part": 4,
+      "text": "Which is why about three in every ten people",
+      "startFrame": 961,
+      "endFrame": 1014,
+      "sourceStartSeconds": 5.599,
+      "sourceEndSeconds": 7.399,
+      "wordCount": 9
+    },
+    {
+      "part": 4,
+      "text": "in that room are sitting it again.",
+      "startFrame": 1015,
+      "endFrame": 1067,
+      "sourceStartSeconds": 7.419,
+      "sourceEndSeconds": 8.719,
+      "wordCount": 7
+    },
+    {
+      "part": 5,
+      "text": "And outside the gate,",
+      "startFrame": 1077,
+      "endFrame": 1101,
+      "sourceStartSeconds": 0.159,
+      "sourceEndSeconds": 0.919,
+      "wordCount": 4
+    },
+    {
+      "part": 5,
+      "text": "once it shuts,",
+      "startFrame": 1102,
+      "endFrame": 1119,
+      "sourceStartSeconds": 1.019,
+      "sourceEndSeconds": 1.539,
+      "wordCount": 3
+    },
+    {
+      "part": 5,
+      "text": "the parents don't go anywhere.",
+      "startFrame": 1120,
+      "endFrame": 1153,
+      "sourceStartSeconds": 1.599,
+      "sourceEndSeconds": 2.72,
+      "wordCount": 5
+    },
+    {
+      "part": 5,
+      "text": "They stand there for nine hours.",
+      "startFrame": 1154,
+      "endFrame": 1204,
+      "sourceStartSeconds": 2.759,
+      "sourceEndSeconds": 4,
+      "wordCount": 6
+    }
+  ],
+  "coverage": {
+    "transcriptWords": 148,
+    "captionWords": 148,
+    "audioParts": 5
+  }
+}

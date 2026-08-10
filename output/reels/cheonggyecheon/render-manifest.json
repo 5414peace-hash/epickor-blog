@@ -1,0 +1,206 @@
+{
+ "slug": "cheonggyecheon",
+ "durationInFrames": 1363,
+ "cuts": [
+  {
+   "n": 1,
+   "from": 0,
+   "len": 265,
+   "src": "assets/reels/cheonggyecheon/media/cut-01.mp4"
+  },
+  {
+   "n": 2,
+   "from": 265,
+   "len": 165,
+   "src": "assets/reels/cheonggyecheon/media/cut-02.mp4"
+  },
+  {
+   "n": 3,
+   "from": 430,
+   "len": 130,
+   "src": "assets/reels/cheonggyecheon/media/cut-03.mp4"
+  },
+  {
+   "n": 4,
+   "from": 560,
+   "len": 140,
+   "src": "assets/reels/cheonggyecheon/media/cut-04.mp4"
+  },
+  {
+   "n": 5,
+   "from": 700,
+   "len": 150,
+   "src": "assets/reels/cheonggyecheon/media/cut-05.mp4"
+  },
+  {
+   "n": 6,
+   "from": 850,
+   "len": 145,
+   "src": "assets/reels/cheonggyecheon/media/cut-06.mp4"
+  },
+  {
+   "n": 7,
+   "from": 995,
+   "len": 165,
+   "src": "assets/reels/cheonggyecheon/media/cut-07.mp4"
+  },
+  {
+   "n": 8,
+   "from": 1160,
+   "len": 203,
+   "src": "assets/reels/cheonggyecheon/media/cut-08.mp4"
+  }
+ ],
+ "beats": [
+  {
+   "text": "You're looking at a highway.",
+   "startFrame": 10,
+   "endFrame": 41
+  },
+  {
+   "text": "Seriously.",
+   "startFrame": 42,
+   "endFrame": 61
+  },
+  {
+   "text": "Twenty years ago this exact spot",
+   "startFrame": 62,
+   "endFrame": 108
+  },
+  {
+   "text": "was six lanes of elevated motorway,",
+   "startFrame": 109,
+   "endFrame": 163
+  },
+  {
+   "text": "up on concrete stilts,",
+   "startFrame": 164,
+   "endFrame": 199
+  },
+  {
+   "text": "roaring straight over the middle of Seoul.",
+   "startFrame": 200,
+   "endFrame": 262
+  },
+  {
+   "text": "And underneath it,",
+   "startFrame": 274,
+   "endFrame": 292
+  },
+  {
+   "text": "sealed under a concrete lid,",
+   "startFrame": 293,
+   "endFrame": 331
+  },
+  {
+   "text": "there was a stream.",
+   "startFrame": 332,
+   "endFrame": 374
+  },
+  {
+   "text": "Seoul buried this water back in the fifties.",
+   "startFrame": 375,
+   "endFrame": 432
+  },
+  {
+   "text": "It smelled, the city was broke,",
+   "startFrame": 433,
+   "endFrame": 473
+  },
+  {
+   "text": "and paving over it was the cheap answer.",
+   "startFrame": 474,
+   "endFrame": 535
+  },
+  {
+   "text": "Then they built the freeway on top",
+   "startFrame": 536,
+   "endFrame": 576
+  },
+  {
+   "text": "and for thirty years,",
+   "startFrame": 577,
+   "endFrame": 604
+  },
+  {
+   "text": "that was just what this place was.",
+   "startFrame": 605,
+   "endFrame": 654
+  },
+  {
+   "text": "Until two thousand three,",
+   "startFrame": 656,
+   "endFrame": 689
+  },
+  {
+   "text": "when the city did the thing",
+   "startFrame": 690,
+   "endFrame": 717
+  },
+  {
+   "text": "that basically nobody does.",
+   "startFrame": 718,
+   "endFrame": 764
+  },
+  {
+   "text": "They tore the freeway down.",
+   "startFrame": 765,
+   "endFrame": 803
+  },
+  {
+   "text": "Five point eight kilometres.",
+   "startFrame": 804,
+   "endFrame": 844
+  },
+  {
+   "text": "Two years.",
+   "startFrame": 845,
+   "endFrame": 876
+  },
+  {
+   "text": "Three hundred and eighty six billion won.",
+   "startFrame": 877,
+   "endFrame": 924
+  },
+  {
+   "text": "They pulled the lid off",
+   "startFrame": 925,
+   "endFrame": 946
+  },
+  {
+   "text": "and let the water back out.",
+   "startFrame": 947,
+   "endFrame": 990
+  },
+  {
+   "text": "The mayor who pushed it through",
+   "startFrame": 1001,
+   "endFrame": 1028
+  },
+  {
+   "text": "was president two years later.",
+   "startFrame": 1029,
+   "endFrame": 1077
+  },
+  {
+   "text": "And the city says it runs about three degrees",
+   "startFrame": 1078,
+   "endFrame": 1129
+  },
+  {
+   "text": "cooler down here than the street up there.",
+   "startFrame": 1130,
+   "endFrame": 1180
+  },
+  {
+   "text": "So that breeze isn't landscaping.",
+   "startFrame": 1181,
+   "endFrame": 1229
+  },
+  {
+   "text": "That's a road that isn't there any more.",
+   "startFrame": 1230,
+   "endFrame": 1286
+  }
+ ]
+}

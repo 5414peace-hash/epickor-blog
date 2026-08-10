@@ -1,0 +1,201 @@
+[
+ {
+  "n": 1,
+  "from": 11,
+  "to": 108,
+  "sec": 3.27,
+  "kind": "still",
+  "src": ".tmp/w33/kto/kto-lift-1.jpg",
+  "abs": true
+ },
+ {
+  "n": 2,
+  "from": 109,
+  "to": 133,
+  "sec": 0.83,
+  "kind": "still",
+  "src": ".tmp/366b/buldak-cooked.jpg",
+  "abs": true
+ },
+ {
+  "n": 3,
+  "from": 134,
+  "to": 198,
+  "sec": 2.17,
+  "kind": "still",
+  "src": ".tmp/366b/Buldak_Ramen_20210114_001.jpg",
+  "abs": true
+ },
+ {
+  "n": 4,
+  "from": 199,
+  "to": 257,
+  "sec": 1.97,
+  "kind": "still",
+  "src": ".tmp/w33/kto/kto-mandu-1.jpg",
+  "abs": true
+ },
+ {
+  "n": 5,
+  "from": 258,
+  "to": 305,
+  "sec": 1.6,
+  "kind": "still",
+  "src": ".tmp/366b/cheongyang.jpg",
+  "abs": true
+ },
+ {
+  "n": 6,
+  "from": 306,
+  "to": 331,
+  "sec": 0.87,
+  "kind": "still",
+  "ss": 1,
+  "abs": true,
+  "src": ".tmp/366b/Cheongyang_chillies.jpg"
+ },
+ {
+  "n": 7,
+  "from": 332,
+  "to": 376,
+  "sec": 1.5,
+  "kind": "video",
+  "id": 35510473,
+  "ss": 2
+ },
+ {
+  "n": 8,
+  "from": 377,
+  "to": 417,
+  "sec": 1.37,
+  "kind": "still",
+  "src": ".tmp/366b/cheongyang-tight.jpg",
+  "abs": true
+ },
+ {
+  "n": 9,
+  "from": 418,
+  "to": 500,
+  "sec": 2.77,
+  "kind": "still",
+  "src": ".tmp/w33/kto/kto-pot-1.jpg",
+  "abs": true
+ },
+ {
+  "n": 10,
+  "from": 501,
+  "to": 614,
+  "sec": 3.8,
+  "kind": "video",
+  "id": 34930003,
+  "ss": 14
+ },
+ {
+  "n": 11,
+  "from": 615,
+  "to": 708,
+  "sec": 3.13,
+  "kind": "still",
+  "src": "/assets/images/posts/277/shin-ramyun-starter-pack.jpg",
+  "abs": false
+ },
+ {
+  "n": 12,
+  "from": 709,
+  "to": 740,
+  "sec": 1.07,
+  "kind": "video",
+  "id": "cf-endcard-lineup",
+  "ss": 0
+ },
+ {
+  "n": 13,
+  "from": 741,
+  "to": 779,
+  "sec": 1.3,
+  "kind": "video",
+  "id": "cf-pot-chopsticks-slow",
+  "ss": 0
+ },
+ {
+  "n": 14,
+  "from": 780,
+  "to": 862,
+  "sec": 2.77,
+  "kind": "still",
+  "src": "/assets/images/posts/361/jin-ramen-mild-pack.jpg",
+  "abs": false
+ },
+ {
+  "n": 15,
+  "from": 863,
+  "to": 922,
+  "sec": 2,
+  "kind": "still",
+  "src": ".tmp/w33/kto/kto-lift-2.jpg",
+  "abs": true
+ },
+ {
+  "n": 16,
+  "from": 923,
+  "to": 1003,
+  "sec": 2.7,
+  "kind": "still",
+  "src": ".tmp/w33/kto/kto-tray-1.jpg",
+  "abs": true
+ },
+ {
+  "n": 17,
+  "from": 1004,
+  "to": 1077,
+  "sec": 2.47,
+  "kind": "still",
+  "src": "/assets/images/posts/361/jin-ramen-spicy-pack.jpg",
+  "abs": false
+ },
+ {
+  "n": 18,
+  "from": 1078,
+  "to": 1140,
+  "sec": 2.1,
+  "kind": "still",
+  "src": ".tmp/w33/kto/kto-pot-2.jpg",
+  "abs": true
+ },
+ {
+  "n": 19,
+  "from": 1141,
+  "to": 1232,
+  "sec": 3.07,
+  "kind": "still",
+  "src": "/assets/images/posts/361/jin-ramen-spicy-ottogi.jpg",
+  "abs": false
+ },
+ {
+  "n": 20,
+  "from": 1233,
+  "to": 1271,
+  "sec": 1.3,
+  "kind": "video",
+  "id": "cf-pot-overhead-slow",
+  "ss": 0
+ },
+ {
+  "n": 21,
+  "from": 1272,
+  "to": 1318,
+  "sec": 1.57,
+  "kind": "still",
+  "src": "/assets/images/posts/346/ansungtangmyun-cooked-bowl.jpg",
+  "abs": false
+ },
+ {
+  "n": 22,
+  "from": 1319,
+  "to": 1451,
+  "kind": "still",
+  "sec": 4.43,
+  "src": ".tmp/w33/kto/kto-mandu-2.jpg",
+  "abs": true
+ }
+]

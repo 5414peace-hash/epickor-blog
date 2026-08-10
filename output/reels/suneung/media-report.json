@@ -1,0 +1,96 @@
+[
+ {
+  "n": 1,
+  "kind": "video",
+  "src": 37931942,
+  "source": "3840x2160",
+  "cropW": 1214,
+  "upscale": 0.89,
+  "seconds": 5.17
+ },
+ {
+  "n": 2,
+  "kind": "still",
+  "src": "suneung-school-gate-crowd-aerial.jpg",
+  "seconds": 7.17,
+  "crop": "1000x1332@0,100",
+  "fitted": "1080x1438",
+  "top": 241,
+  "coverage": 75
+ },
+ {
+  "n": 3,
+  "kind": "video",
+  "src": 37984667,
+  "source": "3840x2160",
+  "cropW": 1214,
+  "upscale": 0.89,
+  "seconds": 6.5
+ },
+ {
+  "n": 4,
+  "kind": "still",
+  "src": "suneung-juniors-saluting-seniors.jpg",
+  "seconds": 5.83,
+  "crop": "718x798@150,0",
+  "fitted": "1080x1200",
+  "top": 360,
+  "coverage": 63
+ },
+ {
+  "n": 5,
+  "kind": "video",
+  "src": 37600923,
+  "source": "1920x1080",
+  "cropW": 606,
+  "upscale": 1.78,
+  "seconds": 6.17
+ },
+ {
+  "n": 6,
+  "kind": "still",
+  "src": "suneung-computer-sign-pen.jpg",
+  "seconds": 5.83,
+  "crop": "730x730@285,1",
+  "fitted": "1080x1080",
+  "top": 420,
+  "coverage": 56
+ },
+ {
+  "n": 7,
+  "kind": "video",
+  "src": 29293764,
+  "source": "1920x1080",
+  "cropW": 606,
+  "upscale": 1.78,
+  "seconds": 6.5
+ },
+ {
+  "n": 8,
+  "kind": "video",
+  "src": 29117582,
+  "source": "3840x2160",
+  "cropW": 1214,
+  "upscale": 0.89,
+  "seconds": 5.83
+ },
+ {
+  "n": 9,
+  "kind": "still",
+  "src": "suneung-parents-at-school-gate.jpg",
+  "seconds": 6.67,
+  "crop": "774x910@182,0",
+  "fitted": "1080x1270",
+  "top": 170,
+  "coverage": 66
+ },
+ {
+  "n": 10,
+  "kind": "video",
+  "src": 37984667,
+  "source": "3840x2160",
+  "cropW": 1214,
+  "upscale": 0.89,
+  "seconds": 6.67
+ }
+]

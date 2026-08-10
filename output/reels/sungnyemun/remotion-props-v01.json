@@ -1,0 +1,41 @@
+{
+ "slug": "sungnyemun",
+ "fps": 30,
+ "width": 1080,
+ "height": 1920,
+ "durationInFrames": 1451,
+ "audioSegments": [
+  {
+   "part": 1,
+   "file": "voice-part-1.mp3",
+   "staticFilePath": "audio/voice-part-1.mp3",
+   "startFrame": 10,
+   "durationFrames": 233,
+   "durationSeconds": 7.755465
+  },
+  {
+   "part": 2,
+   "file": "voice-part-2.mp3",
+   "staticFilePath": "audio/voice-part-2.mp3",
+   "startFrame": 245,
+   "durationFrames": 344,
+   "durationSeconds": 11.470658
+  },
+  {
+   "part": 3,
+   "file": "voice-part-3.mp3",
+   "staticFilePath": "audio/voice-part-3.mp3",
+   "startFrame": 598,
+   "durationFrames": 313,
+   "durationSeconds": 10.44898
+  },
+  {
+   "part": 4,
+   "file": "voice-part-4.mp3",
+   "staticFilePath": "audio/voice-part-4.mp3",
+   "startFrame": 920,
+   "durationFrames": 424,
+   "durationSeconds": 14.117732
+  }
+ ]
+}

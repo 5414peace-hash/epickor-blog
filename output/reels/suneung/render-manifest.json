@@ -1,0 +1,198 @@
+{
+ "slug": "suneung",
+ "durationInFrames": 1420,
+ "cuts": [
+  {
+   "n": 1,
+   "from": 0,
+   "len": 110,
+   "src": "assets/reels/suneung/media/cut-01.mp4"
+  },
+  {
+   "n": 2,
+   "from": 110,
+   "len": 170,
+   "src": "assets/reels/suneung/media/cut-02.mp4"
+  },
+  {
+   "n": 3,
+   "from": 280,
+   "len": 150,
+   "src": "assets/reels/suneung/media/cut-03.mp4"
+  },
+  {
+   "n": 4,
+   "from": 430,
+   "len": 130,
+   "src": "assets/reels/suneung/media/cut-04.mp4"
+  },
+  {
+   "n": 5,
+   "from": 560,
+   "len": 140,
+   "src": "assets/reels/suneung/media/cut-05.mp4"
+  },
+  {
+   "n": 6,
+   "from": 700,
+   "len": 130,
+   "src": "assets/reels/suneung/media/cut-06.mp4"
+  },
+  {
+   "n": 7,
+   "from": 830,
+   "len": 150,
+   "src": "assets/reels/suneung/media/cut-07.mp4"
+  },
+  {
+   "n": 8,
+   "from": 980,
+   "len": 130,
+   "src": "assets/reels/suneung/media/cut-08.mp4"
+  },
+  {
+   "n": 9,
+   "from": 1110,
+   "len": 155,
+   "src": "assets/reels/suneung/media/cut-09.mp4"
+  },
+  {
+   "n": 10,
+   "from": 1265,
+   "len": 155,
+   "src": "assets/reels/suneung/media/cut-10.mp4"
+  }
+ ],
+ "beats": [
+  {
+   "text": "Once a year,",
+   "startFrame": 11,
+   "endFrame": 26
+  },
+  {
+   "text": "South Korea stops every plane in the sky.",
+   "startFrame": 27,
+   "endFrame": 93
+  },
+  {
+   "text": "Third Thursday of November.",
+   "startFrame": 99,
+   "endFrame": 138
+  },
+  {
+   "text": "Half a million teenagers sit down for one exam,",
+   "startFrame": 139,
+   "endFrame": 207
+  },
+  {
+   "text": "and at ten past one in the afternoon,",
+   "startFrame": 208,
+   "endFrame": 246
+  },
+  {
+   "text": "for thirty-five minutes,",
+   "startFrame": 247,
+   "endFrame": 275
+  },
+  {
+   "text": "the whole country goes quiet for them.",
+   "startFrame": 276,
+   "endFrame": 330
+  },
+  {
+   "text": "Aircraft hold above three kilometres.",
+   "startFrame": 331,
+   "endFrame": 382
+  },
+  {
+   "text": "Artillery drills stop.",
+   "startFrame": 383,
+   "endFrame": 418
+  },
+  {
+   "text": "No horns within two hundred metres of a school.",
+   "startFrame": 419,
+   "endFrame": 486
+  },
+  {
+   "text": "The stock market opens an hour late",
+   "startFrame": 495,
+   "endFrame": 535
+  },
+  {
+   "text": "so the roads stay clear.",
+   "startFrame": 536,
+   "endFrame": 572
+  },
+  {
+   "text": "Offices start at ten.",
+   "startFrame": 573,
+   "endFrame": 612
+  },
+  {
+   "text": "Police cars run late students",
+   "startFrame": 613,
+   "endFrame": 652
+  },
+  {
+   "text": "to the gate with the sirens going.",
+   "startFrame": 653,
+   "endFrame": 699
+  },
+  {
+   "text": "All of that,",
+   "startFrame": 700,
+   "endFrame": 713
+  },
+  {
+   "text": "for twenty-five minutes of English listening.",
+   "startFrame": 714,
+   "endFrame": 780
+  },
+  {
+   "text": "Because there is no second date.",
+   "startFrame": 794,
+   "endFrame": 845
+  },
+  {
+   "text": "One Thursday a year,",
+   "startFrame": 846,
+   "endFrame": 885
+  },
+  {
+   "text": "and where you land shapes what comes next.",
+   "startFrame": 886,
+   "endFrame": 956
+  },
+  {
+   "text": "Which is why about three in every ten people",
+   "startFrame": 957,
+   "endFrame": 1010
+  },
+  {
+   "text": "in that room are sitting it again.",
+   "startFrame": 1011,
+   "endFrame": 1063
+  },
+  {
+   "text": "And outside the gate,",
+   "startFrame": 1073,
+   "endFrame": 1097
+  },
+  {
+   "text": "once it shuts,",
+   "startFrame": 1098,
+   "endFrame": 1115
+  },
+  {
+   "text": "the parents don't go anywhere.",
+   "startFrame": 1116,
+   "endFrame": 1149
+  },
+  {
+   "text": "They stand there for nine hours.",
+   "startFrame": 1150,
+   "endFrame": 1200
+  }
+ ]
+}

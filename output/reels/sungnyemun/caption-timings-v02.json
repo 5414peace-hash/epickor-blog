@@ -1,0 +1,338 @@
+{
+  "slug": "sungnyemun",
+  "version": "v02",
+  "fps": 30,
+  "generatedAt": "2026-08-10T20:30:37.106Z",
+  "method": "ElevenLabs Forced Alignment against the approved narration transcript",
+  "captionLeadFrames": 5,
+  "safeZone": {
+    "left": 76,
+    "right": 76,
+    "bottom": 410,
+    "maxWidth": 928
+  },
+  "parts": [
+    {
+      "part": 1,
+      "transcript": "Everybody stops here for the photo. Six hundred years old, they'll tell you. The oldest wooden building in Seoul. Except the wood you're looking at was cut in twenty thirteen.",
+      "alignmentLoss": 0.05982432297297886,
+      "wordCount": 30,
+      "beatCount": 6,
+      "firstWordStart": 0.079,
+      "lastWordEnd": 7.319
+    },
+    {
+      "part": 2,
+      "transcript": "On February tenth, two thousand eight, a sixty-nine year old man walked up here carrying paint thinner and a lighter. He was furious about a land payout. It burned for five hours, live on national television, and the whole country watched the roof come down.",
+      "alignmentLoss": 0.03879764791606933,
+      "wordCount": 45,
+      "beatCount": 8,
+      "firstWordStart": 0.099,
+      "lastWordEnd": 11.159
+    },
+    {
+      "part": 3,
+      "transcript": "And here's the part that still stings. He had done it before. He set fire to a palace hall in two thousand six, got a suspended sentence, walked out, and picked this gate next because, in his own words, the security here was easy.",
+      "alignmentLoss": 0.07549431168514749,
+      "wordCount": 44,
+      "beatCount": 8,
+      "firstWordStart": 0.179,
+      "lastWordEnd": 10.159
+    },
+    {
+      "part": 4,
+      "transcript": "Putting it back took five years and thirty five thousand people. And that label your guidebook uses, National Treasure Number One? Korea scrapped those numbers in twenty twenty-one. The ranking was never Korean. It came off a colonial era list. It's not number one. It's just Sungnyemun.",
+      "alignmentLoss": 0.09746209628075257,
+      "wordCount": 47,
+      "beatCount": 9,
+      "firstWordStart": 0.159,
+      "lastWordEnd": 13.92
+    }
+  ],
+  "beats": [
+    {
+      "part": 1,
+      "text": "Everybody stops here for the photo.",
+      "startFrame": 10,
+      "endFrame": 50,
+      "sourceStartSeconds": 0.079,
+      "sourceEndSeconds": 1.5,
+      "wordCount": 6
+    },
+    {
+      "part": 1,
+      "text": "Six hundred years old,",
+      "startFrame": 51,
+      "endFrame": 79,
+      "sourceStartSeconds": 1.559,
+      "sourceEndSeconds": 2.48,
+      "wordCount": 4
+    },
+    {
+      "part": 1,
+      "text": "they'll tell you.",
+      "startFrame": 80,
+      "endFrame": 96,
+      "sourceStartSeconds": 2.519,
+      "sourceEndSeconds": 3.039,
+      "wordCount": 3
+    },
+    {
+      "part": 1,
+      "text": "The oldest wooden building in Seoul.",
+      "startFrame": 97,
+      "endFrame": 151,
+      "sourceStartSeconds": 3.079,
+      "sourceEndSeconds": 4.839,
+      "wordCount": 6
+    },
+    {
+      "part": 1,
+      "text": "Except the wood you're looking",
+      "startFrame": 152,
+      "endFrame": 181,
+      "sourceStartSeconds": 4.9,
+      "sourceEndSeconds": 5.879,
+      "wordCount": 5
+    },
+    {
+      "part": 1,
+      "text": "at was cut in twenty thirteen.",
+      "startFrame": 182,
+      "endFrame": 237,
+      "sourceStartSeconds": 5.92,
+      "sourceEndSeconds": 7.319,
+      "wordCount": 6
+    },
+    {
+      "part": 2,
+      "text": "On February tenth,",
+      "startFrame": 245,
+      "endFrame": 267,
+      "sourceStartSeconds": 0.099,
+      "sourceEndSeconds": 0.819,
+      "wordCount": 3
+    },
+    {
+      "part": 2,
+      "text": "two thousand eight,",
+      "startFrame": 268,
+      "endFrame": 291,
+      "sourceStartSeconds": 0.939,
+      "sourceEndSeconds": 1.559,
+      "wordCount": 3
+    },
+    {
+      "part": 2,
+      "text": "a sixty-nine year old man walked up here carrying paint thinner",
+      "startFrame": 292,
+      "endFrame": 375,
+      "sourceStartSeconds": 1.74,
+      "sourceEndSeconds": 4.5,
+      "wordCount": 11
+    },
+    {
+      "part": 2,
+      "text": "and a lighter.",
+      "startFrame": 376,
+      "endFrame": 398,
+      "sourceStartSeconds": 4.559,
+      "sourceEndSeconds": 5.139,
+      "wordCount": 3
+    },
+    {
+      "part": 2,
+      "text": "He was furious about a land payout.",
+      "startFrame": 399,
+      "endFrame": 447,
+      "sourceStartSeconds": 5.319,
+      "sourceEndSeconds": 6.919,
+      "wordCount": 7
+    },
+    {
+      "part": 2,
+      "text": "It burned for five hours,",
+      "startFrame": 448,
+      "endFrame": 484,
+      "sourceStartSeconds": 6.94,
+      "sourceEndSeconds": 8.059,
+      "wordCount": 5
+    },
+    {
+      "part": 2,
+      "text": "live on national television,",
+      "startFrame": 485,
+      "endFrame": 518,
+      "sourceStartSeconds": 8.179,
+      "sourceEndSeconds": 9.22,
+      "wordCount": 4
+    },
+    {
+      "part": 2,
+      "text": "and the whole country watched the roof come down.",
+      "startFrame": 519,
+      "endFrame": 587,
+      "sourceStartSeconds": 9.319,
+      "sourceEndSeconds": 11.159,
+      "wordCount": 9
+    },
+    {
+      "part": 3,
+      "text": "And here's the part that still stings.",
+      "startFrame": 598,
+      "endFrame": 644,
+      "sourceStartSeconds": 0.179,
+      "sourceEndSeconds": 1.699,
+      "wordCount": 7
+    },
+    {
+      "part": 3,
+      "text": "He had done it before.",
+      "startFrame": 645,
+      "endFrame": 670,
+      "sourceStartSeconds": 1.74,
+      "sourceEndSeconds": 2.519,
+      "wordCount": 5
+    },
+    {
+      "part": 3,
+      "text": "He set fire to a palace",
+      "startFrame": 671,
+      "endFrame": 704,
+      "sourceStartSeconds": 2.599,
+      "sourceEndSeconds": 3.679,
+      "wordCount": 6
+    },
+    {
+      "part": 3,
+      "text": "hall in two thousand six,",
+      "startFrame": 705,
+      "endFrame": 741,
+      "sourceStartSeconds": 3.74,
+      "sourceEndSeconds": 4.859,
+      "wordCount": 5
+    },
+    {
+      "part": 3,
+      "text": "got a suspended sentence, walked out,",
+      "startFrame": 742,
+      "endFrame": 793,
+      "sourceStartSeconds": 4.96,
+      "sourceEndSeconds": 6.579,
+      "wordCount": 6
+    },
+    {
+      "part": 3,
+      "text": "and picked this gate next because,",
+      "startFrame": 794,
+      "endFrame": 837,
+      "sourceStartSeconds": 6.719,
+      "sourceEndSeconds": 8.119,
+      "wordCount": 6
+    },
+    {
+      "part": 3,
+      "text": "in his own words,",
+      "startFrame": 838,
+      "endFrame": 859,
+      "sourceStartSeconds": 8.179,
+      "sourceEndSeconds": 8.819,
+      "wordCount": 4
+    },
+    {
+      "part": 3,
+      "text": "the security here was easy.",
+      "startFrame": 860,
+      "endFrame": 910,
+      "sourceStartSeconds": 8.899,
+      "sourceEndSeconds": 10.159,
+      "wordCount": 5
+    },
+    {
+      "part": 4,
+      "text": "Putting it back took five years",
+      "startFrame": 920,
+      "endFrame": 959,
+      "sourceStartSeconds": 0.159,
+      "sourceEndSeconds": 1.48,
+      "wordCount": 6
+    },
+    {
+      "part": 4,
+      "text": "and thirty five thousand people.",
+      "startFrame": 960,
+      "endFrame": 1010,
+      "sourceStartSeconds": 1.5,
+      "sourceEndSeconds": 2.939,
+      "wordCount": 5
+    },
+    {
+      "part": 4,
+      "text": "And that label your guidebook uses,",
+      "startFrame": 1011,
+      "endFrame": 1059,
+      "sourceStartSeconds": 3.22,
+      "sourceEndSeconds": 4.759,
+      "wordCount": 6
+    },
+    {
+      "part": 4,
+      "text": "National Treasure Number One?",
+      "startFrame": 1060,
+      "endFrame": 1104,
+      "sourceStartSeconds": 4.859,
+      "sourceEndSeconds": 6,
+      "wordCount": 4
+    },
+    {
+      "part": 4,
+      "text": "Korea scrapped those numbers in twenty twenty-one.",
+      "startFrame": 1105,
+      "endFrame": 1182,
+      "sourceStartSeconds": 6.339,
+      "sourceEndSeconds": 8.899,
+      "wordCount": 7
+    },
+    {
+      "part": 4,
+      "text": "The ranking was never Korean.",
+      "startFrame": 1183,
+      "endFrame": 1224,
+      "sourceStartSeconds": 8.939,
+      "sourceEndSeconds": 10.26,
+      "wordCount": 5
+    },
+    {
+      "part": 4,
+      "text": "It came off a colonial era list.",
+      "startFrame": 1225,
+      "endFrame": 1274,
+      "sourceStartSeconds": 10.34,
+      "sourceEndSeconds": 11.96,
+      "wordCount": 7
+    },
+    {
+      "part": 4,
+      "text": "It's not number one.",
+      "startFrame": 1275,
+      "endFrame": 1298,
+      "sourceStartSeconds": 12,
+      "sourceEndSeconds": 12.759,
+      "wordCount": 4
+    },
+    {
+      "part": 4,
+      "text": "It's just Sungnyemun.",
+      "startFrame": 1299,
+      "endFrame": 1344,
+      "sourceStartSeconds": 12.819,
+      "sourceEndSeconds": 13.92,
+      "wordCount": 3
+    }
+  ],
+  "coverage": {
+    "transcriptWords": 166,
+    "captionWords": 166,
+    "audioParts": 4
+  }
+}

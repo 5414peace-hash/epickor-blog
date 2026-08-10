@@ -1,0 +1,92 @@
+[
+ {
+  "n": 1,
+  "kind": "video",
+  "src": 37094297,
+  "source": "1920x1080",
+  "cropW": 606,
+  "upscale": 1.78,
+  "seconds": 7.5
+ },
+ {
+  "n": 2,
+  "kind": "video",
+  "src": 29078559,
+  "source": "1920x1080",
+  "cropW": 606,
+  "upscale": 1.78,
+  "seconds": 6.5
+ },
+ {
+  "n": 3,
+  "kind": "video",
+  "src": 18525869,
+  "source": "1920x1080",
+  "cropW": 606,
+  "upscale": 1.78,
+  "seconds": 6.17
+ },
+ {
+  "n": 4,
+  "kind": "video",
+  "src": 37094305,
+  "source": "1920x1440",
+  "cropW": 810,
+  "upscale": 1.33,
+  "seconds": 4.5
+ },
+ {
+  "n": 5,
+  "kind": "video",
+  "src": 29078508,
+  "source": "1920x1080",
+  "cropW": 606,
+  "upscale": 1.78,
+  "seconds": 6.5
+ },
+ {
+  "n": 6,
+  "kind": "video",
+  "src": 29078559,
+  "source": "1920x1080",
+  "cropW": 606,
+  "upscale": 1.78,
+  "seconds": 7.5
+ },
+ {
+  "n": 7,
+  "kind": "video",
+  "src": 29078509,
+  "source": "1920x1080",
+  "cropW": 606,
+  "upscale": 1.78,
+  "seconds": 4.5
+ },
+ {
+  "n": 8,
+  "kind": "video",
+  "src": 18525869,
+  "source": "1920x1080",
+  "cropW": 606,
+  "upscale": 1.78,
+  "seconds": 6.83
+ },
+ {
+  "n": 9,
+  "kind": "video",
+  "src": 29078559,
+  "source": "1920x1080",
+  "cropW": 606,
+  "upscale": 1.78,
+  "seconds": 6.17
+ },
+ {
+  "n": 10,
+  "kind": "video",
+  "src": 37094297,
+  "source": "1920x1080",
+  "cropW": 606,
+  "upscale": 1.78,
+  "seconds": 7.2
+ }
+]

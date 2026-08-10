@@ -1,0 +1,10 @@
+[
+ { "n": 1, "from": 0,    "len": 265, "kind": "video", "src": 31714020, "ss": 0.0,  "pan": "right", "why": "hook: people walking down the stream corridor, towers behind. Words say highway, picture says water." },
+ { "n": 2, "from": 265,  "len": 165, "kind": "video", "src": 31758112, "ss": 0.5,  "pan": "left",  "why": "the lid / the burial section" },
+ { "n": 3, "from": 430,  "len": 130, "kind": "video", "src": 31638894, "ss": 0.5,  "pan": "right", "why": "stepping stones — thirty years of being a road" },
+ { "n": 4, "from": 560,  "len": 140, "kind": "video", "src": 31714020, "ss": 12.0, "pan": "left",  "why": "turn: 2003, the demolition line" },
+ { "n": 5, "from": 700,  "len": 150, "kind": "video", "src": 31758112, "ss": 14.0, "pan": "right", "why": "the numbers land here" },
+ { "n": 6, "from": 850,  "len": 145, "kind": "video", "src": 31758110, "ss": 0.0,  "pan": "left",  "why": "close on water and stone — the lid comes off" },
+ { "n": 7, "from": 995,  "len": 165, "kind": "video", "src": 31638894, "ss": 8.0,  "pan": "left",  "why": "the mayor / the aftermath" },
+ { "n": 8, "from": 1160, "len": 203, "kind": "video", "src": 31714020, "ss": 22.0, "pan": "right", "why": "payoff and outro bed: the corridor again, now understood" }
+]

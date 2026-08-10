@@ -57,6 +57,16 @@ debug.log
 !/output/reels/*/*.md
 !/output/reels/*/caption-timings-*.json
 !/output/reels/*/remotion-props-*.json
+# render-manifest.json and the cut plans are also build-time imports (HubReels.tsx,
+# Batch0811Reels.tsx). They were previously force-added, which meant a clean
+# checkout of a new batch would not compile until someone remembered `git add -f`.
+!/output/reels/*/render-manifest.json
+!/output/reels/*/cut-plan-*.json
+!/output/reels/*/media-report.json
+# The narration scripts and the upload caption are the most reusable text a Reel
+# produces and were silently untracked — only *.md was allowed through.
+!/output/reels/*/voice-part-*.txt
+!/output/reels/*/instagram-caption.txt
 !/output/reels/*/tts/
 /output/reels/*/tts/*
 !/output/reels/*/tts/*.txt

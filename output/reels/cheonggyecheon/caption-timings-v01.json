@@ -1,0 +1,329 @@
+{
+  "slug": "cheonggyecheon",
+  "version": "v01",
+  "fps": 30,
+  "generatedAt": "2026-08-10T18:59:49.988Z",
+  "method": "ElevenLabs Forced Alignment against the approved narration transcript",
+  "captionLeadFrames": 5,
+  "safeZone": {
+    "left": 76,
+    "right": 76,
+    "bottom": 410,
+    "maxWidth": 928
+  },
+  "parts": [
+    {
+      "part": 1,
+      "transcript": "You're looking at a highway. Seriously. Twenty years ago this exact spot was six lanes of elevated motorway, up on concrete stilts, roaring straight over the middle of Seoul.",
+      "alignmentLoss": 0.07110876324533046,
+      "wordCount": 29,
+      "beatCount": 6,
+      "firstWordStart": 0.259,
+      "lastWordEnd": 8.279
+    },
+    {
+      "part": 2,
+      "transcript": "And underneath it, sealed under a concrete lid, there was a stream. Seoul buried this water back in the fifties. It smelled, the city was broke, and paving over it was the cheap answer. Then they built the freeway on top and for thirty years, that was just what this place was.",
+      "alignmentLoss": 0.04789285238038762,
+      "wordCount": 52,
+      "beatCount": 9,
+      "firstWordStart": 0.179,
+      "lastWordEnd": 12.579
+    },
+    {
+      "part": 3,
+      "transcript": "Until two thousand three, when the city did the thing that basically nobody does. They tore the freeway down. Five point eight kilometres. Two years. Three hundred and eighty six billion won. They pulled the lid off and let the water back out.",
+      "alignmentLoss": 0.09333760846298908,
+      "wordCount": 43,
+      "beatCount": 9,
+      "firstWordStart": 0.179,
+      "lastWordEnd": 10.899
+    },
+    {
+      "part": 4,
+      "transcript": "The mayor who pushed it through was president two years later. And the city says it runs about three degrees cooler down here than the street up there. So that breeze isn't landscaping. That's a road that isn't there any more.",
+      "alignmentLoss": 0.05546795741646691,
+      "wordCount": 41,
+      "beatCount": 6,
+      "firstWordStart": 0.159,
+      "lastWordEnd": 9.46
+    }
+  ],
+  "beats": [
+    {
+      "part": 1,
+      "text": "You're looking at a highway.",
+      "startFrame": 12,
+      "endFrame": 45,
+      "sourceStartSeconds": 0.259,
+      "sourceEndSeconds": 1.259,
+      "wordCount": 5
+    },
+    {
+      "part": 1,
+      "text": "Seriously.",
+      "startFrame": 46,
+      "endFrame": 64,
+      "sourceStartSeconds": 1.379,
+      "sourceEndSeconds": 1.779,
+      "wordCount": 1
+    },
+    {
+      "part": 1,
+      "text": "Twenty years ago this exact spot",
+      "startFrame": 65,
+      "endFrame": 111,
+      "sourceStartSeconds": 2.019,
+      "sourceEndSeconds": 3.519,
+      "wordCount": 6
+    },
+    {
+      "part": 1,
+      "text": "was six lanes of elevated motorway,",
+      "startFrame": 112,
+      "endFrame": 166,
+      "sourceStartSeconds": 3.579,
+      "sourceEndSeconds": 5.319,
+      "wordCount": 6
+    },
+    {
+      "part": 1,
+      "text": "up on concrete stilts,",
+      "startFrame": 167,
+      "endFrame": 203,
+      "sourceStartSeconds": 5.42,
+      "sourceEndSeconds": 6.5,
+      "wordCount": 4
+    },
+    {
+      "part": 1,
+      "text": "roaring straight over the middle of Seoul.",
+      "startFrame": 204,
+      "endFrame": 265,
+      "sourceStartSeconds": 6.639,
+      "sourceEndSeconds": 8.279,
+      "wordCount": 7
+    },
+    {
+      "part": 2,
+      "text": "And underneath it,",
+      "startFrame": 274,
+      "endFrame": 295,
+      "sourceStartSeconds": 0.179,
+      "sourceEndSeconds": 0.859,
+      "wordCount": 3
+    },
+    {
+      "part": 2,
+      "text": "sealed under a concrete lid,",
+      "startFrame": 296,
+      "endFrame": 334,
+      "sourceStartSeconds": 0.899,
+      "sourceEndSeconds": 2.099,
+      "wordCount": 5
+    },
+    {
+      "part": 2,
+      "text": "there was a stream.",
+      "startFrame": 335,
+      "endFrame": 377,
+      "sourceStartSeconds": 2.22,
+      "sourceEndSeconds": 2.96,
+      "wordCount": 4
+    },
+    {
+      "part": 2,
+      "text": "Seoul buried this water back in the fifties.",
+      "startFrame": 378,
+      "endFrame": 435,
+      "sourceStartSeconds": 3.659,
+      "sourceEndSeconds": 5.48,
+      "wordCount": 8
+    },
+    {
+      "part": 2,
+      "text": "It smelled, the city was broke,",
+      "startFrame": 436,
+      "endFrame": 477,
+      "sourceStartSeconds": 5.579,
+      "sourceEndSeconds": 6.879,
+      "wordCount": 6
+    },
+    {
+      "part": 2,
+      "text": "and paving over it was the cheap answer.",
+      "startFrame": 478,
+      "endFrame": 539,
+      "sourceStartSeconds": 6.98,
+      "sourceEndSeconds": 8.819,
+      "wordCount": 8
+    },
+    {
+      "part": 2,
+      "text": "Then they built the freeway on top",
+      "startFrame": 540,
+      "endFrame": 579,
+      "sourceStartSeconds": 9.039,
+      "sourceEndSeconds": 10.319,
+      "wordCount": 7
+    },
+    {
+      "part": 2,
+      "text": "and for thirty years,",
+      "startFrame": 580,
+      "endFrame": 607,
+      "sourceStartSeconds": 10.38,
+      "sourceEndSeconds": 11.239,
+      "wordCount": 4
+    },
+    {
+      "part": 2,
+      "text": "that was just what this place was.",
+      "startFrame": 608,
+      "endFrame": 658,
+      "sourceStartSeconds": 11.3,
+      "sourceEndSeconds": 12.579,
+      "wordCount": 7
+    },
+    {
+      "part": 3,
+      "text": "Until two thousand three,",
+      "startFrame": 668,
+      "endFrame": 701,
+      "sourceStartSeconds": 0.179,
+      "sourceEndSeconds": 1.24,
+      "wordCount": 4
+    },
+    {
+      "part": 3,
+      "text": "when the city did the thing",
+      "startFrame": 702,
+      "endFrame": 729,
+      "sourceStartSeconds": 1.319,
+      "sourceEndSeconds": 2.22,
+      "wordCount": 6
+    },
+    {
+      "part": 3,
+      "text": "that basically nobody does.",
+      "startFrame": 730,
+      "endFrame": 776,
+      "sourceStartSeconds": 2.259,
+      "sourceEndSeconds": 3.419,
+      "wordCount": 4
+    },
+    {
+      "part": 3,
+      "text": "They tore the freeway down.",
+      "startFrame": 777,
+      "endFrame": 815,
+      "sourceStartSeconds": 3.819,
+      "sourceEndSeconds": 4.88,
+      "wordCount": 5
+    },
+    {
+      "part": 3,
+      "text": "Five point eight kilometres.",
+      "startFrame": 816,
+      "endFrame": 856,
+      "sourceStartSeconds": 5.099,
+      "sourceEndSeconds": 6.119,
+      "wordCount": 4
+    },
+    {
+      "part": 3,
+      "text": "Two years.",
+      "startFrame": 857,
+      "endFrame": 888,
+      "sourceStartSeconds": 6.46,
+      "sourceEndSeconds": 6.94,
+      "wordCount": 2
+    },
+    {
+      "part": 3,
+      "text": "Three hundred and eighty six billion won.",
+      "startFrame": 889,
+      "endFrame": 936,
+      "sourceStartSeconds": 7.539,
+      "sourceEndSeconds": 8.939,
+      "wordCount": 7
+    },
+    {
+      "part": 3,
+      "text": "They pulled the lid off",
+      "startFrame": 937,
+      "endFrame": 958,
+      "sourceStartSeconds": 9.139,
+      "sourceEndSeconds": 9.84,
+      "wordCount": 5
+    },
+    {
+      "part": 3,
+      "text": "and let the water back out.",
+      "startFrame": 959,
+      "endFrame": 1002,
+      "sourceStartSeconds": 9.88,
+      "sourceEndSeconds": 10.899,
+      "wordCount": 6
+    },
+    {
+      "part": 4,
+      "text": "The mayor who pushed it through",
+      "startFrame": 1013,
+      "endFrame": 1045,
+      "sourceStartSeconds": 0.159,
+      "sourceEndSeconds": 1.22,
+      "wordCount": 6
+    },
+    {
+      "part": 4,
+      "text": "was president two years later.",
+      "startFrame": 1046,
+      "endFrame": 1095,
+      "sourceStartSeconds": 1.279,
+      "sourceEndSeconds": 2.48,
+      "wordCount": 5
+    },
+    {
+      "part": 4,
+      "text": "And the city says it runs about three degrees",
+      "startFrame": 1096,
+      "endFrame": 1145,
+      "sourceStartSeconds": 2.939,
+      "sourceEndSeconds": 4.539,
+      "wordCount": 9
+    },
+    {
+      "part": 4,
+      "text": "cooler down here than the street up there.",
+      "startFrame": 1146,
+      "endFrame": 1197,
+      "sourceStartSeconds": 4.619,
+      "sourceEndSeconds": 6.199,
+      "wordCount": 8
+    },
+    {
+      "part": 4,
+      "text": "So that breeze isn't landscaping.",
+      "startFrame": 1198,
+      "endFrame": 1246,
+      "sourceStartSeconds": 6.339,
+      "sourceEndSeconds": 7.879,
+      "wordCount": 5
+    },
+    {
+      "part": 4,
+      "text": "That's a road that isn't there any more.",
+      "startFrame": 1247,
+      "endFrame": 1303,
+      "sourceStartSeconds": 7.96,
+      "sourceEndSeconds": 9.46,
+      "wordCount": 8
+    }
+  ],
+  "coverage": {
+    "transcriptWords": 165,
+    "captionWords": 165,
+    "audioParts": 4
+  }
+}
