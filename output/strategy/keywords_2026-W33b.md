@@ -151,3 +151,56 @@ identical to the ahjussi class: good position, zero clicks, nothing a title can 
 and bodies, and `output/final/`; excluded 컵빙수 (`259`), 웨이팅앱 (`214`), 물품보관함 (`216`),
 무인사진관 (`184`/`241`), 코인노래방 (`003`, also died on romanization), 의사방문 (`190`),
 배달비 (`178`), 무인점포 (`054`).
+
+---
+
+# ADDENDUM (same day) — the "no topics" conclusion was wrong
+
+The representative pushed back: *"쓸 주제가 없다는 게 말이 되냐? 다음에는 생긴다는 보장이 있어?"*
+Both halves are correct and the run above is superseded by this section.
+
+**Why the first pass produced zero — three method errors, not a dry market:**
+
+1. **The coverage gate was asking the wrong question.** It fired on *"does English coverage exist"*
+   rather than *"is the specific angle taken and can we not beat it."* Korea Herald writing one
+   2022 weekender on manhwa cafes is not a reason we cannot publish a 2026 practical guide with
+   prices. Our own best query (`korean convenience store breakfast`, 14.75%) certainly has
+   competing content too.
+2. **Every axis hunted *new* things.** Trending products and fresh systems are exactly where
+   journalists and the Korea-blog class compete hardest and fastest. That is the worst pond.
+3. **The instrument is capped and we treated its edge as the world's edge.** GSC UI export stops at
+   **1,000 rows**. The playbook already says this cap "is why 'the queue ran dry' keeps happening."
+   Filtering the weak-position band (11–50, ≥120 impressions) returned only **6 rows** — that is a
+   measurement artifact, not a market fact.
+
+**The pond that actually has fish: gaps in our own site.** Scanning all 371 posts for concepts that
+appear repeatedly in bodies but hold no title produced immediate hits — and these are *evergreen*,
+so no journalist is racing us for them.
+
+| Mentioned in | Concept | Has a page? |
+|---:|---|---|
+| 14 posts | **doenjang** | No — but `gochujang` has one |
+| 7 posts | **hanok stay** | No |
+| 7 posts | **bossam** | No |
+| 5 posts | **jokbal** | No |
+| 0 posts | **suneung / Korea exam day** | No — total blind spot |
+| 0 posts | **Hangul Day** | No — total blind spot |
+
+## Corrected candidate list — 5, with evidence
+
+| # | Candidate | Target query | Demand | Supply | Shape | Monetization |
+|---:|---|---|---|---|---|---|
+| 1 | **족발 vs 보쌈** | `jokbal vs bossam` | **10 branches incl. `reddit` and `calories`** | Thin — 2012 WordPress blogs, Wikipedia, one 2025 recipe post. **No major outlet, no decision guide.** | **Comparison** (our 1.15%+ class) | Ssam/BBQ supplies |
+| 2 | **된장 vs 고추장** | `doenjang vs gochujang` | 10 branches; `doenjang jjigae` 10 | Recipe blogs own the *recipe*; the *which-is-which for a shopper* frame is open | Comparison | **Strong** — both pastes sell on Amazon |
+| 3 | **한옥스테이** | `hanok stay seoul` | 10 branches (`seoul`, `gyeongju`, `busan`) | OTA listings + one listicle; the **decision** (₩80,000–120,000 modern vs ₩490,000–840,000 traditional) is unserved | Purchase decision | **Agoda** — Agoda is literally the #1 result |
+| 4 | **수능 / Korea exam day** | `korea exam day` | 10 branches; `suneung` 10 | Wire stories each November; no evergreen visitor-facing explainer | Mechanism ("why the country stops") | Weak — publish for reach |
+| 5 | **한글날** | `hangul day` | 10 branches incl. `hangul day 2026` | Thin | Calendar/practical | Weak |
+
+**Two of these are time-critical.** Hangul Day is **9 October**; Suneung is **mid-November**. Ranking
+needs 6–10 weeks of lead, so they must be written in **August**, not when the date arrives. We have
+been publishing seasonal content late (`200` Chuseok was refreshed *after* it went stale, `198`
+Waterbomb described a finished event in future tense). This is the same failure caught early.
+
+**Method change to carry forward:** run the site-gap scan (concepts in bodies without a title) and
+the seasonal calendar **before** the trend feeds, not after. Trend feeds are the last resort, not
+the first move — they are the one source every competitor also reads.
