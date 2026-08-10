@@ -1,10 +1,10 @@
 {
   "summary": {
-    "generatedAt": "2026-08-10T13:28:06.197Z",
-    "auditedPosts": 364,
+    "generatedAt": "2026-08-10T13:55:21.156Z",
+    "auditedPosts": 366,
     "includedPrivate": false,
     "slugFilter": "",
-    "bodyImages": 1319,
+    "bodyImages": 1327,
     "affectedPosts": 99,
     "critical": 0,
     "high": 0,
@@ -13648,6 +13648,84 @@
           "url": "/assets/images/posts/373/jangdokdae-naganeupseong.jpg",
           "alt": "A stone terrace crowded with dozens of dark earthenware jars of different sizes, under persimmon trees.",
           "caption": "A jangdokdae — the jar terrace where the fermentation actually happens. Naganeupseong Folk Village. Photo by Bernard Gagnon via Wikimedia Commons (CC0).",
+          "ext": ".jpg",
+          "exists": true
+        }
+      ],
+      "findings": []
+    },
+    {
+      "type": "blog",
+      "slug": "374",
+      "title": "Hangul Day in Seoul: What's Open on Korea's October 9 Holiday",
+      "contentPath": "content\\blog\\374.md",
+      "sourceRecord": "public\\assets\\images\\posts\\374\\image-sources.md",
+      "imageCount": 4,
+      "images": [
+        {
+          "url": "/assets/images/posts/374/sejong-statue-hunminjeongeum-projection.jpg",
+          "alt": "The bronze King Sejong statue at Gwanghwamun at night, with pages of the Hunminjeongeum projected in huge scale onto the Sejong Center facade behind it.",
+          "caption": "Hangul Day at Gwanghwamun: the Sejong statue with the Hunminjeongeum projected onto the Sejong Center behind it. Photo: Jeon Han / Korean Culture and Information Service via Wikimedia Commons (CC BY-SA 2.0).",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/374/sejong-statue-gwanghwamun-daylight.jpg",
+          "alt": "Close view of the bronze King Sejong statue at Gwanghwamun against a blue sky, seated with an open book, the granite pedestal reading 세종대왕 in Hangul.",
+          "caption": "The statue in daylight. The open book in his lap is the point of the whole monument. Photo: Marsilar via Wikimedia Commons (CC BY-SA 4.0).",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/374/hangul-day-congratulations-projection.jpg",
+          "alt": "A night projection on the Sejong Center facade reading 축하합니다 in large Hangul, surrounded by the word \"congratulations\" written phonetically in Hangul in many languages, with the Sejong statue silhouetted in front.",
+          "caption": "\"Congratulations\" in a dozen languages, all written in Hangul — 콩그라츄레이션, 펠리시타시옹, 콩그라툴라지오니. The December 2012 event marking Hangul Day's restoration as a public holiday. Photo: Jeon Han / Korean Culture and Information Service via Wikimedia Commons (CC BY-SA 2.0).",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/374/hunminjeongeum-haerye-opening-page.jpg",
+          "alt": "The opening pages of the Hunminjeongeum Haerye, printed in vertical columns of classical Chinese with red collection seals, beginning with the title 訓民正音.",
+          "caption": "The opening page. The fourth column contains 二十八字 — \"twenty-eight letters,\" which is four more than modern Hangul uses. Photo: Wikimedia Commons (public domain).",
+          "ext": ".jpg",
+          "exists": true
+        }
+      ],
+      "findings": []
+    },
+    {
+      "type": "blog",
+      "slug": "375",
+      "title": "Korea's Exam Day: Why Planes Stop for Suneung and How to Plan Around It",
+      "contentPath": "content\\blog\\375.md",
+      "sourceRecord": "public\\assets\\images\\posts\\375\\image-sources.md",
+      "imageCount": 4,
+      "images": [
+        {
+          "url": "/assets/images/posts/375/suneung-parents-at-school-gate.jpg",
+          "alt": "Parents pressed against the metal railings of a school gate on Suneung morning, one man with his eyes closed and hands raised in prayer, a crowd of people behind him.",
+          "caption": "Outside the gate after it closes. The exam runs about nine hours; a lot of parents do not leave. Photo: Korea.net / Korean Culture and Information Service via Wikimedia Commons (CC BY-SA 2.0).",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/375/suneung-juniors-saluting-seniors.jpg",
+          "alt": "Uniformed junior high-school students lined up along a road, saluting with hands raised to their foreheads as older students walk past to the exam hall.",
+          "caption": "Second-years saluting third-years into the exam. The cheering squads are organised by school, not by the students' parents. Photo: Korea.net / Korean Culture and Information Service via Wikimedia Commons (CC BY-SA 2.0).",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/375/suneung-school-gate-crowd-aerial.jpg",
+          "alt": "Aerial view of a Seoul high school gate on exam morning: a dense crowd of students, parents, banners and TV crews on the road below, with an autumn-coloured mountain rising behind the school.",
+          "caption": "Kyungbock High School in Jongno-gu on exam morning, with Bugaksan behind it. The white vans on the right are broadcast trucks — the gate scene is a fixed item on the evening news. Photo: Korea.net / Korean Culture and Information Service via Wikimedia Commons (CC BY-SA 2.0).",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/375/suneung-computer-sign-pen.jpg",
+          "alt": "A black computer-use marker pen and a mechanical pencil laid on a white surface — the two writing tools required for the Korean exam.",
+          "caption": "The 컴퓨터용 사인펜 and a mechanical pencil. The marker is provided at the test centre and candidates are required to use the issued one. Photo: Wikimedia Commons (CC BY 4.0).",
           "ext": ".jpg",
           "exists": true
         }
