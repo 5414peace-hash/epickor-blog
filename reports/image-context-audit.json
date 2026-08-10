@@ -1,10 +1,10 @@
 {
   "summary": {
-    "generatedAt": "2026-08-09T12:39:48.374Z",
-    "auditedPosts": 362,
+    "generatedAt": "2026-08-10T12:08:20.145Z",
+    "auditedPosts": 363,
     "includedPrivate": false,
     "slugFilter": "",
-    "bodyImages": 1312,
+    "bodyImages": 1316,
     "affectedPosts": 99,
     "critical": 0,
     "high": 0,
@@ -13577,6 +13577,45 @@
           "url": "/assets/images/posts/371/kancho-cup-format.jpg",
           "alt": "A Lotte Kancho Choco cup with a pink resealable lid, reading 카니와 쵸니의 달콤한 이야기 and 95 g, 460 kcal.",
           "caption": "The cup format, with the resealable lid. The line under the heart reads **카니와 쵸니의 달콤한 이야기** — \"the sweet story of Kani and Choni.\" Photo supplied by EpicKor.",
+          "ext": ".jpg",
+          "exists": true
+        }
+      ],
+      "findings": []
+    },
+    {
+      "type": "blog",
+      "slug": "372",
+      "title": "Jokbal vs Bossam: Which Korean Pork Dish Should You Order?",
+      "contentPath": "content\\blog\\372.md",
+      "sourceRecord": "public\\assets\\images\\posts\\372\\image-sources.md",
+      "imageCount": 4,
+      "images": [
+        {
+          "url": "/assets/images/posts/372/jokbal-bossam-same-plate.jpg",
+          "alt": "A single plate holding both dishes: pale sliced boiled pork belly on the left, glossy dark soy-braised trotter with the bone still in on the right.",
+          "caption": "The whole comparison in one frame. Left: bossam, boiled and pale. Right: jokbal, braised dark and still on the bone. Photo by Jungyeon Min via Wikimedia Commons (CC0).",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/372/jokbal-market-stall.jpg",
+          "alt": "A market stall with whole braised trotters stacked under glass and a Korean sign reading 왕족발.",
+          "caption": "Jokbal is sold by the whole trotter at market stalls as well as in restaurants. Photo by Kbarends via Wikimedia Commons (CC BY-SA 3.0).",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/372/jokbal-soy-braised.jpg",
+          "alt": "A platter of sliced jokbal, dark and glossy, scattered with sesame seeds.",
+          "caption": "Sliced jokbal keeps the skin attached to every piece — that layer is the texture people either love or bounce off. Photo by aka_maya via Wikimedia Commons (CC BY-SA 2.0).",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/372/bossam-set-with-kimchi.jpg",
+          "alt": "A bossam set: pale sliced pork, seasoned radish salad, tofu and a fan of pickled cabbage wrappers.",
+          "caption": "A full bossam set gives you the components separately — pork, radish salad, tofu, wrappers — because assembling the bite is the point. Photo by Nicole Cho via Wikimedia Commons (CC BY-SA 2.0).",
           "ext": ".jpg",
           "exists": true
         }
