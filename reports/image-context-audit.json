@@ -1,10 +1,10 @@
 {
   "summary": {
-    "generatedAt": "2026-08-10T12:39:43.126Z",
-    "auditedPosts": 363,
+    "generatedAt": "2026-08-10T13:28:06.197Z",
+    "auditedPosts": 364,
     "includedPrivate": false,
     "slugFilter": "",
-    "bodyImages": 1316,
+    "bodyImages": 1319,
     "affectedPosts": 99,
     "critical": 0,
     "high": 0,
@@ -13616,6 +13616,38 @@
           "url": "/assets/images/posts/372/bossam-set-korean-table.jpg",
           "alt": "A Korean restaurant bossam platter: sliced boiled pork belly, red bossam kimchi, tofu, napa cabbage leaves, lettuce and perilla leaves, with a bowl of salted shrimp beside it.",
           "caption": "A bossam platter hands you the parts and nothing else: boiled pork, 보쌈김치, tofu, and a pile of napa cabbage, lettuce and perilla to wrap with. The small bowl at the right is the saeujeot. Photo by Timber Tank via Wikimedia Commons (CC BY-SA 2.0).",
+          "ext": ".jpg",
+          "exists": true
+        }
+      ],
+      "findings": []
+    },
+    {
+      "type": "blog",
+      "slug": "373",
+      "title": "Doenjang vs Gochujang: Which Korean Paste Does Your Dish Need?",
+      "contentPath": "content\\blog\\373.md",
+      "sourceRecord": "public\\assets\\images\\posts\\373\\image-sources.md",
+      "imageCount": 3,
+      "images": [
+        {
+          "url": "/assets/images/posts/373/jang-trio-soybeans-chilies.jpg",
+          "alt": "Soybeans, a mound of brown doenjang, a bowl of dark soy sauce, dried red chillies and a small bowl of gochujang arranged on a blue cloth.",
+          "caption": "The whole family in one frame. Left: soybeans become doenjang and the soy sauce beside it. Right: dried chillies become gochujang. Photo: Korea Agro-Fisheries & Food Trade Corporation via Wikimedia Commons (KOGL Type 1).",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/373/meju-dried-block.jpg",
+          "alt": "A dried meju block — a rough brown brick of fermented soybeans — on a tray in a kitchen.",
+          "caption": "A meju block. Everything on the left side of the chart above starts here. Photo by Sous Chef via Wikimedia Commons (CC BY 2.0).",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/373/jangdokdae-naganeupseong.jpg",
+          "alt": "A stone terrace crowded with dozens of dark earthenware jars of different sizes, under persimmon trees.",
+          "caption": "A jangdokdae — the jar terrace where the fermentation actually happens. Naganeupseong Folk Village. Photo by Bernard Gagnon via Wikimedia Commons (CC0).",
           "ext": ".jpg",
           "exists": true
         }
