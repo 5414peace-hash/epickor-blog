@@ -2,10 +2,10 @@
 title: "What Is Deli Manjoo? Korea's Subway Custard Snack"
 slug: "071"
 date: "2024-09-06"
-updatedAt: "2026-07-31"
+updatedAt: "2026-08-10"
 visibility: "public"
 publishAt: ""
-description: "What is Deli Manjoo? Korea's warm corn-shaped custard snack, famous in subway stations for its sweet smell, soft cake, and nostalgia."
+description: "Delimanjoo is not street food. Deli Manjoo is a franchise that opened inside Myeongdong Station in 1998 and grew to about 90 subway locations. What Korea's warm corn-shaped custard snack tastes like, what it costs in 2026, and how to order it."
 ogImage: "/assets/images/posts/071/64a29764-bfc3-47d6-a963-4ed11f271548.png"
 tags: ['Deli Manjoo', 'Korean Snack', 'Korean Food', 'Seoul Subway', 'Street Food']
 author: "EpicKor"
@@ -13,7 +13,7 @@ author: "EpicKor"
 
 ![Deli Manjoo Korean subway snack video thumbnail from EpicKor](/assets/images/posts/071/64a29764-bfc3-47d6-a963-4ed11f271548.png)
 
-What is **Deli Manjoo**?
+What is **Deli Manjoo** — or **Delimanjoo**, which is how the brand itself writes it?
 
 Simply put, Deli Manjoo is a warm Korean snack shaped like a tiny ear of corn and filled with sweet custard cream. You often find it in subway stations, near bus terminals, or in places where commuters are moving fast and suddenly get ambushed by the smell of hot vanilla cake.
 
@@ -52,7 +52,7 @@ For visitors, Deli Manjoo can feel like a Korean street-food cousin of taiyaki, 
 
 ## Why Is It Called Deli Manjoo?
 
-The name is usually written as **Deli Manjoo** or **Delimanjoo** in English, and ?�리만�? in Korean.
+The name is usually written as **Deli Manjoo** or **Delimanjoo** in English, and 델리만쥬 in Korean.
 
 "Deli" suggests delicious or deli-style convenience, while "manjoo" refers to a small filled pastry or cake. It is not mandu, the Korean dumpling, even though the words can sound a little similar to newcomers.
 
@@ -120,7 +120,7 @@ That combination is powerful.
 
 The most famous Deli Manjoo location is connected with **Myeongdong Station** in Seoul.
 
-Korean media and travel coverage often point to the Myeongdong Station store as the original or iconic Deli Manjoo spot, with its history going back to 1998. That matters because Myeongdong is already a district of shopping, tourists, cosmetics, street food, and constant foot traffic.
+This is not just the most famous branch — it is the **first one**. The original Deli Manjoo store opened inside **Myeongdong Station on Line 4 in 1998**, and everything else grew out of it. That location matters because Myeongdong is already a district of shopping, tourists, cosmetics, street food, and constant foot traffic.
 
 In that setting, Deli Manjoo makes perfect sense.
 
