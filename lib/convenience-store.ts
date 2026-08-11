@@ -124,7 +124,8 @@ export const HOW_TO: HowToRow[] = [
   {
     thing: '1+1 and 2+1',
     answer: 'Take the free one yourself',
-    detail: 'The shelf tag means buy one get one, or buy two get one. Nobody hands it to you — you pick the extra up and bring it to the till.',
+    detail: 'The shelf tag means buy one get one, or buy two get one. Nobody hands it to you — you pick the extra up and bring it to the till. The chains also let you bank the free item in their app and collect it later, which almost no short-term visitor can actually do.',
+    slug: '376',
   },
   {
     thing: 'End-of-day markdown',
@@ -292,6 +293,13 @@ export const GUIDE_GROUPS: GuideGroup[] = [
     heading: 'How the shop itself works',
     intro: 'The machines, the discount clock, and the parts of the format that are not about food.',
     guides: [
+      {
+        slug: '376',
+        title: '1+1 and 2+1, and who can bank the free one',
+        blurb: 'The deals need no app and work for everyone. The trick every guide recommends — saving the free item for later — needs Korean ID verification.',
+        image: '/assets/images/posts/376/cu-store-interior-2plus1-freezer.jpg',
+        imageAlt: 'A 2+1 promotion strip on the ice-cream chest of a Korean convenience store.',
+      },
       {
         slug: '054',
         title: 'The automated store',
