@@ -3,7 +3,7 @@
  "fps": 30,
  "width": 1080,
  "height": 1920,
- "durationInFrames": 1420,
+ "durationInFrames": 1440,
  "audioSegments": [
   {
    "part": 1,
@@ -44,6 +44,14 @@
    "startFrame": 1073,
    "durationFrames": 128,
    "durationSeconds": 4.272472
+  },
+  {
+   "part": 6,
+   "file": "voice-part-6.mp3",
+   "staticFilePath": "audio/voice-part-6.mp3",
+   "startFrame": 1213,
+   "durationFrames": 180,
+   "durationSeconds": 5.990748
   }
  ]
 }

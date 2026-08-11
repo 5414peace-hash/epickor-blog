@@ -331,7 +331,7 @@ function Root() {
         width={1080}
         height={1920}
         fps={30}
-        durationInFrames={1363}
+        durationInFrames={1490}
       />
       <Composition
         id="Sungnyemun"
@@ -339,7 +339,7 @@ function Root() {
         width={1080}
         height={1920}
         fps={30}
-        durationInFrames={1451}
+        durationInFrames={1550}
       />
       <Composition
         id="Suneung"

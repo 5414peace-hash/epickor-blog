@@ -1,6 +1,6 @@
 {
  "slug": "sungnyemun",
- "durationInFrames": 1451,
+ "durationInFrames": 1550,
  "cuts": [
   {
    "n": 1,
@@ -68,8 +68,15 @@
   {
    "n": 10,
    "from": 1280,
-   "len": 171,
+   "len": 120,
    "src": "assets/reels/sungnyemun/media/cut-10.mp4",
+   "kind": "video"
+  },
+  {
+   "n": 11,
+   "from": 1400,
+   "len": 150,
+   "src": "assets/reels/sungnyemun/media/cut-11.mp4",
    "kind": "video"
   }
  ],
@@ -228,6 +235,26 @@
    "text": "It's just Sungnyemun.",
    "startFrame": 1299,
    "endFrame": 1344
+  },
+  {
+   "text": "There is a lot more",
+   "startFrame": 1350,
+   "endFrame": 1367
+  },
+  {
+   "text": "your guidebook gets wrong about this city,",
+   "startFrame": 1368,
+   "endFrame": 1413
+  },
+  {
+   "text": "and we wrote all",
+   "startFrame": 1414,
+   "endFrame": 1430
+  },
+  {
+   "text": "of it down at epickor dot com.",
+   "startFrame": 1431,
+   "endFrame": 1487
   }
  ]
 }

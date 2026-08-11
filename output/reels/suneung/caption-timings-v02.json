@@ -2,7 +2,7 @@
   "slug": "suneung",
   "version": "v02",
   "fps": 30,
-  "generatedAt": "2026-08-10T20:30:42.856Z",
+  "generatedAt": "2026-08-11T01:41:18.317Z",
   "method": "ElevenLabs Forced Alignment against the approved narration transcript",
   "captionLeadFrames": 5,
   "safeZone": {
@@ -56,6 +56,15 @@
       "beatCount": 4,
       "firstWordStart": 0.159,
       "lastWordEnd": 4
+    },
+    {
+      "part": 6,
+      "transcript": "The full timings, the rules, and what to avoid if you are in Korea that day. We wrote it all down at epickor dot com.",
+      "alignmentLoss": 0.1390776603649824,
+      "wordCount": 25,
+      "beatCount": 4,
+      "firstWordStart": 0.159,
+      "lastWordEnd": 5.739
     }
   ],
   "beats": [
@@ -292,11 +301,47 @@
       "sourceStartSeconds": 2.759,
       "sourceEndSeconds": 4,
       "wordCount": 6
+    },
+    {
+      "part": 6,
+      "text": "The full timings, the rules,",
+      "startFrame": 1213,
+      "endFrame": 1255,
+      "sourceStartSeconds": 0.159,
+      "sourceEndSeconds": 1.48,
+      "wordCount": 5
+    },
+    {
+      "part": 6,
+      "text": "and what to avoid if you",
+      "startFrame": 1256,
+      "endFrame": 1288,
+      "sourceStartSeconds": 1.599,
+      "sourceEndSeconds": 2.679,
+      "wordCount": 6
+    },
+    {
+      "part": 6,
+      "text": "are in Korea that day.",
+      "startFrame": 1289,
+      "endFrame": 1321,
+      "sourceStartSeconds": 2.72,
+      "sourceEndSeconds": 3.72,
+      "wordCount": 5
+    },
+    {
+      "part": 6,
+      "text": "We wrote it all down at epickor dot com.",
+      "startFrame": 1322,
+      "endFrame": 1392,
+      "sourceStartSeconds": 3.799,
+      "sourceEndSeconds": 5.739,
+      "wordCount": 9
     }
   ],
   "coverage": {
-    "transcriptWords": 148,
-    "captionWords": 148,
-    "audioParts": 5
+    "transcriptWords": 173,
+    "captionWords": 173,
+    "audioParts": 6
   }
 }

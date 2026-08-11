@@ -1,10 +1,10 @@
 [
- { "n": 1, "from": 0,    "len": 265, "kind": "video", "src": 31714020, "ss": 0.0,  "pan": "right", "why": "hook: people walking down the stream corridor, towers behind. Words say highway, picture says water." },
- { "n": 2, "from": 265,  "len": 165, "kind": "video", "src": 31758112, "ss": 0.5,  "pan": "left",  "why": "the lid / the burial section" },
- { "n": 3, "from": 430,  "len": 130, "kind": "video", "src": 31638894, "ss": 0.5,  "pan": "right", "why": "stepping stones — thirty years of being a road" },
- { "n": 4, "from": 560,  "len": 140, "kind": "video", "src": 31714020, "ss": 12.0, "pan": "left",  "why": "turn: 2003, the demolition line" },
- { "n": 5, "from": 700,  "len": 150, "kind": "video", "src": 31758112, "ss": 14.0, "pan": "right", "why": "the numbers land here" },
- { "n": 6, "from": 850,  "len": 145, "kind": "video", "src": 31758110, "ss": 0.0,  "pan": "left",  "why": "close on water and stone — the lid comes off" },
- { "n": 7, "from": 995,  "len": 165, "kind": "video", "src": 31638894, "ss": 8.0,  "pan": "left",  "why": "the mayor / the aftermath" },
- { "n": 8, "from": 1160, "len": 203, "kind": "video", "src": 31714020, "ss": 22.0, "pan": "right", "why": "payoff and outro bed: the corridor again, now understood" }
+ { "n": 1, "from": 0,    "len": 175, "kind": "video", "src": 31714020, "ss": 0.0,  "pan": "right", "why": "hook: people walking down the stream corridor. Words say highway, picture says water." },
+ { "n": 2, "from": 175,  "len": 155, "kind": "video", "src": 37971708, "ss": 1.0,  "pan": "right", "why": "'six lanes of elevated motorway, roaring over the middle of Seoul' — an elevated view of real Seoul traffic. The old plan showed the stream here, i.e. contradicted its own sentence." },
+ { "n": 3, "from": 330,  "len": 160, "kind": "video", "src": 31758112, "ss": 0.5,  "pan": "left",  "why": "'underneath it, sealed under a concrete lid, there was a stream'" },
+ { "n": 4, "from": 490,  "len": 220, "kind": "video", "src": 28314121, "ss": 1.5,  "pan": "right", "focusX": 0.30, "panSpan": 0.25, "why": "'paving over it was the cheap answer, then they built the freeway on top' — Gangnam-daero from above. Deliberately NOT the Bank of Korea junction of cut 2: 37870428/37971704 are the same intersection and would have read as a repeat. focusX/panSpan aim the window at the roadway: the default centred 70% pan opened on glass facade and only found the road at the very end." },
+ { "n": 5, "from": 710,  "len": 170, "kind": "video", "src": 31638894, "ss": 0.5,  "pan": "right", "why": "'until 2003, they tore the freeway down' — stepping stones, the stream as a place again" },
+ { "n": 6, "from": 880,  "len": 130, "kind": "video", "src": 31758110, "ss": 0.0,  "pan": "left",  "why": "the numbers land on close water and stone. Source is only 6s, so this cut is capped at 130 frames + 45 handle." },
+ { "n": 7, "from": 1010, "len": 240, "kind": "video", "src": 31801546, "ss": 1.5,  "pan": "right", "why": "THESIS SHOT. Dusk, elevated: the stream below and the street lights above in one frame, which is exactly what 'three degrees cooler down here than the street up there' means. Only verified non-daylight Cheonggyecheon in the pool." },
+ { "n": 8, "from": 1250, "len": 240, "kind": "video", "src": 31714020, "ss": 20.0, "pan": "right", "why": "bookend to cut 1 and outro bed. Same source on purpose, 1250 frames later, same pan direction and a different 20s offset — the previous plan put this clip at cuts 1/4/8 with alternating pan, which is what read as the same footage sliding back and forth." }
 ]

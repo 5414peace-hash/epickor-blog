@@ -2,7 +2,7 @@
   "slug": "cheonggyecheon",
   "version": "v02",
   "fps": 30,
-  "generatedAt": "2026-08-10T20:30:30.353Z",
+  "generatedAt": "2026-08-11T01:41:06.977Z",
   "method": "ElevenLabs Forced Alignment against the approved narration transcript",
   "captionLeadFrames": 5,
   "safeZone": {
@@ -47,6 +47,15 @@
       "beatCount": 6,
       "firstWordStart": 0.099,
       "lastWordEnd": 9.279
+    },
+    {
+      "part": 5,
+      "transcript": "Seoul is full of places that used to be something else. We wrote them all up at epickor dot com.",
+      "alignmentLoss": 0.20817075048883757,
+      "wordCount": 20,
+      "beatCount": 3,
+      "firstWordStart": 0.119,
+      "lastWordEnd": 4.379
     }
   ],
   "beats": [
@@ -107,8 +116,8 @@
     {
       "part": 2,
       "text": "And underneath it,",
-      "startFrame": 274,
-      "endFrame": 292,
+      "startFrame": 271,
+      "endFrame": 289,
       "sourceStartSeconds": 0.079,
       "sourceEndSeconds": 0.74,
       "wordCount": 3
@@ -116,8 +125,8 @@
     {
       "part": 2,
       "text": "sealed under a concrete lid,",
-      "startFrame": 293,
-      "endFrame": 331,
+      "startFrame": 290,
+      "endFrame": 328,
       "sourceStartSeconds": 0.799,
       "sourceEndSeconds": 2.059,
       "wordCount": 5
@@ -125,8 +134,8 @@
     {
       "part": 2,
       "text": "there was a stream.",
-      "startFrame": 332,
-      "endFrame": 374,
+      "startFrame": 329,
+      "endFrame": 371,
       "sourceStartSeconds": 2.099,
       "sourceEndSeconds": 2.839,
       "wordCount": 4
@@ -134,8 +143,8 @@
     {
       "part": 2,
       "text": "Seoul buried this water back in the fifties.",
-      "startFrame": 375,
-      "endFrame": 432,
+      "startFrame": 372,
+      "endFrame": 429,
       "sourceStartSeconds": 3.539,
       "sourceEndSeconds": 5.4,
       "wordCount": 8
@@ -143,8 +152,8 @@
     {
       "part": 2,
       "text": "It smelled, the city was broke,",
-      "startFrame": 433,
-      "endFrame": 473,
+      "startFrame": 430,
+      "endFrame": 470,
       "sourceStartSeconds": 5.46,
       "sourceEndSeconds": 6.819,
       "wordCount": 6
@@ -152,8 +161,8 @@
     {
       "part": 2,
       "text": "and paving over it was the cheap answer.",
-      "startFrame": 474,
-      "endFrame": 535,
+      "startFrame": 471,
+      "endFrame": 532,
       "sourceStartSeconds": 6.859,
       "sourceEndSeconds": 8.859,
       "wordCount": 8
@@ -161,8 +170,8 @@
     {
       "part": 2,
       "text": "Then they built the freeway on top",
-      "startFrame": 536,
-      "endFrame": 576,
+      "startFrame": 533,
+      "endFrame": 573,
       "sourceStartSeconds": 8.92,
       "sourceEndSeconds": 10.22,
       "wordCount": 7
@@ -170,8 +179,8 @@
     {
       "part": 2,
       "text": "and for thirty years,",
-      "startFrame": 577,
-      "endFrame": 604,
+      "startFrame": 574,
+      "endFrame": 601,
       "sourceStartSeconds": 10.26,
       "sourceEndSeconds": 11.159,
       "wordCount": 4
@@ -179,8 +188,8 @@
     {
       "part": 2,
       "text": "that was just what this place was.",
-      "startFrame": 605,
-      "endFrame": 654,
+      "startFrame": 602,
+      "endFrame": 651,
       "sourceStartSeconds": 11.199,
       "sourceEndSeconds": 12.439,
       "wordCount": 7
@@ -188,8 +197,8 @@
     {
       "part": 3,
       "text": "Until two thousand three,",
-      "startFrame": 656,
-      "endFrame": 689,
+      "startFrame": 653,
+      "endFrame": 686,
       "sourceStartSeconds": 0.179,
       "sourceEndSeconds": 1.24,
       "wordCount": 4
@@ -197,8 +206,8 @@
     {
       "part": 3,
       "text": "when the city did the thing",
-      "startFrame": 690,
-      "endFrame": 717,
+      "startFrame": 687,
+      "endFrame": 714,
       "sourceStartSeconds": 1.319,
       "sourceEndSeconds": 2.22,
       "wordCount": 6
@@ -206,8 +215,8 @@
     {
       "part": 3,
       "text": "that basically nobody does.",
-      "startFrame": 718,
-      "endFrame": 764,
+      "startFrame": 715,
+      "endFrame": 761,
       "sourceStartSeconds": 2.259,
       "sourceEndSeconds": 3.419,
       "wordCount": 4
@@ -215,8 +224,8 @@
     {
       "part": 3,
       "text": "They tore the freeway down.",
-      "startFrame": 765,
-      "endFrame": 803,
+      "startFrame": 762,
+      "endFrame": 800,
       "sourceStartSeconds": 3.819,
       "sourceEndSeconds": 4.88,
       "wordCount": 5
@@ -224,8 +233,8 @@
     {
       "part": 3,
       "text": "Five point eight kilometres.",
-      "startFrame": 804,
-      "endFrame": 844,
+      "startFrame": 801,
+      "endFrame": 841,
       "sourceStartSeconds": 5.099,
       "sourceEndSeconds": 6.119,
       "wordCount": 4
@@ -233,8 +242,8 @@
     {
       "part": 3,
       "text": "Two years.",
-      "startFrame": 845,
-      "endFrame": 876,
+      "startFrame": 842,
+      "endFrame": 873,
       "sourceStartSeconds": 6.46,
       "sourceEndSeconds": 6.94,
       "wordCount": 2
@@ -242,8 +251,8 @@
     {
       "part": 3,
       "text": "Three hundred and eighty six billion won.",
-      "startFrame": 877,
-      "endFrame": 924,
+      "startFrame": 874,
+      "endFrame": 921,
       "sourceStartSeconds": 7.539,
       "sourceEndSeconds": 8.939,
       "wordCount": 7
@@ -251,8 +260,8 @@
     {
       "part": 3,
       "text": "They pulled the lid off",
-      "startFrame": 925,
-      "endFrame": 946,
+      "startFrame": 922,
+      "endFrame": 943,
       "sourceStartSeconds": 9.139,
       "sourceEndSeconds": 9.84,
       "wordCount": 5
@@ -260,8 +269,8 @@
     {
       "part": 3,
       "text": "and let the water back out.",
-      "startFrame": 947,
-      "endFrame": 990,
+      "startFrame": 944,
+      "endFrame": 987,
       "sourceStartSeconds": 9.88,
       "sourceEndSeconds": 10.899,
       "wordCount": 6
@@ -269,8 +278,8 @@
     {
       "part": 4,
       "text": "The mayor who pushed it through",
-      "startFrame": 1001,
-      "endFrame": 1028,
+      "startFrame": 998,
+      "endFrame": 1025,
       "sourceStartSeconds": 0.099,
       "sourceEndSeconds": 1.059,
       "wordCount": 6
@@ -278,8 +287,8 @@
     {
       "part": 4,
       "text": "was president two years later.",
-      "startFrame": 1029,
-      "endFrame": 1077,
+      "startFrame": 1026,
+      "endFrame": 1074,
       "sourceStartSeconds": 1.1,
       "sourceEndSeconds": 2.319,
       "wordCount": 5
@@ -287,8 +296,8 @@
     {
       "part": 4,
       "text": "And the city says it runs about three degrees",
-      "startFrame": 1078,
-      "endFrame": 1129,
+      "startFrame": 1075,
+      "endFrame": 1126,
       "sourceStartSeconds": 2.759,
       "sourceEndSeconds": 4.38,
       "wordCount": 9
@@ -296,8 +305,8 @@
     {
       "part": 4,
       "text": "cooler down here than the street up there.",
-      "startFrame": 1130,
-      "endFrame": 1180,
+      "startFrame": 1127,
+      "endFrame": 1177,
       "sourceStartSeconds": 4.46,
       "sourceEndSeconds": 6.039,
       "wordCount": 8
@@ -305,8 +314,8 @@
     {
       "part": 4,
       "text": "So that breeze isn't landscaping.",
-      "startFrame": 1181,
-      "endFrame": 1229,
+      "startFrame": 1178,
+      "endFrame": 1226,
       "sourceStartSeconds": 6.179,
       "sourceEndSeconds": 7.719,
       "wordCount": 5
@@ -314,16 +323,43 @@
     {
       "part": 4,
       "text": "That's a road that isn't there any more.",
-      "startFrame": 1230,
-      "endFrame": 1286,
+      "startFrame": 1227,
+      "endFrame": 1283,
       "sourceStartSeconds": 7.799,
       "sourceEndSeconds": 9.279,
       "wordCount": 8
+    },
+    {
+      "part": 5,
+      "text": "Seoul is full of places",
+      "startFrame": 1293,
+      "endFrame": 1325,
+      "sourceStartSeconds": 0.119,
+      "sourceEndSeconds": 1.24,
+      "wordCount": 5
+    },
+    {
+      "part": 5,
+      "text": "that used to be something else.",
+      "startFrame": 1326,
+      "endFrame": 1369,
+      "sourceStartSeconds": 1.279,
+      "sourceEndSeconds": 2.599,
+      "wordCount": 6
+    },
+    {
+      "part": 5,
+      "text": "We wrote them all up at epickor dot com.",
+      "startFrame": 1370,
+      "endFrame": 1431,
+      "sourceStartSeconds": 2.74,
+      "sourceEndSeconds": 4.379,
+      "wordCount": 9
     }
   ],
   "coverage": {
-    "transcriptWords": 165,
-    "captionWords": 165,
-    "audioParts": 4
+    "transcriptWords": 185,
+    "captionWords": 185,
+    "audioParts": 5
   }
 }

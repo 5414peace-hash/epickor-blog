@@ -1,47 +1,53 @@
 [
  {
   "n": 1,
-  "kind": "video",
-  "src": 37931942,
-  "source": "3840x2160",
-  "cropW": 1214,
-  "upscale": 0.89,
-  "seconds": 5.17
+  "kind": "still",
+  "mode": "fill",
+  "src": "cheer-squad-drums.jpg",
+  "source": "3748x2204",
+  "cropW": 1238,
+  "upscale": 0.87,
+  "seconds": 6.17,
+  "coverage": 100
  },
  {
   "n": 2,
   "kind": "still",
-  "src": "suneung-school-gate-crowd-aerial.jpg",
-  "seconds": 7.17,
-  "crop": "1000x1428@0,31",
-  "fitted": "1080x1542",
-  "top": 189,
-  "coverage": 80
+  "mode": "fill",
+  "src": "gate-crowd-aerial.jpg",
+  "source": "2832x4165",
+  "cropW": 2342,
+  "upscale": 0.46,
+  "seconds": 6.5,
+  "coverage": 100
  },
  {
   "n": 3,
   "kind": "video",
   "src": 37984667,
   "source": "3840x2160",
+  "srcFps": 29.97,
   "cropW": 1214,
   "upscale": 0.89,
-  "seconds": 6.5
+  "seconds": 5.83
  },
  {
   "n": 4,
   "kind": "still",
-  "src": "suneung-juniors-saluting-seniors.jpg",
-  "seconds": 5.83,
-  "crop": "574x798@182,0",
-  "fitted": "1080x1502",
-  "top": 209,
-  "coverage": 78
+  "mode": "fill",
+  "src": "gate-crowd-broadcast.jpg",
+  "source": "4536x2312",
+  "cropW": 1300,
+  "upscale": 0.83,
+  "seconds": 6.17,
+  "coverage": 100
  },
  {
   "n": 5,
   "kind": "video",
-  "src": 37600923,
+  "src": 29293764,
   "source": "1920x1080",
+  "srcFps": 30,
   "cropW": 606,
   "upscale": 1.78,
   "seconds": 6.17
@@ -49,48 +55,54 @@
  {
   "n": 6,
   "kind": "still",
-  "src": "suneung-computer-sign-pen.jpg",
-  "seconds": 5.83,
-  "crop": "548x730@376,1",
-  "fitted": "1080x1438",
-  "top": 241,
-  "coverage": 75
+  "mode": "fill",
+  "src": "sign-pen.jpg",
+  "source": "5312x2988",
+  "cropW": 1680,
+  "upscale": 0.64,
+  "seconds": 4.5,
+  "coverage": 100
  },
  {
   "n": 7,
   "kind": "video",
-  "src": 29293764,
-  "source": "1920x1080",
-  "cropW": 606,
-  "upscale": 1.78,
-  "seconds": 6.5
+  "src": 29117582,
+  "source": "3840x2160",
+  "srcFps": 59.94,
+  "cropW": 1214,
+  "upscale": 0.89,
+  "seconds": 6.17
  },
  {
   "n": 8,
-  "kind": "video",
-  "src": 29117582,
-  "source": "3840x2160",
-  "cropW": 1214,
-  "upscale": 0.89,
-  "seconds": 5.83
+  "kind": "still",
+  "mode": "fill",
+  "src": "students-sky-sign.jpg",
+  "source": "3232x1872",
+  "cropW": 1052,
+  "upscale": 1.03,
+  "seconds": 6.17,
+  "coverage": 100
  },
  {
   "n": 9,
   "kind": "still",
-  "src": "suneung-parents-at-school-gate.jpg",
-  "seconds": 6.67,
-  "crop": "774x910@182,0",
-  "fitted": "1080x1270",
-  "top": 170,
-  "coverage": 66
+  "mode": "fill",
+  "src": "parents-at-gate.jpg",
+  "source": "3568x2164",
+  "cropW": 1216,
+  "upscale": 0.89,
+  "seconds": 6.83,
+  "coverage": 100
  },
  {
   "n": 10,
   "kind": "video",
   "src": 37984667,
   "source": "3840x2160",
+  "srcFps": 29.97,
   "cropW": 1214,
   "upscale": 0.89,
-  "seconds": 6.67
+  "seconds": 8.5
  }
 ]

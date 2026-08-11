@@ -1,102 +1,12 @@
 [
- {
-  "n": 1,
-  "from": 0,
-  "len": 110,
-  "kind": "video",
-  "src": 37931942,
-  "ss": 0.5,
-  "pan": "left",
-  "why": "hook by contradiction: an ordinary Seoul street with a bus moving, while the words say the country stops its planes"
- },
- {
-  "n": 2,
-  "from": 110,
-  "len": 170,
-  "kind": "still",
-  "src": "public/assets/images/posts/375/suneung-school-gate-crowd-aerial.jpg",
-  "aspect": 0.7,
-  "focusY": 0.72,
-  "why": "the real event at scale — 'half a million teenagers'"
- },
- {
-  "n": 3,
-  "from": 280,
-  "len": 150,
-  "kind": "video",
-  "src": 37984667,
-  "ss": 0.5,
-  "pan": "right",
-  "why": "wide intersection, light traffic — 'the whole country goes quiet'"
- },
- {
-  "n": 4,
-  "from": 430,
-  "len": 130,
-  "kind": "still",
-  "src": "public/assets/images/posts/375/suneung-juniors-saluting-seniors.jpg",
-  "aspect": 0.72,
-  "focusX": 0.22,
-  "why": "juniors saluting seniors in"
- },
- {
-  "n": 5,
-  "from": 560,
-  "len": 140,
-  "kind": "video",
-  "src": 37600923,
-  "ss": 0.5,
-  "pan": "right",
-  "why": "pedestrian past Korean shopfronts, 60fps — the list of what stops finishes here"
- },
- {
-  "n": 6,
-  "from": 700,
-  "len": 130,
-  "kind": "still",
-  "src": "public/assets/images/posts/375/suneung-computer-sign-pen.jpg",
-  "aspect": 0.75,
-  "why": "the required marker pen — 'twenty-five minutes of English listening'"
- },
- {
-  "n": 7,
-  "from": 830,
-  "len": 150,
-  "kind": "video",
-  "src": 29293764,
-  "ss": 0.2,
-  "pan": "left",
-  "why": "crosswalk with the mountain behind — 'so the roads stay clear'"
- },
- {
-  "n": 8,
-  "from": 980,
-  "len": 130,
-  "kind": "video",
-  "src": 29117582,
-  "ss": 12.0,
-  "pan": "right",
-  "why": "a Korean university building, used exactly once, on 'where you land shapes what comes next'"
- },
- {
-  "n": 9,
-  "from": 1110,
-  "len": 155,
-  "kind": "still",
-  "src": "public/assets/images/posts/375/suneung-parents-at-school-gate.jpg",
-  "aspect": 0.85,
-  "focusX": 0.25,
-  "top": 170,
-  "why": "PAYOFF — the parents at the railings. Board and clock are removed for this cut."
- },
- {
-  "n": 10,
-  "from": 1265,
-  "len": 155,
-  "kind": "video",
-  "src": 37984667,
-  "ss": 8.0,
-  "pan": "left",
-  "why": "outro bed. The parents cut stays clean — the payoff image must not have a CTA card over the man's face."
- }
+ { "n": 1,  "from": 0,    "len": 140, "kind": "still", "mode": "fill", "src": "public/assets/reels/suneung/src/cheer-squad-drums.jpg",    "pan": "right", "focusX": 0.16, "panSpan": 0.30, "why": "HOOK + thumbnail. Kyungbock High, exam morning 2014: a cheer leader mid-air with drums, and the test-site banner behind him. Representative asked for the crush at the exam-hall gate instead of generic city footage — this is that, and it is the frame the thumbnail card sits on." },
+ { "n": 2,  "from": 140,  "len": 150, "kind": "still", "mode": "fill", "src": "public/assets/reels/suneung/src/gate-crowd-aerial.jpg",     "pan": "left",  "focusX": 0.5,  "panSpan": 0.85, "why": "'half a million teenagers sit down for one exam' — elevated view of the whole gate scene. Native portrait 2832x4165, so the 9:16 window is nearly the entire photograph." },
+ { "n": 3,  "from": 290,  "len": 130, "kind": "video", "src": 37984667, "ss": 0.5,  "pan": "right", "why": "'the whole country goes quiet for them' — a Seoul business-district intersection" },
+ { "n": 4,  "from": 420,  "len": 140, "kind": "still", "mode": "fill", "src": "public/assets/reels/suneung/src/gate-crowd-broadcast.jpg", "pan": "right", "focusX": 0.42, "panSpan": 0.26, "why": "'no horns within two hundred metres of a school' — the packed street outside the school gate, broadcast crane in shot" },
+ { "n": 5,  "from": 560,  "len": 140, "kind": "video", "src": 29293764, "ss": 0.2,  "pan": "left",  "why": "'the stock market opens an hour late so the roads stay clear' — roads" },
+ { "n": 6,  "from": 700,  "len": 90,  "kind": "still", "mode": "fill", "src": "public/assets/reels/suneung/src/sign-pen.jpg",             "pan": "right", "focusX": 0.40, "panSpan": 0.20, "why": "'twenty-five minutes of English listening' — the required 컴퓨터용 사인펜, the exact object" },
+ { "n": 7,  "from": 790,  "len": 140, "kind": "video", "src": 29117582, "ss": 12.0, "pan": "right", "why": "'where you land shapes what comes next' — a Korean university building, used exactly once" },
+ { "n": 8,  "from": 930,  "len": 140, "kind": "still", "mode": "fill", "src": "public/assets/reels/suneung/src/students-sky-sign.jpg",    "pan": "left",  "focusX": 0.55, "panSpan": 0.30, "why": "'about three in every ten in that room are sitting it again' — students at the gate, and the sign in frame literally reads SKY, the university tier the whole day is aimed at" },
+ { "n": 9,  "from": 1070, "len": 160, "kind": "still", "mode": "fill", "src": "public/assets/reels/suneung/src/parents-at-gate.jpg",      "pan": "right", "focusX": 0.24, "panSpan": 0.22, "why": "PAYOFF — parents behind the railings, one man mid-prayer. No card over this cut." },
+ { "n": 10, "from": 1230, "len": 210, "kind": "video", "src": 37984667, "ss": 6.3,  "pan": "left",  "why": "outro bed, so the payoff cut stays clean. Same source as cut 3, 940 frames earlier, different offset and opposite pan." }
 ]

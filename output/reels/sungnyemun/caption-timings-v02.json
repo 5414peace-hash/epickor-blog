@@ -2,7 +2,7 @@
   "slug": "sungnyemun",
   "version": "v02",
   "fps": 30,
-  "generatedAt": "2026-08-10T20:30:37.106Z",
+  "generatedAt": "2026-08-11T01:41:12.127Z",
   "method": "ElevenLabs Forced Alignment against the approved narration transcript",
   "captionLeadFrames": 5,
   "safeZone": {
@@ -47,6 +47,15 @@
       "beatCount": 9,
       "firstWordStart": 0.159,
       "lastWordEnd": 13.92
+    },
+    {
+      "part": 5,
+      "transcript": "There is a lot more your guidebook gets wrong about this city, and we wrote all of it down at epickor dot com.",
+      "alignmentLoss": 0.1980846253308383,
+      "wordCount": 23,
+      "beatCount": 4,
+      "firstWordStart": 0.039,
+      "lastWordEnd": 4.339
     }
   ],
   "beats": [
@@ -328,11 +337,47 @@
       "sourceStartSeconds": 12.819,
       "sourceEndSeconds": 13.92,
       "wordCount": 3
+    },
+    {
+      "part": 5,
+      "text": "There is a lot more",
+      "startFrame": 1350,
+      "endFrame": 1367,
+      "sourceStartSeconds": 0.039,
+      "sourceEndSeconds": 0.759,
+      "wordCount": 5
+    },
+    {
+      "part": 5,
+      "text": "your guidebook gets wrong about this city,",
+      "startFrame": 1368,
+      "endFrame": 1413,
+      "sourceStartSeconds": 0.779,
+      "sourceEndSeconds": 2.299,
+      "wordCount": 7
+    },
+    {
+      "part": 5,
+      "text": "and we wrote all",
+      "startFrame": 1414,
+      "endFrame": 1430,
+      "sourceStartSeconds": 2.319,
+      "sourceEndSeconds": 2.859,
+      "wordCount": 4
+    },
+    {
+      "part": 5,
+      "text": "of it down at epickor dot com.",
+      "startFrame": 1431,
+      "endFrame": 1487,
+      "sourceStartSeconds": 2.879,
+      "sourceEndSeconds": 4.339,
+      "wordCount": 7
     }
   ],
   "coverage": {
-    "transcriptWords": 166,
-    "captionWords": 166,
-    "audioParts": 4
+    "transcriptWords": 189,
+    "captionWords": 189,
+    "audioParts": 5
   }
 }

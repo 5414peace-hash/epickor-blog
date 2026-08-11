@@ -1,60 +1,60 @@
 {
  "slug": "cheonggyecheon",
- "durationInFrames": 1363,
+ "durationInFrames": 1490,
  "cuts": [
   {
    "n": 1,
    "from": 0,
-   "len": 265,
+   "len": 175,
    "src": "assets/reels/cheonggyecheon/media/cut-01.mp4",
    "kind": "video"
   },
   {
    "n": 2,
-   "from": 265,
-   "len": 165,
+   "from": 175,
+   "len": 155,
    "src": "assets/reels/cheonggyecheon/media/cut-02.mp4",
    "kind": "video"
   },
   {
    "n": 3,
-   "from": 430,
-   "len": 130,
+   "from": 330,
+   "len": 160,
    "src": "assets/reels/cheonggyecheon/media/cut-03.mp4",
    "kind": "video"
   },
   {
    "n": 4,
-   "from": 560,
-   "len": 140,
+   "from": 490,
+   "len": 220,
    "src": "assets/reels/cheonggyecheon/media/cut-04.mp4",
    "kind": "video"
   },
   {
    "n": 5,
-   "from": 700,
-   "len": 150,
+   "from": 710,
+   "len": 170,
    "src": "assets/reels/cheonggyecheon/media/cut-05.mp4",
    "kind": "video"
   },
   {
    "n": 6,
-   "from": 850,
-   "len": 145,
+   "from": 880,
+   "len": 130,
    "src": "assets/reels/cheonggyecheon/media/cut-06.mp4",
    "kind": "video"
   },
   {
    "n": 7,
-   "from": 995,
-   "len": 165,
+   "from": 1010,
+   "len": 240,
    "src": "assets/reels/cheonggyecheon/media/cut-07.mp4",
    "kind": "video"
   },
   {
    "n": 8,
-   "from": 1160,
-   "len": 203,
+   "from": 1250,
+   "len": 240,
    "src": "assets/reels/cheonggyecheon/media/cut-08.mp4",
    "kind": "video"
   }
@@ -209,6 +209,21 @@
    "text": "That's a road that isn't there any more.",
    "startFrame": 1227,
    "endFrame": 1283
+  },
+  {
+   "text": "Seoul is full of places",
+   "startFrame": 1293,
+   "endFrame": 1325
+  },
+  {
+   "text": "that used to be something else.",
+   "startFrame": 1326,
+   "endFrame": 1369
+  },
+  {
+   "text": "We wrote them all up at epickor dot com.",
+   "startFrame": 1370,
+   "endFrame": 1431
   }
  ]
 }

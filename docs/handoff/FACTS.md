@@ -614,6 +614,52 @@
 
 ## reels
 
+- **2026-08-11 — Pexels holds exactly 6 usable Sungnyemun clips, and there is no 7th.** Gate run
+  `sungnyemun-v2`, 382 candidates, 5 queries. The only promising unused hit, `37984339`
+  "bustling seoul intersection with ancient gate" (4K/30fps/19s), was opened frame by frame and
+  is **NOT Sungnyemun** — a driving shot past a gate near Gyeongbokgung. Everything else
+  Korea-named and unused was palaces, guard ceremonies or Suwon. So Reel E runs 11 cuts on 6
+  sources by necessity, not by shortcut; the mitigation is per-cut `focusX`/`panSpan` so repeated
+  sources frame different bands. *Verified:* `output/footage/sungnyemun-v2/candidates.json`.
+- **2026-08-11 — Pexels holds 5 verified Cheonggyecheon clips.** Four daylight
+  (`31714020`, `31758112`, `31638894`, `31758110` — all slugs literally say cheonggyecheon) plus
+  **`31801546`, dusk, 4K, the only non-daylight one**, identified by the stepping-stone bridge,
+  both bank walkways and the mural retaining wall. It is 23.976fps. `37656898` "peaceful urban
+  waterfall" was **rejected**: 14 frames, locked-off, no Korean signage, and Cheonggyecheon's
+  waterfall is a vertical water wall not a rock cascade.
+- **2026-08-11 — the footage gate could not see clips spent by cut plans.** `usedClipIds()`
+  matched only Pexels **URLs**, and cut plans store a bare numeric `src`, so all 16 clips of the
+  2026-08-11 batch would have been re-offered as fresh. Fixed to parse `cut-plan*.json`; the next
+  gate run then reported "already used 71" instead of 47. *Verified:* `scripts/footage-gate.mjs`.
+- **2026-08-11 — the Korea.net / KOCIS exam-day series on Commons has ELEVEN files**, not the
+  three the first suneung pass used: `Korea_College_Scholastic_Ability_Test_Day_01..11`, all
+  CC BY-SA 2.0, shot at Kyungbock High School 12 Nov 2014, 2832×4165 to 5312×2988. Every file
+  carries an **identical description**, so filenames prove nothing and each must be opened.
+  *Verified:* Commons API `list=allimages&aiprefix=Korea_College_Scholastic_Ability_Test`.
+- **2026-08-11 — press photographs at 3200px+ do not need blur plates.** A true 9:16 window out
+  of them is a *downscale* (measured 0.46×–1.03× across the 6 suneung stills), so `mode:"fill"`
+  crops and pans them like video. This retired the luma problem in one step: suneung's lowest
+  per-cut luma went **43 → 63** with no override. The dark frames were the plates, not the
+  pictures. The 1500px web copies cannot do this — same crop needs a 2.18× upscale.
+- **2026-08-11 — `fps` must come BEFORE `crop` in the media builder.** The pan is a synthetic move
+  driven by `t`; with rate conversion after the crop, a 24fps source pans in visible 24-step
+  judder on a 30fps timeline. Resampling first makes the move smooth at 30 while the picture keeps
+  its native cadence. *Verified:* `build-cut-media.mjs`, `31801546` at 23.976fps.
+- **2026-08-11 — Sungnyemun's plaque is the only vertically-written gate signboard in Seoul.**
+  Traditional explanation is geomancy: 禮 is 火 in 오행, so 崇禮門 was hung as a rising flame to
+  press down the fire energy of Gwanaksan. The gate burned in 2008 anyway and the plaque itself
+  fell and broke apart; restored 2009-07-03, gate rebuild completed 2013-04-29, opened 2013-05-04.
+  It is **transmitted tradition, not documented intent** ("…달았다고 전해진다") — usable as design
+  and as caption copy framed as tradition, not as an asserted fact in narration.
+  *Verified:* ko.wikipedia 숭례문.
+- **2026-08-11 — Windows ships Bahnschrift and HANBatang, and Remotion renders both.** Bahnschrift
+  is Microsoft's DIN and replaces the `'Arial Narrow'` fallback that made the first pass look
+  dated; HANBatang carries Hanja (崇禮門) that Malgun Gothic does not. Also present: Constantia,
+  Segoe UI Black, Franklin Gothic Condensed.
+- **2026-08-11 — a masked slide-up on the opening ONS leaves the Instagram cover blank.** Frame 0
+  is the thumbnail, so hero copy must be legible at frame 0 and may only *settle*, never enter.
+  Motion in the first second comes from the pan under the card.
+
 - **2026-07-27 — Pexels metadata is the country check, and skipping it shipped Kuala Lumpur as
   Seoul.** Reel 174 v001's "proof" car interior `29082029` has the URL slug
   `modern-kuala-lumpur-train-interior`; payoff `18603132` is by Turkish photographer Reyhan

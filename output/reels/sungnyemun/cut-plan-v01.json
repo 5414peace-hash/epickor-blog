@@ -17,7 +17,9 @@
   "src": 29078559,
   "ss": 0.0,
   "pan": "left",
-  "why": "the gate with the city around it — 'the wood was cut in 2013'"
+  "why": "the gate with the city around it — 'the wood was cut in 2013' Crop window aimed at a distinct band of the source: this clip carries several cuts, and a repeated source only reads as a repeat when every cut frames the same part of it.",
+  "focusX": 0.18,
+  "panSpan": 0.3
  },
  {
   "n": 3,
@@ -27,7 +29,9 @@
   "src": 18525869,
   "ss": 0.0,
   "pan": "right",
-  "why": "crosswalk and glass towers — the date lands here"
+  "why": "crosswalk and glass towers — the date lands here Crop window aimed at a distinct band of the source: this clip carries several cuts, and a repeated source only reads as a repeat when every cut frames the same part of it.",
+  "focusX": 0.14,
+  "panSpan": 0.34
  },
  {
   "n": 4,
@@ -56,8 +60,10 @@
   "kind": "video",
   "src": 29078559,
   "ss": 8.0,
-  "pan": "right",
-  "why": "he had done it before — hold long, this is the emotional centre"
+  "pan": "left",
+  "why": "he had done it before — hold long, this is the emotional centre. focusX aims the window so it PANS TOWARD the gate as 'and picked this gate next' lands; at 0.80 the crop sat on glass towers with no gate in frame at all, under a line that names it. Different band and offset from cuts 2/9/11 off the same source.",
+  "focusX": 0.3,
+  "panSpan": 0.3
  },
  {
   "n": 7,
@@ -75,9 +81,11 @@
   "len": 160,
   "kind": "video",
   "src": 18525869,
-  "ss": 6.5,
-  "pan": "left",
-  "why": "the rebuild numbers"
+  "ss": 6.0,
+  "pan": "right",
+  "why": "the rebuild numbers. Pan direction now matches cut 3 — every source in this reel keeps one direction, because alternating it on a repeated clip is what read as footage sliding back and forth. Crop window aimed at a distinct band of the source: this clip carries several cuts, and a repeated source only reads as a repeat when every cut frames the same part of it.",
+  "focusX": 0.78,
+  "panSpan": 0.34
  },
  {
   "n": 9,
@@ -86,17 +94,31 @@
   "kind": "video",
   "src": 29078559,
   "ss": 16.0,
-  "pan": "right",
-  "why": "the correction lands here"
+  "pan": "left",
+  "why": "the correction lands here Crop window aimed at a distinct band of the source: this clip carries several cuts, and a repeated source only reads as a repeat when every cut frames the same part of it.",
+  "focusX": 0.46,
+  "panSpan": 0.3
  },
  {
   "n": 10,
   "from": 1280,
-  "len": 171,
+  "len": 120,
   "kind": "video",
   "src": 37094297,
   "ss": 1.2,
   "pan": "right",
-  "why": "bookend: back to the arch from cut 1, now with the outro card. 'It's just Sungnyemun' must have the gate in frame."
+  "why": "bookend: back to the arch from cut 1. 'It's just Sungnyemun' must have the gate in frame."
+ },
+ {
+  "n": 11,
+  "from": 1400,
+  "len": 150,
+  "kind": "video",
+  "src": 29078559,
+  "ss": 20.0,
+  "pan": "left",
+  "why": "outro bed for the new spoken CTA, which the reel previously ran without — the old cut 10 ended on 3.6s of silence under a card. Crop window aimed at a distinct band of the source: this clip carries several cuts, and a repeated source only reads as a repeat when every cut frames the same part of it.",
+  "focusX": 0.66,
+  "panSpan": 0.3
  }
 ]

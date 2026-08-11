@@ -127,6 +127,15 @@ function usedClipIds() {
         for (const m of text.matchAll(/pexels\.com\/video\/[a-z0-9-]*?(\d{5,})/gi)) used.add(m[1]);
         for (const m of text.matchAll(/video-files\/(\d{5,})/g)) used.add(m[1]);
       }
+      // Cut plans record the clip as a bare numeric `src`, never as a URL, so the
+      // two URL patterns above missed every clip this batch actually spent. The
+      // gate would have gone on offering them as fresh in later runs — the exact
+      // repetition problem the 2026-08-11 review raised, one batch downstream.
+      if (/^cut-plan.*\.json$/.test(entry.name)) {
+        for (const cut of JSON.parse(fs.readFileSync(full, 'utf8'))) {
+          if (cut.kind === 'video' && /^\d{5,}$/.test(String(cut.src))) used.add(String(cut.src));
+        }
+      }
     }
   };
   walk(dir);
