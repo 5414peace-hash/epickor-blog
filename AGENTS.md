@@ -414,10 +414,18 @@ output/drafts/                writer brief 및 draft.md
 output/review/                review.json
 output/final/                 final.md
 output/cardnews/YYYY-MM-DD_{slug}/ script.md 및 card PNG
-output/reels/{slug}/          Reels scene manifest, visual candidates, review notes, and audio
+output/reels/YYYY-MM-DD_{slug}/       Reels 컷플랜·매니페스트·나레이션·후보 렌더 (작업본)
+output/final/reels/YYYY-MM-DD_{slug}/ 납품본 MP4 + instagram-caption.txt
+public/assets/reels/{slug}/           런타임 자산(컷 미디어·오디오) — 여기는 날짜를 붙이지 않는다
 .Codex/skills/               팀별 스크립트
 .Codex/agents/               팀별 운영 지침
 ```
+
+> **릴스 폴더 명명 (2026-08-11)**: 아래 문서 전반에 나오는 `output/reels/{slug}/`는 실제로는
+> `output/reels/YYYY-MM-DD_{slug}/`다. 두 트리가 같은 폴더명을 쓰므로 한 릴스의 작업본과 납품본이
+> 같은 키로 묶이고 목록이 시간순으로 정렬된다. **스크립트에는 계속 맨 슬러그를 넘긴다**
+> (`--slug cheonggyecheon`) — `scripts/lib/reel-dir.mjs`의 `reelFolder()`가 날짜 폴더로 풀어주고,
+> 폴더가 없으면 오늘 날짜로 만든다. `public/assets/reels/`만 예외로 날짜를 붙이지 않는다.
 
 ---
 
