@@ -835,6 +835,12 @@
   (g) This composer's post-submit outcome was reliably a clean confirmation dialog every time
   (6/6), unlike the Reels composer's "게시 일정 예약 중" spinner-hang quirk — no cache-purge or
   extended waiting was needed for card news.
+- **2026-08-11 — 예약 목록은 자체 스크롤 컨테이너 안에서 lazy-load 된다. `page.mouse.wheel`은 그걸 굴리지 못한다.** 첫 읽기가 **5건(8/20~8/24)**으로 나와 "8/12~8/19이 비었다"고 판단할 뻔했다 — 그대로 갔으면 **이미 카드뉴스가 있는 날에 릴스를 겹쳐 넣었을 것이다.** 커서가 리스트 위에 있지 않으면 휠은 창을 굴린다. `overflowY`가 `auto|scroll`이고 `scrollHeight-clientHeight`가 가장 큰 요소를 찾아 **`scrollTop`을 직접 올리니 5건 → 13건**이 됐다(8/12~8/24 빈 날 0). 행이 마운트되면서 컨테이너가 교체되므로 **매 스크롤마다 다시 찾는다.** 스크립트: `.tmp/meta-read-scheduled.py`.
+  *Verified:* 두 방식 실측 비교, 2026-08-11.
+
+- **2026-08-11 — 날짜 입력 필드는 blur 후 표기를 바꾼다. 픽 직후 값으로 검증식을 세우면 오탐이 난다.** 달력에서 고른 직후엔 `'2026-8-25'`인데 커밋 직전 되읽으면 `'2026년 8월 25일'`이다. `endswith(DAY)`로 검사했다가 **정상 예약을 거부하고 100MB 업로드를 통째로 날렸다**(가드는 제 일을 했고 검증식이 틀린 것). **표면 문자열을 비교하지 말고 `re.findall(r"\d+")`로 숫자를 뽑아 비교한다.**
+  *Verified:* 프리커밋 스크린샷으로 실제 상태(FB·IG 둘 다 `2026년 8월 25일 오전 05:00`, 푸터 `예약`) 확인, 2026-08-11.
+
 - **2026-07-26 — Instagram uploads are representative-managed (~1/day) and leave no repo trace.**
   An empty scheduling record is NOT evidence of an upload stall. Meta Suite's list also does not
   show posts made from the mobile app.

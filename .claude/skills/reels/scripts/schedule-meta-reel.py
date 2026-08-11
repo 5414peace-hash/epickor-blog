@@ -19,9 +19,14 @@ Sequence and the traps at each step:
      the second row.
   6. Times: three spinbuttons per row (오전/오후, 시간, 분), default 오후 12:19.
      Zone shows Asia/Jayapura -- UTC+9, no DST, same wall clock as KST.
-  7. Refuse to click unless the footer reads 예약.
+     Read their state from aria-valuetext. input_value() is ALWAYS '' on these,
+     so an `input_value() == "오전"` loop never terminates early -- it just
+     presses ArrowUp its maximum number of times and lands wherever that puts
+     it. That silently scheduled a card-news batch to 오후 once.
+  7. Refuse to click unless the footer reads 예약, and unless both date fields
+     and all spinbuttons read back what was asked for.
 """
-import sys, os, time
+import sys, os, re, time
 from playwright.sync_api import sync_playwright
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 
@@ -51,6 +56,22 @@ def footer_button(page, text=None):
         except Exception:
             pass
     return out
+
+
+def spin_text(el):
+    """The visible state of a date/time spinbutton.
+
+    input_value() returns '' for every one of these, so anything that compares
+    against it is comparing against nothing.
+    """
+    for attr in ("aria-valuetext", "aria-valuenow"):
+        v = el.get_attribute(attr)
+        if v:
+            return v.strip()
+    try:
+        return (el.evaluate("e => e.parentElement.innerText") or "").strip()
+    except Exception:
+        return ""
 
 
 def date_inputs(page):
@@ -143,13 +164,16 @@ with sync_playwright() as p:
     # 6. times --------------------------------------------------------------
     page.keyboard.press("Escape"); page.wait_for_timeout(700)
     spins = [e for e in page.locator('[role="spinbutton"]').all() if e.is_visible()]
-    for row in range(len(spins) // 3):
+    rows = len(spins) // 3
+    log(f"time rows: {rows}")
+    for row in range(rows):
         ampm, hh, mm = spins[row*3], spins[row*3+1], spins[row*3+2]
         ampm.scroll_into_view_if_needed(); ampm.click(); page.wait_for_timeout(350)
-        for _ in range(3):
-            if ampm.input_value() == AMPM:
+        # ArrowUp toggles 오전/오후. Read the real state, never input_value().
+        for _ in range(4):
+            if spin_text(ampm) == AMPM:
                 break
-            page.keyboard.press("ArrowUp"); page.wait_for_timeout(350)
+            page.keyboard.press("ArrowUp"); page.wait_for_timeout(400)
         hh.click(); page.wait_for_timeout(300); page.keyboard.type(HOUR)
         page.wait_for_timeout(450)
         mm.click(); page.wait_for_timeout(300); page.keyboard.type(MINUTE)
@@ -159,16 +183,46 @@ with sync_playwright() as p:
     shot = f".tmp/reel-pre-commit-{os.path.basename(VIDEO)[:28]}.png"
     page.screenshot(path=shot)
     log("pre-commit screenshot:", shot)
-    for i, d in enumerate(date_inputs(page)):
-        log(f"  date[{i}] = {d.get_attribute('value')!r}")
 
-    # 7. commit, guarded ----------------------------------------------------
+    # 7. verify everything BEFORE the commit, then commit ---------------------
+    bad = []
+    dates_now = [d.get_attribute("value") for d in date_inputs(page)]
+    for i, v in enumerate(dates_now):
+        log(f"  date[{i}] = {v!r}")
+        # The field reformats on blur: '2026-8-25' at pick time becomes
+        # '2026년 8월 25일' by the time it is verified. Pull the numbers out
+        # rather than matching the surface string.
+        nums = re.findall(r"\d+", v or "")
+        if len(nums) < 3 or int(nums[2]) != int(DAY):
+            bad.append(f"date row {i} reads {v!r}, wanted day {DAY}")
+    if len(dates_now) < 2:
+        bad.append(f"expected 2 date rows (Facebook + Instagram), saw {len(dates_now)}")
+
+    spins = [e for e in page.locator('[role="spinbutton"]').all() if e.is_visible()]
+    for row in range(len(spins) // 3):
+        got = [spin_text(s) for s in spins[row*3:row*3+3]]
+        log(f"  time[{row}] = {got}")
+        if got[0] != AMPM:
+            bad.append(f"time row {row} is {got[0]!r}, wanted {AMPM}")
+        if got[1].lstrip("0") != HOUR.lstrip("0"):
+            bad.append(f"time row {row} hour is {got[1]!r}, wanted {HOUR}")
+        if got[2].lstrip("0") != MINUTE.lstrip("0"):
+            bad.append(f"time row {row} minute is {got[2]!r}, wanted {MINUTE}")
+
     ok = footer_button(page, "예약")
     if not ok:
-        log("REFUSING: footer does not read 예약. Nothing clicked.")
-        page.wait_for_timeout(600000)
+        bad.append("footer does not read 예약 (it would publish immediately)")
+    if bad:
+        log("REFUSING — nothing clicked:")
+        for b in bad:
+            log(f"   {b}")
+        # Short hold: the pre-commit screenshot above is already the evidence,
+        # and a refusal costs the whole upload anyway — no reason to also sit
+        # here for ten minutes before the run can be retried.
+        log(f"see {shot}; holding 90s then closing")
+        page.wait_for_timeout(90000)
         sys.exit(1)
-    log("footer reads 예약 -- committing")
+    log("footer reads 예약, date and time verified -- committing")
     ok[0][2].click()
 
     end = time.time() + 900
