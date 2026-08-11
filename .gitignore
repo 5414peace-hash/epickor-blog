@@ -75,6 +75,14 @@ debug.log
 !/output/reels/*/tts/
 /output/reels/*/tts/*
 !/output/reels/*/tts/*.txt
+# The delivered package moved here on 2026-08-11 (was output/final/reels/). The
+# MP4 stays ignored; the upload text does not — instagram-caption.txt and
+# upload-package.md were tracked at the reel root before the move and would have
+# dropped out of the repo silently.
+!/output/reels/*/final/
+/output/reels/*/final/*
+!/output/reels/*/final/*.txt
+!/output/reels/*/final/*.md
 /.tmp/
 /.history/
 /history/

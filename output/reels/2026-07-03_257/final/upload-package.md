@@ -1,0 +1,35 @@
+# Reels 257 Upload Package
+
+- Status: representative-confirmed-final / upload-package-ready
+- Representative confirmation: `2026-07-03T15:14:56+09:00`
+- Final video: `EPICKOR_257.mp4`
+- Finalized candidate: candidate `02` (renamed to final video)
+- Caption: `instagram-caption.txt`
+- Duration: 34.240s
+- Audio: scene-level ElevenLabs `v001`, 7 segments
+- Motion cards: exactly 1, preserved because this correction pass kept the representative-approved composition and pacing
+  - Scene 5: `257-card-buffer-check`
+- Selected visual cuts: 13 image cuts plus 1 motion-card scene
+- Orientation mix: 13 sourced vertical Incheon/AREX cuts, 0 generated cuts, 0 horizontal exceptions
+- Source-family mix: 13 unique paths, 13 unique source families, no adjacent same-family reuse
+- Validation:
+  - `npm.cmd run reels:dashboard-gate -- --slug 257 --min-photo-candidates 6 --min-important-candidates 6` passed
+  - `npm.cmd run reels:variety-audit -- --slug 257` passed
+  - `npm.cmd run reels:orientation-audit -- --slug 257` passed
+  - `npm.cmd run reels:prepare-assets -- --slug 257` passed
+  - `npm.cmd run reels:props -- --slug 257 --audio-version v001` passed
+  - `npm.cmd run reels:validate -- --slug 257 --require-scene-audio` passed
+  - `npx.cmd tsc --noEmit --pretty false` passed
+  - `npm.cmd run reels:evaluate -- --slug 257 --render output\final\reels\257\EPICKOR_257_02.mp4 --version 02` completed
+- Evaluation packet:
+  - `output/reels/257/evaluation/evaluation-02.md`
+  - `output/reels/257/evaluation/contact-02.jpg`
+  - `output/reels/257/evaluation/scene-grid-02.jpg`
+- Manual visual QA:
+  - Thumbnail hook reads clearly: `DON'T LEAVE / ICN FIRST`.
+  - Image flow covers ICN terminal, airport screens, luggage/reset planning, AREX, and platform return risk.
+  - Motion-card timing was revised after v001 because the receipt card felt too empty; v002 shows checklist rows early and fills the center.
+  - Outro uses clean `epickor.com` brand finish.
+- Notes:
+  - Use this folder for upload.
+  - Korean/Korea-specific voice cues were separated by scene and checked in `output/reels/257/voice/`.

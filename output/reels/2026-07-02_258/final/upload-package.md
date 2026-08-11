@@ -1,0 +1,28 @@
+# Reels 258 Upload Package
+
+- Status: representative-confirmed / upload-package-ready
+- Final video: `EPICKOR_258.mp4`
+- Source render: `output/reels/258/render/epickor-reel-258-v007.mp4`
+- Caption: `instagram-caption.txt`
+- Duration: 27.051s
+- Audio: scene-level ElevenLabs `v001`, 7 segments
+- Motion cards: exactly 1
+  - Scene 5: `258-card-ask-before-yes`
+- Validation:
+  - `npm.cmd run reels:prepare-assets -- --slug 258` passed
+  - `npm.cmd run reels:props -- --slug 258 --audio-version v001` passed
+  - `npm.cmd run reels:validate -- --slug 258 --require-scene-audio` passed
+  - `npx.cmd tsc --noEmit --pretty false` passed
+  - `npm.cmd run reels:evaluate -- --slug 258 --render output\reels\258\render\epickor-reel-258-v007.mp4 --version v007` completed
+- Evaluation packet:
+  - `output/reels/258/evaluation/evaluation-v007.md`
+  - `output/reels/258/evaluation/contact-v007.jpg`
+  - `output/reels/258/evaluation/scene-grid-v007.jpg`
+- Manual visual QA:
+  - Representative confirmed v007 on 2026-07-02 after Scene 6 reference image replacement.
+  - Scene 6 now uses `public/assets/reels/258/generated/korean-seafood-market-live-octopus-clear.png`; live octopus is central and clearly visible.
+  - Scene 6 frames checked at `00:16.90`, `00:18.30`, and `00:20.40`; caption does not hide the subject.
+  - Duplicate audit passed with no duplicate selected paths or hashes.
+- Notes:
+  - `v007` supersedes `v006` and all earlier candidates.
+  - Use this folder for upload; keep `output/reels/258/render/` as the versioned working render archive.

@@ -1,0 +1,24 @@
+# Reels 189 Upload Package
+
+- Status: upload-package-ready
+- Confirmed render: `output/reels/189/render/epickor-reel-189-v002.mp4`
+- Upload MP4: `output/final/reels/189/EPICKOR_189.mp4`
+- Instagram caption: `output/final/reels/189/instagram-caption.txt`
+- Evaluation packet: `output/reels/189/evaluation/evaluation-v002.md`
+- External mobile review: `https://reel189-render-share.vercel.app`
+- Duration: `35.200s`
+- Audio:
+  - Version: `v001`
+  - Mode: scene-level TTS
+  - Audio segments: `7`
+- Notes:
+  - Representative submitted final dashboard ranking selections.
+  - Scene `5` was rebuilt after representative feedback, replacing generic passport imagery with unused DMZ / Third Tunnel candidates.
+  - Selected Scene `5` primary is the Wikimedia Third Tunnel of Aggression 01 image.
+  - v001 render was superseded by v002 because the first motion-card samples felt visually too empty and the total runtime was only `30.720s`.
+  - v002 adds a small amount of scene breathing room and makes motion cards visible from the first sampled frame.
+  - Spoken captions use the Reels 186/187 readable-band two-line standard.
+  - Final outro text is `epicKor.com`.
+  - `npm.cmd run reels:validate -- --slug 189 --require-scene-audio` passed before render.
+  - Reviewer inspected `scene-grid-v002.jpg` and `contact-v002.jpg`; Scene `5` is DMZ/Third Tunnel-specific and the two motion cards are no longer blank at scene start.
+  - External share page and `/EPICKOR_189.mp4` both returned HTTP `200` after deploy; MP4 `Content-Length` is `36785286`.

@@ -1,0 +1,35 @@
+# Reels 248 Upload Package
+
+- Status: representative-confirmed-final / upload-package-ready
+- Representative confirmation: `2026-07-03T15:14:56+09:00`
+- Final video: `EPICKOR_248.mp4`
+- Finalized candidate: candidate `02` (renamed to final video)
+- Caption: `instagram-caption.txt`
+- Duration: 32.555s
+- Audio: scene-level ElevenLabs `v001`, 7 segments
+- Motion cards: exactly 1, preserved because this correction pass kept the representative-approved composition and pacing
+  - Scene 5: `248-card-run-crew-rules`
+- Selected visual cuts: 13 image cuts plus 1 motion-card scene
+- Orientation mix: 13 sourced vertical Korean-context cuts, 0 generated cuts, 0 horizontal exceptions
+- Source-family mix: 13 unique paths, 13 unique source families, no adjacent same-family reuse
+- Validation:
+  - `npm.cmd run reels:dashboard-gate -- --slug 248 --min-photo-candidates 6 --min-important-candidates 6` passed
+  - `npm.cmd run reels:variety-audit -- --slug 248` passed
+  - `npm.cmd run reels:orientation-audit -- --slug 248` passed
+  - `npm.cmd run reels:prepare-assets -- --slug 248` passed
+  - `npm.cmd run reels:props -- --slug 248 --audio-version v001` passed
+  - `npm.cmd run reels:validate -- --slug 248 --require-scene-audio` passed
+  - `npx.cmd tsc --noEmit --pretty false` passed
+  - `npm.cmd run reels:evaluate -- --slug 248 --render output\final\reels\248\EPICKOR_248_02.mp4 --version 02` completed
+- Evaluation packet:
+  - `output/reels/248/evaluation/evaluation-02.md`
+  - `output/reels/248/evaluation/contact-02.jpg`
+  - `output/reels/248/evaluation/scene-grid-02.jpg`
+- Manual visual QA:
+  - Thumbnail hook reads clearly: `SEOUL RUNS / AT NIGHT`.
+  - Image flow uses runners, Han River night scenes, paths, cooldown, and shared-path context without repeating source families.
+  - Motion card is dense enough and caption-safe.
+  - Outro uses clean `epickor.com` brand finish.
+- Notes:
+  - Use this folder for upload.
+  - Korean/Korea-specific voice cues were separated by scene and checked in `output/reels/248/voice/`.

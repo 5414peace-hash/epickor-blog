@@ -1,0 +1,35 @@
+# Reels 255 Upload Package
+
+- Status: representative-confirmed-final / upload-package-ready
+- Representative confirmation: `2026-07-03T15:14:56+09:00`
+- Final video: `EPICKOR_255.mp4`
+- Finalized candidate: candidate `02` (renamed to final video)
+- Caption: `instagram-caption.txt`
+- Duration: 34.496s
+- Audio: scene-level ElevenLabs `v001`, 7 segments
+- Motion cards: exactly 1, preserved because this correction pass kept the representative-approved composition and pacing
+  - Scene 5: `255-card-food-hall-map`
+- Selected visual cuts: 13 image cuts plus 1 motion-card scene
+- Orientation mix: 13 sourced vertical Korean-context cuts, 0 generated cuts, 0 horizontal exceptions
+- Source-family mix: 13 unique paths, 13 unique source families, no adjacent same-family reuse
+- Validation:
+  - `npm.cmd run reels:dashboard-gate -- --slug 255 --min-photo-candidates 6 --min-important-candidates 6` passed
+  - `npm.cmd run reels:variety-audit -- --slug 255` passed
+  - `npm.cmd run reels:orientation-audit -- --slug 255` passed
+  - `npm.cmd run reels:prepare-assets -- --slug 255` passed
+  - `npm.cmd run reels:props -- --slug 255 --audio-version v001` passed
+  - `npm.cmd run reels:validate -- --slug 255 --require-scene-audio` passed
+  - `npx.cmd tsc --noEmit --pretty false` passed
+  - `npm.cmd run reels:evaluate -- --slug 255 --render output\final\reels\255\EPICKOR_255_02.mp4 --version 02` completed
+- Evaluation packet:
+  - `output/reels/255/evaluation/evaluation-02.md`
+  - `output/reels/255/evaluation/contact-02.jpg`
+  - `output/reels/255/evaluation/scene-grid-02.jpg`
+- Manual visual QA:
+  - Thumbnail hook reads clearly: `NOT A / FOOD COURT`.
+  - Image flow covers Seoul food halls, bakery/cafe, meal/dessert, gifts, packaged snacks, and rainy-day save logic.
+  - Motion-card timing was revised after v001 because the menu board opened with too much empty center; v002 shows rows early and fills the board.
+  - Outro uses clean `epickor.com` brand finish.
+- Notes:
+  - Use this folder for upload.
+  - Korean/Korea-specific voice cues were separated by scene and checked in `output/reels/255/voice/`.

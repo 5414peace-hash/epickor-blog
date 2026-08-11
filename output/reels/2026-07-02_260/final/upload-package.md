@@ -1,0 +1,28 @@
+# Reels 260 Upload Package
+
+- Status: representative-confirmed / upload-package-ready
+- Final video: `EPICKOR_260.mp4`
+- Source render: `output/reels/260/render/epickor-reel-260-v005.mp4`
+- Caption: `instagram-caption.txt`
+- Duration: 31.061s
+- Audio: scene-level ElevenLabs `v001`, 7 segments
+- Motion cards: exactly 1
+  - Scene 5: `260-card-rice-cooker-check`
+- Validation:
+  - `npm.cmd run reels:prepare-assets -- --slug 260` passed
+  - `npm.cmd run reels:props -- --slug 260 --audio-version v001` passed
+  - `npm.cmd run reels:validate -- --slug 260 --require-scene-audio` passed
+  - `npx.cmd tsc --noEmit --pretty false` passed
+  - `npm.cmd run reels:evaluate -- --slug 260 --render output\reels\260\render\epickor-reel-260-v005.mp4 --version v005` completed
+- Evaluation packet:
+  - `output/reels/260/evaluation/evaluation-v005.md`
+  - `output/reels/260/evaluation/contact-v005.jpg`
+  - `output/reels/260/evaluation/scene-grid-v005.jpg`
+- Manual visual/audio QA:
+  - Representative confirmed v005 on 2026-07-02.
+  - Scene 3 image was replaced with a Korean rice-meal table.
+  - Scene 5 motion-card caption placement was lowered to avoid overlap.
+  - Scene 7 voice source uses the Cuchen pronunciation cue `koo-chen`.
+- Notes:
+  - `v005` supersedes `v004` and all earlier candidates.
+  - Use this folder for upload; keep `output/reels/260/render/` as the versioned working render archive.

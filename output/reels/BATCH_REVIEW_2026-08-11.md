@@ -141,9 +141,9 @@ Working candidate and delivered copy, both under the same dated key:
 
 | | delivered | frames | duration | bitrate |
 |---|---|---|---|---|
-| **D** | `output/final/reels/2026-08-11_cheonggyecheon/EPICKOR_cheonggyecheon_06.mp4` | 1490 | 49.69s | 16.1 Mbps |
-| **E** | `output/final/reels/2026-08-11_sungnyemun/EPICKOR_sungnyemun_05.mp4` | 1550 | 51.69s | 16.1 Mbps |
-| **F** | `output/final/reels/2026-08-11_suneung/EPICKOR_suneung_05.mp4` | 1420 | 47.36s | 16.6 Mbps |
+| **D** | `output/reels/2026-08-11_cheonggyecheon/final/EPICKOR_cheonggyecheon_06.mp4` | 1490 | 49.69s | 16.1 Mbps |
+| **E** | `output/reels/2026-08-11_sungnyemun/final/EPICKOR_sungnyemun_05.mp4` | 1550 | 51.69s | 16.1 Mbps |
+| **F** | `output/reels/2026-08-11_suneung/final/EPICKOR_suneung_05.mp4` | 1420 | 47.36s | 16.6 Mbps |
 
 All 1080×1920 at 30fps. The Reels 2.2 floor is ≥8 Mbps, ≥10 with heavy motion.
 

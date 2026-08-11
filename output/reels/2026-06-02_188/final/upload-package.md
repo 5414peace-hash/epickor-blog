@@ -1,0 +1,23 @@
+# Reels 188 Upload Package
+
+- Status: upload-package-ready
+- Confirmed render: `output/reels/188/render/epickor-reel-188-v002.mp4`
+- Upload MP4: `output/final/reels/188/EPICKOR_188.mp4`
+- Instagram caption: `output/final/reels/188/instagram-caption.txt`
+- Evaluation packet: `output/reels/188/evaluation/evaluation-v002.md`
+- External mobile review: `https://reel188-render-share.vercel.app`
+- Duration: `33.173s`
+- Audio:
+  - Version: `v001`
+  - Mode: scene-level TTS
+  - Audio segments: `7`
+- Notes:
+  - Representative submitted final dashboard ranking selections.
+  - v001 render was superseded by v002 because the first thumbnail used the full blog title and Scene 6 used an unsuitable comparison card.
+  - v002 uses the shortened render title `Busan vs Seoul|Which City First?`.
+  - Scene 6 motion card was corrected to `receipt_stack` for travel-rule readability.
+  - Spoken captions use the Reels 186/187 readable-band two-line standard.
+  - Final outro text is `epicKor.com`.
+  - `npm.cmd run reels:validate -- --slug 188 --require-scene-audio` passed before render.
+  - Reviewer inspected `scene-grid-v002.jpg` and `contact-v002.jpg`; v002 fixes the v001 thumbnail/title density and Scene 6 motion-card mismatch.
+  - External share page and `/EPICKOR_188.mp4` both returned HTTP 200 after deploy; MP4 `Content-Length` is `25660767`.

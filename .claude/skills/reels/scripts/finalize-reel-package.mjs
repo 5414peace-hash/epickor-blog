@@ -62,7 +62,7 @@ if (!slug || !/^[a-zA-Z0-9_-]+$/.test(slug)) {
   process.exit(1);
 }
 
-const finalDir = path.join(ROOT, 'output', 'final', 'reels', reelFolder(slug));
+const finalDir = path.join(ROOT, 'output', 'reels', reelFolder(slug), 'final');
 if (!fs.existsSync(finalDir)) {
   console.error(`Missing final Reel directory: ${safeRelative(finalDir)}`);
   process.exit(1);

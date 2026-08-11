@@ -1,0 +1,30 @@
+# Reels 198 Upload Package
+
+- Status: representative-confirmed / upload-package-ready
+- Final video: `EPICKOR_198.mp4`
+- Source render: `output/reels/198/render/epickor-reel-198-v003.mp4`
+- Caption: `instagram-caption.txt`
+- Duration: 29.013s
+- Audio: scene-level ElevenLabs `v001`, 7 segments
+- Motion cards: exactly 2
+  - Scene 3: `198-card-dress-dry-kit-grid`
+  - Scene 5: `198-card-tiny-bag-kit-grid`
+- Owner visual ranking applied:
+  - `S1 1:A / 2:C | S2 1:B / 2:A | S3 1:A | S4 1:A / 2:C | S5 1:A | S6 1:A / 2:B | S7 1:A / 2:B`
+- Validation:
+  - `npm.cmd run reels:validate -- --slug 198 --require-scene-audio` passed
+- Evaluation packet:
+  - `output/reels/198/evaluation/evaluation-v003.md`
+  - `output/reels/198/evaluation/contact-v003.jpg`
+  - `output/reels/198/evaluation/scene-grid-v003.jpg`
+- Manual visual QA:
+  - Representative confirmed v003 on 2026-06-15 after the Scene 5 narration caption was split into 1-2 line beats.
+  - Scene grid inspected; no broken image frames visible.
+  - Scene 1 thumbnail lockup uses `DRESS TO DRY / NOT JUST POSE`.
+  - Scenes 3 and 5 use approved kit-grid motion cards with earlier tile reveals to avoid an empty-card feeling.
+  - Readable-band caption guard now fails lines over 30 characters to prevent hidden 3-line caption wrapping.
+  - Outro uses `epickor.com`.
+- Notes:
+  - `v003` supersedes `v001` and `v002`.
+  - The reliable local owner-review path was `file:///D:/dev/epickor-blog/output/reels/198/render/epickor-reel-198-v003.mp4`.
+  - Do not use unverified localhost URLs for this asset.

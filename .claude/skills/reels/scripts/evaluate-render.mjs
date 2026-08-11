@@ -3,7 +3,7 @@
  * Generate a frame/second-level evaluation packet for a rendered EpicKor Reel.
  *
  * Usage:
- *   npm run reels:evaluate -- --slug 172 --render output/final/reels/172/EPICKOR_172_03.mp4 --version 03
+ *   npm run reels:evaluate -- --slug 172 --render output/reels/2026-05-11_172/final/EPICKOR_172_03.mp4 --version 03
  */
 
 import fs from 'node:fs';
@@ -109,7 +109,7 @@ function safeRelative(filePath) {
 }
 
 function findLatestRender(slug) {
-  const finalDir = path.join(ROOT, 'output', 'final', 'reels', reelFolder(slug));
+  const finalDir = path.join(ROOT, 'output', 'reels', reelFolder(slug), 'final');
   if (fs.existsSync(finalDir)) {
     const names = fs.readdirSync(finalDir).filter((name) => name.endsWith('.mp4'));
     const versioned = names

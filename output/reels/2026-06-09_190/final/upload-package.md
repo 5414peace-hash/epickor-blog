@@ -1,0 +1,26 @@
+# Reels 190 Upload Package
+
+- Final video: `EPICKOR_190.mp4`
+- Source render: `output/reels/190/render/epickor-reel-190-v004.mp4`
+- Caption: `instagram-caption.txt`
+- Duration: 34.389s
+- Audio: scene-level ElevenLabs `v002`, 7 segments
+- Motion cards: exactly 2
+  - Scene 2: `190-card-save-numbers-menu`
+  - Scene 5: `190-card-right-door-menu`
+- Validation: `npm.cmd run reels:validate -- --slug 190 --require-scene-audio` passed
+- Evaluation packet:
+  - `output/reels/190/evaluation/evaluation-v004.md`
+  - `output/reels/190/evaluation/contact-v004.jpg`
+  - `output/reels/190/evaluation/scene-grid-v004.jpg`
+- Manual visual QA:
+  - v001 had motion-card early-frame center emptiness in scenes 2 and 5.
+  - v002 adjusted reveal timing so approved card rows appear earlier.
+  - v003 corrected numeric hotline pronunciation to digit-by-digit wording and fixed Scene 4 caption wrapping.
+  - v004 keeps the digit-by-digit narration audio but displays `119`, `1330`, and `1339` in the spoken subtitle layer.
+  - Scene grid/contact sheet inspected; no obvious broken image, major overlap, wrong selected primary visual, or 3-line caption observed.
+- Notes:
+  - Dashboard final button was blocked by an overly strict ranking rule. Representative approved proceeding with partial rankings.
+  - Three-option scenes do not need every candidate ranked when rank 1/2 selections are enough for production.
+  - Hotline numbers should be scripted for TTS as digit-by-digit words, for example `one one nine`, `one three three zero`, and `one three three nine`.
+  - When readability is better, the visible spoken subtitle may show the numeric form (`119`, `1330`, `1339`) while validation treats the spoken-word and numeric forms as equivalent.

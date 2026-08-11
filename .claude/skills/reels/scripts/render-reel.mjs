@@ -8,7 +8,7 @@
  *   npm run reels:render -- --slug 170 --audio-version v005 --dry-run
  *   npm run reels:render -- --slug 170 --allow-silent
  *
- * Candidate renders are written to output/final/reels/{slug}/EPICKOR_{slug}_01.mp4.
+ * Candidate renders are written to output/reels/{dated-slug}/final/EPICKOR_{slug}_01.mp4.
  * After representative confirmation, run reels:finalize to keep only EPICKOR_{slug}.mp4.
  */
 
@@ -125,7 +125,7 @@ if (!slug || !/^[a-zA-Z0-9_-]+$/.test(slug)) {
 }
 
 const reelDir = path.join(ROOT, 'output', 'reels', reelFolder(slug));
-const finalDir = path.join(ROOT, 'output', 'final', 'reels', reelFolder(slug));
+const finalDir = path.join(ROOT, 'output', 'reels', reelFolder(slug), 'final');
 const propsPath = path.join(reelDir, 'remotion-props.json');
 const publicDir = path.join(ROOT, 'public', 'assets', 'reels', slug);
 

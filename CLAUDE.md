@@ -171,9 +171,15 @@
 - New Reels must start from a creative brief saved in `output/reels/{slug}/strategy.md`: hook archetype, first-frame promise, viewer misconception, payoff, save/share reason, voice lane, thumbnail variants, one motion-card role, and funnel expectation.
 - The first Reels goal is not full automation. Build one MVP, note friction, then upgrade the pipeline.
 - Every Reels project should use numbered scene files under `output/reels/YYYY-MM-DD_{slug}/`.
-- **릴스 폴더는 카드뉴스와 같은 `YYYY-MM-DD_{slug}` 규칙을 쓴다 (2026-08-11 대표님 지시).**
-  `output/reels/`(작업본)와 `output/final/reels/`(납품본)가 **같은 폴더명**을 쓰므로 한 릴스의
-  작업 파일과 납품본이 같은 키로 묶이고, 목록이 시간순으로 정렬된다.
+- **한 릴스는 한 폴더다: `output/reels/YYYY-MM-DD_{slug}/` (2026-08-11 대표님 지시).**
+  루트에 작업 파일, `final/` 하위폴더에 납품본(MP4 + `instagram-caption.txt` + `upload-package.md`).
+  카드뉴스와 같은 날짜 규칙이라 목록이 시간순으로 정렬된다.
+  - **종전에 `output/final/reels/`라는 별도 트리가 있었으나 2026-08-11에 흡수하고 삭제했다.**
+    그 트리는 **블로그 글 최종본 디렉터리**(`output/final/166_final.md` …) 안에 얹혀 있었고, 그게
+    "한 릴스의 파일이 서로 무관한 두 곳에 있다"는 혼란의 실제 원인이었다. 재분리하지 말 것.
+  - **그 트리는 작업본의 사본이 아니었다.** 병합 직전 실측: 파일 120개(2.91GB)가 그쪽에만 있었고,
+    그중 24개는 **작업 폴더가 아예 없는 초기 릴스 13편(170~184)의 유일한 사본**이었다. gitignore
+    대상이라 git 복구도 불가능했다. 이런 트리는 **지우기 전에 반드시 내용을 해시로 대조**한다.
   - 스크립트에는 계속 **맨 슬러그**를 넘긴다(`--slug cheonggyecheon`). `scripts/lib/reel-dir.mjs`의
     `reelFolder()`가 날짜 폴더로 풀어주고, **폴더가 없으면 오늘 날짜로 새로 만든다** — 그래서 새 작업이
     날짜 없이 생기는 일이 없다.
@@ -736,8 +742,8 @@ output/drafts/                writer brief 및 draft.md
 output/review/                review.json
 output/final/                 final.md
 output/cardnews/YYYY-MM-DD_{slug}/ script.md 및 card PNG
-output/reels/YYYY-MM-DD_{slug}/       Reels 컷플랜·매니페스트·나레이션·후보 렌더 (작업본)
-output/final/reels/YYYY-MM-DD_{slug}/ 납품본 MP4 + instagram-caption.txt
+output/reels/YYYY-MM-DD_{slug}/       한 릴스의 전부 — 컷플랜·매니페스트·나레이션·후보 렌더
+output/reels/YYYY-MM-DD_{slug}/final/ 납품본 MP4 + instagram-caption.txt + upload-package.md
 public/assets/reels/{slug}/           런타임 자산(컷 미디어·오디오) — 여기는 날짜를 붙이지 않는다
 .claude/skills/               팀별 스크립트
 .claude/agents/               팀별 운영 지침

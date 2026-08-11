@@ -1,0 +1,22 @@
+# Reels 187 Upload Package
+
+- Status: upload-package-ready
+- Confirmed render: `output/reels/187/render/epickor-reel-187-v005.mp4`
+- Upload MP4: `output/final/reels/187/EPICKOR_187.mp4`
+- Instagram caption: `output/final/reels/187/instagram-caption.txt`
+- Evaluation packet: `output/reels/187/evaluation/evaluation-v005.md`
+- External mobile review: `https://reel187-render-share.vercel.app`
+- Duration: `37.675s`
+- Audio:
+  - Version: `v003`
+  - Mode: scene-level TTS
+  - Audio segments: `7`
+- Notes:
+  - Representative submitted final dashboard ranking selections.
+  - v005 supersedes v003 for upload because speech captions were changed to the Reels 186-style readable-band treatment.
+  - Spoken caption beats now use natural context breaks with a maximum of two rendered lines.
+  - Final outro text is `epicKor.com`.
+  - Caption beats passed `npm.cmd run reels:validate -- --slug 187 --require-scene-audio`.
+  - v005 evaluation has no hard gate; only minor pacing notes for longer readable-band beats.
+  - Reviewer inspected `scene-grid-v005.jpg` and `contact-v005.jpg`; no obvious broken images, major text overlap, or caption ellipsis remained after the v004-to-v005 split refinement.
+  - External share page and `/EPICKOR_187.mp4` both returned HTTP 200 after redeploy; MP4 `Content-Length` is `24804339`.

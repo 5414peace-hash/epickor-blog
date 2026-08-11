@@ -1,0 +1,30 @@
+# Reels 191 Upload Package
+
+- Status: representative-confirmed / upload-package-ready
+- Final video: `EPICKOR_191.mp4`
+- Source render: `output/reels/191/render/epickor-reel-191-v002.mp4`
+- Caption: `instagram-caption.txt`
+- External mobile review: `https://reel191-render-share.vercel.app`
+- Duration: 38.315s
+- Audio: scene-level ElevenLabs `v001`, 7 segments
+- Motion cards: exactly 2
+  - Scene 2: `191-card-freedom-pressure-menu`
+  - Scene 4: `191-card-campus-culture-menu`
+- Validation: `npm.cmd run reels:validate -- --slug 191 --require-scene-audio` passed
+- Evaluation packet:
+  - `output/reels/191/evaluation/evaluation-v002.md`
+  - `output/reels/191/evaluation/contact-v002.jpg`
+  - `output/reels/191/evaluation/scene-grid-v002.jpg`
+- Manual visual QA:
+  - Representative confirmed v002 on 2026-06-12 after the repeat-image and landscape-pan fix.
+  - Approved dashboard selections were finalized in `output/reels/191/approved-visuals.json`.
+  - Scene 5 uses three study/career-pressure visuals after the representative requested more source coverage.
+  - Scene 6 uses three social/city/campus visuals after the representative requested more source coverage.
+  - Scene 7 was corrected after v001 feedback: the Korea University callback was replaced with the Korea-shot music hall vertical derivative to reduce repeated-image feeling.
+  - 16:9 landscape-heavy photo scenes now use horizontal pan motion where appropriate: Scene 3 `pan_right`, Scene 5 `pan_left`, Scene 6 `pan_right`.
+  - Scene grid/contact sheet inspected; no obvious broken image, major overlap, wrong selected primary visual, or 3-line caption observed.
+  - Motion cards were checked for center density and caption safe-zone separation.
+- Notes:
+  - Caption beats follow the Reels 186+ direction: context-aware spoken subtitles with a max of 2 lines.
+  - Dashboard final approval no longer requires every candidate to be ranked; one selected production visual per non-motion scene is sufficient.
+  - External share page and `/EPICKOR_191.mp4` both returned HTTP `200` after v002 redeploy; MP4 `Content-Length` is `25671272`.

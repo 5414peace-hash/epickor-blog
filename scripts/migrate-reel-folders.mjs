@@ -1,5 +1,9 @@
 #!/usr/bin/env node
 /**
+ * SUPERSEDED, kept as the record of what happened on 2026-08-11. The second tree
+ * this walks (`output/final/reels/`) was folded into a `final` subfolder of each
+ * reel folder later the same day by `merge-reel-final-tree.mjs`. Do not re-run.
+ *
  * One-time migration: date-prefix every reel folder in both trees, and point the
  * code at the new names.
  *

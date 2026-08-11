@@ -1,0 +1,27 @@
+# Reels 259 Upload Package
+
+- Status: representative-confirmed / upload-package-ready
+- Final video: `EPICKOR_259.mp4`
+- Source render: `output/reels/259/render/epickor-reel-259-v005.mp4`
+- Caption: `instagram-caption.txt`
+- Duration: 33.515s
+- Audio: scene-level ElevenLabs `v001`, 7 segments
+- Motion cards: exactly 1
+  - Scene 5: `259-card-first-bowl-rule`
+- Validation:
+  - `npm.cmd run reels:props -- --slug 259 --audio-version v001` passed
+  - `npm.cmd run reels:validate -- --slug 259 --require-scene-audio` passed
+  - `npx.cmd tsc --noEmit --pretty false` passed
+  - `npm.cmd run reels:evaluate -- --slug 259 --render output\reels\259\render\epickor-reel-259-v005.mp4 --version v005` completed
+- Evaluation packet:
+  - `output/reels/259/evaluation/evaluation-v005.md`
+  - `output/reels/259/evaluation/contact-v005.jpg`
+  - `output/reels/259/evaluation/scene-grid-v005.jpg`
+- Manual visual/audio QA:
+  - Representative confirmed v005 on 2026-07-02.
+  - Scene 2 keeps visible caption `tteok` while voice source uses the pronunciation cue `thug`.
+  - Scene 5 motion-card caption placement was lowered to avoid overlap.
+  - Final `epickor.com` outro pronunciation/intonation revision was applied before confirmation.
+- Notes:
+  - `v005` supersedes `v004` and all earlier candidates.
+  - Use this folder for upload; keep `output/reels/259/render/` as the versioned working render archive.
