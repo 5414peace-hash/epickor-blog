@@ -184,15 +184,31 @@ Outro CTA IDs stay deliberately different so a viewer who sees all three in one 
 sold the same way three times: **THERE'S MORE** (open loop) · **LOCALS KNOW THE REST**
 (insider) · **WE WROTE IT ALL DOWN** (reassurance). Each is now spoken as well as shown.
 
+## Scheduled
+
+Representative said 예약 걸어줘 on 2026-08-11. All six rows verified in the scheduled-post
+list (not the calendar grid, which renders column-major and once collapsed a week into a day):
+
+| date | reel | rows |
+|---|---|---|
+| 8/25 화 05:00 | cheonggyecheon | Facebook + Instagram, 동영상/릴스 |
+| 8/26 수 05:00 | sungnyemun | Facebook + Instagram, 동영상/릴스 |
+| 8/27 목 05:00 | suneung | Facebook + Instagram, 동영상/릴스 |
+
+**Not 8/16-8/18 as this plan originally said.** The plan's premise — "nothing after 8/15" —
+was stale: the Korean Makers card-news batch had filled 8/16-8/24. Measured range is now
+8/12-8/27 with no gaps, so the standing "one per day from the day after the last scheduled
+post" rule puts this batch at 8/25-8/27.
+
+**One consequence worth a decision:** under that rule Reels go dark 8/16-8/24 while card news
+runs nine consecutive days. Following the rule as written; flagged to the representative.
+
+Ordering is seasonal, not arbitrary — cheonggyecheon leads because "3°C cooler than the street
+above" is an August story.
+
 ## Remaining gate
 
 Representative phone playback with sound on and off. Any flash, judder, unplanned wrap,
 orphan word or caption collision blocks final status, and representative rejection overrides
-every score here.
-
-## After approval
-
-Schedule 8/16, 8/17, 8/18 at 05:00 KST on Facebook and Instagram, in one 3-Reel batch.
-Procedure and its eight traps are in `docs/handoff/FACTS.md` under `## instagram / social` —
-the dangerous one is that a new Reel defaults to `지금 공유하기`, so the script refuses to click
-unless the footer reads `예약`.
+every score here. Scheduling ran ahead of that review at the representative's instruction;
+the first post is 8/25, so there is room to amend or pull.

@@ -835,6 +835,9 @@
   (g) This composer's post-submit outcome was reliably a clean confirmation dialog every time
   (6/6), unlike the Reels composer's "게시 일정 예약 중" spinner-hang quirk — no cache-purge or
   extended waiting was needed for card news.
+- **2026-08-11 — 릴스 3편 예약 완료, 목록으로 6행 검증: 8/25 화 청계천 · 8/26 수 숭례문 · 8/27 목 수능, 전부 05:00 KST × (FB EpicKor + IG epickorsnippets), 타입 `동영상/릴스`.** 배치 계획의 "8/16 gap"은 낡은 전제였다 — Korean Makers 카드뉴스가 8/16~8/24를 이미 채웠고, 실측 범위는 **8/12~8/27 빈 날 0**이다. **이 규칙(하루 1건 연속)의 부작용: 릴스가 8/16~8/24 9일간 안 나간다** — 규칙대로 따랐고 대표님께 보고했다. 순서는 계절 근거 — 청계천의 "위보다 3도 시원"이 8월 이야기라 선두.
+  *Verified:* `scheduled_posts` 목록 6행 실측(플랫폼·미디어타입·캡션 첫 줄), 2026-08-11.
+
 - **2026-08-11 — 예약 목록은 자체 스크롤 컨테이너 안에서 lazy-load 된다. `page.mouse.wheel`은 그걸 굴리지 못한다.** 첫 읽기가 **5건(8/20~8/24)**으로 나와 "8/12~8/19이 비었다"고 판단할 뻔했다 — 그대로 갔으면 **이미 카드뉴스가 있는 날에 릴스를 겹쳐 넣었을 것이다.** 커서가 리스트 위에 있지 않으면 휠은 창을 굴린다. `overflowY`가 `auto|scroll`이고 `scrollHeight-clientHeight`가 가장 큰 요소를 찾아 **`scrollTop`을 직접 올리니 5건 → 13건**이 됐다(8/12~8/24 빈 날 0). 행이 마운트되면서 컨테이너가 교체되므로 **매 스크롤마다 다시 찾는다.** 스크립트: `.tmp/meta-read-scheduled.py`.
   *Verified:* 두 방식 실측 비교, 2026-08-11.
 
