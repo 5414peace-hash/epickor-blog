@@ -2,6 +2,7 @@
 
 import fs from 'node:fs';
 import path from 'node:path';
+import { reelFolder } from '../../../../scripts/lib/reel-dir.mjs';
 
 const ROOT = process.cwd();
 
@@ -165,7 +166,7 @@ const apiKey = process.env.ELEVENLABS_API_KEY;
 if (!slug) throw new Error('Usage: node align-reel-captions.mjs --slug {slug} [--version v02]');
 if (!apiKey) throw new Error('Missing ELEVENLABS_API_KEY in .env.local.');
 
-const reelDir = path.join(ROOT, 'output', 'reels', slug);
+const reelDir = path.join(ROOT, 'output', 'reels', reelFolder(slug));
 const propsPath = path.join(reelDir, 'remotion-props-v01.json');
 const props = JSON.parse(fs.readFileSync(propsPath, 'utf8'));
 const allBeats = [];

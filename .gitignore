@@ -63,6 +63,11 @@ debug.log
 !/output/reels/*/render-manifest.json
 !/output/reels/*/cut-plan-*.json
 !/output/reels/*/media-report.json
+# CLAUDE.md mandates the continuity manifest ("probe every selected video with ffprobe
+# and record ... in continuity-manifest.json"), but it was never whitelisted, so only
+# hub-drinks had one tracked — via a stray `git add -f`. The 2026-08-11 folder rename
+# would have dropped that one silently, since the new path was ignored.
+!/output/reels/*/continuity-manifest.json
 # The narration scripts and the upload caption are the most reusable text a Reel
 # produces and were silently untracked — only *.md was allowed through.
 !/output/reels/*/voice-part-*.txt

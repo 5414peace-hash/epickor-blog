@@ -744,6 +744,18 @@
 - **2026-08-05 — `TaskStop`으로 dev 서버를 죽여도 `.next/dev/lock`이 남아 다음 기동이 죽는다.** 증상: `⨯ Unable to acquire lock at D:\dev\epickor-blog\.next\dev\lock, is another instance of next dev running?` 후 exit 1. 또한 **`npm run dev | head -30`처럼 파이프를 붙이면** 출력 파일이 0바이트인 채로 서버가 살아 있어 상태 확인이 불가능하다. 대응: dev 서버는 **파이프 없이** 띄우고, 죽인 뒤 `.next/dev/lock`을 지운다.
   *Verified:* 실측 2회, 2026-08-05.
 
+- **2026-08-11 — 릴스 폴더는 `YYYY-MM-DD_{slug}`로 통일됐고, 날짜는 git이 아니라 파일 mtime에서 왔다.** `output/reels/`와 `output/final/reels/` **양쪽이 같은 폴더명**을 쓴다(작업본과 납품본이 한 키로 묶인다). 마이그레이션 실측: **87폴더 · remotion 컴포지션 17 · 스크립트 15**. **`git log`는 날짜 소스로 못 쓴다** — `output/reels/**`가 2026-08-11 커밋 전까지 대부분 untracked였던 탓에 **거의 전 폴더를 2026-08-11로 보고**했다. mtime은 제작 시점을 보존하고 있어 58편이 05-11~08-11로 정렬됐다. 스크립트에는 계속 **맨 슬러그**를 넘기고 `scripts/lib/reel-dir.mjs`의 `reelFolder()`가 풀어준다(없으면 오늘 날짜로 생성 → 날짜 없는 폴더가 다시 생길 수 없음). **`public/assets/reels/`는 의도적으로 날짜를 안 붙인다** — 렌더된 컴포지션이 `staticFile()`로 잡는 런타임 경로이고 완료 릴스 매니페스트에 `assets/reels/{slug}/media/...`가 이미 박혀 있다.
+  *Verified:* 마이그레이션 실행 + 39개 스크립트 `node --check` + `tsc --noEmit` exit 0 + 맨 슬러그로 매니페스트 재생성 성공, 2026-08-11.
+
+- **2026-08-11 — 저장소 스크립트는 CRLF와 LF가 섞여 있다. 줄 단위로 코드를 삽입하면 CRLF 파일에서 조용히 어긋난다.** 마이그레이션이 `import` 문을 넣을 때 "마지막 import 줄 뒤"를 `/^import .*from '.*';?$/`로 찾았는데, `split('\n')`이 남긴 **`\r` 때문에 `$`가 안 맞아** `last`가 -1로 떨어졌고 **셔뱅 위에 import가 들어가 7개 파일이 파싱 불가**가 됐다(`.claude/skills/reels/scripts/` 쪽이 전부 CRLF). 규칙: `split(/\r?\n/)`으로 자르고, 원래 EOL을 감지해 그대로 다시 조립한다. **패치 후에는 반드시 전 파일 `node --check`를 돌린다** — 이 사고는 그걸로만 잡혔다.
+  *Verified:* 7개 파일 파싱 실패 → 수정 후 39/39 통과, 2026-08-11.
+
+- **2026-08-11 — 자막은 말이 아니라 글이므로 표기를 따로 갖는다. 정렬 뒤에 표시 문자열만 바꾼다.** 나레이션 대본은 TTS 때문에 숫자를 풀어써야 하고(`two thousand three`) `epickor dot com`이라 적어야 하는데, 자막은 `2003` · `epickor.com`이어야 한다. `scripts/reels-assemble.mjs`의 `CAPTION_FORM` 표가 **단어 오프셋이 확정된 뒤** 표시 문자열만 치환하므로 정렬에 영향이 없다. 선은 일반 조판 관행 — 연도·측정값·큰 수치는 숫자, 작은 개수는 단어("two years", "nine hours"). 이번 배치 실측 16건.
+  *Verified:* 3편 매니페스트 재생성 + 렌더 프레임 크롭 육안 확인, 2026-08-11.
+
+- **2026-08-11 — "카드가 문법 단위 중간에서 끊기는가"는 자동 판정이 불가능하다. 후보만 뽑고 사람이 판단한다.** 이번에 `"…you're looking" / "at was cut in 2013."`, `"and we wrote all" / "of it down…"`, `"and what to avoid if you" / "are in Korea that day."` **3건이 모든 게이트를 통과해 렌더까지 갔다**(2건은 같은 날 내가 쓴 아웃트로에서 생겼다). 그런데 같은 기계적 규칙이 `"Twenty years ago this exact spot" / "was six lanes of elevated motorway,"`도 잡는데 **이건 의도한 주어-반전 비트라 붙이면 죽는다.** 둘을 가르는 건 "앞 카드가 완결된 명사구로 끝나는가"이고 정규식으로는 판별이 안 된다. 그래서 `CAPTION_MERGE`는 명시 목록이고, `checkBinding()`이 매 배치 후보를 출력한다.
+  *Verified:* 3건 병합(43~50자, 카드 내 수용) + 오탐 2건 유지 판정, 2026-08-11.
+
 ## instagram / social
 
 - **카드뉴스(캐러셀) 예약은 2026-08-09에 스크립트로 확정했다: `.claude/skills/cardnews/scripts/schedule-meta-cardnews.py`.** 6편 × (FB+IG) 12건을 한 번에 넣고 플래너로 검증했다. 릴스와 달리 **단계가 없다** — 한 화면에서 업로드·캡션·예약이 끝난다. 컴포저 URL: `https://business.facebook.com/latest/composer/?asset_id=1187482087784752&business_id=1214459297026761` (이 asset_id가 EpicKor다. **기본값은 VDOLAB이므로 화면에 `EpicKor`가 보이는지 확인하고 시작한다.**)

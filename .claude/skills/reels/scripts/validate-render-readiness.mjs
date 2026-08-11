@@ -8,6 +8,7 @@
 
 import fs from 'node:fs';
 import path from 'node:path';
+import { reelFolder } from '../../../../scripts/lib/reel-dir.mjs';
 
 const ROOT = process.cwd();
 
@@ -128,7 +129,7 @@ const maxMotionCards = projectTwoMotionCardOverrideSlugs.has(String(slug))
       ? 2
       : Number.POSITIVE_INFINITY;
 
-const reelDir = path.join(ROOT, 'output', 'reels', slug);
+const reelDir = path.join(ROOT, 'output', 'reels', reelFolder(slug));
 const publicDir = path.join(ROOT, 'public', 'assets', 'reels', slug);
 const scenesPath = path.join(reelDir, 'scenes.json');
 const approvedPath = path.join(reelDir, 'approved-visuals.json');

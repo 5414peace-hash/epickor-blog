@@ -12,6 +12,7 @@
 
 import fs from 'node:fs';
 import path from 'node:path';
+import { reelFolder } from '../../../../scripts/lib/reel-dir.mjs';
 
 const ROOT = process.cwd();
 
@@ -211,7 +212,7 @@ if (!slug || !/^[a-zA-Z0-9_-]+$/.test(slug)) {
 
 const minPhotoCandidates = Number(args['min-photo-candidates'] || 5);
 const minImportantCandidates = Number(args['min-important-candidates'] || 5);
-const reelDir = path.join(ROOT, 'output', 'reels', slug);
+const reelDir = path.join(ROOT, 'output', 'reels', reelFolder(slug));
 const scenesPath = path.join(reelDir, 'scenes.json');
 const candidatesPath = path.join(reelDir, 'visual-candidates.json');
 const motionCardsPath = path.join(reelDir, 'motion-cards.json');

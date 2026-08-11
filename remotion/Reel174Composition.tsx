@@ -16,8 +16,8 @@
  * Audio starts at 8 / 487 / 696.
  */
 import { AbsoluteFill } from 'remotion';
-import timings from '../output/reels/174/caption-timings-v01.json';
-import props from '../output/reels/174/remotion-props-v01.json';
+import timings from '../output/reels/2026-05-19_174/caption-timings-v01.json';
+import props from '../output/reels/2026-05-19_174/remotion-props-v01.json';
 import {
   Captions, Cut, Ons, Outro, StillCut, VideoCut, VoiceTrack, Watermark,
   social, type CaptionBeat,

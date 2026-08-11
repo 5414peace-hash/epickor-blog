@@ -170,7 +170,18 @@
 - Strategy Team must assign a `Reels Viral Fit Score` out of 100 before production. Default threshold is `>=80`; topics below 80 should be routed to card news, blog refresh, or held for a stronger angle unless the representative explicitly approves a Reels exception.
 - New Reels must start from a creative brief saved in `output/reels/{slug}/strategy.md`: hook archetype, first-frame promise, viewer misconception, payoff, save/share reason, voice lane, thumbnail variants, one motion-card role, and funnel expectation.
 - The first Reels goal is not full automation. Build one MVP, note friction, then upgrade the pipeline.
-- Every Reels project should use numbered scene files under `output/reels/{slug}/`.
+- Every Reels project should use numbered scene files under `output/reels/YYYY-MM-DD_{slug}/`.
+- **릴스 폴더는 카드뉴스와 같은 `YYYY-MM-DD_{slug}` 규칙을 쓴다 (2026-08-11 대표님 지시).**
+  `output/reels/`(작업본)와 `output/final/reels/`(납품본)가 **같은 폴더명**을 쓰므로 한 릴스의
+  작업 파일과 납품본이 같은 키로 묶이고, 목록이 시간순으로 정렬된다.
+  - 스크립트에는 계속 **맨 슬러그**를 넘긴다(`--slug cheonggyecheon`). `scripts/lib/reel-dir.mjs`의
+    `reelFolder()`가 날짜 폴더로 풀어주고, **폴더가 없으면 오늘 날짜로 새로 만든다** — 그래서 새 작업이
+    날짜 없이 생기는 일이 없다.
+  - **`public/assets/reels/`는 날짜를 붙이지 않는다.** 렌더된 컴포지션이 `staticFile()`로 참조하는
+    런타임 경로이고, 완료된 모든 릴스의 매니페스트에 `assets/reels/{slug}/media/...`가 이미 박혀 있다.
+    이름을 바꾸면 그게 전부 한꺼번에 무효가 되는데, 정리해서 얻을 게 없는 디렉터리다.
+  - 날짜 산정은 **파일 mtime**으로 했다. `output/reels/**`가 2026-08-11까지 대부분 untracked였기 때문에
+    `git log`는 거의 전 폴더를 오늘로 보고한다 — 마이그레이션 때 이걸 확인했다.
 - Human visual approval is required before final Remotion rendering.
 - The visual review dashboard should answer one question quickly: does this image fit this numbered scene?
 - During Reels visual research, keep a short list of strong topic-relevant images that were found but not selected for the Reel. If they improve the source post, add them back into the blog post after the Reel visual search instead of replacing already usable post images. For Blog 176 specifically, keep the current two images and use the Reels research pass to find additional Korean jjimjilbang-related images for the article if suitable.
@@ -725,7 +736,9 @@ output/drafts/                writer brief 및 draft.md
 output/review/                review.json
 output/final/                 final.md
 output/cardnews/YYYY-MM-DD_{slug}/ script.md 및 card PNG
-output/reels/{slug}/          Reels scene manifest, visual candidates, review notes, and audio
+output/reels/YYYY-MM-DD_{slug}/       Reels 컷플랜·매니페스트·나레이션·후보 렌더 (작업본)
+output/final/reels/YYYY-MM-DD_{slug}/ 납품본 MP4 + instagram-caption.txt
+public/assets/reels/{slug}/           런타임 자산(컷 미디어·오디오) — 여기는 날짜를 붙이지 않는다
 .claude/skills/               팀별 스크립트
 .claude/agents/               팀별 운영 지침
 ```

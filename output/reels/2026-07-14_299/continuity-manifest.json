@@ -1,0 +1,23 @@
+{
+  "compositionFps": 30,
+  "captionExclusionTop": 1400,
+  "minimumCaptionGap": 60,
+  "media": [
+    { "scene": "S1", "source": "video/stew-10200309-fluid.mp4", "trimBefore": 0, "requiredFrames": 105, "mode": "interpolated_cfr_proxy" },
+    { "scene": "S2", "source": "video/stew-35629815.mp4", "trimBefore": 42, "requiredFrames": 135, "mode": "single" },
+    { "scene": "S4", "source": "video/bbq-34753874.mp4", "trimBefore": 85, "requiredFrames": 225, "mode": "single" },
+    { "scene": "S5", "source": "video/bbq-37905787.mp4", "trimBefore": 45, "requiredFrames": 270, "mode": "single" },
+    { "scene": "S7", "source": "video/stonepot-37391013.mp4", "trimBefore": 95, "requiredFrames": 114, "mode": "single" }
+  ],
+  "textBlocks": [
+    { "scene": "S5", "id": "motion-card", "maxBottom": 1320 },
+    { "scene": "S6", "id": "scissors-ons", "maxBottom": 1330 },
+    { "scene": "S7", "id": "outro-ons", "maxBottom": 1310 }
+  ],
+  "textPlans": [
+    { "scene": "S1", "id": "still-cooking", "lines": ["STILL COOKING"] },
+    { "scene": "S2", "id": "keeps-changing-food", "lines": ["KEEPS CHANGING FOOD"] },
+    { "scene": "S4", "id": "pan-system", "lines": ["PAN ≠ SYSTEM"] },
+    { "scene": "S6", "id": "before-grill-pan", "lines": ["BEFORE THE GRILL PAN"] }
+  ]
+}

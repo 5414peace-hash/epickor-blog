@@ -18,9 +18,9 @@
  * knowledge) so a viewer who sees all three in one week is not sold the same
  * way three times.
  */
-import drinksManifest from '../output/reels/hub-drinks/render-manifest.json';
-import ramyunManifest from '../output/reels/hub-ramyun/render-manifest.json';
-import seoulManifest from '../output/reels/hub-seoul/render-manifest.json';
+import drinksManifest from '../output/reels/2026-08-05_hub-drinks/render-manifest.json';
+import ramyunManifest from '../output/reels/2026-08-05_hub-ramyun/render-manifest.json';
+import seoulManifest from '../output/reels/2026-08-05_hub-seoul/render-manifest.json';
 import { HubReel, type Manifest, type OnsBeat } from './HubReel';
 
 /** Name cards run large; explanatory statements sit at the normal weight. */

@@ -18,8 +18,8 @@
  *  - added BGM (The Polarity - Son of a Beach, representative's own library).
  */
 import { AbsoluteFill, Audio, interpolate, staticFile, useCurrentFrame } from 'remotion';
-import timings from '../output/reels/321/caption-timings-v02.json';
-import props from '../output/reels/321/remotion-props-v01.json';
+import timings from '../output/reels/2026-07-28_321/caption-timings-v02.json';
+import props from '../output/reels/2026-07-28_321/remotion-props-v01.json';
 import {
   Captions, Cut, Ons, Outro, StillCut, VideoCut, VoiceTrack, Watermark,
   social, type CaptionBeat,

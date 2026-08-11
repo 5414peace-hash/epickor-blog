@@ -2,7 +2,7 @@ import { AbsoluteFill, Audio, Sequence, interpolate, staticFile, useCurrentFrame
 import type { ReelProps } from './types';
 import { Reel296PosterFrame } from './Reel296PosterFrames';
 import { TimedNarrationCaptions } from './TimedNarrationCaptions';
-import captionTimings from '../output/reels/296/caption-timings-v02.json';
+import captionTimings from '../output/reels/2026-07-13_296/caption-timings-v02.json';
 
 const sceneStarts = [0, 126, 359, 479, 590, 800, 950];
 const sceneDurations = [126, 233, 120, 111, 210, 150, 130];

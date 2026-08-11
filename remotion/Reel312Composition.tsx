@@ -10,7 +10,7 @@ import {
   useCurrentFrame,
   useVideoConfig,
 } from 'remotion';
-import captions312 from '../output/reels/312/caption-timings-v02.json';
+import captions312 from '../output/reels/2026-07-21_312/caption-timings-v02.json';
 
 const display = "Impact, 'Arial Narrow', 'Franklin Gothic Condensed', sans-serif";
 const body = "'Segoe UI', Arial, 'Helvetica Neue', sans-serif";

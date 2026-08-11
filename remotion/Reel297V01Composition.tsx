@@ -2,7 +2,7 @@ import type { CSSProperties } from 'react';
 import { AbsoluteFill, Audio, Easing, Img, Sequence, Video, interpolate, staticFile, useCurrentFrame } from 'remotion';
 import type { ReelProps } from './types';
 import { TimedNarrationCaptions } from './TimedNarrationCaptions';
-import captionTimings from '../output/reels/297/caption-timings-v02.json';
+import captionTimings from '../output/reels/2026-07-13_297/caption-timings-v02.json';
 
 const RED = '#c52d22';
 const DEEP_RED = '#8f1e19';

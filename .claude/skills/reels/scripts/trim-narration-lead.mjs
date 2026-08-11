@@ -14,6 +14,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { execFileSync, spawnSync } from 'node:child_process';
+import { reelFolder } from '../../../../scripts/lib/reel-dir.mjs';
 
 function leadSilence(file) {
   // silencedetect writes to stderr; execFileSync only returns stdout — the trap
@@ -32,7 +33,7 @@ function leadSilence(file) {
 }
 
 for (const slug of process.argv.slice(2)) {
-  const dir = path.join('output', 'reels', slug, 'audio');
+  const dir = path.join('output', 'reels', reelFolder(slug), 'audio');
   const pub = path.join('public', 'assets', 'reels', slug, 'audio');
   for (const file of fs.readdirSync(dir).filter((f) => /^voice-part-\d+\.mp3$/.test(f))) {
     const src = path.join(dir, file);

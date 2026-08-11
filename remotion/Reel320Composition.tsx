@@ -22,8 +22,8 @@
  *  - added BGM (Monument Music - Chapter Two, representative's own library).
  */
 import { AbsoluteFill, Audio, interpolate, staticFile, useCurrentFrame } from 'remotion';
-import timings from '../output/reels/320/caption-timings-v02.json';
-import props from '../output/reels/320/remotion-props-v01.json';
+import timings from '../output/reels/2026-07-28_320/caption-timings-v02.json';
+import props from '../output/reels/2026-07-28_320/remotion-props-v01.json';
 import {
   Captions, Cut, Ons, Outro, StillCut, VideoCut, VoiceTrack, Watermark,
   social, type CaptionBeat,

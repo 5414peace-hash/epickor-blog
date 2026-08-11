@@ -2,6 +2,7 @@
 
 import fs from 'node:fs';
 import path from 'node:path';
+import { reelFolder } from './lib/reel-dir.mjs';
 
 const ROOT = process.cwd();
 
@@ -76,7 +77,7 @@ const candidates = (payload.videos || [])
   .filter(Boolean)
   .slice(0, count);
 
-const outputDir = path.join(ROOT, 'output', 'reels', slug, 'pexels-video-candidates');
+const outputDir = path.join(ROOT, 'output', 'reels', reelFolder(slug), 'pexels-video-candidates');
 fs.mkdirSync(outputDir, {recursive: true});
 fs.writeFileSync(path.join(outputDir, `${query.replace(/[^a-z0-9]+/gi, '-').toLowerCase()}.json`), `${JSON.stringify({query, candidates}, null, 2)}\n`);
 console.log(JSON.stringify({query, candidates}, null, 2));

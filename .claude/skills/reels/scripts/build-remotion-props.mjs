@@ -9,6 +9,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { spawnSync } from 'node:child_process';
+import { reelFolder } from '../../../../scripts/lib/reel-dir.mjs';
 
 const ROOT = process.cwd();
 const FPS = 30;
@@ -1659,7 +1660,7 @@ if (!slug || !/^[a-zA-Z0-9_-]+$/.test(slug)) {
   process.exit(1);
 }
 
-const reelDir = path.join(ROOT, 'output', 'reels', slug);
+const reelDir = path.join(ROOT, 'output', 'reels', reelFolder(slug));
 const scenesPath = path.join(reelDir, 'scenes.json');
 const approvedPath = path.join(reelDir, 'approved-visuals.json');
 const assetManifestPath = path.join(reelDir, 'asset-manifest.json');

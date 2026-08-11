@@ -18,8 +18,8 @@
  * (33%), first cut is video. Total 1449f = 48.3s.
  */
 import { AbsoluteFill, Audio, interpolate, staticFile, useCurrentFrame } from 'remotion';
-import timings from '../output/reels/220/caption-timings-v02.json';
-import props from '../output/reels/220/remotion-props-v01.json';
+import timings from '../output/reels/2026-07-26_220/caption-timings-v02.json';
+import props from '../output/reels/2026-07-26_220/remotion-props-v01.json';
 import {
   Captions, Cut, Ons, Outro, StillCut, VideoCut, VoiceTrack, Watermark,
   social, type CaptionBeat,

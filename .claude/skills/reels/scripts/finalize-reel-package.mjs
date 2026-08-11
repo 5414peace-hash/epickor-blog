@@ -9,6 +9,7 @@
 
 import fs from 'node:fs';
 import path from 'node:path';
+import { reelFolder } from '../../../../scripts/lib/reel-dir.mjs';
 
 const ROOT = process.cwd();
 
@@ -61,7 +62,7 @@ if (!slug || !/^[a-zA-Z0-9_-]+$/.test(slug)) {
   process.exit(1);
 }
 
-const finalDir = path.join(ROOT, 'output', 'final', 'reels', slug);
+const finalDir = path.join(ROOT, 'output', 'final', 'reels', reelFolder(slug));
 if (!fs.existsSync(finalDir)) {
   console.error(`Missing final Reel directory: ${safeRelative(finalDir)}`);
   process.exit(1);

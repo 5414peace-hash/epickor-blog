@@ -9,6 +9,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { spawnSync } from 'node:child_process';
+import { reelFolder } from '../../../../scripts/lib/reel-dir.mjs';
 
 const ROOT = process.cwd();
 const DEFAULT_FPS = 30;
@@ -108,7 +109,7 @@ function safeRelative(filePath) {
 }
 
 function findLatestRender(slug) {
-  const finalDir = path.join(ROOT, 'output', 'final', 'reels', slug);
+  const finalDir = path.join(ROOT, 'output', 'final', 'reels', reelFolder(slug));
   if (fs.existsSync(finalDir)) {
     const names = fs.readdirSync(finalDir).filter((name) => name.endsWith('.mp4'));
     const versioned = names
@@ -119,7 +120,7 @@ function findLatestRender(slug) {
     if (selected) return path.join(finalDir, selected);
   }
 
-  const legacyRenderDir = path.join(ROOT, 'output', 'reels', slug, 'render');
+  const legacyRenderDir = path.join(ROOT, 'output', 'reels', reelFolder(slug), 'render');
   if (!fs.existsSync(legacyRenderDir)) return null;
   const legacyNames = fs.readdirSync(legacyRenderDir).filter((name) => name.endsWith('.mp4'));
   const legacyVersioned = legacyNames
@@ -358,7 +359,7 @@ function buildMarkdown({ slug, version, renderPath, props, probe, sceneTimeline,
 ## Candidate
 
 - Render: \`${safeRelative(renderPath)}\`
-- Props: \`output/reels/${slug}/remotion-props.json\`
+- Props: \`output/reels/${reelFolder(slug)}/remotion-props.json\`
 - Contact sheet: \`${safeRelative(contactPath)}\`
 - Scene grid: \`${safeRelative(sceneGridPath)}\`
 - Rubric: \`.claude/skills/reels/evaluation_rubric.md\`
@@ -436,7 +437,7 @@ if (!slug || !/^[a-zA-Z0-9_-]+$/.test(slug)) {
   process.exit(1);
 }
 
-const reelDir = path.join(ROOT, 'output', 'reels', slug);
+const reelDir = path.join(ROOT, 'output', 'reels', reelFolder(slug));
 const propsPath = path.join(reelDir, 'remotion-props.json');
 const props = readJson(propsPath);
 if (!props) {

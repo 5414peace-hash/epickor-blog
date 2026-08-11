@@ -107,27 +107,64 @@ judder. Fast-motion beats still take 30fps sources only.
   been offered again as fresh in the next gate run. That is the same repetition problem, one
   batch downstream.
 
-## Delivery candidates
+## Third pass — caption form, and a defect it exposed
 
-| | file | frames | duration | bitrate |
+Captions are *read*, so they take the written form even where narration has to spell things
+out for the TTS. Sixteen beats changed: `epickor dot com` → **`epickor.com`** (3), spoken
+years → digits (**2003 · 2013 · 2008 · 2006 · 2021**), and figures carrying a unit
+(**5.8 kilometres · 386 billion won · 35,000 people · 35/25 minutes · 200 metres ·
+3 kilometres · 3 degrees**). Small counts stay as words — "two years", "five hours",
+"nine hours", "sixty-nine year old" — which is the ordinary typographic line.
+
+Re-reading the beats to make that change surfaced **three cards that ended mid-phrase**,
+which CLAUDE.md forbids outright, and which every gate had passed:
+
+| reel | was | now |
+|---|---|---|
+| E | `"…you're looking"` / `"at was cut in 2013."` | one card |
+| E | `"and we wrote all"` / `"of it down…"` | one card |
+| F | `"and what to avoid if you"` / `"are in Korea that day."` | one card |
+
+Two of the three were introduced by the outro lines written earlier the same day. Merged
+cards run 43–50 characters, well inside the card.
+
+The rule is now enforced in `reels-assemble.mjs`, but **as a printed candidate list, not an
+automatic merge** — a mechanical rule cannot decide this. The same scan flags
+`"Twenty years ago this exact spot"` / `"was six lanes of elevated motorway,"`, which is a
+deliberate subject-then-reveal beat and must stay split. What separates the two cases is
+whether the first card ends on a complete noun phrase, which a regex cannot see. So the
+merge list is explicit and evidence-driven, and every future batch prints its candidates.
+
+## Delivery
+
+Working candidate and delivered copy, both under the same dated key:
+
+| | delivered | frames | duration | bitrate |
 |---|---|---|---|---|
-| **D** | `output/reels/cheonggyecheon/epickor-reel-cheonggyecheon-v005.mp4` | 1490 | 49.69s | 16.1 Mbps |
-| **E** | `output/reels/sungnyemun/epickor-reel-sungnyemun-v004.mp4` | 1550 | 51.69s | 16.1 Mbps |
-| **F** | `output/reels/suneung/epickor-reel-suneung-v004.mp4` | 1420 | 47.36s | 16.6 Mbps |
+| **D** | `output/final/reels/2026-08-11_cheonggyecheon/EPICKOR_cheonggyecheon_06.mp4` | 1490 | 49.69s | 16.1 Mbps |
+| **E** | `output/final/reels/2026-08-11_sungnyemun/EPICKOR_sungnyemun_05.mp4` | 1550 | 51.69s | 16.1 Mbps |
+| **F** | `output/final/reels/2026-08-11_suneung/EPICKOR_suneung_05.mp4` | 1420 | 47.36s | 16.6 Mbps |
 
 All 1080×1920 at 30fps. The Reels 2.2 floor is ≥8 Mbps, ≥10 with heavy motion.
 
-**Superseded, do not upload:** D v001–v004, E v001–v003, F v001–v003.
+**Superseded, do not upload:** D v001–v005, E v001–v004, F v001–v004.
 
 ## Gate results
 
-| gate | D | E | F |
+Re-run against the final files, not the previous pass:
+
+| gate | D v006 | E v005 | F v005 |
 |---|---|---|---|
 | `reels:qa-audio` (no ≥0.6s hole inside narration) | **PASS** | **PASS** | **PASS** |
 | `reels:qa-cuts` (screen/word pairing, per-cut luma) | PASS, one noted | **PASS** | **PASS** |
 | Distinct sources / cuts | 7 / 8 | 6 / 11 | 9 / 10 |
 | Lowest per-cut luma | 54 (noted) | 91 | 63 |
 | Caption beats overlapping | 0 | 0 | 0 |
+| Caption beats | 33 | 33 | 29 |
+
+Changed captions were also pulled as full-resolution crops of the caption band rather than
+read off the contact sheet — the sheet scales down far enough to have produced one false
+collision alarm already this batch.
 
 **D cut 7 measures luma 54**, under the documented floor of 60, and is accepted. The floor
 exists because of a 2026-08-04 failure where a near-black frame ran under narration it

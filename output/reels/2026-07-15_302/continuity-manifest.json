@@ -1,0 +1,23 @@
+{
+  "compositionFps": 30,
+  "captionExclusionTop": 1400,
+  "minimumCaptionGap": 60,
+  "media": [
+    { "scene": "S1", "source": "video/hansik-35196990.mp4", "trimBefore": 0, "requiredFrames": 120, "mode": "single" },
+    { "scene": "S2", "source": "video/stonepot-37391013.mp4", "trimBefore": 50, "requiredFrames": 150, "mode": "single" },
+    { "scene": "S3B", "source": "video/morning-street-37362904.mp4", "trimBefore": 18, "requiredFrames": 92, "mode": "single_crossfade" },
+    { "scene": "S4A", "source": "video/hotteok-20672041.mp4", "trimBefore": 0, "requiredFrames": 118, "mode": "single_crossfade" },
+    { "scene": "S4B", "source": "video/gimbap-35196951.mp4", "trimBefore": 75, "requiredFrames": 116, "mode": "single_crossfade" },
+    { "scene": "S5", "source": "video/market-36718309-pingpong.mp4", "trimBefore": 80, "requiredFrames": 300, "mode": "pingpong_proxy" }
+  ],
+  "textBlocks": [
+    { "scene": "S3", "id": "banchan-ons", "maxBottom": 1320 },
+    { "scene": "S4", "id": "street-food-ons", "maxBottom": 1320 },
+    { "scene": "S5", "id": "motion-card", "maxBottom": 1320 },
+    { "scene": "S6", "id": "leftovers-ons", "maxBottom": 1340 }
+  ],
+  "textPlans": [
+    { "scene": "S3", "id": "last-night-sides", "lines": ["LAST NIGHT'S SIDES."] },
+    { "scene": "S4", "id": "street-food-breakfast", "lines": ["SWEET HOTTEOK", "KIMBAP ROLLS"] }
+  ]
+}

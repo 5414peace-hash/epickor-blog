@@ -9,6 +9,7 @@
 
 import fs from 'node:fs';
 import path from 'node:path';
+import { reelFolder } from '../../../../scripts/lib/reel-dir.mjs';
 
 const ROOT = process.cwd();
 
@@ -67,7 +68,7 @@ if (!apiKey || !voiceId) {
 
 const absoluteTextPath = path.resolve(ROOT, textPath);
 const text = fs.readFileSync(absoluteTextPath, 'utf8').trim();
-const outputDir = path.join(ROOT, 'output', 'reels', slug, 'audio');
+const outputDir = path.join(ROOT, 'output', 'reels', reelFolder(slug), 'audio');
 const publicOutputDir = path.join(ROOT, 'public', 'assets', 'reels', slug, 'audio');
 fs.mkdirSync(outputDir, { recursive: true });
 fs.mkdirSync(publicOutputDir, { recursive: true });

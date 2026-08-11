@@ -7,6 +7,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { spawnSync } from 'node:child_process';
+import { reelFolder } from '../../../../scripts/lib/reel-dir.mjs';
 
 const FPS = 30;
 /**
@@ -42,9 +43,9 @@ function edges(file) {
 }
 
 for (const slug of process.argv.slice(2)) {
-  const props = JSON.parse(fs.readFileSync(`output/reels/${slug}/remotion-props-v01.json`, 'utf8'));
+  const props = JSON.parse(fs.readFileSync(`output/reels/${reelFolder(slug)}/remotion-props-v01.json`, 'utf8'));
   const segs = props.audioSegments.map((s) => {
-    const e = edges(path.join('output', 'reels', slug, 'audio', s.file));
+    const e = edges(path.join('output', 'reels', reelFolder(slug), 'audio', s.file));
     return { ...s, ...e };
   });
   console.log(`== ${slug}`);

@@ -1,0 +1,46 @@
+{
+ "slug": "311",
+ "checkedAt": "2026-07-21T13:45:50.191Z",
+ "clips": [
+  {
+   "cut": 1,
+   "file": "cut1-hotteok.mp4",
+   "sourceFps": 59.94,
+   "durationSeconds": 7.082,
+   "trimBefore": 60,
+   "usableFramesAt30": 182,
+   "requiredFrames": 195,
+   "pass": false
+  },
+  {
+   "cut": 3,
+   "file": "cut3-eomuk.mp4",
+   "sourceFps": 24,
+   "durationSeconds": 11.967,
+   "trimBefore": 30,
+   "usableFramesAt30": 321,
+   "requiredFrames": 150,
+   "pass": true
+  },
+  {
+   "cut": 7,
+   "file": "cut6-market.mp4",
+   "sourceFps": 30,
+   "durationSeconds": 10.633,
+   "trimBefore": 45,
+   "usableFramesAt30": 273,
+   "requiredFrames": 92,
+   "pass": true
+  },
+  {
+   "cut": 8,
+   "file": "cut7-beomsan.mp4",
+   "sourceFps": 30,
+   "durationSeconds": 8,
+   "trimBefore": 110,
+   "usableFramesAt30": 130,
+   "requiredFrames": 60,
+   "pass": true
+  }
+ ]
+}

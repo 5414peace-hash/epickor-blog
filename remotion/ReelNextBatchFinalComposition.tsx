@@ -13,9 +13,9 @@ import {
   useVideoConfig,
 } from 'remotion';
 import type { ReelProps } from './types';
-import captions299 from '../output/reels/299/caption-timings-v01.json';
-import captions301 from '../output/reels/301/caption-timings-v01.json';
-import captions302 from '../output/reels/302/caption-timings-v01.json';
+import captions299 from '../output/reels/2026-07-14_299/caption-timings-v01.json';
+import captions301 from '../output/reels/2026-07-15_301/caption-timings-v01.json';
+import captions302 from '../output/reels/2026-07-15_302/caption-timings-v01.json';
 
 const display = "Impact, 'Arial Narrow', 'Franklin Gothic Condensed', sans-serif";
 const body = "Arial, 'Helvetica Neue', sans-serif";

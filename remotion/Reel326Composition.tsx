@@ -20,8 +20,8 @@
  * Cut boundaries = caption-timings-v02.json segment starts (forced alignment).
  */
 import { AbsoluteFill, Audio, interpolate, staticFile, useCurrentFrame } from 'remotion';
-import timings from '../output/reels/326/caption-timings-v02.json';
-import props from '../output/reels/326/remotion-props-v01.json';
+import timings from '../output/reels/2026-07-28_326/caption-timings-v02.json';
+import props from '../output/reels/2026-07-28_326/remotion-props-v01.json';
 import {
   Captions, Cut, Ons, Outro, StillCut, VideoCut, VoiceTrack, Watermark, Kicker,
   social, type CaptionBeat,

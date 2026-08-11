@@ -3,6 +3,7 @@
 import { execFileSync } from 'node:child_process';
 import { existsSync, readFileSync } from 'node:fs';
 import { resolve } from 'node:path';
+import { reelFolder } from '../../../../scripts/lib/reel-dir.mjs';
 
 const args = process.argv.slice(2);
 const slugIndex = args.indexOf('--slug');
@@ -13,7 +14,7 @@ if (slugIndex === -1 || !args[slugIndex + 1]) {
 
 const slug = args[slugIndex + 1];
 const projectDir = process.cwd();
-const reelDir = resolve(projectDir, 'output', 'reels', slug);
+const reelDir = resolve(projectDir, 'output', 'reels', reelFolder(slug));
 const manifestPath = resolve(reelDir, 'continuity-manifest.json');
 if (!existsSync(manifestPath)) {
   console.error(`FAIL: missing ${manifestPath}`);

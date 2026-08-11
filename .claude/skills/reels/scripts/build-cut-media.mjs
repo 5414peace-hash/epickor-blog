@@ -1,3 +1,4 @@
+import { reelFolder } from '../../../../scripts/lib/reel-dir.mjs';
 /**
  * Build 1080x1920 media for the batch.
  *
@@ -22,7 +23,7 @@ const HANDLE = 45;
 const W = 1080, H = 1920;
 
 const slug = process.argv[2];
-const plan = JSON.parse(fs.readFileSync(`output/reels/${slug}/cut-plan-v01.json`, 'utf8'));
+const plan = JSON.parse(fs.readFileSync(`output/reels/${reelFolder(slug)}/cut-plan-v01.json`, 'utf8'));
 const outDir = path.join('public', 'assets', 'reels', slug, 'media');
 fs.mkdirSync(outDir, { recursive: true });
 
@@ -160,4 +161,4 @@ for (const cut of plan) {
   console.log(`cut ${String(cut.n).padStart(2)} ${last.kind.padEnd(5)} ${String(last.src).padEnd(38)} ${last.seconds}s ${kb}KB${last.upscale ? `  upscale ${last.upscale}x` : ''}`);
 }
 
-fs.writeFileSync(`output/reels/${slug}/media-report.json`, `${JSON.stringify(report, null, 1)}\n`);
+fs.writeFileSync(`output/reels/${reelFolder(slug)}/media-report.json`, `${JSON.stringify(report, null, 1)}\n`);

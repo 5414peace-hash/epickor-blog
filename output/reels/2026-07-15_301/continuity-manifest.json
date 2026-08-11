@@ -1,0 +1,21 @@
+{
+  "compositionFps": 30,
+  "captionExclusionTop": 1400,
+  "minimumCaptionGap": 60,
+  "media": [
+    { "scene": "S1", "source": "video/market-36718309.mp4", "trimBefore": 0, "requiredFrames": 125, "mode": "single" },
+    { "scene": "S2A", "source": "video/street-34676736.mp4", "trimBefore": 35, "requiredFrames": 90, "mode": "single_crossfade" },
+    { "scene": "S3", "source": "video/market-city-37203915.mp4", "trimBefore": 10, "requiredFrames": 150, "mode": "single" },
+    { "scene": "S4A", "source": "video/myeongdong-37362904.mp4", "trimBefore": 15, "requiredFrames": 126, "mode": "single_crossfade" },
+    { "scene": "S5", "source": "video/vendor-20672042-pingpong.mp4", "trimBefore": 0, "requiredFrames": 300, "mode": "pingpong_proxy" },
+    { "scene": "S6A", "source": "video/market-exterior-37814437.mp4", "trimBefore": 0, "requiredFrames": 100, "mode": "single_crossfade" },
+    { "scene": "S7", "source": "video/alley-32214387.mp4", "trimBefore": 75, "requiredFrames": 150, "mode": "single" }
+  ],
+  "textBlocks": [
+    { "scene": "S5", "id": "motion-card", "maxBottom": 1320 },
+    { "scene": "S7", "id": "decision-ons", "maxBottom": 1280 }
+  ],
+  "textPlans": [
+    { "scene": "S7", "id": "before-use", "lines": ["BEFORE YOU USE IT"] }
+  ]
+}

@@ -21,9 +21,9 @@
  *   E LOCALS KNOW THE REST  insider knowledge
  *   F WE WROTE IT ALL DOWN  reassurance
  */
-import cheonggyecheonManifest from '../output/reels/cheonggyecheon/render-manifest.json';
-import sungnyemunManifest from '../output/reels/sungnyemun/render-manifest.json';
-import suneungManifest from '../output/reels/suneung/render-manifest.json';
+import cheonggyecheonManifest from '../output/reels/2026-08-11_cheonggyecheon/render-manifest.json';
+import sungnyemunManifest from '../output/reels/2026-08-11_sungnyemun/render-manifest.json';
+import suneungManifest from '../output/reels/2026-08-11_suneung/render-manifest.json';
 import { ReelExcavation, ReelHold, ReelRecord, type Manifest } from './Batch0811Kit';
 
 /* ------------------------------------------------------ D cheonggyecheon */

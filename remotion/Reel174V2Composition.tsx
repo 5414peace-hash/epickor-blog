@@ -13,8 +13,8 @@
  * representative as the honest ceiling for this topic). Total 1214f = 40.5s.
  */
 import { AbsoluteFill, Audio, interpolate, staticFile, useCurrentFrame } from 'remotion';
-import timings from '../output/reels/174/caption-timings-v02.json';
-import props from '../output/reels/174/remotion-props-v01.json';
+import timings from '../output/reels/2026-05-19_174/caption-timings-v02.json';
+import props from '../output/reels/2026-05-19_174/remotion-props-v01.json';
 import {
   Captions, Cut, Ons, Outro, StillCut, VideoCut, VoiceTrack, Watermark,
   social, type CaptionBeat,
