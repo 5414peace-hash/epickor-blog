@@ -1,10 +1,10 @@
 {
   "summary": {
-    "generatedAt": "2026-08-12T01:48:47.348Z",
-    "auditedPosts": 369,
+    "generatedAt": "2026-08-12T02:20:15.408Z",
+    "auditedPosts": 370,
     "includedPrivate": false,
     "slugFilter": "",
-    "bodyImages": 1336,
+    "bodyImages": 1339,
     "affectedPosts": 99,
     "critical": 0,
     "high": 0,
@@ -13822,6 +13822,38 @@
           "url": "/assets/images/posts/378/han-river-path-after-fireworks.jpg",
           "alt": "A dense crowd of people and cyclists filling a narrow riverside path under a bridge at night after the fireworks festival, moving slowly in one direction.",
           "caption": "The riverside path immediately after a Seoul fireworks festival. This is the part of the night to plan for. Photo: Yt1646, Wikimedia Commons (CC BY-SA 3.0).",
+          "ext": ".jpg",
+          "exists": true
+        }
+      ],
+      "findings": []
+    },
+    {
+      "type": "blog",
+      "slug": "379",
+      "title": "Busan Fireworks Festival 2026: Korea's Other Fireworks Night, and Why Tickets Vanish in a Minute",
+      "contentPath": "content\\blog\\379.md",
+      "sourceRecord": "public\\assets\\images\\posts\\379\\image-sources.md",
+      "imageCount": 3,
+      "images": [
+        {
+          "url": "/assets/images/posts/379/busan-fireworks-gwangan-bridge.jpg",
+          "alt": "Fireworks bursting in green and red along the full span of the Gwangan Bridge in Busan, with cascades falling from the bridge deck into the water, seen over a dense crowd of silhouetted heads and raised cameras.",
+          "caption": "Look at where the fireworks are coming from. The Gwangan Bridge is not the backdrop — the deck itself is a launch platform, and the cascades fall from the span into the water. Photo: RedMosQ, Wikimedia Commons (public domain).",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/379/gwangalli-beach-bridge-sightline.jpg",
+          "alt": "Gwangalli Beach in daylight, with waves in the foreground and the full white span of Gwangan Bridge directly ahead across the bay.",
+          "caption": "The sightline from the Gwangalli sand — the bridge sits dead ahead across the water. This is the view the paid seats are buying, and most of the beach has it too. Photo: Masterhatch, Wikimedia Commons (CC BY-SA 4.0).",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/379/gwangan-bridge-from-igidae.jpg",
+          "alt": "The full span of Gwangan Bridge seen from Igidae Park across the bay, with the Gwangalli and Haeundae skyline and a mountain ridge behind it.",
+          "caption": "The Igidae angle in daylight, so the geometry is readable: the entire bridge broadside, city behind. At night, with the bridge firing, this is the frame most of the famous photographs come from. Photo: The Big Cat, Wikimedia Commons (CC BY 2.0).",
           "ext": ".jpg",
           "exists": true
         }
