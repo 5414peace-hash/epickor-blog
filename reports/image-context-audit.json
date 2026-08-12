@@ -1,6 +1,6 @@
 {
   "summary": {
-    "generatedAt": "2026-08-12T03:36:33.527Z",
+    "generatedAt": "2026-08-12T07:09:40.634Z",
     "auditedPosts": 370,
     "includedPrivate": false,
     "slugFilter": "",
@@ -11172,36 +11172,36 @@
     {
       "type": "blog",
       "slug": "302",
-      "title": "What Do Koreans Eat for Breakfast? 12 Real Korean Morning Meals",
+      "title": "What Do Koreans Eat for Breakfast? 12 Real Meals, and Why a Third Skip It",
       "contentPath": "content\\blog\\302.md",
       "sourceRecord": "public\\assets\\images\\posts\\302\\image-sources.md",
       "imageCount": 4,
       "images": [
         {
           "url": "/assets/images/posts/302/korean-rice-soup-banchan.jpg",
-          "alt": "A Korean meal with rice, soup, and several banchan side dishes.",
-          "caption": "Rice, soup or stew, and banchan can form a familiar Korean morning meal, although modern breakfasts vary widely by household and schedule. Photo by Cynthia Ortega Espinosa on Pexels.",
+          "alt": "A Korean meal laid out on a wooden table: a bowl of white rice, an earthenware pot of doenjang stew with tofu and spring onion, and a long white plate holding three side dishes — braised dried radish, seasoned bean sprouts, and dressed cucumber.",
+          "caption": "The pattern, not the ceremony: rice, one hot pot, and three small side dishes. Note that the pot here is a jjigae — a thicker stew — rather than a clear guk. Both count. Photo by Cynthia Ortega Espinosa on Pexels.",
           "ext": ".jpg",
           "exists": true
         },
         {
-          "url": "/assets/images/posts/302/rice-porridge.jpg",
-          "alt": "A close view of warm rice porridge with scallions.",
-          "caption": "Juk is a gentle Korean breakfast choice when a full rice-and-soup table feels too heavy. Photo by FOX on Pexels.",
+          "url": "/assets/images/posts/302/jeonbokjuk-abalone-porridge.jpg",
+          "alt": "A white bowl of Korean abalone porridge, greenish from the abalone, with sliced abalone on top, served on a wooden table alongside kimchi, seaweed, water kimchi with a cucumber slice, and stainless steel dishes.",
+          "caption": "전복죽. The green tint is not seasoning — it comes from the abalone's own viscera, stirred through, and it is how you tell a properly made bowl from a plain rice porridge with abalone dropped on top. Photo: Wikimedia Commons (CC BY-SA 2.0).",
           "ext": ".jpg",
           "exists": true
         },
         {
           "url": "/assets/images/posts/302/gilgeori-toast.jpg",
-          "alt": "A Korean gilgeori-style toast sandwich wrapped for eating on the go.",
-          "caption": "Gilgeori toast combines bread, egg, cabbage, and sweet-savory sauces in a portable format. Photo Korea image by Alexbundo via VISITKOREA.",
+          "alt": "A toasted sandwich in foil held in one hand, showing egg, ham and a stripe of ketchup between two golden slices of bread, with a second one on a tray behind.",
+          "caption": "Served in foil so you can eat it walking. The ketchup stripe is standard, and there is sugar under it. Photo Korea image by Alexbundo via VISITKOREA.",
           "ext": ".jpg",
           "exists": true
         },
         {
           "url": "/assets/images/posts/302/kimchi-fried-rice.jpg",
           "alt": "Kimchi fried rice topped with a sunny-side-up egg.",
-          "caption": "Kimchi fried rice shows the practical side of Korean breakfast: leftover rice and kimchi can become a fast, satisfying morning meal. Photo by Nadin Sh on Pexels.",
+          "caption": "The practical side of Korean breakfast: leftover rice, kimchi, one egg. Photo by Nadin Sh on Pexels.",
           "ext": ".jpg",
           "exists": true
         }

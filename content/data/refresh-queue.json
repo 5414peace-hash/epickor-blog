@@ -49,8 +49,8 @@
       "slug": "302",
       "title": "What Do Koreans Eat for Breakfast? 12 Real Korean Morning Meals",
       "tier": 3,
-      "refreshedOn": null,
-      "specApplied": false,
+      "refreshedOn": "2026-08-12",
+      "specApplied": true,
       "gaps": {
         "won": 0,
         "hangul": 14,
@@ -63,8 +63,8 @@
         "ctr": "0.15%",
         "position": 14.16
       },
-      "status": "pending",
-      "note": null
+      "status": "done",
+      "note": "가격 0건 → ₩ 32회(참가격 서울 평균: 김밥 3,800 / 김치찌개백반 8,654 / 칼국수 10,038 첫 1만원 돌파 + 본죽 8,000~18,900 + 이삭토스트 세트 8,700~9,500, August 2026). 한글 14자 → 158자. 한국어 출처 사실: 국민건강영양조사 결식률(남 35.2% 여 32.8%, 20대 최고) + 제9기 식생활평가지수(2026-08-04 발표, 20대 50.3 최하위 / 70대+ 66.1) — 이게 글의 새 축이 됐다. 실물 디테일: 백반·국밥·김밥천국·본죽 등 실제 카테고리와 한국어 검색어. 정직한 반대정보: 독자가 상상하는 전통 밥상을 정작 젊은 한국인은 안 먹는다. CTA 3개 → 2개. 죽 사진을 중화권 콘지 느낌 스톡 → Commons 전복죽(김치·김·동치미 동반)으로 교체."
     },
     {
       "slug": "186",
