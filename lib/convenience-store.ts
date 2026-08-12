@@ -271,8 +271,15 @@ export const GUIDE_GROUPS: GuideGroup[] = [
   },
   {
     heading: 'The small bottles',
-    intro: 'The two brown bottles beside the till, and why one of them is legally a drug.',
+    intro: 'The shelf beside the till: why one bottle is legally a drug, and what the hangover products have to prove before they can say so.',
     guides: [
+      {
+        slug: '377',
+        title: 'Hangover drinks, and what Korea made them prove',
+        blurb: 'Taken before drinking, not after. Since 2025 the claim needs human trial evidence, and three products lost the right to make it.',
+        image: '/assets/images/posts/377/condition-sticks-human-trial-badge.jpg',
+        imageAlt: 'Korean Condition hangover sticks with the human-trial badge printed on each sachet.',
+      },
       {
         slug: '344',
         title: 'Bacchus D vs F',
