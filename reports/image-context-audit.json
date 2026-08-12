@@ -1,15 +1,15 @@
 {
   "summary": {
-    "generatedAt": "2026-08-12T07:39:36.832Z",
+    "generatedAt": "2026-08-12T08:31:19.289Z",
     "auditedPosts": 370,
     "includedPrivate": false,
     "slugFilter": "",
     "bodyImages": 1339,
-    "affectedPosts": 99,
+    "affectedPosts": 98,
     "critical": 0,
     "high": 0,
     "medium": 1,
-    "info": 98
+    "info": 97
   },
   "findings": [
     {
@@ -611,14 +611,6 @@
       "severity": "info",
       "code": "MISSING_SOURCE_RECORD",
       "detail": "public\\assets\\images\\posts\\177\\image-sources.md"
-    },
-    {
-      "type": "blog",
-      "slug": "179",
-      "title": "Korean Drinking Culture: Soju, Makgeolli, and Anju",
-      "severity": "info",
-      "code": "MISSING_SOURCE_RECORD",
-      "detail": "public\\assets\\images\\posts\\179\\image-sources.md"
     },
     {
       "type": "blog",
@@ -6555,40 +6547,34 @@
     {
       "type": "blog",
       "slug": "179",
-      "title": "Korean Drinking Culture: Soju, Makgeolli, and Anju",
+      "title": "Soju, Makgeolli, and Anju: How a Korean Drinking Table Works",
       "contentPath": "content\\blog\\179.md",
-      "sourceRecord": "",
+      "sourceRecord": "public\\assets\\images\\posts\\179\\image-sources.md",
       "imageCount": 3,
       "images": [
         {
           "url": "/assets/images/posts/179/pexels-6919669.jpg",
-          "alt": "Friends clinking small soju glasses at a Korean drinking table.",
-          "caption": "Soju is the drink most visitors notice first, but the social table matters more than the bottle. Photo by Mizzu Cho on Pexels.",
+          "alt": "Four hands clinking small soju glasses over a Korean table, with green soju bottles and a dish of braised food in the background.",
+          "caption": "The glasses are small for a reason — they are refilled by other people, not by you. Photo by Mizzu Cho on Pexels.",
           "ext": ".jpg",
           "exists": true
         },
         {
           "url": "/assets/images/posts/179/pexels-12913663.jpg",
-          "alt": "Korean pajeon served with dipping sauce at a casual restaurant table.",
-          "caption": "Pajeon is one of the classic anju foods that makes makgeolli nights feel slower and more table-centered. Photo by FOX on Pexels.",
+          "alt": "A large seafood pajeon on a steel plate at a Korean pub table, with a soy-vinegar dipping sauce, a divided steel dish of red sauce and garlic, and a built-in grill beside it.",
+          "caption": "해물파전 with 초간장, the soy-vinegar dip that comes with it. Pajeon is the classic makgeolli partner, but as the grill plate here shows, it turns up wherever the table needs something shared and hot. Photo by FOX on Pexels.",
           "ext": ".jpg",
           "exists": true
         },
         {
           "url": "/assets/images/posts/179/pexels-37014613.jpg",
-          "alt": "Korean fried chicken served with soju bottles on a dark table.",
-          "caption": "Fried chicken and soju show the casual anju side of Korean drinking culture: food first, drinks around it. Photo by John Benedict Malong on Pexels.",
+          "alt": "Korean fried chicken glazed in soy-garlic sauce on parchment, with two green bottles of grapefruit-flavoured soju, garlic, lemon and red chillies behind it.",
+          "caption": "Note the bottles: these are 과일소주, flavoured soju, at 13–14% rather than the plain 15.7%. With fried chicken, this is the combination most first-timers actually enjoy. Photo by John Benedict Malong on Pexels.",
           "ext": ".jpg",
           "exists": true
         }
       ],
-      "findings": [
-        {
-          "severity": "info",
-          "code": "MISSING_SOURCE_RECORD",
-          "detail": "public\\assets\\images\\posts\\179\\image-sources.md"
-        }
-      ]
+      "findings": []
     },
     {
       "type": "blog",
