@@ -53,6 +53,8 @@ debug.log
 # it deletes it.
 !/output/strategy/cluster-baseline_*.json
 !/output/strategy/cluster-baseline_*.md
+!/output/strategy/refresh-baseline.json
+!/output/strategy/refresh-baseline.md
 # The GSC exports the baselines are computed from. 513KB for the full set, and
 # without them no future session can re-derive or audit a baseline number.
 !/output/gsc/

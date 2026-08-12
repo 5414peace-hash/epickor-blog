@@ -61,12 +61,14 @@
  *   node scripts/cluster-baseline.mjs --judge            # compare latest extract to it
  */
 
-import { readFileSync, writeFileSync, readdirSync, existsSync, mkdirSync } from 'fs';
+import { readFileSync, writeFileSync, existsSync, mkdirSync } from 'fs';
 import { join, dirname } from 'path';
-import { fileURLToPath } from 'url';
+import {
+  ROOT, POSTS, publishedAt, allSlugs,
+  latestExtract, extractDate, windowOf, pageStats,
+  matchControls, sum, noiseFloor,
+} from './lib/cohort-baseline.mjs';
 
-const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..');
-const GSC_DIR = join(ROOT, 'output', 'gsc');
 const OUT = join(ROOT, 'output', 'strategy', 'cluster-baseline_convenience-store.json');
 
 const args = process.argv.slice(2);
@@ -85,125 +87,6 @@ function clusterSlugs() {
   const found = [...block.matchAll(/slug:\s*'(\d+)'/g)].map((m) => m[1]);
   return [...new Set(found)];
 }
-
-/* ─────────── GSC extract reading ─────────── */
-function latestExtract() {
-  const dirs = readdirSync(GSC_DIR)
-    .filter((d) => d.includes('Performance-on-Search'))
-    .sort();
-  if (!dirs.length) throw new Error('no GSC extract under output/gsc/');
-  return join(GSC_DIR, dirs[dirs.length - 1]);
-}
-
-function extractDate(dir) {
-  return dir.match(/(\d{4}-\d{2}-\d{2})$/)?.[1] ?? 'unknown';
-}
-
-/** The chart CSV carries the actual covered range, which the folder name does not. */
-function windowOf(dir) {
-  const rows = readFileSync(join(dir, '차트.csv'), 'utf8').trim().split(/\r?\n/).slice(1);
-  const days = rows.map((r) => r.split(',')[0]).filter(Boolean);
-  return { from: days[0], to: days[days.length - 1], days: days.length };
-}
-
-/** slug -> {clicks, impressions, ctr, position} for every /blog/{n} page. */
-function pageStats(dir) {
-  const rows = readFileSync(join(dir, '페이지.csv'), 'utf8').trim().split(/\r?\n/).slice(1);
-  const out = new Map();
-  for (const row of rows) {
-    const [url, clicks, impressions, ctr, position] = row.split(',');
-    const m = url?.match(/\/blog\/(\d+)\/?$/);
-    if (!m) continue;
-    out.set(m[1], {
-      clicks: Number(clicks) || 0,
-      impressions: Number(impressions) || 0,
-      ctr,
-      position: Number(position) || 0,
-    });
-  }
-  return out;
-}
-
-/* Filenames come in two shapes: `171.md` and
-   `059-discover-the-tastiest-picks-at-korean-convenience-stores-....md`.
-   Only the `slug:` frontmatter field is authoritative — GSC URLs are /blog/059,
-   not /blog/059-discover-.... Building the index off filenames alone silently
-   reported six of the oldest convenience-store posts as brand new. */
-const POSTS = (() => {
-  const dir = join(ROOT, 'content', 'blog');
-  const index = new Map();
-  for (const file of readdirSync(dir).filter((f) => f.endsWith('.md'))) {
-    const text = readFileSync(join(dir, file), 'utf8');
-    // Frontmatter uses both quote styles: slug: "171" and slug: '003'.
-    const slug = text.match(/^slug:\s*['"]?([^'"\n]+)['"]?/m)?.[1]?.trim()
-      ?? file.match(/^(\d+)/)?.[1];
-    if (!slug) continue;
-    index.set(slug, {
-      file,
-      date: text.match(/^date:\s*"?(\d{4}-\d{2}-\d{2})/m)?.[1] ?? null,
-      visibility: text.match(/^visibility:\s*"?(\w+)/m)?.[1] ?? 'public',
-    });
-  }
-  return index;
-})();
-
-/** Every published post slug, so posts with zero GSC rows still count as zero. */
-function allSlugs() {
-  return [...POSTS.entries()].filter(([, p]) => p.visibility === 'public').map(([s]) => s);
-}
-
-/** Published date from frontmatter — used to exclude posts too new to have a baseline. */
-function publishedAt(slug) {
-  return POSTS.get(slug)?.date ?? null;
-}
-
-/* ─────────── matched control ───────────
-   Matched on TWO axes, clicks then publication age, in that priority.
-
-   Age is not a refinement — leaving it out produced a control group that would
-   have manufactured a false positive. Matching on clicks alone paired twelve
-   zero-click cluster posts against the twelve oldest posts on the site (slugs
-   001–019, all July 2024), while ten of those cluster posts had been published
-   in July–August 2026, three of them on 2026-08-04 — one day before the baseline
-   window closed. Brand-new posts climb on indexing alone. Six weeks later that
-   ordinary maturation would have shown up as cluster lift, and we would have
-   "proved" the hypothesis using nothing but the calendar.
-
-   So: nearest click count wins first, and among equally close candidates the one
-   published nearest in time wins. Greedy from the highest baseline down, so the
-   scarce high-click controls get allocated before they are used up. */
-function matchControls(treatment, pool, stats, dateOf) {
-  const clicks = (s) => stats.get(s)?.clicks ?? 0;
-  const day = (s) => (dateOf(s) ? Date.parse(dateOf(s)) / 86400000 : 0);
-  const available = [...pool];
-  const pairs = [];
-
-  for (const t of [...treatment].sort((a, b) => clicks(b) - clicks(a))) {
-    let best = null;
-    let bestScore = [Infinity, Infinity];
-    for (const c of available) {
-      const score = [Math.abs(clicks(c) - clicks(t)), Math.abs(day(c) - day(t))];
-      if (score[0] < bestScore[0] || (score[0] === bestScore[0] && score[1] < bestScore[1])) {
-        bestScore = score;
-        best = c;
-      }
-    }
-    if (!best) continue;
-    available.splice(available.indexOf(best), 1);
-    pairs.push({
-      treatment: t,
-      control: best,
-      treatmentClicks: clicks(t),
-      controlClicks: clicks(best),
-      treatmentDate: dateOf(t),
-      controlDate: dateOf(best),
-      ageGapDays: Math.round(bestScore[1]),
-    });
-  }
-  return pairs;
-}
-
-const sum = (xs) => xs.reduce((a, b) => a + b, 0);
 
 /* ─────────── baseline ─────────── */
 function writeBaseline() {
@@ -347,7 +230,7 @@ function writeBaseline() {
   console.log('  Minimum detectable effect:');
   // A group of N posts summing to C clicks has Poisson-ish noise of about sqrt(C)
   // on each measurement; the difference of two differences stacks four of those.
-  const noise = Math.sqrt(tClicks) * 2;
+  const noise = noiseFloor(tClicks);
   console.log(`    treatment total is ${tClicks}; two-sided noise on a difference-in-differences`);
   console.log(`    is roughly ±${noise.toFixed(0)} clicks. Anything smaller is not a result.`);
   console.log(`    To call it real, treatment must beat control by more than ~${Math.ceil(noise)} clicks.`);
@@ -379,7 +262,7 @@ function judge() {
      Using the full treatment total (dominated by 171) as the yardstick for the
      16-pair subset buries a real effect: in a rehearsal, a +10-click cluster gain
      on a base of 12 was reported "too small to call" against 171's ±17 floor. */
-  const floor = (base_) => Math.sqrt(Math.max(base_, 1)) * 2;
+  const floor = noiseFloor;
 
   console.log(`Baseline window  ${base.source.window.from} → ${base.source.window.to}`);
   console.log(`Current window   ${win.from} → ${win.to}`);

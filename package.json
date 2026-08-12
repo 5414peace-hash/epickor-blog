@@ -37,7 +37,9 @@
     "reels:pool": "node scripts/reels-master-pool.mjs",
     "reels:media": "node .claude/skills/reels/scripts/build-cut-media.mjs",
     "reels:gaps": "node .claude/skills/reels/scripts/predict-narration-gaps.mjs",
-    "reels:trim-lead": "node .claude/skills/reels/scripts/trim-narration-lead.mjs"
+    "reels:trim-lead": "node .claude/skills/reels/scripts/trim-narration-lead.mjs",
+    "refresh:baseline": "node scripts/refresh-baseline.mjs",
+    "refresh:judge": "node scripts/refresh-baseline.mjs --judge"
   },
   "dependencies": {
     "@remotion/cli": "4.0.457",
