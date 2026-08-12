@@ -1,6 +1,6 @@
 {
   "summary": {
-    "generatedAt": "2026-08-12T02:20:15.408Z",
+    "generatedAt": "2026-08-12T03:36:33.527Z",
     "auditedPosts": 370,
     "includedPrivate": false,
     "slugFilter": "",
@@ -5307,36 +5307,36 @@
       "images": [
         {
           "url": "/assets/images/posts/145/145_01.jpg",
-          "alt": "A legacy EpicKor naengmyeon frame comparing cold noodle styles.",
-          "caption": "Naengmyeon looks simple, but the style changes dramatically by broth, sauce, noodle starch, and toppings.",
-          "ext": ".jpg",
-          "exists": true
-        },
-        {
-          "url": "/assets/images/posts/145/mul-naengmyeon-bowl.jpg",
-          "alt": "A bowl of mul-naengmyeon, buckwheat noodles in a clear chilled broth with sliced egg and vegetables.",
-          "caption": "Mul-naengmyeon. The broth is the dish — clear, cold, and deliberately restrained. Photo by lazy fri13th, CC BY 2.0.",
+          "alt": "A steel bowl of Pyongyang-style mul naengmyeon — grey buckwheat noodles being lifted with steel chopsticks from a clear cold broth, topped with sliced beef, boiled egg, cucumber and pear.",
+          "caption": "Mul naengmyeon as it arrives: buckwheat noodles, a clear cold broth, and toppings you are meant to notice one at a time.",
           "ext": ".jpg",
           "exists": true
         },
         {
           "url": "/assets/images/posts/145/145_02.jpg",
-          "alt": "A legacy EpicKor frame showing a spicy naengmyeon style.",
-          "caption": "Spicy mixed styles are easier for many first-timers because the flavor arrives immediately.",
+          "alt": "Three cold-noodle bowls photographed from above on a wood table: a clear-broth mul naengmyeon, a bright red spicy bowl, and a dark-broth buckwheat bowl with seaweed and cucumber.",
+          "caption": "Three bowls, three different dishes. The category is wider than the Pyongyang-versus-Hamheung argument suggests.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/145/145_03.jpg",
+          "alt": "A steel bowl of Pyongyang-style mul naengmyeon: a coil of greyish buckwheat noodles in a pale clear broth, with a slice of cold beef, half a boiled egg, cucumber and pear, and two small side dishes behind.",
+          "caption": "This is what the argument is about. Grey buckwheat noodles, a broth you can see the bottom of, and almost nothing shouting — light, faintly nutty, and either a revelation or a disappointment depending on what you walked in expecting.",
           "ext": ".jpg",
           "exists": true
         },
         {
           "url": "/assets/images/posts/145/naengmyeon-served.jpg",
           "alt": "Naengmyeon served at a Korean restaurant table with garnishes and condiments.",
-          "caption": "How it arrives at the table. Taste the broth before you reach for the vinegar or mustard. Photo by chomjong, CC BY 2.0.",
+          "caption": "How it arrives. Taste the broth before you reach for the vinegar or mustard. Photo by chomjong, CC BY 2.0.",
           "ext": ".jpg",
           "exists": true
         },
         {
-          "url": "/assets/images/posts/145/145_03.jpg",
-          "alt": "A legacy EpicKor frame about seasoning cold noodles.",
-          "caption": "Vinegar and mustard are useful, but the first sip should be the restaurant's version, not your edited version.",
+          "url": "/assets/images/posts/145/mul-naengmyeon-bowl.jpg",
+          "alt": "A ceramic bowl of broth-style cold noodles in a clear chilled broth, topped with shredded egg garnish, sliced cold beef, cucumber, and a slice of radish.",
+          "caption": "A mul naengmyeon as served, with shredded egg garnish (지단), cold beef and cucumber. Presentation varies far more between shops than the two-style argument suggests. Photo by lazy fri13th, CC BY 2.0.",
           "ext": ".jpg",
           "exists": true
         }

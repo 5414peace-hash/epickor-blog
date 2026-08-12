@@ -1,639 +1,639 @@
 {
- "generatedAt": "2026-08-09",
- "generator": "scripts/build-refresh-queue.mjs",
- "rule": "CLAUDE.md 실행계획 챕터 1 — 하루 리듬 \"신규 2편 + 리프레시 1편\". 순서: tier 1 → 2 → 3, 각 tier 안에서는 GSC 노출 내림차순 (이 큐 전체의 클릭 최대값이 7이라 클릭은 정렬 신호가 되지 못한다).",
- "gate": "스펙 적용 전에 \"이 글이 아직 사실인가\"를 먼저 검사한다 (CLAUDE.md 2026-08-04 신설). 4회 연속 그쪽이 더 값어치 있었다.",
- "gscSource": "output\\gsc\\https___www.epickor.com_-Performance-on-Search-2026-08-07\\페이지.csv (2026-08-07)",
- "tiers": {
-  "1": "제품·브랜드 이름이 나오는 글 — 스펙 v1이 그대로 적용된다",
-  "2": "장소·행동 글 — 스펙이 가격·영업시간·출구번호로 착지한다",
-  "3": "음식이 나오지만 실은 문화 설명글 — 스펙이 잘 맞지 않아 후순위"
- },
- "excluded": {
-  "260": "home appliance (rice cookers), not a food product",
-  "261": "semiconductors — matched on \"chip\" in \"AI Chips\"",
-  "265": "semiconductors — matched on \"chip\"",
-  "287": "home appliance (grills), not a food product"
- },
- "counts": {
-  "pending": 31,
-  "tier1": 0,
-  "tier2": 0,
-  "tier3": 31,
-  "alreadyRefreshed": 33,
-  "excluded": 4
- },
- "queue": [
-  {
-   "slug": "145",
-   "title": "Pyongyang vs Hamheung Naengmyeon: Which Korean Cold Noodle to Order",
-   "tier": 3,
-   "refreshedOn": null,
-   "specApplied": false,
-   "gaps": {
-    "won": 0,
-    "hangul": 5,
-    "yearInTitle": false,
-    "words": 2151
-   },
-   "gsc": {
-    "clicks": 2,
-    "impressions": 1046,
-    "ctr": "0.19%",
-    "position": 10.53
-   },
-   "status": "pending",
-   "note": null
+  "generatedAt": "2026-08-09",
+  "generator": "scripts/build-refresh-queue.mjs",
+  "rule": "CLAUDE.md 실행계획 챕터 1 — 하루 리듬 \"신규 2편 + 리프레시 1편\". 순서: tier 1 → 2 → 3, 각 tier 안에서는 GSC 노출 내림차순 (이 큐 전체의 클릭 최대값이 7이라 클릭은 정렬 신호가 되지 못한다).",
+  "gate": "스펙 적용 전에 \"이 글이 아직 사실인가\"를 먼저 검사한다 (CLAUDE.md 2026-08-04 신설). 4회 연속 그쪽이 더 값어치 있었다.",
+  "gscSource": "output\\gsc\\https___www.epickor.com_-Performance-on-Search-2026-08-07\\페이지.csv (2026-08-07)",
+  "tiers": {
+    "1": "제품·브랜드 이름이 나오는 글 — 스펙 v1이 그대로 적용된다",
+    "2": "장소·행동 글 — 스펙이 가격·영업시간·출구번호로 착지한다",
+    "3": "음식이 나오지만 실은 문화 설명글 — 스펙이 잘 맞지 않아 후순위"
   },
-  {
-   "slug": "302",
-   "title": "What Do Koreans Eat for Breakfast? 12 Real Korean Morning Meals",
-   "tier": 3,
-   "refreshedOn": null,
-   "specApplied": false,
-   "gaps": {
-    "won": 0,
-    "hangul": 14,
-    "yearInTitle": false,
-    "words": 2823
-   },
-   "gsc": {
-    "clicks": 1,
-    "impressions": 683,
-    "ctr": "0.15%",
-    "position": 14.16
-   },
-   "status": "pending",
-   "note": null
+  "excluded": {
+    "260": "home appliance (rice cookers), not a food product",
+    "261": "semiconductors — matched on \"chip\" in \"AI Chips\"",
+    "265": "semiconductors — matched on \"chip\"",
+    "287": "home appliance (grills), not a food product"
   },
-  {
-   "slug": "186",
-   "title": "Eating Alone in Korea: The Honbap and Honsul Culture Rising",
-   "tier": 3,
-   "refreshedOn": null,
-   "specApplied": false,
-   "gaps": {
-    "won": 0,
-    "hangul": 0,
-    "yearInTitle": false,
-    "words": 3070
-   },
-   "gsc": {
-    "clicks": 2,
-    "impressions": 598,
-    "ctr": "0.33%",
-    "position": 10.45
-   },
-   "status": "pending",
-   "note": null
+  "counts": {
+    "pending": 31,
+    "tier1": 0,
+    "tier2": 0,
+    "tier3": 31,
+    "alreadyRefreshed": 33,
+    "excluded": 4
   },
-  {
-   "slug": "179",
-   "title": "Korean Drinking Culture: Soju, Makgeolli, and Anju",
-   "tier": 3,
-   "refreshedOn": null,
-   "specApplied": false,
-   "gaps": {
-    "won": 0,
-    "hangul": 0,
-    "yearInTitle": false,
-    "words": 2425
-   },
-   "gsc": {
-    "clicks": 1,
-    "impressions": 546,
-    "ctr": "0.18%",
-    "position": 17.12
-   },
-   "status": "pending",
-   "note": null
-  },
-  {
-   "slug": "215",
-   "title": "Korean Ingredient Label Guide: Allergens, Pork, Gelatin",
-   "tier": 3,
-   "refreshedOn": null,
-   "specApplied": false,
-   "gaps": {
-    "won": 0,
-    "hangul": 60,
-    "yearInTitle": false,
-    "words": 2290
-   },
-   "gsc": {
-    "clicks": 8,
-    "impressions": 524,
-    "ctr": "1.53%",
-    "position": 9.9
-   },
-   "status": "pending",
-   "note": null
-  },
-  {
-   "slug": "130",
-   "title": "Korean Drinking Culture: Hoesik, Choice and Safety",
-   "tier": 3,
-   "refreshedOn": null,
-   "specApplied": false,
-   "gaps": {
-    "won": 0,
-    "hangul": 10,
-    "yearInTitle": false,
-    "words": 2298
-   },
-   "gsc": {
-    "clicks": 8,
-    "impressions": 443,
-    "ctr": "1.81%",
-    "position": 8.46
-   },
-   "status": "pending",
-   "note": null
-  },
-  {
-   "slug": "065",
-   "title": "Korean Rainy Day Food: Pajeon, Makgeolli, Noodles, and Soups",
-   "tier": 3,
-   "refreshedOn": null,
-   "specApplied": false,
-   "gaps": {
-    "won": 0,
-    "hangul": 0,
-    "yearInTitle": false,
-    "words": 2111
-   },
-   "gsc": {
-    "clicks": 2,
-    "impressions": 408,
-    "ctr": "0.49%",
-    "position": 8.17
-   },
-   "status": "pending",
-   "note": null
-  },
-  {
-   "slug": "050",
-   "title": "Korean Banchan Guide: Side Dishes, Kimchi, and Table Rules",
-   "tier": 3,
-   "refreshedOn": null,
-   "specApplied": false,
-   "gaps": {
-    "won": 0,
-    "hangul": 0,
-    "yearInTitle": false,
-    "words": 2077
-   },
-   "gsc": {
-    "clicks": 3,
-    "impressions": 321,
-    "ctr": "0.93%",
-    "position": 27.87
-   },
-   "status": "pending",
-   "note": null
-  },
-  {
-   "slug": "214",
-   "title": "Korea Reservation Culture: Why Seoul Walk-Ins Fail",
-   "tier": 3,
-   "refreshedOn": null,
-   "specApplied": false,
-   "gaps": {
-    "won": 0,
-    "hangul": 0,
-    "yearInTitle": false,
-    "words": 2286
-   },
-   "gsc": {
-    "clicks": 3,
-    "impressions": 320,
-    "ctr": "0.94%",
-    "position": 8.33
-   },
-   "status": "pending",
-   "note": null
-  },
-  {
-   "slug": "326",
-   "title": "Korean Spice Levels Explained: How Hot Is Korean Food Really?",
-   "tier": 3,
-   "refreshedOn": null,
-   "specApplied": false,
-   "gaps": {
-    "won": 0,
-    "hangul": 6,
-    "yearInTitle": false,
-    "words": 2184
-   },
-   "gsc": {
-    "clicks": 0,
-    "impressions": 257,
-    "ctr": "0%",
-    "position": 8.91
-   },
-   "status": "pending",
-   "note": null
-  },
-  {
-   "slug": "060",
-   "title": "Korea Drinks Guide: Makgeolli, Somaek, Beer, and More",
-   "tier": 3,
-   "refreshedOn": null,
-   "specApplied": false,
-   "gaps": {
-    "won": 0,
-    "hangul": 0,
-    "yearInTitle": false,
-    "words": 2059
-   },
-   "gsc": {
-    "clicks": 2,
-    "impressions": 249,
-    "ctr": "0.8%",
-    "position": 21.52
-   },
-   "status": "pending",
-   "note": null
-  },
-  {
-   "slug": "046",
-   "title": "Free Side Dishes in Korea: Banchan, Service, and Refills",
-   "tier": 3,
-   "refreshedOn": null,
-   "specApplied": false,
-   "gaps": {
-    "won": 0,
-    "hangul": 0,
-    "yearInTitle": false,
-    "words": 2124
-   },
-   "gsc": {
-    "clicks": 0,
-    "impressions": 212,
-    "ctr": "0%",
-    "position": 12.66
-   },
-   "status": "pending",
-   "note": null
-  },
-  {
-   "slug": "021",
-   "title": "Miyeokguk Guide: Why Koreans Eat Seaweed Soup on Birthdays",
-   "tier": 3,
-   "refreshedOn": null,
-   "specApplied": false,
-   "gaps": {
-    "won": 0,
-    "hangul": 0,
-    "yearInTitle": false,
-    "words": 1895
-   },
-   "gsc": {
-    "clicks": 1,
-    "impressions": 209,
-    "ctr": "0.48%",
-    "position": 24.61
-   },
-   "status": "pending",
-   "note": null
-  },
-  {
-   "slug": "297",
-   "title": "Korean Traditional Desserts Guide 2026: Tteok and Yakgwa",
-   "tier": 3,
-   "refreshedOn": null,
-   "specApplied": false,
-   "gaps": {
-    "won": 0,
-    "hangul": 1,
-    "yearInTitle": true,
-    "words": 2146
-   },
-   "gsc": {
-    "clicks": 1,
-    "impressions": 166,
-    "ctr": "0.6%",
-    "position": 9.51
-   },
-   "status": "pending",
-   "note": null
-  },
-  {
-   "slug": "295",
-   "title": "Korean Temple Food Guide 2026: Vegan Limits and Temples",
-   "tier": 3,
-   "refreshedOn": null,
-   "specApplied": false,
-   "gaps": {
-    "won": 0,
-    "hangul": 0,
-    "yearInTitle": true,
-    "words": 2108
-   },
-   "gsc": {
-    "clicks": 3,
-    "impressions": 101,
-    "ctr": "2.97%",
-    "position": 12.76
-   },
-   "status": "pending",
-   "note": null
-  },
-  {
-   "slug": "266",
-   "title": "Korean BBQ Ssam Guide 2026: Lettuce, Perilla, Ssamjang, Garlic",
-   "tier": 3,
-   "refreshedOn": null,
-   "specApplied": false,
-   "gaps": {
-    "won": 0,
-    "hangul": 0,
-    "yearInTitle": true,
-    "words": 2374
-   },
-   "gsc": {
-    "clicks": 0,
-    "impressions": 100,
-    "ctr": "0%",
-    "position": 14.6
-   },
-   "status": "pending",
-   "note": null
-  },
-  {
-   "slug": "034",
-   "title": "San-nakji Guide: Korean Live Octopus, Safety, and Etiquette",
-   "tier": 3,
-   "refreshedOn": null,
-   "specApplied": false,
-   "gaps": {
-    "won": 0,
-    "hangul": 0,
-    "yearInTitle": false,
-    "words": 1974
-   },
-   "gsc": {
-    "clicks": 2,
-    "impressions": 73,
-    "ctr": "2.74%",
-    "position": 23.55
-   },
-   "status": "pending",
-   "note": null
-  },
-  {
-   "slug": "350",
-   "title": "Wild Camping in Korea: Why You Can't, and Where to Sleep Instead",
-   "tier": 3,
-   "refreshedOn": null,
-   "specApplied": false,
-   "gaps": {
-    "won": 0,
-    "hangul": 19,
-    "yearInTitle": false,
-    "words": 2655
-   },
-   "gsc": {
-    "clicks": 1,
-    "impressions": 67,
-    "ctr": "1.49%",
-    "position": 6.54
-   },
-   "status": "pending",
-   "note": null
-  },
-  {
-   "slug": "246",
-   "title": "Korean Kiosk Panic Guide: How To Order Food In Seoul",
-   "tier": 3,
-   "refreshedOn": null,
-   "specApplied": false,
-   "gaps": {
-    "won": 0,
-    "hangul": 7,
-    "yearInTitle": false,
-    "words": 2133
-   },
-   "gsc": {
-    "clicks": 1,
-    "impressions": 66,
-    "ctr": "1.52%",
-    "position": 8.33
-   },
-   "status": "pending",
-   "note": null
-  },
-  {
-   "slug": "323",
-   "title": "What They Actually Eat in K-Dramas: Make It at Home",
-   "tier": 3,
-   "refreshedOn": null,
-   "specApplied": false,
-   "gaps": {
-    "won": 0,
-    "hangul": 4,
-    "yearInTitle": false,
-    "words": 2211
-   },
-   "gsc": {
-    "clicks": 0,
-    "impressions": 53,
-    "ctr": "0%",
-    "position": 11.87
-   },
-   "status": "pending",
-   "note": null
-  },
-  {
-   "slug": "354",
-   "title": "Mangwon-dong, Seoul: The Market Neighbourhood Locals Go To Instead of Hongdae",
-   "tier": 3,
-   "refreshedOn": null,
-   "specApplied": false,
-   "gaps": {
-    "won": 0,
-    "hangul": 12,
-    "yearInTitle": false,
-    "words": 2469
-   },
-   "gsc": {
-    "clicks": 0,
-    "impressions": 40,
-    "ctr": "0%",
-    "position": 9.62
-   },
-   "status": "pending",
-   "note": null
-  },
-  {
-   "slug": "209",
-   "title": "Korean Grocery Store Tourism: What to Buy Before You Fly",
-   "tier": 3,
-   "refreshedOn": null,
-   "specApplied": false,
-   "gaps": {
-    "won": 0,
-    "hangul": 0,
-    "yearInTitle": false,
-    "words": 2352
-   },
-   "gsc": {
-    "clicks": 0,
-    "impressions": 22,
-    "ctr": "0%",
-    "position": 11.64
-   },
-   "status": "pending",
-   "note": null
-  },
-  {
-   "slug": "054",
-   "title": "Korea's Automated Convenience Culture: Ramen Machines to Robots",
-   "tier": 3,
-   "refreshedOn": null,
-   "specApplied": false,
-   "gaps": {
-    "won": 3,
-    "hangul": 2,
-    "yearInTitle": false,
-    "words": 2386
-   },
-   "gsc": {
-    "clicks": 0,
-    "impressions": 19,
-    "ctr": "0%",
-    "position": 32.26
-   },
-   "status": "pending",
-   "note": null
-  },
-  {
-   "slug": "'022'",
-   "title": "Korean Food Scissors Guide: Practical Tools and Hangover Drinks",
-   "tier": 3,
-   "refreshedOn": null,
-   "specApplied": false,
-   "gaps": {
-    "won": 0,
-    "hangul": 2,
-    "yearInTitle": false,
-    "words": 1934
-   },
-   "gsc": null,
-   "status": "pending",
-   "note": null
-  },
-  {
-   "slug": "'087'",
-   "title": "Seoul Nopo Restaurant Guide: Old Shops, Michelin, and Soup",
-   "tier": 3,
-   "refreshedOn": null,
-   "specApplied": false,
-   "gaps": {
-    "won": 0,
-    "hangul": 0,
-    "yearInTitle": false,
-    "words": 2180
-   },
-   "gsc": null,
-   "status": "pending",
-   "note": null
-  },
-  {
-   "slug": "'088'",
-   "title": "Unique Things in Korea: Small Conveniences, Trust, and Transit",
-   "tier": 3,
-   "refreshedOn": null,
-   "specApplied": false,
-   "gaps": {
-    "won": 0,
-    "hangul": 0,
-    "yearInTitle": false,
-    "words": 2280
-   },
-   "gsc": null,
-   "status": "pending",
-   "note": null
-  },
-  {
-   "slug": "012",
-   "title": "Korean Highway Rest Areas: Food, Facilities, and Travel Tips",
-   "tier": 3,
-   "refreshedOn": null,
-   "specApplied": false,
-   "gaps": {
-    "won": 0,
-    "hangul": 0,
-    "yearInTitle": false,
-    "words": 1953
-   },
-   "gsc": null,
-   "status": "pending",
-   "note": null
-  },
-  {
-   "slug": "027",
-   "title": "Iced Americano in Korea: Why Koreans Drink It Year-Round",
-   "tier": 3,
-   "refreshedOn": null,
-   "specApplied": false,
-   "gaps": {
-    "won": 0,
-    "hangul": 3,
-    "yearInTitle": false,
-    "words": 2234
-   },
-   "gsc": null,
-   "status": "pending",
-   "note": null
-  },
-  {
-   "slug": "126",
-   "title": "Korean Drinking Games Guide: Rules, Etiquette, and Safety",
-   "tier": 3,
-   "refreshedOn": null,
-   "specApplied": false,
-   "gaps": {
-    "won": 0,
-    "hangul": 0,
-    "yearInTitle": false,
-    "words": 2245
-   },
-   "gsc": null,
-   "status": "pending",
-   "note": null
-  },
-  {
-   "slug": "177",
-   "title": "Korean Cafe Culture: Why Coffee Shops Became Seoul's Third Place",
-   "tier": 3,
-   "refreshedOn": null,
-   "specApplied": false,
-   "gaps": {
-    "won": 0,
-    "hangul": 0,
-    "yearInTitle": false,
-    "words": 2466
-   },
-   "gsc": null,
-   "status": "pending",
-   "note": null
-  },
-  {
-   "slug": "178",
-   "title": "Korean Food Delivery Culture: How Baemin Changed Eating",
-   "tier": 3,
-   "refreshedOn": null,
-   "specApplied": false,
-   "gaps": {
-    "won": 0,
-    "hangul": 2,
-    "yearInTitle": false,
-    "words": 2651
-   },
-   "gsc": null,
-   "status": "pending",
-   "note": null
-  }
- ]
+  "queue": [
+    {
+      "slug": "145",
+      "title": "Pyongyang vs Hamheung Naengmyeon: Which Korean Cold Noodle to Order",
+      "tier": 3,
+      "refreshedOn": "2026-08-12",
+      "specApplied": true,
+      "gaps": {
+        "won": 0,
+        "hangul": 5,
+        "yearInTitle": false,
+        "words": 2151
+      },
+      "gsc": {
+        "clicks": 2,
+        "impressions": 1046,
+        "ctr": "0.19%",
+        "position": 10.53
+      },
+      "status": "done",
+      "note": "가격 0건 → ₩ 42회(필동면옥 15,000 / 우래옥 18,000 4월인상 / 오장동함흥냉면 11,000, August 2026 스탬프). 한글 5자 → 111자. 한국어 출처 사실: 누들플레이션·면스플레인·을지면옥 세운지구 재개발 이전(2022-06-25)·밀면 미국원조 밀가루 유래. 실물 디테일: 지하철 출구·영업시간·브레이크타임·휴무일. 정직한 반대정보: 순한 쪽이 50% 비싸다 + 봉지 냉면. CTA 3개(topline 1 + box 2) → 2개, 무관한 BBQ가위 topline 제거. 캡션 4건이 사진과 불일치했던 것 교정(145_03을 초안에서 내가 bibim이라 오기)."
+    },
+    {
+      "slug": "302",
+      "title": "What Do Koreans Eat for Breakfast? 12 Real Korean Morning Meals",
+      "tier": 3,
+      "refreshedOn": null,
+      "specApplied": false,
+      "gaps": {
+        "won": 0,
+        "hangul": 14,
+        "yearInTitle": false,
+        "words": 2823
+      },
+      "gsc": {
+        "clicks": 1,
+        "impressions": 683,
+        "ctr": "0.15%",
+        "position": 14.16
+      },
+      "status": "pending",
+      "note": null
+    },
+    {
+      "slug": "186",
+      "title": "Eating Alone in Korea: The Honbap and Honsul Culture Rising",
+      "tier": 3,
+      "refreshedOn": null,
+      "specApplied": false,
+      "gaps": {
+        "won": 0,
+        "hangul": 0,
+        "yearInTitle": false,
+        "words": 3070
+      },
+      "gsc": {
+        "clicks": 2,
+        "impressions": 598,
+        "ctr": "0.33%",
+        "position": 10.45
+      },
+      "status": "pending",
+      "note": null
+    },
+    {
+      "slug": "179",
+      "title": "Korean Drinking Culture: Soju, Makgeolli, and Anju",
+      "tier": 3,
+      "refreshedOn": null,
+      "specApplied": false,
+      "gaps": {
+        "won": 0,
+        "hangul": 0,
+        "yearInTitle": false,
+        "words": 2425
+      },
+      "gsc": {
+        "clicks": 1,
+        "impressions": 546,
+        "ctr": "0.18%",
+        "position": 17.12
+      },
+      "status": "pending",
+      "note": null
+    },
+    {
+      "slug": "215",
+      "title": "Korean Ingredient Label Guide: Allergens, Pork, Gelatin",
+      "tier": 3,
+      "refreshedOn": null,
+      "specApplied": false,
+      "gaps": {
+        "won": 0,
+        "hangul": 60,
+        "yearInTitle": false,
+        "words": 2290
+      },
+      "gsc": {
+        "clicks": 8,
+        "impressions": 524,
+        "ctr": "1.53%",
+        "position": 9.9
+      },
+      "status": "pending",
+      "note": null
+    },
+    {
+      "slug": "130",
+      "title": "Korean Drinking Culture: Hoesik, Choice and Safety",
+      "tier": 3,
+      "refreshedOn": null,
+      "specApplied": false,
+      "gaps": {
+        "won": 0,
+        "hangul": 10,
+        "yearInTitle": false,
+        "words": 2298
+      },
+      "gsc": {
+        "clicks": 8,
+        "impressions": 443,
+        "ctr": "1.81%",
+        "position": 8.46
+      },
+      "status": "pending",
+      "note": null
+    },
+    {
+      "slug": "065",
+      "title": "Korean Rainy Day Food: Pajeon, Makgeolli, Noodles, and Soups",
+      "tier": 3,
+      "refreshedOn": null,
+      "specApplied": false,
+      "gaps": {
+        "won": 0,
+        "hangul": 0,
+        "yearInTitle": false,
+        "words": 2111
+      },
+      "gsc": {
+        "clicks": 2,
+        "impressions": 408,
+        "ctr": "0.49%",
+        "position": 8.17
+      },
+      "status": "pending",
+      "note": null
+    },
+    {
+      "slug": "050",
+      "title": "Korean Banchan Guide: Side Dishes, Kimchi, and Table Rules",
+      "tier": 3,
+      "refreshedOn": null,
+      "specApplied": false,
+      "gaps": {
+        "won": 0,
+        "hangul": 0,
+        "yearInTitle": false,
+        "words": 2077
+      },
+      "gsc": {
+        "clicks": 3,
+        "impressions": 321,
+        "ctr": "0.93%",
+        "position": 27.87
+      },
+      "status": "pending",
+      "note": null
+    },
+    {
+      "slug": "214",
+      "title": "Korea Reservation Culture: Why Seoul Walk-Ins Fail",
+      "tier": 3,
+      "refreshedOn": null,
+      "specApplied": false,
+      "gaps": {
+        "won": 0,
+        "hangul": 0,
+        "yearInTitle": false,
+        "words": 2286
+      },
+      "gsc": {
+        "clicks": 3,
+        "impressions": 320,
+        "ctr": "0.94%",
+        "position": 8.33
+      },
+      "status": "pending",
+      "note": null
+    },
+    {
+      "slug": "326",
+      "title": "Korean Spice Levels Explained: How Hot Is Korean Food Really?",
+      "tier": 3,
+      "refreshedOn": null,
+      "specApplied": false,
+      "gaps": {
+        "won": 0,
+        "hangul": 6,
+        "yearInTitle": false,
+        "words": 2184
+      },
+      "gsc": {
+        "clicks": 0,
+        "impressions": 257,
+        "ctr": "0%",
+        "position": 8.91
+      },
+      "status": "pending",
+      "note": null
+    },
+    {
+      "slug": "060",
+      "title": "Korea Drinks Guide: Makgeolli, Somaek, Beer, and More",
+      "tier": 3,
+      "refreshedOn": null,
+      "specApplied": false,
+      "gaps": {
+        "won": 0,
+        "hangul": 0,
+        "yearInTitle": false,
+        "words": 2059
+      },
+      "gsc": {
+        "clicks": 2,
+        "impressions": 249,
+        "ctr": "0.8%",
+        "position": 21.52
+      },
+      "status": "pending",
+      "note": null
+    },
+    {
+      "slug": "046",
+      "title": "Free Side Dishes in Korea: Banchan, Service, and Refills",
+      "tier": 3,
+      "refreshedOn": null,
+      "specApplied": false,
+      "gaps": {
+        "won": 0,
+        "hangul": 0,
+        "yearInTitle": false,
+        "words": 2124
+      },
+      "gsc": {
+        "clicks": 0,
+        "impressions": 212,
+        "ctr": "0%",
+        "position": 12.66
+      },
+      "status": "pending",
+      "note": null
+    },
+    {
+      "slug": "021",
+      "title": "Miyeokguk Guide: Why Koreans Eat Seaweed Soup on Birthdays",
+      "tier": 3,
+      "refreshedOn": null,
+      "specApplied": false,
+      "gaps": {
+        "won": 0,
+        "hangul": 0,
+        "yearInTitle": false,
+        "words": 1895
+      },
+      "gsc": {
+        "clicks": 1,
+        "impressions": 209,
+        "ctr": "0.48%",
+        "position": 24.61
+      },
+      "status": "pending",
+      "note": null
+    },
+    {
+      "slug": "297",
+      "title": "Korean Traditional Desserts Guide 2026: Tteok and Yakgwa",
+      "tier": 3,
+      "refreshedOn": null,
+      "specApplied": false,
+      "gaps": {
+        "won": 0,
+        "hangul": 1,
+        "yearInTitle": true,
+        "words": 2146
+      },
+      "gsc": {
+        "clicks": 1,
+        "impressions": 166,
+        "ctr": "0.6%",
+        "position": 9.51
+      },
+      "status": "pending",
+      "note": null
+    },
+    {
+      "slug": "295",
+      "title": "Korean Temple Food Guide 2026: Vegan Limits and Temples",
+      "tier": 3,
+      "refreshedOn": null,
+      "specApplied": false,
+      "gaps": {
+        "won": 0,
+        "hangul": 0,
+        "yearInTitle": true,
+        "words": 2108
+      },
+      "gsc": {
+        "clicks": 3,
+        "impressions": 101,
+        "ctr": "2.97%",
+        "position": 12.76
+      },
+      "status": "pending",
+      "note": null
+    },
+    {
+      "slug": "266",
+      "title": "Korean BBQ Ssam Guide 2026: Lettuce, Perilla, Ssamjang, Garlic",
+      "tier": 3,
+      "refreshedOn": null,
+      "specApplied": false,
+      "gaps": {
+        "won": 0,
+        "hangul": 0,
+        "yearInTitle": true,
+        "words": 2374
+      },
+      "gsc": {
+        "clicks": 0,
+        "impressions": 100,
+        "ctr": "0%",
+        "position": 14.6
+      },
+      "status": "pending",
+      "note": null
+    },
+    {
+      "slug": "034",
+      "title": "San-nakji Guide: Korean Live Octopus, Safety, and Etiquette",
+      "tier": 3,
+      "refreshedOn": null,
+      "specApplied": false,
+      "gaps": {
+        "won": 0,
+        "hangul": 0,
+        "yearInTitle": false,
+        "words": 1974
+      },
+      "gsc": {
+        "clicks": 2,
+        "impressions": 73,
+        "ctr": "2.74%",
+        "position": 23.55
+      },
+      "status": "pending",
+      "note": null
+    },
+    {
+      "slug": "350",
+      "title": "Wild Camping in Korea: Why You Can't, and Where to Sleep Instead",
+      "tier": 3,
+      "refreshedOn": null,
+      "specApplied": false,
+      "gaps": {
+        "won": 0,
+        "hangul": 19,
+        "yearInTitle": false,
+        "words": 2655
+      },
+      "gsc": {
+        "clicks": 1,
+        "impressions": 67,
+        "ctr": "1.49%",
+        "position": 6.54
+      },
+      "status": "pending",
+      "note": null
+    },
+    {
+      "slug": "246",
+      "title": "Korean Kiosk Panic Guide: How To Order Food In Seoul",
+      "tier": 3,
+      "refreshedOn": null,
+      "specApplied": false,
+      "gaps": {
+        "won": 0,
+        "hangul": 7,
+        "yearInTitle": false,
+        "words": 2133
+      },
+      "gsc": {
+        "clicks": 1,
+        "impressions": 66,
+        "ctr": "1.52%",
+        "position": 8.33
+      },
+      "status": "pending",
+      "note": null
+    },
+    {
+      "slug": "323",
+      "title": "What They Actually Eat in K-Dramas: Make It at Home",
+      "tier": 3,
+      "refreshedOn": null,
+      "specApplied": false,
+      "gaps": {
+        "won": 0,
+        "hangul": 4,
+        "yearInTitle": false,
+        "words": 2211
+      },
+      "gsc": {
+        "clicks": 0,
+        "impressions": 53,
+        "ctr": "0%",
+        "position": 11.87
+      },
+      "status": "pending",
+      "note": null
+    },
+    {
+      "slug": "354",
+      "title": "Mangwon-dong, Seoul: The Market Neighbourhood Locals Go To Instead of Hongdae",
+      "tier": 3,
+      "refreshedOn": null,
+      "specApplied": false,
+      "gaps": {
+        "won": 0,
+        "hangul": 12,
+        "yearInTitle": false,
+        "words": 2469
+      },
+      "gsc": {
+        "clicks": 0,
+        "impressions": 40,
+        "ctr": "0%",
+        "position": 9.62
+      },
+      "status": "pending",
+      "note": null
+    },
+    {
+      "slug": "209",
+      "title": "Korean Grocery Store Tourism: What to Buy Before You Fly",
+      "tier": 3,
+      "refreshedOn": null,
+      "specApplied": false,
+      "gaps": {
+        "won": 0,
+        "hangul": 0,
+        "yearInTitle": false,
+        "words": 2352
+      },
+      "gsc": {
+        "clicks": 0,
+        "impressions": 22,
+        "ctr": "0%",
+        "position": 11.64
+      },
+      "status": "pending",
+      "note": null
+    },
+    {
+      "slug": "054",
+      "title": "Korea's Automated Convenience Culture: Ramen Machines to Robots",
+      "tier": 3,
+      "refreshedOn": null,
+      "specApplied": false,
+      "gaps": {
+        "won": 3,
+        "hangul": 2,
+        "yearInTitle": false,
+        "words": 2386
+      },
+      "gsc": {
+        "clicks": 0,
+        "impressions": 19,
+        "ctr": "0%",
+        "position": 32.26
+      },
+      "status": "pending",
+      "note": null
+    },
+    {
+      "slug": "'022'",
+      "title": "Korean Food Scissors Guide: Practical Tools and Hangover Drinks",
+      "tier": 3,
+      "refreshedOn": null,
+      "specApplied": false,
+      "gaps": {
+        "won": 0,
+        "hangul": 2,
+        "yearInTitle": false,
+        "words": 1934
+      },
+      "gsc": null,
+      "status": "pending",
+      "note": null
+    },
+    {
+      "slug": "'087'",
+      "title": "Seoul Nopo Restaurant Guide: Old Shops, Michelin, and Soup",
+      "tier": 3,
+      "refreshedOn": null,
+      "specApplied": false,
+      "gaps": {
+        "won": 0,
+        "hangul": 0,
+        "yearInTitle": false,
+        "words": 2180
+      },
+      "gsc": null,
+      "status": "pending",
+      "note": null
+    },
+    {
+      "slug": "'088'",
+      "title": "Unique Things in Korea: Small Conveniences, Trust, and Transit",
+      "tier": 3,
+      "refreshedOn": null,
+      "specApplied": false,
+      "gaps": {
+        "won": 0,
+        "hangul": 0,
+        "yearInTitle": false,
+        "words": 2280
+      },
+      "gsc": null,
+      "status": "pending",
+      "note": null
+    },
+    {
+      "slug": "012",
+      "title": "Korean Highway Rest Areas: Food, Facilities, and Travel Tips",
+      "tier": 3,
+      "refreshedOn": null,
+      "specApplied": false,
+      "gaps": {
+        "won": 0,
+        "hangul": 0,
+        "yearInTitle": false,
+        "words": 1953
+      },
+      "gsc": null,
+      "status": "pending",
+      "note": null
+    },
+    {
+      "slug": "027",
+      "title": "Iced Americano in Korea: Why Koreans Drink It Year-Round",
+      "tier": 3,
+      "refreshedOn": null,
+      "specApplied": false,
+      "gaps": {
+        "won": 0,
+        "hangul": 3,
+        "yearInTitle": false,
+        "words": 2234
+      },
+      "gsc": null,
+      "status": "pending",
+      "note": null
+    },
+    {
+      "slug": "126",
+      "title": "Korean Drinking Games Guide: Rules, Etiquette, and Safety",
+      "tier": 3,
+      "refreshedOn": null,
+      "specApplied": false,
+      "gaps": {
+        "won": 0,
+        "hangul": 0,
+        "yearInTitle": false,
+        "words": 2245
+      },
+      "gsc": null,
+      "status": "pending",
+      "note": null
+    },
+    {
+      "slug": "177",
+      "title": "Korean Cafe Culture: Why Coffee Shops Became Seoul's Third Place",
+      "tier": 3,
+      "refreshedOn": null,
+      "specApplied": false,
+      "gaps": {
+        "won": 0,
+        "hangul": 0,
+        "yearInTitle": false,
+        "words": 2466
+      },
+      "gsc": null,
+      "status": "pending",
+      "note": null
+    },
+    {
+      "slug": "178",
+      "title": "Korean Food Delivery Culture: How Baemin Changed Eating",
+      "tier": 3,
+      "refreshedOn": null,
+      "specApplied": false,
+      "gaps": {
+        "won": 0,
+        "hangul": 2,
+        "yearInTitle": false,
+        "words": 2651
+      },
+      "gsc": null,
+      "status": "pending",
+      "note": null
+    }
+  ]
 }
