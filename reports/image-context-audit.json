@@ -1,10 +1,10 @@
 {
   "summary": {
-    "generatedAt": "2026-08-10T13:55:21.156Z",
-    "auditedPosts": 366,
+    "generatedAt": "2026-08-12T01:48:47.348Z",
+    "auditedPosts": 369,
     "includedPrivate": false,
     "slugFilter": "",
-    "bodyImages": 1327,
+    "bodyImages": 1336,
     "affectedPosts": 99,
     "critical": 0,
     "high": 0,
@@ -13726,6 +13726,102 @@
           "url": "/assets/images/posts/375/suneung-computer-sign-pen.jpg",
           "alt": "A black computer-use marker pen and a mechanical pencil laid on a white surface — the two writing tools required for the Korean exam.",
           "caption": "The 컴퓨터용 사인펜 and a mechanical pencil. The marker is provided at the test centre and candidates are required to use the issued one. Photo: Wikimedia Commons (CC BY 4.0).",
+          "ext": ".jpg",
+          "exists": true
+        }
+      ],
+      "findings": []
+    },
+    {
+      "type": "blog",
+      "slug": "376",
+      "title": "Korean Convenience Store 1+1: How It Works and Who Can Bank the Free One",
+      "contentPath": "content\\blog\\376.md",
+      "sourceRecord": "public\\assets\\images\\posts\\376\\image-sources.md",
+      "imageCount": 3,
+      "images": [
+        {
+          "url": "/assets/images/posts/376/cu-store-interior-2plus1-freezer.jpg",
+          "alt": "Interior of a CU convenience store in Korea. The ice-cream chest in the centre carries a 2+1 promotion strip showing a grid of eligible products, with snack shelves, a drinks wall and gift-card racks behind it.",
+          "caption": "The `2+1` strip on the ice-cream chest, at a CU branch. The grid on it is the list of products the promotion covers. Photo: Wikimedia Commons (CC0).",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/376/gs25-shelf-edge-price-tags.jpg",
+          "alt": "A GS25 shelf in Seoul photographed straight on, with a dense row of printed price tags clipped along the front edge of every shelf, several of them carrying coloured GS25 promotion flashes.",
+          "caption": "Every tag on this GS25 shelf edge belongs to the product directly above it, and the coloured flashes are the promotions. This is the strip Korean shoppers scan before they reach for anything. Photo: Wikimedia Commons (CC BY-SA 4.0).",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/376/gs25-storefront-seoul-atm.jpg",
+          "alt": "Street-level view of a GS25 branch in Yeoksam, Seoul, with the store sign above the window, a bank ATM beside the door, an electric-scooter battery swap cabinet and stacked cases of bottled water on the pavement.",
+          "caption": "A GS25 in Yeoksam, Seoul. The ATM by the door, the scooter battery cabinet and the water stacked outside are the ordinary version of what a Korean convenience store is for. Photo: Wikimedia Commons (CC0).",
+          "ext": ".jpg",
+          "exists": true
+        }
+      ],
+      "findings": []
+    },
+    {
+      "type": "blog",
+      "slug": "377",
+      "title": "Korean Hangover Drinks: Which One to Grab, and What Korea Made Them Prove",
+      "contentPath": "content\\blog\\377.md",
+      "sourceRecord": "public\\assets\\images\\posts\\377\\image-sources.md",
+      "imageCount": 3,
+      "images": [
+        {
+          "url": "/assets/images/posts/377/condition-sticks-human-trial-badge.jpg",
+          "alt": "Seven Condition hangover sticks laid side by side on white, in zero-sugar, plum, green apple, choco and mint-choco varieties, each foil sachet printed with HANGOVER TECHNOLOGY and a small badge reading 숙취개선효과 인체적용시험완료.",
+          "caption": "The small badge near the bottom of each stick reads 숙취개선효과 인체적용시험완료 — hangover-improvement effect, human trial completed. Since 2025, that sentence is what buys the right to print the word on the front. Product images: HK inno.N.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/377/condition-bottle-hangover-technology.jpg",
+          "alt": "A small green glass bottle of Condition with a green and silver label reading 대한민국 숙취해소, 컨디션, HANGOVER TECHNOLOGY, with a human-trial badge at the base of the label.",
+          "caption": "The format that started it in 1992, still on the shelf. The bottle carries the same human-trial badge as the sticks. Product image: HK inno.N.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/377/haejangguk-hangover-soup.jpg",
+          "alt": "A bowl of Korean haejangguk hangover soup, a dark broth thick with vegetables and meat, served in a stone bowl with side dishes.",
+          "caption": "해장국. The remedy that predates the industry by several centuries and still outperforms it. Photo: Wikimedia Commons (CC0).",
+          "ext": ".jpg",
+          "exists": true
+        }
+      ],
+      "findings": []
+    },
+    {
+      "type": "blog",
+      "slug": "378",
+      "title": "Seoul Fireworks Festival 2026 Moved Three Weeks Earlier: What That Changes",
+      "contentPath": "content\\blog\\378.md",
+      "sourceRecord": "public\\assets\\images\\posts\\378\\image-sources.md",
+      "imageCount": 3,
+      "images": [
+        {
+          "url": "/assets/images/posts/378/seoul-fireworks-festival-han-river.jpg",
+          "alt": "Large gold fireworks bursting over the Han River in Seoul, with red low-level bursts near the water, a lit bridge across the frame, and the city skyline glowing behind.",
+          "caption": "The 2025 festival over the Han River. The bridge and the far bank are the whole reason this event looks the way it does — the fireworks fire from barges on the water. Photo: EchoL-777, Wikimedia Commons (CC BY-SA 4.0).",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/378/yeouido-hangang-park-before-fireworks.jpg",
+          "alt": "Crowds sitting on picnic mats along the Yeouido riverbank at dusk, with the Han River, small boats, Mapo Bridge and the Seoul skyline behind them.",
+          "caption": "Yeouido Hangang Park near Mapo Bridge at 6:43pm on festival day, 2025 — an hour and a quarter before the first shell. The mats are already down and the front rows are gone. Photo: Striker9498, Wikimedia Commons (CC BY-SA 4.0).",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/378/han-river-path-after-fireworks.jpg",
+          "alt": "A dense crowd of people and cyclists filling a narrow riverside path under a bridge at night after the fireworks festival, moving slowly in one direction.",
+          "caption": "The riverside path immediately after a Seoul fireworks festival. This is the part of the night to plan for. Photo: Yt1646, Wikimedia Commons (CC BY-SA 3.0).",
           "ext": ".jpg",
           "exists": true
         }
