@@ -1,6 +1,6 @@
 {
   "summary": {
-    "generatedAt": "2026-08-12T07:09:40.634Z",
+    "generatedAt": "2026-08-12T07:39:36.832Z",
     "auditedPosts": 370,
     "includedPrivate": false,
     "slugFilter": "",
@@ -6828,36 +6828,36 @@
     {
       "type": "blog",
       "slug": "186",
-      "title": "Eating Alone in Korea: The Honbap and Honsul Culture Rising",
+      "title": "Eating Alone in Korea: Honbap, Honsul, and the 9 Levels Koreans Rank It By",
       "contentPath": "content\\blog\\186.md",
       "sourceRecord": "public\\assets\\images\\posts\\186\\image-sources.md",
       "imageCount": 4,
       "images": [
         {
           "url": "/assets/images/posts/186/honbap-noodles-seoul.jpg",
-          "alt": "A man eating cup noodles outdoors in Seoul, a fitting image for Korea's more casual solo dining rhythm.",
-          "caption": "Honbap is not only about being alone. It is about a city where a quick personal meal can fit between work, travel, study, and errands. Photo by Taryn Elliott on Pexels.",
+          "alt": "A man eating a cup of Korean tomato ramyeon outdoors under cherry blossoms, holding the red cup in one hand and lifting noodles with a fork.",
+          "caption": "This is the easy end of the scale — a convenience-store cup of ramyeon eaten standing up is Level 1, the entry rung of a ladder Koreans actually named. Photo by Taryn Elliott on Pexels.",
           "ext": ".jpg",
           "exists": true
         },
         {
           "url": "/assets/images/posts/186/korean-soup-and-banchan-table.jpg",
-          "alt": "A Korean soup-and-side-dish table with kimchi, pork, and banchan, showing the kind of complete meal structure solo diners often look for.",
-          "caption": "Bowl-based meals such as gukbap work well for honbap because one person can still get soup, rice, kimchi, and side dishes without needing a group table. Photo from Pexels.",
+          "alt": "A Korean gukbap-house table in low sun: a dark stoneware bowl of pork soup with red chilli paste and spring onion, a large plate of sliced boiled pork, plus chive salad, kimchi, raw onion with green chilli, and dipping sauces.",
+          "caption": "Both halves of the decision on one table. The **국밥** in the middle is a complete solo order — soup, meat and rice in one bowl, banchan included free. The plate of **수육** behind it is the part that assumes a second person. Photo from Pexels.",
           "ext": ".jpg",
           "exists": true
         },
         {
           "url": "/assets/images/posts/186/korean-bbq-shared-table.jpg",
           "alt": "A full Korean home barbecue spread laid out around a portable grill: pork belly, kimchi, lettuce wraps, mushrooms, and dipping sauce.",
-          "caption": "Shared-table meals are not impossible alone, but Korean BBQ still often works around group portions, table turnover, and a cooking rhythm built for more than one person. Photo by Jason Kim on Pexels.",
+          "caption": "Level 8, photographed. The grill format, the portion sizes and the pacing all assume more than one pair of hands. Photo by Jason Kim on Pexels.",
           "ext": ".jpg",
           "exists": true
         },
         {
           "url": "/assets/images/posts/186/korean-convenience-store-drink-fridge.jpg",
           "alt": "Korean convenience store drink fridge with Korean labels, prices, and discount signs.",
-          "caption": "Korean convenience stores make solo eating easier because drinks, snacks, instant noodles, small meals, microwaves, and seating can all live inside one tiny system. Photo by Theodore Nguyen on Pexels.",
+          "caption": "Drinks, snacks, instant noodles, small meals, a microwave and a seat inside one small system — which is why Level 1 is Level 1. Photo by Theodore Nguyen on Pexels.",
           "ext": ".jpg",
           "exists": true
         }
