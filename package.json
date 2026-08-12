@@ -19,6 +19,8 @@
     "reels:studio:170": "remotion studio remotion/Root.tsx --props output/reels/170/remotion-props.json --port 4001 --no-open",
     "reels:render:170": "npm run reels:render -- --slug 170",
     "refresh:queue": "node scripts/build-refresh-queue.mjs",
+    "cluster:baseline": "node scripts/cluster-baseline.mjs",
+    "cluster:judge": "node scripts/cluster-baseline.mjs --judge",
     "audit:image-sizes": "node scripts/optimize-blog-images.mjs --audit",
     "audit:image-refs": "node scripts/audit-blog-image-references.mjs",
     "audit:image-context": "node scripts/audit-image-context.mjs",

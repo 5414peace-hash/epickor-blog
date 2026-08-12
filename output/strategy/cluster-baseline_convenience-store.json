@@ -1,0 +1,344 @@
+{
+  "subject": "convenience-store cluster",
+  "hypothesis": "Wiring ~20 posts into a hub raises the cluster more than comparable untouched posts.",
+  "interventions": [
+    {
+      "date": "2026-08-02",
+      "what": "Hub /convenience-store/ launched, 19 posts wired in"
+    },
+    {
+      "date": "2026-08-11",
+      "what": "New spoke 376 (1+1) published and wired"
+    },
+    {
+      "date": "2026-08-12",
+      "what": "New spoke 377 (hangover drinks) published and wired"
+    }
+  ],
+  "baselineTakenOn": "2026-08-12",
+  "source": {
+    "extract": "/output/gsc/https___www.epickor.com_-Performance-on-Search-2026-08-07",
+    "extractDate": "2026-08-07",
+    "window": {
+      "from": "2026-05-05",
+      "to": "2026-08-04",
+      "days": 92
+    },
+    "note": "The window closes 2026-08-04, two days after the hub launched and before either new spoke existed. Effectively a pre-intervention read."
+  },
+  "metric": "clicks",
+  "metricNote": "Clicks only. Impressions/CTR recorded for context but not comparable across the 2025-05-13~2026-04 GSC over-reporting bug.",
+  "secondMetric": "livePosts",
+  "secondMetricNote": "Count of posts in the group earning at least one click. This exists because the click total is dangerously concentrated: one post (171) holds 84% of the treatment total, so a total-clicks verdict is really a verdict on that one post. It is also the closer test of the actual hypothesis — the claim is that a hub wakes up the posts nobody reaches, and 12 of 17 cluster posts currently earn zero clicks. If clustering works, that number should fall faster in the treatment group than in the control.",
+  "judgeOn": "2026-09-23",
+  "judgeNote": "Six weeks after the last spoke. Pull a fresh GSC extract with the same \"지난 3개월\" window, then run: node scripts/cluster-baseline.mjs --judge",
+  "treatment": {
+    "slugs": [
+      "059",
+      "171",
+      "281",
+      "336",
+      "345",
+      "335",
+      "032",
+      "048",
+      "343",
+      "366",
+      "364",
+      "365",
+      "344",
+      "347",
+      "054",
+      "093",
+      "029"
+    ],
+    "count": 17,
+    "clicks": 76,
+    "livePosts": 5,
+    "perPost": {
+      "171": 64,
+      "281": 0,
+      "335": 0,
+      "336": 0,
+      "343": 0,
+      "344": 4,
+      "345": 1,
+      "347": 4,
+      "364": 0,
+      "365": 0,
+      "366": 0,
+      "059": 3,
+      "032": 0,
+      "048": 0,
+      "054": 0,
+      "093": 0,
+      "029": 0
+    }
+  },
+  "control": {
+    "method": "greedy nearest-neighbour, primary key baseline clicks, tie-break publication date",
+    "worstAgeGapDays": 620,
+    "ageNote": "Age matching is load-bearing. Without it the control group was two years older than the treatment group, and ordinary indexing growth on ten recently published cluster posts would have read as cluster lift.",
+    "slugs": [
+      "082",
+      "338",
+      "339",
+      "057",
+      "342",
+      "280",
+      "333",
+      "334",
+      "031",
+      "045",
+      "337",
+      "362",
+      "358",
+      "359",
+      "053",
+      "091",
+      "027"
+    ],
+    "count": 17,
+    "clicks": 61,
+    "livePosts": 5,
+    "perPost": {
+      "280": 0,
+      "333": 0,
+      "334": 0,
+      "337": 0,
+      "338": 4,
+      "339": 4,
+      "342": 1,
+      "358": 0,
+      "359": 0,
+      "362": 0,
+      "082": 49,
+      "057": 3,
+      "031": 0,
+      "045": 0,
+      "053": 0,
+      "091": 0,
+      "027": 0
+    }
+  },
+  "concentration": {
+    "topSlug": "171",
+    "topShare": 84,
+    "warning": "Read the clicks verdict together with the livePosts verdict. If they disagree, the clicks verdict is the one being driven by a single post."
+  },
+  "excludingOutlier": {
+    "excluded": {
+      "treatment": "171",
+      "control": "082",
+      "reason": "dominant and worst-matched pair"
+    },
+    "treatmentSlugs": [
+      "344",
+      "347",
+      "059",
+      "345",
+      "281",
+      "336",
+      "335",
+      "032",
+      "048",
+      "343",
+      "366",
+      "364",
+      "365",
+      "054",
+      "093",
+      "029"
+    ],
+    "controlSlugs": [
+      "338",
+      "339",
+      "057",
+      "342",
+      "280",
+      "333",
+      "334",
+      "031",
+      "045",
+      "337",
+      "362",
+      "358",
+      "359",
+      "053",
+      "091",
+      "027"
+    ],
+    "count": 16,
+    "treatmentClicks": 12,
+    "controlClicks": 12,
+    "treatmentLive": 4,
+    "controlLive": 4,
+    "worstAgeGapDays": 2
+  },
+  "pairs": [
+    {
+      "treatment": "171",
+      "control": "082",
+      "treatmentClicks": 64,
+      "controlClicks": 49,
+      "treatmentDate": "2026-05-07",
+      "controlDate": "2024-08-25",
+      "ageGapDays": 620
+    },
+    {
+      "treatment": "344",
+      "control": "338",
+      "treatmentClicks": 4,
+      "controlClicks": 4,
+      "treatmentDate": "2026-07-31",
+      "controlDate": "2026-07-30",
+      "ageGapDays": 1
+    },
+    {
+      "treatment": "347",
+      "control": "339",
+      "treatmentClicks": 4,
+      "controlClicks": 4,
+      "treatmentDate": "2026-08-01",
+      "controlDate": "2026-07-30",
+      "ageGapDays": 2
+    },
+    {
+      "treatment": "059",
+      "control": "057",
+      "treatmentClicks": 3,
+      "controlClicks": 3,
+      "treatmentDate": "2024-08-03",
+      "controlDate": "2024-08-02",
+      "ageGapDays": 1
+    },
+    {
+      "treatment": "345",
+      "control": "342",
+      "treatmentClicks": 1,
+      "controlClicks": 1,
+      "treatmentDate": "2026-07-31",
+      "controlDate": "2026-07-30",
+      "ageGapDays": 1
+    },
+    {
+      "treatment": "281",
+      "control": "280",
+      "treatmentClicks": 0,
+      "controlClicks": 0,
+      "treatmentDate": "2026-07-09",
+      "controlDate": "2026-07-09",
+      "ageGapDays": 0
+    },
+    {
+      "treatment": "336",
+      "control": "333",
+      "treatmentClicks": 0,
+      "controlClicks": 0,
+      "treatmentDate": "2026-07-29",
+      "controlDate": "2026-07-29",
+      "ageGapDays": 0
+    },
+    {
+      "treatment": "335",
+      "control": "334",
+      "treatmentClicks": 0,
+      "controlClicks": 0,
+      "treatmentDate": "2026-07-29",
+      "controlDate": "2026-07-29",
+      "ageGapDays": 0
+    },
+    {
+      "treatment": "032",
+      "control": "031",
+      "treatmentClicks": 0,
+      "controlClicks": 0,
+      "treatmentDate": "2024-07-20",
+      "controlDate": "2024-07-20",
+      "ageGapDays": 0
+    },
+    {
+      "treatment": "048",
+      "control": "045",
+      "treatmentClicks": 0,
+      "controlClicks": 0,
+      "treatmentDate": "2024-07-28",
+      "controlDate": "2024-07-27",
+      "ageGapDays": 1
+    },
+    {
+      "treatment": "343",
+      "control": "337",
+      "treatmentClicks": 0,
+      "controlClicks": 0,
+      "treatmentDate": "2026-07-31",
+      "controlDate": "2026-07-30",
+      "ageGapDays": 1
+    },
+    {
+      "treatment": "366",
+      "control": "362",
+      "treatmentClicks": 0,
+      "controlClicks": 0,
+      "treatmentDate": "2026-08-04",
+      "controlDate": "2026-08-04",
+      "ageGapDays": 0
+    },
+    {
+      "treatment": "364",
+      "control": "358",
+      "treatmentClicks": 0,
+      "controlClicks": 0,
+      "treatmentDate": "2026-08-04",
+      "controlDate": "2026-08-03",
+      "ageGapDays": 1
+    },
+    {
+      "treatment": "365",
+      "control": "359",
+      "treatmentClicks": 0,
+      "controlClicks": 0,
+      "treatmentDate": "2026-08-04",
+      "controlDate": "2026-08-03",
+      "ageGapDays": 1
+    },
+    {
+      "treatment": "054",
+      "control": "053",
+      "treatmentClicks": 0,
+      "controlClicks": 0,
+      "treatmentDate": "2024-07-31",
+      "controlDate": "2024-07-31",
+      "ageGapDays": 0
+    },
+    {
+      "treatment": "093",
+      "control": "091",
+      "treatmentClicks": 0,
+      "controlClicks": 0,
+      "treatmentDate": "2026-02-09",
+      "controlDate": "2026-02-09",
+      "ageGapDays": 0
+    },
+    {
+      "treatment": "029",
+      "control": "027",
+      "treatmentClicks": 0,
+      "controlClicks": 0,
+      "treatmentDate": "2024-07-19",
+      "controlDate": "2024-07-18",
+      "ageGapDays": 1
+    }
+  ],
+  "newSpokes": {
+    "slugs": [
+      "377",
+      "376"
+    ],
+    "note": "Published after the baseline window. Baseline is zero by construction; judge these on absolute clicks, not on the difference."
+  },
+  "siteWide": {
+    "clicks": 1544,
+    "pagesWithClicks": 168
+  }
+}

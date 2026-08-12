@@ -46,6 +46,23 @@ debug.log
 !/output/strategy/keyword-bets.csv
 !/output/strategy/cluster-backlog.md
 !/output/strategy/cluster-map.md
+!/output/strategy/package_*.md
+# Measurement baselines. These are the ONLY record of what a metric looked like
+# before an intervention; once the window passes, an untracked one cannot be
+# reconstructed from anything. Losing this file does not degrade the experiment,
+# it deletes it.
+!/output/strategy/cluster-baseline_*.json
+!/output/strategy/cluster-baseline_*.md
+# The GSC exports the baselines are computed from. 513KB for the full set, and
+# without them no future session can re-derive or audit a baseline number.
+!/output/gsc/
+/output/gsc/*
+!/output/gsc/*/
+/output/gsc/*/*
+!/output/gsc/*/페이지.csv
+!/output/gsc/*/차트.csv
+!/output/gsc/*/검색어 수.csv
+!/output/gsc/*/필터.csv
 /output/reels/*
 !/output/reels/metrics.json
 !/output/reels/*.md
