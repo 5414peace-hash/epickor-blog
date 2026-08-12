@@ -1,6 +1,6 @@
 {
   "summary": {
-    "generatedAt": "2026-08-12T08:31:19.289Z",
+    "generatedAt": "2026-08-12T10:46:42.865Z",
     "auditedPosts": 370,
     "includedPrivate": false,
     "slugFilter": "",
@@ -7934,29 +7934,29 @@
       "images": [
         {
           "url": "/assets/images/posts/215/shin-ramyun-package-components.jpg",
-          "alt": "A Korean Shin Ramyun package with noodles and seasoning packets, showing how much information can sit on one food item.",
-          "caption": "Korean packages can show product name, cooking method, nutrition, ingredients, origin notes, and allergen warnings in dense space. Photo by K-foodie via Wikimedia Commons, CC BY-SA 4.0.",
+          "alt": "A bag of Shin Ramyun opened out on a table with the noodle block and two seasoning sachets beside it, the dense Korean back label partly visible behind.",
+          "caption": "One product, three printed surfaces. The allergen box is on the outer bag — the seasoning sachets carry only weight and factory information, so do not go looking for allergens on the small packets. Photo by K-foodie via Wikimedia Commons, CC BY-SA 4.0.",
           "ext": ".jpg",
           "exists": true
         },
         {
           "url": "/assets/images/posts/215/seoul-market-food-stall-ingredients.jpg",
           "alt": "A Seoul market food stall with Korean menu text and ingredients, where travelers may need to ask about broth or meat base.",
-          "caption": "For soups, noodles, and street meals, the label may be a menu board rather than a package. Ask about broth and meat base if it matters. Photo by Theodore Nguyen on Pexels.",
+          "caption": "None of the above applies here. A stall menu board is not a regulated label, which is why prepared and street food is a completely different problem from packaged food. Photo by Theodore Nguyen on Pexels.",
           "ext": ".jpg",
           "exists": true
         },
         {
           "url": "/assets/images/posts/215/seoul-street-food-stall-allergen-questions.jpg",
           "alt": "A Korean street-food stall with ramen and tteokbokki packaging, showing why menu boards and packaged ingredients can overlap.",
-          "caption": "Street-food stalls may mix menu-board information, packaged ingredients, and prepared sauces. Ask clearly if the ingredient matters. Photo by Theodore Nguyen on Pexels.",
+          "caption": "Street stalls mix packaged ingredients with sauces made on site. The packet has a regulated label; what happens in the pan does not. Photo by Theodore Nguyen on Pexels.",
           "ext": ".jpg",
           "exists": true
         },
         {
           "url": "/assets/images/posts/215/seoul-shop-package-carrying.jpg",
           "alt": "A Korean street scene with a person carrying a package, a reminder that the useful details are often on the back label or product page.",
-          "caption": "Front packaging gives mood. The back label gives decisions. Photo by Theodore Nguyen on Pexels.",
+          "caption": "Front packaging sells the mood. The back has the regulated part. Photo by Theodore Nguyen on Pexels.",
           "ext": ".jpg",
           "exists": true
         }
