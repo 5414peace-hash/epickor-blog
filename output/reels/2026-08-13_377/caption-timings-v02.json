@@ -1,0 +1,266 @@
+{
+  "slug": "377",
+  "version": "v02",
+  "fps": 30,
+  "generatedAt": "2026-08-13T02:14:03.017Z",
+  "method": "ElevenLabs Forced Alignment against the approved narration transcript",
+  "captionLeadFrames": 5,
+  "safeZone": {
+    "left": 76,
+    "right": 76,
+    "bottom": 410,
+    "maxWidth": 928
+  },
+  "parts": [
+    {
+      "part": 1,
+      "transcript": "Every Korean convenience store has a small shelf right beside the till, at eye level, full of little bottles and foil sticks you can't read. And here's what visitors get backwards. Koreans take these on the way into the night. Not the morning after.",
+      "alignmentLoss": 0.03509350521976211,
+      "wordCount": 44,
+      "beatCount": 8,
+      "firstWordStart": 0.239,
+      "lastWordEnd": 11.219
+    },
+    {
+      "part": 2,
+      "transcript": "The one that started the whole category launched in 1992, and it still holds about forty-four percent of the market. Now look near the bottom of the stick. There's a small badge there that almost everyone walks straight past.",
+      "alignmentLoss": 0.040487044122483995,
+      "wordCount": 39,
+      "beatCount": 7,
+      "firstWordStart": 0.179,
+      "lastWordEnd": 9.359
+    },
+    {
+      "part": 3,
+      "transcript": "Since January 2025, anything sold in Korea that advertises hangover relief has to prove it. On actual humans. The ministry reviewed twenty-eight products, and three could not produce evidence that held up. They lost the right to say the word. Koreans already know which ones to skip. The rest is at epickor dot com.",
+      "alignmentLoss": 0.0756069610989283,
+      "wordCount": 54,
+      "beatCount": 9,
+      "firstWordStart": 0.219,
+      "lastWordEnd": 15.42
+    }
+  ],
+  "beats": [
+    {
+      "part": 1,
+      "text": "Every Korean convenience store has",
+      "startFrame": 14,
+      "endFrame": 60,
+      "sourceStartSeconds": 0.239,
+      "sourceEndSeconds": 1.759,
+      "wordCount": 5
+    },
+    {
+      "part": 1,
+      "text": "a small shelf right beside the till,",
+      "startFrame": 61,
+      "endFrame": 112,
+      "sourceStartSeconds": 1.819,
+      "sourceEndSeconds": 3.439,
+      "wordCount": 7
+    },
+    {
+      "part": 1,
+      "text": "at eye level,",
+      "startFrame": 113,
+      "endFrame": 134,
+      "sourceStartSeconds": 3.559,
+      "sourceEndSeconds": 4.159,
+      "wordCount": 3
+    },
+    {
+      "part": 1,
+      "text": "full of little bottles",
+      "startFrame": 135,
+      "endFrame": 159,
+      "sourceStartSeconds": 4.279,
+      "sourceEndSeconds": 5.079,
+      "wordCount": 4
+    },
+    {
+      "part": 1,
+      "text": "and foil sticks you can't read.",
+      "startFrame": 160,
+      "endFrame": 202,
+      "sourceStartSeconds": 5.119,
+      "sourceEndSeconds": 6.379,
+      "wordCount": 6
+    },
+    {
+      "part": 1,
+      "text": "And here's what visitors get backwards.",
+      "startFrame": 203,
+      "endFrame": 256,
+      "sourceStartSeconds": 6.539,
+      "sourceEndSeconds": 8.079,
+      "wordCount": 6
+    },
+    {
+      "part": 1,
+      "text": "Koreans take these on the way into the night.",
+      "startFrame": 257,
+      "endFrame": 315,
+      "sourceStartSeconds": 8.34,
+      "sourceEndSeconds": 10.179,
+      "wordCount": 9
+    },
+    {
+      "part": 1,
+      "text": "Not the morning after.",
+      "startFrame": 316,
+      "endFrame": 356,
+      "sourceStartSeconds": 10.319,
+      "sourceEndSeconds": 11.219,
+      "wordCount": 4
+    },
+    {
+      "part": 2,
+      "text": "The one that started",
+      "startFrame": 363,
+      "endFrame": 387,
+      "sourceStartSeconds": 0.179,
+      "sourceEndSeconds": 1,
+      "wordCount": 4
+    },
+    {
+      "part": 2,
+      "text": "the whole category launched in 1992,",
+      "startFrame": 388,
+      "endFrame": 445,
+      "sourceStartSeconds": 1.019,
+      "sourceEndSeconds": 2.879,
+      "wordCount": 6
+    },
+    {
+      "part": 2,
+      "text": "and it still holds about",
+      "startFrame": 446,
+      "endFrame": 477,
+      "sourceStartSeconds": 2.939,
+      "sourceEndSeconds": 3.959,
+      "wordCount": 5
+    },
+    {
+      "part": 2,
+      "text": "forty-four percent of the market.",
+      "startFrame": 478,
+      "endFrame": 517,
+      "sourceStartSeconds": 4.019,
+      "sourceEndSeconds": 5.259,
+      "wordCount": 5
+    },
+    {
+      "part": 2,
+      "text": "Now look near the bottom of the stick.",
+      "startFrame": 518,
+      "endFrame": 558,
+      "sourceStartSeconds": 5.339,
+      "sourceEndSeconds": 6.659,
+      "wordCount": 8
+    },
+    {
+      "part": 2,
+      "text": "There's a small badge there",
+      "startFrame": 559,
+      "endFrame": 586,
+      "sourceStartSeconds": 6.699,
+      "sourceEndSeconds": 7.619,
+      "wordCount": 5
+    },
+    {
+      "part": 2,
+      "text": "that almost everyone walks straight past.",
+      "startFrame": 587,
+      "endFrame": 651,
+      "sourceStartSeconds": 7.659,
+      "sourceEndSeconds": 9.359,
+      "wordCount": 6
+    },
+    {
+      "part": 3,
+      "text": "Since January 2025,",
+      "startFrame": 659,
+      "endFrame": 706,
+      "sourceStartSeconds": 0.219,
+      "sourceEndSeconds": 1.679,
+      "wordCount": 3
+    },
+    {
+      "part": 3,
+      "text": "anything sold in Korea",
+      "startFrame": 707,
+      "endFrame": 738,
+      "sourceStartSeconds": 1.799,
+      "sourceEndSeconds": 2.839,
+      "wordCount": 4
+    },
+    {
+      "part": 3,
+      "text": "that advertises hangover relief has to prove it.",
+      "startFrame": 739,
+      "endFrame": 808,
+      "sourceStartSeconds": 2.879,
+      "sourceEndSeconds": 5.019,
+      "wordCount": 8
+    },
+    {
+      "part": 3,
+      "text": "On actual humans.",
+      "startFrame": 809,
+      "endFrame": 842,
+      "sourceStartSeconds": 5.199,
+      "sourceEndSeconds": 6.139,
+      "wordCount": 3
+    },
+    {
+      "part": 3,
+      "text": "The ministry reviewed twenty-eight products,",
+      "startFrame": 843,
+      "endFrame": 897,
+      "sourceStartSeconds": 6.359,
+      "sourceEndSeconds": 8.119,
+      "wordCount": 5
+    },
+    {
+      "part": 3,
+      "text": "and three could not produce evidence that held up.",
+      "startFrame": 898,
+      "endFrame": 961,
+      "sourceStartSeconds": 8.179,
+      "sourceEndSeconds": 10.139,
+      "wordCount": 9
+    },
+    {
+      "part": 3,
+      "text": "They lost the right to say the word.",
+      "startFrame": 962,
+      "endFrame": 1013,
+      "sourceStartSeconds": 10.319,
+      "sourceEndSeconds": 11.699,
+      "wordCount": 8
+    },
+    {
+      "part": 3,
+      "text": "Koreans already know which ones to skip.",
+      "startFrame": 1014,
+      "endFrame": 1071,
+      "sourceStartSeconds": 12.059,
+      "sourceEndSeconds": 13.759,
+      "wordCount": 7
+    },
+    {
+      "part": 3,
+      "text": "The rest is at epickor dot com.",
+      "startFrame": 1072,
+      "endFrame": 1128,
+      "sourceStartSeconds": 13.96,
+      "sourceEndSeconds": 15.42,
+      "wordCount": 7
+    }
+  ],
+  "coverage": {
+    "transcriptWords": 137,
+    "captionWords": 137,
+    "audioParts": 3
+  }
+}

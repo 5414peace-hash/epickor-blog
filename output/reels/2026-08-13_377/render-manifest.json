@@ -1,0 +1,182 @@
+{
+  "slug": "377",
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "durationInFrames": 1186,
+  "outroFrom": 1014,
+  "cuts": [
+    {
+      "n": 1,
+      "from": 0,
+      "len": 203,
+      "kind": "specimen"
+    },
+    {
+      "n": 2,
+      "from": 203,
+      "len": 160,
+      "kind": "specimen"
+    },
+    {
+      "n": 3,
+      "from": 363,
+      "len": 155,
+      "kind": "specimen"
+    },
+    {
+      "n": 4,
+      "from": 518,
+      "len": 141,
+      "kind": "specimen"
+    },
+    {
+      "n": 5,
+      "from": 659,
+      "len": 184,
+      "kind": "specimen"
+    },
+    {
+      "n": 6,
+      "from": 843,
+      "len": 171,
+      "kind": "specimen"
+    }
+  ],
+  "beats": [
+    {
+      "text": "Every Korean convenience store has",
+      "startFrame": 14,
+      "endFrame": 60
+    },
+    {
+      "text": "a small shelf right beside the till,",
+      "startFrame": 61,
+      "endFrame": 112
+    },
+    {
+      "text": "at eye level,",
+      "startFrame": 113,
+      "endFrame": 134
+    },
+    {
+      "text": "full of little bottles",
+      "startFrame": 135,
+      "endFrame": 159
+    },
+    {
+      "text": "and foil sticks you can't read.",
+      "startFrame": 160,
+      "endFrame": 202
+    },
+    {
+      "text": "And here's what visitors get backwards.",
+      "startFrame": 203,
+      "endFrame": 256
+    },
+    {
+      "text": "Koreans take these on the way into the night.",
+      "startFrame": 257,
+      "endFrame": 315
+    },
+    {
+      "text": "Not the morning after.",
+      "startFrame": 316,
+      "endFrame": 356
+    },
+    {
+      "text": "The one that started",
+      "startFrame": 363,
+      "endFrame": 387
+    },
+    {
+      "text": "the whole category launched in 1992,",
+      "startFrame": 388,
+      "endFrame": 445
+    },
+    {
+      "text": "and it still holds about",
+      "startFrame": 446,
+      "endFrame": 477
+    },
+    {
+      "text": "forty-four percent of the market.",
+      "startFrame": 478,
+      "endFrame": 517
+    },
+    {
+      "text": "Now look near the bottom of the stick.",
+      "startFrame": 518,
+      "endFrame": 558
+    },
+    {
+      "text": "There's a small badge there",
+      "startFrame": 559,
+      "endFrame": 586
+    },
+    {
+      "text": "that almost everyone walks straight past.",
+      "startFrame": 587,
+      "endFrame": 651
+    },
+    {
+      "text": "Since January 2025,",
+      "startFrame": 659,
+      "endFrame": 706
+    },
+    {
+      "text": "anything sold in Korea",
+      "startFrame": 707,
+      "endFrame": 738
+    },
+    {
+      "text": "that advertises hangover relief has to prove it.",
+      "startFrame": 739,
+      "endFrame": 808
+    },
+    {
+      "text": "On actual humans.",
+      "startFrame": 809,
+      "endFrame": 842
+    },
+    {
+      "text": "The ministry reviewed twenty-eight products,",
+      "startFrame": 843,
+      "endFrame": 897
+    },
+    {
+      "text": "and three could not produce evidence that held up.",
+      "startFrame": 898,
+      "endFrame": 961
+    },
+    {
+      "text": "They lost the right to say the word.",
+      "startFrame": 962,
+      "endFrame": 1013
+    },
+    {
+      "text": "Koreans already know which ones to skip.",
+      "startFrame": 1014,
+      "endFrame": 1071
+    },
+    {
+      "text": "The rest is at epickor.com.",
+      "startFrame": 1072,
+      "endFrame": 1128
+    }
+  ],
+  "audio": [
+    {
+      "part": 1,
+      "startFrame": 12
+    },
+    {
+      "part": 2,
+      "startFrame": 363
+    },
+    {
+      "part": 3,
+      "startFrame": 658
+    }
+  ]
+}

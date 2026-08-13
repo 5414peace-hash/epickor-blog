@@ -1,0 +1,118 @@
+{
+  "slug": "377",
+  "specimens": [
+    {
+      "file": "sticks.png",
+      "source": "inno-n.com/.../con_list-04.png",
+      "keyedBox": {
+        "left": 112,
+        "top": 182,
+        "width": 882,
+        "height": 782
+      },
+      "size": "882x782",
+      "bytes": 736063,
+      "shows": "seven Condition sticks, the rack the reel opens on"
+    },
+    {
+      "file": "bottle-green.png",
+      "source": "inno-n.com/.../con_list-01.png",
+      "keyedBox": {
+        "left": 396,
+        "top": 94,
+        "width": 314,
+        "height": 919
+      },
+      "size": "314x919",
+      "bytes": 364537,
+      "shows": "the 1992 bottle format, still sold"
+    },
+    {
+      "file": "bottle-ceo.png",
+      "source": "inno-n.com/.../con_list-02.png",
+      "keyedBox": {
+        "left": 398,
+        "top": 64,
+        "width": 310,
+        "height": 934
+      },
+      "size": "310x934",
+      "bytes": 503088,
+      "shows": "Condition CEO"
+    },
+    {
+      "file": "bottle-lady.png",
+      "source": "inno-n.com/.../con_list-03.png",
+      "keyedBox": {
+        "left": 392,
+        "top": 84,
+        "width": 321,
+        "height": 940
+      },
+      "size": "321x940",
+      "bytes": 461157,
+      "shows": "Condition Lady"
+    },
+    {
+      "file": "pill-sachet.png",
+      "source": "inno-n.com/.../con_list-05.png",
+      "keyedBox": {
+        "left": 427,
+        "top": 208,
+        "width": 251,
+        "height": 692
+      },
+      "size": "251x692",
+      "bytes": 226374,
+      "shows": "Condition 환, the pill format"
+    },
+    {
+      "file": "bottle-sparkling.png",
+      "source": "inno-n.com/.../con_list-06.png",
+      "keyedBox": {
+        "left": 392,
+        "top": 84,
+        "width": 322,
+        "height": 939
+      },
+      "size": "322x939",
+      "bytes": 377722,
+      "shows": "Condition ZERO sparkling"
+    },
+    {
+      "file": "bottle-zero.png",
+      "source": "inno-n.com/.../con_list-07.png",
+      "keyedBox": {
+        "left": 392,
+        "top": 84,
+        "width": 321,
+        "height": 940
+      },
+      "size": "321x940",
+      "bytes": 611303,
+      "shows": "Condition Zero grapefruit"
+    },
+    {
+      "file": "sticks-badge.png",
+      "source": "crop of con_list-04",
+      "keyedBox": {
+        "left": 318,
+        "top": 469,
+        "width": 300,
+        "height": 235
+      },
+      "size": "1000x?",
+      "bytes": 666471,
+      "shows": "the 인체적용시험완료 badge row — shown, not asked to be read"
+    },
+    {
+      "file": "haejangguk.jpg",
+      "source": "Commons, CC0",
+      "keyedBox": null,
+      "size": "1080x1920",
+      "bytes": 286356,
+      "luma": 135,
+      "shows": "해장국 — the morning-after remedy, under the outro"
+    }
+  ]
+}

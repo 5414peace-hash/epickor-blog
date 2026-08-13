@@ -32,10 +32,31 @@ does not feel repetitive.
 - A and F are the universal pair — alternate them when nothing topic-specific fits.
 - Reel 311 (tteokbokki, ordering guide) uses **B — `DON'T ORDER BLIND`**.
 
-## Optional spoken tag
+## Spoken tag — required, and it must say the domain
 
-Default is silent. If a Reel ends with energy that supports a spoken close, use a short tag that
-matches the chosen hook, never a generic "link in bio":
+**Representative instruction, 2026-08-13**: *"마지막에 epickor.com 을 한번 나레이션으로 윺어주면
+좋은데, 그건 다음편에는 그렇게하자."* From Reel 377 onward the outro carries a spoken line and
+that line **says `epickor.com` out loud**. A viewer watching with sound cannot read a chip, and the
+domain is the only thing in the frame they can act on.
+
+This section previously read "default is silent", which is why Reel 376 shipped with a silent close.
+That default was already stale: the 2026-08-11 batch had moved every reel to a spoken CTA after a
+silent card sat for 7.3 seconds at the end of the Suneung reel. **Silent outros are no longer a
+default and no longer an option** — write the tag into voice part 3 so the forced alignment carries it,
+rather than generating a fourth clip.
+
+Pair the hook with the domain, never a generic "link in bio":
+
+- A: "There's more at epickor dot com."
+- B: "Don't order blind — it's all at epickor dot com."
+- C: "The locals know the rest. So does epickor dot com."
+- D: "Sort it out before you land, at epickor dot com."
+- E: "We wrote it all down at epickor dot com."
+- F: "No paywall, no app. Epickor dot com."
+
+Spell it "epickor dot com" in the narration text — TTS reads a bare URL as letters.
+
+Older guidance, kept for reels before 377:
 
 - B: "Don't order blind."
 - D: "Sort it out before you land."

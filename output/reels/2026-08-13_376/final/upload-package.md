@@ -1,6 +1,7 @@
 # Reel 376 Upload Package — "The tag decides, not the app"
 
-- **Status**: awaiting representative phone review (sound on and off). Not yet approved.
+- **Status**: **representative-approved 2026-08-13** ("좋아 이걸로 마무리하자"). Upload-package-ready — hold
+  until Reels 377 and 379 are finished, then schedule the three together.
 - **Source post**: `content/blog/376.md` → https://epickor.com/blog/376
 - **Frame design**: Split Grid (design L, MATCH 01) — `remotion/SplitGridKit.tsx`, first use
 - **Candidate render**: `output/reels/2026-08-13_376/epickor-reel-376-v006.mp4`
@@ -34,7 +35,7 @@
 | Caption safe zone | `left:72 right:128 bottom:410`, ported unchanged from `Batch0811Kit` |
 | Copy floor | Label tiles restricted to grid rows 1–3; `GridScene` throws if one is placed outside |
 | Korea-first | All five source photographs are Korea-shot with Korean signage and packaging |
-| **Phone review** | **OUTSTANDING — representative, sound on and off** |
+| Representative review | **APPROVED 2026-08-13** |
 
 ## What changed between renders
 
@@ -71,6 +72,14 @@ Every claim in the video and the caption is carried by the source post:
 - No promotional claim is overlaid onto a product whose promotion status is unverifiable. The `2+1`
   strip visible in cut 1 is really in the photograph; the GS25 liquor shelf in cut 3 carries only the
   `₩` label, because those bottles' promotion status cannot be read from the photo.
+
+## Carried to the next reel
+
+The representative accepted this one as final but flagged one thing for 377 onward: *"마지막에
+epickor.com 을 한번 나레이션으로 윺어주면 좋은데, 그건 다음편에는 그렇게하자."* The outro
+here closes silent on the red chip. `output/reels/outro-cta-bank.md` has been rewritten: the spoken
+tag is now required and must say the domain aloud, written into voice part 3 so the alignment carries
+it. Do not re-derive this — the bank's old "default is silent" line is what produced the silent close.
 
 ## Scheduling
 

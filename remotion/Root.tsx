@@ -29,6 +29,7 @@ import { Reel320Composition } from './Reel320Composition';
 import { HubDrinksReel, HubRamyunReel, HubSeoulReel } from './HubReels';
 import { CheonggyecheonReel, SungnyemunReel, SuneungReel } from './Batch0811Reels';
 import { Reel376, REEL_376_FRAMES } from './Reel376';
+import { Reel377, REEL_377_FRAMES } from './Reel377';
 import type { ReelProps } from './types';
 
 const defaultReelProps: ReelProps = {
@@ -333,6 +334,14 @@ function Root() {
         height={1920}
         fps={30}
         durationInFrames={REEL_376_FRAMES}
+      />
+      <Composition
+        id="Reel377"
+        component={Reel377}
+        width={1080}
+        height={1920}
+        fps={30}
+        durationInFrames={REEL_377_FRAMES}
       />
       <Composition
         id="Cheonggyecheon"
