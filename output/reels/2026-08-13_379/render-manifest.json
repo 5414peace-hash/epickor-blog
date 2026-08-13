@@ -1,0 +1,167 @@
+{
+  "slug": "379",
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "durationInFrames": 1141,
+  "outroFrom": 1015,
+  "cuts": [
+    {
+      "n": 1,
+      "from": 0,
+      "len": 155,
+      "kind": "specimen"
+    },
+    {
+      "n": 2,
+      "from": 155,
+      "len": 173,
+      "kind": "specimen"
+    },
+    {
+      "n": 3,
+      "from": 328,
+      "len": 206,
+      "kind": "specimen"
+    },
+    {
+      "n": 4,
+      "from": 534,
+      "len": 167,
+      "kind": "specimen"
+    },
+    {
+      "n": 5,
+      "from": 701,
+      "len": 191,
+      "kind": "specimen"
+    },
+    {
+      "n": 6,
+      "from": 892,
+      "len": 123,
+      "kind": "specimen"
+    }
+  ],
+  "beats": [
+    {
+      "text": "Busan's fireworks night is a bridge show,",
+      "startFrame": 12,
+      "endFrame": 65
+    },
+    {
+      "text": "and that's not a figure of speech.",
+      "startFrame": 66,
+      "endFrame": 105
+    },
+    {
+      "text": "The Gwangan Bridge isn't the backdrop.",
+      "startFrame": 106,
+      "endFrame": 154
+    },
+    {
+      "text": "The deck itself is the launch platform,",
+      "startFrame": 155,
+      "endFrame": 205
+    },
+    {
+      "text": "and the cascades fall",
+      "startFrame": 206,
+      "endFrame": 235
+    },
+    {
+      "text": "from the span into the water.",
+      "startFrame": 236,
+      "endFrame": 279
+    },
+    {
+      "text": "Seventh of November.",
+      "startFrame": 280,
+      "endFrame": 321
+    },
+    {
+      "text": "Which makes it the hardest ticket in Busan.",
+      "startFrame": 328,
+      "endFrame": 394
+    },
+    {
+      "text": "Last year fourteen thousand seats went on sale,",
+      "startFrame": 395,
+      "endFrame": 466
+    },
+    {
+      "text": "and the early-bird block sold out in one minute.",
+      "startFrame": 467,
+      "endFrame": 533
+    },
+    {
+      "text": "For 2026 nothing has been published yet,",
+      "startFrame": 534,
+      "endFrame": 604
+    },
+    {
+      "text": "and if it follows last year,",
+      "startFrame": 605,
+      "endFrame": 640
+    },
+    {
+      "text": "that window is late August.",
+      "startFrame": 641,
+      "endFrame": 694
+    },
+    {
+      "text": "On the day the bridge closes completely.",
+      "startFrame": 701,
+      "endFrame": 747
+    },
+    {
+      "text": "They are setting off explosives from a motorway.",
+      "startFrame": 748,
+      "endFrame": 812
+    },
+    {
+      "text": "Trains can run straight through",
+      "startFrame": 813,
+      "endFrame": 844
+    },
+    {
+      "text": "the beach stations without stopping.",
+      "startFrame": 845,
+      "endFrame": 891
+    },
+    {
+      "text": "But almost everyone there watches for free,",
+      "startFrame": 892,
+      "endFrame": 946
+    },
+    {
+      "text": "from sand facing exactly the same bridge.",
+      "startFrame": 947,
+      "endFrame": 1014
+    },
+    {
+      "text": "Plan it before you land,",
+      "startFrame": 1015,
+      "endFrame": 1043
+    },
+    {
+      "text": "at epickor.com.",
+      "startFrame": 1044,
+      "endFrame": 1083
+    }
+  ],
+  "audio": [
+    {
+      "part": 1,
+      "startFrame": 12
+    },
+    {
+      "part": 2,
+      "startFrame": 328
+    },
+    {
+      "part": 3,
+      "startFrame": 701
+    }
+  ]
+}

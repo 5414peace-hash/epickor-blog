@@ -1,0 +1,239 @@
+{
+  "slug": "379",
+  "version": "v02",
+  "fps": 30,
+  "generatedAt": "2026-08-13T02:38:36.556Z",
+  "method": "ElevenLabs Forced Alignment against the approved narration transcript",
+  "captionLeadFrames": 5,
+  "safeZone": {
+    "left": 76,
+    "right": 76,
+    "bottom": 410,
+    "maxWidth": 928
+  },
+  "parts": [
+    {
+      "part": 1,
+      "transcript": "Busan's fireworks night is a bridge show, and that's not a figure of speech. The Gwangan Bridge isn't the backdrop. The deck itself is the launch platform, and the cascades fall from the span into the water. Seventh of November.",
+      "alignmentLoss": 0.0647076263762357,
+      "wordCount": 40,
+      "beatCount": 7,
+      "firstWordStart": 0.179,
+      "lastWordEnd": 10.059
+    },
+    {
+      "part": 2,
+      "transcript": "Which makes it the hardest ticket in Busan. Last year fourteen thousand seats went on sale, and the early-bird block sold out in one minute. For 2026 nothing has been published yet, and if it follows last year, that window is late August.",
+      "alignmentLoss": 0.07799603558388077,
+      "wordCount": 43,
+      "beatCount": 6,
+      "firstWordStart": 0.179,
+      "lastWordEnd": 11.96
+    },
+    {
+      "part": 3,
+      "transcript": "On the day the bridge closes completely. They are setting off explosives from a motorway. Trains can run straight through the beach stations without stopping. But almost everyone there watches for free, from sand facing exactly the same bridge. Plan it before you land, at epickor dot com.",
+      "alignmentLoss": 0.10235747952774735,
+      "wordCount": 48,
+      "beatCount": 8,
+      "firstWordStart": 0.179,
+      "lastWordEnd": 12.539
+    }
+  ],
+  "beats": [
+    {
+      "part": 1,
+      "text": "Busan's fireworks night is a bridge show,",
+      "startFrame": 12,
+      "endFrame": 65,
+      "sourceStartSeconds": 0.179,
+      "sourceEndSeconds": 1.879,
+      "wordCount": 7
+    },
+    {
+      "part": 1,
+      "text": "and that's not a figure of speech.",
+      "startFrame": 66,
+      "endFrame": 105,
+      "sourceStartSeconds": 1.979,
+      "sourceEndSeconds": 3.24,
+      "wordCount": 7
+    },
+    {
+      "part": 1,
+      "text": "The Gwangan Bridge isn't the backdrop.",
+      "startFrame": 106,
+      "endFrame": 154,
+      "sourceStartSeconds": 3.319,
+      "sourceEndSeconds": 4.88,
+      "wordCount": 6
+    },
+    {
+      "part": 1,
+      "text": "The deck itself is the launch platform,",
+      "startFrame": 155,
+      "endFrame": 205,
+      "sourceStartSeconds": 4.94,
+      "sourceEndSeconds": 6.559,
+      "wordCount": 7
+    },
+    {
+      "part": 1,
+      "text": "and the cascades fall",
+      "startFrame": 206,
+      "endFrame": 235,
+      "sourceStartSeconds": 6.639,
+      "sourceEndSeconds": 7.559,
+      "wordCount": 4
+    },
+    {
+      "part": 1,
+      "text": "from the span into the water.",
+      "startFrame": 236,
+      "endFrame": 279,
+      "sourceStartSeconds": 7.639,
+      "sourceEndSeconds": 8.819,
+      "wordCount": 6
+    },
+    {
+      "part": 1,
+      "text": "Seventh of November.",
+      "startFrame": 280,
+      "endFrame": 321,
+      "sourceStartSeconds": 9.099,
+      "sourceEndSeconds": 10.059,
+      "wordCount": 3
+    },
+    {
+      "part": 2,
+      "text": "Which makes it the hardest ticket in Busan.",
+      "startFrame": 328,
+      "endFrame": 394,
+      "sourceStartSeconds": 0.179,
+      "sourceEndSeconds": 2.18,
+      "wordCount": 8
+    },
+    {
+      "part": 2,
+      "text": "Last year fourteen thousand seats went on sale,",
+      "startFrame": 395,
+      "endFrame": 466,
+      "sourceStartSeconds": 2.419,
+      "sourceEndSeconds": 4.619,
+      "wordCount": 8
+    },
+    {
+      "part": 2,
+      "text": "and the early-bird block sold out in one minute.",
+      "startFrame": 467,
+      "endFrame": 533,
+      "sourceStartSeconds": 4.799,
+      "sourceEndSeconds": 6.779,
+      "wordCount": 9
+    },
+    {
+      "part": 2,
+      "text": "For 2026 nothing has been published yet,",
+      "startFrame": 534,
+      "endFrame": 604,
+      "sourceStartSeconds": 7.059,
+      "sourceEndSeconds": 9.359,
+      "wordCount": 7
+    },
+    {
+      "part": 2,
+      "text": "and if it follows last year,",
+      "startFrame": 605,
+      "endFrame": 640,
+      "sourceStartSeconds": 9.42,
+      "sourceEndSeconds": 10.519,
+      "wordCount": 6
+    },
+    {
+      "part": 2,
+      "text": "that window is late August.",
+      "startFrame": 641,
+      "endFrame": 694,
+      "sourceStartSeconds": 10.599,
+      "sourceEndSeconds": 11.96,
+      "wordCount": 5
+    },
+    {
+      "part": 3,
+      "text": "On the day the bridge closes completely.",
+      "startFrame": 701,
+      "endFrame": 747,
+      "sourceStartSeconds": 0.179,
+      "sourceEndSeconds": 1.659,
+      "wordCount": 7
+    },
+    {
+      "part": 3,
+      "text": "They are setting off explosives from a motorway.",
+      "startFrame": 748,
+      "endFrame": 812,
+      "sourceStartSeconds": 1.74,
+      "sourceEndSeconds": 3.759,
+      "wordCount": 8
+    },
+    {
+      "part": 3,
+      "text": "Trains can run straight through",
+      "startFrame": 813,
+      "endFrame": 844,
+      "sourceStartSeconds": 3.899,
+      "sourceEndSeconds": 4.96,
+      "wordCount": 5
+    },
+    {
+      "part": 3,
+      "text": "the beach stations without stopping.",
+      "startFrame": 845,
+      "endFrame": 891,
+      "sourceStartSeconds": 4.98,
+      "sourceEndSeconds": 6.42,
+      "wordCount": 5
+    },
+    {
+      "part": 3,
+      "text": "But almost everyone there watches for free,",
+      "startFrame": 892,
+      "endFrame": 946,
+      "sourceStartSeconds": 6.539,
+      "sourceEndSeconds": 8.159,
+      "wordCount": 7
+    },
+    {
+      "part": 3,
+      "text": "from sand facing exactly the same bridge.",
+      "startFrame": 947,
+      "endFrame": 1014,
+      "sourceStartSeconds": 8.38,
+      "sourceEndSeconds": 10.5,
+      "wordCount": 7
+    },
+    {
+      "part": 3,
+      "text": "Plan it before you land,",
+      "startFrame": 1015,
+      "endFrame": 1043,
+      "sourceStartSeconds": 10.639,
+      "sourceEndSeconds": 11.559,
+      "wordCount": 5
+    },
+    {
+      "part": 3,
+      "text": "at epickor dot com.",
+      "startFrame": 1044,
+      "endFrame": 1083,
+      "sourceStartSeconds": 11.619,
+      "sourceEndSeconds": 12.539,
+      "wordCount": 4
+    }
+  ],
+  "coverage": {
+    "transcriptWords": 131,
+    "captionWords": 131,
+    "audioParts": 3
+  }
+}

@@ -1556,3 +1556,14 @@
 - **2026-08-13 — 컨디션 스틱의 `숙취개선효과 인체적용시험완료` 배지는 1106px 원본에서 읽힌다.**
   처음에 "6배 업스케일이 필요해 못 읽는다"고 판단했는데 **틀렸다.** 스틱 3개 폭으로 크롭해 1000px로 올리면
   본문이 또렷하다. 릴스 377이 그 크롭에 지시선을 꽂아 쓴다.
+- **2026-08-13 — Commons에 부산불꽃축제 자료가 충분하다. 단 라이선스를 반드시 읽는다.**
+  퍼블릭도메인 확인분: `Busan Firework Festival 2008-1.jpg`(3648x2736, RedMosQ — **379 히어로와 같은 촬영분의
+  고해상도판**), `Busan Gwangan Bridge pylon at night 01.jpg`(1920x2880 세로, Spike),
+  `Gwangan Bridge and Gwangalli Beach - Gwangalli2721.jpg`(CC0).
+  **`2008 Busan Firework Festival-Niagara1.JPG`는 다리 상판에서 떨어지는 폭포(나이아가라)라 이 주제에 최적이지만
+  CC BY-SA 2.0 kr이라 못 쓴다** — ShareAlike가 영상 전체에 전염된다. 재검토 전에 라이선스부터 다시 볼 것.
+  2008년 시리즈 대부분이 CC BY-SA다.
+- **2026-08-13 — 릴스 3종 배치 완성 (376/377/379), 각기 다른 킷.**
+  `SplitGridKit`(어두운 모자이크) / `SpecSheetKit`(밝은 기술문서) / `TimelineKit`(시간이 레이아웃 축).
+  실측 휘도로 배치 대비 확인: 376=49~107, 377=196~225, 379=44~71. **세 편이 나란히 올라가도 같은 템플릿으로
+  안 읽힌다.** 셋 다 `Batch0726Kit`의 `Cut`/`VoiceTrack`/`clamp`와 세이프존(left72/right128/bottom410)을 공유한다.

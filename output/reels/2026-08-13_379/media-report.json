@@ -1,0 +1,119 @@
+{
+  "slug": "379",
+  "plates": [
+    {
+      "file": "fireworks-span.jpg",
+      "source": ".tmp/379src/Busan_Firework_Festival_2008-1.jpg",
+      "licence": "Public domain — RedMosQ, Wikimedia Commons",
+      "crop": {
+        "left": 350,
+        "top": 0,
+        "width": 2955,
+        "height": 2736
+      },
+      "sourceSize": "3648x2736",
+      "size": "1080x1000",
+      "upscale": 0.37,
+      "luma": 84,
+      "bytes": 192750,
+      "shows": "fireworks along the full span of the Gwangan Bridge over a crowd of raised cameras"
+    },
+    {
+      "file": "bridge-pylon-night.jpg",
+      "source": ".tmp/379src/Busan_Gwangan_Bridge_pylon_at_night_01.jpg",
+      "licence": "Public domain — Spike, Wikimedia Commons",
+      "crop": {
+        "left": 300,
+        "top": 1150,
+        "width": 1350,
+        "height": 1250
+      },
+      "sourceSize": "1920x2880",
+      "size": "1080x1000",
+      "upscale": 0.8,
+      "luma": 63,
+      "bytes": 204559,
+      "shows": "the lit pylon and the underside of the deck — the structure that does the launching"
+    },
+    {
+      "file": "crowd-waiting.jpg",
+      "source": ".tmp/379src/Busan_Firework_Festival_2008-1.jpg",
+      "licence": "Public domain — RedMosQ, Wikimedia Commons",
+      "crop": {
+        "left": 1200,
+        "top": 1380,
+        "width": 903,
+        "height": 836
+      },
+      "sourceSize": "3648x2736",
+      "size": "1080x1000",
+      "upscale": 1.2,
+      "luma": 119,
+      "bytes": 185311,
+      "shows": "raised cameras against the burst line — the crowd waiting"
+    },
+    {
+      "file": "gwangalli-sightline.jpg",
+      "source": "public/assets/images/posts/379/gwangalli-beach-bridge-sightline.jpg",
+      "licence": "as documented in the post",
+      "crop": {
+        "left": 300,
+        "top": 0,
+        "width": 913,
+        "height": 845
+      },
+      "sourceSize": "1500x845",
+      "size": "1080x1000",
+      "upscale": 1.18,
+      "luma": 110,
+      "bytes": 162593,
+      "shows": "the beach the paid seating is laid out on, facing the bridge broadside"
+    },
+    {
+      "file": "gwangalli-wide.jpg",
+      "source": "public/assets/images/posts/379/gwangalli-beach-bridge-sightline.jpg",
+      "licence": "as documented in the post",
+      "crop": {
+        "left": 550,
+        "top": 0,
+        "width": 913,
+        "height": 845
+      },
+      "sourceSize": "1500x845",
+      "size": "1080x1000",
+      "upscale": 1.18,
+      "luma": 110,
+      "bytes": 157233,
+      "shows": "the free sand, facing the same bridge"
+    },
+    {
+      "file": "bay-from-igidae.jpg",
+      "source": "public/assets/images/posts/379/gwangan-bridge-from-igidae.jpg",
+      "licence": "as documented in the post",
+      "crop": {
+        "left": 250,
+        "top": 0,
+        "width": 913,
+        "height": 844
+      },
+      "sourceSize": "1500x844",
+      "size": "1080x1000",
+      "upscale": 1.18,
+      "luma": 108,
+      "bytes": 90643,
+      "shows": "the whole bay from Igidae — the city that has to move around the closure"
+    },
+    {
+      "file": "outro-fireworks.jpg",
+      "source": ".tmp/379src/Busan_Firework_Festival_2008-1.jpg",
+      "licence": "Public domain — RedMosQ",
+      "crop": null,
+      "sourceSize": "3648x2736",
+      "size": "1080x1920",
+      "upscale": 0.7,
+      "luma": 90,
+      "bytes": 334111,
+      "shows": "the closing image, 9:16"
+    }
+  ]
+}
