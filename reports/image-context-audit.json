@@ -1,10 +1,10 @@
 {
   "summary": {
-    "generatedAt": "2026-08-13T08:48:46.526Z",
-    "auditedPosts": 372,
+    "generatedAt": "2026-08-13T13:19:18.043Z",
+    "auditedPosts": 373,
     "includedPrivate": false,
     "slugFilter": "",
-    "bodyImages": 1346,
+    "bodyImages": 1349,
     "affectedPosts": 98,
     "critical": 0,
     "high": 0,
@@ -13911,6 +13911,38 @@
           "url": "/assets/images/posts/381/spam-complex-teuk-ho.jpg",
           "alt": "An open navy gift box containing eight 200g Spam cans and four small flat cans around the edges, with three bottles of Beksul grapeseed oil, cooking oligosaccharide syrup and canola oil in the centre, plus herb salt and black pepper grinders.",
           "caption": "스팸복합 특호 — eight 200g cans and four small flat ones, wrapped around three bottles of CJ's 백설 cooking oils and syrup plus two seasoning grinders. Listed ₩90,900, selling at ₩55,449. Product image: CJ CheilJedang.",
+          "ext": ".jpg",
+          "exists": true
+        }
+      ],
+      "findings": []
+    },
+    {
+      "type": "blog",
+      "slug": "382",
+      "title": "Why Your Phone Screams in Korea: Emergency Alerts, Air-Raid Sirens, and Telling Them Apart",
+      "contentPath": "content\\blog\\382.md",
+      "sourceRecord": "public\\assets\\images\\posts\\382\\image-sources.md",
+      "imageCount": 3,
+      "images": [
+        {
+          "url": "/assets/images/posts/382/civil-defence-drill-vehicle-control.jpg",
+          "alt": "Four South Korean soldiers in helmets and white cross-belts standing in a line across an empty multi-lane road, holding red traffic batons, with stopped traffic visible in the distance behind them.",
+          "caption": "This is what a civil defence drill looks like on the ground: soldiers holding a road while it empties. Photographed during a nationwide drill at the north end of Hannam Bridge. Photo: Republic of Korea Armed Forces, Wikimedia Commons (CC BY-SA 2.0).",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/382/sejong-daero-traffic.jpg",
+          "alt": "Sejong-daero seen from the south, a wide empty boulevard running north toward Gwanghwamun Gate and the mountain behind it, with the Admiral Yi Sun-sin statue on the left.",
+          "caption": "Sejong-daero, the street that gets the vehicle-control section. It is also the single most tourist-dense stretch of road in Seoul, which is why this drill catches so many visitors. Photo: Michaela den, Wikimedia Commons (CC BY-SA 3.0).",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/382/emergency-ready-app-seoul-official.jpg",
+          "alt": "The Seoul Metropolitan Government's English website showing the Emergency Ready App page, with app screenshots and multilingual feature cards for emergency alerts, safety guidelines and shelters.",
+          "caption": "The Emergency Ready App is made by the Ministry of the Interior and Safety and carries disaster information in 22 languages. Screenshot: Seoul Metropolitan Government official English site, 13 August 2026.",
           "ext": ".jpg",
           "exists": true
         }
