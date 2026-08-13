@@ -13,9 +13,10 @@
  * gets the treatment its sentence actually is:
  *
  *   1  assemble   the mosaic builds, then RESOLVES on "one plus one / two plus
- *                 one" so the shelf of real 2+1 tags lands whole. The dissolve is
- *                 the beat; there are no label cards here, because putting one on
- *                 the frame would cover the evidence the hook rests on.
+ *                 one" while the 1+1 and 2+1 cards flip in on those same words, so
+ *                 what the dissolve leaves behind is the photograph plus exactly
+ *                 two cards. The cards sit on row 3: the plate's own pink 2+1 tags
+ *                 own rows 0-1 and a card up there covers the hook's evidence.
  *   2  cards      the only cut with no photograph behind it. "No card, no coupon,
  *                 no app" is literally a list of three, so it is built as three
  *                 cards beside a photo card of the gift-card rack.
@@ -54,9 +55,21 @@ const ONS: CutOns[] = [
       line1: 'THE TAG DECIDES,',
       line2: 'NOT THE APP',
       foot: 'Korean convenience-store deals',
+      // Lifted off the default 700 so the card stack below it clears y=1340 and the
+      // plate's own 2+1 tags keep the top of the frame to themselves.
+      top: 580,
     },
-    // The grid resolves across "One plus one." (beat 2) into "Two plus one." (beat 3).
+    // The grid resolves across "One plus one." (beat 2) into "Two plus one." (beat 3)
+    // and the two cards flip in on the same words, so what the dissolve leaves behind
+    // is the photograph plus exactly two cards. Representative note 2026-08-13:
+    // "1+1 2+1 할때 카드형식으로 바뀌는 인트로 좋았는데 그걸 없애버렸네. 그걸 살려다오."
     dissolveAt: at(1, 2, 4),
+    tiles: [
+      // Row 3. The real pink 2+1 tags in this plate sit in rows 0-1; a card up there
+      // would cover the evidence the hook rests on.
+      { i: 12, kind: 'chip', label: '1+1', at: at(1, 2) },   // "One plus one."
+      { i: 15, kind: 'cyan', label: '2+1', at: at(1, 3) },   // "Two plus one."
+    ],
   },
   {
     cut: 2,

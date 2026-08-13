@@ -13,7 +13,7 @@
 
 | Axis | Score | Reasoning |
 |---|---|---|
-| Hook strength | 18/20 | First frame is a real `2+1` banner on a CU freezer — physical proof before a word is spoken. Not a mood shot. |
+| Hook strength | 19/20 | First frame is a chilled shelf carrying four real pink `2+1` tags with the promo window printed on them — physical proof before a word is spoken, and legible at grid-thumbnail size. |
 | Misconception payload | 20/20 | The reel inverts the single most-repeated English-guide tip. That tip is wrong for the viewer watching. |
 | Payoff is a reveal, not a list | 17/20 | The gate lands on a storefront ATM — identity hardware in frame. Visual, not a card. |
 | Save/share reason | 16/20 | "Don't waste time in the app" is actionable before landing. Save-worthy for a first Seoul trip. |
@@ -28,12 +28,14 @@ normally block a topic whose key beat is an action event. **This reel has no act
 its subject is a *sticker on a shelf*, a static object by nature. So the deficiency is structural, not
 accidental, and the frame has to carry the motion instead of the footage.
 
-Split Grid does exactly that: the image is diced into a mosaic and the tiles arrive, flip, and lock on
-their own schedule. The motion is authored, so it is unaffected by the source being still.
+Split Grid does exactly that: the image is diced into a mosaic and the tiles arrive, flip, peel and
+resolve on their own schedule. The motion is authored, so it is unaffected by the source being still.
 
-Two of the five photos are *already grids* — the CU freezer bins (`335`) and the GS25 shelf-edge tag row
-(`376`) — so the mosaic lands on structure that is really in the photograph rather than being imposed on
-it. That alignment is the reason this topic was matched to this frame and not to H or L's siblings.
+Three of the five photographs are *already grids* — the chilled shelf of 2+1 tags (`171`), the CU freezer
+bins (`335`) and the GS25 shelf-edge tag row (`376`) — so the mosaic lands on structure that is really in
+the photograph rather than being imposed on it. That alignment is why this topic drew this frame.
+
+The grid is a device rather than a permanent state; see "Why the grid is not on every cut" below.
 
 ## Hook archetype
 
@@ -42,8 +44,9 @@ the chain's app and collect it later. The reel accepts that premise for 25 secon
 
 ## First-frame promise
 
-A real blue `2+1` product strip on a CU ice-cream freezer, with `1+1` mosaic tiles landing over it and
-the headline `THE TAG DECIDES, / NOT THE APP`. The promise: there is a rule here you are getting wrong.
+A chilled shelf wearing four real pink `2+1` tags, the mosaic resolving into `1+1` and `2+1` cards on the
+words themselves, and the headline `THE TAG DECIDES, / NOT THE APP`. The promise: there is a rule here
+you are getting wrong.
 
 ## Viewer misconception
 
@@ -56,9 +59,10 @@ verification. Signing in with Apple or Google does not route around it; the gate
 
 ## Payoff
 
-The final cut is a GS25 storefront with a bank ATM standing in the doorway. The mosaic locks into a
-closed grid over it as the narration says the sign-up needs Korean ID. The image and the sentence say
-the same thing at the same moment.
+The final cut is a GS25 storefront with a bank ATM standing in the doorway. The seams close and the grid
+dims to a 2×2 spotlight on the ATM as the narration names the gate — then it **opens**, leaving the ATM
+whole. The image and the sentence say the same thing at the same moment, and the reel ends on a reveal
+rather than on a lock.
 
 ## Save/share reason
 
@@ -98,7 +102,7 @@ it was rewritten to 144 words before any cutting.
 
 | # | Frames | Sec | Plate | Mode | Spoken beat |
 |---|---|---|---|---|---|
-| 1 | 0–243 | 8.1 | `c1-2plus1-tags` | **assemble** — the mosaic builds, then resolves across "one plus one / two plus one" so the shelf of real 2+1 tags lands whole | half the fridge is wearing a sticker |
+| 1 | 0–243 | 8.1 | `c1-2plus1-tags` | **assemble** — the mosaic builds, then resolves across "one plus one / two plus one" while the `1+1` and `2+1` cards flip in on those words; what is left is the photograph plus exactly two cards | half the fridge is wearing a sticker |
 | 2 | 244–348 | 3.5 | *(no photo ground)* | **cards** — three negation cards beside a photo card of the gift-card rack | no card / no coupon / no app |
 | 3 | 349–552 | 6.8 | `c3-shelf-tags` | **lift** — the tag wall stays whole; four tiles peel off its surface | it's settled at the shelf edge |
 | 4 | 553–735 | 6.1 | `c4-icecream-bins` | **lift** — same, on bins that are already a lattice in the photograph | lug a second ice cream around Seoul |
@@ -115,9 +119,15 @@ the ATM on the payoff. A card-news carousel is swipeable because the card *type*
 slides; if every card is the same, it is a pattern rather than a carousel. So the grid now appears and
 resolves. It also means the grid's arrival carries information again.
 
-Two consequences worth keeping: the hook has **no label cards at all**, because any card placed there
-would cover the evidence the hook rests on — the dissolve itself is the beat. And the payoff **opens**
-instead of staying shut; v003 closed and held, which reads as the video ending rather than revealing.
+The payoff **opens** instead of staying shut; v003 closed and held, which reads as the video ending
+rather than revealing.
+
+A first pass at this also stripped the `1+1` / `2+1` cards off the hook, on the reasoning that any card
+there would cover the plate's own pink tags. Representative note: *"1+1 2+1 할때 카드형식으로 바뀌는
+인트로 좋았는데 그걸 없애버렸네. 그걸 살려다오."* The flip was the part worth keeping — the fix was to move
+the cards to row 3 rather than to delete them. The plate's real tags own rows 0–1, the opening card sits
+at y=580, and the cards land below it, so the evidence and the flip both survive. The dissolve now
+resolves *into* those two cards instead of into a bare photograph, which is stronger than either.
 
 Total **40.5s**. Narration 35.2s across three parts.
 

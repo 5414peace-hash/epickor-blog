@@ -3,7 +3,7 @@
 - **Status**: awaiting representative phone review (sound on and off). Not yet approved.
 - **Source post**: `content/blog/376.md` → https://epickor.com/blog/376
 - **Frame design**: Split Grid (design L, MATCH 01) — `remotion/SplitGridKit.tsx`, first use
-- **Candidate render**: `output/reels/2026-08-13_376/epickor-reel-376-v005.mp4`
+- **Candidate render**: `output/reels/2026-08-13_376/epickor-reel-376-v006.mp4`
 - **Superseded, kept for comparison**: `v003` (grid on every cut, background repeated)
 - **Caption**: `output/reels/2026-08-13_376/final/instagram-caption.txt`
 - **Strategy**: `output/reels/2026-08-13_376/strategy.md`
@@ -26,9 +26,9 @@
 
 | Gate | Result |
 |---|---|
-| `reels:qa-audio` | **PASS** on v005 — no silence ≥0.6s inside narration. v001 **FAILED** at 0.92s / 0.87s and was rebuilt. |
-| `reels:qa-cuts` | **PASS** on v005 — all six cuts show what the narration says at that moment, no DARK flags. Sheet: `cut-sheet-v005.jpg` |
-| Frame luminance | 49–102 across the six cuts. v004 flagged **DARK** on cut 2 at 37 and the veils were cut back. |
+| `reels:qa-audio` | **PASS** on v006 — no silence ≥0.6s inside narration. v001 **FAILED** at 0.92s / 0.87s and was rebuilt. |
+| `reels:qa-cuts` | **PASS** on v006 — all six cuts show what the narration says at that moment, no DARK flags. Sheet: `cut-sheet-v006.jpg` |
+| Frame luminance | 49–107 across the six cuts. v004 flagged **DARK** on cut 2 at 37 and the veils were cut back. |
 | Plate luminance | 99–128 across six plates (the 2026-08-04 failure was 16) |
 | Plate upscale | 1.03×–2.48×, all under the 2.67× reject line |
 | Caption safe zone | `left:72 right:128 bottom:410`, ported unchanged from `Batch0811Kit` |
@@ -53,6 +53,11 @@
 - **v004 → v005**: `qa-cuts` flagged cut 2 DARK at luma 37 and the other cuts had drifted to 72–88 once
   the top scrim was stacked on the full-frame veils. Veils cut back; the scrim keeps the top rail
   legible on its own.
+- **v005 → v006** (representative review): *"1+1 2+1 할때 카드형식으로 바뀌는 인트로 좋았는데 그걸
+  없애버렸네. 그걸 살려다오."* The v004 rework had stripped the two flipping cards off the hook to
+  avoid covering the plate's own pink tags. Restored, moved to row 3 with the opening card lifted to
+  y=580, so the tags keep rows 0–1 and the flip survives — the dissolve now resolves *into* two cards
+  instead of into a bare photograph.
 
 ## Accuracy notes
 

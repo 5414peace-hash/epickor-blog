@@ -103,7 +103,7 @@ export type CutOns = {
   kicker: string;
   mode: GridMode;
   /** opening card — cut 1 only, doubles as the grid thumbnail */
-  headline?: { line1: string; line2: string; foot: string };
+  headline?: { line1: string; line2: string; foot: string; top?: number };
   tiles?: TileLabel[];
   /** `lift` mode: which photo tiles peel off the surface */
   lift?: number[];
@@ -416,8 +416,7 @@ function GridScene({ src, ons, cardSrc }: { src: string; ons: CutOns; cardSrc?: 
       <AbsoluteFill style={{ background: T.ink }}>
         <Plate src={src} dim={0.22 * out} />
         {Array.from({ length: COLS * ROWS }, (_, i) => (
-          labelled.has(i) ? null
-            : <PhotoTile key={i} src={src} i={i} gap={6} dim={0} fade={out} />
+          <PhotoTile key={i} src={src} i={i} gap={6} dim={0} fade={out} />
         ))}
         <Hairlines opacity={0.1 * (1 - out)} />
         {labels}
@@ -510,13 +509,13 @@ function Kicker({ text, n }: { text: string; n: number }) {
  * The opening card. Frame 0 is the Instagram grid thumbnail, so this sits inside
  * the conservative safe area and states the reel's thesis rather than the post title.
  */
-function OpeningCard({ line1, line2, foot }: { line1: string; line2: string; foot: string }) {
+function OpeningCard({ line1, line2, foot, top = 700 }: { line1: string; line2: string; foot: string; top?: number }) {
   const frame = useCurrentFrame();
   const rise = clamp(frame, [10, 30], [0, 1]);
   const rule = clamp(frame, [22, 44], [0, 1]);
   return (
     <TextGate style={{
-      position: 'absolute', left: 84, right: 84, top: 700, zIndex: 130,
+      position: 'absolute', left: 84, right: 84, top, zIndex: 130,
       opacity: rise, transform: `translateY(${(1 - rise) * 26}px)`,
     }}>
       <div style={{
