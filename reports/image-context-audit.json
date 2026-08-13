@@ -1,10 +1,10 @@
 {
   "summary": {
-    "generatedAt": "2026-08-12T12:08:56.968Z",
-    "auditedPosts": 370,
+    "generatedAt": "2026-08-13T08:48:46.526Z",
+    "auditedPosts": 372,
     "includedPrivate": false,
     "slugFilter": "",
-    "bodyImages": 1339,
+    "bodyImages": 1346,
     "affectedPosts": 98,
     "critical": 0,
     "high": 0,
@@ -7346,7 +7346,7 @@
     {
       "type": "blog",
       "slug": "200",
-      "title": "Chuseok 2026: Korea Slows Down 24-26 September, and Train Tickets Open 20 August",
+      "title": "Chuseok 2026: Korea Slows Down 24-26 September, and Train Booking Opens in Late August",
       "contentPath": "content\\blog\\200.md",
       "sourceRecord": "public\\assets\\images\\posts\\200\\image-sources.md",
       "imageCount": 4,
@@ -13840,6 +13840,77 @@
           "url": "/assets/images/posts/379/gwangan-bridge-from-igidae.jpg",
           "alt": "The full span of Gwangan Bridge seen from Igidae Park across the bay, with the Gwangalli and Haeundae skyline and a mountain ridge behind it.",
           "caption": "The Igidae angle in daylight, so the geometry is readable: the entire bridge broadside, city behind. At night, with the bridge firing, this is the frame most of the famous photographs come from. Photo: The Big Cat, Wikimedia Commons (CC BY 2.0).",
+          "ext": ".jpg",
+          "exists": true
+        }
+      ],
+      "findings": []
+    },
+    {
+      "type": "blog",
+      "slug": "380",
+      "title": "Korea's KTX and SRT Merge on 1 September: Cheaper Fares, One App, One Thing to Do First",
+      "contentPath": "content\\blog\\380.md",
+      "sourceRecord": "public\\assets\\images\\posts\\380\\image-sources.md",
+      "imageCount": 3,
+      "images": [
+        {
+          "url": "/assets/images/posts/380/srt-train-becomes-ktx-sancheon.jpg",
+          "alt": "An SRT high-speed train stopped at a platform, photographed from the front quarter. The maroon SRT logo is large and clearly readable on the white nose, with unit number 209 below it, and a blue Korail commuter train is visible on the adjacent track.",
+          "caption": "The two operators, side by side on adjacent tracks — and the branding on the left is the part that disappears. From 1 September these trains run as KTX-Sancheon. Photo: Hajoon0102, Wikimedia Commons (CC BY-SA 4.0).",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/380/suseo-station-hall.jpg",
+          "alt": "The concourse of Suseo SRT station, seen from above an escalator. A large banner reads \"수서역 SRT 개통을 축하합니다,\" departure boards and START SRT signage are visible, and travellers cross the polished floor below a steel-truss roof.",
+          "caption": "Suseo's concourse, with the banner celebrating the SRT's opening still up. That launch is what is now being folded back into Korail. Photo: Minseong Kim, Wikimedia Commons (CC BY-SA 4.0).",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/380/srt-standard-class-seats.jpg",
+          "alt": "The interior of an SRT standard-class carriage, looking down the aisle. Rows of magenta seats with white headrest covers carrying the SR logo run to the end of the car, with an information screen above the far door.",
+          "caption": "Standard class on the Suseo-line trains. Worth seeing before you assume the cheaper fare bought you a worse seat — from September this is simply a KTX-Sancheon carriage, SR headrest covers and all. Photo: Rsa, Wikimedia Commons (CC BY-SA 3.0).",
+          "ext": ".jpg",
+          "exists": true
+        }
+      ],
+      "findings": []
+    },
+    {
+      "type": "blog",
+      "slug": "381",
+      "title": "Korea's Spam Gift Sets Explained: What the Numbers Mean and Which One to Buy",
+      "contentPath": "content\\blog\\381.md",
+      "sourceRecord": "public\\assets\\images\\posts\\381\\image-sources.md",
+      "imageCount": 4,
+      "images": [
+        {
+          "url": "/assets/images/posts/381/spam-gift-set-1ho.jpg",
+          "alt": "A navy Spam presentation box, opened, holding twelve large 340g cans of 스팸 클래식 in three rows of four, with a green silk pouch and a paper envelope in front of it.",
+          "caption": "스팸1호 — twelve 340g cans, the largest of the standard sets. The tan band on the right reads NO CAP FOR US, which is its own story. Product image: CJ CheilJedang, 2026 Chuseok range.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/381/spam-gift-set-3ho.jpg",
+          "alt": "A navy Spam gift box holding twelve cans in two visibly different sizes — a row of small 200g cans at the top and larger 340g cans below.",
+          "caption": "스팸3호 mixes can sizes: six 340g and six 200g. Count the cans and you get twelve either way, which is why the total weight, not the can count, is the number to compare. Product image: CJ CheilJedang.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/381/spam-gift-set-8ho.jpg",
+          "alt": "A navy Spam gift box with nine 200g cans arranged in three rows of three, a pine sprig visible at the left edge.",
+          "caption": "스팸8호 — nine 200g cans. This is the size most often given between colleagues and neighbours rather than within a family. Product image: CJ CheilJedang.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/381/spam-complex-teuk-ho.jpg",
+          "alt": "An open navy gift box containing eight 200g Spam cans and four small flat cans around the edges, with three bottles of Beksul grapeseed oil, cooking oligosaccharide syrup and canola oil in the centre, plus herb salt and black pepper grinders.",
+          "caption": "스팸복합 특호 — eight 200g cans and four small flat ones, wrapped around three bottles of CJ's 백설 cooking oils and syrup plus two seasoning grinders. Listed ₩90,900, selling at ₩55,449. Product image: CJ CheilJedang.",
           "ext": ".jpg",
           "exists": true
         }
