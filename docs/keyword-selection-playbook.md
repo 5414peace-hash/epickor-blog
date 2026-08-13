@@ -370,6 +370,20 @@ START: you have a candidate keyword
 │     → Verified: SERP returns Walmart/Amazon/Costco/sayweee/yami only.
 │       ZERO editorial results. Unwinnable with an article.
 │
+│     ⚠️ EXCEPTION — "in Seoul" / "in Korea" flips this (added 2026-08-13).
+│     The marker rejects PRODUCT queries, not DESTINATION queries. Scope is
+│     what decides it:
+│         "where to buy buldak"            → Amazon/Walmart own it. REJECT.
+│         "where to buy luggage IN SEOUL"  → no retailer can occupy a city
+│                                            aisle question. ACCEPT.
+│     Evidence: `275` (Yongsan tech shopping) is the site's best-converting
+│     page at 9.27% CTR and this rule as originally written would have killed
+│     it. Six "where to buy X in seoul" seeds tested — souvenirs, skincare,
+│     clothes, luggage, hanbok, glasses — all returned 12-15 branches and ALL
+│     SIX carried a `reddit` suffix in the top two, i.e. Google is not
+│     answering them. See `output/strategy/section_seoul-shopping-playbook.md`.
+│     Still reject if the branches show foreign cities (diaspora trap, §1c).
+│
 ├─ 3. LOCAL MARKERS present?  ─────────────────────────────────► REJECT
 │     any non-Korean city/state name ("korean corn dog atlanta")
 │     → Local pack owns it. We are not a local business anywhere.

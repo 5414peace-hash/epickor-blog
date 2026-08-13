@@ -1,0 +1,513 @@
+{
+ "subject": "서울 쇼핑 코너 — 착수 기준선",
+ "baselineTakenOn": "2026-08-13",
+ "source": "output/gsc/https___www.epickor.com_-Performance-on-Search-2026-08-07/페이지.csv",
+ "window": "2026-05-05 ~ 2026-08-04 (92일)",
+ "selection": "제목에 쇼핑 관련어(shopping|store|shop|buy|market|mall|브랜드명|시장명)가 포함된 발행글",
+ "excluded": {
+  "261": "Korea Stock Market — \"market\"가 증시를 뜻함, 쇼핑 아님"
+ },
+ "metric": "클릭수",
+ "metricNote": "시계열 비교는 클릭으로만. 노출·CTR은 2025-05-13~2026-04 구글 과다집계 버그 구간이라 시간에 걸친 비교 불가 (CLAUDE.md / FACTS.md).",
+ "judgeNote": "다음 GSC 추출에서 같은 55편의 클릭 합계를 다시 잰다. 이후 발행분은 절대값으로만 본다. 발행 6주 미만은 판정하지 않는다.",
+ "totals": {
+  "posts": 54,
+  "clicks": 239,
+  "impressions": 23481,
+  "ctr": 1.018,
+  "siteWideCtr": 0.39
+ },
+ "knownIssues": [
+  "074: 노출 9,613 / 클릭 11 / 0.11%. 코너 노출의 36%를 혼자 만든다. GSC 쿼리에 따옴표 연산자 쿼리가 다수 잡혀 봇 오염 가능성 있음 — 조사 전에는 제목 문제로 단정하지 말 것.",
+  "중복: 다이소 218 vs 148, 올리브영 192 vs 028, 박물관굿즈 300 vs 155. 권위가 반으로 쪼개져 있음.",
+  "173(969노출 0클릭 p11), 232(735 0 p9)는 순위가 페이지 2라 제목 문제와 순위 문제를 구분해야 함."
+ ],
+ "posts": [
+  {
+   "slug": "171",
+   "shortSlug": "171",
+   "title": "Korean Convenience Store Breakfast: What Locals Buy",
+   "clicks": 64,
+   "impressions": 1924,
+   "ctr": 3.33,
+   "position": 6.97
+  },
+  {
+   "slug": "218",
+   "shortSlug": "218",
+   "title": "Daiso Korea Must-Buy Guide: Beauty, Travel, Souvenirs",
+   "clicks": 41,
+   "impressions": 806,
+   "ctr": 5.09,
+   "position": 7.85
+  },
+  {
+   "slug": "275",
+   "shortSlug": "275",
+   "title": "Seoul Tech Shopping: What Yongsan Actually Is Now, and Where to Buy Instead",
+   "clicks": 33,
+   "impressions": 356,
+   "ctr": 9.27,
+   "position": 8.3
+  },
+  {
+   "slug": "194",
+   "shortSlug": "194",
+   "title": "Korean Gift-Giving Culture: What to Bring and Avoid",
+   "clicks": 17,
+   "impressions": 1279,
+   "ctr": 1.33,
+   "position": 9.85
+  },
+  {
+   "slug": "074-the-world-of-underground-shopping-malls-in-korea",
+   "shortSlug": "074",
+   "title": "Seoul Underground Shopping: 25 City-Run Arcades, and Why Hongdae Isn't One",
+   "clicks": 11,
+   "impressions": 9613,
+   "ctr": 0.11,
+   "position": 8.05
+  },
+  {
+   "slug": "203",
+   "shortSlug": "203",
+   "title": "Korea Mosquito Season Guide: Packing and Local Buys",
+   "clicks": 11,
+   "impressions": 1128,
+   "ctr": 0.98,
+   "position": 8.56
+  },
+  {
+   "slug": "300",
+   "shortSlug": "300",
+   "title": "Seoul Museum Gift Shop Guide 2026: MU:DS and MMCA",
+   "clicks": 9,
+   "impressions": 183,
+   "ctr": 4.92,
+   "position": 8.1
+  },
+  {
+   "slug": "272",
+   "shortSlug": "272",
+   "title": "Seoul Character Store Guide 2026: Kakao, LINE, Artbox",
+   "clicks": 6,
+   "impressions": 156,
+   "ctr": 3.85,
+   "position": 6.33
+  },
+  {
+   "slug": "193",
+   "shortSlug": "193",
+   "title": "Korean Pop-Up Store Culture: Why Seoul Lines Up for Limited Drops",
+   "clicks": 6,
+   "impressions": 140,
+   "ctr": 4.29,
+   "position": 8.71
+  },
+  {
+   "slug": "175",
+   "shortSlug": "175",
+   "title": "Namdaemun vs Dongdaemun: Which Seoul Market to Visit",
+   "clicks": 5,
+   "impressions": 1975,
+   "ctr": 0.25,
+   "position": 12.24
+  },
+  {
+   "slug": "206",
+   "shortSlug": "206",
+   "title": "Korea Tax Refund Guide: Receipts, Kiosks, Olive Young",
+   "clicks": 5,
+   "impressions": 615,
+   "ctr": 0.81,
+   "position": 9.29
+  },
+  {
+   "slug": "255",
+   "shortSlug": "255",
+   "title": "Korean Department Store Food Halls 2026: What To Eat In Seoul",
+   "clicks": 5,
+   "impressions": 422,
+   "ctr": 1.18,
+   "position": 8.35
+  },
+  {
+   "slug": "087-100-years-old-korean-restaurant-and-michelin-star",
+   "shortSlug": "087",
+   "title": "Seoul Nopo Restaurant Guide: Old Shops, Michelin, and Soup",
+   "clicks": 4,
+   "impressions": 750,
+   "ctr": 0.53,
+   "position": 10.41
+  },
+  {
+   "slug": "298",
+   "shortSlug": "298",
+   "title": "Seoul Stationery Shopping Guide 2026: Hottracks and Artbox",
+   "clicks": 4,
+   "impressions": 227,
+   "ctr": 1.76,
+   "position": 8.65
+  },
+  {
+   "slug": "134",
+   "shortSlug": "134",
+   "title": "K-Pop Merch in Korea: Lightsticks, Photocards, and Pop-Up Stores",
+   "clicks": 3,
+   "impressions": 183,
+   "ctr": 1.64,
+   "position": 8.74
+  },
+  {
+   "slug": "059-discover-the-tastiest-picks-at-korean-convenience-stores-with-baek-jong-won-and-kim-hye-ja",
+   "shortSlug": "059",
+   "title": "Korean Convenience Store Food Guide: Dosirak and Snacks",
+   "clicks": 3,
+   "impressions": 150,
+   "ctr": 2,
+   "position": 11.47
+  },
+  {
+   "slug": "148",
+   "shortSlug": "148",
+   "title": "Daiso Korea Shopping Guide: Beauty, Stationery, and Travel Finds",
+   "clicks": 2,
+   "impressions": 456,
+   "ctr": 0.44,
+   "position": 9.66
+  },
+  {
+   "slug": "258",
+   "shortSlug": "258",
+   "title": "Noryangjin Fish Market Guide 2026: Buy Seafood In Seoul",
+   "clicks": 2,
+   "impressions": 121,
+   "ctr": 1.65,
+   "position": 22.54
+  },
+  {
+   "slug": "305",
+   "shortSlug": "305",
+   "title": "Bojagi Wrapping Guide 2026: Korean Fabric Gift Wrap",
+   "clicks": 2,
+   "impressions": 88,
+   "ctr": 2.27,
+   "position": 12.84
+  },
+  {
+   "slug": "244",
+   "shortSlug": "244",
+   "title": "Seoul Glowcation Guide 2026: Beauty, Shopping, and Recovery",
+   "clicks": 2,
+   "impressions": 16,
+   "ctr": 12.5,
+   "position": 9.69
+  },
+  {
+   "slug": "345",
+   "shortSlug": "345",
+   "title": "Yonsei Cream Bread: Korea's 100-Million-Unit Convenience Store Bun",
+   "clicks": 1,
+   "impressions": 249,
+   "ctr": 0.4,
+   "position": 6.04
+  },
+  {
+   "slug": "207",
+   "shortSlug": "207",
+   "title": "Korea Beauty Clinic vs Olive Young 2026: Buy, Book, or Skip",
+   "clicks": 1,
+   "impressions": 73,
+   "ctr": 1.37,
+   "position": 13.4
+  },
+  {
+   "slug": "291",
+   "shortSlug": "291",
+   "title": "K-Pop Photocard Guide 2026: Buy, Trade, Avoid Fakes",
+   "clicks": 1,
+   "impressions": 59,
+   "ctr": 1.69,
+   "position": 10.71
+  },
+  {
+   "slug": "088-unique-things-youll-only-find-in-korea",
+   "shortSlug": "088",
+   "title": "Unique Things in Korea: Small Conveniences, Trust, and Transit",
+   "clicks": 1,
+   "impressions": 26,
+   "ctr": 3.85,
+   "position": 16.77
+  },
+  {
+   "slug": "173",
+   "shortSlug": "173",
+   "title": "Korea Tourist Shopping Route: Olive Young, Daiso, Musinsa",
+   "clicks": 0,
+   "impressions": 969,
+   "ctr": 0,
+   "position": 11.09
+  },
+  {
+   "slug": "232",
+   "shortSlug": "232",
+   "title": "K-Fashion Shopping Guide 2026: Seoul Brands Tour",
+   "clicks": 0,
+   "impressions": 735,
+   "ctr": 0,
+   "position": 8.5
+  },
+  {
+   "slug": "136",
+   "shortSlug": "136",
+   "title": "Korean Luxury Brands: What Actually Exists, and What to Buy in Seoul",
+   "clicks": 0,
+   "impressions": 151,
+   "ctr": 0,
+   "position": 33.36
+  },
+  {
+   "slug": "293",
+   "shortSlug": "293",
+   "title": "Seoul Bookstore and Library Guide 2026: Where to Read",
+   "clicks": 0,
+   "impressions": 78,
+   "ctr": 0,
+   "position": 7.03
+  },
+  {
+   "slug": "192",
+   "shortSlug": "192",
+   "title": "Olive Young Korea Guide: What to Buy and What to Skip",
+   "clicks": 0,
+   "impressions": 62,
+   "ctr": 0,
+   "position": 10.6
+  },
+  {
+   "slug": "237",
+   "shortSlug": "237",
+   "title": "Korean Fragrance Shopping 2026: Seoul Perfume Guide",
+   "clicks": 0,
+   "impressions": 54,
+   "ctr": 0,
+   "position": 9.91
+  },
+  {
+   "slug": "041-essential-souvenirs-to-pick-up-when-traveling-in-korea",
+   "shortSlug": "041",
+   "title": "Korean Souvenir Guide: What to Buy and What to Skip",
+   "clicks": 0,
+   "impressions": 53,
+   "ctr": 0,
+   "position": 25.75
+  },
+  {
+   "slug": "028-must-buy-k-beauty-items-in-korea-olive-young",
+   "shortSlug": "028",
+   "title": "Olive Young Korea Guide: What to Buy Without Overbuying",
+   "clicks": 0,
+   "impressions": 50,
+   "ctr": 0,
+   "position": 32.34
+  },
+  {
+   "slug": "242",
+   "shortSlug": "242",
+   "title": "Seoul Vintage Shopping 2026: Dongmyo to Hongdae",
+   "clicks": 0,
+   "impressions": 50,
+   "ctr": 0,
+   "position": 7.2
+  },
+  {
+   "slug": "240",
+   "shortSlug": "240",
+   "title": "Korean Color Contact Lens and Eyewear Shopping Guide 2026",
+   "clicks": 0,
+   "impressions": 48,
+   "ctr": 0,
+   "position": 13.4
+  },
+  {
+   "slug": "250",
+   "shortSlug": "250",
+   "title": "Korean Wellness Snacks: Olive Young's Own Brand Sold 30 Million Bags, and One Bag Is 240 Calories",
+   "clicks": 0,
+   "impressions": 41,
+   "ctr": 0,
+   "position": 7.07
+  },
+  {
+   "slug": "354",
+   "shortSlug": "354",
+   "title": "Mangwon-dong, Seoul: The Market Neighbourhood Locals Go To Instead of Hongdae",
+   "clicks": 0,
+   "impressions": 40,
+   "ctr": 0,
+   "position": 9.62
+  },
+  {
+   "slug": "361",
+   "shortSlug": "361",
+   "title": "Jin Ramen Mild vs Spicy: The Korean Ramyun Locals Buy Most Often",
+   "clicks": 0,
+   "impressions": 30,
+   "ctr": 0,
+   "position": 7.33
+  },
+  {
+   "slug": "346",
+   "shortSlug": "346",
+   "title": "Ansungtangmyun vs Shin Ramyun: Which Korean Ramyun to Buy First",
+   "clicks": 0,
+   "impressions": 29,
+   "ctr": 0,
+   "position": 4.03
+  },
+  {
+   "slug": "086-a-city-that-never-sleeps-seoul",
+   "shortSlug": "086",
+   "title": "Seoul Night Guide: Hangang, Cafes, Markets, and Transit",
+   "clicks": 0,
+   "impressions": 24,
+   "ctr": 0,
+   "position": 29.33
+  },
+  {
+   "slug": "209",
+   "shortSlug": "209",
+   "title": "Korean Grocery Store Tourism: What to Buy Before You Fly",
+   "clicks": 0,
+   "impressions": 22,
+   "ctr": 0,
+   "position": 11.64
+  },
+  {
+   "slug": "349",
+   "shortSlug": "349",
+   "title": "Euljiro Seoul Guide: Why the Machine Shops Become Bars at Night",
+   "clicks": 0,
+   "impressions": 17,
+   "ctr": 0,
+   "position": 9.24
+  },
+  {
+   "slug": "335",
+   "shortSlug": "335",
+   "title": "Korean Convenience Store Ice Cream, Ranked",
+   "clicks": 0,
+   "impressions": 12,
+   "ctr": 0,
+   "position": 5
+  },
+  {
+   "slug": "315",
+   "shortSlug": "315",
+   "title": "Myeongdong, Seoul: Street Food Prices and K-Beauty Shopping",
+   "clicks": 0,
+   "impressions": 9,
+   "ctr": 0,
+   "position": 10.67
+  },
+  {
+   "slug": "239",
+   "shortSlug": "239",
+   "title": "Korean Hair Care Shopping 2026: Scalp, Oils, Treatments",
+   "clicks": 0,
+   "impressions": 8,
+   "ctr": 0,
+   "position": 19.25
+  },
+  {
+   "slug": "356",
+   "shortSlug": "356",
+   "title": "Seochon, Seoul: The Valley Restored From a 300-Year-Old Painting",
+   "clicks": 0,
+   "impressions": 4,
+   "ctr": 0,
+   "position": 5.25
+  },
+  {
+   "slug": "029-discover-the-ultimate-korean-snacks-that-will-redefine-your-taste-experience",
+   "shortSlug": "029",
+   "title": "Korean Snacks Guide: What to Buy, Taste, and Pack",
+   "clicks": 0,
+   "impressions": 0,
+   "ctr": 0,
+   "position": null
+  },
+  {
+   "slug": "032-discover-why-viyott-yogurt-is-a-must-try-for-japanese-tourists-in-korea",
+   "shortSlug": "032",
+   "title": "Viyott Guide: Korea's Convenience-Store Yogurt Snack",
+   "clicks": 0,
+   "impressions": 0,
+   "ctr": 0,
+   "position": null
+  },
+  {
+   "slug": "053-3-must-visit-markets-in-seoul-korea",
+   "shortSlug": "053",
+   "title": "Three Seoul Markets: Gwangjang, Majang and Dongmyo",
+   "clicks": 0,
+   "impressions": 0,
+   "ctr": 0,
+   "position": null
+  },
+  {
+   "slug": "155",
+   "shortSlug": "155",
+   "title": "MU:DS Guide: How to Buy Korea's National Museum Souvenirs and Get Them Home",
+   "clicks": 0,
+   "impressions": 0,
+   "ctr": 0,
+   "position": null
+  },
+  {
+   "slug": "162",
+   "shortSlug": "162",
+   "title": "Korean Red Ginseng Guide: Benefits, Safety, and Buying Tips",
+   "clicks": 0,
+   "impressions": 0,
+   "ctr": 0,
+   "position": null
+  },
+  {
+   "slug": "165",
+   "shortSlug": "165",
+   "title": "K-Living Guide: Korean Warm Minimalism for Small Homes",
+   "clicks": 0,
+   "impressions": 0,
+   "ctr": 0,
+   "position": null
+  },
+  {
+   "slug": "177",
+   "shortSlug": "177",
+   "title": "Korean Cafe Culture: Why Coffee Shops Became Seoul's Third Place",
+   "clicks": 0,
+   "impressions": 0,
+   "ctr": 0,
+   "position": null
+  },
+  {
+   "slug": "376",
+   "shortSlug": "376",
+   "title": "Korean Convenience Store 1+1: How It Works and Who Can Bank the Free One",
+   "clicks": 0,
+   "impressions": 0,
+   "ctr": 0,
+   "position": null
+  },
+  {
+   "slug": "381",
+   "shortSlug": "381",
+   "title": "Korea's Spam Gift Sets Explained: What the Numbers Mean and Which One to Buy",
+   "clicks": 0,
+   "impressions": 0,
+   "ctr": 0,
+   "position": null
+  }
+ ]
+}
