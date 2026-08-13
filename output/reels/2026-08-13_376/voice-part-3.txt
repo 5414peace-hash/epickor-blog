@@ -1,0 +1,1 @@
+And that's the tip every English guide hands you. Here's the problem. Almost no visitor can actually use it. Signing up runs through Korean identity verification, and logging in with Apple doesn't get you around it. The gate is inside the app, not the login.

@@ -1,0 +1,109 @@
+{
+  "slug": "376",
+  "width": 1080,
+  "height": 1920,
+  "plates": [
+    {
+      "cut": 1,
+      "file": "c1-2plus1-freezer.jpg",
+      "source": "public/assets/images/posts/376/cu-store-interior-2plus1-freezer.jpg",
+      "crop": {
+        "left": 230,
+        "top": 0,
+        "width": 650,
+        "height": 1125
+      },
+      "sourceSize": "1500x1125",
+      "upscale": 1.66,
+      "luma": 115,
+      "line": "half the fridge is wearing a sticker / one plus one / two plus one",
+      "shows": "CU ice-cream freezer carrying the real blue 2+1 product strip",
+      "bytes": 430571
+    },
+    {
+      "cut": 2,
+      "file": "c2-app-giftcards.jpg",
+      "source": "public/assets/images/posts/376/cu-store-interior-2plus1-freezer.jpg",
+      "crop": {
+        "left": 590,
+        "top": 150,
+        "width": 478,
+        "height": 850
+      },
+      "sourceSize": "1500x1125",
+      "upscale": 2.26,
+      "luma": 104,
+      "line": "no membership card / no coupon / no app, and no minimum spend",
+      "shows": "Google Play and ONE store gift-card rack — the card and the app the deal does not need, both physically in frame",
+      "bytes": 415449
+    },
+    {
+      "cut": 3,
+      "file": "c3-shelf-tags.jpg",
+      "source": "public/assets/images/posts/376/gs25-shelf-edge-price-tags.jpg",
+      "crop": {
+        "left": 137,
+        "top": 0,
+        "width": 825,
+        "height": 1467
+      },
+      "sourceSize": "1100x1467",
+      "upscale": 1.31,
+      "luma": 99,
+      "line": "settled right at the shelf edge / if the tag says it",
+      "shows": "GS25 shelf-edge price tags with real won prices",
+      "bytes": 538244
+    },
+    {
+      "cut": 4,
+      "file": "c4-icecream-bins.jpg",
+      "source": "public/assets/images/posts/335/cu-store-ice-cream-section.jpg",
+      "crop": {
+        "left": 175,
+        "top": 0,
+        "width": 1050,
+        "height": 1866
+      },
+      "sourceSize": "1400x1866",
+      "upscale": 1.03,
+      "luma": 128,
+      "line": "lug a second ice cream around Seoul all afternoon",
+      "shows": "freezer bins of Korean ice cream — the second one you would be carrying",
+      "bytes": 536604
+    },
+    {
+      "cut": 5,
+      "file": "c5-gs25-storefront.jpg",
+      "source": "public/assets/images/posts/376/gs25-storefront-seoul-atm.jpg",
+      "crop": {
+        "left": 250,
+        "top": 260,
+        "width": 605,
+        "height": 1075
+      },
+      "sourceSize": "1100x1335",
+      "upscale": 1.79,
+      "luma": 110,
+      "line": "the tip every English guide hands you / here is the problem",
+      "shows": "GS25 Yeoksam storefront — the chain whose app the guides recommend",
+      "bytes": 458409
+    },
+    {
+      "cut": 6,
+      "file": "c6-gs25-atm-tight.jpg",
+      "source": "public/assets/images/posts/376/gs25-storefront-seoul-atm.jpg",
+      "crop": {
+        "left": 430,
+        "top": 560,
+        "width": 436,
+        "height": 775
+      },
+      "sourceSize": "1100x1335",
+      "upscale": 2.48,
+      "luma": 101,
+      "line": "signing up runs through Korean identity verification",
+      "shows": "the bank ATM in the GS25 doorway — identity hardware, in frame on the payoff line",
+      "bytes": 390166
+    }
+  ]
+}

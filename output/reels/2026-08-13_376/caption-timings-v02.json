@@ -1,0 +1,284 @@
+{
+  "slug": "376",
+  "version": "v02",
+  "fps": 30,
+  "generatedAt": "2026-08-13T00:44:07.719Z",
+  "method": "ElevenLabs Forced Alignment against the approved narration transcript",
+  "captionLeadFrames": 5,
+  "safeZone": {
+    "left": 76,
+    "right": 76,
+    "bottom": 410,
+    "maxWidth": 928
+  },
+  "parts": [
+    {
+      "part": 1,
+      "transcript": "Walk into any Korean convenience store and half the fridge is wearing a sticker. One plus one. Two plus one. Buy one, take two home. And here's what almost everyone gets wrong. No membership card. No coupon. No app, and no minimum spend.",
+      "alignmentLoss": 0.07045965204762004,
+      "wordCount": 43,
+      "beatCount": 9,
+      "firstWordStart": 0.179,
+      "lastWordEnd": 10.859
+    },
+    {
+      "part": 2,
+      "transcript": "The whole thing is settled at the shelf edge. If the tag says it, you pick the second one up yourself and carry both to the counter. Nobody scans anything. But say you don't want to lug a second ice cream around Seoul all afternoon. The chains do let you bank it in their app instead.",
+      "alignmentLoss": 0.02543246200386907,
+      "wordCount": 56,
+      "beatCount": 9,
+      "firstWordStart": 0.159,
+      "lastWordEnd": 12.439
+    },
+    {
+      "part": 3,
+      "transcript": "And that's the tip every English guide hands you. Here's the problem. Almost no visitor can actually use it. Signing up runs through Korean identity verification, and logging in with Apple doesn't get you around it. The gate is inside the app, not the login.",
+      "alignmentLoss": 0.03176129742186199,
+      "wordCount": 45,
+      "beatCount": 8,
+      "firstWordStart": 0.179,
+      "lastWordEnd": 11.279
+    }
+  ],
+  "beats": [
+    {
+      "part": 1,
+      "text": "Walk into any Korean convenience store",
+      "startFrame": 10,
+      "endFrame": 59,
+      "sourceStartSeconds": 0.179,
+      "sourceEndSeconds": 1.779,
+      "wordCount": 6
+    },
+    {
+      "part": 1,
+      "text": "and half the fridge is wearing a sticker.",
+      "startFrame": 60,
+      "endFrame": 108,
+      "sourceStartSeconds": 1.839,
+      "sourceEndSeconds": 3.299,
+      "wordCount": 8
+    },
+    {
+      "part": 1,
+      "text": "One plus one.",
+      "startFrame": 109,
+      "endFrame": 131,
+      "sourceStartSeconds": 3.48,
+      "sourceEndSeconds": 4.099,
+      "wordCount": 3
+    },
+    {
+      "part": 1,
+      "text": "Two plus one.",
+      "startFrame": 132,
+      "endFrame": 155,
+      "sourceStartSeconds": 4.259,
+      "sourceEndSeconds": 4.92,
+      "wordCount": 3
+    },
+    {
+      "part": 1,
+      "text": "Buy one, take two home.",
+      "startFrame": 156,
+      "endFrame": 198,
+      "sourceStartSeconds": 5.059,
+      "sourceEndSeconds": 6.299,
+      "wordCount": 5
+    },
+    {
+      "part": 1,
+      "text": "And here's what almost everyone gets wrong.",
+      "startFrame": 199,
+      "endFrame": 243,
+      "sourceStartSeconds": 6.46,
+      "sourceEndSeconds": 7.919,
+      "wordCount": 7
+    },
+    {
+      "part": 1,
+      "text": "No membership card.",
+      "startFrame": 244,
+      "endFrame": 269,
+      "sourceStartSeconds": 7.98,
+      "sourceEndSeconds": 8.779,
+      "wordCount": 3
+    },
+    {
+      "part": 1,
+      "text": "No coupon.",
+      "startFrame": 270,
+      "endFrame": 288,
+      "sourceStartSeconds": 8.84,
+      "sourceEndSeconds": 9.399,
+      "wordCount": 2
+    },
+    {
+      "part": 1,
+      "text": "No app, and no minimum spend.",
+      "startFrame": 289,
+      "endFrame": 342,
+      "sourceStartSeconds": 9.46,
+      "sourceEndSeconds": 10.859,
+      "wordCount": 6
+    },
+    {
+      "part": 2,
+      "text": "The whole thing is settled at the shelf edge.",
+      "startFrame": 349,
+      "endFrame": 407,
+      "sourceStartSeconds": 0.159,
+      "sourceEndSeconds": 2,
+      "wordCount": 9
+    },
+    {
+      "part": 2,
+      "text": "If the tag says it,",
+      "startFrame": 408,
+      "endFrame": 433,
+      "sourceStartSeconds": 2.159,
+      "sourceEndSeconds": 2.939,
+      "wordCount": 5
+    },
+    {
+      "part": 2,
+      "text": "you pick the second one up yourself",
+      "startFrame": 434,
+      "endFrame": 475,
+      "sourceStartSeconds": 3,
+      "sourceEndSeconds": 4.38,
+      "wordCount": 7
+    },
+    {
+      "part": 2,
+      "text": "and carry both to the counter.",
+      "startFrame": 476,
+      "endFrame": 518,
+      "sourceStartSeconds": 4.42,
+      "sourceEndSeconds": 5.659,
+      "wordCount": 6
+    },
+    {
+      "part": 2,
+      "text": "Nobody scans anything.",
+      "startFrame": 519,
+      "endFrame": 552,
+      "sourceStartSeconds": 5.839,
+      "sourceEndSeconds": 6.899,
+      "wordCount": 3
+    },
+    {
+      "part": 2,
+      "text": "But say you don't want to lug",
+      "startFrame": 553,
+      "endFrame": 582,
+      "sourceStartSeconds": 6.98,
+      "sourceEndSeconds": 7.94,
+      "wordCount": 7
+    },
+    {
+      "part": 2,
+      "text": "a second ice cream around Seoul all afternoon.",
+      "startFrame": 583,
+      "endFrame": 649,
+      "sourceStartSeconds": 7.98,
+      "sourceEndSeconds": 10,
+      "wordCount": 8
+    },
+    {
+      "part": 2,
+      "text": "The chains do let you bank it",
+      "startFrame": 650,
+      "endFrame": 685,
+      "sourceStartSeconds": 10.199,
+      "sourceEndSeconds": 11.38,
+      "wordCount": 7
+    },
+    {
+      "part": 2,
+      "text": "in their app instead.",
+      "startFrame": 686,
+      "endFrame": 729,
+      "sourceStartSeconds": 11.42,
+      "sourceEndSeconds": 12.439,
+      "wordCount": 4
+    },
+    {
+      "part": 3,
+      "text": "And that's the tip every English guide hands you.",
+      "startFrame": 736,
+      "endFrame": 797,
+      "sourceStartSeconds": 0.179,
+      "sourceEndSeconds": 2.159,
+      "wordCount": 9
+    },
+    {
+      "part": 3,
+      "text": "Here's the problem.",
+      "startFrame": 798,
+      "endFrame": 821,
+      "sourceStartSeconds": 2.259,
+      "sourceEndSeconds": 2.879,
+      "wordCount": 3
+    },
+    {
+      "part": 3,
+      "text": "Almost no visitor can actually use it.",
+      "startFrame": 822,
+      "endFrame": 877,
+      "sourceStartSeconds": 3.039,
+      "sourceEndSeconds": 4.739,
+      "wordCount": 7
+    },
+    {
+      "part": 3,
+      "text": "Signing up runs through Korean identity verification,",
+      "startFrame": 878,
+      "endFrame": 955,
+      "sourceStartSeconds": 4.92,
+      "sourceEndSeconds": 7.359,
+      "wordCount": 7
+    },
+    {
+      "part": 3,
+      "text": "and logging in with Apple",
+      "startFrame": 956,
+      "endFrame": 984,
+      "sourceStartSeconds": 7.5,
+      "sourceEndSeconds": 8.399,
+      "wordCount": 5
+    },
+    {
+      "part": 3,
+      "text": "doesn't get you around it.",
+      "startFrame": 985,
+      "endFrame": 1014,
+      "sourceStartSeconds": 8.479,
+      "sourceEndSeconds": 9.42,
+      "wordCount": 5
+    },
+    {
+      "part": 3,
+      "text": "The gate is inside the app,",
+      "startFrame": 1015,
+      "endFrame": 1050,
+      "sourceStartSeconds": 9.46,
+      "sourceEndSeconds": 10.599,
+      "wordCount": 6
+    },
+    {
+      "part": 3,
+      "text": "not the login.",
+      "startFrame": 1051,
+      "endFrame": 1080,
+      "sourceStartSeconds": 10.679,
+      "sourceEndSeconds": 11.279,
+      "wordCount": 3
+    }
+  ],
+  "coverage": {
+    "transcriptWords": 144,
+    "captionWords": 144,
+    "audioParts": 3
+  }
+}

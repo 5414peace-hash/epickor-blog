@@ -82,6 +82,11 @@ debug.log
 !/output/reels/*/render-manifest.json
 !/output/reels/*/cut-plan-*.json
 !/output/reels/*/media-report.json
+# Per-reel build scripts. prep-plates.mjs holds the hand-chosen crop boxes and
+# rebuild-timeline.mjs derives the cut plan from the forced alignment — the media
+# itself is ignored, so these scripts are the only record of how it was made, and
+# the only way to regenerate it from the committed post images.
+!/output/reels/*/*.mjs
 # CLAUDE.md mandates the continuity manifest ("probe every selected video with ffprobe
 # and record ... in continuity-manifest.json"), but it was never whitelisted, so only
 # hub-drinks had one tracked — via a stray `git add -f`. The 2026-08-11 folder rename

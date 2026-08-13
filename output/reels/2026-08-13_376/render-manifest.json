@@ -1,0 +1,198 @@
+{
+  "slug": "376",
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "durationInFrames": 1215,
+  "outroFrom": 1080,
+  "cuts": [
+    {
+      "n": 1,
+      "from": 0,
+      "len": 244,
+      "src": "assets/reels/376/media/c1-2plus1-freezer.jpg",
+      "kind": "still"
+    },
+    {
+      "n": 2,
+      "from": 244,
+      "len": 105,
+      "src": "assets/reels/376/media/c2-app-giftcards.jpg",
+      "kind": "still"
+    },
+    {
+      "n": 3,
+      "from": 349,
+      "len": 204,
+      "src": "assets/reels/376/media/c3-shelf-tags.jpg",
+      "kind": "still"
+    },
+    {
+      "n": 4,
+      "from": 553,
+      "len": 183,
+      "src": "assets/reels/376/media/c4-icecream-bins.jpg",
+      "kind": "still"
+    },
+    {
+      "n": 5,
+      "from": 736,
+      "len": 142,
+      "src": "assets/reels/376/media/c5-gs25-storefront.jpg",
+      "kind": "still"
+    },
+    {
+      "n": 6,
+      "from": 878,
+      "len": 202,
+      "src": "assets/reels/376/media/c6-gs25-atm-tight.jpg",
+      "kind": "still"
+    }
+  ],
+  "beats": [
+    {
+      "text": "Walk into any Korean convenience store",
+      "startFrame": 10,
+      "endFrame": 59
+    },
+    {
+      "text": "and half the fridge is wearing a sticker.",
+      "startFrame": 60,
+      "endFrame": 108
+    },
+    {
+      "text": "One plus one.",
+      "startFrame": 109,
+      "endFrame": 131
+    },
+    {
+      "text": "Two plus one.",
+      "startFrame": 132,
+      "endFrame": 155
+    },
+    {
+      "text": "Buy one, take two home.",
+      "startFrame": 156,
+      "endFrame": 198
+    },
+    {
+      "text": "And here's what almost everyone gets wrong.",
+      "startFrame": 199,
+      "endFrame": 243
+    },
+    {
+      "text": "No membership card.",
+      "startFrame": 244,
+      "endFrame": 269
+    },
+    {
+      "text": "No coupon.",
+      "startFrame": 270,
+      "endFrame": 288
+    },
+    {
+      "text": "No app, and no minimum spend.",
+      "startFrame": 289,
+      "endFrame": 342
+    },
+    {
+      "text": "The whole thing is settled at the shelf edge.",
+      "startFrame": 349,
+      "endFrame": 407
+    },
+    {
+      "text": "If the tag says it,",
+      "startFrame": 408,
+      "endFrame": 433
+    },
+    {
+      "text": "you pick the second one up yourself",
+      "startFrame": 434,
+      "endFrame": 475
+    },
+    {
+      "text": "and carry both to the counter.",
+      "startFrame": 476,
+      "endFrame": 518
+    },
+    {
+      "text": "Nobody scans anything.",
+      "startFrame": 519,
+      "endFrame": 552
+    },
+    {
+      "text": "But say you don't want to lug",
+      "startFrame": 553,
+      "endFrame": 582
+    },
+    {
+      "text": "a second ice cream around Seoul all afternoon.",
+      "startFrame": 583,
+      "endFrame": 649
+    },
+    {
+      "text": "The chains do let you bank it",
+      "startFrame": 650,
+      "endFrame": 685
+    },
+    {
+      "text": "in their app instead.",
+      "startFrame": 686,
+      "endFrame": 729
+    },
+    {
+      "text": "And that's the tip every English guide hands you.",
+      "startFrame": 736,
+      "endFrame": 797
+    },
+    {
+      "text": "Here's the problem.",
+      "startFrame": 798,
+      "endFrame": 821
+    },
+    {
+      "text": "Almost no visitor can actually use it.",
+      "startFrame": 822,
+      "endFrame": 877
+    },
+    {
+      "text": "Signing up runs through Korean identity verification,",
+      "startFrame": 878,
+      "endFrame": 955
+    },
+    {
+      "text": "and logging in with Apple",
+      "startFrame": 956,
+      "endFrame": 984
+    },
+    {
+      "text": "doesn't get you around it.",
+      "startFrame": 985,
+      "endFrame": 1014
+    },
+    {
+      "text": "The gate is inside the app,",
+      "startFrame": 1015,
+      "endFrame": 1050
+    },
+    {
+      "text": "not the login.",
+      "startFrame": 1051,
+      "endFrame": 1080
+    }
+  ],
+  "audio": [
+    {
+      "part": 1,
+      "startFrame": 10
+    },
+    {
+      "part": 2,
+      "startFrame": 349
+    },
+    {
+      "part": 3,
+      "startFrame": 736
+    }
+  ]
+}
