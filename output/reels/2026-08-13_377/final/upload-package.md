@@ -1,6 +1,6 @@
 # Reel 377 Upload Package — "Korea made them prove it"
 
-- **Status**: awaiting representative phone review (sound on and off). Not yet approved.
+- **Status**: **SCHEDULED 2026-08-30 05:00 KST** (Meta Suite, FB EpicKor + IG epickorsnippets), representative-confirmed 2026-08-13.
 - **Source post**: `content/blog/377.md` → https://epickor.com/blog/377
 - **Frame design**: Spec Sheet (design H, MATCH 02) — `remotion/SpecSheetKit.tsx`, first use
 - **Candidate render**: `output/reels/2026-08-13_377/epickor-reel-377-v001.mp4`
@@ -31,7 +31,7 @@
 | Caption safe zone | `left:72 right:128 bottom:410`, unchanged |
 | Copy floor | Page furniture ends at y=1308; caption band starts at 1418 |
 | Korea-first | Manufacturer pack shots from HK inno.N's own site + a CC0 해장국 photograph |
-| **Phone review** | **OUTSTANDING — representative, sound on and off** |
+| Representative review | **CONFIRMED 2026-08-13** |
 
 ## The spoken outro, first use
 

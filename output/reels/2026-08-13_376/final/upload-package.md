@@ -1,7 +1,6 @@
 # Reel 376 Upload Package — "The tag decides, not the app"
 
-- **Status**: **representative-approved 2026-08-13** ("좋아 이걸로 마무리하자"). Upload-package-ready — hold
-  until Reels 377 and 379 are finished, then schedule the three together.
+- **Status**: **SCHEDULED 2026-08-29 05:00 KST** (Meta Suite, FB EpicKor + IG epickorsnippets), representative-approved 2026-08-13.
 - **Source post**: `content/blog/376.md` → https://epickor.com/blog/376
 - **Frame design**: Split Grid (design L, MATCH 01) — `remotion/SplitGridKit.tsx`, first use
 - **Candidate render**: `output/reels/2026-08-13_376/epickor-reel-376-v006.mp4`

@@ -1,6 +1,6 @@
 # Reel 379 Upload Package — "The bridge is the launcher"
 
-- **Status**: awaiting representative phone review (sound on and off). Not yet approved.
+- **Status**: **SCHEDULED 2026-08-28 05:00 KST** (Meta Suite, FB EpicKor + IG epickorsnippets), representative-confirmed 2026-08-13.
 - **Source post**: `content/blog/379.md` → https://epickor.com/blog/379
 - **Frame design**: Timeline (design O, MATCH 03) — `remotion/TimelineKit.tsx`, first use
 - **Candidate render**: `output/reels/2026-08-13_379/epickor-reel-379-v002.mp4`
@@ -31,7 +31,7 @@
 | Caption safe zone | `left:72 right:128 bottom:410`, unchanged |
 | Copy floor | Rail stops end at ~1262; caption band starts at 1418 |
 | Licensing | Every plate public domain or already documented in the post. See below. |
-| **Phone review** | **OUTSTANDING — representative, sound on and off** |
+| Representative review | **CONFIRMED 2026-08-13** |
 
 ## The rail moves backwards, on purpose
 
