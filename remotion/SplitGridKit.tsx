@@ -82,16 +82,39 @@ export type TileLabel = {
   at?: number;
 };
 
+/**
+ * How the grid behaves on this cut. Representative note 2026-08-13: "블락형으로
+ * 카드형 나온거는 나쁘지 않은데, 전체를 다 이렇게 하는게 맞나." Correct. Six cuts of the same
+ * lattice turns a device into wallpaper, and it diced the two images the reel most
+ * needs read whole — the 2+1 tags on the hook and the ATM on the payoff. A card-news
+ * carousel works because the card TYPE changes between slides. So the grid now
+ * appears and resolves rather than persisting.
+ *
+ *  assemble  tiles build, hold, then dissolve — the photograph lands whole
+ *  cards     no photo ground at all; the one true card-news slide
+ *  lift      the photograph stays whole and a few tiles peel off its surface
+ *  quiet     full bleed, hairlines only, one card
+ *  shutOpen  the seams close and dim, then open to reveal the subject whole
+ */
+export type GridMode = 'assemble' | 'cards' | 'lift' | 'quiet' | 'shutOpen';
+
 export type CutOns = {
   cut: number;
   kicker: string;
+  mode: GridMode;
   /** opening card — cut 1 only, doubles as the grid thumbnail */
   headline?: { line1: string; line2: string; foot: string };
   tiles?: TileLabel[];
-  /** payoff move: tile gaps close to zero and the grid dims around one tile */
-  slamShut?: boolean;
-  /** tile indices kept lit while the rest dims, used with slamShut */
+  /** `lift` mode: which photo tiles peel off the surface */
+  lift?: number[];
+  /** `shutOpen` mode: tiles kept lit while the rest dims, before the grid opens */
   keepLit?: number[];
+  /** `cards` mode: caption printed under the photo card */
+  cardNote?: string;
+  /** `assemble` mode: cut-relative frame the grid starts resolving on */
+  dissolveAt?: number;
+  /** `cards` mode: shelf-tag block under the card stack */
+  cardFoot?: { label: string; sub: string };
 };
 
 /* ----------------------------------------------------------------- helpers */
@@ -112,11 +135,19 @@ function wobble(i: number) {
   };
 }
 
+const PAINT = {
+  chip: { bg: T.chip, fg: '#fff', rule: 'rgba(255,255,255,.5)' },
+  cyan: { bg: T.cyan, fg: '#04222E', rule: 'rgba(0,0,0,.35)' },
+  bone: { bg: T.bone, fg: T.ink, rule: T.chip },
+  ink: { bg: '#101519', fg: T.bone, rule: T.cyan },
+  amber: { bg: T.amber, fg: '#2A1D00', rule: 'rgba(0,0,0,.4)' },
+} as const;
+
 /* -------------------------------------------------------------------- tile */
 
 function PhotoTile({
-  src, i, gap, dim,
-}: { src: string; i: number; gap: number; dim: number }) {
+  src, i, gap, dim, fade = 1, peel = 0,
+}: { src: string; i: number; gap: number; dim: number; fade?: number; peel?: number }) {
   const frame = useCurrentFrame();
   const { durationInFrames } = useVideoConfig();
   const col = i % COLS;
@@ -145,9 +176,11 @@ function PhotoTile({
       width: TW - gap,
       height: TH - gap,
       overflow: 'hidden',
-      opacity: enter,
-      transform: `translate(${ox}px, ${oy}px)`,
-      boxShadow: 'inset 0 0 0 1px rgba(255,255,255,.07)',
+      opacity: enter * fade,
+      transform: `translate(${ox + peel * 0.9}px, ${oy - peel}px) scale(${1 + peel * 0.007})`,
+      boxShadow: peel > 0
+        ? `0 ${14 + peel * 1.6}px ${26 + peel * 2.6}px rgba(0,0,0,.62), inset 0 0 0 3px rgba(244,241,234,.72)`
+        : 'inset 0 0 0 1px rgba(255,255,255,.07)',
       background: T.ink,
     }}>
       <Img
@@ -177,13 +210,7 @@ function LabelTile({ t, gap }: { t: TileLabel; gap: number }) {
   const enter = clamp(frame, [at, at + 12], [0, 1]);
   const flip = clamp(frame, [at, at + 12], [82, 0]);
 
-  const paint = {
-    chip: { bg: T.chip, fg: '#fff', rule: 'rgba(255,255,255,.5)' },
-    cyan: { bg: T.cyan, fg: '#04222E', rule: 'rgba(0,0,0,.35)' },
-    bone: { bg: T.bone, fg: T.ink, rule: T.chip },
-    ink: { bg: '#101519', fg: T.bone, rule: T.cyan },
-    amber: { bg: T.amber, fg: '#2A1D00', rule: 'rgba(0,0,0,.4)' },
-  }[t.kind];
+  const paint = PAINT[t.kind];
 
   // A long label in a 270px tile has to come down in size or it clips.
   const size = t.label.length <= 3 ? 92 : t.label.length <= 7 ? 54 : t.label.length <= 11 ? 38 : 30;
@@ -225,17 +252,141 @@ function LabelTile({ t, gap }: { t: TileLabel; gap: number }) {
 
 /* ------------------------------------------------------------------- scene */
 
-function GridScene({ src, ons }: { src: string; ons: CutOns }) {
+/** Hairline lattice — the grid as a whisper, for cuts that keep the photo whole. */
+function Hairlines({ opacity }: { opacity: number }) {
+  return (
+    <AbsoluteFill style={{ opacity }}>
+      {Array.from({ length: COLS - 1 }, (_, c) => (
+        <div key={`v${c}`} style={{
+          position: 'absolute', left: (c + 1) * TW, top: 0, width: 1, height: H,
+          background: 'rgba(244,241,234,.55)',
+        }} />
+      ))}
+      {Array.from({ length: ROWS - 1 }, (_, r) => (
+        <div key={`h${r}`} style={{
+          position: 'absolute', top: (r + 1) * TH, left: 0, height: 1, width: W,
+          background: 'rgba(244,241,234,.55)',
+        }} />
+      ))}
+    </AbsoluteFill>
+  );
+}
+
+/** Full-bleed photograph with a slow push — the ground for every mode but `cards`. */
+function Plate({ src, dim, from = 1.0, to = 1.09 }: { src: string; dim: number; from?: number; to?: number }) {
   const frame = useCurrentFrame();
   const { durationInFrames } = useVideoConfig();
+  const zoom = clamp(frame, [0, Math.max(1, durationInFrames)], [from, to]);
+  return (
+    <AbsoluteFill>
+      <Img src={staticFile(src)} style={{
+        width: '100%', height: '100%', objectFit: 'cover', transform: `scale(${zoom})`,
+      }} />
+      {dim > 0 && <AbsoluteFill style={{ background: `rgba(6,9,12,${dim})` }} />}
+    </AbsoluteFill>
+  );
+}
 
-  // The payoff move: the seams close and the grid dims around the tile that
-  // carries the point. It reads as the frame locking rather than cutting.
-  const shut = ons.slamShut ? clamp(frame, [durationInFrames - 96, durationInFrames - 62], [0, 1]) : 0;
-  const gap = 6 - shut * 6;
-  const dimAll = shut * 0.62;
+/**
+ * `cards` — the one cut with no photograph behind it.
+ *
+ * The negations are a list of three, which is the only beat in the reel where a
+ * stack of cards is what the sentence actually is. Giving this beat the mosaic
+ * spent the device where it was not needed, and it forced a second crop of the
+ * cut-1 photograph to sit behind it — which is what the representative caught as
+ * "백그라운드 이미지가 두번씩 연속으로 나오는건 좀 아닌거 같다". The gift-card rack survives here
+ * as a photo card inside the layout instead of as wallpaper behind it.
+ */
+function CardsScene({ ons, cardSrc }: { ons: CutOns; cardSrc: string }) {
+  const frame = useCurrentFrame();
+  const wash = clamp(frame, [0, 26], [0, 1]);
+  const photoIn = clamp(frame, [6, 26], [0, 1]);
+  const zoom = clamp(frame, [0, 140], [1.04, 1.14]);
+
+  return (
+    <AbsoluteFill style={{ background: '#080B0E' }}>
+      {/* Not a black card: a lit ground with the lattice showing through it. */}
+      <AbsoluteFill style={{
+        background: 'radial-gradient(118% 66% at 72% 30%, #3B4C57 0%, #253039 46%, #161D24 100%)',
+      }} />
+      <Hairlines opacity={0.2 * wash} />
+
+      <div style={{
+        position: 'absolute', left: 552, top: 250, width: 476, height: 924,
+        overflow: 'hidden', background: T.ink,
+        opacity: photoIn,
+        transform: `translateY(${(1 - photoIn) * 28}px)`,
+        boxShadow: '0 26px 64px rgba(0,0,0,.6), inset 0 0 0 3px rgba(244,241,234,.16)',
+      }}>
+        <Img src={staticFile(cardSrc)} style={{
+          width: '100%', height: '100%', objectFit: 'cover', transform: `scale(${zoom})`,
+        }} />
+      </div>
+      {ons.cardNote && (
+        <div style={{
+          position: 'absolute', left: 552, top: 1190, width: 476,
+          font: `700 19px/1.35 ${mono}`, letterSpacing: 1.3, textTransform: 'uppercase',
+          color: '#93A2AD', opacity: photoIn,
+        }}>{ons.cardNote}</div>
+      )}
+
+      {ons.cardFoot && (() => {
+        const footIn = clamp(frame, [46, 66], [0, 1]);
+        return (
+          <div style={{
+            position: 'absolute', left: 68, top: 900, width: 462,
+            background: T.bone, color: T.ink, padding: '20px 24px 22px',
+            opacity: footIn, transform: `translateY(${(1 - footIn) * 18}px)`,
+            boxShadow: '0 18px 44px rgba(0,0,0,.5)',
+            borderLeft: `10px solid ${T.chip}`,
+          }}>
+            <div style={{ font: `900 34px/1.02 ${black}`, letterSpacing: -1.2 }}>{ons.cardFoot.label}</div>
+            <div style={{
+              marginTop: 10, font: `700 18px/1.35 ${mono}`, letterSpacing: 1.1,
+              textTransform: 'uppercase', color: '#55616C',
+            }}>{ons.cardFoot.sub}</div>
+          </div>
+        );
+      })()}
+
+      {(ons.tiles ?? []).map((t, n) => {
+        const at = t.at ?? n * 14 + 4;
+        const enter = clamp(frame, [at, at + 13], [0, 1]);
+        const paint = PAINT[t.kind];
+        return (
+          <div key={t.label} style={{
+            position: 'absolute', left: 68, top: 300 + n * 190, width: 462, minHeight: 156,
+            background: paint.bg, color: paint.fg,
+            display: 'flex', flexDirection: 'column', justifyContent: 'center',
+            gap: 9, padding: '20px 26px 22px',
+            opacity: enter,
+            transform: `translateX(${(1 - enter) * -48}px)`,
+            boxShadow: '0 18px 46px rgba(0,0,0,.5)',
+          }}>
+            <div style={{ font: `900 62px/0.94 ${black}`, letterSpacing: -2 }}>{t.label}</div>
+            {t.sub && (
+              <>
+                <div style={{ width: 52, height: 3, background: paint.rule }} />
+                <div style={{
+                  font: `700 20px/1.25 ${mono}`, letterSpacing: 1.2,
+                  textTransform: 'uppercase', opacity: .92,
+                }}>{t.sub}</div>
+              </>
+            )}
+          </div>
+        );
+      })}
+    </AbsoluteFill>
+  );
+}
+
+function GridScene({ src, ons, cardSrc }: { src: string; ons: CutOns; cardSrc?: string }) {
+  const frame = useCurrentFrame();
+  const { durationInFrames } = useVideoConfig();
+  const D = durationInFrames;
 
   for (const t of ons.tiles ?? []) {
+    if (ons.mode === 'cards') continue;          // laid out as a stack, not on the lattice
     const row = Math.floor(t.i / COLS);
     if (row < LABEL_ROW_MIN || row > LABEL_ROW_MAX) {
       throw new Error(
@@ -243,28 +394,91 @@ function GridScene({ src, ons }: { src: string; ons: CutOns }) {
       );
     }
   }
-  const labelled = new Map((ons.tiles ?? []).map((t) => [t.i, t]));
 
+  if (ons.mode === 'cards') {
+    if (!cardSrc) throw new Error(`SplitGrid cut ${ons.cut}: mode 'cards' needs a cardSrc`);
+    return (
+      <>
+        <CardsScene ons={ons} cardSrc={cardSrc} />
+        <Kicker text={ons.kicker} n={ons.cut} />
+      </>
+    );
+  }
+
+  const labelled = new Map((ons.tiles ?? []).map((t) => [t.i, t]));
+  const labels = (ons.tiles ?? []).map((t) => <LabelTile key={t.i} t={t} gap={6} />);
+
+  /* ---- assemble: build, hold, then dissolve so the photograph lands whole ---- */
+  if (ons.mode === 'assemble') {
+    const d0 = ons.dissolveAt ?? D * 0.46;
+    const out = clamp(frame, [d0, d0 + 30], [1, 0]);
+    return (
+      <AbsoluteFill style={{ background: T.ink }}>
+        <Plate src={src} dim={0.22 * out} />
+        {Array.from({ length: COLS * ROWS }, (_, i) => (
+          labelled.has(i) ? null
+            : <PhotoTile key={i} src={src} i={i} gap={6} dim={0} fade={out} />
+        ))}
+        <Hairlines opacity={0.1 * (1 - out)} />
+        {labels}
+        <Kicker text={ons.kicker} n={ons.cut} />
+        {ons.headline && <OpeningCard {...ons.headline} />}
+      </AbsoluteFill>
+    );
+  }
+
+  /* ---- lift: the photograph stays whole; a few tiles peel off its surface ---- */
+  if (ons.mode === 'lift') {
+    const lift = ons.lift ?? [];
+    return (
+      <AbsoluteFill style={{ background: T.ink }}>
+        <Plate src={src} dim={0.14} />
+        {lift.map((i, n) => {
+          const start = 10 + n * 9;
+          const peel = clamp(frame, [start, start + 26], [0, 34]);
+          return <PhotoTile key={i} src={src} i={i} gap={0} dim={0} peel={peel} />;
+        })}
+        {labels}
+        <Kicker text={ons.kicker} n={ons.cut} />
+      </AbsoluteFill>
+    );
+  }
+
+  /* ---- quiet: full bleed, hairlines only ---- */
+  if (ons.mode === 'quiet') {
+    return (
+      <AbsoluteFill style={{ background: T.ink }}>
+        <Plate src={src} dim={0.14} from={1.0} to={1.12} />
+        <Hairlines opacity={clamp(frame, [0, 22], [0, 0.09])} />
+        {labels}
+        <Kicker text={ons.kicker} n={ons.cut} />
+      </AbsoluteFill>
+    );
+  }
+
+  /* ---- shutOpen: the seams close and dim, then OPEN on the subject ------------
+     v003 closed and stayed closed, which reads as the frame ending rather than
+     revealing. The payoff has to end on the ATM whole. -------------------------- */
+  const shut = clamp(frame, [D - 150, D - 116], [0, 1]);
+  const open = clamp(frame, [D - 74, D - 40], [0, 1]);
+  const gap = 6 - shut * 6;
+  const dimAll = shut * 0.66 * (1 - open);
   return (
     <AbsoluteFill style={{ background: T.ink }}>
-      {/* Base plate. Without it frame 0 is the ink ground while the tiles are still
-          arriving — a black open, which is a hard reject. It also means the seams
-          reveal a darker copy of the same photo instead of flat black, so the grid
-          reads as cut from one image rather than pasted onto nothing. */}
-      <AbsoluteFill>
-        <Img src={staticFile(src)} style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
-        <AbsoluteFill style={{ background: `rgba(6,9,12,${0.5 + dimAll * 0.34})` }} />
-      </AbsoluteFill>
-
+      <Plate src={src} dim={0.3 * (1 - open) + dimAll * 0.3} />
       {Array.from({ length: COLS * ROWS }, (_, i) => {
         if (labelled.has(i)) return null;
         const lit = (ons.keepLit ?? []).includes(i);
-        return <PhotoTile key={i} src={src} i={i} gap={gap} dim={lit ? 0 : dimAll} />;
+        return (
+          <PhotoTile
+            key={i} src={src} i={i} gap={gap}
+            dim={lit ? 0 : dimAll} fade={1 - open}
+          />
+        );
       })}
-      {(ons.tiles ?? []).map((t) => <LabelTile key={t.i} t={t} gap={gap} />)}
-
+      <Hairlines opacity={0.1 * open} />
+      {labels}
       <Kicker text={ons.kicker} n={ons.cut} />
-      {ons.headline && <OpeningCard {...ons.headline} />}
     </AbsoluteFill>
   );
 }
@@ -349,6 +563,20 @@ function Captions({ beats }: { beats: CaptionBeat[] }) {
   );
 }
 
+/**
+ * Legibility floor for the top rail. The hook plate is a shelf of white price tags,
+ * and white watermark text on a white tag is unreadable — the media is a photograph,
+ * not a designed backdrop, so the frame has to supply its own ground.
+ */
+function TopScrim() {
+  return (
+    <AbsoluteFill style={{
+      zIndex: 190, pointerEvents: 'none',
+      background: 'linear-gradient(180deg, rgba(6,9,12,.66) 0%, rgba(6,9,12,.28) 14%, rgba(6,9,12,0) 26%)',
+    }} />
+  );
+}
+
 function Watermark() {
   return (
     <div style={{
@@ -422,11 +650,13 @@ function Outro({ hook, sub, src }: { hook: string; sub: string; src: string }) {
 /* ------------------------------------------------------------------- reels */
 
 export function ReelSplitGrid({
-  manifest, ons, outro,
+  manifest, ons, outro, cardSrc,
 }: {
   manifest: Manifest;
   ons: CutOns[];
   outro: { hook: string; sub: string };
+  /** the photo card used by the one `cards` cut */
+  cardSrc?: string;
 }) {
   const byCut = new Map(ons.map((o) => [o.cut, o]));
   return (
@@ -436,7 +666,7 @@ export function ReelSplitGrid({
         if (!o) throw new Error(`SplitGrid: no ONS config for cut ${c.n}`);
         return (
           <Cut key={c.n} from={c.from} len={c.len}>
-            <GridScene src={c.src} ons={o} />
+            <GridScene src={c.src} ons={o} cardSrc={cardSrc} />
           </Cut>
         );
       })}
@@ -445,6 +675,7 @@ export function ReelSplitGrid({
         <Outro hook={outro.hook} sub={outro.sub} src={manifest.cuts[manifest.cuts.length - 1].src} />
       </Sequence>
 
+      <TopScrim />
       <Watermark />
       <Captions beats={manifest.beats} />
       <VoiceTrack slug={manifest.slug} segments={manifest.audio} />

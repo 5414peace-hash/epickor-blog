@@ -96,15 +96,28 @@ the cuts were then placed on beat boundaries. Measured narration rate for this v
 (`ELEVENLABS_VOICE_ID=Lq4CTV7whEQtfYtzrWKb`), so the first 107-word script would have run 27s, not 40 —
 it was rewritten to 144 words before any cutting.
 
-| # | Frames | Sec | Plate | Grid behaviour | Spoken beat |
+| # | Frames | Sec | Plate | Mode | Spoken beat |
 |---|---|---|---|---|---|
-| 1 | 0–243 | 8.1 | `c1-2plus1-freezer` | 24 tiles assemble on a diagonal stagger; opening card rises; `1+1` and `2+1` flip in on their words | half the fridge is wearing a sticker |
-| 2 | 244–348 | 3.5 | `c2-app-giftcards` | Three label tiles land on the three negations | no card / no coupon / no app |
-| 3 | 349–552 | 6.8 | `c3-shelf-tags` | `₩` tag tile, then `SHELF EDGE`, then `NO SCAN` | it's settled at the shelf edge |
-| 4 | 553–735 | 6.1 | `c4-icecream-bins` | Mosaic sits on the real bin lattice; `TAKE TWO` → `1+1` → `SAVE IT?` | lug a second ice cream around Seoul |
-| 5 | 736–877 | 4.7 | `c5-gs25-storefront` | `EVERY GUIDE` bone tag, then `BUT` | the tip every English guide hands you |
-| 6 | 878–1079 | 6.7 | `c6-gs25-atm-tight` | **Seams close to zero and the grid dims to a 2×2 spotlight on the ATM** | Korean identity verification |
+| 1 | 0–243 | 8.1 | `c1-2plus1-tags` | **assemble** — the mosaic builds, then resolves across "one plus one / two plus one" so the shelf of real 2+1 tags lands whole | half the fridge is wearing a sticker |
+| 2 | 244–348 | 3.5 | *(no photo ground)* | **cards** — three negation cards beside a photo card of the gift-card rack | no card / no coupon / no app |
+| 3 | 349–552 | 6.8 | `c3-shelf-tags` | **lift** — the tag wall stays whole; four tiles peel off its surface | it's settled at the shelf edge |
+| 4 | 553–735 | 6.1 | `c4-icecream-bins` | **lift** — same, on bins that are already a lattice in the photograph | lug a second ice cream around Seoul |
+| 5 | 736–877 | 4.7 | `c5-store-aisle` | **quiet** — full bleed, hairlines only, two cards | the tip every English guide hands you |
+| 6 | 878–1079 | 6.7 | `c6-gs25-atm-tight` | **shutOpen** — seams close and dim to a 2×2 spotlight on the ATM, **then open** | Korean identity verification |
 | — | 1080–1215 | 4.5 | back cover | `DON'T ORDER BLIND` + red `epickor.com` chip over the dimmed storefront | silent |
+
+### Why the grid is not on every cut
+
+Representative note, 2026-08-13: *"블락형으로 카드형 나온거는 나쁘지 않은데, 전체를 다 이렇게 하는게 맞나
+생각이 드네."* Correct, and v001–v003 had it wrong. Six cuts of one lattice turns a device into
+wallpaper, and it diced the two images the reel most needs read whole — the `2+1` tags on the hook and
+the ATM on the payoff. A card-news carousel is swipeable because the card *type* changes between
+slides; if every card is the same, it is a pattern rather than a carousel. So the grid now appears and
+resolves. It also means the grid's arrival carries information again.
+
+Two consequences worth keeping: the hook has **no label cards at all**, because any card placed there
+would cover the evidence the hook rests on — the dissolve itself is the beat. And the payoff **opens**
+instead of staying shut; v003 closed and held, which reads as the video ending rather than revealing.
 
 Total **40.5s**. Narration 35.2s across three parts.
 
@@ -119,13 +132,25 @@ gate's floor. The nominal gap has to be shorter than the audible one.
 
 ### Plates
 
-Six 1080×1920 plates from five source photographs, built by `prep-plates.mjs`; crop boxes, upscale
-factors and measured luminance are recorded in `media-report.json`. Upscale runs 1.03×–2.48×, all under
-the 2.67× reject line. Luminance runs 99–133 — the 2026-08-04 failure was a plate at 16.
+Six 1080×1920 plates built by `prep-plates.mjs`; crop boxes, upscale factors and measured luminance are
+recorded in `media-report.json`. Upscale runs 1.03×–2.48×, all under the 2.67× reject line. Luminance
+runs 99–128 — the 2026-08-04 failure was a plate at 16.
 
-Cuts 1 and 2 are different regions of one photograph, saved as separate assets so no path repeats.
-Cuts 5 and 6 are a wide/tight pair of one storefront, so the payoff lands as a push-in rather than a
-cut to something new.
+**No background repeats.** The same representative note flagged it: *"뒤에 백그라운드 이미지가 두번씩
+연속으로 나오는건 좀 아닌거 같다."* v003 had cuts 1–2 as two crops of one photograph and cuts 5–6 as two
+framings of one storefront. Re-sourcing the cluster found
+`171/korean-convenience-store-breakfast.jpg` — a chilled shelf carrying four literal pink `2+1` tags
+with the `4.1~4.30` promo window printed on them, over Binggrae banana milk with green `₩1,800` tags
+below. It is the most direct evidence image in the cluster and it had been sitting unused for the whole
+build. It takes the hook, everything shifts down, and cut 2 stops using a photo ground at all — so the
+gift-card rack survives as a *card inside the layout* rather than as wallpaper behind it.
+
+It is also a better thumbnail. `2+1` is legible at Instagram grid size on this plate; on the wide aisle
+shot it never was.
+
+**Rejected on purpose**: `059/convenience-store-lunchbox-01.jpg` is a natural 3×2 grid of six lunchboxes
+and visually ideal for this frame. Post 376 states that fresh food rarely goes 1+1 because it runs on
+`마감할인` markdowns instead, so using it would have the screen contradict the article.
 
 ## Caption safe zone
 

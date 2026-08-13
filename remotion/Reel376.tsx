@@ -7,13 +7,23 @@
  * sentence it belongs to, and `at()` resolves that against the forced-aligned
  * frames in the manifest. The first version hard-coded cut-relative frames, and
  * every one of them desynced the moment the narration gaps were re-cut to clear
- * the audio gate — which is exactly the failure this indirection removes. Re-time
- * the narration with `rebuild-timeline.mjs`; this file needs no edit when you do.
+ * the audio gate. Re-time with `rebuild-timeline.mjs`; this file needs no edit.
  *
- * Plate assignment follows the same discipline: each photo sits on the cut where
- * its subject is SPOKEN. A first pass had a cup-ice freezer under "lug a second
- * ice cream" — screen contradicting words, the 2026-08-05 reject — and was
- * re-mapped rather than narrated around. See prep-plates.mjs.
+ * The grid is a device, not a state (representative note 2026-08-13). Each cut
+ * gets the treatment its sentence actually is:
+ *
+ *   1  assemble   the mosaic builds, then RESOLVES on "one plus one / two plus
+ *                 one" so the shelf of real 2+1 tags lands whole. The dissolve is
+ *                 the beat; there are no label cards here, because putting one on
+ *                 the frame would cover the evidence the hook rests on.
+ *   2  cards      the only cut with no photograph behind it. "No card, no coupon,
+ *                 no app" is literally a list of three, so it is built as three
+ *                 cards beside a photo card of the gift-card rack.
+ *   3  lift       the tag wall stays whole and four tiles peel off its surface.
+ *   4  lift       same, on bins that are already a lattice in the photograph.
+ *   5  quiet      full bleed, hairlines only. The turn should not be busy.
+ *   6  shutOpen   the seams close and dim onto the ATM, then OPEN. v003 closed and
+ *                 stayed closed, which reads as ending rather than revealing.
  */
 import manifest from '../output/reels/2026-08-13_376/render-manifest.json';
 import { ReelSplitGrid, type CutOns, type Manifest } from './SplitGridKit';
@@ -38,29 +48,34 @@ function at(cut: number, beat: number, lead = 8) {
 const ONS: CutOns[] = [
   {
     cut: 1,
+    mode: 'assemble',
     kicker: 'KOREA STORE RULE',
     headline: {
       line1: 'THE TAG DECIDES,',
       line2: 'NOT THE APP',
       foot: 'Korean convenience-store deals',
     },
-    tiles: [
-      { i: 4, kind: 'chip', label: '1+1', at: at(1, 2) },   // "One plus one."
-      { i: 7, kind: 'cyan', label: '2+1', at: at(1, 3) },   // "Two plus one."
-    ],
+    // The grid resolves across "One plus one." (beat 2) into "Two plus one." (beat 3).
+    dissolveAt: at(1, 2, 4),
   },
   {
     cut: 2,
+    mode: 'cards',
     kicker: "WHAT YOU DON'T NEED",
+    cardNote: 'Google Play · ONE store · the rack the deal ignores',
+    // Straight from the post: "The register applies it when the barcodes are scanned."
+    cardFoot: { label: 'THE REGISTER DOES IT', sub: 'applied when the barcodes scan' },
     tiles: [
-      { i: 4, kind: 'chip', label: 'NO CARD', at: at(2, 6) },     // "No membership card."
-      { i: 6, kind: 'ink', label: 'NO COUPON', at: at(2, 7) },    // "No coupon."
-      { i: 13, kind: 'cyan', label: 'NO APP', sub: 'and no minimum', at: at(2, 8) },
+      { i: 0, kind: 'chip', label: 'NO CARD', at: at(2, 6) },     // "No membership card."
+      { i: 1, kind: 'ink', label: 'NO COUPON', at: at(2, 7) },    // "No coupon."
+      { i: 2, kind: 'cyan', label: 'NO APP', sub: 'and no minimum spend', at: at(2, 8) },
     ],
   },
   {
     cut: 3,
+    mode: 'lift',
     kicker: "WHERE IT'S DECIDED",
+    lift: [3, 8, 14, 19],
     tiles: [
       { i: 4, kind: 'bone', label: '₩', sub: 'the tag is the rule', at: at(3, 9) },
       { i: 11, kind: 'chip', label: 'SHELF EDGE', at: at(3, 10) }, // "If the tag says it,"
@@ -69,7 +84,9 @@ const ONS: CutOns[] = [
   },
   {
     cut: 4,
+    mode: 'lift',
     kicker: 'THE SECOND ONE',
+    lift: [2, 10, 15, 18],
     tiles: [
       { i: 7, kind: 'amber', label: 'TAKE TWO', at: at(4, 14) },
       { i: 9, kind: 'chip', label: '1+1', at: at(4, 15) },         // "a second ice cream…"
@@ -78,6 +95,7 @@ const ONS: CutOns[] = [
   },
   {
     cut: 5,
+    mode: 'quiet',
     kicker: 'THE ADVICE',
     tiles: [
       // Column 0: at i=5 this tile clipped the G of the GS25 fascia (QA v002).
@@ -87,6 +105,7 @@ const ONS: CutOns[] = [
   },
   {
     cut: 6,
+    mode: 'shutOpen',
     kicker: 'THE CATCH',
     tiles: [
       // Column 3 only. The ATM occupies columns 1-2, and a first pass put both
@@ -94,11 +113,9 @@ const ONS: CutOns[] = [
       { i: 7, kind: 'chip', label: 'KOREAN ID', sub: 'required to sign up', at: at(6, 21) },
       { i: 15, kind: 'ink', label: 'APPLE LOGIN', sub: "doesn't help", at: at(6, 22) },
     ],
-    // The seams close and the grid dims to a 2x2 spotlight as the gate is named.
     // Tiles 13/14 are where the ATM body actually sits in c6-gs25-atm-tight.jpg
     // (measured: 59.3% and 24.4% ATM-blue coverage); 9/10 square the block off
     // above it. A first pass lit tile 9 alone, which spotlit the battery locker.
-    slamShut: true,
     keepLit: [9, 10, 13, 14],
   },
 ];
@@ -107,6 +124,7 @@ export const Reel376: React.FC = () => (
   <ReelSplitGrid
     manifest={M}
     ons={ONS}
+    cardSrc="assets/reels/376/media/c2-giftcards-card.jpg"
     outro={{
       hook: "DON'T ORDER BLIND",
       sub: 'Which convenience-store deals actually work for visitors',

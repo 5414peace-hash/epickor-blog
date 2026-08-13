@@ -1531,3 +1531,11 @@
 - **2026-08-13 — Remotion 스틸은 CLI로 뽑지 말 것. 번들이 매 호출마다 다시 돈다.**
   `npx remotion still`을 프레임마다 부르면 2분에 2장이 한계다. `@remotion/bundler`의 `bundle()`을
   **한 번** 부르고 `renderStill()`을 반복하면 9장이 1분 안에 나온다. 디자인 검토는 이 방식으로 한다.
+- **2026-08-13 — `remotion/`은 루트 `tsconfig.json`의 `exclude`에 들어 있다. `npx tsc -p .`는 릴스 파일을 아예 안 본다.**
+  이걸 모르고 "tsc 통과"라고 세 번 보고했는데 그 명령은 `remotion/`을 건드리지도 않았다.
+  릴스 컴포지션 타입체크는 `npm run typecheck:remotion`으로 한다 (신규 파일만 지정 —
+  `Root.tsx` 전체를 걸면 기존 컴포지션의 선행 오류 수십 건이 같이 나와 못 쓴다).
+- **2026-08-13 — Remotion에서 파일명을 두 곳에 적어두면 "source image cannot be decoded"로 터진다.**
+  플레이트 이름이 `prep-plates.mjs`와 `rebuild-timeline.mjs` 양쪽에 있었는데, 플레이트를 새 이름으로
+  다시 만들자 매니페스트가 삭제된 파일을 가리켰다. 에러 메시지는 원인을 전혀 안 알려준다.
+  **`rebuild-timeline.mjs`가 `media-report.json`에서 이름을 읽도록 바꿔 단일 출처로 만들었다.**

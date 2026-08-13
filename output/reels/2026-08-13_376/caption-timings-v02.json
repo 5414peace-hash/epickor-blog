@@ -2,7 +2,7 @@
   "slug": "376",
   "version": "v02",
   "fps": 30,
-  "generatedAt": "2026-08-13T00:44:07.719Z",
+  "generatedAt": "2026-08-13T01:16:34.771Z",
   "method": "ElevenLabs Forced Alignment against the approved narration transcript",
   "captionLeadFrames": 5,
   "safeZone": {

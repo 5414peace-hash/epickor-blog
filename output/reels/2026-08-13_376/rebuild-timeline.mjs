@@ -61,10 +61,14 @@ const beats = JSON.parse(fs.readFileSync(`${DIR}/caption-timings-v02.json`, 'utf
 
 /* 3. cuts, derived from the beats ----------------------------------------- */
 
-const PLATES = [
-  'c1-2plus1-freezer.jpg', 'c2-app-giftcards.jpg', 'c3-shelf-tags.jpg',
-  'c4-icecream-bins.jpg', 'c5-gs25-storefront.jpg', 'c6-gs25-atm-tight.jpg',
-];
+// Plate filenames live in prep-plates.mjs only. Keeping a second copy here meant
+// renaming the plates left the manifest pointing at deleted files, which surfaces
+// as an opaque "source image cannot be decoded" at render time.
+const PLATES = JSON.parse(fs.readFileSync(`${DIR}/media-report.json`, 'utf8'))
+  .plates.sort((a, b) => a.cut - b.cut).map((p) => p.file);
+if (PLATES.length !== CUT_FIRST_BEAT.length) {
+  throw new Error(`media-report.json has ${PLATES.length} plates for ${CUT_FIRST_BEAT.length} cuts`);
+}
 
 const starts = CUT_FIRST_BEAT.map((b, n) => (n === 0 ? 0 : beats[b].startFrame));
 const cuts = starts.map((from, n) => ({
