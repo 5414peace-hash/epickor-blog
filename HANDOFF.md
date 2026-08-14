@@ -10,25 +10,14 @@
 4. Read only files named under Active Work or the user request.
 5. Search the archive narrowly with `rg` only for a specific slug, decision, or incident.
 
-## Current Snapshot - 2026-08-12 (편의점 허브 마감 + 클러스터 측정 기준선 + 가을 행사 패키지 착수)
+## Current Snapshot - 2026-08-14 (유튜브 첫 실측 + 서울 쇼핑 코너 개시 + 비즈니스 재가동)
 
-- **신규 3편·리프레시 1편 발행, 전부 라이브 검증 완료.** 일일 리듬(신규 2 + 리프레시 1)을 초과 충족했다.
-  - `376` [1+1/2+1](https://www.epickor.com/blog/376) — **할인 자체는 앱도 신분증도 필요 없지만, 모든 가이드가 권하는 "킵"은 세 체인 모두 한국 본인인증을 요구한다.** 대표님이 이마트24 가입 화면으로 확인, 애플 로그인으로도 우회 불가 — **게이트는 로그인 제공자가 아니라 앱에 있다.** 킵은 보관이 아니라 **청구권**이라 지점 재고가 수령 가능 여부를 정한다.
-  - `377` [숙취해소제](https://www.epickor.com/blog/377) — **2025-01-01부터 숙취 표현에 인체적용시험 근거 필요, 28개 중 3개가 그 권리를 잃었다.** 식약처 고시에서 직접 확인(28/25/3 숫자는 보도 출처로 귀속). 이미지는 **제조사 공식**(HK inno.N) — Commons는 세 검색형 전부 0건이었고, 팩샷에 인쇄된 배지가 곧 글의 핵심 사실이라 스톡으로 대체 불가였다.
-  - `378` [서울세계불꽃축제](https://www.epickor.com/blog/378) — **9/4~5로 3주 앞당겨짐**(8/6 한화 발표, 추석 회피). 축은 "어디서 볼까"가 아니라 **"어떻게 나올까"** 다: **여의나루역이 2025년에 18:19부터 무정차 통과**했다(쇼 시작 1시간 41분 전). 영어 가이드 어디에도 없다.
-  - `379` [부산불꽃축제](https://www.epickor.com/blog/379) — **서울 글의 복제가 아니다.** 서울은 바지선이라 각도가 무의미하고, 부산은 **광안대교 상판이 발사대**라 정면 확보가 전부다. 그래서 명당 서열(광안리·이기대·황령산·동백섬·민락·금련산)이 실재하고 비교표가 나온다.
-  - `145` [냉면 리프레시](https://www.epickor.com/blog/145) — **문제는 낡음이 아니라 얼버무림이었다.** 가격이 0건이고 식당은 이름만 대고 전부 "확인하세요"였다. 채우니 **조언 자체가 뒤집혔다: 순한 쪽이 비싼 쪽이다** (평양 ₩15,000~18,000 vs 함흥 ₩11,000). 한국 언론 용어 **누들플레이션**, 우래옥은 4월에 ₩16,000→18,000.
-- **클러스터 효과를 처음으로 측정 가능하게 만들었다. 판정일 2026-09-23, `npm run cluster:judge`.**
-  - **"한 주제를 8~12편으로 덮으면 서로 끌어올린다"는 이 사이트가 확인한 적 없는 빌려온 주장이다.** 문서: `output/strategy/cluster-baseline_convenience-store.md`.
-  - **순진한 설계는 없는 효과를 만들어낸다.** 클릭만으로 짝지으니 클릭 0인 클러스터 글 12편이 전부 2024년 7월 최고참 글과 붙었는데, 정작 그중 **10편이 2026년 7~8월 발행**(3편은 관측창 마감 하루 전)이었다. 새 글은 색인만으로 자라므로 **달력으로 가설을 "증명"**할 뻔했다. 발행일까지 맞춰 16/17쌍이 2일 이내다.
-  - **총합으로 판정하지 않는다. `171` 한 편이 치료군 클릭의 84%**이고 하필 유일한 불량 쌍이다. **그 쌍을 뺀 16쌍이 본 판정** — 12 대 12, 살아있는 글 4 대 4. 부수 지표로 "클릭이 하나라도 있는 글 수"를 같이 본다(17편 중 12편이 클릭 0).
-  - **잡음 하한은 비교가 기대는 기저로 계산한다.** 전체 76 기준이면 ±17이라 리허설에서 **기저 12의 +10이 묻혔다.** 지금 ±7.
-  - **`output/gsc/`가 통째로 미추적이었다** — 기준선 재현·감사가 불가능했다. 추출본 7개(415KB) 추적 전환.
-- **다음 대주제(패키지)를 근거로 골랐다 — 대표님 선택: ①→② 계절 선점.** 전 페이지 92편(클릭 3+) 분류 결과 행사 215클릭 / 길거리음식 189 / 서울쇼핑 142(15/19 생존) / 실용시스템 124(12/12 생존). 문서 `package_candidates_2026-08-12.md`, 사이클 `keywords_2026-W34.md`(후보 5개 승인 완료).
-  - **W34 남은 것**: `3` 자라섬(9월 2주) · `4` 에버랜드 할로윈(**기간 미발표 = 블로커**, 8월 말 재확인) · `5` 빛초롱(10월, 서울시 공식으로 날짜 재검증 필수).
-- 구글애즈(AdSense)는 **지금은 안 하는 쪽을 권고**했다 — 월 ~$2.4, 지급까지 약 3.5년, 게다가 아마존 재신청의 180일 내 판매 3건과 **같은 클릭을 놓고 경쟁**한다.
-- 주요 커밋: `8998b336`·`b7977d61`(376·377) `83268da5`(측정 기준선) `8ef172d6`·`429cd102`(패키지·W34) `38551274`·`ad7dc828`(378·379) `76c4de0a`(145 리프레시).
-- **다음**: ① **대표님 폰 검토(릴스 3편, 소리 켜고/끄고)** — 8/25 전까지 ② 리프레시 큐 계속(30편 남음, 다음 `302`) ③ 9월 2주 자라섬.
+- **신규 5편 발행, 전부 라이브 검증.** 8/13 `380`(KTX·SRT 통합)·`381`(스팸 선물세트)·`382`(사이렌 vs 재난문자), 8/14 `383`(서울 캐리어)·`384`(광장시장 구제상가), 그리고 비즈니스 `navien-tankless-water-heater-deep-dive`.
+- **유튜브를 처음으로 실측했다. 인스타와 정반대로 작동한다.** @EpicKor 구독 510, 쇼츠 30편, 누적 42,933뷰. **같은 DMZ 릴스가 인스타 2,172뷰/저장27인데 유튜브 203뷰다.** 7~8월 배치(나이 동일) 하위 3개가 전부 쇼핑·활동·서비스 니치(MU:DS 138·헤어살롱 138·러닝 200)이고 상위 4개가 전부 넓은 문화 호기심 또는 보편적 불안 해소(노래방 1,668·파전 1,605·공중화장실 1,506·사회규칙 1,392). **인스타 저장수로 유튜브 업로드를 고르면 안 된다** — 그 기준으로 짠 1순위 목록을 폐기하고 다시 짰다. 원장 `output/reels/metrics.json`, 스터디 `output/youtube/UPLOAD_STUDY_2026-08-14.md`.
+- **쇼츠 10편 예약 완료 (8/14~8/23 매일 21:00).** 176 찜질방 → 294 금속젓가락 → 186 혼밥 → 187 미신 → 326 매운맛 → 182 직장문화 → 174 지하철 → 301 아줌마 → 181 웹툰 → 190 의료. 목록에서 독립 재검증(예약됨 10건, 빈 날 0). 매니페스트 `output/youtube/tier1-2026-08-14-manifest.json`.
+- **서울 쇼핑 코너 착수(대표님 승인).** 신설이 아니라 **방치된 자산**이었다 — 기존 54편이 이미 클릭 239/노출 23,481/**CTR 1.018%**로 사이트 평균(0.390%)의 2.6배다. 운영서 `section_seoul-shopping-playbook.md`, 기준선 원장 `section_seoul-shopping-baseline.json`. **`where to buy`를 즉시 기각하던 플레이북 §2 규칙이 우리 1위 글(`275`, 9.27%)을 죽일 뻔해 예외를 명시했다** — 범위가 다르다(`where to buy buldak`은 아마존이 먹지만 `...in Seoul`은 목적지 쿼리다).
+- **아마존 재신청 계정에 실판매 1건 발생** (커미션 $2 미만). 3건 중 1건, 기한 **2027-01-23**. "전환은 되는데 클릭이 병목"이라는 진단이 유효하다.
+- **비즈니스 섹션 5일 만에 재가동.** 파세코를 1순위로 올렸다가 **SERP 실사에서 기각**하고 나비엔으로 교체·발행했다. 후보 문서 `business-candidates_2026-08-14.md`.
 
 ## Active Work
 
@@ -59,27 +48,35 @@
 
 ## Blockers / Decisions Needed
 
-- **대표님 판단 대기 (2026-08-03 기준 2건).** ① **`typescript.tsserver.maxTsServerMemory` 3072 → 2048** 하향 여부 — 대표님 자동완성 체감에 직접 영향이라 임의 변경하지 않았다. ② **UI/UX 리디자인 5안 선택** — `docs/design/uiux-2026-08/`, 고르기 전까지 구현 착수 금지.
-- **비즈니스 글은 미리보기에서 승인 버튼이 나오지 않는다. 이건 버그가 아니라 의도다.** `/api/preview/approve`·`reject`가 경로를 `content/blog/{slug}.md`로 **무조건** 만들기 때문에, 비즈니스 슬러그로 승인을 누르면 발행이 아니라 **`content/blog/`에 유령 파일이 생기고** 거부는 없는 경로를 지우려 한다. 비즈니스 발행은 git으로 한다. 지원하려면 두 API 라우트를 컬렉션 인지형으로 고쳐야 하는데, **파일을 삭제하는 라우트라 미리보기 추가하는 김에 같이 손댈 일이 아니다.**
-- Amazon link validity and first attribution rollout are resolved and published. Associates Central now has validated IDs `epickor-food-20`, `epickor-travel-20`, `epickor-beauty-20`, `epickor-books-20`, and `epickor-gear-20` in addition to `epickor2026-20`. Commit `70ae589a` assigns 13 direct search links across Blogs `006`, `071`, `082`, `090`, `136`, `153`, `160`, `171`, and `223`; existing direct-product short links remain unchanged. The 359-route Webpack build passes. Implementation deployment `dpl_3PAyahXSkE5XkUa4QPQTrxKRZqtM` and QA-record deployment `dpl_FvBVJxpZCWRVJvXp36gifVyBan5c` are Ready; the latter is currently aliased to `www.epickor.com`. All nine public pages return HTTP 200, all 13 category anchors have the intended tag and sponsored attributes, and the public layout bundle contains `affiliate_amazon_click`. Remaining decision is data-driven expansion after category reports accumulate, not a validity-driven sitewide replacement.
-- Agoda Partners setup and the first two-page deployment are complete. Do not expand to more pages or specific-property coverage until at least 2-4 weeks of `affiliate_agoda_click` and Agoda reporting data are reviewed.
-- Blog 293 V04 decision is closed as rejected. Do not spend more production time revising that candidate.
-- Business Type A queue ID `5` (`Korean Food Suppliers`) is explicitly deferred. When resumed, evaluate representative client `iFood` for inclusion; before any client-specific coverage, confirm Tripclip's completed production work, client consent, sensitive-information scope, and public video-embed permission under the B-1 trust gate.
-- General-blog 3+1 shortlist is complete: Blogs 294-297 are published and publicly verified.
-- Reel 294 V03, Porcelain Daylight design, QA, representative confirmation, and Instagram caption are complete. It is upload-package-ready but remains unscheduled until two additional approved Reels complete the required 3-Reel batch.
-- Reels 296 and 297 V02 are complete corrected review candidates. Remaining gate: representative phone playback with sound on/off and final approval. V01 for both slugs is superseded; neither Reel is uploaded or scheduled.
-- Reels 299/301/302 are fully re-rendered, internally QA-passed, representative-approved, and caption-package-ready. Use only 299 V02, 301 V02, and 302 V03; every earlier candidate is superseded. Scheduling remains unstarted and requires representative authorization under the three-Reel batch rule.
-- The BGM variants for 299/301/302 are review candidates layered on those approved visuals; they do not supersede the approved voice-only masters until the representative accepts the music choice and balance.
-- Legacy BGM-included Reels `125-158` were inventoried from `history reels/`: 27 vertical H.264/AAC files are present, with `131/132/142/145-148` absent. Studio history confirmed `125-136` were already uploaded, so those duplicates were excluded. The remaining 17 Shorts (`137-141`, `143-144`, `149-158`) are now scheduled as Public one per day at 21:00 KST from 2026-07-21 through 2026-08-06. All 17 upload copies are 1080x1920 H.264/AAC, passed full decode/probe checks, were set to not made for kids, and passed YouTube Checks with no copyright issues before scheduling. YouTube Studio's content list was rechecked after the batch: all 17 IDs, `Scheduled` states, and dates matched the manifest. Reel `150` was visually identified as the Korean noraebang songs topic and mapped to Blog `003` because Blog `150` does not exist. Full metadata, dates, IDs, and mapping notes: `output/youtube/legacy-shorts-137-158-manifest.json`. Policy draft: `output/youtube/SHORTS_UPLOAD_POLICY.md`.
-- Do not begin Reels/card news until public deployment and URL verification are complete.
-- Social reuse still requires representative selection and the 3-Reel/3-carousel batch rhythm.
-- **Resolved 2026-07-24: the recurring multi-GB deploy-archive bug is root-caused and fixed.** Two separate real problems were stacked: (1) `public/assets/reels/{slug}/video/*.mp4` — raw Remotion source/proxy footage for past Reels productions (293/294/296/297/311/312/313), stored under `public/` so Remotion's local server could serve them, never cleaned up, ~1.2GB total, including one 111MB file that alone tripped Vercel's hard 100MB-per-file limit; (2) `history reels/` (legacy uploaded-Reels archive, 4.9GB) was somehow still being swept into the upload despite being listed in both `.gitignore` and `.vercelignore` — same folder name that needed exact-string handling once before (2026-07-20), so trust the ignore-file entry less than a real test. **Fix applied:** physically moved `public/assets/reels/*` to `.tmp/reels-source-archive/` (still available locally, guaranteed excluded now) and moved `history reels/` entirely outside the repo to `../epickor-blog-heavy-archive/history-reels/` (sibling folder, not inside `epickor-blog` at all, so no ignore-file can ever fail to exclude it again). Also discovered `public/assets/reels/**` was tracked in git despite being gitignored (added to `.gitignore` after files were already committed) — the deletions were committed to stop future bloat. Post-fix deploy: 3334 files, ~2 minutes, clean success. **Practical rule going forward: never store any raw video/audio production material under `public/`, even temporarily — use `output/` or a folder outside the repo instead.**
-- **`.git` history rewrite (removing legacy `history reels/*.mp4` blobs, 4.87GB / 74% of all history) was investigated, safely simulated on a disposable local clone, and verified 100% clean (2606/2606 commits preserved, all 3437 current-HEAD files byte-identical by blob hash, `.git` would shrink 7.1GB->1.6GB), then deliberately NOT applied.** Reason: the deploy-blocking problem is already fully fixed by the `public/`-level changes above (Vercel deploy never touches `.git` at all), so this would only be local-disk hygiene (130GB free, no pressure) at the cost of a `git push --force` to `master`. Confirmed no other clone of this repo exists anywhere on the machine (checked D: and C:\Users\user), so collaborator risk would have been zero if done, but the representative correctly judged it not worth doing without a real reason. Revisit only if disk space becomes tight or the repo needs to be re-cloned somewhere. The disposable test clone was deleted after verification.
+- **대표님 판단 대기 (2026-08-14 기준 3건).**
+  ① **비즈니스 다음 후보** — 오로라월드·위닉스·락앤락 중 방향. 락앤락은 소유구조(2017 홍콩계 PE 인수) 확인이 선행.
+  ② **UI/UX 리디자인 5안** — `docs/design/uiux-2026-08/`. 대표님이 "나중에 할 것"이라 명시했으므로 먼저 꺼내지 말 것.
+  ③ **`typescript.tsserver.maxTsServerMemory` 3072 → 2048** 하향 여부 — 대표님 자동완성 체감에 직접 영향이라 임의 변경하지 않았다.
+
+- **URL 통합·삭제는 하지 않는다 (2026-08-14 대표님 지시).** 다이소 `218`/`148` 등 중복 통합을 제안했다가 **"url 수정할 생각을 왜 해? 하지마"**로 종결됐다. 재론 금지. 중복은 그대로 두고 9/23 판정 때 데이터로만 본다.
+
+- **리프레시 트랙은 2026-09-23 판정까지 정지.** 일일 리듬이 "신규 2 + 리프레시 1"인데 **리프레시가 0**인 상태가 40일간 이어진다. 의도된 정지이지만 리듬의 3분의 1이 비는 것을 인지할 것. `074`·`206`·`223`이 측정군이라 손댈 수 없다.
+
+- **비즈니스 글은 미리보기에서 승인 버튼이 나오지 않는다. 이건 버그가 아니라 의도다.** `/api/preview/approve`·`reject`가 경로를 `content/blog/{slug}.md`로 **무조건** 만들기 때문에, 비즈니스 슬러그로 승인을 누르면 발행이 아니라 **`content/blog/`에 유령 파일이 생기고** 거부는 없는 경로를 지우려 한다. 비즈니스 발행은 git으로 한다.
+
+- Agoda 파일럿은 2페이지 배포 완료. `affiliate_agoda_click` 데이터 2~4주 검토 전까지 확대 금지.
+- Blog `293` V04는 반려로 종결. 유튜브 업로드 후보에서도 제외한다(디스크 파일은 V03이라 동일 여부 미확인).
+- 소셜 재사용은 여전히 대표님 선택 + 3편 배치 리듬을 따른다.
 
 ## Next Recommended Work
 
 > **Read this list against the newest Current Snapshot before acting on or repeating any line.** Entries here have gone stale within a day before and produced a wrong session-close report. Snapshots are the work record; this is a convenience list.
 
+
+0a. **[날짜 있음] 2026-08-20 — 코레일 추석 예매 공지 확인.** `200`(제목·표·FAQ)과 `380`이 **"8/20 KTX / 8/25 SRT 예상, 공식 미발표"**로 나가 있다. 한국 블로그가 일제히 그 날짜를 쓰지만 **코레일·SR 공지사항 어디에도 2026 추석 공지가 없다**(2026-08-14 직접 확인). 발표되면 두 글을 확정 날짜로 올린다. **부산 예매 오보와 같은 계열이라 2차 출처로 확정하지 말 것.**
+
+0c. **[날짜 있음] 2026-09-01 — `225` 재작성.** KTX·SRT 통합으로 "둘 중 무엇을 고를까"라는 글의 전제 자체가 사라진다. 지금은 상단 업데이트 고지만 붙여둔 상태다. 본문 35군데가 없어질 사업자를 비교하고 있다.
+
+0d. **[대표님 판단 대기] 비즈니스 다음 후보.** 나비엔 발행 완료. 남은 후보는 **오로라월드·위닉스·락앤락**이고 **수요만 쟀고 커버리지 게이트는 미실시**다. **락앤락은 2017년 홍콩계 PE(Affinity) 인수라 소유구조 규칙 확인이 먼저**다. 문서 `output/strategy/business-candidates_2026-08-14.md`.
+
+0e. **[8/24 이후] 유튜브 쇼츠 10편 성적 판정.** 8/14~8/23 게시. **"넓은 문화 호기심 + 보편적 불안 해소" 가설의 검증**이고, 맞으면 2차 10편을 같은 기준으로 짠다. **아직 확인 못 한 것: 설명란 링크로 epickor.com 유입이 실제로 나오는가** — Studio 분석 탭 트래픽 소스. 유튜브를 쓰는 이유 자체의 검증이다.
+
+0f. **서울 쇼핑 코너 — 백로그가 얇다.** 2026-08-14 게이트에서 상위 4개(안경·여행가방·기념품·한복)가 전부 혼잡/기각. 안경은 전용 도메인이 클러스터를 소유해 **하드 기각**. 남은 것은 문구·을지로 공구·중고카메라이고 **수요를 안 쟀다**. **매일 쇼핑으로 쓸 수는 없다** — 다른 축과 섞는다. **중복 통합(다이소 218/148 등)은 9/23 이후로 미뤘다** — 카니발라이제이션도 검증 안 된 통념이고, 그때 GSC를 새로 뽑으니 **통합 전후를 재서 우리 데이터로 처음 확인**하는 게 낫다.
 0. **[날짜 고정] 2026-09-23 — 편의점 클러스터 + 리프레시 프로그램 동시 판정.** GSC에서 **같은 "지난 3개월" 창**으로 새 추출본을 받아 `output/gsc/`에 넣고 `npm run cluster:judge`. 기준선은 2026-08-12에 찍었다(`output/strategy/cluster-baseline_convenience-store.md`). **이 판정 전에 다음 패키지를 클러스터 방식으로 짜는 것은 근거 없는 반복이다.** 스크립트가 같은 추출본이면 스스로 거부하고, "차이 없음"도 하나의 결론으로 낸다 — 중간을 취해 "긍정적"이라 부르지 말 것. **같은 날 리프레시 트랙도 판정한다 — `npm run refresh:judge`** (기준선 `output/strategy/refresh-baseline.md`, 35편 치료군 / 30쌍 엄격 부분집합 72대72 / 큐 잔여 22편 제2 대조군). **GSC 한 번 뽑으면 둘 다 끝난다.**
 
 0b. **[날짜 있음] 가을 행사 패키지 — 남은 3편.** 사이클 `output/strategy/keywords_2026-W34.md`(대표님 승인 완료, `378`·`379` 발행됨).
@@ -121,6 +118,16 @@
 - Verify local build/render, public pages, all local assets, sitemap, and reverse links once each unless a failure appears.
 
 ## Recent Change
+
+- 2026-08-14: **신규 5편 + 유튜브 첫 실측 + 쇼핑 코너 개시 + 비즈니스 재가동.** 상세는 위 Current Snapshot. 재사용 규칙 여섯만 남긴다.
+  - **플랫폼마다 원하는 게 다르다. 한쪽 지표로 다른 쪽을 고르지 마라.** 인스타 저장수로 유튜브 1순위를 짰다가 실측에서 통째로 뒤집혔다 — 같은 DMZ 영상이 2,172뷰 대 203뷰다. **유튜브는 넓은 호기심·보편적 불안 해소, 인스타는 저장할 실용.**
+  - **"영어 수요가 있다"로는 부족하다. 그 수요가 어느 나라에 있는지를 봐야 한다.** 파세코가 자동완성 15분기로 후보 최상위였는데 **그 15분기가 전부 파키스탄·동남아**였고 SERP는 알리바바+현지 소매 100%였다. **자동완성은 국가를 말해주지 않고 SERP가 말해준다** — 게이트에 추가했다.
+  - **수요가 크다는 건 비어 있다는 뜻이 아니라 답이 부실하다는 뜻일 수 있다.** `where to buy X in seoul` 6종 전부 reddit 접미사가 1~2번이었는데, 정작 상위 4개 백로그(안경·여행가방·기념품·한복)가 전부 커버리지에서 걸렸다. 안경은 **전용 도메인이 클러스터를 소유**해 하드 기각.
+  - **노출이 크다고 기회가 아니다. 봇일 수 있다.** `074`가 코너 노출의 41%(9,613)에 클릭 11인데, 따옴표 연산자 쿼리 21건(2,329노출·클릭0·평균 6.5위)이 전부 이 글을 향한다. **다만 그걸 빼도 0.15%라 진짜 문제도 함께 있다** — 처음에 "봇이라 왜곡"이라 말한 건 과장이었다.
+  - **유튜브 업로드 자동화 함정 4개** (FACTS 상세): 구글이 크롬 로그인을 막아 **웨일 프로필**을 쓴다 / Studio 기본 채널이 **VDOLAB**이라 채널 ID로 직접 들어간다 / 파일 투입은 **`파일 선택` 버튼 + expect_file_chooser만** 작동한다 / **CDP 연결 브라우저는 50MB 상한**이라 최근 세대 릴스(62~125MB)는 유튜브용 사본이 따로 필요하다.
+  - **날짜 필드는 타이핑하면 시간 칸으로 들어간다.** 유튜브 예약에서 `잘못된 시간` 오류가 났고 **커밋 게이트가 막았다.** 달력 셀을 클릭해야 하고(Meta와 같은 교훈), **날짜를 고르면 시간이 초기화되므로 시간은 반드시 나중**이다.
+  - 커밋 `0f13f58d` `c33eb362` `a4f44432` `0f0a4fa9` `117848b9`.
+
 
 - 2026-08-12: **신규 3편(`377`·`378`·`379`)·리프레시 1편(`145`) 발행 + 클러스터 측정 기준선 + 다음 대주제 결정.** (`376`은 날짜가 바뀌기 직전인 08-11자다.) 상세는 위 Current Snapshot. 재사용 규칙 여섯만 남긴다.
   - **대조군은 결과를 보기 전에 정한다. 그리고 클릭뿐 아니라 발행일까지 맞춘다.** 클릭만 맞추면 클릭 0인 신규 글이 클릭 0인 최고참 글과 짝지어지는데, 새 글은 개입과 무관하게 색인만으로 자라므로 **평범한 성장이 개입 효과로 둔갑한다.** 이번엔 10편이 그 상태였다.
