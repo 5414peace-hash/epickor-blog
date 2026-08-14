@@ -1626,3 +1626,12 @@
 - **2026-08-13 — 대표님이 379를 "테스트"로 컨펌했다.** "잘 만든건지 정보가 잘 들어간건지 시청자
   입장에서 어떤건지 모르겠다." **성과를 볼 때 이 편은 판단 보류 상태로 올라간 것임을 기억할 것** —
   수치가 나쁘게 나와도 프레임(타임라인) 탓인지 주제(계절·원거리) 탓인지 분리해서 봐야 한다.
+
+- **2026-08-14 — 유튜브 업로드 자동화, 실측으로 확립된 절차와 함정 4개.** 스크립트 `.claude/skills/reels/scripts/yt_upload_batch.py`, 읽기는 `yt_read_whale.py`.
+  - **① 로그인은 크롬으로 안 된다. 웨일을 쓴다.** Playwright가 띄운 크롬(전용 프로필)에서 구글이 로그인을 거부했다 — FACTS의 GA4 항목과 같은 증상. 대표님이 웨일에 로그인한 뒤 그 프로필(`Profile 1`, User Data는 `%LOCALAPPDATA%\Naver\Naver Whale\User Data`)을 `--remote-debugging-port=9223`으로 재실행해 붙는다. **웨일을 Playwright로 launch하는 것은 실패한다** — Playwright의 debugging pipe를 못 알아듣고 즉시 종료된다.
+  - **② 채널 기본값이 VDOLAB이다.** Meta Suite와 같은 함정. EpicKor는 **`UC4Z3moxZvDUkzj5HmoHEEtg`**(@EpicKor, 구독자 510명)이고 채널 스위처를 눌러도 Studio가 안 따라오는 경우가 있어 **채널 ID로 직접 URL을 친다**.
+  - **③ 파일 투입 경로는 하나뿐이다.** `만들기 → 동영상 업로드`는 filechooser 이벤트가 아예 안 뜬다(40초 타임아웃). 다이얼로그(`/videos/upload?d=ud`)의 `<input type=file>`은 `aria-hidden`이라 Locator·ElementHandle 양쪽 다 30초 타임아웃. **`파일 선택` 버튼을 `expect_file_chooser`로 감싸 클릭하는 것만 작동한다.**
+  - **④ CDP 연결 브라우저는 50MB가 상한이다.** `301`(50.6MB)이 `Cannot transfer files larger than 50Mb to a browser not co-located with the server`로 실패했다. 8.8Mbps로 재인코딩해 41.1MB(실측 8.35Mbps, CLAUDE.md 하한 8Mbps 통과)로 해결. **릴스 렌더가 50MB를 넘으면 유튜브용 사본이 따로 필요하다** — 최근 세대는 62~125MB라 대부분 해당된다.
+  - **⑤ 날짜는 타이핑하면 안 된다.** 날짜 필드는 `ytcp-datetime-picker`라 타이핑이 **시간 칸으로 들어가** `잘못된 시간` 오류가 난다. **필드를 클릭해 달력을 열고 날짜 셀을 클릭한다**(schedule-meta-reel.py가 Meta에 대해 기록한 것과 같은 교훈). 달력이 여러 달을 렌더하므로 같은 숫자 셀이 2~3개 나오고 **가장 위의 것**이 이번 달이다. 그리고 **날짜를 고르면 시간이 초기화되므로 시간은 반드시 날짜 다음에** 넣는다.
+  - **⑥ 탭이 쌓이면 CDP 연결이 죽는다.** 업로드마다 새 탭을 열어 7개가 되자 `connect_over_cdp`가 180초 타임아웃. `http://127.0.0.1:9223/json/close/{id}`로 정리하면 복구된다.
+  *Verified:* Tier 1 10편 실제 예약 + Studio 목록 독립 재검증, 2026-08-14.

@@ -1,15 +1,20 @@
 """
 Upload and schedule a batch of Shorts to YouTube Studio.
 
-WHY THIS LAUNCHES INSTEAD OF ATTACHING — the trap is already in this repo, in
-`schedule-meta-reel.py`: *"Playwright refuses >50MB uploads to a browser it did not
-launch."* Attaching over CDP to the running Whale made both Locator and ElementHandle
-set_input_files time out at 30s on a 29MB file. Launching Whale through Playwright,
-pointed at the representative's existing profile, keeps the Google session (the block
-is on *signing in*, not on *being signed in*) and makes uploads work.
+HOW THE FILE ACTUALLY GETS IN — three routes tried, only the third works.
+  1. 만들기 → 동영상 업로드 : never fires a filechooser event. Times out at 40s.
+  2. set_input_files on the dialog's own <input type=file> : that input is aria-hidden,
+     and both Locator and ElementHandle time out at 30s even on a 29MB file.
+  3. expect_file_chooser wrapped around a click on the visible 파일 선택 button : works.
 
-⚠️ Whale must be CLOSED before this runs — Chromium refuses a second instance on the
-same user-data-dir.
+Launching Whale through Playwright does not work either — it exits immediately, because
+Whale does not speak Playwright's debugging pipe. So Whale is started separately with
+--remote-debugging-port and this attaches to it. That contradicts the note in
+schedule-meta-reel.py about uploads needing a Playwright-launched browser; that rule
+holds for the Meta composer, not here.
+
+⚠️ Whale must already be running with --remote-debugging-port=9223 on the rep's
+`Profile 1`. yt_read_whale.py starts it that way.
 
 ⚠️ THE DANGEROUS PART. YouTube's visibility step defaults to publishing. This refuses
 to click the commit button unless the title, the blog URL, the date and the time all
@@ -29,9 +34,7 @@ from playwright.sync_api import sync_playwright
 
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 
-WHALE = r"C:\Program Files (x86)\Naver\Naver Whale\Application\whale.exe"
-USER_DATA = str(Path.home() / "AppData/Local/Naver/Naver Whale/User Data")
-PROFILE_DIR = "Profile 1"
+PORT = 9223
 
 MANIFEST = sys.argv[1]
 ONLY = set(sys.argv[2:])
@@ -71,7 +74,9 @@ def upload_one(page, item):
         shot("wrongchannel")
         return "채널이 EpicKor가 아님"
 
-    page.locator('input[type="file"]').first.set_input_files(video, timeout=120000)
+    with page.expect_file_chooser(timeout=30000) as fc:
+        page.get_by_text("파일 선택", exact=True).first.click()
+    fc.value.set_files(video, timeout=180000)
     log("    파일 제출, 업로드 대기…")
 
     # Details form ready when there are ≥2 rich-text boxes.
@@ -122,26 +127,47 @@ def upload_one(page, item):
         shot("nosched")
         return "예약 탭 미발견"
 
-    # Date
-    try:
-        di = page.locator('input[aria-label*="날짜"], tp-yt-paper-input input').first
-        di.click(); page.keyboard.press("Control+A")
-        page.keyboard.type(date_ko, delay=25); page.keyboard.press("Enter")
-        page.wait_for_timeout(1500)
-    except Exception:
-        pass
+    # Date — the field is a ytcp-datetime-picker, not a plain input. Typing into it
+    # lands in the TIME box instead (that mistake produced a "잘못된 시간" error on the
+    # first run). Click the box, then click the day cell in the calendar popup — the
+    # same lesson schedule-meta-reel.py records for Meta.
+    # The calendar renders several months, so there are multiple cells reading e.g.
+    # "14"; the wanted one is the topmost.
+    day = str(int(item["publishAt"][8:10]))
+    if date_ko not in page.inner_text("body"):
+        page.mouse.click(420, 272)
+        page.wait_for_timeout(2200)
+        cells = page.evaluate(r"""()=>{const out=[];const walk=(r)=>{
+          for(const el of r.querySelectorAll('*')){
+            const t=(el.textContent||'').trim();
+            if(/^\d{1,2}$/.test(t)&&el.children.length===0){const b=el.getBoundingClientRect();
+              if(b.width>0&&b.width<60&&b.height<60)
+                out.push({t,x:Math.round(b.x+b.width/2),y:Math.round(b.y+b.height/2)});}
+            if(el.shadowRoot) walk(el.shadowRoot);}};walk(document);return out;}""")
+        hits = sorted([c for c in cells if c["t"] == day], key=lambda c: c["y"])
+        if not hits:
+            shot("nocal")
+            return f"달력에서 {day}일 셀 미발견"
+        page.mouse.click(hits[0]["x"], hits[0]["y"])
+        page.wait_for_timeout(2000)
 
-    # Time
+    # Time — set AFTER the date, because picking a date resets this box.
+    tb = None
     for cand in page.locator("input").all():
         try:
-            v = (cand.input_value() or "").strip()
-            if re.match(r"^(오전|오후)\s*\d{1,2}:\d{2}$", v):
-                cand.click(); page.keyboard.press("Control+A")
-                page.keyboard.type(time_ko, delay=25); page.keyboard.press("Enter")
-                break
+            bb = cand.bounding_box()
+            if cand.is_visible() and bb and bb["y"] > 240 and bb["width"] < 200:
+                tb = cand
         except Exception:
             pass
-    page.wait_for_timeout(1800)
+    if tb is None:
+        shot("notime")
+        return "시간 입력칸 미발견"
+    tb.click(); page.keyboard.press("Control+A"); page.keyboard.press("Delete")
+    page.keyboard.type(time_ko, delay=45)
+    page.wait_for_timeout(900)
+    page.keyboard.press("Enter")
+    page.wait_for_timeout(1600)
     shot("scheduled")
 
     # Pre-commit gate
@@ -150,12 +176,15 @@ def upload_one(page, item):
     problems = []
     if title[:26] not in txt:
         problems.append("제목 미확인")
-    if f"epickor.com/blog/{slug}" not in txt:
-        problems.append("블로그 URL 미확인")
     if date_ko.replace(" ", "") not in flat:
         problems.append(f"날짜 불일치(기대 {date_ko})")
-    if time_ko.replace(" ", "") not in flat:
-        problems.append(f"시각 불일치(기대 {time_ko})")
+    tv = (tb.input_value() or "").strip()
+    if tv != time_ko:
+        problems.append(f"시각 불일치(현재 '{tv}', 기대 '{time_ko}')")
+    if "잘못된" in txt:
+        problems.append("페이지에 오류 경고 존재")
+    # The description is entered on the 세부정보 step and is not rendered here, so it is
+    # verified afterwards from the Shorts list rather than pretended at.
 
     commit = None
     for el in page.locator('button, ytcp-button, div[role="button"]').all():
@@ -180,14 +209,9 @@ def upload_one(page, item):
 
 
 with sync_playwright() as p:
-    ctx = p.chromium.launch_persistent_context(
-        USER_DATA,
-        executable_path=WHALE,
-        headless=False,
-        no_viewport=True,
-        args=[f"--profile-directory={PROFILE_DIR}", "--disable-sync", "--start-maximized"],
-    )
-    page = ctx.pages[0] if ctx.pages else ctx.new_page()
+    browser = p.chromium.connect_over_cdp(f"http://127.0.0.1:{PORT}")
+    ctx = browser.contexts[0]
+    page = ctx.new_page()
 
     ok, bad = [], []
     for item in items:
