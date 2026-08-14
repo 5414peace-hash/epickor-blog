@@ -1,10 +1,10 @@
 {
   "summary": {
-    "generatedAt": "2026-08-14T02:00:54.543Z",
-    "auditedPosts": 374,
+    "generatedAt": "2026-08-14T02:40:22.549Z",
+    "auditedPosts": 375,
     "includedPrivate": false,
     "slugFilter": "",
-    "bodyImages": 1351,
+    "bodyImages": 1353,
     "affectedPosts": 98,
     "critical": 0,
     "high": 0,
@@ -13968,6 +13968,31 @@
           "url": "/assets/images/posts/383/namdaemun-market-alley.jpg",
           "alt": "An alley inside Namdaemun Market with international flags strung overhead, a large sign reading Namdaemun Jungang Shopping Town C-dong, and shops selling bags and imported goods on both sides.",
           "caption": "The buildings are numbered and lettered — this is 남대문중앙상가 C동. Shops give their address as a building, a floor and a unit number, not a street address, which is why searching a map for the shop name often fails. Photo: Adbar, Wikimedia Commons (CC BY-SA 3.0).",
+          "ext": ".jpg",
+          "exists": true
+        }
+      ],
+      "findings": []
+    },
+    {
+      "type": "blog",
+      "slug": "384",
+      "title": "Gwangjang Market's Second Floor: Seoul's Vintage Arcade, and the One Day It's Shut",
+      "contentPath": "content\\blog\\384.md",
+      "sourceRecord": "public\\assets\\images\\posts\\384\\image-sources.md",
+      "imageCount": 2,
+      "images": [
+        {
+          "url": "/assets/images/posts/384/gwangjang-food-alley-second-floor.jpg",
+          "alt": "The interior of Gwangjang Market's food alley, steam rising from stalls under hanging lamps and red signboards, with the market's second-floor windows and railings visible above the awnings.",
+          "caption": "Look above the awnings. The food alley everyone photographs sits underneath a whole second storey, and that is where the clothes are. Photo: ChongDae, Wikimedia Commons (CC BY-SA 3.0).",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/384/gwangjang-market-entrance.jpg",
+          "alt": "The exterior of Gwangjang Market in Seoul, a brick building with a large sign reading 광장시장 and KWANG JANG MARKET above an entrance arch, with the market visible through the opening.",
+          "caption": "The entrance most visitors photograph and then walk straight past on their way to the food. Photo: Bgag, Wikimedia Commons (CC0).",
           "ext": ".jpg",
           "exists": true
         }
