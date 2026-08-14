@@ -52,6 +52,7 @@ debug.log
 # session ends. 2026-08-13's brainstorm was silently swallowed by the /* rule above.
 !/output/strategy/section_*.md
 !/output/strategy/section_*.json
+!/output/strategy/business-candidates_*.md
 # Measurement baselines. These are the ONLY record of what a metric looked like
 # before an intervention; once the window passes, an untracked one cannot be
 # reconstructed from anything. Losing this file does not degrade the experiment,
