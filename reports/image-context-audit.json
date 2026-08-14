@@ -1,10 +1,10 @@
 {
   "summary": {
-    "generatedAt": "2026-08-13T13:19:18.043Z",
-    "auditedPosts": 373,
+    "generatedAt": "2026-08-14T02:00:54.543Z",
+    "auditedPosts": 374,
     "includedPrivate": false,
     "slugFilter": "",
-    "bodyImages": 1349,
+    "bodyImages": 1351,
     "affectedPosts": 98,
     "critical": 0,
     "high": 0,
@@ -13943,6 +13943,31 @@
           "url": "/assets/images/posts/382/emergency-ready-app-seoul-official.jpg",
           "alt": "The Seoul Metropolitan Government's English website showing the Emergency Ready App page, with app screenshots and multilingual feature cards for emergency alerts, safety guidelines and shelters.",
           "caption": "The Emergency Ready App is made by the Ministry of the Interior and Safety and carries disaster information in 22 languages. Screenshot: Seoul Metropolitan Government official English site, 13 August 2026.",
+          "ext": ".jpg",
+          "exists": true
+        }
+      ],
+      "findings": []
+    },
+    {
+      "type": "blog",
+      "slug": "383",
+      "title": "Where to Buy Luggage in Seoul: Namdaemun, Real Prices, and When Not to Bother",
+      "contentPath": "content\\blog\\383.md",
+      "sourceRecord": "public\\assets\\images\\posts\\383\\image-sources.md",
+      "imageCount": 2,
+      "images": [
+        {
+          "url": "/assets/images/posts/383/namdaemun-market-street.jpg",
+          "alt": "A busy Namdaemun Market street in Seoul lined with awnings and stalls, Korean shop signs on both sides, shoppers walking between racks of clothing and goods.",
+          "caption": "Namdaemun Market. The bag buildings are not on this street — they are one alley in, which is the first thing that catches visitors out. Photo: Sgroey, Wikimedia Commons (CC BY-SA 4.0).",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/383/namdaemun-market-alley.jpg",
+          "alt": "An alley inside Namdaemun Market with international flags strung overhead, a large sign reading Namdaemun Jungang Shopping Town C-dong, and shops selling bags and imported goods on both sides.",
+          "caption": "The buildings are numbered and lettered — this is 남대문중앙상가 C동. Shops give their address as a building, a floor and a unit number, not a street address, which is why searching a map for the shop name often fails. Photo: Adbar, Wikimedia Commons (CC BY-SA 3.0).",
           "ext": ".jpg",
           "exists": true
         }
