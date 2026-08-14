@@ -30,22 +30,39 @@
 import { AbsoluteFill, Img, Sequence, staticFile, useCurrentFrame, useVideoConfig } from 'remotion';
 import type { CSSProperties, ReactNode } from 'react';
 import { Cut, OVERLAP, VoiceTrack, clamp } from './Batch0726Kit';
+import { loadFonts } from './fonts';
+import { FONTS } from './tokens/core';
+import { THEME_376, face, groundCss, plateBg } from './tokens/theme';
 
 /* ------------------------------------------------------------------ tokens */
 
-/** Palette taken from the subject: Korean convenience-store signage and shelf tags. */
+/**
+ * Colour is no longer written here. EpicKor has no fixed brand colour — each reel
+ * takes the palette its own footage implies, derived by
+ * `node scripts/extract-palette.mjs --slug 376` and recorded in
+ * `output/reels/2026-08-13_376/palette.json`, then transcribed into
+ * `tokens/theme.ts`. The previous hand-picked values (#0A0D10 / #D24437 / #12B0E8 /
+ * #F2B01E) were a guess at "convenience-store signage"; the sampled plates are
+ * warmer and far less saturated than that guess assumed.
+ */
+const THEME = THEME_376;
 const T = {
-  ink: '#0A0D10',      // the ground the tiles are separated by
-  bone: '#F4F1EA',     // shelf-tag paper
-  chip: '#D24437',     // brand red — the same chip the outro uses
-  cyan: '#12B0E8',     // GS25 sign blue
-  amber: '#F2B01E',    // promo-strip yellow
-  mute: '#8E9AA3',
+  ink: THEME.color.canvas,
+  bone: THEME.color.ink,
+  chip: THEME.color.accent[0],
+  cyan: THEME.color.accent[1],
+  amber: THEME.color.highlight,
+  mute: THEME.color.inkMuted,
 };
 
-const black = "'Segoe UI Black', 'Segoe UI', 'Arial Black', sans-serif";
-const grotesk = "'Segoe UI', 'Helvetica Neue', Arial, sans-serif";
-const mono = "Consolas, 'Courier New', ui-monospace, monospace";
+/**
+ * Faces come from `public/assets/fonts/` via `remotion/fonts.ts`. No system font is
+ * named anywhere in this file: a render host without Segoe UI silently substituted
+ * Arial, and one without a Korean face produced tofu in the kicker chips.
+ */
+const black = face(THEME, 'hook');       // Archivo Variable — wide, blunt, for hooks
+const grotesk = face(THEME, 'body');     // Inter Variable — the reading face
+const mono = FONTS.mono;              // codes and rail labels only
 
 const COLS = 4;
 const ROWS = 6;
@@ -122,7 +139,12 @@ export type CutOns = {
 function TextGate({ children, style }: { children: ReactNode; style?: CSSProperties }) {
   const frame = useCurrentFrame();
   const { durationInFrames } = useVideoConfig();
-  const exit = clamp(frame, [durationInFrames - OVERLAP, durationInFrames - Math.round(OVERLAP / 2)], [1, 0]);
+  // 2026-08-14: this used to START fading at durationInFrames - OVERLAP, i.e. the
+  // exact frame the next cut mounts, and run 8 frames past it. For photography that
+  // reads as a crossfade; for text both mastheads render at once and the glyphs
+  // interleave -- measured 'THE TIMING | 음주 전 | CE STORE | 숙취해소제' on 377 f203.
+  // The fade now COMPLETES at the boundary, so text swaps and never overlaps.
+  const exit = clamp(frame, [durationInFrames - OVERLAP - 5, durationInFrames - OVERLAP], [1, 0]);
   return <div style={{ ...style, opacity: exit }}>{children}</div>;
 }
 
@@ -234,14 +256,16 @@ function LabelTile({ t, gap }: { t: TileLabel; gap: number }) {
     }}>
       <div style={{
         font: `900 ${size}px/0.92 ${black}`,
-        letterSpacing: t.label.length <= 3 ? -3 : -1,
+        // em, not px: `size` is computed per tile, so a fixed -3px was a different
+        // optical tightness on every label. Divide by this element's own fontSize.
+        letterSpacing: `${((t.label.length <= 3 ? -3 : -1) / size).toFixed(4)}em`,
         textWrap: 'balance',
       }}>{t.label}</div>
       {t.sub && (
         <>
           <div style={{ width: 40, height: 3, background: paint.rule }} />
           <div style={{
-            font: `700 17px/1.2 ${mono}`, letterSpacing: 1.1,
+            font: `700 17px/1.2 ${mono}`, letterSpacing: '0.0647em',   /* 1.1px / 17px */
             textTransform: 'uppercase', opacity: .92, textWrap: 'balance',
           }}>{t.sub}</div>
         </>
@@ -325,7 +349,7 @@ function CardsScene({ ons, cardSrc }: { ons: CutOns; cardSrc: string }) {
       {ons.cardNote && (
         <div style={{
           position: 'absolute', left: 552, top: 1190, width: 476,
-          font: `700 19px/1.35 ${mono}`, letterSpacing: 1.3, textTransform: 'uppercase',
+          font: `700 19px/1.35 ${mono}`, letterSpacing: '0.0684em',   /* 1.3px / 19px */ textTransform: 'uppercase',
           color: '#93A2AD', opacity: photoIn,
         }}>{ons.cardNote}</div>
       )}
@@ -340,9 +364,9 @@ function CardsScene({ ons, cardSrc }: { ons: CutOns; cardSrc: string }) {
             boxShadow: '0 18px 44px rgba(0,0,0,.5)',
             borderLeft: `10px solid ${T.chip}`,
           }}>
-            <div style={{ font: `900 34px/1.02 ${black}`, letterSpacing: -1.2 }}>{ons.cardFoot.label}</div>
+            <div style={{ font: `900 34px/1.02 ${black}`, letterSpacing: '-0.0353em' }}>{ons.cardFoot.label}</div>
             <div style={{
-              marginTop: 10, font: `700 18px/1.35 ${mono}`, letterSpacing: 1.1,
+              marginTop: 10, font: `700 18px/1.35 ${mono}`, letterSpacing: '0.0611em',   /* 1.1px / 18px */
               textTransform: 'uppercase', color: '#55616C',
             }}>{ons.cardFoot.sub}</div>
           </div>
@@ -363,12 +387,12 @@ function CardsScene({ ons, cardSrc }: { ons: CutOns; cardSrc: string }) {
             transform: `translateX(${(1 - enter) * -48}px)`,
             boxShadow: '0 18px 46px rgba(0,0,0,.5)',
           }}>
-            <div style={{ font: `900 62px/0.94 ${black}`, letterSpacing: -2 }}>{t.label}</div>
+            <div style={{ font: `900 62px/0.94 ${black}`, letterSpacing: '-0.0323em' }}>{t.label}</div>
             {t.sub && (
               <>
                 <div style={{ width: 52, height: 3, background: paint.rule }} />
                 <div style={{
-                  font: `700 20px/1.25 ${mono}`, letterSpacing: 1.2,
+                  font: `700 20px/1.25 ${mono}`, letterSpacing: '0.06em',     /* 1.2px / 20px */
                   textTransform: 'uppercase', opacity: .92,
                 }}>{t.sub}</div>
               </>
@@ -488,17 +512,18 @@ function Kicker({ text, n }: { text: string; n: number }) {
   const enter = clamp(frame, [4, 18], [0, 1]);
   return (
     <TextGate style={{
-      position: 'absolute', left: 46, right: 46, top: 116, zIndex: 120,
+      // 2026-08-14 audit: this sat inside the 0-150 platform cut zone.
+      position: 'absolute', left: 46, right: 46, top: 206, zIndex: 120,
       display: 'flex', alignItems: 'stretch', gap: 0,
       opacity: enter, transform: `translateX(${(1 - enter) * -22}px)`,
     }}>
       <div style={{
         background: T.chip, color: '#fff', padding: '9px 15px 10px',
-        font: `800 21px/1 ${mono}`, letterSpacing: 3.4, textTransform: 'uppercase',
+        font: `800 21px/1 ${mono}`, letterSpacing: '0.1619em',   /* 3.4px / 21px */ textTransform: 'uppercase',
       }}>{text}</div>
       <div style={{
-        background: 'rgba(10,13,16,.86)', color: T.bone, padding: '9px 14px 10px',
-        font: `700 21px/1 ${mono}`, letterSpacing: 2.2,
+        background: plateBg(THEME, 0.86), color: T.bone, padding: '9px 14px 10px',
+        font: `700 21px/1 ${mono}`, letterSpacing: '0.1048em',   /* 2.2px / 21px */
         borderLeft: `2px solid rgba(255,255,255,.18)`,
       }}>{String(n).padStart(2, '0')}<span style={{ opacity: .45 }}>/06</span></div>
     </TextGate>
@@ -523,12 +548,12 @@ function OpeningCard({ line1, line2, foot, top = 700 }: { line1: string; line2: 
         boxShadow: '0 26px 70px rgba(0,0,0,.55)',
       }}>
         <div style={{ height: 6, width: `${rule * 100}%`, background: T.chip, marginBottom: 22 }} />
-        <div style={{ font: `900 82px/0.94 ${black}`, letterSpacing: -3 }}>
+        <div style={{ font: `900 82px/0.94 ${black}`, letterSpacing: '-0.0366em' }}>
           {line1}<br />{line2}
         </div>
         <div style={{
           marginTop: 20, paddingTop: 16, borderTop: `2px solid rgba(10,13,16,.16)`,
-          font: `700 22px/1.3 ${mono}`, letterSpacing: 1.6, textTransform: 'uppercase', color: '#4A5560',
+          font: `700 22px/1.3 ${mono}`, letterSpacing: '0.0727em',   /* 1.6px / 22px */ textTransform: 'uppercase', color: '#4A5560',
         }}>{foot}</div>
       </div>
     </TextGate>
@@ -546,11 +571,14 @@ function Captions({ beats }: { beats: CaptionBeat[] }) {
   return (
     <div data-caption-safe-zone="instagram-reels" style={{
       position: 'absolute', zIndex: 150, left: 72, right: 128, bottom: 410, minHeight: 92,
-      background: 'rgba(10,13,16,.92)', borderTop: `4px solid ${T.chip}`,
+      // Themed, not hard-coded: a fixed dark plate assumed every direction puts
+      // light text on a dark ground. Direction B inverts that and measured a 1.40
+      // contrast ratio here — the caption was invisible.
+      background: plateBg(THEME), borderTop: `4px solid ${T.chip}`,
       display: 'grid', placeItems: 'center', padding: '15px 22px 17px',
-      color: T.bone, font: `800 34px/1.14 ${grotesk}`, letterSpacing: -.2,
+      color: T.bone, font: `800 34px/1.14 ${grotesk}`, letterSpacing: '-0.0059em',
       textAlign: 'center', textWrap: 'balance',
-      opacity: entry, transform: `translateY(${(1 - entry) * 14}px)`,
+      // No fade, no travel: the caption swaps text in place (playbook §9).
       boxShadow: '0 12px 40px rgba(0,0,0,.5)',
     }}>
       {active.text}
@@ -579,8 +607,9 @@ function TopScrim() {
 function Watermark() {
   return (
     <div style={{
-      position: 'absolute', left: 46, top: 44, zIndex: 200,
-      color: 'rgba(255,255,255,.88)', font: `800 22px/1 ${mono}`, letterSpacing: 4.2,
+      // 2026-08-14 audit: this sat inside the 0-150 platform cut zone.
+      position: 'absolute', left: 46, top: 162, zIndex: 200,
+      color: 'rgba(255,255,255,.88)', font: `800 22px/1 ${mono}`, letterSpacing: '0.1909em',   /* 4.2px / 22px */
       textShadow: '0 2px 12px rgba(0,0,0,.75)',
     }}>EPICKOR.COM</div>
   );
@@ -626,7 +655,7 @@ function Outro({ hook, sub, src }: { hook: string; sub: string; src: string }) {
       <div style={{ position: 'absolute', left: 92, right: 92, top: 740, zIndex: 20 }}>
         <div style={{ height: 7, width: `${rule * 220}px`, background: T.chip, marginBottom: 30 }} />
         <div style={{
-          font: `900 96px/0.94 ${black}`, letterSpacing: -3.4, color: T.bone,
+          font: `900 96px/0.94 ${black}`, letterSpacing: '-0.0354em', color: T.bone,
           opacity: rise, transform: `translateY(${(1 - rise) * 20}px)`,
           textShadow: '0 6px 26px rgba(0,0,0,.6)',
         }}>{hook}</div>
@@ -637,7 +666,7 @@ function Outro({ hook, sub, src }: { hook: string; sub: string; src: string }) {
         <div style={{
           marginTop: 46, display: 'inline-block',
           background: T.chip, color: '#fff', padding: '17px 30px 19px',
-          font: `900 42px/1 ${black}`, letterSpacing: -1.2,
+          font: `900 42px/1 ${black}`, letterSpacing: '-0.0286em',
           opacity: chip, transform: `translateY(${(1 - chip) * 16}px)`,
           boxShadow: '0 18px 46px rgba(0,0,0,.5)',
         }}>epickor.com</div>
@@ -648,6 +677,30 @@ function Outro({ hook, sub, src }: { hook: string; sub: string; src: string }) {
 
 /* ------------------------------------------------------------------- reels */
 
+/**
+ * Film grain over the whole frame. Two jobs: it stops the flat regions of the
+ * canvas from banding, and it puts a single shared texture across photo tiles and
+ * empty tiles so the mosaic reads as one surface rather than pictures on a colour.
+ * Static (not per-frame noise) — animated grain at 30fps costs bitrate that the
+ * >=8 Mbps floor needs for real motion.
+ */
+function Grain() {
+  const svg =
+    `<svg xmlns='http://www.w3.org/2000/svg' width='180' height='180'>` +
+    `<filter id='n'><feTurbulence type='fractalNoise' baseFrequency='.82' numOctaves='3'/></filter>` +
+    `<rect width='180' height='180' filter='url(%23n)'/></svg>`;
+  return (
+    <AbsoluteFill style={{
+      backgroundImage: `url("data:image/svg+xml,${svg}")`,
+      backgroundSize: '180px 180px',
+      opacity: THEME.ground.grain,
+      mixBlendMode: 'overlay',
+      pointerEvents: 'none',
+      zIndex: 400,
+    }} />
+  );
+}
+
 export function ReelSplitGrid({
   manifest, ons, outro, cardSrc,
 }: {
@@ -657,9 +710,13 @@ export function ReelSplitGrid({
   /** the photo card used by the one `cards` cut */
   cardSrc?: string;
 }) {
+  loadFonts();
   const byCut = new Map(ons.map((o) => [o.cut, o]));
   return (
-    <AbsoluteFill style={{ background: T.ink }}>
+    // A flat fill reads as a slide, not a frame. The ground is the canvas plus three
+    // radial blooms in the theme's own accents, so the gaps between tiles carry a
+    // light direction instead of being dead black.
+    <AbsoluteFill style={groundCss(THEME)}>
       {manifest.cuts.map((c) => {
         const o = byCut.get(c.n);
         if (!o) throw new Error(`SplitGrid: no ONS config for cut ${c.n}`);
@@ -675,6 +732,7 @@ export function ReelSplitGrid({
       </Sequence>
 
       <TopScrim />
+      <Grain />
       <Watermark />
       <Captions beats={manifest.beats} />
       <VoiceTrack slug={manifest.slug} segments={manifest.audio} />

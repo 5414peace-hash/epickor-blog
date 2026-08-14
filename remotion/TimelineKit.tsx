@@ -80,19 +80,31 @@ export type CutFrame = {
 function TextGate({ children, style }: { children: ReactNode; style?: CSSProperties }) {
   const frame = useCurrentFrame();
   const { durationInFrames } = useVideoConfig();
-  const exit = clamp(frame, [durationInFrames - OVERLAP, durationInFrames - Math.round(OVERLAP / 2)], [1, 0]);
+  // 2026-08-14: this used to START fading at durationInFrames - OVERLAP, i.e. the
+  // exact frame the next cut mounts, and run 8 frames past it. For photography that
+  // reads as a crossfade; for text both mastheads render at once and the glyphs
+  // interleave -- measured 'THE TIMING | 음주 전 | CE STORE | 숙취해소제' on 377 f203.
+  // The fade now COMPLETES at the boundary, so text swaps and never overlaps.
+  const exit = clamp(frame, [durationInFrames - OVERLAP - 5, durationInFrames - OVERLAP], [1, 0]);
   return <div style={{ ...style, opacity: exit }}>{children}</div>;
 }
 
 /** The media band: a photograph that keeps moving, faded into the ground. */
-function Band({ src, pan = 'left' }: { src: string; pan?: 'left' | 'right' }) {
+/**
+ * `first` = this is cut 1, so it renders the video's frame 0.
+ * Frame 0 is the thumbnail and the scroll-stop decision, so nothing on it may
+ * fade in — 2026-08-14 audit found 379's frame 0 completely black because the
+ * band, the HUD and the readout were all still at opacity 0. Later cuts keep
+ * their dissolve; that is cut grammar, not a frame-0 fade.
+ */
+function Band({ src, pan = 'left', first = false }: { src: string; pan?: 'left' | 'right'; first?: boolean }) {
   const frame = useCurrentFrame();
   const { durationInFrames } = useVideoConfig();
   const span = Math.max(1, durationInFrames);
   const zoom = clamp(frame, [0, span], [1.06, 1.22]);
   const travel = clamp(frame, [0, span], [0, 54]);
   const x = pan === 'left' ? -travel : travel;
-  const enter = clamp(frame, [0, 12], [0, 1]);
+  const enter = first ? 1 : clamp(frame, [0, 12], [0, 1]);
   return (
     <div style={{ position: 'absolute', left: 0, right: 0, top: 0, height: BAND, overflow: 'hidden', opacity: enter }}>
       <Img src={staticFile(src)} style={{
@@ -108,12 +120,13 @@ function Band({ src, pan = 'left' }: { src: string; pan?: 'left' | 'right' }) {
   );
 }
 
-function Hud({ left, right }: { left: string; right: string }) {
+function Hud({ left, right, first = false }: { left: string; right: string; first?: boolean }) {
   const frame = useCurrentFrame();
-  const enter = clamp(frame, [4, 18], [0, 1]);
+  const enter = first ? 1 : clamp(frame, [4, 18], [0, 1]);
   return (
     <TextGate style={{
-      position: 'absolute', left: 60, right: 150, top: 118, zIndex: 60,
+      // top 118 put this inside the 0-150 platform cut zone (measured y112-150).
+      position: 'absolute', left: 60, right: 150, top: 200, zIndex: 60,
       display: 'flex', justifyContent: 'space-between',
       font: `700 22px/1 ${mono}`, letterSpacing: 4.4, color: T.dim,
       opacity: enter,
@@ -125,9 +138,9 @@ function Hud({ left, right }: { left: string; right: string }) {
 }
 
 /** The readout, and the line that says what it is. */
-function Readout({ value, label, at = 6 }: { value: string; label: string; at?: number }) {
+function Readout({ value, label, at = 6, first = false }: { value: string; label: string; at?: number; first?: boolean }) {
   const frame = useCurrentFrame();
-  const enter = clamp(frame, [at, at + 14], [0, 1]);
+  const enter = first ? 1 : clamp(frame, [at, at + 14], [0, 1]);
   const size = value.length <= 5 ? 168 : value.length <= 8 ? 124 : 96;
   return (
     <TextGate style={{ position: 'absolute', left: 60, right: 120, top: 846, zIndex: 40 }}>
@@ -138,7 +151,7 @@ function Readout({ value, label, at = 6 }: { value: string; label: string; at?: 
       }}>{value}</div>
       <div style={{
         marginTop: 22, font: `900 56px/1.02 ${black}`, letterSpacing: -1.8, color: T.bone,
-        opacity: clamp(frame, [at + 6, at + 22], [0, 1]),
+        opacity: first ? 1 : clamp(frame, [at + 6, at + 22], [0, 1]),
         textWrap: 'balance',
       }}>{label}</div>
     </TextGate>
@@ -215,7 +228,7 @@ function Captions({ beats }: { beats: CaptionBeat[] }) {
       display: 'grid', placeItems: 'center', padding: '15px 22px 17px',
       color: T.bone, font: `800 34px/1.14 ${grotesk}`, letterSpacing: -.2,
       textAlign: 'center', textWrap: 'balance',
-      opacity: entry, transform: `translateY(${(1 - entry) * 14}px)`,
+      // No fade, no travel: the caption swaps text in place (playbook §9).
       boxShadow: '0 12px 40px rgba(0,0,0,.55)',
     }}>
       {active.text}
@@ -230,7 +243,8 @@ function Captions({ beats }: { beats: CaptionBeat[] }) {
 function Watermark() {
   return (
     <div style={{
-      position: 'absolute', left: 60, top: 46, zIndex: 200,
+      // top 46 sat inside the 0-150 cut zone (measured y50-63).
+      position: 'absolute', left: 60, top: 168, zIndex: 200,
       color: 'rgba(255,255,255,.88)', font: `800 22px/1 ${mono}`, letterSpacing: 4.2,
       textShadow: '0 2px 14px rgba(0,0,0,.8)',
     }}>EPICKOR.COM</div>
@@ -242,7 +256,8 @@ function Progress({ total }: { total: number }) {
   const frame = useCurrentFrame();
   return (
     <div style={{
-      position: 'absolute', left: 0, top: 0, height: 3, zIndex: 210,
+      // Below the 0-150 cut zone: at top 0 the platform UI hid it entirely.
+      position: 'absolute', left: 0, top: 152, height: 3, zIndex: 210,
       width: `${clamp(frame, [0, total], [0, 100])}%`, background: T.amber, opacity: .5,
     }} />
   );
@@ -306,9 +321,9 @@ export function ReelTimeline({
         if (!f) throw new Error(`Timeline: no frame config for cut ${c.n}`);
         return (
           <Cut key={c.n} from={c.from} len={c.len}>
-            <Band src={f.src} pan={f.pan} />
-            <Hud left={f.hud[0]} right={f.hud[1]} />
-            <Readout value={f.readout} label={f.label} at={f.at} />
+            <Band src={f.src} pan={f.pan} first={c.from === 0} />
+            <Hud left={f.hud[0]} right={f.hud[1]} first={c.from === 0} />
+            <Readout value={f.readout} label={f.label} at={f.at} first={c.from === 0} />
             <Rail stops={stops} head={f.head} />
           </Cut>
         );

@@ -108,7 +108,12 @@ export type CutPage =
 function TextGate({ children, style }: { children: ReactNode; style?: CSSProperties }) {
   const frame = useCurrentFrame();
   const { durationInFrames } = useVideoConfig();
-  const exit = clamp(frame, [durationInFrames - OVERLAP, durationInFrames - Math.round(OVERLAP / 2)], [1, 0]);
+  // 2026-08-14: this used to START fading at durationInFrames - OVERLAP, i.e. the
+  // exact frame the next cut mounts, and run 8 frames past it. For photography that
+  // reads as a crossfade; for text both mastheads render at once and the glyphs
+  // interleave -- measured 'THE TIMING | 음주 전 | CE STORE | 숙취해소제' on 377 f203.
+  // The fade now COMPLETES at the boundary, so text swaps and never overlaps.
+  const exit = clamp(frame, [durationInFrames - OVERLAP - 5, durationInFrames - OVERLAP], [1, 0]);
   return <div style={{ ...style, opacity: exit }}>{children}</div>;
 }
 
@@ -150,7 +155,7 @@ function Page() {
       {/* Ticks down the right margin — a measured page, not a blank one. */}
       {Array.from({ length: 26 }, (_, i) => (
         <div key={`t${i}`} style={{
-          position: 'absolute', right: 34, top: 250 + i * 38,
+          position: 'absolute', right: 34, top: 290 + i * 38,
           width: i % 5 === 0 ? 18 : 9, height: 2, background: S.rule,
         }} />
       ))}
@@ -163,7 +168,7 @@ function Masthead({ kicker, index, n }: { kicker: string; index: string; n: numb
   const enter = clamp(frame, [3, 17], [0, 1]);
   return (
     <TextGate style={{
-      position: 'absolute', left: 60, right: 56, top: 112, zIndex: 120,
+      position: 'absolute', left: 60, right: 56, top: 158, zIndex: 120,
       display: 'flex', alignItems: 'stretch',
       opacity: enter, transform: `translateX(${(1 - enter) * -20}px)`,
     }}>
@@ -189,7 +194,7 @@ function Head({ title, sub }: { title: string; sub?: string }) {
   const enter = clamp(frame, [8, 26], [0, 1]);
   return (
     <TextGate style={{
-      position: 'absolute', left: 88, right: 88, top: 196, zIndex: 110,
+      position: 'absolute', left: 88, right: 88, top: 214, zIndex: 110,
       opacity: enter, transform: `translateY(${(1 - enter) * 16}px)`,
     }}>
       <div style={{ font: `900 54px/1.0 ${black}`, letterSpacing: -1.8, color: S.ink, textWrap: 'balance' }}>
@@ -241,7 +246,7 @@ function Specimen({ page }: { page: Extract<CutPage, { mode: 'specimen' }> }) {
     <>
       <TextGate style={{
         position: 'absolute',
-        left: page.wide ? 74 : 66, top: page.wide ? 352 : 366,
+        left: page.wide ? 74 : 66, top: page.wide ? 392 : 406,
         width: page.wide ? 932 : 430, height: page.wide ? 430 : 660,
         zIndex: 60,
         opacity: rise, transform: `translateY(${(1 - rise) * 30 + float}px) scale(${scale})`,
@@ -255,7 +260,7 @@ function Specimen({ page }: { page: Extract<CutPage, { mode: 'specimen' }> }) {
       <TextGate style={{
         position: 'absolute',
         left: page.wide ? 88 : 512, right: page.wide ? 80 : 76,
-        top: page.wide ? 856 : 400, zIndex: 70,
+        top: page.wide ? 896 : 440, zIndex: 70,
       }}>
         <div style={{ position: 'relative', height: page.wide ? 300 : 600 }}>
           {page.rows.map((r, i) => <Row key={r.label} row={r} i={i} top={i * (page.wide ? 96 : 98)} />)}
@@ -295,7 +300,7 @@ function Lineup({ page }: { page: Extract<CutPage, { mode: 'lineup' }> }) {
         const enter = clamp(frame, [at, at + 16], [0, 1]);
         const left = 74 + i * colW;
         return (
-          <TextGate key={it.label} style={{ position: 'absolute', left, top: 400, width: colW, zIndex: 60 }}>
+          <TextGate key={it.label} style={{ position: 'absolute', left, top: 440, width: colW, zIndex: 60 }}>
             {i > 0 && (
               <div style={{
                 position: 'absolute', left: 0, top: -30, height: 640, width: 1,
@@ -363,7 +368,7 @@ function Callout({ page }: { page: Extract<CutPage, { mode: 'callout' }> }) {
   return (
     <>
       <TextGate style={{
-        position: 'absolute', left: 74, right: 76, top: 340, height: 530, zIndex: 55,
+        position: 'absolute', left: 74, right: 76, top: 380, height: 530, zIndex: 55,
         overflow: 'hidden', opacity: rise,
       }}>
         <Img src={staticFile(page.src)} style={{
@@ -428,7 +433,7 @@ function Tally({ page }: { page: Extract<CutPage, { mode: 'tally' }> }) {
         const color = e.tone === 'cert' ? S.cert : e.tone === 'red' ? S.red : S.ink;
         return (
           <TextGate key={e.label} style={{
-            position: 'absolute', left: 88, right: 80, top: 356 + i * 250, zIndex: 70,
+            position: 'absolute', left: 88, right: 80, top: 396 + i * 250, zIndex: 70,
             display: 'flex', alignItems: 'baseline', gap: 26,
             opacity: enter, transform: `translateX(${(1 - enter) * 30}px)`,
             borderBottom: `3px solid ${S.rule}`, paddingBottom: 18,
@@ -470,7 +475,7 @@ function Captions({ beats }: { beats: CaptionBeat[] }) {
       display: 'grid', placeItems: 'center', padding: '15px 22px 17px',
       color: S.paper, font: `800 34px/1.14 ${grotesk}`, letterSpacing: -.2,
       textAlign: 'center', textWrap: 'balance',
-      opacity: entry, transform: `translateY(${(1 - entry) * 14}px)`,
+      // No fade, no travel: the caption swaps text in place (playbook §9).
       boxShadow: '0 14px 44px rgba(20,24,28,.34)',
     }}>
       {active.text}
@@ -486,7 +491,9 @@ function Captions({ beats }: { beats: CaptionBeat[] }) {
 function Watermark({ onDark }: { onDark: boolean }) {
   return (
     <div style={{
-      position: 'absolute', left: 60, top: 46, zIndex: 200,
+      // Was top 46 - inside the 0-150 platform cut zone. The pre-footer band
+      // y1180-1240 measured empty on every page mode, so the mark moved there.
+      position: 'absolute', left: 60, top: 1196, zIndex: 200,
       color: onDark ? 'rgba(255,255,255,.9)' : 'rgba(20,24,28,.62)',
       font: `800 22px/1 ${mono}`, letterSpacing: 4.2,
       textShadow: onDark ? '0 2px 12px rgba(0,0,0,.7)' : 'none',

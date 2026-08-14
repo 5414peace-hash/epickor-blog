@@ -163,7 +163,12 @@ export function MaskText({
 function TextGate({ children, style }: { children: ReactNode; style?: CSSProperties }) {
   const frame = useCurrentFrame();
   const { durationInFrames } = useVideoConfig();
-  const exit = clamp(frame, [durationInFrames - OVERLAP, durationInFrames - Math.round(OVERLAP / 2)], [1, 0]);
+  // 2026-08-14: this used to START fading at durationInFrames - OVERLAP, i.e. the
+  // exact frame the next cut mounts, and run 8 frames past it. For photography that
+  // reads as a crossfade; for text both mastheads render at once and the glyphs
+  // interleave -- measured 'THE TIMING | 음주 전 | CE STORE | 숙취해소제' on 377 f203.
+  // The fade now COMPLETES at the boundary, so text swaps and never overlaps.
+  const exit = clamp(frame, [durationInFrames - OVERLAP - 5, durationInFrames - OVERLAP], [1, 0]);
   return <div style={{ ...style, opacity: exit }}>{children}</div>;
 }
 
