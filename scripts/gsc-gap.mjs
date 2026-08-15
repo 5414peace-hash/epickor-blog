@@ -68,9 +68,16 @@ function covered(query) {
   const terms = query.toLowerCase().split(/[^a-z0-9가-힣]+/).filter((w) => w.length > 2 && !STOP.has(w));
   if (!terms.length) return true;
   // A post "covers" the query when its title/description carries most of the
-  // distinctive terms. Matching one term is not coverage — that is how a snack
-  // list ends up counted as a post about one snack.
-  return corpus.some((p) => terms.filter((t) => p.blob.includes(t)).length >= Math.max(2, Math.ceil(terms.length * 0.7)));
+  // distinctive terms. Matching one term out of many is not coverage — that is how
+  // a snack list gets counted as a post about one snack.
+  //
+  // But the floor cannot be a flat 2. `busan vs seoul` reduces to a single
+  // distinctive term — "vs" is too short, "seoul" is a stop word — so a hard
+  // minimum of two made short queries permanently uncoverable, and the first run
+  // reported `busan vs seoul` as an untouched gap when post 188 is literally
+  // titled "Busan vs Seoul". The floor now scales with how much the query gives us.
+  const need = terms.length <= 2 ? terms.length : Math.ceil(terms.length * 0.7);
+  return corpus.some((p) => terms.filter((t) => p.blob.includes(t)).length >= need);
 }
 
 const gaps = q
