@@ -1,10 +1,10 @@
 {
   "summary": {
-    "generatedAt": "2026-08-15T23:37:12.420Z",
-    "auditedPosts": 382,
+    "generatedAt": "2026-08-15T23:49:16.639Z",
+    "auditedPosts": 383,
     "includedPrivate": false,
     "slugFilter": "",
-    "bodyImages": 1369,
+    "bodyImages": 1371,
     "affectedPosts": 98,
     "critical": 0,
     "high": 0,
@@ -14157,6 +14157,31 @@
           "url": "/assets/images/posts/390/korean-grilled-mackerel-saengseon-gui.jpg",
           "alt": "A whole grilled mackerel on a white plate at a Korean restaurant table, with kimchi and side dishes behind it.",
           "caption": "고등어구이 — grilled mackerel. Turning a whole fish this size in an open pan usually means it breaks. The hinged pan turns the pan instead of the fish, which is most of why Korean home cooks bought one. Photo by karendotcom127, CC BY 2.0, via Wikimedia Commons.",
+          "ext": ".jpg",
+          "exists": true
+        }
+      ],
+      "findings": []
+    },
+    {
+      "type": "blog",
+      "slug": "391",
+      "title": "Korean Heated Mattress Pads: Water vs Electric, and Why Korea Has Both",
+      "contentPath": "content\\blog\\391.md",
+      "sourceRecord": "public\\assets\\images\\posts\\391\\image-sources.md",
+      "imageCount": 2,
+      "images": [
+        {
+          "url": "/assets/images/posts/391/navien-water-mat-boiler-unit.jpg",
+          "alt": "A Korean bedroom with a quilted heating mat on the mattress and a small white Navien boiler unit on the floor beside the bed, a control dial on its top face and a hose running from the back.",
+          "caption": "The whole system in one frame: the quilted mat on the mattress, and the boiler box on the floor with its control dial and hose. That box is what separates a 온수매트 from an electric blanket — it heats water and pumps it under you. Manufacturer product image, Kyungdong Navien.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/391/ilwol-deomaru-electric-carpet-mat.jpg",
+          "alt": "Four Ilwol Deomaru Plus carpet mats in nested sizes, printed to look like wood flooring, each with a white connector socket on its edge.",
+          "caption": "The other Korean form factor: a heating mat printed to look like a wooden floor, sold in four sizes. Western heated bedding goes on top of you; this goes under you, on the floor, and is meant to be sat on. It is ondol logic in a product you can roll up. Manufacturer product image, Ilwol.",
           "ext": ".jpg",
           "exists": true
         }
