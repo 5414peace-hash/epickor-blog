@@ -1313,6 +1313,36 @@
         "DrGroot"
       ],
       "price_note": "미검증 — 추정치."
+    },
+    {
+      "id": "coway-ap1512hh",
+      "name": "Coway Airmega AP-1512HH True HEPA Air Purifier",
+      "description": "Korean air purifier rated 361 sq ft at 4.8 air changes/hr. AHAM CADR 246 dust / 240 pollen / 233 smoke. Coway US list $239.99.",
+      "price": "$229.00",
+      "category": "Home",
+      "url": "https://www.amazon.com/Coway-Airmega-AP-1512HH/dp/B09WKWT1V1",
+      "image": "",
+      "tags": [
+        "AirPurifier",
+        "Coway",
+        "KoreanBrands"
+      ],
+      "price_note": "아마존 실판매가 미검증(차단). CUCKOO식 공식가 $239.99 기준 추정."
+    },
+    {
+      "id": "coway-ap1512hh-filter-bundle",
+      "name": "Coway Airmega AP-1512HH + replacement filter set bundle",
+      "description": "The machine bundled with a spare filter set — matches the article advice to price a year of filters before pricing the machine.",
+      "price": "$260.00",
+      "category": "Home",
+      "url": "https://www.amazon.com/Coway-AP-1512HH-Purifier-Replacement-AP1512HH/dp/B01M59UTYQ",
+      "image": "",
+      "tags": [
+        "AirPurifier",
+        "Coway",
+        "Filters"
+      ],
+      "price_note": "미검증 추정치."
     }
   ]
 }

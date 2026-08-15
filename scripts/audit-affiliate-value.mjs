@@ -73,7 +73,10 @@ for (const file of readdirSync('content/blog').filter((f) => f.endsWith('.md')))
     if (!asin) continue;
     dp++;
     const rec = links.get(asin);
-    if (!rec) continue;
+    // A record with no parseable price is UNKNOWN, not worthless. Counting it as
+    // known made post 287 report "$0.00" while carrying four real product links,
+    // which reads as "nothing to gain here" and is the opposite of true.
+    if (!rec || !rec.price) continue;
     known++;
     const value = rec.price * (RATE[rec.category] ?? 0.03);
     if (value > best) { best = value; bestName = rec.name; bestCat = rec.category; }
