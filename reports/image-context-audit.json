@@ -1,10 +1,10 @@
 {
   "summary": {
-    "generatedAt": "2026-08-15T02:12:58.128Z",
-    "auditedPosts": 376,
+    "generatedAt": "2026-08-15T13:51:01.189Z",
+    "auditedPosts": 382,
     "includedPrivate": false,
     "slugFilter": "",
-    "bodyImages": 1355,
+    "bodyImages": 1369,
     "affectedPosts": 98,
     "critical": 0,
     "high": 0,
@@ -13993,6 +13993,170 @@
           "url": "/assets/images/posts/384/gwangjang-market-entrance.jpg",
           "alt": "The exterior of Gwangjang Market in Seoul, a brick building with a large sign reading 광장시장 and KWANG JANG MARKET above an entrance arch, with the market visible through the opening.",
           "caption": "The entrance most visitors photograph and then walk straight past on their way to the food. Photo: Bgag, Wikimedia Commons (CC0).",
+          "ext": ".jpg",
+          "exists": true
+        }
+      ],
+      "findings": []
+    },
+    {
+      "type": "blog",
+      "slug": "385",
+      "title": "Coway vs Winix: Which Korean Air Purifier Fits Your Home",
+      "contentPath": "content\\blog\\385.md",
+      "sourceRecord": "public\\assets\\images\\posts\\385\\image-sources.md",
+      "imageCount": 3,
+      "images": [
+        {
+          "url": "/assets/images/posts/385/winix-5500-2-unit.jpg",
+          "alt": "A Winix 5500-2 air purifier standing in a home, its control panel lit and the PlasmaWave button visible.",
+          "caption": "A Winix 5500-2 in service. The PlasmaWave control on the top panel is the feature buyers most often ask about — it can be switched off. Photo by TaurusEmerald, CC BY-SA 4.0, via Wikimedia Commons.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/385/coway-filter-stages.jpg",
+          "alt": "Coway diagram of three filter stages: pre-filter for hair and large dust, deodorization filter for food smells and VOCs, HEPA filter for mould, pollen and dust mites.",
+          "caption": "What each stage is actually for. The middle stage — deodorisation — is where Coway and Winix differ most: Winix uses carbon pellets where Coway uses a coated sheet. Image: Coway official US product materials.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/385/coway-ap1512hh-coverage.jpg",
+          "alt": "Coway marketing illustration of a two-storey open-plan home, captioned \"Powerful Purification\" with a badge reading 1x air change per hour, 1,748 sq ft.",
+          "caption": "Coway's own marketing for the same machine claims 1,748 sq ft — at one air change per hour. That is not the 361 sq ft figure everyone quotes, and the gap between the two numbers is the whole point of this section. Image: Coway official US product materials.",
+          "ext": ".jpg",
+          "exists": true
+        }
+      ],
+      "findings": []
+    },
+    {
+      "type": "blog",
+      "slug": "386",
+      "title": "How to Buy Alcohol in Korea: The Rule Nobody Tells Tourists",
+      "contentPath": "content\\blog\\386.md",
+      "sourceRecord": "public\\assets\\images\\posts\\386\\image-sources.md",
+      "imageCount": 3,
+      "images": [
+        {
+          "url": "/assets/images/posts/386/cu-convenience-store-wine-shelf.jpg",
+          "alt": "A wine rack inside a Korean CU convenience store, bottles arranged on shelves with price labels under a fixture marked CU BAR, while a customer stands at the drinks chiller behind it.",
+          "caption": "A wine fixture inside a CU branch — not a wine shop, a convenience store. Chains market these as in-store bars; this one is signed CU BAR. Photo by Sgroey, CC BY-SA 4.0, via Wikimedia Commons.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/386/soju-brands-fridge-door.jpg",
+          "alt": "A refrigerator door shelf holding Korean soju bottles including Chamisul, Chum Churum, Jinro and Bohae, alongside a bottle of ginger beer.",
+          "caption": "The domestic side of the split: 참이슬, 처음처럼, 진로 and 보해. Every bottle here is offline-only — no app will sell you one. Photo by Aaaatu, CC BY-SA 4.0, via Wikimedia Commons.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/386/makgeolli-bottles-variety.jpg",
+          "alt": "Several different makgeolli bottles standing together, including Kooksoondang and regional brands, with Korean labels.",
+          "caption": "Makgeolli is not one product. These are different breweries and different styles — the category has more internal range than the convenience-store shelf suggests. Photo by Walnussbäumchen, CC0, via Wikimedia Commons.",
+          "ext": ".jpg",
+          "exists": true
+        }
+      ],
+      "findings": []
+    },
+    {
+      "type": "blog",
+      "slug": "387",
+      "title": "Why Korean Highballs Cost More Than Beer: A Tax Story",
+      "contentPath": "content\\blog\\387.md",
+      "sourceRecord": "public\\assets\\images\\posts\\387\\image-sources.md",
+      "imageCount": 2,
+      "images": [
+        {
+          "url": "/assets/images/posts/387/earp-earp-highball-cu.jpg",
+          "alt": "Three EARP EARP canned highballs in a Korean convenience store product shot, lemon tonic and Earl Grey, with a bear character and ice cubes, labelled ABV 9.0% and 500 ml.",
+          "caption": "The cans that started the category: CU's EARP EARP lemon tonic and Earl Grey, launched November 2022 as Korea's first convenience-store RTD highball. The label reads ABV 9.0%, 500㎖. Image: BGF Retail / CU official product material.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/387/cass-fresh-bottle.jpg",
+          "alt": "A bottle of Cass Fresh Korean lager on a table, its label showing 4.5% alcohol.",
+          "caption": "Cass Fresh at 4.5%. Since 2020 beer has been taxed by volume, not by price — which is the single biggest reason it undercuts the highball beside it. Photo by Miguel Andrade, CC0, via Wikimedia Commons.",
+          "ext": ".jpg",
+          "exists": true
+        }
+      ],
+      "findings": []
+    },
+    {
+      "type": "blog",
+      "slug": "388",
+      "title": "Is Korean Sunscreen Banned in the US? What Changed in 2026",
+      "contentPath": "content\\blog\\388.md",
+      "sourceRecord": "public\\assets\\images\\posts\\388\\image-sources.md",
+      "imageCount": 2,
+      "images": [
+        {
+          "url": "/assets/images/posts/388/olive-young-store-front.jpg",
+          "alt": "The illuminated shopfront of an Olive Young branch at night, signed OLIVE YOUNG and HEALTH & BEAUTY STORE.",
+          "caption": "Where most of these products are bought at home. Olive Young is Korea's dominant health-and-beauty chain, and its sunscreen wall is the reason visitors come back with six bottles. Photo by Pkccccj, CC BY-SA 4.0, via Wikimedia Commons.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/388/korean-skincare-shop-rotterdam.jpg",
+          "alt": "A Korean skincare and cosmetics shop called HARU HARU on a street in Rotterdam, its window marked Korean skincare & cosmetics.",
+          "caption": "Korean skincare reaches foreign customers through importers and specialist shops rather than through the mainstream drug-store channel — this one is in Rotterdam. The same structure explains the Amazon listings. Photo by Donald Trung Quoc Don, CC BY-SA 4.0, via Wikimedia Commons.",
+          "ext": ".jpg",
+          "exists": true
+        }
+      ],
+      "findings": []
+    },
+    {
+      "type": "blog",
+      "slug": "389",
+      "title": "Korean Bidets Explained: The Buttons, the Brands, and Why Half of Korea Has One",
+      "contentPath": "content\\blog\\389.md",
+      "sourceRecord": "public\\assets\\images\\posts\\389\\image-sources.md",
+      "imageCount": 2,
+      "images": [
+        {
+          "url": "/assets/images/posts/389/seoul-shop-bidet-water-purifier-2007.jpg",
+          "alt": "A Seoul appliance shop display in 2007 with a Woongjin water purifier, an electronic bidet seat and a water softener standing side by side under Korean promotional signage.",
+          "caption": "A Seoul shop floor in 2007: a Woongjin water purifier, a bidet seat and a water softener sold as one product family, with `신상품` stickers on the shelf. This is the whole story in one photograph — the bidet spread through Korea on the same rental counter as the water purifier. Photo by Syced, CC0, via Wikimedia Commons.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/389/toto-washlet-control-panel.jpg",
+          "alt": "A Japanese TOTO Washlet wireless control panel with 38 buttons, all labelled in Japanese.",
+          "caption": "The ancestor, and it is Japanese: a TOTO Washlet panel, labelled 止 (stop), おしり (rear), ビデ (bidet) and 乾燥 (dry). The Korean panel you will meet uses different words for the same four functions — 정지, 세정, 비데, 건조 — which is why the table above transfers. Photo by Chris 73 / Wikimedia Commons, CC BY-SA 3.0.",
+          "ext": ".jpg",
+          "exists": true
+        }
+      ],
+      "findings": []
+    },
+    {
+      "type": "blog",
+      "slug": "390",
+      "title": "Happycall Double Pan: The Korean Pan That Closes, and Whether You Need One",
+      "contentPath": "content\\blog\\390.md",
+      "sourceRecord": "public\\assets\\images\\posts\\390\\image-sources.md",
+      "imageCount": 2,
+      "images": [
+        {
+          "url": "/assets/images/posts/390/korean-grilled-fish-banchan-table.jpg",
+          "alt": "A Korean table with a whole grilled fish on a plate surrounded by banchan side dishes including crab, spicy stir-fried vegetables and stews in small bowls.",
+          "caption": "This is the meal the pan exists to make possible at home. A whole grilled fish sits at the center of an ordinary Korean spread — and grilling a whole fish in an apartment kitchen is exactly the thing Korean apartments are worst at. Photo by Mar del Este, CC BY-SA 4.0, via Wikimedia Commons.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/390/korean-grilled-mackerel-saengseon-gui.jpg",
+          "alt": "A whole grilled mackerel on a white plate at a Korean restaurant table, with kimchi and side dishes behind it.",
+          "caption": "고등어구이 — grilled mackerel. Turning a whole fish this size in an open pan usually means it breaks. The hinged pan turns the pan instead of the fish, which is most of why Korean home cooks bought one. Photo by karendotcom127, CC BY 2.0, via Wikimedia Commons.",
           "ext": ".jpg",
           "exists": true
         }

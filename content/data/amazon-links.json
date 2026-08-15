@@ -1343,6 +1343,64 @@
         "Filters"
       ],
       "price_note": "미검증 추정치."
+    },
+    {
+      "id": "happycall-double-pan-titanium",
+      "name": "Happycall Titanium Nonstick Double Pan (patented silicone seal)",
+      "description": "The hinged Korean double pan with the sealed rim. Cook, latch, flip. The seal is the part doing the work.",
+      "price": "",
+      "url": "https://www.amazon.com/Happycall-Titanium-Nonstick-Dishwasher-PFOA-free/dp/B01H437J04",
+      "category": "Kitchen",
+      "image": "",
+      "tags": [
+        "happycall",
+        "double pan",
+        "korean cookware",
+        "grilled fish"
+      ]
+    },
+    {
+      "id": "happycall-double-pan-standard",
+      "name": "Happycall Double Pan Standard",
+      "description": "The baseline double-sided pan model. Common first buy.",
+      "price": "",
+      "url": "https://www.amazon.com/Happycall-3002-0035-Double-Pan-Standard/dp/B01MTQKHQ7",
+      "category": "Kitchen",
+      "image": "",
+      "tags": [
+        "happycall",
+        "double pan",
+        "korean cookware"
+      ]
+    },
+    {
+      "id": "happycall-double-pan-10in",
+      "name": "Happycall Multi-purpose 10 Inch Double Pan",
+      "description": "Smaller 10-inch double pan for compact kitchens and one-to-two portions.",
+      "price": "",
+      "url": "https://www.amazon.com/Happycall-Nonstick-Omelette-Dishwasher-PFOA-free/dp/B006W9P882",
+      "category": "Kitchen",
+      "image": "",
+      "tags": [
+        "happycall",
+        "double pan",
+        "small kitchen"
+      ]
+    },
+    {
+      "id": "happycall-titanium-skillet-induction",
+      "name": "Happycall Induction Titanium Nonstick Frying Pan",
+      "description": "Single-pan Korean skillet, induction compatible. The simpler buy if ventilation is not the problem.",
+      "price": "",
+      "url": "https://www.amazon.com/Happycall-Induction-Titanium-PFOA-free-Dishwasher/dp/B01H2KG5YU",
+      "category": "Kitchen",
+      "image": "",
+      "tags": [
+        "happycall",
+        "frying pan",
+        "induction",
+        "korean cookware"
+      ]
     }
   ]
 }
