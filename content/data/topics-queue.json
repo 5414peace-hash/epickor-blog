@@ -3597,9 +3597,10 @@
         "Seoul"
       ],
       "amazon_category": "Food",
-      "status": "pending",
-      "note": "Added 2026-07-27. Verified current and real: Korea Herald (koreaherald.com/article/10791584, 2026) covers the 'fruit sando' trend as this summer's go-to dessert, TikTok discovery tag 'strawberry sandwich korean 711' active. This sits squarely in the site's single best-proven pattern - convenience store items (korean convenience store breakfast = 14.75% CTR, the site's highest). Distinct from existing convenience-store posts (059, 171, 302), which are broad roundups that don't feature this specific viral item. Monetization thinner (perishable food, no direct Amazon SKU) but strong internal-link value into 171/059/029 and real traffic-driver potential given the proven category pattern.",
-      "generated_date": "2026-07-27"
+      "status": "blocked_seasonal",
+      "note": "딸기샌드위치는 11월~4월만 판매(세븐일레븐 등 편의점 3사 공통, 2026-08-15 확인). 스펙 v1이 요구하는 \"이번 달 가격\"을 8월에는 쓸 수 없다 — 시즌 개시 후 집필. 재개 시점: 2026-11.",
+      "generated_date": "2026-07-27",
+      "blocked_until": "2026-11-01"
     },
     {
       "id": 164,
