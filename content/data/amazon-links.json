@@ -1239,6 +1239,80 @@
         "KoreanKitchen"
       ],
       "price_note": "공식 목록의 CRP-LHTR1009F $539.99(2026-08-15 확인)와 동급 모델. 아마존 실판매가는 별도."
+    },
+    {
+      "id": "roundlab-uvlock-spf45",
+      "name": "ROUND LAB Birch Juice Moisturizing UV Lock SPF 45",
+      "description": "Lotion-textured Korean daily sunscreen, no white cast, fragrance-free. The lotion tier of the birch line — distinct from the sun stick.",
+      "price": "$18.00",
+      "category": "Beauty",
+      "url": "https://www.amazon.com/ROUND-LAB-Moisturizing-moisturizing-Friendly-Reef/dp/B0DJGWH3TC",
+      "image": "",
+      "tags": [
+        "Sunscreen",
+        "KBeauty",
+        "RoundLab"
+      ],
+      "price_note": "미검증 — 아마존 차단. 카테고리 순위 계산용 추정치."
+    },
+    {
+      "id": "illiyoon-ceramide-ato-lotion",
+      "name": "ILLIYOON Ceramide Ato Lotion 528ml",
+      "description": "Low-fragrance ceramide body lotion in a 528ml pump. The default Korean bathroom body lotion; mild enough to be marketed for babies.",
+      "price": "$22.00",
+      "category": "Beauty",
+      "url": "https://www.amazon.com/ILLIYOON-Ceramic-Ceramide-Lotion-17-85oz/dp/B07NFYWWB6",
+      "image": "",
+      "tags": [
+        "BodyCare",
+        "KBeauty",
+        "Illiyoon"
+      ],
+      "price_note": "미검증 — 추정치."
+    },
+    {
+      "id": "korean-italy-towel-mitts",
+      "name": "Korean Exfoliating Mitts (Italy Towel) multipack",
+      "description": "The coarse Korean exfoliating mitt used in jjimjilbang scrub culture. Sold in multipacks; coarse green and softer variants differ more than the price suggests.",
+      "price": "$9.00",
+      "category": "Beauty",
+      "url": "https://www.amazon.com/Genuine-Korean-Exfoliating-Scrub-Mitten/dp/B00VKJW42M",
+      "image": "",
+      "tags": [
+        "BodyCare",
+        "Jjimjilbang"
+      ],
+      "price_note": "미검증 — 추정치."
+    },
+    {
+      "id": "mise-en-scene-perfect-serum",
+      "name": "Mise en Scene Perfect Serum Original hair oil",
+      "description": "Argan-oil hair serum that has been the default Korean drugstore hair oil for years. Strong fruity-floral scent.",
+      "price": "$15.00",
+      "category": "Beauty",
+      "url": "https://www.amazon.com/Mise-En-Scene-treatment-Moisturizing/dp/B081JHTPKP",
+      "image": "",
+      "tags": [
+        "HairCare",
+        "KBeauty",
+        "MiseEnScene"
+      ],
+      "price_note": "미검증 — 추정치."
+    },
+    {
+      "id": "dr-groot-intensive-shampoo",
+      "name": "Dr. Groot 5-in-1 Intensive Care Shampoo",
+      "description": "Pharmacy-positioned Korean scalp and thinning-hair shampoo with amino acids, propolis and biotin.",
+      "price": "$16.00",
+      "category": "Beauty",
+      "url": "https://www.amazon.com/Dr-Groot-Intensive-Control-Shampoo-Damaged/dp/B07KVT69YC",
+      "image": "",
+      "tags": [
+        "HairCare",
+        "ScalpCare",
+        "DrGroot"
+      ],
+      "price_note": "미검증 — 추정치."
     }
   ]
 }
