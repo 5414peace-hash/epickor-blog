@@ -1652,3 +1652,9 @@
   *Verified:* 11건 예약 후 `예약됨` 탭에서 전수 재확인(8/15~8/25 빈 날 0), 2026-08-14.
 
 - **CORRECTED (2026-08-14) — "유튜브 커뮤니티가 캐러셀을 지원하는가"는 이미 답이 있었다.** 루트 `HANDOFF.md` Active Work에 2026-07-20자로 *"The YouTube image composer supports up to 10 images/GIFs with aspect ratios from 2:5 through 5:2, so the seven 1:1 card-news PNGs are natively supported"* 가 적혀 있었고, 카드뉴스 `174`가 실제로 커뮤니티에 예약된 기록(post ID `Ugkxks1jhEdJAUbyrgUMKqLmIZDMLWHOobv1`)까지 있었다. **그런데 이번 세션은 그걸 못 찾고 브라우저에서 처음부터 다시 확인했다.** 원인은 그 사실이 **FACTS가 아니라 HANDOFF 본문의 긴 단락 안에** 묻혀 있었기 때문이다. 2026-07-26 OneLink 사고와 같은 유형이다 — **재사용할 사실은 서술 문단이 아니라 이 원장에 단정문으로 넣는다.**
+
+- **2026-08-15 — 이 저장소는 pnpm으로 설치한다. `npm i`를 쓰면 배포가 죽는다.** Vercel이 `pnpm install --frozen-lockfile`로 설치하므로, `npm i`가 `package.json`만 고치고 `pnpm-lock.yaml`을 안 건드리면 **모든 후속 배포가 `ERR_PNPM_OUTDATED_LOCKFILE`로 실패**한다. 2026-08-14 폰트 작업에서 `npm i -D @fontsource-*` 5개를 설치했고, 그 뒤 **21시간 동안 사이트가 옛 빌드에 멈춰 있었다.** 패키지가 파일을 받기 위한 일회성 도구라면(폰트 woff2처럼) 파일을 저장소에 넣은 뒤 **`package.json`에서 도로 빼는 것**이 락파일을 재생성하는 것보다 안전하다.
+  *Verified:* `vercel inspect --logs` 로 실패 원인 확인 → 패키지 제거 후 정상 배포 및 라이브 반영, 2026-08-15.
+
+- **2026-08-15 — 커밋과 배포는 다른 사건이다. `git push` 성공은 배포 성공이 아니다.** 2026-08-14 세션 종료 보고가 "커밋 푸시 완료"로 끝났는데 **그 배포는 실패해 있었고 아무도 보지 않았다.** `vercel ls`의 최상단이 `● Ready`인지, 그리고 **바뀐 내용이 공개 URL에 실제로 보이는지**까지 확인해야 완료다. CLAUDE.md의 Render/Image Gate가 이미 요구하던 것인데 코드 변경에는 적용하지 않고 있었다.
+  *Verified:* 11시간 전·5분 전 배포 두 건이 모두 `● Error`였음을 `vercel ls`로 확인, 2026-08-15.
