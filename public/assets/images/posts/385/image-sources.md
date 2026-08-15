@@ -5,16 +5,15 @@ official material first. Stock libraries have no pack shot of a specific air-pur
 model, and searching them would only have produced "some white appliance", which is
 the failure the rule exists to prevent.
 
-## 1. `coway-ap1512hh-official.jpg` (hero, ogImage)
+## Rejected: Coway's own hero shot
 
-- **Source:** https://cowaymega.com/products/mighty-ap-1512hh (Coway's own US store)
-- **File:** `Mighty_white_wirecutterlarge_a22180fe-...png`
-- **Original:** 2000x2000 PNG. Delivered 1400px JPEG, 78 KB.
-- **Use:** editorial product identification. Coway is named and compared in the
-  article; the image is the exact model discussed (AP-1512HH "Mighty", white).
-  No sponsorship is implied and none exists.
+Coway's main product image was downloaded, cropped, and then **dropped**. It has a
+**New York Times Wirecutter "OUR PICK" badge burned into the artwork**. Running a
+third party's award badge as our hero implies an endorsement that is not ours to
+display. Two attempts to crop or paint it out left fragments of the badge visible,
+at which point the honest move was to stop pixel-pushing and use a different image.
 
-## 2. `winix-5500-2-unit.jpg`
+## 1. `winix-5500-2-unit.jpg` (hero, ogImage)
 
 - **Source:** https://commons.wikimedia.org/wiki/File:Winix_5500-2_Air_Purifier.jpg
 - **Author:** TaurusEmerald — **attribution is required and is in the caption.**
@@ -25,13 +24,30 @@ the failure the rule exists to prevent.
   happens to carry a photograph of the exact model, which is a better outcome than a
   generic substitute.
 
-## 3. `coway-ap1512hh-coverage.jpg`
+## 2. `coway-filter-stages.jpg`
 
-- **Source:** same Coway US product page.
-- **Original:** 2000x2000. Delivered 1400px, 222 KB.
-- **Use:** placed against the section arguing that neither machine suits a room much
-  larger than 360 sq ft. It shows Coway's own coverage claim, so the diagram supports
-  the section's argument rather than decorating it.
+- **Source:** https://cowaymega.com/products/mighty-ap-1512hh, file `Mighty_W_Thumbnail_06.jpg`
+- **Original:** delivered 1400px, 307 KB. Coway official, no third-party branding.
+- **Use:** placed beside the section comparing what each machine is better at. It
+  labels the three filter stages, and the middle one — deodorisation — is exactly
+  where the two brands diverge.
+
+## 3. `coway-ap1512hh-coverage.jpg` — and the caption that had to be rewritten
+
+- **Source:** same Coway US product page. Delivered 1400px, 222 KB.
+- **What it actually shows:** a two-storey open-plan home with a badge reading
+  **"1x air change/hr · 1,748 ft²"**.
+- **The mistake worth recording:** it was first captioned *"Both machines are rated
+  for a single room of roughly 360 square feet"* — written from the source filename,
+  which contains the word `coverage`, **without opening the file**. It sat under a
+  heading that tells readers one unit will not cover an open-plan home, so the image
+  contradicted its own section: a reader would have concluded the article was wrong.
+  Same failure as the 2026-08-03 card-news incident and the `145` refresh.
+- **How it was resolved:** the image stayed and the article changed. Coway publishes
+  1,748 sq ft at 1 ACH, 874 at 2 ACH and 361 at 4.8 ACH, all AHAM-verified
+  (CADR 246 dust / 240 pollen / 233 smoke). The section now explains why the same
+  machine is sold under two very different coverage numbers, which is more useful
+  than the sentence that was there before.
 
 ## Checks run
 
