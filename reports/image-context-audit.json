@@ -1,15 +1,15 @@
 {
   "summary": {
-    "generatedAt": "2026-08-14T04:30:05.633Z",
+    "generatedAt": "2026-08-15T02:12:58.128Z",
     "auditedPosts": 376,
     "includedPrivate": false,
     "slugFilter": "",
     "bodyImages": 1355,
-    "affectedPosts": 99,
+    "affectedPosts": 98,
     "critical": 0,
     "high": 0,
     "medium": 1,
-    "info": 98
+    "info": 97
   },
   "findings": [
     {
@@ -779,14 +779,6 @@
       "severity": "info",
       "code": "SVG_BODY_IMAGE",
       "detail": "2 SVG body image(s); mixed-media use requires manual relevance review"
-    },
-    {
-      "type": "business",
-      "slug": "navien-tankless-water-heater-deep-dive",
-      "title": "Navien Deep Dive: The Korean Company That Did Not Take America's Tankless Market — It Built One",
-      "severity": "info",
-      "code": "MISSING_SOURCE_RECORD",
-      "detail": "public\\assets\\images\\business\\navien-tankless-water-heater-deep-dive\\image-sources.md"
     },
     {
       "type": "business",
@@ -14735,7 +14727,7 @@
       "slug": "navien-tankless-water-heater-deep-dive",
       "title": "Navien Deep Dive: The Korean Company That Did Not Take America's Tankless Market — It Built One",
       "contentPath": "content\\business\\navien-tankless-water-heater-deep-dive.md",
-      "sourceRecord": "",
+      "sourceRecord": "public\\assets\\images\\business\\navien-tankless-water-heater-deep-dive\\image-sources.md",
       "imageCount": 2,
       "images": [
         {
@@ -14753,13 +14745,7 @@
           "exists": true
         }
       ],
-      "findings": [
-        {
-          "severity": "info",
-          "code": "MISSING_SOURCE_RECORD",
-          "detail": "public\\assets\\images\\business\\navien-tankless-water-heater-deep-dive\\image-sources.md"
-        }
-      ]
+      "findings": []
     },
     {
       "type": "business",
