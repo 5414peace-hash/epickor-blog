@@ -1,10 +1,10 @@
 {
   "summary": {
-    "generatedAt": "2026-08-16T00:52:14.984Z",
-    "auditedPosts": 386,
+    "generatedAt": "2026-08-16T03:25:26.664Z",
+    "auditedPosts": 387,
     "includedPrivate": false,
     "slugFilter": "",
-    "bodyImages": 1378,
+    "bodyImages": 1380,
     "affectedPosts": 98,
     "critical": 0,
     "high": 0,
@@ -14264,6 +14264,31 @@
           "url": "/assets/images/posts/394/bodyfriend-pharaoh-neo.jpg",
           "alt": "A Bodyfriend Pharaoh NEO massage chair in cream and gold, with sculpted armrests, a headrest speaker unit and enclosed leg boots.",
           "caption": "The other end of the range: the Pharaoh NEO, listed at $14,990 on Bodyfriend's US store. Chairs styled like this are why the category reads as a living-room centerpiece in Korea rather than hidden-away exercise equipment. Manufacturer product image, Bodyfriend.",
+          "ext": ".jpg",
+          "exists": true
+        }
+      ],
+      "findings": []
+    },
+    {
+      "type": "blog",
+      "slug": "395",
+      "title": "COSRX Snail Mucin: The Korean Essence That Tops Amazon, Explained Honestly",
+      "contentPath": "content\\blog\\395.md",
+      "sourceRecord": "public\\assets\\images\\posts\\395\\image-sources.md",
+      "imageCount": 2,
+      "images": [
+        {
+          "url": "/assets/images/posts/395/cosrx-snail-96-essence-bottle.jpg",
+          "alt": "A COSRX Advanced Snail 96 Mucin Power Essence bottle, white with a black pump cap and the yellow-and-black label, on a plain white background.",
+          "caption": "The bottle itself: 100ml, pump top, and a label that states the formula plainly — 96% snail secretion filtrate. The packaging has barely changed since 2014, which in K-beauty's redesign-happy market is its own statement. Manufacturer product image, COSRX.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/395/cosrx-snail-96-three-sizes.jpg",
+          "alt": "Three sizes of the COSRX snail essence — 100ml, 50ml and 30ml bottles — lined up by height on a white background.",
+          "caption": "The three sizes sold: 100ml standard, 50ml, and a 30ml travel size. The honest buying advice is to start small — the texture is the make-or-break factor, and a 30ml bottle answers it for a third of the price. Manufacturer product image, COSRX.",
           "ext": ".jpg",
           "exists": true
         }
