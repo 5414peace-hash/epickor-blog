@@ -1401,6 +1401,169 @@
         "induction",
         "korean cookware"
       ]
+    },
+    {
+      "id": "aquapad-water-heated-mattress-pad",
+      "name": "AquaPad Hydronic Water-Heated Mattress Pad (Onsu Mat)",
+      "description": "US-sold water-circulation bed warmer - the closest thing to a Korean onsu mat. No heating wire under the body.",
+      "price": "",
+      "url": "https://www.amazon.com/NEAT-Mattress-Electric-Comfortable-Hydronic/dp/B08HQCCPW6",
+      "category": "Home",
+      "image": "",
+      "tags": [
+        "onsu mat",
+        "water heated",
+        "bed warmer",
+        "korean home"
+      ]
+    },
+    {
+      "id": "aqua-bed-warmer-queen",
+      "name": "Aqua Bed Warmer Non-Electric Heater Blanket (Queen)",
+      "description": "Simpler water-circulation bed warmer on the same principle.",
+      "price": "",
+      "url": "https://www.amazon.com/Aqua-Bed-Warmer-Non-electric-Blanket/dp/B00BLB57N2",
+      "category": "Home",
+      "image": "",
+      "tags": [
+        "water heated",
+        "bed warmer"
+      ]
+    },
+    {
+      "id": "dimchae-kimchi-fridge-180l",
+      "name": "Dimchae Kimchi Refrigerator 180L",
+      "description": "Full-size chest kimchi refrigerator from the brand that invented the category. Note: Winia liquidated July 2026 - warranty support uncertain.",
+      "price": "",
+      "url": "https://us.amazon.com/Dimchae-Kimchi-Refrigerator-180L-6-35/dp/B079FYX47Q",
+      "category": "Home",
+      "image": "",
+      "tags": [
+        "kimchi refrigerator",
+        "dimchae",
+        "korean appliance"
+      ]
+    },
+    {
+      "id": "dimchae-petite-kimchi-fridge-100l",
+      "name": "Dimchae Petite Kimchi Refrigerator 100L (Mint)",
+      "description": "Compact entry-point kimchi refrigerator. Same Winia liquidation caveat.",
+      "price": "",
+      "url": "https://www.amazon.com/Dimchae-Petite-Kimchi-Refrigerator-100L/dp/B07RBWZFZH",
+      "category": "Home",
+      "image": "",
+      "tags": [
+        "kimchi refrigerator",
+        "dimchae",
+        "compact"
+      ]
+    },
+    {
+      "id": "slim-kimchi-fridge-43cuft",
+      "name": "Slim Kimchi Refrigerator 4.3 cu ft",
+      "description": "Generic slim stand-type kimchi fridge with precise temperature control and 7 containers.",
+      "price": "",
+      "url": "https://www.amazon.com/Refrigerator-Storage-Fermentation-Freezer-Alcohol/dp/B0FSNRD87V",
+      "category": "Home",
+      "image": "",
+      "tags": [
+        "kimchi refrigerator",
+        "fermentation"
+      ]
+    },
+    {
+      "id": "lg-styler-s3mfbn-mirror",
+      "name": "LG Styler Steam Closet S3MFBN (Mirror)",
+      "description": "The mirrored-door Styler most apartment tours show. Steam + Moving Hanger, Wi-Fi.",
+      "price": "",
+      "url": "https://www.amazon.com/LG-Household-Deodorize-Technology-S3MFBN/dp/B0932K1LR7",
+      "category": "Home",
+      "image": "",
+      "tags": [
+        "lg styler",
+        "steam closet",
+        "clothing care",
+        "korean appliance"
+      ]
+    },
+    {
+      "id": "lg-styler-s3wfbn-white",
+      "name": "LG Styler Steam Closet S3WFBN (White)",
+      "description": "Same S3 Styler without the mirror finish.",
+      "price": "",
+      "url": "https://www.amazon.com/LG-Household-Deodorize-Technology-S3WFBN/dp/B0932M7GH9",
+      "category": "Home",
+      "image": "",
+      "tags": [
+        "lg styler",
+        "steam closet"
+      ]
+    },
+    {
+      "id": "lg-styler-sc5mar4g",
+      "name": "LG Styler Smart Steam Closet SC5MAR4G (Dual TrueSteam)",
+      "description": "Current flagship Styler with dual steam and dynamic moving hanger.",
+      "price": "",
+      "url": "https://www.amazon.com/LG-Styler-Smart-Closet-SC5MAR4G/dp/B0G67WGGR5",
+      "category": "Home",
+      "image": "",
+      "tags": [
+        "lg styler",
+        "flagship"
+      ]
+    },
+    {
+      "id": "lg-styler-s5wbc",
+      "name": "LG Styler S5-series (S5WBC)",
+      "description": "Larger-capacity S5 Styler with TrueSteam and moving hangers.",
+      "price": "",
+      "url": "https://www.amazon.com/LG-TrueSteam-Technology-Exclusive-S5WBC/dp/B0CDN1RB64",
+      "category": "Home",
+      "image": "",
+      "tags": [
+        "lg styler",
+        "capacity"
+      ]
+    },
+    {
+      "id": "kt-korea-sim-30day-unlimited",
+      "name": "Korea Telecom 30-Day Unlimited Data SIM (local number)",
+      "description": "Official KT prepaid SIM: unlimited data, tethering, local voice and text.",
+      "price": "",
+      "url": "https://us.amazon.com/Korea-Telecom-Unlimited-Tethering-Available/dp/B07FCJKJ8Q",
+      "category": "Travel",
+      "image": "",
+      "tags": [
+        "korea sim",
+        "kt",
+        "travel internet"
+      ]
+    },
+    {
+      "id": "whale-korea-sim-7day",
+      "name": "Whale Telecoms Korea Traveler SIM, 7 Days Unlimited",
+      "description": "Short-trip unlimited-data physical SIM on a local network.",
+      "price": "",
+      "url": "https://www.amazon.com/Telecoms-Travelers-Unlimited-High-Speed-Network/dp/B0BSKYPQJP",
+      "category": "Travel",
+      "image": "",
+      "tags": [
+        "korea sim",
+        "short trip"
+      ]
+    },
+    {
+      "id": "korea-esim-5gb-15day",
+      "name": "South Korea eSIM, 5GB / 15 Days",
+      "description": "Prepaid data eSIM for eSIM-capable phones - no physical card.",
+      "price": "",
+      "url": "https://www.amazon.com/South-Korea-eSIM-Card-High-Speed/dp/B0DSSX2F7Q",
+      "category": "Travel",
+      "image": "",
+      "tags": [
+        "korea esim",
+        "travel internet"
+      ]
     }
   ]
 }
