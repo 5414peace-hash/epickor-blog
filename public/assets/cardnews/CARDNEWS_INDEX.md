@@ -81,3 +81,4 @@ Instagram upload is representative-managed. As of 2026-07-02, the representative
 | `2026-08-09_pulmuone` | pulmuone | Korean Makers 09: Pulmuone (coldchain) | 7 | final · 검수완료 | scheduled 2026-08-24 05:00 KST (Meta Suite, planner+card-order verified 08-10) |
 | `2026-08-17_395` | 395 | COSRX Snail 96 — RX Label | 7 | 제작완료·검수완료 (VF 93.9) | 보류 — 트리오(C+E+F) 완성 + 8/24 쇼츠 판정 후 일괄 예약 | /blog/395 |
 | `2026-08-17_392` | 392 | Kimchi Refrigerator — Earth Gauge | 7 | 제작완료·검수완료 (VF 94.7) | 보류 — 트리오 완성 + 8/24 판정 후 일괄 예약 | /blog/392 |
+| `2026-08-17_394` | 394 | Korean Massage Chairs — Showroom Menu | 7 | 제작완료·검수완료 (VF 93.3) | 보류 — 트리오 완성. 8/24 판정 + 대표님 컨펌 후 일괄 예약 | /blog/394 |
