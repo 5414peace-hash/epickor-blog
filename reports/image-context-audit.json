@@ -1,10 +1,10 @@
 {
   "summary": {
-    "generatedAt": "2026-08-15T23:49:16.639Z",
-    "auditedPosts": 383,
+    "generatedAt": "2026-08-16T00:22:50.712Z",
+    "auditedPosts": 384,
     "includedPrivate": false,
     "slugFilter": "",
-    "bodyImages": 1371,
+    "bodyImages": 1374,
     "affectedPosts": 98,
     "critical": 0,
     "high": 0,
@@ -7849,7 +7849,7 @@
     {
       "type": "blog",
       "slug": "213",
-      "title": "Why Korea Has Few Trash Cans: Recycling Rules for Tourists",
+      "title": "Why Are There No Trash Cans in Korea? Rules, Fines, and Where Your Cup Goes",
       "contentPath": "content\\blog\\213.md",
       "sourceRecord": "public\\assets\\images\\posts\\213\\image-sources.md",
       "imageCount": 4,
@@ -7870,7 +7870,7 @@
         },
         {
           "url": "/assets/images/posts/213/recycling-plastic-closeup.jpg",
-          "alt": "Neutral plastic and bottle waste showing why clean separation matters before recycling.",
+          "alt": "Plastic bottles and containers gathered for recycling, empty and sorted by material.",
           "caption": "Recycling only works when containers are reasonably empty and not mixed with wet food. Photo by Mikhail Nilov on Pexels.",
           "ext": ".jpg",
           "exists": true
@@ -14182,6 +14182,38 @@
           "url": "/assets/images/posts/391/ilwol-deomaru-electric-carpet-mat.jpg",
           "alt": "Four Ilwol Deomaru Plus carpet mats in nested sizes, printed to look like wood flooring, each with a white connector socket on its edge.",
           "caption": "The other Korean form factor: a heating mat printed to look like a wooden floor, sold in four sizes. Western heated bedding goes on top of you; this goes under you, on the floor, and is meant to be sat on. It is ondol logic in a product you can roll up. Manufacturer product image, Ilwol.",
+          "ext": ".jpg",
+          "exists": true
+        }
+      ],
+      "findings": []
+    },
+    {
+      "type": "blog",
+      "slug": "392",
+      "title": "Kimchi Refrigerators Explained: Why Korea Built a Fridge for One Food",
+      "contentPath": "content\\blog\\392.md",
+      "sourceRecord": "public\\assets\\images\\posts\\392\\image-sources.md",
+      "imageCount": 3,
+      "images": [
+        {
+          "url": "/assets/images/posts/392/kimchi-fridge-top-load-open.jpg",
+          "alt": "A red top-loading kimchi refrigerator with its lid open, a bag of kimchi sitting inside the chilled well, and a Korean energy-rating label on the front.",
+          "caption": "The classic form: a chest that opens from the top, with the kimchi sitting down in the cold well. Cold air is heavier than warm air, so a top lid holds the chill in a way a front door never can — the same reason the original storage jar was buried. Photo by the National Institute of Korean Language, CC BY-SA 2.0 KR, via Wikimedia Commons.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/392/jangdokdae-onggi-jars.jpg",
+          "alt": "Rows of brown onggi jars of different sizes standing in the grass beside a traditional Korean house.",
+          "caption": "The jangdokdae (장독대) — the jar terrace every Korean house once had. In winter, the kimchi jars among these went into the ground. The kimchi refrigerator exists because apartments have no yard to bury them in. Photo by Drab Makyo, CC BY 2.0, via Wikimedia Commons.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/392/lg-kimchi-fridge-drawer-type.jpg",
+          "alt": "An LG stand-type kimchi refrigerator with its lower drawer pulled out, holding sealed containers of kimchi and side dishes.",
+          "caption": "The form that took over: a stand-type unit with drawers, this one by LG. Each drawer is its own sealed cold zone, so the household's new kimchi, ripened kimchi, and everything-else can sit at different temperatures in one cabinet. Photo by Jose Gabriel Marcelino, CC BY 2.0, via Wikimedia Commons.",
           "ext": ".jpg",
           "exists": true
         }
