@@ -1,10 +1,10 @@
 {
   "summary": {
-    "generatedAt": "2026-08-16T00:22:50.712Z",
-    "auditedPosts": 384,
+    "generatedAt": "2026-08-16T00:42:20.640Z",
+    "auditedPosts": 385,
     "includedPrivate": false,
     "slugFilter": "",
-    "bodyImages": 1374,
+    "bodyImages": 1376,
     "affectedPosts": 98,
     "critical": 0,
     "high": 0,
@@ -14214,6 +14214,31 @@
           "url": "/assets/images/posts/392/lg-kimchi-fridge-drawer-type.jpg",
           "alt": "An LG stand-type kimchi refrigerator with its lower drawer pulled out, holding sealed containers of kimchi and side dishes.",
           "caption": "The form that took over: a stand-type unit with drawers, this one by LG. Each drawer is its own sealed cold zone, so the household's new kimchi, ripened kimchi, and everything-else can sit at different temperatures in one cabinet. Photo by Jose Gabriel Marcelino, CC BY 2.0, via Wikimedia Commons.",
+          "ext": ".jpg",
+          "exists": true
+        }
+      ],
+      "findings": []
+    },
+    {
+      "type": "blog",
+      "slug": "393",
+      "title": "LG Styler Explained: Why Korea Invented a Closet That Shakes Your Clothes",
+      "contentPath": "content\\blog\\393.md",
+      "sourceRecord": "public\\assets\\images\\posts\\393\\image-sources.md",
+      "imageCount": 2,
+      "images": [
+        {
+          "url": "/assets/images/posts/393/lg-styler-open-ifa-2015.jpg",
+          "alt": "An LG Styler standing open at a trade show, three garments hanging inside the lit cabinet under the sign LG styler Steam Clothing Care, with a staff member holding the door.",
+          "caption": "The machine, open: three garments on hangers in a sealed, lit cabinet — no drum, no detergent drawer. This unit was photographed at the IFA electronics fair in Berlin in 2015, four years after the Korean launch, when LG began taking the category abroad. Photo by dambranslv, CC BY 2.0, via Wikimedia Commons.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/393/lg-styler-moving-hanger-rack.jpg",
+          "alt": "Close-up of the Styler's ceiling-mounted moving hanger rack, three hanger slots clipped into a white swinging bar with a lit steam vent behind.",
+          "caption": "The whole invention in one part: the white bar at the cabinet ceiling is the Moving Hanger rack. The hangers clip into it, and the bar itself swings — up to 200 strokes a minute — shaking dust and smell out of the fabric while steam does the rest. Detail crop from the same IFA photo above.",
           "ext": ".jpg",
           "exists": true
         }
