@@ -1736,6 +1736,35 @@
         "madeleine",
         "recipe"
       ]
+    },
+    {
+      "id": "simari-water-shoes",
+      "name": "SIMARI Quick-Dry Water Shoes (Aqua Socks)",
+      "description": "Barefoot-style water shoes for mud festivals and beaches - mud pulls flip-flops off, these stay on.",
+      "price": "",
+      "url": "https://www.amazon.com/SIMARI-Water-Shoes-Women-Men/dp/B0CLY52CY1",
+      "category": "Travel",
+      "image": "",
+      "tags": [
+        "boryeong",
+        "mud festival",
+        "water shoes",
+        "festival"
+      ]
+    },
+    {
+      "id": "moskinto-bite-patches",
+      "name": "Moskinto Mosquito Bite Itch Relief Patches",
+      "description": "Drug-free grid patches for bites - the Western equivalent of Korean pharmacy bite stickers.",
+      "price": "",
+      "url": "https://www.amazon.com/Moskinto-Original-Mosquitos-Sandflies-Instantly/dp/B08C6XP2J9",
+      "category": "Travel",
+      "image": "",
+      "tags": [
+        "mosquito",
+        "korea summer",
+        "bite relief"
+      ]
     }
   ]
 }
