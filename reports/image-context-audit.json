@@ -1,10 +1,10 @@
 {
   "summary": {
-    "generatedAt": "2026-08-16T03:25:26.664Z",
-    "auditedPosts": 387,
+    "generatedAt": "2026-08-16T04:19:46.001Z",
+    "auditedPosts": 388,
     "includedPrivate": false,
     "slugFilter": "",
-    "bodyImages": 1380,
+    "bodyImages": 1382,
     "affectedPosts": 98,
     "critical": 0,
     "high": 0,
@@ -14289,6 +14289,31 @@
           "url": "/assets/images/posts/395/cosrx-snail-96-three-sizes.jpg",
           "alt": "Three sizes of the COSRX snail essence — 100ml, 50ml and 30ml bottles — lined up by height on a white background.",
           "caption": "The three sizes sold: 100ml standard, 50ml, and a 30ml travel size. The honest buying advice is to start small — the texture is the make-or-break factor, and a 30ml bottle answers it for a third of the price. Manufacturer product image, COSRX.",
+          "ext": ".jpg",
+          "exists": true
+        }
+      ],
+      "findings": []
+    },
+    {
+      "type": "blog",
+      "slug": "396",
+      "title": "Anua Heartleaf 77 Toner: The Korean Weed That Smells Like Fish and Topped Amazon",
+      "contentPath": "content\\blog\\396.md",
+      "sourceRecord": "public\\assets\\images\\posts\\396\\image-sources.md",
+      "imageCount": 2,
+      "images": [
+        {
+          "url": "/assets/images/posts/396/anua-heartleaf-77-toner-bottle.jpg",
+          "alt": "A clear Anua Heartleaf 77 toner bottle with the green 77+ label, standing on a plain white background.",
+          "caption": "The bottle: clear liquid, a label that leads with the number, and nothing else. Current bottles read `HEARTLEAF 77+ HYALURON` — the renewed formula adds hyaluronic acid to the original 77% heartleaf base. Manufacturer product image, Anua.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/396/anua-heartleaf-77-ingredient-list.jpg",
+          "alt": "Anua's ingredient list card for the Heartleaf 77 toner, the INCI list beginning with Heartleaf Flower/Leaf/Stem Extract (77%), followed by purified water.",
+          "caption": "Not the marketing panel — the ingredient list. The first line is `Heartleaf Flower/Leaf/Stem Extract (77%)`, which means the extract, not water, is the base of the formula. On most toners, water is the first ingredient. Manufacturer ingredient disclosure, Anua.",
           "ext": ".jpg",
           "exists": true
         }

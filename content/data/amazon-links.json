@@ -1649,6 +1649,63 @@
         "snail mucin",
         "set"
       ]
+    },
+    {
+      "id": "anua-heartleaf-77-toner-250",
+      "name": "Anua Heartleaf 77 Soothing Toner 250ml",
+      "description": "77% heartleaf extract calming toner - the Amazon toner-category bestseller. Official storefront listing.",
+      "price": "",
+      "url": "https://www.amazon.com/Heartleaf-Soothing-Trouble-Refreshing-Purifying/dp/B08CMS8P67",
+      "category": "Beauty",
+      "image": "",
+      "tags": [
+        "anua",
+        "heartleaf",
+        "toner",
+        "k-beauty"
+      ]
+    },
+    {
+      "id": "anua-heartleaf-77-toner-500",
+      "name": "Anua Heartleaf 77 Soothing Toner 500ml",
+      "description": "Value size of the heartleaf toner - best per-ml once the fit is proven.",
+      "price": "",
+      "url": "https://www.amazon.com/Heartleaf-Soothing-Trouble-Refreshing-Purifying/dp/B08CMYJK57",
+      "category": "Beauty",
+      "image": "",
+      "tags": [
+        "anua",
+        "heartleaf",
+        "value size"
+      ]
+    },
+    {
+      "id": "anua-gentle-moisture-duo",
+      "name": "Anua Gentle Moisture Duo (77 Toner + Heartleaf 70 Cream)",
+      "description": "The toner paired with the calming cream that seals it - the default dry-skin pairing.",
+      "price": "",
+      "url": "https://www.amazon.com/Anua-Gentle-Moisture-Duo-moisturizer/dp/B0DLW88G7W",
+      "category": "Beauty",
+      "image": "",
+      "tags": [
+        "anua",
+        "set",
+        "vegan"
+      ]
+    },
+    {
+      "id": "anua-soothing-starter-duo",
+      "name": "Anua Gentle Soothing Starter Duo (Toner + Azelaic Serum)",
+      "description": "Entry set answering whether heartleaf suits the skin before committing to big bottles.",
+      "price": "",
+      "url": "https://www.amazon.com/ANUA-Soothing-Heartleaf-Hydrating-Sensitive/dp/B0DRCMVGYT",
+      "category": "Beauty",
+      "image": "",
+      "tags": [
+        "anua",
+        "starter",
+        "sensitive skin"
+      ]
     }
   ]
 }
