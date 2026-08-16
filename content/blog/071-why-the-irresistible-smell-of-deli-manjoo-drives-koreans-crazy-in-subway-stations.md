@@ -184,6 +184,10 @@ Some fans also like it after cooling down or even frozen, but for a first try, w
 For another Korean snack culture guide, see EpicKor's article on [Korean snacks and texture culture](/blog/029). If the old-but-new dessert angle interests you, the [yakgwa guide](/blog/128) explains how a traditional honey cookie became a modern Gen Z cafe and convenience-store trend. For a more everyday morning version of this grab-and-go logic, read the guide to [Korean convenience store breakfast](/blog/171). If you want to recreate the snack break at home rather than chase the station kiosk, pair it with the [Korean instant coffee mix guide](/blog/278), the [Korean tea and grain drinks guide](/blog/280), or the broader [Korean pantry starter kit](/blog/277).
 
 <div class="affiliate-inline-cta">
+  <p><strong>For the people who searched "deli manjoo recipe":</strong> the honest news is that no home pan makes the little corn shape — that mold is commercial. What home bakers actually use is a <a href="https://www.amazon.com/Bellemain-12-Cup-Nonstick-Madeleine-Pan/dp/B00L5HCVSG?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">12-cavity madeleine pan</a>: same small-batch batter, same custard-filling technique, shell-shaped instead of corn-shaped. Fill each well halfway, drop in a teaspoon of custard, cover, and bake — the station smell is mostly vanilla and butter, and that part transfers. As an Amazon Associate, EpicKor may earn from qualifying purchases at no extra cost to you.</p>
+</div>
+
+<div class="affiliate-inline-cta">
   <p><strong>Compare the closest shelf-stable texture:</strong> Deli Manjoo itself is best hot from a kiosk, but you can compare <a href="https://www.amazon.com/s?k=korean+custard+cake+snack&tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean custard cake snacks</a> by filling, pack size, and freshness instead of buying an unrelated mixed snack box.</p>
   <a class="affiliate-cta-button" href="https://www.amazon.com/s?k=korean+custard+cake+snack&tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Compare on Amazon</a>
 </div>

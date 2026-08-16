@@ -1706,6 +1706,36 @@
         "starter",
         "sensitive skin"
       ]
+    },
+    {
+      "id": "joto-waterproof-pouch-2pack",
+      "name": "JOTO IPX8 Waterproof Phone Pouch (2-Pack)",
+      "description": "The standard festival/beach phone pouch - IPX8, touch-through, up to 7-inch phones.",
+      "price": "",
+      "url": "https://www.amazon.com/JOTO-Universal-Waterproof-Cellphone-Underwater/dp/B07V8HGM7T",
+      "category": "Travel",
+      "image": "",
+      "tags": [
+        "waterproof",
+        "festival",
+        "waterbomb",
+        "phone pouch"
+      ]
+    },
+    {
+      "id": "bellemain-madeleine-pan-12",
+      "name": "Bellemain 12-Cavity Nonstick Madeleine Pan",
+      "description": "The home substitute for the deli manjoo mold - small-batch batter and custard-fill technique.",
+      "price": "",
+      "url": "https://www.amazon.com/Bellemain-12-Cup-Nonstick-Madeleine-Pan/dp/B00L5HCVSG",
+      "category": "Kitchen",
+      "image": "",
+      "tags": [
+        "baking",
+        "deli manjoo",
+        "madeleine",
+        "recipe"
+      ]
     }
   ]
 }
