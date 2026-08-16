@@ -1564,6 +1564,62 @@
         "korea esim",
         "travel internet"
       ]
+    },
+    {
+      "id": "bodyfriend-familie-3d",
+      "name": "Bodyfriend Familie 3D Massage Chair",
+      "description": "Compact SL-track full-body zero-gravity chair - Bodyfriend's family entry model on its official Amazon store.",
+      "price": "",
+      "url": "https://www.amazon.com/Bodyfriend-Recliner-Massager-Bluetooth-Speakers/dp/B0D97R4HBB",
+      "category": "Home",
+      "image": "",
+      "tags": [
+        "bodyfriend",
+        "massage chair",
+        "korean brand"
+      ]
+    },
+    {
+      "id": "bodyfriend-falcon-xd",
+      "name": "Bodyfriend Falcon XD 4D Massage Chair (ROVO walking legs)",
+      "description": "4D flagship-line chair with the patented ROVO bipedal leg system, 36 airbags, foot rollers.",
+      "price": "",
+      "url": "https://www.amazon.com/Bodyfriend-Recliner-Patented-Technology-Acupressure/dp/B0D97TGBYS",
+      "category": "Home",
+      "image": "",
+      "tags": [
+        "bodyfriend",
+        "massage chair",
+        "4d"
+      ]
+    },
+    {
+      "id": "bodyfriend-phantom-2-white",
+      "name": "Bodyfriend Phantom 2 Massage Chair (White)",
+      "description": "Former flagship with 4D massage and zero gravity - the mid-price way into the flagship line.",
+      "price": "",
+      "url": "https://www.amazon.com/Bodyfriend-Massage-Chair-Phantom-White/dp/B08F19Q7YD",
+      "category": "Home",
+      "image": "",
+      "tags": [
+        "bodyfriend",
+        "massage chair",
+        "phantom"
+      ]
+    },
+    {
+      "id": "bodyfriend-eliza-3d",
+      "name": "Bodyfriend Eliza 3D Massage Chair",
+      "description": "Compact portable SL-track chair with waist airbags - the smaller sibling of the Familie.",
+      "price": "",
+      "url": "https://www.amazon.com/Bodyfriend-Recliner-Portable-Massager-Bluetooth/dp/B0D97R168Q",
+      "category": "Home",
+      "image": "",
+      "tags": [
+        "bodyfriend",
+        "massage chair",
+        "compact"
+      ]
     }
   ]
 }

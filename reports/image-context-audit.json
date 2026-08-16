@@ -1,10 +1,10 @@
 {
   "summary": {
-    "generatedAt": "2026-08-16T00:42:20.640Z",
-    "auditedPosts": 385,
+    "generatedAt": "2026-08-16T00:52:14.984Z",
+    "auditedPosts": 386,
     "includedPrivate": false,
     "slugFilter": "",
-    "bodyImages": 1376,
+    "bodyImages": 1378,
     "affectedPosts": 98,
     "critical": 0,
     "high": 0,
@@ -14239,6 +14239,31 @@
           "url": "/assets/images/posts/393/lg-styler-moving-hanger-rack.jpg",
           "alt": "Close-up of the Styler's ceiling-mounted moving hanger rack, three hanger slots clipped into a white swinging bar with a lit steam vent behind.",
           "caption": "The whole invention in one part: the white bar at the cabinet ceiling is the Moving Hanger rack. The hangers clip into it, and the bar itself swings — up to 200 strokes a minute — shaking dust and smell out of the fabric while steam does the rest. Detail crop from the same IFA photo above.",
+          "ext": ".jpg",
+          "exists": true
+        }
+      ],
+      "findings": []
+    },
+    {
+      "type": "blog",
+      "slug": "394",
+      "title": "Korean Massage Chairs: How Bodyfriend Made a Recliner the Top Filial Gift",
+      "contentPath": "content\\blog\\394.md",
+      "sourceRecord": "public\\assets\\images\\posts\\394\\image-sources.md",
+      "imageCount": 2,
+      "images": [
+        {
+          "url": "/assets/images/posts/394/bodyfriend-falcon-signature.jpg",
+          "alt": "A Bodyfriend Falcon Signature massage chair in dark brown, with a quilted seat, wood-tone side panel and enclosed leg massagers.",
+          "caption": "The Falcon Signature — the design-led flagship line. The enclosed boots at the bottom are the leg massagers, and the reason the safety section below exists: they open and close by motor. Manufacturer product image, Bodyfriend.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/394/bodyfriend-pharaoh-neo.jpg",
+          "alt": "A Bodyfriend Pharaoh NEO massage chair in cream and gold, with sculpted armrests, a headrest speaker unit and enclosed leg boots.",
+          "caption": "The other end of the range: the Pharaoh NEO, listed at $14,990 on Bodyfriend's US store. Chairs styled like this are why the category reads as a living-room centerpiece in Korea rather than hidden-away exercise equipment. Manufacturer product image, Bodyfriend.",
           "ext": ".jpg",
           "exists": true
         }
