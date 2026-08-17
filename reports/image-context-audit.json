@@ -1,10 +1,10 @@
 {
   "summary": {
-    "generatedAt": "2026-08-16T04:19:46.001Z",
-    "auditedPosts": 388,
+    "generatedAt": "2026-08-17T04:22:55.841Z",
+    "auditedPosts": 389,
     "includedPrivate": false,
     "slugFilter": "",
-    "bodyImages": 1382,
+    "bodyImages": 1385,
     "affectedPosts": 98,
     "critical": 0,
     "high": 0,
@@ -14314,6 +14314,38 @@
           "url": "/assets/images/posts/396/anua-heartleaf-77-ingredient-list.jpg",
           "alt": "Anua's ingredient list card for the Heartleaf 77 toner, the INCI list beginning with Heartleaf Flower/Leaf/Stem Extract (77%), followed by purified water.",
           "caption": "Not the marketing panel — the ingredient list. The first line is `Heartleaf Flower/Leaf/Stem Extract (77%)`, which means the extract, not water, is the base of the formula. On most toners, water is the first ingredient. Manufacturer ingredient disclosure, Anua.",
+          "ext": ".jpg",
+          "exists": true
+        }
+      ],
+      "findings": []
+    },
+    {
+      "type": "blog",
+      "slug": "397",
+      "title": "K-Drama Foods Explained: Chimaek, the Ramyeon Line, and That Sandwich",
+      "contentPath": "content\\blog\\397.md",
+      "sourceRecord": "public\\assets\\images\\posts\\397\\image-sources.md",
+      "imageCount": 3,
+      "images": [
+        {
+          "url": "/assets/images/posts/397/daegu-chimac-festival.jpg",
+          "alt": "Fireworks over a huge nighttime crowd at Daegu's Chimac Festival, festival tents in rows and the 83 Tower lit in the background.",
+          "caption": "Chimaek is not a drama invention. It is big enough in real Korea that Daegu throws an annual festival devoted entirely to chicken and beer — this is it. Photo: Daegu Metropolitan City, KOGL Type 1.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/397/korean-fried-chicken-beer-table.jpg",
+          "alt": "A plate of Korean fried chicken with pickled radish, salad and a glass of beer at a Korean restaurant table.",
+          "caption": "Ground level: chicken, the mandatory pickled radish cubes (치킨무), and the beer. This is what the delivery box in every drama actually contains. Photo: KOREA.NET, CC BY-SA 2.0.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/397/dalgona-candy-heart.jpg",
+          "alt": "A heart-stamped dalgona candy on a dark tray.",
+          "caption": "Dalgona with the stamp pressed in. The game — lick or carve the shape out unbroken — existed decades before a certain drama raised the stakes. Photo by PhareannaH[berhabuk], CC BY 2.0, via Wikimedia Commons.",
           "ext": ".jpg",
           "exists": true
         }
