@@ -63,6 +63,22 @@ import { loadFonts } from './fonts';
  * only; a cream-and-gold ramyeon pack needs its own set. Sample the actual product
  * photography, do not pick by taste, and record where the numbers came from.
  * ------------------------------------------------------------------ */
+/**
+ * Copy that belongs to the reel, not the kit. The first render of the second reel called
+ * three ramyeon packets "FOUR KOREAN BOTTLES. ONE IS YOURS." and credited "Real Olive Young
+ * prices" for two launch prices, because all of it was hard-coded from reel one.
+ */
+export type Copy = {
+  /** Opening hook. Three lines; the third is set in the accent colour. */
+  hook: [string, string, string];
+  /** One line under the product row — what the numbers are and when they were read. */
+  hookSource: string;
+  /** Decision-frame headline. Two lines; the second is accent. */
+  decide: [string, string];
+  /** One line above the domain chip on the decision frame. */
+  decideSub: string;
+};
+
 export type Palette = {
   /** The ground. Never a flat fill — Ground() blooms and drifts over it. */
   canvas: string;
@@ -457,7 +473,7 @@ function Block({ p, index, total }: { p: Product; index: number; total: number }
 }
 
 /** Opening frame. Renders complete at f0 because it is the grid thumbnail. */
-function Hook({ products }: { products: Product[] }) {
+function Hook({ products, copy }: { products: Product[]; copy: Copy }) {
   const C = usePalette();
   const f = useCurrentFrame();
   // No out-fade: see the note in Block. f65 rendered as an empty blue frame.
@@ -502,11 +518,11 @@ function Hook({ products }: { products: Product[] }) {
               wordSpacing: '0.06em',
           }}
         >
-          FOUR KOREAN
+          {copy.hook[0]}
           <br />
-          BOTTLES.
+          {copy.hook[1]}
           <br />
-          <span style={{ color: C.accent }}>ONE IS YOURS.</span>
+          <span style={{ color: C.accent }}>{copy.hook[2]}</span>
         </div>
       </div>
       <div
@@ -519,14 +535,14 @@ function Hook({ products }: { products: Product[] }) {
           color: C.mute,
         }}
       >
-        Real Olive Young prices · August 2026
+        {copy.hookSource}
       </div>
     </AbsoluteFill>
   );
 }
 
 /** The decision grid. This is the frame a viewer screenshots, so it must be complete. */
-function Decide({ products }: { products: Product[] }) {
+function Decide({ products, copy }: { products: Product[]; copy: Copy }) {
   const C = usePalette();
   const f = useCurrentFrame();
   // No out-fade: see the note in Block. f677 rendered as an empty blue frame.
@@ -543,9 +559,9 @@ function Decide({ products }: { products: Product[] }) {
               wordSpacing: '0.055em',
           }}
         >
-          PICK BY THE
+          {copy.decide[0]}
           <br />
-          <span style={{ color: C.accent }}>PROBLEM.</span>
+          <span style={{ color: C.accent }}>{copy.decide[1]}</span>
         </div>
       </div>
       <div
@@ -619,7 +635,7 @@ function Decide({ products }: { products: Product[] }) {
             opacity: at(f, 48, 10),
           }}
         >
-          Ingredient by ingredient, and what each one is actually for.
+          {copy.decideSub}
         </div>
         <div
           style={{
@@ -701,11 +717,13 @@ function Outro({ hook, sub }: { hook: string; sub: string }) {
 
 export function ReelCounter({
   products,
+  copy,
   outroHook,
   outroSub,
   palette = PALETTE_KBEAUTY,
 }: {
   products: Product[];
+  copy: Copy;
   outroHook: string;
   outroSub: string;
   /** Sampled from THIS reel's own product photography. See the Palette note above. */
@@ -720,7 +738,7 @@ export function ReelCounter({
     <AbsoluteFill style={{ background: palette.canvas }}>
       <Ground />
       <Sequence durationInFrames={HOOK}>
-        <Hook products={products} />
+        <Hook products={products} copy={copy} />
       </Sequence>
       {products.map((p, i) => (
         <Sequence key={p.id} from={HOOK + i * BLOCK} durationInFrames={BLOCK}>
@@ -728,7 +746,7 @@ export function ReelCounter({
         </Sequence>
       ))}
       <Sequence from={HOOK + products.length * BLOCK} durationInFrames={DECIDE}>
-        <Decide products={products} />
+        <Decide products={products} copy={copy} />
       </Sequence>
       <Sequence from={HOOK + products.length * BLOCK + DECIDE} durationInFrames={OUTRO}>
         <Outro hook={outroHook} sub={outroSub} />

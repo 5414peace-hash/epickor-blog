@@ -36,7 +36,7 @@
  *   ramyeon shelf that red IS the price tag. The cream ground is the premium packs' own
  *   world; re-sample it from the 삼양1963 pack once that file is on disk.
  */
-import { ReelCounter, counterDuration, type Palette, type Product } from './CounterKit';
+import { ReelCounter, counterDuration, type Copy, type Palette, type Product } from './CounterKit';
 
 const M = 'assets/reels/ramyeon-premium/media';
 
@@ -89,12 +89,20 @@ export const RAMYEON_PRODUCTS: Product[] = [
   },
 ];
 
+export const RAMYEON_COPY: Copy = {
+  hook: ['ONE PACKET', 'USED TO BE', '₩1,000.'],
+  hookSource: 'Korean launch prices · 2026',
+  decide: ['THE SHELF', 'SPLIT IN TWO.'],
+  decideSub: 'What the 1989 letter claimed, and why the price moved.',
+};
+
 export const RAMYEON_DURATION = counterDuration(RAMYEON_PRODUCTS.length);
 
 export function ReelRamyeonPremium() {
   return (
     <ReelCounter
       products={RAMYEON_PRODUCTS}
+      copy={RAMYEON_COPY}
       palette={PALETTE_RAMYEON}
       outroHook={'THERE’S\nMORE.'}
       outroSub="What the 1989 letter said, why it was false, and what the shelf looks like now."

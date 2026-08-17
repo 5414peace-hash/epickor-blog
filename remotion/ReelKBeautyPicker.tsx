@@ -19,7 +19,7 @@
  * not the cheap option. That is the kind of fact the English-language web does not
  * carry, and it is the sort of thing a viewer screenshots.
  */
-import { ReelCounter, counterDuration, type Product } from './CounterKit';
+import { ReelCounter, counterDuration, type Copy, type Product } from './CounterKit';
 
 const M = 'assets/reels/kbeauty-picker/media';
 
@@ -73,12 +73,20 @@ export const KBEAUTY_PRODUCTS: Product[] = [
   },
 ];
 
+export const KBEAUTY_COPY: Copy = {
+  hook: ['FOUR KOREAN', 'BOTTLES.', 'ONE IS YOURS.'],
+  hookSource: 'Real Olive Young prices · August 2026',
+  decide: ['PICK BY THE', 'PROBLEM.'],
+  decideSub: 'Ingredient by ingredient, and what each one is actually for.',
+};
+
 export const KBEAUTY_DURATION = counterDuration(KBEAUTY_PRODUCTS.length);
 
 export function ReelKBeautyPicker() {
   return (
     <ReelCounter
       products={KBEAUTY_PRODUCTS}
+      copy={KBEAUTY_COPY}
       outroHook={'DON’T ORDER\nBLIND.'}
       outroSub="Ingredient breakdowns, Korean prices, and what each bottle is actually for."
     />

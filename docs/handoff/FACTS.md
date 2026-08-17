@@ -703,6 +703,30 @@
 
 ## reels
 
+- **2026-08-17 — reclaim audio headroom with a high-pass, not a harder limiter.** The ramyeon
+  bed's first mux measured **−0.0 dBTP** on the same chain that gave the beauty reel −3.7,
+  because its G2 pad (98 Hz) plus the 58 Hz cut thud generated sub-40 energy nothing can hear.
+  Dropping the limiter ceiling fixed the peak but flattened the cut accents from 5 dB to 1–3 dB
+  over the bed. A **2-pole high-pass at 40 Hz** gave the best result of any attempt:
+  **−14.1 LUFS, −3.6 dBTP, 5.1 dB accent separation.** Also confirmed: `loudnorm` needs
+  `linear=true` with measured values, or its dynamic mode pumps unpredictably against a limiter.
+- **2026-08-17 — COUNTER's second reel exposed hard-coded copy that a successful render hides.**
+  The kit's hook and decision headlines were baked in from reel one, so the ramyeon render called
+  three packets **"FOUR KOREAN BOTTLES. ONE IS YOURS."** and credited **"Real Olive Young prices"**
+  for two launch prices. The render exited 0 and the file played correctly. **Only the contact
+  sheet caught it.** Palette and copy are both props now (`Palette`, `Copy`); that pair is what
+  makes the kit reusable rather than a one-off design.
+- **2026-08-17 — measure the SUBJECT box, not the canvas, when judging a supplied pack shot.** The
+  representative's 진라면 cup arrived as 1920×1280 but letterboxed, and the 삼양1963 packet as a
+  bare 498×615 with no margin at all — so the small file was the *safer* one (subject 498×613,
+  0.91× upscale) and the large one needed its bars trimmed. Verified subject boxes: 진라면 컵
+  939×975, 신라면 골드 748×909, 삼양1963 498×613, 너구리 큰사발 499×504 (1.10×), 뽀로로 431×375
+  (1.48×, rejected), **죠스바 487×169 — rejected structurally, not on resolution: an ice bar is a
+  horizontal product and cannot fill a 0.535 portrait slot.**
+- **2026-08-17 — sharp runs `resize` BEFORE `composite` regardless of chain order.** Composing a
+  730×892 overlay onto a created 794×1485 canvas and then calling `.resize({height:1030})` in the
+  same pipeline shrank the canvas to 551×1030 first and failed with "Image to composite must have
+  same dimensions or smaller". Split into two `sharp()` passes.
 - **2026-08-17 — ffmpeg `alimiter`'s `level` option defaults to TRUE and auto-levels the output
   back up to full scale, cancelling the ceiling you set.** Symptom is unmistakable and
   counter-intuitive: *lowering* `limit` made the file LOUDER (v006 −11.4 LUFS/−0.1 dBTP →
