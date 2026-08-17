@@ -675,6 +675,30 @@
 
 ## reels
 
+- **2026-08-17 — ffmpeg `alimiter`'s `level` option defaults to TRUE and auto-levels the output
+  back up to full scale, cancelling the ceiling you set.** Symptom is unmistakable and
+  counter-intuitive: *lowering* `limit` made the file LOUDER (v006 −11.4 LUFS/−0.1 dBTP →
+  v007 −10.3 LUFS/**+0.3 dBTP** after dropping the ceiling). `level=false` is mandatory when
+  using it as a safety limiter. *Verified:* four muxes of the same bed,
+  `output/reels/2026-08-17_kbeauty-picker/strategy.md`.
+- **2026-08-17 — AAC encoding adds roughly 1.8 dB of intersample overshoot, so `loudnorm`'s TP
+  target is not the final ceiling.** A bed normalised to −1.5 dBTP as WAV measured **+1.7 dBTP**
+  after `-c:a aac -b:a 192k`. Set the pre-encode ceiling near −4 dBFS and verify the muxed file,
+  never the intermediate.
+- **2026-08-17 — for a transient-heavy bed, a limiter alone beats compressor-plus-limiter.** Same
+  −14.3 LUFS either way, but dropping the compressor improved headroom (−3.1 → −3.7 dBTP),
+  dynamics (LRA 2.9 → 3.5) AND cut-accent separation (0.5–5.7 dB → 3.4–7.0 dB over the bed)
+  simultaneously. Compress only if the ceiling genuinely cannot hold.
+- **2026-08-17 — the YouTube Audio Library masters in `output/bgm/` cannot be used on Instagram.**
+  Their own `LICENSES.md` records them as pulled from the signed-in channel's library "for YouTube
+  use" and warns to re-check before reusing on a non-YouTube platform. For non-YouTube
+  destinations, synthesise (`output/reels/2026-08-17_kbeauty-picker/build-bgm.py`) or source from
+  Pixabay/Mixkit, which CLAUDE.md already clears for commercial use with no attribution.
+- **2026-08-17 — a bed synthesised from the kit's frame numbers is verifiably in sync, and stdlib
+  Python is enough.** No numpy/scipy in this environment; `array` + `math` + `wave` renders 25.5s
+  stereo with 46 events in 8.6s by generating each element once and mixing at offsets. Sync
+  proven by measuring 0.16s windows: cut frames 66/192/318/444/570/678 read −3.7 to −5.1 dB
+  against −7.3 to −10.7 dB mid-block.
 - **2026-08-17 — reel 376's "moving card news" mosaic does not appear in the render.** Six frames
   pulled from `EPICKOR_376.mp4` at 0.3/0.8/1.4/2.2/3.5/5.0s: the plate is one continuous still
   under a slow zoom, the white title card is pixel-identical in all six, and the ONLY thing that

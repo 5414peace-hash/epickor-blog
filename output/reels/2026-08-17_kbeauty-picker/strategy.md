@@ -1,7 +1,7 @@
 # K-Beauty Picker — first reel on the COUNTER kit
 
-**Slug**: `kbeauty-picker` · **Kit**: `remotion/CounterKit.tsx` · **Render**: `v004` (final)
-**Length**: 25.3s · 1080x1920 · 30fps · 2.34 Mbps · **no narration track**
+**Slug**: `kbeauty-picker` · **Kit**: `remotion/CounterKit.tsx` · **Length**: 25.2s · 1080x1920 · 30fps · video 2.02 Mbps · audio AAC 192k
+**Render**: `v009` final · **no narration**, synthesised bed locked to the event grid
 
 ---
 
@@ -131,6 +131,45 @@ window is placed on the wordmark and loses the falling droplet, which is the mor
 `Decide` is built as the frame a viewer screenshots: problem → brand → price for all four, plus the
 red domain chip. The grid must end above y1100 — its right column spans x553-1020, so anything
 crossing y1100 sits under Instagram's action rail.
+
+## Audio — a synthesised bed, and why not a licensed track
+
+The three tracks already in `output/bgm/youtube-audio-library/` are unusable here. Their own
+`LICENSES.md` records them as pulled from the signed-in channel's Audio Library **for YouTube
+use** and warns to re-check before reusing the masters on a non-YouTube platform — and this
+reel's first destination is Instagram.
+
+The stronger reason is shape. COUNTER's premise is that something discrete happens every ~0.67s,
+and the beat that justifies the video format is a price counting up. A song laid over that runs
+on its own clock. So `build-bgm.py` synthesises the bed from the kit's own frame numbers: an
+A2-sus2 sine pad with a 0.07 Hz breathing LFO, plus **46 events** — 7 cut thuds, 33 copy ticks,
+4 price-counter runs of 8 accelerating micro-ticks each, and 2 domain-chip hits. Round Lab's
+block skips the list-price tick because Round Lab has no list price, so the audio carries the
+same asymmetry the picture does.
+
+**Verified landing on the cuts**: frames 66/192/318/444/570/678 measure −3.7 to −5.1 dB against
+−7.3 to −10.7 dB mid-block. The bed is also original, so it clears on YouTube Shorts too.
+
+### Mastering — three wrong versions before the right one
+
+Target is Instagram's −14 LUFS with true peak safely under 0. Four attempts, each failing for a
+different reason worth writing down:
+
+| | chain | result |
+|---|---|---|
+| v005 | `loudnorm` linear only | −14.2 LUFS but **+1.7 dBTP** — AAC adds ~1.8 dB of intersample overshoot over the WAV's −1.5 dBTP, so `loudnorm`'s TP target cannot be trusted as the final ceiling |
+| v006 | compressor with `makeup=2` + limiter | −11.4 LUFS, −0.1 dBTP — makeup gain pushed it past the target, and still too hot |
+| v007 | compressor, no makeup, lower TP | −10.3 LUFS, **+0.3 dBTP** — got *louder* after lowering the ceiling, which is the tell |
+| v008 | same + `alimiter level=false` | −14.3 LUFS, −3.1 dBTP ✓ but LRA squashed to 2.9 and the cut accents narrowed to 0.5–5.7 dB over the bed |
+| **v009** | `loudnorm` two-pass linear + `alimiter limit=0.63 level=false`, **no compressor** | **−14.3 LUFS, −3.7 dBTP, LRA 3.5**, accents 3.4–7.0 dB clear |
+
+**The bug in v006/v007 was `alimiter`'s `level` option, which defaults to `true` and auto-levels
+the output back up to full scale — silently cancelling the ceiling.** That is why lowering the
+limit made the file louder. `level=false` is mandatory when using `alimiter` as a safety ceiling.
+
+And the compressor turned out to be unnecessary: with the ceiling actually holding, the limiter
+alone catches only the thud peaks, which preserves the pad's dynamics *and* keeps the cut accents
+distinct. Removing it improved every measure simultaneously.
 
 ## Open question for the representative
 
