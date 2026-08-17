@@ -675,6 +675,47 @@
 
 ## reels
 
+- **2026-08-17 — reel 376's "moving card news" mosaic does not appear in the render.** Six frames
+  pulled from `EPICKOR_376.mp4` at 0.3/0.8/1.4/2.2/3.5/5.0s: the plate is one continuous still
+  under a slow zoom, the white title card is pixel-identical in all six, and the ONLY thing that
+  changes across five seconds is the subtitle. The 24-tile assembly `SplitGridKit`'s header
+  describes never became visible. Six cuts in forty seconds against card news's seven designed
+  frames in ~15s of attention — **the reel is slower than the card news it was modelled on.**
+  *Verified:* ffmpeg frame extraction, `.tmp/motion-376.jpg`.
+- **2026-08-17 — `MOTION.requireAmbientMotion` is satisfiable by a Ken Burns zoom.** The rule
+  ("something must always be moving, or the reel reads as a slideshow") was already in
+  `tokens/core.ts` before 376 was built, and 376 passed it while reading as a still. The rule has
+  to demand *discrete change*, not *movement*. Restated in `remotion/CounterKit.tsx`, which bans
+  zoom outright.
+- **2026-08-17 — white-on-white cannot be cut out by a chroma test, and the 2026-08-05 cart
+  technique does not transfer.** Border flood fill with `maxCh-minCh < 14 && mean > 202`
+  **destroyed three of four skincare bottles**, leaving only dark caps and printed labels. A cream
+  cart body carries chroma 44; a frosted COSRX bottle and a clear Round Lab bottle carry chroma ~2
+  at luma ~235, so they match the background test exactly and their soft edges never break
+  connectivity. Products on a bright achromatic sweep are NOT one case. *Verified:* rendered
+  composite check, `output/reels/2026-08-17_kbeauty-picker/prep-cutouts.mjs` header.
+- **2026-08-17 — the 8 Mbps bitrate floor does not apply to flat designed frames.** The COUNTER
+  kit renders 1080x1920/30fps at **1.98 Mbps at CRF 17 and 2.43 Mbps at CRF 14** — a 23% rise for
+  a three-stop quality change, i.e. the encoder is quality-targeted and the content simply holds no
+  more information. Type edges inspected at full resolution show no artefacts. The floor was
+  calibrated on photographic footage (296/297 measured 3.0-3.6 Mbps with visible mush) and should
+  be scoped to footage-based kits.
+- **2026-08-17 — `loadFonts()` at module scope breaks the render.** The `delayRender` handle is
+  then created when the bundle evaluates rather than when a render tab is ready; the render died at
+  frame 184 on `"bundled webfonts" was called but not cleared after 28000ms`. `SplitGridKit` calls
+  it inside the component (line 713) — match that.
+- **2026-08-17 — a clearing out-fade in a hard-cut kit manufactures dead frames.** Ported from
+  `Batch0811Kit`, where cuts genuinely overlap by `MOTION.overlap = 16` for a photographic
+  crossfade, it defends against nothing when Sequences are strictly adjacent. v001 measured f65,
+  f191, f677 and f678 as blank or copy-less — **one full second across a 25s reel.** Also:
+  `at(f, 0, n)` still evaluates to 0 on frame 0, so moving a fade's start to zero does not make an
+  element present on the first frame; removing the fade does.
+- **2026-08-17 — the current TTS voice is the fastest of the four tested, by 27-36 wpm.** Same
+  38-word line, `eleven_multilingual_v2`: current `Lq4CTV7whEQtfYtzrWKb` **236 wpm** / Liam
+  `TX3LPaxmHKxFdv7VOQHJ` 209 / Chris `iP95p4xoKVk53GoZ742B` 200 / Jessica
+  `cgSgspJ2msm6clMCkdW9` 200. Every reel to date used the control. Worth ruling out pace before
+  attributing "robotic" to the model. *Verified:* ffprobe durations,
+  `public/assets/reels/kbeauty-picker/audio/`.
 - **2026-08-11 — Pexels holds exactly 6 usable Sungnyemun clips, and there is no 7th.** Gate run
   `sungnyemun-v2`, 382 candidates, 5 queries. The only promising unused hit, `37984339`
   "bustling seoul intersection with ancient gate" (4K/30fps/19s), was opened frame by frame and

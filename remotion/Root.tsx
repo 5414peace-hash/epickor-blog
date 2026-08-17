@@ -31,6 +31,7 @@ import { CheonggyecheonReel, SungnyemunReel, SuneungReel } from './Batch0811Reel
 import { Reel376, REEL_376_FRAMES } from './Reel376';
 import { Reel377, REEL_377_FRAMES } from './Reel377';
 import { Reel379, REEL_379_FRAMES } from './Reel379';
+import { ReelKBeautyPicker, KBEAUTY_DURATION } from './ReelKBeautyPicker';
 import type { ReelProps } from './types';
 
 const defaultReelProps: ReelProps = {
@@ -351,6 +352,14 @@ function Root() {
         height={1920}
         fps={30}
         durationInFrames={REEL_379_FRAMES}
+      />
+      <Composition
+        id="KBeautyPicker"
+        component={ReelKBeautyPicker}
+        width={1080}
+        height={1920}
+        fps={30}
+        durationInFrames={KBEAUTY_DURATION}
       />
       <Composition
         id="Cheonggyecheon"
