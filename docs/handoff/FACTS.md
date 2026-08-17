@@ -569,6 +569,34 @@
 
 ## images
 
+- **2026-08-17 — the COUNTER reel kit's binding constraint is imagery, not data, and the repo's
+  product images do not meet it.** Blog body images were sourced against a ≤400KB / ≤1600px gate
+  where 500-800px is perfectly fine; a 1080x1920 reel panel needs ~430x806 from a 0.535 portrait
+  crop, so anything under ~800px on the short edge fails. Measured while trying to build a food-lane
+  reel: `pororo-drink-classic-paldo.jpg` is **155x141**, `jin-ramen-spicy-ottogi.jpg` 534x315,
+  `ilwol-deomaru-electric-carpet-mat.jpg` 500x500, `navien-water-mat-boiler-unit.jpg` 750x600.
+  Usable: `milkis-can.jpg` 1400x1400, `pocachip-original-onion-bags.jpg` 1200x901,
+  `neoguri-spicy-nongshim.jpg` 1165x1468, `lg-kimchi-fridge-drawer-type.jpg` 1200x1600,
+  `lg-styler-open-ifa-2015.jpg` 1000x1500.
+- **2026-08-17 — a contact sheet will make a 155px asset look acceptable. Measure instead.** The
+  Pororo thumbnail rendered sharp-looking in a 420px sheet cell (2.7x upscale, viewed downscaled)
+  and was only caught by reading metadata. Also: **`ffprobe -select_streams v` can report a JPEG's
+  embedded EXIF thumbnail rather than the image** — it returned 155x141 correctly here but the
+  mechanism exists, so confirm dimensions with sharp (`.tmp/dims.mjs`) before trusting a number.
+- **2026-08-17 — verified convenience-store price pairs are format-specific, and the format must
+  match the image.** `361` prices the **진라면 CUP** (₩1,100 listed → ₩825 on 3+1/2+1, checked
+  3 Aug 2026 across emart24/CU/7-Eleven) and `359` prices the **너구리 큰사발 CUP** (₩1,900 at CU →
+  ₩1,267 on 2+1, same date) — but every ramyeon image in the repo is a **packet**. Pairing them
+  would be the 2026-08-03 짜파게티 defect exactly. Cup pack shots are the missing asset.
+- **2026-08-17 — Korean-domestic new products cannot be sourced from the US corporate sites.**
+  Confirming the earlier finding from the other direction: `nongshimusa.com` serves only its export
+  lineup (probing `/pages/products` and the homepage returns just `shin_ramyun.png`,
+  `chapagetti.png`, `neoguri_spicy.jpg` plus one hashed file), so 신라면 골드 and 삼양1963 are absent,
+  and Nongshim Korea is already recorded as 235-350px only. **Shopify `/products.json` does NOT
+  exist** on nongshimusa.com, samyangamerica.com or orionworldusa.com — that route is beauty/
+  appliance only so far. `orionworld.com` robots disallows `/upload/`. Ottogi's real domain is
+  **`otoki.com`**, not ottogi.co.kr, and its product paths are not guessable (`/brand/product`,
+  `/product`, `/goods/list` all 404). A Playwright pass is required for any of these.
 - **오뚜기 영문 사명은 2024-08에 OTTOGI → OTOKI로 바뀌었고, 도메인도 `ottogi.co.kr` → `otoki.com`으로 301 리다이렉트된다.** (2026-08-06 실측)
   - 한국어 사명 `오뚜기`는 그대로다. 상표 출원 2024-08-08, 발표 2024-08-09. 사유는 영문 표기 발음 혼란 해소.
   - **재조사 방지 포인트**: 옛 경로(`ottogi.co.kr/eng/company/history.asp`)를 그대로 WebFetch하면 리다이렉트 안내만 오고, 새 호스트에서 `/eng/...` 경로는 **404**다. 영문 경로는 `/en/...`이다.
