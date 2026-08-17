@@ -1780,6 +1780,35 @@
         "ramyeon",
         "nongshim"
       ]
+    },
+    {
+      "id": "torriden-dive-in-serum",
+      "name": "Torriden Dive-In Low-Molecular Hyaluronic Acid Serum 50ml",
+      "description": "Korea's most-awarded hydrating serum - 4 straight Olive Young awards, 13M+ bottles. Official storefront.",
+      "price": "",
+      "url": "https://www.amazon.com/Torriden-Hyaluronic-Hydration-Panthenol-Allantoin/dp/B07WZ2YTDP",
+      "category": "Beauty",
+      "image": "",
+      "tags": [
+        "torriden",
+        "dive in",
+        "hyaluronic",
+        "k-beauty"
+      ]
+    },
+    {
+      "id": "torriden-dive-in-duo",
+      "name": "Torriden Dive-In Serum + Soothing Cream Duo",
+      "description": "The default Korean pairing - serum to load water, cream to seal it.",
+      "price": "",
+      "url": "https://www.amazon.com/Torriden-Serum-fl-oz-Hyaluronic-Hydrating/dp/B09KN163ZH",
+      "category": "Beauty",
+      "image": "",
+      "tags": [
+        "torriden",
+        "set",
+        "dry skin"
+      ]
     }
   ]
 }

@@ -1,10 +1,10 @@
 {
   "summary": {
-    "generatedAt": "2026-08-17T04:22:55.841Z",
-    "auditedPosts": 389,
+    "generatedAt": "2026-08-17T04:42:55.084Z",
+    "auditedPosts": 390,
     "includedPrivate": false,
     "slugFilter": "",
-    "bodyImages": 1385,
+    "bodyImages": 1387,
     "affectedPosts": 98,
     "critical": 0,
     "high": 0,
@@ -11236,7 +11236,7 @@
     {
       "type": "blog",
       "slug": "304",
-      "title": "Jeonju Day Trip from Seoul 2026: Hanok Village and KTX",
+      "title": "Jeonju Day Trip from Seoul: Korea's UNESCO Food City by KTX",
       "contentPath": "content\\blog\\304.md",
       "sourceRecord": "public\\assets\\images\\posts\\304\\image-sources.md",
       "imageCount": 4,
@@ -14346,6 +14346,31 @@
           "url": "/assets/images/posts/397/dalgona-candy-heart.jpg",
           "alt": "A heart-stamped dalgona candy on a dark tray.",
           "caption": "Dalgona with the stamp pressed in. The game — lick or carve the shape out unbroken — existed decades before a certain drama raised the stakes. Photo by PhareannaH[berhabuk], CC BY 2.0, via Wikimedia Commons.",
+          "ext": ".jpg",
+          "exists": true
+        }
+      ],
+      "findings": []
+    },
+    {
+      "type": "blog",
+      "slug": "398",
+      "title": "Torriden Dive-In Serum: Korea's Most-Awarded Hydrator, Explained Honestly",
+      "contentPath": "content\\blog\\398.md",
+      "sourceRecord": "public\\assets\\images\\posts\\398\\image-sources.md",
+      "imageCount": 2,
+      "images": [
+        {
+          "url": "/assets/images/posts/398/torriden-dive-in-serum-dropper.jpg",
+          "alt": "A Torriden Dive-In serum bottle with the dropper held above it, a drop falling toward the open bottle against a blue background.",
+          "caption": "The bottle: label reads Torriden DIVE IN Serum, and the format is the story — a dropper, a watery fluid, and nothing else in the way. Manufacturer product image, Torriden.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/398/torriden-dive-in-texture-drop.jpg",
+          "alt": "A dropper releasing a drop of clear serum onto a small pool of the fluid, against a blue background.",
+          "caption": "The texture in one frame: closer to water than to gel. It absorbs in seconds, which is why Korean users run it as the under-everything layer rather than a treatment step. Manufacturer product image, Torriden.",
           "ext": ".jpg",
           "exists": true
         }
