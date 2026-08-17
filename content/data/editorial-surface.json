@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-09",
+  "updatedAt": "2026-08-17",
   "selectionMode": "editorial-pinned",
   "randomization": "disabled",
   "reviewPolicy": {
@@ -9,8 +9,19 @@
     "homeReviewDay": "Monday",
     "categoryReviewDay": "first Monday of the month",
     "replacementRule": "Replace a pinned hero when it loses topical value, has weak search/business priority, is visually weak, or a newer post has stronger seasonal or monetization value.",
-    "automaticSections": ["latest"],
-    "manualSections": ["home.hero", "home.secondary", "home.popular", "home.plan", "home.reels", "category.hero", "category.startHere", "category.recommended"]
+    "automaticSections": [
+      "latest"
+    ],
+    "manualSections": [
+      "home.hero",
+      "home.secondary",
+      "home.popular",
+      "home.plan",
+      "home.reels",
+      "category.hero",
+      "category.startHere",
+      "category.recommended"
+    ]
   },
   "scoringModel": [
     {
@@ -48,61 +59,61 @@
     "home": {
       "selectionMode": "editorial-pinned",
       "reviewCadence": "weekly",
-      "nextReviewDate": "2026-07-13",
+      "nextReviewDate": "2026-08-24",
       "hero": {
-        "slug": "257",
-        "pinnedSince": "2026-07-09",
-        "reviewAfter": "2026-07-13",
-        "reason": "Strong airport evergreen guide with high traveler intent, useful first-screen image, and natural links to transit, packing, and trip setup content."
+        "slug": "397",
+        "pinnedSince": "2026-08-17",
+        "reviewAfter": "2026-08-24",
+        "reason": "Sits on the measured intersection of the two click engines (K-content 43c, food 103c), strongest first-screen image of the new cohort (Daegu fireworks), and funnels into DB-backed affiliate links."
       },
       "secondary": [
         {
           "slug": "160",
-          "reason": "High affiliate and K-beauty search value; keeps the homepage from becoming travel-only."
+          "reason": "August: peak sunscreen season, and the strongest affiliate page of the beauty lane."
         },
         {
-          "slug": "270",
-          "reason": "Food/cafe visual appeal and recent Seoul bakery search/social fit."
+          "slug": "395",
+          "reason": "Beauty-lane flagship: the Amazon #1 K-beauty product story, fresh and monetized."
         }
       ],
       "popular": [
         {
-          "slug": "090",
-          "reason": "Evergreen culture explainer with strong reader curiosity."
-        },
-        {
-          "slug": "082",
-          "reason": "Stable education/culture explainer that broadens the homepage mix."
+          "slug": "167",
+          "reason": "Measured: 93 clicks/quarter, the K-content engine hub."
         },
         {
           "slug": "071",
-          "reason": "Food curiosity topic with proven social-friendly hook."
+          "reason": "Measured: 149 clicks/quarter; recipe-query CTA armed 2026-08-16."
         },
         {
-          "slug": "201",
-          "reason": "Practical first-trip setup guide."
+          "slug": "171",
+          "reason": "Measured: 64 clicks on the 14.75%-CTR query family; Maxim CTA armed."
         },
         {
-          "slug": "205",
-          "reason": "Tourist connectivity planning guide with strong utility."
+          "slug": "218",
+          "reason": "Measured: 41 clicks; Daiso guide with real-product topline armed."
+        },
+        {
+          "slug": "213",
+          "reason": "Refreshed 2026-08-16 with the Seoul bin-policy reversal; 728 impressions at p8."
         }
       ],
       "plan": [
         {
+          "slug": "200",
+          "reason": "Chuseok is 24-26 Sep; query rising (1,132 imp). Booking-date update lands 2026-08-20."
+        },
+        {
+          "slug": "223",
+          "reason": "Arrival documents decision; SIM CTA armed 2026-08-16."
+        },
+        {
           "slug": "205",
-          "reason": "Core first-hour travel planning decision."
+          "reason": "Connectivity decision; subject-matched SIM products armed 2026-08-16."
         },
         {
-          "slug": "201",
-          "reason": "Payment setup is a high-friction trip question."
-        },
-        {
-          "slug": "160",
-          "reason": "SPF guide supports travel packing and affiliate value."
-        },
-        {
-          "slug": "204",
-          "reason": "Seasonal packing and summer risk planning."
+          "slug": "386",
+          "reason": "Airport/驛 alcohol rules — practical pre-trip question with soju-glass affiliate path."
         }
       ],
       "reels": [
