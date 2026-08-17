@@ -1853,6 +1853,34 @@
         "filter",
         "replacement"
       ]
+    },
+    {
+      "id": "roundlab-dokdo-toner-500",
+      "name": "Round Lab 1025 Dokdo Toner 500ml",
+      "description": "The value size - this is a toner Koreans pour onto pads daily.",
+      "price": "",
+      "url": "https://www.amazon.com/ROUND-LAB-Exfoliating-Hydrating-Watery/dp/B08FM1DL19",
+      "category": "Beauty",
+      "image": "",
+      "tags": [
+        "round lab",
+        "dokdo toner",
+        "value"
+      ]
+    },
+    {
+      "id": "roundlab-dokdo-duo",
+      "name": "Round Lab Dokdo Toner + Lotion Duo",
+      "description": "The pairing the line was designed around.",
+      "price": "",
+      "url": "https://www.amazon.com/ROUND-LAB-Hydration-Exfoliation-Sensitive/dp/B0DWN8CJ4C",
+      "category": "Beauty",
+      "image": "",
+      "tags": [
+        "round lab",
+        "set",
+        "sensitive skin"
+      ]
     }
   ]
 }

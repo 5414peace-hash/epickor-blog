@@ -1,10 +1,10 @@
 {
   "summary": {
-    "generatedAt": "2026-08-17T05:55:43.136Z",
-    "auditedPosts": 392,
+    "generatedAt": "2026-08-17T06:10:34.161Z",
+    "auditedPosts": 393,
     "includedPrivate": false,
     "slugFilter": "",
-    "bodyImages": 1393,
+    "bodyImages": 1395,
     "affectedPosts": 98,
     "critical": 0,
     "high": 0,
@@ -14435,6 +14435,31 @@
           "url": "/assets/images/posts/400/aquamega-filter-trio.jpg",
           "alt": "Three Aquamega filter cartridges labeled A-1, A-2 and A-3 standing in a row.",
           "caption": "The Aquamega 100's three-stage set: sediment, pre-carbon, post-carbon. Price the year of filters before the machine — the same rule we apply to every filter appliance on this site. Manufacturer product image, Coway.",
+          "ext": ".jpg",
+          "exists": true
+        }
+      ],
+      "findings": []
+    },
+    {
+      "type": "blog",
+      "slug": "401",
+      "title": "Round Lab Dokdo Toner: Korea's Six-Time No.1 Toner Is Named After a Date",
+      "contentPath": "content\\blog\\401.md",
+      "sourceRecord": "public\\assets\\images\\posts\\401\\image-sources.md",
+      "imageCount": 2,
+      "images": [
+        {
+          "url": "/assets/images/posts/401/roundlab-dokdo-toner-bottle.jpg",
+          "alt": "The Round Lab 1025 Dokdo Toner bottle — white label with a small ink drawing of the Dokdo islets and the words 독도토너 1025.",
+          "caption": "The bottle: the number is a date, the drawing is the islets, the water is from the sea beside them. Official product image via the brand's Olive Young listing.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/401/dokdo-toner-sizes-awards.jpg",
+          "alt": "The Dokdo Toner 500ml and 200ml bottles beside Olive Young Awards badges reading six consecutive years and first place.",
+          "caption": "The 500ml and 200ml, with the awards record printed beside them — six straight years at #1 in the toner category through 2025. Official product card via the brand's Olive Young listing.",
           "ext": ".jpg",
           "exists": true
         }
