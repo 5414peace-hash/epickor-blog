@@ -50,27 +50,50 @@
  *   - One block's copy never coexists with the next block's. Here that is achieved by
  *     strictly adjacent Sequences rather than by a clearing fade — see Block().
  */
+import { createContext, useContext } from 'react';
 import { AbsoluteFill, Img, Sequence, staticFile, useCurrentFrame } from 'remotion';
 import { FONTS, SAFE, TYPE } from './tokens/core';
 import { loadFonts } from './fonts';
 
 /* ------------------------------------------------------------------ *
- * Palette — sampled, not chosen. See the header note.
+ * Palette — sampled from the reel's own subject, never reused across topics.
+ *
+ * This is a THEME concern, so it is a prop rather than a module constant. The values
+ * below were sampled off a Korean skincare hero plate and are correct for that world
+ * only; a cream-and-gold ramyeon pack needs its own set. Sample the actual product
+ * photography, do not pick by taste, and record where the numbers came from.
  * ------------------------------------------------------------------ */
-const C = {
-  /** Bottom of the Torriden gradient, desaturated a touch so type can sit on it. */
+export type Palette = {
+  /** The ground. Never a flat fill — Ground() blooms and drifts over it. */
+  canvas: string;
+  /** Same hue, further from the ground. The drifting depth band. */
+  deep: string;
+  /** Saturated pull from the subject. Rules, labels, the Hangul line. */
+  accent: string;
+  /** Deep, tinted, never pure black — pure black on a tinted ground reads as a hole. */
+  ink: string;
+  mute: string;
+  /** The price-tag colour, and the brand chip. */
+  price: string;
+  paper: string;
+};
+
+/**
+ * K-beauty: sampled from the Torriden hero plate, #47b3e4 to #dcf9ff at luma 160-243.
+ * See output/reels/2026-08-17_kbeauty-picker/strategy.md.
+ */
+export const PALETTE_KBEAUTY: Palette = {
   canvas: '#DCEEF7',
-  /** Its midpoint. Used for the drifting depth band, never as a flat fill. */
   deep: '#9FD3EC',
-  /** Top of the gradient, at full saturation. Rules, labels, the Hangul line. */
   accent: '#1B7FA8',
-  /** Deep blue-ink. Never pure black on a blue ground — it reads as a hole. */
   ink: '#0B2430',
   mute: '#5E8598',
-  /** Olive Young shelf tags are this red. It is also the brand chip colour. */
   price: '#E8442B',
   paper: '#FFFFFF',
-} as const;
+};
+
+const PaletteCtx = createContext<Palette>(PALETTE_KBEAUTY);
+const usePalette = () => useContext(PaletteCtx);
 
 const F = {
   hook: FONTS.grotesk,
@@ -122,6 +145,7 @@ function at(frame: number, start: number, dur = 8) {
 
 /** Ambient motion: a wide band of deeper water sliding down the frame. Not a zoom. */
 function Ground() {
+  const C = usePalette();
   const f = useCurrentFrame();
   const y = ((f * 0.9) % 2600) - 700;
   return (
@@ -163,6 +187,7 @@ function Grain() {
 }
 
 function Watermark() {
+  const C = usePalette();
   return (
     <div
       style={{
@@ -196,6 +221,7 @@ function Won({
   weight?: number;
   strike?: boolean;
 }) {
+  const C = usePalette();
   const f = useCurrentFrame();
   const t = at(f, from, 11);
   const n = Math.round(value * t);
@@ -242,6 +268,7 @@ function Won({
  *   f98  verdict
  * ------------------------------------------------------------------ */
 function Block({ p, index, total }: { p: Product; index: number; total: number }) {
+  const C = usePalette();
   const f = useCurrentFrame();
 
   // NO OUT-FADE. Blocks are strictly adjacent Sequences (66-191, 192-317, ...), so
@@ -431,6 +458,7 @@ function Block({ p, index, total }: { p: Product; index: number; total: number }
 
 /** Opening frame. Renders complete at f0 because it is the grid thumbnail. */
 function Hook({ products }: { products: Product[] }) {
+  const C = usePalette();
   const f = useCurrentFrame();
   // No out-fade: see the note in Block. f65 rendered as an empty blue frame.
   return (
@@ -499,6 +527,7 @@ function Hook({ products }: { products: Product[] }) {
 
 /** The decision grid. This is the frame a viewer screenshots, so it must be complete. */
 function Decide({ products }: { products: Product[] }) {
+  const C = usePalette();
   const f = useCurrentFrame();
   // No out-fade: see the note in Block. f677 rendered as an empty blue frame.
   return (
@@ -611,6 +640,7 @@ function Decide({ products }: { products: Product[] }) {
 }
 
 function Outro({ hook, sub }: { hook: string; sub: string }) {
+  const C = usePalette();
   const f = useCurrentFrame();
   return (
     <AbsoluteFill>
@@ -673,17 +703,21 @@ export function ReelCounter({
   products,
   outroHook,
   outroSub,
+  palette = PALETTE_KBEAUTY,
 }: {
   products: Product[];
   outroHook: string;
   outroSub: string;
+  /** Sampled from THIS reel's own product photography. See the Palette note above. */
+  palette?: Palette;
 }) {
   // Inside the component, matching SplitGridKit. Called at module scope instead, the
   // delayRender handle is created when the bundle evaluates rather than when a render
   // tab is ready, and frame 184 died on "bundled webfonts not cleared after 28000ms".
   loadFonts();
   return (
-    <AbsoluteFill style={{ background: C.canvas }}>
+    <PaletteCtx.Provider value={palette}>
+    <AbsoluteFill style={{ background: palette.canvas }}>
       <Ground />
       <Sequence durationInFrames={HOOK}>
         <Hook products={products} />
@@ -702,6 +736,7 @@ export function ReelCounter({
       <Grain />
       <Watermark />
     </AbsoluteFill>
+    </PaletteCtx.Provider>
   );
 }
 
