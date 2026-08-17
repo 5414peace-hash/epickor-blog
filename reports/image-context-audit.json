@@ -1,10 +1,10 @@
 {
   "summary": {
-    "generatedAt": "2026-08-17T04:42:55.084Z",
-    "auditedPosts": 390,
+    "generatedAt": "2026-08-17T05:41:10.851Z",
+    "auditedPosts": 391,
     "includedPrivate": false,
     "slugFilter": "",
-    "bodyImages": 1387,
+    "bodyImages": 1390,
     "affectedPosts": 98,
     "critical": 0,
     "high": 0,
@@ -14371,6 +14371,38 @@
           "url": "/assets/images/posts/398/torriden-dive-in-texture-drop.jpg",
           "alt": "A dropper releasing a drop of clear serum onto a small pool of the fluid, against a blue background.",
           "caption": "The texture in one frame: closer to water than to gel. It absorbs in seconds, which is why Korean users run it as the under-everything layer rather than a treatment step. Manufacturer product image, Torriden.",
+          "ext": ".jpg",
+          "exists": true
+        }
+      ],
+      "findings": []
+    },
+    {
+      "type": "blog",
+      "slug": "399",
+      "title": "Where to Read Korean Webtoons: Naver vs Kakao, and the App Confusion",
+      "contentPath": "content\\blog\\399.md",
+      "sourceRecord": "public\\assets\\images\\posts\\399\\image-sources.md",
+      "imageCount": 3,
+      "images": [
+        {
+          "url": "/assets/images/posts/399/webtoon-global-app-home.jpg",
+          "alt": "The WEBTOON global site's English home page, showing Popular Series rankings and a banner for Disney, Marvel and Star Wars stories on WEBTOON.",
+          "caption": "The global storefront, in English — down to a Disney, Marvel and Star Wars banner. This is the app most non-Koreans mean when they say \"webtoon,\" and it belongs to Naver. Screenshot of webtoons.com, August 2026, for identification.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/399/naver-webtoon-korea-home.jpg",
+          "alt": "Naver Webtoon's Korean home page, with weekday release tabs and rows of current series thumbnails.",
+          "caption": "The Korean original: 네이버웹툰's home, organized by weekday — Korean webtoons release on a weekly rhythm, and Koreans genuinely track series by day of the week. Screenshot of comic.naver.com, August 2026, for identification.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/399/kakao-page-home.jpg",
+          "alt": "Kakao Page's Korean home screen, with large banner art for current series and rows of webtoon and web novel thumbnails.",
+          "caption": "Kakao Page: webtoons and web novels in one storefront. The \"wait until free\" timer this app invented in 2014 now runs, in some form, on nearly every comics platform in Korea. Screenshot of page.kakao.com, August 2026, for identification.",
           "ext": ".jpg",
           "exists": true
         }
