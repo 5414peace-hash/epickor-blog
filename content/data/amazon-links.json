@@ -1809,6 +1809,50 @@
         "set",
         "dry skin"
       ]
+    },
+    {
+      "id": "coway-aquamega-100-white",
+      "name": "Coway Aquamega 100 Countertop Water Purifier (White)",
+      "description": "Three-stage direct-flow countertop purifier - no plumbing, no electricity. The renter-friendly Coway.",
+      "price": "",
+      "url": "https://www.amazon.com/Coway-Aquamega-100-Purifier-Silver/dp/B077GBMNTZ",
+      "category": "Home",
+      "image": "",
+      "tags": [
+        "coway",
+        "water purifier",
+        "aquamega",
+        "countertop"
+      ]
+    },
+    {
+      "id": "coway-aquamega-200c",
+      "name": "Coway Aquamega 200C Smart Water Purifier",
+      "description": "Cold-water countertop purifier with IoCare app and Amazon Dash self-ordering filters.",
+      "price": "",
+      "url": "https://www.amazon.com/Coway-Aquamega-200C-Purifier-Replenishment/dp/B07QZRWYKW",
+      "category": "Home",
+      "image": "",
+      "tags": [
+        "coway",
+        "water purifier",
+        "smart",
+        "dash"
+      ]
+    },
+    {
+      "id": "coway-aquamega-100-filters",
+      "name": "Coway Aquamega 100 Replacement Filter Set",
+      "description": "The recurring purchase - ~500 gallons per set at $69.90 list.",
+      "price": "",
+      "url": "https://www.amazon.com/Coway-Aquamega-Replacement-Filter-White/dp/B077GBJ3KP",
+      "category": "Home",
+      "image": "",
+      "tags": [
+        "coway",
+        "filter",
+        "replacement"
+      ]
     }
   ]
 }

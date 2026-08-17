@@ -1,10 +1,10 @@
 {
   "summary": {
-    "generatedAt": "2026-08-17T05:41:10.851Z",
-    "auditedPosts": 391,
+    "generatedAt": "2026-08-17T05:55:43.136Z",
+    "auditedPosts": 392,
     "includedPrivate": false,
     "slugFilter": "",
-    "bodyImages": 1390,
+    "bodyImages": 1393,
     "affectedPosts": 98,
     "critical": 0,
     "high": 0,
@@ -14403,6 +14403,38 @@
           "url": "/assets/images/posts/399/kakao-page-home.jpg",
           "alt": "Kakao Page's Korean home screen, with large banner art for current series and rows of webtoon and web novel thumbnails.",
           "caption": "Kakao Page: webtoons and web novels in one storefront. The \"wait until free\" timer this app invented in 2014 now runs, in some form, on nearly every comics platform in Korea. Screenshot of page.kakao.com, August 2026, for identification.",
+          "ext": ".jpg",
+          "exists": true
+        }
+      ],
+      "findings": []
+    },
+    {
+      "type": "blog",
+      "slug": "400",
+      "title": "Korean Water Purifiers: The 1998 Rental Bet That Built Coway's Empire",
+      "contentPath": "content\\blog\\400.md",
+      "sourceRecord": "public\\assets\\images\\posts\\400\\image-sources.md",
+      "imageCount": 3,
+      "images": [
+        {
+          "url": "/assets/images/posts/400/coway-neo-plus-home-kitchen.jpg",
+          "alt": "A white Coway water purifier with two dispensing taps on a kitchen counter in a lived-in home.",
+          "caption": "A Coway purifier in an ordinary home kitchen — not a showroom. The machine's real habitat is exactly this: a counter, a family, and a filter schedule someone else remembers. Photo by Danielrayyan09, CC BY 4.0, via Wikimedia Commons.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/400/aquamega-200c-filters-seated.jpg",
+          "alt": "The open top of a Coway Aquamega 200C with two labeled filter cartridges seated inside.",
+          "caption": "The Aquamega 200C with its lid open — the two cartridges are the entire value of the machine. Everything else is housing. Manufacturer product image, Coway.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/400/aquamega-filter-trio.jpg",
+          "alt": "Three Aquamega filter cartridges labeled A-1, A-2 and A-3 standing in a row.",
+          "caption": "The Aquamega 100's three-stage set: sediment, pre-carbon, post-carbon. Price the year of filters before the machine — the same rule we apply to every filter appliance on this site. Manufacturer product image, Coway.",
           "ext": ".jpg",
           "exists": true
         }
