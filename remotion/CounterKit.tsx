@@ -69,7 +69,15 @@ import { loadFonts } from './fonts';
  * prices" for two launch prices, because all of it was hard-coded from reel one.
  */
 export type Copy = {
-  /** Opening hook. Three lines; the third is set in the accent colour. */
+  /**
+   * Opening hook. Three lines; the third is set in the accent colour.
+   *
+   * EACH LINE MUST FIT UNBROKEN. It renders at TYPE.hook (118px) inside a 960px column, which
+   * measures to roughly **11 characters** of Archivo 900 uppercase — 'THE SHELF TAG' (13)
+   * overflowed and the browser split it, orphaning 'TAG'. Nothing throws when this happens
+   * and the render exits 0, so it is caught only by looking at frame 0. Keep hook lines short
+   * and check the contact sheet.
+   */
   hook: [string, string, string];
   /** One line under the product row — what the numbers are and when they were read. */
   hookSource: string;

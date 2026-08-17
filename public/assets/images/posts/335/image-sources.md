@@ -20,3 +20,15 @@ Rejected during selection: Pexels "Korean convenience store" results returned mo
 FamilyMart/Circle K/generic-Asian-grocery photos with no Korean signage - excluded. A Hong Kong
 supermarket photo showing Melona on an export shelf was excluded to avoid presenting a non-Korean
 retail context as a Korean store.
+
+## Added 2026-08-17 — representative-supplied pack shots
+
+Sourced by the representative from Korean retail/manufacturer product listings after a session
+pass over the manufacturer sites came up short: Nongshim Korea serves pack shots at only
+235–350 px, the high-resolution ones live on the US corporate site which does not carry
+Korean-domestic SKUs, and none of nongshimusa.com / samyangamerica.com / orionworldusa.com
+exposes a Shopify `products.json`. Editorial use for product identification.
+
+| File | Shows |
+|---|---|
+| `jaws-bar-official.jpg` | 죠스바 (Jaws Bar), Lotte, official wrapper. This post priced the bar at ₩1,500 → ₩800–1,000 on a 2+1 but had no photograph of it at all. |

@@ -33,6 +33,7 @@ import { Reel377, REEL_377_FRAMES } from './Reel377';
 import { Reel379, REEL_379_FRAMES } from './Reel379';
 import { ReelKBeautyPicker, KBEAUTY_DURATION } from './ReelKBeautyPicker';
 import { ReelRamyeonPremium, RAMYEON_DURATION } from './ReelRamyeonPremium';
+import { ReelCvsShelfTag, CVS_DURATION } from './ReelCvsShelfTag';
 import type { ReelProps } from './types';
 
 const defaultReelProps: ReelProps = {
@@ -369,6 +370,14 @@ function Root() {
         height={1920}
         fps={30}
         durationInFrames={RAMYEON_DURATION}
+      />
+      <Composition
+        id="CvsShelfTag"
+        component={ReelCvsShelfTag}
+        width={1080}
+        height={1920}
+        fps={30}
+        durationInFrames={CVS_DURATION}
       />
       <Composition
         id="Cheonggyecheon"

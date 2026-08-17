@@ -703,6 +703,26 @@
 
 ## reels
 
+- **2026-08-17 — a hook line that overflows is broken by the browser silently, and nothing throws.**
+  `THE SHELF TAG` at TYPE.hook (118px) in a 960px column wrapped and orphaned `TAG` on its own
+  line. The render exited 0 and the file played. Measured budget: **~11 characters** of Archivo 900
+  uppercase per hook line at 118px. Recorded on the `Copy` type in CounterKit; check frame 0 on the
+  contact sheet every time.
+- **2026-08-17 — pad a product panel with the image's OWN border median, not a fixed white.** The
+  Milkis can sits on a grey gradient sweep, so padding it white left a visible grey rectangle
+  inside the panel. Per-image padding also makes a loose trim harmless, because whatever sweep
+  stays attached blends into the pad. Measured pads across one batch: rgb(255,255,255),
+  rgb(250,250,250), **rgb(212,215,211)**, rgb(255,255,255).
+- **2026-08-17 — the panel fit rule depends on the batch's aspect spread, and is not a constant.**
+  Three ramyeon packets at 0.79-0.82 look consistent when scaled to fill 74% of panel height. A
+  batch mixing near-square cups (0.96, 0.99) with a tall can and a wide two-bag shot must be fitted
+  inside 92%-width x 88%-height, whichever binds, or the square ones overflow the width. A square
+  product can only fill ~half a 0.535 portrait's height; that is geometry, not a defect.
+- **2026-08-17 — three COUNTER reels shipped from three measured palettes, nothing carried over.**
+  K-beauty: clinical blue from a Torriden hero plate. Ramyeon: warm cream with Shin red #ea1c24.
+  Convenience store: fluorescent grey-white with the same-family red #ED1B2D measured across its own
+  four panels, taking the COOL half of the sample because the warm half was already used. The
+  brand rule ("new visual system every batch") is satisfiable from measurement rather than taste.
 - **2026-08-17 — reclaim audio headroom with a high-pass, not a harder limiter.** The ramyeon
   bed's first mux measured **−0.0 dBTP** on the same chain that gave the beauty reel −3.7,
   because its G2 pad (98 Hz) plus the 58 Hz cut thud generated sub-40 energy nothing can hear.

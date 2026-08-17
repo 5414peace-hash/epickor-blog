@@ -39,3 +39,15 @@ credits Nongshim in every caption. No sponsorship or endorsement is implied.
 
 `shin_ramyun.png` was downloaded during the same pass and deleted — Shin Ramyun is covered in
 Blog `346`, and reusing a pack shot across posts would breach the cross-post image uniqueness rule.
+
+## Added 2026-08-17 — representative-supplied pack shots
+
+Sourced by the representative from Korean retail/manufacturer product listings after a session
+pass over the manufacturer sites came up short: Nongshim Korea serves pack shots at only
+235–350 px, the high-resolution ones live on the US corporate site which does not carry
+Korean-domestic SKUs, and none of nongshimusa.com / samyangamerica.com / orionworldusa.com
+exposes a Shopify `products.json`. Editorial use for product identification.
+
+| File | Shows |
+|---|---|
+| `neoguri-large-cup-official.jpg` | 너구리 큰사발 (large cup) — the format the ₩1,900 / ₩1,267 price in this post applies to. The other images are the 봉지, so the cup price had no matching photograph until now. |

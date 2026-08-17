@@ -45,3 +45,15 @@ Ottogi's site structure changes.
 Commons files: resized to a 1400 px ceiling, JPEG mozjpeg, quality stepped down to clear the
 230 KB target (all landed at q78, 184–205 KB). Ottogi file: flattened onto white, trimmed, 1000 px
 ceiling, q88 → 42 KB.
+
+## Added 2026-08-17 — representative-supplied pack shots
+
+Sourced by the representative from Korean retail/manufacturer product listings after a session
+pass over the manufacturer sites came up short: Nongshim Korea serves pack shots at only
+235–350 px, the high-resolution ones live on the US corporate site which does not carry
+Korean-domestic SKUs, and none of nongshimusa.com / samyangamerica.com / orionworldusa.com
+exposes a Shopify `products.json`. Editorial use for product identification.
+
+| File | Shows |
+|---|---|
+| `jin-ramen-spicy-cup-official.jpg` | 진라면 매운맛 CUP — the format the ₩1,100 / ₩825 promotion price in this post applies to. Every other Jin Ramen image here is a packet, so a cup price had no matching photograph until now. |

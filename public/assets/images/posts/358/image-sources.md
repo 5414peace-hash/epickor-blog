@@ -46,3 +46,15 @@ under the 250 KB working target — largest is the 124 KB hero.
 Editorial product identification. The article names Paldo products and reviews them; the images
 show those exact products. No sponsorship or endorsement is implied or claimed, and Paldo is
 credited in every caption.
+
+## Added 2026-08-17 — representative-supplied pack shots
+
+Sourced by the representative from Korean retail/manufacturer product listings after a session
+pass over the manufacturer sites came up short: Nongshim Korea serves pack shots at only
+235–350 px, the high-resolution ones live on the US corporate site which does not carry
+Korean-domestic SKUs, and none of nongshimusa.com / samyangamerica.com / orionworldusa.com
+exposes a Shopify `products.json`. Editorial use for product identification.
+
+| File | Shows |
+|---|---|
+| `pororo-drink-235ml-official.jpg` | 뽀로로 음료 235 ml 밀크맛, Paldo, official. Replaces the unusable 155×141 copy (`pororo-drink-classic-paldo.jpg`), which was never referenced by the post. |
