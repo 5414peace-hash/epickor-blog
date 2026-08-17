@@ -200,30 +200,32 @@ function Won({
   const t = at(f, from, 11);
   const n = Math.round(value * t);
   const struck = strike ? snap((f - from - 16) / 6) : 0;
+  const bar = Math.max(4, Math.round(size * 0.055));
   return (
-    <span style={{ position: 'relative', display: 'inline-block' }}>
-      <span
-        style={{
-          font: `${weight} ${size}px/1 ${F.num}`,
-          fontVariantNumeric: 'tabular-nums',
-          letterSpacing: '-0.01em',
-          color,
-        }}
-      >
-        ₩{n.toLocaleString('en-US')}
-      </span>
-      {strike ? (
-        <span
-          style={{
-            position: 'absolute',
-            left: 0,
-            top: '52%',
-            height: Math.max(4, size * 0.055),
-            width: `${struck * 100}%`,
-            background: C.price,
-          }}
-        />
-      ) : null}
+    <span
+      style={{
+        font: `${weight} ${size}px/1 ${F.num}`,
+        fontVariantNumeric: 'tabular-nums',
+        letterSpacing: '-0.01em',
+        color,
+        /**
+         * The strike is a background on the text box itself, animated by
+         * `background-size`, not an absolutely positioned overlay.
+         *
+         * The overlay version was sized against an `inline-block` wrapper that declared
+         * no font of its own, so the wrapper's height came from the INHERITED
+         * line-height strut rather than from this 52px text. `top: 52%` of that taller
+         * box landed above the digits' optical centre and the bar overhung the final
+         * glyph. An inline background box is exactly the text's advance width and its
+         * em box, so the rule now starts and stops on the number.
+         */
+        backgroundImage: strike ? `linear-gradient(${C.price}, ${C.price})` : undefined,
+        backgroundSize: strike ? `${struck * 100}% ${bar}px` : undefined,
+        backgroundPosition: '0 57%',
+        backgroundRepeat: 'no-repeat',
+      }}
+    >
+      ₩{n.toLocaleString('en-US')}
     </span>
   );
 }
@@ -313,6 +315,7 @@ function Block({ p, index, total }: { p: Product; index: number; total: number }
               letterSpacing: '-0.024em',
               color: C.ink,
               textTransform: 'uppercase',
+              wordSpacing: '0.055em',
             }}
           >
             {p.concern[0]}
@@ -468,6 +471,7 @@ function Hook({ products }: { products: Product[] }) {
             letterSpacing: '-0.028em',
             color: C.ink,
             textTransform: 'uppercase',
+              wordSpacing: '0.06em',
           }}
         >
           FOUR KOREAN
@@ -507,6 +511,7 @@ function Decide({ products }: { products: Product[] }) {
             letterSpacing: '-0.024em',
             color: C.ink,
             textTransform: 'uppercase',
+              wordSpacing: '0.055em',
           }}
         >
           PICK BY THE
@@ -616,6 +621,7 @@ function Outro({ hook, sub }: { hook: string; sub: string }) {
             letterSpacing: '-0.028em',
             color: C.ink,
             textTransform: 'uppercase',
+              wordSpacing: '0.06em',
             // Present outright. `at(f, 0, 9)` still evaluates to 0 on f0, so moving
             // the fade's start to zero did not fix the blank f678 — removing the fade
             // does. The outro is a hard cut to a text card, which reads sharper anyway.
