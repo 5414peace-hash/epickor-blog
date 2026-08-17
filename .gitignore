@@ -93,6 +93,12 @@ debug.log
 # itself is ignored, so these scripts are the only record of how it was made, and
 # the only way to regenerate it from the committed post images.
 !/output/reels/*/*.mjs
+# Same reasoning for Python. Per-reel build scripts were all .mjs until 2026-08-17, when
+# build-bgm.py synthesised a reel's soundtrack from the kit's frame numbers — and the .wav
+# it writes is ignored media, so the script is the only record of how the audio was made
+# and the only way to reproduce it. It would have dropped out silently, exactly like the
+# cases documented above. The card-news renderers are already Python, so this is not exotic.
+!/output/reels/*/*.py
 # CLAUDE.md mandates the continuity manifest ("probe every selected video with ffprobe
 # and record ... in continuity-manifest.json"), but it was never whitelisted, so only
 # hub-drinks had one tracked — via a stray `git add -f`. The 2026-08-11 folder rename
