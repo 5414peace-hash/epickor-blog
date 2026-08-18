@@ -69,13 +69,21 @@ for i in range(NSAMP):
     # what destroys accent separation — measured 2.5 dB at hiss 0.17 against 8.4 dB at 0.07.
     # Harmonics of the fundamental land in the K-weighted band at a fraction of the headroom
     # cost, because they are periodic rather than dense.
-    v = (0.34 * math.sin(2 * math.pi * 49.0 * t * wow)
-         + 0.20 * math.sin(2 * math.pi * 73.4 * t * wow)
-         + 0.13 * math.sin(2 * math.pi * 98.0 * t * wow + 1.1)
-         + 0.11 * math.sin(2 * math.pi * 147.0 * t + 2.3)
-         + 0.075 * math.sin(2 * math.pi * 196.0 * t + 0.4)
-         + 0.05 * math.sin(2 * math.pi * 245.0 * t + 1.9))
-    master[i] = v * env * 0.30 * (0.88 + 0.12 * math.sin(2 * math.pi * 0.11 * t))
+    # BALANCE, not just content. The first version put 0.34 into a 49 Hz fundamental — a
+    # third of the headroom spent on a frequency no phone or laptop speaker reproduces, which
+    # then forced everything audible down through the peak normalisation. The low end is now
+    # only enough to give the machine a body on headphones; the weight sits at 392-784 Hz,
+    # where a small speaker actually works.
+    v = (0.15 * math.sin(2 * math.pi * 49.0 * t * wow)
+         + 0.11 * math.sin(2 * math.pi * 73.4 * t * wow)
+         + 0.10 * math.sin(2 * math.pi * 98.0 * t * wow + 1.1)
+         + 0.10 * math.sin(2 * math.pi * 147.0 * t + 2.3)
+         + 0.09 * math.sin(2 * math.pi * 196.0 * t + 0.4)
+         + 0.09 * math.sin(2 * math.pi * 245.0 * t + 1.9)
+         + 0.19 * math.sin(2 * math.pi * 392.0 * t * (1 + 0.004 * math.sin(2 * math.pi * 5.5 * t)))
+         + 0.11 * math.sin(2 * math.pi * 588.0 * t * (1 + 0.005 * math.sin(2 * math.pi * 4.1 * t)))
+         + 0.06 * math.sin(2 * math.pi * 784.0 * t + 0.8))
+    master[i] = v * env * 0.42 * (0.88 + 0.12 * math.sin(2 * math.pi * 0.11 * t))
 
 
 # Film hiss. Not decoration — a reader running film has a broadband floor, and without it
@@ -172,15 +180,33 @@ def glide(f_hi, f_lo, ms, amp, tau):
     return buf
 
 
-SHUTTER = thud(62.0, 0.145, 0.36, click=0.075)       # a page advancing
+def pawl(ms, amp, tau, freqs):
+    """A ratchet click with a body: noise transient plus damped resonances."""
+    n = int(SR * ms / 1000)
+    buf = array.array('d', bytes(8 * n))
+    rng = lcg()
+    prev = 0.0
+    for i in range(n):
+        t = i / SR
+        cur = next(rng)
+        prev = prev + 0.30 * (cur - prev)
+        v = (cur - prev) * math.exp(-t / 0.0016) * 0.55
+        for k, fr in enumerate(freqs):
+            v += math.sin(2 * math.pi * fr * t) * math.exp(-t / tau) / (1.6 + k)
+        buf[i] = amp * v * min(1.0, t / 0.0006)
+    return buf
+
+
+SHUTTER = thud(62.0, 0.145, 0.36, click=0.075)       # a page advancing (the body)
+SHUTTER_TOP = pawl(70, 0.26, 0.020, (520.0, 880.0, 1450.0))  # ...and the mechanism (audible)
 STAMP = thud(52.0, 0.180, 0.44, click=0.10, ms=520)  # the verdict landing
-RATCHET = tick(18, 0.30, 0.0045)                     # one year
+RATCHET = pawl(46, 0.34, 0.013, (1660.0, 2480.0, 3720.0))   # one year
 # One line of type. Deliberately fuller than a click: at 11 ms / 0.115 it was inaudible, and
 # the entry cards — five sixths of the reel's running time — had nothing in them. Loudness on
 # a bed this sparse has to come from MORE EVENTS, never from a louder floor; raising the hum
 # or the hiss buys the same decibel and costs a decibel of accent separation every time
 # (measured: 7.2 dB separation at hum 0.20 against 1.4 dB at hum 0.40, for 3.9 dB of level).
-TYPE = tick(23, 0.21, 0.0055, bright=0.78)
+TYPE = tick(23, 0.24, 0.0055, bright=0.78)
 SHIFT = thud(96.0, 0.075, 0.13, ms=200, bend=0.30)   # paper settling under a printed line
 CHIP = thud(70.0, 0.130, 0.28, click=0.04)
 CHIP_TOP = blip([1180.0, 1770.0], 0.055, 0.15)
@@ -243,6 +269,7 @@ for fr in range(20, TOTAL_FRAMES, 46):
 for kind, fr in sorted(events, key=lambda e: e[1]):
     if kind == 'shutter':
         mix(SHUTTER, fr)
+        mix(SHUTTER_TOP, fr + 1)
     elif kind == 'stamp':
         mix(STAMP, fr)
     elif kind == 'ratchet':

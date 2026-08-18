@@ -1,14 +1,14 @@
 # Upload package — 우지 파동 (DOSSIER prototype)
 
 **File**: `EPICKOR_UJI_DOSSIER.mp4` · 28.3s · 1080×1920 · 30fps · 5.3 MB · **no narration**
+**Audio-only copy**: `EPICKOR_UJI_DOSSIER-audio-only.m4a`, for testing the sound in isolation
 **Render**: `v004` · video 1.36 Mbps h264 CRF 14 · audio AAC 192k
 **Kit**: `remotion/DossierKit.tsx` (**D안 / DOSSIER**, first use)
 **Source post**: `219` — *Korean Ramen Went Premium: Why a Packet Now Costs ₩1,900*
 
-> **Play the file in `final/`.** The `*-video-only.mp4` files in the folder root are Remotion's
-> renders and carry a **silent** AAC track — that is true of every reel folder in this repo, and
-> it is what "소리가 안들림" turned out to be on 2026-08-18. The mastered audio exists only on
-> the muxed final.
+> **There is now exactly one video file in this tree**, and it is this one. The silent
+> `-video-only` working renders have been deleted rather than renamed, because renaming them
+> was not enough.
 
 ## Status
 
@@ -110,11 +110,27 @@ computed from the kit's own timing formula, so they cannot drift out of sync wit
 | True peak | **−2.36 dBTP**, measured *after* AAC, not before |
 | Silence ≥0.4s | none |
 | Cut/quiet separation | 3.4 dB |
-| Above 500 Hz — what a phone speaker actually reproduces | **−22.6 LUFS**, i.e. 4.5 dB *louder* than the CVS shelf-tag reel that plays fine |
+| Through a phone speaker (>400 Hz, <9 kHz) | **−24.3 dB** over the first three seconds, against **−33.8 dB** for the CVS shelf-tag reel |
 
-That last row is there because of the "소리가 안들림" report: it was not the bed. The bed is
-audible and, in the band a phone can reproduce, louder than a reel already accepted. The file
-played was one of the silent `-video-only` renders.
+### On "소리가 안들림" — reported twice
+
+The first report was the silent working renders: every Remotion output carries an empty AAC
+track, measured −91.0 dB across every reel folder in this repo. Renaming them was not enough,
+so they are deleted; the deliverable is the only video file left.
+
+The second report was **the bed itself, and the meters were the wrong instrument.** Integrated
+loudness said −14.9 LUFS and a phone-band simulation said it was *louder* than a reel already
+accepted — both true, and both useless, because the bed's weight sat at 49–245 Hz. A third of
+the headroom was spent on a 49 Hz fundamental that no phone or laptop speaker reproduces, and
+the peak normalisation then pushed everything audible down to make room for it.
+
+**A bed you cannot hear on the device it is watched on is silent, whatever the meter says.**
+The motor now sings at 392/588/784 Hz with vibrato, the ratchet has a resonant body at
+1.6/2.5/3.7 kHz instead of being a bare noise burst, and the shutter has a mechanical clack
+over its thud. The low end is kept only to give the machine a body on headphones. That is
++9.5 dB where a small speaker works, at the *same* integrated loudness.
+
+The lesson generalises past this reel: measure the playback band, not the full band.
 
 ## Not yet done
 
