@@ -36,6 +36,8 @@ import { ReelRamyeonPremium, RAMYEON_DURATION } from './ReelRamyeonPremium';
 import { ReelCvsShelfTag, CVS_DURATION } from './ReelCvsShelfTag';
 import { ReelCvsReceipt, CVS_RECEIPT_DURATION } from './ReelCvsReceipt';
 import { ReelUjiDossier, UJI_DURATION } from './ReelUjiDossier';
+import { ReelBananaKickDossier, BANANA_KICK_DURATION } from './ReelBananaKickDossier';
+import { ReelYakultDossier, YAKULT_DURATION } from './ReelYakultDossier';
 import type { ReelProps } from './types';
 
 const defaultReelProps: ReelProps = {
@@ -396,6 +398,22 @@ function Root() {
         height={1920}
         fps={30}
         durationInFrames={UJI_DURATION}
+      />
+      <Composition
+        id="BananaKickDossier"
+        component={ReelBananaKickDossier}
+        width={1080}
+        height={1920}
+        fps={30}
+        durationInFrames={BANANA_KICK_DURATION}
+      />
+      <Composition
+        id="YakultDossier"
+        component={ReelYakultDossier}
+        width={1080}
+        height={1920}
+        fps={30}
+        durationInFrames={YAKULT_DURATION}
       />
       <Composition
         id="Cheonggyecheon"
