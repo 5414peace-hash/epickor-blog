@@ -85,3 +85,7 @@ gave the best numbers of any attempt: safe peak *and* 5.1 dB of accent separatio
 `content/blog/219.md` gained the 우지 6.87% / 131 g detail read off the packaging. The post
 told the 우지 파동 story but never said the relaunched product prints its beef tallow
 percentage on the front of the bag, which is the line that closes the loop.
+
+## Scheduled
+
+**2026-09-01 05:00 KST**, Instagram and Facebook, via Meta Business Suite on 2026-08-18. Cover is frame 0 of the render, uploaded explicitly rather than left to Meta's auto-suggestion, because the first frame is the designed thumbnail.

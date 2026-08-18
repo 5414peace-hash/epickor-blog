@@ -182,3 +182,7 @@ The lesson generalises past this reel: measure the playback band, not the full b
 
 - **Phone review, sound on and off.** Representative's step.
 - **Second subject**, to prove the kit is a tool rather than a design.
+
+## Scheduled
+
+**2026-09-06 05:00 KST**, Instagram and Facebook, via Meta Business Suite on 2026-08-18. Cover is frame 0 of the render, uploaded explicitly rather than left to Meta's auto-suggestion, because the first frame is the designed thumbnail.

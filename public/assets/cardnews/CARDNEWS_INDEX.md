@@ -55,14 +55,14 @@ Instagram upload is representative-managed. As of 2026-07-02, the representative
 | `2026-07-08_277` | 277 | Korean Pantry Starter Kit 2026 | 7 | final approved + caption ready | scheduled 2026-08-07 05:00 KST (Meta Suite, planner-verified 07-29) |
 | `2026-07-08_278` | 278 | Korean Instant Coffee Mix Guide 2026 | 7 | final approved + caption ready | scheduled 2026-08-08 05:00 KST (Meta Suite, planner-verified 07-29) |
 | `2026-07-08_279` | 279 | Korean Seaweed Snack Guide 2026 | 7 | final approved + caption ready | scheduled 2026-08-09 05:00 KST (Meta Suite, planner-verified 07-29) |
-| `2026-07-11_081` | 081 | Why Korean Baseball Feels Like a Three-Hour Concert | 7 | final confirmed + Seoul After Dark 7-card restyle + caption ready | ready for representative scheduling |
-| `2026-07-11_288` | 288 | Korean Pojangmacha First-Visit Guide | 7 | final confirmed + Seoul After Dark 7-card restyle + caption ready | ready for representative scheduling |
-| `2026-07-11_290` | 290 | Seoul Four-Palace Night Comparison | 7 | final confirmed + Seoul After Dark 7-card restyle + caption ready | ready for representative scheduling |
-| `2026-07-12_036` | 036 | The Umbrella Protocol: Why Koreans Refuse to Get Wet | 7 | final confirmed + Seoul After Dark + caption ready | ready for representative scheduling |
-| `2026-07-12_170` | 170 | Korean PC Bang Culture | 7 | final confirmed + Seoul After Dark + caption ready | ready for representative scheduling |
-| `2026-07-12_287` | 287 | Korean BBQ Grill for Home | 7 | final confirmed + Seoul After Dark + caption ready | ready for representative scheduling |
-| `2026-07-15_musinsa` | musinsa | MUSINSA Business: Seoul Fashion Commerce | 7 | final approved + editorial system + caption ready | ready for representative scheduling |
-| `2026-07-15_124` | 124 | Korean Wedding Culture: The Modern K-Wedding Code | 7 | final approved + modern hanji system + caption ready | ready for representative scheduling |
+| `2026-07-11_081` | 081 | Why Korean Baseball Feels Like a Three-Hour Concert | 7 | final confirmed + Seoul After Dark 7-card restyle + caption ready | scheduled 2026-09-15 05:00 KST (Meta Suite, 2026-08-18) |
+| `2026-07-11_288` | 288 | Korean Pojangmacha First-Visit Guide | 7 | final confirmed + Seoul After Dark 7-card restyle + caption ready | scheduled 2026-09-13 05:00 KST (Meta Suite, 2026-08-18) |
+| `2026-07-11_290` | 290 | Seoul Four-Palace Night Comparison | 7 | final confirmed + Seoul After Dark 7-card restyle + caption ready | scheduled 2026-09-14 05:00 KST (Meta Suite, 2026-08-18) |
+| `2026-07-12_036` | 036 | The Umbrella Protocol: Why Koreans Refuse to Get Wet | 7 | final confirmed + Seoul After Dark + caption ready | scheduled 2026-09-11 05:00 KST (Meta Suite, 2026-08-18) |
+| `2026-07-12_170` | 170 | Korean PC Bang Culture | 7 | final confirmed + Seoul After Dark + caption ready | scheduled 2026-09-10 05:00 KST (Meta Suite, 2026-08-18) |
+| `2026-07-12_287` | 287 | Korean BBQ Grill for Home | 7 | final confirmed + Seoul After Dark + caption ready | scheduled 2026-09-09 05:00 KST (Meta Suite, 2026-08-18) |
+| `2026-07-15_musinsa` | musinsa | MUSINSA Business: Seoul Fashion Commerce | 7 | final approved + editorial system + caption ready | scheduled 2026-09-17 05:00 KST (Meta Suite, 2026-08-18) |
+| `2026-07-15_124` | 124 | Korean Wedding Culture: The Modern K-Wedding Code | 7 | final approved + modern hanji system + caption ready | scheduled 2026-09-16 05:00 KST (Meta Suite, 2026-08-18) |
 | `2026-07-15_174` | 174 | Seoul Subway Etiquette: The Quiet Signal System | 7 | final approved + transit signal system + caption ready | Instagram and YouTube Community scheduled for 2026-07-20 22:00 KST |
 | `2026-07-20_311` | 311 | Tteokbokki: Six Styles, One Rice Cake | 7 | final + bunsik-red system + caption ready | scheduled 2026-07-23 05:00 KST (Meta Suite, planner-verified 07-21) |
 | `2026-07-20_312` | 312 | K-Beauty Ingredients Decoded: Snail, Cica, Propolis, Rice | 7 | final + ingredient-decoder system + caption ready | scheduled 2026-07-24 05:00 KST (Meta Suite, planner-verified 07-21) |
@@ -79,6 +79,6 @@ Instagram upload is representative-managed. As of 2026-07-02, the representative
 | `2026-08-09_winwin` | winwin | Korean Makers 07: Win&Win Archery (target) | 7 | final · 검수완료 | scheduled 2026-08-22 05:00 KST (Meta Suite, planner+card-order verified 08-10) |
 | `2026-08-09_otoki` | otoki | Korean Makers 08: Otoki (timer) | 7 | final · 검수완료 | scheduled 2026-08-23 05:00 KST (Meta Suite, planner+card-order verified 08-10) |
 | `2026-08-09_pulmuone` | pulmuone | Korean Makers 09: Pulmuone (coldchain) | 7 | final · 검수완료 | scheduled 2026-08-24 05:00 KST (Meta Suite, planner+card-order verified 08-10) |
-| `2026-08-17_395` | 395 | COSRX Snail 96 — RX Label | 7 | 제작완료·검수완료 (VF 93.9) | KEEP — 다음 예약 배치 때 일괄. 빈 날짜 8/25~ | /blog/395 |
-| `2026-08-17_392` | 392 | Kimchi Refrigerator — Earth Gauge | 7 | 제작완료·검수완료 (VF 94.7) | KEEP — 다음 예약 배치 때 일괄. 빈 날짜 8/25~ | /blog/392 |
-| `2026-08-17_394` | 394 | Korean Massage Chairs — Showroom Menu | 7 | 제작완료·검수완료 (VF 93.3) | KEEP — 다음 예약 배치 때 일괄. 빈 날짜 8/25~ | /blog/394 |
+| `2026-08-17_395` | 395 | COSRX Snail 96 — RX Label | 7 | 제작완료·검수완료 (VF 93.9) | scheduled 2026-09-03 05:00 KST (Meta Suite, 2026-08-18)| /blog/395 |
+| `2026-08-17_392` | 392 | Kimchi Refrigerator — Earth Gauge | 7 | 제작완료·검수완료 (VF 94.7) | scheduled 2026-09-04 05:00 KST (Meta Suite, 2026-08-18)| /blog/392 |
+| `2026-08-17_394` | 394 | Korean Massage Chairs — Showroom Menu | 7 | 제작완료·검수완료 (VF 93.3) | scheduled 2026-09-05 05:00 KST (Meta Suite, 2026-08-18)| /blog/394 |

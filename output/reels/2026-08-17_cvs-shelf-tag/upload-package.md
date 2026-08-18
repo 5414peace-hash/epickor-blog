@@ -94,3 +94,7 @@ Measured on the final file: **−14.2 LUFS, −3.7 dBTP, LRA 3.7, no silence ≥
 - **Phone review, sound on and off.** Representative's step.
 - **YouTube Shorts cut.** Bed is original, so it clears there; the description can carry a
   clickable link.
+
+## Scheduled
+
+**2026-09-02 05:00 KST**, Instagram and Facebook, via Meta Business Suite on 2026-08-18. Cover is frame 0 of the render, uploaded explicitly rather than left to Meta's auto-suggestion, because the first frame is the designed thumbnail.

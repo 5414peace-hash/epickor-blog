@@ -82,3 +82,7 @@ in it. Glyph edges checked at full resolution; no artefacts.
   to the measured layout budget and re-rendered.
 - `reels:qa-audio` was **not** run: it looks for silence inside narration spans, and this reel has
   no narration. Its silences are the design.
+
+## Scheduled
+
+**2026-09-07 05:00 KST**, Instagram and Facebook, via Meta Business Suite on 2026-08-18. Cover is frame 0 of the render, uploaded explicitly rather than left to Meta's auto-suggestion, because the first frame is the designed thumbnail.

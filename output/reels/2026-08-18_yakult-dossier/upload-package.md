@@ -85,3 +85,7 @@ Dynamics were not traded for it: LRA 9.6 against 우지's 11.2.
   — text under the exhibit plates on 3, 5 and 7, and the detail line under the ghost year on 2.
   Copy cut to the measured budget and re-rendered.
 - `reels:qa-audio` **not** run: no narration, so its silence test does not apply.
+
+## Scheduled
+
+**2026-09-08 05:00 KST**, Instagram and Facebook, via Meta Business Suite on 2026-08-18. Cover is frame 0 of the render, uploaded explicitly rather than left to Meta's auto-suggestion, because the first frame is the designed thumbnail.

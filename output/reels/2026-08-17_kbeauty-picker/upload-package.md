@@ -59,3 +59,7 @@ platforms. This bed is original, so it clears on any platform including YouTube 
 Drives to the four beauty-lane posts, which already interlink through decision CTAs:
 `395` COSRX · `396` Anua · `398` Torriden · `401` Round Lab. Caption points at
 `epickor.com` only, per the in-frame URL rule.
+
+## Scheduled
+
+**2026-08-31 05:00 KST**, Instagram and Facebook, via Meta Business Suite on 2026-08-18. Cover is frame 0 of the render, uploaded explicitly rather than left to Meta's auto-suggestion, because the first frame is the designed thumbnail.
