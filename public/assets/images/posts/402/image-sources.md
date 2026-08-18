@@ -51,3 +51,20 @@ Commons files are checked against the pixels rather than trusted by title.
 Both checked before selection. `38581313` is unused site-wide. Three otherwise-good Pexels
 candidates were **rejected as already used**: `28529894` (post `362`), `31735910`, and
 `34714140` (post `343`). The Commons file does not appear in any other post's sources.
+
+## `gs25-ice-cup-sizes-chart.jpg` — made here, not sourced
+
+An EpicKor chart, rendered from HTML at 1400×760. Nothing in it is anyone else's artwork: the
+cups are CSS shapes, and every figure is a published one — the four GS25 sizes with their ice
+weights (180 g / 230 g / 400 g / 160 g), the June 2026 prices and what they replaced, and the
+70 mm sphere specification.
+
+It exists because the one image this article genuinely wanted did not exist in any form we could
+publish. The representative supplied three reference photographs of a GS25 freezer, including its
+own price sticker — one of them carries another blogger's watermark and none has a clear licence,
+so none was used as an asset. They were used the way the sourcing rules allow reference material
+to be used: to find the facts, which were then confirmed against Korean retail press that states
+the same weights and prices independently.
+
+The chart also does something a photograph of a freezer could not: it makes the lid-colour code
+legible at a glance, which is the most practically useful thing in the article.
