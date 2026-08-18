@@ -23,14 +23,31 @@
 
 ## Active Work
 
-- **D안 / DOSSIER 프로토타입 완료 (2026-08-18, 미예약).** `remotion/DossierKit.tsx` +
-  `remotion/ReelUjiDossier.tsx`, 컴포지션 `UjiDossier`. 최종
-  `output/reels/2026-08-18_uji-dossier/final/EPICKOR_UJI_DOSSIER.mp4` (23.0s · -14.8 LUFS ·
-  -2.8 dBTP). 소재는 `219`의 우지 파동. **COUNTER·RECEIPT가 못 하는 "날짜 있는 단일 서사"를
-  담는 키트**이고, RECEIPT처럼 **사진이 0장 필요하다**. 연도가 항목 사이 여백에서 카운트되므로
-  8년과 28년의 간격이 실제로 체감된다. 다크 그라운드 + `FONTS.serif` 첫 사용이라 그리드에서
-  두 축으로 분리된다. **오늘 저녁 일괄 예약 대상이 아니다** — 대표님 폰 리뷰(소리 on/off) 대기.
-  자세한 내용과 게이트 결과: `output/reels/2026-08-18_uji-dossier/final/upload-package.md`.
+- **D안 / DOSSIER 3편 완성 (2026-08-18, 전부 미예약).** 키트 `remotion/DossierKit.tsx`.
+  **COUNTER·RECEIPT가 못 하는 "날짜 있는 단일 서사"** 를 담고, 연도가 항목 사이 여백에서
+  카운트되므로 47년과 1년의 간격이 실제로 체감된다.
+
+  | 릴스 | 출처 | 길이 | LUFS / TP | 폰 대역 첫 3초 |
+  |---|---|---|---|---|
+  | `2026-08-18_uji-dossier` 우지 파동 | `219` | 29.1s | -14.0 / -2.4 | -1.7 dB |
+  | `2026-08-18_banana-kick-dossier` 바나나킥 | `367` | 26.1s | -13.7 / -1.9 | **-0.4 dB** |
+  | `2026-08-18_yakult-dossier` 야쿠르트·코코 | `362` | 26.6s | -14.5 / -1.8 | **-0.4 dB** |
+
+  **3편으로 만든 이유는 측정이다.** 구 포맷 완주율이 12~29%(중앙값 16%)로 17포인트 흩어져 있어
+  1편으로는 포맷 효과와 소재 효과를 분리할 수 없다. 아웃트로 훅은 E/B/C로 서로 다르다.
+  각 폴더에 `upload-package.md`(측정·QA·잘라낸 것과 이유), `contact-sheet.jpg`(10카드),
+  `verify-sync.py`, `prep-exhibits.mjs`. **대표님 폰 리뷰(소리 on/off) 대기.**
+
+  - **주제 후보 `364` 맛동산은 이미지 게이트에서 탈락**했다. 해태 `ht.co.kr`이 **HTTP 200에
+    3.4KB 오류 페이지**를 주는 SPA라 팩샷 경로가 없고, 실물 사진은 Commons 512px 한 장뿐이라
+    5카드 중 4카드가 사진 없이 남는다 — 우지 v001이 반려된 바로 그 결함이다. `281` 도시락은
+    1970년대 도시락 검사 사진을 못 구해(e영상역사관 500, Commons 무) **보류**, 사진이 잡히면 1순위.
+  - **DossierKit에는 넘침 보호가 없다.** 1차 렌더에서 7카드가 전시판(y920)·고스트 연도(y1160)
+    밑으로 깔렸다. 안전 예산은 FACTS.md 2026-08-18 항목에 수치로 있다.
+
+> **주의: 아래 오래된 항목들의 `output/reels/*/final/...` 경로는 더 이상 존재하지 않는다.**
+> 2026-08-18에 `final/` 하위폴더를 폐지하고 납품본을 날짜 폴더 바로 아래로 올렸다.
+> 파일을 찾을 때는 `final/`을 빼고 보면 된다.
 
 - Card-news batch `2026-07-15_musinsa`, `2026-07-15_124`, and `2026-07-15_174` is final. It contains 21 photo-first 1080x1080 PNGs, three distinct systems (`Seoul Fashion Commerce`, `Modern Hanji Invitation`, `Transit Signal System`), captions, source records, contact sheets, and Visual Fit reviews. Structural review passed 7/7 images for every carousel; manual original-resolution review found no clipping, overlap, broken image, or missing `EPICKOR.COM`. Visual Fit averages are 97.7, 95.1, and 98.1. Card News `174` is scheduled for 2026-07-20 22:00 KST on both Instagram and YouTube Community. Meta Planner showed the exact caption and `오후 10:00 Instagram`; YouTube's `예약됨` tab showed the exact caption, clickable `https://www.epickor.com/blog/174` link, seven image-detail links, and post ID `Ugkxks1jhEdJAUbyrgUMKqLmIZDMLWHOobv1`. The YouTube image composer supports up to 10 images/GIFs with aspect ratios from 2:5 through 5:2, so the seven 1:1 card-news PNGs are natively supported. MUSINSA and Blog `124` remain ready for scheduling. MUSINSA is the representative-approved Business-slot age exception; Blog 124 legacy broadcast stills were excluded; Subway Card 03 was upgraded to an actual Seoul Metro priority-seat CC image.
 
@@ -129,6 +146,17 @@
 - Verify local build/render, public pages, all local assets, sitemap, and reverse links once each unless a failure appears.
 
 ## Recent Change
+
+- 2026-08-18: **DOSSIER를 코호트로 만들었다 — 바나나킥(`367`)·야쿠르트(`362`) 2편 추가.** 상세는
+  Active Work. 재사용 규칙 셋만 남긴다.
+  - **사운드 스크립트를 다른 릴스에서 통째로 물려받지 말 것.** 우지의 고정 오프셋 표를 그대로
+    쓰니 **5카드 중 3카드가 어긋났다** — 없는 헤드 줄에 틱, 있는 둘째 문단에 침묵. 단독으로는
+    안 들려서 귀로 못 잡는다. 오프셋은 **엔트리 형태**에서 유도하고, `verify-sync.py`가 `.tsx`를
+    재파싱해 대조하게 했다. 카피를 줄이자 즉시 3건을 더 잡았다.
+  - **`volumedetect`·`silencedetect`는 `-v error`를 붙이면 조용히 빈 결과를 준다** (info 레벨 출력).
+    2026-08-05의 "stderr로 나온다"와 **다른 함정**이고 둘 다 밟게 된다.
+  - **이미지 게이트는 주제 선정 뒤가 아니라 주제 확정 *전에* 통과시킨다.** 후보 2개(`364`·`281`)를
+    이 단계에서 걸러 기획 폐기를 막았다 — Reel 311(소재 0건으로 전량 폐기)의 반복을 피한 것.
 
 - 2026-08-18: **D안 DOSSIER 키트 신설 — 날짜 있는 이야기에 릴스 형식이 생겼다.** 상세는 Active Work.
   재사용 규칙 넷만 남긴다.
