@@ -3,9 +3,25 @@
 | File | Source | Original | Licence | Credit |
 |---|---|---|---|---|
 | `korean-convenience-store-seoul.jpg` | [Pexels photo 38581313](https://www.pexels.com/photo/38581313/) | 5152×7728 | Pexels licence | Pexels |
-| `binggrae-banana-milk-bottles.jpg` | [File:Binggrae Banana Flavored Milk 03.jpg](https://commons.wikimedia.org/wiki/File:Binggrae_Banana_Flavored_Milk_03.jpg) | 4344×2372 | **CC BY-SA 2.0** | Binggrae / Korea.net set |
+| `ice-cup-pairing-by-size.jpg` | EpicKor chart, rendered from HTML | 1400×720 | own work | EpicKor |
 
-The CC BY-SA attribution is carried in the article caption, as the licence requires.
+## The Binggrae photograph was used and then removed
+
+An earlier version carried `File:Binggrae Banana Flavored Milk 03.jpg` (CC BY-SA 2.0) in the
+pairings section. It was pulled for two reasons, and both are worth recording.
+
+**It showed four products where the article names one.** Banana, strawberry, banana Light and
+melon; only 바나나맛우유 appears in the text.
+
+**More importantly it weighted the wrong fact.** 빙그레 바나나맛우유 is the pairing Korean writing
+quotes first, but GS25's own basket data says the small cup leaves the store with a **coffee 66.1%**
+of the time. A photograph of four milk bottles argues for the anecdote against the measurement.
+
+Cropping to the single named bottle was tried and abandoned: the four sit shoulder to shoulder, so
+any crop tight enough to exclude the second bottle is a 0.55-ratio sliver, and compositing the
+bottle onto a matched canvas left a visible seam because the studio background is not one flat
+colour. The replacement chart carries the measured split instead, which is what the section is
+actually about.
 
 ## Korea is verifiable in both frames
 
