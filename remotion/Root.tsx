@@ -34,6 +34,7 @@ import { Reel379, REEL_379_FRAMES } from './Reel379';
 import { ReelKBeautyPicker, KBEAUTY_DURATION } from './ReelKBeautyPicker';
 import { ReelRamyeonPremium, RAMYEON_DURATION } from './ReelRamyeonPremium';
 import { ReelCvsShelfTag, CVS_DURATION } from './ReelCvsShelfTag';
+import { ReelCvsReceipt, CVS_RECEIPT_DURATION } from './ReelCvsReceipt';
 import type { ReelProps } from './types';
 
 const defaultReelProps: ReelProps = {
@@ -378,6 +379,14 @@ function Root() {
         height={1920}
         fps={30}
         durationInFrames={CVS_DURATION}
+      />
+      <Composition
+        id="CvsReceipt"
+        component={ReelCvsReceipt}
+        width={1080}
+        height={1920}
+        fps={30}
+        durationInFrames={CVS_RECEIPT_DURATION}
       />
       <Composition
         id="Cheonggyecheon"
