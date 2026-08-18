@@ -172,8 +172,19 @@
 - The first Reels goal is not full automation. Build one MVP, note friction, then upgrade the pipeline.
 - Every Reels project should use numbered scene files under `output/reels/YYYY-MM-DD_{slug}/`.
 - **한 릴스는 한 폴더다: `output/reels/YYYY-MM-DD_{slug}/` (2026-08-11 대표님 지시).**
-  루트에 작업 파일, `final/` 하위폴더에 납품본(MP4 + `instagram-caption.txt` + `upload-package.md`).
   카드뉴스와 같은 날짜 규칙이라 목록이 시간순으로 정렬된다.
+- **[2026-08-18 변경] `final/` 하위폴더를 폐지했다. 폴더는 평평하다.** 대표님 지시:
+  *"여긴 왜 또 안에 final 폴더가 또 들어있냐. 다른 폴더들과 동일하게 정리해야지."*
+  납품본 MP4 + `instagram-caption.txt` + `upload-package.md`가 **날짜 폴더 바로 아래** 있고,
+  파생 자료(스크립트·매니페스트·컷플랜·TTS 오디오·컨택트시트)도 같은 자리에 있다.
+  `final/`은 작업 렌더가 쌓여 있을 때 납품본을 구분하려고 만든 것이었는데, **후보 렌더를
+  정리하고 나면 존재 이유가 없어지고 한 단계 더 파고들게 만들 뿐이다.**
+  - **후보 렌더는 확정 후 지운다.** 2026-08-18에 43개 폴더를 평탄화하며 superseded 렌더 40개
+    (1.67 GB)를 삭제했다. **폴더에 재생 가능한 MP4가 하나만 있어야 한다** — 대표님이 무음
+    작업본을 열고 "소리가 안 난다"고 두 번 보고한 것이 이 규칙의 직접적 계기다.
+  - **지우기 전에 반드시 내용을 확인한다.** 같은 정리에서 `output/reels/renders/`(1.07 GB)를
+    스크래치로 보고 지울 뻔했는데, **174·175·220의 V2 렌더가 거기에만 있었다** — 각 날짜 폴더의
+    납품본은 5월의 V1이고 V2 MP4는 어디에도 사본이 없다. 2026-08-11 사고와 같은 유형이다.
   - **종전에 `output/final/reels/`라는 별도 트리가 있었으나 2026-08-11에 흡수하고 삭제했다.**
     그 트리는 **블로그 글 최종본 디렉터리**(`output/final/166_final.md` …) 안에 얹혀 있었고, 그게
     "한 릴스의 파일이 서로 무관한 두 곳에 있다"는 혼란의 실제 원인이었다. 재분리하지 말 것.
@@ -851,8 +862,7 @@ output/drafts/                writer brief 및 draft.md
 output/review/                review.json
 output/final/                 final.md
 output/cardnews/YYYY-MM-DD_{slug}/ script.md 및 card PNG
-output/reels/YYYY-MM-DD_{slug}/       한 릴스의 전부 — 컷플랜·매니페스트·나레이션·후보 렌더
-output/reels/YYYY-MM-DD_{slug}/final/ 납품본 MP4 + instagram-caption.txt + upload-package.md
+output/reels/YYYY-MM-DD_{slug}/       한 릴스의 전부 — 납품본 MP4 + 캡션 + 패키지 + 파생 자료 (평평하게, final/ 없음)
 public/assets/reels/{slug}/           런타임 자산(컷 미디어·오디오) — 여기는 날짜를 붙이지 않는다
 .claude/skills/               팀별 스크립트
 .claude/agents/               팀별 운영 지침

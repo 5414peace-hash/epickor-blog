@@ -82,11 +82,33 @@ LATER", matching the post's "nearly eight years after the accusation".
 are stored on microfilm and microfilm is white type on black, so a story assembled out of the
 record looks like the record. First EpicKor reel on a dark ground and first on `FONTS.serif`.
 
-## Audio
+## Audio — effects only, no bed
 
-Synthesised bed — a microfilm reader, not a score. Motor hum with wow, a shutter per cut, a
-**ratchet click per year**, type ticks per printed line, a stamp on the verdict. Tick times are
-computed from the kit's own timing formula, so they cannot drift out of sync with the picture.
+**The drone is gone.** Three versions of a sustained bed were built and all three were wrong;
+the last was the worst, because chasing audibility on a phone gave the motor vibrato partials
+at 392/588/784 Hz and a stack of detuned vibrato sines is exactly the sound of a flying saucer.
+Representative's verdict: *"ufo 처럼 나는 background 소리는 진짜 별로다 그냥 없는게 나을듯."*
+
+A continuous synthetic tone under a 28-second reel has nowhere to hide — the viewer hears it
+the whole time, so whatever character it has becomes the character of the reel. Discrete events
+do not have that problem; they are gone before they can wear out.
+
+So: silence between events, and every event a struck bell. Fast attack, harmonic partials that
+collapse in the first tenth of a second, a warm tail. **Every pitch comes from one C major
+pentatonic table**, which has no semitone in it, so any combination is consonant — and that
+matters here more than usual, because the year counter fires 62 times, at one point every 2.6
+frames, and the tails overlap. Chromatic, that is a pile-up. Pentatonic, it is a music box.
+
+The run rises: tick *k* of a span takes degree *k* mod 10 of a two-octave table, so crossing a
+gap is an ascending figure and a longer gap simply gets more of it. Sound and picture say the
+same thing, which was the point of the ratchet in the first place.
+
+| | |
+|---|---|
+| Loudness | **−14.41 LUFS** |
+| True peak | **−2.85 dBTP** after AAC |
+| LRA | **9.7**, against 2.1 for the drone version — the strikes actually punch now |
+| Longest gap between strikes | 1.4s, on an entry card. Intended: an effects-only track has real silence in it and no processing should "fix" that |
 
 ## Checks run
 
