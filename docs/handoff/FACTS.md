@@ -960,6 +960,29 @@
 - **2026-08-11 — "카드가 문법 단위 중간에서 끊기는가"는 자동 판정이 불가능하다. 후보만 뽑고 사람이 판단한다.** 이번에 `"…you're looking" / "at was cut in 2013."`, `"and we wrote all" / "of it down…"`, `"and what to avoid if you" / "are in Korea that day."` **3건이 모든 게이트를 통과해 렌더까지 갔다**(2건은 같은 날 내가 쓴 아웃트로에서 생겼다). 그런데 같은 기계적 규칙이 `"Twenty years ago this exact spot" / "was six lanes of elevated motorway,"`도 잡는데 **이건 의도한 주어-반전 비트라 붙이면 죽는다.** 둘을 가르는 건 "앞 카드가 완결된 명사구로 끝나는가"이고 정규식으로는 판별이 안 된다. 그래서 `CAPTION_MERGE`는 명시 목록이고, `checkBinding()`이 매 배치 후보를 출력한다.
   *Verified:* 3건 병합(43~50자, 카드 내 수용) + 오탐 2건 유지 판정, 2026-08-11.
 
+- **2026-08-18 — `remotion/` is in `tsconfig.json`'s `exclude`.** `npx tsc --noEmit -p tsconfig.json`
+  returns clean while every reel file is unchecked. Verified by changing a type in
+  `DossierKit.tsx` (`body: string` -> `string[]`): full tsc passed, and typechecking
+  `remotion/ReelUjiDossier.tsx` directly reported 4 errors. Check reel files by naming them:
+  `npx tsc --noEmit --jsx react-jsx --esModuleInterop --skipLibCheck --module esnext --moduleResolution bundler --target es2020 --strict remotion/<file>.tsx`
+
+- **2026-08-18 — AAC intersample overshoot is content-dependent, and reached 5 dB.** The DOSSIER
+  bed measured -5.0 dBFS as WAV and -0.0 dBFS decoded back out of `-c:a aac -b:a 192k`. Cause:
+  the ratchet/type elements were zero-attack noise bursts. Adding a 0.8 ms attack ramp and a
+  one-pole roll-off above ~8 kHz in `tick()` cut the overshoot to 0.1 dB (-5.0 -> -4.9) with no
+  audible change at 30 fps. The previously recorded "~1.8 dB" figure is a floor, not a constant.
+
+- **2026-08-18 — On a sparse bed, level and accent separation trade 1:1.** Measured on the
+  DOSSIER bed by sweeping the hum multiplier: hum 0.20 -> -19.2 LUFS with 7.2 dB cut/quiet
+  separation; hum 0.40 -> -15.2 LUFS with 1.4 dB. Broadband hiss behaves the same way. Shipped
+  config is `highpass=f=40:p=2, volume=4dB, alimiter=limit=0.70:level=false` -> **-14.8 LUFS,
+  -2.8 dBTP, 3.8 dB separation**, reachable only after the AAC fix above freed the headroom.
+
+- **2026-08-18 — DOSSIER kit shipped as a prototype.** `remotion/DossierKit.tsx` +
+  `remotion/ReelUjiDossier.tsx`, registered as composition `UjiDossier`. 691 frames / 23.03s.
+  Needs no photography, like `ReceiptKit`. Final at
+  `output/reels/2026-08-18_uji-dossier/final/EPICKOR_UJI_DOSSIER.mp4`. NOT scheduled.
+
 ## instagram / social
 
 - **카드뉴스(캐러셀) 예약은 2026-08-09에 스크립트로 확정했다: `.claude/skills/cardnews/scripts/schedule-meta-cardnews.py`.** 6편 × (FB+IG) 12건을 한 번에 넣고 플래너로 검증했다. 릴스와 달리 **단계가 없다** — 한 화면에서 업로드·캡션·예약이 끝난다. 컴포저 URL: `https://business.facebook.com/latest/composer/?asset_id=1187482087784752&business_id=1214459297026761` (이 asset_id가 EpicKor다. **기본값은 VDOLAB이므로 화면에 `EpicKor`가 보이는지 확인하고 시작한다.**)

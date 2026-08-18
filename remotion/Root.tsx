@@ -35,6 +35,7 @@ import { ReelKBeautyPicker, KBEAUTY_DURATION } from './ReelKBeautyPicker';
 import { ReelRamyeonPremium, RAMYEON_DURATION } from './ReelRamyeonPremium';
 import { ReelCvsShelfTag, CVS_DURATION } from './ReelCvsShelfTag';
 import { ReelCvsReceipt, CVS_RECEIPT_DURATION } from './ReelCvsReceipt';
+import { ReelUjiDossier, UJI_DURATION } from './ReelUjiDossier';
 import type { ReelProps } from './types';
 
 const defaultReelProps: ReelProps = {
@@ -387,6 +388,14 @@ function Root() {
         height={1920}
         fps={30}
         durationInFrames={CVS_RECEIPT_DURATION}
+      />
+      <Composition
+        id="UjiDossier"
+        component={ReelUjiDossier}
+        width={1080}
+        height={1920}
+        fps={30}
+        durationInFrames={UJI_DURATION}
       />
       <Composition
         id="Cheonggyecheon"
