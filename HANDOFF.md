@@ -23,6 +23,15 @@
 
 ## Active Work
 
+- **D안 / DOSSIER 프로토타입 완료 (2026-08-18, 미예약).** `remotion/DossierKit.tsx` +
+  `remotion/ReelUjiDossier.tsx`, 컴포지션 `UjiDossier`. 최종
+  `output/reels/2026-08-18_uji-dossier/final/EPICKOR_UJI_DOSSIER.mp4` (23.0s · -14.8 LUFS ·
+  -2.8 dBTP). 소재는 `219`의 우지 파동. **COUNTER·RECEIPT가 못 하는 "날짜 있는 단일 서사"를
+  담는 키트**이고, RECEIPT처럼 **사진이 0장 필요하다**. 연도가 항목 사이 여백에서 카운트되므로
+  8년과 28년의 간격이 실제로 체감된다. 다크 그라운드 + `FONTS.serif` 첫 사용이라 그리드에서
+  두 축으로 분리된다. **오늘 저녁 일괄 예약 대상이 아니다** — 대표님 폰 리뷰(소리 on/off) 대기.
+  자세한 내용과 게이트 결과: `output/reels/2026-08-18_uji-dossier/final/upload-package.md`.
+
 - Card-news batch `2026-07-15_musinsa`, `2026-07-15_124`, and `2026-07-15_174` is final. It contains 21 photo-first 1080x1080 PNGs, three distinct systems (`Seoul Fashion Commerce`, `Modern Hanji Invitation`, `Transit Signal System`), captions, source records, contact sheets, and Visual Fit reviews. Structural review passed 7/7 images for every carousel; manual original-resolution review found no clipping, overlap, broken image, or missing `EPICKOR.COM`. Visual Fit averages are 97.7, 95.1, and 98.1. Card News `174` is scheduled for 2026-07-20 22:00 KST on both Instagram and YouTube Community. Meta Planner showed the exact caption and `오후 10:00 Instagram`; YouTube's `예약됨` tab showed the exact caption, clickable `https://www.epickor.com/blog/174` link, seven image-detail links, and post ID `Ugkxks1jhEdJAUbyrgUMKqLmIZDMLWHOobv1`. The YouTube image composer supports up to 10 images/GIFs with aspect ratios from 2:5 through 5:2, so the seven 1:1 card-news PNGs are natively supported. MUSINSA and Blog `124` remain ready for scheduling. MUSINSA is the representative-approved Business-slot age exception; Blog 124 legacy broadcast stills were excluded; Subway Card 03 was upgraded to an actual Seoul Metro priority-seat CC image.
 
 - Agoda pilot is published: Blog `188` compares Seoul/Busan Agoda stays, Blog `257` links to Incheon accommodation with airport-filter guidance, and the global analytics listener emits `affiliate_agoda_click` with CID, content slug/type, CTA context, and destination city ID. Commit `15c4fc64` is on `origin/master`; Vercel deployment `epickor-blog-qz9bhmw89` is Ready.
@@ -120,6 +129,21 @@
 - Verify local build/render, public pages, all local assets, sitemap, and reverse links once each unless a failure appears.
 
 ## Recent Change
+
+- 2026-08-18: **D안 DOSSIER 키트 신설 — 날짜 있는 이야기에 릴스 형식이 생겼다.** 상세는 Active Work.
+  재사용 규칙 넷만 남긴다.
+  - **`remotion/`은 `tsconfig.json`의 `exclude`에 있다.** `tsc -p tsconfig.json`이 릴스 코드를 한 줄도
+    안 본다 — 실제 타입 오류 4건 위에서 "깨끗함"을 반환했다. 릴스 파일은 **이름을 대서** 검사한다.
+  - **AAC 인터샘플 오버슈트는 콘텐츠가 정한다. 1.8 dB는 상수가 아니다.** 어택 0의 노이즈 버스트는
+    **5 dB**를 만들었다(WAV -5.0 → 디코드 -0.0). 리미터로 되사면 프로그램 레벨을 그만큼 버린다.
+    **소스의 클릭 모양**(어택 0.8 ms + 8 kHz 롤오프)을 고치는 게 옳고, 비용이 없다.
+  - **희소한 베드에서 라우드니스는 이벤트 수로 얻는다. 바닥(험·히스)을 올리면 1 dB당 액센트 분리가
+    1 dB씩 죽는다.** LUFS의 K-weighting이 150 Hz 아래를 깎아서 저역만 있는 베드는 피크 대비 19 dB
+    낮게 측정된다.
+  - **첫 렌더는 정상 종료·정상 재생이면서 결함 4개를 실었다** — 레일이 글자 위에 찍힘, 9개 컷 전부
+    하단 55%가 검정, 엔트리의 마지막 이벤트가 84프레임 중 16에서 끝나 2.3초 정지(376의 결함),
+    "8 YEARS LATER"가 1995 위에 뜸. **전부 컨택트시트와 실측으로만 잡혔다.**
+  - 커밋 `66210cad`.
 
 - 2026-08-15: **수익 배관의 구멍 + 신규 2편 + 배포 정체 복구.** 상세는 위 Current Snapshot. 재사용 규칙 다섯만 남긴다.
   - **커밋과 배포는 다른 사건이다.** `git push` 성공은 배포 성공이 아니다. 어제 세션이 "푸시 완료"로 닫히는 동안 **사이트는 21시간 동안 옛 빌드**였다. `vercel ls` 최상단이 `● Ready`인지, 그리고 **바뀐 내용이 공개 URL에 실제로 보이는지**까지 봐야 완료다.
