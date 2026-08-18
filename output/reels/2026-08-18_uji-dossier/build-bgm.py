@@ -32,7 +32,11 @@ FPS = 30
 
 # Transcribed from DossierKit.tsx / ReelUjiDossier.tsx.
 OPEN, ENTRY, CLOSE, OUTRO = 54, 84, 102, 84
-YEARS = [1989, 1989, 1997, 2025]
+YEARS = [1963, 1989, 1989, 1997, 2025]
+# Entries carrying an exhibit plate instead of a second body paragraph and a detail line. Their
+# events are different, so the bed has to know: a plate landing is one heavy press, not three
+# ticks of type. A click with nothing happening on screen is worse than no click.
+EXHIBIT_AT = {0, 4}
 span_frames = lambda gap: min(74, max(26, round(22 + gap * 2.4)))
 
 cuts = []
@@ -182,6 +186,7 @@ CHIP = thud(70.0, 0.130, 0.28, click=0.04)
 CHIP_TOP = blip([1180.0, 1770.0], 0.055, 0.15)
 FALL = glide(320.0, 96.0, 900, 0.20, 0.40)           # 60% -> 15%
 PULSE = thud(44.0, 0.110, 0.15)
+PLATE = thud(88.0, 0.100, 0.30, click=0.06, ms=260, bend=0.34)   # an exhibit landing
 
 
 def mix(buf, fr, gain=1.0):
@@ -202,8 +207,14 @@ for c in cuts:
         # Entry()'s at(f, 4 + i*5), at(f, 16 + i*18) and at(f, 58). Five ticks across the cut
         # rather than three in its first half: an entry whose last event lands at frame 16 of
         # 84 is a still picture for 2.3 seconds, which is reel 376's measured defect.
-        for off in (4, 9, 16, 34, 58):
-            events.append(('type', start + off))
+        idx = sum(1 for c in cuts[:cuts.index(c)] if c[0] == 'entry')
+        if idx in EXHIBIT_AT:
+            for off in (4, 9, 16):
+                events.append(('type', start + off))
+            events.append(('plate', start + 24))     # the print pressed onto the page
+        else:
+            for off in (4, 9, 16, 34, 58):
+                events.append(('type', start + off))
     elif kind == 'span':
         _, _, dur, y0, y1 = c
         # Exactly where the rendered year increments: round(y0 + gap*f/(dur-12)) steps up as
@@ -243,6 +254,9 @@ for kind, fr in sorted(events, key=lambda e: e[1]):
         mix(FALL, fr)
     elif kind == 'pulse':
         mix(PULSE, fr)
+    elif kind == 'plate':
+        mix(PLATE, fr)
+        mix(TYPE, fr + 3, gain=0.7)
     elif kind == 'chip':
         mix(CHIP, fr)
         mix(CHIP_TOP, fr + 1)

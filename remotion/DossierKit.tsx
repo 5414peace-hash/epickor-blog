@@ -41,7 +41,7 @@
  *   discrete change every two to three frames rather than a drift.
  */
 import { createContext, useContext, type ReactNode } from 'react';
-import { AbsoluteFill, Sequence, useCurrentFrame } from 'remotion';
+import { AbsoluteFill, Img, Sequence, staticFile, useCurrentFrame } from 'remotion';
 import { FONTS, SAFE } from './tokens/core';
 import { loadFonts } from './fonts';
 
@@ -83,6 +83,25 @@ export type DossierFigure = {
   note: string;
 };
 
+/**
+ * A pinned photograph. The kit works without any, but a subject the audience has never heard
+ * of has to show itself — the first cut of the 우지 파동 reel was all type and the
+ * representative could not tell what it was about.
+ *
+ * The caption says what the picture IS. It never apologises for the picture, and it never
+ * stands in for a subject the picture does not show: an exhibit on a 1989 card has to be a
+ * 1989 thing, so a card with no era-appropriate image gets no exhibit rather than a
+ * plausible substitute. That is the same rule as the 2026-08-03 카드뉴스 defect.
+ */
+export type Exhibit = {
+  /** Path under `public/`, passed through `staticFile`. */
+  media: string;
+  /** Aspect ratio w/h, so the plate can be laid out without measuring the file. */
+  ratio: number;
+  label: string;
+  caption: string;
+};
+
 export type DossierEntry = {
   /** '1989 · 11 · 03', or an honest span label where no exact date is sourced. */
   stamp: string;
@@ -102,6 +121,8 @@ export type DossierEntry = {
   /** A small tracked line that lands late in the cut: the statute, the court, the plant. */
   detail?: string;
   figure?: DossierFigure;
+  /** Takes the lower band. Wins over `figure`, which wins over the ghosted year. */
+  exhibit?: Exhibit;
   /** Where this entry sits in time. Drives the counter in the gutter before the NEXT entry. */
   year: number;
   /** Set on the entry that turns the story. Prints its stamp in `flag`. */
@@ -116,7 +137,16 @@ export type DossierSpec = {
   titleSub: string;
   entries: DossierEntry[];
   /** The payoff: one figure that closes the loop. */
-  close: { figure: string; label: string; note: string; hangul?: string };
+  close: {
+    figure: string;
+    label: string;
+    note: string;
+    hangul?: string;
+    /** The evidence itself, printed above the drawn figure. See `Close`. */
+    media?: string;
+    mediaRatio?: number;
+    mediaCaption?: string;
+  };
   /** Where the facts came from. Printed at the foot of the closing card. */
   sourceLine?: string;
   outroHook: string;
@@ -419,6 +449,73 @@ function Figure({ fig, from }: { fig: DossierFigure; from: number }) {
   );
 }
 
+/**
+ * The exhibit plate. Sized from a declared ratio rather than measured, so a wrong number
+ * shows up as a letterboxed plate rather than a silently stretched photograph.
+ *
+ * It lands with a two-frame kick and a slight overshoot, the way a print is pressed onto a
+ * page — the same gesture as the date stamp, so the card reads as one object being assembled.
+ */
+function ExhibitPlate({ ex, from }: { ex: Exhibit; from: number }) {
+  const C = usePal();
+  const f = useCurrentFrame();
+  const t = at(f, from, 11);
+  if (t <= 0) return null;
+  // Big enough to carry the card. The first cut ran these at 420x310 beside a narrow caption
+  // column and they read as postage stamps — which defeats the entire reason for adding them.
+  // The plate now owns the lower 40% of the frame and the caption sits under it at full width.
+  const MAXH = 566;
+  const MAXW = 848;
+  let h = MAXH;
+  let w = Math.round(MAXH * ex.ratio);
+  if (w > MAXW) {
+    w = MAXW;
+    h = Math.round(MAXW / ex.ratio);
+  }
+  const kick = f - from < 2 ? (f - from === 0 ? 5 : 2) : 0;
+  return (
+    <div
+      style={{
+        position: 'absolute',
+        left: TEXT_X,
+        right: TEXT_R,
+        top: 920,
+        opacity: t,
+      }}
+    >
+      <div
+        style={{
+          width: w,
+          height: h,
+          border: `3px solid ${C.faint}`,
+          background: C.film,
+          overflow: 'hidden',
+          transform: `translateX(${kick}px) rotate(-0.7deg) scale(${1.06 - 0.06 * t})`,
+        }}
+      >
+        <Img
+          src={staticFile(ex.media)}
+          style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block' }}
+        />
+      </div>
+      <div style={{ marginTop: 20 }}>
+        <span
+          style={{
+            font: `700 23px/1 ${F.num}`,
+            letterSpacing: '0.22em',
+            color: C.flag,
+            textTransform: 'uppercase',
+          }}
+        >
+          {ex.label}
+          <span style={{ color: C.faint }}>{'   '}</span>
+        </span>
+        <span style={{ font: `500 27px/1.42 ${F.body}`, color: C.mute }}>{ex.caption}</span>
+      </div>
+    </div>
+  );
+}
+
 /** Entry cards with no figure get the date itself, set huge and faint across the lower half. */
 function GhostYear({ year, from }: { year: number; from: number }) {
   const C = usePal();
@@ -514,7 +611,13 @@ function Entry({ entry, index, total }: { entry: DossierEntry; index: number; to
           </div>
         ) : null}
       </div>
-      {entry.figure ? <Figure fig={entry.figure} from={30} /> : <GhostYear year={entry.year} from={44} />}
+      {entry.exhibit ? (
+        <ExhibitPlate ex={entry.exhibit} from={24} />
+      ) : entry.figure ? (
+        <Figure fig={entry.figure} from={30} />
+      ) : (
+        <GhostYear year={entry.year} from={44} />
+      )}
     </AbsoluteFill>
   );
 }
@@ -609,14 +712,28 @@ function Span({
   );
 }
 
-/** The payoff. One figure, printed the way the real object prints it. */
+/**
+ * The payoff.
+ *
+ * THE PHOTOGRAPH COMES FIRST, THEN THE DRAWN FIGURE. The reel's whole claim is that the
+ * incriminating ingredient is printed on the FRONT of the bag, and a caption asserting that
+ * is worth far less than a picture in which you can read it. The drawn stamp still follows,
+ * because the print in the photograph is small on a phone and the number has to be legible —
+ * but it is now a restatement of visible evidence rather than the only evidence.
+ */
 function Close({ spec }: { spec: DossierSpec }) {
   const C = usePal();
   const f = useCurrentFrame();
-  const s = at(f, 3, 10);
+  const hasMedia = Boolean(spec.close.media);
+  const plateW = 848;
+  const plateH = Math.round(plateW / (spec.close.mediaRatio ?? 3.333));
+  // With evidence on screen the stamp is a caption, not the hero, so it runs smaller.
+  const figSize = hasMedia ? 118 : 158;
+  const stampFrom = hasMedia ? 26 : 3;
+  const s = at(f, stampFrom, 10);
   return (
     <AbsoluteFill>
-      <div style={{ position: 'absolute', left: TEXT_X, right: TEXT_R, top: 430 }}>
+      <div style={{ position: 'absolute', left: TEXT_X, right: TEXT_R, top: 400 }}>
         <div
           style={{
             font: `700 26px/1.4 ${F.body}`,
@@ -627,17 +744,52 @@ function Close({ spec }: { spec: DossierSpec }) {
         >
           {spec.close.label}
         </div>
+        {hasMedia ? (
+          <>
+            <div
+              style={{
+                width: plateW,
+                height: plateH,
+                marginTop: 26,
+                border: `3px solid ${C.faint}`,
+                background: C.film,
+                overflow: 'hidden',
+                opacity: at(f, 3, 10),
+              }}
+            >
+              <Img
+                src={staticFile(spec.close.media as string)}
+                style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block' }}
+              />
+            </div>
+            {spec.close.mediaCaption ? (
+              <div
+                style={{
+                  font: `500 28px/1.4 ${F.body}`,
+                  color: C.mute,
+                  marginTop: 18,
+                  maxWidth: plateW,
+                  opacity: at(f, 16, 9),
+                }}
+              >
+                {spec.close.mediaCaption}
+              </div>
+            ) : null}
+          </>
+        ) : null}
         <div
           style={{
             display: 'inline-block',
             border: `8px solid ${C.flag}`,
-            padding: '20px 34px 28px',
-            marginTop: 30,
+            padding: '18px 30px 24px',
+            marginTop: 36,
             transform: `rotate(-2.2deg) scale(${1.18 - 0.18 * s})`,
             opacity: s,
           }}
         >
-          <span style={{ font: `700 158px/0.94 ${F.num}`, letterSpacing: '0.01em', color: C.flag }}>
+          <span
+            style={{ font: `700 ${figSize}px/0.94 ${F.num}`, letterSpacing: '0.01em', color: C.flag }}
+          >
             {spec.close.figure}
           </span>
         </div>
@@ -647,7 +799,7 @@ function Close({ spec }: { spec: DossierSpec }) {
               font: `600 48px/1.3 ${F.body}`,
               color: C.emulsion,
               marginTop: 48,
-              opacity: at(f, 26, 9),
+              opacity: at(f, stampFrom + 23, 9),
             }}
           >
             {spec.close.hangul}
@@ -655,11 +807,11 @@ function Close({ spec }: { spec: DossierSpec }) {
         ) : null}
         <div
           style={{
-            font: `500 38px/1.44 ${F.body}`,
+            font: `500 36px/1.42 ${F.body}`,
             color: C.mute,
-            marginTop: 26,
+            marginTop: 28,
             maxWidth: BODY_W,
-            opacity: at(f, 36, 10),
+            opacity: at(f, stampFrom + 33, 10),
           }}
         >
           {spec.close.note}
@@ -669,7 +821,7 @@ function Close({ spec }: { spec: DossierSpec }) {
           the card. It lands last, after the reader has taken the number. */}
       {spec.sourceLine ? (
         <div
-          style={{ position: 'absolute', left: TEXT_X, right: TEXT_R, top: 1462, opacity: at(f, 62, 12) }}
+          style={{ position: 'absolute', left: TEXT_X, right: TEXT_R, top: 1462, opacity: at(f, 66, 12) }}
         >
           <div style={{ height: 1, background: C.faint, marginBottom: 22 }} />
           <div

@@ -42,6 +42,19 @@ export const UJI_SPEC: DossierSpec = {
     "Korea's first instant-noodle company was accused of a crime in 1989, cleared in 1997, and lost three quarters of its market in between.",
   entries: [
     {
+      year: 1963,
+      stamp: '1963',
+      head: ['KOREA’S FIRST', 'RAMYEON'],
+      // One paragraph, because this card carries an exhibit and the plate starts at y920.
+      body: ['삼양라면 — the first instant noodle made in Korea. By the late 1980s Samyang holds roughly 60% of the market.'],
+      exhibit: {
+        media: 'assets/reels/uji-dossier/media/tv-1963.png',
+        ratio: 1.353,
+        label: 'Exhibit A',
+        caption: 'Samyang’s own 1960s television advertisement, still on their brand page: 우리나라 최초의 INSTANT 라면.',
+      },
+    },
+    {
       year: 1989,
       stamp: '1989 · 11 · 03',
       head: ['AN ANONYMOUS', 'LETTER'],
@@ -85,19 +98,24 @@ export const UJI_SPEC: DossierSpec = {
       stamp: '2025 · 11 · 03',
       turn: true,
       head: ['THEY PICKED', 'THE DATE'],
-      body: [
-        'Samyang launches 삼양1963, a rebuild of Korea’s first instant noodle.',
-        'Same calendar date, thirty-six years later. And it is fried in beef tallow — the exact ingredient.',
-      ],
-      detail: 'Roughly 7 million packets a month, five months in',
+      body: ['Samyang launches 삼양1963 — same calendar date, thirty-six years later, and fried in beef tallow. The exact ingredient.'],
+      exhibit: {
+        media: 'assets/reels/uji-dossier/media/pack-1963.png',
+        ratio: 0.816,
+        label: 'Exhibit B',
+        caption: '삼양1963, 131 g. Roughly 7 million packets a month, five months in.',
+      },
     },
   ],
   close: {
     label: 'Printed on the front of the bag',
     figure: '6.87%',
-    hangul: '우지 6.87% · 131g',
+    media: 'assets/reels/uji-dossier/media/print-front.png',
+    mediaRatio: 3.333,
+    // Transcribed off the photograph above it, which is the whole point of putting it there.
+    mediaCaption: '제품 중 우지 6.87%, 비프추출물 1.05%, 사골풍미분 1.02% 함유. · 131 g',
     note:
-      'Not buried in a panel on the back. The ingredient that nearly destroyed the company is a number on the front, in the same size as the weight.',
+      'Not buried in a panel on the back. The ingredient that nearly destroyed the company is a line you can read on the front of the bag.',
   },
   sourceLine: 'Sources · ZDNet Korea · Kyunghyang Shinmun · Lawtimes',
   outroHook: 'WE WROTE IT\nALL DOWN.',
