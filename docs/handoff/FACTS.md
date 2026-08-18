@@ -983,6 +983,19 @@
   Needs no photography, like `ReceiptKit`. Final at
   `output/reels/2026-08-18_uji-dossier/final/EPICKOR_UJI_DOSSIER.mp4`. NOT scheduled.
 
+- **2026-08-18 — reel folders are flat and hold exactly one render each.** `final/` abolished;
+  newest mp4 by mtime is the deliverable. 119 superseded renders deleted, **5.64 GB freed**,
+  `output/reels` 10.1 GB -> 4.5 GB, all 57 reel folders verified at exactly one render mp4.
+  Source media (`assets/`, `render-public/`, `candidate-videos/`, `audio/`) was excluded —
+  deleting it would make the reels unrenderable.
+
+- **2026-08-18 — `output/reels/renders/` was NOT scratch.** It held the only copies of the
+  **174 / 175 / 220 V2 masters** (1080x1920, full duration, real audio, 2026-07-27); each dated
+  folder's deliverable was the May **V1**, and 220 had no deliverable anywhere else. Verified by
+  probing before deleting. The newest of each lineage was relocated into its dated folder and
+  the folder removed. Same shape as the 2026-08-11 incident — **a folder that looks like scratch
+  is not scratch until you have probed its contents.**
+
 ## instagram / social
 
 - **카드뉴스(캐러셀) 예약은 2026-08-09에 스크립트로 확정했다: `.claude/skills/cardnews/scripts/schedule-meta-cardnews.py`.** 6편 × (FB+IG) 12건을 한 번에 넣고 플래너로 검증했다. 릴스와 달리 **단계가 없다** — 한 화면에서 업로드·캡션·예약이 끝난다. 컴포저 URL: `https://business.facebook.com/latest/composer/?asset_id=1187482087784752&business_id=1214459297026761` (이 asset_id가 EpicKor다. **기본값은 VDOLAB이므로 화면에 `EpicKor`가 보이는지 확인하고 시작한다.**)
