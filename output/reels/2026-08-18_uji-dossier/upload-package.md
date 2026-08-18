@@ -1,6 +1,6 @@
 # Upload package — 우지 파동 (DOSSIER prototype)
 
-**File**: `EPICKOR_UJI_DOSSIER.mp4` · 28.3s · 1080×1920 · 30fps · 5.3 MB · **no narration**
+**File**: `EPICKOR_UJI_DOSSIER.mp4` · 29.1s · 1080×1920 · 30fps · 5.3 MB · **no narration**
 **Audio-only copy**: `EPICKOR_UJI_DOSSIER-audio-only.m4a`, for testing the sound in isolation
 **Render**: `v004` · video 1.36 Mbps h264 CRF 14 · audio AAC 192k
 **Kit**: `remotion/DossierKit.tsx` (**D안 / DOSSIER**, first use)
@@ -81,6 +81,30 @@ LATER", matching the post's "nearly eight years after the accusation".
 `FILM_DEFAULT`: `#0E1114` ground, `#E9E4D8` emulsion, `#D4452F` stamp. 1989 newspaper archives
 are stored on microfilm and microfilm is white type on black, so a story assembled out of the
 record looks like the record. First EpicKor reel on a dark ground and first on `FONTS.serif`.
+
+## The opening, and why it was wrong
+
+The card that opens the reel used to be a **still**. Frame 0 has to render complete because it
+is the grid thumbnail, and that requirement quietly turned into "animate nothing" — so the
+first 1.8 seconds of a 29-second reel were a static page, which is the worst possible place to
+spend them. Representative: *"맨 처음 인트로에 나오는 문장이 더 임펙트 있어야할듯 … 색이
+바뀌면서 깜빡깜빡 거리면서 효과음이 이쁜게 같이 나온다던가 (스테이플러 찰칵 거리는 소리)."*
+
+The two requirements only conflict if the animation is an **entrance**. Every line is present
+and final on frame 0 — the thumbnail is still the finished headline — and the motion is a
+**stamp passing down them**: ACCUSED, then DESTROYED, then INNOCENT, each inverting to a solid
+red block twice before reverting, then the footer. Hard cuts, no fades: a stamp has either
+landed or it has not, and a ramp at 112px reads as a glow rather than an impact.
+
+Each invert carries a **stapler snap** — a bright metallic strike with a very fast decay over a
+slower body, which is the ratio that separates *snap* from *ping*. The press is full and the
+release 9 dB lighter, because a stapler is two sounds. Resonances are C6/G6/C7, the pentatonic
+root two and three octaves up, so a hard mechanical sound still lands consonant with the bells.
+
+`TITLE_AT` / `FOOTER_AT` are **exported from `DossierKit.tsx` and read by `build-bgm.py`**. The
+snap and the invert are one event; a beat table living in two files is a table that will
+eventually disagree, which is exactly how the captions drifted on 2026-08-04. Measured on the
+final: press frames −3.0 dB, release frames −12.0 dB, and −57.1 dB between them.
 
 ## Audio — effects only, no bed
 

@@ -161,7 +161,7 @@ const F = { body: FONTS.neutral, num: FONTS.condensed, head: FONTS.serif } as co
 /* ------------------------------------------------------------------ *
  * Timing
  * ------------------------------------------------------------------ */
-export const OPEN = 54;
+export const OPEN = 78;
 export const ENTRY = 84;
 export const CLOSE = 102;
 export const OUTRO = 84;
@@ -181,6 +181,20 @@ export function dossierDuration(spec: DossierSpec) {
     if (next && next.year > e.year) n += spanFrames(next.year - e.year);
   });
   return n + CLOSE + OUTRO;
+}
+
+/**
+ * Opening stamp beats, in frames. Exported because `build-bgm.py` reads the same numbers —
+ * the snap you hear and the invert you see are one event, and a table in two places is a
+ * table that will disagree.
+ */
+export const TITLE_AT = [6, 20, 34];
+export const FOOTER_AT = 52;
+
+/** Two hard inverts per beat: on 0-2, off 3-4, on 5-7. That is the 깜빡깜빡. */
+export function struck(f: number, at: number) {
+  const d = f - at;
+  return (d >= 0 && d <= 2) || (d >= 5 && d <= 7);
 }
 
 const snap = (t: number) => 1 - Math.pow(1 - Math.min(1, Math.max(0, t)), 3.2);
@@ -347,10 +361,18 @@ function Watermark() {
  * ------------------------------------------------------------------ */
 
 /**
- * Frame 0 of the reel and the grid thumbnail, so every element renders COMPLETE at f0.
- * Nothing here uses `at(f, 0, n)` — that evaluates to 0 on frame 0 no matter how short the
- * duration, which is the bug that shipped a blank first frame on both prior kits. The only
- * animation is a lamp settling, and it runs UNDER the type.
+ * The opening card, and the reel's only chance to earn the next twenty-seven seconds.
+ *
+ * IT USED TO BE A STILL. Frame 0 has to render complete because it is the grid thumbnail, and
+ * that requirement quietly became "animate nothing" — so the first 1.8 seconds were a static
+ * page. Representative: *"맨 처음 인트로에 나오는 문장이 더 임펙트 있어야할듯 … 색이 바뀌면서
+ * 깜빡깜빡 거리면서 효과음이 이쁜게 같이 나온다던가 (스테이플러 찰칵 거리는 소리)."*
+ *
+ * The two requirements are only in conflict if the animation is an entrance. So every line is
+ * present and final on frame 0 — the thumbnail is the finished headline — and the motion is a
+ * STAMP passing down them: each line inverts to a solid flag-coloured block twice, hard cut,
+ * no fade, with a stapler snap on each hit. Two inverts per line is the 깜빡깜빡; three lines
+ * is three snaps in the first second and a half.
  */
 function Open({ spec }: { spec: DossierSpec }) {
   const C = usePal();
@@ -365,7 +387,7 @@ function Open({ spec }: { spec: DossierSpec }) {
           opacity: 1 - at(f, 4, 26) * 0.8,
         }}
       />
-      <div style={{ position: 'absolute', left: TEXT_X, right: TEXT_R, top: 470 }}>
+      <div style={{ position: 'absolute', left: TEXT_X, right: TEXT_R, top: 430 }}>
         <div
           style={{
             font: `600 112px/1.03 ${F.head}`,
@@ -374,29 +396,47 @@ function Open({ spec }: { spec: DossierSpec }) {
             color: C.emulsion,
           }}
         >
-          {spec.title.map((l) => (
-            <div key={l}>{l}</div>
-          ))}
+          {spec.title.map((l, i) => {
+            const on = struck(f, TITLE_AT[i] ?? 4);
+            return (
+              <div key={l} style={{ display: 'flex' }}>
+                <span
+                  style={{
+                    // Hard cut, not a fade: a stamp either has landed or it has not, and a
+                    // ramp at this size reads as a glow rather than as an impact.
+                    background: on ? C.flag : 'transparent',
+                    color: on ? C.film : C.emulsion,
+                    padding: '2px 16px 10px',
+                    marginLeft: -16,
+                  }}
+                >
+                  {l}
+                </span>
+              </div>
+            );
+          })}
         </div>
         <div style={{ width: 132, height: 4, background: C.flag, margin: '46px 0 36px' }} />
         <div style={{ font: `500 38px/1.44 ${F.body}`, color: C.mute, maxWidth: BODY_W }}>
           {spec.titleSub}
         </div>
       </div>
-      {/* Bottom anchor: what the file contains, stated as a count. It also sets the reader's
-          expectation of length, which is why they stay for the second span. */}
       <div style={{ position: 'absolute', left: TEXT_X, right: TEXT_R, top: 1428 }}>
         <div style={{ height: 1, background: C.faint, marginBottom: 26 }} />
         <div
           style={{
             font: `700 30px/1 ${F.num}`,
             letterSpacing: '0.2em',
-            color: C.emulsion,
+            color: struck(f, FOOTER_AT) ? C.film : C.emulsion,
+            background: struck(f, FOOTER_AT) ? C.flag : 'transparent',
+            padding: '4px 12px 8px',
+            marginLeft: -12,
+            display: 'inline-block',
             textTransform: 'uppercase',
           }}
         >
           {spec.entries.length} dates
-          <span style={{ color: C.flag }}>{'  ·  '}</span>
+          <span style={{ color: struck(f, FOOTER_AT) ? C.film : C.flag }}>{'  ·  '}</span>
           {span} years
         </div>
       </div>

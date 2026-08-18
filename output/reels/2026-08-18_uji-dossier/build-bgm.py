@@ -38,10 +38,16 @@ SR = 44100
 FPS = 30
 
 # Transcribed from DossierKit.tsx / ReelUjiDossier.tsx.
-OPEN, ENTRY, CLOSE, OUTRO = 54, 84, 102, 84
+OPEN, ENTRY, CLOSE, OUTRO = 78, 84, 102, 84
 YEARS = [1963, 1989, 1989, 1997, 2025]
 # Entries carrying an exhibit plate rather than a second paragraph and a detail line.
 EXHIBIT_AT = {0, 4}
+# Opening stamp beats — the SAME numbers as TITLE_AT / FOOTER_AT in DossierKit.tsx. The snap
+# and the invert are one event; if these two tables ever disagree the reel is out of sync with
+# itself, which is exactly what happened to the caption timings on 2026-08-04.
+TITLE_AT = [6, 20, 34]
+FOOTER_AT = 52
+STRIKE_OFFSETS = (0, 5)   # struck() inverts on d 0-2 and again on d 5-7
 span_frames = lambda gap: min(74, max(26, round(22 + gap * 2.4)))
 
 cuts = []
@@ -115,6 +121,38 @@ TICKS = [bell(f, 0.24, 0.150, 460,
          for f in PENTA]
 
 
+def stapler(amp, bright, ms=190):
+    """
+    A stapler snap. Two things happen when you press one: a bright metallic strike and a
+    short-lived body, and the mechanism has enough mass that the top end dies almost at once.
+    So the resonances are given a very fast decay and the body a slower one — that ratio is
+    what separates 'snap' from 'ping'.
+
+    The resonances are C6/G6/C7, i.e. the same pentatonic root two and three octaves up, so a
+    hard mechanical sound still lands consonant with the bells ringing around it.
+    """
+    n = int(SR * ms / 1000)
+    buf = array.array('d', bytes(8 * n))
+    x = 424242
+    prev = 0.0
+    for i in range(n):
+        t = i / SR
+        x = (1103515245 * x + 12345) & 0x7FFFFFFF
+        nz = x / 0x3FFFFFFF - 1.0
+        prev = prev + 0.55 * (nz - prev)
+        v = (nz - prev) * math.exp(-t / 0.0011) * 1.10 * bright
+        v += math.sin(2 * math.pi * 1046.50 * t) * math.exp(-t / 0.0115) * 0.85 * bright
+        v += math.sin(2 * math.pi * 1568.00 * t) * math.exp(-t / 0.0080) * 0.55 * bright
+        v += math.sin(2 * math.pi * 2093.00 * t) * math.exp(-t / 0.0055) * 0.32 * bright
+        v += math.sin(2 * math.pi * 233.08 * t) * math.exp(-t / 0.0420) * 0.42
+        buf[i] = amp * v * min(1.0, t / 0.0004)
+    return buf
+
+
+SNAP = stapler(0.40, 1.0)          # the press
+SNAP_REL = stapler(0.20, 0.62)     # the release, lighter and duller — a stapler is two sounds
+
+
 def glide(f_hi, f_lo, ms, amp, tau):
     """The one non-struck sound: a tone falling, for the market share collapsing."""
     n = int(SR * ms / 1000)
@@ -147,7 +185,11 @@ entry_i = 0
 for c in cuts:
     kind, start = c[0], c[1]
     events.append(('cut', start, 0))
-    if kind == 'entry':
+    if kind == 'open':
+        for at in TITLE_AT + [FOOTER_AT]:
+            events.append(('snap', start + at + STRIKE_OFFSETS[0], 0))
+            events.append(('snapr', start + at + STRIKE_OFFSETS[1], 0))
+    elif kind == 'entry':
         if entry_i in EXHIBIT_AT:
             for off in (4, 9, 16):
                 events.append(('type', start + off, 0))
@@ -183,6 +225,10 @@ events.append(('fall', entry2 + 30, 0))
 for kind, fr, arg in sorted(events, key=lambda e: e[1]):
     if kind == 'cut':
         mix(CUT, fr)
+    elif kind == 'snap':
+        mix(SNAP, fr)
+    elif kind == 'snapr':
+        mix(SNAP_REL, fr)
     elif kind == 'type':
         mix(TYPE, fr)
     elif kind == 'plate':
@@ -218,4 +264,5 @@ with wave.open(path, 'wb') as w:
 n = lambda k: sum(1 for kk, _, _ in events if kk == k)
 print(path)
 print(f'  {TOTAL_FRAMES} frames  {NSAMP / SR:.2f}s  {len(events)} events  peak {peak:.3f}')
-print(f'  cuts {n("cut")}  ticks {n("tick")}  type {n("type")}  plates {n("plate")}  no bed')
+print(f'  cuts {n("cut")}  ticks {n("tick")}  type {n("type")}  plates {n("plate")}'
+      f'  snaps {n("snap")}+{n("snapr")}  no bed')
