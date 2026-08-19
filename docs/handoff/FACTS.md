@@ -568,6 +568,27 @@
 - **GSC 페이지별 실적은 `output/gsc/https___www.epickor.com_-Performance-on-Search-YYYY-MM-DD/페이지.csv`에 있다.** 헤더 `인기 페이지,클릭수,노출,CTR,게재 순위`, URL에서 `/blog/{slug}`를 파싱한다. 최신 추출본은 2026-07-24(323줄). `scripts/build-refresh-queue.mjs`가 이 경로를 자동 탐색한다.
 
 ## images
+- **2026-08-19 — 제조사 사이트가 팩샷을 내주는지는 회사마다 다르고, 농심USA가 유일한 성공 경로다.**
+  실측: `nongshimusa.com/products` → `/product-detail?pid=61`에서 **자갈치의 미국판 팩샷
+  `1217tako-chips.jpg` (1200×1200, 흰 배경)** 과 **전체 원재료·알레르기 표시**를 그대로 받았다.
+  반면 **롯데웰푸드·해태·오리온은 전부 SPA 껍데기**다 — `lottewellfood.com/brand/product`는
+  50KB HTML에 이미지 1개(로고), `ht.co.kr`은 `/api/product/list`·`/api/products`·`/product/list`가
+  **전부 같은 catch-all 200**을 돌려주고, `orionworld.com`은 이미지 0개.
+  **즉 0차 단계는 "제조사를 본다"가 아니라 "농심이면 받고, 나머지는 바로 도표로 간다"이다.**
+- **2026-08-19 — 위키 미러의 성분 서술을 믿고 쓰면 틀린다. 라벨을 봐야 한다.**
+  `412` 찰떡파이를 2017년 나무위키 미러의 "찰떡 안에는 땅콩 크림"에 근거해 썼는데 **실제 라벨에
+  땅콩이 없다** (올리고당·초콜릿-S·준초콜릿·설탕·말티톨시럽 10.6%·전분·덱스트린·찹쌀·글리세린·
+  밀가루·정제소금·주정). 대표님이 보내주신 박스 사진을 계기로 확인했고 발행 후 정정했다.
+  **미러 문서는 수년 전 판본이고 제품 배합은 그 사이에 바뀐다.** 성분·함량을 본문의 축으로 쓸
+  거면 라벨 전사본(`onlyknowledge.tistory.com` 류)이나 제조사 공식 표기를 별도로 잡는다.
+- **2026-08-19 — 한국 라벨의 `제조원` / `유통전문판매원` 구분이 OEM 관계의 1차 증거다.**
+  명가 찰떡파이 라벨: `유통전문판매원 롯데제과(주)` / **`제조원 삼진식품, 경기도 가평군 청평면
+  수리재길 3`**. 위키가 주장하는 OEM 관계를 포장이 직접 증명한다. **한국 과자 글에서 "누가 만드나"가
+  쟁점이면 이 두 필드부터 찾는다.**
+- **2026-08-19 — 채팅에 붙여넣은 이미지는 파일로 꺼낼 수 없다.** 세션 temp 트리를 뒤져도
+  파일이 생성되지 않는다(`find ... -newermt "-30 minutes"` → 0건). **대표님 사진을 설치하려면
+  `public/assets/images/_inbox/`에 파일로 받아야 한다** — 그 폴더와 README를 만들어 뒀다.
+  다만 **사진에서 사실을 읽어내는 것은 즉시 가능하므로**, 파일을 못 받아도 라벨 수치는 바로 반영한다.
 
 - **2026-08-19 — the sourcing waterfall now fails at every photographic step for named packaged
   products, and that is the normal case, not the exception.** Ten images were needed across `407`–`411`
