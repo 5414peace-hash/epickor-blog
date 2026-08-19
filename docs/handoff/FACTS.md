@@ -742,6 +742,19 @@
   *Verified:* Commons API `generator=search&gsrnamespace=6`, 2026-08-05.
 
 ## reels
+- **2026-08-20 — 2026-08-18 평탄화가 승인본 3개를 지웠다. mtime 규칙이 원인이다.**
+  `299`·`301`·`302`는 2026-07-16에 대표님 승인본이 확정돼 있었다(`EPICKOR_299_02` · `301_02` · `302_03`).
+  그런데 2026-07-20에 **BGM 검토판**과 유튀브용 변형을 더 만들었고, 08-18 정리가
+  “가장 최근 것이 최종” 규칙을 그대로 적용해 **승인본을 지우고 미승인 변형만 남겼다.**
+  현재 남은 것: `EPICKOR_299_03_BGM.mp4` · `EPICKOR_301_01_yt.mp4` · `EPICKOR_302_04_BGM.mp4`.
+  **`output/reels/**`는 gitignore라 git 복구가 불가능하고, `output/reels/renders/`도 이미 없다. 복구 불가.**
+  다행히 세 편 모두 인스타그램 배포는 끝난 뒤라 **유통 손실은 없고 아카이브 손실이다.**
+  **교훈: “최신이 최종”은 한 펴당 렌더가 단순 재렌더일 때만 맞는다.**
+  대표님 승인 기록이 HANDOFF에 있으면 **파일명이 아니라 그 기록이 기준**이다. 지우기 전에 HANDOFF를 grep한다.
+- **2026-08-20 — `293` 폴더에 남은 파일은 `EPICKOR_293_04.mp4`, 즉 대표님이 반려한 V04다.**
+  2026-08-14 유튀브 스터디는 “폴더 파일이 V03이라 반려본과 같은지 불분명”으로 보류했는데, 지금은 **V04 하나만 남아 있으므로 보류가 아니라 확정 제외**다.
+- **2026-08-20 — `229`는 렌더된 MP4가 아예 없다.** props·audio·review JSON만 있고 완성본이 없다.
+  폴더가 존재한다고 릴스가 완성된 것이 아니다 — **예약 목록을 폴더명으로 짜면 안 된다.**
 
 - **2026-08-17 — a hook line that overflows is broken by the browser silently, and nothing throws.**
   `THE SHELF TAG` at TYPE.hook (118px) in a 960px column wrapped and orphaned `TAG` on its own

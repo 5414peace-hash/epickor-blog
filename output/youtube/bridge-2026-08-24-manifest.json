@@ -1,0 +1,86 @@
+{
+  "timezone": "Asia/Seoul",
+  "defaultPublishTime": "21:00",
+  "channel": "UC4Z3moxZvDUkzj5HmoHEEtg",
+  "preparedOn": "2026-08-20",
+  "note": "Bridge batch of 6, 2026-08-24 to 08-29. Deliberately 6 and not 10: the 08-14 batch of 10 is a hypothesis test whose verdict is due 08-24, and scheduling a full second batch before reading it would bury the experiment. Selection follows the YouTube-measured criteria in UPLOAD_STUDY_2026-08-14 section 8-3 (broad cultural curiosity or universal anxiety relief), not Instagram saves. No shopping, activity or service niches.",
+  "items": [
+    {
+      "slug": "179",
+      "source": "output/reels/2026-05-28_179/EPICKOR_179.mp4",
+      "title": "Korean Drinking Table Rules: Soju, Makgeolli, and Anju",
+      "titleChars": 54,
+      "description": "A Korean drinking table has an order to it, and anju is not a side dish.\nWho pours, which hand, and why the food arrives before the alcohol.\n\nFull guide: https://www.epickor.com/blog/179\nMore practical Korea culture and travel guides: @epickor\n\n#Soju #KoreanCulture #KoreaTravel",
+      "publishAt": "2026-08-24T21:00:00+09:00",
+      "why": "2025 batch: Korean drinking games did 1,897 views. Closest proven analogue on this channel.",
+      "madeForKids": false,
+      "visibility": "Public"
+    },
+    {
+      "slug": "172",
+      "source": "output/reels/2026-05-11_172/EPICKOR_172.mp4",
+      "title": "Korean BBQ Etiquette: The Unwritten Rules Locals Follow",
+      "titleChars": 55,
+      "description": "Nobody tells you who is supposed to hold the tongs.\nThe rules Koreans follow at a grill table without ever saying them out loud.\n\nFull guide: https://www.epickor.com/blog/172\nMore practical Korea culture and travel guides: @epickor\n\n#KoreanBBQ #KoreanFood #KoreaTravel",
+      "publishAt": "2026-08-25T21:00:00+09:00",
+      "why": "Universal anxiety relief - same shape as public toilets (1,506) and unspoken social rules (1,392).",
+      "madeForKids": false,
+      "visibility": "Public"
+    },
+    {
+      "slug": "259",
+      "source": "output/reels/2026-07-02_259/EPICKOR_259.mp4",
+      "title": "Korean Bingsu: Why One Dessert Costs 15 Times More",
+      "titleChars": 50,
+      "description": "The same shaved ice is 9,900 won in one shop and 149,000 won in another.\nWhat you are actually paying for, and where the line sits.\n\nFull guide: https://www.epickor.com/blog/259\nMore practical Korea culture and travel guides: @epickor\n\n#Bingsu #KoreanFood #Seoul",
+      "publishAt": "2026-08-26T21:00:00+09:00",
+      "why": "Number plus a why-question. Same shape as the pajeon reel (1,605).",
+      "madeForKids": false,
+      "visibility": "Public"
+    },
+    {
+      "slug": "170",
+      "source": "output/reels/2026-05-11_170/EPICKOR_170.mp4",
+      "title": "How Many PC Bangs Does Korea Have? Count, Cost, Rules",
+      "titleChars": 53,
+      "description": "Korea's PC bang count is bigger than most people guess, and it has been falling.\nWhat an hour costs, what you can order, and the rules nobody posts.\n\nFull guide: https://www.epickor.com/blog/170\nMore practical Korea culture and travel guides: @epickor\n\n#PCBang #KoreanCulture #SouthKorea",
+      "publishAt": "2026-08-27T21:00:00+09:00",
+      "why": "Broad curiosity plus a number hook. The single space foreigners find strangest.",
+      "madeForKids": false,
+      "visibility": "Public"
+    },
+    {
+      "slug": "178",
+      "source": "output/reels/2026-05-28_178/EPICKOR_178.mp4",
+      "title": "Korean Food Delivery: How Baemin Changed How Korea Eats",
+      "titleChars": 55,
+      "description": "Korea will deliver one item to a park bench at 2am.\nHow the apps got there, and what it did to home cooking.\n\nFull guide: https://www.epickor.com/blog/178\nMore practical Korea culture and travel guides: @epickor\n\n#KoreanFood #Baemin #SouthKorea",
+      "publishAt": "2026-08-28T21:00:00+09:00",
+      "why": "Broad cultural curiosity. Korea's delivery culture is famous abroad and poorly explained.",
+      "madeForKids": false,
+      "visibility": "Public"
+    },
+    {
+      "slug": "184",
+      "source": "output/reels/2026-06-01_184/EPICKOR_184.mp4",
+      "title": "Korean Photo Booths: Why Everyone Takes Four Cuts",
+      "titleChars": 49,
+      "description": "Four-cut booths are on every Korean street corner and the format never changes.\nWhy it is always four frames, and how to not freeze up inside.\n\nFull guide: https://www.epickor.com/blog/184\nMore practical Korea culture and travel guides: @epickor\n\n#KoreaTravel #KoreanCulture #Seoul",
+      "publishAt": "2026-08-29T21:00:00+09:00",
+      "why": "Broad curiosity plus a young audience. List-shaped like the noraebang reel (1,668).",
+      "madeForKids": false,
+      "visibility": "Public"
+    }
+  ],
+  "checks": {
+    "resolution": "all 1080x1920 30fps (ffprobe)",
+    "audio": "all carry audio, max_volume -3.6 to -4.1 dB (volumedetect)",
+    "duration": "33.5-38.7 s, all under the Shorts ceiling",
+    "blogUrls": "all six return HTTP 200"
+  },
+  "blocked": {
+    "229": "no rendered MP4 exists in the folder at all - props, audio and review JSON only. Never finished.",
+    "302": "the approved master EPICKOR_302_03.mp4 no longer exists; only the un-approved BGM review candidate remains. Same for 299 and 301.",
+    "293": "the remaining file is EPICKOR_293_04.mp4 - V04, the version the representative rejected. Do not upload."
+  }
+}
