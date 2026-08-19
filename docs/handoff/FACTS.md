@@ -569,6 +569,25 @@
 
 ## images
 
+- **2026-08-19 — the sourcing waterfall now fails at every photographic step for named packaged
+  products, and that is the normal case, not the exception.** Ten images were needed across `407`–`411`
+  (누네띠네 / 붕어싸만코 / 델라페 / 회오리감자 / 카스타드). **Zero usable photographs existed.**
+  Measured, per subject: Pexels and Unsplash return *category substitutes* (taiyaki cones for a flat
+  monaka sandwich; generic iced coffee for a specific private label; American county-fair spiral
+  potatoes for a post arguing the object is Korean); Wikimedia Commons returns either nothing or a
+  false friend (**`Samanco` on Commons is a district in Ancash, Peru**); and Lotte Wellfood, Orion,
+  BGF Retail and (주)회오리 all serve JS-rendered pages whose imagery is commercial brand material.
+  All ten were built as EpicKor HTML→Playwright→sharp charts instead. **Do not spend a research pass
+  re-discovering this** — for a named packaged product, budget for a chart from the start and treat a
+  found photograph as the surprise.
+- **2026-08-19 — the chart pipeline is three commands and guarantees Hangul renders.** Write an HTML
+  file, screenshot it through the already-running CDP Chrome at `localhost:9222` at a fixed viewport,
+  then `sharp(...).jpeg({quality:88,mozjpeg:true})`. Output lands at **69–98 KB for 1400×540–770**,
+  comfortably inside the 150–250 KB target with `images.unoptimized: true`. A generic renderer taking
+  `name` and `height` is in the session scratchpad; the reusable part is the recipe, not the file.
+  **Always read the rendered JPEG back before installing it** — two of ten overflowed their canvas on
+  the first pass and only the read caught it.
+
 - **2026-08-17 — the COUNTER reel kit's binding constraint is imagery, not data, and the repo's
   product images do not meet it.** Blog body images were sourced against a ≤400KB / ≤1600px gate
   where 500-800px is perfectly fine; a 1080x1920 reel panel needs ~430x806 from a 0.535 portrait
