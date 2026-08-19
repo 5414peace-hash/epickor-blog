@@ -66,6 +66,25 @@
 - Add `/business/` separated GSC/analytics reporting and a baseline snapshot before launch.
 - Add a weekly topic-candidate approval workflow; approved topics may proceed, unapproved topics must not be drafted.
 
+## 비즈니스 섹션의 성과 지표 — 아마존이 아니라 노출·조회수다 (2026-08-19 대표님 지시)
+
+- **비즈니스 섹션(`/business/`)에는 별도의 목적이 있다.** 트립클립이 EpicKor를 통해
+  **국내 중소기업에게 "해외에 알릴 수 있는 채널"로 자리매김하는 것** 자체가 목적이다.
+  즉 이 코너는 수익 페이지가 아니라 **레퍼런스이자 영업 자산**이다.
+- **따라서 비즈니스 섹션만큼은 아마존 링크 클릭·판매보다 노출·클릭률·조회수가 훨씬 중요하다.**
+  아마존 전환이 0이어도 그 회사 이름으로 영어 검색에서 우리가 잡히면 목적은 달성된다.
+  비즈니스 글의 성패를 아마존 수익으로 판정하지 말 것.
+- 일반 블로그(`/blog/`)의 아마존·아고다 규칙은 그대로다. 이 항목은 비즈니스 섹션 한정이다.
+
+## 주제 발굴 — 대표님 구술에서 키워드를 뽑아내는 것도 내 일이다 (2026-08-19 대표님 지시)
+
+- 대표님이 한국 문화·관광지·음식 중 **"외국인이 보면 재밌어할 것 같은 것"**을 구술로 길게
+  이야기하시면, **그 안에서 키워드·앵글·제목 후보를 내가 뽑아내 포스팅으로 만든다.**
+  완성된 주제를 달라고 되묻지 말 것 — 원석에서 키워드를 캐내는 것까지가 내 몫이다.
+- 뽑아낸 후보는 기존 게이트(중복 감사 → 쿼리 형태 → 커버리지)를 그대로 통과시킨다.
+  다만 **"GSC 근거가 없다"는 이유만으로 대표님 아이디어를 버리지 않는다** —
+  외부 검증(뉴스·기록·공식 자료)만 있으면 충분하다는 2026-07-27 규칙이 이미 있다.
+
 ## Amazon Affiliate Placement Rules
 
 - Every new or meaningfully updated blog post should include Amazon affiliate opportunities unless the representative explicitly says to omit them.
