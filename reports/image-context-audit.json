@@ -1,10 +1,10 @@
 {
   "summary": {
-    "generatedAt": "2026-08-20T12:28:08.063Z",
+    "generatedAt": "2026-08-20T13:19:08.320Z",
     "auditedPosts": 411,
     "includedPrivate": false,
     "slugFilter": "",
-    "bodyImages": 1434,
+    "bodyImages": 1441,
     "affectedPosts": 97,
     "critical": 0,
     "high": 0,
@@ -14658,8 +14658,15 @@
       "title": "Tornado Potato: The Korean Invention Everybody Thinks Is Generic Fair Food",
       "contentPath": "content\\blog\\410.md",
       "sourceRecord": "public\\assets\\images\\posts\\410\\image-sources.md",
-      "imageCount": 2,
+      "imageCount": 3,
       "images": [
+        {
+          "url": "/assets/images/posts/410/tornado-potato-spiral.jpg",
+          "alt": "Close-up of a spiral-cut potato on a stick, deep fried, the tornado potato form.",
+          "caption": "The form itself: one potato, cut in a continuous spiral and threaded onto a skewer. Photo by Julia Filirovska via Pexels.",
+          "ext": ".jpg",
+          "exists": true
+        },
         {
           "url": "/assets/images/posts/410/tornado-potato-origin.jpg",
           "alt": "Timeline chart of 회오리감자: the 2006 machine built from a persimmon peeler, the 27 May 2007 Myeongdong debut as 봉구네 통감자, 2008 television exposure, and registrations in Korea, USA, EU, China, Japan and the Philippines — with a panel explaining that 회오리 is a trademark so unlicensed vendors write 스프링감자.",
@@ -14765,8 +14772,15 @@
       "title": "Jagalchi: The Korean Octopus Snack That Contains No Octopus",
       "contentPath": "content\\blog\\414.md",
       "sourceRecord": "public\\assets\\images\\posts\\414\\image-sources.md",
-      "imageCount": 3,
+      "imageCount": 4,
       "images": [
+        {
+          "url": "/assets/images/posts/414/jagalchi-market-busan.jpg",
+          "alt": "Inside Jagalchi fish market in Busan, South Korea, with Korean shop signage above the stalls.",
+          "caption": "Jagalchi market in Busan, the place the snack is named after. Korean stall signage overhead; the market is the reference the brand assumes you already have. Photo by Bruna Santos via Pexels.",
+          "ext": ".jpg",
+          "exists": true
+        },
         {
           "url": "/assets/images/posts/414/jagalchi-name-chain.jpg",
           "alt": "Chart showing the chain 자갈 pebbles to 자갈치시장 the Busan fish market to 자갈치 the Nongshim snack launched 5 August 1983, with a panel noting the snack is not named after the real fish called 자갈치.",
@@ -14822,8 +14836,15 @@
       "title": "Cham Bungeoppang: The Korean Fish Snack That Is Four Different Fish Abroad",
       "contentPath": "content\\blog\\416.md",
       "sourceRecord": "public\\assets\\images\\posts\\416\\image-sources.md",
-      "imageCount": 2,
+      "imageCount": 3,
       "images": [
+        {
+          "url": "/assets/images/posts/416/street-bungeoppang-cart.jpg",
+          "alt": "A street bungeoppang cart in Korea, fish-shaped cakes cooking in hinged iron moulds beside the vendor.",
+          "caption": "The street original: 붕어빵 in hinged iron moulds on a cart. The boxed 참붕어빵 this article is about is deliberately not this — it is a soft, shelf-stable cake, and liking one tells you nothing about the other. Photo via Wikimedia Commons.",
+          "ext": ".jpg",
+          "exists": true
+        },
         {
           "url": "/assets/images/posts/416/cham-bungeoppang-lineup.jpg",
           "alt": "Chart of the 참붕어빵 lineup — original 2011, 호떡 품은 2021 at about 24% of sales, and 우유슈크림맛 with 180 mg calcium — alongside the box declaration of 348 g, 1,452 kcal, 찹쌀떡 6.37% and a count printed as 12마리.",
@@ -14847,8 +14868,15 @@
       "title": "Kkokkalcorn: Korea's Cone Snack, and Why Each Convenience Store Has a Different Flavor",
       "contentPath": "content\\blog\\417.md",
       "sourceRecord": "public\\assets\\images\\posts\\417\\image-sources.md",
-      "imageCount": 3,
+      "imageCount": 4,
       "images": [
+        {
+          "url": "/assets/images/posts/417/gs25-storefront-korea.jpg",
+          "alt": "A GS25 convenience store branch in Korea, with Korean signage above the entrance.",
+          "caption": "A GS25 branch in Korea. Which of the three big chains you walk into decides which Kkokkalcorn flavour you can buy — GS25 has 마성옥수수맛 and nobody else does. Photo via Wikimedia Commons.",
+          "ext": ".jpg",
+          "exists": true
+        },
         {
           "url": "/assets/images/posts/417/kkokkalcorn-store-map.jpg",
           "alt": "Which Korean convenience store chain sells which Kkokkalcorn Yajang flavour: GS25 has 마성옥수수맛, CU has 워킹타코맛, 7-Eleven has 버터구이오징어맛, and 쌈장삼겹살맛 is sold through general retail.",
@@ -14879,8 +14907,15 @@
       "title": "Korean Food Prices in August 2026: What Already Rose, and What Changes on the 25th",
       "contentPath": "content\\blog\\418.md",
       "sourceRecord": "public\\assets\\images\\posts\\418\\image-sources.md",
-      "imageCount": 2,
+      "imageCount": 3,
       "images": [
+        {
+          "url": "/assets/images/posts/418/emart24-dongdaemun-store.jpg",
+          "alt": "Interior of an Emart24 convenience store in the Dongdaemun underground shopping centre, with snack racks and won price signs.",
+          "caption": "이마트24 동대문점. The shelves these increases land on: most bagged snacks sit at ₩1,700, and the coffee board behind shows ₩1,500 and ₩1,800. Photo via Wikimedia Commons.",
+          "ext": ".jpg",
+          "exists": true
+        },
         {
           "url": "/assets/images/posts/418/korea-price-calendar-2026-08.jpg",
           "alt": "Korea food price increases August-September 2026: Pulmuone 6.7% on 13 August, Nongshim 6% and 5.5% during August, Paris Baguette 5.0% on 25 August, Samlip about 9% in September.",
@@ -14904,8 +14939,22 @@
       "title": "Seoul Deleted Its Women-Only Parking: What Korean Gender Policy Actually Is in 2026",
       "contentPath": "content\\blog\\419.md",
       "sourceRecord": "public\\assets\\images\\posts\\419\\image-sources.md",
-      "imageCount": 2,
+      "imageCount": 4,
       "images": [
+        {
+          "url": "/assets/images/posts/419/seoul-metro-pregnant-seats.jpg",
+          "alt": "Pink priority seats for pregnant passengers on Seoul Metro Line 1, marked with a pregnancy pictogram and Korean signage.",
+          "caption": "임산부 배려석 on Seoul Metro Line 1. The word is 배려 — consideration — not 전용, exclusive use. There is no fine for sitting here, and if it is empty you may. Photo via Wikimedia Commons.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/419/frauenparkplatz-germany.jpg",
+          "alt": "A Frauenparkplatz sign in a German multi-storey car park, red lettering above a blue women's pictogram.",
+          "caption": "A Frauenparkplatz in a German car park. This is the original — Germany introduced women's parking bays in 1990, parts of the country still require them, and the federal anti-discrimination agency has ruled they are lawful. Korea imported the idea and Seoul dropped it first. Photo via Wikimedia Commons.",
+          "ext": ".jpg",
+          "exists": true
+        },
         {
           "url": "/assets/images/posts/419/korea-gender-policy-timeline.jpg",
           "alt": "Timeline of Korean gender policy changes: the 1999 Constitutional Court ruling striking down the military service exam bonus, the 2003 gender-equality hiring target system, Seoul's 2023 abolition of women-only parking, and the 2025 renaming and expansion of the ministry.",

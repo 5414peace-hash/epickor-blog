@@ -29,3 +29,12 @@ illustration of one.
 
 ## Cross-post uniqueness
 No stock photo IDs used.
+
+## street-bungeoppang-cart.jpg (1400x1050, 273KB) — hero / ogImage, added 2026-08-20
+Wikimedia Commons, `Bungeo ppang-Corée du Sud.JPG` (CC BY-SA 3.0). A real Korean street cart with
+fish cakes in hinged iron moulds.
+
+**This is deliberately not the product the article is about**, and the caption says so. 참붕어빵 is a
+boxed, shelf-stable cake; the article's own line is that liking one tells you nothing about the
+other. Showing the street original with an explicit contrast caption is the article's thesis made
+visible — but it would be a subject mismatch if the caption did not carry the correction.

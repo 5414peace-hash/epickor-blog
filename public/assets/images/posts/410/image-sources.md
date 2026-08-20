@@ -26,3 +26,9 @@ visible only on signage, and a five-year revenue and farm-supply series.
 
 ## Cross-post uniqueness
 No stock photo IDs used.
+
+## tornado-potato-spiral.jpg (1400x933, 48KB) — hero / ogImage, added 2026-08-20
+Pexels photo 8250332 by Julia Filirovska. Close-up of a spiral-cut potato on a skewer — the form
+the article is about. A culturally neutral close-up rather than a visibly foreign street scene,
+which is the sanctioned fallback when a Korea-specific frame is not available.
+Uniqueness checked before use: not used on any other EpicKor post.

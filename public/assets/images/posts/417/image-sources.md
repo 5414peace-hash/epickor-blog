@@ -46,3 +46,12 @@ article does not discuss. Using it would have put a product on the page that the
 ## Cross-post uniqueness
 No stock photo IDs used. The two charts are original to this post. The Lotte press image has not
 been used on any other EpicKor post.
+
+## gs25-storefront-korea.jpg (1400x1050, 116KB) — hero / ogImage, added 2026-08-20
+Wikimedia Commons, `GS25 Okcheon Museong Branch 20240730.jpg` (CC0). A real GS25 branch in Korea
+with Korean signage. Added because the post's first image was a chart, which made its card on the
+home grid read as a text panel rather than an article.
+
+**Rejected: Pexels 20124001**, a GS25 storefront that alt text described only as "convenience store
+entrance". The upper floors of the building carry Vietnamese signage — it is a GS25 in Vietnam.
+The chain is Korean; that branch is not. Caught by looking at the file, not the caption.

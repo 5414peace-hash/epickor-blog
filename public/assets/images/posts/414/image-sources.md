@@ -34,3 +34,8 @@ article contrasts the two markets.
 
 ## Cross-post uniqueness
 No stock photo IDs used. The Nongshim USA product image appears in no other EpicKor post.
+
+## jagalchi-market-busan.jpg (1400x933, 255KB) — hero / ogImage, added 2026-08-20
+Pexels photo 29150602 by Bruna Santos. Inside Jagalchi fish market in Busan, Korean stall signage
+(신경북상회) overhead. This is the place the snack is named after, so it is the subject rather than
+a mood shot. Uniqueness checked before use: not used on any other EpicKor post.

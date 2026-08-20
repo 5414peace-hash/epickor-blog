@@ -32,3 +32,15 @@ Korean retail price reporting, checked August 2026.
 
 ## Cross-post uniqueness
 No stock photo IDs used. Both charts are original to this post.
+
+## emart24-dongdaemun-store.jpg (1400x933, 218KB) — hero / ogImage, added 2026-08-20
+Wikimedia Commons, `Emart 24 in Cheonggye 6 ga underground shopping centre - 이마트24 동대문점.jpg`
+(CC BY-SA 4.0). A Korean convenience store interior with snack racks and won price boards visible —
+the exact shelf these price increases land on.
+
+**Rejected: Pexels 21582447 and 15225307**, both described as supermarket snack aisles. The
+packaging in each is Southeast Asian (Oishi, Vietnamese lettering), which is disqualifying for a
+Korea explainer.
+**Rejected: the Paris Baguette photographs on Commons** (Sarah Stierch, November 2025, CC0). They
+are United States branches — strip-mall siting, English-only signage. This article quotes Korean
+won prices; a US store would misrepresent them.
