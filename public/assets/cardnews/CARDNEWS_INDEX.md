@@ -5,6 +5,8 @@ Folder naming rule: `YYYY-MM-DD_slug`
 The date is the card-news production/final-save date from `HANDOFF.md`.
 Instagram upload is representative-managed. As of 2026-07-02, the representative confirmed all card-news assets listed through `2026-06-28_249` are approved and scheduled. Rows produced afterward keep their own upload status.
 
+**2026-08-20 새 항목 — `2026-08-20_200` 추석 예매편은 아직 예약되지 않았다.** 이 카로셀은 날짜가 유효기간을 갖는다: 예매가 **9월 7~11일**이라 그 뒤에 나가면 쓸모가 없다. 대표님이 2026-08-20에 삽입을 승인했으나 08-21~09-17 캘린더가 꽉 차 있어 **기존 예약 하나를 뒤로 미뤄야** 한다. 스케줄러에서 직접 처리할 것.
+
 **2026-08-20 correction (two separate errors, both found by reading the Meta planner instead of this file):**
 
 1. `musinsa` was recorded here as `2026-09-17 05:00` but the planner actually had it on **2026-09-03 오후 8:00**, on top of the `395` carousel already at 05:00 that day. So 09-03 carried two Instagram posts 15 hours apart and 09-17 was empty. Both rows (FB + IG) were moved to 2026-09-17 05:00 via 게시물 상세 → 옵션 → 게시물 관리 → 게시물 일정 조정, and the full list re-read: **2026-08-21 through 09-17, 28 consecutive days, zero empty days, zero doubles.** Writing the intended date here is not the same as verifying the scheduled one.
@@ -88,3 +90,4 @@ Instagram upload is representative-managed. As of 2026-07-02, the representative
 | `2026-08-17_395` | 395 | COSRX Snail 96 — RX Label | 7 | 제작완료·검수완료 (VF 93.9) | scheduled 2026-09-03 05:00 KST (Meta Suite, 2026-08-18)| /blog/395 |
 | `2026-08-17_392` | 392 | Kimchi Refrigerator — Earth Gauge | 7 | 제작완료·검수완료 (VF 94.7) | scheduled 2026-09-04 05:00 KST (Meta Suite, 2026-08-18)| /blog/392 |
 | `2026-08-17_394` | 394 | Korean Massage Chairs — Showroom Menu | 7 | 제작완료·검수완료 (VF 93.3) | scheduled 2026-09-05 05:00 KST (Meta Suite, 2026-08-18)| /blog/394 |
+| `2026-08-20_200` | 200 | Chuseok 2026 Train Tickets: Your Route Has Its Own Booking Day | 7 | rendered + structural gate PASS + caption ready | **NOT YET SCHEDULED — needs a slot before 2026-09-07.** Booking opens 09-07 and closes 09-11, so a slot after that date is worthless. Representative approved insertion 2026-08-20; the 08-21→09-17 calendar is full, so one existing post must move later. |
