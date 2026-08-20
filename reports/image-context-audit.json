@@ -1,10 +1,10 @@
 {
   "summary": {
-    "generatedAt": "2026-08-20T13:27:47.629Z",
+    "generatedAt": "2026-08-20T13:57:24.243Z",
     "auditedPosts": 411,
     "includedPrivate": false,
     "slugFilter": "",
-    "bodyImages": 1442,
+    "bodyImages": 1448,
     "affectedPosts": 97,
     "critical": 0,
     "high": 0,
@@ -14533,8 +14533,15 @@
       "title": "Orion Squid Peanut: Korea's Beer Snack Is Coated Twenty-Eight Times",
       "contentPath": "content\\blog\\405.md",
       "sourceRecord": "public\\assets\\images\\posts\\405\\image-sources.md",
-      "imageCount": 2,
+      "imageCount": 3,
       "images": [
+        {
+          "url": "/assets/images/posts/405/orion-squid-peanut-pack.jpg",
+          "alt": "The Orion Squid Peanut pack, a blue bag printed 오징어땅콩 with a large 50 and 원조.",
+          "caption": "오리온 오징어땅콩 in its current pack. The bag carries the anniversary this article is about — 50년 원조, with SINCE 1976 along the bottom. Image: Orion product listing.",
+          "ext": ".jpg",
+          "exists": true
+        },
         {
           "url": "/assets/images/posts/405/squid-peanut-anatomy.jpg",
           "alt": "Diagram of an Orion squid peanut: a Spanish-type peanut core, about 28 baked coats of batter forming a net-like lattice, and squid strips 0.2 mm or thinner on the outside.",
@@ -14558,8 +14565,15 @@
       "title": "Jayu Sigan: The Korean Chocolate Bar Designed to Leave No Evidence",
       "contentPath": "content\\blog\\406.md",
       "sourceRecord": "public\\assets\\images\\posts\\406\\image-sources.md",
-      "imageCount": 2,
+      "imageCount": 3,
       "images": [
+        {
+          "url": "/assets/images/posts/406/jayu-sigan-bar-pack.jpg",
+          "alt": "The Haitai Jayu Sigan chocolate bar in its cream and gold wrapper printed 자유시간.",
+          "caption": "해태 자유시간 in its standard wrapper. The bar inside is the one designed in 1990 to leave nothing behind on your teeth. Image: Haitai product listing.",
+          "ext": ".jpg",
+          "exists": true
+        },
         {
           "url": "/assets/images/posts/406/jayu-sigan-design-brief.jpg",
           "alt": "Chart comparing the 1990 design brief for 자유시간 with the 2026 consumer verdict on the original bar.",
@@ -14608,8 +14622,15 @@
       "title": "Samanco: Korea's Fish-Shaped Ice Cream Is Named 'Cheap and Plentiful'",
       "contentPath": "content\\blog\\408.md",
       "sourceRecord": "public\\assets\\images\\posts\\408\\image-sources.md",
-      "imageCount": 2,
+      "imageCount": 3,
       "images": [
+        {
+          "url": "/assets/images/posts/408/samanco-pack-binggrae.jpg",
+          "alt": "The Binggrae Samanco pack, a red wrapper printed 떡붕어싸만코 showing a cut-away fish-shaped ice cream sandwich.",
+          "caption": "빙그레 떡붕어싸만코, the current form of the line. SINCE 1991 runs across the top — the year the fish shape arrived, fourteen years after the 싸만코 name itself. Image: Binggrae product page.",
+          "ext": ".jpg",
+          "exists": true
+        },
         {
           "url": "/assets/images/posts/408/samanco-name-and-history.jpg",
           "alt": "Diagram of the Samanco name: 싸고 plus 만코 meaning cheap and plentiful, with a timeline showing the 1976 square launch and the 1990 fish-shaped version.",
@@ -14633,8 +14654,15 @@
       "title": "Delaffe: Korea's Convenience-Store Coffee Brand That Cut Its Price to ₩900",
       "contentPath": "content\\blog\\409.md",
       "sourceRecord": "public\\assets\\images\\posts\\409\\image-sources.md",
-      "imageCount": 2,
+      "imageCount": 3,
       "images": [
+        {
+          "url": "/assets/images/posts/409/cu-convenience-store-korea.jpg",
+          "alt": "Interior of a CU convenience store in Korea, aisles of snacks and drinks with an ice cream chest freezer.",
+          "caption": "A CU store in Korea. Delaffe is CU’s own brand, so this is the only counter it is sold over — and the ice chest in the middle is where the separately bought cup of ice comes from. Photo via Wikimedia Commons.",
+          "ext": ".jpg",
+          "exists": true
+        },
         {
           "url": "/assets/images/posts/409/delaffe-900-won-lineup.jpg",
           "alt": "Chart of the five Delaffe pouches priced at 900 won in March 2026 — 블랙 아메리카노, 스위트 아메리카노, 헤이즐넛, 복숭아 아이스티, 블루레몬 에이드 — with a price ladder comparing 1,500 won bundled against Compose Coffee 1,800, Mega Coffee 2,000 and Starbucks Korea 4,700.",
@@ -14690,8 +14718,15 @@
       "title": "Korean Custard Cake: Lotte Invented It, Orion Copied It — the Reverse of Choco Pie",
       "contentPath": "content\\blog\\411.md",
       "sourceRecord": "public\\assets\\images\\posts\\411\\image-sources.md",
-      "imageCount": 2,
+      "imageCount": 3,
       "images": [
+        {
+          "url": "/assets/images/posts/411/orion-custard-pack.jpg",
+          "alt": "The Orion Custard pack, a green and yellow box printed 오리온 카스타드 with a cut-away sponge cake.",
+          "caption": "오리온 카스타드. Lotte launched a custard cake in 1989 and Orion followed in 2004 — this is the later box, and the argument in this article is about what each one claims about its eggs. Image: Orion product listing.",
+          "ext": ".jpg",
+          "exists": true
+        },
         {
           "url": "/assets/images/posts/411/custard-lotte-vs-orion.jpg",
           "alt": "Comparison of 롯데 카스타드 and 오리온 카스타드: Lotte launched in Korea November 1989 after Japan September 1986 with 24% egg content, Orion launched 2004 with a 계란을 듬뿍 package claim and 23.39% egg content, plus a panel noting Custard is the mirror image of the Choco Pie origin dispute.",
@@ -14715,8 +14750,15 @@
       "title": "Chaltteok Pie: The Korean Mochi Snack Behind the Dubai Chocolate Craze",
       "contentPath": "content\\blog\\412.md",
       "sourceRecord": "public\\assets\\images\\posts\\412\\image-sources.md",
-      "imageCount": 2,
+      "imageCount": 3,
       "images": [
+        {
+          "url": "/assets/images/posts/412/chaltteok-pie-box-lotte.jpg",
+          "alt": "The Lotte Myeongga Chaltteok Pie box, printed 명가 찰떡파이 with a cut-away pie showing chocolate and rice cake.",
+          "caption": "롯데 명가 찰떡파이, 10봉입. The box shows the cut-away the whole Dubai-chocolate craze is built on — chocolate over glutinous rice cake. Image: retailer listing of the manufacturer's pack photography.",
+          "ext": ".jpg",
+          "exists": true
+        },
         {
           "url": "/assets/images/posts/412/chaltteok-pie-timeline.jpg",
           "alt": "Timeline of 찰떡파이 from Samjin Food's 1998 launch and 1999 patent through beating Orion Choco Pie in the military PX in 2000, Lotte's 2001 OEM contract, the 2002 trade secret extending shelf life from ten weeks to five months, the R&D head leaving in 2003 with the secrets on a laptop, the competitor patenting the method in 2005, and the Supreme Court voiding that patent on 7 October 2011.",

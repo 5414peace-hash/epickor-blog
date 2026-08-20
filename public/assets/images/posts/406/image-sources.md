@@ -22,3 +22,7 @@ That contrast is the piece.
 The second exists because the practical decision here is **format before flavour**. One product
 name covers 47 to 313 calories, a six-fold range, and the mini is the only size that delivers what
 the name promises.
+
+## jayu-sigan-bar-pack.jpg (1400x900) — hero / ogImage, added 2026-08-20
+Haitai's own product listing, `haitaimall.co.kr/web/product/medium/{YYYYMM}/{hash}.jpg`. The standard
+자유시간 bar rather than the 쿠키앤크림 or Mini variants, which are different products.

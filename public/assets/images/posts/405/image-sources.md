@@ -23,3 +23,8 @@ Neither is decoration standing in for a missing photograph. The anatomy diagram 
 the article exists for — a peanut wrapped 28 times, 27 if it is large and 29 if it is small, under
 a squid layer 0.2 mm thick — and a pack shot could not show any of that. The timeline carries the
 second argument, that fifty years of flavour extensions have all been outlived by the 1976 recipe.
+
+## orion-squid-peanut-pack.jpg (1400x900) — hero / ogImage, added 2026-08-20
+Orion's own product listing, `orionworld.com/upload/goods/{hash}.png`. The pack carries 50년 원조 and
+SINCE 1976, which is the anniversary the article is about. Replaces a chart that was serving as the
+home-grid card.

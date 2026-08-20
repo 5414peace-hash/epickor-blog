@@ -24,3 +24,8 @@ price curve are not photographable subjects.
 
 ## Cross-post uniqueness
 No stock photo IDs used.
+
+## cu-convenience-store-korea.jpg (1400x1050) — hero / ogImage, added 2026-08-20
+Wikimedia Commons, `2020-03-20 20.05.17 CU 원주단구2차점.jpg` (CC0). Delaffe is CU's own brand, so a CU
+store is the only counter it is sold over — and the ice chest in frame is where the separately bought
+cup of ice comes from.

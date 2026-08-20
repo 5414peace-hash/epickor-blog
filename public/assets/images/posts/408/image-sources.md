@@ -28,3 +28,8 @@ price spread are not photographable subjects.
 ## Cross-post uniqueness
 No stock photo IDs used, so nothing to collide with. `audit:image-uniqueness` has nothing
 to key off for this post by design.
+
+## samanco-pack-binggrae.jpg (1400x900) — hero / ogImage, added 2026-08-20
+Binggrae's own product page, `bing.co.kr/upload/product/{YYYY}/{MM}/{uuid}.png`. This is the
+떡붕어싸만코 pack, which is the current form of the line, and the caption names it as such rather than
+implying it is the 1991 original. SINCE 1991 on the wrapper matches the history in the text.

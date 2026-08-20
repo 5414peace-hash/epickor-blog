@@ -25,3 +25,10 @@ percentages side by side — which no single photograph could.
 
 ## Cross-post uniqueness
 No stock photo IDs used.
+
+## orion-custard-pack.jpg (1400x900) — hero / ogImage, added 2026-08-20
+Orion's own product listing, `orionworld.com/upload/goods/{hash}.png`.
+
+**Rejected: Lotte's `brand/hero/custard` imagery** — the page's photographs are storytelling
+illustrations (children, a bird) rather than the product, and `img_product_more*` on the same site
+returns Xylitol, Pepero and Pasteur milk.

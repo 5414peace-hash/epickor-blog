@@ -33,3 +33,9 @@ carries a court judgment no photograph could.
 
 ## Cross-post uniqueness
 No stock photo IDs used.
+
+## chaltteok-pie-box-lotte.jpg (1400x900) — hero / ogImage, added 2026-08-20
+Manufacturer pack photography as published on a retailer listing
+(`static.megamart.com/product/image/...`), 960x960 original. Lotte does not expose a usable product
+page for this item; its `brand/hero/*` routes 500 and the press archive only carries the 부여 알밤
+seasonal variant, which is a different product from the one this article is about.
