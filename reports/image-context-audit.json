@@ -1,10 +1,10 @@
 {
   "summary": {
-    "generatedAt": "2026-08-20T13:19:08.320Z",
+    "generatedAt": "2026-08-20T13:27:47.629Z",
     "auditedPosts": 411,
     "includedPrivate": false,
     "slugFilter": "",
-    "bodyImages": 1441,
+    "bodyImages": 1442,
     "affectedPosts": 97,
     "critical": 0,
     "high": 0,
@@ -14811,8 +14811,15 @@
       "title": "Gooun Gamja: What Korea's Baked Potato Snack Is Actually Made Of",
       "contentPath": "content\\blog\\415.md",
       "sourceRecord": "public\\assets\\images\\posts\\415\\image-sources.md",
-      "imageCount": 2,
+      "imageCount": 3,
       "images": [
+        {
+          "url": "/assets/images/posts/415/gooun-gamja-pack.jpg",
+          "alt": "The Haitai Gooun Gamja pack, a tall yellow carton printed with 구운감자 and the Haitai logo.",
+          "caption": "해태 구운감자 in its own packaging. The box copy makes two claims about texture — 똑! 소리나는 고소함 and 딱! 부러지는 깔끔함 — before it says anything about potato. Image: Haitai product listing.",
+          "ext": ".jpg",
+          "exists": true
+        },
         {
           "url": "/assets/images/posts/415/gooun-gamja-product-line.jpg",
           "alt": "Chart of Haitai's 구운 product family from 구운감자 in 1997 through 구운감자 슬림 in 2017, 구운고구마 in 2019, Texas hot barbecue flavour in April 2022, 구운옥수수 in 2022, hot grilled BBQ in 2023, 구운두유 black bean in 2023 and chipotle taco in 2024.",

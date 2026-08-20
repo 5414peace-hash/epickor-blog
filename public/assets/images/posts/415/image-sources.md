@@ -28,3 +28,13 @@ Checked and rejected:
 
 ## Cross-post uniqueness
 No stock photo IDs used.
+
+## gooun-gamja-pack.jpg (1400x900, 45KB) — hero / ogImage, added 2026-08-20
+Haitai's own product listing (haitaimall.co.kr), cropped to the pack and set on a neutral card
+canvas. Added because this post opened with a chart, which made its card on the home grid read as
+a text panel.
+
+**Rejected: Lotte's 카스타드 brand-page imagery and `img_product_more*`** — the first is a
+storytelling illustration, the rest are Xylitol, Pepero and Pasteur milk. Wrong products.
+**Rejected: the 부여 알밤 press photograph** — it does show 찰떡파이 and 카스타드, but as chestnut
+limited editions rather than the standard products these posts are about.
