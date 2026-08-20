@@ -7,9 +7,12 @@
  * That is a 25x widening of the query universe we can actually see.
  * (docs/keyword-selection-playbook.md §1)
  *
- * Auth: service account. No OAuth flow, no browser, no card on file.
- * Setup is documented in docs/gsc-api-setup.md — the representative does 4 clicks
- * in Google Cloud + 1 in Search Console, once.
+ * Auth (2026-08-20): OAuth token from the 5414 account, readonly scope, stored
+ * in secrets/gsc_oauth_client.json + secrets/gsc_oauth_token.json (gitignored;
+ * copied from D:\dev\blog-news\secrets, same pattern as its gsc_api_tool.mjs).
+ * That token already covers https://www.epickor.com/ as siteOwner, so the
+ * service-account setup below is no longer required — it remains as a fallback
+ * if a key file is ever provided.
  *
  * Usage:
  *   node scripts/gsc-fetch.mjs                       # last 3 months, queries
@@ -76,27 +79,37 @@ function fail(msg, hint) {
   process.exit(1);
 }
 
-if (!existsSync(KEY_FILE)) {
+const OAUTH_CLIENT = join(ROOT, 'secrets/gsc_oauth_client.json');
+const OAUTH_TOKEN = join(ROOT, 'secrets/gsc_oauth_token.json');
+
+function buildAuth() {
+  if (existsSync(KEY_FILE)) {
+    return new google.auth.GoogleAuth({
+      keyFile: KEY_FILE,
+      scopes: ['https://www.googleapis.com/auth/webmasters.readonly'],
+    });
+  }
+  if (existsSync(OAUTH_CLIENT) && existsSync(OAUTH_TOKEN)) {
+    const raw = JSON.parse(readFileSync(OAUTH_CLIENT, 'utf8'));
+    const cfg = raw.installed || raw.web;
+    const token = JSON.parse(readFileSync(OAUTH_TOKEN, 'utf8'));
+    const oauth2 = new google.auth.OAuth2(cfg.client_id, cfg.client_secret);
+    oauth2.setCredentials({ refresh_token: token.refresh_token });
+    return oauth2;
+  }
   fail(
-    `Service account key not found: ${KEY_FILE}`,
-    `Setup is a one-time, ~10 minute job. Full walkthrough:\n` +
-    `  docs/gsc-api-setup.md\n\n` +
-    `Short version:\n` +
-    `  1. console.cloud.google.com → create a project (free, no card)\n` +
-    `  2. Enable "Google Search Console API"\n` +
-    `  3. Create a service account → create a JSON key → save it as\n` +
-    `     ${KEY_FILE}\n` +
-    `  4. In Search Console → Settings → Users and permissions →\n` +
-    `     add the service account's email as a "Full" user\n\n` +
-    `The key file is gitignored. Never commit it.`
+    `No credentials found.`,
+    `Either of these works:\n` +
+    `  A. OAuth (current setup): copy gsc_oauth_client.json + gsc_oauth_token.json\n` +
+    `     from D:\\dev\\blog-news\\secrets\\ into ${join(ROOT, 'secrets')}\\\n` +
+    `  B. Service account: save a key as ${KEY_FILE}\n` +
+    `     and add its client_email as a user in Search Console.\n\n` +
+    `Both paths are gitignored. Never commit credentials.`
   );
 }
 
 async function main() {
-  const auth = new google.auth.GoogleAuth({
-    keyFile: KEY_FILE,
-    scopes: ['https://www.googleapis.com/auth/webmasters.readonly'],
-  });
+  const auth = buildAuth();
 
   const searchconsole = google.searchconsole({ version: 'v1', auth });
 

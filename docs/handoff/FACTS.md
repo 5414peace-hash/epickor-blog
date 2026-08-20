@@ -2129,3 +2129,24 @@
   **규칙: 발행 후 수정은 `content/blog/`를 직접 고친다.** 초안을 유지해야 하면 양쪽을 같이 바꾼다.
   **발행 배치 끝에는 반드시 라이브 URL을 200으로 확인한다** — 이번엔 그 확인이 유일한 탐지 수단이었다.
   *Verified:* 402가 403~406과 달리 404였고 원인이 frontmatter 1줄, 2026-08-18.
+
+- **2026-08-20 — GSC API 직접 접근 확보. UI 내보내기와 서비스 계정 설정 둘 다 불필요해졌다.**
+  blog-news의 OAuth 자격증명(`D:\dev\blog-news\secrets\gsc_oauth_client.json` + `gsc_oauth_token.json`,
+  5414 계정, `webmasters.readonly` 스코프)이 `https://www.epickor.com/`을 **siteOwner**로 이미 커버한다.
+  이 저장소 `secrets/`(gitignore됨)로 복사해 두었다. 추출 도구는 **`node scripts/gsc-pull.mjs`**
+  (의존성 없는 raw fetch — `googleapis` 기반 `gsc-fetch.mjs`는 이 환경에서 로드에 120초+ 걸려 행이 걸림;
+  OAuth 폴백은 추가해 뒀지만 실사용은 gsc-pull). URL Inspection API도 같은 토큰으로 동작한다.
+  *Verified:* `--sites` 목록에서 siteOwner 확인, 쿼리 9,675행·페이지 456행 추출 성공, 402~416 15편
+  전수 색인 검사 성공, 2026-08-20.
+
+- **2026-08-20 — 클릭의 76.9%는 익명화 쿼리에서 온다 (API 전수 실측).** 93일 창(5/18~8/18) 사이트 총
+  1,898클릭 중 API 최대 깊이(9,675쿼리)에 보이는 클릭은 438개뿐. 나머지 1,460개는 구글이 공개하지
+  않는 초롱테일이다. **쿼리 차원으로 성과를 재면 1/4로 오독한다** — 페이지·날짜 차원으로 잰다.
+  *Verified:* `query` vs `date` 차원 합계 대조, 2026-08-20.
+
+- **2026-08-20 — 노출의 11%가 TRANSLATED_RESULT(자동번역 SERP), 33%가 인도·인니·필리핀이다.**
+  searchAppearance 실측: TRANSLATED_RESULT 49,513노출/23클릭(0.05%). 국가별: ind 58.7k + idn 52.1k
+  + phl 38.5k = 149k노출(33%)/262클릭. 인니어 쿼리의 정체가 이것. 사이트 집계 CTR을 읽을 때 이
+  노출은 기회로 세지 말 것. 반대로 **한국(CTR 1.30%)·싱가포르(1.07%)가 대형 국가 중 1~2위** —
+  한국 체류 영어 사용자가 최고 독자다.
+  *Verified:* `searchAppearance`·`country` 차원 추출, 2026-08-20.

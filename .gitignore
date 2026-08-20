@@ -151,3 +151,6 @@ next-env.d.ts
 # GSC service account key - NEVER commit (grants read access to Search Console)
 /.gsc-service-account.json
 /output/gsc/api/
+
+# GSC OAuth credentials (readonly scope, 5414 account) — never commit
+/secrets/
