@@ -1,10 +1,10 @@
 {
   "summary": {
-    "generatedAt": "2026-08-20T09:08:03.481Z",
-    "auditedPosts": 408,
+    "generatedAt": "2026-08-20T11:04:04.692Z",
+    "auditedPosts": 410,
     "includedPrivate": false,
     "slugFilter": "",
-    "bodyImages": 1427,
+    "bodyImages": 1432,
     "affectedPosts": 97,
     "critical": 0,
     "high": 0,
@@ -14835,6 +14835,63 @@
           "url": "/assets/images/posts/416/cham-bungeoppang-four-names.jpg",
           "alt": "Chart of the four market names: 참붕어빵 in Korea from May 2011, 小鱼糯糯 in China from 2019, Bống Bang in Vietnam from 2024 after the Tấm Cám folktale, and Bungo in Russia, with global sales past 40 billion won.",
           "caption": "EpicKor chart.",
+          "ext": ".jpg",
+          "exists": true
+        }
+      ],
+      "findings": []
+    },
+    {
+      "type": "blog",
+      "slug": "417",
+      "title": "Kkokkalcorn: Korea's Cone Snack, and Why Each Convenience Store Has a Different Flavor",
+      "contentPath": "content\\blog\\417.md",
+      "sourceRecord": "public\\assets\\images\\posts\\417\\image-sources.md",
+      "imageCount": 3,
+      "images": [
+        {
+          "url": "/assets/images/posts/417/kkokkalcorn-store-map.jpg",
+          "alt": "Which Korean convenience store chain sells which Kkokkalcorn Yajang flavour: GS25 has 마성옥수수맛, CU has 워킹타코맛, 7-Eleven has 버터구이오징어맛, and 쌈장삼겹살맛 is sold through general retail.",
+          "caption": "The split that started the 편의점 투어. Three of the four flavours are locked to one chain each, so the set cannot be bought in a single shop. EpicKor original chart, built from Lotte Wellfood's announced distribution.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/417/kkokkalcorn-price-per-gram.jpg",
+          "alt": "Cost per gram of Kkokkalcorn: ₩25.4 at a convenience store 67g bag, ₩20.3 for the 134g 쌈장삼겹살맛 at Lotte's mall, ₩17.9 for the 134g classic flavours.",
+          "caption": "The same snack costs about 42% more per gram at the convenience store counter than in the large bag. That premium is what buys you access to the chain exclusives. EpicKor original chart; prices checked August 2026.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/417/kkokkalcorn-classic-lineup.jpg",
+          "alt": "The four year-round Kkokkalcorn flavours in Lotte's own product photography.",
+          "caption": "Lotte's product shot of the permanent lineup — 고소한맛, 군옥수수맛, 매콤달콤맛 and 허니버터맛. These four are the ones you can buy any day of the year; the Yajang flavours above are the season-limited additions. Image: Lotte Wellfood press material.",
+          "ext": ".jpg",
+          "exists": true
+        }
+      ],
+      "findings": []
+    },
+    {
+      "type": "blog",
+      "slug": "418",
+      "title": "Korean Food Prices in August 2026: What Already Rose, and What Changes on the 25th",
+      "contentPath": "content\\blog\\418.md",
+      "sourceRecord": "public\\assets\\images\\posts\\418\\image-sources.md",
+      "imageCount": 2,
+      "images": [
+        {
+          "url": "/assets/images/posts/418/korea-price-calendar-2026-08.jpg",
+          "alt": "Korea food price increases August-September 2026: Pulmuone 6.7% on 13 August, Nongshim 6% and 5.5% during August, Paris Baguette 5.0% on 25 August, Samlip about 9% in September.",
+          "caption": "Four company decisions inside three weeks, driven by the same wheat and packaging costs. The two marked in red have not taken effect yet. EpicKor original chart from company announcements, 13–17 August 2026.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/418/korea-snack-price-tiers.jpg",
+          "alt": "Korean convenience store snack price tiers in August 2026: nothing at ₩1,000, most famous bags at ₩1,700, Home Run Ball at ₩1,900, Pepero at ₩2,000.",
+          "caption": "The ₩1,000 tier is empty, ₩1,700 holds most of the famous bags, and two products have already broken above it. EpicKor original chart; prices checked August 2026.",
           "ext": ".jpg",
           "exists": true
         }

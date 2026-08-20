@@ -3356,9 +3356,10 @@
         "CookAtHome"
       ],
       "amazon_category": "Food",
-      "status": "blocked_no_imagery",
+      "status": "rejected_duplicate",
       "generated_date": "2026-07-26",
-      "note": "Added 2026-07-26 under the new Topic Engine rule. DEMAND: deli manjoo is EpicKor s single strongest franchise - a 37-query cluster at 8,860 impressions / 86 clicks, ranking position 3-7. Recipe intent is proven inside it: deli manjoo recipe 39 imp / 2 clicks = 5.13% CTR, delimanjoo recipe 63 imp / 1 click. DEDUP: 071 is What Is Deli Manjoo (explainer), 220 is a subway snacks roundup; neither contains a recipe. Labelled as a deliberate cluster spin-off of 071, not a fresh topic. MONETIZATION: madeleine/custard pan, corn extract, piping bag - direct Amazon fit. | 2026-07-26 IMAGE GATE FAIL: Wikimedia Commons has exactly one delimanjoo photo and Pexels has none (it returned hodu-gwaja walnut cookies and an unrelated sandwich). A recipe post additionally needs process shots - batter, pan, filling, finished tray - which do not exist under any usable licence, and EpicKor does not shoot its own food photography. Post 071 owns real delimanjoo frames but the 2026-07-25 cross-post image-uniqueness rule forbids reusing them. Parked rather than illustrated with a plausible substitute. UNBLOCK IF: EpicKor shoots its own process photos, or a licence-safe delimanjoo set appears."
+      "note": "Added 2026-07-26 under the new Topic Engine rule. DEMAND: deli manjoo is EpicKor s single strongest franchise - a 37-query cluster at 8,860 impressions / 86 clicks, ranking position 3-7. Recipe intent is proven inside it: deli manjoo recipe 39 imp / 2 clicks = 5.13% CTR, delimanjoo recipe 63 imp / 1 click. DEDUP: 071 is What Is Deli Manjoo (explainer), 220 is a subway snacks roundup; neither contains a recipe. Labelled as a deliberate cluster spin-off of 071, not a fresh topic. MONETIZATION: madeleine/custard pan, corn extract, piping bag - direct Amazon fit. | 2026-07-26 IMAGE GATE FAIL: Wikimedia Commons has exactly one delimanjoo photo and Pexels has none (it returned hodu-gwaja walnut cookies and an unrelated sandwich). A recipe post additionally needs process shots - batter, pan, filling, finished tray - which do not exist under any usable licence, and EpicKor does not shoot its own food photography. Post 071 owns real delimanjoo frames but the 2026-07-25 cross-post image-uniqueness rule forbids reusing them. Parked rather than illustrated with a plausible substitute. UNBLOCK IF: EpicKor shoots its own process photos, or a licence-safe delimanjoo set appears.",
+      "notes": " | 2026-08-20 기각 (대표님 승인). 중복 감사에서 071이 이미 이 검색 의도를 정면으로 답하고 있음이 드러났다 — 071 본문에 \"For the people who searched deli manjoo recipe\" 문단이 있고 마들렌 팬 대안과 아마존 CTA까지 들어 있다. 실제로 `delimanjoo recipe` 2.6위 / `deli manjoo recipe` 6.0위 (GSC 2026-08-20 실측, 합계 107노출 3클릭). 별도 글은 같은 쿼리 클러스터를 자기잠식한다. 재론 금지."
     },
     {
       "id": 153,
@@ -4145,7 +4146,7 @@
     },
     {
       "id": 189,
-      "title": "Kkokkal Corn: The Korean Snack You Wear on Your Fingers",
+      "title": "Kkokkalcorn: Korea's Cone Snack, and Why Each Convenience Store Has a Different Flavor",
       "target_keyword": "kkokkal corn",
       "keyword_shape": "identity_specific_product",
       "category": "Food",
@@ -4154,9 +4155,10 @@
         "LotteWellfood"
       ],
       "amazon_category": "Food",
-      "status": "held",
+      "status": "done",
       "cycle": "2026-W32c",
-      "notes": "HELD, not rejected. Coverage gate passes cleanly (retail listings + namu EN only) and the physical hook is excellent - Koreans put them on their fingertips and eat them off. Killed on demand: Google returns 2 branches. Representative was asked whether to run it standalone or fold the detail into an existing snack post; no answer given, so it stays held. Launched 1983-09-23; name is a pun on 고깔 (cone) and corn."
+      "notes": "HELD, not rejected. Coverage gate passes cleanly (retail listings + namu EN only) and the physical hook is excellent - Koreans put them on their fingertips and eat them off. Killed on demand: Google returns 2 branches. Representative was asked whether to run it standalone or fold the detail into an existing snack post; no answer given, so it stays held. Launched 1983-09-23; name is a pun on 고깔 (cone) and corn. | 2026-08-20 대표님 승인 후 발행 (slug 417). 원래 훅(손가락에 끼워 먹기)은 유지하되 각도를 바꿨다 — 롯데웰푸드가 야장시리즈 4종을 편의점별로 쪼개 팔아 \"편의점 투어\" 현상이 생겼고, 그게 독자가 실제로 행동하는 지점(어느 편의점에 들어갈지)이라 리드로 올렸다. 영어권 커버리지 0건 실측.",
+      "generated_slug": "417"
     },
     {
       "id": 190,
@@ -4461,6 +4463,23 @@
       "status": "done",
       "generated_slug": "386",
       "note": "W34b 키워드 사이클 승인 후보. Two-Curl: 편의점 와인 KR 10가지(전부 상업어) / EN 0가지. 전통주 온라인 판매 예외가 집필 중 발견돼 글의 전제를 정정함."
+    },
+    {
+      "id": 205,
+      "title": "Korean Food Prices in August 2026: What Already Rose, and What Changes on the 25th",
+      "target_keyword": "korean food prices 2026",
+      "keyword_shape": "action_decision_dated",
+      "category": "Food",
+      "tags": [
+        "KoreanFood",
+        "ConvenienceStore",
+        "KoreaTravel"
+      ],
+      "amazon_category": "Food",
+      "status": "done",
+      "generated_slug": "418",
+      "cycle": "2026-W34",
+      "notes": "2026-08-20 대표님 승인 후 발행. 수요 근거는 외부(머니투데이 8/17 · 뉴스핌/파이낸셜/한경/헤럴드 8/14). 4개사 인상이 3주 안에 몰린 것 + 파리바게뜨 8/25가 아직 안 왔다는 점이 행동 프레임. 중복 감사: 개별 제품 가격 글(219 라면·279 김·409 델라페·259 빙수·387 하이볼)이 이미 있어 일반 물가 글이 아니라 \"무엇이 언제 오르는가\" 달력 + 그 클러스터의 진입점으로 잡았다. 약점은 아마존 적합도(질문 4)로, 수입가 대비 비교 각도로만 붙였다."
     }
   ],
   "last_updated": "2026-08-08",
