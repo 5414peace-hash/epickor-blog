@@ -19,10 +19,31 @@
  *   - `status` is preserved from the previous queue file, so manual notes and
  *     deliberate skips survive regeneration.
  *
+ * ── Second lane added 2026-08-20: `push` ──────────────────────────────────
+ * The spec lane above answers exactly one question — "which food-ish post is
+ * missing spec markers?" — and by 2026-08-20 it had answered it: 31 entries
+ * left, all tier 3, the leftovers the spec fits worst.
+ *
+ * Worse, it was structurally blind to the site's best work. Two lines did it:
+ * the `!specApplied` filter drops a post the moment it has ₩ and Hangul, and the
+ * food filter never admits a non-food post at all. So `071` (refreshed 07-31,
+ * therefore "done") sat with **8,259 impressions parked at position 4-9** and
+ * never appeared, and neither did `181` or `043`, which are not food.
+ *
+ * The push lane asks a different question: **which published page already has a
+ * large impression pool sitting just off the top of page one?** That is where a
+ * refresh actually converts — site-wide CTR is 1.53% at positions 1-3 and 0.14%
+ * at 5-11, and 87% of impressions sit below position 5.
+ *
+ * It reads the query×page cross-tab and **discards quote-operator queries first**.
+ * Without that filter this lane's top recommendation would be 074, whose 2,459
+ * bot impressions look exactly like a great opportunity. See scripts/lib/gsc.mjs.
+ *
  * Run: node scripts/build-refresh-queue.mjs
  */
 import fs from 'node:fs';
 import path from 'node:path';
+import { parseCsv, isOperatorQuery, slugFromUrl, newestApiPull } from './lib/gsc.mjs';
 
 const OUT = 'content/data/refresh-queue.json';
 
@@ -75,8 +96,121 @@ const ALREADY_REFRESHED = {
 const FOOD_TAG = /KoreanSnacks|ConvenienceStore|StreetFood|KoreanFood|KoreanRamyun|KoreanDrinks|KoreanPantry|Dosirak|KoreaAtHome/i;
 const FOOD_TITLE = /snack|ramyun|ramyeon|ramen|noodle|chip|convenience|candy|biscuit|cookie|drink|soda|cider|milk|tea|bread|bun|kimbap|tteokbokki|chicken|dessert|ice cream|street food|pantry|sauce|seaweed|yogurt|coffee/i;
 
+/**
+ * Pages the push lane must never recommend.
+ *
+ * Kept explicit with reasons, the same way EXCLUDE is, so the next reader can
+ * see what the impression pool is made of instead of rediscovering it.
+ */
+const PUSH_EXCLUDE = {
+  '090': 'dead-end 정의형 (CLAUDE.md) — 4위에서도 CTR 0.3%대',
+  '082': 'dead-end 정의형 (CLAUDE.md)',
+  '210': 'dead-end 정의형 (CLAUDE.md)',
+  '301': 'dead-end 정의형 (CLAUDE.md)',
+  '074': '노출의 68.7%가 따옴표 연산자(봇). 사람 쿼리만 남기면 4~9위 노출 268개뿐 — 2026-08-20 실측',
+  '181': '최대 풀이 `naver webtoon`/`naver series` — 네이버로 가려는 내비게이셔널 쿼리다. 우리 글이 1위여도 클릭되지 않는다',
+};
+
+/** Push work already done; recorded so the lane does not re-recommend it. */
+const PUSH_WORKED = {
+  '071': '2026-08-20 내부링크 3→11 (output/strategy/071-internal-link-experiment.md, 판정 9/23)',
+};
+
+/** Impressions below this are too small for a refresh to move anything. */
+const PUSH_MIN_IMPRESSIONS = 250;
+
+/**
+ * Query shape, and why the push lane weighs by it.
+ *
+ * Ranking a page higher only pays if the demand underneath it converts at all.
+ * Measured 2026-08-20 on this site, holding rank constant inside the 4-9 band
+ * and excluding the four dead-end pages so 090's 42k `ahjussi meaning`
+ * impressions could not carry the result:
+ *
+ *   행동형 (where/how/vs/buy/price…)  2,039 impr  1.324%   → 1.089% after removing top 3
+ *   중립   (product and place names)  20,023 impr  0.664%   → 0.615%
+ *   why형  (why is/why do…)            2,571 impr  0.156%   → 0.000%
+ *   정의형 (meaning/what is/explained) 1,662 impr  0.060%   → 0.000%
+ *
+ * The remove-top-3 column is the point: action and neutral survive it, while
+ * definitional and why-shaped demand collapses to literally zero clicks. That is
+ * the same thing CLAUDE.md has said since 2026-07-31, now measured at controlled
+ * rank rather than inferred from raw totals.
+ *
+ * Per-query median is not reported because it is 0.000% for every shape — most
+ * individual queries have zero clicks at this granularity, so the median cannot
+ * separate them. Aggregate plus remove-top-N is the usable test here.
+ *
+ * Known blind spot: shape is judged from wording, and a bare noun reads as
+ * neutral even when the intent is definitional — `ahjussi` is the example, which
+ * is exactly why the dead-end pages need PUSH_EXCLUDE and cannot be caught by
+ * regex alone.
+ */
+const SHAPE_DEFINITIONAL = /\bmeaning\b|\bwhat is\b|\bwhat does\b|\bwho is\b|\bwhat are\b|\bexplained\b|artinya|adalah|apa itu|significado|\bdefinition\b/;
+const SHAPE_WHY = /^why\b|\bwhy (is|are|do|does|did)\b/;
+
+function isConvertible(query) {
+  const q = query.toLowerCase();
+  return !SHAPE_DEFINITIONAL.test(q) && !SHAPE_WHY.test(q);
+}
+
+/**
+ * Per-page impressions sitting at position 4-9, counting human queries only.
+ *
+ * Position 4-9 is the band a refresh can realistically move and where the payoff
+ * is steepest. Above it we already convert; below 11 a single refresh rarely
+ * closes the gap.
+ *
+ * Caveat worth knowing when reading the numbers: the cross-tab only contains
+ * queries Google is willing to name, and 77% of this site's clicks come from
+ * anonymised long-tail it will not. So these pools are a consistent *sample*,
+ * fine for ranking pages against each other, wrong as absolute demand.
+ */
+function loadPushSignal() {
+  const pull = newestApiPull('query-page');
+  if (!pull) return { pages: {}, source: null, dropped: 0 };
+  const pages = {};
+  let dropped = 0;
+  for (const r of parseCsv(fs.readFileSync(pull.file, 'utf8'))) {
+    const hit = slugFromUrl(r.page);
+    if (!hit || hit.section !== 'blog') continue;
+    const impressions = +r.impressions || 0;
+    if (isOperatorQuery(r.query || '')) { dropped += impressions; continue; }
+    const position = +r.position || 0;
+    const p = (pages[hit.slug] ||= {
+      band49: 0, convertible49: 0, clicks49: 0, queries49: 0, humanImpressions: 0,
+    });
+    p.humanImpressions += impressions;
+    if (position >= 4 && position <= 9) {
+      p.band49 += impressions;
+      if (isConvertible(r.query || '')) p.convertible49 += impressions;
+      p.clicks49 += +r.clicks || 0;
+      p.queries49 += 1;
+    }
+  }
+  for (const p of Object.values(pages)) {
+    p.deadShare = p.band49 ? +(1 - p.convertible49 / p.band49).toFixed(3) : 0;
+  }
+  return { pages, source: `${pull.file} (${pull.start}~${pull.end})`, dropped };
+}
+
 /** Newest GSC page export wins; the folder name carries the pull date. */
 function loadGsc() {
+  const api = newestApiPull('page');
+  if (api) {
+    const rows = {};
+    for (const r of parseCsv(fs.readFileSync(api.file, 'utf8'))) {
+      const hit = slugFromUrl(r.page);
+      if (!hit) continue;
+      rows[hit.slug] = {
+        clicks: +r.clicks || 0,
+        impressions: +r.impressions || 0,
+        ctr: r.ctr,
+        position: +r.position || null,
+      };
+    }
+    return { rows, source: `${api.file} (${api.start}~${api.end})` };
+  }
   const root = 'output/gsc';
   if (!fs.existsSync(root)) return { rows: {}, source: null };
   const dirs = fs.readdirSync(root).filter((d) => /Performance-on-Search-\d{4}-\d{2}-\d{2}$/.test(d)).sort();
@@ -96,8 +230,11 @@ function loadGsc() {
 }
 
 const prev = fs.existsSync(OUT) ? JSON.parse(fs.readFileSync(OUT, 'utf8')) : { queue: [] };
-const prevStatus = Object.fromEntries((prev.queue || []).map((r) => [r.slug, r]));
+const prevStatus = Object.fromEntries(
+  [...(prev.queue || []), ...(prev.push || [])].map((r) => [r.slug, r]),
+);
 const { rows: gsc, source: gscSource } = loadGsc();
+const { pages: pushSignal, source: pushSource, dropped: operatorImpressions } = loadPushSignal();
 
 const posts = [];
 for (const f of fs.readdirSync('content/blog')) {
@@ -112,7 +249,10 @@ for (const f of fs.readdirSync('content/blog')) {
 
   const tier = TIER1.includes(slug) ? 1 : TIER2.includes(slug) ? 2 : 3;
   const isFood = FOOD_TAG.test((/^tags:.*$/m.exec(fm[1]) || [''])[0]) || FOOD_TITLE.test(title);
-  if (tier === 3 && !isFood) continue;
+  // Non-food posts used to be dropped here outright, which is why the push lane
+  // could never see 181 or 043. They are kept now and simply excluded from the
+  // spec lane, which is the only lane the food filter was ever about.
+  const inSpecLane = tier < 3 || isFood;
 
   const won = (text.match(/₩/g) || []).length;
   const hangul = new Set(text.match(/[가-힣]+/g) || []).size;
@@ -131,11 +271,13 @@ for (const f of fs.readdirSync('content/blog')) {
     slug,
     title,
     tier,
+    inSpecLane,
     excluded: EXCLUDE[slug] || null,
     refreshedOn: ALREADY_REFRESHED[slug] || null,
     specApplied,
     gaps,
     gsc: gsc[slug] || null,
+    push: pushSignal[slug] || null,
     status: prevStatus[slug]?.status || (specApplied ? 'done' : 'pending'),
     note: prevStatus[slug]?.note || null,
   });
@@ -155,11 +297,38 @@ for (const f of fs.readdirSync('content/blog')) {
  * a different operation, and the 2026-07-24 pull is outside the buggy window.
  */
 const queue = posts
-  .filter((p) => !p.excluded && !p.specApplied)
+  .filter((p) => p.inSpecLane && !p.excluded && !p.specApplied)
   .sort((a, b) => a.tier - b.tier
     || (b.gsc?.impressions || 0) - (a.gsc?.impressions || 0)
     || (b.gsc?.clicks || 0) - (a.gsc?.clicks || 0)
     || a.slug.localeCompare(b.slug));
+
+/**
+ * The push lane. Ordered purely by the 4-9 impression pool — no tiers, because
+ * the question here is not "what kind of post is this" but "where is Google
+ * already showing us to a lot of people just below the fold".
+ *
+ * `specApplied` is deliberately ignored: 071 is spec-complete and was still the
+ * site's single largest opportunity.
+ */
+const push = posts
+  .filter((p) => (p.push?.convertible49 || 0) >= PUSH_MIN_IMPRESSIONS && !PUSH_EXCLUDE[p.slug])
+  .sort((a, b) => b.push.convertible49 - a.push.convertible49 || a.slug.localeCompare(b.slug))
+  .map((p) => ({
+    slug: p.slug,
+    title: p.title,
+    convertible49: p.push.convertible49,
+    band49Impressions: p.push.band49,
+    deadShare: p.push.deadShare,
+    band49Clicks: p.push.clicks49,
+    band49Queries: p.push.queries49,
+    humanImpressions: p.push.humanImpressions,
+    sitePosition: p.gsc?.position ?? null,
+    specApplied: p.specApplied,
+    workedOn: PUSH_WORKED[p.slug] || null,
+    status: PUSH_WORKED[p.slug] ? 'worked' : (prevStatus[p.slug]?.status === 'worked' ? 'worked' : 'pending'),
+    note: prevStatus[p.slug]?.note || null,
+  }));
 
 const out = {
   generatedAt: new Date().toISOString().slice(0, 10),
@@ -173,6 +342,16 @@ const out = {
     3: '음식이 나오지만 실은 문화 설명글 — 스펙이 잘 맞지 않아 후순위',
   },
   excluded: EXCLUDE,
+  pushLane: {
+    rule: `4~9위에 걸린 노출 중 **전환 가능한 형태**(행동형·중립)만 세어 내림차순. 최소 ${PUSH_MIN_IMPRESSIONS}. 스펙 완료 여부를 보지 않는다 — 071이 스펙 완료 상태로 사이트 최대 기회였다.`,
+    shapeEvidence: '4~9위로 순위를 통제하고 dead-end 4편을 제외한 실측(2026-08-20): 행동형 1.324%(상위3 제거 후 1.089%) · 중립 0.664%(0.615%) · why형 0.156%(0.000%) · 정의형 0.060%(0.000%). 정의형과 why형은 상위 3개를 빼면 클릭이 정확히 0이므로 순위를 올려도 회수되지 않는다.',
+    deadShare: 'deadShare는 그 페이지 4~9위 노출 중 정의형·why형 비중이다. 높으면 노출이 커도 올릴 값어치가 없다.',
+    why: '스펙 레인은 "무엇이 빠졌나"를 묻고 이 레인은 "구글이 이미 어디서 우리를 많이 보여주고 있나"를 묻는다. 사이트 CTR은 1~3위 1.53%인데 5~11위는 0.14%이고, 노출의 87%가 5위 밖에 있다.',
+    caveat: '교차표에는 구글이 이름을 공개하는 쿼리만 있다. 이 사이트 클릭의 77%는 익명 롱테일에서 오므로, 이 수치는 페이지끼리 줄 세우기에는 맞지만 절대 수요로 읽으면 틀린다.',
+    source: pushSource,
+    operatorImpressionsDropped: operatorImpressions,
+    excluded: PUSH_EXCLUDE,
+  },
   counts: {
     pending: queue.length,
     tier1: queue.filter((p) => p.tier === 1).length,
@@ -180,14 +359,33 @@ const out = {
     tier3: queue.filter((p) => p.tier === 3).length,
     alreadyRefreshed: Object.keys(ALREADY_REFRESHED).length,
     excluded: Object.keys(EXCLUDE).length,
+    pushPending: push.filter((p) => p.status === 'pending').length,
   },
-  queue: queue.map(({ excluded, ...r }) => r),
+  queue: queue.map(({ excluded, inSpecLane, push: _p, ...r }) => r),
+  push,
 };
 
 fs.writeFileSync(OUT, JSON.stringify(out, null, 1));
-console.log(`${OUT}: ${queue.length} pending (tier1 ${out.counts.tier1}, tier2 ${out.counts.tier2}, tier3 ${out.counts.tier3})`);
-console.log(`GSC: ${gscSource || 'none found'}\n`);
-for (const p of queue.slice(0, 12)) {
+console.log(`${OUT}`);
+console.log(`GSC: ${gscSource || 'none found'}`);
+
+console.log(`\n── 스펙 레인 ${queue.length}편 (tier1 ${out.counts.tier1}, tier2 ${out.counts.tier2}, tier3 ${out.counts.tier3}) — "무엇이 빠졌나"`);
+for (const p of queue.slice(0, 8)) {
   const c = p.gsc ? `${String(p.gsc.impressions).padStart(5)} impr ${String(p.gsc.clicks).padStart(2)}c` : '   no gsc   ';
-  console.log(`  T${p.tier} ${p.slug}  ${c}  ₩${String(p.gaps.won).padStart(2)} 한글${String(p.gaps.hangul).padStart(3)}${p.gaps.yearInTitle ? ' [연도]' : '       '}  ${p.title.slice(0, 52)}`);
+  console.log(`  T${p.tier} ${p.slug}  ${c}  ₩${String(p.gaps.won).padStart(2)} 한글${String(p.gaps.hangul).padStart(3)}${p.gaps.yearInTitle ? ' [연도]' : '       '}  ${p.title.slice(0, 50)}`);
+}
+if (out.counts.tier1 === 0 && out.counts.tier2 === 0) {
+  console.log('  ⚠ tier 1·2 소진 — 남은 것은 스펙이 가장 안 맞는 문화 설명글이다. 푸시 레인을 먼저 볼 것.');
+}
+
+const pushPending = push.filter((p) => p.status === 'pending');
+console.log(`\n── 푸시 레인 ${pushPending.length}편 — "구글이 어디서 우리를 4~9위로 보여주고 있나"`);
+console.log(`   ${pushSource || 'query-page API 추출본 없음 — node scripts/gsc-pull.mjs --dimensions query,page'}`);
+if (operatorImpressions) console.log(`   따옴표 연산자(봇) 노출 ${operatorImpressions.toLocaleString()}개 제외됨`);
+for (const p of pushPending.slice(0, 10)) {
+  const dead = p.deadShare >= 0.2 ? `정의형${String(Math.round(p.deadShare * 100)).padStart(3)}%` : '          ';
+  console.log(`  ${p.slug}  ${String(p.convertible49).padStart(5)} 전환가능 /${String(p.band49Impressions).padStart(5)} 전체  ${String(p.band49Clicks).padStart(2)}c  ${dead}  ${p.title.slice(0, 42)}`);
+}
+for (const p of push.filter((x) => x.status === 'worked')) {
+  console.log(`  ${p.slug}  [작업됨] ${p.workedOn || ''}`);
 }
