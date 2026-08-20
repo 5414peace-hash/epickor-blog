@@ -24,6 +24,45 @@ function Ld({ data }: { data: Record<string, unknown> }) {
 
 const SITE = 'https://www.epickor.com';
 
+/** The entity's other homes. AI engines lean on these to resolve "EpicKor" to one thing. */
+const SAME_AS = [
+  'https://www.instagram.com/epickorsnippets/',
+  'https://www.youtube.com/@epickor',
+];
+
+/**
+ * WebSite + Organization, for the homepage only. Emitting it site-wide would
+ * be noise; on the root URL it is the page's identity.
+ */
+export function SiteLd() {
+  return (
+    <Ld
+      data={{
+        '@context': 'https://schema.org',
+        '@graph': [
+          {
+            '@type': 'Organization',
+            '@id': `${SITE}/#org`,
+            name: 'EpicKor',
+            url: SITE,
+            sameAs: SAME_AS,
+          },
+          {
+            '@type': 'WebSite',
+            '@id': `${SITE}/#website`,
+            name: 'EpicKor',
+            url: SITE,
+            inLanguage: 'en',
+            description:
+              'English-language Korea media and guide hub for travel, food, shopping, K-beauty, culture explainers, and Korean business stories.',
+            publisher: { '@id': `${SITE}/#org` },
+          },
+        ],
+      }}
+    />
+  );
+}
+
 export function BreadcrumbLd({ trail }: { trail: { name: string; href: string }[] }) {
   return (
     <Ld
@@ -108,7 +147,12 @@ export function ArticleLd({
         ...(datePublished ? { datePublished } : {}),
         ...(dateModified ? { dateModified } : {}),
         author: { '@type': 'Organization', name: 'EpicKor', url: SITE },
-        publisher: { '@type': 'Organization', name: 'EpicKor', url: SITE },
+        publisher: {
+          '@type': 'Organization',
+          name: 'EpicKor',
+          url: SITE,
+          sameAs: SAME_AS,
+        },
       }}
     />
   );
@@ -146,12 +190,40 @@ export function FaqLd({ qa }: { qa: { q: string; a: string }[] }) {
  */
 export function extractFaq(html: string): { q: string; a: string }[] {
   const out: { q: string; a: string }[] = [];
-  const pattern = /<p>\s*<strong>\s*Q:\s*([\s\S]*?)<\/strong>\s*<\/p>\s*<p>\s*<strong>\s*A:\s*<\/strong>\s*([\s\S]*?)<\/p>/g;
+  const seen = new Set<string>();
+  const push = (rawQ: string, rawA: string) => {
+    const q = rawQ.replace(/<[^>]+>/g, '').trim();
+    const a = rawA.replace(/<[^>]+>/g, '').trim();
+    if (q && a && !seen.has(q)) {
+      seen.add(q);
+      out.push({ q, a });
+    }
+  };
+
+  // Newer posts: **Q: ...** and **A:** ... as two separate paragraphs.
+  const twoPara = /<p>\s*<strong>\s*Q:\s*([\s\S]*?)<\/strong>\s*<\/p>\s*<p>\s*<strong>\s*A:\s*<\/strong>\s*([\s\S]*?)<\/p>/g;
   let m: RegExpExecArray | null;
-  while ((m = pattern.exec(html)) !== null) {
-    const q = m[1].replace(/<[^>]+>/g, '').trim();
-    const a = m[2].replace(/<[^>]+>/g, '').trim();
-    if (q && a) out.push({ q, a });
-  }
+  while ((m = twoPara.exec(html)) !== null) push(m[1], m[2]);
+
+  // The archive holds two older shapes that were silently emitting zero
+  // FAQPage schema until 2026-08-20 — together the large majority of the
+  // site's public posts (only ~67 of 345 used the marked shape above).
+  //
+  // Shape 2: bold question paragraph, then a PLAIN answer paragraph with no
+  // **A:** marker —
+  //   <p><strong>Q: ...?</strong></p><p>Answer text...</p>
+  // The lookahead refuses a following paragraph that itself opens with a bold
+  // Q:/A: marker, so back-to-back questions never swallow each other and the
+  // marked shape above is never double-counted (the dedupe set backstops it).
+  const qParaPlainAnswer = /<p>\s*<strong>\s*Q:\s*([\s\S]*?)<\/strong>\s*<\/p>\s*<p>(?!\s*<strong>\s*[QA]:)([\s\S]*?)<\/p>/g;
+  while ((m = qParaPlainAnswer.exec(html)) !== null) push(m[1], m[2]);
+
+  // Shape 3: question and answer share one paragraph —
+  //   <p><strong>Q: ...?</strong> Answer text...</p>
+  // For shape-1/2 posts this pattern still matches the question paragraph but
+  // captures an empty answer, which push() filters, so nothing matches twice.
+  const onePara = /<p>\s*<strong>\s*Q:\s*([\s\S]*?)<\/strong>\s*([\s\S]*?)<\/p>/g;
+  while ((m = onePara.exec(html)) !== null) push(m[1], m[2]);
+
   return out;
 }

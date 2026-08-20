@@ -1,6 +1,8 @@
+import type { Metadata } from 'next';
 import Image from 'next/image';
 import Link from 'next/link';
 import HomeGuideFinder from '@/components/HomeGuideFinder';
+import { SiteLd } from '@/components/StructuredData';
 import { BlogPostMetadata, getAllBlogPosts } from '@/lib/blog';
 import { BusinessPostMetadata, getAllBusinessPosts, getBusinessTypeLabel } from '@/lib/business';
 import { getAllCardNews, type CardNewsItem } from '@/lib/card-news';
@@ -8,6 +10,12 @@ import { getHomeSurface, getSlotSlug, getSlotSlugs } from '@/lib/editorial-surfa
 import { getLatestArticles, type LatestArticle } from '@/lib/latest-articles';
 
 export const revalidate = 86400;
+
+// The root layout deliberately sets no canonical (it would cascade a wrong '/'
+// onto every page that does not override it), so the homepage declares its own.
+export const metadata: Metadata = {
+  alternates: { canonical: '/' },
+};
 
 type ArticleSource = 'blog' | 'business';
 
@@ -487,6 +495,10 @@ export default function Home() {
 
   return (
     <div className="min-h-screen bg-white text-gray-950">
+      <SiteLd />
+      {/* The visual brand mark lives in the shared header, which is not a
+          heading element — without this the homepage renders no h1 at all. */}
+      <h1 className="sr-only">EpicKor — Korea guides, culture, travel, beauty, and business, explained in English</h1>
       <HomeGuideFinder chips={guideChips} guides={compareChips} />
       <LatestPulse articles={latestArticles} />
 

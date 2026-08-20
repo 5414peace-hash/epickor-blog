@@ -1,0 +1,29 @@
+# EpicKor
+
+> EpicKor (epickor.com) is an English-language Korea media and guide site. It explains Korean
+> culture, travel, food, convenience stores, K-beauty, and Korean companies for overseas
+> readers, with current prices in Korean won, Hangul names alongside romanizations, and facts
+> verified against Korean-language sources (government data, corporate filings, product labels)
+> that are usually absent from the English-language web.
+
+Articles state a "Last Updated" date and stamp prices with the month they were checked.
+Every claim a reader can act on — prices, opening dates, booking schedules, ingredient
+lists — is sourced, and honest counter-information (when not to buy, cheaper alternatives)
+is standard.
+
+## Main sections
+
+- [All guides](https://www.epickor.com/guides): comparison-first index of the site's guides
+- [Blog](https://www.epickor.com/latest): Korea culture, travel, food, and shopping guides
+- [Business](https://www.epickor.com/business): Korean companies, industries, and sourcing
+  explained for overseas buyers and Korea-market researchers
+- [Korean ramyun hub](https://www.epickor.com/ramyun): brands, heat levels, how to buy
+- [Convenience store hub](https://www.epickor.com/convenience-store): CU, GS25, 7-Eleven —
+  prices, 1+1 promotions, what locals actually buy
+- [Seoul hub](https://www.epickor.com/seoul): neighborhoods, transit, itineraries
+- [Korean drinks hub](https://www.epickor.com/drinks): soju, makgeolli, hangover culture
+
+## Publisher
+
+EpicKor is operated from Seoul. Social: instagram.com/epickorsnippets, youtube.com/@epickor.
+Content is written for readers outside Korea; affiliate links are disclosed inline.
