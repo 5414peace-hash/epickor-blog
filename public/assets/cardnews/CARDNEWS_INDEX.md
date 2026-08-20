@@ -5,6 +5,12 @@ Folder naming rule: `YYYY-MM-DD_slug`
 The date is the card-news production/final-save date from `HANDOFF.md`.
 Instagram upload is representative-managed. As of 2026-07-02, the representative confirmed all card-news assets listed through `2026-06-28_249` are approved and scheduled. Rows produced afterward keep their own upload status.
 
+**2026-08-20 correction (two separate errors, both found by reading the Meta planner instead of this file):**
+
+1. `musinsa` was recorded here as `2026-09-17 05:00` but the planner actually had it on **2026-09-03 오후 8:00**, on top of the `395` carousel already at 05:00 that day. So 09-03 carried two Instagram posts 15 hours apart and 09-17 was empty. Both rows (FB + IG) were moved to 2026-09-17 05:00 via 게시물 상세 → 옵션 → 게시물 관리 → 게시물 일정 조정, and the full list re-read: **2026-08-21 through 09-17, 28 consecutive days, zero empty days, zero doubles.** Writing the intended date here is not the same as verifying the scheduled one.
+
+2. This table lists card news only, so the missing dates in it read like holes in the Instagram calendar. They are not. **Instagram runs one post per day shared between card news and Reels** (2026-07-27 rule), and every date absent from this table is covered by a Reel. Do not plan new card-news production off the gaps in this table — read `/latest/posts/scheduled_posts` for the real calendar.
+
 **2026-07-26 correction:** rows `311`/`312`/`313` still read "ready for representative scheduling" long after Claude had actually scheduled them through Meta Business Suite on 2026-07-21 (planner-verified; see the `HANDOFF.md` 2026-07-21 snapshot). Whoever schedules a row must update its Upload status in the same session — a stale row here caused a session-close report to wrongly tell the representative that scheduling was still outstanding.
 
 | Folder | Slug | Topic | Cards | Production status | Upload status |
@@ -61,7 +67,7 @@ Instagram upload is representative-managed. As of 2026-07-02, the representative
 | `2026-07-12_036` | 036 | The Umbrella Protocol: Why Koreans Refuse to Get Wet | 7 | final confirmed + Seoul After Dark + caption ready | scheduled 2026-09-11 05:00 KST (Meta Suite, 2026-08-18) |
 | `2026-07-12_170` | 170 | Korean PC Bang Culture | 7 | final confirmed + Seoul After Dark + caption ready | scheduled 2026-09-10 05:00 KST (Meta Suite, 2026-08-18) |
 | `2026-07-12_287` | 287 | Korean BBQ Grill for Home | 7 | final confirmed + Seoul After Dark + caption ready | scheduled 2026-09-09 05:00 KST (Meta Suite, 2026-08-18) |
-| `2026-07-15_musinsa` | musinsa | MUSINSA Business: Seoul Fashion Commerce | 7 | final approved + editorial system + caption ready | scheduled 2026-09-17 05:00 KST (Meta Suite, 2026-08-18) |
+| `2026-07-15_musinsa` | musinsa | MUSINSA Business: Seoul Fashion Commerce | 7 | final approved + editorial system + caption ready | scheduled 2026-09-17 05:00 KST — **corrected 2026-08-20**, had actually been sitting on 09-03 오후 8:00 (planner-verified after the move) |
 | `2026-07-15_124` | 124 | Korean Wedding Culture: The Modern K-Wedding Code | 7 | final approved + modern hanji system + caption ready | scheduled 2026-09-16 05:00 KST (Meta Suite, 2026-08-18) |
 | `2026-07-15_174` | 174 | Seoul Subway Etiquette: The Quiet Signal System | 7 | final approved + transit signal system + caption ready | Instagram and YouTube Community scheduled for 2026-07-20 22:00 KST |
 | `2026-07-20_311` | 311 | Tteokbokki: Six Styles, One Rice Cake | 7 | final + bunsik-red system + caption ready | scheduled 2026-07-23 05:00 KST (Meta Suite, planner-verified 07-21) |

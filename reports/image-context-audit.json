@@ -1,25 +1,17 @@
 {
   "summary": {
-    "generatedAt": "2026-08-18T12:56:56.695Z",
-    "auditedPosts": 393,
+    "generatedAt": "2026-08-19T12:38:35.995Z",
+    "auditedPosts": 408,
     "includedPrivate": false,
     "slugFilter": "",
-    "bodyImages": 1395,
-    "affectedPosts": 98,
+    "bodyImages": 1427,
+    "affectedPosts": 97,
     "critical": 0,
     "high": 0,
-    "medium": 1,
+    "medium": 0,
     "info": 97
   },
   "findings": [
-    {
-      "type": "blog",
-      "slug": "332",
-      "title": "Korean Trot Music Explained: Why the Retro Genre Had Its Biggest Comeback",
-      "severity": "medium",
-      "code": "DUPLICATE_BODY_IMAGE",
-      "detail": "1 repeated body reference(s)"
-    },
     {
       "type": "blog",
       "slug": "002",
@@ -12184,7 +12176,7 @@
       "title": "Korean Trot Music Explained: Why the Retro Genre Had Its Biggest Comeback",
       "contentPath": "content\\blog\\332.md",
       "sourceRecord": "public\\assets\\images\\posts\\332\\image-sources.md",
-      "imageCount": 5,
+      "imageCount": 4,
       "images": [
         {
           "url": "/assets/images/posts/332/song-ga-in-2020.png",
@@ -12197,13 +12189,6 @@
           "url": "/assets/images/posts/332/nam-jin-portrait.jpg",
           "alt": "Trot legend Nam Jin performing on stage with a microphone, singing under blue stage lights.",
           "caption": "Nam Jin, one of trot's first genuine idols, performing decades into a career that began in the late 1960s. Photo via Wikimedia Commons.",
-          "ext": ".jpg",
-          "exists": true
-        },
-        {
-          "url": "/assets/images/posts/332/noraebang-screen.jpg",
-          "alt": "A real Korean noraebang machine screen displaying on-screen song lyrics mid-performance.",
-          "caption": "The interface every noraebang visitor sees mid-song — whether the next queued track is trot or K-pop. Photo via Wikimedia Commons.",
           "ext": ".jpg",
           "exists": true
         },
@@ -12222,13 +12207,7 @@
           "exists": true
         }
       ],
-      "findings": [
-        {
-          "severity": "medium",
-          "code": "DUPLICATE_BODY_IMAGE",
-          "detail": "1 repeated body reference(s)"
-        }
-      ]
+      "findings": []
     },
     {
       "type": "blog",
@@ -14460,6 +14439,402 @@
           "url": "/assets/images/posts/401/dokdo-toner-sizes-awards.jpg",
           "alt": "The Dokdo Toner 500ml and 200ml bottles beside Olive Young Awards badges reading six consecutive years and first place.",
           "caption": "The 500ml and 200ml, with the awards record printed beside them — six straight years at #1 in the toner category through 2025. Official product card via the brand's Olive Young listing.",
+          "ext": ".jpg",
+          "exists": true
+        }
+      ],
+      "findings": []
+    },
+    {
+      "type": "blog",
+      "slug": "402",
+      "title": "Korean Convenience Store Ice Cups: The Best-Selling Item Is a Cup of Ice",
+      "contentPath": "content\\blog\\402.md",
+      "sourceRecord": "public\\assets\\images\\posts\\402\\image-sources.md",
+      "imageCount": 3,
+      "images": [
+        {
+          "url": "/assets/images/posts/402/korean-convenience-store-seoul.jpg",
+          "alt": "A Korean 7-Eleven storefront with an ice-cream chest freezer outside and N Seoul Tower on Namsan visible on the ridge behind.",
+          "caption": "The chest freezer on the pavement is where the ice cups live. Photo: Pexels.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/402/gs25-ice-cup-sizes-chart.jpg",
+          "alt": "Chart of four GS25 ice cup sizes: 컵얼음 with a purple lid at 180 g and ₩800, 빅컵얼음 sky-blue at 230 g and ₩1,000, 벤티컵얼음 white at 400 g and ₩1,400, and 빅볼컵얼음 at 160 g and ₩1,500 for a single 70 mm sphere.",
+          "caption": "GS25's four sizes, August 2026. The struck-through figures are what they cost before June. EpicKor chart, built from Korean retail pricing and GS25 product specifications.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/402/ice-cup-pairing-by-size.jpg",
+          "alt": "Chart of GS25 basket data: the small 185 g ice cup is bought with coffee 66.1% of the time, while the 240 g big cup pairs with carbonated drinks and ades 42.3% of the time.",
+          "caption": "What each size is actually bought with, from GS25's own basket data. EpicKor chart.",
+          "ext": ".jpg",
+          "exists": true
+        }
+      ],
+      "findings": []
+    },
+    {
+      "type": "blog",
+      "slug": "403",
+      "title": "Coolpis: The Korean Drink That Exists to Put Out Tteokbokki",
+      "contentPath": "content\\blog\\403.md",
+      "sourceRecord": "public\\assets\\images\\posts\\403\\image-sources.md",
+      "imageCount": 2,
+      "images": [
+        {
+          "url": "/assets/images/posts/403/korean-tteokbokki-table.jpg",
+          "alt": "A bowl of Korean tteokbokki in red sauce with rice cakes and fish cake on a restaurant table.",
+          "caption": "This is the situation 쿨피스 exists for. Photo: Pexels.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/403/what-cuts-capsaicin-chart.jpg",
+          "alt": "Chart comparing water, Coolpis and whole milk against capsaicin: water makes it worse, Coolpis masks the heat with sweetness, whole milk removes it because casein binds capsaicin.",
+          "caption": "EpicKor chart. Capsaicin is fat-soluble, which is the whole reason the ranking looks like this.",
+          "ext": ".jpg",
+          "exists": true
+        }
+      ],
+      "findings": []
+    },
+    {
+      "type": "blog",
+      "slug": "404",
+      "title": "Kimbap Cheonguk: Korea's Most Common Restaurant Name Belongs to Nobody",
+      "contentPath": "content\\blog\\404.md",
+      "sourceRecord": "public\\assets\\images\\posts\\404\\image-sources.md",
+      "imageCount": 2,
+      "images": [
+        {
+          "url": "/assets/images/posts/404/korean-gimbap-plate.jpg",
+          "alt": "A row of Korean gimbap slices on a black plate with sesame seeds and metal chopsticks, showing spinach, ham, pickled radish, carrot and egg inside.",
+          "caption": "The thing the whole format is named after. Photo: Pexels.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/404/kimbap-cheonguk-price-rises.jpg",
+          "alt": "Chart of reported price rises at Kimbap Cheonguk since 2014: original gimbap up 100% from 1,500 to 3,000 won, ramyeon 80%, pork cutlet 78%, tuna gimbap 60%, kimchi stew 56%.",
+          "caption": "EpicKor chart, from Korean price reporting. The ₩1,000 gimbap the format was built on is long gone.",
+          "ext": ".jpg",
+          "exists": true
+        }
+      ],
+      "findings": []
+    },
+    {
+      "type": "blog",
+      "slug": "405",
+      "title": "Orion Squid Peanut: Korea's Beer Snack Is Coated Twenty-Eight Times",
+      "contentPath": "content\\blog\\405.md",
+      "sourceRecord": "public\\assets\\images\\posts\\405\\image-sources.md",
+      "imageCount": 2,
+      "images": [
+        {
+          "url": "/assets/images/posts/405/squid-peanut-anatomy.jpg",
+          "alt": "Diagram of an Orion squid peanut: a Spanish-type peanut core, about 28 baked coats of batter forming a net-like lattice, and squid strips 0.2 mm or thinner on the outside.",
+          "caption": "EpicKor diagram, from Orion's published manufacturing detail.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/405/squid-peanut-flavours-timeline.jpg",
+          "alt": "Timeline of Orion squid peanut flavour variants from 1976 to 2024, showing the original and 핫스파이시 still on sale and the rest discontinued.",
+          "caption": "EpicKor chart. Fifty years of extensions; the 1976 recipe outlived them all.",
+          "ext": ".jpg",
+          "exists": true
+        }
+      ],
+      "findings": []
+    },
+    {
+      "type": "blog",
+      "slug": "406",
+      "title": "Jayu Sigan: The Korean Chocolate Bar Designed to Leave No Evidence",
+      "contentPath": "content\\blog\\406.md",
+      "sourceRecord": "public\\assets\\images\\posts\\406\\image-sources.md",
+      "imageCount": 2,
+      "images": [
+        {
+          "url": "/assets/images/posts/406/jayu-sigan-design-brief.jpg",
+          "alt": "Chart comparing the 1990 design brief for 자유시간 with the 2026 consumer verdict on the original bar.",
+          "caption": "EpicKor chart. The brief did not fail so much as get overtaken.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/406/jayu-sigan-sizes-calories.jpg",
+          "alt": "Chart of 자유시간 formats by weight and calories, from the 10 g mini at 47 kcal to the 64 g Big at 313 kcal.",
+          "caption": "EpicKor chart. A six-fold range inside one product name.",
+          "ext": ".jpg",
+          "exists": true
+        }
+      ],
+      "findings": []
+    },
+    {
+      "type": "blog",
+      "slug": "407",
+      "title": "Nunettine: The Korean Snack Whose Real Name Is Italian",
+      "contentPath": "content\\blog\\407.md",
+      "sourceRecord": "public\\assets\\images\\posts\\407\\image-sources.md",
+      "imageCount": 2,
+      "images": [
+        {
+          "url": "/assets/images/posts/407/sfogliatine-glassate-italy.jpg",
+          "alt": "A tray of Italian sfogliatine glassate: flat rectangles of glazed puff pastry with caramel-coloured jam piped across them in a lattice.",
+          "caption": "Sfogliatine glassate in Italy — not the Korean product, the thing the Korean product is a version of. Photo: Wikimedia Commons, CC BY-SA 2.0 KR.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/407/nunettine-name-origin.jpg",
+          "alt": "Diagram of the name 누네띠네: the Italian sfogliatine plus the Korean phrase 눈에 띄네, meaning it catches the eye.",
+          "caption": "EpicKor diagram.",
+          "ext": ".jpg",
+          "exists": true
+        }
+      ],
+      "findings": []
+    },
+    {
+      "type": "blog",
+      "slug": "408",
+      "title": "Samanco: Korea's Fish-Shaped Ice Cream Is Named 'Cheap and Plentiful'",
+      "contentPath": "content\\blog\\408.md",
+      "sourceRecord": "public\\assets\\images\\posts\\408\\image-sources.md",
+      "imageCount": 2,
+      "images": [
+        {
+          "url": "/assets/images/posts/408/samanco-name-and-history.jpg",
+          "alt": "Diagram of the Samanco name: 싸고 plus 만코 meaning cheap and plentiful, with a timeline showing the 1976 square launch and the 1990 fish-shaped version.",
+          "caption": "EpicKor diagram.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/408/samanco-price-by-shop.jpg",
+          "alt": "Chart of Samanco pricing across three Korean retail formats: discount ice-cream shop lowest, supermarket or 30-pack in the middle, convenience store highest at 2,200 won.",
+          "caption": "EpicKor chart.",
+          "ext": ".jpg",
+          "exists": true
+        }
+      ],
+      "findings": []
+    },
+    {
+      "type": "blog",
+      "slug": "409",
+      "title": "Delaffe: Korea's Convenience-Store Coffee Brand That Cut Its Price to ₩900",
+      "contentPath": "content\\blog\\409.md",
+      "sourceRecord": "public\\assets\\images\\posts\\409\\image-sources.md",
+      "imageCount": 2,
+      "images": [
+        {
+          "url": "/assets/images/posts/409/delaffe-900-won-lineup.jpg",
+          "alt": "Chart of the five Delaffe pouches priced at 900 won in March 2026 — 블랙 아메리카노, 스위트 아메리카노, 헤이즐넛, 복숭아 아이스티, 블루레몬 에이드 — with a price ladder comparing 1,500 won bundled against Compose Coffee 1,800, Mega Coffee 2,000 and Starbucks Korea 4,700.",
+          "caption": "EpicKor chart. Café prices as of 2026.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/409/delaffe-price-timeline.jpg",
+          "alt": "Timeline of Delaffe from 2012 to 2026 showing the launch at 600 won each, price rises in 2015 and 2018, the four-size expansion in 2021, and price cuts in February 2025 and March 2026.",
+          "caption": "EpicKor chart.",
+          "ext": ".jpg",
+          "exists": true
+        }
+      ],
+      "findings": []
+    },
+    {
+      "type": "blog",
+      "slug": "410",
+      "title": "Tornado Potato: The Korean Invention Everybody Thinks Is Generic Fair Food",
+      "contentPath": "content\\blog\\410.md",
+      "sourceRecord": "public\\assets\\images\\posts\\410\\image-sources.md",
+      "imageCount": 2,
+      "images": [
+        {
+          "url": "/assets/images/posts/410/tornado-potato-origin.jpg",
+          "alt": "Timeline chart of 회오리감자: the 2006 machine built from a persimmon peeler, the 27 May 2007 Myeongdong debut as 봉구네 통감자, 2008 television exposure, and registrations in Korea, USA, EU, China, Japan and the Philippines — with a panel explaining that 회오리 is a trademark so unlicensed vendors write 스프링감자.",
+          "caption": "EpicKor chart.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/410/tornado-potato-farm-supply.jpg",
+          "alt": "Bar chart of 회오리 company revenue from 700 million won in 2013 to a projected 12 billion won in 2017, alongside figures for roughly 150 supplying farms and 600 million won purchased from the Okcheon Daecheong agricultural cooperative in 2017.",
+          "caption": "EpicKor chart. Figures as reported in December 2017.",
+          "ext": ".jpg",
+          "exists": true
+        }
+      ],
+      "findings": []
+    },
+    {
+      "type": "blog",
+      "slug": "411",
+      "title": "Korean Custard Cake: Lotte Invented It, Orion Copied It — the Reverse of Choco Pie",
+      "contentPath": "content\\blog\\411.md",
+      "sourceRecord": "public\\assets\\images\\posts\\411\\image-sources.md",
+      "imageCount": 2,
+      "images": [
+        {
+          "url": "/assets/images/posts/411/custard-lotte-vs-orion.jpg",
+          "alt": "Comparison of 롯데 카스타드 and 오리온 카스타드: Lotte launched in Korea November 1989 after Japan September 1986 with 24% egg content, Orion launched 2004 with a 계란을 듬뿍 package claim and 23.39% egg content, plus a panel noting Custard is the mirror image of the Choco Pie origin dispute.",
+          "caption": "EpicKor chart.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/411/custard-2021-price-and-count.jpg",
+          "alt": "Chart of the September 2021 Lotte Confectionery price rise: the Custard six-pack went from 3,000 won to 3,500 won, while the large box went from 12 pieces to 10 pieces at an unchanged price.",
+          "caption": "EpicKor chart.",
+          "ext": ".jpg",
+          "exists": true
+        }
+      ],
+      "findings": []
+    },
+    {
+      "type": "blog",
+      "slug": "412",
+      "title": "Chaltteok Pie: The Korean Mochi Snack Behind the Dubai Chocolate Craze",
+      "contentPath": "content\\blog\\412.md",
+      "sourceRecord": "public\\assets\\images\\posts\\412\\image-sources.md",
+      "imageCount": 2,
+      "images": [
+        {
+          "url": "/assets/images/posts/412/chaltteok-pie-timeline.jpg",
+          "alt": "Timeline of 찰떡파이 from Samjin Food's 1998 launch and 1999 patent through beating Orion Choco Pie in the military PX in 2000, Lotte's 2001 OEM contract, the 2002 trade secret extending shelf life from ten weeks to five months, the R&D head leaving in 2003 with the secrets on a laptop, the competitor patenting the method in 2005, and the Supreme Court voiding that patent on 7 October 2011.",
+          "caption": "EpicKor chart.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/412/chaltteok-pie-dubai-2026.jpg",
+          "alt": "Chart of the 2026 Dubai-style Chaltteok Pie: sold out in one week, ten million packs and about one million boxes in the first month, total Chaltteok Pie sales up 290% year on year, brand revenue moving from 20 to a targeted 30 billion won, with the four-stage flow from the 두쫀쿠 trend to the product shipping.",
+          "caption": "EpicKor chart. Figures as reported by Lotte Wellfood's development team in 2026.",
+          "ext": ".jpg",
+          "exists": true
+        }
+      ],
+      "findings": []
+    },
+    {
+      "type": "blog",
+      "slug": "413",
+      "title": "Badacoconut: The Korean Biscuit That Survived by Spelling Its Own Name Wrong",
+      "contentPath": "content\\blog\\413.md",
+      "sourceRecord": "public\\assets\\images\\posts\\413\\image-sources.md",
+      "imageCount": 3,
+      "images": [
+        {
+          "url": "/assets/images/posts/413/badacoconut-name-spelling.jpg",
+          "alt": "Comparison of 빠다코코낫 and 버터코코넛: Lotte's pre-standard spelling still sold after 47 years versus Orion's correctly spelled version, discontinued, with a panel explaining that both halves of the name are borrowed English frozen at the point they entered Korean.",
+          "caption": "EpicKor chart.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/413/badacoconut-route.jpg",
+          "alt": "Chart of the biscuit's transmission route: Japan's coconut sablé in 1965, Nisshin Seika's butter coconut in 1966, Haitai's Korean version around 1969, Lotte's 빠다코코낫 in 1979, plus the Taiwanese and Indian equivalents.",
+          "caption": "EpicKor chart.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/413/badacoconut-pack-commons.jpg",
+          "alt": "Open packet of 빠다코코낫 showing the ridged rectangular butter biscuits stacked upright inside the foil sleeve.",
+          "caption": "빠다코코낫 in the sleeve. Photo by zziny via Wikimedia Commons, CC BY-SA 2.0 KR.",
+          "ext": ".jpg",
+          "exists": true
+        }
+      ],
+      "findings": []
+    },
+    {
+      "type": "blog",
+      "slug": "414",
+      "title": "Jagalchi: The Korean Octopus Snack That Contains No Octopus",
+      "contentPath": "content\\blog\\414.md",
+      "sourceRecord": "public\\assets\\images\\posts\\414\\image-sources.md",
+      "imageCount": 3,
+      "images": [
+        {
+          "url": "/assets/images/posts/414/jagalchi-name-chain.jpg",
+          "alt": "Chart showing the chain 자갈 pebbles to 자갈치시장 the Busan fish market to 자갈치 the Nongshim snack launched 5 August 1983, with a panel noting the snack is not named after the real fish called 자갈치.",
+          "caption": "EpicKor chart.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/414/jagalchi-tako-chips-pack.jpg",
+          "alt": "Nongshim Tako Chips retail bag: pink packaging with 자갈치 in Korean above the words TAKO CHIPS in yellow, a cartoon octopus in a chef's hat, seafood flavor, big size, 10.09 oz / 286 g.",
+          "caption": "The US retail bag. 자갈치 is kept in Korean; the English name is Tako Chips. Image: Nongshim USA official product page.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/414/jagalchi-ingredients.jpg",
+          "alt": "Chart of the Nongshim USA ingredient list for Tako Chips: corvina, anchovy, cutlassfish, pollock and shrimp present, octopus and squid absent, alongside wheat flour, corn starch, rice bran oil, beef bone extract and black pepper.",
+          "caption": "EpicKor chart, from Nongshim USA's published ingredient and allergen statement.",
+          "ext": ".jpg",
+          "exists": true
+        }
+      ],
+      "findings": []
+    },
+    {
+      "type": "blog",
+      "slug": "415",
+      "title": "Gooun Gamja: What Korea's Baked Potato Snack Is Actually Made Of",
+      "contentPath": "content\\blog\\415.md",
+      "sourceRecord": "public\\assets\\images\\posts\\415\\image-sources.md",
+      "imageCount": 2,
+      "images": [
+        {
+          "url": "/assets/images/posts/415/gooun-gamja-product-line.jpg",
+          "alt": "Chart of Haitai's 구운 product family from 구운감자 in 1997 through 구운감자 슬림 in 2017, 구운고구마 in 2019, Texas hot barbecue flavour in April 2022, 구운옥수수 in 2022, hot grilled BBQ in 2023, 구운두유 black bean in 2023 and chipotle taco in 2024.",
+          "caption": "EpicKor chart.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/415/gooun-gamja-label.jpg",
+          "alt": "Chart of the Korean label for 구운감자 27 g showing 32.6% potato starch and 5.2% dried potato powder, alongside the declared fats — mixed palm oil and margarine containing palm oil, processed fat, palm olein, rapeseed oil and processed butter — with 130 kcal per 27 g bag.",
+          "caption": "EpicKor chart, from the Korean product label.",
+          "ext": ".jpg",
+          "exists": true
+        }
+      ],
+      "findings": []
+    },
+    {
+      "type": "blog",
+      "slug": "416",
+      "title": "Cham Bungeoppang: The Korean Fish Snack That Is Four Different Fish Abroad",
+      "contentPath": "content\\blog\\416.md",
+      "sourceRecord": "public\\assets\\images\\posts\\416\\image-sources.md",
+      "imageCount": 2,
+      "images": [
+        {
+          "url": "/assets/images/posts/416/cham-bungeoppang-lineup.jpg",
+          "alt": "Chart of the 참붕어빵 lineup — original 2011, 호떡 품은 2021 at about 24% of sales, and 우유슈크림맛 with 180 mg calcium — alongside the box declaration of 348 g, 1,452 kcal, 찹쌀떡 6.37% and a count printed as 12마리.",
+          "caption": "EpicKor chart.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/416/cham-bungeoppang-four-names.jpg",
+          "alt": "Chart of the four market names: 참붕어빵 in Korea from May 2011, 小鱼糯糯 in China from 2019, Bống Bang in Vietnam from 2024 after the Tấm Cám folktale, and Bungo in Russia, with global sales past 40 billion won.",
+          "caption": "EpicKor chart.",
           "ext": ".jpg",
           "exists": true
         }
