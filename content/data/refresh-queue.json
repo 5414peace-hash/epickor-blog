@@ -39,7 +39,7 @@
   "tier3": 26,
   "alreadyRefreshed": 33,
   "excluded": 4,
-  "pushPending": 9
+  "pushPending": 8
  },
  "queue": [
   {
@@ -561,7 +561,7 @@
    "humanImpressions": 9652,
    "sitePosition": 6.15,
    "specApplied": true,
-   "workedOn": "2026-08-20 내부링크 3→11 (output/strategy/071-internal-link-experiment.md, 판정 9/23)",
+   "workedOn": "2026-08-20 내부링크 3→11. 기준선: `deli manjoo` 3,336노출 7.0위 0.36% / `delimanjoo` 2,564노출 7.5위 0.27%. 판정 9/23, **순위로** (오타 쿼리 제외). 상세 output/strategy/071-internal-link-experiment.md",
    "status": "worked",
    "note": null
   },
@@ -576,8 +576,8 @@
    "humanImpressions": 3821,
    "sitePosition": 8.43,
    "specApplied": true,
-   "workedOn": null,
-   "status": "pending",
+   "workedOn": "2026-08-20 사실 리프레시. 기준선: 891쿼리 3,821노출 52클릭(1.36%), 4~9위 전환가능 874노출·20클릭. 원더풀스·기리고를 미공개로 잘못 서술한 것을 정정하고 8월 신작 2편(이런 엿같은 사랑·들쥐) 추가. 판정 9/23.",
+   "status": "worked",
    "note": null
   },
   {

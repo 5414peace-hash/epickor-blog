@@ -111,9 +111,15 @@ const PUSH_EXCLUDE = {
   '181': '최대 풀이 `naver webtoon`/`naver series` — 네이버로 가려는 내비게이셔널 쿼리다. 우리 글이 1위여도 클릭되지 않는다',
 };
 
-/** Push work already done; recorded so the lane does not re-recommend it. */
+/**
+ * Push work already done; recorded so the lane does not re-recommend it.
+ *
+ * The baseline goes in the note, because this file's own numbers are overwritten
+ * by the next GSC pull — which is the pull the work has to be judged against.
+ */
 const PUSH_WORKED = {
-  '071': '2026-08-20 내부링크 3→11 (output/strategy/071-internal-link-experiment.md, 판정 9/23)',
+  '071': '2026-08-20 내부링크 3→11. 기준선: `deli manjoo` 3,336노출 7.0위 0.36% / `delimanjoo` 2,564노출 7.5위 0.27%. 판정 9/23, **순위로** (오타 쿼리 제외). 상세 output/strategy/071-internal-link-experiment.md',
+  '167': '2026-08-20 사실 리프레시. 기준선: 891쿼리 3,821노출 52클릭(1.36%), 4~9위 전환가능 874노출·20클릭. 원더풀스·기리고를 미공개로 잘못 서술한 것을 정정하고 8월 신작 2편(이런 엿같은 사랑·들쥐) 추가. 판정 9/23.',
 };
 
 /** Impressions below this are too small for a refresh to move anything. */
