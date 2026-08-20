@@ -1,6 +1,6 @@
 {
   "summary": {
-    "generatedAt": "2026-08-19T12:38:35.995Z",
+    "generatedAt": "2026-08-20T02:45:08.540Z",
     "auditedPosts": 408,
     "includedPrivate": false,
     "slugFilter": "",
@@ -503,7 +503,7 @@
     {
       "type": "blog",
       "slug": "090",
-      "title": "Ahjussi Meaning: Is This Korean Word Rude? Ajeossi Explained",
+      "title": "Ahjussi Meaning: The Korean Word, and What an Ahjussi Actually Looks Like",
       "severity": "info",
       "code": "MISSING_SOURCE_RECORD",
       "detail": "public\\assets\\images\\posts\\090\\image-sources.md"
@@ -4315,7 +4315,7 @@
     {
       "type": "blog",
       "slug": "090",
-      "title": "Ahjussi Meaning: Is This Korean Word Rude? Ajeossi Explained",
+      "title": "Ahjussi Meaning: The Korean Word, and What an Ahjussi Actually Looks Like",
       "contentPath": "content\\blog\\090-the-fascinating-debate-among-korean-women-what-do-you-call-an-unfamiliar-man.md",
       "sourceRecord": "",
       "imageCount": 6,
@@ -7338,7 +7338,7 @@
     {
       "type": "blog",
       "slug": "200",
-      "title": "Chuseok 2026: Korea Slows Down 24-26 September, and Train Booking Opens in Late August",
+      "title": "Chuseok 2026: Korea Slows Down 24-26 September, Train Seats Sell 7-11 September",
       "contentPath": "content\\blog\\200.md",
       "sourceRecord": "public\\assets\\images\\posts\\200\\image-sources.md",
       "imageCount": 4,
