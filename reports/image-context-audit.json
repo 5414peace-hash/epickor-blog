@@ -1,10 +1,10 @@
 {
   "summary": {
-    "generatedAt": "2026-08-20T11:04:04.692Z",
-    "auditedPosts": 410,
+    "generatedAt": "2026-08-20T12:28:08.063Z",
+    "auditedPosts": 411,
     "includedPrivate": false,
     "slugFilter": "",
-    "bodyImages": 1432,
+    "bodyImages": 1434,
     "affectedPosts": 97,
     "critical": 0,
     "high": 0,
@@ -14892,6 +14892,31 @@
           "url": "/assets/images/posts/418/korea-snack-price-tiers.jpg",
           "alt": "Korean convenience store snack price tiers in August 2026: nothing at ₩1,000, most famous bags at ₩1,700, Home Run Ball at ₩1,900, Pepero at ₩2,000.",
           "caption": "The ₩1,000 tier is empty, ₩1,700 holds most of the famous bags, and two products have already broken above it. EpicKor original chart; prices checked August 2026.",
+          "ext": ".jpg",
+          "exists": true
+        }
+      ],
+      "findings": []
+    },
+    {
+      "type": "blog",
+      "slug": "419",
+      "title": "Seoul Deleted Its Women-Only Parking: What Korean Gender Policy Actually Is in 2026",
+      "contentPath": "content\\blog\\419.md",
+      "sourceRecord": "public\\assets\\images\\posts\\419\\image-sources.md",
+      "imageCount": 2,
+      "images": [
+        {
+          "url": "/assets/images/posts/419/korea-gender-policy-timeline.jpg",
+          "alt": "Timeline of Korean gender policy changes: the 1999 Constitutional Court ruling striking down the military service exam bonus, the 2003 gender-equality hiring target system, Seoul's 2023 abolition of women-only parking, and the 2025 renaming and expansion of the ministry.",
+          "caption": "Three of the four policies most often cited in English-language writing about Korea have been abolished or renamed. EpicKor original chart, built from the Constitutional Court decision, the Seoul parking ordinance and the 2025 government reorganisation.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/419/korea-hiring-target-system.jpg",
+          "alt": "Chart of candidates added by Korea's gender-equality hiring target system, showing women ahead in 2003-2010, men ahead in 2011-2020 and in the cumulative total, but women far ahead at national grade 7 and grade 5.",
+          "caption": "Each bar shows that row's split scaled to full width, with the absolute counts printed on it. The inversion between the overall total and the high-grade exams is why both sides of the argument can cite this system truthfully. EpicKor original chart from the Ministry of Personnel Management's annual report.",
           "ext": ".jpg",
           "exists": true
         }
