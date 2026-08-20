@@ -128,6 +128,8 @@ It is fast. It is portable. It smells good from a distance. It gives tourists an
 
 If you are visiting Seoul and want to try it, Myeongdong Station is the obvious place to start. But you may also find Deli Manjoo-style snacks near other transit areas, highway rest stops, or busy commercial spaces.
 
+Since you will be surfacing into the district anyway, EpicKor's [Myeongdong street food and K-beauty guide](/blog/315) has the current price ladder up on the street — useful context for why the station snack stays cheap.
+
 The setting is part of the flavor.
 
 ---
@@ -181,7 +183,7 @@ Here is the simple tourist guide:
 
 Some fans also like it after cooling down or even frozen, but for a first try, warm is the classic version.
 
-For another Korean snack culture guide, see EpicKor's article on [Korean snacks and texture culture](/blog/029). If the old-but-new dessert angle interests you, the [yakgwa guide](/blog/128) explains how a traditional honey cookie became a modern Gen Z cafe and convenience-store trend. For a more everyday morning version of this grab-and-go logic, read the guide to [Korean convenience store breakfast](/blog/171). If you want to recreate the snack break at home rather than chase the station kiosk, pair it with the [Korean instant coffee mix guide](/blog/278), the [Korean tea and grain drinks guide](/blog/280), or the broader [Korean pantry starter kit](/blog/277).
+The closest relative is seasonal rather than year-round: [bungeoppang (붕어빵)](/blog/416), the fish-shaped winter cart pastry, runs the same hot-iron-mould logic and splits its fans between red bean and the identical 슈크림 custard filling. For another Korean snack culture guide, see EpicKor's article on [Korean snacks and texture culture](/blog/029). If the old-but-new dessert angle interests you, the [yakgwa guide](/blog/128) explains how a traditional honey cookie became a modern Gen Z cafe and convenience-store trend. For a more everyday morning version of this grab-and-go logic, read the guide to [Korean convenience store breakfast](/blog/171). If you want to recreate the snack break at home rather than chase the station kiosk, pair it with the [Korean instant coffee mix guide](/blog/278), the [Korean tea and grain drinks guide](/blog/280), or the broader [Korean pantry starter kit](/blog/277).
 
 <div class="affiliate-inline-cta">
   <p><strong>For the people who searched "deli manjoo recipe":</strong> the honest news is that no home pan makes the little corn shape — that mold is commercial. What home bakers actually use is a <a href="https://www.amazon.com/Bellemain-12-Cup-Nonstick-Madeleine-Pan/dp/B00L5HCVSG?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">12-cavity madeleine pan</a>: same small-batch batter, same custard-filling technique, shell-shaped instead of corn-shaped. Fill each well halfway, drop in a teaspoon of custard, cover, and bake — the station smell is mostly vanilla and butter, and that part transfers. As an Amazon Associate, EpicKor may earn from qualifying purchases at no extra cost to you.</p>

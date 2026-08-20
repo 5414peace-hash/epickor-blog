@@ -99,7 +99,7 @@ The convenience-store meal is Korea's price benchmark, which is exactly why Kore
 
 </div>
 
-The shift worth knowing: **the ₩6,000 lunch box is now normal.** For years the convenience-store dosirak was shorthand for the cheapest possible hot meal in Korea, and Korean coverage in 2026 has been marking the moment that framing stopped being true. It is still good value against a restaurant, but it is no longer automatically the cheapest thing you can eat.
+The shift worth knowing: **the ₩6,000 lunch box is now normal.** For years the convenience-store dosirak was shorthand for the cheapest possible hot meal in Korea, and Korean coverage in 2026 has been marking the moment that framing stopped being true. It is still good value against a restaurant, but it is no longer automatically the cheapest thing you can eat. For a warm snack rather than a meal, the station counter now undercuts it: [delimanjoo](/blog/071) runs about **₩3,000–5,000** a bag, checked July 2026.
 
 ### The word that means the opposite, and the lawsuit it caused
 
