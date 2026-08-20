@@ -25,6 +25,20 @@ export const metadata: Metadata = {
     siteName: 'EpicKor',
     locale: 'en_US',
     type: 'website',
+    // Brand card for shares of the homepage and any page without its own
+    // image. Posts define their own openGraph and are untouched by this.
+    images: [
+      {
+        url: '/assets/og/og-default.jpg',
+        width: 1200,
+        height: 630,
+        alt: 'EpicKor — Korea, explained',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    images: ['/assets/og/og-default.jpg'],
   },
 };
 
