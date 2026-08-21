@@ -1881,6 +1881,219 @@
         "set",
         "sensitive skin"
       ]
+    },
+    {
+      "id": "orion-squid-peanut",
+      "name": "Orion Peanut & Squid Ball (오징어땅콩), 98g x 7",
+      "description": "The Orion original this snack is known for in Korea — a peanut centre under a squid-flavoured coating.",
+      "price": "",
+      "url": "https://www.amazon.com/dp/B083F93TLM?tag=epickor-20",
+      "category": "Food",
+      "image": "",
+      "tags": [
+        "오징어땅콩",
+        "Orion",
+        "Korean Snacks"
+      ],
+      "usedBy": [
+        "405"
+      ],
+      "verified": "2026-08-21 via Amazon listing search"
+    },
+    {
+      "id": "orion-custard-12",
+      "name": "ORION Custard Pie (카스타드), 12-pack",
+      "description": "Orion’s custard sponge cake, the 2004 challenger in Korea’s custard-cake origin argument.",
+      "price": "",
+      "url": "https://www.amazon.com/dp/B0FYC15DB1?tag=epickor-20",
+      "category": "Food",
+      "image": "",
+      "tags": [
+        "카스타드",
+        "Orion",
+        "Korean Snacks"
+      ],
+      "usedBy": [
+        "411"
+      ],
+      "verified": "2026-08-21 via Amazon listing search"
+    },
+    {
+      "id": "lotte-custard-cream-cake",
+      "name": "Lotte Custard Cream Cake (카스타드), 12-pack",
+      "description": "Lotte’s custard cake, Korea 1989 — the one with the earlier claim.",
+      "price": "",
+      "url": "https://www.amazon.com/dp/B08X21635H?tag=epickor-20",
+      "category": "Food",
+      "image": "",
+      "tags": [
+        "카스타드",
+        "Lotte",
+        "Korean Snacks"
+      ],
+      "usedBy": [
+        "411"
+      ],
+      "verified": "2026-08-21 via Amazon listing search"
+    },
+    {
+      "id": "cheongwoo-chaltteok-pie",
+      "name": "Cheongwoo Chal-Tteok Choco Pie (찰떡파이), 280g",
+      "description": "Chewy rice cake inside a chocolate coating, from the company at the centre of the 찰떡파이 patent case.",
+      "price": "",
+      "url": "https://www.amazon.com/dp/B01EPVXD2Q?tag=epickor-20",
+      "category": "Food",
+      "image": "",
+      "tags": [
+        "찰떡파이",
+        "청우식품",
+        "Korean Snacks"
+      ],
+      "usedBy": [
+        "412"
+      ],
+      "verified": "2026-08-21 via Amazon listing search"
+    },
+    {
+      "id": "lotte-butter-coconut",
+      "name": "Lotte Butter Coconut Biscuits (빠다코코낫), 100g x 2",
+      "description": "Sold abroad as Butter Coconut; the 1979 Lotte biscuit with the deliberately wrong spelling.",
+      "price": "",
+      "url": "https://www.amazon.com/dp/B01712R2WI?tag=epickor-20",
+      "category": "Food",
+      "image": "",
+      "tags": [
+        "빠다코코낫",
+        "Lotte",
+        "Korean Snacks"
+      ],
+      "usedBy": [
+        "413"
+      ],
+      "verified": "2026-08-21 via Amazon listing search"
+    },
+    {
+      "id": "nongshim-tako-chips",
+      "name": "Nongshim Tako Chips (자갈치), 10.1 oz family bag",
+      "description": "The export name for 자갈치 — octopus-shaped, named after a Busan fish market, contains neither.",
+      "price": "",
+      "url": "https://www.amazon.com/dp/B08ZSZMSKW?tag=epickor-20",
+      "category": "Food",
+      "image": "",
+      "tags": [
+        "자갈치",
+        "Nongshim",
+        "Korean Snacks"
+      ],
+      "usedBy": [
+        "414"
+      ],
+      "verified": "2026-08-21 via Amazon listing search"
+    },
+    {
+      "id": "orion-yegam",
+      "name": "ORION Ye Gam (예감) Baked Potato Chips, 204g",
+      "description": "Baked rather than fried. Stands in for 구운감자, which is not exported.",
+      "price": "",
+      "url": "https://www.amazon.com/dp/B09NVR752Q?tag=epickor-20",
+      "category": "Food",
+      "image": "",
+      "tags": [
+        "예감",
+        "Orion",
+        "Korean Snacks"
+      ],
+      "usedBy": [
+        "415"
+      ],
+      "verified": "2026-08-21 via Amazon listing search"
+    },
+    {
+      "id": "cham-bungeoppang-8",
+      "name": "Cham Bungeoppang (참붕어빵), 8 individually wrapped",
+      "description": "Fish-shaped cake with a chewy rice-cake centre. Not Orion’s box; a Korean maker’s cream-filled version.",
+      "price": "",
+      "url": "https://www.amazon.com/dp/B0GS8MHPVT?tag=epickor-20",
+      "category": "Food",
+      "image": "",
+      "tags": [
+        "참붕어빵",
+        "Korean Snacks"
+      ],
+      "usedBy": [
+        "416"
+      ],
+      "verified": "2026-08-21 via Amazon listing search"
+    },
+    {
+      "id": "lotte-kkokkalcorn",
+      "name": "Lotte Kkokkalcorn (꼬깔콘) Original, 2.72 oz x 2",
+      "description": "The year-round original. Korea’s convenience-store exclusives do not export.",
+      "price": "",
+      "url": "https://www.amazon.com/dp/B01N8U7X0L?tag=epickor-20",
+      "category": "Food",
+      "image": "",
+      "tags": [
+        "꼬깔콘",
+        "Lotte",
+        "Korean Snacks"
+      ],
+      "usedBy": [
+        "417"
+      ],
+      "verified": "2026-08-21 via Amazon listing search"
+    },
+    {
+      "id": "bacchus-d-20",
+      "name": "Dong-A Bacchus-D (박카스), 20-pack",
+      "description": "Korea’s pharmacy energy tonic. The D is the version sold outside pharmacies.",
+      "price": "",
+      "url": "https://www.amazon.com/dp/B07HXYQNC4?tag=epickor-20",
+      "category": "Drink",
+      "image": "",
+      "tags": [
+        "박카스",
+        "Dong-A",
+        "Korean Drinks"
+      ],
+      "usedBy": [
+        "344"
+      ],
+      "verified": "2026-08-21 via Amazon listing search"
+    },
+    {
+      "id": "vita-500-10",
+      "name": "Vita 500 (비타500), 10 x 100ml",
+      "description": "The vitamin drink that outsold Bacchus by leaving the pharmacy.",
+      "price": "",
+      "url": "https://www.amazon.com/dp/B00OQSUHD2?tag=epickor-20",
+      "category": "Drink",
+      "image": "",
+      "tags": [
+        "비타500",
+        "Korean Drinks"
+      ],
+      "usedBy": [
+        "347"
+      ],
+      "verified": "2026-08-21 via Amazon listing search"
+    },
+    {
+      "id": "haitai-chocolate-bars",
+      "name": "Haitai Premium Chocolate Bars, 432g",
+      "description": "Stands in for 자유시간, which is not exported. Same maker, same texture-first design.",
+      "price": "",
+      "url": "https://www.amazon.com/dp/B0062GOEI0?tag=epickor-20",
+      "category": "Food",
+      "image": "",
+      "tags": [
+        "해태",
+        "Korean Snacks"
+      ],
+      "usedBy": [
+        "406"
+      ],
+      "verified": "2026-08-21 via Amazon listing search"
     }
   ]
 }
