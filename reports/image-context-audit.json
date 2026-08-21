@@ -1,10 +1,10 @@
 {
   "summary": {
-    "generatedAt": "2026-08-20T13:57:24.243Z",
+    "generatedAt": "2026-08-21T00:19:50.217Z",
     "auditedPosts": 411,
     "includedPrivate": false,
     "slugFilter": "",
-    "bodyImages": 1448,
+    "bodyImages": 1447,
     "affectedPosts": 97,
     "critical": 0,
     "high": 0,
@@ -7086,15 +7086,8 @@
       "title": "Korean Gift-Giving Culture: What to Bring and Avoid",
       "contentPath": "content\\blog\\194.md",
       "sourceRecord": "public\\assets\\images\\posts\\194\\image-sources.md",
-      "imageCount": 4,
+      "imageCount": 3,
       "images": [
-        {
-          "url": "/assets/images/posts/194/seoul-outdoor-gift-shop.jpg",
-          "alt": "A Seoul outdoor shop, the kind of place travelers browse for small gifts, snacks, and practical souvenirs.",
-          "caption": "In Korea, a good gift is often practical, well-presented, and matched to the relationship. Photo by Alexander London via Pexels.",
-          "ext": ".jpg",
-          "exists": true
-        },
         {
           "url": "/assets/images/posts/194/ikseondong-shopping-street.jpg",
           "alt": "A busy Ikseon-dong shopping street in Seoul, where cafes, small shops, and gift-friendly stops make casual browsing part of daily culture.",
