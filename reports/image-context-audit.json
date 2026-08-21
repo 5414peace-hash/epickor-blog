@@ -1,10 +1,10 @@
 {
   "summary": {
-    "generatedAt": "2026-08-21T07:37:47.379Z",
+    "generatedAt": "2026-08-21T08:41:12.443Z",
     "auditedPosts": 411,
     "includedPrivate": false,
     "slugFilter": "",
-    "bodyImages": 1447,
+    "bodyImages": 1449,
     "affectedPosts": 97,
     "critical": 0,
     "high": 0,
@@ -7086,26 +7086,40 @@
       "title": "Korean Gift-Giving Culture: What to Bring and Avoid",
       "contentPath": "content\\blog\\194.md",
       "sourceRecord": "public\\assets\\images\\posts\\194\\image-sources.md",
-      "imageCount": 3,
+      "imageCount": 5,
       "images": [
         {
+          "url": "/assets/images/posts/194/chuseok-fruit-gift-boxes.jpg",
+          "alt": "Korean pear and apple gift boxes on a department store shelf, each fruit cradled in a red foam net, with price tags visible.",
+          "caption": "Boxed fruit — Korean pears (배) and apples — is the most standard holiday gift in the country, and the reason Korean fruit is sold in individual foam cradles. Shinsegae Department Store, Jung-gu, Seoul. Photo: Korean Culture and Information Service via Wikimedia Commons, CC BY-SA 2.0 (shot February 2015; the tags in frame are that year's prices).",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
           "url": "/assets/images/posts/194/ikseondong-shopping-street.jpg",
-          "alt": "A busy Ikseon-dong shopping street in Seoul, where cafes, small shops, and gift-friendly stops make casual browsing part of daily culture.",
-          "caption": "Small Seoul shops make it easy to find gifts that feel thoughtful without becoming overly formal. Photo by Theodore Nguyen via Pexels.",
+          "alt": "A hanok-roofed alley in Ikseon-dong, Seoul, lined with small restaurants and shops under tangled overhead wiring.",
+          "caption": "Ikseon-dong (익선동), one of the old hanok blocks in central Seoul. The alley is mostly restaurants and cafés — useful for a thank-you meal rather than for buying a gift, which is worth knowing before you plan a shopping trip around it. Photo via Pexels.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/194/seollal-gift-set-wall-prices.jpg",
+          "alt": "A wall of Korean holiday gift sets in a department store, boxed dried goods and hangwa stacked in tiers with price tags in the ₩110,000-300,000 range.",
+          "caption": "Holiday gift sets are merchandised by price, not by product — the tier is the decision, and the contents follow. The banner reads 설 기프트 대량판매 접수처, the bulk-order desk for companies buying by the hundred. Shinsegae Department Store, Jung-gu, Seoul, February 2015. Photo: Korean Culture and Information Service via Wikimedia Commons, CC BY-SA 2.0.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/194/hangwa-gift-set-boxed.jpg",
+          "alt": "A boxed Korean hangwa gift set, traditional confections arranged in compartments with a maker's card and a price tag reading 200,000 won.",
+          "caption": "한과 (hangwa), traditional Korean confection, at the formal end of the gift range. The compartment tray, the maker's card and the box are doing as much work here as the sweets. Shinsegae Department Store, Jung-gu, Seoul. Photo: Korean Culture and Information Service via Wikimedia Commons, CC BY-SA 2.0.",
           "ext": ".jpg",
           "exists": true
         },
         {
           "url": "/assets/images/posts/194/seoul-market-stalls.jpg",
-          "alt": "Seoul market stalls are useful places to find small, practical gifts that are easier to give than oversized souvenirs.",
-          "caption": "Practical, modest gifts are often easier to accept than expensive surprises. Photo by CK Seng via Pexels.",
-          "ext": ".jpg",
-          "exists": true
-        },
-        {
-          "url": "/assets/images/posts/194/wrapped-gift-boxes.jpg",
-          "alt": "Wrapped gifts with simple ribbons, a neutral reminder that presentation often shapes how a gift feels before it is opened.",
-          "caption": "Presentation does not need to be expensive. It just needs to show care. Photo by Murugan Ettiyan via Pexels.",
+          "alt": "Seoul market stalls with produce crates, awnings and Korean shop signs along a narrow neighbourhood alley.",
+          "caption": "A neighbourhood market alley in Seoul. This is where boxed fruit gets bought when it is not being bought at a department store — cheaper, less formal, and the normal source for a home-visit gift. Photo by CK Seng via Pexels.",
           "ext": ".jpg",
           "exists": true
         }

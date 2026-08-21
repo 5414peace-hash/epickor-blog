@@ -204,6 +204,22 @@ for (const dir of ['content/blog', 'content/business']) {
     const won = (text.match(/₩/g) || []).length;
     const hangul = new Set(text.match(/[가-힣]+/g) || []).size;
 
+    /**
+     * A year in the title is usually staleness bait — but not when the post is
+     * ABOUT dates. "Chuseok 2026" IS the query. "Food Halls 2026" is decoration
+     * that will rot. Tell them apart by whether the post pins a calendar date:
+     * an event post always does, an evergreen guide never does.
+     *
+     * The first version flagged both, and that sent a session to re-refresh
+     * `200` the day after it had correctly been updated with the real Korail
+     * sale dates — the one post on the list with nothing left to fix.
+     */
+    const MONTHS = 'January|February|March|April|May|June|July|August|September|October|November|December';
+    const pinsADate = new RegExp(
+      `\\b\\d{1,2}\\s*(?:[-–]\\s*\\d{1,2}\\s*)?(?:${MONTHS})\\b|\\b(?:${MONTHS})\\s+\\d{1,2}\\b`,
+      'i',
+    ).test(`${get('title')} ${get('description')}`);
+
     posts.push({
       slug,
       section: s.section,
@@ -216,7 +232,9 @@ for (const dir of ['content/blog', 'content/business']) {
       firstHalf: s.firstHalf,
       secondHalf: s.secondHalf,
       verdict: s.clicks > 0 ? 'alive' : (s.impressions > 0 ? 'dormant-seen' : 'dormant-unseen'),
-      gaps: { won, hangul, yearInTitle: /\b20\d{2}\b/.test(get('title')) },
+      gaps: { won, hangul, yearInTitle: /\b20\d{2}\b/.test(get('title')) && !pinsADate },
+      /** The post's own record of when it was last touched. See `cooled()`. */
+      updatedAt: get('updatedAt') || null,
       // preserved across runs
       worked: p.worked || null,
       note: p.note || null,
@@ -246,10 +264,46 @@ for (const dir of ['content/blog', 'content/business']) {
  * A finished season demotes itself this way without needing a special case.
  */
 const alive = posts.filter((p) => p.verdict === 'alive');
-const cooled = (p) => !p.worked || (Date.now() - new Date(p.worked + 'T00:00:00Z')) / DAY > COOLDOWN_DAYS;
+
+/**
+ * `worked` only knows about work done SINCE this script existed, and it shipped
+ * with an empty state file. On the second run that cost a session: the top three
+ * nominees — `200`, `198`, `255` — had all been refreshed within the previous
+ * three weeks, and `200` only the day before.
+ *
+ * The posts already carry that history in their own frontmatter. `updatedAt` is
+ * the authority on when a post was last touched, so read it as an implicit
+ * `worked` date. Keep the two fields separate in the JSON: `worked` stays a
+ * record of what this gate sent someone to do, `updatedAt` is what the file says.
+ */
+const lastTouched = (p) => {
+  const dates = [p.worked, p.updatedAt].filter(Boolean).sort();
+  return dates.length ? dates[dates.length - 1] : null;
+};
+const cooled = (p) => {
+  const d = lastTouched(p);
+  return !d || (Date.now() - new Date(d + 'T00:00:00Z')) / DAY > COOLDOWN_DAYS;
+};
+
+/**
+ * A gap is something concrete to go and fix. Without one the nomination reads
+ * "스펙은 채워져 있음" — which is not an instruction, and is how `198` reached
+ * the list with nothing to do while `255` sat below it carrying exactly one
+ * price in a 3,000-word guide about what things cost.
+ */
+const gapsOf = (p) => {
+  const g = [];
+  if (!p.gaps.won) g.push('₩ 없음');
+  if (p.gaps.hangul < 3) g.push('한글 병기 부족');
+  if (p.gaps.yearInTitle) g.push('제목 연도 확인');
+  return g;
+};
+const hasGap = (p) => gapsOf(p).length > 0;
+
 const water = alive
   .filter((p) => cooled(p) && !DEAD_END.has(p.slug) && !isImpressionHeavy(p))
-  .sort((a, b) => b.secondHalf - a.secondHalf || b.clicks - a.clicks || b.impressions - a.impressions)
+  .sort((a, b) => (hasGap(b) - hasGap(a))
+    || b.secondHalf - a.secondHalf || b.clicks - a.clicks || b.impressions - a.impressions)
   .slice(0, WATER_COUNT);
 
 const seenNoClick = posts.filter((p) => p.verdict === 'dormant-seen');
@@ -291,14 +345,28 @@ console.log('  ' + unseen.map((p) => p.slug).join(' '));
 
 console.log(`\n■ 이번 주 물 줄 글 ${water.length}편 — 최근 2주 클릭이 큰 순서 (dead-end·노출형 제외)`);
 for (const p of water) {
-  const g = [];
-  if (!p.gaps.won) g.push('₩ 없음');
-  if (p.gaps.hangul < 3) g.push('한글 병기 부족');
-  if (p.gaps.yearInTitle) g.push('제목 연도 확인');
+  const g = gapsOf(p);
   console.log(fmt(p));
   console.log(`        → ${g.length ? g.join(' · ') : '스펙은 채워져 있음 — 내부링크·사실 갱신·소셜 후보로'}`);
 }
 if (!water.length) console.log('  (없음 — 살아 있는 글이 모두 최근에 작업됐거나 판정 대상이 비어 있습니다)');
+
+/**
+ * A post can be skipped for cooling down and still have a hole in it. `255` is
+ * the case: refreshed 12 days ago and left with exactly one price in a guide
+ * about what food costs. That is a real gap, but re-opening a post someone
+ * touched last week is the churn the cooldown exists to stop — so name it here
+ * and let the next cycle pick it up instead of losing it.
+ */
+const coolingWithGaps = alive
+  .filter((p) => !cooled(p) && hasGap(p) && !DEAD_END.has(p.slug) && !isImpressionHeavy(p))
+  .sort((a, b) => b.secondHalf - a.secondHalf);
+if (coolingWithGaps.length) {
+  console.log(`\n■ 쿨다운 중이지만 결손이 남아 있다 (${coolingWithGaps.length}편) — 다음 사이클 후보`);
+  for (const p of coolingWithGaps.slice(0, 5)) {
+    console.log(`  ${short(p.slug).padEnd(13)} ${lastTouched(p)} 작업  최근2주 클릭 ${pad(p.secondHalf, 2)}  → ${gapsOf(p).join(' · ')}`);
+  }
+}
 
 console.log(`\n작업을 마치면 ${OUT}의 해당 슬러그에 "worked": "YYYY-MM-DD"를 적으세요.`);
 console.log(`그러면 ${COOLDOWN_DAYS}일간 이 목록에 다시 오르지 않습니다.\n`);
