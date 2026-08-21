@@ -24,9 +24,15 @@ function findFolderBySlug(baseDir, targetSlug) {
   return folders.at(-1) || null;
 }
 
+// Carousels used to be built under output/cardnews, but nothing has been written
+// there since 2026-08-09 - production moved to public/assets/cardnews. Looking in
+// only the old place made `--slug 223` exit with "No card-news output folder found",
+// which reads like "nothing to review" rather than "wrong directory", and this is a
+// mandatory gate. Check both, newest wins.
 const folder = explicitFolder
   ? path.resolve(root, explicitFolder)
-  : findFolderBySlug(path.join(root, 'output', 'cardnews'), slug);
+  : (findFolderBySlug(path.join(root, 'public', 'assets', 'cardnews'), slug)
+     || findFolderBySlug(path.join(root, 'output', 'cardnews'), slug));
 
 if (!folder) {
   console.error(`No card-news output folder found for slug ${slug}`);
