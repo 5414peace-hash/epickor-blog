@@ -40,7 +40,8 @@
     "reels:trim-lead": "node .claude/skills/reels/scripts/trim-narration-lead.mjs",
     "refresh:baseline": "node scripts/refresh-baseline.mjs",
     "refresh:judge": "node scripts/refresh-baseline.mjs --judge",
-    "typecheck:remotion": "tsc --noEmit --jsx react-jsx --target es2020 --module esnext --moduleResolution bundler --strict --skipLibCheck --resolveJsonModule --esModuleInterop remotion/Reel376.tsx remotion/Reel377.tsx remotion/Reel379.tsx"
+    "typecheck:remotion": "tsc --noEmit --jsx react-jsx --target es2020 --module esnext --moduleResolution bundler --strict --skipLibCheck --resolveJsonModule --esModuleInterop remotion/Reel376.tsx remotion/Reel377.tsx remotion/Reel379.tsx",
+    "seeds:check": "node scripts/seeds-check.mjs"
   },
   "dependencies": {
     "@remotion/cli": "4.0.457",

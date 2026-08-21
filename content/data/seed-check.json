@@ -1,0 +1,2268 @@
+{
+  "generated": "2026-08-19",
+  "window": {
+    "start": "2026-07-23",
+    "end": "2026-08-19",
+    "source": "date-page_2026-07-22_2026-08-19.csv"
+  },
+  "rule": "clicks > 0 = alive. Measured 2026-08-21: 0 clicks -> 0.06 mean clicks later, 1 click -> 1.17. See output/strategy/breakout-prediction_2026-08-21.md",
+  "counts": {
+    "judged": 112,
+    "alive": 47,
+    "dormantSeen": 62,
+    "dormantUnseen": 3
+  },
+  "water": [
+    "218",
+    "200",
+    "198"
+  ],
+  "deadEndExcluded": [
+    "090",
+    "082",
+    "210",
+    "301"
+  ],
+  "posts": [
+    {
+      "slug": "198",
+      "section": "blog",
+      "title": "Waterbomb Korea: What to Wear, What to Bring, and Why Seoul's Edition Isn't in Seoul",
+      "published": "2026-06-14",
+      "ageDays": 66,
+      "clicks": 84,
+      "impressions": 1961,
+      "position": 6.5,
+      "firstHalf": 76,
+      "secondHalf": 8,
+      "verdict": "alive",
+      "gaps": {
+        "won": 15,
+        "hangul": 18,
+        "yearInTitle": false
+      },
+      "worked": null,
+      "note": null
+    },
+    {
+      "slug": "218",
+      "section": "blog",
+      "title": "Daiso Korea Must-Buy Guide: Beauty, Travel, Souvenirs",
+      "published": "2026-06-20",
+      "ageDays": 60,
+      "clicks": 38,
+      "impressions": 771,
+      "position": 8.5,
+      "firstHalf": 25,
+      "secondHalf": 13,
+      "verdict": "alive",
+      "gaps": {
+        "won": 0,
+        "hangul": 0,
+        "yearInTitle": false
+      },
+      "worked": null,
+      "note": null
+    },
+    {
+      "slug": "274",
+      "section": "blog",
+      "title": "LoL Park Seoul: 450 Seats, One-Minute Sellouts, and How to Actually Get In",
+      "published": "2026-07-08",
+      "ageDays": 42,
+      "clicks": 25,
+      "impressions": 1453,
+      "position": 7.8,
+      "firstHalf": 14,
+      "secondHalf": 11,
+      "verdict": "alive",
+      "gaps": {
+        "won": 19,
+        "hangul": 22,
+        "yearInTitle": false
+      },
+      "worked": "2026-08-21",
+      "note": "테스트"
+    },
+    {
+      "slug": "200",
+      "section": "blog",
+      "title": "Chuseok 2026: Korea Slows Down 24-26 September, Train Seats Sell 7-11 September",
+      "published": "2026-06-14",
+      "ageDays": 66,
+      "clicks": 23,
+      "impressions": 2183,
+      "position": 8.9,
+      "firstHalf": 13,
+      "secondHalf": 10,
+      "verdict": "alive",
+      "gaps": {
+        "won": 13,
+        "hangul": 27,
+        "yearInTitle": true
+      },
+      "worked": null,
+      "note": null
+    },
+    {
+      "slug": "181",
+      "section": "blog",
+      "title": "Korean Webtoons Explained: Manhwa vs Manga, and How to Read",
+      "published": "2026-05-28",
+      "ageDays": 83,
+      "clicks": 14,
+      "impressions": 6810,
+      "position": 6.9,
+      "firstHalf": 6,
+      "secondHalf": 8,
+      "verdict": "alive",
+      "gaps": {
+        "won": 0,
+        "hangul": 2,
+        "yearInTitle": false
+      },
+      "worked": null,
+      "note": null
+    },
+    {
+      "slug": "223",
+      "section": "blog",
+      "title": "Korea e-Arrival Card vs K-ETA: 22 Countries Are Exempt, and the Paid One Cancels the Free One",
+      "published": "2026-06-22",
+      "ageDays": 58,
+      "clicks": 12,
+      "impressions": 1518,
+      "position": 12.2,
+      "firstHalf": 8,
+      "secondHalf": 4,
+      "verdict": "alive",
+      "gaps": {
+        "won": 9,
+        "hangul": 8,
+        "yearInTitle": false
+      },
+      "worked": null,
+      "note": null
+    },
+    {
+      "slug": "203",
+      "section": "blog",
+      "title": "Korea Mosquito Season Guide: Packing and Local Buys",
+      "published": "2026-06-15",
+      "ageDays": 65,
+      "clicks": 12,
+      "impressions": 932,
+      "position": 8,
+      "firstHalf": 5,
+      "secondHalf": 7,
+      "verdict": "alive",
+      "gaps": {
+        "won": 0,
+        "hangul": 0,
+        "yearInTitle": false
+      },
+      "worked": null,
+      "note": null
+    },
+    {
+      "slug": "255",
+      "section": "blog",
+      "title": "Korean Department Store Food Halls 2026: What To Eat In Seoul",
+      "published": "2026-06-30",
+      "ageDays": 50,
+      "clicks": 10,
+      "impressions": 297,
+      "position": 8.2,
+      "firstHalf": 2,
+      "secondHalf": 8,
+      "verdict": "alive",
+      "gaps": {
+        "won": 1,
+        "hangul": 8,
+        "yearInTitle": true
+      },
+      "worked": null,
+      "note": null
+    },
+    {
+      "slug": "275",
+      "section": "blog",
+      "title": "Seoul Tech Shopping: What Yongsan Actually Is Now, and Where to Buy Instead",
+      "published": "2026-07-08",
+      "ageDays": 42,
+      "clicks": 10,
+      "impressions": 198,
+      "position": 7.8,
+      "firstHalf": 3,
+      "secondHalf": 7,
+      "verdict": "alive",
+      "gaps": {
+        "won": 11,
+        "hangul": 25,
+        "yearInTitle": false
+      },
+      "worked": null,
+      "note": null
+    },
+    {
+      "slug": "233",
+      "section": "blog",
+      "title": "KBO Baseball Game in Seoul 2026: Tickets, Seats, Food, and Cheers",
+      "published": "2026-06-25",
+      "ageDays": 55,
+      "clicks": 8,
+      "impressions": 1237,
+      "position": 9.3,
+      "firstHalf": 1,
+      "secondHalf": 7,
+      "verdict": "alive",
+      "gaps": {
+        "won": 35,
+        "hangul": 17,
+        "yearInTitle": true
+      },
+      "worked": null,
+      "note": null
+    },
+    {
+      "slug": "194",
+      "section": "blog",
+      "title": "Korean Gift-Giving Culture: What to Bring and Avoid",
+      "published": "2026-06-10",
+      "ageDays": 70,
+      "clicks": 6,
+      "impressions": 1082,
+      "position": 11.3,
+      "firstHalf": 2,
+      "secondHalf": 4,
+      "verdict": "alive",
+      "gaps": {
+        "won": 0,
+        "hangul": 0,
+        "yearInTitle": false
+      },
+      "worked": null,
+      "note": null
+    },
+    {
+      "slug": "248",
+      "section": "blog",
+      "title": "Seoul Running Crew Culture 2026: Why Korea Runs At Night",
+      "published": "2026-06-28",
+      "ageDays": 52,
+      "clicks": 6,
+      "impressions": 118,
+      "position": 7.3,
+      "firstHalf": 4,
+      "secondHalf": 2,
+      "verdict": "alive",
+      "gaps": {
+        "won": 0,
+        "hangul": 0,
+        "yearInTitle": true
+      },
+      "worked": null,
+      "note": null
+    },
+    {
+      "slug": "210",
+      "section": "blog",
+      "title": "What to Call a Stranger in Korea: Jeogiyo, Sajangnim, Imo",
+      "published": "2026-06-17",
+      "ageDays": 63,
+      "clicks": 5,
+      "impressions": 2518,
+      "position": 9.7,
+      "firstHalf": 1,
+      "secondHalf": 4,
+      "verdict": "alive",
+      "gaps": {
+        "won": 0,
+        "hangul": 7,
+        "yearInTitle": false
+      },
+      "worked": null,
+      "note": null
+    },
+    {
+      "slug": "227",
+      "section": "blog",
+      "title": "Shipping From Korea to the US: 15% Duty, Prepaid, and What It Costs",
+      "published": "2026-06-23",
+      "ageDays": 57,
+      "clicks": 5,
+      "impressions": 1502,
+      "position": 9.7,
+      "firstHalf": 1,
+      "secondHalf": 4,
+      "verdict": "alive",
+      "gaps": {
+        "won": 8,
+        "hangul": 14,
+        "yearInTitle": false
+      },
+      "worked": null,
+      "note": null
+    },
+    {
+      "slug": "musinsa-company-deep-dive",
+      "section": "business",
+      "title": "MUSINSA Deep Dive 2026: Korea's Fashion Platform Going Offline and Global",
+      "published": "2026-07-09",
+      "ageDays": 41,
+      "clicks": 5,
+      "impressions": 709,
+      "position": 8,
+      "firstHalf": 2,
+      "secondHalf": 3,
+      "verdict": "alive",
+      "gaps": {
+        "won": 0,
+        "hangul": 0,
+        "yearInTitle": true
+      },
+      "worked": null,
+      "note": null
+    },
+    {
+      "slug": "256",
+      "section": "blog",
+      "title": "Ajeossi Movie Explained: Korea's The Man from Nowhere and Won Bin",
+      "published": "2026-06-30",
+      "ageDays": 50,
+      "clicks": 5,
+      "impressions": 484,
+      "position": 9,
+      "firstHalf": 1,
+      "secondHalf": 4,
+      "verdict": "alive",
+      "gaps": {
+        "won": 0,
+        "hangul": 1,
+        "yearInTitle": false
+      },
+      "worked": null,
+      "note": null
+    },
+    {
+      "slug": "206",
+      "section": "blog",
+      "title": "Korea Tax Refund Guide: Receipts, Kiosks, Olive Young",
+      "published": "2026-06-17",
+      "ageDays": 63,
+      "clicks": 5,
+      "impressions": 458,
+      "position": 13.3,
+      "firstHalf": 5,
+      "secondHalf": 0,
+      "verdict": "alive",
+      "gaps": {
+        "won": 0,
+        "hangul": 0,
+        "yearInTitle": false
+      },
+      "worked": null,
+      "note": null
+    },
+    {
+      "slug": "197",
+      "section": "blog",
+      "title": "Boryeong Mud Festival 2026: Seoul Day Trip and Packing",
+      "published": "2026-06-13",
+      "ageDays": 67,
+      "clicks": 5,
+      "impressions": 176,
+      "position": 8.4,
+      "firstHalf": 4,
+      "secondHalf": 1,
+      "verdict": "alive",
+      "gaps": {
+        "won": 0,
+        "hangul": 0,
+        "yearInTitle": true
+      },
+      "worked": null,
+      "note": null
+    },
+    {
+      "slug": "257",
+      "section": "blog",
+      "title": "Incheon Airport Layover Guide 2026: Rest, Food, and Seoul Transit",
+      "published": "2026-07-01",
+      "ageDays": 49,
+      "clicks": 3,
+      "impressions": 886,
+      "position": 18.3,
+      "firstHalf": 3,
+      "secondHalf": 0,
+      "verdict": "alive",
+      "gaps": {
+        "won": 0,
+        "hangul": 0,
+        "yearInTitle": true
+      },
+      "worked": null,
+      "note": null
+    },
+    {
+      "slug": "215",
+      "section": "blog",
+      "title": "Korean Ingredient Label Guide: Allergens, Pork, Gelatin",
+      "published": "2026-06-19",
+      "ageDays": 61,
+      "clicks": 3,
+      "impressions": 524,
+      "position": 9.9,
+      "firstHalf": 3,
+      "secondHalf": 0,
+      "verdict": "alive",
+      "gaps": {
+        "won": 0,
+        "hangul": 97,
+        "yearInTitle": false
+      },
+      "worked": null,
+      "note": null
+    },
+    {
+      "slug": "268",
+      "section": "blog",
+      "title": "Korean Cushion Shade Guide 2026: 17, 21, 23 Tones",
+      "published": "2026-07-07",
+      "ageDays": 43,
+      "clicks": 3,
+      "impressions": 363,
+      "position": 9.9,
+      "firstHalf": 0,
+      "secondHalf": 3,
+      "verdict": "alive",
+      "gaps": {
+        "won": 0,
+        "hangul": 0,
+        "yearInTitle": true
+      },
+      "worked": null,
+      "note": null
+    },
+    {
+      "slug": "214",
+      "section": "blog",
+      "title": "Korea Reservation Culture: Why Seoul Walk-Ins Fail",
+      "published": "2026-06-19",
+      "ageDays": 61,
+      "clicks": 3,
+      "impressions": 145,
+      "position": 10.2,
+      "firstHalf": 1,
+      "secondHalf": 2,
+      "verdict": "alive",
+      "gaps": {
+        "won": 0,
+        "hangul": 0,
+        "yearInTitle": false
+      },
+      "worked": null,
+      "note": null
+    },
+    {
+      "slug": "193",
+      "section": "blog",
+      "title": "Korean Pop-Up Store Culture: Why Seoul Lines Up for Limited Drops",
+      "published": "2026-06-10",
+      "ageDays": 70,
+      "clicks": 3,
+      "impressions": 96,
+      "position": 8.5,
+      "firstHalf": 2,
+      "secondHalf": 1,
+      "verdict": "alive",
+      "gaps": {
+        "won": 0,
+        "hangul": 0,
+        "yearInTitle": false
+      },
+      "worked": null,
+      "note": null
+    },
+    {
+      "slug": "213",
+      "section": "blog",
+      "title": "Why Are There No Trash Cans in Korea? Rules, Fines, and Where Your Cup Goes",
+      "published": "2026-06-19",
+      "ageDays": 61,
+      "clicks": 2,
+      "impressions": 499,
+      "position": 8.4,
+      "firstHalf": 2,
+      "secondHalf": 0,
+      "verdict": "alive",
+      "gaps": {
+        "won": 5,
+        "hangul": 14,
+        "yearInTitle": false
+      },
+      "worked": null,
+      "note": null
+    },
+    {
+      "slug": "260",
+      "section": "blog",
+      "title": "Korean Rice Cooker Guide 2026: Cuckoo, Cuchen, Home Rice",
+      "published": "2026-07-01",
+      "ageDays": 49,
+      "clicks": 2,
+      "impressions": 179,
+      "position": 13,
+      "firstHalf": 0,
+      "secondHalf": 2,
+      "verdict": "alive",
+      "gaps": {
+        "won": 0,
+        "hangul": 2,
+        "yearInTitle": true
+      },
+      "worked": null,
+      "note": null
+    },
+    {
+      "slug": "249",
+      "section": "blog",
+      "title": "Korean Dating Rules 2026: Sogaeting, 100 Days, And Apps",
+      "published": "2026-06-28",
+      "ageDays": 52,
+      "clicks": 2,
+      "impressions": 145,
+      "position": 16.7,
+      "firstHalf": 0,
+      "secondHalf": 2,
+      "verdict": "alive",
+      "gaps": {
+        "won": 0,
+        "hangul": 0,
+        "yearInTitle": true
+      },
+      "worked": null,
+      "note": null
+    },
+    {
+      "slug": "220",
+      "section": "blog",
+      "title": "Korean Subway Snacks Guide: Deli Manjoo, Hotteok, Food",
+      "published": "2026-06-20",
+      "ageDays": 60,
+      "clicks": 2,
+      "impressions": 108,
+      "position": 9,
+      "firstHalf": 1,
+      "secondHalf": 1,
+      "verdict": "alive",
+      "gaps": {
+        "won": 13,
+        "hangul": 11,
+        "yearInTitle": false
+      },
+      "worked": null,
+      "note": null
+    },
+    {
+      "slug": "258",
+      "section": "blog",
+      "title": "Noryangjin Fish Market Guide 2026: Buy Seafood In Seoul",
+      "published": "2026-07-01",
+      "ageDays": 49,
+      "clicks": 2,
+      "impressions": 85,
+      "position": 20.7,
+      "firstHalf": 0,
+      "secondHalf": 2,
+      "verdict": "alive",
+      "gaps": {
+        "won": 10,
+        "hangul": 3,
+        "yearInTitle": true
+      },
+      "worked": null,
+      "note": null
+    },
+    {
+      "slug": "242",
+      "section": "blog",
+      "title": "Seoul Vintage Shopping 2026: Dongmyo to Hongdae",
+      "published": "2026-06-27",
+      "ageDays": 53,
+      "clicks": 2,
+      "impressions": 55,
+      "position": 8.5,
+      "firstHalf": 0,
+      "secondHalf": 2,
+      "verdict": "alive",
+      "gaps": {
+        "won": 0,
+        "hangul": 2,
+        "yearInTitle": true
+      },
+      "worked": null,
+      "note": null
+    },
+    {
+      "slug": "272",
+      "section": "blog",
+      "title": "Seoul Character Store Guide 2026: Kakao, LINE, Artbox",
+      "published": "2026-07-07",
+      "ageDays": 43,
+      "clicks": 2,
+      "impressions": 41,
+      "position": 8.6,
+      "firstHalf": 1,
+      "secondHalf": 1,
+      "verdict": "alive",
+      "gaps": {
+        "won": 0,
+        "hangul": 0,
+        "yearInTitle": true
+      },
+      "worked": null,
+      "note": null
+    },
+    {
+      "slug": "231",
+      "section": "blog",
+      "title": "Korean University Rankings Beyond SKY 2026 Guide",
+      "published": "2026-06-24",
+      "ageDays": 56,
+      "clicks": 1,
+      "impressions": 1353,
+      "position": 11.5,
+      "firstHalf": 0,
+      "secondHalf": 1,
+      "verdict": "alive",
+      "gaps": {
+        "won": 0,
+        "hangul": 0,
+        "yearInTitle": true
+      },
+      "worked": null,
+      "note": null
+    },
+    {
+      "slug": "226",
+      "section": "blog",
+      "title": "Korea Coin Laundry Guide 2026: Wash, Dry, and Pack Light",
+      "published": "2026-06-23",
+      "ageDays": 57,
+      "clicks": 1,
+      "impressions": 484,
+      "position": 9.7,
+      "firstHalf": 1,
+      "secondHalf": 0,
+      "verdict": "alive",
+      "gaps": {
+        "won": 0,
+        "hangul": 0,
+        "yearInTitle": true
+      },
+      "worked": null,
+      "note": null
+    },
+    {
+      "slug": "229",
+      "section": "blog",
+      "title": "Korean Floor Culture: Shoes, Ondol, Slippers, Low Tables",
+      "published": "2026-06-23",
+      "ageDays": 57,
+      "clicks": 1,
+      "impressions": 423,
+      "position": 8.4,
+      "firstHalf": 1,
+      "secondHalf": 0,
+      "verdict": "alive",
+      "gaps": {
+        "won": 0,
+        "hangul": 0,
+        "yearInTitle": false
+      },
+      "worked": null,
+      "note": null
+    },
+    {
+      "slug": "201",
+      "section": "blog",
+      "title": "Korea Payment Guide 2026: T-money, WOWPASS, Cards, Cash",
+      "published": "2026-06-15",
+      "ageDays": 65,
+      "clicks": 1,
+      "impressions": 409,
+      "position": 14,
+      "firstHalf": 0,
+      "secondHalf": 1,
+      "verdict": "alive",
+      "gaps": {
+        "won": 0,
+        "hangul": 0,
+        "yearInTitle": true
+      },
+      "worked": null,
+      "note": null
+    },
+    {
+      "slug": "232",
+      "section": "blog",
+      "title": "K-Fashion Shopping Guide 2026: Seoul Brands Tour",
+      "published": "2026-06-24",
+      "ageDays": 56,
+      "clicks": 1,
+      "impressions": 336,
+      "position": 10.1,
+      "firstHalf": 0,
+      "secondHalf": 1,
+      "verdict": "alive",
+      "gaps": {
+        "won": 0,
+        "hangul": 0,
+        "yearInTitle": true
+      },
+      "worked": null,
+      "note": null
+    },
+    {
+      "slug": "179",
+      "section": "blog",
+      "title": "Soju, Makgeolli, and Anju: How a Korean Drinking Table Works",
+      "published": "2026-05-28",
+      "ageDays": 83,
+      "clicks": 1,
+      "impressions": 319,
+      "position": 15.9,
+      "firstHalf": 0,
+      "secondHalf": 1,
+      "verdict": "alive",
+      "gaps": {
+        "won": 12,
+        "hangul": 25,
+        "yearInTitle": false
+      },
+      "worked": null,
+      "note": null
+    },
+    {
+      "slug": "186",
+      "section": "blog",
+      "title": "Eating Alone in Korea: Honbap, Honsul, and the 9 Levels Koreans Rank It By",
+      "published": "2026-06-02",
+      "ageDays": 78,
+      "clicks": 1,
+      "impressions": 260,
+      "position": 13.3,
+      "firstHalf": 1,
+      "secondHalf": 0,
+      "verdict": "alive",
+      "gaps": {
+        "won": 10,
+        "hangul": 37,
+        "yearInTitle": false
+      },
+      "worked": null,
+      "note": null
+    },
+    {
+      "slug": "276",
+      "section": "blog",
+      "title": "Korean Men's Haircut Guide 2026: Two-Block and Down Perm",
+      "published": "2026-07-08",
+      "ageDays": 42,
+      "clicks": 1,
+      "impressions": 228,
+      "position": 11,
+      "firstHalf": 0,
+      "secondHalf": 1,
+      "verdict": "alive",
+      "gaps": {
+        "won": 0,
+        "hangul": 0,
+        "yearInTitle": true
+      },
+      "worked": null,
+      "note": null
+    },
+    {
+      "slug": "230",
+      "section": "blog",
+      "title": "K-Pop Concert in Seoul 2026: Tickets, Bags, Subway",
+      "published": "2026-06-24",
+      "ageDays": 56,
+      "clicks": 1,
+      "impressions": 224,
+      "position": 8.5,
+      "firstHalf": 1,
+      "secondHalf": 0,
+      "verdict": "alive",
+      "gaps": {
+        "won": 0,
+        "hangul": 0,
+        "yearInTitle": true
+      },
+      "worked": null,
+      "note": null
+    },
+    {
+      "slug": "222",
+      "section": "blog",
+      "title": "Does Google Maps Work in Korea? Naver Map and Kakao T",
+      "published": "2026-06-22",
+      "ageDays": 58,
+      "clicks": 1,
+      "impressions": 222,
+      "position": 14.4,
+      "firstHalf": 1,
+      "secondHalf": 0,
+      "verdict": "alive",
+      "gaps": {
+        "won": 0,
+        "hangul": 0,
+        "yearInTitle": false
+      },
+      "worked": null,
+      "note": null
+    },
+    {
+      "slug": "211",
+      "section": "blog",
+      "title": "Seoul Head Spa and Scalp Care 2026: What Tourists Should Know",
+      "published": "2026-06-17",
+      "ageDays": 63,
+      "clicks": 1,
+      "impressions": 69,
+      "position": 14.8,
+      "firstHalf": 1,
+      "secondHalf": 0,
+      "verdict": "alive",
+      "gaps": {
+        "won": 0,
+        "hangul": 0,
+        "yearInTitle": true
+      },
+      "worked": null,
+      "note": null
+    },
+    {
+      "slug": "238",
+      "section": "blog",
+      "title": "Korea Autumn Foliage 2026: Seoul to Seoraksan",
+      "published": "2026-06-26",
+      "ageDays": 54,
+      "clicks": 1,
+      "impressions": 63,
+      "position": 11.7,
+      "firstHalf": 1,
+      "secondHalf": 0,
+      "verdict": "alive",
+      "gaps": {
+        "won": 0,
+        "hangul": 0,
+        "yearInTitle": true
+      },
+      "worked": null,
+      "note": null
+    },
+    {
+      "slug": "192",
+      "section": "blog",
+      "title": "Olive Young Korea Guide: What to Buy and What to Skip",
+      "published": "2026-06-10",
+      "ageDays": 70,
+      "clicks": 1,
+      "impressions": 34,
+      "position": 9.5,
+      "firstHalf": 0,
+      "secondHalf": 1,
+      "verdict": "alive",
+      "gaps": {
+        "won": 0,
+        "hangul": 0,
+        "yearInTitle": false
+      },
+      "worked": null,
+      "note": null
+    },
+    {
+      "slug": "243",
+      "section": "blog",
+      "title": "Korean Body Care Guide 2026: The New K-Beauty Routine",
+      "published": "2026-06-28",
+      "ageDays": 52,
+      "clicks": 1,
+      "impressions": 32,
+      "position": 17.3,
+      "firstHalf": 0,
+      "secondHalf": 1,
+      "verdict": "alive",
+      "gaps": {
+        "won": 0,
+        "hangul": 2,
+        "yearInTitle": true
+      },
+      "worked": null,
+      "note": null
+    },
+    {
+      "slug": "247",
+      "section": "blog",
+      "title": "Korean Pet Parent Culture 2026: Dog Strollers And Cafes",
+      "published": "2026-06-28",
+      "ageDays": 52,
+      "clicks": 1,
+      "impressions": 12,
+      "position": 9.1,
+      "firstHalf": 0,
+      "secondHalf": 1,
+      "verdict": "alive",
+      "gaps": {
+        "won": 0,
+        "hangul": 0,
+        "yearInTitle": true
+      },
+      "worked": null,
+      "note": null
+    },
+    {
+      "slug": "209",
+      "section": "blog",
+      "title": "Korean Grocery Store Tourism: What to Buy Before You Fly",
+      "published": "2026-06-17",
+      "ageDays": 63,
+      "clicks": 1,
+      "impressions": 9,
+      "position": 13.4,
+      "firstHalf": 0,
+      "secondHalf": 1,
+      "verdict": "alive",
+      "gaps": {
+        "won": 0,
+        "hangul": 0,
+        "yearInTitle": false
+      },
+      "worked": null,
+      "note": null
+    },
+    {
+      "slug": "252",
+      "section": "blog",
+      "title": "Korean Screen Sports 2026: Golf, Bowling, And VR",
+      "published": "2026-06-29",
+      "ageDays": 51,
+      "clicks": 1,
+      "impressions": 4,
+      "position": 5.5,
+      "firstHalf": 0,
+      "secondHalf": 1,
+      "verdict": "alive",
+      "gaps": {
+        "won": 0,
+        "hangul": 0,
+        "yearInTitle": true
+      },
+      "worked": null,
+      "note": null
+    },
+    {
+      "slug": "toss-viva-republica-deep-dive",
+      "section": "business",
+      "title": "Toss / Viva Republica Deep Dive 2026: Korea's Fintech Super-App Company",
+      "published": "2026-07-09",
+      "ageDays": 41,
+      "clicks": 0,
+      "impressions": 1068,
+      "position": 8.2,
+      "firstHalf": 0,
+      "secondHalf": 0,
+      "verdict": "dormant-seen",
+      "gaps": {
+        "won": 0,
+        "hangul": 0,
+        "yearInTitle": true
+      },
+      "worked": null,
+      "note": null
+    },
+    {
+      "slug": "188",
+      "section": "blog",
+      "title": "Busan vs Seoul: Which Korean City Should You Visit First?",
+      "published": "2026-06-02",
+      "ageDays": 78,
+      "clicks": 0,
+      "impressions": 209,
+      "position": 42.8,
+      "firstHalf": 0,
+      "secondHalf": 0,
+      "verdict": "dormant-seen",
+      "gaps": {
+        "won": 2,
+        "hangul": 5,
+        "yearInTitle": false
+      },
+      "worked": null,
+      "note": null
+    },
+    {
+      "slug": "261",
+      "section": "blog",
+      "title": "Korea Stock Market 2026: Samsung, SK Hynix, AI Chips",
+      "published": "2026-07-04",
+      "ageDays": 46,
+      "clicks": 0,
+      "impressions": 201,
+      "position": 9.1,
+      "firstHalf": 0,
+      "secondHalf": 0,
+      "verdict": "dormant-seen",
+      "gaps": {
+        "won": 0,
+        "hangul": 0,
+        "yearInTitle": true
+      },
+      "worked": null,
+      "note": null
+    },
+    {
+      "slug": "187",
+      "section": "blog",
+      "title": "Korean Superstitions You Should Know Before Visiting Korea",
+      "published": "2026-06-02",
+      "ageDays": 78,
+      "clicks": 0,
+      "impressions": 173,
+      "position": 24.1,
+      "firstHalf": 0,
+      "secondHalf": 0,
+      "verdict": "dormant-seen",
+      "gaps": {
+        "won": 0,
+        "hangul": 0,
+        "yearInTitle": false
+      },
+      "worked": null,
+      "note": null
+    },
+    {
+      "slug": "266",
+      "section": "blog",
+      "title": "Korean BBQ Ssam Guide 2026: Lettuce, Perilla, Ssamjang, Garlic",
+      "published": "2026-07-05",
+      "ageDays": 45,
+      "clicks": 0,
+      "impressions": 129,
+      "position": 14.1,
+      "firstHalf": 0,
+      "secondHalf": 0,
+      "verdict": "dormant-seen",
+      "gaps": {
+        "won": 0,
+        "hangul": 0,
+        "yearInTitle": true
+      },
+      "worked": null,
+      "note": null
+    },
+    {
+      "slug": "263",
+      "section": "blog",
+      "title": "Samgyetang And Boknal 2026: Korea's Hot Summer Soup",
+      "published": "2026-07-04",
+      "ageDays": 46,
+      "clicks": 0,
+      "impressions": 114,
+      "position": 8.3,
+      "firstHalf": 0,
+      "secondHalf": 0,
+      "verdict": "dormant-seen",
+      "gaps": {
+        "won": 12,
+        "hangul": 5,
+        "yearInTitle": true
+      },
+      "worked": null,
+      "note": null
+    },
+    {
+      "slug": "korean-cosmetics-wholesale-guide",
+      "section": "business",
+      "title": "Korean Cosmetics Wholesale Guide 2026: Authorized Distributors, Gray Market Risk, and Where Buyers Should Look",
+      "published": "2026-07-07",
+      "ageDays": 43,
+      "clicks": 0,
+      "impressions": 111,
+      "position": 10.2,
+      "firstHalf": 0,
+      "secondHalf": 0,
+      "verdict": "dormant-seen",
+      "gaps": {
+        "won": 0,
+        "hangul": 0,
+        "yearInTitle": true
+      },
+      "worked": null,
+      "note": null
+    },
+    {
+      "slug": "216",
+      "section": "blog",
+      "title": "Korea Hands-Free Travel Guide: Lockers and Luggage",
+      "published": "2026-06-19",
+      "ageDays": 61,
+      "clicks": 0,
+      "impressions": 94,
+      "position": 19.1,
+      "firstHalf": 0,
+      "secondHalf": 0,
+      "verdict": "dormant-seen",
+      "gaps": {
+        "won": 0,
+        "hangul": 0,
+        "yearInTitle": false
+      },
+      "worked": null,
+      "note": null
+    },
+    {
+      "slug": "267",
+      "section": "blog",
+      "title": "Seoul Night Picnic Guide 2026: Hangang, Ramen, Chicken, Ice Cups",
+      "published": "2026-07-05",
+      "ageDays": 45,
+      "clicks": 0,
+      "impressions": 76,
+      "position": 11.5,
+      "firstHalf": 0,
+      "secondHalf": 0,
+      "verdict": "dormant-seen",
+      "gaps": {
+        "won": 13,
+        "hangul": 6,
+        "yearInTitle": true
+      },
+      "worked": null,
+      "note": null
+    },
+    {
+      "slug": "205",
+      "section": "blog",
+      "title": "Korea eSIM vs SIM vs Pocket WiFi: Tourist Setup",
+      "published": "2026-06-17",
+      "ageDays": 63,
+      "clicks": 0,
+      "impressions": 73,
+      "position": 21.2,
+      "firstHalf": 0,
+      "secondHalf": 0,
+      "verdict": "dormant-seen",
+      "gaps": {
+        "won": 0,
+        "hangul": 0,
+        "yearInTitle": false
+      },
+      "worked": null,
+      "note": null
+    },
+    {
+      "slug": "208",
+      "section": "blog",
+      "title": "Hangang Bus 2026: Is Seoul's New River Ride Worth It?",
+      "published": "2026-06-17",
+      "ageDays": 63,
+      "clicks": 0,
+      "impressions": 66,
+      "position": 9.2,
+      "firstHalf": 0,
+      "secondHalf": 0,
+      "verdict": "dormant-seen",
+      "gaps": {
+        "won": 0,
+        "hangul": 0,
+        "yearInTitle": true
+      },
+      "worked": null,
+      "note": null
+    },
+    {
+      "slug": "219",
+      "section": "blog",
+      "title": "Korean Ramen Went Premium: Why a Packet Now Costs ₩1,900",
+      "published": "2026-06-20",
+      "ageDays": 60,
+      "clicks": 0,
+      "impressions": 62,
+      "position": 15.1,
+      "firstHalf": 0,
+      "secondHalf": 0,
+      "verdict": "dormant-seen",
+      "gaps": {
+        "won": 18,
+        "hangul": 19,
+        "yearInTitle": false
+      },
+      "worked": null,
+      "note": null
+    },
+    {
+      "slug": "251",
+      "section": "blog",
+      "title": "Korean Study Cafe Rules 2026: Cagongjok Etiquette",
+      "published": "2026-06-29",
+      "ageDays": 51,
+      "clicks": 0,
+      "impressions": 56,
+      "position": 7.4,
+      "firstHalf": 0,
+      "secondHalf": 0,
+      "verdict": "dormant-seen",
+      "gaps": {
+        "won": 0,
+        "hangul": 0,
+        "yearInTitle": true
+      },
+      "worked": null,
+      "note": null
+    },
+    {
+      "slug": "253",
+      "section": "blog",
+      "title": "Seoul One-Day Classes 2026: Crafts, Rings, Perfume",
+      "published": "2026-06-29",
+      "ageDays": 51,
+      "clicks": 0,
+      "impressions": 54,
+      "position": 7,
+      "firstHalf": 0,
+      "secondHalf": 0,
+      "verdict": "dormant-seen",
+      "gaps": {
+        "won": 0,
+        "hangul": 0,
+        "yearInTitle": true
+      },
+      "worked": null,
+      "note": null
+    },
+    {
+      "slug": "246",
+      "section": "blog",
+      "title": "Korean Kiosk Panic Guide: How To Order Food In Seoul",
+      "published": "2026-06-28",
+      "ageDays": 52,
+      "clicks": 0,
+      "impressions": 53,
+      "position": 9,
+      "firstHalf": 0,
+      "secondHalf": 0,
+      "verdict": "dormant-seen",
+      "gaps": {
+        "won": 0,
+        "hangul": 7,
+        "yearInTitle": false
+      },
+      "worked": null,
+      "note": null
+    },
+    {
+      "slug": "202",
+      "section": "blog",
+      "title": "Incheon Airport to Seoul Guide: AREX, Bus, Taxi",
+      "published": "2026-06-15",
+      "ageDays": 65,
+      "clicks": 0,
+      "impressions": 51,
+      "position": 21,
+      "firstHalf": 0,
+      "secondHalf": 0,
+      "verdict": "dormant-seen",
+      "gaps": {
+        "won": 0,
+        "hangul": 0,
+        "yearInTitle": false
+      },
+      "worked": null,
+      "note": null
+    },
+    {
+      "slug": "281",
+      "section": "blog",
+      "title": "Korean Dosirak: The Lunchbox a Teacher Could Confiscate, and What Replaced It",
+      "published": "2026-07-09",
+      "ageDays": 41,
+      "clicks": 0,
+      "impressions": 49,
+      "position": 10.5,
+      "firstHalf": 0,
+      "secondHalf": 0,
+      "verdict": "dormant-seen",
+      "gaps": {
+        "won": 12,
+        "hangul": 29,
+        "yearInTitle": false
+      },
+      "worked": null,
+      "note": null
+    },
+    {
+      "slug": "how-to-find-suppliers-in-korea",
+      "section": "business",
+      "title": "How to Find Suppliers in Korea: Official Platforms, Verification, and First Contact",
+      "published": "2026-07-04",
+      "ageDays": 46,
+      "clicks": 0,
+      "impressions": 47,
+      "position": 7.6,
+      "firstHalf": 0,
+      "secondHalf": 0,
+      "verdict": "dormant-seen",
+      "gaps": {
+        "won": 0,
+        "hangul": 0,
+        "yearInTitle": false
+      },
+      "worked": null,
+      "note": null
+    },
+    {
+      "slug": "212",
+      "section": "blog",
+      "title": "Korea Lost and Found Guide: Phone, Wallet, Passport",
+      "published": "2026-06-19",
+      "ageDays": 61,
+      "clicks": 0,
+      "impressions": 40,
+      "position": 10.4,
+      "firstHalf": 0,
+      "secondHalf": 0,
+      "verdict": "dormant-seen",
+      "gaps": {
+        "won": 0,
+        "hangul": 0,
+        "yearInTitle": false
+      },
+      "worked": null,
+      "note": null
+    },
+    {
+      "slug": "225",
+      "section": "blog",
+      "title": "KTX vs SRT vs Express Bus 2026: Korea City Travel Guide",
+      "published": "2026-06-23",
+      "ageDays": 57,
+      "clicks": 0,
+      "impressions": 40,
+      "position": 9.4,
+      "firstHalf": 0,
+      "secondHalf": 0,
+      "verdict": "dormant-seen",
+      "gaps": {
+        "won": 2,
+        "hangul": 2,
+        "yearInTitle": true
+      },
+      "worked": null,
+      "note": null
+    },
+    {
+      "slug": "259",
+      "section": "blog",
+      "title": "Korean Bingsu Guide: Why the Same Dessert Costs ₩9,900 and ₩149,000",
+      "published": "2026-07-01",
+      "ageDays": 49,
+      "clicks": 0,
+      "impressions": 37,
+      "position": 7.5,
+      "firstHalf": 0,
+      "secondHalf": 0,
+      "verdict": "dormant-seen",
+      "gaps": {
+        "won": 52,
+        "hangul": 16,
+        "yearInTitle": false
+      },
+      "worked": null,
+      "note": null
+    },
+    {
+      "slug": "278",
+      "section": "blog",
+      "title": "Maxim Coffee Mix: Korea Invented the Coffee Stick, and Still Drinks 8 Billion a Year",
+      "published": "2026-07-08",
+      "ageDays": 42,
+      "clicks": 0,
+      "impressions": 37,
+      "position": 9.6,
+      "firstHalf": 0,
+      "secondHalf": 0,
+      "verdict": "dormant-seen",
+      "gaps": {
+        "won": 32,
+        "hangul": 37,
+        "yearInTitle": false
+      },
+      "worked": null,
+      "note": null
+    },
+    {
+      "slug": "262",
+      "section": "blog",
+      "title": "Busan Beach Guide 2026: Haeundae, Gwangalli, Songdo, Or Dadaepo?",
+      "published": "2026-07-04",
+      "ageDays": 46,
+      "clicks": 0,
+      "impressions": 36,
+      "position": 8.3,
+      "firstHalf": 0,
+      "secondHalf": 0,
+      "verdict": "dormant-seen",
+      "gaps": {
+        "won": 0,
+        "hangul": 0,
+        "yearInTitle": true
+      },
+      "worked": null,
+      "note": null
+    },
+    {
+      "slug": "180",
+      "section": "blog",
+      "title": "Bukchon Hanok Village: Seoul's Most Instagrammed Place",
+      "published": "2026-05-28",
+      "ageDays": 83,
+      "clicks": 0,
+      "impressions": 35,
+      "position": 42.5,
+      "firstHalf": 0,
+      "secondHalf": 0,
+      "verdict": "dormant-seen",
+      "gaps": {
+        "won": 0,
+        "hangul": 0,
+        "yearInTitle": false
+      },
+      "worked": null,
+      "note": null
+    },
+    {
+      "slug": "235",
+      "section": "blog",
+      "title": "Korean Nail Salon Guide: Gel Nails, Designs, Booking",
+      "published": "2026-06-25",
+      "ageDays": 55,
+      "clicks": 0,
+      "impressions": 35,
+      "position": 11.7,
+      "firstHalf": 0,
+      "secondHalf": 0,
+      "verdict": "dormant-seen",
+      "gaps": {
+        "won": 0,
+        "hangul": 0,
+        "yearInTitle": false
+      },
+      "worked": null,
+      "note": null
+    },
+    {
+      "slug": "195",
+      "section": "blog",
+      "title": "Centre Pompidou Hanwha Seoul: Yeouido Art Stop Guide",
+      "published": "2026-06-13",
+      "ageDays": 67,
+      "clicks": 0,
+      "impressions": 34,
+      "position": 8.8,
+      "firstHalf": 0,
+      "secondHalf": 0,
+      "verdict": "dormant-seen",
+      "gaps": {
+        "won": 0,
+        "hangul": 0,
+        "yearInTitle": false
+      },
+      "worked": null,
+      "note": null
+    },
+    {
+      "slug": "207",
+      "section": "blog",
+      "title": "Korea Beauty Clinic vs Olive Young 2026: Buy, Book, or Skip",
+      "published": "2026-06-17",
+      "ageDays": 63,
+      "clicks": 0,
+      "impressions": 34,
+      "position": 11.1,
+      "firstHalf": 0,
+      "secondHalf": 0,
+      "verdict": "dormant-seen",
+      "gaps": {
+        "won": 0,
+        "hangul": 0,
+        "yearInTitle": true
+      },
+      "worked": null,
+      "note": null
+    },
+    {
+      "slug": "240",
+      "section": "blog",
+      "title": "Korean Color Contact Lens and Eyewear Shopping Guide 2026",
+      "published": "2026-06-27",
+      "ageDays": 53,
+      "clicks": 0,
+      "impressions": 33,
+      "position": 13.9,
+      "firstHalf": 0,
+      "secondHalf": 0,
+      "verdict": "dormant-seen",
+      "gaps": {
+        "won": 0,
+        "hangul": 0,
+        "yearInTitle": true
+      },
+      "worked": null,
+      "note": null
+    },
+    {
+      "slug": "234",
+      "section": "blog",
+      "title": "Hanbok Rental in Seoul: Palace Photos and Etiquette",
+      "published": "2026-06-25",
+      "ageDays": 55,
+      "clicks": 0,
+      "impressions": 32,
+      "position": 13.2,
+      "firstHalf": 0,
+      "secondHalf": 0,
+      "verdict": "dormant-seen",
+      "gaps": {
+        "won": 0,
+        "hangul": 0,
+        "yearInTitle": false
+      },
+      "worked": null,
+      "note": null
+    },
+    {
+      "slug": "199",
+      "section": "blog",
+      "title": "Korea Rainy Season Guide: What to Pack for Jangma",
+      "published": "2026-06-14",
+      "ageDays": 66,
+      "clicks": 0,
+      "impressions": 29,
+      "position": 15,
+      "firstHalf": 0,
+      "secondHalf": 0,
+      "verdict": "dormant-seen",
+      "gaps": {
+        "won": 0,
+        "hangul": 0,
+        "yearInTitle": false
+      },
+      "worked": null,
+      "note": null
+    },
+    {
+      "slug": "237",
+      "section": "blog",
+      "title": "Korean Fragrance Shopping 2026: Seoul Perfume Guide",
+      "published": "2026-06-26",
+      "ageDays": 54,
+      "clicks": 0,
+      "impressions": 29,
+      "position": 8.5,
+      "firstHalf": 0,
+      "secondHalf": 0,
+      "verdict": "dormant-seen",
+      "gaps": {
+        "won": 0,
+        "hangul": 0,
+        "yearInTitle": true
+      },
+      "worked": null,
+      "note": null
+    },
+    {
+      "slug": "191",
+      "section": "blog",
+      "title": "Korean University Life: Study Hard, Play Harder Culture Explained",
+      "published": "2026-06-09",
+      "ageDays": 71,
+      "clicks": 0,
+      "impressions": 28,
+      "position": 13,
+      "firstHalf": 0,
+      "secondHalf": 0,
+      "verdict": "dormant-seen",
+      "gaps": {
+        "won": 0,
+        "hangul": 0,
+        "yearInTitle": false
+      },
+      "worked": null,
+      "note": null
+    },
+    {
+      "slug": "254",
+      "section": "blog",
+      "title": "Korean Hwachae: Summer Fruit Punch and Picnic Culture",
+      "published": "2026-06-30",
+      "ageDays": 50,
+      "clicks": 0,
+      "impressions": 28,
+      "position": 8.1,
+      "firstHalf": 0,
+      "secondHalf": 0,
+      "verdict": "dormant-seen",
+      "gaps": {
+        "won": 9,
+        "hangul": 4,
+        "yearInTitle": false
+      },
+      "worked": null,
+      "note": null
+    },
+    {
+      "slug": "270",
+      "section": "blog",
+      "title": "Seoul Salt Bread Bakery Guide: Routes and Real Prices",
+      "published": "2026-07-07",
+      "ageDays": 43,
+      "clicks": 0,
+      "impressions": 28,
+      "position": 8.9,
+      "firstHalf": 0,
+      "secondHalf": 0,
+      "verdict": "dormant-seen",
+      "gaps": {
+        "won": 14,
+        "hangul": 3,
+        "yearInTitle": false
+      },
+      "worked": null,
+      "note": null
+    },
+    {
+      "slug": "269",
+      "section": "blog",
+      "title": "Korean Beauty Devices 2026: LED, EMS, Medicube Guide",
+      "published": "2026-07-07",
+      "ageDays": 43,
+      "clicks": 0,
+      "impressions": 26,
+      "position": 9.7,
+      "firstHalf": 0,
+      "secondHalf": 0,
+      "verdict": "dormant-seen",
+      "gaps": {
+        "won": 0,
+        "hangul": 0,
+        "yearInTitle": true
+      },
+      "worked": null,
+      "note": null
+    },
+    {
+      "slug": "217",
+      "section": "blog",
+      "title": "Korean PDRN Skincare Guide: Salmon DNA and Spicules",
+      "published": "2026-06-20",
+      "ageDays": 60,
+      "clicks": 0,
+      "impressions": 25,
+      "position": 7.4,
+      "firstHalf": 0,
+      "secondHalf": 0,
+      "verdict": "dormant-seen",
+      "gaps": {
+        "won": 0,
+        "hangul": 0,
+        "yearInTitle": false
+      },
+      "worked": null,
+      "note": null
+    },
+    {
+      "slug": "korea-trade-shows-overseas-buyers",
+      "section": "business",
+      "title": "Korea Trade Shows for Overseas Buyers: How to Use KOTRA, Pavilions, and B2B Matching",
+      "published": "2026-07-04",
+      "ageDays": 46,
+      "clicks": 0,
+      "impressions": 25,
+      "position": 7.4,
+      "firstHalf": 0,
+      "secondHalf": 0,
+      "verdict": "dormant-seen",
+      "gaps": {
+        "won": 0,
+        "hangul": 0,
+        "yearInTitle": false
+      },
+      "worked": null,
+      "note": null
+    },
+    {
+      "slug": "182",
+      "section": "blog",
+      "title": "Korean Work Culture: Overtime, Hierarchy, and Hof Fridays",
+      "published": "2026-05-28",
+      "ageDays": 83,
+      "clicks": 0,
+      "impressions": 22,
+      "position": 13,
+      "firstHalf": 0,
+      "secondHalf": 0,
+      "verdict": "dormant-seen",
+      "gaps": {
+        "won": 0,
+        "hangul": 0,
+        "yearInTitle": false
+      },
+      "worked": null,
+      "note": null
+    },
+    {
+      "slug": "228",
+      "section": "blog",
+      "title": "Korea Temple Stay Guide 2026: What Actually Happens",
+      "published": "2026-06-23",
+      "ageDays": 57,
+      "clicks": 0,
+      "impressions": 22,
+      "position": 11.9,
+      "firstHalf": 0,
+      "secondHalf": 0,
+      "verdict": "dormant-seen",
+      "gaps": {
+        "won": 0,
+        "hangul": 0,
+        "yearInTitle": true
+      },
+      "worked": null,
+      "note": null
+    },
+    {
+      "slug": "236",
+      "section": "blog",
+      "title": "Seoul Personal Color Analysis 2026: Booking and Results",
+      "published": "2026-06-26",
+      "ageDays": 54,
+      "clicks": 0,
+      "impressions": 22,
+      "position": 11.8,
+      "firstHalf": 0,
+      "secondHalf": 0,
+      "verdict": "dormant-seen",
+      "gaps": {
+        "won": 0,
+        "hangul": 0,
+        "yearInTitle": true
+      },
+      "worked": null,
+      "note": null
+    },
+    {
+      "slug": "190",
+      "section": "blog",
+      "title": "Korean Healthcare Guide for Tourists: Emergencies and Pharmacies",
+      "published": "2026-06-09",
+      "ageDays": 71,
+      "clicks": 0,
+      "impressions": 20,
+      "position": 14.2,
+      "firstHalf": 0,
+      "secondHalf": 0,
+      "verdict": "dormant-seen",
+      "gaps": {
+        "won": 0,
+        "hangul": 2,
+        "yearInTitle": false
+      },
+      "worked": null,
+      "note": null
+    },
+    {
+      "slug": "279",
+      "section": "blog",
+      "title": "Korean Seaweed Snacks: Gim Is Called the Black Semiconductor, and the Price Doubled",
+      "published": "2026-07-08",
+      "ageDays": 42,
+      "clicks": 0,
+      "impressions": 20,
+      "position": 12.9,
+      "firstHalf": 0,
+      "secondHalf": 0,
+      "verdict": "dormant-seen",
+      "gaps": {
+        "won": 22,
+        "hangul": 20,
+        "yearInTitle": false
+      },
+      "worked": null,
+      "note": null
+    },
+    {
+      "slug": "280",
+      "section": "blog",
+      "title": "Korean Barley Tea vs Corn Tea, and the Rest of the Grain Drinks",
+      "published": "2026-07-09",
+      "ageDays": 41,
+      "clicks": 0,
+      "impressions": 20,
+      "position": 11.2,
+      "firstHalf": 0,
+      "secondHalf": 0,
+      "verdict": "dormant-seen",
+      "gaps": {
+        "won": 8,
+        "hangul": 8,
+        "yearInTitle": false
+      },
+      "worked": null,
+      "note": null
+    },
+    {
+      "slug": "282",
+      "section": "blog",
+      "title": "Korean Kimchi Jjigae at Home: You Want 묵은지, Not Just Old Kimchi",
+      "published": "2026-07-09",
+      "ageDays": 41,
+      "clicks": 0,
+      "impressions": 19,
+      "position": 14.8,
+      "firstHalf": 0,
+      "secondHalf": 0,
+      "verdict": "dormant-seen",
+      "gaps": {
+        "won": 19,
+        "hangul": 27,
+        "yearInTitle": false
+      },
+      "worked": null,
+      "note": null
+    },
+    {
+      "slug": "224",
+      "section": "blog",
+      "title": "KPop Demon Hunters Korea Guide: Seoul Places and Myths",
+      "published": "2026-06-22",
+      "ageDays": 58,
+      "clicks": 0,
+      "impressions": 18,
+      "position": 23.6,
+      "firstHalf": 0,
+      "secondHalf": 0,
+      "verdict": "dormant-seen",
+      "gaps": {
+        "won": 0,
+        "hangul": 0,
+        "yearInTitle": false
+      },
+      "worked": null,
+      "note": null
+    },
+    {
+      "slug": "271",
+      "section": "blog",
+      "title": "Korean Wearable Skincare 2026: Eye Patches and Mists",
+      "published": "2026-07-07",
+      "ageDays": 43,
+      "clicks": 0,
+      "impressions": 17,
+      "position": 9.2,
+      "firstHalf": 0,
+      "secondHalf": 0,
+      "verdict": "dormant-seen",
+      "gaps": {
+        "won": 0,
+        "hangul": 0,
+        "yearInTitle": true
+      },
+      "worked": null,
+      "note": null
+    },
+    {
+      "slug": "241",
+      "section": "blog",
+      "title": "Seoul Self Photo Studio 2026: Booking, Makeup, Outfits",
+      "published": "2026-06-27",
+      "ageDays": 53,
+      "clicks": 0,
+      "impressions": 16,
+      "position": 11.1,
+      "firstHalf": 0,
+      "secondHalf": 0,
+      "verdict": "dormant-seen",
+      "gaps": {
+        "won": 0,
+        "hangul": 0,
+        "yearInTitle": true
+      },
+      "worked": null,
+      "note": null
+    },
+    {
+      "slug": "k-beauty-oem-odm-korea",
+      "section": "business",
+      "title": "K-Beauty OEM/ODM in Korea: What Overseas Brands Should Check First",
+      "published": "2026-07-04",
+      "ageDays": 46,
+      "clicks": 0,
+      "impressions": 16,
+      "position": 13.1,
+      "firstHalf": 0,
+      "secondHalf": 0,
+      "verdict": "dormant-seen",
+      "gaps": {
+        "won": 0,
+        "hangul": 0,
+        "yearInTitle": false
+      },
+      "worked": null,
+      "note": null
+    },
+    {
+      "slug": "204",
+      "section": "blog",
+      "title": "Korea Summer Packing List: July and August Essentials",
+      "published": "2026-06-17",
+      "ageDays": 63,
+      "clicks": 0,
+      "impressions": 15,
+      "position": 18.3,
+      "firstHalf": 0,
+      "secondHalf": 0,
+      "verdict": "dormant-seen",
+      "gaps": {
+        "won": 0,
+        "hangul": 0,
+        "yearInTitle": false
+      },
+      "worked": null,
+      "note": null
+    },
+    {
+      "slug": "korean-packaging-suppliers",
+      "section": "business",
+      "title": "Korean Packaging Suppliers: Cosmetics And Food Guide",
+      "published": "2026-07-05",
+      "ageDays": 45,
+      "clicks": 0,
+      "impressions": 15,
+      "position": 14.9,
+      "firstHalf": 0,
+      "secondHalf": 0,
+      "verdict": "dormant-seen",
+      "gaps": {
+        "won": 0,
+        "hangul": 0,
+        "yearInTitle": false
+      },
+      "worked": null,
+      "note": null
+    },
+    {
+      "slug": "273",
+      "section": "blog",
+      "title": "Korean Car Camping Guide 2026: Cha-Bak and Gear",
+      "published": "2026-07-08",
+      "ageDays": 42,
+      "clicks": 0,
+      "impressions": 12,
+      "position": 8.5,
+      "firstHalf": 0,
+      "secondHalf": 0,
+      "verdict": "dormant-seen",
+      "gaps": {
+        "won": 0,
+        "hangul": 0,
+        "yearInTitle": true
+      },
+      "worked": null,
+      "note": null
+    },
+    {
+      "slug": "244",
+      "section": "blog",
+      "title": "Seoul Glowcation Guide 2026: Beauty, Shopping, and Recovery",
+      "published": "2026-06-28",
+      "ageDays": 52,
+      "clicks": 0,
+      "impressions": 10,
+      "position": 10.7,
+      "firstHalf": 0,
+      "secondHalf": 0,
+      "verdict": "dormant-seen",
+      "gaps": {
+        "won": 0,
+        "hangul": 0,
+        "yearInTitle": true
+      },
+      "worked": null,
+      "note": null
+    },
+    {
+      "slug": "264",
+      "section": "blog",
+      "title": "Daejeon Day Trip 2026: Korea's Science City, Sungsimdang, and KTX",
+      "published": "2026-07-04",
+      "ageDays": 46,
+      "clicks": 0,
+      "impressions": 10,
+      "position": 7,
+      "firstHalf": 0,
+      "secondHalf": 0,
+      "verdict": "dormant-seen",
+      "gaps": {
+        "won": 0,
+        "hangul": 0,
+        "yearInTitle": true
+      },
+      "worked": null,
+      "note": null
+    },
+    {
+      "slug": "189",
+      "section": "blog",
+      "title": "DMZ Tour from Seoul: What You Need to Know Before Visiting",
+      "published": "2026-06-09",
+      "ageDays": 71,
+      "clicks": 0,
+      "impressions": 9,
+      "position": 15.7,
+      "firstHalf": 0,
+      "secondHalf": 0,
+      "verdict": "dormant-seen",
+      "gaps": {
+        "won": 0,
+        "hangul": 0,
+        "yearInTitle": false
+      },
+      "worked": null,
+      "note": null
+    },
+    {
+      "slug": "277",
+      "section": "blog",
+      "title": "Korean Pantry Starter Kit: Gochujang Has a Printed Heat Number, and Nobody Tells You",
+      "published": "2026-07-08",
+      "ageDays": 42,
+      "clicks": 0,
+      "impressions": 9,
+      "position": 24.2,
+      "firstHalf": 0,
+      "secondHalf": 0,
+      "verdict": "dormant-seen",
+      "gaps": {
+        "won": 4,
+        "hangul": 32,
+        "yearInTitle": false
+      },
+      "worked": null,
+      "note": null
+    },
+    {
+      "slug": "196",
+      "section": "blog",
+      "title": "Why Korea Is Watching the 2026 World Cup Over Brunch",
+      "published": "2026-06-13",
+      "ageDays": 67,
+      "clicks": 0,
+      "impressions": 6,
+      "position": 10.2,
+      "firstHalf": 0,
+      "secondHalf": 0,
+      "verdict": "dormant-seen",
+      "gaps": {
+        "won": 0,
+        "hangul": 0,
+        "yearInTitle": true
+      },
+      "worked": null,
+      "note": null
+    },
+    {
+      "slug": "221",
+      "section": "blog",
+      "title": "Seoul Rainy Day Itinerary: Indoor Routes for Jangma",
+      "published": "2026-06-20",
+      "ageDays": 60,
+      "clicks": 0,
+      "impressions": 6,
+      "position": 7,
+      "firstHalf": 0,
+      "secondHalf": 0,
+      "verdict": "dormant-seen",
+      "gaps": {
+        "won": 0,
+        "hangul": 0,
+        "yearInTitle": false
+      },
+      "worked": null,
+      "note": null
+    },
+    {
+      "slug": "239",
+      "section": "blog",
+      "title": "Korean Hair Care Shopping 2026: Scalp, Oils, Treatments",
+      "published": "2026-06-27",
+      "ageDays": 53,
+      "clicks": 0,
+      "impressions": 5,
+      "position": 26.4,
+      "firstHalf": 0,
+      "secondHalf": 0,
+      "verdict": "dormant-seen",
+      "gaps": {
+        "won": 0,
+        "hangul": 3,
+        "yearInTitle": true
+      },
+      "worked": null,
+      "note": null
+    },
+    {
+      "slug": "265",
+      "section": "blog",
+      "title": "Korea AI Chip Wealth Divide: Bonuses And Ant Investors",
+      "published": "2026-07-04",
+      "ageDays": 46,
+      "clicks": 0,
+      "impressions": 4,
+      "position": 10.3,
+      "firstHalf": 0,
+      "secondHalf": 0,
+      "verdict": "dormant-seen",
+      "gaps": {
+        "won": 0,
+        "hangul": 0,
+        "yearInTitle": false
+      },
+      "worked": null,
+      "note": null
+    },
+    {
+      "slug": "185",
+      "section": "blog",
+      "title": "Hangang Space-Out Competition Guide: Seoul Rest Culture",
+      "published": "2026-05-30",
+      "ageDays": 81,
+      "clicks": 0,
+      "impressions": 3,
+      "position": 7.7,
+      "firstHalf": 0,
+      "secondHalf": 0,
+      "verdict": "dormant-seen",
+      "gaps": {
+        "won": 0,
+        "hangul": 3,
+        "yearInTitle": false
+      },
+      "worked": null,
+      "note": null
+    },
+    {
+      "slug": "250",
+      "section": "blog",
+      "title": "Korean Wellness Snacks: Olive Young's Own Brand Sold 30 Million Bags, and One Bag Is 240 Calories",
+      "published": "2026-06-29",
+      "ageDays": 51,
+      "clicks": 0,
+      "impressions": 2,
+      "position": 19,
+      "firstHalf": 0,
+      "secondHalf": 0,
+      "verdict": "dormant-seen",
+      "gaps": {
+        "won": 15,
+        "hangul": 25,
+        "yearInTitle": false
+      },
+      "worked": null,
+      "note": null
+    },
+    {
+      "slug": "245",
+      "section": "blog",
+      "title": "Korean Home Reset Culture: Why Seoul Apartments Feel Organized",
+      "published": "2026-06-28",
+      "ageDays": 52,
+      "clicks": 0,
+      "impressions": 1,
+      "position": 1,
+      "firstHalf": 0,
+      "secondHalf": 0,
+      "verdict": "dormant-seen",
+      "gaps": {
+        "won": 0,
+        "hangul": 0,
+        "yearInTitle": false
+      },
+      "worked": null,
+      "note": null
+    },
+    {
+      "slug": "178",
+      "section": "blog",
+      "title": "Korean Food Delivery Culture: How Baemin Changed Eating",
+      "published": "2026-05-27",
+      "ageDays": 84,
+      "clicks": 0,
+      "impressions": 0,
+      "position": null,
+      "firstHalf": 0,
+      "secondHalf": 0,
+      "verdict": "dormant-unseen",
+      "gaps": {
+        "won": 0,
+        "hangul": 2,
+        "yearInTitle": false
+      },
+      "worked": null,
+      "note": null
+    },
+    {
+      "slug": "183",
+      "section": "blog",
+      "title": "Seoul Heatwave Travel: How to Stay Cool in Korea's Summer",
+      "published": "2026-05-30",
+      "ageDays": 81,
+      "clicks": 0,
+      "impressions": 0,
+      "position": null,
+      "firstHalf": 0,
+      "secondHalf": 0,
+      "verdict": "dormant-unseen",
+      "gaps": {
+        "won": 0,
+        "hangul": 0,
+        "yearInTitle": false
+      },
+      "worked": null,
+      "note": null
+    },
+    {
+      "slug": "184",
+      "section": "blog",
+      "title": "Korean Four-Cut Photo Booth Guide: Poses, Frames, Tips",
+      "published": "2026-05-30",
+      "ageDays": 81,
+      "clicks": 0,
+      "impressions": 0,
+      "position": null,
+      "firstHalf": 0,
+      "secondHalf": 0,
+      "verdict": "dormant-unseen",
+      "gaps": {
+        "won": 0,
+        "hangul": 1,
+        "yearInTitle": false
+      },
+      "worked": null,
+      "note": null
+    }
+  ]
+}
