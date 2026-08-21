@@ -25,7 +25,7 @@ So the real question is not whether K-drama matters on Netflix. It does. The bet
 
 
 
-<p class="affiliate-topline"><a href="https://www.amazon.com/s?k=kpop+kdrama+fan+goods&amp;tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">K-pop and K-drama fan goods — compare on Amazon</a><span class="affiliate-topline-note">Affiliate link. As an Amazon Associate, EpicKor earns from qualifying purchases at no extra cost to you.</span></p>
+<p class="affiliate-topline"><a href="https://www.amazon.com/dp/B01N52C32A?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">The Kpop Dictionary — on Amazon</a><span class="affiliate-topline-note">Affiliate link. As an Amazon Associate, EpicKor earns from qualifying purchases at no extra cost to you.</span></p>
 
 ## Quick Answer: The Best First Korean Dramas on Netflix
 
@@ -60,7 +60,7 @@ What makes Squid Game useful for a new viewer is not just the numbers. It is the
 If you are building Korean-culture context around the show, pair this with EpicKor's [K-pop photocard guide](/blog/291) for fan-culture collecting logic and [Korean traditional games explainer](/blog/075) if you want to understand why childhood play can become powerful storytelling material.
 
 <div class="affiliate-inline-cta">
-  <p><strong>For watch-party context:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. If Korean shows are becoming part of your regular rotation, compare <a href="https://www.amazon.com/s?k=kpop+kdrama+fan+goods&amp;tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">K-pop and K-drama fan goods</a> without locking yourself into one trend.</p>
+  <p><strong>For watch-party context:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. If Korean shows are becoming part of your regular rotation, <a href="https://www.amazon.com/dp/B01N52C32A?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">The Kpop Dictionary</a> covers the slang subtitles flatten — the terms of address, the fandom vocabulary, and the jokes that get translated into nothing.</p>
 </div>
 
 ## 2. When Life Gives You Tangerines: The Emotional Entry Point
@@ -127,7 +127,7 @@ Third, are you okay with **subtitles**? Dubbing can help casual viewing, but sub
 Fourth, are you watching alone or with people? For a group, a high-concept title is easier. For a solo evening, a slower emotional drama can be more rewarding. For a couple, romance or slice-of-life may work better than a brutal survival thriller.
 
 <div class="affiliate-inline-cta">
-  <p><strong>More context than subtitles:</strong> If K-dramas are making you curious about Korea beyond the screen, compare <a href="https://www.amazon.com/s?k=korean+culture+history+book&amp;tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean culture and history books</a> before your next watchlist deep dive.</p>
+  <p><strong>More context than subtitles:</strong> If K-dramas are making you curious about Korea beyond the screen, <a href="https://www.amazon.com/Birth-Korean-Cool-Conquering-Through/dp/1250045118?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">The Birth of Korean Cool</a> explains why this catalogue exists at all — Korea built the export machine deliberately, and the book is the readable account of it.</p>
 </div>
 
 ## FAQs About Korean Dramas on Netflix

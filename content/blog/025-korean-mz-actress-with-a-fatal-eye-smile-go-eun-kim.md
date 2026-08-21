@@ -123,7 +123,7 @@ The more respectful reading is simple: Kim Go-eun is a strong actor whose public
 *The Kim Go-eun beauty mood is better translated as simplicity and expression, not as a product checklist.*
 
 <div class="affiliate-inline-cta">
-  <p><strong>Quiet fan-style detail:</strong> For a low-key drama-night or travel look, these <a href="https://www.amazon.com/s?k=fashion+sunglasses&tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">fashion sunglasses</a> are worth comparing for size and return terms before buying.</p>
+  <p><strong>The "natural" part is a routine, not a product:</strong> the barely-there finish Kim Go-eun is known for comes from hydration rather than coverage. <a href="https://www.amazon.com/dp/B07WZ2YTDP?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Torriden Dive-In hyaluronic acid serum</a> is the low-molecular version Korean users reach for under makeup — it is the dewy step, not a full skincare shelf.</p>
 </div>
 
 ## Sources and Further Reading

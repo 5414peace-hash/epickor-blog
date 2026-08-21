@@ -190,8 +190,8 @@ The closest relative is seasonal rather than year-round: [bungeoppang (붕어빵
 </div>
 
 <div class="affiliate-inline-cta">
-  <p><strong>Compare the closest shelf-stable texture:</strong> Deli Manjoo itself is best hot from a kiosk, but you can compare <a href="https://www.amazon.com/s?k=korean+custard+cake+snack&tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean custard cake snacks</a> by filling, pack size, and freshness instead of buying an unrelated mixed snack box.</p>
-  <a class="affiliate-cta-button" href="https://www.amazon.com/s?k=korean+custard+cake+snack&tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Compare on Amazon</a>
+  <p><strong>The closest shelf-stable thing is a custard cake:</strong> Deli Manjoo is best hot from a kiosk and does not travel, but the sponge-and-custard combination is the same one Korea sells in a box as <a href="https://www.amazon.com/dp/B0FYC15DB1?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">카스타드, custard cake</a> — softer, colder, no corn shape, but the flavour it is chasing. Better than an unrelated mixed snack box, and we compare the two Korean brands in our <a href="/blog/411">custard cake guide</a>.</p>
+  <a class="affiliate-cta-button" href="https://www.amazon.com/dp/B0FYC15DB1?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">See it on Amazon</a>
 </div>
 
 ---

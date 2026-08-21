@@ -42,7 +42,7 @@ The 2026 list was published in late May. The top 10 includes three group entries
 </table>
 </div>
 
-<p class="affiliate-topline"><a href="https://www.amazon.com/s?k=kpop+kdrama+fan+goods&amp;tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">K-pop and K-drama fan goods — compare on Amazon</a><span class="affiliate-topline-note">Affiliate link. As an Amazon Associate, EpicKor earns from qualifying purchases at no extra cost to you.</span></p>
+<p class="affiliate-topline"><a href="https://www.amazon.com/Kpop-Photocard-Pockets-Portable-Collect/dp/B0BXCNRJHB?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Photocard binder, 168 pockets — on Amazon</a><span class="affiliate-topline-note">Affiliate link. As an Amazon Associate, EpicKor earns from qualifying purchases at no extra cost to you.</span></p>
 
 The unusual feature is the simultaneous presence of BTS as a group and several members as individuals. That is not a typo. Group and solo activity can create separate economic and media footprints, so readers should not add those ranks together as if they were votes in one contest.
 
@@ -83,7 +83,7 @@ This is the clearest example of why "won the vote" and "won the ranking" are dif
 That mix also helps explain why established names can re-enter strongly. A comeback year creates new music, performances, advertising, interviews, searches, and fan activity at the same time. The index is built to detect that concentrated burst.
 
 <div class="affiliate-inline-cta">
-  <p><strong>Keep fandom purchases practical:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. Before buying random unofficial merchandise, compare <a href="https://www.amazon.com/s?k=kpop+kdrama+fan+goods&amp;tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">K-pop and K-drama fan goods</a>, check licensing and seller details, and save premium spending for official releases you can verify.</p>
+  <p><strong>Keep fandom purchases practical:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. Before buying random unofficial merchandise, put the money into storage instead: a <a href="https://www.amazon.com/Kpop-Photocard-Pockets-Portable-Collect/dp/B0BXCNRJHB?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">168-pocket photocard binder</a> holds what you already own, and saving the rest of the budget for official releases you can verify beats another unlicensed listing.</p>
 </div>
 
 ## BLACKPINK and the Group-Plus-Solo Model
@@ -143,7 +143,7 @@ The ranking works well as a map of Korean entertainment categories. Instead of t
 If the list sends you toward physical merchandise, EpicKor's [K-pop merchandise shopping guide](/blog/134) explains official shops, photocards, lightsticks, pop-ups, and authenticity checks. For celebrity-specific context, compare the [Cha Eun-woo visual-branding guide](/blog/037) and [Kim Soo-hyun drama-economics guide](/blog/042). For a newer-generation idol case study, see [why Jang Wonyoung became a modern K-pop icon](/blog/043).
 
 <div class="affiliate-inline-cta">
-  <p><strong>Protect the items you already own:</strong> If ranking season leads you back to a photocard collection, compare <a href="https://www.amazon.com/s?k=photocard+sleeves+toploaders&amp;tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">acid-free photocard sleeves and toploaders</a> by size and material before buying more cards. Storage is usually a better first purchase than another unverified listing.</p>
+  <p><strong>Protect the items you already own:</strong> If ranking season leads you back to a photocard collection, a <a href="https://www.amazon.com/Kpop-Photocard-Pockets-Portable-Collect/dp/B0BXCNRJHB?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">photocard binder with sealed pockets</a> does the same job as loose sleeves and toploaders without the stack sliding around. Storage is usually a better first purchase than another unverified listing.</p>
 </div>
 
 ## FAQ About the Forbes Korea Power Celebrity 40

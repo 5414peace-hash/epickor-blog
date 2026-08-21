@@ -143,7 +143,7 @@ If you keep a notebook, make four columns: Korean phrase, literal image, natural
 You can also compare subtitles. When a drama or variety show translates a proverb, ask what the translator chose: literal image, English equivalent, or a completely different joke. That habit teaches you that translation is not only word matching. It is tone matching. Korean proverbs are a perfect training ground because the literal image is often charming, but the social timing is the real message.
 
 <div class="affiliate-inline-cta">
-  <p><strong>Turn sayings into usable Korean:</strong> A compact <a href="https://www.amazon.com/s?k=korean+phrasebook&amp;tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean phrasebook</a> can help connect proverb curiosity to everyday requests, greetings, and polite travel phrases.</p>
+  <p><strong>Turn sayings into usable Korean:</strong> The <a href="https://www.amazon.com/dp/1838691537?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Lonely Planet Korean phrasebook</a> connects proverb curiosity to everyday requests, greetings and polite travel phrases — proverbs are where the grammar you learn actually gets used.</p>
 </div>
 
 ## FAQs About Korean Proverbs

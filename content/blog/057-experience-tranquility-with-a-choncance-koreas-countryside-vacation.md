@@ -23,7 +23,7 @@ This guide explains what Choncance means, where to try it, how to choose a legal
 
 
 
-<p class="affiliate-topline"><a href="https://www.amazon.com/s?k=travel+tissue+packs&amp;tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Travel tissue packs — compare on Amazon</a><span class="affiliate-topline-note">Affiliate link. As an Amazon Associate, EpicKor earns from qualifying purchases at no extra cost to you.</span></p>
+<p class="affiliate-topline"><a href="https://www.amazon.com/Kleenex-Facial-Tissues-Travel-54635/dp/B09XGNJ2TH?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Kleenex On-The-Go pocket packs — on Amazon</a><span class="affiliate-topline-note">Affiliate link. As an Amazon Associate, EpicKor earns from qualifying purchases at no extra cost to you.</span></p>
 
 ## Quick Answer: What Is Choncance?
 
@@ -55,7 +55,7 @@ It also overlaps with Korea's **newtro** mood: new interest in older aesthetics.
 The best Choncance trip respects both sides: enjoy the charm, but do not treat the village as a costume set.
 
 <div class="affiliate-inline-cta">
-  <p><strong>Countryside-trip pocket item:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. Choncance sounds romantic until the bus stop has no convenience store, so compare <a href="https://www.amazon.com/s?k=travel+tissue+packs&amp;tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">travel tissue packs</a> before packing a light Korea day bag.</p>
+  <p><strong>Countryside-trip pocket item:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. Choncance sounds romantic until the bus stop has no convenience store, so a strip of <a href="https://www.amazon.com/Kleenex-Facial-Tissues-Travel-54635/dp/B09XGNJ2TH?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">pocket tissues</a> belongs in a light Korea day bag — rural bus-stop toilets rarely stock paper.</p>
 </div>
 
 ## Where to Try Choncance in Korea

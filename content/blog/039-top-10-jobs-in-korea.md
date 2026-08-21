@@ -152,7 +152,7 @@ At interview, ask how decisions and feedback work and what a normal week looks l
 Titles and speech levels matter, so learn how colleagues address one another. That does not require accepting harassment, unpaid work, or discrimination as “Korean culture.” Respectful adaptation and legal rights can coexist. EpicKor's [guide to pressures facing younger Koreans](/blog/049) provides social context for job competition, housing, and insecurity without reducing people to a hustle stereotype.
 
 <div class="affiliate-inline-cta">
-  <p><strong>Understand the society around the workplace:</strong> Compare <a href="https://www.amazon.com/s?k=korean+culture+history+book&amp;tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">books on modern Korean culture and history</a> before relocating. Use them as context, then judge the actual employer by its contract, team, and conduct.</p>
+  <p><strong>Understand the society around the workplace:</strong> <a href="https://www.amazon.com/Birth-Korean-Cool-Conquering-Through/dp/1250045118?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">The Birth of Korean Cool</a> is the readable account of how the work culture you are about to join got built. Use it as context, then judge the actual employer by its contract, team and conduct.</p>
 </div>
 
 ## A Better Way to Choose a Korean Career

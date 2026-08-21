@@ -121,8 +121,8 @@ That combination is powerful. A Wonyoung outfit is not just "what she wore." It 
 This is where Wonyoungism and fashion meet. The philosophy says, "I will frame my life beautifully." The fashion image shows what that frame might look like.
 
 <div class="affiliate-inline-cta">
-  <p><strong>Style-mood comparison:</strong> For a small fashion signal instead of a full wardrobe reset, compare <a href="https://www.amazon.com/s?k=fashion+sunglasses&tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">fashion sunglasses</a> with the polished, camera-ready mood fans often associate with Korean celebrity styling.</p>
-  <a class="affiliate-cta-button" href="https://www.amazon.com/s?k=fashion+sunglasses&tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Compare on Amazon</a>
+  <p><strong>The look starts with skin, not clothes:</strong> what fans copy from Wonyoung is a lit-from-within finish, and in Korea that is built by layering thin hydrating steps rather than heavier makeup. <a href="https://www.amazon.com/dp/B00PBX3L7K?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">COSRX Advanced Snail 96 Mucin Essence</a> is the single most-bought entry point to that routine — cheap enough to test, and the step most Western routines are missing.</p>
+  <a class="affiliate-cta-button" href="https://www.amazon.com/dp/B00PBX3L7K?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">See it on Amazon</a>
 </div>
 
 ---

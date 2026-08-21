@@ -23,7 +23,7 @@ This guide explains what to do in Yongsan, how to plan the route, which stops ar
 
 
 
-<p class="affiliate-topline"><a href="https://www.amazon.com/s?k=korean+culture+history+book&amp;tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean culture and history books — compare on Amazon</a><span class="affiliate-topline-note">Affiliate link. As an Amazon Associate, EpicKor earns from qualifying purchases at no extra cost to you.</span></p>
+<p class="affiliate-topline"><a href="https://www.amazon.com/Korea-History-Eugene-Y-Park/dp/1503629848?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korea: A History (Eugene Y. Park) — on Amazon</a><span class="affiliate-topline-note">Affiliate link. As an Amazon Associate, EpicKor earns from qualifying purchases at no extra cost to you.</span></p>
 
 ## Quick Answer: Is Yongsan Worth Visiting?
 
@@ -53,7 +53,7 @@ For travelers, the museum does two things. First, it explains why Korea's modern
 If you are not a museum person, still consider walking the outdoor exhibition and main grounds. If you are interested in Korean history, give yourself enough time for the indoor halls instead of treating the site as a quick photo stop.
 
 <div class="affiliate-inline-cta">
-  <p><strong>Worth comparing:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. Before a history-heavy Seoul day, compare <a href="https://www.amazon.com/s?k=korean+culture+history+book&amp;tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean culture and history books</a> so the War Memorial, palaces, and modern neighborhoods make more sense together.</p>
+  <p><strong>Worth comparing:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. Before a history-heavy Seoul day, <a href="https://www.amazon.com/Korea-History-Eugene-Y-Park/dp/1503629848?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korea: A History</a> makes the War Memorial, the palaces and the modern neighbourhoods legible as one sequence rather than three unrelated stops.</p>
 </div>
 
 ## Understand Yongsan Park and the Returned-Site Story
@@ -112,7 +112,7 @@ Yongsan can be a good base if you want central transit and a less tourist-satura
 If this is your first Seoul trip and you want maximum convenience for palaces, shopping, and airport buses, compare Yongsan with Myeongdong, Hongdae, Jongno, and Gangnam before booking. If you want history, cafes, trains, and quick access to multiple sides of the city, Yongsan is a strong contender.
 
 <div class="affiliate-inline-cta">
-  <p><strong>Pack lighter for a Yongsan walking day:</strong> Compare <a href="https://www.amazon.com/s?k=korea+travel+essentials&amp;tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korea travel essentials</a> like a compact umbrella, power bank, and comfortable day bag before building a long Seoul itinerary.</p>
+  <p><strong>Pack lighter for a Yongsan walking day:</strong> A <a href="https://www.amazon.com/Repel-Windproof-Travel-Umbrella-Coating/dp/B0160HYB8S?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Repel windproof umbrella</a> and an <a href="https://www.amazon.com/dp/B0CZ9M6X8Q?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Anker 10,000mAh power bank</a> are the two that matter for this one — Yongsan Park is almost entirely open ground with no shelter, and the War Memorial is a two-hour phone-in-hand walk.</p>
 </div>
 
 ## How to Get Around Yongsan

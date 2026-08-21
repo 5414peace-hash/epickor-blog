@@ -2094,6 +2094,737 @@
         "406"
       ],
       "verified": "2026-08-21 via Amazon listing search"
+    },
+    {
+      "id": "070",
+      "name": "The Birth of Korean Cool (Euny Hong)",
+      "description": "Readable English account of how Korea built its pop-culture export machine",
+      "price": "",
+      "url": "https://www.amazon.com/Birth-Korean-Cool-Conquering-Through/dp/1250045118?tag=epickor-20",
+      "category": "Books",
+      "image": "",
+      "tags": [
+        "Korean Culture",
+        "Hallyu",
+        "Books"
+      ],
+      "usedBy": "011,014,039,070,181,256,310,319,334",
+      "verified": "2026-08-21 via Amazon listing search (allowed_domains: amazon.com)"
+    },
+    {
+      "id": "071",
+      "name": "Korea: A History (Eugene Y. Park)",
+      "description": "Accessible single-volume Korean history from antiquity to the present",
+      "price": "",
+      "url": "https://www.amazon.com/Korea-History-Eugene-Y-Park/dp/1503629848?tag=epickor-20",
+      "category": "Books",
+      "image": "",
+      "tags": [
+        "Korean History",
+        "Books"
+      ],
+      "usedBy": "047,135,168,300",
+      "verified": "2026-08-21 via Amazon listing search (allowed_domains: amazon.com)"
+    },
+    {
+      "id": "072",
+      "name": "Solo Leveling Vol. 1 (printed manhwa)",
+      "description": "The best-known Korean webtoon in printed book form",
+      "price": "",
+      "url": "https://www.amazon.com/Solo-Leveling-Vol-comic/dp/1975319435?tag=epickor-20",
+      "category": "Books",
+      "image": "",
+      "tags": [
+        "Webtoon",
+        "Manhwa",
+        "Korean Culture"
+      ],
+      "usedBy": "181",
+      "verified": "2026-08-21 via Amazon listing search (allowed_domains: amazon.com)"
+    },
+    {
+      "id": "073",
+      "name": "Audio-Technica ATH-M50x Studio Monitor Headphones",
+      "description": "Reproduces the 40-80Hz band phone speakers discard",
+      "price": "",
+      "url": "https://www.amazon.com/Audio-Technica-ATH-M50x-Professional-Monitor-Headphones/dp/B00HVLUR86?tag=epickor-20",
+      "category": "Electronics",
+      "image": "",
+      "tags": [
+        "Audio",
+        "Headphones"
+      ],
+      "usedBy": "156",
+      "verified": "2026-08-21 via Amazon listing search (allowed_domains: amazon.com)"
+    },
+    {
+      "id": "074",
+      "name": "BOSS RC-5 Loop Station",
+      "description": "The pedal most vocal loopers start on",
+      "price": "",
+      "url": "https://www.amazon.com/Boss-RC-5-Station-Compact-Recorder/dp/B08KBSRXJK?tag=epickor-20",
+      "category": "Electronics",
+      "image": "",
+      "tags": [
+        "Music",
+        "Beatbox"
+      ],
+      "usedBy": "156",
+      "verified": "2026-08-21 via Amazon listing search (allowed_domains: amazon.com)"
+    },
+    {
+      "id": "075",
+      "name": "Wacom Intuos Small drawing tablet",
+      "description": "Beginner tablet most webtoon artists start on",
+      "price": "",
+      "url": "https://www.amazon.com/Wacom-Drawing-Software-Included-CTL4100/dp/B079HL9YSF?tag=epickor-20",
+      "category": "Electronics",
+      "image": "",
+      "tags": [
+        "Webtoon",
+        "Drawing"
+      ],
+      "usedBy": "181",
+      "verified": "2026-08-21 via Amazon listing search (allowed_domains: amazon.com)"
+    },
+    {
+      "id": "076",
+      "name": "Meta Quest 3S 128GB",
+      "description": "Consumer version of the inside-out tracking virtual idols are built on",
+      "price": "",
+      "url": "https://www.amazon.com/Meta-Quest-3S-128GB-All-One/dp/B0DDK1WM9K?tag=epickor-20",
+      "category": "Electronics",
+      "image": "",
+      "tags": [
+        "VR",
+        "K-pop"
+      ],
+      "usedBy": "338",
+      "verified": "2026-08-21 via Amazon listing search (allowed_domains: amazon.com)"
+    },
+    {
+      "id": "077",
+      "name": "Manfrotto PIXI mini tripod + smartphone clamp",
+      "description": "Railing-sized tripod for night skyline exposures",
+      "price": "",
+      "url": "https://www.amazon.com/Manfrotto-Tripod-Smartphone-Clamp-MKPIXICLAMP-BK/dp/B0169SORBO?tag=epickor-20",
+      "category": "Travel",
+      "image": "",
+      "tags": [
+        "Photography",
+        "Seoul"
+      ],
+      "usedBy": "340",
+      "verified": "2026-08-21 via Amazon listing search (allowed_domains: amazon.com)"
+    },
+    {
+      "id": "078",
+      "name": "Kpop Photocard Binder, 168 pockets",
+      "description": "Storage that survives a flight home; the practical fandom purchase",
+      "price": "",
+      "url": "https://www.amazon.com/Kpop-Photocard-Pockets-Portable-Collect/dp/B0BXCNRJHB?tag=epickor-20",
+      "category": "Shopping",
+      "image": "",
+      "tags": [
+        "K-pop",
+        "Photocards",
+        "Fan Goods"
+      ],
+      "usedBy": "051,134,193,272,329,338",
+      "verified": "2026-08-21 via Amazon listing search (allowed_domains: amazon.com)"
+    },
+    {
+      "id": "079",
+      "name": "Kakao Friends official Ryan plush coin purse",
+      "description": "Official Kakao Friends listing; Amazon is an authorised seller",
+      "price": "",
+      "url": "https://www.amazon.com/KAKAO-FRIENDS-Official-Cheese-Friends/dp/B0836FGYKL?tag=epickor-20",
+      "category": "Shopping",
+      "image": "",
+      "tags": [
+        "Kakao Friends",
+        "Character Goods"
+      ],
+      "usedBy": "272",
+      "verified": "2026-08-21 via Amazon listing search (allowed_domains: amazon.com)"
+    },
+    {
+      "id": "080",
+      "name": "BAGSMART RFID travel wallet",
+      "description": "Keeps passport, T-money card and tax-refund receipts flat in one place",
+      "price": "",
+      "url": "https://www.amazon.com/BAGSMART-Blocking-Passport-Document-Organizer/dp/B075L5QVJG?tag=epickor-20",
+      "category": "Travel",
+      "image": "",
+      "tags": [
+        "Travel",
+        "Korea Travel"
+      ],
+      "usedBy": "081,134,174,203,206,213,218,223,231,255,257,258,275,137",
+      "verified": "2026-08-21 via Amazon listing search (allowed_domains: amazon.com)"
+    },
+    {
+      "id": "081",
+      "name": "Etekcity digital luggage scale",
+      "description": "Settles the ship-versus-check question before the airport counter",
+      "price": "",
+      "url": "https://www.amazon.com/Etekcity-Digital-Luggage-Scale-Temperature/dp/B00NW62PCA?tag=epickor-20",
+      "category": "Travel",
+      "image": "",
+      "tags": [
+        "Travel",
+        "Shopping"
+      ],
+      "usedBy": "227,255,272,300,383",
+      "verified": "2026-08-21 via Amazon listing search (allowed_domains: amazon.com)"
+    },
+    {
+      "id": "082",
+      "name": "Repel windproof travel umbrella",
+      "description": "Closes to 11.5in; survives the sideways gusts jangma produces",
+      "price": "",
+      "url": "https://www.amazon.com/Repel-Windproof-Travel-Umbrella-Coating/dp/B0160HYB8S?tag=epickor-20",
+      "category": "Travel",
+      "image": "",
+      "tags": [
+        "Travel",
+        "Weather"
+      ],
+      "usedBy": "036,047,218",
+      "verified": "2026-08-21 via Amazon listing search (allowed_domains: amazon.com)"
+    },
+    {
+      "id": "083",
+      "name": "Foldable 96L travel duffel",
+      "description": "Packs flat outbound, flies home as extra checked baggage",
+      "price": "",
+      "url": "https://www.amazon.com/Foldable-Duffle-outside-Pockets-Waterproof/dp/B09HZQL8BB?tag=epickor-20",
+      "category": "Travel",
+      "image": "",
+      "tags": [
+        "Travel",
+        "Shopping"
+      ],
+      "usedBy": "193,227,272",
+      "verified": "2026-08-21 via Amazon listing search (allowed_domains: amazon.com)"
+    },
+    {
+      "id": "084",
+      "name": "Gonex compression packing cubes, 4-piece",
+      "description": "Reclaims roughly a third of a suitcase",
+      "price": "",
+      "url": "https://www.amazon.com/Gonex-Compression-Packing-Expandable-Organizers/dp/B07BNMX3WG?tag=epickor-20",
+      "category": "Travel",
+      "image": "",
+      "tags": [
+        "Travel",
+        "Packing"
+      ],
+      "usedBy": "020,226,383",
+      "verified": "2026-08-21 via Amazon listing search (allowed_domains: amazon.com)"
+    },
+    {
+      "id": "085",
+      "name": "Kleenex On-The-Go pocket packs, 16",
+      "description": "For the Korean dispenser that just ran out",
+      "price": "",
+      "url": "https://www.amazon.com/Kleenex-Facial-Tissues-Travel-54635/dp/B09XGNJ2TH?tag=epickor-20",
+      "category": "Travel",
+      "image": "",
+      "tags": [
+        "Travel"
+      ],
+      "usedBy": "057,140,213,258",
+      "verified": "2026-08-21 via Amazon listing search (allowed_domains: amazon.com)"
+    },
+    {
+      "id": "086",
+      "name": "Sawyer 20% Picaridin insect repellent, 3oz",
+      "description": "Carry-on legal; does not damage synthetic kit like DEET",
+      "price": "",
+      "url": "https://www.amazon.com/Sawyer-Products-SP543-Repellent-Picaridin/dp/B002CMQJYU?tag=epickor-20",
+      "category": "Travel",
+      "image": "",
+      "tags": [
+        "Travel",
+        "Summer"
+      ],
+      "usedBy": "141,203",
+      "verified": "2026-08-21 via Amazon listing search (allowed_domains: amazon.com)"
+    },
+    {
+      "id": "087",
+      "name": "Tru Earth laundry detergent strips, 32",
+      "description": "Clears airport security as paper; for Korean coin laundries",
+      "price": "",
+      "url": "https://www.amazon.com/Tru-Earth-Eco-Strips-Laundry-Detergent/dp/B07SPVZLVQ?tag=epickor-20",
+      "category": "Travel",
+      "image": "",
+      "tags": [
+        "Travel",
+        "Laundry"
+      ],
+      "usedBy": "226",
+      "verified": "2026-08-21 via Amazon listing search (allowed_domains: amazon.com)"
+    },
+    {
+      "id": "088",
+      "name": "Sea to Summit silk-cotton travel liner",
+      "description": "The item Korean mountain-shelter regulars actually carry",
+      "price": "",
+      "url": "https://www.amazon.com/Sea-Summit-Premium-Traveler-Pillowcase/dp/B001Q3KL68?tag=epickor-20",
+      "category": "Travel",
+      "image": "",
+      "tags": [
+        "Hiking",
+        "Camping"
+      ],
+      "usedBy": "350",
+      "verified": "2026-08-21 via Amazon listing search (allowed_domains: amazon.com)"
+    },
+    {
+      "id": "089",
+      "name": "Kahtoola MICROspikes",
+      "description": "For glazed granite slab on Korean winter ridges",
+      "price": "",
+      "url": "https://www.amazon.com/Micro-Spikes-855333000-Kahtoola-MICROspikes/dp/B0030I3Y48?tag=epickor-20",
+      "category": "Travel",
+      "image": "",
+      "tags": [
+        "Hiking",
+        "Winter"
+      ],
+      "usedBy": "350",
+      "verified": "2026-08-21 via Amazon listing search (allowed_domains: amazon.com)"
+    },
+    {
+      "id": "090",
+      "name": "SPIbelt Original running belt",
+      "description": "Holds phone, T-money card and hotel key without bouncing",
+      "price": "",
+      "url": "https://www.amazon.com/SPIbelt-Original-Running-Expands-Adjustable/dp/B0B2BR8PLY?tag=epickor-20",
+      "category": "Travel",
+      "image": "",
+      "tags": [
+        "Running",
+        "Seoul"
+      ],
+      "usedBy": "248",
+      "verified": "2026-08-21 via Amazon listing search (allowed_domains: amazon.com)"
+    },
+    {
+      "id": "091",
+      "name": "Travelon anti-theft classic sling bag",
+      "description": "Small enough to clear a KBO stadium bag check quickly",
+      "price": "",
+      "url": "https://www.amazon.com/Travelon-Classic-Sling-Bag-Midnight/dp/B00ICD5YUS?tag=epickor-20",
+      "category": "Travel",
+      "image": "",
+      "tags": [
+        "Travel",
+        "Baseball"
+      ],
+      "usedBy": "233",
+      "verified": "2026-08-21 via Amazon listing search (allowed_domains: amazon.com)"
+    },
+    {
+      "id": "092",
+      "name": "ZAZE waterproof folding picnic mat",
+      "description": "For claiming riverside ground hours before a fireworks show",
+      "price": "",
+      "url": "https://www.amazon.com/ZAZE-Blankets-Waterproof-Sandproof-Oversized/dp/B0919RGDRV?tag=epickor-20",
+      "category": "Travel",
+      "image": "",
+      "tags": [
+        "Festivals",
+        "Seoul"
+      ],
+      "usedBy": "378",
+      "verified": "2026-08-21 via Amazon listing search (allowed_domains: amazon.com)"
+    },
+    {
+      "id": "093",
+      "name": "INLIFE hand warmers, Made in Korea, 30-pack",
+      "description": "The 핫팩 Korean convenience stores sell by the packet from November",
+      "price": "",
+      "url": "https://www.amazon.com/INLIFE-Warmers-Lasting-Odorless-Activated/dp/B0BX2GFXFC?tag=epickor-20",
+      "category": "Travel",
+      "image": "",
+      "tags": [
+        "Winter",
+        "Korea"
+      ],
+      "usedBy": "137,379",
+      "verified": "2026-08-21 via Amazon listing search (allowed_domains: amazon.com)"
+    },
+    {
+      "id": "094",
+      "name": "TRUNKCRATEPRO collapsible trunk organizer",
+      "description": "Folds flat when not needed",
+      "price": "",
+      "url": "https://www.amazon.com/TRUNKCRATEPRO-Organizers-Adjustable-Compartments-Accessories/dp/B01ECMRFTA?tag=epickor-20",
+      "category": "Shopping",
+      "image": "",
+      "tags": [
+        "Cars"
+      ],
+      "usedBy": "015",
+      "verified": "2026-08-21 via Amazon listing search (allowed_domains: amazon.com)"
+    },
+    {
+      "id": "095",
+      "name": "Conair CompleteSteam handheld garment steamer 1100W",
+      "description": "The staged step before an LG Styler earns its price",
+      "price": "",
+      "url": "https://www.amazon.com/Conair-CompleteSteam-Handheld-Garment-Steamer/dp/B09FB2KQ3C?tag=epickor-20",
+      "category": "Home",
+      "image": "",
+      "tags": [
+        "Clothing Care"
+      ],
+      "usedBy": "129,393",
+      "verified": "2026-08-21 via Amazon listing search (allowed_domains: amazon.com)"
+    },
+    {
+      "id": "096",
+      "name": "CLIO Kill Cover Founwear Cushion (20 shades)",
+      "description": "Exports in 20 shades rather than the usual three or four",
+      "price": "",
+      "url": "https://www.amazon.com/CLIO-Original-Cover-Founwear-Cushion/dp/B0DRWLRCQS?tag=epickor-20",
+      "category": "Beauty",
+      "image": "",
+      "tags": [
+        "K-beauty",
+        "Makeup"
+      ],
+      "usedBy": "268",
+      "verified": "2026-08-21 via Amazon listing search (allowed_domains: amazon.com)"
+    },
+    {
+      "id": "097",
+      "name": "O'Food Korean Kitchen Essentials box",
+      "description": "Gochujang, doenjang, sesame oil, gochugaru in one order",
+      "price": "",
+      "url": "https://www.amazon.com/OFood-Kitchen-Essentials-Ingredients-Assorted/dp/B0CJK27ZW4?tag=epickor-20",
+      "category": "Food",
+      "image": "",
+      "tags": [
+        "Korean Food",
+        "Pantry"
+      ],
+      "usedBy": "149,220,255,258,363",
+      "verified": "2026-08-21 via Amazon listing search (allowed_domains: amazon.com)"
+    },
+    {
+      "id": "098",
+      "name": "Surasang samgyetang herb kit",
+      "description": "Pre-measured ginseng, jujube, chestnut, licorice root, glutinous rice",
+      "price": "",
+      "url": "https://www.amazon.com/Surasang-Samgyetang-Ginseng-Chicken-Ingredients/dp/B08L4SPWZT?tag=epickor-20",
+      "category": "Food",
+      "image": "",
+      "tags": [
+        "Korean Food",
+        "Samgyetang"
+      ],
+      "usedBy": "263",
+      "verified": "2026-08-21 via Amazon listing search (allowed_domains: amazon.com)"
+    },
+    {
+      "id": "099",
+      "name": "Damtuh Korean roasted barley tea (보리차), 50 bags",
+      "description": "The unsweetened bitter half yakgwa is designed around",
+      "price": "",
+      "url": "https://www.amazon.com/Damtuh-Barley-Roasted-Boricha-Mugicha/dp/B08W8Y5RYP?tag=epickor-20",
+      "category": "Food",
+      "image": "",
+      "tags": [
+        "Korean Tea"
+      ],
+      "usedBy": "128",
+      "verified": "2026-08-21 via Amazon listing search (allowed_domains: amazon.com)"
+    },
+    {
+      "id": "100",
+      "name": "Choung Soo mul-naengmyeon kit (물냉면)",
+      "description": "Broth-style kit; buckwheat and starch kits behave differently",
+      "price": "",
+      "url": "https://www.amazon.com/Choung-Soo-Naengmyeon-Korean-Noodle/dp/B0734DL7N2?tag=epickor-20",
+      "category": "Food",
+      "image": "",
+      "tags": [
+        "Korean Food",
+        "Naengmyeon"
+      ],
+      "usedBy": "145",
+      "verified": "2026-08-21 via Amazon listing search (allowed_domains: amazon.com)"
+    },
+    {
+      "id": "101",
+      "name": "Lotte Chilsung Cider (칠성사이다), 250ml x 6",
+      "description": "The Korean soda that beat Sprite to the shelf by 11 years",
+      "price": "",
+      "url": "https://www.amazon.com/Korean-Lotte-Chilsung-Cider-INTERCART/dp/B0BZXM4T33?tag=epickor-20",
+      "category": "Drink",
+      "image": "",
+      "tags": [
+        "Korean Drinks"
+      ],
+      "usedBy": "365",
+      "verified": "2026-08-21 via Amazon listing search (allowed_domains: amazon.com)"
+    },
+    {
+      "id": "102",
+      "name": "Lotte Korean soda variety pack (Milkis, Chilsung Cider, 2% Peach)",
+      "description": "Three Lotte soft drinks in one order",
+      "price": "",
+      "url": "https://www.amazon.com/Korean-Variety-12-Pack-Milkis-Chilsung-Cider/dp/B09J3GZ6G8?tag=epickor-20",
+      "category": "Drink",
+      "image": "",
+      "tags": [
+        "Korean Drinks"
+      ],
+      "usedBy": "365",
+      "verified": "2026-08-21 via Amazon listing search (allowed_domains: amazon.com)"
+    },
+    {
+      "id": "103",
+      "name": "상쾌환 Easy Tomorrow hangover powder, 20 packs",
+      "description": "The till-side powder format Korean convenience stores sell",
+      "price": "",
+      "url": "https://www.amazon.com/Easy-Tomorrow-Hangover-Recovery-Alcohol-20packs/dp/B084GQL1WF?tag=epickor-20",
+      "category": "Drink",
+      "image": "",
+      "tags": [
+        "Korean Drinks",
+        "Hangover"
+      ],
+      "usedBy": "377",
+      "verified": "2026-08-21 via Amazon listing search (allowed_domains: amazon.com)"
+    },
+    {
+      "id": "104",
+      "name": "ReadyQ (레디큐) hovenia + curcumin drink, 10 x 100ml",
+      "description": "The hovenia (헛개) format that actually exports",
+      "price": "",
+      "url": "https://www.amazon.com/Curcumin-Hovenia-Extract-Bottles-Recovery/dp/B0D4JP7H5M?tag=epickor-20",
+      "category": "Drink",
+      "image": "",
+      "tags": [
+        "Korean Drinks",
+        "Hangover"
+      ],
+      "usedBy": "377",
+      "verified": "2026-08-21 via Amazon listing search (allowed_domains: amazon.com)"
+    },
+    {
+      "id": "105",
+      "name": "Eagle Brand sweetened condensed milk, 14oz",
+      "description": "The sweetness level Western breakfast sauces never reach",
+      "price": "",
+      "url": "https://www.amazon.com/Eagle-Brand-Sweetened-Condensed-Milk/dp/B0014CS1X6?tag=epickor-20",
+      "category": "Food",
+      "image": "",
+      "tags": [
+        "Korean Food",
+        "Isaac Toast"
+      ],
+      "usedBy": "153",
+      "verified": "2026-08-21 via Amazon listing search (allowed_domains: amazon.com)"
+    },
+    {
+      "id": "106",
+      "name": "Korean 축의금 money envelope set",
+      "description": "Decorated hanbok style; the hall also hands out plain white free",
+      "price": "",
+      "url": "https://www.amazon.com/Traditional-Envelope-Bokjumeoni-Envelopes-Birthday/dp/B0GVWTJSTW?tag=epickor-20",
+      "category": "Culture",
+      "image": "",
+      "tags": [
+        "Weddings",
+        "Korean Etiquette"
+      ],
+      "usedBy": "124",
+      "verified": "2026-08-21 via Amazon listing search (allowed_domains: amazon.com)"
+    },
+    {
+      "id": "107",
+      "name": "Korean snack box, 50 count",
+      "description": "The lowest-commitment yes for a Korea-curious reader",
+      "price": "",
+      "url": "https://www.amazon.com/dp/B0DVBW437W?tag=epickor-20",
+      "category": "Food",
+      "image": "",
+      "tags": [
+        "Korean Snacks",
+        "Snack Box"
+      ],
+      "usedBy": "059,081,090,130,167,170,194,220,255,321,336,339,345",
+      "verified": "2026-08-21 via Amazon listing search (allowed_domains: amazon.com)"
+    },
+    {
+      "id": "108",
+      "name": "Anker 10,000mAh power bank",
+      "description": "Full day of maps, Papago and photos; under the 100Wh cabin limit",
+      "price": "",
+      "url": "https://www.amazon.com/dp/B0CZ9M6X8Q?tag=epickor-20",
+      "category": "Travel",
+      "image": "",
+      "tags": [
+        "Travel",
+        "Korea Travel"
+      ],
+      "usedBy": "015,047,130,141,214,215,218,223,233,257,275,339,340,382",
+      "verified": "2026-08-21 via Amazon listing search (allowed_domains: amazon.com)"
+    },
+    {
+      "id": "109",
+      "name": "TESSAN South Korea plug adapter (220V Type F)",
+      "description": "Korea runs 220V on Type F sockets",
+      "price": "",
+      "url": "https://www.amazon.com/dp/B07R3RN4D5?tag=epickor-20",
+      "category": "Travel",
+      "image": "",
+      "tags": [
+        "Travel",
+        "Korea Travel"
+      ],
+      "usedBy": "020,140,174,188,218",
+      "verified": "2026-08-21 via Amazon listing search (allowed_domains: amazon.com)"
+    },
+    {
+      "id": "110",
+      "name": "Rainleaf quick-dry microfiber towel",
+      "description": "For a Busan beach leg, or a run that ends at a subway gate",
+      "price": "",
+      "url": "https://www.amazon.com/dp/B0CD2SLHKD?tag=epickor-20",
+      "category": "Travel",
+      "image": "",
+      "tags": [
+        "Travel",
+        "Running"
+      ],
+      "usedBy": "197,248",
+      "verified": "2026-08-21 via Amazon listing search (allowed_domains: amazon.com)"
+    },
+    {
+      "id": "111",
+      "name": "Kewpie egg-yolk mayonnaise, 12oz x 2",
+      "description": "The creamy base every Isaac-toast reconstruction starts from",
+      "price": "",
+      "url": "https://www.amazon.com/dp/B078SC51T3?tag=epickor-20",
+      "category": "Food",
+      "image": "",
+      "tags": [
+        "Korean Food",
+        "Isaac Toast"
+      ],
+      "usedBy": "153,171",
+      "verified": "2026-08-21 via Amazon listing search (allowed_domains: amazon.com)"
+    },
+    {
+      "id": "112",
+      "name": "Politics in North and South Korea",
+      "description": "Quiet further-reading link for political/social conflict pieces",
+      "price": "",
+      "url": "https://www.amazon.com/dp/1138647500?tag=epickor-20",
+      "category": "Books",
+      "image": "",
+      "tags": [
+        "Korean Politics",
+        "Books"
+      ],
+      "usedBy": "076,077",
+      "verified": "2026-08-21 via Amazon listing search (allowed_domains: amazon.com)"
+    },
+    {
+      "id": "113",
+      "name": "Dasida seokoki beef stock powder (다시다), 500g",
+      "description": "The beef grade, matching the article title",
+      "price": "",
+      "url": "https://www.amazon.com/dp/B0CHRC8BW6?tag=epickor-20",
+      "category": "Food",
+      "image": "",
+      "tags": [
+        "Korean Food",
+        "Pantry"
+      ],
+      "usedBy": "363",
+      "verified": "2026-08-21 via Amazon listing search (allowed_domains: amazon.com)"
+    },
+    {
+      "id": "114",
+      "name": "Kryptonite New York U-lock",
+      "description": "For the Korean bicycle-theft problem the article documents",
+      "price": "",
+      "url": "https://www.amazon.com/dp/B07997TJDB?tag=epickor-20",
+      "category": "Shopping",
+      "image": "",
+      "tags": [
+        "Cycling",
+        "Security"
+      ],
+      "usedBy": "006",
+      "verified": "2026-08-21 via Amazon listing search (allowed_domains: amazon.com)"
+    },
+    {
+      "id": "115",
+      "name": "Keeper 712 security chain",
+      "description": "Paired with a U-lock",
+      "price": "",
+      "url": "https://www.amazon.com/dp/B078HTBSY6?tag=epickor-20",
+      "category": "Shopping",
+      "image": "",
+      "tags": [
+        "Cycling",
+        "Security"
+      ],
+      "usedBy": "006",
+      "verified": "2026-08-21 via Amazon listing search (allowed_domains: amazon.com)"
+    },
+    {
+      "id": "116",
+      "name": "HyperX Cloud II gaming headset",
+      "description": "The difference between an LOL Park seat and the free broadcast is mostly audio",
+      "price": "",
+      "url": "https://www.amazon.com/dp/B00SAYCVTQ?tag=epickor-20",
+      "category": "Electronics",
+      "image": "",
+      "tags": [
+        "Esports",
+        "Gaming"
+      ],
+      "usedBy": "274",
+      "verified": "2026-08-21 via Amazon listing search (allowed_domains: amazon.com)"
+    },
+    {
+      "id": "117",
+      "name": "Riot official League of Legends figure",
+      "description": "Know what a piece costs before the venue shop",
+      "price": "",
+      "url": "https://www.amazon.com/dp/B08DZJ8DW1?tag=epickor-20",
+      "category": "Shopping",
+      "image": "",
+      "tags": [
+        "Esports",
+        "Merch"
+      ],
+      "usedBy": "274",
+      "verified": "2026-08-21 via Amazon listing search (allowed_domains: amazon.com)"
+    },
+    {
+      "id": "118",
+      "name": "Libbey highball glasses, set of 6",
+      "description": "Korea taxes the canned version as a spirit; building it at home escapes that",
+      "price": "",
+      "url": "https://www.amazon.com/dp/B093DHFFPP?tag=epickor-20",
+      "category": "Shopping",
+      "image": "",
+      "tags": [
+        "Korean Drinks"
+      ],
+      "usedBy": "387",
+      "verified": "2026-08-21 via Amazon listing search (allowed_domains: amazon.com)"
     }
   ]
 }
