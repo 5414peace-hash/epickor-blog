@@ -53,6 +53,13 @@ debug.log
 !/output/strategy/section_*.md
 !/output/strategy/section_*.json
 !/output/strategy/business-candidates_*.md
+# Evidence behind a standing rule. CLAUDE.md's daily-rhythm section now routes
+# every refresh through `npm run seeds:check`, and the numbers that justify that
+# gate — including the reversal that killed the "romanized Korean word in the
+# title" hypothesis — live here. A rule whose evidence is untracked gets
+# re-litigated by the next session that doubts it.
+!/output/strategy/breakout-prediction_*.md
+!/output/strategy/amazon-funnel_*.md
 # Measurement baselines. These are the ONLY record of what a metric looked like
 # before an intervention; once the window passes, an untracked one cannot be
 # reconstructed from anything. Losing this file does not degrade the experiment,
