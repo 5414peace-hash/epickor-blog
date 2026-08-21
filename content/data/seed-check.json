@@ -13,9 +13,9 @@
     "dormantUnseen": 3
   },
   "water": [
-    "218",
     "200",
-    "198"
+    "198",
+    "255"
   ],
   "deadEndExcluded": [
     "090",
@@ -57,12 +57,12 @@
       "secondHalf": 13,
       "verdict": "alive",
       "gaps": {
-        "won": 0,
-        "hangul": 0,
+        "won": 43,
+        "hangul": 87,
         "yearInTitle": false
       },
-      "worked": null,
-      "note": null
+      "worked": "2026-08-21",
+      "note": "Spec v1 applied: six-tier ₩ table (₩500–5,000 ceiling unmoved since 2006), Aseong Daiso 2023-12-12 buyback of Daiso Sangyo 34.21%, 명동역점 12-floor guide + Line 4 exits 1–2, beauty-aisle correction (2025 다이소몰 리포트 #1 = VT PDRN sheet mask), tax-refund branch roulette as counter-info."
     },
     {
       "slug": "274",
