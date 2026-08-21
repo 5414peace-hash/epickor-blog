@@ -143,6 +143,8 @@ Current students should look for written transition protections: whether their c
 
 Because this dispute includes ongoing criminal proceedings and claims of substantial damage, EpicKor intentionally carries no affiliate product promotion in this guide. Primary notices, court reporting, and current admissions documents are more appropriate resources.
 
+*Further reading: the dispute sits inside a longer argument about gender, education and access in Korean society; <a href="https://www.amazon.com/dp/1138647500?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Politics in North and South Korea</a> gives the institutional background in English. Affiliate link — as an Amazon Associate, EpicKor earns from qualifying purchases at no extra cost to you.*
+
 ## FAQ
 
 **Q: Is Dongduk Women's University already coeducational in 2026?**

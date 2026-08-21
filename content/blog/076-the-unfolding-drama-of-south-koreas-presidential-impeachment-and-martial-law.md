@@ -140,6 +140,8 @@ Democratic resilience should be measured by both halves: the danger that institu
 
 Because this is a political and legal explainer, EpicKor intentionally includes no affiliate product promotion. The appropriate next step is to read the primary constitutional text and Court decision, not to buy something.
 
+*Further reading: for how South Korea’s democratic institutions were built and where their stress points are, <a href="https://www.amazon.com/dp/1138647500?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Politics in North and South Korea</a> is the standard English introduction. Affiliate link — as an Amazon Associate, EpicKor earns from qualifying purchases at no extra cost to you.*
+
 ## FAQ
 
 **Q: When did Yoon Suk Yeol declare martial law?**

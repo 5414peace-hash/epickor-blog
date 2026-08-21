@@ -21,7 +21,7 @@ So when Koreans talk about SKY universities, they are not just talking about cam
 
 
 
-<p class="affiliate-topline"><a href="https://www.amazon.com/dp/1974152626?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean Alphabet with Writing Workbook — compare on Amazon</a><span class="affiliate-topline-note">Affiliate link. As an Amazon Associate, EpicKor earns from qualifying purchases at no extra cost to you.</span></p>
+<p class="affiliate-topline"><a href="https://www.amazon.com/dp/1838691537?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Lonely Planet’s Korean phrasebook on Amazon</a><span class="affiliate-topline-note">Affiliate link. As an Amazon Associate, EpicKor earns from qualifying purchases at no extra cost to you.</span></p>
 
 ## What Are the SKY Universities in Korea?
 

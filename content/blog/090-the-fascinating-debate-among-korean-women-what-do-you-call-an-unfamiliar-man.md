@@ -21,7 +21,7 @@ For a stranger in Korea, the safest practical word is usually **jeogiyo**, which
 
 
 
-<p class="affiliate-topline"><a href="https://www.amazon.com/dp/1974152626?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean Alphabet with Writing Workbook — compare on Amazon</a><span class="affiliate-topline-note">Affiliate link. As an Amazon Associate, EpicKor earns from qualifying purchases at no extra cost to you.</span></p>
+<p class="affiliate-topline">Curious enough to taste the country the word comes from? <a href="https://www.amazon.com/dp/B0DVBW437W?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">A 50-piece Korean snack box on Amazon</a> is the low-commitment version of a trip.<span class="affiliate-topline-note">Affiliate link. As an Amazon Associate, EpicKor earns from qualifying purchases at no extra cost to you.</span></p>
 
 ## Ahjussi Meaning: More Than Just "Mister"
 
