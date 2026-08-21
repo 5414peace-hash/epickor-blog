@@ -5,7 +5,8 @@ Folder naming rule: `YYYY-MM-DD_slug`
 The date is the card-news production/final-save date from `HANDOFF.md`.
 Instagram upload is representative-managed. As of 2026-07-02, the representative confirmed all card-news assets listed through `2026-06-28_249` are approved and scheduled. Rows produced afterward keep their own upload status.
 
-**2026-08-20 새 항목 — `2026-08-20_200` 추석 예매편은 아직 예약되지 않았다.** 이 카로셀은 날짜가 유효기간을 갖는다: 예매가 **9월 7~11일**이라 그 뒤에 나가면 쓸모가 없다. 대표님이 2026-08-20에 삽입을 승인했으나 08-21~09-17 캘린더가 꽉 차 있어 **기존 예약 하나를 뒤로 미뤄야** 한다. 스케줄러에서 직접 처리할 것.
+**2026-08-21 — `2026-08-20_200` 추석 예매편을 2026-09-02 오후 8:00에 예약했다.**
+대표님 지시대로 기존 예약을 밀지 않고 **같은 날짜에 겹쳐** 올렸다 — 그날 05:00은 편의점 가격표 카로셀이라 15시간 간격이다. **날짜를 09-02로 잡은 것은 카드 03이 9/3–4 우선예매를 싣고 있기 때문이다** — 그 다음날부터는 카드 하나가 이미 지난 일을 안내하게 된다. 일반예매 9/7 오픈까지는 5일 여유가 남는다.
 
 **2026-08-20 correction (two separate errors, both found by reading the Meta planner instead of this file):**
 
@@ -90,7 +91,7 @@ Instagram upload is representative-managed. As of 2026-07-02, the representative
 | `2026-08-17_395` | 395 | COSRX Snail 96 — RX Label | 7 | 제작완료·검수완료 (VF 93.9) | scheduled 2026-09-03 05:00 KST (Meta Suite, 2026-08-18)| /blog/395 |
 | `2026-08-17_392` | 392 | Kimchi Refrigerator — Earth Gauge | 7 | 제작완료·검수완료 (VF 94.7) | scheduled 2026-09-04 05:00 KST (Meta Suite, 2026-08-18)| /blog/392 |
 | `2026-08-17_394` | 394 | Korean Massage Chairs — Showroom Menu | 7 | 제작완료·검수완료 (VF 93.3) | scheduled 2026-09-05 05:00 KST (Meta Suite, 2026-08-18)| /blog/394 |
-| `2026-08-20_200` | 200 | Chuseok 2026 Train Tickets: Your Route Has Its Own Booking Day | 7 | rendered + structural gate PASS + caption ready | **NOT YET SCHEDULED — needs a slot before 2026-09-07.** Booking opens 09-07 and closes 09-11, so a slot after that date is worthless. Representative approved insertion 2026-08-20; the 08-21→09-17 calendar is full, so one existing post must move later. |
+| `2026-08-20_200` | 200 | Chuseok 2026 Train Tickets: Your Route Has Its Own Booking Day | 7 | rendered + structural gate PASS + caption ready | **scheduled 2026-09-02 오후 8:00 KST** (Meta Suite, list-verified 08-21, FB+IG both rows). Second post that day — the 05:00 slot holds the convenience-store shelf-tag carousel — per the representative's instruction to overlap rather than displace. Date chosen because card 03 carries the 3–4 Sep priority sale, so 09-02 is the last day on which every dated stage on every card is still ahead of the reader. |
 | `2026-08-21_339` | 339 | Squid Game Filming Locations: The Arena Was a Soundstage, These Places Are Real | 7 | rendered + structural gate PASS + caption ready | **NOT YET SCHEDULED.** No date pressure — schedule into the first free slot after 09-17, or earlier if a swap is convenient. |
 | `2026-08-21_344` | 344 | Bacchus D vs F: The Smaller Bottle Is the Stronger One | 7 | rendered + structural gate PASS + caption ready | **NOT YET SCHEDULED.** No date pressure — schedule into a free slot after 09-17. |
 | `2026-08-21_194` | 194 | Korean Gift-Giving: The Gift Is Fine, the Meaning Might Not Be | 7 | rendered + structural gate PASS + caption ready | **NOT YET SCHEDULED.** No date pressure. Source post 194 was corrected during production — its ogImage was a machine-parts street captioned as a gift shop. |
