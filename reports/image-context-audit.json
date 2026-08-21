@@ -1,6 +1,6 @@
 {
   "summary": {
-    "generatedAt": "2026-08-21T08:41:12.443Z",
+    "generatedAt": "2026-08-21T10:34:49.086Z",
     "auditedPosts": 411,
     "includedPrivate": false,
     "slugFilter": "",
@@ -9937,36 +9937,36 @@
     {
       "type": "blog",
       "slug": "268",
-      "title": "Korean Cushion Shade Guide 2026: 17, 21, 23 Tones",
+      "title": "Korean Cushion Shades: 17, 21, 23, and the 45-Shade Change",
       "contentPath": "content\\blog\\268.md",
       "sourceRecord": "public\\assets\\images\\posts\\268\\image-sources.md",
       "imageCount": 4,
       "images": [
         {
-          "url": "/assets/images/posts/268/cushion-foundation-flatlay.jpg",
-          "alt": "Korean cushion foundation and complexion products arranged as a clean beauty flatlay.",
-          "caption": "Korean cushion shopping is easiest when you separate shade depth, undertone, finish, and wear time instead of chasing one viral compact.",
+          "url": "/assets/images/posts/268/tirtir-mask-fit-red-cushion-compact.jpg",
+          "alt": "The TIRTIR Mask Fit Red Cushion, a glossy red oval compact with the brand name on the lid, photographed on a white background.",
+          "caption": "This is what a cushion actually is: a compact holding a sponge soaked with liquid base, applied by pressing with a flat puff — not a pressed powder and not a bottle. TIRTIR's Mask Fit Red Cushion, the compact that forced the shade conversation. Product image: TIRTIR, used for identification.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/268/tirtir-45-shade-undertone-chart.jpg",
+          "alt": "TIRTIR's official shade chart, a grid of 45 foundation swatches arranged in five undertone columns labelled Pink, Rosy, Neutral, Golden and Olive, running from 10C Shell at the top to the deepest shades at the bottom.",
+          "caption": "The brand's own chart is built the way this guide recommends shopping: depth down the page, undertone across it. The five columns are Pink, Rosy, Neutral, Golden and Olive — which is why two shades numbered 21 can look nothing alike. Chart: TIRTIR Korea, used for identification.",
           "ext": ".jpg",
           "exists": true
         },
         {
           "url": "/assets/images/posts/268/makeup-shade-testing-pexels.jpg",
           "alt": "Five foundation shade swatches tested on a forearm, from deep to light, to compare undertones.",
-          "caption": "A cushion match is four decisions: depth, undertone, finish, and how it behaves after real wear.",
-          "ext": ".jpg",
-          "exists": true
-        },
-        {
-          "url": "/assets/images/posts/268/compact-sponge-application.jpg",
-          "alt": "A compact puff applying complexion product during a makeup routine.",
-          "caption": "The puff makes a big difference. Press thin layers instead of dragging the product like liquid foundation.",
+          "caption": "Arm swatches like these are how most people test — and it is the wrong place. Forearm skin is usually lighter and cooler than the face. Everything below explains why the jawline is the only test that counts.",
           "ext": ".jpg",
           "exists": true
         },
         {
           "url": "/assets/images/posts/268/foundation-clean-setup.jpg",
           "alt": "Foundation, concealer, and sponge arranged on a clean white surface.",
-          "caption": "Buy the shade you will actually wear, not the shade that looks prettiest in a clean product photo.",
+          "caption": "A clean product photo is not a shade test. Buy the shade you will actually wear, not the one that photographs best.",
           "ext": ".jpg",
           "exists": true
         }
