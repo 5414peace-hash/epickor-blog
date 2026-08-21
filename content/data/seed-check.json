@@ -336,8 +336,8 @@
         "yearInTitle": true
       },
       "updatedAt": null,
-      "worked": null,
-      "note": null
+      "worked": "2026-08-22",
+      "note": "Rep-approved business refresh. Article had no mention of the IPO at all — added the KOSPI preliminary-filing timeline (expected Aug 2026), underwriters, and the valuation gap (2023 mid-3조 / banks 10조+ / grey market ~5조). Added FY2025 record results (연결 1조4679억 +18.1%, 영업익 1405억 +36.7%, 수출 489억 ~10x, revenue mix commission 38.76% vs PB 30.78%), the two Shanghai stores that actually opened Dec 2025 (화이하이루 1,300㎡ flagship + 안푸루 editorial shop), Japan popup momentum (Tokyo Apr 2026 75,000 visitors, 무신사역 Harajuku Aug 2026), Standard 30th domestic store. Replaced both keyword-search affiliate CTAs with verified ASINs. Fixed newsroom.musinsa.com source links that now 302 to corp.musinsa.com. Dropped year from title."
     },
     {
       "slug": "256",
