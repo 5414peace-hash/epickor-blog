@@ -1,15 +1,15 @@
 {
   "summary": {
-    "generatedAt": "2026-08-21T10:34:49.086Z",
+    "generatedAt": "2026-08-21T16:20:02.377Z",
     "auditedPosts": 411,
     "includedPrivate": false,
     "slugFilter": "",
     "bodyImages": 1449,
-    "affectedPosts": 97,
+    "affectedPosts": 96,
     "critical": 0,
     "high": 0,
     "medium": 0,
-    "info": 97
+    "info": 96
   },
   "findings": [
     {
@@ -35,14 +35,6 @@
       "severity": "info",
       "code": "MISSING_SOURCE_RECORD",
       "detail": "public\\assets\\images\\posts\\004\\image-sources.md"
-    },
-    {
-      "type": "blog",
-      "slug": "006",
-      "title": "Bicycle Theft in Korea: What Cyclists Should Actually Know",
-      "severity": "info",
-      "code": "MISSING_SOURCE_RECORD",
-      "detail": "public\\assets\\images\\posts\\006\\image-sources.md"
     },
     {
       "type": "blog",
@@ -980,7 +972,7 @@
       "slug": "006",
       "title": "Bicycle Theft in Korea: What Cyclists Should Actually Know",
       "contentPath": "content\\blog\\006-uncovering-the-puzzling-phenomenon-of-bicycle-theft-in-south-korea.md",
-      "sourceRecord": "",
+      "sourceRecord": "public\\assets\\images\\posts\\006\\image-sources.md",
       "imageCount": 3,
       "images": [
         {
@@ -998,20 +990,14 @@
           "exists": true
         },
         {
-          "url": "/assets/images/posts/248/seoul-running-crew-han-river.jpg",
-          "alt": "A Seoul running and cycling route near the Han River.",
-          "caption": "Riverside routes are comfortable for riding, running, and walking; station-area parking is where you need the stricter plan.",
+          "url": "/assets/images/posts/006/seoul-bike-station-sinseoldong.jpg",
+          "alt": "A rack of green-and-white Seoul Bike public hire bicycles parked outside Sinseol-dong Station exit 8, under Korean subway and road signage.",
+          "caption": "A 따릉이 (Seoul Bike) dock outside 신설동역 exit 8. Station forecourts like this one are exactly where the stricter parking plan matters — high footfall, quick access, and a long row of near-identical frames. Photo by Sarang via Wikimedia Commons, public domain.",
           "ext": ".jpg",
           "exists": true
         }
       ],
-      "findings": [
-        {
-          "severity": "info",
-          "code": "MISSING_SOURCE_RECORD",
-          "detail": "public\\assets\\images\\posts\\006\\image-sources.md"
-        }
-      ]
+      "findings": []
     },
     {
       "type": "blog",
@@ -9178,36 +9164,36 @@
     {
       "type": "blog",
       "slug": "248",
-      "title": "Seoul Running Crew Culture 2026: Why Korea Runs At Night",
+      "title": "Seoul Running Crew Culture: Why Korea Runs At Night",
       "contentPath": "content\\blog\\248.md",
       "sourceRecord": "public\\assets\\images\\posts\\248\\image-sources.md",
       "imageCount": 4,
       "images": [
         {
-          "url": "/assets/images/posts/248/seoul-running-crew-han-river.jpg",
-          "alt": "A Seoul running crew jogging along the Han River at dusk with the skyline behind them.",
-          "caption": "The Han River gives Seoul running crews a stage that feels social, scenic, and repeatable.",
+          "url": "/assets/images/posts/248/seoul-marathon-runners-pack.jpg",
+          "alt": "A dense pack of runners seen from behind on a Seoul street during the Seoul International Marathon, wearing club vests with Korean lettering.",
+          "caption": "What a million race entries looks like from inside the pack. Note the club vests — Korean road running has always been organised in groups, long before the crews. Seoul International Marathon. Photo by hojusaram via Wikimedia Commons, CC BY-SA 2.0.",
           "ext": ".jpg",
           "exists": true
         },
         {
           "url": "/assets/images/posts/248/han-river-dongho-bridge-night.jpg",
           "alt": "A night view of Dongho Bridge over the Han River in Seoul, the kind of scene that makes evening runs feel cinematic.",
-          "caption": "The scenery is part of the habit. A normal run can feel like a city ritual.",
+          "caption": "동호대교 (Dongho Bridge) over the Han River. The bridges are what make the riverside paths navigable after dark — runners describe routes by which bridge they turn at. Photo by O-seop Sim via Pexels.",
           "ext": ".jpg",
           "exists": true
         },
         {
-          "url": "/assets/images/posts/248/seoul-night-run-gear-flatlay.jpg",
-          "alt": "A practical Seoul night-run gear flatlay with running shoes, reflective bands, belt, towel, water, and phone.",
-          "caption": "The best Seoul running kit is light, reflective, and easy to carry on transit.",
+          "url": "/assets/images/posts/248/hangang-park-shared-path.jpg",
+          "alt": "A wide paved area in a Han River park with painted lane markings and Korean text on the ground, bike-rental canopies, cyclists and walkers sharing the surface.",
+          "caption": "This is the surface everyone is arguing about. The painted lanes and the Korean word 자전거 (bicycle) on the ground are the whole etiquette problem in one frame — the riverside path belongs to cyclists, walkers and runners at once. Photo by Wpcpey via Wikimedia Commons, CC BY 4.0.",
           "ext": ".jpg",
           "exists": true
         },
         {
-          "url": "/assets/images/posts/248/seoul-running-crew-cooldown.jpg",
-          "alt": "A Seoul running crew cooling down near a riverside convenience-store area after an evening run.",
-          "caption": "The social value often arrives after the run, not during the fastest kilometer.",
+          "url": "/assets/images/posts/248/yeouido-jogging-track.jpg",
+          "alt": "A green rubberised jogging track curving through Yeouido Park in Seoul, with a distance marker painted on the surface and office towers behind the trees.",
+          "caption": "The jogging track through 여의도공원 (Yeouido Park), rubberised and marked by distance. Seoul builds this surface into its parks, which is a large part of why running here became a default rather than a hobby. Photo by Wpcpey via Wikimedia Commons, CC BY 4.0.",
           "ext": ".jpg",
           "exists": true
         }

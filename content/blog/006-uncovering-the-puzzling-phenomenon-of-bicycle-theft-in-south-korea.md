@@ -89,8 +89,8 @@ Before leaving the station, check the bike: brakes, saddle, tires, bell, and any
 
 Seoul also emphasizes cycling safety rules. Korean police and public-policy channels remind riders to use bike lanes where available, avoid phone and earphone distraction, use lights at night, and walk the bike across pedestrian crossings. Theft prevention and crash prevention are separate, but a rider who is already thinking carefully is less likely to make both kinds of mistake.
 
-![A Seoul running and cycling route near the Han River.](/assets/images/posts/248/seoul-running-crew-han-river.jpg)
-*Riverside routes are comfortable for riding, running, and walking; station-area parking is where you need the stricter plan.*
+![A rack of green-and-white Seoul Bike public hire bicycles parked outside Sinseol-dong Station exit 8, under Korean subway and road signage.](/assets/images/posts/006/seoul-bike-station-sinseoldong.jpg)
+*A 따릉이 (Seoul Bike) dock outside 신설동역 exit 8. Station forecourts like this one are exactly where the stricter parking plan matters — high footfall, quick access, and a long row of near-identical frames. Photo by Sarang via Wikimedia Commons, public domain.*
 
 ## What to Do If Your Bike Is Missing
 
