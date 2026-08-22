@@ -1,10 +1,10 @@
 {
   "summary": {
-    "generatedAt": "2026-08-21T16:20:02.377Z",
-    "auditedPosts": 411,
+    "generatedAt": "2026-08-22T03:22:12.422Z",
+    "auditedPosts": 412,
     "includedPrivate": false,
     "slugFilter": "",
-    "bodyImages": 1449,
+    "bodyImages": 1451,
     "affectedPosts": 96,
     "critical": 0,
     "high": 0,
@@ -759,7 +759,7 @@
     {
       "type": "business",
       "slug": "musinsa-company-deep-dive",
-      "title": "MUSINSA Deep Dive 2026: Korea's Fashion Platform Going Offline and Global",
+      "title": "MUSINSA Deep Dive: Korea's Fashion Platform Going Offline and Global",
       "severity": "info",
       "code": "SVG_BODY_IMAGE",
       "detail": "2 SVG body image(s); mixed-media use requires manual relevance review"
@@ -15681,7 +15681,7 @@
     {
       "type": "business",
       "slug": "musinsa-company-deep-dive",
-      "title": "MUSINSA Deep Dive 2026: Korea's Fashion Platform Going Offline and Global",
+      "title": "MUSINSA Deep Dive: Korea's Fashion Platform Going Offline and Global",
       "contentPath": "content\\business\\musinsa-company-deep-dive.md",
       "sourceRecord": "public\\assets\\images\\business\\musinsa-company-deep-dive\\image-sources.md",
       "imageCount": 6,
@@ -15996,6 +15996,31 @@
           "detail": "2 SVG body image(s); mixed-media use requires manual relevance review"
         }
       ]
+    },
+    {
+      "type": "business",
+      "slug": "winix-air-purifier-company-deep-dive",
+      "title": "Winix Deep Dive: America's Favorite Budget Air Purifier Is a 50-Year-Old Korean Company That Just Bought an Airline",
+      "contentPath": "content\\business\\winix-air-purifier-company-deep-dive.md",
+      "sourceRecord": "public\\assets\\images\\business\\winix-air-purifier-company-deep-dive\\image-sources.md",
+      "imageCount": 2,
+      "images": [
+        {
+          "url": "/assets/images/business/winix-air-purifier-company-deep-dive/winix-c535-5500-2-official.jpg",
+          "alt": "The Winix C535 air purifier, a white tower with a black control panel, photographed front-on against a white background.",
+          "caption": "The machine Americans know without knowing the company: the Winix C535, the Costco version of the 5500-2 — same specifications, different label. Official product image: Winix America, used for identification.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/business/winix-air-purifier-company-deep-dive/winix-korea-tower-official.jpg",
+          "alt": "A Winix air purifier from the company's current Korean lineup, a white tower with a patterned grille, on a black background.",
+          "caption": "The Korean-market lineup runs taller and more design-led than the boxy units exported to the US. Official product image: winix.com, used for identification.",
+          "ext": ".jpg",
+          "exists": true
+        }
+      ],
+      "findings": []
     },
     {
       "type": "business",
