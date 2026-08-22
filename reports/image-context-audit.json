@@ -1,10 +1,10 @@
 {
   "summary": {
-    "generatedAt": "2026-08-22T03:22:12.422Z",
-    "auditedPosts": 412,
+    "generatedAt": "2026-08-22T05:40:03.627Z",
+    "auditedPosts": 413,
     "includedPrivate": false,
     "slugFilter": "",
-    "bodyImages": 1451,
+    "bodyImages": 1455,
     "affectedPosts": 96,
     "critical": 0,
     "high": 0,
@@ -15008,6 +15008,45 @@
           "url": "/assets/images/posts/419/korea-hiring-target-system.jpg",
           "alt": "Chart of candidates added by Korea's gender-equality hiring target system, showing women ahead in 2003-2010, men ahead in 2011-2020 and in the cumulative total, but women far ahead at national grade 7 and grade 5.",
           "caption": "Each bar shows that row's split scaled to full width, with the absolute counts printed on it. The inversion between the overall total and the high-grade exams is why both sides of the argument can cite this system truthfully. EpicKor original chart from the Ministry of Personnel Management's annual report.",
+          "ext": ".jpg",
+          "exists": true
+        }
+      ],
+      "findings": []
+    },
+    {
+      "type": "blog",
+      "slug": "420",
+      "title": "Korean Airlines in 2026: Which to Fly, and Which Names Vanish",
+      "contentPath": "content\\blog\\420.md",
+      "sourceRecord": "public\\assets\\images\\posts\\420\\image-sources.md",
+      "imageCount": 4,
+      "images": [
+        {
+          "url": "/assets/images/posts/420/incheon-t2-korean-air-checkin.jpg",
+          "alt": "Korean Air check-in counters at Incheon Airport Terminal 2, with blue KOREAN AIR signage above a row of desks and passengers queueing behind stanchions.",
+          "caption": "Incheon Terminal 2 — the building the whole industry is consolidating into. Asiana moved its operations here on 14 January 2026, putting all five Hanjin Group carriers under one roof ahead of the merger. Photo by Narubaru7 via Wikimedia Commons, CC BY 4.0.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/420/asiana-a350-incheon-2026.jpg",
+          "alt": "An Asiana Airlines Airbus A350 parked on stand at Incheon Airport with ground crew alongside, white fuselage with ASIANA AIRLINES titles and the multicoloured striped tail.",
+          "caption": "Asiana on stand at Incheon in June 2026, six months before the brand ends. That striped tail is the thing being retired — the A350s themselves carry on in Korean Air colours. Photo by S5A-0043 via Wikimedia Commons, CC BY 4.0.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/420/air-premia-787-incheon-2026.jpg",
+          "alt": "An Air Premia Boeing 787-9 climbing away from Incheon Airport with its landing gear still extended, white fuselage with AIR PREMIA titles and a dark tail marked with two red discs.",
+          "caption": "Air Premia departing Incheon, June 2026. The fleet is 787-9s and nothing else — one aircraft type, one cabin layout, and the widest economy pitch flying out of Korea. Photo by S5A-0043 via Wikimedia Commons, CC BY 4.0.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/420/tway-a330-incheon-2026.jpg",
+          "alt": "A T'way Air Airbus A330 taxiing at Incheon Airport in June 2026, white fuselage with the green-and-red t'way wordmark and a red tail stripe.",
+          "caption": "T'way at Incheon in June 2026. This is the livery and the name being replaced by Trinity Airways — the same A330s that fly the European routes. Photo by S5A-0043 via Wikimedia Commons, CC BY 4.0.",
           "ext": ".jpg",
           "exists": true
         }
