@@ -104,6 +104,8 @@ Those roles are easy to mix up in Korea because some companies perform more than
 
 If the category is finished K-beauty rather than private-label manufacturing, use the [Korean cosmetics wholesale guide](/business/korean-cosmetics-wholesale-guide) before you contact sellers. Branded beauty inventory needs authorization, batch, expiry, marketplace, and channel checks that are different from a normal supplier search.
 
+Two categories carry regulatory weight that changes the search before it starts. For supplements, licensing and health-claim rules decide which factories can even export to your market — see the [Korean health supplement suppliers guide](/business/korean-health-supplement-suppliers). For anything classed as a medical device, certification and registration come before pricing, not after — see the [Korean medical device suppliers guide](/business/korean-medical-device-suppliers).
+
 This avoids a common mismatch. If you ask an ODM lab for wholesale branded products, the conversation slows down. If you ask a distributor to develop a private-label product, you may be speaking to the wrong company. If you ask a marketplace reseller for exclusive rights, the answer may be commercially meaningless.
 
 ## Step 2: Build a Short List, Not a Long Spreadsheet

@@ -109,6 +109,8 @@ Keep it concrete. Agree incoterms so it is unambiguous who pays and who is respo
   <p><strong>Get the import mechanics right:</strong> Compare <a href="https://www.amazon.com/s?k=importing+incoterms+supply+chain+book&tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">importing and incoterms reference books</a> covering quality agreements, labeling, and freight terms. In apparel, most losses are contract, labeling, and inspection failures, not sewing failures.</p>
 </div>
 
+If your product depends on a licensed character rather than your own design, the licensing side works differently from manufacturing — EpicKor's [ICONIX and Pororo deep dive](/business/iconix-pororo-deep-dive) explains how a Korean studio built and licenses one of the country's most valuable character IPs.
+
 ## Frequently Asked Questions
 
 **Q: Is Dongdaemun a factory or a market?**

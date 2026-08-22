@@ -176,6 +176,8 @@ The difference comes from romanization. **Ajeossi** is closer to the official Re
 
 For everyday English readers, **ahjussi** is the most recognizable spelling. For Korean study, remember the Hangul: **아저씨**. That will matter more than the English spelling.
 
+The spelling problem has a famous casualty. Korea's 2010 action film is titled simply **아저씨** — the word this article is about — and its English release was renamed *The Man from Nowhere*, which throws away the entire point of the original title. EpicKor's [guide to the Ajeossi movie](/blog/256) explains what the Korean title was doing and why the English one changes the film.
+
 Some searches also ask **"ahjussi artinya apa," "ahjussi itu apa,"** or **"ahjussi adalah."** Those are Indonesian-language ways of asking the same thing: what does ahjussi mean? The answer is still "older man" or "mister," with the same Korean social-distance warning.
 
 ## The MZ "Aura" Debate Is Really About Social Distance

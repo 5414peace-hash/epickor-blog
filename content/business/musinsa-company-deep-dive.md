@@ -198,6 +198,8 @@ For overseas buyers, MUSINSA can be useful as a trend radar. It shows which Kore
 
 ## Global Growth And K-Fashion Export Logic
 
+For the other half of Korean commerce — the logistics-first model that built next-morning delivery as a national expectation and now competes with MUSINSA for the same shoppers — see EpicKor's [Coupang deep dive](/business/coupang-company-deep-dive).
+
 MUSINSA's global push matters because K-fashion has often been more fragmented than K-beauty or K-pop. Many Korean fashion labels have strong identity but limited overseas distribution. MUSINSA can potentially reduce that fragmentation by giving overseas consumers a recognizable discovery surface.
 
 The company has also benefited from Korea-bound tourism. A foreign customer who discovers a brand in a Seoul store may later buy online after returning home. That makes offline stores and global commerce complementary rather than separate.

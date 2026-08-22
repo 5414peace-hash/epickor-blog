@@ -81,6 +81,8 @@ Korea often feels safe to visitors, but safety is not the same as invincibility.
 - **119** for fire and emergency medical help.
 - **1330** for Korea Travel Hotline support, including travel information and interpretation assistance.
 
+One more thing in this category will happen to you whether you prepare or not: **your phone will scream**. Korea pushes emergency alerts at a volume and frequency that startles visitors, and there is a nationwide civil-defence drill with sirens every August. EpicKor's [guide to Korean emergency alerts](/blog/382) explains which tiers you can safely mute, which one you must not, and how to receive them in English.
+
 Save your hotel address, embassy contact, travel insurance details, and a trusted contact offline. If you lose something, report it quickly through the venue, transit operator, police, or official lost-property channels. EpicKor's [unique things in Korea guide](/blog/088) explains the lost-item trust system without pretending theft never happens.
 
 ## 6. Pack for Seasons, Not Just Aesthetic

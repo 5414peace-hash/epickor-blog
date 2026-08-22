@@ -90,6 +90,8 @@ This is not the mountain to choose casually because a view went viral. Routes va
 
 If you want a first Bukhansan experience, choose a well-known route and start early. If the forecast is bad, do not force it. A mountain inside Seoul is still a mountain.
 
+And if you are wondering whether you can pitch a tent up there: you cannot. Korea restricts wild camping in national parks, and the legal alternative is a booked mountain shelter — EpicKor's [wild camping in Korea guide](/blog/350) explains the rules and how the shelter booking actually works.
+
 ## Gwanaksan: The Rocky South-Seoul Challenge
 
 Gwanaksan rises south of the Han River and is often associated with Seoul National University and Gwacheon-side access. It can be a rewarding hike for people who want more physical challenge than Namsan or Inwangsan.
