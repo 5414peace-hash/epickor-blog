@@ -2647,6 +2647,24 @@
   그리고 **링크를 갈면 문장이 깨진다는 규칙이 또 맞았다** — 앵커 텍스트를 바꾸자
   `"purchases. a 10,000mAh power bank"`로 동사가 사라졌다. 산문 재독에서 잡았다.
 
+- **2026-08-22 — `### ` 형태로 쓴 FAQ는 FAQPage 스키마가 아예 안 나간다. 40편이 그 상태였다.**
+  `components/StructuredData.tsx`의 `extractFaq()`는 **세 가지 형태를 지원하는데 전부 `<p><strong>Q:`를 요구**한다.
+  `### Question?`은 `<h3>`라서 하나도 안 잡히고, **리치 결과 자격을 조용히 못 받는다.**
+  질문 204개 / 39편 변환 + `### **Q: ...**`(h3 안에 strong) 1편 6개 추가 수정 → **잔여 0편.**
+  라이브 실측: `196`·`228`·`244`·`240` 모두 `FAQPage` 1개 + `Question` 4~6개 정상 출력.
+  **변환은 FAQ 섹션 안으로 한정하고 그 섹션의 `###`가 전부 물음표로 끝날 때만** 했다 —
+  질문 아닌 소제목이 가짜 FAQ 항목이 되는 걸 막기 위해서다.
+  **탐지법**: `## FAQ` 이후 다음 `## `까지에서 `^### `가 있고 `^\*\*Q:`가 없으면 깨진 것.
+- **2026-08-22 — 아마존 검색 링크 전수: 869개 / 284편이었고, 170개만 교체했다. 나머지는 의도적으로 남겼다.**
+  **판정 기준: 앵커가 약속한 것을 단일 제품이 진짜로 답하는가.**
+  - 교체(170): phrasebook·power bank·umbrella·document organizer·luggage scale·picnic mat·packing cube·sunscreen·sun stick.
+  - **유지(699): `korea travel essentials`(57)·`korean culture history book`(45)·`korean food starter pack`(35)·**
+    **`kpop kdrama fan goods`·`korean snack` 등 카테고리형.** 앵커가 범주를 약속하면 검색 페이지가 정직한 목적지다.
+    CLAUDE.md도 단일 제품이 없을 때 검색 링크를 허용한다. **문화 글 45편을 책 한 권으로 몰면 필러 문제의 재발일 뿐이다.**
+  - **방법: href만 교체하고 앵커 텍스트는 건드리지 않았다** → 상위 100편 패스에서 문장 15개가 깨진 사고가 구조적으로 불가능.
+    앵커 개명은 **`affiliate-topline` 패턴에서만** 했다(앵커가 문장에 안 묻힌 독립 줄이라 안전). 40개.
+  - 전수 컴플라이언스: 아마존 앵커 **1,458개 전부** `target="_blank"` + `rel="nofollow sponsored noopener noreferrer"`.
+
 ## 다음 근무시간 대기 (평일 09:00~19:00에 처리)
 
 - **`413` 빠다코코낫 제품 사진** — `public/assets/images/_inbox/`에 봉지 사진 1장.
