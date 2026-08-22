@@ -188,27 +188,27 @@ The third lesson is to treat overseas revenue as local work. “Global” is not
 
 ## FAQ
 
-### **Q: What is APR Corporation?**
+**Q: What is APR Corporation?**
 
 APR Co., Ltd. is a Korean consumer company founded in 2014. Its portfolio includes Medicube skincare and AGE-R home beauty devices, along with other beauty, wellness, fragrance, and fashion brands.
 
-### **Q: Is Medicube owned by APR?**
+**Q: Is Medicube owned by APR?**
 
 Yes. Medicube is an APR brand, and AGE-R is its home beauty-device line. Verify products, regional stores, and support through APR or the official Medicube site for your market.
 
-### **Q: Does APR manufacture all Medicube products itself?**
+**Q: Does APR manufacture all Medicube products itself?**
 
 No blanket claim should be made. APR reports in-house beauty-device manufacturing capability through APR Factory, while its value-chain reporting also identifies cosmetics ODM partners. The exact manufacturer should be checked for the specific product.
 
-### **Q: How large was APR in 2025?**
+**Q: How large was APR in 2025?**
 
 APR reported 2025 consolidated revenue of KRW 1.5273 trillion and operating profit of KRW 365.5 billion. Cosmetics and beauty were 70% of revenue, devices 27%, and other businesses 3%.
 
-### **Q: Why is the United States important to APR?**
+**Q: Why is the United States important to APR?**
 
 APR's 2025 IR presentation reports US revenue of KRW 572.6 billion, the largest disclosed regional figure and substantially above Korea's KRW 301.6 billion. It shows that global execution is central to the company, not a side project.
 
-### **Q: Can overseas retailers buy Medicube directly from APR?**
+**Q: Can overseas retailers buy Medicube directly from APR?**
 
 It depends on the country, channel, volume, and existing distribution structure. Contact the official company or regional entity and verify authorization, territory, regulatory responsibility, warranty, commercial terms, and approved marketing materials before placing an order.
 

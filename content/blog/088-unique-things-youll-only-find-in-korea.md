@@ -109,7 +109,7 @@ This is why locals plan by micro-route. A good Seoul route is not only "go from 
 If rain is in the forecast, EpicKor's [Korean rainy-day food guide](/blog/065) is a good companion because food culture adapts to weather too.
 
 <div class="affiliate-inline-cta">
-  <p><strong>Protect your phone-heavy travel day:</strong> Navigation, translation, photos, and payment checks drain batteries fast. Compare <a href="https://www.amazon.com/s?k=portable+power+bank+travel&tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">portable power banks for travel</a> before a long Seoul itinerary.</p>
+  <p><strong>Protect your phone-heavy travel day:</strong> Navigation, translation, photos, and payment checks drain batteries fast. Compare <a href="https://www.amazon.com/dp/B0CZ9M6X8Q?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">portable power banks for travel</a> before a long Seoul itinerary.</p>
 </div>
 
 ## 8. The QR, Kiosk, and Self-Service Layer

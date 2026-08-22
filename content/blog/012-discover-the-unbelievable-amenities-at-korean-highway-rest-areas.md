@@ -111,7 +111,7 @@ On guided tours, ask the guide whether the rest-area stop is a restroom break or
 Do not let a rest-area stop replace local food at the destination. Use it as a bridge: one snack, one coffee, one regional curiosity, then continue. The best road-trip food memory is often small enough to fit in your hand.
 
 <div class="affiliate-inline-cta">
-  <p><strong>For long Korea travel days:</strong> A small phone-power backup helps with maps, tickets, translation, payment, and bus timing. Compare <a href="https://www.amazon.com/s?k=portable+power+bank+travel&amp;tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">portable travel power banks</a> before a road-heavy Korea itinerary.</p>
+  <p><strong>For long Korea travel days:</strong> A small phone-power backup helps with maps, tickets, translation, payment, and bus timing. Compare <a href="https://www.amazon.com/dp/B0CZ9M6X8Q?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">portable travel power banks</a> before a road-heavy Korea itinerary.</p>
 </div>
 
 ![Korean rest area facilities frame from EpicKor's original package.](/assets/images/posts/012/d6f0e08e-cc06-4948-90d2-2138792e26af.jpg)

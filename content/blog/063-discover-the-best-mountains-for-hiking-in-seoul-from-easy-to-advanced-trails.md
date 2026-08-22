@@ -53,7 +53,7 @@ Do not choose by photo alone. A trail that looks short can still be slippery, ex
   </table>
 </div>
 
-<p class="affiliate-topline"><a href="https://www.amazon.com/s?k=portable+power+bank+travel&tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Portable power banks for travel — compare on Amazon</a><span class="affiliate-topline-note">Affiliate link. As an Amazon Associate, EpicKor earns from qualifying purchases at no extra cost to you.</span></p>
+<p class="affiliate-topline"><a href="https://www.amazon.com/dp/B0CZ9M6X8Q?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Anker 10,000mAh power bank — on Amazon</a><span class="affiliate-topline-note">Affiliate link. As an Amazon Associate, EpicKor earns from qualifying purchases at no extra cost to you.</span></p>
 
 ## Namsan: The Easiest Seoul Hiking Win
 
@@ -104,7 +104,7 @@ The benefit is variety. Gwanaksan shows another side of Seoul: university neighb
 *Seoul hiking difficulty changes quickly. A route can move from city access to rocky terrain faster than first-time visitors expect.*
 
 <div class="affiliate-inline-cta">
-  <p><strong>Prepare for maps, photos, and translation:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. Seoul hikes drain phone batteries through navigation and photos, so compare <a href="https://www.amazon.com/s?k=portable+power+bank+travel&tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">portable power banks for travel</a> before a long trail day.</p>
+  <p><strong>Prepare for maps, photos, and translation:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. Seoul hikes drain phone batteries through navigation and photos, so compare <a href="https://www.amazon.com/dp/B0CZ9M6X8Q?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">portable power banks for travel</a> before a long trail day.</p>
 </div>
 
 ## When to Hike: Korea's Seasons Are Not a Detail

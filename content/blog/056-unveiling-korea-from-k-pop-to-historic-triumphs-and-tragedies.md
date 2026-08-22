@@ -119,7 +119,7 @@ That is why Korea travels so well globally. It feels polished, but not empty. St
 - [Korean Cinema and Choi Min-sik](/blog/030) - a screen-culture path into Korean grief, revenge, history, and genre storytelling.
 
 <div class="affiliate-inline-cta">
-  <p><strong>Bring the overview down to language:</strong> If Korea's history and culture make you want to understand everyday speech, compare <a href="https://www.amazon.com/s?k=korean+phrasebook&amp;tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean phrasebooks</a> before relying only on subtitles.</p>
+  <p><strong>Bring the overview down to language:</strong> If Korea's history and culture make you want to understand everyday speech, compare <a href="https://www.amazon.com/dp/1838691537?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean phrasebooks</a> before relying only on subtitles.</p>
 </div>
 
 ## FAQ

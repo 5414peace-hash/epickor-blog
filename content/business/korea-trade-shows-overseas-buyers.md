@@ -174,28 +174,28 @@ If a supplier was found at a Korea pavilion outside Korea, still verify the comp
 For a wider supplier workflow, read [How to Find Suppliers in Korea](/business/how-to-find-suppliers-in-korea). For beauty-specific manufacturing meetings, read [K-Beauty OEM/ODM in Korea](/business/k-beauty-oem-odm-korea).
 
 <div class="affiliate-inline-cta">
-  <p><strong>Travel work setup:</strong> A Korea trade-show trip is easier when your receipts, passports, samples, and meeting notes are separated. Compare <a href="https://www.amazon.com/s?k=travel+document+organizer&tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">travel document organizers</a> or <a href="https://www.amazon.com/s?k=portable+power+bank+travel&tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">portable power banks</a> before a multi-day booth schedule.</p>
+  <p><strong>Travel work setup:</strong> A Korea trade-show trip is easier when your receipts, passports, samples, and meeting notes are separated. Compare <a href="https://www.amazon.com/dp/B075L5QVJG?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">travel document organizers</a> or <a href="https://www.amazon.com/dp/B0CZ9M6X8Q?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">portable power banks</a> before a multi-day booth schedule.</p>
 </div>
 
 ## FAQ
 
-### Do I need to visit Korea to find Korean suppliers?
+**Q: Do I need to visit Korea to find Korean suppliers?**
 
 No. Many first screens can happen through platforms, emails, video calls, samples, and document review. A Korea visit becomes more useful when the category is visual, tactile, technical, regulated, or relationship-heavy.
 
-### Are KOTRA business meetings free?
+**Q: Are KOTRA business meetings free?**
 
 Eligibility and support details depend on the program, event, buyer profile, and timing. Check the current KOTRA event or local office information before assuming cost, incentive, or meeting availability.
 
-### What should I bring to a Korea trade show as a buyer?
+**Q: What should I bring to a Korea trade show as a buyer?**
 
 Bring a concise company profile, product brief, target market details, quantity range, document requirements, meeting schedule, business cards, note system, and a plan for sample tracking. If the category is regulated, bring a checklist from your regulatory adviser.
 
-### How soon should I follow up after meeting Korean suppliers?
+**Q: How soon should I follow up after meeting Korean suppliers?**
 
 Within 48 hours is a strong rule. Restate the exact product discussed, attach your request, ask for quotation and documents, and set a clear next step. Waiting two weeks makes the booth conversation much less valuable.
 
-### Can I rely on a trade-show booth as proof that a supplier is legitimate?
+**Q: Can I rely on a trade-show booth as proof that a supplier is legitimate?**
 
 No. A booth is a useful signal, but not final proof. Verify company identity, role, documents, sample traceability, authorization, payment terms, and compliance before moving to serious purchase orders.
 

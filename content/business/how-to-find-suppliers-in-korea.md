@@ -149,28 +149,28 @@ You do not need to fly to Korea for every supplier search. A trip makes sense wh
 If trade shows are part of your plan, read EpicKor's guide to [Korea trade shows for overseas buyers](/business/korea-trade-shows-overseas-buyers). If your category is beauty manufacturing, pair this guide with [K-Beauty OEM/ODM in Korea](/business/k-beauty-oem-odm-korea) before contacting factories.
 
 <div class="affiliate-inline-cta">
-  <p><strong>Simple sourcing kit:</strong> Before a Korea trip or supplier call week, compare <a href="https://www.amazon.com/s?k=trade+show+planner+notebook&tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">trade-show planner notebooks</a> or <a href="https://www.amazon.com/s?k=travel+document+organizer&tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">travel document organizers</a>. They are not strategic tools, but they help keep samples, business cards, invoices, and meeting notes from becoming a mess.</p>
+  <p><strong>Simple sourcing kit:</strong> Before a Korea trip or supplier call week, compare <a href="https://www.amazon.com/s?k=trade+show+planner+notebook&tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">trade-show planner notebooks</a> or <a href="https://www.amazon.com/dp/B075L5QVJG?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">travel document organizers</a>. They are not strategic tools, but they help keep samples, business cards, invoices, and meeting notes from becoming a mess.</p>
 </div>
 
 ## FAQ
 
-### What is the safest way to find suppliers in Korea?
+**Q: What is the safest way to find suppliers in Korea?**
 
 There is no single safest directory. A safer workflow is to use Korea-focused platforms, compare company evidence across sources, contact a short list with a specific request, verify identity and documents, test samples carefully, and avoid large payments before the supplier and product are properly reviewed.
 
-### Is buyKOREA only for large buyers?
+**Q: Is buyKOREA only for large buyers?**
 
 No. buyKOREA is a public export support platform, and many listings are relevant to smaller overseas buyers. The practical issue is not only buyer size. It is whether your inquiry is clear enough for the seller to judge your seriousness and whether the seller can support your country, quantity, and documentation needs.
 
-### Is tradeKorea different from buyKOREA?
+**Q: Is tradeKorea different from buyKOREA?**
 
 Yes. Both are Korea-focused B2B paths, but they are operated in different institutional contexts and have different site structures, matching options, and category presentation. Serious buyers often compare results across both rather than choosing one platform only.
 
-### Should I work with a manufacturer or trading company?
+**Q: Should I work with a manufacturer or trading company?**
 
 Use a manufacturer when product control, OEM work, or direct technical discussion matters. Use a trading company when you need mixed categories, smaller lots, export coordination, or help bridging several suppliers. The right answer depends on category, volume, documentation, and your team's sourcing experience.
 
-### Can KOTRA verify a supplier for me?
+**Q: Can KOTRA verify a supplier for me?**
 
 KOTRA can support buyer inquiries and matching paths, but you should not treat any support channel as full commercial due diligence. Your team still needs contract review, payment controls, product inspection, compliance checks, and destination-market import advice.
 

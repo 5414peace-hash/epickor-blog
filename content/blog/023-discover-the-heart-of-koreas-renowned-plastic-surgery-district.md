@@ -38,7 +38,7 @@ Medical Korea, operated with the Ministry of Health and Welfare and KHIDI contex
 </table>
 </div>
 
-<p class="affiliate-topline"><a href="https://www.amazon.com/s?k=travel+document+organizer&amp;tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Travel document organizers — compare on Amazon</a><span class="affiliate-topline-note">Affiliate link. As an Amazon Associate, EpicKor earns from qualifying purchases at no extra cost to you.</span></p>
+<p class="affiliate-topline"><a href="https://www.amazon.com/dp/B075L5QVJG?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">BAGSMART RFID travel wallet — on Amazon</a><span class="affiliate-topline-note">Affiliate link. As an Amazon Associate, EpicKor earns from qualifying purchases at no extra cost to you.</span></p>
 
 ## Why Gangnam Became the Beauty-Medical Center
 
@@ -68,7 +68,7 @@ For aesthetic procedures, ask the doctor to define the goal in conservative lang
 Do not rely only on before-and-after galleries. Lighting, angle, makeup, swelling stage, selection bias, and editing can change perception. A gallery can start questions, but it should not end them.
 
 <div class="affiliate-inline-cta">
-  <p><strong>Prepare the non-glamorous part first:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. If you are traveling for consultations, compare <a href="https://www.amazon.com/s?k=travel+document+organizer&amp;tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">travel document organizers</a> so passport copies, clinic papers, insurance details, and receipts stay together.</p>
+  <p><strong>Prepare the non-glamorous part first:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. If you are traveling for consultations, compare <a href="https://www.amazon.com/dp/B075L5QVJG?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">travel document organizers</a> so passport copies, clinic papers, insurance details, and receipts stay together.</p>
 </div>
 
 ## Price Shopping Can Backfire

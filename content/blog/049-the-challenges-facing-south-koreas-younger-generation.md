@@ -123,7 +123,7 @@ Understanding Hell Joseon does not require becoming cynical. It simply makes the
 The respectful move is to listen for context. A young Korean joking about Hell Joseon may be venting after work, making a political critique, using old internet slang ironically, or describing a very real family-pressure situation. Do not assume the deepest meaning from one phrase. Ask what part feels hard: job search, rent, marriage pressure, office hierarchy, exams, or future planning.
 
 <div class="affiliate-inline-cta">
-  <p><strong>Language helps nuance:</strong> If you want to read Korean social terms more carefully, compare <a href="https://www.amazon.com/s?k=korean+phrasebook&amp;tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean phrasebooks</a> or beginner language resources before relying only on translated internet slang.</p>
+  <p><strong>Language helps nuance:</strong> If you want to read Korean social terms more carefully, compare <a href="https://www.amazon.com/dp/1838691537?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean phrasebooks</a> or beginner language resources before relying only on translated internet slang.</p>
 </div>
 
 ## Related EpicKor guides

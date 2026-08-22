@@ -122,7 +122,7 @@ Pack light but intentional: phone battery, transit/payment card, small cash back
 Theme park days drain phone batteries because you use maps, tickets, photos, translation, and messaging. This is one of the clearest travel days where a power bank matters.
 
 <div class="affiliate-inline-cta">
-  <p><strong>Battery insurance:</strong> Compare <a href="https://www.amazon.com/s?k=portable+power+bank+travel&amp;tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">portable travel power banks</a> before a theme-park day because tickets, maps, photos, and ride-time checks all depend on your phone.</p>
+  <p><strong>Battery insurance:</strong> Compare <a href="https://www.amazon.com/dp/B0CZ9M6X8Q?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">portable travel power banks</a> before a theme-park day because tickets, maps, photos, and ride-time checks all depend on your phone.</p>
 </div>
 
 ## Common Mistakes

@@ -19,7 +19,7 @@ That is why a good Seoul night plan is not just “go out late.” It is choosin
 For the broader travel-prep layer, pair this guide with EpicKor's [Korea travel preparation guide](/blog/073), [Seoul subway etiquette guide](/blog/174), and [one-month Seoul living guide](/blog/079).
 
 <div class="affiliate-inline-cta">
-  <p><strong>Night-route prep:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. Seoul nights are phone-heavy because you use maps, translation, payment apps, camera, and transit checks constantly, so compare <a href="https://www.amazon.com/s?k=portable+power+bank+travel&amp;tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">portable power banks for travel</a> before a long evening route.</p>
+  <p><strong>Night-route prep:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. Seoul nights are phone-heavy because you use maps, translation, payment apps, camera, and transit checks constantly, so compare <a href="https://www.amazon.com/dp/B0CZ9M6X8Q?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">portable power banks for travel</a> before a long evening route.</p>
 </div>
 
 ## The Best Seoul Night Plan Starts With One Anchor

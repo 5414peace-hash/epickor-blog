@@ -120,7 +120,7 @@ If you are visiting Korea soon, prioritize practical phrases over abstract gramm
 However, even travel Korean works better when you can read Hangeul. Menus, cafe names, subway stops, neighborhood signs, and receipts become less intimidating. You will still use translation apps, but you will not be completely dependent on them.
 
 <div class="affiliate-inline-cta">
-  <p><strong>Trip-language backup:</strong> If you are learning Korean for travel, compare <a href="https://www.amazon.com/s?k=korean+phrasebook&amp;tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean phrasebooks</a> as a small offline backup for cafe, transit, and etiquette situations.</p>
+  <p><strong>Trip-language backup:</strong> If you are learning Korean for travel, compare <a href="https://www.amazon.com/dp/1838691537?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean phrasebooks</a> as a small offline backup for cafe, transit, and etiquette situations.</p>
 </div>
 
 ## Common Beginner Mistakes

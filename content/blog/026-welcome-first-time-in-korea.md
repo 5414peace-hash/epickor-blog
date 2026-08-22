@@ -45,7 +45,7 @@ Keep offline copies of your first accommodation's name, address, and phone numbe
 </table>
 </div>
 
-<p class="affiliate-topline"><a href="https://www.amazon.com/s?k=travel+document+organizer&amp;tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Travel document organizer — compare on Amazon</a><span class="affiliate-topline-note">Affiliate link. As an Amazon Associate, EpicKor earns from qualifying purchases at no extra cost to you.</span></p>
+<p class="affiliate-topline"><a href="https://www.amazon.com/dp/B075L5QVJG?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">BAGSMART RFID travel wallet — on Amazon</a><span class="affiliate-topline-note">Affiliate link. As an Amazon Associate, EpicKor earns from qualifying purchases at no extra cost to you.</span></p>
 
 ## Choose Your Incheon Airport Transfer Before Landing
 
@@ -82,7 +82,7 @@ For subway trips, check the destination direction, line number and color, transf
 Papago and Google Translate can both help, but translation is most reliable with short, plain sentences. Download offline language support where available. Keep the Korean text for allergies, your hotel, and essential medical information as a screenshot.
 
 <div class="affiliate-inline-cta">
-  <p><strong>Keep the documents together:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. Compare a compact <a href="https://www.amazon.com/s?k=travel+document+organizer&amp;tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">travel document organizer</a> for your passport, insurance details, transit card, and paper backup; do not store every critical item in one checked bag.</p>
+  <p><strong>Keep the documents together:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. Compare a compact <a href="https://www.amazon.com/dp/B075L5QVJG?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">travel document organizer</a> for your passport, insurance details, transit card, and paper backup; do not store every critical item in one checked bag.</p>
 </div>
 
 ## Set Up Mobile Data Without Locking Yourself Out
@@ -132,7 +132,7 @@ For family days or bad-weather backups, EpicKor's [Korea theme parks guide](/blo
 Comfortable shoes matter because Seoul combines station corridors, slopes, and palace grounds. EpicKor's [Korea travel mistakes guide](/blog/073) is a useful packing check.
 
 <div class="affiliate-inline-cta">
-  <p><strong>Protect navigation time:</strong> Compare a flight-safe <a href="https://www.amazon.com/s?k=portable+power+bank+travel&amp;tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">portable travel power bank</a> before departure. Maps, translation, photos, and eSIM data can drain a phone quickly; check your airline's current carry-on and capacity rules.</p>
+  <p><strong>Protect navigation time:</strong> Compare a flight-safe <a href="https://www.amazon.com/dp/B0CZ9M6X8Q?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">portable travel power bank</a> before departure. Maps, translation, photos, and eSIM data can drain a phone quickly; check your airline's current carry-on and capacity rules.</p>
 </div>
 
 ## Emergency Numbers and Help for Travelers

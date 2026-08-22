@@ -19,7 +19,7 @@ The better rule is simple: buy souvenirs that still make sense after the suitcas
 This guide keeps the romance but removes the overbuying. For broader shopping context, pair it with EpicKor's [Olive Young shopping guide](/blog/028), [Korean snack guide](/blog/029), [Korean grocery store tourism guide](/blog/209), and [Korean food starter shelf guide](/blog/277).
 
 <div class="affiliate-inline-cta">
-  <p><strong>Souvenir planning note:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. If your bag is already close to the airline limit, compare <a href="https://www.amazon.com/s?k=digital+luggage+scale+travel&amp;tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">digital luggage scales for travel</a> before you turn a snack haul into an airport repacking scene.</p>
+  <p><strong>Souvenir planning note:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. If your bag is already close to the airline limit, compare <a href="https://www.amazon.com/dp/B00NW62PCA?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">digital luggage scales for travel</a> before you turn a snack haul into an airport repacking scene.</p>
 </div>
 
 ## Start With the Recipient, Not the Store

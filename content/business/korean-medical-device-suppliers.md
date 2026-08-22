@@ -169,7 +169,7 @@ Use a staged approach:
 This looks slow. It is faster than solving a regulatory, service, or liability problem after shipment.
 
 <div class="affiliate-inline-cta">
-  <p><strong>Trade-show and document control:</strong> A Korea supplier trip is easier when supplier notes, certificates, booth cards, and follow-up tasks stay connected. Compare <a href="https://www.amazon.com/s?k=trade+show+planner+notebook&tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">trade-show planner notebooks</a> and <a href="https://www.amazon.com/s?k=travel+document+organizer&tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">travel document organizers</a> before you visit KIMES, K-Hospital Fair, or supplier offices.</p>
+  <p><strong>Trade-show and document control:</strong> A Korea supplier trip is easier when supplier notes, certificates, booth cards, and follow-up tasks stay connected. Compare <a href="https://www.amazon.com/s?k=trade+show+planner+notebook&tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">trade-show planner notebooks</a> and <a href="https://www.amazon.com/dp/B075L5QVJG?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">travel document organizers</a> before you visit KIMES, K-Hospital Fair, or supplier offices.</p>
 </div>
 
 ## Final Take
@@ -180,27 +180,27 @@ The best first move is not to ask, "Who is the best Korean medical device compan
 
 ## FAQ
 
-### Are Korean medical device suppliers good for overseas buyers?
+**Q: Are Korean medical device suppliers good for overseas buyers?**
 
 They can be, especially in selected categories such as dental devices, aesthetic devices, imaging-related equipment, diagnostics, and technical healthcare products. But each supplier and product needs document-level verification.
 
-### Is MFDS approval enough for my country?
+**Q: Is MFDS approval enough for my country?**
 
 No. MFDS status can be useful Korea-side evidence, but import, sale, clinical use, claims, and reimbursement depend on your target market's rules.
 
-### Where can I meet Korean medical device companies?
+**Q: Where can I meet Korean medical device companies?**
 
 Industry trade shows such as KIMES and K-Hospital Fair, official exhibitor lists, company websites, KOTRA-linked channels, and Korea-focused B2B platforms can all support discovery.
 
-### What documents should I request first?
+**Q: What documents should I request first?**
 
 Ask for product catalog, model-specific technical specifications, regulatory certificates, quality-system evidence, intended-use language, labeling/IFU, warranty, service terms, and distributor authorization where relevant.
 
-### Are Korean aesthetic devices the same as K-beauty products?
+**Q: Are Korean aesthetic devices the same as K-beauty products?**
 
 No. Aesthetic medical devices may involve device classification, clinical claims, operator training, service obligations, and stricter local rules than cosmetics or general beauty tools.
 
-### Can EpicKor recommend a specific supplier?
+**Q: Can EpicKor recommend a specific supplier?**
 
 This guide does not recommend or endorse a specific supplier. It provides a buyer workflow for evaluating Korean medical device suppliers using official sources and structured due diligence.
 

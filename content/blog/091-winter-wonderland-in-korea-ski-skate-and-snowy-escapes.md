@@ -51,7 +51,7 @@ Choose by effort level:
   </table>
 </div>
 
-<p class="affiliate-topline"><a href="https://www.amazon.com/s?k=portable+power+bank+travel&tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Portable power banks for travel — compare on Amazon</a><span class="affiliate-topline-note">Affiliate link. As an Amazon Associate, EpicKor earns from qualifying purchases at no extra cost to you.</span></p>
+<p class="affiliate-topline"><a href="https://www.amazon.com/dp/B0CZ9M6X8Q?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Anker 10,000mAh power bank — on Amazon</a><span class="affiliate-topline-note">Affiliate link. As an Amazon Associate, EpicKor earns from qualifying purchases at no extra cost to you.</span></p>
 
 ## Skiing and Snowboarding in Korea
 
@@ -105,7 +105,7 @@ This is the smarter plan if your trip is short or if not everyone in your group 
 EpicKor's [24-hour Seoul route guide](/blog/017) helps you pace the city when daylight and temperature make winter days feel shorter.
 
 <div class="affiliate-inline-cta">
-  <p><strong>Keep the winter route powered:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. Cold weather drains phones faster, so compare <a href="https://www.amazon.com/s?k=portable+power+bank+travel&tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">portable power banks for travel</a> before a ski shuttle or long winter photo day.</p>
+  <p><strong>Keep the winter route powered:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. Cold weather drains phones faster, so compare <a href="https://www.amazon.com/dp/B0CZ9M6X8Q?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">portable power banks for travel</a> before a ski shuttle or long winter photo day.</p>
 </div>
 
 ## Winter Festivals and Snow Escapes

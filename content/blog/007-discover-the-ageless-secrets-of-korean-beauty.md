@@ -26,7 +26,7 @@ Finally, skin aging varies enormously within every population. Sun exposure, smo
 
 
 
-<p class="affiliate-topline"><a href="https://www.amazon.com/s?k=korean+sunscreen+spf+50&tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean SPF 50 sunscreens — compare on Amazon</a><span class="affiliate-topline-note">Affiliate link. As an Amazon Associate, EpicKor earns from qualifying purchases at no extra cost to you.</span></p>
+<p class="affiliate-topline"><a href="https://www.amazon.com/dp/B0F2HL5XPT?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">ROUND LAB Birch Juice sun stick SPF 50+ — on Amazon</a><span class="affiliate-topline-note">Affiliate link. As an Amazon Associate, EpicKor earns from qualifying purchases at no extra cost to you.</span></p>
 
 ## Appearance, skin health and aging are different questions
 
@@ -55,7 +55,7 @@ Still, no Korean sunscreen is magic. Follow the label sold in your market, cover
 For texture comparisons and realistic wear questions, see EpicKor's [Korean sunscreen guide](/blog/160). The current [Korean skincare routine-order guide](/blog/303) shows where sunscreen belongs after moisturizer in the morning.
 
 <div class="affiliate-inline-cta">
-  <p><strong>Make prevention easy enough to repeat:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. Compare <a href="https://www.amazon.com/s?k=korean+sunscreen+spf+50&tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean SPF 50 sunscreens</a> by finish, water resistance, expiration date, seller and the directions on the package rather than choosing only by a viral ranking.</p>
+  <p><strong>Make prevention easy enough to repeat:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. Compare <a href="https://www.amazon.com/dp/B0F2HL5XPT?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean SPF 50 sunscreens</a> by finish, water resistance, expiration date, seller and the directions on the package rather than choosing only by a viral ranking.</p>
 </div>
 
 ## Gentle cleansing and moisturizer support appearance

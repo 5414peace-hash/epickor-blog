@@ -127,30 +127,30 @@ For first discovery, use general Korea supplier paths and then narrow by categor
 If you are still mapping the overall Korea supplier process, read [How to Find Suppliers in Korea](/business/how-to-find-suppliers-in-korea). If you plan to meet manufacturers in person, pair this with [Korea Trade Shows for Overseas Buyers](/business/korea-trade-shows-overseas-buyers).
 
 <div class="affiliate-inline-cta">
-  <p><strong>Launch planning check:</strong> For early project control, compare <a href="https://www.amazon.com/s?k=product+development+notebook&tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">product-development notebooks</a> or <a href="https://www.amazon.com/s?k=travel+document+organizer&tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">document organizers</a>. A clean sample and document trail is more useful than a folder full of screenshots.</p>
+  <p><strong>Launch planning check:</strong> For early project control, compare <a href="https://www.amazon.com/s?k=product+development+notebook&tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">product-development notebooks</a> or <a href="https://www.amazon.com/dp/B075L5QVJG?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">document organizers</a>. A clean sample and document trail is more useful than a folder full of screenshots.</p>
 </div>
 
 ## FAQ
 
 For a public-company example of how Korean ODM, research, manufacturing, packaging coordination, and global factories connect, read EpicKor Business's [COSMAX deep dive](/business/cosmax-korean-beauty-odm-deep-dive). It is an editorial company study, not a supplier endorsement.
 
-### Is Korean ODM better than OEM for a small beauty brand?
+**Q: Is Korean ODM better than OEM for a small beauty brand?**
 
 ODM can be better if you need speed, concept support, and access to existing development work. OEM can be better if you already control the brief, formula direction, or product specification. The right choice depends on ownership, exclusivity, timeline, target market, and how much technical work your team can manage.
 
-### Can a Korean manufacturer handle all compliance for my country?
+**Q: Can a Korean manufacturer handle all compliance for my country?**
 
 Some manufacturers can support documents and regulatory coordination, but you should not assume they own your destination-market compliance. Labels, claims, ingredients, importer obligations, testing, and marketplace rules should be reviewed for the market where you sell.
 
-### What is the first question I should ask a K-beauty OEM/ODM supplier?
+**Q: What is the first question I should ask a K-beauty OEM/ODM supplier?**
 
 Ask whether they are the manufacturer, ODM developer, trading company, brand owner, or distributor for the product type you want. That answer shapes every later question about pricing, ownership, samples, claims, and documents.
 
-### Are functional cosmetics the same as regular cosmetics in Korea?
+**Q: Are functional cosmetics the same as regular cosmetics in Korea?**
 
 No. MFDS describes functional cosmetics as cosmetics with legally defined functions, and its public page explains evaluation/reporting paths and data requirements. If your concept involves whitening, wrinkle, UV, acne, hair-loss, or similar functional language, treat it as a regulatory checkpoint from the beginning.
 
-### Should I ask for exclusive formula rights?
+**Q: Should I ask for exclusive formula rights?**
 
 Ask, but be precise. Exclusivity can mean territory, time period, formula, concept, packaging, ingredient combination, or just brand presentation. A vague promise is not enough. Put the exact scope in written commercial and legal documents.
 

@@ -275,27 +275,27 @@ The fifth lesson is that global growth changes the management question. Early on
 
 ## FAQ
 
-### Is Buldak a company or a Samyang Foods brand?
+**Q: Is Buldak a company or a Samyang Foods brand?**
 
 Buldak is a brand and product family owned by Samyang Foods Inc. Samyang Foods is the Korean food manufacturer behind Buldak Ramen, Samyang Ramen, sauces, snacks, and other food categories.
 
-### How large was Samyang Foods in 2025?
+**Q: How large was Samyang Foods in 2025?**
 
 Samyang Foods' official financial page reports 2025 consolidated sales of KRW 2.352 trillion, operating income of KRW 524.2 billion, and net income of KRW 388.7 billion. These are company-reported historical results, not a forecast.
 
-### How widely is Buldak sold?
+**Q: How widely is Buldak sold?**
 
 Samyang Foods said in September 2025 that Buldak had expanded to more than 100 countries. Its official European subsidiary page says that entity reaches more than 40 European countries. Availability varies by market, retailer, and SKU.
 
-### Why did Buldak become globally popular?
+**Q: Why did Buldak become globally popular?**
 
 The product combined a distinctive spicy stir-fried format with packaging and an eating reaction that worked well on video. Social participation created trial, while flavor extensions, export manufacturing, distributors, regional subsidiaries, and localization helped turn trial into a larger business.
 
-### Does Samyang Foods manufacture only in Korea?
+**Q: Does Samyang Foods manufacture only in Korea?**
 
 Its current official factory page identifies Wonju, Iksan, and Miryang in Korea. Its corporate history also records the 2025 start of construction on a Zhejiang plant in China. Buyers should verify the actual operating status and manufacturing site for the exact product they plan to purchase.
 
-### Can an overseas buyer source Buldak directly from Samyang Foods?
+**Q: Can an overseas buyer source Buldak directly from Samyang Foods?**
 
 That depends on country, channel, volume, and the company's distribution structure. Start with Samyang Foods or the official regional entity and confirm whether the transaction should go through a local distributor. Verify authorization, MOQ, territory, labels, product compliance, Incoterms, and marketing rights before payment.
 

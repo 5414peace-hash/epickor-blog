@@ -23,7 +23,7 @@ This guide turns the old "three essential tips" idea into a broader, more useful
 
 
 
-<p class="affiliate-topline"><a href="https://www.amazon.com/s?k=korean+phrasebook&amp;tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean phrasebooks — compare on Amazon</a><span class="affiliate-topline-note">Affiliate link. As an Amazon Associate, EpicKor earns from qualifying purchases at no extra cost to you.</span></p>
+<p class="affiliate-topline"><a href="https://www.amazon.com/dp/1838691537?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Lonely Planet Korean Phrasebook &amp; Dictionary — on Amazon</a><span class="affiliate-topline-note">Affiliate link. As an Amazon Associate, EpicKor earns from qualifying purchases at no extra cost to you.</span></p>
 
 ## Quick Answer: What Is the Best Way to Avoid Conflict in Korea?
 
@@ -56,7 +56,7 @@ For visitors, nunchi starts with slowing down. If a restaurant is packed and sta
 Nunchi does not mean mind-reading. You can ask direct questions. The trick is to ask them in a way that leaves room for the other person to answer without shame. "Is this okay here?" works better than "Why is this so confusing?" "Could you help me check?" works better than "You made a mistake."
 
 <div class="affiliate-inline-cta">
-  <p><strong>Conversation safety net:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. If you want a few polite phrases before a trip, compare <a href="https://www.amazon.com/s?k=korean+phrasebook&amp;tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean phrasebooks</a> so basic requests do not come out harsher than intended.</p>
+  <p><strong>Conversation safety net:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. If you want a few polite phrases before a trip, compare <a href="https://www.amazon.com/dp/1838691537?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean phrasebooks</a> so basic requests do not come out harsher than intended.</p>
 </div>
 
 ## Honorifics, Banmal, and Why "Friendly" Can Sound Rude

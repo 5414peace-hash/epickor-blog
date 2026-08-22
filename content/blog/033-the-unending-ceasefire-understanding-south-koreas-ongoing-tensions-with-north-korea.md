@@ -122,7 +122,7 @@ For travelers, respecting that complexity matters. Do not tell Koreans they shou
 - [Suwon and Hwaseong Fortress Guide](/blog/064) - a calmer way to understand Korean history through place.
 
 <div class="affiliate-inline-cta">
-  <p><strong>Language basics before sensitive topics:</strong> If you plan to ask Koreans about history, politics, or family memory, compare <a href="https://www.amazon.com/s?k=korean+phrasebook&amp;tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean phrasebooks</a> first so your questions sound more respectful and less like a debate prompt.</p>
+  <p><strong>Language basics before sensitive topics:</strong> If you plan to ask Koreans about history, politics, or family memory, compare <a href="https://www.amazon.com/dp/1838691537?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean phrasebooks</a> first so your questions sound more respectful and less like a debate prompt.</p>
 </div>
 
 ## FAQ

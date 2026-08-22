@@ -40,7 +40,7 @@ If this is your first visit, use EpicKor's [first-time Korea travel guide](/blog
   </table>
 </div>
 
-<p class="affiliate-topline"><a href="https://www.amazon.com/s?k=travel+document+organizer&tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Travel document organizers — compare on Amazon</a><span class="affiliate-topline-note">Affiliate link. As an Amazon Associate, EpicKor earns from qualifying purchases at no extra cost to you.</span></p>
+<p class="affiliate-topline"><a href="https://www.amazon.com/dp/B075L5QVJG?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">BAGSMART RFID travel wallet — on Amazon</a><span class="affiliate-topline-note">Affiliate link. As an Amazon Associate, EpicKor earns from qualifying purchases at no extra cost to you.</span></p>
 
 ## 2. Korea Uses Local Map Logic
 
@@ -62,7 +62,7 @@ Keep the card accessible but separate from your passport. You will tap in and ou
 *Korea feels easier when your transit card, map app, hotel address, and battery backup are ready before the first mistake happens.*
 
 <div class="affiliate-inline-cta">
-  <p><strong>Organize the arrival-day essentials:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. Compare <a href="https://www.amazon.com/s?k=travel+document+organizer&tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">travel document organizers</a> before juggling passport, cards, tickets, and receipts through the airport.</p>
+  <p><strong>Organize the arrival-day essentials:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. Compare <a href="https://www.amazon.com/dp/B075L5QVJG?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">travel document organizers</a> before juggling passport, cards, tickets, and receipts through the airport.</p>
 </div>
 
 ## 4. Bring More Than One Payment Option
@@ -155,7 +155,7 @@ Bring a power bank, cable, and backup plan. Download offline copies of your hote
 For a longer itinerary, EpicKor's [month in Seoul guide](/blog/079) explains how small logistics compound across many days.
 
 <div class="affiliate-inline-cta">
-  <p><strong>Do not let battery decide the day:</strong> Navigation, translation, photos, and transit planning all compete for power. Compare <a href="https://www.amazon.com/s?k=portable+power+bank+travel&tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">portable power banks for travel</a> before your first long Seoul route.</p>
+  <p><strong>Do not let battery decide the day:</strong> Navigation, translation, photos, and transit planning all compete for power. Compare <a href="https://www.amazon.com/dp/B0CZ9M6X8Q?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">portable power banks for travel</a> before your first long Seoul route.</p>
 </div>
 
 ## A Simple 24-Hour Arrival Plan

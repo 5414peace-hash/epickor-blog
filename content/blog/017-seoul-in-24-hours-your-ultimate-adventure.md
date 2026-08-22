@@ -42,7 +42,7 @@ The key is to plan your return before the night begins. Seoul's subway does not 
 </table>
 </div>
 
-<p class="affiliate-topline"><a href="https://www.amazon.com/s?k=portable+power+bank+travel&amp;tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Portable power banks — compare on Amazon</a><span class="affiliate-topline-note">Affiliate link. As an Amazon Associate, EpicKor earns from qualifying purchases at no extra cost to you.</span></p>
+<p class="affiliate-topline"><a href="https://www.amazon.com/dp/B0CZ9M6X8Q?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Anker 10,000mAh power bank — on Amazon</a><span class="affiliate-topline-note">Affiliate link. As an Amazon Associate, EpicKor earns from qualifying purchases at no extra cost to you.</span></p>
 
 ## Before Sunrise: See the Working City
 
@@ -61,7 +61,7 @@ If you choose the palace area, protect your energy. Many visitors burn out becau
 If you choose markets, go with curiosity rather than a checklist of viral foods. Gwangjang Market, Namdaemun, and nearby alleys are working food and shopping spaces, not just content sets. Carry cash or a transit/card pouch, keep your bag controlled in crowds, and step aside before filming or translating menus. If you want a broader food foundation, pair this with EpicKor's [Korean convenience-store food guide](/blog/059) and [Korean banchan culture guide](/blog/050).
 
 <div class="affiliate-inline-cta">
-  <p><strong>First-day Seoul kit:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. A 24-hour route drains phone battery fast, so compare <a href="https://www.amazon.com/s?k=portable+power+bank+travel&amp;tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">portable power banks</a> before you depend on maps, translation, photos, and late-night transit.</p>
+  <p><strong>First-day Seoul kit:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. A 24-hour route drains phone battery fast, so compare <a href="https://www.amazon.com/dp/B0CZ9M6X8Q?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">portable power banks</a> before you depend on maps, translation, photos, and late-night transit.</p>
 </div>
 
 ## Afternoon: Let Seoul Be Stylish

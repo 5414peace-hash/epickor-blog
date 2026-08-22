@@ -41,7 +41,7 @@ The "flirting" angle should also be read culturally. Korean audiences often trea
 </table>
 </div>
 
-<p class="affiliate-topline"><a href="https://www.amazon.com/s?k=korean+phrasebook&amp;tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean phrasebooks — compare on Amazon</a><span class="affiliate-topline-note">Affiliate link. As an Amazon Associate, EpicKor earns from qualifying purchases at no extra cost to you.</span></p>
+<p class="affiliate-topline"><a href="https://www.amazon.com/dp/1838691537?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Lonely Planet Korean Phrasebook &amp; Dictionary — on Amazon</a><span class="affiliate-topline-note">Affiliate link. As an Amazon Associate, EpicKor earns from qualifying purchases at no extra cost to you.</span></p>
 
 ## The Korean Meaning of "Nation's First Love"
 
@@ -75,7 +75,7 @@ The viral "gummy smile" or open-laugh discussion fits this pattern. In beauty cu
 For readers trying to understand Korean dating culture, the lesson is not "copy Suzy's exact smile." The better lesson is that Korean flirtation often rewards social calibration. Do not force intensity too early. Match the other person's comfort. Notice whether teasing lands well. Make the conversation feel safe before trying to make it romantic.
 
 <div class="affiliate-inline-cta">
-  <p><strong>Korean conversation prep:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. If this guide makes you curious about Korean social cues, compare <a href="https://www.amazon.com/s?k=korean+phrasebook&amp;tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean phrasebooks</a> before a trip, language exchange, or first conversation in Korea.</p>
+  <p><strong>Korean conversation prep:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. If this guide makes you curious about Korean social cues, compare <a href="https://www.amazon.com/dp/1838691537?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean phrasebooks</a> before a trip, language exchange, or first conversation in Korea.</p>
 </div>
 
 ## A Practical Guide to Korean Flirting Cues

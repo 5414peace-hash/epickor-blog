@@ -115,7 +115,7 @@ For communication etiquette, pair this with EpicKor's [how to avoid conflict in 
 - [Korean Food Starter Pack Guide](/blog/042) - for readers interested in how Korean everyday food becomes cultural shorthand.
 
 <div class="affiliate-inline-cta">
-  <p><strong>Language for real conversations:</strong> If you are asking Korean friends about service, reserve training, or public duty, compare <a href="https://www.amazon.com/s?k=korean+phrasebook&amp;tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean phrasebooks</a> so your questions sound respectful rather than blunt.</p>
+  <p><strong>Language for real conversations:</strong> If you are asking Korean friends about service, reserve training, or public duty, compare <a href="https://www.amazon.com/dp/1838691537?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean phrasebooks</a> so your questions sound respectful rather than blunt.</p>
 </div>
 
 ## FAQ

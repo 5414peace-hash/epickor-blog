@@ -38,7 +38,7 @@ The old image is not entirely false. It is just incomplete. Some companies remai
 </table>
 </div>
 
-<p class="affiliate-topline"><a href="https://www.amazon.com/s?k=korean+phrasebook&amp;tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean phrasebooks — compare on Amazon</a><span class="affiliate-topline-note">Affiliate link. As an Amazon Associate, EpicKor earns from qualifying purchases at no extra cost to you.</span></p>
+<p class="affiliate-topline"><a href="https://www.amazon.com/dp/1838691537?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Lonely Planet Korean Phrasebook &amp; Dictionary — on Amazon</a><span class="affiliate-topline-note">Affiliate link. As an Amazon Associate, EpicKor earns from qualifying purchases at no extra cost to you.</span></p>
 
 ## Palli-Palli: Why Speed Became a National Habit
 
@@ -68,7 +68,7 @@ That version still exists, but it is less universal than old articles suggest. M
 The key is that hoesik can mean very different things depending on the team. A friendly Korean BBQ dinner that ends at 8:30 p.m. is not the same as a three-round drinking night that pressures a junior employee to perform loyalty. The word is the same; the culture can be completely different.
 
 <div class="affiliate-inline-cta">
-  <p><strong>Make office dinners easier to navigate:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. If you are joining a Korean workplace or long business trip, compare <a href="https://www.amazon.com/s?k=korean+phrasebook&amp;tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean phrasebooks</a> and mark polite refusal, allergy, payment, and taxi phrases before your first hoesik.</p>
+  <p><strong>Make office dinners easier to navigate:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. If you are joining a Korean workplace or long business trip, compare <a href="https://www.amazon.com/dp/1838691537?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean phrasebooks</a> and mark polite refusal, allergy, payment, and taxi phrases before your first hoesik.</p>
 </div>
 
 ## Alcohol Culture: Social, Useful, and Risky
@@ -132,7 +132,7 @@ The old story was simple: Koreans work late, drink late, sleep little, and repea
 This does not mean Korea has become relaxed. Seoul still moves fast. Offices can still be intense. Seniority still matters. But if you arrive expecting every company dinner to become a movie scene of forced soju and karaoke, you may miss the quieter reality: many Koreans are actively negotiating a better balance.
 
 <div class="affiliate-inline-cta">
-  <p><strong>For late workdays and long commutes:</strong> Compare <a href="https://www.amazon.com/s?k=portable+power+bank+travel&amp;tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">portable travel power banks</a> if you rely on maps, translation, payment apps, and ride-hailing after office dinners or late Seoul meetings.</p>
+  <p><strong>For late workdays and long commutes:</strong> Compare <a href="https://www.amazon.com/dp/B0CZ9M6X8Q?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">portable travel power banks</a> if you rely on maps, translation, payment apps, and ride-hailing after office dinners or late Seoul meetings.</p>
 </div>
 
 ## Sources and Further Reading

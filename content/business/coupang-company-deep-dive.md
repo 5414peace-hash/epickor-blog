@@ -195,23 +195,23 @@ A foreign brand without a Korean legal entity has three realistic paths onto Cou
 
 ## FAQ
 
-### What is Coupang?
+**Q: What is Coupang?**
 
 Coupang is South Korea's dominant e-commerce and logistics company, founded in 2010 and listed on the NYSE since 2021. It built its own delivery network rather than relying on third-party couriers, which is the basis of its common "Amazon of Korea" nickname.
 
-### Is Coupang the same as Amazon?
+**Q: Is Coupang the same as Amazon?**
 
 No, though the comparison is structurally reasonable. Both run owned-logistics marketplaces selling first- and third-party inventory. The key difference is that Amazon has AWS, a high-margin cloud business subsidizing its retail investment; Coupang has no equivalent, which is a major reason its profitability has historically lagged Amazon's.
 
-### What happened with Coupang's 2025 data breach?
+**Q: What happened with Coupang's 2025 data breach?**
 
 A former employee retained unauthorized database access for nearly five months in 2025, exposing 33.7 million customer accounts' personal information (not payment data or passwords). Korean regulators fined Coupang roughly ₩624.9 billion in June 2026 — the largest such fine in Korean corporate history — and the breach measurably hurt Coupang's Q4 2025 and Q1 2026 financial results.
 
-### Can a foreign brand sell on Coupang without a Korean company?
+**Q: Can a foreign brand sell on Coupang without a Korean company?**
 
 Yes, through a managed-service provider that acts as Importer of Record and Seller of Record on the brand's behalf, or via Coupang Global Services for US-based sellers shipping into Coupang's own logistics network.
 
-### Is Coupang profitable?
+**Q: Is Coupang profitable?**
 
 It has been in some periods and not others. Full-year 2025 revenue grew 14% with a positive adjusted EBITDA margin, but Q4 2025 and Q1 2026 both posted net losses, which the company attributes to costs from responding to the 2025 data breach.
 

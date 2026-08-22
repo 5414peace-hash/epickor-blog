@@ -505,42 +505,42 @@ For a first test, consider fewer SKUs, fresher stock, clearer authorization, and
 If your goal is long-term K-beauty retail, you are not only buying inventory. You are building a supply file: seller identity, product documents, batch trail, authorization, label review, invoices, shipment records, and customer-response plan.
 
 <div class="affiliate-inline-cta">
-  <p><strong>Sourcing desk setup:</strong> Before a Korea buyer trip or trade-show week, compare <a href="https://www.amazon.com/s?k=trade+show+planner+notebook&tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">trade-show planner notebooks</a>, <a href="https://www.amazon.com/s?k=travel+document+organizer&tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">travel document organizers</a>, and <a href="https://www.amazon.com/s?k=barcode+scanner+inventory&tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">barcode scanner inventory tools</a>. Wholesale beauty work is much easier when samples, invoices, barcodes, and booth notes stay organized.</p>
+  <p><strong>Sourcing desk setup:</strong> Before a Korea buyer trip or trade-show week, compare <a href="https://www.amazon.com/s?k=trade+show+planner+notebook&tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">trade-show planner notebooks</a>, <a href="https://www.amazon.com/dp/B075L5QVJG?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">travel document organizers</a>, and <a href="https://www.amazon.com/s?k=barcode+scanner+inventory&tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">barcode scanner inventory tools</a>. Wholesale beauty work is much easier when samples, invoices, barcodes, and booth notes stay organized.</p>
 </div>
 
 ## FAQ
 
 Manufacturing and distribution are different layers. EpicKor Business's [COSMAX company deep dive](/business/cosmax-korean-beauty-odm-deep-dive) explains the ODM/manufacturing side; this guide remains focused on wholesale, authorization, and importer risk.
 
-### Where can I find Korean cosmetics wholesale suppliers?
+**Q: Where can I find Korean cosmetics wholesale suppliers?**
 
 Start with Korea-focused discovery paths such as KOTRA buyer services, buyKOREA, tradeKorea, GobizKOREA, and beauty trade-show exhibitor directories such as InterCHARM Korea. Then verify each seller's role, authorization, batch trail, documents, and destination-market fit before payment.
 
-### Is tradeKorea or buyKOREA enough to prove a seller is authorized?
+**Q: Is tradeKorea or buyKOREA enough to prove a seller is authorized?**
 
 No. A listing can help you discover a Korean seller, but it does not replace brand authorization, invoice-chain review, batch checks, compliance review, or marketplace policy checks. Treat platform discovery as the first step, not final approval.
 
-### What is the safest way to buy branded K-beauty wholesale?
+**Q: What is the safest way to buy branded K-beauty wholesale?**
 
 The safest route is usually the brand owner, an authorized distributor, or an importer/distributor already approved for your destination market and sales channel. The lowest-price route is not automatically the safest route.
 
-### Can I buy Korean cosmetics wholesale and sell them on Amazon?
+**Q: Can I buy Korean cosmetics wholesale and sell them on Amazon?**
 
 Possibly, but do not assume. Amazon and other marketplaces may request invoices, authorization, product identity proof, safety documentation, or brand approval. Ask the supplier whether their documents support marketplace resale in your country before you buy inventory.
 
-### Are gray-market Korean cosmetics always fake?
+**Q: Are gray-market Korean cosmetics always fake?**
 
 No. Gray-market goods may be genuine but sold outside the brand's intended distribution path. The risk is that authorization, warranty, marketplace proof, label compliance, expiry control, and repeat supply may be weak.
 
-### What documents should I ask for before paying?
+**Q: What documents should I ask for before paying?**
 
 Ask for company identity, seller role, brand authorization if applicable, pro forma invoice, lot or batch information, expiry dates, ingredient list, product and carton photos, packing list, storage conditions, and claim-support documents for claim-sensitive products.
 
-### Are Korean sunscreens just normal cosmetics wholesale products?
+**Q: Are Korean sunscreens just normal cosmetics wholesale products?**
 
 Do not treat sunscreens casually. SPF products can trigger functional-cosmetic and destination-market requirements. Ask for SPF/PA support, product classification, label details, and market-specific compliance review before buying.
 
-### Should I source from an OEM/ODM instead of a wholesaler?
+**Q: Should I source from an OEM/ODM instead of a wholesaler?**
 
 Use OEM/ODM if you want your own brand, formula direction, packaging, and long-term product control. Use authorized wholesale if you want to sell existing Korean brands. The two paths need different documents and different questions.
 

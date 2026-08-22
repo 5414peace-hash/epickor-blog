@@ -23,7 +23,7 @@ This guide explains which Hangang water site fits your trip, how much it costs, 
 
 
 
-<p class="affiliate-topline"><a href="https://www.amazon.com/s?k=korean+sunscreen+spf+50&amp;tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean SPF 50 sunscreen options — compare on Amazon</a><span class="affiliate-topline-note">Affiliate link. As an Amazon Associate, EpicKor earns from qualifying purchases at no extra cost to you.</span></p>
+<p class="affiliate-topline"><a href="https://www.amazon.com/dp/B0F2HL5XPT?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">ROUND LAB Birch Juice sun stick SPF 50+ — on Amazon</a><span class="affiliate-topline-note">Affiliate link. As an Amazon Associate, EpicKor earns from qualifying purchases at no extra cost to you.</span></p>
 
 ## Quick Answer: Are Hangang Swimming Pools Worth It in 2026?
 
@@ -60,7 +60,7 @@ You also need to take the swim-cap rule seriously. Seoul's 2026 guidance says a 
 If you are building a full summer itinerary, pair this guide with EpicKor's [Korea summer packing guide](/blog/204), [Seoul heatwave survival guide](/blog/183), and [Korea rainy season guide](/blog/199). The pool day is fun, but Seoul summer planning is mostly about managing heat, sun, rain, and timing.
 
 <div class="affiliate-inline-cta">
-  <p><strong>Before a Seoul pool day:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. Hangang sites have sun, water breaks, and limited patience for overpacking, so compare <a href="https://www.amazon.com/s?k=korean+sunscreen+spf+50&amp;tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean SPF 50 sunscreen options</a> before you travel.</p>
+  <p><strong>Before a Seoul pool day:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. Hangang sites have sun, water breaks, and limited patience for overpacking, so compare <a href="https://www.amazon.com/dp/B0F2HL5XPT?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean SPF 50 sunscreen options</a> before you travel.</p>
 </div>
 
 ## Which Hangang Pool or Water Playground Should You Choose?
@@ -103,7 +103,7 @@ The subway/taxi return is also part of the packing logic. You do not want to car
 </div>
 
 <div class="affiliate-inline-cta">
-  <p><strong>Small gear, easier day:</strong> If your Seoul summer plan includes pools, parks, and sudden rain, compare <a href="https://www.amazon.com/s?k=compact+travel+umbrella&amp;tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">compact travel umbrellas</a> that can handle both sun and showers without taking over your bag.</p>
+  <p><strong>Small gear, easier day:</strong> If your Seoul summer plan includes pools, parks, and sudden rain, compare <a href="https://www.amazon.com/dp/B0160HYB8S?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">compact travel umbrellas</a> that can handle both sun and showers without taking over your bag.</p>
 </div>
 
 ## Weather, Crowds, and Timing Mistakes to Avoid

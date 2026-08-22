@@ -58,7 +58,7 @@ Another Korean phrase, **gobaek** (고백), means a confession or direct declara
 </table>
 </div>
 
-<p class="affiliate-topline"><a href="https://www.amazon.com/s?k=korean+phrasebook&amp;tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean phrasebook — compare on Amazon</a><span class="affiliate-topline-note">Affiliate link. As an Amazon Associate, EpicKor earns from qualifying purchases at no extra cost to you.</span></p>
+<p class="affiliate-topline"><a href="https://www.amazon.com/dp/1838691537?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Lonely Planet Korean Phrasebook &amp; Dictionary — on Amazon</a><span class="affiliate-topline-note">Affiliate link. As an Amazon Associate, EpicKor earns from qualifying purchases at no extra cost to you.</span></p>
 
 ## How to Ask Someone Out Without Sounding Vague
 
@@ -81,7 +81,7 @@ Share the exact meeting point. Large stations can have more than a dozen exits, 
 Ask before ordering shared food, alcohol, or a second round. Korea's dining culture includes many dishes placed in the middle, but a shared table does not eliminate allergies, religious restrictions, vegetarian needs, or personal preferences. If alcohol is involved, a refusal does not require a reason.
 
 <div class="affiliate-inline-cta">
-  <p><strong>Learn phrases that reduce friction:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. A compact <a href="https://www.amazon.com/s?k=korean+phrasebook&amp;tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean phrasebook</a> can help with menus, meeting points, and polite clarification; use it to communicate, not to perform canned pickup lines.</p>
+  <p><strong>Learn phrases that reduce friction:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. A compact <a href="https://www.amazon.com/dp/1838691537?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean phrasebook</a> can help with menus, meeting points, and polite clarification; use it to communicate, not to perform canned pickup lines.</p>
 </div>
 
 ## Messaging on KakaoTalk Without Playing Read-Receipt Games
