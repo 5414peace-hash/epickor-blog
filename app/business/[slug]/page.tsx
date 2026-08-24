@@ -9,6 +9,7 @@ import {
   getBusinessPost,
   getBusinessTypeLabel,
 } from '@/lib/business';
+import { ArticleLd, BreadcrumbLd, FaqLd, extractFaq } from '@/components/StructuredData';
 
 export const revalidate = 86400;
 export const dynamicParams = false;
@@ -94,8 +95,34 @@ export default async function BusinessPostPage({ params }: { params: Promise<{ s
   const allPosts = getAllBusinessPosts();
   const relatedPosts = getRelatedBusinessPosts(post, allPosts, 3);
 
+  // Business posts shipped with no structured data at all until 2026-08-24 —
+  // no Article, no BreadcrumbList, no FAQPage — while /blog/ emitted all three.
+  // The trail below mirrors the breadcrumb the page actually renders, which is
+  // Home / Business / title, so the markup never claims a path a reader cannot
+  // see. Business metadata has no updatedAt field, so dateModified is the
+  // publication date rather than an invented one.
+  const faq = extractFaq(post.content || '');
+
   return (
     <div className="min-h-screen bg-white">
+      <ArticleLd
+        headline={post.title}
+        description={post.description}
+        slug={post.slug}
+        image={post.ogImage}
+        datePublished={post.date}
+        dateModified={post.date}
+        basePath="/business"
+      />
+      <BreadcrumbLd
+        trail={[
+          { name: 'Home', href: '/' },
+          { name: 'Business', href: '/business' },
+          { name: post.title, href: `/business/${post.slug}` },
+        ]}
+      />
+      <FaqLd qa={faq} />
+
       {post.ogImage && (
         <div className="relative h-80 w-full bg-gray-100 md:h-96">
           <Image

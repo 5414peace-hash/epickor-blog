@@ -119,6 +119,13 @@ export function HubLd({
   );
 }
 
+/**
+ * `basePath` exists because the site has two article routes, not one. It
+ * defaulted to `/blog` implicitly until 2026-08-24, which meant `/business/`
+ * could not use this component at all without publishing the wrong canonical
+ * URL — so it published no Article schema whatsoever. Callers on other routes
+ * must pass their own base.
+ */
 export function ArticleLd({
   headline,
   description,
@@ -126,6 +133,7 @@ export function ArticleLd({
   image,
   datePublished,
   dateModified,
+  basePath = '/blog',
 }: {
   headline: string;
   description: string;
@@ -133,7 +141,9 @@ export function ArticleLd({
   image?: string;
   datePublished?: string;
   dateModified?: string;
+  basePath?: string;
 }) {
+  const url = `${SITE}${basePath}/${slug}`;
   return (
     <Ld
       data={{
@@ -141,8 +151,8 @@ export function ArticleLd({
         '@type': 'Article',
         headline,
         description,
-        url: `${SITE}/blog/${slug}`,
-        mainEntityOfPage: { '@type': 'WebPage', '@id': `${SITE}/blog/${slug}` },
+        url,
+        mainEntityOfPage: { '@type': 'WebPage', '@id': url },
         ...(image ? { image: [image.startsWith('http') ? image : `${SITE}${image}`] } : {}),
         ...(datePublished ? { datePublished } : {}),
         ...(dateModified ? { dateModified } : {}),
