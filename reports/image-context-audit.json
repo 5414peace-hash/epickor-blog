@@ -1,10 +1,10 @@
 {
   "summary": {
-    "generatedAt": "2026-08-24T09:28:13.885Z",
-    "auditedPosts": 419,
+    "generatedAt": "2026-08-24T11:10:48.944Z",
+    "auditedPosts": 420,
     "includedPrivate": false,
     "slugFilter": "",
-    "bodyImages": 1473,
+    "bodyImages": 1477,
     "affectedPosts": 96,
     "critical": 0,
     "high": 0,
@@ -15164,6 +15164,45 @@
           "url": "/assets/images/posts/423/hetbahn-aseptic-filling-line.jpg",
           "alt": "A Hetbahn filling line inside a CJ plant, with stainless dosing heads above a conveyor of empty bowls, some already filled with rice, from CJ's own factory video.",
           "caption": "The filling line. Rice is dosed into bowls and sealed inside the clean room, with no reheating after the seal — that is the whole method in one frame. Image: CJ Newsroom.",
+          "ext": ".jpg",
+          "exists": true
+        }
+      ],
+      "findings": []
+    },
+    {
+      "type": "blog",
+      "slug": "424",
+      "title": "Korean McDonald's: Why the Burgers Are Named After Farm Counties, and What to Order Now",
+      "contentPath": "content\\blog\\424.md",
+      "sourceRecord": "public\\assets\\images\\posts\\424\\image-sources.md",
+      "imageCount": 4,
+      "images": [
+        {
+          "url": "/assets/images/posts/424/jinju-pepper-cream-cheese-burger.jpg",
+          "alt": "The Jinju Pepper Cream Cheese Beef Burger meal on a white background: a sesame bun with two beef patties, bacon, tomato, lettuce and a pale green-flecked cream cheese sauce, beside fries and a Coca-Cola, with a chilli-shaped NEW badge.",
+          "caption": "진주 고추 크림치즈 비프 버거 세트. The green flecks in the sauce are the point — that is Jinju pepper, bought by the tonne from one county. Image: McDonald's Korea.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/424/mcspicy-shanghai-burger-meal.jpg",
+          "alt": "The McSpicy Shanghai Burger meal on a white background: a chicken fillet burger with lettuce in a sesame bun, beside a red carton of fries and a Coca-Cola.",
+          "caption": "맥스파이시 상하이 버거 세트, ₩5,900 for the burger alone since February 2026. Named after Shanghai, sold in Korea, and not on the American menu. Image: McDonald's Korea.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/424/jeju-green-tangerine-mcfizz.jpg",
+          "alt": "The Jeju Green Tangerine McFizz, a tall clear cup of pale green sparkling drink with ice and a slice of green citrus, on a white background.",
+          "caption": "제주 풋귤 맥피즈. 풋귤 is the unripened green tangerine harvested in Jeju before the fruit turns orange — sharper and more bitter than the ripe version. Image: McDonald's Korea.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/424/big-mac-meal-korea.jpg",
+          "alt": "The Big Mac meal on a white background: the two-patty burger with its middle bun layer visible, beside fries and a Coca-Cola.",
+          "caption": "The control. ₩5,700 alone, ₩7,600 as a meal. The Big Mac is on the Korean board precisely so you can see how far the rest of it has drifted. Image: McDonald's Korea.",
           "ext": ".jpg",
           "exists": true
         }
