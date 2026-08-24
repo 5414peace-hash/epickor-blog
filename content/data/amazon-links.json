@@ -2868,6 +2868,66 @@
         "Wellness",
         "KoreanCompany"
       ]
+    },
+    {
+      "id": "three-seven-nail-clipper",
+      "name": "Three Seven (777) Nail Clipper, Made in Korea",
+      "description": "The single standard clipper from the Korean maker whose brand mark is stamped on the lever — the same product Korean pharmacies and stationery aisles carry.",
+      "price": "",
+      "url": "https://www.amazon.com/World-Three-Seven-777-Clipper/dp/B07562NVNQ?tag=epickor-20",
+      "category": "Home",
+      "image": "",
+      "tags": [
+        "NailClipper",
+        "ThreeSeven",
+        "MadeInKorea",
+        "KoreanGoods"
+      ]
+    },
+    {
+      "id": "three-seven-grooming-set",
+      "name": "Three Seven (777) Travel Manicure Grooming Kit, 6 Pieces",
+      "description": "The hard-case set Koreans give as a gift and the army issues to recruits. Note the file and folding tools: a set like this belongs in checked baggage, not your carry-on.",
+      "price": "",
+      "url": "https://www.amazon.com/Three-Seven-777-Manicure-Grooming/dp/B00L183BTM?tag=epickor-20",
+      "category": "Home",
+      "image": "",
+      "tags": [
+        "NailClipper",
+        "ThreeSeven",
+        "GroomingKit",
+        "KoreanGoods"
+      ]
+    },
+    {
+      "id": "hetbahn-white-rice-12",
+      "name": "CJ Hetbahn Cooked White Rice, 7.4 oz, 12 Count",
+      "description": "The plain 210 g bowl that is the default in Korean kitchens — shelf-stable, no refrigeration, ready in about two minutes.",
+      "price": "",
+      "url": "https://www.amazon.com/CJ-Hetbahn-Cooked-Gluten-Free-Microwaveable/dp/B003U97L1Y?tag=epickor-20",
+      "category": "Food",
+      "image": "",
+      "tags": [
+        "Hetbahn",
+        "InstantRice",
+        "KoreanFood",
+        "CJ"
+      ]
+    },
+    {
+      "id": "hetbahn-cupbahn-tofu-stew",
+      "name": "CJ Hetbahn Cupbahn, Rice with Soft Tofu Stew",
+      "description": "The cup format: rice plus a Korean stew in one container, which is what Cupbahn means and why it sits in every Korean convenience store.",
+      "price": "",
+      "url": "https://www.amazon.com/Hetbahn-Cupbahn-Cooked-White-Rice/dp/B01AYZ03FC?tag=epickor-20",
+      "category": "Food",
+      "image": "",
+      "tags": [
+        "Hetbahn",
+        "Cupbahn",
+        "KoreanFood",
+        "ConvenienceStore"
+      ]
     }
   ]
 }

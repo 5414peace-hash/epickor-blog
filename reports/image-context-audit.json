@@ -1,10 +1,10 @@
 {
   "summary": {
-    "generatedAt": "2026-08-24T03:40:37.152Z",
-    "auditedPosts": 417,
+    "generatedAt": "2026-08-24T09:28:13.885Z",
+    "auditedPosts": 419,
     "includedPrivate": false,
     "slugFilter": "",
-    "bodyImages": 1465,
+    "bodyImages": 1473,
     "affectedPosts": 96,
     "critical": 0,
     "high": 0,
@@ -15086,6 +15086,84 @@
           "url": "/assets/images/posts/421/jeju-airport-terminal.jpg",
           "alt": "The exterior of Jeju International Airport at dusk, a curved terminal frontage behind palm trees with a Gate 4 sign and cars at the kerbside.",
           "caption": "Jeju's terminal, palm trees and all. It is a full international airport with an entry regime that works differently from the rest of the country. Photo by Kimhs5400 via Wikimedia Commons, CC BY 4.0.",
+          "ext": ".jpg",
+          "exists": true
+        }
+      ],
+      "findings": []
+    },
+    {
+      "type": "blog",
+      "slug": "422",
+      "title": "Korean Nail Clippers: Which 777 to Buy, and Why the Gift Set Can't Fly Carry-On",
+      "contentPath": "content\\blog\\422.md",
+      "sourceRecord": "public\\assets\\images\\posts\\422\\image-sources.md",
+      "imageCount": 4,
+      "images": [
+        {
+          "url": "/assets/images/posts/422/777-nail-clipper-brand-mark.jpg",
+          "alt": "A Three Seven nail clipper in lavender, photographed at an angle so the 777 logo and the words THREE SEVEN stamped into the lever are readable.",
+          "caption": "The mark is stamped into the lever, not printed on a sticker. Image: Three Seven official shop.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/422/777-hard-case-set-contents.jpg",
+          "alt": "An open black hard-case Three Seven grooming set showing a nail clipper, a cuticle nipper, a nail file and a folding tool seated in moulded slots.",
+          "caption": "TS-032AC, ₩10,500 in August 2026. Four tools, and two of them are the reason this case cannot go in your carry-on. Image: Three Seven official shop.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/422/777-retail-display-box.jpg",
+          "alt": "The red 777 logo and THREE SEVEN wordmark on a retail counter display box holding six pastel nail clippers in pink, grey and lavender.",
+          "caption": "The counter display you will actually see in a Korean shop. The red oval and the registered THREE SEVEN wordmark are the brand's identity. Image: Three Seven official shop.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/422/777-oversize-toenail-clipper.jpg",
+          "alt": "A Three Seven oversize toenail clipper in cream beside its white Silver-line gift box, with MADE IN KOREA printed on the box face next to a QR code.",
+          "caption": "The 특대형 발톱깎이 line, ₩9,300–₩14,000 depending on model. MADE IN KOREA is printed on the box, bottom right. Image: Three Seven official shop.",
+          "ext": ".jpg",
+          "exists": true
+        }
+      ],
+      "findings": []
+    },
+    {
+      "type": "blog",
+      "slug": "423",
+      "title": "Hetbahn: What Korea's Instant Rice Is Made Of, and How to Heat It Without a Microwave",
+      "contentPath": "content\\blog\\423.md",
+      "sourceRecord": "public\\assets\\images\\posts\\423\\image-sources.md",
+      "imageCount": 4,
+      "images": [
+        {
+          "url": "/assets/images/posts/423/hetbahn-210g-bowl.jpg",
+          "alt": "A CJ Hetbahn 210 g bowl, cream plastic with a red band, the 햇반 logo, the English line Cooked White Rice, and Korean label text across the sealed film lid.",
+          "caption": "The standard 210 g bowl. The lid carries the brand, the English line, the weight and the energy figure — 310 kcal on this version, 315 on the current one. Image: CJ Newsroom.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/423/hetbahn-cooking-methods.jpg",
+          "alt": "Chart of the Hetbahn 210 g cooking instructions: microwave one bowl for 2 minutes, microwave two bowls for 3 minutes, or boiling water for 10 minutes with the film left on and the pan lid closed.",
+          "caption": "EpicKor chart, from the Korean instruction panel printed on the lid.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/423/hetbahn-lid-cooking-panel.jpg",
+          "alt": "Top-down view of a Hetbahn 210 g bowl on a wooden table, showing the sealed lid film with the Korean cooking-instruction panel, from CJ's own consumer explainer video with Korean subtitles.",
+          "caption": "The instruction panel sits on the right of the lid: one bowl 2 minutes, two bowls 3, boiling water 10. The subtitle is from CJ's own explainer, warning that mould gets in through a damaged film. Image: CJ Newsroom.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/423/hetbahn-aseptic-filling-line.jpg",
+          "alt": "A Hetbahn filling line inside a CJ plant, with stainless dosing heads above a conveyor of empty bowls, some already filled with rice, from CJ's own factory video.",
+          "caption": "The filling line. Rice is dosed into bowls and sealed inside the clean room, with no reheating after the seal — that is the whole method in one frame. Image: CJ Newsroom.",
           "ext": ".jpg",
           "exists": true
         }
