@@ -1,10 +1,10 @@
 {
   "summary": {
-    "generatedAt": "2026-08-24T03:10:53.391Z",
-    "auditedPosts": 415,
+    "generatedAt": "2026-08-24T03:40:37.152Z",
+    "auditedPosts": 417,
     "includedPrivate": false,
     "slugFilter": "",
-    "bodyImages": 1461,
+    "bodyImages": 1465,
     "affectedPosts": 96,
     "critical": 0,
     "high": 0,
@@ -15171,6 +15171,31 @@
     },
     {
       "type": "business",
+      "slug": "ceragem-thermal-massager-company-deep-dive",
+      "title": "CERAGEM Deep Dive: The Korean Company That Sold Wellness by Giving It Away Free",
+      "contentPath": "content\\business\\ceragem-thermal-massager-company-deep-dive.md",
+      "sourceRecord": "public\\assets\\images\\business\\ceragem-thermal-massager-company-deep-dive\\image-sources.md",
+      "imageCount": 2,
+      "images": [
+        {
+          "url": "/assets/images/business/ceragem-thermal-massager-company-deep-dive/ceragem-master-v9-official.jpg",
+          "alt": "A CERAGEM Master V9 thermal massage bed in black with a raised backrest and a grey fabric side panel, photographed against a white background.",
+          "caption": "The Master V9, CERAGEM's current flagship thermal massage bed, listed at $9,999 on the company's own US store as of August 2026. Product image: CERAGEM US official store.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/business/ceragem-thermal-massager-company-deep-dive/ceragem-pause-m10-official.jpg",
+          "alt": "A CERAGEM Pause M10 massage chair in tan leather with grey fabric side panels and an extended control arm, on a white background.",
+          "caption": "The Pause M10 massage chair, $13,999 on CERAGEM's US store as of August 2026. Chairs and spinal devices together are roughly 90% of company revenue — the concentration that makes a downturn hard to absorb. Product image: CERAGEM US official store.",
+          "ext": ".jpg",
+          "exists": true
+        }
+      ],
+      "findings": []
+    },
+    {
+      "type": "business",
       "slug": "cosmax-korean-beauty-odm-deep-dive",
       "title": "COSMAX Deep Dive 2026: The ODM Engine Behind Global K-Beauty",
       "contentPath": "content\\business\\cosmax-korean-beauty-odm-deep-dive.md",
@@ -15291,6 +15316,31 @@
           "url": "/assets/images/business/dorco-razor-company-deep-dive/dorco-product-families.jpg",
           "alt": "Dorco's product families in one official visual: a kitchen pan, men's and women's razor systems, and a stationery box cutter.",
           "caption": "One frame, seventy years: the box cutter came first (1955, ground from discarded blades), the razors built the export business, the kitchenware extended the steel.",
+          "ext": ".jpg",
+          "exists": true
+        }
+      ],
+      "findings": []
+    },
+    {
+      "type": "business",
+      "slug": "glasslock-sgc-solution-company-deep-dive",
+      "title": "Glasslock Deep Dive: The Korean Company Behind the Glass Container in Your Costco Cart",
+      "contentPath": "content\\business\\glasslock-sgc-solution-company-deep-dive.md",
+      "sourceRecord": "public\\assets\\images\\business\\glasslock-sgc-solution-company-deep-dive\\image-sources.md",
+      "imageCount": 2,
+      "images": [
+        {
+          "url": "/assets/images/business/glasslock-sgc-solution-company-deep-dive/glasslock-rectangular-container-official.jpg",
+          "alt": "A rectangular Glasslock tempered glass food container with its four-side locking lid closed, photographed against a white background.",
+          "caption": "The four-side locking lid over a tempered glass body — the two design decisions the company has been selling since 2005. Product image: SGC Solution official brand site.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/business/glasslock-sgc-solution-company-deep-dive/glasslock-kimchi-container-official.jpg",
+          "alt": "A Glasslock kimchi storage container, a large square tempered glass box with a purple handled lid and a Korean-language label showing kimchi.",
+          "caption": "A 2.7-litre Glasslock kimchi container 김치맛지킴이 from the Korean domestic range — a shape and seal specified for a food that is acidic, aromatic and stored for months. Product image: SGC Solution official brand site.",
           "ext": ".jpg",
           "exists": true
         }

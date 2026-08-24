@@ -2840,6 +2840,34 @@
         "Plush",
         "Korean Company"
       ]
+    },
+    {
+      "id": "glasslock-containers-search",
+      "name": "Browse Glasslock Glass Food Containers",
+      "description": "Korean-made tempered glass containers with the four-side locking lid. A search link is honest here: the range is sold as sets of varying counts and no single ASIN is canonical.",
+      "price": "",
+      "url": "https://www.amazon.com/s?k=glasslock+glass+food+containers&tag=epickor-20",
+      "category": "Kitchen",
+      "image": "",
+      "tags": [
+        "Glasslock",
+        "FoodStorage",
+        "KoreanManufacturing"
+      ]
+    },
+    {
+      "id": "ceragem-search",
+      "name": "Browse CERAGEM Thermal Massagers",
+      "description": "CERAGEM's home thermal massage devices, sold in the US as FDA-cleared Class II medical devices. Search rather than a single link because model availability changes.",
+      "price": "",
+      "url": "https://www.amazon.com/s?k=ceragem+thermal+massager&tag=epickor-20",
+      "category": "Home",
+      "image": "",
+      "tags": [
+        "Ceragem",
+        "Wellness",
+        "KoreanCompany"
+      ]
     }
   ]
 }
