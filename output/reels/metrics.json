@@ -2859,5 +2859,151 @@
     }
   ],
   "youtube_note": "첫 유튜브 캡처. 채널 UC4Z3moxZvDUkzj5HmoHEEtg (@EpicKor), 구독자 510명, 쇼츠 30편, 누적 42,933뷰. Studio 기본 채널이 VDOLAB이라 채널 ID로 직접 들어가야 함 — Meta Suite와 같은 함정. 2026-07-21~08-06 레거시 17편은 1~3주 경과 평균 603뷰, 2025-01~03 구구세대 13편은 17개월 경과 평균 2,513뷰(최고 15,182). 나이가 달라 두 배치 평균을 직접 비교하지 말 것.",
-  "youtube_finding": "유튜브와 인스타가 반대 방향으로 작동한다. DMZ가 인스타 2,172뷰/저장27인데 유튜브 203뷰다. 2026 배치 하위 3개(MU:DS 쇼핑 138, 헤어살롱 138, 한강러닝 200)가 전부 쇼핑·활동·서비스 니치이고, 상위 4개(노래방 1,668, 파전 1,605, 공중화장실 1,506, 사회규칙 1,392)가 전부 넓은 문화 호기심 또는 보편적 불안 해소다. 인스타 저장수로 유튜브 업로드를 고르면 안 된다."
+  "youtube_finding": "유튜브와 인스타가 반대 방향으로 작동한다. DMZ가 인스타 2,172뷰/저장27인데 유튜브 203뷰다. 2026 배치 하위 3개(MU:DS 쇼핑 138, 헤어살롱 138, 한강러닝 200)가 전부 쇼핑·활동·서비스 니치이고, 상위 4개(노래방 1,668, 파전 1,605, 공중화장실 1,506, 사회규칙 1,392)가 전부 넓은 문화 호기심 또는 보편적 불안 해소다. 인스타 저장수로 유튜브 업로드를 고르면 안 된다.",
+  "youtube_shorts_tier1_2026_08_24": [
+    {
+      "date": "2026-08-14",
+      "age_days": 10,
+      "slug": "176",
+      "title": "Your First Korean Jjimjilbang: What Actually Happens",
+      "views": 265,
+      "stayed_pct": 15.8,
+      "avg_view": "0:18",
+      "shorts_feed_pct": 92.1
+    },
+    {
+      "date": "2026-08-15",
+      "age_days": 9,
+      "slug": "294",
+      "title": "Why Are Korean Chopsticks Metal?",
+      "views": 200,
+      "stayed_pct": 10.5,
+      "avg_view": "0:15",
+      "shorts_feed_pct": 93.5
+    },
+    {
+      "date": "2026-08-16",
+      "age_days": 8,
+      "slug": "186",
+      "title": "The 9 Levels of Eating Alone in Korea",
+      "views": 201,
+      "stayed_pct": 17.2,
+      "avg_view": "0:11",
+      "shorts_feed_pct": 84.1
+    },
+    {
+      "date": "2026-08-17",
+      "age_days": 7,
+      "slug": "187",
+      "title": "Korean Superstitions You Should Not Break",
+      "views": 375,
+      "stayed_pct": 15.5,
+      "avg_view": "0:17",
+      "shorts_feed_pct": 96.5
+    },
+    {
+      "date": "2026-08-18",
+      "age_days": 6,
+      "slug": "326",
+      "title": "How Hot Is Korean Food Really?",
+      "views": 1123,
+      "stayed_pct": 29.9,
+      "avg_view": "0:13",
+      "shorts_feed_pct": 93.7
+    },
+    {
+      "date": "2026-08-19",
+      "age_days": 5,
+      "slug": "182",
+      "title": "Why Koreans Stay Late at the Office",
+      "views": 547,
+      "stayed_pct": 25.2,
+      "avg_view": "0:15",
+      "shorts_feed_pct": 95.8
+    },
+    {
+      "date": "2026-08-20",
+      "age_days": 4,
+      "slug": "174",
+      "title": "Seoul Subway Rules Nobody Tells Tourists",
+      "views": 510,
+      "stayed_pct": null,
+      "avg_view": null,
+      "shorts_feed_pct": 96.9
+    },
+    {
+      "date": "2026-08-21",
+      "age_days": 3,
+      "slug": "301",
+      "title": "Is 'Ajumma' Rude? What the Word Really Means",
+      "views": 5,
+      "stayed_pct": null,
+      "avg_view": null,
+      "shorts_feed_pct": 20.0,
+      "excluded": true,
+      "exclude_reason": "Shorts feed distribution ~0 (20% of 5 views). Settings identical to controls; YouTube simply did not distribute it. Not a content verdict — drop from the sample."
+    },
+    {
+      "date": "2026-08-22",
+      "age_days": 2,
+      "slug": "181",
+      "title": "Webtoons vs Manga: What Koreans Actually Read",
+      "views": 496,
+      "stayed_pct": null,
+      "avg_view": null,
+      "shorts_feed_pct": 93.7
+    },
+    {
+      "date": "2026-08-23",
+      "age_days": 1,
+      "slug": "190",
+      "title": "Getting Sick in Korea: What Tourists Should Know",
+      "views": 274,
+      "stayed_pct": null,
+      "avg_view": null,
+      "shorts_feed_pct": 97.8
+    }
+  ],
+  "youtube_plateau_2026_08_24": {
+    "claim": "Shorts views are effectively frozen after ~8 days: +0.7~1.3% over the following 10 days.",
+    "method": "Same four videos read twice — metrics.json youtube_shorts_2026_08_14 (captured 8/13) vs Studio read 2026-08-24.",
+    "pairs": [
+      {
+        "published": "2026-08-03",
+        "at_11d": 138,
+        "at_21d": 139
+      },
+      {
+        "published": "2026-08-04",
+        "at_10d": 459,
+        "at_20d": 462
+      },
+      {
+        "published": "2026-08-05",
+        "at_9d": 701,
+        "at_19d": 710
+      },
+      {
+        "published": "2026-08-06",
+        "at_8d": 402,
+        "at_18d": 407
+      }
+    ],
+    "use": "Videos >=8 days old may be compared without age adjustment; <7 days may not."
+  },
+  "youtube_verdict_2026_08_24": {
+    "report": "output/strategy/youtube-shorts-verdict_2026-08-24.md",
+    "topic_hypothesis": "UNRESOLVED — age-matched (8/9/10 days) the new batch averages 222 vs the legacy 521, i.e. 43%. But the five newest are tracking above the legacy median while younger. Re-read 2026-08-31.",
+    "baseline_legacy_17": {
+      "median": 402,
+      "mean": 603.5,
+      "over_1000": 4,
+      "n": 17
+    },
+    "split_finding": "Retention, not topic shape, separates the batch: 08-14~17 stayed 10.5-17.2% (200-375 views) vs 08-18~19 stayed 25.2-29.9% (547-1123 views). All were picked by the same rule; 'Why Are Korean Chopsticks Metal?' was chosen as structurally identical to the 5,035-view Kims short and finished last at 10.5%.",
+    "shorts_feed_note": "All nine valid videos got 84-98% of views from the Shorts feed — YouTube tested every one of them. The flops were dropped for low retention, not withheld.",
+    "site_traffic": "SETTLED — NO. GA4 property 449233544, 28 days 7/27~8/23: youtube.com/referral = 6 sessions, 2 users (0.11% of 5,448). Channel did 24,451 views in the same window => 0.025% of views became a site visit. Channel profile's first link is correctly set to epickor.com; ordinary Shorts description URLs are not clickable (FACTS 2026-08-14) and channel-page traffic is 0.2-1.0%.",
+    "ai_assistants_beat_youtube": "chatgpt 105 + gemini 7 + claude 5 + copilot 9 = 126 sessions, 21x YouTube's 6 and 9x instagram/littly's 14.",
+    "decision": "Keep publishing Shorts (marginal cost is low, 24,451 views + 18 subs per 28 days is real reach) but stop counting them as funnel work and stop spending selection effort on topic shape. For site traffic use YouTube Community posts, whose links are verified clickable."
+  }
 }
