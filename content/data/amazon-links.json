@@ -2825,6 +2825,21 @@
       ],
       "usedBy": "387",
       "verified": "2026-08-21 via Amazon listing search (allowed_domains: amazon.com)"
+    },
+    {
+      "id": "aurora-palm-pals-search",
+      "name": "Browse Aurora Palm Pals Plush",
+      "description": "Aurora World's own-brand palm-sized plush line. A search link is the honest answer here: the range runs to hundreds of characters and there is no single canonical item.",
+      "price": "",
+      "url": "https://www.amazon.com/s?k=aurora+palm+pals+plush&tag=epickor-20",
+      "category": "Shopping",
+      "image": "",
+      "tags": [
+        "Aurora World",
+        "Palm Pals",
+        "Plush",
+        "Korean Company"
+      ]
     }
   ]
 }
