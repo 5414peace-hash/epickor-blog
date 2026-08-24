@@ -1,10 +1,10 @@
 {
   "summary": {
-    "generatedAt": "2026-08-22T08:44:25.511Z",
-    "auditedPosts": 414,
+    "generatedAt": "2026-08-24T03:10:53.391Z",
+    "auditedPosts": 415,
     "includedPrivate": false,
     "slugFilter": "",
-    "bodyImages": 1458,
+    "bodyImages": 1461,
     "affectedPosts": 96,
     "critical": 0,
     "high": 0,
@@ -9433,12 +9433,19 @@
       "title": "Korean Department Store Food Halls 2026: What To Eat In Seoul",
       "contentPath": "content\\blog\\255.md",
       "sourceRecord": "public\\assets\\images\\posts\\255\\image-sources.md",
-      "imageCount": 4,
+      "imageCount": 5,
       "images": [
         {
           "url": "/assets/images/posts/255/shinsegae-gangnam-sweet-park-food-hall.jpg",
           "alt": "A polished bakery and dessert hall inside Shinsegae Gangnam Sweet Park, showing the indoor department-store food hall atmosphere.",
           "caption": "A real Seoul department-store food hall feels more like a curated indoor food floor than a casual outdoor market. Image source: VISITKOREA / Shinsegae Department Store.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/255/london-bagel-museum-counter-prices.jpg",
+          "alt": "A London Bagel Museum counter at The Hyundai Seoul stacked with pretzel bagels and filled bagel sandwiches, with handwritten price cards reading 5.9 and 8.5 propped among them.",
+          "caption": "The handwritten cards are the price list: 5.9 and 8.5 mean ₩5,900 and ₩8,500. Korean bakery counters price in thousands of won and rarely write the zeros. Image source: VISITKOREA / London Bagel Museum.",
           "ext": ".jpg",
           "exists": true
         },
@@ -9457,9 +9464,9 @@
           "exists": true
         },
         {
-          "url": "/assets/images/posts/255/lotte-food-avenue-seating-counters.jpg",
-          "alt": "An indoor Lotte Food Avenue seating and restaurant counter area, showing why department-store food halls work as rainy-day routes.",
-          "caption": "Food halls are useful precisely because they are indoor, seated, weather-proof, and connected to shopping routes. Image source: Lotte Food Avenue design archive.",
+          "url": "/assets/images/posts/255/beton-salt-bread-counter.jpg",
+          "alt": "Salt bread rolls piled in a woven basket at the Beton counter, with serving tongs and a small sign reading Beton Salt Bread.",
+          "caption": "Beton 베통 at Sweet Park, the salt-bread counter that sells out before some visitors reach it. The basket-and-tongs setup is the standard Korean bakery-counter format: you serve yourself, then pay. Image source: VISITKOREA / Shinsegae Department Store.",
           "ext": ".jpg",
           "exists": true
         }
@@ -15136,6 +15143,31 @@
           "detail": "1 SVG body image(s); mixed-media use requires manual relevance review"
         }
       ]
+    },
+    {
+      "type": "business",
+      "slug": "aurora-world-plush-company-deep-dive",
+      "title": "Aurora World Deep Dive: The Korean Company Behind the Plush Toy on Your Shelf",
+      "contentPath": "content\\business\\aurora-world-plush-company-deep-dive.md",
+      "sourceRecord": "public\\assets\\images\\business\\aurora-world-plush-company-deep-dive\\image-sources.md",
+      "imageCount": 2,
+      "images": [
+        {
+          "url": "/assets/images/business/aurora-world-plush-company-deep-dive/aurora-palm-pals-axolotl-official.jpg",
+          "alt": "A pink Palm Pals axolotl plush toy by Aurora, photographed front-on against a plain white background.",
+          "caption": "Aurora's Palm Pals line — the palm-sized plush that reset the company's growth rate. Product image: Aurora World official store.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/business/aurora-world-plush-company-deep-dive/aurora-miyoni-sea-otter-official.jpg",
+          "alt": "A realistic sea otter plush toy from Aurora's Miyoni line, lying on its back against a white background.",
+          "caption": "The Miyoni line — realistic animal plush, the kind stocked by aquarium and zoo gift shops. Product image: Aurora World official store.",
+          "ext": ".jpg",
+          "exists": true
+        }
+      ],
+      "findings": []
     },
     {
       "type": "business",
