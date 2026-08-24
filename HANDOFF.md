@@ -10,15 +10,29 @@
 4. Read only files named under Active Work or the user request.
 5. Search the archive narrowly with `rg` only for a specific slug, decision, or incident.
 
-## Current Snapshot - 2026-08-24 (8/21~22 작업 마감, 오늘은 쇼츠 판정일)
+## Current Snapshot - 2026-08-24 (쇼츠 판정 완료 · 오로라월드 발행 · 비즈니스 스키마 복구)
 
 > 8/21~22 이틀치 상세는 `docs/handoff/2026-08-22_snapshot-log-seeds-gate-and-link-repair.md`.
 > 수치·규칙은 `docs/handoff/FACTS.md`에 들어가 있으니 **먼저 `node scripts/handoff.mjs facts`**.
 
-**오늘(8/24) 할 일이 날짜로 잡혀 있다** — 유튜브 쇼츠 10편(8/14~23 게시) 성적 판정과
-**Studio 트래픽 소스에서 epickor.com 유입이 실제로 나오는지** 확인. 후자가 유튜브를 쓰는 이유 자체의 검증이다.
+**8/24에 한 것 — 판정 1건, 발행 1건, 결함 수정 1건. 전부 라이브 검증 완료, 워킹트리 깨끗.**
 
-**8/21~22에 한 것 (전부 발행·라이브 검증 완료, 워킹트리 깨끗)**
+- **유튜브 쇼츠 1차 배치 판정 (`output/strategy/youtube-shorts-verdict_2026-08-24.md`).**
+  **주제 가설은 보류** — 나이를 맞추면(8·9·10일) 신규 222 대 기준선 521로 **43%**인데, 후반 5편이
+  아직 미성숙이고 방향이 반대다. **8/31 재판독**(7편이 전부 8일을 넘기는 날).
+  **유입은 확정 실패** — 28일간 `youtube.com/referral` **6세션·사용자 2명**, 같은 창 채널 조회 24,451회
+  → **0.025%**. 채널 프로필 링크는 정상 설정이라 설정 문제가 아니다.
+  **가른 것은 주제가 아니라 시청 지속률**이었다(10.5~17.2% 대 25.2~29.9%). 선정 기준을 더 다듬지 말고
+  **첫 3초**로 문제를 옮긴다. 아줌마 편(5뷰)은 Shorts 피드 20%라 **표본에서 제외**.
+  **대표님 결정: 쇼츠는 계속 올린다 — "안 할 이유가 명확하지 않기 때문."**
+- **오로라월드 딥다이브 발행** — `/business/aurora-world-plush-company-deep-dive`, 3,219단어,
+  리뷰어 100/100, 라이브 200. **축은 검증된 사실 하나**: 자사 미국 About 페이지가 본사를
+  캘리포니아로 적고 **한국을 한 번도 언급하지 않으며**, 메리메이어 인수를 다룬 미국 완구 전문지도
+  마찬가지다. 균형추는 **영업이익 310억이 순이익 42억이 되는 이자 177억**과 골프장·승계다.
+- **`/business/` 구조화 데이터 복구 (`01b6cf3b`)** — 27편 전부가 JSON-LD를 **하나도** 안 내보내고
+  있었다. `ArticleLd`의 `/blog/` 하드코딩이 원인이라 `basePath` 옵션으로 풀었다. 상세는 FACTS.
+
+**8/21~22에 한 것**
 
 - **`npm run seeds:check` 신설** — 발행 4~8주 글의 생사를 GSC로 판정하고 주간 3편을 지목한다.
   발행 전 예측은 불가능하다는 실측이 근거(`output/strategy/breakout-prediction_2026-08-21.md`).
@@ -33,8 +47,12 @@
 
 **다음에 손댈 것**
 
+- **[날짜] 8/31 쇼츠 재판독.** 판정 기준은 판정 문서 §8에 적어뒀다. 브릿지 6편(8/24~8/29,
+  `bridge-2026-08-24-manifest.json`)이 표본에 더해진다.
 - **씨앗 게이트 신규 지목은 소진.** 다음은 쿨다운 중 결손 13편이고 1순위는 `255`(₩ 1개뿐인 푸드홀 가이드).
-- **비즈니스 다음 후보는 오로라월드** — 게이트 통과·소유구조 확인 완료. 락앤락은 **기각**(어피니티 100%, 재론 금지).
+- **비즈니스 후보가 비었다.** 오로라월드까지 발행해 2026-08-14 목록이 전부 소진됐다
+  (나비엔·위닉스·오로라 발행, 파세코 SERP 기각, 락앤락 소유구조 기각·재론 금지).
+  **다음 비즈니스 글을 쓰려면 새 후보 발굴부터 해야 하고, 그건 대표님 승인 사항이다.**
 - **아마존 검색 링크 699개는 의도적으로 남겼다** — 카테고리형 앵커에는 검색 페이지가 정직한 답이다. 되돌리지 말 것.
 
 ## Active Work
@@ -65,30 +83,13 @@
 > 2026-08-18에 `final/` 하위폴더를 폐지하고 납품본을 날짜 폴더 바로 아래로 올렸다.
 > 파일을 찾을 때는 `final/`을 빼고 보면 된다.
 
-- Card-news batch `2026-07-15_musinsa`, `2026-07-15_124`, and `2026-07-15_174` is final. It contains 21 photo-first 1080x1080 PNGs, three distinct systems (`Seoul Fashion Commerce`, `Modern Hanji Invitation`, `Transit Signal System`), captions, source records, contact sheets, and Visual Fit reviews. Structural review passed 7/7 images for every carousel; manual original-resolution review found no clipping, overlap, broken image, or missing `EPICKOR.COM`. Visual Fit averages are 97.7, 95.1, and 98.1. Card News `174` is scheduled for 2026-07-20 22:00 KST on both Instagram and YouTube Community. Meta Planner showed the exact caption and `오후 10:00 Instagram`; YouTube's `예약됨` tab showed the exact caption, clickable `https://www.epickor.com/blog/174` link, seven image-detail links, and post ID `Ugkxks1jhEdJAUbyrgUMKqLmIZDMLWHOobv1`. The YouTube image composer supports up to 10 images/GIFs with aspect ratios from 2:5 through 5:2, so the seven 1:1 card-news PNGs are natively supported. MUSINSA and Blog `124` remain ready for scheduling. MUSINSA is the representative-approved Business-slot age exception; Blog 124 legacy broadcast stills were excluded; Subway Card 03 was upgraded to an actual Seoul Metro priority-seat CC image.
+- **카드뉴스 배치 `2026-07-15_musinsa`/`124`/`174` 최종본 확정** — 21장, 세 가지 비주얼 시스템, Visual Fit 97.7/95.1/98.1, 구조 검사 7/7 통과 + 원본 해상도 육안 검토 완료. **`174`는 2026-07-20 22:00 KST 인스타·유튜브 커뮤니티 예약 완료**(커뮤니티 post ID `Ugkxks1jhEdJAUbyrgUMKqLmIZDMLWHOobv1`, `/blog/174` 링크 클릭 가능 확인). **무신사·`124`는 예약 대기.** 유튜브 커뮤니티는 1:1 이미지 10장까지 지원한다.
 
-- Agoda pilot is published: Blog `188` compares Seoul/Busan Agoda stays, Blog `257` links to Incheon accommodation with airport-filter guidance, and the global analytics listener emits `affiliate_agoda_click` with CID, content slug/type, CTA context, and destination city ID. Commit `15c4fc64` is on `origin/master`; Vercel deployment `epickor-blog-qz9bhmw89` is Ready.
-- Agoda pilot QA passed locally and publicly: all three partner URLs preserve CID `1968802` and return HTTP 302 to the intended city search; ESLint and the 346-page production build passed; public Blogs 188/257 returned HTTP 200 with disclosure/link markup; the deployed JS bundle contains `affiliate_agoda_click`; and all eight article images returned public HTTP 200.
-- Status: the representative rejected Blog `293` Reels 2.0 V04 as worse than the established pre-293 format. It must not be published or used as the baseline.
-- Reels 2.1 recovery rules are now recorded in `AGENTS.md`, `CLAUDE.md`, `.claude/skills/reels/creative_performance_standard.md`, and `reports/epickor-reels-2.1-recovery-spec-2026-07-14.md`.
-- First recovery prototype: Blog `294` (Korean metal chopsticks/sujeo), Viral Fit 92/100. The representative approved the corrected Porcelain Daylight storyboard and final V03 at `output/reels/2026-07-14_294/final/EPICKOR_294_03.mp4` (33.56s, 1080x1920, H.264/AAC). It uses a frame-one Korean-table hook, the approved bright editorial system, a natural-speed female voice, four real 9:16 video sources, three purposeful article stills, exactly one transparent three-row card over moving Korean BBQ footage, and zero generated visuals.
-- V03 QA: full-resolution key frames/contact sheet, frame-one hook, scene-start media, card-row timing, caption collision, outro, ffprobe, and silence scans passed. Viewer-Impact Score is 95/100 and Visual Variety Score is 98/100 in `output/reels/2026-07-14_294/review-v03.md`. The upload-ready English caption is synchronized at `output/reels/2026-07-14_294/final/instagram-caption.txt` and beside the final MP4. V01/V02 and all three KEEP directions remain preserved.
-- Reel 296 `Hanok After Dark` V02 is the current representative-review candidate at `output/reels/2026-07-13_296/final/EPICKOR_296_02.mp4` (36.05s, 1080x1920, H.264/AAC). The representative found V01's manually timed summary captions incomplete and too low. V02 uses forced alignment against all three approved TTS parts, covers 107/107 spoken words in 20 phrase beats with zero internal gaps/overlaps, and places the single narration lane 410px above the bottom edge. Final contact-sheet, five full-resolution keyframes, ffprobe, and silence QA passed in `output/reels/2026-07-13_296/review-v02.md`. V01 is superseded and must not be uploaded.
-- Reel 297 `Dessert Switch` V02 is the current representative-review candidate at `output/reels/2026-07-13_297/final/EPICKOR_297_02.mp4` (36.05s, 1080x1920, H.264/AAC). V01 used scene summaries rather than full narration captions and placed them too low. V02 covers 108/108 spoken words in 20 forced-aligned phrase beats with zero internal gaps/overlaps, uses the same 410px safe caption lane, and removes competing low decorative copy. Final contact-sheet, five full-resolution keyframes, ffprobe, and silence QA passed in `output/reels/2026-07-13_297/review-v02.md`. V01 is superseded and must not be uploaded.
-- Reels `299/301/302` continuity-corrected finals were representative-approved on 2026-07-16. Use only `output/reels/2026-07-14_299/final/EPICKOR_299_02.mp4` (36.84s), `output/reels/2026-07-15_301/final/EPICKOR_301_02.mp4` (40.73s), and `output/reels/2026-07-15_302/final/EPICKOR_302_03.mp4` (40.70s), all 1080x1920 30fps H.264/AAC. V01/V02 predecessors are superseded. Hard browser loops were removed; 301/302 short card footage uses endpoint-deduplicated ping-pong proxies, 299's 25fps opener uses a reviewed 30fps interpolation proxy, final playback uses `OffthreadVideo`, and 21-frame wipes fully occlude cuts. Critical ONS phrases are explicitly nowrap/planned. The default caption exclusion is y=1400 with information ending by y=1340. Continuity manifests, source-range probes, TypeScript, contact sheets, former-reset turnaround strips, 302 full-resolution caption clearance, ffprobe, and silence scans passed. Clean ASCII-safe English Instagram captions are stored as `instagram-caption.txt` beside each approved MP4 and synchronized in `output/reels/{slug}/`. Reviews: 299/301 use `review-v02.md`; 302 uses `review-v03.md`.
-- YouTube BGM review candidates were added on 2026-07-20 without changing the representative-approved visual streams: `299/EPICKOR_299_03_BGM.mp4`, `301/EPICKOR_301_03_BGM.mp4`, and `302/EPICKOR_302_04_BGM.mp4`. They use three tracks verified in the signed-in EpicKor YouTube Audio Library (`Limo Ride`, `Tiptoe Out the Back`, `Blue Dream`), narration-normalized sidechain ducking, and new AAC audio only. Final measurements are `-16.7/-16.3/-17.2 LUFS` with true peaks `-2.5/-1.6/-1.4 dBFS`; all are 1080x1920, 30fps, 48kHz stereo, and duration-matched. Review dashboard: `output/bgm/review-299-301-302.html`; source/license record: `output/bgm/youtube-audio-library/LICENSES.md`. These are not upload-approved until representative phone review with sound on.
-- Post-V02 design exploration is complete: `01 Porcelain Daylight`, `02 Steel After Dark`, and `03 Sujeo Switch` are all representative-directed KEEP directions under `output/reels/2026-07-14_294/design/directions/`. Porcelain Daylight is the selected design system for the current Reel 294 revision.
-- The selected direction has been expanded into seven static frames. The first `storyboard-v01` exposed title clipping, low-contrast boundary crossings, tight line spacing, and excess empty space. Corrected `storyboard-v02` preserves v01, uses clean source backgrounds, and fixes all seven frames; manual PNG review confirmed no duplicate embedded captions, clipped headlines, or text collisions.
-- Strategy record: `reports/epickor-reels-2.0-strategy-2026-07-12.md`.
-- Autonomous operating contract: `reports/epickor-reels-2.0-autonomous-pilot-2026-07-12.md`.
-- Final pilot candidate: `output/reels/2026-07-12_293/final/EPICKOR_293_04.mp4` (50.05s, 1080x1920, H.264/AAC).
-- Pilot review: `output/reels/2026-07-12_293/review.md`; quality average 92/100 and Visual Variety Score 96/100.
-- Recovery decision: preserve the concise pre-293 Reel structure and improve it to 32-42 seconds with a direct-action first frame, stronger thumbnail/narration hook, natural voice, more real vertical footage, and exactly one transparent motion card over a topic-relevant image/video background.
-- YouTube-hosted video is reference-only by default; final use requires ownership, written permission, suitable CC/public-domain status, or approved transformative quotation.
-- Google AI Pro credits may be used manually through Flow/Whisk for selected 3-5 second bridge/establishing shots. Gemini Developer API is separately billed and must not be activated, funded, or automated without explicit representative approval. Generated visuals remain capped at 25% and cannot carry factual proof or delicate hand/object mechanics.
-- Blogs 291-293 research, writing, review, image package, build, deployment, and public verification are 100% complete.
-- Thumbnail hotfix deployment and public rendered verification are complete.
-- Review record: `reports/blogs-291-293-review-2026-07-12.md`.
+- **아고다 파일럿은 배포·QA 완료** (`188` 서울/부산 비교, `257` 인천공항 숙소, `affiliate_agoda_click` 발화, CID `1968802` 보존·302 확인, 공개 200). 확대 여부는 아래 Blockers의 클릭 데이터 검토 조건을 따른다.
+- **2026-07 릴스 2.1 회복기(`294`·`296`·`297`·`299`·`301`·`302`)와 블로그 `291`~`293` 기록은
+  `docs/handoff/2026-07_reels-2.1-and-blogs-291-293-active-work.md`로 내렸다.** 전부 완료·상위대체분이고
+  대기 액션이 없다. 재사용 규칙은 이미 `CLAUDE.md`·`AGENTS.md`·`creative_performance_standard.md`에 있다.
+  **`293` V04는 대표님 반려로 종결** — 발행·기준선 사용 금지. 이것만 여기 남긴다.
 
 ## Blockers / Decisions Needed
 
@@ -169,6 +170,18 @@
 
 ## Recent Change
 
+- 2026-08-24: **쇼츠 1차 배치 판정 + 오로라월드 발행 + `/business/` 스키마 복구.** 상세는 Current Snapshot.
+  재사용 규칙 넷만 남긴다.
+  - **쇼츠는 8일이면 끝난다 (+0.7~1.3%/이후 10일).** 같은 4편을 두 번 읽어 확인했다. **그래서 8일 이상끼리는
+    나이를 무시하고 비교해도 되고 7일 미만은 비교하면 안 된다.** 나이 다른 배치를 비교할 때 이 선을 쓴다.
+  - **조회수보다 Shorts 피드 비중을 먼저 본다.** 아줌마 편은 3일에 5뷰였는데 피드 비중이 20%(나머지 84~98%)이고
+    세부설정은 대조군과 동일했다. **배포 사고를 콘텐츠 실패로 잘못 배우지 않으려면 이 순서여야 한다.**
+  - **유튜브는 사이트로 안 보낸다 — 28일 6세션·조회의 0.025%.** 채널 프로필 링크는 정상이므로 구조적이다.
+    쇼츠는 계속 올리되(대표님 결정) **퍼널 작업으로 세지 않는다.** 유입이 목적이면 커뮤니티 게시물이다.
+  - **컴포넌트가 경로를 하드코딩하면 그 라우트는 조용히 아무것도 안 낸다.** `ArticleLd`가 `/blog/`를 박아둬서
+    비즈니스 27편이 JSON-LD를 **하나도** 안 내보내고 있었다. 없는 건 에러를 내지 않으므로 **라이브 HTML을
+    직접 grep해야 발견된다.** 커밋 `01b6cf3b`.
+
 - 2026-08-21: **씨앗 판정 게이트 신설·보정 + 리프레시 2편.** `npm run seeds:check`로 발행 4~8주 글의
   생사를 판정하고 주간 3편을 지목한다. 발행 전 예측은 불가능하다는 실측이 근거
   (`output/strategy/breakout-prediction_2026-08-21.md`). 게이트가 고른 `218`·`194`·`268` 리프레시 3편.
@@ -220,36 +233,4 @@
     - **예약글 수정은 목록의 `ID 또는 캡션으로 검색`으로 대상을 좁힌 뒤에 한다.** 목록이 가상 스크롤이라
       인덱스·좌표·스크롤로는 뒤쪽 날짜에 닿을 수 없다. 상세는 FACTS 2026-08-18.
 
-- 2026-08-18: **DOSSIER를 코호트로 만들었다 — 바나나킥(`367`)·야쿠르트(`362`) 2편 추가.** 상세는
-  Active Work. 재사용 규칙 셋만 남긴다.
-  - **사운드 스크립트를 다른 릴스에서 통째로 물려받지 말 것.** 우지의 고정 오프셋 표를 그대로
-    쓰니 **5카드 중 3카드가 어긋났다** — 없는 헤드 줄에 틱, 있는 둘째 문단에 침묵. 단독으로는
-    안 들려서 귀로 못 잡는다. 오프셋은 **엔트리 형태**에서 유도하고, `verify-sync.py`가 `.tsx`를
-    재파싱해 대조하게 했다. 카피를 줄이자 즉시 3건을 더 잡았다.
-  - **`volumedetect`·`silencedetect`는 `-v error`를 붙이면 조용히 빈 결과를 준다** (info 레벨 출력).
-    2026-08-05의 "stderr로 나온다"와 **다른 함정**이고 둘 다 밟게 된다.
-  - **이미지 게이트는 주제 선정 뒤가 아니라 주제 확정 *전에* 통과시킨다.** 후보 2개(`364`·`281`)를
-    이 단계에서 걸러 기획 폐기를 막았다 — Reel 311(소재 0건으로 전량 폐기)의 반복을 피한 것.
-
-- 2026-08-18: **D안 DOSSIER 키트 신설 — 날짜 있는 이야기에 릴스 형식이 생겼다.** 상세는 Active Work.
-  재사용 규칙 넷만 남긴다.
-  - **`remotion/`은 `tsconfig.json`의 `exclude`에 있다.** `tsc -p tsconfig.json`이 릴스 코드를 한 줄도
-    안 본다 — 실제 타입 오류 4건 위에서 "깨끗함"을 반환했다. 릴스 파일은 **이름을 대서** 검사한다.
-  - **AAC 인터샘플 오버슈트는 콘텐츠가 정한다. 1.8 dB는 상수가 아니다.** 어택 0의 노이즈 버스트는
-    **5 dB**를 만들었다(WAV -5.0 → 디코드 -0.0). 리미터로 되사면 프로그램 레벨을 그만큼 버린다.
-    **소스의 클릭 모양**(어택 0.8 ms + 8 kHz 롤오프)을 고치는 게 옳고, 비용이 없다.
-  - **희소한 베드에서 라우드니스는 이벤트 수로 얻는다. 바닥(험·히스)을 올리면 1 dB당 액센트 분리가
-    1 dB씩 죽는다.** LUFS의 K-weighting이 150 Hz 아래를 깎아서 저역만 있는 베드는 피크 대비 19 dB
-    낮게 측정된다.
-  - **첫 렌더는 정상 종료·정상 재생이면서 결함 4개를 실었다** — 레일이 글자 위에 찍힘, 9개 컷 전부
-    하단 55%가 검정, 엔트리의 마지막 이벤트가 84프레임 중 16에서 끝나 2.3초 정지(376의 결함),
-    "8 YEARS LATER"가 1995 위에 뜸. **전부 컨택트시트와 실측으로만 잡혔다.**
-  - 커밋 `66210cad`.
-
-- 2026-08-15: **수익 배관의 구멍 + 신규 2편 + 배포 정체 복구.** 상세는 위 Current Snapshot. 재사용 규칙 다섯만 남긴다.
-  - **커밋과 배포는 다른 사건이다.** `git push` 성공은 배포 성공이 아니다. 어제 세션이 "푸시 완료"로 닫히는 동안 **사이트는 21시간 동안 옛 빌드**였다. `vercel ls` 최상단이 `● Ready`인지, 그리고 **바뀐 내용이 공개 URL에 실제로 보이는지**까지 봐야 완료다.
-  - **이 저장소는 pnpm으로 설치한다.** `npm i`를 쓰면 락파일이 어긋나 모든 배포가 죽는다. 폰트처럼 파일만 얻으려는 일회성 설치는 **파일을 넣은 뒤 `package.json`에서 도로 뺀다.**
-  - **단가만 보고 제휴 상품을 고르면 틀린다.** 수수료는 `단가 × 카테고리 요율`이고 요율이 10배 차이 난다(Beauty 10% / Kitchen 4.5% / **Health·Grocery 1%**). $150 홍삼이 $280 밥솥보다 못 번다.
-  - **링크가 부실해 보이면 먼저 "팔 물건이 존재하는가"를 확인한다.** `153`은 링크를 갈 문제가 아니라 **아마존 US에 그 상품이 아예 없어서** 글이 독자 질문에 답하지 못하던 것이었다. 상품부터 확인했기에 콘텐츠 문제로 방향을 틀 수 있었다.
-  - **글을 고칠 때 본문과 링크·이미지가 서로 반박하지 않는지 본다.** `287`은 표가 "약한 선택"이라 한 물건을 최상단에서 팔고 있었고, `385`는 이미지가 자기 섹션을 반박했으며, `153`·`386`은 내가 수정하다 모순을 만들 뻔했다. **고친 뒤 반드시 다시 읽는다.**
-  - 커밋 `c2e4dbcf` `10990d11` 외.
+> 그 이전 항목은 `docs/handoff/2026-08_recent-change-log.md`로 내렸다.

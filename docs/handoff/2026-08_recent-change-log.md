@@ -22,3 +22,36 @@
 
 - 2026-07-30: Published the 3 topics deferred from 2026-07-29's approved list — Blogs `337` (Korean reality dating shows compared), `338` (virtual K-pop idols: real performer vs. AI-generated), `339` (Squid Game filming locations). Representative declined topic 8 (Sleep Cafes) this session. 338/339 both needed copyright-safe image sourcing (virtual idol character designs and TV-show sets are agency/studio IP, not free-use even under a CC-tagged Commons upload) — solved with real photography of genuinely connected context (Gocheok Sky Dome, Daejeon Expo Science Park exterior, confirmed real Seoul filming locations) instead. Caught and fixed a real duplicate-H2-heading bug in 338 (introduced by a multi-edit sequence, missed by the automated reviewer, caught by a full-page screenshot) before publishing. A `git stash push`/`pop` meant to protect a data-file edit accidentally popped an unrelated pre-existing stash from other work, causing a merge conflict; recovered cleanly via `git restore --staged --worktree` without touching or losing the other stash. All 3 published, image-verified, and live-checked. `next_slug` is now `340`.
 
+- 2026-08-18: **DOSSIER를 코호트로 만들었다 — 바나나킥(`367`)·야쿠르트(`362`) 2편 추가.** 상세는
+  Active Work. 재사용 규칙 셋만 남긴다.
+  - **사운드 스크립트를 다른 릴스에서 통째로 물려받지 말 것.** 우지의 고정 오프셋 표를 그대로
+    쓰니 **5카드 중 3카드가 어긋났다** — 없는 헤드 줄에 틱, 있는 둘째 문단에 침묵. 단독으로는
+    안 들려서 귀로 못 잡는다. 오프셋은 **엔트리 형태**에서 유도하고, `verify-sync.py`가 `.tsx`를
+    재파싱해 대조하게 했다. 카피를 줄이자 즉시 3건을 더 잡았다.
+  - **`volumedetect`·`silencedetect`는 `-v error`를 붙이면 조용히 빈 결과를 준다** (info 레벨 출력).
+    2026-08-05의 "stderr로 나온다"와 **다른 함정**이고 둘 다 밟게 된다.
+  - **이미지 게이트는 주제 선정 뒤가 아니라 주제 확정 *전에* 통과시킨다.** 후보 2개(`364`·`281`)를
+    이 단계에서 걸러 기획 폐기를 막았다 — Reel 311(소재 0건으로 전량 폐기)의 반복을 피한 것.
+
+- 2026-08-18: **D안 DOSSIER 키트 신설 — 날짜 있는 이야기에 릴스 형식이 생겼다.** 상세는 Active Work.
+  재사용 규칙 넷만 남긴다.
+  - **`remotion/`은 `tsconfig.json`의 `exclude`에 있다.** `tsc -p tsconfig.json`이 릴스 코드를 한 줄도
+    안 본다 — 실제 타입 오류 4건 위에서 "깨끗함"을 반환했다. 릴스 파일은 **이름을 대서** 검사한다.
+  - **AAC 인터샘플 오버슈트는 콘텐츠가 정한다. 1.8 dB는 상수가 아니다.** 어택 0의 노이즈 버스트는
+    **5 dB**를 만들었다(WAV -5.0 → 디코드 -0.0). 리미터로 되사면 프로그램 레벨을 그만큼 버린다.
+    **소스의 클릭 모양**(어택 0.8 ms + 8 kHz 롤오프)을 고치는 게 옳고, 비용이 없다.
+  - **희소한 베드에서 라우드니스는 이벤트 수로 얻는다. 바닥(험·히스)을 올리면 1 dB당 액센트 분리가
+    1 dB씩 죽는다.** LUFS의 K-weighting이 150 Hz 아래를 깎아서 저역만 있는 베드는 피크 대비 19 dB
+    낮게 측정된다.
+  - **첫 렌더는 정상 종료·정상 재생이면서 결함 4개를 실었다** — 레일이 글자 위에 찍힘, 9개 컷 전부
+    하단 55%가 검정, 엔트리의 마지막 이벤트가 84프레임 중 16에서 끝나 2.3초 정지(376의 결함),
+    "8 YEARS LATER"가 1995 위에 뜸. **전부 컨택트시트와 실측으로만 잡혔다.**
+  - 커밋 `66210cad`.
+
+- 2026-08-15: **수익 배관의 구멍 + 신규 2편 + 배포 정체 복구.** 상세는 위 Current Snapshot. 재사용 규칙 다섯만 남긴다.
+  - **커밋과 배포는 다른 사건이다.** `git push` 성공은 배포 성공이 아니다. 어제 세션이 "푸시 완료"로 닫히는 동안 **사이트는 21시간 동안 옛 빌드**였다. `vercel ls` 최상단이 `● Ready`인지, 그리고 **바뀐 내용이 공개 URL에 실제로 보이는지**까지 봐야 완료다.
+  - **이 저장소는 pnpm으로 설치한다.** `npm i`를 쓰면 락파일이 어긋나 모든 배포가 죽는다. 폰트처럼 파일만 얻으려는 일회성 설치는 **파일을 넣은 뒤 `package.json`에서 도로 뺀다.**
+  - **단가만 보고 제휴 상품을 고르면 틀린다.** 수수료는 `단가 × 카테고리 요율`이고 요율이 10배 차이 난다(Beauty 10% / Kitchen 4.5% / **Health·Grocery 1%**). $150 홍삼이 $280 밥솥보다 못 번다.
+  - **링크가 부실해 보이면 먼저 "팔 물건이 존재하는가"를 확인한다.** `153`은 링크를 갈 문제가 아니라 **아마존 US에 그 상품이 아예 없어서** 글이 독자 질문에 답하지 못하던 것이었다. 상품부터 확인했기에 콘텐츠 문제로 방향을 틀 수 있었다.
+  - **글을 고칠 때 본문과 링크·이미지가 서로 반박하지 않는지 본다.** `287`은 표가 "약한 선택"이라 한 물건을 최상단에서 팔고 있었고, `385`는 이미지가 자기 섹션을 반박했으며, `153`·`386`은 내가 수정하다 모순을 만들 뻔했다. **고친 뒤 반드시 다시 읽는다.**
+  - 커밋 `c2e4dbcf` `10990d11` 외.

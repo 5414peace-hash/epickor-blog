@@ -1164,8 +1164,14 @@
   공개 URL에 `Pico Rivera`·`Palm Pals`·`affiliate-inline-cta`는 다 있는데 **`FAQPage`만 없다.**
   **이게 비즈니스 섹션의 성과 지표와 정면으로 충돌한다** — 2026-08-19 대표님 지시대로 이 섹션은
   아마존이 아니라 **노출·클릭률**로 평가하는데, 리치 결과 표면을 통째로 안 쓰고 있다.
-  2026-08-21에 고친 FAQ 스키마 결함(`###` 형태 40편)은 `/blog/`만 대상이었다. **미수정.**
-  *Verified:* `curl https://www.epickor.com/business/aurora-world-plush-company-deep-dive | grep FAQPage` → 0건, 2026-08-24.
+  2026-08-21에 고친 FAQ 스키마 결함(`###` 형태 40편)은 `/blog/`만 대상이었다.
+  **CORRECTED 2026-08-24 — 같은 날 수정 완료(커밋 `01b6cf3b`).** `ArticleLd`가 `${SITE}/blog/${slug}`를
+  하드코딩하고 있던 게 원인이라 그냥 붙일 수 없었다 — 붙였으면 비즈니스 글마다 **틀린 canonical URL**이
+  나갔을 것이다. `basePath` 옵션(기본 `/blog`)을 추가해 기존 호출부는 그대로 두고 해결했다.
+  빵부스러기는 blog의 2단이 아니라 **화면에 실제로 보이는 3단(Home / Business / title)** 을 그대로 썼다.
+  **비즈니스 27편 전부가 `**Q:` 형식이라 섹션 전체가 FAQPage를 얻는다** — 최근 글만이 아니다.
+  *Verified:* 로컬 dev 렌더에서 Article(`/business/` URL)·BreadcrumbList 3단·FAQPage 6문항 확인,
+  그리고 이전 세션이 쓴 글 3편도 FAQPage 6·7·5로 확인, 2026-08-24.
 
 - **2026-08-24 — 오로라월드 확정 사실 (KIND 사업보고서 1차 출처 + 라이브 페이지 실측).**
   - **연혁은 영어권이 틀렸다.** 사업보고서 기준 **1981년 9월 오로라무역상사 창업 → 1985년 9월 25일
