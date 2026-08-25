@@ -119,6 +119,7 @@ const PUSH_EXCLUDE = {
  */
 const PUSH_WORKED = {
   '071': '2026-08-20 내부링크 3→11. 기준선: `deli manjoo` 3,336노출 7.0위 0.36% / `delimanjoo` 2,564노출 7.5위 0.27%. 판정 9/23, **순위로** (오타 쿼리 제외). 상세 output/strategy/071-internal-link-experiment.md',
+  '153': '2026-08-25 사실 갱신. 기준선(90일): 79쿼리 2,057노출 14클릭, 클러스터 전체가 8.9~10.8위 — `isaac toast sauce` 1,105노출 9.2위 / `where to buy` 179노출 10.8위이지만 CTR 2.8%로 이미 전환 중 / `isaac toast jam` 168노출 8.9위 클릭 0. 넣은 것: 2026-04 해외 전용 수출 결정과 그 이유(가맹점 매출 보호 — 국내 미판매의 진짜 원인), 브랜드 과일잼 출시 계획(jam 쿼리에 직결), 아마존 US 부재 재검증. 판정 9/23, **순위로**.',
   '167': '2026-08-20 사실 리프레시. 기준선: 891쿼리 3,821노출 52클릭(1.36%), 4~9위 전환가능 874노출·20클릭. 원더풀스·기리고를 미공개로 잘못 서술한 것을 정정하고 8월 신작 2편(이런 엿같은 사랑·들쥐) 추가. 판정 9/23.',
 };
 
@@ -155,6 +156,30 @@ const PUSH_MIN_IMPRESSIONS = 250;
 const SHAPE_DEFINITIONAL = /\bmeaning\b|\bwhat is\b|\bwhat does\b|\bwho is\b|\bwhat are\b|\bexplained\b|artinya|adalah|apa itu|significado|\bdefinition\b/;
 const SHAPE_WHY = /^why\b|\bwhy (is|are|do|does|did)\b/;
 
+/**
+ * Market, and why it belongs next to shape (added 2026-08-25).
+ *
+ * Shape asks whether demand converts to a click. This asks whether the click
+ * can convert to money, and the two are independent. Measured on `167`
+ * (Best Korean Dramas): 3,664 impressions at CTR 1.42%, three times the site
+ * average, and the push lane ranked it 2nd. But 65% of its impressions are
+ * non-English -- Arabic, Russian, Bengali, Spanish, Indonesian -- and the
+ * queries actually converting at rank 1-3 are `series coreanas 2026` and the
+ * Arabic equivalent. Pushing that page higher buys traffic that cannot reach
+ * amazon.com. CLAUDE.md has recorded the same for Indonesian since 2026-07-24
+ * (29,442 impressions, 1 click); this generalises it to every market.
+ *
+ * Non-Latin script is the reliable signal. The word list only covers
+ * Latin-script languages that share our alphabet, and is deliberately short --
+ * only terms that cannot appear in an English query.
+ */
+const FOREIGN_SCRIPT = /[؀-ۿЀ-ӿऀ-ॿঀ-৿฀-๿぀-ヿ一-鿿가-힯]/;
+const FOREIGN_WORDS = /(itu apa|apa itu|artinya|arti|adalah|bahasa|drakor|terbaru|nonton|sub indo|romantis|coreana|coreano|coreanas|mejores|melhores|significado|signification|bedeutung|migliori|meilleur)/i;
+
+function isForeignMarket(query) {
+  return FOREIGN_SCRIPT.test(query) || FOREIGN_WORDS.test(query);
+}
+
 function isConvertible(query) {
   const q = query.toLowerCase();
   return !SHAPE_DEFINITIONAL.test(q) && !SHAPE_WHY.test(q);
@@ -171,6 +196,15 @@ function isConvertible(query) {
  * queries Google is willing to name, and 77% of this site's clicks come from
  * anonymised long-tail it will not. So these pools are a consistent *sample*,
  * fine for ranking pages against each other, wrong as absolute demand.
+ *
+ * Second caveat, measured 2026-08-25 and worse than the first: a site-wide
+ * `query,page` pull hits the API's 25,000-row ceiling. The pull taken that day
+ * carried 302 of the site's ~1,900 clicks and looked complete. The truncation
+ * keeps the highest-impression rows, so it is biased *towards* the dead-end
+ * pages this lane is trying to avoid. Ranking pages against each other still
+ * works; any single page's numbers should be re-pulled with
+ * `gsc-fetch.mjs --dimension query --page blog/{slug}`, which filters
+ * server-side and returns the full list.
  */
 function loadPushSignal() {
   const pull = newestApiPull('query-page');
@@ -184,18 +218,29 @@ function loadPushSignal() {
     if (isOperatorQuery(r.query || '')) { dropped += impressions; continue; }
     const position = +r.position || 0;
     const p = (pages[hit.slug] ||= {
-      band49: 0, convertible49: 0, clicks49: 0, queries49: 0, humanImpressions: 0,
+      band49: 0, convertible49: 0, foreign49: 0, clicks49: 0, queries49: 0,
+      humanImpressions: 0, foreignImpressions: 0,
     });
+    const foreign = isForeignMarket(r.query || '');
     p.humanImpressions += impressions;
+    if (foreign) p.foreignImpressions += impressions;
     if (position >= 4 && position <= 9) {
       p.band49 += impressions;
-      if (isConvertible(r.query || '')) p.convertible49 += impressions;
+      if (foreign) p.foreign49 += impressions;
+      // convertible now means two things: the shape converts to a click, and
+      // that click can reach a market we monetise. A foreign-market query fails
+      // the second test even when its shape passes the first.
+      if (isConvertible(r.query || '') && !foreign) p.convertible49 += impressions;
       p.clicks49 += +r.clicks || 0;
       p.queries49 += 1;
     }
   }
   for (const p of Object.values(pages)) {
-    p.deadShare = p.band49 ? +(1 - p.convertible49 / p.band49).toFixed(3) : 0;
+    p.foreignShare = p.band49 ? +(p.foreign49 / p.band49).toFixed(3) : 0;
+    // deadShare stays 'share of shape that does not convert', but measured on
+    // the English remainder so the two numbers do not double-count each other.
+    const english49 = p.band49 - p.foreign49;
+    p.deadShare = english49 ? +(1 - p.convertible49 / english49).toFixed(3) : 0;
   }
   return { pages, source: `${pull.file} (${pull.start}~${pull.end})`, dropped };
 }
@@ -326,6 +371,7 @@ const push = posts
     convertible49: p.push.convertible49,
     band49Impressions: p.push.band49,
     deadShare: p.push.deadShare,
+    foreignShare: p.push.foreignShare,
     band49Clicks: p.push.clicks49,
     band49Queries: p.push.queries49,
     humanImpressions: p.push.humanImpressions,
@@ -351,7 +397,9 @@ const out = {
   pushLane: {
     rule: `4~9위에 걸린 노출 중 **전환 가능한 형태**(행동형·중립)만 세어 내림차순. 최소 ${PUSH_MIN_IMPRESSIONS}. 스펙 완료 여부를 보지 않는다 — 071이 스펙 완료 상태로 사이트 최대 기회였다.`,
     shapeEvidence: '4~9위로 순위를 통제하고 dead-end 4편을 제외한 실측(2026-08-20): 행동형 1.324%(상위3 제거 후 1.089%) · 중립 0.664%(0.615%) · why형 0.156%(0.000%) · 정의형 0.060%(0.000%). 정의형과 why형은 상위 3개를 빼면 클릭이 정확히 0이므로 순위를 올려도 회수되지 않는다.',
-    deadShare: 'deadShare는 그 페이지 4~9위 노출 중 정의형·why형 비중이다. 높으면 노출이 커도 올릴 값어치가 없다.',
+    deadShare: 'deadShare는 그 페이지 4~9위 영어 노출 중 정의형·why형 비중이다. 높으면 노출이 커도 올릴 값어치가 없다.',
+    foreignShare: 'foreignShare는 4~9위 노출 중 비영어 시장 비중이다 (2026-08-25 신설). 높으면 순위를 올려도 아마존에 닿지 않는 트래픽만 늘어난다 — 167이 65%였다.',
+    sourceTruncation: '경고: query,page 교차추출은 API의 25,000행 상한에 걸린다. 2026-08-25 실측으로 사이트 클릭 1,900 중 302만 담겼다. 절단은 무작위가 아니라 고노출 행을 남기므로 dead-end 페이지 쪽으로 편향된다. 한 페이지를 정밀하게 보려면 gsc-fetch.mjs --dimension query --page blog/{slug} 로 따로 뽑을 것.',
     why: '스펙 레인은 "무엇이 빠졌나"를 묻고 이 레인은 "구글이 이미 어디서 우리를 많이 보여주고 있나"를 묻는다. 사이트 CTR은 1~3위 1.53%인데 5~11위는 0.14%이고, 노출의 87%가 5위 밖에 있다.',
     caveat: '교차표에는 구글이 이름을 공개하는 쿼리만 있다. 이 사이트 클릭의 77%는 익명 롱테일에서 오므로, 이 수치는 페이지끼리 줄 세우기에는 맞지만 절대 수요로 읽으면 틀린다.',
     source: pushSource,

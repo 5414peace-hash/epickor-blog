@@ -20,6 +20,7 @@
  *   node scripts/gsc-fetch.mjs --days 28
  *   node scripts/gsc-fetch.mjs --start 2026-05-01 --end 2026-07-31
  *   node scripts/gsc-fetch.mjs --dimension query,page   # cross-tab
+ *   node scripts/gsc-fetch.mjs --dimension query --page /blog/167   # one page's queries
  *
  * Output: output/gsc/api/{dimension}_{start}_{end}.csv  (+ .json)
  *
@@ -62,6 +63,13 @@ function arg(name, fallback) {
 
 const dimensions = arg('dimension', 'query').split(',').map(s => s.trim());
 const days = parseInt(arg('days', '90'), 10);
+
+// --page narrows the pull to one URL. Without it, `--dimension query,page` has
+// enough cardinality to hit the 25,000-row ceiling and silently return a
+// truncated slice: a 2026-08-25 pull came back with 302 of the site's ~1,900
+// clicks and looked complete. Server-side filtering is the only way to get a
+// single page's full query list.
+const pageFilter = arg('page', null);
 
 // GSC data lags ~2 days; asking for today returns nothing and looks like a bug.
 const today = new Date();
@@ -115,6 +123,7 @@ async function main() {
 
   console.log(`\nSite:       ${SITE_URL}`);
   console.log(`Dimensions: ${dimensions.join(' x ')}`);
+  if (pageFilter) console.log(`Page filter: contains "${pageFilter}"`);
   console.log(`Range:      ${startDate} → ${endDate}\n`);
 
   const rows = [];
@@ -126,7 +135,14 @@ async function main() {
     try {
       res = await searchconsole.searchanalytics.query({
         siteUrl: SITE_URL,
-        requestBody: { startDate, endDate, dimensions, rowLimit: ROW_LIMIT, startRow },
+        requestBody: {
+          startDate, endDate, dimensions, rowLimit: ROW_LIMIT, startRow,
+          ...(pageFilter ? {
+            dimensionFilterGroups: [{
+              filters: [{ dimension: 'page', operator: 'contains', expression: pageFilter }],
+            }],
+          } : {}),
+        },
       });
     } catch (e) {
       const m = e?.errors?.[0]?.message || e.message;
@@ -158,7 +174,8 @@ async function main() {
 
   const outDir = join(ROOT, 'output/gsc/api');
   mkdirSync(outDir, { recursive: true });
-  const stem = `${dimensions.join('-')}_${startDate}_${endDate}`;
+  const slugPart = pageFilter ? `-${pageFilter.replace(/[^A-Za-z0-9]+/g, '')}` : '';
+  const stem = `${dimensions.join('-')}${slugPart}_${startDate}_${endDate}`;
 
   const header = [...dimensions, 'clicks', 'impressions', 'ctr', 'position'];
   const esc = v => (/[",\n]/.test(String(v)) ? `"${String(v).replace(/"/g, '""')}"` : v);
