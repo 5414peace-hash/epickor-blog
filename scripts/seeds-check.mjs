@@ -300,9 +300,31 @@ const gapsOf = (p) => {
 };
 const hasGap = (p) => gapsOf(p).length > 0;
 
+/**
+ * A page in free-fall is the wrong bet for this week, even when its raw click
+ * count is the highest on the list.
+ *
+ * `trend()` below already computes this and prints a down arrow. Until
+ * 2026-08-25 the arrow was decoration: the sort ignored it, and the week's #1
+ * pick came back as `197` Boryeong Mud Festival -- a July festival, marked with
+ * that arrow in the very row recommending it. Checked directly: 134 impressions
+ * and ZERO clicks during the festival window, 10 impressions and zero clicks two
+ * weeks ago. It has never converted, and its season is over.
+ *
+ * This is the same failure CLAUDE.md records for `198` Waterbomb, which is why
+ * the sort moved to recent clicks in the first place. Recent clicks alone were
+ * not enough, because a season decays over weeks rather than falling to zero
+ * inside one window. Direction has to be a sort key, not a glyph.
+ */
+const falling = (p) => {
+  const a = p.firstHalf, b = p.secondHalf;
+  return a + b >= 3 && a > b * 1.5;
+};
+
 const water = alive
   .filter((p) => cooled(p) && !DEAD_END.has(p.slug) && !isImpressionHeavy(p))
-  .sort((a, b) => (hasGap(b) - hasGap(a))
+  .sort((a, b) => (falling(a) - falling(b))
+    || (hasGap(b) - hasGap(a))
     || b.secondHalf - a.secondHalf || b.clicks - a.clicks || b.impressions - a.impressions)
   .slice(0, WATER_COUNT);
 
@@ -343,7 +365,7 @@ if (seenNoClick.length > 10) console.log(`  … 외 ${seenNoClick.length - 10}�
 console.log(`\n■ 노출도 없다 (${unseen.length}편)`);
 console.log('  ' + unseen.map((p) => p.slug).join(' '));
 
-console.log(`\n■ 이번 주 물 줄 글 ${water.length}편 — 최근 2주 클릭이 큰 순서 (dead-end·노출형 제외)`);
+console.log(`\n■ 이번 주 물 줄 글 ${water.length}편 — 하락세를 뒤로 보낸 뒤 창 후반 클릭 순 (dead-end·노출형 제외)`);
 for (const p of water) {
   const g = gapsOf(p);
   console.log(fmt(p));
