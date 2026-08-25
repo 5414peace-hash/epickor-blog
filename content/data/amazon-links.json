@@ -2928,6 +2928,36 @@
         "KoreanFood",
         "ConvenienceStore"
       ]
+    },
+    {
+      "id": "songwol-hotel-towel-4",
+      "name": "SONGWOL Hotel Collection Premium Towel Set, 4 Piece, Made in Korea",
+      "description": "The Korean towel market leader, sold abroad in the same combed-cotton hotel line it sells at home. Listed at 470 GSM and 20x40 inch, which is the 50x100cm size Koreans buy as a large face towel.",
+      "price": "",
+      "url": "https://www.amazon.com/Songwol-Collection-Premium-Towels-Absorbent/dp/B07Q5C8DX2?tag=epickor-20",
+      "category": "Home",
+      "image": "",
+      "tags": [
+        "Songwol",
+        "KoreanTowel",
+        "MadeInKorea",
+        "KoreanGoods"
+      ]
+    },
+    {
+      "id": "songwol-hotel-towel-3",
+      "name": "SONGWOL Hotel Collection Premium Towel Set, 3 Piece, White",
+      "description": "The plain white version of the same line. Useful if you want to compare a Korean-woven towel against whatever you already own before committing to a full set.",
+      "price": "",
+      "url": "https://www.amazon.com/Songwol-Collection-Premium-Towels-Absorbent/dp/B07TS9RYP8?tag=epickor-20",
+      "category": "Home",
+      "image": "",
+      "tags": [
+        "Songwol",
+        "KoreanTowel",
+        "MadeInKorea",
+        "KoreanGoods"
+      ]
     }
   ]
 }

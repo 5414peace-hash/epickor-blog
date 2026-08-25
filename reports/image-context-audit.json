@@ -1,10 +1,10 @@
 {
   "summary": {
-    "generatedAt": "2026-08-24T11:10:48.944Z",
-    "auditedPosts": 420,
+    "generatedAt": "2026-08-25T00:41:53.485Z",
+    "auditedPosts": 421,
     "includedPrivate": false,
     "slugFilter": "",
-    "bodyImages": 1477,
+    "bodyImages": 1481,
     "affectedPosts": 96,
     "critical": 0,
     "high": 0,
@@ -15203,6 +15203,45 @@
           "url": "/assets/images/posts/424/big-mac-meal-korea.jpg",
           "alt": "The Big Mac meal on a white background: the two-patty burger with its middle bun layer visible, beside fries and a Coca-Cola.",
           "caption": "The control. ₩5,700 alone, ₩7,600 as a meal. The Big Mac is on the Korean board precisely so you can see how far the rest of it has drifted. Image: McDonald's Korea.",
+          "ext": ".jpg",
+          "exists": true
+        }
+      ],
+      "findings": []
+    },
+    {
+      "type": "blog",
+      "slug": "425",
+      "title": "Korean Towels: What 40수 and 180g Mean, and Why You Keep Being Given Them",
+      "contentPath": "content\\blog\\425.md",
+      "sourceRecord": "public\\assets\\images\\posts\\425\\image-sources.md",
+      "imageCount": 4,
+      "images": [
+        {
+          "url": "/assets/images/posts/425/songwol-woven-brand-border.jpg",
+          "alt": "Four Songwol towels folded in a stack — lime green, white, pale blue and grey — each with a coloured stripe band and the word SONGWOL woven into the border.",
+          "caption": "The brand is woven into the border, not printed on a tag. If you have been given a Korean towel, this is where to look. Image: Songwol official site.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/425/korean-towel-gsm-conversion.jpg",
+          "alt": "Chart converting six Songwol towels from the Korean 수 and gram system to GSM, showing prices from 4,500 to 9,700 won and GSM values from 500 to 611.",
+          "caption": "EpicKor chart, from Songwol's official mall, 25 August 2026.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/425/songwol-hotel-collection-labels.jpg",
+          "alt": "Four striped Songwol Hotel Collection towels laid in an overlapping fan, each with a small black woven HOTEL COLLECTION PREMIUM label at the corner.",
+          "caption": "The Hotel Collection stripes, with the woven corner label. Around ₩9,700 for the 50×100 size. Image: Songwol official site.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/425/songwol-solid-towel-stack.jpg",
+          "alt": "Four folded Songwol towels stacked — cornflower blue, cream, grey and dark brown — each with a woven decorative border band.",
+          "caption": "The plain hotel line, 40수 and 30수, ₩4,500–₩6,200 depending on weight. Image: Songwol official site.",
           "ext": ".jpg",
           "exists": true
         }
