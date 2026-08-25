@@ -394,3 +394,60 @@ IVisitKorea + **영문 위키백과 `LoL Park` 항목**. 오늘 통과한 셋(�
 다음 라운드는 씨앗 단계에서 "이 대상의 팩샷이 어디에 있는가"를 같이 물어야 한다.**
 단 2026-07-27 대표님 지시(이미지 조달 가능성은 주제 선정 5문항에 들어가지 않는다)와 충돌하지 않게,
 **선정 기준이 아니라 착수 순서의 문제로 다룬다** — 주제는 그대로 뽑되, **집필 전에 이미지부터 확인한다.**
+
+---
+
+## 18. 씨앗 라운드 3회차 — 비식품 0칸 스캔의 나머지 (2026-08-25)
+
+### 영어 핸들 실측 (14개 카테고리)
+
+| 핸들 | 분기 | 판정 |
+|---|---|---|
+| `korean tumbler` / `korean thermos` / `korean water bottle` | 10 / 10 / 10 | 미착수 (미학·다이어스포라 혼재) |
+| `korean toothpaste` | 10 — `brands`·`whitening`·`vussen`·`hydroxyapatite`·`vs american` | **통과 → 발행** |
+| `korean toothbrush` | 10 | 치약에 흡수 |
+| `korean razor` | 10 (`razor clam`·`razer` 오염) | 기각 — `dorco-razor-company-deep-dive` 자체 중복 |
+| `korean cutting board` / `korean kitchen knife` | 10 / 10 | 미착수 |
+| `korean kettle` | **4** | 기각 (수요 없음) |
+| `korean earplugs` | **5** | 기각 |
+| `korean power bank` | 10 — `airline`·`limit`·`rules`·`restriction`·`regulation` | **기각 — 커버리지** |
+| `korean pillow` | 10 | 미착수 |
+| `korean blanket` | 10 — `price in pakistan/india/bangladesh/nepal/qatar` | 기각 — **디아스포라 트랩 §1c** |
+| `korean apron` | 10 (패션 오염) | 기각 |
+
+### 보조배터리 — 각도는 진짜였는데 벽이 두꺼웠다
+
+**제품 핸들이 아니라 규제 핸들로 나온 첫 사례다.** 10분기 중 5개가
+`airline`·`limit`·`rules`·`restriction`·`regulation`이고, 자체 중복 0(기존 12편은 전부 짐싸기 목록 언급).
+행동 프레임도 완벽하다. **그런데 커버리지가 LCK급이었다** — Korea.net 영문 공식 + VisitKorea 영문 공식 +
+Korea Times + Korea JoongAng Daily + **HaniSeoul 전용 가이드가 현행 "2개 제한"까지 반영**.
+공식 기관이 영어로 직접 쓰는 주제는 우리가 들어갈 자리가 없다.
+
+### 치약 — 통과. 축은 리콜이 아니라 **불소 규제**였다
+
+씨앗은 네이버 `치약` 10분기 중 **3개가 리콜**(`뷰카 치약 리콜`·`2080치약 리콜`·`치약 리콜`)이었고,
+영어 쪽에서 `2080 toothpaste`에 **`recall`과 `scandal`이 둘 다** 있는데 서술형 `korean toothpaste recall`은 **0분기**였다.
+
+**하지만 리콜 자체는 쓸 수 없었다.** 2026-01 2080 건은 Korea Times·JoongAng·Aju Press가 이미 영어로 보도했다.
+파고 들어가니 **상시 답이 없는 질문이 따로 있었다** — `korean toothpaste fluoride` 9분기,
+그중 **`does korean toothpaste have fluoride`**와 **`korean high fluoride toothpaste`**.
+영어권 커버리지는 치의학 학술지와 나무위키 영문 미러뿐이고 **소비자용 설명이 0건**이다.
+
+**그리고 답이 한국 특유였다**: 고시 두 개가 어긋나 있다. 상세는 FACTS 참조.
+발행: **`426` Korean Toothpaste: Why It Says 고불소, and How to Check Your Tube** (2,815단어, 100/100).
+
+**LCK에서 배운 구별을 이번에 실제로 썼다.** "리콜 정리"는 *내 편집 구상*이었고(뉴스가 이미 점유),
+"내 치약에 불소가 들어 있나"는 *독자의 미응답 질문*이었다(자동완성이 증명). 후자로 갈아탄 것이 이 건의 전부다.
+
+### 이미지 규칙이 처음으로 순서대로 작동했다
+
+**집필 전에 이미지를 봤고**, 그 덕분에 세 가지를 미리 알았다: ① 커먼즈에 한국 치약이 없다(2건 중
+1건은 **북한 광고**) ② `2080.com`은 브랜드가 아니라 **중국 도메인 판매 사이트**다 ③ **회수된 제품은
+사진이 존재할 수 없다.** ③이 특히 중요했다 — 그걸 먼저 알았기 때문에 그 섹션을 팩샷이 아니라
+**라벨 도해**로 설계했다. 어제였다면 다 쓰고 나서 사진을 찾다가 막혔을 자리다.
+
+### 누계
+
+**0칸 스캔 방법으로 발행 3편** (`423` 햇반 · `425` 수건 · `426` 치약).
+영어 핸들 우선 방식은 여전히 200회 가까이 연속 실패 중이다. 남은 미착수 0칸:
+텀블러·보온병 / 도마·칼 / 침구·베개.
