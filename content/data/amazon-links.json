@@ -2958,6 +2958,51 @@
         "MadeInKorea",
         "KoreanGoods"
       ]
+    },
+    {
+      "id": "median-dental-iq-93",
+      "name": "Median Advanced Dental IQ Toothpaste 93% Original, 120g x 3",
+      "description": "Amorepacific's mainstream Korean tartar-care line, sold abroad under the same Median name it uses at home. The ordinary formulation, so expect the roughly 1,000 ppm fluoride level that Korea's standard manufacturing rule allows.",
+      "price": "",
+      "url": "https://www.amazon.com/Median-Advanced-Toothpaste-120gx3bottle-4-2ozx3bottle/dp/B07MXBHZFK?tag=epickor-20",
+      "category": "Beauty",
+      "image": "",
+      "tags": [
+        "Median",
+        "KoreanToothpaste",
+        "Amorepacific",
+        "KoreanGoods"
+      ]
+    },
+    {
+      "id": "median-dental-iq-whitening",
+      "name": "Median Dental IQ 93% Whitening Toothpaste, 120g x 3",
+      "description": "The whitening variant of the same Median line. Useful if you want to compare two Korean formulations against each other rather than against a Western tube.",
+      "price": "",
+      "url": "https://www.amazon.com/Median-Dental-Toothpaste-whitening-toothpaste/dp/B0D7N358S8?tag=epickor-20",
+      "category": "Beauty",
+      "image": "",
+      "tags": [
+        "Median",
+        "KoreanToothpaste",
+        "Whitening",
+        "KoreanGoods"
+      ]
+    },
+    {
+      "id": "aekyung-2080-cheongeuncha",
+      "name": "Aekyung 2080 Cheong-En Tea Toothpaste 130g, 3-pack",
+      "description": "A green-tea variant of Korea's best-known toothpaste brand, and not one of the six imported items Aekyung recalled in January 2026. Check the manufacturer and country of manufacture printed on the back of whatever arrives.",
+      "price": "",
+      "url": "https://www.amazon.com/Aekyung-Cheong-En-Toothpaste-Korean-original/dp/B00KR3IN2C?tag=epickor-20",
+      "category": "Beauty",
+      "image": "",
+      "tags": [
+        "2080",
+        "Aekyung",
+        "KoreanToothpaste",
+        "KoreanGoods"
+      ]
     }
   ]
 }

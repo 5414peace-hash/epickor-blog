@@ -1,10 +1,10 @@
 {
   "summary": {
-    "generatedAt": "2026-08-25T00:41:53.485Z",
-    "auditedPosts": 421,
+    "generatedAt": "2026-08-25T02:26:02.390Z",
+    "auditedPosts": 422,
     "includedPrivate": false,
     "slugFilter": "",
-    "bodyImages": 1481,
+    "bodyImages": 1485,
     "affectedPosts": 96,
     "critical": 0,
     "high": 0,
@@ -15242,6 +15242,45 @@
           "url": "/assets/images/posts/425/songwol-solid-towel-stack.jpg",
           "alt": "Four folded Songwol towels stacked — cornflower blue, cream, grey and dark brown — each with a woven decorative border band.",
           "caption": "The plain hotel line, 40수 and 30수, ₩4,500–₩6,200 depending on weight. Image: Songwol official site.",
+          "ext": ".jpg",
+          "exists": true
+        }
+      ],
+      "findings": []
+    },
+    {
+      "type": "blog",
+      "slug": "426",
+      "title": "Korean Toothpaste: Why It Says 고불소, and How to Check Your Tube",
+      "contentPath": "content\\blog\\426.md",
+      "sourceRecord": "public\\assets\\images\\posts\\426\\image-sources.md",
+      "imageCount": 4,
+      "images": [
+        {
+          "url": "/assets/images/posts/426/vuca-classic-high-fluoride.jpg",
+          "alt": "Four tubes of VUCA Classic high-fluoride toothpaste beside its box, which reads VUCA CLASSIC HIGH FLUORIDE TOOTHPASTE and 뷰카 클래식 고불소 구취케어 비건치약, aqua mint, 110g",
+          "caption": "The words \"HIGH FLUORIDE TOOTHPASTE\" printed in English on a Korean tube. Photo: VUCA (뷰카), 케이보은제약 official store.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/426/korea-toothpaste-fluoride-rules.jpg",
+          "alt": "Chart: Korea's fluoride ceiling is set by two rules that disagree. The licensing rule permits 1,500 ppm; the standard manufacturing rule caps total fluoride at 1,000 ppm. Timeline from 2014 to 2026",
+          "caption": "The two notices, and how the gap played out. Chart: EpicKor, from the notices themselves and MFDS product registrations.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/426/korean-toothpaste-label-check.jpg",
+          "alt": "Chart: what to read on the back of a Korean toothpaste tube — manufacturer, country of manufacture, fluoride content sentence, lot number, use-by date, with the 2026 recall markers for each",
+          "caption": "Five legally required fields. Two of them settle both recalls. Chart: EpicKor.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/426/vuca-junior-1450-grape.jpg",
+          "alt": "Four tubes of VUCA junior grape-flavour vegan toothpaste beside their box, marked JUNIOR MILD 1450 TOOTHPASTE and 주니어 마일드 고불소 비건 치약, 110g",
+          "caption": "A junior tube printing 1450 on the front. Korea distinguishes 저불소 (low-fluoride, for young children) from 고불소 (high-fluoride) as separate product lines. Photo: VUCA official store.",
           "ext": ".jpg",
           "exists": true
         }
