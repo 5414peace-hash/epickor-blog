@@ -41,7 +41,7 @@
   "tier3": 26,
   "alreadyRefreshed": 33,
   "excluded": 4,
-  "pushPending": 8
+  "pushPending": 7
  },
  "queue": [
   {
@@ -671,8 +671,8 @@
    "humanImpressions": 332,
    "sitePosition": 6.14,
    "specApplied": true,
-   "workedOn": null,
-   "status": "pending",
+   "workedOn": "2026-08-26 커버리지 보강 (344와 같은 레버 — 제목이 이미 최대 쿼리 `yonsei cream bread` 86노출을 정면으로 받고 있다). 기준선(60일): 52쿼리 332노출 2클릭. `yonsei cream bread` 86노출 6.2위 / `yonsei bread` 39노출 7.4위 / `yonsei milk cream bread` 32노출 6.3위 / **칼로리 클러스터 3쿼리 21노출 8.0~8.8위** — 쿼리가 `calories 300 500` `400 kcal` `400 500` 처럼 숫자를 더듬고 있는데 본문에 calorie·kcal이 0회였다. 한국 영양DB 2곳(인아웃·지니어트) 교차검증: 130g 401~402kcal, **포화지방 12g = 1일 기준치의 80%**, 지방이 열량의 56%. 영양표 + 초코·시즌 변형 열량 + FAQ 추가하고 `When to Skip It`에 그 수치를 붙였다. 판정 9/23, **순위로**.",
+   "status": "worked",
    "note": null
   },
   {
