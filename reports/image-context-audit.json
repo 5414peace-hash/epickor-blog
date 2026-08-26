@@ -1,10 +1,10 @@
 {
   "summary": {
-    "generatedAt": "2026-08-26T05:38:44.254Z",
-    "auditedPosts": 423,
+    "generatedAt": "2026-08-26T05:47:21.376Z",
+    "auditedPosts": 424,
     "includedPrivate": false,
     "slugFilter": "",
-    "bodyImages": 1488,
+    "bodyImages": 1491,
     "affectedPosts": 96,
     "critical": 0,
     "high": 0,
@@ -15313,6 +15313,38 @@
           "url": "/assets/images/posts/427/jangsoo-1901-altia-modern-stone-bed.jpg",
           "alt": "A modern Korean stone bed with an upholstered fabric headboard and a white marble sleeping surface.",
           "caption": "장수돌침대 1901 알티아, king, ₩7,160,000. Marble surface, upholstered headboard — the category did not stay in the 1990s. Photo: 장수마켓 official product listing.",
+          "ext": ".jpg",
+          "exists": true
+        }
+      ],
+      "findings": []
+    },
+    {
+      "type": "blog",
+      "slug": "428",
+      "title": "Postick: The Korean Snack That Used to Come With a Ketchup Packet",
+      "contentPath": "content\\blog\\428.md",
+      "sourceRecord": "public\\assets\\images\\posts\\428\\image-sources.md",
+      "imageCount": 3,
+      "images": [
+        {
+          "url": "/assets/images/posts/428/nongshim-postick-pack.jpg",
+          "alt": "A blue bag of Nongshim Postick, with the Korean 포스틱 logo and a picture of ridged potato sticks on the front.",
+          "caption": "The 84g bag of 포스틱. The English on the pack reads \"PoStick!\" and \"Since 1980.\" Image: Nongshim official brand page.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/428/nongshim-postick-brand-mascots.jpg",
+          "alt": "Nongshim's Postick brand illustration: the blue pack surrounded by loose ridged potato sticks, with the brand's sunglasses-wearing mascot characters in black suits.",
+          "caption": "Nongshim's own brand artwork. The ridges on the sticks are the point — they are what holds seasoning, which turns out to matter. Image: Nongshim official brand page.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/428/postick-price-per-100g.jpg",
+          "alt": "Line chart of Postick's price per 100g from 1989 to 2026, rising from ₩316 to ₩2,024, with pack weight moving 95g to 70g to 84g.",
+          "caption": "Price per 100g, not price per bag — the bag changed size twice, so per-bag prices understate the change. Chart: EpicKor, from the price points listed below.",
           "ext": ".jpg",
           "exists": true
         }
