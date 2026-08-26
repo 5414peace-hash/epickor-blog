@@ -20,6 +20,15 @@ const nextConfig: NextConfig = {
   async redirects() {
     // URL 매핑 파일에서 리다이렉트 생성
     return [
+      // Instagram bio link. The bio shows a short branded path; the redirect
+      // attaches the UTM so GA4 can separate Instagram arrivals from the
+      // ~69% of sessions that land in `direct` with no referrer. Kept as a
+      // 307 on purpose: a 301 gets cached in browsers and is hard to repoint.
+      {
+        source: '/ig',
+        destination: '/?utm_source=instagram&utm_medium=bio',
+        permanent: false,
+      },
       {
         source: '/blog/:id(\\d{3})-:slug(.*)',
         destination: '/blog/:id',
