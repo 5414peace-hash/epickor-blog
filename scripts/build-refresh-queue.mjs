@@ -102,6 +102,37 @@ const FOOD_TITLE = /snack|ramyun|ramyeon|ramen|noodle|chip|convenience|candy|bis
  * Kept explicit with reasons, the same way EXCLUDE is, so the next reader can
  * see what the impression pool is made of instead of rediscovering it.
  */
+/**
+ * Slugs enrolled in the 2026-09-23 refresh experiment, read from the baseline
+ * rather than kept as a prose list.
+ *
+ * Why this is computed: the prose version of this list lived in HANDOFF and
+ * session notes, and it was both incomplete and wrong. On 2026-08-25 `153` was
+ * refreshed as push-lane work without anyone checking, which cost the control
+ * arm a page. On 2026-08-26 the carried-forward list read "043, 256, 071" —
+ * `071` is not in an arm at all (it is the separate internal-link experiment),
+ * and `140` and `274` are, and both had just been recommended as next targets.
+ * Editing a page in either arm before the judgement date destroys its baseline,
+ * so the check has to happen automatically or it does not happen.
+ */
+function loadExperimentArms() {
+  const file = 'output/strategy/refresh-baseline.json';
+  if (!fs.existsSync(file)) return { arms: new Set(), note: 'baseline file missing' };
+  const j = JSON.parse(fs.readFileSync(file, 'utf8'));
+  const arms = new Set();
+  for (const key of ['treatment', 'control', 'queueArm']) {
+    for (const slug of j[key]?.slugs || []) arms.add(String(slug));
+  }
+  for (const slug of j.tightSubset?.treatmentSlugs || []) arms.add(String(slug));
+  for (const slug of j.tightSubset?.controlSlugs || []) arms.add(String(slug));
+  for (const pair of j.pairs || []) {
+    if (pair.treatment) arms.add(String(pair.treatment));
+    if (pair.control) arms.add(String(pair.control));
+  }
+  return { arms, judgeOn: j.judgeOn || '2026-09-23' };
+}
+const EXPERIMENT = loadExperimentArms();
+
 const PUSH_EXCLUDE = {
   '090': 'dead-end 정의형 (CLAUDE.md) — 4위에서도 CTR 0.3%대',
   '082': 'dead-end 정의형 (CLAUDE.md)',
@@ -381,6 +412,7 @@ const push = posts
     humanImpressions: p.push.humanImpressions,
     sitePosition: p.gsc?.position ?? null,
     specApplied: p.specApplied,
+    inExperimentArm: EXPERIMENT.arms.has(String(p.slug)),
     workedOn: PUSH_WORKED[p.slug] || null,
     status: PUSH_WORKED[p.slug] ? 'worked' : (prevStatus[p.slug]?.status === 'worked' ? 'worked' : 'pending'),
     note: prevStatus[p.slug]?.note || null,

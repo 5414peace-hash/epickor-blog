@@ -559,6 +559,7 @@
    "humanImpressions": 5153,
    "sitePosition": 6.88,
    "specApplied": true,
+   "inExperimentArm": false,
    "workedOn": "2026-08-20 내부링크 3→11. 기준선: `deli manjoo` 3,336노출 7.0위 0.36% / `delimanjoo` 2,564노출 7.5위 0.27%. 판정 9/23, **순위로** (오타 쿼리 제외). 상세 output/strategy/071-internal-link-experiment.md",
    "status": "worked",
    "note": null
@@ -575,6 +576,7 @@
    "humanImpressions": 842,
    "sitePosition": 8.63,
    "specApplied": false,
+   "inExperimentArm": true,
    "workedOn": null,
    "status": "pending",
    "note": null
@@ -591,6 +593,7 @@
    "humanImpressions": 1064,
    "sitePosition": 10.83,
    "specApplied": true,
+   "inExperimentArm": true,
    "workedOn": "2026-08-25 사실 갱신. 기준선(90일): 79쿼리 2,057노출 14클릭, 클러스터 전체가 8.9~10.8위 — `isaac toast sauce` 1,105노출 9.2위 / `where to buy` 179노출 10.8위이지만 CTR 2.8%로 이미 전환 중 / `isaac toast jam` 168노출 8.9위 클릭 0. 넣은 것: 2026-04 해외 전용 수출 결정과 그 이유(가맹점 매출 보호 — 국내 미판매의 진짜 원인), 브랜드 과일잼 출시 계획(jam 쿼리에 직결), 아마존 US 부재 재검증. 판정 9/23, **순위로**.",
    "status": "worked",
    "note": null
@@ -607,6 +610,7 @@
    "humanImpressions": 1601,
    "sitePosition": 9.38,
    "specApplied": true,
+   "inExperimentArm": true,
    "workedOn": null,
    "status": "pending",
    "note": null
@@ -623,6 +627,7 @@
    "humanImpressions": 543,
    "sitePosition": 6.25,
    "specApplied": true,
+   "inExperimentArm": false,
    "workedOn": "2026-08-26 제목/의도 정렬 (내부링크가 아니라 **제목 레버**를 시험한다 — 071과 다른 레버를 써야 9/23에 둘을 구별할 수 있다). 기준선(60일): 85쿼리 543노출 2클릭 0.37%. `korean cider` 111노출 6.3위 0클릭 / 알코올 클러스터 7쿼리 88노출 4.2~8.4위 0클릭 / `chilsung cider vs sprite` 89노출 5.5위 1클릭(유일) / `chilsung cider` 46노출 6.5위 0클릭 / halal 26노출 7.1~8.2위. 본문은 이미 전부 답하고 있었고 결함은 포장이었다 — 제목이 트리비아(\"Beat Sprite by 11 Years\")를 약속하는데 검색자는 예/아니오를 묻고 있었다. 제목을 `Is Korean Cider Alcoholic? Chilsung Cider vs Sprite`로 바꾸고 알코올·카페인·할랄 Q&A를 6번째에서 2번째로 올렸다. 판정 9/23, **순위로**.",
    "status": "worked",
    "note": null
@@ -639,6 +644,7 @@
    "humanImpressions": 684,
    "sitePosition": 7.07,
    "specApplied": true,
+   "inExperimentArm": false,
    "workedOn": "2026-08-26 제목/의도 정렬 + 가격 갱신 (365와 같은 레버). 기준선(60일): 81쿼리 685노출 **0클릭**. 칼피스 비교 클러스터 4쿼리 252노출 5.7~7.8위 0클릭(최대 수요) / 알코올 3쿼리 98노출 **2.8~7.1위** 0클릭 / `what does milkis taste like` 56노출 9.7위 / `milkis` 48노출 2.6위 / 정작 `milkis flavours`+`flavors`는 43노출뿐. **제목이 4번째로 큰 의도를 이름으로 달고 있었다.** `Milkis vs Calpis, and Whether Korea's Milk Soda Has Alcohol`로 바꾸고 칼피스 비교를 3번째에서 2번째로 올렸다. 가격은 2023-06 GS25 자료가 박혀 있어 2026-04 세븐일레븐 1+1(₩1,500→₩750)로 갱신, 출처 명시. 결정 지점(가격 섹션)에 아마존 CTA 1개 추가 — 아마존 클릭 병목이 이 작업의 목적이다. 판정 9/23, **순위로**.",
    "status": "worked",
    "note": null
@@ -655,6 +661,7 @@
    "humanImpressions": 2571,
    "sitePosition": 7.05,
    "specApplied": false,
+   "inExperimentArm": true,
    "workedOn": null,
    "status": "pending",
    "note": null
@@ -671,6 +678,7 @@
    "humanImpressions": 332,
    "sitePosition": 6.14,
    "specApplied": true,
+   "inExperimentArm": false,
    "workedOn": "2026-08-26 커버리지 보강 (344와 같은 레버 — 제목이 이미 최대 쿼리 `yonsei cream bread` 86노출을 정면으로 받고 있다). 기준선(60일): 52쿼리 332노출 2클릭. `yonsei cream bread` 86노출 6.2위 / `yonsei bread` 39노출 7.4위 / `yonsei milk cream bread` 32노출 6.3위 / **칼로리 클러스터 3쿼리 21노출 8.0~8.8위** — 쿼리가 `calories 300 500` `400 kcal` `400 500` 처럼 숫자를 더듬고 있는데 본문에 calorie·kcal이 0회였다. 한국 영양DB 2곳(인아웃·지니어트) 교차검증: 130g 401~402kcal, **포화지방 12g = 1일 기준치의 80%**, 지방이 열량의 56%. 영양표 + 초코·시즌 변형 열량 + FAQ 추가하고 `When to Skip It`에 그 수치를 붙였다. 판정 9/23, **순위로**.",
    "status": "worked",
    "note": null
@@ -687,6 +695,7 @@
    "humanImpressions": 503,
    "sitePosition": 11.58,
    "specApplied": false,
+   "inExperimentArm": false,
    "workedOn": null,
    "status": "pending",
    "note": null
@@ -703,6 +712,7 @@
    "humanImpressions": 726,
    "sitePosition": 7.6,
    "specApplied": false,
+   "inExperimentArm": false,
    "workedOn": null,
    "status": "pending",
    "note": null
@@ -719,6 +729,7 @@
    "humanImpressions": 624,
    "sitePosition": 7.55,
    "specApplied": true,
+   "inExperimentArm": true,
    "workedOn": null,
    "status": "pending",
    "note": null
@@ -735,6 +746,7 @@
    "humanImpressions": 930,
    "sitePosition": 9.39,
    "specApplied": false,
+   "inExperimentArm": false,
    "workedOn": null,
    "status": "pending",
    "note": null
@@ -751,6 +763,7 @@
    "humanImpressions": 382,
    "sitePosition": 6.42,
    "specApplied": true,
+   "inExperimentArm": false,
    "workedOn": "2026-08-26 커버리지 보강 (365/360과 다른 레버 — 이 글은 제목이 이미 최대 쿼리에 맞아 있었다). 기준선(60일): 78쿼리 382노출 3클릭. `bacchus drink` 67노출 8.1위 / `bacchus f` 54노출 5.4위 2클릭 / `bacchus d vs f` 33노출 4.4위 0클릭 / **`is bacchus d bad for you` 38노출 10.5~10.8위** ← 본문에 \"bad for you\"·\"side effect\"·\"safe\"가 0회였다. 동아제약 공식 제품 페이지에서 실측: D·F **둘 다 카페인 30mg**(같다), F에만 DL-카르니틴 100mg, 용법 \"만 15세 이상 1일 1회 1병\"이 두 제품 동일. 안전성 H2 + FAQ 추가, 표에 카페인·카르니틴·용법 행 추가. 판정 9/23, **순위로** — 목표는 10.5위 → 페이지 1.",
    "status": "worked",
    "note": null
