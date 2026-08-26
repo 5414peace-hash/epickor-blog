@@ -41,7 +41,7 @@
   "tier3": 26,
   "alreadyRefreshed": 33,
   "excluded": 4,
-  "pushPending": 9
+  "pushPending": 8
  },
  "queue": [
   {
@@ -751,8 +751,8 @@
    "humanImpressions": 382,
    "sitePosition": 6.42,
    "specApplied": true,
-   "workedOn": null,
-   "status": "pending",
+   "workedOn": "2026-08-26 커버리지 보강 (365/360과 다른 레버 — 이 글은 제목이 이미 최대 쿼리에 맞아 있었다). 기준선(60일): 78쿼리 382노출 3클릭. `bacchus drink` 67노출 8.1위 / `bacchus f` 54노출 5.4위 2클릭 / `bacchus d vs f` 33노출 4.4위 0클릭 / **`is bacchus d bad for you` 38노출 10.5~10.8위** ← 본문에 \"bad for you\"·\"side effect\"·\"safe\"가 0회였다. 동아제약 공식 제품 페이지에서 실측: D·F **둘 다 카페인 30mg**(같다), F에만 DL-카르니틴 100mg, 용법 \"만 15세 이상 1일 1회 1병\"이 두 제품 동일. 안전성 H2 + FAQ 추가, 표에 카페인·카르니틴·용법 행 추가. 판정 9/23, **순위로** — 목표는 10.5위 → 페이지 1.",
+   "status": "worked",
    "note": null
   }
  ]
