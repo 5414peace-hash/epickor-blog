@@ -41,7 +41,7 @@
   "tier3": 26,
   "alreadyRefreshed": 33,
   "excluded": 4,
-  "pushPending": 10
+  "pushPending": 9
  },
  "queue": [
   {
@@ -629,7 +629,7 @@
   },
   {
    "slug": "360",
-   "title": "Milkis Flavours: Which Korean Milk Soda to Pick, and How Koreans Drink It",
+   "title": "Milkis vs Calpis, and Whether Korea's Milk Soda Has Alcohol",
    "convertible49": 357,
    "band49Impressions": 358,
    "deadShare": 0,
@@ -639,8 +639,8 @@
    "humanImpressions": 684,
    "sitePosition": 7.07,
    "specApplied": true,
-   "workedOn": null,
-   "status": "pending",
+   "workedOn": "2026-08-26 제목/의도 정렬 + 가격 갱신 (365와 같은 레버). 기준선(60일): 81쿼리 685노출 **0클릭**. 칼피스 비교 클러스터 4쿼리 252노출 5.7~7.8위 0클릭(최대 수요) / 알코올 3쿼리 98노출 **2.8~7.1위** 0클릭 / `what does milkis taste like` 56노출 9.7위 / `milkis` 48노출 2.6위 / 정작 `milkis flavours`+`flavors`는 43노출뿐. **제목이 4번째로 큰 의도를 이름으로 달고 있었다.** `Milkis vs Calpis, and Whether Korea's Milk Soda Has Alcohol`로 바꾸고 칼피스 비교를 3번째에서 2번째로 올렸다. 가격은 2023-06 GS25 자료가 박혀 있어 2026-04 세븐일레븐 1+1(₩1,500→₩750)로 갱신, 출처 명시. 결정 지점(가격 섹션)에 아마존 CTA 1개 추가 — 아마존 클릭 병목이 이 작업의 목적이다. 판정 9/23, **순위로**.",
+   "status": "worked",
    "note": null
   },
   {
