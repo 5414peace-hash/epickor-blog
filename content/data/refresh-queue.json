@@ -41,7 +41,7 @@
   "tier3": 26,
   "alreadyRefreshed": 33,
   "excluded": 4,
-  "pushPending": 7
+  "pushPending": 6
  },
  "queue": [
   {
@@ -702,7 +702,7 @@
   },
   {
    "slug": "329",
-   "title": "BTS Part 3: Korean Military Service, the 2026 Reunion, and the World Cup",
+   "title": "Have All BTS Members Finished Korean Military Service? 2026 Status",
    "convertible49": 292,
    "band49Impressions": 327,
    "deadShare": 0.003,
@@ -713,8 +713,8 @@
    "sitePosition": 7.6,
    "specApplied": false,
    "inExperimentArm": false,
-   "workedOn": null,
-   "status": "pending",
+   "workedOn": "2026-08-26 제목/의도 정렬 + 답 표면화 (365·360과 같은 레버). 기준선(60일): 194쿼리 730노출 3클릭 0.41%. 수요가 압도적으로 **상태 질문**이다 — `bts all members completed military service 2026` 83노출 8.8위 / `...military service status 2026` 59노출 9.1위 / `...completed 2026` 55노출 8.8위 / 32노출 8.3위 등 **같은 질문의 변주로 260노출 이상이 8.3~9.7위에 클릭 0**. 본문은 정답을 갖고 있었지만 **제목이 연재 챕터(`BTS Part 3`)를 약속했고 답은 1,000단어 뒤 산문에 묻혀 있었다.** 제목을 `Have All BTS Members Finished Korean Military Service? 2026 Status`로 바꾸고 **전원 입대·전역일 표를 최상단에 신설**(진 2024-06-12·제이홉 2024-10-17 확인해 추가, 슈가가 먼저 입대하고 늦게 전역한 이유=사회복무요원 21개월 설명), FAQ 2개·출처 1개 추가. **내부 경쟁 확인함**: BTS/병역 글이 5편인데 `329`가 3,298노출 7.6위로 사실상 독점(`044` 126노출 18.6위, `142` 1노출). 판정 9/23, **순위로**.",
+   "status": "worked",
    "note": null
   },
   {
