@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-08-25",
+ "generatedAt": "2026-08-26",
  "generator": "scripts/build-refresh-queue.mjs",
  "rule": "CLAUDE.md 실행계획 챕터 1 — 하루 리듬 \"신규 2편 + 리프레시 1편\". 순서: tier 1 → 2 → 3, 각 tier 안에서는 GSC 노출 내림차순 (이 큐 전체의 클릭 최대값이 7이라 클릭은 정렬 신호가 되지 못한다).",
  "gate": "스펙 적용 전에 \"이 글이 아직 사실인가\"를 먼저 검사한다 (CLAUDE.md 2026-08-04 신설). 4회 연속 그쪽이 더 값어치 있었다.",
@@ -41,7 +41,7 @@
   "tier3": 26,
   "alreadyRefreshed": 33,
   "excluded": 4,
-  "pushPending": 11
+  "pushPending": 10
  },
  "queue": [
   {
@@ -613,7 +613,7 @@
   },
   {
    "slug": "365",
-   "title": "Korean Cider Isn't Cider: Chilsung, the Soda That Beat Sprite by 11 Years",
+   "title": "Is Korean Cider Alcoholic? Chilsung Cider vs Sprite",
    "convertible49": 456,
    "band49Impressions": 475,
    "deadShare": 0.034,
@@ -623,8 +623,8 @@
    "humanImpressions": 543,
    "sitePosition": 6.25,
    "specApplied": true,
-   "workedOn": null,
-   "status": "pending",
+   "workedOn": "2026-08-26 제목/의도 정렬 (내부링크가 아니라 **제목 레버**를 시험한다 — 071과 다른 레버를 써야 9/23에 둘을 구별할 수 있다). 기준선(60일): 85쿼리 543노출 2클릭 0.37%. `korean cider` 111노출 6.3위 0클릭 / 알코올 클러스터 7쿼리 88노출 4.2~8.4위 0클릭 / `chilsung cider vs sprite` 89노출 5.5위 1클릭(유일) / `chilsung cider` 46노출 6.5위 0클릭 / halal 26노출 7.1~8.2위. 본문은 이미 전부 답하고 있었고 결함은 포장이었다 — 제목이 트리비아(\"Beat Sprite by 11 Years\")를 약속하는데 검색자는 예/아니오를 묻고 있었다. 제목을 `Is Korean Cider Alcoholic? Chilsung Cider vs Sprite`로 바꾸고 알코올·카페인·할랄 Q&A를 6번째에서 2번째로 올렸다. 판정 9/23, **순위로**.",
+   "status": "worked",
    "note": null
   },
   {
