@@ -1,10 +1,10 @@
 {
   "summary": {
-    "generatedAt": "2026-08-26T05:47:21.376Z",
-    "auditedPosts": 424,
+    "generatedAt": "2026-08-26T23:21:26.549Z",
+    "auditedPosts": 425,
     "includedPrivate": false,
     "slugFilter": "",
-    "bodyImages": 1491,
+    "bodyImages": 1494,
     "affectedPosts": 96,
     "critical": 0,
     "high": 0,
@@ -703,7 +703,7 @@
     {
       "type": "blog",
       "slug": "329",
-      "title": "BTS Part 3: Korean Military Service, the 2026 Reunion, and the World Cup",
+      "title": "Have All BTS Members Finished Korean Military Service? 2026 Status",
       "severity": "info",
       "code": "MISSING_SOURCE_RECORD",
       "detail": "public\\assets\\images\\posts\\329\\image-sources.md"
@@ -12078,7 +12078,7 @@
     {
       "type": "blog",
       "slug": "329",
-      "title": "BTS Part 3: Korean Military Service, the 2026 Reunion, and the World Cup",
+      "title": "Have All BTS Members Finished Korean Military Service? 2026 Status",
       "contentPath": "content\\blog\\329.md",
       "sourceRecord": "",
       "imageCount": 3,
@@ -15345,6 +15345,38 @@
           "url": "/assets/images/posts/428/postick-price-per-100g.jpg",
           "alt": "Line chart of Postick's price per 100g from 1989 to 2026, rising from ₩316 to ₩2,024, with pack weight moving 95g to 70g to 84g.",
           "caption": "Price per 100g, not price per bag — the bag changed size twice, so per-bag prices understate the change. Chart: EpicKor, from the price points listed below.",
+          "ext": ".jpg",
+          "exists": true
+        }
+      ],
+      "findings": []
+    },
+    {
+      "type": "blog",
+      "slug": "429",
+      "title": "Maxim vs G7: Why Korea's Coffee Mix Tastes Nothing Like Vietnam's",
+      "contentPath": "content\\blog\\429.md",
+      "sourceRecord": "public\\assets\\images\\posts\\429\\image-sources.md",
+      "imageCount": 3,
+      "images": [
+        {
+          "url": "/assets/images/posts/429/maxim-mocha-gold-mild-100-sticks.jpg",
+          "alt": "A yellow box of Maxim Mocha Gold Mild Korean coffee mix, 100 sticks, with Korean text 모카골드 마일드 커피믹스.",
+          "caption": "맥심 모카골드 마일드, the 100-stick box that sits in most Korean office kitchens. Image: Dongsuh Foods official brand page.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/429/korea-coffee-cups-per-person.jpg",
+          "alt": "Bar chart: South Korea 405 cups of coffee per person per year, United States 318, world average 152.",
+          "caption": "Per person, per year, 2023. Chart: EpicKor, from Korean agricultural ministry figures.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/429/maxim-mocha-gold-zero-sugar.jpg",
+          "alt": "Yellow boxes of Maxim Mocha Gold Zero Sugar coffee mix, in 50-stick and 20-stick sizes.",
+          "caption": "모카골드 제로슈가, about 30 kcal a stick against the standard 50. A ten-year decline is the context for a line extension like this. Image: Dongsuh Foods official brand page.",
           "ext": ".jpg",
           "exists": true
         }
