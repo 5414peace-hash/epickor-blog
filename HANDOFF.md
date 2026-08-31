@@ -124,7 +124,7 @@
 원인 조사는 **Studio 접근 복구가 선행 조건**(아래 Blockers).
 
 
-0c. **[날짜 있음] 2026-09-01 — `225` 재작성.** KTX·SRT 통합으로 "둘 중 무엇을 고를까"라는 글의 전제 자체가 사라진다. 지금은 상단 업데이트 고지만 붙여둔 상태다. 본문 35군데가 없어질 사업자를 비교하고 있다.
+0c. **[완료 2026-09-01] `225` 재작성 + `380` 시점 갱신 + `379` 정정.** 통합은 **실제로 9/1 시행됐다**(발표를 믿지 않고 당일 재확인). `225`는 운영사 비교를 버리고 **역 선택(서울역/용산 · 수서 · 터미널)**으로 재구성 — 뼈대는 오히려 더 맞게 됐다. 새 사실 3개: 증편 주 116,000석 · **변경 수수료 규칙이 전후 7일·출발 30분 전·무료로 완화**(영어권 미보도) · **KTX-산천이 양쪽 회랑 이름이 되어 열차명으로 노선을 알 수 없다**. `letskorail.com`은 301.
 
 0d. **[대표님 판단 대기] 비즈니스 다음 후보.** 나비엔 발행 완료. 남은 후보는 **오로라월드·위닉스·락앤락**이고 **수요만 쟀고 커버리지 게이트는 미실시**다. **락앤락은 2017년 홍콩계 PE(Affinity) 인수라 소유구조 규칙 확인이 먼저**다. 문서 `output/strategy/business-candidates_2026-08-14.md`.
 
@@ -134,18 +134,17 @@
 
 0b. **[날짜 있음] 가을 행사 패키지 — 남은 3편.** 사이클 `output/strategy/keywords_2026-W34.md`(대표님 승인 완료, `378`·`379` 발행됨).
    - **자라섬재즈 — 9월 2주 집필.** 10/9~11 가평, 한불수교 140주년 프랑스 포커스, 1일권 ₩88,000. **제목에 Korea 명시 필수** — "Jarasum"만으로는 Korea 게이트 불통.
-   - **에버랜드 할로윈 — 블로커.** 2026 기간 **미발표**. 스펙 v1이 이번 달 사실을 요구하므로 발표 전 집필 불가. **8월 말 에버랜드 공식 재확인.**
+   - **에버랜드 할로윈 — 블로커 유지 (9/1 재확인함).** 2026 기간 **여전히 미발표**이고 공식 페이지는 에러를 낸다. 검색 결과는 전부 작년 패턴 기반 추정이라 쓸 수 없다. 다음 확인은 9월 중순.
    - **서울빛초롱 — 10월 1주.** 11/1~1/31 청계천은 **2차 출처**다. 집필 시 서울시 공식으로 **반드시 재검증** — 부산 예매 건에서 2차 출처가 틀렸던 전례가 있다.
-   - **부산 예매 발표 감시.** `379`는 "2026 예매 미공개"를 전제로 썼다. 2025 리듬대로면 **얼리버드가 8월 하순**이다. 발표되면 `379`에 실제 날짜·가격을 반영한다.
+   - **[완료 2026-09-01] 부산 예매 — 공식 확정, `379` 정정 완료.** 얼리버드는 **8/26 하루 저녁만 열고 종료**됐고 **정규 예매가 9/4(금) 14:00**이다. **판매처가 YES24 → NOL 티켓으로 바뀐 것**이 핵심 — 작년 안내를 따르면 엉뚱한 사이트를 본다. 가격은 공식에 없어 NOL 상품 페이지에만 있다. **검색 상위 2차 출처는 "10월 1일"로 틀렸다.**
 
 1. **레인 상태 — 뷰티(2차)는 2026-08-15 대표님 결정으로 개방됨**(CTR 게이트가 수익 축을 재지 않았다는 판단 — FACTS 참조). 현재 뷰티 3편(`388`·`395`·`396`). 1차 레인 CTR 재판정은 다음 GSC 추출에서: 직전 측정 신규 코호트 1.11%. **뷰티 6편+가 1차 레인보다 CTR 낮으면 재검토**가 기록된 반전 조건이다.
 2. **리프레시 트랙(`refresh-queue.json`) — 2026-09-23 판정까지 중단.** **단 `seeds:check` 게이트는 여기 해당하지 않는다** — 대상이 겹치지 않음을 `218` 작업 때 확인했다. 계획서가 "45편 효과를 판정한 뒤 계속 여부를 결정한다"고 게이트를 걸었는데 **판정 없이 35편을 더 태웠다**(08-06~08-12). 2026-08-12에 뒤늦게 기준선을 찍었으므로(`refresh-baseline.md`) **이제는 판정이 가능하다 — 그때까지 큐를 더 소진하지 않는다.** 남은 25편은 그대로 두는 것이 제2 대조군으로서 값어치가 있다(22편이 기준선에 기록됨). 판정이 양수로 나오면 재개하고, "차이 없음"이면 슬롯을 신규 1차 레인에 넘긴다.
 3. **`용리단길`이 `/seoul` 허브 신규 글 1순위 후보.** `275`를 쓰면서 실측이 이미 쌓였다 — 신용산역 2번 출구·용산역 1번 출구에서 도보 5~10분, 한강로2가 골목, 아모레퍼시픽 신사옥이 촉발, 미쉐린 가이드가 용산 동네 가이드 발행. **허브에 동네 12곳이 있는데 용리단길이 없다.** 익선동·연남동과 같은 층위다.
 4. **비즈니스 섹션 다음 후보는 커버리지 게이트를 먼저 통과시킨다.** 오뚜기·풀무원으로 B-2가 9편이 됐고 식품 쏠림(삼양·오뚜기·풀무원)이 생겼다. **2026-08-09 대표님 지시로 대기업·상장사 후보는 전부 기각·재론 금지** (하이트진로·대상 종가·BGF/GS리테일 포함). JMW형 중소기업만, 게이트 1번은 "영어권 기획기사가 이미 있는가"다 — FACTS 참조. **주간 비즈니스 주제는 집필 전 대표님 승인이 필요하다** — 초안부터 쓰지 말 것.
-5. **릴스 지표 기록 — 8/13·14·15 게시 후.** 예약은 2026-08-07에 완료했다(위 스냅샷). 게시되면 1h/24h/7d 조회·저장·공유·시청완료율을 `output/reels/metrics.json`에 남긴다. 저장소에 실측 조회 데이터가 아직 0건이고, **측정 없이는 조회수를 설계할 수 없다**는 게 Reels 2.2 진단의 핵심이었다.
+5. **릴스 지표 기록 (중복 항목 8번과 통합).** 착지분 `174`(7/31) · `326`/`321`/`320`(8/1~3) · 8/13~15 게시분의 1h/24h/7d 조회·저장·공유·시청완료율이 `output/reels/metrics.json`에 아직 0건이다. **측정 없이는 조회수를 설계할 수 없다**(Reels 2.2 진단). **쇼츠는 이제 데이터가 있는데 릴스는 없다** — 같은 판정을 릴스에 못 하는 이유가 이것이다.
 6. **W34 씨앗 축 변경 검토.** W33은 씨앗 31개에 5개를 건졌고 기각 사유 다수가 "수요 없음"이 아니라 **"이미 누가 썼음"**이었다. 개별 제품 열거가 마르고 있다는 신호.
 7. **`189` 꼬깔콘 — 대표님 답변 대기.** 커버리지는 통과했고 훅도 좋은데(손가락에 끼워 빼먹는다) 구글 분기가 2개뿐이다. W33에서 세 가지 표현으로 재검사했으나 4/0/8로 동일했다. **단독 발행 vs 기존 스낵 글에 섹션으로 편입** 미결.
-8. **릴스 지표 기록** — `174`(7/31), `326`/`321`/`320`(8/1~8/3)이 착지했는데 `output/reels/metrics.json`에 아직 없다. 측정 없이는 조회수를 설계할 수 없다는 게 Reels 2.2 진단의 핵심이었다.
 9. **아마존 클릭 효과 판정 (2~3주 뒤)** — 버튼(08-01)과 한 줄 링크 273편(08-01)의 합산 성적표는 **클릭 수가 35에서 얼마나 움직이는지**다. 전환율은 이미 11.43%라 병목은 클릭 수이고, 재신청 계정 `epickor-20`의 **180일 내 판매 3건** 시한에 직결된다.
 10. **사진 적은 글 나머지 53편 보강** — 08-02에 6편 완료. 세로 이미지는 **그대로 둔다**(대표님 판정). **KTO API는 장소 주제에만** — 브랜드·제품엔 무효임이 08-04에 확인됐다.
 11. **보류 항목** — 뷰티 주제(Neogen, Biodance, Medicube-vs)는 **2차 레인 게이트 통과 전까지 보류**(위 1번). Creatrip 제휴는 **폐기**(재론 금지). **UI/UX 리디자인 5안은 대표님이 "나중에 할 것"이라 명시** — 먼저 꺼내지 말 것.
@@ -153,9 +152,8 @@
 
 ## Social Distribution Next Actions
 
-1. After 22:00 KST on 2026-07-20, verify that Card News `174` published successfully on both Instagram `@epickorsnippets` and the EpicKor YouTube Community tab. Check all seven cards in order, first-card crop, caption integrity, and the YouTube clickable `/blog/174` link. The Instagram duplicate was created from an initial channel misunderstanding but remains intentionally active because the representative ended the session without requesting cancellation.
-2. Monitor the 17 scheduled legacy YouTube Shorts from Reel `137` through `158`: one Public Short per day at 21:00 KST from 2026-07-21 through 2026-08-06. Check the first two releases for processing quality, title/description rendering, comments, impressions, views, and `epickor.com` referral behavior before changing the cadence. Durable manifest: `output/youtube/legacy-shorts-137-158-manifest.json`.
-3. If the Card News `174` Community-post result is clean, use the proven YouTube workflow for the remaining approved carousels. YouTube supports up to 10 images/GIFs per Community post and accepts the current seven-card 1:1 packages. Candidate queue begins with `2026-07-15_124` and `2026-07-15_musinsa`, followed by the rows marked `ready for representative scheduling` in `public/assets/cardnews/CARDNEWS_INDEX.md`.
+1. **(1·2번 완료 — 카드뉴스 `174` 게시 확인, 레거시 쇼츠 17편 배치 종료. 그 성적이 2026-08-24·09-01 판정의 기준선 402가 됐다.)** 남은 것은 아래 3번부터다.
+3. Use the proven YouTube workflow for the remaining approved carousels. YouTube supports up to 10 images/GIFs per Community post and accepts the current seven-card 1:1 packages. Candidate queue begins with `2026-07-15_124` and `2026-07-15_musinsa`, followed by the rows marked `ready for representative scheduling` in `public/assets/cardnews/CARDNEWS_INDEX.md`.
 4. Preserve the operating cadence unless the representative changes it: Instagram card news Tuesday/Wednesday/Thursday, Instagram Reels Friday/Saturday/Sunday, YouTube Shorts daily at 21:00 during the current legacy batch. Decide a separate YouTube Community cadence after the first 1-3 posts; a practical starting test is Tuesday/Wednesday/Thursday at 22:00, one hour after the Short.
 5. Improve the Instagram website funnel before scaling carousel uploads. Instagram caption URLs are not reliably clickable, so choose and implement either a stable EpicKor profile link, a lightweight link hub, or a campaign-specific bio-link rotation. YouTube Community URLs are clickable and should keep the full `https://www.epickor.com/...` form.
 6. Phone-review the BGM variants for Reels `299/301/302` with sound on before treating them as upload masters. If approved, use the measured narration-first BGM mix as the starting point for the next three new-post Reels; if rejected, keep the approved voice-only versions.
@@ -171,6 +169,15 @@
 - Verify local build/render, public pages, all local assets, sitemap, and reverse links once each unless a failure appears.
 
 ## Recent Change
+
+- 2026-09-01: **쇼츠 최종 판정 + 날짜 걸린 3건 처리(`379`·`225`·`380`).** 재사용 규칙 셋.
+  - **사전 등록 기준을 통과해도 "검증됨"이 아닐 수 있다.** 쇼츠 배치가 기준을 통과했지만
+    **같은 규칙의 같은 배치가 앞 3편 201 · 뒤 6편 506.5로 갈렸다** — 선정 기준이 같으므로 원인일 수 없고,
+    기준선을 만든 코호트가 채널이 차갑던 시기 것이라 워밍업과 분리되지 않는다. **통과와 인과는 다르다.**
+  - **발표된 날짜는 시행일에 다시 확인한다.** 통합은 발표대로 시행됐지만, 확인 절차 자체가 규칙이다
+    (코레일 추석 예매 때 예상 날짜가 전부 틀렸다). 이번엔 확인하면서 **8월에 없던 사실 2개**를 주웠다.
+  - **행사 글은 "가격·날짜"보다 "판매처"가 먼저 낡는다.** `379`가 틀린 지점은 날짜가 아니라
+    **YES24 → NOL 티켓**이었다. 날짜만 갱신했으면 독자를 엉뚱한 사이트로 보냈을 것이다.
 
 - 2026-08-26: **발행 2 + 푸시 4 + 아마존 역방향 1회차.** 재사용 규칙 넷.
   - **손대면 안 되는 목록은 산문이 아니라 데이터에서 읽는다.** 다음 타깃으로 추천한 `140`·`274`가
@@ -215,37 +222,5 @@
   (`output/strategy/breakout-prediction_2026-08-21.md`). 게이트가 고른 `218`·`194`·`268` 리프레시 3편.
   **2회차가 이미 작업한 글을 다시 지목해 세 군데를 고쳤다** — `updatedAt`을 암묵적 `worked`로 읽기,
   이벤트 글의 제목 연도는 결손 아님, 결손 있는 글 우선. 커밋 `17a68488`·`ded0b957`·`097ffea9`·`e96eaa7a`.
-
-- 2026-08-19 (저녁): **키워드 사이클 3회차 5편 발행 (`412`~`416`) + 발행글 정정 1건.**
-  찰떡파이 · 빠다코코낫 · 자갈치 · 구운감자 · 참붕어빵. 88개 씨앗을 3배치로 돌려 고른 후보들.
-  - **대표님 사진이 오류를 잡았다.** `412`의 "땅콩 크림"은 2017년 위키 미러발 오정보였고 라벨에
-    땅콩이 없다. 정정 완료. **성분이 글의 축이면 미러 대신 라벨 전사본을 잡는다** (FACTS).
-  - **라벨의 `제조원` 필드가 OEM 관계의 1차 증거였다** — 롯데 박스에 삼진식품이 찍혀 있다.
-  - **0차 규칙 축소**: 농심USA만 팩샷을 내준다. 롯데·해태·오리온은 SPA라 바로 도표로 간다.
-  - 채팅 붙여넣기 이미지는 디스크에 안 남으므로 `public/assets/images/_inbox/` 신설.
-
-- 2026-08-19: **주간 키워드 사이클 2회차 5편 전량 발행 (`407`~`411`).**
-  누네띠네 · 붕어싸만코 · 델라페 · 회오리감자 · 카스타드. 리뷰어 5편 100/100, 라이브 200 검증.
-  각 글의 축은 여전히 **영어권에 존재하지 않는 한국어 출처 사실 하나**다.
-  - **사진이 0장이었다 — 도표 10장을 직접 만들었다.** 다섯 주제 전부에서 워터폴 전 단계가 실패했다.
-    가장 값싼 교훈: **Commons의 `Samanco`는 페루 행정구역이다.** 이제 명명된 포장 제품은
-    처음부터 도표를 전제하고 시작한다 (FACTS `## images`).
-  - **중복 감사를 씨앗이 아니라 메커니즘으로 해야 한다.** `409` 델라페가 `402` 얼음컵과 겹칠 뻔했다 —
-    이름은 달랐지만 "파우치를 별도 얼음컵에 붓는다"는 메커니즘이 같았다. 소유권 분할 + 교차링크로 해결.
-  - **`410`은 레시피 위험이 있었는데 기계를 쓰는 것으로 피했다.** 발명은 양념이 아니라 절단기다 —
-    레시피를 피하는 프레임이 동시에 더 정확한 프레임이었다.
-  - `332`의 중복 이미지 참조 제거로 `audit:image-context`가 전 등급 0건.
-
-- 2026-08-18: **주간 키워드 사이클 5편 전량 발행 (`402`~`406`) + 자체 재점검.**
-  얼음컵 · 쿨피스 · 김밥천국 · 오징어땅콩 · 자유시간. 전부 1차 레인(음식-구체), 전부 두 게이트
-  (네이버 수요 ↔ 영어 공급) 통과분. 리뷰어 5편 모두 100/100, 서로 교차링크된 클러스터.
-  - **각 글의 축은 영어권에 없는 한국어 출처 사실 하나다.** 얼음컵=CU 판매 1위·식약처 409건 중
-    부적합 4건이 전부 카페 제빙기 / 쿨피스=캡사이신은 지용성이라 쿨피스는 덮을 뿐이고 우유가 잡는데
-    유당불내증 때문에 못 놓음 / 김밥천국=상표권이 식별성 없음으로 거절돼 주인이 없음 /
-    오징어땅콩=코팅 평균 28회, 큰 땅콩 27·작은 것 29 / 자유시간=1990년 설계의도를 지금 원조가 못 지킴.
-  - **재점검이 실제 결함 2건을 잡았다: `403`·`405`에 가격이 사실상 없었다.** 리뷰어는 100/100을 줬다 —
-    스펙 v1은 리뷰어의 검사 항목이 아니다. 상세는 FACTS 2026-08-18.
-  - **이미지 8장을 직접 만들었다.** 4개 주제 모두 자유 이용 사진이 0장이었고 제조사 사이트 4곳이
-    JS 껍데기였다. 결과적으로 도표가 팩샷보다 나았다 — 28회 코팅 단면은 사진으로 못 찍는다.
 
 > 그 이전 항목은 `docs/handoff/2026-08_recent-change-log.md`로 내렸다.
