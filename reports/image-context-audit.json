@@ -1,10 +1,10 @@
 {
   "summary": {
-    "generatedAt": "2026-08-26T23:21:26.549Z",
-    "auditedPosts": 425,
+    "generatedAt": "2026-08-31T16:26:41.021Z",
+    "auditedPosts": 426,
     "includedPrivate": false,
     "slugFilter": "",
-    "bodyImages": 1494,
+    "bodyImages": 1497,
     "affectedPosts": 96,
     "critical": 0,
     "high": 0,
@@ -8295,7 +8295,7 @@
     {
       "type": "blog",
       "slug": "225",
-      "title": "KTX vs SRT vs Express Bus 2026: Korea City Travel Guide",
+      "title": "KTX vs SRT vs Express Bus in Korea: What the Merger Changed",
       "contentPath": "content\\blog\\225.md",
       "sourceRecord": "public\\assets\\images\\posts\\225\\image-sources.md",
       "imageCount": 3,
@@ -8303,14 +8303,14 @@
         {
           "url": "/assets/images/posts/225/ktx-sancheon-train.jpg",
           "alt": "A KTX-Sancheon train in Korea.",
-          "caption": "KTX is usually the first option tourists check for long-distance Korea travel, especially Seoul to Busan, Seoul to Daegu, Seoul to Daejeon, and other major rail corridors.",
+          "caption": "A KTX-Sancheon, photographed before the merger. One confusing detail worth knowing: KTX-Sancheon was already a Korail train type — so since 1 September 2026 you will see the name on trains from both Seoul Station and Suseo, and it no longer tells you which corridor you are on. Read the station, not the train name.",
           "ext": ".jpg",
           "exists": true
         },
         {
           "url": "/assets/images/posts/225/srt-daejeon-station.jpg",
-          "alt": "An SRT train at Daejeon Station.",
-          "caption": "SRT is also high-speed rail, but the Seoul-side decision is different: Suseo Station can be excellent for Gangnam and Songpa stays, while inconvenient for some central and northern Seoul hotels.",
+          "alt": "A train in SRT livery at Daejeon Station; since September 2026 these services run as KTX-Sancheon.",
+          "caption": "The branding in this photo is the part that disappeared. These are the Suseo-corridor trains, running as KTX-Sancheon since 1 September 2026 — the same trains, same track, same station. The Seoul-side decision is unchanged: Suseo is excellent for Gangnam and Songpa stays, and inconvenient for many central and northern Seoul hotels.",
           "ext": ".jpg",
           "exists": true
         },
@@ -13828,7 +13828,7 @@
     {
       "type": "blog",
       "slug": "380",
-      "title": "Korea's KTX and SRT Merge on 1 September: Cheaper Fares, One App, One Thing to Do First",
+      "title": "Korea's KTX and SRT Merged on 1 September: Cheaper Fares, One App, One Thing to Do First",
       "contentPath": "content\\blog\\380.md",
       "sourceRecord": "public\\assets\\images\\posts\\380\\image-sources.md",
       "imageCount": 3,
@@ -13836,7 +13836,7 @@
         {
           "url": "/assets/images/posts/380/srt-train-becomes-ktx-sancheon.jpg",
           "alt": "An SRT high-speed train stopped at a platform, photographed from the front quarter. The maroon SRT logo is large and clearly readable on the white nose, with unit number 209 below it, and a blue Korail commuter train is visible on the adjacent track.",
-          "caption": "The two operators, side by side on adjacent tracks — and the branding on the left is the part that disappears. From 1 September these trains run as KTX-Sancheon. Photo: Hajoon0102, Wikimedia Commons (CC BY-SA 4.0).",
+          "caption": "The two operators, side by side on adjacent tracks — and the branding on the left is the part that is now gone. Since 1 September 2026 these trains run as KTX-Sancheon. Photo: Hajoon0102, Wikimedia Commons (CC BY-SA 4.0).",
           "ext": ".jpg",
           "exists": true
         },
@@ -15377,6 +15377,38 @@
           "url": "/assets/images/posts/429/maxim-mocha-gold-zero-sugar.jpg",
           "alt": "Yellow boxes of Maxim Mocha Gold Zero Sugar coffee mix, in 50-stick and 20-stick sizes.",
           "caption": "모카골드 제로슈가, about 30 kcal a stick against the standard 50. A ten-year decline is the context for a line extension like this. Image: Dongsuh Foods official brand page.",
+          "ext": ".jpg",
+          "exists": true
+        }
+      ],
+      "findings": []
+    },
+    {
+      "type": "blog",
+      "slug": "430",
+      "title": "Korean Yuja Tea: The Jar Says 80%, the Fruit Is 40%",
+      "contentPath": "content\\blog\\430.md",
+      "sourceRecord": "public\\assets\\images\\posts\\430\\image-sources.md",
+      "imageCount": 3,
+      "images": [
+        {
+          "url": "/assets/images/posts/430/korean-yuja-tea-in-cafe-mug.jpg",
+          "alt": "A cup of Korean yuja tea in a ceramic cafe mug, the shredded yellow citrus peel clearly visible suspended in the hot liquid.",
+          "caption": "This is what a good jar looks like once it is in the cup: visible shreds of peel suspended in the liquid, not a clear syrup. The peel is the product — everything below is about how much of it you are actually paying for. Photo: Drew Lietzow, Wikimedia Commons (public domain).",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/430/yuja-citrus-junos-fruit.jpg",
+          "alt": "Ripe yuja fruit — Citrus junos — on the branch, showing the deep-yellow, heavily dimpled rind that distinguishes it from a lemon.",
+          "caption": "Yuja on the tree: small, intensely aromatic, and far more peel than juice — which is why the peel, not the juice, is what ends up in the jar. Photo: 경빈마마, Wikimedia Commons (CC BY 4.0).",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/430/yuja-tea-jar-label-math.jpg",
+          "alt": "Bar chart breaking a 1kg jar of Korean yuja tea into 40% yuja fruit, 40% sugar inside the sugar-preserve, 15% sugar added separately and 5% pear purée, with the front-of-jar 80% figure bracketed across the first two blocks.",
+          "caption": "The red bracket is the number printed on the front. The outlined block is the fruit. Chart by EpicKor from the product's own 원재료명.",
           "ext": ".jpg",
           "exists": true
         }
