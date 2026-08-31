@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-08-26",
+ "generatedAt": "2026-08-31",
  "generator": "scripts/build-refresh-queue.mjs",
  "rule": "CLAUDE.md 실행계획 챕터 1 — 하루 리듬 \"신규 2편 + 리프레시 1편\". 순서: tier 1 → 2 → 3, 각 tier 안에서는 GSC 노출 내림차순 (이 큐 전체의 클릭 최대값이 7이라 클릭은 정렬 신호가 되지 못한다).",
  "gate": "스펙 적용 전에 \"이 글이 아직 사실인가\"를 먼저 검사한다 (CLAUDE.md 2026-08-04 신설). 4회 연속 그쪽이 더 값어치 있었다.",
@@ -41,7 +41,7 @@
   "tier3": 26,
   "alreadyRefreshed": 33,
   "excluded": 4,
-  "pushPending": 6
+  "pushPending": 5
  },
  "queue": [
   {
@@ -685,7 +685,7 @@
   },
   {
    "slug": "231",
-   "title": "Korean University Rankings Beyond SKY 2026 Guide",
+   "title": "SKY vs KAIST: Choosing a Korean University by Major, Not Rank",
    "convertible49": 296,
    "band49Impressions": 300,
    "deadShare": 0.007,
@@ -696,8 +696,8 @@
    "sitePosition": 11.58,
    "specApplied": false,
    "inExperimentArm": false,
-   "workedOn": null,
-   "status": "pending",
+   "workedOn": "2026-09-01 제목/의도 정렬 + 결손 보강 (365·360과 같은 제목 레버에 344·345의 커버리지 레버를 겹쳤다 — 이 페이지는 둘 다 결손이었다). 기준선(큐 실측): 40쿼리 4~9위 **300노출 0클릭**, 사이트 순위 11.58, deadShare 0.7%·foreignShare 0.7%(즉 노출이 거의 전부 전환가능한 영어 수요). **GSC API 토큰이 죽어(invalid_grant) 쿼리 단위 기준선을 못 뽑았고, 대신 구글 자동완성으로 형태를 쟀다** — `sky university vs kaist`가 직접 뜨는데 제목이 `Korean University Rankings Beyond SKY 2026 Guide`로 **랭킹 목록**을 약속하고 있었다(SERP가 스니펫으로 끝낼 수 있는 형태). 제목을 `SKY vs KAIST: Choosing a Korean University by Major, Not Rank`로 바꾸고, 자동완성 최대 분기 두 개에 대한 결손을 채웠다 — `best university in korea for {전공}`용 **전공→학교 매핑 표 신설**, `korean university scholarships`/`GKS`용 **장학금 섹션 신설**. 교육부·대교협 2026 대학정보공시 등록금 실측(평균 ₩7,270,300 / 사립 ₩8,231,500 / 국공립 ₩4,250,000)을 넣어 ₩ 결손도 해소. **GKS 마감일은 일부러 2027 수치를 쓰지 않았다** — 검색 상위 기사가 2025-09 게재분이라 마감이 이미 지난 것이었고, 1차 확인이 안 돼 \"공고판을 보라\"로 처리했다. 판정 9/23, **순위로** — 목표는 11.58위 → 페이지 1.",
+   "status": "worked",
    "note": null
   },
   {
