@@ -1,10 +1,10 @@
 {
   "summary": {
-    "generatedAt": "2026-09-01T00:35:47.093Z",
-    "auditedPosts": 428,
+    "generatedAt": "2026-09-01T00:57:28.569Z",
+    "auditedPosts": 429,
     "includedPrivate": false,
     "slugFilter": "",
-    "bodyImages": 1503,
+    "bodyImages": 1508,
     "affectedPosts": 96,
     "critical": 0,
     "high": 0,
@@ -15473,6 +15473,52 @@
           "url": "/assets/images/posts/432/madecassol-vs-madecassol-care.jpg",
           "alt": "Side-by-side comparison: the green Madecassol Ointment box, a quasi-drug with centella only, sold at Daiso for ₩5,000 and labelled not for infected wounds; and the yellow-green Madecassol Care box, an OTC medicine with centella plus neomycin sulfate 3.5mg/g, pharmacy-only and labelled for early treatment of infected wounds.",
           "caption": "Same brand across the front, different legal class, different ingredient, opposite instruction. Korean shoppers use box colour. Images: Dongkook Pharm official product pages.",
+          "ext": ".jpg",
+          "exists": true
+        }
+      ],
+      "findings": []
+    },
+    {
+      "type": "blog",
+      "slug": "433",
+      "title": "Korean Ttukbaegi vs Dolsot, and Why Koreans Never Use Dish Soap",
+      "contentPath": "content\\blog\\433.md",
+      "sourceRecord": "public\\assets\\images\\posts\\433\\image-sources.md",
+      "imageCount": 5,
+      "images": [
+        {
+          "url": "/assets/images/posts/433/two-jjigae-in-ttukbaegi.jpg",
+          "alt": "Two ttukbaegi side by side on wooden trivets, one holding a clear green-vegetable soup and one a red jjigae still visibly bubbling with tofu, courgette and enoki mushrooms.",
+          "caption": "Two ttukbaegi on wooden trivets. Look at the right-hand pot: it is still bubbling at the table, off the heat. The trivets are not decoration — the base is hot enough to mark the table. Photo: Junho Jung, Wikimedia Commons (CC BY-SA 3.0).",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/433/dolsot-bibimbap-stone-bowl.jpg",
+          "alt": "Dolsot bibimbap in a grey stone bowl, with vegetables arranged in sections around a raw egg yolk.",
+          "caption": "A dolsot: grey, cut stone, and shaped for rice rather than liquid. The crisp layer of nurungji forms against that hot stone wall — a clay ttukbaegi will not do it as well. Photo: Sous Chef, Wikimedia Commons (CC BY 2.0).",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/433/ttukbaegi-bulgogi.jpg",
+          "alt": "Ttukbaegi bulgogi: thin sliced beef, glass noodles, mushrooms and vegetables in a dark clay pot filled with broth.",
+          "caption": "Ttukbaegi bulgogi — the brothy, noodle-heavy version of bulgogi that only really works in a pot that stays hot at the table. Photo: hyun chun kim, Wikimedia Commons (CC0).",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/433/ttukbaegi-care-rules.jpg",
+          "alt": "Three rules: no dish detergent because the pores absorb it, let it cool before it meets water because thermal shock is what cracks these, and it will not work on induction because clay has no magnetic layer.",
+          "caption": "One material fact, three practical rules. Chart by EpicKor.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/433/sundubu-jjigae-still-bubbling.jpg",
+          "alt": "Sundubu-jjigae bubbling in a dark pot with a raw egg on top, soft tofu, courgette and enoki mushrooms in red broth.",
+          "caption": "Sundubu-jjigae with the egg dropped in at the table. It cooks in the pot's stored heat — a demonstration of the whole principle rather than a garnish. Photo: titanium22, Wikimedia Commons (CC BY-SA 2.0).",
           "ext": ".jpg",
           "exists": true
         }
