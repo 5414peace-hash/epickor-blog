@@ -1,10 +1,10 @@
 {
   "summary": {
-    "generatedAt": "2026-08-31T23:55:25.293Z",
-    "auditedPosts": 426,
+    "generatedAt": "2026-09-01T00:19:10.922Z",
+    "auditedPosts": 427,
     "includedPrivate": false,
     "slugFilter": "",
-    "bodyImages": 1497,
+    "bodyImages": 1500,
     "affectedPosts": 96,
     "critical": 0,
     "high": 0,
@@ -15409,6 +15409,38 @@
           "url": "/assets/images/posts/430/yuja-tea-jar-label-math.jpg",
           "alt": "Bar chart breaking a 1kg jar of Korean yuja tea into 40% yuja fruit, 40% sugar inside the sugar-preserve, 15% sugar added separately and 5% pear purée, with the front-of-jar 80% figure bracketed across the first two blocks.",
           "caption": "The red bracket is the number printed on the front. The outlined block is the fruit. Chart by EpicKor from the product's own 원재료명.",
+          "ext": ".jpg",
+          "exists": true
+        }
+      ],
+      "findings": []
+    },
+    {
+      "type": "blog",
+      "slug": "431",
+      "title": "Korean Pain Patches: Only Two Are Sold Outside a Pharmacy",
+      "contentPath": "content\\blog\\431.md",
+      "sourceRecord": "public\\assets\\images\\posts\\431\\image-sources.md",
+      "imageCount": 3,
+      "images": [
+        {
+          "url": "/assets/images/posts/431/korean-pain-patch-where-to-buy.jpg",
+          "alt": "The decision card: convenience stores can sell 제일쿨파프 and 신신파스 아렉스, both methyl salicylate counter-irritants, 24 hours a day; pharmacies sell NSAID patches including Ketotop with 30mg ketoprofen, which is banned under 15 and carries a two-week sunlight warning.",
+          "caption": "The whole article in one card. The 24-hour option and the effective option are not the same product. Chart by EpicKor.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/431/korean-convenience-store-gs25.jpg",
+          "alt": "A GS25 convenience store on a Korean street corner in daylight, with the blue-and-white shopfront and residential blocks behind.",
+          "caption": "This is the 3am option. GS25, CU and 7-Eleven can sell you a patch — but only one of the two designated ones, and they are not the strong kind. Photo: LERK, Wikimedia Commons (CC BY-SA 4.0).",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/431/ketotop-original-40-patches.jpg",
+          "alt": "A pack of Ketotop Original, 40 patches, showing the Korean product name 케토톱, the ketoprofen 30mg declaration, and the printed indications for muscle pain, arthritis, shoulder pain and tennis elbow.",
+          "caption": "The pack tells you almost everything: 케토프로펜 30mg 함유 (contains 30mg ketoprofen), 일반의약품 (over-the-counter, pharmacy-only), the 10.3 × 6.8cm patch size, and the indications — muscle pain, arthritis, frozen shoulder, tennis elbow. Image: Handok, official product page, used for product identification.",
           "ext": ".jpg",
           "exists": true
         }
