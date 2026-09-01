@@ -1,15 +1,15 @@
 {
   "summary": {
-    "generatedAt": "2026-09-01T00:57:28.569Z",
-    "auditedPosts": 429,
+    "generatedAt": "2026-09-01T02:02:57.547Z",
+    "auditedPosts": 430,
     "includedPrivate": false,
     "slugFilter": "",
-    "bodyImages": 1508,
-    "affectedPosts": 96,
+    "bodyImages": 1513,
+    "affectedPosts": 97,
     "critical": 0,
     "high": 0,
     "medium": 0,
-    "info": 96
+    "info": 97
   },
   "findings": [
     {
@@ -707,6 +707,14 @@
       "severity": "info",
       "code": "MISSING_SOURCE_RECORD",
       "detail": "public\\assets\\images\\posts\\329\\image-sources.md"
+    },
+    {
+      "type": "blog",
+      "slug": "434",
+      "title": "Hwalmyungsu: Korea's Oldest Medicine Reaches America Without the Fizz",
+      "severity": "info",
+      "code": "MISSING_SOURCE_RECORD",
+      "detail": "public\\assets\\images\\posts\\434\\image-sources.md"
     },
     {
       "type": "business",
@@ -15524,6 +15532,58 @@
         }
       ],
       "findings": []
+    },
+    {
+      "type": "blog",
+      "slug": "434",
+      "title": "Hwalmyungsu: Korea's Oldest Medicine Reaches America Without the Fizz",
+      "contentPath": "content\\blog\\434.md",
+      "sourceRecord": "",
+      "imageCount": 5,
+      "images": [
+        {
+          "url": "/assets/images/posts/434/hwalmyungsu-timeline.jpg",
+          "alt": "Timeline: 1897 Dongwha Yakbang opens and Hwalmyungsu becomes Korea's first modern medicine; 1910 the fan trademark is registered as number 514; 1919 the shop serves as the Provisional Government's Seoul liaison office; 1967 the carbonated version launches; 1996 Guinness lists it in four categories; 2026 K.O.D reaches US shelves.",
+          "caption": "129 years in one column. The last line is the reason this article exists now. Chart by EpicKor.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/434/hwalmyungsu-product-family.jpg",
+          "alt": "The Hwalmyungsu product family: the original brown bottle, the green Gas Hwalmyungsu-Q box, the children's Kkoma Hwalmyungsu sticks, and the Hwalmyungsu-U pouches.",
+          "caption": "The full line. Left to right the family covers the original liquid, the carbonated Q, the children's sticks and the pouch format. Image: Dongwha Pharm official product page, used for product identification.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/434/hwalmyungsu-pharmacy-vs-convenience.jpg",
+          "alt": "Comparison: the pharmacy sells 까스활명수-큐, an OTC medicine with higher active content containing corydalis and not for use in pregnancy; convenience stores sell 까스활 and 미인활, quasi-drugs with lower active content.",
+          "caption": "Similar shape, similar name, different legal class. Read the name, not the colour. Chart by EpicKor.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/434/gas-hwalmyungsu-q.jpg",
+          "alt": "The green Gas Hwalmyungsu-Q box beside its brown bottle, marked SINCE 1897 and Indigestion Relief.",
+          "caption": "까스활명수-큐 in the green box. This is the one on the pharmacy shelf and the one Koreans hand you after a heavy meal. Image: Dongwha Pharm official product page.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/434/hwalmyungsu-original.jpg",
+          "alt": "The original non-carbonated Hwalmyungsu, a brown bottle beside its red and white box with the Chinese characters 活命水.",
+          "caption": "The original still version — the format the American product is based on. Image: Dongwha Pharm official product page.",
+          "ext": ".jpg",
+          "exists": true
+        }
+      ],
+      "findings": [
+        {
+          "severity": "info",
+          "code": "MISSING_SOURCE_RECORD",
+          "detail": "public\\assets\\images\\posts\\434\\image-sources.md"
+        }
+      ]
     },
     {
       "type": "business",
