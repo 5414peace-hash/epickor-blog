@@ -177,7 +177,7 @@ Photos help, but read them carefully. Look for recent images showing the actual 
 
 ## Related EpicKor guides
 
-For nearby food culture, read EpicKor's [what to drink in Korea besides soju](/blog/060), [Seoul night picnic guide](/blog/267), [Korean convenience-store food guide](/blog/177), and [Buldak ramen guide](/blog/048). If you are building a food-heavy itinerary, pair this with the [Seoul 24-hour guide](/blog/017) and [Korean rainy day food guide](/blog/065).
+For nearby food culture, read EpicKor's [what to drink in Korea besides soju](/blog/060), [Seoul night picnic guide](/blog/267), [Korean convenience-store food guide](/blog/059), and [Buldak ramen guide](/blog/048). If you are building a food-heavy itinerary, pair this with the [Seoul 24-hour guide](/blog/017) and [Korean rainy day food guide](/blog/065).
 
 ## Sources and further reading
 

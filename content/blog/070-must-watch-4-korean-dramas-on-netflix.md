@@ -57,7 +57,7 @@ Netflix's first-half 2025 engagement report said **Squid Game** reached 231 mill
 
 What makes Squid Game useful for a new viewer is not just the numbers. It is the way the show explains a core K-drama advantage: emotional stakes stay personal even when the concept is huge. The set design is iconic, but the reason people kept watching was fear, shame, family pressure, money pressure, betrayal, and the question of what someone will do when the rules are unfair.
 
-If you are building Korean-culture context around the show, pair this with EpicKor's [K-pop photocard guide](/blog/291) for fan-culture collecting logic and [Korean traditional games explainer](/blog/075) if you want to understand why childhood play can become powerful storytelling material.
+If you are building Korean-culture context around the show, pair this with EpicKor's [K-pop photocard guide](/blog/291) for fan-culture collecting logic and [Squid Game filming locations guide](/blog/339) if you want to understand why childhood play can become powerful storytelling material.
 
 <div class="affiliate-inline-cta">
   <p><strong>For watch-party context:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. If Korean shows are becoming part of your regular rotation, <a href="https://www.amazon.com/dp/B01N52C32A?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">The Kpop Dictionary</a> covers the slang subtitles flatten — the terms of address, the fandom vocabulary, and the jokes that get translated into nothing.</p>

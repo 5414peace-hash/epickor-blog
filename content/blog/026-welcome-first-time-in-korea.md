@@ -53,7 +53,7 @@ The right transfer depends on where you stay, how much luggage you have, and whe
 
 Check the last departure for the exact terminal and service if you arrive late. Do not plan around a remembered timetable. Incheon Airport's official transportation pages list current railway, bus, taxi, and late-night options. Terminal 1 and Terminal 2 are separate; verify your airline and arrival terminal.
 
-If your accommodation is outside central Seoul, compare a direct bus with traveling through Seoul Station. The train is not automatically fastest after you include transfers, station walking, and stairs. EpicKor's [Incheon Airport to Seoul transfer guide](/blog/266) helps compare the main routes.
+If your accommodation is outside central Seoul, compare a direct bus with traveling through Seoul Station. The train is not automatically fastest after you include transfers, station walking, and stairs. EpicKor's [Incheon Airport to Seoul transfer guide](/blog/202) helps compare the main routes.
 
 ![AREX concourse at Incheon Airport Terminal 1 station](/assets/images/posts/026/incheon-airport-arex-concourse.jpg)
 

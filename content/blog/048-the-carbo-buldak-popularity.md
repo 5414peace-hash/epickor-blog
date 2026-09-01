@@ -13,7 +13,7 @@ author: "EpicKor"
 
 **Carbo Buldak became global because it solves a very specific ramen problem: people want the drama of Korean spicy noodles, but many also want enough creaminess to keep eating after the first bite.** The pink packet looks cute, the sauce is serious, and the carbonara-style powder gives the heat a rounder, cheesier finish than the original fire-noodle challenge.
 
-This guide explains what Carbo Buldak is, why it spread, how to cook it without ruining the texture, and how to buy it sensibly if you are outside Korea. For a broader Korean noodle map, pair it with EpicKor's [Korean ramen guide](/blog/038), [Korean food starter pack guide](/blog/042), and [Korean convenience-store food guide](/blog/059). If you want the company and export story, read the separate [Samyang Foods Buldak business deep dive](/business/samyang-foods-buldak-global-deep-dive).
+This guide explains what Carbo Buldak is, why it spread, how to cook it without ruining the texture, and how to buy it sensibly if you are outside Korea. For a broader Korean noodle map, pair it with EpicKor's [Korean ramen guide](/blog/038), [Korean snacks guide](/blog/029), and [Korean convenience-store food guide](/blog/059). If you want the company and export story, read the separate [Samyang Foods Buldak business deep dive](/business/samyang-foods-buldak-global-deep-dive).
 
 ![Carbo Buldak ramen pack and creamy-spicy Korean noodle mood.](/assets/images/posts/048/efd079cc-5d55-40e8-921b-2785c9caab20.png)
 

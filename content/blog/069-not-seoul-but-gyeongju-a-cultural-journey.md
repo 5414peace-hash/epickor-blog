@@ -128,7 +128,7 @@ EpicKor's [Korea tourist cheat codes](/blog/084) and [Naver/Kakao map guide](/bl
 
 Spring and autumn are the most comfortable for walking. Summer can be hot and humid, especially around open historic areas. Winter is quieter but colder, and daylight planning matters.
 
-Cherry blossom season can be beautiful but crowded. Autumn color can make temple and tomb walks especially memorable. Rain is not automatically a disaster, but it changes footing, photos, and comfort. For rainy-day packing, EpicKor's [Korean rainy season guide](/blog/131) and [rainy-day food guide](/blog/065) may help.
+Cherry blossom season can be beautiful but crowded. Autumn color can make temple and tomb walks especially memorable. Rain is not automatically a disaster, but it changes footing, photos, and comfort. For rainy-day packing, EpicKor's [Korea rainy season guide](/blog/036) and [rainy-day food guide](/blog/065) may help.
 
 <div class="affiliate-inline-cta">
   <p><strong>Long-walk backup:</strong> Gyeongju is a walking-heavy city, so compare <a href="https://www.amazon.com/dp/B0CZ9M6X8Q?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">portable travel power banks</a> before relying on maps, translation, photos, and cafe searches all day.</p>

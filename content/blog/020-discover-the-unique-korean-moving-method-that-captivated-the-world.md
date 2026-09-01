@@ -162,7 +162,7 @@ For renters, also separate the moving contract from the housing contract. Deposi
 
 Korean moving culture is not only machinery. People may associate moving day with convenient delivery food such as jajangmyeon, with small housewarming gifts, or with practical shopping for the new home. Traditions vary by family, age, region, and apartment culture.
 
-If you are invited to a Korean home after a move, use EpicKor's [Korean etiquette guide](/blog/013) and [Korean home floor-culture guide](/blog/294) before assuming shoes, seating, or gifts work the same way as at home.
+If you are invited to a Korean home after a move, use EpicKor's [Korean etiquette guide](/blog/013) and [Korean floor culture guide](/blog/229) before assuming shoes, seating, or gifts work the same way as at home.
 
 <div class="affiliate-inline-cta">
   <p><strong>New-home travel kit:</strong> If your Korea stay involves a move, dorm, or long apartment stay, a <a href="https://www.amazon.com/dp/B07R3RN4D5?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korea plug adapter</a> matters more than any of it — Korea is 220V on Type F sockets, so every appliance you bring needs one from day one, and a dorm or short-let will not have spares.</p>

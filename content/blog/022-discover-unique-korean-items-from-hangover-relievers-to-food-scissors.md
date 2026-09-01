@@ -110,7 +110,7 @@ For hangover drinks, the better souvenir may be knowledge rather than a suitcase
 
 ## Related EpicKor guides
 
-For a home-cooking angle, read EpicKor's [Korean cookware starter guide](/blog/299), [ssam and Korean BBQ wrap guide](/blog/266), and [Korean pantry starter guide](/blog/277). For travel behavior around food, pair this with the [first-time Korea travel guide](/blog/026), [Korean convenience-store food guide](/blog/177), and [what to drink in Korea besides soju](/blog/060).
+For a home-cooking angle, read EpicKor's [Korean cookware starter guide](/blog/299), [ssam and Korean BBQ wrap guide](/blog/266), and [Korean pantry starter guide](/blog/277). For travel behavior around food, pair this with the [first-time Korea travel guide](/blog/026), [Korean convenience-store food guide](/blog/059), and [what to drink in Korea besides soju](/blog/060).
 
 ## Sources and further reading
 

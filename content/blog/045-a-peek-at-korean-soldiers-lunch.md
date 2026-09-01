@@ -112,7 +112,7 @@ For communication etiquette, pair this with EpicKor's [how to avoid conflict in 
 - [Korean War Armistice and Daily Life](/blog/033) - the security background behind reserve obligations.
 - [Top Jobs in Korea](/blog/039) - useful for understanding how work, status, and public duty overlap.
 - [How to Avoid Conflict in Korea](/blog/035) - for discussing sensitive topics without turning curiosity into provocation.
-- [Korean Food Starter Pack Guide](/blog/042) - for readers interested in how Korean everyday food becomes cultural shorthand.
+- [Korean everyday food guide](/blog/158) - for readers interested in how Korean everyday food becomes cultural shorthand.
 
 <div class="affiliate-inline-cta">
   <p><strong>Language for real conversations:</strong> If you are asking Korean friends about service, reserve training, or public duty, compare <a href="https://www.amazon.com/dp/1838691537?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean phrasebooks</a> so your questions sound respectful rather than blunt.</p>

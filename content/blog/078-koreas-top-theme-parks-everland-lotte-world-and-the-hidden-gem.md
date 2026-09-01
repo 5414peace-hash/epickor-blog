@@ -76,7 +76,7 @@ Weather should decide more than hype. In summer, heat and humidity can make outd
 
 Lotte World is the best bad-weather default because of its indoor structure. Everland is strongest in spring, autumn, mild winter days, or clear festival nights. Korean Folk Village is most comfortable when walking outside feels pleasant.
 
-For broader seasonal planning, read EpicKor's [Korea rainy season guide](/blog/131), [Hangang summer guide](/blog/066), and [Korea tourist cheat-code guide](/blog/084).
+For broader seasonal planning, read EpicKor's [Korea rainy season guide](/blog/036), [Hangang summer guide](/blog/066), and [Korea tourist cheat-code guide](/blog/084).
 
 <div class="table-scroll">
   <table>

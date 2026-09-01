@@ -10,7 +10,7 @@
 4. Read only files named under Active Work or the user request.
 5. Search the archive narrowly with `rg` only for a specific slug, decision, or incident.
 
-## Current Snapshot - 2026-09-01 (`430`·`431`·`432` 발행 · 푸시 `231` · 쇼츠 판정 · 날짜 3건)
+## Current Snapshot - 2026-09-01 (`430`~`433` 발행 · 푸시 `231` · 내부링크 점검 · 쇼츠 판정 · 날짜 3건)
 
 **9/1 — `430` 유자차 발행 + 쇼츠 Tier 1 최종 판정 + 날짜 걸린 3건(`379`·`225`·`380`) 처리.**
 상세는 아래 Recent Change 최상단 두 항목. **다음 세션이 알아야 할 한 가지: 씨앗 축이 바뀌었다** —
@@ -177,6 +177,17 @@
 - Verify local build/render, public pages, all local assets, sitemap, and reverse links once each unless a failure appears.
 
 ## Recent Change
+
+- 2026-09-01 (오후): **`433` 뚝배기 발행 + 내부링크 전수 점검(대표님 지시).**
+  - **리뷰어가 못 보는 링크 결함 세 가지를 찾아 도구로 만들었다 — `npm run audit:links`.**
+    ① **고아 글 50편** (리뷰어는 나가는 링크 1개만 요구한다 — `430`·`432`가 인바운드 0으로 나갔다)
+    ② **앵커와 대상이 다른 링크** — `173`이 "K-beauty routine guide"로 **홍삼 글**을, `162`가
+    "Korean food starter pack"으로 **김수현 출연료 글**을 가리켰다. **12건 수정**, 실오류 15~18건이
+    남았고 다수가 9/23 실험군이라 판정 후로 미룬다. ③ BROKEN 0건.
+  - **중복 감사는 `^title:`만 보면 안 된다.** `299`가 뚝배기를 description·tags·전용 H2로 갖고 있었는데
+    제 스캔은 "title=0"으로 봤다. → **스핀오프로 명시하고 `299` 허브 ↔ `433` 스포크 양방향 링크.**
+  - `433`은 **이미지 5장**(뚝배기 사진 3 + 돌솥 사진 1 + 도표 1) — vs 돌솥은 **시각적 주장**이라
+    갈색 흙 옆에 회색 돌을 놓는 게 형용사보다 빠르다. 다이소 16cm **₩5,000** 실측.
 
 - 2026-09-01 (오전 II): **`432` 후시딘 vs 마데카솔 발행 — 약국 축이 연속 두 편 통했다.**
   - **마데카솔은 한 제품이 아니다.** 초록 박스(**의약외품**, 센텔라 단독, **다이소 8g ₩5,000**)는 라벨에

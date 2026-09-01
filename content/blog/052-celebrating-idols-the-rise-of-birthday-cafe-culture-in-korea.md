@@ -119,7 +119,7 @@ Visitors often mix these up because all three can involve long lines, merch, and
 </table>
 </div>
 
-For official shopping, use EpicKor's [K-pop merchandise guide](/blog/134). For a wider Seoul fan route, connect birthday cafes with the [K-pop shopping route](/blog/193), [Myeongdong guide](/blog/169), and [Korean celebrity Instagram guide](/blog/031).
+For official shopping, use EpicKor's [K-pop merchandise guide](/blog/134). For a wider Seoul fan route, connect birthday cafes with the [K-pop shopping route](/blog/193), [Seoul nightlife area guide](/blog/169), and [Korean celebrity Instagram guide](/blog/031).
 
 ## Can Non-fans Visit?
 

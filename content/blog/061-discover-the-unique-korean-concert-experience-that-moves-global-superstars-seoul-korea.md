@@ -128,7 +128,7 @@ That is why ttechang cannot be manufactured by shouting louder. It comes from me
 
 ## Related EpicKor guides
 
-For nearby music and fandom context, read EpicKor's [Korean karaoke hits guide](/blog/003), [summer K-pop guide](/blog/058), [Korean hip-hop and Show Me The Money guide](/blog/005), and [K-pop fan goods guide](/blog/040). If you are visiting for a show, pair this with the [Seoul subway etiquette guide](/blog/174) and [Korea travel apps guide](/blog/222).
+For nearby music and fandom context, read EpicKor's [Korean karaoke hits guide](/blog/003), [summer K-pop guide](/blog/058), [Korean hip-hop and Show Me The Money guide](/blog/005), and [Korean cinema guide](/blog/040). If you are visiting for a show, pair this with the [Seoul subway etiquette guide](/blog/174) and [Korea travel apps guide](/blog/222).
 
 ## Sources and further reading
 
