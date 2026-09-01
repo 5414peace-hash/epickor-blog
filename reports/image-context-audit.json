@@ -1,10 +1,10 @@
 {
   "summary": {
-    "generatedAt": "2026-09-01T00:19:10.922Z",
-    "auditedPosts": 427,
+    "generatedAt": "2026-09-01T00:35:47.093Z",
+    "auditedPosts": 428,
     "includedPrivate": false,
     "slugFilter": "",
-    "bodyImages": 1500,
+    "bodyImages": 1503,
     "affectedPosts": 96,
     "critical": 0,
     "high": 0,
@@ -15441,6 +15441,38 @@
           "url": "/assets/images/posts/431/ketotop-original-40-patches.jpg",
           "alt": "A pack of Ketotop Original, 40 patches, showing the Korean product name 케토톱, the ketoprofen 30mg declaration, and the printed indications for muscle pain, arthritis, shoulder pain and tennis elbow.",
           "caption": "The pack tells you almost everything: 케토프로펜 30mg 함유 (contains 30mg ketoprofen), 일반의약품 (over-the-counter, pharmacy-only), the 10.3 × 6.8cm patch size, and the indications — muscle pain, arthritis, frozen shoulder, tennis elbow. Image: Handok, official product page, used for product identification.",
+          "ext": ".jpg",
+          "exists": true
+        }
+      ],
+      "findings": []
+    },
+    {
+      "type": "blog",
+      "slug": "432",
+      "title": "Fucidin vs Madecassol: Which Korean Ointment for Which Wound",
+      "contentPath": "content\\blog\\432.md",
+      "sourceRecord": "public\\assets\\images\\posts\\432\\image-sources.md",
+      "imageCount": 3,
+      "images": [
+        {
+          "url": "/assets/images/posts/432/korean-wound-ointment-decision.jpg",
+          "alt": "Decision chart: stage one is Fucidin with sodium fusidate 20mg/g or Madecassol Care with neomycin, both pharmacy-only; stage two is plain Madecassol with centella only, sold at Daiso for ₩5,000 — and the centella is the same ingredient as K-beauty cica.",
+          "caption": "The whole decision. Clean it first, then close it — and the second stage is the one your skincare shelf already knows about. Chart by EpicKor.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/432/fucidin-ointment-dongwha.jpg",
+          "alt": "An orange and white tube of Fucidin ointment, 10g, from Dongwha Pharm, with the Korean product name 후시딘연고 and the company's SINCE 1897 mark.",
+          "caption": "Fucidin ointment, 10g. The orange tube is the one Korean households keep in the drawer. Image: Dongwha Pharm official product page, used for product identification.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/432/madecassol-vs-madecassol-care.jpg",
+          "alt": "Side-by-side comparison: the green Madecassol Ointment box, a quasi-drug with centella only, sold at Daiso for ₩5,000 and labelled not for infected wounds; and the yellow-green Madecassol Care box, an OTC medicine with centella plus neomycin sulfate 3.5mg/g, pharmacy-only and labelled for early treatment of infected wounds.",
+          "caption": "Same brand across the front, different legal class, different ingredient, opposite instruction. Korean shoppers use box colour. Images: Dongkook Pharm official product pages.",
           "ext": ".jpg",
           "exists": true
         }
