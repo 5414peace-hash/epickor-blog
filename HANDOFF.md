@@ -10,7 +10,7 @@
 4. Read only files named under Active Work or the user request.
 5. Search the archive narrowly with `rg` only for a specific slug, decision, or incident.
 
-## Current Snapshot - 2026-09-02 (중간점검 실측 · GSC 복구 · `436` 발행)
+## Current Snapshot - 2026-09-02 (중간점검 실측 · GSC 복구 · `436`·`437` 발행)
 
 > 직전 스냅샷(`427`~`435`)은 `docs/handoff/2026-09-01_snapshot-log-430-435.md`.
 > 수치·규칙은 전부 FACTS에 있다 — **먼저 `node scripts/handoff.mjs facts`.**
@@ -36,6 +36,12 @@
 미로가 아마존 미국에 4모델(made in Korea), 위닉스는 1973년 시흥 설립 한국 기업. **다만**
 **`amazon-links.json` 199개 중 가습기가 0개였다**(3개 등록). 살균제 사건은 대표님 지시로 제외했고,
 척추는 **완벽세척**(물 닿는 부품이 다 분해되는가) + 한국소비자원 **87.3% / 98.8%**로 잡았다.
+
+**`437` Korean Exfoliating Towels 발행** — 100/100, 2,562단어, 이미지 5장.
+**이번엔 ④ 수익화를 주제 확정 전에 검증했다** — 아마존 리스팅 10건 이상, 상당수 `made in Korea`, 상품 3개 등록.
+`color meaning`이 자동완성 1군인데 **영어권이 파는 색깔 등급(핑크=순함/파랑=거침)이 한국 자료엔 없다.**
+초록은 최초일 뿐이고 한국은 5색 세트를 색 구성으로 판다. **`176`(찜질방)이 가장 자연스러운 링크인데**
+**9/23 실험군이라 일부러 쓰지 않았다** — 판정 후 `176`↔`437` 양방향 연결할 것.
 
 ## Active Work
 
@@ -152,6 +158,11 @@
 - Verify local build/render, public pages, all local assets, sitemap, and reverse links once each unless a failure appears.
 
 ## Recent Change
+
+- **2026-09-02 — `437` 이태리타월 발행.** `color meaning` 자동완성에 영어권이 정확히 답하지 못하는 지점을
+  잡았다: 색깔 등급은 영어권 리테일 관습이고 한국 자료엔 없다(초록이 최초일 뿐). 유래 1967 부산 한일직물,
+  다이소 실측가(₩1,000/₩2,000), 피부과 주 1회 상한. **`176`은 실험군이라 링크하지 않았다.**
+  히어로 캡션이 SKU를 잘못 분류한 것을 렌더 확인 중에 잡아 정정했다.
 
 - **2026-09-02 — 중간점검 실측 + GSC 복구 + `436` 발행.** 주간 클릭 550(8/24주)으로 5월의 7.4배.
   신규 코호트 중앙 CTR 1.14%(게이트 1.5% 미달)·중앙순위 7.1로 사이트 최고. **레인 가설 기각**(세 레인
