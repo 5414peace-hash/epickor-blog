@@ -1,10 +1,10 @@
 {
   "summary": {
-    "generatedAt": "2026-09-02T14:55:00.160Z",
+    "generatedAt": "2026-09-02T23:18:41.076Z",
     "auditedPosts": 435,
     "includedPrivate": false,
     "slugFilter": "",
-    "bodyImages": 1538,
+    "bodyImages": 1540,
     "affectedPosts": 96,
     "critical": 0,
     "high": 0,
@@ -7370,36 +7370,50 @@
     {
       "type": "blog",
       "slug": "201",
-      "title": "Korea Payment Guide 2026: T-money, WOWPASS, Cards, Cash",
+      "title": "Korea Payment Guide: T-money, WOWPASS, and the Card You Cannot Tap",
       "contentPath": "content\\blog\\201.md",
       "sourceRecord": "public\\assets\\images\\posts\\201\\image-sources.md",
-      "imageCount": 4,
+      "imageCount": 6,
       "images": [
         {
-          "url": "/assets/images/posts/201/korea-transport-card-options.jpg",
-          "alt": "Official Korean tourist transportation-card options shown with a phone and reload kiosk",
-          "caption": "Korean tourist cards combine different mixes of transit, prepaid payment and app-based account management. Image: Korea Tourism Organization.",
+          "url": "/assets/images/posts/201/korea-payment-prices-2026-09.jpg",
+          "alt": "Chart of Korean payment costs in September 2026: Seoul subway base fare 1,550 won and city bus 1,500 won by card, with free transfers within 10km and 100 won per additional 5km; a plain T-money card about 2,500 won at CU, GS25, 7-Eleven or emart24 with character editions 3,000 to 4,000 won and the card fee non-refundable; WOWPASS card issue 5,000 won with no payment fee but 1,000 won per cash withdrawal and a built-in T-money function; and Seoul's new station kiosks accepting overseas cards and Apple Pay with a 3.7 percent service fee.",
+          "caption": "Every number this guide previously left out. Chart by EpicKor.",
           "ext": ".jpg",
           "exists": true
         },
         {
-          "url": "/assets/images/posts/201/tmoney-card-official.jpg",
-          "alt": "The official white T-money transportation card",
-          "caption": "T-money remains the basic stored-value transit card for buses and subways. Image: Korea Tourism Organization/Tmoney.",
+          "url": "/assets/images/posts/201/seoul-transit-card-gate.jpg",
+          "alt": "A traveller with a suitcase tapping a white transportation card on the reader of a Seoul subway gate.",
+          "caption": "This gesture works with a Korean transit card. It does not work with your bank card from home, and will not until the end of the decade.",
           "ext": ".jpg",
           "exists": true
         },
         {
           "url": "/assets/images/posts/201/seoul-bus-card-reader.jpg",
-          "alt": "A Seoul bus card reader showing the tap point for transportation cards and mobile payments.",
-          "caption": "Korea is very digital, but tourists still need to match the payment tool to the moment. Photo by Theodore Nguyen on Pexels.",
+          "alt": "The reader inside a Seoul city bus, screen showing K-패스 and 티머니 Pay&GO, with the instruction to place your card or phone on the pad.",
+          "caption": "The bus reader spells out what it accepts: a card or a phone, placed on the pad. The screen advertises K-패스, the national transit rebate — which is for residents, not visitors.",
           "ext": ".jpg",
           "exists": true
         },
         {
           "url": "/assets/images/posts/201/wowpass-card-official.jpg",
-          "alt": "The official WOWPASS card showing its prepaid-payment and transit-card sides",
-          "caption": "WOWPASS combines a tourist prepaid-payment card with a T-money transit function; the balances and reload methods are separate. Image: Korea Tourism Organization/WOWPASS.",
+          "alt": "The WOWPASS card, front and back, the front carrying both the WOWPASS logo and the T-money mark.",
+          "caption": "The T-money logo on the front is the point: one card that pays in shops and taps at gates. The two balances are still separate — you load them separately.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/201/climate-card-break-even.jpg",
+          "alt": "Chart on the Seoul Climate Card: short-term passes cost 5,000 won for one day, 8,000 for two, 10,000 for three, 15,000 for five and 20,000 for seven; break-even against the 1,550 won subway fare needs 3.2 rides a day on the one-day pass falling to 1.8 on the seven-day; the 30-day pass ended on 1 September 2026 after prepaid top-ups closed 31 July and postpaid ran to 31 August; and the card excludes Sinbundang Line, GTX, subway outside Seoul and express or airport buses.",
+          "caption": "The short passes and what they need to be worth buying. Chart by EpicKor.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/201/seoul-ticket-machines.jpg",
+          "alt": "Seoul Metro station machines: a deposit refund device beside two ticket-vending and card-reload machines, both carrying 기후동행카드 top-up stickers.",
+          "caption": "Where the Climate Card is loaded. The stickers on top of both machines read 기후동행카드 충전 — Climate Card top-up.",
           "ext": ".jpg",
           "exists": true
         }
