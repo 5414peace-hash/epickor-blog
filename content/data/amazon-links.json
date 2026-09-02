@@ -3119,6 +3119,51 @@
         "Yangeun Naembi",
         "Cookware"
       ]
+    },
+    {
+      "id": "ottogi-premium-roasted-sesame-oil-500ml",
+      "name": "Ottogi 100% Pure Premium Roasted Sesame Oil, 500ml",
+      "description": "Korean roasted sesame oil in the large bottle; check the ingredient list reads sesame only",
+      "price": "",
+      "url": "https://www.amazon.com/dp/B01FO8O59E?tag=epickor-20",
+      "category": "Food",
+      "image": "",
+      "tags": [
+        "Sesame Oil",
+        "Chamgireum",
+        "Ottogi",
+        "Korean Pantry"
+      ]
+    },
+    {
+      "id": "ottogi-roasted-sesame-oil-320ml",
+      "name": "Ottogi 100% Pure Roasted Sesame Oil, 320ml",
+      "description": "Smaller bottle of the same Korean roasted sesame oil — sesame oil goes stale, so buy the size you finish",
+      "price": "",
+      "url": "https://www.amazon.com/dp/B01MF9B0OV?tag=epickor-20",
+      "category": "Food",
+      "image": "",
+      "tags": [
+        "Sesame Oil",
+        "Chamgireum",
+        "Ottogi",
+        "Korean Pantry"
+      ]
+    },
+    {
+      "id": "cj-beksul-roasted-sesame-oil",
+      "name": "CJ Beksul Premium Roasted Sesame Oil (백설 진한 참기름), 320ml x2",
+      "description": "The other Korean supermarket standard, sold as a two-pack",
+      "price": "",
+      "url": "https://www.amazon.com/dp/B07F2QD78R?tag=epickor-20",
+      "category": "Food",
+      "image": "",
+      "tags": [
+        "Sesame Oil",
+        "Chamgireum",
+        "CJ Beksul",
+        "Korean Pantry"
+      ]
     }
   ]
 }

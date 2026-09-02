@@ -1,10 +1,10 @@
 {
   "summary": {
-    "generatedAt": "2026-09-02T13:30:48.965Z",
-    "auditedPosts": 434,
+    "generatedAt": "2026-09-02T14:55:00.160Z",
+    "auditedPosts": 435,
     "includedPrivate": false,
     "slugFilter": "",
-    "bodyImages": 1533,
+    "bodyImages": 1538,
     "affectedPosts": 96,
     "critical": 0,
     "high": 0,
@@ -15749,6 +15749,52 @@
           "url": "/assets/images/posts/438/rabokki-in-aluminium-pot.jpg",
           "alt": "Rabokki — tteokbokki rice cakes cooked together with ramyun noodles in a red spicy broth — bubbling in a plain metal pot on a red table.",
           "caption": "Rabokki in the same pot. Gochujang-based broth sits on the acidic side, which is precisely the case the study was measuring. Photo by Theodore Nguyen via Pexels.",
+          "ext": ".jpg",
+          "exists": true
+        }
+      ],
+      "findings": []
+    },
+    {
+      "type": "blog",
+      "slug": "439",
+      "title": "Korean Sesame Oil: The Label Word That Means It Isn't Sesame Oil",
+      "contentPath": "content\\blog\\439.md",
+      "sourceRecord": "public\\assets\\images\\posts\\439\\image-sources.md",
+      "imageCount": 5,
+      "images": [
+        {
+          "url": "/assets/images/posts/439/chamgireum-vs-hyangmiyu.jpg",
+          "alt": "Chart contrasting two Korean legal food categories: chamgireum, oil pressed from sesame seed and sold as its own food type with cold-pressed and supercritical-extracted oils excluded from the other category; and hyangmiyu, defined as edible oil of at least 50% blended with spices, flavourings, natural extracts or seasonings to add aroma, which can be corn oil carrying a sesame smell. If hyangmiyu appears in the ingredient list you are not holding 100% sesame. To check, ignore the front and read the ingredient list, because Korean regulators built a test in 2015 to identify blended fakes and aroma is not evidence of purity.",
+          "caption": "The distinction no English guide to Korean sesame oil mentions. Chart by EpicKor.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/439/korean-sesame-oil-price-ladder.jpg",
+          "alt": "Chart on Korean sesame oil pricing: imported sesame at about 3,500 to 5,500 won for 500ml, roughly 700 to 1,100 won per 100ml; Korean-grown sesame at around 11,000 won for 200ml and past 20,000 won for 300ml, roughly 5,500 to 6,700 won per 100ml, six to seven times the imported price on origin alone; and the local mill, where you bring your own sesame and pay a pressing fee reported around 18,000 won, with about 6kg of seed yielding eight bottles.",
+          "caption": "The spread on a Korean supermarket shelf, and the tier above it that never leaves the country. Chart by EpicKor.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/439/sesame-seeds-close-up.jpg",
+          "alt": "A close-up of pale sesame seeds filling the frame, showing the flattened teardrop shape of each seed.",
+          "caption": "The whole price question in one ingredient: Korea grows between eight and twelve per cent of the sesame it uses.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/439/korean-bangatgan-oil-mill.jpg",
+          "alt": "A small Korean neighbourhood mill on a village street, its blue sign reading 부창 떡방앗간 with a phone number, and hand-painted window text listing gochugaru, misutgaru and chamgireum.",
+          "caption": "A 방앗간 in Changnyeong. The window text lists 고추가루, 미숫가루 and 참기름 — chilli powder, grain powder, sesame oil. Photo by Visviva, public domain, via Wikimedia Commons.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/439/samgyeopsal-korean-grill.jpg",
+          "alt": "Slices of pork belly cooking on a round Korean grill plate, a hand turning a piece with metal tongs, with lettuce and side dishes around the edge of the table.",
+          "caption": "The table where the small dish of oil and salt appears. It has a name, and it is 기름장.",
           "ext": ".jpg",
           "exists": true
         }

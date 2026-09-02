@@ -185,3 +185,5 @@ A: Yes. A basic version mixes doenjang, gochujang, minced garlic, sesame oil, se
 Ssamjang is small, but it explains a lot about Korean food. It shows how fermentation, texture, vegetables, meat, rice, and social eating come together in one bite. If you understand ssamjang, Korean barbecue stops being just grilled meat and becomes a wrap system.
 
 Use less sauce, build smaller wraps, read labels, and let the leaf, meat, garlic, rice, and fermented paste do their work together.
+
+And if you have wondered what the *other* dish on the table is — the small one holding oil and salt — it has a name and a job of its own. Our guide to [Korean sesame oil and 기름장](/blog/439) covers why a Korean table carries two sauces that do opposite things.
