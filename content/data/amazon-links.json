@@ -3003,6 +3003,50 @@
         "KoreanToothpaste",
         "KoreanGoods"
       ]
+    },
+    {
+      "id": "miro-nr07s-humidifier",
+      "name": "Miro NR07S Completely Washable Modular Humidifier",
+      "description": "Korean-made ultrasonic humidifier whose tank, cap, fan housing and humidifying engine all separate for washing",
+      "price": "",
+      "url": "https://www.amazon.com/dp/B08KPRYW4Q?tag=epickor-20",
+      "category": "Home",
+      "image": "",
+      "tags": [
+        "Miro",
+        "Korean Humidifier",
+        "Washable Humidifier",
+        "Ultrasonic"
+      ]
+    },
+    {
+      "id": "miro-nr08m-humidifier",
+      "name": "Miro NR08M Washable Sanitary Humidifier",
+      "description": "Larger Miro model with touch control, same fully separable cleaning design",
+      "price": "",
+      "url": "https://www.amazon.com/dp/B07K4TVRLG?tag=epickor-20",
+      "category": "Home",
+      "image": "",
+      "tags": [
+        "Miro",
+        "Korean Humidifier",
+        "Washable Humidifier"
+      ]
+    },
+    {
+      "id": "winix-aw600-humidifier",
+      "name": "Winix AW600 Triple Action Humidifier with PlasmaWave",
+      "description": "Evaporative humidifier from Winix, the Korean appliance maker best known in the US for air purifiers",
+      "price": "",
+      "url": "https://www.amazon.com/dp/B00PRTXO20?tag=epickor-20",
+      "category": "Home",
+      "image": "",
+      "tags": [
+        "Winix",
+        "Korean Humidifier",
+        "Evaporative",
+        "Air Purifier"
+      ]
     }
   ]
 }

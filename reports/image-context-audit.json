@@ -1,10 +1,10 @@
 {
   "summary": {
-    "generatedAt": "2026-09-02T10:18:24.728Z",
-    "auditedPosts": 431,
+    "generatedAt": "2026-09-02T11:57:51.106Z",
+    "auditedPosts": 432,
     "includedPrivate": false,
     "slugFilter": "",
-    "bodyImages": 1518,
+    "bodyImages": 1523,
     "affectedPosts": 96,
     "critical": 0,
     "high": 0,
@@ -15611,6 +15611,52 @@
           "url": "/assets/images/posts/435/kimchi-in-glass-jars.jpg",
           "alt": "Three glass jars of kimchi with metal lids on a wooden surface.",
           "caption": "The Western default. Glass never absorbs odour, which is genuinely the best-case material — but it is heavy, breakable and does not tile, which is why it is not what Korean households reach for. Photo: Shisma, Wikimedia Commons (CC BY 4.0).",
+          "ext": ".jpg",
+          "exists": true
+        }
+      ],
+      "findings": []
+    },
+    {
+      "type": "blog",
+      "slug": "436",
+      "title": "Korean Humidifiers: Buy the One That Comes Apart",
+      "contentPath": "content\\blog\\436.md",
+      "sourceRecord": "public\\assets\\images\\posts\\436\\image-sources.md",
+      "imageCount": 5,
+      "images": [
+        {
+          "url": "/assets/images/posts/436/miro-humidifier-disassembled-underwater.jpg",
+          "alt": "A Korean humidifier photographed underwater, separated into six distinct parts that float apart: the outer cap with the miro logo, the mist nozzle, a black inner housing, a small transducer component, the tank bowl and the base bowl.",
+          "caption": "The entire product argument in one photograph: six parts, all of them washable, shot underwater by the manufacturer. Image: MIRO (미로), official product page.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/436/miro-humidifying-engine-washable.jpg",
+          "alt": "The humidifying engine module of a Korean humidifier photographed fully submerged in water, its power lead coiled beside it and bubbles rising from the transducer housing.",
+          "caption": "The component most humidifier manuals tell you never to submerge, photographed submerged. Image: MIRO (미로), official product page.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/436/korean-humidifier-types-compared.jpg",
+          "alt": "Chart comparing three humidifier methods stacked vertically: ultrasonic vibrates water into cold droplets with no filtering or boiling, and tap minerals leave as white dust; heated boils the water so steam leaves and the water is sterilised, but power draw is high and output hot; hybrid warms the water then mists it, the current Korean flagship approach, with UV lamps on premium models.",
+          "caption": "The distinction that matters is not mist quality — it is what happens to what is already in the tank. Chart by EpicKor.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/436/miro-korea-lineup-vs-amazon.jpg",
+          "alt": "Chart listing Miro's current Korean store lineup with prices — MH-mini 4L ultrasonic 44,900 won, MH3000 UV 149,000 won, NR09RE stainless UV 169,000 won, Miro-pot heated 4L 169,000 won, MH5000 IoT 179,000 won, MH7000 stainless 249,000 won, miro-twin 10L hybrid 279,000 won, miro-Q tower 11L 249,000 won sold out — against the four models actually listed on Amazon US: NR07G, NR07S, NR08M and NR-07 Aroma Plus.",
+          "caption": "Korean prices checked on the maker's own store, 2 September 2026. Chart by EpicKor.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/436/miro-humidifier-in-a-home.jpg",
+          "alt": "A white Miro humidifier standing on a glass side table in a bright living room, with a white leather lounge chair behind it and its small round refill cap resting beside it.",
+          "caption": "The machine in its actual habitat: a bedroom or living room, running overnight. Image: MIRO (미로), official product page.",
           "ext": ".jpg",
           "exists": true
         }
