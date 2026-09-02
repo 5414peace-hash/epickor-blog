@@ -1,10 +1,10 @@
 {
   "summary": {
-    "generatedAt": "2026-09-02T11:57:51.106Z",
-    "auditedPosts": 432,
+    "generatedAt": "2026-09-02T12:42:19.644Z",
+    "auditedPosts": 433,
     "includedPrivate": false,
     "slugFilter": "",
-    "bodyImages": 1523,
+    "bodyImages": 1528,
     "affectedPosts": 96,
     "critical": 0,
     "high": 0,
@@ -15657,6 +15657,52 @@
           "url": "/assets/images/posts/436/miro-humidifier-in-a-home.jpg",
           "alt": "A white Miro humidifier standing on a glass side table in a bright living room, with a white leather lounge chair behind it and its small round refill cap resting beside it.",
           "caption": "The machine in its actual habitat: a bedroom or living room, running overnight. Image: MIRO (미로), official product page.",
+          "ext": ".jpg",
+          "exists": true
+        }
+      ],
+      "findings": []
+    },
+    {
+      "type": "blog",
+      "slug": "437",
+      "title": "Korean Exfoliating Towels: What the Colours Mean, and How Often to Use One",
+      "contentPath": "content\\blog\\437.md",
+      "sourceRecord": "public\\assets\\images\\posts\\437\\image-sources.md",
+      "imageCount": 5,
+      "images": [
+        {
+          "url": "/assets/images/posts/437/korean-italy-towel-yellow-black-stripes.jpg",
+          "alt": "A yellow Korean Italy towel with three black stripes woven into it, folded on a pale grey stone surface next to a pink bar of soap on a dish.",
+          "caption": "Daiso's long back towel — the same coarse viscose weave as the classic bath cloth, cut as the 88 × 24cm strip made for reaching your own back. Image: Daiso Korea, official store listing.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/437/italy-towel-colour-claim.jpg",
+          "alt": "Chart comparing colour claims: English listings say pink is softest, blue coarsest, green standard, with one Amazon listing named \"Blue — Strong\"; Korean sources say green was simply the original with yellow, red, white and blue arriving later and no grade attached, and Korean retailers sell five-colour packs as colours; what actually changes the feel is soak time, weave and material blend, and pressure.",
+          "caption": "The same cloth, described two different ways in two markets. Chart by EpicKor.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/437/korean-exfoliating-mitt-purple.jpg",
+          "alt": "A purple Korean exfoliating mitt, the fabric visibly crinkled and coarse, held up in one hand.",
+          "caption": "The mitt form, which is what most export listings sell. Photo by OliviaLyu, CC BY-SA 4.0, via Wikimedia Commons.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/437/korean-back-scrubber-handle.jpg",
+          "alt": "A pink plastic handled back scrubber with a round green exfoliating head, photographed against a plain background.",
+          "caption": "The handled version, ₩2,000 at Daiso, for the part of your back the flat cloth cannot reach. Image: Daiso Korea, official store listing.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/437/italy-towel-how-to-use.jpg",
+          "alt": "Chart in three vertical sections: soak first — sit in hot water or shower long enough that skin is genuinely softened, because scrubbing dry skin turns a wash into an injury; once a week at most — Korean dermatologists cap it there, and what comes off is the stratum corneum, so thin, atopic and sensitive skin should skip it and never use it on the face; the back needs a tool — a long 88 by 24cm towel or handled scrubber, both 2,000 won at Daiso, plain cloth 1,000 won.",
+          "caption": "The soak is the technique. The frequency is the safety rule. Chart by EpicKor.",
           "ext": ".jpg",
           "exists": true
         }

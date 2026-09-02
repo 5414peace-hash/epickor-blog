@@ -3047,6 +3047,49 @@
         "Evaporative",
         "Air Purifier"
       ]
+    },
+    {
+      "id": "modu-korean-exfoliating-mitts",
+      "name": "Modu Korean Exfoliating Mitts, 5-pack (Green)",
+      "description": "Classic green Korean exfoliating mitts in viscose, the standard colour sold in Korea",
+      "price": "",
+      "url": "https://www.amazon.com/dp/B074GRP8G4?tag=epickor-20",
+      "category": "Home",
+      "image": "",
+      "tags": [
+        "Italy Towel",
+        "Korean Exfoliating Towel",
+        "Bathhouse",
+        "Viscose"
+      ]
+    },
+    {
+      "id": "xl-korean-exfoliating-mitt-made-in-korea",
+      "name": "XL Korean Exfoliating Mitt, Made in Korea (10-pack)",
+      "description": "Larger mitt marked made in Korea, sold in colour-graded variants on the US listing",
+      "price": "",
+      "url": "https://www.amazon.com/dp/B0GJDLVG9M?tag=epickor-20",
+      "category": "Home",
+      "image": "",
+      "tags": [
+        "Italy Towel",
+        "Korean Exfoliating Towel",
+        "Made in Korea"
+      ]
+    },
+    {
+      "id": "goldsangsa-korean-exfoliating-towel",
+      "name": "GOLDSANGSA Korean Exfoliating Towel Mitts, 4-pack (Green)",
+      "description": "Green Korean exfoliating cloth mitts for body scrubbing",
+      "price": "",
+      "url": "https://www.amazon.com/dp/B00LGLOKLM?tag=epickor-20",
+      "category": "Home",
+      "image": "",
+      "tags": [
+        "Italy Towel",
+        "Korean Exfoliating Towel",
+        "Bath"
+      ]
     }
   ]
 }
