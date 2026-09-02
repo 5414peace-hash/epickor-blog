@@ -1,10 +1,10 @@
 {
   "summary": {
-    "generatedAt": "2026-09-02T12:42:19.644Z",
-    "auditedPosts": 433,
+    "generatedAt": "2026-09-02T13:30:48.965Z",
+    "auditedPosts": 434,
     "includedPrivate": false,
     "slugFilter": "",
-    "bodyImages": 1528,
+    "bodyImages": 1533,
     "affectedPosts": 96,
     "critical": 0,
     "high": 0,
@@ -15703,6 +15703,52 @@
           "url": "/assets/images/posts/437/italy-towel-how-to-use.jpg",
           "alt": "Chart in three vertical sections: soak first — sit in hot water or shower long enough that skin is genuinely softened, because scrubbing dry skin turns a wash into an injury; once a week at most — Korean dermatologists cap it there, and what comes off is the stratum corneum, so thin, atopic and sensitive skin should skip it and never use it on the face; the back needs a tool — a long 88 by 24cm towel or handled scrubber, both 2,000 won at Daiso, plain cloth 1,000 won.",
           "caption": "The soak is the technique. The frequency is the safety rule. Chart by EpicKor.",
+          "ext": ".jpg",
+          "exists": true
+        }
+      ],
+      "findings": []
+    },
+    {
+      "type": "blog",
+      "slug": "438",
+      "title": "Korean Ramen Pots: Is the Aluminium One Safe?",
+      "contentPath": "content\\blog\\438.md",
+      "sourceRecord": "public\\assets\\images\\posts\\438\\image-sources.md",
+      "imageCount": 5,
+      "images": [
+        {
+          "url": "/assets/images/posts/438/yangeun-naembi-aluminium-pot.jpg",
+          "alt": "A Korean aluminium pot with a hammered finish, wooden side handles and a matching lid with a wooden knob, photographed against a plain white background.",
+          "caption": "The 양은냄비 in its reference form. Photo by 국립국어원 (National Institute of Korean Language), CC BY-SA 2.0 KR, via Wikimedia Commons.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/438/aluminium-pot-leaching-measured.jpg",
+          "alt": "Chart: the Gyeonggi Institute of Health and Environment tested 56 aluminium pots sold in Korea by boiling citric acid at pH 3.5. The 47 uncoated pots leached 23.90 mg/L of aluminium on average with a highest single reading of 115.21 mg/L; the 9 coated pots averaged 1.78 mg/L with a highest of 8.72, about thirteen times less. By dish, kimchi jjigae leached 9.86 mg per kg, pickles 2.86, kimchi ramyun 2.34 and doenjang jjigae 1.64.",
+          "caption": "The study that answers the question, and does not exist in English. Chart by EpicKor.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/438/kimchi-ramyun-simmering-in-pot.jpg",
+          "alt": "Kimchi ramyun simmering in a metal pot on a stovetop, wavy noodles and kimchi visible in a red broth, with a Korean instant noodle packet in the background.",
+          "caption": "The exact combination the study measured: kimchi, acid, salt and a thin metal pot. Photo by makafood via Pexels.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/438/aluminium-pot-care-rules.jpg",
+          "alt": "Chart in three parts: never use a metal scourer, because one pass with a steel scrubber takes the protective film off, so use a soft sponge and wooden utensils; do not store food in it, because salty acidic stew left sitting corrodes the pot, so transfer to a bowl as soon as cooking finishes; and when to throw it out — visible discolouration or scratches, with Korean guidance putting daily-use replacement at six months to a year.",
+          "caption": "Every number above assumes the film is intact. Chart by EpicKor.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/438/rabokki-in-aluminium-pot.jpg",
+          "alt": "Rabokki — tteokbokki rice cakes cooked together with ramyun noodles in a red spicy broth — bubbling in a plain metal pot on a red table.",
+          "caption": "Rabokki in the same pot. Gochujang-based broth sits on the acidic side, which is precisely the case the study was measuring. Photo by Theodore Nguyen via Pexels.",
           "ext": ".jpg",
           "exists": true
         }

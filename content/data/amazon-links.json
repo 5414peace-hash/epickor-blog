@@ -3090,6 +3090,35 @@
         "Korean Exfoliating Towel",
         "Bath"
       ]
+    },
+    {
+      "id": "korean-ramen-pot-nonstick-coated",
+      "name": "Korean Ramen Pot, Yellow Aluminium with Non-Stick Coating (20cm)",
+      "description": "Coated version of the classic Korean ramyun pot — coating is what cuts aluminium migration",
+      "price": "",
+      "url": "https://www.amazon.com/dp/B0CBN2GX1L?tag=epickor-20",
+      "category": "Kitchen",
+      "image": "",
+      "tags": [
+        "Korean Ramen Pot",
+        "Yangeun Naembi",
+        "Coated",
+        "Cookware"
+      ]
+    },
+    {
+      "id": "yangeun-aluminium-noodle-pot-16cm",
+      "name": "Yangeun Aluminium Noodle Pot, 16cm",
+      "description": "The traditional single-serving Korean ramyun pot, thin aluminium, fast boil",
+      "price": "",
+      "url": "https://www.amazon.com/dp/B0FPG3RB39?tag=epickor-20",
+      "category": "Kitchen",
+      "image": "",
+      "tags": [
+        "Korean Ramen Pot",
+        "Yangeun Naembi",
+        "Cookware"
+      ]
     }
   ]
 }
