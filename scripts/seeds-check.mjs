@@ -74,6 +74,38 @@ const OUT = 'content/data/seed-check.json';
 const DEAD_END = new Set(['090', '082', '210', '301']);
 
 /**
+ * The 2026-09-23 refresh experiment. Touching an arm member — editing it, or
+ * even adding an inbound link to it — destroys the comparison the judgment
+ * rests on.
+ *
+ * This guard exists because on 2026-09-02 this script's top two "water these"
+ * recommendations were `203` and `214`, and both are arm members. Ranking by
+ * clicks does not know about the experiment. `build-refresh-queue.mjs` already
+ * reads the same baseline and marks `inExperimentArm`; this script did not, so
+ * the two tools disagreed about what was safe to work on.
+ *
+ * Six places in the baseline hold slugs, and missing any one of them lets an
+ * arm member through.
+ */
+function experimentArmSlugs() {
+  const file = 'output/strategy/refresh-baseline.json';
+  if (!fs.existsSync(file)) return new Set();
+  const b = JSON.parse(fs.readFileSync(file, 'utf8'));
+  const out = new Set();
+  const add = (a) => Array.isArray(a) && a.forEach((x) => out.add(String(x)));
+  for (const k of ['treatment', 'control', 'queueArm']) if (b[k]) add(b[k].slugs);
+  if (b.tightSubset) { add(b.tightSubset.treatmentSlugs); add(b.tightSubset.controlSlugs); }
+  if (Array.isArray(b.pairs)) {
+    for (const pair of b.pairs) {
+      if (pair.treatment) out.add(String(pair.treatment));
+      if (pair.control) out.add(String(pair.control));
+    }
+  }
+  return out;
+}
+const IN_ARM = experimentArmSlugs();
+
+/**
  * The shape of a dead end, so a *new* one gets flagged without waiting for
  * someone to add it to the list above: a large audience that does not click.
  */
@@ -322,7 +354,7 @@ const falling = (p) => {
 };
 
 const water = alive
-  .filter((p) => cooled(p) && !DEAD_END.has(p.slug) && !isImpressionHeavy(p))
+  .filter((p) => cooled(p) && !DEAD_END.has(p.slug) && !IN_ARM.has(p.slug) && !isImpressionHeavy(p))
   .sort((a, b) => (falling(a) - falling(b))
     || (hasGap(b) - hasGap(a))
     || b.secondHalf - a.secondHalf || b.clicks - a.clicks || b.impressions - a.impressions)
@@ -336,7 +368,9 @@ const unseen = posts.filter((p) => p.verdict === 'dormant-unseen');
 const pad = (v, n) => String(v).padStart(n);
 const short = (s) => (s.length > 12 ? s.slice(0, 11) + '…' : s);
 const ctr = (p) => (p.impressions ? (100 * p.clicks / p.impressions).toFixed(2) : '0.00');
-const mark = (p) => (DEAD_END.has(p.slug) ? ' ✗dead-end' : isImpressionHeavy(p) ? ' ✗노출형' : '');
+const mark = (p) => (DEAD_END.has(p.slug) ? ' ✗dead-end'
+  : IN_ARM.has(p.slug) ? ' ✗9/23실험군'
+  : isImpressionHeavy(p) ? ' ✗노출형' : '');
 /** Second half of the window against the first. A finished season reads as a fall. */
 const trend = (p) => {
   const a = p.firstHalf, b = p.secondHalf;
@@ -381,7 +415,7 @@ if (!water.length) console.log('  (없음 — 살아 있는 글이 모두 최근
  * and let the next cycle pick it up instead of losing it.
  */
 const coolingWithGaps = alive
-  .filter((p) => !cooled(p) && hasGap(p) && !DEAD_END.has(p.slug) && !isImpressionHeavy(p))
+  .filter((p) => !cooled(p) && hasGap(p) && !DEAD_END.has(p.slug) && !IN_ARM.has(p.slug) && !isImpressionHeavy(p))
   .sort((a, b) => b.secondHalf - a.secondHalf);
 if (coolingWithGaps.length) {
   console.log(`\n■ 쿨다운 중이지만 결손이 남아 있다 (${coolingWithGaps.length}편) — 다음 사이클 후보`);
@@ -400,5 +434,6 @@ fs.writeFileSync(OUT, JSON.stringify({
   counts: { judged: posts.length, alive: alive.length, dormantSeen: seenNoClick.length, dormantUnseen: unseen.length },
   water: water.map((p) => p.slug),
   deadEndExcluded: [...DEAD_END],
+  experimentArmExcluded: [...IN_ARM],
   posts: posts.sort((a, b) => b.clicks - a.clicks || b.impressions - a.impressions),
 }, null, 2) + '\n');
