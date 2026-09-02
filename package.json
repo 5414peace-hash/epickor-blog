@@ -42,7 +42,8 @@
     "refresh:judge": "node scripts/refresh-baseline.mjs --judge",
     "typecheck:remotion": "tsc --noEmit --jsx react-jsx --target es2020 --module esnext --moduleResolution bundler --strict --skipLibCheck --resolveJsonModule --esModuleInterop remotion/Reel376.tsx remotion/Reel377.tsx remotion/Reel379.tsx",
     "seeds:check": "node scripts/seeds-check.mjs",
-    "audit:links": "node scripts/audit-internal-links.mjs"
+    "audit:links": "node scripts/audit-internal-links.mjs",
+    "gsc:auth": "node scripts/gsc-auth.mjs"
   },
   "dependencies": {
     "@remotion/cli": "4.0.457",

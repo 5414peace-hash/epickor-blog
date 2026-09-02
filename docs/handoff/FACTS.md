@@ -3601,6 +3601,27 @@
   `MSYS_NO_PATHCONV=1`을 붙이거나 `//blog/231`로 쓴다. 인증이 풀린 뒤 이 함정이 다시 나온다.
   *Verified:* 실행 실패 재현 + 토큰 파일 판독, 2026-09-01.
 
+- **[2026-09-02 재확인] 아직 죽어 있다. 그리고 저절로 살아나지 않는다.** 토큰 엔드포인트를 직접
+  때려 확인했다 — `HTTP 400 {"error":"invalid_grant","error_description":"Token has been expired
+  or revoked."}`. **7일 만료 가설이 이걸로 굳었다**: 발급 8/21, 사망 확인 9/1·9/2.
+  - **blog-news 쪽 토큰으로 우회할 수 없다.** `D:devlog-newssecretsgsc_oauth_token.json`의
+    mtime이 **8/27**이라 더 새것처럼 보이는데, 열어 보니 **refresh_token이 epickor 것과 바이트 단위로
+    같다**(client_id도 동일). 복사만 된 것이다. 그쪽도 같은 `invalid_grant`를 낸다.
+    **mtime을 토큰 신선도의 근거로 쓰지 말 것.**
+- **재인증을 스크립트로 만들었다: `npm run gsc:auth` (`scripts/gsc-auth.mjs`, 2026-09-02).**
+  루프백 리스너를 띄우고 동의 URL을 열어 코드를 받아 교환한 뒤 **두 프로젝트 토큰 파일에 함께 쓴다**
+  (같은 client를 공유하므로). 대표님 몫은 **브라우저 로그인 1회**뿐이다.
+  - `prompt=consent`가 **필수**다. 없으면 이미 grant가 있는 계정에 구글이 **refresh_token 없이
+    액세스 토큰만** 돌려주고, 그러면 1시간 뒤 같은 자리로 돌아온다.
+  - 클라이언트 타입이 `installed`이고 redirect가 `http://localhost`라 **포트는 아무거나 된다**
+    (사전 등록 불필요). 그래서 스크립트가 빈 포트를 잡아 쓴다.
+  - 동의 화면의 "확인되지 않은 앱" 경고는 Testing 상태에서 정상이다 — 고급 → 계속.
+- **근본 해결은 재인증이 아니라 게시다.** `console.cloud.google.com/auth/audience`
+  (프로젝트 `stellar-orb-506106-v3`) → **PUBLISH APP**. readonly 스코프를 소유자 본인이 쓰는
+  구성이라 심사 대상이 아니고, 게시하면 **7일 만료가 사라진다.** 게시하지 않으면 이 복구를
+  **매주** 반복해야 한다.
+  *Verified:* 토큰 엔드포인트 400 응답 + 두 파일 refresh_token 동일성 대조 + 스크립트 문법 검증, 2026-09-02.
+
 ## `231` 푸시 — 제목 레버와 커버리지 레버를 겹친 첫 사례 (2026-09-01)
 
 - 기준선: **4~9위 300노출 0클릭**, 사이트 순위 11.58, deadShare 0.7% (노출이 거의 전부 전환 가능).
@@ -3817,9 +3838,13 @@
 
 ## 다음 근무시간 대기 (평일 09:00~19:00에 처리)
 
-- **[대표님 5분] GSC API 재인증** — `secrets/gsc_oauth_token.json`이 `invalid_grant`다.
-  OAuth 앱이 Testing 상태면 리프레시 토큰이 7일 만료이므로, 재인증보다 **Testing → Published 승격**이 근본 해결이다.
-  **9/23 판정이 새 GSC 추출을 전제로 하므로 그전에 필요하다.**
+- **[대표님 5분] GSC API 재인증 — 9/2 재확인, 여전히 죽어 있음. 9/23 판정 전에 필요합니다.**
+  **① 근본 해결(먼저 해주시면 이 일이 마지막이 됩니다)**: `console.cloud.google.com/auth/audience`
+  → 프로젝트 `stellar-orb-506106-v3` → **PUBLISH APP**. Testing 상태라 리프레시 토큰이 7일마다
+  죽습니다. 게시하면 그 만료가 없어집니다(심사 대상 아님).
+  **② 토큰 재발급**: 터미널에서 `npm run gsc:auth` → 열리는 창에서 **5414peace@gmail.com**으로
+  로그인 → "확인되지 않은 앱" 경고에서 **고급 → 계속** → 끝. 나머지는 스크립트가 처리합니다.
+  ①을 건너뛰고 ②만 하면 일주일 뒤 다시 같은 요청을 드리게 됩니다.
 
 - **[대표님 5분] 웨일에서 YouTube Studio를 EpicKor 채널로 한 번 열어 주세요.**
   현재 Studio가 EpicKor에 대해 권한 거부를 냅니다(계정·소유권은 정상, 브랜드 계정 세션 만료로 추정).
