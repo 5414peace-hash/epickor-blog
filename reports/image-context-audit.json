@@ -1,15 +1,15 @@
 {
   "summary": {
-    "generatedAt": "2026-09-01T02:02:57.547Z",
-    "auditedPosts": 430,
+    "generatedAt": "2026-09-02T10:18:24.728Z",
+    "auditedPosts": 431,
     "includedPrivate": false,
     "slugFilter": "",
-    "bodyImages": 1513,
-    "affectedPosts": 97,
+    "bodyImages": 1518,
+    "affectedPosts": 96,
     "critical": 0,
     "high": 0,
     "medium": 0,
-    "info": 97
+    "info": 96
   },
   "findings": [
     {
@@ -707,14 +707,6 @@
       "severity": "info",
       "code": "MISSING_SOURCE_RECORD",
       "detail": "public\\assets\\images\\posts\\329\\image-sources.md"
-    },
-    {
-      "type": "blog",
-      "slug": "434",
-      "title": "Hwalmyungsu: Korea's Oldest Medicine Reaches America Without the Fizz",
-      "severity": "info",
-      "code": "MISSING_SOURCE_RECORD",
-      "detail": "public\\assets\\images\\posts\\434\\image-sources.md"
     },
     {
       "type": "business",
@@ -15538,7 +15530,7 @@
       "slug": "434",
       "title": "Hwalmyungsu: Korea's Oldest Medicine Reaches America Without the Fizz",
       "contentPath": "content\\blog\\434.md",
-      "sourceRecord": "",
+      "sourceRecord": "public\\assets\\images\\posts\\434\\image-sources.md",
       "imageCount": 5,
       "images": [
         {
@@ -15577,13 +15569,53 @@
           "exists": true
         }
       ],
-      "findings": [
+      "findings": []
+    },
+    {
+      "type": "blog",
+      "slug": "435",
+      "title": "Korean Kimchi Containers: The Press Plate Matters More Than the Lid",
+      "contentPath": "content\\blog\\435.md",
+      "sourceRecord": "public\\assets\\images\\posts\\435\\image-sources.md",
+      "imageCount": 5,
+      "images": [
         {
-          "severity": "info",
-          "code": "MISSING_SOURCE_RECORD",
-          "detail": "public\\assets\\images\\posts\\434\\image-sources.md"
+          "url": "/assets/images/posts/435/kimchi-container-size-and-press-plate.jpg",
+          "alt": "Chart: 7L containers measure 26 × 17 × 22cm and 3.2L measure 26 × 17 × 11cm, sharing an identical footprint so they tile into a fixed drawer; and a cross-section showing that with a press plate everything stays under the brine, while without one the top floats clear and grows a white yeast film called golmaji.",
+          "caption": "Both of the things English guides leave out, in one chart. Chart by EpicKor.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/435/stainless-kimchi-containers.jpg",
+          "alt": "Rectangular stainless steel kimchi containers with clear lids, arranged side by side on a counter with spring onions and garlic.",
+          "caption": "The rectangular shape is not a style choice. Containers are made to tile into a fixed drawer, which is why so many Korean ones look like this. Image: Lock&Lock official product page, used for product identification.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/435/gimjang-communal-kimchi-making.jpg",
+          "alt": "Volunteers in aprons and pink gloves making kimchi together at a long table piled with salted cabbage and red seasoning.",
+          "caption": "Kimjang, the communal winter kimchi-making. This is the volume the large containers exist for — and the reason Korean households think in litres rather than in jars. Photo: USAG-Humphreys, Wikimedia Commons (CC BY 2.0).",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/435/kimchi-container-air-valve.jpg",
+          "alt": "A hand pressing the round air valve on the clear lid of a stainless steel kimchi container.",
+          "caption": "The valve on a Lock&Lock breathing container. It lets fermentation gas out and does not let air back in — the whole reason a sealed box would otherwise be a bad idea. Image: Lock&Lock official product page.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/435/kimchi-in-glass-jars.jpg",
+          "alt": "Three glass jars of kimchi with metal lids on a wooden surface.",
+          "caption": "The Western default. Glass never absorbs odour, which is genuinely the best-case material — but it is heavy, breakable and does not tile, which is why it is not what Korean households reach for. Photo: Shisma, Wikimedia Commons (CC BY 4.0).",
+          "ext": ".jpg",
+          "exists": true
         }
-      ]
+      ],
+      "findings": []
     },
     {
       "type": "business",
