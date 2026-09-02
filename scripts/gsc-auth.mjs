@@ -47,8 +47,18 @@ if (!key?.client_id || !key?.client_secret) {
   process.exit(1);
 }
 
+// --port pins the loopback port so a printed consent URL survives a restart of
+// this listener. Any port works: the client is type "installed" with a bare
+// http://localhost redirect, which Google matches on host, not port.
+const portArg = process.argv.indexOf('--port');
+const PORT = portArg !== -1 ? Number(process.argv[portArg + 1]) : 0;
+
 const server = createServer();
-server.listen(0, '127.0.0.1', () => {
+server.on('error', (e) => {
+  console.error(`Cannot listen on port ${PORT}: ${e.code}. Another listener may still be running.`);
+  process.exit(1);
+});
+server.listen(PORT, '127.0.0.1', () => {
   const port = server.address().port;
   const redirectUri = `http://localhost:${port}`;
   const url =
@@ -72,7 +82,11 @@ server.listen(0, '127.0.0.1', () => {
   console.log('   Advanced → Go to ... (unsafe) → Continue.\n');
   console.log(`Waiting on ${redirectUri} ...`);
 
-  spawn('cmd', ['/c', 'start', '""', url.replace(/&/g, '^&')], { stdio: 'ignore', detached: true }).unref();
+  // --no-open: print the URL and wait, without popping a window on the
+  // representative's machine before they are ready for it.
+  if (!process.argv.includes('--no-open')) {
+    spawn('cmd', ['/c', 'start', '""', url.replace(/&/g, '^&')], { stdio: 'ignore', detached: true }).unref();
+  }
 
   server.on('request', async (req, res) => {
     const q = new URL(req.url, redirectUri).searchParams;
