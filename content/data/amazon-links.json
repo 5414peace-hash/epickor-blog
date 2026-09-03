@@ -3164,6 +3164,34 @@
         "CJ Beksul",
         "Korean Pantry"
       ]
+    },
+    {
+      "id": "kovea-k1-stove",
+      "name": "Kovea K1 Camping Stove (piezo igniter, foldable canister stand)",
+      "description": "Canister-top burner from the Incheon manufacturer that also does OEM work for outdoor brands",
+      "price": "",
+      "url": "https://www.amazon.com/KOVEA-Camping-Igniter-Foldable-Canister/dp/B08L65RVP9?tag=epickor-20",
+      "category": "Outdoor",
+      "image": "",
+      "tags": [
+        "Kovea",
+        "Camping Stove",
+        "Korean Manufacturing"
+      ]
+    },
+    {
+      "id": "kovea-supalite-titanium",
+      "name": "Kovea SupaLite Titanium Stove (KB-0707 class)",
+      "description": "The Kovea-branded twin of the Snow Peak LiteMax; stock is intermittent in the US",
+      "price": "",
+      "url": "https://www.amazon.com/Kovea-Supalite-Titanium-Stove-Silver/dp/B003EYTFE6?tag=epickor-20",
+      "category": "Outdoor",
+      "image": "",
+      "tags": [
+        "Kovea",
+        "Titanium Stove",
+        "Backpacking"
+      ]
     }
   ]
 }

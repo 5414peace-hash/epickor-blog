@@ -1,10 +1,10 @@
 {
   "summary": {
-    "generatedAt": "2026-09-02T23:18:41.076Z",
-    "auditedPosts": 435,
+    "generatedAt": "2026-09-03T02:06:10.640Z",
+    "auditedPosts": 436,
     "includedPrivate": false,
     "slugFilter": "",
-    "bodyImages": 1540,
+    "bodyImages": 1543,
     "affectedPosts": 96,
     "critical": 0,
     "high": 0,
@@ -16528,6 +16528,38 @@
           "detail": "1 SVG body image(s); mixed-media use requires manual relevance review"
         }
       ]
+    },
+    {
+      "type": "business",
+      "slug": "kovea-camping-stove-company-deep-dive",
+      "title": "Kovea Deep Dive: The Korean Burner Maker That Took Apart a Swedish Stove — and Now Builds for MSR",
+      "contentPath": "content\\business\\kovea-camping-stove-company-deep-dive.md",
+      "sourceRecord": "public\\assets\\images\\business\\kovea-camping-stove-company-deep-dive\\image-sources.md",
+      "imageCount": 3,
+      "images": [
+        {
+          "url": "/assets/images/business/kovea-camping-stove-company-deep-dive/kovea-container-stove-official.jpg",
+          "alt": "Kovea Container Stove: a stainless-steel folding camping burner with its box-shaped body open, serrated pot supports extended, and a butane canister loaded through the side.",
+          "caption": "The Container Stove, the product most Koreans picture when they hear the name. The box folds shut around the burner and the canister slides in from the side — ₩120,000 on Kovea's own store as of September 2026. Image: Kovea official product page.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/business/kovea-camping-stove-company-deep-dive/kovea-oem-evidence-ladder.jpg",
+          "alt": "Chart titled \"Who says Kovea makes it — and how firmly\", separating four tiers of evidence: MSR and Decathlon named in Korean press, Snow Peak LiteMax supported by physical evidence, Markill/Vaude/Edelrid from gear-community documentation only, and what no company has ever confirmed.",
+          "caption": "The four claims in this section are not equally strong, and collapsing them into one sentence is how \"Kovea makes everything\" becomes folklore. Chart: EpicKor, from the sources listed at the end.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/business/kovea-camping-stove-company-deep-dive/kovea-k1-burner-official.jpg",
+          "alt": "Kovea K1 camping stove: a compact stainless-steel canister-top burner with four serrated pot-support arms folded out, a perforated burner head, and a black control knob.",
+          "caption": "The K1 — a canister-top burner that screws straight onto a gas cartridge. This is the product class the OEM discussion is about: small, certified, unglamorous, and the part of the catalogue that does not depend on anyone buying a tent this year. Image: Kovea official product page.",
+          "ext": ".jpg",
+          "exists": true
+        }
+      ],
+      "findings": []
     },
     {
       "type": "business",

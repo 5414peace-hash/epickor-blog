@@ -126,6 +126,8 @@ At minimum, ask for the official company name in Korean and English, business re
 
 Be careful with certificates. A certificate can be expired, irrelevant to the exact product, held by a different company, or used for marketing more than compliance. For regulated categories such as food, cosmetics, medical devices, electronics, children products, and health-related goods, you need category-specific professional review for your target import market. A Korean supplier can help, but your destination-market responsibility does not disappear.
 
+Ask one more question that buyers routinely skip: **which items in the catalogue does this company actually make?** Korean manufacturers frequently run a distribution arm beside the factory, and the consumer storefront mixes both. Our [Kovea deep dive](/business/kovea-camping-stove-company-deep-dive) is a worked example — three legal entities, one brand name, and a shop that carries partner brands next to the company's own burners. The revenue figure you find will also differ depending on which entity it describes.
+
 ## Step 4: Send a First Contact Message That Looks Serious
 
 Your first message should be short, specific, and easy to answer. Include who you are, your target market, product category, estimated first order range, required certification or documentation, desired role, timeline, and the next decision point. If you are not ready to reveal volume, give a range and say that exact quantities depend on sample and landed-cost review.

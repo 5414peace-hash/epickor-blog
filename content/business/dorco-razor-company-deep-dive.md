@@ -97,7 +97,7 @@ The margin data supports the reframing. Blade-making is precision metallurgy wit
 
 ## What This Means If You Source from Korea
 
-**1. The best Korean suppliers are often famous for someone else's brand.** Dorco's fame is a customer's launch video; JMW's export towers predate its domestic awards by a decade; [COSMAX manufactures for beauty brands you know without appearing on a single label](/business/cosmax-korean-beauty-odm-deep-dive). If you are looking for Korean manufacturing partners, the visible consumer brand is the wrong search key — export records and OEM litigation are better ones.
+**1. The best Korean suppliers are often famous for someone else's brand.** Dorco's fame is a customer's launch video; JMW's export towers predate its domestic awards by a decade; [COSMAX manufactures for beauty brands you know without appearing on a single label](/business/cosmax-korean-beauty-odm-deep-dive); and [Kovea builds camping stoves that ship under Japanese, American and French logos](/business/kovea-camping-stove-company-deep-dive). If you are looking for Korean manufacturing partners, the visible consumer brand is the wrong search key — export records and OEM litigation are better ones.
 
 **2. A world-first is not a moat without distribution.** Dorco built the six- and seven-blade firsts and still spent decades as the invisible half of other people's margins. What changed its trajectory was not another blade — it was DSC proving, with Dorco's own hardware, that razor distribution could be disrupted. The lesson cuts both ways for Korean SMEs going direct.
 
