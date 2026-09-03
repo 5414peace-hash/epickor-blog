@@ -849,8 +849,8 @@
         "yearInTitle": true
       },
       "updatedAt": null,
-      "worked": null,
-      "note": null
+      "worked": "2026-09-04",
+      "note": "Spec v1 + transaction layer: 26 won figures (was 0), hangul 3 -> 1,262 chars, year dropped from title. Added addresses and opening hours for all five named venues, the Haus Nowhere (Seongsu, Sept 2025) vs Haus Dosan (Apgujeong) distinction no English guide flags, Musinsa Megastore Seongsu (opened 2026-04-24) with the foreign-share figures corrected against the \"two-thirds\" headline, and the tax-refund caps doubled on 2024-01-01. Mutual link with 242."
     },
     {
       "slug": "179",
