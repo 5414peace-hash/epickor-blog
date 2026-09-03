@@ -1232,8 +1232,18 @@
   `@vercel/analytics@^2.0.1` 설치, `app/layout.tsx`에서 `import { Analytics } from '@vercel/analytics/next'` 후
   `</body>` 직전에 `<Analytics />`. 빌드 통과했고 클라이언트 번들에 **`/_vercel/insights/script.js`** 참조가 들어간 것을 확인했다.
   **기존 `GoogleAnalytics`·`AnalyticsEvents` 컴포넌트는 그대로 둔다** — 병행이다.
-  **⚠️ 컴포넌트만으로는 수집이 시작되지 않는다.** Vercel 대시보드에서 프로젝트 → Analytics 탭 → Web Analytics를 **Enable** 해야 한다. 대표님 몫.
-  *Verified:* `npm ls`·`tsc --noEmit`·`next build` 통과 + `.next/static/chunks`에서 스크립트 경로 grep, 2026-09-03.
+  **라이브 실측**: 홈에서 `window.va`가 function, `window.vam`이 `production`, pageview 1건이 큐에 적재됨.
+  주입된 스크립트는 `/_vercel/insights/script.js`가 아니라 **난독화 경로**(`/5e42027577a8a26c/script.js`, 200, 2,495B)다 —
+  광고차단 회피용이라 `insights`로 grep하면 안 잡힌다. **이걸 몰라서 "작동 안 함"으로 두 번 오판했다.**
+  **그리고 그 스크립트는 `navigator.webdriver || userAgent.includes("Headless")`이면 스스로 아무것도 하지 않는다.**
+  즉 **Playwright로는 비콘 발생을 영원히 확인할 수 없다** — 큐가 안 비워지는 것이 정상이다. 사람 브라우저나 대시보드로 확인한다.
+  **⚠️ 배포가 한 번 실패했다. `npm install`을 썼기 때문이다.** Vercel이 **pnpm `--frozen-lockfile`**로 빌드하는데
+  `package.json`만 바뀌고 `pnpm-lock.yaml`이 그대로여서 `ERR_PNPM_OUTDATED_LOCKFILE`로 48초 만에 죽었다.
+  **이 저장소의 추적 락파일은 `pnpm-lock.yaml`이다**(`package-lock.json`은 gitignore).
+  **의존성 추가는 pnpm으로 한다.** 복구는 `pnpm install --lockfile-only` 후 커밋.
+  **⚠️ 컴포넌트만으로 수집이 시작되는지는 미확인.** Vercel 대시보드 Analytics 탭에서 Web Analytics가 Enable인지 대표님이 확인하셔야 한다.
+  *Verified:* `tsc --noEmit`·`next build` 통과 + 배포 실패 로그 판독 + 락파일 수정 후 재배포 도달 확인 +
+  Playwright로 `window.va`/`vam`/`vaq`·주입 스크립트 200·webdriver 분기 소스 확인, 2026-09-03.
 
 - **2026-09-03 — 카드뉴스 저장 위치는 `public/assets/cardnews/{YYYY-MM-DD}_{slug}/` 하나다. `output/cardnews/`는 죽은 스테이징이다.**
   대표님이 "왜 저장을 못 찾겠지"라고 물어 실측했다. **CLAUDE.md가 두 경로를 서로 다른 절에서 말하고 있었던 게 원인**이고 고쳤다.
