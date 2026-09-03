@@ -6,7 +6,7 @@ sourced for this carousel and checked against the used-ID list before download.
 | Card | File | What is in frame | Source | Licence |
 |---|---|---|---|---|
 | 01 | `stainless-pot-butane-stove-soju.jpg` | Shallow two-handled stainless pot of red stew on a portable butane burner, two 새로 soju bottles behind | Pexels `15622966`, 세훈 예 | Pexels licence |
-| 02 | `yangeun-naembi-pot.jpg` | Hammered-finish aluminium 양은냄비 with wooden handles and lid, plain ground | Post 438 → `commons.wikimedia.org` `File:Nickel_silver_pot.jpg` | **CC BY-SA 2.0 KR** — 국립국어원 |
+| 02 | `yangeun-naembi-gold-pot.jpg` | **Gold anodised 양은냄비** — gold body and lid, two side handles, black knob, dark ground | `commons.wikimedia.org` `File:Yangeun-naembi_2.jpg` | **CC BY 2.0** — The Marmot |
 | 03 | `rabokki-in-metal-pot.jpg` | Rabokki — rice cakes and ramyun in red broth — in a plain metal pot | Post 438 → Pexels `32196399`, Theodore Nguyen | Pexels licence |
 | 04 | `kimchi-ramyun-in-pot.jpg` | Kimchi ramyun cooking in a metal pot, Korean noodle packet behind | Post 438 → Pexels `8836444`, makafood | Pexels licence |
 | 05 | `kimchi-bowl-tongs.jpg` | Baechu kimchi in a brown ceramic bowl with metal tongs | Pexels `8956770`, makafood | Pexels licence |
@@ -27,7 +27,8 @@ text where it belongs. The photograph now matches the name on the card exactly.
 `image_label` did not name the product the card names. The label was accurate but generic
 ("a hammered-finish metal pot..."). The photograph genuinely is a 양은냄비 — it is 국립국어원's
 reference image for that headword — so the label was rewritten to say so. **The fix was to make the
-label name the object, not to weaken the card.**
+label name the object, not to weaken the card.** *(Superseded: that photograph was itself wrong — see
+"Card 02 was corrected" at the end.)*
 
 ## Rejections
 
@@ -62,3 +63,25 @@ veil — the CLAUDE.md 2026-07-20 warning about the house default burying food d
 **Visual Fit Score: average 98, lowest card 97** (01: 98 · 02: 99 · 03: 97 · 04: 99 · 05: 98 ·
 06: 98 · 07: 97). Structural gate `review-cardnews.mjs` PASS, 7/7 image cards, 0 consecutive
 image-free cards.
+
+## ⚠️ Card 02 was corrected after the representative reviewed it
+
+The first render put a **silver** pot on the card that names 양은냄비. **양은냄비 is gold** — that is
+how anyone in Korea recognises one — so the card named a product and showed something else, which is
+exactly the failure the 2026-08-03 rule exists to stop.
+
+**The structural gate could not catch it.** `review-cardnews.mjs` compares the card's name against the
+`image_label`, and the label honestly said "aluminium 양은냄비". Both name and label were the right
+words; the *photograph* was the wrong object. **A label check verifies wording, not colour or
+identity — only opening the file does that, and the file has to be judged against what the reader
+already knows the thing looks like.**
+
+**It also inverted the card's argument.** The card says *the name says nickel silver, the pot is
+aluminium*. A silver pot visually confirms the wrong name. The gold pot is what makes the sentence
+land.
+
+Fixed by sourcing `File:Yangeun-naembi 2.jpg` from Commons (CC BY 2.0, The Marmot) — found via a
+Commons **API search on the romanised Korean term**, which is what the original pass never ran. The
+source is cropped from the top (1015×1016 → 1015×716) because the square original left the pot in the
+lower half, where the steel plate covered it. Blog 438's hero was replaced with the same photograph
+and its sourcing note corrected; that post had inherited the same silver pot.

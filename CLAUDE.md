@@ -140,6 +140,10 @@
 - 왜 생겼나: 구 파이프라인(`generate-slides.mjs` → `html-to-png.py`)이 `output/`에 렌더한 뒤 완성본을 `public/assets/`로 복사했다. **배치별 렌더러 체제로 바뀌면서 복사 단계가 없어졌는데 옛 폴더가 남았다.**
 - **구 렌더러 6종**(`html-to-png.py`, `render-heatscale.py`, `render-makers-v2.py`, `render-pricetag.py`, `render-specsheet.py`, `render-stationsign.py`)은 아직 `output/cardnews`를 본다. **재사용하지 말고, 새 배치는 `public/assets/cardnews`를 보는 최근 렌더러를 복사해서 시작한다.**
 
+**카드뉴스를 만들면 폴더 주소를 보고에 함께 적는다 (2026-09-03 대표님 지시).**
+"438 캐러셀 완성"이 아니라 **"`public/assets/cardnews/2026-09-03_438/` 에 완성"** 으로 쓴다.
+대표님이 결과물을 직접 열어보실 수 있어야 한다.
+
 **릴스와 헷갈리지 말 것 — 릴스는 규칙이 반대다.** 릴스 작업물은 `output/reels/{YYYY-MM-DD}_{slug}/`에 있고 `public/assets/reels/{slug}/`는 런타임 자산 전용(날짜 없음)이다. 카드뉴스는 `public/assets/` 하나, 릴스는 `output/`이 작업 폴더다.
 - Card-news images must be fresh and varied. Do not reuse the same `image:` path within one carousel.
 - Reviewer must reject repeated `image:` paths inside the same carousel. Do not treat same-carousel duplicates as warnings. If a repeated crop is truly needed, save it as a separate intentional derivative asset and document the reason in `image-sources.md` and `HANDOFF.md`.
@@ -153,6 +157,17 @@
 - Before final save, Reviewer must compare the candidate `image:` values against existing `public/assets/cardnews/*/script.md` files and flag any cross-post duplicates.
 - Reviewer must inspect rendered PNGs card by card for image relevance, mobile readability, watermark presence, and swipe logic.
 - Card-news visual approval requires a written Visual Fit Score: direct topic fit 30, Korea/context fit 25, no misleading/text/watermark risk 20, carousel variety/coherence 15, rendered mobile quality 10. Do not show the user a carousel unless the average is at least 90/100 and no individual card is below 88/100. Any misleading country/context mismatch caps that card at 59; graphic-only use where a photo could be sourced caps that card at 79.
+- **제품 카드는 그 제품이 "어떻게 생겼는지"까지 맞아야 한다. 이름과 라벨이 맞는 것으로는 부족하다 (2026-09-03 대표님 지적).**
+  `438` 카드 02가 **양은냄비**를 이름 대면서 **은색 냄비** 사진을 실었다. **양은냄비는 노란 금색**이고 한국인은 보면 안다.
+  **구조 검사(`review-cardnews.mjs`)는 이걸 못 잡는다** — 카드의 `name_ko`와 `image_label`을 문자열로 대조할 뿐이라,
+  라벨에 "양은냄비"라고 정직하게 써 있으면 통과시킨다. **단어는 맞고 사물이 틀린 경우를 스크립트는 볼 수 없다.**
+  게다가 그 카드의 논지가 *"이름은 은인데 실물은 알루미늄"* 이라 **은색 사진이 틀린 이름 쪽을 시각적으로 편들고 있었다.**
+  → **파일을 열어, 독자가 이미 알고 있는 그 물건의 생김새와 대조한다.** 색·형태·부속까지.
+- **한국 사물 이미지는 위키미디어 커먼즈를 API로, 로마자 한국어 이름으로 검색한다 (2026-09-03).**
+  같은 건에서 영어 서술어(`korean aluminium pot`)와 카테고리 훑기로는 **은색 파일 하나만** 나와
+  "라이선스 안전한 금색 냄비는 없다"고 잘못 결론냈다. 실제로는 `File:Yangeun-naembi 1.jpg`·`2.jpg`
+  (CC BY 2.0)가 있었고, **`action=query&list=search&srsearch=yangeun naembi&srnamespace=6`** 으로 바로 나온다.
+  **커먼즈 파일명은 로마자 한국어인 경우가 많다** — 없다고 단정하기 전에 이 검색을 돌린다.
   - **주의 (2026-08-03): 첫 항목은 "topic fit"이지 "product fit"이 아니다.** 이 문구 때문에 짜파게티 카드에 붉은 해물 라면을 올려놓고도 "주제=한국 라면"이니 30점 만점으로 자기채점했다. **카드가 이름을 댄 제품과 사진이 다르면 그 카드는 59점 상한이다** — 국가 불일치와 같은 급으로 취급한다.
 - Before recording "Reviewer visually inspected" in `HANDOFF.md`, run `node .claude/skills/cardnews/scripts/review-cardnews.mjs --slug {slug}` after rendering. The script passing is not enough by itself; it is the structural gate before manual PNG inspection.
 - Record card news agent roles and rendered-image review in `HANDOFF.md`.

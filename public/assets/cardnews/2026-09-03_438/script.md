@@ -25,16 +25,16 @@ image_label: A shallow two-handled stainless pot of red stew simmering on a port
 ## Card 02
 mode: stamp
 kicker: THE NAME IS WRONG
-image: sources/yangeun-naembi-pot.jpg
+image: sources/yangeun-naembi-gold-pot.jpg
 fit: cover
-image_position: center 46%
+image_position: center 58%
 image_opacity: 0.92
-image_label: A hammered-finish aluminium 양은냄비 (yangeun naembi) with wooden handles and a lid, photographed against a plain background as the dictionary reference image for the object
+image_label: A gold anodised aluminium 양은냄비 (yangeun naembi) with two side handles and a black lid knob, lit against a dark background — the yellow pot Koreans actually picture
 name_ko: 양은냄비
 name_en: yangeun naembi
 
 **Main:** The name says nickel silver.\nThe pot is aluminium.
-**Sub:** 양은 (洋銀) means *Western silver* — copper alloyed with zinc and nickel. **Modern 양은냄비 contain none of it.** The material changed decades ago and the name never did.
+**Sub:** 양은 (洋銀) means *Western silver* — copper alloyed with zinc and nickel. **This gold pot contains none of it.** It is anodised aluminium. The material changed decades ago and the name never did.
 
 ---
 
