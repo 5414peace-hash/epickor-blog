@@ -168,6 +168,9 @@
   "라이선스 안전한 금색 냄비는 없다"고 잘못 결론냈다. 실제로는 `File:Yangeun-naembi 1.jpg`·`2.jpg`
   (CC BY 2.0)가 있었고, **`action=query&list=search&srsearch=yangeun naembi&srnamespace=6`** 으로 바로 나온다.
   **커먼즈 파일명은 로마자 한국어인 경우가 많다** — 없다고 단정하기 전에 이 검색을 돌린다.
+  - **붙여 쓴 형태도 반드시 같이 돌린다 (2026-09-04).** `olive young`(공백)은 1920년대 배우
+    Olive Young의 초상만 8장 내놓지만 **`oliveyoung`**은 매장 사진 5장을 준다. 한국 브랜드 로마자
+    표기는 붙여 쓰는 경우가 많다.
   - **주의 (2026-08-03): 첫 항목은 "topic fit"이지 "product fit"이 아니다.** 이 문구 때문에 짜파게티 카드에 붉은 해물 라면을 올려놓고도 "주제=한국 라면"이니 30점 만점으로 자기채점했다. **카드가 이름을 댄 제품과 사진이 다르면 그 카드는 59점 상한이다** — 국가 불일치와 같은 급으로 취급한다.
 - Before recording "Reviewer visually inspected" in `HANDOFF.md`, run `node .claude/skills/cardnews/scripts/review-cardnews.mjs --slug {slug}` after rendering. The script passing is not enough by itself; it is the structural gate before manual PNG inspection.
 - Record card news agent roles and rendered-image review in `HANDOFF.md`.
@@ -1093,6 +1096,9 @@ python .claude/skills/cardnews/scripts/fix-meta-caption.py "{행 제목 접두�
 - 원본을 받을 때부터 과도하게 큰 소스(1920px, 800KB~1.2MB)를 피하고, 필요하면 최적화 후 크기를 확인해 한 번 더 줄인다.
 - 참고 실측(2026-07-20): Codex 발행분 306~310은 이미지당 평균 73~232KB(포스트당 220~728KB), Claude Code 발행분 311~313은 평균 240~339KB(포스트당 940~1,356KB)로 약 2배 무거웠다. 전부 400KB 게이트는 통과했지만 상한에 붙어 있었다.
 - 발행 전 `npm run audit:image-sizes`뿐 아니라 **포스트 폴더 합계**도 확인한다. 포스트당 이미지 총합 1MB 초과면 줄인다.
+- **축소는 폭이 아니라 긴 변을 기준으로 한다 (2026-09-04).** `232`의 홍대 사진은 **1600×1708 세로형**이라
+  폭 상한(1500/1400/1280)을 전부 그냥 통과했고, 루프가 원본 재인코딩으로 떨어져 **363KB → 377KB로
+  오히려 커졌다.** `thumbnail((L,L))`로 긴 변을 잡을 것.
 - 주의: `npm run audit:image-context -- --slug {slug}`는 공용 리포트 `reports/image-context-audit.json`을 **단일 포스트 결과로 덮어쓴다.** 빠른 확인엔 `--slug`를 써도 되지만, 그 리포트를 커밋하기 전에는 반드시 `npm run audit:image-context`(전체)를 다시 돌려 사이트 전체 결과로 복구한다. 2026-07-20에 이 실수로 292개 포스트 리포트가 1개짜리로 축소된 커밋이 나갔고 다음 커밋에서 복구했다.
 
 ## 분량 기준
