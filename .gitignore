@@ -42,7 +42,14 @@ debug.log
 !/output/reels/
 !/output/strategy/
 /output/strategy/*
-!/output/strategy/keywords_*.md
+# Keep every strategy NOTE, ignore the media. The allow-list used to name a few
+# filename patterns, so each new note family (keyword-cycle_, business-candidates_,
+# youtube-shorts-verdict_, ...) had to be force-added, and sessions forgot: as of
+# 2026-09-03 `youtube-shorts-verdict_2026-09-01.md` was sitting untracked while
+# FACTS cited it. These are small markdown records of decisions; the reason for the
+# broad ignore is the 62MB of instagram_*.jpg / instagram_reels_source.pdf here.
+!/output/strategy/*.md
+!/output/strategy/*.json
 !/output/strategy/keyword-bets.csv
 !/output/strategy/cluster-backlog.md
 !/output/strategy/cluster-map.md
