@@ -15,7 +15,7 @@
   "water": [
     "249",
     "242",
-    "201"
+    "232"
   ],
   "deadEndExcluded": [
     "090",
@@ -660,8 +660,8 @@
         "yearInTitle": true
       },
       "updatedAt": null,
-      "worked": null,
-      "note": null
+      "worked": "2026-09-03",
+      "note": "Cost spine added: Wippy/Enlize May 2026 survey (₩50-100k spent vs ₩30-50k affordable, 17.9% of women ended a relationship over cost) + Sept 2026 retail prices + real Jongno price-board photo. 1,979 → 3,224 words. Title year stamp removed."
     },
     {
       "slug": "220",
@@ -813,7 +813,7 @@
     {
       "slug": "201",
       "section": "blog",
-      "title": "Korea Payment Guide 2026: T-money, WOWPASS, Cards, Cash",
+      "title": "Korea Payment Guide: T-money, WOWPASS, and the Card You Cannot Tap",
       "published": "2026-06-15",
       "ageDays": 65,
       "clicks": 1,
@@ -823,11 +823,11 @@
       "secondHalf": 1,
       "verdict": "alive",
       "gaps": {
-        "won": 0,
-        "hangul": 0,
-        "yearInTitle": true
+        "won": 50,
+        "hangul": 10,
+        "yearInTitle": false
       },
-      "updatedAt": "2026-07-18",
+      "updatedAt": "2026-09-03",
       "worked": "2026-09-03",
       "note": "Refreshed: every fare and card price added with a date stamp; corrected the \"some foreign cards may work on transit\" hedge (they cannot — EMV open-loop is a 2027-2030 rollout); added the 30-day Climate Card termination on 1 Sep 2026 and the 3.7% overseas-card kiosk fee. Two captions that did not describe their photos were replaced."
     },

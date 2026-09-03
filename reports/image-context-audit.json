@@ -1,10 +1,10 @@
 {
   "summary": {
-    "generatedAt": "2026-09-03T02:34:24.046Z",
+    "generatedAt": "2026-09-03T04:28:34.278Z",
     "auditedPosts": 437,
     "includedPrivate": false,
     "slugFilter": "",
-    "bodyImages": 1546,
+    "bodyImages": 1547,
     "affectedPosts": 96,
     "critical": 0,
     "high": 0,
@@ -9217,10 +9217,10 @@
     {
       "type": "blog",
       "slug": "249",
-      "title": "Korean Dating Rules 2026: Sogaeting, 100 Days, And Apps",
+      "title": "Korean Dating Rules: Sogaeting, 100 Days, and What a Seoul Date Costs",
       "contentPath": "content\\blog\\249.md",
       "sourceRecord": "public\\assets\\images\\posts\\249\\image-sources.md",
-      "imageCount": 4,
+      "imageCount": 5,
       "images": [
         {
           "url": "/assets/images/posts/249/korean-sogaeting-cafe-date.jpg",
@@ -9241,6 +9241,13 @@
           "alt": "Matching coffee cups, rings, keychains, a small gift, and phones arranged on a table as Korean couple items.",
           "caption": "Couple items are less about luxury and more about visible shared identity.",
           "ext": ".png",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/249/seoul-alley-restaurant-price-board.jpg",
+          "alt": "A narrow sunlit Seoul alley in Jongno with people eating at outdoor tables on red plastic stools, beside a Korean price board listing pork cuts, lunch stews and drinks.",
+          "caption": "This is what those numbers look like on a wall. The board lists pork cuts at ₩18,000–22,000 a portion, lunch stews (김치찌개, 소고기국밥) at ₩10,000, 공기밥 at ₩1,000, soju at ₩5,000 and beer at ₩6,000. Two people ordering one meat portion each, rice and two bottles lands near ₩50,000 — the bottom of the \"typical\" band and the top of the \"comfortable\" one. Photo: Theodore Nguyen / Pexels.",
+          "ext": ".jpg",
           "exists": true
         },
         {
