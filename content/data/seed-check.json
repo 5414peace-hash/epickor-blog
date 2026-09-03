@@ -13,9 +13,9 @@
     "dormantUnseen": 3
   },
   "water": [
-    "249",
     "242",
-    "232"
+    "232",
+    "192"
   ],
   "deadEndExcluded": [
     "090",
@@ -645,7 +645,7 @@
     {
       "slug": "249",
       "section": "blog",
-      "title": "Korean Dating Rules 2026: Sogaeting, 100 Days, And Apps",
+      "title": "Korean Dating Rules: Sogaeting, 100 Days, and What a Seoul Date Costs",
       "published": "2026-06-28",
       "ageDays": 52,
       "clicks": 2,
@@ -655,11 +655,11 @@
       "secondHalf": 2,
       "verdict": "alive",
       "gaps": {
-        "won": 0,
-        "hangul": 0,
-        "yearInTitle": true
+        "won": 46,
+        "hangul": 25,
+        "yearInTitle": false
       },
-      "updatedAt": null,
+      "updatedAt": "2026-09-03",
       "worked": "2026-09-03",
       "note": "Cost spine added: Wippy/Enlize May 2026 survey (₩50-100k spent vs ₩30-50k affordable, 17.9% of women ended a relationship over cost) + Sept 2026 retail prices + real Jongno price-board photo. 1,979 → 3,224 words. Title year stamp removed."
     },
@@ -723,8 +723,8 @@
         "yearInTitle": true
       },
       "updatedAt": null,
-      "worked": null,
-      "note": null
+      "worked": "2026-09-03",
+      "note": "Spec v1 applied: 37 ₩ figures (was 0), hangul 18 → 648 chars, year dropped from title. Korean-source facts: 서울교통공사 first-half 2026 ridership (동묘앞 +46.3% weekend, highest in Seoul) and the Dec 2024 decline reporting the market has since reversed. Three generic Pexels photos replaced with real Dongmyo frames from Commons."
     },
     {
       "slug": "272",
