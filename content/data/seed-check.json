@@ -1017,8 +1017,8 @@
         "yearInTitle": false
       },
       "updatedAt": null,
-      "worked": null,
-      "note": null
+      "worked": "2026-09-04",
+      "note": "Spec v1 + transaction layer: 26 won figures (was 0), hangul 3 -> 429. Core addition is the sale calendar the guide never mentioned (quarterly bigsale straddling the month boundary, monthly Olive Young Day 25th-27th). Corrected a real error: the old text said \"passport or a clear passport copy\" and a copy is not accepted -- the Myeongdong store prints PLEASE PREPARE YOUR PHYSICAL PASSPORT on all 14 tills, visible in the new hero. Foreign share of offline sales 2% (2022) -> 33%; Myeongdong Town ~95% foreign. Two stock photos replaced with real Olive Young frames found via the no-space romanised search."
     },
     {
       "slug": "243",

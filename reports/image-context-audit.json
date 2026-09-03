@@ -1,6 +1,6 @@
 {
   "summary": {
-    "generatedAt": "2026-09-03T15:11:57.264Z",
+    "generatedAt": "2026-09-03T15:23:02.709Z",
     "auditedPosts": 437,
     "includedPrivate": false,
     "slugFilter": "",
@@ -6991,29 +6991,29 @@
     {
       "type": "blog",
       "slug": "192",
-      "title": "Olive Young Korea Guide: What to Buy and What to Skip",
+      "title": "Olive Young Korea Guide: When to Shop, What It Costs, and What to Skip",
       "contentPath": "content\\blog\\192.md",
       "sourceRecord": "public\\assets\\images\\posts\\192\\image-sources.md",
       "imageCount": 4,
       "images": [
         {
-          "url": "/assets/images/posts/192/seoul-beauty-shopping-street.jpg",
-          "alt": "A busy Seoul shopping street, the kind of district where travelers often combine Olive Young, cafes, fashion stores, and street browsing.",
-          "caption": "Olive Young works best when you treat it as part of a Korea shopping route, not a random souvenir stop. Photo by Theodore Nguyen via Pexels.",
+          "url": "/assets/images/posts/192/oliveyoung-myeongdong-checkout.jpg",
+          "alt": "The checkout hall at Olive Young's Myeongdong store: fourteen numbered tills, queues at most of them, and an illuminated sign along every counter reading PLEASE PREPARE YOUR PHYSICAL PASSPORT (FOR IMMEDIATE TAX REFUND) in English and Chinese.",
+          "caption": "Read the counters. Every till at the Myeongdong store carries the same lit strip — **\"PLEASE PREPARE YOUR PHYSICAL PASSPORT (FOR IMMEDIATE TAX REFUND)\"**, repeated in Chinese as 请准备好护照原件. The store prints it in three languages on fourteen lanes because so many people arrive with a photo of their passport. A photo does not work. Photo: Sgroey / Wikimedia Commons, CC BY-SA 4.0.",
           "ext": ".jpg",
           "exists": true
         },
         {
-          "url": "/assets/images/posts/192/skincare-label-shopping.jpg",
-          "alt": "A shopper checks skincare labels, a useful reminder that Olive Young rewards careful comparison more than impulse buying.",
-          "caption": "Read labels and textures before buying duplicates. Photo by RDNE Stock project via Pexels.",
+          "url": "/assets/images/posts/192/oliveyoung-skincare-aisle.jpg",
+          "alt": "A skincare aisle inside an Olive Young branch: shelves of toners, serums and cleansers with Korean price tags and promotional flags, with Dr.Jart+, BOH and isoi brand signage on the facial-care wall behind.",
+          "caption": "Look at the shelf edges, not the shelf. Those coloured tags are the promotion markers — 1+1, 2+1 and event pricing — and they change with the sale calendar rather than with the product. Photo: Pkccccj / Wikimedia Commons, CC BY-SA 4.0.",
           "ext": ".jpg",
           "exists": true
         },
         {
           "url": "/assets/images/posts/192/cosmetics-shelf-browsing.jpg",
           "alt": "Cosmetics shelves can make every color look tempting, but shade, texture, and actual use matter more than display hype.",
-          "caption": "Makeup is easiest when you buy small, wearable items instead of forcing a full routine. Photo by RDNE Stock project via Pexels.",
+          "caption": "Tints and lip products are the low-risk end of a beauty haul. Foundation, under shop lighting, in a country whose shade ranges may not include yours, is the high-risk end.",
           "ext": ".jpg",
           "exists": true
         },
