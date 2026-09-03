@@ -102,6 +102,8 @@ That last bullet deserves a pause. The bicycle business is the graphene-and-carb
 
 **3. A guaranteed home market starts companies; exports keep them alive.** The 1997 domestic-equipment mandate created Korean bow-making, but the two companies it fed diverged: Samick Sports stayed an equipment assembler and died when the incumbent counterattacked; Win&Win became a materials company and now exports 95% of what it makes. Policy can open a door. It cannot be the business.
 
+**4. Owning the sport is not the same as owning its equipment.** Archery is the case where a Korean company took the hardest part — the composite engineering — and kept it. Taekwondo went the other way: our [Mooto deep dive](/business/mooto-taekwondo-uniform-company-deep-dive) finds Korean brands all over World Taekwondo's recognised uniform and protector lists, and a **Spanish** company supplying the electronic scoring system at Tokyo 2020 and Paris 2024. Same national origin story, opposite outcome, and the difference is which layer of the product a Korean firm chose to master.
+
 ## The Honest Caveats
 
 - **The market-share figures are Korean press and company claims, not audited numbers.** "Roughly 60% of world recurve" and "80–90% of Japanese registered archers" recur across reputable Korean outlets, but no independent global audit of archery equipment share exists. The Paris count of 65/128 comes from the founder's own interview.

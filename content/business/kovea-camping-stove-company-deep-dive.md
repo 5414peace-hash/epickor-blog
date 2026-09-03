@@ -139,6 +139,8 @@ Kovea is a useful worked example of a category of Korean supplier that overseas 
 
 The pattern to look for is the one in this article. A company that is small by revenue but old by category. A narrow product line it has never left. Certifications in three regulatory regimes that took years and that a new entrant cannot buy. And a consumer brand at home that is really a distribution business wrapped around a factory.
 
+The corollary is worth stating too: **the name on a product tells you who is responsible for it, not who built it.** That cuts both ways here — Kovea makes stoves that ship under other logos, and some canisters wearing the Kovea logo are made by someone else. Our [Mooto deep dive](/business/mooto-taekwondo-uniform-company-deep-dive) is the same lesson in apparel, where one Korean brand's catalogue turns out to be made in Korea, Myanmar and China depending on the model.
+
 If that is the kind of supplier you are trying to find, the mechanics of reaching them are in our [guide to finding suppliers in Korea](/business/how-to-find-suppliers-in-korea) — the official platforms, what to verify, and how first contact usually goes.
 
 And if you are visiting rather than sourcing: the burner is genuinely part of how Koreans use the outdoors. It turns up at the top of city mountains — see our [Seoul hiking guide](/blog/063) — and under the [aluminium ramyun pot](/blog/438) that is the single most Korean object you can put on a flame.

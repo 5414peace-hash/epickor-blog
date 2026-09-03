@@ -3192,6 +3192,35 @@
         "Titanium Stove",
         "Backpacking"
       ]
+    },
+    {
+      "id": "mooto-basic45-kukkiwon-dobok",
+      "name": "Mooto BASIC 4.5 Kukkiwon Taekwondo Dobok (black neck)",
+      "description": "Korea-made Kukkiwon-badged uniform, 65% polyester / 35% cotton; sizes run by height in cm",
+      "price": "",
+      "url": "https://www.amazon.com/Mooto-Taekwondo-Kukkiwon-Uniform-JIU-Jitsu/dp/B07K6CHT8F?tag=epickor-20",
+      "category": "Sports",
+      "image": "",
+      "tags": [
+        "Mooto",
+        "Taekwondo",
+        "Dobok",
+        "Korean Manufacturing"
+      ]
+    },
+    {
+      "id": "mooto-basic45-white-neck",
+      "name": "Mooto BASIC 4.5 Taekwondo Uniform, white neck (WT logo)",
+      "description": "White-neck grade of the same Mooto basic dobok line",
+      "price": "",
+      "url": "https://www.amazon.com/Mooto-Korea-Taekwondo-Uniform-Martial/dp/B07H6CP8CL?tag=epickor-20",
+      "category": "Sports",
+      "image": "",
+      "tags": [
+        "Mooto",
+        "Taekwondo",
+        "Dobok"
+      ]
     }
   ]
 }

@@ -1,10 +1,10 @@
 {
   "summary": {
-    "generatedAt": "2026-09-03T02:06:10.640Z",
-    "auditedPosts": 436,
+    "generatedAt": "2026-09-03T02:34:24.046Z",
+    "auditedPosts": 437,
     "includedPrivate": false,
     "slugFilter": "",
-    "bodyImages": 1543,
+    "bodyImages": 1546,
     "affectedPosts": 96,
     "critical": 0,
     "high": 0,
@@ -16580,6 +16580,38 @@
           "url": "/assets/images/business/monami-153-company-deep-dive/monami-153-pen-closeup.jpg",
           "alt": "A Monami 153 pen, closeup of the classic design.",
           "caption": "The object itself is the brand. Every limited edition since 2014 has been this shape in a different material — the strategy is nostalgia, precisely machined. Photo: Wikimedia Commons, CC BY-SA 3.0.",
+          "ext": ".jpg",
+          "exists": true
+        }
+      ],
+      "findings": []
+    },
+    {
+      "type": "business",
+      "slug": "mooto-taekwondo-uniform-company-deep-dive",
+      "title": "Mooto Deep Dive: Korea Still Dresses Taekwondo — Spain Makes the Part That Scores the Points",
+      "contentPath": "content\\business\\mooto-taekwondo-uniform-company-deep-dive.md",
+      "sourceRecord": "public\\assets\\images\\business\\mooto-taekwondo-uniform-company-deep-dive\\image-sources.md",
+      "imageCount": 3,
+      "images": [
+        {
+          "url": "/assets/images/business/mooto-taekwondo-uniform-company-deep-dive/mooto-basic45-kukkiwon-dobok.jpg",
+          "alt": "A taekwondo practitioner in a white Mooto BASIC 4.5 dobok with a black V-neck, Kukkiwon badges on the chest and shoulder, a MOOTO logo on the chest, and a black belt, photographed against a black background.",
+          "caption": "The BASIC 4.5 KUKKIWON uniform, with the Kukkiwon badges at chest and shoulder that are the point of buying it. This is the model Mooto's own US store lists as made in South Korea — and, at $36.29, the cheapest of the four we checked. Image: Mooto official product page.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/business/mooto-taekwondo-uniform-company-deep-dive/mooto-wt-recognition-map.jpg",
+          "alt": "Chart titled \"Where Korean brands sit on World Taekwondo's own list\", comparing four groups: uniforms and protectors where Mooto appears everywhere, PSS electronic scoring where only four brands are recognised and Daedo of Spain supplied Tokyo 2020 and Paris 2024, poomsae scoring where Mooto is absent, and Mooto's official registry classification as shirt and blouse manufacturing.",
+          "caption": "Six categories of eight. The two missing ones are the electronic ones, and that is the whole argument of this article. Chart: EpicKor, from the WT chart and company sources listed at the end.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/business/mooto-taekwondo-uniform-company-deep-dive/mooto-taebek3-poomsae-uniform.jpg",
+          "alt": "A taekwondo practitioner in a gold Mooto TAEBEK 3 poomsae uniform with a black collar and navy trousers, holding a poomsae stance against a dark blue background, wearing a black belt embroidered K-TIGERS.",
+          "caption": "The TAEBEK 3 poomsae uniform — the gold-and-navy grade worn by senior dan holders. Mooto's own copy says the Taebek line launched in 2012 and \"was recognised overseas before it was in Korea.\" The US store lists it as made in Myanmar. Image: Mooto official product page.",
           "ext": ".jpg",
           "exists": true
         }
