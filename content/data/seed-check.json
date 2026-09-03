@@ -13,9 +13,9 @@
     "dormantUnseen": 3
   },
   "water": [
-    "242",
-    "232",
-    "192"
+    "243",
+    "247",
+    "229"
   ],
   "deadEndExcluded": [
     "090",
@@ -708,7 +708,7 @@
     {
       "slug": "242",
       "section": "blog",
-      "title": "Seoul Vintage Shopping 2026: Dongmyo to Hongdae",
+      "title": "Seoul Vintage Shopping: What Dongmyo Costs and When to Go",
       "published": "2026-06-27",
       "ageDays": 53,
       "clicks": 2,
@@ -718,11 +718,11 @@
       "secondHalf": 2,
       "verdict": "alive",
       "gaps": {
-        "won": 0,
-        "hangul": 2,
-        "yearInTitle": true
+        "won": 37,
+        "hangul": 24,
+        "yearInTitle": false
       },
-      "updatedAt": null,
+      "updatedAt": "2026-09-03",
       "worked": "2026-09-03",
       "note": "Spec v1 applied: 37 ₩ figures (was 0), hangul 18 → 648 chars, year dropped from title. Korean-source facts: 서울교통공사 first-half 2026 ridership (동묘앞 +46.3% weekend, highest in Seoul) and the Dec 2024 decline reporting the market has since reversed. Three generic Pexels photos replaced with real Dongmyo frames from Commons."
     },
@@ -834,7 +834,7 @@
     {
       "slug": "232",
       "section": "blog",
-      "title": "K-Fashion Shopping Guide 2026: Seoul Brands Tour",
+      "title": "K-Fashion Shopping in Seoul: The Flagship Addresses and When They Open",
       "published": "2026-06-24",
       "ageDays": 56,
       "clicks": 1,
@@ -844,11 +844,11 @@
       "secondHalf": 1,
       "verdict": "alive",
       "gaps": {
-        "won": 0,
-        "hangul": 0,
-        "yearInTitle": true
+        "won": 26,
+        "hangul": 25,
+        "yearInTitle": false
       },
-      "updatedAt": null,
+      "updatedAt": "2026-09-04",
       "worked": "2026-09-04",
       "note": "Spec v1 + transaction layer: 26 won figures (was 0), hangul 3 -> 1,262 chars, year dropped from title. Added addresses and opening hours for all five named venues, the Haus Nowhere (Seongsu, Sept 2025) vs Haus Dosan (Apgujeong) distinction no English guide flags, Musinsa Megastore Seongsu (opened 2026-04-24) with the foreign-share figures corrected against the \"two-thirds\" headline, and the tax-refund caps doubled on 2024-01-01. Mutual link with 242."
     },
@@ -1002,7 +1002,7 @@
     {
       "slug": "192",
       "section": "blog",
-      "title": "Olive Young Korea Guide: What to Buy and What to Skip",
+      "title": "Olive Young Korea Guide: When to Shop, What It Costs, and What to Skip",
       "published": "2026-06-10",
       "ageDays": 70,
       "clicks": 1,
@@ -1012,11 +1012,11 @@
       "secondHalf": 1,
       "verdict": "alive",
       "gaps": {
-        "won": 0,
-        "hangul": 0,
+        "won": 26,
+        "hangul": 11,
         "yearInTitle": false
       },
-      "updatedAt": null,
+      "updatedAt": "2026-09-04",
       "worked": "2026-09-04",
       "note": "Spec v1 + transaction layer: 26 won figures (was 0), hangul 3 -> 429. Core addition is the sale calendar the guide never mentioned (quarterly bigsale straddling the month boundary, monthly Olive Young Day 25th-27th). Corrected a real error: the old text said \"passport or a clear passport copy\" and a copy is not accepted -- the Myeongdong store prints PLEASE PREPARE YOUR PHYSICAL PASSPORT on all 14 tills, visible in the new hero. Foreign share of offline sales 2% (2022) -> 33%; Myeongdong Town ~95% foreign. Two stock photos replaced with real Olive Young frames found via the no-space romanised search."
     },
