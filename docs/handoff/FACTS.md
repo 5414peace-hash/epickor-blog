@@ -1217,6 +1217,24 @@
   - **교훈: 이미지 검수는 라벨이 아니라 파일을 열어, 독자가 이미 아는 그 물건의 생김새와 대조한다.** 색·형태·부속까지.
   *Verified:* 카드 PNG 육안 판독 + 커먼즈 원본 대조 + 재렌더 확인, 2026-09-03.
 
+- **2026-09-03 — `output/cardnews/`를 삭제했다. 카드뉴스 폴더는 이제 물리적으로 한 곳이다. 다만 "중복이니 지워도 된다"는 첫 판단은 틀렸다.**
+  대표님 승인 후 지우기 전에 전수 대조를 돌렸고, **PNG 273개는 바이트 동일했지만 고유 파일이 42개 있었다**:
+  - **`instagram-caption.txt` 6개**(204·216·218·219·220·221) — 업로드 캡션이 `output/`에만 있었다.
+  - **`sources/` 원본 소재** — `2026-07-12_170`(6장)·`287`·`2026-08-02_ramyun`(제조사 팩샷 4장) 등. **지웠으면 그 캐러셀은 재렌더 불가능해진다.**
+  - 콘택트시트 28장, `design-qa.md`, `script-brief.md`, 배치 QA 문서 7건.
+  - "내용이 다르다"고 나온 8건은 **따옴표 스타일·행말 공백뿐**이라 실제 손실은 아니었다.
+  **처리**: 카드뉴스별 자산은 각 `public/assets/cardnews/{폴더}/`로 회수(26+16개), 배치 공통 QA 7건은 `docs/cardnews-qa/`로,
+  그 뒤 삭제. 남아 있던 것은 중간 산출물 `card_*.html` 169개와 **엣지 브라우저 프로파일 잔해 506개**(자동화 실행이 폴더에 덤프한 것)였다.
+  **교훈: "3쌍 해시가 같으니 전부 중복"은 근거가 아니다. 전수로 돌려야 한다** — 2026-08-11 릴스 사고와 같은 유형이고, 이번엔 삭제 전에 잡았다.
+  *Verified:* 전 파일 해시·존재 대조 2회 + 회수 후 재검에서 고유 파일 0건 확인 후 삭제, 2026-09-03.
+
+- **2026-09-03 — Vercel Web Analytics 컴포넌트를 붙였다 (대표님 요청).**
+  `@vercel/analytics@^2.0.1` 설치, `app/layout.tsx`에서 `import { Analytics } from '@vercel/analytics/next'` 후
+  `</body>` 직전에 `<Analytics />`. 빌드 통과했고 클라이언트 번들에 **`/_vercel/insights/script.js`** 참조가 들어간 것을 확인했다.
+  **기존 `GoogleAnalytics`·`AnalyticsEvents` 컴포넌트는 그대로 둔다** — 병행이다.
+  **⚠️ 컴포넌트만으로는 수집이 시작되지 않는다.** Vercel 대시보드에서 프로젝트 → Analytics 탭 → Web Analytics를 **Enable** 해야 한다. 대표님 몫.
+  *Verified:* `npm ls`·`tsc --noEmit`·`next build` 통과 + `.next/static/chunks`에서 스크립트 경로 grep, 2026-09-03.
+
 - **2026-09-03 — 카드뉴스 저장 위치는 `public/assets/cardnews/{YYYY-MM-DD}_{slug}/` 하나다. `output/cardnews/`는 죽은 스테이징이다.**
   대표님이 "왜 저장을 못 찾겠지"라고 물어 실측했다. **CLAUDE.md가 두 경로를 서로 다른 절에서 말하고 있었던 게 원인**이고 고쳤다.
   - **git 추적: `output/cardnews` 0개 / `public/assets/cardnews` 1,187개.** `output/`은 `.gitignore`의 `/output/*`에 걸린다.
