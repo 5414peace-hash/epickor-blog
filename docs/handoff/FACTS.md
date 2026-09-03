@@ -1195,6 +1195,21 @@
   마지막 카드뉴스 제작은 2026-08-21, 릴스는 2026-08-18. 메타 예약은 09-19까지만 차 있다.
   *Verified:* `public/assets/cardnews/` 폴더 대조, 2026-09-03.
 
+- **2026-09-03 — 카드뉴스 저장 위치는 `public/assets/cardnews/{YYYY-MM-DD}_{slug}/` 하나다. `output/cardnews/`는 죽은 스테이징이다.**
+  대표님이 "왜 저장을 못 찾겠지"라고 물어 실측했다. **CLAUDE.md가 두 경로를 서로 다른 절에서 말하고 있었던 게 원인**이고 고쳤다.
+  - **git 추적: `output/cardnews` 0개 / `public/assets/cardnews` 1,187개.** `output/`은 `.gitignore`의 `/output/*`에 걸린다.
+  - **폴더 40개 중 39개가 `public/assets/`와 중복**이고, `card_01.png` 해시를 3쌍 대조하니 **바이트 단위로 동일**했다.
+    `output/` 쪽에만 구 파이프라인의 중간 산출물 `card_NN.html`이 더 있다. 고유 콘텐츠는 QA 문서 7개뿐.
+  - **마지막 기록이 2026-08-09**다. 그 이후 전부(392·394·395 · 200 · 339·344·194·223 · 438)가 `public/assets/`로 직행했다.
+  - **원인**: 구 파이프라인(`generate-slides.mjs` → `html-to-png.py`)은 `output/`에 렌더하고 완성본을 `public/assets/`로 복사했다.
+    배치별 렌더러 체제로 옮기면서 복사 단계가 사라졌는데 **옛 트리가 남았고 문서도 안 고쳐졌다.**
+  - **구 렌더러 6종이 아직 `output/cardnews`를 본다**: `html-to-png.py` · `render-heatscale.py` ·
+    `render-makers-v2.py` · `render-pricetag.py` · `render-specsheet.py` · `render-stationsign.py`.
+    **새 배치는 `public/assets/cardnews`를 보는 최근 렌더러**(potstamp·locationslate·swapcard·entrystamp·specsplit·ticketstub)**를 복사해서 시작한다.**
+  - **크기: `output/cardnews` 311MB(gitignore 스크래치) / `public/assets/cardnews` 534MB.**
+  - **릴스는 규칙이 반대다** — 작업 폴더가 `output/reels/{날짜}_{슬러그}/`이고 `public/assets/reels/{슬러그}/`가 런타임 자산이다. 이 비대칭이 혼동의 2차 원인이다.
+  *Verified:* 양쪽 트리 폴더·파일 수 대조 + `git ls-files` + `sha256sum` 3쌍 + 렌더러 소스 grep, 2026-09-03.
+
 - **2026-09-03 — Meta 예약 플래너 실측: 32행 = 16일 × 2플랫폼, 09-04~09-19, 빈 날 0. 첫 빈 날은 09-20.**
   매일 **05:00 KST**에 `FB:EpicKor` + `IG:epickorsnippets` 두 행이 다 있다. 릴스는 **09-06·07·08·12**
   4편, 나머지 12일은 카드뉴스(`사진`). **저장소 기록(CARDNEWS_INDEX)과 완전히 일치했다** —

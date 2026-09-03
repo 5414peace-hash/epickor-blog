@@ -127,7 +127,20 @@
 - Every card should carry a Korea/EpicKor angle through `kicker:` text, such as `KOREA SPF GUIDE`, `SEOUL TRAVEL TIP`, or `K-BEAUTY TEXTURE MAP`.
 - Every rendered card must show `EPICKOR.COM` as the watermark text. Do not use only `EpicKor` as the watermark label.
 - Card 01 is also the Instagram profile-grid thumbnail. Keep its main text centered inside a conservative safe area, not pinned to the left or bottom edge, so the hook remains readable in the grid view.
-- Card-news output folders use the date-prefixed convention `YYYY-MM-DD_{slug}`, for example `public/assets/cardnews/2026-05-08_090/`. Keep `public/assets/cardnews/CARDNEWS_INDEX.md` updated for manual upload-status tracking.
+### 카드뉴스 저장 위치 — 한 곳이다 (2026-09-03 확정)
+
+**`public/assets/cardnews/{YYYY-MM-DD}_{slug}/` 하나뿐이다.** 한 카드뉴스의 전부가 그 안에 있다:
+`script.md` · `sources/`(원본 소재) · `card_01~07.png` · `caption.txt` · `image-sources.md`.
+대장은 `public/assets/cardnews/CARDNEWS_INDEX.md`이고 수동으로 갱신한다.
+
+**`output/cardnews/`는 죽은 스테이징이다. 쓰지도, 찾지도 말 것.**
+- **git에 0개**가 올라가 있다 (`.gitignore`의 `/output/*`). 반면 `public/assets/cardnews`는 **1,187개**가 추적된다.
+- **2026-08-09 이후로 아무것도 안 쓰인다.** 그날 이후 전부(392·394·395 · 200 · 339·344·194·223 · 438)가 `public/assets/`로 직행했다.
+- 남아 있는 40개 폴더 중 **39개가 `public/assets/` 폴더와 바이트 단위로 동일하다**(2026-09-03 해시 대조). 나머지 1개는 QA 산출물이다.
+- 왜 생겼나: 구 파이프라인(`generate-slides.mjs` → `html-to-png.py`)이 `output/`에 렌더한 뒤 완성본을 `public/assets/`로 복사했다. **배치별 렌더러 체제로 바뀌면서 복사 단계가 없어졌는데 옛 폴더가 남았다.**
+- **구 렌더러 6종**(`html-to-png.py`, `render-heatscale.py`, `render-makers-v2.py`, `render-pricetag.py`, `render-specsheet.py`, `render-stationsign.py`)은 아직 `output/cardnews`를 본다. **재사용하지 말고, 새 배치는 `public/assets/cardnews`를 보는 최근 렌더러를 복사해서 시작한다.**
+
+**릴스와 헷갈리지 말 것 — 릴스는 규칙이 반대다.** 릴스 작업물은 `output/reels/{YYYY-MM-DD}_{slug}/`에 있고 `public/assets/reels/{slug}/`는 런타임 자산 전용(날짜 없음)이다. 카드뉴스는 `public/assets/` 하나, 릴스는 `output/`이 작업 폴더다.
 - Card-news images must be fresh and varied. Do not reuse the same `image:` path within one carousel.
 - Reviewer must reject repeated `image:` paths inside the same carousel. Do not treat same-carousel duplicates as warnings. If a repeated crop is truly needed, save it as a separate intentional derivative asset and document the reason in `image-sources.md` and `HANDOFF.md`.
 - Do not reuse an image that already appears in another card-news carousel for a different post. Similar search keywords are not an excuse; select a new visual, new crop, or new source so each post has its own image identity.
@@ -878,28 +891,22 @@ node scripts/run-pipeline.mjs --step review --slug 166
 
 ### Step 5A - 카드뉴스
 
-승인 후 카드뉴스 브리프를 만든다.
+> **카드뉴스는 `public/assets/cardnews/{YYYY-MM-DD}_{slug}/` 한 곳에만 만든다.**
+> 스크립트·소재·PNG·캡션·출처가 전부 그 폴더 안에 있다. 아래 "카드뉴스 저장 위치" 참조.
+
+승인 후 그 폴더를 만들고 `script.md`를 직접 작성한다. 그 다음 그 배치의 렌더러를 돌린다:
 
 ```bash
-node .claude/skills/cardnews/scripts/generate-slides.mjs \
-  --draft output/drafts/166_draft.md \
-  --research output/research/166_research.json \
-  --slug 166
+mkdir -p public/assets/cardnews/2026-09-03_438/sources
+# script.md 작성 → 배치별 렌더러 실행
+python .claude/skills/cardnews/scripts/render-potstamp.py --slug 438
+node  .claude/skills/cardnews/scripts/review-cardnews.mjs --slug 438
 ```
 
-출력:
-
-- `output/cardnews/YYYY-MM-DD_166/script-brief.md`
-
-그 다음 Claude/Codex가 직접 작성:
-
-- `output/cardnews/YYYY-MM-DD_166/script.md`
-
-PNG 렌더:
-
-```bash
-python .claude/skills/cardnews/scripts/html-to-png.py --slug 166
-```
+렌더러는 **배치마다 새로 만든다** (위 "매 배치마다 새로운 비주얼 시스템" 규칙).
+신규 렌더러는 `public/assets/cardnews`에서 폴더를 찾도록 쓴다 — 최근 것들(`render-potstamp.py`,
+`render-locationslate.py`, `render-swapcard.py`, `render-entrystamp.py`, `render-specsplit.py`,
+`render-ticketstub.py`)이 전부 그렇게 되어 있으니 복사해서 시작하면 된다.
 
 ### Step 5B/6 - Amazon 링크 삽입 및 발행
 
@@ -927,7 +934,8 @@ output/research/              research.json
 output/drafts/                writer brief 및 draft.md
 output/review/                review.json
 output/final/                 final.md
-output/cardnews/YYYY-MM-DD_{slug}/ script.md 및 card PNG
+public/assets/cardnews/{YYYY-MM-DD}_{slug}/  한 카드뉴스의 전부 — script.md · sources/ · card_NN.png · caption.txt · image-sources.md
+public/assets/cardnews/CARDNEWS_INDEX.md     제작·예약 상태 대장 (수동 갱신)
 output/reels/YYYY-MM-DD_{slug}/       한 릴스의 전부 — 납품본 MP4 + 캡션 + 패키지 + 파생 자료 (평평하게, final/ 없음)
 public/assets/reels/{slug}/           런타임 자산(컷 미디어·오디오) — 여기는 날짜를 붙이지 않는다
 .claude/skills/               팀별 스크립트
