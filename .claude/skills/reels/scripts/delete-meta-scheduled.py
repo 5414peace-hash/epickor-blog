@@ -114,41 +114,42 @@ with sync_playwright() as p:
             # ("게시물 상세 정보") instead of a menu, and ticked the row's checkbox.
             # The panel has its own "..." button top-right, and a "지금 게시"
             # button bottom-right that would publish immediately -- never touch it.
-            panel = page.get_by_text("게시물 상세 정보", exact=True)
-            if panel.count():
-                hb = panel.first.bounding_box()
-                cands = []
-                for b in page.locator('div[role="button"], button').all():
-                    try:
-                        if not b.is_visible():
-                            continue
-                        bb = b.bounding_box()
-                        txt = (b.inner_text() or "").strip()
-                        if "지금 게시" in txt:
-                            continue
-                        if bb and hb and abs(bb["y"] - hb["y"]) < 120 and bb["x"] > hb["x"] + 300 and bb["width"] < 80:
-                            cands.append((bb["x"], b, txt, b.get_attribute("aria-label")))
-                    except Exception:
-                        pass
-                log("panel header buttons:", [(round(x), tx, al) for x, _, tx, al in cands])
-                # the "..." is the leftmost small button before the close X
-                # the panel's menu button reads "옵션" (2026-09-05 diagnostic); the
-                # other one is "닫기"
-                for _, b, txt, al in sorted(cands, key=lambda c: c[0]):
-                    if txt.startswith("옵션"):
-                        b.click(); page.wait_for_timeout(2000)
-                        items = visible_menu_items()
-                        if not items:
-                            # fall back to any visible role=button/menuitem that appeared under the header
-                            items = [e for e in page.locator('div[role="menu"] *, div[role="dialog"] div[role="button"]').all()
-                                     if e.is_visible() and (e.inner_text() or "").strip() and len((e.inner_text() or "").strip()) < 20]
-                        break
+            # The panel's 옵션 button can render a few seconds after the panel
+            # itself (a run on 2026-09-05 saw only 닫기 and correctly refused).
+            # Poll for it rather than reading the header once.
+            opt = None
+            for _ in range(8):
+                panel = page.get_by_text("게시물 상세 정보", exact=True)
+                if panel.count():
+                    hb = panel.first.bounding_box()
+                    for b in page.locator('div[role="button"], button').all():
+                        try:
+                            if not b.is_visible():
+                                continue
+                            txt = (b.inner_text() or "").strip()
+                            if "지금 게시" in txt:
+                                continue
+                            bb = b.bounding_box()
+                            if txt.startswith("옵션") and bb and hb and abs(bb["y"] - hb["y"]) < 160:
+                                opt = b
+                                break
+                        except Exception:
+                            pass
+                if opt is not None:
+                    break
+                page.wait_for_timeout(1500)
+            if opt is None:
+                log("panel 옵션 button never appeared")
+            else:
+                opt.click(); page.wait_for_timeout(2000)
+                items = visible_menu_items()
         labels = [e.inner_text().strip() for e in items]
         log("menu items:", labels)
         if not labels:
             log("visible 삭제 texts:", [e.inner_text().strip()[:40] for e in page.get_by_text("삭제").all() if e.is_visible()])
         page.screenshot(path=f".tmp/delete-menu-{attempt}.png")
-        target = next((e for e, l in zip(items, labels) if l.startswith("삭제") or l.startswith("게시물 삭제")), None)
+        # a photo row says 게시물 삭제, a Reel row says 릴스 삭제 (2026-09-05)
+        target = next((e for e, l in zip(items, labels) if l.endswith("삭제") and "임시" not in l), None)
         if not COMMIT or target is None:
             log("dry run" if not COMMIT else "no 삭제 item — refusing")
             page.keyboard.press("Escape"); page.wait_for_timeout(800)
@@ -161,7 +162,7 @@ with sync_playwright() as p:
         clabels = [e.inner_text().strip() for e in confirm]
         log("dialog buttons:", clabels)
         page.screenshot(path=f".tmp/delete-confirm-{attempt}.png")
-        ok = next((e for e, l in zip(confirm, clabels) if l in ("삭제", "확인", "게시물 삭제")), None)
+        ok = next((e for e, l in zip(confirm, clabels) if l.endswith("삭제") or l == "확인"), None)
         if ok is None:
             log("no confirm button — refusing"); page.keyboard.press("Escape"); sys.exit(1)
         ok.click(); page.wait_for_timeout(4000)
