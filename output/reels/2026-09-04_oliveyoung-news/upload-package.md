@@ -4,7 +4,7 @@
 
 | | |
 |---|---|
-| File | `epickor-reel-oliveyoung-news-v004.mp4` |
+| File | `epickor-reel-oliveyoung-news-v005.mp4` |
 | Length | 28.5s (855 frames @ 30fps) |
 | Format | 1080×1920, h264, 4.56 Mbps |
 | Audio | AAC 192k mono, **−15.2 LUFS, peak −1.8 dBFS** |
@@ -20,32 +20,33 @@ To separate format effect from subject effect. One reel cannot tell you whether 
 worked or whether Dongmyo was simply a good story. Same kit, same voice, same register, different
 subject — the same reasoning that produced three DOSSIER reels rather than one.
 
-## Audio — the bed was replaced after the representative rejected it (2026-09-04)
+## Audio — effects only, no bed. Three beds were rejected before this (2026-09-04)
 
-> *"bgm 이 너무 듣기 안좋은데,, 차라리 아예 빼거나 city noise 아주 낮춰서 넣는게 어떨까 싶어.
-> 현재는 목소리보다 bgm 이 더 크게 들려서 별로임."*
-
-**The measurement agreed, and full-band metering was what hid it.** Full band the tick bed sat
-8 dB under the narration (-32.7 vs -24.3 mean), which is why it read as safe. But its content was
-clicks at 1180 / 2100 / 2640 / 3200 Hz, and in the speech band the bed **peaked louder than the
-voice**: 400 Hz-4 kHz max **-9.4 dB** against the narration's **-9.6 dB**. Transients sitting in
-the consonant band mask speech even when their average is low.
-
-This is the 2026-08-18 lesson - judge audio in the band that matters - applied to the opposite
-failure. That entry was a bed nobody could HEAR because its weight sat at 49-245 Hz. This is a bed
-that INTRUDED because its weight sat at 1-4 kHz. One metering habit catches both.
-
-Replaced with `.claude/skills/reels/scripts/build-city-ambience.py`: broadband, **no transients at
-all**, energy shaped flat from 80-700 Hz and rolled off about 18 dB/octave above it, so the
-consonant band is left empty. Slow drift and a few long swells keep it from reading as hiss.
-Measured separation against the narration after mixing:
-
-| Band | Separation |
+| Attempt | Verdict |
 |---|---|
-| 1-4 kHz (consonants) | **22.5 dB** |
-| 400-800 Hz (body) | **17.1 dB** |
+| Synthesised tick bed | *"bgm 이 너무 듣기 안좋은데... 목소리보다 bgm 이 더 크게 들려서 별로임"* |
+| Low city-noise floor | *"백색노이즈 완전 별로다. 넣지말자 차라리."* |
+| (and on DOSSIER, 2026-08-18) | *"ufo 처럼 나는 background 소리는 진짜 별로다"* |
 
-It is a floor, not a bed. Removing it entirely is a one-command change if that reads better.
+**One cause, three times.** A continuous synthetic sound under a 28-second reel has nowhere to
+hide: the viewer hears it the whole way through, so whatever character it has becomes the
+character of the reel. Level does not fix that — the city floor measured 22.5 dB under the voice
+in the consonant band and was still wrong. **The conclusion was already written down in the
+DOSSIER builder in August and was not applied here.**
+
+The representative's own prescription: *"dossier 편에 들어가는 효과음들로 채우는게 좋을거같아.
+사무용폼 (키보드, 스테이플러 등 아기자기한 소리들)."*
+
+**Now: `build-office-foley.py`.** Keyboard bursts, a stapler, paper turns, a pen click, and one
+desk bell as a sign-off — **placed inside the silences in the narration**, which are found by
+running silencedetect on the narration itself rather than kept in a second table that could drift
+out of sync with the voice.
+
+That also removes the masking problem structurally rather than by turning things down. A stapler
+is brighter than the rejected ticks and does not intrude, because it happens where there is no
+speech to intrude on. Measured across the whole reel: of 347 windows where the voice is active,
+**only 4 carry any foley above −40 dB**, and the loudest of those sits **12.7 dB under the voice**
+— the tail of the sign-off bell decaying into the CTA.
 
 ## QA record
 

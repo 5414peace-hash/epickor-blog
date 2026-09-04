@@ -1,4 +1,23 @@
 #!/usr/bin/env python3
+# ============================================================================
+# REJECTED 2026-09-04, the same day it was written. DO NOT USE.
+#
+# 대표님: "백색노이즈 완전 별로다. 넣지말자 차라리."
+#
+# It measured exactly as designed - 22.5 dB under the voice at 1-4 kHz, energy
+# confined below 800 Hz - and it was still wrong, because the problem was never
+# the level. A continuous synthetic sound under a 28-second reel has nowhere to
+# hide; the viewer hears it for the whole reel, so its character becomes the
+# reel's character. Shaped noise is still noise.
+#
+# This was the SECOND bed rejected in one day and the THIRD overall: the DOSSIER
+# drone went on 2026-08-18 ("ufo 처럼 나는 background 소리는 진짜 별로다"), the
+# NEWSDESK tick bed that morning, this by the afternoon. The conclusion had been
+# written down in the DOSSIER builder in August and was not applied here.
+#
+# Use .claude/skills/reels/scripts/build-office-foley.py instead: discrete events
+# in the gaps between sentences, no continuous layer at all.
+# ============================================================================
 """
 Low city ambience for the NEWSDESK kit. Replaces the synthesised tick bed.
 
