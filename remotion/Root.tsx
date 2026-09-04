@@ -40,6 +40,7 @@ import { ReelBananaKickDossier, BANANA_KICK_DURATION } from './ReelBananaKickDos
 import { ReelYakultDossier, YAKULT_DURATION } from './ReelYakultDossier';
 import { ReelDongmyoNews, DONGMYO_NEWS_DURATION } from './ReelDongmyoNews';
 import { ReelOliveYoungNews, OLIVEYOUNG_NEWS_DURATION } from './ReelOliveYoungNews';
+import { ReelSeongsuNews, SEONGSU_NEWS_DURATION } from './ReelSeongsuNews';
 import type { ReelProps } from './types';
 
 const defaultReelProps: ReelProps = {
@@ -416,6 +417,14 @@ function Root() {
         height={1920}
         fps={30}
         durationInFrames={OLIVEYOUNG_NEWS_DURATION}
+      />
+      <Composition
+        id="SeongsuNews"
+        component={ReelSeongsuNews}
+        width={1080}
+        height={1920}
+        fps={30}
+        durationInFrames={SEONGSU_NEWS_DURATION}
       />
       <Composition
         id="BananaKickDossier"

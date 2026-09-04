@@ -4,11 +4,12 @@
 
 | | |
 |---|---|
-| File | `epickor-reel-oliveyoung-news-v006.mp4` |
+| File | `epickor-reel-oliveyoung-news-v007.mp4` |
 | Length | 28.5s (855 frames @ 30fps) |
 | Format | 1080×1920, h264, 4.56 Mbps |
 | Audio | AAC 192k mono, **−15.2 LUFS, peak −1.8 dBFS** |
 | Caption | `instagram-caption.txt` |
+| Sound | Palette **`store`** — barcode scanner, cap snapped shut, receipt printer, till chime |
 | Source post | `/blog/192` — refreshed and live-verified 2026-09-04 |
 | Kit | `remotion/NewsdeskKit.tsx` · spec `remotion/ReelOliveYoungNews.tsx` |
 | Voice | Daniel — Steady Broadcaster (`onwK4e9ZLuTAKqWW03F9`), lane `anchor_deadpan` |

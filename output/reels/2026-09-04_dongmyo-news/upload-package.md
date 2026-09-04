@@ -4,11 +4,12 @@
 
 | | |
 |---|---|
-| File | **`epickor-reel-dongmyo-news-v007.mp4`** (v003 replaced — see Repairs and Audio) |
+| File | **`epickor-reel-dongmyo-news-v008.mp4`** (v003 replaced — see Repairs and Audio) |
 | Length | 28.7s (860 frames @ 30fps) |
 | Format | 1080×1920, h264, **8.2 Mbps** |
 | Audio | AAC 192k mono, **−15.1 LUFS, peak −1.7 dBFS** |
 | Caption | `instagram-caption.txt` |
+| Sound | Palette **`market`** — hanger on a rail, clothes pushed aside, coins counted, coin in a tin |
 | Source post | `/blog/242` — refreshed 2026-09-03, live-verified |
 | Kit | `remotion/NewsdeskKit.tsx` · spec `remotion/ReelDongmyoNews.tsx` |
 | Voice | Daniel — Steady Broadcaster (`onwK4e9ZLuTAKqWW03F9`), lane `anchor_deadpan` |

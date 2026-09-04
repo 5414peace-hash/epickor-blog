@@ -281,7 +281,11 @@ function LowerThird({ beat, provenance, credit }: { beat: NewsBeat; provenance: 
               color: NEWS.paper,
               fontFamily: '"Archivo Variable", system-ui, sans-serif',
               fontWeight: 800,
-              fontSize: beat.chyron.length > 30 ? 46 : 54,
+              // The panel is 830px of usable width. At 54px Archivo 800 the average
+              // advance is about 33px, so 25 characters already touches the edge -
+              // the Seongsu chyron "THE PRESS SAID TWO-THIRDS" clipped its final S
+              // at 25 characters while passing a >30 test. Three tiers, measured.
+              fontSize: beat.chyron.length > 29 ? 40 : beat.chyron.length > 23 ? 46 : 54,
               lineHeight: 1.04,
               letterSpacing: '-0.005em',
               whiteSpace: 'nowrap',
