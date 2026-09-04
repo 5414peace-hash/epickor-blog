@@ -1,4 +1,22 @@
 #!/usr/bin/env python3
+# ============================================================================
+# SUPERSEDED 2026-09-04. DO NOT RUN THIS TO BUILD A SHIPPING BED.
+#
+# The representative rejected the tick bed on both NEWSDESK reels: "bgm 이 너무
+# 듣기 안좋은데 ... 목소리보다 bgm 이 더 크게 들려서 별로임." Measurement agreed.
+# Full band the bed sat 8 dB under the narration, which is why it looked fine;
+# but its content was clicks at 1180 / 2100 / 2640 / 3200 Hz, and in the speech
+# band the bed PEAKED LOUDER THAN THE VOICE - 400 Hz-4 kHz max -9.4 dB against
+# the narration's -9.6 dB. Transients in the consonant band mask speech even
+# when their average is low.
+#
+# Both reels now use .claude/skills/reels/scripts/build-city-ambience.py, which
+# has no transients at all and puts its energy below 800 Hz so the consonant
+# band stays empty. Separation measured after the change: 22.5 dB at 1-4 kHz.
+#
+# This file is kept only for the synthesis technique and the AAC-overshoot
+# reasoning in its docstring, both of which are still correct.
+# ============================================================================
 """
 NEWSDESK audio bed for the Olive Young reel, synthesised on this reel's frame grid.
 
