@@ -118,6 +118,18 @@ with sync_playwright() as p:
     # screenshot only ever shows the middle of a scrolled editor. The only
     # gate is reading the editor back and comparing it to the source file.
     text = open(CAPTION, encoding="utf-8").read().strip()
+    # 2026-09-05: Instagram caps a caption at 2,200 characters. The composer
+    # shows a red banner and the 다음 button stays on 만들기 while REPORTING a
+    # successful click, so the run burned a 10-minute wait before anyone saw
+    # it. Refuse before the upload rather than after.
+    # Meta counts UTF-16 code units, not characters: every emoji is 2, and a
+    # 🗓️/▪️ with a variation selector is 3. A 2,197-character caption was
+    # refused by the composer on 2026-09-05. Count the way Meta counts, and
+    # keep a margin.
+    u16 = len(text.encode("utf-16-le")) // 2
+    if u16 > 2150:
+        log(f"REFUSING: caption is {u16} UTF-16 units ({len(text)} chars); Instagram limit is 2,200 units. Nothing uploaded.")
+        sys.exit(1)
 
     ed = None
     for i in range(page.locator(CE).count()):
@@ -172,11 +184,29 @@ with sync_playwright() as p:
     log("copyright scan clear")
 
     for step in ("수정", "공유하기"):
-        cands = footer_button(page, "다음")
+        # 2026-09-05: the 다음 button can sit at aria-disabled="true" for a while
+        # AFTER "확인 중" has left the page (the video is still being processed).
+        # Playwright then retries the click for 30s and dies with a timeout. Wait
+        # for the button to actually enable, up to ten minutes, before clicking.
+        end = time.time() + 600
+        cands = []
+        while time.time() < end:
+            cands = [c for c in footer_button(page, "다음")
+                     if c[2].get_attribute("aria-disabled") != "true"]
+            if cands:
+                break
+            page.wait_for_timeout(5000)
         if not cands:
-            log(f"no 다음 button before {step}"); sys.exit(1)
+            log(f"no enabled 다음 button before {step} after 10 min")
+            page.screenshot(path=".tmp/reel-next-disabled.png")
+            sys.exit(1)
         cands[0][2].click()
         page.wait_for_timeout(9000)
+        body = page.inner_text("body")
+        if "2,200자" in body or "2200자" in body:
+            log("REFUSING: composer says the Instagram caption exceeds 2,200 chars; still on 만들기")
+            page.screenshot(path=".tmp/reel-caption-too-long.png")
+            sys.exit(1)
         log(f"advanced -> {step}")
 
     # 4. schedule option ----------------------------------------------------
