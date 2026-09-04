@@ -1,10 +1,10 @@
 {
   "summary": {
-    "generatedAt": "2026-09-03T15:23:02.709Z",
-    "auditedPosts": 437,
+    "generatedAt": "2026-09-04T15:00:38.034Z",
+    "auditedPosts": 438,
     "includedPrivate": false,
     "slugFilter": "",
-    "bodyImages": 1547,
+    "bodyImages": 1551,
     "affectedPosts": 96,
     "critical": 0,
     "high": 0,
@@ -15816,6 +15816,45 @@
           "url": "/assets/images/posts/439/samgyeopsal-korean-grill.jpg",
           "alt": "Slices of pork belly cooking on a round Korean grill plate, a hand turning a piece with metal tongs, with lettuce and side dishes around the edge of the table.",
           "caption": "The table where the small dish of oil and salt appears. It has a name, and it is 기름장.",
+          "ext": ".jpg",
+          "exists": true
+        }
+      ],
+      "findings": []
+    },
+    {
+      "type": "blog",
+      "slug": "440",
+      "title": "Why Koreans Seem Cold to Foreigners: The Gap Between How Korea Sees Itself and How You See It",
+      "contentPath": "content\\blog\\440.md",
+      "sourceRecord": "public\\assets\\images\\posts\\440\\image-sources.md",
+      "imageCount": 4,
+      "images": [
+        {
+          "url": "/assets/images/posts/440/seoul-subway-peak-hour.jpg",
+          "alt": "A packed Seoul subway carriage at morning peak hour, every passenger facing forward or looking down, nobody speaking.",
+          "caption": "Seoul, 8:32 on a weekday morning. This is the Korea most foreigners meet first, and the one the word 정 was never meant to describe. Photo by Sgroey, CC BY-SA 4.0, via Wikimedia Commons.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/440/gwangjang-market-mandu-vendor.jpg",
+          "alt": "A smiling vendor in a purple apron at Gwangjang Market, Seoul, steaming a large tray of Korean dumplings under a hand-painted menu sign.",
+          "caption": "Gwangjang Market. This is the face Koreans mean when they say 정 — and it is a face you get once you are a customer, a regular, a person with a name. Photo by the Republic of Korea (Korea.net), CC BY-SA 2.0, via Wikimedia Commons.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/440/korea-image-gap-chart.jpg",
+          "alt": "Bar chart comparing five 2025 National Image Survey items rated by foreigners abroad versus by Koreans: trustworthy 73.3 vs 60.9, kind and considerate 72.5 vs 62.3, dynamic and open 72.2 vs 60.4, mature civic sense 72.0 vs 60.1, accepts diverse cultures 67.7 vs 57.7. Koreans rate their own country ten to twelve points lower on every item.",
+          "caption": "On every social item, Koreans mark themselves ten to twelve points below what the world gives them. Chart by EpicKor from the 2025 국가이미지 조사 종합보고서.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/440/myeongdong-night-crowd.jpg",
+          "alt": "A dense night-time crowd of shoppers and tourists filling a Myeongdong street in Seoul, neon shop signs on both sides.",
+          "caption": "Myeongdong at night. Korea from the first survey — the one 82% of the world likes. The second survey starts the day you stop being a visitor. Photo by ProjectManhattan, CC BY-SA 3.0, via Wikimedia Commons.",
           "ext": ".jpg",
           "exists": true
         }
