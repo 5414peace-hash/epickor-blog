@@ -27,8 +27,9 @@ WHAT THE MEASUREMENTS SAY (2026-08-18, established after the representative twic
 STRUCTURE
   A quiet room tone runs under the whole package. Each beat boundary gets a tick — that is the
   kit's engine made audible, one event per state change. Cut boundaries get a heavier accent.
-  The figure gets a rising count texture. Everything stops at the outro, because the outro is
-  specified silent so the close lands on image.
+  The figure gets a rising count texture. Everything stops at the outro. That was
+  first because the outro was silent - a rule miss, corrected 2026-09-04 - and it stays
+  because the spoken tag reads better in clear air than over a drone.
 """
 import array
 import math
@@ -36,8 +37,8 @@ import wave
 
 SR = 48000
 FPS = 30
-TOTAL_FRAMES = 804
-BED_END_FRAME = 729  # outro is silent by rule
+TOTAL_FRAMES = 860
+BED_END_FRAME = 729  # bed stops here so the spoken tag lands in clear air
 
 # Frame grid, taken from ReelDongmyoNews.tsx. Kept as literals so a change there that is not
 # mirrored here shows up as an audible desync rather than silently drifting.

@@ -115,7 +115,12 @@ export type NewsCut = {
   dur: number;
   /** Where the material came from, shown in the lower third. */
   provenance: CutProvenance;
-  /** Optional right-hand credit, e.g. `SEOUL METRO`. */
+  /** Optional right-hand credit. It renders as `SOURCE: {credit}` and therefore
+   *  names WHO SUPPLIED THIS FOOTAGE - not the place in it, and not the source of
+   *  a number quoted over it. The Dongmyo pilot shipped `SOURCE: SEOUL METRO` on
+   *  a Pexels clip because Seoul Metro published the ridership figure; that reads
+   *  as a false attribution on a cut whose whole purpose is stating provenance.
+   *  Leave it undefined unless a body genuinely provided the picture. */
   credit?: string;
 };
 

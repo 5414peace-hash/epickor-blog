@@ -62,6 +62,20 @@
  *   approved. If it reads wrong on the phone review, the fallback is to close on cut3 and move
  *   the price into the chyron.
  *
+ * TWO REPAIRS AFTER THE FIRST SHIP (2026-09-04, found while building NEWSDESK 002)
+ *   1. The outro was SILENT. The CTA bank has required a spoken tag naming the
+ *      domain since Reel 377, on the representative's 2026-08-13 instruction --
+ *      a viewer watching with sound cannot read a chip. Added as narration part
+ *      4 rather than by regenerating part 3, because parts 1-3 are what every
+ *      beat frame below was measured from and re-rendering them would move all
+ *      eight. The tag lands at f732 against an outro that opens at f729, so the
+ *      picture leads the voice by three frames, which is the intended feel.
+ *   2. cut2 carried `credit: 'SEOUL METRO'`. The kit renders that as
+ *      `SOURCE: SEOUL METRO` over a Pexels clip of a generic Korean market.
+ *      Seoul Metro is the source of the ridership FIGURE, not of the picture.
+ *      On a format whose entire premise is labelling provenance honestly, that
+ *      was the one label that lied. Removed.
+ *
  * TIMING IS MEASURED, NOT PLANNED
  *   The beat frames below come from silencedetect on the three rendered narration parts, not
  *   from a word-count estimate. Daniel reads at 2.01 words/sec, the first script overran by two
@@ -72,7 +86,7 @@ import { Newsdesk, type NewsSpec } from './NewsdeskKit';
 
 const M = 'assets/reels/dongmyo-news/media/';
 
-export const DONGMYO_NEWS_DURATION = 804; // 26.8s at 30fps
+export const DONGMYO_NEWS_DURATION = 860; // 28.7s at 30fps
 
 const spec: NewsSpec = {
   breaking: 'SEOUL · TRANSIT',
@@ -80,7 +94,7 @@ const spec: NewsSpec = {
   cuts: [
     { src: `${M}cut1_station.mp4`, kind: 'video', from: 0, dur: 179, provenance: 'FILE' },
     { src: `${M}still_b3_dongmyo-street.jpg`, kind: 'still', from: 179, dur: 92, provenance: 'FILE PHOTO' },
-    { src: `${M}cut2_market.mp4`, kind: 'video', from: 271, dur: 175, provenance: 'FILE', credit: 'SEOUL METRO' },
+    { src: `${M}cut2_market.mp4`, kind: 'video', from: 271, dur: 175, provenance: 'FILE' },
     { src: `${M}still_b6_dongmyo-crowd.jpg`, kind: 'still', from: 446, dur: 123, provenance: 'ARCHIVE' },
     { src: `${M}cut3_streetday.mp4`, kind: 'video', from: 569, dur: 63, provenance: 'FILE' },
     { src: `${M}still_b8_prices.jpg`, kind: 'still', from: 632, dur: 97, provenance: 'FILE PHOTO' },
@@ -112,7 +126,7 @@ const spec: NewsSpec = {
 
   // Bank C. The outro bank assigns the insider mechanism to culture and on-the-ground knowledge,
   // which is exactly what a market whose restock day is the useful fact trades in.
-  outro: { from: 729, dur: 75, hook: 'LOCALS KNOW\nTHE REST' },
+  outro: { from: 729, dur: 131, hook: 'LOCALS KNOW\nTHE REST' },
 };
 
 export function ReelDongmyoNews() {

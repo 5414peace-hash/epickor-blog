@@ -107,10 +107,23 @@ const KOREA = /\b(korea|korean|seoul|busan|jeju|incheon|daegu|gwangju|hanbok|han
 
 async function search(query, orientation, page) {
   const params = new URLSearchParams({query, orientation, per_page: '80', page: String(page)});
-  const res = await fetch(`https://api.pexels.com/videos/search?${params}`, {headers: HEADERS});
-  if (!res.ok) throw new Error(`Pexels ${res.status} for "${query}" (${orientation} p${page})`);
-  const body = await res.json();
-  return body.videos || [];
+  const url = `https://api.pexels.com/videos/search?${params}`;
+  /* Retry transient 5xx. Without this a single 504 on the third of five queries
+     throws away every candidate the first two collected, and the whole survey has
+     to be re-run from scratch - which happened on 2026-09-04. Client errors (a bad
+     key, a malformed query) are not retried, because repeating them cannot help. */
+  let lastStatus = 0;
+  for (let attempt = 1; attempt <= 4; attempt += 1) {
+    const res = await fetch(url, {headers: HEADERS});
+    if (res.ok) {
+      const body = await res.json();
+      return body.videos || [];
+    }
+    lastStatus = res.status;
+    if (res.status < 500 && res.status !== 429) break;
+    await new Promise(r => setTimeout(r, attempt * 2500));
+  }
+  throw new Error(`Pexels ${lastStatus} for "${query}" (${orientation} p${page})`);
 }
 
 /** Clip ids already used by a published Reel, so the sheet never offers them again. */

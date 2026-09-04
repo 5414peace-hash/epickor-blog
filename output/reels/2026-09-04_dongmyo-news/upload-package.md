@@ -4,15 +4,15 @@
 
 | | |
 |---|---|
-| File | `epickor-reel-dongmyo-news-v003.mp4` |
-| Length | 26.8s (804 frames @ 30fps) |
-| Format | 1080×1920, h264, **10.0 Mbps** |
-| Audio | AAC 192k mono, **−15.5 LUFS, TP −2.3 dBTP** |
+| File | **`epickor-reel-dongmyo-news-v004.mp4`** (v003 replaced — see Repairs) |
+| Length | 28.7s (860 frames @ 30fps) |
+| Format | 1080×1920, h264, **8.2 Mbps** |
+| Audio | AAC 192k mono, **−15.1 LUFS, peak −1.8 dBFS** |
 | Caption | `instagram-caption.txt` |
 | Source post | `/blog/242` — refreshed 2026-09-03, live-verified |
 | Kit | `remotion/NewsdeskKit.tsx` · spec `remotion/ReelDongmyoNews.tsx` |
 | Voice | Daniel — Steady Broadcaster (`onwK4e9ZLuTAKqWW03F9`), lane `anchor_deadpan` |
-| Outro | Bank **C — LOCALS KNOW THE REST** |
+| Outro | Bank **C — LOCALS KNOW THE REST**, **now spoken**: "The locals know the rest. So does epickor dot com." |
 
 ## SCHEDULED — 2026-09-25 05:00 KST, Facebook + Instagram
 
@@ -42,6 +42,32 @@ per the 2026-07-27 rule that scheduling continues from the day after the last bo
 | 09-26 | 야쿠르트 | DOSSIER |
 | 09-27 | 우지 파동 | DOSSIER |
 | 09-28 | 바나나킥 | DOSSIER |
+
+## Repairs after the first ship (2026-09-04) — v003 → v004
+
+Both were found while building NEWSDESK 002, by reading the rules the second reel had to follow.
+Neither would have been caught by re-watching v003, because neither looks wrong; they are wrong
+against things written down elsewhere.
+
+**1. The outro was silent.** The CTA bank has required a spoken tag naming the domain since Reel
+377, on the representative's 2026-08-13 instruction — *"마지막에 epickor.com 을 한번 나레이션으로
+읽어주면 좋은데"*. A viewer watching with sound cannot read a chip. The bank's own text says
+silent outros are "no longer a default and no longer an option", and this shipped silent anyway.
+
+Added as narration **part 4** rather than by regenerating part 3. Part 3 is what beat 8 was
+measured from; regenerating it would have moved boundaries that are already correct. The tag lands
+at f732 against an outro opening at f729, so the picture leads the voice by three frames.
+Reel length 804 → 860 frames.
+
+**2. `credit: 'SEOUL METRO'` on a Pexels clip.** The kit renders that field as `SOURCE: {credit}`.
+Seoul Metro published the ridership figure; it did not supply the footage — a generic Korean market
+clip from Pexels. **On a format whose entire premise is labelling provenance honestly, that was the
+one label that lied.** Removed, and the field's meaning is now documented in `NewsdeskKit.tsx` so
+it cannot recur by accident.
+
+**This changes a render the representative already approved**, so v004 needs a fresh look before
+it replaces the scheduled 09-25 post. If it is approved, the scheduled post has to be deleted and
+re-created — Meta cannot swap the media on a scheduled Reel.
 
 ## QA record
 
