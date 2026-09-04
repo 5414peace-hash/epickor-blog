@@ -4,7 +4,7 @@
 
 | | |
 |---|---|
-| File | **`epickor-reel-dongmyo-news-v006.mp4`** (v003 replaced — see Repairs and Audio) |
+| File | **`epickor-reel-dongmyo-news-v007.mp4`** (v003 replaced — see Repairs and Audio) |
 | Length | 28.7s (860 frames @ 30fps) |
 | Format | 1080×1920, h264, **8.2 Mbps** |
 | Audio | AAC 192k mono, **−15.1 LUFS, peak −1.7 dBFS** |
@@ -69,33 +69,46 @@ it cannot recur by accident.
 it replaces the scheduled 09-25 post. If it is approved, the scheduled post has to be deleted and
 re-created — Meta cannot swap the media on a scheduled Reel.
 
-## Audio — effects only, no bed. Three beds were rejected before this (2026-09-04)
+## Audio — every sound is a visual event (2026-09-04, fourth attempt)
+
+Three beds were rejected before this, and then a first foley pass was rejected too:
 
 | Attempt | Verdict |
 |---|---|
-| Synthesised tick bed | *"bgm 이 너무 듣기 안좋은데... 목소리보다 bgm 이 더 크게 들려서 별로임"* |
+| DOSSIER drone (2026-08-18) | *"ufo 처럼 나는 background 소리는 진짜 별로다"* |
+| Tick bed | *"목소리보다 bgm 이 더 크게 들려서 별로임"* |
 | Low city-noise floor | *"백색노이즈 완전 별로다. 넣지말자 차라리."* |
-| (and on DOSSIER, 2026-08-18) | *"ufo 처럼 나는 background 소리는 진짜 별로다"* |
+| Foley dropped into gaps | *"규칙도 없이 효과음 넣은거야? ... dossier 편처럼 text 움직임에 맞춰서라던지 숫자올라가는거라든지"* |
 
-**One cause, three times.** A continuous synthetic sound under a 28-second reel has nowhere to
-hide: the viewer hears it the whole way through, so whatever character it has becomes the
-character of the reel. Level does not fix that — the city floor measured 22.5 dB under the voice
-in the consonant band and was still wrong. **The conclusion was already written down in the
-DOSSIER builder in August and was not applied here.**
+The last one is the instructive rejection. That pass searched the narration for silences and
+dropped a sound into each, choosing by `gap_index % 3`. **Nothing about any sound had anything to
+do with what was on screen.** It was filler with a plausible-looking rule, which reads as designed
+and is therefore worse than filler with no rule at all.
 
-The representative's own prescription: *"dossier 편에 들어가는 효과음들로 채우는게 좋을거같아.
-사무용폼 (키보드, 스테이플러 등 아기자기한 소리들)."*
+**`build-newsdesk-foley.py` is driven by the picture.** One visual event, one sound, always the
+same sound:
 
-**Now: `build-office-foley.py`.** Keyboard bursts, a stapler, paper turns, a pen click, and one
-desk bell as a sign-off — **placed inside the silences in the narration**, which are found by
-running silencedetect on the narration itself rather than kept in a second table that could drift
-out of sync with the voice.
+| Event in `NewsdeskKit.tsx` | Sound | Why |
+|---|---|---|
+| lower third wipes in (8 frames) | keystroke | the chyron is typed on |
+| cut changes | page turn | a new document |
+| figure counts up (38 frames) | counter ratchet | the digits are rolling |
+| outro card rises (12 frames) | desk bell | sign-off |
 
-That also removes the masking problem structurally rather than by turning things down. A stapler
-is brighter than the rejected ticks and does not intrude, because it happens where there is no
-speech to intrude on. Measured across the whole reel: of 347 windows where the voice is active,
-**only 4 carry any foley above −40 dB**, and the loudest of those sits **12.7 dB under the voice**
-— the tail of the sign-off bell decaying into the CTA.
+Frames come from the reel's spec as JSON, the way the DOSSIER builder transcribes its kit's
+constants. If the spec moves and the JSON does not, the reel goes audibly out of sync — which is
+the failure you want, rather than a silent drift.
+
+**Masking is solved by register and lead, not by volume.** Visual events land where sentences
+start, so bright sounds (keystroke, page turn) are placed 3–5 frames early, inside the silence
+that precedes the beat — a sound slightly ahead of a wipe still reads as causing it. Sounds that
+must run under speech are low instead: the counter sits at 200–380 Hz, entirely below the
+consonant band, and a cut with no beat on it gets a document thud rather than a page turn.
+
+**The script refuses to write a file where a bright event lands on voiced audio.** The one
+permitted exception is the sign-off bell, which has to ring on the outro card, and the outro card
+rises on the same frame the CTA line begins; it is allowed only because what overlaps is a tail
+already 12 dB below its own peak.
 
 ## QA record
 

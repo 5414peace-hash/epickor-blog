@@ -1,4 +1,21 @@
 #!/usr/bin/env python3
+# ============================================================================
+# SUPERSEDED 2026-09-04, hours after it was written. DO NOT USE.
+#
+# 대표님: "지금 한가지 소리로 언발란스하게 규칙도 없이 효과음 넣은거야? ... dossier
+# 편처럼 text 움직임에 맞춰서라던지 숫자올라가는거라든지 그렇게 효과음이 맞게
+# 적용되야지 막 그냥 아무렇게나 넣으라는게 아니지."
+#
+# The criticism is exact. This script finds silences in the narration and drops a
+# sound into each one, picking which sound by `gap_index % 3`. Nothing about any
+# sound has anything to do with what is on screen at that moment. It is filler
+# with a plausible-looking rule, which is worse than filler with none, because it
+# reads as designed.
+#
+# DOSSIER worked because every sound WAS a visual event. Use
+# .claude/skills/reels/scripts/build-newsdesk-foley.py, which is driven by the
+# reel's own cut / beat / figure / outro frames.
+# ============================================================================
 """
 Office foley for a narrated NEWSDESK reel. Effects only. There is no bed.
 

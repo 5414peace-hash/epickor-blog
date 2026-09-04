@@ -62,6 +62,25 @@
  *   approved. If it reads wrong on the phone review, the fallback is to close on cut3 and move
  *   the price into the chyron.
  *
+ * THE CAPTIONS WERE LATE, AND THAT IS THE REPAIR THAT MATTERS (2026-09-04)
+ *   Found while scoring the reel: five of the eight beats fired AFTER the anchor
+ *   had already started the sentence - by 8, 11, 10, 11 and 18 frames. At f620
+ *   and f630 the screen still read "Then foreign shoppers arrived." while the
+ *   voice was already on "Handwritten cards. Eight thousand won."; the caption
+ *   only changed at f632, 0.6 s late. CLAUDE.md asks for the opposite: a caption
+ *   lands with the words or a few frames ahead of them.
+ *
+ *   Cause: the original frames were derived per narration PART and summed, so
+ *   every error accumulated down the reel - which is exactly the shape of the
+ *   drift, growing from 8 frames to 18. The numbers below are read from
+ *   silencedetect on the CONCATENATED narration.wav instead, which is the file
+ *   the reel actually plays. Cuts moved with their beats so each picture still
+ *   changes on its own sentence.
+ *
+ *   beats  271 387 446 569 632  ->  263 376 436 558 614
+ *   cuts   271 446 569 632      ->  263 436 558 614
+ *   figure from 271/116         ->  263/113
+ *
  * TWO REPAIRS AFTER THE FIRST SHIP (2026-09-04, found while building NEWSDESK 002)
  *   1. The outro was SILENT. The CTA bank has required a spoken tag naming the
  *      domain since Reel 377, on the representative's 2026-08-13 instruction --
@@ -93,26 +112,26 @@ const spec: NewsSpec = {
 
   cuts: [
     { src: `${M}cut1_station.mp4`, kind: 'video', from: 0, dur: 179, provenance: 'FILE' },
-    { src: `${M}still_b3_dongmyo-street.jpg`, kind: 'still', from: 179, dur: 92, provenance: 'FILE PHOTO' },
-    { src: `${M}cut2_market.mp4`, kind: 'video', from: 271, dur: 175, provenance: 'FILE' },
-    { src: `${M}still_b6_dongmyo-crowd.jpg`, kind: 'still', from: 446, dur: 123, provenance: 'ARCHIVE' },
-    { src: `${M}cut3_streetday.mp4`, kind: 'video', from: 569, dur: 63, provenance: 'FILE' },
-    { src: `${M}still_b8_prices.jpg`, kind: 'still', from: 632, dur: 97, provenance: 'FILE PHOTO' },
+    { src: `${M}still_b3_dongmyo-street.jpg`, kind: 'still', from: 179, dur: 84, provenance: 'FILE PHOTO' },
+    { src: `${M}cut2_market.mp4`, kind: 'video', from: 263, dur: 173, provenance: 'FILE' },
+    { src: `${M}still_b6_dongmyo-crowd.jpg`, kind: 'still', from: 436, dur: 122, provenance: 'ARCHIVE' },
+    { src: `${M}cut3_streetday.mp4`, kind: 'video', from: 558, dur: 56, provenance: 'FILE' },
+    { src: `${M}still_b8_prices.jpg`, kind: 'still', from: 614, dur: 115, provenance: 'FILE PHOTO' },
   ],
 
   beats: [
     { from: 0, dur: 124, chyron: 'NOT HONGDAE', caption: "Seoul's busiest weekend subway station is not Hongdae." },
     { from: 124, dur: 55, chyron: 'NOT GANGNAM EITHER', caption: 'It is not Gangnam.' },
-    { from: 179, dur: 92, chyron: 'IT IS DONGMYO', sub: '동묘앞 · LINE 1 / LINE 6', caption: 'Seoul Metro says it is Dongmyo.' },
-    { from: 271, dur: 116, chyron: 'WEEKENDS RUN BUSIER', sub: '28,785 vs 19,673', caption: 'Weekends run more than forty-six percent busier there.' },
-    { from: 387, dur: 59, chyron: 'BIGGEST JUMP IN SEOUL', caption: 'The biggest jump in Seoul.' },
-    { from: 446, dur: 123, chyron: 'DECLARED FINISHED', sub: 'DEC 2024', caption: 'Korean media wrote its obituary in 2024.' },
-    { from: 569, dur: 63, chyron: 'THEN THEY CAME BACK', caption: 'Then foreign shoppers arrived.' },
-    { from: 632, dur: 97, chyron: 'TROUSERS ₩8,000', sub: 'PRICED BY HAND', caption: 'Handwritten cards. Eight thousand won.' },
+    { from: 179, dur: 84, chyron: 'IT IS DONGMYO', sub: '동묘앞 · LINE 1 / LINE 6', caption: 'Seoul Metro says it is Dongmyo.' },
+    { from: 263, dur: 113, chyron: 'WEEKENDS RUN BUSIER', sub: '28,785 vs 19,673', caption: 'Weekends run more than forty-six percent busier there.' },
+    { from: 376, dur: 60, chyron: 'BIGGEST JUMP IN SEOUL', caption: 'The biggest jump in Seoul.' },
+    { from: 436, dur: 122, chyron: 'DECLARED FINISHED', sub: 'DEC 2024', caption: 'Korean media wrote its obituary in 2024.' },
+    { from: 558, dur: 56, chyron: 'THEN THEY CAME BACK', caption: 'Then foreign shoppers arrived.' },
+    { from: 614, dur: 115, chyron: 'TROUSERS ₩8,000', sub: 'PRICED BY HAND', caption: 'Handwritten cards. Eight thousand won.' },
   ],
 
   // Sits on the market cut, not on the platform, so the number arrives with the crowd.
-  figure: { from: 271, dur: 116, value: 46.3, decimals: 1, prefix: '+', suffix: '%', label: 'WEEKEND VS WEEKDAY' },
+  figure: { from: 263, dur: 113, value: 46.3, decimals: 1, prefix: '+', suffix: '%', label: 'WEEKEND VS WEEKDAY' },
 
   // Every line is a fact that appears in /blog/242. A ticker that carries filler is decoration.
   ticker: [
