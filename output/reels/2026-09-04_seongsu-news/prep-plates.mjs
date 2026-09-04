@@ -20,7 +20,10 @@ fs.mkdirSync(OUT, { recursive: true });
 
 /** A 9:16 window given as a fraction of the source width (0 = left, 1 = right). */
 async function window916(file, dest, xFrac = 0.5) {
-  const src = `${S}/${file}`;
+  // .rotate() with no argument applies the EXIF orientation tag. sharp ignores it
+  // otherwise, and three of the candidates for this reel are portrait frames that
+  // came out on their side in the review sheet before this was added.
+  const src = await sharp(`${S}/${file}`).rotate().toBuffer();
   const m = await sharp(src).metadata();
   const cw = Math.min(m.width, Math.round(m.height * 9 / 16));
   const left = Math.round((m.width - cw) * xFrac);
@@ -37,14 +40,24 @@ async function window916(file, dest, xFrac = 0.5) {
   );
 }
 
-// c1  "not in a fashion district" - the district it is not
-await window916('Cheongdam_Intersection.jpg', `${OUT}/c1_cheongdam.jpg`, 0.5);
-// c2  "old factories" - the workshop sign and the towers behind it
-await window916('Industrial_buildings_in_Seongsu-dong.jpg', `${OUT}/c2_industrial.jpg`, 0.45);
+/* c1, c2 and c4 were replaced on 2026-09-04 after the representative rejected
+   them: "성수는 1,2,4 번째 이미지 들이 다 너무 별로다". They were an empty
+   boulevard with nothing but sky and road, a hazy drab workshop, and a beige
+   cafe that was not fashion at all. The replacements each show people and
+   commerce, which is what all three sentences are actually about. */
+
+// c1  "not in a fashion district" - so the frame has to BE a fashion district.
+//     Garosu-gil, with a queue outside the flagship. The chyron reads NOT
+//     GAROSU-GIL, which is the Dongmyo opening pattern: name what is on screen,
+//     then negate it. A chyron saying "NOT A FASHION DISTRICT" over a photo of
+//     one would have read as a claim about the picture.
+await window916('Apple_가로수길_01.jpg', `${OUT}/c1_garosugil.jpg`, 0.5);
+// c2  "old factories" - brick industrial Seongsu with people in it
+await window916('Seongsu_Street_01.jpg', `${OUT}/c2_brick.jpg`, 0.5);
 // c3  "and now this" - the white wall and red block of concept retail
 await window916('Small_intersection_in_Seongsu-dong.jpg', `${OUT}/c3_intersection.jpg`, 0.5);
-// c4  the shops the visitors actually come to
-await window916('Seongsu-dong_storefronts.jpg', `${OUT}/c4_storefronts.jpg`, 0.5);
+// c4  the shops the visitors actually come to - a street full of them
+await window916('Seongsu_Street.jpg', `${OUT}/c4_crowd.jpg`, 0.5);
 // c5  "that was one day" - dusk, the day ending
 await window916('Evening_street_in_Seongsu-dong.jpg', `${OUT}/c5_evening.jpg`, 0.5);
 // c6  the figure

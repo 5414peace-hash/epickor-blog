@@ -4,7 +4,7 @@
 
 | | |
 |---|---|
-| File | `epickor-reel-seongsu-news-v002.mp4` |
+| File | `epickor-reel-seongsu-news-v003.mp4` |
 | Length | 25.5s (765 frames @ 30fps) |
 | Format | 1080×1920, h264 |
 | Audio | AAC 192k mono, **−14.8 LUFS, peak −1.4 dBFS** |
@@ -51,7 +51,7 @@ vocabulary is this reel's own, and it comes from what Seongsu was and is:
 | Playback band 400 Hz–4 kHz | max **−2.6 dB** ✅ |
 | Screen-speech agreement | beat-by-beat sheet, `qa-cutsheet.jpg`. **One defect found and fixed — below** |
 | Bright foley on voiced audio | none. The script refuses to write a file otherwise ✅ |
-| Upscale | **zero** — every plate is a 9:16 window out of 4032×3024, downscaled 0.63× ✅ |
+| Upscale | **zero** — every plate is a 9:16 window, downscaled 0.48×–0.63× ✅ |
 | Motion cards | zero, by kit design ✅ |
 
 **What QA caught.** The chyron `THE PRESS SAID TWO-THIRDS` clipped its final S against the panel
@@ -65,6 +65,22 @@ untouched.
 They are the sentence break before the Seongsu reveal and the paragraph break into the headline
 correction — an anchor's pauses, not dropouts. Nothing sounds in them because **nothing happens on
 screen in them either**; the foley fires when the picture changes, which is the whole design.
+
+## Three plates replaced after review (2026-09-04)
+
+*"성수는 1,2,4 번째 이미지 들이 다 너무 별로다."* Right on all three, and they failed the same way:
+**nothing was happening in any of them.** An empty Cheongdam boulevard of sky and road, a hazy drab
+workshop, and a beige cafe that was not fashion at all. Replaced with Garosu-gil outside the
+flagship, brick Seongsu with a FOREST VINTAGE sign and people crossing, and a Seongsu street full
+of shoppers. The set now carries people in four frames instead of two.
+
+**c1 needed its chyron changed too, not only its picture.** The line is "not in a fashion district",
+so the frame has to BE one — and `NOT A FASHION DISTRICT` over a photo of a fashion district reads
+as a claim about the picture. It now says `NOT GAROSU-GIL / 신사동`: name what is on screen, then
+negate it, which is the Dongmyo opening pattern.
+
+**sharp ignores EXIF orientation unless `.rotate()` is called.** Three portrait candidates rendered
+on their side in the review sheet. Now applied in `prep-plates.mjs`.
 
 ## No video, and that is a sourcing fact rather than a shortcut
 

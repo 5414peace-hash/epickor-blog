@@ -34,10 +34,14 @@
  *   across six beats keep the cadence at about 1.5 s per state change, the same
  *   as the two reels before it.
  *
- *     c1  c1_cheongdam     the district it is NOT
- *     c2  c2_industrial    "old factories" - a workshop with towers behind it
+ *     c1  c1_garosugil     the district it is NOT - Garosu-gil, a queue outside
+ *                          the flagship. The chyron names it and negates it,
+ *                          which is the Dongmyo opening pattern; a chyron reading
+ *                          "NOT A FASHION DISTRICT" over a photo of one would
+ *                          have read as a claim about the picture.
+ *     c2  c2_brick         "old factories" - brick industrial Seongsu, with people
  *     c3  c3_intersection  "and now this" - white wall, red block, concept retail
- *     c4  c4_storefronts   the shops the visitors actually come to
+ *     c4  c4_crowd         the shops the visitors come for - a street full of them
  *     c5  c5_evening       "that was one day" - dusk, a day ending
  *     c6  c6_night         the figure
  *     c7  c7_closed        the kicker. A shopfront whose neon says CLOSED, on a
@@ -71,17 +75,17 @@ const spec: NewsSpec = {
   breaking: 'SEOUL · FASHION',
 
   cuts: [
-    { src: `${M}c1_cheongdam.jpg`, kind: 'still', from: 0, dur: 133, provenance: 'FILE PHOTO' },
-    { src: `${M}c2_industrial.jpg`, kind: 'still', from: 133, dur: 67, provenance: 'FILE PHOTO' },
+    { src: `${M}c1_garosugil.jpg`, kind: 'still', from: 0, dur: 133, provenance: 'FILE PHOTO' },
+    { src: `${M}c2_brick.jpg`, kind: 'still', from: 133, dur: 67, provenance: 'FILE PHOTO' },
     { src: `${M}c3_intersection.jpg`, kind: 'still', from: 200, dur: 76, provenance: 'FILE PHOTO' },
-    { src: `${M}c4_storefronts.jpg`, kind: 'still', from: 276, dur: 139, provenance: 'FILE PHOTO' },
+    { src: `${M}c4_crowd.jpg`, kind: 'still', from: 276, dur: 139, provenance: 'FILE PHOTO' },
     { src: `${M}c5_evening.jpg`, kind: 'still', from: 415, dur: 44, provenance: 'FILE PHOTO' },
     { src: `${M}c6_night.jpg`, kind: 'still', from: 459, dur: 107, provenance: 'FILE PHOTO' },
     { src: `${M}c7_closed.jpg`, kind: 'still', from: 566, dur: 84, provenance: 'FILE PHOTO' },
   ],
 
   beats: [
-    { from: 0, dur: 133, chyron: 'NOT A FASHION DISTRICT', caption: "Korea's biggest fashion store is not in a fashion district." },
+    { from: 0, dur: 133, chyron: 'NOT GAROSU-GIL', sub: '신사동 · SINSA-DONG', caption: "Korea's biggest fashion store is not in a fashion district." },
     { from: 133, dur: 143, chyron: 'IT IS SEONGSU', sub: '성수동 · SEONGDONG-GU', caption: 'It is in Seongsu — old factories, and now this.' },
     { from: 276, dur: 139, chyron: 'PRESS SAID TWO-THIRDS', caption: 'Korean headlines said two-thirds of its shoppers were foreign.' },
     { from: 415, dur: 44, chyron: 'THAT WAS ONE DAY', sub: '9 JUNE 2026', caption: 'That was one day.' },
