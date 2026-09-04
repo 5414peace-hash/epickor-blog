@@ -38,6 +38,7 @@ import { ReelCvsReceipt, CVS_RECEIPT_DURATION } from './ReelCvsReceipt';
 import { ReelUjiDossier, UJI_DURATION } from './ReelUjiDossier';
 import { ReelBananaKickDossier, BANANA_KICK_DURATION } from './ReelBananaKickDossier';
 import { ReelYakultDossier, YAKULT_DURATION } from './ReelYakultDossier';
+import { ReelDongmyoNews, DONGMYO_NEWS_DURATION } from './ReelDongmyoNews';
 import type { ReelProps } from './types';
 
 const defaultReelProps: ReelProps = {
@@ -398,6 +399,14 @@ function Root() {
         height={1920}
         fps={30}
         durationInFrames={UJI_DURATION}
+      />
+      <Composition
+        id="DongmyoNews"
+        component={ReelDongmyoNews}
+        width={1080}
+        height={1920}
+        fps={30}
+        durationInFrames={DONGMYO_NEWS_DURATION}
       />
       <Composition
         id="BananaKickDossier"
