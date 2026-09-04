@@ -37,6 +37,11 @@ from playwright.sync_api import sync_playwright
 sys.stdout.reconfigure(encoding="utf-8", errors="replace", line_buffering=True)
 
 OWN = "--own-browser" in sys.argv
+# --slices prints the caption opening captured for EVERY row, not just the first.
+# A date being occupied is not the same as the right post being on it: on
+# 2026-08-20 the index said musinsa sat on 09-17 and the planner had it on
+# 09-03 오후 8:00, doubled onto another post. Only the text identifies a row.
+SLICES = "--slices" in sys.argv
 PROFILE = r"D:\dev\.browser-profiles\epickor-meta"
 LIST_URL = ("https://business.facebook.com/latest/posts/scheduled_posts"
             "?asset_id=1187482087784752&business_id=1214459297026761")
@@ -118,6 +123,12 @@ with sync_playwright() as p:
         days.setdefault((y, mo, d), set()).add(f"{ap or '??'} {hh}:{mm:02d}")
     for k in sorted(days):
         print(f"{k[0]}-{k[1]:02d}-{k[2]:02d}  {' , '.join(sorted(days[k]))}")
-    print("\n--- raw slice of the first row (check 오전/오후 renders here) ---")
-    if rows:
-        print("   ", repr(seen[rows[0]]))
+    if SLICES:
+        print("\n--- caption opening per row ---")
+        for k in rows:
+            print(f"{k[0]}-{k[1]:02d}-{k[2]:02d} {k[3] or '??'} {k[4]}:{k[5]:02d}  "
+                  f"{seen[k]!r}")
+    else:
+        print("\n--- raw slice of the first row (check 오전/오후 renders here) ---")
+        if rows:
+            print("   ", repr(seen[rows[0]]))

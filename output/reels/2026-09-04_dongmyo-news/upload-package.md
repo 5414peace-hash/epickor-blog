@@ -14,22 +14,34 @@
 | Voice | Daniel — Steady Broadcaster (`onwK4e9ZLuTAKqWW03F9`), lane `anchor_deadpan` |
 | Outro | Bank **C — LOCALS KNOW THE REST** |
 
-## NOT scheduled yet, and that is the rule rather than an oversight
+## SCHEDULED — 2026-09-25 05:00 KST, Facebook + Instagram
 
-CLAUDE.md: *"Instagram scheduling pattern: prepare and schedule content in batches of 3 Reels plus
-3 card-news carousels. Do not recommend uploading/scheduling a single approved Reel by itself
-unless the representative explicitly asks."*
+Committed 2026-09-04 through `.claude/skills/reels/scripts/schedule-meta-reel.py`. The script
+refuses to click unless the footer reads 예약 rather than 공유하기, and unless both date rows and
+all six time spinbuttons read back what was asked for. They did:
 
-This is one approved Reel. It waits for two more.
+```
+  date[0] = '2026년 9월 25일'      time[0] = ['오전', '5', '0']
+  date[1] = '2026년 9월 25일'      time[1] = ['오전', '5', '0']
+  footer reads 예약, date and time verified -- committing
+```
 
-**Calendar state (planner-verified 2026-09-04):** card news fills 09-04 through 09-24 with no gap.
-Instagram runs one post a day shared between Reels and card news, so **the first free slot for this
-is 09-25.**
+**The caption was verified against the source file, not just typed.** The scheduler now carries
+the same read-back gate the card-news one got on 2026-09-03, after Meta's hashtag helper rotated
+two of five carousel captions to start with the trailing hashtag block. This caption contains
+both a hashtag block and `epickor.com`, so both triggers were present. It matched on attempt 1.
 
-**The two candidates to complete the batch:**
-1. The three DOSSIER reels finished 2026-08-18 (우지 파동 · 바나나킥 · 야쿠르트) are still waiting
-   on the representative's phone review. If any two pass, the batch is complete immediately.
-2. Otherwise, two more NEWSDESK reels. See the note on topic fit below.
+**The batch this completes.** The representative confirmed the three DOSSIER reels on 2026-09-04
+("3편다 컨펌이야"), which makes four approved Reels. Card news filled 09-05 through 09-24 with no
+gap — planner-read, not taken from the index — so the four run 09-25 to 09-28, one a day at 05:00,
+per the 2026-07-27 rule that scheduling continues from the day after the last booked date.
+
+| Date | Reel | Kit |
+|---|---|---|
+| 09-25 | 동묘 — this one | NEWSDESK |
+| 09-26 | 야쿠르트 | DOSSIER |
+| 09-27 | 우지 파동 | DOSSIER |
+| 09-28 | 바나나킥 | DOSSIER |
 
 ## QA record
 

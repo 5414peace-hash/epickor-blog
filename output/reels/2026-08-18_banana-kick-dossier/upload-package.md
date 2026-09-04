@@ -7,8 +7,16 @@
 
 ## Status
 
-**READY — not scheduled.** Second of three DOSSIER reels built to be measured as a cohort against
-the old format's 16% median completion. Nothing here is booked; scheduling is the representative's.
+**SCHEDULED — 2026-09-28 05:00 KST, Facebook + Instagram.** Committed 2026-09-04 after the
+representative confirmed all three DOSSIER reels ("3편다 컨펌이야"). Booked with
+`.claude/skills/reels/scripts/schedule-meta-reel.py`, which refuses to click unless the footer
+reads 예약 rather than 공유하기 and both date rows and all six time spinbuttons read back what
+was asked for. Verified afterwards against the planner itself, by caption text rather than by
+date alone: 바나나킥 sits on 2026-09-28 opening `Korea's m`.
+
+Part of a four-Reel run — 09-25 동묘 (NEWSDESK) · 09-26 야쿠르트 · 09-27 우지 파동 ·
+09-28 바나나킥 — placed the day after card news ends on 09-24, per the 2026-07-27 rule that
+scheduling continues from the day after the last booked date.
 
 ## Structure
 

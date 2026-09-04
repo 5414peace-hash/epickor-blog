@@ -31,6 +31,7 @@ from playwright.sync_api import sync_playwright
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 
 VIDEO, CAPTION, DAY, AMPM, HOUR, MINUTE = sys.argv[1:7]
+CE = 'div[contenteditable="true"]'
 PROFILE = r"D:\dev\.browser-profiles\epickor-meta"
 COMPOSER = ("https://business.facebook.com/latest/reels_composer/"
             "?asset_id=1187482087784752&business_id=1214459297026761")
@@ -107,14 +108,60 @@ with sync_playwright() as p:
     log("upload settled")
 
     # 2. caption ------------------------------------------------------------
+    # THIS SECTION IS A GATE, NOT A TYPIST. On 2026-09-03 the card-news
+    # scheduler typed 1,794 characters correctly and Meta moved the trailing
+    # hashtag line to the FRONT of two of five posts: the hashtag helper and
+    # the URL auto-linker each reset the caret to offset 0 mid-line, so
+    # everything typed after that point lands at the start. It is timing
+    # dependent -- the other three posts in the same hour were clean -- so
+    # neither inspection nor a screenshot is a gate, and the pre-commit
+    # screenshot only ever shows the middle of a scrolled editor. The only
+    # gate is reading the editor back and comparing it to the source file.
     text = open(CAPTION, encoding="utf-8").read().strip()
-    ed = page.locator('div[contenteditable="true"]').first
-    ed.scroll_into_view_if_needed(); ed.click(); page.wait_for_timeout(600)
-    for i, line in enumerate(text.split("\n")):
-        if i:
-            page.keyboard.press("Shift+Enter")
-        page.keyboard.type(line, delay=3)
-    log(f"caption typed ({len(text)} chars)")
+
+    ed = None
+    for i in range(page.locator(CE).count()):
+        cand = page.locator(CE).nth(i)
+        if cand.is_visible():
+            ed = cand
+            break
+    if ed is None:
+        log("REFUSING: no visible caption editor"); sys.exit(1)
+    ed.scroll_into_view_if_needed()
+
+    def norm(t):
+        # whitespace-insensitive: the editor renders blank lines differently
+        # from the file, but a relocated block still shows up as a mismatch.
+        return "".join(t.split())
+
+    want = norm(text)
+    for attempt in range(1, 4):
+        ed.click(); page.wait_for_timeout(700)
+        page.keyboard.press("Control+a")
+        page.keyboard.press("Delete")
+        page.wait_for_timeout(500)
+        for i, line in enumerate(text.splitlines()):
+            if i:
+                page.keyboard.press("Shift+Enter")
+            # insert_text, NOT type(): per-character key events wake the
+            # helpers described above. One input event per line does not,
+            # and it is far faster besides.
+            page.keyboard.insert_text(line)
+            if "#" in line or ".kr" in line or ".com" in line or "http" in line:
+                page.wait_for_timeout(500)
+                page.keyboard.press("Escape")
+                page.wait_for_timeout(250)
+        page.wait_for_timeout(1200)
+        got = norm(ed.inner_text())
+        if got == want:
+            log(f"caption verified ({len(text)} chars, attempt {attempt})")
+            break
+        log(f"  caption MISMATCH attempt {attempt}: got {len(got)}, want {len(want)}")
+        log(f"    got  starts: {got[:60]!r}")
+        log(f"    want starts: {want[:60]!r}")
+    else:
+        log("REFUSING: caption never matched the source. Nothing scheduled.")
+        sys.exit(1)
 
     # 3. copyright scan then two 다음 ---------------------------------------
     end = time.time() + 600

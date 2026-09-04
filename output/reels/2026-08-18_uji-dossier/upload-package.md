@@ -1,7 +1,6 @@
 # Upload package — 우지 파동 (DOSSIER prototype)
 
 **File**: `EPICKOR_UJI_DOSSIER.mp4` · 29.1s · 1080×1920 · 30fps · 5.3 MB · **no narration**
-**Audio-only copy**: `EPICKOR_UJI_DOSSIER-audio-only.m4a`, for testing the sound in isolation
 **Render**: `v004` · video 1.36 Mbps h264 CRF 14 · audio AAC 192k
 **Kit**: `remotion/DossierKit.tsx` (**D안 / DOSSIER**, first use)
 **Source post**: `219` — *Korean Ramen Went Premium: Why a Packet Now Costs ₩1,900*
@@ -12,7 +11,16 @@
 
 ## Status
 
-**PROTOTYPE — not scheduled, and not part of tonight's batch.**
+**SCHEDULED — 2026-09-27 05:00 KST, Facebook + Instagram.** Committed 2026-09-04 after the
+representative confirmed all three DOSSIER reels ("3편다 컨펌이야"). Booked with
+`.claude/skills/reels/scripts/schedule-meta-reel.py`, which refuses to click unless the footer
+reads 예약 rather than 공유하기 and both date rows and all six time spinbuttons read back what
+was asked for. Verified afterwards against the planner itself, by caption text rather than by
+date alone: 우지 파동 sits on 2026-09-27 opening `In 1989 a`.
+
+Part of a four-Reel run — 09-25 동묘 (NEWSDESK) · 09-26 야쿠르트 · 09-27 우지 파동 ·
+09-28 바나나킥 — placed the day after card news ends on 09-24, per the 2026-07-27 rule that
+scheduling continues from the day after the last booked date.
 
 ## What changed after the first review (2026-08-18)
 
