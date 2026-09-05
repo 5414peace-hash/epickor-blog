@@ -1,10 +1,10 @@
 {
   "summary": {
-    "generatedAt": "2026-09-05T15:09:52.297Z",
+    "generatedAt": "2026-09-05T15:30:44.110Z",
     "auditedPosts": 441,
     "includedPrivate": false,
     "slugFilter": "",
-    "bodyImages": 1563,
+    "bodyImages": 1562,
     "affectedPosts": 96,
     "critical": 0,
     "high": 0,
@@ -15945,19 +15945,19 @@
       "title": "The One Korean Food Foreigners Never Learn to Love: Hamheung Naengmyeon, and Why Koreans Can't See the Problem",
       "contentPath": "content\\blog\\443.md",
       "sourceRecord": "public\\assets\\images\\posts\\443\\image-sources.md",
-      "imageCount": 4,
+      "imageCount": 3,
       "images": [
         {
-          "url": "/assets/images/posts/443/hamheung-bibim-naengmyeon.jpg",
-          "alt": "A stainless bowl of Hamheung-style bibim naengmyeon: translucent starch noodles under a glossy mound of red sauce, sliced egg and spring onion.",
-          "caption": "The bowl in question. Translucent starch noodles, a sweet-hot sauce, and a temperature that makes no sense to most of the world. Photo by chomjong, CC BY 2.0, via Wikimedia Commons.",
+          "url": "/assets/images/posts/443/mul-naengmyeon-iced-broth.jpg",
+          "alt": "A stainless bowl of mul-naengmyeon: dark buckwheat noodles coiled in clear iced broth with a halved egg, sliced beef, cucumber and radish.",
+          "caption": "물냉면, the way it arrives: clear broth with ice in it, a coil of noodles, half an egg. Cold, quiet, and a temperature that makes no sense to most of the world. Photo by chomjong, CC BY 2.0, via Wikimedia Commons.",
           "ext": ".jpg",
           "exists": true
         },
         {
-          "url": "/assets/images/posts/443/hoe-naengmyeon-raw-fish.jpg",
-          "alt": "A bowl of hoe naengmyeon, the Hamheung original: cold starch noodles under marinated raw fish in red sauce, sliced egg and cucumber.",
-          "caption": "회냉면 — the form Hamheung refugees actually brought south: starch noodles, marinated raw fish, sweet-hot sauce. The bibim version most tourists meet is this without the fish. Photo by Jinho Jung, CC BY 2.0, via Wikimedia Commons.",
+          "url": "/assets/images/posts/443/hamheung-bibim-naengmyeon.jpg",
+          "alt": "A stainless bowl of Hamheung-style bibim naengmyeon: translucent starch noodles under a glossy mound of red sauce, sliced egg and spring onion.",
+          "caption": "The Hamheung version: translucent starch noodles under a sweet-hot sauce. This is the bowl the creator's guests would not pay for twice. Photo by chomjong, CC BY 2.0, via Wikimedia Commons.",
           "ext": ".jpg",
           "exists": true
         },
@@ -15965,13 +15965,6 @@
           "url": "/assets/images/posts/443/mul-naengmyeon-sokcho.jpg",
           "alt": "A bowl of mul-naengmyeon in Sokcho: dark buckwheat noodles in clear iced broth with cucumber, pear and half an egg.",
           "caption": "The other bowl, in Sokcho — the city where Hamheung refugees opened the first shop. Clear broth, soft noodle, one unfamiliar idea instead of three. Foreigners rate this one \"okay\". Photo by Mobius6, CC BY-SA 4.0, via Wikimedia Commons.",
-          "ext": ".jpg",
-          "exists": true
-        },
-        {
-          "url": "/assets/images/posts/443/naengmyeon-sari-noodles.jpg",
-          "alt": "A bowl of plain naengmyeon-sari, the extra portion of cold noodles served on its own, on a dark table.",
-          "caption": "사리 — the extra noodles, on their own. This is the part of the bowl foreigners describe as tasting of nothing and Koreans order more of. Photo by Jirka Matousek, CC BY 2.0, via Wikimedia Commons.",
           "ext": ".jpg",
           "exists": true
         }
