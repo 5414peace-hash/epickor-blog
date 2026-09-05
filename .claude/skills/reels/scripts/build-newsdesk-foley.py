@@ -27,6 +27,8 @@ THE SECOND RULE: THE SOUND COMES FROM THE SUBJECT
   | cut changes                     | clothes pushed | cap snapped     | garment bag zip |
   | figure counts up (38 frames)    | coins counted  | receipt printer | sewing machine  |
   | outro card rises (12 frames)    | coin in a tin  | till chime      | door chime      |
+  commute (440, "why Koreans seem cold"): turnstile beep / train doors / tally
+  tick / Seoul Metro arrival chime - the Korea a foreigner meets first.
 
   The grammar is shared - a wipe always sounds like one thing, a cut like
   another - because that is what makes the sound read as the format rather than
@@ -259,6 +261,48 @@ def a_sign():
     return out
 
 
+# ---- commute: 440, the Korea a foreigner meets first - a turnstile, a train --
+
+def c_wipe():
+    """A T-money turnstile beep: two short tones, the sound every visitor makes
+    forty times a day and never hears a Korean react to. Kept under 90 ms with a
+    decaying tail so that, placed LEAD_WIPE frames early, it is finished before
+    the voice starts - the first version was 130 ms and flat, and the gate
+    refused all seven of them."""
+    out = [0.0] * int(0.09 * SR)
+    for off, f in ((0.0, 2093.0), (0.046, 2637.0)):
+        k = int(off * SR)
+        for i, v in enumerate(struck(f, 0.044, 70.0, attack_ms=1.0, partials=((1.0, 1.0), (2.0, 0.15)))):
+            if k + i < len(out):
+                out[k + i] += v
+    return out
+
+
+def c_cut():
+    """Train doors closing: a rubber-edged thump with a short air hiss."""
+    return blend(noise(0.12, 900.0, 120.0, 40.0, attack_ms=6.0),
+                 struck(140.0, 0.14, 45.0, partials=((1.0, 1.0), (1.9, 0.3))), 0.55, 0.8)
+
+
+def c_count():
+    """A survey being tallied - a pen tick on a clipboard. LOW, runs under the anchor."""
+    return blend(struck(320.0, 0.030, 190.0, partials=((1.0, 1.0), (2.6, 0.3))),
+                 noise(0.018, 700.0, 240.0, 320.0), 0.7, 0.45)
+
+
+def c_sign():
+    """The Seoul Metro arrival chime, three rising notes. The notes attack 30 ms
+    apart so all three are struck inside the pre-outro silence, and the decay is
+    set so the ring is at least 10 dB down by the time the tag line starts."""
+    out = [0.0] * int(0.6 * SR)
+    for off, f in ((0.0, 1046.5), (0.03, 1318.5), (0.06, 1568.0)):
+        k = int(off * SR)
+        for i, v in enumerate(struck(f, 0.5, 18.0, attack_ms=1.2, partials=((1.0, 1.0), (2.0, 0.2)))):
+            if k + i < len(out):
+                out[k + i] += v * (0.8 if off == 0.0 else 1.0)
+    return out
+
+
 PALETTES = {
     'market': {'wipe': m_wipe, 'cut': m_cut, 'count': m_count, 'sign': m_sign,
                'names': ('hanger on rail', 'clothes pushed aside', 'coins counted', 'coin in a tin')},
@@ -266,6 +310,8 @@ PALETTES = {
               'names': ('barcode scanner', 'cap snapped shut', 'receipt printer', 'till chime')},
     'atelier': {'wipe': a_wipe, 'cut': a_cut, 'count': a_count, 'sign': a_sign,
                 'names': ('camera shutter', 'garment bag zip', 'sewing machine', 'door chime')},
+    'commute': {'wipe': c_wipe, 'cut': c_cut, 'count': c_count, 'sign': c_sign,
+                'names': ('turnstile beep', 'train doors', 'tally tick', 'arrival chime')},
 }
 
 
