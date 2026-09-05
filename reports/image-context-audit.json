@@ -1,10 +1,10 @@
 {
   "summary": {
-    "generatedAt": "2026-09-05T15:30:44.110Z",
-    "auditedPosts": 441,
+    "generatedAt": "2026-09-05T16:09:28.408Z",
+    "auditedPosts": 442,
     "includedPrivate": false,
     "slugFilter": "",
-    "bodyImages": 1562,
+    "bodyImages": 1565,
     "affectedPosts": 96,
     "critical": 0,
     "high": 0,
@@ -15965,6 +15965,38 @@
           "url": "/assets/images/posts/443/mul-naengmyeon-sokcho.jpg",
           "alt": "A bowl of mul-naengmyeon in Sokcho: dark buckwheat noodles in clear iced broth with cucumber, pear and half an egg.",
           "caption": "The other bowl, in Sokcho — the city where Hamheung refugees opened the first shop. Clear broth, soft noodle, one unfamiliar idea instead of three. Foreigners rate this one \"okay\". Photo by Mobius6, CC BY-SA 4.0, via Wikimedia Commons.",
+          "ext": ".jpg",
+          "exists": true
+        }
+      ],
+      "findings": []
+    },
+    {
+      "type": "blog",
+      "slug": "444",
+      "title": "Korean Kitchen Scissors: Why Koreans Cut Meat and Noodles at the Table, and Why It Is Not an Office Scissor",
+      "contentPath": "content\\blog\\444.md",
+      "sourceRecord": "public\\assets\\images\\posts\\444\\image-sources.md",
+      "imageCount": 3,
+      "images": [
+        {
+          "url": "/assets/images/posts/444/korean-galbi-grill-scissors-seoul.jpg",
+          "alt": "Galbi on a charcoal grill in a Seoul restaurant, tongs and scissors resting over the meat, banchan dishes around the table.",
+          "caption": "Seoul. The tongs turn the galbi; the scissors take it off the bone. The two tools always travel together. Photo by Pincalo on Pexels.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/444/cutting-mushroom-scissors-tongs-grill.jpg",
+          "alt": "A pair of tongs holding a slice of grilled king oyster mushroom while kitchen scissors cut it over a Korean barbecue grill.",
+          "caption": "Tongs hold, scissors cut, over the fire. The same motion works on a mushroom, a rib and a squid. Photo by 대경라이프, CC BY-SA 4.0, via Wikimedia Commons.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/444/daiso-korean-kitchen-scissors.jpg",
+          "alt": "Product photograph of a Daiso large kitchen scissor: grey stainless blades, black rubber-lined rings and gripper teeth between the handles.",
+          "caption": "The ₩3,000 version. Thick stainless blades, a serrated tip, big rubber-lined rings and gripper teeth between the handles: the restaurant pair, from a discount store. Product image: Daiso Korea, shown for identification.",
           "ext": ".jpg",
           "exists": true
         }

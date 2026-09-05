@@ -38,7 +38,7 @@ Korean food scissors make sense because many Korean meals are built around **sha
 
 Korea.net's K-Scissors feature shows the same logic: scissors are used in Korean kitchens and restaurants for pork barbecue, cold noodles, kimchi, and other foods. The tool looks ordinary, but the setting makes it powerful. In a crowded restaurant, speed and cleanliness matter. At a shared table, portioning food for others also becomes a small act of care.
 
-That is why the scissors are not just "funny Korea content." They are part of a broader table system: grill, tongs, scissors, banchan, lettuce wraps, shared sauces, and quick refills. Once you understand the system, the tool stops feeling strange.
+That is why the scissors are not just "funny Korea content." (We have since written the full guide to the scissor itself — [why it is not an office scissor, and which one to buy](/blog/444).) They are part of a broader table system: grill, tongs, scissors, banchan, lettuce wraps, shared sauces, and quick refills. Once you understand the system, the tool stops feeling strange.
 
 ![Korean table scissors shown in the original EpicKor practical tools footage.](/assets/images/posts/022/022_EpicKor_%EC%A7%84%ED%98%B8.mp4_20240712_221116.402.jpg)
 
