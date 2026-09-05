@@ -62,6 +62,7 @@ If you choose markets, go with curiosity rather than a checklist of viral foods.
 
 <div class="affiliate-inline-cta">
   <p><strong>First-day Seoul kit:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. A 24-hour route drains phone battery fast, so compare <a href="https://www.amazon.com/dp/B0CZ9M6X8Q?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">portable power banks</a> before you depend on maps, translation, photos, and late-night transit.</p>
+  <a class="affiliate-cta-button" href="https://www.amazon.com/dp/B0CZ9M6X8Q?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">See portable power banks on Amazon</a>
 </div>
 
 ## Afternoon: Let Seoul Be Stylish

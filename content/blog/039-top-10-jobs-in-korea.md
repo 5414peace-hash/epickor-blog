@@ -79,6 +79,7 @@ The market also changes quickly. Artificial-intelligence branding does not guara
 
 <div class="affiliate-inline-cta">
   <p><strong>Build language foundations alongside technical skills:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. Compare a <a href="https://www.amazon.com/dp/1974152626?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean alphabet and writing workbook</a> if you are starting from zero, then move toward job-specific listening, email, and document vocabulary.</p>
+  <a class="affiliate-cta-button" href="https://www.amazon.com/dp/1974152626?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">See Korean alphabet and writing workbook on Amazon</a>
 </div>
 
 ## Manufacturing, Construction, Logistics, and Skilled Trades
@@ -153,6 +154,7 @@ Titles and speech levels matter, so learn how colleagues address one another. Th
 
 <div class="affiliate-inline-cta">
   <p><strong>Understand the society around the workplace:</strong> <a href="https://www.amazon.com/Birth-Korean-Cool-Conquering-Through/dp/1250045118?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">The Birth of Korean Cool</a> is the readable account of how the work culture you are about to join got built. Use it as context, then judge the actual employer by its contract, team and conduct.</p>
+  <a class="affiliate-cta-button" href="https://www.amazon.com/Birth-Korean-Cool-Conquering-Through/dp/1250045118?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">See The Birth of Korean Cool on Amazon</a>
 </div>
 
 ## A Better Way to Choose a Korean Career

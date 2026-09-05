@@ -83,6 +83,7 @@ Papago and Google Translate can both help, but translation is most reliable with
 
 <div class="affiliate-inline-cta">
   <p><strong>Keep the documents together:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. Compare a compact <a href="https://www.amazon.com/dp/B075L5QVJG?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">travel document organizer</a> for your passport, insurance details, transit card, and paper backup; do not store every critical item in one checked bag.</p>
+  <a class="affiliate-cta-button" href="https://www.amazon.com/dp/B075L5QVJG?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">See travel document organizer on Amazon</a>
 </div>
 
 ## Set Up Mobile Data Without Locking Yourself Out
@@ -133,6 +134,7 @@ Comfortable shoes matter because Seoul combines station corridors, slopes, and p
 
 <div class="affiliate-inline-cta">
   <p><strong>Protect navigation time:</strong> Compare a flight-safe <a href="https://www.amazon.com/dp/B0CZ9M6X8Q?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">portable travel power bank</a> before departure. Maps, translation, photos, and eSIM data can drain a phone quickly; check your airline's current carry-on and capacity rules.</p>
+  <a class="affiliate-cta-button" href="https://www.amazon.com/dp/B0CZ9M6X8Q?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">See portable travel power bank on Amazon</a>
 </div>
 
 ## Emergency Numbers and Help for Travelers

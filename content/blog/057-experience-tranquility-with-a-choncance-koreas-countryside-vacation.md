@@ -56,6 +56,7 @@ The best Choncance trip respects both sides: enjoy the charm, but do not treat t
 
 <div class="affiliate-inline-cta">
   <p><strong>Countryside-trip pocket item:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. Choncance sounds romantic until the bus stop has no convenience store, so a strip of <a href="https://www.amazon.com/Kleenex-Facial-Tissues-Travel-54635/dp/B09XGNJ2TH?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">pocket tissues</a> belongs in a light Korea day bag — rural bus-stop toilets rarely stock paper.</p>
+  <a class="affiliate-cta-button" href="https://www.amazon.com/Kleenex-Facial-Tissues-Travel-54635/dp/B09XGNJ2TH?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">See pocket tissues on Amazon</a>
 </div>
 
 ## Where to Try Choncance in Korea
@@ -161,6 +162,7 @@ For a first attempt, choose a destination where the lodging, meal, and main walk
 
 <div class="affiliate-inline-cta">
   <p><strong>Slow-trip snack:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. For a quiet train, guesthouse, or village stay, <a href="https://www.amazon.com/dp/B09PQCFH6S?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean sweet potato snack bars</a> fit the countryside-rest mood better than flashy souvenirs.</p>
+  <a class="affiliate-cta-button" href="https://www.amazon.com/dp/B09PQCFH6S?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">See Korean sweet potato snack bars on Amazon</a>
 </div>
 
 ## When Is Choncance Best?

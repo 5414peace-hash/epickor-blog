@@ -148,6 +148,7 @@ The downside is fragility. Seaweed sheets crumble if you crush them. Pack them i
 
 <div class="affiliate-inline-cta">
   <p><strong>Light suitcase-style snack:</strong> For a compact Korean snack that makes sense beyond novelty, compare <a href="https://www.amazon.com/dp/B0DH5MR3YP?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Bibigo Korean BBQ flavor seaweed snacks</a>. They are easier to share than fragile giant chip bags.</p>
+  <a class="affiliate-cta-button" href="https://www.amazon.com/dp/B0DH5MR3YP?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">See Bibigo Korean BBQ flavor seaweed snacks on Amazon</a>
 </div>
 
 ## Where Korean Snacks Fit in K-Food

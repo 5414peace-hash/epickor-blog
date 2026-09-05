@@ -140,6 +140,7 @@ Once you see this pattern, Korean food starts to make more sense. Garlic is not 
 
 <div class="affiliate-inline-cta">
   <p><strong>Korean BBQ flavor note:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. If garlic made you curious about the full wrap system, compare <a href="https://www.amazon.com/dp/B07BFQPCM6?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">ssamjang Korean soybean paste sauce</a> for the salty, savory anchor of a Korean BBQ bite.</p>
+  <a class="affiliate-cta-button" href="https://www.amazon.com/dp/B07BFQPCM6?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">See ssamjang Korean soybean paste sauce on Amazon</a>
 </div>
 
 ---
@@ -190,6 +191,7 @@ For a deeper look at sauce culture, EpicKor also has a guide to [ssamjang, Korea
 
 <div class="affiliate-inline-cta">
   <p><strong>For the home grill table:</strong> Garlic and ssamjang work better when the table setup is practical; compare a <a href="https://www.amazon.com/dp/B08YZ1CTHC?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean BBQ scissors and tongs set</a> before trying the cut-and-wrap rhythm at home.</p>
+  <a class="affiliate-cta-button" href="https://www.amazon.com/dp/B08YZ1CTHC?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">See Korean BBQ scissors and tongs set on Amazon</a>
 </div>
 
 ---

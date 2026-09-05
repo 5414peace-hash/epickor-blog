@@ -56,6 +56,7 @@ So the K-prefix is modern, but it borrows weight from deeper identity. That is w
 
 <div class="affiliate-inline-cta">
   <p><strong>K-brand souvenir angle:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. If the global "K" label interests you, a simple <a href="https://www.amazon.com/dp/B0CLG9TFKG?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Bokjumeoni pouch</a> is a small example of tradition becoming a modern gift object.</p>
+  <a class="affiliate-cta-button" href="https://www.amazon.com/dp/B0CLG9TFKG?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">See Bokjumeoni pouch on Amazon</a>
 </div>
 
 ## How Hallyu Turns Attention Into Products

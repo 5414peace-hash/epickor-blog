@@ -58,6 +58,7 @@ But do not turn the tradition into a rule. Many Koreans do not drink makgeolli. 
 
 <div class="affiliate-inline-cta">
   <p><strong>Rainy-day pantry shortcut:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. When the pajeon craving turns into a full comfort-food night, compare <a href="https://www.amazon.com/dp/B0F4K5JK5S?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean kimchi stew with tofu</a> as an easy standby dish.</p>
+  <a class="affiliate-cta-button" href="https://www.amazon.com/dp/B0F4K5JK5S?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">See Korean kimchi stew with tofu on Amazon</a>
 </div>
 
 ![A finished pajeon cut into pieces and served on a plate.](/assets/images/posts/065/pajeon-served.jpg)
@@ -138,6 +139,7 @@ Never let a food tradition pressure you into drinking. The real rainy-day mood i
 
 <div class="affiliate-inline-cta">
   <p><strong>Make it feel like a pocha table:</strong> A small <a href="https://www.amazon.com/dp/B08G1CM3XX?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean ramen cooking pot</a> turns rainy-day noodles into a simple shared-table ritual at home without needing a full restaurant setup.</p>
+  <a class="affiliate-cta-button" href="https://www.amazon.com/dp/B08G1CM3XX?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">See Korean ramen cooking pot on Amazon</a>
 </div>
 
 ## What to Cook at Home

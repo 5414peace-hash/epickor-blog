@@ -100,6 +100,7 @@ If you like the Cha Eun-woo look, think in systems. Keep skin calm. Avoid heavy 
 
 <div class="affiliate-inline-cta">
   <p><strong>Clean K-beauty baseline:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. If Cha Eun-woo's polished image made you curious about Korean skincare, compare <a href="https://www.amazon.com/dp/B08FM5BTF6?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">ROUND LAB 1025 Dokdo Toner</a> as a gentle starting point rather than chasing a celebrity face.</p>
+  <a class="affiliate-cta-button" href="https://www.amazon.com/dp/B08FM5BTF6?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">See ROUND LAB 1025 Dokdo Toner on Amazon</a>
 </div>
 
 ## Fashion, Eyewear, and the "One Accent" Rule

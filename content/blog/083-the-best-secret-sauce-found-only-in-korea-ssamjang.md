@@ -145,6 +145,7 @@ If you want to build a more complete home setup, EpicKor's [Korean cookware star
 
 <div class="affiliate-inline-cta">
   <p><strong>Make the wrap table easier:</strong> Korean BBQ feels smoother when you can cut meat cleanly at the table, so compare <a href="https://www.amazon.com/dp/B08YZ1CTHC?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean BBQ scissors and tongs</a> before hosting a wrap night.</p>
+  <a class="affiliate-cta-button" href="https://www.amazon.com/dp/B08YZ1CTHC?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">See Korean BBQ scissors and tongs on Amazon</a>
 </div>
 
 ![Ssamjang sauce and Korean food frame from EpicKor's original package.](/assets/images/posts/083/64e011ae-362f-40ca-af11-8b9f23c3236c.jpg)

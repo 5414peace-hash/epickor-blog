@@ -133,6 +133,7 @@ But the baseline expectation is still clear: systems should not waste your time.
 
 <div class="affiliate-inline-cta">
   <p><strong>Pali-pali travel note:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. If Korea's speed makes you want a quick hotel-room reset, compare <a href="https://www.amazon.com/dp/B003VD5SNC?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Maxim Mocha Gold Mild Coffee Mix</a> for the instant coffee rhythm Koreans know well.</p>
+  <a class="affiliate-cta-button" href="https://www.amazon.com/dp/B003VD5SNC?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">See Maxim Mocha Gold Mild Coffee Mix on Amazon</a>
 </div>
 
 ---
@@ -190,6 +191,7 @@ For subway-specific habits, read EpicKor's [Seoul subway etiquette guide](/blog/
 
 <div class="affiliate-inline-cta">
   <p><strong>For fast travel days:</strong> A small snack in your bag helps when transfers, lines, and sightseeing move quickly; compare <a href="https://www.amazon.com/dp/B09PQCFH6S?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean sweet potato snack bars</a> as a light emergency bite.</p>
+  <a class="affiliate-cta-button" href="https://www.amazon.com/dp/B09PQCFH6S?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">See Korean sweet potato snack bars on Amazon</a>
 </div>
 
 ---

@@ -59,6 +59,7 @@ The safe cultural reading is this: miyeokguk is a Korean food tradition that con
 
 <div class="affiliate-inline-cta">
   <p><strong>Try the seaweed lane gently:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. If miyeokguk makes you curious about Korean seaweed flavors, compare <a href="https://www.amazon.com/dp/B0DH5MR3YP?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Bibigo Korean BBQ flavor seaweed snacks</a> as a low-effort taste before buying a large dried-seaweed pack for soup.</p>
+  <a class="affiliate-cta-button" href="https://www.amazon.com/dp/B0DH5MR3YP?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">See Bibigo Korean BBQ flavor seaweed snacks on Amazon</a>
 </div>
 
 ## What Goes Into Miyeokguk
@@ -110,6 +111,7 @@ The contrast is useful. Miyeokguk is not one-symbol food. On a birthday, it mean
 
 <div class="affiliate-inline-cta">
   <p><strong>Build a Korean comfort-food night:</strong> If soup culture interests you, compare <a href="https://www.amazon.com/dp/B0F4K5JK5S?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean kimchi stew with tofu</a> with a broader <a href="https://www.amazon.com/s?k=korean+food+starter+pack&amp;tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean food starter pack</a> so your pantry covers more than one soup story.</p>
+  <a class="affiliate-cta-button" href="https://www.amazon.com/dp/B0F4K5JK5S?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">See Korean kimchi stew with tofu on Amazon</a>
 </div>
 
 ## How Miyeokguk Tastes

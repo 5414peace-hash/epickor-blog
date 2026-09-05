@@ -116,6 +116,7 @@ The respectful fan approach is to separate love from access. You can celebrate V
 
 <div class="affiliate-inline-cta">
   <p><strong>Watch-party snack:</strong> For a simple Korean sweet during BTS comeback clips, interviews, or fan edits, compare <a href="https://www.amazon.com/dp/B07VQF4N85?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">yakgwa Korean honey cookies</a> as an easy table snack.</p>
+  <a class="affiliate-cta-button" href="https://www.amazon.com/dp/B07VQF4N85?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">See yakgwa Korean honey cookies on Amazon</a>
 </div>
 
 ## What V's Return Means Artistically

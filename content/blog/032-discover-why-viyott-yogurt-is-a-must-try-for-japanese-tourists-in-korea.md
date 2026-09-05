@@ -150,6 +150,7 @@ For a morning snack, pair it with coffee. If you want to understand Korea's drin
 
 <div class="affiliate-inline-cta">
   <p><strong>Fresh snack in Korea, shelf-stable snack at home:</strong> Viyott is best eaten cold in Korea. For a packable Korean option to share later, compare <a href="https://www.amazon.com/dp/B0DH5MR3YP?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean BBQ flavor seaweed snacks</a> instead of trying to travel with refrigerated yogurt.</p>
+  <a class="affiliate-cta-button" href="https://www.amazon.com/dp/B0DH5MR3YP?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">See Korean BBQ flavor seaweed snacks on Amazon</a>
 </div>
 
 ## Common Mistakes

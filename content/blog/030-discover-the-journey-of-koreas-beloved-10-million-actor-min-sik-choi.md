@@ -125,6 +125,7 @@ For EpicKor readers, the larger point is simple: Choi is a gateway. If you under
 
 <div class="affiliate-inline-cta">
   <p><strong>After the credits:</strong> Pair a late Korean film night with <a href="https://www.amazon.com/dp/B003VD5SNC?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Maxim coffee mix</a> if you want the easiest Korean pantry-style drink beside the screen.</p>
+  <a class="affiliate-cta-button" href="https://www.amazon.com/dp/B003VD5SNC?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">See Maxim coffee mix on Amazon</a>
 </div>
 
 ## FAQ

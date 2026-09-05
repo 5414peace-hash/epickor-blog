@@ -69,6 +69,7 @@ Do not rely only on before-and-after galleries. Lighting, angle, makeup, swellin
 
 <div class="affiliate-inline-cta">
   <p><strong>Prepare the non-glamorous part first:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. If you are traveling for consultations, compare <a href="https://www.amazon.com/dp/B075L5QVJG?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">travel document organizers</a> so passport copies, clinic papers, insurance details, and receipts stay together.</p>
+  <a class="affiliate-cta-button" href="https://www.amazon.com/dp/B075L5QVJG?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">See travel document organizers on Amazon</a>
 </div>
 
 ## Price Shopping Can Backfire
@@ -121,6 +122,7 @@ Gangnam's medical-tourism scene can be sophisticated and internationally experie
 
 <div class="affiliate-inline-cta">
   <p><strong>For the skincare side, not surgery:</strong> If your Korea plan is beauty shopping rather than a procedure, compare a simple product such as <a href="https://www.amazon.com/dp/B08FM5BTF6?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">ROUND LAB 1025 Dokdo Toner</a> and patch-test slowly instead of overhauling your routine while traveling.</p>
+  <a class="affiliate-cta-button" href="https://www.amazon.com/dp/B08FM5BTF6?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">See ROUND LAB 1025 Dokdo Toner on Amazon</a>
 </div>
 
 ## Sources and Further Reading

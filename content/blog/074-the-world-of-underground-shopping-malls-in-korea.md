@@ -138,6 +138,11 @@ If you came to Seoul for **K-pop albums, photocards, and character merchandise**
 
 So: go to Gangnam Station or Goto Mall if you want underground shopping. Go to Hongdae for street culture, cafes, and fandom retail. They are different trips, and searching for the first at Hongdae will only cost you an afternoon.
 
+<div class="affiliate-inline-cta">
+  <p><strong>Korean bokjumeoni lucky pouch — the one small, packable souvenir worth deciding on before the corridor decides for you.</strong> Underground arcades are where you buy on impulse; having one intentional gift already sorted keeps the rest of the afternoon cheap. <em>As an Amazon Associate, EpicKor earns from qualifying purchases at no extra cost to you.</em></p>
+  <a class="affiliate-cta-button" href="https://www.amazon.com/dp/B0CLG9TFKG?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">See the lucky pouch on Amazon</a>
+</div>
+
 ## Goto Mall: 620 Shops, and Genuinely Cheap
 
 Goto Mall (고투몰) under Express Bus Terminal Station is the one that justifies a dedicated trip.
@@ -166,10 +171,6 @@ The arcade is also divided by category rather than by brand — clothing, then *
 
 ![Rows of clothing shops inside Goto Mall, the underground arcade at Seoul's Express Bus Terminal Station.](/assets/images/posts/074/goto-mall-clothing-rows.jpg)
 *The rows repeat by design — the arcade is organised by product category, so comparing five similar shops in a row is the intended way to shop it.*
-
-<div class="affiliate-inline-cta">
-  <p><strong>Shopping-route note:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. If Seoul shopping makes you want one small Korean souvenir before the trip, compare <a href="https://www.amazon.com/dp/B0CLG9TFKG?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean Bokjumeoni lucky pouch</a> as a light, packable gift idea.</p>
-</div>
 
 ## Gangnam Station: Two Malls, Not One
 
@@ -298,7 +299,8 @@ Underground arcades are not for everyone, and pretending otherwise wastes your t
 What arcades genuinely win at: **cheap, light, packable things in volume** — socks, accessories, hair clips, phone cases, casual clothing, stationery, small gifts. If your Korea shopping list is "twelve small presents for people at home," Goto Mall will do it for less than a single department-store item.
 
 <div class="affiliate-inline-cta">
-  <p><strong>Gift-list shortcut:</strong> Before buying random small items in a station corridor, compare <a href="https://www.amazon.com/dp/B0GRMR488Z?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean traditional craft textile wallet</a> so your souvenir list has at least one intentional option.</p>
+  <p><strong>Korean traditional craft textile wallet — an embroidered souvenir that does not look like every stall.</strong> Small, flat and light; the sort of thing the arcades sell in a hundred versions, in the one version that is actually well made. <em>As an Amazon Associate, EpicKor earns from qualifying purchases at no extra cost to you.</em></p>
+  <a class="affiliate-cta-button" href="https://www.amazon.com/dp/B0GRMR488Z?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">See the textile wallet on Amazon</a>
 </div>
 
 ## Sources Checked

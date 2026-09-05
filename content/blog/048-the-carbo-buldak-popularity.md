@@ -57,6 +57,7 @@ Samyang's own financial information also shows how much the company expanded in 
 
 <div class="affiliate-inline-cta">
   <p><strong>Try the pink-pack baseline first:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. If you want the famous creamy-spicy version, compare <a href="https://www.amazon.com/dp/B0C85RZWP3?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Samyang Buldak Spicy Ramen Carbonara</a> before buying a large variety pack.</p>
+  <a class="affiliate-cta-button" href="https://www.amazon.com/dp/B0C85RZWP3?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">See Samyang Buldak Spicy Ramen Carbonara on Amazon</a>
 </div>
 
 ## How to Cook It Without Making It Worse
@@ -120,6 +121,7 @@ Another practical safety point is serving context. If you are hosting friends, d
 
 <div class="affiliate-inline-cta">
   <p><strong>Build a spicy Korean snack night:</strong> If the ramen is already in your cart, compare <a href="https://www.amazon.com/dp/B07P1G8SWJ?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Buldak cheese tteokbokki</a> or a broad <a href="https://www.amazon.com/s?k=korean+food+starter+pack&amp;tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean food starter pack</a> so you are not buying only one heat level.</p>
+  <a class="affiliate-cta-button" href="https://www.amazon.com/dp/B07P1G8SWJ?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">See Buldak cheese tteokbokki on Amazon</a>
 </div>
 
 ## Why Carbo Buldak Matters in K-Food

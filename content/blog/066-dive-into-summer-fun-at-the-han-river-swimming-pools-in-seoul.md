@@ -61,6 +61,7 @@ If you are building a full summer itinerary, pair this guide with EpicKor's [Kor
 
 <div class="affiliate-inline-cta">
   <p><strong>Before a Seoul pool day:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. Hangang sites have sun, water breaks, and limited patience for overpacking, so compare <a href="https://www.amazon.com/dp/B0F2HL5XPT?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean SPF 50 sunscreen options</a> before you travel.</p>
+  <a class="affiliate-cta-button" href="https://www.amazon.com/dp/B0F2HL5XPT?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">See Korean SPF 50 sunscreen options on Amazon</a>
 </div>
 
 ## Which Hangang Pool or Water Playground Should You Choose?
@@ -104,6 +105,7 @@ The subway/taxi return is also part of the packing logic. You do not want to car
 
 <div class="affiliate-inline-cta">
   <p><strong>Small gear, easier day:</strong> If your Seoul summer plan includes pools, parks, and sudden rain, compare <a href="https://www.amazon.com/dp/B0160HYB8S?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">compact travel umbrellas</a> that can handle both sun and showers without taking over your bag.</p>
+  <a class="affiliate-cta-button" href="https://www.amazon.com/dp/B0160HYB8S?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">See compact travel umbrellas on Amazon</a>
 </div>
 
 ## Weather, Crowds, and Timing Mistakes to Avoid

@@ -76,6 +76,7 @@ For readers trying to understand Korean dating culture, the lesson is not "copy 
 
 <div class="affiliate-inline-cta">
   <p><strong>Korean conversation prep:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. If this guide makes you curious about Korean social cues, compare <a href="https://www.amazon.com/dp/1838691537?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean phrasebooks</a> before a trip, language exchange, or first conversation in Korea.</p>
+  <a class="affiliate-cta-button" href="https://www.amazon.com/dp/1838691537?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">See Korean phrasebooks on Amazon</a>
 </div>
 
 ## A Practical Guide to Korean Flirting Cues

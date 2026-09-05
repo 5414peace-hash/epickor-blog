@@ -61,6 +61,7 @@ If you are building Korean-culture context around the show, pair this with EpicK
 
 <div class="affiliate-inline-cta">
   <p><strong>For watch-party context:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. If Korean shows are becoming part of your regular rotation, <a href="https://www.amazon.com/dp/B01N52C32A?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">The Kpop Dictionary</a> covers the slang subtitles flatten — the terms of address, the fandom vocabulary, and the jokes that get translated into nothing.</p>
+  <a class="affiliate-cta-button" href="https://www.amazon.com/dp/B01N52C32A?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">See The Kpop Dictionary on Amazon</a>
 </div>
 
 ## 2. When Life Gives You Tangerines: The Emotional Entry Point
@@ -128,6 +129,7 @@ Fourth, are you watching alone or with people? For a group, a high-concept title
 
 <div class="affiliate-inline-cta">
   <p><strong>More context than subtitles:</strong> If K-dramas are making you curious about Korea beyond the screen, <a href="https://www.amazon.com/Birth-Korean-Cool-Conquering-Through/dp/1250045118?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">The Birth of Korean Cool</a> explains why this catalogue exists at all — Korea built the export machine deliberately, and the book is the readable account of it.</p>
+  <a class="affiliate-cta-button" href="https://www.amazon.com/Birth-Korean-Cool-Conquering-Through/dp/1250045118?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">See The Birth of Korean Cool on Amazon</a>
 </div>
 
 ## FAQs About Korean Dramas on Netflix

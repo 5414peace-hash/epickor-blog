@@ -120,6 +120,7 @@ That is why Korea travels so well globally. It feels polished, but not empty. St
 
 <div class="affiliate-inline-cta">
   <p><strong>Bring the overview down to language:</strong> If Korea's history and culture make you want to understand everyday speech, compare <a href="https://www.amazon.com/dp/1838691537?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean phrasebooks</a> before relying only on subtitles.</p>
+  <a class="affiliate-cta-button" href="https://www.amazon.com/dp/1838691537?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">See Korean phrasebooks on Amazon</a>
 </div>
 
 ## FAQ

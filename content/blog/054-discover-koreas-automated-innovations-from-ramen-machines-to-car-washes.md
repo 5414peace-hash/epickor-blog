@@ -81,6 +81,7 @@ For visitors, the practical tips matter. Go at off-peak times if you hate lines.
 
 <div class="affiliate-inline-cta">
   <p><strong>Recreate the easy version at home:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. If Hangang ramyeon becomes your favorite Korea memory, compare a <a href="https://www.amazon.com/dp/B08G1CM3XX?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean ramen cooking pot</a> for a simple at-home version without pretending it replaces the river view.</p>
+  <a class="affiliate-cta-button" href="https://www.amazon.com/dp/B08G1CM3XX?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">See Korean ramen cooking pot on Amazon</a>
 </div>
 
 ## Kiosks: Helpful Until They Are Not
@@ -142,6 +143,7 @@ The more useful lesson is that Korean automation often turns chores into systems
 
 <div class="affiliate-inline-cta">
   <p><strong>Small Korea-tech travel helper:</strong> If your day depends on maps, kiosks, translation, and mobile payment, compare <a href="https://www.amazon.com/dp/B0CZ9M6X8Q?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">portable power banks</a> before a long Seoul route.</p>
+  <a class="affiliate-cta-button" href="https://www.amazon.com/dp/B0CZ9M6X8Q?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">See portable power banks on Amazon</a>
 </div>
 
 ## FAQ

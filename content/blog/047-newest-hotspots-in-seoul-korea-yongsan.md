@@ -54,6 +54,7 @@ If you are not a museum person, still consider walking the outdoor exhibition an
 
 <div class="affiliate-inline-cta">
   <p><strong>Worth comparing:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. Before a history-heavy Seoul day, <a href="https://www.amazon.com/Korea-History-Eugene-Y-Park/dp/1503629848?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korea: A History</a> makes the War Memorial, the palaces and the modern neighbourhoods legible as one sequence rather than three unrelated stops.</p>
+  <a class="affiliate-cta-button" href="https://www.amazon.com/Korea-History-Eugene-Y-Park/dp/1503629848?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">See Korea: A History on Amazon</a>
 </div>
 
 ## Understand Yongsan Park and the Returned-Site Story
@@ -113,6 +114,7 @@ If this is your first Seoul trip and you want maximum convenience for palaces, s
 
 <div class="affiliate-inline-cta">
   <p><strong>Pack lighter for a Yongsan walking day:</strong> A <a href="https://www.amazon.com/Repel-Windproof-Travel-Umbrella-Coating/dp/B0160HYB8S?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Repel windproof umbrella</a> and an <a href="https://www.amazon.com/dp/B0CZ9M6X8Q?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Anker 10,000mAh power bank</a> are the two that matter for this one — Yongsan Park is almost entirely open ground with no shelter, and the War Memorial is a two-hour phone-in-hand walk.</p>
+  <a class="affiliate-cta-button" href="https://www.amazon.com/Repel-Windproof-Travel-Umbrella-Coating/dp/B0160HYB8S?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">See Repel windproof umbrella on Amazon</a>
 </div>
 
 ## How to Get Around Yongsan

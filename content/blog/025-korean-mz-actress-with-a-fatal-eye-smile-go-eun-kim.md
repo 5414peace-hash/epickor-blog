@@ -85,6 +85,7 @@ If you enjoy this beauty angle, pair it with our [Korean skincare routine guide]
 
 <div class="affiliate-inline-cta">
   <p><strong>Natural K-beauty angle:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. If Kim Go-eun's understated screen image is what stands out, compare <a href="https://www.amazon.com/dp/B08FM5BTF6?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">ROUND LAB 1025 Dokdo Toner</a> as a simple Korean skincare starting point rather than trying to copy a celebrity face.</p>
+  <a class="affiliate-cta-button" href="https://www.amazon.com/dp/B08FM5BTF6?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">See ROUND LAB 1025 Dokdo Toner on Amazon</a>
 </div>
 
 ## What to Watch First
@@ -124,6 +125,7 @@ The more respectful reading is simple: Kim Go-eun is a strong actor whose public
 
 <div class="affiliate-inline-cta">
   <p><strong>The "natural" part is a routine, not a product:</strong> the barely-there finish Kim Go-eun is known for comes from hydration rather than coverage. <a href="https://www.amazon.com/dp/B07WZ2YTDP?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Torriden Dive-In hyaluronic acid serum</a> is the low-molecular version Korean users reach for under makeup — it is the dewy step, not a full skincare shelf.</p>
+  <a class="affiliate-cta-button" href="https://www.amazon.com/dp/B07WZ2YTDP?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">See Torriden Dive-In hyaluronic acid serum on Amazon</a>
 </div>
 
 ## Sources and Further Reading

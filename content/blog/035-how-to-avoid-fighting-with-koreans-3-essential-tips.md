@@ -57,6 +57,7 @@ Nunchi does not mean mind-reading. You can ask direct questions. The trick is to
 
 <div class="affiliate-inline-cta">
   <p><strong>Conversation safety net:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. If you want a few polite phrases before a trip, compare <a href="https://www.amazon.com/dp/1838691537?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean phrasebooks</a> so basic requests do not come out harsher than intended.</p>
+  <a class="affiliate-cta-button" href="https://www.amazon.com/dp/1838691537?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">See Korean phrasebooks on Amazon</a>
 </div>
 
 ## Honorifics, Banmal, and Why "Friendly" Can Sound Rude

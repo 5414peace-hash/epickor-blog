@@ -123,6 +123,7 @@ For travelers, respecting that complexity matters. Do not tell Koreans they shou
 
 <div class="affiliate-inline-cta">
   <p><strong>Language basics before sensitive topics:</strong> If you plan to ask Koreans about history, politics, or family memory, compare <a href="https://www.amazon.com/dp/1838691537?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean phrasebooks</a> first so your questions sound more respectful and less like a debate prompt.</p>
+  <a class="affiliate-cta-button" href="https://www.amazon.com/dp/1838691537?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">See Korean phrasebooks on Amazon</a>
 </div>
 
 ## FAQ

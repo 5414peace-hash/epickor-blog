@@ -167,6 +167,7 @@ That small structure teaches the real lesson of Korean dining. Banchan is not ab
 
 <div class="affiliate-inline-cta">
   <p><strong>Build a simple Korean table:</strong> If you cook at home, compare basics like <a href="https://www.amazon.com/dp/B004KUCK18?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">gochujang</a> and <a href="https://www.amazon.com/dp/B07BFQPCM6?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">ssamjang</a> before adding too many specialty sauces.</p>
+  <a class="affiliate-cta-button" href="https://www.amazon.com/dp/B004KUCK18?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">See gochujang on Amazon</a>
 </div>
 
 ![A table-level view of Korean side dishes, sauces, and shared plates.](/assets/images/posts/046/legacy-frame-02.jpg)

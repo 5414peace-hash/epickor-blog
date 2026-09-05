@@ -149,6 +149,7 @@ That is why "Korean table" content online can be misleading. A huge spread is be
 
 <div class="affiliate-inline-cta">
   <p><strong>Build the flavor base first:</strong> For home cooking, compare staples like <a href="https://www.amazon.com/dp/B004KUCK18?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">gochujang</a> and <a href="https://www.amazon.com/dp/B07BFQPCM6?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">ssamjang</a> before chasing rare ingredients.</p>
+  <a class="affiliate-cta-button" href="https://www.amazon.com/dp/B004KUCK18?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">See gochujang on Amazon</a>
 </div>
 
 ## Can Banchan Be a Meal?

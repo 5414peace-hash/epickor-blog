@@ -69,6 +69,7 @@ The key is that hoesik can mean very different things depending on the team. A f
 
 <div class="affiliate-inline-cta">
   <p><strong>Make office dinners easier to navigate:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. If you are joining a Korean workplace or long business trip, compare <a href="https://www.amazon.com/dp/1838691537?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean phrasebooks</a> and mark polite refusal, allergy, payment, and taxi phrases before your first hoesik.</p>
+  <a class="affiliate-cta-button" href="https://www.amazon.com/dp/1838691537?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">See Korean phrasebooks on Amazon</a>
 </div>
 
 ## Alcohol Culture: Social, Useful, and Risky
@@ -133,6 +134,7 @@ This does not mean Korea has become relaxed. Seoul still moves fast. Offices can
 
 <div class="affiliate-inline-cta">
   <p><strong>For late workdays and long commutes:</strong> Compare <a href="https://www.amazon.com/dp/B0CZ9M6X8Q?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">portable travel power banks</a> if you rely on maps, translation, payment apps, and ride-hailing after office dinners or late Seoul meetings.</p>
+  <a class="affiliate-cta-button" href="https://www.amazon.com/dp/B0CZ9M6X8Q?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">See portable travel power banks on Amazon</a>
 </div>
 
 ## Sources and Further Reading

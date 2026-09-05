@@ -21,6 +21,8 @@ This guide explains how to read Korean convenience store food, what those celebr
 ![A Korean convenience-store food visual from EpicKor's original package.](/assets/images/posts/059/9f4217c9-a783-4538-9de8-0ba4ece9a096.jpg)
 *Korean convenience stores are daily food infrastructure, not only snack stops.*
 
+<p class="affiliate-topline"><a href="https://www.amazon.com/dp/B0DVBW437W?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">50-piece Korean snack box — on Amazon</a><span class="affiliate-topline-note">Affiliate link. As an Amazon Associate, EpicKor earns from qualifying purchases at no extra cost to you.</span></p>
+
 ![A Korean convenience store lunch box with rice, meat and side compartments.](/assets/images/posts/059/convenience-store-lunchbox-01.jpg)
 
 *A convenience store dosirak. Rice, a main, and compartments of banchan — a full meal engineered for a microwave. Photo by Korea.net / Korean Culture and Information Service, CC BY-SA 2.0.*
@@ -62,6 +64,7 @@ That competition is good for travelers. It means you can often eat better from a
 
 <div class="affiliate-inline-cta">
   <p><strong>Worth comparing:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. If this guide makes you want a Korea-style snack drawer at home, a <a href="https://www.amazon.com/dp/B0DVBW437W?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">50-piece Korean snack box</a> is the honest shortcut, and it is cheaper per item than assembling the same shelf yourself.</p>
+  <a class="affiliate-cta-button" href="https://www.amazon.com/dp/B0DVBW437W?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">See 50-piece Korean snack box on Amazon</a>
 </div>
 
 ## Baek Jong-won: Why His Name Works on Convenience Food
@@ -176,6 +179,7 @@ Also skip the idea that one store represents all Korean convenience food. Produc
 
 <div class="affiliate-inline-cta">
   <p><strong>Recreate the easiest shelf first:</strong> Instead of chasing every viral product, <a href="https://www.amazon.com/dp/B0DH5MR3YP?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean seaweed snacks</a> or the <a href="https://www.amazon.com/OFood-Kitchen-Essentials-Ingredients-Assorted/dp/B0CJK27ZW4?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">O'Food kitchen essentials box</a> build a small, repeatable Korea-at-home shelf — one is the snack, the other is what turns rice into a dosirak.</p>
+  <a class="affiliate-cta-button" href="https://www.amazon.com/dp/B0DH5MR3YP?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">See Korean seaweed snacks on Amazon</a>
 </div>
 
 ## Why This Matters Culturally

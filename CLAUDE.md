@@ -88,7 +88,14 @@
 ## Amazon Affiliate Placement Rules
 
 - Every new or meaningfully updated blog post should include Amazon affiliate opportunities unless the representative explicitly says to omit them.
-- Default to two slim horizontal `.affiliate-inline-cta` boxes per monetized post: one in the middle body after the reader has enough context, and one later near a practical decision, packing, shopping, or next-step section.
+- **[2026-09-05 CTA 표준 — 대표님 지시로 확정. 이 항목이 아래 "중간 이후" 규칙보다 우선한다.]** 8월 이후 글에서 상단 링크가 86%→40%로 사라지고 첫 아마존 링크가 본문 14%→35% 지점으로 밀리며 검색 링크가 78%가 됐고, 조회는 늘었는데 아마존 클릭은 늘지 않았다(사이트 CTR 0.38%, 전환은 11.4%로 문제없음 — 병목은 클릭). 신규 글과 리프레시는 다음을 지킨다:
+  1. **상단 링크(`.affiliate-topline`)는 히어로 사진 바로 밑에 반드시 둔다.** 검색 링크가 아니라 **특정 상품**이어야 한다.
+  2. **첫 박스는 "첫 번째 결정 순간"에 둔다** — 보통 Quick Guide 직후나 첫 "무엇을 사나/챙기나" 섹션, 본문 **30% 이전**. 45% 뒤에 처음 나오는 박스는 반려 대상이다.
+  3. **박스는 카드다**: `<strong>상품명 — 한 줄 정체</strong>` + 왜 이것인지 한 줄 + 공시 + **버튼 하나**(`a.affiliate-cta-button`). 문단 속에 링크를 묻어 두는 에세이형 박스는 쓰지 않는다. 빌더는 `scripts/cta-lib.py`의 `card()`·`topline()`.
+  4. **검색 링크(`/s?k=`) 대신 상품 링크(`/dp/`)**. `content/data/amazon-links.json`에 없으면 등록하고 쓴다. 가격을 아는 상품은 "$X (Sep 2026)"를 카드에 적는다.
+  5. **필러 금지**: 글 주제와 무관한 파워뱅크·여권지갑으로 채우지 않는다. 주제의 물건이 없으면 박스 하나로 줄이고 그 이유를 적는다.
+  6. 위치별 효과는 GA4 `cta_context`(`topline`/`quickguide`/`box1`/`box2`/`inline`, 2026-09-05 신설)로 4~6주 뒤 판정한다. 그 전에는 위치를 다시 뒤로 밀지 않는다.
+- (구 규칙, 위 표준과 충돌 시 무효) Default to two slim horizontal `.affiliate-inline-cta` boxes per monetized post: one in the middle body after the reader has enough context, and one later near a practical decision, packing, shopping, or next-step section.
 - Do not use more than two visible CTA boxes in a normal article unless the representative approves it. Extra Amazon links, if needed, should stay as quiet contextual text links.
 - Use the most relevant product available in `content/data/amazon-links.json`. If no perfect product exists, use the closest useful Amazon link or search link and explain why it is still worth comparing.
 - CTA copy should create a reason to click without sounding like a hard sell: compare before a trip, build a simple kit, recreate the routine at home, or avoid buying the wrong item.

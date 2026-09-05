@@ -147,6 +147,7 @@ If someone asks why you are not drinking, a simple "I do not drink" or "I have a
 
 <div class="affiliate-inline-cta">
   <p><strong>Late-night table helper:</strong> A small <a href="https://www.amazon.com/dp/B08G1CM3XX?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean ramen cooking pot</a> makes the after-drinks noodle habit easier to recreate at home without turning the whole night into an alcohol ritual.</p>
+  <a class="affiliate-cta-button" href="https://www.amazon.com/dp/B08G1CM3XX?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">See Korean ramen cooking pot on Amazon</a>
 </div>
 
 ## Convenience Store Drink Reality

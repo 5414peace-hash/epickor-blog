@@ -76,6 +76,7 @@ For the table context, pair this guide with EpicKor's [Korean banchan guide](/bl
 
 <div class="affiliate-inline-cta">
   <p><strong>Kimchi curiosity at home:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. If Museum Kimchikan makes fermentation feel less abstract, compare <a href="https://www.amazon.com/dp/B0F4K5JK5S?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean kimchi stew with tofu</a> as an easy flavor entry point.</p>
+  <a class="affiliate-cta-button" href="https://www.amazon.com/dp/B0F4K5JK5S?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">See Korean kimchi stew with tofu on Amazon</a>
 </div>
 
 ## Kimjang: Why UNESCO Matters

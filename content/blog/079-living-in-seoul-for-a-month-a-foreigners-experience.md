@@ -122,6 +122,7 @@ If the stay makes you curious about why cost and work pressure feel so heavy for
 
 <div class="affiliate-inline-cta">
   <p><strong>For Seoul weather swings:</strong> A compact umbrella is one of the few items that helps in rain, sun, and surprise long walks. Compare <a href="https://www.amazon.com/dp/B0160HYB8S?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">compact travel umbrellas</a> before packing for a month in Korea.</p>
+  <a class="affiliate-cta-button" href="https://www.amazon.com/dp/B0160HYB8S?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">See compact travel umbrellas on Amazon</a>
 </div>
 
 ![Seoul daily-life and transit visual from EpicKor's original one-month stay package.](/assets/images/posts/079/legacy-frame-02.jpg)

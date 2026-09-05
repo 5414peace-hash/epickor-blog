@@ -135,6 +135,7 @@ Do not compare only ticket prices. Compare friction. A cheap flight to Jeju can 
 
 <div class="affiliate-inline-cta">
   <p><strong>Keep documents and tickets sane:</strong> For multi-city Korea travel, compare <a href="https://www.amazon.com/dp/B075L5QVJG?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">travel document organizers</a> for passports, rail tickets, SIM notes, receipts, and booking printouts before bouncing between airports and train stations.</p>
+  <a class="affiliate-cta-button" href="https://www.amazon.com/dp/B075L5QVJG?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">See travel document organizers on Amazon</a>
 </div>
 
 ## Quick Recommendation

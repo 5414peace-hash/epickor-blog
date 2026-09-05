@@ -82,6 +82,7 @@ Ask before ordering shared food, alcohol, or a second round. Korea's dining cult
 
 <div class="affiliate-inline-cta">
   <p><strong>Learn phrases that reduce friction:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. A compact <a href="https://www.amazon.com/dp/1838691537?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean phrasebook</a> can help with menus, meeting points, and polite clarification; use it to communicate, not to perform canned pickup lines.</p>
+  <a class="affiliate-cta-button" href="https://www.amazon.com/dp/1838691537?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">See Korean phrasebook on Amazon</a>
 </div>
 
 ## Messaging on KakaoTalk Without Playing Read-Receipt Games
