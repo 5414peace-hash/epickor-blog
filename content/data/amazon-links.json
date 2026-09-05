@@ -3221,6 +3221,34 @@
         "Taekwondo",
         "Dobok"
       ]
+    },
+    {
+      "id": "peace-k305-kitchen-scissors",
+      "name": "Peace K-305 Korean Kitchen Scissors, Made in Korea",
+      "description": "The 피스코리아 K-305: stainless, one serrated blade, the domestic standard shape. Sold on Amazon as Made in Korea.",
+      "price": "",
+      "url": "https://www.amazon.com/dp/B01FJMAVZC?tag=epickor-20",
+      "category": "Kitchen",
+      "image": "",
+      "tags": [
+        "Kitchen Scissors",
+        "Korean BBQ",
+        "Made in Korea"
+      ]
+    },
+    {
+      "id": "korean-bbq-scissors-made-in-korea-4",
+      "name": "Korean BBQ Scissors, Made in Korea (4-pack)",
+      "description": "Restaurant-style Korean BBQ scissors sold as a four-pack, the shape used at BBQ chains in Korea.",
+      "price": "",
+      "url": "https://www.amazon.com/dp/B096TC56H5?tag=epickor-20",
+      "category": "Kitchen",
+      "image": "",
+      "tags": [
+        "Kitchen Scissors",
+        "Korean BBQ",
+        "Made in Korea"
+      ]
     }
   ]
 }
