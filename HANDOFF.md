@@ -10,7 +10,7 @@
 4. Read only files named under Active Work or the user request.
 5. Search the archive narrowly with `rg` only for a specific slug, decision, or incident.
 
-## Current Snapshot - 2026-09-05 (신규 `440`·`441`·`442` 발행 · 리프레시 `200` · NEWSDESK 3편 예약 + 004 대기 · 달력 09-30까지)
+## Current Snapshot - 2026-09-06 (신규 `440`~`444` 5편 발행 · 리프레시 `200` · NEWSDESK 3편 예약 + 004 대기 · 달력 09-30까지)
 
 > 직전 스냅샷(릴스 4편 예약)은 `docs/handoff/2026-09-04_snapshot-log-reels-4-scheduled.md`.
 > 수치·규칙은 전부 FACTS에 있다 — **먼저 `node scripts/handoff.mjs facts`.**
@@ -47,6 +47,10 @@
 
 - **[2026-09-05] 신규 `441` 발행** — *Do Koreans Speak English? Ask Someone Under 35*. 대표님 구술 앵글("못하는 게 아니라 누구에게 묻느냐, 세대의 문제, 최근에 많이 바뀜")로
   씀. 1997년 초등 3학년 영어 의무화 → 1988년생(올해 38)이 선. 데이터는 보조. 역링크 `440`·`222`·`068`. 리뷰어 100/100, 3,221단어.
+- **[2026-09-06] 신규 `444` 발행** — *Korean Kitchen Scissors: Why Koreans Cut Meat and Noodles at the Table, and Why It Is Not an Office Scissor*.
+  대표님 구술("사무용 가위가 아닌 걸 아는지, 얼마나 실용적인지"). **`022`(2024, 가위+숙취음료 혼합, 클릭 0)의 리트레드로 라벨** — URL 규칙대로 `022`는 그대로 두고 `022→444` 링크.
+  핵심 층: 1985년 조선·동아일보 위생 논쟁(가위를 없애지 않고 고쳤다) · 해부 표(톱니·분리형 피벗·식품용 강) · 다이소 ₩3,000/오복 No.104/피스 K-305 가격.
+  역링크 `022`·`145`·`443`. 리뷰어 100/100, 3,137단어. 아마존 링크 DB에 국산 가위 2종 추가(216개). 이미지 3장(Pexels 18936008·Commons CC BY-SA 4.0·다이소 제품컷).
 - **[2026-09-06] 신규 `443` 발행** — *The One Korean Food Foreigners Never Learn to Love: Hamheung Naengmyeon*. 대표님이 쇼츠(지식쇼츠, 83만 회)와 앵글을 주심:
   한국인은 호불호가 없는데 외국인만 못 넘는 음식. 대표님 지시로 "따뜻한 한 끼=계층" 해석은 삭제. `145` 스핀오프, 역링크 `145`·`440`. 새 CTA 표준 적용 1호 글.
 - **[2026-09-05] 아마존 CTA 표준 도입(대표님 지시)** — 8월 이후 상단 링크 86→40%, 첫 링크 14→35% 지점, 검색 링크 78%가 실측됐다.
@@ -191,6 +195,9 @@
 - Verify local build/render, public pages, all local assets, sitemap, and reverse links once each unless a failure appears.
 
 ## Recent Change
+
+- **2026-09-06 — 신규 `444` 식용가위 발행(대표님 구술 5편째), `022` 리트레드 라벨.** 1985년 신문 위생 논쟁이 영어권에 없는 층.
+  다이소·오복·피스코리아 가격 3종, 역링크 3개, 발행과 동시에 걸었다.
 
 - **2026-09-04 — 릴스 4편 예약(09-25~09-28), 그리고 릴스 스크립트의 캡션 회전 결함을 사전 차단.**
   대표님 DOSSIER 3편 컨펌 → 동묘 파일럿과 함께 하루 1편씩. 달력 **09-05~09-28 24일 연속, 빈 날 0**.
