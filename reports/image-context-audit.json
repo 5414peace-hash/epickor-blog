@@ -1,10 +1,10 @@
 {
   "summary": {
-    "generatedAt": "2026-09-05T04:05:04.060Z",
-    "auditedPosts": 439,
+    "generatedAt": "2026-09-05T12:31:52.437Z",
+    "auditedPosts": 440,
     "includedPrivate": false,
     "slugFilter": "",
-    "bodyImages": 1555,
+    "bodyImages": 1559,
     "affectedPosts": 96,
     "critical": 0,
     "high": 0,
@@ -15894,6 +15894,45 @@
           "url": "/assets/images/posts/441/hongdae-night-crossing.jpg",
           "alt": "A night-time crossing in Hongdae, Seoul, with young people waiting at the lights under neon signs and a large screen.",
           "caption": "Hongdae after dark. If you need directions here, the person beside you at the lights is the one to ask. Photo by Sgroey, CC BY-SA 4.0, via Wikimedia Commons.",
+          "ext": ".jpg",
+          "exists": true
+        }
+      ],
+      "findings": []
+    },
+    {
+      "type": "blog",
+      "slug": "442",
+      "title": "Why Do Koreans Stare at Foreigners? The 5% Country, and Where the Looking Actually Happens",
+      "contentPath": "content\\blog\\442.md",
+      "sourceRecord": "public\\assets\\images\\posts\\442\\image-sources.md",
+      "imageCount": 4,
+      "images": [
+        {
+          "url": "/assets/images/posts/442/jagalchi-market-busan.jpg",
+          "alt": "A fish market in Busan, vendors in aprons behind counters and shoppers moving between the stalls under bright lights.",
+          "caption": "Jagalchi Market, Busan. This is the kind of place where you will be looked at — and where the look is closest to a welcome. Photo by bryan…, CC BY-SA 2.0, via Wikimedia Commons.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/442/itaewon-street-summer.jpg",
+          "alt": "A street in Itaewon, Seoul, on a summer evening, low brick buildings with a shop sign reading OTTO and the hill rising behind.",
+          "caption": "Itaewon. A foreign face here is the least remarkable thing on the street. Photo by Aatu Dorochenko, CC BY-SA 4.0, via Wikimedia Commons.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/442/andong-market-inside.jpg",
+          "alt": "Inside a covered traditional market in Andong, shoppers and vendors under a high roof strung with signs.",
+          "caption": "Andong Market. In a provincial market you will be looked at from the moment you walk in, and by the time you leave someone will have decided you are theirs. Photo by Julie from Seoul, CC BY-SA 2.0, via Wikimedia Commons.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/442/yokjido-rural-bus-stop.jpg",
+          "alt": "A rural bus stop on a coastal road on Yokjido island, empty road, sea and small islands beyond.",
+          "caption": "Yokjido, off the south coast. The bus that stops here carries the people who will look at you longest, and who will most want to know where you are from. Photo by Pranay chakraborty 2004, CC BY 4.0, via Wikimedia Commons.",
           "ext": ".jpg",
           "exists": true
         }
