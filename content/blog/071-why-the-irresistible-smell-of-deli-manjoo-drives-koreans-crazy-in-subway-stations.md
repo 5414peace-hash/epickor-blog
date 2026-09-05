@@ -13,6 +13,8 @@ author: "EpicKor"
 
 ![Deli Manjoo Korean subway snack video thumbnail from EpicKor](/assets/images/posts/071/64a29764-bfc3-47d6-a963-4ed11f271548.png)
 
+<p class="affiliate-topline"><a href="https://www.amazon.com/dp/B0FYC15DB1?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">The closest thing that ships: Korean custard cake (카스타드), 12-pack — on Amazon</a><span class="affiliate-topline-note">Affiliate link. As an Amazon Associate, EpicKor earns from qualifying purchases at no extra cost to you.</span></p>
+
 What is **Deli Manjoo** — or **Delimanjoo**, which is how the brand itself writes it?
 
 Simply put, Deli Manjoo is a warm Korean snack shaped like a tiny ear of corn and filled with sweet custard cream. You often find it in subway stations, near bus terminals, or in places where commuters are moving fast and suddenly get ambushed by the smell of hot vanilla cake.
@@ -42,11 +44,6 @@ The best version has three things working together:
 It is not a complicated dessert. That is part of its charm. It is the kind of snack you can eat while walking, standing near a subway exit, or waiting for a friend who is late.
 
 For visitors, Deli Manjoo can feel like a Korean street-food cousin of taiyaki, imagawayaki, or small custard cakes. The difference is the corn shape, the subway setting, and the very specific smell that makes it almost impossible to ignore.
-
-<div class="affiliate-inline-cta">
-  <p><strong>Korean snack note:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. Deli Manjoo is best fresh from a station kiosk, but <a href="https://www.amazon.com/dp/B07VQF4N85?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Korean honey yakgwa</a> is a better shelf-stable sweet if you want a small Korea-style tea snack at home.</p>
-  <a class="affiliate-cta-button" href="https://www.amazon.com/dp/B07VQF4N85?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">See it on Amazon</a>
-</div>
 
 ---
 
@@ -142,6 +139,11 @@ The setting is part of the flavor.
 
 </div>
 
+<div class="affiliate-inline-cta">
+  <p><strong>Orion custard cake (카스타드), 12-pack — the sponge-and-custard combination Deli Manjoo is chasing, in a box that travels.</strong> Deli Manjoo is best hot from a kiosk and does not survive a suitcase; this is the same flavour, softer and colder, no corn shape. We compare the two Korean brands in our <a href="/blog/411">custard cake guide</a>. <em>As an Amazon Associate, EpicKor earns from qualifying purchases at no extra cost to you.</em></p>
+  <a class="affiliate-cta-button" href="https://www.amazon.com/dp/B0FYC15DB1?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">See the custard cake on Amazon</a>
+</div>
+
 ## How to Eat Deli Manjoo
 
 Eat it warm if you can.
@@ -186,12 +188,8 @@ Some fans also like it after cooling down or even frozen, but for a first try, w
 The closest relative is seasonal rather than year-round: [bungeoppang (붕어빵)](/blog/416), the fish-shaped winter cart pastry, runs the same hot-iron-mould logic and splits its fans between red bean and the identical 슈크림 custard filling. For another Korean snack culture guide, see EpicKor's article on [Korean snacks and texture culture](/blog/029). If the old-but-new dessert angle interests you, the [yakgwa guide](/blog/128) explains how a traditional honey cookie became a modern Gen Z cafe and convenience-store trend. For a more everyday morning version of this grab-and-go logic, read the guide to [Korean convenience store breakfast](/blog/171). If you want to recreate the snack break at home rather than chase the station kiosk, pair it with the [Korean instant coffee mix guide](/blog/278), the [Korean tea and grain drinks guide](/blog/280), or the broader [Korean pantry starter kit](/blog/277).
 
 <div class="affiliate-inline-cta">
-  <p><strong>For the people who searched "deli manjoo recipe":</strong> the honest news is that no home pan makes the little corn shape — that mold is commercial. What home bakers actually use is a <a href="https://www.amazon.com/Bellemain-12-Cup-Nonstick-Madeleine-Pan/dp/B00L5HCVSG?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">12-cavity madeleine pan</a>: same small-batch batter, same custard-filling technique, shell-shaped instead of corn-shaped. Fill each well halfway, drop in a teaspoon of custard, cover, and bake — the station smell is mostly vanilla and butter, and that part transfers. As an Amazon Associate, EpicKor may earn from qualifying purchases at no extra cost to you.</p>
-</div>
-
-<div class="affiliate-inline-cta">
-  <p><strong>The closest shelf-stable thing is a custard cake:</strong> Deli Manjoo is best hot from a kiosk and does not travel, but the sponge-and-custard combination is the same one Korea sells in a box as <a href="https://www.amazon.com/dp/B0FYC15DB1?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">카스타드, custard cake</a> — softer, colder, no corn shape, but the flavour it is chasing. Better than an unrelated mixed snack box, and we compare the two Korean brands in our <a href="/blog/411">custard cake guide</a>.</p>
-  <a class="affiliate-cta-button" href="https://www.amazon.com/dp/B0FYC15DB1?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">See it on Amazon</a>
+  <p><strong>Bellemain 12-cavity madeleine pan — for the people who searched "deli manjoo recipe".</strong> No home pan makes the little corn shape; that mould is commercial. Home bakers use a madeleine pan: fill each well halfway, drop in a teaspoon of custard, cover, bake. The station smell is mostly vanilla and butter, and that part transfers. <em>As an Amazon Associate, EpicKor earns from qualifying purchases at no extra cost to you.</em></p>
+  <a class="affiliate-cta-button" href="https://www.amazon.com/dp/B00L5HCVSG?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">See the madeleine pan on Amazon</a>
 </div>
 
 ---

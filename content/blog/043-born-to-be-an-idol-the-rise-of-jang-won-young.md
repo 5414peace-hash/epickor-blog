@@ -70,8 +70,8 @@ It is not deep philosophy in the academic sense. It is an aesthetic coping strat
 That is why it works online. It is short enough for a caption, cute enough for TikTok, and emotionally useful enough for fans to repeat when something annoying happens.
 
 <div class="affiliate-inline-cta">
-  <p><strong>Wonyoungism routine note:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. If the appeal is a softer, more polished daily routine, compare <a href="https://www.amazon.com/dp/B08FM5BTF6?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">ROUND LAB 1025 Dokdo Toner</a> as one simple K-beauty step rather than chasing a whole viral shelf.</p>
-  <a class="affiliate-cta-button" href="https://www.amazon.com/dp/B08FM5BTF6?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">See it on Amazon</a>
+  <p><strong>ROUND LAB 1025 Dokdo Toner — one simple K-beauty step, rather than a whole viral shelf.</strong> If the appeal of Wonyoungism is a softer, more polished daily routine, this is the toner Koreans pour onto pads every morning; it is the single most sensible first step. <em>As an Amazon Associate, EpicKor earns from qualifying purchases at no extra cost to you.</em></p>
+  <a class="affiliate-cta-button" href="https://www.amazon.com/dp/B08FM5BTF6?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">See the Dokdo toner on Amazon</a>
 </div>
 
 ---
@@ -121,8 +121,8 @@ That combination is powerful. A Wonyoung outfit is not just "what she wore." It 
 This is where Wonyoungism and fashion meet. The philosophy says, "I will frame my life beautifully." The fashion image shows what that frame might look like.
 
 <div class="affiliate-inline-cta">
-  <p><strong>The look starts with skin, not clothes:</strong> what fans copy from Wonyoung is a lit-from-within finish, and in Korea that is built by layering thin hydrating steps rather than heavier makeup. <a href="https://www.amazon.com/dp/B00PBX3L7K?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">COSRX Advanced Snail 96 Mucin Essence</a> is the single most-bought entry point to that routine — cheap enough to test, and the step most Western routines are missing.</p>
-  <a class="affiliate-cta-button" href="https://www.amazon.com/dp/B00PBX3L7K?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">See it on Amazon</a>
+  <p><strong>COSRX Advanced Snail 96 Mucin Essence — the most-bought entry point to the lit-from-within finish.</strong> What fans copy from Wonyoung is skin, not clothes, and in Korea that is built by layering thin hydrating steps rather than heavier makeup. Cheap enough to test in a month. <em>As an Amazon Associate, EpicKor earns from qualifying purchases at no extra cost to you.</em></p>
+  <a class="affiliate-cta-button" href="https://www.amazon.com/dp/B00PBX3L7K?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">See the snail essence on Amazon</a>
 </div>
 
 ---

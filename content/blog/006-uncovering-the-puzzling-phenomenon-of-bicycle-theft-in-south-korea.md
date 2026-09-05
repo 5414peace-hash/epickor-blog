@@ -68,7 +68,8 @@ The lock should connect the frame to a fixed rack, not only the wheel to itself.
 Remove accessories. Lights, phone mounts, saddle bags, helmets, and delivery baskets can disappear even when the bike remains. If you use an e-bike, take the battery indoors when the design allows it and follow the manufacturer's safety instructions.
 
 <div class="affiliate-inline-cta">
-  <p><strong>Bike-in-Korea practical pick:</strong> As an Amazon Associate, EpicKor may earn from qualifying purchases. If you plan to park a private bike in Seoul, compare <a href="https://www.amazon.com/dp/B07997TJDB?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Kryptonite’s New York U-lock</a> before relying on a thin cable in a station rack.</p>
+  <p><strong>Kryptonite New York U-lock — the answer to the one exception in Korea's public trust.</strong> If you park a private bike in Seoul, a thin cable in a station rack is the souvenir lock this article warns about; this is the lock that makes the bike not worth the effort. <em>As an Amazon Associate, EpicKor earns from qualifying purchases at no extra cost to you.</em></p>
+  <a class="affiliate-cta-button" href="https://www.amazon.com/dp/B07997TJDB?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">See the New York U-lock on Amazon</a>
 </div>
 
 ## Where to Park in Seoul
@@ -111,7 +112,8 @@ Third, gather proof:
 Then contact police through the appropriate channel or visit a local police station if you need help in person. For language support, the Korea Travel Helpline 1330 can help visitors navigate tourist issues and interpretation, but theft itself belongs with police.
 
 <div class="affiliate-inline-cta">
-  <p><strong>Small lock, fewer regrets:</strong> For a helmet, rental accessory, or very short daytime stop, compare a <a href="https://www.amazon.com/dp/B078HTBSY6?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Kryptonite Keeper 712 combination chain</a> as a secondary layer, not as your only protection for a private bike.</p>
+  <p><strong>Kryptonite Keeper 712 combination chain — the secondary layer for helmets, accessories and short daytime stops.</strong> Paired with the U-lock, not instead of it: a chain through the wheel and helmet is what stops the small losses that never get reported. <em>As an Amazon Associate, EpicKor earns from qualifying purchases at no extra cost to you.</em></p>
+  <a class="affiliate-cta-button" href="https://www.amazon.com/dp/B078HTBSY6?tag=epickor-20" target="_blank" rel="nofollow sponsored noopener noreferrer">See the Keeper chain on Amazon</a>
 </div>
 
 ## Used Bikes, Resale Apps, and Red Flags
