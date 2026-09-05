@@ -10,10 +10,15 @@
 4. Read only files named under Active Work or the user request.
 5. Search the archive narrowly with `rg` only for a specific slug, decision, or incident.
 
-## Current Snapshot - 2026-09-05 (신규 `440` 발행 · NEWSDESK 3편 전부 예약 · 달력 09-30까지)
+## Current Snapshot - 2026-09-05 (신규 `440`·`441`·`442` 발행 · 리프레시 `200` · NEWSDESK 3편 예약 + 004 대기 · 달력 09-30까지)
 
 > 직전 스냅샷(릴스 4편 예약)은 `docs/handoff/2026-09-04_snapshot-log-reels-4-scheduled.md`.
 > 수치·규칙은 전부 FACTS에 있다 — **먼저 `node scripts/handoff.mjs facts`.**
+
+**오늘 신규 3편 발행: `440` 냉담 · `441` 영어 · `442` 시선 — 전부 대표님 구술 앵글, 전부 "인식 격차" 클러스터(`319` 정 포함 4편).**
+`441`은 대표님이 "정량 데이터보다 실제로 젊은 사람은 대답을 잘한다, 세대 문제다"로 방향을 바꿔 주셨고,
+`442`는 대표님 "재검토" 지시로 **지어낸 독자 편지 삭제·차별금지법 부재 정정·다누리 성격 정정·인권위 2020 출처 추가** 후 발행.
+**앞으로 신규 글의 자기점검 항목: ① 있지도 않은 독자 편지/증언을 쓰지 않았나 ② 법·제도 서술이 실제 법 상태와 맞나.**
 
 **신규 `440` 발행 (2026-09-05, `fa456300`, 라이브 200).** *Why Koreans Seem Cold to Foreigners* —
 대표님이 유튜브 쇼츠와 구술로 준 앵글("한국인은 이렇게 생각하고 외국인은 이렇게 생각한다, 그 간극")에서
