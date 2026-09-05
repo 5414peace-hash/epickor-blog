@@ -1,10 +1,10 @@
 {
   "summary": {
-    "generatedAt": "2026-09-05T12:31:52.437Z",
-    "auditedPosts": 440,
+    "generatedAt": "2026-09-05T15:09:52.297Z",
+    "auditedPosts": 441,
     "includedPrivate": false,
     "slugFilter": "",
-    "bodyImages": 1559,
+    "bodyImages": 1563,
     "affectedPosts": 96,
     "critical": 0,
     "high": 0,
@@ -5689,7 +5689,7 @@
         {
           "url": "/assets/images/posts/156/condenser-microphones-studio.jpg",
           "alt": "Three condenser microphones on stands arranged in a recording studio.",
-          "caption": "Everything in a beatpella recording comes out of a mouth and into a microphone. There is no drum machine anywhere in the chain. Photo by Andreu Marquès, Pexels.",
+          "caption": "",
           "ext": ".jpg",
           "exists": true
         },
@@ -6219,7 +6219,7 @@
         {
           "url": "/assets/images/posts/171/korean-convenience-store-breakfast.jpg",
           "alt": "A convenience store fridge in Seoul filled with Korean drinks.",
-          "caption": "A Korean convenience store drink fridge can become part of a very normal breakfast plan. Photo by Theodore Nguyen on Pexels.",
+          "caption": "",
           "ext": ".jpg",
           "exists": true
         },
@@ -6250,7 +6250,7 @@
         {
           "url": "/assets/images/posts/172/pexels-34688717.jpg",
           "alt": "Diverse selection of Korean BBQ meats and sides on an indoor restaurant table.",
-          "caption": "Korean BBQ is built around shared meat, side dishes, sauces, and table rhythm. Photo from Pexels.",
+          "caption": "",
           "ext": ".jpg",
           "exists": true
         },
@@ -6288,7 +6288,7 @@
         {
           "url": "/assets/images/posts/173/scene-01-rank-01.jpg",
           "alt": "Olive Young Myeongdong Town Store, one of the clearest symbols of Korea's new tourist shopping route.",
-          "caption": "Korea's new tourist shopping route is shifting from classic duty-free stops to everyday retail streets like Olive Young, Daiso, and Musinsa.",
+          "caption": "",
           "ext": ".jpg",
           "exists": true
         },
@@ -6424,7 +6424,7 @@
         {
           "url": "/assets/images/posts/176/jjimjilbang-interior-203842.jpg",
           "alt": "A real Korean jjimjilbang interior with Korean signs, bath-area entrances, and shared facility space.",
-          "caption": "The Korean signs, bath-area entrances and shared floor space show how a jjimjilbang separates its wet and common zones. Photo by Choikwangmo9 via Wikimedia Commons, CC0.",
+          "caption": "",
           "ext": ".jpg",
           "exists": true
         },
@@ -10158,7 +10158,7 @@
         {
           "url": "/assets/images/posts/274/lol-park-stadium.jpg",
           "alt": "The LoL Park esports arena in Seoul during a League of Legends match, with players on stage, screens, and a full audience.",
-          "caption": "450 seats in a half-circle around the stage. The size is why it feels like this, and why the tickets behave the way they do. Image: Wikimedia Commons / CC BY-SA 4.0.",
+          "caption": "",
           "ext": ".jpg",
           "exists": true
         },
@@ -10190,7 +10190,7 @@
         {
           "url": "/assets/images/posts/275/yongsan-electronics-camera-signs-seoul-data.jpg",
           "alt": "Aerial view of the Yongsan Electronics Market district in Seoul, low commercial blocks covered in Korean electronics and brand signage.",
-          "caption": "The Yongsan electronics district at its peak density. Several of the blocks in this frame no longer stand. Image: Seoul Research Data Service / KOGL Type 1 / CC BY 4.0.",
+          "caption": "",
           "ext": ".jpg",
           "exists": true
         },
@@ -15053,7 +15053,7 @@
         {
           "url": "/assets/images/posts/420/incheon-t2-korean-air-checkin.jpg",
           "alt": "Korean Air check-in counters at Incheon Airport Terminal 2, with blue KOREAN AIR signage above a row of desks and passengers queueing behind stanchions.",
-          "caption": "Incheon Terminal 2 — the building the whole industry is consolidating into. Asiana moved its operations here on 14 January 2026, putting all five Hanjin Group carriers under one roof ahead of the merger. Photo by Narubaru7 via Wikimedia Commons, CC BY 4.0.",
+          "caption": "",
           "ext": ".jpg",
           "exists": true
         },
@@ -15092,7 +15092,7 @@
         {
           "url": "/assets/images/posts/421/gimhae-international-terminal.jpg",
           "alt": "The international departure hall at Gimhae Airport in Busan, with check-in counters along the right-hand wall and passengers crossing the floor with luggage.",
-          "caption": "Gimhae's international terminal in Busan — Korea's number two international gateway, with 39 licensed international routes against Incheon's 155. Photo via Wikimedia Commons, CC BY-SA 4.0.",
+          "caption": "",
           "ext": ".jpg",
           "exists": true
         },
@@ -15933,6 +15933,45 @@
           "url": "/assets/images/posts/442/yokjido-rural-bus-stop.jpg",
           "alt": "A rural bus stop on a coastal road on Yokjido island, empty road, sea and small islands beyond.",
           "caption": "Yokjido, off the south coast. The bus that stops here carries the people who will look at you longest, and who will most want to know where you are from. Photo by Pranay chakraborty 2004, CC BY 4.0, via Wikimedia Commons.",
+          "ext": ".jpg",
+          "exists": true
+        }
+      ],
+      "findings": []
+    },
+    {
+      "type": "blog",
+      "slug": "443",
+      "title": "The One Korean Food Foreigners Never Learn to Love: Hamheung Naengmyeon, and Why Koreans Can't See the Problem",
+      "contentPath": "content\\blog\\443.md",
+      "sourceRecord": "public\\assets\\images\\posts\\443\\image-sources.md",
+      "imageCount": 4,
+      "images": [
+        {
+          "url": "/assets/images/posts/443/hamheung-bibim-naengmyeon.jpg",
+          "alt": "A stainless bowl of Hamheung-style bibim naengmyeon: translucent starch noodles under a glossy mound of red sauce, sliced egg and spring onion.",
+          "caption": "The bowl in question. Translucent starch noodles, a sweet-hot sauce, and a temperature that makes no sense to most of the world. Photo by chomjong, CC BY 2.0, via Wikimedia Commons.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/443/hoe-naengmyeon-raw-fish.jpg",
+          "alt": "A bowl of hoe naengmyeon, the Hamheung original: cold starch noodles under marinated raw fish in red sauce, sliced egg and cucumber.",
+          "caption": "회냉면 — the form Hamheung refugees actually brought south: starch noodles, marinated raw fish, sweet-hot sauce. The bibim version most tourists meet is this without the fish. Photo by Jinho Jung, CC BY 2.0, via Wikimedia Commons.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/443/mul-naengmyeon-sokcho.jpg",
+          "alt": "A bowl of mul-naengmyeon in Sokcho: dark buckwheat noodles in clear iced broth with cucumber, pear and half an egg.",
+          "caption": "The other bowl, in Sokcho — the city where Hamheung refugees opened the first shop. Clear broth, soft noodle, one unfamiliar idea instead of three. Foreigners rate this one \"okay\". Photo by Mobius6, CC BY-SA 4.0, via Wikimedia Commons.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/443/naengmyeon-sari-noodles.jpg",
+          "alt": "A bowl of plain naengmyeon-sari, the extra portion of cold noodles served on its own, on a dark table.",
+          "caption": "사리 — the extra noodles, on their own. This is the part of the bowl foreigners describe as tasting of nothing and Koreans order more of. Photo by Jirka Matousek, CC BY 2.0, via Wikimedia Commons.",
           "ext": ".jpg",
           "exists": true
         }
