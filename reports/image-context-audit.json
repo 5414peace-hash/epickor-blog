@@ -1,10 +1,10 @@
 {
   "summary": {
-    "generatedAt": "2026-09-04T15:00:38.034Z",
-    "auditedPosts": 438,
+    "generatedAt": "2026-09-05T04:05:04.060Z",
+    "auditedPosts": 439,
     "includedPrivate": false,
     "slugFilter": "",
-    "bodyImages": 1551,
+    "bodyImages": 1555,
     "affectedPosts": 96,
     "critical": 0,
     "high": 0,
@@ -7352,8 +7352,8 @@
         },
         {
           "url": "/assets/images/posts/200/seoul-station-holiday-travel.jpg",
-          "alt": "Travelers waiting at a Seoul station platform, representing the transport pressure tourists need to plan around before Chuseok.",
-          "caption": "Chuseok travel is won or lost before you reach the station. Book transfers early or keep the route local. Photo by Theodore Nguyen on Pexels.",
+          "alt": "A traveller with a red suitcase waiting on the platform at Anguk station on Seoul Metro Line 3, the station sign reading 안국.",
+          "caption": "Anguk station, Line 3 — the stop for Gyeongbokgung and Bukchon. The subway keeps running through Chuseok; it is the intercity leg that is won or lost before you reach the platform. Photo by Theodore Nguyen on Pexels.",
           "ext": ".jpg",
           "exists": true
         },
@@ -15855,6 +15855,45 @@
           "url": "/assets/images/posts/440/myeongdong-night-crowd.jpg",
           "alt": "A dense night-time crowd of shoppers and tourists filling a Myeongdong street in Seoul, neon shop signs on both sides.",
           "caption": "Myeongdong at night. Korea from the first survey — the one 82% of the world likes. The second survey starts the day you stop being a visitor. Photo by ProjectManhattan, CC BY-SA 3.0, via Wikimedia Commons.",
+          "ext": ".jpg",
+          "exists": true
+        }
+      ],
+      "findings": []
+    },
+    {
+      "type": "blog",
+      "slug": "441",
+      "title": "Do Koreans Speak English? Ask Someone Under 35 — What Actually Happens on a Seoul Street",
+      "contentPath": "content\\blog\\441.md",
+      "sourceRecord": "public\\assets\\images\\posts\\441\\image-sources.md",
+      "imageCount": 4,
+      "images": [
+        {
+          "url": "/assets/images/posts/441/hongdae-street-crowd.jpg",
+          "alt": "A busy pedestrian street in Hongdae, Seoul, full of people in their twenties walking between shops on a summer afternoon.",
+          "caption": "Hongdae on a summer afternoon. Every person in this frame started English at nine. Photo by U0894629, CC BY-SA 4.0, via Wikimedia Commons.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/441/sinchon-station-exit-sign.jpg",
+          "alt": "The Sinchon station exit sign at night, with the station name in Korean, English and Chinese and the exit number 7.",
+          "caption": "Sinchon, Seoul Metro Line 2. Every exit in the city is numbered and every station name is written in three scripts — the subway was built for a visitor who reads no Korean. Photo by 阿貴, CC BY-SA 3.0, via Wikimedia Commons.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/441/myeongdong-tourist-call-center.jpg",
+          "alt": "The Korea Tourist Police booth outside the Myeongdong Tourist Information Center, with a sign reading Tourist Call Center and a welcome message in Korean, English, Chinese and Japanese.",
+          "caption": "The Tourist Police booth at the Myeongdong information centre. Multilingual by design; the staff inside are the age group this guide is about. Public domain photo by Abasaa via Wikimedia Commons.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/441/hongdae-night-crossing.jpg",
+          "alt": "A night-time crossing in Hongdae, Seoul, with young people waiting at the lights under neon signs and a large screen.",
+          "caption": "Hongdae after dark. If you need directions here, the person beside you at the lights is the one to ask. Photo by Sgroey, CC BY-SA 4.0, via Wikimedia Commons.",
           "ext": ".jpg",
           "exists": true
         }

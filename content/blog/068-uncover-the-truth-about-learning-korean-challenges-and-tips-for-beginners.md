@@ -68,7 +68,7 @@ English speakers often ask why Korean has so many endings. One answer is that Ko
 
 This is where beginners get humbled. A sentence can be grammatically correct and still socially odd. A drama line can sound too intimate. A textbook sentence can sound stiff. A direct translation from English can sound pushy because Korean often softens requests or leaves context implied.
 
-That does not mean you need to become perfect before speaking. It means your study plan should include social listening, not only vocabulary. Notice who is talking, where they are, how close they are, and what ending they use.
+That does not mean you need to become perfect before speaking. It means your study plan should include social listening, not only vocabulary. Notice who is talking, where they are, how close they are, and what ending they use. And do not assume you need Korean to be understood in the first place: on a Seoul street, [most Koreans under 35 will answer you in English](/blog/441) — a little Korean is what turns that from help into warmth.
 
 ## Honorifics and Speech Levels, Simply Explained
 
