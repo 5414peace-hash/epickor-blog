@@ -80,6 +80,33 @@ interface AgodaAffiliateEventParams {
   page_path: string;
 }
 
+/**
+ * Where on the page the affiliate link sits. Registered GA4 dimension `cta_context`
+ * used to carry only two values (inside a box / not), which cannot answer the
+ * question the representative asked on 2026-09-05: do links placed earlier get
+ * clicked more? Values now:
+ *   topline      - the one-line link under the hero image
+ *   quickguide   - a link inside the Quick Guide table (first table of the post)
+ *   box1 / box2… - the n-th .affiliate-inline-cta box in document order
+ *   table        - any other table
+ *   inline       - a plain link in running text
+ */
+function getCtaContext(link: HTMLAnchorElement): string {
+  if (link.closest('.affiliate-topline')) return 'topline';
+  const box = link.closest('.affiliate-inline-cta');
+  if (box) {
+    const boxes = Array.from(document.querySelectorAll('.affiliate-inline-cta'));
+    const index = boxes.indexOf(box as Element);
+    return index === -1 ? 'box' : `box${index + 1}`;
+  }
+  const table = link.closest('table');
+  if (table) {
+    const tables = Array.from(document.querySelectorAll('.blog-content table, article table'));
+    return tables.indexOf(table) === 0 ? 'quickguide' : 'table';
+  }
+  return 'inline';
+}
+
 function buildAmazonAffiliateParams(link: HTMLAnchorElement): AmazonAffiliateEventParams | null {
   let url: URL;
 
@@ -95,7 +122,7 @@ function buildAmazonAffiliateParams(link: HTMLAnchorElement): AmazonAffiliateEve
   const contentContext = getContentContext(pathname);
   const affiliateTag = url.searchParams.get('tag') || (url.hostname.toLowerCase() === 'amzn.to' ? 'amzn_shortlink' : '');
   const query = url.searchParams.get('k') || url.searchParams.get('keywords') || '';
-  const ctaContext = link.closest('.affiliate-inline-cta') ? 'affiliate_inline_cta' : 'inline_link';
+  const ctaContext = getCtaContext(link);
 
   return {
     affiliate_domain: url.hostname,
@@ -130,7 +157,7 @@ function buildAgodaAffiliateParams(link: HTMLAnchorElement): AgodaAffiliateEvent
     affiliate_domain: url.hostname,
     content_slug: contentContext.content_slug,
     content_type: contentContext.content_type,
-    cta_context: link.closest('.affiliate-inline-cta') ? 'affiliate_inline_cta' : 'inline_link',
+    cta_context: getCtaContext(link),
     destination_id: cleanParam(cityId),
     destination_type: cityId ? 'city' : 'other',
     link_path: cleanParam(`${url.hostname}${url.pathname}`),
