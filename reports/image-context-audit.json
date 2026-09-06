@@ -1,10 +1,10 @@
 {
   "summary": {
-    "generatedAt": "2026-09-06T13:30:03.018Z",
+    "generatedAt": "2026-09-06T14:23:38.195Z",
     "auditedPosts": 449,
     "includedPrivate": false,
     "slugFilter": "",
-    "bodyImages": 1619,
+    "bodyImages": 1621,
     "affectedPosts": 96,
     "critical": 0,
     "high": 0,
@@ -16376,12 +16376,12 @@
       "title": "Korea's Neighbourhood Bathhouses Are Disappearing, and the Bath Is Not: Where the Hot Water Went",
       "contentPath": "content\\blog\\451.md",
       "sourceRecord": "public\\assets\\images\\posts\\451\\image-sources.md",
-      "imageCount": 11,
+      "imageCount": 13,
       "images": [
         {
-          "url": "/assets/images/posts/451/haeundae-spa-center-24h-bathhouse-busan.jpg",
-          "alt": "The Haeundae Spa Center in Busan at dusk, a plain concrete bathhouse block with a red 24-hour sign and the name in Korean on the roof.",
-          "caption": "A Korean bathhouse as most Koreans know it: a plain block, a 24-hour sign, the name in Korean on the roof. Haeundae Spa Center, Busan. Photo: public domain, via Wikimedia Commons.",
+          "url": "/assets/images/posts/451/hurshimchung-stone-bath-hall-official.jpg",
+          "alt": "An empty Korean hot-spring bath hall: a curved stone wall, a wide pool of pale green water with a stone floor, no one in it.",
+          "caption": "The room this post is about: a Korean bath hall, empty. This one is a hot-spring pool at a bathhouse in Dongnae, Busan. Image: Hotel Nongshim, shown for identification.",
           "ext": ".jpg",
           "exists": true
         },
@@ -16389,6 +16389,13 @@
           "url": "/assets/images/posts/451/bathhouse-counter-monthly-pass-sign-2020.jpg",
           "alt": "The front counter of a Korean bathhouse in 2020: shelves of folded towels and sauna clothes, a rack of scrub mitts, and yellow signs offering a month of baths for ₩120,000 cash.",
           "caption": "The counter of a neighbourhood bathhouse in 2020: towels, sauna clothes, scrub mitts, and a yellow sign selling a month of baths for ₩120,000 in cash, two months for ₩200,000. The regulars buy the month. Photo: CC0, via Wikimedia Commons.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/451/hurshimchung-glass-roof-bath-official.jpg",
+          "alt": "A large indoor hot-spring pool under a glass roof, stone walls and a small wooden sauna hut at the far end, no bathers.",
+          "caption": "The bath young Koreans will still pay for: hot-spring water under a glass roof, stone, wood, and nobody else in it. Image: Hotel Nongshim, shown for identification.",
           "ext": ".jpg",
           "exists": true
         },
@@ -16449,9 +16456,16 @@
           "exists": true
         },
         {
+          "url": "/assets/images/posts/451/haeundae-spa-center-24h-bathhouse-busan.jpg",
+          "alt": "The Haeundae Spa Center in Busan at dusk, a plain concrete bathhouse block with a red 24-hour sign and the name in Korean on the roof.",
+          "caption": "What to look for from the street: a plain block, a red 24시 sign, the name in Korean on the roof. Haeundae Spa Center, Busan. Photo: public domain, via Wikimedia Commons.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
           "url": "/assets/images/posts/451/sauna-jjimjilbang-24h-lightbox-sign.jpg",
           "alt": "A lightbox sign at night reading, in Korean, sauna, jjimjilbang, 24 hours.",
-          "caption": "The sign to look for: 사우나 · 찜질방 · 24시. Photo: CC BY-SA 3.0, via Wikimedia Commons.",
+          "caption": "And the smaller version: 사우나 · 찜질방 · 24시. Photo: CC BY-SA 3.0, via Wikimedia Commons.",
           "ext": ".jpg",
           "exists": true
         }
