@@ -3249,6 +3249,76 @@
         "Korean BBQ",
         "Made in Korea"
       ]
+    },
+    {
+      "id": "youn-sun-nah-lento-cd",
+      "name": "Youn Sun Nah, Lento (CD, ACT)",
+      "description": "Korean jazz singer Youn Sun Nah's 2013 album, gold in Germany and France.",
+      "price": "",
+      "url": "https://www.amazon.com/dp/B00B5HE9LI?tag=epickor-20",
+      "category": "Music",
+      "image": "",
+      "tags": [
+        "Jazz",
+        "Korean Music",
+        "Youn Sun Nah"
+      ]
+    },
+    {
+      "id": "sumi-jo-only-love-2cd",
+      "name": "Sumi Jo, Only Love (2 CD)",
+      "description": "Soprano Sumi Jo's crossover album of musical and film songs, recorded 2000 with Ettore Stratta.",
+      "price": "",
+      "url": "https://www.amazon.com/dp/B0006BCPJC?tag=epickor-20",
+      "category": "Music",
+      "image": "",
+      "tags": [
+        "Classical",
+        "Korean Music",
+        "Sumi Jo"
+      ]
+    },
+    {
+      "id": "kyung-wha-chung-complete-warner",
+      "name": "Kyung-wha Chung: The Complete Warner Recordings",
+      "description": "Box set of violinist Kyung-wha Chung's EMI-era recordings.",
+      "price": "",
+      "url": "https://www.amazon.com/dp/B01KBI5O06?tag=epickor-20",
+      "category": "Music",
+      "image": "",
+      "tags": [
+        "Classical",
+        "Korean Music",
+        "Kyung-wha Chung"
+      ]
+    },
+    {
+      "id": "unsuk-chin-alice-in-wonderland-bluray",
+      "name": "Unsuk Chin: Alice in Wonderland (Blu-ray, Bayerische Staatsoper/Nagano)",
+      "description": "The 2007 Munich premiere production of Korean composer Unsuk Chin's opera.",
+      "price": "",
+      "url": "https://www.amazon.com/dp/B00FTGC5KI?tag=epickor-20",
+      "category": "Music",
+      "image": "",
+      "tags": [
+        "Opera",
+        "Korean Music",
+        "Unsuk Chin"
+      ]
+    },
+    {
+      "id": "do-ho-suh-walk-the-house-book",
+      "name": "Do Ho Suh: Walk the House (Tate exhibition catalogue)",
+      "description": "Catalogue of the 2025 Tate Modern survey of Korean artist Do Ho Suh.",
+      "price": "",
+      "url": "https://www.amazon.com/dp/1849769672?tag=epickor-20",
+      "category": "Books",
+      "image": "",
+      "tags": [
+        "Art",
+        "Korean Art",
+        "Do Ho Suh"
+      ]
     }
   ]
 }
