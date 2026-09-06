@@ -1,10 +1,10 @@
 {
   "summary": {
-    "generatedAt": "2026-09-06T05:50:04.480Z",
-    "auditedPosts": 445,
+    "generatedAt": "2026-09-06T08:13:27.633Z",
+    "auditedPosts": 446,
     "includedPrivate": false,
     "slugFilter": "",
-    "bodyImages": 1586,
+    "bodyImages": 1594,
     "affectedPosts": 96,
     "critical": 0,
     "high": 0,
@@ -5462,7 +5462,7 @@
         {
           "url": "/assets/images/posts/149/makgeolli-kto-official-02.jpg",
           "alt": "Traditional makgeolli served with Korean food",
-          "caption": "",
+          "caption": "You might like: [Makgeolli Got Clean and Korean Traditional Liquor Got Beautiful: Why Koreans Still Rarely Drink It, and the One Alcohol Korea Lets You Buy Online](/blog/448)",
           "ext": ".jpg",
           "exists": true
         }
@@ -16177,6 +16177,73 @@
           "url": "/assets/images/posts/447/somaek-pour-hite-glass-2010.jpg",
           "alt": "A brown Hite beer bottle being poured into a tall Hite glass to make somaek, a soju glass beside it.",
           "caption": "Somaek being built, 2010: the soju goes in first, the beer on top. Photo: CC BY 2.0, via Wikimedia Commons.",
+          "ext": ".jpg",
+          "exists": true
+        }
+      ],
+      "findings": []
+    },
+    {
+      "type": "blog",
+      "slug": "448",
+      "title": "Makgeolli Got Clean and Korean Traditional Liquor Got Beautiful: Why Koreans Still Rarely Drink It, and the One Alcohol Korea Lets You Buy Online",
+      "contentPath": "content\\blog\\448.md",
+      "sourceRecord": "public\\assets\\images\\posts\\448\\image-sources.md",
+      "imageCount": 8,
+      "images": [
+        {
+          "url": "/assets/images/posts/448/geumjeongsanseong-makgeolli-bottles-busan-2022.jpg",
+          "alt": "Three bottles of Geumjeongsanseong makgeolli and a set of small cups on a low wooden tray outdoors in Busan.",
+          "caption": "Geumjeongsanseong makgeolli, brewed in a fortress village above Busan and designated Korea's first folk makgeolli in 1980. Photo: Korea.net (KOCIS), CC BY-SA 2.0.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/448/makgeolli-white-bowl-ladle-2006.jpg",
+          "alt": "A white ceramic bowl of makgeolli with a ladle, on a wooden table in a Korean restaurant, 2006.",
+          "caption": "Makgeolli the old way, 2006: a communal bowl, a ladle, and a sediment you stirred back in. Photo: CC BY-SA 2.5, via Wikimedia Commons.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/448/geumjeongsanseong-brewer-nuruk-disc-2022.jpg",
+          "alt": "A brewer at Geumjeongsanseong, Busan, smiling and holding up a round disc of nuruk in front of drying racks.",
+          "caption": "The nuruk disc: wheat, water, and whatever grows on it in the mountain air. This is the whole difference between Korean and Japanese brewing. Photo: Korea.net (KOCIS), CC BY-SA 2.0.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/448/makgeolli-poured-gourd-ladle-jar-2022.jpg",
+          "alt": "Makgeolli being poured from a gourd ladle into an earthenware jar, hands in traditional dress.",
+          "caption": "The pour. The technique has not changed; the filtering afterwards has. Photo: Korea.net (KOCIS), CC BY-SA 2.0.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/448/pajeon-and-makgeolli-bowl-gwacheon-2015.jpg",
+          "alt": "A basket of scallion pancake beside a dark ceramic bowl of makgeolli and a dipping sauce, on a wooden table.",
+          "caption": "The pairing that made it famous: pajeon and a bowl of makgeolli, Gwacheon, 2015. Photo: KOCIS, CC BY-SA 2.0.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/448/andong-soju-ceramic-bottles-2007.jpg",
+          "alt": "Rows of white ceramic Andong soju bottles with the name in blue and red Chinese characters.",
+          "caption": "Andong soju in the folk-liquor bottle: 45 percent, distilled from rice, the drink the green bottle replaced. Photo: CC BY 2.0, via Wikimedia Commons.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/448/andong-soju-park-jae-seo-gourd-bottle-2009.jpg",
+          "alt": "A single white gourd-shaped bottle of Park Jae-seo's Andong soju with a small cup, on a table.",
+          "caption": "Park Jae-seo's Andong soju in the gourd bottle. The label is the same style Korean tigers and magpies are now painted on. Photo: CC BY-SA 3.0, via Wikimedia Commons.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/448/makgeolli-kettle-bowl-2022.jpg",
+          "alt": "A brass makgeolli kettle and a bowl of makgeolli on a dark table.",
+          "caption": "The kettle and the bowl: how makgeolli is still served in the places that take it seriously. Photo: Korea.net (KOCIS), CC BY-SA 2.0.",
           "ext": ".jpg",
           "exists": true
         }
