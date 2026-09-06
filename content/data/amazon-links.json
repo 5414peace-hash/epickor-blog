@@ -3431,6 +3431,34 @@
         "Yuja",
         "Tea"
       ]
+    },
+    {
+      "id": "kanu-mini-dark-roast-americano-30",
+      "name": "Maxim KANU Mini Dark Roast Americano, 0.9 g x 30 sticks",
+      "description": "Korea's instant americano stick, the office desk answer to the ₩4,700 cup.",
+      "price": "",
+      "url": "https://www.amazon.com/dp/B0F9Y58R7Z?tag=epickor-20",
+      "category": "Grocery",
+      "image": "",
+      "tags": [
+        "Korean Coffee",
+        "KANU",
+        "Instant Coffee"
+      ]
+    },
+    {
+      "id": "kanu-americano-dark-70-sticks",
+      "name": "Maxim KANU Americano Dark Roast, 1.6 g x 70 sticks",
+      "description": "The full-size KANU americano stick, 70 count.",
+      "price": "",
+      "url": "https://www.amazon.com/dp/B018SK2Z56?tag=epickor-20",
+      "category": "Grocery",
+      "image": "",
+      "tags": [
+        "Korean Coffee",
+        "KANU",
+        "Instant Coffee"
+      ]
     }
   ]
 }
