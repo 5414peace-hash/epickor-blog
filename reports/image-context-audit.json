@@ -1,10 +1,10 @@
 {
   "summary": {
-    "generatedAt": "2026-09-06T04:09:08.439Z",
-    "auditedPosts": 444,
+    "generatedAt": "2026-09-06T05:50:04.480Z",
+    "auditedPosts": 445,
     "includedPrivate": false,
     "slugFilter": "",
-    "bodyImages": 1579,
+    "bodyImages": 1586,
     "affectedPosts": 96,
     "critical": 0,
     "high": 0,
@@ -16117,6 +16117,66 @@
           "url": "/assets/images/posts/446/taedonggang-microbrewery-no3-pyongyang-2014.jpg",
           "alt": "Three glasses of beer, one dark, two pale, on a wooden bar at Taedonggang Microbrewery No. 3 in Pyongyang, 2014.",
           "caption": "Seven styles on tap at Taedonggang Microbrewery No. 3, Pyongyang, January 2014. Photo: CC BY-SA 2.0, via Wikimedia Commons.",
+          "ext": ".jpg",
+          "exists": true
+        }
+      ],
+      "findings": []
+    },
+    {
+      "type": "blog",
+      "slug": "447",
+      "title": "Why Korean Soju Keeps Getting Weaker, Pricier, and Less Drunk: The 100-Year Slide from 35% to 15.7%",
+      "contentPath": "content\\blog\\447.md",
+      "sourceRecord": "public\\assets\\images\\posts\\447\\image-sources.md",
+      "imageCount": 7,
+      "images": [
+        {
+          "url": "/assets/images/posts/447/chamisul-original-fresh-mart-shelf-2024.jpg",
+          "alt": "Bottles of Chamisul Original (red cap, 20.1 percent) and Chamisul Fresh (green cap, 16 percent) side by side on a Korean supermarket shelf.",
+          "caption": "Two Chamisuls on a mart shelf in 2024: Original at 20.1 percent, Fresh at 16. Fresh has since gone to 15.7. Photo: CC BY-SA 4.0, via Wikimedia Commons.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/447/jinro-25-hitejinro-product-banner.jpg",
+          "alt": "Hite Jinro's product banner for Jinro 25: a green bottle with the classic red 眞露 label and the toad mark.",
+          "caption": "Jinro 25, still on sale for people who remember what soju used to be. It is the same 25 percent the country drank from 1973 to 1998. Product image: Hite Jinro, shown for identification.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/447/chamisul-fresh-bottle-glass-table-2008.jpg",
+          "alt": "A bottle of Chamisul Fresh and a filled soju glass on a restaurant table beside plates of banchan.",
+          "caption": "The bottle that costs ₩1,900 in the fridge and ₩6,000 on this table. Photo: CC BY-SA 2.0, via Wikimedia Commons.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/447/chamisul-soju-glass-cheers-2010.jpg",
+          "alt": "A hand holding a Chamisul-branded soju glass up to the camera across a restaurant table, a green bottle blurred behind.",
+          "caption": "The toast, 2010. The survey that year found 37.9 percent of Koreans under thirty drank monthly or less; in 2024 it was 56 percent. Photo: CC BY-SA 2.0, via Wikimedia Commons.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/447/soju-fridge-jinro-chumchurum-chamisul-2024.jpg",
+          "alt": "A convenience-store fridge door in Korea holding, left to right, a sky-blue Jinro, a Chum-Churum, a Chamisul, a Bohae, and a ginger beer.",
+          "caption": "The shelf in 2024: Jinro's sky-blue bottle at the left, the one that broke the green-bottle agreement, and the three green ones that kept it. Photo: CC BY-SA 4.0, via Wikimedia Commons.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/447/green-soju-bottles-recycling-bin-korea.jpg",
+          "alt": "A cardboard box full of empty green soju bottles at an apartment-complex recycling point in Korea.",
+          "caption": "Empties outside a Korean apartment complex. Since 2009 any maker can wash and refill any of these. Photo: CC BY-SA 4.0, via Wikimedia Commons.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/447/somaek-pour-hite-glass-2010.jpg",
+          "alt": "A brown Hite beer bottle being poured into a tall Hite glass to make somaek, a soju glass beside it.",
+          "caption": "Somaek being built, 2010: the soju goes in first, the beer on top. Photo: CC BY 2.0, via Wikimedia Commons.",
           "ext": ".jpg",
           "exists": true
         }
