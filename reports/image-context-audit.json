@@ -1,10 +1,10 @@
 {
   "summary": {
-    "generatedAt": "2026-09-06T10:19:15.750Z",
-    "auditedPosts": 447,
+    "generatedAt": "2026-09-06T11:46:02.254Z",
+    "auditedPosts": 448,
     "includedPrivate": false,
     "slugFilter": "",
-    "bodyImages": 1601,
+    "bodyImages": 1608,
     "affectedPosts": 96,
     "critical": 0,
     "high": 0,
@@ -16304,6 +16304,66 @@
           "url": "/assets/images/posts/449/gotgam-dried-persimmons-2018.jpg",
           "alt": "A plate of gotgam, dried persimmons, orange and glossy, on white cloth.",
           "caption": "Gotgam, dried persimmons: the Korean fruit that keeps, and the one fruit gift a foreigner can take home. Photo: CC0, via Wikimedia Commons.",
+          "ext": ".jpg",
+          "exists": true
+        }
+      ],
+      "findings": []
+    },
+    {
+      "type": "blog",
+      "slug": "450",
+      "title": "Why Korea Has 100,000 Cafés: The ₩2,000 Americano, the ₩222 Bean, and Why Half of Them Will Close",
+      "contentPath": "content\\blog\\450.md",
+      "sourceRecord": "public\\assets\\images\\posts\\450\\image-sources.md",
+      "imageCount": 7,
+      "images": [
+        {
+          "url": "/assets/images/posts/450/starbucks-gyeongju-daereungwon-hanok-2017.jpg",
+          "alt": "The Starbucks at Daereungwon in Gyeongju, built as a traditional tiled-roof hanok with the green sign under the eaves.",
+          "caption": "Starbucks Gyeongju Daereungwon, built as a hanok beside the royal tombs. Korea's 2,185 Starbucks stores are run not by Seattle but by Shinsegae, Korea's department-store group. Photo: CC BY-SA 3.0, via Wikimedia Commons.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/450/ediya-coffee-jecheon-2020.jpg",
+          "alt": "An Ediya Coffee shop on a street corner in Jecheon, blue sign, two storeys, on a quiet residential street.",
+          "caption": "Ediya in Jecheon, a provincial city: the middle tier, ₩3,200 for an americano and a seat, and the franchise that reached small towns before the budget chains did. Photo: CC0, via Wikimedia Commons.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/450/starbucks-seoul-menu-board-2001.jpg",
+          "alt": "A Starbucks menu board in Seoul in 2001, prices in won: iced caffè americano ₩3,000 and ₩3,500, frappuccinos ₩4,000 to ₩5,000.",
+          "caption": "A Seoul Starbucks board in 2001: iced americano ₩3,000. Twenty-five years later it is ₩4,700. Photo: Alex C, CC BY 2.0, via Wikimedia Commons.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/450/mega-mgc-coffee-storefront-official.jpg",
+          "alt": "The yellow storefront of a Mega MGC Coffee shop, the sign reading MEGA MGC COFFEE, posters in the window.",
+          "caption": "Mega MGC Coffee: ten pyeong, a yellow sign, ₩2,000 iced americano, 4,466 stores. Image: Mega MGC Coffee, shown for identification.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/450/seongsu-dong-cafe-storefront-2023.jpg",
+          "alt": "A small black-box café in Seongsu-dong, Seoul, with two outdoor tables under a tree and stone stools on the pavement.",
+          "caption": "Seongsu-dong, Seoul: the independent café as a product. The coffee is the same as everywhere else; the box is the business. Photo: CC BY-SA 4.0, via Wikimedia Commons.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/450/seongsu-dong-garden-cafe-2022.jpg",
+          "alt": "A garden café in Seongsu-dong with hydrangeas, a white pergola and green chairs on a brick terrace.",
+          "caption": "A garden café in Seongsu-dong, 2022. The neighbourhood's cafés turn over roughly every two years as the fashionable interior changes. Photo: CC BY-SA 4.0, via Wikimedia Commons.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/450/starbucks-insadong-hangul-sign-2016.jpg",
+          "alt": "A Starbucks in Insadong, Seoul, with the name spelled in Korean letters, 스타벅스커피, on a green sign.",
+          "caption": "The Insadong Starbucks, the only one in the world that had to write its name in hangul. The district asked; the company agreed. Photo: CC BY-SA 4.0, via Wikimedia Commons.",
           "ext": ".jpg",
           "exists": true
         }

@@ -99,6 +99,8 @@ Iced Americano can be extremely cheap or surprisingly expensive depending on whe
 </table>
 </div>
 
+*You might like: [Why Korea Has 100,000 Cafés: The ₩2,000 Americano, the ₩222 Bean, and Why Half of Them Will Close](/blog/450)*
+
 ## Why the Ice Matters
 
 Ice changes the experience. It slows dilution, keeps the drink sharp, and lets people carry one cup for a long time. For students or laptop workers, that matters. A hot coffee becomes lukewarm. An iced Americano remains drinkable while studying, waiting, commuting, or chatting.
