@@ -80,6 +80,8 @@ Do not judge Korean beer only by craft-beer standards. The mainstream role is re
 
 For the food side, EpicKor's [Korean fried chicken guide](/blog/018), [Korean baseball guide](/blog/081), and [night picnic guide](/blog/267) connect beer to real travel situations.
 
+*You might like: [Is Korean Beer Really Bad? The North Korean Insult, Cass vs Terra vs Kelly, and the Craft Cans Worth Buying](/blog/446)*
+
 ## Traditional Sool: Korea Beyond Green Bottles
 
 Traditional **sool** is a broad category. Korea.net explains that traditional Korean alcoholic beverages include fermented liquors, distilled liquors, and blended liquors, often based on grains such as rice and fermentation with nuruk. Its guide also notes the wide range of makgeolli, yakju, soju, distilled forms, and fruit-based drinks. See Korea.net's <a href="https://www.korea.net/NewsFocus/FoodTravel/view?articleId=225186" target="_blank" rel="noopener noreferrer">guide to Korean alcoholic beverages</a> and its <a href="https://www.korea.net/K-InfoHub/SubMainDetail/view?articleId=4086&amp;headwordCd=71&amp;headwordGroupCd=27&amp;pageIndex=1" target="_blank" rel="noopener noreferrer">traditional liquor overview</a>.

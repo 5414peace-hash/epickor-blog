@@ -1,10 +1,10 @@
 {
   "summary": {
-    "generatedAt": "2026-09-06T00:46:06.800Z",
-    "auditedPosts": 443,
+    "generatedAt": "2026-09-06T04:09:08.439Z",
+    "auditedPosts": 444,
     "includedPrivate": false,
     "slugFilter": "",
-    "bodyImages": 1572,
+    "bodyImages": 1579,
     "affectedPosts": 96,
     "critical": 0,
     "high": 0,
@@ -16057,6 +16057,66 @@
           "url": "/assets/images/posts/445/do-ho-suh-bridging-home-liverpool-2010.jpg",
           "alt": "Do Ho Suh's Bridging Home, a full-size traditional Korean house wedged at an angle between two brick buildings on a Liverpool street.",
           "caption": "Bridging Home (2010), a hanok jammed between two terraces on Duke Street, Liverpool, for the Liverpool Biennial. Photo: CC BY 2.0, via Wikimedia Commons.",
+          "ext": ".jpg",
+          "exists": true
+        }
+      ],
+      "findings": []
+    },
+    {
+      "type": "blog",
+      "slug": "446",
+      "title": "Is Korean Beer Really Bad? The North Korean Insult, Cass vs Terra vs Kelly, and the Craft Cans Worth Buying",
+      "contentPath": "content\\blog\\446.md",
+      "sourceRecord": "public\\assets\\images\\posts\\446\\image-sources.md",
+      "imageCount": 7,
+      "images": [
+        {
+          "url": "/assets/images/posts/446/daegu-chimaek-festival-2016.jpg",
+          "alt": "Crowds under blue-and-white tents at the Daegu Chimaek Festival at dusk, fireworks over the stage and Daegu Tower in the background.",
+          "caption": "The Daegu Chimaek Festival, where the argument about Korean beer goes to be ignored: fried chicken, a cold lager, and 1.15 million visitors in 2026, about 100,000 of them from abroad, none of whom asked about malt content. Photo: Daegu Metropolitan City, KOGL Type 1.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/446/taedonggang-beer-bottle-pyongyang-2012.jpg",
+          "alt": "A green 640 ml bottle of Taedonggang beer beside a half-full glass on a bar counter in Pyongyang.",
+          "caption": "Taedonggang, photographed in Pyongyang in October 2012, the month before The Economist compared it favourably to everything brewed in Seoul. Photo: CC BY-SA 2.0, via Wikimedia Commons.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/446/cass-draft-mug-seoul-2012.jpg",
+          "alt": "A frosted Cass Draft mug on a tiled counter in a Seoul bar, 2012.",
+          "caption": "Cass on draft in Seoul, 2012. Cold, fizzy, nothing in the nose, and that is the design. Photo: CC BY-SA 2.0, via Wikimedia Commons.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/446/cass-ob-hite-korean-table-2011.jpg",
+          "alt": "Three Korean beers on a restaurant table: a bottle of OB Blue between glasses of Cass and Hite, with side dishes.",
+          "caption": "The entire Korean beer market in one photograph, 2011: OB, Cass and Hite, and side dishes. Photo: CC BY-SA 3.0, via Wikimedia Commons.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/446/kelly-beer-hitejinro-product-banner.jpg",
+          "alt": "Hite Jinro's Kelly beer banner: a tall glass of amber lager beside the amber bottle, with the Korean copy \"100% Danish premium malt.\"",
+          "caption": "Kelly, as Hite Jinro presents it: all-malt, Danish barley, and the first mainstream Korean lager in an amber bottle. Product image: Hite Jinro, shown for identification.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/446/hite-bottle-poured-glass-2013.jpg",
+          "alt": "A bottle of Hite being poured into a tall pilsner glass on a wooden table, 2013.",
+          "caption": "Hite, 2013: the beer that was number one when the column came out, and the one losing ten percent a year now. Photo: CC BY-SA 3.0, via Wikimedia Commons.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/446/taedonggang-microbrewery-no3-pyongyang-2014.jpg",
+          "alt": "Three glasses of beer, one dark, two pale, on a wooden bar at Taedonggang Microbrewery No. 3 in Pyongyang, 2014.",
+          "caption": "Seven styles on tap at Taedonggang Microbrewery No. 3, Pyongyang, January 2014. Photo: CC BY-SA 2.0, via Wikimedia Commons.",
           "ext": ".jpg",
           "exists": true
         }
