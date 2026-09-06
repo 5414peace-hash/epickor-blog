@@ -3389,6 +3389,48 @@
         "Home Brewing",
         "Korean Drinks"
       ]
+    },
+    {
+      "id": "cheongdo-gotgam-persimmon-chew-5pack",
+      "name": "Korean Sweet Persimmon Chew, Cheongdo Bansi gotgam (60 g x 5)",
+      "description": "Seedless dried-persimmon snack from Cheongdo, Korea's persimmon county.",
+      "price": "",
+      "url": "https://www.amazon.com/dp/B0FGPJ362T?tag=epickor-20",
+      "category": "Grocery",
+      "image": "",
+      "tags": [
+        "Korean Fruit",
+        "Persimmon",
+        "Snack"
+      ]
+    },
+    {
+      "id": "damtuh-hallabong-honey-tea",
+      "name": "Damtuh Honey Hallabong Tea, 2.2 lb jar",
+      "description": "Jeju hallabong citrus preserve, the Korean marmalade-style tea base.",
+      "price": "",
+      "url": "https://www.amazon.com/dp/B07MLTY288?tag=epickor-20",
+      "category": "Grocery",
+      "image": "",
+      "tags": [
+        "Korean Fruit",
+        "Jeju",
+        "Tea"
+      ]
+    },
+    {
+      "id": "damtuh-yuja-citron-tea",
+      "name": "Damtuh Korean Honey Citron (Yuja) Tea, 1.7 lb jar",
+      "description": "Yuja citron preserve for the standard Korean winter fruit tea.",
+      "price": "",
+      "url": "https://www.amazon.com/dp/B074TZFYRR?tag=epickor-20",
+      "category": "Grocery",
+      "image": "",
+      "tags": [
+        "Korean Fruit",
+        "Yuja",
+        "Tea"
+      ]
     }
   ]
 }
