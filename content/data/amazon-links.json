@@ -3361,6 +3361,34 @@
         "Glassware",
         "Jinro"
       ]
+    },
+    {
+      "id": "wang-nuruk-powder-2pack",
+      "name": "Wang Nuruk Powder for Makgeolli, 16 oz (pack of 2)",
+      "description": "Korean-made nuruk fermentation starter for brewing makgeolli at home.",
+      "price": "",
+      "url": "https://www.amazon.com/dp/B093GK9MQK?tag=epickor-20",
+      "category": "Grocery",
+      "image": "",
+      "tags": [
+        "Makgeolli",
+        "Nuruk",
+        "Home Brewing"
+      ]
+    },
+    {
+      "id": "k-makgeolli-diy-kit-container",
+      "name": "K-Makgeolli DIY Kit with fermentation container (3 flavours)",
+      "description": "24-hour makgeolli kit: brown rice, black raspberry and Jeju mandarin, with a reusable container.",
+      "price": "",
+      "url": "https://www.amazon.com/dp/B0DBVT1158?tag=epickor-20",
+      "category": "Home & Kitchen",
+      "image": "",
+      "tags": [
+        "Makgeolli",
+        "Home Brewing",
+        "Korean Drinks"
+      ]
     }
   ]
 }
