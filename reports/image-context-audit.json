@@ -1,10 +1,10 @@
 {
   "summary": {
-    "generatedAt": "2026-09-05T16:09:28.408Z",
-    "auditedPosts": 442,
+    "generatedAt": "2026-09-06T00:46:06.800Z",
+    "auditedPosts": 443,
     "includedPrivate": false,
     "slugFilter": "",
-    "bodyImages": 1565,
+    "bodyImages": 1572,
     "affectedPosts": 96,
     "critical": 0,
     "high": 0,
@@ -15997,6 +15997,66 @@
           "url": "/assets/images/posts/444/daiso-korean-kitchen-scissors.jpg",
           "alt": "Product photograph of a Daiso large kitchen scissor: grey stainless blades, black rubber-lined rings and gripper teeth between the handles.",
           "caption": "The ₩3,000 version. Thick stainless blades, a serrated tip, big rubber-lined rings and gripper teeth between the handles: the restaurant pair, from a discount store. Product image: Daiso Korea, shown for identification.",
+          "ext": ".jpg",
+          "exists": true
+        }
+      ],
+      "findings": []
+    },
+    {
+      "type": "blog",
+      "slug": "445",
+      "title": "Famous Koreans Beyond BTS: Nine Artists the World Has Followed for 30 to 70 Years",
+      "contentPath": "content\\blog\\445.md",
+      "sourceRecord": "public\\assets\\images\\posts\\445\\image-sources.md",
+      "imageCount": 7,
+      "images": [
+        {
+          "url": "/assets/images/posts/445/sochi-2014-closing-sumi-jo-youn-sun-nah.jpg",
+          "alt": "Sumi Jo in a white gown singing at a microphone beside jazz vocalist Youn Sun Nah in red, in front of a crowd of athletes at the Sochi 2014 closing ceremony.",
+          "caption": "Two of the nine on one stage: soprano Sumi Jo and jazz singer Youn Sun Nah at the Sochi 2014 Winter Olympics closing ceremony, during the handover to PyeongChang. Photo: Korean Culture and Information Service (KOCIS), CC BY-SA 2.0.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/445/sumi-jo-london-korea-classic-2012.jpg",
+          "alt": "Sumi Jo in a white gown singing in front of an orchestra at a London concert hall, seen from above.",
+          "caption": "Sumi Jo at the \"Korea Classic\" concert in London, July 2012, staged for the Olympic year. Photo: KOCIS, CC BY-SA 2.0.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/445/myung-whun-chung-mattarella-la-fenice-2022.jpg",
+          "alt": "Conductor Myung-whun Chung, in tails, bending to shake hands with Italian President Sergio Mattarella beside the orchestra after a concert at La Fenice.",
+          "caption": "Chung greets Italian President Sergio Mattarella after conducting the La Fenice orchestra at the Quirinale for the 76th anniversary of the Italian Republic, 1 June 2022. Photo: Presidenza della Repubblica (Quirinale), attribution licence.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/445/kyung-wha-chung-singapore-2015.jpg",
+          "alt": "Violinist Kyung-wha Chung, smiling in a black lace top, signing programmes for fans at a table in Singapore.",
+          "caption": "Kyung-wha Chung signing after a concert with the Singapore Symphony Orchestra, October 2015. Photo: N509FZ, CC BY-SA 4.0, via Wikimedia Commons.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/445/youn-sun-nah-budapest-2026.jpg",
+          "alt": "Jazz singer Youn Sun Nah, with short blonde hair and a white blouse, smiling and making a finger heart in front of a museum display case in Budapest.",
+          "caption": "Youn Sun Nah after a concert at the Korean Cultural Center in Budapest, 29 June 2026. Photo: Tomzorz, CC BY-SA 4.0, via Wikimedia Commons.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/445/kim-duk-soo-paris-2024.jpg",
+          "alt": "Kim Duk-soo, grey-haired with a goatee and a blue scarf, in profile at an outdoor celebration in Paris.",
+          "caption": "Kim Duk-soo at the 60th-anniversary celebration of the Théâtre du Soleil, Cartoucherie de Vincennes, Paris, 26 May 2024. Photo: Wikinade, CC BY-SA 4.0, via Wikimedia Commons.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/445/do-ho-suh-bridging-home-liverpool-2010.jpg",
+          "alt": "Do Ho Suh's Bridging Home, a full-size traditional Korean house wedged at an angle between two brick buildings on a Liverpool street.",
+          "caption": "Bridging Home (2010), a hanok jammed between two terraces on Duke Street, Liverpool, for the Liverpool Biennial. Photo: CC BY 2.0, via Wikimedia Commons.",
           "ext": ".jpg",
           "exists": true
         }
