@@ -1,10 +1,10 @@
 {
   "summary": {
-    "generatedAt": "2026-09-06T11:46:02.254Z",
-    "auditedPosts": 448,
+    "generatedAt": "2026-09-06T13:17:05.388Z",
+    "auditedPosts": 449,
     "includedPrivate": false,
     "slugFilter": "",
-    "bodyImages": 1608,
+    "bodyImages": 1619,
     "affectedPosts": 96,
     "critical": 0,
     "high": 0,
@@ -16364,6 +16364,94 @@
           "url": "/assets/images/posts/450/starbucks-insadong-hangul-sign-2016.jpg",
           "alt": "A Starbucks in Insadong, Seoul, with the name spelled in Korean letters, 스타벅스커피, on a green sign.",
           "caption": "The Insadong Starbucks, the only one in the world that had to write its name in hangul. The district asked; the company agreed. Photo: CC BY-SA 4.0, via Wikimedia Commons.",
+          "ext": ".jpg",
+          "exists": true
+        }
+      ],
+      "findings": []
+    },
+    {
+      "type": "blog",
+      "slug": "451",
+      "title": "Korea's Neighbourhood Bathhouses Are Disappearing, and the Bath Is Not: Where the Hot Water Went",
+      "contentPath": "content\\blog\\451.md",
+      "sourceRecord": "public\\assets\\images\\posts\\451\\image-sources.md",
+      "imageCount": 11,
+      "images": [
+        {
+          "url": "/assets/images/posts/451/hurshimchung-nongshim-hotel-busan-2018.jpg",
+          "alt": "The glass-domed facade of Hurshimchung, the hot-spring bathhouse of the Hotel Nongshim in Dongnae, Busan.",
+          "caption": "Hurshimchung in Dongnae, Busan: a hotel's hot-spring bathhouse on the site of Korea's oldest spa, and one of the formats that is still full while the neighbourhood tang closes. Photo: public domain, via Wikimedia Commons.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/451/jjimjilbang-price-board-2020.jpg",
+          "alt": "A jjimjilbang price board in Korean, 2020: adult bath ₩8,000, sauna ₩10,000, child ₩6,000 and ₩8,000, clothing rental ₩2,000, sleeping towel ₩3,000.",
+          "caption": "A price board in 2020: bath ₩8,000, jjimjilbang ₩10,000, a towel to sleep under ₩3,000. Six years later the bath alone is ₩10,000 and the building is losing money. Photo: CC0, via Wikimedia Commons.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/451/jjimjilbang-lobby-lockers-2020.jpg",
+          "alt": "A wide panorama of a jjimjilbang lobby, wooden lockers along the wall, a drinks fridge, an empty wooden floor.",
+          "caption": "The locker hall of a jjimjilbang in 2020. Nothing about it is dirty; everything about it is shared, and that is the thing a generation raised in private bathrooms will no longer pay for. Photo: CC0, via Wikimedia Commons.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/451/kaiser-palace-sauna-locker-room-seoul-2015.jpg",
+          "alt": "A sauna locker room in a Seoul apartment-hotel, 2015: light wood lockers, a long counter with mirrors, white stools.",
+          "caption": "A sauna locker room in a Sangam-dong residence tower, 2015: what the same room looks like when it is new and private. Photo: CC BY-SA 4.0, via Wikimedia Commons.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/451/riverside-hotel-medispa-lounge-official.jpg",
+          "alt": "The members' lounge of The Riverside Hotel's Medi Spa: dark wood, leather armchairs, a long communal table under warm light.",
+          "caption": "The Riverside Hotel's sauna lounge as the hotel presents it in 2026: renovated, and still the format of 1981, a men's club with a bath attached. Image: The Riverside Hotel, shown for identification.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/451/riverside-hotel-medispa-relax-room-official.jpg",
+          "alt": "The relaxation room of The Riverside Hotel's Medi Spa: rows of reclining leather chairs, each with its own screen.",
+          "caption": "The relaxation room: recliners with screens, the hotel-sauna answer to the jjimjilbang sleeping hall. The building it sits in comes down in 2026. Image: The Riverside Hotel, shown for identification.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/451/hurshimchung-welcome-sign-busan-2018.jpg",
+          "alt": "A gold-lettered wall sign in Korean, English and Japanese: Welcome to Hurshimchung, the best spa in the world.",
+          "caption": "The lobby sign at Hurshimchung, in three languages. Photo: public domain, via Wikimedia Commons.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/451/hoshi-onsen-ryokan-bath-gunma.jpg",
+          "alt": "The stone outdoor bath at Hōshi Onsen ryokan in Gunma, Japan, under snow.",
+          "caption": "Hōshi Onsen in Gunma, a ryokan bath. Koreans are Japan's largest group of foreign visitors, and a large share of them are there for exactly this. Photo: public domain, via Wikimedia Commons.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/451/bulgama-kiln-sauna-room-wonju-2020.jpg",
+          "alt": "A stone-lined kiln sauna room, the bulgama, with a wooden door and a floor of crushed rock, at a 24-hour sauna in Wonju.",
+          "caption": "The bulgama, the kiln room, at a 24-hour sauna in Wonju. The jjimjilbang added this to the bath in the 2000s and took the bathhouse's customers; now the apartment basement is taking the jjimjilbang's. Photo: CC0, via Wikimedia Commons.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/451/japanese-sento-bath-fuji-mural-2021.jpg",
+          "alt": "The men's bath at a Japanese sento, a tiled pool under a painted mural of Mount Fuji.",
+          "caption": "A sento bath under the obligatory Mount Fuji. Japan has lost more than ninety percent of these since 1968, a steeper fall than Korea's. Photo: public domain, via Wikimedia Commons.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/451/kosugiyu-sento-koenji-tokyo-2022.jpg",
+          "alt": "The street front of Kosugiyu, a 1933 bathhouse in Koenji, Tokyo, with its curved tiled roof and carved wooden gable.",
+          "caption": "Kosugiyu in Koenji, Tokyo: a 1933 bathhouse that is now one of the city's fashionable places for people under forty. Photo: CC BY 3.0, via Wikimedia Commons.",
           "ext": ".jpg",
           "exists": true
         }
