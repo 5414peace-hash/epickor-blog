@@ -1,10 +1,10 @@
 {
   "summary": {
-    "generatedAt": "2026-09-06T08:13:27.633Z",
-    "auditedPosts": 446,
+    "generatedAt": "2026-09-06T10:19:15.750Z",
+    "auditedPosts": 447,
     "includedPrivate": false,
     "slugFilter": "",
-    "bodyImages": 1594,
+    "bodyImages": 1601,
     "affectedPosts": 96,
     "critical": 0,
     "high": 0,
@@ -16244,6 +16244,66 @@
           "url": "/assets/images/posts/448/makgeolli-kettle-bowl-2022.jpg",
           "alt": "A brass makgeolli kettle and a bowl of makgeolli on a dark table.",
           "caption": "The kettle and the bowl: how makgeolli is still served in the places that take it seriously. Photo: Korea.net (KOCIS), CC BY-SA 2.0.",
+          "ext": ".jpg",
+          "exists": true
+        }
+      ],
+      "findings": []
+    },
+    {
+      "type": "blog",
+      "slug": "449",
+      "title": "Why Is Fruit So Expensive in Korea? The Country That Has Never Imported an Apple, and How to Buy Fruit Anyway",
+      "contentPath": "content\\blog\\449.md",
+      "sourceRecord": "public\\assets\\images\\posts\\449\\image-sources.md",
+      "imageCount": 7,
+      "images": [
+        {
+          "url": "/assets/images/posts/449/gyeongju-seongdong-market-fruit-shop-2006.jpg",
+          "alt": "A fruit shop at Seongdong Market in Gyeongju, its front stacked with boxes of persimmons, apples, grapes, bananas and pineapples under a striped awning.",
+          "caption": "A fruit shop at Seongdong Market, Gyeongju. Traditional markets are where Koreans buy fruit when they want to pay 30 percent less than the supermarket. Photo: CC BY-SA 2.0, via Wikimedia Commons.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/449/jeju-hallabong-on-the-tree-2019.jpg",
+          "alt": "Hallabong citrus ripening on a tree on Jeju Island, the bumpy-topped fruit among dark leaves.",
+          "caption": "Hallabong on Jeju. Korea grows its own citrus and imports mandarins from only three countries; the apple has no import route at all. Photo: Matt Kieffer, CC BY-SA 2.0, via Wikimedia Commons.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/449/korean-pears-singo-price-tags-seoul-2007.jpg",
+          "alt": "Boxed Singo pears in a Seoul shop, each pear in a white foam net, with price tags reading ₩6,000 and ₩7,800.",
+          "caption": "Singo pears in Seoul, each in its own net, at ₩6,000 and ₩7,800 apiece. This photograph is from 2007, which is the point: the price has always been the price. Photo: CC BY 2.0, via Wikimedia Commons.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/449/shine-muscat-grapes-korea-2023.jpg",
+          "alt": "A bunch of pale green Shine Muscat grapes on a blue-rimmed plate.",
+          "caption": "Shine Muscat: ₩30,000 a bunch in 2019, ₩16,500 for two kilos in 2026. The one Korean fruit whose price fell, and why. Photo: CC BY-SA 4.0, via Wikimedia Commons.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/449/hallabong-gift-boxes-department-store-seoul-2007.jpg",
+          "alt": "Hallabong citrus and boxed fruit gift sets stacked in a Seoul department-store food hall.",
+          "caption": "Fruit as an object: hallabong and boxed gift sets in a Seoul department store. The box is the product. Photo: CC BY 2.0, via Wikimedia Commons.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/449/chamoe-korean-melon-street-cart-seoul-2007.jpg",
+          "alt": "A street cart in Seoul piled with yellow chamoe melons, a woman selling from it in front of shopfronts.",
+          "caption": "Chamoe from a street cart in Myeong-dong. Most of Korea's crop comes from one county, Seongju in North Gyeongsang, and almost none of it leaves the country. Photo: CC BY-SA 2.0, via Wikimedia Commons.",
+          "ext": ".jpg",
+          "exists": true
+        },
+        {
+          "url": "/assets/images/posts/449/gotgam-dried-persimmons-2018.jpg",
+          "alt": "A plate of gotgam, dried persimmons, orange and glossy, on white cloth.",
+          "caption": "Gotgam, dried persimmons: the Korean fruit that keeps, and the one fruit gift a foreigner can take home. Photo: CC0, via Wikimedia Commons.",
           "ext": ".jpg",
           "exists": true
         }
