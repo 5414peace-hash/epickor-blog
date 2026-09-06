@@ -4871,3 +4871,4 @@
 - **Pexels에는 한국 목욕탕 사진이 없다** — 7개 검색어(korean bathhouse, jjimjilbang, korean sauna, korean spa bath, public bath korea, korean hot spring bath, sauna korea interior) 전부 북유럽 사우나·한옥·욕조만 나옴. 이 주제는 Pexels를 다시 뒤지지 말 것.
 - **커먼즈 `Category:Jjimjilbang`(25개, Choikwangmo9 CC0 2020 시리즈)이 실질적으로 유일한 소스.** `176`이 4장(20.22.38·20.38.42·20.39.31·22.07.47)을 이미 씀. `451`은 카운터(20.48.24)·영신 2·영신 3·해운대온천센터(PD)·24시 라이트박스(480px)를 씀. 아쿠아랜드 1~4, 웰빙24시 2~5, 영신 1, 가격표 20.51.56, 전경 22.18.09는 **미사용 예비**.
 - 한국 목욕탕 **탕 내부** 사진은 176이 쓴 한 장 외에 커먼즈에 없다. 동네 목욕탕 외관·굴뚝도 없다(1930 동래온천 372px뿐).
+- **3차 정정(대표님 "사람 없이 시설만 있는 탕 내부를 첫 사진으로")**: 자유 소스 어디에도 없다 — 커먼즈 Category:Jjimjilbang(로비·카운터·불가마·락커룸뿐), Pexels 7개 검색어, Openverse/Flickr 3건(전부 수면실+사람). **호텔농심 허심청 공식 페이지(`hotelnongshim.com/kr/_Img/Contents/hsc_img01~03.jpg`)의 591px 시설 사진 3장이 유일한 "빈 탕" 실사**이고 0차 규칙으로 원본 크기 사용. 시로암 사우나 공식 사이트는 죽었고(siloam.co.kr는 병원), 스파랜드(신세계)는 JS라 이미지 노출 안 됨.
