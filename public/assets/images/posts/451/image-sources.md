@@ -31,4 +31,4 @@ Nine Commons photographs plus two company images from The Riverside Hotel. All C
 - `Torai Onsen circa 1930.JPG` (372 px), `Jjimjilbang-room.jpg` (295 px), `Yangmeori.jpg` (108 px) — too small.
 - `Deok-gu Hot Spring.jpg` — a 1988 exterior of a hot-spring building in Uljin; not a bathhouse interior.
 - Pexels (`korean bathhouse`, `jjimjilbang`, `korean sauna`, `korean spa bath`, `public bath korea`, `korean hot spring bath`, `sauna korea interior`) — no Korean bathhouse subject at all.
-- No free photograph of the inside of a Korean bath hall (탕) other than the one already used by `176` exists on Commons.
+- No free photograph of the inside of a Korean bath hall (탕) exists on Commons at all; the `176` file titled 찜질방 목욕탕 is in fact a locker hall.
